@@ -1,5 +1,5 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3955, 1881133056, 33358080, 70, -110, -24, -4.37114E-08, 0, 0, -1) /* linkmonstergen15minutes */
+VALUES (3955, 1881133056, 33358080, 70, -110, -24, -4.37114E-08, 0, 0, -1) /* Linkable Monster Gen (15 min.) */
      , (278, 1881133057, 33358081, 84.75, -110, -24, 0.707107, 0, 0, -0.707107) /* Door */
      , (204, 1881133058, 33358081, 80, -110, -23.9925, -0.718733, 0, 0, -0.695286) /* Lich */
      , (855, 1881133059, 33358082, 90, -110, -23.999, -0.707107, 0, 0, -0.707107) /* Altar of Asheron */
@@ -7,7 +7,7 @@ VALUES (3955, 1881133056, 33358080, 70, -110, -24, -4.37114E-08, 0, 0, -1) /* li
      , (2019, 1881133061, 33358087, 60, -110, -17.9825, -0.707107, 0, 0, -0.707107) /* Trothyr's Shield */
      , (204, 1881133062, 33358087, 58.4385, -109.24, -17.9925, 0.707107, 0, 0, -0.707107) /* Lich */
      , (204, 1881133063, 33358087, 58.1658, -107.035, -17.9925, 0.707107, 0, 0, -0.707107) /* Lich */
-     , (3954, 1881133064, 33358090, 69.7241, -115.958, -18, -0.707107, 0, 0, -0.707107) /* linkitemgen15minutes */
+     , (3954, 1881133064, 33358090, 69.7241, -115.958, -18, -0.707107, 0, 0, -0.707107) /* Linkable Item Gen (15 min.) */
      , (204, 1881133065, 33358094, 80, -110, -17.9925, 0.707107, 0, 0, -0.707107) /* Lich */
      , (204, 1881133066, 33358094, 80.7244, -111.588, -17.9925, 0.707107, 0, 0, -0.707107) /* Lich */
      , (204, 1881133067, 33358094, 79.4952, -108.024, -17.9925, 0.707107, 0, 0, -0.707107) /* Lich */
@@ -29,8 +29,8 @@ VALUES (3955, 1881133056, 33358080, 70, -110, -24, -4.37114E-08, 0, 0, -1) /* li
      , (278, 1881133083, 33358237, 84.75, -100, -6, 0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1881133084, 33358245, 94.75, -60, -6, -0.707107, 0, 0, 0.707107) /* Door */
      , (2192, 1881133085, 33358246, 85.25, -60, -6, 0.707107, 0, 0, -0.707107) /* Door */
-     , (1133, 1881133086, 33358253, 85.25, -100, -6, -0.707107, 0, 0, -0.707107) /* itemalchemicalgenerator */
-     , (905, 1881133087, 33358253, 87.039, -100.395, -6, -0.707107, 0, 0, -0.707107) /* ratblackgen */
+     , (1133, 1881133086, 33358253, 85.25, -100, -6, -0.707107, 0, 0, -0.707107) /* Item Alchemical Generator */
+     , (905, 1881133087, 33358253, 87.039, -100.395, -6, -0.707107, 0, 0, -0.707107) /* Black Rat Generator */
      , (16, 1881133088, 33358255, 96.7961, -59.8712, -5.9925, -0.707107, 0, 0, -0.707107) /* Undead */
      , (1098, 1881133089, 33358257, 170, -40, -6, -0.707107, 0, 0, -0.707107) /* Surface */
      , (204, 1881133090, 33358263, 10.5979, -51.4422, 0.0075, 0.829891, 0, 0, -0.557926) /* Lich */
@@ -43,7 +43,7 @@ VALUES (3955, 1881133056, 33358080, 70, -110, -24, -4.37114E-08, 0, 0, -1) /* li
      , (204, 1881133097, 33358292, 20, -60, 0.0075, 1, 0, 0, 0) /* Lich */
      , (1298, 1881133098, 33358297, 20, -55.25, 0, 1, 0, 0, 0) /* Door */
      , (204, 1881133099, 33358303, 30, -50, 0.0075, 0.707107, 0, 0, -0.707107) /* Lich */
-     , (422, 1881133100, 33358305, 42.375, 8.12928E-08, 0, 0.707107, 0, 0, -0.707107) /* itemshield-generator */
+     , (422, 1881133100, 33358305, 42.375, 8.12928E-08, 0, 0.707107, 0, 0, -0.707107) /* Item Shield Generator */
      , (204, 1881133101, 33358306, 40, -10, 0.0075, 0.707107, 0, 0, -0.707107) /* Lich */
      , (204, 1881133102, 33358308, 42.2308, -28.5984, 0.0075, -0.707107, 0, 0, -0.707107) /* Lich */
      , (278, 1881133103, 33358327, 45.25, -120, 0, -0.707107, 0, 0, -0.707107) /* Door */
@@ -54,7 +54,7 @@ VALUES (3955, 1881133056, 33358080, 70, -110, -24, -4.37114E-08, 0, 0, -1) /* li
      , (16, 1881133108, 33358381, 119.666, -38.0205, 0.0075, 1, 0, 0, 0) /* Undead */
      , (16, 1881133109, 33358381, 117.914, -39.7325, 0.0075, 1, 0, 0, 0) /* Undead */
      , (16, 1881133110, 33358381, 120.95, -40.8025, 0.0075, 1, 0, 0, 0) /* Undead */
-     , (1459, 1881133111, 33358385, 131.431, -7.81987, 0, -4.37114E-08, 0, 0, -1) /* itemfoodstaminagen */
+     , (1459, 1881133111, 33358385, 131.431, -7.81987, 0, -4.37114E-08, 0, 0, -1) /* Food Stamina Gen */
      , (1937, 1881133112, 33358385, 133.913, -8.2475, 0.0125, -0.707107, 0, 0, 0.707107) /* Chest */
      , (1624, 1881133113, 33358385, 127.923, -10.9802, 0.012, -4.37114E-08, 0, 0, -1) /* Swamp Rat */
      , (1624, 1881133114, 33358385, 130, -10, 0.012, -4.37114E-08, 0, 0, -1) /* Swamp Rat */
@@ -62,8 +62,8 @@ VALUES (3955, 1881133056, 33358080, 70, -110, -24, -4.37114E-08, 0, 0, -1) /* li
      , (1624, 1881133116, 33358388, 128.855, -21.754, 0.012, 1, 0, 0, 0) /* Swamp Rat */
      , (568, 1881133117, 33358404, 140, -25.25, 0, -4.37114E-08, 0, 0, -1) /* Door */
      , (1296, 1881133118, 33358407, 140, -34.75, 0, 1, 0, 0, -4.37114E-08) /* Door */
-     , (422, 1881133119, 33358408, 140, -37.625, 0, 1, 0, 0, 0) /* itemshield-generator */
-     , (4031, 1881133120, 33358412, 140, -60, 0, 1, 0, 0, 0) /* itemmedutilitygen */
+     , (422, 1881133119, 33358408, 140, -37.625, 0, 1, 0, 0, 0) /* Item Shield Generator */
+     , (4031, 1881133120, 33358412, 140, -60, 0, 1, 0, 0, 0) /* Valuable Utility Generator */
      , (204, 1881133121, 33358412, 141.271, -59.6255, 0.0075, 1, 0, 0, 0) /* Lich */
      , (1298, 1881133122, 33358414, 140, -55.25, 0, 1, 0, 0, 0) /* Door */
      , (204, 1881133123, 33358416, 150, -30, 0.0075, -0.707107, 0, 0, -0.707107) /* Lich */
@@ -85,54 +85,54 @@ VALUES (3955, 1881133056, 33358080, 70, -110, -24, -4.37114E-08, 0, 0, -1) /* li
      , (568, 1881133139, 33358573, 130, -65.25, 12, 1, 0, 0, 0) /* Door */
      , (1612, 1881133140, 33358578, 142.506, -48.0779, 12.005, -0.707107, 0, 0, -0.707107) /* Azure Gromnie */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881133056'; /* linkmonstergen15minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881133064'; /* linkitemgen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881133056'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881133064'; /* Linkable Item Gen (15 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133058'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133062'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133063'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133065'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133066'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133067'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133068'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133073'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133074'; /* linkmonstergen15minutes <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133076'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133071'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133081'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133080'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133075'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133088'; /* linkmonstergen15minutes <- Undead */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133078'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133070'; /* linkmonstergen15minutes <- Undead */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133079'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133093'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133090'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133091'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133097'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133094'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133099'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133102'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133101'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133121'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133123'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133107'; /* linkmonstergen15minutes <- Undead */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133108'; /* linkmonstergen15minutes <- Undead */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133109'; /* linkmonstergen15minutes <- Undead */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133110'; /* linkmonstergen15minutes <- Undead */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133116'; /* linkmonstergen15minutes <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133113'; /* linkmonstergen15minutes <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133114'; /* linkmonstergen15minutes <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133105'; /* linkmonstergen15minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133128'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133127'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133126'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133129'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133131'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133133'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133136'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133137'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133140'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881133061'; /* linkitemgen15minutes <- Trothyr's Shield */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881133060'; /* linkitemgen15minutes <- Trothyr's War Hammer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133058'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133062'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133063'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133065'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133066'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133067'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133068'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133073'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133074'; /* Linkable Monster Gen (15 min.) <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133076'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133071'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133081'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133080'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133075'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133088'; /* Linkable Monster Gen (15 min.) <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133078'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133070'; /* Linkable Monster Gen (15 min.) <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133079'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133093'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133090'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133091'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133097'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133094'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133099'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133102'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133101'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133121'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133123'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133107'; /* Linkable Monster Gen (15 min.) <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133108'; /* Linkable Monster Gen (15 min.) <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133109'; /* Linkable Monster Gen (15 min.) <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133110'; /* Linkable Monster Gen (15 min.) <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133116'; /* Linkable Monster Gen (15 min.) <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133113'; /* Linkable Monster Gen (15 min.) <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133114'; /* Linkable Monster Gen (15 min.) <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133105'; /* Linkable Monster Gen (15 min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133128'; /* Linkable Monster Gen (15 min.) <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133127'; /* Linkable Monster Gen (15 min.) <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133126'; /* Linkable Monster Gen (15 min.) <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133129'; /* Linkable Monster Gen (15 min.) <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133131'; /* Linkable Monster Gen (15 min.) <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133133'; /* Linkable Monster Gen (15 min.) <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133136'; /* Linkable Monster Gen (15 min.) <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133137'; /* Linkable Monster Gen (15 min.) <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881133140'; /* Linkable Monster Gen (15 min.) <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881133061'; /* Linkable Item Gen (15 min.) <- Trothyr's Shield */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881133060'; /* Linkable Item Gen (15 min.) <- Trothyr's War Hammer */
 

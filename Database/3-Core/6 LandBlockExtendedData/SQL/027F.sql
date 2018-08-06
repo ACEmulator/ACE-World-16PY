@@ -1,11 +1,11 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4216, 1881665536, 41877773, 61.9968, -8.17358, -59.99, 0.375861, 0, 0, 0.926676) /* Diamond Golem */
      , (4216, 1881665537, 41877773, 57.3312, -9.62255, -59.99, -0.662043, 0, 0, 0.749466) /* Diamond Golem */
-     , (11732, 1881665538, 41877777, 70, -10, -54, 1, 0, 0, 0) /* caveintrapgen-xp */
-     , (11732, 1881665539, 41877777, 73.0075, -13.0097, -54, 0.707107, 0, 0, -0.707107) /* caveintrapgen-xp */
-     , (11732, 1881665540, 41877777, 66.982, -13.004, -54, 0, 0, 0, -1) /* caveintrapgen-xp */
-     , (11732, 1881665541, 41877777, 66.971, -7.036, -54, 1, 0, 0, 0) /* caveintrapgen-xp */
-     , (11732, 1881665542, 41877777, 73.029, -6.974, -54, -0.707107, 0, 0, -0.707107) /* caveintrapgen-xp */
+     , (11732, 1881665538, 41877777, 70, -10, -54, 1, 0, 0, 0) /* Cave-In Action Playset Gen! */
+     , (11732, 1881665539, 41877777, 73.0075, -13.0097, -54, 0.707107, 0, 0, -0.707107) /* Cave-In Action Playset Gen! */
+     , (11732, 1881665540, 41877777, 66.982, -13.004, -54, 0, 0, 0, -1) /* Cave-In Action Playset Gen! */
+     , (11732, 1881665541, 41877777, 66.971, -7.036, -54, 1, 0, 0, 0) /* Cave-In Action Playset Gen! */
+     , (11732, 1881665542, 41877777, 73.029, -6.974, -54, -0.707107, 0, 0, -0.707107) /* Cave-In Action Playset Gen! */
      , (7124, 1881665543, 41877778, 68.508, -22.5918, -59.9917, -0.99958, 0, 0, 0.0289716) /* Dark Magus */
      , (7124, 1881665544, 41877778, 69.8015, -23.7992, -59.9917, -0.998544, 0, 0, 0.0539494) /* Dark Magus */
      , (8431, 1881665545, 41877780, 71.6244, -30.6004, -59.9935, -0.996115, 0, 0, -0.088061) /* Nomad Mu-miyah */
@@ -115,62 +115,62 @@ VALUES (4216, 1881665536, 41877773, 61.9968, -8.17358, -59.99, 0.375861, 0, 0, 0
      , (4216, 1881665648, 41878004, 60.5051, -19.3616, -5.99, 0.361458, 0, 0, -0.932388) /* Diamond Golem */
      , (11535, 1881665649, 41878009, 59.3087, -51.7197, -5.995, -0.978849, 0, 0, -0.204586) /* Chaos Wisp */
      , (11014, 1881665650, 41878009, 57.0164, -53.3832, -5.995, 0.0527968, 0, 0, 0.998605) /* Rusty Chest */
-     , (11732, 1881665651, 41878009, 62.9172, -47.142, -5.5, -0.707107, 0, 0, -0.707107) /* caveintrapgen-xp */
-     , (11732, 1881665652, 41878016, 67.1479, -42.9056, -5.5, 1, 0, 0, 0) /* caveintrapgen-xp */
+     , (11732, 1881665651, 41878009, 62.9172, -47.142, -5.5, -0.707107, 0, 0, -0.707107) /* Cave-In Action Playset Gen! */
+     , (11732, 1881665652, 41878016, 67.1479, -42.9056, -5.5, 1, 0, 0, 0) /* Cave-In Action Playset Gen! */
      , (4139, 1881665653, 41878023, 78.062, -30, -5.995, 0.707107, 0, 0, -0.707107) /* Door */
      , (11535, 1881665654, 41878032, 8.67267, -36.6173, 0.005, -0.300532, 0, 0, -0.953772) /* Chaos Wisp */
-     , (7924, 1881665655, 41878034, 10.6159, -60.1556, 0.361125, 0.999966, 0, 0, -0.00829904) /* linkmonstergen5minutes */
+     , (7924, 1881665655, 41878034, 10.6159, -60.1556, 0.361125, 0.999966, 0, 0, -0.00829904) /* Linkable Monster Generator ( 5 Min.) */
      , (11535, 1881665656, 41878039, 46.8314, -29.7029, 0.005, -0.647754, 0, 0, -0.761849) /* Chaos Wisp */
      , (11212, 1881665657, 41878064, 30, -40, 6.005, 0.707107, 0, 0, -0.707107) /* Surface Portal */
      , (1295, 1881665658, 41878066, 30, -35.271, 12, 0, 0, 0, -1) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881665655'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881665655'; /* Linkable Monster Generator ( 5 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881665653'; /* Door */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665638'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665606'; /* linkmonstergen5minutes <- Vapor Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665618'; /* linkmonstergen5minutes <- Vapor Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665612'; /* linkmonstergen5minutes <- Chaos Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665641'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665627'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665625'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665586'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665584'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665594'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665590'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665588'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665592'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665628'; /* linkmonstergen5minutes <- Olthoi Noble */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665554'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665559'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665557'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665562'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665564'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665555'; /* linkmonstergen5minutes <- Olthoi Noble */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665560'; /* linkmonstergen5minutes <- Olthoi Noble */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665552'; /* linkmonstergen5minutes <- Olthoi Noble */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665581'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665579'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665577'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665632'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665630'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665636'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665634'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665543'; /* linkmonstergen5minutes <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665544'; /* linkmonstergen5minutes <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665545'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665546'; /* linkmonstergen5minutes <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665547'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665548'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665647'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665656'; /* linkmonstergen5minutes <- Chaos Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665654'; /* linkmonstergen5minutes <- Chaos Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665649'; /* linkmonstergen5minutes <- Chaos Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665643'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665644'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665536'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665537'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665550'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665648'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665638'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665606'; /* Linkable Monster Generator ( 5 Min.) <- Vapor Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665618'; /* Linkable Monster Generator ( 5 Min.) <- Vapor Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665612'; /* Linkable Monster Generator ( 5 Min.) <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665641'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665627'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665625'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665586'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665584'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665594'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665590'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665588'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665592'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665628'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Noble */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665554'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665559'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665557'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665562'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665564'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665555'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Noble */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665560'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Noble */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665552'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Noble */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665581'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665579'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665577'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665632'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665630'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665636'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665634'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665543'; /* Linkable Monster Generator ( 5 Min.) <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665544'; /* Linkable Monster Generator ( 5 Min.) <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665545'; /* Linkable Monster Generator ( 5 Min.) <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665546'; /* Linkable Monster Generator ( 5 Min.) <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665547'; /* Linkable Monster Generator ( 5 Min.) <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665548'; /* Linkable Monster Generator ( 5 Min.) <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665647'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665656'; /* Linkable Monster Generator ( 5 Min.) <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665654'; /* Linkable Monster Generator ( 5 Min.) <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665649'; /* Linkable Monster Generator ( 5 Min.) <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665643'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665644'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665536'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665537'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665550'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881665648'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881665642'; /* Door <- Lever */
 

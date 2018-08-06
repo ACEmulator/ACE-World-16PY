@@ -26,7 +26,7 @@ VALUES (2131, 1965502464, 1383268609, 14, -130, -42, 0.707107, 0, 0, -0.707107) 
      , (286, 1965502486, 1383268670, 61.8, -190, -40.5, -0.707107, 0, 0, -0.707107) /* Lever */
      , (7094, 1965502624, 1383268671, 70, -90, -41.9915, 1, 0, 0, 0) /* Synnast */
      , (14541, 1965502619, 1383268672, 74.7397, -104.909, -41.995, -0.1868, 0, 0, -0.982398) /* Prism of Lightning */
-     , (7923, 1965502625, 1383268674, 70, -120, -41.995, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7923, 1965502625, 1383268674, 70, -120, -41.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (14520, 1965502488, 1383268684, 69.4522, -180.127, -41.99, -0.986623, 0, 0, 0.163021) /* Pyreal Golem */
      , (14520, 1965502489, 1383268684, 68.9135, -181.713, -41.99, -0.986623, 0, 0, 0.163021) /* Pyreal Golem */
      , (14491, 1965502490, 1383268695, 76.6748, -149.972, -41.995, 0.696707, 0, 0, -0.717356) /* Surface */
@@ -89,7 +89,7 @@ VALUES (2131, 1965502464, 1383268609, 14, -130, -42, 0.707107, 0, 0, -0.707107) 
      , (4216, 1965502547, 1383268940, 90.2427, -134.484, 0.055, -0.487652, 0, 0, 0.873038) /* Diamond Golem */
      , (14520, 1965502548, 1383268942, 90.084, -140.081, 0.01, -0.71651, 0, 0, 0.697577) /* Pyreal Golem */
      , (4216, 1965502549, 1383268944, 89.853, -144.802, 0.055, -0.948601, 0, 0, 0.316475) /* Diamond Golem */
-     , (7924, 1965502550, 1383268949, 95.6643, -140.092, 0.005, 0.752082, 0, 0, 0.65907) /* linkmonstergen5minutes */
+     , (7924, 1965502550, 1383268949, 95.6643, -140.092, 0.005, 0.752082, 0, 0, 0.65907) /* Linkable Monster Generator ( 5 Min.) */
      , (14520, 1965502551, 1383268971, 124.93, -146.585, 0.01, 0.820944, 0, 0, 0.571009) /* Pyreal Golem */
      , (7385, 1965502552, 1383268972, 131.509, -110.676, 1.85637, 0.752057, 0, 0, -0.659098) /* Empyrean magical defense battery */
      , (2609, 1965502553, 1383268978, 126.5, -130, 0, 0.707107, 0, 0, -0.707107) /* Lever */
@@ -98,7 +98,7 @@ VALUES (2131, 1965502464, 1383268609, 14, -130, -42, 0.707107, 0, 0, -0.707107) 
      , (286, 1965502556, 1383268981, 136, -107.525, 1.55, 1, 0, 0, 0) /* Lever */
      , (14520, 1965502557, 1383268981, 137.141, -109.861, 0.055, -0.673407, 0, 0, -0.739272) /* Pyreal Golem */
      , (14503, 1965502558, 1383268983, 27.7416, -52.6562, 6.005, 0.402088, 0, 0, 0.915601) /* Empyrean Lightning Propylaeum */
-     , (7924, 1965502559, 1383268984, 41.4914, -40.1184, 6.005, 0.678557, 0, 0, -0.734548) /* linkmonstergen5minutes */
+     , (7924, 1965502559, 1383268984, 41.4914, -40.1184, 6.005, 0.678557, 0, 0, -0.734548) /* Linkable Monster Generator ( 5 Min.) */
      , (286, 1965502560, 1383268989, 50, -18.2, 7.5, 0, 0, 0, -1) /* Lever */
      , (2179, 1965502561, 1383268993, 55, -40, 6, -0.707107, 0, 0, -0.707107) /* Door */
      , (14520, 1965502562, 1383269003, 60, -20, 6.01, 1, 0, 0, 0) /* Pyreal Golem */
@@ -179,15 +179,15 @@ UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1965502577'; /* Empyrean magical defense battery */
 UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1965502596'; /* Empyrean magical defense battery */
 UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1965502600'; /* Empyrean magical defense battery */
-UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1965502559'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1965502550'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1965502559'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1965502550'; /* Linkable Monster Generator ( 5 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='25', `link_Controller`=True WHERE `guid`='1965502499'; /* Lightning Trap */
 UPDATE `landblock_instances` SET `link_Slot`='26', `link_Controller`=True WHERE `guid`='1965502498'; /* Lightning Trap */
 UPDATE `landblock_instances` SET `link_Slot`='27', `link_Controller`=True WHERE `guid`='1965502497'; /* Lightning Trap */
 UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE `guid`='1965502500'; /* Lightning Trap */
 UPDATE `landblock_instances` SET `link_Slot`='29', `link_Controller`=True WHERE `guid`='1965502501'; /* Lightning Trap */
 UPDATE `landblock_instances` SET `link_Slot`='30', `link_Controller`=True WHERE `guid`='1965502502'; /* Lightning Trap */
-UPDATE `landblock_instances` SET `link_Slot`='31', `link_Controller`=True WHERE `guid`='1965502625'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='31', `link_Controller`=True WHERE `guid`='1965502625'; /* Linkable Monster Generator ( 3 Min.) */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965502553'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965502560'; /* Door <- Lever */
@@ -211,94 +211,94 @@ UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1965502579'; /* 
 UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1965502578'; /* Empyrean magical defense battery <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1965502597'; /* Empyrean magical defense battery <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1965502599'; /* Empyrean magical defense battery <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502566'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502565'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502567'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502570'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502562'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502563'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502564'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502593'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502592'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502594'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502589'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502590'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502591'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502586'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502582'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502583'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502584'; /* linkmonstergen5minutes <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502585'; /* linkmonstergen5minutes <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502602'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502603'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502609'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502610'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502606'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502607'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502605'; /* linkmonstergen5minutes <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502611'; /* linkmonstergen5minutes <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502548'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502549'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502547'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502545'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502543'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502554'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502555'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502551'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502557'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502541'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502540'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502539'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502530'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502531'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502532'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502529'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502525'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502526'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502521'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502534'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502522'; /* linkmonstergen5minutes <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502535'; /* linkmonstergen5minutes <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502523'; /* linkmonstergen5minutes <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502536'; /* linkmonstergen5minutes <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502527'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502528'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502519'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502505'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502506'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502507'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502503'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502510'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502511'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502513'; /* linkmonstergen5minutes <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502516'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502517'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502493'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502492'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502466'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502467'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502475'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502476'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502472'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502473'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502474'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502478'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502479'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502480'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502481'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502482'; /* linkmonstergen5minutes <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502483'; /* linkmonstergen5minutes <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502483'; /* linkmonstergen5minutes <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502488'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502489'; /* linkmonstergen5minutes <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502566'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502565'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502567'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502570'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502562'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502563'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502564'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502593'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502592'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502594'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502589'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502590'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502591'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502586'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502582'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502583'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502584'; /* Linkable Monster Generator ( 5 Min.) <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502585'; /* Linkable Monster Generator ( 5 Min.) <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502602'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502603'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502609'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502610'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502606'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502607'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502605'; /* Linkable Monster Generator ( 5 Min.) <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965502611'; /* Linkable Monster Generator ( 5 Min.) <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502548'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502549'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502547'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502545'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502543'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502554'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502555'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502551'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502557'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502541'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502540'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502539'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502530'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502531'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502532'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502529'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502525'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502526'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502521'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502534'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502522'; /* Linkable Monster Generator ( 5 Min.) <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502535'; /* Linkable Monster Generator ( 5 Min.) <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502523'; /* Linkable Monster Generator ( 5 Min.) <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502536'; /* Linkable Monster Generator ( 5 Min.) <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502527'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502528'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502519'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502505'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502506'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502507'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502503'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502510'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502511'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502513'; /* Linkable Monster Generator ( 5 Min.) <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502516'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502517'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502493'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502492'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502466'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502467'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502475'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502476'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502472'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502473'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502474'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502478'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502479'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502480'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502481'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502482'; /* Linkable Monster Generator ( 5 Min.) <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502483'; /* Linkable Monster Generator ( 5 Min.) <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502483'; /* Linkable Monster Generator ( 5 Min.) <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502488'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965502489'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
 UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1965502508'; /* Lightning Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1965502495'; /* Lightning Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1965502496'; /* Lightning Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1965502504'; /* Lightning Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1965502512'; /* Lightning Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='30' WHERE `guid`='1965502509'; /* Lightning Trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965502624'; /* linkmonstergen3minutes <- Synnast */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965502622'; /* linkmonstergen3minutes <- Synnast */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965502623'; /* linkmonstergen3minutes <- Synnast */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965502626'; /* linkmonstergen3minutes <- Synnast */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965502624'; /* Linkable Monster Generator ( 3 Min.) <- Synnast */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965502622'; /* Linkable Monster Generator ( 3 Min.) <- Synnast */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965502623'; /* Linkable Monster Generator ( 3 Min.) <- Synnast */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965502626'; /* Linkable Monster Generator ( 3 Min.) <- Synnast */
 

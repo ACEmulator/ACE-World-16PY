@@ -3,7 +3,7 @@ VALUES (27421, 1983160320, 1665794326, 101.652, -90.5846, -41.9934, -0.810503, 0
      , (27421, 1983160321, 1665794326, 101.831, -92.3682, -41.9934, -0.924414, 0, 0, 0.38139) /* Enthralled Idolator */
      , (27421, 1983160322, 1665794337, 110.9, -79.9662, -41.9934, 0.069085, 0, 0, 0.997611) /* Enthralled Idolator */
      , (27421, 1983160323, 1665794337, 109.358, -79.9758, -41.9934, -0.233515, 0, 0, 0.972353) /* Enthralled Idolator */
-     , (7923, 1983160324, 1665794338, 110.278, -87.414, -41.995, 0, 0, 0, -1) /* linkmonstergen3minutes */
+     , (7923, 1983160324, 1665794338, 110.278, -87.414, -41.995, 0, 0, 0, -1) /* Linkable Monster Generator ( 3 Min.) */
      , (27431, 1983160325, 1665794338, 110, -90, -41.995, 1, 0, 0, 0) /* Homunculus */
      , (27423, 1983160326, 1665794338, 108.724, -85.8694, -41.9923, -0.190368, 0, 0, 0.981713) /* Enthralled Zealot */
      , (27423, 1983160327, 1665794338, 110.108, -86.2188, -41.945, 0.031906, 0, 0, 0.999491) /* Enthralled Zealot */
@@ -14,7 +14,7 @@ VALUES (27421, 1983160320, 1665794326, 101.652, -90.5846, -41.9934, -0.810503, 0
      , (27380, 1983160334, 1665794338, 110, -92.9193, -41.995, 1, 0, 0, 0) /* Runed Chest */
      , (27421, 1983160551, 1665794338, 113.467, -87.3024, -41.9923, -0.546327, 0, 0, -0.837572) /* Enthralled Idolator */
      , (27421, 1983160552, 1665794338, 107.405, -86.8357, -41.9923, 0.500731, 0, 0, -0.865603) /* Enthralled Idolator */
-     , (5086, 1983160553, 1665794338, 110, -90, -41.995, 1, 0, 0, 0) /* linkmonstergen30seconds */
+     , (5086, 1983160553, 1665794338, 110, -90, -41.995, 1, 0, 0, 0) /* Linkable Monster Gen - 30 sec. */
      , (27421, 1983160335, 1665794339, 110.902, -96.8415, -41.9934, -0.982183, 0, 0, -0.187929) /* Enthralled Idolator */
      , (27421, 1983160336, 1665794339, 109.467, -96.7229, -41.9934, -0.991883, 0, 0, 0.127158) /* Enthralled Idolator */
      , (27421, 1983160337, 1665794350, 118.86, -88.6344, -41.9934, -0.571178, 0, 0, -0.820826) /* Enthralled Idolator */
@@ -154,8 +154,8 @@ VALUES (27421, 1983160320, 1665794326, 101.652, -90.5846, -41.9934, -0.810503, 0
      , (27421, 1983160471, 1665794699, 110.07, -57.9173, -29.9934, 0.060219, 0, 0, -0.998185) /* Enthralled Idolator */
      , (27421, 1983160472, 1665794700, 107.969, -71.5313, -29.9934, -0.694477, 0, 0, -0.719514) /* Enthralled Idolator */
      , (27421, 1983160473, 1665794700, 111.488, -71.5146, -29.9934, 0.219006, 0, 0, -0.975724) /* Enthralled Idolator */
-     , (7924, 1983160474, 1665794708, 110, -90, -29.995, 1, 0, 0, 0) /* linkmonstergen5minutes */
-     , (7924, 1983160475, 1665794708, 111.296, -90, -29.995, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7924, 1983160474, 1665794708, 110, -90, -29.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1983160475, 1665794708, 111.296, -90, -29.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
      , (27421, 1983160476, 1665794723, 110.103, -123.227, -29.9934, 0.993393, 0, 0, -0.114766) /* Enthralled Idolator */
      , (27421, 1983160477, 1665794723, 109.363, -119.731, -29.9934, 0.999956, 0, 0, -0.00937) /* Enthralled Idolator */
      , (27421, 1983160478, 1665794724, 109.436, -126.275, -29.9934, 0.999291, 0, 0, 0.037658) /* Enthralled Idolator */
@@ -209,7 +209,7 @@ VALUES (27421, 1983160320, 1665794326, 101.652, -90.5846, -41.9934, -0.810503, 0
      , (8467, 1983160526, 1665794913, 106.744, -90.1286, -17.995, 0.707107, 0, 0, -0.707107) /* Dread Idol */
      , (8467, 1983160527, 1665794913, 113.265, -89.9692, -17.995, -0.707107, 0, 0, -0.707107) /* Dread Idol */
      , (8467, 1983160528, 1665794913, 110.033, -86.7253, -17.995, 0, 0, 0, -1) /* Dread Idol */
-     , (24129, 1983160529, 1665794913, 110, -90, -17.995, 1, 0, 0, 0) /* linkmonstergen2minutes */
+     , (24129, 1983160529, 1665794913, 110, -90, -17.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 2 Min.) */
      , (27423, 1983160530, 1665794913, 107.716, -87.7706, -17.9923, -0.394656, 0, 0, 0.918829) /* Enthralled Zealot */
      , (27423, 1983160531, 1665794913, 113.279, -93.1217, -17.9923, 0.92048, 0, 0, 0.39079) /* Enthralled Zealot */
      , (27421, 1983160532, 1665794915, 110, -110, -17.9934, 1, 0, 0, 0) /* Enthralled Idolator */
@@ -230,238 +230,238 @@ VALUES (27421, 1983160320, 1665794326, 101.652, -90.5846, -41.9934, -0.810503, 0
      , (27421, 1983160547, 1665795003, 112.542, -112.397, -5.9934, -0.939893, 0, 0, -0.341469) /* Enthralled Idolator */
      , (27421, 1983160548, 1665795016, 132.511, -91.8901, -5.9934, -0.904791, 0, 0, -0.425855) /* Enthralled Idolator */
      , (27421, 1983160549, 1665795016, 132.532, -87.9488, -5.9934, 0.626459, 0, 0, 0.779454) /* Enthralled Idolator */
-     , (7924, 1983160550, 1665795028, 100, -80, 0.005, 1, 0, 0, -4.37114E-08) /* linkmonstergen5minutes */;
+     , (7924, 1983160550, 1665795028, 100, -80, 0.005, 1, 0, 0, -4.37114E-08) /* Linkable Monster Generator ( 5 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1983160529'; /* linkmonstergen2minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1983160550'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1983160474'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1983160475'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1983160324'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1983160553'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1983160529'; /* Linkable Monster Generator ( 2 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1983160550'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1983160474'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1983160475'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1983160324'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1983160553'; /* Linkable Monster Gen - 30 sec. */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983160525'; /* linkmonstergen2minutes <- Dread Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983160526'; /* linkmonstergen2minutes <- Dread Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983160527'; /* linkmonstergen2minutes <- Dread Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983160528'; /* linkmonstergen2minutes <- Dread Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983160531'; /* linkmonstergen2minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983160530'; /* linkmonstergen2minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160543'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160544'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160548'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160549'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160545'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160546'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160541'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160542'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160547'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160533'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160538'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160522'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160537'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160540'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160539'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160536'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160535'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160523'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160534'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160521'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160516'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160519'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160518'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160517'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160520'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160524'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160532'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160455'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160445'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160464'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160465'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160438'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160439'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160446'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160456'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160459'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160460'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160449'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160450'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160499'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160500'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160497'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160498'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160489'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160507'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160472'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160471'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160485'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160486'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160473'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160484'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160480'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160481'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160482'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160479'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160440'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160467'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160483'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160469'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160470'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160508'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160468'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160501'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160490'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160509'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160510'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160477'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160441'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160478'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160476'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160451'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160452'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160442'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160443'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160514'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160495'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160461'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160462'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160457'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160435'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160496'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160487'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160494'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160515'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160436'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160466'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160502'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160503'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160447'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160448'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160491'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160511'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160453'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160454'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160458'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160437'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160506'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160488'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160505'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160512'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160444'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160463'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160493'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160492'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160513'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160504'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160365'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160364'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160363'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160362'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160420'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160419'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160418'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160417'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160422'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160421'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160428'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160433'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160434'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160429'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160430'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160388'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160431'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160432'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160343'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160385'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160384'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160341'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160399'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160382'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160389'; /* linkmonstergen5minutes <- True Believer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160398'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160345'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160339'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160383'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160344'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160375'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160390'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160340'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160374'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160371'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160366'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160391'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160405'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160342'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160386'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160400'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160387'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160351'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160352'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160350'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160354'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160355'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160353'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160368'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160367'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160378'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160376'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160377'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160425'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160395'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160394'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160415'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160379'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160358'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160393'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160396'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160357'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160392'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160381'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160348'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160397'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160380'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160427'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160423'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160349'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160426'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160347'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160424'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160346'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160410'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160411'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160408'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160409'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160412'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160413'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160356'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160414'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160401'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160402'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160369'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160403'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160359'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160416'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160406'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160407'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160404'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160370'; /* linkmonstergen5minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160360'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160361'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160372'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160373'; /* linkmonstergen5minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160326'; /* linkmonstergen3minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160329'; /* linkmonstergen3minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160328'; /* linkmonstergen3minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160327'; /* linkmonstergen3minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160332'; /* linkmonstergen3minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160331'; /* linkmonstergen3minutes <- Enthralled Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160338'; /* linkmonstergen3minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160337'; /* linkmonstergen3minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160320'; /* linkmonstergen3minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160321'; /* linkmonstergen3minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160336'; /* linkmonstergen3minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160335'; /* linkmonstergen3minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160322'; /* linkmonstergen3minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160323'; /* linkmonstergen3minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160552'; /* linkmonstergen3minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160551'; /* linkmonstergen3minutes <- Enthralled Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983160325'; /* linkmonstergen30seconds <- Homunculus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983160525'; /* Linkable Monster Generator ( 2 Min.) <- Dread Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983160526'; /* Linkable Monster Generator ( 2 Min.) <- Dread Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983160527'; /* Linkable Monster Generator ( 2 Min.) <- Dread Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983160528'; /* Linkable Monster Generator ( 2 Min.) <- Dread Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983160531'; /* Linkable Monster Generator ( 2 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983160530'; /* Linkable Monster Generator ( 2 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160543'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160544'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160548'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160549'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160545'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160546'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160541'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160542'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160547'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160533'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160538'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160522'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160537'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160540'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160539'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160536'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160535'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160523'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160534'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160521'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160516'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160519'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160518'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160517'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160520'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160524'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983160532'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160455'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160445'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160464'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160465'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160438'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160439'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160446'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160456'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160459'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160460'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160449'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160450'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160499'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160500'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160497'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160498'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160489'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160507'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160472'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160471'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160485'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160486'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160473'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160484'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160480'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160481'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160482'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160479'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160440'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160467'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160483'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160469'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160470'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160508'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160468'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160501'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160490'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160509'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160510'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160477'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160441'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160478'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160476'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160451'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160452'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160442'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160443'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160514'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160495'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160461'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160462'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160457'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160435'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160496'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160487'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160494'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160515'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160436'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160466'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160502'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160503'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160447'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160448'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160491'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160511'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160453'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160454'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160458'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160437'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160506'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160488'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160505'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160512'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160444'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160463'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160493'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160492'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160513'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983160504'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160365'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160364'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160363'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160362'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160420'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160419'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160418'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160417'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160422'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160421'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160428'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160433'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160434'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160429'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160430'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160388'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160431'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160432'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160343'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160385'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160384'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160341'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160399'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160382'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160389'; /* Linkable Monster Generator ( 5 Min.) <- True Believer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160398'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160345'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160339'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160383'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160344'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160375'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160390'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160340'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160374'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160371'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160366'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160391'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160405'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160342'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160386'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160400'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160387'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160351'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160352'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160350'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160354'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160355'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160353'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160368'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160367'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160378'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160376'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160377'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160425'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160395'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160394'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160415'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160379'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160358'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160393'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160396'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160357'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160392'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160381'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160348'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160397'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160380'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160427'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160423'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160349'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160426'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160347'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160424'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160346'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160410'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160411'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160408'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160409'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160412'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160413'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160356'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160414'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160401'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160402'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160369'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160403'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160359'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160416'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160406'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160407'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160404'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160370'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160360'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160361'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160372'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983160373'; /* Linkable Monster Generator ( 5 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160326'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160329'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160328'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160327'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160332'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160331'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160338'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160337'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160320'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160321'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160336'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160335'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160322'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160323'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160552'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983160551'; /* Linkable Monster Generator ( 3 Min.) <- Enthralled Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983160325'; /* Linkable Monster Gen - 30 sec. <- Homunculus */
 

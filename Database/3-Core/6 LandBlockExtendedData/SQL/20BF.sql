@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7099, 1913384962, 549388548, 43.4927, 103.224, 64.01, -0.200087, 0, 0, -0.979778) /* Vapor Golem */
      , (7099, 1913384963, 549388548, 39.5023, 100.8, 64.01, 0.779625, 0, 0, -0.626247) /* Vapor Golem */
-     , (7924, 1913384964, 549388548, 37.7788, 105.15, 64.005, -0.697201, 0, 0, -0.716876) /* linkmonstergen5minutes */
+     , (7924, 1913384964, 549388548, 37.7788, 105.15, 64.005, -0.697201, 0, 0, -0.716876) /* Linkable Monster Generator ( 5 Min.) */
      , (245, 1913384961, 549388557, 15.4261, 88.6569, 56.705, -0.505174, 0, 0, -0.863017) /* The Great Machine */
      , (245, 1913384960, 549388575, 13.9385, 104.556, 56.7, 0.484046, 0, 0, -0.875043) /* The Great Machine */
      , (11217, 1913384965, 549388581, 83.9602, 137.504, 74.205, -4.37114E-08, 0, 0, -1) /* North Fork Dam Hive Portal */
@@ -22,24 +22,24 @@ VALUES (7099, 1913384962, 549388548, 43.4927, 103.224, 64.01, -0.200087, 0, 0, -
      , (214, 1913384973, 549388288, 43.6824, 96.8123, 83.505, -0.205357, 0, 0, -0.978687) /* Olthoi Soldier */
      , (214, 1913384974, 549388288, 49.8991, 133.915, 83.505, 0.852412, 0, 0, 0.52287) /* Olthoi Soldier */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1913384964'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1913384964'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384962'; /* linkmonstergen5minutes <- Vapor Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384963'; /* linkmonstergen5minutes <- Vapor Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384966'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384967'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384968'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384969'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384970'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384971'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384972'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384973'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384974'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384975'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384976'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384977'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384978'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384979'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384980'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384981'; /* linkmonstergen5minutes <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384962'; /* Linkable Monster Generator ( 5 Min.) <- Vapor Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384963'; /* Linkable Monster Generator ( 5 Min.) <- Vapor Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384966'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384967'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384968'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384969'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384970'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384971'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384972'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384973'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384974'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384975'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384976'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384977'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384978'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384979'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384980'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1913384981'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
 

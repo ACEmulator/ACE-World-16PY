@@ -7,7 +7,7 @@ VALUES (4702, 2045001734, 2655256849, 35.9925, 6.01204, 46.005, 0.99996, 0, 0, -
      , (1148, 2045001731, 2655256880, 111.5, 76.01, 78, 0, 0, 0, -1) /* Door */
      , (153, 2045001746, 2655256880, 111.523, 80.5269, 78.005, 0.715169, 0, 0, -0.698951) /* Fountain */
      , (4694, 2045001736, 2655256883, 103.602, 75.0084, 78.005, -0.99992, 0, 0, -0.0126778) /* Najmima the Archmage */
-     , (7923, 2045001759, 2655256891, 53.7494, 107.277, 69.705, -0.385965, 0, 0, 0.922514) /* linkmonstergen3minutes */
+     , (7923, 2045001759, 2655256891, 53.7494, 107.277, 69.705, -0.385965, 0, 0, 0.922514) /* Linkable Monster Generator ( 3 Min.) */
      , (28189, 2045001758, 2655256891, 53.5344, 109.511, 69.705, -0.362784, 0, 0, 0.931873) /* Apprentice Fletcher */
      , (4697, 2045001739, 2655256891, 58.7736, 109.263, 69.705, -0.103486, 0, 0, -0.994631) /* Bowyer Safruya bint Bilak */
      , (20226, 2045001747, 2655256894, 32.6441, 114.688, 70.005, -0.0458462, 0, 0, -0.998949) /* Scrivener of War Magic */
@@ -32,7 +32,7 @@ VALUES (4702, 2045001734, 2655256849, 35.9925, 6.01204, 46.005, 0.99996, 0, 0, -
      , (4667, 2045001741, 2655256576, 47.2004, 9.87274, 49.2, -0.999931, 0, 0, -0.0117074) /* General Supplies */
      , (4663, 2045001742, 2655256576, 132.925, 26.8992, 39.2, 0.9997, 0, 0, -0.0245077) /* Blade of the Desert */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2045001759'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2045001759'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045001758'; /* linkmonstergen3minutes <- Apprentice Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045001758'; /* Linkable Monster Generator ( 3 Min.) <- Apprentice Fletcher */
 

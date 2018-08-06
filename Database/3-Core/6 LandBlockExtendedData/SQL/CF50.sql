@@ -6,15 +6,15 @@ VALUES (198, 2096431104, 3478126592, 104.98, 161.774, 241.283, -0.565265, 0, 0, 
      , (198, 2096431108, 3478126592, 127.238, 139.021, 244.617, 0.258605, 0, 0, -0.965983) /* Limestone Golem */
      , (198, 2096431109, 3478126592, 158.368, 123.971, 252.974, 0.725374, 0, 0, -0.688355) /* Limestone Golem */
      , (198, 2096431110, 3478126592, 167.242, 128.898, 254.372, 0.893471, 0, 0, 0.449121) /* Limestone Golem */
-     , (1154, 2096431111, 3478126592, 146.572, 149.777, 246.663, 0.786434, 0, 0, 0.617674) /* linkmonstergen */;
+     , (1154, 2096431111, 3478126592, 146.572, 149.777, 246.663, 0.786434, 0, 0, 0.617674) /* Linkable Monster Generator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2096431111'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2096431111'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431104'; /* linkmonstergen <- Limestone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431105'; /* linkmonstergen <- Limestone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431106'; /* linkmonstergen <- Limestone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431107'; /* linkmonstergen <- Limestone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431108'; /* linkmonstergen <- Limestone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431109'; /* linkmonstergen <- Limestone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431110'; /* linkmonstergen <- Limestone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431104'; /* Linkable Monster Generator <- Limestone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431105'; /* Linkable Monster Generator <- Limestone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431106'; /* Linkable Monster Generator <- Limestone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431107'; /* Linkable Monster Generator <- Limestone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431108'; /* Linkable Monster Generator <- Limestone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431109'; /* Linkable Monster Generator <- Limestone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096431110'; /* Linkable Monster Generator <- Limestone Golem */
 

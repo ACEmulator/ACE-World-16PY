@@ -1,6 +1,6 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (5432, 1960, 1, 4) /* extremedirelandsforestgen */
-     , (5432, 1960, 5, 2) /* extremedirelandsforestgen */
-     , (5432, 1960, 6, 2) /* extremedirelandsforestgen */
-     , (5432, 1960, 6, 3) /* extremedirelandsforestgen */;
+VALUES (5432, 1960, 1, 4) /* Extreme Direlands Forest Generator */
+     , (5432, 1960, 5, 2) /* Extreme Direlands Forest Generator */
+     , (5432, 1960, 6, 2) /* Extreme Direlands Forest Generator */
+     , (5432, 1960, 6, 3) /* Extreme Direlands Forest Generator */;
 

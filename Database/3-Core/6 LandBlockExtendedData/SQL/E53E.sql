@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4547, 2119426057, 3846045955, 86.6978, 8.78249, 120.005, 0.999849, 0, 0, -0.0173605) /* Archmage Jo Ji-Shen */
      , (5121, 2119426065, 3846045955, 83.112, 5.9495, 120.005, 0.235566, 0, 0, -0.971858) /* Shin Ro */
-     , (1154, 2119426064, 3846045955, 84.4189, 6.62258, 120.005, 0.235566, 0, 0, -0.971858) /* linkmonstergen */
+     , (1154, 2119426064, 3846045955, 84.4189, 6.62258, 120.005, 0.235566, 0, 0, -0.971858) /* Linkable Monster Generator */
      , (4554, 2119426059, 3846045971, 138.501, 7.24623, 108.005, -0.827109, 0, 0, -0.562041) /* Scribe Lashi Oi */
      , (4552, 2119426058, 3846045972, 125.513, 14.3253, 108.005, 0.709336, 0, 0, -0.704871) /* Le Ben the Healer */
      , (720, 2119426053, 3846045976, 137.458, 14.9452, 108, 0.707107, 0, 0, 0.707107) /* Sliding Door */
@@ -19,7 +19,7 @@ VALUES (4547, 2119426057, 3846045955, 86.6978, 8.78249, 120.005, 0.999849, 0, 0,
      , (4515, 2119426060, 3846045696, 126.425, 19.3223, 110.546, -0.707107, 0, 0, -0.707107) /* The Touch of Healing */
      , (4518, 2119426061, 3846045696, 137.651, 19.3005, 110.52, -0.707107, 0, 0, -0.707107) /* The Nanto Scribe */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2119426064'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2119426064'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119426065'; /* linkmonstergen <- Shin Ro */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119426065'; /* Linkable Monster Generator <- Shin Ro */
 

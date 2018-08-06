@@ -1,5 +1,5 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7923, 2113159168, 3745775616, 27.0909, 63.8744, 20.6821, -0.794386, 0, 0, -0.607413) /* linkmonstergen3minutes */
+VALUES (7923, 2113159168, 3745775616, 27.0909, 63.8744, 20.6821, -0.794386, 0, 0, -0.607413) /* Linkable Monster Generator ( 3 Min.) */
      , (9252, 2113159186, 3745775616, 27.1119, 59.8361, 21.0192, 0.769733, 0, 0, 0.638366) /* Ferocious Monouga */
      , (9251, 2113159187, 3745775616, 24.2435, 68.5631, 20.2919, -0.95254, 0, 0, -0.304413) /* Brutish Monouga */
      , (201, 2113159188, 3745775616, 46.0287, 26.4545, 22.1669, 0.455111, 0, 0, -0.890435) /* Obsidian Golem */
@@ -17,22 +17,22 @@ VALUES (7923, 2113159168, 3745775616, 27.0909, 63.8744, 20.6821, -0.794386, 0, 0
      , (1608, 2113159200, 3745775616, 14.631, 104.512, 20.0055, -0.136721, 0, 0, -0.99061) /* Drudge Lurker */
      , (24288, 2113159201, 3745775616, 35.6772, 60.5321, 20.9797, 0.898768, 0, 0, 0.438425) /* Cruel Monouga */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2113159168'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2113159168'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159190'; /* linkmonstergen3minutes <- Ferocious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159186'; /* linkmonstergen3minutes <- Ferocious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159187'; /* linkmonstergen3minutes <- Brutish Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159196'; /* linkmonstergen3minutes <- Brutish Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159200'; /* linkmonstergen3minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159199'; /* linkmonstergen3minutes <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159198'; /* linkmonstergen3minutes <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159197'; /* linkmonstergen3minutes <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159193'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159192'; /* linkmonstergen3minutes <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159191'; /* linkmonstergen3minutes <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159194'; /* linkmonstergen3minutes <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159195'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159188'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159189'; /* linkmonstergen3minutes <- Cruel Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159201'; /* linkmonstergen3minutes <- Cruel Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159190'; /* Linkable Monster Generator ( 3 Min.) <- Ferocious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159186'; /* Linkable Monster Generator ( 3 Min.) <- Ferocious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159187'; /* Linkable Monster Generator ( 3 Min.) <- Brutish Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159196'; /* Linkable Monster Generator ( 3 Min.) <- Brutish Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159200'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159199'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159198'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159197'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159193'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159192'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159191'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159194'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159195'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159188'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159189'; /* Linkable Monster Generator ( 3 Min.) <- Cruel Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2113159201'; /* Linkable Monster Generator ( 3 Min.) <- Cruel Monouga */
 

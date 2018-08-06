@@ -16,7 +16,7 @@ VALUES (30647, 1879113728, 1048832, 290.892, -36.6391, -41.995, -0.109779, 0, 0,
      , (30649, 1879113742, 1048874, 162.83, -6.58268, -29.995, 0.98311, 0, 0, 0.183014) /* Drudge Toiler */
      , (30649, 1879113743, 1048874, 156.554, -13.8786, -29.995, -0.0370139, 0, 0, 0.999315) /* Drudge Toiler */
      , (30649, 1879113744, 1048874, 161.741, -14.1679, -29.995, 0.062936, 0, 0, 0.998018) /* Drudge Toiler */
-     , (5086, 1879113745, 1048874, 159.563, -9.01669, -29.995, -0.732981, 0, 0, -0.680249) /* linkmonstergen30seconds */
+     , (5086, 1879113745, 1048874, 159.563, -9.01669, -29.995, -0.732981, 0, 0, -0.680249) /* Linkable Monster Gen - 30 sec. */
      , (30661, 1879113957, 1048874, 162.426, -10.4188, -29.995, 0.707107, 0, 0, -0.707107) /* Escape Route */
      , (30647, 1879113746, 1048880, 177.411, -7.02717, -29.995, 0.722378, 0, 0, -0.691499) /* Drudge Ballast */
      , (30647, 1879113747, 1048880, 177.357, -12.7807, -29.995, 0.722378, 0, 0, -0.691499) /* Drudge Ballast */
@@ -87,7 +87,7 @@ VALUES (30647, 1879113728, 1048832, 290.892, -36.6391, -41.995, -0.109779, 0, 0,
      , (30647, 1879113812, 1049057, 258.585, -162.806, -23.995, -0.478723, 0, 0, 0.877966) /* Drudge Ballast */
      , (30647, 1879113813, 1049062, 269.534, -26.6664, -23.995, 0.996087, 0, 0, 0.0883799) /* Drudge Ballast */
      , (30647, 1879113814, 1049062, 270.064, -34.6816, -23.995, -0.00962795, 0, 0, 0.999954) /* Drudge Ballast */
-     , (5086, 1879113815, 1049062, 273.691, -32.7565, -23.995, -0.677737, 0, 0, 0.735304) /* linkmonstergen30seconds */
+     , (5086, 1879113815, 1049062, 273.691, -32.7565, -23.995, -0.677737, 0, 0, 0.735304) /* Linkable Monster Gen - 30 sec. */
      , (30647, 1879113816, 1049066, 270.353, -182.039, -23.995, 0.01855, 0, 0, 0.999828) /* Drudge Ballast */
      , (30646, 1879113817, 1049068, 270.116, -197.626, -23.995, 0.0323749, 0, 0, -0.999476) /* Drudge Laborer */
      , (30646, 1879113818, 1049075, 279.897, -197.274, -23.995, 0.996564, 0, 0, -0.0828277) /* Drudge Laborer */
@@ -218,11 +218,11 @@ VALUES (30647, 1879113728, 1048832, 290.892, -36.6391, -41.995, -0.109779, 0, 0,
      , (30649, 1879113943, 1049423, 78.9341, -228.531, 0.005, 0.47287, 0, 0, -0.881132) /* Drudge Toiler */
      , (30647, 1879113944, 1049425, 91.8168, -220.336, 0.005, -0.675643, 0, 0, 0.737229) /* Drudge Ballast */
      , (30661, 1879113945, 1049429, 96.7543, -176.579, 0.005, -0.885439, 0, 0, -0.464756) /* Escape Route */
-     , (7932, 1879113946, 1049429, 96.0416, -183.974, 0.005, 0.709409, 0, 0, 0.704797) /* linkmonstergen4minutes */
-     , (7932, 1879113947, 1049429, 97.4193, -184.376, 0.005, 0.720797, 0, 0, 0.693146) /* linkmonstergen4minutes */
-     , (7932, 1879113948, 1049430, 96.3118, -185.47, 0.005, 0.649646, 0, 0, 0.760237) /* linkmonstergen4minutes */
-     , (7932, 1879113949, 1049430, 97.5543, -185.746, 0.005, 0.989115, 0, 0, 0.147147) /* linkmonstergen4minutes */
-     , (7932, 1879113950, 1049430, 100.611, -185.254, 0.005, 0.99643, 0, 0, 0.0844285) /* linkmonstergen4minutes */
+     , (7932, 1879113946, 1049429, 96.0416, -183.974, 0.005, 0.709409, 0, 0, 0.704797) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1879113947, 1049429, 97.4193, -184.376, 0.005, 0.720797, 0, 0, 0.693146) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1879113948, 1049430, 96.3118, -185.47, 0.005, 0.649646, 0, 0, 0.760237) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1879113949, 1049430, 97.5543, -185.746, 0.005, 0.989115, 0, 0, 0.147147) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1879113950, 1049430, 100.611, -185.254, 0.005, 0.99643, 0, 0, 0.0844285) /* Linkable Monster Generator ( 4 Min.) */
      , (30647, 1879113951, 1049431, 99.4655, -210.444, 0.005, -0.59603, 0, 0, 0.802962) /* Drudge Ballast */
      , (30647, 1879113952, 1049433, 99.6207, -219.467, 0.005, 0.641196, 0, 0, 0.767377) /* Drudge Ballast */
      , (30647, 1879113953, 1049435, 96.4538, -229.687, 0.005, -0.730848, 0, 0, 0.68254) /* Drudge Ballast */
@@ -230,229 +230,229 @@ VALUES (30647, 1879113728, 1048832, 290.892, -36.6391, -41.995, -0.109779, 0, 0,
      , (30646, 1879113955, 1049445, 139.581, -209.973, 0.005, 0.703829, 0, 0, 0.71037) /* Drudge Laborer */
      , (30646, 1879113956, 1049447, 139.542, -218.919, 0.005, 0.999969, 0, 0, 0.00781141) /* Drudge Laborer */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879113745'; /* linkmonstergen30seconds */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879113815'; /* linkmonstergen30seconds */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879113946'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879113948'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1879113947'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1879113949'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1879113950'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879113745'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879113815'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879113946'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879113948'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1879113947'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1879113949'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1879113950'; /* Linkable Monster Generator ( 4 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879113742'; /* linkmonstergen30seconds <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879113741'; /* linkmonstergen30seconds <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879113740'; /* linkmonstergen30seconds <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879113739'; /* linkmonstergen30seconds <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879113743'; /* linkmonstergen30seconds <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879113744'; /* linkmonstergen30seconds <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879113814'; /* linkmonstergen30seconds <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879113810'; /* linkmonstergen30seconds <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879113809'; /* linkmonstergen30seconds <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879113808'; /* linkmonstergen30seconds <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879113813'; /* linkmonstergen30seconds <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113886'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113887'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113885'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113884'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113829'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113792'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113823'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113791'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113789'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113828'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113788'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113830'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113787'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113831'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113790'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113824'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113747'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113825'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113746'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113878'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113753'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113879'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113749'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113834'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113877'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113901'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113840'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113757'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113902'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113756'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113904'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113880'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113759'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113905'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113837'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113758'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113900'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113755'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113898'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113754'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113903'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113751'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113899'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113750'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113951'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113760'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113952'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113752'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113956'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113762'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113955'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113761'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113839'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113769'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113845'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113763'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113944'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113853'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113765'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113953'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113846'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113770'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113942'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113838'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113767'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113943'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113766'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113836'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113776'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113835'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113768'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113939'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113775'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113934'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113850'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113774'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113941'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113781'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113940'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113780'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113935'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113847'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113889'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113848'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113938'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113851'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113937'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113852'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113892'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113842'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113779'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113890'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113843'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113893'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113849'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113729'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113896'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113841'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113728'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113894'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113833'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113782'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113873'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113737'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113891'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113844'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113897'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113832'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113876'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113881'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113874'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113875'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113826'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113827'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113882'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113883'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113821'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113861'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113822'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113820'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113858'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113854'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113862'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113863'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113931'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113859'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113932'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113860'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113895'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113855'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113933'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113856'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113926'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113867'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113929'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113864'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113927'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113865'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113771'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113928'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113868'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113764'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113923'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113778'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113925'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113773'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113930'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113772'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113924'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113777'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113794'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113793'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113797'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113796'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113922'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113798'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113921'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113800'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113802'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113801'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113912'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113806'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113913'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113804'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113920'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113803'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113919'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113805'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113866'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113799'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113914'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113872'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113915'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113869'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113871'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113870'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113936'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113811'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113807'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113816'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113812'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113818'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113817'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113907'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113909'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113819'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113910'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113908'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113738'; /* linkmonstergen4minutes <- Drudge Aviator */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113911'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113736'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113735'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113734'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113733'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113918'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113732'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113906'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113731'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113917'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113783'; /* linkmonstergen4minutes <- Drudge Ballast */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113916'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879113730'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879113785'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879113784'; /* linkmonstergen4minutes <- Drudge Toiler */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879113888'; /* linkmonstergen4minutes <- Drudge Laborer */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879113786'; /* linkmonstergen4minutes <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879113742'; /* Linkable Monster Gen - 30 sec. <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879113741'; /* Linkable Monster Gen - 30 sec. <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879113740'; /* Linkable Monster Gen - 30 sec. <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879113739'; /* Linkable Monster Gen - 30 sec. <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879113743'; /* Linkable Monster Gen - 30 sec. <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879113744'; /* Linkable Monster Gen - 30 sec. <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879113814'; /* Linkable Monster Gen - 30 sec. <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879113810'; /* Linkable Monster Gen - 30 sec. <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879113809'; /* Linkable Monster Gen - 30 sec. <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879113808'; /* Linkable Monster Gen - 30 sec. <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879113813'; /* Linkable Monster Gen - 30 sec. <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113886'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113887'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113885'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113884'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113829'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113792'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113823'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113791'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113789'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113828'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113788'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113830'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113787'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113831'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113790'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113824'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113747'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113825'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113746'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113878'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113753'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113879'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113749'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113834'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113877'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113901'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113840'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113757'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113902'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113756'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113904'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113880'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113759'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113905'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113837'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113758'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113900'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113755'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113898'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113754'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113903'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113751'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113899'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113750'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113951'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113760'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113952'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113752'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113956'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879113762'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113955'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113761'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113839'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113769'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113845'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113763'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113944'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113853'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113765'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113953'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113846'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113770'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113942'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113838'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113767'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113943'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113766'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113836'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113776'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113835'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113768'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113939'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113775'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113934'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113850'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113774'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113941'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113781'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113940'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113780'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113935'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113847'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113889'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113848'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113938'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113851'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113937'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113852'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113892'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113842'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113779'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113890'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113843'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113893'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113849'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113729'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113896'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113841'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113728'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113894'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879113833'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113782'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113873'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113737'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113891'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113844'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113897'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113832'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113876'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113881'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113874'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113875'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113826'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113827'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113882'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113883'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113821'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113861'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113822'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113820'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113858'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113854'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113862'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113863'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113931'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113859'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113932'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113860'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113895'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113855'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113933'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113856'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113926'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113867'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113929'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113864'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113927'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113865'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113771'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113928'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113868'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113764'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113923'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113778'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113925'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113773'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113930'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113772'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113924'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879113777'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113794'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113793'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113797'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113796'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113922'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113798'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113921'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113800'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113802'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113801'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113912'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113806'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113913'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113804'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113920'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113803'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113919'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113805'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113866'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113799'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113914'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113872'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113915'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113869'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113871'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113870'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113936'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113811'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113807'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113816'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113812'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113818'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113817'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113907'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113909'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113819'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113910'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113908'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113738'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Aviator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113911'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113736'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113735'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113734'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113733'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113918'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113732'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113906'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113731'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113917'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113783'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Ballast */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879113916'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879113730'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879113785'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879113784'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879113888'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Laborer */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879113786'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Toiler */
 

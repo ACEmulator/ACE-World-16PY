@@ -15,36 +15,36 @@ VALUES (14520, 1918316576, 628293888, 119.842, 156.403, 138.81, -0.709016, 0, 0,
      , (24310, 1918316583, 628293913, 106.195, 166.09, 138.812, 0.997115, 0, 0, -0.0758991) /* Direland Rat */
      , (24310, 1918316582, 628293913, 106.973, 172.116, 138.812, 1, 0, 0, -0.000972217) /* Direland Rat */
      , (24310, 1918316581, 628293913, 108.455, 170.109, 138.812, 1, 0, 0, -0.000972197) /* Direland Rat */
-     , (553, 1918316558, 628293913, 110.093, 165.582, 138.805, 0.749144, 0, 0, 0.662408) /* mushroomcirclegen */
+     , (553, 1918316558, 628293913, 110.093, 165.582, 138.805, 0.749144, 0, 0, 0.662408) /* Mushroom Circle Generator */
      , (24310, 1918316584, 628293914, 106.635, 176.197, 140.073, 0.995712, 0, 0, -0.0925083) /* Direland Rat */
      , (24310, 1918316587, 628293916, 106.416, 178.129, 144.129, 0.982019, 0, 0, -0.188782) /* Direland Rat */
      , (24310, 1918316586, 628293916, 108.599, 182.565, 144.136, 0.898445, 0, 0, 0.439087) /* Direland Rat */
      , (24310, 1918316580, 628293916, 109.165, 178.126, 144.129, 0.982019, 0, 0, -0.188782) /* Direland Rat */
      , (7096, 1918316569, 628293632, 97.9035, 144.918, 156.9, 0.838959, 0, 0, -0.544195) /* Gold Golem */
-     , (1154, 1918316567, 628293632, 104.995, 186.946, 144.005, 0.872706, 0, 0, 0.488246) /* linkmonstergen */
+     , (1154, 1918316567, 628293632, 104.995, 186.946, 144.005, 0.872706, 0, 0, 0.488246) /* Linkable Monster Generator */
      , (24310, 1918316585, 628293632, 109.085, 182.769, 148.971, 0.978581, 0, 0, -0.205862) /* Direland Rat */
      , (7096, 1918316579, 628293632, 108.642, 106.036, 148.625, 0.967094, 0, 0, -0.25442) /* Gold Golem */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1918316567'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1918316567'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316581'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316582'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316583'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316584'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316585'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316586'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316587'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316580'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316576'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316577'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316578'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316579'; /* linkmonstergen <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316569'; /* linkmonstergen <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316570'; /* linkmonstergen <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316571'; /* linkmonstergen <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316572'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316573'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316574'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316575'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316588'; /* linkmonstergen <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316581'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316582'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316583'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316584'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316585'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316586'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316587'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316580'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316576'; /* Linkable Monster Generator <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316577'; /* Linkable Monster Generator <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316578'; /* Linkable Monster Generator <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316579'; /* Linkable Monster Generator <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316569'; /* Linkable Monster Generator <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316570'; /* Linkable Monster Generator <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316571'; /* Linkable Monster Generator <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316572'; /* Linkable Monster Generator <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316573'; /* Linkable Monster Generator <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316574'; /* Linkable Monster Generator <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316575'; /* Linkable Monster Generator <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316588'; /* Linkable Monster Generator <- Pyreal Golem */
 

@@ -19,7 +19,7 @@ VALUES (19288, 1967497216, 1415184640, 68.5494, -50.2328, 0.0098, -0.741622, 0, 
      , (19297, 1967497231, 1415184679, 139.998, -67.4366, 0.005, 1, 0, 0, -4.37114E-08) /* Bronze Statue of a Reedshark */
      , (19288, 1967497232, 1415184691, 155.379, -49.9615, 0.0098, 0.688957, 0, 0, 0.724803) /* Bronze Statue of a Drudge */
      , (19135, 1967497233, 1415184692, 2.75147, -29.7375, 6.005, 0.696707, 0, 0, 0.717356) /* Portal to Nanto */
-     , (7923, 1967497234, 1415184700, 9.29847, -53.8727, 6.005, 0.640997, 0, 0, -0.767543) /* linkmonstergen3minutes */
+     , (7923, 1967497234, 1415184700, 9.29847, -53.8727, 6.005, 0.640997, 0, 0, -0.767543) /* Linkable Monster Generator ( 3 Min.) */
      , (19294, 1967497235, 1415184721, 39.9871, -22.2083, 6.0165, 0.030102, 0, 0, -0.999547) /* Bronze Statue of a Mosswart */
      , (19297, 1967497236, 1415184723, 38.1623, -35.5484, 6.005, 0.569467, 0, 0, 0.822014) /* Bronze Statue of a Reedshark */
      , (19291, 1967497237, 1415184728, 39.2578, -62.253, 6.0065, 0.820649, 0, 0, 0.571432) /* Bronze Statue of a Gromnie */
@@ -35,37 +35,37 @@ VALUES (19288, 1967497216, 1415184640, 68.5494, -50.2328, 0.0098, -0.741622, 0, 
      , (19297, 1967497256, 1415184808, 186.415, -19.9969, 6.005, -0.689839, 0, 0, -0.723963) /* Bronze Statue of a Reedshark */
      , (19294, 1967497257, 1415184809, 186.942, -80.0891, 6.055, -0.680987, 0, 0, -0.732296) /* Bronze Statue of a Mosswart */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967497234'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967497234'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497237'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497236'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497235'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497239'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497240'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497238'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497216'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497219'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497218'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497217'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497220'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497223'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497222'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497226'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497221'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497225'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497224'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497228'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497229'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497231'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497230'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497227'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497232'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497243'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497254'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497255'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497253'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497257'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497242'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497241'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497256'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497237'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497236'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497235'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497239'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497240'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497238'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497216'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497219'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497218'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497217'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497220'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497223'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497222'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497226'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497221'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497225'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497224'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497228'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497229'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497231'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497230'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497227'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497232'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497243'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497254'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497255'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497253'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497257'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497242'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497241'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967497256'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Reedshark */
 

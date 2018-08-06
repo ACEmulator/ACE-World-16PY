@@ -13,22 +13,22 @@ VALUES (2565, 2102087680, 3568631808, 93.7447, 77.825, -0.0894999, 0.290695, 0, 
      , (2579, 2102087691, 3568631808, 145.218, 103.161, -0.895, 0.143263, 0, 0, -0.989685) /* Shallows Slayer */
      , (2579, 2102087692, 3568631808, 141.347, 102.369, -0.895, -0.569783, 0, 0, -0.821795) /* Shallows Slayer */
      , (2579, 2102087693, 3568631808, 118.191, 126.789, -0.895, -0.877687, 0, 0, -0.479234) /* Shallows Slayer */
-     , (1154, 2102087694, 3568631808, 91.4546, 53.6129, 0.005, -0.439422, 0, 0, -0.898281) /* linkmonstergen */;
+     , (1154, 2102087694, 3568631808, 91.4546, 53.6129, 0.005, -0.439422, 0, 0, -0.898281) /* Linkable Monster Generator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2102087694'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2102087694'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087680'; /* linkmonstergen <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087681'; /* linkmonstergen <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087682'; /* linkmonstergen <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087683'; /* linkmonstergen <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087684'; /* linkmonstergen <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087685'; /* linkmonstergen <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087686'; /* linkmonstergen <- Shallows Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087687'; /* linkmonstergen <- Shallows Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087688'; /* linkmonstergen <- Shallows Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087689'; /* linkmonstergen <- Shallows Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087690'; /* linkmonstergen <- Shallows Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087691'; /* linkmonstergen <- Shallows Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087692'; /* linkmonstergen <- Shallows Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087693'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087680'; /* Linkable Monster Generator <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087681'; /* Linkable Monster Generator <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087682'; /* Linkable Monster Generator <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087683'; /* Linkable Monster Generator <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087684'; /* Linkable Monster Generator <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087685'; /* Linkable Monster Generator <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087686'; /* Linkable Monster Generator <- Shallows Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087687'; /* Linkable Monster Generator <- Shallows Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087688'; /* Linkable Monster Generator <- Shallows Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087689'; /* Linkable Monster Generator <- Shallows Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087690'; /* Linkable Monster Generator <- Shallows Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087691'; /* Linkable Monster Generator <- Shallows Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087692'; /* Linkable Monster Generator <- Shallows Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102087693'; /* Linkable Monster Generator <- Shallows Slayer */
 

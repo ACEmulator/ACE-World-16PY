@@ -11,7 +11,7 @@ VALUES (720, 2138423296, 4150001920, 63, 83.975, 20, 0, 0, 0, -1) /* Sliding Doo
      , (2567, 2138423332, 4150001927, 53.0064, 92.4217, 17.205, 0.952652, 0, 0, -0.304063) /* Brown Rabbit */
      , (143, 2138423299, 4150001933, 69.47, 93.35, 21.24, 0.7694, 0, 0, -0.638768) /* Chest */
      , (15812, 2138423352, 4150001949, 31.2418, 80.2651, 28.405, -0.94846, 0, 0, -0.316898) /* Tai Wo */
-     , (7923, 2138423353, 4150001949, 32.569, 79.4919, 28.405, 0.68191, 0, 0, 0.731436) /* linkmonstergen3minutes */
+     , (7923, 2138423353, 4150001949, 32.569, 79.4919, 28.405, 0.68191, 0, 0, 0.731436) /* Linkable Monster Generator ( 3 Min.) */
      , (165, 2138423335, 4150001955, 38.6453, 81.3325, 20.05, 0.707107, 0, 0, -0.707107) /* Pool */
      , (720, 2138423302, 4150001960, 35.98, 91.3, 20, -4.37114E-08, 0, 0, -1) /* Sliding Door */
      , (720, 2138423303, 4150001961, 36.045, 76.745, 20, 1, 0, 0, 0) /* Sliding Door */
@@ -23,10 +23,10 @@ VALUES (720, 2138423296, 4150001920, 63, 83.975, 20, 0, 0, 0, -1) /* Sliding Doo
      , (720, 2138423309, 4150001973, 36.04, 76.745, 25.6, 1, 0, 0, 0) /* Sliding Door */
      , (4564, 2138423319, 4150001976, 36.8813, 57.3171, 20.005, -0.353297, 0, 0, 0.935511) /* Healer Rili Sou */
      , (4214, 2138423324, 4150001986, 8.20698, 84.6189, 24.405, 0.953407, 0, 0, -0.301686) /* Leather Crafter */
-     , (1154, 2138423326, 4150001986, 5.60688, 89.1758, 24.405, -0.480487, 0, 0, -0.877002) /* linkmonstergen */
+     , (1154, 2138423326, 4150001986, 5.60688, 89.1758, 24.405, -0.480487, 0, 0, -0.877002) /* Linkable Monster Generator */
      , (5148, 2138423325, 4150001987, 6.461, 89.726, 20.205, -0.719625, 0, 0, -0.694363) /* Flames */
      , (4563, 2138423322, 4150001992, 15.2989, 88.1497, 20.005, 0.114233, 0, 0, -0.993454) /* Rou Beh the Bowyer */
-     , (7923, 2138423341, 4150001997, 84.8456, 39.5455, 20.005, -0.619706, 0, 0, 0.784834) /* linkmonstergen3minutes */
+     , (7923, 2138423341, 4150001997, 84.8456, 39.5455, 20.005, -0.619706, 0, 0, 0.784834) /* Linkable Monster Generator ( 3 Min.) */
      , (12050, 2138423340, 4150001997, 86.0853, 39.4312, 20.005, 0.372435, 0, 0, 0.928058) /* Agent of the Arcanum */
      , (19718, 2138423361, 4150002004, 42.8858, 56.3193, 14.805, -0.819631, 0, 0, -0.572891) /* Effigy Foundry Portal */
      , (721, 2138423300, 4150001664, 57, 94.775, 20, 1, 0, 0, 0) /* Door */
@@ -39,31 +39,31 @@ VALUES (720, 2138423296, 4150001920, 63, 83.975, 20, 0, 0, 0, -1) /* Sliding Doo
      , (16919, 2138423354, 4150001664, 59.0525, 50.834, 20, -0.587874, 0, 0, 0.808953) /* Pedestal Weak Spot */
      , (174, 2138423314, 4150001664, 30.3512, 63.2132, 20, -0.727113, 0, 0, 0.686518) /* Well */
      , (618, 2138423315, 4150001664, 12.3792, 61.5243, 20.0056, -0.984627, 0, 0, -0.174668) /* Cow */
-     , (1154, 2138423316, 4150001664, 18.0589, 62.626, 20.005, -0.943773, 0, 0, 0.330593) /* linkmonstergen */
+     , (1154, 2138423316, 4150001664, 18.0589, 62.626, 20.005, -0.943773, 0, 0, 0.330593) /* Linkable Monster Generator */
      , (153, 2138423317, 4150001664, 18.3, 77.3, 20.005, 1, 0, 0, 0) /* Fountain */
      , (509, 2138423364, 4150001664, 81.0753, 57.8992, 20.005, -0.680695, 0, 0, 0.732567) /* Life Stone */
      , (25940, 2138423362, 4150001664, 33.0705, 9.98725, 20.079, -0.426145, 0, 0, 0.904655) /* Scrawled Note */
      , (4534, 2138423320, 4150001664, 38.889, 68.98, 21.9, -0.707107, 0, 0, -0.707107) /* East Tower Healer */
      , (4532, 2138423321, 4150001664, 51.703, 74.433, 21.75, 0.707107, 0, 0, -0.707107) /* Tou-Tou Smithy */
-     , (23631, 2138423363, 4150001664, 13.6078, 58.8829, 154.912, 0.73157, 0, 0, -0.681767) /* eventmadcowgen */
+     , (23631, 2138423363, 4150001664, 13.6078, 58.8829, 154.912, 0.73157, 0, 0, -0.681767) /* April 2003 Raining Mad Cows Gen */
      , (4533, 2138423323, 4150001664, 8.753, 76.65, 21.85, 0.707107, 0, 0, -0.707107) /* East Tower Bows */
      , (19194, 2138423360, 4150001664, 54.7783, 51.5974, 26.8193, 0.983642, 0, 0, -0.180133) /* Nullified Statue of a Banderling */
-     , (19457, 2138423357, 4150001664, 54.9191, 52.1238, 27, 0.990092, 0, 0, -0.140422) /* fireworksgen */
+     , (19457, 2138423357, 4150001664, 54.9191, 52.1238, 27, 0.990092, 0, 0, -0.140422) /* Fireworks Generator */
      , (12304, 2138423342, 4150001664, 79.2141, 38.334, 20.005, -0.695741, 0, 0, 0.718292) /* Agent of the Arcanum  */
-     , (794, 2138423327, 4150001664, 29.918, 67.0563, 20.005, 0.304175, 0, 0, 0.952616) /* applegenerator */
+     , (794, 2138423327, 4150001664, 29.918, 67.0563, 20.005, 0.304175, 0, 0, 0.952616) /* Apple Generator */
      , (4535, 2138423330, 4150001664, 46.096, 65.699, 20.005, 1, 0, 0, 0) /* Tou-Tou */
      , (1013, 2138423329, 4150001664, 29.94, 125.074, 20.005, -0.382683, 0, 0, -0.92388) /* Portal to Arwic */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2138423316'; /* linkmonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2138423326'; /* linkmonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2138423341'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2138423353'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2138423316'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2138423326'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2138423341'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2138423353'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138423315'; /* linkmonstergen <- Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138423332'; /* linkmonstergen <- Brown Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138423333'; /* linkmonstergen <- Brown Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138423334'; /* linkmonstergen <- Brown Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2138423324'; /* linkmonstergen <- Leather Crafter */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2138423340'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2138423352'; /* linkmonstergen3minutes <- Tai Wo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138423315'; /* Linkable Monster Generator <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138423332'; /* Linkable Monster Generator <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138423333'; /* Linkable Monster Generator <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138423334'; /* Linkable Monster Generator <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2138423324'; /* Linkable Monster Generator <- Leather Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2138423340'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2138423352'; /* Linkable Monster Generator ( 3 Min.) <- Tai Wo */
 

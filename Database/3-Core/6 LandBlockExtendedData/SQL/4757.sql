@@ -7,16 +7,16 @@ VALUES (1615, 1953853440, 1196883968, 101.849, 114.932, -0.095, -0.583434, 0, 0,
      , (1615, 1953853445, 1196883968, 56.1003, 101.575, 6.7282, -0.958343, 0, 0, 0.285621) /* Ash Gromnie */
      , (1615, 1953853446, 1196883968, 74.1413, 110.331, 0.005, -0.691064, 0, 0, 0.722794) /* Ash Gromnie */
      , (1615, 1953853447, 1196883968, 81.6705, 115.538, 0.005, -0.717677, 0, 0, 0.696377) /* Ash Gromnie */
-     , (1154, 1953853448, 1196883968, 85.0706, 115.641, 0.005, -0.717677, 0, 0, 0.696377) /* linkmonstergen */;
+     , (1154, 1953853448, 1196883968, 85.0706, 115.641, 0.005, -0.717677, 0, 0, 0.696377) /* Linkable Monster Generator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1953853448'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1953853448'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853440'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853441'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853442'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853443'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853444'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853445'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853446'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853447'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853440'; /* Linkable Monster Generator <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853441'; /* Linkable Monster Generator <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853442'; /* Linkable Monster Generator <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853443'; /* Linkable Monster Generator <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853444'; /* Linkable Monster Generator <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853445'; /* Linkable Monster Generator <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853446'; /* Linkable Monster Generator <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853447'; /* Linkable Monster Generator <- Ash Gromnie */
 

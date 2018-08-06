@@ -6,7 +6,7 @@ VALUES (8440, 2123505681, 3911319814, 64.9374, 30.5391, 16.805, 0.946432, 0, 0, 
      , (8437, 2123505685, 3911319830, 84.3794, 80.7843, -1.195, -0.982296, 0, 0, -0.187334) /* Jeweler Imad Nedjim */
      , (720, 2123505667, 3911319832, 79.0545, 87.0166, 2.5, 0.00338207, 0, 0, -0.999994) /* Sliding Door */
      , (720, 2123505668, 3911319835, 79.0957, 80.9168, 2.5, 0.00338207, 0, 0, -0.999994) /* Sliding Door */
-     , (1154, 2123505677, 3911319846, 18.7139, 82.3475, -1.195, 0.605892, 0, 0, 0.795547) /* linkmonstergen */
+     , (1154, 2123505677, 3911319846, 18.7139, 82.3475, -1.195, 0.605892, 0, 0, 0.795547) /* Linkable Monster Generator */
      , (8435, 2123505678, 3911319846, 17.7115, 85.0731, -1.195, 0.565374, 0, 0, 0.824835) /* Sharon the Skilled, Bowyer */
      , (720, 2123505670, 3911319848, 8.95, 79.075, 2.5, 0.707107, 0, 0, -0.707107) /* Sliding Door */
      , (720, 2123505671, 3911319851, 15.05, 79.075, 2.5, 0.707107, 0, 0, -0.707107) /* Sliding Door */
@@ -22,7 +22,7 @@ VALUES (8440, 2123505681, 3911319814, 64.9374, 30.5391, 16.805, 0.946432, 0, 0, 
      , (16919, 2123505697, 3911319552, 25.1369, 115.641, 2.26574E-07, -0.729118, 0, 0, -0.684388) /* Pedestal Weak Spot */
      , (8448, 2123505676, 3911319552, 12, 72.7, 3, -0.707107, 0, 0, -0.707107) /* The Olthoi's Eye */
      , (19202, 2123505703, 3911319552, 29.3741, 115.573, 6.805, -0.0305674, 0, 0, -0.999533) /* Nullified Statue of a Sclavus */
-     , (19457, 2123505700, 3911319552, 29.402, 115.653, 7, -0.0151315, 0, 0, -0.999885) /* fireworksgen */
+     , (19457, 2123505700, 3911319552, 29.402, 115.653, 7, -0.0151315, 0, 0, -0.999885) /* Fireworks Generator */
      , (8447, 2123505679, 3911319552, 48.8, 36.592, 21, -4.37114E-08, 0, 0, -1) /* The Whipping Vine */
      , (8454, 2123505680, 3911319552, 48.781, 35.574, 21, -4.37114E-08, 0, 0, -1) /* The Whipping Vine */
      , (3926, 2123505690, 3911319552, 51.133, 7.02002, 19.42, -0.971309, 0, 0, -0.237819) /* Ivory Crafter */
@@ -31,9 +31,9 @@ VALUES (8440, 2123505681, 3911319814, 64.9374, 30.5391, 16.805, 0.946432, 0, 0, 
      , (8451, 2123505684, 3911319552, 120.7, 59.7, 3, 1, 0, 0, 0) /* Nature's Balm */
      , (8441, 2123505688, 3911319552, 14.0457, 36.922, 18.9282, -0.138733, 0, 0, 0.99033) /* Zenzaburou Hensu */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2123505677'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2123505677'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2123505688'; /* linkmonstergen <- Zenzaburou Hensu */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2123505689'; /* linkmonstergen <- Leather Crafter */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2123505690'; /* linkmonstergen <- Ivory Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2123505688'; /* Linkable Monster Generator <- Zenzaburou Hensu */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2123505689'; /* Linkable Monster Generator <- Leather Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2123505690'; /* Linkable Monster Generator <- Ivory Crafter */
 

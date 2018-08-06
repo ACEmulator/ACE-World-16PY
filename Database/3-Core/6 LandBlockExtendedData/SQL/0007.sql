@@ -14,11 +14,11 @@ VALUES (278, 1879076864, 459025, 24.75, -40, 0, 0.707107, 0, 0, -0.707107) /* Do
      , (278, 1879076876, 459177, 44.75, -80, 6, -0.707107, 0, 0, -0.707107) /* Door */
      , (1387, 1879076877, 459221, 106.781, -69.8029, 6.005, -0.54128, 0, 0, -0.840843) /* Merchant */
      , (174, 1879076878, 459222, 172.606, -92.1841, 6, 1, 0, 0, 0) /* Well */
-     , (794, 1879076879, 459223, 171.656, -97.0465, 9.34375, -0.707107, 0, 0, -0.707107) /* applegenerator */
+     , (794, 1879076879, 459223, 171.656, -97.0465, 9.34375, -0.707107, 0, 0, -0.707107) /* Apple Generator */
      , (2566, 1879076880, 459225, 177.507, -102.888, 6, -4.37114E-08, 0, 0, -1) /* Black Rabbit */
      , (2566, 1879076881, 459225, 176.195, -103.988, 6, 0.74613, 0, 0, -0.6658) /* Black Rabbit */
      , (4980, 1879076882, 459225, 178.214, -100.7, 6.05, -4.37114E-08, 0, 0, -1) /* Refreshing Fountain */
-     , (7924, 1879076883, 459225, 178.508, -97.3392, 6.005, 0.107786, 0, 0, -0.994174) /* linkmonstergen5minutes */
+     , (7924, 1879076883, 459225, 178.508, -97.3392, 6.005, 0.107786, 0, 0, -0.994174) /* Linkable Monster Generator ( 5 Min.) */
      , (152, 1879076884, 459226, 190.555, -97.0686, 6, -0.707107, 0, 0, -0.707107) /* Font */
      , (30539, 1879076885, 459241, 102.407, -20.0795, 12.005, 0.703117, 0, 0, 0.711074) /* Monty's Den of Iniquity */
      , (30540, 1879076886, 459244, 110, -12, 12.005, 0.998885, 0, 0, -0.047202) /* Arshid's Den of Iniquity */
@@ -44,9 +44,9 @@ VALUES (278, 1879076864, 459025, 24.75, -40, 0, 0.707107, 0, 0, -0.707107) /* Do
      , (165, 1879076907, 459463, 178.17, -77.9414, 24.05, -4.37114E-08, 0, 0, -1) /* Pool */
      , (278, 1879076908, 459465, 180, -84.75, 24, -4.37114E-08, 0, 0, -1) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879076883'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879076883'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879076881'; /* linkmonstergen5minutes <- Black Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879076880'; /* linkmonstergen5minutes <- Black Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879076893'; /* linkmonstergen5minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879076881'; /* Linkable Monster Generator ( 5 Min.) <- Black Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879076880'; /* Linkable Monster Generator ( 5 Min.) <- Black Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879076893'; /* Linkable Monster Generator ( 5 Min.) <- Russet Rat */
 

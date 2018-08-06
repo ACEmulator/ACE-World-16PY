@@ -1,5 +1,5 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4772, 2120470552, 3862757634, 86.344, 103.558, 90.805, 0.984856, 0, 0, 0.173377) /* collectorshogen */
+VALUES (4772, 2120470552, 3862757634, 86.344, 103.558, 90.805, 0.984856, 0, 0, 0.173377) /* Sho Collector Gen */
      , (4550, 2120470551, 3862757638, 80.4207, 113.497, 87.605, 0.143339, 0, 0, -0.989674) /* Ye Te the Bowyer */
      , (4551, 2120470557, 3862757640, 80.8723, 156.652, 86.005, -0.0822382, 0, 0, 0.996613) /* Jo Gau the Grocer */
      , (720, 2120470531, 3862757665, 11.98, 139.3, 96, -4.37114E-08, 0, 0, -1) /* Sliding Door */
@@ -19,7 +19,7 @@ VALUES (4772, 2120470552, 3862757634, 86.344, 103.558, 90.805, 0.984856, 0, 0, 0
      , (143, 2120470542, 3862757694, 50.53, 74.65, 87.24, -0.638768, 0, 0, -0.7694) /* Chest */
      , (14930, 2120470568, 3862757708, 108.591, 62.4213, 86.005, -0.252577, 0, 0, -0.967577) /* Wedding Planner */
      , (12050, 2120470560, 3862757708, 105.036, 60.6905, 86.005, 0.561136, 0, 0, -0.827724) /* Agent of the Arcanum */
-     , (7923, 2120470561, 3862757708, 104.245, 61.7964, 86.005, -0.202749, 0, 0, 0.979231) /* linkmonstergen3minutes */
+     , (7923, 2120470561, 3862757708, 104.245, 61.7964, 86.005, -0.202749, 0, 0, 0.979231) /* Linkable Monster Generator ( 3 Min.) */
      , (19717, 2120470583, 3862757715, 15.7265, 148.415, 90.805, -0.00704787, 0, 0, 0.999975) /* Mannikin Foundry Portal */
      , (20213, 2120470585, 3862757721, 126.893, 109.879, 96.005, -0.561965, 0, 0, 0.827161) /* Journeyman Scrivener of Item Magic */
      , (20225, 2120470584, 3862757721, 136.72, 105.621, 96.005, 0.872248, 0, 0, 0.489064) /* Journeyman Scrivener of War Magic */
@@ -45,16 +45,16 @@ VALUES (4772, 2120470552, 3862757634, 86.344, 103.558, 90.805, 0.984856, 0, 0, 0
      , (4520, 2120470549, 3862757376, 13.0058, 140.344, 99.175, -0.707107, 0, 0, -0.707107) /* Tailor Yajyi */
      , (4516, 2120470550, 3862757376, 11.0631, 140.267, 99.175, -0.707107, 0, 0, -0.707107) /* Jewels of the South */
      , (19201, 2120470577, 3862757376, 15.761, 161.175, 102.804, -0.999867, 0, 0, -0.0163034) /* Nullified Statue of a Reedshark */
-     , (19457, 2120470572, 3862757376, 15.667, 161.081, 103, 0.0199303, 0, 0, -0.999801) /* fireworksgen */
+     , (19457, 2120470572, 3862757376, 15.667, 161.081, 103, 0.0199303, 0, 0, -0.999801) /* Fireworks Generator */
      , (4512, 2120470553, 3862757376, 78.0216, 116.016, 89.429, -0.382683, 0, 0, -0.92388) /* Southern Town Bows */
      , (4511, 2120470554, 3862757376, 52.6459, 93.5286, 87.7036, -0.707107, 0, 0, -0.707107) /* Ton Wing's Smithy */
-     , (7923, 2120470563, 3862757376, 59.867, 124.103, 87.0308, 0.787586, 0, 0, 0.616204) /* linkmonstergen3minutes */
+     , (7923, 2120470563, 3862757376, 59.867, 124.103, 87.0308, 0.787586, 0, 0, 0.616204) /* Linkable Monster Generator ( 3 Min.) */
      , (4513, 2120470556, 3862757376, 83.6253, 146.525, 87.931, 0.707107, 0, 0, -0.707107) /* The Full Net */
      , (12304, 2120470562, 3862757376, 102.536, 54.7218, 86.005, 0.999884, 0, 0, 0.0152548) /* Agent of the Arcanum  */
      , (4519, 2120470558, 3862757376, 75.014, 131.72, 86.005, 0.92388, 0, 0, -0.382683) /* Nanto */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2120470561'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2120470561'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2120470560'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2120470589'; /* linkmonstergen3minutes <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2120470560'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2120470589'; /* Linkable Monster Generator ( 3 Min.) <- Small Creepy Statue */
 

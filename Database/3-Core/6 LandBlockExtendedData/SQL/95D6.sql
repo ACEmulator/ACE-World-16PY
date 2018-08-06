@@ -12,22 +12,22 @@ VALUES (6889, 2036162575, 2513830151, 84, 65, 100.005, -4.37114E-08, 0, 0, -1) /
      , (174, 2036162563, 2513829888, 68.196, 66.8089, 100.005, -4.37114E-08, 0, 0, -1) /* Well */
      , (8377, 2036162576, 2513829888, 75.3668, 101.969, 101.106, 0.999531, 0, 0, -0.0306362) /* Beer Keg */
      , (1987, 2036162565, 2513829888, 23.5997, 160.745, 90.6112, -0.917256, 0, 0, 0.398298) /* Ghost Wisp */
-     , (1154, 2036162566, 2513829888, 78.5536, 71.3404, 100.005, -0.0764891, 0, 0, -0.99707) /* linkmonstergen */
+     , (1154, 2036162566, 2513829888, 78.5536, 71.3404, 100.005, -0.0764891, 0, 0, -0.99707) /* Linkable Monster Generator */
      , (5861, 2036162574, 2513829888, 72.4078, 102.883, 100.005, -0.0548485, 0, 0, -0.998495) /* Nelvaine the Brewer */
      , (5648, 2036162568, 2513829888, 93.1504, 61.6468, 106.005, 0.123057, 0, 0, -0.9924) /* Viamasa the Weaponsmith */
      , (5898, 2036162573, 2513829888, 85.8443, 66.2263, 110.005, -0.96328, 0, 0, -0.268499) /* Yi Yo-Jin */
      , (1987, 2036162570, 2513829888, 31.5263, 9.17918, 96.634, 0.768322, 0, 0, 0.640063) /* Ghost Wisp */
-     , (3951, 2036162571, 2513829888, 78.6467, 73.0057, 100.005, 0.0445283, 0, 0, -0.999008) /* linkmonstergen1hour */;
+     , (3951, 2036162571, 2513829888, 78.6467, 73.0057, 100.005, 0.0445283, 0, 0, -0.999008) /* Linkable Monster Gen (1 hour) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2036162566'; /* linkmonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2036162571'; /* linkmonstergen1hour */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2036162566'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2036162571'; /* Linkable Monster Gen (1 hour) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036162562'; /* linkmonstergen <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162578'; /* linkmonstergen1hour <- Journeyman Cook */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162570'; /* linkmonstergen1hour <- Ghost Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162572'; /* linkmonstergen1hour <- Lady Tallial */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162573'; /* linkmonstergen1hour <- Yi Yo-Jin */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162575'; /* linkmonstergen1hour <- Gormling the Sneaky Seneschal */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162577'; /* linkmonstergen1hour <- Loom */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162565'; /* linkmonstergen1hour <- Ghost Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036162562'; /* Linkable Monster Generator <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162578'; /* Linkable Monster Gen (1 hour) <- Journeyman Cook */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162570'; /* Linkable Monster Gen (1 hour) <- Ghost Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162572'; /* Linkable Monster Gen (1 hour) <- Lady Tallial */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162573'; /* Linkable Monster Gen (1 hour) <- Yi Yo-Jin */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162575'; /* Linkable Monster Gen (1 hour) <- Gormling the Sneaky Seneschal */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162577'; /* Linkable Monster Gen (1 hour) <- Loom */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162565'; /* Linkable Monster Gen (1 hour) <- Ghost Wisp */
 

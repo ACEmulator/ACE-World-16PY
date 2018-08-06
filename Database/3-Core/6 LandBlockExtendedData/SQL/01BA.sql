@@ -12,16 +12,16 @@ VALUES (22933, 1880858624, 28967171, 10, -60, -41.989, 0.712945, 0, 0, -0.70122)
      , (22933, 1880858633, 28967226, 45.2166, -43.8595, -41.8978, 0.798899, 0, 0, -0.601466) /* Mist Golem */
      , (22933, 1880858634, 28967228, 50, -70, -41.989, -0.749389, 0, 0, -0.66213) /* Mist Golem */
      , (25326, 1880858629, 28967228, 52.862, -72.6902, -41.995, 0.453596, 0, 0, -0.891207) /* Alloy Cylinder */
-     , (15759, 1880858659, 28967228, 53.5205, -73.4673, -41.995, 0.453596, 0, 0, -0.891207) /* linkitemgen10seconds */
+     , (15759, 1880858659, 28967228, 53.5205, -73.4673, -41.995, 0.453596, 0, 0, -0.891207) /* Linkable Item Generator */
      , (1757, 1880858635, 28967267, 19.7392, -53.3183, 0.005, 1, 0, 0, 0) /* Shadow Lieutenant */
      , (1757, 1880858636, 28967294, 49.0352, -72.3168, 0.005, 0.709494, 0, 0, -0.704711) /* Shadow Lieutenant */
      , (1757, 1880858637, 28967294, 50.7681, -71.9536, 0.005, -0.658443, 0, 0, -0.752631) /* Shadow Lieutenant */
-     , (7923, 1880858630, 28967302, 60.7526, -50.0978, 0.005, 0.659983, 0, 0, -0.75128) /* linkmonstergen3minutes */
+     , (7923, 1880858630, 28967302, 60.7526, -50.0978, 0.005, 0.659983, 0, 0, -0.75128) /* Linkable Monster Generator ( 3 Min.) */
      , (2075, 1880858639, 28967311, 79.9599, -27.9269, 0, -4.37114E-08, 0, 0, -1) /* Ancient Town */
      , (568, 1880858640, 28967313, 80, -34.75, 0, -4.37114E-08, 0, 0, -1) /* Door */
      , (1757, 1880858641, 28967331, 90, -90, 0.005, 1, 0, 0, 0) /* Shadow Lieutenant */
      , (4253, 1880858642, 28967342, 111.662, -28.5863, 0.0075, -0.086504, 0, 0, -0.996252) /* Panumbris Shadow */
-     , (4027, 1880858643, 28967342, 110.37, -26.4676, 0.005, -0.753821, 0, 0, 0.65708) /* itemmedminergen */
+     , (4027, 1880858643, 28967342, 110.37, -26.4676, 0.005, -0.753821, 0, 0, 0.65708) /* Valuable Miner Generator */
      , (1757, 1880858644, 28967345, 110, -60, 0.005, 1, 0, 0, 0) /* Shadow Lieutenant */
      , (1757, 1880858645, 28967345, 111.535, -57.8254, 0.005, -0.401748, 0, 0, -0.91575) /* Shadow Lieutenant */
      , (5748, 1880858646, 28967353, 131.222, -61.0459, 0.5, -4.37114E-08, 0, 0, -1) /* Fire Wisp */
@@ -35,31 +35,31 @@ VALUES (22933, 1880858624, 28967171, 10, -60, -41.989, 0.712945, 0, 0, -0.70122)
      , (1757, 1880858654, 28967489, 61.6481, -22.676, 12.005, 0.894496, 0, 0, -0.447076) /* Shadow Lieutenant */
      , (1757, 1880858655, 28967489, 61.9351, -20.3834, 12.005, 0.718734, 0, 0, -0.695285) /* Shadow Lieutenant */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880858659'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880858630'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880858659'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880858630'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880858629'; /* linkitemgen10seconds <- Alloy Cylinder */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858632'; /* linkmonstergen3minutes <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858642'; /* linkmonstergen3minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858652'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858634'; /* linkmonstergen3minutes <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858624'; /* linkmonstergen3minutes <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858631'; /* linkmonstergen3minutes <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858627'; /* linkmonstergen3minutes <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858633'; /* linkmonstergen3minutes <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858651'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858648'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858647'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858650'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858635'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858636'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858637'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858641'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858644'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858645'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858646'; /* linkmonstergen3minutes <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858653'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858654'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858655'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858625'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880858629'; /* Linkable Item Generator <- Alloy Cylinder */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858632'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858642'; /* Linkable Monster Generator ( 3 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858652'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858634'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858624'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858631'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858627'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858633'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858651'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858648'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858647'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858650'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858635'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858636'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858637'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858641'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858644'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858645'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858646'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858653'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858654'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858655'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880858625'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
 

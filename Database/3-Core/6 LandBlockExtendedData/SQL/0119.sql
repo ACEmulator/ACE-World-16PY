@@ -6,9 +6,9 @@ VALUES (11527, 1880199168, 18415873, 9.00524, -13.9875, -77.995, 0.988589, 0, 0,
      , (21170, 1880199172, 18415876, 20, -10, -77.9915, 1, 0, 0, 0) /* Voltarc */
      , (278, 1880199173, 18415878, 20, -5.25, -78, 0, 0, 0, -1) /* Door */
      , (11527, 1880199174, 18415881, 27.4334, -18.459, -77.995, 0.651462, 0, 0, 0.758681) /* Sable Gromnie */
-     , (3955, 1880199175, 18415883, 39.9494, -12.4832, -77.995, 0.989437, 0, 0, -0.144966) /* linkmonstergen15minutes */
+     , (3955, 1880199175, 18415883, 39.9494, -12.4832, -77.995, 0.989437, 0, 0, -0.144966) /* Linkable Monster Gen (15 min.) */
      , (11527, 1880199176, 18415883, 39.2059, -14.2103, -77.995, 0.080239, 0, 0, 0.996776) /* Sable Gromnie */
-     , (5085, 1880199177, 18415891, 111.495, -39.7096, -78, 1, 0, 0, 0) /* linkitemgen25seconds */
+     , (5085, 1880199177, 18415891, 111.495, -39.7096, -78, 1, 0, 0, 0) /* Linkable Item Gen - 25 seconds */
      , (280, 1880199178, 18415891, 107.076, -40.3499, -78, 1, 0, 0, 0) /* Gem */
      , (2411, 1880199179, 18415891, 106.314, -41.0897, -78, 1, 0, 0, 0) /* Ruby */
      , (2412, 1880199180, 18415891, 107.586, -39.3125, -78, 1, 0, 0, 0) /* Sapphire */
@@ -18,7 +18,7 @@ VALUES (11527, 1880199168, 18415873, 9.00524, -13.9875, -77.995, 0.988589, 0, 0,
      , (11527, 1880199184, 18415891, 109.204, -41.5828, -77.995, 0.04578, 0, 0, 0.998952) /* Sable Gromnie */
      , (11527, 1880199185, 18415891, 112.105, -41.8492, -77.995, 0.04578, 0, 0, 0.998952) /* Sable Gromnie */
      , (6407, 1880199255, 18415891, 108.815, -37.8449, -77.9305, -0.986156, 0, 0, -0.165823) /* Textbook */
-     , (3955, 1880199186, 18415892, 110.011, -49.993, -78, -4.37114E-08, 0, 0, -1) /* linkmonstergen15minutes */
+     , (3955, 1880199186, 18415892, 110.011, -49.993, -78, -4.37114E-08, 0, 0, -1) /* Linkable Monster Gen (15 min.) */
      , (11527, 1880199187, 18415892, 111.628, -49.8979, -77.995, 0.696331, 0, 0, 0.717721) /* Sable Gromnie */
      , (568, 1880199188, 18415906, 10, -35.25, -72, 1, 0, 0, 0) /* Door */
      , (21170, 1880199189, 18415907, 10, -50, -71.9915, 1, 0, 0, 0) /* Voltarc */
@@ -59,7 +59,7 @@ VALUES (11527, 1880199168, 18415873, 9.00524, -13.9875, -77.995, 0.988589, 0, 0,
      , (6390, 1880199224, 18416194, 50, -90, -60, 1, 0, 0, 0) /* Surface Portal */
      , (11527, 1880199225, 18416201, 50, -80, -53.995, -0.202788, 0, 0, 0.979223) /* Sable Gromnie */
      , (6380, 1880199226, 18416203, 50, -100, -53.9935, 1, 0, 0, 0) /* Scintilla */
-     , (3955, 1880199227, 18416214, 30, -110, -48, 1, 0, 0, 0) /* linkmonstergen15minutes */
+     , (3955, 1880199227, 18416214, 30, -110, -48, 1, 0, 0, 0) /* Linkable Monster Gen (15 min.) */
      , (6380, 1880199228, 18416214, 30, -110, -47.9935, 1, 0, 0, 0) /* Scintilla */
      , (21170, 1880199229, 18416217, 40, -80, -47.9915, 1, 0, 0, 0) /* Voltarc */
      , (21170, 1880199230, 18416230, 60, -80, -47.9915, 0.707107, 0, 0, -0.707107) /* Voltarc */
@@ -86,73 +86,73 @@ VALUES (11527, 1880199168, 18415873, 9.00524, -13.9875, -77.995, 0.988589, 0, 0,
      , (278, 1880199252, 18416488, 44.75, -110, 42, -0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1880199254, 18416499, 55.25, -110, 42, -0.707107, 0, 0, 0.707107) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880199177'; /* linkitemgen25seconds */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880199186'; /* linkmonstergen15minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880199227'; /* linkmonstergen15minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880199175'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880199177'; /* Linkable Item Gen - 25 seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880199186'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880199227'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880199175'; /* Linkable Monster Gen (15 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880199181'; /* linkitemgen25seconds <- Malachite */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880199180'; /* linkitemgen25seconds <- Sapphire */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880199179'; /* linkitemgen25seconds <- Ruby */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880199178'; /* linkitemgen25seconds <- Gem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880199182'; /* linkitemgen25seconds <- Major Sparking Stone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880199255'; /* linkitemgen25seconds <- Textbook */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199183'; /* linkmonstergen15minutes <- Voltarc */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199216'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199214'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199199'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199197'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199209'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199210'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199211'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199218'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199220'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199219'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199222'; /* linkmonstergen15minutes <- Voltarc */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199221'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199223'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199172'; /* linkmonstergen15minutes <- Voltarc */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199195'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199205'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199206'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199201'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199193'; /* linkmonstergen15minutes <- Voltarc */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199189'; /* linkmonstergen15minutes <- Voltarc */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199212'; /* linkmonstergen15minutes <- Voltarc */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199226'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199228'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199229'; /* linkmonstergen15minutes <- Voltarc */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199230'; /* linkmonstergen15minutes <- Voltarc */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199231'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199233'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199232'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199235'; /* linkmonstergen15minutes <- Voltarc */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199234'; /* linkmonstergen15minutes <- Voltarc */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199236'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199238'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199240'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199241'; /* linkmonstergen15minutes <- Scintilla */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199245'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199244'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199247'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199246'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199248'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199250'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199242'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199239'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199176'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199174'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199168'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199169'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199170'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199184'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199185'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199187'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199215'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199217'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199191'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199203'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199207'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199198'; /* linkmonstergen15minutes <- Sable Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199225'; /* linkmonstergen15minutes <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880199181'; /* Linkable Item Gen - 25 seconds <- Malachite */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880199180'; /* Linkable Item Gen - 25 seconds <- Sapphire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880199179'; /* Linkable Item Gen - 25 seconds <- Ruby */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880199178'; /* Linkable Item Gen - 25 seconds <- Gem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880199182'; /* Linkable Item Gen - 25 seconds <- Major Sparking Stone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880199255'; /* Linkable Item Gen - 25 seconds <- Textbook */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199183'; /* Linkable Monster Gen (15 min.) <- Voltarc */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199216'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199214'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199199'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199197'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199209'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199210'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199211'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199218'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199220'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199219'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199222'; /* Linkable Monster Gen (15 min.) <- Voltarc */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199221'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199223'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199172'; /* Linkable Monster Gen (15 min.) <- Voltarc */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199195'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199205'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199206'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199201'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199193'; /* Linkable Monster Gen (15 min.) <- Voltarc */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199189'; /* Linkable Monster Gen (15 min.) <- Voltarc */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199212'; /* Linkable Monster Gen (15 min.) <- Voltarc */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880199226'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199228'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199229'; /* Linkable Monster Gen (15 min.) <- Voltarc */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199230'; /* Linkable Monster Gen (15 min.) <- Voltarc */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199231'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199233'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199232'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199235'; /* Linkable Monster Gen (15 min.) <- Voltarc */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199234'; /* Linkable Monster Gen (15 min.) <- Voltarc */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199236'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199238'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199240'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199241'; /* Linkable Monster Gen (15 min.) <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199245'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199244'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199247'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199246'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199248'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199250'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199242'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880199239'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199176'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199174'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199168'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199169'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199170'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199184'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199185'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199187'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199215'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199217'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199191'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199203'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199207'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199198'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880199225'; /* Linkable Monster Gen (15 min.) <- Sable Gromnie */
 

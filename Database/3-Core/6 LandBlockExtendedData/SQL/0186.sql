@@ -12,7 +12,7 @@ VALUES (2610, 1880645632, 25559298, 60, -50, -11.988, 1, 0, 0, 0) /* Kilif Zefir
      , (2584, 1880645643, 25559324, 88.936, -38.638, -12, -0.573577, 0, 0, -0.819152) /* Aste Sclavus */
      , (4059, 1880645644, 25559326, 93.2742, -56.2895, -8.766, 0.707107, 0, 0, -0.707107) /* Lightning Trap */
      , (2180, 1880645645, 25559334, 100, -24.75, -12, 0, 0, 0, -1) /* Door */
-     , (1132, 1880645646, 25559337, 99.2712, -38.4321, -12, -0.707107, 0, 0, -0.707107) /* itempowdergenerator */
+     , (1132, 1880645646, 25559337, 99.2712, -38.4321, -12, -0.707107, 0, 0, -0.707107) /* Item Powder Generator */
      , (2584, 1880645647, 25559337, 98.1114, -42.4476, -12, 0.707107, 0, 0, -0.707107) /* Aste Sclavus */
      , (2584, 1880645648, 25559337, 98.3409, -40.2631, -12, 0.5, 0, 0, -0.866025) /* Aste Sclavus */
      , (171, 1880645650, 25559337, 102.662, -39.1723, -12, 0.707107, 0, 0, -0.707107) /* Vat */
@@ -42,7 +42,7 @@ VALUES (2610, 1880645632, 25559298, 60, -50, -11.988, 1, 0, 0, 0) /* Kilif Zefir
      , (2131, 1880645675, 25559492, 60, -40, 0, 1, 0, 0, 0) /* Pressure Plate */
      , (2583, 1880645676, 25559497, 73.1358, -9.28304, 0, -0.422618, 0, 0, -0.906308) /* Se Sclavus */
      , (2586, 1880645677, 25559498, 71.0912, -5.2878, 0, 0, 0, 0, -1) /* Sata Sclavus */
-     , (1154, 1880645678, 25559500, 70, -10, 0, 0, 0, 0, -1) /* linkmonstergen */
+     , (1154, 1880645678, 25559500, 70, -10, 0, 0, 0, 0, -1) /* Linkable Monster Generator */
      , (2583, 1880645679, 25559501, 66.973, -9.39581, 0, 0.5, 0, 0, -0.866025) /* Se Sclavus */
      , (2131, 1880645680, 25559505, 70.2393, -17.6897, 0, 1, 0, 0, 0) /* Pressure Plate */
      , (2131, 1880645681, 25559505, 69.8464, -21.5159, 0, 1, 0, 0, 0) /* Pressure Plate */
@@ -70,7 +70,7 @@ VALUES (2610, 1880645632, 25559298, 60, -50, -11.988, 1, 0, 0, 0) /* Kilif Zefir
      , (2584, 1880645703, 25559541, 101.348, -92.543, 0, 0.819152, 0, 0, -0.573577) /* Aste Sclavus */
      , (2586, 1880645704, 25559541, 98.9683, -93.0121, 0, 0.707107, 0, 0, -0.707107) /* Sata Sclavus */
      , (2585, 1880645705, 25559541, 97.0026, -92.4828, 0, 0.707107, 0, 0, -0.707107) /* Essa Sclavus */
-     , (4018, 1880645706, 25559541, 97.217, -87.304, 0, 0.707107, 0, 0, -0.707107) /* itemlowthiefgen */
+     , (4018, 1880645706, 25559541, 97.217, -87.304, 0, 0.707107, 0, 0, -0.707107) /* Cheap Thief Generator */
      , (269, 1880645707, 25559541, 104.366, -92.9397, 1.67188, 0.707107, 0, 0, -0.707107) /* Button */
      , (269, 1880645708, 25559541, 95.65, -86.7331, 1.672, -0.707107, 0, 0, -0.707107) /* Button */
      , (269, 1880645709, 25559541, 95.6051, -93.2316, 1.712, -0.707107, 0, 0, -0.707107) /* Button */
@@ -93,7 +93,7 @@ VALUES (2610, 1880645632, 25559298, 60, -50, -11.988, 1, 0, 0, 0) /* Kilif Zefir
      , (1947, 1880645728, 25559569, 139.582, -86.409, 0, 1, 0, 0, 0) /* Chest */
      , (2611, 1880645729, 25559569, 143.127, -92.5496, 0.366427, -0.707107, 0, 0, -0.707107) /* Zofrit Zefir */
      , (2610, 1880645730, 25559569, 143.165, -87.6558, 0.545, -0.707107, 0, 0, -0.707107) /* Kilif Zefir */
-     , (7923, 1880645731, 25559569, 140, -90, 0, -0.707107, 0, 0, -0.707107) /* linkmonstergen3minutes */
+     , (7923, 1880645731, 25559569, 140, -90, 0, -0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 3 Min.) */
      , (2608, 1880645732, 25559613, 60, -60, 6.01, 0.707107, 0, 0, -0.707107) /* Jibrit Zefir */
      , (2610, 1880645733, 25559613, 60.4023, -58.267, 6.012, 0.707107, 0, 0, -0.707107) /* Kilif Zefir */
      , (2611, 1880645734, 25559613, 59.6887, -61.8658, 6.015, 0.707107, 0, 0, -0.707107) /* Zofrit Zefir */
@@ -112,7 +112,7 @@ VALUES (2610, 1880645632, 25559298, 60, -50, -11.988, 1, 0, 0, 0) /* Kilif Zefir
      , (269, 1880645748, 25559640, 100.846, -71.5559, 7.38262, 0, 0, 0, -1) /* Button */
      , (4057, 1880645749, 25559644, 110.763, -60.888, 9.12699, -4.37114E-08, 0, 0, -1) /* Acid Trap */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880645678'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880645678'; /* Linkable Monster Generator */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880645683'; /* Flame Trap */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880645673'; /* Flame Trap */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880645682'; /* Flame Trap */
@@ -134,50 +134,50 @@ UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1880645645'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1880645690'; /* Flame Trap */
 UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1880645672'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1880645731'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1880645731'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645679'; /* linkmonstergen <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645677'; /* linkmonstergen <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645676'; /* linkmonstergen <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645692'; /* linkmonstergen <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645693'; /* linkmonstergen <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645668'; /* linkmonstergen <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645669'; /* linkmonstergen <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645735'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645732'; /* linkmonstergen <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645734'; /* linkmonstergen <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645733'; /* linkmonstergen <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645695'; /* linkmonstergen <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645699'; /* linkmonstergen <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645698'; /* linkmonstergen <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645697'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645711'; /* linkmonstergen <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645696'; /* linkmonstergen <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645716'; /* linkmonstergen <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645715'; /* linkmonstergen <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645703'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645704'; /* linkmonstergen <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645705'; /* linkmonstergen <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645648'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645647'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645642'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645643'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645632'; /* linkmonstergen <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645635'; /* linkmonstergen <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645634'; /* linkmonstergen <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645638'; /* linkmonstergen <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645666'; /* linkmonstergen <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645665'; /* linkmonstergen <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645659'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645660'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645661'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645657'; /* linkmonstergen <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645656'; /* linkmonstergen <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645664'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645663'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645652'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645653'; /* linkmonstergen <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645654'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645679'; /* Linkable Monster Generator <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645677'; /* Linkable Monster Generator <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645676'; /* Linkable Monster Generator <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645692'; /* Linkable Monster Generator <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645693'; /* Linkable Monster Generator <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645668'; /* Linkable Monster Generator <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645669'; /* Linkable Monster Generator <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645735'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645732'; /* Linkable Monster Generator <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645734'; /* Linkable Monster Generator <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645733'; /* Linkable Monster Generator <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645695'; /* Linkable Monster Generator <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645699'; /* Linkable Monster Generator <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645698'; /* Linkable Monster Generator <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645697'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645711'; /* Linkable Monster Generator <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645696'; /* Linkable Monster Generator <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645716'; /* Linkable Monster Generator <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645715'; /* Linkable Monster Generator <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645703'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645704'; /* Linkable Monster Generator <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645705'; /* Linkable Monster Generator <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645648'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645647'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645642'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645643'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645632'; /* Linkable Monster Generator <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645635'; /* Linkable Monster Generator <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645634'; /* Linkable Monster Generator <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645638'; /* Linkable Monster Generator <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645666'; /* Linkable Monster Generator <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645665'; /* Linkable Monster Generator <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645659'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645660'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645661'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645657'; /* Linkable Monster Generator <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645656'; /* Linkable Monster Generator <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645664'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645663'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645652'; /* Linkable Monster Generator <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645653'; /* Linkable Monster Generator <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880645654'; /* Linkable Monster Generator <- Sata Sclavus */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880645686'; /* Flame Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880645675'; /* Flame Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880645674'; /* Flame Trap <- Pressure Plate */
@@ -207,8 +207,8 @@ UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1880645639'; /* 
 UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1880645691'; /* Flame Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1880645670'; /* Door <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1880645681'; /* Door <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1880645730'; /* linkmonstergen3minutes <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1880645729'; /* linkmonstergen3minutes <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1880645724'; /* linkmonstergen3minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1880645720'; /* linkmonstergen3minutes <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1880645730'; /* Linkable Monster Generator ( 3 Min.) <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1880645729'; /* Linkable Monster Generator ( 3 Min.) <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1880645724'; /* Linkable Monster Generator ( 3 Min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1880645720'; /* Linkable Monster Generator ( 3 Min.) <- Essa Sclavus */
 

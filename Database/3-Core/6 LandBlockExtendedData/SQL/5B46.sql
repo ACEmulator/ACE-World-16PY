@@ -9,7 +9,7 @@ VALUES (1627, 1974755328, 1531314433, 33.9519, -112.23, -35.945, -0.616356, 0, 0
      , (1627, 1974755335, 1531314441, 106.917, -118.156, -35.9879, -0.751826, 0, 0, -0.659362) /* Tusker Crimsonback */
      , (1627, 1974755336, 1531314449, 65.7175, -97.0995, -29.945, -0.054313, 0, 0, -0.998524) /* Tusker Crimsonback */
      , (1627, 1974755337, 1531314449, 72.8673, -97.8717, -29.9879, -0.054313, 0, 0, -0.998524) /* Tusker Crimsonback */
-     , (7924, 1974755338, 1531314453, 69.8214, -117.878, -29.995, 0.999302, 0, 0, 0.0373607) /* linkmonstergen5minutes */
+     , (7924, 1974755338, 1531314453, 69.8214, -117.878, -29.995, 0.999302, 0, 0, 0.0373607) /* Linkable Monster Generator ( 5 Min.) */
      , (1627, 1974755339, 1531314462, 31.1614, -69.5987, -23.9879, 0.810963, 0, 0, -0.585097) /* Tusker Crimsonback */
      , (1627, 1974755340, 1531314462, 31.9166, -65.6248, -23.945, 0.995802, 0, 0, -0.0915378) /* Tusker Crimsonback */
      , (1627, 1974755341, 1531314463, 36.3293, -61.4946, -23.9879, 0.841037, 0, 0, -0.540978) /* Tusker Crimsonback */
@@ -83,87 +83,87 @@ VALUES (1627, 1974755328, 1531314433, 33.9519, -112.23, -35.945, -0.616356, 0, 0
      , (1627, 1974755397, 1531314803, 135.825, -65.3541, 0.055, 1, 0, 0, -4.37114E-08) /* Tusker Crimsonback */
      , (22585, 1974755398, 1531314803, 135.3, -67.9776, 0.055, 1, 0, 0, -4.37114E-08) /* Tusker Crimsonback */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1974755338'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1974755338'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755328'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755329'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755331'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755330'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755355'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755364'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755365'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755366'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755368'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755371'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755369'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755370'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755367'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755363'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755361'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755359'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755358'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755356'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755357'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755360'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755362'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755386'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755380'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755388'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755389'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755381'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755387'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755382'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755390'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755393'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755397'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755394'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755379'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755374'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755378'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755372'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755373'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755377'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755396'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755395'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755391'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755385'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755384'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755376'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755392'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755398'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755375'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755334'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755335'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755333'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755332'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755336'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755337'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755351'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755347'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755346'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755344'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755350'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755345'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755353'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755354'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755352'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755339'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755340'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755341'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755343'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755349'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755348'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755342'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755404'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755400'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755406'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755401'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755399'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755410'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755402'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755407'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755408'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755403'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755409'; /* linkmonstergen5minutes <- Tusker Crimsonback */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755405'; /* linkmonstergen5minutes <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755328'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755329'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755331'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755330'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755355'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755364'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755365'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755366'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755368'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755371'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755369'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755370'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755367'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755363'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755361'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755359'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755358'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755356'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755357'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755360'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755362'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755386'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755380'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755388'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755389'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755381'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755387'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755382'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755390'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755393'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755397'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755394'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755379'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755374'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755378'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755372'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755373'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755377'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755396'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755395'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755391'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755385'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755384'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755376'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755392'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755398'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755375'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755334'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755335'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755333'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755332'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755336'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755337'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755351'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755347'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755346'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755344'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755350'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755345'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755353'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755354'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755352'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755339'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755340'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755341'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755343'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755349'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755348'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755342'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755404'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755400'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755406'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755401'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755399'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755410'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755402'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755407'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755408'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755403'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755409'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974755405'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Crimsonback */
 

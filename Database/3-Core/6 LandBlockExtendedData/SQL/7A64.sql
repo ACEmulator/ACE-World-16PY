@@ -10,13 +10,13 @@ VALUES (1631, 2007384093, 2053374208, 38.9186, 159.215, 8.805, -0.261685, 0, 0, 
      , (2131, 2007384071, 2053374210, 60.1113, 100.182, -6.34, -4.37114E-08, 0, 0, -1) /* Pressure Plate */
      , (5200, 2007384084, 2053374210, 60.7342, 88.6357, -5.34, 0.419001, 0, 0, -0.907986) /* Under-Cove Crypt */
      , (4454, 2007384066, 2053374214, 60.0215, 111.856, 0.03, -4.37114E-08, 0, 0, -1) /* Door */
-     , (7925, 2007384088, 2053373952, 43.9364, 146.713, 0.00500003, -0.361103, 0, 0, -0.932526) /* linkmonstergen10minutes */
+     , (7925, 2007384088, 2053373952, 43.9364, 146.713, 0.00500003, -0.361103, 0, 0, -0.932526) /* Linkable Monster Generator ( 10 Min.) */
      , (5148, 2007384087, 2053373952, 79.9096, 159.973, 4.674, 0.716034, 0, 0, -0.698066) /* Flames */
-     , (5085, 2007384096, 2053373952, 55.2598, 115.159, 0.005, 0.45546, 0, 0, -0.890256) /* linkitemgen25seconds */
+     , (5085, 2007384096, 2053373952, 55.2598, 115.159, 0.005, 0.45546, 0, 0, -0.890256) /* Linkable Item Gen - 25 seconds */
      , (269, 2007384067, 2053373952, 38.82, 152.101, 16.5, -4.37114E-08, 0, 0, -1) /* Button */
-     , (7924, 2007384095, 2053373952, 44.8046, 145.922, 0.00500003, -0.361103, 0, 0, -0.932526) /* linkmonstergen5minutes */
+     , (7924, 2007384095, 2053373952, 44.8046, 145.922, 0.00500003, -0.361103, 0, 0, -0.932526) /* Linkable Monster Generator ( 5 Min.) */
      , (1632, 2007384094, 2053373952, 35.5803, 153.52, 15.205, 0.983357, 0, 0, -0.181684) /* Drudge Slave */
-     , (3597, 2007384070, 2053373952, 83.818, 155.975, -0.895, 0.584563, 0, 0, -0.811348) /* linkitemscattergen */
+     , (3597, 2007384070, 2053373952, 83.818, 155.975, -0.895, 0.584563, 0, 0, -0.811348) /* Linkable Item Scatter Generator */
      , (5370, 2007384086, 2053373952, 38.4675, 152.898, 15.205, -0.239174, 0, 0, -0.970977) /* Drudge Prowler */
      , (5362, 2007384085, 2053373952, 55.6479, 114.313, 0.079, -0.374277, 0, 0, 0.927317) /* A Note to Ma'yad */
      , (192, 2007384073, 2053373952, 36.5844, 159.364, 15.205, -0.892221, 0, 0, -0.451598) /* Drudge Prowler */
@@ -28,26 +28,26 @@ VALUES (1631, 2007384093, 2053374208, 38.9186, 159.215, 8.805, -0.261685, 0, 0, 
      , (263, 2007384080, 2053373952, 77.291, 144.357, -0.226, -0.508553, 0, 0, -0.861031) /* Fish */;
 
 UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2007384066'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2007384070'; /* linkitemscattergen */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2007384095'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2007384088'; /* linkmonstergen10minutes */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='2007384096'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2007384070'; /* Linkable Item Scatter Generator */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2007384095'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2007384088'; /* Linkable Monster Generator ( 10 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='2007384096'; /* Linkable Item Gen - 25 seconds */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007384067'; /* Door <- Button */
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007384071'; /* Door <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2007384080'; /* linkitemscattergen <- Fish */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2007384081'; /* linkitemscattergen <- Fish */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2007384082'; /* linkitemscattergen <- Fish */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2007384083'; /* linkitemscattergen <- Fish */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2007384086'; /* linkmonstergen5minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384091'; /* linkmonstergen10minutes <- Water Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384090'; /* linkmonstergen10minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384089'; /* linkmonstergen10minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384093'; /* linkmonstergen10minutes <- Drudge Servant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384092'; /* linkmonstergen10minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384094'; /* linkmonstergen10minutes <- Drudge Slave */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384068'; /* linkmonstergen10minutes <- Undead */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384073'; /* linkmonstergen10minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384077'; /* linkmonstergen10minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2007384085'; /* linkitemgen25seconds <- A Note to Ma'yad */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2007384080'; /* Linkable Item Scatter Generator <- Fish */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2007384081'; /* Linkable Item Scatter Generator <- Fish */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2007384082'; /* Linkable Item Scatter Generator <- Fish */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2007384083'; /* Linkable Item Scatter Generator <- Fish */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2007384086'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384091'; /* Linkable Monster Generator ( 10 Min.) <- Water Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384090'; /* Linkable Monster Generator ( 10 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384089'; /* Linkable Monster Generator ( 10 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384093'; /* Linkable Monster Generator ( 10 Min.) <- Drudge Servant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384092'; /* Linkable Monster Generator ( 10 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384094'; /* Linkable Monster Generator ( 10 Min.) <- Drudge Slave */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384068'; /* Linkable Monster Generator ( 10 Min.) <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384073'; /* Linkable Monster Generator ( 10 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384077'; /* Linkable Monster Generator ( 10 Min.) <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2007384085'; /* Linkable Item Gen - 25 seconds <- A Note to Ma'yad */
 

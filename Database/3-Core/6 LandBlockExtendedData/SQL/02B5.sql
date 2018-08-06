@@ -5,7 +5,7 @@ VALUES (7181, 1881886823, 45416704, 8.21478, -117.631, -59.9936, 0.62161, 0, 0, 
      , (27861, 1881886826, 45416712, 27.8978, -99.8494, -59.9936, 0.208603, 0, 0, -0.978) /* Squallid Moarsman */
      , (27861, 1881886827, 45416725, 30.2947, -131.291, -59.9936, -0.009254, 0, 0, -0.999957) /* Squallid Moarsman */
      , (27766, 1881886828, 45416737, 53.998, -120.077, -59.995, 1, 0, 0, 0) /* Jade Dais */
-     , (15759, 1881886829, 45416737, 53.9981, -120.077, -59.995, -0.710619, 0, 0, 0.703577) /* linkitemgen10seconds */
+     , (15759, 1881886829, 45416737, 53.9981, -120.077, -59.995, -0.710619, 0, 0, 0.703577) /* Linkable Item Generator */
      , (27855, 1881886830, 45416737, 49.4334, -120.995, -59.9936, -0.828384, 0, 0, -0.560161) /* Filth Dweller */
      , (27861, 1881886831, 45416737, 51.2747, -118.521, -59.9936, -0.625846, 0, 0, -0.779947) /* Squallid Moarsman */
      , (27861, 1881886832, 45416744, 36.9062, -120.368, -53.945, 0.59354, 0, 0, 0.804804) /* Squallid Moarsman */
@@ -25,7 +25,7 @@ VALUES (7181, 1881886823, 45416704, 8.21478, -117.631, -59.9936, 0.62161, 0, 0, 
      , (7181, 1881886732, 45416831, 70.596, -122.083, -35.945, -0.884302, 0, 0, 0.466915) /* Desolation Moarsman */
      , (27855, 1881886733, 45416842, 79.0526, -90.4909, -35.9936, -0.396881, 0, 0, 0.91787) /* Filth Dweller */
      , (27861, 1881886734, 45416859, 91.3625, -71.4565, -35.9936, 0.235031, 0, 0, 0.971988) /* Squallid Moarsman */
-     , (7923, 1881886735, 45416860, 88.9787, -79.2721, -35.995, -0.993724, 0, 0, -0.111861) /* linkmonstergen3minutes */
+     , (7923, 1881886735, 45416860, 88.9787, -79.2721, -35.995, -0.993724, 0, 0, -0.111861) /* Linkable Monster Generator ( 3 Min.) */
      , (27861, 1881886736, 45416864, 92.8417, -110.004, -35.9936, -0.711958, 0, 0, 0.702222) /* Squallid Moarsman */
      , (7181, 1881886737, 45416868, 86.3611, -130.093, -35.9936, -0.968579, 0, 0, -0.248707) /* Desolation Moarsman */
      , (8585, 1881886738, 45416872, 100.042, -54.181, -35.995, 1, 0, 0, 0) /* Surface */
@@ -69,8 +69,8 @@ VALUES (7181, 1881886823, 45416704, 8.21478, -117.631, -59.9936, 0.62161, 0, 0, 
      , (8585, 1881886776, 45417135, 99.798, -255.157, 0.005, -4.37114E-08, 0, 0, -1) /* Surface */
      , (28000, 1881886777, 45417144, 106.504, -248.944, 0.0055, 0.580892, 0, 0, -0.81398) /* Mosswart Scavenger */
      , (28001, 1881886778, 45417146, 122.193, -66.6182, 0.0055, 0.651521, 0, 0, -0.758631) /* Mosswart Scrounger */
-     , (7923, 1881886779, 45417153, 119.005, -261.849, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
-     , (7923, 1881886780, 45417153, 120.901, -261.849, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7923, 1881886779, 45417153, 119.005, -261.849, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1881886780, 45417153, 120.901, -261.849, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (28000, 1881886781, 45417155, 126.697, -62.1968, 0.0055, 0.592845, 0, 0, -0.805317) /* Mosswart Scavenger */
      , (28000, 1881886782, 45417157, 126.839, -68.4291, 0.0055, 0.651521, 0, 0, -0.758631) /* Mosswart Scavenger */
      , (28000, 1881886783, 45417165, 134.348, -190.584, 0.0055, 0.727061, 0, 0, 0.686572) /* Mosswart Scavenger */
@@ -90,125 +90,125 @@ VALUES (7181, 1881886823, 45416704, 8.21478, -117.631, -59.9936, 0.62161, 0, 0, 
      , (28000, 1881886797, 45417251, 209.993, -53.6085, 0.0055, -0.016079, 0, 0, 0.999871) /* Mosswart Scavenger */
      , (28001, 1881886798, 45417260, 209.143, -81.2426, 0.0055, -0.999016, 0, 0, 0.044342) /* Mosswart Scrounger */
      , (28001, 1881886799, 45417265, 223.195, -59.3497, 0.00495, 0.774712, 0, 0, -0.632315) /* Mosswart Scrounger */
-     , (420, 1881886800, 45417265, 224.787, -60.6968, 0.005, -0.986426, 0, 0, 0.164209) /* itemfood-generator */
-     , (420, 1881886801, 45417267, 229.043, -61.5192, 0.005, 0.889005, 0, 0, 0.457897) /* itemfood-generator */
+     , (420, 1881886800, 45417265, 224.787, -60.6968, 0.005, -0.986426, 0, 0, 0.164209) /* Item Food Generator */
+     , (420, 1881886801, 45417267, 229.043, -61.5192, 0.005, 0.889005, 0, 0, 0.457897) /* Item Food Generator */
      , (28000, 1881886802, 45417268, 226.755, -60.61, 0.00495, 0.721062, 0, 0, 0.692871) /* Mosswart Scavenger */
-     , (420, 1881886803, 45417270, 229.878, -65.2061, 0.005, 0.830141, 0, 0, 0.557553) /* itemfood-generator */
+     , (420, 1881886803, 45417270, 229.878, -65.2061, 0.005, 0.830141, 0, 0, 0.557553) /* Item Food Generator */
      , (28001, 1881886804, 45417271, 231.33, -90.7535, 0.00495, -0.729888, 0, 0, 0.683567) /* Mosswart Scrounger */
-     , (420, 1881886805, 45417283, 240, -86.2586, 0.005, 1, 0, 0, 0) /* itemfood-generator */
+     , (420, 1881886805, 45417283, 240, -86.2586, 0.005, 1, 0, 0, 0) /* Item Food Generator */
      , (28000, 1881886806, 45417283, 240.22, -90.3354, 0.00495, 0.03221, 0, 0, 0.999481) /* Mosswart Scavenger */
-     , (420, 1881886807, 45417288, 240, -100, 0.005, 1, 0, 0, 0) /* itemfood-generator */
+     , (420, 1881886807, 45417288, 240, -100, 0.005, 1, 0, 0, 0) /* Item Food Generator */
      , (28001, 1881886808, 45417288, 238.882, -100.286, 0.00495, 0.661807, 0, 0, 0.749674) /* Mosswart Scrounger */
-     , (420, 1881886809, 45417292, 240, -110, 0.005, 1, 0, 0, 0) /* itemfood-generator */
+     , (420, 1881886809, 45417292, 240, -110, 0.005, 1, 0, 0, 0) /* Item Food Generator */
      , (28000, 1881886810, 45417292, 241.953, -111.042, 0.00495, 0.842551, 0, 0, 0.538617) /* Mosswart Scavenger */
      , (28001, 1881886811, 45417300, 258.947, -90.6119, 0.0055, 0.729699, 0, 0, 0.683769) /* Mosswart Scrounger */
      , (28000, 1881886812, 45417309, 256.247, -109.31, 0.0055, 0.658537, 0, 0, 0.752548) /* Mosswart Scavenger */
-     , (420, 1881886813, 45417310, 269.25, -94.9011, 0.005, 0.393579, 0, 0, -0.919291) /* itemfood-generator */
-     , (1459, 1881886814, 45417311, 271.121, -97.8556, 0.005, 0.997614, 0, 0, -0.069041) /* itemfoodstaminagen */
+     , (420, 1881886813, 45417310, 269.25, -94.9011, 0.005, 0.393579, 0, 0, -0.919291) /* Item Food Generator */
+     , (1459, 1881886814, 45417311, 271.121, -97.8556, 0.005, 0.997614, 0, 0, -0.069041) /* Food Stamina Gen */
      , (28001, 1881886815, 45417311, 269.644, -101.619, 0.00495, -0.692432, 0, 0, -0.721483) /* Mosswart Scrounger */
-     , (420, 1881886816, 45417311, 267.463, -99.6261, 0.005, -0.504863, 0, 0, -0.8632) /* itemfood-generator */
-     , (7501, 1881886817, 45417312, 270.21, -104.536, 0.005, 0.98605, 0, 0, 0.16645) /* itemlowclothinggen */
+     , (420, 1881886816, 45417311, 267.463, -99.6261, 0.005, -0.504863, 0, 0, -0.8632) /* Item Food Generator */
+     , (7501, 1881886817, 45417312, 270.21, -104.536, 0.005, 0.98605, 0, 0, 0.16645) /* Cheap Magic Clothing Gen */
      , (28000, 1881886818, 45417315, 265.139, -98.4929, 0.00495, -0.692432, 0, 0, -0.721483) /* Mosswart Scavenger */
      , (28001, 1881886819, 45417334, 122.305, -156.3, 6.0055, -0.999265, 0, 0, 0.0383287) /* Mosswart Scrounger */
      , (28000, 1881886820, 45417339, 130.729, -156.145, 6.0055, -0.999265, 0, 0, 0.0383287) /* Mosswart Scavenger */
-     , (7923, 1881886821, 45417339, 126.582, -156.631, 6.005, -0.999265, 0, 0, 0.0383287) /* linkmonstergen3minutes */
+     , (7923, 1881886821, 45417339, 126.582, -156.631, 6.005, -0.999265, 0, 0, 0.0383287) /* Linkable Monster Generator ( 3 Min.) */
      , (28001, 1881886822, 45417342, 136.166, -155.78, 6.0055, -0.999265, 0, 0, 0.038329) /* Mosswart Scrounger */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881886779'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881886821'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881886735'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881886829'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881886779'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881886821'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881886735'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881886829'; /* Linkable Item Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886777'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886775'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886786'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886787'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886784'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886785'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886772'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886773'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886774'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886783'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886790'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886791'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886792'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886793'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886794'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886788'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886789'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886781'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886782'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886778'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886762'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886763'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886759'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886760'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886757'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886755'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886758'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886751'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886752'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886750'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886756'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886753'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886796'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886795'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886797'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886802'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886799'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886798'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886804'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886806'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886810'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886808'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886812'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886811'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886815'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886818'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886761'; /* linkmonstergen3minutes <- Mosswart Clinger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886764'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886765'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886749'; /* linkmonstergen3minutes <- Demilich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886743'; /* linkmonstergen3minutes <- Elite Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886747'; /* linkmonstergen3minutes <- Elite Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886745'; /* linkmonstergen3minutes <- Demilich */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886822'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886820'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886819'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886770'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886767'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886766'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886769'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886771'; /* linkmonstergen3minutes <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886768'; /* linkmonstergen3minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886739'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886734'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886733'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886731'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886741'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886740'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886736'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886737'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886732'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886730'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886728'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886726'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886727'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886723'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886724'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886729'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886725'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886722'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886721'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886720'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886830'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886826'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886831'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886825'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886827'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886832'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886823'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886824'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886833'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881886828'; /* linkitemgen10seconds <- Jade Dais */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886777'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886775'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886786'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886787'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886784'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886785'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886772'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886773'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886774'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886783'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886790'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886791'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886792'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886793'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886794'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886788'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886789'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886781'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886782'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886778'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886762'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886763'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886759'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886760'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886757'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886755'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886758'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886751'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886752'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886750'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886756'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886753'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886796'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886795'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886797'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886802'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886799'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886798'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886804'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886806'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886810'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886808'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886812'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886811'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886815'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886818'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886761'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Clinger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886764'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886765'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886749'; /* Linkable Monster Generator ( 3 Min.) <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886743'; /* Linkable Monster Generator ( 3 Min.) <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886747'; /* Linkable Monster Generator ( 3 Min.) <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881886745'; /* Linkable Monster Generator ( 3 Min.) <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886822'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886820'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886819'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886770'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886767'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886766'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886769'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886771'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881886768'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886739'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886734'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886733'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886731'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886741'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886740'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886736'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886737'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886732'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886730'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886728'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886726'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886727'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886723'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886724'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886729'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886725'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886722'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886721'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886720'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886830'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886826'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886831'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886825'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886827'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886832'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886823'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886824'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881886833'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881886828'; /* Linkable Item Generator <- Jade Dais */
 

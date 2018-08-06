@@ -15,7 +15,7 @@ VALUES (27310, 1971622035, 1481179393, 83.4301, -310.958, -95.989, 0.912415, 0, 
      , (27309, 1971622213, 1481179413, 107.107, -333.353, -95.995, 0.99896, 0, 0, 0.0455915) /* Deranged Sycophant */
      , (27309, 1971622214, 1481179413, 112.719, -333.713, -95.995, 0.99896, 0, 0, 0.0455915) /* Deranged Sycophant */
      , (27317, 1971622215, 1481179414, 111.432, -344.005, -95.995, -0.999999, 0, 0, -0.001285) /* Jonas */
-     , (7923, 1971622216, 1481179414, 113.195, -337.772, -95.995, -0.999965, 0, 0, 0.00841) /* linkmonstergen3minutes */
+     , (7923, 1971622216, 1481179414, 113.195, -337.772, -95.995, -0.999965, 0, 0, 0.00841) /* Linkable Monster Generator ( 3 Min.) */
      , (27312, 1971622047, 1481179419, 120.429, -319.774, -95.9868, -0.72809, 0, 0, -0.685482) /* Assault Guard */
      , (27311, 1971622048, 1481179420, 116.702, -327.055, -95.9868, -0.933885, 0, 0, -0.357575) /* Enraged Male Tusker */
      , (22521, 1971622049, 1481179428, 100.47, -265.31, -90.1012, -0.999947, 0, 0, 0.01025) /* Tuskie Gunner */
@@ -57,7 +57,7 @@ VALUES (27310, 1971622035, 1481179393, 83.4301, -310.958, -95.989, 0.912415, 0, 
      , (27312, 1971622085, 1481179525, 92.5511, -142.386, -23.9868, 0.959781, 0, 0, 0.28075) /* Assault Guard */
      , (27309, 1971622086, 1481179537, 99.6859, -60.0394, -23.995, -0.999868, 0, 0, -0.016258) /* Deranged Sycophant */
      , (22660, 1971622087, 1481179542, 99.7464, -117.556, -23.995, 0.999993, 0, 0, -0.0038502) /* Surface */
-     , (7923, 1971622088, 1481179544, 100.028, -138.913, -23.995, -0.0131281, 0, 0, -0.999914) /* linkmonstergen3minutes */
+     , (7923, 1971622088, 1481179544, 100.028, -138.913, -23.995, -0.0131281, 0, 0, -0.999914) /* Linkable Monster Generator ( 3 Min.) */
      , (27313, 1971622089, 1481179544, 100, -138.683, -23.9835, 1, 0, 0, 0) /* The Painbringer */
      , (27312, 1971622090, 1481179544, 95.9783, -140.193, -23.945, 0.959781, 0, 0, 0.28075) /* Assault Guard */
      , (27312, 1971622091, 1481179544, 104.078, -141.268, -23.945, 0.948333, 0, 0, -0.317276) /* Assault Guard */
@@ -160,7 +160,7 @@ VALUES (27310, 1971622035, 1481179393, 83.4301, -310.958, -95.989, 0.912415, 0, 
      , (27310, 1971622188, 1481179831, 202.051, -82.874, -5.989, 0.815255, 0, 0, 0.579103) /* Enraged Female Tusker */
      , (27309, 1971622189, 1481179831, 197.592, -83.7253, -5.995, -0.988135, 0, 0, -0.153589) /* Deranged Sycophant */
      , (27309, 1971622190, 1481179831, 197.32, -76.3664, -5.995, -0.01906, 0, 0, -0.999818) /* Deranged Sycophant */
-     , (7932, 1971622003, 1481179848, 100, -90, 0.005, 1, 0, 0, 0) /* linkmonstergen4minutes */
+     , (7932, 1971622003, 1481179848, 100, -90, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 4 Min.) */
      , (27311, 1971622191, 1481179900, 9.34837, -40.2388, 12.0132, -0.758195, 0, 0, 0.652027) /* Enraged Male Tusker */
      , (27311, 1971622192, 1481179902, 16.8462, -29.2722, 12.0132, -0.267669, 0, 0, 0.963511) /* Enraged Male Tusker */
      , (27311, 1971622193, 1481179902, 21.5864, -27.9592, 12.0132, -0.147336, 0, 0, 0.989086) /* Enraged Male Tusker */
@@ -182,184 +182,184 @@ VALUES (27310, 1971622035, 1481179393, 83.4301, -310.958, -95.989, 0.912415, 0, 
      , (27310, 1971622209, 1481179922, 177.405, -50.0599, 12.011, -0.996858, 0, 0, 0.0792157) /* Enraged Female Tusker */
      , (27310, 1971622210, 1481179924, 190.028, -40.7094, 12.011, 0.716856, 0, 0, 0.697222) /* Enraged Female Tusker */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1971622003'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1971622088'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1971622216'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1971622003'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1971622088'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1971622216'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622078'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622096'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622095'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622065'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622068'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622067'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622086'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622077'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622111'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622110'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622109'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622069'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622115'; /* linkmonstergen4minutes <- Obsidian Chittick */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622103'; /* linkmonstergen4minutes <- Obsidian Chittick */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622062'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622074'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622119'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622058'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622060'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622059'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622097'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622079'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622143'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622118'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622117'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622153'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622166'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622063'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622144'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622116'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622152'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622151'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622104'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622182'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622075'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622167'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622150'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622173'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622080'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622174'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622187'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622092'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622188'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622112'; /* linkmonstergen4minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622176'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622190'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622175'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622189'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622071'; /* linkmonstergen4minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622179'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622105'; /* linkmonstergen4minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622180'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622070'; /* linkmonstergen4minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622183'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622184'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622178'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622076'; /* linkmonstergen4minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622181'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622113'; /* linkmonstergen4minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622185'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622206'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622205'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622208'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622210'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622168'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622169'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622207'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622209'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622135'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622138'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622170'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622171'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622123'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622125'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622136'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622137'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622124'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622131'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622127'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622128'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622191'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622192'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622194'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622195'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622126'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622130'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622193'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622196'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622147'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622162'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622177'; /* linkmonstergen4minutes <- Obsidian Chittick */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622186'; /* linkmonstergen4minutes <- Obsidian Chittick */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622163'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622148'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622159'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622154'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622197'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622198'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622149'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622161'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622199'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622200'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622203'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622204'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622172'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622201'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622202'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622145'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622142'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622139'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622140'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622146'; /* linkmonstergen4minutes <- Obsidian Chittick */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622160'; /* linkmonstergen4minutes <- Obsidian Chittick */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622164'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622141'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622156'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622157'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622155'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622132'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622133'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622158'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622129'; /* linkmonstergen4minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622122'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622134'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622120'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622121'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622106'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622108'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622165'; /* linkmonstergen4minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622114'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622107'; /* linkmonstergen4minutes <- Obsidian Chittick */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622061'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622101'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622102'; /* linkmonstergen4minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622073'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622072'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622066'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622064'; /* linkmonstergen4minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622081'; /* linkmonstergen3minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622098'; /* linkmonstergen3minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622100'; /* linkmonstergen3minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622089'; /* linkmonstergen3minutes <- The Painbringer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622085'; /* linkmonstergen3minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622082'; /* linkmonstergen3minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622099'; /* linkmonstergen3minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622083'; /* linkmonstergen3minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622084'; /* linkmonstergen3minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622094'; /* linkmonstergen3minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622091'; /* linkmonstergen3minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622090'; /* linkmonstergen3minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622093'; /* linkmonstergen3minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622038'; /* linkmonstergen3minutes <- Obsidian Chittick */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622041'; /* linkmonstergen3minutes <- Reaper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622043'; /* linkmonstergen3minutes <- Obsidian Chittick */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622057'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622053'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622054'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622056'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622055'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622049'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622050'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622051'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622052'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622047'; /* linkmonstergen3minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622040'; /* linkmonstergen3minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622044'; /* linkmonstergen3minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622039'; /* linkmonstergen3minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622048'; /* linkmonstergen3minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622037'; /* linkmonstergen3minutes <- Enraged Male Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622042'; /* linkmonstergen3minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622036'; /* linkmonstergen3minutes <- Assault Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622045'; /* linkmonstergen3minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622035'; /* linkmonstergen3minutes <- Enraged Female Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622214'; /* linkmonstergen3minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622213'; /* linkmonstergen3minutes <- Deranged Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1971622215'; /* linkmonstergen3minutes <- Jonas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622078'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622096'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622095'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622065'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622068'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622067'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622086'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622077'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622111'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622110'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622109'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622069'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622115'; /* Linkable Monster Generator ( 4 Min.) <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622103'; /* Linkable Monster Generator ( 4 Min.) <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622062'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622074'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622119'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622058'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622060'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622059'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622097'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622079'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622143'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622118'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622117'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622153'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622166'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622063'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622144'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622116'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622152'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622151'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622104'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622182'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622075'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622167'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622150'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622173'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622080'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622174'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622187'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622092'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622188'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622112'; /* Linkable Monster Generator ( 4 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622176'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622190'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622175'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622189'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622071'; /* Linkable Monster Generator ( 4 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622179'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622105'; /* Linkable Monster Generator ( 4 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622180'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622070'; /* Linkable Monster Generator ( 4 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622183'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622184'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622178'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622076'; /* Linkable Monster Generator ( 4 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622181'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622113'; /* Linkable Monster Generator ( 4 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622185'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622206'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622205'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622208'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622210'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622168'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622169'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622207'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622209'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622135'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622138'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622170'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622171'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622123'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622125'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622136'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622137'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622124'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622131'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622127'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622128'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622191'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622192'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622194'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622195'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622126'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622130'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622193'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622196'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622147'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622162'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622177'; /* Linkable Monster Generator ( 4 Min.) <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622186'; /* Linkable Monster Generator ( 4 Min.) <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622163'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622148'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622159'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622154'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622197'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622198'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622149'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622161'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622199'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622200'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622203'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622204'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622172'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622201'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622202'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622145'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622142'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622139'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622140'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622146'; /* Linkable Monster Generator ( 4 Min.) <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622160'; /* Linkable Monster Generator ( 4 Min.) <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622164'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622141'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622156'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622157'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622155'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622132'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622133'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622158'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622129'; /* Linkable Monster Generator ( 4 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622122'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622134'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622120'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622121'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622106'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622108'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622165'; /* Linkable Monster Generator ( 4 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622114'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622107'; /* Linkable Monster Generator ( 4 Min.) <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622061'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622101'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622102'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622073'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622072'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622066'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971622064'; /* Linkable Monster Generator ( 4 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622081'; /* Linkable Monster Generator ( 3 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622098'; /* Linkable Monster Generator ( 3 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622100'; /* Linkable Monster Generator ( 3 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622089'; /* Linkable Monster Generator ( 3 Min.) <- The Painbringer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622085'; /* Linkable Monster Generator ( 3 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622082'; /* Linkable Monster Generator ( 3 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622099'; /* Linkable Monster Generator ( 3 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622083'; /* Linkable Monster Generator ( 3 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622084'; /* Linkable Monster Generator ( 3 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622094'; /* Linkable Monster Generator ( 3 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622091'; /* Linkable Monster Generator ( 3 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622090'; /* Linkable Monster Generator ( 3 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622093'; /* Linkable Monster Generator ( 3 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622038'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622041'; /* Linkable Monster Generator ( 3 Min.) <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622043'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622057'; /* Linkable Monster Generator ( 3 Min.) <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622053'; /* Linkable Monster Generator ( 3 Min.) <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622054'; /* Linkable Monster Generator ( 3 Min.) <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622056'; /* Linkable Monster Generator ( 3 Min.) <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622055'; /* Linkable Monster Generator ( 3 Min.) <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622049'; /* Linkable Monster Generator ( 3 Min.) <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622050'; /* Linkable Monster Generator ( 3 Min.) <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622051'; /* Linkable Monster Generator ( 3 Min.) <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622052'; /* Linkable Monster Generator ( 3 Min.) <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622047'; /* Linkable Monster Generator ( 3 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622040'; /* Linkable Monster Generator ( 3 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622044'; /* Linkable Monster Generator ( 3 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622039'; /* Linkable Monster Generator ( 3 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622048'; /* Linkable Monster Generator ( 3 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622037'; /* Linkable Monster Generator ( 3 Min.) <- Enraged Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622042'; /* Linkable Monster Generator ( 3 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622036'; /* Linkable Monster Generator ( 3 Min.) <- Assault Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622045'; /* Linkable Monster Generator ( 3 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622035'; /* Linkable Monster Generator ( 3 Min.) <- Enraged Female Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622214'; /* Linkable Monster Generator ( 3 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971622213'; /* Linkable Monster Generator ( 3 Min.) <- Deranged Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1971622215'; /* Linkable Monster Generator ( 3 Min.) <- Jonas */
 

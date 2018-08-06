@@ -18,18 +18,18 @@ VALUES (1104, 1881911296, 45809920, 3.29999, -10, -18, 0.707107, 0, 0, -0.707107
      , (1756, 1881911312, 45810001, 80.0021, -43.0609, 0.0042, -0.016702, 0, 0, -0.999861) /* Shadow Child */
      , (1758, 1881911313, 45810020, 87.076, -90.0979, 0.005, 0.707153, 0, 0, 0.70706) /* Shadow */
      , (1758, 1881911314, 45810029, 96.9428, -59.8904, 0.005, -0.590253, 0, 0, -0.807219) /* Shadow */
-     , (8422, 1881911315, 45810037, 120, -20, 0, 0.707107, 0, 0, -0.707107) /* shadowchildcirclegen */
+     , (8422, 1881911315, 45810037, 120, -20, 0, 0.707107, 0, 0, -0.707107) /* Shadow Circle Generator */
      , (8498, 1881911316, 45810065, 87.3101, -98.4892, 24.005, -0.637548, 0, 0, -0.770411) /* Surface */
-     , (4219, 1881911317, 45810071, 108.67, -88.2302, 24.005, -0.641997, 0, 0, -0.766707) /* linkmonstergen7minutes */;
+     , (4219, 1881911317, 45810071, 108.67, -88.2302, 24.005, -0.641997, 0, 0, -0.766707) /* Linkable Monster Generator ( 7 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881911317'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881911317'; /* Linkable Monster Generator ( 7 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911310'; /* linkmonstergen7minutes <- Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911313'; /* linkmonstergen7minutes <- Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911314'; /* linkmonstergen7minutes <- Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911312'; /* linkmonstergen7minutes <- Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911309'; /* linkmonstergen7minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911308'; /* linkmonstergen7minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911307'; /* linkmonstergen7minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911306'; /* linkmonstergen7minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911310'; /* Linkable Monster Generator ( 7 Min.) <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911313'; /* Linkable Monster Generator ( 7 Min.) <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911314'; /* Linkable Monster Generator ( 7 Min.) <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911312'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911309'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911308'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911307'; /* Linkable Monster Generator ( 7 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911306'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Lieutenant */
 

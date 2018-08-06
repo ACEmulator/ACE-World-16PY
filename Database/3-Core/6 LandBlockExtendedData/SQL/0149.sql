@@ -15,24 +15,24 @@ VALUES (1989, 1880395793, 21561603, 26.5495, -49.7761, -5.9923, 0.524131, 0, 0, 
      , (22809, 1880395805, 21561706, 57.6623, 1.44452, 0.058495, 0, 0, 0, -1) /* Banderling Bandit */
      , (11502, 1880395806, 21561715, 62.9787, -33.2192, 0.005, -0.90819, 0, 0, -0.418559) /* Cutthroat */
      , (5514, 1880395790, 21561719, 59.898, -43.1179, 0, 1, 0, 0, 0) /* Surface Portal */
-     , (4219, 1880395807, 21561723, 70, -30, 0, -4.37114E-08, 0, 0, -1) /* linkmonstergen7minutes */
+     , (4219, 1880395807, 21561723, 70, -30, 0, -4.37114E-08, 0, 0, -1) /* Linkable Monster Generator ( 7 Min.) */
      , (194, 1880395808, 21561733, 30.3276, -43.8993, 6.01, 0.988816, 0, 0, -0.149139) /* Copper Golem */
      , (22809, 1880395809, 21561741, 40.4471, -49.2895, 6.0555, 0.707107, 0, 0, -0.707107) /* Banderling Bandit */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880395807'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880395807'; /* Linkable Monster Generator ( 7 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395802'; /* linkmonstergen7minutes <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395806'; /* linkmonstergen7minutes <- Cutthroat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395805'; /* linkmonstergen7minutes <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395801'; /* linkmonstergen7minutes <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395800'; /* linkmonstergen7minutes <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395796'; /* linkmonstergen7minutes <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395799'; /* linkmonstergen7minutes <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395798'; /* linkmonstergen7minutes <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395795'; /* linkmonstergen7minutes <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395797'; /* linkmonstergen7minutes <- Risen Knight */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395793'; /* linkmonstergen7minutes <- Shadow Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395808'; /* linkmonstergen7minutes <- Copper Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395804'; /* linkmonstergen7minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395809'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395802'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395806'; /* Linkable Monster Generator ( 7 Min.) <- Cutthroat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395805'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395801'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395800'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395796'; /* Linkable Monster Generator ( 7 Min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395799'; /* Linkable Monster Generator ( 7 Min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395798'; /* Linkable Monster Generator ( 7 Min.) <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395795'; /* Linkable Monster Generator ( 7 Min.) <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395797'; /* Linkable Monster Generator ( 7 Min.) <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395793'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395808'; /* Linkable Monster Generator ( 7 Min.) <- Copper Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395804'; /* Linkable Monster Generator ( 7 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395809'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
 

@@ -1,5 +1,5 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1154, 2124664846, 3929866496, 10.2572, 181.39, 78.005, -0.312238, 0, 0, -0.950004) /* linkmonstergen */
+VALUES (1154, 2124664846, 3929866496, 10.2572, 181.39, 78.005, -0.312238, 0, 0, -0.950004) /* Linkable Monster Generator */
      , (5119, 2124664845, 3929866496, 9.26962, 182.274, 78.005, -0.962729, 0, 0, -0.270469) /* Inuo KonKou */
      , (4557, 2124664839, 3929866498, 8.5529, 178.616, 78.005, -0.349541, 0, 0, 0.936921) /* Hon Fo the Shopkeeper */
      , (171, 2124664843, 3929866501, 7.97564, 174.74, 78.005, -0.571974, 0, 0, -0.820272) /* Vat */
@@ -15,7 +15,7 @@ VALUES (1154, 2124664846, 3929866496, 10.2572, 181.39, 78.005, -0.312238, 0, 0, 
      , (174, 2124664842, 3929866240, 17.036, 174.877, 78, 0.382683, 0, 0, -0.92388) /* Well */
      , (5108, 2124664848, 3929866240, 26.4825, 181.531, 78.2407, 0.754346, 0, 0, -0.656477) /* LIFESTONES SIGN */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2124664846'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2124664846'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2124664845'; /* linkmonstergen <- Inuo KonKou */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2124664845'; /* Linkable Monster Generator <- Inuo KonKou */
 

@@ -18,7 +18,7 @@ VALUES (143, 2108116992, 3665101097, 152.63, 115.815, 18.015, 1, 0, 0, 0) /* Che
      , (28917, 2108117052, 3665101131, 164.44, 68.6372, 18.005, -0.433164, 0, 0, -0.901315) /* Journeyman Alchemist */
      , (8377, 2108117036, 3665101139, 156.664, 67.4704, 18.9601, -0.796789, 0, 0, -0.604258) /* Beer Keg */
      , (12050, 2108117053, 3665101143, 153.951, 59.9231, 21.505, 0.496324, 0, 0, -0.868137) /* Agent of the Arcanum */
-     , (4774, 2108117015, 3665101146, 147.884, 56.0718, 18.005, 0.935158, 0, 0, 0.354232) /* collectortumerokaluviangen */
+     , (4774, 2108117015, 3665101146, 147.884, 56.0718, 18.005, 0.935158, 0, 0, 0.354232) /* Aluvian Tumerok Collector Gen */
      , (2220, 2108117029, 3665101147, 126.345, 36.5655, 18.005, 0.654181, 0, 0, -0.756338) /* Archmage Bendrew Efrith */
      , (2232, 2108117027, 3665101149, 139.473, 39.0418, 18.005, -0.0250215, 0, 0, -0.999687) /* Rindelle the Shopkeeper */
      , (2230, 2108117028, 3665101151, 139.493, 32.8061, 18.005, 0.713595, 0, 0, 0.700559) /* Landeth Colson the Jeweler */
@@ -49,7 +49,7 @@ VALUES (143, 2108116992, 3665101097, 152.63, 115.815, 18.015, 1, 0, 0, 0) /* Che
      , (7100, 2108117050, 3665100800, 173.901, 98.423, 18.01, -0.526576, 0, 0, -0.850128) /* Extas Lugian */
      , (7101, 2108117049, 3665100800, 174.867, 96.4819, 18.01, -0.526576, 0, 0, -0.850128) /* Tiatus Lugian */
      , (2242, 2108117019, 3665100800, 158.339, 49.4984, 18.005, 0.999886, 0, 0, 0.0151275) /* The Tumerok's Head */
-     , (1154, 2108117020, 3665100800, 117.818, 118.813, 18.005, 0.216609, 0, 0, -0.976258) /* linkmonstergen */
+     , (1154, 2108117020, 3665100800, 117.818, 118.813, 18.005, 0.216609, 0, 0, -0.976258) /* Linkable Monster Generator */
      , (28516, 2108117048, 3665100800, 172.756, 97.4577, 18.01, -0.619125, 0, 0, -0.785293) /* Gorak */
      , (2240, 2108117022, 3665100800, 150.619, 111.307, 18.005, -0.710959, 0, 0, 0.703233) /* Manor Beldryn  */
      , (174, 2108117035, 3665100800, 132.9, 61.1895, 18, 0.0277318, 0, 0, -0.999615) /* Well */
@@ -60,16 +60,16 @@ VALUES (143, 2108116992, 3665101097, 152.63, 115.815, 18.015, 1, 0, 0, 0) /* Che
      , (2223, 2108117031, 3665100800, 115.708, 119.415, 18.005, 0.260949, 0, 0, -0.965353) /* Orcud the Beggar */
      , (2229, 2108117030, 3665100800, 177.166, 78.3451, 18.005, -0.713924, 0, 0, -0.700224) /* Ludora the Healer */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2108117020'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2108117020'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117047'; /* linkmonstergen <- Royal Guard Tabbeth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117032'; /* linkmonstergen <- Dinsmal the Beggar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117013'; /* linkmonstergen <- Binthura the Beggar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117052'; /* linkmonstergen <- Journeyman Alchemist */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117031'; /* linkmonstergen <- Orcud the Beggar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117048'; /* linkmonstergen <- Gorak */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117051'; /* linkmonstergen <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117050'; /* linkmonstergen <- Extas Lugian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117049'; /* linkmonstergen <- Tiatus Lugian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117053'; /* linkmonstergen <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117047'; /* Linkable Monster Generator <- Royal Guard Tabbeth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117032'; /* Linkable Monster Generator <- Dinsmal the Beggar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117013'; /* Linkable Monster Generator <- Binthura the Beggar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117052'; /* Linkable Monster Generator <- Journeyman Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117031'; /* Linkable Monster Generator <- Orcud the Beggar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117048'; /* Linkable Monster Generator <- Gorak */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117051'; /* Linkable Monster Generator <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117050'; /* Linkable Monster Generator <- Extas Lugian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117049'; /* Linkable Monster Generator <- Tiatus Lugian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108117053'; /* Linkable Monster Generator <- Agent of the Arcanum */
 

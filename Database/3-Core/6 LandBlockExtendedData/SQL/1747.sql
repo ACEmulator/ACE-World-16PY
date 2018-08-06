@@ -3,12 +3,12 @@ VALUES (24321, 1903456302, 390529282, 34.919, 103.917, -4.79175, 0.999896, 0, 0,
      , (24318, 1903456301, 390529282, 36.8856, 108.969, -4.7945, 0.982825, 0, 0, -0.184541) /* Skeletal Swashbuckler */
      , (24316, 1903456284, 390529285, 36.0227, 118.663, -4.788, 0.993317, 0, 0, -0.11542) /* Skeletal Mate */
      , (24316, 1903456286, 390529285, 35.2691, 123.43, -4.788, 0.989637, 0, 0, -0.143589) /* Skeletal Mate */
-     , (7924, 1903456294, 390529285, 38.5684, 125.518, -4.795, -0.999946, 0, 0, 0.0103924) /* linkmonstergen5minutes */
+     , (7924, 1903456294, 390529285, 38.5684, 125.518, -4.795, -0.999946, 0, 0, 0.0103924) /* Linkable Monster Generator ( 5 Min.) */
      , (24323, 1903456282, 390529288, 27.1195, 116.457, -4.79175, 0.953528, 0, 0, -0.301303) /* Undead Sailor */
      , (24318, 1903456283, 390529288, 25.735, 122.515, -4.7945, 0.242228, 0, 0, -0.970219) /* Skeletal Swashbuckler */
      , (24318, 1903456280, 390529291, 43.5138, 121.402, -4.7945, 0.96938, 0, 0, -0.245567) /* Skeletal Swashbuckler */
      , (24323, 1903456281, 390529291, 45.2825, 117.468, -4.79175, 0.958045, 0, 0, 0.286618) /* Undead Sailor */
-     , (7924, 1903456289, 390529291, 46.0123, 119.57, -4.795, -0.321495, 0, 0, -0.946911) /* linkmonstergen5minutes */
+     , (7924, 1903456289, 390529291, 46.0123, 119.57, -4.795, -0.321495, 0, 0, -0.946911) /* Linkable Monster Generator ( 5 Min.) */
      , (24318, 1903456304, 390529296, 38.3393, 132.643, 0.45348, 0.970698, 0, 0, 0.240301) /* Skeletal Swashbuckler */
      , (24316, 1903456303, 390529296, 34.0727, 133.409, 0.442487, 0.936836, 0, 0, -0.349769) /* Skeletal Mate */
      , (1923, 1903456310, 390529297, 110.794, 10.5007, 68.005, 0.700411, 0, 0, -0.71374) /* Chest */
@@ -29,38 +29,38 @@ VALUES (24321, 1903456302, 390529282, 34.919, 103.917, -4.79175, 0.999896, 0, 0,
      , (24495, 1903456291, 390529024, 93.6934, 9.16225, 68.01, 0.108209, 0, 0, -0.994128) /* Gotrok Juggernaut */
      , (23567, 1903456292, 390529024, 85.9687, 5.04261, 72.005, 0.014674, 0, 0, -0.999892) /* Tumerok War Monger */
      , (23566, 1903456293, 390529024, 92.9826, 2.30062, 68.006, 0.468162, 0, 0, 0.883643) /* Tumerok Trooper */
-     , (1154, 1903456271, 390529024, 94.0374, 4.89577, 68.005, -0.773643, 0, 0, -0.633621) /* linkmonstergen */
+     , (1154, 1903456271, 390529024, 94.0374, 4.89577, 68.005, -0.773643, 0, 0, -0.633621) /* Linkable Monster Generator */
      , (23566, 1903456295, 390529024, 92.2391, 6.00249, 68.006, -0.062749, 0, 0, 0.998029) /* Tumerok Trooper */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1903456294'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1903456289'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1903456294'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1903456289'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456286'; /* linkmonstergen5minutes <- Skeletal Mate */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456284'; /* linkmonstergen5minutes <- Skeletal Mate */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456280'; /* linkmonstergen5minutes <- Skeletal Swashbuckler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456283'; /* linkmonstergen5minutes <- Skeletal Swashbuckler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456301'; /* linkmonstergen5minutes <- Skeletal Swashbuckler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456281'; /* linkmonstergen5minutes <- Undead Sailor */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456282'; /* linkmonstergen5minutes <- Undead Sailor */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456302'; /* linkmonstergen5minutes <- Undead Captain */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456303'; /* linkmonstergen5minutes <- Skeletal Mate */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456304'; /* linkmonstergen5minutes <- Skeletal Swashbuckler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456305'; /* linkmonstergen5minutes <- Skeletal Swashbuckler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456306'; /* linkmonstergen5minutes <- Undead Sailor */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456307'; /* linkmonstergen5minutes <- Undead Sailor */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456308'; /* linkmonstergen5minutes <- Skeletal Mate */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456295'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456293'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456292'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456290'; /* linkmonstergen5minutes <- Gotrok Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456291'; /* linkmonstergen5minutes <- Gotrok Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456287'; /* linkmonstergen5minutes <- Gotrok Titan */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456297'; /* linkmonstergen5minutes <- Gotrok Titan */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456298'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456288'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456299'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456296'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456300'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456285'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456309'; /* linkmonstergen5minutes <- Gotrok Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456286'; /* Linkable Monster Generator ( 5 Min.) <- Skeletal Mate */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456284'; /* Linkable Monster Generator ( 5 Min.) <- Skeletal Mate */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456280'; /* Linkable Monster Generator ( 5 Min.) <- Skeletal Swashbuckler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456283'; /* Linkable Monster Generator ( 5 Min.) <- Skeletal Swashbuckler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456301'; /* Linkable Monster Generator ( 5 Min.) <- Skeletal Swashbuckler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456281'; /* Linkable Monster Generator ( 5 Min.) <- Undead Sailor */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456282'; /* Linkable Monster Generator ( 5 Min.) <- Undead Sailor */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456302'; /* Linkable Monster Generator ( 5 Min.) <- Undead Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456303'; /* Linkable Monster Generator ( 5 Min.) <- Skeletal Mate */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456304'; /* Linkable Monster Generator ( 5 Min.) <- Skeletal Swashbuckler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456305'; /* Linkable Monster Generator ( 5 Min.) <- Skeletal Swashbuckler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456306'; /* Linkable Monster Generator ( 5 Min.) <- Undead Sailor */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456307'; /* Linkable Monster Generator ( 5 Min.) <- Undead Sailor */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903456308'; /* Linkable Monster Generator ( 5 Min.) <- Skeletal Mate */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456295'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456293'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456292'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456290'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456291'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456287'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456297'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456298'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456288'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456299'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456296'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456300'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456285'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1903456309'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Juggernaut */
 

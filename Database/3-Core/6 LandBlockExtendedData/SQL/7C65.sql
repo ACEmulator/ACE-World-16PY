@@ -6,13 +6,13 @@ VALUES (1345, 2009485312, 2086993920, 135.347, 22.5536, 7.2, 0.406737, 0, 0, -0.
      , (193, 2009485316, 2086993920, 161.807, 31.8731, 10.0033, -0.180361, 0, 0, -0.9836) /* Drudge Slinker */
      , (7, 2009485317, 2086993920, 157.495, 33.6974, 9.936, 0.990275, 0, 0, -0.139122) /* Drudge Skulker */
      , (7, 2009485318, 2086993920, 155.914, 31.1671, 9.87663, 0.995689, 0, 0, -0.0927528) /* Drudge Skulker */
-     , (7924, 2009485320, 2086993920, 158.476, 30.8109, 9.77457, 1, 0, 0, 0.000486123) /* linkmonstergen5minutes */;
+     , (7924, 2009485320, 2086993920, 158.476, 30.8109, 9.77457, 1, 0, 0, 0.000486123) /* Linkable Monster Generator ( 5 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2009485320'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2009485320'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009485316'; /* linkmonstergen5minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009485315'; /* linkmonstergen5minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009485319'; /* linkmonstergen5minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009485318'; /* linkmonstergen5minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009485317'; /* linkmonstergen5minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009485316'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009485315'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009485319'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009485318'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009485317'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Skulker */
 

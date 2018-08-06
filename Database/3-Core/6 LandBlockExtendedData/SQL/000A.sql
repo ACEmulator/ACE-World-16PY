@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30711, 1879089154, 655617, 33.7924, -51.5204, -23.971, 0.891628, 0, 0, -0.452768) /* Restless Spirit */
-     , (5086, 1879089155, 655617, 33.963, -47.6447, -23.995, 0.794824, 0, 0, -0.606841) /* linkmonstergen30seconds */
-     , (24129, 1879089156, 655617, 30.6103, -47.6066, -23.995, 0.840963, 0, 0, -0.541093) /* linkmonstergen2minutes */
+     , (5086, 1879089155, 655617, 33.963, -47.6447, -23.995, 0.794824, 0, 0, -0.606841) /* Linkable Monster Gen - 30 sec. */
+     , (24129, 1879089156, 655617, 30.6103, -47.6066, -23.995, 0.840963, 0, 0, -0.541093) /* Linkable Monster Generator ( 2 Min.) */
      , (30711, 1879089157, 655618, 43.0554, -40.3454, -23.971, -0.393552, 0, 0, -0.919302) /* Restless Spirit */
      , (30711, 1879089158, 655619, 41.6684, -52.5459, -23.971, 0.994041, 0, 0, -0.109003) /* Restless Spirit */
      , (30711, 1879089160, 655624, 48.518, -46.5497, -23.971, -0.875563, 0, 0, -0.483105) /* Restless Spirit */
@@ -9,7 +9,7 @@ VALUES (30711, 1879089154, 655617, 33.7924, -51.5204, -23.971, 0.891628, 0, 0, -
      , (25879, 1879089162, 655629, 32.3081, -80.1339, -17.988, 0.99863, 0, 0, 0.0523319) /* Pestilence Rat */
      , (25879, 1879089163, 655632, 41.1538, -73.1735, -17.945, 0.792894, 0, 0, -0.60936) /* Pestilence Rat */
      , (25879, 1879089164, 655634, 41.5291, -70.6904, -17.988, -0.134053, 0, 0, -0.990974) /* Pestilence Rat */
-     , (15274, 1879089165, 655639, 47.5147, -69.6649, -17.995, 0.0764015, 0, 0, -0.997077) /* linkmonstergen1minute */
+     , (15274, 1879089165, 655639, 47.5147, -69.6649, -17.995, 0.0764015, 0, 0, -0.997077) /* Linkable Monster Gen (1 min.) */
      , (25879, 1879089166, 655640, 59.2692, -57.853, -17.945, -0.540508, 0, 0, -0.841339) /* Pestilence Rat */
      , (25879, 1879089167, 655645, 59.9864, -66.7025, -17.988, -0.620702, 0, 0, -0.784047) /* Pestilence Rat */
      , (25879, 1879089168, 655648, 29.3092, -13.1853, -11.945, -0.785919, 0, 0, 0.618329) /* Pestilence Rat */
@@ -36,7 +36,7 @@ VALUES (30711, 1879089154, 655617, 33.7924, -51.5204, -23.971, 0.891628, 0, 0, -
      , (30712, 1879089189, 655733, 33.876, -59.0145, 0.029, 0.940086, 0, 0, -0.340937) /* Restless Spirit */
      , (30723, 1879089191, 655745, 40, 0, 0.005, -4.37114E-08, 0, 0, -1) /* Fortified Vault Sewers */
      , (30712, 1879089192, 655748, 37.6825, -13.9651, 0.029, 0.999753, 0, 0, 0.022241) /* Restless Spirit */
-     , (7923, 1879089193, 655762, 37.2614, -59.2395, 0.005, 0.983296, 0, 0, 0.182014) /* linkmonstergen3minutes */
+     , (7923, 1879089193, 655762, 37.2614, -59.2395, 0.005, 0.983296, 0, 0, 0.182014) /* Linkable Monster Generator ( 3 Min.) */
      , (5621, 1879089194, 655762, 40.0054, -64.4875, 5.36621, -0.0110698, 0, 0, 0.999939) /* Hot Air */
      , (30712, 1879089195, 655763, 40.9755, -69.9885, 0.029, 0.00820805, 0, 0, 0.999966) /* Restless Spirit */
      , (30712, 1879089197, 655782, 50.2173, -6.83131, 0.029, 0.572695, 0, 0, 0.819768) /* Restless Spirit */
@@ -46,56 +46,56 @@ VALUES (30711, 1879089154, 655617, 33.7924, -51.5204, -23.971, 0.891628, 0, 0, -
      , (30712, 1879089203, 655811, 60.4961, -40.9422, 0.029, 0.565158, 0, 0, 0.824983) /* Restless Spirit */
      , (30712, 1879089204, 655812, 61.6998, -51.1891, 0.029, 0.661111, 0, 0, 0.750288) /* Restless Spirit */
      , (30712, 1879089205, 655814, 62.3545, -71.0255, 0.029, 0.677462, 0, 0, 0.735558) /* Restless Spirit */
-     , (24129, 1879089207, 655814, 59.8004, -72.3197, 0.005, 0.481801, 0, 0, -0.876281) /* linkmonstergen2minutes */
+     , (24129, 1879089207, 655814, 59.8004, -72.3197, 0.005, 0.481801, 0, 0, -0.876281) /* Linkable Monster Generator ( 2 Min.) */
      , (25879, 1879089208, 655819, 3.4564, -80.4752, 6.012, 0.841772, 0, 0, -0.539833) /* Pestilence Rat */
      , (25879, 1879089209, 655822, 13.5088, -79.7573, 6.012, 0.69925, 0, 0, 0.714877) /* Pestilence Rat */
      , (25879, 1879089210, 655837, 32.6071, -69.8589, 6.012, 0.801726, 0, 0, 0.597692) /* Pestilence Rat */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879089155'; /* linkmonstergen30seconds */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879089165'; /* linkmonstergen1minute */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879089193'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879089207'; /* linkmonstergen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879089155'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879089165'; /* Linkable Monster Gen (1 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879089193'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879089207'; /* Linkable Monster Generator ( 2 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879089154'; /* linkmonstergen30seconds <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879089158'; /* linkmonstergen30seconds <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879089157'; /* linkmonstergen30seconds <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879089160'; /* linkmonstergen30seconds <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089164'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089163'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089162'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089161'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089167'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089166'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089175'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089176'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089181'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089169'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089168'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089170'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089177'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089180'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089179'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089178'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089208'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089209'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089210'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879089189'; /* linkmonstergen3minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879089184'; /* linkmonstergen3minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879089183'; /* linkmonstergen3minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879089188'; /* linkmonstergen3minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879089203'; /* linkmonstergen3minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879089204'; /* linkmonstergen3minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089192'; /* linkmonstergen2minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089187'; /* linkmonstergen2minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089182'; /* linkmonstergen2minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089171'; /* linkmonstergen2minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089172'; /* linkmonstergen2minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089173'; /* linkmonstergen2minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089200'; /* linkmonstergen2minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089195'; /* linkmonstergen2minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089205'; /* linkmonstergen2minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089186'; /* linkmonstergen2minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089201'; /* linkmonstergen2minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089198'; /* linkmonstergen2minutes <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089197'; /* linkmonstergen2minutes <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879089154'; /* Linkable Monster Gen - 30 sec. <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879089158'; /* Linkable Monster Gen - 30 sec. <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879089157'; /* Linkable Monster Gen - 30 sec. <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879089160'; /* Linkable Monster Gen - 30 sec. <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089164'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089163'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089162'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089161'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089167'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089166'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089175'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089176'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089181'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089169'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089168'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089170'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089177'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089180'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089179'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089178'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089208'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089209'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879089210'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879089189'; /* Linkable Monster Generator ( 3 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879089184'; /* Linkable Monster Generator ( 3 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879089183'; /* Linkable Monster Generator ( 3 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879089188'; /* Linkable Monster Generator ( 3 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879089203'; /* Linkable Monster Generator ( 3 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879089204'; /* Linkable Monster Generator ( 3 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089192'; /* Linkable Monster Generator ( 2 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089187'; /* Linkable Monster Generator ( 2 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089182'; /* Linkable Monster Generator ( 2 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089171'; /* Linkable Monster Generator ( 2 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089172'; /* Linkable Monster Generator ( 2 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089173'; /* Linkable Monster Generator ( 2 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089200'; /* Linkable Monster Generator ( 2 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089195'; /* Linkable Monster Generator ( 2 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089205'; /* Linkable Monster Generator ( 2 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089186'; /* Linkable Monster Generator ( 2 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089201'; /* Linkable Monster Generator ( 2 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089198'; /* Linkable Monster Generator ( 2 Min.) <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879089197'; /* Linkable Monster Generator ( 2 Min.) <- Restless Spirit */
 

@@ -15,23 +15,23 @@ VALUES (24943, 2034421760, 2485977088, 66.4428, 74.8311, 136.241, 0.459077, 0, 0
      , (24942, 2034421773, 2485977088, 126.933, 81.0638, 118.988, -0.796098, 0, 0, 0.605167) /* Gotrok Lithos */
      , (24942, 2034421774, 2485977088, 62.1666, 146.213, 113.127, -0.8792, 0, 0, -0.476452) /* Gotrok Lithos */
      , (2339, 2034421775, 2485977088, 50.6279, 85.8023, 136.598, 0.424418, 0, 0, -0.905466) /* Forking Trail */
-     , (1154, 2034421776, 2485977088, 59.5275, 74.8195, 136.813, -0.997288, 0, 0, -0.0735912) /* linkmonstergen */;
+     , (1154, 2034421776, 2485977088, 59.5275, 74.8195, 136.813, -0.997288, 0, 0, -0.0735912) /* Linkable Monster Generator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2034421776'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2034421776'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421760'; /* linkmonstergen <- Gotrok Obeloth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421761'; /* linkmonstergen <- Gotrok Obeloth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421762'; /* linkmonstergen <- Gotrok Obeloth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421763'; /* linkmonstergen <- Gotrok Obeloth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421764'; /* linkmonstergen <- Gotrok Obeloth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421765'; /* linkmonstergen <- Gotrok Obeloth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421766'; /* linkmonstergen <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421767'; /* linkmonstergen <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421768'; /* linkmonstergen <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421769'; /* linkmonstergen <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421770'; /* linkmonstergen <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421771'; /* linkmonstergen <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421772'; /* linkmonstergen <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421773'; /* linkmonstergen <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421774'; /* linkmonstergen <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421760'; /* Linkable Monster Generator <- Gotrok Obeloth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421761'; /* Linkable Monster Generator <- Gotrok Obeloth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421762'; /* Linkable Monster Generator <- Gotrok Obeloth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421763'; /* Linkable Monster Generator <- Gotrok Obeloth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421764'; /* Linkable Monster Generator <- Gotrok Obeloth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421765'; /* Linkable Monster Generator <- Gotrok Obeloth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421766'; /* Linkable Monster Generator <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421767'; /* Linkable Monster Generator <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421768'; /* Linkable Monster Generator <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421769'; /* Linkable Monster Generator <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421770'; /* Linkable Monster Generator <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421771'; /* Linkable Monster Generator <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421772'; /* Linkable Monster Generator <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421773'; /* Linkable Monster Generator <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034421774'; /* Linkable Monster Generator <- Gotrok Lithos */
 

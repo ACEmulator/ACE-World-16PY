@@ -7,7 +7,7 @@ VALUES (11498, 1880907850, 29753600, 10.265, -29.8831, -5.995, -0.880031, 0, 0, 
      , (11498, 1880907852, 29753613, 20.9159, -39.313, -5.995, -0.201933, 0, 0, -0.979399) /* Assassin */
      , (2024, 1880907789, 29753617, 21.9895, -53.2311, -5.9, 1, 0, 0, 0) /* Lilitha's Bow */
      , (152, 1880907792, 29753617, 23.4663, -53.4749, -6, 1, 0, 0, 0) /* Font */
-     , (5085, 1880907823, 29753617, 23.7577, -52.1482, -6, 1, 0, 0, 0) /* linkitemgen25seconds */
+     , (5085, 1880907823, 29753617, 23.7577, -52.1482, -6, 1, 0, 0, 0) /* Linkable Item Gen - 25 seconds */
      , (11498, 1880907853, 29753617, 18.235, -50.352, -5.995, -0.707107, 0, 0, -0.707107) /* Assassin */
      , (11502, 1880907854, 29753622, 32.7842, -48.6508, -5.995, -4.37114E-08, 0, 0, -1) /* Cutthroat */
      , (11503, 1880907826, 29753629, 50, -40, -5.995, -4.37114E-08, 0, 0, -1) /* Highwayman */
@@ -17,7 +17,7 @@ VALUES (11498, 1880907850, 29753600, 10.265, -29.8831, -5.995, -0.880031, 0, 0, 
      , (11500, 1880907830, 29753712, 77.3315, -39.4113, -5.995, 0.707107, 0, 0, -0.707107) /* Brigand */
      , (11500, 1880907831, 29753718, 82.5469, -50.0935, -5.995, -4.37114E-08, 0, 0, -1) /* Brigand */
      , (2083, 1880907802, 29753725, 6.86825, 0.0732139, 0, 0.707107, 0, 0, -0.707107) /* Surface */
-     , (7924, 1880907832, 29753725, 13.9092, -3.80861, 0.005, -0.707107, 0, 0, -0.707107) /* linkmonstergen5minutes */
+     , (7924, 1880907832, 29753725, 13.9092, -3.80861, 0.005, -0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 5 Min.) */
      , (568, 1880907803, 29753727, 14.75, 1.62586E-07, 0, 0.707107, 0, 0, -0.707107) /* Door */
      , (11502, 1880907833, 29753760, 39.8164, -51.032, 0.005, -0.999426, 0, 0, -0.03388) /* Cutthroat */
      , (11500, 1880907834, 29753767, 49.5008, -23.4207, 0.005, 1, 0, 0, 0) /* Brigand */
@@ -39,34 +39,34 @@ VALUES (11498, 1880907850, 29753600, 10.265, -29.8831, -5.995, -0.880031, 0, 0, 
      , (204, 1880907849, 29753821, 10, -20, 6.0075, 0.707107, 0, 0, -0.707107) /* Lich */
      , (568, 1880907817, 29753824, 14.75, -20, 6, 0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880907823'; /* linkitemgen25seconds */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880907832'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880907823'; /* Linkable Item Gen - 25 seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880907832'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880907789'; /* linkitemgen25seconds <- Lilitha's Bow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907835'; /* linkmonstergen5minutes <- Brigand */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907840'; /* linkmonstergen5minutes <- Highwayman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907834'; /* linkmonstergen5minutes <- Brigand */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907831'; /* linkmonstergen5minutes <- Brigand */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907826'; /* linkmonstergen5minutes <- Highwayman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907828'; /* linkmonstergen5minutes <- Brigand */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907830'; /* linkmonstergen5minutes <- Brigand */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907827'; /* linkmonstergen5minutes <- Highwayman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907829'; /* linkmonstergen5minutes <- Highwayman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907843'; /* linkmonstergen5minutes <- Cutthroat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907841'; /* linkmonstergen5minutes <- Highwayman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907842'; /* linkmonstergen5minutes <- Cutthroat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907838'; /* linkmonstergen5minutes <- Cutthroat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907839'; /* linkmonstergen5minutes <- Cutthroat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907837'; /* linkmonstergen5minutes <- Cutthroat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907833'; /* linkmonstergen5minutes <- Cutthroat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907848'; /* linkmonstergen5minutes <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907849'; /* linkmonstergen5minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907856'; /* linkmonstergen5minutes <- Cutthroat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907850'; /* linkmonstergen5minutes <- Assassin */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907852'; /* linkmonstergen5minutes <- Assassin */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907857'; /* linkmonstergen5minutes <- Cutthroat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907854'; /* linkmonstergen5minutes <- Cutthroat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907851'; /* linkmonstergen5minutes <- Assassin */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907855'; /* linkmonstergen5minutes <- Cutthroat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907853'; /* linkmonstergen5minutes <- Assassin */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880907789'; /* Linkable Item Gen - 25 seconds <- Lilitha's Bow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907835'; /* Linkable Monster Generator ( 5 Min.) <- Brigand */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907840'; /* Linkable Monster Generator ( 5 Min.) <- Highwayman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907834'; /* Linkable Monster Generator ( 5 Min.) <- Brigand */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907831'; /* Linkable Monster Generator ( 5 Min.) <- Brigand */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907826'; /* Linkable Monster Generator ( 5 Min.) <- Highwayman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907828'; /* Linkable Monster Generator ( 5 Min.) <- Brigand */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907830'; /* Linkable Monster Generator ( 5 Min.) <- Brigand */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907827'; /* Linkable Monster Generator ( 5 Min.) <- Highwayman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907829'; /* Linkable Monster Generator ( 5 Min.) <- Highwayman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907843'; /* Linkable Monster Generator ( 5 Min.) <- Cutthroat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907841'; /* Linkable Monster Generator ( 5 Min.) <- Highwayman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907842'; /* Linkable Monster Generator ( 5 Min.) <- Cutthroat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907838'; /* Linkable Monster Generator ( 5 Min.) <- Cutthroat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907839'; /* Linkable Monster Generator ( 5 Min.) <- Cutthroat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907837'; /* Linkable Monster Generator ( 5 Min.) <- Cutthroat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907833'; /* Linkable Monster Generator ( 5 Min.) <- Cutthroat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907848'; /* Linkable Monster Generator ( 5 Min.) <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907849'; /* Linkable Monster Generator ( 5 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907856'; /* Linkable Monster Generator ( 5 Min.) <- Cutthroat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907850'; /* Linkable Monster Generator ( 5 Min.) <- Assassin */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907852'; /* Linkable Monster Generator ( 5 Min.) <- Assassin */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907857'; /* Linkable Monster Generator ( 5 Min.) <- Cutthroat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907854'; /* Linkable Monster Generator ( 5 Min.) <- Cutthroat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907851'; /* Linkable Monster Generator ( 5 Min.) <- Assassin */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907855'; /* Linkable Monster Generator ( 5 Min.) <- Cutthroat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880907853'; /* Linkable Monster Generator ( 5 Min.) <- Assassin */
 

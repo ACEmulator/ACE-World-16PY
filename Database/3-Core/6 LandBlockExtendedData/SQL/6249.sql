@@ -36,8 +36,8 @@ VALUES (27562, 1982107648, 1648951552, 95, -50, -30, 0.707107, 0, 0, -0.707107) 
      , (26015, 1982107682, 1648951606, 272.122, -58.0414, -29.9615, 0.837041, 0, 0, -0.547141) /* Burun Ruuk Lout */
      , (27562, 1982107683, 1648951610, 290, -50, -30, 0.707107, 0, 0, -0.707107) /* Door */
      , (23567, 1982107837, 1648951616, 12.7384, -40.6008, -23.9935, -0.996757, 0, 0, 0.080471) /* Tumerok War Monger */
-     , (27760, 1982107834, 1648951617, 10, -50, -23.995, 0.748499, 0, 0, 0.663136) /* renegadebossesgen */
-     , (27759, 1982107835, 1648951617, 9.87179, -51.0562, -23.995, 0.748499, 0, 0, 0.663136) /* renegadealternatebossesgen */
+     , (27760, 1982107834, 1648951617, 10, -50, -23.995, 0.748499, 0, 0, 0.663136) /* Renegade Leaders Gen */
+     , (27759, 1982107835, 1648951617, 9.87179, -51.0562, -23.995, 0.748499, 0, 0, 0.663136) /* Renegade Generals Generator */
      , (23567, 1982107838, 1648951618, 12.0026, -57.9539, -23.9935, -0.206054, 0, 0, 0.978541) /* Tumerok War Monger */
      , (24951, 1982107686, 1648951619, 19.2956, -38.9885, -23.99, -0.818917, 0, 0, 0.573913) /* Gotrok Titan */
      , (24951, 1982107687, 1648951619, 18.9721, -42.1569, -23.99, -0.670232, 0, 0, 0.742152) /* Gotrok Titan */
@@ -176,192 +176,192 @@ VALUES (27562, 1982107648, 1648951552, 95, -50, -30, 0.707107, 0, 0, -0.707107) 
      , (26016, 1982107819, 1648951827, 391.271, -75.0947, -5.945, 0.999789, 0, 0, -0.020561) /* Burun Ruuk Ruffian */
      , (26013, 1982107820, 1648951827, 389.072, -75.3619, -5.96475, 0.999789, 0, 0, -0.020561) /* Burun Ruuk Adherent */
      , (27562, 1982107821, 1648951840, 350, -90, 0, 1, 0, 0, 0) /* Door */
-     , (7932, 1982107822, 1648951840, 351.88, -94.1049, 0.005, 1, 0, 0, 0) /* linkmonstergen4minutes */
-     , (7932, 1982107823, 1648951840, 351.099, -94.6883, 0.005, 1, 0, 0, 0) /* linkmonstergen4minutes */
-     , (7932, 1982107824, 1648951840, 351.104, -93.2882, 0.005, 1, 0, 0, 0) /* linkmonstergen4minutes */
-     , (7932, 1982107825, 1648951840, 349.997, -94.3194, 0.005, 1, 0, 0, 0) /* linkmonstergen4minutes */
-     , (7932, 1982107826, 1648951840, 350, -93.2882, 0.005, 1, 0, 0, 0) /* linkmonstergen4minutes */
-     , (7932, 1982107827, 1648951840, 349.169, -93.4911, 0.005, 1, 0, 0, 0) /* linkmonstergen4minutes */
-     , (7932, 1982107828, 1648951841, 349.06, -95.1361, 0.005, 1, 0, 0, -4.37114E-08) /* linkmonstergen4minutes */
+     , (7932, 1982107822, 1648951840, 351.88, -94.1049, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1982107823, 1648951840, 351.099, -94.6883, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1982107824, 1648951840, 351.104, -93.2882, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1982107825, 1648951840, 349.997, -94.3194, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1982107826, 1648951840, 350, -93.2882, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1982107827, 1648951840, 349.169, -93.4911, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1982107828, 1648951841, 349.06, -95.1361, 0.005, 1, 0, 0, -4.37114E-08) /* Linkable Monster Generator ( 4 Min.) */
      , (8139, 1982107829, 1648951843, 356.787, -78.2591, 0.01, 0.721496, 0, 0, 0.692418) /* Gigas Raider */
      , (8139, 1982107830, 1648951843, 356.642, -81.7952, 0.01, 0.721496, 0, 0, 0.692418) /* Gigas Raider */
      , (231, 1982107831, 1648951843, 355.96, -79.9032, 0.0055, 0.721496, 0, 0, 0.692418) /* Tumerok Priest */
      , (26016, 1982107832, 1648951843, 355.095, -78.729, 0.055, 0.721496, 0, 0, 0.692418) /* Burun Ruuk Ruffian */
      , (26013, 1982107833, 1648951843, 355.362, -80.9277, 0.035251, 0.721496, 0, 0, 0.692418) /* Burun Ruuk Adherent */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1982107822'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1982107823'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1982107824'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1982107825'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1982107826'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1982107828'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1982107822'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1982107823'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1982107824'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1982107825'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1982107826'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1982107828'; /* Linkable Monster Generator ( 4 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107769'; /* linkmonstergen4minutes <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107772'; /* linkmonstergen4minutes <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107759'; /* linkmonstergen4minutes <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107760'; /* linkmonstergen4minutes <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107757'; /* linkmonstergen4minutes <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107762'; /* linkmonstergen4minutes <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107771'; /* linkmonstergen4minutes <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107768'; /* linkmonstergen4minutes <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107670'; /* linkmonstergen4minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107663'; /* linkmonstergen4minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107664'; /* linkmonstergen4minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107665'; /* linkmonstergen4minutes <- Gotrok Fortress Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107761'; /* linkmonstergen4minutes <- Tumerok High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107662'; /* linkmonstergen4minutes <- Tumerok High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107668'; /* linkmonstergen4minutes <- Tumerok High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107669'; /* linkmonstergen4minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107673'; /* linkmonstergen4minutes <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107674'; /* linkmonstergen4minutes <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107675'; /* linkmonstergen4minutes <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107676'; /* linkmonstergen4minutes <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107666'; /* linkmonstergen4minutes <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107667'; /* linkmonstergen4minutes <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107671'; /* linkmonstergen4minutes <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107672'; /* linkmonstergen4minutes <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107681'; /* linkmonstergen4minutes <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107682'; /* linkmonstergen4minutes <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107744'; /* linkmonstergen4minutes <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107745'; /* linkmonstergen4minutes <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107677'; /* linkmonstergen4minutes <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107678'; /* linkmonstergen4minutes <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107679'; /* linkmonstergen4minutes <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107680'; /* linkmonstergen4minutes <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107743'; /* linkmonstergen4minutes <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107731'; /* linkmonstergen4minutes <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107732'; /* linkmonstergen4minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107733'; /* linkmonstergen4minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107734'; /* linkmonstergen4minutes <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107735'; /* linkmonstergen4minutes <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107741'; /* linkmonstergen4minutes <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107742'; /* linkmonstergen4minutes <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107738'; /* linkmonstergen4minutes <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107830'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107739'; /* linkmonstergen4minutes <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107829'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107740'; /* linkmonstergen4minutes <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107736'; /* linkmonstergen4minutes <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107748'; /* linkmonstergen4minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107749'; /* linkmonstergen4minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107833'; /* linkmonstergen4minutes <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107750'; /* linkmonstergen4minutes <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107832'; /* linkmonstergen4minutes <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107831'; /* linkmonstergen4minutes <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107658'; /* linkmonstergen4minutes <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107659'; /* linkmonstergen4minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107660'; /* linkmonstergen4minutes <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107655'; /* linkmonstergen4minutes <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107746'; /* linkmonstergen4minutes <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107723'; /* linkmonstergen4minutes <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107724'; /* linkmonstergen4minutes <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107717'; /* linkmonstergen4minutes <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107656'; /* linkmonstergen4minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107657'; /* linkmonstergen4minutes <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107747'; /* linkmonstergen4minutes <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107737'; /* linkmonstergen4minutes <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107726'; /* linkmonstergen4minutes <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107727'; /* linkmonstergen4minutes <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107728'; /* linkmonstergen4minutes <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107729'; /* linkmonstergen4minutes <- Gotrok Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107718'; /* linkmonstergen4minutes <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107808'; /* linkmonstergen4minutes <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107719'; /* linkmonstergen4minutes <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107807'; /* linkmonstergen4minutes <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107720'; /* linkmonstergen4minutes <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107806'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107725'; /* linkmonstergen4minutes <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107805'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107710'; /* linkmonstergen4minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107817'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107711'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107816'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107712'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107773'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107809'; /* linkmonstergen4minutes <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107730'; /* linkmonstergen4minutes <- Gotrok Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107721'; /* linkmonstergen4minutes <- Gotrok Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107820'; /* linkmonstergen4minutes <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107722'; /* linkmonstergen4minutes <- Gotrok Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107819'; /* linkmonstergen4minutes <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107714'; /* linkmonstergen4minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107818'; /* linkmonstergen4minutes <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107650'; /* linkmonstergen4minutes <- Gotrok Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107803'; /* linkmonstergen4minutes <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107651'; /* linkmonstergen4minutes <- Burun Ruuk Savage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107802'; /* linkmonstergen4minutes <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107652'; /* linkmonstergen4minutes <- Burun Ruuk Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107801'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107649'; /* linkmonstergen4minutes <- Burun Ruuk Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107800'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107774'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107811'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107715'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107810'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107716'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107654'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107804'; /* linkmonstergen4minutes <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107708'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107814'; /* linkmonstergen4minutes <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107709'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107813'; /* linkmonstergen4minutes <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107706'; /* linkmonstergen4minutes <- Gotrok Titan */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107812'; /* linkmonstergen4minutes <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107653'; /* linkmonstergen4minutes <- Burun Ruuk Savage */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107798'; /* linkmonstergen4minutes <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107797'; /* linkmonstergen4minutes <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107704'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107796'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107705'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107795'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107699'; /* linkmonstergen4minutes <- Gotrok Titan */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107790'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107700'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107789'; /* linkmonstergen4minutes <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107701'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107702'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107799'; /* linkmonstergen4minutes <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107707'; /* linkmonstergen4minutes <- Gotrok Titan */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107785'; /* linkmonstergen4minutes <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107696'; /* linkmonstergen4minutes <- Gotrok Titan */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107793'; /* linkmonstergen4minutes <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107697'; /* linkmonstergen4minutes <- Gotrok Titan */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107792'; /* linkmonstergen4minutes <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107698'; /* linkmonstergen4minutes <- Gotrok Titan */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107791'; /* linkmonstergen4minutes <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107695'; /* linkmonstergen4minutes <- Gotrok Titan */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107779'; /* linkmonstergen4minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107686'; /* linkmonstergen4minutes <- Gotrok Titan */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107788'; /* linkmonstergen4minutes <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107687'; /* linkmonstergen4minutes <- Gotrok Titan */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107787'; /* linkmonstergen4minutes <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107688'; /* linkmonstergen4minutes <- Burun Ruuk Savage */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107786'; /* linkmonstergen4minutes <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107703'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107784'; /* linkmonstergen4minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107783'; /* linkmonstergen4minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107694'; /* linkmonstergen4minutes <- Gotrok Titan */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107780'; /* linkmonstergen4minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107693'; /* linkmonstergen4minutes <- Burun Ruuk Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107776'; /* linkmonstergen4minutes <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107782'; /* linkmonstergen4minutes <- Tumerok Gladiator */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107781'; /* linkmonstergen4minutes <- Tumerok Gladiator */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107689'; /* linkmonstergen4minutes <- Burun Ruuk Savage */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107763'; /* linkmonstergen4minutes <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107690'; /* linkmonstergen4minutes <- Burun Ruuk Savage */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107751'; /* linkmonstergen4minutes <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107691'; /* linkmonstergen4minutes <- Burun Ruuk Savage */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107756'; /* linkmonstergen4minutes <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107692'; /* linkmonstergen4minutes <- Burun Ruuk Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107777'; /* linkmonstergen4minutes <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107752'; /* linkmonstergen4minutes <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107767'; /* linkmonstergen4minutes <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107766'; /* linkmonstergen4minutes <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107764'; /* linkmonstergen4minutes <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107758'; /* linkmonstergen4minutes <- Gotrok Fortress Guard */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107755'; /* linkmonstergen4minutes <- Gotrok Fortress Guard */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107754'; /* linkmonstergen4minutes <- Tumerok High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107753'; /* linkmonstergen4minutes <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107837'; /* linkmonstergen4minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107838'; /* linkmonstergen4minutes <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107769'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107772'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107759'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107760'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107757'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107762'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107771'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107768'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107670'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107663'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107664'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107665'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Fortress Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107761'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107662'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107668'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107669'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107673'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107674'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107675'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107676'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107666'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107667'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107671'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107672'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1982107681'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107682'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107744'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107745'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107677'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107678'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107679'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107680'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107743'; /* Linkable Monster Generator ( 4 Min.) <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107731'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107732'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107733'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107734'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107735'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107741'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107742'; /* Linkable Monster Generator ( 4 Min.) <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107738'; /* Linkable Monster Generator ( 4 Min.) <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107830'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107739'; /* Linkable Monster Generator ( 4 Min.) <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107829'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107740'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107736'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107748'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107749'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107833'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1982107750'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107832'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107831'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107658'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107659'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107660'; /* Linkable Monster Generator ( 4 Min.) <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107655'; /* Linkable Monster Generator ( 4 Min.) <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107746'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107723'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107724'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107717'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107656'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107657'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107747'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107737'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107726'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107727'; /* Linkable Monster Generator ( 4 Min.) <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107728'; /* Linkable Monster Generator ( 4 Min.) <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107729'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107718'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107808'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107719'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107807'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107720'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107806'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1982107725'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107805'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107710'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107817'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107711'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107816'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107712'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107773'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107809'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107730'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107721'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107820'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107722'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107819'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107714'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107818'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107650'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107803'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107651'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107802'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107652'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107801'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107649'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107800'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107774'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1982107811'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107715'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107810'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107716'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107654'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107804'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107708'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107814'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107709'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107813'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107706'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107812'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107653'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107798'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107797'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107704'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107796'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107705'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107795'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107699'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107790'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107700'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107789'; /* Linkable Monster Generator ( 4 Min.) <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107701'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107702'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1982107799'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107707'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107785'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107696'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107793'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107697'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107792'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107698'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107791'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107695'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107779'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107686'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107788'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107687'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107787'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107688'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107786'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107703'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107784'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107783'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107694'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107780'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107693'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107776'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107782'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107781'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107689'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107763'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107690'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107751'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107691'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107756'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107692'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107777'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107752'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107767'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107766'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107764'; /* Linkable Monster Generator ( 4 Min.) <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107758'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Fortress Guard */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107755'; /* Linkable Monster Generator ( 4 Min.) <- Gotrok Fortress Guard */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107754'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107753'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107837'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1982107838'; /* Linkable Monster Generator ( 4 Min.) <- Tumerok War Monger */
 

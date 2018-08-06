@@ -17,7 +17,7 @@ VALUES (568, 1966526464, 1399652610, 90, -74.75, -42, -4.37114E-08, 0, 0, -1) /*
      , (2585, 1966526473, 1399652661, 120.152, -109.847, -41.995, -0.708275, 0, 0, -0.705936) /* Essa Sclavus */
      , (2584, 1966526504, 1399652670, 122.637, -132.684, -41.995, -0.89991, 0, 0, -0.436076) /* Aste Sclavus */
      , (143, 1966526474, 1399652673, 133.912, -68.2475, -41.9875, -0.707107, 0, 0, 0.707107) /* Chest */
-     , (5085, 1966526475, 1399652673, 131.323, -71.0999, -41.995, -0.711827, 0, 0, 0.702355) /* linkitemgen25seconds */
+     , (5085, 1966526475, 1399652673, 131.323, -71.0999, -41.995, -0.711827, 0, 0, 0.702355) /* Linkable Item Gen - 25 seconds */
      , (14890, 1966526476, 1399652673, 133.738, -71.0755, -41.0611, -0.711827, 0, 0, 0.702355) /* Nuhmudira's Journal */
      , (278, 1966526477, 1399652675, 130, -74.755, -42, -4.37114E-08, 0, 0, -1) /* Door */
      , (25451, 1966526505, 1399652680, 13.71, -80.126, -35.995, 0.714421, 0, 0, 0.699716) /* Crate */
@@ -29,7 +29,7 @@ VALUES (568, 1966526464, 1399652610, 90, -74.75, -42, -4.37114E-08, 0, 0, -1) /*
      , (278, 1966526478, 1399652799, 105.25, -20, -6, -0.707107, 0, 0, -0.707107) /* Door */
      , (15301, 1966526479, 1399652804, 110, -54.3, -6, -4.37114E-08, 0, 0, -1) /* Bookcase */
      , (15302, 1966526480, 1399652804, 106, -49, -6, 0.707107, 0, 0, -0.707107) /* Tome */
-     , (7925, 1966526481, 1399652804, 109.996, -50.1553, -5.995, -0.0541771, 0, 0, -0.998531) /* linkmonstergen10minutes */
+     , (7925, 1966526481, 1399652804, 109.996, -50.1553, -5.995, -0.0541771, 0, 0, -0.998531) /* Linkable Monster Generator ( 10 Min.) */
      , (278, 1966526482, 1399652811, 124.75, -20, -6, -0.707107, 0, 0, 0.707107) /* Door */
      , (278, 1966526483, 1399652812, 115.25, -20, -6, -0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1966526484, 1399652813, 120, -24.75, -6, -4.37114E-08, 0, 0, -1) /* Door */
@@ -47,25 +47,25 @@ VALUES (568, 1966526464, 1399652610, 90, -74.75, -42, -4.37114E-08, 0, 0, -1) /*
      , (568, 1966526496, 1399652875, 145.25, -50.013, -6, 0.707107, 0, 0, -0.707107) /* Door */;
 
 UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1966526479'; /* Bookcase */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1966526481'; /* linkmonstergen10minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1966526475'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1966526481'; /* Linkable Monster Generator ( 10 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1966526475'; /* Linkable Item Gen - 25 seconds */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966526480'; /* Bookcase <- Tome */
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966526497'; /* Bookcase <- Candle */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526470'; /* linkmonstergen10minutes <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526471'; /* linkmonstergen10minutes <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526472'; /* linkmonstergen10minutes <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526467'; /* linkmonstergen10minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526466'; /* linkmonstergen10minutes <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526468'; /* linkmonstergen10minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526465'; /* linkmonstergen10minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526473'; /* linkmonstergen10minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526504'; /* linkmonstergen10minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526501'; /* linkmonstergen10minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526500'; /* linkmonstergen10minutes <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526503'; /* linkmonstergen10minutes <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526502'; /* linkmonstergen10minutes <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526498'; /* linkmonstergen10minutes <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526499'; /* linkmonstergen10minutes <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1966526476'; /* linkitemgen25seconds <- Nuhmudira's Journal */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526470'; /* Linkable Monster Generator ( 10 Min.) <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526471'; /* Linkable Monster Generator ( 10 Min.) <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526472'; /* Linkable Monster Generator ( 10 Min.) <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526467'; /* Linkable Monster Generator ( 10 Min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526466'; /* Linkable Monster Generator ( 10 Min.) <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526468'; /* Linkable Monster Generator ( 10 Min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526465'; /* Linkable Monster Generator ( 10 Min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526473'; /* Linkable Monster Generator ( 10 Min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526504'; /* Linkable Monster Generator ( 10 Min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526501'; /* Linkable Monster Generator ( 10 Min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526500'; /* Linkable Monster Generator ( 10 Min.) <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526503'; /* Linkable Monster Generator ( 10 Min.) <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526502'; /* Linkable Monster Generator ( 10 Min.) <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526498'; /* Linkable Monster Generator ( 10 Min.) <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966526499'; /* Linkable Monster Generator ( 10 Min.) <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1966526476'; /* Linkable Item Gen - 25 seconds <- Nuhmudira's Journal */
 

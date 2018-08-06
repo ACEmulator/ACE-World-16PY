@@ -5,7 +5,7 @@ VALUES (843, 2107985964, 3663003906, 138.36, 178.8, 21.61, -0.685183, 0, 0, -0.7
      , (5621, 2107985924, 3663003915, 40.48, 108, 21.86, 1, 0, 0, -3.58559E-08) /* Hot Air */
      , (835, 2107985973, 3663003915, 43.89, 104.88, 20.04, 0.661966, 0, 0, -0.749534) /* Ven Ounan the Blacksmith */
      , (143, 2107985925, 3663003928, 27.53, 113.15, 21.24, 0.599722, 0, 0, 0.800208) /* Chest */
-     , (4788, 2107985987, 3663003929, 31.4848, 100.006, 21.205, 0.999873, 0, 0, 0.015971) /* trophysmithshogen */
+     , (4788, 2107985987, 3663003929, 31.4848, 100.006, 21.205, 0.999873, 0, 0, 0.015971) /* Sho Trophy Smith Gen */
      , (720, 2107985928, 3663003942, 54.7908, 178.837, 20, 0.707107, 0, 0, -0.707107) /* Sliding Door */
      , (720, 2107985929, 3663003943, 66.2158, 186.912, 20, 0.707107, 0, 0, 0.707107) /* Sliding Door */
      , (839, 2107985963, 3663003945, 54, 186.84, 20.005, 0.661966, 0, 0, -0.749534) /* Ai Konaji the Jeweler */
@@ -22,7 +22,7 @@ VALUES (843, 2107985964, 3663003906, 138.36, 178.8, 21.61, -0.685183, 0, 0, -0.7
      , (831, 2107985971, 3663003998, 42.12, 30.48, 20.04, 0.401948, 0, 0, -0.915663) /* Archmage Chen Wah-Ji */
      , (5193, 2107985962, 3663004023, 131.437, 102.901, 20.005, -0.899865, 0, 0, -0.436168) /* Oi-Tong Ye  */
      , (5195, 2107986043, 3663004023, 134.126, 111.581, 20.005, -0.353775, 0, 0, -0.935331) /* Lou Ka */
-     , (3951, 2107985968, 3663004023, 129.797, 102.493, 20.005, 0.520655, 0, 0, -0.853767) /* linkmonstergen1hour */
+     , (3951, 2107985968, 3663004023, 129.797, 102.493, 20.005, 0.520655, 0, 0, -0.853767) /* Linkable Monster Gen (1 hour) */
      , (832, 2107985966, 3663004028, 132.6, 104.64, 25.61, 0.887011, 0, 0, 0.461748) /* Nin Hong the Barkeeper */
      , (837, 2107985965, 3663004037, 156, 148.38, 20.045, 0.995562, 0, 0, 0.0941083) /* Hau Ji Tan the Grocer */
      , (720, 2107985954, 3663004055, 83.955, 67.29, 20.04, -4.37114E-08, 0, 0, -1) /* Sliding Door */
@@ -72,10 +72,10 @@ VALUES (843, 2107985964, 3663003906, 138.36, 178.8, 21.61, -0.685183, 0, 0, -0.7
      , (27547, 2107986036, 3663003648, 93.5733, 173.178, 20.005, 0.114416, 0, 0, -0.993433) /* Bind Stone */
      , (9422, 2107986013, 3663003648, 75.5066, 116.917, 20.01, 0.287496, 0, 0, -0.957782) /* Oneros the Gem Seller */
      , (509, 2107986010, 3663003648, 88.7966, 103.088, 20.005, 0.514396, 0, 0, -0.857553) /* Life Stone */
-     , (23631, 2107986009, 3663003648, 88.0104, 86.4966, 75.4143, 0.0552656, 0, 0, -0.998472) /* eventmadcowgen */
+     , (23631, 2107986009, 3663003648, 88.0104, 86.4966, 75.4143, 0.0552656, 0, 0, -0.998472) /* April 2003 Raining Mad Cows Gen */
      , (19196, 2107986007, 3663003648, 105.727, 129.164, 26.839, 0.896749, 0, 0, -0.442539) /* Nullified Statue of a Drudge */
-     , (19457, 2107986003, 3663003648, 105.611, 128.915, 27.0401, 0.9329, 0, 0, -0.360135) /* fireworksgen */
-     , (7923, 2107985994, 3663003648, 64.0682, 82.6704, 20.005, 0.843065, 0, 0, -0.537811) /* linkmonstergen3minutes */
+     , (19457, 2107986003, 3663003648, 105.611, 128.915, 27.0401, 0.9329, 0, 0, -0.360135) /* Fireworks Generator */
+     , (7923, 2107985994, 3663003648, 64.0682, 82.6704, 20.005, 0.843065, 0, 0, -0.537811) /* Linkable Monster Generator ( 3 Min.) */
      , (929, 2107985975, 3663003648, 83.8248, 108.154, 20.005, -4.37114E-08, 0, 0, -1) /* Shoushi */
      , (849, 2107985976, 3663003648, 54.861, 174.56, 22.608, 0.707107, 0, 0, -0.707107) /* Konaji's Jewels */
      , (852, 2107985977, 3663003648, 87.7608, 147.752, 23.3435, 0.707107, 0, 0, -0.707107) /* Spire of Serenity */
@@ -87,21 +87,21 @@ VALUES (843, 2107985964, 3663003906, 138.36, 178.8, 21.61, -0.685183, 0, 0, -0.7
      , (848, 2107985983, 3663003648, 19.8432, 64.9365, 23.5041, -0.92388, 0, 0, -0.382683) /* Black Swan Inn */
      , (845, 2107985984, 3663003648, 45.5937, 107.977, 21.9125, 1, 0, 0, 0) /* Metalworker */
      , (846, 2107985985, 3663003648, 20.4398, 132.498, 23.143, 1, 0, 0, 0) /* Bowyer Zhofon */
-     , (4772, 2107985986, 3663003648, 115.172, 103.375, 20.005, 0.915539, 0, 0, 0.40223) /* collectorshogen */
+     , (4772, 2107985986, 3663003648, 115.172, 103.375, 20.005, 0.915539, 0, 0, 0.40223) /* Sho Collector Gen */
      , (174, 2107985991, 3663003648, 78.12, 101.52, 20, 1, 0, 0, 0) /* Well */
      , (4136, 2107985988, 3663003648, 138.871, 34.0199, 23.3571, 0.999964, 0, 0, -0.00846103) /* The Gentle Hand */
      , (4135, 2107985989, 3663003648, 41.6209, 40.6596, 21.9665, -0.707107, 0, 0, -0.707107) /* Archmage Chen Wah-Ji */
      , (153, 2107985990, 3663003648, 89.52, 112.68, 20, 1, 0, 0, 0) /* Fountain */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2107985968'; /* linkmonstergen1hour */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2107985994'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2107985968'; /* Linkable Monster Gen (1 hour) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2107985994'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2107985962'; /* linkmonstergen1hour <- Oi-Tong Ye  */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2107986034'; /* linkmonstergen1hour <- Apprentice Alchemist */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986046'; /* linkmonstergen3minutes <- Cooking Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986048'; /* linkmonstergen3minutes <- Fletching Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986047'; /* linkmonstergen3minutes <- Salvaging Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986050'; /* linkmonstergen3minutes <- Lockpick Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986049'; /* linkmonstergen3minutes <- Alchemy Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986043'; /* linkmonstergen3minutes <- Lou Ka */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2107985962'; /* Linkable Monster Gen (1 hour) <- Oi-Tong Ye  */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2107986034'; /* Linkable Monster Gen (1 hour) <- Apprentice Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986046'; /* Linkable Monster Generator ( 3 Min.) <- Cooking Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986048'; /* Linkable Monster Generator ( 3 Min.) <- Fletching Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986047'; /* Linkable Monster Generator ( 3 Min.) <- Salvaging Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986050'; /* Linkable Monster Generator ( 3 Min.) <- Lockpick Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986049'; /* Linkable Monster Generator ( 3 Min.) <- Alchemy Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986043'; /* Linkable Monster Generator ( 3 Min.) <- Lou Ka */
 

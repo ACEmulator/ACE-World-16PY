@@ -17,12 +17,12 @@ VALUES (27855, 1983164416, 1665859841, 34.9033, -39.8194, -47.945, 0.528486, 0, 
      , (7181, 1983164431, 1665859895, 69.3556, -55.9591, -47.9936, 0.964056, 0, 0, 0.2657) /* Desolation Moarsman */
      , (27861, 1983164432, 1665859896, 68.431, -63.1934, -47.9936, -0.670533, 0, 0, -0.74188) /* Squallid Moarsman */
      , (27783, 1983164433, 1665859896, 66.9315, -62.3988, -47.9366, 0.983152, 0, 0, -0.182789) /* Blackened Tome */
-     , (15759, 1983164434, 1665859896, 66.9315, -62.3988, -47.995, 0.983152, 0, 0, -0.182789) /* linkitemgen10seconds */
+     , (15759, 1983164434, 1665859896, 66.9315, -62.3988, -47.995, 0.983152, 0, 0, -0.182789) /* Linkable Item Generator */
      , (27861, 1983164435, 1665859898, 66.34, -73.12, -47.9936, 0.655746, 0, 0, 0.754982) /* Squallid Moarsman */
      , (7181, 1983164436, 1665859904, 20.4449, -58.4988, -41.9936, 0.999984, 0, 0, -0.00571304) /* Desolation Moarsman */
      , (27861, 1983164437, 1665859908, 27.9817, -58.985, -41.945, 0.630204, 0, 0, 0.77643) /* Squallid Moarsman */
      , (27785, 1983164438, 1665859915, 42.3067, -62.2595, -41.07, 0.953633, 0, 0, 0.300971) /* Rotting Tome */
-     , (15759, 1983164439, 1665859915, 42.3067, -62.2595, -41.07, 0.953633, 0, 0, 0.300971) /* linkitemgen10seconds */
+     , (15759, 1983164439, 1665859915, 42.3067, -62.2595, -41.07, 0.953633, 0, 0, 0.300971) /* Linkable Item Generator */
      , (27856, 1983164440, 1665859921, 44.6077, -67.027, -41.945, 0.550413, 0, 0, -0.834892) /* Miry Moarsman */
      , (4248, 1983164441, 1665859926, 51.7826, -64.3783, -41.945, -0.0742427, 0, 0, -0.99724) /* Putrid Moarsman */
      , (27857, 1983164442, 1665859926, 46.9406, -63.6533, -41.994, 0.223777, 0, 0, -0.97464) /* Muck Glutton */
@@ -44,7 +44,7 @@ VALUES (27855, 1983164416, 1665859841, 34.9033, -39.8194, -47.945, 0.528486, 0, 
      , (27862, 1983164458, 1665860036, 59.4752, -64.1711, -35.9936, 0.90478, 0, 0, 0.425879) /* Viscous Moarsman */
      , (27853, 1983164459, 1665860041, 57.6252, -66.4176, -35.9936, 0.970992, 0, 0, -0.239113) /* Disgusting Moarsman */
      , (27789, 1983164460, 1665860059, 67.9796, -68.9058, -35.07, 0.186669, 0, 0, -0.982423) /* Filthy Tome */
-     , (15759, 1983164461, 1665860059, 67.9796, -68.9058, -35.07, 0.145844, 0, 0, -0.989308) /* linkitemgen10seconds */
+     , (15759, 1983164461, 1665860059, 67.9796, -68.9058, -35.07, 0.145844, 0, 0, -0.989308) /* Linkable Item Generator */
      , (27862, 1983164462, 1665860059, 66.2738, -67.425, -35.9936, -0.903829, 0, 0, -0.427894) /* Viscous Moarsman */
      , (4248, 1983164463, 1665860070, 89.1641, -61.343, -35.9933, -0.805639, 0, 0, -0.592406) /* Putrid Moarsman */
      , (27856, 1983164464, 1665860071, 90.3526, -65.4726, -35.945, -0.972737, 0, 0, -0.231912) /* Miry Moarsman */
@@ -55,7 +55,7 @@ VALUES (27855, 1983164416, 1665859841, 34.9033, -39.8194, -47.945, 0.528486, 0, 
      , (27854, 1983164469, 1665860095, 44.2102, -63.8149, -29.9936, 0.545382, 0, 0, -0.838187) /* Fetid Moarsman */
      , (4246, 1983164470, 1665860101, 42.0125, -67.3296, -29.995, 0.224905, 0, 0, -0.974381) /* Rank Moarsman */
      , (27787, 1983164471, 1665860101, 44.1145, -67.842, -29.9366, -0.146838, 0, 0, 0.989161) /* Decaying Tome */
-     , (15759, 1983164472, 1665860101, 44.1145, -67.842, -29.995, -0.146838, 0, 0, 0.989161) /* linkitemgen10seconds */
+     , (15759, 1983164472, 1665860101, 44.1145, -67.842, -29.995, -0.146838, 0, 0, 0.989161) /* Linkable Item Generator */
      , (27854, 1983164473, 1665860106, 54.5415, -62.2137, -29.945, -0.404972, 0, 0, -0.914329) /* Fetid Moarsman */
      , (4246, 1983164474, 1665860116, 50.1489, -68.145, -29.995, 0.0201568, 0, 0, 0.999797) /* Rank Moarsman */
      , (27858, 1983164475, 1665860124, 63.1009, -63.1991, -29.9936, -0.332086, 0, 0, -0.943249) /* Muculent Moarsman */
@@ -71,7 +71,7 @@ VALUES (27855, 1983164416, 1665859841, 34.9033, -39.8194, -47.945, 0.528486, 0, 
      , (27860, 1983164485, 1665860193, 50.8426, -43.4722, -23.9936, -0.937941, 0, 0, 0.346795) /* Sallow Moarsman */
      , (27859, 1983164486, 1665860202, 48.9045, -62.1826, -23.9936, -0.619868, 0, 0, 0.784706) /* Pallid Moarsman */
      , (27791, 1983164487, 1665860207, 52.645, -68.3211, -23.9366, -0.154562, 0, 0, 0.987983) /* Muddy Tome */
-     , (15759, 1983164488, 1665860207, 52.645, -68.3211, -23.995, 0.0198145, 0, 0, 0.999804) /* linkitemgen10seconds */
+     , (15759, 1983164488, 1665860207, 52.645, -68.3211, -23.995, 0.0198145, 0, 0, 0.999804) /* Linkable Item Generator */
      , (27859, 1983164489, 1665860225, 63.5341, -68.267, -23.9936, -0.927204, 0, 0, -0.374556) /* Pallid Moarsman */
      , (27860, 1983164491, 1665860237, 67.6606, -61.9717, -23.9936, 0.616817, 0, 0, 0.787107) /* Sallow Moarsman */
      , (27857, 1983164492, 1665860246, 79.3085, -40.0963, -26.994, -0.584423, 0, 0, -0.811449) /* Muck Glutton */
@@ -179,209 +179,209 @@ VALUES (27855, 1983164416, 1665859841, 34.9033, -39.8194, -47.945, 0.528486, 0, 
      , (27861, 1983164594, 1665860611, 12.735, -89.5839, 0.0064, 0.519615, 0, 0, -0.8544) /* Squallid Moarsman */
      , (7181, 1983164595, 1665860620, 26.2393, -89.9295, 0.0064, 0.240944, 0, 0, -0.970539) /* Desolation Moarsman */
      , (7181, 1983164596, 1665860621, 33.605, -103.902, 0.005, 0.289149, 0, 0, -0.957284) /* Desolation Moarsman */
-     , (7923, 1983164597, 1665860624, 30, -130, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7923, 1983164597, 1665860624, 30, -130, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (27861, 1983164598, 1665860632, 39.7936, -31.8587, 0.105, 0.00879639, 0, 0, 0.999961) /* Squallid Moarsman */
      , (7181, 1983164599, 1665860664, 41.1554, -72.2539, 0.0064, -0.85588, 0, 0, -0.517175) /* Desolation Moarsman */
      , (7181, 1983164600, 1665860664, 39.7177, -67.5236, 0.0064, -0.58692, 0, 0, -0.809645) /* Desolation Moarsman */
      , (4246, 1983164601, 1665860665, 36.364, -77.2694, 0.01, 0.377414, 0, 0, -0.926045) /* Rank Moarsman */
      , (4246, 1983164602, 1665860665, 40.2759, -77.3796, 0.01, 0.095191, 0, 0, -0.995459) /* Rank Moarsman */
      , (7181, 1983164603, 1665860667, 40.9871, -104.716, 0.055, -0.10646, 0, 0, -0.994317) /* Desolation Moarsman */
-     , (7923, 1983164604, 1665860670, 40, -130, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
-     , (7923, 1983164605, 1665860682, 50, -130, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7923, 1983164604, 1665860670, 40, -130, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1983164605, 1665860682, 50, -130, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (27856, 1983164606, 1665860690, 59.8936, -33.9262, 0.038941, 0.00591072, 0, 0, -0.999983) /* Miry Moarsman */
      , (27856, 1983164607, 1665860722, 60, -70, 0.006, 0.714421, 0, 0, -0.699716) /* Miry Moarsman */
      , (8476, 1983164608, 1665860724, 63.0112, -90.7442, 0.005, 0.696084, 0, 0, -0.71796) /* Moarsmen Muck */
      , (4248, 1983164609, 1665860725, 62.4799, -101.406, 0.00672, -0.040917, 0, 0, -0.999163) /* Putrid Moarsman */
-     , (7923, 1983164610, 1665860728, 60, -130, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7923, 1983164610, 1665860728, 60, -130, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (4248, 1983164611, 1665860737, 68.8824, -107.781, 0.00672, -0.557133, 0, 0, -0.830423) /* Putrid Moarsman */
-     , (7923, 1983164612, 1665860739, 70, -130, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7923, 1983164612, 1665860739, 70, -130, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (4248, 1983164613, 1665860743, 82.3755, -79.8563, 0.00672, -0.23132, 0, 0, -0.972878) /* Putrid Moarsman */
      , (27856, 1983164614, 1665860744, 82.8822, -88.2549, 0.005, -0.453963, 0, 0, -0.891021) /* Miry Moarsman */
      , (27856, 1983164615, 1665860747, 88.4798, -75.301, 0.005, -0.222997, 0, 0, -0.974819) /* Miry Moarsman */
      , (27857, 1983164616, 1665860749, 101.918, -71.3676, 0.006, -0.501116, 0, 0, -0.86538) /* Muck Glutton */
      , (8600, 1983164617, 1665860749, 101.174, -67.4698, 0.005, 0.28352, 0, 0, 0.958966) /* Moars Laboratory */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1983164488'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1983164612'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1983164605'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1983164472'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1983164461'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1983164597'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1983164439'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1983164610'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1983164434'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1983164604'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1983164488'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1983164612'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1983164605'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1983164472'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1983164461'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1983164597'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1983164439'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1983164610'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1983164434'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1983164604'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983164487'; /* linkitemgen10seconds <- Muddy Tome */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164588'; /* linkmonstergen3minutes <- Sallow Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164587'; /* linkmonstergen3minutes <- Sallow Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164590'; /* linkmonstergen3minutes <- Sallow Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164589'; /* linkmonstergen3minutes <- Pallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164579'; /* linkmonstergen3minutes <- Pallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164530'; /* linkmonstergen3minutes <- Ashen Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164496'; /* linkmonstergen3minutes <- Pallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164484'; /* linkmonstergen3minutes <- Sallow Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164485'; /* linkmonstergen3minutes <- Sallow Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164574'; /* linkmonstergen3minutes <- Ashen Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164571'; /* linkmonstergen3minutes <- Pallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164531'; /* linkmonstergen3minutes <- Pallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164529'; /* linkmonstergen3minutes <- Sallow Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164491'; /* linkmonstergen3minutes <- Sallow Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164489'; /* linkmonstergen3minutes <- Pallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164486'; /* linkmonstergen3minutes <- Pallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164483'; /* linkmonstergen3minutes <- Ashen Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164548'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164533'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164546'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164532'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164601'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164602'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164534'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164539'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164536'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164497'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164504'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164505'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164547'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164537'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164535'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164538'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164480'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164481'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164479'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164478'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164506'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164507'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164502'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164503'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164475'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164476'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164474'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164470'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164469'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164473'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164477'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983164471'; /* linkitemgen10seconds <- Decaying Tome */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983164460'; /* linkitemgen10seconds <- Filthy Tome */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164456'; /* linkmonstergen3minutes <- Viscous Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164458'; /* linkmonstergen3minutes <- Viscous Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164455'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164457'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164459'; /* linkmonstergen3minutes <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164453'; /* linkmonstergen3minutes <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164462'; /* linkmonstergen3minutes <- Viscous Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164554'; /* linkmonstergen3minutes <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164555'; /* linkmonstergen3minutes <- Viscous Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164553'; /* linkmonstergen3minutes <- Viscous Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164570'; /* linkmonstergen3minutes <- Viscous Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164567'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164568'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164562'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164563'; /* linkmonstergen3minutes <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164528'; /* linkmonstergen3minutes <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164518'; /* linkmonstergen3minutes <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164525'; /* linkmonstergen3minutes <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164515'; /* linkmonstergen3minutes <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164569'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164573'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164576'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164575'; /* linkmonstergen3minutes <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164527'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164523'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164521'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164519'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164524'; /* linkmonstergen3minutes <- Viscous Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164526'; /* linkmonstergen3minutes <- Viscous Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164516'; /* linkmonstergen3minutes <- Viscous Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164517'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164467'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164451'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164452'; /* linkmonstergen3minutes <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164454'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164520'; /* linkmonstergen3minutes <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164522'; /* linkmonstergen3minutes <- Viscous Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164495'; /* linkmonstergen3minutes <- Viscous Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164468'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1983164438'; /* linkitemgen10seconds <- Rotting Tome */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164611'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164609'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164613'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164606'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164578'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164581'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164583'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164614'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164615'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164616'; /* linkmonstergen3minutes <- Muck Glutton */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164607'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164545'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164543'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164540'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164498'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164586'; /* linkmonstergen3minutes <- Muck Glutton */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164585'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164550'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164549'; /* linkmonstergen3minutes <- Muck Glutton */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164492'; /* linkmonstergen3minutes <- Muck Glutton */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164464'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164463'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164450'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164501'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164499'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164500'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164449'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164441'; /* linkmonstergen3minutes <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164442'; /* linkmonstergen3minutes <- Muck Glutton */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164443'; /* linkmonstergen3minutes <- Muck Glutton */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164447'; /* linkmonstergen3minutes <- Muck Glutton */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164446'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164440'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164444'; /* linkmonstergen3minutes <- Miry Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164448'; /* linkmonstergen3minutes <- Muck Glutton */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164445'; /* linkmonstergen3minutes <- Muck Glutton */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1983164433'; /* linkitemgen10seconds <- Blackened Tome */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164603'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164593'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164591'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164599'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164600'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164596'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164595'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164594'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164557'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164561'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164552'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164508'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164598'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164564'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164566'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164558'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164494'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164482'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164465'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164466'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164513'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164511'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164510'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164493'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164416'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164420'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164431'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164417'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164436'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164437'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164432'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164419'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164418'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164422'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164424'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164430'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164435'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164426'; /* linkmonstergen3minutes <- Squallid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164421'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164425'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164428'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164429'; /* linkmonstergen3minutes <- Filth Dweller */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164423'; /* linkmonstergen3minutes <- Desolation Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164427'; /* linkmonstergen3minutes <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983164487'; /* Linkable Item Generator <- Muddy Tome */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164588'; /* Linkable Monster Generator ( 3 Min.) <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164587'; /* Linkable Monster Generator ( 3 Min.) <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164590'; /* Linkable Monster Generator ( 3 Min.) <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164589'; /* Linkable Monster Generator ( 3 Min.) <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164579'; /* Linkable Monster Generator ( 3 Min.) <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164530'; /* Linkable Monster Generator ( 3 Min.) <- Ashen Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164496'; /* Linkable Monster Generator ( 3 Min.) <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164484'; /* Linkable Monster Generator ( 3 Min.) <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164485'; /* Linkable Monster Generator ( 3 Min.) <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164574'; /* Linkable Monster Generator ( 3 Min.) <- Ashen Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164571'; /* Linkable Monster Generator ( 3 Min.) <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164531'; /* Linkable Monster Generator ( 3 Min.) <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164529'; /* Linkable Monster Generator ( 3 Min.) <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164491'; /* Linkable Monster Generator ( 3 Min.) <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164489'; /* Linkable Monster Generator ( 3 Min.) <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164486'; /* Linkable Monster Generator ( 3 Min.) <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983164483'; /* Linkable Monster Generator ( 3 Min.) <- Ashen Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164548'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164533'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164546'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164532'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164601'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164602'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164534'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164539'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164536'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164497'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164504'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164505'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164547'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164537'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164535'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164538'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164480'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164481'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164479'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164478'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164506'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164507'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164502'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164503'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164475'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164476'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164474'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164470'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164469'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164473'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983164477'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983164471'; /* Linkable Item Generator <- Decaying Tome */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983164460'; /* Linkable Item Generator <- Filthy Tome */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164456'; /* Linkable Monster Generator ( 3 Min.) <- Viscous Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164458'; /* Linkable Monster Generator ( 3 Min.) <- Viscous Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164455'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164457'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164459'; /* Linkable Monster Generator ( 3 Min.) <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164453'; /* Linkable Monster Generator ( 3 Min.) <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164462'; /* Linkable Monster Generator ( 3 Min.) <- Viscous Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164554'; /* Linkable Monster Generator ( 3 Min.) <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164555'; /* Linkable Monster Generator ( 3 Min.) <- Viscous Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164553'; /* Linkable Monster Generator ( 3 Min.) <- Viscous Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164570'; /* Linkable Monster Generator ( 3 Min.) <- Viscous Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164567'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164568'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164562'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164563'; /* Linkable Monster Generator ( 3 Min.) <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164528'; /* Linkable Monster Generator ( 3 Min.) <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164518'; /* Linkable Monster Generator ( 3 Min.) <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164525'; /* Linkable Monster Generator ( 3 Min.) <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164515'; /* Linkable Monster Generator ( 3 Min.) <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164569'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164573'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164576'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164575'; /* Linkable Monster Generator ( 3 Min.) <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164527'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164523'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164521'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164519'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164524'; /* Linkable Monster Generator ( 3 Min.) <- Viscous Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164526'; /* Linkable Monster Generator ( 3 Min.) <- Viscous Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164516'; /* Linkable Monster Generator ( 3 Min.) <- Viscous Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164517'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164467'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164451'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164452'; /* Linkable Monster Generator ( 3 Min.) <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164454'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164520'; /* Linkable Monster Generator ( 3 Min.) <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164522'; /* Linkable Monster Generator ( 3 Min.) <- Viscous Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164495'; /* Linkable Monster Generator ( 3 Min.) <- Viscous Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983164468'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1983164438'; /* Linkable Item Generator <- Rotting Tome */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164611'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164609'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164613'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164606'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164578'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164581'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164583'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164614'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164615'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164616'; /* Linkable Monster Generator ( 3 Min.) <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164607'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164545'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164543'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164540'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164498'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164586'; /* Linkable Monster Generator ( 3 Min.) <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164585'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164550'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164549'; /* Linkable Monster Generator ( 3 Min.) <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164492'; /* Linkable Monster Generator ( 3 Min.) <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164464'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164463'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164450'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164501'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164499'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164500'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164449'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164441'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164442'; /* Linkable Monster Generator ( 3 Min.) <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164443'; /* Linkable Monster Generator ( 3 Min.) <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164447'; /* Linkable Monster Generator ( 3 Min.) <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164446'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164440'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164444'; /* Linkable Monster Generator ( 3 Min.) <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164448'; /* Linkable Monster Generator ( 3 Min.) <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983164445'; /* Linkable Monster Generator ( 3 Min.) <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1983164433'; /* Linkable Item Generator <- Blackened Tome */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164603'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164593'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164591'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164599'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164600'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164596'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164595'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164594'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164557'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164561'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164552'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164508'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164598'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164564'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164566'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164558'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164494'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164482'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164465'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164466'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164513'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164511'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164510'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164493'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164416'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164420'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164431'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164417'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164436'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164437'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164432'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164419'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164418'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164422'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164424'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164430'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164435'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164426'; /* Linkable Monster Generator ( 3 Min.) <- Squallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164421'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164425'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164428'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164429'; /* Linkable Monster Generator ( 3 Min.) <- Filth Dweller */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164423'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983164427'; /* Linkable Monster Generator ( 3 Min.) <- Desolation Moarsman */
 

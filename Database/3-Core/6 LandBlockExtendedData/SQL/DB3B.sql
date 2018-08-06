@@ -2,7 +2,7 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (4543, 2108928012, 3678077184, 182.922, 126.976, 20.005, 0.986327, 0, 0, 0.164802) /* Healer Kai Kou */
      , (4539, 2108928009, 3678077197, 62.1744, 85.0938, 28.005, 0.570074, 0, 0, 0.821593) /* Archmage Ta Ban-Yu */
      , (28184, 2108928031, 3678077197, 55.4016, 82.3784, 28.005, 0.874849, 0, 0, -0.484396) /* Apprentice Alchemist */
-     , (7923, 2108928017, 3678077211, 17.5146, 110.961, 2.005, 0.958376, 0, 0, -0.285508) /* linkmonstergen3minutes */
+     , (7923, 2108928017, 3678077211, 17.5146, 110.961, 2.005, 0.958376, 0, 0, -0.285508) /* Linkable Monster Generator ( 3 Min.) */
      , (12050, 2108928016, 3678077211, 17.9629, 111.971, 2.005, -0.0686866, 0, 0, -0.997638) /* Agent of the Arcanum */
      , (20226, 2108928030, 3678077222, 175.755, 152.582, 28.405, 0.931443, 0, 0, -0.363887) /* Scrivener of War Magic */
      , (20214, 2108928029, 3678077222, 184.674, 161.585, 28.405, -0.4099, 0, 0, -0.912131) /* Scrivener of Item Magic */
@@ -32,8 +32,8 @@ VALUES (4543, 2108928012, 3678077184, 182.922, 126.976, 20.005, 0.986327, 0, 0, 
      , (4568, 2108928014, 3678076928, 157.019, 181.322, 20.403, -0.062832, 0, 0, 0.998024) /* Portal to Tou-Tou */
      , (4501, 2108928013, 3678076928, 180.664, 138.736, 21.9042, -0.707107, 0, 0, -0.707107) /* The Tree of Healing */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2108928017'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2108928017'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108928016'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108928031'; /* linkmonstergen3minutes <- Apprentice Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108928016'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108928031'; /* Linkable Monster Generator ( 3 Min.) <- Apprentice Alchemist */
 

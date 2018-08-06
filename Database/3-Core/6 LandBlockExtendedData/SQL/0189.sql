@@ -10,7 +10,7 @@ VALUES (1764, 1880658115, 25755904, 81.466, -59.319, -47.9945, 0.92388, 0, 0, -0
      , (5625, 1880657928, 25755912, 90, -44.75, -48, -4.37114E-08, 0, 0, -1) /* Door */
      , (5624, 1880657929, 25755919, 104.75, -10, -48, -0.707107, 0, 0, 0.707107) /* Door */
      , (2131, 1880657932, 25755924, 100, -40, -48, 1, 0, 0, 0) /* Pressure Plate */
-     , (4142, 1880658119, 25755924, 96.2206, -38.7318, -47.995, 0.640997, 0, 0, 0.767543) /* linkitemgen2minutes */
+     , (4142, 1880658119, 25755924, 96.2206, -38.7318, -47.995, 0.640997, 0, 0, 0.767543) /* Linkable Item Generator */
      , (3070, 1880658120, 25755924, 100, -40, -47.7959, 1, 0, 0, 0) /* Scroll of Piercing Protection Self IV */
      , (4063, 1880657934, 25755925, 103.348, -47.425, -46.9729, -0.707107, 0, 0, -0.707107) /* Acid Trap */
      , (1761, 1880658121, 25755934, 108.462, -18.5555, -47.9975, 0.30528, 0, 0, -0.952263) /* Skeleton Captain */
@@ -55,7 +55,7 @@ VALUES (1764, 1880658115, 25755904, 81.466, -59.319, -47.9945, 0.92388, 0, 0, -0
      , (204, 1880657982, 25755988, 142.135, -59.298, -47.9925, -4.37114E-08, 0, 0, -1) /* Lich */
      , (1630, 1880657983, 25755988, 137.561, -59.73, -47.9925, -4.37114E-08, 0, 0, -1) /* Lich Lord */
      , (4123, 1880657984, 25755988, 140.003, -57.9032, -47.9925, -4.37114E-08, 0, 0, -1) /* Tortured Soul */
-     , (3955, 1880657985, 25755988, 140, -60, -48, -4.37114E-08, 0, 0, -1) /* linkmonstergen15minutes */
+     , (3955, 1880657985, 25755988, 140, -60, -48, -4.37114E-08, 0, 0, -1) /* Linkable Monster Gen (15 min.) */
      , (2180, 1880657986, 25755990, 140.003, -64.8034, -48, -4.37114E-08, 0, 0, -1) /* Door */
      , (286, 1880657988, 25755996, 150.046, -61.776, -46.657, 1, 0, 0, -4.37114E-08) /* Lever */
      , (1761, 1880658164, 25755996, 150.149, -64.3144, -47.9975, 0.045144, 0, 0, -0.99898) /* Skeleton Captain */
@@ -170,11 +170,11 @@ VALUES (1764, 1880658115, 25755904, 81.466, -59.319, -47.9945, 0.92388, 0, 0, -0
      , (4066, 1880658108, 25756424, 140.261, -69.8894, 1.38825, 1, 0, 0, 0) /* Flame Trap */
      , (298, 1880658109, 25756425, 138.954, -65.6824, 0, 1, 0, 0, 0) /* Pressure Plate */
      , (4205, 1880658110, 25756442, 119.54, -83.5987, 6, 1, 0, 0, 0) /* Surface Portal */
-     , (7923, 1880658114, 25756449, 135.974, -67.7962, 6.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
-     , (4219, 1880658161, 25756449, 136.029, -65.4244, 6, 0.707107, 0, 0, -0.707107) /* linkmonstergen7minutes */
-     , (4219, 1880658162, 25756449, 135.92, -66.1819, 6, 0.707107, 0, 0, -0.707107) /* linkmonstergen7minutes */
-     , (4219, 1880658163, 25756449, 135.966, -67.0139, 6.005, 0.678529, 0, 0, -0.734573) /* linkmonstergen7minutes */
-     , (4219, 1880658174, 25756449, 136.021, -68.6356, 6.005, 0.678529, 0, 0, -0.734573) /* linkmonstergen7minutes */;
+     , (7923, 1880658114, 25756449, 135.974, -67.7962, 6.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (4219, 1880658161, 25756449, 136.029, -65.4244, 6, 0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1880658162, 25756449, 135.92, -66.1819, 6, 0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1880658163, 25756449, 135.966, -67.0139, 6.005, 0.678529, 0, 0, -0.734573) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1880658174, 25756449, 136.021, -68.6356, 6.005, 0.678529, 0, 0, -0.734573) /* Linkable Monster Generator ( 7 Min.) */;
 
 UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880657965'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880657958'; /* Door */
@@ -199,12 +199,12 @@ UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1880657923'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1880658075'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1880658031'; /* Flame Trap */
-UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1880658114'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='25', `link_Controller`=True WHERE `guid`='1880658119'; /* linkitemgen2minutes */
-UPDATE `landblock_instances` SET `link_Slot`='26', `link_Controller`=True WHERE `guid`='1880658161'; /* linkmonstergen7minutes */
-UPDATE `landblock_instances` SET `link_Slot`='27', `link_Controller`=True WHERE `guid`='1880658163'; /* linkmonstergen7minutes */
-UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE `guid`='1880658162'; /* linkmonstergen7minutes */
-UPDATE `landblock_instances` SET `link_Slot`='29', `link_Controller`=True WHERE `guid`='1880658174'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1880658114'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='25', `link_Controller`=True WHERE `guid`='1880658119'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='26', `link_Controller`=True WHERE `guid`='1880658161'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='27', `link_Controller`=True WHERE `guid`='1880658163'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE `guid`='1880658162'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='29', `link_Controller`=True WHERE `guid`='1880658174'; /* Linkable Monster Generator ( 7 Min.) */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880658021'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880657963'; /* Door <- Lever */
@@ -238,70 +238,70 @@ UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1880658093'; /* 
 UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1880657922'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1880658076'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1880658030'; /* Flame Trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1880657984'; /* linkmonstergen3minutes <- Tortured Soul */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1880657964'; /* linkmonstergen3minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1880658120'; /* linkitemgen2minutes <- Scroll of Piercing Protection Self IV */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658123'; /* linkmonstergen7minutes <- Banderling Chief */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658039'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658129'; /* linkmonstergen7minutes <- Banderling Chief */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658135'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658134'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658137'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658136'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658130'; /* linkmonstergen7minutes <- Banderling Chief */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658125'; /* linkmonstergen7minutes <- Banderling Chief */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658133'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658124'; /* linkmonstergen7minutes <- Banderling Chief */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658121'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658144'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658141'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658122'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658143'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658138'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658140'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658139'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658155'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658154'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658157'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658156'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658149'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658142'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658158'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658150'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658127'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658115'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658128'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658153'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658152'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658160'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658159'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658145'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658146'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658148'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658147'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658117'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658116'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658151'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658010'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658118'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658131'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658126'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658132'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658050'; /* linkmonstergen7minutes <- Greater Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880657982'; /* linkmonstergen7minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880657983'; /* linkmonstergen7minutes <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658064'; /* linkmonstergen7minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658065'; /* linkmonstergen7minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658020'; /* linkmonstergen7minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658037'; /* linkmonstergen7minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658170'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658167'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658166'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658165'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658164'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658171'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658173'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658169'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658172'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658168'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1880657984'; /* Linkable Monster Generator ( 3 Min.) <- Tortured Soul */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1880657964'; /* Linkable Monster Generator ( 3 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1880658120'; /* Linkable Item Generator <- Scroll of Piercing Protection Self IV */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658123'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658039'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658129'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658135'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658134'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658137'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658136'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658130'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658125'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658133'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658124'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658121'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658144'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658141'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658122'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658143'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658138'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658140'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880658139'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658155'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658154'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658157'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658156'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658149'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658142'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658158'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658150'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658127'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658115'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658128'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658153'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658152'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658160'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658159'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658145'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880658146'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658148'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658147'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658117'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658116'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658151'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658010'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658118'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658131'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658126'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658132'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658050'; /* Linkable Monster Generator ( 7 Min.) <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880657982'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880657983'; /* Linkable Monster Generator ( 7 Min.) <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658064'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658065'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658020'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880658037'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658170'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658167'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658166'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658165'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658164'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658171'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658173'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658169'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658172'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880658168'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Captain */
 

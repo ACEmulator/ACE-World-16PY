@@ -85,7 +85,7 @@ VALUES (7296, 1882148864, 49611008, 60, -70, -65.995, 1, 0, 0, -4.37114E-08) /* 
      , (204, 1882148947, 49611400, 99.3351, -263.36, 0.055, 0.112991, 0, 0, 0.993596) /* Lich */
      , (204, 1882148948, 49611400, 100.772, -265.003, 0.0075, -0.028677, 0, 0, 0.999589) /* Lich */
      , (204, 1882148949, 49611402, 99.79, -283.235, 0.0075, 0.081543, 0, 0, -0.99667) /* Lich */
-     , (7923, 1882148950, 49611414, 102.011, -319.496, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7923, 1882148950, 49611414, 102.011, -319.496, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (204, 1882148951, 49611434, 109.473, -290.169, 0.0075, 0.109366, 0, 0, 0.994002) /* Lich */
      , (204, 1882148952, 49611434, 109.951, -288.023, 0.0075, 0.109366, 0, 0, 0.994002) /* Lich */
      , (7296, 1882148953, 49611443, 110, -340, 0.005, 0.707107, 0, 0, -0.707107) /* Surface Portal */
@@ -99,7 +99,7 @@ VALUES (7296, 1882148864, 49611008, 60, -70, -65.995, 1, 0, 0, -4.37114E-08) /* 
      , (195, 1882148961, 49611480, 168.999, -330.475, 0.011, -0.654877, 0, 0, -0.755736) /* Granite Golem */
      , (195, 1882148962, 49611481, 170, -340, 0.011, 0.939373, 0, 0, 0.342898) /* Granite Golem */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882148950'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882148950'; /* Linkable Monster Generator ( 3 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882148881'; /* Acid Trap */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1882148882'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1882148886'; /* Acid Trap */
@@ -110,79 +110,79 @@ UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `
 UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1882148898'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1882148906'; /* Shockwave Trap */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148954'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148955'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148956'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148957'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148960'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148961'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148958'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148959'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148962'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148941'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148942'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148938'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148939'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148940'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148931'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148930'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148929'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148923'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148924'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148926'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148932'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148937'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148936'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148933'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148934'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148935'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148943'; /* linkmonstergen3minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148944'; /* linkmonstergen3minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148945'; /* linkmonstergen3minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148952'; /* linkmonstergen3minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148951'; /* linkmonstergen3minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148949'; /* linkmonstergen3minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148948'; /* linkmonstergen3minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148947'; /* linkmonstergen3minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148946'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148918'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148919'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148917'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148916'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148921'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148915'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148914'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148912'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148908'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148913'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148911'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148909'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148910'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148904'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148903'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148868'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148869'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148870'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148872'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148865'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148871'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148893'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148895'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148894'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148889'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148890'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148900'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148866'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148867'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148928'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148927'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148879'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148880'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148874'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148873'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148875'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148877'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148876'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148954'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148955'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148956'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148957'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148960'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148961'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148958'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148959'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148962'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148941'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148942'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148938'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148939'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148940'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148931'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148930'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148929'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148923'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148924'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148926'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148932'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148937'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148936'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148933'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148934'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148935'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148943'; /* Linkable Monster Generator ( 3 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148944'; /* Linkable Monster Generator ( 3 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148945'; /* Linkable Monster Generator ( 3 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148952'; /* Linkable Monster Generator ( 3 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148951'; /* Linkable Monster Generator ( 3 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148949'; /* Linkable Monster Generator ( 3 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148948'; /* Linkable Monster Generator ( 3 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148947'; /* Linkable Monster Generator ( 3 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148946'; /* Linkable Monster Generator ( 3 Min.) <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148918'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148919'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148917'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148916'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148921'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148915'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148914'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148912'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148908'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148913'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148911'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148909'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148910'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148904'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148903'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148868'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148869'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148870'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148872'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148865'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148871'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148893'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148895'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148894'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148889'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148890'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148900'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148866'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148867'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148928'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148927'; /* Linkable Monster Generator ( 3 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148879'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148880'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148874'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148873'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148875'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148877'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882148876'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882148884'; /* Acid Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882148883'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1882148885'; /* Acid Trap <- Pressure Plate */

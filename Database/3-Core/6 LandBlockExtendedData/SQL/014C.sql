@@ -12,7 +12,7 @@ VALUES (1905, 1880408064, 21758208, 63.0237, -140, -12, 0.707107, 0, 0, -0.70710
      , (222, 1880408074, 21758210, 68.8378, -130.245, -11.9986, 0.827999, 0, 0, -0.560729) /* Veteran Reedshark */
      , (222, 1880408075, 21758210, 72.3112, -131.507, -11.9986, -0.74939, 0, 0, -0.662129) /* Veteran Reedshark */
      , (1626, 1880408076, 21758210, 68.2581, -128.215, -11.988, 0.236096, 0, 0, -0.97173) /* Silver Rat */
-     , (5485, 1880408077, 21758210, 70.6444, -126.38, -11.995, 0.701623, 0, 0, -0.712549) /* linknewbiemonstergen */
+     , (5485, 1880408077, 21758210, 70.6444, -126.38, -11.995, 0.701623, 0, 0, -0.712549) /* Linkable Newbie Monster Generator */
      , (5619, 1880408078, 21758210, 73.1165, -126.943, -11.995, 0.999485, 0, 0, 0.032095) /* Hot Air */
      , (5619, 1880408079, 21758210, 67.1473, -127.072, -11.995, 0.999485, 0, 0, 0.032095) /* Hot Air */
      , (5619, 1880408080, 21758210, 66.9333, -132.501, -11.995, 0.999485, 0, 0, 0.032095) /* Hot Air */
@@ -35,8 +35,8 @@ VALUES (1905, 1880408064, 21758208, 63.0237, -140, -12, 0.707107, 0, 0, -0.70710
      , (223, 1880408097, 21758267, 148.298, -103.958, 0.001, 0.237897, 0, 0, -0.97129) /* Reedshark Pup */
      , (223, 1880408098, 21758268, 149.005, -108.49, 0.001, 0.237898, 0, 0, -0.97129) /* Reedshark Pup */
      , (223, 1880408099, 21758282, 159.692, -119.539, 0.001, 0.134743, 0, 0, -0.990881) /* Reedshark Pup */
-     , (3955, 1880408100, 21758287, 160, -170, 0, 1, 0, 0, 0) /* linkmonstergen15minutes */
-     , (7923, 1880408101, 21758287, 161.324, -170, 0, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (3955, 1880408100, 21758287, 160, -170, 0, 1, 0, 0, 0) /* Linkable Monster Gen (15 min.) */
+     , (7923, 1880408101, 21758287, 161.324, -170, 0, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (1302, 1880408102, 21758289, 155.25, -170, 0, -0.707107, 0, 0, -0.707107) /* Door */
      , (2609, 1880408103, 21758300, 36.3314, -90.0429, 6, 1, 0, 0, 0) /* Lever */
      , (18, 1880408104, 21758312, 90.7396, -104.909, 6.051, 1, 0, 0, -4.37114E-08) /* Reedshark Elder */
@@ -91,57 +91,57 @@ VALUES (1905, 1880408064, 21758208, 63.0237, -140, -12, 0.707107, 0, 0, -0.70710
      , (221, 1880408153, 21758558, 110.779, -130.124, 18.0014, -0.718733, 0, 0, -0.695286) /* Adult Reedshark */
      , (221, 1880408154, 21758561, 116.309, -130.278, 18.0014, -0.80184, 0, 0, -0.597539) /* Adult Reedshark */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880408101'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880408100'; /* linkmonstergen15minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880408077'; /* linknewbiemonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880408101'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880408100'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880408077'; /* Linkable Newbie Monster Generator */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880408141'; /* Door */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408099'; /* linkmonstergen3minutes <- Reedshark Pup */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408098'; /* linkmonstergen3minutes <- Reedshark Pup */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408097'; /* linkmonstergen3minutes <- Reedshark Pup */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408106'; /* linkmonstergen3minutes <- Reedshark Pup */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408123'; /* linkmonstergen3minutes <- Reedshark Pup */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408120'; /* linkmonstergen3minutes <- Reedshark Pup */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408125'; /* linkmonstergen3minutes <- Reedshark Pup */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408124'; /* linkmonstergen3minutes <- Reedshark Pup */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408143'; /* linkmonstergen3minutes <- Reedshark Elder */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408144'; /* linkmonstergen3minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408154'; /* linkmonstergen3minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408094'; /* linkmonstergen15minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408095'; /* linkmonstergen15minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408092'; /* linkmonstergen15minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408093'; /* linkmonstergen15minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408091'; /* linkmonstergen15minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408104'; /* linkmonstergen15minutes <- Reedshark Elder */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408132'; /* linkmonstergen15minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408133'; /* linkmonstergen15minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408130'; /* linkmonstergen15minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408129'; /* linkmonstergen15minutes <- Veteran Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408113'; /* linkmonstergen15minutes <- Reedshark Elder */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408110'; /* linkmonstergen15minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408145'; /* linkmonstergen15minutes <- Reedshark Elder */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408146'; /* linkmonstergen15minutes <- Reedshark Elder */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408153'; /* linkmonstergen15minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408137'; /* linkmonstergen15minutes <- Reedshark Elder */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408138'; /* linkmonstergen15minutes <- Veteran Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408150'; /* linkmonstergen15minutes <- Veteran Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408151'; /* linkmonstergen15minutes <- Veteran Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408152'; /* linkmonstergen15minutes <- Veteran Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408148'; /* linkmonstergen15minutes <- Veteran Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408149'; /* linkmonstergen15minutes <- Veteran Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408147'; /* linkmonstergen15minutes <- Veteran Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408127'; /* linkmonstergen15minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408135'; /* linkmonstergen15minutes <- Veteran Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408136'; /* linkmonstergen15minutes <- Adult Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408085'; /* linknewbiemonstergen <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408083'; /* linknewbiemonstergen <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408084'; /* linknewbiemonstergen <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408075'; /* linknewbiemonstergen <- Veteran Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408074'; /* linknewbiemonstergen <- Veteran Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408076'; /* linknewbiemonstergen <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408066'; /* linknewbiemonstergen <- Reedshark Elder */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408065'; /* linknewbiemonstergen <- Veteran Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408073'; /* linknewbiemonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408099'; /* Linkable Monster Generator ( 3 Min.) <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408098'; /* Linkable Monster Generator ( 3 Min.) <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408097'; /* Linkable Monster Generator ( 3 Min.) <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408106'; /* Linkable Monster Generator ( 3 Min.) <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408123'; /* Linkable Monster Generator ( 3 Min.) <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408120'; /* Linkable Monster Generator ( 3 Min.) <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408125'; /* Linkable Monster Generator ( 3 Min.) <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408124'; /* Linkable Monster Generator ( 3 Min.) <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408143'; /* Linkable Monster Generator ( 3 Min.) <- Reedshark Elder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408144'; /* Linkable Monster Generator ( 3 Min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880408154'; /* Linkable Monster Generator ( 3 Min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408094'; /* Linkable Monster Gen (15 min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408095'; /* Linkable Monster Gen (15 min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408092'; /* Linkable Monster Gen (15 min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408093'; /* Linkable Monster Gen (15 min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408091'; /* Linkable Monster Gen (15 min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408104'; /* Linkable Monster Gen (15 min.) <- Reedshark Elder */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408132'; /* Linkable Monster Gen (15 min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408133'; /* Linkable Monster Gen (15 min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408130'; /* Linkable Monster Gen (15 min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408129'; /* Linkable Monster Gen (15 min.) <- Veteran Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408113'; /* Linkable Monster Gen (15 min.) <- Reedshark Elder */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408110'; /* Linkable Monster Gen (15 min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408145'; /* Linkable Monster Gen (15 min.) <- Reedshark Elder */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408146'; /* Linkable Monster Gen (15 min.) <- Reedshark Elder */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408153'; /* Linkable Monster Gen (15 min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408137'; /* Linkable Monster Gen (15 min.) <- Reedshark Elder */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408138'; /* Linkable Monster Gen (15 min.) <- Veteran Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408150'; /* Linkable Monster Gen (15 min.) <- Veteran Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408151'; /* Linkable Monster Gen (15 min.) <- Veteran Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408152'; /* Linkable Monster Gen (15 min.) <- Veteran Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408148'; /* Linkable Monster Gen (15 min.) <- Veteran Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408149'; /* Linkable Monster Gen (15 min.) <- Veteran Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408147'; /* Linkable Monster Gen (15 min.) <- Veteran Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408127'; /* Linkable Monster Gen (15 min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408135'; /* Linkable Monster Gen (15 min.) <- Veteran Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880408136'; /* Linkable Monster Gen (15 min.) <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408085'; /* Linkable Newbie Monster Generator <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408083'; /* Linkable Newbie Monster Generator <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408084'; /* Linkable Newbie Monster Generator <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408075'; /* Linkable Newbie Monster Generator <- Veteran Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408074'; /* Linkable Newbie Monster Generator <- Veteran Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408076'; /* Linkable Newbie Monster Generator <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408066'; /* Linkable Newbie Monster Generator <- Reedshark Elder */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408065'; /* Linkable Newbie Monster Generator <- Veteran Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880408073'; /* Linkable Newbie Monster Generator <- Swamp Rat */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880408109'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880408103'; /* Door <- Lever */
 

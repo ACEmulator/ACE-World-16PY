@@ -16,7 +16,7 @@ VALUES (11480, 1881686016, 42205440, 240.973, -143.718, -23.995, 0.674841, 0, 0,
      , (11480, 1881686028, 42205489, 159.656, -129.502, -17.995, -0.739283, 0, 0, -0.673395) /* Olthoi Harvester */
      , (5627, 1881686029, 42205500, 160.065, -155.4, -17.995, -4.37114E-08, 0, 0, -1) /* Door */
      , (11480, 1881686030, 42205500, 160.054, -157.072, -17.995, 0.999687, 0, 0, 0.024997) /* Olthoi Harvester */
-     , (4219, 1881686031, 42205500, 158.815, -157.048, -17.995, -0.999965, 0, 0, 0.00840804) /* linkmonstergen7minutes */
+     , (4219, 1881686031, 42205500, 158.815, -157.048, -17.995, -0.999965, 0, 0, 0.00840804) /* Linkable Monster Generator ( 7 Min.) */
      , (11480, 1881686032, 42205504, 171.377, -140.705, -17.995, -0.992516, 0, 0, -0.122118) /* Olthoi Harvester */
      , (5627, 1881686033, 42205513, 184.014, -129.994, -17.995, -0.707107, 0, 0, -0.707107) /* Door */
      , (11480, 1881686034, 42205517, 192.896, -118.744, -17.1378, -0.323361, 0, 0, -0.946276) /* Olthoi Harvester */
@@ -53,48 +53,48 @@ VALUES (11480, 1881686016, 42205440, 240.973, -143.718, -23.995, 0.674841, 0, 0,
      , (10852, 1881686065, 42205707, 1.92769, -18.5332, 0.005, -0.608528, 0, 0, -0.793533) /* Surface Exit */
      , (5625, 1881686066, 42205709, 4.74832, -20.0148, 0.005, -0.707107, 0, 0, -0.707107) /* Door */
      , (5625, 1881686067, 42205715, 19.9666, -4.66261, 0.005, 1, 0, 0, -4.37114E-08) /* Door */
-     , (7924, 1881686068, 42205717, 19.6033, -18.6585, 0.005, -0.65779, 0, 0, -0.753201) /* linkmonstergen5minutes */
-     , (7932, 1881686070, 42205717, 21.2405, -17.977, 0.005, 0.057536, 0, 0, -0.998343) /* linkmonstergen4minutes */
+     , (7924, 1881686068, 42205717, 19.6033, -18.6585, 0.005, -0.65779, 0, 0, -0.753201) /* Linkable Monster Generator ( 5 Min.) */
+     , (7932, 1881686070, 42205717, 21.2405, -17.977, 0.005, 0.057536, 0, 0, -0.998343) /* Linkable Monster Generator ( 4 Min.) */
      , (5624, 1881686071, 42205719, 20.0221, -35.2487, 0.005, 0, 0, 0, -1) /* Door */
      , (11480, 1881686072, 42205730, 27.8, -48.0974, 0.005, -0.915378, 0, 0, 0.402596) /* Olthoi Harvester */
      , (5624, 1881686073, 42205731, 35.243, -19.9811, 0.005, 0.707107, 0, 0, -0.707107) /* Door */
      , (11480, 1881686074, 42205741, 50.6088, -24.7961, 0.005, 0.546983, 0, 0, 0.837144) /* Olthoi Harvester */
      , (11480, 1881686069, 42205743, 49.7621, -27.3995, 0.005, -0.938369, 0, 0, -0.345635) /* Olthoi Harvester */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881686031'; /* linkmonstergen7minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881686068'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881686070'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881686031'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881686068'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881686070'; /* Linkable Monster Generator ( 4 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881686030'; /* linkmonstergen7minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881686020'; /* linkmonstergen7minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686069'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686074'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686072'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686059'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686058'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686060'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686061'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686063'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686046'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686047'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686054'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686041'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686042'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686075'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686076'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686045'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686055'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686018'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686022'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686023'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686028'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686032'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686035'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686034'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686036'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686037'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686038'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686039'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686016'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686017'; /* linkmonstergen4minutes <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881686030'; /* Linkable Monster Generator ( 7 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881686020'; /* Linkable Monster Generator ( 7 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686069'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686074'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686072'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686059'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686058'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686060'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686061'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686063'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686046'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686047'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686054'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686041'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686042'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686075'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881686076'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686045'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686055'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686018'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686022'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686023'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686028'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686032'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686035'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686034'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686036'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686037'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686038'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686039'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686016'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881686017'; /* Linkable Monster Generator ( 4 Min.) <- Olthoi Harvester */
 

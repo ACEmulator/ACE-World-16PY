@@ -31,27 +31,27 @@ VALUES (5489, 1881845760, 44761344, 10, -170, -23.995, 1, 0, 0, 0) /* "Mag-Ma!" 
      , (8968, 1881845789, 44761396, 81.131, -111.038, -11.995, 0.66827, 0, 0, -0.743919) /* Fleshless Warrior */
      , (8968, 1881845790, 44761396, 81.3206, -109.564, -11.995, 0.66827, 0, 0, -0.743919) /* Fleshless Warrior */
      , (4054, 1881845792, 44761415, 120, -90, -11.995, 0.707107, 0, 0, -0.707107) /* Surface */
-     , (8970, 1881845793, 44761438, 102.328, -62.8919, 0.005, -0.502164, 0, 0, -0.864772) /* golemmagmaactivatedgen */
+     , (8970, 1881845793, 44761438, 102.328, -62.8919, 0.005, -0.502164, 0, 0, -0.864772) /* Magma Golem Activated Pressure Plate */
      , (5619, 1881845794, 44761439, 97.3441, -66.8815, 0.005, -0.20909, 0, 0, 0.977896) /* Hot Air */
      , (4054, 1881845796, 44761441, 109.179, 3.643, 0.005, 1, 0, 0, 0) /* Surface */
-     , (8970, 1881845797, 44761446, 108.296, -81.0452, 0.005, 0.423642, 0, 0, -0.90583) /* golemmagmaactivatedgen */
-     , (7923, 1881845798, 44761447, 120, 1.84574, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
-     , (7924, 1881845799, 44761447, 121.489, 1.85972, 0.005, 0.999686, 0, 0, -0.0250676) /* linkmonstergen5minutes */
-     , (8970, 1881845800, 44761449, 121.58, -58.5491, 0.005, 0.999861, 0, 0, 0.016666) /* golemmagmaactivatedgen */
+     , (8970, 1881845797, 44761446, 108.296, -81.0452, 0.005, 0.423642, 0, 0, -0.90583) /* Magma Golem Activated Pressure Plate */
+     , (7923, 1881845798, 44761447, 120, 1.84574, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7924, 1881845799, 44761447, 121.489, 1.85972, 0.005, 0.999686, 0, 0, -0.0250676) /* Linkable Monster Generator ( 5 Min.) */
+     , (8970, 1881845800, 44761449, 121.58, -58.5491, 0.005, 0.999861, 0, 0, 0.016666) /* Magma Golem Activated Pressure Plate */
      , (5619, 1881845801, 44761449, 121.417, -63.6504, 0.005, -0.995044, 0, 0, -0.099437) /* Hot Air */
-     , (8970, 1881845802, 44761450, 118.807, -74.3478, 0.005, 0.937936, 0, 0, 0.346809) /* golemmagmaactivatedgen */
+     , (8970, 1881845802, 44761450, 118.807, -74.3478, 0.005, 0.937936, 0, 0, 0.346809) /* Magma Golem Activated Pressure Plate */
      , (5619, 1881845803, 44761451, 116.748, -80.1258, 0.005, -0.597509, 0, 0, 0.801862) /* Hot Air */
      , (4453, 1881845804, 44761456, 132.954, 0.0246121, 0, 0.707107, 0, 0, -0.707107) /* Door */
      , (5489, 1881845805, 44761462, 150.133, -80.432, 0.005, 0, 0, 0, -1) /* "Mag-Ma!" */
      , (5489, 1881845806, 44761463, 150, -100, 0.005, 1, 0, 0, 0) /* "Mag-Ma!" */
-     , (7486, 1881845807, 44761464, 155.18, -1.50905, 0, -0.0301531, 0, 0, -0.999545) /* skeletonlordactivatedgen */
+     , (7486, 1881845807, 44761464, 155.18, -1.50905, 0, -0.0301531, 0, 0, -0.999545) /* Skeleton Lord Activated Pressure Plate */
      , (8967, 1881845808, 44761465, 164.559, -8.03801, 0.055, -0.924267, 0, 0, -0.381747) /* Decaying Warrior */
      , (195, 1881845809, 44761469, 173.245, -30.3748, 0.011, 0.731294, 0, 0, -0.682062) /* Granite Golem */
      , (8967, 1881845810, 44761470, 172.04, -60.4331, 0.009, 0.720479, 0, 0, -0.693476) /* Decaying Warrior */
      , (278, 1881845811, 44761484, 180.013, -51.8644, 0.005, 0, 0, 0, -1) /* Door */
      , (195, 1881845812, 44761489, 185.969, -29.9658, 0.011, -0.709595, 0, 0, -0.70461) /* Granite Golem */
      , (8967, 1881845813, 44761502, 115.917, -45.731, 6.055, 0.471909, 0, 0, -0.881647) /* Decaying Warrior */
-     , (7486, 1881845814, 44761514, 139.94, -82.1182, 6.005, 0.026441, 0, 0, -0.99965) /* skeletonlordactivatedgen */
+     , (7486, 1881845814, 44761514, 139.94, -82.1182, 6.005, 0.026441, 0, 0, -0.99965) /* Skeleton Lord Activated Pressure Plate */
      , (8967, 1881845815, 44761517, 141.882, -87.5021, 6.009, -0.586341, 0, 0, -0.810065) /* Decaying Warrior */
      , (8967, 1881845816, 44761517, 142.714, -92.9581, 6.009, -0.858792, 0, 0, -0.512324) /* Decaying Warrior */
      , (8967, 1881845817, 44761524, 150.672, -59.612, 6.009, 0.726446, 0, 0, -0.687224) /* Decaying Warrior */
@@ -68,33 +68,33 @@ VALUES (5489, 1881845760, 44761344, 10, -170, -23.995, 1, 0, 0, 0) /* "Mag-Ma!" 
      , (8967, 1881845828, 44761609, 160.011, -149.005, 12.109, -0.999612, 0, 0, -0.0278636) /* Decaying Warrior */
      , (8967, 1881845829, 44761626, 162.151, -192.332, 12.009, -0.98933, 0, 0, -0.14569) /* Decaying Warrior */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881845798'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881845799'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881845798'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881845799'; /* Linkable Monster Generator ( 5 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881845774'; /* An evil trap */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845808'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845810'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845817'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845813'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845815'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845816'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845827'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845828'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845825'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845829'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845824'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845823'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845821'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845789'; /* linkmonstergen3minutes <- Fleshless Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845790'; /* linkmonstergen3minutes <- Fleshless Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845777'; /* linkmonstergen3minutes <- Fleshless Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845776'; /* linkmonstergen3minutes <- Decaying Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845767'; /* linkmonstergen3minutes <- Fleshless Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845771'; /* linkmonstergen3minutes <- Fleshless Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845770'; /* linkmonstergen3minutes <- Fleshless Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881845812'; /* linkmonstergen5minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881845809'; /* linkmonstergen5minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881845764'; /* linkmonstergen5minutes <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881845766'; /* linkmonstergen5minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845808'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845810'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845817'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845813'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845815'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845816'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845827'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845828'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845825'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845829'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845824'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845823'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845821'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845789'; /* Linkable Monster Generator ( 3 Min.) <- Fleshless Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845790'; /* Linkable Monster Generator ( 3 Min.) <- Fleshless Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845777'; /* Linkable Monster Generator ( 3 Min.) <- Fleshless Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845776'; /* Linkable Monster Generator ( 3 Min.) <- Decaying Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845767'; /* Linkable Monster Generator ( 3 Min.) <- Fleshless Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845771'; /* Linkable Monster Generator ( 3 Min.) <- Fleshless Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881845770'; /* Linkable Monster Generator ( 3 Min.) <- Fleshless Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881845812'; /* Linkable Monster Generator ( 5 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881845809'; /* Linkable Monster Generator ( 5 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881845764'; /* Linkable Monster Generator ( 5 Min.) <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881845766'; /* Linkable Monster Generator ( 5 Min.) <- Unstable Magma Golem */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881845775'; /* An evil trap <- Pressure Plate */
 

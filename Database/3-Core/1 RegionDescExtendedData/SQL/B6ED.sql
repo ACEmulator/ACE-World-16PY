@@ -1,8 +1,8 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (46829, 7216, 2, 0) /* lavalandashwestmixgen */
-     , (46829, 7216, 2, 2) /* lavalandashwestmixgen */
-     , (46829, 7216, 4, 3) /* lavalandashwestmixgen */
-     , (46829, 7216, 6, 2) /* lavalandashwestmixgen */
-     , (46829, 7216, 7, 0) /* lavalandashwestmixgen */
-     , (46829, 7216, 7, 4) /* lavalandashwestmixgen */;
+VALUES (46829, 7216, 2, 0) /* Aerlinthe Ash West Mix Gen */
+     , (46829, 7216, 2, 2) /* Aerlinthe Ash West Mix Gen */
+     , (46829, 7216, 4, 3) /* Aerlinthe Ash West Mix Gen */
+     , (46829, 7216, 6, 2) /* Aerlinthe Ash West Mix Gen */
+     , (46829, 7216, 7, 0) /* Aerlinthe Ash West Mix Gen */
+     , (46829, 7216, 7, 4) /* Aerlinthe Ash West Mix Gen */;
 

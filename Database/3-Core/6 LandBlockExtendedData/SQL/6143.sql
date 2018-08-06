@@ -11,33 +11,33 @@ VALUES (22614, 1981034497, 1631781120, 14.0053, 3.70736, -5.995, 0.814771, 0, 0,
      , (24518, 1981034575, 1631781120, 11.4542, -3.02365, -5.995, -0.818748, 0, 0, -0.574152) /* Treasure */
      , (24518, 1981034576, 1631781120, 8.98536, -3.25759, -5.995, 0.995899, 0, 0, -0.090475) /* Treasure */
      , (24872, 1981034578, 1631781120, 7.95654, 2.12359, -5.995, 0.917018, 0, 0, 0.398845) /* Golden Gromnie */
-     , (5085, 1981034503, 1631781121, 9.89672, 3.11076, -2.81175, -4.37114E-08, 0, 0, -1) /* linkitemgen25seconds */
+     , (5085, 1981034503, 1631781121, 9.89672, 3.11076, -2.81175, -4.37114E-08, 0, 0, -1) /* Linkable Item Gen - 25 seconds */
      , (23773, 1981034504, 1631781123, -0.053233, -0.179216, 2.07975, 1, 0, 0, -4.37114E-08) /* Ulgrim's Home Brew */
      , (568, 1981034505, 1631781132, 0, -24.75, 0, 0, 0, 0, -1) /* Door */
      , (568, 1981034506, 1631781133, 0.045836, -15.2193, 0, 1, 0, 0, 0) /* Door */
-     , (23927, 1981034568, 1631781134, 0, -30, 0.005, 0.707107, 0, 0, -0.707107) /* rattinyswarmgen */
+     , (23927, 1981034568, 1631781134, 0, -30, 0.005, 0.707107, 0, 0, -0.707107) /* Mice Swarm Generator */
      , (23771, 1981034520, 1631781138, 6.85687, -1.07585E-07, 0.005, 0.707107, 0, 0, -0.707107) /* Exit */
      , (23925, 1981034569, 1631781138, 11.4966, -4.40409, 1.73, -0.707107, 0, 0, -0.707107) /* Hand Grenade */
      , (278, 1981034521, 1631781140, 14.75, 1.62586E-07, 0, 0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1981034573, 1631781140, 14.75, 1.62586E-07, 0, 0.707107, 0, 0, -0.707107) /* Door */
      , (23887, 1981034522, 1631781142, 10, -16.7749, 0, 0, 0, 0, -1) /* Treasure Room Door */
-     , (23927, 1981034570, 1631781144, 8.634, -30, 0.005, 0.707107, 0, 0, -0.707107) /* rattinyswarmgen */
+     , (23927, 1981034570, 1631781144, 8.634, -30, 0.005, 0.707107, 0, 0, -0.707107) /* Mice Swarm Generator */
      , (23921, 1981034535, 1631781152, 20.9095, -5.8805, 0.326, 1, 0, 0, -4.37114E-08) /* Storage */
      , (23920, 1981034537, 1631781152, 19.0905, -5.8805, 0.326, 1, 0, 0, -4.37114E-08) /* Storage */
-     , (23927, 1981034571, 1631781152, 20, -10, 0.005, -4.37114E-08, 0, 0, -1) /* rattinyswarmgen */
-     , (23927, 1981034572, 1631781155, 20.032, -17.3157, 0.005, 0, 0, 0, -1) /* rattinyswarmgen */
+     , (23927, 1981034571, 1631781152, 20, -10, 0.005, -4.37114E-08, 0, 0, -1) /* Mice Swarm Generator */
+     , (23927, 1981034572, 1631781155, 20.032, -17.3157, 0.005, 0, 0, 0, -1) /* Mice Swarm Generator */
      , (24065, 1981034577, 1631781160, 16.9115, -26.9686, 1.63675, 0.914443, 0, 0, 0.404714) /* Globe of Auberean */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1981034503'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1981034503'; /* Linkable Item Gen - 25 seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034504'; /* linkitemgen25seconds <- Ulgrim's Home Brew */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034498'; /* linkitemgen25seconds <- Treasure */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034497'; /* linkitemgen25seconds <- Treasure */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034499'; /* linkitemgen25seconds <- Treasure */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034500'; /* linkitemgen25seconds <- Treasure */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034564'; /* linkitemgen25seconds <- Treasure */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034562'; /* linkitemgen25seconds <- Treasure */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034565'; /* linkitemgen25seconds <- Treasure */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034575'; /* linkitemgen25seconds <- Treasure */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034576'; /* linkitemgen25seconds <- Treasure */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034504'; /* Linkable Item Gen - 25 seconds <- Ulgrim's Home Brew */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034498'; /* Linkable Item Gen - 25 seconds <- Treasure */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034497'; /* Linkable Item Gen - 25 seconds <- Treasure */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034499'; /* Linkable Item Gen - 25 seconds <- Treasure */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034500'; /* Linkable Item Gen - 25 seconds <- Treasure */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034564'; /* Linkable Item Gen - 25 seconds <- Treasure */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034562'; /* Linkable Item Gen - 25 seconds <- Treasure */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034565'; /* Linkable Item Gen - 25 seconds <- Treasure */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034575'; /* Linkable Item Gen - 25 seconds <- Treasure */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981034576'; /* Linkable Item Gen - 25 seconds <- Treasure */
 

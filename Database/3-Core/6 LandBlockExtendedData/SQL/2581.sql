@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (905, 1918373912, 629211432, 61.9143, 110.254, 220.005, -0.526357, 0, 0, -0.850264) /* ratblackgen */
-     , (905, 1918373913, 629211432, 56.4895, 111.011, 232.005, 0.567959, 0, 0, -0.823057) /* ratblackgen */
-     , (905, 1918373914, 629211432, 60.5228, 110.342, 220.005, 0.404584, 0, 0, -0.914501) /* ratblackgen */
+VALUES (905, 1918373912, 629211432, 61.9143, 110.254, 220.005, -0.526357, 0, 0, -0.850264) /* Black Rat Generator */
+     , (905, 1918373913, 629211432, 56.4895, 111.011, 232.005, 0.567959, 0, 0, -0.823057) /* Black Rat Generator */
+     , (905, 1918373914, 629211432, 60.5228, 110.342, 220.005, 0.404584, 0, 0, -0.914501) /* Black Rat Generator */
      , (2316, 1918373905, 629211450, 110.412, 58.8569, 220.005, 0.894837, 0, 0, 0.446393) /* Mothdor the Bowyer */
      , (143, 1918373888, 629211452, 106.518, 59.4675, 223.04, 0.627284, 0, 0, 0.778791) /* Chest */
      , (412, 1918373891, 629211459, 161.01, 56.56, 220.025, 0.707107, 0, 0, 0.707107) /* Door */
@@ -10,10 +10,10 @@ VALUES (905, 1918373912, 629211432, 61.9143, 110.254, 220.005, -0.526357, 0, 0, 
      , (143, 1918373894, 629211460, 158.83, 61.47, 220, 0.707107, 0, 0, -0.707107) /* Chest */
      , (2317, 1918373904, 629211460, 157.688, 61.4069, 220.005, 0.999288, 0, 0, 0.0377212) /* Shopkeeper Yoshi Deshi */
      , (143, 1918373895, 629211474, 153.122, 50.9195, 220, -4.37114E-08, 0, 0, -1) /* Chest */
-     , (4774, 1918373915, 629211477, 154.231, 60.785, 223.505, 0.564012, 0, 0, 0.825767) /* collectortumerokaluviangen */
+     , (4774, 1918373915, 629211477, 154.231, 60.785, 223.505, 0.564012, 0, 0, 0.825767) /* Aluvian Tumerok Collector Gen */
      , (412, 1918373899, 629211481, 84.01, 60, 220, -0.707107, 0, 0, -0.707107) /* Door */
      , (2315, 1918373906, 629211481, 90.543, 56.6056, 220.005, -0.0767736, 0, 0, -0.997049) /* Blacksmith Magarith */
-     , (4781, 1918373916, 629211482, 81.4066, 59.4521, 223.505, 0.729445, 0, 0, 0.68404) /* leathercraftergharundimgen */
+     , (4781, 1918373916, 629211482, 81.4066, 59.4521, 223.505, 0.729445, 0, 0, 0.68404) /* Gharundim Leather Crafter Gen */
      , (143, 1918373900, 629211486, 78.025, 65.35, 223.5, -0.999994, 0, 0, -0.00349098) /* Chest */
      , (143, 1918373901, 629211495, 74.275, 52.325, 220, -0.25038, 0, 0, -0.968148) /* Chest */
      , (19715, 1918373937, 629211498, 71.0758, 83.2523, 214.805, 0.680661, 0, 0, 0.732599) /* Colossus Foundry Portal */
@@ -43,21 +43,21 @@ VALUES (905, 1918373912, 629211432, 61.9143, 110.254, 220.005, -0.526357, 0, 0, 
      , (2326, 1918373910, 629211136, 178.722, 81.2858, 220.005, -0.376818, 0, 0, -0.926287) /* Fort Tethana  */
      , (2326, 1918373911, 629211136, 136.503, 93.0428, 220.005, -0.707107, 0, 0, -0.707107) /* Fort Tethana  */
      , (5772, 1918373945, 629211136, 166.803, 78.545, 220.005, -0.9717, 0, 0, 0.236218) /* Town Crier */
-     , (7923, 1918373944, 629211136, 167.264, 77.3958, 220.005, -0.988509, 0, 0, 0.151164) /* linkmonstergen3minutes */
-     , (23631, 1918373943, 629211136, 89.0517, 76.9265, 298.212, -0.968411, 0, 0, -0.249358) /* eventmadcowgen */
+     , (7923, 1918373944, 629211136, 167.264, 77.3958, 220.005, -0.988509, 0, 0, 0.151164) /* Linkable Monster Generator ( 3 Min.) */
+     , (23631, 1918373943, 629211136, 89.0517, 76.9265, 298.212, -0.968411, 0, 0, -0.249358) /* April 2003 Raining Mad Cows Gen */
      , (19198, 1918373936, 629211136, 84.0636, 83.7832, 226.805, 0.749242, 0, 0, -0.662297) /* Nullified Statue of a Grievver */
-     , (19457, 1918373928, 629211136, 83.705, 83.918, 227.5, 0.744364, 0, 0, -0.667774) /* fireworksgen */
+     , (19457, 1918373928, 629211136, 83.705, 83.918, 227.5, 0.744364, 0, 0, -0.667774) /* Fireworks Generator */
      , (25986, 1918373957, 629211136, 162.241, 95.645, 220.005, 0.999072, 0, 0, -0.0430711) /* Small Creepy Statue */
      , (12050, 1918373918, 629211136, 110.966, 115.545, 220.005, 0.664729, 0, 0, -0.747084) /* Agent of the Arcanum */
-     , (7923, 1918373919, 629211136, 111.105, 116.734, 220.005, 0.151545, 0, 0, -0.98845) /* linkmonstergen3minutes */;
+     , (7923, 1918373919, 629211136, 111.105, 116.734, 220.005, 0.151545, 0, 0, -0.98845) /* Linkable Monster Generator ( 3 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1918373919'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1918373944'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1918373919'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1918373944'; /* Linkable Monster Generator ( 3 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1918373954'; /* Door */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918373918'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1918373945'; /* linkmonstergen3minutes <- Town Crier */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1918373955'; /* linkmonstergen3minutes <- Fort Tethana Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1918373957'; /* linkmonstergen3minutes <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918373918'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1918373945'; /* Linkable Monster Generator ( 3 Min.) <- Town Crier */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1918373955'; /* Linkable Monster Generator ( 3 Min.) <- Fort Tethana Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1918373957'; /* Linkable Monster Generator ( 3 Min.) <- Small Creepy Statue */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1918373956'; /* Door <- Lever */
 

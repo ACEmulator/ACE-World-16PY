@@ -7,11 +7,11 @@ VALUES (1387, 2096758789, 3483369730, 35.0242, 61.7045, 1.205, -0.608186, 0, 0, 
      , (1612, 2096758784, 3483369472, 151.511, 66.0959, 0.00464, 0.659771, 0, 0, -0.751467) /* Azure Gromnie */
      , (1612, 2096758785, 3483369472, 139.194, 59.4173, 0.409627, 0.98001, 0, 0, -0.198946) /* Azure Gromnie */
      , (1612, 2096758786, 3483369472, 135.193, 83.4037, 1.69742, 0.218731, 0, 0, -0.975785) /* Azure Gromnie */
-     , (1154, 2096758787, 3483369472, 136.686, 80.2406, 1.30125, 0.218731, 0, 0, -0.975785) /* linkmonstergen */;
+     , (1154, 2096758787, 3483369472, 136.686, 80.2406, 1.30125, 0.218731, 0, 0, -0.975785) /* Linkable Monster Generator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2096758787'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2096758787'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096758784'; /* linkmonstergen <- Azure Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096758785'; /* linkmonstergen <- Azure Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096758786'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096758784'; /* Linkable Monster Generator <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096758785'; /* Linkable Monster Generator <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2096758786'; /* Linkable Monster Generator <- Azure Gromnie */
 

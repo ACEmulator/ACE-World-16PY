@@ -3,7 +3,7 @@ VALUES (1316, 1880944640, 30343427, 17.5729, -104.434, -18, -4.37114E-08, 0, 0, 
      , (193, 1880944641, 30343427, 18.3508, -99.5622, -17.9967, 0.895178, 0, 0, -0.44571) /* Drudge Slinker */
      , (193, 1880944642, 30343427, 19.9707, -101.324, -17.9967, 0.767794, 0, 0, -0.640696) /* Drudge Slinker */
      , (1316, 1880944643, 30343435, 34.3203, -90.7495, -18, 0.703627, 0, 0, -0.710569) /* Chest */
-     , (4018, 1880944644, 30343435, 25.6244, -85.8036, -18, 0.695286, 0, 0, -0.718733) /* itemlowthiefgen */
+     , (4018, 1880944644, 30343435, 25.6244, -85.8036, -18, 0.695286, 0, 0, -0.718733) /* Cheap Thief Generator */
      , (1464, 1880944645, 30343435, 30, -90, -17.9958, -0.2685, 0, 0, -0.96328) /* Drudge Robber */
      , (5625, 1880944646, 30343441, 30, -104.75, -18, -4.37114E-08, 0, 0, -1) /* Door */
      , (1290, 1880944647, 30343445, 25.25, -120, -18, -0.707107, 0, 0, -0.707107) /* Door */
@@ -12,7 +12,7 @@ VALUES (1316, 1880944640, 30343427, 17.5729, -104.434, -18, -4.37114E-08, 0, 0, 
      , (4109, 1880944650, 30343455, 40, -80, -17.989, -0.086504, 0, 0, -0.996252) /* Carrion Shreth */
      , (278, 1880944651, 30343458, 40, -75.25, -18, 1, 0, 0, 0) /* Door */
      , (152, 1880944652, 30343460, 44.0552, -99.2246, -18, 1, 0, 0, 0) /* Font */
-     , (4012, 1880944653, 30343471, 12.7594, -86.936, -12, -0.31958, 0, 0, -0.947559) /* itemlowglittergen */
+     , (4012, 1880944653, 30343471, 12.7594, -86.936, -12, -0.31958, 0, 0, -0.947559) /* Cheap Glitter Generator */
      , (192, 1880944654, 30343471, 9.01374, -89.0918, -11.9958, 0.707107, 0, 0, -0.707107) /* Drudge Prowler */
      , (192, 1880944655, 30343471, 8.61842, -92.5499, -11.9958, 0.707107, 0, 0, -0.707107) /* Drudge Prowler */
      , (192, 1880944656, 30343471, 9.79903, -91.1905, -11.9958, 0.707107, 0, 0, -0.707107) /* Drudge Prowler */
@@ -24,18 +24,18 @@ VALUES (1316, 1880944640, 30343427, 17.5729, -104.434, -18, -4.37114E-08, 0, 0, 
      , (4109, 1880944662, 30343482, 43.2271, -56.9868, -11.989, -0.514384, 0, 0, -0.85756) /* Carrion Shreth */
      , (4452, 1880944663, 30343487, 50.0271, -45.051, -12, 0, 0, 0, -1) /* Door */
      , (4109, 1880944664, 30343489, 46.2146, -57.459, -11.995, 0.978911, 0, 0, -0.204288) /* Carrion Shreth */
-     , (4019, 1880944665, 30343490, 53.6506, -73.6967, -12, -0.895177, 0, 0, -0.44571) /* itemlowutilitygen */
+     , (4019, 1880944665, 30343490, 53.6506, -73.6967, -12, -0.895177, 0, 0, -0.44571) /* Cheap Utility Generator */
      , (192, 1880944666, 30343490, 47.8387, -70.5036, -11.9958, 0.429132, 0, 0, -0.903242) /* Drudge Prowler */
      , (7, 1880944667, 30343490, 49.6855, -67.0434, -11.9967, 0.491284, 0, 0, -0.870999) /* Drudge Skulker */
      , (298, 1880944668, 30343490, 53.1825, -72.7803, -11.995, 0.625347, 0, 0, -0.780347) /* Pressure Plate */
      , (7, 1880944669, 30343497, 58.5128, -21.3711, -11.9967, 0.707107, 0, 0, -0.707107) /* Drudge Skulker */
      , (7, 1880944670, 30343497, 58.7899, -18.2906, -11.9967, 0.707107, 0, 0, -0.707107) /* Drudge Skulker */
      , (568, 1880944671, 30343499, 64.75, -20, -12, 0.707107, 0, 0, -0.707107) /* Door */
-     , (420, 1880944672, 30343531, 72.518, -12.3896, -12, -0.903896, 0, 0, -0.427753) /* itemfood-generator */
+     , (420, 1880944672, 30343531, 72.518, -12.3896, -12, -0.903896, 0, 0, -0.427753) /* Item Food Generator */
      , (4108, 1880944673, 30343531, 67.6892, -8.87783, -11.989, 0.707107, 0, 0, -0.707107) /* Gnawer Shreth */
      , (3978, 1880944674, 30343531, 70.6102, -5.93412, -12, -1, 0, 0, 0) /* Chest */
      , (568, 1880944675, 30343533, 74.755, -10, -12, 0.707107, 0, 0, -0.707107) /* Door */
-     , (4285, 1880944676, 30343536, 70.0434, -22.3542, -11.995, 0.997294, 0, 0, 0.073514) /* drudgeskulkercampgen */
+     , (4285, 1880944676, 30343536, 70.0434, -22.3542, -11.995, 0.997294, 0, 0, 0.073514) /* Drudge Skulker Camp Generator */
      , (193, 1880944677, 30343559, 71.9209, -90.4061, -11.9967, -0.303514, 0, 0, -0.952827) /* Drudge Slinker */
      , (193, 1880944678, 30343568, 71.294, -129.074, -11.9967, 0.707107, 0, 0, -0.707107) /* Drudge Slinker */
      , (193, 1880944679, 30343569, 74.3279, -130.514, -11.9967, 0.707107, 0, 0, -0.707107) /* Drudge Slinker */
@@ -47,22 +47,22 @@ VALUES (1316, 1880944640, 30343427, 17.5729, -104.434, -18, -4.37114E-08, 0, 0, 
      , (2179, 1880944685, 30343586, 83.0071, -39.9645, -12, -0.707107, 0, 0, -0.707107) /* Door */
      , (2131, 1880944686, 30343588, 80, -50, -12, -0.707107, 0, 0, -0.707107) /* Pressure Plate */
      , (2179, 1880944687, 30343591, 81.7755, -49.978, -12, -0.707107, 0, 0, -0.707107) /* Door */
-     , (420, 1880944688, 30343593, 78.7157, -67.2038, -12, -0.707107, 0, 0, -0.707107) /* itemfood-generator */
-     , (4285, 1880944689, 30343593, 81.4157, -69.4755, -11.995, -0.985944, 0, 0, 0.167077) /* drudgeskulkercampgen */
-     , (420, 1880944690, 30343596, 80.1619, -77.0751, -12, -0.707107, 0, 0, -0.707107) /* itemfood-generator */
+     , (420, 1880944688, 30343593, 78.7157, -67.2038, -12, -0.707107, 0, 0, -0.707107) /* Item Food Generator */
+     , (4285, 1880944689, 30343593, 81.4157, -69.4755, -11.995, -0.985944, 0, 0, 0.167077) /* Drudge Skulker Camp Generator */
+     , (420, 1880944690, 30343596, 80.1619, -77.0751, -12, -0.707107, 0, 0, -0.707107) /* Item Food Generator */
      , (4108, 1880944691, 30343596, 82.8083, -79.2361, -11.989, -0.707107, 0, 0, -0.707107) /* Gnawer Shreth */
      , (193, 1880944692, 30343599, 78.2636, -91.9929, -11.9967, -0.786733, 0, 0, -0.617293) /* Drudge Slinker */
      , (192, 1880944693, 30343603, 80.8616, -95.4932, -11.9465, 0.0184336, 0, 0, -0.99983) /* Drudge Prowler */
-     , (553, 1880944694, 30343605, 84.4089, -114.492, -12, 0.538678, 0, 0, -0.842512) /* mushroomcirclegen */
-     , (4285, 1880944695, 30343616, 89.053, -11.05, -12, 0.786733, 0, 0, -0.617293) /* drudgeskulkercampgen */
+     , (553, 1880944694, 30343605, 84.4089, -114.492, -12, 0.538678, 0, 0, -0.842512) /* Mushroom Circle Generator */
+     , (4285, 1880944695, 30343616, 89.053, -11.05, -12, 0.786733, 0, 0, -0.617293) /* Drudge Skulker Camp Generator */
      , (285, 1880944696, 30343620, 87.7341, -38.4481, -10.602, 1, 0, 0, 0) /* Lever */
      , (940, 1880944697, 30343620, 87.2736, -41.0022, -11.9958, -0.707107, 0, 0, -0.707107) /* Drudge Sneaker */
      , (940, 1880944698, 30343620, 87.3077, -39.2872, -11.9958, -0.707107, 0, 0, -0.707107) /* Drudge Sneaker */
-     , (4009, 1880944699, 30343621, 87.7106, -50.2677, -12, -0.707107, 0, 0, -0.707107) /* itemlowaluwarriorgen */
+     , (4009, 1880944699, 30343621, 87.7106, -50.2677, -12, -0.707107, 0, 0, -0.707107) /* Cheap Alu. Warrior Generator */
      , (285, 1880944700, 30343621, 87.7409, -48.438, -10.655, 1, 0, 0, 0) /* Lever */
      , (193, 1880944701, 30343621, 87.422, -49.1789, -11.9967, -0.707107, 0, 0, -0.707107) /* Drudge Slinker */
      , (193, 1880944702, 30343621, 87.6388, -51.1799, -11.9967, -0.707107, 0, 0, -0.707107) /* Drudge Slinker */
-     , (420, 1880944703, 30343625, 101.109, 1.8898, -12, -0.707107, 0, 0, -0.707107) /* itemfood-generator */
+     , (420, 1880944703, 30343625, 101.109, 1.8898, -12, -0.707107, 0, 0, -0.707107) /* Item Food Generator */
      , (7, 1880944704, 30343625, 103.598, 2.1189, -11.9967, -0.707107, 0, 0, -0.707107) /* Drudge Skulker */
      , (1316, 1880944705, 30343632, 12.9436, -70.971, -6, 0.0432912, 0, 0, -0.999062) /* Chest */
      , (1317, 1880944706, 30343632, 12.4209, -66.0354, -6, 0.99778, 0, 0, -0.066601) /* Chest */
@@ -84,20 +84,20 @@ VALUES (1316, 1880944640, 30343427, 17.5729, -104.434, -18, -4.37114E-08, 0, 0, 
      , (4109, 1880944722, 30343706, 109.67, -120.195, 0.011, 0.876674, 0, 0, -0.481084) /* Carrion Shreth */
      , (4108, 1880944723, 30343711, 115.156, -128.527, 0.011, 1, 0, 0, 0) /* Gnawer Shreth */
      , (4109, 1880944724, 30343713, 131.41, -119.155, 0.011, -0.34939, 0, 0, -0.936977) /* Carrion Shreth */
-     , (7923, 1880944725, 30343735, 119.809, -162.411, 6, 0.707107, 0, 0, -0.707107) /* linkmonstergen3minutes */
+     , (7923, 1880944725, 30343735, 119.809, -162.411, 6, 0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 3 Min.) */
      , (1324, 1880944726, 30343740, 128.078, -166.807, 6.19004, 0.707107, 0, 0, -0.707107) /* Surface Portal */
      , (940, 1880944727, 30343755, 0, -100, 18.0042, 1, 0, 0, 0) /* Drudge Sneaker */
      , (1314, 1880944728, 30343759, 8.86336, -63.8305, 18, 0.403446, 0, 0, -0.915004) /* Book Shelf */
      , (1322, 1880944729, 30343776, 11.07, -99.4784, 18.0035, -0.360302, 0, 0, -0.932836) /* Drudge Sneaker */
      , (1316, 1880944730, 30343779, 5.34062, -105.389, 18, -0.707107, 0, 0, -0.707107) /* Chest */
-     , (420, 1880944731, 30343783, 18.0085, -58.792, 18, 0.707107, 0, 0, -0.707107) /* itemfood-generator */
+     , (420, 1880944731, 30343783, 18.0085, -58.792, 18, 0.707107, 0, 0, -0.707107) /* Item Food Generator */
      , (940, 1880944732, 30343784, 20, -70, 18.0042, -4.37114E-08, 0, 0, -1) /* Drudge Sneaker */
      , (1913, 1880944733, 30343785, 23.6299, -83.8598, 18, -0.01658, 0, 0, -0.999863) /* Chest */
      , (1317, 1880944734, 30343789, 15.3205, -97.6902, 18, -0.136255, 0, 0, -0.990674) /* Chest */
      , (940, 1880944735, 30343792, 24.0292, -111.289, 18.0042, -0.560729, 0, 0, -0.827999) /* Drudge Sneaker */
      , (940, 1880944736, 30343792, 20, -110, 18.0042, -0.803857, 0, 0, -0.594823) /* Drudge Sneaker */
      , (940, 1880944737, 30343799, 28.1459, -68.0791, 18.0042, 0, 0, 0, -1) /* Drudge Sneaker */
-     , (893, 1880944738, 30343801, 10.7238, -69.9457, 24.2335, 0, 0, 0, -1) /* drudgeskulkergen */
+     , (893, 1880944738, 30343801, 10.7238, -69.9457, 24.2335, 0, 0, 0, -1) /* Drudge Skulker Generator */
      , (940, 1880944739, 30343807, 19.4378, -49.3027, 21.0042, 0.658444, 0, 0, -0.75263) /* Drudge Sneaker */
      , (940, 1880944740, 30343807, 19.8092, -50.8082, 21.0042, 0.658444, 0, 0, -0.75263) /* Drudge Sneaker */
      , (940, 1880944741, 30343809, 18.0312, -57.0268, 24.0042, 0.658444, 0, 0, -0.75263) /* Drudge Sneaker */
@@ -114,68 +114,68 @@ VALUES (1316, 1880944640, 30343427, 17.5729, -104.434, -18, -4.37114E-08, 0, 0, 
      , (1931, 1880944752, 30343844, 53.9112, -51.1205, 30, 0.654742, 0, 0, -0.755852) /* Chest */
      , (1318, 1880944753, 30343846, 50, -54.75, 30, -4.37114E-08, 0, 0, -1) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880944725'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880944725'; /* Linkable Monster Generator ( 3 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880944685'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880944687'; /* Door */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944673'; /* linkmonstergen3minutes <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944680'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944729'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944723'; /* linkmonstergen3minutes <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944722'; /* linkmonstergen3minutes <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944724'; /* linkmonstergen3minutes <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944716'; /* linkmonstergen3minutes <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944715'; /* linkmonstergen3minutes <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944713'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944712'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944714'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944710'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944711'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944679'; /* linkmonstergen3minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944678'; /* linkmonstergen3minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944691'; /* linkmonstergen3minutes <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944693'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944692'; /* linkmonstergen3minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944677'; /* linkmonstergen3minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944666'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944667'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944669'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944670'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944704'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944681'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944698'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944697'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944701'; /* linkmonstergen3minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944702'; /* linkmonstergen3minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944662'; /* linkmonstergen3minutes <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944641'; /* linkmonstergen3minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944642'; /* linkmonstergen3minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944645'; /* linkmonstergen3minutes <- Drudge Robber */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944650'; /* linkmonstergen3minutes <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944659'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944660'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944654'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944655'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944656'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944708'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944718'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944721'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944736'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944735'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944737'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944732'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944739'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944741'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944740'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944742'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944745'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944744'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944743'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944751'; /* linkmonstergen3minutes <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944717'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944727'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944664'; /* linkmonstergen3minutes <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944661'; /* linkmonstergen3minutes <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944673'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944680'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944729'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944723'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944722'; /* Linkable Monster Generator ( 3 Min.) <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944724'; /* Linkable Monster Generator ( 3 Min.) <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944716'; /* Linkable Monster Generator ( 3 Min.) <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944715'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944713'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944712'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944714'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944710'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944711'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944679'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944678'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944691'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944693'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944692'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944677'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944666'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944667'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944669'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944670'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944704'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944681'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944698'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944697'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944701'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944702'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944662'; /* Linkable Monster Generator ( 3 Min.) <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944641'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944642'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944645'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Robber */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944650'; /* Linkable Monster Generator ( 3 Min.) <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944659'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944660'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944654'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944655'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944656'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944708'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944718'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944721'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944736'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944735'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944737'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944732'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944739'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944741'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944740'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944742'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944745'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944744'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944743'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944751'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944717'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944727'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944664'; /* Linkable Monster Generator ( 3 Min.) <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880944661'; /* Linkable Monster Generator ( 3 Min.) <- Carrion Shreth */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880944684'; /* Door <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880944696'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880944668'; /* Door <- Pressure Plate */

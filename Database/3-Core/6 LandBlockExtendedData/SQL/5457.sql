@@ -27,8 +27,8 @@ VALUES (19267, 1967484928, 1414988034, 130, -40, -5.995, 0.678557, 0, 0, -0.7345
      , (19267, 1967484953, 1414988191, 122.541, -119.84, 0.005, -0.699863, 0, 0, 0.714277) /* Bronze Statue of a Grievver */
      , (19273, 1967484954, 1414988192, 133.533, -30.0514, 0.058, 0.709678, 0, 0, -0.704526) /* Bronze Statue of a Virindi */
      , (19270, 1967484955, 1414988216, 146.252, -29.893, 0.0095, -0.713577, 0, 0, -0.700576) /* Bronze Statue of a Shadow */
-     , (7923, 1967484956, 1414988228, 159.525, -84.2437, 0.005, 0.779983, 0, 0, 0.625801) /* linkmonstergen3minutes */
-     , (15274, 1967484957, 1414988230, 159.505, -96.73, 0.005, 0.670834, 0, 0, 0.741607) /* linkmonstergen1minute */
+     , (7923, 1967484956, 1414988228, 159.525, -84.2437, 0.005, 0.779983, 0, 0, 0.625801) /* Linkable Monster Generator ( 3 Min.) */
+     , (15274, 1967484957, 1414988230, 159.505, -96.73, 0.005, 0.670834, 0, 0, 0.741607) /* Linkable Monster Gen (1 min.) */
      , (19131, 1967484958, 1414988231, 156.356, -109.867, 0.005, 0.714421, 0, 0, -0.699716) /* Portal to Fort Tethana */
      , (19270, 1967484959, 1414988243, 13.9745, -109.944, 6.0095, 0.704068, 0, 0, -0.710132) /* Bronze Statue of a Shadow */
      , (19270, 1967484960, 1414988245, 13.7806, -140.083, 6.0095, 0.674235, 0, 0, -0.738517) /* Bronze Statue of a Shadow */
@@ -52,53 +52,53 @@ VALUES (19267, 1967484928, 1414988034, 130, -40, -5.995, 0.678557, 0, 0, -0.7345
      , (19270, 1967484980, 1414988535, 100.182, -71.0288, 18.0095, -0.0673109, 0, 0, 0.997732) /* Bronze Statue of a Shadow */
      , (19131, 1967484981, 1414988555, 129.893, -74.75, 18.005, 1, 0, 0, 0) /* Portal to Fort Tethana */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967484956'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967484957'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967484956'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967484957'; /* Linkable Monster Gen (1 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484953'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484947'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484941'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484946'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484939'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484940'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484942'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484944'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484949'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484970'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484967'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484971'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484961'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484959'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484943'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484945'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484948'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484952'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484951'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484955'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484954'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484930'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484935'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484928'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484938'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484972'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484980'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484975'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484978'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484973'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484977'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484974'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484976'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484979'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484969'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484950'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484932'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484965'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484960'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484968'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484962'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484966'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484937'; /* linkmonstergen1minute <- Bronze Statue of a Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484929'; /* linkmonstergen1minute <- Bronze Statue of a Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484931'; /* linkmonstergen1minute <- Bronze Statue of a Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484936'; /* linkmonstergen1minute <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484953'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484947'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484941'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484946'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484939'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484940'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484942'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484944'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484949'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484970'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484967'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484971'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484961'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484959'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484943'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484945'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484948'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484952'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484951'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484955'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484954'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484930'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484935'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484928'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484938'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484972'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484980'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484975'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484978'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484973'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484977'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484974'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484976'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484979'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484969'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484950'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484932'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484965'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484960'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484968'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484962'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484966'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484937'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484929'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484931'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484936'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Grievver */
 

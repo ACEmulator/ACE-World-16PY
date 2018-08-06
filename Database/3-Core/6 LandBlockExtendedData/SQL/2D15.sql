@@ -3,7 +3,7 @@ VALUES (228, 1926320153, 756351232, 143.953, 83.3145, 49.661, -0.960655, 0, 0, 0
      , (1945, 1926320165, 756351232, 153.901, 80.0092, 49.66, 0.707107, 0, 0, -0.707107) /* Chest */
      , (1923, 1926320164, 756351232, 153.924, 78.8207, 49.66, -0.694964, 0, 0, 0.719044) /* Chest */
      , (10806, 1926320154, 756351232, 139.355, 83.8609, 49.6615, 0.680174, 0, 0, 0.733051) /* Ascendant Tumerok */
-     , (1154, 1926320142, 756351232, 141.65, 84.6139, 49.66, -0.630002, 0, 0, -0.776594) /* linkmonstergen */
+     , (1154, 1926320142, 756351232, 141.65, 84.6139, 49.66, -0.630002, 0, 0, -0.776594) /* Linkable Monster Generator */
      , (24497, 1926320161, 756351232, 152.209, 83.3641, 49.665, 0.998168, 0, 0, -0.0604998) /* Gotrok Tiatus */
      , (24497, 1926320160, 756351232, 143.676, 85.1409, 49.665, -0.534868, 0, 0, 0.844936) /* Gotrok Tiatus */
      , (23617, 1926320158, 756351232, 145.347, 83.9497, 49.6615, -0.683277, 0, 0, -0.73016) /* Tumerok Champion */
@@ -16,24 +16,24 @@ VALUES (228, 1926320153, 756351232, 143.953, 83.3145, 49.661, -0.960655, 0, 0, 0
      , (10806, 1926320162, 756350976, 60.6571, 75.144, 56.0065, 0.869537, 0, 0, 0.493868) /* Ascendant Tumerok */
      , (10806, 1926320151, 756350976, 82.1298, 85.2734, 56.0065, 0.522527, 0, 0, 0.852623) /* Ascendant Tumerok */
      , (8137, 1926320152, 756350976, 62.8557, 80.9311, 56.01, 0.404804, 0, 0, 0.914404) /* Tiatus Raider */
-     , (7924, 1926320163, 756350976, 60.2866, 79.4155, 56.005, 0.963106, 0, 0, -0.269123) /* linkmonstergen5minutes */
+     , (7924, 1926320163, 756350976, 60.2866, 79.4155, 56.005, 0.963106, 0, 0, -0.269123) /* Linkable Monster Generator ( 5 Min.) */
      , (228, 1926320155, 756350976, 65.0738, 77.7976, 56.006, 0.9707, 0, 0, 0.240294) /* Tumerok High Priest */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1926320163'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1926320163'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320162'; /* linkmonstergen5minutes <- Ascendant Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320151'; /* linkmonstergen5minutes <- Ascendant Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320155'; /* linkmonstergen5minutes <- Tumerok High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320159'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320158'; /* linkmonstergen5minutes <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320156'; /* linkmonstergen5minutes <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320157'; /* linkmonstergen5minutes <- Gotrok Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320161'; /* linkmonstergen5minutes <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320160'; /* linkmonstergen5minutes <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320153'; /* linkmonstergen5minutes <- Tumerok High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320154'; /* linkmonstergen5minutes <- Ascendant Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320150'; /* linkmonstergen5minutes <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320148'; /* linkmonstergen5minutes <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320149'; /* linkmonstergen5minutes <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320152'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320162'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320151'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320155'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320159'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320158'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320156'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320157'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320161'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320160'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320153'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320154'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320150'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320148'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320149'; /* Linkable Monster Generator ( 5 Min.) <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926320152'; /* Linkable Monster Generator ( 5 Min.) <- Tiatus Raider */
 

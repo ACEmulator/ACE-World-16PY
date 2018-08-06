@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6113, 1956339738, 1236664576, 32.3143, 159.636, 240.005, -0.410659, 0, 0, 0.911789) /* Plateau Spice Merchant */
      , (2500, 1956339730, 1236664579, 35.57, 154.033, 240.005, -0.972718, 0, 0, -0.231991) /* Avorgild the Shopkeeper */
-     , (4787, 1956339735, 1236664584, 32.8788, 154.193, 243.005, 0.735937, 0, 0, -0.67705) /* trophysmithgharundimgen */
+     , (4787, 1956339735, 1236664584, 32.8788, 154.193, 243.005, 0.735937, 0, 0, -0.67705) /* Gharundim Trophy Smith Gen */
      , (143, 1956339716, 1236664593, 56.875, 103.442, 240.012, -0.705253, 0, 0, -0.708956) /* Chest */
      , (143, 1956339719, 1236664599, 15.07, 115.83, 240, 1, 0, 0, 0) /* Chest */
      , (143, 1956339720, 1236664599, 7.81788, 112.093, 240.005, 0.707107, 0, 0, 0.707107) /* Chest */
@@ -10,10 +10,10 @@ VALUES (6113, 1956339738, 1236664576, 32.3143, 159.636, 240.005, -0.410659, 0, 0
      , (143, 1956339721, 1236664604, 8.67538, 113.995, 246.07, 0.00610856, 0, 0, 0.999981) /* Chest */
      , (143, 1956339722, 1236664604, 8.62538, 110.713, 246.07, 0.999998, 0, 0, -0.00174534) /* Chest */
      , (143, 1956339725, 1236664607, 17.071, 83.752, 240.025, 0, 0, 0, -1) /* Chest */
-     , (4780, 1956339729, 1236664607, 17.8474, 85.3572, 240.005, 0.921698, 0, 0, 0.387908) /* leathercrafteraluviangen */
+     , (4780, 1956339729, 1236664607, 17.8474, 85.3572, 240.005, 0.921698, 0, 0, 0.387908) /* Aluvian Leather Crafter Gen */
      , (28923, 1956339774, 1236664607, 12.6851, 87.2153, 240.005, -0.72284, 0, 0, 0.691015) /* Journeyman Fletcher */
      , (12050, 1956339743, 1236664614, 86.6889, 138.56, 240.005, 0.398503, 0, 0, 0.917167) /* Agent of the Arcanum */
-     , (7923, 1956339744, 1236664614, 87.0821, 137.261, 240.005, -0.999984, 0, 0, 0.00568011) /* linkmonstergen3minutes */
+     , (7923, 1956339744, 1236664614, 87.0821, 137.261, 240.005, -0.999984, 0, 0, 0.00568011) /* Linkable Monster Generator ( 3 Min.) */
      , (19716, 1956339764, 1236664620, 40.6881, 143.202, 234.805, -0.999976, 0, 0, 0.00696117) /* Mammet Foundry Portal */
      , (20207, 1956339766, 1236664625, 16.2567, 133.561, 240.005, -0.660777, 0, 0, -0.750582) /* Master Scrivener of Creature Magic */
      , (20219, 1956339765, 1236664626, 11.314, 129.651, 240.005, 0.798746, 0, 0, -0.601668) /* Master Scrivener of Life Magic */
@@ -35,26 +35,26 @@ VALUES (6113, 1956339738, 1236664576, 32.3143, 159.636, 240.005, -0.410659, 0, 0
      , (412, 1956339759, 1236664320, 16.695, 130.545, 239.995, 0.707107, 0, 0, 0.707107) /* Door */
      , (412, 1956339760, 1236664320, 15.245, 131.895, 242.995, 1, 0, 0, 0) /* Door */
      , (412, 1956339761, 1236664320, 14.2125, 128.19, 243, 0.707107, 0, 0, 0.707107) /* Door */
-     , (385, 1956339728, 1236664320, 58.4056, 154.433, 240.005, 0.993231, 0, 0, 0.11616) /* cow-generator */
+     , (385, 1956339728, 1236664320, 58.4056, 154.433, 240.005, 0.993231, 0, 0, 0.11616) /* Cow Generator */
      , (509, 1956339773, 1236664320, 59.5604, 68.8548, 239.743, 0.934521, 0, 0, 0.355909) /* Life Stone */
-     , (23631, 1956339771, 1236664320, 29.2898, 113.717, 296.033, 0.995395, 0, 0, -0.0958592) /* eventmadcowgen */
+     , (23631, 1956339771, 1236664320, 29.2898, 113.717, 296.033, 0.995395, 0, 0, -0.0958592) /* April 2003 Raining Mad Cows Gen */
      , (19391, 1956339770, 1236664320, 103.124, 88.6347, 240.005, -0.919471, 0, 0, -0.393159) /* Oriel Residential Halls */
      , (19369, 1956339769, 1236664320, 104.518, 87.303, 240.005, -0.919471, 0, 0, -0.393159) /* Oriel Residential Halls Portal */
-     , (385, 1956339733, 1236664320, 53.2505, 150.949, 240.005, 0.511748, 0, 0, -0.859136) /* cow-generator */
+     , (385, 1956339733, 1236664320, 53.2505, 150.949, 240.005, 0.511748, 0, 0, -0.859136) /* Cow Generator */
      , (2550, 1956339734, 1236664320, 12.9233, 172.297, 239.647, -0.99933, 0, 0, 0.0365982) /* Plateau Base */
      , (20223, 1956339768, 1236664320, 16.3913, 127.819, 243.005, -0.895642, 0, 0, -0.444776) /* Master Scrivener of War Magic */
      , (5874, 1956339736, 1236664320, 27.8013, 181.271, 238.901, -0.999898, 0, 0, -0.0143082) /* Mairisa bint Fuda */
-     , (7923, 1956339737, 1236664320, 28.6717, 179.036, 239.087, -0.990312, 0, 0, -0.138859) /* linkmonstergen3minutes */
+     , (7923, 1956339737, 1236664320, 28.6717, 179.036, 239.087, -0.990312, 0, 0, -0.138859) /* Linkable Monster Generator ( 3 Min.) */
      , (19204, 1956339763, 1236664320, 40.0691, 131.105, 246.81, -0.683339, 0, 0, 0.730101) /* Nullified Statue of a Skeleton */
      , (25988, 1956339772, 1236664320, 76.6074, 158.667, 240.005, 0.950298, 0, 0, -0.311342) /* Small Creepy Statue */
-     , (19457, 1956339762, 1236664320, 40.333, 131.039, 247.006, -0.683339, 0, 0, 0.730101) /* fireworksgen */
+     , (19457, 1956339762, 1236664320, 40.333, 131.039, 247.006, -0.683339, 0, 0, 0.730101) /* Fireworks Generator */
      , (12304, 1956339745, 1236664320, 79.2538, 140.423, 240.005, 0.717058, 0, 0, -0.697014) /* Agent of the Arcanum  */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1956339737'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1956339744'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1956339737'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1956339744'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1956339736'; /* linkmonstergen3minutes <- Mairisa bint Fuda */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1956339772'; /* linkmonstergen3minutes <- Small Creepy Statue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1956339774'; /* linkmonstergen3minutes <- Journeyman Fletcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1956339743'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1956339736'; /* Linkable Monster Generator ( 3 Min.) <- Mairisa bint Fuda */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1956339772'; /* Linkable Monster Generator ( 3 Min.) <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1956339774'; /* Linkable Monster Generator ( 3 Min.) <- Journeyman Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1956339743'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
 

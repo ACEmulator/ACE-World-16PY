@@ -8,12 +8,12 @@ VALUES (4448, 2093531141, 3431727363, 40.7592, 41.187, 26.005, -0.979909, 0, 0, 
      , (4431, 2093531148, 3431727104, 28.5502, 73.6603, 24.005, -0.994594, 0, 0, -0.103843) /* Rithwic Outpost */
      , (5074, 2093531150, 3431727104, 38.2396, 47.0638, 26.005, -0.0781584, 0, 0, -0.996941) /* East Rithwic Outpost */
      , (14, 2093531147, 3431727104, 71.0166, 44.1739, 26.0056, -0.117654, 0, 0, -0.993055) /* Cow */
-     , (3955, 2093531144, 3431727104, 69.1434, 37.8993, 26.005, -0.674986, 0, 0, -0.73783) /* linkmonstergen15minutes */
+     , (3955, 2093531144, 3431727104, 69.1434, 37.8993, 26.005, -0.674986, 0, 0, -0.73783) /* Linkable Monster Gen (15 min.) */
      , (4431, 2093531145, 3431727104, 26.6086, 56.118, 25.3302, 0.568074, 0, 0, -0.822978) /* Rithwic Outpost */
      , (509, 2093531146, 3431727104, 34.3448, 76.644, 24.005, -0.999474, 0, 0, 0.0324358) /* Life Stone */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2093531144'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2093531144'; /* Linkable Monster Gen (15 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2093531147'; /* linkmonstergen15minutes <- Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2093531143'; /* linkmonstergen15minutes <- Mindorla */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2093531147'; /* Linkable Monster Gen (15 min.) <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2093531143'; /* Linkable Monster Gen (15 min.) <- Mindorla */
 

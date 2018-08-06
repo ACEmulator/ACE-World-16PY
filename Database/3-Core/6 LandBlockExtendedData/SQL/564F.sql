@@ -26,31 +26,31 @@ VALUES (942, 1969549312, 1448018187, 139.216, -29.8375, -35.989, -0.988325, 0, 0
      , (200, 1969549336, 1448018456, 32.0506, -121.852, -5.989, 0.644975, 0, 0, 0.764203) /* Mud Golem */
      , (200, 1969549337, 1448018464, 39.6651, -104.958, -5.989, -0.144651, 0, 0, -0.989483) /* Mud Golem */
      , (22867, 1969549338, 1448018479, -0.813684, -150.99, 0.005, -0.422554, 0, 0, -0.906338) /* Exit */
-     , (7925, 1969549339, 1448018483, 7.23014, -147.982, 0.005, 0.999132, 0, 0, 0.041655) /* linkmonstergen10minutes */;
+     , (7925, 1969549339, 1448018483, 7.23014, -147.982, 0.005, 0.999132, 0, 0, 0.041655) /* Linkable Monster Generator ( 10 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1969549339'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1969549339'; /* Linkable Monster Generator ( 10 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549332'; /* linkmonstergen10minutes <- Mud Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549334'; /* linkmonstergen10minutes <- Mud Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549335'; /* linkmonstergen10minutes <- Mud Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549336'; /* linkmonstergen10minutes <- Mud Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549333'; /* linkmonstergen10minutes <- Wood Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549337'; /* linkmonstergen10minutes <- Mud Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549330'; /* linkmonstergen10minutes <- Mud Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549331'; /* linkmonstergen10minutes <- Mud Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549329'; /* linkmonstergen10minutes <- Mud Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549328'; /* linkmonstergen10minutes <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549327'; /* linkmonstergen10minutes <- Mud Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549321'; /* linkmonstergen10minutes <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549326'; /* linkmonstergen10minutes <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549323'; /* linkmonstergen10minutes <- Wood Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549322'; /* linkmonstergen10minutes <- Wood Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549324'; /* linkmonstergen10minutes <- Mud Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549325'; /* linkmonstergen10minutes <- Mud Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549312'; /* linkmonstergen10minutes <- Wood Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549313'; /* linkmonstergen10minutes <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549315'; /* linkmonstergen10minutes <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549319'; /* linkmonstergen10minutes <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549316'; /* linkmonstergen10minutes <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549320'; /* linkmonstergen10minutes <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549332'; /* Linkable Monster Generator ( 10 Min.) <- Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549334'; /* Linkable Monster Generator ( 10 Min.) <- Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549335'; /* Linkable Monster Generator ( 10 Min.) <- Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549336'; /* Linkable Monster Generator ( 10 Min.) <- Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549333'; /* Linkable Monster Generator ( 10 Min.) <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549337'; /* Linkable Monster Generator ( 10 Min.) <- Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549330'; /* Linkable Monster Generator ( 10 Min.) <- Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549331'; /* Linkable Monster Generator ( 10 Min.) <- Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549329'; /* Linkable Monster Generator ( 10 Min.) <- Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549328'; /* Linkable Monster Generator ( 10 Min.) <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549327'; /* Linkable Monster Generator ( 10 Min.) <- Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549321'; /* Linkable Monster Generator ( 10 Min.) <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549326'; /* Linkable Monster Generator ( 10 Min.) <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549323'; /* Linkable Monster Generator ( 10 Min.) <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549322'; /* Linkable Monster Generator ( 10 Min.) <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549324'; /* Linkable Monster Generator ( 10 Min.) <- Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549325'; /* Linkable Monster Generator ( 10 Min.) <- Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549312'; /* Linkable Monster Generator ( 10 Min.) <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549313'; /* Linkable Monster Generator ( 10 Min.) <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549315'; /* Linkable Monster Generator ( 10 Min.) <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549319'; /* Linkable Monster Generator ( 10 Min.) <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549316'; /* Linkable Monster Generator ( 10 Min.) <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969549320'; /* Linkable Monster Generator ( 10 Min.) <- Wood Golem */
 

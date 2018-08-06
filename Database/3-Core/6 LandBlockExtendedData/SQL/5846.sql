@@ -1,5 +1,5 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7924, 1971609607, 1480982788, 20, -20, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
+VALUES (7924, 1971609607, 1480982788, 20, -20, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
      , (21551, 1971609608, 1480982804, 17.8714, -41.1643, 6.0065, -0.014978, 0, 0, -0.999888) /* Strife Wisp */
      , (21551, 1971609609, 1480982804, 21.7773, -41.2814, 6.0065, -0.014978, 0, 0, -0.999888) /* Strife Wisp */
      , (21551, 1971609610, 1480982831, 22.4134, -10.2973, 12.0065, 0.701019, 0, 0, 0.713143) /* Strife Wisp */
@@ -55,52 +55,52 @@ VALUES (7924, 1971609607, 1480982788, 20, -20, 0.005, 1, 0, 0, 0) /* linkmonster
      , (613, 1971609605, 1480983508, 42.98, -64.321, 84.005, 0, 0, 0, -1) /* Chest */
      , (613, 1971609606, 1480983518, 46.6969, -64.3805, 84.005, -4.37114E-08, 0, 0, -1) /* Chest */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1971609607'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1971609607'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609608'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609609'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609610'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609611'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609612'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609613'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609614'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609615'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609616'; /* linkmonstergen5minutes <- Buillic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609617'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609618'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609621'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609619'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609620'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609623'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609622'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609624'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609625'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609626'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609629'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609630'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609631'; /* linkmonstergen5minutes <- Buillic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609627'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609628'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609632'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609633'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609637'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609636'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609634'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609635'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609638'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609639'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609640'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609646'; /* linkmonstergen5minutes <- Buillic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609644'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609647'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609645'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609643'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609642'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609641'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609650'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609651'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609648'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609649'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609652'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609656'; /* linkmonstergen5minutes <- Platinum Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609608'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609609'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609610'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609611'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609612'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609613'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609614'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609615'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609616'; /* Linkable Monster Generator ( 5 Min.) <- Buillic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609617'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609618'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609621'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609619'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609620'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609623'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609622'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609624'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609625'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609626'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609629'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609630'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609631'; /* Linkable Monster Generator ( 5 Min.) <- Buillic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609627'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609628'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609632'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609633'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609637'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609636'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609634'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609635'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609638'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609639'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609640'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609646'; /* Linkable Monster Generator ( 5 Min.) <- Buillic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609644'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609647'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609645'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609643'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609642'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609641'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609650'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609651'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609648'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609649'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609652'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971609656'; /* Linkable Monster Generator ( 5 Min.) <- Platinum Golem */
 

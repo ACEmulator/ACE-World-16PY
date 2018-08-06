@@ -36,7 +36,7 @@ VALUES (24188, 1978949632, 1598423299, 10.0076, -70.1067, -9.34112, 0.731689, 0,
      , (1210, 1978949666, 1598423363, 40.2683, -118.174, -5.995, 0.999973, 0, 0, -0.00732505) /* Mercenary */
      , (2131, 1978949667, 1598423368, 53.4675, -100.065, -5.995, 0.693321, 0, 0, -0.720628) /* Pressure Plate */
      , (24184, 1978949668, 1598423380, 110.064, -160.162, -4.96562, 0, 0, 0, -1) /* Body of Jaleh al-Thani */
-     , (7923, 1978949669, 1598423380, 107.83, -162.466, -5.995, 0.997189, 0, 0, 0.0749293) /* linkmonstergen3minutes */
+     , (7923, 1978949669, 1598423380, 107.83, -162.466, -5.995, 0.997189, 0, 0, 0.0749293) /* Linkable Monster Generator ( 3 Min.) */
      , (24178, 1978949670, 1598423380, 111.714, -159.991, -5.995, 0.96571, 0, 0, 0.259622) /* Jaleh's Slippers */
      , (24176, 1978949671, 1598423380, 108.947, -160.423, -5.9795, 0.999975, 0, 0, -0.00709938) /* Jaleh's Wedding Ring */
      , (188, 1978949672, 1598423387, 119.175, -181.69, -5.995, -0.018329, 0, 0, -0.999832) /* Bandit Mage */
@@ -48,9 +48,9 @@ VALUES (24188, 1978949632, 1598423299, 10.0076, -70.1067, -9.34112, 0.731689, 0,
      , (1302, 1978949678, 1598423396, 134.75, -140, -6, -0.707107, 0, 0, 0.707107) /* Door */
      , (1302, 1978949679, 1598423397, 130, -144.75, -6, -4.37114E-08, 0, 0, -1) /* Door */
      , (1302, 1978949680, 1598423406, 140, -125.25, -6, 1, 0, 0, 0) /* Door */
-     , (7924, 1978949681, 1598423433, 36.9956, 0.158069, 0.005, 0.0267718, 0, 0, 0.999642) /* linkmonstergen5minutes */
-     , (7924, 1978949682, 1598423433, 39.2474, 0.038084, 0.005, 0.0267718, 0, 0, 0.999642) /* linkmonstergen5minutes */
-     , (7924, 1978949683, 1598423433, 42.19, -0.120364, 0.005, 0.0267718, 0, 0, 0.999642) /* linkmonstergen5minutes */
+     , (7924, 1978949681, 1598423433, 36.9956, 0.158069, 0.005, 0.0267718, 0, 0, 0.999642) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1978949682, 1598423433, 39.2474, 0.038084, 0.005, 0.0267718, 0, 0, 0.999642) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1978949683, 1598423433, 42.19, -0.120364, 0.005, 0.0267718, 0, 0, 0.999642) /* Linkable Monster Generator ( 5 Min.) */
      , (24192, 1978949684, 1598423435, 40.04, -13.755, 0.005, 0, 0, 0, -1) /* Bludgeon Vulnerability Trap */
      , (1302, 1978949685, 1598423438, 40, -15.25, 0, 1, 0, 0, 0) /* Door */
      , (24188, 1978949686, 1598423438, 40.0684, -21.9855, 1.38825, -0.002522, 0, 0, 0.999997) /* Crushing Trap */
@@ -83,7 +83,7 @@ VALUES (24188, 1978949632, 1598423299, 10.0076, -70.1067, -9.34112, 0.731689, 0,
      , (1218, 1978949713, 1598423492, 84.5132, -202.006, 0.005, 0.962425, 0, 0, 0.271547) /* Thief */
      , (24183, 1978949714, 1598423497, 81.9485, -223.812, 0.04221, -0.188127, 0, 0, -0.982145) /* Jaleh's Necklace */
      , (24177, 1978949715, 1598423499, 83.1038, -217.933, 0.005, -0.419578, 0, 0, 0.907719) /* Jaleh's Silk Shirt */
-     , (15759, 1978949716, 1598423499, 80.7561, -216.967, 0.005, -0.00797996, 0, 0, 0.999968) /* linkitemgen10seconds */
+     , (15759, 1978949716, 1598423499, 80.7561, -216.967, 0.005, -0.00797996, 0, 0, 0.999968) /* Linkable Item Generator */
      , (10942, 1978949717, 1598423503, 77.4642, -230.053, 0.005, 0.696707, 0, 0, 0.717356) /* Adroth Salson */
      , (10938, 1978949718, 1598423503, 79.0674, -228.902, 0.005, 0.696707, 0, 0, 0.717356) /* Li Fanli */
      , (10940, 1978949719, 1598423503, 79.1408, -231.414, 0.005, 0.696707, 0, 0, 0.717356) /* Itala the Knife */
@@ -169,10 +169,10 @@ VALUES (24188, 1978949632, 1598423299, 10.0076, -70.1067, -9.34112, 0.731689, 0,
      , (187, 1978949799, 1598423734, 46.3338, -181.679, 12.005, -0.982414, 0, 0, 0.186716) /* Bandit Lord */
      , (1210, 1978949800, 1598423734, 46.1043, -179.551, 12.005, -0.958865, 0, 0, 0.283861) /* Mercenary */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1978949669'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1978949683'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1978949681'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1978949682'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1978949669'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1978949683'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1978949681'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1978949682'; /* Linkable Monster Generator ( 5 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1978949691'; /* Crushing Trap */
 UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1978949690'; /* Crushing Trap */
 UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1978949686'; /* Crushing Trap */
@@ -192,96 +192,96 @@ UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1978949704'; /* Spike Trap */
 UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1978949705'; /* Crushing Trap */
 UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1978949706'; /* Evisceration Trap */
-UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1978949716'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1978949716'; /* Linkable Item Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978949668'; /* linkmonstergen3minutes <- Body of Jaleh al-Thani */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978949720'; /* linkmonstergen5minutes <- Torgrym the Magnificent */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978949721'; /* linkmonstergen5minutes <- Den-Ru Chang */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978949717'; /* linkmonstergen5minutes <- Adroth Salson */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978949718'; /* linkmonstergen5minutes <- Li Fanli */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978949719'; /* linkmonstergen5minutes <- Itala the Knife */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949651'; /* linkmonstergen5minutes <- Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949652'; /* linkmonstergen5minutes <- Rogue Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949638'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949639'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949640'; /* linkmonstergen5minutes <- Bandit Lord */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949633'; /* linkmonstergen5minutes <- Bandit Lord */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949653'; /* linkmonstergen5minutes <- Rogue Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949654'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949655'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949656'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949666'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949760'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949761'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949762'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949634'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949635'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949664'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949665'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949783'; /* linkmonstergen5minutes <- Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949784'; /* linkmonstergen5minutes <- Rogue Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949769'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949770'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949771'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949782'; /* linkmonstergen5minutes <- Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949746'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949744'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949747'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949748'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949722'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949723'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949724'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949745'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949735'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949743'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949759'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949754'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949725'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949726'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949733'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949734'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949756'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949757'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949732'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949713'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949711'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949731'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949712'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949755'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949738'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949739'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949727'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949749'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949698'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949699'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949700'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949737'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949672'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949673'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949674'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949675'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949750'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949752'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949728'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949729'; /* linkmonstergen5minutes <- Thief */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949796'; /* linkmonstergen5minutes <- Rogue Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949797'; /* linkmonstergen5minutes <- Rogue Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949793'; /* linkmonstergen5minutes <- Bandit Lord */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949776'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949777'; /* linkmonstergen5minutes <- Rogue Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949772'; /* linkmonstergen5minutes <- Rogue Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949798'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949799'; /* linkmonstergen5minutes <- Bandit Lord */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949800'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949775'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949767'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949695'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949696'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949697'; /* linkmonstergen5minutes <- Mercenary */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949763'; /* linkmonstergen5minutes <- Rogue Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949764'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949765'; /* linkmonstergen5minutes <- Bandit Mage */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949766'; /* linkmonstergen5minutes <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978949668'; /* Linkable Monster Generator ( 3 Min.) <- Body of Jaleh al-Thani */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978949720'; /* Linkable Monster Generator ( 5 Min.) <- Torgrym the Magnificent */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978949721'; /* Linkable Monster Generator ( 5 Min.) <- Den-Ru Chang */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978949717'; /* Linkable Monster Generator ( 5 Min.) <- Adroth Salson */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978949718'; /* Linkable Monster Generator ( 5 Min.) <- Li Fanli */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978949719'; /* Linkable Monster Generator ( 5 Min.) <- Itala the Knife */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949651'; /* Linkable Monster Generator ( 5 Min.) <- Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949652'; /* Linkable Monster Generator ( 5 Min.) <- Rogue Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949638'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949639'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949640'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949633'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949653'; /* Linkable Monster Generator ( 5 Min.) <- Rogue Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949654'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949655'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949656'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949666'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949760'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949761'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949762'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949634'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949635'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949664'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949665'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949783'; /* Linkable Monster Generator ( 5 Min.) <- Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949784'; /* Linkable Monster Generator ( 5 Min.) <- Rogue Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949769'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949770'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949771'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949782'; /* Linkable Monster Generator ( 5 Min.) <- Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949746'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949744'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949747'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949748'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949722'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949723'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949724'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949745'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949735'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949743'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949759'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949754'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949725'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949726'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949733'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949734'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949756'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949757'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949732'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949713'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949711'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949731'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949712'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978949755'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949738'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949739'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949727'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949749'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949698'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949699'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949700'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949737'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949672'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949673'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949674'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949675'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949750'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949752'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949728'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949729'; /* Linkable Monster Generator ( 5 Min.) <- Thief */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949796'; /* Linkable Monster Generator ( 5 Min.) <- Rogue Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949797'; /* Linkable Monster Generator ( 5 Min.) <- Rogue Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949793'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Lord */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949776'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949777'; /* Linkable Monster Generator ( 5 Min.) <- Rogue Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949772'; /* Linkable Monster Generator ( 5 Min.) <- Rogue Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949798'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949799'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Lord */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949800'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949775'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949767'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949695'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949696'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949697'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949763'; /* Linkable Monster Generator ( 5 Min.) <- Rogue Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949764'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949765'; /* Linkable Monster Generator ( 5 Min.) <- Bandit Mage */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978949766'; /* Linkable Monster Generator ( 5 Min.) <- Mercenary */
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1978949689'; /* Crushing Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1978949688'; /* Crushing Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1978949687'; /* Crushing Trap <- Pressure Plate */
@@ -301,13 +301,13 @@ UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1978949792'; /* 
 UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1978949702'; /* Spike Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1978949701'; /* Crushing Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1978949703'; /* Evisceration Trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949740'; /* linkitemgen10seconds <- Jaleh's Turban */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949714'; /* linkitemgen10seconds <- Jaleh's Necklace */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949670'; /* linkitemgen10seconds <- Jaleh's Slippers */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949715'; /* linkitemgen10seconds <- Jaleh's Silk Shirt */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949671'; /* linkitemgen10seconds <- Jaleh's Wedding Ring */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949778'; /* linkitemgen10seconds <- Aged Page */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949736'; /* linkitemgen10seconds <- Note scrawled in blood */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949677'; /* linkitemgen10seconds <- Blood Stained Book */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949692'; /* linkitemgen10seconds <- Key to Jaleh's Chest */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949740'; /* Linkable Item Generator <- Jaleh's Turban */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949714'; /* Linkable Item Generator <- Jaleh's Necklace */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949670'; /* Linkable Item Generator <- Jaleh's Slippers */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949715'; /* Linkable Item Generator <- Jaleh's Silk Shirt */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949671'; /* Linkable Item Generator <- Jaleh's Wedding Ring */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949778'; /* Linkable Item Generator <- Aged Page */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949736'; /* Linkable Item Generator <- Note scrawled in blood */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949677'; /* Linkable Item Generator <- Blood Stained Book */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1978949692'; /* Linkable Item Generator <- Key to Jaleh's Chest */
 

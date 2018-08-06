@@ -1,6 +1,6 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7924, 1879072769, 393473, 8.9647, -166.85, 6.005, 0.708539, 0, 0, -0.705671) /* linkmonstergen5minutes */
-     , (7923, 1879072770, 393473, 9.12316, -172.943, 6.005, 0.708539, 0, 0, -0.705671) /* linkmonstergen3minutes */
+VALUES (7924, 1879072769, 393473, 8.9647, -166.85, 6.005, 0.708539, 0, 0, -0.705671) /* Linkable Monster Generator ( 5 Min.) */
+     , (7923, 1879072770, 393473, 9.12316, -172.943, 6.005, 0.708539, 0, 0, -0.705671) /* Linkable Monster Generator ( 3 Min.) */
      , (24282, 1879072771, 393474, 10, -190, 6.005, 1, 0, 0, -4.37114E-08) /* Peerless Drudge */
      , (24282, 1879072772, 393478, 10, -200, 6.005, 1, 0, 0, 0) /* Peerless Drudge */
      , (24282, 1879072773, 393482, 10, -210, 6.005, 1, 0, 0, 0) /* Peerless Drudge */
@@ -169,172 +169,172 @@ VALUES (7924, 1879072769, 393473, 8.9647, -166.85, 6.005, 0.708539, 0, 0, -0.705
      , (25854, 1879072968, 394162, 110.466, -61.1915, 30.029, 0.020795, 0, 0, -0.999784) /* Befouled Doll */
      , (24282, 1879072917, 394163, 110, -70, 30.005, 1, 0, 0, -4.37114E-08) /* Peerless Drudge */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879072770'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879072769'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879072770'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879072769'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879072965'; /* linkmonstergen3minutes <- Western Overseer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879072966'; /* linkmonstergen3minutes <- Western Overseer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879072872'; /* linkmonstergen3minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879072964'; /* linkmonstergen3minutes <- Western Overseer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072869'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072873'; /* linkmonstergen5minutes <- Virindi Desecrator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072880'; /* linkmonstergen5minutes <- Virindi Desecrator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072865'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072867'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072870'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072879'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072826'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072858'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072859'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072861'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072836'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072831'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072825'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072914'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072887'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072852'; /* linkmonstergen5minutes <- Virindi Desecrator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072894'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072891'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072889'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072908'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072886'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072910'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072911'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072907'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072915'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072913'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072912'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072885'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072917'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072884'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072888'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072900'; /* linkmonstergen5minutes <- Virindi Desecrator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072899'; /* linkmonstergen5minutes <- Virindi Desecrator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072898'; /* linkmonstergen5minutes <- Virindi Desecrator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072893'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072903'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072895'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072897'; /* linkmonstergen5minutes <- Virindi Desecrator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072901'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072905'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072892'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072906'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072896'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072904'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072771'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072772'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072776'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072779'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072782'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072786'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072773'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072778'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072827'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072828'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072822'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072829'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072788'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072789'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072803'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072795'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072816'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072820'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072818'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072812'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072811'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072801'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072815'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072808'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072793'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072794'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072813'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072800'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072798'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072799'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072787'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072783'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072809'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072806'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072804'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072792'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072791'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072845'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072824'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072842'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072844'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072834'; /* linkmonstergen5minutes <- Virindi Desecrator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072839'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072823'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072840'; /* linkmonstergen5minutes <- Virindi Desecrator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072874'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072875'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072841'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072830'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072853'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072855'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072871'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072876'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072864'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072856'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072854'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072863'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072847'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072866'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072843'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072814'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072849'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072817'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072819'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072877'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072878'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072850'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072882'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072921'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072919'; /* linkmonstergen5minutes <- Mottled Carenzi */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072918'; /* linkmonstergen5minutes <- Mottled Carenzi */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072920'; /* linkmonstergen5minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072922'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072949'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072948'; /* linkmonstergen5minutes <- Mottled Carenzi */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072950'; /* linkmonstergen5minutes <- Mottled Carenzi */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072947'; /* linkmonstergen5minutes <- Mottled Carenzi */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072953'; /* linkmonstergen5minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072951'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072952'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072955'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072961'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072960'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072959'; /* linkmonstergen5minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072954'; /* linkmonstergen5minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072937'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072941'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072938'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072936'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072940'; /* linkmonstergen5minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072931'; /* linkmonstergen5minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072942'; /* linkmonstergen5minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072939'; /* linkmonstergen5minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072934'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072930'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072935'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072932'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072927'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072924'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072929'; /* linkmonstergen5minutes <- Mottled Carenzi */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072933'; /* linkmonstergen5minutes <- Mottled Carenzi */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072926'; /* linkmonstergen5minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072928'; /* linkmonstergen5minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072925'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072923'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072944'; /* linkmonstergen5minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072943'; /* linkmonstergen5minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072957'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072956'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072946'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072945'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072958'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072963'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072968'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072967'; /* linkmonstergen5minutes <- Befouled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072962'; /* linkmonstergen5minutes <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879072965'; /* Linkable Monster Generator ( 3 Min.) <- Western Overseer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879072966'; /* Linkable Monster Generator ( 3 Min.) <- Western Overseer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879072872'; /* Linkable Monster Generator ( 3 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879072964'; /* Linkable Monster Generator ( 3 Min.) <- Western Overseer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072869'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072873'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Desecrator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072880'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Desecrator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072865'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072867'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072870'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072879'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072826'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072858'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072859'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072861'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072836'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072831'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072825'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072914'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072887'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072852'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Desecrator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072894'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072891'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072889'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072908'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072886'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072910'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072911'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072907'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072915'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072913'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072912'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072885'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072917'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072884'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072888'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072900'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Desecrator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072899'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Desecrator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072898'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Desecrator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072893'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072903'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072895'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072897'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Desecrator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072901'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072905'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072892'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072906'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072896'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072904'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072771'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072772'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072776'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072779'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072782'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072786'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072773'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072778'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072827'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072828'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072822'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072829'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072788'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072789'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072803'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072795'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072816'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072820'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072818'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072812'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072811'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072801'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072815'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072808'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072793'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072794'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072813'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072800'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072798'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072799'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072787'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072783'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072809'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072806'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072804'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072792'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072791'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072845'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072824'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072842'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072844'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072834'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Desecrator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072839'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072823'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072840'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Desecrator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072874'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072875'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072841'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072830'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072853'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072855'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072871'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072876'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072864'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072856'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072854'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072863'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072847'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072866'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072843'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072814'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072849'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072817'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072819'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072877'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072878'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072850'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072882'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072921'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072919'; /* Linkable Monster Generator ( 5 Min.) <- Mottled Carenzi */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072918'; /* Linkable Monster Generator ( 5 Min.) <- Mottled Carenzi */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072920'; /* Linkable Monster Generator ( 5 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072922'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072949'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072948'; /* Linkable Monster Generator ( 5 Min.) <- Mottled Carenzi */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072950'; /* Linkable Monster Generator ( 5 Min.) <- Mottled Carenzi */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072947'; /* Linkable Monster Generator ( 5 Min.) <- Mottled Carenzi */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072953'; /* Linkable Monster Generator ( 5 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072951'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072952'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072955'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072961'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072960'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072959'; /* Linkable Monster Generator ( 5 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072954'; /* Linkable Monster Generator ( 5 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072937'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072941'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072938'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072936'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072940'; /* Linkable Monster Generator ( 5 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072931'; /* Linkable Monster Generator ( 5 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072942'; /* Linkable Monster Generator ( 5 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072939'; /* Linkable Monster Generator ( 5 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072934'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072930'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072935'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072932'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072927'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072924'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072929'; /* Linkable Monster Generator ( 5 Min.) <- Mottled Carenzi */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072933'; /* Linkable Monster Generator ( 5 Min.) <- Mottled Carenzi */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072926'; /* Linkable Monster Generator ( 5 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072928'; /* Linkable Monster Generator ( 5 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072925'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072923'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072944'; /* Linkable Monster Generator ( 5 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072943'; /* Linkable Monster Generator ( 5 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072957'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072956'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072946'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072945'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072958'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072963'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072968'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072967'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879072962'; /* Linkable Monster Generator ( 5 Min.) <- Befouled Doll */
 

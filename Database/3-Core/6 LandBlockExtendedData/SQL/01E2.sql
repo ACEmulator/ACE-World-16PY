@@ -35,7 +35,7 @@ VALUES (619, 1881022596, 31588611, 16.489, -66.6041, -17.9918, 0.707107, 0, 0, -
      , (1217, 1881022501, 31588662, 87.4307, -29.0413, -18, 0.834487, 0, 0, -0.551027) /* Corpse */
      , (5844, 1881022502, 31588662, 86.7132, -33.3932, -18, 0.111578, 0, 0, -0.993756) /* Gwillim's Alchemy Bag */
      , (5841, 1881022504, 31588662, 86.7514, -32.6635, -17.921, 0.926734, 0, 0, -0.375719) /* Gwillim's Alchemy Notes */
-     , (15759, 1881022612, 31588662, 90.7162, -31.5388, -17.995, -0.075991, 0, 0, -0.997108) /* linkitemgen10seconds */
+     , (15759, 1881022612, 31588662, 90.7162, -31.5388, -17.995, -0.075991, 0, 0, -0.997108) /* Linkable Item Generator */
      , (7183, 1881022667, 31588662, 88.5902, -32.1858, -17.987, 1, 0, 0, 0) /* Jungle Phyntos Wasp */
      , (7183, 1881022668, 31588662, 92.6726, -33.6777, -17.987, 1, 0, 0, 0) /* Jungle Phyntos Wasp */
      , (2131, 1881022507, 31588665, 14.3196, -39.8979, -12, -0.718733, 0, 0, -0.695286) /* Pressure Plate */
@@ -123,71 +123,71 @@ VALUES (619, 1881022596, 31588611, 16.489, -66.6041, -17.9918, 0.707107, 0, 0, -
      , (7085, 1881022660, 31588911, 73.5052, 2.51321, 18.0071, -0.551027, 0, 0, -0.834487) /* Banderling Berserker */
      , (7085, 1881022661, 31588914, 73.0889, -36.9634, 18.0071, 0.477769, 0, 0, 0.878486) /* Banderling Berserker */
      , (1269, 1881022592, 31588921, 66.4104, -17.6769, 24, -0.70122, 0, 0, -0.712945) /* Bandit Castle Prison Sign */
-     , (7924, 1881022662, 31588928, 77.563, -20.876, 24.005, 0.758279, 0, 0, -0.65193) /* linkmonstergen5minutes */
-     , (7924, 1881022663, 31588928, 77.5039, -19.4694, 24.005, 0.758279, 0, 0, -0.65193) /* linkmonstergen5minutes */;
+     , (7924, 1881022662, 31588928, 77.563, -20.876, 24.005, 0.758279, 0, 0, -0.65193) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1881022663, 31588928, 77.5039, -19.4694, 24.005, 0.758279, 0, 0, -0.65193) /* Linkable Monster Generator ( 5 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881022612'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881022663'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881022662'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881022612'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881022663'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881022662'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881022502'; /* linkitemgen10seconds <- Gwillim's Alchemy Bag */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881022504'; /* linkitemgen10seconds <- Gwillim's Alchemy Notes */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022634'; /* linkmonstergen5minutes <- Altered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022636'; /* linkmonstergen5minutes <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022635'; /* linkmonstergen5minutes <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022630'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022629'; /* linkmonstergen5minutes <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022622'; /* linkmonstergen5minutes <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022631'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022644'; /* linkmonstergen5minutes <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022648'; /* linkmonstergen5minutes <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022653'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022649'; /* linkmonstergen5minutes <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022655'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022654'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022656'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022602'; /* linkmonstergen5minutes <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022599'; /* linkmonstergen5minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022608'; /* linkmonstergen5minutes <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022604'; /* linkmonstergen5minutes <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022603'; /* linkmonstergen5minutes <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022618'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022494'; /* linkmonstergen5minutes <- Giant White Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022623'; /* linkmonstergen5minutes <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022668'; /* linkmonstergen5minutes <- Jungle Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022667'; /* linkmonstergen5minutes <- Jungle Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022666'; /* linkmonstergen5minutes <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022674'; /* linkmonstergen5minutes <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022675'; /* linkmonstergen5minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022665'; /* linkmonstergen5minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022664'; /* linkmonstergen5minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022669'; /* linkmonstergen5minutes <- Ulu Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022670'; /* linkmonstergen5minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022671'; /* linkmonstergen5minutes <- Olthoi Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022673'; /* linkmonstergen5minutes <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022672'; /* linkmonstergen5minutes <- Opor Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022493'; /* linkmonstergen5minutes <- Giant White Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022596'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022617'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022495'; /* linkmonstergen5minutes <- Giant White Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022598'; /* linkmonstergen5minutes <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022597'; /* linkmonstergen5minutes <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022626'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022625'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022607'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022606'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022620'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022624'; /* linkmonstergen5minutes <- Banderling Mauler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022619'; /* linkmonstergen5minutes <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022633'; /* linkmonstergen5minutes <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022637'; /* linkmonstergen5minutes <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022639'; /* linkmonstergen5minutes <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022638'; /* linkmonstergen5minutes <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022652'; /* linkmonstergen5minutes <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022643'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022647'; /* linkmonstergen5minutes <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022646'; /* linkmonstergen5minutes <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022661'; /* linkmonstergen5minutes <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022659'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022660'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881022502'; /* Linkable Item Generator <- Gwillim's Alchemy Bag */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881022504'; /* Linkable Item Generator <- Gwillim's Alchemy Notes */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022634'; /* Linkable Monster Generator ( 5 Min.) <- Altered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022636'; /* Linkable Monster Generator ( 5 Min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022635'; /* Linkable Monster Generator ( 5 Min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022630'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022629'; /* Linkable Monster Generator ( 5 Min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022622'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022631'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022644'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022648'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022653'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022649'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022655'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022654'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022656'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022602'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022599'; /* Linkable Monster Generator ( 5 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022608'; /* Linkable Monster Generator ( 5 Min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022604'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022603'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022618'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022494'; /* Linkable Monster Generator ( 5 Min.) <- Giant White Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022623'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022668'; /* Linkable Monster Generator ( 5 Min.) <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022667'; /* Linkable Monster Generator ( 5 Min.) <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022666'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022674'; /* Linkable Monster Generator ( 5 Min.) <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022675'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022665'; /* Linkable Monster Generator ( 5 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022664'; /* Linkable Monster Generator ( 5 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022669'; /* Linkable Monster Generator ( 5 Min.) <- Ulu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022670'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022671'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022673'; /* Linkable Monster Generator ( 5 Min.) <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881022672'; /* Linkable Monster Generator ( 5 Min.) <- Opor Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022493'; /* Linkable Monster Generator ( 5 Min.) <- Giant White Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022596'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022617'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022495'; /* Linkable Monster Generator ( 5 Min.) <- Giant White Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022598'; /* Linkable Monster Generator ( 5 Min.) <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022597'; /* Linkable Monster Generator ( 5 Min.) <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022626'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022625'; /* Linkable Monster Generator ( 5 Min.) <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022607'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022606'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022620'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022624'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Mauler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022619'; /* Linkable Monster Generator ( 5 Min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022633'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022637'; /* Linkable Monster Generator ( 5 Min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022639'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022638'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022652'; /* Linkable Monster Generator ( 5 Min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022643'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022647'; /* Linkable Monster Generator ( 5 Min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022646'; /* Linkable Monster Generator ( 5 Min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022661'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022659'; /* Linkable Monster Generator ( 5 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881022660'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Berserker */
 

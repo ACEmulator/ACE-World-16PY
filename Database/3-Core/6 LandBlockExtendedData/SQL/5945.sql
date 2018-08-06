@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6122, 1972654080, 1497694464, 0.015341, -50, -29.9244, 1, 0, 0, 0) /* Acid */
      , (21383, 1972654108, 1497694464, 0.453568, -51.3429, -29.995, 0.701755, 0, 0, -0.712418) /* Gaerlan */
-     , (7926, 1972654109, 1497694464, 0.015341, -45.4881, -27.27, 1, 0, 0, 0) /* linkmonstergen20minutes */
+     , (7926, 1972654109, 1497694464, 0.015341, -45.4881, -27.27, 1, 0, 0, 0) /* Linkable Monster Generator ( 20 Min.) */
      , (6122, 1972654081, 1497694465, 5.25032E-10, -59.9847, -29.9244, 1, 0, 0, 0) /* Acid */
      , (6122, 1972654082, 1497694466, 10, -50.0153, -29.9244, 1, 0, 0, 0) /* Acid */
      , (6122, 1972654083, 1497694467, 10, -59.9847, -29.9244, 1, 0, 0, 0) /* Acid */
@@ -13,28 +13,28 @@ VALUES (6122, 1972654080, 1497694464, 0.015341, -50, -29.9244, 1, 0, 0, 0) /* Ac
      , (14514, 1972654098, 1497694514, 58.8166, -88.308, 2.205, 0.0961411, 0, 0, -0.995368) /* Miasma */
      , (14514, 1972654100, 1497694520, 68.5005, -72.7871, 2.205, 0.291501, 0, 0, -0.956571) /* Miasma */
      , (14514, 1972654099, 1497694523, 69.05, -77.8559, 2.205, 0.070737, 0, 0, 0.997495) /* Miasma */
-     , (7924, 1972654101, 1497694535, 77.3392, -97.603, 0.005, 0.760335, 0, 0, 0.649531) /* linkmonstergen5minutes */
+     , (7924, 1972654101, 1497694535, 77.3392, -97.603, 0.005, 0.760335, 0, 0, 0.649531) /* Linkable Monster Generator ( 5 Min.) */
      , (21549, 1972654102, 1497694538, 90, 0, 0.0065, 1, 0, 0, 0) /* Corrosion Wisp */
      , (14514, 1972654103, 1497694545, 85.25, -80.95, 2.205, 0.748499, 0, 0, 0.663136) /* Miasma */
      , (21549, 1972654104, 1497694549, 59.9859, -33.1007, 6.0065, -0.019797, 0, 0, -0.999804) /* Corrosion Wisp */
      , (21549, 1972654105, 1497694550, 60, -40, 6.0065, 1, 0, 0, 0) /* Corrosion Wisp */
      , (21549, 1972654106, 1497694662, 89.5643, -37.5076, 6.0065, 0.997576, 0, 0, -0.069591) /* Corrosion Wisp */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1972654101'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1972654109'; /* linkmonstergen20minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1972654101'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1972654109'; /* Linkable Monster Generator ( 20 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654098'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654103'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654099'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654100'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654097'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654102'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654106'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654105'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654094'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654095'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654096'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654093'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654104'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972654108'; /* linkmonstergen20minutes <- Gaerlan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654098'; /* Linkable Monster Generator ( 5 Min.) <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654103'; /* Linkable Monster Generator ( 5 Min.) <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654099'; /* Linkable Monster Generator ( 5 Min.) <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654100'; /* Linkable Monster Generator ( 5 Min.) <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654097'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654102'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654106'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654105'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654094'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654095'; /* Linkable Monster Generator ( 5 Min.) <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654096'; /* Linkable Monster Generator ( 5 Min.) <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654093'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654104'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972654108'; /* Linkable Monster Generator ( 20 Min.) <- Gaerlan */
 

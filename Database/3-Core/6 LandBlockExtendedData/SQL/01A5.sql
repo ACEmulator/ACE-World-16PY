@@ -5,7 +5,7 @@ VALUES (8431, 1880772706, 27590912, 40.5961, -103.938, -47.9935, -0.646431, 0, 0
      , (8431, 1880772707, 27590915, 53.0581, -95.3571, -47.9935, -0.132439, 0, 0, 0.991191) /* Nomad Mu-miyah */
      , (1018, 1880772610, 27590916, 47.6067, -112.491, -48, 0.92388, 0, 0, -0.382683) /* Portal to Hebian-To */
      , (1032, 1880772611, 27590917, 47.7157, -119.88, -48, -0.707107, 0, 0, -0.707107) /* Portal to Zaikhal */
-     , (15759, 1880772669, 27590918, 63.3609, -89.8338, -47.995, 0.0778164, 0, 0, 0.996968) /* linkitemgen10seconds */
+     , (15759, 1880772669, 27590918, 63.3609, -89.8338, -47.995, 0.0778164, 0, 0, 0.996968) /* Linkable Item Generator */
      , (25332, 1880772670, 27590918, 63.9111, -88.1515, -47.995, -0.99236, 0, 0, 0.123377) /* Alloy Motor */
      , (8431, 1880772708, 27590924, 68.4266, -105.554, -47.9935, 0.708275, 0, 0, 0.705937) /* Nomad Mu-miyah */
      , (7117, 1880772709, 27590964, 67.3519, -81.8439, -17.9935, 1, 0, 0, 0) /* Guardian Mu-miyah */
@@ -40,7 +40,7 @@ VALUES (8431, 1880772706, 27590912, 40.5961, -103.938, -47.9935, -0.646431, 0, 0
      , (24294, 1880772729, 27591020, 32.3091, -58.1504, 0.00715, -0.707107, 0, 0, -0.707107) /* Unruly Monouga */
      , (24294, 1880772730, 27591024, 38.465, -51.4679, 0.00715, -0.316374, 0, 0, -0.948635) /* Unruly Monouga */
      , (24294, 1880772731, 27591024, 39.8081, -52.9153, 0.00715, 1, 0, 0, 0) /* Unruly Monouga */
-     , (794, 1880772646, 27591026, 40.1712, -99.5072, 3.11637, 0.707107, 0, 0, -0.707107) /* applegenerator */
+     , (794, 1880772646, 27591026, 40.1712, -99.5072, 3.11637, 0.707107, 0, 0, -0.707107) /* Apple Generator */
      , (24294, 1880772732, 27591028, 49.626, -43.4944, 0.00715, -0.394143, 0, 0, -0.919049) /* Unruly Monouga */
      , (24294, 1880772733, 27591028, 47.5952, -41.7069, 0.00715, -0.394143, 0, 0, -0.919049) /* Unruly Monouga */
      , (24293, 1880772734, 27591028, 50.7375, -40.2044, 0.00715, -0.170855, 0, 0, -0.985296) /* Terrible Monouga */
@@ -62,53 +62,53 @@ VALUES (8431, 1880772706, 27590912, 40.5961, -103.938, -47.9935, -0.646431, 0, 0
      , (171, 1880772665, 27591071, 23.3833, -23.4311, 6, -4.37114E-08, 0, 0, -1) /* Vat */
      , (2504, 1880772666, 27591071, 20, -24.8, 6, 1, 0, 0, -4.37114E-08) /* Door */
      , (2549, 1880772667, 27591078, 30, 0, 6, -0.707107, 0, 0, -0.707107) /* Plateau Top */
-     , (7923, 1880772705, 27591078, 27.2217, 2.54581, 6.005, 0.706294, 0, 0, 0.707919) /* linkmonstergen3minutes */
+     , (7923, 1880772705, 27591078, 27.2217, 2.54581, 6.005, 0.706294, 0, 0, 0.707919) /* Linkable Monster Generator ( 3 Min.) */
      , (2504, 1880772668, 27591082, 25.25, -20, 6, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880772669'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880772705'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880772669'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880772705'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880772670'; /* linkitemgen10seconds <- Alloy Motor */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772742'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772741'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772746'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772747'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772738'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772736'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772737'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772724'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772717'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772726'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772723'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772719'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772718'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772715'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772716'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772720'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772734'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772721'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772722'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772725'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772709'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772745'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772735'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772707'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772706'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772710'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772711'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772714'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772712'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772708'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772713'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772727'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772729'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772728'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772731'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772730'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772733'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772732'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772740'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772739'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772744'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772743'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880772670'; /* Linkable Item Generator <- Alloy Motor */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772742'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772741'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772746'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772747'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772738'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772736'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772737'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772724'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772717'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772726'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772723'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772719'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772718'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772715'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772716'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772720'; /* Linkable Monster Generator ( 3 Min.) <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772734'; /* Linkable Monster Generator ( 3 Min.) <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772721'; /* Linkable Monster Generator ( 3 Min.) <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772722'; /* Linkable Monster Generator ( 3 Min.) <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772725'; /* Linkable Monster Generator ( 3 Min.) <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772709'; /* Linkable Monster Generator ( 3 Min.) <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772745'; /* Linkable Monster Generator ( 3 Min.) <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772735'; /* Linkable Monster Generator ( 3 Min.) <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772707'; /* Linkable Monster Generator ( 3 Min.) <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772706'; /* Linkable Monster Generator ( 3 Min.) <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772710'; /* Linkable Monster Generator ( 3 Min.) <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772711'; /* Linkable Monster Generator ( 3 Min.) <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772714'; /* Linkable Monster Generator ( 3 Min.) <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772712'; /* Linkable Monster Generator ( 3 Min.) <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772708'; /* Linkable Monster Generator ( 3 Min.) <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772713'; /* Linkable Monster Generator ( 3 Min.) <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772727'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772729'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772728'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772731'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772730'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772733'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772732'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772740'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772739'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772744'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772743'; /* Linkable Monster Generator ( 3 Min.) <- Unruly Monouga */
 

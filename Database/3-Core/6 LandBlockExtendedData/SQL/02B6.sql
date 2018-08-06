@@ -74,7 +74,7 @@ VALUES (8429, 1881890816, 45482240, 4.86646, -391.71, -41.945, 0.700797, 0, 0, -
      , (8427, 1881890888, 45482646, 79.8437, -17.2833, 0.0066, 0.086006, 0, 0, 0.996295) /* Mosswart Fanatic */
      , (8427, 1881890889, 45482650, 94.4502, -39.1003, 0.055, 0.553699, 0, 0, -0.832717) /* Mosswart Fanatic */
      , (8587, 1881890890, 45482651, 93.531, -50.074, 0.005, -0.707107, 0, 0, -0.707107) /* Surface */
-     , (4219, 1881890891, 45482655, 99.4536, -54.5641, 0.005, 0.999843, 0, 0, 0.017746) /* linkmonstergen7minutes */
+     , (4219, 1881890891, 45482655, 99.4536, -54.5641, 0.005, 0.999843, 0, 0, 0.017746) /* Linkable Monster Generator ( 7 Min.) */
      , (8427, 1881890892, 45482659, 110.452, -42.8871, 0.0066, -0.12328, 0, 0, -0.992372) /* Mosswart Fanatic */
      , (8427, 1881890893, 45482665, 129.871, -51.337, 0.0066, -0.998291, 0, 0, 0.058443) /* Mosswart Fanatic */
      , (8429, 1881890894, 45482668, 134.468, -148.987, 0.055, -0.705804, 0, 0, 0.708407) /* Mosswart Zealot */
@@ -88,89 +88,89 @@ VALUES (8429, 1881890816, 45482240, 4.86646, -391.71, -41.945, 0.700797, 0, 0, -
      , (8427, 1881890902, 45482707, 194.803, -109.705, 0.055, -0.941846, 0, 0, -0.336044) /* Mosswart Fanatic */
      , (8427, 1881890903, 45482720, 208.163, -90.1106, 0.0066, -0.716717, 0, 0, -0.697365) /* Mosswart Fanatic */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881890891'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881890891'; /* Linkable Monster Generator ( 7 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890889'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890892'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890888'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890887'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890886'; /* linkmonstergen7minutes <- Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890885'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890884'; /* linkmonstergen7minutes <- Mosswart Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890898'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890895'; /* linkmonstergen7minutes <- Mosswart Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890893'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890901'; /* linkmonstergen7minutes <- Mosswart Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890900'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890899'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890896'; /* linkmonstergen7minutes <- Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890894'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890897'; /* linkmonstergen7minutes <- Mosswart Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890902'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890903'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890873'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890874'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890869'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890863'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890862'; /* linkmonstergen7minutes <- Mosswart Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890861'; /* linkmonstergen7minutes <- Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890864'; /* linkmonstergen7minutes <- Mosswart Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890865'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890859'; /* linkmonstergen7minutes <- Dread Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890858'; /* linkmonstergen7minutes <- Mosswart Soul Trapper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890856'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890857'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890855'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890852'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890851'; /* linkmonstergen7minutes <- Mosswart Soul Trapper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890853'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890854'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890860'; /* linkmonstergen7minutes <- Mosswart Soul Trapper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890875'; /* linkmonstergen7minutes <- Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890870'; /* linkmonstergen7minutes <- Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890866'; /* linkmonstergen7minutes <- Dread Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890876'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890877'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890871'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890872'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890867'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890868'; /* linkmonstergen7minutes <- Mosswart Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890878'; /* linkmonstergen7minutes <- Mosswart Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890881'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890879'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890883'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890882'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890880'; /* linkmonstergen7minutes <- Mosswart Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890847'; /* linkmonstergen7minutes <- Mosswart Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890850'; /* linkmonstergen7minutes <- Mosswart Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890849'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890848'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890846'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890844'; /* linkmonstergen7minutes <- Mosswart Idolator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890845'; /* linkmonstergen7minutes <- Mosswart Fanatic */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890842'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890843'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890836'; /* linkmonstergen7minutes <- Dread Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890841'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890840'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890833'; /* linkmonstergen7minutes <- Mosswart Soul Trapper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890832'; /* linkmonstergen7minutes <- Mosswart Soul Trapper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890839'; /* linkmonstergen7minutes <- Mosswart Soul Trapper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890837'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890834'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890838'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890817'; /* linkmonstergen7minutes <- Mosswart Soul Trapper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890820'; /* linkmonstergen7minutes <- Mosswart Soul Trapper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890824'; /* linkmonstergen7minutes <- Mosswart Soul Trapper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890830'; /* linkmonstergen7minutes <- Mosswart Soul Trapper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890823'; /* linkmonstergen7minutes <- Mosswart Soul Trapper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890818'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890819'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890816'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890821'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890825'; /* linkmonstergen7minutes <- Mosswart Zealot */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890828'; /* linkmonstergen7minutes <- Dread Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890826'; /* linkmonstergen7minutes <- Dread Idol */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890827'; /* linkmonstergen7minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890822'; /* linkmonstergen7minutes <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890889'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890892'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890888'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890887'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890886'; /* Linkable Monster Generator ( 7 Min.) <- Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890885'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890884'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890898'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890895'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890893'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890901'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890900'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890899'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890896'; /* Linkable Monster Generator ( 7 Min.) <- Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890894'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890897'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890902'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890903'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890873'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890874'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890869'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890863'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890862'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890861'; /* Linkable Monster Generator ( 7 Min.) <- Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890864'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890865'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890859'; /* Linkable Monster Generator ( 7 Min.) <- Dread Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890858'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Soul Trapper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890856'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890857'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890855'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890852'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890851'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Soul Trapper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890853'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890854'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890860'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Soul Trapper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890875'; /* Linkable Monster Generator ( 7 Min.) <- Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890870'; /* Linkable Monster Generator ( 7 Min.) <- Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890866'; /* Linkable Monster Generator ( 7 Min.) <- Dread Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890876'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890877'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890871'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890872'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890867'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890868'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890878'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890881'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890879'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890883'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890882'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890880'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890847'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890850'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890849'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890848'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890846'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890844'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Idolator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890845'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890842'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890843'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890836'; /* Linkable Monster Generator ( 7 Min.) <- Dread Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890841'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890840'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890833'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Soul Trapper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890832'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Soul Trapper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890839'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Soul Trapper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890837'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890834'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890838'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890817'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Soul Trapper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890820'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Soul Trapper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890824'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Soul Trapper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890830'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Soul Trapper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890823'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Soul Trapper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890818'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890819'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890816'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890821'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890825'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890828'; /* Linkable Monster Generator ( 7 Min.) <- Dread Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890826'; /* Linkable Monster Generator ( 7 Min.) <- Dread Idol */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890827'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881890822'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Zealot */
 

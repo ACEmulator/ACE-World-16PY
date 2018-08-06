@@ -23,30 +23,30 @@ VALUES (7, 1880510464, 23396612, 47.873, -61.395, -23.996, -0.954793, 0, 0, -0.2
      , (7, 1880510485, 23396693, 31.6563, -39.5935, 0.003325, 0.707107, 0, 0, -0.707107) /* Drudge Skulker */
      , (7, 1880510486, 23396698, 40.7011, -8.88266, 0.003325, -0.521475, 0, 0, -0.853266) /* Drudge Skulker */
      , (7, 1880510487, 23396698, 41.0618, -7.38769, 0.003325, -0.589372, 0, 0, -0.807862) /* Drudge Skulker */
-     , (5485, 1880510488, 23396699, 43.8136, -22.0704, 0, -0.707107, 0, 0, -0.707107) /* linknewbiemonstergen */
-     , (5085, 1880510489, 23396699, 42.004, -21.2305, 0.005, -0.999514, 0, 0, 0.0311601) /* linkitemgen25seconds */
+     , (5485, 1880510488, 23396699, 43.8136, -22.0704, 0, -0.707107, 0, 0, -0.707107) /* Linkable Newbie Monster Generator */
+     , (5085, 1880510489, 23396699, 42.004, -21.2305, 0.005, -0.999514, 0, 0, 0.0311601) /* Linkable Item Gen - 25 seconds */
      , (8738, 1880510490, 23396699, 39.9346, -22.7452, 0.0055, -0.026958, 0, 0, -0.999637) /* Rithwic Town Stamp */
      , (4934, 1880510491, 23396709, 52.4491, -30.1362, 0, -0.707107, 0, 0, -0.707107) /* Surface Portal */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880510488'; /* linknewbiemonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880510489'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880510488'; /* Linkable Newbie Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880510489'; /* Linkable Item Gen - 25 seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510480'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510485'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510484'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510487'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510482'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510478'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510471'; /* linknewbiemonstergen <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510472'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510476'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510473'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510477'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510486'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510475'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510469'; /* linknewbiemonstergen <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510466'; /* linknewbiemonstergen <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510464'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510465'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880510490'; /* linkitemgen25seconds <- Rithwic Town Stamp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510480'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510485'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510484'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510487'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510482'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510478'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510471'; /* Linkable Newbie Monster Generator <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510472'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510476'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510473'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510477'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510486'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510475'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510469'; /* Linkable Newbie Monster Generator <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510466'; /* Linkable Newbie Monster Generator <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510464'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880510465'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880510490'; /* Linkable Item Gen - 25 seconds <- Rithwic Town Stamp */
 

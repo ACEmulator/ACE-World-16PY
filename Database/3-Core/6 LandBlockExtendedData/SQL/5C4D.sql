@@ -7,11 +7,11 @@ VALUES (27916, 1975832576, 1548550406, 100, -100, -29.9, 1, 0, 0, -4.37114E-08) 
      , (27920, 1975832581, 1548550465, 119.381, -101.917, -23.9864, 0.73283, 0, 0, 0.680412) /* Tormented Attendant */
      , (27920, 1975832582, 1548550465, 119.622, -98.1478, -23.9864, 0.661241, 0, 0, 0.750174) /* Tormented Attendant */
      , (27139, 1975832583, 1548550477, 140, -100, -23.945, 0.385543, 0, 0, 0.92269) /* Crypt Spirit */
-     , (7924, 1975832584, 1548550507, 70, -70, -17.995, 1, 0, 0, 0) /* linkmonstergen5minutes */
-     , (7924, 1975832585, 1548550507, 68.9314, -70, -17.995, 1, 0, 0, 0) /* linkmonstergen5minutes */
-     , (7924, 1975832586, 1548550507, 71.0397, -70, -17.995, 1, 0, 0, 0) /* linkmonstergen5minutes */
-     , (7924, 1975832587, 1548550507, 67.8087, -70, -17.995, 1, 0, 0, 0) /* linkmonstergen5minutes */
-     , (15759, 1975832588, 1548550507, 72.237, -70, -17.995, 1, 0, 0, 0) /* linkitemgen10seconds */
+     , (7924, 1975832584, 1548550507, 70, -70, -17.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1975832585, 1548550507, 68.9314, -70, -17.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1975832586, 1548550507, 71.0397, -70, -17.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1975832587, 1548550507, 67.8087, -70, -17.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
+     , (15759, 1975832588, 1548550507, 72.237, -70, -17.995, 1, 0, 0, 0) /* Linkable Item Generator */
      , (27139, 1975832589, 1548550537, 100, -120, -17.945, 0.921061, 0, 0, -0.389418) /* Crypt Spirit */
      , (27920, 1975832590, 1548550551, 119.381, -121.917, -17.9864, 0.73283, 0, 0, 0.680412) /* Tormented Attendant */
      , (27920, 1975832591, 1548550551, 119.622, -118.148, -17.9864, 0.661241, 0, 0, 0.750174) /* Tormented Attendant */
@@ -117,7 +117,7 @@ VALUES (27916, 1975832576, 1548550406, 100, -100, -29.9, 1, 0, 0, -4.37114E-08) 
      , (27139, 1975832691, 1548551628, 49.5962, -120.031, 0.055, -0.999998, 0, 0, 0.00197989) /* Crypt Spirit */
      , (27139, 1975832692, 1548551632, 51.3108, -121.641, 0.009, -0.929781, 0, 0, 0.368114) /* Crypt Spirit */
      , (27956, 1975832693, 1548551685, 70, -70, 0.005, 0, 0, 0, -1) /* Guardian */
-     , (7923, 1975832694, 1548551685, 70.0051, -67.872, 0.005, -0.003494, 0, 0, 0.999994) /* linkmonstergen3minutes */
+     , (7923, 1975832694, 1548551685, 70.0051, -67.872, 0.005, -0.003494, 0, 0, 0.999994) /* Linkable Monster Generator ( 3 Min.) */
      , (27920, 1975832695, 1548551687, 69.7426, -87.9096, 0.013624, 0.723955, 0, 0, 0.689848) /* Tormented Attendant */
      , (27920, 1975832696, 1548551687, 69.5428, -92.05, 0.013624, 0.723955, 0, 0, 0.689848) /* Tormented Attendant */
      , (27139, 1975832697, 1548551692, 69.9582, -99.7407, 0.055, 0.475732, 0, 0, -0.87959) /* Crypt Spirit */
@@ -173,178 +173,178 @@ VALUES (27916, 1975832576, 1548550406, 100, -100, -29.9, 1, 0, 0, -4.37114E-08) 
      , (27920, 1975832747, 1548552174, 122.05, -50.4572, 6.01362, -0.0241173, 0, 0, -0.999709) /* Tormented Attendant */
      , (27139, 1975832748, 1548552186, 119.421, -69.9519, 6.055, 0.477703, 0, 0, 0.878521) /* Crypt Spirit */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1975832584'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1975832585'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1975832586'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1975832587'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1975832588'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1975832694'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1975832584'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1975832585'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1975832586'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1975832587'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1975832588'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1975832694'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832658'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832649'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832671'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832672'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832664'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832663'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832659'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832639'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832660'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832622'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832654'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832655'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832661'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832624'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832640'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832629'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832636'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832623'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832635'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832626'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832625'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832641'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832634'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832711'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832712'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832646'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832642'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832643'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832647'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832670'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832608'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832609'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832662'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832607'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832599'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832604'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832597'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832598'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832614'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832665'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832615'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832605'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832606'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832592'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832590'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832589'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832616'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832637'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832621'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832591'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832579'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832707'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832638'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832708'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832580'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832582'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832583'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832581'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832651'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832650'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832720'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832577'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832721'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832656'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832578'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832718'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832657'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832719'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832746'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832667'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832747'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832666'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832702'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832703'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832733'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832668'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832732'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832677'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832669'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832678'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832744'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832653'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832745'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832652'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832675'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832676'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832644'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832681'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832645'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832682'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832633'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832632'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832689'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832690'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832630'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832737'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832631'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832727'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832731'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832725'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832611'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832728'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832610'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832695'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832726'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832696'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832724'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832738'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832617'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832739'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832742'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832714'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832618'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832715'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832748'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832743'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832723'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832620'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832722'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832619'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832735'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832736'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832693'; /* linkmonstergen5minutes <- Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832741'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832612'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832740'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832699'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832698'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832613'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832713'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832700'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832691'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832603'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832697'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832602'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832684'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832692'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832674'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832595'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832705'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832683'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832706'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832679'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832673'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832596'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832685'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832680'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832729'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832687'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832594'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832730'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832686'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832593'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832701'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832688'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832600'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832627'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832704'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832628'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832717'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832716'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832601'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832710'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832709'; /* linkmonstergen5minutes <- Crypt Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832648'; /* linkmonstergen5minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1975832734'; /* linkitemgen10seconds <- Ancient Enchanted Philter */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1975832693'; /* linkmonstergen3minutes <- Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832658'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832649'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832671'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832672'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832664'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832663'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832659'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832639'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832660'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832622'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832654'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832655'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832661'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832624'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832640'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832629'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832636'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832623'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832635'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832626'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832625'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832641'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832634'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832711'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832712'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832646'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832642'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832643'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832647'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832670'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832608'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832609'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832662'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832607'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832599'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832604'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832597'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832598'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832614'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975832665'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832615'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832605'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832606'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832592'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832590'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832589'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832616'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832637'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832621'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832591'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832579'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832707'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832638'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832708'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832580'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832582'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832583'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832581'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832651'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832650'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832720'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832577'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832721'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832656'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832578'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832718'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832657'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832719'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832746'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832667'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832747'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832666'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832702'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832703'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832733'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832668'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832732'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832677'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832669'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975832678'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832744'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832653'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832745'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832652'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832675'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832676'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832644'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832681'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832645'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832682'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832633'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832632'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832689'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832690'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832630'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832737'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832631'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832727'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832731'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832725'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832611'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832728'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832610'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832695'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832726'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832696'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832724'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832738'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832617'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832739'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832742'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832714'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832618'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832715'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832748'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832743'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832723'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832620'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832722'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975832619'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832735'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832736'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832693'; /* Linkable Monster Generator ( 5 Min.) <- Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832741'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832612'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832740'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832699'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832698'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832613'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832713'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832700'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832691'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832603'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832697'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832602'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832684'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832692'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832674'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832595'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832705'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832683'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832706'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832679'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832673'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832596'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832685'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832680'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832729'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832687'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832594'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832730'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832686'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832593'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832701'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832688'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832600'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832627'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832704'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832628'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832717'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832716'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832601'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832710'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832709'; /* Linkable Monster Generator ( 5 Min.) <- Crypt Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975832648'; /* Linkable Monster Generator ( 5 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1975832734'; /* Linkable Item Generator <- Ancient Enchanted Philter */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1975832693'; /* Linkable Monster Generator ( 3 Min.) <- Guardian */
 
