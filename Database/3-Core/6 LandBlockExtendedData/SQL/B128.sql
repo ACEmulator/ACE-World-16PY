@@ -10,16 +10,16 @@ VALUES (8127, 2064809984, 2972188672, 110.272, 56.5567, 170.713, 0.914443, 0, 0,
      , (8012, 2064809992, 2972188672, 115.229, 52.0013, 170.338, 0.995015, 0, 0, 0.0997211) /* Dual Fragment */
      , (8012, 2064809993, 2972188672, 111.591, 55.8852, 170.662, 0.930549, 0, 0, 0.366167) /* Dual Fragment */
      , (8012, 2064809994, 2972188672, 110.805, 50.3341, 170.199, 0.198945, 0, 0, 0.980011) /* Dual Fragment */
-     , (4219, 2064809995, 2972188672, 110.805, 50.3341, 170.199, 0.198945, 0, 0, 0.980011) /* linkmonstergen7minutes */
+     , (4219, 2064809995, 2972188672, 110.805, 50.3341, 170.199, 0.198945, 0, 0, 0.980011) /* Linkable Monster Generator ( 7 Min.) */
      , (23602, 2064809996, 2972188672, 113.386, 46.7951, 170.199, 0.396918, 0, 0, -0.917854) /* Runed Chest */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2064809995'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2064809995'; /* Linkable Monster Generator ( 7 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809988'; /* linkmonstergen7minutes <- Dual Fragment */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809989'; /* linkmonstergen7minutes <- Dual Fragment */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809990'; /* linkmonstergen7minutes <- Dual Fragment */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809991'; /* linkmonstergen7minutes <- Dual Fragment */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809992'; /* linkmonstergen7minutes <- Dual Fragment */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809993'; /* linkmonstergen7minutes <- Dual Fragment */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809994'; /* linkmonstergen7minutes <- Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809988'; /* Linkable Monster Generator ( 7 Min.) <- Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809989'; /* Linkable Monster Generator ( 7 Min.) <- Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809990'; /* Linkable Monster Generator ( 7 Min.) <- Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809991'; /* Linkable Monster Generator ( 7 Min.) <- Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809992'; /* Linkable Monster Generator ( 7 Min.) <- Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809993'; /* Linkable Monster Generator ( 7 Min.) <- Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064809994'; /* Linkable Monster Generator ( 7 Min.) <- Dual Fragment */
 

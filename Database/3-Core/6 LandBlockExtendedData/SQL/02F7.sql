@@ -39,7 +39,7 @@ VALUES (7286, 1882157056, 49742080, 50.05, -190, -29.867, 0.707107, 0, 0, -0.707
      , (2585, 1882157093, 49742181, 89.4086, -71.3869, -17.995, 0.999966, 0, 0, -0.008295) /* Essa Sclavus */
      , (2585, 1882157094, 49742181, 90.4214, -69.2522, -17.995, 0.999997, 0, 0, -0.002503) /* Essa Sclavus */
      , (2585, 1882157095, 49742181, 89.0589, -67.594, -17.995, 0.932046, 0, 0, 0.362341) /* Essa Sclavus */
-     , (5086, 1882157096, 49742206, 89.8564, -211.289, -17.995, 0.751281, 0, 0, -0.659982) /* linkmonstergen30seconds */
+     , (5086, 1882157096, 49742206, 89.8564, -211.289, -17.995, 0.751281, 0, 0, -0.659982) /* Linkable Monster Gen - 30 sec. */
      , (2586, 1882157097, 49742206, 92.8065, -212.744, -17.995, 0.754993, 0, 0, -0.655733) /* Sata Sclavus */
      , (2586, 1882157098, 49742206, 90.763, -213.033, -17.995, 0.754993, 0, 0, -0.655733) /* Sata Sclavus */
      , (2586, 1882157099, 49742209, 85.5686, -223.418, -17.995, -0.826948, 0, 0, 0.562279) /* Sata Sclavus */
@@ -162,174 +162,174 @@ VALUES (7286, 1882157056, 49742080, 50.05, -190, -29.867, 0.707107, 0, 0, -0.707
      , (2585, 1882157216, 49742853, 130.47, -248.172, 0.005, 0.126546, 0, 0, -0.991961) /* Essa Sclavus */
      , (2584, 1882157217, 49742856, 133.592, -280.541, 0.005, -0.036744, 0, 0, -0.999325) /* Aste Sclavus */
      , (2584, 1882157218, 49742856, 131.37, -281.025, 0.005, 0.036669, 0, 0, -0.999327) /* Aste Sclavus */
-     , (3955, 1882157219, 49742857, 130, -290, 0.005, 1, 0, 0, 0) /* linkmonstergen15minutes */
+     , (3955, 1882157219, 49742857, 130, -290, 0.005, 1, 0, 0, 0) /* Linkable Monster Gen (15 min.) */
      , (7286, 1882157220, 49742875, 150, -320, 0.005, 0.707107, 0, 0, -0.707107) /* Surface Portal */
      , (2585, 1882157221, 49742882, 172.631, -260.167, 0.005, 0.966655, 0, 0, 0.256082) /* Essa Sclavus */
      , (2584, 1882157222, 49742882, 170.399, -258.741, 0.005, 0.936365, 0, 0, 0.351028) /* Aste Sclavus */
      , (2584, 1882157223, 49742882, 171.269, -256.124, 0.005, 0.943431, 0, 0, 0.331569) /* Aste Sclavus */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882157219'; /* linkmonstergen15minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882157096'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882157219'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882157096'; /* Linkable Monster Gen - 30 sec. */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157217'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157218'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157213'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157214'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157208'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157209'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157210'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157211'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157212'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157215'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157216'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157221'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157222'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157223'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157206'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157207'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157194'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157195'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157196'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157200'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157201'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157202'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157203'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157199'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157204'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157205'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157184'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157185'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157177'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157181'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157182'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157183'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157192'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157193'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157186'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157187'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157197'; /* linkmonstergen15minutes <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157198'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157189'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157190'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157191'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157170'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157171'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157172'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157161'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157162'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157163'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157155'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157156'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157152'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157153'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157154'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157150'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157151'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157144'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157145'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157146'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157173'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157174'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157176'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157175'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157147'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157148'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157149'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157166'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157167'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157168'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157169'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157157'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157158'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157159'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157160'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157164'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157165'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157123'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157124'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157125'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157133'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157134'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157126'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157127'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157128'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157117'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157129'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157118'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157130'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157140'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157141'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157135'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157136'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157143'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157142'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157137'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157138'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157139'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157074'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157075'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157076'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157077'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157078'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157079'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157080'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157093'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157094'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157095'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157102'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157101'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157087'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157088'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157089'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157072'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157073'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157065'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157066'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157067'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157061'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157062'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157060'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157068'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157069'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157070'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157071'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157063'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157064'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157090'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157103'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157104'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157105'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157106'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157110'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157111'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157112'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157113'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157119'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157116'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157120'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157121'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157122'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157132'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157131'; /* linkmonstergen15minutes <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157114'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157115'; /* linkmonstergen15minutes <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157107'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157108'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157109'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157097'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157098'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157099'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157100'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157057'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157058'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157059'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157092'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157091'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157084'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157085'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157086'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157082'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157083'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157178'; /* linkmonstergen30seconds <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157179'; /* linkmonstergen30seconds <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157217'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157218'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157213'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157214'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157208'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157209'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157210'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157211'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157212'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157215'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157216'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157221'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157222'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157223'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157206'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157207'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157194'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157195'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157196'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157200'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157201'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157202'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157203'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157199'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157204'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157205'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157184'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157185'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157177'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157181'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157182'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157183'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157192'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157193'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157186'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157187'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157197'; /* Linkable Monster Gen (15 min.) <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157198'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157189'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157190'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157191'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157170'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157171'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157172'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157161'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157162'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157163'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157155'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157156'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157152'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157153'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157154'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157150'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157151'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157144'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157145'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157146'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157173'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157174'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157176'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157175'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157147'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157148'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157149'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157166'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157167'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157168'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157169'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157157'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157158'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157159'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157160'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157164'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157165'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157123'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157124'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157125'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157133'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157134'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157126'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157127'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157128'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157117'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157129'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157118'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157130'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157140'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157141'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157135'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157136'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157143'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157142'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157137'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157138'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157139'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157074'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157075'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157076'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157077'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157078'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157079'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157080'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157093'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157094'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157095'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157102'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157101'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157087'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157088'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157089'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157072'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157073'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157065'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157066'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157067'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157061'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157062'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157060'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157068'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157069'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157070'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157071'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157063'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157064'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157090'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157103'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157104'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157105'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157106'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157110'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157111'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157112'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157113'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157119'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157116'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157120'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157121'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157122'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157132'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157131'; /* Linkable Monster Gen (15 min.) <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157114'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882157115'; /* Linkable Monster Gen (15 min.) <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157107'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157108'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157109'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157097'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157098'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157099'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157100'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157057'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157058'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157059'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157092'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157091'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157084'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157085'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157086'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157082'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157083'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157178'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882157179'; /* Linkable Monster Gen - 30 sec. <- Sata Sclavus */
 

@@ -30,8 +30,8 @@ VALUES (28016, 1978986496, 1599013120, 0, -40, 0.013624, 0.731689, 0, 0, -0.6816
      , (27918, 1978986521, 1599013294, 70, -50, 0.013624, 0.0207946, 0, 0, 0.999784) /* Jrvik */
      , (27920, 1978986552, 1599013294, 73.2793, -48.9068, 0.013624, -0.0567899, 0, 0, -0.998386) /* Tormented Attendant */
      , (27920, 1978986553, 1599013294, 66.618, -48.1465, 0.013624, -0.0567899, 0, 0, -0.998386) /* Tormented Attendant */
-     , (7923, 1978986522, 1599013297, 71.7045, -80, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
-     , (4219, 1978986523, 1599013297, 69.47, -80, 0.005, 1, 0, 0, 0) /* linkmonstergen7minutes */
+     , (7923, 1978986522, 1599013297, 71.7045, -80, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (4219, 1978986523, 1599013297, 69.47, -80, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 7 Min.) */
      , (28026, 1978986524, 1599013312, 80, -37.75, 0, 1, 0, 0, 0) /* Corroding Bile */
      , (8420, 1978986525, 1599013314, 77.1, -38, 1.5, -0.707107, 0, 0, -0.707107) /* Button */
      , (26553, 1978986526, 1599013315, 80, -40.16, 0.005, 0, 0, 0, 1) /* Guardian */
@@ -62,7 +62,7 @@ VALUES (28016, 1978986496, 1599013120, 0, -40, 0.013624, 0.731689, 0, 0, -0.6816
      , (27955, 1978986548, 1599013499, 70, -14.875, 6.005, -4.37114E-08, 0, 0, -1) /* Guardian */
      , (8420, 1978986557, 1599013503, 67.103, -18.943, 7.455, -0.707107, 0, 0, -0.707107) /* Button */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1978986522'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1978986522'; /* Linkable Monster Generator ( 3 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1978986543'; /* Guardian */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1978986538'; /* Guardian */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1978986531'; /* Guardian */
@@ -71,18 +71,18 @@ UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `
 UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1978986500'; /* Guardian */
 UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1978986512'; /* Guardian */
 UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1978986526'; /* Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1978986523'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1978986523'; /* Linkable Monster Generator ( 7 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1978986558'; /* Guardian */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986508'; /* linkmonstergen3minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986546'; /* linkmonstergen3minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986534'; /* linkmonstergen3minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986535'; /* linkmonstergen3minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986547'; /* linkmonstergen3minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986497'; /* linkmonstergen3minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986509'; /* linkmonstergen3minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986496'; /* linkmonstergen3minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986548'; /* linkmonstergen3minutes <- Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986508'; /* Linkable Monster Generator ( 3 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986546'; /* Linkable Monster Generator ( 3 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986534'; /* Linkable Monster Generator ( 3 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986535'; /* Linkable Monster Generator ( 3 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986547'; /* Linkable Monster Generator ( 3 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986497'; /* Linkable Monster Generator ( 3 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986509'; /* Linkable Monster Generator ( 3 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986496'; /* Linkable Monster Generator ( 3 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978986548'; /* Linkable Monster Generator ( 3 Min.) <- Guardian */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978986545'; /* Guardian <- Torch */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978986542'; /* Guardian <- Button */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978986540'; /* Guardian <- Torch */
@@ -99,14 +99,14 @@ UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1978986514'; /* G
 UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1978986511'; /* Guardian <- Button */
 UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1978986528'; /* Guardian <- Torch */
 UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1978986525'; /* Guardian <- Button */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986521'; /* linkmonstergen7minutes <- Jrvik */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986552'; /* linkmonstergen7minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986549'; /* linkmonstergen7minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986553'; /* linkmonstergen7minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986554'; /* linkmonstergen7minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986550'; /* linkmonstergen7minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986555'; /* linkmonstergen7minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986551'; /* linkmonstergen7minutes <- Tormented Attendant */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986556'; /* linkmonstergen7minutes <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986521'; /* Linkable Monster Generator ( 7 Min.) <- Jrvik */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986552'; /* Linkable Monster Generator ( 7 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986549'; /* Linkable Monster Generator ( 7 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986553'; /* Linkable Monster Generator ( 7 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986554'; /* Linkable Monster Generator ( 7 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986550'; /* Linkable Monster Generator ( 7 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986555'; /* Linkable Monster Generator ( 7 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986551'; /* Linkable Monster Generator ( 7 Min.) <- Tormented Attendant */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1978986556'; /* Linkable Monster Generator ( 7 Min.) <- Tormented Attendant */
 UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1978986557'; /* Guardian <- Button */
 

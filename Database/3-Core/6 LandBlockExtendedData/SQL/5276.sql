@@ -5,7 +5,7 @@ VALUES (14426, 1965514784, 1383465216, 12.4103, -13.8361, 0.005, -0.352446, 0, 0
      , (14427, 1965514753, 1383465229, 17.0472, -5.49545, 0.005, -0.021622, 0, 0, -0.999766) /* Hollow Minion */
      , (14427, 1965514754, 1383465233, 20.5482, -21.8858, 0.005, -0.0292, 0, 0, -0.999574) /* Hollow Minion */
      , (14427, 1965514755, 1383465236, 24.011, -35.7542, 0.005, 0.0446234, 0, 0, -0.999004) /* Hollow Minion */
-     , (7923, 1965514756, 1383465236, 24.3473, -43.5285, 0.005, -0.00200535, 0, 0, -0.999998) /* linkmonstergen3minutes */
+     , (7923, 1965514756, 1383465236, 24.3473, -43.5285, 0.005, -0.00200535, 0, 0, -0.999998) /* Linkable Monster Generator ( 3 Min.) */
      , (14427, 1965514757, 1383465237, 20, -50, 0.005, -0.950302, 0, 0, 0.311331) /* Hollow Minion */
      , (14427, 1965514758, 1383465242, 22.2655, -70.3054, 0.005, 0.129253, 0, 0, 0.991612) /* Hollow Minion */
      , (14428, 1965514759, 1383465248, 28.9637, 0.850391, 0.005, -0.203232, 0, 0, -0.979131) /* Dranith Menacet */
@@ -38,7 +38,7 @@ VALUES (14426, 1965514784, 1383465216, 12.4103, -13.8361, 0.005, -0.352446, 0, 0
      , (14427, 1965514776, 1383465407, 29.8688, -130.16, 9.005, 0.728343, 0, 0, -0.685212) /* Hollow Minion */
      , (14426, 1965514796, 1383465409, 26.9968, -153.431, 12.005, -0.202788, 0, 0, 0.979223) /* Martinate Simulacrum */
      , (14426, 1965514797, 1383465416, 29.0237, -185.477, 12.005, 0.362358, 0, 0, -0.932039) /* Martinate Simulacrum */
-     , (7924, 1965514777, 1383465421, 29.8822, -207.485, 12.005, -0.0292, 0, 0, 0.999574) /* linkmonstergen5minutes */
+     , (7924, 1965514777, 1383465421, 29.8822, -207.485, 12.005, -0.0292, 0, 0, 0.999574) /* Linkable Monster Generator ( 5 Min.) */
      , (14427, 1965514778, 1383465433, 40, -150, 12.005, 0.581683, 0, 0, 0.813416) /* Hollow Minion */
      , (14427, 1965514779, 1383465442, 39.071, -205.994, 12.005, -0.904072, 0, 0, 0.427379) /* Hollow Minion */
      , (14427, 1965514780, 1383465450, 45.186, -189.771, 12.005, 0.0956497, 0, 0, 0.995415) /* Hollow Minion */
@@ -46,49 +46,49 @@ VALUES (14426, 1965514784, 1383465216, 12.4103, -13.8361, 0.005, -0.352446, 0, 0
      , (14426, 1965514782, 1383465462, 20.6717, -10.5795, 18.2225, 0.275674, 0, 0, 0.961251) /* Martinate Simulacrum */
      , (14426, 1965514783, 1383465480, 29.7375, -19.3671, 18.4507, -0.256482, 0, 0, -0.966549) /* Martinate Simulacrum */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1965514777'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1965514756'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1965514777'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1965514756'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514779'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514774'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514780'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514773'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514778'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514770'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514772'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514776'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514769'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514765'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514766'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514764'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514767'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514762'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514758'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514752'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514757'; /* linkmonstergen5minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514760'; /* linkmonstergen3minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514759'; /* linkmonstergen3minutes <- Dranith Menacet */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514753'; /* linkmonstergen3minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514782'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514771'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514783'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514775'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514763'; /* linkmonstergen3minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514755'; /* linkmonstergen3minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514761'; /* linkmonstergen3minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514754'; /* linkmonstergen3minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514797'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514795'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514793'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514794'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514791'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514796'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514790'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514792'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514788'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514785'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514786'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514787'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514789'; /* linkmonstergen3minutes <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514784'; /* linkmonstergen3minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514779'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514774'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514780'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514773'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514778'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514770'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514772'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514776'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514769'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514765'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514766'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514764'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514767'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514762'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514758'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514752'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965514757'; /* Linkable Monster Generator ( 5 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514760'; /* Linkable Monster Generator ( 3 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514759'; /* Linkable Monster Generator ( 3 Min.) <- Dranith Menacet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514753'; /* Linkable Monster Generator ( 3 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514782'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514771'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514783'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514775'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514763'; /* Linkable Monster Generator ( 3 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514755'; /* Linkable Monster Generator ( 3 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514761'; /* Linkable Monster Generator ( 3 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514754'; /* Linkable Monster Generator ( 3 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514797'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514795'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514793'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514794'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514791'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514796'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514790'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514792'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514788'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514785'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514786'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514787'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514789'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965514784'; /* Linkable Monster Generator ( 3 Min.) <- Martinate Simulacrum */
 

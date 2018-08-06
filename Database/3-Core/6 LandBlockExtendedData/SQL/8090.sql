@@ -37,35 +37,35 @@ VALUES (994, 2013855765, 2156921088, 30.72, 150.24, 124.01, 0.892979, 0, 0, -0.4
      , (1148, 2013855755, 2156920832, 70.005, 133.5, 124, -0.707107, 0, 0, -0.707106) /* Door */
      , (1148, 2013855756, 2156920832, 52.49, 125.75, 124, 0.707106, 0, 0, -0.707107) /* Door */
      , (16919, 2013855789, 2156920832, 28.3266, 110.189, 124, 7.54979E-08, 0, 0, -1) /* Pedestal Weak Spot */
-     , (4773, 2013855757, 2156920832, 52.7463, 161.432, 127.605, -0.0930678, 0, 0, -0.99566) /* collectorstonegharundimgen */
+     , (4773, 2013855757, 2156920832, 52.7463, 161.432, 127.605, -0.0930678, 0, 0, -0.99566) /* Gharundim Stone Collector Gen */
      , (28476, 2013855826, 2156920832, 66.2544, 77.6888, 124.005, -0.375713, 0, 0, 0.926736) /* Coman ibn Rashid */
-     , (28462, 2013855825, 2156920832, 53.4146, 57.2782, 124.005, -0.326631, 0, 0, 0.945152) /* generatormorgluukheadzaikhal */
-     , (23631, 2013855817, 2156920832, 64.0828, 86.5489, 196.767, -0.999941, 0, 0, 0.0108993) /* eventmadcowgen */
+     , (28462, 2013855825, 2156920832, 53.4146, 57.2782, 124.005, -0.326631, 0, 0, 0.945152) /* Morgluuk's Head Gen */
+     , (23631, 2013855817, 2156920832, 64.0828, 86.5489, 196.767, -0.999941, 0, 0, 0.0108993) /* April 2003 Raining Mad Cows Gen */
      , (6441, 2013855761, 2156920832, 30, 50, 124.005, 1, 0, 0, 0) /* Well */
      , (25722, 2013855821, 2156920832, 60.7871, 68.4853, 124.005, 0.931044, 0, 0, 0.364908) /* Sign */
      , (509, 2013855822, 2156920832, 16.3444, 140.231, 124.005, -0.868898, 0, 0, -0.494992) /* Life Stone */
      , (19208, 2013855796, 2156920832, 28.3016, 114.453, 130.82, 0.698624, 0, 0, -0.715489) /* Nullified Statue of a Zharalim */
-     , (19457, 2013855792, 2156920832, 28.361, 114.479, 131, 0.704801, 0, 0, -0.709405) /* fireworksgen */
+     , (19457, 2013855792, 2156920832, 28.361, 114.479, 131, 0.704801, 0, 0, -0.709405) /* Fireworks Generator */
      , (1008, 2013855766, 2156920832, 48.2031, 157.236, 127.47, 1, 0, 0, 0) /* Loom and Oven */
      , (1007, 2013855767, 2156920832, 61.126, 158.79, 127.817, 1, 0, 0, 0) /* Qufana's Forge */
      , (1012, 2013855768, 2156920832, 51.3776, 125.789, 127.443, -4.37114E-08, 0, 0, -1) /* The Open Book */
      , (1011, 2013855769, 2156920832, 56.8984, 105.375, 127.416, 0.707107, 0, 0, -0.707107) /* Djusufa's Stones */
      , (6441, 2013855770, 2156920832, 54.6, 131.52, 124.08, 1, 0, 0, 0) /* Well */
-     , (4778, 2013855771, 2156920832, 64.6249, 139.27, 127.605, -0.733156, 0, 0, -0.680061) /* crafterivorygharundimgen */
+     , (4778, 2013855771, 2156920832, 64.6249, 139.27, 127.605, -0.733156, 0, 0, -0.680061) /* Gharundim Ivory Collector Gen */
      , (1108, 2013855772, 2156920832, 60.162, 60.7116, 124.005, 0.382683, 0, 0, -0.92388) /* Zaikhal */
      , (6894, 2013855773, 2156920832, 38.6383, 148.778, 127.456, 0.998644, 0, 0, 0.052058) /* Tailor */
      , (16898, 2013855786, 2156920832, 31.838, 37.271, 124.005, -4.37114E-08, 0, 0, -1) /* Sanctum Residential Halls */
      , (165, 2013855775, 2156920832, 52.68, 99.24, 124.05, 1, 0, 0, 0) /* Pool */
      , (11810, 2013855776, 2156920832, 60.705, 145.487, 124.005, 0.929415, 0, 0, 0.369036) /* Ufet, Prophet of Blades */
      , (15837, 2013855785, 2156920832, 31.852, 34.507, 124.005, -4.37114E-08, 0, 0, -1) /* Sanctum Residential Halls Portal */
-     , (7923, 2013855778, 2156920832, 38.3559, 125.411, 124.005, 0.943517, 0, 0, -0.331324) /* linkmonstergen3minutes */
+     , (7923, 2013855778, 2156920832, 38.3559, 125.411, 124.005, 0.943517, 0, 0, -0.331324) /* Linkable Monster Generator ( 3 Min.) */
      , (27547, 2013855823, 2156920832, 75.5241, 32.4954, 124.005, 0.497901, 0, 0, -0.867234) /* Bind Stone */
      , (19464, 2013855795, 2156920832, 55.7027, 113.29, 127.605, 0.670732, 0, 0, 0.7417) /* Coron Usgin */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2013855778'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2013855778'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2013855776'; /* linkmonstergen3minutes <- Ufet, Prophet of Blades */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2013855795'; /* linkmonstergen3minutes <- Coron Usgin */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2013855821'; /* linkmonstergen3minutes <- Sign */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2013855826'; /* linkmonstergen3minutes <- Coman ibn Rashid */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2013855776'; /* Linkable Monster Generator ( 3 Min.) <- Ufet, Prophet of Blades */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2013855795'; /* Linkable Monster Generator ( 3 Min.) <- Coron Usgin */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2013855821'; /* Linkable Monster Generator ( 3 Min.) <- Sign */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2013855826'; /* Linkable Monster Generator ( 3 Min.) <- Coman ibn Rashid */
 

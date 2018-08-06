@@ -6,15 +6,15 @@ VALUES (1609, 1918164992, 625868800, 40.9396, 13.8116, 5.41664, 0.881458, 0, 0, 
      , (1609, 1918164996, 625868800, 38.8661, 47.3657, 25.1401, 0.603462, 0, 0, 0.797392) /* Drudge Stalker */
      , (1609, 1918164997, 625868800, 4.53822, 33.9579, 8.9461, -0.536304, 0, 0, 0.844025) /* Drudge Stalker */
      , (233, 1918164998, 625868800, 29.5586, 21.0497, 4.46822, -0.536304, 0, 0, 0.844025) /* Tumerok Warrior */
-     , (1154, 1918164999, 625868800, 30.7894, 21.4476, 4.57078, -0.28696, 0, 0, 0.957943) /* linkmonstergen */;
+     , (1154, 1918164999, 625868800, 30.7894, 21.4476, 4.57078, -0.28696, 0, 0, 0.957943) /* Linkable Monster Generator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1918164999'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1918164999'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164992'; /* linkmonstergen <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164993'; /* linkmonstergen <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164994'; /* linkmonstergen <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164995'; /* linkmonstergen <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164996'; /* linkmonstergen <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164997'; /* linkmonstergen <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164998'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164992'; /* Linkable Monster Generator <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164993'; /* Linkable Monster Generator <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164994'; /* Linkable Monster Generator <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164995'; /* Linkable Monster Generator <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164996'; /* Linkable Monster Generator <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164997'; /* Linkable Monster Generator <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918164998'; /* Linkable Monster Generator <- Tumerok Warrior */
 

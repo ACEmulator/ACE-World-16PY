@@ -1,4 +1,4 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (34428, 23179, 0, 5) /* newbieghadunesgen */
-     , (34428, 23179, 1, 2) /* newbieghadunesgen */;
+VALUES (34428, 23179, 0, 5) /* Gharun'dim Newbie Dunes Mix Generator */
+     , (34428, 23179, 1, 2) /* Gharun'dim Newbie Dunes Mix Generator */;
 

@@ -101,114 +101,114 @@ VALUES (22687, 1972670464, 1497956608, 3.74034, -109.845, -23.995, 0.731689, 0, 
      , (22518, 1972670563, 1497956982, 70.4564, -100.267, 12.0143, -0.683728, 0, 0, 0.729737) /* Devastator */
      , (22518, 1972670564, 1497956985, 69.8405, -109.717, 12.0143, -0.683728, 0, 0, 0.729737) /* Devastator */
      , (22518, 1972670565, 1497956989, 70.0945, -118.608, 12.055, -0.683727, 0, 0, 0.729738) /* Devastator */
-     , (7924, 1972670566, 1497957021, 89.9743, -133.931, 12.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7924, 1972670566, 1497957021, 89.9743, -133.931, 12.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
      , (22518, 1972670567, 1497957036, 109.441, -100.412, 12.055, -0.700815, 0, 0, -0.713343) /* Devastator */
      , (22518, 1972670568, 1497957039, 108.85, -110.096, 12.0143, -0.700815, 0, 0, -0.713343) /* Devastator */
      , (22518, 1972670569, 1497957043, 106.998, -119.595, 12.0143, -0.700815, 0, 0, -0.713343) /* Devastator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1972670566'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1972670566'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670562'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670561'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670557'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670560'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670559'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670555'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670556'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670551'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670547'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670548'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670552'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670550'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670549'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670553'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670554'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670520'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670519'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670518'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670515'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670514'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670510'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670508'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670509'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670507'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670491'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670489'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670487'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670488'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670490'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670492'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670511'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670512'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670513'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670517'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670523'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670522'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670524'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670525'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670526'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670527'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670501'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670502'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670505'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670506'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670503'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670504'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670516'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670521'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670497'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670499'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670484'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670486'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670485'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670500'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670498'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670472'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670474'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670475'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670477'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670478'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670476'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670465'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670468'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670469'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670466'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670467'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670471'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670480'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670481'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670483'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670494'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670496'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670495'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670493'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670482'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670470'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670473'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670563'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670564'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670565'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670569'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670568'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670567'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670537'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670531'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670530'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670528'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670529'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670532'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670533'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670534'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670535'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670536'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670538'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670539'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670543'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670546'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670542'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670545'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670541'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670544'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670540'; /* linkmonstergen5minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670558'; /* linkmonstergen5minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670562'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670561'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670557'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670560'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670559'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670555'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670556'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670551'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670547'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670548'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670552'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670550'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670549'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670553'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670554'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670520'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670519'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670518'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670515'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670514'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670510'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670508'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670509'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670507'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670491'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670489'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670487'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670488'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670490'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670492'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670511'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670512'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670513'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670517'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670523'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670522'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670524'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670525'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670526'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670527'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670501'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670502'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670505'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670506'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670503'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670504'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670516'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670521'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670497'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670499'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670484'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670486'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670485'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670500'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670498'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670472'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670474'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670475'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670477'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670478'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670476'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670465'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670468'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670469'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670466'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670467'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670471'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670480'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670481'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670483'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670494'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670496'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670495'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670493'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670482'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670470'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670473'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670563'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670564'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670565'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670569'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670568'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670567'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670537'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670531'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670530'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670528'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670529'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670532'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670533'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670534'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670535'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670536'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670538'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670539'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670543'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670546'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670542'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670545'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670541'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670544'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670540'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972670558'; /* Linkable Monster Generator ( 5 Min.) <- Devastator */
 

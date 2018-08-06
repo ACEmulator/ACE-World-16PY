@@ -5,8 +5,8 @@ VALUES (8553, 2134999047, 4095213837, 32.7054, 45.6692, 162.705, 1, 0, 0, 0) /* 
      , (5408, 2134999040, 4095213568, 140.231, 147.671, 99.905, 0.00510117, 0, 0, -0.999987) /* Waterfall */
      , (8470, 2134999041, 4095213568, 123.588, 181.757, 99.082, 0.538877, 0, 0, 0.842384) /* Sulthis Eye Stalk */
      , (4261, 2134999042, 4095213568, 139.123, 173.063, 99.082, -0.495269, 0, 0, 0.86874) /* Slithayr Eye Stalk */
-     , (7925, 2134999043, 4095213568, 125.032, 184.679, 99.105, -0.0818356, 0, 0, 0.996646) /* linkmonstergen10minutes */
-     , (9003, 2134999055, 4095213568, 36, 108, 160.005, -4.37114E-08, 0, 0, -1) /* eventthistledownmonumentgen */
+     , (7925, 2134999043, 4095213568, 125.032, 184.679, 99.105, -0.0818356, 0, 0, 0.996646) /* Linkable Monster Generator ( 10 Min.) */
+     , (9003, 2134999055, 4095213568, 36, 108, 160.005, -4.37114E-08, 0, 0, -1) /* Thistledown Monument Event Gen */
      , (5408, 2134999045, 4095213568, 124.354, 147.723, 99.905, 0.00510117, 0, 0, -0.999987) /* Waterfall */
      , (5408, 2134999046, 4095213568, 115.197, 148.165, 99.905, 0.00510117, 0, 0, -0.999987) /* Waterfall */
      , (8532, 2134999054, 4095213568, 36.003, 79.267, 197, 1, 0, 0, 0) /* Catacombs of Ithaenc Portal */
@@ -16,9 +16,9 @@ VALUES (8553, 2134999047, 4095213837, 32.7054, 45.6692, 162.705, 1, 0, 0, 0) /* 
      , (5408, 2134999051, 4095213568, 149.224, 147.803, 99.905, 0.00510117, 0, 0, -0.999987) /* Waterfall */
      , (5408, 2134999052, 4095213568, 132.296, 147.871, 99.905, 0.00510117, 0, 0, -0.999987) /* Waterfall */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2134999043'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2134999043'; /* Linkable Monster Generator ( 10 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2134999041'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2134999042'; /* linkmonstergen10minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2134999049'; /* linkmonstergen10minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2134999041'; /* Linkable Monster Generator ( 10 Min.) <- Sulthis Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2134999042'; /* Linkable Monster Generator ( 10 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2134999049'; /* Linkable Monster Generator ( 10 Min.) <- Slithayr Eye Stalk */
 

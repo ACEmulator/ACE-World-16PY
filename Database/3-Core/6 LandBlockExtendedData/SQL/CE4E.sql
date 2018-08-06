@@ -5,14 +5,14 @@ VALUES (4110, 2095374336, 3461218304, 158.503, 86.8032, 255.993, 0.406775, 0, 0,
      , (4110, 2095374339, 3461218304, 158.881, 76.2493, 256.904, -0.976231, 0, 0, -0.216735) /* Blood Shreth */
      , (4110, 2095374340, 3461218304, 150.957, 76.3043, 256.239, -0.992924, 0, 0, 0.118751) /* Blood Shreth */
      , (4110, 2095374341, 3461218304, 157.069, 69.6564, 257.104, -0.752444, 0, 0, 0.658656) /* Blood Shreth */
-     , (1154, 2095374342, 3461218304, 157.066, 71.5049, 257.096, -0.999982, 0, 0, -0.00596833) /* linkmonstergen */;
+     , (1154, 2095374342, 3461218304, 157.066, 71.5049, 257.096, -0.999982, 0, 0, -0.00596833) /* Linkable Monster Generator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2095374342'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2095374342'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095374336'; /* linkmonstergen <- Blood Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095374337'; /* linkmonstergen <- Blood Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095374338'; /* linkmonstergen <- Blood Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095374339'; /* linkmonstergen <- Blood Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095374340'; /* linkmonstergen <- Blood Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095374341'; /* linkmonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095374336'; /* Linkable Monster Generator <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095374337'; /* Linkable Monster Generator <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095374338'; /* Linkable Monster Generator <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095374339'; /* Linkable Monster Generator <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095374340'; /* Linkable Monster Generator <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095374341'; /* Linkable Monster Generator <- Blood Shreth */
 

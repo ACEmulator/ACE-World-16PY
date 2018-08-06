@@ -198,196 +198,196 @@ VALUES (10810, 1974763520, 1531445535, 2.44304, -120.627, -11.945, 0.69817, 0, 0
      , (10810, 1974763715, 1531446138, 311.325, -78.623, 0.0132, 0.004018, 0, 0, 0.999992) /* Rampager */
      , (10810, 1974763716, 1531446138, 307.47, -78.592, 0.0132, 0.004018, 0, 0, 0.999992) /* Rampager */
      , (10810, 1974763717, 1531446141, 320.105, -59.6602, 0.0132, 0.70624, 0, 0, -0.707972) /* Rampager */
-     , (7924, 1974763718, 1531446142, 321.119, -100.737, 0.005, 0.999687, 0, 0, -0.0249976) /* linkmonstergen5minutes */
+     , (7924, 1974763718, 1531446142, 321.119, -100.737, 0.005, 0.999687, 0, 0, -0.0249976) /* Linkable Monster Generator ( 5 Min.) */
      , (10810, 1974763719, 1531446152, 340.273, -73.0327, 0.0132, -0.028415, 0, 0, 0.999596) /* Rampager */
      , (22719, 1974763720, 1531446152, 340.048, -70.5857, 0.005, 0.02158, 0, 0, 0.999767) /* Tusker's Friend */
      , (10810, 1974763721, 1531446152, 340.44, -65.5698, 0.055, -0.003418, 0, 0, 0.999994) /* Rampager */
      , (10810, 1974763722, 1531446153, 337.525, -79.6817, 0.055, 0.679133, 0, 0, 0.734015) /* Rampager */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1974763718'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1974763718'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763547'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763542'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763670'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763556'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763676'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763553'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763673'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763558'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763681'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763557'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763677'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763579'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763695'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763552'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763696'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763582'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763581'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763588'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763642'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763584'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763636'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763591'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763658'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763589'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763657'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763595'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763567'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763592'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763663'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763600'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763596'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763570'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763598'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763629'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763597'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763602'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763621'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763599'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763630'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763594'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763631'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763601'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763620'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763587'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763643'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763590'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763637'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763586'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763648'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763585'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763646'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763583'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763653'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763593'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763652'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763654'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763580'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763649'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763651'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763655'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763640'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763645'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763635'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763644'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763624'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763626'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763617'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763618'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763611'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763610'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763613'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763612'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763609'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763619'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763623'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763616'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763622'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763615'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763632'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763627'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763638'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763633'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763634'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763639'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763625'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763628'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763647'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763604'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763607'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763603'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763605'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763614'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763608'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763575'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763715'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763574'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763716'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763563'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763722'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763571'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763719'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763560'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763721'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763717'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763714'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763713'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763577'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763578'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763573'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763711'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763576'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763712'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763564'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763702'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763572'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763703'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763566'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763705'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763565'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763706'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763562'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763698'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763561'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763699'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763555'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763700'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763559'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763701'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763546'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763697'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763551'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763685'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763544'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763686'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763545'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763687'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763549'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763550'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763548'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763554'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763539'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763543'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763532'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763683'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763536'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763682'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763527'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763678'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763531'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763679'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763535'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763680'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763534'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763684'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763694'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763528'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763674'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763675'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763672'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763541'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763667'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763538'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763668'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763537'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763669'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763540'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763666'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763526'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763671'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763530'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763521'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763524'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763522'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763659'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763520'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763660'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763529'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763661'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763523'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763656'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763525'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763662'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763533'; /* linkmonstergen5minutes <- Rampager */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763664'; /* linkmonstergen5minutes <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763547'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763542'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763670'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763556'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763676'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763553'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763673'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763558'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763681'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763557'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763677'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763579'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763695'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763552'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763696'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763582'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763581'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763588'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763642'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763584'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763636'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763591'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763658'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763589'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763657'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763595'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763567'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763592'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763663'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763600'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763596'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763570'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763598'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763629'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763597'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763602'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763621'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763599'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763630'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763594'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763631'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763601'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763620'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763587'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763643'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763590'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763637'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763586'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763648'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763585'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763646'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763583'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763653'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763593'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763652'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763654'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763580'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763649'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763651'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763655'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763640'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763645'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763635'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763644'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763624'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763626'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763617'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763618'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763611'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763610'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763613'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763612'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763609'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763619'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763623'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763616'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763622'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763615'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763632'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763627'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763638'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763633'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763634'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763639'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763625'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763628'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763647'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763604'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763607'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763603'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763605'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763614'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763608'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763575'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763715'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763574'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763716'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763563'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763722'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763571'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763719'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763560'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763721'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763717'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763714'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763713'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763577'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763578'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763573'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763711'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763576'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763712'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763564'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763702'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763572'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763703'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763566'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763705'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763565'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763706'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763562'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763698'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763561'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763699'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763555'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763700'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763559'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763701'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763546'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763697'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763551'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763685'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763544'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763686'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763545'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763687'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763549'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763550'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763548'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763554'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763539'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763543'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763532'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763683'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763536'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763682'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763527'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763678'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763531'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763679'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763535'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763680'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763534'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763684'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763694'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763528'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763674'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763675'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763672'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763541'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763667'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763538'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763668'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763537'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763669'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763540'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763666'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763526'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763671'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763530'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763521'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763524'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763522'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763659'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763520'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763660'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763529'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763661'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763523'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763656'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763525'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763662'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763533'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1974763664'; /* Linkable Monster Generator ( 5 Min.) <- Rampager */
 

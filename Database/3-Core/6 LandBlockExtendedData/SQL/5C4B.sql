@@ -49,12 +49,12 @@ VALUES (22604, 1975824384, 1548419342, 50.5926, -102.765, -41.989, -0.176473, 0,
      , (10787, 1975824431, 1548419685, 77.3608, -68.2818, -11.995, 0.929099, 0, 0, -0.369832) /* Terebrous Hollow Minion */
      , (10787, 1975824432, 1548419685, 79.1475, -65.7126, -11.995, 0.500888, 0, 0, 0.865512) /* Terebrous Hollow Minion */
      , (24136, 1975824433, 1548419696, 86.244, -58.9581, -11.981, 0.922302, 0, 0, -0.38647) /* Obsidian Shard from Aerbax */
-     , (5086, 1975824434, 1548419696, 86.7472, -57.7795, -11.995, 0.931675, 0, 0, -0.363294) /* linkmonstergen30seconds */
+     , (5086, 1975824434, 1548419696, 86.7472, -57.7795, -11.995, 0.931675, 0, 0, -0.363294) /* Linkable Monster Gen - 30 sec. */
      , (7090, 1975824435, 1548419698, 90, -240, -11.995, 0.640997, 0, 0, 0.767544) /* Augmented Drudge */
      , (7090, 1975824436, 1548419701, 88.9076, -245.764, -11.995, 0.402285, 0, 0, 0.915514) /* Augmented Drudge */
      , (10957, 1975824437, 1548419707, 104.175, -48.9677, -11.971, 0.442985, 0, 0, 0.896529) /* Virindi Observer */
      , (7340, 1975824438, 1548419710, 100, -250, -11.971, 0.678557, 0, 0, 0.734547) /* Virindi Observer */
-     , (5086, 1975824439, 1548419723, 110.905, -37.8984, -11.995, 0.974509, 0, 0, -0.224348) /* linkmonstergen30seconds */
+     , (5086, 1975824439, 1548419723, 110.905, -37.8984, -11.995, 0.974509, 0, 0, -0.224348) /* Linkable Monster Gen - 30 sec. */
      , (24136, 1975824440, 1548419723, 109.741, -38.1825, -11.981, 0.962771, 0, 0, 0.27032) /* Obsidian Shard from Aerbax */
      , (10957, 1975824441, 1548419725, 105.983, -59.166, -11.971, 0.983946, 0, 0, -0.178468) /* Virindi Observer */
      , (7089, 1975824442, 1548419733, 124.011, -259.864, -11.995, 0.581684, 0, 0, 0.813415) /* Altered Drudge */
@@ -80,130 +80,130 @@ VALUES (22604, 1975824384, 1548419342, 50.5926, -102.765, -41.989, -0.176473, 0,
      , (10787, 1975824462, 1548419817, 168.088, -29.9404, -11.995, 0.646691, 0, 0, 0.762752) /* Terebrous Hollow Minion */
      , (10787, 1975824463, 1548419817, 170.598, -29.3699, -11.995, 0.58772, 0, 0, 0.809064) /* Terebrous Hollow Minion */
      , (24136, 1975824464, 1548419817, 174.729, -30.0539, -11.981, 0.839192, 0, 0, -0.543835) /* Obsidian Shard from Aerbax */
-     , (5086, 1975824465, 1548419817, 174.302, -30.8697, -11.995, 0.634412, 0, 0, 0.772995) /* linkmonstergen30seconds */
+     , (5086, 1975824465, 1548419817, 174.302, -30.8697, -11.995, 0.634412, 0, 0, 0.772995) /* Linkable Monster Gen - 30 sec. */
      , (24036, 1975824466, 1548419818, 180, -10, -11.971, 0.839192, 0, 0, 0.543835) /* Virindi Interrogator */
      , (22604, 1975824467, 1548419819, 179.9, -22.6584, -11.989, -0.10904, 0, 0, 0.994037) /* Tusker Slave */
      , (22604, 1975824468, 1548419819, 180.852, -20.7558, -11.989, 0.426612, 0, 0, 0.904435) /* Tusker Slave */
      , (568, 1975824469, 1548419821, 180, -25, -11.995, 1, 0, 0, 0) /* Door */
      , (568, 1975824470, 1548419823, 180, -34, -11.995, 0.004206, 0, 0, -0.999991) /* Door */
      , (568, 1975824471, 1548419830, 190, -5, -11.995, 1, 0, 0, 0) /* Door */
-     , (5086, 1975824472, 1548419831, 191.127, -10.013, -11.995, 0.947651, 0, 0, -0.319309) /* linkmonstergen30seconds */
+     , (5086, 1975824472, 1548419831, 191.127, -10.013, -11.995, 0.947651, 0, 0, -0.319309) /* Linkable Monster Gen - 30 sec. */
      , (24136, 1975824473, 1548419831, 189.829, -9.79606, -11.981, 0.877582, 0, 0, -0.479426) /* Obsidian Shard from Aerbax */
      , (568, 1975824474, 1548419832, 190, -14, -11.995, -0.004206, 0, 0, -0.999991) /* Door */
      , (22602, 1975824475, 1548419834, 190, -20, -11.9868, 0.999687, 0, 0, 0.024997) /* Silver Tusker */
      , (24036, 1975824476, 1548419837, 190, -30, -11.971, 0.911039, 0, 0, 0.412321) /* Virindi Interrogator */
      , (24036, 1975824477, 1548419845, 211.169, -27.1031, -11.971, 0.997901, 0, 0, 0.0647654) /* Virindi Interrogator */
-     , (7923, 1975824478, 1548419847, 223.75, -20.1086, -11.995, 0.678557, 0, 0, 0.734548) /* linkmonstergen3minutes */
+     , (7923, 1975824478, 1548419847, 223.75, -20.1086, -11.995, 0.678557, 0, 0, 0.734548) /* Linkable Monster Generator ( 3 Min.) */
      , (24036, 1975824479, 1548419852, 231.901, -39.3278, -11.971, 0.960385, 0, 0, 0.278676) /* Virindi Interrogator */
      , (24036, 1975824480, 1548419854, 243.34, -17.2431, -11.971, 0.207844, 0, 0, 0.978162) /* Virindi Interrogator */
      , (24036, 1975824481, 1548419854, 241.952, -19.2552, -11.971, 0.969934, 0, 0, -0.243367) /* Virindi Interrogator */
      , (24071, 1975824482, 1548419857, 250, -20, -11.995, 1, 0, 0, -4.37114E-08) /* Exit */
      , (24136, 1975824483, 1548419861, 247.088, -38.4289, -11.981, -0.897966, 0, 0, 0.440065) /* Obsidian Shard from Aerbax */
-     , (5086, 1975824484, 1548419861, 246.555, -36.8421, -11.995, -0.655712, 0, 0, 0.755011) /* linkmonstergen30seconds */
-     , (15274, 1975824485, 1548419914, 233.328, -16.3636, -5.995, 0.625555, 0, 0, 0.78018) /* linkmonstergen1minute */
+     , (5086, 1975824484, 1548419861, 246.555, -36.8421, -11.995, -0.655712, 0, 0, 0.755011) /* Linkable Monster Gen - 30 sec. */
+     , (15274, 1975824485, 1548419914, 233.328, -16.3636, -5.995, 0.625555, 0, 0, 0.78018) /* Linkable Monster Gen (1 min.) */
      , (10955, 1975824486, 1548419914, 233.738, -17.6898, -5.971, 0.553795, 0, 0, 0.832653) /* Virindi Executor */
      , (7340, 1975824487, 1548419939, 36.0048, -240.034, 0.029, -0.684709, 0, 0, 0.728817) /* Virindi Observer */
      , (7340, 1975824488, 1548419944, 50.5804, -250.007, 0.029, -0.699915, 0, 0, 0.714226) /* Virindi Observer */
      , (24071, 1975824491, 1548419948, 59.9731, -246.357, 0.005, 1, 0, 0, 0) /* Exit */
-     , (7923, 1975824490, 1548419952, 63.186, -289.64, 0.005, 0.9999, 0, 0, -0.014175) /* linkmonstergen3minutes */;
+     , (7923, 1975824490, 1548419952, 63.186, -289.64, 0.005, 0.9999, 0, 0, -0.014175) /* Linkable Monster Generator ( 3 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1975824490'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1975824478'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1975824485'; /* linkmonstergen1minute */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1975824434'; /* linkmonstergen30seconds */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1975824439'; /* linkmonstergen30seconds */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1975824465'; /* linkmonstergen30seconds */
-UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1975824472'; /* linkmonstergen30seconds */
-UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1975824484'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1975824490'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1975824478'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1975824485'; /* Linkable Monster Gen (1 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1975824434'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1975824439'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1975824465'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1975824472'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1975824484'; /* Linkable Monster Gen - 30 sec. */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824488'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824487'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824417'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824423'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824416'; /* linkmonstergen3minutes <- Altered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824420'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824429'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824422'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824421'; /* linkmonstergen3minutes <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824427'; /* linkmonstergen3minutes <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824426'; /* linkmonstergen3minutes <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824430'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824438'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824435'; /* linkmonstergen3minutes <- Augmented Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824436'; /* linkmonstergen3minutes <- Augmented Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824447'; /* linkmonstergen3minutes <- Augmented Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824448'; /* linkmonstergen3minutes <- Altered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824442'; /* linkmonstergen3minutes <- Altered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824451'; /* linkmonstergen3minutes <- Virindi Executor */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824452'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824453'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824454'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824444'; /* linkmonstergen3minutes <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824445'; /* linkmonstergen3minutes <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824446'; /* linkmonstergen3minutes <- Augmented Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824414'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824415'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824413'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824411'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824410'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824409'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824408'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824407'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824412'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824404'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824403'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824406'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824402'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824401'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824399'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824399'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824405'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824400'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824394'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824392'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824393'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824389'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824390'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824388'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824385'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824386'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824387'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824391'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824384'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824395'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824396'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824398'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824419'; /* linkmonstergen3minutes <- Virindi Executor */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824397'; /* linkmonstergen3minutes <- Virindi Executor */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824431'; /* linkmonstergen3minutes <- Terebrous Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824432'; /* linkmonstergen3minutes <- Terebrous Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824466'; /* linkmonstergen3minutes <- Virindi Interrogator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824468'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824455'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824456'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824462'; /* linkmonstergen3minutes <- Terebrous Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824463'; /* linkmonstergen3minutes <- Terebrous Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824467'; /* linkmonstergen3minutes <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824428'; /* linkmonstergen3minutes <- Terebrous Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824418'; /* linkmonstergen3minutes <- Terebrous Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824441'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824476'; /* linkmonstergen3minutes <- Virindi Interrogator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824477'; /* linkmonstergen3minutes <- Virindi Interrogator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824437'; /* linkmonstergen3minutes <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824424'; /* linkmonstergen3minutes <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824425'; /* linkmonstergen3minutes <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824443'; /* linkmonstergen3minutes <- Virindi Interrogator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824449'; /* linkmonstergen3minutes <- Silver Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824450'; /* linkmonstergen3minutes <- Silver Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824459'; /* linkmonstergen3minutes <- Silver Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824475'; /* linkmonstergen3minutes <- Silver Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975824479'; /* linkmonstergen3minutes <- Virindi Interrogator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975824480'; /* linkmonstergen3minutes <- Virindi Interrogator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975824481'; /* linkmonstergen3minutes <- Virindi Interrogator */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975824486'; /* linkmonstergen1minute <- Virindi Executor */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975824433'; /* linkmonstergen30seconds <- Obsidian Shard from Aerbax */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1975824440'; /* linkmonstergen30seconds <- Obsidian Shard from Aerbax */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1975824464'; /* linkmonstergen30seconds <- Obsidian Shard from Aerbax */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1975824473'; /* linkmonstergen30seconds <- Obsidian Shard from Aerbax */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1975824483'; /* linkmonstergen30seconds <- Obsidian Shard from Aerbax */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824488'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824487'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824417'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824423'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824416'; /* Linkable Monster Generator ( 3 Min.) <- Altered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824420'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824429'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824422'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824421'; /* Linkable Monster Generator ( 3 Min.) <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824427'; /* Linkable Monster Generator ( 3 Min.) <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824426'; /* Linkable Monster Generator ( 3 Min.) <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824430'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824438'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824435'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824436'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824447'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824448'; /* Linkable Monster Generator ( 3 Min.) <- Altered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824442'; /* Linkable Monster Generator ( 3 Min.) <- Altered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824451'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Executor */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824452'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824453'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824454'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824444'; /* Linkable Monster Generator ( 3 Min.) <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824445'; /* Linkable Monster Generator ( 3 Min.) <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824446'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824414'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824415'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824413'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824411'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824410'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824409'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824408'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824407'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824412'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824404'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824403'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824406'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824402'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824401'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824399'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824399'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824405'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824400'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824394'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824392'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824393'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824389'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824390'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824388'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824385'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824386'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824387'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824391'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824384'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824395'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824396'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824398'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824419'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Executor */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824397'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Executor */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824431'; /* Linkable Monster Generator ( 3 Min.) <- Terebrous Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824432'; /* Linkable Monster Generator ( 3 Min.) <- Terebrous Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824466'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Interrogator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824468'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824455'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824456'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824462'; /* Linkable Monster Generator ( 3 Min.) <- Terebrous Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824463'; /* Linkable Monster Generator ( 3 Min.) <- Terebrous Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824467'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824428'; /* Linkable Monster Generator ( 3 Min.) <- Terebrous Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824418'; /* Linkable Monster Generator ( 3 Min.) <- Terebrous Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824441'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824476'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Interrogator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824477'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Interrogator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824437'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824424'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824425'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824443'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Interrogator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824449'; /* Linkable Monster Generator ( 3 Min.) <- Silver Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824450'; /* Linkable Monster Generator ( 3 Min.) <- Silver Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824459'; /* Linkable Monster Generator ( 3 Min.) <- Silver Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975824475'; /* Linkable Monster Generator ( 3 Min.) <- Silver Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975824479'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Interrogator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975824480'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Interrogator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975824481'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Interrogator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1975824486'; /* Linkable Monster Gen (1 min.) <- Virindi Executor */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1975824433'; /* Linkable Monster Gen - 30 sec. <- Obsidian Shard from Aerbax */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1975824440'; /* Linkable Monster Gen - 30 sec. <- Obsidian Shard from Aerbax */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1975824464'; /* Linkable Monster Gen - 30 sec. <- Obsidian Shard from Aerbax */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1975824473'; /* Linkable Monster Gen - 30 sec. <- Obsidian Shard from Aerbax */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1975824483'; /* Linkable Monster Gen - 30 sec. <- Obsidian Shard from Aerbax */
 

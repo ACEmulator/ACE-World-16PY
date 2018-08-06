@@ -40,8 +40,8 @@ VALUES (29233, 1882103808, 48890125, 37.801, -53.0614, -11.945, 0.180306, 0, 0, 
      , (25879, 1882103892, 48890229, 73.2064, -18.3032, 0.012, -0.653926, 0, 0, -0.756558) /* Pestilence Rat */
      , (25879, 1882103893, 48890233, 70, -30, 0.012, 1, 0, 0, -4.37114E-08) /* Pestilence Rat */
      , (29236, 1882103845, 48890237, -3.04243, -39.7638, 6, 0.707107, 0, 0, -0.707107) /* Surface */
-     , (7925, 1882103846, 48890237, -2.3109, -36.9627, 6.005, 0.974333, 0, 0, 0.22511) /* linkmonstergen10minutes */
-     , (5085, 1882103847, 48890237, -1.36908, -36.924, 6.005, 0.961865, 0, 0, 0.273525) /* linkitemgen25seconds */
+     , (7925, 1882103846, 48890237, -2.3109, -36.9627, 6.005, 0.974333, 0, 0, 0.22511) /* Linkable Monster Generator ( 10 Min.) */
+     , (5085, 1882103847, 48890237, -1.36908, -36.924, 6.005, 0.961865, 0, 0, 0.273525) /* Linkable Item Gen - 25 seconds */
      , (25879, 1882103894, 48890240, 7.69221, -21.6911, 6.012, -0.101934, 0, 0, -0.994791) /* Pestilence Rat */
      , (25879, 1882103895, 48890240, 9.57274, -22.1743, 6.012, 0.387576, 0, 0, -0.921838) /* Pestilence Rat */
      , (25879, 1882103896, 48890240, 9.87942, -17.5759, 6.012, 0.851507, 0, 0, -0.524343) /* Pestilence Rat */
@@ -55,53 +55,53 @@ VALUES (29233, 1882103808, 48890125, 37.801, -53.0614, -11.945, 0.180306, 0, 0, 
      , (25876, 1882103903, 48890263, 30.0004, -8.75871, 6.015, 1, 0, 0, 0) /* Sephal Nefane */
      , (25879, 1882103904, 48890269, 29.805, -60.2849, 3.012, -0.541025, 0, 0, -0.841006) /* Pestilence Rat */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882103847'; /* linkitemgen25seconds */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882103846'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882103847'; /* Linkable Item Gen - 25 seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882103846'; /* Linkable Monster Generator ( 10 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882103808'; /* linkitemgen25seconds <- Ishaq's Lost Key */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103889'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103898'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103897'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103902'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103870'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103879'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103904'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103887'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103863'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103868'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103869'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103882'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103881'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103880'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103888'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103866'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103865'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103877'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103872'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103862'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103861'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103860'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103867'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103899'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103878'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103903'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103864'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103871'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103876'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103901'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103900'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103886'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103884'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103885'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103883'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103875'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103874'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103873'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103895'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103896'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103894'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103893'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103892'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103890'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103891'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882103808'; /* Linkable Item Gen - 25 seconds <- Ishaq's Lost Key */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103889'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103898'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103897'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103902'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103870'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103879'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103904'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103887'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103863'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103868'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103869'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103882'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103881'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103880'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103888'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103866'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103865'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103877'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103872'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103862'; /* Linkable Monster Generator ( 10 Min.) <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103861'; /* Linkable Monster Generator ( 10 Min.) <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103860'; /* Linkable Monster Generator ( 10 Min.) <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103867'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103899'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103878'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103903'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103864'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103871'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103876'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103901'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103900'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103886'; /* Linkable Monster Generator ( 10 Min.) <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103884'; /* Linkable Monster Generator ( 10 Min.) <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103885'; /* Linkable Monster Generator ( 10 Min.) <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103883'; /* Linkable Monster Generator ( 10 Min.) <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103875'; /* Linkable Monster Generator ( 10 Min.) <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103874'; /* Linkable Monster Generator ( 10 Min.) <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103873'; /* Linkable Monster Generator ( 10 Min.) <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103895'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103896'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103894'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103893'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103892'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103890'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103891'; /* Linkable Monster Generator ( 10 Min.) <- Pestilence Rat */
 

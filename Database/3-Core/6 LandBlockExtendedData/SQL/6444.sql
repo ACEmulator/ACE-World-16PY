@@ -13,8 +13,8 @@ VALUES (24013, 1984184320, 1682178304, 30, -300, -24, 0.707107, 0, 0, -0.707107)
      , (24024, 1984184331, 1682178361, 80, -330, -24, 0.707107, 0, 0, -0.707107) /* Collegium Planar Abstraction Conveyance */
      , (568, 1984184332, 1682178370, 90, -284.75, -24, 0, 0, 0, -1) /* Door */
      , (24001, 1984184333, 1682178371, 90, -288, -23.988, 0, 0, 0, -1) /* Arikas, Warden of Knorr */
-     , (7923, 1984184334, 1682178372, 90, -300, -23.995, 1, 0, 0, 0) /* linkmonstergen3minutes */
-     , (4219, 1984184335, 1682178372, 92.4869, -298.117, -23.995, -0.999193, 0, 0, 0.04016) /* linkmonstergen7minutes */
+     , (7923, 1984184334, 1682178372, 90, -300, -23.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (4219, 1984184335, 1682178372, 92.4869, -298.117, -23.995, -0.999193, 0, 0, 0.04016) /* Linkable Monster Generator ( 7 Min.) */
      , (568, 1984184336, 1682178378, 90, -315.25, -24, -1, 0, 0, 0) /* Door */
      , (24026, 1984184337, 1682178398, 90, -360, -24, 1, 0, 0, 0) /* Collegium Tempae Invectae Conveyance */
      , (24021, 1984184338, 1682178404, 100, -320, -24, -0.707107, 0, 0, -0.707107) /* West Library Conveyance */
@@ -65,7 +65,7 @@ VALUES (24013, 1984184320, 1682178304, 30, -300, -24, 0.707107, 0, 0, -0.707107)
      , (15267, 1984184532, 1682178892, 80, -110, 12.01, 1, 0, 0, 0) /* Acidic Diamond Golem */
      , (278, 1984184533, 1682178896, 80, -115.25, 12, 1, 0, 0, 0) /* Door */
      , (23996, 1984184534, 1682178913, 64.575, -36.35, 18.005, 0.705952, 0, 0, -0.70826) /* Bookshelf */
-     , (15759, 1984184535, 1682178913, 60, -40, 18.005, 1, 0, 0, 0) /* linkitemgen10seconds */
+     , (15759, 1984184535, 1682178913, 60, -40, 18.005, 1, 0, 0, 0) /* Linkable Item Generator */
      , (23995, 1984184536, 1682178913, 56.0596, -42.2927, 18.9736, 0.731689, 0, 0, 0.681639) /* Key to the Sentinel Cache */
      , (23994, 1984184537, 1682178913, 56.0463, -42.9207, 18.974, -0.731687, 0, 0, -0.681641) /* Key to the Elder Cache */
      , (23993, 1984184538, 1682178913, 56.0488, -43.4334, 18.974, -0.731687, 0, 0, -0.681641) /* Key to the Defender Cache */
@@ -79,38 +79,38 @@ VALUES (24013, 1984184320, 1682178304, 30, -300, -24, 0.707107, 0, 0, -0.707107)
      , (24109, 1984184546, 1682178913, 63.6, -44.15, 19.055, 0.707107, 0, 0, -0.707107) /* Withered Tome */
      , (1295, 1984184547, 1682178914, 60, -45.25, 18, 0, 0, 0, -1) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1984184334'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1984184535'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1984184335'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1984184334'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1984184535'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1984184335'; /* Linkable Monster Generator ( 7 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984184333'; /* linkmonstergen3minutes <- Arikas, Warden of Knorr */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984184534'; /* linkmonstergen3minutes <- Bookshelf */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184538'; /* linkitemgen10seconds <- Key to the Defender Cache */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184536'; /* linkitemgen10seconds <- Key to the Sentinel Cache */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184537'; /* linkitemgen10seconds <- Key to the Elder Cache */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184545'; /* linkitemgen10seconds <- Aged Tome */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184546'; /* linkitemgen10seconds <- Withered Tome */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184543'; /* linkitemgen10seconds <- Decrepit Tome */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184544'; /* linkitemgen10seconds <- Old Tome */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184541'; /* linkitemgen10seconds <- Worn Tome */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184542'; /* linkitemgen10seconds <- Hidden Tome */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184539'; /* linkitemgen10seconds <- Weathered Tome */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184540'; /* linkitemgen10seconds <- Encrusted Tome */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184526'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184525'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184528'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184527'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184532'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184522'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184499'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184500'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184512'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184506'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184489'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184490'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184390'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184392'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184440'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184441'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184389'; /* linkmonstergen7minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984184333'; /* Linkable Monster Generator ( 3 Min.) <- Arikas, Warden of Knorr */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984184534'; /* Linkable Monster Generator ( 3 Min.) <- Bookshelf */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184538'; /* Linkable Item Generator <- Key to the Defender Cache */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184536'; /* Linkable Item Generator <- Key to the Sentinel Cache */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184537'; /* Linkable Item Generator <- Key to the Elder Cache */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184545'; /* Linkable Item Generator <- Aged Tome */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184546'; /* Linkable Item Generator <- Withered Tome */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184543'; /* Linkable Item Generator <- Decrepit Tome */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184544'; /* Linkable Item Generator <- Old Tome */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184541'; /* Linkable Item Generator <- Worn Tome */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184542'; /* Linkable Item Generator <- Hidden Tome */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184539'; /* Linkable Item Generator <- Weathered Tome */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984184540'; /* Linkable Item Generator <- Encrusted Tome */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184526'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184525'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184528'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184527'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184532'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184522'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184499'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184500'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184512'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184506'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184489'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184490'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184390'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184392'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184440'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184441'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984184389'; /* Linkable Monster Generator ( 7 Min.) <- Acidic Diamond Golem */
 

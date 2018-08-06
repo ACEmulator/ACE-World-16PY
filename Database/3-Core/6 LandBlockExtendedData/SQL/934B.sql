@@ -67,7 +67,7 @@ VALUES (8370, 2033496067, 2471166208, 111.748, 57.6946, 13.705, -0.128215, 0, 0,
      , (8255, 2033496137, 2471166511, 102.382, 14.391, -10.832, -0.707107, 0, 0, -0.707107) /* Archmage Sign */
      , (4452, 2033496138, 2471166513, 97.988, 10.132, -13.595, 1, 0, 0, 0) /* Door */
      , (8224, 2033496139, 2471166514, 98.7925, 2.32, -13.595, -0.952831, 0, 0, -0.303501) /* Archmage Zarri ibn Khaybi */
-     , (3955, 2033496140, 2471166522, 105.437, 25.7369, -13.595, 0.659983, 0, 0, 0.75128) /* linkmonstergen15minutes */
+     , (3955, 2033496140, 2471166522, 105.437, 25.7369, -13.595, 0.659983, 0, 0, 0.75128) /* Linkable Monster Gen (15 min.) */
      , (8228, 2033496141, 2471166543, 117.988, 24.995, -13.6, 0.707107, 0, 0, -0.707107) /* Xarabydun  */
      , (8229, 2033496142, 2471166560, 132.61, 38.8795, -13.595, -0.618824, 0, 0, 0.78553) /* Fazyad ibn Raymar */
      , (153, 2033496143, 2471166574, 139.837, 38.3213, -13.595, -4.37114E-08, 0, 0, -1) /* Fountain */
@@ -92,53 +92,53 @@ VALUES (8370, 2033496067, 2471166208, 111.748, 57.6946, 13.705, -0.128215, 0, 0,
      , (1148, 2033496161, 2471165952, 63.5, 13.51, 14, -4.37114E-08, 0, 0, -1) /* Door */
      , (20214, 2033496166, 2471165952, 63.6007, 9.98235, 17.605, -0.294583, 0, 0, 0.955626) /* Scrivener of Item Magic */
      , (8228, 2033496065, 2471165952, 130.024, 9.08462, 15.1647, 0.926734, 0, 0, -0.375719) /* Xarabydun  */
-     , (4219, 2033496066, 2471165952, 114.599, 44.7822, 14.2731, 0.742676, 0, 0, -0.669651) /* linkmonstergen7minutes */
+     , (4219, 2033496066, 2471165952, 114.599, 44.7822, 14.2731, 0.742676, 0, 0, -0.669651) /* Linkable Monster Generator ( 7 Min.) */
      , (20226, 2033496165, 2471165952, 60.4832, 8.87049, 22.805, 0.735213, 0, 0, 0.677836) /* Scrivener of War Magic */
      , (25991, 2033496162, 2471165952, 56.6477, 32.6561, 14.005, -0.478908, 0, 0, -0.877865) /* Small Creepy Statue */
-     , (5086, 2033496074, 2471165952, 38.7251, 83.5446, 16.005, 0.993971, 0, 0, -0.109646) /* linkmonstergen30seconds */;
+     , (5086, 2033496074, 2471165952, 38.7251, 83.5446, 16.005, 0.993971, 0, 0, -0.109646) /* Linkable Monster Gen - 30 sec. */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2033496140'; /* linkmonstergen15minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2033496066'; /* linkmonstergen7minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2033496074'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2033496140'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2033496066'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2033496074'; /* Linkable Monster Gen - 30 sec. */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496145'; /* linkmonstergen15minutes <- Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496086'; /* linkmonstergen15minutes <- Grey Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496087'; /* linkmonstergen15minutes <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496094'; /* linkmonstergen15minutes <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496088'; /* linkmonstergen15minutes <- Brown Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496081'; /* linkmonstergen15minutes <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496082'; /* linkmonstergen15minutes <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496083'; /* linkmonstergen15minutes <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496091'; /* linkmonstergen15minutes <- Grey Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496090'; /* linkmonstergen15minutes <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496093'; /* linkmonstergen15minutes <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496105'; /* linkmonstergen15minutes <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496084'; /* linkmonstergen15minutes <- Grey Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496085'; /* linkmonstergen15minutes <- Brown Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496100'; /* linkmonstergen15minutes <- Brown Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496104'; /* linkmonstergen15minutes <- Red Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496097'; /* linkmonstergen15minutes <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496098'; /* linkmonstergen15minutes <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496099'; /* linkmonstergen15minutes <- Grey Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496115'; /* linkmonstergen15minutes <- Grey Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496147'; /* linkmonstergen15minutes <- Desert Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496148'; /* linkmonstergen15minutes <- Desert Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496149'; /* linkmonstergen15minutes <- Desert Bunny */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496150'; /* linkmonstergen15minutes <- Desert Bunny */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496142'; /* linkmonstergen15minutes <- Fazyad ibn Raymar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496096'; /* linkmonstergen15minutes <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496102'; /* linkmonstergen15minutes <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496107'; /* linkmonstergen15minutes <- Red Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496109'; /* linkmonstergen15minutes <- Brown Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496106'; /* linkmonstergen15minutes <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496092'; /* linkmonstergen15minutes <- Ethereal Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496103'; /* linkmonstergen15minutes <- Ethereal Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496111'; /* linkmonstergen15minutes <- Grey Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496112'; /* linkmonstergen15minutes <- Brown Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2033496067'; /* linkmonstergen7minutes <- Aino Lunnan-Shin */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2033496162'; /* linkmonstergen7minutes <- Small Creepy Statue */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2033496073'; /* linkmonstergen30seconds <- Bhab, Arcanum Tinkerer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2033496075'; /* linkmonstergen30seconds <- Ciandra, Arcanum Alchemist */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2033496076'; /* linkmonstergen30seconds <- Hiro, Arcanum Artificer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2033496157'; /* linkmonstergen30seconds <- Alaine the Apprentice */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496145'; /* Linkable Monster Gen (15 min.) <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496086'; /* Linkable Monster Gen (15 min.) <- Grey Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496087'; /* Linkable Monster Gen (15 min.) <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496094'; /* Linkable Monster Gen (15 min.) <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496088'; /* Linkable Monster Gen (15 min.) <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496081'; /* Linkable Monster Gen (15 min.) <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496082'; /* Linkable Monster Gen (15 min.) <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496083'; /* Linkable Monster Gen (15 min.) <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496091'; /* Linkable Monster Gen (15 min.) <- Grey Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496090'; /* Linkable Monster Gen (15 min.) <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496093'; /* Linkable Monster Gen (15 min.) <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496105'; /* Linkable Monster Gen (15 min.) <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496084'; /* Linkable Monster Gen (15 min.) <- Grey Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496085'; /* Linkable Monster Gen (15 min.) <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496100'; /* Linkable Monster Gen (15 min.) <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496104'; /* Linkable Monster Gen (15 min.) <- Red Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496097'; /* Linkable Monster Gen (15 min.) <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496098'; /* Linkable Monster Gen (15 min.) <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496099'; /* Linkable Monster Gen (15 min.) <- Grey Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496115'; /* Linkable Monster Gen (15 min.) <- Grey Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496147'; /* Linkable Monster Gen (15 min.) <- Desert Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496148'; /* Linkable Monster Gen (15 min.) <- Desert Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496149'; /* Linkable Monster Gen (15 min.) <- Desert Bunny */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496150'; /* Linkable Monster Gen (15 min.) <- Desert Bunny */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496142'; /* Linkable Monster Gen (15 min.) <- Fazyad ibn Raymar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496096'; /* Linkable Monster Gen (15 min.) <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496102'; /* Linkable Monster Gen (15 min.) <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496107'; /* Linkable Monster Gen (15 min.) <- Red Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496109'; /* Linkable Monster Gen (15 min.) <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496106'; /* Linkable Monster Gen (15 min.) <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496092'; /* Linkable Monster Gen (15 min.) <- Ethereal Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496103'; /* Linkable Monster Gen (15 min.) <- Ethereal Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496111'; /* Linkable Monster Gen (15 min.) <- Grey Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2033496112'; /* Linkable Monster Gen (15 min.) <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2033496067'; /* Linkable Monster Generator ( 7 Min.) <- Aino Lunnan-Shin */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2033496162'; /* Linkable Monster Generator ( 7 Min.) <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2033496073'; /* Linkable Monster Gen - 30 sec. <- Bhab, Arcanum Tinkerer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2033496075'; /* Linkable Monster Gen - 30 sec. <- Ciandra, Arcanum Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2033496076'; /* Linkable Monster Gen - 30 sec. <- Hiro, Arcanum Artificer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2033496157'; /* Linkable Monster Gen - 30 sec. <- Alaine the Apprentice */
 

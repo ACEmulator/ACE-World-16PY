@@ -5,13 +5,13 @@ VALUES (9143, 2031378432, 2437283840, 42.746, 14.2601, 11.506, 0.705896, 0, 0, 0
      , (1632, 2031378435, 2437283840, 47.8449, 13.4507, 12.2209, -0.952431, 0, 0, -0.304755) /* Drudge Slave */
      , (1632, 2031378436, 2437283840, 45.837, 17.7462, 12.6022, -0.657817, 0, 0, -0.753178) /* Drudge Slave */
      , (1632, 2031378437, 2437283840, 40.7653, 9.15561, 10.3251, -0.929806, 0, 0, 0.368051) /* Drudge Slave */
-     , (7924, 2031378438, 2437283840, 51.0818, 20.3128, 13.3905, -0.628452, 0, 0, -0.777849) /* linkmonstergen5minutes */;
+     , (7924, 2031378438, 2437283840, 51.0818, 20.3128, 13.3905, -0.628452, 0, 0, -0.777849) /* Linkable Monster Generator ( 5 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2031378438'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2031378438'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2031378433'; /* linkmonstergen5minutes <- Tumerok Fighter */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2031378434'; /* linkmonstergen5minutes <- Tumerok Fighter */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2031378435'; /* linkmonstergen5minutes <- Drudge Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2031378436'; /* linkmonstergen5minutes <- Drudge Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2031378437'; /* linkmonstergen5minutes <- Drudge Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2031378433'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2031378434'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2031378435'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2031378436'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2031378437'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Slave */
 

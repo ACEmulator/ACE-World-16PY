@@ -1,5 +1,5 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4781, 2037522446, 2535588096, 117.289, 58.1682, 102.005, -0.918723, 0, 0, -0.394903) /* leathercraftergharundimgen */
+VALUES (4781, 2037522446, 2535588096, 117.289, 58.1682, 102.005, -0.918723, 0, 0, -0.394903) /* Gharundim Leather Crafter Gen */
      , (1058, 2037522454, 2535588096, 115.47, 55.985, 102.005, 0.966376, 0, 0, 0.257133) /* Fazlim ibn Masay the Tailor */
      , (1148, 2037522432, 2535588099, 103.04, 56.565, 102, 0.707107, 0, 0, 0.707107) /* Door */
      , (1053, 2037522453, 2535588102, 102.05, 64.265, 102.005, 0.753563, 0, 0, -0.657375) /* Gharuya al-Dhul the Grocer */
@@ -9,7 +9,7 @@ VALUES (4781, 2037522446, 2535588096, 117.289, 58.1682, 102.005, -0.918723, 0, 0
      , (28918, 2037522509, 2535588140, 109.996, 114.999, 105.205, 0.332151, 0, 0, 0.943226) /* Journeyman Alchemist */
      , (1049, 2037522450, 2535588141, 83.6276, 77.469, 102.293, 0.688196, 0, 0, -0.725525) /* Tamara bint Atwab the Armorer */
      , (1059, 2037522451, 2535588141, 82.0897, 81.4278, 102.281, 0.902585, 0, 0, -0.430511) /* Almina bint Atwab the Weaponsmith */
-     , (4787, 2037522464, 2535588142, 75.6924, 87.1539, 101.205, 0.898683, 0, 0, -0.438599) /* trophysmithgharundimgen */
+     , (4787, 2037522464, 2535588142, 75.6924, 87.1539, 101.205, 0.898683, 0, 0, -0.438599) /* Gharundim Trophy Smith Gen */
      , (1052, 2037522452, 2535588143, 87.6, 78.84, 102.005, 0.707107, 0, 0, 0.707107) /* Miya bint Atwab the Bowyer */
      , (145, 2037522435, 2535588154, 91.495, 80.185, 102, 0.707107, 0, 0, 0.707107) /* Coffer */
      , (1048, 2037522455, 2535588155, 124.224, 89.1925, 102.005, -4.37114E-08, 0, 0, 1) /* Jumzik al-Budim the Archmage */
@@ -19,7 +19,7 @@ VALUES (4781, 2037522446, 2535588096, 117.289, 58.1682, 102.005, -0.918723, 0, 0
      , (1050, 2037522445, 2535588175, 52.1609, 113.2, 102.005, 0.67816, 0, 0, -0.734915) /* Iquba al-Julmud the Barkeeper */
      , (8377, 2037522466, 2535588177, 52.9063, 114.365, 103, -0.707107, 0, 0, -0.707107) /* Beer Keg */
      , (412, 2037522469, 2535588184, 86.488, 125.952, 102, 1, 0, 0, 0) /* Door */
-     , (7923, 2037522471, 2535588186, 79.3742, 132.522, 102.005, 0.654786, 0, 0, 0.755815) /* linkmonstergen3minutes */
+     , (7923, 2037522471, 2535588186, 79.3742, 132.522, 102.005, 0.654786, 0, 0, 0.755815) /* Linkable Monster Generator ( 3 Min.) */
      , (12050, 2037522470, 2535588186, 78.2727, 132.41, 102.005, 0.772513, 0, 0, -0.634999) /* Agent of the Arcanum */
      , (19716, 2037522485, 2535588190, 79.7123, 123.169, 96.805, -0.883388, 0, 0, -0.468642) /* Mammet Foundry Portal */
      , (6102, 2037522504, 2535588194, 36.0903, 131.992, 104.005, 0.552531, 0, 0, 0.833492) /* Qalaba'r Meeting Hall Portal */
@@ -39,14 +39,14 @@ VALUES (4781, 2037522446, 2535588096, 117.289, 58.1682, 102.005, -0.918723, 0, 0
      , (16919, 2037522478, 2535587840, 93.4225, 112.811, 102, -0.450098, 0, 0, 0.892979) /* Pedestal Weak Spot */
      , (27547, 2037522503, 2535587840, 36.8566, 144.922, 102.005, -0.780654, 0, 0, -0.624963) /* Bind Stone */
      , (509, 2037522502, 2535587840, 146.035, 65.7887, 102.005, 0.939079, 0, 0, -0.343703) /* Life Stone */
-     , (7923, 2037522501, 2535587840, 115.117, 56.1522, 105.605, 0.844339, 0, 0, 0.535809) /* linkmonstergen3minutes */
+     , (7923, 2037522501, 2535587840, 115.117, 56.1522, 105.605, 0.844339, 0, 0, 0.535809) /* Linkable Monster Generator ( 3 Min.) */
      , (27265, 2037522500, 2535587840, 114.665, 57.8951, 105.655, 0.396153, 0, 0, -0.918184) /* Aun Maerirea */
      , (25989, 2037522496, 2535587840, 136.152, 47.5343, 102.005, -0.232768, 0, 0, -0.972532) /* Small Creepy Statue */
-     , (23631, 2037522495, 2535587840, 92.6751, 92.3402, 172.768, 0.4809, 0, 0, 0.876775) /* eventmadcowgen */
+     , (23631, 2037522495, 2535587840, 92.6751, 92.3402, 172.768, 0.4809, 0, 0, 0.876775) /* April 2003 Raining Mad Cows Gen */
      , (19380, 2037522487, 2535587840, 73.7295, 158.991, 102.005, -0.917532, 0, 0, 0.397663) /* Atrium Residential Halls */
      , (19358, 2037522486, 2535587840, 75.5761, 160.722, 102.005, -0.917532, 0, 0, 0.397663) /* Atrium Residential Halls Portal */
      , (19197, 2037522484, 2535587840, 90.3434, 115.781, 108.83, -0.338297, 0, 0, -0.941039) /* Nullified Statue of a Golem */
-     , (19457, 2037522483, 2535587840, 89.955, 115.401, 109, -0.332927, 0, 0, -0.942953) /* fireworksgen */
+     , (19457, 2037522483, 2535587840, 89.955, 115.401, 109, -0.332927, 0, 0, -0.942953) /* Fireworks Generator */
      , (12304, 2037522472, 2535587840, 80.0702, 126.096, 102.005, -0.999972, 0, 0, 0.00744014) /* Agent of the Arcanum  */
      , (6441, 2037522465, 2535587840, 106.92, 75.36, 102.01, 0.907778, 0, 0, -0.419452) /* Well */
      , (1111, 2037522457, 2535587840, 50.3475, 142.065, 102, -0.92388, 0, 0, -0.382683) /* Qalaba'r */
@@ -55,13 +55,13 @@ VALUES (4781, 2037522446, 2535588096, 117.289, 58.1682, 102.005, -0.918723, 0, 0
      , (1063, 2037522460, 2535587840, 84.8168, 82.387, 105.617, 0.707107, 0, 0, 0.707107) /* Tamara's Armory */
      , (1064, 2037522461, 2535587840, 108.843, 72.194, 105.082, 0.707107, 0, 0, 0.707107) /* Food and Clothing */
      , (1065, 2037522462, 2535587840, 120.041, 82.629, 105.51, 0.0400236, 0, 0, -0.999199) /* House of Scrolls */
-     , (4773, 2037522463, 2535587840, 65.5429, 104.959, 105.605, -0.771647, 0, 0, 0.636051) /* collectorstonegharundimgen */;
+     , (4773, 2037522463, 2535587840, 65.5429, 104.959, 105.605, -0.771647, 0, 0, 0.636051) /* Gharundim Stone Collector Gen */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2037522471'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2037522501'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2037522471'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2037522501'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2037522470'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2037522496'; /* linkmonstergen3minutes <- Small Creepy Statue */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2037522500'; /* linkmonstergen3minutes <- Aun Maerirea */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2037522509'; /* linkmonstergen3minutes <- Journeyman Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2037522470'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2037522496'; /* Linkable Monster Generator ( 3 Min.) <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2037522500'; /* Linkable Monster Generator ( 3 Min.) <- Aun Maerirea */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2037522509'; /* Linkable Monster Generator ( 3 Min.) <- Journeyman Alchemist */
 

@@ -42,7 +42,7 @@ VALUES (285, 1984209005, 1682571520, 23.3774, -64.8881, -47, 0.0197467, 0, 0, -0
      , (5625, 1984209180, 1682571661, 124.75, -50, -35.995, -0.707107, 0, 0, -0.707107) /* Door */
      , (25976, 1984209013, 1682571663, 128.541, -38.7677, -35.995, -0.92388, 0, 0, -0.382683) /* Surface */
      , (25965, 1984209043, 1682571666, 127.5, -50.1658, -35.995, 0.998506, 0, 0, -0.054644) /* Maddened Zharalim */
-     , (15759, 1984209175, 1682571668, 131.736, -62.7425, -35.995, 0.338137, 0, 0, 0.941097) /* linkitemgen10seconds */
+     , (15759, 1984209175, 1682571668, 131.736, -62.7425, -35.995, 0.338137, 0, 0, 0.941097) /* Linkable Item Generator */
      , (25979, 1984209176, 1682571668, 131.736, -62.7425, -35.921, 0.338137, 0, 0, 0.941097) /* Zharalim Foreman's Journal */
      , (2609, 1984208910, 1682571671, 140, -30, -35.995, 1, 0, 0, -4.37114E-08) /* Lever */
      , (286, 1984209014, 1682571671, 137.071, -25.6026, -34.5, 1, 0, 0, -4.37114E-08) /* Lever */
@@ -130,7 +130,7 @@ VALUES (285, 1984209005, 1682571520, 23.3774, -64.8881, -47, 0.0197467, 0, 0, -0
      , (6534, 1984209087, 1682571867, 83.453, -58.4298, -17.995, 0.958312, 0, 0, 0.285723) /* Shadow Sprite */
      , (25961, 1984209088, 1682571875, 88.4629, -42.0834, -17.995, 0.516638, 0, 0, 0.856204) /* Crazed Zharalim */
      , (25965, 1984209089, 1682571878, 87.0643, -58.6384, -17.995, 0.904009, 0, 0, 0.427514) /* Maddened Zharalim */
-     , (7924, 1984209090, 1682571878, 90.4319, -63.3358, -16.3392, -0.946064, 0, 0, -0.32398) /* linkmonstergen5minutes */
+     , (7924, 1984209090, 1682571878, 90.4319, -63.3358, -16.3392, -0.946064, 0, 0, -0.32398) /* Linkable Monster Generator ( 5 Min.) */
      , (854, 1984208948, 1682571879, 90, -70, -17.995, 0.707107, 0, 0, -0.707107) /* Altar of Bael'Zharon */
      , (4254, 1984209091, 1682571879, 86.352, -70, -17.995, 0.696707, 0, 0, 0.717356) /* Umbris Shadow */
      , (4253, 1984209092, 1682571879, 87.7354, -73.3122, -17.995, 0.877582, 0, 0, 0.479426) /* Panumbris Shadow */
@@ -138,7 +138,7 @@ VALUES (285, 1984209005, 1682571520, 23.3774, -64.8881, -47, 0.0197467, 0, 0, -0
      , (5626, 1984208949, 1682571893, 100, -35.144, -17.995, 0, 0, 0, -1) /* Door */
      , (25961, 1984209094, 1682571893, 99.9458, -36.7311, -17.995, -0.378324, 0, 0, 0.925673) /* Crazed Zharalim */
      , (25980, 1984209177, 1682571894, 99.4089, -48.602, -17.921, 0.992198, 0, 0, -0.124675) /* Zharalim Master's Journal */
-     , (15759, 1984209178, 1682571894, 99.4089, -48.602, -17.995, 0.980067, 0, 0, -0.198669) /* linkitemgen10seconds */
+     , (15759, 1984209178, 1682571894, 99.4089, -48.602, -17.995, 0.980067, 0, 0, -0.198669) /* Linkable Item Generator */
      , (25966, 1984209095, 1682571898, 100, -60, -17.995, -0.999135, 0, 0, 0.0415807) /* Maddened Zharalim */
      , (5626, 1984208950, 1682571900, 100, -64.7352, -17.995, 1, 0, 0, 0) /* Door */
      , (5625, 1984208951, 1682571913, 111.908, -40.0057, -17.995, 0.707107, 0, 0, -0.707107) /* Door */
@@ -249,7 +249,7 @@ VALUES (285, 1984209005, 1682571520, 23.3774, -64.8881, -47, 0.0197467, 0, 0, -0
      , (2180, 1984208982, 1682572173, 121.957, -30, 0.005, 0.707107, 0, 0, -0.707107) /* Door */
      , (8419, 1984208983, 1682572176, 118.934, -45.6069, 1.5, 1, 0, 0, -0.000375486) /* Button */
      , (25974, 1984209170, 1682572176, 117.039, -52.0268, 0.005, 0.923879, 0, 0, -0.382684) /* Yalik Ibn Ujsef */
-     , (3955, 1984209171, 1682572176, 117.13, -51.9252, 0.005, -0.927395, 0, 0, 0.374083) /* linkmonstergen15minutes */
+     , (3955, 1984209171, 1682572176, 117.13, -51.9252, 0.005, -0.927395, 0, 0, 0.374083) /* Linkable Monster Gen (15 min.) */
      , (8420, 1984208984, 1682572179, 125.609, 1.05633, 0.1, -0.707107, 0, 0, -0.707107) /* Button */
      , (286, 1984208985, 1682572179, 127.754, 4.39223, 1.5, 1, 0, 0, 0) /* Lever */
      , (2179, 1984208986, 1682572181, 134.751, 1.6262E-07, 0.005, 0.707107, 0, 0, -0.707107) /* Door */
@@ -262,8 +262,8 @@ VALUES (285, 1984209005, 1682571520, 23.3774, -64.8881, -47, 0.0197467, 0, 0, -0
      , (2179, 1984208993, 1682572187, 134.748, -19.9986, 0.005, 0.707107, 0, 0, -0.707107) /* Door */
      , (5624, 1984208994, 1682572194, 139.999, -11.4164, 0.005, 1, 0, 0, 0) /* Door */
      , (5624, 1984208995, 1682572197, 140.019, -21.3819, 0.005, 1, 0, 0, 0) /* Door */
-     , (7932, 1984209172, 1682572203, 136.31, -46.2243, 0.005, 0.941922, 0, 0, 0.335832) /* linkmonstergen4minutes */
-     , (7932, 1984209173, 1682572203, 143.291, -46.8983, 0.005, 0.924901, 0, 0, -0.380209) /* linkmonstergen4minutes */
+     , (7932, 1984209172, 1682572203, 136.31, -46.2243, 0.005, 0.941922, 0, 0, 0.335832) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1984209173, 1682572203, 143.291, -46.8983, 0.005, 0.924901, 0, 0, -0.380209) /* Linkable Monster Generator ( 4 Min.) */
      , (286, 1984208996, 1682572208, 154.39, 3.04821, 1.5, 0.709725, 0, 0, -0.704479) /* Lever */
      , (286, 1984208997, 1682572208, 145.608, 4.07166, 1.5, -0.708617, 0, 0, -0.705593) /* Lever */
      , (2179, 1984208998, 1682572210, 145.261, 0.00133716, 0.005, -0.707107, 0, 0, -0.707107) /* Door */
@@ -297,12 +297,12 @@ UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1984208961'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1984209009'; /* Empyrean magical defense battery */
 UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1984209010'; /* Flame Trap */
-UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1984209171'; /* linkmonstergen15minutes */
-UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1984209172'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='25', `link_Controller`=True WHERE `guid`='1984209173'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='26', `link_Controller`=True WHERE `guid`='1984209090'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='27', `link_Controller`=True WHERE `guid`='1984209178'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE `guid`='1984209175'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1984209171'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1984209172'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='25', `link_Controller`=True WHERE `guid`='1984209173'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='26', `link_Controller`=True WHERE `guid`='1984209090'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='27', `link_Controller`=True WHERE `guid`='1984209178'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE `guid`='1984209175'; /* Linkable Item Generator */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984208983'; /* Door <- Button */
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984208997'; /* Door <- Lever */
@@ -340,158 +340,158 @@ UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1984208929'; /* 
 UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1984208927'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1984208937'; /* Empyrean magical defense battery <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1984208934'; /* Flame Trap <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1984209170'; /* linkmonstergen15minutes <- Yalik Ibn Ujsef */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209029'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209032'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209033'; /* linkmonstergen4minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209028'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209038'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209035'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209037'; /* linkmonstergen4minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209036'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209022'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209020'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209026'; /* linkmonstergen4minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209021'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209031'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209027'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209034'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209030'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209066'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209067'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209019'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209017'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209025'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209018'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209023'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209024'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209108'; /* linkmonstergen4minutes <- Shadow Sprite */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209110'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209112'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209069'; /* linkmonstergen4minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209070'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209068'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209105'; /* linkmonstergen4minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209077'; /* linkmonstergen4minutes <- Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209139'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209078'; /* linkmonstergen4minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209143'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209081'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209156'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209076'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209140'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209107'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209148'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209111'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209109'; /* linkmonstergen4minutes <- Shadow Sprite */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209142'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209106'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209141'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209088'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209162'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209089'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209161'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209071'; /* linkmonstergen4minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209165'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209072'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209160'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209082'; /* linkmonstergen4minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209149'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209083'; /* linkmonstergen4minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209151'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209080'; /* linkmonstergen4minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209157'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209079'; /* linkmonstergen4minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209150'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209073'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209167'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209164'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209074'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209159'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209075'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209155'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209092'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209168'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209093'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209166'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209087'; /* linkmonstergen4minutes <- Shadow Sprite */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209163'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209091'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209169'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209154'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209146'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209147'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209158'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209153'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209152'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209145'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209144'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209113'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209117'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209114'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209120'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209119'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209116'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209115'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209129'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209124'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209131'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209130'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209122'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209121'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209123'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209125'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209135'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209134'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209138'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209137'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209128'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209127'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209132'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209126'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209096'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209098'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209094'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209095'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209133'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209136'; /* linkmonstergen4minutes <- Ghost Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209097'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209099'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209061'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209104'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209058'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209062'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209101'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209100'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209103'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209102'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209063'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209054'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209065'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209064'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209060'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209059'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209053'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209055'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209051'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209049'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209045'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209044'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209057'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209056'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209050'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209052'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209041'; /* linkmonstergen4minutes <- Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209040'; /* linkmonstergen4minutes <- Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209039'; /* linkmonstergen4minutes <- Shadow Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209042'; /* linkmonstergen4minutes <- Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209047'; /* linkmonstergen4minutes <- Crazed Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209046'; /* linkmonstergen4minutes <- Demented Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209043'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209048'; /* linkmonstergen4minutes <- Maddened Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1984209086'; /* linkmonstergen5minutes <- Tiyol Ibn Yufaj */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1984209085'; /* linkmonstergen5minutes <- Rheth Al'Thok */
-UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1984209084'; /* linkmonstergen5minutes <- Rayssid Ibn Alhath */
-UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1984209177'; /* linkitemgen10seconds <- Zharalim Master's Journal */
-UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1984209176'; /* linkitemgen10seconds <- Zharalim Foreman's Journal */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1984209170'; /* Linkable Monster Gen (15 min.) <- Yalik Ibn Ujsef */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209029'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209032'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209033'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209028'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209038'; /* Linkable Monster Generator ( 4 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209035'; /* Linkable Monster Generator ( 4 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209037'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209036'; /* Linkable Monster Generator ( 4 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209022'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209020'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209026'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209021'; /* Linkable Monster Generator ( 4 Min.) <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209031'; /* Linkable Monster Generator ( 4 Min.) <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209027'; /* Linkable Monster Generator ( 4 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209034'; /* Linkable Monster Generator ( 4 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209030'; /* Linkable Monster Generator ( 4 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209066'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209067'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209019'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209017'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209025'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209018'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209023'; /* Linkable Monster Generator ( 4 Min.) <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209024'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209108'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Sprite */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209110'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209112'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209069'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209070'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209068'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209105'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209077'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209139'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209078'; /* Linkable Monster Generator ( 4 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209143'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209081'; /* Linkable Monster Generator ( 4 Min.) <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209156'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209076'; /* Linkable Monster Generator ( 4 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209140'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209107'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209148'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209111'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209109'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Sprite */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209142'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209106'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209141'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209088'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209162'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209089'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209161'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209071'; /* Linkable Monster Generator ( 4 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209165'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209072'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209160'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209082'; /* Linkable Monster Generator ( 4 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209149'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209083'; /* Linkable Monster Generator ( 4 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209151'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209080'; /* Linkable Monster Generator ( 4 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209157'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209079'; /* Linkable Monster Generator ( 4 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1984209150'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209073'; /* Linkable Monster Generator ( 4 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209167'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209164'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209074'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209159'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209075'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209155'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209092'; /* Linkable Monster Generator ( 4 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209168'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209093'; /* Linkable Monster Generator ( 4 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209166'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209087'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Sprite */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209163'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209091'; /* Linkable Monster Generator ( 4 Min.) <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209169'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209154'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209146'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209147'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209158'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209153'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209152'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209145'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209144'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209113'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209117'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209114'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209120'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209119'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209116'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209115'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209129'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209124'; /* Linkable Monster Generator ( 4 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209131'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209130'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209122'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209121'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209123'; /* Linkable Monster Generator ( 4 Min.) <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209125'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209135'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209134'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209138'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209137'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209128'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209127'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209132'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209126'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209096'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209098'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209094'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209095'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209133'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209136'; /* Linkable Monster Generator ( 4 Min.) <- Ghost Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209097'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209099'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209061'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209104'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209058'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209062'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209101'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209100'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209103'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209102'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209063'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209054'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209065'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209064'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209060'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209059'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209053'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209055'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209051'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209049'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209045'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209044'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209057'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209056'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209050'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209052'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209041'; /* Linkable Monster Generator ( 4 Min.) <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209040'; /* Linkable Monster Generator ( 4 Min.) <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209039'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209042'; /* Linkable Monster Generator ( 4 Min.) <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209047'; /* Linkable Monster Generator ( 4 Min.) <- Crazed Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209046'; /* Linkable Monster Generator ( 4 Min.) <- Demented Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209043'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1984209048'; /* Linkable Monster Generator ( 4 Min.) <- Maddened Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1984209086'; /* Linkable Monster Generator ( 5 Min.) <- Tiyol Ibn Yufaj */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1984209085'; /* Linkable Monster Generator ( 5 Min.) <- Rheth Al'Thok */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1984209084'; /* Linkable Monster Generator ( 5 Min.) <- Rayssid Ibn Alhath */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1984209177'; /* Linkable Item Generator <- Zharalim Master's Journal */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1984209176'; /* Linkable Item Generator <- Zharalim Foreman's Journal */
 

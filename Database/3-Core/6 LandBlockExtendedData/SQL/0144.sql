@@ -3,7 +3,7 @@ VALUES (5624, 1880375330, 21233921, 10.0129, -44.9054, 0, -0.0366181, 0, 0, -0.9
      , (14427, 1880375331, 21233928, 29.6705, -29.9779, 0.005, -0.693531, 0, 0, -0.720427) /* Hollow Minion */
      , (14427, 1880375332, 21233932, 36.3506, -20.2442, 0.005, -0.806414, 0, 0, -0.591351) /* Hollow Minion */
      , (14427, 1880375333, 21233938, 54.5308, -8.42538, 0.005, 0.850528, 0, 0, -0.52593) /* Hollow Minion */
-     , (7932, 1880375334, 21233939, 49.3156, -49.9398, 0.005, 0.749155, 0, 0, -0.662395) /* linkmonstergen4minutes */
+     , (7932, 1880375334, 21233939, 49.3156, -49.9398, 0.005, 0.749155, 0, 0, -0.662395) /* Linkable Monster Generator ( 4 Min.) */
      , (5624, 1880375335, 21233940, 50.0763, -54.8018, 0.005, -4.37114E-08, 0, 0, -1) /* Door */
      , (14450, 1880375336, 21233952, 62.899, -6.714, 1.5, -0.383731, 0, 0, -0.923445) /* Captured Adventurer  */
      , (14427, 1880375337, 21233952, 62.7995, -13.4486, 0.005, 0.997602, 0, 0, -0.069217) /* Hollow Minion */
@@ -34,34 +34,34 @@ VALUES (5624, 1880375330, 21233921, 10.0129, -44.9054, 0, -0.0366181, 0, 0, -0.9
      , (7, 1880375322, 21234046, 41.1639, -49.4831, 6.00332, -0.717671, 0, 0, -0.696382) /* Drudge Skulker */
      , (1608, 1880375349, 21234091, 79.8303, -78.2133, 6.005, 0.99417, 0, 0, -0.107824) /* Drudge Lurker */
      , (193, 1880375324, 21234092, 90, -50, 6.00332, -0.707107, 0, 0, -0.707107) /* Drudge Slinker */
-     , (7923, 1880375325, 21234100, 30, -50, 12, -4.37114E-08, 0, 0, -1) /* linkmonstergen3minutes */
+     , (7923, 1880375325, 21234100, 30, -50, 12, -4.37114E-08, 0, 0, -1) /* Linkable Monster Generator ( 3 Min.) */
      , (4972, 1880375326, 21234105, 26.408, -80.0188, 12, 0.707107, 0, 0, -0.707107) /* Surface Portal */
      , (1941, 1880375350, 21234137, 70.3064, -50.2001, 18.005, 0.719215, 0, 0, -0.694787) /* Chest */
      , (1608, 1880375351, 21234137, 70.1263, -47.5483, 18.005, 0.257618, 0, 0, 0.966247) /* Drudge Lurker */
      , (1608, 1880375352, 21234140, 80.7252, -52.7893, 18.005, 0.657396, 0, 0, 0.753545) /* Drudge Lurker */;
 
 UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880375316'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880375334'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880375325'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880375334'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880375325'; /* Linkable Monster Generator ( 3 Min.) */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880375315'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375344'; /* linkmonstergen4minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375333'; /* linkmonstergen4minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375337'; /* linkmonstergen4minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375345'; /* linkmonstergen4minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375332'; /* linkmonstergen4minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375331'; /* linkmonstergen4minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375346'; /* linkmonstergen4minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375341'; /* linkmonstergen4minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375349'; /* linkmonstergen4minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375352'; /* linkmonstergen4minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375351'; /* linkmonstergen4minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375340'; /* linkmonstergen4minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375317'; /* linkmonstergen4minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375310'; /* linkmonstergen4minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375339'; /* linkmonstergen4minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375347'; /* linkmonstergen4minutes <- Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375322'; /* linkmonstergen4minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375320'; /* linkmonstergen4minutes <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880375324'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375344'; /* Linkable Monster Generator ( 4 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375333'; /* Linkable Monster Generator ( 4 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375337'; /* Linkable Monster Generator ( 4 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375345'; /* Linkable Monster Generator ( 4 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375332'; /* Linkable Monster Generator ( 4 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375331'; /* Linkable Monster Generator ( 4 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375346'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375341'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375349'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375352'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375351'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375340'; /* Linkable Monster Generator ( 4 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375317'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375310'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375339'; /* Linkable Monster Generator ( 4 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375347'; /* Linkable Monster Generator ( 4 Min.) <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375322'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880375320'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880375324'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Slinker */
 

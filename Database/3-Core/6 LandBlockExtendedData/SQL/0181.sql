@@ -4,7 +4,7 @@ VALUES (7116, 1880625152, 25231616, -1.51338, 0.976113, -5.9935, -4.37114E-08, 0
      , (7116, 1880625249, 25231616, 2.60597, -1.54198, -5.9935, 0.062422, 0, 0, 0.99805) /* High Mu-miyah */
      , (7116, 1880625250, 25231616, -2.88619, -1.85968, -5.9935, -0.551791, 0, 0, 0.833982) /* High Mu-miyah */
      , (25327, 1880625251, 25231616, -3.90608, 3.97556, -5.995, -0.780917, 0, 0, -0.624634) /* Alloy Dynamo */
-     , (15759, 1880625252, 25231616, -3.30552, 3.014, -5.995, -0.900594, 0, 0, -0.434662) /* linkitemgen10seconds */
+     , (15759, 1880625252, 25231616, -3.30552, 3.014, -5.995, -0.900594, 0, 0, -0.434662) /* Linkable Item Generator */
      , (4157, 1880625153, 25231633, 40, -60, 0, 1, 0, 0, 0) /* Surface */
      , (632, 1880625154, 25231639, 51.5187, -44.5739, 0.12, 0.707107, 0, 0, -0.707107) /* Peerless Healing Kit */
      , (549, 1880625156, 25231649, 52.5848, -58.7474, 0.0215, 0.707107, 0, 0, -0.707107) /* Bowl of Stew */
@@ -17,11 +17,11 @@ VALUES (7116, 1880625152, 25231616, -1.51338, 0.976113, -5.9935, -4.37114E-08, 0
      , (3974, 1880625164, 25231682, 81.1082, -35.9038, 0, -0.914519, 0, 0, -0.404543) /* Chest */
      , (1610, 1880625165, 25231689, 81.9086, -53.3336, 0.00455, 0.990674, 0, 0, -0.136257) /* Drudge Ravener */
      , (1610, 1880625166, 25231692, 81.2779, -70.934, 0.00455, 1, 0, 0, 0) /* Drudge Ravener */
-     , (4032, 1880625167, 25231692, 80, -70, 0, 1, 0, 0, 0) /* itemmedwarriorgen */
+     , (4032, 1880625167, 25231692, 80, -70, 0, 1, 0, 0, 0) /* Valuable Warrior Generator */
      , (278, 1880625168, 25231694, 75.25, -70, 0, -0.707107, 0, 0, -0.707107) /* Door */
      , (1912, 1880625169, 25231704, 103.839, -130.734, 6, 1, 0, 0, 0) /* Chest */
      , (4157, 1880625172, 25231714, 100, -160, 0, -4.37114E-08, 0, 0, -1) /* Surface */
-     , (7923, 1880625173, 25231714, 99.1009, -156.735, 0, -4.37114E-08, 0, 0, -1) /* linkmonstergen3minutes */
+     , (7923, 1880625173, 25231714, 99.1009, -156.735, 0, -4.37114E-08, 0, 0, -1) /* Linkable Monster Generator ( 3 Min.) */
      , (1946, 1880625174, 25231721, 105.875, -149.216, 6, 0, 0, 0, -1) /* Chest */
      , (3975, 1880625175, 25231721, 107.043, -149.255, 6, 0, 0, 0, -1) /* Chest */
      , (1610, 1880625176, 25231771, 84.672, -99.3123, 6.0535, 0.481084, 0, 0, -0.876675) /* Drudge Ravener */
@@ -47,7 +47,7 @@ VALUES (7116, 1880625152, 25231616, -1.51338, 0.976113, -5.9935, -4.37114E-08, 0
      , (7085, 1880625196, 25231848, 121.734, -121.226, 6.0077, -0.707107, 0, 0, -0.707107) /* Banderling Berserker */
      , (7085, 1880625197, 25231848, 120.115, -122.051, 6.0077, -0.707107, 0, 0, -0.707107) /* Banderling Berserker */
      , (7085, 1880625198, 25231848, 119.904, -117.477, 6.0077, -0.707107, 0, 0, -0.707107) /* Banderling Berserker */
-     , (4032, 1880625200, 25231848, 121.292, -122.631, 6, -0.707107, 0, 0, -0.707107) /* itemmedwarriorgen */
+     , (4032, 1880625200, 25231848, 121.292, -122.631, 6, -0.707107, 0, 0, -0.707107) /* Valuable Warrior Generator */
      , (2180, 1880625201, 25231850, 115.25, -120, 6, -0.707107, 0, 0, -0.707107) /* Door */
      , (7085, 1880625202, 25231857, 72.3147, -111.18, 12.0077, -0.996511, 0, 0, -0.083461) /* Banderling Berserker */
      , (7085, 1880625203, 25231857, 68.475, -111.025, 12.0077, 1, 0, 0, 0) /* Banderling Berserker */
@@ -58,7 +58,7 @@ VALUES (7116, 1880625152, 25231616, -1.51338, 0.976113, -5.9935, -4.37114E-08, 0
      , (1610, 1880625208, 25231895, 79.363, -62.3508, 18.0045, 0.707107, 0, 0, -0.707107) /* Drudge Ravener */
      , (298, 1880625209, 25231895, 76.521, -57.9428, 18, 0.324227, 0, 0, -0.945979) /* Pressure Plate */
      , (4095, 1880625210, 25231895, 79.0501, -59.9366, 20.6616, 0.707107, 0, 0, -0.707107) /* Magic trap */
-     , (4032, 1880625211, 25231895, 76.4782, -56.5772, 18, 0.707107, 0, 0, -0.707107) /* itemmedwarriorgen */
+     , (4032, 1880625211, 25231895, 76.4782, -56.5772, 18, 0.707107, 0, 0, -0.707107) /* Valuable Warrior Generator */
      , (2131, 1880625212, 25231895, 82.3076, -59.9426, 18.005, 0.697956, 0, 0, -0.71614) /* Pressure Plate */
      , (4086, 1880625213, 25231895, 82.0255, -60.0419, 20.1049, 0.474214, 0, 0, -0.88041) /* Magic trap */
      , (1291, 1880625214, 25231897, 84.75, -60, 18, 0.707107, 0, 0, -0.707107) /* Door */
@@ -95,67 +95,67 @@ VALUES (7116, 1880625152, 25231616, -1.51338, 0.976113, -5.9935, -4.37114E-08, 0
      , (1610, 1880625246, 25231979, 108.268, -75.637, 18.0045, -0.710569, 0, 0, -0.703627) /* Drudge Ravener */
      , (1610, 1880625247, 25231982, 112.678, -86.195, 18.0045, -0.710569, 0, 0, -0.703627) /* Drudge Ravener */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880625173'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880625173'; /* Linkable Monster Generator ( 3 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880625201'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880625210'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880625213'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880625238'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880625228'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880625232'; /* Magic trap */
-UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880625252'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880625252'; /* Linkable Item Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625218'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625219'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625221'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625233'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625231'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625177'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625176'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625186'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625181'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625182'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625184'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625183'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625166'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625161'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625160'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625159'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625163'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625165'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625207'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625208'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625235'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625236'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625246'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625247'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625206'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625189'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625245'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625226'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625152'; /* linkmonstergen3minutes <- High Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625158'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625202'; /* linkmonstergen3minutes <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625203'; /* linkmonstergen3minutes <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625196'; /* linkmonstergen3minutes <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625197'; /* linkmonstergen3minutes <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625229'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625216'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625198'; /* linkmonstergen3minutes <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625190'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625162'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625154'; /* linkmonstergen3minutes <- Peerless Healing Kit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625156'; /* linkmonstergen3minutes <- Bowl of Stew */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625223'; /* linkmonstergen3minutes <- Knife */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625215'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625194'; /* linkmonstergen3minutes <- Broken Sigil */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625222'; /* linkmonstergen3minutes <- Red Wine */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625249'; /* linkmonstergen3minutes <- High Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625248'; /* linkmonstergen3minutes <- High Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625185'; /* linkmonstergen3minutes <- Small Beer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625250'; /* linkmonstergen3minutes <- High Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625195'; /* linkmonstergen3minutes <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625179'; /* linkmonstergen3minutes <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625180'; /* linkmonstergen3minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625218'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625219'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625221'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625233'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625231'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625177'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625176'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625186'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625181'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625182'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625184'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625183'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625166'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625161'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625160'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625159'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625163'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625165'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625207'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625208'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625235'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625236'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625246'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625247'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625206'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625189'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625245'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625226'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625152'; /* Linkable Monster Generator ( 3 Min.) <- High Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625158'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625202'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625203'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625196'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625197'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625229'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625216'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625198'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625190'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625162'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625154'; /* Linkable Monster Generator ( 3 Min.) <- Peerless Healing Kit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625156'; /* Linkable Monster Generator ( 3 Min.) <- Bowl of Stew */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625223'; /* Linkable Monster Generator ( 3 Min.) <- Knife */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625215'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625194'; /* Linkable Monster Generator ( 3 Min.) <- Broken Sigil */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625222'; /* Linkable Monster Generator ( 3 Min.) <- Red Wine */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625249'; /* Linkable Monster Generator ( 3 Min.) <- High Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625248'; /* Linkable Monster Generator ( 3 Min.) <- High Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625185'; /* Linkable Monster Generator ( 3 Min.) <- Small Beer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625250'; /* Linkable Monster Generator ( 3 Min.) <- High Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625195'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625179'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880625180'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Berserker */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880625192'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880625191'; /* Door <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880625209'; /* Magic trap <- Pressure Plate */
@@ -163,5 +163,5 @@ UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880625212'; /* M
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880625237'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880625227'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880625242'; /* Magic trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880625251'; /* linkitemgen10seconds <- Alloy Dynamo */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880625251'; /* Linkable Item Generator <- Alloy Dynamo */
 

@@ -4,7 +4,7 @@ VALUES (27286, 1985249280, 1699217667, 80.1052, -76.9222, -83.9975, -0.00932676,
      , (25859, 1985249281, 1699217671, 80, -110, -83.995, 1, 0, 0, 0) /* Biaka */
      , (27286, 1985249282, 1699217674, 80, -130, -83.9975, 1, 0, 0, 0) /* Forsaken Child */
      , (27286, 1985249283, 1699217674, 81.8151, -130, -83.9975, 1, 0, 0, 0) /* Forsaken Child */
-     , (7923, 1985249520, 1699217674, 82.1365, -134.156, -83.995, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7923, 1985249520, 1699217674, 82.1365, -134.156, -83.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (27281, 1985249521, 1699217677, 83.752, -150, -83.995, 1, 0, 0, 0) /* Yaruldi's Hoard */
      , (27286, 1985249284, 1699217679, 85.4656, -69.5956, -83.9975, -0.030775, 0, 0, 0.999526) /* Forsaken Child */
      , (27286, 1985249285, 1699217683, 86.1239, -76.5661, -83.9975, -0.511072, 0, 0, 0.859538) /* Forsaken Child */
@@ -180,9 +180,9 @@ VALUES (27286, 1985249280, 1699217667, 80.1052, -76.9222, -83.9975, -0.00932676,
      , (25862, 1985249383, 1699217964, 54.8173, -100.955, 0.005, -0.623123, 0, 0, -0.782124) /* Helcan Margul */
      , (25862, 1985249384, 1699217967, 55.5391, -60.1902, 0.005, -0.885531, 0, 0, -0.46458) /* Helcan Margul */
      , (25860, 1985249385, 1699217983, 73.0799, -38.1586, 0.005, 0.447507, 0, 0, -0.894281) /* Creeping Margul */
-     , (7924, 1985249386, 1699218011, 75.482, -72.344, 0.005, 0.707107, 0, 0, -0.707107) /* linkmonstergen5minutes */
-     , (7924, 1985249387, 1699218011, 75.4977, -73.0799, 0.005, 0.707107, 0, 0, -0.707107) /* linkmonstergen5minutes */
-     , (7924, 1985249388, 1699218011, 75.4578, -74.0044, 0.005, 0.707106, 0, 0, -0.707107) /* linkmonstergen5minutes */
+     , (7924, 1985249386, 1699218011, 75.482, -72.344, 0.005, 0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1985249387, 1699218011, 75.4977, -73.0799, 0.005, 0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1985249388, 1699218011, 75.4578, -74.0044, 0.005, 0.707106, 0, 0, -0.707107) /* Linkable Monster Generator ( 5 Min.) */
      , (8423, 1985249389, 1699218012, 75.4883, -65.4805, 0.0025, 0.400833, 0, 0, -0.916151) /* Small Shadow Child */
      , (8423, 1985249391, 1699218014, 79.173, -84.005, 0.0025, -0.707107, 0, 0, -0.707107) /* Small Shadow Child */
      , (8423, 1985249392, 1699218014, 79.117, -75.611, 0.0025, -0.707107, 0, 0, -0.707107) /* Small Shadow Child */
@@ -228,7 +228,7 @@ VALUES (27286, 1985249280, 1699217667, 80.1052, -76.9222, -83.9975, -0.00932676,
      , (27285, 1985249429, 1699218196, 73.4302, -63.4281, 12.0037, -0.905501, 0, 0, -0.424343) /* Depraved Child */
      , (27287, 1985249430, 1699218196, 73.4738, -56.6155, 12.0037, -0.386913, 0, 0, -0.922116) /* Pandemic Child */
      , (27295, 1985249509, 1699218196, 70, -60, 12.024, 1, 0, 0, 0) /* Pandemic Key */
-     , (15759, 1985249510, 1699218196, 66.3046, -60, 12.005, 1, 0, 0, 0) /* linkitemgen10seconds */
+     , (15759, 1985249510, 1699218196, 66.3046, -60, 12.005, 1, 0, 0, 0) /* Linkable Item Generator */
      , (27289, 1985249511, 1699218198, 70.0002, -55.1931, 12.005, 1, 0, 0, 0) /* Door */
      , (27289, 1985249512, 1699218199, 74.803, -60, 12.005, 0.707107, 0, 0, -0.707107) /* Door */
      , (27284, 1985249431, 1699218200, 73.63, -116.409, 12.0037, -0.346844, 0, 0, -0.937923) /* Abyssal Child */
@@ -254,185 +254,185 @@ VALUES (27286, 1985249280, 1699217667, 80.1052, -76.9222, -83.9975, -0.00932676,
      , (27290, 1985249518, 1699218290, 110.003, -104.757, 12.005, 0, 0, 0, -1) /* Door */
      , (27290, 1985249519, 1699218291, 105.227, -100, 12.005, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1985249386'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1985249387'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1985249388'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1985249510'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1985249386'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1985249387'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1985249388'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1985249510'; /* Linkable Item Generator */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1985249514'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1985249520'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1985249520'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249354'; /* linkmonstergen5minutes <- Abyssal Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249344'; /* linkmonstergen5minutes <- Abyssal Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249363'; /* linkmonstergen5minutes <- Pandemic Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249364'; /* linkmonstergen5minutes <- Abyssal Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249366'; /* linkmonstergen5minutes <- Graal Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249347'; /* linkmonstergen5minutes <- Graal Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249346'; /* linkmonstergen5minutes <- Graal Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249356'; /* linkmonstergen5minutes <- Graal Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249400'; /* linkmonstergen5minutes <- Graal Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249395'; /* linkmonstergen5minutes <- Graal Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249357'; /* linkmonstergen5minutes <- Graal Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249367'; /* linkmonstergen5minutes <- Graal Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249407'; /* linkmonstergen5minutes <- Helcan Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249408'; /* linkmonstergen5minutes <- Helcan Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249409'; /* linkmonstergen5minutes <- Graal Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249382'; /* linkmonstergen5minutes <- Graal Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249410'; /* linkmonstergen5minutes <- Malignant Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249412'; /* linkmonstergen5minutes <- Malignant Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249384'; /* linkmonstergen5minutes <- Helcan Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249383'; /* linkmonstergen5minutes <- Helcan Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249380'; /* linkmonstergen5minutes <- Malignant Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249411'; /* linkmonstergen5minutes <- Malignant Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249381'; /* linkmonstergen5minutes <- Malignant Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249379'; /* linkmonstergen5minutes <- Malignant Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249406'; /* linkmonstergen5minutes <- Creeping Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249394'; /* linkmonstergen5minutes <- Creeping Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249385'; /* linkmonstergen5minutes <- Creeping Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249401'; /* linkmonstergen5minutes <- Creeping Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249398'; /* linkmonstergen5minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249399'; /* linkmonstergen5minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249396'; /* linkmonstergen5minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249397'; /* linkmonstergen5minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249403'; /* linkmonstergen5minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249404'; /* linkmonstergen5minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249391'; /* linkmonstergen5minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249392'; /* linkmonstergen5minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249405'; /* linkmonstergen5minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249393'; /* linkmonstergen5minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249389'; /* linkmonstergen5minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249402'; /* linkmonstergen5minutes <- Small Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249328'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249330'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249326'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249327'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249334'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249335'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249331'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249332'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249339'; /* linkmonstergen5minutes <- Hellion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249340'; /* linkmonstergen5minutes <- Hellion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249336'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249338'; /* linkmonstergen5minutes <- Hellion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249374'; /* linkmonstergen5minutes <- Hellion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249375'; /* linkmonstergen5minutes <- Hellion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249341'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249372'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249418'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249414'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249373'; /* linkmonstergen5minutes <- Hellion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249417'; /* linkmonstergen5minutes <- Hellion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249413'; /* linkmonstergen5minutes <- Abyssal Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249424'; /* linkmonstergen5minutes <- Abyssal Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249419'; /* linkmonstergen5minutes <- Depraved Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249415'; /* linkmonstergen5minutes <- Depraved Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249421'; /* linkmonstergen5minutes <- Helcan Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249426'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249422'; /* linkmonstergen5minutes <- Pandemic Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249420'; /* linkmonstergen5minutes <- Pandemic Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249423'; /* linkmonstergen5minutes <- Stalking Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249425'; /* linkmonstergen5minutes <- Stalking Margul */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249348'; /* linkmonstergen5minutes <- Pandemic Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249349'; /* linkmonstergen5minutes <- Abyssal Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249368'; /* linkmonstergen5minutes <- Depraved Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249362'; /* linkmonstergen5minutes <- Depraved Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249350'; /* linkmonstergen5minutes <- Depraved Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249358'; /* linkmonstergen5minutes <- Depraved Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249343'; /* linkmonstergen5minutes <- Pandemic Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249353'; /* linkmonstergen5minutes <- Pandemic Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249352'; /* linkmonstergen5minutes <- Depraved Child */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249342'; /* linkmonstergen5minutes <- Depraved Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249427'; /* linkmonstergen5minutes <- Abyssal Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249428'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249438'; /* linkmonstergen5minutes <- Stalking Margul */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249439'; /* linkmonstergen5minutes <- Pandemic Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249440'; /* linkmonstergen5minutes <- Abyssal Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249429'; /* linkmonstergen5minutes <- Depraved Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249430'; /* linkmonstergen5minutes <- Pandemic Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249416'; /* linkmonstergen5minutes <- Creeping Margul */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249445'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249441'; /* linkmonstergen5minutes <- Depraved Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249442'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249448'; /* linkmonstergen5minutes <- Abyssal Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249431'; /* linkmonstergen5minutes <- Abyssal Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249446'; /* linkmonstergen5minutes <- Pandemic Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249447'; /* linkmonstergen5minutes <- Depraved Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249434'; /* linkmonstergen5minutes <- Pandemic Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249432'; /* linkmonstergen5minutes <- Depraved Child */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249433'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249325'; /* linkmonstergen5minutes <- Damned Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249317'; /* linkmonstergen5minutes <- Damned Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249315'; /* linkmonstergen5minutes <- Damned Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249314'; /* linkmonstergen5minutes <- Damned Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249283'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249282'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249295'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249280'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249302'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249301'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249299'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249298'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249297'; /* linkmonstergen5minutes <- Biaka */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249281'; /* linkmonstergen5minutes <- Biaka */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249303'; /* linkmonstergen5minutes <- Helcan Margul */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249304'; /* linkmonstergen5minutes <- Biaka */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249287'; /* linkmonstergen5minutes <- Hellion */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249319'; /* linkmonstergen5minutes <- Stalking Margul */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249320'; /* linkmonstergen5minutes <- Stalking Margul */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249318'; /* linkmonstergen5minutes <- Biaka */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249322'; /* linkmonstergen5minutes <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249324'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249323'; /* linkmonstergen5minutes <- Bile Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249321'; /* linkmonstergen5minutes <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249311'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249312'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249316'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249310'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249309'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249313'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249308'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249307'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249285'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249306'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249294'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249284'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249296'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249286'; /* linkmonstergen5minutes <- Forsaken Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249333'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249329'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249378'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249377'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249376'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249337'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249351'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249365'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249355'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249345'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249370'; /* linkmonstergen5minutes <- Pandemic Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249360'; /* linkmonstergen5minutes <- Pandemic Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249369'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249359'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249361'; /* linkmonstergen5minutes <- Abyssal Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249371'; /* linkmonstergen5minutes <- Abyssal Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249305'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249300'; /* linkmonstergen5minutes <- Cursed Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249455'; /* linkmonstergen5minutes <- Stalking Margul */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249454'; /* linkmonstergen5minutes <- Creeping Margul */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249452'; /* linkmonstergen5minutes <- Creeping Margul */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249539'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249538'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249537'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249536'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249543'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249542'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249541'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249540'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249544'; /* linkmonstergen5minutes <- Wretched Child */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985249509'; /* linkitemgen10seconds <- Pandemic Key */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985249515'; /* linkitemgen10seconds <- Depraved Key */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985249517'; /* linkitemgen10seconds <- Abyssal Key */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985249513'; /* linkitemgen10seconds <- Wretched Key */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249354'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249344'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249363'; /* Linkable Monster Generator ( 5 Min.) <- Pandemic Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249364'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249366'; /* Linkable Monster Generator ( 5 Min.) <- Graal Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249347'; /* Linkable Monster Generator ( 5 Min.) <- Graal Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249346'; /* Linkable Monster Generator ( 5 Min.) <- Graal Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249356'; /* Linkable Monster Generator ( 5 Min.) <- Graal Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249400'; /* Linkable Monster Generator ( 5 Min.) <- Graal Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249395'; /* Linkable Monster Generator ( 5 Min.) <- Graal Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249357'; /* Linkable Monster Generator ( 5 Min.) <- Graal Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249367'; /* Linkable Monster Generator ( 5 Min.) <- Graal Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249407'; /* Linkable Monster Generator ( 5 Min.) <- Helcan Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249408'; /* Linkable Monster Generator ( 5 Min.) <- Helcan Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249409'; /* Linkable Monster Generator ( 5 Min.) <- Graal Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249382'; /* Linkable Monster Generator ( 5 Min.) <- Graal Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249410'; /* Linkable Monster Generator ( 5 Min.) <- Malignant Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249412'; /* Linkable Monster Generator ( 5 Min.) <- Malignant Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249384'; /* Linkable Monster Generator ( 5 Min.) <- Helcan Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249383'; /* Linkable Monster Generator ( 5 Min.) <- Helcan Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249380'; /* Linkable Monster Generator ( 5 Min.) <- Malignant Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249411'; /* Linkable Monster Generator ( 5 Min.) <- Malignant Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249381'; /* Linkable Monster Generator ( 5 Min.) <- Malignant Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249379'; /* Linkable Monster Generator ( 5 Min.) <- Malignant Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249406'; /* Linkable Monster Generator ( 5 Min.) <- Creeping Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249394'; /* Linkable Monster Generator ( 5 Min.) <- Creeping Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249385'; /* Linkable Monster Generator ( 5 Min.) <- Creeping Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249401'; /* Linkable Monster Generator ( 5 Min.) <- Creeping Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249398'; /* Linkable Monster Generator ( 5 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249399'; /* Linkable Monster Generator ( 5 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249396'; /* Linkable Monster Generator ( 5 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249397'; /* Linkable Monster Generator ( 5 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249403'; /* Linkable Monster Generator ( 5 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249404'; /* Linkable Monster Generator ( 5 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249391'; /* Linkable Monster Generator ( 5 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249392'; /* Linkable Monster Generator ( 5 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249405'; /* Linkable Monster Generator ( 5 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249393'; /* Linkable Monster Generator ( 5 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249389'; /* Linkable Monster Generator ( 5 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249402'; /* Linkable Monster Generator ( 5 Min.) <- Small Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249328'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249330'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249326'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249327'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249334'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249335'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249331'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249332'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249339'; /* Linkable Monster Generator ( 5 Min.) <- Hellion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249340'; /* Linkable Monster Generator ( 5 Min.) <- Hellion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249336'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249338'; /* Linkable Monster Generator ( 5 Min.) <- Hellion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249374'; /* Linkable Monster Generator ( 5 Min.) <- Hellion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249375'; /* Linkable Monster Generator ( 5 Min.) <- Hellion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249341'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249372'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249418'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249414'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249373'; /* Linkable Monster Generator ( 5 Min.) <- Hellion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249417'; /* Linkable Monster Generator ( 5 Min.) <- Hellion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249413'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249424'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249419'; /* Linkable Monster Generator ( 5 Min.) <- Depraved Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249415'; /* Linkable Monster Generator ( 5 Min.) <- Depraved Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249421'; /* Linkable Monster Generator ( 5 Min.) <- Helcan Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249426'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249422'; /* Linkable Monster Generator ( 5 Min.) <- Pandemic Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249420'; /* Linkable Monster Generator ( 5 Min.) <- Pandemic Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249423'; /* Linkable Monster Generator ( 5 Min.) <- Stalking Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249425'; /* Linkable Monster Generator ( 5 Min.) <- Stalking Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249348'; /* Linkable Monster Generator ( 5 Min.) <- Pandemic Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249349'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249368'; /* Linkable Monster Generator ( 5 Min.) <- Depraved Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249362'; /* Linkable Monster Generator ( 5 Min.) <- Depraved Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249350'; /* Linkable Monster Generator ( 5 Min.) <- Depraved Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249358'; /* Linkable Monster Generator ( 5 Min.) <- Depraved Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249343'; /* Linkable Monster Generator ( 5 Min.) <- Pandemic Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249353'; /* Linkable Monster Generator ( 5 Min.) <- Pandemic Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249352'; /* Linkable Monster Generator ( 5 Min.) <- Depraved Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985249342'; /* Linkable Monster Generator ( 5 Min.) <- Depraved Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249427'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249428'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249438'; /* Linkable Monster Generator ( 5 Min.) <- Stalking Margul */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249439'; /* Linkable Monster Generator ( 5 Min.) <- Pandemic Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249440'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249429'; /* Linkable Monster Generator ( 5 Min.) <- Depraved Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249430'; /* Linkable Monster Generator ( 5 Min.) <- Pandemic Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249416'; /* Linkable Monster Generator ( 5 Min.) <- Creeping Margul */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249445'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249441'; /* Linkable Monster Generator ( 5 Min.) <- Depraved Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249442'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249448'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249431'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249446'; /* Linkable Monster Generator ( 5 Min.) <- Pandemic Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249447'; /* Linkable Monster Generator ( 5 Min.) <- Depraved Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249434'; /* Linkable Monster Generator ( 5 Min.) <- Pandemic Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249432'; /* Linkable Monster Generator ( 5 Min.) <- Depraved Child */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985249433'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249325'; /* Linkable Monster Generator ( 5 Min.) <- Damned Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249317'; /* Linkable Monster Generator ( 5 Min.) <- Damned Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249315'; /* Linkable Monster Generator ( 5 Min.) <- Damned Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249314'; /* Linkable Monster Generator ( 5 Min.) <- Damned Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249283'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249282'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249295'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249280'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249302'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249301'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249299'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249298'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249297'; /* Linkable Monster Generator ( 5 Min.) <- Biaka */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249281'; /* Linkable Monster Generator ( 5 Min.) <- Biaka */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249303'; /* Linkable Monster Generator ( 5 Min.) <- Helcan Margul */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249304'; /* Linkable Monster Generator ( 5 Min.) <- Biaka */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249287'; /* Linkable Monster Generator ( 5 Min.) <- Hellion */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249319'; /* Linkable Monster Generator ( 5 Min.) <- Stalking Margul */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249320'; /* Linkable Monster Generator ( 5 Min.) <- Stalking Margul */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249318'; /* Linkable Monster Generator ( 5 Min.) <- Biaka */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249322'; /* Linkable Monster Generator ( 5 Min.) <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249324'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249323'; /* Linkable Monster Generator ( 5 Min.) <- Bile Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249321'; /* Linkable Monster Generator ( 5 Min.) <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249311'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249312'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249316'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249310'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249309'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249313'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249308'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249307'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249285'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249306'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249294'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249284'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249296'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249286'; /* Linkable Monster Generator ( 5 Min.) <- Forsaken Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249333'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249329'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249378'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249377'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249376'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249337'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249351'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249365'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249355'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249345'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249370'; /* Linkable Monster Generator ( 5 Min.) <- Pandemic Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249360'; /* Linkable Monster Generator ( 5 Min.) <- Pandemic Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249369'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249359'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249361'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249371'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249305'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249300'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249455'; /* Linkable Monster Generator ( 5 Min.) <- Stalking Margul */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249454'; /* Linkable Monster Generator ( 5 Min.) <- Creeping Margul */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249452'; /* Linkable Monster Generator ( 5 Min.) <- Creeping Margul */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249539'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249538'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249537'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249536'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249543'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249542'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249541'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249540'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985249544'; /* Linkable Monster Generator ( 5 Min.) <- Wretched Child */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985249509'; /* Linkable Item Generator <- Pandemic Key */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985249515'; /* Linkable Item Generator <- Depraved Key */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985249517'; /* Linkable Item Generator <- Abyssal Key */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985249513'; /* Linkable Item Generator <- Wretched Key */
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985249505'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985249526'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985249522'; /* linkmonstergen3minutes <- Yaja the Shepherd */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985249523'; /* linkmonstergen3minutes <- Ya'ruldi */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985249522'; /* Linkable Monster Generator ( 3 Min.) <- Yaja the Shepherd */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985249523'; /* Linkable Monster Generator ( 3 Min.) <- Ya'ruldi */
 

@@ -10,8 +10,8 @@ VALUES (9244, 1882853376, 60883205, 139.777, -123.435, -35.971, 0.976956, 0, 0, 
      , (9244, 1882853384, 60883218, 161.171, -90.2218, -35.971, 0.976219, 0, 0, -0.216786) /* Pristine Doll */
      , (9244, 1882853385, 60883221, 168.623, -69.3952, -35.971, 0.992165, 0, 0, 0.124934) /* Pristine Doll */
      , (9244, 1882853386, 60883221, 171.675, -69.1941, -35.971, 0.987852, 0, 0, 0.155398) /* Pristine Doll */
-     , (5086, 1882853387, 60883222, 169.191, -80, -35.995, 1, 0, 0, 0) /* linkmonstergen30seconds */
-     , (7923, 1882853388, 60883222, 169.191, -82.0665, -35.995, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (5086, 1882853387, 60883222, 169.191, -80, -35.995, 1, 0, 0, 0) /* Linkable Monster Gen - 30 sec. */
+     , (7923, 1882853388, 60883222, 169.191, -82.0665, -35.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (12237, 1882853389, 60883222, 168.303, -78.214, -35.971, 0.999949, 0, 0, -0.0100897) /* Singular Doll */
      , (12267, 1882853390, 60883234, 177.405, -87.6262, -35.995, 0.94505, 0, 0, 0.326926) /* Singular Pyreal Pillar */
      , (12297, 1882853391, 60883244, 187, -187, -35.845, 0.382683, 0, 0, -0.92388) /* Surface Portal */
@@ -60,69 +60,69 @@ VALUES (9244, 1882853376, 60883205, 139.777, -123.435, -35.971, 0.976956, 0, 0, 
      , (9243, 1882853435, 60883611, 130.046, -457.031, -5.971, 0.14528, 0, 0, -0.989391) /* Innocuous Doll */
      , (9242, 1882853436, 60883614, 43.2303, -590.321, 0.029, 0.678557, 0, 0, -0.734547) /* Innocent Doll */
      , (9242, 1882853437, 60883617, 48.4726, -549.472, 0.029, 0.456358, 0, 0, -0.889796) /* Innocent Doll */
-     , (7924, 1882853438, 60883637, 90, -590, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7924, 1882853438, 60883637, 90, -590, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
      , (12297, 1882853394, 60883640, 90, -620, 0.005, 1, 0, 0, 0) /* Surface Portal */
      , (9242, 1882853439, 60883656, 130.804, -549.009, 0.029, 0.276386, 0, 0, 0.961047) /* Innocent Doll */
      , (9242, 1882853440, 60883665, 135.874, -590.286, 0.029, 0.700532, 0, 0, 0.713621) /* Innocent Doll */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882853388'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882853387'; /* linkmonstergen30seconds */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1882853438'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882853388'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882853387'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1882853438'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882853389'; /* linkmonstergen3minutes <- Singular Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853385'; /* linkmonstergen30seconds <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853386'; /* linkmonstergen30seconds <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853384'; /* linkmonstergen30seconds <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853376'; /* linkmonstergen30seconds <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853377'; /* linkmonstergen30seconds <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853380'; /* linkmonstergen30seconds <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853381'; /* linkmonstergen30seconds <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853382'; /* linkmonstergen30seconds <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853393'; /* linkmonstergen30seconds <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853392'; /* linkmonstergen30seconds <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853440'; /* linkmonstergen5minutes <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853436'; /* linkmonstergen5minutes <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853437'; /* linkmonstergen5minutes <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853439'; /* linkmonstergen5minutes <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853435'; /* linkmonstergen5minutes <- Innocuous Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853430'; /* linkmonstergen5minutes <- Innocuous Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853429'; /* linkmonstergen5minutes <- Innocuous Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853419'; /* linkmonstergen5minutes <- Innocuous Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853413'; /* linkmonstergen5minutes <- Innocuous Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853414'; /* linkmonstergen5minutes <- Innocuous Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853412'; /* linkmonstergen5minutes <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853409'; /* linkmonstergen5minutes <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853401'; /* linkmonstergen5minutes <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853402'; /* linkmonstergen5minutes <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853399'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853400'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853398'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853395'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853396'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853397'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853410'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853411'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853407'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853408'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853406'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853403'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853404'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853405'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853415'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853416'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853423'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853421'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853424'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853426'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853427'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853417'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853418'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853420'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853428'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853422'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853425'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853432'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853433'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853434'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853431'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882853389'; /* Linkable Monster Generator ( 3 Min.) <- Singular Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853385'; /* Linkable Monster Gen - 30 sec. <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853386'; /* Linkable Monster Gen - 30 sec. <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853384'; /* Linkable Monster Gen - 30 sec. <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853376'; /* Linkable Monster Gen - 30 sec. <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853377'; /* Linkable Monster Gen - 30 sec. <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853380'; /* Linkable Monster Gen - 30 sec. <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853381'; /* Linkable Monster Gen - 30 sec. <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853382'; /* Linkable Monster Gen - 30 sec. <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853393'; /* Linkable Monster Gen - 30 sec. <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882853392'; /* Linkable Monster Gen - 30 sec. <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853440'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853436'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853437'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853439'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853435'; /* Linkable Monster Generator ( 5 Min.) <- Innocuous Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853430'; /* Linkable Monster Generator ( 5 Min.) <- Innocuous Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853429'; /* Linkable Monster Generator ( 5 Min.) <- Innocuous Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853419'; /* Linkable Monster Generator ( 5 Min.) <- Innocuous Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853413'; /* Linkable Monster Generator ( 5 Min.) <- Innocuous Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853414'; /* Linkable Monster Generator ( 5 Min.) <- Innocuous Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853412'; /* Linkable Monster Generator ( 5 Min.) <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853409'; /* Linkable Monster Generator ( 5 Min.) <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853401'; /* Linkable Monster Generator ( 5 Min.) <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853402'; /* Linkable Monster Generator ( 5 Min.) <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853399'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853400'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853398'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853395'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853396'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853397'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853410'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853411'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853407'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853408'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853406'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853403'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853404'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853405'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853415'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853416'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853423'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853421'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853424'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853426'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853427'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853417'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853418'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853420'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853428'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853422'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853425'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853432'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853433'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853434'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882853431'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
 

@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5487, 1881956352, 46530816, 53.777, -80, -95.995, 0.707107, 0, 0, -0.707107) /* Mid Direlands Portal */
      , (7978, 1881956353, 46530817, 63.3716, -78.1508, -95.995, -0.496716, 0, 0, -0.867913) /* Scrawed Grievver */
-     , (3955, 1881956354, 46530830, 60, -70.0073, -41.9878, 0.707107, 0, 0, -0.707107) /* linkmonstergen15minutes */
+     , (3955, 1881956354, 46530830, 60, -70.0073, -41.9878, 0.707107, 0, 0, -0.707107) /* Linkable Monster Gen (15 min.) */
      , (1756, 1881956355, 46530830, 60.725, -73.4161, -41.9958, 0.868756, 0, 0, 0.49524) /* Shadow Child */
      , (1756, 1881956356, 46530832, 56.6544, -86.8084, -41.9958, 0.945858, 0, 0, 0.324581) /* Shadow Child */
      , (8219, 1881956357, 46530846, 3.732, -60, -29.995, -0.707107, 0, 0, -0.707107) /* Surface Portal */
@@ -35,7 +35,7 @@ VALUES (5487, 1881956352, 46530816, 53.777, -80, -95.995, 0.707107, 0, 0, -0.707
      , (8369, 1881956385, 46530871, 37.4065, -63.523, -28.3986, -0.259702, 0, 0, 0.965689) /* Crystal Nodule */
      , (2573, 1881956386, 46530876, 52.9067, -61.1589, -29.982, 0.737777, 0, 0, 0.675045) /* K'nath T'aed */
      , (1988, 1881956387, 46530877, 59.36, -53.8995, -29.995, -0.011373, 0, 0, 0.999935) /* Dark Wisp */
-     , (5085, 1881956388, 46530880, 56.9604, -58.7445, -29.995, 0.72152, 0, 0, -0.692393) /* linkitemgen25seconds */
+     , (5085, 1881956388, 46530880, 56.9604, -58.7445, -29.995, 0.72152, 0, 0, -0.692393) /* Linkable Item Gen - 25 seconds */
      , (2572, 1881956389, 46530882, 9.17676, -78.3621, -23.982, 0.992658, 0, 0, -0.120958) /* K'nath D'Nob */
      , (2572, 1881956390, 46530884, 23.7712, -73.6255, -23.982, -0.274677, 0, 0, -0.961537) /* K'nath D'Nob */
      , (2573, 1881956391, 46530886, 15.0719, -92.8317, -22.2162, -0.963416, 0, 0, -0.268009) /* K'nath T'aed */
@@ -74,81 +74,81 @@ VALUES (5487, 1881956352, 46530816, 53.777, -80, -95.995, 0.707107, 0, 0, -0.707
      , (1536, 1881956424, 46531045, 63.053, -99.7782, -11.982, -0.989038, 0, 0, -0.147664) /* K'nath Z'bog */
      , (1536, 1881956425, 46531046, 69.7767, -42.1194, -11.982, 0.137215, 0, 0, -0.990541) /* K'nath Z'bog */
      , (2569, 1881956426, 46531051, 69.4062, -97.4766, -11.982, -0.878365, 0, 0, -0.477991) /* K'nath N'gell */
-     , (4219, 1881956427, 46531072, 60.9607, -58.7, -5.995, 0.834631, 0, 0, -0.550809) /* linkmonstergen7minutes */
+     , (4219, 1881956427, 46531072, 60.9607, -58.7, -5.995, 0.834631, 0, 0, -0.550809) /* Linkable Monster Generator ( 7 Min.) */
      , (8220, 1881956428, 46531088, 30, -66, 0.004999, -4.37114E-08, 0, 0, -1) /* Uninhabited Area Portal */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881956427'; /* linkmonstergen7minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881956388'; /* linkitemgen25seconds */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881956354'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881956427'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881956388'; /* Linkable Item Gen - 25 seconds */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881956354'; /* Linkable Monster Gen (15 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956358'; /* linkmonstergen7minutes <- K'nath T'aed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956359'; /* linkmonstergen7minutes <- K'nath N'osaj */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956380'; /* linkmonstergen7minutes <- K'nath D'Nob */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956367'; /* linkmonstergen7minutes <- K'nath T'aed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956389'; /* linkmonstergen7minutes <- K'nath D'Nob */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956393'; /* linkmonstergen7minutes <- K'nath D'Nob */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956391'; /* linkmonstergen7minutes <- K'nath T'aed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956392'; /* linkmonstergen7minutes <- K'nath T'aed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956394'; /* linkmonstergen7minutes <- K'nath T'aed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956390'; /* linkmonstergen7minutes <- K'nath D'Nob */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956426'; /* linkmonstergen7minutes <- K'nath N'gell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956424'; /* linkmonstergen7minutes <- K'nath Z'bog */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956418'; /* linkmonstergen7minutes <- K'nath N'gell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956417'; /* linkmonstergen7minutes <- K'nath S'tath */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956415'; /* linkmonstergen7minutes <- K'nath N'osaj */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956419'; /* linkmonstergen7minutes <- K'nath N'osaj */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956416'; /* linkmonstergen7minutes <- K'nath D'Nob */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956414'; /* linkmonstergen7minutes <- K'nath T'aed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956412'; /* linkmonstergen7minutes <- K'nath N'osaj */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956413'; /* linkmonstergen7minutes <- K'nath D'Nob */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956395'; /* linkmonstergen7minutes <- K'nath S'tath */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956425'; /* linkmonstergen7minutes <- K'nath Z'bog */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956387'; /* linkmonstergen7minutes <- Dark Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956386'; /* linkmonstergen7minutes <- K'nath T'aed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956396'; /* linkmonstergen7minutes <- K'nath N'osaj */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956397'; /* linkmonstergen7minutes <- K'nath D'Nob */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956400'; /* linkmonstergen7minutes <- K'nath T'aed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956401'; /* linkmonstergen7minutes <- K'nath T'aed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956398'; /* linkmonstergen7minutes <- K'nath N'osaj */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956399'; /* linkmonstergen7minutes <- K'nath N'osaj */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956423'; /* linkmonstergen7minutes <- K'nath Z'bog */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956421'; /* linkmonstergen7minutes <- K'nath Z'bog */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956422'; /* linkmonstergen7minutes <- K'nath Z'bog */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956411'; /* linkmonstergen7minutes <- K'nath N'osaj */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956409'; /* linkmonstergen7minutes <- K'nath D'Nob */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956410'; /* linkmonstergen7minutes <- K'nath T'aed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956403'; /* linkmonstergen7minutes <- K'nath N'gell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956404'; /* linkmonstergen7minutes <- K'nath N'gell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956405'; /* linkmonstergen7minutes <- K'nath S'tath */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956420'; /* linkmonstergen7minutes <- K'nath T'aed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956406'; /* linkmonstergen7minutes <- K'nath N'gell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956407'; /* linkmonstergen7minutes <- K'nath T'aed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956408'; /* linkmonstergen7minutes <- K'nath N'osaj */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956381'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956379'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956382'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956383'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956384'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956385'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956372'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956373'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956374'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956375'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956376'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956377'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956378'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956360'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956361'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956362'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956363'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956364'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956365'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956366'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956368'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956369'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956370'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956371'; /* linkitemgen25seconds <- Crystal Nodule */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881956355'; /* linkmonstergen15minutes <- Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881956356'; /* linkmonstergen15minutes <- Shadow Child */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881956353'; /* linkmonstergen15minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956358'; /* Linkable Monster Generator ( 7 Min.) <- K'nath T'aed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956359'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'osaj */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956380'; /* Linkable Monster Generator ( 7 Min.) <- K'nath D'Nob */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956367'; /* Linkable Monster Generator ( 7 Min.) <- K'nath T'aed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956389'; /* Linkable Monster Generator ( 7 Min.) <- K'nath D'Nob */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956393'; /* Linkable Monster Generator ( 7 Min.) <- K'nath D'Nob */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956391'; /* Linkable Monster Generator ( 7 Min.) <- K'nath T'aed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956392'; /* Linkable Monster Generator ( 7 Min.) <- K'nath T'aed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956394'; /* Linkable Monster Generator ( 7 Min.) <- K'nath T'aed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956390'; /* Linkable Monster Generator ( 7 Min.) <- K'nath D'Nob */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956426'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'gell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956424'; /* Linkable Monster Generator ( 7 Min.) <- K'nath Z'bog */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956418'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'gell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956417'; /* Linkable Monster Generator ( 7 Min.) <- K'nath S'tath */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956415'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'osaj */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956419'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'osaj */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956416'; /* Linkable Monster Generator ( 7 Min.) <- K'nath D'Nob */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956414'; /* Linkable Monster Generator ( 7 Min.) <- K'nath T'aed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956412'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'osaj */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956413'; /* Linkable Monster Generator ( 7 Min.) <- K'nath D'Nob */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956395'; /* Linkable Monster Generator ( 7 Min.) <- K'nath S'tath */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956425'; /* Linkable Monster Generator ( 7 Min.) <- K'nath Z'bog */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956387'; /* Linkable Monster Generator ( 7 Min.) <- Dark Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956386'; /* Linkable Monster Generator ( 7 Min.) <- K'nath T'aed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956396'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'osaj */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956397'; /* Linkable Monster Generator ( 7 Min.) <- K'nath D'Nob */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956400'; /* Linkable Monster Generator ( 7 Min.) <- K'nath T'aed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956401'; /* Linkable Monster Generator ( 7 Min.) <- K'nath T'aed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956398'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'osaj */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956399'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'osaj */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956423'; /* Linkable Monster Generator ( 7 Min.) <- K'nath Z'bog */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956421'; /* Linkable Monster Generator ( 7 Min.) <- K'nath Z'bog */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956422'; /* Linkable Monster Generator ( 7 Min.) <- K'nath Z'bog */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956411'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'osaj */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956409'; /* Linkable Monster Generator ( 7 Min.) <- K'nath D'Nob */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956410'; /* Linkable Monster Generator ( 7 Min.) <- K'nath T'aed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956403'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'gell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956404'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'gell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956405'; /* Linkable Monster Generator ( 7 Min.) <- K'nath S'tath */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956420'; /* Linkable Monster Generator ( 7 Min.) <- K'nath T'aed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956406'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'gell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956407'; /* Linkable Monster Generator ( 7 Min.) <- K'nath T'aed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881956408'; /* Linkable Monster Generator ( 7 Min.) <- K'nath N'osaj */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956381'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956379'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956382'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956383'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956384'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956385'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956372'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956373'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956374'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956375'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956376'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956377'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956378'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956360'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956361'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956362'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956363'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956364'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956365'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956366'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956368'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956369'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956370'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881956371'; /* Linkable Item Gen - 25 seconds <- Crystal Nodule */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881956355'; /* Linkable Monster Gen (15 min.) <- Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881956356'; /* Linkable Monster Gen (15 min.) <- Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881956353'; /* Linkable Monster Gen (15 min.) <- Scrawed Grievver */
 

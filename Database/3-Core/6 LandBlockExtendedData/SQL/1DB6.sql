@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11110, 1910202370, 498467078, 174.332, 128.681, 120.005, -4.37114E-08, 0, 0, -1) /* tumerokleaderlocalgen-xp */
-     , (11111, 1910202391, 498467078, 174.37, 131.272, 120, -0.707107, 0, 0, -0.707107) /* tumerokleaderpeacegen-xp */
-     , (11112, 1910202392, 498467078, 186.221, 129.216, 120, -4.37114E-08, 0, 0, -1) /* tumerokleaderwargen-xp */
+VALUES (11110, 1910202370, 498467078, 174.332, 128.681, 120.005, -4.37114E-08, 0, 0, -1) /* Tumerok Leader Local Gen */
+     , (11111, 1910202391, 498467078, 174.37, 131.272, 120, -0.707107, 0, 0, -0.707107) /* Tumerok Leader Peace Gen */
+     , (11112, 1910202392, 498467078, 186.221, 129.216, 120, -4.37114E-08, 0, 0, -1) /* Tumerok Leader War Gen */
      , (24052, 1910202414, 498467078, 188.443, 134.28, 120.005, -0.777991, 0, 0, -0.628276) /* Aun Turiona */
      , (24053, 1910202413, 498467078, 187.664, 137.358, 120.005, -0.493806, 0, 0, -0.869572) /* Aun Ngationa */
      , (24054, 1910202412, 498467078, 188.83, 128.1, 120.005, 0.656354, 0, 0, 0.754453) /* Aun Rukuona */
@@ -10,7 +10,7 @@ VALUES (11110, 1910202370, 498467078, 174.332, 128.681, 120.005, -4.37114E-08, 0
      , (5621, 1910202406, 498467078, 179.972, 133.42, 119.911, 0.564803, 0, 0, -0.825226) /* Hot Air */
      , (5621, 1910202405, 498467078, 178.391, 131.85, 120.125, 0.688911, 0, 0, -0.724846) /* Hot Air */
      , (7396, 1910202402, 498467078, 179.996, 131.852, 121.88, 0.7621, 0, 0, -0.64746) /* Hot Air */
-     , (14593, 1910202409, 498467081, 180.032, 131.78, 119.705, -0.729118, 0, 0, -0.684388) /* tanuainvokingtimarugen */
+     , (14593, 1910202409, 498467081, 180.032, 131.78, 119.705, -0.729118, 0, 0, -0.684388) /* Spirit of Aun Tanua Timaru Generator */
      , (5621, 1910202408, 498467081, 180.208, 130.198, 119.705, -0.759259, 0, 0, -0.650788) /* Hot Air */
      , (10933, 1910202368, 498466816, 185.337, 181.995, 127.753, 0.999805, 0, 0, -0.019754) /* Palisade Wall Hotspot */
      , (10933, 1910202369, 498466816, 187.295, 82.6631, 127.753, 0.999805, 0, 0, -0.019754) /* Palisade Wall Hotspot */
@@ -35,29 +35,29 @@ VALUES (11110, 1910202370, 498467078, 174.332, 128.681, 120.005, -4.37114E-08, 0
      , (10933, 1910202388, 498466816, 163.38, 181.936, 127.753, 0.999805, 0, 0, -0.019754) /* Palisade Wall Hotspot */
      , (10933, 1910202389, 498466816, 172.476, 181.874, 127.753, 0.999805, 0, 0, -0.019754) /* Palisade Wall Hotspot */
      , (10933, 1910202390, 498466816, 178.941, 181.874, 127.753, 0.999805, 0, 0, -0.019754) /* Palisade Wall Hotspot */
-     , (28461, 1910202415, 498466816, 118.851, 120.572, 120.005, -0.642076, 0, 0, -0.766641) /* generatormorgluukheadtimaru */
+     , (28461, 1910202415, 498466816, 118.851, 120.572, 120.005, -0.642076, 0, 0, -0.766641) /* Morgluuk's Head Gen */
      , (8377, 1910202404, 498466816, 171.492, 163.932, 120.968, -0.360655, 0, 0, -0.932699) /* Beer Keg */
      , (11940, 1910202393, 498466816, 110.587, 103.21, 120.006, -0.852747, 0, 0, -0.522325) /* Aun Town Crier */
      , (11400, 1910202394, 498466816, 150.216, 131.888, 120.007, 0.717363, 0, 0, 0.6967) /* Aun Dreganaua the Elder Shaman */
      , (11407, 1910202395, 498466816, 164.243, 67.4173, 120.005, -0.585567, 0, 0, -0.810624) /* Aun Mireona the Shopkeep */
      , (11404, 1910202396, 498466816, 178.826, 109.506, 120.006, 0.998436, 0, 0, -0.0559002) /* Aun Taguauri the Healer */
      , (11405, 1910202397, 498466816, 149.115, 56.0019, 120.005, 0.90876, 0, 0, -0.417319) /* Aun Ngaiona the Jeweler */
-     , (5086, 1910202398, 498466816, 108.521, 101.259, 120.005, -0.62487, 0, 0, 0.780729) /* linkmonstergen30seconds */
+     , (5086, 1910202398, 498466816, 108.521, 101.259, 120.005, -0.62487, 0, 0, 0.780729) /* Linkable Monster Gen - 30 sec. */
      , (11402, 1910202399, 498466816, 173.319, 165.358, 120.006, 0.657116, 0, 0, -0.753789) /* Aun Laranawa the Barkeep */
      , (11348, 1910202400, 498466816, 154.257, 66.7007, 120.005, 0.761113, 0, 0, -0.64862) /* Aun Mareura the Collector */
      , (11349, 1910202401, 498466816, 163.192, 53.9236, 120.005, 0.986886, 0, 0, -0.161419) /* Aun Whethura the Crafter */
      , (11700, 1910202403, 498466816, 133.273, 131.992, 120.005, 0.707107, 0, 0, -0.707107) /* Gate */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1910202398'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1910202398'; /* Linkable Monster Gen - 30 sec. */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202393'; /* linkmonstergen30seconds <- Aun Town Crier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202371'; /* linkmonstergen30seconds <- Aun Firanauri the Gate Keeper */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202395'; /* linkmonstergen30seconds <- Aun Mireona the Shopkeep */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202400'; /* linkmonstergen30seconds <- Aun Mareura the Collector */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202401'; /* linkmonstergen30seconds <- Aun Whethura the Crafter */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202413'; /* linkmonstergen30seconds <- Aun Ngationa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202414'; /* linkmonstergen30seconds <- Aun Turiona */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202412'; /* linkmonstergen30seconds <- Aun Rukuona */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202411'; /* linkmonstergen30seconds <- Aun Kiriona */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202416'; /* linkmonstergen30seconds <- Aun Faranua */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202393'; /* Linkable Monster Gen - 30 sec. <- Aun Town Crier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202371'; /* Linkable Monster Gen - 30 sec. <- Aun Firanauri the Gate Keeper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202395'; /* Linkable Monster Gen - 30 sec. <- Aun Mireona the Shopkeep */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202400'; /* Linkable Monster Gen - 30 sec. <- Aun Mareura the Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202401'; /* Linkable Monster Gen - 30 sec. <- Aun Whethura the Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202413'; /* Linkable Monster Gen - 30 sec. <- Aun Ngationa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202414'; /* Linkable Monster Gen - 30 sec. <- Aun Turiona */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202412'; /* Linkable Monster Gen - 30 sec. <- Aun Rukuona */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202411'; /* Linkable Monster Gen - 30 sec. <- Aun Kiriona */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202416'; /* Linkable Monster Gen - 30 sec. <- Aun Faranua */
 

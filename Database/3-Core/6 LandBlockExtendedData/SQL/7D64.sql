@@ -9,7 +9,7 @@ VALUES (1038, 2010529806, 2103705856, 87.8479, 111.782, 12.005, 0.551937, 0, 0, 
      , (2307, 2010529815, 2103705902, 86.9758, 91.882, 15.205, 0.00185705, 0, 0, -0.999998) /* Archmage Inyamkaya bint Ruz */
      , (1042, 2010529810, 2103705903, 85.9199, 78.02, 12.01, -0.995396, 0, 0, -0.0958458) /* Tariqana bint Hin the Jeweler */
      , (1044, 2010529809, 2103705911, 91.48, 84.84, 12.01, -0.594823, 0, 0, -0.803857) /* Wasifa al-Kani the Scribe */
-     , (4770, 2010529816, 2103705915, 79.5236, 64.6462, 12.005, -0.196667, 0, 0, 0.98047) /* collectorgharundimgen */
+     , (4770, 2010529816, 2103705915, 79.5236, 64.6462, 12.005, -0.196667, 0, 0, 0.98047) /* Collector Gharundim Gen */
      , (1148, 2010529799, 2103705918, 92.21, 64, 12, 0.707107, 0, 0, -0.707107) /* Door */
      , (5366, 2010529870, 2103705918, 89.9014, 62.067, 12.005, -0.760963, 0, 0, -0.648796) /* Ma'yad ibn Ibsar */
      , (5179, 2010529869, 2103705918, 85.6987, 66.45, 12.005, -0.10452, 0, 0, 0.994523) /* Mara al-Luq */
@@ -39,8 +39,8 @@ VALUES (1038, 2010529806, 2103705856, 87.8479, 111.782, 12.005, 0.551937, 0, 0, 
      , (1148, 2010529800, 2103705600, 86.21, 56, 12, 0.707107, 0, 0, -0.707107) /* Door */
      , (1148, 2010529801, 2103705600, 80.72, 58.99, 12, -1, 0, 0, 8.74228E-08) /* Door */
      , (16919, 2010529837, 2103705600, 59.839, 79.4061, 12, 7.54979E-08, 0, 0, -1) /* Pedestal Weak Spot */
-     , (794, 2010529802, 2103705600, 185.66, 3.85551, 15.7208, 0.99225, 0, 0, 0.124257) /* applegenerator */
-     , (3953, 2010529885, 2103705600, 74.9746, 103.29, 12.005, 0.342535, 0, 0, 0.939505) /* linkmonstergen30minutes */
+     , (794, 2010529802, 2103705600, 185.66, 3.85551, 15.7208, 0.99225, 0, 0, 0.124257) /* Apple Generator */
+     , (3953, 2010529885, 2103705600, 74.9746, 103.29, 12.005, 0.342535, 0, 0, 0.939505) /* Linkable Monster Gen (30 min.) */
      , (30906, 2010529884, 2103705600, 76.1456, 102.306, 12.005, 0.342535, 0, 0, 0.939505) /* Antius Blackmoor */
      , (1041, 2010529805, 2103705600, 85.92, 138.564, 15.605, -0.626604, 0, 0, 0.779337) /* Mulud al-Iyar the Healer */
      , (30460, 2010529875, 2103705600, 95.7718, 132.065, 12.005, -0.707107, 0, 0, -0.707107) /* Lockpick Forge */
@@ -55,7 +55,7 @@ VALUES (1038, 2010529806, 2103705856, 87.8479, 111.782, 12.005, 0.551937, 0, 0, 
      , (11954, 2010529867, 2103705600, 35.2509, 61.7802, 12.5, 0.810548, 0, 0, -0.585672) /* Portal to Greenspire */
      , (27547, 2010529858, 2103705600, 54.1621, 33.492, 12.005, 0.747357, 0, 0, 0.664422) /* Bind Stone */
      , (5365, 2010529817, 2103705600, 85.0516, 65.2689, 20.805, 0.788997, 0, 0, 0.614397) /* Akyafi ibn Sumwar */
-     , (1154, 2010529818, 2103705600, 86.9412, 66.5654, 20.805, 0.669975, 0, 0, 0.742384) /* linkmonstergen */
+     , (1154, 2010529818, 2103705600, 86.9412, 66.5654, 20.805, 0.669975, 0, 0, 0.742384) /* Linkable Monster Generator */
      , (509, 2010529856, 2103705600, 37.7105, 105.788, 12.005, 0.660946, 0, 0, -0.750434) /* Life Stone */
      , (165, 2010529820, 2103705600, 60.72, 54.84, 12.05, 1, 0, 0, 0) /* Pool */
      , (165, 2010529821, 2103705600, 60.72, 102.36, 12.05, 1, 0, 0, 0) /* Pool */
@@ -63,25 +63,25 @@ VALUES (1038, 2010529806, 2103705856, 87.8479, 111.782, 12.005, 0.551937, 0, 0, 
      , (25992, 2010529853, 2103705600, 62.3025, 173.546, 12.005, -0.997083, 0, 0, -0.0763259) /* Small Creepy Statue */
      , (27741, 2010529859, 2103705600, 90.5631, 90.5797, 12.005, 0.938614, 0, 0, -0.344968) /* Apprentice Alchemist */
      , (12304, 2010529828, 2103705600, 80.08, 35.413, 12.005, 0.39265, 0, 0, -0.919688) /* Agent of the Arcanum  */
-     , (7923, 2010529830, 2103705600, 60.4073, 94.7986, 12.005, 0.753985, 0, 0, 0.656892) /* linkmonstergen3minutes */
-     , (23631, 2010529852, 2103705600, 77.6848, 81.0209, 75.8893, 0.0530518, 0, 0, -0.998592) /* eventmadcowgen */
-     , (19457, 2010529840, 2103705600, 60.4462, 83.5872, 18.9739, 0.71897, 0, 0, -0.695041) /* fireworksgen */
+     , (7923, 2010529830, 2103705600, 60.4073, 94.7986, 12.005, 0.753985, 0, 0, 0.656892) /* Linkable Monster Generator ( 3 Min.) */
+     , (23631, 2010529852, 2103705600, 77.6848, 81.0209, 75.8893, 0.0530518, 0, 0, -0.998592) /* April 2003 Raining Mad Cows Gen */
+     , (19457, 2010529840, 2103705600, 60.4462, 83.5872, 18.9739, 0.71897, 0, 0, -0.695041) /* Fireworks Generator */
      , (19196, 2010529843, 2103705600, 59.9142, 83.5841, 18.839, 0.699647, 0, 0, -0.714488) /* Nullified Statue of a Drudge */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2010529818'; /* linkmonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2010529830'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2010529885'; /* linkmonstergen30minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2010529818'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2010529830'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2010529885'; /* Linkable Monster Gen (30 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529817'; /* linkmonstergen <- Akyafi ibn Sumwar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529826'; /* linkmonstergen <- Agent of the Arcanum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529853'; /* linkmonstergen <- Small Creepy Statue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529859'; /* linkmonstergen <- Apprentice Alchemist */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529869'; /* linkmonstergen <- Mara al-Luq */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529870'; /* linkmonstergen <- Ma'yad ibn Ibsar */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529875'; /* linkmonstergen3minutes <- Lockpick Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529871'; /* linkmonstergen3minutes <- Salvaging Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529872'; /* linkmonstergen3minutes <- Alchemy Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529873'; /* linkmonstergen3minutes <- Cooking Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529874'; /* linkmonstergen3minutes <- Fletching Forge */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2010529884'; /* linkmonstergen30minutes <- Antius Blackmoor */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529817'; /* Linkable Monster Generator <- Akyafi ibn Sumwar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529826'; /* Linkable Monster Generator <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529853'; /* Linkable Monster Generator <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529859'; /* Linkable Monster Generator <- Apprentice Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529869'; /* Linkable Monster Generator <- Mara al-Luq */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529870'; /* Linkable Monster Generator <- Ma'yad ibn Ibsar */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529875'; /* Linkable Monster Generator ( 3 Min.) <- Lockpick Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529871'; /* Linkable Monster Generator ( 3 Min.) <- Salvaging Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529872'; /* Linkable Monster Generator ( 3 Min.) <- Alchemy Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529873'; /* Linkable Monster Generator ( 3 Min.) <- Cooking Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529874'; /* Linkable Monster Generator ( 3 Min.) <- Fletching Forge */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2010529884'; /* Linkable Monster Gen (30 min.) <- Antius Blackmoor */
 

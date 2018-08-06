@@ -15,7 +15,7 @@ VALUES (14423, 1965510656, 1383399680, 35.532, -8.65, -5, -0.729828, 0, 0, -0.68
      , (278, 1965510668, 1383399682, 40, -14.75, -6, -4.37114E-08, 0, 0, -1) /* Door */
      , (1624, 1965510669, 1383399683, 40.4301, -22.4798, -5.988, 0.696706, 0, 0, 0.717357) /* Swamp Rat */
      , (1624, 1965510670, 1383399683, 39.9364, -17.8229, -5.988, 0.62161, 0, 0, 0.783327) /* Swamp Rat */
-     , (7923, 1965510671, 1383399683, 42.7, -20.0151, -5.995, 0.659983, 0, 0, 0.751281) /* linkmonstergen3minutes */
+     , (7923, 1965510671, 1383399683, 42.7, -20.0151, -5.995, 0.659983, 0, 0, 0.751281) /* Linkable Monster Generator ( 3 Min.) */
      , (278, 1965510672, 1383399690, 40, -25.25, -6, 1, 0, 0, 0) /* Door */
      , (14419, 1965510673, 1383399695, -3.23327, -13.7245, 5.79125, 0, 0, 0, -1) /* Trap Door */
      , (14454, 1965510679, 1383399695, -3.33449, -14.6084, 5.79475, 0.0661512, 0, 0, 0.99781) /* Trap Door */
@@ -24,12 +24,12 @@ VALUES (14423, 1965510656, 1383399680, 35.532, -8.65, -5, -0.729828, 0, 0, -0.68
      , (14468, 1965510680, 1383399705, 20.556, -17.897, 1.775, -0.960079, 0, 0, -0.279728) /* Candle */;
 
 UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1965510675'; /* Fireplace */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1965510671'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1965510671'; /* Linkable Monster Generator ( 3 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1965510679'; /* Trap Door */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965510676'; /* Fireplace <- Candle */
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965510680'; /* Fireplace <- Candle */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965510669'; /* linkmonstergen3minutes <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965510670'; /* linkmonstergen3minutes <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965510669'; /* Linkable Monster Generator ( 3 Min.) <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965510670'; /* Linkable Monster Generator ( 3 Min.) <- Swamp Rat */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1965510673'; /* Trap Door <- Trap Door */
 

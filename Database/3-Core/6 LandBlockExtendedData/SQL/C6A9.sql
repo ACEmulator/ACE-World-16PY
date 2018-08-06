@@ -4,9 +4,9 @@ VALUES (412, 2087358474, 3332964611, 57.3735, 31.6814, 42.025, 1, 0, 0, 0) /* Do
      , (412, 2087358476, 3332964612, 60.8235, 32.2064, 42, 0, 0, 0, -1) /* Door */
      , (694, 2087358525, 3332964612, 61.9466, 38.2984, 42.005, 0.508262, 0, 0, -0.861202) /* Barkeep Lienne */
      , (693, 2087358517, 3332964612, 60.8732, 36.7895, 42.005, -0.691876, 0, 0, -0.722016) /* Barkeep Mae Lilidag */
-     , (28930, 2087358536, 3332964617, 70.1037, 31.2587, 42.005, -0.890243, 0, 0, -0.455486) /* generatoraudreyroads */
-     , (28929, 2087358535, 3332964617, 70.1037, 31.2587, 42.005, -0.890243, 0, 0, -0.455486) /* generatorantiusroads */
-     , (7923, 2087358531, 3332964632, 62.4209, 43.3936, 42.005, -0.972022, 0, 0, -0.234892) /* linkmonstergen3minutes */
+     , (28930, 2087358536, 3332964617, 70.1037, 31.2587, 42.005, -0.890243, 0, 0, -0.455486) /* Generator Audrey Roads Gen */
+     , (28929, 2087358535, 3332964617, 70.1037, 31.2587, 42.005, -0.890243, 0, 0, -0.455486) /* Generator Antius Roads */
+     , (7923, 2087358531, 3332964632, 62.4209, 43.3936, 42.005, -0.972022, 0, 0, -0.234892) /* Linkable Monster Generator ( 3 Min.) */
      , (25486, 2087358530, 3332964632, 61.8088, 44.4733, 42.005, -0.77965, 0, 0, 0.626216) /* Hiyp the Toad */
      , (698, 2087358512, 3332964634, 66.0498, 59.6214, 42.005, -0.74364, 0, 0, -0.668581) /* Belthew Shearstone the Jeweler */
      , (143, 2087358522, 3332964639, 62.4218, 57.5789, 48.005, -0.708882, 0, 0, -0.705327) /* Chest */
@@ -39,7 +39,7 @@ VALUES (412, 2087358474, 3332964611, 57.3735, 31.6814, 42.025, 1, 0, 0, 0) /* Do
      , (12050, 2087358509, 3332964770, 106.249, 62.5899, 42.005, -0.701549, 0, 0, -0.712621) /* Agent of the Arcanum */
      , (22207, 2087358524, 3332964771, 102.784, 66.8105, 38.2569, 0.918892, 0, 0, 0.39451) /* Storage */
      , (22934, 2087358528, 3332964782, 21.3329, 18.6804, 42.0891, 0.999929, 0, 0, 0.0119458) /* Anasha */
-     , (7923, 2087358527, 3332964782, 22.5577, 19.6893, 42.0891, -0.991488, 0, 0, 0.1302) /* linkmonstergen3minutes */
+     , (7923, 2087358527, 3332964782, 22.5577, 19.6893, 42.0891, -0.991488, 0, 0, 0.1302) /* Linkable Monster Generator ( 3 Min.) */
      , (412, 2087358477, 3332964352, 50.8035, 36.6914, 42, 0.707107, 0, 0, -0.707107) /* Door */
      , (412, 2087358478, 3332964352, 71.8235, 36.6914, 42, -0.707107, 0, 0, -0.707107) /* Door */
      , (412, 2087358479, 3332964352, 60.8235, 41.7064, 45.5, 0, 0, 0, -1) /* Door */
@@ -61,18 +61,18 @@ VALUES (412, 2087358474, 3332964611, 57.3735, 31.6814, 42.025, 1, 0, 0, 0) /* Do
      , (28182, 2087358534, 3332964352, 74.8342, 46.387, 42.005, -0.959498, 0, 0, 0.281715) /* Apprentice Alchemist */
      , (509, 2087358533, 3332964352, 80.4637, 81.6297, 42.005, -0.999985, 0, 0, 0.00543472) /* Life Stone */
      , (27117, 2087358532, 3332964352, 92.5098, 61.0224, 71.281, 0.682333, 0, 0, -0.731041) /* Translator Aun Laokhe */
-     , (23631, 2087358529, 3332964352, 55.741, 58.5781, 103.046, 0.69713, 0, 0, -0.716945) /* eventmadcowgen */
+     , (23631, 2087358529, 3332964352, 55.741, 58.5781, 103.046, 0.69713, 0, 0, -0.716945) /* April 2003 Raining Mad Cows Gen */
      , (463, 2087358511, 3332964352, 44.6036, 66.9681, 42.005, -0.383276, 0, 0, -0.923634) /* Arwic */
-     , (3951, 2087358510, 3332964352, 49.0566, 70.194, 42.005, -0.999615, 0, 0, -0.0277369) /* linkmonstergen1hour */;
+     , (3951, 2087358510, 3332964352, 49.0566, 70.194, 42.005, -0.999615, 0, 0, -0.0277369) /* Linkable Monster Gen (1 hour) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2087358510'; /* linkmonstergen1hour */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2087358527'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2087358531'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2087358510'; /* Linkable Monster Gen (1 hour) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2087358527'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2087358531'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087358518'; /* linkmonstergen1hour <- Leather Crafter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2087358528'; /* linkmonstergen3minutes <- Anasha */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2087358534'; /* linkmonstergen3minutes <- Apprentice Alchemist */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2087358509'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2087358530'; /* linkmonstergen3minutes <- Hiyp the Toad */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2087358532'; /* linkmonstergen3minutes <- Translator Aun Laokhe */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087358518'; /* Linkable Monster Gen (1 hour) <- Leather Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2087358528'; /* Linkable Monster Generator ( 3 Min.) <- Anasha */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2087358534'; /* Linkable Monster Generator ( 3 Min.) <- Apprentice Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2087358509'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2087358530'; /* Linkable Monster Generator ( 3 Min.) <- Hiyp the Toad */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2087358532'; /* Linkable Monster Generator ( 3 Min.) <- Translator Aun Laokhe */
 

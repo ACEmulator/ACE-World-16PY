@@ -3,7 +3,7 @@ VALUES (143, 1984778240, 1691681024, 60.6675, 136.557, 78, 0.708956, 0, 0, -0.70
      , (5435, 1984778254, 1691681024, 61.2449, 134.414, 78.005, 0.0884496, 0, 0, 0.996081) /* Archmage Ta Ri  */
      , (2533, 1984778258, 1691681031, 86.4072, 108.694, 78.005, -0.208046, 0, 0, -0.978119) /* Gerhi, Bowyer of Stonehold  */
      , (143, 1984778243, 1691681033, 84.5325, 106.518, 81.04, -0.107132, 0, 0, 0.994245) /* Chest */
-     , (15759, 1984778308, 1691681033, 82.0115, 106.335, 81.005, 0.69225, 0, 0, -0.721658) /* linkitemgen10seconds */
+     , (15759, 1984778308, 1691681033, 82.0115, 106.335, 81.005, 0.69225, 0, 0, -0.721658) /* Linkable Item Generator */
      , (28336, 1984778307, 1691681033, 82.0548, 107.376, 81.079, 0.69225, 0, 0, -0.721658) /* Barnar the Tinker's Note */
      , (23997, 1984778291, 1691681044, 84.106, 61.4052, 78.01, 1, 0, 0, 0) /* Olcris, Nuhmudira's Student */
      , (143, 1984778246, 1691681051, 107.025, 87.225, 78.025, 1, 0, 0, 0) /* Chest */
@@ -13,7 +13,7 @@ VALUES (143, 1984778240, 1691681024, 60.6675, 136.557, 78, 0.708956, 0, 0, -0.70
      , (2534, 1984778265, 1691681057, 55.7029, 81.1751, 78.005, 0.991196, 0, 0, 0.132404) /* Vivaina, Shopkeep of Stonehold  */
      , (143, 1984778250, 1691681062, 58.575, 83.185, 84.01, 0, 0, 0, -1) /* Chest */
      , (143, 1984778251, 1691681062, 53.955, 83.245, 84.01, 0, 0, 0, -1) /* Chest */
-     , (7923, 1984778272, 1691681068, 55.5953, 34.8911, 78.005, 0.592512, 0, 0, 0.805561) /* linkmonstergen3minutes */
+     , (7923, 1984778272, 1691681068, 55.5953, 34.8911, 78.005, 0.592512, 0, 0, 0.805561) /* Linkable Monster Generator ( 3 Min.) */
      , (12050, 1984778271, 1691681068, 54.505, 34.6436, 78.005, 0.858542, 0, 0, -0.512744) /* Agent of the Arcanum */
      , (19716, 1984778288, 1691681072, 84.9684, 96.0482, 72.805, 0.999685, 0, 0, -0.0251005) /* Mammet Foundry Portal */
      , (20224, 1984778300, 1691681076, 107.218, 65.5884, 78.005, 0.121199, 0, 0, -0.992628) /* Grand Master Scrivener of War Magic */
@@ -39,27 +39,27 @@ VALUES (143, 1984778240, 1691681024, 60.6675, 136.557, 78, 0.708956, 0, 0, -0.70
      , (30387, 1984778309, 1691680768, 44.8777, 102.159, 78.005, -0.487097, 0, 0, -0.873348) /* Suzuhara Baijin */
      , (1351, 1984778256, 1691680768, 145.291, 110.925, 77.7862, 0.817856, 0, 0, -0.575423) /* Sign */
      , (509, 1984778298, 1691680768, 29.2109, 99.801, 78.005, -0.999784, 0, 0, -0.0208081) /* Life Stone */
-     , (23631, 1984778290, 1691680768, 74.7084, 76.0736, 125.226, 0.99994, 0, 0, -0.0109571) /* eventmadcowgen */
+     , (23631, 1984778290, 1691680768, 74.7084, 76.0736, 125.226, 0.99994, 0, 0, -0.0109571) /* April 2003 Raining Mad Cows Gen */
      , (19206, 1984778287, 1691680768, 83.8452, 83.3074, 84.82, 0.740886, 0, 0, 0.67163) /* Nullified Statue of a Tumerok */
      , (14, 1984778303, 1691680768, 107.357, 98.4505, 78.0057, -0.438042, 0, 0, -0.898955) /* Cow */
      , (12304, 1984778274, 1691680768, 56.6276, 42.7309, 78.005, -0.0107804, 0, 0, -0.999942) /* Agent of the Arcanum  */
-     , (19457, 1984778284, 1691680768, 83.565, 83.236, 85, 0.65798, 0, 0, -0.753035) /* fireworksgen */
+     , (19457, 1984778284, 1691680768, 83.565, 83.236, 85, 0.65798, 0, 0, -0.753035) /* Fireworks Generator */
      , (14, 1984778304, 1691680768, 96.763, 64.6982, 78.0057, -0.811749, 0, 0, -0.584006) /* Cow */
      , (1900, 1984778264, 1691680768, 146.924, 111.837, 77.5176, 0.817856, 0, 0, -0.575423) /* Heartland */
      , (14, 1984778306, 1691680768, 107.259, 69.3912, 78.0057, -0.529752, 0, 0, 0.848153) /* Cow */
      , (27248, 1984778292, 1691680768, 82.2909, 66.7715, 78.005, -0.99692, 0, 0, -0.0784281) /* Corin of Stonehold */
      , (14, 1984778305, 1691680768, 112.009, 101.073, 78.0057, -0.989876, 0, 0, 0.141933) /* Cow */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1984778308'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1984778272'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1984778308'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1984778272'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984778307'; /* linkitemgen10seconds <- Barnar the Tinker's Note */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778291'; /* linkmonstergen3minutes <- Olcris, Nuhmudira's Student */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778303'; /* linkmonstergen3minutes <- Cow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778271'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778304'; /* linkmonstergen3minutes <- Cow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778306'; /* linkmonstergen3minutes <- Cow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778309'; /* linkmonstergen3minutes <- Suzuhara Baijin */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778310'; /* linkmonstergen3minutes <- Cyphis Suldow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778305'; /* linkmonstergen3minutes <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984778307'; /* Linkable Item Generator <- Barnar the Tinker's Note */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778291'; /* Linkable Monster Generator ( 3 Min.) <- Olcris, Nuhmudira's Student */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778303'; /* Linkable Monster Generator ( 3 Min.) <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778271'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778304'; /* Linkable Monster Generator ( 3 Min.) <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778306'; /* Linkable Monster Generator ( 3 Min.) <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778309'; /* Linkable Monster Generator ( 3 Min.) <- Suzuhara Baijin */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778310'; /* Linkable Monster Generator ( 3 Min.) <- Cyphis Suldow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778305'; /* Linkable Monster Generator ( 3 Min.) <- Cow */
 

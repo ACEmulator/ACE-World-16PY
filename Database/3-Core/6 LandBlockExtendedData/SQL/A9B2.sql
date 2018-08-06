@@ -2,7 +2,7 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (412, 2056986626, 2847015173, 89.01, 80.56, 94.025, 0.707107, 0, 0, 0.707107) /* Door */
      , (412, 2056986627, 2847015173, 89.01, 87.435, 94, 0.707107, 0, 0, 0.707107) /* Door */
      , (412, 2056986628, 2847015174, 88.485, 84.01, 94, 0.707107, 0, 0, -0.707107) /* Door */
-     , (3955, 2056986633, 2847015174, 81, 84, 94.005, -0.713177, 0, 0, -0.700984) /* linkmonstergen15minutes */
+     , (3955, 2056986633, 2847015174, 81, 84, 94.005, -0.713177, 0, 0, -0.700984) /* Linkable Monster Gen (15 min.) */
      , (9498, 2056986640, 2847015174, 86, 82.5, 94.005, -4.37114E-08, 0, 0, -1) /* Aluvian Low-Stakes Gamesmaster */
      , (9498, 2056986639, 2847015174, 86, 85.5, 94.005, 1, 0, 0, 0) /* Aluvian Low-Stakes Gamesmaster */
      , (9501, 2056986638, 2847015174, 84, 82.5, 94.005, -4.37114E-08, 0, 0, -1) /* Aluvian Mid-Stakes Gamesmaster */
@@ -19,13 +19,13 @@ VALUES (412, 2056986626, 2847015173, 89.01, 80.56, 94.025, 0.707107, 0, 0, 0.707
      , (412, 2056986631, 2847014912, 78.985, 84.01, 97.5, 0.707107, 0, 0, -0.707107) /* Door */
      , (10706, 2056986632, 2847014912, 92, 92, 97.505, -0.382683, 0, 0, -0.92388) /* Wheel of Fortune */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2056986633'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2056986633'; /* Linkable Monster Gen (15 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986642'; /* linkmonstergen15minutes <- Monty the Munificent */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986635'; /* linkmonstergen15minutes <- Aluvian High-Stakes Gamesmaster */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986636'; /* linkmonstergen15minutes <- Aluvian High-Stakes Gamesmaster */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986637'; /* linkmonstergen15minutes <- Aluvian Mid-Stakes Gamesmaster */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986638'; /* linkmonstergen15minutes <- Aluvian Mid-Stakes Gamesmaster */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986639'; /* linkmonstergen15minutes <- Aluvian Low-Stakes Gamesmaster */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986640'; /* linkmonstergen15minutes <- Aluvian Low-Stakes Gamesmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986642'; /* Linkable Monster Gen (15 min.) <- Monty the Munificent */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986635'; /* Linkable Monster Gen (15 min.) <- Aluvian High-Stakes Gamesmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986636'; /* Linkable Monster Gen (15 min.) <- Aluvian High-Stakes Gamesmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986637'; /* Linkable Monster Gen (15 min.) <- Aluvian Mid-Stakes Gamesmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986638'; /* Linkable Monster Gen (15 min.) <- Aluvian Mid-Stakes Gamesmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986639'; /* Linkable Monster Gen (15 min.) <- Aluvian Low-Stakes Gamesmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056986640'; /* Linkable Monster Gen (15 min.) <- Aluvian Low-Stakes Gamesmaster */
 

@@ -6,7 +6,7 @@ VALUES (568, 1882001408, 47251719, 25.25, -40, -24, -0.707107, 0, 0, -0.707107) 
      , (1301, 1882001412, 47251737, 60, -44.75, -24, -4.37114E-08, 0, 0, -1) /* Door */
      , (198, 1882001413, 47251753, 77.1708, -30.1111, -23.99, 0.707107, 0, 0, -0.707107) /* Limestone Golem */
      , (8193, 1882001414, 47251757, 90, -20, -24, -0.707107, 0, 0, -0.707107) /* The Floating City */
-     , (4378, 1882001415, 47251764, 90.078, -39.711, -23.995, 0.707107, 0, 0, -0.707107) /* portalrandomgen */
+     , (4378, 1882001415, 47251764, 90.078, -39.711, -23.995, 0.707107, 0, 0, -0.707107) /* Random Portal Generator */
      , (202, 1882001416, 47251774, 50.1472, -9.80586, -17.99, 0.710277, 0, 0, -0.703923) /* Sandstone Golem */
      , (1296, 1882001417, 47251794, 70, -14.75, -18, 0, 0, 0, -1) /* Door */
      , (1608, 1882001418, 47251815, 80.2563, -29.1594, -17.995, 0.740987, 0, 0, 0.671519) /* Drudge Lurker */
@@ -39,10 +39,10 @@ VALUES (568, 1882001408, 47251719, 25.25, -40, -24, -0.707107, 0, 0, -0.707107) 
      , (5624, 1882001445, 47251938, 45.245, -70, 0, -0.707107, 0, 0, -0.707107) /* Door */
      , (938, 1882001446, 47251943, 59.6509, -28.9515, 0.0077, 0.475862, 0, 0, -0.87952) /* Banderling Raider */
      , (5625, 1882001447, 47251945, 60, -34.75, 0, 0, 0, 0, 1) /* Door */
-     , (4219, 1882001448, 47251950, 60.043, -61.2772, 0.005, -0.982138, 0, 0, -0.188164) /* linkmonstergen7minutes */
+     , (4219, 1882001448, 47251950, 60.043, -61.2772, 0.005, -0.982138, 0, 0, -0.188164) /* Linkable Monster Generator ( 7 Min.) */
      , (8186, 1882001449, 47251950, 62.8572, -55.5244, 0.06344, -0.912048, 0, 0, -0.410084) /* A Stained Book */
      , (153, 1882001450, 47251959, 76.666, -50.819, 0.005, 1, 0, 0, 0) /* Fountain */
-     , (4378, 1882001451, 47251960, 88.888, -18.186, 0.005, 0.92388, 0, 0, -0.382683) /* portalrandomgen */
+     , (4378, 1882001451, 47251960, 88.888, -18.186, 0.005, 0.92388, 0, 0, -0.382683) /* Random Portal Generator */
      , (938, 1882001452, 47251961, 94.5512, -29.1202, 0.055, 0.529742, 0, 0, 0.848159) /* Banderling Raider */
      , (937, 1882001453, 47251967, 98.6268, -24.0695, 0.0077, -0.041691, 0, 0, 0.999131) /* Banderling Guard */
      , (8198, 1882001454, 47251970, 106.75, -50, 0, -0.707107, 0, 0, -0.707107) /* The Floating City */
@@ -53,34 +53,34 @@ VALUES (568, 1882001408, 47251719, 25.25, -40, -24, -0.707107, 0, 0, -0.707107) 
      , (938, 1882001459, 47252010, 47.3671, -67.4921, 6.0077, 0.636772, 0, 0, -0.771053) /* Banderling Raider */
      , (6, 1882001460, 47252010, 52.9381, -70.1112, 6.0077, 0.780707, 0, 0, -0.624897) /* Banderling Scout */
      , (6, 1882001461, 47252016, 60.3915, -69.6497, 6.0077, 0.508375, 0, 0, -0.861136) /* Banderling Scout */
-     , (418, 1882001462, 47252016, 57.5935, -70.1245, 6.005, -0.282977, 0, 0, -0.959127) /* itemcheese-generator */;
+     , (418, 1882001462, 47252016, 57.5935, -70.1245, 6.005, -0.282977, 0, 0, -0.959127) /* Item Cheese Generator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882001448'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882001448'; /* Linkable Monster Generator ( 7 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001456'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001458'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001461'; /* linkmonstergen7minutes <- Banderling Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001460'; /* linkmonstergen7minutes <- Banderling Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001442'; /* linkmonstergen7minutes <- Banderling Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001438'; /* linkmonstergen7minutes <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001446'; /* linkmonstergen7minutes <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001459'; /* linkmonstergen7minutes <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001432'; /* linkmonstergen7minutes <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001433'; /* linkmonstergen7minutes <- Banderling Breeder */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001430'; /* linkmonstergen7minutes <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001425'; /* linkmonstergen7minutes <- Water Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001426'; /* linkmonstergen7minutes <- Banderling Captain */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001427'; /* linkmonstergen7minutes <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001452'; /* linkmonstergen7minutes <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001453'; /* linkmonstergen7minutes <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001435'; /* linkmonstergen7minutes <- Banderling Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001420'; /* linkmonstergen7minutes <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001416'; /* linkmonstergen7minutes <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001421'; /* linkmonstergen7minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001424'; /* linkmonstergen7minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001436'; /* linkmonstergen7minutes <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001444'; /* linkmonstergen7minutes <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001428'; /* linkmonstergen7minutes <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001413'; /* linkmonstergen7minutes <- Limestone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001418'; /* linkmonstergen7minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001456'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001458'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001461'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001460'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001442'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001438'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001446'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001459'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001432'; /* Linkable Monster Generator ( 7 Min.) <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001433'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001430'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001425'; /* Linkable Monster Generator ( 7 Min.) <- Water Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001426'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001427'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001452'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001453'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001435'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001420'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001416'; /* Linkable Monster Generator ( 7 Min.) <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001421'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001424'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001436'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001444'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001428'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001413'; /* Linkable Monster Generator ( 7 Min.) <- Limestone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882001418'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Lurker */
 

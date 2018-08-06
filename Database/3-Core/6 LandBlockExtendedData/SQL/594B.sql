@@ -4,7 +4,7 @@ VALUES (22054, 1972678656, 1498087683, 110.069, -68.7372, -5.971, 1, 0, 0, 0) /*
      , (23562, 1972678658, 1498087686, 171.863, -66.0049, -5.995, -0.831593, 0, 0, 0.555386) /* Abyssal Shadow */
      , (23090, 1972678659, 1498087687, 176.012, -51.8728, -5.995, -0.0975242, 0, 0, 0.995233) /* Shadow Spectre */
      , (23091, 1972678660, 1498087687, 179.231, -53.0349, -5.9945, 0.151326, 0, 0, 0.988484) /* Shadow Wraith */
-     , (7932, 1972678661, 1498087689, 176.546, -59.624, -5.995, -0.673556, 0, 0, 0.739136) /* linkmonstergen4minutes */
+     , (7932, 1972678661, 1498087689, 176.546, -59.624, -5.995, -0.673556, 0, 0, 0.739136) /* Linkable Monster Generator ( 4 Min.) */
      , (23090, 1972678662, 1498087690, 175.53, -68.3774, -5.995, -0.997293, 0, 0, 0.073536) /* Shadow Spectre */
      , (23089, 1972678663, 1498087690, 178.63, -66.2034, -5.995, -0.999002, 0, 0, 0.044664) /* Shadow Phantom */
      , (23564, 1972678664, 1498087692, 101.739, -75.9605, 0.005, 0.315748, 0, 0, -0.948843) /* Tenebrous Shadow */
@@ -36,8 +36,8 @@ VALUES (22054, 1972678656, 1498087683, 110.069, -68.7372, -5.971, 1, 0, 0, 0) /*
      , (22054, 1972678690, 1498087771, 219.828, -70.5511, 0.029, 0.747979, 0, 0, 0.663723) /* Virindi Profatrix */
      , (25375, 1972678691, 1498087782, 13.793, -101.461, 6.005, 0.706055, 0, 0, 0.708157) /* Magically Sealed Dais */
      , (25393, 1972678692, 1498087790, 12.8928, -119.376, 6.005, -0.377702, 0, 0, -0.925927) /* Exit to Surface */
-     , (7923, 1972678693, 1498087827, 40, -110, 6.005, 1, 0, 0, -4.37114E-08) /* linkmonstergen3minutes */
-     , (7932, 1972678694, 1498087827, 44.291, -109.903, 6.005, 0.710119, 0, 0, -0.704081) /* linkmonstergen4minutes */
+     , (7923, 1972678693, 1498087827, 40, -110, 6.005, 1, 0, 0, -4.37114E-08) /* Linkable Monster Generator ( 3 Min.) */
+     , (7932, 1972678694, 1498087827, 44.291, -109.903, 6.005, 0.710119, 0, 0, -0.704081) /* Linkable Monster Generator ( 4 Min.) */
      , (22054, 1972678695, 1498087835, 50, -110, 6.029, 0.99875, 0, 0, -0.0499797) /* Virindi Profatrix */
      , (22054, 1972678696, 1498087842, 61.5918, -97.2499, 6.029, 0.363437, 0, 0, -0.931619) /* Virindi Profatrix */
      , (22054, 1972678697, 1498087843, 60.2727, -124.848, 6.029, 0.898654, 0, 0, -0.438658) /* Virindi Profatrix */
@@ -58,55 +58,55 @@ VALUES (22054, 1972678656, 1498087683, 110.069, -68.7372, -5.971, 1, 0, 0, 0) /*
      , (23564, 1972678712, 1498087891, 196.88, -71.6442, 6.005, 0.999988, 0, 0, -0.00493278) /* Tenebrous Shadow */
      , (23564, 1972678713, 1498087891, 201.812, -71.6928, 6.005, 0.999988, 0, 0, -0.00493278) /* Tenebrous Shadow */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1972678661'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1972678694'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1972678693'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1972678661'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1972678694'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1972678693'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678665'; /* linkmonstergen4minutes <- Virindi Profatrix */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678687'; /* linkmonstergen4minutes <- Virindi Profatrix */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678686'; /* linkmonstergen4minutes <- Plated Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678674'; /* linkmonstergen4minutes <- Plated Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678678'; /* linkmonstergen4minutes <- Virindi Profatrix */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678683'; /* linkmonstergen4minutes <- Sinister Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678684'; /* linkmonstergen4minutes <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678685'; /* linkmonstergen4minutes <- Maelstrom Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678702'; /* linkmonstergen4minutes <- Maelstrom Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678701'; /* linkmonstergen4minutes <- Maelstrom Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678703'; /* linkmonstergen4minutes <- Sinister Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678700'; /* linkmonstergen4minutes <- Sinister Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678704'; /* linkmonstergen4minutes <- Sinister Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678707'; /* linkmonstergen4minutes <- Sinister Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678708'; /* linkmonstergen4minutes <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678709'; /* linkmonstergen4minutes <- Maelstrom Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678705'; /* linkmonstergen4minutes <- Maelstrom Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678706'; /* linkmonstergen4minutes <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678710'; /* linkmonstergen4minutes <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678711'; /* linkmonstergen4minutes <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678712'; /* linkmonstergen4minutes <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678713'; /* linkmonstergen4minutes <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678690'; /* linkmonstergen4minutes <- Virindi Profatrix */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678689'; /* linkmonstergen4minutes <- Virindi Profatrix */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678657'; /* linkmonstergen4minutes <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678658'; /* linkmonstergen4minutes <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678662'; /* linkmonstergen4minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678659'; /* linkmonstergen4minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678663'; /* linkmonstergen4minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678660'; /* linkmonstergen4minutes <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678656'; /* linkmonstergen4minutes <- Virindi Profatrix */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678664'; /* linkmonstergen4minutes <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678667'; /* linkmonstergen4minutes <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678670'; /* linkmonstergen4minutes <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678671'; /* linkmonstergen4minutes <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678672'; /* linkmonstergen4minutes <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678673'; /* linkmonstergen4minutes <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678675'; /* linkmonstergen4minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678676'; /* linkmonstergen4minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678668'; /* linkmonstergen4minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678669'; /* linkmonstergen4minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678699'; /* linkmonstergen4minutes <- Virindi Profatrix */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678698'; /* linkmonstergen4minutes <- Virindi Profatrix */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678697'; /* linkmonstergen4minutes <- Virindi Profatrix */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678696'; /* linkmonstergen4minutes <- Virindi Profatrix */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678695'; /* linkmonstergen4minutes <- Virindi Profatrix */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1972678691'; /* linkmonstergen3minutes <- Magically Sealed Dais */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678665'; /* Linkable Monster Generator ( 4 Min.) <- Virindi Profatrix */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678687'; /* Linkable Monster Generator ( 4 Min.) <- Virindi Profatrix */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678686'; /* Linkable Monster Generator ( 4 Min.) <- Plated Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678674'; /* Linkable Monster Generator ( 4 Min.) <- Plated Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678678'; /* Linkable Monster Generator ( 4 Min.) <- Virindi Profatrix */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678683'; /* Linkable Monster Generator ( 4 Min.) <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678684'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678685'; /* Linkable Monster Generator ( 4 Min.) <- Maelstrom Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678702'; /* Linkable Monster Generator ( 4 Min.) <- Maelstrom Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678701'; /* Linkable Monster Generator ( 4 Min.) <- Maelstrom Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678703'; /* Linkable Monster Generator ( 4 Min.) <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678700'; /* Linkable Monster Generator ( 4 Min.) <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678704'; /* Linkable Monster Generator ( 4 Min.) <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678707'; /* Linkable Monster Generator ( 4 Min.) <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678708'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678709'; /* Linkable Monster Generator ( 4 Min.) <- Maelstrom Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678705'; /* Linkable Monster Generator ( 4 Min.) <- Maelstrom Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678706'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678710'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678711'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678712'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678713'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678690'; /* Linkable Monster Generator ( 4 Min.) <- Virindi Profatrix */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678689'; /* Linkable Monster Generator ( 4 Min.) <- Virindi Profatrix */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678657'; /* Linkable Monster Generator ( 4 Min.) <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678658'; /* Linkable Monster Generator ( 4 Min.) <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678662'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678659'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678663'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972678660'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678656'; /* Linkable Monster Generator ( 4 Min.) <- Virindi Profatrix */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678664'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678667'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678670'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678671'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678672'; /* Linkable Monster Generator ( 4 Min.) <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678673'; /* Linkable Monster Generator ( 4 Min.) <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678675'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678676'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678668'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678669'; /* Linkable Monster Generator ( 4 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678699'; /* Linkable Monster Generator ( 4 Min.) <- Virindi Profatrix */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678698'; /* Linkable Monster Generator ( 4 Min.) <- Virindi Profatrix */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678697'; /* Linkable Monster Generator ( 4 Min.) <- Virindi Profatrix */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678696'; /* Linkable Monster Generator ( 4 Min.) <- Virindi Profatrix */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972678695'; /* Linkable Monster Generator ( 4 Min.) <- Virindi Profatrix */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1972678691'; /* Linkable Monster Generator ( 3 Min.) <- Magically Sealed Dais */
 

@@ -14,7 +14,7 @@ VALUES (7554, 1882095616, 48759041, 50, -80, -11.99, -0.004909, 0, 0, -0.999988)
      , (7554, 1882095628, 48759071, 93.4402, 1.37484, -11.99, 0.690705, 0, 0, -0.723137) /* Lithos Raider */
      , (7554, 1882095629, 48759071, 92.8687, -2.18432, -11.99, 0.735609, 0, 0, -0.677406) /* Lithos Raider */
      , (7554, 1882095630, 48759071, 90.9985, -3.50881, -11.99, 0.782325, 0, 0, -0.622871) /* Lithos Raider */
-     , (7623, 1882095631, 48759071, 88.7668, 0.398035, -11.995, 0.678557, 0, 0, -0.734547) /* chorizitedepositbgen */
+     , (7623, 1882095631, 48759071, 88.7668, 0.398035, -11.995, 0.678557, 0, 0, -0.734547) /* Chorizite Deposit Medium Grade Gen */
      , (7554, 1882095632, 48759080, 98.6942, -60.533, -11.99, 0.672412, 0, 0, 0.740177) /* Lithos Raider */
      , (7554, 1882095633, 48759080, 100.651, -60.3449, -11.99, 0.672412, 0, 0, 0.740177) /* Lithos Raider */
      , (7554, 1882095634, 48759086, 112.549, -37.4023, -11.99, 0.266263, 0, 0, 0.9639) /* Lithos Raider */
@@ -26,8 +26,8 @@ VALUES (7554, 1882095616, 48759041, 50, -80, -11.99, -0.004909, 0, 0, -0.999988)
      , (7554, 1882095640, 48759107, 184.441, -191.861, -11.99, 0.749589, 0, 0, 0.661904) /* Lithos Raider */
      , (7554, 1882095641, 48759109, 193.717, -98.1671, -11.99, 0.646002, 0, 0, -0.763335) /* Lithos Raider */
      , (7554, 1882095642, 48759109, 192.721, -102.063, -11.99, 0.808783, 0, 0, -0.588108) /* Lithos Raider */
-     , (7623, 1882095643, 48759109, 188.893, -99.3128, -11.995, 0.861117, 0, 0, 0.508407) /* chorizitedepositbgen */
-     , (7923, 1882095644, 48759114, 190, -190, -11.995, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7623, 1882095643, 48759109, 188.893, -99.3128, -11.995, 0.861117, 0, 0, 0.508407) /* Chorizite Deposit Medium Grade Gen */
+     , (7923, 1882095644, 48759114, 190, -190, -11.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (7554, 1882095645, 48759114, 185.196, -188.334, -11.945, 0.712116, 0, 0, 0.702062) /* Lithos Raider */
      , (7554, 1882095646, 48759114, 187.2, -188.363, -11.99, 0.712116, 0, 0, 0.702062) /* Lithos Raider */
      , (7554, 1882095647, 48759119, 198.016, -99.4312, -11.99, 0.453596, 0, 0, -0.891207) /* Lithos Raider */
@@ -40,7 +40,7 @@ VALUES (7554, 1882095616, 48759041, 50, -80, -11.99, -0.004909, 0, 0, -0.999988)
      , (7554, 1882095654, 48759145, 246.751, -208.586, -11.99, 0.800755, 0, 0, 0.598992) /* Lithos Raider */
      , (7554, 1882095655, 48759149, 251.65, -282.561, -11.99, -0.888595, 0, 0, -0.458693) /* Lithos Raider */
      , (7554, 1882095656, 48759150, 247.914, -285.606, -11.99, -0.975816, 0, 0, 0.218595) /* Lithos Raider */
-     , (7623, 1882095657, 48759150, 249.9, -290.403, -11.995, 1, 0, 0, -4.37114E-08) /* chorizitedepositbgen */
+     , (7623, 1882095657, 48759150, 249.9, -290.403, -11.995, 1, 0, 0, -4.37114E-08) /* Chorizite Deposit Medium Grade Gen */
      , (7554, 1882095658, 48759153, 260.179, -282.099, -11.99, 0.842904, 0, 0, 0.538064) /* Lithos Raider */
      , (7611, 1882095659, 48759154, 270, -170, -11.995, 1, 0, 0, 0) /* Surface Portal */
      , (7554, 1882095660, 48759173, 63.0931, -290.697, -5.99, 0.025091, 0, 0, -0.999685) /* Lithos Raider */
@@ -68,7 +68,7 @@ VALUES (7554, 1882095616, 48759041, 50, -80, -11.99, -0.004909, 0, 0, -0.999988)
      , (2131, 1882095682, 48759333, 80, -390, 0.005, 1, 0, 0, 0) /* Pressure Plate */
      , (2131, 1882095683, 48759344, 80, -510, 0.005, 1, 0, 0, 0) /* Pressure Plate */
      , (7562, 1882095684, 48759344, 80, -508.037, 0.005, 1, 0, 0, 0) /* Magic trap */
-     , (3955, 1882095685, 48759351, 80, -540, 0.005, 1, 0, 0, 0) /* linkmonstergen15minutes */
+     , (3955, 1882095685, 48759351, 80, -540, 0.005, 1, 0, 0, 0) /* Linkable Monster Gen (15 min.) */
      , (7611, 1882095686, 48759352, 80, -547, 0.005, 1, 0, 0, -4.37114E-08) /* Surface Portal */
      , (7554, 1882095687, 48759361, 101.138, -409.962, 0.01, 0.705628, 0, 0, -0.708582) /* Lithos Raider */
      , (7554, 1882095688, 48759364, 107.43, -408.061, 0.01, 0.740161, 0, 0, -0.67243) /* Lithos Raider */
@@ -84,8 +84,8 @@ VALUES (7554, 1882095616, 48759041, 50, -80, -11.99, -0.004909, 0, 0, -0.999988)
      , (7555, 1882095698, 48759412, 188.706, -469.141, 0.01, -0.984992, 0, 0, -0.1726) /* Obeloth Raider */
      , (7555, 1882095699, 48759412, 187.553, -470.587, 0.01, -0.963152, 0, 0, -0.268957) /* Obeloth Raider */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882095685'; /* linkmonstergen15minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882095644'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882095685'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882095644'; /* Linkable Monster Generator ( 3 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1882095684'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1882095681'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1882095670'; /* Magic trap */
@@ -93,71 +93,71 @@ UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `
 UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1882095622'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1882095665'; /* Magic trap */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095679'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095680'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095677'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095678'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095674'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095675'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095676'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095673'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095690'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095691'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095689'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095698'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095699'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095697'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095694'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095695'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095696'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095692'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095693'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095688'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095687'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095666'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095667'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095668'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095671'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095672'; /* linkmonstergen15minutes <- Obeloth Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095660'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095661'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095662'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095663'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095618'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095619'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095620'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095621'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095624'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095625'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095616'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095617'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095637'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095638'; /* linkmonstergen15minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095632'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095633'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095634'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095635'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095636'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095628'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095629'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095630'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095639'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095645'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095646'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095640'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095658'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095651'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095655'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095656'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095649'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095650'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095652'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095653'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095654'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095648'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095641'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095642'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095647'; /* linkmonstergen3minutes <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095679'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095680'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095677'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095678'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095674'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095675'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095676'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095673'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095690'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095691'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095689'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095698'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095699'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095697'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095694'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095695'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095696'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095692'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095693'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095688'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095687'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095666'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095667'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095668'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095671'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095672'; /* Linkable Monster Gen (15 min.) <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095660'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095661'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095662'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095663'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095618'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095619'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095620'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095621'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095624'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095625'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095616'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095617'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095637'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882095638'; /* Linkable Monster Gen (15 min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095632'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095633'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095634'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095635'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095636'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095628'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095629'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095630'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095639'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095645'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095646'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095640'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095658'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095651'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095655'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095656'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095649'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095650'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095652'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095653'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095654'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095648'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095641'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095642'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882095647'; /* Linkable Monster Generator ( 3 Min.) <- Lithos Raider */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882095683'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1882095682'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1882095669'; /* Magic trap <- Pressure Plate */

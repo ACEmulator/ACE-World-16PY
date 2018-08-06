@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7923, 2056597539, 2840789248, 83.5521, 105.081, 119.51, -0.923737, 0, 0, 0.383027) /* linkmonstergen3minutes */
+VALUES (7923, 2056597539, 2840789248, 83.5521, 105.081, 119.51, -0.923737, 0, 0, 0.383027) /* Linkable Monster Generator ( 3 Min.) */
      , (23511, 2056597540, 2840789248, 85.0429, 107.848, 119.51, 0.707107, 0, 0, -0.707107) /* Spear of the Given Heart */
-     , (7923, 2056597504, 2840788992, 91.6526, 97.3899, 118.005, 0.677407, 0, 0, -0.735608) /* linkmonstergen3minutes */
+     , (7923, 2056597504, 2840788992, 91.6526, 97.3899, 118.005, 0.677407, 0, 0, -0.735608) /* Linkable Monster Generator ( 3 Min.) */
      , (7423, 2056597505, 2840788992, 54.07, 142.05, 108.17, -0.769809, 0, 0, 0.638274) /* Lich Lord */
      , (7423, 2056597506, 2840788992, 76.1489, 133.821, 112.249, 0.399874, 0, 0, 0.91657) /* Lich Lord */
      , (20633, 2056597507, 2840788992, 76.474, 108.798, 121.568, -0.99765, 0, 0, 0.0685193) /* Warlock of the Blood */
@@ -35,40 +35,40 @@ VALUES (7923, 2056597539, 2840789248, 83.5521, 105.081, 119.51, -0.923737, 0, 0,
      , (23519, 2056597535, 2840788992, 39.2278, 111.655, 192.235, -0.00603259, 0, 0, -0.999982) /* Chest */
      , (23520, 2056597536, 2840788992, 129.131, 106.13, 192.279, 0.999975, 0, 0, -0.0070946) /* Chest */
      , (23517, 2056597537, 2840788992, 83.702, 107.111, 148.624, -4.37114E-08, 0, 0, -1) /* A Note from Tamian Wilmot */
-     , (15759, 2056597538, 2840788992, 83.7095, 109.934, 147.936, 0.0250212, 0, 0, -0.999687) /* linkitemgen10seconds */;
+     , (15759, 2056597538, 2840788992, 83.7095, 109.934, 147.936, 0.0250212, 0, 0, -0.999687) /* Linkable Item Generator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2056597504'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2056597538'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2056597539'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2056597504'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2056597538'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2056597539'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597505'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597506'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597507'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597508'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597509'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597510'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597511'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597512'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597513'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597514'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597515'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597516'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597517'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597518'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597519'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597520'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597521'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597522'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597523'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597524'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597525'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597526'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597527'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597528'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597529'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597530'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597531'; /* linkmonstergen3minutes <- Warlock of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597532'; /* linkmonstergen3minutes <- Champion of the Blood */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056597537'; /* linkitemgen10seconds <- A Note from Tamian Wilmot */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2056597540'; /* linkmonstergen3minutes <- Spear of the Given Heart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597505'; /* Linkable Monster Generator ( 3 Min.) <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597506'; /* Linkable Monster Generator ( 3 Min.) <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597507'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597508'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597509'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597510'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597511'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597512'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597513'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597514'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597515'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597516'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597517'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597518'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597519'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597520'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597521'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597522'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597523'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597524'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597525'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597526'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597527'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597528'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597529'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597530'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597531'; /* Linkable Monster Generator ( 3 Min.) <- Warlock of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056597532'; /* Linkable Monster Generator ( 3 Min.) <- Champion of the Blood */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056597537'; /* Linkable Item Generator <- A Note from Tamian Wilmot */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2056597540'; /* Linkable Monster Generator ( 3 Min.) <- Spear of the Given Heart */
 

@@ -8,7 +8,7 @@ VALUES (30691, 1909534766, 487784711, 138.007, 13.9574, -13.59, 0.782017, 0, 0, 
      , (30689, 1909534752, 487784725, 146.871, 8.56656, -8.39, -0.653363, 0, 0, -0.757045) /* Withered Raider Prefect */
      , (30689, 1909534753, 487784725, 145.396, 11.5831, -8.39, -0.725677, 0, 0, -0.688036) /* Withered Raider Prefect */
      , (30691, 1909534758, 487784726, 137.458, 11.2589, -8.39, -0.864836, 0, 0, -0.502055) /* Withered Raider Justicar */
-     , (3955, 1909534724, 487784729, 128.496, 11.3592, 2.06358, 0.877463, 0, 0, 0.479645) /* linkmonstergen15minutes */
+     , (3955, 1909534724, 487784729, 128.496, 11.3592, 2.06358, 0.877463, 0, 0, 0.479645) /* Linkable Monster Gen (15 min.) */
      , (30689, 1909534759, 487784732, 135.969, 9.27402, -8.39, -0.907652, 0, 0, -0.419723) /* Withered Raider Prefect */
      , (30689, 1909534754, 487784736, 141.58, 5.23844, -13.59, 0.38365, 0, 0, -0.923479) /* Withered Raider Prefect */
      , (30689, 1909534755, 487784736, 146.385, 10.063, -13.59, -0.106055, 0, 0, -0.99436) /* Withered Raider Prefect */
@@ -61,68 +61,68 @@ VALUES (30691, 1909534766, 487784711, 138.007, 13.9574, -13.59, 0.782017, 0, 0, 
      , (30687, 1909534772, 487784448, 5.25206, 172.205, 56.0065, -0.350622, 0, 0, 0.936517) /* Withered Revered Tumerok Shaman */
      , (30687, 1909534771, 487784448, 19.9314, 173.398, 56.0065, 0.972738, 0, 0, 0.231908) /* Withered Revered Tumerok Shaman */
      , (30687, 1909534770, 487784448, 16.4384, 183.125, 56.0065, -0.271336, 0, 0, 0.962485) /* Withered Revered Tumerok Shaman */
-     , (3955, 1909534769, 487784448, 10.0814, 180.34, 56.005, -0.420966, 0, 0, 0.907076) /* linkmonstergen15minutes */;
+     , (3955, 1909534769, 487784448, 10.0814, 180.34, 56.005, -0.420966, 0, 0, 0.907076) /* Linkable Monster Gen (15 min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1909534724'; /* linkmonstergen15minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1909534769'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1909534724'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1909534769'; /* Linkable Monster Gen (15 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534722'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534723'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534725'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534726'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534727'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534728'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534729'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534730'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534731'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534733'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534734'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534735'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534737'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534738'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534739'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534740'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534741'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534743'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534744'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534745'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534746'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534747'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534750'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534751'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534752'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534753'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534754'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534755'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534756'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534757'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534758'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534759'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534760'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534761'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534762'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534763'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534764'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534765'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534766'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534767'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534768'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534720'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534770'; /* linkmonstergen15minutes <- Withered Revered Tumerok Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534771'; /* linkmonstergen15minutes <- Withered Revered Tumerok Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534772'; /* linkmonstergen15minutes <- Withered Revered Tumerok Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534773'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534774'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534776'; /* linkmonstergen15minutes <- Withered Revered Tumerok Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534777'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534778'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534779'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534780'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534781'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534782'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534783'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534784'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534785'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534787'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534789'; /* linkmonstergen15minutes <- Withered Revered Tumerok Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534722'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534723'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534725'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534726'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534727'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534728'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534729'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534730'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534731'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534733'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534734'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534735'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534737'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534738'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534739'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534740'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534741'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534743'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534744'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534745'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534746'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534747'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534750'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534751'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534752'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534753'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534754'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534755'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534756'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534757'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534758'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534759'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534760'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534761'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534762'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534763'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534764'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534765'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534766'; /* Linkable Monster Gen (15 min.) <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534767'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534768'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909534720'; /* Linkable Monster Gen (15 min.) <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534770'; /* Linkable Monster Gen (15 min.) <- Withered Revered Tumerok Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534771'; /* Linkable Monster Gen (15 min.) <- Withered Revered Tumerok Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534772'; /* Linkable Monster Gen (15 min.) <- Withered Revered Tumerok Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534773'; /* Linkable Monster Gen (15 min.) <- Withered Transcendent Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534774'; /* Linkable Monster Gen (15 min.) <- Withered Transcendent Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534776'; /* Linkable Monster Gen (15 min.) <- Withered Revered Tumerok Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534777'; /* Linkable Monster Gen (15 min.) <- Withered Transcendent Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534778'; /* Linkable Monster Gen (15 min.) <- Withered Transcendent Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534779'; /* Linkable Monster Gen (15 min.) <- Withered Transcendent Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534780'; /* Linkable Monster Gen (15 min.) <- Withered Transcendent Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534781'; /* Linkable Monster Gen (15 min.) <- Withered Transcendent Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534782'; /* Linkable Monster Gen (15 min.) <- Withered Transcendent Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534783'; /* Linkable Monster Gen (15 min.) <- Withered Transcendent Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534784'; /* Linkable Monster Gen (15 min.) <- Withered Transcendent Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534785'; /* Linkable Monster Gen (15 min.) <- Withered Transcendent Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534787'; /* Linkable Monster Gen (15 min.) <- Withered Transcendent Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1909534789'; /* Linkable Monster Gen (15 min.) <- Withered Revered Tumerok Shaman */
 

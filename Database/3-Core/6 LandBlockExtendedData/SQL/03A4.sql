@@ -7,7 +7,7 @@ VALUES (237, 1882865664, 61079810, 70, -460, -17.971, 0.714421, 0, 0, -0.699716)
      , (1610, 1882865669, 61079840, 0.354632, -121.035, -5.995, 0.736043, 0, 0, -0.676935) /* Drudge Ravener */
      , (1610, 1882865670, 61079840, -0.584297, -118.28, -5.995, 0.682378, 0, 0, -0.730999) /* Drudge Ravener */
      , (12149, 1882865671, 61079849, 18, -10, -5.995, 0.707107, 0, 0, -0.707107) /* Surface */
-     , (7924, 1882865672, 61079860, 30, -40, -5.995, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7924, 1882865672, 61079860, 30, -40, -5.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
      , (12133, 1882865673, 61079864, 28.343, -181.463, -5.995, 0.839541, 0, 0, -0.543297) /* Sneaky Simulacrum */
      , (12133, 1882865674, 61079864, 29.3575, -179.894, -5.995, 0.66153, 0, 0, -0.749919) /* Sneaky Simulacrum */
      , (12133, 1882865675, 61079864, 29.1012, -178.922, -5.995, 0.660436, 0, 0, -0.750882) /* Sneaky Simulacrum */
@@ -29,7 +29,7 @@ VALUES (237, 1882865664, 61079810, 70, -460, -17.971, 0.714421, 0, 0, -0.699716)
      , (12133, 1882865691, 61079958, 90.2043, -306.618, -5.995, 0.996061, 0, 0, -0.088673) /* Sneaky Simulacrum */
      , (12134, 1882865692, 61079971, 90.6693, -380.786, -5.995, -0.095538, 0, 0, -0.995426) /* Subtle Simulacrum */
      , (12129, 1882865693, 61079971, 89.8752, -379.006, -5.995, 0.043405, 0, 0, -0.999058) /* The Crafter */
-     , (7923, 1882865694, 61079972, 90, -389.79, -5.995, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7923, 1882865694, 61079972, 90, -389.79, -5.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (12134, 1882865695, 61079989, 99.7914, -393.921, -5.995, -0.0237454, 0, 0, -0.999718) /* Subtle Simulacrum */
      , (12133, 1882865696, 61079989, 100.385, -391.985, -5.995, 0.00125231, 0, 0, -0.999999) /* Sneaky Simulacrum */
      , (12134, 1882865697, 61079992, 100, -420, -5.995, 0.640997, 0, 0, -0.767543) /* Subtle Simulacrum */
@@ -60,63 +60,63 @@ VALUES (237, 1882865664, 61079810, 70, -460, -17.971, 0.714421, 0, 0, -0.699716)
      , (12133, 1882865722, 61080106, 149.701, -250.833, 0.005, 0.947595, 0, 0, -0.319475) /* Sneaky Simulacrum */
      , (12133, 1882865723, 61080106, 148.59, -251.4, 0.005, 0.947595, 0, 0, -0.319475) /* Sneaky Simulacrum */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882865672'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882865694'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882865672'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882865694'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865678'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865679'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865680'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865687'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865698'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865699'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865682'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865683'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865668'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865669'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865670'; /* linkmonstergen5minutes <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865673'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865674'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865675'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865706'; /* linkmonstergen5minutes <- Subtle Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865707'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865708'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865711'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865712'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865713'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865714'; /* linkmonstergen5minutes <- Subtle Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865720'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865721'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865722'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865723'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865715'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865716'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865717'; /* linkmonstergen5minutes <- Subtle Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865688'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865700'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865681'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865689'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865690'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865691'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865703'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865704'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865705'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865701'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865702'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865676'; /* linkmonstergen5minutes <- Subtle Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865677'; /* linkmonstergen5minutes <- Subtle Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865709'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865710'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865718'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865719'; /* linkmonstergen5minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865697'; /* linkmonstergen5minutes <- Subtle Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865686'; /* linkmonstergen5minutes <- Subtle Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865667'; /* linkmonstergen5minutes <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865664'; /* linkmonstergen5minutes <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865666'; /* linkmonstergen5minutes <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882865695'; /* linkmonstergen3minutes <- Subtle Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882865696'; /* linkmonstergen3minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882865684'; /* linkmonstergen3minutes <- Sneaky Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882865685'; /* linkmonstergen3minutes <- Subtle Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882865692'; /* linkmonstergen3minutes <- Subtle Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882865693'; /* linkmonstergen3minutes <- The Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865678'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865679'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865680'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865687'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865698'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865699'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865682'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865683'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865668'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865669'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865670'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865673'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865674'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865675'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865706'; /* Linkable Monster Generator ( 5 Min.) <- Subtle Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865707'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865708'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865711'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865712'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865713'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865714'; /* Linkable Monster Generator ( 5 Min.) <- Subtle Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865720'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865721'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865722'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865723'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865715'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865716'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865717'; /* Linkable Monster Generator ( 5 Min.) <- Subtle Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865688'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865700'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865681'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865689'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865690'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865691'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865703'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865704'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865705'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865701'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865702'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865676'; /* Linkable Monster Generator ( 5 Min.) <- Subtle Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865677'; /* Linkable Monster Generator ( 5 Min.) <- Subtle Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865709'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865710'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865718'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865719'; /* Linkable Monster Generator ( 5 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865697'; /* Linkable Monster Generator ( 5 Min.) <- Subtle Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865686'; /* Linkable Monster Generator ( 5 Min.) <- Subtle Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865667'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865664'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882865666'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882865695'; /* Linkable Monster Generator ( 3 Min.) <- Subtle Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882865696'; /* Linkable Monster Generator ( 3 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882865684'; /* Linkable Monster Generator ( 3 Min.) <- Sneaky Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882865685'; /* Linkable Monster Generator ( 3 Min.) <- Subtle Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882865692'; /* Linkable Monster Generator ( 3 Min.) <- Subtle Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882865693'; /* Linkable Monster Generator ( 3 Min.) <- The Crafter */
 

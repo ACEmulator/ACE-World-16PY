@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (990, 2012807168, 2140143889, 101.52, 155.88, 144.005, 0.584958, 0, 0, -0.811064) /* Healer Hisuf ibn Shudir */
      , (5695, 2012807172, 2140143890, 100.788, 153.96, 147.205, 0.723958, 0, 0, -0.689844) /* Kuyiza bint Zayi the Translator */
-     , (1154, 2012807174, 2140143890, 101.828, 155.553, 147.205, -0.00131678, 0, 0, 0.999999) /* linkmonstergen */
+     , (1154, 2012807174, 2140143890, 101.828, 155.553, 147.205, -0.00131678, 0, 0, 0.999999) /* Linkable Monster Generator */
      , (984, 2012807170, 2140143891, 113.596, 155.162, 144.01, -0.57857, 0, 0, -0.815633) /* Archmage Asaina al-Arqis */
      , (2045, 2012807171, 2140143892, 112.945, 155.63, 147.205, -0.362605, 0, 0, -0.931943) /* Suma bint Nayn the Librarian */
      , (8864, 2012807177, 2140143897, 110.709, 158.773, 144.005, 0.92388, 0, 0, -0.382683) /* History Shelf */
@@ -10,15 +10,15 @@ VALUES (990, 2012807168, 2140143889, 101.52, 155.88, 144.005, 0.584958, 0, 0, -0
      , (5697, 2012807173, 2140143902, 107.48, 160.446, 147.205, 1, 0, 0, 0) /* To Be A Shadow */
      , (28183, 2012807182, 2140143616, 101.293, 145.315, 144.005, 0.169377, 0, 0, -0.985551) /* Apprentice Alchemist */
      , (12262, 2012807180, 2140143616, 101.8, 110.1, 143.062, 0.961619, 0, 0, -0.274387) /* Ecorto the Lost Director */
-     , (3951, 2012807176, 2140143616, 109.222, 141.47, 144.005, 0.0593664, 0, 0, 0.998236) /* linkmonstergen1hour */
+     , (3951, 2012807176, 2140143616, 109.222, 141.47, 144.005, 0.0593664, 0, 0, 0.998236) /* Linkable Monster Gen (1 hour) */
      , (8266, 2012807175, 2140143616, 110.697, 142.459, 144.005, 0.704148, 0, 0, -0.710054) /* Diyas al-Yat */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2012807174'; /* linkmonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2012807176'; /* linkmonstergen1hour */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2012807174'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2012807176'; /* Linkable Monster Gen (1 hour) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2012807172'; /* linkmonstergen <- Kuyiza bint Zayi the Translator */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2012807175'; /* linkmonstergen1hour <- Diyas al-Yat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2012807180'; /* linkmonstergen1hour <- Ecorto the Lost Director */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2012807181'; /* linkmonstergen1hour <- Arcanum Researcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2012807182'; /* linkmonstergen1hour <- Apprentice Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2012807172'; /* Linkable Monster Generator <- Kuyiza bint Zayi the Translator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2012807175'; /* Linkable Monster Gen (1 hour) <- Diyas al-Yat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2012807180'; /* Linkable Monster Gen (1 hour) <- Ecorto the Lost Director */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2012807181'; /* Linkable Monster Gen (1 hour) <- Arcanum Researcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2012807182'; /* Linkable Monster Gen (1 hour) <- Apprentice Alchemist */
 

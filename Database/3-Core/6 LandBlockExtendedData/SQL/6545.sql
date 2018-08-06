@@ -54,8 +54,8 @@ VALUES (26544, 1985236992, 1699021056, 10, -212.5, -12, -4.37114E-08, 0, 0, -1) 
      , (26544, 1985237044, 1699021320, 150, -172.5, 0, -4.37114E-08, 0, 0, -1) /* Wailing Statue */
      , (26544, 1985237045, 1699021330, 150, -227.5, 0, 1, 0, 0, 0) /* Wailing Statue */
      , (26549, 1985237046, 1699021331, 160, -55.525, 0.005, 0, 0, 0, -1) /* Guardian of the Matriarch's Gaze */
-     , (26526, 1985237047, 1699021331, 160, -60, 0, 0.707107, 0, 0, -0.707107) /* templeconsortcontrollergenerator */
-     , (26647, 1985237048, 1699021331, 159.727, -62.1385, 0, 1, 0, 0, 0) /* templeibrexijiktigenerator */
+     , (26526, 1985237047, 1699021331, 160, -60, 0, 0.707107, 0, 0, -0.707107) /* Temple Consort Controller Gen */
+     , (26647, 1985237048, 1699021331, 159.727, -62.1385, 0, 1, 0, 0, 0) /* Consort Ibrexi Jikti Gen */
      , (5624, 1985237049, 1699021334, 164.75, -200, 0.005, -0.707107, 0, 0, -0.707107) /* Door */
      , (26579, 1985237050, 1699021336, 174.897, -70, 0.005, -0.707107, 0, 0, -0.707107) /* Eye of the Watcher */
      , (26578, 1985237051, 1699021337, 174.9, -80, 0.005, -0.707107, 0, 0, -0.707107) /* Eye of the Watcher */
@@ -63,7 +63,7 @@ VALUES (26544, 1985236992, 1699021056, 10, -212.5, -12, -4.37114E-08, 0, 0, -1) 
      , (5624, 1985237053, 1699021344, 180, -184.75, 0.005, 1, 0, 0, -4.37114E-08) /* Door */
      , (26546, 1985237054, 1699021345, 183.357, -185.633, 0.005, 0, 0, 0, -1) /* Guardian of the Restless Dead */
      , (26548, 1985237055, 1699021346, 180, -200, 0.005, 0, 0, 0, -1) /* Arbiter */
-     , (7923, 1985237056, 1699021347, 180, -210, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7923, 1985237056, 1699021347, 180, -210, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (26635, 1985237057, 1699021349, 191.567, -166.945, 0.005, 0.995181, 0, 0, -0.0980531) /* Offering Table */
      , (26635, 1985237058, 1699021349, 189.01, -167.138, 0.005, -0.999267, 0, 0, -0.0382941) /* Offering Table */
      , (26635, 1985237059, 1699021349, 188.361, -173.343, 0.005, 0.00977221, 0, 0, -0.999952) /* Offering Table */
@@ -77,19 +77,19 @@ VALUES (26544, 1985236992, 1699021056, 10, -212.5, -12, -4.37114E-08, 0, 0, -1) 
      , (26572, 1985237067, 1699021358, 195.49, -70, 0.005, 0.707107, 0, 0, -0.707107) /* Eye of the Watcher */
      , (26571, 1985237068, 1699021359, 195.1, -80, 0.005, 0.707107, 0, 0, -0.707107) /* Eye of the Watcher */
      , (26542, 1985237069, 1699021362, 200, -140, 0.005, -4.37114E-08, 0, 0, -1) /* Judge of the Appeasement */
-     , (26524, 1985237070, 1699021367, 200, -160, 0.005, 1, 0, 0, -4.37114E-08) /* templegravespiritsgenerator */
+     , (26524, 1985237070, 1699021367, 200, -160, 0.005, 1, 0, 0, -4.37114E-08) /* Temple Grave Spirits Generator */
      , (26635, 1985237071, 1699021367, 202.854, -158.427, 0.005, 0.703856, 0, 0, -0.710343) /* Offering Table */
      , (26635, 1985237072, 1699021367, 202.825, -161.572, 0.005, 0.703856, 0, 0, -0.710343) /* Offering Table */
      , (26635, 1985237073, 1699021367, 197.086, -161.571, 0.005, 0.713034, 0, 0, 0.70113) /* Offering Table */
      , (26635, 1985237074, 1699021367, 197.141, -158.311, 0.005, 0.713034, 0, 0, 0.70113) /* Offering Table */
      , (5624, 1985237075, 1699021372, 195.25, -200, 0.005, 0.707107, 0, 0, -0.707107) /* Door */
      , (26538, 1985237076, 1699021373, 210, 2, 0.005, 1, 0, 0, 0) /* Sarcophagus of High Matriarch, Ixir Zi */
-     , (26646, 1985237078, 1699021374, 211.259, -9.56016, 0, 1, 0, 0, 0) /* templeburungenerator */
-     , (7923, 1985237079, 1699021375, 210, -20, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (26646, 1985237078, 1699021374, 211.259, -9.56016, 0, 1, 0, 0, 0) /* Temple Burun Gen */
+     , (7923, 1985237079, 1699021375, 210, -20, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (26537, 1985237080, 1699021375, 209.962, -24.5523, 0.005, 1, 0, 0, 0) /* Portal to Kivik Lir's Temple */
      , (26547, 1985237081, 1699021376, 210, -55.109, 0.005, 0, 0, 0, -1) /* Guardian of the Matriarch's Gaze */
-     , (26525, 1985237082, 1699021376, 210, -60, 0, 0.707107, 0, 0, -0.707107) /* templeapprenticecontrollergenerator */
-     , (26648, 1985237083, 1699021376, 209.868, -62.0995, 0, 1, 0, 0, 0) /* templejexkikigenerator */
+     , (26525, 1985237082, 1699021376, 210, -60, 0, 0.707107, 0, 0, -0.707107) /* Temple Apprentice Controller Gen */
+     , (26648, 1985237083, 1699021376, 209.868, -62.0995, 0, 1, 0, 0, 0) /* Apprentice Jexki Ki Gen */
      , (26564, 1985237084, 1699021379, 210, -110, 0.005, 0, 0, 0, -1) /* Guardian of the High Matriarch */
      , (26569, 1985237085, 1699021388, 217.139, 2.124, 0.005, 0.885596, 0, 0, -0.464456) /* Ensorcelled Falchion */
      , (26541, 1985237086, 1699021388, 219.517, -0.203, 0.005, 0.923879, 0, 0, -0.382684) /* Ixir Zi's, Staff of Eyes */
@@ -106,8 +106,8 @@ VALUES (26544, 1985236992, 1699021056, 10, -212.5, -12, -4.37114E-08, 0, 0, -1) 
      , (26583, 1985237097, 1699021404, 245.1, -70, 0.005, 0.707107, 0, 0, -0.707107) /* Eye of the Watcher */
      , (26582, 1985237098, 1699021405, 245.1, -80, 0.005, 0.707107, 0, 0, -0.707107) /* Eye of the Watcher */
      , (26565, 1985237099, 1699021406, 260, -55.48, 0.005, 0, 0, 0, -1) /* Guardian of the Matriarch's Gaze */
-     , (26528, 1985237100, 1699021406, 260, -60, 0, 0.707107, 0, 0, -0.707107) /* templematriarchcontrollergenerator */
-     , (26649, 1985237101, 1699021406, 259.72, -62.8813, 0, 1, 0, 0, 0) /* templekixktixrigenerator */
+     , (26528, 1985237100, 1699021406, 260, -60, 0, 0.707107, 0, 0, -0.707107) /* Temple Matriarch Controller Gen */
+     , (26649, 1985237101, 1699021406, 259.72, -62.8813, 0, 1, 0, 0, 0) /* Matriarch Kixkti Xri Gen */
      , (26585, 1985237102, 1699021410, 274.505, -70, 0.005, -0.707107, 0, 0, -0.707107) /* Eye of the Watcher */
      , (26584, 1985237103, 1699021411, 274.505, -80, 0.005, -0.707107, 0, 0, -0.707107) /* Eye of the Watcher */
      , (26654, 1985237131, 1699021421, 281.77, -200, 1.25, 0.707107, 0, 0, -0.707107) /* Button */
@@ -117,9 +117,9 @@ VALUES (26544, 1985236992, 1699021056, 10, -212.5, -12, -4.37114E-08, 0, 0, -1) 
      , (26553, 1985237108, 1699021444, 310, -164.845, 0.005, 1, 0, 0, 0) /* Guardian */
      , (26534, 1985237109, 1699021445, 312.867, -165.109, 1.25, 0, 0, 0, -1) /* Button */
      , (26545, 1985237110, 1699021446, 310, -180, 0.005, 0, 0, 0, -1) /* Guardian of the Outer Ward */
-     , (7923, 1985237112, 1699021447, 312.47, -190, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
-     , (7923, 1985237113, 1699021447, 310, -190, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
-     , (7923, 1985237114, 1699021447, 308.235, -190, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7923, 1985237112, 1699021447, 312.47, -190, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1985237113, 1699021447, 310, -190, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1985237114, 1699021447, 308.235, -190, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (26651, 1985237134, 1699021447, 307.434, -194.89, 1.25, 1, 0, 0, 0) /* Button */
      , (26553, 1985237115, 1699021448, 310, -195.16, 0.005, -4.37114E-08, 0, 0, -1) /* Guardian */
      , (26652, 1985237135, 1699021452, 324.9, -182.781, 1.25, -0.707107, 0, 0, -0.707107) /* Button */
@@ -137,124 +137,124 @@ VALUES (26544, 1985236992, 1699021056, 10, -212.5, -12, -4.37114E-08, 0, 0, -1) 
      , (26631, 1985237127, 1699021593, 310.362, -179.469, 18.005, -0.999616, 0, 0, 0.027703) /* Sapphire */
      , (26633, 1985237128, 1699021593, 309.242, -179.407, 18.005, -0.999616, 0, 0, 0.027703) /* Sunstone */
      , (26630, 1985237129, 1699021593, 308.283, -179.354, 18.005, -0.999616, 0, 0, 0.027703) /* Black Opal */
-     , (15759, 1985237130, 1699021593, 310.035, -181.361, 18.005, -0.998611, 0, 0, 0.052682) /* linkitemgen10seconds */;
+     , (15759, 1985237130, 1699021593, 310.035, -181.361, 18.005, -0.998611, 0, 0, 0.052682) /* Linkable Item Generator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1985237112'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1985237113'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1985237114'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1985237130'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1985237056'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1985237079'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1985237112'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1985237113'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1985237114'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1985237130'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1985237056'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1985237079'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237092'; /* linkmonstergen3minutes <- Offering Urn */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237093'; /* linkmonstergen3minutes <- Offering Urn */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237094'; /* linkmonstergen3minutes <- Offering Urn */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237096'; /* linkmonstergen3minutes <- Judge of the Sacrifice */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237084'; /* linkmonstergen3minutes <- Guardian of the High Matriarch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237043'; /* linkmonstergen3minutes <- Eye of the Watcher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237046'; /* linkmonstergen3minutes <- Guardian of the Matriarch's Gaze */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237135'; /* linkmonstergen3minutes <- Button */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237134'; /* linkmonstergen3minutes <- Button */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237133'; /* linkmonstergen3minutes <- Button */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237137'; /* linkmonstergen3minutes <- Button */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237136'; /* linkmonstergen3minutes <- Button */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237131'; /* linkmonstergen3minutes <- Button */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237132'; /* linkmonstergen3minutes <- Button */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237068'; /* linkmonstergen3minutes <- Eye of the Watcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237090'; /* linkmonstergen3minutes <- Eye of the Watcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237091'; /* linkmonstergen3minutes <- Eye of the Watcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237042'; /* linkmonstergen3minutes <- Eye of the Watcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237067'; /* linkmonstergen3minutes <- Eye of the Watcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237050'; /* linkmonstergen3minutes <- Eye of the Watcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237051'; /* linkmonstergen3minutes <- Eye of the Watcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237097'; /* linkmonstergen3minutes <- Eye of the Watcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237098'; /* linkmonstergen3minutes <- Eye of the Watcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237102'; /* linkmonstergen3minutes <- Eye of the Watcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237103'; /* linkmonstergen3minutes <- Eye of the Watcher */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237081'; /* linkmonstergen3minutes <- Guardian of the Matriarch's Gaze */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237099'; /* linkmonstergen3minutes <- Guardian of the Matriarch's Gaze */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237110'; /* linkmonstergen3minutes <- Guardian of the Outer Ward */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237109'; /* linkmonstergen3minutes <- Button */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237076'; /* linkmonstergen3minutes <- Sarcophagus of High Matriarch, Ixir Zi */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237065'; /* linkmonstergen3minutes <- Strange Device */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237066'; /* linkmonstergen3minutes <- Strange Device */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237089'; /* linkmonstergen3minutes <- Strange Device */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237088'; /* linkmonstergen3minutes <- Strange Device */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237055'; /* linkmonstergen3minutes <- Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237069'; /* linkmonstergen3minutes <- Judge of the Appeasement */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985237054'; /* linkmonstergen3minutes <- Guardian of the Restless Dead */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985237061'; /* linkmonstergen3minutes <- Guardian of the Sacrificial Urns */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985237052'; /* linkmonstergen3minutes <- Guardian of Fury */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985237128'; /* linkitemgen10seconds <- Sunstone */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985237129'; /* linkitemgen10seconds <- Black Opal */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985237127'; /* linkitemgen10seconds <- Sapphire */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985237126'; /* linkitemgen10seconds <- Serpentine */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985237125'; /* linkitemgen10seconds <- Bloodstone */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237005'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237003'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237057'; /* linkmonstergen3minutes <- Offering Table */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236994'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237060'; /* linkmonstergen3minutes <- Offering Table */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237071'; /* linkmonstergen3minutes <- Offering Table */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236997'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237058'; /* linkmonstergen3minutes <- Offering Table */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237001'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237059'; /* linkmonstergen3minutes <- Offering Table */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237074'; /* linkmonstergen3minutes <- Offering Table */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237072'; /* linkmonstergen3minutes <- Offering Table */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237073'; /* linkmonstergen3minutes <- Offering Table */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236993'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237044'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236998'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236992'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237038'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236995'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237041'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237040'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237039'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237045'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237037'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237036'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237035'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237029'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237025'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237027'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237022'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237018'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237011'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237014'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237023'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237024'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237028'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237026'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237021'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237020'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237015'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237013'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237012'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237009'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237010'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237008'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237007'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237033'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237031'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237032'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237030'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237017'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237019'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237004'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237034'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237000'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236999'; /* linkmonstergen3minutes <- Wailing Statue */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237064'; /* linkmonstergen3minutes <- Lance of the Bloodletter */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237006'; /* linkmonstergen3minutes <- Matron Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237002'; /* linkmonstergen3minutes <- High Matron Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237016'; /* linkmonstergen3minutes <- Matron Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236996'; /* linkmonstergen3minutes <- Matron Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985237085'; /* linkmonstergen3minutes <- Ensorcelled Falchion */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985237087'; /* linkmonstergen3minutes <- Crown of Anointed Blood */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985237062'; /* linkmonstergen3minutes <- Sickle of Writhing Fury */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985237086'; /* linkmonstergen3minutes <- Ixir Zi's, Staff of Eyes */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985237063'; /* linkmonstergen3minutes <- Crimson Brace of Pain */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985237080'; /* linkmonstergen3minutes <- Portal to Kivik Lir's Temple */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237092'; /* Linkable Monster Generator ( 3 Min.) <- Offering Urn */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237093'; /* Linkable Monster Generator ( 3 Min.) <- Offering Urn */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237094'; /* Linkable Monster Generator ( 3 Min.) <- Offering Urn */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237096'; /* Linkable Monster Generator ( 3 Min.) <- Judge of the Sacrifice */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237084'; /* Linkable Monster Generator ( 3 Min.) <- Guardian of the High Matriarch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237043'; /* Linkable Monster Generator ( 3 Min.) <- Eye of the Watcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237046'; /* Linkable Monster Generator ( 3 Min.) <- Guardian of the Matriarch's Gaze */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237135'; /* Linkable Monster Generator ( 3 Min.) <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237134'; /* Linkable Monster Generator ( 3 Min.) <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237133'; /* Linkable Monster Generator ( 3 Min.) <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237137'; /* Linkable Monster Generator ( 3 Min.) <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237136'; /* Linkable Monster Generator ( 3 Min.) <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237131'; /* Linkable Monster Generator ( 3 Min.) <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985237132'; /* Linkable Monster Generator ( 3 Min.) <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237068'; /* Linkable Monster Generator ( 3 Min.) <- Eye of the Watcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237090'; /* Linkable Monster Generator ( 3 Min.) <- Eye of the Watcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237091'; /* Linkable Monster Generator ( 3 Min.) <- Eye of the Watcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237042'; /* Linkable Monster Generator ( 3 Min.) <- Eye of the Watcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237067'; /* Linkable Monster Generator ( 3 Min.) <- Eye of the Watcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237050'; /* Linkable Monster Generator ( 3 Min.) <- Eye of the Watcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237051'; /* Linkable Monster Generator ( 3 Min.) <- Eye of the Watcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237097'; /* Linkable Monster Generator ( 3 Min.) <- Eye of the Watcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237098'; /* Linkable Monster Generator ( 3 Min.) <- Eye of the Watcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237102'; /* Linkable Monster Generator ( 3 Min.) <- Eye of the Watcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237103'; /* Linkable Monster Generator ( 3 Min.) <- Eye of the Watcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237081'; /* Linkable Monster Generator ( 3 Min.) <- Guardian of the Matriarch's Gaze */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237099'; /* Linkable Monster Generator ( 3 Min.) <- Guardian of the Matriarch's Gaze */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237110'; /* Linkable Monster Generator ( 3 Min.) <- Guardian of the Outer Ward */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237109'; /* Linkable Monster Generator ( 3 Min.) <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237076'; /* Linkable Monster Generator ( 3 Min.) <- Sarcophagus of High Matriarch, Ixir Zi */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237065'; /* Linkable Monster Generator ( 3 Min.) <- Strange Device */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237066'; /* Linkable Monster Generator ( 3 Min.) <- Strange Device */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237089'; /* Linkable Monster Generator ( 3 Min.) <- Strange Device */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237088'; /* Linkable Monster Generator ( 3 Min.) <- Strange Device */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237055'; /* Linkable Monster Generator ( 3 Min.) <- Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985237069'; /* Linkable Monster Generator ( 3 Min.) <- Judge of the Appeasement */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985237054'; /* Linkable Monster Generator ( 3 Min.) <- Guardian of the Restless Dead */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985237061'; /* Linkable Monster Generator ( 3 Min.) <- Guardian of the Sacrificial Urns */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1985237052'; /* Linkable Monster Generator ( 3 Min.) <- Guardian of Fury */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985237128'; /* Linkable Item Generator <- Sunstone */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985237129'; /* Linkable Item Generator <- Black Opal */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985237127'; /* Linkable Item Generator <- Sapphire */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985237126'; /* Linkable Item Generator <- Serpentine */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1985237125'; /* Linkable Item Generator <- Bloodstone */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237005'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237003'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237057'; /* Linkable Monster Generator ( 3 Min.) <- Offering Table */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236994'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237060'; /* Linkable Monster Generator ( 3 Min.) <- Offering Table */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237071'; /* Linkable Monster Generator ( 3 Min.) <- Offering Table */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236997'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237058'; /* Linkable Monster Generator ( 3 Min.) <- Offering Table */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237001'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237059'; /* Linkable Monster Generator ( 3 Min.) <- Offering Table */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237074'; /* Linkable Monster Generator ( 3 Min.) <- Offering Table */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237072'; /* Linkable Monster Generator ( 3 Min.) <- Offering Table */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237073'; /* Linkable Monster Generator ( 3 Min.) <- Offering Table */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236993'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237044'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236998'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236992'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237038'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236995'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237041'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237040'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237039'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237045'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237037'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237036'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237035'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237029'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237025'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237027'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237022'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237018'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237011'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237014'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237023'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237024'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237028'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237026'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237021'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237020'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237015'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237013'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237012'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237009'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237010'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237008'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237007'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237033'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237031'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237032'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237030'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237017'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237019'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237004'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237034'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237000'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236999'; /* Linkable Monster Generator ( 3 Min.) <- Wailing Statue */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237064'; /* Linkable Monster Generator ( 3 Min.) <- Lance of the Bloodletter */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237006'; /* Linkable Monster Generator ( 3 Min.) <- Matron Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237002'; /* Linkable Monster Generator ( 3 Min.) <- High Matron Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985237016'; /* Linkable Monster Generator ( 3 Min.) <- Matron Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1985236996'; /* Linkable Monster Generator ( 3 Min.) <- Matron Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985237085'; /* Linkable Monster Generator ( 3 Min.) <- Ensorcelled Falchion */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985237087'; /* Linkable Monster Generator ( 3 Min.) <- Crown of Anointed Blood */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985237062'; /* Linkable Monster Generator ( 3 Min.) <- Sickle of Writhing Fury */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985237086'; /* Linkable Monster Generator ( 3 Min.) <- Ixir Zi's, Staff of Eyes */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985237063'; /* Linkable Monster Generator ( 3 Min.) <- Crimson Brace of Pain */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1985237080'; /* Linkable Monster Generator ( 3 Min.) <- Portal to Kivik Lir's Temple */
 

@@ -7,12 +7,12 @@ VALUES (4053, 2087849992, 3340828928, 2.97536, 17.8265, 209.66, -0.972699, 0, 0,
      , (16, 2087849988, 3340828672, 66.5042, 83.2623, 196.007, -0.867452, 0, 0, 0.497521) /* Undead */
      , (204, 2087849989, 3340828672, 64.6468, 85.306, 196.007, -0.939655, 0, 0, 0.342124) /* Lich */
      , (1760, 2087849990, 3340828672, 70.9625, 83.8544, 196.005, -0.955356, 0, 0, 0.295456) /* Skeleton Warrior */
-     , (3596, 2087849991, 3340828672, 67.8723, 85.6777, 196.005, -0.955863, 0, 0, 0.293814) /* linkmonsterscattergen */;
+     , (3596, 2087849991, 3340828672, 67.8723, 85.6777, 196.005, -0.955863, 0, 0, 0.293814) /* Linkable Monster Scatter Generator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2087849991'; /* linkmonsterscattergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2087849991'; /* Linkable Monster Scatter Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087849988'; /* linkmonsterscattergen <- Undead */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087849989'; /* linkmonsterscattergen <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087849990'; /* linkmonsterscattergen <- Skeleton Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087849987'; /* linkmonsterscattergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087849988'; /* Linkable Monster Scatter Generator <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087849989'; /* Linkable Monster Scatter Generator <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087849990'; /* Linkable Monster Scatter Generator <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087849987'; /* Linkable Monster Scatter Generator <- Lich */
 

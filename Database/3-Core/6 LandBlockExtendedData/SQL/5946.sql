@@ -1,5 +1,5 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7924, 1972658183, 1497760004, 20, -20, 0.005, 0.696707, 0, 0, 0.717356) /* linkmonstergen5minutes */
+VALUES (7924, 1972658183, 1497760004, 20, -20, 0.005, 0.696707, 0, 0, 0.717356) /* Linkable Monster Generator ( 5 Min.) */
      , (21549, 1972658184, 1497760020, 18.6746, -40.1402, 6.0065, -0.705208, 0, 0, 0.709001) /* Corrosion Wisp */
      , (21549, 1972658185, 1497760034, 40.5978, -20.6921, 6.0065, -0.999983, 0, 0, 0.00590503) /* Corrosion Wisp */
      , (21549, 1972658186, 1497760047, 21.0993, -10.4685, 12.0065, -0.711723, 0, 0, -0.70246) /* Corrosion Wisp */
@@ -65,63 +65,63 @@ VALUES (7924, 1972658183, 1497760004, 20, -20, 0.005, 0.696707, 0, 0, 0.717356) 
      , (7092, 1972658238, 1497760796, 89.591, -54.0065, 84.0085, -0.294466, 0, 0, -0.955662) /* Firestorm */
      , (5712, 1972658239, 1497760798, 90, -60, 84.0085, 1, 0, 0, -4.37114E-08) /* Inferno */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1972658183'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1972658183'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658184'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658185'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658186'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658188'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658187'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658189'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658190'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658191'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658193'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658192'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658195'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658194'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658196'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658198'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658199'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658200'; /* linkmonstergen5minutes <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658197'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658201'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658202'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658205'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658205'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658203'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658204'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658207'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658206'; /* linkmonstergen5minutes <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658211'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658213'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658214'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658210'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658212'; /* linkmonstergen5minutes <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658208'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658209'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658215'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658217'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658218'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658216'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658221'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658225'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658231'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658228'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658229'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658230'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658226'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658227'; /* linkmonstergen5minutes <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658224'; /* linkmonstergen5minutes <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658220'; /* linkmonstergen5minutes <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658223'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658219'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658222'; /* linkmonstergen5minutes <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658233'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658232'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658235'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658239'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658237'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658236'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658238'; /* linkmonstergen5minutes <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658243'; /* linkmonstergen5minutes <- Platinum Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658184'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658185'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658186'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658188'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658187'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658189'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658190'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658191'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658193'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658192'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658195'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658194'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658196'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658198'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658199'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658200'; /* Linkable Monster Generator ( 5 Min.) <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658197'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658201'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658202'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658205'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658205'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658203'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658204'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658207'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658206'; /* Linkable Monster Generator ( 5 Min.) <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658211'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658213'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658214'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658210'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658212'; /* Linkable Monster Generator ( 5 Min.) <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658208'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658209'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658215'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658217'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658218'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658216'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658221'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658225'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658231'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658228'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658229'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658230'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658226'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658227'; /* Linkable Monster Generator ( 5 Min.) <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658224'; /* Linkable Monster Generator ( 5 Min.) <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658220'; /* Linkable Monster Generator ( 5 Min.) <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658223'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658219'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658222'; /* Linkable Monster Generator ( 5 Min.) <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658233'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658232'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658235'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658239'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658237'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658236'; /* Linkable Monster Generator ( 5 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658238'; /* Linkable Monster Generator ( 5 Min.) <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972658243'; /* Linkable Monster Generator ( 5 Min.) <- Platinum Golem */
 

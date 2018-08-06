@@ -201,14 +201,14 @@ VALUES (25597, 1978953728, 1598488832, 51.8075, -289.23, -47.995, 0.31229, 0, 0,
      , (25597, 1978953927, 1598489423, 136.852, -177.828, -5.995, 0.912705, 0, 0, -0.408619) /* Emerald Gromnie */
      , (25599, 1978953928, 1598489425, 148.957, -60.6026, -5.995, -0.67065, 0, 0, -0.741774) /* Sapphire Gromnie */
      , (25599, 1978953929, 1598489429, 149.511, -79.5703, -5.995, 0.922034, 0, 0, 0.387109) /* Sapphire Gromnie */
-     , (7932, 1978953930, 1598489432, 151.022, -109.971, -5.995, -0.705412, 0, 0, -0.708798) /* linkmonstergen4minutes */
-     , (7932, 1978953931, 1598489433, 148.778, -129.876, -5.995, -0.707637, 0, 0, -0.706576) /* linkmonstergen4minutes */
+     , (7932, 1978953930, 1598489432, 151.022, -109.971, -5.995, -0.705412, 0, 0, -0.708798) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1978953931, 1598489433, 148.778, -129.876, -5.995, -0.707637, 0, 0, -0.706576) /* Linkable Monster Generator ( 4 Min.) */
      , (25597, 1978953932, 1598489434, 154.875, -150.494, -5.995, 0.742017, 0, 0, 0.670381) /* Emerald Gromnie */
      , (25597, 1978953933, 1598489436, 154.765, -190.003, -5.995, 0.725027, 0, 0, 0.68872) /* Emerald Gromnie */
      , (25597, 1978953934, 1598489438, 156.528, -160.982, -5.995, -0.84448, 0, 0, 0.535587) /* Emerald Gromnie */
      , (25597, 1978953935, 1598489443, 160.268, -181.333, -5.995, 0.999953, 0, 0, 0.009722) /* Emerald Gromnie */
-     , (7932, 1978953936, 1598489447, 188.575, -110.011, -5.995, -0.701073, 0, 0, 0.71309) /* linkmonstergen4minutes */
-     , (7932, 1978953937, 1598489448, 189.445, -130.071, -5.995, -0.706263, 0, 0, 0.70795) /* linkmonstergen4minutes */
+     , (7932, 1978953936, 1598489447, 188.575, -110.011, -5.995, -0.701073, 0, 0, 0.71309) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1978953937, 1598489448, 189.445, -130.071, -5.995, -0.706263, 0, 0, 0.70795) /* Linkable Monster Generator ( 4 Min.) */
      , (25596, 1978953938, 1598489450, 201.321, -106.178, -5.995, -4.37114E-08, 0, 0, -1) /* Amethyst Gromnie */
      , (25596, 1978953939, 1598489450, 198.779, -106.318, -5.995, 0.200459, 0, 0, -0.979702) /* Amethyst Gromnie */
      , (25598, 1978953940, 1598489456, 201.159, -125.829, -5.995, -0.214625, 0, 0, -0.976697) /* Ruby Gromnie */
@@ -237,242 +237,242 @@ VALUES (25597, 1978953728, 1598488832, 51.8075, -289.23, -47.995, 0.31229, 0, 0,
      , (25596, 1978953963, 1598489533, 248.412, -93.1612, -5.995, 0.969443, 0, 0, 0.245316) /* Amethyst Gromnie */
      , (25596, 1978953964, 1598489533, 251.087, -93.6616, -5.995, 0.998856, 0, 0, 0.047828) /* Amethyst Gromnie */
      , (25635, 1978953965, 1598489617, 169.866, -130.585, 0.079, 0.020795, 0, 0, -0.999784) /* An Interesting Note */
-     , (5085, 1978953966, 1598489617, 169.834, -129.805, 0.005, 0.020795, 0, 0, -0.999784) /* linkitemgen25seconds */;
+     , (5085, 1978953966, 1598489617, 169.834, -129.805, 0.005, 0.020795, 0, 0, -0.999784) /* Linkable Item Gen - 25 seconds */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1978953930'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1978953931'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1978953936'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1978953937'; /* linkmonstergen4minutes */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1978953966'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1978953930'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1978953931'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1978953936'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1978953937'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1978953966'; /* Linkable Item Gen - 25 seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953906'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953921'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953928'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953911'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953912'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953916'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953929'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953919'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953866'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953867'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953843'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953844'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953857'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953858'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953868'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953869'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953863'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953864'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953848'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953849'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953812'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953813'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953865'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953850'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953855'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953856'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953845'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953814'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953815'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953809'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953810'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953808'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953811'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953768'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953769'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953770'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953764'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953765'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953738'; /* linkmonstergen4minutes <- Freezing Elemental Pool */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953776'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953773'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953774'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953775'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953777'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953736'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953740'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953739'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953741'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953737'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953778'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953766'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953924'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953922'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953923'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953915'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953914'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953913'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953920'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953904'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953907'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953905'; /* linkmonstergen4minutes <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953729'; /* linkmonstergen4minutes <- Acidic Elemental Pool */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953759'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953761'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953760'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953757'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953756'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953762'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953758'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953763'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953731'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953730'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953735'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953734'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953728'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953732'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953771'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953772'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953800'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953767'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953805'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953801'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953803'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953806'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953802'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953804'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953834'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953807'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953838'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953835'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953837'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953839'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953840'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953836'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953842'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953841'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953847'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953846'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953861'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953859'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953862'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953851'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953860'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953853'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953852'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953903'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953854'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953917'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953902'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953925'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953918'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953908'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953926'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953910'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953909'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953935'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953933'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953934'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953932'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953927'; /* linkmonstergen4minutes <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953743'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953745'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953746'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953748'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953785'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953790'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953786'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953791'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953781'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953787'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953780'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953779'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953783'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953782'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953817'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953784'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953826'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953816'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953824'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953827'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953822'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953825'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953897'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953823'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953890'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953898'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953899'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953884'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953901'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953892'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953900'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953885'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953880'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953891'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953893'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953894'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953879'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953878'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953962'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953961'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953964'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953963'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953953'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953952'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953951'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953950'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953939'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953938'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953955'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953954'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953946'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953947'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953744'; /* linkmonstergen4minutes <- Electric Elemental Pool */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953874'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953872'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953883'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953876'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953877'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953870'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953873'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953875'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953958'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953959'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953871'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953957'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953940'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953941'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953948'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953949'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953943'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953960'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953942'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953944'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953956'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953945'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953750'; /* linkmonstergen4minutes <- Flaming Elemental Pool */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953752'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953751'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953753'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953755'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953798'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953749'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953799'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953796'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953797'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953795'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953788'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953792'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953789'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953794'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953793'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953831'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953830'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953833'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953832'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953829'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953828'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953821'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953820'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953819'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953818'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953882'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953881'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953895'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953886'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953888'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953889'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953896'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953887'; /* linkmonstergen4minutes <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1978953965'; /* linkitemgen25seconds <- An Interesting Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953906'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953921'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953928'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953911'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953912'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953916'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953929'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953919'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953866'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953867'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953843'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953844'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953857'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953858'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953868'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953869'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953863'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953864'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953848'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953849'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953812'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953813'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953865'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953850'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953855'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953856'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953845'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953814'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953815'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953809'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953810'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953808'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953811'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953768'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953769'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953770'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953764'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953765'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953738'; /* Linkable Monster Generator ( 4 Min.) <- Freezing Elemental Pool */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953776'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953773'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953774'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953775'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953777'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953736'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953740'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953739'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953741'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953737'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953778'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953766'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953924'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953922'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953923'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953915'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953914'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953913'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953920'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953904'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953907'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978953905'; /* Linkable Monster Generator ( 4 Min.) <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953729'; /* Linkable Monster Generator ( 4 Min.) <- Acidic Elemental Pool */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953759'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953761'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953760'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953757'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953756'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953762'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953758'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953763'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953731'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953730'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953735'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953734'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953728'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953732'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953771'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953772'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953800'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953767'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953805'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953801'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953803'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953806'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953802'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953804'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953834'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953807'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953838'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953835'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953837'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953839'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953840'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953836'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953842'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953841'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953847'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953846'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953861'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953859'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953862'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953851'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953860'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953853'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953852'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953903'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953854'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953917'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953902'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953925'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953918'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953908'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953926'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953910'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953909'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953935'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953933'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953934'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953932'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978953927'; /* Linkable Monster Generator ( 4 Min.) <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953743'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953745'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953746'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953748'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953785'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953790'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953786'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953791'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953781'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953787'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953780'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953779'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953783'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953782'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953817'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953784'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953826'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953816'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953824'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953827'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953822'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953825'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953897'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953823'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953890'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953898'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953899'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953884'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953901'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953892'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953900'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953885'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953880'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953891'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953893'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953894'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953879'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953878'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953962'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953961'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953964'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953963'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953953'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953952'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953951'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953950'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953939'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953938'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953955'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953954'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953946'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953947'; /* Linkable Monster Generator ( 4 Min.) <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978953744'; /* Linkable Monster Generator ( 4 Min.) <- Electric Elemental Pool */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953874'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953872'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953883'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953876'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953877'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953870'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953873'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953875'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953958'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953959'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953871'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953957'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953940'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953941'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953948'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953949'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953943'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953960'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953942'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953944'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953956'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953945'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953750'; /* Linkable Monster Generator ( 4 Min.) <- Flaming Elemental Pool */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953752'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953751'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953753'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953755'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953798'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953749'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953799'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953796'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953797'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953795'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953788'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953792'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953789'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953794'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953793'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953831'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953830'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953833'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953832'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953829'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953828'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953821'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953820'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953819'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953818'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953882'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953881'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953895'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953886'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953888'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953889'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953896'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1978953887'; /* Linkable Monster Generator ( 4 Min.) <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1978953965'; /* Linkable Item Gen - 25 seconds <- An Interesting Note */
 

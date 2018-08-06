@@ -30,36 +30,36 @@ VALUES (24942, 2036490253, 2519073027, 40.7015, 43.3763, 128.41, -0.996251, 0, 0
      , (24942, 2036490262, 2519072768, 1.82869, 99.0136, 180.01, -0.0835234, 0, 0, -0.996506) /* Gotrok Lithos */
      , (24942, 2036490261, 2519072768, 20.7492, 116.575, 180.01, 0.719927, 0, 0, -0.69405) /* Gotrok Lithos */
      , (24942, 2036490257, 2519072768, 21.9908, 32.1433, 144.01, 0.580652, 0, 0, -0.814152) /* Gotrok Lithos */
-     , (3953, 2036490254, 2519072768, 36.7782, 6.15299, 144.005, -0.999986, 0, 0, -0.00531708) /* linkmonstergen30minutes */
-     , (3955, 2036490252, 2519072768, 36.8896, 12.9941, 144.005, -0.98116, 0, 0, -0.193199) /* linkmonstergen15minutes */;
+     , (3953, 2036490254, 2519072768, 36.7782, 6.15299, 144.005, -0.999986, 0, 0, -0.00531708) /* Linkable Monster Gen (30 min.) */
+     , (3955, 2036490252, 2519072768, 36.8896, 12.9941, 144.005, -0.98116, 0, 0, -0.193199) /* Linkable Monster Gen (15 min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2036490254'; /* linkmonstergen30minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2036490252'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2036490254'; /* Linkable Monster Gen (30 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2036490252'; /* Linkable Monster Gen (15 min.) */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2036490244'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2036490267'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='2036490242'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='2036490269'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='2036490263'; /* Magic trap */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490257'; /* linkmonstergen30minutes <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490246'; /* linkmonstergen30minutes <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490249'; /* linkmonstergen30minutes <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490250'; /* linkmonstergen30minutes <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490253'; /* linkmonstergen30minutes <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490256'; /* linkmonstergen30minutes <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490251'; /* linkmonstergen30minutes <- Gotrok Obeloth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490260'; /* linkmonstergen30minutes <- Gotrok Obeloth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490265'; /* linkmonstergen30minutes <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490270'; /* linkmonstergen30minutes <- Mountain Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490272'; /* linkmonstergen30minutes <- Mountain Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490273'; /* linkmonstergen30minutes <- Mountain Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490248'; /* linkmonstergen15minutes <- Gotrok Obeloth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490262'; /* linkmonstergen15minutes <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490240'; /* linkmonstergen15minutes <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490261'; /* linkmonstergen15minutes <- Gotrok Lithos */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490275'; /* linkmonstergen15minutes <- Mountain Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490276'; /* linkmonstergen15minutes <- Mountain Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490277'; /* linkmonstergen15minutes <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490257'; /* Linkable Monster Gen (30 min.) <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490246'; /* Linkable Monster Gen (30 min.) <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490249'; /* Linkable Monster Gen (30 min.) <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490250'; /* Linkable Monster Gen (30 min.) <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490253'; /* Linkable Monster Gen (30 min.) <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490256'; /* Linkable Monster Gen (30 min.) <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490251'; /* Linkable Monster Gen (30 min.) <- Gotrok Obeloth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490260'; /* Linkable Monster Gen (30 min.) <- Gotrok Obeloth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490265'; /* Linkable Monster Gen (30 min.) <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490270'; /* Linkable Monster Gen (30 min.) <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490272'; /* Linkable Monster Gen (30 min.) <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036490273'; /* Linkable Monster Gen (30 min.) <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490248'; /* Linkable Monster Gen (15 min.) <- Gotrok Obeloth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490262'; /* Linkable Monster Gen (15 min.) <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490240'; /* Linkable Monster Gen (15 min.) <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490261'; /* Linkable Monster Gen (15 min.) <- Gotrok Lithos */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490275'; /* Linkable Monster Gen (15 min.) <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490276'; /* Linkable Monster Gen (15 min.) <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036490277'; /* Linkable Monster Gen (15 min.) <- Gotrok Lithos */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2036490243'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2036490266'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2036490241'; /* Magic trap <- Pressure Plate */

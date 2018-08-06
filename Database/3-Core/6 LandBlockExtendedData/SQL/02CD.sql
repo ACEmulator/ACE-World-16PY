@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (204, 1881985024, 46989568, 33.1573, -39.9882, -23.9925, 0.723111, 0, 0, -0.690731) /* Lich */
      , (619, 1881985025, 46989568, 29.455, -39.1403, -23.9918, 0.669322, 0, 0, -0.742972) /* Revenant */
-     , (4027, 1881985026, 46989568, 27.8165, -42.7977, -23.995, -0.020869, 0, 0, -0.999782) /* itemmedminergen */
+     , (4027, 1881985026, 46989568, 27.8165, -42.7977, -23.995, -0.020869, 0, 0, -0.999782) /* Valuable Miner Generator */
      , (950, 1881985027, 46989572, 27.4779, -60.2321, -23.9925, 0.714421, 0, 0, 0.699716) /* Zombie */
      , (204, 1881985028, 46989605, 60, -50, -23.9925, 1, 0, 0, 0) /* Lich */
      , (204, 1881985029, 46989619, 59.5334, -78.6031, -23.9925, 0.858787, 0, 0, 0.512332) /* Lich */
@@ -17,8 +17,8 @@ VALUES (204, 1881985024, 46989568, 33.1573, -39.9882, -23.9925, 0.723111, 0, 0, 
      , (1987, 1881985039, 46989821, 65.5868, -49.9522, -5.97718, 0.731689, 0, 0, -0.681638) /* Ghost Wisp */
      , (8198, 1881985040, 46989832, 19.9039, -17.6644, 0, -4.37114E-08, 0, 0, -1) /* The Floating City */
      , (568, 1881985041, 46989857, 50, -14.75, 0, -4.37114E-08, 0, 0, -1) /* Door */
-     , (4378, 1881985042, 46989861, 0, -20, 6.005, 1, 0, 0, 0) /* portalrandomgen */
-     , (4219, 1881985043, 46989874, 10, -30, 6.005, 0.999687, 0, 0, 0.0249976) /* linkmonstergen7minutes */
+     , (4378, 1881985042, 46989861, 0, -20, 6.005, 1, 0, 0, 0) /* Random Portal Generator */
+     , (4219, 1881985043, 46989874, 10, -30, 6.005, 0.999687, 0, 0, 0.0249976) /* Linkable Monster Generator ( 7 Min.) */
      , (278, 1881985044, 46989910, 40, -5.25, 6, 1, 0, 0, 0) /* Door */
      , (16, 1881985045, 46989916, 41.2621, -38.3966, 6.0075, 0.423777, 0, 0, 0.905767) /* Undead */
      , (16, 1881985046, 46989917, 39.5054, -51.799, 6.0075, 0.999531, 0, 0, 0.030615) /* Undead */
@@ -28,24 +28,24 @@ VALUES (204, 1881985024, 46989568, 33.1573, -39.9882, -23.9925, 0.723111, 0, 0, 
      , (950, 1881985050, 46989940, 99.9972, -48.6128, 6.0075, -0.931999, 0, 0, 0.362461) /* Zombie */
      , (8192, 1881985051, 46989952, 23, -20, 12, 0.707107, 0, 0, -0.707107) /* The Floating City */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881985043'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881985043'; /* Linkable Monster Generator ( 7 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985039'; /* linkmonstergen7minutes <- Ghost Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985038'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985036'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985033'; /* linkmonstergen7minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985029'; /* linkmonstergen7minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985030'; /* linkmonstergen7minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985028'; /* linkmonstergen7minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985024'; /* linkmonstergen7minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985032'; /* linkmonstergen7minutes <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985031'; /* linkmonstergen7minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985027'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985047'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985049'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985050'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985045'; /* linkmonstergen7minutes <- Undead */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985046'; /* linkmonstergen7minutes <- Undead */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985025'; /* linkmonstergen7minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985034'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985039'; /* Linkable Monster Generator ( 7 Min.) <- Ghost Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985038'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985036'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985033'; /* Linkable Monster Generator ( 7 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985029'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985030'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985028'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985024'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985032'; /* Linkable Monster Generator ( 7 Min.) <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985031'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985027'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985047'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985049'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985050'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985045'; /* Linkable Monster Generator ( 7 Min.) <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985046'; /* Linkable Monster Generator ( 7 Min.) <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985025'; /* Linkable Monster Generator ( 7 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881985034'; /* Linkable Monster Generator ( 7 Min.) <- Sandstone Golem */
 

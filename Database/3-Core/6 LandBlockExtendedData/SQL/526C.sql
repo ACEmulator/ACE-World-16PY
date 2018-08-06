@@ -93,7 +93,7 @@ VALUES (14563, 1965473792, 1382809856, 80, -130, -29.9925, 1, 0, 0, 0) /* Quiddi
      , (14562, 1965473883, 1382810585, 200, -60, -9.39035, 1, 0, 0, 0) /* Quiddity Rift */
      , (14584, 1965473905, 1382810608, 110, -110, -6, 0.005245, 0, 0, -0.999986) /* Return to Dereth */
      , (14584, 1965473884, 1382810623, 73.821, -120.091, 0, -0.74197, 0, 0, -0.670433) /* Return to Dereth */
-     , (7923, 1965473885, 1382810626, 88.9089, -98.8171, -2.995, 0.782502, 0, 0, 0.622648) /* linkmonstergen3minutes */
+     , (7923, 1965473885, 1382810626, 88.9089, -98.8171, -2.995, 0.782502, 0, 0, 0.622648) /* Linkable Monster Generator ( 3 Min.) */
      , (14584, 1965473886, 1382810628, 99.905, -73.991, 0, 1, 0, 0, -4.37114E-08) /* Return to Dereth */
      , (14600, 1965473887, 1382810630, 95.2583, -99.7719, 0.005, 0.707107, 0, 0, -0.707107) /* Swirling Portal */
      , (14565, 1965473888, 1382810630, 96.0953, -96.5603, 0.005, 0.724362, 0, 0, 0.68942) /* Lever */
@@ -113,7 +113,7 @@ UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1965473815'; /* Swirling Portal */
 UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1965473825'; /* Swirling Portal */
 UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1965473808'; /* Swirling Portal */
-UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1965473885'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1965473885'; /* Linkable Monster Generator ( 3 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1965473798'; /* Swirling Portal */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965473888'; /* Swirling Portal <- Lever */
@@ -123,61 +123,61 @@ UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1965473893'; /* S
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1965473797'; /* Swirling Portal <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1965473818'; /* Swirling Portal <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1965473826'; /* Swirling Portal <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473873'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473870'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473845'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473844'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473809'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473804'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473792'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473864'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473831'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473872'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473877'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473879'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473880'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473854'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473849'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473812'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473813'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473795'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473850'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473882'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473876'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473878'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473874'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473846'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473847'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473814'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473819'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473794'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473860'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473883'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473871'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473866'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473868'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473837'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473842'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473811'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473810'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473793'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473841'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473865'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473830'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473828'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473832'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473838'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473852'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473848'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473857'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473855'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473863'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473861'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473859'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473853'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473843'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473839'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473834'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473836'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473873'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473870'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473845'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473844'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473809'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473804'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473792'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473864'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473831'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473872'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473877'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473879'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473880'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473854'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473849'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473812'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473813'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473795'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473850'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473882'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473876'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473878'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473874'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473846'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473847'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473814'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473819'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473794'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473860'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473883'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473871'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473866'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473868'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473837'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473842'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473811'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473810'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473793'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473841'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473865'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473830'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473828'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473832'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473838'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473852'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473848'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473857'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473855'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473863'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473861'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473859'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473853'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473843'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473839'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473834'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965473836'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
 UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1965473805'; /* Swirling Portal <- Lever */
 

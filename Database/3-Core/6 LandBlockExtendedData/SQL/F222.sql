@@ -19,14 +19,14 @@ VALUES (720, 2132942848, 4062314752, 129, 132.025, 18, -1, 0, 0, 0) /* Sliding D
      , (509, 2132942879, 4062314496, 134.291, 94.0989, 18.005, -0.144952, 0, 0, 0.989439) /* Life Stone */
      , (25721, 2132942878, 4062314496, 166.064, 53.2127, 18.005, -0.00237151, 0, 0, 0.999997) /* Gentleman Jake Hawkins */
      , (19202, 2132942874, 4062314496, 158.326, 138.345, 24.8085, -0.709493, 0, 0, -0.704713) /* Nullified Statue of a Sclavus */
-     , (19457, 2132942869, 4062314496, 158.798, 138.165, 25, -0.72023, 0, 0, -0.693735) /* fireworksgen */
+     , (19457, 2132942869, 4062314496, 158.798, 138.165, 25, -0.72023, 0, 0, -0.693735) /* Fireworks Generator */
      , (8490, 2132942860, 4062314496, 143.743, 175.368, 18.005, -0.999999, 0, 0, 0.00164489) /* MacNiall the Unruled */
-     , (3955, 2132942861, 4062314496, 142.634, 175.015, 18.005, -0.991134, 0, 0, -0.132863) /* linkmonstergen15minutes */;
+     , (3955, 2132942861, 4062314496, 142.634, 175.015, 18.005, -0.991134, 0, 0, -0.132863) /* Linkable Monster Gen (15 min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2132942861'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2132942861'; /* Linkable Monster Gen (15 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132942860'; /* linkmonstergen15minutes <- MacNiall the Unruled */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132942877'; /* linkmonstergen15minutes <- Open Journal */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132942880'; /* linkmonstergen15minutes <- Journeyman Fletcher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132942878'; /* linkmonstergen15minutes <- Gentleman Jake Hawkins */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132942860'; /* Linkable Monster Gen (15 min.) <- MacNiall the Unruled */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132942877'; /* Linkable Monster Gen (15 min.) <- Open Journal */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132942880'; /* Linkable Monster Gen (15 min.) <- Journeyman Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132942878'; /* Linkable Monster Gen (15 min.) <- Gentleman Jake Hawkins */
 

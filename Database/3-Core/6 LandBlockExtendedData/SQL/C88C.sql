@@ -58,23 +58,23 @@ VALUES (663, 2089336869, 3364618501, 108.131, 42.7898, 22.01, -0.120462, 0, 0, -
      , (412, 2089336908, 3364618240, 80.755, 84.105, 24.995, -4.37114E-08, 0, 0, -1) /* Door */
      , (412, 2089336909, 3364618240, 81.7875, 87.81, 25, 0.707107, 0, 0, -0.707107) /* Door */
      , (30928, 2089336933, 3364618240, 45.5459, 177.025, 22.005, -0.517709, 0, 0, 0.855557) /* Empty Book Binding */
-     , (15759, 2089336932, 3364618240, 45.1169, 175.657, 22.005, -0.452147, 0, 0, 0.891944) /* linkitemgen10seconds */
+     , (15759, 2089336932, 3364618240, 45.1169, 175.657, 22.005, -0.452147, 0, 0, 0.891944) /* Linkable Item Generator */
      , (30388, 2089336931, 3364618240, 46.2278, 172.325, 22.005, -0.845002, 0, 0, -0.534764) /* Carlo di Cenza */
-     , (5086, 2089336930, 3364618240, 44.8991, 169.519, 22.005, -0.845002, 0, 0, -0.534764) /* linkmonstergen30seconds */
+     , (5086, 2089336930, 3364618240, 44.8991, 169.519, 22.005, -0.845002, 0, 0, -0.534764) /* Linkable Monster Gen - 30 sec. */
      , (27689, 2089336929, 3364618240, 46.3117, 102.95, 22.005, -0.00907595, 0, 0, -0.999959) /* Royal Guard Gabrielle */
      , (23348, 2089336924, 3364618240, 61.6511, 66.5649, 22.005, 0.963028, 0, 0, -0.2694) /* Astara Duskshield */
-     , (385, 2089336872, 3364618240, 15, 126.92, 22.01, 1, 0, 0, 0) /* cow-generator */
-     , (7923, 2089336925, 3364618240, 61.2716, 67.9428, 22.005, -0.0310882, 0, 0, -0.999517) /* linkmonstergen3minutes */
+     , (385, 2089336872, 3364618240, 15, 126.92, 22.01, 1, 0, 0, 0) /* Cow Generator */
+     , (7923, 2089336925, 3364618240, 61.2716, 67.9428, 22.005, -0.0310882, 0, 0, -0.999517) /* Linkable Monster Generator ( 3 Min.) */
      , (20919, 2089336917, 3364618240, 51.7343, 136.131, 22.005, 0.999113, 0, 0, -0.0421022) /* Martine's Retreat */
-     , (4769, 2089336875, 3364618240, 41.6248, 122.579, 22.005, 0.340763, 0, 0, 0.940149) /* collectoraluviangen */
+     , (4769, 2089336875, 3364618240, 41.6248, 122.579, 22.005, 0.340763, 0, 0, 0.940149) /* Collector Aluvian Gen */
      , (645, 2089336876, 3364618240, 75.06, 134.482, 22.01, 0.677918, 0, 0, -0.735137) /* The Gilded Tome  */
      , (646, 2089336877, 3364618240, 22.2643, 157.444, 22.01, 0.692773, 0, 0, 0.721156) /* The Royal Firkin */
      , (647, 2089336878, 3364618240, 48.6178, 58.4506, 22.01, 0.721156, 0, 0, -0.692773) /* Lady of Blades */
      , (633, 2089336879, 3364618240, 35.015, 82.8592, 22.01, -0.391534, 0, 0, -0.920164) /* Tailor  */
      , (19200, 2089336910, 3364618240, 53.424, 104.679, 28.8193, -0.70446, 0, 0, -0.709743) /* Nullified Statue of a Mosswart */
-     , (19457, 2089336900, 3364618240, 52.7367, 104.789, 29, 0.724262, 0, 0, -0.689525) /* fireworksgen */
+     , (19457, 2089336900, 3364618240, 52.7367, 104.789, 29, 0.724262, 0, 0, -0.689525) /* Fireworks Generator */
      , (644, 2089336882, 3364618240, 127.837, 191.683, 28.9329, -4.37114E-08, 0, 0, -1) /* Smithy */
-     , (7923, 2089336893, 3364618240, 57.3013, 115.347, 22.005, -0.505828, 0, 0, -0.862634) /* linkmonstergen3minutes */
+     , (7923, 2089336893, 3364618240, 57.3013, 115.347, 22.005, -0.505828, 0, 0, -0.862634) /* Linkable Monster Generator ( 3 Min.) */
      , (5589, 2089336884, 3364618240, 74.6018, 108.721, 22.005, -0.668858, 0, 0, 0.74339) /* Fletcher */
      , (5617, 2089336885, 3364618240, 83.117, 179.554, 22.005, -0.413155, 0, 0, 0.910661) /* Healer */
      , (5618, 2089336886, 3364618240, 97.5022, 42.8498, 27.6091, 0.689174, 0, 0, -0.724596) /* Grocer */
@@ -83,15 +83,15 @@ VALUES (663, 2089336869, 3364618501, 108.131, 42.7898, 22.01, -0.120462, 0, 0, -
      , (6441, 2089336889, 3364618240, 52.08, 139.56, 22, 1, 0, 0, 0) /* Well */
      , (23340, 2089336927, 3364618240, 166.345, 161.433, 22.005, 0.72134, 0, 0, -0.692581) /* Fishing Sign */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2089336925'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2089336930'; /* linkmonstergen30seconds */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2089336932'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2089336925'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2089336930'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2089336932'; /* Linkable Item Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336924'; /* linkmonstergen3minutes <- Astara Duskshield */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336926'; /* linkmonstergen3minutes <- Tackle Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336883'; /* linkmonstergen3minutes <- Celcynd the Dour */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336928'; /* linkmonstergen3minutes <- Apprentice Fletcher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336929'; /* linkmonstergen3minutes <- Royal Guard Gabrielle */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2089336931'; /* linkmonstergen30seconds <- Carlo di Cenza */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2089336933'; /* linkitemgen10seconds <- Empty Book Binding */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336924'; /* Linkable Monster Generator ( 3 Min.) <- Astara Duskshield */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336926'; /* Linkable Monster Generator ( 3 Min.) <- Tackle Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336883'; /* Linkable Monster Generator ( 3 Min.) <- Celcynd the Dour */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336928'; /* Linkable Monster Generator ( 3 Min.) <- Apprentice Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336929'; /* Linkable Monster Generator ( 3 Min.) <- Royal Guard Gabrielle */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2089336931'; /* Linkable Monster Gen - 30 sec. <- Carlo di Cenza */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2089336933'; /* Linkable Item Generator <- Empty Book Binding */
 

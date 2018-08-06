@@ -4,21 +4,21 @@ VALUES (3629, 1880764416, 27459840, 30, -40, -108, 0.707107, 0, 0, -0.707107) /*
      , (24310, 1880764417, 27459867, 47.6296, -50.8969, -107.988, 0.707107, 0, 0, -0.707107) /* Direland Rat */
      , (24310, 1880764418, 27459867, 49.7804, -51.7289, -107.946, -0.707107, 0, 0, -0.707107) /* Direland Rat */
      , (24310, 1880764419, 27459869, 50.975, -47.752, -107.946, -0.707107, 0, 0, -0.707107) /* Direland Rat */
-     , (912, 1880764420, 27459884, 2.227, -1.344, -102, 0.382683, 0, 0, -0.92388) /* revenantgenerator */
+     , (912, 1880764420, 27459884, 2.227, -1.344, -102, 0.382683, 0, 0, -0.92388) /* Revenant Generator */
      , (24325, 1880764421, 27459884, 0.268052, -1.61891, -101.992, 0.382683, 0, 0, -0.92388) /* Phantasm */
      , (24325, 1880764422, 27459884, 2.48539, 0.793984, -101.992, 0.382683, 0, 0, -0.92388) /* Phantasm */
      , (3960, 1880764423, 27459884, 3.06391, 1.70543, -102, -0.92388, 0, 0, -0.382683) /* Chest */
      , (1925, 1880764424, 27459884, -0.865538, -2.0805, -102, -0.92388, 0, 0, -0.382683) /* Chest */
      , (30399, 1880764573, 27459886, 1.80749, -18.1094, -101.995, 0.866091, 0, 0, -0.499886) /* Suzuhara Baijin's Care Package */
-     , (15759, 1880764574, 27459886, 2.00304, -19.297, -101.995, 0.996668, 0, 0, 0.0815697) /* linkitemgen10seconds */
+     , (15759, 1880764574, 27459886, 2.00304, -19.297, -101.995, 0.996668, 0, 0, 0.0815697) /* Linkable Item Generator */
      , (24315, 1880764425, 27459888, 7.067, -8.603, -101.997, -0.92388, 0, 0, -0.382683) /* Skeletal Hero */
      , (24315, 1880764426, 27459888, 7.83237, -6.48931, -101.997, -0.92388, 0, 0, -0.382683) /* Skeletal Hero */
-     , (911, 1880764427, 27459888, 12.642, -13.5133, -102, 1, 0, 0, 0) /* lichgenerator */
+     , (911, 1880764427, 27459888, 12.642, -13.5133, -102, 1, 0, 0, 0) /* Lich Generator */
      , (165, 1880764428, 27459888, 10, -10, -101.95, 1, 0, 0, 0) /* Pool */
      , (24313, 1880764429, 27459889, 13.4681, -17.5689, -101.997, -4.37114E-08, 0, 0, -1) /* Armored Skeleton */
      , (24313, 1880764430, 27459891, 18.6036, -13.1083, -101.997, -4.37114E-08, 0, 0, -1) /* Armored Skeleton */
-     , (911, 1880764431, 27459891, 16.027, -12.5572, -102, -0.839857, 0, 0, -0.542808) /* lichgenerator */
-     , (1154, 1880764432, 27459891, 19.8738, -10.8065, -102, -4.37114E-08, 0, 0, -1) /* linkmonstergen */
+     , (911, 1880764431, 27459891, 16.027, -12.5572, -102, -0.839857, 0, 0, -0.542808) /* Lich Generator */
+     , (1154, 1880764432, 27459891, 19.8738, -10.8065, -102, -4.37114E-08, 0, 0, -1) /* Linkable Monster Generator */
      , (24313, 1880764433, 27459896, 29.1408, -30.3184, -101.997, 0.006763, 0, 0, -0.999977) /* Armored Skeleton */
      , (24313, 1880764434, 27459896, 31.8918, -30.3117, -101.997, 0.456128, 0, 0, -0.889914) /* Armored Skeleton */
      , (24313, 1880764435, 27459896, 30.5713, -28.1149, -101.997, 0.456128, 0, 0, -0.889914) /* Armored Skeleton */
@@ -35,7 +35,7 @@ VALUES (3629, 1880764416, 27459840, 30, -40, -108, 0.707107, 0, 0, -0.707107) /*
      , (24291, 1880764446, 27459958, 78.0629, -39.6719, -95.996, 0.479745, 0, 0, -0.877408) /* Merciless Monouga */
      , (24310, 1880764447, 27459965, 50, -50, -89.988, 1, 0, 0, 0) /* Direland Rat */
      , (24310, 1880764448, 27459965, 51.4937, -51.5841, -89.988, -0.834487, 0, 0, -0.551027) /* Direland Rat */
-     , (1154, 1880764449, 27459965, 47.7777, -53.0972, -90, 0.942641, 0, 0, -0.333807) /* linkmonstergen */
+     , (1154, 1880764449, 27459965, 47.7777, -53.0972, -90, 0.942641, 0, 0, -0.333807) /* Linkable Monster Generator */
      , (1922, 1880764450, 27459972, 39.2968, -16.8493, -84, 0.707107, 0, 0, -0.707107) /* Chest */
      , (24313, 1880764451, 27459972, 40.9598, -17.5719, -83.9975, 0.707107, 0, 0, -0.707107) /* Armored Skeleton */
      , (24313, 1880764452, 27459972, 40.3484, -21.7167, -83.9975, 0.707107, 0, 0, -0.707107) /* Armored Skeleton */
@@ -52,12 +52,12 @@ VALUES (3629, 1880764416, 27459840, 30, -40, -108, 0.707107, 0, 0, -0.707107) /*
      , (24291, 1880764463, 27459986, 49.7088, -32.0832, -83.996, 1, 0, 0, 0) /* Merciless Monouga */
      , (24291, 1880764464, 27459986, 46.5494, -26.4789, -83.996, 0.640696, 0, 0, -0.767795) /* Merciless Monouga */
      , (24291, 1880764465, 27459986, 49.6205, -26.9327, -83.996, -0.698572, 0, 0, -0.71554) /* Merciless Monouga */
-     , (1154, 1880764466, 27459986, 50, -30, -84, 1, 0, 0, 0) /* linkmonstergen */
+     , (1154, 1880764466, 27459986, 50, -30, -84, 1, 0, 0, 0) /* Linkable Monster Generator */
      , (24291, 1880764467, 27460012, 66.6701, -37.8161, -77.996, 0.707107, 0, 0, -0.707107) /* Merciless Monouga */
      , (24291, 1880764468, 27460012, 68.5385, -39.2437, -77.996, -0.923587, 0, 0, -0.383389) /* Merciless Monouga */
      , (24292, 1880764469, 27460016, 81.0168, -28.8367, -77.996, -0.231323, 0, 0, -0.972877) /* Pugnacious Monouga */
      , (24292, 1880764470, 27460016, 81.714, -30.5657, -77.996, -0.231323, 0, 0, -0.972877) /* Pugnacious Monouga */
-     , (420, 1880764471, 27460016, 82.8354, -27.2006, -78, -4.37114E-08, 0, 0, -1) /* itemfood-generator */
+     , (420, 1880764471, 27460016, 82.8354, -27.2006, -78, -4.37114E-08, 0, 0, -1) /* Item Food Generator */
      , (24291, 1880764472, 27460019, 79.3402, -37.9976, -77.996, -0.707107, 0, 0, -0.707107) /* Merciless Monouga */
      , (24291, 1880764473, 27460019, 77.91, -38.9777, -77.996, 0.998489, 0, 0, -0.05495) /* Merciless Monouga */
      , (24291, 1880764474, 27460019, 80.7417, -39.1586, -77.996, 0.878296, 0, 0, -0.478117) /* Merciless Monouga */
@@ -80,15 +80,15 @@ VALUES (3629, 1880764416, 27459840, 30, -40, -108, 0.707107, 0, 0, -0.707107) /*
      , (1297, 1880764491, 27460080, 75.25, -20, -60, -0.707107, 0, 0, -0.707107) /* Door */
      , (24310, 1880764492, 27460081, 80.3417, -28.8999, -59.988, -0.707107, 0, 0, -0.707107) /* Direland Rat */
      , (24310, 1880764493, 27460081, 81.6435, -30.9472, -59.988, -0.707107, 0, 0, -0.707107) /* Direland Rat */
-     , (1154, 1880764494, 27460081, 82.5394, -29.6157, -60, -0.707107, 0, 0, -0.707107) /* linkmonstergen */
+     , (1154, 1880764494, 27460081, 82.5394, -29.6157, -60, -0.707107, 0, 0, -0.707107) /* Linkable Monster Generator */
      , (1301, 1880764495, 27460084, 75.25, -30, -60, -0.707107, 0, 0, -0.707107) /* Door */
      , (24310, 1880764496, 27460085, 78.5274, -41.3253, -59.988, 1, 0, 0, 0) /* Direland Rat */
      , (24310, 1880764497, 27460085, 81.6658, -40.4803, -59.988, 1, 0, 0, 0) /* Direland Rat */
      , (24310, 1880764498, 27460085, 78.3581, -38.0218, -59.988, 1, 0, 0, 0) /* Direland Rat */
      , (24310, 1880764499, 27460085, 80, -40, -59.988, 1, 0, 0, 0) /* Direland Rat */
-     , (1460, 1880764500, 27460085, 77.4064, -42.8621, -60, 1, 0, 0, 0) /* itemfoodhealgen */
-     , (1460, 1880764501, 27460085, 78.4956, -43.5148, -60, 1, 0, 0, 0) /* itemfoodhealgen */
-     , (1460, 1880764502, 27460085, 77.1192, -41.1125, -60, 1, 0, 0, 0) /* itemfoodhealgen */
+     , (1460, 1880764500, 27460085, 77.4064, -42.8621, -60, 1, 0, 0, 0) /* Food Heal Gen */
+     , (1460, 1880764501, 27460085, 78.4956, -43.5148, -60, 1, 0, 0, 0) /* Food Heal Gen */
+     , (1460, 1880764502, 27460085, 77.1192, -41.1125, -60, 1, 0, 0, 0) /* Food Heal Gen */
      , (1938, 1880764503, 27460085, 83.5596, -39.2548, -60, 0.707107, 0, 0, -0.707107) /* Chest */
      , (1912, 1880764504, 27460085, 83.6707, -40.5261, -60, 0.707107, 0, 0, -0.707107) /* Chest */
      , (24291, 1880764505, 27460109, 89.0237, -28.8611, -47.996, 1, 0, 0, 0) /* Merciless Monouga */
@@ -115,7 +115,7 @@ VALUES (3629, 1880764416, 27459840, 30, -40, -108, 0.707107, 0, 0, -0.707107) /*
      , (24291, 1880764526, 27460157, 63.1486, -38.5334, -41.996, 0.456127, 0, 0, -0.889915) /* Merciless Monouga */
      , (278, 1880764527, 27460162, 74.75, -20, -42, -0.707107, 0, 0, 0.707107) /* Door */
      , (278, 1880764528, 27460164, 70, -24.75, -42, -4.37114E-08, 0, 0, -1) /* Door */
-     , (1154, 1880764529, 27460165, 70, -30, -42, 0.707107, 0, 0, -0.707107) /* linkmonstergen */
+     , (1154, 1880764529, 27460165, 70, -30, -42, 0.707107, 0, 0, -0.707107) /* Linkable Monster Generator */
      , (24287, 1880764530, 27460170, 79.5078, -38.7385, -41.996, -4.37114E-08, 0, 0, -1) /* Bloodthirsty Monouga */
      , (24287, 1880764531, 27460170, 82.6473, -39.2695, -41.996, -0.895178, 0, 0, -0.445709) /* Bloodthirsty Monouga */
      , (24287, 1880764532, 27460170, 77.2001, -43.1857, -41.996, -0.996252, 0, 0, -0.0865029) /* Bloodthirsty Monouga */
@@ -127,7 +127,7 @@ VALUES (3629, 1880764416, 27459840, 30, -40, -108, 0.707107, 0, 0, -0.707107) /*
      , (24292, 1880764538, 27460239, 81.4252, -10.2016, -17.996, -0.854062, 0, 0, -0.520171) /* Pugnacious Monouga */
      , (24292, 1880764539, 27460239, 79.9287, -11.6821, -17.996, 0.986123, 0, 0, -0.166016) /* Pugnacious Monouga */
      , (24292, 1880764540, 27460249, 10, -70, -11.996, 0.747146, 0, 0, -0.66466) /* Pugnacious Monouga */
-     , (1154, 1880764541, 27460255, 20, -70, -12, 1, 0, 0, 0) /* linkmonstergen */
+     , (1154, 1880764541, 27460255, 20, -70, -12, 1, 0, 0, 0) /* Linkable Monster Generator */
      , (24287, 1880764542, 27460260, 31.8608, -57.4318, -11.996, -4.37114E-08, 0, 0, -1) /* Bloodthirsty Monouga */
      , (24292, 1880764543, 27460264, 30.323, -71.0146, -11.996, 1, 0, 0, 0) /* Pugnacious Monouga */
      , (24292, 1880764544, 27460264, 28.8401, -69.1622, -11.996, 0.6226, 0, 0, -0.78254) /* Pugnacious Monouga */
@@ -147,7 +147,7 @@ VALUES (3629, 1880764416, 27459840, 30, -40, -108, 0.707107, 0, 0, -0.707107) /*
      , (24287, 1880764558, 27460297, 67.2836, -20.2599, -11.996, 0.707107, 0, 0, -0.707107) /* Bloodthirsty Monouga */
      , (24287, 1880764559, 27460306, 80, -20, -11.996, -4.37114E-08, 0, 0, -1) /* Bloodthirsty Monouga */
      , (24287, 1880764560, 27460311, 79.7261, -26.8882, -11.996, 1, 0, 0, 0) /* Bloodthirsty Monouga */
-     , (1154, 1880764561, 27460311, 80, -30, -12, 1, 0, 0, 0) /* linkmonstergen */
+     , (1154, 1880764561, 27460311, 80, -30, -12, 1, 0, 0, 0) /* Linkable Monster Generator */
      , (3629, 1880764562, 27460333, 30, -30, 0, 0.707107, 0, 0, -0.707107) /* Surface */
      , (24287, 1880764563, 27460346, 38.8191, -70.4144, 0.004, 1, 0, 0, 0) /* Bloodthirsty Monouga */
      , (24287, 1880764564, 27460346, 41.4179, -69.558, 0.004, 1, 0, 0, 0) /* Bloodthirsty Monouga */
@@ -159,129 +159,129 @@ VALUES (3629, 1880764416, 27459840, 30, -40, -108, 0.707107, 0, 0, -0.707107) /*
      , (24287, 1880764570, 27460381, 100, -30, 0.004, -0.707107, 0, 0, -0.707107) /* Bloodthirsty Monouga */
      , (24287, 1880764571, 27460381, 97.2748, -28.0866, 0.004, -0.707107, 0, 0, -0.707107) /* Bloodthirsty Monouga */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880764561'; /* linkmonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880764541'; /* linkmonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880764529'; /* linkmonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880764494'; /* linkmonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880764466'; /* linkmonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880764449'; /* linkmonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880764432'; /* linkmonstergen */
-UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880764574'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880764561'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880764541'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880764529'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880764494'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880764466'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880764449'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880764432'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880764574'; /* Linkable Item Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764563'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764564'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764565'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764566'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764569'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764567'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764568'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764570'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764571'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764557'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764558'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764559'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764560'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764549'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764550'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764551'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764552'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764553'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764554'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764556'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764545'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764546'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764542'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764543'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764544'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764540'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764536'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764537'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764538'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764539'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764534'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764535'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764533'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764530'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764531'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764532'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764520'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764521'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764522'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764523'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764524'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764525'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764526'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764514'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764511'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764512'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764513'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764508'; /* linkmonstergen <- Skeletal Hero */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764509'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764515'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764516'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764505'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764486'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764487'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764488'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764489'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764490'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764482'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764483'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764484'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764485'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764481'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764492'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764493'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764496'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764497'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764498'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764499'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764479'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764480'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764478'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764476'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764475'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764477'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764472'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764473'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764474'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764467'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764468'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764469'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764470'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764451'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764452'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764453'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764454'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764456'; /* linkmonstergen <- Skeletal Hero */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764457'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764458'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764459'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764462'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764463'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764464'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764465'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764442'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764443'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764444'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764445'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764446'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764447'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764448'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764417'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764419'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764418'; /* linkmonstergen <- Direland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764438'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764439'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764433'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764434'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764435'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764436'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764429'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764430'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764421'; /* linkmonstergen <- Phantasm */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764422'; /* linkmonstergen <- Phantasm */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764425'; /* linkmonstergen <- Skeletal Hero */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764426'; /* linkmonstergen <- Skeletal Hero */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880764573'; /* linkitemgen10seconds <- Suzuhara Baijin's Care Package */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764563'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764564'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764565'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764566'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764569'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764567'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764568'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764570'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764571'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764557'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764558'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764559'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764560'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764549'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764550'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764551'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764552'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764553'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764554'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764556'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764545'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764546'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764542'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764543'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764544'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764540'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764536'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764537'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764538'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764539'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764534'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764535'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764533'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764530'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764531'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764532'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764520'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764521'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764522'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764523'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764524'; /* Linkable Monster Generator <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764525'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764526'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764514'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764511'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764512'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764513'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764508'; /* Linkable Monster Generator <- Skeletal Hero */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764509'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764515'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764516'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764505'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764486'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764487'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764488'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764489'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764490'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764482'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764483'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764484'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764485'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764481'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764492'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764493'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764496'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764497'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764498'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764499'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764479'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764480'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764478'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764476'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764475'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764477'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764472'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764473'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764474'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764467'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764468'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764469'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764470'; /* Linkable Monster Generator <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764451'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764452'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764453'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764454'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764456'; /* Linkable Monster Generator <- Skeletal Hero */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764457'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764458'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764459'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764462'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764463'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764464'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764465'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764442'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764443'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764444'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764445'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764446'; /* Linkable Monster Generator <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764447'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764448'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764417'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764419'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764418'; /* Linkable Monster Generator <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764438'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764439'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764433'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764434'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764435'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764436'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764429'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764430'; /* Linkable Monster Generator <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764421'; /* Linkable Monster Generator <- Phantasm */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764422'; /* Linkable Monster Generator <- Phantasm */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764425'; /* Linkable Monster Generator <- Skeletal Hero */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764426'; /* Linkable Monster Generator <- Skeletal Hero */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880764573'; /* Linkable Item Generator <- Suzuhara Baijin's Care Package */
 

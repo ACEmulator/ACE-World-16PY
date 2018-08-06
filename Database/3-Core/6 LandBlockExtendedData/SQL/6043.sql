@@ -185,156 +185,156 @@ VALUES (22517, 1979985920, 1615003916, 100.013, -99.8366, -41.9835, 0.706215, 0,
      , (22053, 1979986103, 1615004866, 71.5109, -93.3445, 0.0165, -0.663038, 0, 0, -0.748586) /* Assailer */
      , (22053, 1979986104, 1615004867, 74.4992, -97.3722, 0.055, -0.663038, 0, 0, -0.748586) /* Assailer */
      , (22513, 1979986105, 1615004873, 80, -60, 0.005, 1, 0, 0, 0) /* Tusker Sycophant */
-     , (4219, 1979986106, 1615004912, 40, -50, 6.005, 1, 0, 0, 0) /* linkmonstergen7minutes */;
+     , (4219, 1979986106, 1615004912, 40, -50, 6.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 7 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1979986106'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1979986106'; /* Linkable Monster Generator ( 7 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986092'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986091'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986094'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986089'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986090'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986099'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986098'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986093'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986096'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986100'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986101'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986087'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986088'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986095'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985987'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986105'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986085'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986023'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986097'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985996'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986086'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986031'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986083'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986017'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986084'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986014'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986102'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986025'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986103'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985993'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986104'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986008'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986080'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985972'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986082'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985982'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986081'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985974'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986079'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985973'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985976'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985975'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985983'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985977'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985920'; /* linkmonstergen7minutes <- Annihilator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986000'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985921'; /* linkmonstergen7minutes <- Annihilator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985984'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986048'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986011'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986049'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986001'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986058'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986026'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986057'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986012'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986042'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986019'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986047'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986032'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986043'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986004'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986044'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986020'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986045'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985997'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986046'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986005'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986051'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986029'; /* linkmonstergen7minutes <- Annihilator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986052'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985988'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986053'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986028'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986054'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986030'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986060'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985957'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986055'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985965'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986050'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985966'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986059'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985958'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986038'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985961'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986040'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985960'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986039'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985967'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986037'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985962'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986036'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985955'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986035'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985959'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986041'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985963'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986056'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985953'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986072'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986069'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986061'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986064'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986068'; /* linkmonstergen7minutes <- Annihilator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986067'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986070'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986062'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986065'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985952'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986073'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986074'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985969'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986066'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985945'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986063'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985968'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986071'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985971'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985979'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985922'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985980'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985970'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985981'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985924'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985991'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985923'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985992'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985925'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985978'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985927'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985928'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985926'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985929'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985933'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985934'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985931'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985930'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985944'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985938'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985939'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985942'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985941'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985940'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985937'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985936'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985935'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985932'; /* linkmonstergen7minutes <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986092'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986091'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986094'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986089'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986090'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986099'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986098'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986093'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986096'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986100'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986101'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986087'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986088'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986095'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985987'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986105'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986085'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986023'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986097'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985996'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986086'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986031'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986083'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986017'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986084'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986014'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986102'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986025'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986103'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985993'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986104'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986008'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986080'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985972'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986082'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985982'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986081'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985974'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986079'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985973'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985976'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985975'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985983'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985977'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985920'; /* Linkable Monster Generator ( 7 Min.) <- Annihilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986000'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985921'; /* Linkable Monster Generator ( 7 Min.) <- Annihilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985984'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986048'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986011'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986049'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986001'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986058'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986026'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986057'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986012'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986042'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986019'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986047'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986032'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986043'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986004'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986044'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986020'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986045'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985997'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986046'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986005'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986051'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986029'; /* Linkable Monster Generator ( 7 Min.) <- Annihilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986052'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985988'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986053'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986028'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986054'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986030'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986060'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985957'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986055'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985965'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986050'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985966'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986059'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985958'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986038'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985961'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986040'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985960'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986039'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985967'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986037'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985962'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986036'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985955'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986035'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985959'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986041'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985963'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986056'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985953'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986072'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986069'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986061'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986064'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986068'; /* Linkable Monster Generator ( 7 Min.) <- Annihilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986067'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986070'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986062'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986065'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985952'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986073'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986074'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985969'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986066'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985945'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986063'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985968'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979986071'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985971'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985979'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985922'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985980'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985970'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985981'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985924'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985991'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985923'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985992'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985925'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985978'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985927'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985928'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985926'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985929'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985933'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985934'; /* Linkable Monster Generator ( 7 Min.) <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985931'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985930'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985944'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985938'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985939'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985942'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985941'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985940'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985937'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985936'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985935'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1979985932'; /* Linkable Monster Generator ( 7 Min.) <- Tusker Sycophant */
 

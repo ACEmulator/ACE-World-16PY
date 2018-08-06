@@ -7,7 +7,7 @@ VALUES (22053, 1881862144, 45023490, 50.6191, -199.915, -71.9835, -0.912064, 0, 
      , (23769, 1881862149, 45023496, 65.2505, -202.776, -71.945, -0.996758, 0, 0, -0.080455) /* Virindi Preceptor */
      , (23555, 1881862150, 45023496, 70.9126, -196.446, -71.995, -0.933665, 0, 0, -0.358148) /* Telumiat Hollow Minion */
      , (23555, 1881862152, 45023497, 140.733, -323.569, -71.995, 0.292073, 0, 0, -0.956396) /* Telumiat Hollow Minion */
-     , (5085, 1881862343, 45023497, 141.8, -318.291, -71.995, -0.999894, 0, 0, -0.014573) /* linkitemgen25seconds */
+     , (5085, 1881862343, 45023497, 141.8, -318.291, -71.995, -0.999894, 0, 0, -0.014573) /* Linkable Item Gen - 25 seconds */
      , (8779, 1881862153, 45023500, 150.014, -319.952, -71.995, -0.159868, 0, 0, 0.987138) /* Fragment of the Singularity */
      , (8819, 1881862154, 45023500, 145.168, -318.297, -71.945, 0.055073, 0, 0, -0.998482) /* Chakron Flux Virindi Master */
      , (10815, 1881862155, 45023500, 151.605, -317.793, -71.971, 0.0838141, 0, 0, -0.996481) /* Virindi Inquisitor */
@@ -173,11 +173,11 @@ VALUES (22053, 1881862144, 45023490, 50.6191, -199.915, -71.9835, -0.912064, 0, 
      , (5407, 1881862316, 45024077, 167.667, -222.786, 0.005, -0.999995, 0, 0, -0.00317703) /* Virindi Rift */
      , (5407, 1881862317, 45024077, 167.511, -217.771, 0.005, -0.999995, 0, 0, -0.00317703) /* Virindi Rift */
      , (8889, 1881862320, 45024079, 180.737, 0.805011, 0.005, 0.918686, 0, 0, -0.394988) /* Chakron Gate */
-     , (4219, 1881862344, 45024079, 180.795, -2.28261, 0.005, 0.0416733, 0, 0, -0.999131) /* linkmonstergen7minutes */
-     , (4219, 1881862345, 45024079, 179.989, -2.34996, 0.005, 0.0416733, 0, 0, -0.999131) /* linkmonstergen7minutes */
-     , (7923, 1881862346, 45024080, 181.252, -3.80814, 0.005, 0.0416733, 0, 0, -0.999131) /* linkmonstergen3minutes */
-     , (7923, 1881862347, 45024080, 180.273, -3.88991, 0.005, 0.0416733, 0, 0, -0.999131) /* linkmonstergen3minutes */
-     , (7923, 1881862348, 45024080, 179.381, -3.96452, 0.005, 0.0416733, 0, 0, -0.999131) /* linkmonstergen3minutes */
+     , (4219, 1881862344, 45024079, 180.795, -2.28261, 0.005, 0.0416733, 0, 0, -0.999131) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1881862345, 45024079, 179.989, -2.34996, 0.005, 0.0416733, 0, 0, -0.999131) /* Linkable Monster Generator ( 7 Min.) */
+     , (7923, 1881862346, 45024080, 181.252, -3.80814, 0.005, 0.0416733, 0, 0, -0.999131) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1881862347, 45024080, 180.273, -3.88991, 0.005, 0.0416733, 0, 0, -0.999131) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1881862348, 45024080, 179.381, -3.96452, 0.005, 0.0416733, 0, 0, -0.999131) /* Linkable Monster Generator ( 3 Min.) */
      , (8841, 1881862321, 45024081, 180.053, -7.50634, 0.005, -0.033234, 0, 0, -0.999448) /* Surface Portal */
      , (23555, 1881862322, 45024083, 176.125, -60.131, 0.005, 0.712484, 0, 0, -0.701689) /* Telumiat Hollow Minion */
      , (23555, 1881862323, 45024096, 190.228, -72.1632, 0.005, 0.999379, 0, 0, -0.035232) /* Telumiat Hollow Minion */
@@ -207,12 +207,12 @@ UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881862232'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1881862176'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1881862197'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1881862346'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1881862344'; /* linkmonstergen7minutes */
-UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1881862347'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1881862345'; /* linkmonstergen7minutes */
-UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1881862348'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1881862343'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1881862346'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1881862344'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1881862347'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1881862345'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1881862348'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1881862343'; /* Linkable Item Gen - 25 seconds */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881862298'; /* Door <- Button */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881862237'; /* Door <- Button */
@@ -220,131 +220,131 @@ UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881862245'; /* D
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881862262'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881862191'; /* Door <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881862145'; /* Door <- Button */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862233'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862246'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862230'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862234'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862239'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862231'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862174'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862240'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862172'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862173'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862183'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862182'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862179'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862181'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862178'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862184'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862177'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862212'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862175'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862171'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862147'; /* linkmonstergen3minutes <- Chakron Flux Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862146'; /* linkmonstergen3minutes <- Virindi Adjudicator */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862144'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862149'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862150'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862154'; /* linkmonstergen3minutes <- Chakron Flux Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862156'; /* linkmonstergen7minutes <- Virindi Adjudicator */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862155'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862152'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862157'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862295'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862294'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862281'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862280'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862273'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862282'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862287'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862274'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862297'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862283'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862288'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862296'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862276'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862275'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862289'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862277'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862328'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862341'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862340'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862330'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862326'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862331'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862329'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862332'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862333'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862244'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862238'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862228'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862236'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862227'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862229'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862241'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862235'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862243'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862242'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862248'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862271'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862247'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862272'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862257'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862250'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862263'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862258'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862265'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862264'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862194'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862254'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862185'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862188'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862187'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862190'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862189'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862186'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862192'; /* linkmonstergen7minutes <- Virindi Adjudicator */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862214'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862195'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862196'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862213'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862300'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862198'; /* linkmonstergen7minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862304'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862199'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862305'; /* linkmonstergen7minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862301'; /* linkmonstergen7minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862322'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862306'; /* linkmonstergen7minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862312'; /* linkmonstergen7minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862323'; /* linkmonstergen7minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862314'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862313'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862299'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862302'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862324'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862303'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862315'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862325'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862342'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862307'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862335'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862337'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862334'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862338'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862256'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862336'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862249'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862255'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862268'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862267'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862259'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862266'; /* linkmonstergen3minutes <- Virindi Preceptor */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862261'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862260'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862252'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862251'; /* linkmonstergen3minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862269'; /* linkmonstergen3minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862270'; /* linkmonstergen3minutes <- Virindi Inquisitor */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1881862153'; /* linkitemgen25seconds <- Fragment of the Singularity */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862233'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862246'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862230'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862234'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862239'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862231'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862174'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862240'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862172'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862173'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862183'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862182'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862179'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862181'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862178'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862184'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862177'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862212'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862175'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862171'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862147'; /* Linkable Monster Generator ( 3 Min.) <- Chakron Flux Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862146'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Adjudicator */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862144'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862149'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862150'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881862154'; /* Linkable Monster Generator ( 3 Min.) <- Chakron Flux Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862156'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Adjudicator */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862155'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862152'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862157'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862295'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862294'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862281'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862280'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862273'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862282'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862287'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862274'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862297'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862283'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862288'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862296'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862276'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862275'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862289'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862277'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862328'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862341'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862340'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881862330'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862326'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862331'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862329'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862332'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862333'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862244'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862238'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862228'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862236'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862227'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862229'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862241'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862235'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862243'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862242'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862248'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862271'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862247'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862272'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862257'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862250'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862263'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862258'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862265'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881862264'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862194'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862254'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862185'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862188'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862187'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862190'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862189'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862186'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862192'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Adjudicator */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862214'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862195'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862196'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862213'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862300'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862198'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862304'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862199'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862305'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862301'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862322'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862306'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862312'; /* Linkable Monster Generator ( 7 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862323'; /* Linkable Monster Generator ( 7 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862314'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881862313'; /* Linkable Monster Generator ( 7 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862299'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862302'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862324'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862303'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862315'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862325'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862342'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862307'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862335'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862337'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862334'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862338'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862256'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862336'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862249'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862255'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862268'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862267'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862259'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862266'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Preceptor */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862261'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862260'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862252'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862251'; /* Linkable Monster Generator ( 3 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862269'; /* Linkable Monster Generator ( 3 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881862270'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Inquisitor */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1881862153'; /* Linkable Item Gen - 25 seconds <- Fragment of the Singularity */
 

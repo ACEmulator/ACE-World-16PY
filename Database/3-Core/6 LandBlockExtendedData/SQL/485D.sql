@@ -8,20 +8,20 @@ VALUES (1762, 1954926592, 1214054400, 116.054, 119.106, 4.18474, -0.70506, 0, 0,
      , (1760, 1954926598, 1214054400, 115.6, 130.556, 2.61238, -0.992296, 0, 0, -0.123893) /* Skeleton Warrior */
      , (1760, 1954926599, 1214054400, 111.644, 146.15, -0.095, -0.939643, 0, 0, -0.342157) /* Skeleton Warrior */
      , (1760, 1954926600, 1214054400, 116.851, 89.9953, -0.095, 0.00341584, 0, 0, -0.999994) /* Skeleton Warrior */
-     , (1154, 1954926601, 1214054400, 114.75, 116.619, 3.87579, 0.891514, 0, 0, 0.452993) /* linkmonstergen */
+     , (1154, 1954926601, 1214054400, 114.75, 116.619, 3.87579, 0.891514, 0, 0, 0.452993) /* Linkable Monster Generator */
      , (1936, 1954926602, 1214054400, 112.938, 118.467, 4.33808, 0.605725, 0, 0, 0.795674) /* Chest */
      , (1760, 1954926603, 1214054400, 110.528, 115.231, 3.99956, -0.931295, 0, 0, -0.364267) /* Skeleton Warrior */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1954926601'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1954926601'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926592'; /* linkmonstergen <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926593'; /* linkmonstergen <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926594'; /* linkmonstergen <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926595'; /* linkmonstergen <- Skeleton Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926596'; /* linkmonstergen <- Skeleton Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926597'; /* linkmonstergen <- Skeleton Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926598'; /* linkmonstergen <- Skeleton Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926599'; /* linkmonstergen <- Skeleton Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926600'; /* linkmonstergen <- Skeleton Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926603'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926592'; /* Linkable Monster Generator <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926593'; /* Linkable Monster Generator <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926594'; /* Linkable Monster Generator <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926595'; /* Linkable Monster Generator <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926596'; /* Linkable Monster Generator <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926597'; /* Linkable Monster Generator <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926598'; /* Linkable Monster Generator <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926599'; /* Linkable Monster Generator <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926600'; /* Linkable Monster Generator <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926603'; /* Linkable Monster Generator <- Skeleton Warrior */
 

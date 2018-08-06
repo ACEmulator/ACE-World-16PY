@@ -8,7 +8,7 @@ VALUES (10807, 1947549767, 1096024328, 33.5882, 83.623, 40.0065, -0.2171, 0, 0, 
      , (2212, 1947549696, 1096024064, 18.5, 132, 40.005, -0.707107, 0, 0, -0.707107) /* Door */
      , (2485, 1947549697, 1096024064, 27.2146, 134.396, 40.0065, 0.583993, 0, 0, 0.811759) /* Augmented Tumerok */
      , (10807, 1947549741, 1096024064, 25.0982, 136.17, 40.0065, 0.0554255, 0, 0, -0.998463) /* Augmented Tumerok */
-     , (7923, 1947549742, 1096024064, 22.112, 150.452, 40.005, -0.737894, 0, 0, -0.674917) /* linkmonstergen3minutes */
+     , (7923, 1947549742, 1096024064, 22.112, 150.452, 40.005, -0.737894, 0, 0, -0.674917) /* Linkable Monster Generator ( 3 Min.) */
      , (10807, 1947549743, 1096024064, 24.9604, 132.603, 40.0065, 0.899207, 0, 0, -0.437523) /* Augmented Tumerok */
      , (10807, 1947549744, 1096024064, 13.9876, 146.136, 44.005, -0.763191, 0, 0, 0.646173) /* Augmented Tumerok */
      , (10807, 1947549745, 1096024064, 19.8987, 145.026, 40.0065, -0.85386, 0, 0, -0.520503) /* Augmented Tumerok */
@@ -40,38 +40,38 @@ VALUES (10807, 1947549767, 1096024328, 33.5882, 83.623, 40.0065, -0.2171, 0, 0, 
      , (10807, 1947549771, 1096024064, 30.8934, 86.1682, 48.8199, -0.685918, 0, 0, -0.727679) /* Augmented Tumerok */
      , (10807, 1947549772, 1096024064, 13.4074, 147.757, 44.0065, 0.886629, 0, 0, -0.462482) /* Augmented Tumerok */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1947549742'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1947549742'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549741'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549743'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549757'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549758'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549765'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549766'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549767'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549768'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549769'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549770'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549771'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549772'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549773'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549774'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549775'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549744'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549745'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549746'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549747'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549748'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549749'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549697'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549750'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549751'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549752'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549753'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549754'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549755'; /* linkmonstergen3minutes <- Augmented Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549756'; /* linkmonstergen3minutes <- Augmented Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549776'; /* linkmonstergen3minutes <- Augmented Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549777'; /* linkmonstergen3minutes <- Augmented Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549764'; /* linkmonstergen3minutes <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549741'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549743'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549757'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549758'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549765'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549766'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549767'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549768'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549769'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549770'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549771'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549772'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549773'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549774'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549775'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549744'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549745'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549746'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549747'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549748'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549749'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549697'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549750'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549751'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549752'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549753'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549754'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549755'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549756'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549776'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549777'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1947549764'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
 

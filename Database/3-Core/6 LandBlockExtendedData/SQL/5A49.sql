@@ -72,7 +72,7 @@ VALUES (22583, 1973719040, 1514733824, 63.6857, -44.2533, -17.945, 0.14131, 0, 0
      , (22719, 1973719119, 1514734218, 200, -60, 0.005, 1, 0, 0, 0) /* Tusker's Friend */
      , (22053, 1973719099, 1514734223, 198.554, -69.8495, 0.0165, 0.63071, 0, 0, 0.776019) /* Assailer */
      , (22053, 1973719100, 1514734235, 209.204, -66.9784, 0.0165, 0.252006, 0, 0, 0.967726) /* Assailer */
-     , (7924, 1973719101, 1514734240, 235.185, 0.0610428, 0.005, 0.678557, 0, 0, -0.734547) /* linkmonstergen5minutes */
+     , (7924, 1973719101, 1514734240, 235.185, 0.0610428, 0.005, 0.678557, 0, 0, -0.734547) /* Linkable Monster Generator ( 5 Min.) */
      , (22053, 1973719102, 1514734243, 243.547, -20.3415, 0.055, -0.470145, 0, 0, -0.882589) /* Assailer */
      , (22053, 1973719103, 1514734244, 240.888, -27.6451, 0.055, 0.157052, 0, 0, -0.98759) /* Assailer */
      , (22719, 1973719120, 1514734251, 249.762, -5.29128, 0.005, 0.000504877, 0, 0, -1) /* Tusker's Friend */
@@ -82,72 +82,72 @@ VALUES (22583, 1973719040, 1514733824, 63.6857, -44.2533, -17.945, 0.14131, 0, 0
      , (22719, 1973719121, 1514734264, 250, -40, 0.005, 1, 0, 0, 0) /* Tusker's Friend */
      , (22053, 1973719107, 1514734277, 259.249, -30.0899, 0.0165, 0.71743, 0, 0, -0.696631) /* Assailer */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1973719101'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1973719101'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719062'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719061'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719060'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719065'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719064'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719091'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719088'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719083'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719085'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719087'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719089'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719086'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719084'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719059'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719058'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719057'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719054'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719055'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719056'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719052'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719053'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719077'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719078'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719075'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719076'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719049'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719045'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719046'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719047'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719048'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719079'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719082'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719080'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719081'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719051'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719050'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719043'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719040'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719041'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719044'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719104'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719102'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719103'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719105'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719107'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719106'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719072'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719074'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719070'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719068'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719067'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719071'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719069'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719066'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719073'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719100'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719099'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719097'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719095'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719098'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719096'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719094'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719093'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719092'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719090'; /* linkmonstergen5minutes <- Assailer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719063'; /* linkmonstergen5minutes <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719062'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719061'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719060'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719065'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719064'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719091'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719088'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719083'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719085'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719087'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719089'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719086'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719084'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719059'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719058'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719057'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719054'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719055'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719056'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719052'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719053'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719077'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719078'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719075'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719076'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719049'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719045'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719046'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719047'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719048'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719079'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719082'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719080'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719081'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719051'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719050'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719043'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719040'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719041'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719044'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719104'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719102'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719103'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719105'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719107'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719106'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719072'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719074'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719070'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719068'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719067'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719071'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719069'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719066'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719073'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719100'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719099'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719097'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719095'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719098'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719096'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719094'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719093'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719092'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719090'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973719063'; /* Linkable Monster Generator ( 5 Min.) <- Assailer */
 

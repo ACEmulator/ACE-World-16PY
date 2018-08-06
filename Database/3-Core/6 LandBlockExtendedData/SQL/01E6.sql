@@ -28,7 +28,7 @@ VALUES (23082, 1881038848, 31850752, -0.0289291, -91.4057, -17.989, -4.37114E-08
      , (23082, 1881038862, 31850809, 51.8707, -119.121, -11.989, 1, 0, 0, 0) /* Nubilous Golem */
      , (1923, 1881038863, 31850809, 48.25, -124.182, -12, 0, 0, 0, -1) /* Chest */
      , (5896, 1881038864, 31850809, 51.7425, -123.881, -11.943, 1, 0, 0, 0) /* An Old Volume */
-     , (15759, 1881038900, 31850809, 52.6859, -121.584, -11.995, -0.070811, 0, 0, 0.99749) /* linkitemgen10seconds */
+     , (15759, 1881038900, 31850809, 52.6859, -121.584, -11.995, -0.070811, 0, 0, 0.99749) /* Linkable Item Generator */
      , (25330, 1881038901, 31850809, 46.3234, -116.825, -11.995, 0.986056, 0, 0, 0.166412) /* Alloy Pinion */
      , (23082, 1881038916, 31850809, 48.2646, -118.586, -11.99, 0.996239, 0, 0, -0.086653) /* Nubilous Golem */
      , (23082, 1881038866, 31850812, 57.6988, -20.1598, -11.989, 0.707107, 0, 0, -0.707107) /* Nubilous Golem */
@@ -83,7 +83,7 @@ VALUES (23082, 1881038848, 31850752, -0.0289291, -91.4057, -17.989, -4.37114E-08
      , (11526, 1881038894, 31851090, 146.785, -115.201, 6.005, -4.37114E-08, 0, 0, -1) /* Ebon Gromnie */
      , (7107, 1881038942, 31851091, 146.119, -128.182, 6.012, 0.561044, 0, 0, 0.827786) /* Wasteland Rat */
      , (1328, 1881038895, 31851093, 145.873, -182.829, 6, -0.766815, 0, 0, -0.641868) /* Surface */
-     , (7923, 1881038902, 31851094, 149.615, -189.778, 6.005, 0.911039, 0, 0, 0.412321) /* linkmonstergen3minutes */
+     , (7923, 1881038902, 31851094, 149.615, -189.778, 6.005, 0.911039, 0, 0, 0.412321) /* Linkable Monster Generator ( 3 Min.) */
      , (11526, 1881038943, 31851095, 157.889, -112.307, 6.005, 0.426045, 0, 0, 0.904702) /* Ebon Gromnie */
      , (7107, 1881038944, 31851097, 161.72, -140.74, 6.012, 0.42459, 0, 0, 0.905386) /* Wasteland Rat */
      , (7107, 1881038896, 31851098, 162.419, -149.034, 6.012, -0.707107, 0, 0, -0.707107) /* Wasteland Rat */
@@ -94,90 +94,90 @@ VALUES (23082, 1881038848, 31850752, -0.0289291, -91.4057, -17.989, -4.37114E-08
      , (7107, 1881038947, 31851100, 169.178, -141.081, 6.22586, 0.387646, 0, 0, 0.921808) /* Wasteland Rat */
      , (7107, 1881038948, 31851101, 167.001, -149.67, 6.012, 0.844356, 0, 0, -0.535782) /* Wasteland Rat */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881038900'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881038902'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881038900'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881038902'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881038901'; /* linkitemgen10seconds <- Alloy Pinion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881038864'; /* linkitemgen10seconds <- An Old Volume */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038859'; /* linkmonstergen3minutes <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038898'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038893'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038897'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038896'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038891'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038892'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038886'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038876'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038894'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038861'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038887'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038878'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038877'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038884'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038883'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038885'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038879'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038871'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038870'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038881'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038872'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038882'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038866'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038880'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038867'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038874'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038875'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038849'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038873'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038848'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038862'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038852'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038869'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038856'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038943'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038948'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038942'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038941'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038946'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038945'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038944'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038947'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038933'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038936'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038935'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038934'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038938'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038937'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038940'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038939'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038928'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038927'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038924'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038923'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038930'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038929'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038926'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038931'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038910'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038909'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038905'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038911'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038906'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038925'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038908'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038907'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038922'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038921'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038932'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038918'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038903'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038904'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038919'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038916'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038920'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038917'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038913'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038912'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038915'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038914'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881038901'; /* Linkable Item Generator <- Alloy Pinion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881038864'; /* Linkable Item Generator <- An Old Volume */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038859'; /* Linkable Monster Generator ( 3 Min.) <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038898'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038893'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038897'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038896'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038891'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038892'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038886'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038876'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038894'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038861'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038887'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038878'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038877'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038884'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038883'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038885'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038879'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038871'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038870'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038881'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038872'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038882'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038866'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038880'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038867'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038874'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038875'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038849'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038873'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038848'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038862'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038852'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038869'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038856'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038943'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038948'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038942'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038941'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038946'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038945'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038944'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038947'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038933'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038936'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038935'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038934'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038938'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038937'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038940'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038939'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038928'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038927'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038924'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038923'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038930'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038929'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038926'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038931'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038910'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038909'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038905'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038911'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038906'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038925'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038908'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038907'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038922'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038921'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038932'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038918'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038903'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038904'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038919'; /* Linkable Monster Generator ( 3 Min.) <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038916'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038920'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038917'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038913'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038912'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038915'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881038914'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
 

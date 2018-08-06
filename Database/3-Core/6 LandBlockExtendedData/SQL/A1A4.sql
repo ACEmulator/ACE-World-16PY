@@ -18,11 +18,11 @@ VALUES (412, 2048540672, 2711879936, 59.99, 154.68, 49.92, 0.707107, 0, 0, -0.70
      , (8377, 2048540721, 2711879987, 81.0869, 34.8212, 67, 1, 0, 0, 0) /* Beer Keg */
      , (734, 2048540704, 2711880004, 153.399, 86.3984, 50.165, 0.992142, 0, 0, -0.125117) /* Hunderth the Provisioner */
      , (738, 2048540705, 2711880004, 155.187, 91.1396, 50.165, -0.605988, 0, 0, -0.795473) /* Idenne Sulmad the Seamstress */
-     , (4777, 2048540697, 2711880009, 149.92, 86.2232, 53.165, 0.768504, 0, 0, -0.639845) /* crafterivoryaluviangen */
+     , (4777, 2048540697, 2711880009, 149.92, 86.2232, 53.165, 0.768504, 0, 0, -0.639845) /* Aluvian Ivory Collector Gen */
      , (733, 2048540698, 2711880027, 12.12, 155.28, 50.045, 0.368125, 0, 0, -0.929776) /* Fletcher Peldin Yewbender */
      , (143, 2048540693, 2711880029, 16.3048, 152.328, 53.08, -0.479458, 0, 0, 0.877565) /* Chest */
      , (19718, 2048540742, 2711880033, 140.358, 161.768, 44.805, 0.937619, 0, 0, 0.347665) /* Effigy Foundry Portal */
-     , (7925, 2048540752, 2711880037, 83.6237, 85.655, 55.705, -0.0121272, 0, 0, -0.999926) /* linkmonstergen10minutes */
+     , (7925, 2048540752, 2711880037, 83.6237, 85.655, 55.705, -0.0121272, 0, 0, -0.999926) /* Linkable Monster Generator ( 10 Min.) */
      , (22075, 2048540751, 2711880037, 86.9713, 86.519, 55.705, -0.764626, 0, 0, -0.644474) /* Copper Vanurp */
      , (22076, 2048540750, 2711880037, 80.9815, 81.1759, 55.705, -0.994861, 0, 0, 0.101248) /* Wils Morrem */
      , (22074, 2048540749, 2711880037, 86.3577, 80.7658, 55.705, -0.994861, 0, 0, 0.101248) /* Tiffany Comfore */
@@ -54,15 +54,15 @@ VALUES (412, 2048540672, 2711879936, 59.99, 154.68, 49.92, 0.707107, 0, 0, -0.70
      , (28185, 2048540773, 2711879680, 80.2028, 92.3667, 56.005, 0.842895, 0, 0, -0.538079) /* Apprentice Cook */
      , (27547, 2048540767, 2711879680, 141.67, 163.534, 50.005, -0.407971, 0, 0, 0.912995) /* Bind Stone */
      , (24103, 2048540761, 2711879680, 130.156, 78.3839, 50.9279, -0.491884, 0, 0, -0.870661) /* A note from Mage Syltyn Rillon */
-     , (7923, 2048540760, 2711879680, 131.589, 81.6693, 50.005, 0.99748, 0, 0, 0.0709425) /* linkmonstergen3minutes */
+     , (7923, 2048540760, 2711879680, 131.589, 81.6693, 50.005, 0.99748, 0, 0, 0.0709425) /* Linkable Monster Generator ( 3 Min.) */
      , (24067, 2048540759, 2711879680, 133.375, 80.1674, 50.005, 0.689587, 0, 0, 0.724203) /* Sword of Frozen Fury */
-     , (23631, 2048540758, 2711879680, 72.3336, 101.754, 154.912, 0.999314, 0, 0, -0.0370306) /* eventmadcowgen */
-     , (7923, 2048540757, 2711879680, 69.3239, 145.342, 50.005, -0.520388, 0, 0, 0.85393) /* linkmonstergen3minutes */
+     , (23631, 2048540758, 2711879680, 72.3336, 101.754, 154.912, 0.999314, 0, 0, -0.0370306) /* April 2003 Raining Mad Cows Gen */
+     , (7923, 2048540757, 2711879680, 69.3239, 145.342, 50.005, -0.520388, 0, 0, 0.85393) /* Linkable Monster Generator ( 3 Min.) */
      , (22893, 2048540756, 2711879680, 67.9252, 146.228, 50.0055, 0.12786, 0, 0, -0.991792) /* Student */
      , (19358, 2048540744, 2711879680, 42.8926, 104.163, 50.005, 0.362358, 0, 0, -0.932039) /* Atrium Residential Halls Portal */
      , (19380, 2048540743, 2711879680, 41.378, 105.798, 50.005, 0.362358, 0, 0, -0.932039) /* Atrium Residential Halls */
      , (509, 2048540706, 2711879680, 5.4, 101.28, 50.04, 1, 0, 0, 0) /* Life Stone */
-     , (385, 2048540707, 2711879680, 129.12, 186.48, 50.04, -0.0706269, 0, 0, -0.997503) /* cow-generator */
+     , (385, 2048540707, 2711879680, 129.12, 186.48, 50.04, -0.0706269, 0, 0, -0.997503) /* Cow Generator */
      , (725, 2048540708, 2711879680, 15.84, 145.08, 50.04, 0.922875, 0, 0, 0.385101) /* Peldin's Bows */
      , (724, 2048540709, 2711879680, 62.28, 146.88, 50.04, 0.99999, 0, 0, 0.00436326) /* The Ringing Anvil */
      , (727, 2048540710, 2711879680, 101.64, 152.88, 50.04, 0.99999, 0, 0, 0.00436326) /* Chirurgeon */
@@ -71,23 +71,23 @@ VALUES (412, 2048540672, 2711879936, 59.99, 154.68, 49.92, 0.707107, 0, 0, -0.70
      , (728, 2048540713, 2711879680, 86.0399, 47.7602, 66, 0.0113444, 0, 0, 0.999936) /* The Overlook */
      , (728, 2048540714, 2711879680, 86.64, 25.5602, 66, -0.999976, 0, 0, -0.00698117) /* The Overlook */
      , (913, 2048540715, 2711879680, 116.977, 158.894, 50.005, 0.151899, 0, 0, 0.988396) /* Glenden Wood */
-     , (4775, 2048540716, 2711879680, 93.3667, 40.1207, 69.505, 0.976083, 0, 0, -0.217398) /* collectorwingaluviangen */
+     , (4775, 2048540716, 2711879680, 93.3667, 40.1207, 69.505, 0.976083, 0, 0, -0.217398) /* Aluvian Wing Collector Gen */
      , (19194, 2048540741, 2711879680, 150.398, 152.124, 56.8193, 0.356044, 0, 0, 0.934469) /* Nullified Statue of a Banderling */
      , (913, 2048540718, 2711879680, 157.783, 123.462, 50, -0.649261, 0, 0, 0.760565) /* Glenden Wood */
      , (913, 2048540719, 2711879680, 11.2326, 116.44, 50.005, -0.766006, 0, 0, -0.642833) /* Glenden Wood */
      , (174, 2048540720, 2711879680, 52.08, 124.44, 50, 1, 0, 0, 0) /* Well */
-     , (19457, 2048540738, 2711879680, 150.493, 151.635, 57, -0.40138, 0, 0, -0.915912) /* fireworksgen */
-     , (7923, 2048540724, 2711879680, 76.5484, 44.2252, 66.005, 0.648727, 0, 0, -0.761021) /* linkmonstergen3minutes */
-     , (7923, 2048540725, 2711879680, 41.1208, 125.941, 50.005, -0.020619, 0, 0, 0.999787) /* linkmonstergen3minutes */;
+     , (19457, 2048540738, 2711879680, 150.493, 151.635, 57, -0.40138, 0, 0, -0.915912) /* Fireworks Generator */
+     , (7923, 2048540724, 2711879680, 76.5484, 44.2252, 66.005, 0.648727, 0, 0, -0.761021) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2048540725, 2711879680, 41.1208, 125.941, 50.005, -0.020619, 0, 0, 0.999787) /* Linkable Monster Generator ( 3 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2048540752'; /* linkmonstergen10minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2048540757'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2048540724'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2048540752'; /* Linkable Monster Generator ( 10 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2048540757'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2048540724'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2048540750'; /* linkmonstergen10minutes <- Wils Morrem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2048540749'; /* linkmonstergen10minutes <- Tiffany Comfore */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2048540751'; /* linkmonstergen10minutes <- Copper Vanurp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2048540756'; /* linkmonstergen3minutes <- Student */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2048540759'; /* linkmonstergen3minutes <- Sword of Frozen Fury */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2048540773'; /* linkmonstergen3minutes <- Apprentice Cook */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2048540750'; /* Linkable Monster Generator ( 10 Min.) <- Wils Morrem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2048540749'; /* Linkable Monster Generator ( 10 Min.) <- Tiffany Comfore */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2048540751'; /* Linkable Monster Generator ( 10 Min.) <- Copper Vanurp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2048540756'; /* Linkable Monster Generator ( 3 Min.) <- Student */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2048540759'; /* Linkable Monster Generator ( 3 Min.) <- Sword of Frozen Fury */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2048540773'; /* Linkable Monster Generator ( 3 Min.) <- Apprentice Cook */
 

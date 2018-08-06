@@ -6,15 +6,15 @@ VALUES (2611, 2083340288, 3268673536, 116.029, 87.4832, 138.399, -0.998568, 0, 0
      , (2611, 2083340292, 3268673536, 146.73, 67.8252, 143.67, 0.0313558, 0, 0, 0.999508) /* Zofrit Zefir */
      , (2611, 2083340293, 3268673536, 137.983, 74.7374, 142.797, 0.528099, 0, 0, 0.849183) /* Zofrit Zefir */
      , (2611, 2083340294, 3268673536, 139.021, 84.3655, 142.168, 0.99584, 0, 0, -0.0911199) /* Zofrit Zefir */
-     , (3955, 2083340295, 3268673536, 116.029, 87.4832, 138.387, -0.998568, 0, 0, -0.0534991) /* linkmonstergen15minutes */;
+     , (3955, 2083340295, 3268673536, 116.029, 87.4832, 138.387, -0.998568, 0, 0, -0.0534991) /* Linkable Monster Gen (15 min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2083340295'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2083340295'; /* Linkable Monster Gen (15 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340288'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340289'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340290'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340291'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340292'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340293'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340294'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340288'; /* Linkable Monster Gen (15 min.) <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340289'; /* Linkable Monster Gen (15 min.) <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340290'; /* Linkable Monster Gen (15 min.) <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340291'; /* Linkable Monster Gen (15 min.) <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340292'; /* Linkable Monster Gen (15 min.) <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340293'; /* Linkable Monster Gen (15 min.) <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340294'; /* Linkable Monster Gen (15 min.) <- Zofrit Zefir */
 

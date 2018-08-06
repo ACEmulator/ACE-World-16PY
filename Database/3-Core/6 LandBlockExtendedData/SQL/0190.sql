@@ -54,9 +54,9 @@ VALUES (7107, 1880686592, 26214665, 40, -44.75, -17.946, -4.37114E-08, 0, 0, -1)
      , (568, 1880686645, 26214811, 60, -44.75, -12, -4.37114E-08, 0, 0, -1) /* Door */
      , (24955, 1880686722, 26214812, 60.9896, -47.8569, -11.99, 1, 0, 0, 0) /* Gotrok Montok */
      , (24955, 1880686723, 26214812, 60.0878, -48.7464, -11.99, 1, 0, 0, 0) /* Gotrok Montok */
-     , (420, 1880686648, 26214813, 60.2054, -60.7075, -12, -4.37114E-08, 0, 0, -1) /* itemfood-generator */
-     , (1459, 1880686649, 26214813, 58.3098, -61.4344, -12, -4.37114E-08, 0, 0, -1) /* itemfoodstaminagen */
-     , (1460, 1880686650, 26214813, 58.8538, -59.3579, -12, -4.37114E-08, 0, 0, -1) /* itemfoodhealgen */
+     , (420, 1880686648, 26214813, 60.2054, -60.7075, -12, -4.37114E-08, 0, 0, -1) /* Item Food Generator */
+     , (1459, 1880686649, 26214813, 58.3098, -61.4344, -12, -4.37114E-08, 0, 0, -1) /* Food Stamina Gen */
+     , (1460, 1880686650, 26214813, 58.8538, -59.3579, -12, -4.37114E-08, 0, 0, -1) /* Food Heal Gen */
      , (24955, 1880686724, 26214813, 60.0095, -58.1243, -11.99, -4.37114E-08, 0, 0, -1) /* Gotrok Montok */
      , (24955, 1880686725, 26214814, 69.4661, -28.9346, -11.99, -0.707107, 0, 0, -0.707107) /* Gotrok Montok */
      , (24955, 1880686726, 26214831, 30, -40, -5.99, 0.736024, 0, 0, -0.676956) /* Gotrok Montok */
@@ -83,83 +83,83 @@ VALUES (7107, 1880686592, 26214665, 40, -44.75, -17.946, -4.37114E-08, 0, 0, -1)
      , (619, 1880686744, 26214893, 158.64, -107.088, -5.99175, -0.993756, 0, 0, -0.111577) /* Revenant */
      , (619, 1880686745, 26214893, 161.537, -108.026, -5.99175, -0.993756, 0, 0, -0.111577) /* Revenant */
      , (7124, 1880686746, 26214893, 160.203, -106.325, -5.99175, -0.997999, 0, 0, -0.063227) /* Dark Magus */
-     , (15759, 1880686747, 26214893, 163.797, -114.189, -5.995, 0.868694, 0, 0, -0.495349) /* linkitemgen10seconds */
+     , (15759, 1880686747, 26214893, 163.797, -114.189, -5.995, 0.868694, 0, 0, -0.495349) /* Linkable Item Generator */
      , (25328, 1880686748, 26214893, 163.318, -113.654, -5.995, 0.993018, 0, 0, -0.117961) /* Alloy Piston */
-     , (7923, 1880686749, 26214895, 13.0958, -1.32525, 0.005, 0.714421, 0, 0, -0.699716) /* linkmonstergen3minutes */
+     , (7923, 1880686749, 26214895, 13.0958, -1.32525, 0.005, 0.714421, 0, 0, -0.699716) /* Linkable Monster Generator ( 3 Min.) */
      , (3633, 1880686679, 26214905, 40, -7.266, 0, 1, 0, 0, 0) /* Surface */
      , (24955, 1880686750, 26214906, 38.867, -21.1936, 0.01, -0.893665, 0, 0, -0.448734) /* Gotrok Montok */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880686747'; /* linkitemgen10seconds */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880686749'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880686747'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880686749'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880686748'; /* linkitemgen10seconds <- Alloy Piston */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686750'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686727'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686729'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686730'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686728'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686726'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686735'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686736'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686733'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686734'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686740'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686737'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686738'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686739'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686720'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686681'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686732'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686731'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686706'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686707'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686682'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686705'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686714'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686701'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686699'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686700'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686704'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686709'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686702'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686703'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686725'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686710'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686715'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686721'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686717'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686722'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686711'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686716'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686719'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686708'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686723'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686718'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686685'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686683'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686712'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686686'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686690'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686687'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686684'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686689'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686691'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686692'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686688'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686693'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686696'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686697'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686694'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686695'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686741'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686742'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686698'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686745'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686746'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686743'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686744'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686593'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686713'; /* linkmonstergen3minutes <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686592'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686724'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880686748'; /* Linkable Item Generator <- Alloy Piston */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686750'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686727'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686729'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686730'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686728'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686726'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686735'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686736'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686733'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686734'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686740'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686737'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686738'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686739'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686720'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686681'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686732'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686731'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686706'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686707'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686682'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686705'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686714'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686701'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686699'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686700'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686704'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686709'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686702'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686703'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686725'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686710'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686715'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686721'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686717'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686722'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686711'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686716'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686719'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686708'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686723'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686718'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686685'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686683'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686712'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686686'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686690'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686687'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686684'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686689'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686691'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686692'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686688'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686693'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686696'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686697'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686694'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686695'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686741'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686742'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686698'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686745'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686746'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686743'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686744'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686593'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686713'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686592'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880686724'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
 

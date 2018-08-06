@@ -34,36 +34,36 @@ VALUES (8459, 1881944064, 46334210, 40, -110, -41.995, 1, 0, 0, 0) /* Surface Po
      , (4261, 1881944096, 46334470, 127.847, -247.924, -11.995, 0.685435, 0, 0, -0.728134) /* Slithayr Eye Stalk */
      , (4261, 1881944097, 46334474, 148.117, -247.957, -11.995, 0.942258, 0, 0, -0.334889) /* Slithayr Eye Stalk */
      , (8459, 1881944098, 46334577, 108.155, -90.0539, 0.005, 0.696707, 0, 0, 0.717356) /* Surface Portal */
-     , (4219, 1881944099, 46334602, 141.52, -49.5892, 0.005, 0.999687, 0, 0, 0.0249976) /* linkmonstergen7minutes */
-     , (7924, 1881944100, 46334602, 139.733, -49.7589, 0.005, 0.999687, 0, 0, 0.0249976) /* linkmonstergen5minutes */;
+     , (4219, 1881944099, 46334602, 141.52, -49.5892, 0.005, 0.999687, 0, 0, 0.0249976) /* Linkable Monster Generator ( 7 Min.) */
+     , (7924, 1881944100, 46334602, 139.733, -49.7589, 0.005, 0.999687, 0, 0, 0.0249976) /* Linkable Monster Generator ( 5 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881944099'; /* linkmonstergen7minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881944100'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881944099'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881944100'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944078'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944077'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944090'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944089'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944083'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944080'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944079'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944087'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944088'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944096'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944097'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944081'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944075'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944074'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944072'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944076'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944070'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944073'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944071'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944065'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944066'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944068'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944069'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944067'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881944094'; /* linkmonstergen5minutes <- Slithis Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881944082'; /* linkmonstergen5minutes <- Slithis Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944078'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944077'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944090'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944089'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944083'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944080'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944079'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944087'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944088'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944096'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944097'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944081'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944075'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944074'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944072'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944076'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944070'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944073'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944071'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944065'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944066'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944068'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944069'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944067'; /* Linkable Monster Generator ( 7 Min.) <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881944094'; /* Linkable Monster Generator ( 5 Min.) <- Slithis Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881944082'; /* Linkable Monster Generator ( 5 Min.) <- Slithis Eye Stalk */
 

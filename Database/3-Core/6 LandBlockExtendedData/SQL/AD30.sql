@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23512, 2060648448, 2905604096, 90.9025, 17.4502, 147.822, -0.895312, 0, 0, 0.445439) /* An Archive */
      , (23345, 2060648449, 2905604096, 41.9679, 178.778, 86.3209, 0.920296, 0, 0, 0.391222) /* Iron Golem Guardian */
-     , (15274, 2060648450, 2905604096, 38.4064, 169.106, 89.3275, 0.994954, 0, 0, -0.10033) /* linkmonstergen1minute */
+     , (15274, 2060648450, 2905604096, 38.4064, 169.106, 89.3275, 0.994954, 0, 0, -0.10033) /* Linkable Monster Gen (1 min.) */
      , (23345, 2060648451, 2905604096, 35.0564, 174.262, 88.6018, 0.929659, 0, 0, -0.36842) /* Iron Golem Guardian */
      , (23345, 2060648452, 2905604096, 27.7962, 172.081, 90.3094, 0.619799, 0, 0, -0.78476) /* Iron Golem Guardian */
      , (23345, 2060648453, 2905604096, 31.8424, 162.051, 93.1818, 0.966222, 0, 0, 0.257712) /* Iron Golem Guardian */
@@ -13,17 +13,17 @@ VALUES (23512, 2060648448, 2905604096, 90.9025, 17.4502, 147.822, -0.895312, 0, 
      , (23345, 2060648459, 2905604096, 7.41239, 153.279, 101.682, -0.91545, 0, 0, 0.402432) /* Iron Golem Guardian */
      , (23345, 2060648460, 2905604096, 31.5207, 132.228, 105.662, 0.991281, 0, 0, -0.131767) /* Iron Golem Guardian */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2060648450'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2060648450'; /* Linkable Monster Gen (1 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648449'; /* linkmonstergen1minute <- Iron Golem Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648451'; /* linkmonstergen1minute <- Iron Golem Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648452'; /* linkmonstergen1minute <- Iron Golem Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648453'; /* linkmonstergen1minute <- Iron Golem Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648454'; /* linkmonstergen1minute <- Iron Golem Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648455'; /* linkmonstergen1minute <- Iron Golem Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648456'; /* linkmonstergen1minute <- Iron Golem Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648457'; /* linkmonstergen1minute <- Iron Golem Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648458'; /* linkmonstergen1minute <- Iron Golem Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648459'; /* linkmonstergen1minute <- Iron Golem Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648460'; /* linkmonstergen1minute <- Iron Golem Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648449'; /* Linkable Monster Gen (1 min.) <- Iron Golem Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648451'; /* Linkable Monster Gen (1 min.) <- Iron Golem Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648452'; /* Linkable Monster Gen (1 min.) <- Iron Golem Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648453'; /* Linkable Monster Gen (1 min.) <- Iron Golem Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648454'; /* Linkable Monster Gen (1 min.) <- Iron Golem Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648455'; /* Linkable Monster Gen (1 min.) <- Iron Golem Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648456'; /* Linkable Monster Gen (1 min.) <- Iron Golem Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648457'; /* Linkable Monster Gen (1 min.) <- Iron Golem Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648458'; /* Linkable Monster Gen (1 min.) <- Iron Golem Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648459'; /* Linkable Monster Gen (1 min.) <- Iron Golem Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060648460'; /* Linkable Monster Gen (1 min.) <- Iron Golem Guardian */
 

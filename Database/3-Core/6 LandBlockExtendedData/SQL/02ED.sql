@@ -3,7 +3,7 @@ VALUES (5489, 1882116096, 49086720, 30, -10, -150, 1, 0, 0, 0) /* "Mag-Ma!" */
      , (7607, 1882116191, 49086720, 30.7077, -10.2418, -149.995, 0.171104, 0, 0, 0.985253) /* Ember */
      , (7607, 1882116192, 49086720, 27.6959, -7.21424, -149.995, 0.930377, 0, 0, 0.366605) /* Ember */
      , (199, 1882116193, 49086723, 76.2676, 0.0801119, -137.99, -0.682789, 0, 0, -0.730615) /* Magma Golem */
-     , (7368, 1882116099, 49086725, 52.7771, -0.940095, -131.995, -0.976643, 0, 0, -0.214867) /* sluicegolemgen */
+     , (7368, 1882116099, 49086725, 52.7771, -0.940095, -131.995, -0.976643, 0, 0, -0.214867) /* Sluice Golem Gen */
      , (22933, 1882116194, 49086725, 50.1181, 4.1404, -131.99, 0.01948, 0, 0, -0.99981) /* Mist Golem */
      , (5625, 1882116101, 49086729, 57.975, -6.93128E-08, -131.995, 0.707107, 0, 0, -0.707107) /* Door */
      , (6425, 1882116102, 49086730, 64.838, 1.65598E-07, -132, 0.707107, 0, 0, -0.707107) /* "Mini Mag-Ma!" */
@@ -94,53 +94,53 @@ VALUES (5489, 1882116096, 49086720, 30, -10, -150, 1, 0, 0, 0) /* "Mag-Ma!" */
      , (5857, 1882116187, 49086894, 70, -40, -84, -4.37114E-08, 0, 0, -1) /* Hot Air */
      , (1620, 1882116188, 49086896, 72.1601, -28.2369, -83.995, -0.406978, 0, 0, -0.913438) /* Injured Olthoi */
      , (5857, 1882116189, 49086896, 70, -30, -84, 1, 0, 0, 0) /* Hot Air */
-     , (7923, 1882116190, 49086896, 67.7145, -27.4929, -83.995, 0.997189, 0, 0, -0.07493) /* linkmonstergen3minutes */
+     , (7923, 1882116190, 49086896, 67.7145, -27.4929, -83.995, 0.997189, 0, 0, -0.07493) /* Linkable Monster Generator ( 3 Min.) */
      , (1620, 1882116107, 49086896, 73.0947, -33.6961, -83.995, 0.940138, 0, 0, 0.340794) /* Injured Olthoi */
      , (1620, 1882116219, 49086896, 67.5303, -32.8627, -83.995, 0.961815, 0, 0, -0.273701) /* Injured Olthoi */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882116190'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882116190'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116188'; /* linkmonstergen3minutes <- Injured Olthoi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116145'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116158'; /* linkmonstergen3minutes <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116182'; /* linkmonstergen3minutes <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116180'; /* linkmonstergen3minutes <- Umbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116181'; /* linkmonstergen3minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116168'; /* linkmonstergen3minutes <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116174'; /* linkmonstergen3minutes <- Umbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116176'; /* linkmonstergen3minutes <- Panumbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116146'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116154'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116117'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116179'; /* linkmonstergen3minutes <- Umbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116107'; /* linkmonstergen3minutes <- Injured Olthoi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116209'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116213'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116210'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116208'; /* linkmonstergen3minutes <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116211'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116198'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116197'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116100'; /* linkmonstergen3minutes <- Umbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116219'; /* linkmonstergen3minutes <- Injured Olthoi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116214'; /* linkmonstergen3minutes <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116217'; /* linkmonstergen3minutes <- Umbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116218'; /* linkmonstergen3minutes <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116216'; /* linkmonstergen3minutes <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116212'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116215'; /* linkmonstergen3minutes <- Umbris Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116195'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116202'; /* linkmonstergen3minutes <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116194'; /* linkmonstergen3minutes <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116193'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116191'; /* linkmonstergen3minutes <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116203'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116192'; /* linkmonstergen3minutes <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116196'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116199'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116205'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116204'; /* linkmonstergen3minutes <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116206'; /* linkmonstergen3minutes <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116201'; /* linkmonstergen3minutes <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116200'; /* linkmonstergen3minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116188'; /* Linkable Monster Generator ( 3 Min.) <- Injured Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116145'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116158'; /* Linkable Monster Generator ( 3 Min.) <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116182'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116180'; /* Linkable Monster Generator ( 3 Min.) <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116181'; /* Linkable Monster Generator ( 3 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116168'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116174'; /* Linkable Monster Generator ( 3 Min.) <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116176'; /* Linkable Monster Generator ( 3 Min.) <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116146'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116154'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116117'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116179'; /* Linkable Monster Generator ( 3 Min.) <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116107'; /* Linkable Monster Generator ( 3 Min.) <- Injured Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116209'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116213'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116210'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116208'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116211'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116198'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116197'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116100'; /* Linkable Monster Generator ( 3 Min.) <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116219'; /* Linkable Monster Generator ( 3 Min.) <- Injured Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116214'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116217'; /* Linkable Monster Generator ( 3 Min.) <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116218'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116216'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116212'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116215'; /* Linkable Monster Generator ( 3 Min.) <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116195'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116202'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116194'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116193'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116191'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116203'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116192'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116196'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116199'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116205'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116204'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116206'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116201'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882116200'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
 

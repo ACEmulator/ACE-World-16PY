@@ -2,7 +2,7 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (27858, 1881939991, 46268672, 97.1392, -61.7985, -41.9936, -0.778852, 0, 0, 0.627208) /* Muculent Moarsman */
      , (27854, 1881939992, 46268672, 102.078, -58.243, -41.9936, 0.0405271, 0, 0, 0.999178) /* Fetid Moarsman */
      , (27764, 1881939993, 46268680, 123.735, -40.7288, -41.07, 0.131758, 0, 0, -0.991282) /* Emerald Clasp */
-     , (15759, 1881939994, 46268680, 123.735, -40.7288, -41.07, 0.131758, 0, 0, -0.991282) /* linkitemgen10seconds */
+     , (15759, 1881939994, 46268680, 123.735, -40.7288, -41.07, 0.131758, 0, 0, -0.991282) /* Linkable Item Generator */
      , (27858, 1881939995, 46268680, 117.511, -37.7013, -41.9936, 0.24495, 0, 0, -0.969536) /* Muculent Moarsman */
      , (4246, 1881939996, 46268680, 122.482, -37.9728, -41.995, -0.249856, 0, 0, -0.968283) /* Rank Moarsman */
      , (27854, 1881939997, 46268698, 117.26, -77.7583, -41.9936, 0.798984, 0, 0, -0.601352) /* Fetid Moarsman */
@@ -35,43 +35,43 @@ VALUES (27858, 1881939991, 46268672, 97.1392, -61.7985, -41.9936, -0.778852, 0, 
      , (4246, 1881939987, 46268892, 65.2218, -58.7699, -11.995, 0.198779, 0, 0, 0.980044) /* Rank Moarsman */
      , (27854, 1881939988, 46268894, 60.8106, -79.3162, -5.991, -0.891157, 0, 0, 0.453695) /* Fetid Moarsman */
      , (8477, 1881939989, 46268901, 78.76, -52.626, 0.005, 1, 0, 0, 0) /* Surface Portal */
-     , (7923, 1881939990, 46268902, 80, -60, 0.005, 0, 0, 0, -1) /* linkmonstergen3minutes */;
+     , (7923, 1881939990, 46268902, 80, -60, 0.005, 0, 0, 0, -1) /* Linkable Monster Generator ( 3 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881939990'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881939994'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881939990'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881939994'; /* Linkable Item Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939988'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939986'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939987'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939985'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939981'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939982'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939983'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939978'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939984'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939977'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939976'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939980'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939969'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939968'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939975'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939973'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939972'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939971'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939979'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940005'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940004'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940003'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940000'; /* linkmonstergen3minutes <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940001'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940002'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940006'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939995'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939996'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939991'; /* linkmonstergen3minutes <- Muculent Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939992'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939997'; /* linkmonstergen3minutes <- Fetid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939998'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939999'; /* linkmonstergen3minutes <- Rank Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881939993'; /* linkitemgen10seconds <- Emerald Clasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939988'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939986'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939987'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939985'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939981'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939982'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939983'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939978'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939984'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939977'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939976'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939980'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939969'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939968'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939975'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939973'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939972'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939971'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939979'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940005'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940004'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940003'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940000'; /* Linkable Monster Generator ( 3 Min.) <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940001'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940002'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881940006'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939995'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939996'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939991'; /* Linkable Monster Generator ( 3 Min.) <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939992'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939997'; /* Linkable Monster Generator ( 3 Min.) <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939998'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881939999'; /* Linkable Monster Generator ( 3 Min.) <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881939993'; /* Linkable Item Generator <- Emerald Clasp */
 

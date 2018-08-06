@@ -11,20 +11,20 @@ VALUES (2577, 2077085696, 3168600064, 80.7535, 175.126, -0.895, -0.201833, 0, 0,
      , (2578, 2077085705, 3168600064, 44.5986, 126.503, -0.895, 0.782933, 0, 0, 0.622106) /* Shallows Lurker */
      , (2579, 2077085706, 3168600064, 59.3524, 136.437, -0.895, 0.909561, 0, 0, -0.415571) /* Shallows Slayer */
      , (2579, 2077085707, 3168600064, 69.66, 146.419, -0.895, 0.986242, 0, 0, -0.165309) /* Shallows Slayer */
-     , (1154, 2077085708, 3168600064, 117.02, 100.47, -0.095, -0.0429888, 0, 0, -0.999076) /* linkmonstergen */;
+     , (1154, 2077085708, 3168600064, 117.02, 100.47, -0.095, -0.0429888, 0, 0, -0.999076) /* Linkable Monster Generator */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2077085708'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2077085708'; /* Linkable Monster Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085696'; /* linkmonstergen <- Shallows Shark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085697'; /* linkmonstergen <- Shallows Shark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085698'; /* linkmonstergen <- Shallows Shark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085699'; /* linkmonstergen <- Shallows Shark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085700'; /* linkmonstergen <- Shallows Shark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085701'; /* linkmonstergen <- Shallows Shark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085702'; /* linkmonstergen <- Shallows Shark */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085703'; /* linkmonstergen <- Shallows Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085704'; /* linkmonstergen <- Shallows Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085705'; /* linkmonstergen <- Shallows Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085706'; /* linkmonstergen <- Shallows Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085707'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085696'; /* Linkable Monster Generator <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085697'; /* Linkable Monster Generator <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085698'; /* Linkable Monster Generator <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085699'; /* Linkable Monster Generator <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085700'; /* Linkable Monster Generator <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085701'; /* Linkable Monster Generator <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085702'; /* Linkable Monster Generator <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085703'; /* Linkable Monster Generator <- Shallows Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085704'; /* Linkable Monster Generator <- Shallows Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085705'; /* Linkable Monster Generator <- Shallows Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085706'; /* Linkable Monster Generator <- Shallows Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085707'; /* Linkable Monster Generator <- Shallows Slayer */
 

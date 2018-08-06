@@ -1,3 +1,3 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (14378, 1982, 2, 0) /* obsidianoutermixgen */;
+VALUES (14378, 1982, 2, 0) /* Obsidian Outer Mix Generator */;
 

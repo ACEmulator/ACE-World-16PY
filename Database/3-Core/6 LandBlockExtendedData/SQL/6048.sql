@@ -67,7 +67,7 @@ VALUES (14565, 1980006636, 1615331594, 93.8207, -179.305, -23.995, 0.012477, 0, 
      , (23489, 1980006461, 1615331776, 81.1, -36.6845, -5.971, -0.58593, 0, 0, 0.810362) /* Virindi Consul */
      , (23489, 1980006462, 1615331776, 80.7615, -40.2291, -5.971, -0.683756, 0, 0, 0.729711) /* Virindi Consul */
      , (23125, 1980006630, 1615331776, 76.606, -43.4486, -5.981, 0.287925, 0, 0, 0.957653) /* Misty Message Shard */
-     , (15759, 1980006631, 1615331776, 79.8692, -43.4742, -5.995, 0.997462, 0, 0, -0.0712028) /* linkitemgen10seconds */
+     , (15759, 1980006631, 1615331776, 79.8692, -43.4742, -5.995, 0.997462, 0, 0, -0.0712028) /* Linkable Item Generator */
      , (14450, 1980006463, 1615331777, 88.5134, 3.00022, -5.995, 0, 0, 0, -1) /* Captured Adventurer  */
      , (22907, 1980006464, 1615331781, 92.867, -12.7491, -5.995, 0.999965, 0, 0, -0.00837) /* Sanatorium Chest */
      , (22907, 1980006465, 1615331784, 87.8644, -21.6715, -5.995, 0.720253, 0, 0, 0.693712) /* Sanatorium Chest */
@@ -91,7 +91,7 @@ VALUES (14565, 1980006636, 1615331594, 93.8207, -179.305, -23.995, 0.012477, 0, 
      , (1302, 1980006482, 1615331860, 84.75, -110, 0.005, 0.707107, 0, 0, -0.707107) /* Door */
      , (2179, 1980006483, 1615331875, 100, -94.75, 0.005, -4.37114E-08, 0, 0, -1) /* Door */
      , (14565, 1980006633, 1615331875, 98.7501, -88.216, 0.005, -0.031067, 0, 0, 0.999517) /* Lever */
-     , (7924, 1980006484, 1615331877, 100, -110, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7924, 1980006484, 1615331877, 100, -110, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
      , (2179, 1980006485, 1615331879, 100, -125.25, 0.005, 1, 0, 0, 0) /* Door */
      , (14565, 1980006634, 1615331879, 98.7525, -131.46, 0.005, 0.00327, 0, 0, -0.999995) /* Lever */
      , (2179, 1980006486, 1615331892, 115.25, -110, 0.005, -0.707107, 0, 0, -0.707107) /* Door */
@@ -259,9 +259,9 @@ UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1980006470'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1980006420'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1980006424'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1980006484'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1980006484'; /* Linkable Monster Generator ( 5 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1980006471'; /* Magic trap */
-UPDATE `landblock_instances` SET `link_Slot`='25', `link_Controller`=True WHERE `guid`='1980006631'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='25', `link_Controller`=True WHERE `guid`='1980006631'; /* Linkable Item Generator */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1980006562'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1980006579'; /* Door <- Lever */
@@ -296,143 +296,143 @@ UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1980006425'; /* 
 UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1980006413'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1980006410'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1980006417'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006513'; /* linkmonstergen5minutes <- Soiled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006516'; /* linkmonstergen5minutes <- Soiled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006445'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006446'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006480'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006481'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006529'; /* linkmonstergen5minutes <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006530'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006527'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006528'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006542'; /* linkmonstergen5minutes <- Drudge Bloodletter */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006553'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006540'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006541'; /* linkmonstergen5minutes <- Drudge Bloodletter */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006532'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006533'; /* linkmonstergen5minutes <- Ascendant Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006558'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006546'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006548'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006549'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006534'; /* linkmonstergen5minutes <- Ascendant Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006547'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006561'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006554'; /* linkmonstergen5minutes <- Soiled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006559'; /* linkmonstergen5minutes <- Malignant Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006560'; /* linkmonstergen5minutes <- Malignant Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006594'; /* linkmonstergen5minutes <- Unconquered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006595'; /* linkmonstergen5minutes <- Unconquered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006555'; /* linkmonstergen5minutes <- Ascendant Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006556'; /* linkmonstergen5minutes <- Unconquered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006626'; /* linkmonstergen5minutes <- Ascendant Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006617'; /* linkmonstergen5minutes <- Ascendant Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006596'; /* linkmonstergen5minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006625'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006606'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006607'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006618'; /* linkmonstergen5minutes <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006619'; /* linkmonstergen5minutes <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006610'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006598'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006608'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006609'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006601'; /* linkmonstergen5minutes <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006602'; /* linkmonstergen5minutes <- Drudge Bloodletter */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006599'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006600'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006612'; /* linkmonstergen5minutes <- Unconquered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006622'; /* linkmonstergen5minutes <- Soiled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006620'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006621'; /* linkmonstergen5minutes <- Unconquered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006587'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006566'; /* linkmonstergen5minutes <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006623'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006586'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006574'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006575'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006567'; /* linkmonstergen5minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006568'; /* linkmonstergen5minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006565'; /* linkmonstergen5minutes <- Ascendant Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006569'; /* linkmonstergen5minutes <- Ascendant Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006563'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006564'; /* linkmonstergen5minutes <- Unconquered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006581'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006582'; /* linkmonstergen5minutes <- Drudge Bloodletter */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006570'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006580'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006415'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006578'; /* linkmonstergen5minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006414'; /* linkmonstergen5minutes <- Soiled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006588'; /* linkmonstergen5minutes <- Drudge Bloodletter */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006427'; /* linkmonstergen5minutes <- Drudge Bloodletter */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006576'; /* linkmonstergen5minutes <- Soiled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006426'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006577'; /* linkmonstergen5minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006459'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006613'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006614'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006589'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006478'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006590'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006479'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006439'; /* linkmonstergen5minutes <- Ascendant Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006460'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006437'; /* linkmonstergen5minutes <- Unconquered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006462'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006441'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006461'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006443'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006450'; /* linkmonstergen5minutes <- Drudge Bloodletter */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006448'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006452'; /* linkmonstergen5minutes <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006455'; /* linkmonstergen5minutes <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006418'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006419'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006430'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006431'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006423'; /* linkmonstergen5minutes <- Unconquered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006432'; /* linkmonstergen5minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006421'; /* linkmonstergen5minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006422'; /* linkmonstergen5minutes <- Soiled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006406'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006404'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006433'; /* linkmonstergen5minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006403'; /* linkmonstergen5minutes <- Shadow Spectre */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006409'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006401'; /* linkmonstergen5minutes <- The Auditor */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006407'; /* linkmonstergen5minutes <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006408'; /* linkmonstergen5minutes <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006518'; /* linkmonstergen5minutes <- Peerless Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006521'; /* linkmonstergen5minutes <- Ascendant Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006522'; /* linkmonstergen5minutes <- Drudge Cabalist */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006519'; /* linkmonstergen5minutes <- Unconquered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006520'; /* linkmonstergen5minutes <- Unconquered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006503'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006504'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006501'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006502'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006490'; /* linkmonstergen5minutes <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006491'; /* linkmonstergen5minutes <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006488'; /* linkmonstergen5minutes <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006489'; /* linkmonstergen5minutes <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006495'; /* linkmonstergen5minutes <- Soiled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006496'; /* linkmonstergen5minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006492'; /* linkmonstergen5minutes <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006494'; /* linkmonstergen5minutes <- Soiled Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006509'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006510'; /* linkmonstergen5minutes <- Desecrated Doll */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006497'; /* linkmonstergen5minutes <- Telumiat Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006508'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006526'; /* linkmonstergen5minutes <- Ascendant Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006536'; /* linkmonstergen5minutes <- Unconquered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006524'; /* linkmonstergen5minutes <- Drudge Bloodletter */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006525'; /* linkmonstergen5minutes <- Ascendant Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006513'; /* Linkable Monster Generator ( 5 Min.) <- Soiled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006516'; /* Linkable Monster Generator ( 5 Min.) <- Soiled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006445'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006446'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006480'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006481'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006529'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006530'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006527'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006528'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006542'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Bloodletter */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006553'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006540'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006541'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Bloodletter */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006532'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006533'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006558'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006546'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006548'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006549'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006534'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006547'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006561'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006554'; /* Linkable Monster Generator ( 5 Min.) <- Soiled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006559'; /* Linkable Monster Generator ( 5 Min.) <- Malignant Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006560'; /* Linkable Monster Generator ( 5 Min.) <- Malignant Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006594'; /* Linkable Monster Generator ( 5 Min.) <- Unconquered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006595'; /* Linkable Monster Generator ( 5 Min.) <- Unconquered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006555'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006556'; /* Linkable Monster Generator ( 5 Min.) <- Unconquered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006626'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006617'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006596'; /* Linkable Monster Generator ( 5 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006625'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006606'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006607'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006618'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006619'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006610'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006598'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006608'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006609'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006601'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006602'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Bloodletter */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006599'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006600'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006612'; /* Linkable Monster Generator ( 5 Min.) <- Unconquered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006622'; /* Linkable Monster Generator ( 5 Min.) <- Soiled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006620'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006621'; /* Linkable Monster Generator ( 5 Min.) <- Unconquered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006587'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006566'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006623'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006586'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006574'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006575'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006567'; /* Linkable Monster Generator ( 5 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006568'; /* Linkable Monster Generator ( 5 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006565'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006569'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006563'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006564'; /* Linkable Monster Generator ( 5 Min.) <- Unconquered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006581'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006582'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Bloodletter */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006570'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006580'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006415'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006578'; /* Linkable Monster Generator ( 5 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006414'; /* Linkable Monster Generator ( 5 Min.) <- Soiled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006588'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Bloodletter */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006427'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Bloodletter */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006576'; /* Linkable Monster Generator ( 5 Min.) <- Soiled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006426'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006577'; /* Linkable Monster Generator ( 5 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006459'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006613'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006614'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006589'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006478'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006590'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006479'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006439'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006460'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006437'; /* Linkable Monster Generator ( 5 Min.) <- Unconquered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006462'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006441'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006461'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006443'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006450'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Bloodletter */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006448'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006452'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006455'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006418'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006419'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006430'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006431'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006423'; /* Linkable Monster Generator ( 5 Min.) <- Unconquered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006432'; /* Linkable Monster Generator ( 5 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006421'; /* Linkable Monster Generator ( 5 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006422'; /* Linkable Monster Generator ( 5 Min.) <- Soiled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006406'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006404'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006433'; /* Linkable Monster Generator ( 5 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006403'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Spectre */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006409'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006401'; /* Linkable Monster Generator ( 5 Min.) <- The Auditor */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006407'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006408'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006518'; /* Linkable Monster Generator ( 5 Min.) <- Peerless Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006521'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006522'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Cabalist */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006519'; /* Linkable Monster Generator ( 5 Min.) <- Unconquered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006520'; /* Linkable Monster Generator ( 5 Min.) <- Unconquered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006503'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006504'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006501'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006502'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006490'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006491'; /* Linkable Monster Generator ( 5 Min.) <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006488'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006489'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006495'; /* Linkable Monster Generator ( 5 Min.) <- Soiled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006496'; /* Linkable Monster Generator ( 5 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006492'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006494'; /* Linkable Monster Generator ( 5 Min.) <- Soiled Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006509'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006510'; /* Linkable Monster Generator ( 5 Min.) <- Desecrated Doll */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006497'; /* Linkable Monster Generator ( 5 Min.) <- Telumiat Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006508'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006526'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006536'; /* Linkable Monster Generator ( 5 Min.) <- Unconquered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006524'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Bloodletter */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1980006525'; /* Linkable Monster Generator ( 5 Min.) <- Ascendant Drudge */
 UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1980006472'; /* Magic trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1980006630'; /* linkitemgen10seconds <- Misty Message Shard */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1980006627'; /* linkitemgen10seconds <- Shimmering Message Shard */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1980006629'; /* linkitemgen10seconds <- Chipped Message Shard */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1980006628'; /* linkitemgen10seconds <- Warped Message Shard */
-UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1980006632'; /* linkitemgen10seconds <- Twisted Message Shard */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1980006630'; /* Linkable Item Generator <- Misty Message Shard */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1980006627'; /* Linkable Item Generator <- Shimmering Message Shard */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1980006629'; /* Linkable Item Generator <- Chipped Message Shard */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1980006628'; /* Linkable Item Generator <- Warped Message Shard */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1980006632'; /* Linkable Item Generator <- Twisted Message Shard */
 

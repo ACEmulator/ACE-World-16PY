@@ -47,9 +47,9 @@ VALUES (8364, 1881972736, 46792962, 239.717, -1.59301, -5.995, 0.0223644, 0, 0, 
      , (2131, 1881972781, 46793278, 129.993, -163.456, 0.005, 0.004055, 0, 0, 0.999992) /* Pressure Plate */
      , (947, 1881972782, 46793283, 131.045, -202.987, 0.0055, 0.020795, 0, 0, 0.999784) /* Barker Mosswart */
      , (947, 1881972783, 46793283, 129.634, -202.999, 0.0055, -0.004204, 0, 0, 0.999991) /* Barker Mosswart */
-     , (7924, 1881972784, 46793287, 130.135, -220.037, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
-     , (4142, 1881972785, 46793287, 128.189, -220.56, 0.005, 0.988771, 0, 0, 0.149438) /* linkitemgen2minutes */
-     , (7923, 1881972786, 46793287, 131.896, -220, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (7924, 1881972784, 46793287, 130.135, -220.037, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
+     , (4142, 1881972785, 46793287, 128.189, -220.56, 0.005, 0.988771, 0, 0, 0.149438) /* Linkable Item Generator */
+     , (7923, 1881972786, 46793287, 131.896, -220, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
      , (211, 1881972787, 46793312, 149.495, -72.6132, 0.0055, -0.058282, 0, 0, -0.9983) /* Mudlurk Mosswart */
      , (211, 1881972788, 46793312, 149.726, -70.6407, 0.0055, -0.058282, 0, 0, -0.9983) /* Mudlurk Mosswart */
      , (211, 1881972789, 46793312, 149.235, -74.8304, 0.055, -0.058282, 0, 0, -0.9983) /* Mudlurk Mosswart */
@@ -87,84 +87,84 @@ VALUES (8364, 1881972736, 46792962, 239.717, -1.59301, -5.995, 0.0223644, 0, 0, 
      , (947, 1881972821, 46793512, 282.491, -189.501, 0.0055, -0.999094, 0, 0, -0.042551) /* Barker Mosswart */
      , (1925, 1881972822, 46793512, 276.07, -185.897, 0.005, -0.999802, 0, 0, 0.019916) /* Chest */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881972784'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881972785'; /* linkitemgen2minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881972786'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881972784'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881972785'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881972786'; /* Linkable Monster Generator ( 3 Min.) */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881972778'; /* Whirling Blade Trap */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1881972780'; /* Whirling Blade Trap */
 UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1881972775'; /* Whirling Blade Trap */
 UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1881972763'; /* Whirling Blade Trap */
 UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1881972771'; /* Whirling Blade Trap */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972782'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972783'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972792'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972793'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972791'; /* linkmonstergen5minutes <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972804'; /* linkmonstergen5minutes <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972790'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972807'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972809'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972808'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972806'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972810'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972814'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972815'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972816'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972812'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972811'; /* linkmonstergen5minutes <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972813'; /* linkmonstergen5minutes <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972819'; /* linkmonstergen5minutes <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972820'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972821'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972818'; /* linkmonstergen5minutes <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972817'; /* linkmonstergen5minutes <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972803'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972768'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972769'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972770'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972765'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972766'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972761'; /* linkmonstergen5minutes <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972774'; /* linkmonstergen5minutes <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972777'; /* linkmonstergen5minutes <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972800'; /* linkmonstergen5minutes <- Mosswart Chief */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972801'; /* linkmonstergen5minutes <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972802'; /* linkmonstergen5minutes <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972795'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972796'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972797'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972787'; /* linkmonstergen5minutes <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972788'; /* linkmonstergen5minutes <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972789'; /* linkmonstergen5minutes <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972799'; /* linkmonstergen5minutes <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972798'; /* linkmonstergen5minutes <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972758'; /* linkmonstergen5minutes <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972759'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972760'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972744'; /* linkmonstergen5minutes <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972745'; /* linkmonstergen5minutes <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972748'; /* linkmonstergen5minutes <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972752'; /* linkmonstergen5minutes <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972753'; /* linkmonstergen5minutes <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972756'; /* linkmonstergen5minutes <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972755'; /* linkmonstergen5minutes <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972757'; /* linkmonstergen5minutes <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972746'; /* linkmonstergen5minutes <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972751'; /* linkmonstergen5minutes <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972754'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972750'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972749'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972747'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972743'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972740'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972741'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972739'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972742'; /* linkmonstergen5minutes <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881972794'; /* linkitemgen2minutes <- A Dry Withered Leather Bound Journal */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881972736'; /* linkitemgen2minutes <- Banderling Mace Head */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881972737'; /* linkmonstergen3minutes <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881972738'; /* linkmonstergen3minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972782'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972783'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972792'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972793'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972791'; /* Linkable Monster Generator ( 5 Min.) <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972804'; /* Linkable Monster Generator ( 5 Min.) <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972790'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972807'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972809'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972808'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972806'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972810'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972814'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972815'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972816'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972812'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972811'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972813'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972819'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972820'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972821'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972818'; /* Linkable Monster Generator ( 5 Min.) <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972817'; /* Linkable Monster Generator ( 5 Min.) <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972803'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972768'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972769'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972770'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972765'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972766'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972761'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972774'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972777'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972800'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Chief */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972801'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972802'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972795'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972796'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972797'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972787'; /* Linkable Monster Generator ( 5 Min.) <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972788'; /* Linkable Monster Generator ( 5 Min.) <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972789'; /* Linkable Monster Generator ( 5 Min.) <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972799'; /* Linkable Monster Generator ( 5 Min.) <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972798'; /* Linkable Monster Generator ( 5 Min.) <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972758'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972759'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972760'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972744'; /* Linkable Monster Generator ( 5 Min.) <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972745'; /* Linkable Monster Generator ( 5 Min.) <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972748'; /* Linkable Monster Generator ( 5 Min.) <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972752'; /* Linkable Monster Generator ( 5 Min.) <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972753'; /* Linkable Monster Generator ( 5 Min.) <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972756'; /* Linkable Monster Generator ( 5 Min.) <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972755'; /* Linkable Monster Generator ( 5 Min.) <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972757'; /* Linkable Monster Generator ( 5 Min.) <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972746'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972751'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972754'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972750'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972749'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972747'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972743'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972740'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972741'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972739'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881972742'; /* Linkable Monster Generator ( 5 Min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881972794'; /* Linkable Item Generator <- A Dry Withered Leather Bound Journal */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881972736'; /* Linkable Item Generator <- Banderling Mace Head */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881972737'; /* Linkable Monster Generator ( 3 Min.) <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881972738'; /* Linkable Monster Generator ( 3 Min.) <- Goldenback Tusker */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881972779'; /* Whirling Blade Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881972781'; /* Whirling Blade Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881972776'; /* Whirling Blade Trap <- Pressure Plate */

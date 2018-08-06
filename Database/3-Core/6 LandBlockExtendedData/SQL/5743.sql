@@ -2,7 +2,7 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (14522, 1970548756, 1464008960, 3.71956, -48.6704, -11.99, 0.231058, 0, 0, -0.97294) /* Unstable Glacial Golem */
      , (20191, 1970548757, 1464008962, 10.7875, -48.5094, -11.995, -0.032973, 0, 0, -0.999456) /* Horripal */
      , (22003, 1970548754, 1464008963, 9.94172, -57.9071, -11.9825, 0.999687, 0, 0, -0.0249976) /* Glacial Golem Margrave */
-     , (3955, 1970548758, 1464008963, 9.87969, -57.8009, -11.995, 0.999687, 0, 0, -0.0249976) /* linkmonstergen15minutes */
+     , (3955, 1970548758, 1464008963, 9.87969, -57.8009, -11.995, 0.999687, 0, 0, -0.0249976) /* Linkable Monster Gen (15 min.) */
      , (14521, 1970548759, 1464008964, 17.4751, -49.6183, -11.99, -0.423237, 0, 0, -0.906019) /* Glacial Golem */
      , (14518, 1970548736, 1464008976, 9.8764, -18.9368, -5.993, -0.9982, 0, 0, 0.05998) /* Shivver */
      , (20191, 1970548737, 1464008990, 3.0429, -0.685003, 0.005, -0.635616, 0, 0, 0.772005) /* Horripal */
@@ -16,25 +16,25 @@ VALUES (14522, 1970548756, 1464008960, 3.71956, -48.6704, -11.99, 0.231058, 0, 0
      , (20191, 1970548745, 1464009024, 52.4223, -39.2598, 0.005, -0.999377, 0, 0, 0.0353058) /* Horripal */
      , (201, 1970548746, 1464009025, 58.5354, -32.9997, 0.01, -0.712798, 0, 0, -0.70137) /* Obsidian Golem */
      , (14518, 1970548747, 1464009026, 58.6484, -39.7003, 0.007, -0.999377, 0, 0, 0.035306) /* Shivver */
-     , (7924, 1970548748, 1464009034, 47.6846, -1.11617, 6.005, 0.00274642, 0, 0, -0.999996) /* linkmonstergen5minutes */;
+     , (7924, 1970548748, 1464009034, 47.6846, -1.11617, 6.005, 0.00274642, 0, 0, -0.999996) /* Linkable Monster Generator ( 5 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1970548748'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1970548758'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1970548748'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1970548758'; /* Linkable Monster Gen (15 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548741'; /* linkmonstergen5minutes <- Shivver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548742'; /* linkmonstergen5minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548743'; /* linkmonstergen5minutes <- Shivver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548744'; /* linkmonstergen5minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548745'; /* linkmonstergen5minutes <- Horripal */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548747'; /* linkmonstergen5minutes <- Shivver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548746'; /* linkmonstergen5minutes <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548739'; /* linkmonstergen5minutes <- Shivver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548740'; /* linkmonstergen5minutes <- Glacial Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548738'; /* linkmonstergen5minutes <- Glacial Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548737'; /* linkmonstergen5minutes <- Horripal */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548736'; /* linkmonstergen5minutes <- Shivver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548757'; /* linkmonstergen5minutes <- Horripal */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548756'; /* linkmonstergen5minutes <- Unstable Glacial Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548759'; /* linkmonstergen5minutes <- Glacial Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1970548754'; /* linkmonstergen15minutes <- Glacial Golem Margrave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548741'; /* Linkable Monster Generator ( 5 Min.) <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548742'; /* Linkable Monster Generator ( 5 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548743'; /* Linkable Monster Generator ( 5 Min.) <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548744'; /* Linkable Monster Generator ( 5 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548745'; /* Linkable Monster Generator ( 5 Min.) <- Horripal */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548747'; /* Linkable Monster Generator ( 5 Min.) <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548746'; /* Linkable Monster Generator ( 5 Min.) <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548739'; /* Linkable Monster Generator ( 5 Min.) <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548740'; /* Linkable Monster Generator ( 5 Min.) <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548738'; /* Linkable Monster Generator ( 5 Min.) <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548737'; /* Linkable Monster Generator ( 5 Min.) <- Horripal */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548736'; /* Linkable Monster Generator ( 5 Min.) <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548757'; /* Linkable Monster Generator ( 5 Min.) <- Horripal */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548756'; /* Linkable Monster Generator ( 5 Min.) <- Unstable Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970548759'; /* Linkable Monster Generator ( 5 Min.) <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1970548754'; /* Linkable Monster Gen (15 min.) <- Glacial Golem Margrave */
 

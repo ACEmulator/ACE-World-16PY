@@ -110,7 +110,7 @@ VALUES (7179, 2078216346, 3186688256, 109.358, 103.113, 42.065, -0.939271, 0, 0,
      , (28050, 2078216318, 3186688000, 41.0561, 88.7993, -0.0870001, -0.716712, 0, 0, -0.697369) /* Ancient Coral Golem */
      , (28051, 2078216319, 3186688000, 40.6901, 152.618, -0.0870001, 0.724406, 0, 0, 0.689374) /* Ancient Coral Golem */
      , (28247, 2078216320, 3186688000, 108.245, 14.1475, 12.42, -0.0156777, 0, 0, -0.999877) /* Sapphire Golem */
-     , (7924, 2078216321, 3186688000, 137.173, 13.787, -0.095, -0.999708, 0, 0, 0.0241638) /* linkmonstergen5minutes */
+     , (7924, 2078216321, 3186688000, 137.173, 13.787, -0.095, -0.999708, 0, 0, 0.0241638) /* Linkable Monster Generator ( 5 Min.) */
      , (7421, 2078216322, 3186688000, 75.4372, 50.2602, 30.01, -0.0103168, 0, 0, -0.999947) /* Diamond Golem */
      , (7421, 2078216323, 3186688000, 141.395, 50.2564, 30.01, 0.0745788, 0, 0, -0.997215) /* Diamond Golem */
      , (7421, 2078216324, 3186688000, 139.69, 141.824, 30.01, -0.998523, 0, 0, -0.0543214) /* Diamond Golem */
@@ -181,7 +181,7 @@ UPDATE `landblock_instances` SET `link_Slot`='45', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='46', `link_Controller`=True WHERE `guid`='2078216309'; /* Empyrean magical defense battery */
 UPDATE `landblock_instances` SET `link_Slot`='47', `link_Controller`=True WHERE `guid`='2078216310'; /* Empyrean magical defense battery */
 UPDATE `landblock_instances` SET `link_Slot`='48', `link_Controller`=True WHERE `guid`='2078216202'; /* Empyrean magical defense battery */
-UPDATE `landblock_instances` SET `link_Slot`='49', `link_Controller`=True WHERE `guid`='2078216321'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='49', `link_Controller`=True WHERE `guid`='2078216321'; /* Linkable Monster Generator ( 5 Min.) */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2078216217'; /* Empyrean magical defense battery <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2078216221'; /* Empyrean magical defense battery <- Pressure Plate */
@@ -231,36 +231,36 @@ UPDATE `landblock_instances` SET `link_Slot`='45' WHERE `guid`='2078216286'; /* 
 UPDATE `landblock_instances` SET `link_Slot`='46' WHERE `guid`='2078216285'; /* Empyrean magical defense battery <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='47' WHERE `guid`='2078216284'; /* Empyrean magical defense battery <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='48' WHERE `guid`='2078216290'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216312'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216315'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216316'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216313'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216314'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216319'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216320'; /* linkmonstergen5minutes <- Sapphire Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216317'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216318'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216323'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216324'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216322'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216327'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216328'; /* linkmonstergen5minutes <- Sapphire Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216325'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216326'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216330'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216331'; /* linkmonstergen5minutes <- Plasma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216329'; /* linkmonstergen5minutes <- Platinum Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216334'; /* linkmonstergen5minutes <- Dark Master */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216335'; /* linkmonstergen5minutes <- Dark Master */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216332'; /* linkmonstergen5minutes <- Great Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216333'; /* linkmonstergen5minutes <- Great Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216338'; /* linkmonstergen5minutes <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216339'; /* linkmonstergen5minutes <- Sapphire Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216336'; /* linkmonstergen5minutes <- Dark Master */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216337'; /* linkmonstergen5minutes <- Armored Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216340'; /* linkmonstergen5minutes <- Sapphire Golem */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216341'; /* linkmonstergen5minutes <- Spectral Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216345'; /* linkmonstergen5minutes <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216346'; /* linkmonstergen5minutes <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216344'; /* linkmonstergen5minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216312'; /* Linkable Monster Generator ( 5 Min.) <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216315'; /* Linkable Monster Generator ( 5 Min.) <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216316'; /* Linkable Monster Generator ( 5 Min.) <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216313'; /* Linkable Monster Generator ( 5 Min.) <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216314'; /* Linkable Monster Generator ( 5 Min.) <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216319'; /* Linkable Monster Generator ( 5 Min.) <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216320'; /* Linkable Monster Generator ( 5 Min.) <- Sapphire Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216317'; /* Linkable Monster Generator ( 5 Min.) <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216318'; /* Linkable Monster Generator ( 5 Min.) <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216323'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216324'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216322'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216327'; /* Linkable Monster Generator ( 5 Min.) <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216328'; /* Linkable Monster Generator ( 5 Min.) <- Sapphire Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216325'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216326'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216330'; /* Linkable Monster Generator ( 5 Min.) <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216331'; /* Linkable Monster Generator ( 5 Min.) <- Plasma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216329'; /* Linkable Monster Generator ( 5 Min.) <- Platinum Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216334'; /* Linkable Monster Generator ( 5 Min.) <- Dark Master */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216335'; /* Linkable Monster Generator ( 5 Min.) <- Dark Master */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216332'; /* Linkable Monster Generator ( 5 Min.) <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216333'; /* Linkable Monster Generator ( 5 Min.) <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216338'; /* Linkable Monster Generator ( 5 Min.) <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216339'; /* Linkable Monster Generator ( 5 Min.) <- Sapphire Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216336'; /* Linkable Monster Generator ( 5 Min.) <- Dark Master */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216337'; /* Linkable Monster Generator ( 5 Min.) <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216340'; /* Linkable Monster Generator ( 5 Min.) <- Sapphire Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216341'; /* Linkable Monster Generator ( 5 Min.) <- Spectral Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216345'; /* Linkable Monster Generator ( 5 Min.) <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216346'; /* Linkable Monster Generator ( 5 Min.) <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216344'; /* Linkable Monster Generator ( 5 Min.) <- Relic Bones */
 

@@ -12,17 +12,17 @@ VALUES (8127, 1918128128, 625278976, 129.674, 123.416, 0.00500003, 0.714544, 0, 
      , (11534, 1918128138, 625278976, 122.525, 137.352, 0.015, 0.384933, 0, 0, -0.922945) /* Enku Zefir */
      , (11534, 1918128139, 625278976, 137.387, 137.358, 0.015, -0.381184, 0, 0, -0.924499) /* Enku Zefir */
      , (11534, 1918128140, 625278976, 137.569, 122.701, 0.015, -0.910911, 0, 0, -0.412604) /* Enku Zefir */
-     , (7924, 1918128141, 625278976, 125.736, 134.225, 0.005, 0.932103, 0, 0, 0.362192) /* linkmonstergen5minutes */;
+     , (7924, 1918128141, 625278976, 125.736, 134.225, 0.005, 0.932103, 0, 0, 0.362192) /* Linkable Monster Generator ( 5 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1918128141'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1918128141'; /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128132'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128133'; /* linkmonstergen5minutes <- Stasis Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128134'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128135'; /* linkmonstergen5minutes <- Tempest Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128136'; /* linkmonstergen5minutes <- Chaos Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128137'; /* linkmonstergen5minutes <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128138'; /* linkmonstergen5minutes <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128139'; /* linkmonstergen5minutes <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128140'; /* linkmonstergen5minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128132'; /* Linkable Monster Generator ( 5 Min.) <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128133'; /* Linkable Monster Generator ( 5 Min.) <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128134'; /* Linkable Monster Generator ( 5 Min.) <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128135'; /* Linkable Monster Generator ( 5 Min.) <- Tempest Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128136'; /* Linkable Monster Generator ( 5 Min.) <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128137'; /* Linkable Monster Generator ( 5 Min.) <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128138'; /* Linkable Monster Generator ( 5 Min.) <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128139'; /* Linkable Monster Generator ( 5 Min.) <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128140'; /* Linkable Monster Generator ( 5 Min.) <- Enku Zefir */
 

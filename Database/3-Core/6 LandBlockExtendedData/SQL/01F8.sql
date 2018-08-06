@@ -27,10 +27,10 @@ VALUES (24032, 1881112576, 33030403, 110.896, -50.04, -5.992, 0, 0, 0, -1) /* Ro
      , (2031, 1881112602, 33030586, 231.274, -120.043, -5.969, -4.37114E-08, 0, 0, -1) /* Branith's Staff */
      , (1094, 1881112603, 33030592, 1.4461, -91.3579, 0.328929, 0.33843, 0, 0, -0.940992) /* Surface */
      , (24032, 1881112604, 33030598, 10.722, -61.859, 0.008, -0.707107, 0, 0, -0.707107) /* Royal Mite Squire */
-     , (4219, 1881112686, 33030610, 9.16629, -91.7547, 0.005, -0.999897, 0, 0, -0.0143861) /* linkmonstergen7minutes */
-     , (4219, 1881112687, 33030610, 7.83524, -91.8064, 0.005, -0.999897, 0, 0, -0.0143861) /* linkmonstergen7minutes */
-     , (4219, 1881112688, 33030610, 8.49455, -91.7874, 0.005, -0.999897, 0, 0, -0.0143861) /* linkmonstergen7minutes */
-     , (7923, 1881112689, 33030610, 7.13658, -91.8132, 0.005, -0.999897, 0, 0, -0.0143861) /* linkmonstergen3minutes */
+     , (4219, 1881112686, 33030610, 9.16629, -91.7547, 0.005, -0.999897, 0, 0, -0.0143861) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1881112687, 33030610, 7.83524, -91.8064, 0.005, -0.999897, 0, 0, -0.0143861) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1881112688, 33030610, 8.49455, -91.7874, 0.005, -0.999897, 0, 0, -0.0143861) /* Linkable Monster Generator ( 7 Min.) */
+     , (7923, 1881112689, 33030610, 7.13658, -91.8132, 0.005, -0.999897, 0, 0, -0.0143861) /* Linkable Monster Generator ( 3 Min.) */
      , (24031, 1881112607, 33030614, 21.913, -49.759, 0.007, 0.707107, 0, 0, -0.707107) /* Royal Mite Sentry */
      , (24032, 1881112608, 33030637, 28.0814, -38.5574, 0.008, 0.707107, 0, 0, -0.707107) /* Royal Mite Squire */
      , (217, 1881112609, 33030656, 33.5444, -99.9866, 0.012, 1, 0, 0, 0) /* Gold Phyntos Wasp */
@@ -96,108 +96,108 @@ VALUES (24032, 1881112576, 33030403, 110.896, -50.04, -5.992, 0, 0, 0, -1) /* Ro
      , (24032, 1881112677, 33031196, 35.93, -79.3848, 12.008, -0.216653, 0, 0, -0.976249) /* Royal Mite Squire */
      , (24032, 1881112678, 33031196, 37.7103, -80.0082, 12.055, -0.216653, 0, 0, -0.976249) /* Royal Mite Squire */
      , (24032, 1881112679, 33031198, 37.8867, -89.465, 12.008, 0.268499, 0, 0, -0.96328) /* Royal Mite Squire */
-     , (4024, 1881112680, 33031219, 50.7624, -62.0731, 12, 1, 0, 0, 0) /* itemmedglittergen */
+     , (4024, 1881112680, 33031219, 50.7624, -62.0731, 12, 1, 0, 0, 0) /* Cheap Glitter Generator */
      , (24031, 1881112681, 33031237, 58.3549, -67.8333, 12.1429, -4.37114E-08, 0, 0, -1) /* Royal Mite Sentry */
      , (24031, 1881112682, 33031238, 56.5939, -77.5925, 12.2836, -0.992797, 0, 0, -0.119812) /* Royal Mite Sentry */
      , (24032, 1881112683, 33031239, 58.7557, -97.5265, 12.008, -0.504339, 0, 0, -0.863506) /* Royal Mite Squire */
      , (24030, 1881112684, 33031239, 63.3765, -102.419, 12.009, 0.528531, 0, 0, -0.848914) /* Royal Mite Matron */
      , (24032, 1881112685, 33031258, 61.177, -139.024, 12.008, 1, 0, 0, 0) /* Royal Mite Squire */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881112689'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881112686'; /* linkmonstergen7minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881112687'; /* linkmonstergen7minutes */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881112688'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881112689'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881112686'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881112687'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881112688'; /* Linkable Monster Generator ( 7 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112602'; /* linkmonstergen3minutes <- Branith's Staff */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112659'; /* linkmonstergen3minutes <- Branith's Shirt */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112581'; /* linkmonstergen3minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112593'; /* linkmonstergen3minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112592'; /* linkmonstergen3minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112594'; /* linkmonstergen3minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112590'; /* linkmonstergen3minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112589'; /* linkmonstergen3minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112588'; /* linkmonstergen3minutes <- Tusker Redeemer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112585'; /* linkmonstergen3minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112587'; /* linkmonstergen3minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112601'; /* linkmonstergen3minutes <- Mite Warrior Queen */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112600'; /* linkmonstergen3minutes <- Royal Mite Matron */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112599'; /* linkmonstergen3minutes <- Royal Mite Matron */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112597'; /* linkmonstergen3minutes <- Royal Mite Matron */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112591'; /* linkmonstergen3minutes <- Royal Mite Matron */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112595'; /* linkmonstergen3minutes <- Royal Mite Matron */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112670'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112669'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112679'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112678'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112665'; /* linkmonstergen7minutes <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112677'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112660'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112668'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112682'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112664'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112681'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112674'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112673'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112596'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112663'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112671'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112672'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112685'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112633'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112666'; /* linkmonstergen7minutes <- Cow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112632'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112621'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112614'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112613'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112658'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112661'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112662'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112608'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112642'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112641'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112648'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112646'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112653'; /* linkmonstergen7minutes <- Harlune the Misanthrope */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112640'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112656'; /* linkmonstergen7minutes <- Alfrega the Reedshark */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112639'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112620'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112683'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112612'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112684'; /* linkmonstergen7minutes <- Royal Mite Matron */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112610'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112609'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112611'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112604'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112607'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112624'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112629'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112637'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112638'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112631'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112630'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112619'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112618'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112645'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112644'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112643'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112616'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112622'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112634'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112636'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112625'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112577'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112578'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112576'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112649'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112651'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112676'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112650'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112647'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112584'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112580'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112579'; /* linkmonstergen7minutes <- Royal Mite Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112583'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112586'; /* linkmonstergen7minutes <- Royal Mite Squire */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112582'; /* linkmonstergen7minutes <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112602'; /* Linkable Monster Generator ( 3 Min.) <- Branith's Staff */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112659'; /* Linkable Monster Generator ( 3 Min.) <- Branith's Shirt */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112581'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112593'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112592'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112594'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112590'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112589'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112588'; /* Linkable Monster Generator ( 3 Min.) <- Tusker Redeemer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112585'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112587'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112601'; /* Linkable Monster Generator ( 3 Min.) <- Mite Warrior Queen */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112600'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Matron */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112599'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Matron */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112597'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Matron */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112591'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Matron */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881112595'; /* Linkable Monster Generator ( 3 Min.) <- Royal Mite Matron */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112670'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112669'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112679'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112678'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112665'; /* Linkable Monster Generator ( 7 Min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112677'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112660'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112668'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112682'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112664'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112681'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112674'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112673'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112596'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112663'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112671'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112672'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112685'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112633'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112666'; /* Linkable Monster Generator ( 7 Min.) <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112632'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112621'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112614'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112613'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881112658'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112661'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112662'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112608'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112642'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112641'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112648'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112646'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112653'; /* Linkable Monster Generator ( 7 Min.) <- Harlune the Misanthrope */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112640'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112656'; /* Linkable Monster Generator ( 7 Min.) <- Alfrega the Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112639'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112620'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112683'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112612'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112684'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Matron */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112610'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112609'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112611'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112604'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112607'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112624'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112629'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112637'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112638'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881112631'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112630'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112619'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112618'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112645'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112644'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112643'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112616'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112622'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112634'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112636'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112625'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112577'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112578'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112576'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112649'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112651'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112676'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112650'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112647'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112584'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112580'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112579'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112583'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112586'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881112582'; /* Linkable Monster Generator ( 7 Min.) <- Royal Mite Squire */
 

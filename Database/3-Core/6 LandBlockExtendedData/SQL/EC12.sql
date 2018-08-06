@@ -20,29 +20,29 @@ VALUES (27863, 2126585856, 3960602624, 127.497, 37.8518, 104.007, -0.902211, 0, 
      , (22257, 2126585874, 3960602624, 110.628, 99.6546, 103.105, -0.671001, 0, 0, -0.741457) /* Fishing Hole */
      , (22257, 2126585875, 3960602624, 107.49, 131.028, 103.105, -0.998186, 0, 0, -0.0602023) /* Fishing Hole */
      , (22257, 2126585876, 3960602624, 119.772, 125.675, 103.105, -0.504023, 0, 0, 0.86369) /* Fishing Hole */
-     , (4219, 2126585877, 3960602624, 130.381, 46.435, 104.005, 0.999464, 0, 0, -0.0327399) /* linkmonstergen7minutes */;
+     , (4219, 2126585877, 3960602624, 130.381, 46.435, 104.005, 0.999464, 0, 0, -0.0327399) /* Linkable Monster Generator ( 7 Min.) */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2126585877'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2126585877'; /* Linkable Monster Generator ( 7 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585856'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585857'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585858'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585859'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585860'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585861'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585862'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585863'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585864'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585865'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585866'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585867'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585868'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585869'; /* linkmonstergen7minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585870'; /* linkmonstergen7minutes <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585871'; /* linkmonstergen7minutes <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585872'; /* linkmonstergen7minutes <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585873'; /* linkmonstergen7minutes <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585874'; /* linkmonstergen7minutes <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585875'; /* linkmonstergen7minutes <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585876'; /* linkmonstergen7minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585856'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585857'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585858'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585859'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585860'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585861'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585862'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585863'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585864'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585865'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585866'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585867'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585868'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585869'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585870'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585871'; /* Linkable Monster Generator ( 7 Min.) <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585872'; /* Linkable Monster Generator ( 7 Min.) <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585873'; /* Linkable Monster Generator ( 7 Min.) <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585874'; /* Linkable Monster Generator ( 7 Min.) <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585875'; /* Linkable Monster Generator ( 7 Min.) <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585876'; /* Linkable Monster Generator ( 7 Min.) <- Fishing Hole */
 

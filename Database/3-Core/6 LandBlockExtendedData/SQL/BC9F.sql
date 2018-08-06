@@ -8,21 +8,21 @@ VALUES (673, 2076831773, 3164537091, 16.8398, 102.414, 70.01, -0.984041, 0, 0, -
      , (7240, 2076831826, 3164537116, 150.264, 14.286, 35.005, -0.871197, 0, 0, 0.490934) /* Barnar the Tinker */
      , (676, 2076831791, 3164537122, 174.206, 66.1816, 32.05, -0.366988, 0, 0, -0.930226) /* Merchant Ledine */
      , (143, 2076831752, 3164537132, 182.45, 62.5286, 35.01, 0.713251, 0, 0, -0.700909) /* Chest */
-     , (4775, 2076831789, 3164537132, 179.404, 62.5863, 35.005, -0.122102, 0, 0, 0.992518) /* collectorwingaluviangen */
+     , (4775, 2076831789, 3164537132, 179.404, 62.5863, 35.005, -0.122102, 0, 0, 0.992518) /* Aluvian Wing Collector Gen */
      , (143, 2076831753, 3164537134, 187.955, 64.2999, 35.01, 0.546103, 0, 0, -0.837718) /* Chest */
      , (412, 2076831756, 3164537141, 79.484, 111.931, 54.025, -0.707724, 0, 0, 0.706489) /* Door */
      , (412, 2076831757, 3164537141, 79.496, 105.056, 54, -0.707724, 0, 0, 0.706489) /* Door */
      , (412, 2076831758, 3164537142, 80.015, 108.482, 54, 0.706489, 0, 0, 0.707724) /* Door */
      , (669, 2076831779, 3164537142, 82.6483, 108.523, 54.005, -0.149535, -2.10988E-08, 1.39509E-07, 0.988756) /* Magrom the Red, Barkeeper */
      , (29766, 2076831827, 3164537145, 77.4417, 106.704, 57.505, -0.984986, 0, 0, 0.172636) /* Guard Hamdyn */
-     , (4777, 2076831790, 3164537147, 78.3326, 99.0187, 54.005, -0.804544, 0, 0, 0.593893) /* crafterivoryaluviangen */
+     , (4777, 2076831790, 3164537147, 78.3326, 99.0187, 54.005, -0.804544, 0, 0, 0.593893) /* Aluvian Ivory Collector Gen */
      , (29772, 2076831831, 3164537152, 84.5401, 106.395, 57.505, -0.00502544, 0, 0, 0.999987) /* Guard Lo Pan */
      , (8377, 2076831792, 3164537155, 83.657, 100.654, 54.92, -0.885382, 9.99408E-08, 9.95976E-08, 0.464865) /* Beer Keg */
      , (29769, 2076831833, 3164537162, 93.684, 108.167, 54.005, -0.99041, 0, 0, -0.138158) /* Guard Devon */
      , (29767, 2076831832, 3164537162, 94.0429, 112.518, 54.005, 0.119427, 0, 0, 0.992843) /* Guard Haigh */
      , (412, 2076831762, 3164537163, 180.5, 132.01, 32, -4.37114E-08, 0, 0, -1) /* Door */
      , (678, 2076831776, 3164537163, 180.209, 136.185, 32.01, -0.201078, 0, 0, 0.979575) /* Culthea Ironshaper */
-     , (4780, 2076831778, 3164537164, 179.467, 125.335, 35.505, -0.714045, 0, 0, 0.7001) /* leathercrafteraluviangen */
+     , (4780, 2076831778, 3164537164, 179.467, 125.335, 35.505, -0.714045, 0, 0, 0.7001) /* Aluvian Leather Crafter Gen */
      , (143, 2076831763, 3164537167, 178.315, 130.86, 32.025, -0.999534, 0, 0, -0.0305385) /* Chest */
      , (677, 2076831775, 3164537167, 180.948, 124.808, 32.005, -0.0305385, 0, 0, 0.999534) /* Estorl the Ox, Weaponsmith */
      , (143, 2076831764, 3164537168, 175.13, 129.885, 35.5, -0.704634, 0, 0, -0.709571) /* Chest */
@@ -53,42 +53,42 @@ VALUES (673, 2076831773, 3164537091, 16.8398, 102.414, 70.01, -0.984041, 0, 0, -
      , (29771, 2076831830, 3164536832, 92.682, 106.765, 57.505, 0.350416, 0, 0, -0.936594) /* Guard Ellyon */
      , (29768, 2076831829, 3164536832, 92.8121, 113.318, 57.505, -0.998776, 0, 0, -0.0494567) /* Guard Sorchia */
      , (29770, 2076831828, 3164536832, 91.3427, 115.728, 57.505, -0.45233, 0, 0, 0.891851) /* Guard Fassel */
-     , (28458, 2076831824, 3164536832, 174.733, 110.37, 32.005, -0.712417, 0, 0, -0.701757) /* generatormorgluukheadcragstone */
+     , (28458, 2076831824, 3164536832, 174.733, 110.37, 32.005, -0.712417, 0, 0, -0.701757) /* Morgluuk's Head Gen */
      , (25722, 2076831820, 3164536832, 174.182, 39.2257, 32.005, 0.593239, 0, 0, -0.805027) /* Sign */
-     , (7923, 2076831819, 3164536832, 93.8722, 75.8065, 54.005, -0.695294, 0, 0, -0.718726) /* linkmonstergen3minutes */
+     , (7923, 2076831819, 3164536832, 93.8722, 75.8065, 54.005, -0.695294, 0, 0, -0.718726) /* Linkable Monster Generator ( 3 Min.) */
      , (24248, 2076831818, 3164536832, 92.171, 75.176, 54.005, 0.438732, 0, 0, -0.898618) /* Royal Guard */
      , (679, 2076831780, 3164536832, 183.075, 120.675, 32.01, 1, 0, 0, 0) /* Arms and Armor */
      , (685, 2076831781, 3164536832, 86.06, 97.1002, 54.01, 1, 0, 0, 0) /* Thorsten's Rest */
      , (681, 2076831782, 3164536832, 22.1431, 103.561, 70.013, 0.92751, 0, 0, 0.373797) /* Hildar House  */
      , (680, 2076831783, 3164536832, 147.384, 17.9324, 32.01, 0.373797, 0, 0, -0.92751) /* Scildith's Bows */
      , (683, 2076831784, 3164536832, 175.031, 56.9937, 32.01, 0.744311, 0, 0, -0.667833) /* Ledine's Wares */
-     , (23631, 2076831817, 3164536832, 84.4229, 75.0608, 155.134, -0.740553, 0, 0, 0.671998) /* eventmadcowgen */
+     , (23631, 2076831817, 3164536832, 84.4229, 75.0608, 155.134, -0.740553, 0, 0, 0.671998) /* April 2003 Raining Mad Cows Gen */
      , (682, 2076831786, 3164536832, 165.375, 98.84, 32.01, 0.706489, 0, 0, 0.707724) /* Gems and Jewels */
      , (685, 2076831787, 3164536832, 82.55, 118.85, 54.01, 0.0113435, 0, 0, 0.999936) /* Thorsten's Rest */
      , (468, 2076831788, 3164536832, 74.05, 88.35, 54.025, 1, 0, 0, 0) /* Welcome to Cragstone Sign */
      , (509, 2076831821, 3164536832, 147.772, 75.9942, 32.005, -0.676617, 0, 0, 0.736335) /* Life Stone */
      , (19205, 2076831812, 3164536832, 181.71, 101.702, 38.82, 0.71148, 0, 0, 0.702706) /* Nullified Statue of Thorsten Cragstone */
-     , (19457, 2076831809, 3164536832, 181.104, 101.706, 39, -0.709804, 0, 0, -0.704399) /* fireworksgen */
+     , (19457, 2076831809, 3164536832, 181.104, 101.706, 39, -0.709804, 0, 0, -0.704399) /* Fireworks Generator */
      , (15837, 2076831804, 3164536832, 64.629, 55.24, 54.005, 0.422618, 0, 0, -0.906308) /* Sanctum Residential Halls Portal */
      , (27547, 2076831823, 3164536832, 160.467, 169.838, 32.005, 0.926992, 0, 0, -0.375081) /* Bind Stone */
      , (11809, 2076831794, 3164536832, 163.683, 130.595, 32.005, -0.863096, 0, 0, 0.505039) /* Lieutenant Kenneth */
-     , (7923, 2076831796, 3164536832, 176.596, 87.138, 32.005, 0.58705, 0, 0, -0.809551) /* linkmonstergen3minutes */
+     , (7923, 2076831796, 3164536832, 176.596, 87.138, 32.005, 0.58705, 0, 0, -0.809551) /* Linkable Monster Generator ( 3 Min.) */
      , (16898, 2076831805, 3164536832, 62.425, 57.171, 54.005, 0.422618, 0, 0, -0.906308) /* Sanctum Residential Halls */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2076831819'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2076831796'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2076831819'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2076831796'; /* Linkable Monster Generator ( 3 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076831818'; /* linkmonstergen3minutes <- Royal Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076831820'; /* linkmonstergen3minutes <- Sign */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076831794'; /* linkmonstergen3minutes <- Lieutenant Kenneth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076831802'; /* linkmonstergen3minutes <- Glysander Cartoth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831826'; /* linkmonstergen3minutes <- Barnar the Tinker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831825'; /* linkmonstergen3minutes <- Alec */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831827'; /* linkmonstergen3minutes <- Guard Hamdyn */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831828'; /* linkmonstergen3minutes <- Guard Fassel */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831829'; /* linkmonstergen3minutes <- Guard Sorchia */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831830'; /* linkmonstergen3minutes <- Guard Ellyon */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831831'; /* linkmonstergen3minutes <- Guard Lo Pan */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831832'; /* linkmonstergen3minutes <- Guard Haigh */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831833'; /* linkmonstergen3minutes <- Guard Devon */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076831818'; /* Linkable Monster Generator ( 3 Min.) <- Royal Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076831820'; /* Linkable Monster Generator ( 3 Min.) <- Sign */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076831794'; /* Linkable Monster Generator ( 3 Min.) <- Lieutenant Kenneth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076831802'; /* Linkable Monster Generator ( 3 Min.) <- Glysander Cartoth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831826'; /* Linkable Monster Generator ( 3 Min.) <- Barnar the Tinker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831825'; /* Linkable Monster Generator ( 3 Min.) <- Alec */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831827'; /* Linkable Monster Generator ( 3 Min.) <- Guard Hamdyn */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831828'; /* Linkable Monster Generator ( 3 Min.) <- Guard Fassel */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831829'; /* Linkable Monster Generator ( 3 Min.) <- Guard Sorchia */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831830'; /* Linkable Monster Generator ( 3 Min.) <- Guard Ellyon */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831831'; /* Linkable Monster Generator ( 3 Min.) <- Guard Lo Pan */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831832'; /* Linkable Monster Generator ( 3 Min.) <- Guard Haigh */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831833'; /* Linkable Monster Generator ( 3 Min.) <- Guard Devon */
 
