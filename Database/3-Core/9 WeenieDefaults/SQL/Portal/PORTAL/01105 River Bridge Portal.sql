@@ -1,34 +1,30 @@
-/* Weenie - River Bridge Portal (1105) */
-DELETE FROM weenie WHERE class_Id = 1105;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1105, 'portalriverarwic', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1105, 001 /* NAME_STRING */, 'River Bridge Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1105, 001 /* SETUP_DID */, 33554867)
-     , (1105, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (1105, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1105', 'portalriverarwic', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1105, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (1105, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (1105, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (1105, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (1105, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1105, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (1105,   1,      65536) /* ItemType - Portal */
+     , (1105,  16,         32) /* ItemUseable - Remote */
+     , (1105,  93,       3084) /* PhysicsState */
+     , (1105, 111,          1) /* PortalBitmask - Unrestricted */
+     , (1105, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1105, 001 /* STUCK_BOOL */, True)
-     , (1105, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (1105, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1105, 013 /* ETHEREAL_BOOL */, True)
-     , (1105, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (1105,   1, True ) /* Stuck */
+     , (1105,  11, False) /* IgnoreCollisions */
+     , (1105,  12, True ) /* ReportCollisions */
+     , (1105,  13, True ) /* Ethereal */
+     , (1105,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1105,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1105,   1, 'River Bridge Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1105,   1,   33554867) /* Setup */
+     , (1105,   2,  150994947) /* MotionTable */
+     , (1105,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1105, 2, 3131113515, 122, 69, 3.7, 0.4539905, 0, 0, -0.8910065) /* DESTINATION_POSITION */;
-
+VALUES (1105, 2, 3131113515, 122, 69, 3.7, 0.4539905, 0, 0, -0.8910065) /* Destination */;

@@ -1,31 +1,27 @@
-/* Weenie - Food and Clothing (1064) */
-DELETE FROM weenie WHERE class_Id = 1064;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1064, 'qalabargrocersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1064, 001 /* NAME_STRING */, 'Food and Clothing')
-     , (1064, 016 /* LONG_DESC_STRING */, 'Food and Clothing');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1064, 001 /* SETUP_DID */, 33555909)
-     , (1064, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (1064, 007 /* CLOTHINGBASE_DID */, 268435821)
-     , (1064, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1064', 'qalabargrocersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1064, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (1064, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (1064, 008 /* MASS_INT */, 1800)
-     , (1064, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1064, 019 /* VALUE_INT */, 125)
-     , (1064, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (1064,   1,        128) /* ItemType - Misc */
+     , (1064,   5,       9000) /* EncumbranceVal */
+     , (1064,   8,       1800) /* Mass */
+     , (1064,  16,          1) /* ItemUseable - No */
+     , (1064,  19,        125) /* Value */
+     , (1064,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1064, 001 /* STUCK_BOOL */, True)
-     , (1064, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1064, 013 /* ETHEREAL_BOOL */, False)
-     , (1064, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (1064, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (1064,   1, True ) /* Stuck */
+     , (1064,  12, True ) /* ReportCollisions */
+     , (1064,  13, False) /* Ethereal */
+     , (1064,  14, False) /* GravityStatus */
+     , (1064,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1064,   1, 'Food and Clothing') /* Name */
+     , (1064,  16, 'Food and Clothing') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1064,   1,   33555909) /* Setup */
+     , (1064,   6,   67111860) /* PaletteBase */
+     , (1064,   7,  268435821) /* ClothingBase */
+     , (1064,   8,  100668115) /* Icon */;

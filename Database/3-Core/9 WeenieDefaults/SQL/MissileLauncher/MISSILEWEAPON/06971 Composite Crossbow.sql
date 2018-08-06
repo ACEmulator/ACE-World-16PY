@@ -1,50 +1,46 @@
-/* Weenie - Composite Crossbow (6971) */
-DELETE FROM weenie WHERE class_Id = 6971;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6971, 'crossbowcompositedmg1def1spd2atk0', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6971, 001 /* NAME_STRING */, 'Composite Crossbow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6971, 001 /* SETUP_DID */, 33556595)
-     , (6971, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6971, 006 /* PALETTE_BASE_DID */, 67112869)
-     , (6971, 007 /* CLOTHINGBASE_DID */, 268436006)
-     , (6971, 008 /* ICON_DID */, 100670690)
-     , (6971, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6971', 'crossbowcompositedmg1def1spd2atk0', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6971, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (6971, 003 /* PALETTE_TEMPLATE_INT */, 40 /* BRONZE_PALETTE_TEMPLATE */)
-     , (6971, 005 /* ENCUMB_VAL_INT */, 1920)
-     , (6971, 008 /* MASS_INT */, 640)
-     , (6971, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (6971, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6971, 019 /* VALUE_INT */, 375)
-     , (6971, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6971, 044 /* DAMAGE_INT */, 0)
-     , (6971, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (6971, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (6971, 049 /* WEAPON_TIME_INT */, 105)
-     , (6971, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (6971, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (6971, 052 /* PARENT_LOCATION_INT */, 2)
-     , (6971, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (6971, 060 /* WEAPON_RANGE_INT */, 192)
-     , (6971, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6971, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6971, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (6971, 029 /* WEAPON_DEFENSE_FLOAT */, 1.02)
-     , (6971, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (6971, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (6971, 063 /* DAMAGE_MOD_FLOAT */, 1.6);
+VALUES (6971,   1,        256) /* ItemType - MissileWeapon */
+     , (6971,   3,         40) /* PaletteTemplate - Bronze */
+     , (6971,   5,       1920) /* EncumbranceVal */
+     , (6971,   8,        640) /* Mass */
+     , (6971,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (6971,  16,          1) /* ItemUseable - No */
+     , (6971,  19,        375) /* Value */
+     , (6971,  33,          1) /* Bonded - Bonded */
+     , (6971,  44,          0) /* Damage */
+     , (6971,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (6971,  48,          3) /* WeaponSkill - Crossbow */
+     , (6971,  49,        105) /* WeaponTime */
+     , (6971,  50,          2) /* AmmoType - Bolt */
+     , (6971,  51,          2) /* CombatUse - Missle */
+     , (6971,  52,          2) /* ParentLocation */
+     , (6971,  53,          3) /* PlacementPosition */
+     , (6971,  60,        192) /* WeaponRange */
+     , (6971,  93,       1044) /* PhysicsState */
+     , (6971, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6971, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6971, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6971, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6971,  22, True ) /* Inscribable */
+     , (6971,  23, True ) /* DestroyOnSell */
+     , (6971,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6971,  26,    27.3) /* MaximumVelocity */
+     , (6971,  29,    1.02) /* WeaponDefense */
+     , (6971,  39,    1.25) /* DefaultScale */
+     , (6971,  62,       1) /* WeaponOffense */
+     , (6971,  63,     1.6) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6971,   1, 'Composite Crossbow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6971,   1,   33556595) /* Setup */
+     , (6971,   3,  536870932) /* SoundTable */
+     , (6971,   6,   67112869) /* PaletteBase */
+     , (6971,   7,  268436006) /* ClothingBase */
+     , (6971,   8,  100670690) /* Icon */
+     , (6971,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,36 +1,32 @@
-/* Weenie - Electric Tumult (21898) */
-DELETE FROM weenie WHERE class_Id = 21898;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21898, 'portalelectrictumult4', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21898, 001 /* NAME_STRING */, 'Electric Tumult');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21898, 001 /* SETUP_DID */, 33555923)
-     , (21898, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (21898, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21898', 'portalelectrictumult4', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21898, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (21898, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (21898, 086 /* MIN_LEVEL_INT */, 21)
-     , (21898, 087 /* MAX_LEVEL_INT */, 45)
-     , (21898, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (21898, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (21898, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21898, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (21898,   1,      65536) /* ItemType - Portal */
+     , (21898,  16,         32) /* ItemUseable - Remote */
+     , (21898,  86,         21) /* MinLevel */
+     , (21898,  87,         45) /* MaxLevel */
+     , (21898,  93,       3084) /* PhysicsState */
+     , (21898, 111,         49) /* PortalBitmask */
+     , (21898, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21898, 001 /* STUCK_BOOL */, True)
-     , (21898, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (21898, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (21898, 013 /* ETHEREAL_BOOL */, True)
-     , (21898, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (21898,   1, True ) /* Stuck */
+     , (21898,  11, False) /* IgnoreCollisions */
+     , (21898,  12, True ) /* ReportCollisions */
+     , (21898,  13, True ) /* Ethereal */
+     , (21898,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21898,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21898,   1, 'Electric Tumult') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21898,   1,   33555923) /* Setup */
+     , (21898,   2,  150994947) /* MotionTable */
+     , (21898,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21898, 2, 1464271210, 140, -176.5, 0.005, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (21898, 2, 1464271210, 140, -176.5, 0.005, 1, 0, 0, 0) /* Destination */;

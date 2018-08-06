@@ -1,35 +1,32 @@
-/* Weenie - Carving Keys and Keyrings (23204) */
-DELETE FROM weenie WHERE class_Id = 23204;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23204, 'bookcarvingkeys', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23204, 001 /* NAME_STRING */, 'Carving Keys and Keyrings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23204, 001 /* SETUP_DID */, 33554771)
-     , (23204, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23204, 008 /* ICON_DID */, 100668117)
-     , (23204, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23204', 'bookcarvingkeys', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23204, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (23204, 005 /* ENCUMB_VAL_INT */, 160)
-     , (23204, 008 /* MASS_INT */, 200)
-     , (23204, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23204, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23204, 019 /* VALUE_INT */, 190)
-     , (23204, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23204, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (23204,   1,       8192) /* ItemType - Writable */
+     , (23204,   5,        160) /* EncumbranceVal */
+     , (23204,   8,        200) /* Mass */
+     , (23204,   9,          0) /* ValidLocations - None */
+     , (23204,  16,          8) /* ItemUseable - Contained */
+     , (23204,  19,        190) /* Value */
+     , (23204,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23204, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (23204,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23204,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23204,   1, 'Carving Keys and Keyrings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23204,   1,   33554771) /* Setup */
+     , (23204,   3,  536870932) /* SoundTable */
+     , (23204,   8,  100668117) /* Icon */
+     , (23204,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (23204, 8, 1000) /* Book Data */;
+VALUES (23204, 8, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (23204, 0, 4294967295, 'Malan ibn Aki', 'prewritten', False, '
@@ -80,4 +77,3 @@ Removing a key, however, does not weaken the keyring. Use your Intricate Carving
 
 At this time, these two activities - repairing damaged or inoperable keys and creating new keys and keyrings from golem hearts - are the mainstay of the locksmithing work on Dereth. Don''t be fooled, however, into thinking that these are trivial tasks. Many of them are quite difficult, and without these activities the general commerce of Dereth would grind to a halt. 
 ');
-

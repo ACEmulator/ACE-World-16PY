@@ -1,38 +1,34 @@
-/* Weenie - Ursuin Scalp (8665) */
-DELETE FROM weenie WHERE class_Id = 8665;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8665, 'ursuinscalp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8665, 001 /* NAME_STRING */, 'Ursuin Scalp')
-     , (8665, 015 /* SHORT_DESC_STRING */, 'The scalp of an Ursuin.')
-     , (8665, 016 /* LONG_DESC_STRING */, 'The scalp of an Ursuin.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8665, 001 /* SETUP_DID */, 33554817)
-     , (8665, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8665, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8665, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (8665, 008 /* ICON_DID */, 100671287)
-     , (8665, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8665', 'ursuinscalp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8665, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (8665, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (8665, 005 /* ENCUMB_VAL_INT */, 400)
-     , (8665, 008 /* MASS_INT */, 400)
-     , (8665, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8665, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8665, 019 /* VALUE_INT */, 0)
-     , (8665, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8665, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8665, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8665, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (8665,   1,        128) /* ItemType - Misc */
+     , (8665,   3,          2) /* PaletteTemplate - Blue */
+     , (8665,   5,        400) /* EncumbranceVal */
+     , (8665,   8,        400) /* Mass */
+     , (8665,   9,          0) /* ValidLocations - None */
+     , (8665,  16,          1) /* ItemUseable - No */
+     , (8665,  19,          0) /* Value */
+     , (8665,  93,       1044) /* PhysicsState */
+     , (8665, 150,        103) /* HookPlacement - Hook */
+     , (8665, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8665, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8665, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8665,  22, True ) /* Inscribable */
+     , (8665,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8665,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8665,   1, 'Ursuin Scalp') /* Name */
+     , (8665,  15, 'The scalp of an Ursuin.') /* ShortDesc */
+     , (8665,  16, 'The scalp of an Ursuin.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8665,   1,   33554817) /* Setup */
+     , (8665,   3,  536870932) /* SoundTable */
+     , (8665,   6,   67111919) /* PaletteBase */
+     , (8665,   7,  268435832) /* ClothingBase */
+     , (8665,   8,  100671287) /* Icon */
+     , (8665,  22,  872415275) /* PhysicsEffectTable */;

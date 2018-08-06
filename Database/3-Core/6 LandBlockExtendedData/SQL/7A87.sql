@@ -1,21 +1,35 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9005, 2007527424, 2055667712, 171.557, 100.805, 22.1055, -0.842348, 0, 0, 0.538934) /* Desert March Portal */
-     , (7924, 2007527425, 2055667712, 165.179, 99.4624, 20.6356, 0.577084, 0, 0, 0.816685) /* linkmonstergen5minutes */
-     , (233, 2007527426, 2055667712, 162.199, 96.2657, 19.5885, 0.677183, 0, 0, 0.735814) /* Tumerok Warrior */
-     , (4100, 2007527427, 2055667712, 163.661, 96.7209, 19.8242, 0.725649, 0, 0, 0.688065) /* Tumerok Warrior */
-     , (231, 2007527428, 2055667712, 169.155, 109.472, 23.5659, 0.886335, 0, 0, -0.463045) /* Tumerok Priest */
-     , (231, 2007527429, 2055667712, 175.298, 96.9707, 23.0461, -0.861895, 0, 0, -0.507087) /* Tumerok Priest */
-     , (4100, 2007527430, 2055667712, 174.126, 96.3851, 22.5581, -0.861895, 0, 0, -0.507087) /* Tumerok Warrior */
-     , (4100, 2007527431, 2055667712, 168.084, 109.377, 23.3639, -0.851879, 0, 0, -0.523739) /* Tumerok Warrior */
-     , (228, 2007527432, 2055667712, 177.904, 103.543, 24.1327, 0.828467, 0, 0, -0.560038) /* Tumerok High Priest */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2007527424,  9005, 2055667712, 171.557, 100.805, 22.1055, -0.842348, 0, 0, 0.538934, False); /* Desert March Portal */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2007527425'; /* linkmonstergen5minutes */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2007527425,  7924, 2055667712, 165.179, 99.4624, 20.6356, 0.577084, 0, 0, 0.816685, False); /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007527426'; /* linkmonstergen5minutes <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007527427'; /* linkmonstergen5minutes <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007527428'; /* linkmonstergen5minutes <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007527429'; /* linkmonstergen5minutes <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007527430'; /* linkmonstergen5minutes <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007527431'; /* linkmonstergen5minutes <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007527432'; /* linkmonstergen5minutes <- Tumerok High Priest */
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2007527425, 2007527426) /* Tumerok Warrior */
+     , (2007527425, 2007527427) /* Tumerok Warrior */
+     , (2007527425, 2007527428) /* Tumerok Priest */
+     , (2007527425, 2007527429) /* Tumerok Priest */
+     , (2007527425, 2007527430) /* Tumerok Warrior */
+     , (2007527425, 2007527431) /* Tumerok Warrior */
+     , (2007527425, 2007527432) /* Tumerok High Priest */;
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2007527426,   233, 2055667712, 162.199, 96.2657, 19.5885, 0.677183, 0, 0, 0.735814,  True); /* Tumerok Warrior */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2007527427,  4100, 2055667712, 163.661, 96.7209, 19.8242, 0.725649, 0, 0, 0.688065,  True); /* Tumerok Warrior */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2007527428,   231, 2055667712, 169.155, 109.472, 23.5659, 0.886335, 0, 0, -0.463045,  True); /* Tumerok Priest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2007527429,   231, 2055667712, 175.298, 96.9707, 23.0461, -0.861895, 0, 0, -0.507087,  True); /* Tumerok Priest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2007527430,  4100, 2055667712, 174.126, 96.3851, 22.5581, -0.861895, 0, 0, -0.507087,  True); /* Tumerok Warrior */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2007527431,  4100, 2055667712, 168.084, 109.377, 23.3639, -0.851879, 0, 0, -0.523739,  True); /* Tumerok Warrior */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2007527432,   228, 2055667712, 177.904, 103.543, 24.1327, 0.828467, 0, 0, -0.560038,  True); /* Tumerok High Priest */

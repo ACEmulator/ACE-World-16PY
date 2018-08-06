@@ -1,37 +1,34 @@
-/* Weenie - The Days of the Olthoi (5692) */
-DELETE FROM weenie WHERE class_Id = 5692;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5692, 'lecternolthoidays', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5692, 001 /* NAME_STRING */, 'The Days of the Olthoi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5692, 001 /* SETUP_DID */, 33556013)
-     , (5692, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5692, 008 /* ICON_DID */, 100668236)
-     , (5692, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5692', 'lecternolthoidays', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5692, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5692, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5692, 008 /* MASS_INT */, 5)
-     , (5692, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5692, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5692, 019 /* VALUE_INT */, 10)
-     , (5692, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5692, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5692,   1,       8192) /* ItemType - Writable */
+     , (5692,   5,         25) /* EncumbranceVal */
+     , (5692,   8,          5) /* Mass */
+     , (5692,   9,          0) /* ValidLocations - None */
+     , (5692,  16,          8) /* ItemUseable - Contained */
+     , (5692,  19,         10) /* Value */
+     , (5692,  93,       1040) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5692, 001 /* STUCK_BOOL */, True)
-     , (5692, 013 /* ETHEREAL_BOOL */, False)
-     , (5692, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5692,   1, True ) /* Stuck */
+     , (5692,  13, False) /* Ethereal */
+     , (5692,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5692,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5692,   1, 'The Days of the Olthoi') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5692,   1,   33556013) /* Setup */
+     , (5692,   3,  536870932) /* SoundTable */
+     , (5692,   8,  100668236) /* Icon */
+     , (5692,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5692, 17, 1000) /* Book Data */;
+VALUES (5692, 17, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5692, 0, 4294967295, 'The Days of the Olthoi', 'prewritten', False, 'So who is this, that wishes to write down my tale of the dark days of when we were enslaved to the Olthoi?  A historian?  To make sure none of it is lost?  A noble goal, though I should hope that, with only twenty years'' history, there isn''t much to lose yet.  All right, then, I will speak slowly.  You take care to write what I say without error.  See that you miss nothing.
@@ -74,4 +71,3 @@ But we survivors retrieved all the fallen human bodies that we could - we even p
 ')
      , (5692, 16, 4294967295, 'The Days of the Olthoi', 'prewritten', False, 'Would I go to our homelands, to Aluvia, you ask?  I should like to visit, if ever such a thing were to become possible.  I have no memories of it at all, though my mother certainly told me of its wonders: the great cities, the vast seas.  Yet I still remember the wondrous feeling of standing in that open field, blinking at that first dawn.  And, of course, I have lived my entire life here, helping to fight off the beasts and settle the land.  I think, perhaps, that I will stay here.
 ');
-

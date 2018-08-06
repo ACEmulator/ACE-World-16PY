@@ -1,42 +1,38 @@
-/* Weenie - Concentrated Victual Infusion (9357) */
-DELETE FROM weenie WHERE class_Id = 9357;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9357, 'concentratedvictualinfusion', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9357, 001 /* NAME_STRING */, 'Concentrated Victual Infusion')
-     , (9357, 014 /* USE_STRING */, 'This item is used in alchemy.')
-     , (9357, 020 /* PLURAL_NAME_STRING */, 'Concentrated Victual Infusions');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9357, 001 /* SETUP_DID */, 33555965)
-     , (9357, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9357, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (9357, 007 /* CLOTHINGBASE_DID */, 268435814)
-     , (9357, 008 /* ICON_DID */, 100671581)
-     , (9357, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9357', 'concentratedvictualinfusion', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9357, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (9357, 003 /* PALETTE_TEMPLATE_INT */, 76 /* ORANGE_PALETTE_TEMPLATE */)
-     , (9357, 005 /* ENCUMB_VAL_INT */, 15)
-     , (9357, 008 /* MASS_INT */, 5)
-     , (9357, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9357, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (9357, 012 /* STACK_SIZE_INT */, 1)
-     , (9357, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (9357, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (9357, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (9357, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (9357, 019 /* VALUE_INT */, 500)
-     , (9357, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9357, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9357, 094 /* TARGET_TYPE_INT */, 75498496 /* TYPE_USELESS, TYPE_CRAFT_ALCHEMY_BASE, TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (9357, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9357, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (9357,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (9357,   3,         76) /* PaletteTemplate - Orange */
+     , (9357,   5,         15) /* EncumbranceVal */
+     , (9357,   8,          5) /* Mass */
+     , (9357,   9,          0) /* ValidLocations - None */
+     , (9357,  11,        100) /* MaxStackSize */
+     , (9357,  12,          1) /* StackSize */
+     , (9357,  13,         15) /* StackUnitEncumbrance */
+     , (9357,  14,          5) /* StackUnitMass */
+     , (9357,  15,        500) /* StackUnitValue */
+     , (9357,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (9357,  19,        500) /* Value */
+     , (9357,  33,          1) /* Bonded - Bonded */
+     , (9357,  93,       1044) /* PhysicsState */
+     , (9357,  94,   75498496) /* TargetType */
+     , (9357, 150,        103) /* HookPlacement - Hook */
+     , (9357, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9357, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (9357, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9357,  23, True ) /* DestroyOnSell */
+     , (9357,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9357,   1, 'Concentrated Victual Infusion') /* Name */
+     , (9357,  14, 'This item is used in alchemy.') /* Use */
+     , (9357,  20, 'Concentrated Victual Infusions') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9357,   1,   33555965) /* Setup */
+     , (9357,   3,  536870932) /* SoundTable */
+     , (9357,   6,   67111919) /* PaletteBase */
+     , (9357,   7,  268435814) /* ClothingBase */
+     , (9357,   8,  100671581) /* Icon */
+     , (9357,  22,  872415275) /* PhysicsEffectTable */;

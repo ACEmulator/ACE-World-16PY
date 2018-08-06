@@ -1,37 +1,34 @@
-/* Weenie - An Apprentice's Guide to Research (11684) */
-DELETE FROM weenie WHERE class_Id = 11684;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11684, 'bookapprenticeguide', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11684, 001 /* NAME_STRING */, 'An Apprentice''s Guide to Research')
-     , (11684, 016 /* LONG_DESC_STRING */, 'A compendium of advice on spell research.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11684, 001 /* SETUP_DID */, 33554771)
-     , (11684, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11684, 008 /* ICON_DID */, 100668117)
-     , (11684, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11684', 'bookapprenticeguide', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11684, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (11684, 005 /* ENCUMB_VAL_INT */, 220)
-     , (11684, 008 /* MASS_INT */, 275)
-     , (11684, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11684, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (11684, 019 /* VALUE_INT */, 100)
-     , (11684, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11684, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (11684, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (11684,   1,       8192) /* ItemType - Writable */
+     , (11684,   5,        220) /* EncumbranceVal */
+     , (11684,   8,        275) /* Mass */
+     , (11684,   9,          0) /* ValidLocations - None */
+     , (11684,  16,          8) /* ItemUseable - Contained */
+     , (11684,  19,        100) /* Value */
+     , (11684,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11684, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (11684,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11684,  39,    1.22) /* DefaultScale */
+     , (11684,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11684,   1, 'An Apprentice''s Guide to Research') /* Name */
+     , (11684,  16, 'A compendium of advice on spell research.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11684,   1,   33554771) /* Setup */
+     , (11684,   3,  536870932) /* SoundTable */
+     , (11684,   8,  100668117) /* Icon */
+     , (11684,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (11684, 14, 1000) /* Book Data */;
+VALUES (11684, 14, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (11684, 0, 4294967295, 'by Torvold Grimwold', 'prewritten', False, '    For those who choose the path of mind of matter, it can be a daunting task to realize the true capabilities of magic.  I remember when first I arrived on this foreign world how difficult it was associating the incantation and intonation of magical phraseology with the correct reagents upon my person to achieve my allotted goal.  Now in my twilight years I have embarked on a newer journey, and this is at great relief I think to those of you who are newly come to this alien place with nary the knowledge that your first master would have ascribed to your grimoire.
@@ -65,4 +62,3 @@ VALUES (11684, 0, 4294967295, 'by Torvold Grimwold', 'prewritten', False, '    F
 
     Torvold Grimwold, Archmage of the Dereth Exploration Society
 ');
-

@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Focus Self (1776) */
-DELETE FROM weenie WHERE class_Id = 1776;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1776, 'scrollfocusself', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1776, 001 /* NAME_STRING */, 'Scroll of Focus Self')
-     , (1776, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (1776, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the caster''s Focus by 10 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1776, 001 /* SETUP_DID */, 33554826)
-     , (1776, 008 /* ICON_DID */, 100676458)
-     , (1776, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1776, 028 /* SPELL_DID */, 1421 /* FocusSelf1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1776', 'scrollfocusself', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1776, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (1776, 005 /* ENCUMB_VAL_INT */, 30)
-     , (1776, 008 /* MASS_INT */, 90)
-     , (1776, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (1776, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (1776, 019 /* VALUE_INT */, 1)
-     , (1776, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1776, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (1776,   1,       8192) /* ItemType - Writable */
+     , (1776,   5,         30) /* EncumbranceVal */
+     , (1776,   8,         90) /* Mass */
+     , (1776,   9,          0) /* ValidLocations - None */
+     , (1776,  16,          8) /* ItemUseable - Contained */
+     , (1776,  19,          1) /* Value */
+     , (1776,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1776, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1776, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1776,  22, True ) /* Inscribable */
+     , (1776,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1776,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1776,   1, 'Scroll of Focus Self') /* Name */
+     , (1776,  15, 'A magic scroll.') /* ShortDesc */
+     , (1776,  16, 'When learned, this spell increases the caster''s Focus by 10 points.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1776,   1,   33554826) /* Setup */
+     , (1776,   8,  100676458) /* Icon */
+     , (1776,  22,  872415275) /* PhysicsEffectTable */
+     , (1776,  28,       1421) /* Spell - Focus Self I */;

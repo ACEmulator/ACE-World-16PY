@@ -1,42 +1,38 @@
-/* Weenie - Concentrated Mana Oil (9354) */
-DELETE FROM weenie WHERE class_Id = 9354;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9354, 'concentratedmanaoil', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9354, 001 /* NAME_STRING */, 'Concentrated Mana Oil')
-     , (9354, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (9354, 020 /* PLURAL_NAME_STRING */, 'Vials of Concentrated Mana Oil');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9354, 001 /* SETUP_DID */, 33555967)
-     , (9354, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9354, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (9354, 007 /* CLOTHINGBASE_DID */, 268435815)
-     , (9354, 008 /* ICON_DID */, 100671588)
-     , (9354, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9354', 'concentratedmanaoil', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9354, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (9354, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (9354, 005 /* ENCUMB_VAL_INT */, 15)
-     , (9354, 008 /* MASS_INT */, 5)
-     , (9354, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9354, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (9354, 012 /* STACK_SIZE_INT */, 1)
-     , (9354, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (9354, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (9354, 015 /* STACK_UNIT_VALUE_INT */, 750)
-     , (9354, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (9354, 019 /* VALUE_INT */, 750)
-     , (9354, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9354, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9354, 094 /* TARGET_TYPE_INT */, 75498496 /* TYPE_USELESS, TYPE_CRAFT_ALCHEMY_BASE, TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (9354, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9354, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (9354,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (9354,   3,          2) /* PaletteTemplate - Blue */
+     , (9354,   5,         15) /* EncumbranceVal */
+     , (9354,   8,          5) /* Mass */
+     , (9354,   9,          0) /* ValidLocations - None */
+     , (9354,  11,        100) /* MaxStackSize */
+     , (9354,  12,          1) /* StackSize */
+     , (9354,  13,         15) /* StackUnitEncumbrance */
+     , (9354,  14,          5) /* StackUnitMass */
+     , (9354,  15,        750) /* StackUnitValue */
+     , (9354,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (9354,  19,        750) /* Value */
+     , (9354,  33,          1) /* Bonded - Bonded */
+     , (9354,  93,       1044) /* PhysicsState */
+     , (9354,  94,   75498496) /* TargetType */
+     , (9354, 150,        103) /* HookPlacement - Hook */
+     , (9354, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9354, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (9354, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9354,  23, True ) /* DestroyOnSell */
+     , (9354,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9354,   1, 'Concentrated Mana Oil') /* Name */
+     , (9354,  14, 'This item is used in cooking.') /* Use */
+     , (9354,  20, 'Vials of Concentrated Mana Oil') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9354,   1,   33555967) /* Setup */
+     , (9354,   3,  536870932) /* SoundTable */
+     , (9354,   6,   67111919) /* PaletteBase */
+     , (9354,   7,  268435815) /* ClothingBase */
+     , (9354,   8,  100671588) /* Icon */
+     , (9354,  22,  872415275) /* PhysicsEffectTable */;

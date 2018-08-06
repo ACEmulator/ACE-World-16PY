@@ -1,34 +1,30 @@
-/* Weenie - Helms Villas Portal (14264) */
-DELETE FROM weenie WHERE class_Id = 14264;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14264, 'portalhelmsvillas', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14264, 001 /* NAME_STRING */, 'Helms Villas Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14264, 001 /* SETUP_DID */, 33554867)
-     , (14264, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (14264, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14264', 'portalhelmsvillas', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14264, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (14264, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (14264, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (14264, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (14264, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14264, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (14264,   1,      65536) /* ItemType - Portal */
+     , (14264,  16,         32) /* ItemUseable - Remote */
+     , (14264,  93,       3084) /* PhysicsState */
+     , (14264, 111,          1) /* PortalBitmask - Unrestricted */
+     , (14264, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14264, 001 /* STUCK_BOOL */, True)
-     , (14264, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14264, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14264, 013 /* ETHEREAL_BOOL */, True)
-     , (14264, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (14264,   1, True ) /* Stuck */
+     , (14264,  11, False) /* IgnoreCollisions */
+     , (14264,  12, True ) /* ReportCollisions */
+     , (14264,  13, True ) /* Ethereal */
+     , (14264,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14264,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14264,   1, 'Helms Villas Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14264,   1,   33554867) /* Setup */
+     , (14264,   2,  150994947) /* MotionTable */
+     , (14264,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14264, 2, 2157641745, 61.479, 14.486, 240.005, 0.9998353, 0, 0, -0.01815031) /* DESTINATION_POSITION */;
-
+VALUES (14264, 2, 2157641745, 61.479, 14.486, 240.005, 0.9998353, 0, 0, -0.01815031) /* Destination */;

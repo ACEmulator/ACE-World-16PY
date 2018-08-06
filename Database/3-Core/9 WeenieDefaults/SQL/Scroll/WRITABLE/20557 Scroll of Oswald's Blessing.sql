@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Oswald's Blessing (20557) */
-DELETE FROM weenie WHERE class_Id = 20557;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20557, 'scrolllockpickmasteryself7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20557, 001 /* NAME_STRING */, 'Scroll of Oswald''s Blessing')
-     , (20557, 015 /* SHORT_DESC_STRING */, 'When learned, this spell increases the caster''s Lockpick skill by 40 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20557, 001 /* SETUP_DID */, 33554826)
-     , (20557, 008 /* ICON_DID */, 100676463)
-     , (20557, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20557, 028 /* SPELL_DID */, 2271 /* LockpickMasterySelf7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20557', 'scrolllockpickmasteryself7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20557, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20557, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20557, 008 /* MASS_INT */, 90)
-     , (20557, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20557, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20557, 019 /* VALUE_INT */, 2000)
-     , (20557, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20557, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20557,   1,       8192) /* ItemType - Writable */
+     , (20557,   5,         30) /* EncumbranceVal */
+     , (20557,   8,         90) /* Mass */
+     , (20557,   9,          0) /* ValidLocations - None */
+     , (20557,  16,          8) /* ItemUseable - Contained */
+     , (20557,  19,       2000) /* Value */
+     , (20557,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20557, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20557, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20557,  22, True ) /* Inscribable */
+     , (20557,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20557,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20557,   1, 'Scroll of Oswald''s Blessing') /* Name */
+     , (20557,  15, 'When learned, this spell increases the caster''s Lockpick skill by 40 points.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20557,   1,   33554826) /* Setup */
+     , (20557,   8,  100676463) /* Icon */
+     , (20557,  22,  872415275) /* PhysicsEffectTable */
+     , (20557,  28,       2271) /* Spell - Oswald's Blessing */;

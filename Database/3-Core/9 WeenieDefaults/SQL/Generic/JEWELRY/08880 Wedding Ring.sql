@@ -1,38 +1,34 @@
-/* Weenie - Wedding Ring (8880) */
-DELETE FROM weenie WHERE class_Id = 8880;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8880, 'ringbridesteele', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8880, 001 /* NAME_STRING */, 'Wedding Ring')
-     , (8880, 015 /* SHORT_DESC_STRING */, 'A priceless ring that symbolizes the commitment, caring, and happiness that goes into a marriage.  It is customary to have the beloved inscribe the ring with a personal message, and then to exchange these rings during the marriage ceremony.')
-     , (8880, 016 /* LONG_DESC_STRING */, 'A priceless ring that symbolizes the commitment, caring, and happiness that goes into a marriage.  It is customary to have the beloved inscribe the ring with a personal message, and then to exchange these rings during the marriage ceremony.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8880, 001 /* SETUP_DID */, 33554690)
-     , (8880, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8880, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8880, 007 /* CLOTHINGBASE_DID */, 268435754)
-     , (8880, 008 /* ICON_DID */, 100668562)
-     , (8880, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8880, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8880', 'ringbridesteele', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8880, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (8880, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (8880, 005 /* ENCUMB_VAL_INT */, 1)
-     , (8880, 008 /* MASS_INT */, 1)
-     , (8880, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (8880, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8880, 019 /* VALUE_INT */, 0)
-     , (8880, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8880, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8880, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (8880,   1,          8) /* ItemType - Jewelry */
+     , (8880,   3,          2) /* PaletteTemplate - Blue */
+     , (8880,   5,          1) /* EncumbranceVal */
+     , (8880,   8,          1) /* Mass */
+     , (8880,   9,     786432) /* ValidLocations - FingerWear */
+     , (8880,  16,          1) /* ItemUseable - No */
+     , (8880,  19,          0) /* Value */
+     , (8880,  33,          1) /* Bonded - Bonded */
+     , (8880,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8880, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8880, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8880,  22, True ) /* Inscribable */
+     , (8880,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8880,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8880,   1, 'Wedding Ring') /* Name */
+     , (8880,  15, 'A priceless ring that symbolizes the commitment, caring, and happiness that goes into a marriage.  It is customary to have the beloved inscribe the ring with a personal message, and then to exchange these rings during the marriage ceremony.') /* ShortDesc */
+     , (8880,  16, 'A priceless ring that symbolizes the commitment, caring, and happiness that goes into a marriage.  It is customary to have the beloved inscribe the ring with a personal message, and then to exchange these rings during the marriage ceremony.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8880,   1,   33554690) /* Setup */
+     , (8880,   3,  536870932) /* SoundTable */
+     , (8880,   6,   67111919) /* PaletteBase */
+     , (8880,   7,  268435754) /* ClothingBase */
+     , (8880,   8,  100668562) /* Icon */
+     , (8880,  22,  872415275) /* PhysicsEffectTable */
+     , (8880,  36,  234881046) /* MutateFilter */;

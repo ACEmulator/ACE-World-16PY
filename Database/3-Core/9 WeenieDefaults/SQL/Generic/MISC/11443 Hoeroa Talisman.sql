@@ -1,36 +1,32 @@
-/* Weenie - Hoeroa Talisman (11443) */
-DELETE FROM weenie WHERE class_Id = 11443;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11443, 'talismanhoeroa-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11443, 001 /* NAME_STRING */, 'Hoeroa Talisman')
-     , (11443, 015 /* SHORT_DESC_STRING */, 'A small talisman carved with the image of a staff.')
-     , (11443, 016 /* LONG_DESC_STRING */, 'A small talisman carved with the image of a staff.  If given to Aun Imeitanua, he will bestow a hoeroa in exchange.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11443, 001 /* SETUP_DID */, 33554680)
-     , (11443, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11443, 008 /* ICON_DID */, 100671829)
-     , (11443, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (11443, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11443', 'talismanhoeroa-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11443, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11443, 005 /* ENCUMB_VAL_INT */, 10)
-     , (11443, 008 /* MASS_INT */, 50)
-     , (11443, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11443, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11443, 019 /* VALUE_INT */, 50)
-     , (11443, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11443, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11443, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11443, 039 /* DEFAULT_SCALE_FLOAT */, 0.37);
+VALUES (11443,   1,        128) /* ItemType - Misc */
+     , (11443,   5,         10) /* EncumbranceVal */
+     , (11443,   8,         50) /* Mass */
+     , (11443,   9,          0) /* ValidLocations - None */
+     , (11443,  16,          1) /* ItemUseable - No */
+     , (11443,  19,         50) /* Value */
+     , (11443,  33,          1) /* Bonded - Bonded */
+     , (11443,  93,       1044) /* PhysicsState */
+     , (11443, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11443, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11443, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11443,  22, True ) /* Inscribable */
+     , (11443,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11443,  39,    0.37) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11443,   1, 'Hoeroa Talisman') /* Name */
+     , (11443,  15, 'A small talisman carved with the image of a staff.') /* ShortDesc */
+     , (11443,  16, 'A small talisman carved with the image of a staff.  If given to Aun Imeitanua, he will bestow a hoeroa in exchange.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11443,   1,   33554680) /* Setup */
+     , (11443,   3,  536870932) /* SoundTable */
+     , (11443,   8,  100671829) /* Icon */
+     , (11443,  22,  872415275) /* PhysicsEffectTable */
+     , (11443,  36,  234881046) /* MutateFilter */;

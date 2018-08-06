@@ -1,42 +1,38 @@
-/* Weenie - Medium Virindi Mana Field (5405) */
-DELETE FROM weenie WHERE class_Id = 5405;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5405, 'virindimanafield6', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5405, 001 /* NAME_STRING */, 'Medium Virindi Mana Field')
-     , (5405, 017 /* ACTIVATION_TALK_STRING */, 'You stagger as %i points of mana are drained by the mysterious crystal!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5405, 001 /* SETUP_DID */, 33556024)
-     , (5405, 003 /* SOUND_TABLE_DID */, 536871008)
-     , (5405, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5405', 'virindimanafield6', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5405, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (5405, 005 /* ENCUMB_VAL_INT */, 1)
-     , (5405, 008 /* MASS_INT */, 1)
-     , (5405, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5405, 019 /* VALUE_INT */, 1)
-     , (5405, 044 /* DAMAGE_INT */, 6)
-     , (5405, 045 /* DAMAGE_TYPE_INT */, 512 /* MANA_DAMAGE_TYPE */)
-     , (5405, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (5405, 119 /* ACTIVE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5405, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (5405, 039 /* DEFAULT_SCALE_FLOAT */, 1.75)
-     , (5405, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 1.6);
+VALUES (5405,   1,        128) /* ItemType - Misc */
+     , (5405,   5,          1) /* EncumbranceVal */
+     , (5405,   8,          1) /* Mass */
+     , (5405,  16,          1) /* ItemUseable - No */
+     , (5405,  19,          1) /* Value */
+     , (5405,  44,          6) /* Damage */
+     , (5405,  45,        512) /* DamageType - Mana */
+     , (5405,  93,         12) /* PhysicsState */
+     , (5405, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5405, 001 /* STUCK_BOOL */, True)
-     , (5405, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (5405, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5405, 013 /* ETHEREAL_BOOL */, True)
-     , (5405, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (5405, 018 /* VISIBILITY_BOOL */, True)
-     , (5405, 024 /* UI_HIDDEN_BOOL */, True)
-     , (5405, 055 /* IS_HOT_BOOL */, True)
-     , (5405, 057 /* AFFECTS_AIS_BOOL */, False);
+VALUES (5405,   1, True ) /* Stuck */
+     , (5405,  11, False) /* IgnoreCollisions */
+     , (5405,  12, True ) /* ReportCollisions */
+     , (5405,  13, True ) /* Ethereal */
+     , (5405,  14, False) /* GravityStatus */
+     , (5405,  18, True ) /* Visibility */
+     , (5405,  24, True ) /* UiHidden */
+     , (5405,  55, True ) /* IsHot */
+     , (5405,  57, False) /* AffectsAis */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5405,  22,     0.5) /* DamageVariance */
+     , (5405,  39,    1.75) /* DefaultScale */
+     , (5405, 105,     1.6) /* HotspotCycleTime */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5405,   1, 'Medium Virindi Mana Field') /* Name */
+     , (5405,  17, 'You stagger as %i points of mana are drained by the mysterious crystal!') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5405,   1,   33556024) /* Setup */
+     , (5405,   3,  536871008) /* SoundTable */
+     , (5405,   8,  100667465) /* Icon */;

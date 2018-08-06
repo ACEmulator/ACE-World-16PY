@@ -1,35 +1,32 @@
-/* Weenie - The Silifi of the Crimson Stars (6769) */
-DELETE FROM weenie WHERE class_Id = 6769;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6769, 'bookcrimsonstars', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6769, 001 /* NAME_STRING */, 'The Silifi of the Crimson Stars');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6769, 001 /* SETUP_DID */, 33554771)
-     , (6769, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6769, 008 /* ICON_DID */, 100668117)
-     , (6769, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6769', 'bookcrimsonstars', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6769, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (6769, 005 /* ENCUMB_VAL_INT */, 160)
-     , (6769, 008 /* MASS_INT */, 200)
-     , (6769, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6769, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (6769, 019 /* VALUE_INT */, 90)
-     , (6769, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6769, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (6769,   1,       8192) /* ItemType - Writable */
+     , (6769,   5,        160) /* EncumbranceVal */
+     , (6769,   8,        200) /* Mass */
+     , (6769,   9,          0) /* ValidLocations - None */
+     , (6769,  16,          8) /* ItemUseable - Contained */
+     , (6769,  19,         90) /* Value */
+     , (6769,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6769, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (6769,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6769,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6769,   1, 'The Silifi of the Crimson Stars') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6769,   1,   33554771) /* Setup */
+     , (6769,   3,  536870932) /* SoundTable */
+     , (6769,   8,  100668117) /* Icon */
+     , (6769,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (6769, 35, 1000) /* Book Data */;
+VALUES (6769, 35, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (6769, 0, 4294967295, 'Kayna bint Iswas', 'prewritten', False, '
@@ -179,4 +176,3 @@ At last, the vizier looked back to Ladriya. When he did so, he seemed to have ga
 
 Ladriya looked upon him with gratitude, and sympathy. The three were dismissed to their tasks.
 ');
-

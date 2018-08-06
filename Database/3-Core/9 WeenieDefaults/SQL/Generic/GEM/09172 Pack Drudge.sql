@@ -1,40 +1,36 @@
-/* Weenie - Pack Drudge (9172) */
-DELETE FROM weenie WHERE class_Id = 9172;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9172, 'dollrewarddrudge', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9172, 001 /* NAME_STRING */, 'Pack Drudge')
-     , (9172, 016 /* LONG_DESC_STRING */, 'The first in the Drudge-in-Your-Pack line of toys. Comes with Kung-Fu action grip!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9172, 001 /* SETUP_DID */, 33556445)
-     , (9172, 002 /* MOTION_TABLE_DID */, 150995113)
-     , (9172, 006 /* PALETTE_BASE_DID */, 67113135)
-     , (9172, 007 /* CLOTHINGBASE_DID */, 268436133)
-     , (9172, 008 /* ICON_DID */, 100667445)
-     , (9172, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415258)
-     , (9172, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9172', 'dollrewarddrudge', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9172, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (9172, 003 /* PALETTE_TEMPLATE_INT */, 47 /* PASTYYELLOW_PALETTE_TEMPLATE */)
-     , (9172, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9172, 008 /* MASS_INT */, 10)
-     , (9172, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9172, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9172, 019 /* VALUE_INT */, 10)
-     , (9172, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9172, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (9172, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9172, 012 /* SHADE_FLOAT */, 0.5)
-     , (9172, 039 /* DEFAULT_SCALE_FLOAT */, 0.3)
-     , (9172, 044 /* TIME_TO_ROT_FLOAT */, -1);
+VALUES (9172,   1,       2048) /* ItemType - Gem */
+     , (9172,   3,         47) /* PaletteTemplate - PastyYellow */
+     , (9172,   5,         10) /* EncumbranceVal */
+     , (9172,   8,         10) /* Mass */
+     , (9172,   9,          0) /* ValidLocations - None */
+     , (9172,  16,          1) /* ItemUseable - No */
+     , (9172,  19,         10) /* Value */
+     , (9172,  93,       1044) /* PhysicsState */
+     , (9172,  94,         16) /* TargetType - Creature */
+     , (9172, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9172, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9172, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9172,  22, True ) /* Inscribable */
+     , (9172,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9172,  12,     0.5) /* Shade */
+     , (9172,  39,     0.3) /* DefaultScale */
+     , (9172,  44,      -1) /* TimeToRot */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9172,   1, 'Pack Drudge') /* Name */
+     , (9172,  16, 'The first in the Drudge-in-Your-Pack line of toys. Comes with Kung-Fu action grip!') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9172,   1,   33556445) /* Setup */
+     , (9172,   2,  150995113) /* MotionTable */
+     , (9172,   6,   67113135) /* PaletteBase */
+     , (9172,   7,  268436133) /* ClothingBase */
+     , (9172,   8,  100667445) /* Icon */
+     , (9172,  22,  872415258) /* PhysicsEffectTable */
+     , (9172,  36,  234881046) /* MutateFilter */;

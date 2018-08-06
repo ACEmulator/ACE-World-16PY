@@ -1,63 +1,59 @@
-/* Weenie - Noble Crossbow (28492) */
-DELETE FROM weenie WHERE class_Id = 28492;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28492, 'crossbownoble', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28492, 001 /* NAME_STRING */, 'Noble Crossbow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28492, 001 /* SETUP_DID */, 33558863)
-     , (28492, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28492, 008 /* ICON_DID */, 100676977)
-     , (28492, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28492', 'crossbownoble', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28492, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (28492, 005 /* ENCUMB_VAL_INT */, 950)
-     , (28492, 008 /* MASS_INT */, 640)
-     , (28492, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (28492, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28492, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28492, 019 /* VALUE_INT */, 6000)
-     , (28492, 044 /* DAMAGE_INT */, 0)
-     , (28492, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (28492, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (28492, 049 /* WEAPON_TIME_INT */, 120)
-     , (28492, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (28492, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (28492, 052 /* PARENT_LOCATION_INT */, 2)
-     , (28492, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (28492, 060 /* WEAPON_RANGE_INT */, 192)
-     , (28492, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28492, 106 /* ITEM_SPELLCRAFT_INT */, 275)
-     , (28492, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (28492, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (28492, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (28492, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28492, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (28492, 158 /* WIELD_REQUIREMENTS_INT */, 1 /* WIELD_REQUIRES_SKILL_WieldRequirement */)
-     , (28492, 159 /* WIELD_SKILLTYPE_INT */, 3 /* CROSSBOW_SKILL */)
-     , (28492, 160 /* WIELD_DIFFICULTY_INT */, 290);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28492, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (28492, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (28492, 029 /* WEAPON_DEFENSE_FLOAT */, 1.09)
-     , (28492, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (28492, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (28492, 063 /* DAMAGE_MOD_FLOAT */, 2.8)
-     , (28492, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (28492, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.3);
+VALUES (28492,   1,        256) /* ItemType - MissileWeapon */
+     , (28492,   5,        950) /* EncumbranceVal */
+     , (28492,   8,        640) /* Mass */
+     , (28492,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (28492,  16,          1) /* ItemUseable - No */
+     , (28492,  18,          1) /* UiEffects - Magical */
+     , (28492,  19,       6000) /* Value */
+     , (28492,  44,          0) /* Damage */
+     , (28492,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (28492,  48,          3) /* WeaponSkill - Crossbow */
+     , (28492,  49,        120) /* WeaponTime */
+     , (28492,  50,          2) /* AmmoType - Bolt */
+     , (28492,  51,          2) /* CombatUse - Missle */
+     , (28492,  52,          2) /* ParentLocation */
+     , (28492,  53,          3) /* PlacementPosition */
+     , (28492,  60,        192) /* WeaponRange */
+     , (28492,  93,       1044) /* PhysicsState */
+     , (28492, 106,        275) /* ItemSpellcraft */
+     , (28492, 107,        800) /* ItemCurMana */
+     , (28492, 108,        800) /* ItemMaxMana */
+     , (28492, 109,        150) /* ItemDifficulty */
+     , (28492, 150,        103) /* HookPlacement - Hook */
+     , (28492, 151,          2) /* HookType - Wall */
+     , (28492, 158,          1) /* WieldRequirements - Skill */
+     , (28492, 159,          3) /* WieldSkilltype - Crossbow */
+     , (28492, 160,        290) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28492, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28492,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28492,   5, -0.0333) /* ManaRate */
+     , (28492,  26,    27.3) /* MaximumVelocity */
+     , (28492,  29,    1.09) /* WeaponDefense */
+     , (28492,  39,       1) /* DefaultScale */
+     , (28492,  62,       1) /* WeaponOffense */
+     , (28492,  63,     2.8) /* DamageMod */
+     , (28492, 136,     2.5) /* CriticalMultiplier */
+     , (28492, 147,     0.3) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28492,   1, 'Noble Crossbow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28492,   1,   33558863) /* Setup */
+     , (28492,   3,  536870932) /* SoundTable */
+     , (28492,   8,  100676977) /* Icon */
+     , (28492,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28492, 1604, 2) /* Defender5_SpellID */
-     , (28492, 1359, 2) /* EnduranceOther5_SpellID */
-     , (28492, 1616, 2) /* BloodDrinker6_SpellID */
-     , (28492, 243, 2) /* InvulnerabilityOther5_SpellID */
-     , (28492, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (28492,   243,      2)  /* Invulnerability Other V */
+     , (28492,  1359,      2)  /* Endurance Other V */
+     , (28492,  1604,      2)  /* Aura of Defender Self V */
+     , (28492,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (28492,  1625,      2)  /* Aura of Swift Killer Self IV */;

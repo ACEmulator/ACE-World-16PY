@@ -1,35 +1,31 @@
-/* Weenie - Empyrean Acid Propylaeum (14492) */
-DELETE FROM weenie WHERE class_Id = 14492;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14492, 'portalempyreanacidpropylaeum', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14492, 001 /* NAME_STRING */, 'Empyrean Acid Propylaeum');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14492, 001 /* SETUP_DID */, 33555925)
-     , (14492, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (14492, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14492', 'portalempyreanacidpropylaeum', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14492, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (14492, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (14492, 086 /* MIN_LEVEL_INT */, 50)
-     , (14492, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (14492, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (14492, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14492, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (14492,   1,      65536) /* ItemType - Portal */
+     , (14492,  16,         32) /* ItemUseable - Remote */
+     , (14492,  86,         50) /* MinLevel */
+     , (14492,  93,       3084) /* PhysicsState */
+     , (14492, 111,         49) /* PortalBitmask */
+     , (14492, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14492, 001 /* STUCK_BOOL */, True)
-     , (14492, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14492, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14492, 013 /* ETHEREAL_BOOL */, True)
-     , (14492, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (14492,   1, True ) /* Stuck */
+     , (14492,  11, False) /* IgnoreCollisions */
+     , (14492,  12, True ) /* ReportCollisions */
+     , (14492,  13, True ) /* Ethereal */
+     , (14492,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14492,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14492,   1, 'Empyrean Acid Propylaeum') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14492,   1,   33555925) /* Setup */
+     , (14492,   2,  150994947) /* MotionTable */
+     , (14492,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14492, 2, 1382941003, 30, 0, 0, 0.7071068, 0, 0, -0.7071068) /* DESTINATION_POSITION */;
-
+VALUES (14492, 2, 1382941003, 30, 0, 0, 0.7071068, 0, 0, -0.7071068) /* Destination */;

@@ -1,50 +1,46 @@
-/* Weenie - Lesser Amuli Coat of Lightning (7667) */
-DELETE FROM weenie WHERE class_Id = 7667;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7667, 'coatamullianshadowlessernewlightning', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7667, 001 /* NAME_STRING */, 'Lesser Amuli Coat of Lightning');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7667, 001 /* SETUP_DID */, 33554854)
-     , (7667, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7667, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (7667, 007 /* CLOTHINGBASE_DID */, 268435873)
-     , (7667, 008 /* ICON_DID */, 100670436)
-     , (7667, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7667', 'coatamullianshadowlessernewlightning', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7667, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (7667, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (7667, 004 /* CLOTHING_PRIORITY_INT */, 13312 /* OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */)
-     , (7667, 005 /* ENCUMB_VAL_INT */, 1500)
-     , (7667, 008 /* MASS_INT */, 1000)
-     , (7667, 009 /* LOCATIONS_INT */, 6656 /* CHEST_ARMOR_LOC, UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (7667, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7667, 019 /* VALUE_INT */, 2610)
-     , (7667, 027 /* ARMOR_TYPE_INT */, 8)
-     , (7667, 028 /* ARMOR_LEVEL_INT */, 110)
-     , (7667, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7667, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (7667, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7667, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7667, 012 /* SHADE_FLOAT */, 0.6)
-     , (7667, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (7667, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.1)
-     , (7667, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (7667, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.2)
-     , (7667, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
-     , (7667, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0)
-     , (7667, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 2)
-     , (7667, 110 /* BULK_MOD_FLOAT */, 1)
-     , (7667, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (7667,   1,          2) /* ItemType - Armor */
+     , (7667,   3,         13) /* PaletteTemplate - Purple */
+     , (7667,   4,      13312) /* ClothingPriority */
+     , (7667,   5,       1500) /* EncumbranceVal */
+     , (7667,   8,       1000) /* Mass */
+     , (7667,   9,       6656) /* ValidLocations */
+     , (7667,  16,          1) /* ItemUseable - No */
+     , (7667,  19,       2610) /* Value */
+     , (7667,  27,          8) /* ArmorType */
+     , (7667,  28,        110) /* ArmorLevel */
+     , (7667,  33,          1) /* Bonded - Bonded */
+     , (7667,  36,       9999) /* ResistMagic */
+     , (7667,  93,       1044) /* PhysicsState */
+     , (7667, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7667, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7667, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7667, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7667,  22, True ) /* Inscribable */
+     , (7667,  23, True ) /* DestroyOnSell */
+     , (7667,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7667,  12,     0.6) /* Shade */
+     , (7667,  13,       1) /* ArmorModVsSlash */
+     , (7667,  14,     1.1) /* ArmorModVsPierce */
+     , (7667,  15,       1) /* ArmorModVsBludgeon */
+     , (7667,  16,     1.2) /* ArmorModVsCold */
+     , (7667,  17,     1.2) /* ArmorModVsFire */
+     , (7667,  18,       0) /* ArmorModVsAcid */
+     , (7667,  19,       2) /* ArmorModVsElectric */
+     , (7667, 110,       1) /* BulkMod */
+     , (7667, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7667,   1, 'Lesser Amuli Coat of Lightning') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7667,   1,   33554854) /* Setup */
+     , (7667,   3,  536870932) /* SoundTable */
+     , (7667,   6,   67108990) /* PaletteBase */
+     , (7667,   7,  268435873) /* ClothingBase */
+     , (7667,   8,  100670436) /* Icon */
+     , (7667,  22,  872415275) /* PhysicsEffectTable */;

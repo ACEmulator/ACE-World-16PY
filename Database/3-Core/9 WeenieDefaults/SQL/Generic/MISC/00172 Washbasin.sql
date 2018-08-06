@@ -1,28 +1,24 @@
-/* Weenie - Washbasin (172) */
-DELETE FROM weenie WHERE class_Id = 172;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (172, 'washbasin', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (172, 001 /* NAME_STRING */, 'Washbasin');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (172, 001 /* SETUP_DID */, 33554604)
-     , (172, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (172, 008 /* ICON_DID */, 100668105)
-     , (172, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('172', 'washbasin', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (172, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (172, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (172, 008 /* MASS_INT */, 3000)
-     , (172, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (172, 019 /* VALUE_INT */, 200)
-     , (172, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (172,   1,        128) /* ItemType - Misc */
+     , (172,   5,       6000) /* EncumbranceVal */
+     , (172,   8,       3000) /* Mass */
+     , (172,  16,          1) /* ItemUseable - No */
+     , (172,  19,        200) /* Value */
+     , (172,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (172, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (172, 013 /* ETHEREAL_BOOL */, False)
-     , (172, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (172,  12, True ) /* ReportCollisions */
+     , (172,  13, False) /* Ethereal */
+     , (172,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (172,   1, 'Washbasin') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (172,   1,   33554604) /* Setup */
+     , (172,   3,  536870932) /* SoundTable */
+     , (172,   8,  100668105) /* Icon */
+     , (172,  22,  872415275) /* PhysicsEffectTable */;

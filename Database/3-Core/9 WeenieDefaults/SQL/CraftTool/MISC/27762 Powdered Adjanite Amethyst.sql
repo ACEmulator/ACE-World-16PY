@@ -1,42 +1,38 @@
-/* Weenie - Powdered Adjanite Amethyst (27762) */
-DELETE FROM weenie WHERE class_Id = 27762;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27762, 'powderadjaniteamethyst', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27762, 001 /* NAME_STRING */, 'Powdered Adjanite Amethyst')
-     , (27762, 014 /* USE_STRING */, 'You are not sure what this artifact can be used on.')
-     , (27762, 015 /* SHORT_DESC_STRING */, 'A pile of finely ground amethyst. The powder sparkles in even the faintest of light.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27762, 001 /* SETUP_DID */, 33555208)
-     , (27762, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27762, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27762, 007 /* CLOTHINGBASE_DID */, 268435778)
-     , (27762, 008 /* ICON_DID */, 100676637)
-     , (27762, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27762', 'powderadjaniteamethyst', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27762, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (27762, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (27762, 005 /* ENCUMB_VAL_INT */, 5)
-     , (27762, 008 /* MASS_INT */, 20)
-     , (27762, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27762, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (27762, 012 /* STACK_SIZE_INT */, 1)
-     , (27762, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (27762, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (27762, 015 /* STACK_UNIT_VALUE_INT */, 5000)
-     , (27762, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (27762, 019 /* VALUE_INT */, 5000)
-     , (27762, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27762, 094 /* TARGET_TYPE_INT */, 8 /* TYPE_JEWELRY */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27762, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (27762,   1,        128) /* ItemType - Misc */
+     , (27762,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (27762,   5,          5) /* EncumbranceVal */
+     , (27762,   8,         20) /* Mass */
+     , (27762,   9,          0) /* ValidLocations - None */
+     , (27762,  11,          1) /* MaxStackSize */
+     , (27762,  12,          1) /* StackSize */
+     , (27762,  13,          5) /* StackUnitEncumbrance */
+     , (27762,  14,         20) /* StackUnitMass */
+     , (27762,  15,       5000) /* StackUnitValue */
+     , (27762,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (27762,  19,       5000) /* Value */
+     , (27762,  93,       1044) /* PhysicsState */
+     , (27762,  94,          8) /* TargetType - Jewelry */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27762, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27762, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27762,  22, True ) /* Inscribable */
+     , (27762,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27762,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27762,   1, 'Powdered Adjanite Amethyst') /* Name */
+     , (27762,  14, 'You are not sure what this artifact can be used on.') /* Use */
+     , (27762,  15, 'A pile of finely ground amethyst. The powder sparkles in even the faintest of light.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27762,   1,   33555208) /* Setup */
+     , (27762,   3,  536870932) /* SoundTable */
+     , (27762,   6,   67111919) /* PaletteBase */
+     , (27762,   7,  268435778) /* ClothingBase */
+     , (27762,   8,  100676637) /* Icon */
+     , (27762,  22,  872415275) /* PhysicsEffectTable */;

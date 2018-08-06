@@ -1,38 +1,34 @@
-/* Weenie - Lightning Infusion (5324) */
-DELETE FROM weenie WHERE class_Id = 5324;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5324, 'infusionlightning', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5324, 001 /* NAME_STRING */, 'Lightning Infusion')
-     , (5324, 014 /* USE_STRING */, 'This item is used in alchemy.')
-     , (5324, 020 /* PLURAL_NAME_STRING */, 'Lightning Infusions');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5324, 001 /* SETUP_DID */, 33555965)
-     , (5324, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5324, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (5324, 007 /* CLOTHINGBASE_DID */, 268435814)
-     , (5324, 008 /* ICON_DID */, 100669998)
-     , (5324, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5324', 'infusionlightning', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5324, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (5324, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (5324, 005 /* ENCUMB_VAL_INT */, 15)
-     , (5324, 008 /* MASS_INT */, 5)
-     , (5324, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5324, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5324, 012 /* STACK_SIZE_INT */, 1)
-     , (5324, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (5324, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (5324, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (5324, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (5324, 019 /* VALUE_INT */, 10)
-     , (5324, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5324, 094 /* TARGET_TYPE_INT */, 75497472 /* TYPE_CRAFT_ALCHEMY_BASE, TYPE_CRAFT_ALCHEMY_INTERMEDIATE */);
+VALUES (5324,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (5324,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (5324,   5,         15) /* EncumbranceVal */
+     , (5324,   8,          5) /* Mass */
+     , (5324,   9,          0) /* ValidLocations - None */
+     , (5324,  11,        100) /* MaxStackSize */
+     , (5324,  12,          1) /* StackSize */
+     , (5324,  13,         15) /* StackUnitEncumbrance */
+     , (5324,  14,          5) /* StackUnitMass */
+     , (5324,  15,         10) /* StackUnitValue */
+     , (5324,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (5324,  19,         10) /* Value */
+     , (5324,  93,       1044) /* PhysicsState */
+     , (5324,  94,   75497472) /* TargetType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5324, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5324,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5324,   1, 'Lightning Infusion') /* Name */
+     , (5324,  14, 'This item is used in alchemy.') /* Use */
+     , (5324,  20, 'Lightning Infusions') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5324,   1,   33555965) /* Setup */
+     , (5324,   3,  536870932) /* SoundTable */
+     , (5324,   6,   67111919) /* PaletteBase */
+     , (5324,   7,  268435814) /* ClothingBase */
+     , (5324,   8,  100669998) /* Icon */
+     , (5324,  22,  872415275) /* PhysicsEffectTable */;

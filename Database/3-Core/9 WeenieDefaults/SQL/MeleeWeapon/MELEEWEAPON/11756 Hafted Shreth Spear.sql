@@ -1,57 +1,53 @@
-/* Weenie - Hafted Shreth Spear (11756) */
-DELETE FROM weenie WHERE class_Id = 11756;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11756, 'bannerhaftedspearshreth', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11756, 001 /* NAME_STRING */, 'Hafted Shreth Spear')
-     , (11756, 015 /* SHORT_DESC_STRING */, 'A hafted, spear-tipped banner with a shreth on it.')
-     , (11756, 016 /* LONG_DESC_STRING */, 'A hafted, spear-tipped banner with a shreth on it.  It is relatively well kept, and the colors seem even and pure.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11756, 001 /* SETUP_DID */, 33557260)
-     , (11756, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11756, 006 /* PALETTE_BASE_DID */, 67113338)
-     , (11756, 007 /* CLOTHINGBASE_DID */, 268436234)
-     , (11756, 008 /* ICON_DID */, 100671911)
-     , (11756, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11756', 'bannerhaftedspearshreth', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11756, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (11756, 005 /* ENCUMB_VAL_INT */, 400)
-     , (11756, 008 /* MASS_INT */, 500)
-     , (11756, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (11756, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11756, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (11756, 019 /* VALUE_INT */, 0)
-     , (11756, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11756, 044 /* DAMAGE_INT */, 13)
-     , (11756, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (11756, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (11756, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (11756, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (11756, 049 /* WEAPON_TIME_INT */, 30)
-     , (11756, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (11756, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11756, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (11756, 107 /* ITEM_CUR_MANA_INT */, 0)
-     , (11756, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (11756, 109 /* ITEM_DIFFICULTY_INT */, 90)
-     , (11756, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11756, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (11756, 021 /* WEAPON_LENGTH_FLOAT */, 1.3)
-     , (11756, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.66)
-     , (11756, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (11756, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (11756,   1,          1) /* ItemType - MeleeWeapon */
+     , (11756,   5,        400) /* EncumbranceVal */
+     , (11756,   8,        500) /* Mass */
+     , (11756,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (11756,  16,          1) /* ItemUseable - No */
+     , (11756,  18,          1) /* UiEffects - Magical */
+     , (11756,  19,          0) /* Value */
+     , (11756,  33,          1) /* Bonded - Bonded */
+     , (11756,  44,         13) /* Damage */
+     , (11756,  45,          2) /* DamageType - Pierce */
+     , (11756,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (11756,  47,          2) /* AttackType - Thrust */
+     , (11756,  48,          9) /* WeaponSkill - Spear */
+     , (11756,  49,         30) /* WeaponTime */
+     , (11756,  51,          1) /* CombatUse - Melee */
+     , (11756,  93,       1044) /* PhysicsState */
+     , (11756, 106,        200) /* ItemSpellcraft */
+     , (11756, 107,          0) /* ItemCurMana */
+     , (11756, 108,        600) /* ItemMaxMana */
+     , (11756, 109,         90) /* ItemDifficulty */
+     , (11756, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11756, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11756, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (11756, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (11756,  22, True ) /* Inscribable */
+     , (11756,  23, True ) /* DestroyOnSell */
+     , (11756,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11756,   5,    -0.1) /* ManaRate */
+     , (11756,  21,     1.3) /* WeaponLength */
+     , (11756,  22,    0.66) /* DamageVariance */
+     , (11756,  29,       1) /* WeaponDefense */
+     , (11756,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11756,   1, 'Hafted Shreth Spear') /* Name */
+     , (11756,  15, 'A hafted, spear-tipped banner with a shreth on it.') /* ShortDesc */
+     , (11756,  16, 'A hafted, spear-tipped banner with a shreth on it.  It is relatively well kept, and the colors seem even and pure.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11756,   1,   33557260) /* Setup */
+     , (11756,   3,  536870932) /* SoundTable */
+     , (11756,   6,   67113338) /* PaletteBase */
+     , (11756,   7,  268436234) /* ClothingBase */
+     , (11756,   8,  100671911) /* Icon */
+     , (11756,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11756, 2004, 2) /* WarriorsVitality_SpellID */;
-
+VALUES (11756,  2004,      2)  /* Warrior's Vitality */;

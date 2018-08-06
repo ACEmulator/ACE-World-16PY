@@ -1,38 +1,34 @@
-/* Weenie - Dread Mattekar Paw (9413) */
-DELETE FROM weenie WHERE class_Id = 9413;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9413, 'mattekarclawdread', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9413, 001 /* NAME_STRING */, 'Dread Mattekar Paw')
-     , (9413, 015 /* SHORT_DESC_STRING */, 'A Large Dread Mattekar paw.')
-     , (9413, 016 /* LONG_DESC_STRING */, 'A Large Dread Mattekar paw.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9413, 001 /* SETUP_DID */, 33557018)
-     , (9413, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9413, 006 /* PALETTE_BASE_DID */, 67111893)
-     , (9413, 007 /* CLOTHINGBASE_DID */, 268436173)
-     , (9413, 008 /* ICON_DID */, 100671518)
-     , (9413, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9413', 'mattekarclawdread', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9413, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9413, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (9413, 005 /* ENCUMB_VAL_INT */, 500)
-     , (9413, 008 /* MASS_INT */, 500)
-     , (9413, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9413, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9413, 019 /* VALUE_INT */, 500)
-     , (9413, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9413, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9413, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9413, 039 /* DEFAULT_SCALE_FLOAT */, 2);
+VALUES (9413,   1,        128) /* ItemType - Misc */
+     , (9413,   3,         39) /* PaletteTemplate - Black */
+     , (9413,   5,        500) /* EncumbranceVal */
+     , (9413,   8,        500) /* Mass */
+     , (9413,   9,          0) /* ValidLocations - None */
+     , (9413,  16,          1) /* ItemUseable - No */
+     , (9413,  19,        500) /* Value */
+     , (9413,  93,       1044) /* PhysicsState */
+     , (9413, 150,        103) /* HookPlacement - Hook */
+     , (9413, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9413, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9413, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9413,  22, True ) /* Inscribable */
+     , (9413,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9413,  39,       2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9413,   1, 'Dread Mattekar Paw') /* Name */
+     , (9413,  15, 'A Large Dread Mattekar paw.') /* ShortDesc */
+     , (9413,  16, 'A Large Dread Mattekar paw.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9413,   1,   33557018) /* Setup */
+     , (9413,   3,  536870932) /* SoundTable */
+     , (9413,   6,   67111893) /* PaletteBase */
+     , (9413,   7,  268436173) /* ClothingBase */
+     , (9413,   8,  100671518) /* Icon */
+     , (9413,  22,  872415275) /* PhysicsEffectTable */;

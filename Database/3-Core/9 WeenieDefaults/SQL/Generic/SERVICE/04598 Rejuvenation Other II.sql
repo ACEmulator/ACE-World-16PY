@@ -1,28 +1,24 @@
-/* Weenie - Rejuvenation Other II (4598) */
-DELETE FROM weenie WHERE class_Id = 4598;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4598, 'servicerejuvenationother2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4598, 001 /* NAME_STRING */, 'Rejuvenation Other II');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4598, 001 /* SETUP_DID */, 33554667)
-     , (4598, 008 /* ICON_DID */, 100668299)
-     , (4598, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (4598, 028 /* SPELL_DID */, 184 /* RejuvenationOther2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4598', 'servicerejuvenationother2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4598, 001 /* ITEM_TYPE_INT */, 1048576 /* TYPE_SERVICE */)
-     , (4598, 005 /* ENCUMB_VAL_INT */, 0)
-     , (4598, 008 /* MASS_INT */, 0)
-     , (4598, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4598, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4598, 019 /* VALUE_INT */, 133)
-     , (4598, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4598,   1,    1048576) /* ItemType - Service */
+     , (4598,   5,          0) /* EncumbranceVal */
+     , (4598,   8,          0) /* Mass */
+     , (4598,   9,          0) /* ValidLocations - None */
+     , (4598,  16,          1) /* ItemUseable - No */
+     , (4598,  19,        133) /* Value */
+     , (4598,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4598, 022 /* INSCRIBABLE_BOOL */, False)
-     , (4598, 051 /* VENDOR_SERVICE_BOOL */, True);
+VALUES (4598,  22, False) /* Inscribable */
+     , (4598,  51, True ) /* VendorService */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4598,   1, 'Rejuvenation Other II') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4598,   1,   33554667) /* Setup */
+     , (4598,   8,  100668299) /* Icon */
+     , (4598,  22,  872415275) /* PhysicsEffectTable */
+     , (4598,  28,        184) /* Spell - Rejuvenation Other II */;

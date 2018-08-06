@@ -1,67 +1,63 @@
-/* Weenie - Volkama's Ukira of the Rivers (27360) */
-DELETE FROM weenie WHERE class_Id = 27360;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27360, 'swordukirarivers', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27360, 001 /* NAME_STRING */, 'Volkama''s Ukira of the Rivers')
-     , (27360, 016 /* LONG_DESC_STRING */, 'An ukira fused to a triple totem. It almost seems as if the totem''s creatures are moving.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27360, 001 /* SETUP_DID */, 33558666)
-     , (27360, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27360, 006 /* PALETTE_BASE_DID */, 67113336)
-     , (27360, 007 /* CLOTHINGBASE_DID */, 268436254)
-     , (27360, 008 /* ICON_DID */, 100676355)
-     , (27360, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27360', 'swordukirarivers', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27360, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (27360, 005 /* ENCUMB_VAL_INT */, 600)
-     , (27360, 008 /* MASS_INT */, 180)
-     , (27360, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (27360, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27360, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27360, 019 /* VALUE_INT */, 20000)
-     , (27360, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (27360, 044 /* DAMAGE_INT */, 38)
-     , (27360, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (27360, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (27360, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (27360, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (27360, 049 /* WEAPON_TIME_INT */, 50)
-     , (27360, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (27360, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27360, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (27360, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (27360, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (27360, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (27360, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (27360, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27360, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27360, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (27360, 159 /* WIELD_SKILLTYPE_INT */, 11 /* SWORD_SKILL */)
-     , (27360, 160 /* WIELD_DIFFICULTY_INT */, 250);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27360, 005 /* MANA_RATE_FLOAT */, -0.033333)
-     , (27360, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (27360, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (27360, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
-     , (27360, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (27360, 062 /* WEAPON_OFFENSE_FLOAT */, 1.08)
-     , (27360, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 3)
-     , (27360, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.2);
+VALUES (27360,   1,          1) /* ItemType - MeleeWeapon */
+     , (27360,   5,        600) /* EncumbranceVal */
+     , (27360,   8,        180) /* Mass */
+     , (27360,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (27360,  16,          1) /* ItemUseable - No */
+     , (27360,  18,          1) /* UiEffects - Magical */
+     , (27360,  19,      20000) /* Value */
+     , (27360,  33,          1) /* Bonded - Bonded */
+     , (27360,  44,         38) /* Damage */
+     , (27360,  45,          3) /* DamageType */
+     , (27360,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (27360,  47,          6) /* AttackType */
+     , (27360,  48,         11) /* WeaponSkill - Sword */
+     , (27360,  49,         50) /* WeaponTime */
+     , (27360,  51,          1) /* CombatUse - Melee */
+     , (27360,  93,       1044) /* PhysicsState */
+     , (27360, 106,        250) /* ItemSpellcraft */
+     , (27360, 107,       1000) /* ItemCurMana */
+     , (27360, 108,       1000) /* ItemMaxMana */
+     , (27360, 109,          0) /* ItemDifficulty */
+     , (27360, 114,          1) /* Attuned - Attuned */
+     , (27360, 150,        103) /* HookPlacement - Hook */
+     , (27360, 151,          2) /* HookType - Wall */
+     , (27360, 158,          2) /* WieldRequirements - RawSkill */
+     , (27360, 159,         11) /* WieldSkilltype - Sword */
+     , (27360, 160,        250) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27360, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27360, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (27360, 069 /* IS_SELLABLE_BOOL */, False)
-     , (27360, 099 /* IVORYABLE_BOOL */, True);
+VALUES (27360,  22, True ) /* Inscribable */
+     , (27360,  23, True ) /* DestroyOnSell */
+     , (27360,  69, False) /* IsSellable */
+     , (27360,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27360,   5, -0.033333) /* ManaRate */
+     , (27360,  21,    0.95) /* WeaponLength */
+     , (27360,  22,     0.5) /* DamageVariance */
+     , (27360,  29,    1.08) /* WeaponDefense */
+     , (27360,  39,     1.1) /* DefaultScale */
+     , (27360,  62,    1.08) /* WeaponOffense */
+     , (27360, 136,       3) /* CriticalMultiplier */
+     , (27360, 147,     0.2) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27360,   1, 'Volkama''s Ukira of the Rivers') /* Name */
+     , (27360,  16, 'An ukira fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27360,   1,   33558666) /* Setup */
+     , (27360,   3,  536870932) /* SoundTable */
+     , (27360,   6,   67113336) /* PaletteBase */
+     , (27360,   7,  268436254) /* ClothingBase */
+     , (27360,   8,  100676355) /* Icon */
+     , (27360,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27360, 3227, 2) /* CascadeSwordGreater_SpellID */
-     , (27360, 2470, 2) /* StillWaterGreater_SpellID */
-     , (27360, 2473, 2) /* TorrentGreater_SpellID */;
-
+VALUES (27360,  2470,      2)  /* Greater Still Water */
+     , (27360,  2473,      2)  /* Greater Torrent */
+     , (27360,  3227,      2)  /* Greater Cascade */;

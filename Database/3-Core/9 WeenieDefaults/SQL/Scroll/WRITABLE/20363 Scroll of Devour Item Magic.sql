@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Devour Item Magic (20363) */
-DELETE FROM weenie WHERE class_Id = 20363;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20363, 'scrolldispelitemneutralself4', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20363, 001 /* NAME_STRING */, 'Scroll of Devour Item Magic')
-     , (20363, 015 /* SHORT_DESC_STRING */, 'When learned, this spell dispels 2-4 Item Magic enchantments of level 4 or lower from the caster.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20363, 001 /* SETUP_DID */, 33554826)
-     , (20363, 008 /* ICON_DID */, 100676659)
-     , (20363, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20363, 028 /* SPELL_DID */, 1940 /* DispelItemNeutralSelf4_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20363', 'scrolldispelitemneutralself4', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20363, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20363, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20363, 008 /* MASS_INT */, 90)
-     , (20363, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20363, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20363, 019 /* VALUE_INT */, 100)
-     , (20363, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20363, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20363,   1,       8192) /* ItemType - Writable */
+     , (20363,   5,         30) /* EncumbranceVal */
+     , (20363,   8,         90) /* Mass */
+     , (20363,   9,          0) /* ValidLocations - None */
+     , (20363,  16,          8) /* ItemUseable - Contained */
+     , (20363,  19,        100) /* Value */
+     , (20363,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20363, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20363, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20363,  22, True ) /* Inscribable */
+     , (20363,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20363,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20363,   1, 'Scroll of Devour Item Magic') /* Name */
+     , (20363,  15, 'When learned, this spell dispels 2-4 Item Magic enchantments of level 4 or lower from the caster.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20363,   1,   33554826) /* Setup */
+     , (20363,   8,  100676659) /* Icon */
+     , (20363,  22,  872415275) /* PhysicsEffectTable */
+     , (20363,  28,       1940) /* Spell - Devour Item Magic */;

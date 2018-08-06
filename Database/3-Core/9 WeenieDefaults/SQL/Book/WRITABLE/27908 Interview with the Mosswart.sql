@@ -1,36 +1,33 @@
-/* Weenie - Interview with the Mosswart (27908) */
-DELETE FROM weenie WHERE class_Id = 27908;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27908, 'bookmosswartbleeargh', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27908, 001 /* NAME_STRING */, 'Interview with the Mosswart')
-     , (27908, 016 /* LONG_DESC_STRING */, 'A book stamped with the seal of Aliester the Loquacious and the Circle of Sages.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27908, 001 /* SETUP_DID */, 33554771)
-     , (27908, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27908, 008 /* ICON_DID */, 100668117)
-     , (27908, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27908', 'bookmosswartbleeargh', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27908, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (27908, 005 /* ENCUMB_VAL_INT */, 25)
-     , (27908, 008 /* MASS_INT */, 5)
-     , (27908, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27908, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (27908, 019 /* VALUE_INT */, 25)
-     , (27908, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27908, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (27908,   1,       8192) /* ItemType - Writable */
+     , (27908,   5,         25) /* EncumbranceVal */
+     , (27908,   8,          5) /* Mass */
+     , (27908,   9,          0) /* ValidLocations - None */
+     , (27908,  16,          8) /* ItemUseable - Contained */
+     , (27908,  19,         25) /* Value */
+     , (27908,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27908, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (27908,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27908,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27908,   1, 'Interview with the Mosswart') /* Name */
+     , (27908,  16, 'A book stamped with the seal of Aliester the Loquacious and the Circle of Sages.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27908,   1,   33554771) /* Setup */
+     , (27908,   3,  536870932) /* SoundTable */
+     , (27908,   8,  100668117) /* Icon */
+     , (27908,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (27908, 11, 1000) /* Book Data */;
+VALUES (27908, 11, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (27908, 0, 4294967295, 'Aliester the Loquacious', 'prewritten', False, 'Seedsow, 15 P.Y.
@@ -75,4 +72,3 @@ The other set had been carved with a sad Mosswart face.
 
 The Circle of Sages and I will be presenting Bleeargh to the Council and asking that he be granted the Queen''s protection as an Ambassador from the Mosswart people. He is a vast source of knowledge, both on the Mosswarts and on the Burun threat.
 ');
-

@@ -1,64 +1,60 @@
-/* Weenie - Noble Leggings of Will (29540) */
-DELETE FROM weenie WHERE class_Id = 29540;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29540, 'leggingsnobleself', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29540, 001 /* NAME_STRING */, 'Noble Leggings of Will');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29540, 001 /* SETUP_DID */, 33554856)
-     , (29540, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29540, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (29540, 007 /* CLOTHINGBASE_DID */, 268436878)
-     , (29540, 008 /* ICON_DID */, 100675043)
-     , (29540, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29540', 'leggingsnobleself', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29540, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (29540, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (29540, 004 /* CLOTHING_PRIORITY_INT */, 2816 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */)
-     , (29540, 005 /* ENCUMB_VAL_INT */, 1150)
-     , (29540, 008 /* MASS_INT */, 1150)
-     , (29540, 009 /* LOCATIONS_INT */, 25600 /* ABDOMEN_ARMOR_LOC, UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (29540, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29540, 019 /* VALUE_INT */, 8000)
-     , (29540, 027 /* ARMOR_TYPE_INT */, 2)
-     , (29540, 028 /* ARMOR_LEVEL_INT */, 400)
-     , (29540, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29540, 106 /* ITEM_SPELLCRAFT_INT */, 400)
-     , (29540, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (29540, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (29540, 109 /* ITEM_DIFFICULTY_INT */, 200)
-     , (29540, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29540, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (29540, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (29540, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (29540, 160 /* WIELD_DIFFICULTY_INT */, 60);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29540, 005 /* MANA_RATE_FLOAT */, -0.0166)
-     , (29540, 012 /* SHADE_FLOAT */, 0.66)
-     , (29540, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
-     , (29540, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.2)
-     , (29540, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.4)
-     , (29540, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.4)
-     , (29540, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (29540, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (29540, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.8)
-     , (29540, 110 /* BULK_MOD_FLOAT */, 1)
-     , (29540, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (29540,   1,          2) /* ItemType - Armor */
+     , (29540,   3,         21) /* PaletteTemplate - Gold */
+     , (29540,   4,       2816) /* ClothingPriority */
+     , (29540,   5,       1150) /* EncumbranceVal */
+     , (29540,   8,       1150) /* Mass */
+     , (29540,   9,      25600) /* ValidLocations */
+     , (29540,  16,          1) /* ItemUseable - No */
+     , (29540,  19,       8000) /* Value */
+     , (29540,  27,          2) /* ArmorType */
+     , (29540,  28,        400) /* ArmorLevel */
+     , (29540,  93,       1044) /* PhysicsState */
+     , (29540, 106,        400) /* ItemSpellcraft */
+     , (29540, 107,        800) /* ItemCurMana */
+     , (29540, 108,        800) /* ItemMaxMana */
+     , (29540, 109,        200) /* ItemDifficulty */
+     , (29540, 150,        103) /* HookPlacement - Hook */
+     , (29540, 151,          2) /* HookType - Wall */
+     , (29540, 158,          7) /* WieldRequirements - Level */
+     , (29540, 159,          1) /* WieldSkilltype - Axe */
+     , (29540, 160,         60) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29540, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29540, 100 /* DYABLE_BOOL */, True);
+VALUES (29540,  22, True ) /* Inscribable */
+     , (29540, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29540,   5, -0.0166) /* ManaRate */
+     , (29540,  12,    0.66) /* Shade */
+     , (29540,  13,     1.2) /* ArmorModVsSlash */
+     , (29540,  14,     1.2) /* ArmorModVsPierce */
+     , (29540,  15,     1.4) /* ArmorModVsBludgeon */
+     , (29540,  16,     1.4) /* ArmorModVsCold */
+     , (29540,  17,       1) /* ArmorModVsFire */
+     , (29540,  18,     0.8) /* ArmorModVsAcid */
+     , (29540,  19,     0.8) /* ArmorModVsElectric */
+     , (29540, 110,       1) /* BulkMod */
+     , (29540, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29540,   1, 'Noble Leggings of Will') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29540,   1,   33554856) /* Setup */
+     , (29540,   3,  536870932) /* SoundTable */
+     , (29540,   6,   67108990) /* PaletteBase */
+     , (29540,   7,  268436878) /* ClothingBase */
+     , (29540,   8,  100675043) /* Icon */
+     , (29540,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29540, 568, 2) /* CreatureEnchantmentMasteryOther6_SpellID */
-     , (29540, 616, 2) /* LifeMagicMasteryOther6_SpellID */
-     , (29540, 592, 2) /* ItemEnchantmentMasteryOther6_SpellID */
-     , (29540, 640, 2) /* WarMagicMasteryOther6_SpellID */
-     , (29540, 3574, 2) /* InnerWill_SpellID */
-     , (29540, 2108, 2) /* Impenetrability7_SpellID */;
-
+VALUES (29540,   568,      2)  /* Creature Enchantment Mastery Other VI */
+     , (29540,   592,      2)  /* Item Enchantment Mastery Other VI */
+     , (29540,   616,      2)  /* Life Magic Mastery Other VI */
+     , (29540,   640,      2)  /* War Magic Mastery Other VI */
+     , (29540,  2108,      2)  /* Brogard's Defiance */
+     , (29540,  3574,      2)  /* Inner Will */;

@@ -1,42 +1,38 @@
-/* Weenie - Staff Reinforcer (11868) */
-DELETE FROM weenie WHERE class_Id = 11868;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11868, 'staffbuff', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11868, 001 /* NAME_STRING */, 'Staff Reinforcer')
-     , (11868, 014 /* USE_STRING */, 'Use this on a loot-generated staff to give the weapon stamina damage capability. Using this on an already augmented weapon will use up the oil.')
-     , (11868, 015 /* SHORT_DESC_STRING */, 'An oil that hardens staves.')
-     , (11868, 016 /* LONG_DESC_STRING */, 'An oil that hardens staves to the point where they can inflict damage on the enemies stamina.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11868, 001 /* SETUP_DID */, 33557279)
-     , (11868, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11868, 008 /* ICON_DID */, 100671971)
-     , (11868, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11868', 'staffbuff', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11868, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11868, 005 /* ENCUMB_VAL_INT */, 50)
-     , (11868, 008 /* MASS_INT */, 50)
-     , (11868, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11868, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (11868, 012 /* STACK_SIZE_INT */, 1)
-     , (11868, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (11868, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (11868, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (11868, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (11868, 019 /* VALUE_INT */, 10)
-     , (11868, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11868, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11868, 094 /* TARGET_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (11868, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11868, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (11868,   1,        128) /* ItemType - Misc */
+     , (11868,   5,         50) /* EncumbranceVal */
+     , (11868,   8,         50) /* Mass */
+     , (11868,   9,          0) /* ValidLocations - None */
+     , (11868,  11,          1) /* MaxStackSize */
+     , (11868,  12,          1) /* StackSize */
+     , (11868,  13,         50) /* StackUnitEncumbrance */
+     , (11868,  14,         50) /* StackUnitMass */
+     , (11868,  15,         10) /* StackUnitValue */
+     , (11868,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (11868,  19,         10) /* Value */
+     , (11868,  33,          1) /* Bonded - Bonded */
+     , (11868,  93,       1044) /* PhysicsState */
+     , (11868,  94,          1) /* TargetType - MeleeWeapon */
+     , (11868, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11868, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11868, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11868,  22, True ) /* Inscribable */
+     , (11868,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11868,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11868,   1, 'Staff Reinforcer') /* Name */
+     , (11868,  14, 'Use this on a loot-generated staff to give the weapon stamina damage capability. Using this on an already augmented weapon will use up the oil.') /* Use */
+     , (11868,  15, 'An oil that hardens staves.') /* ShortDesc */
+     , (11868,  16, 'An oil that hardens staves to the point where they can inflict damage on the enemies stamina.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11868,   1,   33557279) /* Setup */
+     , (11868,   3,  536870932) /* SoundTable */
+     , (11868,   8,  100671971) /* Icon */
+     , (11868,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,30 +1,26 @@
-/* Weenie - The Humble Healer (4420) */
-DELETE FROM weenie WHERE class_Id = 4420;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4420, 'lytelthorpehealersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4420, 001 /* NAME_STRING */, 'The Humble Healer')
-     , (4420, 016 /* LONG_DESC_STRING */, 'The Humble Healer');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4420, 001 /* SETUP_DID */, 33555088)
-     , (4420, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (4420, 007 /* CLOTHINGBASE_DID */, 268435657)
-     , (4420, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4420', 'lytelthorpehealersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4420, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4420, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4420, 008 /* MASS_INT */, 1800)
-     , (4420, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4420, 019 /* VALUE_INT */, 125)
-     , (4420, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4420,   1,        128) /* ItemType - Misc */
+     , (4420,   5,       9000) /* EncumbranceVal */
+     , (4420,   8,       1800) /* Mass */
+     , (4420,  16,          1) /* ItemUseable - No */
+     , (4420,  19,        125) /* Value */
+     , (4420,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4420, 001 /* STUCK_BOOL */, True)
-     , (4420, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4420, 013 /* ETHEREAL_BOOL */, False)
-     , (4420, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4420,   1, True ) /* Stuck */
+     , (4420,  12, True ) /* ReportCollisions */
+     , (4420,  13, False) /* Ethereal */
+     , (4420,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4420,   1, 'The Humble Healer') /* Name */
+     , (4420,  16, 'The Humble Healer') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4420,   1,   33555088) /* Setup */
+     , (4420,   6,   67111092) /* PaletteBase */
+     , (4420,   7,  268435657) /* ClothingBase */
+     , (4420,   8,  100668115) /* Icon */;

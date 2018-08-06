@@ -1,39 +1,35 @@
-/* Weenie - Magic trap (4084) */
-DELETE FROM weenie WHERE class_Id = 4084;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4084, 'trapfrailtylvl1', 26 /* Switch_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4084, 001 /* NAME_STRING */, 'Magic trap')
-     , (4084, 022 /* ACTIVATION_FAILURE_STRING */, 'You hear a faint clicking sound.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4084, 001 /* SETUP_DID */, 33554669)
-     , (4084, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4084, 008 /* ICON_DID */, 100667494)
-     , (4084, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (4084, 028 /* SPELL_DID */, 1367 /* FrailtyOther1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4084', 'trapfrailtylvl1', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4084, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4084, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (4084, 008 /* MASS_INT */, 3000)
-     , (4084, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4084, 019 /* VALUE_INT */, 200)
-     , (4084, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
-     , (4084, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
-     , (4084, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (4084, 119 /* ACTIVE_INT */, 1)
-     , (4084, 134 /* PLAYER_KILLER_STATUS_INT */, 8 /* Creature_PKStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4084, 011 /* RESET_INTERVAL_FLOAT */, 30);
+VALUES (4084,   1,        128) /* ItemType - Misc */
+     , (4084,   5,       6000) /* EncumbranceVal */
+     , (4084,   8,       3000) /* Mass */
+     , (4084,  16,          1) /* ItemUseable - No */
+     , (4084,  19,        200) /* Value */
+     , (4084,  83,       4096) /* ActivationResponse - CastSpell */
+     , (4084,  93,         20) /* PhysicsState */
+     , (4084, 106,        100) /* ItemSpellcraft */
+     , (4084, 119,          1) /* Active */
+     , (4084, 134,          8) /* PlayerKillerStatus - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4084, 001 /* STUCK_BOOL */, True)
-     , (4084, 012 /* REPORT_COLLISIONS_BOOL */, False)
-     , (4084, 013 /* ETHEREAL_BOOL */, True)
-     , (4084, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (4084, 018 /* VISIBILITY_BOOL */, True);
+VALUES (4084,   1, True ) /* Stuck */
+     , (4084,  12, False) /* ReportCollisions */
+     , (4084,  13, True ) /* Ethereal */
+     , (4084,  14, False) /* GravityStatus */
+     , (4084,  18, True ) /* Visibility */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4084,  11,      30) /* ResetInterval */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4084,   1, 'Magic trap') /* Name */
+     , (4084,  22, 'You hear a faint clicking sound.') /* ActivationFailure */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4084,   1,   33554669) /* Setup */
+     , (4084,   3,  536870932) /* SoundTable */
+     , (4084,   8,  100667494) /* Icon */
+     , (4084,  22,  872415275) /* PhysicsEffectTable */
+     , (4084,  28,       1367) /* Spell - Frailty Other I */;

@@ -1,75 +1,71 @@
-/* Weenie - Palenqual's Okane of the Chase (11422) */
-DELETE FROM weenie WHERE class_Id = 11422;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11422, 'daggerokanechase-xp', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11422, 001 /* NAME_STRING */, 'Palenqual''s Okane of the Chase')
-     , (11422, 015 /* SHORT_DESC_STRING */, 'An okane fused to a triple totem.')
-     , (11422, 016 /* LONG_DESC_STRING */, 'An okane fused to a triple totem. It almost seems as if the totem''s creatures are moving.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11422, 001 /* SETUP_DID */, 33557234)
-     , (11422, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11422, 006 /* PALETTE_BASE_DID */, 67113336)
-     , (11422, 007 /* CLOTHINGBASE_DID */, 268436250)
-     , (11422, 008 /* ICON_DID */, 100672075)
-     , (11422, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (11422, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11422', 'daggerokanechase-xp', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11422, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (11422, 005 /* ENCUMB_VAL_INT */, 135)
-     , (11422, 008 /* MASS_INT */, 90)
-     , (11422, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (11422, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11422, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (11422, 019 /* VALUE_INT */, 20000)
-     , (11422, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11422, 044 /* DAMAGE_INT */, 13)
-     , (11422, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (11422, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (11422, 047 /* ATTACK_TYPE_INT */, 166 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, DoubleThrust_AttackType */)
-     , (11422, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (11422, 049 /* WEAPON_TIME_INT */, 20)
-     , (11422, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (11422, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11422, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (11422, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (11422, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (11422, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (11422, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (11422, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (11422, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (11422, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (11422, 159 /* WIELD_SKILLTYPE_INT */, 4 /* DAGGER_SKILL */)
-     , (11422, 160 /* WIELD_DIFFICULTY_INT */, 250);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11422, 005 /* MANA_RATE_FLOAT */, -0.03333)
-     , (11422, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (11422, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.48)
-     , (11422, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
-     , (11422, 039 /* DEFAULT_SCALE_FLOAT */, 1.2)
-     , (11422, 062 /* WEAPON_OFFENSE_FLOAT */, 1.08)
-     , (11422, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 3)
-     , (11422, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.2);
+VALUES (11422,   1,          1) /* ItemType - MeleeWeapon */
+     , (11422,   5,        135) /* EncumbranceVal */
+     , (11422,   8,         90) /* Mass */
+     , (11422,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (11422,  16,          1) /* ItemUseable - No */
+     , (11422,  18,          1) /* UiEffects - Magical */
+     , (11422,  19,      20000) /* Value */
+     , (11422,  33,          1) /* Bonded - Bonded */
+     , (11422,  44,         13) /* Damage */
+     , (11422,  45,          3) /* DamageType */
+     , (11422,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (11422,  47,        166) /* AttackType */
+     , (11422,  48,          4) /* WeaponSkill - Dagger */
+     , (11422,  49,         20) /* WeaponTime */
+     , (11422,  51,          1) /* CombatUse - Melee */
+     , (11422,  93,       1044) /* PhysicsState */
+     , (11422, 106,        250) /* ItemSpellcraft */
+     , (11422, 107,       1000) /* ItemCurMana */
+     , (11422, 108,       1000) /* ItemMaxMana */
+     , (11422, 109,          0) /* ItemDifficulty */
+     , (11422, 114,          1) /* Attuned - Attuned */
+     , (11422, 150,        103) /* HookPlacement - Hook */
+     , (11422, 151,          2) /* HookType - Wall */
+     , (11422, 158,          2) /* WieldRequirements - RawSkill */
+     , (11422, 159,          4) /* WieldSkilltype - Dagger */
+     , (11422, 160,        250) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11422, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11422, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (11422, 069 /* IS_SELLABLE_BOOL */, False)
-     , (11422, 099 /* IVORYABLE_BOOL */, True);
+VALUES (11422,  22, True ) /* Inscribable */
+     , (11422,  23, True ) /* DestroyOnSell */
+     , (11422,  69, False) /* IsSellable */
+     , (11422,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11422,   5, -0.03333) /* ManaRate */
+     , (11422,  21,     0.4) /* WeaponLength */
+     , (11422,  22,    0.48) /* DamageVariance */
+     , (11422,  29,    1.08) /* WeaponDefense */
+     , (11422,  39,     1.2) /* DefaultScale */
+     , (11422,  62,    1.08) /* WeaponOffense */
+     , (11422, 136,       3) /* CriticalMultiplier */
+     , (11422, 147,     0.2) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11422,   1, 'Palenqual''s Okane of the Chase') /* Name */
+     , (11422,  15, 'An okane fused to a triple totem.') /* ShortDesc */
+     , (11422,  16, 'An okane fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11422,   1,   33557234) /* Setup */
+     , (11422,   3,  536870932) /* SoundTable */
+     , (11422,   6,   67113336) /* PaletteBase */
+     , (11422,   7,  268436250) /* ClothingBase */
+     , (11422,   8,  100672075) /* Icon */
+     , (11422,  22,  872415275) /* PhysicsEffectTable */
+     , (11422,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11422, 2454, 2) /* Thorns_SpellID */
-     , (11422, 2438, 2) /* RockslideLesser_SpellID */
-     , (11422, 2441, 2) /* StoneCliffsLesser_SpellID */
-     , (11422, 2444, 2) /* StrengthofEarthLesser_SpellID */
-     , (11422, 2448, 2) /* Growth_SpellID */
-     , (11422, 2459, 2) /* CascadeDaggerLesser_SpellID */
-     , (11422, 2451, 2) /* HuntersAcumen_SpellID */
-     , (11422, 2471, 2) /* StillWaterLesser_SpellID */
-     , (11422, 2474, 2) /* TorrentLesser_SpellID */;
-
+VALUES (11422,  2438,      2)  /* Lesser Rockslide */
+     , (11422,  2441,      2)  /* Lesser Stone Cliffs */
+     , (11422,  2444,      2)  /* Lesser Strength of Earth */
+     , (11422,  2448,      2)  /* Growth */
+     , (11422,  2451,      2)  /* Hunter's Acumen */
+     , (11422,  2454,      2)  /* Thorns */
+     , (11422,  2459,      2)  /* Lesser Cascade */
+     , (11422,  2471,      2)  /* Lesser Still Water */
+     , (11422,  2474,      2)  /* Lesser Torrent */;

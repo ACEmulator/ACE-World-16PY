@@ -1,40 +1,36 @@
-/* Weenie - Tanned Mattekar Hide (14550) */
-DELETE FROM weenie WHERE class_Id = 14550;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14550, 'mattekarhidetanned', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14550, 001 /* NAME_STRING */, 'Tanned Mattekar Hide')
-     , (14550, 014 /* USE_STRING */, 'Use this hide on a Hollow Tree Trunk to make the beginnings of a drum.')
-     , (14550, 015 /* SHORT_DESC_STRING */, 'A tanned, black Mattekar Hide, perfectly suited for the head of a drum.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14550, 001 /* SETUP_DID */, 33554817)
-     , (14550, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14550, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (14550, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (14550, 008 /* ICON_DID */, 100672526)
-     , (14550, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14550', 'mattekarhidetanned', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14550, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14550, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (14550, 005 /* ENCUMB_VAL_INT */, 800)
-     , (14550, 008 /* MASS_INT */, 800)
-     , (14550, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14550, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (14550, 012 /* STACK_SIZE_INT */, 1)
-     , (14550, 013 /* STACK_UNIT_ENCUMB_INT */, 800)
-     , (14550, 014 /* STACK_UNIT_MASS_INT */, 800)
-     , (14550, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (14550, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (14550, 019 /* VALUE_INT */, 0)
-     , (14550, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14550, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */);
+VALUES (14550,   1,        128) /* ItemType - Misc */
+     , (14550,   3,         39) /* PaletteTemplate - Black */
+     , (14550,   5,        800) /* EncumbranceVal */
+     , (14550,   8,        800) /* Mass */
+     , (14550,   9,          0) /* ValidLocations - None */
+     , (14550,  11,          1) /* MaxStackSize */
+     , (14550,  12,          1) /* StackSize */
+     , (14550,  13,        800) /* StackUnitEncumbrance */
+     , (14550,  14,        800) /* StackUnitMass */
+     , (14550,  15,          0) /* StackUnitValue */
+     , (14550,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (14550,  19,          0) /* Value */
+     , (14550,  93,       1044) /* PhysicsState */
+     , (14550,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14550, 022 /* INSCRIBABLE_BOOL */, True)
-     , (14550, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (14550, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14550,  22, True ) /* Inscribable */
+     , (14550,  23, True ) /* DestroyOnSell */
+     , (14550,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14550,   1, 'Tanned Mattekar Hide') /* Name */
+     , (14550,  14, 'Use this hide on a Hollow Tree Trunk to make the beginnings of a drum.') /* Use */
+     , (14550,  15, 'A tanned, black Mattekar Hide, perfectly suited for the head of a drum.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14550,   1,   33554817) /* Setup */
+     , (14550,   3,  536870932) /* SoundTable */
+     , (14550,   6,   67111919) /* PaletteBase */
+     , (14550,   7,  268435832) /* ClothingBase */
+     , (14550,   8,  100672526) /* Icon */
+     , (14550,  22,  872415275) /* PhysicsEffectTable */;

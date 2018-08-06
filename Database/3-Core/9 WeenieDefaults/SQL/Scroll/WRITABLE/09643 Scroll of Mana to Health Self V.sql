@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Mana to Health Self V (9643) */
-DELETE FROM weenie WHERE class_Id = 9643;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9643, 'scrollmanatohealthself5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9643, 001 /* NAME_STRING */, 'Scroll of Mana to Health Self V')
-     , (9643, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (9643, 016 /* LONG_DESC_STRING */, 'When learned, this spell drains one-half of the caster''s Mana and gives 135% of that to his/her Health.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9643, 001 /* SETUP_DID */, 33554826)
-     , (9643, 008 /* ICON_DID */, 100676942)
-     , (9643, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9643, 028 /* SPELL_DID */, 1294 /* ManatoHealthSelf5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9643', 'scrollmanatohealthself5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9643, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (9643, 005 /* ENCUMB_VAL_INT */, 30)
-     , (9643, 008 /* MASS_INT */, 90)
-     , (9643, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9643, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (9643, 019 /* VALUE_INT */, 200)
-     , (9643, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9643, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (9643,   1,       8192) /* ItemType - Writable */
+     , (9643,   5,         30) /* EncumbranceVal */
+     , (9643,   8,         90) /* Mass */
+     , (9643,   9,          0) /* ValidLocations - None */
+     , (9643,  16,          8) /* ItemUseable - Contained */
+     , (9643,  19,        200) /* Value */
+     , (9643,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9643, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9643, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9643,  22, True ) /* Inscribable */
+     , (9643,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9643,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9643,   1, 'Scroll of Mana to Health Self V') /* Name */
+     , (9643,  15, 'A magic scroll.') /* ShortDesc */
+     , (9643,  16, 'When learned, this spell drains one-half of the caster''s Mana and gives 135% of that to his/her Health.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9643,   1,   33554826) /* Setup */
+     , (9643,   8,  100676942) /* Icon */
+     , (9643,  22,  872415275) /* PhysicsEffectTable */
+     , (9643,  28,       1294) /* Spell - Mana to Health Self V */;

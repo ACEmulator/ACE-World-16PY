@@ -1,37 +1,33 @@
-/* Weenie - Name Me Please (29071) */
-DELETE FROM weenie WHERE class_Id = 29071;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29071, 'healinghookedbase', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29071, 001 /* NAME_STRING */, 'Name Me Please')
-     , (29071, 015 /* SHORT_DESC_STRING */, 'Short description does not show up in game.')
-     , (29071, 016 /* LONG_DESC_STRING */, 'Long description shows up when players ID an item.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29071, 001 /* SETUP_DID */, 33554769)
-     , (29071, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29071, 008 /* ICON_DID */, 100674497)
-     , (29071, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29071', 'healinghookedbase', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29071, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29071, 005 /* ENCUMB_VAL_INT */, 10)
-     , (29071, 008 /* MASS_INT */, 10)
-     , (29071, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29071, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (29071, 012 /* STACK_SIZE_INT */, 1)
-     , (29071, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (29071, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (29071, 015 /* STACK_UNIT_VALUE_INT */, 200)
-     , (29071, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29071, 019 /* VALUE_INT */, 200)
-     , (29071, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
-     , (29071, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29071, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */);
+VALUES (29071,   1,        128) /* ItemType - Misc */
+     , (29071,   5,         10) /* EncumbranceVal */
+     , (29071,   8,         10) /* Mass */
+     , (29071,   9,          0) /* ValidLocations - None */
+     , (29071,  11,          1) /* MaxStackSize */
+     , (29071,  12,          1) /* StackSize */
+     , (29071,  13,         10) /* StackUnitEncumbrance */
+     , (29071,  14,         10) /* StackUnitMass */
+     , (29071,  15,        200) /* StackUnitValue */
+     , (29071,  16,          1) /* ItemUseable - No */
+     , (29071,  19,        200) /* Value */
+     , (29071,  33,          0) /* Bonded - Normal */
+     , (29071,  93,       1044) /* PhysicsState */
+     , (29071, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29071, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29071, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29071,  22, True ) /* Inscribable */
+     , (29071,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29071,   1, 'Name Me Please') /* Name */
+     , (29071,  15, 'Short description does not show up in game.') /* ShortDesc */
+     , (29071,  16, 'Long description shows up when players ID an item.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29071,   1,   33554769) /* Setup */
+     , (29071,   3,  536870932) /* SoundTable */
+     , (29071,   8,  100674497) /* Icon */
+     , (29071,  22,  872415275) /* PhysicsEffectTable */;

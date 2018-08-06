@@ -1,46 +1,42 @@
-/* Weenie - Pants (2598) */
-DELETE FROM weenie WHERE class_Id = 2598;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2598, 'pantsbaggy', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2598, 001 /* NAME_STRING */, 'Pants');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2598, 001 /* SETUP_DID */, 33554653)
-     , (2598, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2598, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (2598, 007 /* CLOTHINGBASE_DID */, 268435699)
-     , (2598, 008 /* ICON_DID */, 100667370)
-     , (2598, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2598, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2598', 'pantsbaggy', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2598, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (2598, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (2598, 004 /* CLOTHING_PRIORITY_INT */, 6 /* UnderwearUpperLegs, UnderwearLowerLegs */)
-     , (2598, 005 /* ENCUMB_VAL_INT */, 135)
-     , (2598, 008 /* MASS_INT */, 90)
-     , (2598, 009 /* LOCATIONS_INT */, 196 /* ABDOMEN_WEAR_LOC, UPPER_LEG_WEAR_LOC, LOWER_LEG_WEAR_LOC */)
-     , (2598, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2598, 019 /* VALUE_INT */, 30)
-     , (2598, 027 /* ARMOR_TYPE_INT */, 1)
-     , (2598, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (2598, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2598, 169 /* TSYS_MUTATION_DATA_INT */, 201326864);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2598, 012 /* SHADE_FLOAT */, 0.33)
-     , (2598, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (2598, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (2598, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (2598, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (2598, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (2598, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (2598, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (2598,   1,          4) /* ItemType - Clothing */
+     , (2598,   3,         14) /* PaletteTemplate - Red */
+     , (2598,   4,          6) /* ClothingPriority */
+     , (2598,   5,        135) /* EncumbranceVal */
+     , (2598,   8,         90) /* Mass */
+     , (2598,   9,        196) /* ValidLocations */
+     , (2598,  16,          1) /* ItemUseable - No */
+     , (2598,  19,         30) /* Value */
+     , (2598,  27,          1) /* ArmorType */
+     , (2598,  28,          0) /* ArmorLevel */
+     , (2598,  93,       1044) /* PhysicsState */
+     , (2598, 169,  201326864) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2598, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2598, 100 /* DYABLE_BOOL */, True);
+VALUES (2598,  22, True ) /* Inscribable */
+     , (2598, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2598,  12,    0.33) /* Shade */
+     , (2598,  13,     0.8) /* ArmorModVsSlash */
+     , (2598,  14,     0.8) /* ArmorModVsPierce */
+     , (2598,  15,       1) /* ArmorModVsBludgeon */
+     , (2598,  16,     0.2) /* ArmorModVsCold */
+     , (2598,  17,     0.2) /* ArmorModVsFire */
+     , (2598,  18,     0.1) /* ArmorModVsAcid */
+     , (2598,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2598,   1, 'Pants') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2598,   1,   33554653) /* Setup */
+     , (2598,   3,  536870932) /* SoundTable */
+     , (2598,   6,   67108990) /* PaletteBase */
+     , (2598,   7,  268435699) /* ClothingBase */
+     , (2598,   8,  100667370) /* Icon */
+     , (2598,  22,  872415275) /* PhysicsEffectTable */
+     , (2598,  36,  234881046) /* MutateFilter */;

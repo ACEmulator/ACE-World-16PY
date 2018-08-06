@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Arcanum Enlightenment V (28944) */
-DELETE FROM weenie WHERE class_Id = 28944;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28944, 'scrollarcanumsalvagingother5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28944, 001 /* NAME_STRING */, 'Scroll of Arcanum Enlightenment V')
-     , (28944, 015 /* SHORT_DESC_STRING */, 'A scroll imbued with the power of the spell Scroll of Arcanum Enlightenment V.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28944, 001 /* SETUP_DID */, 33554826)
-     , (28944, 008 /* ICON_DID */, 100676477)
-     , (28944, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28944, 028 /* SPELL_DID */, 3510 /* ArcanumSalvagingOther5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28944', 'scrollarcanumsalvagingother5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28944, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28944, 005 /* ENCUMB_VAL_INT */, 10)
-     , (28944, 008 /* MASS_INT */, 90)
-     , (28944, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28944, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28944, 019 /* VALUE_INT */, 5)
-     , (28944, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28944, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (28944,   1,       8192) /* ItemType - Writable */
+     , (28944,   5,         10) /* EncumbranceVal */
+     , (28944,   8,         90) /* Mass */
+     , (28944,   9,          0) /* ValidLocations - None */
+     , (28944,  16,          8) /* ItemUseable - Contained */
+     , (28944,  19,          5) /* Value */
+     , (28944,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28944, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28944, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28944,  22, True ) /* Inscribable */
+     , (28944,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28944,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28944,   1, 'Scroll of Arcanum Enlightenment V') /* Name */
+     , (28944,  15, 'A scroll imbued with the power of the spell Scroll of Arcanum Enlightenment V.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28944,   1,   33554826) /* Setup */
+     , (28944,   8,  100676477) /* Icon */
+     , (28944,  22,  872415275) /* PhysicsEffectTable */
+     , (28944,  28,       3510) /* Spell - Arcanum Enlightenment V */;

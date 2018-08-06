@@ -1,51 +1,47 @@
-/* Weenie - Shouyumi (341) */
-DELETE FROM weenie WHERE class_Id = 341;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (341, 'shouyumi', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (341, 001 /* NAME_STRING */, 'Shouyumi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (341, 001 /* SETUP_DID */, 33554729)
-     , (341, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (341, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (341, 007 /* CLOTHINGBASE_DID */, 268435760)
-     , (341, 008 /* ICON_DID */, 100668825)
-     , (341, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (341, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (341, 046 /* TSYS_MUTATION_FILTER_DID */, 939524104);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('341', 'shouyumi', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (341, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (341, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (341, 005 /* ENCUMB_VAL_INT */, 450)
-     , (341, 008 /* MASS_INT */, 90)
-     , (341, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (341, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (341, 019 /* VALUE_INT */, 300)
-     , (341, 044 /* DAMAGE_INT */, 0)
-     , (341, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
-     , (341, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
-     , (341, 049 /* WEAPON_TIME_INT */, 35)
-     , (341, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (341, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (341, 052 /* PARENT_LOCATION_INT */, 2)
-     , (341, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (341, 060 /* WEAPON_RANGE_INT */, 160)
-     , (341, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (341, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (341, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (341, 169 /* TSYS_MUTATION_DATA_INT */, 101187850);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (341, 026 /* MAXIMUM_VELOCITY_FLOAT */, 24.9)
-     , (341, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (341, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (341, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (341, 063 /* DAMAGE_MOD_FLOAT */, 1.5);
+VALUES (341,   1,        256) /* ItemType - MissileWeapon */
+     , (341,   3,         20) /* PaletteTemplate - Silver */
+     , (341,   5,        450) /* EncumbranceVal */
+     , (341,   8,         90) /* Mass */
+     , (341,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (341,  16,          1) /* ItemUseable - No */
+     , (341,  19,        300) /* Value */
+     , (341,  44,          0) /* Damage */
+     , (341,  46,         16) /* DefaultCombatStyle - Bow */
+     , (341,  48,          2) /* WeaponSkill - Bow */
+     , (341,  49,         35) /* WeaponTime */
+     , (341,  50,          1) /* AmmoType - Arrow */
+     , (341,  51,          2) /* CombatUse - Missle */
+     , (341,  52,          2) /* ParentLocation */
+     , (341,  53,          3) /* PlacementPosition */
+     , (341,  60,        160) /* WeaponRange */
+     , (341,  93,       1044) /* PhysicsState */
+     , (341, 150,        103) /* HookPlacement - Hook */
+     , (341, 151,          2) /* HookType - Wall */
+     , (341, 169,  101187850) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (341, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (341,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (341,  26,    24.9) /* MaximumVelocity */
+     , (341,  29,       1) /* WeaponDefense */
+     , (341,  39,     1.1) /* DefaultScale */
+     , (341,  62,       1) /* WeaponOffense */
+     , (341,  63,     1.5) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (341,   1, 'Shouyumi') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (341,   1,   33554729) /* Setup */
+     , (341,   3,  536870932) /* SoundTable */
+     , (341,   6,   67111919) /* PaletteBase */
+     , (341,   7,  268435760) /* ClothingBase */
+     , (341,   8,  100668825) /* Icon */
+     , (341,  22,  872415275) /* PhysicsEffectTable */
+     , (341,  36,  234881053) /* MutateFilter */
+     , (341,  46,  939524104) /* TsysMutationFilter */;

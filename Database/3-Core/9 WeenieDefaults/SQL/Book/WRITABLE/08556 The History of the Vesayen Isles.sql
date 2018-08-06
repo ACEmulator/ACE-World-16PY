@@ -1,37 +1,34 @@
-/* Weenie - The History of the Vesayen Isles (8556) */
-DELETE FROM weenie WHERE class_Id = 8556;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8556, 'bookvesayenbandit', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8556, 001 /* NAME_STRING */, 'The History of the Vesayen Isles')
-     , (8556, 015 /* SHORT_DESC_STRING */, 'A history of the Vesayen Isles.')
-     , (8556, 016 /* LONG_DESC_STRING */, 'Onda Nakoza''s history of the Vesayen Isles.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8556, 001 /* SETUP_DID */, 33554771)
-     , (8556, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8556, 008 /* ICON_DID */, 100668117)
-     , (8556, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8556', 'bookvesayenbandit', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8556, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8556, 005 /* ENCUMB_VAL_INT */, 460)
-     , (8556, 008 /* MASS_INT */, 230)
-     , (8556, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8556, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8556, 019 /* VALUE_INT */, 450)
-     , (8556, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8556, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8556,   1,       8192) /* ItemType - Writable */
+     , (8556,   5,        460) /* EncumbranceVal */
+     , (8556,   8,        230) /* Mass */
+     , (8556,   9,          0) /* ValidLocations - None */
+     , (8556,  16,          8) /* ItemUseable - Contained */
+     , (8556,  19,        450) /* Value */
+     , (8556,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8556, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8556,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8556,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8556,   1, 'The History of the Vesayen Isles') /* Name */
+     , (8556,  15, 'A history of the Vesayen Isles.') /* ShortDesc */
+     , (8556,  16, 'Onda Nakoza''s history of the Vesayen Isles.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8556,   1,   33554771) /* Setup */
+     , (8556,   3,  536870932) /* SoundTable */
+     , (8556,   8,  100668117) /* Icon */
+     , (8556,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8556, 6, 1000) /* Book Data */;
+VALUES (8556, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8556, 0, 4294967295, 'Onda Nakoza', 'prewritten', False, 'It is difficult to remember the circumstances of our escape from the Olthoi horde, many years ago. The initial rush out of the caves was a night of chaos. It was only the strong, stable presence of our leaders, the Aluvian cousins MacDugal and MacNiall, that kept our small band together that perilous night. A few individuals were left behind or struck out on their own. The cries of pain we heard were enough to convince us to stay together. Only when we were out of the mountains and in the forests, the scrabbling and skittering sounds of Olthoi pursuit absent, that we stopped to rest and breathe free.
@@ -46,4 +43,3 @@ VALUES (8556, 0, 4294967295, 'Onda Nakoza', 'prewritten', False, 'It is difficul
 ')
      , (8556, 5, 4294967295, 'Onda Nakoza', 'prewritten', False, 'We made our way to this small island, ideal for our purposes. It is defensible and isolated from most of the creatures that plague the rest of the islands. The first days of our time here were difficult, and we lost a few more brothers and sisters in arms to the claws and spells of creatures, most notably the uniquely malodorous Moarsmen and the legions of powerful undead on the island farthest east. But through all our challenges, we have survived and thrived. More importantly, we never surrendered our principles under the pressure of the traditionalists.
 ');
-

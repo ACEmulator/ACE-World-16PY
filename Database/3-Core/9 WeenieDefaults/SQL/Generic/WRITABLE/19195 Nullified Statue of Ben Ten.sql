@@ -1,36 +1,32 @@
-/* Weenie - Nullified Statue of Ben Ten (19195) */
-DELETE FROM weenie WHERE class_Id = 19195;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19195, 'statuebentennull', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19195, 001 /* NAME_STRING */, 'Nullified Statue of Ben Ten')
-     , (19195, 015 /* SHORT_DESC_STRING */, 'This nullified shell is all that remains of the living Statue of Ben Ten that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19195, 001 /* SETUP_DID */, 33554510)
-     , (19195, 002 /* MOTION_TABLE_DID */, 150995175)
-     , (19195, 003 /* SOUND_TABLE_DID */, 536871052)
-     , (19195, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (19195, 007 /* CLOTHINGBASE_DID */, 268436345)
-     , (19195, 008 /* ICON_DID */, 100667446);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19195', 'statuebentennull', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19195, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (19195, 003 /* PALETTE_TEMPLATE_INT */, 27 /* DARKGREENMETAL_PALETTE_TEMPLATE */)
-     , (19195, 005 /* ENCUMB_VAL_INT */, 1800)
-     , (19195, 008 /* MASS_INT */, 1800)
-     , (19195, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19195, 019 /* VALUE_INT */, 0)
-     , (19195, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19195, 039 /* DEFAULT_SCALE_FLOAT */, 4);
+VALUES (19195,   1,       8192) /* ItemType - Writable */
+     , (19195,   3,         27) /* PaletteTemplate - DarkGreenMetal */
+     , (19195,   5,       1800) /* EncumbranceVal */
+     , (19195,   8,       1800) /* Mass */
+     , (19195,  16,          1) /* ItemUseable - No */
+     , (19195,  19,          0) /* Value */
+     , (19195,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19195, 001 /* STUCK_BOOL */, True)
-     , (19195, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (19195, 013 /* ETHEREAL_BOOL */, False)
-     , (19195, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (19195,   1, True ) /* Stuck */
+     , (19195,  12, True ) /* ReportCollisions */
+     , (19195,  13, False) /* Ethereal */
+     , (19195,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19195,  39,       4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19195,   1, 'Nullified Statue of Ben Ten') /* Name */
+     , (19195,  15, 'This nullified shell is all that remains of the living Statue of Ben Ten that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19195,   1,   33554510) /* Setup */
+     , (19195,   2,  150995175) /* MotionTable */
+     , (19195,   3,  536871052) /* SoundTable */
+     , (19195,   6,   67108990) /* PaletteBase */
+     , (19195,   7,  268436345) /* ClothingBase */
+     , (19195,   8,  100667446) /* Icon */;

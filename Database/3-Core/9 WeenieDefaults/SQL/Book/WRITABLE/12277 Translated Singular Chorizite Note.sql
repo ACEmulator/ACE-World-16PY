@@ -1,38 +1,35 @@
-/* Weenie - Translated Singular Chorizite Note (12277) */
-DELETE FROM weenie WHERE class_Id = 12277;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12277, 'notesingularchorizitetranslated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12277, 001 /* NAME_STRING */, 'Translated Singular Chorizite Note')
-     , (12277, 014 /* USE_STRING */, 'Use this item to read it.')
-     , (12277, 015 /* SHORT_DESC_STRING */, 'A note translated by Diyas al-Yat of Zaikhal.')
-     , (12277, 016 /* LONG_DESC_STRING */, 'A note translated by Diyas al-Yat of Zaikhal.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12277, 001 /* SETUP_DID */, 33554773)
-     , (12277, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12277, 008 /* ICON_DID */, 100668176)
-     , (12277, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12277', 'notesingularchorizitetranslated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12277, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (12277, 005 /* ENCUMB_VAL_INT */, 10)
-     , (12277, 008 /* MASS_INT */, 5)
-     , (12277, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (12277, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (12277, 019 /* VALUE_INT */, 10)
-     , (12277, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12277, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (12277,   1,       8192) /* ItemType - Writable */
+     , (12277,   5,         10) /* EncumbranceVal */
+     , (12277,   8,          5) /* Mass */
+     , (12277,   9,          0) /* ValidLocations - None */
+     , (12277,  16,          8) /* ItemUseable - Contained */
+     , (12277,  19,         10) /* Value */
+     , (12277,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12277, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (12277,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12277,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12277,   1, 'Translated Singular Chorizite Note') /* Name */
+     , (12277,  14, 'Use this item to read it.') /* Use */
+     , (12277,  15, 'A note translated by Diyas al-Yat of Zaikhal.') /* ShortDesc */
+     , (12277,  16, 'A note translated by Diyas al-Yat of Zaikhal.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12277,   1,   33554773) /* Setup */
+     , (12277,   3,  536870932) /* SoundTable */
+     , (12277,   8,  100668176) /* Icon */
+     , (12277,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (12277, 1, 1000) /* Book Data */;
+VALUES (12277, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (12277, 0, 4294967295, '', 'prewritten', False, 'Honored ally,
@@ -41,4 +38,3 @@ We are pleased to have your cooperation and assistance in this important phase o
 
 -- Speaker of the New Directive
 ');
-

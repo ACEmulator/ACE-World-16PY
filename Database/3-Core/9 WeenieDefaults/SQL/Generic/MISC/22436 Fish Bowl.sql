@@ -1,32 +1,28 @@
-/* Weenie - Fish Bowl (22436) */
-DELETE FROM weenie WHERE class_Id = 22436;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22436, 'fishbowlfish3', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22436, 001 /* NAME_STRING */, 'Fish Bowl')
-     , (22436, 014 /* USE_STRING */, 'Add Goldfish to this bowl to keep them as pets. This item can be placed on floor hooks.')
-     , (22436, 015 /* SHORT_DESC_STRING */, 'A glass bowl with Goldfish in it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22436, 001 /* SETUP_DID */, 33554929)
-     , (22436, 008 /* ICON_DID */, 100668612);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22436', 'fishbowlfish3', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22436, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22436, 005 /* ENCUMB_VAL_INT */, 30)
-     , (22436, 008 /* MASS_INT */, 30)
-     , (22436, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22436, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22436, 019 /* VALUE_INT */, 100)
-     , (22436, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22436, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22436, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22436, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (22436,   1,        128) /* ItemType - Misc */
+     , (22436,   5,         30) /* EncumbranceVal */
+     , (22436,   8,         30) /* Mass */
+     , (22436,   9,          0) /* ValidLocations - None */
+     , (22436,  16,          1) /* ItemUseable - No */
+     , (22436,  19,        100) /* Value */
+     , (22436,  93,       1044) /* PhysicsState */
+     , (22436, 150,        103) /* HookPlacement - Hook */
+     , (22436, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22436, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22436,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22436,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22436,   1, 'Fish Bowl') /* Name */
+     , (22436,  14, 'Add Goldfish to this bowl to keep them as pets. This item can be placed on floor hooks.') /* Use */
+     , (22436,  15, 'A glass bowl with Goldfish in it.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22436,   1,   33554929) /* Setup */
+     , (22436,   8,  100668612) /* Icon */;

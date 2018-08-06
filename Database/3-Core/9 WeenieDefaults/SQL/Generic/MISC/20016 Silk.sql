@@ -1,34 +1,30 @@
-/* Weenie - Silk (20016) */
-DELETE FROM weenie WHERE class_Id = 20016;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20016, 'silk-noquestflag', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20016, 001 /* NAME_STRING */, 'Silk')
-     , (20016, 015 /* SHORT_DESC_STRING */, 'A fluffy wad of silk.')
-     , (20016, 016 /* LONG_DESC_STRING */, 'A fluffy wad of silk taken from a grievver.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20016, 001 /* SETUP_DID */, 33554669)
-     , (20016, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20016, 006 /* PALETTE_BASE_DID */, 67111928)
-     , (20016, 007 /* CLOTHINGBASE_DID */, 268436389)
-     , (20016, 008 /* ICON_DID */, 100672976)
-     , (20016, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20016', 'silk-noquestflag', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20016, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (20016, 005 /* ENCUMB_VAL_INT */, 50)
-     , (20016, 008 /* MASS_INT */, 50)
-     , (20016, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20016, 019 /* VALUE_INT */, 100)
-     , (20016, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20016, 039 /* DEFAULT_SCALE_FLOAT */, 2);
+VALUES (20016,   1,        128) /* ItemType - Misc */
+     , (20016,   5,         50) /* EncumbranceVal */
+     , (20016,   8,         50) /* Mass */
+     , (20016,  16,          1) /* ItemUseable - No */
+     , (20016,  19,        100) /* Value */
+     , (20016,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20016, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20016, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20016,  22, True ) /* Inscribable */
+     , (20016,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20016,  39,       2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20016,   1, 'Silk') /* Name */
+     , (20016,  15, 'A fluffy wad of silk.') /* ShortDesc */
+     , (20016,  16, 'A fluffy wad of silk taken from a grievver.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20016,   1,   33554669) /* Setup */
+     , (20016,   3,  536870932) /* SoundTable */
+     , (20016,   6,   67111928) /* PaletteBase */
+     , (20016,   7,  268436389) /* ClothingBase */
+     , (20016,   8,  100672976) /* Icon */
+     , (20016,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,32 +1,28 @@
-/* Weenie - Rabbit Carcass (5633) */
-DELETE FROM weenie WHERE class_Id = 5633;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5633, 'rabbitcarcass', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5633, 001 /* NAME_STRING */, 'Rabbit Carcass')
-     , (5633, 014 /* USE_STRING */, 'Use this item to eat it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5633, 001 /* SETUP_DID */, 33556210)
-     , (5633, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5633, 008 /* ICON_DID */, 100670267)
-     , (5633, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5633', 'rabbitcarcass', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5633, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (5633, 005 /* ENCUMB_VAL_INT */, 300)
-     , (5633, 008 /* MASS_INT */, 230)
-     , (5633, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5633, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5633, 012 /* STACK_SIZE_INT */, 1)
-     , (5633, 013 /* STACK_UNIT_ENCUMB_INT */, 300)
-     , (5633, 014 /* STACK_UNIT_MASS_INT */, 230)
-     , (5633, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (5633, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5633, 019 /* VALUE_INT */, 10)
-     , (5633, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (5633, 090 /* BOOST_VALUE_INT */, 1)
-     , (5633, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5633,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (5633,   5,        300) /* EncumbranceVal */
+     , (5633,   8,        230) /* Mass */
+     , (5633,   9,          0) /* ValidLocations - None */
+     , (5633,  11,        100) /* MaxStackSize */
+     , (5633,  12,          1) /* StackSize */
+     , (5633,  13,        300) /* StackUnitEncumbrance */
+     , (5633,  14,        230) /* StackUnitMass */
+     , (5633,  15,         10) /* StackUnitValue */
+     , (5633,  16,          8) /* ItemUseable - Contained */
+     , (5633,  19,         10) /* Value */
+     , (5633,  89,          4) /* BoosterEnum - Stamina */
+     , (5633,  90,          1) /* BoostValue */
+     , (5633,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5633,   1, 'Rabbit Carcass') /* Name */
+     , (5633,  14, 'Use this item to eat it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5633,   1,   33556210) /* Setup */
+     , (5633,   3,  536870932) /* SoundTable */
+     , (5633,   8,  100670267) /* Icon */
+     , (5633,  22,  872415275) /* PhysicsEffectTable */;

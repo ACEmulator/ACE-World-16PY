@@ -1,37 +1,33 @@
-/* Weenie - Eastern Spires Key (6813) */
-DELETE FROM weenie WHERE class_Id = 6813;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6813, 'keyspireeastcomplete', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6813, 001 /* NAME_STRING */, 'Eastern Spires Key')
-     , (6813, 013 /* KEY_CODE_STRING */, 'spireeastcomplete')
-     , (6813, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (6813, 015 /* SHORT_DESC_STRING */, 'A skeletal key assembled from three fragments found in the eastern town shadow spires.')
-     , (6813, 016 /* LONG_DESC_STRING */, 'A skeletal key assembled from three fragments found in the eastern town shadow spires.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6813, 001 /* SETUP_DID */, 33554784)
-     , (6813, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6813, 008 /* ICON_DID */, 100670621)
-     , (6813, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6813', 'keyspireeastcomplete', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6813, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (6813, 005 /* ENCUMB_VAL_INT */, 50)
-     , (6813, 008 /* MASS_INT */, 20)
-     , (6813, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (6813, 019 /* VALUE_INT */, 50)
-     , (6813, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (6813, 092 /* STRUCTURE_INT */, 1)
-     , (6813, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6813, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */)
-     , (6813, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6813, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (6813,   1,      16384) /* ItemType - Key */
+     , (6813,   5,         50) /* EncumbranceVal */
+     , (6813,   8,         20) /* Mass */
+     , (6813,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (6813,  19,         50) /* Value */
+     , (6813,  91,          1) /* MaxStructure */
+     , (6813,  92,          1) /* Structure */
+     , (6813,  93,       1044) /* PhysicsState */
+     , (6813,  94,        640) /* TargetType - LockableMagicTarget */
+     , (6813, 150,        103) /* HookPlacement - Hook */
+     , (6813, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6813, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6813, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6813, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6813,  22, True ) /* Inscribable */
+     , (6813,  23, True ) /* DestroyOnSell */
+     , (6813,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6813,   1, 'Eastern Spires Key') /* Name */
+     , (6813,  13, 'spireeastcomplete') /* KeyCode */
+     , (6813,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (6813,  15, 'A skeletal key assembled from three fragments found in the eastern town shadow spires.') /* ShortDesc */
+     , (6813,  16, 'A skeletal key assembled from three fragments found in the eastern town shadow spires.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6813,   1,   33554784) /* Setup */
+     , (6813,   3,  536870932) /* SoundTable */
+     , (6813,   8,  100670621) /* Icon */
+     , (6813,  22,  872415275) /* PhysicsEffectTable */;

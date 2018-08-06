@@ -1,27 +1,23 @@
-/* Weenie - Cooking pot (7195) */
-DELETE FROM weenie WHERE class_Id = 7195;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7195, 'campcookingpot', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7195, 001 /* NAME_STRING */, 'Cooking pot');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7195, 001 /* SETUP_DID */, 33555281)
-     , (7195, 008 /* ICON_DID */, 100667494);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7195', 'campcookingpot', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7195, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (7195, 005 /* ENCUMB_VAL_INT */, 50)
-     , (7195, 008 /* MASS_INT */, 20)
-     , (7195, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7195, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7195, 019 /* VALUE_INT */, 0)
-     , (7195, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (7195,   1,        128) /* ItemType - Misc */
+     , (7195,   5,         50) /* EncumbranceVal */
+     , (7195,   8,         20) /* Mass */
+     , (7195,   9,          0) /* ValidLocations - None */
+     , (7195,  16,          1) /* ItemUseable - No */
+     , (7195,  19,          0) /* Value */
+     , (7195,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7195, 001 /* STUCK_BOOL */, True)
-     , (7195, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (7195, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (7195,   1, True ) /* Stuck */
+     , (7195,  14, True ) /* GravityStatus */
+     , (7195,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7195,   1, 'Cooking pot') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7195,   1,   33555281) /* Setup */
+     , (7195,   8,  100667494) /* Icon */;

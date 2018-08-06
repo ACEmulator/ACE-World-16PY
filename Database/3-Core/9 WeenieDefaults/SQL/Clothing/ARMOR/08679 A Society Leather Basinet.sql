@@ -1,57 +1,53 @@
-/* Weenie - A Society Leather Basinet (8679) */
-DELETE FROM weenie WHERE class_Id = 8679;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8679, 'basinetleathernewbiequest', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8679, 001 /* NAME_STRING */, 'A Society Leather Basinet');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8679, 001 /* SETUP_DID */, 33555048)
-     , (8679, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8679, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (8679, 007 /* CLOTHINGBASE_DID */, 268435512)
-     , (8679, 008 /* ICON_DID */, 100668241)
-     , (8679, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8679', 'basinetleathernewbiequest', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8679, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (8679, 003 /* PALETTE_TEMPLATE_INT */, 1 /* AQUABLUE_PALETTE_TEMPLATE */)
-     , (8679, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (8679, 005 /* ENCUMB_VAL_INT */, 200)
-     , (8679, 008 /* MASS_INT */, 110)
-     , (8679, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (8679, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8679, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8679, 019 /* VALUE_INT */, 1)
-     , (8679, 027 /* ARMOR_TYPE_INT */, 2)
-     , (8679, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (8679, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8679, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (8679, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (8679, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (8679, 109 /* ITEM_DIFFICULTY_INT */, 15)
-     , (8679, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8679, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8679, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (8679, 012 /* SHADE_FLOAT */, 0.3)
-     , (8679, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (8679, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (8679, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (8679, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (8679, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
-     , (8679, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (8679, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (8679, 110 /* BULK_MOD_FLOAT */, 1)
-     , (8679, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (8679,   1,          2) /* ItemType - Armor */
+     , (8679,   3,          1) /* PaletteTemplate - AquaBlue */
+     , (8679,   4,      16384) /* ClothingPriority - Head */
+     , (8679,   5,        200) /* EncumbranceVal */
+     , (8679,   8,        110) /* Mass */
+     , (8679,   9,          1) /* ValidLocations - HeadWear */
+     , (8679,  16,          1) /* ItemUseable - No */
+     , (8679,  18,          1) /* UiEffects - Magical */
+     , (8679,  19,          1) /* Value */
+     , (8679,  27,          2) /* ArmorType */
+     , (8679,  28,        100) /* ArmorLevel */
+     , (8679,  93,       1044) /* PhysicsState */
+     , (8679, 106,        100) /* ItemSpellcraft */
+     , (8679, 107,        400) /* ItemCurMana */
+     , (8679, 108,        400) /* ItemMaxMana */
+     , (8679, 109,         15) /* ItemDifficulty */
+     , (8679, 150,        103) /* HookPlacement - Hook */
+     , (8679, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8679, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (8679,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8679,   5,  -0.025) /* ManaRate */
+     , (8679,  12,     0.3) /* Shade */
+     , (8679,  13,       1) /* ArmorModVsSlash */
+     , (8679,  14,       1) /* ArmorModVsPierce */
+     , (8679,  15,       1) /* ArmorModVsBludgeon */
+     , (8679,  16,     0.6) /* ArmorModVsCold */
+     , (8679,  17,     0.6) /* ArmorModVsFire */
+     , (8679,  18,     0.6) /* ArmorModVsAcid */
+     , (8679,  19,     0.6) /* ArmorModVsElectric */
+     , (8679, 110,       1) /* BulkMod */
+     , (8679, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8679,   1, 'A Society Leather Basinet') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8679,   1,   33555048) /* Setup */
+     , (8679,   3,  536870932) /* SoundTable */
+     , (8679,   6,   67108990) /* PaletteBase */
+     , (8679,   7,  268435512) /* ClothingBase */
+     , (8679,   8,  100668241) /* Icon */
+     , (8679,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8679, 1482, 2) /* Impenetrability2_SpellID */
-     , (8679, 1313, 2) /* ArmorOther2_SpellID */;
-
+VALUES (8679,  1313,      2)  /* Armor Other II */
+     , (8679,  1482,      2)  /* Impenetrability II */;

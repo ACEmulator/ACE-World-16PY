@@ -1,49 +1,45 @@
-/* Weenie - Mite Mask (28865) */
-DELETE FROM weenie WHERE class_Id = 28865;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28865, 'maskmite', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28865, 001 /* NAME_STRING */, 'Mite Mask');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28865, 001 /* SETUP_DID */, 33558993)
-     , (28865, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28865, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (28865, 007 /* CLOTHINGBASE_DID */, 268436862)
-     , (28865, 008 /* ICON_DID */, 100677082)
-     , (28865, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28865', 'maskmite', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28865, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (28865, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (28865, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (28865, 005 /* ENCUMB_VAL_INT */, 150)
-     , (28865, 008 /* MASS_INT */, 75)
-     , (28865, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (28865, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28865, 019 /* VALUE_INT */, 200)
-     , (28865, 027 /* ARMOR_TYPE_INT */, 2)
-     , (28865, 028 /* ARMOR_LEVEL_INT */, 10)
-     , (28865, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28865, 150 /* HOOK_PLACEMENT_INT */, 101 /* Resting */)
-     , (28865, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28865, 012 /* SHADE_FLOAT */, 0.66)
-     , (28865, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.5)
-     , (28865, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.4)
-     , (28865, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.4)
-     , (28865, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (28865, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (28865, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.75)
-     , (28865, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.35)
-     , (28865, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (28865, 110 /* BULK_MOD_FLOAT */, 1)
-     , (28865, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (28865,   1,          2) /* ItemType - Armor */
+     , (28865,   3,          4) /* PaletteTemplate - Brown */
+     , (28865,   4,      16384) /* ClothingPriority - Head */
+     , (28865,   5,        150) /* EncumbranceVal */
+     , (28865,   8,         75) /* Mass */
+     , (28865,   9,          1) /* ValidLocations - HeadWear */
+     , (28865,  16,          1) /* ItemUseable - No */
+     , (28865,  19,        200) /* Value */
+     , (28865,  27,          2) /* ArmorType */
+     , (28865,  28,         10) /* ArmorLevel */
+     , (28865,  93,       1044) /* PhysicsState */
+     , (28865, 150,        101) /* HookPlacement - Resting */
+     , (28865, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28865, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28865, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28865,  22, True ) /* Inscribable */
+     , (28865,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28865,  12,    0.66) /* Shade */
+     , (28865,  13,     0.5) /* ArmorModVsSlash */
+     , (28865,  14,     0.4) /* ArmorModVsPierce */
+     , (28865,  15,     0.4) /* ArmorModVsBludgeon */
+     , (28865,  16,     0.6) /* ArmorModVsCold */
+     , (28865,  17,     0.2) /* ArmorModVsFire */
+     , (28865,  18,    0.75) /* ArmorModVsAcid */
+     , (28865,  19,    0.35) /* ArmorModVsElectric */
+     , (28865,  39,       1) /* DefaultScale */
+     , (28865, 110,       1) /* BulkMod */
+     , (28865, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28865,   1, 'Mite Mask') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28865,   1,   33558993) /* Setup */
+     , (28865,   3,  536870932) /* SoundTable */
+     , (28865,   6,   67108990) /* PaletteBase */
+     , (28865,   7,  268436862) /* ClothingBase */
+     , (28865,   8,  100677082) /* Icon */
+     , (28865,  22,  872415275) /* PhysicsEffectTable */;

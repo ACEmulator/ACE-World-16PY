@@ -1,34 +1,30 @@
-/* Weenie - Oboro Portal (12536) */
-DELETE FROM weenie WHERE class_Id = 12536;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12536, 'portaloboro', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12536, 001 /* NAME_STRING */, 'Oboro Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12536, 001 /* SETUP_DID */, 33554867)
-     , (12536, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (12536, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12536', 'portaloboro', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12536, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (12536, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (12536, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (12536, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (12536, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12536, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (12536,   1,      65536) /* ItemType - Portal */
+     , (12536,  16,         32) /* ItemUseable - Remote */
+     , (12536,  93,       3084) /* PhysicsState */
+     , (12536, 111,          1) /* PortalBitmask - Unrestricted */
+     , (12536, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12536, 001 /* STUCK_BOOL */, True)
-     , (12536, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (12536, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12536, 013 /* ETHEREAL_BOOL */, True)
-     , (12536, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (12536,   1, True ) /* Stuck */
+     , (12536,  11, False) /* IgnoreCollisions */
+     , (12536,  12, True ) /* ReportCollisions */
+     , (12536,  13, True ) /* Ethereal */
+     , (12536,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12536,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12536,   1, 'Oboro Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12536,   1,   33554867) /* Setup */
+     , (12536,   2,  150994947) /* MotionTable */
+     , (12536,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12536, 2, 2973827115, 132.389, 53.526, 35.037, -0.9200405, 0, 0, -0.3918231) /* DESTINATION_POSITION */;
-
+VALUES (12536, 2, 2973827115, 132.389, 53.526, 35.037, -0.9200405, 0, 0, -0.3918231) /* Destination */;

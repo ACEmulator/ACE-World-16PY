@@ -1,49 +1,45 @@
-/* Weenie - Lightning Javelin (3799) */
-DELETE FROM weenie WHERE class_Id = 3799;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3799, 'javelinelectric', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3799, 001 /* NAME_STRING */, 'Lightning Javelin');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3799, 001 /* SETUP_DID */, 33555723)
-     , (3799, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3799, 008 /* ICON_DID */, 100667593)
-     , (3799, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3799', 'javelinelectric', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3799, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (3799, 005 /* ENCUMB_VAL_INT */, 15)
-     , (3799, 008 /* MASS_INT */, 15)
-     , (3799, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (3799, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (3799, 012 /* STACK_SIZE_INT */, 1)
-     , (3799, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (3799, 014 /* STACK_UNIT_MASS_INT */, 15)
-     , (3799, 015 /* STACK_UNIT_VALUE_INT */, 20)
-     , (3799, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3799, 018 /* UI_EFFECTS_INT */, 64 /* UI_EFFECT_LIGHTNING */)
-     , (3799, 019 /* VALUE_INT */, 20)
-     , (3799, 044 /* DAMAGE_INT */, 10)
-     , (3799, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (3799, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (3799, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (3799, 049 /* WEAPON_TIME_INT */, 20)
-     , (3799, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (3799, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (3799, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3799, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3799, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (3799, 027 /* ROTATION_SPEED_FLOAT */, 0)
-     , (3799, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3799, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (3799, 078 /* FRICTION_FLOAT */, 1)
-     , (3799, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (3799,   1,        256) /* ItemType - MissileWeapon */
+     , (3799,   5,         15) /* EncumbranceVal */
+     , (3799,   8,         15) /* Mass */
+     , (3799,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (3799,  11,        100) /* MaxStackSize */
+     , (3799,  12,          1) /* StackSize */
+     , (3799,  13,         15) /* StackUnitEncumbrance */
+     , (3799,  14,         15) /* StackUnitMass */
+     , (3799,  15,         20) /* StackUnitValue */
+     , (3799,  16,          1) /* ItemUseable - No */
+     , (3799,  18,         64) /* UiEffects - Lightning */
+     , (3799,  19,         20) /* Value */
+     , (3799,  44,         10) /* Damage */
+     , (3799,  45,         64) /* DamageType - Electric */
+     , (3799,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (3799,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (3799,  49,         20) /* WeaponTime */
+     , (3799,  51,          2) /* CombatUse - Missle */
+     , (3799,  93,     132116) /* PhysicsState */
+     , (3799, 150,        103) /* HookPlacement - Hook */
+     , (3799, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3799, 017 /* INELASTIC_BOOL */, True);
+VALUES (3799,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3799,  22,    0.25) /* DamageVariance */
+     , (3799,  27,       0) /* RotationSpeed */
+     , (3799,  29,       1) /* WeaponDefense */
+     , (3799,  62,       1) /* WeaponOffense */
+     , (3799,  78,       1) /* Friction */
+     , (3799,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3799,   1, 'Lightning Javelin') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3799,   1,   33555723) /* Setup */
+     , (3799,   3,  536870932) /* SoundTable */
+     , (3799,   8,  100667593) /* Icon */
+     , (3799,  22,  872415275) /* PhysicsEffectTable */;

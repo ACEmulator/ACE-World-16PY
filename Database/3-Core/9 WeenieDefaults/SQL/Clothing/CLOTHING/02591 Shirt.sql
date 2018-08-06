@@ -1,46 +1,42 @@
-/* Weenie - Shirt (2591) */
-DELETE FROM weenie WHERE class_Id = 2591;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2591, 'shirtpuffy', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2591, 001 /* NAME_STRING */, 'Shirt');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2591, 001 /* SETUP_DID */, 33554644)
-     , (2591, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2591, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (2591, 007 /* CLOTHINGBASE_DID */, 268435710)
-     , (2591, 008 /* ICON_DID */, 100667376)
-     , (2591, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2591, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2591', 'shirtpuffy', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2591, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (2591, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (2591, 004 /* CLOTHING_PRIORITY_INT */, 104 /* UnderwearChest, UnderwearUpperArms, UnderwearLowerArms */)
-     , (2591, 005 /* ENCUMB_VAL_INT */, 75)
-     , (2591, 008 /* MASS_INT */, 50)
-     , (2591, 009 /* LOCATIONS_INT */, 30 /* CHEST_WEAR_LOC, ABDOMEN_WEAR_LOC, UPPER_ARM_WEAR_LOC, LOWER_ARM_WEAR_LOC */)
-     , (2591, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2591, 019 /* VALUE_INT */, 15)
-     , (2591, 027 /* ARMOR_TYPE_INT */, 1)
-     , (2591, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (2591, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2591, 169 /* TSYS_MUTATION_DATA_INT */, 201328144);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2591, 012 /* SHADE_FLOAT */, 0.66)
-     , (2591, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (2591, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (2591, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (2591, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (2591, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (2591, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (2591, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (2591,   1,          4) /* ItemType - Clothing */
+     , (2591,   3,          8) /* PaletteTemplate - Green */
+     , (2591,   4,        104) /* ClothingPriority */
+     , (2591,   5,         75) /* EncumbranceVal */
+     , (2591,   8,         50) /* Mass */
+     , (2591,   9,         30) /* ValidLocations */
+     , (2591,  16,          1) /* ItemUseable - No */
+     , (2591,  19,         15) /* Value */
+     , (2591,  27,          1) /* ArmorType */
+     , (2591,  28,          0) /* ArmorLevel */
+     , (2591,  93,       1044) /* PhysicsState */
+     , (2591, 169,  201328144) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2591, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2591, 100 /* DYABLE_BOOL */, True);
+VALUES (2591,  22, True ) /* Inscribable */
+     , (2591, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2591,  12,    0.66) /* Shade */
+     , (2591,  13,     0.8) /* ArmorModVsSlash */
+     , (2591,  14,     0.8) /* ArmorModVsPierce */
+     , (2591,  15,       1) /* ArmorModVsBludgeon */
+     , (2591,  16,     0.2) /* ArmorModVsCold */
+     , (2591,  17,     0.2) /* ArmorModVsFire */
+     , (2591,  18,     0.1) /* ArmorModVsAcid */
+     , (2591,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2591,   1, 'Shirt') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2591,   1,   33554644) /* Setup */
+     , (2591,   3,  536870932) /* SoundTable */
+     , (2591,   6,   67108990) /* PaletteBase */
+     , (2591,   7,  268435710) /* ClothingBase */
+     , (2591,   8,  100667376) /* Icon */
+     , (2591,  22,  872415275) /* PhysicsEffectTable */
+     , (2591,  36,  234881046) /* MutateFilter */;

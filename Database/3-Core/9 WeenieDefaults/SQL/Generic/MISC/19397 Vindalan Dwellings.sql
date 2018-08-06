@@ -1,28 +1,24 @@
-/* Weenie - Vindalan Dwellings (19397) */
-DELETE FROM weenie WHERE class_Id = 19397;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19397, 'vindalandwellingssign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19397, 001 /* NAME_STRING */, 'Vindalan Dwellings')
-     , (19397, 016 /* LONG_DESC_STRING */, 'Vindalan Dwellings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19397, 001 /* SETUP_DID */, 33557689)
-     , (19397, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19397', 'vindalandwellingssign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19397, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19397, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (19397, 008 /* MASS_INT */, 1800)
-     , (19397, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19397, 019 /* VALUE_INT */, 125)
-     , (19397, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (19397,   1,        128) /* ItemType - Misc */
+     , (19397,   5,       9000) /* EncumbranceVal */
+     , (19397,   8,       1800) /* Mass */
+     , (19397,  16,          1) /* ItemUseable - No */
+     , (19397,  19,        125) /* Value */
+     , (19397,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19397, 001 /* STUCK_BOOL */, True)
-     , (19397, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (19397, 013 /* ETHEREAL_BOOL */, False)
-     , (19397, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (19397,   1, True ) /* Stuck */
+     , (19397,  12, True ) /* ReportCollisions */
+     , (19397,  13, False) /* Ethereal */
+     , (19397,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19397,   1, 'Vindalan Dwellings') /* Name */
+     , (19397,  16, 'Vindalan Dwellings') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19397,   1,   33557689) /* Setup */
+     , (19397,   8,  100667499) /* Icon */;

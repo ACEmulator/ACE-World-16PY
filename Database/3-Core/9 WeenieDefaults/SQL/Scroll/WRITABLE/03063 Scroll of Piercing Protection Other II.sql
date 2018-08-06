@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Piercing Protection Other II (3063) */
-DELETE FROM weenie WHERE class_Id = 3063;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3063, 'scrollpierceprotectionother2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3063, 001 /* NAME_STRING */, 'Scroll of Piercing Protection Other II')
-     , (3063, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3063, 016 /* LONG_DESC_STRING */, 'When learned, this spell Reduces damage the target takes from Piercing by 20%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3063, 001 /* SETUP_DID */, 33554826)
-     , (3063, 008 /* ICON_DID */, 100676953)
-     , (3063, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3063, 028 /* SPELL_DID */, 1140 /* PiercingProtectionOther2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3063', 'scrollpierceprotectionother2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3063, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3063, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3063, 008 /* MASS_INT */, 90)
-     , (3063, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3063, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3063, 019 /* VALUE_INT */, 5)
-     , (3063, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3063, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3063,   1,       8192) /* ItemType - Writable */
+     , (3063,   5,         30) /* EncumbranceVal */
+     , (3063,   8,         90) /* Mass */
+     , (3063,   9,          0) /* ValidLocations - None */
+     , (3063,  16,          8) /* ItemUseable - Contained */
+     , (3063,  19,          5) /* Value */
+     , (3063,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3063, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3063, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3063,  22, True ) /* Inscribable */
+     , (3063,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3063,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3063,   1, 'Scroll of Piercing Protection Other II') /* Name */
+     , (3063,  15, 'A magic scroll.') /* ShortDesc */
+     , (3063,  16, 'When learned, this spell Reduces damage the target takes from Piercing by 20%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3063,   1,   33554826) /* Setup */
+     , (3063,   8,  100676953) /* Icon */
+     , (3063,  22,  872415275) /* PhysicsEffectTable */
+     , (3063,  28,       1140) /* Spell - Piercing Protection Other II */;

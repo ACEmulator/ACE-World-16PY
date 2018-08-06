@@ -1,45 +1,41 @@
-/* Weenie - Chest (616) */
-DELETE FROM weenie WHERE class_Id = 616;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (616, 'chest6brilliant', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (616, 001 /* NAME_STRING */, 'Chest')
-     , (616, 012 /* LOCK_CODE_STRING */, 'chestkey6')
-     , (616, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (616, 001 /* SETUP_DID */, 33554556)
-     , (616, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (616, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (616, 008 /* ICON_DID */, 100667424)
-     , (616, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('616', 'chest6brilliant', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (616, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (616, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (616, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (616, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (616, 008 /* MASS_INT */, 3000)
-     , (616, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (616, 019 /* VALUE_INT */, 7500)
-     , (616, 037 /* RESIST_ITEM_APPRAISAL_INT */, 70)
-     , (616, 038 /* RESIST_LOCKPICK_INT */, 200)
-     , (616, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (616, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (616, 096 /* ENCUMB_CAPACITY_INT */, 500);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (616, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (616,   1,        512) /* ItemType - Container */
+     , (616,   5,       9000) /* EncumbranceVal */
+     , (616,   6,         -1) /* ItemsCapacity */
+     , (616,   7,         -1) /* ContainersCapacity */
+     , (616,   8,       3000) /* Mass */
+     , (616,  16,         48) /* ItemUseable - ViewedRemote */
+     , (616,  19,       7500) /* Value */
+     , (616,  37,         70) /* ResistItemAppraisal */
+     , (616,  38,        200) /* ResistLockpick */
+     , (616,  83,          2) /* ActivationResponse - Use */
+     , (616,  93,       1048) /* PhysicsState */
+     , (616,  96,        500) /* EncumbranceCapacity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (616, 001 /* STUCK_BOOL */, True)
-     , (616, 002 /* OPEN_BOOL */, False)
-     , (616, 003 /* LOCKED_BOOL */, True)
-     , (616, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (616, 013 /* ETHEREAL_BOOL */, False)
-     , (616, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (616, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (616, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (616,   1, True ) /* Stuck */
+     , (616,   2, False) /* Open */
+     , (616,   3, True ) /* Locked */
+     , (616,  12, True ) /* ReportCollisions */
+     , (616,  13, False) /* Ethereal */
+     , (616,  33, False) /* ResetMessagePending */
+     , (616,  34, False) /* DefaultOpen */
+     , (616,  35, True ) /* DefaultLocked */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (616,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (616,   1, 'Chest') /* Name */
+     , (616,  12, 'chestkey6') /* LockCode */
+     , (616,  14, 'Use this item to open it and see its contents.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (616,   1,   33554556) /* Setup */
+     , (616,   2,  150994948) /* MotionTable */
+     , (616,   3,  536870945) /* SoundTable */
+     , (616,   8,  100667424) /* Icon */
+     , (616,  22,  872415275) /* PhysicsEffectTable */;

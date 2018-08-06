@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Monster Attunement Self III (5544) */
-DELETE FROM weenie WHERE class_Id = 5544;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5544, 'scrollmonsterattunementself3', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5544, 001 /* NAME_STRING */, 'Scroll of Monster Attunement Self III')
-     , (5544, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (5544, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the caster''s Assess Monster skill by 20 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5544, 001 /* SETUP_DID */, 33554826)
-     , (5544, 008 /* ICON_DID */, 100676448)
-     , (5544, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (5544, 028 /* SPELL_DID */, 800 /* MonsterAttunementSelf3_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5544', 'scrollmonsterattunementself3', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5544, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5544, 005 /* ENCUMB_VAL_INT */, 30)
-     , (5544, 008 /* MASS_INT */, 90)
-     , (5544, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5544, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5544, 019 /* VALUE_INT */, 20)
-     , (5544, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5544, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (5544,   1,       8192) /* ItemType - Writable */
+     , (5544,   5,         30) /* EncumbranceVal */
+     , (5544,   8,         90) /* Mass */
+     , (5544,   9,          0) /* ValidLocations - None */
+     , (5544,  16,          8) /* ItemUseable - Contained */
+     , (5544,  19,         20) /* Value */
+     , (5544,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5544, 022 /* INSCRIBABLE_BOOL */, True)
-     , (5544, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (5544,  22, True ) /* Inscribable */
+     , (5544,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5544,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5544,   1, 'Scroll of Monster Attunement Self III') /* Name */
+     , (5544,  15, 'A magic scroll.') /* ShortDesc */
+     , (5544,  16, 'When learned, this spell increases the caster''s Assess Monster skill by 20 points.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5544,   1,   33554826) /* Setup */
+     , (5544,   8,  100676448) /* Icon */
+     , (5544,  22,  872415275) /* PhysicsEffectTable */
+     , (5544,  28,        800) /* Spell - Monster Attunement Self III */;

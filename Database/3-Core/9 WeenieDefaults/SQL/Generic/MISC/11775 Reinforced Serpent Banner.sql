@@ -1,36 +1,32 @@
-/* Weenie - Reinforced Serpent Banner (11775) */
-DELETE FROM weenie WHERE class_Id = 11775;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11775, 'bannerreinforcedserpent', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11775, 001 /* NAME_STRING */, 'Reinforced Serpent Banner')
-     , (11775, 015 /* SHORT_DESC_STRING */, 'A reinforced banner with a Serpent on it.')
-     , (11775, 016 /* LONG_DESC_STRING */, 'A reinforced banner with a Serpent on it.  It is somewhat tattered, and the colors seem to be washed out.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11775, 001 /* SETUP_DID */, 33557243)
-     , (11775, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11775, 006 /* PALETTE_BASE_DID */, 67113338)
-     , (11775, 007 /* CLOTHINGBASE_DID */, 268436218)
-     , (11775, 008 /* ICON_DID */, 100671928)
-     , (11775, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (11775, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11775', 'bannerreinforcedserpent', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11775, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11775, 005 /* ENCUMB_VAL_INT */, 100)
-     , (11775, 008 /* MASS_INT */, 5)
-     , (11775, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11775, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11775, 019 /* VALUE_INT */, 0)
-     , (11775, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11775, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11775, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (11775,   1,        128) /* ItemType - Misc */
+     , (11775,   5,        100) /* EncumbranceVal */
+     , (11775,   8,          5) /* Mass */
+     , (11775,   9,          0) /* ValidLocations - None */
+     , (11775,  16,          1) /* ItemUseable - No */
+     , (11775,  19,          0) /* Value */
+     , (11775,  33,          1) /* Bonded - Bonded */
+     , (11775,  93,       1044) /* PhysicsState */
+     , (11775, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11775, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11775, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (11775, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (11775,  22, True ) /* Inscribable */
+     , (11775,  23, True ) /* DestroyOnSell */
+     , (11775,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11775,   1, 'Reinforced Serpent Banner') /* Name */
+     , (11775,  15, 'A reinforced banner with a Serpent on it.') /* ShortDesc */
+     , (11775,  16, 'A reinforced banner with a Serpent on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11775,   1,   33557243) /* Setup */
+     , (11775,   3,  536870932) /* SoundTable */
+     , (11775,   6,   67113338) /* PaletteBase */
+     , (11775,   7,  268436218) /* ClothingBase */
+     , (11775,   8,  100671928) /* Icon */
+     , (11775,  22,  872415275) /* PhysicsEffectTable */
+     , (11775,  36,  234881046) /* MutateFilter */;

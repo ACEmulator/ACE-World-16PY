@@ -1,68 +1,64 @@
-/* Weenie - Fenmalain Soul Crystal Crossbow (8008) */
-DELETE FROM weenie WHERE class_Id = 8008;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8008, 'crossbowsoulcrystalfen', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8008, 001 /* NAME_STRING */, 'Fenmalain Soul Crystal Crossbow')
-     , (8008, 015 /* SHORT_DESC_STRING */, 'A crossbow imbued with the essence of the Fenmalain Soul Crystal. Uses crystal-tipped quarrels.')
-     , (8008, 016 /* LONG_DESC_STRING */, 'A crossbow imbued with the essence of the Fenmalain Soul Crystal. Uses crystal-tipped quarrels.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8008, 001 /* SETUP_DID */, 33554733)
-     , (8008, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8008, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8008, 007 /* CLOTHINGBASE_DID */, 268436042)
-     , (8008, 008 /* ICON_DID */, 100671004)
-     , (8008, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8008, 037 /* ITEM_SKILL_LIMIT_DID */, 3);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8008', 'crossbowsoulcrystalfen', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8008, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (8008, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (8008, 005 /* ENCUMB_VAL_INT */, 960)
-     , (8008, 008 /* MASS_INT */, 640)
-     , (8008, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (8008, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8008, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8008, 019 /* VALUE_INT */, 1000)
-     , (8008, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8008, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (8008, 044 /* DAMAGE_INT */, 0)
-     , (8008, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (8008, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (8008, 049 /* WEAPON_TIME_INT */, 120)
-     , (8008, 050 /* AMMO_TYPE_INT */, 16 /*  */)
-     , (8008, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (8008, 052 /* PARENT_LOCATION_INT */, 2)
-     , (8008, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (8008, 060 /* WEAPON_RANGE_INT */, 180)
-     , (8008, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8008, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (8008, 107 /* ITEM_CUR_MANA_INT */, 300)
-     , (8008, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (8008, 109 /* ITEM_DIFFICULTY_INT */, 10)
-     , (8008, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (8008, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 160);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8008, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (8008, 012 /* SHADE_FLOAT */, 0.9)
-     , (8008, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (8008, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (8008, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (8008, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (8008, 063 /* DAMAGE_MOD_FLOAT */, 2.1)
-     , (8008, 076 /* TRANSLUCENCY_FLOAT */, 0.5);
+VALUES (8008,   1,        256) /* ItemType - MissileWeapon */
+     , (8008,   3,         13) /* PaletteTemplate - Purple */
+     , (8008,   5,        960) /* EncumbranceVal */
+     , (8008,   8,        640) /* Mass */
+     , (8008,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (8008,  16,          1) /* ItemUseable - No */
+     , (8008,  18,          1) /* UiEffects - Magical */
+     , (8008,  19,       1000) /* Value */
+     , (8008,  33,          1) /* Bonded - Bonded */
+     , (8008,  36,       9999) /* ResistMagic */
+     , (8008,  44,          0) /* Damage */
+     , (8008,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (8008,  48,          3) /* WeaponSkill - Crossbow */
+     , (8008,  49,        120) /* WeaponTime */
+     , (8008,  50,         16) /* AmmoType */
+     , (8008,  51,          2) /* CombatUse - Missle */
+     , (8008,  52,          2) /* ParentLocation */
+     , (8008,  53,          3) /* PlacementPosition */
+     , (8008,  60,        180) /* WeaponRange */
+     , (8008,  93,       1044) /* PhysicsState */
+     , (8008, 106,        200) /* ItemSpellcraft */
+     , (8008, 107,        300) /* ItemCurMana */
+     , (8008, 108,        500) /* ItemMaxMana */
+     , (8008, 109,         10) /* ItemDifficulty */
+     , (8008, 114,          1) /* Attuned - Attuned */
+     , (8008, 115,        160) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8008, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8008, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (8008, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (8008,  22, True ) /* Inscribable */
+     , (8008,  23, True ) /* DestroyOnSell */
+     , (8008,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8008,   5,   -0.05) /* ManaRate */
+     , (8008,  12,     0.9) /* Shade */
+     , (8008,  26,    27.3) /* MaximumVelocity */
+     , (8008,  29,       1) /* WeaponDefense */
+     , (8008,  39,    1.25) /* DefaultScale */
+     , (8008,  62,       1) /* WeaponOffense */
+     , (8008,  63,     2.1) /* DamageMod */
+     , (8008,  76,     0.5) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8008,   1, 'Fenmalain Soul Crystal Crossbow') /* Name */
+     , (8008,  15, 'A crossbow imbued with the essence of the Fenmalain Soul Crystal. Uses crystal-tipped quarrels.') /* ShortDesc */
+     , (8008,  16, 'A crossbow imbued with the essence of the Fenmalain Soul Crystal. Uses crystal-tipped quarrels.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8008,   1,   33554733) /* Setup */
+     , (8008,   3,  536870932) /* SoundTable */
+     , (8008,   6,   67111919) /* PaletteBase */
+     , (8008,   7,  268436042) /* ClothingBase */
+     , (8008,   8,  100671004) /* Icon */
+     , (8008,  22,  872415275) /* PhysicsEffectTable */
+     , (8008,  37,          3) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8008, 1614, 2) /* BloodDrinker4_SpellID */
-     , (8008, 1625, 2) /* SwiftKiller4_SpellID */
-     , (8008, 488, 2) /* CrossBowMasteryOther4_SpellID */;
-
+VALUES (8008,   488,      2)  /* Missile Weapon Mastery Other IV */
+     , (8008,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (8008,  1625,      2)  /* Aura of Swift Killer Self IV */;

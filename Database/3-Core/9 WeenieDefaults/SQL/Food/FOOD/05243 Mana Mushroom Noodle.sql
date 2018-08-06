@@ -1,37 +1,33 @@
-/* Weenie - Mana Mushroom Noodle (5243) */
-DELETE FROM weenie WHERE class_Id = 5243;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5243, 'manamushroomnoodle', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5243, 001 /* NAME_STRING */, 'Mana Mushroom Noodle')
-     , (5243, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5243, 020 /* PLURAL_NAME_STRING */, 'Bowls of Mana Mushroom Noodle ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5243, 001 /* SETUP_DID */, 33554668)
-     , (5243, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5243, 008 /* ICON_DID */, 100670184)
-     , (5243, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5243', 'manamushroomnoodle', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5243, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5243, 005 /* ENCUMB_VAL_INT */, 50)
-     , (5243, 008 /* MASS_INT */, 50)
-     , (5243, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5243, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5243, 012 /* STACK_SIZE_INT */, 1)
-     , (5243, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (5243, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (5243, 015 /* STACK_UNIT_VALUE_INT */, 75)
-     , (5243, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5243, 018 /* UI_EFFECTS_INT */, 8 /* UI_EFFECT_BOOST_MANA */)
-     , (5243, 019 /* VALUE_INT */, 75)
-     , (5243, 089 /* BOOSTER_ENUM_INT */, 6 /* MANA_ATTRIBUTE_2ND */)
-     , (5243, 090 /* BOOST_VALUE_INT */, 27)
-     , (5243, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5243,   1,         32) /* ItemType - Food */
+     , (5243,   5,         50) /* EncumbranceVal */
+     , (5243,   8,         50) /* Mass */
+     , (5243,   9,          0) /* ValidLocations - None */
+     , (5243,  11,        100) /* MaxStackSize */
+     , (5243,  12,          1) /* StackSize */
+     , (5243,  13,         50) /* StackUnitEncumbrance */
+     , (5243,  14,         50) /* StackUnitMass */
+     , (5243,  15,         75) /* StackUnitValue */
+     , (5243,  16,          8) /* ItemUseable - Contained */
+     , (5243,  18,          8) /* UiEffects - BoostMana */
+     , (5243,  19,         75) /* Value */
+     , (5243,  89,          6) /* BoosterEnum - Mana */
+     , (5243,  90,         27) /* BoostValue */
+     , (5243,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5243, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5243,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5243,   1, 'Mana Mushroom Noodle') /* Name */
+     , (5243,  14, 'Use this item to eat it.') /* Use */
+     , (5243,  20, 'Bowls of Mana Mushroom Noodle ') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5243,   1,   33554668) /* Setup */
+     , (5243,   3,  536870932) /* SoundTable */
+     , (5243,   8,  100670184) /* Icon */
+     , (5243,  22,  872415275) /* PhysicsEffectTable */;

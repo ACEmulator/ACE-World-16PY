@@ -1,38 +1,34 @@
-/* Weenie - Health Elixir (2458) */
-DELETE FROM weenie WHERE class_Id = 2458;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2458, 'healthelixir', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2458, 001 /* NAME_STRING */, 'Health Elixir')
-     , (2458, 014 /* USE_STRING */, 'Use this item to drink it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2458, 001 /* SETUP_DID */, 33554603)
-     , (2458, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2458, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2458, 007 /* CLOTHINGBASE_DID */, 268435816)
-     , (2458, 008 /* ICON_DID */, 100676312)
-     , (2458, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2458, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2458', 'healthelixir', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2458, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (2458, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (2458, 005 /* ENCUMB_VAL_INT */, 75)
-     , (2458, 008 /* MASS_INT */, 45)
-     , (2458, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2458, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (2458, 012 /* STACK_SIZE_INT */, 1)
-     , (2458, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
-     , (2458, 014 /* STACK_UNIT_MASS_INT */, 45)
-     , (2458, 015 /* STACK_UNIT_VALUE_INT */, 1000)
-     , (2458, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2458, 019 /* VALUE_INT */, 1000)
-     , (2458, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
-     , (2458, 090 /* BOOST_VALUE_INT */, 65)
-     , (2458, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2458, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (2458, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (2458,   1,        128) /* ItemType - Misc */
+     , (2458,   3,         14) /* PaletteTemplate - Red */
+     , (2458,   5,         75) /* EncumbranceVal */
+     , (2458,   8,         45) /* Mass */
+     , (2458,   9,          0) /* ValidLocations - None */
+     , (2458,  11,        100) /* MaxStackSize */
+     , (2458,  12,          1) /* StackSize */
+     , (2458,  13,         75) /* StackUnitEncumbrance */
+     , (2458,  14,         45) /* StackUnitMass */
+     , (2458,  15,       1000) /* StackUnitValue */
+     , (2458,  16,          8) /* ItemUseable - Contained */
+     , (2458,  19,       1000) /* Value */
+     , (2458,  89,          2) /* BoosterEnum - Health */
+     , (2458,  90,         65) /* BoostValue */
+     , (2458,  93,       1044) /* PhysicsState */
+     , (2458, 150,        103) /* HookPlacement - Hook */
+     , (2458, 151,         11) /* HookType */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2458,   1, 'Health Elixir') /* Name */
+     , (2458,  14, 'Use this item to drink it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2458,   1,   33554603) /* Setup */
+     , (2458,   3,  536870932) /* SoundTable */
+     , (2458,   6,   67111919) /* PaletteBase */
+     , (2458,   7,  268435816) /* ClothingBase */
+     , (2458,   8,  100676312) /* Icon */
+     , (2458,  22,  872415275) /* PhysicsEffectTable */
+     , (2458,  23,         65) /* UseSound - Drink1 */;

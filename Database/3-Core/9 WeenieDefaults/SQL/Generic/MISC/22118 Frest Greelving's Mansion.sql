@@ -1,27 +1,23 @@
-/* Weenie - Frest Greelving's Mansion (22118) */
-DELETE FROM weenie WHERE class_Id = 22118;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22118, 'slumlordhauntedmansion', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22118, 001 /* NAME_STRING */, 'Frest Greelving''s Mansion');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22118, 001 /* SETUP_DID */, 33557167)
-     , (22118, 002 /* MOTION_TABLE_DID */, 150995158)
-     , (22118, 008 /* ICON_DID */, 100671884);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22118', 'slumlordhauntedmansion', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22118, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22118, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22118, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22118, 039 /* DEFAULT_SCALE_FLOAT */, 1.2);
+VALUES (22118,   1,        128) /* ItemType - Misc */
+     , (22118,  16,          1) /* ItemUseable - No */
+     , (22118,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22118, 001 /* STUCK_BOOL */, True)
-     , (22118, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22118, 013 /* ETHEREAL_BOOL */, False);
+VALUES (22118,   1, True ) /* Stuck */
+     , (22118,  12, True ) /* ReportCollisions */
+     , (22118,  13, False) /* Ethereal */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22118,  39,     1.2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22118,   1, 'Frest Greelving''s Mansion') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22118,   1,   33557167) /* Setup */
+     , (22118,   2,  150995158) /* MotionTable */
+     , (22118,   8,  100671884) /* Icon */;

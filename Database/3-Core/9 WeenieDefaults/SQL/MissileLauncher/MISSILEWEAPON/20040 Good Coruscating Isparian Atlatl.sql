@@ -1,66 +1,62 @@
-/* Weenie - Good Coruscating Isparian Atlatl (20040) */
-DELETE FROM weenie WHERE class_Id = 20040;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20040, 'atlatlispariangoodsparkingminor', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20040, 001 /* NAME_STRING */, 'Good Coruscating Isparian Atlatl');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20040, 001 /* SETUP_DID */, 33557802)
-     , (20040, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20040, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20040, 007 /* CLOTHINGBASE_DID */, 268436393)
-     , (20040, 008 /* ICON_DID */, 100673002)
-     , (20040, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20040, 037 /* ITEM_SKILL_LIMIT_DID */, 12);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20040', 'atlatlispariangoodsparkingminor', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20040, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (20040, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (20040, 005 /* ENCUMB_VAL_INT */, 370)
-     , (20040, 008 /* MASS_INT */, 15)
-     , (20040, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (20040, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20040, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (20040, 019 /* VALUE_INT */, 4000)
-     , (20040, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (20040, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (20040, 044 /* DAMAGE_INT */, 4)
-     , (20040, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1024 /* Atlatl_CombatStyle */)
-     , (20040, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (20040, 049 /* WEAPON_TIME_INT */, 15)
-     , (20040, 050 /* AMMO_TYPE_INT */, 4 /* AMMO_ARROW_CRYSTAL */)
-     , (20040, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (20040, 060 /* WEAPON_RANGE_INT */, 120)
-     , (20040, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20040, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (20040, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (20040, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (20040, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 250)
-     , (20040, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (20040, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (20040, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (20040, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (20040, 160 /* WIELD_DIFFICULTY_INT */, 30);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20040, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (20040, 026 /* MAXIMUM_VELOCITY_FLOAT */, 24.9)
-     , (20040, 029 /* WEAPON_DEFENSE_FLOAT */, 1.06)
-     , (20040, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (20040, 063 /* DAMAGE_MOD_FLOAT */, 2.3);
+VALUES (20040,   1,        256) /* ItemType - MissileWeapon */
+     , (20040,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (20040,   5,        370) /* EncumbranceVal */
+     , (20040,   8,         15) /* Mass */
+     , (20040,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (20040,  16,          1) /* ItemUseable - No */
+     , (20040,  18,          1) /* UiEffects - Magical */
+     , (20040,  19,       4000) /* Value */
+     , (20040,  33,          1) /* Bonded - Bonded */
+     , (20040,  36,       9999) /* ResistMagic */
+     , (20040,  44,          4) /* Damage */
+     , (20040,  46,       1024) /* DefaultCombatStyle - Atlatl */
+     , (20040,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (20040,  49,         15) /* WeaponTime */
+     , (20040,  50,          4) /* AmmoType - ArrowCrystal */
+     , (20040,  51,          2) /* CombatUse - Missle */
+     , (20040,  60,        120) /* WeaponRange */
+     , (20040,  93,       1044) /* PhysicsState */
+     , (20040, 106,        100) /* ItemSpellcraft */
+     , (20040, 107,        400) /* ItemCurMana */
+     , (20040, 108,        400) /* ItemMaxMana */
+     , (20040, 115,        250) /* ItemSkillLevelLimit */
+     , (20040, 150,        103) /* HookPlacement - Hook */
+     , (20040, 151,          2) /* HookType - Wall */
+     , (20040, 158,          7) /* WieldRequirements - Level */
+     , (20040, 159,          1) /* WieldSkilltype - Axe */
+     , (20040, 160,         30) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20040, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20040, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (20040, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (20040,  22, True ) /* Inscribable */
+     , (20040,  23, True ) /* DestroyOnSell */
+     , (20040,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20040,   5,  -0.033) /* ManaRate */
+     , (20040,  26,    24.9) /* MaximumVelocity */
+     , (20040,  29,    1.06) /* WeaponDefense */
+     , (20040,  62,       1) /* WeaponOffense */
+     , (20040,  63,     2.3) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20040,   1, 'Good Coruscating Isparian Atlatl') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20040,   1,   33557802) /* Setup */
+     , (20040,   3,  536870932) /* SoundTable */
+     , (20040,   6,   67111919) /* PaletteBase */
+     , (20040,   7,  268436393) /* ClothingBase */
+     , (20040,   8,  100673002) /* Icon */
+     , (20040,  22,  872415275) /* PhysicsEffectTable */
+     , (20040,  37,         12) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20040, 1069, 2) /* LightningProtectionSelf4_SpellID */
-     , (20040, 1603, 2) /* Defender4_SpellID */
-     , (20040, 1614, 2) /* BloodDrinker4_SpellID */
-     , (20040, 1399, 2) /* QuicknessSelf3_SpellID */
-     , (20040, 2684, 2) /* FeebleThrownAptitude_SpellID */;
-
+VALUES (20040,  1069,      2)  /* Lightning Protection Self IV */
+     , (20040,  1399,      2)  /* Quickness Self III */
+     , (20040,  1603,      2)  /* Aura of Defender Self IV */
+     , (20040,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (20040,  2684,      2)  /* Feeble Missile Weapon Aptitude */;

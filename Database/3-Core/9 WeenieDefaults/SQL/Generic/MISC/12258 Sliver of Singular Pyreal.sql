@@ -1,34 +1,30 @@
-/* Weenie - Sliver of Singular Pyreal (12258) */
-DELETE FROM weenie WHERE class_Id = 12258;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12258, 'sliverpyreal', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12258, 001 /* NAME_STRING */, 'Sliver of Singular Pyreal')
-     , (12258, 014 /* USE_STRING */, 'Combine with a sliver of Singular Chorizite.')
-     , (12258, 015 /* SHORT_DESC_STRING */, 'A sliver of incredibly dense Singular Pyreal, imbued with Virindi magical energies.')
-     , (12258, 016 /* LONG_DESC_STRING */, 'A sliver of incredibly dense Singular Pyreal, imbued with Virindi magical energies.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12258, 001 /* SETUP_DID */, 33557380)
-     , (12258, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12258, 006 /* PALETTE_BASE_DID */, 67113398)
-     , (12258, 007 /* CLOTHINGBASE_DID */, 268436284)
-     , (12258, 008 /* ICON_DID */, 100672202)
-     , (12258, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12258', 'sliverpyreal', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12258, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (12258, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (12258, 008 /* MASS_INT */, 500)
-     , (12258, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (12258, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12258, 019 /* VALUE_INT */, 0)
-     , (12258, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (12258,   1,        128) /* ItemType - Misc */
+     , (12258,   5,       1000) /* EncumbranceVal */
+     , (12258,   8,        500) /* Mass */
+     , (12258,   9,          0) /* ValidLocations - None */
+     , (12258,  16,          1) /* ItemUseable - No */
+     , (12258,  19,          0) /* Value */
+     , (12258,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12258, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12258, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (12258, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (12258,  22, True ) /* Inscribable */
+     , (12258,  23, True ) /* DestroyOnSell */
+     , (12258,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12258,   1, 'Sliver of Singular Pyreal') /* Name */
+     , (12258,  14, 'Combine with a sliver of Singular Chorizite.') /* Use */
+     , (12258,  15, 'A sliver of incredibly dense Singular Pyreal, imbued with Virindi magical energies.') /* ShortDesc */
+     , (12258,  16, 'A sliver of incredibly dense Singular Pyreal, imbued with Virindi magical energies.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12258,   1,   33557380) /* Setup */
+     , (12258,   3,  536870932) /* SoundTable */
+     , (12258,   6,   67113398) /* PaletteBase */
+     , (12258,   7,  268436284) /* ClothingBase */
+     , (12258,   8,  100672202) /* Icon */
+     , (12258,  22,  872415275) /* PhysicsEffectTable */;

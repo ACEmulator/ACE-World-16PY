@@ -1,51 +1,47 @@
-/* Weenie - Elysa's Favor (14485) */
-DELETE FROM weenie WHERE class_Id = 14485;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14485, 'ringregicide2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14485, 001 /* NAME_STRING */, 'Elysa''s Favor')
-     , (14485, 014 /* USE_STRING */, 'You must be over Level 20 to use this ring.')
-     , (14485, 015 /* SHORT_DESC_STRING */, 'Elysa''s gift to you, in recognition for your brave service for the kingdom.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14485, 001 /* SETUP_DID */, 33554691)
-     , (14485, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14485, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (14485, 007 /* CLOTHINGBASE_DID */, 268436318)
-     , (14485, 008 /* ICON_DID */, 100672474)
-     , (14485, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (14485, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14485', 'ringregicide2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14485, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (14485, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (14485, 005 /* ENCUMB_VAL_INT */, 15)
-     , (14485, 008 /* MASS_INT */, 10)
-     , (14485, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (14485, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14485, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (14485, 019 /* VALUE_INT */, 3500)
-     , (14485, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14485, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14485, 106 /* ITEM_SPELLCRAFT_INT */, 115)
-     , (14485, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (14485, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (14485, 109 /* ITEM_DIFFICULTY_INT */, 115)
-     , (14485, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (14485, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (14485, 160 /* WIELD_DIFFICULTY_INT */, 20);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14485, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (14485, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (14485,   1,          8) /* ItemType - Jewelry */
+     , (14485,   3,         14) /* PaletteTemplate - Red */
+     , (14485,   5,         15) /* EncumbranceVal */
+     , (14485,   8,         10) /* Mass */
+     , (14485,   9,     786432) /* ValidLocations - FingerWear */
+     , (14485,  16,          1) /* ItemUseable - No */
+     , (14485,  18,          1) /* UiEffects - Magical */
+     , (14485,  19,       3500) /* Value */
+     , (14485,  33,          1) /* Bonded - Bonded */
+     , (14485,  93,       1044) /* PhysicsState */
+     , (14485, 106,        115) /* ItemSpellcraft */
+     , (14485, 107,        500) /* ItemCurMana */
+     , (14485, 108,        500) /* ItemMaxMana */
+     , (14485, 109,        115) /* ItemDifficulty */
+     , (14485, 158,          7) /* WieldRequirements - Level */
+     , (14485, 159,          1) /* WieldSkilltype - Axe */
+     , (14485, 160,         20) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14485, 022 /* INSCRIBABLE_BOOL */, True)
-     , (14485, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (14485,  22, True ) /* Inscribable */
+     , (14485,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14485,   5,  -0.033) /* ManaRate */
+     , (14485,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14485,   1, 'Elysa''s Favor') /* Name */
+     , (14485,  14, 'You must be over Level 20 to use this ring.') /* Use */
+     , (14485,  15, 'Elysa''s gift to you, in recognition for your brave service for the kingdom.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14485,   1,   33554691) /* Setup */
+     , (14485,   3,  536870932) /* SoundTable */
+     , (14485,   6,   67111919) /* PaletteBase */
+     , (14485,   7,  268436318) /* ClothingBase */
+     , (14485,   8,  100672474) /* Icon */
+     , (14485,  22,  872415275) /* PhysicsEffectTable */
+     , (14485,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14485, 1997, 2) /* LifeGiver_SpellID */
-     , (14485, 2583, 2) /* CANTRIPSTRENGTH1_SpellID */;
-
+VALUES (14485,  1997,      2)  /* Life Giver */
+     , (14485,  2583,      2)  /* Minor Strength */;

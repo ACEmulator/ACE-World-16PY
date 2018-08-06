@@ -1,45 +1,41 @@
-/* Weenie - Flaming Djarid (5570) */
-DELETE FROM weenie WHERE class_Id = 5570;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5570, 'djaridfirestack', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5570, 001 /* NAME_STRING */, 'Flaming Djarid');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5570, 001 /* SETUP_DID */, 33555725)
-     , (5570, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5570, 008 /* ICON_DID */, 100667593)
-     , (5570, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5570', 'djaridfirestack', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5570, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (5570, 005 /* ENCUMB_VAL_INT */, 600)
-     , (5570, 008 /* MASS_INT */, 800)
-     , (5570, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (5570, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5570, 012 /* STACK_SIZE_INT */, 40)
-     , (5570, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (5570, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (5570, 015 /* STACK_UNIT_VALUE_INT */, 20)
-     , (5570, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5570, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (5570, 019 /* VALUE_INT */, 800)
-     , (5570, 044 /* DAMAGE_INT */, 10)
-     , (5570, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (5570, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (5570, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (5570, 049 /* WEAPON_TIME_INT */, 20)
-     , (5570, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (5570, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5570, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (5570, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (5570,   1,        256) /* ItemType - MissileWeapon */
+     , (5570,   5,        600) /* EncumbranceVal */
+     , (5570,   8,        800) /* Mass */
+     , (5570,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (5570,  11,        100) /* MaxStackSize */
+     , (5570,  12,         40) /* StackSize */
+     , (5570,  13,         15) /* StackUnitEncumbrance */
+     , (5570,  14,         20) /* StackUnitMass */
+     , (5570,  15,         20) /* StackUnitValue */
+     , (5570,  16,          1) /* ItemUseable - No */
+     , (5570,  18,         32) /* UiEffects - Fire */
+     , (5570,  19,        800) /* Value */
+     , (5570,  44,         10) /* Damage */
+     , (5570,  45,         16) /* DamageType - Fire */
+     , (5570,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (5570,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (5570,  49,         20) /* WeaponTime */
+     , (5570,  51,          2) /* CombatUse - Missle */
+     , (5570,  93,       1044) /* PhysicsState */
+     , (5570, 150,        103) /* HookPlacement - Hook */
+     , (5570, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5570, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (5570, 027 /* ROTATION_SPEED_FLOAT */, 0)
-     , (5570, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (5570, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (5570, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (5570,  22,    0.25) /* DamageVariance */
+     , (5570,  27,       0) /* RotationSpeed */
+     , (5570,  29,       1) /* WeaponDefense */
+     , (5570,  39,     1.1) /* DefaultScale */
+     , (5570,  62,       1) /* WeaponOffense */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5570,   1, 'Flaming Djarid') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5570,   1,   33555725) /* Setup */
+     , (5570,   3,  536870932) /* SoundTable */
+     , (5570,   8,  100667593) /* Icon */
+     , (5570,  22,  872415275) /* PhysicsEffectTable */;

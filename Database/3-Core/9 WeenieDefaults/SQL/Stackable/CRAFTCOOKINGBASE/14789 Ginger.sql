@@ -1,39 +1,35 @@
-/* Weenie - Ginger (14789) */
-DELETE FROM weenie WHERE class_Id = 14789;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14789, 'ginger', 51 /* Stackable_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14789, 001 /* NAME_STRING */, 'Ginger')
-     , (14789, 014 /* USE_STRING */, 'Grind this root to use it in cooking.')
-     , (14789, 015 /* SHORT_DESC_STRING */, 'A spicy root, used as a spice in cooking.')
-     , (14789, 016 /* LONG_DESC_STRING */, 'A spicy root, used as a spice in cooking.')
-     , (14789, 020 /* PLURAL_NAME_STRING */, 'Ginger');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14789, 001 /* SETUP_DID */, 33556750)
-     , (14789, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14789, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (14789, 007 /* CLOTHINGBASE_DID */, 268436332)
-     , (14789, 008 /* ICON_DID */, 100672574)
-     , (14789, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14789', 'ginger', 51) /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14789, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (14789, 003 /* PALETTE_TEMPLATE_INT */, 17 /* YELLOW_PALETTE_TEMPLATE */)
-     , (14789, 005 /* ENCUMB_VAL_INT */, 10)
-     , (14789, 008 /* MASS_INT */, 10)
-     , (14789, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14789, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (14789, 012 /* STACK_SIZE_INT */, 1)
-     , (14789, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (14789, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (14789, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (14789, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14789, 019 /* VALUE_INT */, 10)
-     , (14789, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14789,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (14789,   3,         17) /* PaletteTemplate - Yellow */
+     , (14789,   5,         10) /* EncumbranceVal */
+     , (14789,   8,         10) /* Mass */
+     , (14789,   9,          0) /* ValidLocations - None */
+     , (14789,  11,        100) /* MaxStackSize */
+     , (14789,  12,          1) /* StackSize */
+     , (14789,  13,         10) /* StackUnitEncumbrance */
+     , (14789,  14,         10) /* StackUnitMass */
+     , (14789,  15,         10) /* StackUnitValue */
+     , (14789,  16,          1) /* ItemUseable - No */
+     , (14789,  19,         10) /* Value */
+     , (14789,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14789, 039 /* DEFAULT_SCALE_FLOAT */, 1.2);
+VALUES (14789,  39,     1.2) /* DefaultScale */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14789,   1, 'Ginger') /* Name */
+     , (14789,  14, 'Grind this root to use it in cooking.') /* Use */
+     , (14789,  15, 'A spicy root, used as a spice in cooking.') /* ShortDesc */
+     , (14789,  16, 'A spicy root, used as a spice in cooking.') /* LongDesc */
+     , (14789,  20, 'Ginger') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14789,   1,   33556750) /* Setup */
+     , (14789,   3,  536870932) /* SoundTable */
+     , (14789,   6,   67111919) /* PaletteBase */
+     , (14789,   7,  268436332) /* ClothingBase */
+     , (14789,   8,  100672574) /* Icon */
+     , (14789,  22,  872415275) /* PhysicsEffectTable */;

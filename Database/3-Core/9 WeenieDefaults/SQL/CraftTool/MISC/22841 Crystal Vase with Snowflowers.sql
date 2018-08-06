@@ -1,40 +1,36 @@
-/* Weenie - Crystal Vase with Snowflowers (22841) */
-DELETE FROM weenie WHERE class_Id = 22841;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22841, 'vasesnowflower3', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22841, 001 /* NAME_STRING */, 'Crystal Vase with Snowflowers')
-     , (22841, 014 /* USE_STRING */, 'There is room for two more flowers in this vase. This item is floor-hookable.')
-     , (22841, 015 /* SHORT_DESC_STRING */, 'A beautiful crystal vase holding a trio of snowflowers.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22841, 001 /* SETUP_DID */, 33558167)
-     , (22841, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22841, 008 /* ICON_DID */, 100673929)
-     , (22841, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22841', 'vasesnowflower3', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22841, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22841, 005 /* ENCUMB_VAL_INT */, 50)
-     , (22841, 008 /* MASS_INT */, 50)
-     , (22841, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22841, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (22841, 012 /* STACK_SIZE_INT */, 1)
-     , (22841, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (22841, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (22841, 015 /* STACK_UNIT_VALUE_INT */, 10000)
-     , (22841, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (22841, 019 /* VALUE_INT */, 10000)
-     , (22841, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22841, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22841, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22841, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
+VALUES (22841,   1,        128) /* ItemType - Misc */
+     , (22841,   5,         50) /* EncumbranceVal */
+     , (22841,   8,         50) /* Mass */
+     , (22841,   9,          0) /* ValidLocations - None */
+     , (22841,  11,          1) /* MaxStackSize */
+     , (22841,  12,          1) /* StackSize */
+     , (22841,  13,         50) /* StackUnitEncumbrance */
+     , (22841,  14,         50) /* StackUnitMass */
+     , (22841,  15,      10000) /* StackUnitValue */
+     , (22841,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (22841,  19,      10000) /* Value */
+     , (22841,  93,       1044) /* PhysicsState */
+     , (22841,  94,        128) /* TargetType - Misc */
+     , (22841, 150,        103) /* HookPlacement - Hook */
+     , (22841, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22841, 013 /* ETHEREAL_BOOL */, True)
-     , (22841, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22841, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (22841, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (22841,  13, True ) /* Ethereal */
+     , (22841,  22, True ) /* Inscribable */
+     , (22841,  23, True ) /* DestroyOnSell */
+     , (22841,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22841,   1, 'Crystal Vase with Snowflowers') /* Name */
+     , (22841,  14, 'There is room for two more flowers in this vase. This item is floor-hookable.') /* Use */
+     , (22841,  15, 'A beautiful crystal vase holding a trio of snowflowers.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22841,   1,   33558167) /* Setup */
+     , (22841,   3,  536870932) /* SoundTable */
+     , (22841,   8,  100673929) /* Icon */
+     , (22841,  22,  872415275) /* PhysicsEffectTable */;

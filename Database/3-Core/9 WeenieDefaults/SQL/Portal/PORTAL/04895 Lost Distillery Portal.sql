@@ -1,36 +1,32 @@
-/* Weenie - Lost Distillery Portal (4895) */
-DELETE FROM weenie WHERE class_Id = 4895;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4895, 'portallostdistillery', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4895, 001 /* NAME_STRING */, 'Lost Distillery Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4895, 001 /* SETUP_DID */, 33555922)
-     , (4895, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (4895, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4895', 'portallostdistillery', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4895, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (4895, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (4895, 086 /* MIN_LEVEL_INT */, 1)
-     , (4895, 087 /* MAX_LEVEL_INT */, 20)
-     , (4895, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (4895, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (4895, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4895, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (4895,   1,      65536) /* ItemType - Portal */
+     , (4895,  16,         32) /* ItemUseable - Remote */
+     , (4895,  86,          1) /* MinLevel */
+     , (4895,  87,         20) /* MaxLevel */
+     , (4895,  93,       3084) /* PhysicsState */
+     , (4895, 111,          1) /* PortalBitmask - Unrestricted */
+     , (4895, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4895, 001 /* STUCK_BOOL */, True)
-     , (4895, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (4895, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4895, 013 /* ETHEREAL_BOOL */, True)
-     , (4895, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (4895,   1, True ) /* Stuck */
+     , (4895,  11, False) /* IgnoreCollisions */
+     , (4895,  12, True ) /* ReportCollisions */
+     , (4895,  13, True ) /* Ethereal */
+     , (4895,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4895,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4895,   1, 'Lost Distillery Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4895,   1,   33555922) /* Setup */
+     , (4895,   2,  150994947) /* MotionTable */
+     , (4895,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4895, 2, 23331313, 115.522, -77.617, 0, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (4895, 2, 23331313, 115.522, -77.617, 0, 1, 0, 0, 0) /* Destination */;

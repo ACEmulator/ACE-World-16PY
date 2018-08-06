@@ -1,47 +1,43 @@
-/* Weenie - Electric Sceptre (29261) */
-DELETE FROM weenie WHERE class_Id = 29261;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29261, 'wandelectric', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29261, 001 /* NAME_STRING */, 'Electric Sceptre');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29261, 001 /* SETUP_DID */, 33559230)
-     , (29261, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29261, 006 /* PALETTE_BASE_DID */, 67115357)
-     , (29261, 007 /* CLOTHINGBASE_DID */, 268436902)
-     , (29261, 008 /* ICON_DID */, 100668792)
-     , (29261, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29261, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (29261, 036 /* MUTATE_FILTER_DID */, 234881046)
-     , (29261, 046 /* TSYS_MUTATION_FILTER_DID */, 939524170);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29261', 'wandelectric', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29261, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (29261, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (29261, 005 /* ENCUMB_VAL_INT */, 50)
-     , (29261, 008 /* MASS_INT */, 50)
-     , (29261, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (29261, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29261, 018 /* UI_EFFECTS_INT */, 64 /* UI_EFFECT_LIGHTNING */)
-     , (29261, 019 /* VALUE_INT */, 200)
-     , (29261, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (29261, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (29261, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29261, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (29261, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29261, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (29261, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (29261, 159 /* WIELD_SKILLTYPE_INT */, 34 /* WAR_MAGIC_SKILL */)
-     , (29261, 160 /* WIELD_DIFFICULTY_INT */, 290)
-     , (29261, 169 /* TSYS_MUTATION_DATA_INT */, 84084483);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29261, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (29261, 152 /* ELEMENTAL_DAMAGE_MOD_FLOAT */, 1);
+VALUES (29261,   1,      32768) /* ItemType - Caster */
+     , (29261,   3,         20) /* PaletteTemplate - Silver */
+     , (29261,   5,         50) /* EncumbranceVal */
+     , (29261,   8,         50) /* Mass */
+     , (29261,   9,   16777216) /* ValidLocations - Held */
+     , (29261,  16,          1) /* ItemUseable - No */
+     , (29261,  18,         64) /* UiEffects - Lightning */
+     , (29261,  19,        200) /* Value */
+     , (29261,  45,         64) /* DamageType - Electric */
+     , (29261,  46,        512) /* DefaultCombatStyle - Magic */
+     , (29261,  93,       1044) /* PhysicsState */
+     , (29261,  94,         16) /* TargetType - Creature */
+     , (29261, 150,        103) /* HookPlacement - Hook */
+     , (29261, 151,          2) /* HookType - Wall */
+     , (29261, 158,          2) /* WieldRequirements - RawSkill */
+     , (29261, 159,         34) /* WieldSkilltype - WarMagic */
+     , (29261, 160,        290) /* WieldDifficulty */
+     , (29261, 169,   84084483) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29261, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29261,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29261,  29,       1) /* WeaponDefense */
+     , (29261, 152,       1) /* ElementalDamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29261,   1, 'Electric Sceptre') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29261,   1,   33559230) /* Setup */
+     , (29261,   3,  536870932) /* SoundTable */
+     , (29261,   6,   67115357) /* PaletteBase */
+     , (29261,   7,  268436902) /* ClothingBase */
+     , (29261,   8,  100668792) /* Icon */
+     , (29261,  22,  872415275) /* PhysicsEffectTable */
+     , (29261,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (29261,  36,  234881046) /* MutateFilter */
+     , (29261,  46,  939524170) /* TsysMutationFilter */;

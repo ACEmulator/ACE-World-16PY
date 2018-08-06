@@ -1,37 +1,33 @@
-/* Weenie - Violet Ball (29647) */
-DELETE FROM weenie WHERE class_Id = 29647;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29647, 'colorpuzzleballviolet', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29647, 001 /* NAME_STRING */, 'Violet Ball')
-     , (29647, 016 /* LONG_DESC_STRING */, 'A large violet ball.')
-     , (29647, 033 /* QUEST_STRING */, 'ColorPuzzleBallPickedUp')
-     , (29647, 037 /* QUEST_RESTRICTION_STRING */, 'ClueCardPickedUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29647, 001 /* SETUP_DID */, 33554669)
-     , (29647, 006 /* PALETTE_BASE_DID */, 67111928)
-     , (29647, 007 /* CLOTHINGBASE_DID */, 268435751)
-     , (29647, 008 /* ICON_DID */, 100668722);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29647', 'colorpuzzleballviolet', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29647, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29647, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (29647, 005 /* ENCUMB_VAL_INT */, 1)
-     , (29647, 008 /* MASS_INT */, 1)
-     , (29647, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29647, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29647, 019 /* VALUE_INT */, 0)
-     , (29647, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (29647, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29647, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29647, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (29647,   1,        128) /* ItemType - Misc */
+     , (29647,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (29647,   5,          1) /* EncumbranceVal */
+     , (29647,   8,          1) /* Mass */
+     , (29647,   9,          0) /* ValidLocations - None */
+     , (29647,  16,          1) /* ItemUseable - No */
+     , (29647,  19,          0) /* Value */
+     , (29647,  33,          1) /* Bonded - Bonded */
+     , (29647,  93,       1044) /* PhysicsState */
+     , (29647, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29647, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29647, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29647,  22, True ) /* Inscribable */
+     , (29647,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29647,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29647,   1, 'Violet Ball') /* Name */
+     , (29647,  16, 'A large violet ball.') /* LongDesc */
+     , (29647,  33, 'ColorPuzzleBallPickedUp') /* Quest */
+     , (29647,  37, 'ClueCardPickedUp') /* QuestRestriction */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29647,   1,   33554669) /* Setup */
+     , (29647,   6,   67111928) /* PaletteBase */
+     , (29647,   7,  268435751) /* ClothingBase */
+     , (29647,   8,  100668722) /* Icon */;

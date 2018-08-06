@@ -1,29 +1,25 @@
-/* Weenie - East Glenden Wood Outpost (5416) */
-DELETE FROM weenie WHERE class_Id = 5416;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5416, 'glendeneastoutpostsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5416, 001 /* NAME_STRING */, 'East Glenden Wood Outpost')
-     , (5416, 016 /* LONG_DESC_STRING */, 'Welcome to the East Glenden Wood Outpost.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5416, 001 /* SETUP_DID */, 33555088)
-     , (5416, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5416', 'glendeneastoutpostsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5416, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (5416, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (5416, 008 /* MASS_INT */, 1800)
-     , (5416, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5416, 019 /* VALUE_INT */, 125)
-     , (5416, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (5416,   1,        128) /* ItemType - Misc */
+     , (5416,   5,       9000) /* EncumbranceVal */
+     , (5416,   8,       1800) /* Mass */
+     , (5416,  16,          1) /* ItemUseable - No */
+     , (5416,  19,        125) /* Value */
+     , (5416,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5416, 001 /* STUCK_BOOL */, True)
-     , (5416, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5416, 013 /* ETHEREAL_BOOL */, False)
-     , (5416, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (5416, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5416,   1, True ) /* Stuck */
+     , (5416,  12, True ) /* ReportCollisions */
+     , (5416,  13, False) /* Ethereal */
+     , (5416,  14, False) /* GravityStatus */
+     , (5416,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5416,   1, 'East Glenden Wood Outpost') /* Name */
+     , (5416,  16, 'Welcome to the East Glenden Wood Outpost.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5416,   1,   33555088) /* Setup */
+     , (5416,   8,  100668115) /* Icon */;

@@ -1,51 +1,47 @@
-/* Weenie - Caulnalain Portal Gem (8115) */
-DELETE FROM weenie WHERE class_Id = 8115;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8115, 'gemportalcaulnalain', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8115, 001 /* NAME_STRING */, 'Caulnalain Portal Gem')
-     , (8115, 015 /* SHORT_DESC_STRING */, 'This is a portal gem attuned to the energies of the Caulnalain Chamber.')
-     , (8115, 016 /* LONG_DESC_STRING */, 'This is a portal gem attuned to the energies of the Caulnalain Chamber.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8115, 001 /* SETUP_DID */, 33556769)
-     , (8115, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8115, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8115, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (8115, 008 /* ICON_DID */, 100670965)
-     , (8115, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8115, 028 /* SPELL_DID */, 2000 /* PortalSendingCaulnalain_SpellID */)
-     , (8115, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8115', 'gemportalcaulnalain', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8115, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8115, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (8115, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8115, 008 /* MASS_INT */, 10)
-     , (8115, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8115, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (8115, 012 /* STACK_SIZE_INT */, 1)
-     , (8115, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8115, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (8115, 015 /* STACK_UNIT_VALUE_INT */, 1500)
-     , (8115, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8115, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8115, 019 /* VALUE_INT */, 1500)
-     , (8115, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8115, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8115, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (8115, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (8115, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (8115, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (8115, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (8115, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (8115, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (8115,   1,       2048) /* ItemType - Gem */
+     , (8115,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (8115,   5,         10) /* EncumbranceVal */
+     , (8115,   8,         10) /* Mass */
+     , (8115,   9,          0) /* ValidLocations - None */
+     , (8115,  11,          1) /* MaxStackSize */
+     , (8115,  12,          1) /* StackSize */
+     , (8115,  13,         10) /* StackUnitEncumbrance */
+     , (8115,  14,         10) /* StackUnitMass */
+     , (8115,  15,       1500) /* StackUnitValue */
+     , (8115,  16,          8) /* ItemUseable - Contained */
+     , (8115,  18,          1) /* UiEffects - Magical */
+     , (8115,  19,       1500) /* Value */
+     , (8115,  33,          1) /* Bonded - Bonded */
+     , (8115,  93,       3092) /* PhysicsState */
+     , (8115,  94,         16) /* TargetType - Creature */
+     , (8115, 106,        210) /* ItemSpellcraft */
+     , (8115, 107,         50) /* ItemCurMana */
+     , (8115, 108,         50) /* ItemMaxMana */
+     , (8115, 109,          0) /* ItemDifficulty */
+     , (8115, 110,          0) /* ItemAllegianceRankLimit */
+     , (8115, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8115, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (8115, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8115, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (8115, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (8115,  15, True ) /* LightsStatus */
+     , (8115,  22, True ) /* Inscribable */
+     , (8115,  23, True ) /* DestroyOnSell */
+     , (8115,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8115,   1, 'Caulnalain Portal Gem') /* Name */
+     , (8115,  15, 'This is a portal gem attuned to the energies of the Caulnalain Chamber.') /* ShortDesc */
+     , (8115,  16, 'This is a portal gem attuned to the energies of the Caulnalain Chamber.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8115,   1,   33556769) /* Setup */
+     , (8115,   3,  536870932) /* SoundTable */
+     , (8115,   6,   67111919) /* PaletteBase */
+     , (8115,   7,  268435723) /* ClothingBase */
+     , (8115,   8,  100670965) /* Icon */
+     , (8115,  22,  872415275) /* PhysicsEffectTable */
+     , (8115,  28,       2000) /* Spell - Portal Sending */
+     , (8115,  36,  234881046) /* MutateFilter */;

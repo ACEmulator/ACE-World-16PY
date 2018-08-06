@@ -1,48 +1,44 @@
-/* Weenie - South Adjamaer Cottages Portal Gem (26373) */
-DELETE FROM weenie WHERE class_Id = 26373;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26373, 'gemportalsouthadjamaercottages', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26373, 001 /* NAME_STRING */, 'South Adjamaer Cottages Portal Gem')
-     , (26373, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26373, 001 /* SETUP_DID */, 33556769)
-     , (26373, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26373, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26373, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26373, 008 /* ICON_DID */, 100675760)
-     , (26373, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26373, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26373, 031 /* LINKED_PORTAL_ONE_DID */, 12548 /* South Adjamaer Cottages Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26373', 'gemportalsouthadjamaercottages', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26373, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26373, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26373, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26373, 008 /* MASS_INT */, 10)
-     , (26373, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26373, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26373, 012 /* STACK_SIZE_INT */, 1)
-     , (26373, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26373, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26373, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26373, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26373, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26373, 019 /* VALUE_INT */, 500)
-     , (26373, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26373, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26373, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26373, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26373, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26373, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26373, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26373, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26373, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26373,   1,       2048) /* ItemType - Gem */
+     , (26373,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26373,   5,         10) /* EncumbranceVal */
+     , (26373,   8,         10) /* Mass */
+     , (26373,   9,          0) /* ValidLocations - None */
+     , (26373,  11,         20) /* MaxStackSize */
+     , (26373,  12,          1) /* StackSize */
+     , (26373,  13,         10) /* StackUnitEncumbrance */
+     , (26373,  14,         10) /* StackUnitMass */
+     , (26373,  15,        500) /* StackUnitValue */
+     , (26373,  16,          8) /* ItemUseable - Contained */
+     , (26373,  18,          1) /* UiEffects - Magical */
+     , (26373,  19,        500) /* Value */
+     , (26373,  93,       3092) /* PhysicsState */
+     , (26373,  94,         16) /* TargetType - Creature */
+     , (26373, 106,        210) /* ItemSpellcraft */
+     , (26373, 107,         50) /* ItemCurMana */
+     , (26373, 108,         50) /* ItemMaxMana */
+     , (26373, 109,          0) /* ItemDifficulty */
+     , (26373, 110,          0) /* ItemAllegianceRankLimit */
+     , (26373, 150,        103) /* HookPlacement - Hook */
+     , (26373, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26373, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26373, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26373,  15, True ) /* LightsStatus */
+     , (26373,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26373,   1, 'South Adjamaer Cottages Portal Gem') /* Name */
+     , (26373,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26373,   1,   33556769) /* Setup */
+     , (26373,   3,  536870932) /* SoundTable */
+     , (26373,   6,   67111919) /* PaletteBase */
+     , (26373,   7,  268435723) /* ClothingBase */
+     , (26373,   8,  100675760) /* Icon */
+     , (26373,  22,  872415275) /* PhysicsEffectTable */
+     , (26373,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26373,  31,      12548) /* LinkedPortalOne - South Adjamaer Cottages Portal */;

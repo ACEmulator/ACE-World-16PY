@@ -1,40 +1,36 @@
-/* Weenie - Burun Idol (27526) */
-DELETE FROM weenie WHERE class_Id = 27526;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27526, 'burunfetishlo', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27526, 001 /* NAME_STRING */, 'Burun Idol')
-     , (27526, 016 /* LONG_DESC_STRING */, 'A strange idol. Aun Laokhe in Arwic may know its meaning.')
-     , (27526, 033 /* QUEST_STRING */, 'PickedUpBurunFetish');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27526, 001 /* SETUP_DID */, 33558699)
-     , (27526, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27526, 006 /* PALETTE_BASE_DID */, 67113068)
-     , (27526, 007 /* CLOTHINGBASE_DID */, 268436089)
-     , (27526, 008 /* ICON_DID */, 100676430)
-     , (27526, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27526', 'burunfetishlo', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27526, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (27526, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (27526, 005 /* ENCUMB_VAL_INT */, 10)
-     , (27526, 008 /* MASS_INT */, 1)
-     , (27526, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27526, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27526, 019 /* VALUE_INT */, 5)
-     , (27526, 033 /* BONDED_INT */, -1 /* Slippery_BondedStatus */)
-     , (27526, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27526, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (27526, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27526, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27526, 039 /* DEFAULT_SCALE_FLOAT */, 0.75);
+VALUES (27526,   1,        128) /* ItemType - Misc */
+     , (27526,   3,         39) /* PaletteTemplate - Black */
+     , (27526,   5,         10) /* EncumbranceVal */
+     , (27526,   8,          1) /* Mass */
+     , (27526,   9,          0) /* ValidLocations - None */
+     , (27526,  16,          1) /* ItemUseable - No */
+     , (27526,  19,          5) /* Value */
+     , (27526,  33,         -1) /* Bonded - Slippery */
+     , (27526,  93,       1044) /* PhysicsState */
+     , (27526, 114,          1) /* Attuned - Attuned */
+     , (27526, 150,        103) /* HookPlacement - Hook */
+     , (27526, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27526, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27526, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27526,  22, True ) /* Inscribable */
+     , (27526,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27526,  39,    0.75) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27526,   1, 'Burun Idol') /* Name */
+     , (27526,  16, 'A strange idol. Aun Laokhe in Arwic may know its meaning.') /* LongDesc */
+     , (27526,  33, 'PickedUpBurunFetish') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27526,   1,   33558699) /* Setup */
+     , (27526,   3,  536870932) /* SoundTable */
+     , (27526,   6,   67113068) /* PaletteBase */
+     , (27526,   7,  268436089) /* ClothingBase */
+     , (27526,   8,  100676430) /* Icon */
+     , (27526,  22,  872415275) /* PhysicsEffectTable */;

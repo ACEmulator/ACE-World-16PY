@@ -1,54 +1,50 @@
-/* Weenie - Rock (7328) */
-DELETE FROM weenie WHERE class_Id = 7328;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7328, 'lugianboulderbig', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7328, 001 /* NAME_STRING */, 'Rock');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7328, 001 /* SETUP_DID */, 33555863)
-     , (7328, 003 /* SOUND_TABLE_DID */, 536871003)
-     , (7328, 008 /* ICON_DID */, 100667500)
-     , (7328, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7328', 'lugianboulderbig', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7328, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (7328, 005 /* ENCUMB_VAL_INT */, 500)
-     , (7328, 008 /* MASS_INT */, 500)
-     , (7328, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (7328, 011 /* MAX_STACK_SIZE_INT */, 30)
-     , (7328, 012 /* STACK_SIZE_INT */, 1)
-     , (7328, 013 /* STACK_UNIT_ENCUMB_INT */, 500)
-     , (7328, 014 /* STACK_UNIT_MASS_INT */, 500)
-     , (7328, 015 /* STACK_UNIT_VALUE_INT */, 1)
-     , (7328, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7328, 019 /* VALUE_INT */, 1)
-     , (7328, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (7328, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (7328, 044 /* DAMAGE_INT */, 80)
-     , (7328, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (7328, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (7328, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (7328, 049 /* WEAPON_TIME_INT */, 20)
-     , (7328, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (7328, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7328, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (7328, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (7328, 026 /* MAXIMUM_VELOCITY_FLOAT */, 45)
-     , (7328, 027 /* ROTATION_SPEED_FLOAT */, 1)
-     , (7328, 029 /* WEAPON_DEFENSE_FLOAT */, 0.8)
-     , (7328, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (7328, 044 /* TIME_TO_ROT_FLOAT */, 0)
-     , (7328, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (7328, 078 /* FRICTION_FLOAT */, 1)
-     , (7328, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (7328,   1,        256) /* ItemType - MissileWeapon */
+     , (7328,   5,        500) /* EncumbranceVal */
+     , (7328,   8,        500) /* Mass */
+     , (7328,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (7328,  11,         30) /* MaxStackSize */
+     , (7328,  12,          1) /* StackSize */
+     , (7328,  13,        500) /* StackUnitEncumbrance */
+     , (7328,  14,        500) /* StackUnitMass */
+     , (7328,  15,          1) /* StackUnitValue */
+     , (7328,  16,          1) /* ItemUseable - No */
+     , (7328,  19,          1) /* Value */
+     , (7328,  33,         -2) /* Bonded - Destroy */
+     , (7328,  37,       9999) /* ResistItemAppraisal */
+     , (7328,  44,         80) /* Damage */
+     , (7328,  45,          4) /* DamageType - Bludgeon */
+     , (7328,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (7328,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (7328,  49,         20) /* WeaponTime */
+     , (7328,  51,          2) /* CombatUse - Missle */
+     , (7328,  93,     132116) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7328, 001 /* STUCK_BOOL */, True)
-     , (7328, 017 /* INELASTIC_BOOL */, True)
-     , (7328, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (7328,   1, True ) /* Stuck */
+     , (7328,  17, True ) /* Inelastic */
+     , (7328,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7328,  21,     1.5) /* WeaponLength */
+     , (7328,  22,     0.5) /* DamageVariance */
+     , (7328,  26,      45) /* MaximumVelocity */
+     , (7328,  27,       1) /* RotationSpeed */
+     , (7328,  29,     0.8) /* WeaponDefense */
+     , (7328,  39,       1) /* DefaultScale */
+     , (7328,  44,       0) /* TimeToRot */
+     , (7328,  62,       1) /* WeaponOffense */
+     , (7328,  78,       1) /* Friction */
+     , (7328,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7328,   1, 'Rock') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7328,   1,   33555863) /* Setup */
+     , (7328,   3,  536871003) /* SoundTable */
+     , (7328,   8,  100667500) /* Icon */
+     , (7328,  22,  872415275) /* PhysicsEffectTable */;

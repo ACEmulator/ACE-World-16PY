@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Brogard's Defiance (20418) */
-DELETE FROM weenie WHERE class_Id = 20418;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20418, 'scrollimpenetrability7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20418, 001 /* NAME_STRING */, 'Scroll of Brogard''s Defiance')
-     , (20418, 015 /* SHORT_DESC_STRING */, 'When learned, this spell improves a shield or piece of armor''s armor value by 220 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20418, 001 /* SETUP_DID */, 33554826)
-     , (20418, 008 /* ICON_DID */, 100676661)
-     , (20418, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20418, 028 /* SPELL_DID */, 2108 /* Impenetrability7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20418', 'scrollimpenetrability7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20418, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20418, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20418, 008 /* MASS_INT */, 90)
-     , (20418, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20418, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20418, 019 /* VALUE_INT */, 2000)
-     , (20418, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20418, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20418,   1,       8192) /* ItemType - Writable */
+     , (20418,   5,         30) /* EncumbranceVal */
+     , (20418,   8,         90) /* Mass */
+     , (20418,   9,          0) /* ValidLocations - None */
+     , (20418,  16,          8) /* ItemUseable - Contained */
+     , (20418,  19,       2000) /* Value */
+     , (20418,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20418, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20418, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20418,  22, True ) /* Inscribable */
+     , (20418,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20418,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20418,   1, 'Scroll of Brogard''s Defiance') /* Name */
+     , (20418,  15, 'When learned, this spell improves a shield or piece of armor''s armor value by 220 points.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20418,   1,   33554826) /* Setup */
+     , (20418,   8,  100676661) /* Icon */
+     , (20418,  22,  872415275) /* PhysicsEffectTable */
+     , (20418,  28,       2108) /* Spell - Brogard's Defiance */;

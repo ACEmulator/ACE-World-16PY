@@ -1,35 +1,32 @@
-/* Weenie - Recalling the Calling (8077) */
-DELETE FROM weenie WHERE class_Id = 8077;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8077, 'garoncontestbook2', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8077, 001 /* NAME_STRING */, 'Recalling the Calling');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8077, 001 /* SETUP_DID */, 33554771)
-     , (8077, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8077, 008 /* ICON_DID */, 100670970)
-     , (8077, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8077', 'garoncontestbook2', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8077, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8077, 005 /* ENCUMB_VAL_INT */, 160)
-     , (8077, 008 /* MASS_INT */, 200)
-     , (8077, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8077, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8077, 019 /* VALUE_INT */, 90)
-     , (8077, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8077, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8077,   1,       8192) /* ItemType - Writable */
+     , (8077,   5,        160) /* EncumbranceVal */
+     , (8077,   8,        200) /* Mass */
+     , (8077,   9,          0) /* ValidLocations - None */
+     , (8077,  16,          8) /* ItemUseable - Contained */
+     , (8077,  19,         90) /* Value */
+     , (8077,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8077, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8077,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8077,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8077,   1, 'Recalling the Calling') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8077,   1,   33554771) /* Setup */
+     , (8077,   3,  536870932) /* SoundTable */
+     , (8077,   8,  100670970) /* Icon */
+     , (8077,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8077, 62, 1000) /* Book Data */;
+VALUES (8077, 62, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8077, 0, 4294967295, 'Anjwar al-Jaenth of Morningthaw', 'prewritten', False, '
@@ -386,4 +383,3 @@ His resulting laughter, echoing off the hills and trees suddenly cut short. "Anj
 
 I have never tired of that boy''s infectious laugh. It reminded me so much of Satresha and Aswaan when we were young. I think my father would be proud of me now and I''ve wondered, perhaps after too long, if he was still alive and fighting for his world as I fight for mine.
 ');
-

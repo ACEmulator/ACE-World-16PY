@@ -1,48 +1,44 @@
-/* Weenie - Stiletto (30602) */
-DELETE FROM weenie WHERE class_Id = 30602;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30602, 'daggerstilettoelectric', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30602, 001 /* NAME_STRING */, 'Stiletto');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30602, 001 /* SETUP_DID */, 33554735)
-     , (30602, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30602, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30602, 007 /* CLOTHINGBASE_DID */, 268435783)
-     , (30602, 008 /* ICON_DID */, 100668875)
-     , (30602, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30602, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30602', 'daggerstilettoelectric', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30602, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30602, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (30602, 005 /* ENCUMB_VAL_INT */, 200)
-     , (30602, 008 /* MASS_INT */, 90)
-     , (30602, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30602, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30602, 019 /* VALUE_INT */, 50)
-     , (30602, 044 /* DAMAGE_INT */, 10)
-     , (30602, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (30602, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30602, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (30602, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (30602, 049 /* WEAPON_TIME_INT */, 25)
-     , (30602, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30602, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30602, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30602, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (30602, 169 /* TSYS_MUTATION_DATA_INT */, 101254146);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30602, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (30602, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (30602, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (30602, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (30602,   1,          1) /* ItemType - MeleeWeapon */
+     , (30602,   3,         20) /* PaletteTemplate - Silver */
+     , (30602,   5,        200) /* EncumbranceVal */
+     , (30602,   8,         90) /* Mass */
+     , (30602,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30602,  16,          1) /* ItemUseable - No */
+     , (30602,  19,         50) /* Value */
+     , (30602,  44,         10) /* Damage */
+     , (30602,  45,          2) /* DamageType - Pierce */
+     , (30602,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (30602,  47,          2) /* AttackType - Thrust */
+     , (30602,  48,          4) /* WeaponSkill - Dagger */
+     , (30602,  49,         25) /* WeaponTime */
+     , (30602,  51,          1) /* CombatUse - Melee */
+     , (30602,  93,       1044) /* PhysicsState */
+     , (30602, 150,        103) /* HookPlacement - Hook */
+     , (30602, 151,          2) /* HookType - Wall */
+     , (30602, 169,  101254146) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30602, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30602, 099 /* IVORYABLE_BOOL */, True);
+VALUES (30602,  22, True ) /* Inscribable */
+     , (30602,  99, True ) /* Ivoryable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30602,  21,     0.4) /* WeaponLength */
+     , (30602,  22,     0.6) /* DamageVariance */
+     , (30602,  29,       1) /* WeaponDefense */
+     , (30602,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30602,   1, 'Stiletto') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30602,   1,   33554735) /* Setup */
+     , (30602,   3,  536870932) /* SoundTable */
+     , (30602,   6,   67111919) /* PaletteBase */
+     , (30602,   7,  268435783) /* ClothingBase */
+     , (30602,   8,  100668875) /* Icon */
+     , (30602,  22,  872415275) /* PhysicsEffectTable */
+     , (30602,  36,  234881044) /* MutateFilter */;

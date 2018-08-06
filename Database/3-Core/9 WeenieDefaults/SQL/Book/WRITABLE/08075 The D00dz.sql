@@ -1,35 +1,32 @@
-/* Weenie - The D00dz (8075) */
-DELETE FROM weenie WHERE class_Id = 8075;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8075, 'alucontestbook3', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8075, 001 /* NAME_STRING */, 'The D00dz');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8075, 001 /* SETUP_DID */, 33554771)
-     , (8075, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8075, 008 /* ICON_DID */, 100670970)
-     , (8075, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8075', 'alucontestbook3', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8075, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8075, 005 /* ENCUMB_VAL_INT */, 160)
-     , (8075, 008 /* MASS_INT */, 200)
-     , (8075, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8075, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8075, 019 /* VALUE_INT */, 90)
-     , (8075, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8075, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8075,   1,       8192) /* ItemType - Writable */
+     , (8075,   5,        160) /* EncumbranceVal */
+     , (8075,   8,        200) /* Mass */
+     , (8075,   9,          0) /* ValidLocations - None */
+     , (8075,  16,          8) /* ItemUseable - Contained */
+     , (8075,  19,         90) /* Value */
+     , (8075,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8075, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8075,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8075,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8075,   1, 'The D00dz') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8075,   1,   33554771) /* Setup */
+     , (8075,   3,  536870932) /* SoundTable */
+     , (8075,   8,  100670970) /* Icon */
+     , (8075,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8075, 29, 1000) /* Book Data */;
+VALUES (8075, 29, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8075, 0, 4294967295, 'Vexorg of Thistledown', 'prewritten', False, '
@@ -146,4 +143,3 @@ As I entered the outpost, I healed my wounds from the journey, and settled down 
 
 Before Ulgrim could complete his sentence, he fell to the floor with a clattering sound of several unfinished mugs of Stout falling around him. "Out like a candle," I concluded after a quick glance. "He''ll get over it soon enough." With that comment, I concluded my notes with this latest info, knowing full well that it was only of spurious validity, but at this point, it was as good as anything else I had.
 ');
-

@@ -1,36 +1,32 @@
-/* Weenie - Ice Cistern Core (21146) */
-DELETE FROM weenie WHERE class_Id = 21146;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21146, 'portalicecisterncrystal', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21146, 001 /* NAME_STRING */, 'Ice Cistern Core');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21146, 001 /* SETUP_DID */, 33555923)
-     , (21146, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (21146, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21146', 'portalicecisterncrystal', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21146, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (21146, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (21146, 086 /* MIN_LEVEL_INT */, 20)
-     , (21146, 087 /* MAX_LEVEL_INT */, 40)
-     , (21146, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (21146, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (21146, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21146, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (21146,   1,      65536) /* ItemType - Portal */
+     , (21146,  16,         32) /* ItemUseable - Remote */
+     , (21146,  86,         20) /* MinLevel */
+     , (21146,  87,         40) /* MaxLevel */
+     , (21146,  93,       3084) /* PhysicsState */
+     , (21146, 111,         49) /* PortalBitmask */
+     , (21146, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21146, 001 /* STUCK_BOOL */, True)
-     , (21146, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (21146, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (21146, 013 /* ETHEREAL_BOOL */, True)
-     , (21146, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (21146,   1, True ) /* Stuck */
+     , (21146,  11, False) /* IgnoreCollisions */
+     , (21146,  12, True ) /* ReportCollisions */
+     , (21146,  13, True ) /* Ethereal */
+     , (21146,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21146,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21146,   1, 'Ice Cistern Core') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21146,   1,   33555923) /* Setup */
+     , (21146,   2,  150994947) /* MotionTable */
+     , (21146,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21146, 2, 1448673648, 40, -130, 24.0756, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (21146, 2, 1448673648, 40, -130, 24.0756, 1, 0, 0, 0) /* Destination */;

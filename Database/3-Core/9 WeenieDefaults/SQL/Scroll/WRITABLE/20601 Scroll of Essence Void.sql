@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Essence Void (20601) */
-DELETE FROM weenie WHERE class_Id = 20601;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20601, 'scrolldrainmana7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20601, 001 /* NAME_STRING */, 'Scroll of Essence Void')
-     , (20601, 015 /* SHORT_DESC_STRING */, 'When learned, this spell drains one-quarter of the target''s Mana and gives 175% of that to the caster.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20601, 001 /* SETUP_DID */, 33554826)
-     , (20601, 008 /* ICON_DID */, 100676932)
-     , (20601, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20601, 028 /* SPELL_DID */, 2329 /* DrainMana7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20601', 'scrolldrainmana7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20601, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20601, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20601, 008 /* MASS_INT */, 90)
-     , (20601, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20601, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20601, 019 /* VALUE_INT */, 2000)
-     , (20601, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20601, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20601,   1,       8192) /* ItemType - Writable */
+     , (20601,   5,         30) /* EncumbranceVal */
+     , (20601,   8,         90) /* Mass */
+     , (20601,   9,          0) /* ValidLocations - None */
+     , (20601,  16,          8) /* ItemUseable - Contained */
+     , (20601,  19,       2000) /* Value */
+     , (20601,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20601, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20601, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20601,  22, True ) /* Inscribable */
+     , (20601,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20601,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20601,   1, 'Scroll of Essence Void') /* Name */
+     , (20601,  15, 'When learned, this spell drains one-quarter of the target''s Mana and gives 175% of that to the caster.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20601,   1,   33554826) /* Setup */
+     , (20601,   8,  100676932) /* Icon */
+     , (20601,  22,  872415275) /* PhysicsEffectTable */
+     , (20601,  28,       2329) /* Spell - Essence Void */;

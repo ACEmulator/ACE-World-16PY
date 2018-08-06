@@ -1,63 +1,59 @@
-/* Weenie - Suzuhara's Girth of Flame Protection (30393) */
-DELETE FROM weenie WHERE class_Id = 30393;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30393, 'girthflameprotection', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30393, 001 /* NAME_STRING */, 'Suzuhara''s Girth of Flame Protection');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30393, 001 /* SETUP_DID */, 33554960)
-     , (30393, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30393, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (30393, 007 /* CLOTHINGBASE_DID */, 268436887)
-     , (30393, 008 /* ICON_DID */, 100668142)
-     , (30393, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30393', 'girthflameprotection', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30393, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (30393, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (30393, 004 /* CLOTHING_PRIORITY_INT */, 2304 /* OuterwearUpperLegs, OuterwearAbdomen */)
-     , (30393, 005 /* ENCUMB_VAL_INT */, 250)
-     , (30393, 008 /* MASS_INT */, 90)
-     , (30393, 009 /* LOCATIONS_INT */, 1024 /* ABDOMEN_ARMOR_LOC */)
-     , (30393, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30393, 019 /* VALUE_INT */, 2500)
-     , (30393, 027 /* ARMOR_TYPE_INT */, 2)
-     , (30393, 028 /* ARMOR_LEVEL_INT */, 230)
-     , (30393, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30393, 106 /* ITEM_SPELLCRAFT_INT */, 125)
-     , (30393, 107 /* ITEM_CUR_MANA_INT */, 900)
-     , (30393, 108 /* ITEM_MAX_MANA_INT */, 900)
-     , (30393, 109 /* ITEM_DIFFICULTY_INT */, 170)
-     , (30393, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30393, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (30393, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (30393, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (30393, 160 /* WIELD_DIFFICULTY_INT */, 50);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30393, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (30393, 012 /* SHADE_FLOAT */, 0.66)
-     , (30393, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.6)
-     , (30393, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.6)
-     , (30393, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
-     , (30393, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (30393, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.4)
-     , (30393, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.7)
-     , (30393, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.8)
-     , (30393, 110 /* BULK_MOD_FLOAT */, 1)
-     , (30393, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (30393,   1,          2) /* ItemType - Armor */
+     , (30393,   3,         14) /* PaletteTemplate - Red */
+     , (30393,   4,       2304) /* ClothingPriority */
+     , (30393,   5,        250) /* EncumbranceVal */
+     , (30393,   8,         90) /* Mass */
+     , (30393,   9,       1024) /* ValidLocations - AbdomenArmor */
+     , (30393,  16,          1) /* ItemUseable - No */
+     , (30393,  19,       2500) /* Value */
+     , (30393,  27,          2) /* ArmorType */
+     , (30393,  28,        230) /* ArmorLevel */
+     , (30393,  93,       1044) /* PhysicsState */
+     , (30393, 106,        125) /* ItemSpellcraft */
+     , (30393, 107,        900) /* ItemCurMana */
+     , (30393, 108,        900) /* ItemMaxMana */
+     , (30393, 109,        170) /* ItemDifficulty */
+     , (30393, 150,        103) /* HookPlacement - Hook */
+     , (30393, 151,          2) /* HookType - Wall */
+     , (30393, 158,          7) /* WieldRequirements - Level */
+     , (30393, 159,          1) /* WieldSkilltype - Axe */
+     , (30393, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30393, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30393, 100 /* DYABLE_BOOL */, True);
+VALUES (30393,  22, True ) /* Inscribable */
+     , (30393, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30393,   5,  -0.033) /* ManaRate */
+     , (30393,  12,    0.66) /* Shade */
+     , (30393,  13,     0.6) /* ArmorModVsSlash */
+     , (30393,  14,     0.6) /* ArmorModVsPierce */
+     , (30393,  15,     0.8) /* ArmorModVsBludgeon */
+     , (30393,  16,     0.8) /* ArmorModVsCold */
+     , (30393,  17,     1.4) /* ArmorModVsFire */
+     , (30393,  18,     0.7) /* ArmorModVsAcid */
+     , (30393,  19,     0.8) /* ArmorModVsElectric */
+     , (30393, 110,       1) /* BulkMod */
+     , (30393, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30393,   1, 'Suzuhara''s Girth of Flame Protection') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30393,   1,   33554960) /* Setup */
+     , (30393,   3,  536870932) /* SoundTable */
+     , (30393,   6,   67108990) /* PaletteBase */
+     , (30393,   7,  268436887) /* ClothingBase */
+     , (30393,   8,  100668142) /* Icon */
+     , (30393,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30393, 260, 2) /* ImpregnabilitySelf5_SpellID */
-     , (30393, 1093, 2) /* FireProtectionSelf5_SpellID */
-     , (30393, 278, 2) /* MagicResistanceSelf5_SpellID */
-     , (30393, 2618, 2) /* CANTRIPFLAMEWARD1_SpellID */
-     , (30393, 248, 2) /* InvulnerabilitySelf5_SpellID */;
-
+VALUES (30393,   248,      2)  /* Invulnerability Self V */
+     , (30393,   260,      2)  /* Impregnability Self V */
+     , (30393,   278,      2)  /* Magic Resistance Self V */
+     , (30393,  1093,      2)  /* Fire Protection Self V */
+     , (30393,  2618,      2)  /* Minor Flame Ward */;

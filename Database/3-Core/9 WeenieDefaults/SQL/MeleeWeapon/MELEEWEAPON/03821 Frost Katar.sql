@@ -1,49 +1,45 @@
-/* Weenie - Frost Katar (3821) */
-DELETE FROM weenie WHERE class_Id = 3821;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3821, 'katarfrost', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3821, 001 /* NAME_STRING */, 'Frost Katar');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3821, 001 /* SETUP_DID */, 33555760)
-     , (3821, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3821, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3821, 007 /* CLOTHINGBASE_DID */, 268435789)
-     , (3821, 008 /* ICON_DID */, 100667596)
-     , (3821, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3821, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3821, 046 /* TSYS_MUTATION_FILTER_DID */, 939524102);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3821', 'katarfrost', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3821, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3821, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (3821, 005 /* ENCUMB_VAL_INT */, 135)
-     , (3821, 008 /* MASS_INT */, 90)
-     , (3821, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3821, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3821, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (3821, 019 /* VALUE_INT */, 125)
-     , (3821, 044 /* DAMAGE_INT */, 4)
-     , (3821, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (3821, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1 /* Unarmed_CombatStyle */)
-     , (3821, 047 /* ATTACK_TYPE_INT */, 1 /* Punch_AttackType */)
-     , (3821, 048 /* WEAPON_SKILL_INT */, 13 /* UNARMED_COMBAT_SKILL */)
-     , (3821, 049 /* WEAPON_TIME_INT */, 20)
-     , (3821, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3821, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3821, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3821, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3821, 169 /* TSYS_MUTATION_DATA_INT */, 101254146);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3821, 021 /* WEAPON_LENGTH_FLOAT */, 0.52)
-     , (3821, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (3821, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (3821, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3821,   1,          1) /* ItemType - MeleeWeapon */
+     , (3821,   3,         20) /* PaletteTemplate - Silver */
+     , (3821,   5,        135) /* EncumbranceVal */
+     , (3821,   8,         90) /* Mass */
+     , (3821,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3821,  16,          1) /* ItemUseable - No */
+     , (3821,  18,        128) /* UiEffects - Frost */
+     , (3821,  19,        125) /* Value */
+     , (3821,  44,          4) /* Damage */
+     , (3821,  45,          8) /* DamageType - Cold */
+     , (3821,  46,          1) /* DefaultCombatStyle - Unarmed */
+     , (3821,  47,          1) /* AttackType - Punch */
+     , (3821,  48,         13) /* WeaponSkill - UnarmedCombat */
+     , (3821,  49,         20) /* WeaponTime */
+     , (3821,  51,          1) /* CombatUse - Melee */
+     , (3821,  93,       1044) /* PhysicsState */
+     , (3821, 150,        103) /* HookPlacement - Hook */
+     , (3821, 151,          2) /* HookType - Wall */
+     , (3821, 169,  101254146) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3821, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3821,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3821,  21,    0.52) /* WeaponLength */
+     , (3821,  22,    0.75) /* DamageVariance */
+     , (3821,  29,    1.05) /* WeaponDefense */
+     , (3821,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3821,   1, 'Frost Katar') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3821,   1,   33555760) /* Setup */
+     , (3821,   3,  536870932) /* SoundTable */
+     , (3821,   6,   67111919) /* PaletteBase */
+     , (3821,   7,  268435789) /* ClothingBase */
+     , (3821,   8,  100667596) /* Icon */
+     , (3821,  22,  872415275) /* PhysicsEffectTable */
+     , (3821,  36,  234881053) /* MutateFilter */
+     , (3821,  46,  939524102) /* TsysMutationFilter */;

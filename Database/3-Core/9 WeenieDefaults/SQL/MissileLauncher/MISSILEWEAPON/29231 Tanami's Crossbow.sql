@@ -1,60 +1,56 @@
-/* Weenie - Tanami's Crossbow (29231) */
-DELETE FROM weenie WHERE class_Id = 29231;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29231, 'crossbowishaqslostkey', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29231, 001 /* NAME_STRING */, 'Tanami''s Crossbow')
-     , (29231, 016 /* LONG_DESC_STRING */, 'This crossbow was a gift from Tanami Kei of Ayan Baqur.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29231, 001 /* SETUP_DID */, 33559119)
-     , (29231, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29231, 008 /* ICON_DID */, 100677364)
-     , (29231, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29231', 'crossbowishaqslostkey', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29231, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (29231, 005 /* ENCUMB_VAL_INT */, 600)
-     , (29231, 008 /* MASS_INT */, 640)
-     , (29231, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (29231, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29231, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (29231, 019 /* VALUE_INT */, 3500)
-     , (29231, 044 /* DAMAGE_INT */, 0)
-     , (29231, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (29231, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (29231, 049 /* WEAPON_TIME_INT */, 60)
-     , (29231, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (29231, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (29231, 052 /* PARENT_LOCATION_INT */, 2)
-     , (29231, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (29231, 060 /* WEAPON_RANGE_INT */, 192)
-     , (29231, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29231, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (29231, 107 /* ITEM_CUR_MANA_INT */, 2000)
-     , (29231, 108 /* ITEM_MAX_MANA_INT */, 2000)
-     , (29231, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29231, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (29231, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (29231, 159 /* WIELD_SKILLTYPE_INT */, 3 /* CROSSBOW_SKILL */)
-     , (29231, 160 /* WIELD_DIFFICULTY_INT */, 335);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29231, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (29231, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (29231, 029 /* WEAPON_DEFENSE_FLOAT */, 1.11)
-     , (29231, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (29231, 063 /* DAMAGE_MOD_FLOAT */, 2.75)
-     , (29231, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.5);
+VALUES (29231,   1,        256) /* ItemType - MissileWeapon */
+     , (29231,   5,        600) /* EncumbranceVal */
+     , (29231,   8,        640) /* Mass */
+     , (29231,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (29231,  16,          1) /* ItemUseable - No */
+     , (29231,  18,          1) /* UiEffects - Magical */
+     , (29231,  19,       3500) /* Value */
+     , (29231,  44,          0) /* Damage */
+     , (29231,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (29231,  48,          3) /* WeaponSkill - Crossbow */
+     , (29231,  49,         60) /* WeaponTime */
+     , (29231,  50,          2) /* AmmoType - Bolt */
+     , (29231,  51,          2) /* CombatUse - Missle */
+     , (29231,  52,          2) /* ParentLocation */
+     , (29231,  53,          3) /* PlacementPosition */
+     , (29231,  60,        192) /* WeaponRange */
+     , (29231,  93,       1044) /* PhysicsState */
+     , (29231, 106,        300) /* ItemSpellcraft */
+     , (29231, 107,       2000) /* ItemCurMana */
+     , (29231, 108,       2000) /* ItemMaxMana */
+     , (29231, 150,        103) /* HookPlacement - Hook */
+     , (29231, 151,          2) /* HookType - Wall */
+     , (29231, 158,          2) /* WieldRequirements - RawSkill */
+     , (29231, 159,          3) /* WieldSkilltype - Crossbow */
+     , (29231, 160,        335) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29231, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29231,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29231,   5,   -0.05) /* ManaRate */
+     , (29231,  26,    27.3) /* MaximumVelocity */
+     , (29231,  29,    1.11) /* WeaponDefense */
+     , (29231,  62,       1) /* WeaponOffense */
+     , (29231,  63,    2.75) /* DamageMod */
+     , (29231, 147,     0.5) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29231,   1, 'Tanami''s Crossbow') /* Name */
+     , (29231,  16, 'This crossbow was a gift from Tanami Kei of Ayan Baqur.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29231,   1,   33559119) /* Setup */
+     , (29231,   3,  536870932) /* SoundTable */
+     , (29231,   8,  100677364) /* Icon */
+     , (29231,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29231, 1605, 2) /* Defender6_SpellID */
-     , (29231, 2598, 2) /* CANTRIPBLOODTHIRST1_SpellID */
-     , (29231, 2600, 2) /* CANTRIPDEFENDER1_SpellID */
-     , (29231, 2096, 2) /* BloodDrinker7_SpellID */;
-
+VALUES (29231,  1605,      2)  /* Aura of Defender Self VI */
+     , (29231,  2096,      2)  /* Aura of Infected Caress */
+     , (29231,  2598,      2)  /* Minor Blood Thirst */
+     , (29231,  2600,      2)  /* Minor Defender */;

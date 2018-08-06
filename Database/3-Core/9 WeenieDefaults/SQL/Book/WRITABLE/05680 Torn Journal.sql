@@ -1,38 +1,35 @@
-/* Weenie - Torn Journal (5680) */
-DELETE FROM weenie WHERE class_Id = 5680;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5680, 'journalcambarth2', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5680, 001 /* NAME_STRING */, 'Torn Journal')
-     , (5680, 015 /* SHORT_DESC_STRING */, 'A small, handwritten journal, evidently torn in half.')
-     , (5680, 016 /* LONG_DESC_STRING */, 'The first half of a small, handwritten journal.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5680, 001 /* SETUP_DID */, 33554771)
-     , (5680, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5680, 008 /* ICON_DID */, 100668117)
-     , (5680, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5680', 'journalcambarth2', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5680, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5680, 005 /* ENCUMB_VAL_INT */, 80)
-     , (5680, 008 /* MASS_INT */, 230)
-     , (5680, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5680, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5680, 019 /* VALUE_INT */, 40)
-     , (5680, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5680, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (5680, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (5680,   1,       8192) /* ItemType - Writable */
+     , (5680,   5,         80) /* EncumbranceVal */
+     , (5680,   8,        230) /* Mass */
+     , (5680,   9,          0) /* ValidLocations - None */
+     , (5680,  16,          8) /* ItemUseable - Contained */
+     , (5680,  19,         40) /* Value */
+     , (5680,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5680, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5680,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5680,  39,    1.22) /* DefaultScale */
+     , (5680,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5680,   1, 'Torn Journal') /* Name */
+     , (5680,  15, 'A small, handwritten journal, evidently torn in half.') /* ShortDesc */
+     , (5680,  16, 'The first half of a small, handwritten journal.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5680,   1,   33554771) /* Setup */
+     , (5680,   3,  536870932) /* SoundTable */
+     , (5680,   8,  100668117) /* Icon */
+     , (5680,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5680, 6, 1000) /* Book Data */;
+VALUES (5680, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5680, 0, 4294967295, 'Cambarth', 'prewritten', False, '4th of Frostfell, 13th Year of Exile
@@ -55,4 +52,3 @@ The deal, fortunately, was quickly agreed upon, and "Sarvaen" left a small pile 
 
 Asjan has disappeared. A badly written note, supposedly from him, was found, saying that he went home to Qalaba''r. I know the Thing did it. It still believes that I believe it is a man, and it must remain so improbably ignorant
 ');
-

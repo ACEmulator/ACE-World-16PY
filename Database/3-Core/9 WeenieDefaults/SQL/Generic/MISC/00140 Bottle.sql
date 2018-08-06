@@ -1,29 +1,25 @@
-/* Weenie - Bottle (140) */
-DELETE FROM weenie WHERE class_Id = 140;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (140, 'bottle', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (140, 001 /* NAME_STRING */, 'Bottle');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (140, 001 /* SETUP_DID */, 33554602)
-     , (140, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (140, 008 /* ICON_DID */, 100667410)
-     , (140, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('140', 'bottle', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (140, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (140, 005 /* ENCUMB_VAL_INT */, 270)
-     , (140, 008 /* MASS_INT */, 90)
-     , (140, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (140, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (140, 019 /* VALUE_INT */, 30)
-     , (140, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (140, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (140, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
+VALUES (140,   1,        128) /* ItemType - Misc */
+     , (140,   5,        270) /* EncumbranceVal */
+     , (140,   8,         90) /* Mass */
+     , (140,   9,          0) /* ValidLocations - None */
+     , (140,  16,          1) /* ItemUseable - No */
+     , (140,  19,         30) /* Value */
+     , (140,  93,       1044) /* PhysicsState */
+     , (140, 150,        103) /* HookPlacement - Hook */
+     , (140, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (140, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (140,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (140,   1, 'Bottle') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (140,   1,   33554602) /* Setup */
+     , (140,   3,  536870932) /* SoundTable */
+     , (140,   8,  100667410) /* Icon */
+     , (140,  22,  872415275) /* PhysicsEffectTable */;

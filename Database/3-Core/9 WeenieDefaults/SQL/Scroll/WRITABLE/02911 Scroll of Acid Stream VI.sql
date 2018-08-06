@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Acid Stream VI (2911) */
-DELETE FROM weenie WHERE class_Id = 2911;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2911, 'scrollacidstream6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2911, 001 /* NAME_STRING */, 'Scroll of Acid Stream VI')
-     , (2911, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (2911, 016 /* LONG_DESC_STRING */, 'When learned, this spell shoots a stream of acid at the target. The stream does 51-100 points of acid damage to the first thing it hits.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2911, 001 /* SETUP_DID */, 33554826)
-     , (2911, 008 /* ICON_DID */, 100677026)
-     , (2911, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2911, 028 /* SPELL_DID */, 63 /* AcidStream6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2911', 'scrollacidstream6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2911, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2911, 005 /* ENCUMB_VAL_INT */, 30)
-     , (2911, 008 /* MASS_INT */, 90)
-     , (2911, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2911, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2911, 019 /* VALUE_INT */, 1000)
-     , (2911, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2911, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (2911,   1,       8192) /* ItemType - Writable */
+     , (2911,   5,         30) /* EncumbranceVal */
+     , (2911,   8,         90) /* Mass */
+     , (2911,   9,          0) /* ValidLocations - None */
+     , (2911,  16,          8) /* ItemUseable - Contained */
+     , (2911,  19,       1000) /* Value */
+     , (2911,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2911, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2911, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2911,  22, True ) /* Inscribable */
+     , (2911,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2911,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2911,   1, 'Scroll of Acid Stream VI') /* Name */
+     , (2911,  15, 'A magic scroll.') /* ShortDesc */
+     , (2911,  16, 'When learned, this spell shoots a stream of acid at the target. The stream does 51-100 points of acid damage to the first thing it hits.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2911,   1,   33554826) /* Setup */
+     , (2911,   8,  100677026) /* Icon */
+     , (2911,  22,  872415275) /* PhysicsEffectTable */
+     , (2911,  28,         63) /* Spell - Acid Stream VI */;

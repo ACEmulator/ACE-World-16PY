@@ -1,57 +1,53 @@
-/* Weenie - Katar of the Fallen (30870) */
-DELETE FROM weenie WHERE class_Id = 30870;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30870, 'katarfallen', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30870, 001 /* NAME_STRING */, 'Katar of the Fallen');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30870, 001 /* SETUP_DID */, 33559270)
-     , (30870, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30870, 008 /* ICON_DID */, 100677504)
-     , (30870, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30870', 'katarfallen', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30870, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30870, 005 /* ENCUMB_VAL_INT */, 150)
-     , (30870, 008 /* MASS_INT */, 90)
-     , (30870, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30870, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30870, 019 /* VALUE_INT */, 10000)
-     , (30870, 044 /* DAMAGE_INT */, 42)
-     , (30870, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (30870, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1 /* Unarmed_CombatStyle */)
-     , (30870, 047 /* ATTACK_TYPE_INT */, 1 /* Punch_AttackType */)
-     , (30870, 048 /* WEAPON_SKILL_INT */, 13 /* UNARMED_COMBAT_SKILL */)
-     , (30870, 049 /* WEAPON_TIME_INT */, 20)
-     , (30870, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30870, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30870, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (30870, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (30870, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (30870, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30870, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (30870, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (30870, 159 /* WIELD_SKILLTYPE_INT */, 13 /* UNARMED_COMBAT_SKILL */)
-     , (30870, 160 /* WIELD_DIFFICULTY_INT */, 370);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30870, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (30870, 021 /* WEAPON_LENGTH_FLOAT */, 0.52)
-     , (30870, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (30870, 029 /* WEAPON_DEFENSE_FLOAT */, 1.13)
-     , (30870, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (30870, 062 /* WEAPON_OFFENSE_FLOAT */, 1.13)
-     , (30870, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 4)
-     , (30870, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.1);
+VALUES (30870,   1,          1) /* ItemType - MeleeWeapon */
+     , (30870,   5,        150) /* EncumbranceVal */
+     , (30870,   8,         90) /* Mass */
+     , (30870,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30870,  16,          1) /* ItemUseable - No */
+     , (30870,  19,      10000) /* Value */
+     , (30870,  44,         42) /* Damage */
+     , (30870,  45,          3) /* DamageType */
+     , (30870,  46,          1) /* DefaultCombatStyle - Unarmed */
+     , (30870,  47,          1) /* AttackType - Punch */
+     , (30870,  48,         13) /* WeaponSkill - UnarmedCombat */
+     , (30870,  49,         20) /* WeaponTime */
+     , (30870,  51,          1) /* CombatUse - Melee */
+     , (30870,  93,       1044) /* PhysicsState */
+     , (30870, 106,        250) /* ItemSpellcraft */
+     , (30870, 107,       1000) /* ItemCurMana */
+     , (30870, 108,       1000) /* ItemMaxMana */
+     , (30870, 150,        103) /* HookPlacement - Hook */
+     , (30870, 151,          2) /* HookType - Wall */
+     , (30870, 158,          2) /* WieldRequirements - RawSkill */
+     , (30870, 159,         13) /* WieldSkilltype - UnarmedCombat */
+     , (30870, 160,        370) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30870, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30870, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (30870,  22, True ) /* Inscribable */
+     , (30870,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30870,   5,  -0.025) /* ManaRate */
+     , (30870,  21,    0.52) /* WeaponLength */
+     , (30870,  22,     0.5) /* DamageVariance */
+     , (30870,  29,    1.13) /* WeaponDefense */
+     , (30870,  39,       1) /* DefaultScale */
+     , (30870,  62,    1.13) /* WeaponOffense */
+     , (30870, 136,       4) /* CriticalMultiplier */
+     , (30870, 147,     0.1) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30870,   1, 'Katar of the Fallen') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30870,   1,   33559270) /* Setup */
+     , (30870,   3,  536870932) /* SoundTable */
+     , (30870,   8,  100677504) /* Icon */
+     , (30870,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30870, 2696, 2) /* ModerateUnarmedAptitude_SpellID */
-     , (30870, 2096, 2) /* BloodDrinker7_SpellID */;
-
+VALUES (30870,  2096,      2)  /* Aura of Infected Caress */
+     , (30870,  2696,      2)  /* Moderate Light Weapon Aptitude */;

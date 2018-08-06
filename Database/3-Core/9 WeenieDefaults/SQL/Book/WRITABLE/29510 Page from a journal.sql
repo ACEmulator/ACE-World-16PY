@@ -1,43 +1,39 @@
-/* Weenie - Page from a journal (29510) */
-DELETE FROM weenie WHERE class_Id = 29510;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29510, 'notecannibalcaverns', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29510, 001 /* NAME_STRING */, 'Page from a journal')
-     , (29510, 014 /* USE_STRING */, 'Use this item to read it.')
-     , (29510, 015 /* SHORT_DESC_STRING */, 'This is a letter that all newcomers arrive with.  Save this letter for a little while.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29510, 001 /* SETUP_DID */, 33554773)
-     , (29510, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29510, 008 /* ICON_DID */, 100672431)
-     , (29510, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29510', 'notecannibalcaverns', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29510, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (29510, 005 /* ENCUMB_VAL_INT */, 25)
-     , (29510, 008 /* MASS_INT */, 5)
-     , (29510, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29510, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (29510, 019 /* VALUE_INT */, 0)
-     , (29510, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29510, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (29510, 054 /* USE_RADIUS_FLOAT */, 0.2);
+VALUES (29510,   1,       8192) /* ItemType - Writable */
+     , (29510,   5,         25) /* EncumbranceVal */
+     , (29510,   8,          5) /* Mass */
+     , (29510,   9,          0) /* ValidLocations - None */
+     , (29510,  16,          8) /* ItemUseable - Contained */
+     , (29510,  19,          0) /* Value */
+     , (29510,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29510, 022 /* INSCRIBABLE_BOOL */, False)
-     , (29510, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29510,  22, False) /* Inscribable */
+     , (29510,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29510,  39,    1.22) /* DefaultScale */
+     , (29510,  54,     0.2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29510,   1, 'Page from a journal') /* Name */
+     , (29510,  14, 'Use this item to read it.') /* Use */
+     , (29510,  15, 'This is a letter that all newcomers arrive with.  Save this letter for a little while.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29510,   1,   33554773) /* Setup */
+     , (29510,   3,  536870932) /* SoundTable */
+     , (29510,   8,  100672431) /* Icon */
+     , (29510,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (29510, 1, 1000) /* Book Data */;
+VALUES (29510, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (29510, 0, 4294967295, 'Welcome to Asheron''s Call  ', 'prewritten', False, '
 fuq u d00dz Oswald r 1337
 
 ');
-

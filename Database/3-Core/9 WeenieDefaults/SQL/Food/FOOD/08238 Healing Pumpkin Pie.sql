@@ -1,39 +1,35 @@
-/* Weenie - Healing Pumpkin Pie (8238) */
-DELETE FROM weenie WHERE class_Id = 8238;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8238, 'healingpumpkinpie', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8238, 001 /* NAME_STRING */, 'Healing Pumpkin Pie')
-     , (8238, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (8238, 015 /* SHORT_DESC_STRING */, 'A lightly baked, browned pumpkin pie, thick, savory, sweet.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8238, 001 /* SETUP_DID */, 33555978)
-     , (8238, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8238, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8238, 007 /* CLOTHINGBASE_DID */, 268436048)
-     , (8238, 008 /* ICON_DID */, 100671010)
-     , (8238, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8238', 'healingpumpkinpie', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8238, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (8238, 005 /* ENCUMB_VAL_INT */, 50)
-     , (8238, 008 /* MASS_INT */, 50)
-     , (8238, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8238, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (8238, 012 /* STACK_SIZE_INT */, 1)
-     , (8238, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (8238, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (8238, 015 /* STACK_UNIT_VALUE_INT */, 85)
-     , (8238, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8238, 018 /* UI_EFFECTS_INT */, 4 /* UI_EFFECT_BOOST_HEALTH */)
-     , (8238, 019 /* VALUE_INT */, 85)
-     , (8238, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
-     , (8238, 090 /* BOOST_VALUE_INT */, 27)
-     , (8238, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (8238,   1,         32) /* ItemType - Food */
+     , (8238,   5,         50) /* EncumbranceVal */
+     , (8238,   8,         50) /* Mass */
+     , (8238,   9,          0) /* ValidLocations - None */
+     , (8238,  11,        100) /* MaxStackSize */
+     , (8238,  12,          1) /* StackSize */
+     , (8238,  13,         50) /* StackUnitEncumbrance */
+     , (8238,  14,         50) /* StackUnitMass */
+     , (8238,  15,         85) /* StackUnitValue */
+     , (8238,  16,          8) /* ItemUseable - Contained */
+     , (8238,  18,          4) /* UiEffects - BoostHealth */
+     , (8238,  19,         85) /* Value */
+     , (8238,  89,          2) /* BoosterEnum - Health */
+     , (8238,  90,         27) /* BoostValue */
+     , (8238,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8238, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (8238,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8238,   1, 'Healing Pumpkin Pie') /* Name */
+     , (8238,  14, 'Use this item to eat it.') /* Use */
+     , (8238,  15, 'A lightly baked, browned pumpkin pie, thick, savory, sweet.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8238,   1,   33555978) /* Setup */
+     , (8238,   3,  536870932) /* SoundTable */
+     , (8238,   6,   67111919) /* PaletteBase */
+     , (8238,   7,  268436048) /* ClothingBase */
+     , (8238,   8,  100671010) /* Icon */
+     , (8238,  22,  872415275) /* PhysicsEffectTable */;

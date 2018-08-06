@@ -1,36 +1,32 @@
-/* Weenie - Fruitcake Batter (5793) */
-DELETE FROM weenie WHERE class_Id = 5793;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5793, 'fruitcakebatter', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5793, 001 /* NAME_STRING */, 'Fruitcake Batter')
-     , (5793, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (5793, 015 /* SHORT_DESC_STRING */, 'A strong-smelling batter containing strange lumps.')
-     , (5793, 020 /* PLURAL_NAME_STRING */, 'Batches of Fruitcake Batter');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5793, 001 /* SETUP_DID */, 33555968)
-     , (5793, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5793, 008 /* ICON_DID */, 100670289)
-     , (5793, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5793', 'fruitcakebatter', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5793, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (5793, 005 /* ENCUMB_VAL_INT */, 50)
-     , (5793, 008 /* MASS_INT */, 25)
-     , (5793, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5793, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5793, 012 /* STACK_SIZE_INT */, 1)
-     , (5793, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (5793, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (5793, 015 /* STACK_UNIT_VALUE_INT */, 5)
-     , (5793, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (5793, 019 /* VALUE_INT */, 5)
-     , (5793, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5793, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */);
+VALUES (5793,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (5793,   5,         50) /* EncumbranceVal */
+     , (5793,   8,         25) /* Mass */
+     , (5793,   9,          0) /* ValidLocations - None */
+     , (5793,  11,        100) /* MaxStackSize */
+     , (5793,  12,          1) /* StackSize */
+     , (5793,  13,         50) /* StackUnitEncumbrance */
+     , (5793,  14,         25) /* StackUnitMass */
+     , (5793,  15,          5) /* StackUnitValue */
+     , (5793,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (5793,  19,          5) /* Value */
+     , (5793,  93,       1044) /* PhysicsState */
+     , (5793,  94,    4194336) /* TargetType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5793, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5793,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5793,   1, 'Fruitcake Batter') /* Name */
+     , (5793,  14, 'This item is used in cooking.') /* Use */
+     , (5793,  15, 'A strong-smelling batter containing strange lumps.') /* ShortDesc */
+     , (5793,  20, 'Batches of Fruitcake Batter') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5793,   1,   33555968) /* Setup */
+     , (5793,   3,  536870932) /* SoundTable */
+     , (5793,   8,  100670289) /* Icon */
+     , (5793,  22,  872415275) /* PhysicsEffectTable */;

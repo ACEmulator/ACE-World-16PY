@@ -1,50 +1,46 @@
-/* Weenie - Composite Bow (6963) */
-DELETE FROM weenie WHERE class_Id = 6963;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6963, 'bowcompositedmg3def3spd3atk0', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6963, 001 /* NAME_STRING */, 'Composite Bow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6963, 001 /* SETUP_DID */, 33556601)
-     , (6963, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6963, 006 /* PALETTE_BASE_DID */, 67112869)
-     , (6963, 007 /* CLOTHINGBASE_DID */, 268436003)
-     , (6963, 008 /* ICON_DID */, 100670672)
-     , (6963, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6963', 'bowcompositedmg3def3spd3atk0', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6963, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (6963, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (6963, 005 /* ENCUMB_VAL_INT */, 980)
-     , (6963, 008 /* MASS_INT */, 140)
-     , (6963, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (6963, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6963, 019 /* VALUE_INT */, 400)
-     , (6963, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6963, 044 /* DAMAGE_INT */, 0)
-     , (6963, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
-     , (6963, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
-     , (6963, 049 /* WEAPON_TIME_INT */, 35)
-     , (6963, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (6963, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (6963, 052 /* PARENT_LOCATION_INT */, 2)
-     , (6963, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (6963, 060 /* WEAPON_RANGE_INT */, 192)
-     , (6963, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6963, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6963, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (6963, 029 /* WEAPON_DEFENSE_FLOAT */, 1.06)
-     , (6963, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (6963, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (6963, 063 /* DAMAGE_MOD_FLOAT */, 2.1);
+VALUES (6963,   1,        256) /* ItemType - MissileWeapon */
+     , (6963,   3,         20) /* PaletteTemplate - Silver */
+     , (6963,   5,        980) /* EncumbranceVal */
+     , (6963,   8,        140) /* Mass */
+     , (6963,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (6963,  16,          1) /* ItemUseable - No */
+     , (6963,  19,        400) /* Value */
+     , (6963,  33,          1) /* Bonded - Bonded */
+     , (6963,  44,          0) /* Damage */
+     , (6963,  46,         16) /* DefaultCombatStyle - Bow */
+     , (6963,  48,          2) /* WeaponSkill - Bow */
+     , (6963,  49,         35) /* WeaponTime */
+     , (6963,  50,          1) /* AmmoType - Arrow */
+     , (6963,  51,          2) /* CombatUse - Missle */
+     , (6963,  52,          2) /* ParentLocation */
+     , (6963,  53,          3) /* PlacementPosition */
+     , (6963,  60,        192) /* WeaponRange */
+     , (6963,  93,       1044) /* PhysicsState */
+     , (6963, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6963, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6963, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6963, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6963,  22, True ) /* Inscribable */
+     , (6963,  23, True ) /* DestroyOnSell */
+     , (6963,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6963,  26,    27.3) /* MaximumVelocity */
+     , (6963,  29,    1.06) /* WeaponDefense */
+     , (6963,  39,     1.1) /* DefaultScale */
+     , (6963,  62,       1) /* WeaponOffense */
+     , (6963,  63,     2.1) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6963,   1, 'Composite Bow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6963,   1,   33556601) /* Setup */
+     , (6963,   3,  536870932) /* SoundTable */
+     , (6963,   6,   67112869) /* PaletteBase */
+     , (6963,   7,  268436003) /* ClothingBase */
+     , (6963,   8,  100670672) /* Icon */
+     , (6963,  22,  872415275) /* PhysicsEffectTable */;

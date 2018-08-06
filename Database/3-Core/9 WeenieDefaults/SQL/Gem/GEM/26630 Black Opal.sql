@@ -1,39 +1,35 @@
-/* Weenie - Black Opal (26630) */
-DELETE FROM weenie WHERE class_Id = 26630;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26630, 'gemtempleblack', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26630, 001 /* NAME_STRING */, 'Black Opal')
-     , (26630, 033 /* QUEST_STRING */, 'TempleSacredStone');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26630, 001 /* SETUP_DID */, 33554809)
-     , (26630, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26630, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26630, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26630, 008 /* ICON_DID */, 100674739)
-     , (26630, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26630, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26630', 'gemtempleblack', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26630, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26630, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (26630, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26630, 008 /* MASS_INT */, 5)
-     , (26630, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26630, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (26630, 012 /* STACK_SIZE_INT */, 1)
-     , (26630, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26630, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (26630, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (26630, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (26630, 019 /* VALUE_INT */, 0)
-     , (26630, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (26630, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (26630, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (26630,   1,       2048) /* ItemType - Gem */
+     , (26630,   3,         39) /* PaletteTemplate - Black */
+     , (26630,   5,         10) /* EncumbranceVal */
+     , (26630,   8,          5) /* Mass */
+     , (26630,   9,          0) /* ValidLocations - None */
+     , (26630,  11,          1) /* MaxStackSize */
+     , (26630,  12,          1) /* StackSize */
+     , (26630,  13,         10) /* StackUnitEncumbrance */
+     , (26630,  14,          5) /* StackUnitMass */
+     , (26630,  15,          0) /* StackUnitValue */
+     , (26630,  16,          1) /* ItemUseable - No */
+     , (26630,  19,          0) /* Value */
+     , (26630,  33,          1) /* Bonded - Bonded */
+     , (26630,  93,       1044) /* PhysicsState */
+     , (26630, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26630, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (26630,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26630,   1, 'Black Opal') /* Name */
+     , (26630,  33, 'TempleSacredStone') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26630,   1,   33554809) /* Setup */
+     , (26630,   3,  536870932) /* SoundTable */
+     , (26630,   6,   67111919) /* PaletteBase */
+     , (26630,   7,  268435723) /* ClothingBase */
+     , (26630,   8,  100674739) /* Icon */
+     , (26630,  22,  872415275) /* PhysicsEffectTable */
+     , (26630,  36,  234881046) /* MutateFilter */;

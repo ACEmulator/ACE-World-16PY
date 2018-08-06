@@ -1,38 +1,34 @@
-/* Weenie - Opal (2423) */
-DELETE FROM weenie WHERE class_Id = 2423;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2423, 'gemopal', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2423, 001 /* NAME_STRING */, 'Opal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2423, 001 /* SETUP_DID */, 33554809)
-     , (2423, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2423, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2423, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (2423, 008 /* ICON_DID */, 100674750)
-     , (2423, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2423, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2423', 'gemopal', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2423, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (2423, 003 /* PALETTE_TEMPLATE_INT */, 77 /* BLUEGREEN_PALETTE_TEMPLATE */)
-     , (2423, 005 /* ENCUMB_VAL_INT */, 5)
-     , (2423, 008 /* MASS_INT */, 5)
-     , (2423, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2423, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (2423, 012 /* STACK_SIZE_INT */, 1)
-     , (2423, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (2423, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (2423, 015 /* STACK_UNIT_VALUE_INT */, 250)
-     , (2423, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2423, 019 /* VALUE_INT */, 250)
-     , (2423, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2423, 131 /* MATERIAL_TYPE_INT */, 33 /* Opal_MaterialType */)
-     , (2423, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
+VALUES (2423,   1,       2048) /* ItemType - Gem */
+     , (2423,   3,         77) /* PaletteTemplate - BlueGreen */
+     , (2423,   5,          5) /* EncumbranceVal */
+     , (2423,   8,          5) /* Mass */
+     , (2423,   9,          0) /* ValidLocations - None */
+     , (2423,  11,          1) /* MaxStackSize */
+     , (2423,  12,          1) /* StackSize */
+     , (2423,  13,          5) /* StackUnitEncumbrance */
+     , (2423,  14,          5) /* StackUnitMass */
+     , (2423,  15,        250) /* StackUnitValue */
+     , (2423,  16,          1) /* ItemUseable - No */
+     , (2423,  19,        250) /* Value */
+     , (2423,  93,       1044) /* PhysicsState */
+     , (2423, 131,         33) /* MaterialType - Opal */
+     , (2423, 169,   16777216) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2423, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2423,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2423,   1, 'Opal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2423,   1,   33554809) /* Setup */
+     , (2423,   3,  536870932) /* SoundTable */
+     , (2423,   6,   67111919) /* PaletteBase */
+     , (2423,   7,  268435723) /* ClothingBase */
+     , (2423,   8,  100674750) /* Icon */
+     , (2423,  22,  872415275) /* PhysicsEffectTable */
+     , (2423,  36,  234881046) /* MutateFilter */;

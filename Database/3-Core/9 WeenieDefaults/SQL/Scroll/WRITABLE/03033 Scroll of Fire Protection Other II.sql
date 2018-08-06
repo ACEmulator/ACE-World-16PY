@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Fire Protection Other II (3033) */
-DELETE FROM weenie WHERE class_Id = 3033;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3033, 'scrollfireprotectionother2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3033, 001 /* NAME_STRING */, 'Scroll of Fire Protection Other II')
-     , (3033, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3033, 016 /* LONG_DESC_STRING */, 'When learned, this spell reduces damage the target takes from fire by 20%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3033, 001 /* SETUP_DID */, 33554826)
-     , (3033, 008 /* ICON_DID */, 100676949)
-     , (3033, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3033, 028 /* SPELL_DID */, 810 /* FireProtectionOther2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3033', 'scrollfireprotectionother2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3033, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3033, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3033, 008 /* MASS_INT */, 90)
-     , (3033, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3033, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3033, 019 /* VALUE_INT */, 5)
-     , (3033, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3033, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3033,   1,       8192) /* ItemType - Writable */
+     , (3033,   5,         30) /* EncumbranceVal */
+     , (3033,   8,         90) /* Mass */
+     , (3033,   9,          0) /* ValidLocations - None */
+     , (3033,  16,          8) /* ItemUseable - Contained */
+     , (3033,  19,          5) /* Value */
+     , (3033,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3033, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3033, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3033,  22, True ) /* Inscribable */
+     , (3033,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3033,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3033,   1, 'Scroll of Fire Protection Other II') /* Name */
+     , (3033,  15, 'A magic scroll.') /* ShortDesc */
+     , (3033,  16, 'When learned, this spell reduces damage the target takes from fire by 20%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3033,   1,   33554826) /* Setup */
+     , (3033,   8,  100676949) /* Icon */
+     , (3033,  22,  872415275) /* PhysicsEffectTable */
+     , (3033,  28,        810) /* Spell - Fire Protection Other II */;

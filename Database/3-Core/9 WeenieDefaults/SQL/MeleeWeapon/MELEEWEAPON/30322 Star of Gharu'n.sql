@@ -1,46 +1,42 @@
-/* Weenie - Star of Gharu'n (30322) */
-DELETE FROM weenie WHERE class_Id = 30322;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30322, 'spearrarestargharun', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30322, 001 /* NAME_STRING */, 'Star of Gharu''n')
-     , (30322, 016 /* LONG_DESC_STRING */, 'Describe me here.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30322, 001 /* SETUP_DID */, 33554756)
-     , (30322, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30322, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30322, 007 /* CLOTHINGBASE_DID */, 268435768)
-     , (30322, 008 /* ICON_DID */, 100669005)
-     , (30322, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30322', 'spearrarestargharun', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30322, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30322, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (30322, 005 /* ENCUMB_VAL_INT */, 700)
-     , (30322, 008 /* MASS_INT */, 140)
-     , (30322, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30322, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30322, 019 /* VALUE_INT */, 170)
-     , (30322, 044 /* DAMAGE_INT */, 10)
-     , (30322, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (30322, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30322, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (30322, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (30322, 049 /* WEAPON_TIME_INT */, 30)
-     , (30322, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30322, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30322, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30322, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30322, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (30322, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (30322, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (30322, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (30322,   1,          1) /* ItemType - MeleeWeapon */
+     , (30322,   3,         20) /* PaletteTemplate - Silver */
+     , (30322,   5,        700) /* EncumbranceVal */
+     , (30322,   8,        140) /* Mass */
+     , (30322,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30322,  16,          1) /* ItemUseable - No */
+     , (30322,  19,        170) /* Value */
+     , (30322,  44,         10) /* Damage */
+     , (30322,  45,          2) /* DamageType - Pierce */
+     , (30322,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (30322,  47,          2) /* AttackType - Thrust */
+     , (30322,  48,          9) /* WeaponSkill - Spear */
+     , (30322,  49,         30) /* WeaponTime */
+     , (30322,  51,          1) /* CombatUse - Melee */
+     , (30322,  93,       1044) /* PhysicsState */
+     , (30322, 150,        103) /* HookPlacement - Hook */
+     , (30322, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30322, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30322,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30322,  21,     1.5) /* WeaponLength */
+     , (30322,  22,    0.75) /* DamageVariance */
+     , (30322,  29,       1) /* WeaponDefense */
+     , (30322,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30322,   1, 'Star of Gharu''n') /* Name */
+     , (30322,  16, 'Describe me here.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30322,   1,   33554756) /* Setup */
+     , (30322,   3,  536870932) /* SoundTable */
+     , (30322,   6,   67111919) /* PaletteBase */
+     , (30322,   7,  268435768) /* ClothingBase */
+     , (30322,   8,  100669005) /* Icon */
+     , (30322,  22,  872415275) /* PhysicsEffectTable */;

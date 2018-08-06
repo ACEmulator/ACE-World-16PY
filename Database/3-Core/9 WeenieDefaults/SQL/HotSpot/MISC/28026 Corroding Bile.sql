@@ -1,46 +1,42 @@
-/* Weenie - Corroding Bile (28026) */
-DELETE FROM weenie WHERE class_Id = 28026;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28026, 'undeadbileinvisible', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28026, 001 /* NAME_STRING */, 'Corroding Bile')
-     , (28026, 017 /* ACTIVATION_TALK_STRING */, 'Harmful biles corrodes your flesh for %i points damage!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28026, 001 /* SETUP_DID */, 33556024)
-     , (28026, 003 /* SOUND_TABLE_DID */, 536871007)
-     , (28026, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28026', 'undeadbileinvisible', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28026, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28026, 005 /* ENCUMB_VAL_INT */, 1)
-     , (28026, 008 /* MASS_INT */, 1)
-     , (28026, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28026, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28026, 019 /* VALUE_INT */, 1)
-     , (28026, 044 /* DAMAGE_INT */, 75)
-     , (28026, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (28026, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (28026, 119 /* ACTIVE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28026, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.667)
-     , (28026, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (28026, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 5)
-     , (28026, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0.5);
+VALUES (28026,   1,        128) /* ItemType - Misc */
+     , (28026,   5,          1) /* EncumbranceVal */
+     , (28026,   8,          1) /* Mass */
+     , (28026,   9,          0) /* ValidLocations - None */
+     , (28026,  16,          1) /* ItemUseable - No */
+     , (28026,  19,          1) /* Value */
+     , (28026,  44,         75) /* Damage */
+     , (28026,  45,         32) /* DamageType - Acid */
+     , (28026,  93,         12) /* PhysicsState */
+     , (28026, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28026, 001 /* STUCK_BOOL */, True)
-     , (28026, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (28026, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (28026, 013 /* ETHEREAL_BOOL */, True)
-     , (28026, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (28026, 018 /* VISIBILITY_BOOL */, True)
-     , (28026, 024 /* UI_HIDDEN_BOOL */, True)
-     , (28026, 055 /* IS_HOT_BOOL */, True)
-     , (28026, 057 /* AFFECTS_AIS_BOOL */, False)
-     , (28026, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
-     , (28026, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True);
+VALUES (28026,   1, True ) /* Stuck */
+     , (28026,  11, False) /* IgnoreCollisions */
+     , (28026,  12, True ) /* ReportCollisions */
+     , (28026,  13, True ) /* Ethereal */
+     , (28026,  14, False) /* GravityStatus */
+     , (28026,  18, True ) /* Visibility */
+     , (28026,  24, True ) /* UiHidden */
+     , (28026,  55, True ) /* IsHot */
+     , (28026,  57, False) /* AffectsAis */
+     , (28026,  65, True ) /* IgnoreMagicResist */
+     , (28026,  66, True ) /* IgnoreMagicArmor */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28026,  22,   0.667) /* DamageVariance */
+     , (28026,  39,    1.25) /* DefaultScale */
+     , (28026, 105,       5) /* HotspotCycleTime */
+     , (28026, 106,     0.5) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28026,   1, 'Corroding Bile') /* Name */
+     , (28026,  17, 'Harmful biles corrodes your flesh for %i points damage!') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28026,   1,   33556024) /* Setup */
+     , (28026,   3,  536871007) /* SoundTable */
+     , (28026,   8,  100667465) /* Icon */;

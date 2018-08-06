@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Feeblemind Other V (2672) */
-DELETE FROM weenie WHERE class_Id = 2672;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2672, 'scrollfeeblemind5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2672, 001 /* NAME_STRING */, 'Scroll of Feeblemind Other V')
-     , (2672, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (2672, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Self by 50 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2672, 001 /* SETUP_DID */, 33554826)
-     , (2672, 008 /* ICON_DID */, 100676471)
-     , (2672, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2672, 028 /* SPELL_DID */, 1467 /* FeeblemindOther5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2672', 'scrollfeeblemind5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2672, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2672, 005 /* ENCUMB_VAL_INT */, 30)
-     , (2672, 008 /* MASS_INT */, 90)
-     , (2672, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2672, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2672, 019 /* VALUE_INT */, 200)
-     , (2672, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2672, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (2672,   1,       8192) /* ItemType - Writable */
+     , (2672,   5,         30) /* EncumbranceVal */
+     , (2672,   8,         90) /* Mass */
+     , (2672,   9,          0) /* ValidLocations - None */
+     , (2672,  16,          8) /* ItemUseable - Contained */
+     , (2672,  19,        200) /* Value */
+     , (2672,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2672, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2672, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2672,  22, True ) /* Inscribable */
+     , (2672,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2672,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2672,   1, 'Scroll of Feeblemind Other V') /* Name */
+     , (2672,  15, 'A magic scroll.') /* ShortDesc */
+     , (2672,  16, 'When learned, this spell decreases the target''s Self by 50 points.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2672,   1,   33554826) /* Setup */
+     , (2672,   8,  100676471) /* Icon */
+     , (2672,  22,  872415275) /* PhysicsEffectTable */
+     , (2672,  28,       1467) /* Spell - Feeblemind Other V */;

@@ -1,64 +1,60 @@
-/* Weenie - Perfect Isparian Dagger (19844) */
-DELETE FROM weenie WHERE class_Id = 19844;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19844, 'daggerisparianperfectnostone', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19844, 001 /* NAME_STRING */, 'Perfect Isparian Dagger');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19844, 001 /* SETUP_DID */, 33557746)
-     , (19844, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19844, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19844, 007 /* CLOTHINGBASE_DID */, 268436378)
-     , (19844, 008 /* ICON_DID */, 100673030)
-     , (19844, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (19844, 037 /* ITEM_SKILL_LIMIT_DID */, 4);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19844', 'daggerisparianperfectnostone', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19844, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (19844, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (19844, 005 /* ENCUMB_VAL_INT */, 120)
-     , (19844, 008 /* MASS_INT */, 100)
-     , (19844, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (19844, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19844, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (19844, 019 /* VALUE_INT */, 8000)
-     , (19844, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19844, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (19844, 044 /* DAMAGE_INT */, 15)
-     , (19844, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (19844, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (19844, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (19844, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (19844, 049 /* WEAPON_TIME_INT */, 12)
-     , (19844, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (19844, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19844, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (19844, 107 /* ITEM_CUR_MANA_INT */, 1200)
-     , (19844, 108 /* ITEM_MAX_MANA_INT */, 1200)
-     , (19844, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 325)
-     , (19844, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (19844, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (19844, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (19844, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (19844, 160 /* WIELD_DIFFICULTY_INT */, 50);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19844, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (19844, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (19844, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (19844, 029 /* WEAPON_DEFENSE_FLOAT */, 1.1)
-     , (19844, 062 /* WEAPON_OFFENSE_FLOAT */, 1.1);
+VALUES (19844,   1,          1) /* ItemType - MeleeWeapon */
+     , (19844,   3,         39) /* PaletteTemplate - Black */
+     , (19844,   5,        120) /* EncumbranceVal */
+     , (19844,   8,        100) /* Mass */
+     , (19844,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (19844,  16,          1) /* ItemUseable - No */
+     , (19844,  18,          1) /* UiEffects - Magical */
+     , (19844,  19,       8000) /* Value */
+     , (19844,  33,          1) /* Bonded - Bonded */
+     , (19844,  36,       9999) /* ResistMagic */
+     , (19844,  44,         15) /* Damage */
+     , (19844,  45,          3) /* DamageType */
+     , (19844,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (19844,  47,          6) /* AttackType */
+     , (19844,  48,          4) /* WeaponSkill - Dagger */
+     , (19844,  49,         12) /* WeaponTime */
+     , (19844,  51,          1) /* CombatUse - Melee */
+     , (19844,  93,       1044) /* PhysicsState */
+     , (19844, 106,        100) /* ItemSpellcraft */
+     , (19844, 107,       1200) /* ItemCurMana */
+     , (19844, 108,       1200) /* ItemMaxMana */
+     , (19844, 115,        325) /* ItemSkillLevelLimit */
+     , (19844, 150,        103) /* HookPlacement - Hook */
+     , (19844, 151,          2) /* HookType - Wall */
+     , (19844, 158,          7) /* WieldRequirements - Level */
+     , (19844, 159,          1) /* WieldSkilltype - Axe */
+     , (19844, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19844, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19844, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19844, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19844,  22, True ) /* Inscribable */
+     , (19844,  23, True ) /* DestroyOnSell */
+     , (19844,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19844,   5,    -0.1) /* ManaRate */
+     , (19844,  21,     0.4) /* WeaponLength */
+     , (19844,  22,     0.5) /* DamageVariance */
+     , (19844,  29,     1.1) /* WeaponDefense */
+     , (19844,  62,     1.1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19844,   1, 'Perfect Isparian Dagger') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19844,   1,   33557746) /* Setup */
+     , (19844,   3,  536870932) /* SoundTable */
+     , (19844,   6,   67111919) /* PaletteBase */
+     , (19844,   7,  268436378) /* ClothingBase */
+     , (19844,   8,  100673030) /* Icon */
+     , (19844,  22,  872415275) /* PhysicsEffectTable */
+     , (19844,  37,          4) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19844, 2689, 2) /* ModerateDaggerAptitude_SpellID */
-     , (19844, 1592, 2) /* HeartSeeker6_SpellID */
-     , (19844, 1616, 2) /* BloodDrinker6_SpellID */;
-
+VALUES (19844,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (19844,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (19844,  2689,      2)  /* Moderate Finesse Weapon Aptitude */;

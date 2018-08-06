@@ -1,45 +1,41 @@
-/* Weenie - Barbed Fletching Tool (8786) */
-DELETE FROM weenie WHERE class_Id = 8786;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8786, 'toolfletchingbarbed', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8786, 001 /* NAME_STRING */, 'Barbed Fletching Tool')
-     , (8786, 014 /* USE_STRING */, 'Use this tool in fletching. ')
-     , (8786, 016 /* LONG_DESC_STRING */, 'A fletching tool that can be used to make barbed arrowheads.')
-     , (8786, 033 /* QUEST_STRING */, 'BarbedFletchingTool');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8786, 001 /* SETUP_DID */, 33554734)
-     , (8786, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8786, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8786, 007 /* CLOTHINGBASE_DID */, 268435782)
-     , (8786, 008 /* ICON_DID */, 100671224)
-     , (8786, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8786', 'toolfletchingbarbed', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8786, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (8786, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (8786, 005 /* ENCUMB_VAL_INT */, 100)
-     , (8786, 008 /* MASS_INT */, 5)
-     , (8786, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8786, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (8786, 012 /* STACK_SIZE_INT */, 1)
-     , (8786, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (8786, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (8786, 015 /* STACK_UNIT_VALUE_INT */, 2000)
-     , (8786, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (8786, 019 /* VALUE_INT */, 2000)
-     , (8786, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8786, 094 /* TARGET_TYPE_INT */, 134218752 /* TYPE_USELESS, TYPE_CRAFT_FLETCHING_INTERMEDIATE */)
-     , (8786, 150 /* HOOK_PLACEMENT_INT */, 104 /* XXXUnknown68 */)
-     , (8786, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8786, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (8786,   1,        128) /* ItemType - Misc */
+     , (8786,   3,          8) /* PaletteTemplate - Green */
+     , (8786,   5,        100) /* EncumbranceVal */
+     , (8786,   8,          5) /* Mass */
+     , (8786,   9,          0) /* ValidLocations - None */
+     , (8786,  11,          1) /* MaxStackSize */
+     , (8786,  12,          1) /* StackSize */
+     , (8786,  13,        100) /* StackUnitEncumbrance */
+     , (8786,  14,          5) /* StackUnitMass */
+     , (8786,  15,       2000) /* StackUnitValue */
+     , (8786,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (8786,  19,       2000) /* Value */
+     , (8786,  93,       1044) /* PhysicsState */
+     , (8786,  94,  134218752) /* TargetType */
+     , (8786, 150,        104) /* HookPlacement - XXXUnknown68 */
+     , (8786, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8786, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8786, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8786,  22, True ) /* Inscribable */
+     , (8786,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8786,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8786,   1, 'Barbed Fletching Tool') /* Name */
+     , (8786,  14, 'Use this tool in fletching. ') /* Use */
+     , (8786,  16, 'A fletching tool that can be used to make barbed arrowheads.') /* LongDesc */
+     , (8786,  33, 'BarbedFletchingTool') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8786,   1,   33554734) /* Setup */
+     , (8786,   3,  536870932) /* SoundTable */
+     , (8786,   6,   67111919) /* PaletteBase */
+     , (8786,   7,  268435782) /* ClothingBase */
+     , (8786,   8,  100671224) /* Icon */
+     , (8786,  22,  872415275) /* PhysicsEffectTable */;

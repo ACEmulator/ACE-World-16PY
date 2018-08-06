@@ -1,39 +1,35 @@
-/* Weenie - Acid Trap (30283) */
-DELETE FROM weenie WHERE class_Id = 30283;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30283, 'trap-blizzard-lvl7', 26 /* Switch_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30283, 001 /* NAME_STRING */, 'Acid Trap')
-     , (30283, 022 /* ACTIVATION_FAILURE_STRING */, 'You hear a faint clicking sound.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30283, 001 /* SETUP_DID */, 33554667)
-     , (30283, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30283, 008 /* ICON_DID */, 100667494)
-     , (30283, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30283, 028 /* SPELL_DID */, 58 /* AcidStream1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30283', 'trap-blizzard-lvl7', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30283, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (30283, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (30283, 008 /* MASS_INT */, 3000)
-     , (30283, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30283, 019 /* VALUE_INT */, 200)
-     , (30283, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
-     , (30283, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
-     , (30283, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (30283, 119 /* ACTIVE_INT */, 1)
-     , (30283, 134 /* PLAYER_KILLER_STATUS_INT */, 8 /* Creature_PKStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30283, 011 /* RESET_INTERVAL_FLOAT */, 30);
+VALUES (30283,   1,        128) /* ItemType - Misc */
+     , (30283,   5,       6000) /* EncumbranceVal */
+     , (30283,   8,       3000) /* Mass */
+     , (30283,  16,          1) /* ItemUseable - No */
+     , (30283,  19,        200) /* Value */
+     , (30283,  83,       4096) /* ActivationResponse - CastSpell */
+     , (30283,  93,         20) /* PhysicsState */
+     , (30283, 106,        100) /* ItemSpellcraft */
+     , (30283, 119,          1) /* Active */
+     , (30283, 134,          8) /* PlayerKillerStatus - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30283, 001 /* STUCK_BOOL */, True)
-     , (30283, 012 /* REPORT_COLLISIONS_BOOL */, False)
-     , (30283, 013 /* ETHEREAL_BOOL */, True)
-     , (30283, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (30283, 018 /* VISIBILITY_BOOL */, True);
+VALUES (30283,   1, True ) /* Stuck */
+     , (30283,  12, False) /* ReportCollisions */
+     , (30283,  13, True ) /* Ethereal */
+     , (30283,  14, False) /* GravityStatus */
+     , (30283,  18, True ) /* Visibility */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30283,  11,      30) /* ResetInterval */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30283,   1, 'Acid Trap') /* Name */
+     , (30283,  22, 'You hear a faint clicking sound.') /* ActivationFailure */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30283,   1,   33554667) /* Setup */
+     , (30283,   3,  536870932) /* SoundTable */
+     , (30283,   8,  100667494) /* Icon */
+     , (30283,  22,  872415275) /* PhysicsEffectTable */
+     , (30283,  28,         58) /* Spell - Acid Stream I */;

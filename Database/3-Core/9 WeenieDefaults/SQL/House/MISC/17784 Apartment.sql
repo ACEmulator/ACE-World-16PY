@@ -1,35 +1,31 @@
-/* Weenie - Apartment (17784) */
-DELETE FROM weenie WHERE class_Id = 17784;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (17784, 'houseapartment4912', 53 /* House_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (17784, 001 /* NAME_STRING */, 'Apartment');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (17784, 001 /* SETUP_DID */, 33557058)
-     , (17784, 008 /* ICON_DID */, 100671873)
-     , (17784, 042 /* HOUSEID_DID */, 4912)
-     , (17784, 044 /* RESTRICTION_EFFECT_DID */, 151 /* PS_WeddingSteele */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('17784', 'houseapartment4912', 53) /* House */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (17784, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (17784, 005 /* ENCUMB_VAL_INT */, 10)
-     , (17784, 008 /* MASS_INT */, 10)
-     , (17784, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (17784, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (17784, 019 /* VALUE_INT */, 0)
-     , (17784, 093 /* PHYSICS_STATE_INT */, 52 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, NODRAW_PS */)
-     , (17784, 155 /* HOUSE_TYPE_INT */, 4 /* Apartment_HouseType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (17784, 039 /* DEFAULT_SCALE_FLOAT */, 0.1);
+VALUES (17784,   1,        128) /* ItemType - Misc */
+     , (17784,   5,         10) /* EncumbranceVal */
+     , (17784,   8,         10) /* Mass */
+     , (17784,   9,          0) /* ValidLocations - None */
+     , (17784,  16,          1) /* ItemUseable - No */
+     , (17784,  19,          0) /* Value */
+     , (17784,  93,         52) /* PhysicsState */
+     , (17784, 155,          4) /* HouseType - Apartment */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (17784, 001 /* STUCK_BOOL */, True)
-     , (17784, 013 /* ETHEREAL_BOOL */, True)
-     , (17784, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (17784, 024 /* UI_HIDDEN_BOOL */, True)
-     , (17784, 071 /* NODRAW_BOOL */, True);
+VALUES (17784,   1, True ) /* Stuck */
+     , (17784,  13, True ) /* Ethereal */
+     , (17784,  14, False) /* GravityStatus */
+     , (17784,  24, True ) /* UiHidden */
+     , (17784,  71, True ) /* NoDraw */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (17784,  39,     0.1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (17784,   1, 'Apartment') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (17784,   1,   33557058) /* Setup */
+     , (17784,   8,  100671873) /* Icon */
+     , (17784,  42,       4912) /* HouseId */
+     , (17784,  44,        151) /* RestrictionEffect - WeddingSteele */;

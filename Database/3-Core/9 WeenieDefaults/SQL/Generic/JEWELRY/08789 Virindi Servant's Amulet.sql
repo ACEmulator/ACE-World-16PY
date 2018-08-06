@@ -1,48 +1,44 @@
-/* Weenie - Virindi Servant's Amulet (8789) */
-DELETE FROM weenie WHERE class_Id = 8789;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8789, 'amuletvirindimaster', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8789, 001 /* NAME_STRING */, 'Virindi Servant''s Amulet')
-     , (8789, 016 /* LONG_DESC_STRING */, 'A magical amulet taken from a Virindi Servant in the Chakron Flux dungeon.')
-     , (8789, 033 /* QUEST_STRING */, 'VirindiMasterAmulet');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8789, 001 /* SETUP_DID */, 33554680)
-     , (8789, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8789, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8789, 007 /* CLOTHINGBASE_DID */, 268436095)
-     , (8789, 008 /* ICON_DID */, 100671247)
-     , (8789, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8789', 'amuletvirindimaster', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8789, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (8789, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (8789, 005 /* ENCUMB_VAL_INT */, 100)
-     , (8789, 008 /* MASS_INT */, 30)
-     , (8789, 009 /* LOCATIONS_INT */, 32768 /* NECK_WEAR_LOC */)
-     , (8789, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8789, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8789, 019 /* VALUE_INT */, 8000)
-     , (8789, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8789, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (8789, 107 /* ITEM_CUR_MANA_INT */, 230)
-     , (8789, 108 /* ITEM_MAX_MANA_INT */, 230)
-     , (8789, 109 /* ITEM_DIFFICULTY_INT */, 190);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8789, 005 /* MANA_RATE_FLOAT */, -0.033333)
-     , (8789, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
+VALUES (8789,   1,          8) /* ItemType - Jewelry */
+     , (8789,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (8789,   5,        100) /* EncumbranceVal */
+     , (8789,   8,         30) /* Mass */
+     , (8789,   9,      32768) /* ValidLocations - NeckWear */
+     , (8789,  16,          1) /* ItemUseable - No */
+     , (8789,  18,          1) /* UiEffects - Magical */
+     , (8789,  19,       8000) /* Value */
+     , (8789,  93,       1044) /* PhysicsState */
+     , (8789, 106,        300) /* ItemSpellcraft */
+     , (8789, 107,        230) /* ItemCurMana */
+     , (8789, 108,        230) /* ItemMaxMana */
+     , (8789, 109,        190) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8789, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8789, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8789,  22, True ) /* Inscribable */
+     , (8789,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8789,   5, -0.033333) /* ManaRate */
+     , (8789,  39,     0.8) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8789,   1, 'Virindi Servant''s Amulet') /* Name */
+     , (8789,  16, 'A magical amulet taken from a Virindi Servant in the Chakron Flux dungeon.') /* LongDesc */
+     , (8789,  33, 'VirindiMasterAmulet') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8789,   1,   33554680) /* Setup */
+     , (8789,   3,  536870932) /* SoundTable */
+     , (8789,   6,   67111919) /* PaletteBase */
+     , (8789,   7,  268436095) /* ClothingBase */
+     , (8789,   8,  100671247) /* Icon */
+     , (8789,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8789, 2975, 2) /* ModerateItemEnchantmentAptitude_SpellID */
-     , (8789, 664, 2) /* ManaMasteryOther6_SpellID */
-     , (8789, 592, 2) /* ItemEnchantmentMasteryOther6_SpellID */
-     , (8789, 2560, 2) /* CANTRIPMANACONVERSIONPROWESS1_SpellID */;
-
+VALUES (8789,   592,      2)  /* Item Enchantment Mastery Other VI */
+     , (8789,   664,      2)  /* Mana Conversion Mastery Other VI */
+     , (8789,  2560,      2)  /* Minor Mana Conversion Prowess */
+     , (8789,  2975,      2)  /* Moderate Item Enchantment Aptitude */;

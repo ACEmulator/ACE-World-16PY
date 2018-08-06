@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Lightning Volley V (2950) */
-DELETE FROM weenie WHERE class_Id = 2950;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2950, 'scrolllightingvolley5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2950, 001 /* NAME_STRING */, 'Scroll of Lightning Volley V')
-     , (2950, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (2950, 016 /* LONG_DESC_STRING */, 'When learned, this spell shoots a bolt of lighting at the target. The bolt does 11-22 points of electrical damage to the first thing it hits.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2950, 001 /* SETUP_DID */, 33554826)
-     , (2950, 008 /* ICON_DID */, 100677013)
-     , (2950, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2950, 028 /* SPELL_DID */, 141 /* LightningVolley5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2950', 'scrolllightingvolley5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2950, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2950, 005 /* ENCUMB_VAL_INT */, 30)
-     , (2950, 008 /* MASS_INT */, 90)
-     , (2950, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2950, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2950, 019 /* VALUE_INT */, 200)
-     , (2950, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2950, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (2950,   1,       8192) /* ItemType - Writable */
+     , (2950,   5,         30) /* EncumbranceVal */
+     , (2950,   8,         90) /* Mass */
+     , (2950,   9,          0) /* ValidLocations - None */
+     , (2950,  16,          8) /* ItemUseable - Contained */
+     , (2950,  19,        200) /* Value */
+     , (2950,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2950, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2950, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2950,  22, True ) /* Inscribable */
+     , (2950,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2950,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2950,   1, 'Scroll of Lightning Volley V') /* Name */
+     , (2950,  15, 'A magic scroll.') /* ShortDesc */
+     , (2950,  16, 'When learned, this spell shoots a bolt of lighting at the target. The bolt does 11-22 points of electrical damage to the first thing it hits.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2950,   1,   33554826) /* Setup */
+     , (2950,   8,  100677013) /* Icon */
+     , (2950,  22,  872415275) /* PhysicsEffectTable */
+     , (2950,  28,        141) /* Spell - Lightning Volley V */;

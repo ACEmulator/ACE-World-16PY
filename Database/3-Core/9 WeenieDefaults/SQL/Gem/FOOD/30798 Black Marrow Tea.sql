@@ -1,44 +1,40 @@
-/* Weenie - Black Marrow Tea (30798) */
-DELETE FROM weenie WHERE class_Id = 30798;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30798, 'teablackmarrow', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30798, 001 /* NAME_STRING */, 'Black Marrow Tea')
-     , (30798, 015 /* SHORT_DESC_STRING */, 'A thick, black tea made by Samuel of Eastham. The tea does not look like a very healthy drink.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30798, 001 /* SETUP_DID */, 33554663)
-     , (30798, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30798, 008 /* ICON_DID */, 100677488)
-     , (30798, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30798, 023 /* USE_SOUND_DID */, 64 /* Sound_Eat1 */)
-     , (30798, 027 /* USE_USER_ANIMATION_DID */, 318767233 /* Motion_MimeEat */)
-     , (30798, 028 /* SPELL_DID */, 3799 /* BlackMarrowBliss_SpellID */)
-     , (30798, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30798', 'teablackmarrow', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30798, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (30798, 005 /* ENCUMB_VAL_INT */, 15)
-     , (30798, 008 /* MASS_INT */, 25)
-     , (30798, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30798, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30798, 012 /* STACK_SIZE_INT */, 1)
-     , (30798, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (30798, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (30798, 015 /* STACK_UNIT_VALUE_INT */, 100)
-     , (30798, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30798, 019 /* VALUE_INT */, 100)
-     , (30798, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30798, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30798, 106 /* ITEM_SPELLCRAFT_INT */, 600)
-     , (30798, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (30798, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (30798, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (30798, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (30798,   1,         32) /* ItemType - Food */
+     , (30798,   5,         15) /* EncumbranceVal */
+     , (30798,   8,         25) /* Mass */
+     , (30798,   9,          0) /* ValidLocations - None */
+     , (30798,  11,          1) /* MaxStackSize */
+     , (30798,  12,          1) /* StackSize */
+     , (30798,  13,         15) /* StackUnitEncumbrance */
+     , (30798,  14,         25) /* StackUnitMass */
+     , (30798,  15,        100) /* StackUnitValue */
+     , (30798,  16,          8) /* ItemUseable - Contained */
+     , (30798,  19,        100) /* Value */
+     , (30798,  93,       1044) /* PhysicsState */
+     , (30798,  94,         16) /* TargetType - Creature */
+     , (30798, 106,        600) /* ItemSpellcraft */
+     , (30798, 107,         50) /* ItemCurMana */
+     , (30798, 108,         50) /* ItemMaxMana */
+     , (30798, 109,          0) /* ItemDifficulty */
+     , (30798, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30798, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30798, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (30798,  22, True ) /* Inscribable */
+     , (30798,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30798,   1, 'Black Marrow Tea') /* Name */
+     , (30798,  15, 'A thick, black tea made by Samuel of Eastham. The tea does not look like a very healthy drink.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30798,   1,   33554663) /* Setup */
+     , (30798,   3,  536870932) /* SoundTable */
+     , (30798,   8,  100677488) /* Icon */
+     , (30798,  22,  872415275) /* PhysicsEffectTable */
+     , (30798,  23,         64) /* UseSound - Eat1 */
+     , (30798,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (30798,  28,       3799) /* Spell - Black Marrow Bliss */
+     , (30798,  36,  234881046) /* MutateFilter */;

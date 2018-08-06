@@ -1,43 +1,39 @@
-/* Weenie - ChillyAirLevel3 (5000) */
-DELETE FROM weenie WHERE class_Id = 5000;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5000, 'airchillylvl3enter', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5000, 001 /* NAME_STRING */, 'ChillyAirLevel3')
-     , (5000, 017 /* ACTIVATION_TALK_STRING */, 'A blast of cold wind chills you for %i damage!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5000, 001 /* SETUP_DID */, 33556024)
-     , (5000, 003 /* SOUND_TABLE_DID */, 536870996)
-     , (5000, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5000', 'airchillylvl3enter', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5000, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (5000, 005 /* ENCUMB_VAL_INT */, 1)
-     , (5000, 008 /* MASS_INT */, 1)
-     , (5000, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5000, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5000, 019 /* VALUE_INT */, 1)
-     , (5000, 044 /* DAMAGE_INT */, 8)
-     , (5000, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (5000, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (5000, 119 /* ACTIVE_INT */, 1);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5000, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (5000, 039 /* DEFAULT_SCALE_FLOAT */, 1.5)
-     , (5000, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 0)
-     , (5000, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0);
+VALUES (5000,   1,        128) /* ItemType - Misc */
+     , (5000,   5,          1) /* EncumbranceVal */
+     , (5000,   8,          1) /* Mass */
+     , (5000,   9,          0) /* ValidLocations - None */
+     , (5000,  16,          1) /* ItemUseable - No */
+     , (5000,  19,          1) /* Value */
+     , (5000,  44,          8) /* Damage */
+     , (5000,  45,          8) /* DamageType - Cold */
+     , (5000,  93,         12) /* PhysicsState */
+     , (5000, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5000, 001 /* STUCK_BOOL */, True)
-     , (5000, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (5000, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5000, 013 /* ETHEREAL_BOOL */, True)
-     , (5000, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (5000, 018 /* VISIBILITY_BOOL */, True)
-     , (5000, 024 /* UI_HIDDEN_BOOL */, True)
-     , (5000, 055 /* IS_HOT_BOOL */, True);
+VALUES (5000,   1, True ) /* Stuck */
+     , (5000,  11, False) /* IgnoreCollisions */
+     , (5000,  12, True ) /* ReportCollisions */
+     , (5000,  13, True ) /* Ethereal */
+     , (5000,  14, False) /* GravityStatus */
+     , (5000,  18, True ) /* Visibility */
+     , (5000,  24, True ) /* UiHidden */
+     , (5000,  55, True ) /* IsHot */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5000,  22,     0.5) /* DamageVariance */
+     , (5000,  39,     1.5) /* DefaultScale */
+     , (5000, 105,       0) /* HotspotCycleTime */
+     , (5000, 106,       0) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5000,   1, 'ChillyAirLevel3') /* Name */
+     , (5000,  17, 'A blast of cold wind chills you for %i damage!') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5000,   1,   33556024) /* Setup */
+     , (5000,   3,  536870996) /* SoundTable */
+     , (5000,   8,  100667465) /* Icon */;

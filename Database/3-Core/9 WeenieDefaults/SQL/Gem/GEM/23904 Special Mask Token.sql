@@ -1,41 +1,37 @@
-/* Weenie - Special Mask Token (23904) */
-DELETE FROM weenie WHERE class_Id = 23904;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23904, 'masktokennew', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23904, 001 /* NAME_STRING */, 'Special Mask Token')
-     , (23904, 016 /* LONG_DESC_STRING */, 'A token with a Mask head on it.  This was given to you in recognition of your patience. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23904, 001 /* SETUP_DID */, 33557280)
-     , (23904, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23904, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23904, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (23904, 008 /* ICON_DID */, 100674077)
-     , (23904, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23904', 'masktokennew', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23904, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (23904, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (23904, 005 /* ENCUMB_VAL_INT */, 5)
-     , (23904, 008 /* MASS_INT */, 5)
-     , (23904, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23904, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (23904, 012 /* STACK_SIZE_INT */, 1)
-     , (23904, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (23904, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (23904, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (23904, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23904, 019 /* VALUE_INT */, 500)
-     , (23904, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23904, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23904, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (23904, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23904, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (23904,   1,       2048) /* ItemType - Gem */
+     , (23904,   3,         61) /* PaletteTemplate - White */
+     , (23904,   5,          5) /* EncumbranceVal */
+     , (23904,   8,          5) /* Mass */
+     , (23904,   9,          0) /* ValidLocations - None */
+     , (23904,  11,          1) /* MaxStackSize */
+     , (23904,  12,          1) /* StackSize */
+     , (23904,  13,          5) /* StackUnitEncumbrance */
+     , (23904,  14,          5) /* StackUnitMass */
+     , (23904,  15,        500) /* StackUnitValue */
+     , (23904,  16,          1) /* ItemUseable - No */
+     , (23904,  19,        500) /* Value */
+     , (23904,  33,          1) /* Bonded - Bonded */
+     , (23904,  93,       1044) /* PhysicsState */
+     , (23904, 114,          1) /* Attuned - Attuned */
+     , (23904, 150,        103) /* HookPlacement - Hook */
+     , (23904, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23904, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23904, 099 /* IVORYABLE_BOOL */, True);
+VALUES (23904,  22, True ) /* Inscribable */
+     , (23904,  99, True ) /* Ivoryable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23904,   1, 'Special Mask Token') /* Name */
+     , (23904,  16, 'A token with a Mask head on it.  This was given to you in recognition of your patience. ') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23904,   1,   33557280) /* Setup */
+     , (23904,   3,  536870932) /* SoundTable */
+     , (23904,   6,   67111919) /* PaletteBase */
+     , (23904,   7,  268435723) /* ClothingBase */
+     , (23904,   8,  100674077) /* Icon */
+     , (23904,  22,  872415275) /* PhysicsEffectTable */;

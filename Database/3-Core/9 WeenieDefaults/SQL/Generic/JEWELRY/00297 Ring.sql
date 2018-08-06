@@ -1,35 +1,31 @@
-/* Weenie - Ring (297) */
-DELETE FROM weenie WHERE class_Id = 297;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (297, 'ring', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (297, 001 /* NAME_STRING */, 'Ring');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (297, 001 /* SETUP_DID */, 33554691)
-     , (297, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (297, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (297, 007 /* CLOTHINGBASE_DID */, 268435753)
-     , (297, 008 /* ICON_DID */, 100668662)
-     , (297, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (297, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('297', 'ring', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (297, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (297, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (297, 005 /* ENCUMB_VAL_INT */, 15)
-     , (297, 008 /* MASS_INT */, 10)
-     , (297, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (297, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (297, 019 /* VALUE_INT */, 50)
-     , (297, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (297, 169 /* TSYS_MUTATION_DATA_INT */, 33685761);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (297, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (297,   1,          8) /* ItemType - Jewelry */
+     , (297,   3,         21) /* PaletteTemplate - Gold */
+     , (297,   5,         15) /* EncumbranceVal */
+     , (297,   8,         10) /* Mass */
+     , (297,   9,     786432) /* ValidLocations - FingerWear */
+     , (297,  16,          1) /* ItemUseable - No */
+     , (297,  19,         50) /* Value */
+     , (297,  93,       1044) /* PhysicsState */
+     , (297, 169,   33685761) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (297, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (297,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (297,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (297,   1, 'Ring') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (297,   1,   33554691) /* Setup */
+     , (297,   3,  536870932) /* SoundTable */
+     , (297,   6,   67111919) /* PaletteBase */
+     , (297,   7,  268435753) /* ClothingBase */
+     , (297,   8,  100668662) /* Icon */
+     , (297,  22,  872415275) /* PhysicsEffectTable */
+     , (297,  36,  234881046) /* MutateFilter */;

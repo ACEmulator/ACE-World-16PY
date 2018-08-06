@@ -1,28 +1,24 @@
-/* Weenie - Lost Wish Cottages (14720) */
-DELETE FROM weenie WHERE class_Id = 14720;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14720, 'lostwishcottagessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14720, 001 /* NAME_STRING */, 'Lost Wish Cottages')
-     , (14720, 016 /* LONG_DESC_STRING */, 'Welcome to Lost Wish Cottages');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14720, 001 /* SETUP_DID */, 33557463)
-     , (14720, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14720', 'lostwishcottagessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14720, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14720, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14720, 008 /* MASS_INT */, 1800)
-     , (14720, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14720, 019 /* VALUE_INT */, 125)
-     , (14720, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14720,   1,        128) /* ItemType - Misc */
+     , (14720,   5,       9000) /* EncumbranceVal */
+     , (14720,   8,       1800) /* Mass */
+     , (14720,  16,          1) /* ItemUseable - No */
+     , (14720,  19,        125) /* Value */
+     , (14720,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14720, 001 /* STUCK_BOOL */, True)
-     , (14720, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14720, 013 /* ETHEREAL_BOOL */, False)
-     , (14720, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14720,   1, True ) /* Stuck */
+     , (14720,  12, True ) /* ReportCollisions */
+     , (14720,  13, False) /* Ethereal */
+     , (14720,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14720,   1, 'Lost Wish Cottages') /* Name */
+     , (14720,  16, 'Welcome to Lost Wish Cottages') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14720,   1,   33557463) /* Setup */
+     , (14720,   8,  100668115) /* Icon */;

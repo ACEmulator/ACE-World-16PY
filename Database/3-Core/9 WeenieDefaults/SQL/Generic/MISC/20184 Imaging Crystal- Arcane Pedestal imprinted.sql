@@ -1,41 +1,37 @@
-/* Weenie - Imaging Crystal- Arcane Pedestal imprinted (20184) */
-DELETE FROM weenie WHERE class_Id = 20184;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20184, 'imagingcrystalarcanepedestal', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20184, 001 /* NAME_STRING */, 'Imaging Crystal- Arcane Pedestal imprinted')
-     , (20184, 014 /* USE_STRING */, 'Bring this item to Slithe Tradittor')
-     , (20184, 015 /* SHORT_DESC_STRING */, 'An Imaging Crystal containing the image of the Arcane Pedestal.')
-     , (20184, 016 /* LONG_DESC_STRING */, 'An Imaging Crystal imprinted with the image and complete diagram of the Arcane Pedestal.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20184, 001 /* SETUP_DID */, 33555194)
-     , (20184, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20184, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (20184, 007 /* CLOTHINGBASE_DID */, 268436400)
-     , (20184, 008 /* ICON_DID */, 100673069)
-     , (20184, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20184', 'imagingcrystalarcanepedestal', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20184, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (20184, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (20184, 005 /* ENCUMB_VAL_INT */, 200)
-     , (20184, 008 /* MASS_INT */, 200)
-     , (20184, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20184, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20184, 019 /* VALUE_INT */, 0)
-     , (20184, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (20184, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20184, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20184, 012 /* SHADE_FLOAT */, 1)
-     , (20184, 039 /* DEFAULT_SCALE_FLOAT */, 1.2);
+VALUES (20184,   1,        128) /* ItemType - Misc */
+     , (20184,   3,         13) /* PaletteTemplate - Purple */
+     , (20184,   5,        200) /* EncumbranceVal */
+     , (20184,   8,        200) /* Mass */
+     , (20184,   9,          0) /* ValidLocations - None */
+     , (20184,  16,          1) /* ItemUseable - No */
+     , (20184,  19,          0) /* Value */
+     , (20184,  33,          1) /* Bonded - Bonded */
+     , (20184,  93,       1044) /* PhysicsState */
+     , (20184, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20184, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20184, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (20184, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (20184,  22, True ) /* Inscribable */
+     , (20184,  23, True ) /* DestroyOnSell */
+     , (20184,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20184,  12,       1) /* Shade */
+     , (20184,  39,     1.2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20184,   1, 'Imaging Crystal- Arcane Pedestal imprinted') /* Name */
+     , (20184,  14, 'Bring this item to Slithe Tradittor') /* Use */
+     , (20184,  15, 'An Imaging Crystal containing the image of the Arcane Pedestal.') /* ShortDesc */
+     , (20184,  16, 'An Imaging Crystal imprinted with the image and complete diagram of the Arcane Pedestal.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20184,   1,   33555194) /* Setup */
+     , (20184,   3,  536870932) /* SoundTable */
+     , (20184,   6,   67111092) /* PaletteBase */
+     , (20184,   7,  268436400) /* ClothingBase */
+     , (20184,   8,  100673069) /* Icon */
+     , (20184,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,41 +1,37 @@
-/* Weenie - Hieroglyph of Crossbow Mastery (30129) */
-DELETE FROM weenie WHERE class_Id = 30129;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30129, 'gemrareeternalcrossbow', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30129, 001 /* NAME_STRING */, 'Hieroglyph of Crossbow Mastery')
-     , (30129, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30129, 001 /* SETUP_DID */, 33554809)
-     , (30129, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30129, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30129, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (30129, 008 /* ICON_DID */, 100674739)
-     , (30129, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30129, 028 /* SPELL_DID */, 2219 /* CrossbowMasterySelf7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30129', 'gemrareeternalcrossbow', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30129, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (30129, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (30129, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30129, 008 /* MASS_INT */, 5)
-     , (30129, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30129, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30129, 012 /* STACK_SIZE_INT */, 1)
-     , (30129, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30129, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30129, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30129, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30129, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (30129, 019 /* VALUE_INT */, 0)
-     , (30129, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30129, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30129, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30129, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30129,   1,       2048) /* ItemType - Gem */
+     , (30129,   3,         39) /* PaletteTemplate - Black */
+     , (30129,   5,          5) /* EncumbranceVal */
+     , (30129,   8,          5) /* Mass */
+     , (30129,   9,          0) /* ValidLocations - None */
+     , (30129,  11,          1) /* MaxStackSize */
+     , (30129,  12,          1) /* StackSize */
+     , (30129,  13,          5) /* StackUnitEncumbrance */
+     , (30129,  14,          5) /* StackUnitMass */
+     , (30129,  15,          0) /* StackUnitValue */
+     , (30129,  16,          8) /* ItemUseable - Contained */
+     , (30129,  18,          1) /* UiEffects - Magical */
+     , (30129,  19,          0) /* Value */
+     , (30129,  93,       1044) /* PhysicsState */
+     , (30129,  94,         16) /* TargetType - Creature */
+     , (30129, 150,        103) /* HookPlacement - Hook */
+     , (30129, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30129, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30129,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30129,   1, 'Hieroglyph of Crossbow Mastery') /* Name */
+     , (30129,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30129,   1,   33554809) /* Setup */
+     , (30129,   3,  536870932) /* SoundTable */
+     , (30129,   6,   67111919) /* PaletteBase */
+     , (30129,   7,  268435723) /* ClothingBase */
+     , (30129,   8,  100674739) /* Icon */
+     , (30129,  22,  872415275) /* PhysicsEffectTable */
+     , (30129,  28,       2219) /* Spell - Missile Weapon Mastery Self VII */;

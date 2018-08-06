@@ -1,39 +1,36 @@
-/* Weenie - Combat and Spellcasting Guide (29327) */
-DELETE FROM weenie WHERE class_Id = 29327;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29327, 'booksalvagingacademy', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29327, 001 /* NAME_STRING */, 'Combat and Spellcasting Guide')
-     , (29327, 015 /* SHORT_DESC_STRING */, 'A guide to Combat and Spellcasting. ')
-     , (29327, 016 /* LONG_DESC_STRING */, 'A guide to Combat and Spellcasting. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29327, 001 /* SETUP_DID */, 33554771)
-     , (29327, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29327, 008 /* ICON_DID */, 100668117)
-     , (29327, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29327', 'booksalvagingacademy', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29327, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (29327, 005 /* ENCUMB_VAL_INT */, 15)
-     , (29327, 008 /* MASS_INT */, 5)
-     , (29327, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29327, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (29327, 019 /* VALUE_INT */, 0)
-     , (29327, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29327, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (29327, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (29327,   1,       8192) /* ItemType - Writable */
+     , (29327,   5,         15) /* EncumbranceVal */
+     , (29327,   8,          5) /* Mass */
+     , (29327,   9,          0) /* ValidLocations - None */
+     , (29327,  16,          8) /* ItemUseable - Contained */
+     , (29327,  19,          0) /* Value */
+     , (29327,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29327, 022 /* INSCRIBABLE_BOOL */, False)
-     , (29327, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29327,  22, False) /* Inscribable */
+     , (29327,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29327,  39,    1.22) /* DefaultScale */
+     , (29327,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29327,   1, 'Combat and Spellcasting Guide') /* Name */
+     , (29327,  15, 'A guide to Combat and Spellcasting. ') /* ShortDesc */
+     , (29327,  16, 'A guide to Combat and Spellcasting. ') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29327,   1,   33554771) /* Setup */
+     , (29327,   3,  536870932) /* SoundTable */
+     , (29327,   8,  100668117) /* Icon */
+     , (29327,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (29327, 5, 1000) /* Book Data */;
+VALUES (29327, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (29327, 0, 4294967295, 'Training Master', 'prewritten', False, 'COMBAT
@@ -84,4 +81,3 @@ Casting spells requires components--scarabs, herbs, and other objects. If these 
 
 Now those are the basics of combat and spellcasting -- go out and give it a try!
 ');
-

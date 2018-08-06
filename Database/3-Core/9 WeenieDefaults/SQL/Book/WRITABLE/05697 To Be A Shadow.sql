@@ -1,37 +1,34 @@
-/* Weenie - To Be A Shadow (5697) */
-DELETE FROM weenie WHERE class_Id = 5697;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5697, 'lecternshadow', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5697, 001 /* NAME_STRING */, 'To Be A Shadow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5697, 001 /* SETUP_DID */, 33556013)
-     , (5697, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5697, 008 /* ICON_DID */, 100668236)
-     , (5697, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5697', 'lecternshadow', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5697, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5697, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5697, 008 /* MASS_INT */, 5)
-     , (5697, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5697, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5697, 019 /* VALUE_INT */, 10)
-     , (5697, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5697, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5697,   1,       8192) /* ItemType - Writable */
+     , (5697,   5,         25) /* EncumbranceVal */
+     , (5697,   8,          5) /* Mass */
+     , (5697,   9,          0) /* ValidLocations - None */
+     , (5697,  16,          8) /* ItemUseable - Contained */
+     , (5697,  19,         10) /* Value */
+     , (5697,  93,       1040) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5697, 001 /* STUCK_BOOL */, True)
-     , (5697, 013 /* ETHEREAL_BOOL */, False)
-     , (5697, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5697,   1, True ) /* Stuck */
+     , (5697,  13, False) /* Ethereal */
+     , (5697,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5697,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5697,   1, 'To Be A Shadow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5697,   1,   33556013) /* Setup */
+     , (5697,   3,  536870932) /* SoundTable */
+     , (5697,   8,  100668236) /* Icon */
+     , (5697,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5697, 64, 1000) /* Book Data */;
+VALUES (5697, 64, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5697, 0, 4294967295, 'To Be A Shadow', 'prewritten', False, '
@@ -210,4 +207,3 @@ Amul thought on this, but not for long. If he could not forgive his friend''s to
 
 And do you know? I can still smell the almond blossoms.
 ');
-

@@ -1,38 +1,34 @@
-/* Weenie - Stamina Philtre (27325) */
-DELETE FROM weenie WHERE class_Id = 27325;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27325, 'staminaphiltre', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27325, 001 /* NAME_STRING */, 'Stamina Philtre')
-     , (27325, 014 /* USE_STRING */, 'Use this item to drink it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27325, 001 /* SETUP_DID */, 33554603)
-     , (27325, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27325, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27325, 007 /* CLOTHINGBASE_DID */, 268435816)
-     , (27325, 008 /* ICON_DID */, 100676320)
-     , (27325, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27325, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27325', 'staminaphiltre', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27325, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (27325, 003 /* PALETTE_TEMPLATE_INT */, 17 /* YELLOW_PALETTE_TEMPLATE */)
-     , (27325, 005 /* ENCUMB_VAL_INT */, 200)
-     , (27325, 008 /* MASS_INT */, 45)
-     , (27325, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27325, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (27325, 012 /* STACK_SIZE_INT */, 1)
-     , (27325, 013 /* STACK_UNIT_ENCUMB_INT */, 200)
-     , (27325, 014 /* STACK_UNIT_MASS_INT */, 45)
-     , (27325, 015 /* STACK_UNIT_VALUE_INT */, 1000)
-     , (27325, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (27325, 019 /* VALUE_INT */, 1000)
-     , (27325, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (27325, 090 /* BOOST_VALUE_INT */, 125)
-     , (27325, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27325, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27325, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (27325,   1,        128) /* ItemType - Misc */
+     , (27325,   3,         17) /* PaletteTemplate - Yellow */
+     , (27325,   5,        200) /* EncumbranceVal */
+     , (27325,   8,         45) /* Mass */
+     , (27325,   9,          0) /* ValidLocations - None */
+     , (27325,  11,        100) /* MaxStackSize */
+     , (27325,  12,          1) /* StackSize */
+     , (27325,  13,        200) /* StackUnitEncumbrance */
+     , (27325,  14,         45) /* StackUnitMass */
+     , (27325,  15,       1000) /* StackUnitValue */
+     , (27325,  16,          8) /* ItemUseable - Contained */
+     , (27325,  19,       1000) /* Value */
+     , (27325,  89,          4) /* BoosterEnum - Stamina */
+     , (27325,  90,        125) /* BoostValue */
+     , (27325,  93,       1044) /* PhysicsState */
+     , (27325, 150,        103) /* HookPlacement - Hook */
+     , (27325, 151,         11) /* HookType */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27325,   1, 'Stamina Philtre') /* Name */
+     , (27325,  14, 'Use this item to drink it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27325,   1,   33554603) /* Setup */
+     , (27325,   3,  536870932) /* SoundTable */
+     , (27325,   6,   67111919) /* PaletteBase */
+     , (27325,   7,  268435816) /* ClothingBase */
+     , (27325,   8,  100676320) /* Icon */
+     , (27325,  22,  872415275) /* PhysicsEffectTable */
+     , (27325,  23,         65) /* UseSound - Drink1 */;

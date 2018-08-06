@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Gravity Well (20593) */
-DELETE FROM weenie WHERE class_Id = 20593;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20593, 'scrollvulnerabilityother7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20593, 001 /* NAME_STRING */, 'Scroll of Gravity Well')
-     , (20593, 015 /* SHORT_DESC_STRING */, 'When learned, this spell decrease the target''s Melee Defense skill by 40 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20593, 001 /* SETUP_DID */, 33554826)
-     , (20593, 008 /* ICON_DID */, 100676467)
-     , (20593, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20593, 028 /* SPELL_DID */, 2318 /* VulnerabilityOther7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20593', 'scrollvulnerabilityother7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20593, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20593, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20593, 008 /* MASS_INT */, 90)
-     , (20593, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20593, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20593, 019 /* VALUE_INT */, 2000)
-     , (20593, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20593, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20593,   1,       8192) /* ItemType - Writable */
+     , (20593,   5,         30) /* EncumbranceVal */
+     , (20593,   8,         90) /* Mass */
+     , (20593,   9,          0) /* ValidLocations - None */
+     , (20593,  16,          8) /* ItemUseable - Contained */
+     , (20593,  19,       2000) /* Value */
+     , (20593,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20593, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20593, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20593,  22, True ) /* Inscribable */
+     , (20593,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20593,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20593,   1, 'Scroll of Gravity Well') /* Name */
+     , (20593,  15, 'When learned, this spell decrease the target''s Melee Defense skill by 40 points.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20593,   1,   33554826) /* Setup */
+     , (20593,   8,  100676467) /* Icon */
+     , (20593,  22,  872415275) /* PhysicsEffectTable */
+     , (20593,  28,       2318) /* Spell - Gravity Well */;

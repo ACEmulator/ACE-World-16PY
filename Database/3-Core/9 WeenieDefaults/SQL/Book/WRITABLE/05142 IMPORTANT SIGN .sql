@@ -1,35 +1,32 @@
-/* Weenie - IMPORTANT SIGN  (5142) */
-DELETE FROM weenie WHERE class_Id = 5142;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5142, 'trainintrosign', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5142, 001 /* NAME_STRING */, 'IMPORTANT SIGN ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5142, 001 /* SETUP_DID */, 33556014)
-     , (5142, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5142', 'trainintrosign', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5142, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5142, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (5142, 008 /* MASS_INT */, 1800)
-     , (5142, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (5142, 019 /* VALUE_INT */, 125)
-     , (5142, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5142, 054 /* USE_RADIUS_FLOAT */, 5);
+VALUES (5142,   1,       8192) /* ItemType - Writable */
+     , (5142,   5,       9000) /* EncumbranceVal */
+     , (5142,   8,       1800) /* Mass */
+     , (5142,  16,         48) /* ItemUseable - ViewedRemote */
+     , (5142,  19,        125) /* Value */
+     , (5142,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5142, 001 /* STUCK_BOOL */, True)
-     , (5142, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5142, 013 /* ETHEREAL_BOOL */, False)
-     , (5142, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5142,   1, True ) /* Stuck */
+     , (5142,  12, True ) /* ReportCollisions */
+     , (5142,  13, False) /* Ethereal */
+     , (5142,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5142,  54,       5) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5142,   1, 'IMPORTANT SIGN ') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5142,   1,   33556014) /* Setup */
+     , (5142,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5142, 1, 1000) /* Book Data */;
+VALUES (5142, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5142, 0, 4294967295, 'IMPORTANT SIGN ', 'prewritten', False, ' 
@@ -37,4 +34,3 @@ Welcome, traveler. Queen Elysa Strathelar''s Guard presents this Training Academ
 
 To enter the Training Academy, use the ARROW KEYS to the left of the numeric keypad, or the keys surrounding the [S] key, to move into the swirling PURPLE PORTAL.
 ');
-

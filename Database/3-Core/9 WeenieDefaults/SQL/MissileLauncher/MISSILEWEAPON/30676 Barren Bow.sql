@@ -1,61 +1,57 @@
-/* Weenie - Barren Bow (30676) */
-DELETE FROM weenie WHERE class_Id = 30676;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30676, 'bowbarren', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30676, 001 /* NAME_STRING */, 'Barren Bow')
-     , (30676, 016 /* LONG_DESC_STRING */, 'This bow appears to be made from the withered flesh of some sort of creature.')
-     , (30676, 033 /* QUEST_STRING */, 'WitheredAtollBow0105');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30676, 001 /* SETUP_DID */, 33559216)
-     , (30676, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30676, 008 /* ICON_DID */, 100677401)
-     , (30676, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30676', 'bowbarren', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30676, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (30676, 005 /* ENCUMB_VAL_INT */, 600)
-     , (30676, 008 /* MASS_INT */, 140)
-     , (30676, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (30676, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30676, 019 /* VALUE_INT */, 6000)
-     , (30676, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (30676, 044 /* DAMAGE_INT */, 0)
-     , (30676, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
-     , (30676, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
-     , (30676, 049 /* WEAPON_TIME_INT */, 40)
-     , (30676, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (30676, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (30676, 052 /* PARENT_LOCATION_INT */, 2)
-     , (30676, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (30676, 060 /* WEAPON_RANGE_INT */, 175)
-     , (30676, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30676, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (30676, 107 /* ITEM_CUR_MANA_INT */, 3000)
-     , (30676, 108 /* ITEM_MAX_MANA_INT */, 3000)
-     , (30676, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (30676, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30676, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (30676, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (30676, 159 /* WIELD_SKILLTYPE_INT */, 2 /* BOW_SKILL */)
-     , (30676, 160 /* WIELD_DIFFICULTY_INT */, 335);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30676, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (30676, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (30676, 029 /* WEAPON_DEFENSE_FLOAT */, 1.11)
-     , (30676, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (30676, 063 /* DAMAGE_MOD_FLOAT */, 2.55)
-     , (30676, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 7);
+VALUES (30676,   1,        256) /* ItemType - MissileWeapon */
+     , (30676,   5,        600) /* EncumbranceVal */
+     , (30676,   8,        140) /* Mass */
+     , (30676,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (30676,  16,          1) /* ItemUseable - No */
+     , (30676,  19,       6000) /* Value */
+     , (30676,  33,          1) /* Bonded - Bonded */
+     , (30676,  44,          0) /* Damage */
+     , (30676,  46,         16) /* DefaultCombatStyle - Bow */
+     , (30676,  48,          2) /* WeaponSkill - Bow */
+     , (30676,  49,         40) /* WeaponTime */
+     , (30676,  50,          1) /* AmmoType - Arrow */
+     , (30676,  51,          2) /* CombatUse - Missle */
+     , (30676,  52,          2) /* ParentLocation */
+     , (30676,  53,          3) /* PlacementPosition */
+     , (30676,  60,        175) /* WeaponRange */
+     , (30676,  93,       1044) /* PhysicsState */
+     , (30676, 106,        300) /* ItemSpellcraft */
+     , (30676, 107,       3000) /* ItemCurMana */
+     , (30676, 108,       3000) /* ItemMaxMana */
+     , (30676, 114,          1) /* Attuned - Attuned */
+     , (30676, 150,        103) /* HookPlacement - Hook */
+     , (30676, 151,          2) /* HookType - Wall */
+     , (30676, 158,          2) /* WieldRequirements - RawSkill */
+     , (30676, 159,          2) /* WieldSkilltype - Bow */
+     , (30676, 160,        335) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30676, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30676, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (30676, 099 /* IVORYABLE_BOOL */, True);
+VALUES (30676,  22, True ) /* Inscribable */
+     , (30676,  23, True ) /* DestroyOnSell */
+     , (30676,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30676,   5,   -0.05) /* ManaRate */
+     , (30676,  26,    27.3) /* MaximumVelocity */
+     , (30676,  29,    1.11) /* WeaponDefense */
+     , (30676,  62,       1) /* WeaponOffense */
+     , (30676,  63,    2.55) /* DamageMod */
+     , (30676, 136,       7) /* CriticalMultiplier */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30676,   1, 'Barren Bow') /* Name */
+     , (30676,  16, 'This bow appears to be made from the withered flesh of some sort of creature.') /* LongDesc */
+     , (30676,  33, 'WitheredAtollBow0105') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30676,   1,   33559216) /* Setup */
+     , (30676,   3,  536870932) /* SoundTable */
+     , (30676,   8,  100677401) /* Icon */
+     , (30676,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30676, 1616, 2) /* BloodDrinker6_SpellID */;
-
+VALUES (30676,  1616,      2)  /* Aura of Blood Drinker Self VI */;

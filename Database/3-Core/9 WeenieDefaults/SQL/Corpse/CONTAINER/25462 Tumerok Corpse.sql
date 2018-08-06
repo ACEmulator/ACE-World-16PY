@@ -1,37 +1,33 @@
-/* Weenie - Tumerok Corpse (25462) */
-DELETE FROM weenie WHERE class_Id = 25462;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25462, 'corpsetumerok1', 14 /* Corpse_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25462, 001 /* NAME_STRING */, 'Tumerok Corpse');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25462, 001 /* SETUP_DID */, 33558431)
-     , (25462, 006 /* PALETTE_BASE_DID */, 67109314)
-     , (25462, 007 /* CLOTHINGBASE_DID */, 268436631)
-     , (25462, 008 /* ICON_DID */, 100674806);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25462', 'corpsetumerok1', 14) /* Corpse */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25462, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (25462, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (25462, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (25462, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (25462, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (25462, 008 /* MASS_INT */, 120)
-     , (25462, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (25462, 019 /* VALUE_INT */, 0)
-     , (25462, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25462, 096 /* ENCUMB_CAPACITY_INT */, 4000)
-     , (25462, 156 /* PICKUP_EMOTE_OFFSET_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25462, 012 /* SHADE_FLOAT */, 0.5)
-     , (25462, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (25462,   1,        512) /* ItemType - Container */
+     , (25462,   3,          8) /* PaletteTemplate - Green */
+     , (25462,   5,       6000) /* EncumbranceVal */
+     , (25462,   6,         -1) /* ItemsCapacity */
+     , (25462,   7,         -1) /* ContainersCapacity */
+     , (25462,   8,        120) /* Mass */
+     , (25462,  16,         48) /* ItemUseable - ViewedRemote */
+     , (25462,  19,          0) /* Value */
+     , (25462,  93,       1044) /* PhysicsState */
+     , (25462,  96,       4000) /* EncumbranceCapacity */
+     , (25462, 156,          0) /* PickupEmoteOffset */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25462, 001 /* STUCK_BOOL */, True)
-     , (25462, 011 /* IGNORE_COLLISIONS_BOOL */, True)
-     , (25462, 013 /* ETHEREAL_BOOL */, True);
+VALUES (25462,   1, True ) /* Stuck */
+     , (25462,  11, True ) /* IgnoreCollisions */
+     , (25462,  13, True ) /* Ethereal */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25462,  12,     0.5) /* Shade */
+     , (25462,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25462,   1, 'Tumerok Corpse') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25462,   1,   33558431) /* Setup */
+     , (25462,   6,   67109314) /* PaletteBase */
+     , (25462,   7,  268436631) /* ClothingBase */
+     , (25462,   8,  100674806) /* Icon */;

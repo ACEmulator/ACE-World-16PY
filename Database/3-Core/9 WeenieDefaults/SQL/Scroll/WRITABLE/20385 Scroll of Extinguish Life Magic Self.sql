@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Extinguish Life Magic Self (20385) */
-DELETE FROM weenie WHERE class_Id = 20385;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20385, 'scrolldispellifegoodself2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20385, 001 /* NAME_STRING */, 'Scroll of Extinguish Life Magic Self')
-     , (20385, 015 /* SHORT_DESC_STRING */, 'When learned, this spell dispels 1-3 positive Life Magic enchantments of level 2 or lower from the caster.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20385, 001 /* SETUP_DID */, 33554826)
-     , (20385, 008 /* ICON_DID */, 100676935)
-     , (20385, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20385, 028 /* SPELL_DID */, 1965 /* DispelLifeGoodSelf2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20385', 'scrolldispellifegoodself2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20385, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20385, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20385, 008 /* MASS_INT */, 90)
-     , (20385, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20385, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20385, 019 /* VALUE_INT */, 5)
-     , (20385, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20385, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20385,   1,       8192) /* ItemType - Writable */
+     , (20385,   5,         30) /* EncumbranceVal */
+     , (20385,   8,         90) /* Mass */
+     , (20385,   9,          0) /* ValidLocations - None */
+     , (20385,  16,          8) /* ItemUseable - Contained */
+     , (20385,  19,          5) /* Value */
+     , (20385,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20385, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20385, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20385,  22, True ) /* Inscribable */
+     , (20385,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20385,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20385,   1, 'Scroll of Extinguish Life Magic Self') /* Name */
+     , (20385,  15, 'When learned, this spell dispels 1-3 positive Life Magic enchantments of level 2 or lower from the caster.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20385,   1,   33554826) /* Setup */
+     , (20385,   8,  100676935) /* Icon */
+     , (20385,  22,  872415275) /* PhysicsEffectTable */
+     , (20385,  28,       1965) /* Spell - Extinguish Life Magic Self */;

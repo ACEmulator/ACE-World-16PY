@@ -1,48 +1,44 @@
-/* Weenie - Greater Koujia Shadow Sleeves (7750) */
-DELETE FROM weenie WHERE class_Id = 7750;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7750, 'sleeveskoujiashadowgreaternew', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7750, 001 /* NAME_STRING */, 'Greater Koujia Shadow Sleeves');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7750, 001 /* SETUP_DID */, 33554655)
-     , (7750, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7750, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (7750, 007 /* CLOTHINGBASE_DID */, 268435851)
-     , (7750, 008 /* ICON_DID */, 100670467)
-     , (7750, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7750', 'sleeveskoujiashadowgreaternew', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7750, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (7750, 003 /* PALETTE_TEMPLATE_INT */, 18 /* YELLOWBROWN_PALETTE_TEMPLATE */)
-     , (7750, 004 /* CLOTHING_PRIORITY_INT */, 12288 /* OuterwearUpperArms, OuterwearLowerArms */)
-     , (7750, 005 /* ENCUMB_VAL_INT */, 825)
-     , (7750, 008 /* MASS_INT */, 550)
-     , (7750, 009 /* LOCATIONS_INT */, 6144 /* UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (7750, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7750, 019 /* VALUE_INT */, 1620)
-     , (7750, 027 /* ARMOR_TYPE_INT */, 2)
-     , (7750, 028 /* ARMOR_LEVEL_INT */, 155)
-     , (7750, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7750, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7750, 012 /* SHADE_FLOAT */, 0.9)
-     , (7750, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (7750, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (7750, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (7750, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.1)
-     , (7750, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.1)
-     , (7750, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (7750, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.1)
-     , (7750, 110 /* BULK_MOD_FLOAT */, 1)
-     , (7750, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (7750,   1,          2) /* ItemType - Armor */
+     , (7750,   3,         18) /* PaletteTemplate - YellowBrown */
+     , (7750,   4,      12288) /* ClothingPriority */
+     , (7750,   5,        825) /* EncumbranceVal */
+     , (7750,   8,        550) /* Mass */
+     , (7750,   9,       6144) /* ValidLocations */
+     , (7750,  16,          1) /* ItemUseable - No */
+     , (7750,  19,       1620) /* Value */
+     , (7750,  27,          2) /* ArmorType */
+     , (7750,  28,        155) /* ArmorLevel */
+     , (7750,  33,          1) /* Bonded - Bonded */
+     , (7750,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7750, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7750, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7750, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7750,  22, True ) /* Inscribable */
+     , (7750,  23, True ) /* DestroyOnSell */
+     , (7750,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7750,  12,     0.9) /* Shade */
+     , (7750,  13,       1) /* ArmorModVsSlash */
+     , (7750,  14,     0.8) /* ArmorModVsPierce */
+     , (7750,  15,       1) /* ArmorModVsBludgeon */
+     , (7750,  16,     0.1) /* ArmorModVsCold */
+     , (7750,  17,     0.1) /* ArmorModVsFire */
+     , (7750,  18,     0.1) /* ArmorModVsAcid */
+     , (7750,  19,     0.1) /* ArmorModVsElectric */
+     , (7750, 110,       1) /* BulkMod */
+     , (7750, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7750,   1, 'Greater Koujia Shadow Sleeves') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7750,   1,   33554655) /* Setup */
+     , (7750,   3,  536870932) /* SoundTable */
+     , (7750,   6,   67108990) /* PaletteBase */
+     , (7750,   7,  268435851) /* ClothingBase */
+     , (7750,   8,  100670467) /* Icon */
+     , (7750,  22,  872415275) /* PhysicsEffectTable */;

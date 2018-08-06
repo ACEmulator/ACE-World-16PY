@@ -1,36 +1,33 @@
-/* Weenie - Letter to Asheron (24124) */
-DELETE FROM weenie WHERE class_Id = 24124;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24124, 'noteharlunedefect', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24124, 001 /* NAME_STRING */, 'Letter to Asheron');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24124, 001 /* SETUP_DID */, 33557474)
-     , (24124, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24124, 008 /* ICON_DID */, 100668176)
-     , (24124, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24124', 'noteharlunedefect', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24124, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (24124, 005 /* ENCUMB_VAL_INT */, 50)
-     , (24124, 008 /* MASS_INT */, 200)
-     , (24124, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24124, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24124, 019 /* VALUE_INT */, 40)
-     , (24124, 037 /* RESIST_ITEM_APPRAISAL_INT */, 50)
-     , (24124, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24124, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (24124,   1,       8192) /* ItemType - Writable */
+     , (24124,   5,         50) /* EncumbranceVal */
+     , (24124,   8,        200) /* Mass */
+     , (24124,   9,          0) /* ValidLocations - None */
+     , (24124,  16,          8) /* ItemUseable - Contained */
+     , (24124,  19,         40) /* Value */
+     , (24124,  37,         50) /* ResistItemAppraisal */
+     , (24124,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24124, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (24124,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24124,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24124,   1, 'Letter to Asheron') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24124,   1,   33557474) /* Setup */
+     , (24124,   3,  536870932) /* SoundTable */
+     , (24124,   8,  100668176) /* Icon */
+     , (24124,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (24124, 3, 1000) /* Book Data */;
+VALUES (24124, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (24124, 0, 4294967295, 'Harlune, Initiate of Perfect Light', 'prewritten', False, 'Lord Master Asheron,
@@ -49,4 +46,3 @@ Walk in the Light,
 
 Harlune
 ');
-

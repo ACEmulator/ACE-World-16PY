@@ -1,47 +1,43 @@
-/* Weenie - Steel Butterfly (30338) */
-DELETE FROM weenie WHERE class_Id = 30338;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30338, 'uararesteelbutterfly', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30338, 001 /* NAME_STRING */, 'Steel Butterfly')
-     , (30338, 016 /* LONG_DESC_STRING */, 'Describe me here.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30338, 001 /* SETUP_DID */, 33555997)
-     , (30338, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30338, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30338, 007 /* CLOTHINGBASE_DID */, 268435829)
-     , (30338, 008 /* ICON_DID */, 100670016)
-     , (30338, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30338', 'uararesteelbutterfly', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30338, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30338, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (30338, 005 /* ENCUMB_VAL_INT */, 135)
-     , (30338, 008 /* MASS_INT */, 90)
-     , (30338, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30338, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30338, 019 /* VALUE_INT */, 50)
-     , (30338, 044 /* DAMAGE_INT */, 4)
-     , (30338, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (30338, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1 /* Unarmed_CombatStyle */)
-     , (30338, 047 /* ATTACK_TYPE_INT */, 1 /* Punch_AttackType */)
-     , (30338, 048 /* WEAPON_SKILL_INT */, 13 /* UNARMED_COMBAT_SKILL */)
-     , (30338, 049 /* WEAPON_TIME_INT */, 20)
-     , (30338, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30338, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30338, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30338, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30338, 021 /* WEAPON_LENGTH_FLOAT */, 0.52)
-     , (30338, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (30338, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (30338, 039 /* DEFAULT_SCALE_FLOAT */, 0.8)
-     , (30338, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (30338,   1,          1) /* ItemType - MeleeWeapon */
+     , (30338,   3,         20) /* PaletteTemplate - Silver */
+     , (30338,   5,        135) /* EncumbranceVal */
+     , (30338,   8,         90) /* Mass */
+     , (30338,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30338,  16,          1) /* ItemUseable - No */
+     , (30338,  19,         50) /* Value */
+     , (30338,  44,          4) /* Damage */
+     , (30338,  45,          4) /* DamageType - Bludgeon */
+     , (30338,  46,          1) /* DefaultCombatStyle - Unarmed */
+     , (30338,  47,          1) /* AttackType - Punch */
+     , (30338,  48,         13) /* WeaponSkill - UnarmedCombat */
+     , (30338,  49,         20) /* WeaponTime */
+     , (30338,  51,          1) /* CombatUse - Melee */
+     , (30338,  93,       1044) /* PhysicsState */
+     , (30338, 150,        103) /* HookPlacement - Hook */
+     , (30338, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30338, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30338,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30338,  21,    0.52) /* WeaponLength */
+     , (30338,  22,    0.75) /* DamageVariance */
+     , (30338,  29,    1.05) /* WeaponDefense */
+     , (30338,  39,     0.8) /* DefaultScale */
+     , (30338,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30338,   1, 'Steel Butterfly') /* Name */
+     , (30338,  16, 'Describe me here.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30338,   1,   33555997) /* Setup */
+     , (30338,   3,  536870932) /* SoundTable */
+     , (30338,   6,   67111919) /* PaletteBase */
+     , (30338,   7,  268435829) /* ClothingBase */
+     , (30338,   8,  100670016) /* Icon */
+     , (30338,  22,  872415275) /* PhysicsEffectTable */;

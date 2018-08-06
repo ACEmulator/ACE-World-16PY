@@ -1,57 +1,53 @@
-/* Weenie - Slashing Bow (29244) */
-DELETE FROM weenie WHERE class_Id = 29244;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29244, 'bowslashing', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29244, 001 /* NAME_STRING */, 'Slashing Bow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29244, 001 /* SETUP_DID */, 33559028)
-     , (29244, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29244, 006 /* PALETTE_BASE_DID */, 67115373)
-     , (29244, 007 /* CLOTHINGBASE_DID */, 268436873)
-     , (29244, 008 /* ICON_DID */, 100668815)
-     , (29244, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29244, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (29244, 046 /* TSYS_MUTATION_FILTER_DID */, 939524167);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29244', 'bowslashing', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29244, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (29244, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (29244, 005 /* ENCUMB_VAL_INT */, 980)
-     , (29244, 008 /* MASS_INT */, 140)
-     , (29244, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (29244, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29244, 018 /* UI_EFFECTS_INT */, 1024 /* UI_EFFECT_SLASHING */)
-     , (29244, 019 /* VALUE_INT */, 400)
-     , (29244, 044 /* DAMAGE_INT */, 0)
-     , (29244, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (29244, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
-     , (29244, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
-     , (29244, 049 /* WEAPON_TIME_INT */, 45)
-     , (29244, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (29244, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (29244, 052 /* PARENT_LOCATION_INT */, 2)
-     , (29244, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (29244, 060 /* WEAPON_RANGE_INT */, 192)
-     , (29244, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29244, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29244, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (29244, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (29244, 159 /* WIELD_SKILLTYPE_INT */, 2 /* BOW_SKILL */)
-     , (29244, 160 /* WIELD_DIFFICULTY_INT */, 315)
-     , (29244, 169 /* TSYS_MUTATION_DATA_INT */, 101187850)
-     , (29244, 204 /* ELEMENTAL_DAMAGE_BONUS_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29244, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (29244, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (29244, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (29244, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (29244, 063 /* DAMAGE_MOD_FLOAT */, 1.5);
+VALUES (29244,   1,        256) /* ItemType - MissileWeapon */
+     , (29244,   3,         20) /* PaletteTemplate - Silver */
+     , (29244,   5,        980) /* EncumbranceVal */
+     , (29244,   8,        140) /* Mass */
+     , (29244,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (29244,  16,          1) /* ItemUseable - No */
+     , (29244,  18,       1024) /* UiEffects - Slashing */
+     , (29244,  19,        400) /* Value */
+     , (29244,  44,          0) /* Damage */
+     , (29244,  45,          1) /* DamageType - Slash */
+     , (29244,  46,         16) /* DefaultCombatStyle - Bow */
+     , (29244,  48,          2) /* WeaponSkill - Bow */
+     , (29244,  49,         45) /* WeaponTime */
+     , (29244,  50,          1) /* AmmoType - Arrow */
+     , (29244,  51,          2) /* CombatUse - Missle */
+     , (29244,  52,          2) /* ParentLocation */
+     , (29244,  53,          3) /* PlacementPosition */
+     , (29244,  60,        192) /* WeaponRange */
+     , (29244,  93,       1044) /* PhysicsState */
+     , (29244, 150,        103) /* HookPlacement - Hook */
+     , (29244, 151,          2) /* HookType - Wall */
+     , (29244, 158,          2) /* WieldRequirements - RawSkill */
+     , (29244, 159,          2) /* WieldSkilltype - Bow */
+     , (29244, 160,        315) /* WieldDifficulty */
+     , (29244, 169,  101187850) /* TsysMutationData */
+     , (29244, 204,          0) /* ElementalDamageBonus */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29244, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29244,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29244,  26,    27.3) /* MaximumVelocity */
+     , (29244,  29,       1) /* WeaponDefense */
+     , (29244,  39,     1.1) /* DefaultScale */
+     , (29244,  62,       1) /* WeaponOffense */
+     , (29244,  63,     1.5) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29244,   1, 'Slashing Bow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29244,   1,   33559028) /* Setup */
+     , (29244,   3,  536870932) /* SoundTable */
+     , (29244,   6,   67115373) /* PaletteBase */
+     , (29244,   7,  268436873) /* ClothingBase */
+     , (29244,   8,  100668815) /* Icon */
+     , (29244,  22,  872415275) /* PhysicsEffectTable */
+     , (29244,  36,  234881053) /* MutateFilter */
+     , (29244,  46,  939524167) /* TsysMutationFilter */;

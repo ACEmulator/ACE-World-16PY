@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Fealty Other VI (3262) */
-DELETE FROM weenie WHERE class_Id = 3262;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3262, 'scrollfealtyother6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3262, 001 /* NAME_STRING */, 'Scroll of Fealty Other VI')
-     , (3262, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3262, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the target''s Loyalty skill by 150%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3262, 001 /* SETUP_DID */, 33554826)
-     , (3262, 008 /* ICON_DID */, 100676446)
-     , (3262, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3262, 028 /* SPELL_DID */, 957 /* FealtyOther6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3262', 'scrollfealtyother6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3262, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3262, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3262, 008 /* MASS_INT */, 90)
-     , (3262, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3262, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3262, 019 /* VALUE_INT */, 1000)
-     , (3262, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3262, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3262,   1,       8192) /* ItemType - Writable */
+     , (3262,   5,         30) /* EncumbranceVal */
+     , (3262,   8,         90) /* Mass */
+     , (3262,   9,          0) /* ValidLocations - None */
+     , (3262,  16,          8) /* ItemUseable - Contained */
+     , (3262,  19,       1000) /* Value */
+     , (3262,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3262, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3262, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3262,  22, True ) /* Inscribable */
+     , (3262,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3262,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3262,   1, 'Scroll of Fealty Other VI') /* Name */
+     , (3262,  15, 'A magic scroll.') /* ShortDesc */
+     , (3262,  16, 'When learned, this spell increases the target''s Loyalty skill by 150%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3262,   1,   33554826) /* Setup */
+     , (3262,   8,  100676446) /* Icon */
+     , (3262,  22,  872415275) /* PhysicsEffectTable */
+     , (3262,  28,        957) /* Spell - Fealty Other VI */;

@@ -1,37 +1,33 @@
-/* Weenie - Shoushi (30042) */
-DELETE FROM weenie WHERE class_Id = 30042;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30042, 'sanamarsignpost', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30042, 001 /* NAME_STRING */, 'Shoushi')
-     , (30042, 016 /* LONG_DESC_STRING */, 'Welcome to the town of Shoushi.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30042, 001 /* SETUP_DID */, 33556189)
-     , (30042, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30042', 'sanamarsignpost', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30042, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (30042, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (30042, 008 /* MASS_INT */, 1800)
-     , (30042, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30042, 019 /* VALUE_INT */, 125)
-     , (30042, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (30042, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (30042, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30042, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (30042, 043 /* GENERATOR_RADIUS_FLOAT */, 1);
+VALUES (30042,   1,        128) /* ItemType - Misc */
+     , (30042,   5,       9000) /* EncumbranceVal */
+     , (30042,   8,       1800) /* Mass */
+     , (30042,  16,          1) /* ItemUseable - No */
+     , (30042,  19,        125) /* Value */
+     , (30042,  81,          1) /* MaxGeneratedObjects */
+     , (30042,  82,          1) /* InitGeneratedObjects */
+     , (30042,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30042, 001 /* STUCK_BOOL */, True)
-     , (30042, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (30042, 013 /* ETHEREAL_BOOL */, False)
-     , (30042, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (30042,   1, True ) /* Stuck */
+     , (30042,  12, True ) /* ReportCollisions */
+     , (30042,  13, False) /* Ethereal */
+     , (30042,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30042,  41,      60) /* RegenerationInterval */
+     , (30042,  43,       1) /* GeneratorRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30042,   1, 'Shoushi') /* Name */
+     , (30042,  16, 'Welcome to the town of Shoushi.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30042,   1,   33556189) /* Setup */
+     , (30042,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30042, 1, 5776, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Town Crier (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
-
+VALUES (30042, 1, 5776, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

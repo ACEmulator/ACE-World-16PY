@@ -1,61 +1,57 @@
-/* Weenie - Noble Morning Star (28495) */
-DELETE FROM weenie WHERE class_Id = 28495;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28495, 'macenoble', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28495, 001 /* NAME_STRING */, 'Noble Morning Star');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28495, 001 /* SETUP_DID */, 33558866)
-     , (28495, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28495, 008 /* ICON_DID */, 100676980)
-     , (28495, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28495', 'macenoble', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28495, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (28495, 005 /* ENCUMB_VAL_INT */, 900)
-     , (28495, 008 /* MASS_INT */, 750)
-     , (28495, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (28495, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28495, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28495, 019 /* VALUE_INT */, 6000)
-     , (28495, 044 /* DAMAGE_INT */, 38)
-     , (28495, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (28495, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (28495, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (28495, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (28495, 049 /* WEAPON_TIME_INT */, 50)
-     , (28495, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (28495, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28495, 106 /* ITEM_SPELLCRAFT_INT */, 275)
-     , (28495, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (28495, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (28495, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (28495, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28495, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (28495, 158 /* WIELD_REQUIREMENTS_INT */, 1 /* WIELD_REQUIRES_SKILL_WieldRequirement */)
-     , (28495, 159 /* WIELD_SKILLTYPE_INT */, 5 /* MACE_SKILL */)
-     , (28495, 160 /* WIELD_DIFFICULTY_INT */, 325);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28495, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (28495, 021 /* WEAPON_LENGTH_FLOAT */, 0.9)
-     , (28495, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.35)
-     , (28495, 029 /* WEAPON_DEFENSE_FLOAT */, 1.09)
-     , (28495, 062 /* WEAPON_OFFENSE_FLOAT */, 1.09)
-     , (28495, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (28495, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.3);
+VALUES (28495,   1,          1) /* ItemType - MeleeWeapon */
+     , (28495,   5,        900) /* EncumbranceVal */
+     , (28495,   8,        750) /* Mass */
+     , (28495,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (28495,  16,          1) /* ItemUseable - No */
+     , (28495,  18,          1) /* UiEffects - Magical */
+     , (28495,  19,       6000) /* Value */
+     , (28495,  44,         38) /* Damage */
+     , (28495,  45,          4) /* DamageType - Bludgeon */
+     , (28495,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (28495,  47,          4) /* AttackType - Slash */
+     , (28495,  48,          5) /* WeaponSkill - Mace */
+     , (28495,  49,         50) /* WeaponTime */
+     , (28495,  51,          1) /* CombatUse - Melee */
+     , (28495,  93,       1044) /* PhysicsState */
+     , (28495, 106,        275) /* ItemSpellcraft */
+     , (28495, 107,        800) /* ItemCurMana */
+     , (28495, 108,        800) /* ItemMaxMana */
+     , (28495, 109,        150) /* ItemDifficulty */
+     , (28495, 150,        103) /* HookPlacement - Hook */
+     , (28495, 151,          2) /* HookType - Wall */
+     , (28495, 158,          1) /* WieldRequirements - Skill */
+     , (28495, 159,          5) /* WieldSkilltype - Mace */
+     , (28495, 160,        325) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28495, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28495,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28495,   5, -0.0333) /* ManaRate */
+     , (28495,  21,     0.9) /* WeaponLength */
+     , (28495,  22,    0.35) /* DamageVariance */
+     , (28495,  29,    1.09) /* WeaponDefense */
+     , (28495,  62,    1.09) /* WeaponOffense */
+     , (28495, 136,     2.5) /* CriticalMultiplier */
+     , (28495, 147,     0.3) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28495,   1, 'Noble Morning Star') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28495,   1,   33558866) /* Setup */
+     , (28495,   3,  536870932) /* SoundTable */
+     , (28495,   8,  100676980) /* Icon */
+     , (28495,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28495, 1604, 2) /* Defender5_SpellID */
-     , (28495, 1359, 2) /* EnduranceOther5_SpellID */
-     , (28495, 1616, 2) /* BloodDrinker6_SpellID */
-     , (28495, 243, 2) /* InvulnerabilityOther5_SpellID */
-     , (28495, 1625, 2) /* SwiftKiller4_SpellID */
-     , (28495, 1591, 2) /* HeartSeeker5_SpellID */;
-
+VALUES (28495,   243,      2)  /* Invulnerability Other V */
+     , (28495,  1359,      2)  /* Endurance Other V */
+     , (28495,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (28495,  1604,      2)  /* Aura of Defender Self V */
+     , (28495,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (28495,  1625,      2)  /* Aura of Swift Killer Self IV */;

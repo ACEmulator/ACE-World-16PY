@@ -1,46 +1,42 @@
-/* Weenie - Alchemist's Hat (9623) */
-DELETE FROM weenie WHERE class_Id = 9623;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9623, 'hatalchemist', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9623, 001 /* NAME_STRING */, 'Alchemist''s Hat');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9623, 001 /* SETUP_DID */, 33557036)
-     , (9623, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9623, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (9623, 007 /* CLOTHINGBASE_DID */, 268436182)
-     , (9623, 008 /* ICON_DID */, 100668247)
-     , (9623, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9623, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9623', 'hatalchemist', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9623, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (9623, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (9623, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (9623, 005 /* ENCUMB_VAL_INT */, 23)
-     , (9623, 008 /* MASS_INT */, 15)
-     , (9623, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (9623, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9623, 019 /* VALUE_INT */, 5)
-     , (9623, 027 /* ARMOR_TYPE_INT */, 1)
-     , (9623, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (9623, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9623, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9623, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9623, 012 /* SHADE_FLOAT */, 0.66)
-     , (9623, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (9623, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (9623, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (9623, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (9623, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (9623, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (9623, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (9623,   1,          4) /* ItemType - Clothing */
+     , (9623,   3,          2) /* PaletteTemplate - Blue */
+     , (9623,   4,      16384) /* ClothingPriority - Head */
+     , (9623,   5,         23) /* EncumbranceVal */
+     , (9623,   8,         15) /* Mass */
+     , (9623,   9,          1) /* ValidLocations - HeadWear */
+     , (9623,  16,          1) /* ItemUseable - No */
+     , (9623,  19,          5) /* Value */
+     , (9623,  27,          1) /* ArmorType */
+     , (9623,  28,          0) /* ArmorLevel */
+     , (9623,  93,       1044) /* PhysicsState */
+     , (9623, 150,        103) /* HookPlacement - Hook */
+     , (9623, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9623, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (9623,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9623,  12,    0.66) /* Shade */
+     , (9623,  13,     0.8) /* ArmorModVsSlash */
+     , (9623,  14,     0.8) /* ArmorModVsPierce */
+     , (9623,  15,       1) /* ArmorModVsBludgeon */
+     , (9623,  16,     0.2) /* ArmorModVsCold */
+     , (9623,  17,     0.2) /* ArmorModVsFire */
+     , (9623,  18,     0.1) /* ArmorModVsAcid */
+     , (9623,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9623,   1, 'Alchemist''s Hat') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9623,   1,   33557036) /* Setup */
+     , (9623,   3,  536870932) /* SoundTable */
+     , (9623,   6,   67108990) /* PaletteBase */
+     , (9623,   7,  268436182) /* ClothingBase */
+     , (9623,   8,  100668247) /* Icon */
+     , (9623,  22,  872415275) /* PhysicsEffectTable */
+     , (9623,  36,  234881046) /* MutateFilter */;

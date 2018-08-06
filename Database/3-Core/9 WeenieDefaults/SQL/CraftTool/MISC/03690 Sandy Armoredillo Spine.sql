@@ -1,41 +1,37 @@
-/* Weenie - Sandy Armoredillo Spine (3690) */
-DELETE FROM weenie WHERE class_Id = 3690;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3690, 'spinesandy', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3690, 001 /* NAME_STRING */, 'Sandy Armoredillo Spine')
-     , (3690, 014 /* USE_STRING */, 'This spine looks as if it could function as the blade of an axe. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3690, 001 /* SETUP_DID */, 33554817)
-     , (3690, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3690, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3690, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (3690, 008 /* ICON_DID */, 100670071)
-     , (3690, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3690', 'spinesandy', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3690, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (3690, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (3690, 005 /* ENCUMB_VAL_INT */, 220)
-     , (3690, 008 /* MASS_INT */, 110)
-     , (3690, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3690, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (3690, 012 /* STACK_SIZE_INT */, 1)
-     , (3690, 013 /* STACK_UNIT_ENCUMB_INT */, 220)
-     , (3690, 014 /* STACK_UNIT_MASS_INT */, 110)
-     , (3690, 015 /* STACK_UNIT_VALUE_INT */, 60)
-     , (3690, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (3690, 019 /* VALUE_INT */, 60)
-     , (3690, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3690, 094 /* TARGET_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3690, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
+VALUES (3690,   1,        128) /* ItemType - Misc */
+     , (3690,   3,         21) /* PaletteTemplate - Gold */
+     , (3690,   5,        220) /* EncumbranceVal */
+     , (3690,   8,        110) /* Mass */
+     , (3690,   9,          0) /* ValidLocations - None */
+     , (3690,  11,          1) /* MaxStackSize */
+     , (3690,  12,          1) /* StackSize */
+     , (3690,  13,        220) /* StackUnitEncumbrance */
+     , (3690,  14,        110) /* StackUnitMass */
+     , (3690,  15,         60) /* StackUnitValue */
+     , (3690,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (3690,  19,         60) /* Value */
+     , (3690,  93,       1044) /* PhysicsState */
+     , (3690,  94,          1) /* TargetType - MeleeWeapon */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3690, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3690, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3690,  22, True ) /* Inscribable */
+     , (3690,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3690,  39,     0.4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3690,   1, 'Sandy Armoredillo Spine') /* Name */
+     , (3690,  14, 'This spine looks as if it could function as the blade of an axe. ') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3690,   1,   33554817) /* Setup */
+     , (3690,   3,  536870932) /* SoundTable */
+     , (3690,   6,   67111919) /* PaletteBase */
+     , (3690,   7,  268435832) /* ClothingBase */
+     , (3690,   8,  100670071) /* Icon */
+     , (3690,  22,  872415275) /* PhysicsEffectTable */;

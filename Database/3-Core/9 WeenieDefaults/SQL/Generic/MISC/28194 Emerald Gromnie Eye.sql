@@ -1,34 +1,30 @@
-/* Weenie - Emerald Gromnie Eye (28194) */
-DELETE FROM weenie WHERE class_Id = 28194;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28194, 'eyegromnieemerald', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28194, 001 /* NAME_STRING */, 'Emerald Gromnie Eye');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28194, 001 /* SETUP_DID */, 33554817)
-     , (28194, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28194, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (28194, 007 /* CLOTHINGBASE_DID */, 268435720)
-     , (28194, 008 /* ICON_DID */, 100676739)
-     , (28194, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28194', 'eyegromnieemerald', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28194, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28194, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (28194, 005 /* ENCUMB_VAL_INT */, 150)
-     , (28194, 008 /* MASS_INT */, 70)
-     , (28194, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28194, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28194, 019 /* VALUE_INT */, 1500)
-     , (28194, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28194, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
+VALUES (28194,   1,        128) /* ItemType - Misc */
+     , (28194,   3,          8) /* PaletteTemplate - Green */
+     , (28194,   5,        150) /* EncumbranceVal */
+     , (28194,   8,         70) /* Mass */
+     , (28194,   9,          0) /* ValidLocations - None */
+     , (28194,  16,          1) /* ItemUseable - No */
+     , (28194,  19,       1500) /* Value */
+     , (28194,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28194, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28194, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28194,  22, True ) /* Inscribable */
+     , (28194,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28194,  39,     0.4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28194,   1, 'Emerald Gromnie Eye') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28194,   1,   33554817) /* Setup */
+     , (28194,   3,  536870932) /* SoundTable */
+     , (28194,   6,   67111919) /* PaletteBase */
+     , (28194,   7,  268435720) /* ClothingBase */
+     , (28194,   8,  100676739) /* Icon */
+     , (28194,  22,  872415275) /* PhysicsEffectTable */;

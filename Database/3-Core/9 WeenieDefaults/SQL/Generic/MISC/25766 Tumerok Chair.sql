@@ -1,32 +1,28 @@
-/* Weenie - Tumerok Chair (25766) */
-DELETE FROM weenie WHERE class_Id = 25766;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25766, 'logchairtumerok', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25766, 001 /* NAME_STRING */, 'Tumerok Chair')
-     , (25766, 014 /* USE_STRING */, 'This item can be used on floor and yard hooks.')
-     , (25766, 015 /* SHORT_DESC_STRING */, 'A Tumerok chair carved out of wood. It looks very comfortable.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25766, 001 /* SETUP_DID */, 33557179)
-     , (25766, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25766, 008 /* ICON_DID */, 100675566)
-     , (25766, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25766', 'logchairtumerok', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25766, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25766, 005 /* ENCUMB_VAL_INT */, 200)
-     , (25766, 008 /* MASS_INT */, 200)
-     , (25766, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25766, 019 /* VALUE_INT */, 6000)
-     , (25766, 093 /* PHYSICS_STATE_INT */, 1052 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25766, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25766, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (25766,   1,        128) /* ItemType - Misc */
+     , (25766,   5,        200) /* EncumbranceVal */
+     , (25766,   8,        200) /* Mass */
+     , (25766,  16,          1) /* ItemUseable - No */
+     , (25766,  19,       6000) /* Value */
+     , (25766,  93,       1052) /* PhysicsState */
+     , (25766, 150,        103) /* HookPlacement - Hook */
+     , (25766, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25766, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (25766, 013 /* ETHEREAL_BOOL */, True)
-     , (25766, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (25766,  12, True ) /* ReportCollisions */
+     , (25766,  13, True ) /* Ethereal */
+     , (25766,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25766,   1, 'Tumerok Chair') /* Name */
+     , (25766,  14, 'This item can be used on floor and yard hooks.') /* Use */
+     , (25766,  15, 'A Tumerok chair carved out of wood. It looks very comfortable.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25766,   1,   33557179) /* Setup */
+     , (25766,   3,  536870932) /* SoundTable */
+     , (25766,   8,  100675566) /* Icon */
+     , (25766,  22,  872415275) /* PhysicsEffectTable */;

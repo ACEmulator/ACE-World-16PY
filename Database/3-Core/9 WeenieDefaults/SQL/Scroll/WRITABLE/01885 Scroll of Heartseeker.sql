@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Heartseeker (1885) */
-DELETE FROM weenie WHERE class_Id = 1885;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1885, 'scrollheartseeker', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1885, 001 /* NAME_STRING */, 'Scroll of Heartseeker')
-     , (1885, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (1885, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases a weapon''s Attack Skill modifier by 10%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1885, 001 /* SETUP_DID */, 33554826)
-     , (1885, 008 /* ICON_DID */, 100676660)
-     , (1885, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1885, 028 /* SPELL_DID */, 1587 /* HeartSeeker1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1885', 'scrollheartseeker', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1885, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (1885, 005 /* ENCUMB_VAL_INT */, 30)
-     , (1885, 008 /* MASS_INT */, 90)
-     , (1885, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (1885, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (1885, 019 /* VALUE_INT */, 1)
-     , (1885, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1885, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (1885,   1,       8192) /* ItemType - Writable */
+     , (1885,   5,         30) /* EncumbranceVal */
+     , (1885,   8,         90) /* Mass */
+     , (1885,   9,          0) /* ValidLocations - None */
+     , (1885,  16,          8) /* ItemUseable - Contained */
+     , (1885,  19,          1) /* Value */
+     , (1885,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1885, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1885, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1885,  22, True ) /* Inscribable */
+     , (1885,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1885,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1885,   1, 'Scroll of Heartseeker') /* Name */
+     , (1885,  15, 'A magic scroll.') /* ShortDesc */
+     , (1885,  16, 'When learned, this spell increases a weapon''s Attack Skill modifier by 10%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1885,   1,   33554826) /* Setup */
+     , (1885,   8,  100676660) /* Icon */
+     , (1885,  22,  872415275) /* PhysicsEffectTable */
+     , (1885,  28,       1587) /* Spell - Aura of Heart Seeker Self I */;

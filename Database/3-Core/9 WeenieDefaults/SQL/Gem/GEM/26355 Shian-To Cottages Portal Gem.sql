@@ -1,48 +1,44 @@
-/* Weenie - Shian-To Cottages Portal Gem (26355) */
-DELETE FROM weenie WHERE class_Id = 26355;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26355, 'gemportalshiantocottages', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26355, 001 /* NAME_STRING */, 'Shian-To Cottages Portal Gem')
-     , (26355, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26355, 001 /* SETUP_DID */, 33556769)
-     , (26355, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26355, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26355, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26355, 008 /* ICON_DID */, 100675760)
-     , (26355, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26355, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26355, 031 /* LINKED_PORTAL_ONE_DID */, 12545 /* Shian-To Cottages Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26355', 'gemportalshiantocottages', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26355, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26355, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26355, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26355, 008 /* MASS_INT */, 10)
-     , (26355, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26355, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26355, 012 /* STACK_SIZE_INT */, 1)
-     , (26355, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26355, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26355, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26355, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26355, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26355, 019 /* VALUE_INT */, 500)
-     , (26355, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26355, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26355, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26355, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26355, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26355, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26355, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26355, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26355, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26355,   1,       2048) /* ItemType - Gem */
+     , (26355,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26355,   5,         10) /* EncumbranceVal */
+     , (26355,   8,         10) /* Mass */
+     , (26355,   9,          0) /* ValidLocations - None */
+     , (26355,  11,         20) /* MaxStackSize */
+     , (26355,  12,          1) /* StackSize */
+     , (26355,  13,         10) /* StackUnitEncumbrance */
+     , (26355,  14,         10) /* StackUnitMass */
+     , (26355,  15,        500) /* StackUnitValue */
+     , (26355,  16,          8) /* ItemUseable - Contained */
+     , (26355,  18,          1) /* UiEffects - Magical */
+     , (26355,  19,        500) /* Value */
+     , (26355,  93,       3092) /* PhysicsState */
+     , (26355,  94,         16) /* TargetType - Creature */
+     , (26355, 106,        210) /* ItemSpellcraft */
+     , (26355, 107,         50) /* ItemCurMana */
+     , (26355, 108,         50) /* ItemMaxMana */
+     , (26355, 109,          0) /* ItemDifficulty */
+     , (26355, 110,          0) /* ItemAllegianceRankLimit */
+     , (26355, 150,        103) /* HookPlacement - Hook */
+     , (26355, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26355, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26355, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26355,  15, True ) /* LightsStatus */
+     , (26355,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26355,   1, 'Shian-To Cottages Portal Gem') /* Name */
+     , (26355,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26355,   1,   33556769) /* Setup */
+     , (26355,   3,  536870932) /* SoundTable */
+     , (26355,   6,   67111919) /* PaletteBase */
+     , (26355,   7,  268435723) /* ClothingBase */
+     , (26355,   8,  100675760) /* Icon */
+     , (26355,  22,  872415275) /* PhysicsEffectTable */
+     , (26355,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26355,  31,      12545) /* LinkedPortalOne - Shian-To Cottages Portal */;

@@ -1,38 +1,34 @@
-/* Weenie - Concentrated Aqua Incanta (9342) */
-DELETE FROM weenie WHERE class_Id = 9342;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9342, 'concentratedaquaincanta', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9342, 001 /* NAME_STRING */, 'Concentrated Aqua Incanta')
-     , (9342, 014 /* USE_STRING */, 'This item is used in alchemy.')
-     , (9342, 020 /* PLURAL_NAME_STRING */, 'Vials of Concentrated Aqua Incanta');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9342, 001 /* SETUP_DID */, 33555963)
-     , (9342, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9342, 008 /* ICON_DID */, 100671572)
-     , (9342, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9342', 'concentratedaquaincanta', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9342, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (9342, 005 /* ENCUMB_VAL_INT */, 15)
-     , (9342, 008 /* MASS_INT */, 5)
-     , (9342, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9342, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (9342, 012 /* STACK_SIZE_INT */, 1)
-     , (9342, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (9342, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (9342, 015 /* STACK_UNIT_VALUE_INT */, 250)
-     , (9342, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (9342, 019 /* VALUE_INT */, 250)
-     , (9342, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9342, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9342, 094 /* TARGET_TYPE_INT */, 75498624 /* TYPE_MISC, TYPE_USELESS, TYPE_CRAFT_ALCHEMY_BASE, TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (9342, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9342, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (9342,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (9342,   5,         15) /* EncumbranceVal */
+     , (9342,   8,          5) /* Mass */
+     , (9342,   9,          0) /* ValidLocations - None */
+     , (9342,  11,        100) /* MaxStackSize */
+     , (9342,  12,          1) /* StackSize */
+     , (9342,  13,         15) /* StackUnitEncumbrance */
+     , (9342,  14,          5) /* StackUnitMass */
+     , (9342,  15,        250) /* StackUnitValue */
+     , (9342,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (9342,  19,        250) /* Value */
+     , (9342,  33,          1) /* Bonded - Bonded */
+     , (9342,  93,       1044) /* PhysicsState */
+     , (9342,  94,   75498624) /* TargetType */
+     , (9342, 150,        103) /* HookPlacement - Hook */
+     , (9342, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9342, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9342,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9342,   1, 'Concentrated Aqua Incanta') /* Name */
+     , (9342,  14, 'This item is used in alchemy.') /* Use */
+     , (9342,  20, 'Vials of Concentrated Aqua Incanta') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9342,   1,   33555963) /* Setup */
+     , (9342,   3,  536870932) /* SoundTable */
+     , (9342,   8,  100671572) /* Icon */
+     , (9342,  22,  872415275) /* PhysicsEffectTable */;

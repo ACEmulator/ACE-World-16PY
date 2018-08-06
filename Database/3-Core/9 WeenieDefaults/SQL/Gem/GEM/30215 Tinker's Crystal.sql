@@ -1,41 +1,37 @@
-/* Weenie - Tinker's Crystal (30215) */
-DELETE FROM weenie WHERE class_Id = 30215;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30215, 'gemrarevolatileitemtinkering', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30215, 001 /* NAME_STRING */, 'Tinker''s Crystal')
-     , (30215, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30215, 001 /* SETUP_DID */, 33554809)
-     , (30215, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30215, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30215, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (30215, 008 /* ICON_DID */, 100674739)
-     , (30215, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30215, 028 /* SPELL_DID */, 3714 /* ItemExpertiseRare_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30215', 'gemrarevolatileitemtinkering', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30215, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (30215, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (30215, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30215, 008 /* MASS_INT */, 5)
-     , (30215, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30215, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30215, 012 /* STACK_SIZE_INT */, 1)
-     , (30215, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30215, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30215, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30215, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30215, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (30215, 019 /* VALUE_INT */, 0)
-     , (30215, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30215, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30215, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30215, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30215,   1,       2048) /* ItemType - Gem */
+     , (30215,   3,         39) /* PaletteTemplate - Black */
+     , (30215,   5,          5) /* EncumbranceVal */
+     , (30215,   8,          5) /* Mass */
+     , (30215,   9,          0) /* ValidLocations - None */
+     , (30215,  11,          1) /* MaxStackSize */
+     , (30215,  12,          1) /* StackSize */
+     , (30215,  13,          5) /* StackUnitEncumbrance */
+     , (30215,  14,          5) /* StackUnitMass */
+     , (30215,  15,          0) /* StackUnitValue */
+     , (30215,  16,          8) /* ItemUseable - Contained */
+     , (30215,  18,          1) /* UiEffects - Magical */
+     , (30215,  19,          0) /* Value */
+     , (30215,  93,       1044) /* PhysicsState */
+     , (30215,  94,         16) /* TargetType - Creature */
+     , (30215, 150,        103) /* HookPlacement - Hook */
+     , (30215, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30215, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30215,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30215,   1, 'Tinker''s Crystal') /* Name */
+     , (30215,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30215,   1,   33554809) /* Setup */
+     , (30215,   3,  536870932) /* SoundTable */
+     , (30215,   6,   67111919) /* PaletteBase */
+     , (30215,   7,  268435723) /* ClothingBase */
+     , (30215,   8,  100674739) /* Icon */
+     , (30215,  22,  872415275) /* PhysicsEffectTable */
+     , (30215,  28,       3714) /* Spell - Prodigal Item Expertise */;

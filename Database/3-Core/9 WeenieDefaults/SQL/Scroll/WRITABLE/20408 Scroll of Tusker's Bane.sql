@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Tusker's Bane (20408) */
-DELETE FROM weenie WHERE class_Id = 20408;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20408, 'scrollbludgeonbane7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20408, 001 /* NAME_STRING */, 'Scroll of Tusker''s Bane')
-     , (20408, 015 /* SHORT_DESC_STRING */, 'When learned, this spell increases a shield or piece of armor''s resistance to bludgeoning damage by 170%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20408, 001 /* SETUP_DID */, 33554826)
-     , (20408, 008 /* ICON_DID */, 100676650)
-     , (20408, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20408, 028 /* SPELL_DID */, 2098 /* BludgeonBane7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20408', 'scrollbludgeonbane7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20408, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20408, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20408, 008 /* MASS_INT */, 90)
-     , (20408, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20408, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20408, 019 /* VALUE_INT */, 2000)
-     , (20408, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20408, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20408,   1,       8192) /* ItemType - Writable */
+     , (20408,   5,         30) /* EncumbranceVal */
+     , (20408,   8,         90) /* Mass */
+     , (20408,   9,          0) /* ValidLocations - None */
+     , (20408,  16,          8) /* ItemUseable - Contained */
+     , (20408,  19,       2000) /* Value */
+     , (20408,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20408, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20408, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20408,  22, True ) /* Inscribable */
+     , (20408,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20408,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20408,   1, 'Scroll of Tusker''s Bane') /* Name */
+     , (20408,  15, 'When learned, this spell increases a shield or piece of armor''s resistance to bludgeoning damage by 170%.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20408,   1,   33554826) /* Setup */
+     , (20408,   8,  100676650) /* Icon */
+     , (20408,  22,  872415275) /* PhysicsEffectTable */
+     , (20408,  28,       2098) /* Spell - Tusker's Bane */;

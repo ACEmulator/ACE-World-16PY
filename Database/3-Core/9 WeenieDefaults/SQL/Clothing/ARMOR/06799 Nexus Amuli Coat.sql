@@ -1,59 +1,55 @@
-/* Weenie - Nexus Amuli Coat (6799) */
-DELETE FROM weenie WHERE class_Id = 6799;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6799, 'coatamulliannexus', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6799, 001 /* NAME_STRING */, 'Nexus Amuli Coat')
-     , (6799, 015 /* SHORT_DESC_STRING */, 'A magnificent Amuli coat, infused with the essence of the Nexus Crystal.')
-     , (6799, 016 /* LONG_DESC_STRING */, 'A magnificent Amuli coat, infused with the essence of the Nexus Crystal.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6799, 001 /* SETUP_DID */, 33554854)
-     , (6799, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6799, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (6799, 007 /* CLOTHINGBASE_DID */, 268435873)
-     , (6799, 008 /* ICON_DID */, 100670435)
-     , (6799, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6799', 'coatamulliannexus', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6799, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (6799, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (6799, 004 /* CLOTHING_PRIORITY_INT */, 13312 /* OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */)
-     , (6799, 005 /* ENCUMB_VAL_INT */, 2000)
-     , (6799, 008 /* MASS_INT */, 1000)
-     , (6799, 009 /* LOCATIONS_INT */, 6656 /* CHEST_ARMOR_LOC, UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (6799, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6799, 019 /* VALUE_INT */, 3610)
-     , (6799, 027 /* ARMOR_TYPE_INT */, 8)
-     , (6799, 028 /* ARMOR_LEVEL_INT */, 240)
-     , (6799, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6799, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6799, 106 /* ITEM_SPELLCRAFT_INT */, 270)
-     , (6799, 107 /* ITEM_CUR_MANA_INT */, 900)
-     , (6799, 108 /* ITEM_MAX_MANA_INT */, 900)
-     , (6799, 109 /* ITEM_DIFFICULTY_INT */, 150);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6799, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (6799, 012 /* SHADE_FLOAT */, 0.1)
-     , (6799, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (6799, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.3)
-     , (6799, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.3)
-     , (6799, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (6799, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (6799, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (6799, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (6799, 110 /* BULK_MOD_FLOAT */, 1)
-     , (6799, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (6799,   1,          2) /* ItemType - Armor */
+     , (6799,   3,          2) /* PaletteTemplate - Blue */
+     , (6799,   4,      13312) /* ClothingPriority */
+     , (6799,   5,       2000) /* EncumbranceVal */
+     , (6799,   8,       1000) /* Mass */
+     , (6799,   9,       6656) /* ValidLocations */
+     , (6799,  16,          1) /* ItemUseable - No */
+     , (6799,  19,       3610) /* Value */
+     , (6799,  27,          8) /* ArmorType */
+     , (6799,  28,        240) /* ArmorLevel */
+     , (6799,  33,          1) /* Bonded - Bonded */
+     , (6799,  93,       1044) /* PhysicsState */
+     , (6799, 106,        270) /* ItemSpellcraft */
+     , (6799, 107,        900) /* ItemCurMana */
+     , (6799, 108,        900) /* ItemMaxMana */
+     , (6799, 109,        150) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6799, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6799, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (6799,  22, True ) /* Inscribable */
+     , (6799,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6799,   5,    -0.1) /* ManaRate */
+     , (6799,  12,     0.1) /* Shade */
+     , (6799,  13,     1.3) /* ArmorModVsSlash */
+     , (6799,  14,     1.3) /* ArmorModVsPierce */
+     , (6799,  15,     1.3) /* ArmorModVsBludgeon */
+     , (6799,  16,       1) /* ArmorModVsCold */
+     , (6799,  17,       1) /* ArmorModVsFire */
+     , (6799,  18,       1) /* ArmorModVsAcid */
+     , (6799,  19,       1) /* ArmorModVsElectric */
+     , (6799, 110,       1) /* BulkMod */
+     , (6799, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6799,   1, 'Nexus Amuli Coat') /* Name */
+     , (6799,  15, 'A magnificent Amuli coat, infused with the essence of the Nexus Crystal.') /* ShortDesc */
+     , (6799,  16, 'A magnificent Amuli coat, infused with the essence of the Nexus Crystal.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6799,   1,   33554854) /* Setup */
+     , (6799,   3,  536870932) /* SoundTable */
+     , (6799,   6,   67108990) /* PaletteBase */
+     , (6799,   7,  268435873) /* ClothingBase */
+     , (6799,   8,  100670435) /* Icon */
+     , (6799,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6799, 909, 2) /* LeadershipMasteryOther6_SpellID */
-     , (6799, 272, 2) /* MagicResistanceOther5_SpellID */
-     , (6799, 209, 2) /* ManaRenewalOther4_SpellID */;
-
+VALUES (6799,   209,      2)  /* Mana Renewal Other IV */
+     , (6799,   272,      2)  /* Magic Resistance Other V */
+     , (6799,   909,      2)  /* Leadership Mastery Other VI */;

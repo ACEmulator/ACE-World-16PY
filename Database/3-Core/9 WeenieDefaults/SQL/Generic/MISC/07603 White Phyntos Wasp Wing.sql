@@ -1,36 +1,32 @@
-/* Weenie - White Phyntos Wasp Wing (7603) */
-DELETE FROM weenie WHERE class_Id = 7603;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7603, 'waspwingwhite', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7603, 001 /* NAME_STRING */, 'White Phyntos Wasp Wing');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7603, 001 /* SETUP_DID */, 33558524)
-     , (7603, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7603, 006 /* PALETTE_BASE_DID */, 67109312)
-     , (7603, 007 /* CLOTHINGBASE_DID */, 268435546)
-     , (7603, 008 /* ICON_DID */, 100670755)
-     , (7603, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7603', 'waspwingwhite', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7603, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (7603, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (7603, 005 /* ENCUMB_VAL_INT */, 25)
-     , (7603, 008 /* MASS_INT */, 10)
-     , (7603, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7603, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7603, 019 /* VALUE_INT */, 5)
-     , (7603, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7603, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (7603, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7603, 039 /* DEFAULT_SCALE_FLOAT */, 1.1);
+VALUES (7603,   1,        128) /* ItemType - Misc */
+     , (7603,   3,         61) /* PaletteTemplate - White */
+     , (7603,   5,         25) /* EncumbranceVal */
+     , (7603,   8,         10) /* Mass */
+     , (7603,   9,          0) /* ValidLocations - None */
+     , (7603,  16,          1) /* ItemUseable - No */
+     , (7603,  19,          5) /* Value */
+     , (7603,  93,       1044) /* PhysicsState */
+     , (7603, 150,        103) /* HookPlacement - Hook */
+     , (7603, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7603, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7603, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (7603,  22, True ) /* Inscribable */
+     , (7603,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7603,  39,     1.1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7603,   1, 'White Phyntos Wasp Wing') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7603,   1,   33558524) /* Setup */
+     , (7603,   3,  536870932) /* SoundTable */
+     , (7603,   6,   67109312) /* PaletteBase */
+     , (7603,   7,  268435546) /* ClothingBase */
+     , (7603,   8,  100670755) /* Icon */
+     , (7603,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,15 +1,14 @@
-INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
-VALUES (47, 304 /* Throwing Axe */, 0, 0, 0, 3, 0, 0.01, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (47, 310 /* Throwing Club */, 0, 0, 0, 3, 0, 0.01, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (47, 301 /* Battle Axe */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (47, 309 /* Club */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (47, 313 /* Dabus */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (47, 322 /* Jo */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (47, 325 /* Kasrullah */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (47, 331 /* Mace */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (47, 332 /* Morning Star */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (47, 333 /* Nabut */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (47, 342 /* Shou-ono */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (47, 344 /* Silifi */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (47, 356 /* Tofun */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0);
-
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `stack_Size_Variance`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `set_Start`, `has_Sub_Set`, `continues_Previous_Set`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (47,   304,  0, 0,    0, 3, 0,    0.01, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Throwing Axe */
+     , (47,   310,  0, 0,    0, 3, 0,    0.01, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Throwing Club */
+     , (47,   301,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Battle Axe */
+     , (47,   309,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Club */
+     , (47,   313,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Dabus */
+     , (47,   322,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Jo */
+     , (47,   325,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Kasrullah */
+     , (47,   331,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Mace */
+     , (47,   332,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Morning Star */
+     , (47,   333,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Nabut */
+     , (47,   342,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Shou-ono */
+     , (47,   344,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Silifi */
+     , (47,   356,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Tofun */;

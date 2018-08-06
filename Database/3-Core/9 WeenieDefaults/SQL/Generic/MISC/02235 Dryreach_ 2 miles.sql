@@ -1,28 +1,24 @@
-/* Weenie - Dryreach: 2 miles (2235) */
-DELETE FROM weenie WHERE class_Id = 2235;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2235, 'dryreach2milesign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2235, 001 /* NAME_STRING */, 'Dryreach: 2 miles')
-     , (2235, 016 /* LONG_DESC_STRING */, 'Town of Dryreach: 2 miles.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2235, 001 /* SETUP_DID */, 33555088)
-     , (2235, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2235', 'dryreach2milesign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2235, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (2235, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (2235, 008 /* MASS_INT */, 1800)
-     , (2235, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2235, 019 /* VALUE_INT */, 125)
-     , (2235, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (2235,   1,        128) /* ItemType - Misc */
+     , (2235,   5,       9000) /* EncumbranceVal */
+     , (2235,   8,       1800) /* Mass */
+     , (2235,  16,          1) /* ItemUseable - No */
+     , (2235,  19,        125) /* Value */
+     , (2235,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2235, 001 /* STUCK_BOOL */, True)
-     , (2235, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (2235, 013 /* ETHEREAL_BOOL */, False)
-     , (2235, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (2235,   1, True ) /* Stuck */
+     , (2235,  12, True ) /* ReportCollisions */
+     , (2235,  13, False) /* Ethereal */
+     , (2235,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2235,   1, 'Dryreach: 2 miles') /* Name */
+     , (2235,  16, 'Town of Dryreach: 2 miles.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2235,   1,   33555088) /* Setup */
+     , (2235,   8,  100668115) /* Icon */;

@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Superior Conveyic Chant (28572) */
-DELETE FROM weenie WHERE class_Id = 28572;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28572, 'scrollmanaconversionmasteryfellowship7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28572, 001 /* NAME_STRING */, 'Scroll of Superior Conveyic Chant')
-     , (28572, 015 /* SHORT_DESC_STRING */, 'Use this scroll to learn Superior Conveyic Chant.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28572, 001 /* SETUP_DID */, 33554826)
-     , (28572, 008 /* ICON_DID */, 100676466)
-     , (28572, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28572, 028 /* SPELL_DID */, 3399 /* ManaConversionMasteryFellow7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28572', 'scrollmanaconversionmasteryfellowship7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28572, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28572, 005 /* ENCUMB_VAL_INT */, 5)
-     , (28572, 008 /* MASS_INT */, 90)
-     , (28572, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28572, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28572, 019 /* VALUE_INT */, 0)
-     , (28572, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28572, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (28572,   1,       8192) /* ItemType - Writable */
+     , (28572,   5,          5) /* EncumbranceVal */
+     , (28572,   8,         90) /* Mass */
+     , (28572,   9,          0) /* ValidLocations - None */
+     , (28572,  16,          8) /* ItemUseable - Contained */
+     , (28572,  19,          0) /* Value */
+     , (28572,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28572, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28572, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28572,  22, True ) /* Inscribable */
+     , (28572,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28572,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28572,   1, 'Scroll of Superior Conveyic Chant') /* Name */
+     , (28572,  15, 'Use this scroll to learn Superior Conveyic Chant.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28572,   1,   33554826) /* Setup */
+     , (28572,   8,  100676466) /* Icon */
+     , (28572,  22,  872415275) /* PhysicsEffectTable */
+     , (28572,  28,       3399) /* Spell - Superior Conveyic Chant */;

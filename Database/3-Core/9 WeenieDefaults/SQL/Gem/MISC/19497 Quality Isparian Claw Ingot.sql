@@ -1,41 +1,37 @@
-/* Weenie - Quality Isparian Claw Ingot (19497) */
-DELETE FROM weenie WHERE class_Id = 19497;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19497, 'ingotclawisparian', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19497, 001 /* NAME_STRING */, 'Quality Isparian Claw Ingot')
-     , (19497, 015 /* SHORT_DESC_STRING */, 'An diamond infused ingot, enhanced and stamped with an claw glyph.')
-     , (19497, 016 /* LONG_DESC_STRING */, 'An diamond infused ingot, enhanced and stamped with an claw glyph.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19497, 001 /* SETUP_DID */, 33555677)
-     , (19497, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19497, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19497, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (19497, 008 /* ICON_DID */, 100672973)
-     , (19497, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19497', 'ingotclawisparian', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19497, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19497, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (19497, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (19497, 008 /* MASS_INT */, 1000)
-     , (19497, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19497, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (19497, 012 /* STACK_SIZE_INT */, 1)
-     , (19497, 013 /* STACK_UNIT_ENCUMB_INT */, 1000)
-     , (19497, 014 /* STACK_UNIT_MASS_INT */, 1000)
-     , (19497, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (19497, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19497, 019 /* VALUE_INT */, 0)
-     , (19497, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19497, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19497, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (19497,   1,        128) /* ItemType - Misc */
+     , (19497,   3,          8) /* PaletteTemplate - Green */
+     , (19497,   5,       1000) /* EncumbranceVal */
+     , (19497,   8,       1000) /* Mass */
+     , (19497,   9,          0) /* ValidLocations - None */
+     , (19497,  11,          1) /* MaxStackSize */
+     , (19497,  12,          1) /* StackSize */
+     , (19497,  13,       1000) /* StackUnitEncumbrance */
+     , (19497,  14,       1000) /* StackUnitMass */
+     , (19497,  15,          0) /* StackUnitValue */
+     , (19497,  16,          1) /* ItemUseable - No */
+     , (19497,  19,          0) /* Value */
+     , (19497,  33,          1) /* Bonded - Bonded */
+     , (19497,  93,       1044) /* PhysicsState */
+     , (19497, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19497, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19497, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19497, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19497,  22, True ) /* Inscribable */
+     , (19497,  23, True ) /* DestroyOnSell */
+     , (19497,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19497,   1, 'Quality Isparian Claw Ingot') /* Name */
+     , (19497,  15, 'An diamond infused ingot, enhanced and stamped with an claw glyph.') /* ShortDesc */
+     , (19497,  16, 'An diamond infused ingot, enhanced and stamped with an claw glyph.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19497,   1,   33555677) /* Setup */
+     , (19497,   3,  536870932) /* SoundTable */
+     , (19497,   6,   67111919) /* PaletteBase */
+     , (19497,   7,  268435723) /* ClothingBase */
+     , (19497,   8,  100672973) /* Icon */
+     , (19497,  22,  872415275) /* PhysicsEffectTable */;

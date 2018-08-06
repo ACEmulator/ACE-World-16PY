@@ -1,34 +1,30 @@
-/* Weenie - North Eastham Meadow Portal (12533) */
-DELETE FROM weenie WHERE class_Id = 12533;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12533, 'portalnortheasthammeadow', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12533, 001 /* NAME_STRING */, 'North Eastham Meadow Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12533, 001 /* SETUP_DID */, 33554867)
-     , (12533, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (12533, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12533', 'portalnortheasthammeadow', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12533, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (12533, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (12533, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (12533, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (12533, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12533, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (12533,   1,      65536) /* ItemType - Portal */
+     , (12533,  16,         32) /* ItemUseable - Remote */
+     , (12533,  93,       3084) /* PhysicsState */
+     , (12533, 111,          1) /* PortalBitmask - Unrestricted */
+     , (12533, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12533, 001 /* STUCK_BOOL */, True)
-     , (12533, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (12533, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12533, 013 /* ETHEREAL_BOOL */, True)
-     , (12533, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (12533,   1, True ) /* Stuck */
+     , (12533,  11, False) /* IgnoreCollisions */
+     , (12533,  12, True ) /* ReportCollisions */
+     , (12533,  13, True ) /* Ethereal */
+     , (12533,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12533,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12533,   1, 'North Eastham Meadow Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12533,   1,   33554867) /* Setup */
+     , (12533,   2,  150994947) /* MotionTable */
+     , (12533,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12533, 2, 3399221297, 149.574, 7.724, 5.54, -0.9606871, 0, 0, -0.2776334) /* DESTINATION_POSITION */;
-
+VALUES (12533, 2, 3399221297, 149.574, 7.724, 5.54, -0.9606871, 0, 0, -0.2776334) /* Destination */;

@@ -1,35 +1,32 @@
-/* Weenie - Shadows of My Doubts (8073) */
-DELETE FROM weenie WHERE class_Id = 8073;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8073, 'alucontestbook1', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8073, 001 /* NAME_STRING */, 'Shadows of My Doubts');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8073, 001 /* SETUP_DID */, 33554771)
-     , (8073, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8073, 008 /* ICON_DID */, 100670970)
-     , (8073, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8073', 'alucontestbook1', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8073, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8073, 005 /* ENCUMB_VAL_INT */, 160)
-     , (8073, 008 /* MASS_INT */, 200)
-     , (8073, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8073, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8073, 019 /* VALUE_INT */, 90)
-     , (8073, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8073, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8073,   1,       8192) /* ItemType - Writable */
+     , (8073,   5,        160) /* EncumbranceVal */
+     , (8073,   8,        200) /* Mass */
+     , (8073,   9,          0) /* ValidLocations - None */
+     , (8073,  16,          8) /* ItemUseable - Contained */
+     , (8073,  19,         90) /* Value */
+     , (8073,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8073, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8073,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8073,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8073,   1, 'Shadows of My Doubts') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8073,   1,   33554771) /* Setup */
+     , (8073,   3,  536870932) /* SoundTable */
+     , (8073,   8,  100670970) /* Icon */
+     , (8073,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8073, 23, 1000) /* Book Data */;
+VALUES (8073, 23, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8073, 0, 4294967295, 'Aytalya, Bard of Darktide', 'prewritten', False, '
@@ -115,4 +112,3 @@ I thank you for taking the time to read my plea, and I hope to receive word or s
      , (8073, 22, 4294967295, 'Aytalya, Bard of Darktide', 'prewritten', False, '
 After tapping off the sand she had sprinkled on the parchment to blot the wet ink, she carefully rolled the parchment into a scroll and tied it with a string. Now, to seek out the old mage Grimwell, who would see to it that her letter was placed into the hands of one of His Grace''s emissaries. There was nothing more she could do but wait and pray to whatever gods still watched over this strange, dangerous, yet beautiful land.
 ');
-

@@ -1,43 +1,39 @@
-/* Weenie - Etched Fleshy Journal (26666) */
-DELETE FROM weenie WHERE class_Id = 26666;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26666, 'journalkixktixriuntranslated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26666, 001 /* NAME_STRING */, 'Etched Fleshy Journal')
-     , (26666, 033 /* QUEST_STRING */, 'JournalKixktiPickedUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26666, 001 /* SETUP_DID */, 33558620)
-     , (26666, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26666, 006 /* PALETTE_BASE_DID */, 67114957)
-     , (26666, 008 /* ICON_DID */, 100675783)
-     , (26666, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26666', 'journalkixktixriuntranslated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26666, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (26666, 005 /* ENCUMB_VAL_INT */, 25)
-     , (26666, 008 /* MASS_INT */, 200)
-     , (26666, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26666, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26666, 019 /* VALUE_INT */, 0)
-     , (26666, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (26666, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (26666, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26666, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (26666,   1,       8192) /* ItemType - Writable */
+     , (26666,   5,         25) /* EncumbranceVal */
+     , (26666,   8,        200) /* Mass */
+     , (26666,   9,          0) /* ValidLocations - None */
+     , (26666,  16,          8) /* ItemUseable - Contained */
+     , (26666,  19,          0) /* Value */
+     , (26666,  33,          1) /* Bonded - Bonded */
+     , (26666,  93,       1044) /* PhysicsState */
+     , (26666, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26666, 022 /* INSCRIBABLE_BOOL */, False)
-     , (26666, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (26666,  22, False) /* Inscribable */
+     , (26666,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (26666,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26666,   1, 'Etched Fleshy Journal') /* Name */
+     , (26666,  33, 'JournalKixktiPickedUp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26666,   1,   33558620) /* Setup */
+     , (26666,   3,  536870932) /* SoundTable */
+     , (26666,   6,   67114957) /* PaletteBase */
+     , (26666,   8,  100675783) /* Icon */
+     , (26666,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (26666, 1, 1000) /* Book Data */;
+VALUES (26666, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (26666, 0, 4294967295, 'Untranslated Text', 'prewritten', False, '
 [You cannot translate this text]
 ');
-

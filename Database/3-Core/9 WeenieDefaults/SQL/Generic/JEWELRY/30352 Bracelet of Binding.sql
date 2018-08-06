@@ -1,34 +1,30 @@
-/* Weenie - Bracelet of Binding (30352) */
-DELETE FROM weenie WHERE class_Id = 30352;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30352, 'braceletrarebinding', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30352, 001 /* NAME_STRING */, 'Bracelet of Binding')
-     , (30352, 016 /* LONG_DESC_STRING */, 'Describe me here.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30352, 001 /* SETUP_DID */, 33554683)
-     , (30352, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30352, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30352, 007 /* CLOTHINGBASE_DID */, 268435738)
-     , (30352, 008 /* ICON_DID */, 100668622)
-     , (30352, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30352', 'braceletrarebinding', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30352, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (30352, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (30352, 005 /* ENCUMB_VAL_INT */, 60)
-     , (30352, 008 /* MASS_INT */, 30)
-     , (30352, 009 /* LOCATIONS_INT */, 196608 /* WRIST_WEAR_LOC */)
-     , (30352, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30352, 019 /* VALUE_INT */, 50)
-     , (30352, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30352, 039 /* DEFAULT_SCALE_FLOAT */, 0.67);
+VALUES (30352,   1,          8) /* ItemType - Jewelry */
+     , (30352,   3,         21) /* PaletteTemplate - Gold */
+     , (30352,   5,         60) /* EncumbranceVal */
+     , (30352,   8,         30) /* Mass */
+     , (30352,   9,     196608) /* ValidLocations - WristWear */
+     , (30352,  16,          1) /* ItemUseable - No */
+     , (30352,  19,         50) /* Value */
+     , (30352,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30352, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30352,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30352,  39,    0.67) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30352,   1, 'Bracelet of Binding') /* Name */
+     , (30352,  16, 'Describe me here.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30352,   1,   33554683) /* Setup */
+     , (30352,   3,  536870932) /* SoundTable */
+     , (30352,   6,   67111919) /* PaletteBase */
+     , (30352,   7,  268435738) /* ClothingBase */
+     , (30352,   8,  100668622) /* Icon */
+     , (30352,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,48 +1,44 @@
-/* Weenie - San-Chin Portal Gem (26340) */
-DELETE FROM weenie WHERE class_Id = 26340;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26340, 'gemportalsanchin', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26340, 001 /* NAME_STRING */, 'San-Chin Portal Gem')
-     , (26340, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26340, 001 /* SETUP_DID */, 33556769)
-     , (26340, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26340, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26340, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26340, 008 /* ICON_DID */, 100675760)
-     , (26340, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26340, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26340, 031 /* LINKED_PORTAL_ONE_DID */, 14662 /* San-Chin Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26340', 'gemportalsanchin', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26340, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26340, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26340, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26340, 008 /* MASS_INT */, 10)
-     , (26340, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26340, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26340, 012 /* STACK_SIZE_INT */, 1)
-     , (26340, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26340, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26340, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26340, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26340, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26340, 019 /* VALUE_INT */, 500)
-     , (26340, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26340, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26340, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26340, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26340, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26340, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26340, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26340, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26340, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26340,   1,       2048) /* ItemType - Gem */
+     , (26340,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26340,   5,         10) /* EncumbranceVal */
+     , (26340,   8,         10) /* Mass */
+     , (26340,   9,          0) /* ValidLocations - None */
+     , (26340,  11,         20) /* MaxStackSize */
+     , (26340,  12,          1) /* StackSize */
+     , (26340,  13,         10) /* StackUnitEncumbrance */
+     , (26340,  14,         10) /* StackUnitMass */
+     , (26340,  15,        500) /* StackUnitValue */
+     , (26340,  16,          8) /* ItemUseable - Contained */
+     , (26340,  18,          1) /* UiEffects - Magical */
+     , (26340,  19,        500) /* Value */
+     , (26340,  93,       3092) /* PhysicsState */
+     , (26340,  94,         16) /* TargetType - Creature */
+     , (26340, 106,        210) /* ItemSpellcraft */
+     , (26340, 107,         50) /* ItemCurMana */
+     , (26340, 108,         50) /* ItemMaxMana */
+     , (26340, 109,          0) /* ItemDifficulty */
+     , (26340, 110,          0) /* ItemAllegianceRankLimit */
+     , (26340, 150,        103) /* HookPlacement - Hook */
+     , (26340, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26340, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26340, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26340,  15, True ) /* LightsStatus */
+     , (26340,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26340,   1, 'San-Chin Portal Gem') /* Name */
+     , (26340,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26340,   1,   33556769) /* Setup */
+     , (26340,   3,  536870932) /* SoundTable */
+     , (26340,   6,   67111919) /* PaletteBase */
+     , (26340,   7,  268435723) /* ClothingBase */
+     , (26340,   8,  100675760) /* Icon */
+     , (26340,  22,  872415275) /* PhysicsEffectTable */
+     , (26340,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26340,  31,      14662) /* LinkedPortalOne - San-Chin Portal */;

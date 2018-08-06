@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Nullify All Magic Other (20263) */
-DELETE FROM weenie WHERE class_Id = 20263;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20263, 'scrolldispelallbadother6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20263, 001 /* NAME_STRING */, 'Scroll of Nullify All Magic Other')
-     , (20263, 015 /* SHORT_DESC_STRING */, 'When learned, this spell dispels all negative enchantments from the target.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20263, 001 /* SETUP_DID */, 33554826)
-     , (20263, 008 /* ICON_DID */, 100669877)
-     , (20263, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20263, 028 /* SPELL_DID */, 1879 /* DispelAllBadOther6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20263', 'scrolldispelallbadother6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20263, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20263, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20263, 008 /* MASS_INT */, 90)
-     , (20263, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20263, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20263, 019 /* VALUE_INT */, 1000)
-     , (20263, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20263, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20263,   1,       8192) /* ItemType - Writable */
+     , (20263,   5,         30) /* EncumbranceVal */
+     , (20263,   8,         90) /* Mass */
+     , (20263,   9,          0) /* ValidLocations - None */
+     , (20263,  16,          8) /* ItemUseable - Contained */
+     , (20263,  19,       1000) /* Value */
+     , (20263,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20263, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20263, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20263,  22, True ) /* Inscribable */
+     , (20263,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20263,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20263,   1, 'Scroll of Nullify All Magic Other') /* Name */
+     , (20263,  15, 'When learned, this spell dispels all negative enchantments from the target.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20263,   1,   33554826) /* Setup */
+     , (20263,   8,  100669877) /* Icon */
+     , (20263,  22,  872415275) /* PhysicsEffectTable */
+     , (20263,  28,       1879) /* Spell - Nullify All Magic Other */;

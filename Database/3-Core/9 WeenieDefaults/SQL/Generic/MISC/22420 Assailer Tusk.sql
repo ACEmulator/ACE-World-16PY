@@ -1,32 +1,28 @@
-/* Weenie - Assailer Tusk (22420) */
-DELETE FROM weenie WHERE class_Id = 22420;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22420, 'tuskassailer', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22420, 001 /* NAME_STRING */, 'Assailer Tusk')
-     , (22420, 015 /* SHORT_DESC_STRING */, 'A tusk plucked from a dead Assailer. Brighteyes, the tailor collects these.')
-     , (22420, 033 /* QUEST_STRING */, 'TuskAssailerPickup');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22420, 001 /* SETUP_DID */, 33557838)
-     , (22420, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22420, 008 /* ICON_DID */, 100673056)
-     , (22420, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22420', 'tuskassailer', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22420, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22420, 005 /* ENCUMB_VAL_INT */, 100)
-     , (22420, 008 /* MASS_INT */, 10)
-     , (22420, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22420, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22420, 019 /* VALUE_INT */, 0)
-     , (22420, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22420, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22420, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (22420,   1,        128) /* ItemType - Misc */
+     , (22420,   5,        100) /* EncumbranceVal */
+     , (22420,   8,         10) /* Mass */
+     , (22420,   9,          0) /* ValidLocations - None */
+     , (22420,  16,          1) /* ItemUseable - No */
+     , (22420,  19,          0) /* Value */
+     , (22420,  33,          1) /* Bonded - Bonded */
+     , (22420,  93,       1044) /* PhysicsState */
+     , (22420, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22420, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22420, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (22420,  22, True ) /* Inscribable */
+     , (22420,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22420,   1, 'Assailer Tusk') /* Name */
+     , (22420,  15, 'A tusk plucked from a dead Assailer. Brighteyes, the tailor collects these.') /* ShortDesc */
+     , (22420,  33, 'TuskAssailerPickup') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22420,   1,   33557838) /* Setup */
+     , (22420,   3,  536870932) /* SoundTable */
+     , (22420,   8,  100673056) /* Icon */
+     , (22420,  22,  872415275) /* PhysicsEffectTable */;

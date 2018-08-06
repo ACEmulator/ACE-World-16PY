@@ -1,64 +1,60 @@
-/* Weenie - Imbued Helm of the Simulacra (12139) */
-DELETE FROM weenie WHERE class_Id = 12139;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12139, 'helmsimulacraimbued', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12139, 001 /* NAME_STRING */, 'Imbued Helm of the Simulacra')
-     , (12139, 016 /* LONG_DESC_STRING */, 'A helm imbued with the power of the Asteliary Gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12139, 001 /* SETUP_DID */, 33556883)
-     , (12139, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12139, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (12139, 007 /* CLOTHINGBASE_DID */, 268436261)
-     , (12139, 008 /* ICON_DID */, 100672133)
-     , (12139, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12139, 037 /* ITEM_SKILL_LIMIT_DID */, 6);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12139', 'helmsimulacraimbued', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12139, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (12139, 003 /* PALETTE_TEMPLATE_INT */, 5 /* DARKBLUE_PALETTE_TEMPLATE */)
-     , (12139, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (12139, 005 /* ENCUMB_VAL_INT */, 600)
-     , (12139, 008 /* MASS_INT */, 300)
-     , (12139, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (12139, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12139, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (12139, 019 /* VALUE_INT */, 5000)
-     , (12139, 027 /* ARMOR_TYPE_INT */, 32)
-     , (12139, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (12139, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12139, 106 /* ITEM_SPELLCRAFT_INT */, 220)
-     , (12139, 107 /* ITEM_CUR_MANA_INT */, 750)
-     , (12139, 108 /* ITEM_MAX_MANA_INT */, 750)
-     , (12139, 109 /* ITEM_DIFFICULTY_INT */, 50)
-     , (12139, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (12139, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 230)
-     , (12139, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12139, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12139, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (12139, 012 /* SHADE_FLOAT */, 0.66)
-     , (12139, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (12139, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (12139, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (12139, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (12139, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (12139, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (12139, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
-     , (12139, 110 /* BULK_MOD_FLOAT */, 1)
-     , (12139, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (12139,   1,          2) /* ItemType - Armor */
+     , (12139,   3,          5) /* PaletteTemplate - DarkBlue */
+     , (12139,   4,      16384) /* ClothingPriority - Head */
+     , (12139,   5,        600) /* EncumbranceVal */
+     , (12139,   8,        300) /* Mass */
+     , (12139,   9,          1) /* ValidLocations - HeadWear */
+     , (12139,  16,          1) /* ItemUseable - No */
+     , (12139,  18,          1) /* UiEffects - Magical */
+     , (12139,  19,       5000) /* Value */
+     , (12139,  27,         32) /* ArmorType */
+     , (12139,  28,        100) /* ArmorLevel */
+     , (12139,  93,       1044) /* PhysicsState */
+     , (12139, 106,        220) /* ItemSpellcraft */
+     , (12139, 107,        750) /* ItemCurMana */
+     , (12139, 108,        750) /* ItemMaxMana */
+     , (12139, 109,         50) /* ItemDifficulty */
+     , (12139, 110,          0) /* ItemAllegianceRankLimit */
+     , (12139, 115,        230) /* ItemSkillLevelLimit */
+     , (12139, 150,        103) /* HookPlacement - Hook */
+     , (12139, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12139, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12139, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (12139,  22, True ) /* Inscribable */
+     , (12139,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12139,   5,   -0.05) /* ManaRate */
+     , (12139,  12,    0.66) /* Shade */
+     , (12139,  13,     1.3) /* ArmorModVsSlash */
+     , (12139,  14,       1) /* ArmorModVsPierce */
+     , (12139,  15,       1) /* ArmorModVsBludgeon */
+     , (12139,  16,     0.4) /* ArmorModVsCold */
+     , (12139,  17,     0.4) /* ArmorModVsFire */
+     , (12139,  18,     0.6) /* ArmorModVsAcid */
+     , (12139,  19,     0.4) /* ArmorModVsElectric */
+     , (12139, 110,       1) /* BulkMod */
+     , (12139, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12139,   1, 'Imbued Helm of the Simulacra') /* Name */
+     , (12139,  16, 'A helm imbued with the power of the Asteliary Gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12139,   1,   33556883) /* Setup */
+     , (12139,   3,  536870932) /* SoundTable */
+     , (12139,   6,   67108990) /* PaletteBase */
+     , (12139,   7,  268436261) /* ClothingBase */
+     , (12139,   8,  100672133) /* Icon */
+     , (12139,  22,  872415275) /* PhysicsEffectTable */
+     , (12139,  37,          6) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12139, 260, 2) /* ImpregnabilitySelf5_SpellID */
-     , (12139, 1485, 2) /* Impenetrability5_SpellID */
-     , (12139, 278, 2) /* MagicResistanceSelf5_SpellID */
-     , (12139, 248, 2) /* InvulnerabilitySelf5_SpellID */;
-
+VALUES (12139,   248,      2)  /* Invulnerability Self V */
+     , (12139,   260,      2)  /* Impregnability Self V */
+     , (12139,   278,      2)  /* Magic Resistance Self V */
+     , (12139,  1485,      2)  /* Impenetrability V */;

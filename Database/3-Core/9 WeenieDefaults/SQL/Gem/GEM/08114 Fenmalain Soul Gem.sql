@@ -1,42 +1,38 @@
-/* Weenie - Fenmalain Soul Gem (8114) */
-DELETE FROM weenie WHERE class_Id = 8114;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8114, 'gemfenmalainsoul', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8114, 001 /* NAME_STRING */, 'Fenmalain Soul Gem')
-     , (8114, 015 /* SHORT_DESC_STRING */, 'The heart of the Fenmalain Soul Crystal.')
-     , (8114, 016 /* LONG_DESC_STRING */, 'The heart of the Fenmalain Soul Crystal.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8114, 001 /* SETUP_DID */, 33554809)
-     , (8114, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8114, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8114, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (8114, 008 /* ICON_DID */, 100670989)
-     , (8114, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8114', 'gemfenmalainsoul', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8114, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8114, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (8114, 005 /* ENCUMB_VAL_INT */, 200)
-     , (8114, 008 /* MASS_INT */, 200)
-     , (8114, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8114, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (8114, 012 /* STACK_SIZE_INT */, 1)
-     , (8114, 013 /* STACK_UNIT_ENCUMB_INT */, 200)
-     , (8114, 014 /* STACK_UNIT_MASS_INT */, 200)
-     , (8114, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (8114, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8114, 019 /* VALUE_INT */, 0)
-     , (8114, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8114, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8114, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8114, 012 /* SHADE_FLOAT */, 0.9);
+VALUES (8114,   1,       2048) /* ItemType - Gem */
+     , (8114,   3,         13) /* PaletteTemplate - Purple */
+     , (8114,   5,        200) /* EncumbranceVal */
+     , (8114,   8,        200) /* Mass */
+     , (8114,   9,          0) /* ValidLocations - None */
+     , (8114,  11,          1) /* MaxStackSize */
+     , (8114,  12,          1) /* StackSize */
+     , (8114,  13,        200) /* StackUnitEncumbrance */
+     , (8114,  14,        200) /* StackUnitMass */
+     , (8114,  15,          0) /* StackUnitValue */
+     , (8114,  16,          1) /* ItemUseable - No */
+     , (8114,  19,          0) /* Value */
+     , (8114,  33,          1) /* Bonded - Bonded */
+     , (8114,  93,       1044) /* PhysicsState */
+     , (8114, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8114, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (8114,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8114,  12,     0.9) /* Shade */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8114,   1, 'Fenmalain Soul Gem') /* Name */
+     , (8114,  15, 'The heart of the Fenmalain Soul Crystal.') /* ShortDesc */
+     , (8114,  16, 'The heart of the Fenmalain Soul Crystal.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8114,   1,   33554809) /* Setup */
+     , (8114,   3,  536870932) /* SoundTable */
+     , (8114,   6,   67111919) /* PaletteBase */
+     , (8114,   7,  268435723) /* ClothingBase */
+     , (8114,   8,  100670989) /* Icon */
+     , (8114,  22,  872415275) /* PhysicsEffectTable */;

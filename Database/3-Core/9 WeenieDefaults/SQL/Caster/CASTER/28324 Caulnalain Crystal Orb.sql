@@ -1,56 +1,52 @@
-/* Weenie - Caulnalain Crystal Orb (28324) */
-DELETE FROM weenie WHERE class_Id = 28324;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28324, 'orbcrystalcaulnew', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28324, 001 /* NAME_STRING */, 'Caulnalain Crystal Orb')
-     , (28324, 015 /* SHORT_DESC_STRING */, 'An orb imbued with the power of the Caulnalain Crystal.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28324, 001 /* SETUP_DID */, 33556767)
-     , (28324, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28324, 006 /* PALETTE_BASE_DID */, 67111928)
-     , (28324, 007 /* CLOTHINGBASE_DID */, 268436041)
-     , (28324, 008 /* ICON_DID */, 100670982)
-     , (28324, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28324, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (28324, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28324', 'orbcrystalcaulnew', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28324, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (28324, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (28324, 005 /* ENCUMB_VAL_INT */, 50)
-     , (28324, 008 /* MASS_INT */, 50)
-     , (28324, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (28324, 016 /* ITEM_USEABLE_INT */, 6291464 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE_NEVER_WALK */)
-     , (28324, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28324, 019 /* VALUE_INT */, 2000)
-     , (28324, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (28324, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (28324, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (28324, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (28324, 107 /* ITEM_CUR_MANA_INT */, 2000)
-     , (28324, 108 /* ITEM_MAX_MANA_INT */, 2000)
-     , (28324, 109 /* ITEM_DIFFICULTY_INT */, 200)
-     , (28324, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28324, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28324, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (28324, 012 /* SHADE_FLOAT */, 0.5)
-     , (28324, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (28324, 076 /* TRANSLUCENCY_FLOAT */, 0.5)
-     , (28324, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.15);
+VALUES (28324,   1,      32768) /* ItemType - Caster */
+     , (28324,   3,         13) /* PaletteTemplate - Purple */
+     , (28324,   5,         50) /* EncumbranceVal */
+     , (28324,   8,         50) /* Mass */
+     , (28324,   9,   16777216) /* ValidLocations - Held */
+     , (28324,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
+     , (28324,  18,          1) /* UiEffects - Magical */
+     , (28324,  19,       2000) /* Value */
+     , (28324,  46,        512) /* DefaultCombatStyle - Magic */
+     , (28324,  93,       3092) /* PhysicsState */
+     , (28324,  94,         16) /* TargetType - Creature */
+     , (28324, 106,        250) /* ItemSpellcraft */
+     , (28324, 107,       2000) /* ItemCurMana */
+     , (28324, 108,       2000) /* ItemMaxMana */
+     , (28324, 109,        200) /* ItemDifficulty */
+     , (28324, 150,        103) /* HookPlacement - Hook */
+     , (28324, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28324, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (28324, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28324, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28324,  15, True ) /* LightsStatus */
+     , (28324,  22, True ) /* Inscribable */
+     , (28324,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28324,   5,   -0.05) /* ManaRate */
+     , (28324,  12,     0.5) /* Shade */
+     , (28324,  29,       1) /* WeaponDefense */
+     , (28324,  76,     0.5) /* Translucency */
+     , (28324, 147,    0.15) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28324,   1, 'Caulnalain Crystal Orb') /* Name */
+     , (28324,  15, 'An orb imbued with the power of the Caulnalain Crystal.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28324,   1,   33556767) /* Setup */
+     , (28324,   3,  536870932) /* SoundTable */
+     , (28324,   6,   67111928) /* PaletteBase */
+     , (28324,   7,  268436041) /* ClothingBase */
+     , (28324,   8,  100670982) /* Icon */
+     , (28324,  22,  872415275) /* PhysicsEffectTable */
+     , (28324,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (28324,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28324, 560, 2) /* CreatureEnchantmentMasterySelf4_SpellID */
-     , (28324, 584, 2) /* ItemEnchantmentMasterySelf4_SpellID */
-     , (28324, 2012, 2) /* WizardsIntellect_SpellID */;
-
+VALUES (28324,   560,      2)  /* Creature Enchantment Mastery Self IV */
+     , (28324,   584,      2)  /* Item Enchantment Mastery Self IV */
+     , (28324,  2012,      2)  /* Wizard's Intellect */;

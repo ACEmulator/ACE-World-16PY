@@ -1,47 +1,43 @@
-/* Weenie - Gem of Improved Blade Protection (24808) */
-DELETE FROM weenie WHERE class_Id = 24808;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24808, 'gembladepro5', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24808, 001 /* NAME_STRING */, 'Gem of Improved Blade Protection')
-     , (24808, 015 /* SHORT_DESC_STRING */, 'A gem that will cast Blade Protection V on anyone who uses it. The gem will be destroyed in the process.')
-     , (24808, 020 /* PLURAL_NAME_STRING */, 'Gems of Improved Blade Protection');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24808, 001 /* SETUP_DID */, 33554809)
-     , (24808, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24808, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24808, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (24808, 008 /* ICON_DID */, 100674439)
-     , (24808, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24808, 028 /* SPELL_DID */, 1119 /* BladeProtectionOther5_SpellID */)
-     , (24808, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24808', 'gembladepro5', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24808, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (24808, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (24808, 005 /* ENCUMB_VAL_INT */, 5)
-     , (24808, 008 /* MASS_INT */, 10)
-     , (24808, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24808, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (24808, 012 /* STACK_SIZE_INT */, 1)
-     , (24808, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (24808, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (24808, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (24808, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24808, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (24808, 019 /* VALUE_INT */, 0)
-     , (24808, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24808, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (24808, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (24808, 107 /* ITEM_CUR_MANA_INT */, 100)
-     , (24808, 108 /* ITEM_MAX_MANA_INT */, 200)
-     , (24808, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (24808, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (24808,   1,       2048) /* ItemType - Gem */
+     , (24808,   3,         14) /* PaletteTemplate - Red */
+     , (24808,   5,          5) /* EncumbranceVal */
+     , (24808,   8,         10) /* Mass */
+     , (24808,   9,          0) /* ValidLocations - None */
+     , (24808,  11,         25) /* MaxStackSize */
+     , (24808,  12,          1) /* StackSize */
+     , (24808,  13,          5) /* StackUnitEncumbrance */
+     , (24808,  14,         10) /* StackUnitMass */
+     , (24808,  15,          0) /* StackUnitValue */
+     , (24808,  16,          8) /* ItemUseable - Contained */
+     , (24808,  18,          1) /* UiEffects - Magical */
+     , (24808,  19,          0) /* Value */
+     , (24808,  93,       1044) /* PhysicsState */
+     , (24808,  94,         16) /* TargetType - Creature */
+     , (24808, 106,        210) /* ItemSpellcraft */
+     , (24808, 107,        100) /* ItemCurMana */
+     , (24808, 108,        200) /* ItemMaxMana */
+     , (24808, 109,          0) /* ItemDifficulty */
+     , (24808, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24808, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (24808, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24808,  23, True ) /* DestroyOnSell */
+     , (24808,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24808,   1, 'Gem of Improved Blade Protection') /* Name */
+     , (24808,  15, 'A gem that will cast Blade Protection V on anyone who uses it. The gem will be destroyed in the process.') /* ShortDesc */
+     , (24808,  20, 'Gems of Improved Blade Protection') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24808,   1,   33554809) /* Setup */
+     , (24808,   3,  536870932) /* SoundTable */
+     , (24808,   6,   67111919) /* PaletteBase */
+     , (24808,   7,  268435723) /* ClothingBase */
+     , (24808,   8,  100674439) /* Icon */
+     , (24808,  22,  872415275) /* PhysicsEffectTable */
+     , (24808,  28,       1119) /* Spell - Blade Protection Other V */
+     , (24808,  36,  234881046) /* MutateFilter */;

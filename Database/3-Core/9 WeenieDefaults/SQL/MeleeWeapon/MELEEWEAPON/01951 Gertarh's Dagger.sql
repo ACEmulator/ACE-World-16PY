@@ -1,48 +1,44 @@
-/* Weenie - Gertarh's Dagger (1951) */
-DELETE FROM weenie WHERE class_Id = 1951;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1951, 'daggerassassin', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1951, 001 /* NAME_STRING */, 'Gertarh''s Dagger')
-     , (1951, 007 /* INSCRIPTION_STRING */, 'Sometimes, a good dagger is your only friend.')
-     , (1951, 008 /* SCRIBE_NAME_STRING */, 'Gertarh');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1951, 001 /* SETUP_DID */, 33554735)
-     , (1951, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (1951, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (1951, 007 /* CLOTHINGBASE_DID */, 268435783)
-     , (1951, 008 /* ICON_DID */, 100667589)
-     , (1951, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1951', 'daggerassassin', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1951, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (1951, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (1951, 005 /* ENCUMB_VAL_INT */, 135)
-     , (1951, 008 /* MASS_INT */, 90)
-     , (1951, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (1951, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1951, 019 /* VALUE_INT */, 300)
-     , (1951, 044 /* DAMAGE_INT */, 9)
-     , (1951, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (1951, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (1951, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (1951, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (1951, 049 /* WEAPON_TIME_INT */, 20)
-     , (1951, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (1951, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (1951, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (1951, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1951, 021 /* WEAPON_LENGTH_FLOAT */, 0.5)
-     , (1951, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.15)
-     , (1951, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (1951, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (1951,   1,          1) /* ItemType - MeleeWeapon */
+     , (1951,   3,         39) /* PaletteTemplate - Black */
+     , (1951,   5,        135) /* EncumbranceVal */
+     , (1951,   8,         90) /* Mass */
+     , (1951,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (1951,  16,          1) /* ItemUseable - No */
+     , (1951,  19,        300) /* Value */
+     , (1951,  44,          9) /* Damage */
+     , (1951,  45,          3) /* DamageType */
+     , (1951,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (1951,  47,          6) /* AttackType */
+     , (1951,  48,          4) /* WeaponSkill - Dagger */
+     , (1951,  49,         20) /* WeaponTime */
+     , (1951,  51,          1) /* CombatUse - Melee */
+     , (1951,  93,       1044) /* PhysicsState */
+     , (1951, 150,        103) /* HookPlacement - Hook */
+     , (1951, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1951, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1951, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1951,  22, True ) /* Inscribable */
+     , (1951,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1951,  21,     0.5) /* WeaponLength */
+     , (1951,  22,    0.15) /* DamageVariance */
+     , (1951,  29,       1) /* WeaponDefense */
+     , (1951,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1951,   1, 'Gertarh''s Dagger') /* Name */
+     , (1951,   7, 'Sometimes, a good dagger is your only friend.') /* Inscription */
+     , (1951,   8, 'Gertarh') /* ScribeName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1951,   1,   33554735) /* Setup */
+     , (1951,   3,  536870932) /* SoundTable */
+     , (1951,   6,   67111919) /* PaletteBase */
+     , (1951,   7,  268435783) /* ClothingBase */
+     , (1951,   8,  100667589) /* Icon */
+     , (1951,  22,  872415275) /* PhysicsEffectTable */;

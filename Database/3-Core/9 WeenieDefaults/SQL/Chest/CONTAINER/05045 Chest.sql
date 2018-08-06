@@ -1,51 +1,47 @@
-/* Weenie - Chest (5045) */
-DELETE FROM weenie WHERE class_Id = 5045;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5045, 'chestshirtbeltslora', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5045, 001 /* NAME_STRING */, 'Chest')
-     , (5045, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5045, 001 /* SETUP_DID */, 33554556)
-     , (5045, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (5045, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (5045, 008 /* ICON_DID */, 100667424)
-     , (5045, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5045', 'chestshirtbeltslora', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5045, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (5045, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (5045, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (5045, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (5045, 008 /* MASS_INT */, 3000)
-     , (5045, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (5045, 019 /* VALUE_INT */, 2500)
-     , (5045, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (5045, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (5045, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (5045, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5045, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (5045, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5045, 011 /* RESET_INTERVAL_FLOAT */, 30)
-     , (5045, 041 /* REGENERATION_INTERVAL_FLOAT */, 30)
-     , (5045, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (5045, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5045,   1,        512) /* ItemType - Container */
+     , (5045,   5,       9000) /* EncumbranceVal */
+     , (5045,   6,         -1) /* ItemsCapacity */
+     , (5045,   7,         -1) /* ContainersCapacity */
+     , (5045,   8,       3000) /* Mass */
+     , (5045,  16,         48) /* ItemUseable - ViewedRemote */
+     , (5045,  19,       2500) /* Value */
+     , (5045,  81,          1) /* MaxGeneratedObjects */
+     , (5045,  82,          1) /* InitGeneratedObjects */
+     , (5045,  83,          2) /* ActivationResponse - Use */
+     , (5045,  93,       1048) /* PhysicsState */
+     , (5045,  96,        500) /* EncumbranceCapacity */
+     , (5045, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5045, 001 /* STUCK_BOOL */, True)
-     , (5045, 002 /* OPEN_BOOL */, False)
-     , (5045, 003 /* LOCKED_BOOL */, False)
-     , (5045, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5045, 013 /* ETHEREAL_BOOL */, False)
-     , (5045, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (5045, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (5045, 035 /* DEFAULT_LOCKED_BOOL */, False);
+VALUES (5045,   1, True ) /* Stuck */
+     , (5045,   2, False) /* Open */
+     , (5045,   3, False) /* Locked */
+     , (5045,  12, True ) /* ReportCollisions */
+     , (5045,  13, False) /* Ethereal */
+     , (5045,  33, False) /* ResetMessagePending */
+     , (5045,  34, False) /* DefaultOpen */
+     , (5045,  35, False) /* DefaultLocked */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5045,  11,      30) /* ResetInterval */
+     , (5045,  41,      30) /* RegenerationInterval */
+     , (5045,  43,       1) /* GeneratorRadius */
+     , (5045,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5045,   1, 'Chest') /* Name */
+     , (5045,  14, 'Use this item to open it and see its contents.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5045,   1,   33554556) /* Setup */
+     , (5045,   2,  150994948) /* MotionTable */
+     , (5045,   3,  536870945) /* SoundTable */
+     , (5045,   8,  100667424) /* Icon */
+     , (5045,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5045, 1, 5051, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Beltslora's Pretty Shirt (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */;
-
+VALUES (5045, 1, 5051, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

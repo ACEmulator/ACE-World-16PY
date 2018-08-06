@@ -1,36 +1,32 @@
-/* Weenie - Sushi (4744) */
-DELETE FROM weenie WHERE class_Id = 4744;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4744, 'sushi', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4744, 001 /* NAME_STRING */, 'Sushi')
-     , (4744, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (4744, 020 /* PLURAL_NAME_STRING */, 'Pieces of Sushi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4744, 001 /* SETUP_DID */, 33555982)
-     , (4744, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4744, 008 /* ICON_DID */, 100669971)
-     , (4744, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4744', 'sushi', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4744, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (4744, 005 /* ENCUMB_VAL_INT */, 75)
-     , (4744, 008 /* MASS_INT */, 50)
-     , (4744, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4744, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (4744, 012 /* STACK_SIZE_INT */, 1)
-     , (4744, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
-     , (4744, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (4744, 015 /* STACK_UNIT_VALUE_INT */, 22)
-     , (4744, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (4744, 019 /* VALUE_INT */, 22)
-     , (4744, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (4744, 090 /* BOOST_VALUE_INT */, 9)
-     , (4744, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4744,   1,         32) /* ItemType - Food */
+     , (4744,   5,         75) /* EncumbranceVal */
+     , (4744,   8,         50) /* Mass */
+     , (4744,   9,          0) /* ValidLocations - None */
+     , (4744,  11,        100) /* MaxStackSize */
+     , (4744,  12,          1) /* StackSize */
+     , (4744,  13,         75) /* StackUnitEncumbrance */
+     , (4744,  14,         50) /* StackUnitMass */
+     , (4744,  15,         22) /* StackUnitValue */
+     , (4744,  16,          8) /* ItemUseable - Contained */
+     , (4744,  19,         22) /* Value */
+     , (4744,  89,          4) /* BoosterEnum - Stamina */
+     , (4744,  90,          9) /* BoostValue */
+     , (4744,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4744, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (4744,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4744,   1, 'Sushi') /* Name */
+     , (4744,  14, 'Use this item to eat it.') /* Use */
+     , (4744,  20, 'Pieces of Sushi') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4744,   1,   33555982) /* Setup */
+     , (4744,   3,  536870932) /* SoundTable */
+     , (4744,   8,  100669971) /* Icon */
+     , (4744,  22,  872415275) /* PhysicsEffectTable */;

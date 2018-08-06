@@ -1,50 +1,46 @@
-/* Weenie - Amuli Leggings of Acid (7700) */
-DELETE FROM weenie WHERE class_Id = 7700;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7700, 'leggingsamullianshadownewacid', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7700, 001 /* NAME_STRING */, 'Amuli Leggings of Acid');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7700, 001 /* SETUP_DID */, 33554856)
-     , (7700, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7700, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (7700, 007 /* CLOTHINGBASE_DID */, 268435872)
-     , (7700, 008 /* ICON_DID */, 100670442)
-     , (7700, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7700', 'leggingsamullianshadownewacid', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7700, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (7700, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (7700, 004 /* CLOTHING_PRIORITY_INT */, 2816 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */)
-     , (7700, 005 /* ENCUMB_VAL_INT */, 2100)
-     , (7700, 008 /* MASS_INT */, 1275)
-     , (7700, 009 /* LOCATIONS_INT */, 25600 /* ABDOMEN_ARMOR_LOC, UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (7700, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7700, 019 /* VALUE_INT */, 3040)
-     , (7700, 027 /* ARMOR_TYPE_INT */, 2)
-     , (7700, 028 /* ARMOR_LEVEL_INT */, 140)
-     , (7700, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7700, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (7700, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7700, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7700, 012 /* SHADE_FLOAT */, 0.9)
-     , (7700, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (7700, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (7700, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (7700, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.2)
-     , (7700, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
-     , (7700, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 2)
-     , (7700, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
-     , (7700, 110 /* BULK_MOD_FLOAT */, 1)
-     , (7700, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (7700,   1,          2) /* ItemType - Armor */
+     , (7700,   3,          8) /* PaletteTemplate - Green */
+     , (7700,   4,       2816) /* ClothingPriority */
+     , (7700,   5,       2100) /* EncumbranceVal */
+     , (7700,   8,       1275) /* Mass */
+     , (7700,   9,      25600) /* ValidLocations */
+     , (7700,  16,          1) /* ItemUseable - No */
+     , (7700,  19,       3040) /* Value */
+     , (7700,  27,          2) /* ArmorType */
+     , (7700,  28,        140) /* ArmorLevel */
+     , (7700,  33,          1) /* Bonded - Bonded */
+     , (7700,  36,       9999) /* ResistMagic */
+     , (7700,  93,       1044) /* PhysicsState */
+     , (7700, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7700, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7700, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7700, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7700,  22, True ) /* Inscribable */
+     , (7700,  23, True ) /* DestroyOnSell */
+     , (7700,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7700,  12,     0.9) /* Shade */
+     , (7700,  13,       1) /* ArmorModVsSlash */
+     , (7700,  14,     0.8) /* ArmorModVsPierce */
+     , (7700,  15,       1) /* ArmorModVsBludgeon */
+     , (7700,  16,     1.2) /* ArmorModVsCold */
+     , (7700,  17,     1.2) /* ArmorModVsFire */
+     , (7700,  18,       2) /* ArmorModVsAcid */
+     , (7700,  19,       0) /* ArmorModVsElectric */
+     , (7700, 110,       1) /* BulkMod */
+     , (7700, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7700,   1, 'Amuli Leggings of Acid') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7700,   1,   33554856) /* Setup */
+     , (7700,   3,  536870932) /* SoundTable */
+     , (7700,   6,   67108990) /* PaletteBase */
+     , (7700,   7,  268435872) /* ClothingBase */
+     , (7700,   8,  100670442) /* Icon */
+     , (7700,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,38 +1,34 @@
-/* Weenie - Lugian Pauldron (9394) */
-DELETE FROM weenie WHERE class_Id = 9394;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9394, 'pauldronlugian', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9394, 001 /* NAME_STRING */, 'Lugian Pauldron')
-     , (9394, 015 /* SHORT_DESC_STRING */, 'A large pauldron.')
-     , (9394, 016 /* LONG_DESC_STRING */, 'A large pauldron, battered and dinged from combat.')
-     , (9394, 033 /* QUEST_STRING */, 'PauldronLugian');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9394, 001 /* SETUP_DID */, 33557004)
-     , (9394, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9394, 006 /* PALETTE_BASE_DID */, 67113158)
-     , (9394, 007 /* CLOTHINGBASE_DID */, 268436159)
-     , (9394, 008 /* ICON_DID */, 100671474)
-     , (9394, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9394', 'pauldronlugian', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9394, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9394, 003 /* PALETTE_TEMPLATE_INT */, 5 /* DARKBLUE_PALETTE_TEMPLATE */)
-     , (9394, 005 /* ENCUMB_VAL_INT */, 900)
-     , (9394, 008 /* MASS_INT */, 500)
-     , (9394, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9394, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9394, 019 /* VALUE_INT */, 2000)
-     , (9394, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9394, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9394, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (9394,   1,        128) /* ItemType - Misc */
+     , (9394,   3,          5) /* PaletteTemplate - DarkBlue */
+     , (9394,   5,        900) /* EncumbranceVal */
+     , (9394,   8,        500) /* Mass */
+     , (9394,   9,          0) /* ValidLocations - None */
+     , (9394,  16,          1) /* ItemUseable - No */
+     , (9394,  19,       2000) /* Value */
+     , (9394,  33,          1) /* Bonded - Bonded */
+     , (9394,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9394, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9394, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9394,  22, True ) /* Inscribable */
+     , (9394,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9394,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9394,   1, 'Lugian Pauldron') /* Name */
+     , (9394,  15, 'A large pauldron.') /* ShortDesc */
+     , (9394,  16, 'A large pauldron, battered and dinged from combat.') /* LongDesc */
+     , (9394,  33, 'PauldronLugian') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9394,   1,   33557004) /* Setup */
+     , (9394,   3,  536870932) /* SoundTable */
+     , (9394,   6,   67113158) /* PaletteBase */
+     , (9394,   7,  268436159) /* ClothingBase */
+     , (9394,   8,  100671474) /* Icon */
+     , (9394,  22,  872415275) /* PhysicsEffectTable */;

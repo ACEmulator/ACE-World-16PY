@@ -1,63 +1,59 @@
-/* Weenie - Peerless Shadow Atlan Spear (6370) */
-DELETE FROM weenie WHERE class_Id = 6370;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6370, 'spearbestshadow', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6370, 001 /* NAME_STRING */, 'Peerless Shadow Atlan Spear');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6370, 001 /* SETUP_DID */, 33556330)
-     , (6370, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6370, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6370, 007 /* CLOTHINGBASE_DID */, 268435909)
-     , (6370, 008 /* ICON_DID */, 100670553)
-     , (6370, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6370, 037 /* ITEM_SKILL_LIMIT_DID */, 9);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6370', 'spearbestshadow', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6370, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6370, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (6370, 005 /* ENCUMB_VAL_INT */, 700)
-     , (6370, 008 /* MASS_INT */, 600)
-     , (6370, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6370, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6370, 019 /* VALUE_INT */, 5000)
-     , (6370, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6370, 044 /* DAMAGE_INT */, 16)
-     , (6370, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (6370, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6370, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (6370, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (6370, 049 /* WEAPON_TIME_INT */, 20)
-     , (6370, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6370, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6370, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (6370, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (6370, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (6370, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (6370, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 180);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6370, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (6370, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (6370, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (6370, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (6370, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6370, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (6370,   1,          1) /* ItemType - MeleeWeapon */
+     , (6370,   3,         39) /* PaletteTemplate - Black */
+     , (6370,   5,        700) /* EncumbranceVal */
+     , (6370,   8,        600) /* Mass */
+     , (6370,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6370,  16,          1) /* ItemUseable - No */
+     , (6370,  19,       5000) /* Value */
+     , (6370,  33,          1) /* Bonded - Bonded */
+     , (6370,  44,         16) /* Damage */
+     , (6370,  45,          2) /* DamageType - Pierce */
+     , (6370,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6370,  47,          2) /* AttackType - Thrust */
+     , (6370,  48,          9) /* WeaponSkill - Spear */
+     , (6370,  49,         20) /* WeaponTime */
+     , (6370,  51,          1) /* CombatUse - Melee */
+     , (6370,  93,       1044) /* PhysicsState */
+     , (6370, 106,        200) /* ItemSpellcraft */
+     , (6370, 107,       1000) /* ItemCurMana */
+     , (6370, 108,       1000) /* ItemMaxMana */
+     , (6370, 114,          1) /* Attuned - Attuned */
+     , (6370, 115,        180) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6370, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6370, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6370, 069 /* IS_SELLABLE_BOOL */, False)
-     , (6370, 099 /* IVORYABLE_BOOL */, True);
+VALUES (6370,  22, True ) /* Inscribable */
+     , (6370,  23, True ) /* DestroyOnSell */
+     , (6370,  69, False) /* IsSellable */
+     , (6370,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6370,   5,    -0.1) /* ManaRate */
+     , (6370,  21,     1.5) /* WeaponLength */
+     , (6370,  22,     0.6) /* DamageVariance */
+     , (6370,  29,       1) /* WeaponDefense */
+     , (6370,  39,       1) /* DefaultScale */
+     , (6370,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6370,   1, 'Peerless Shadow Atlan Spear') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6370,   1,   33556330) /* Setup */
+     , (6370,   3,  536870932) /* SoundTable */
+     , (6370,   6,   67111919) /* PaletteBase */
+     , (6370,   7,  268435909) /* ClothingBase */
+     , (6370,   8,  100670553) /* Icon */
+     , (6370,  22,  872415275) /* PhysicsEffectTable */
+     , (6370,  37,          9) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6370, 265, 2) /* DefenselessnessOther4_SpellID */
-     , (6370, 1616, 2) /* BloodDrinker6_SpellID */
-     , (6370, 1623, 2) /* SwiftKiller2_SpellID */
-     , (6370, 1590, 2) /* HeartSeeker4_SpellID */
-     , (6370, 1468, 2) /* FeeblemindOther6_SpellID */
-     , (6370, 957, 2) /* FealtyOther6_SpellID */;
-
+VALUES (6370,   265,      2)  /* Defenselessness Other IV */
+     , (6370,   957,      2)  /* Fealty Other VI */
+     , (6370,  1468,      2)  /* Feeblemind Other VI */
+     , (6370,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (6370,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (6370,  1623,      2)  /* Aura of Swift Killer Self II */;

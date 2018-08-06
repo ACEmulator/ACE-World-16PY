@@ -1,53 +1,49 @@
-/* Weenie - Deadly Barbed Quarrel (24551) */
-DELETE FROM weenie WHERE class_Id = 24551;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24551, 'boltdeadlybarbed', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24551, 001 /* NAME_STRING */, 'Deadly Barbed Quarrel');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24551, 001 /* SETUP_DID */, 33554730)
-     , (24551, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24551, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24551, 007 /* CLOTHINGBASE_DID */, 268436306)
-     , (24551, 008 /* ICON_DID */, 100674390)
-     , (24551, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24551', 'boltdeadlybarbed', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24551, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (24551, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (24551, 005 /* ENCUMB_VAL_INT */, 10)
-     , (24551, 008 /* MASS_INT */, 2)
-     , (24551, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
-     , (24551, 011 /* MAX_STACK_SIZE_INT */, 250)
-     , (24551, 012 /* STACK_SIZE_INT */, 1)
-     , (24551, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (24551, 014 /* STACK_UNIT_MASS_INT */, 2)
-     , (24551, 015 /* STACK_UNIT_VALUE_INT */, 9)
-     , (24551, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24551, 019 /* VALUE_INT */, 9)
-     , (24551, 044 /* DAMAGE_INT */, 33)
-     , (24551, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (24551, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (24551, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
-     , (24551, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (24551, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24551, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (24551, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (24551, 159 /* WIELD_SKILLTYPE_INT */, 3 /* CROSSBOW_SKILL */)
-     , (24551, 160 /* WIELD_DIFFICULTY_INT */, 230);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24551, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.28)
-     , (24551, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (24551, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (24551, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (24551, 078 /* FRICTION_FLOAT */, 1)
-     , (24551, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (24551,   1,        256) /* ItemType - MissileWeapon */
+     , (24551,   3,         61) /* PaletteTemplate - White */
+     , (24551,   5,         10) /* EncumbranceVal */
+     , (24551,   8,          2) /* Mass */
+     , (24551,   9,    8388608) /* ValidLocations - MissileAmmo */
+     , (24551,  11,        250) /* MaxStackSize */
+     , (24551,  12,          1) /* StackSize */
+     , (24551,  13,         10) /* StackUnitEncumbrance */
+     , (24551,  14,          2) /* StackUnitMass */
+     , (24551,  15,          9) /* StackUnitValue */
+     , (24551,  16,          1) /* ItemUseable - No */
+     , (24551,  19,          9) /* Value */
+     , (24551,  44,         33) /* Damage */
+     , (24551,  45,          2) /* DamageType - Pierce */
+     , (24551,  50,          2) /* AmmoType - Bolt */
+     , (24551,  51,          3) /* CombatUse - Ammo */
+     , (24551,  93,     132116) /* PhysicsState */
+     , (24551, 150,        103) /* HookPlacement - Hook */
+     , (24551, 151,          2) /* HookType - Wall */
+     , (24551, 158,          2) /* WieldRequirements - RawSkill */
+     , (24551, 159,          3) /* WieldSkilltype - Crossbow */
+     , (24551, 160,        230) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24551, 017 /* INELASTIC_BOOL */, True)
-     , (24551, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24551,  17, True ) /* Inelastic */
+     , (24551,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24551,  22,    0.28) /* DamageVariance */
+     , (24551,  29,       1) /* WeaponDefense */
+     , (24551,  39,     1.1) /* DefaultScale */
+     , (24551,  62,       1) /* WeaponOffense */
+     , (24551,  78,       1) /* Friction */
+     , (24551,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24551,   1, 'Deadly Barbed Quarrel') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24551,   1,   33554730) /* Setup */
+     , (24551,   3,  536870932) /* SoundTable */
+     , (24551,   6,   67111919) /* PaletteBase */
+     , (24551,   7,  268436306) /* ClothingBase */
+     , (24551,   8,  100674390) /* Icon */
+     , (24551,  22,  872415275) /* PhysicsEffectTable */;

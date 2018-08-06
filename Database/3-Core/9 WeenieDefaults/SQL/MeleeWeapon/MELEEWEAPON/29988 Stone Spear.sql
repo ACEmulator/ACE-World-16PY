@@ -1,52 +1,48 @@
-/* Weenie - Stone Spear (29988) */
-DELETE FROM weenie WHERE class_Id = 29988;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29988, 'spearruschkhigh', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29988, 001 /* NAME_STRING */, 'Stone Spear');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29988, 001 /* SETUP_DID */, 33558589)
-     , (29988, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29988, 008 /* ICON_DID */, 100675768)
-     , (29988, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29988, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29988', 'spearruschkhigh', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29988, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (29988, 005 /* ENCUMB_VAL_INT */, 700)
-     , (29988, 008 /* MASS_INT */, 140)
-     , (29988, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (29988, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29988, 019 /* VALUE_INT */, 425)
-     , (29988, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (29988, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (29988, 044 /* DAMAGE_INT */, 22)
-     , (29988, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (29988, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (29988, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (29988, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (29988, 049 /* WEAPON_TIME_INT */, 30)
-     , (29988, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (29988, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29988, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (29988, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (29988, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (29988, 109 /* ITEM_DIFFICULTY_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29988, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (29988, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (29988, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (29988, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (29988,   1,          1) /* ItemType - MeleeWeapon */
+     , (29988,   5,        700) /* EncumbranceVal */
+     , (29988,   8,        140) /* Mass */
+     , (29988,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (29988,  16,          1) /* ItemUseable - No */
+     , (29988,  19,        425) /* Value */
+     , (29988,  33,         -2) /* Bonded - Destroy */
+     , (29988,  37,       9999) /* ResistItemAppraisal */
+     , (29988,  44,         22) /* Damage */
+     , (29988,  45,          2) /* DamageType - Pierce */
+     , (29988,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (29988,  47,          2) /* AttackType - Thrust */
+     , (29988,  48,          9) /* WeaponSkill - Spear */
+     , (29988,  49,         30) /* WeaponTime */
+     , (29988,  51,          1) /* CombatUse - Melee */
+     , (29988,  93,       1044) /* PhysicsState */
+     , (29988, 106,        250) /* ItemSpellcraft */
+     , (29988, 107,        500) /* ItemCurMana */
+     , (29988, 108,        500) /* ItemMaxMana */
+     , (29988, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29988, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29988, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29988,  22, True ) /* Inscribable */
+     , (29988,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29988,  21,     1.5) /* WeaponLength */
+     , (29988,  22,     0.5) /* DamageVariance */
+     , (29988,  29,       1) /* WeaponDefense */
+     , (29988,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29988,   1, 'Stone Spear') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29988,   1,   33558589) /* Setup */
+     , (29988,   3,  536870932) /* SoundTable */
+     , (29988,   8,  100675768) /* Icon */
+     , (29988,  22,  872415275) /* PhysicsEffectTable */
+     , (29988,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29988, 1615, 2) /* BloodDrinker5_SpellID */
-     , (29988, 1626, 2) /* SwiftKiller5_SpellID */;
-
+VALUES (29988,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (29988,  1626,      2)  /* Aura of Swift Killer Self V */;

@@ -1,62 +1,58 @@
-/* Weenie - Noble Longbow (28491) */
-DELETE FROM weenie WHERE class_Id = 28491;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28491, 'bownoble', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28491, 001 /* NAME_STRING */, 'Noble Longbow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28491, 001 /* SETUP_DID */, 33558862)
-     , (28491, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28491, 008 /* ICON_DID */, 100676976)
-     , (28491, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28491', 'bownoble', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28491, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (28491, 005 /* ENCUMB_VAL_INT */, 650)
-     , (28491, 008 /* MASS_INT */, 140)
-     , (28491, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (28491, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28491, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28491, 019 /* VALUE_INT */, 6000)
-     , (28491, 044 /* DAMAGE_INT */, 0)
-     , (28491, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
-     , (28491, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
-     , (28491, 049 /* WEAPON_TIME_INT */, 45)
-     , (28491, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (28491, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (28491, 052 /* PARENT_LOCATION_INT */, 2)
-     , (28491, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (28491, 060 /* WEAPON_RANGE_INT */, 175)
-     , (28491, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28491, 106 /* ITEM_SPELLCRAFT_INT */, 275)
-     , (28491, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (28491, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (28491, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (28491, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28491, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (28491, 158 /* WIELD_REQUIREMENTS_INT */, 1 /* WIELD_REQUIRES_SKILL_WieldRequirement */)
-     , (28491, 159 /* WIELD_SKILLTYPE_INT */, 2 /* BOW_SKILL */)
-     , (28491, 160 /* WIELD_DIFFICULTY_INT */, 290);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28491, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (28491, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (28491, 029 /* WEAPON_DEFENSE_FLOAT */, 1.09)
-     , (28491, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (28491, 063 /* DAMAGE_MOD_FLOAT */, 2.5)
-     , (28491, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (28491, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.3);
+VALUES (28491,   1,        256) /* ItemType - MissileWeapon */
+     , (28491,   5,        650) /* EncumbranceVal */
+     , (28491,   8,        140) /* Mass */
+     , (28491,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (28491,  16,          1) /* ItemUseable - No */
+     , (28491,  18,          1) /* UiEffects - Magical */
+     , (28491,  19,       6000) /* Value */
+     , (28491,  44,          0) /* Damage */
+     , (28491,  46,         16) /* DefaultCombatStyle - Bow */
+     , (28491,  48,          2) /* WeaponSkill - Bow */
+     , (28491,  49,         45) /* WeaponTime */
+     , (28491,  50,          1) /* AmmoType - Arrow */
+     , (28491,  51,          2) /* CombatUse - Missle */
+     , (28491,  52,          2) /* ParentLocation */
+     , (28491,  53,          3) /* PlacementPosition */
+     , (28491,  60,        175) /* WeaponRange */
+     , (28491,  93,       1044) /* PhysicsState */
+     , (28491, 106,        275) /* ItemSpellcraft */
+     , (28491, 107,        800) /* ItemCurMana */
+     , (28491, 108,        800) /* ItemMaxMana */
+     , (28491, 109,        150) /* ItemDifficulty */
+     , (28491, 150,        103) /* HookPlacement - Hook */
+     , (28491, 151,          2) /* HookType - Wall */
+     , (28491, 158,          1) /* WieldRequirements - Skill */
+     , (28491, 159,          2) /* WieldSkilltype - Bow */
+     , (28491, 160,        290) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28491, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28491,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28491,   5, -0.0333) /* ManaRate */
+     , (28491,  26,    27.3) /* MaximumVelocity */
+     , (28491,  29,    1.09) /* WeaponDefense */
+     , (28491,  62,       1) /* WeaponOffense */
+     , (28491,  63,     2.5) /* DamageMod */
+     , (28491, 136,     2.5) /* CriticalMultiplier */
+     , (28491, 147,     0.3) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28491,   1, 'Noble Longbow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28491,   1,   33558862) /* Setup */
+     , (28491,   3,  536870932) /* SoundTable */
+     , (28491,   8,  100676976) /* Icon */
+     , (28491,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28491, 1604, 2) /* Defender5_SpellID */
-     , (28491, 1359, 2) /* EnduranceOther5_SpellID */
-     , (28491, 1616, 2) /* BloodDrinker6_SpellID */
-     , (28491, 243, 2) /* InvulnerabilityOther5_SpellID */
-     , (28491, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (28491,   243,      2)  /* Invulnerability Other V */
+     , (28491,  1359,      2)  /* Endurance Other V */
+     , (28491,  1604,      2)  /* Aura of Defender Self V */
+     , (28491,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (28491,  1625,      2)  /* Aura of Swift Killer Self IV */;

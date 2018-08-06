@@ -1,70 +1,66 @@
-/* Weenie - Weeping Atlatl (24197) */
-DELETE FROM weenie WHERE class_Id = 24197;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24197, 'atlatlisparianperfectweeping', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24197, 001 /* NAME_STRING */, 'Weeping Atlatl')
-     , (24197, 015 /* SHORT_DESC_STRING */, 'An atlatl infused with the Heart of the Innocent. The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24197, 001 /* SETUP_DID */, 33558290)
-     , (24197, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24197, 008 /* ICON_DID */, 100674270)
-     , (24197, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24197, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24197', 'atlatlisparianperfectweeping', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24197, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (24197, 005 /* ENCUMB_VAL_INT */, 370)
-     , (24197, 008 /* MASS_INT */, 15)
-     , (24197, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (24197, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24197, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (24197, 019 /* VALUE_INT */, 8000)
-     , (24197, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (24197, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (24197, 044 /* DAMAGE_INT */, 0)
-     , (24197, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1024 /* Atlatl_CombatStyle */)
-     , (24197, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (24197, 049 /* WEAPON_TIME_INT */, 15)
-     , (24197, 050 /* AMMO_TYPE_INT */, 4 /* AMMO_ARROW_CRYSTAL */)
-     , (24197, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (24197, 060 /* WEAPON_RANGE_INT */, 120)
-     , (24197, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24197, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (24197, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (24197, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (24197, 109 /* ITEM_DIFFICULTY_INT */, 50)
-     , (24197, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (24197, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24197, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (24197, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (24197, 159 /* WIELD_SKILLTYPE_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (24197, 160 /* WIELD_DIFFICULTY_INT */, 290)
-     , (24197, 166 /* SLAYER_CREATURE_TYPE_INT */, 31 /* Human_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24197, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (24197, 026 /* MAXIMUM_VELOCITY_FLOAT */, 50)
-     , (24197, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (24197, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (24197, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (24197, 063 /* DAMAGE_MOD_FLOAT */, 2.25)
-     , (24197, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 2.9)
-     , (24197, 151 /* IGNORE_SHIELD_FLOAT */, 1);
+VALUES (24197,   1,        256) /* ItemType - MissileWeapon */
+     , (24197,   5,        370) /* EncumbranceVal */
+     , (24197,   8,         15) /* Mass */
+     , (24197,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (24197,  16,          1) /* ItemUseable - No */
+     , (24197,  18,          1) /* UiEffects - Magical */
+     , (24197,  19,       8000) /* Value */
+     , (24197,  33,          1) /* Bonded - Bonded */
+     , (24197,  36,       9999) /* ResistMagic */
+     , (24197,  44,          0) /* Damage */
+     , (24197,  46,       1024) /* DefaultCombatStyle - Atlatl */
+     , (24197,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (24197,  49,         15) /* WeaponTime */
+     , (24197,  50,          4) /* AmmoType - ArrowCrystal */
+     , (24197,  51,          2) /* CombatUse - Missle */
+     , (24197,  60,        120) /* WeaponRange */
+     , (24197,  93,       1044) /* PhysicsState */
+     , (24197, 106,        300) /* ItemSpellcraft */
+     , (24197, 107,        800) /* ItemCurMana */
+     , (24197, 108,        800) /* ItemMaxMana */
+     , (24197, 109,         50) /* ItemDifficulty */
+     , (24197, 114,          1) /* Attuned - Attuned */
+     , (24197, 150,        103) /* HookPlacement - Hook */
+     , (24197, 151,          2) /* HookType - Wall */
+     , (24197, 158,          2) /* WieldRequirements - RawSkill */
+     , (24197, 159,         12) /* WieldSkilltype - ThrownWeapon */
+     , (24197, 160,        290) /* WieldDifficulty */
+     , (24197, 166,         31) /* SlayerCreatureType - Human */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24197, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24197, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (24197, 069 /* IS_SELLABLE_BOOL */, False)
-     , (24197, 099 /* IVORYABLE_BOOL */, True);
+VALUES (24197,  22, True ) /* Inscribable */
+     , (24197,  23, True ) /* DestroyOnSell */
+     , (24197,  69, False) /* IsSellable */
+     , (24197,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24197,   5,  -0.025) /* ManaRate */
+     , (24197,  26,      50) /* MaximumVelocity */
+     , (24197,  29,       1) /* WeaponDefense */
+     , (24197,  39,       1) /* DefaultScale */
+     , (24197,  62,       1) /* WeaponOffense */
+     , (24197,  63,    2.25) /* DamageMod */
+     , (24197, 138,     2.9) /* SlayerDamageBonus */
+     , (24197, 151,       1) /* IgnoreShield */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24197,   1, 'Weeping Atlatl') /* Name */
+     , (24197,  15, 'An atlatl infused with the Heart of the Innocent. The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24197,   1,   33558290) /* Setup */
+     , (24197,   3,  536870932) /* SoundTable */
+     , (24197,   8,  100674270) /* Icon */
+     , (24197,  22,  872415275) /* PhysicsEffectTable */
+     , (24197,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24197, 2968, 2) /* VisionHunter_SpellID */
-     , (24197, 2695, 2) /* ModerateThrownAptitude_SpellID */
-     , (24197, 2964, 2) /* MarkHunter_SpellID */
-     , (24197, 2966, 2) /* MurderousThirst_SpellID */
-     , (24197, 2967, 2) /* SpeedHunter_SpellID */;
-
+VALUES (24197,  2695,      2)  /* Moderate Missile Weapon Aptitude */
+     , (24197,  2964,      2)  /* Aura of Hunter's Mark */
+     , (24197,  2966,      2)  /* Aura of Murderous Thirst */
+     , (24197,  2967,      2)  /* Aura of The Speedy Hunter */
+     , (24197,  2968,      2)  /* Vision of the Hunter */;

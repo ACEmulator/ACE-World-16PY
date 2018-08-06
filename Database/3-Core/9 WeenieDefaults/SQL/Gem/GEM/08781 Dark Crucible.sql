@@ -1,43 +1,39 @@
-/* Weenie - Dark Crucible (8781) */
-DELETE FROM weenie WHERE class_Id = 8781;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8781, 'crucibledark', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8781, 001 /* NAME_STRING */, 'Dark Crucible')
-     , (8781, 014 /* USE_STRING */, 'This is to be given to an Emissary of Asheron.')
-     , (8781, 015 /* SHORT_DESC_STRING */, 'An artifact of strange and uncertain properties.')
-     , (8781, 016 /* LONG_DESC_STRING */, 'A magical artifact resulting from the combination of the Dark Singularity and the Skull of Avoren Palacost.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8781, 001 /* SETUP_DID */, 33556925)
-     , (8781, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8781, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8781, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (8781, 008 /* ICON_DID */, 100671220)
-     , (8781, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8781, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8781', 'crucibledark', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8781, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8781, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (8781, 005 /* ENCUMB_VAL_INT */, 50)
-     , (8781, 008 /* MASS_INT */, 10)
-     , (8781, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8781, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (8781, 012 /* STACK_SIZE_INT */, 1)
-     , (8781, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (8781, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (8781, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (8781, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8781, 019 /* VALUE_INT */, 0)
-     , (8781, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8781, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8781, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (8781,   1,       2048) /* ItemType - Gem */
+     , (8781,   3,         39) /* PaletteTemplate - Black */
+     , (8781,   5,         50) /* EncumbranceVal */
+     , (8781,   8,         10) /* Mass */
+     , (8781,   9,          0) /* ValidLocations - None */
+     , (8781,  11,          1) /* MaxStackSize */
+     , (8781,  12,          1) /* StackSize */
+     , (8781,  13,         50) /* StackUnitEncumbrance */
+     , (8781,  14,         10) /* StackUnitMass */
+     , (8781,  15,          0) /* StackUnitValue */
+     , (8781,  16,          1) /* ItemUseable - No */
+     , (8781,  19,          0) /* Value */
+     , (8781,  93,       1044) /* PhysicsState */
+     , (8781, 150,        103) /* HookPlacement - Hook */
+     , (8781, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8781, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8781, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (8781, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (8781,  22, True ) /* Inscribable */
+     , (8781,  23, True ) /* DestroyOnSell */
+     , (8781,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8781,   1, 'Dark Crucible') /* Name */
+     , (8781,  14, 'This is to be given to an Emissary of Asheron.') /* Use */
+     , (8781,  15, 'An artifact of strange and uncertain properties.') /* ShortDesc */
+     , (8781,  16, 'A magical artifact resulting from the combination of the Dark Singularity and the Skull of Avoren Palacost.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8781,   1,   33556925) /* Setup */
+     , (8781,   3,  536870932) /* SoundTable */
+     , (8781,   6,   67111919) /* PaletteBase */
+     , (8781,   7,  268435723) /* ClothingBase */
+     , (8781,   8,  100671220) /* Icon */
+     , (8781,  22,  872415275) /* PhysicsEffectTable */
+     , (8781,  36,  234881046) /* MutateFilter */;

@@ -1,43 +1,39 @@
-/* Weenie - Olthoi Gland (25279) */
-DELETE FROM weenie WHERE class_Id = 25279;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25279, 'glandolthoie5', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25279, 001 /* NAME_STRING */, 'Olthoi Gland')
-     , (25279, 016 /* LONG_DESC_STRING */, 'This gland was taken from a fallen Olthoi Queen. It is unclear whether it was successfully extracted from the dead creature.')
-     , (25279, 033 /* QUEST_STRING */, 'GlandCollected');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25279, 001 /* SETUP_DID */, 33554809)
-     , (25279, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25279, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (25279, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (25279, 008 /* ICON_DID */, 100674711)
-     , (25279, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (25279, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25279', 'glandolthoie5', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25279, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (25279, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (25279, 005 /* ENCUMB_VAL_INT */, 500)
-     , (25279, 008 /* MASS_INT */, 20)
-     , (25279, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25279, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (25279, 012 /* STACK_SIZE_INT */, 1)
-     , (25279, 013 /* STACK_UNIT_ENCUMB_INT */, 500)
-     , (25279, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (25279, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (25279, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25279, 019 /* VALUE_INT */, 0)
-     , (25279, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25279, 037 /* RESIST_ITEM_APPRAISAL_INT */, 10)
-     , (25279, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25279, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (25279, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25279, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (25279,   1,       2048) /* ItemType - Gem */
+     , (25279,   3,         39) /* PaletteTemplate - Black */
+     , (25279,   5,        500) /* EncumbranceVal */
+     , (25279,   8,         20) /* Mass */
+     , (25279,   9,          0) /* ValidLocations - None */
+     , (25279,  11,          1) /* MaxStackSize */
+     , (25279,  12,          1) /* StackSize */
+     , (25279,  13,        500) /* StackUnitEncumbrance */
+     , (25279,  14,         20) /* StackUnitMass */
+     , (25279,  15,          0) /* StackUnitValue */
+     , (25279,  16,          1) /* ItemUseable - No */
+     , (25279,  19,          0) /* Value */
+     , (25279,  33,          1) /* Bonded - Bonded */
+     , (25279,  37,         10) /* ResistItemAppraisal */
+     , (25279,  93,       1044) /* PhysicsState */
+     , (25279, 114,          1) /* Attuned - Attuned */
+     , (25279, 150,        103) /* HookPlacement - Hook */
+     , (25279, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25279, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (25279,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25279,   1, 'Olthoi Gland') /* Name */
+     , (25279,  16, 'This gland was taken from a fallen Olthoi Queen. It is unclear whether it was successfully extracted from the dead creature.') /* LongDesc */
+     , (25279,  33, 'GlandCollected') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25279,   1,   33554809) /* Setup */
+     , (25279,   3,  536870932) /* SoundTable */
+     , (25279,   6,   67111919) /* PaletteBase */
+     , (25279,   7,  268435723) /* ClothingBase */
+     , (25279,   8,  100674711) /* Icon */
+     , (25279,  22,  872415275) /* PhysicsEffectTable */
+     , (25279,  36,  234881046) /* MutateFilter */;

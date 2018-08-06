@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Martyr's Tenacity I (21109) */
-DELETE FROM weenie WHERE class_Id = 21109;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21109, 'scrollstaminabolt', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21109, 001 /* NAME_STRING */, 'Scroll of Martyr''s Tenacity I')
-     , (21109, 015 /* SHORT_DESC_STRING */, 'When learned, this spell drains one-quarter of the casters Stamina into a bolt of energy which shoots at the target.  The bolt does 50% of the amount drained.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21109, 001 /* SETUP_DID */, 33554826)
-     , (21109, 008 /* ICON_DID */, 100676936)
-     , (21109, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21109, 028 /* SPELL_DID */, 2767 /* StaminaBolt1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21109', 'scrollstaminabolt', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21109, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (21109, 005 /* ENCUMB_VAL_INT */, 30)
-     , (21109, 008 /* MASS_INT */, 90)
-     , (21109, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (21109, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (21109, 019 /* VALUE_INT */, 1)
-     , (21109, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21109, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (21109,   1,       8192) /* ItemType - Writable */
+     , (21109,   5,         30) /* EncumbranceVal */
+     , (21109,   8,         90) /* Mass */
+     , (21109,   9,          0) /* ValidLocations - None */
+     , (21109,  16,          8) /* ItemUseable - Contained */
+     , (21109,  19,          1) /* Value */
+     , (21109,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21109, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21109, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (21109,  22, True ) /* Inscribable */
+     , (21109,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21109,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21109,   1, 'Scroll of Martyr''s Tenacity I') /* Name */
+     , (21109,  15, 'When learned, this spell drains one-quarter of the casters Stamina into a bolt of energy which shoots at the target.  The bolt does 50% of the amount drained.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21109,   1,   33554826) /* Setup */
+     , (21109,   8,  100676936) /* Icon */
+     , (21109,  22,  872415275) /* PhysicsEffectTable */
+     , (21109,  28,       2767) /* Spell - Martyr's Tenacity I */;

@@ -1,32 +1,28 @@
-/* Weenie - Monougat (12253) */
-DELETE FROM weenie WHERE class_Id = 12253;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12253, 'monougat', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12253, 001 /* NAME_STRING */, 'Monougat')
-     , (12253, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (12253, 020 /* PLURAL_NAME_STRING */, 'Chunks of Monougat');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12253, 001 /* SETUP_DID */, 33555968)
-     , (12253, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12253, 008 /* ICON_DID */, 100672210)
-     , (12253, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12253', 'monougat', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12253, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (12253, 005 /* ENCUMB_VAL_INT */, 50)
-     , (12253, 008 /* MASS_INT */, 25)
-     , (12253, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (12253, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (12253, 012 /* STACK_SIZE_INT */, 1)
-     , (12253, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (12253, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (12253, 015 /* STACK_UNIT_VALUE_INT */, 4)
-     , (12253, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (12253, 019 /* VALUE_INT */, 4)
-     , (12253, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12253, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */);
+VALUES (12253,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (12253,   5,         50) /* EncumbranceVal */
+     , (12253,   8,         25) /* Mass */
+     , (12253,   9,          0) /* ValidLocations - None */
+     , (12253,  11,        100) /* MaxStackSize */
+     , (12253,  12,          1) /* StackSize */
+     , (12253,  13,         50) /* StackUnitEncumbrance */
+     , (12253,  14,         25) /* StackUnitMass */
+     , (12253,  15,          4) /* StackUnitValue */
+     , (12253,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (12253,  19,          4) /* Value */
+     , (12253,  93,       1044) /* PhysicsState */
+     , (12253,  94,    4194336) /* TargetType */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12253,   1, 'Monougat') /* Name */
+     , (12253,  14, 'This item is used in cooking.') /* Use */
+     , (12253,  20, 'Chunks of Monougat') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12253,   1,   33555968) /* Setup */
+     , (12253,   3,  536870932) /* SoundTable */
+     , (12253,   8,  100672210) /* Icon */
+     , (12253,  22,  872415275) /* PhysicsEffectTable */;

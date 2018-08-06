@@ -1,34 +1,30 @@
-/* Weenie - Banderling Savage Arm (24829) */
-DELETE FROM weenie WHERE class_Id = 24829;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24829, 'banderlingarmsavage', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24829, 001 /* NAME_STRING */, 'Banderling Savage Arm');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24829, 001 /* SETUP_DID */, 33554817)
-     , (24829, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24829, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24829, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (24829, 008 /* ICON_DID */, 100674484)
-     , (24829, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24829', 'banderlingarmsavage', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24829, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24829, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (24829, 005 /* ENCUMB_VAL_INT */, 560)
-     , (24829, 008 /* MASS_INT */, 60)
-     , (24829, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24829, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24829, 019 /* VALUE_INT */, 500)
-     , (24829, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24829, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (24829,   1,        128) /* ItemType - Misc */
+     , (24829,   3,          8) /* PaletteTemplate - Green */
+     , (24829,   5,        560) /* EncumbranceVal */
+     , (24829,   8,         60) /* Mass */
+     , (24829,   9,          0) /* ValidLocations - None */
+     , (24829,  16,          1) /* ItemUseable - No */
+     , (24829,  19,        500) /* Value */
+     , (24829,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24829, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24829, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24829,  22, True ) /* Inscribable */
+     , (24829,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24829,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24829,   1, 'Banderling Savage Arm') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24829,   1,   33554817) /* Setup */
+     , (24829,   3,  536870932) /* SoundTable */
+     , (24829,   6,   67111919) /* PaletteBase */
+     , (24829,   7,  268435832) /* ClothingBase */
+     , (24829,   8,  100674484) /* Icon */
+     , (24829,  22,  872415275) /* PhysicsEffectTable */;

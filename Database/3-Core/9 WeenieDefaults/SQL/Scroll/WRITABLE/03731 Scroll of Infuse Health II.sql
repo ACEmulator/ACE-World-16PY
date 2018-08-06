@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Infuse Health II (3731) */
-DELETE FROM weenie WHERE class_Id = 3731;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3731, 'scrollinfusehealth2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3731, 001 /* NAME_STRING */, 'Scroll of Infuse Health II')
-     , (3731, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3731, 016 /* LONG_DESC_STRING */, 'When learned, this spell drains one-quarter of the caster''s Health and gives 30% of that to the target.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3731, 001 /* SETUP_DID */, 33554826)
-     , (3731, 008 /* ICON_DID */, 100676931)
-     , (3731, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3731, 028 /* SPELL_DID */, 1226 /* InfuseHealth2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3731', 'scrollinfusehealth2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3731, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3731, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3731, 008 /* MASS_INT */, 90)
-     , (3731, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3731, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3731, 019 /* VALUE_INT */, 5)
-     , (3731, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3731, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3731,   1,       8192) /* ItemType - Writable */
+     , (3731,   5,         30) /* EncumbranceVal */
+     , (3731,   8,         90) /* Mass */
+     , (3731,   9,          0) /* ValidLocations - None */
+     , (3731,  16,          8) /* ItemUseable - Contained */
+     , (3731,  19,          5) /* Value */
+     , (3731,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3731, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3731, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3731,  22, True ) /* Inscribable */
+     , (3731,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3731,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3731,   1, 'Scroll of Infuse Health II') /* Name */
+     , (3731,  15, 'A magic scroll.') /* ShortDesc */
+     , (3731,  16, 'When learned, this spell drains one-quarter of the caster''s Health and gives 30% of that to the target.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3731,   1,   33554826) /* Setup */
+     , (3731,   8,  100676931) /* Icon */
+     , (3731,  22,  872415275) /* PhysicsEffectTable */
+     , (3731,  28,       1226) /* Spell - Infuse Health Other II */;

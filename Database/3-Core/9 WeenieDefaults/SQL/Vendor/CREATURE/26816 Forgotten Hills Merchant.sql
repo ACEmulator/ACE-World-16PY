@@ -1,104 +1,100 @@
-/* Weenie - Forgotten Hills Merchant (26816) */
-DELETE FROM weenie WHERE class_Id = 26816;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26816, 'forgottenhillsvendor', 12 /* Vendor_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26816, 001 /* NAME_STRING */, 'Forgotten Hills Merchant')
-     , (26816, 003 /* SEX_STRING */, 'Male')
-     , (26816, 004 /* HERITAGE_GROUP_STRING */, 'Aluvian')
-     , (26816, 005 /* TEMPLATE_STRING */, 'Merchant');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26816, 001 /* SETUP_DID */, 33554433)
-     , (26816, 002 /* MOTION_TABLE_DID */, 150994945)
-     , (26816, 003 /* SOUND_TABLE_DID */, 536870913)
-     , (26816, 004 /* COMBAT_TABLE_DID */, 805306368)
-     , (26816, 008 /* ICON_DID */, 100667446);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26816', 'forgottenhillsvendor', 12) /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26816, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26816, 002 /* CREATURE_TYPE_INT */, 31 /* Human_CreatureType */)
-     , (26816, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (26816, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (26816, 008 /* MASS_INT */, 120)
-     , (26816, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (26816, 025 /* LEVEL_INT */, 10)
-     , (26816, 027 /* ARMOR_TYPE_INT */, 0)
-     , (26816, 074 /* MERCHANDISE_ITEM_TYPES_INT */, 264192 /* TYPE_GEM, TYPE_PROMISSORY_NOTE */)
-     , (26816, 075 /* MERCHANDISE_MIN_VALUE_INT */, 0)
-     , (26816, 076 /* MERCHANDISE_MAX_VALUE_INT */, 1000000)
-     , (26816, 093 /* PHYSICS_STATE_INT */, 2098204 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS */)
-     , (26816, 126 /* VENDOR_HAPPY_MEAN_INT */, 125)
-     , (26816, 127 /* VENDOR_HAPPY_VARIANCE_INT */, 125)
-     , (26816, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
-     , (26816, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
-     , (26816, 146 /* XP_OVERRIDE_INT */, 277);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26816, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
-     , (26816, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
-     , (26816, 003 /* HEALTH_RATE_FLOAT */, 0.16)
-     , (26816, 004 /* STAMINA_RATE_FLOAT */, 5)
-     , (26816, 005 /* MANA_RATE_FLOAT */, 1)
-     , (26816, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (26816, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (26816, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (26816, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (26816, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (26816, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (26816, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (26816, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (26816, 037 /* BUY_PRICE_FLOAT */, 0.5)
-     , (26816, 038 /* SELL_PRICE_FLOAT */, 1.5)
-     , (26816, 054 /* USE_RADIUS_FLOAT */, 3)
-     , (26816, 064 /* RESIST_SLASH_FLOAT */, 1)
-     , (26816, 065 /* RESIST_PIERCE_FLOAT */, 1)
-     , (26816, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
-     , (26816, 067 /* RESIST_FIRE_FLOAT */, 1)
-     , (26816, 068 /* RESIST_COLD_FLOAT */, 1)
-     , (26816, 069 /* RESIST_ACID_FLOAT */, 1)
-     , (26816, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
-     , (26816, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
-     , (26816, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
-     , (26816, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
-     , (26816, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
-     , (26816, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
-     , (26816, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
-     , (26816, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
+VALUES (26816,   1,         16) /* ItemType - Creature */
+     , (26816,   2,         31) /* CreatureType - Human */
+     , (26816,   6,         -1) /* ItemsCapacity */
+     , (26816,   7,         -1) /* ContainersCapacity */
+     , (26816,   8,        120) /* Mass */
+     , (26816,  16,         32) /* ItemUseable - Remote */
+     , (26816,  25,         10) /* Level */
+     , (26816,  27,          0) /* ArmorType */
+     , (26816,  74,     264192) /* MerchandiseItemTypes */
+     , (26816,  75,          0) /* MerchandiseMinValue */
+     , (26816,  76,    1000000) /* MerchandiseMaxValue */
+     , (26816,  93,    2098204) /* PhysicsState */
+     , (26816, 126,        125) /* VendorHappyMean */
+     , (26816, 127,        125) /* VendorHappyVariance */
+     , (26816, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (26816, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (26816, 146,        277) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26816, 001 /* STUCK_BOOL */, True)
-     , (26816, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (26816, 019 /* ATTACKABLE_BOOL */, False)
-     , (26816, 039 /* DEAL_MAGICAL_ITEMS_BOOL */, True)
-     , (26816, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True);
+VALUES (26816,   1, True ) /* Stuck */
+     , (26816,  12, True ) /* ReportCollisions */
+     , (26816,  19, False) /* Attackable */
+     , (26816,  39, True ) /* DealMagicalItems */
+     , (26816,  41, True ) /* ReportCollisionsAsEnvironment */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (26816,   1,       5) /* HeartbeatInterval */
+     , (26816,   2,       0) /* HeartbeatTimestamp */
+     , (26816,   3,    0.16) /* HealthRate */
+     , (26816,   4,       5) /* StaminaRate */
+     , (26816,   5,       1) /* ManaRate */
+     , (26816,  11,     300) /* ResetInterval */
+     , (26816,  13,       1) /* ArmorModVsSlash */
+     , (26816,  14,       1) /* ArmorModVsPierce */
+     , (26816,  15,       1) /* ArmorModVsBludgeon */
+     , (26816,  16,       1) /* ArmorModVsCold */
+     , (26816,  17,       1) /* ArmorModVsFire */
+     , (26816,  18,       1) /* ArmorModVsAcid */
+     , (26816,  19,       1) /* ArmorModVsElectric */
+     , (26816,  37,     0.5) /* BuyPrice */
+     , (26816,  38,     1.5) /* SellPrice */
+     , (26816,  54,       3) /* UseRadius */
+     , (26816,  64,       1) /* ResistSlash */
+     , (26816,  65,       1) /* ResistPierce */
+     , (26816,  66,       1) /* ResistBludgeon */
+     , (26816,  67,       1) /* ResistFire */
+     , (26816,  68,       1) /* ResistCold */
+     , (26816,  69,       1) /* ResistAcid */
+     , (26816,  70,       1) /* ResistElectric */
+     , (26816,  71,       1) /* ResistHealthBoost */
+     , (26816,  72,       1) /* ResistStaminaDrain */
+     , (26816,  73,       1) /* ResistStaminaBoost */
+     , (26816,  74,       1) /* ResistManaDrain */
+     , (26816,  75,       1) /* ResistManaBoost */
+     , (26816, 104,      10) /* ObviousRadarRange */
+     , (26816, 125,       1) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26816,   1, 'Forgotten Hills Merchant') /* Name */
+     , (26816,   3, 'Male') /* Sex */
+     , (26816,   4, 'Aluvian') /* HeritageGroup */
+     , (26816,   5, 'Merchant') /* Template */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26816,   1,   33554433) /* Setup */
+     , (26816,   2,  150994945) /* MotionTable */
+     , (26816,   3,  536870913) /* SoundTable */
+     , (26816,   4,  805306368) /* CombatTable */
+     , (26816,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (26816, 1, 90, 0, 0) /* STRENGTH_ATTRIBUTE */
-     , (26816, 2, 90, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (26816, 3, 85, 0, 0) /* QUICKNESS_ATTRIBUTE */
-     , (26816, 4, 80, 0, 0) /* COORDINATION_ATTRIBUTE */
-     , (26816, 5, 40, 0, 0) /* FOCUS_ATTRIBUTE */
-     , (26816, 6, 45, 0, 0) /* SELF_ATTRIBUTE */;
+VALUES (26816,   1,  90, 0, 0) /* Strength */
+     , (26816,   2,  90, 0, 0) /* Endurance */
+     , (26816,   3,  85, 0, 0) /* Quickness */
+     , (26816,   4,  80, 0, 0) /* Coordination */
+     , (26816,   5,  40, 0, 0) /* Focus */
+     , (26816,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26816, 1, 90, 0, 0, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (26816, 3, 100, 0, 0, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (26816, 5, 50, 0, 0, 95) /* MAX_MANA_ATTRIBUTE_2ND */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26816, 4, 26181, -1, 0, 0, False) /* Create Forgotten Hills Portal Gem for Shop_DestinationType */;
+VALUES (26816,   1,    90, 0, 0, 135) /* MaxHealth */
+     , (26816,   3,   100, 0, 0, 190) /* MaxStamina */
+     , (26816,   5,    50, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (26816, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
-     , (26816, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
-     , (26816, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
-     , (26816, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
-     , (26816, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
-     , (26816, 5, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
-     , (26816, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (26816, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
-     , (26816, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
+VALUES (26816,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (26816,  1,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (26816,  2,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (26816,  3,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (26816,  4,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (26816,  5,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (26816,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (26816,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (26816,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (26816, 4, 26181, -1, 0, 0, False) /* Create Forgotten Hills Portal Gem for Shop */;

@@ -1,42 +1,38 @@
-/* Weenie - Name Me Please (28756) */
-DELETE FROM weenie WHERE class_Id = 28756;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28756, 'noteanton', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28756, 001 /* NAME_STRING */, 'Name Me Please')
-     , (28756, 015 /* SHORT_DESC_STRING */, 'Short description does not show up in game.')
-     , (28756, 016 /* LONG_DESC_STRING */, 'Long description shows up when players ID an item.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28756, 001 /* SETUP_DID */, 33554771)
-     , (28756, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28756, 008 /* ICON_DID */, 100668117)
-     , (28756, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28756', 'noteanton', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28756, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28756, 005 /* ENCUMB_VAL_INT */, 100)
-     , (28756, 008 /* MASS_INT */, 230)
-     , (28756, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28756, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28756, 019 /* VALUE_INT */, 10)
-     , (28756, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
-     , (28756, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28756, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28756, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (28756,   1,       8192) /* ItemType - Writable */
+     , (28756,   5,        100) /* EncumbranceVal */
+     , (28756,   8,        230) /* Mass */
+     , (28756,   9,          0) /* ValidLocations - None */
+     , (28756,  16,          8) /* ItemUseable - Contained */
+     , (28756,  19,         10) /* Value */
+     , (28756,  33,          0) /* Bonded - Normal */
+     , (28756,  93,       1044) /* PhysicsState */
+     , (28756, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28756, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (28756,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28756,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28756,   1, 'Name Me Please') /* Name */
+     , (28756,  15, 'Short description does not show up in game.') /* ShortDesc */
+     , (28756,  16, 'Long description shows up when players ID an item.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28756,   1,   33554771) /* Setup */
+     , (28756,   3,  536870932) /* SoundTable */
+     , (28756,   8,  100668117) /* Icon */
+     , (28756,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28756, 1, 1000) /* Book Data */;
+VALUES (28756, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28756, 0, 4294967295, 'Author Name', 'prewritten', False, '
 Words, words, words.
 ');
-

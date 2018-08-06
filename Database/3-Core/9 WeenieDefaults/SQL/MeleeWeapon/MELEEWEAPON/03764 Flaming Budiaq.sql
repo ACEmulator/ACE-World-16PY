@@ -1,49 +1,45 @@
-/* Weenie - Flaming Budiaq (3764) */
-DELETE FROM weenie WHERE class_Id = 3764;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3764, 'budiaqfire', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3764, 001 /* NAME_STRING */, 'Flaming Budiaq');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3764, 001 /* SETUP_DID */, 33555412)
-     , (3764, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3764, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3764, 007 /* CLOTHINGBASE_DID */, 268435768)
-     , (3764, 008 /* ICON_DID */, 100667609)
-     , (3764, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3764, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3764, 046 /* TSYS_MUTATION_FILTER_DID */, 939524100);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3764', 'budiaqfire', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3764, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3764, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (3764, 005 /* ENCUMB_VAL_INT */, 800)
-     , (3764, 008 /* MASS_INT */, 160)
-     , (3764, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3764, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3764, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (3764, 019 /* VALUE_INT */, 525)
-     , (3764, 044 /* DAMAGE_INT */, 10)
-     , (3764, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (3764, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3764, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (3764, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (3764, 049 /* WEAPON_TIME_INT */, 35)
-     , (3764, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3764, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3764, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3764, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3764, 169 /* TSYS_MUTATION_DATA_INT */, 101188618);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3764, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (3764, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (3764, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3764, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3764,   1,          1) /* ItemType - MeleeWeapon */
+     , (3764,   3,         20) /* PaletteTemplate - Silver */
+     , (3764,   5,        800) /* EncumbranceVal */
+     , (3764,   8,        160) /* Mass */
+     , (3764,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3764,  16,          1) /* ItemUseable - No */
+     , (3764,  18,         32) /* UiEffects - Fire */
+     , (3764,  19,        525) /* Value */
+     , (3764,  44,         10) /* Damage */
+     , (3764,  45,         16) /* DamageType - Fire */
+     , (3764,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3764,  47,          2) /* AttackType - Thrust */
+     , (3764,  48,          9) /* WeaponSkill - Spear */
+     , (3764,  49,         35) /* WeaponTime */
+     , (3764,  51,          1) /* CombatUse - Melee */
+     , (3764,  93,       1044) /* PhysicsState */
+     , (3764, 150,        103) /* HookPlacement - Hook */
+     , (3764, 151,          2) /* HookType - Wall */
+     , (3764, 169,  101188618) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3764, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3764,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3764,  21,     1.5) /* WeaponLength */
+     , (3764,  22,    0.75) /* DamageVariance */
+     , (3764,  29,       1) /* WeaponDefense */
+     , (3764,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3764,   1, 'Flaming Budiaq') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3764,   1,   33555412) /* Setup */
+     , (3764,   3,  536870932) /* SoundTable */
+     , (3764,   6,   67111919) /* PaletteBase */
+     , (3764,   7,  268435768) /* ClothingBase */
+     , (3764,   8,  100667609) /* Icon */
+     , (3764,  22,  872415275) /* PhysicsEffectTable */
+     , (3764,  36,  234881053) /* MutateFilter */
+     , (3764,  46,  939524100) /* TsysMutationFilter */;

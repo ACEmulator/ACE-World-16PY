@@ -1,49 +1,45 @@
-/* Weenie - Frost Yaoji (3912) */
-DELETE FROM weenie WHERE class_Id = 3912;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3912, 'yaojifrost', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3912, 001 /* NAME_STRING */, 'Frost Yaoji');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3912, 001 /* SETUP_DID */, 33555810)
-     , (3912, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3912, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3912, 007 /* CLOTHINGBASE_DID */, 268435775)
-     , (3912, 008 /* ICON_DID */, 100667621)
-     , (3912, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3912, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3912', 'yaojifrost', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3912, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3912, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (3912, 005 /* ENCUMB_VAL_INT */, 350)
-     , (3912, 008 /* MASS_INT */, 140)
-     , (3912, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3912, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3912, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (3912, 019 /* VALUE_INT */, 550)
-     , (3912, 044 /* DAMAGE_INT */, 8)
-     , (3912, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (3912, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3912, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (3912, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (3912, 049 /* WEAPON_TIME_INT */, 30)
-     , (3912, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3912, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3912, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3912, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3912, 169 /* TSYS_MUTATION_DATA_INT */, 101254146);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3912, 021 /* WEAPON_LENGTH_FLOAT */, 0.8)
-     , (3912, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3912, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3912, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3912,   1,          1) /* ItemType - MeleeWeapon */
+     , (3912,   3,         20) /* PaletteTemplate - Silver */
+     , (3912,   5,        350) /* EncumbranceVal */
+     , (3912,   8,        140) /* Mass */
+     , (3912,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3912,  16,          1) /* ItemUseable - No */
+     , (3912,  18,        128) /* UiEffects - Frost */
+     , (3912,  19,        550) /* Value */
+     , (3912,  44,          8) /* Damage */
+     , (3912,  45,          8) /* DamageType - Cold */
+     , (3912,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3912,  47,          6) /* AttackType */
+     , (3912,  48,         11) /* WeaponSkill - Sword */
+     , (3912,  49,         30) /* WeaponTime */
+     , (3912,  51,          1) /* CombatUse - Melee */
+     , (3912,  93,       1044) /* PhysicsState */
+     , (3912, 150,        103) /* HookPlacement - Hook */
+     , (3912, 151,          2) /* HookType - Wall */
+     , (3912, 169,  101254146) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3912, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3912, 099 /* IVORYABLE_BOOL */, True);
+VALUES (3912,  22, True ) /* Inscribable */
+     , (3912,  99, True ) /* Ivoryable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3912,  21,     0.8) /* WeaponLength */
+     , (3912,  22,     0.5) /* DamageVariance */
+     , (3912,  29,       1) /* WeaponDefense */
+     , (3912,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3912,   1, 'Frost Yaoji') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3912,   1,   33555810) /* Setup */
+     , (3912,   3,  536870932) /* SoundTable */
+     , (3912,   6,   67111919) /* PaletteBase */
+     , (3912,   7,  268435775) /* ClothingBase */
+     , (3912,   8,  100667621) /* Icon */
+     , (3912,  22,  872415275) /* PhysicsEffectTable */
+     , (3912,  36,  234881044) /* MutateFilter */;

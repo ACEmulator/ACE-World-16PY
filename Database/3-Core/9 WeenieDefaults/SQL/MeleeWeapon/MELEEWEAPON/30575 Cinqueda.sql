@@ -1,49 +1,45 @@
-/* Weenie - Cinqueda (30575) */
-DELETE FROM weenie WHERE class_Id = 30575;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30575, 'swordspadafrost', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30575, 001 /* NAME_STRING */, 'Cinqueda');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30575, 001 /* SETUP_DID */, 33554760)
-     , (30575, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30575, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30575, 007 /* CLOTHINGBASE_DID */, 268435772)
-     , (30575, 008 /* ICON_DID */, 100669035)
-     , (30575, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30575, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30575', 'swordspadafrost', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30575, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30575, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (30575, 005 /* ENCUMB_VAL_INT */, 350)
-     , (30575, 008 /* MASS_INT */, 140)
-     , (30575, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30575, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30575, 019 /* VALUE_INT */, 160)
-     , (30575, 044 /* DAMAGE_INT */, 12)
-     , (30575, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (30575, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30575, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (30575, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (30575, 049 /* WEAPON_TIME_INT */, 30)
-     , (30575, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30575, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30575, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30575, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (30575, 169 /* TSYS_MUTATION_DATA_INT */, 101254914);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30575, 021 /* WEAPON_LENGTH_FLOAT */, 0.68)
-     , (30575, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (30575, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (30575, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (30575, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (30575,   1,          1) /* ItemType - MeleeWeapon */
+     , (30575,   3,         20) /* PaletteTemplate - Silver */
+     , (30575,   5,        350) /* EncumbranceVal */
+     , (30575,   8,        140) /* Mass */
+     , (30575,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30575,  16,          1) /* ItemUseable - No */
+     , (30575,  19,        160) /* Value */
+     , (30575,  44,         12) /* Damage */
+     , (30575,  45,          3) /* DamageType */
+     , (30575,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (30575,  47,          6) /* AttackType */
+     , (30575,  48,         11) /* WeaponSkill - Sword */
+     , (30575,  49,         30) /* WeaponTime */
+     , (30575,  51,          1) /* CombatUse - Melee */
+     , (30575,  93,       1044) /* PhysicsState */
+     , (30575, 150,        103) /* HookPlacement - Hook */
+     , (30575, 151,          2) /* HookType - Wall */
+     , (30575, 169,  101254914) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30575, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30575, 099 /* IVORYABLE_BOOL */, True);
+VALUES (30575,  22, True ) /* Inscribable */
+     , (30575,  99, True ) /* Ivoryable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30575,  21,    0.68) /* WeaponLength */
+     , (30575,  22,     0.5) /* DamageVariance */
+     , (30575,  29,       1) /* WeaponDefense */
+     , (30575,  39,     1.1) /* DefaultScale */
+     , (30575,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30575,   1, 'Cinqueda') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30575,   1,   33554760) /* Setup */
+     , (30575,   3,  536870932) /* SoundTable */
+     , (30575,   6,   67111919) /* PaletteBase */
+     , (30575,   7,  268435772) /* ClothingBase */
+     , (30575,   8,  100669035) /* Icon */
+     , (30575,  22,  872415275) /* PhysicsEffectTable */
+     , (30575,  36,  234881044) /* MutateFilter */;

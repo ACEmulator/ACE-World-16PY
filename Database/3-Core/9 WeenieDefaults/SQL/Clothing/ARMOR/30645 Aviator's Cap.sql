@@ -1,67 +1,63 @@
-/* Weenie - Aviator's Cap (30645) */
-DELETE FROM weenie WHERE class_Id = 30645;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30645, 'aviatorscap', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30645, 001 /* NAME_STRING */, 'Aviator''s Cap');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30645, 001 /* SETUP_DID */, 33559211)
-     , (30645, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30645, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (30645, 007 /* CLOTHINGBASE_DID */, 268436894)
-     , (30645, 008 /* ICON_DID */, 100677392)
-     , (30645, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30645', 'aviatorscap', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30645, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (30645, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (30645, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (30645, 005 /* ENCUMB_VAL_INT */, 210)
-     , (30645, 008 /* MASS_INT */, 200)
-     , (30645, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (30645, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30645, 019 /* VALUE_INT */, 6000)
-     , (30645, 027 /* ARMOR_TYPE_INT */, 32)
-     , (30645, 028 /* ARMOR_LEVEL_INT */, 275)
-     , (30645, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (30645, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30645, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (30645, 107 /* ITEM_CUR_MANA_INT */, 3256)
-     , (30645, 108 /* ITEM_MAX_MANA_INT */, 3256)
-     , (30645, 109 /* ITEM_DIFFICULTY_INT */, 180)
-     , (30645, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (30645, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30645, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (30645, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (30645, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (30645, 160 /* WIELD_DIFFICULTY_INT */, 80);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30645, 005 /* MANA_RATE_FLOAT */, -0.03333)
-     , (30645, 012 /* SHADE_FLOAT */, 0.66)
-     , (30645, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (30645, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (30645, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (30645, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (30645, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.5)
-     , (30645, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.5)
-     , (30645, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.7)
-     , (30645, 110 /* BULK_MOD_FLOAT */, 1)
-     , (30645, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (30645,   1,          2) /* ItemType - Armor */
+     , (30645,   3,          4) /* PaletteTemplate - Brown */
+     , (30645,   4,      16384) /* ClothingPriority - Head */
+     , (30645,   5,        210) /* EncumbranceVal */
+     , (30645,   8,        200) /* Mass */
+     , (30645,   9,          1) /* ValidLocations - HeadWear */
+     , (30645,  16,          1) /* ItemUseable - No */
+     , (30645,  19,       6000) /* Value */
+     , (30645,  27,         32) /* ArmorType */
+     , (30645,  28,        275) /* ArmorLevel */
+     , (30645,  33,          1) /* Bonded - Bonded */
+     , (30645,  93,       1044) /* PhysicsState */
+     , (30645, 106,        300) /* ItemSpellcraft */
+     , (30645, 107,       3256) /* ItemCurMana */
+     , (30645, 108,       3256) /* ItemMaxMana */
+     , (30645, 109,        180) /* ItemDifficulty */
+     , (30645, 114,          1) /* Attuned - Attuned */
+     , (30645, 150,        103) /* HookPlacement - Hook */
+     , (30645, 151,          2) /* HookType - Wall */
+     , (30645, 158,          7) /* WieldRequirements - Level */
+     , (30645, 159,          1) /* WieldSkilltype - Axe */
+     , (30645, 160,         80) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30645, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30645, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (30645, 099 /* IVORYABLE_BOOL */, True)
-     , (30645, 100 /* DYABLE_BOOL */, True);
+VALUES (30645,  22, True ) /* Inscribable */
+     , (30645,  23, True ) /* DestroyOnSell */
+     , (30645,  99, True ) /* Ivoryable */
+     , (30645, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30645,   5, -0.03333) /* ManaRate */
+     , (30645,  12,    0.66) /* Shade */
+     , (30645,  13,       1) /* ArmorModVsSlash */
+     , (30645,  14,     0.8) /* ArmorModVsPierce */
+     , (30645,  15,       1) /* ArmorModVsBludgeon */
+     , (30645,  16,     0.8) /* ArmorModVsCold */
+     , (30645,  17,     0.5) /* ArmorModVsFire */
+     , (30645,  18,     0.5) /* ArmorModVsAcid */
+     , (30645,  19,     0.7) /* ArmorModVsElectric */
+     , (30645, 110,       1) /* BulkMod */
+     , (30645, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30645,   1, 'Aviator''s Cap') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30645,   1,   33559211) /* Setup */
+     , (30645,   3,  536870932) /* SoundTable */
+     , (30645,   6,   67108990) /* PaletteBase */
+     , (30645,   7,  268436894) /* ClothingBase */
+     , (30645,   8,  100677392) /* Icon */
+     , (30645,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30645, 1035, 2) /* ColdProtectionSelf6_SpellID */
-     , (30645, 2067, 2) /* FocusSelf7_SpellID */
-     , (30645, 1069, 2) /* LightningProtectionSelf4_SpellID */
-     , (30645, 217, 2) /* ManaRenewalSelf6_SpellID */
-     , (30645, 1023, 2) /* BludgeonProtectionSelf6_SpellID */;
-
+VALUES (30645,   217,      2)  /* Mana Renewal Self VI */
+     , (30645,  1023,      2)  /* Bludgeoning Protection Self VI */
+     , (30645,  1035,      2)  /* Cold Protection Self VI */
+     , (30645,  1069,      2)  /* Lightning Protection Self IV */
+     , (30645,  2067,      2)  /* Inner Calm */;

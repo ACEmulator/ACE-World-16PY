@@ -1,31 +1,27 @@
-/* Weenie - Bow and Goods (999) */
-DELETE FROM weenie WHERE class_Id = 999;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (999, 'samsurbowyersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (999, 001 /* NAME_STRING */, 'Bow and Goods')
-     , (999, 016 /* LONG_DESC_STRING */, 'Bows and Goods');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (999, 001 /* SETUP_DID */, 33555909)
-     , (999, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (999, 007 /* CLOTHINGBASE_DID */, 268435819)
-     , (999, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('999', 'samsurbowyersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (999, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (999, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (999, 008 /* MASS_INT */, 1800)
-     , (999, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (999, 019 /* VALUE_INT */, 125)
-     , (999, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (999,   1,        128) /* ItemType - Misc */
+     , (999,   5,       9000) /* EncumbranceVal */
+     , (999,   8,       1800) /* Mass */
+     , (999,  16,          1) /* ItemUseable - No */
+     , (999,  19,        125) /* Value */
+     , (999,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (999, 001 /* STUCK_BOOL */, True)
-     , (999, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (999, 013 /* ETHEREAL_BOOL */, False)
-     , (999, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (999, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (999,   1, True ) /* Stuck */
+     , (999,  12, True ) /* ReportCollisions */
+     , (999,  13, False) /* Ethereal */
+     , (999,  14, False) /* GravityStatus */
+     , (999,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (999,   1, 'Bow and Goods') /* Name */
+     , (999,  16, 'Bows and Goods') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (999,   1,   33555909) /* Setup */
+     , (999,   6,   67111860) /* PaletteBase */
+     , (999,   7,  268435819) /* ClothingBase */
+     , (999,   8,  100668115) /* Icon */;

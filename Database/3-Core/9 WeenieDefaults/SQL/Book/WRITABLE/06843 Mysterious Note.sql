@@ -1,36 +1,32 @@
-/* Weenie - Mysterious Note (6843) */
-DELETE FROM weenie WHERE class_Id = 6843;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6843, 'oswaldthievesdennote', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6843, 001 /* NAME_STRING */, 'Mysterious Note')
-     , (6843, 015 /* SHORT_DESC_STRING */, 'A sheet of parchment.')
-     , (6843, 016 /* LONG_DESC_STRING */, 'A sheet of parchment.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6843, 001 /* SETUP_DID */, 33554773)
-     , (6843, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6843, 008 /* ICON_DID */, 100668176)
-     , (6843, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6843', 'oswaldthievesdennote', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6843, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (6843, 005 /* ENCUMB_VAL_INT */, 25)
-     , (6843, 008 /* MASS_INT */, 5)
-     , (6843, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6843, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (6843, 019 /* VALUE_INT */, 1)
-     , (6843, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (6843,   1,       8192) /* ItemType - Writable */
+     , (6843,   5,         25) /* EncumbranceVal */
+     , (6843,   8,          5) /* Mass */
+     , (6843,   9,          0) /* ValidLocations - None */
+     , (6843,  16,          8) /* ItemUseable - Contained */
+     , (6843,  19,          1) /* Value */
+     , (6843,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6843, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (6843,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6843,   1, 'Mysterious Note') /* Name */
+     , (6843,  15, 'A sheet of parchment.') /* ShortDesc */
+     , (6843,  16, 'A sheet of parchment.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6843,   1,   33554773) /* Setup */
+     , (6843,   3,  536870932) /* SoundTable */
+     , (6843,   8,  100668176) /* Icon */
+     , (6843,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (6843, 1, 1000) /* Book Data */;
+VALUES (6843, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (6843, 0, 4294967295, 'Oswald', 'prewritten', False, 'Farewell Gertarh. It''s a shame I had to kill you, but the price on your head was too great and my purse too light.
 ');
-

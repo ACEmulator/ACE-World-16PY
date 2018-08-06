@@ -1,52 +1,48 @@
-/* Weenie - Lugian Axe (24884) */
-DELETE FROM weenie WHERE class_Id = 24884;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24884, 'lugianaxeuber', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24884, 001 /* NAME_STRING */, 'Lugian Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24884, 001 /* SETUP_DID */, 33554726)
-     , (24884, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24884, 008 /* ICON_DID */, 100667580)
-     , (24884, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24884', 'lugianaxeuber', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24884, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (24884, 005 /* ENCUMB_VAL_INT */, 6400)
-     , (24884, 008 /* MASS_INT */, 2560)
-     , (24884, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (24884, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24884, 019 /* VALUE_INT */, 750)
-     , (24884, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (24884, 044 /* DAMAGE_INT */, 80)
-     , (24884, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (24884, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (24884, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (24884, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (24884, 049 /* WEAPON_TIME_INT */, 120)
-     , (24884, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (24884, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24884, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (24884, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (24884, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (24884, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (24884, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24884, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24884, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (24884, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (24884, 029 /* WEAPON_DEFENSE_FLOAT */, 0.8)
-     , (24884, 039 /* DEFAULT_SCALE_FLOAT */, 2)
-     , (24884, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (24884,   1,          1) /* ItemType - MeleeWeapon */
+     , (24884,   5,       6400) /* EncumbranceVal */
+     , (24884,   8,       2560) /* Mass */
+     , (24884,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (24884,  16,          1) /* ItemUseable - No */
+     , (24884,  19,        750) /* Value */
+     , (24884,  37,       9999) /* ResistItemAppraisal */
+     , (24884,  44,         80) /* Damage */
+     , (24884,  45,          1) /* DamageType - Slash */
+     , (24884,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (24884,  47,          4) /* AttackType - Slash */
+     , (24884,  48,          1) /* WeaponSkill - Axe */
+     , (24884,  49,        120) /* WeaponTime */
+     , (24884,  51,          1) /* CombatUse - Melee */
+     , (24884,  93,       1044) /* PhysicsState */
+     , (24884, 106,        250) /* ItemSpellcraft */
+     , (24884, 107,        500) /* ItemCurMana */
+     , (24884, 108,        500) /* ItemMaxMana */
+     , (24884, 109,          0) /* ItemDifficulty */
+     , (24884, 150,        103) /* HookPlacement - Hook */
+     , (24884, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24884, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (24884,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24884,  21,     1.5) /* WeaponLength */
+     , (24884,  22,     0.5) /* DamageVariance */
+     , (24884,  29,     0.8) /* WeaponDefense */
+     , (24884,  39,       2) /* DefaultScale */
+     , (24884,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24884,   1, 'Lugian Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24884,   1,   33554726) /* Setup */
+     , (24884,   3,  536870932) /* SoundTable */
+     , (24884,   8,  100667580) /* Icon */
+     , (24884,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24884, 2116, 2) /* Swiftkiller7_SpellID */
-     , (24884, 2096, 2) /* BloodDrinker7_SpellID */;
-
+VALUES (24884,  2096,      2)  /* Aura of Infected Caress */
+     , (24884,  2116,      2)  /* Aura of Atlan's Alacrity */;

@@ -1,35 +1,31 @@
-/* Weenie - Powdered Copper (28899) */
-DELETE FROM weenie WHERE class_Id = 28899;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28899, 'copperpowdered', 51 /* Stackable_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28899, 001 /* NAME_STRING */, 'Powdered Copper')
-     , (28899, 014 /* USE_STRING */, 'This item is used in the Journeyman Alchemists'' alchemy skill tests.')
-     , (28899, 016 /* LONG_DESC_STRING */, 'A small heap of finely powdered copper.')
-     , (28899, 020 /* PLURAL_NAME_STRING */, 'Powdered Copper');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28899, 001 /* SETUP_DID */, 33557505)
-     , (28899, 008 /* ICON_DID */, 100677044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28899', 'copperpowdered', 51) /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28899, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28899, 005 /* ENCUMB_VAL_INT */, 5)
-     , (28899, 008 /* MASS_INT */, 10)
-     , (28899, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28899, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (28899, 012 /* STACK_SIZE_INT */, 1)
-     , (28899, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (28899, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (28899, 015 /* STACK_UNIT_VALUE_INT */, 5)
-     , (28899, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28899, 019 /* VALUE_INT */, 5)
-     , (28899, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28899, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28899, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (28899,   1,        128) /* ItemType - Misc */
+     , (28899,   5,          5) /* EncumbranceVal */
+     , (28899,   8,         10) /* Mass */
+     , (28899,   9,          0) /* ValidLocations - None */
+     , (28899,  11,        100) /* MaxStackSize */
+     , (28899,  12,          1) /* StackSize */
+     , (28899,  13,          5) /* StackUnitEncumbrance */
+     , (28899,  14,         10) /* StackUnitMass */
+     , (28899,  15,          5) /* StackUnitValue */
+     , (28899,  16,          1) /* ItemUseable - No */
+     , (28899,  19,          5) /* Value */
+     , (28899,  33,          1) /* Bonded - Bonded */
+     , (28899,  93,       1044) /* PhysicsState */
+     , (28899, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28899, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (28899,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28899,   1, 'Powdered Copper') /* Name */
+     , (28899,  14, 'This item is used in the Journeyman Alchemists'' alchemy skill tests.') /* Use */
+     , (28899,  16, 'A small heap of finely powdered copper.') /* LongDesc */
+     , (28899,  20, 'Powdered Copper') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28899,   1,   33557505) /* Setup */
+     , (28899,   8,  100677044) /* Icon */;

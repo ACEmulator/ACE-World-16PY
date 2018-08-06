@@ -1,49 +1,45 @@
-/* Weenie - Bastone (30608) */
-DELETE FROM weenie WHERE class_Id = 30608;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30608, 'staffmeleebastonefire', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30608, 001 /* NAME_STRING */, 'Bastone');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30608, 001 /* SETUP_DID */, 33554749)
-     , (30608, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30608, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30608, 007 /* CLOTHINGBASE_DID */, 268435795)
-     , (30608, 008 /* ICON_DID */, 100669105)
-     , (30608, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30608, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (30608, 046 /* TSYS_MUTATION_FILTER_DID */, 939524110);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30608', 'staffmeleebastonefire', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30608, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30608, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (30608, 005 /* ENCUMB_VAL_INT */, 550)
-     , (30608, 008 /* MASS_INT */, 90)
-     , (30608, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30608, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30608, 019 /* VALUE_INT */, 180)
-     , (30608, 044 /* DAMAGE_INT */, 12)
-     , (30608, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (30608, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30608, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (30608, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (30608, 049 /* WEAPON_TIME_INT */, 45)
-     , (30608, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30608, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30608, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30608, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (30608, 169 /* TSYS_MUTATION_DATA_INT */, 101189388);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30608, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (30608, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (30608, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (30608, 039 /* DEFAULT_SCALE_FLOAT */, 0.67)
-     , (30608, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (30608,   1,          1) /* ItemType - MeleeWeapon */
+     , (30608,   3,          4) /* PaletteTemplate - Brown */
+     , (30608,   5,        550) /* EncumbranceVal */
+     , (30608,   8,         90) /* Mass */
+     , (30608,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30608,  16,          1) /* ItemUseable - No */
+     , (30608,  19,        180) /* Value */
+     , (30608,  44,         12) /* Damage */
+     , (30608,  45,          4) /* DamageType - Bludgeon */
+     , (30608,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (30608,  47,          6) /* AttackType */
+     , (30608,  48,         10) /* WeaponSkill - Staff */
+     , (30608,  49,         45) /* WeaponTime */
+     , (30608,  51,          1) /* CombatUse - Melee */
+     , (30608,  93,       1044) /* PhysicsState */
+     , (30608, 150,        103) /* HookPlacement - Hook */
+     , (30608, 151,          2) /* HookType - Wall */
+     , (30608, 169,  101189388) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30608, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30608,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30608,  21,    1.33) /* WeaponLength */
+     , (30608,  22,    0.75) /* DamageVariance */
+     , (30608,  29,       1) /* WeaponDefense */
+     , (30608,  39,    0.67) /* DefaultScale */
+     , (30608,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30608,   1, 'Bastone') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30608,   1,   33554749) /* Setup */
+     , (30608,   3,  536870932) /* SoundTable */
+     , (30608,   6,   67111919) /* PaletteBase */
+     , (30608,   7,  268435795) /* ClothingBase */
+     , (30608,   8,  100669105) /* Icon */
+     , (30608,  22,  872415275) /* PhysicsEffectTable */
+     , (30608,  36,  234881053) /* MutateFilter */
+     , (30608,  46,  939524110) /* TsysMutationFilter */;

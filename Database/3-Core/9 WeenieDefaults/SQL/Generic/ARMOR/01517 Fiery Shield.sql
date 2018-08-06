@@ -1,60 +1,56 @@
-/* Weenie - Fiery Shield (1517) */
-DELETE FROM weenie WHERE class_Id = 1517;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1517, 'shieldfiery', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1517, 001 /* NAME_STRING */, 'Fiery Shield')
-     , (1517, 015 /* SHORT_DESC_STRING */, 'A fiery shield.')
-     , (1517, 016 /* LONG_DESC_STRING */, 'A fiery shield that seems to give resistance against fire.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1517, 001 /* SETUP_DID */, 33555416)
-     , (1517, 006 /* PALETTE_BASE_DID */, 67111459)
-     , (1517, 007 /* CLOTHINGBASE_DID */, 268435610)
-     , (1517, 008 /* ICON_DID */, 100667360)
-     , (1517, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1517, 037 /* ITEM_SKILL_LIMIT_DID */, 7);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1517', 'shieldfiery', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1517, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (1517, 005 /* ENCUMB_VAL_INT */, 650)
-     , (1517, 008 /* MASS_INT */, 200)
-     , (1517, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
-     , (1517, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1517, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (1517, 019 /* VALUE_INT */, 7500)
-     , (1517, 027 /* ARMOR_TYPE_INT */, 2)
-     , (1517, 028 /* ARMOR_LEVEL_INT */, 20)
-     , (1517, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
-     , (1517, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (1517, 106 /* ITEM_SPELLCRAFT_INT */, 162)
-     , (1517, 107 /* ITEM_CUR_MANA_INT */, 248)
-     , (1517, 108 /* ITEM_MAX_MANA_INT */, 576)
-     , (1517, 109 /* ITEM_DIFFICULTY_INT */, 71)
-     , (1517, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 182)
-     , (1517, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (1517, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1517, 005 /* MANA_RATE_FLOAT */, -0.066)
-     , (1517, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
-     , (1517, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.1)
-     , (1517, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.2)
-     , (1517, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (1517, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.9)
-     , (1517, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.3)
-     , (1517, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (1517, 039 /* DEFAULT_SCALE_FLOAT */, 0.75)
-     , (1517, 110 /* BULK_MOD_FLOAT */, 1)
-     , (1517, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (1517,   1,          2) /* ItemType - Armor */
+     , (1517,   5,        650) /* EncumbranceVal */
+     , (1517,   8,        200) /* Mass */
+     , (1517,   9,    2097152) /* ValidLocations - Shield */
+     , (1517,  16,          1) /* ItemUseable - No */
+     , (1517,  18,         32) /* UiEffects - Fire */
+     , (1517,  19,       7500) /* Value */
+     , (1517,  27,          2) /* ArmorType */
+     , (1517,  28,         20) /* ArmorLevel */
+     , (1517,  51,          4) /* CombatUse - Shield */
+     , (1517,  93,       1044) /* PhysicsState */
+     , (1517, 106,        162) /* ItemSpellcraft */
+     , (1517, 107,        248) /* ItemCurMana */
+     , (1517, 108,        576) /* ItemMaxMana */
+     , (1517, 109,         71) /* ItemDifficulty */
+     , (1517, 115,        182) /* ItemSkillLevelLimit */
+     , (1517, 150,        103) /* HookPlacement - Hook */
+     , (1517, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1517, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (1517,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1517,   5,  -0.066) /* ManaRate */
+     , (1517,  13,     1.2) /* ArmorModVsSlash */
+     , (1517,  14,     1.1) /* ArmorModVsPierce */
+     , (1517,  15,     1.2) /* ArmorModVsBludgeon */
+     , (1517,  16,     0.5) /* ArmorModVsCold */
+     , (1517,  17,     0.9) /* ArmorModVsFire */
+     , (1517,  18,     0.3) /* ArmorModVsAcid */
+     , (1517,  19,     0.6) /* ArmorModVsElectric */
+     , (1517,  39,    0.75) /* DefaultScale */
+     , (1517, 110,       1) /* BulkMod */
+     , (1517, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1517,   1, 'Fiery Shield') /* Name */
+     , (1517,  15, 'A fiery shield.') /* ShortDesc */
+     , (1517,  16, 'A fiery shield that seems to give resistance against fire.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1517,   1,   33555416) /* Setup */
+     , (1517,   6,   67111459) /* PaletteBase */
+     , (1517,   7,  268435610) /* ClothingBase */
+     , (1517,   8,  100667360) /* Icon */
+     , (1517,  22,  872415275) /* PhysicsEffectTable */
+     , (1517,  37,          7) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1517, 1550, 2) /* FlameBane4_SpellID */
-     , (1517, 1483, 2) /* Impenetrability3_SpellID */
-     , (1517, 810, 2) /* FireProtectionOther2_SpellID */;
-
+VALUES (1517,   810,      2)  /* Fire Protection Other II */
+     , (1517,  1483,      2)  /* Impenetrability III */
+     , (1517,  1550,      2)  /* Flame Bane IV */;

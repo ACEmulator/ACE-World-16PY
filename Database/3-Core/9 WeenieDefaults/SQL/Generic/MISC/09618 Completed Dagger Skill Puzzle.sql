@@ -1,39 +1,35 @@
-/* Weenie - Completed Dagger Skill Puzzle (9618) */
-DELETE FROM weenie WHERE class_Id = 9618;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9618, 'skillpuzzlecompleteddagger', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9618, 001 /* NAME_STRING */, 'Completed Dagger Skill Puzzle')
-     , (9618, 015 /* SHORT_DESC_STRING */, 'A completed Dagger Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.')
-     , (9618, 016 /* LONG_DESC_STRING */, 'A completed Dagger Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9618, 001 /* SETUP_DID */, 33557028)
-     , (9618, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9618, 006 /* PALETTE_BASE_DID */, 67113173)
-     , (9618, 007 /* CLOTHINGBASE_DID */, 268436162)
-     , (9618, 008 /* ICON_DID */, 100671559)
-     , (9618, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9618, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9618', 'skillpuzzlecompleteddagger', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9618, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9618, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9618, 008 /* MASS_INT */, 10)
-     , (9618, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9618, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9618, 019 /* VALUE_INT */, 1000)
-     , (9618, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9618, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9618, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9618, 039 /* DEFAULT_SCALE_FLOAT */, 1.67);
+VALUES (9618,   1,        128) /* ItemType - Misc */
+     , (9618,   5,         10) /* EncumbranceVal */
+     , (9618,   8,         10) /* Mass */
+     , (9618,   9,          0) /* ValidLocations - None */
+     , (9618,  16,          1) /* ItemUseable - No */
+     , (9618,  19,       1000) /* Value */
+     , (9618,  33,          1) /* Bonded - Bonded */
+     , (9618,  93,       1044) /* PhysicsState */
+     , (9618, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9618, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9618, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (9618, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9618,  22, True ) /* Inscribable */
+     , (9618,  23, True ) /* DestroyOnSell */
+     , (9618,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9618,  39,    1.67) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9618,   1, 'Completed Dagger Skill Puzzle') /* Name */
+     , (9618,  15, 'A completed Dagger Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* ShortDesc */
+     , (9618,  16, 'A completed Dagger Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9618,   1,   33557028) /* Setup */
+     , (9618,   3,  536870932) /* SoundTable */
+     , (9618,   6,   67113173) /* PaletteBase */
+     , (9618,   7,  268436162) /* ClothingBase */
+     , (9618,   8,  100671559) /* Icon */
+     , (9618,  22,  872415275) /* PhysicsEffectTable */
+     , (9618,  36,  234881046) /* MutateFilter */;

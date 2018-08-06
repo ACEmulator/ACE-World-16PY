@@ -1,67 +1,63 @@
-/* Weenie - Sword of Lost Hope (8960) */
-DELETE FROM weenie WHERE class_Id = 8960;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8960, 'swordlosthopeblue', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8960, 001 /* NAME_STRING */, 'Sword of Lost Hope')
-     , (8960, 016 /* LONG_DESC_STRING */, 'The Sword of Lost Hope, with a faint blue radiance.  The weapon seems to coruscate with the power of Ilservian''s blood.  The Light has been forever dimmed, and the weapon is now empowered by the essence of the Hopeslayer.  It will no longer accept infusions of light.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8960, 001 /* SETUP_DID */, 33556949)
-     , (8960, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8960, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8960, 007 /* CLOTHINGBASE_DID */, 268436109)
-     , (8960, 008 /* ICON_DID */, 100671325)
-     , (8960, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8960, 037 /* ITEM_SKILL_LIMIT_DID */, 11);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8960', 'swordlosthopeblue', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8960, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (8960, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (8960, 005 /* ENCUMB_VAL_INT */, 450)
-     , (8960, 008 /* MASS_INT */, 180)
-     , (8960, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (8960, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8960, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8960, 019 /* VALUE_INT */, 0)
-     , (8960, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8960, 044 /* DAMAGE_INT */, 20)
-     , (8960, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (8960, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (8960, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (8960, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (8960, 049 /* WEAPON_TIME_INT */, 30)
-     , (8960, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (8960, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8960, 106 /* ITEM_SPELLCRAFT_INT */, 260)
-     , (8960, 107 /* ITEM_CUR_MANA_INT */, 453)
-     , (8960, 108 /* ITEM_MAX_MANA_INT */, 588)
-     , (8960, 109 /* ITEM_DIFFICULTY_INT */, 158)
-     , (8960, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (8960, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 280)
-     , (8960, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8960, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8960, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (8960, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (8960, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (8960, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (8960, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (8960, 062 /* WEAPON_OFFENSE_FLOAT */, 1.03);
+VALUES (8960,   1,          1) /* ItemType - MeleeWeapon */
+     , (8960,   3,         20) /* PaletteTemplate - Silver */
+     , (8960,   5,        450) /* EncumbranceVal */
+     , (8960,   8,        180) /* Mass */
+     , (8960,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (8960,  16,          1) /* ItemUseable - No */
+     , (8960,  18,          1) /* UiEffects - Magical */
+     , (8960,  19,          0) /* Value */
+     , (8960,  33,          1) /* Bonded - Bonded */
+     , (8960,  44,         20) /* Damage */
+     , (8960,  45,         32) /* DamageType - Acid */
+     , (8960,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (8960,  47,          6) /* AttackType */
+     , (8960,  48,         11) /* WeaponSkill - Sword */
+     , (8960,  49,         30) /* WeaponTime */
+     , (8960,  51,          1) /* CombatUse - Melee */
+     , (8960,  93,       3092) /* PhysicsState */
+     , (8960, 106,        260) /* ItemSpellcraft */
+     , (8960, 107,        453) /* ItemCurMana */
+     , (8960, 108,        588) /* ItemMaxMana */
+     , (8960, 109,        158) /* ItemDifficulty */
+     , (8960, 114,          1) /* Attuned - Attuned */
+     , (8960, 115,        280) /* ItemSkillLevelLimit */
+     , (8960, 150,        103) /* HookPlacement - Hook */
+     , (8960, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8960, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (8960, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8960, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (8960, 069 /* IS_SELLABLE_BOOL */, False)
-     , (8960, 099 /* IVORYABLE_BOOL */, True);
+VALUES (8960,  15, True ) /* LightsStatus */
+     , (8960,  22, True ) /* Inscribable */
+     , (8960,  23, True ) /* DestroyOnSell */
+     , (8960,  69, False) /* IsSellable */
+     , (8960,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8960,   5,    -0.1) /* ManaRate */
+     , (8960,  21,    0.95) /* WeaponLength */
+     , (8960,  22,     0.5) /* DamageVariance */
+     , (8960,  29,       1) /* WeaponDefense */
+     , (8960,  39,       1) /* DefaultScale */
+     , (8960,  62,    1.03) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8960,   1, 'Sword of Lost Hope') /* Name */
+     , (8960,  16, 'The Sword of Lost Hope, with a faint blue radiance.  The weapon seems to coruscate with the power of Ilservian''s blood.  The Light has been forever dimmed, and the weapon is now empowered by the essence of the Hopeslayer.  It will no longer accept infusions of light.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8960,   1,   33556949) /* Setup */
+     , (8960,   3,  536870932) /* SoundTable */
+     , (8960,   6,   67111919) /* PaletteBase */
+     , (8960,   7,  268436109) /* ClothingBase */
+     , (8960,   8,  100671325) /* Icon */
+     , (8960,  22,  872415275) /* PhysicsEffectTable */
+     , (8960,  37,         11) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8960, 1615, 2) /* BloodDrinker5_SpellID */
-     , (8960, 1625, 2) /* SwiftKiller4_SpellID */
-     , (8960, 1335, 2) /* StrengthOther4_SpellID */
-     , (8960, 1406, 2) /* QuicknessOther4_SpellID */;
-
+VALUES (8960,  1335,      2)  /* Strength Other IV */
+     , (8960,  1406,      2)  /* Quickness Other IV */
+     , (8960,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (8960,  1625,      2)  /* Aura of Swift Killer Self IV */;

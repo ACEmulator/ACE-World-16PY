@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Mana Drain Other VI (2711) */
-DELETE FROM weenie WHERE class_Id = 2711;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2711, 'scrollmanadrain6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2711, 001 /* NAME_STRING */, 'Scroll of Mana Drain Other VI')
-     , (2711, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (2711, 016 /* LONG_DESC_STRING */, 'When learned, this spell drains 31-60 points of the target''s Mana.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2711, 001 /* SETUP_DID */, 33554826)
-     , (2711, 008 /* ICON_DID */, 100676932)
-     , (2711, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2711, 028 /* SPELL_DID */, 1224 /* ManaDrainOther6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2711', 'scrollmanadrain6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2711, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2711, 005 /* ENCUMB_VAL_INT */, 30)
-     , (2711, 008 /* MASS_INT */, 90)
-     , (2711, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2711, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2711, 019 /* VALUE_INT */, 1000)
-     , (2711, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2711, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (2711,   1,       8192) /* ItemType - Writable */
+     , (2711,   5,         30) /* EncumbranceVal */
+     , (2711,   8,         90) /* Mass */
+     , (2711,   9,          0) /* ValidLocations - None */
+     , (2711,  16,          8) /* ItemUseable - Contained */
+     , (2711,  19,       1000) /* Value */
+     , (2711,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2711, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2711, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2711,  22, True ) /* Inscribable */
+     , (2711,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2711,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2711,   1, 'Scroll of Mana Drain Other VI') /* Name */
+     , (2711,  15, 'A magic scroll.') /* ShortDesc */
+     , (2711,  16, 'When learned, this spell drains 31-60 points of the target''s Mana.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2711,   1,   33554826) /* Setup */
+     , (2711,   8,  100676932) /* Icon */
+     , (2711,  22,  872415275) /* PhysicsEffectTable */
+     , (2711,  28,       1224) /* Spell - Mana Drain Other VI */;

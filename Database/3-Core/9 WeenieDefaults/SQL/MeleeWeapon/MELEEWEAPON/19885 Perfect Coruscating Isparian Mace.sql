@@ -1,69 +1,65 @@
-/* Weenie - Perfect Coruscating Isparian Mace (19885) */
-DELETE FROM weenie WHERE class_Id = 19885;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19885, 'maceisparianperfectsparkingmajor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19885, 001 /* NAME_STRING */, 'Perfect Coruscating Isparian Mace');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19885, 001 /* SETUP_DID */, 33556364)
-     , (19885, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19885, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19885, 007 /* CLOTHINGBASE_DID */, 268436382)
-     , (19885, 008 /* ICON_DID */, 100672917)
-     , (19885, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (19885, 037 /* ITEM_SKILL_LIMIT_DID */, 5);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19885', 'maceisparianperfectsparkingmajor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19885, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (19885, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (19885, 005 /* ENCUMB_VAL_INT */, 750)
-     , (19885, 008 /* MASS_INT */, 800)
-     , (19885, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (19885, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19885, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (19885, 019 /* VALUE_INT */, 8000)
-     , (19885, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19885, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (19885, 044 /* DAMAGE_INT */, 34)
-     , (19885, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (19885, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (19885, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (19885, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (19885, 049 /* WEAPON_TIME_INT */, 35)
-     , (19885, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (19885, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19885, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (19885, 107 /* ITEM_CUR_MANA_INT */, 1200)
-     , (19885, 108 /* ITEM_MAX_MANA_INT */, 1200)
-     , (19885, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 325)
-     , (19885, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (19885, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (19885, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (19885, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (19885, 160 /* WIELD_DIFFICULTY_INT */, 50)
-     , (19885, 166 /* SLAYER_CREATURE_TYPE_INT */, 60 /* Acid_Elemental_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19885, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (19885, 021 /* WEAPON_LENGTH_FLOAT */, 0.6)
-     , (19885, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (19885, 029 /* WEAPON_DEFENSE_FLOAT */, 1.1)
-     , (19885, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (19885, 062 /* WEAPON_OFFENSE_FLOAT */, 1.1)
-     , (19885, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 3);
+VALUES (19885,   1,          1) /* ItemType - MeleeWeapon */
+     , (19885,   3,         13) /* PaletteTemplate - Purple */
+     , (19885,   5,        750) /* EncumbranceVal */
+     , (19885,   8,        800) /* Mass */
+     , (19885,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (19885,  16,          1) /* ItemUseable - No */
+     , (19885,  18,          1) /* UiEffects - Magical */
+     , (19885,  19,       8000) /* Value */
+     , (19885,  33,          1) /* Bonded - Bonded */
+     , (19885,  36,       9999) /* ResistMagic */
+     , (19885,  44,         34) /* Damage */
+     , (19885,  45,         64) /* DamageType - Electric */
+     , (19885,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (19885,  47,          4) /* AttackType - Slash */
+     , (19885,  48,          5) /* WeaponSkill - Mace */
+     , (19885,  49,         35) /* WeaponTime */
+     , (19885,  51,          1) /* CombatUse - Melee */
+     , (19885,  93,       1044) /* PhysicsState */
+     , (19885, 106,        300) /* ItemSpellcraft */
+     , (19885, 107,       1200) /* ItemCurMana */
+     , (19885, 108,       1200) /* ItemMaxMana */
+     , (19885, 115,        325) /* ItemSkillLevelLimit */
+     , (19885, 150,        103) /* HookPlacement - Hook */
+     , (19885, 151,          2) /* HookType - Wall */
+     , (19885, 158,          7) /* WieldRequirements - Level */
+     , (19885, 159,          1) /* WieldSkilltype - Axe */
+     , (19885, 160,         50) /* WieldDifficulty */
+     , (19885, 166,         60) /* SlayerCreatureType - AcidElemental */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19885, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19885, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19885, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19885,  22, True ) /* Inscribable */
+     , (19885,  23, True ) /* DestroyOnSell */
+     , (19885,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19885,   5,    -0.1) /* ManaRate */
+     , (19885,  21,     0.6) /* WeaponLength */
+     , (19885,  22,     0.5) /* DamageVariance */
+     , (19885,  29,     1.1) /* WeaponDefense */
+     , (19885,  39,       1) /* DefaultScale */
+     , (19885,  62,     1.1) /* WeaponOffense */
+     , (19885, 138,       3) /* SlayerDamageBonus */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19885,   1, 'Perfect Coruscating Isparian Mace') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19885,   1,   33556364) /* Setup */
+     , (19885,   3,  536870932) /* SoundTable */
+     , (19885,   6,   67111919) /* PaletteBase */
+     , (19885,   7,  268436382) /* ClothingBase */
+     , (19885,   8,  100672917) /* Icon */
+     , (19885,  22,  872415275) /* PhysicsEffectTable */
+     , (19885,  37,          5) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19885, 2690, 2) /* ModerateMaceAptitude_SpellID */
-     , (19885, 1401, 2) /* QuicknessSelf5_SpellID */
-     , (19885, 1592, 2) /* HeartSeeker6_SpellID */
-     , (19885, 1616, 2) /* BloodDrinker6_SpellID */
-     , (19885, 1071, 2) /* LightningProtectionSelf6_SpellID */;
-
+VALUES (19885,  1071,      2)  /* Lightning Protection Self VI */
+     , (19885,  1401,      2)  /* Quickness Self V */
+     , (19885,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (19885,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (19885,  2690,      2)  /* Moderate Light Weapon Aptitude */;

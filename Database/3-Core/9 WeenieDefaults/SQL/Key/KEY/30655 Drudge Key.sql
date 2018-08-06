@@ -1,32 +1,28 @@
-/* Weenie - Drudge Key (30655) */
-DELETE FROM weenie WHERE class_Id = 30655;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30655, 'whitedrudgekey', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30655, 001 /* NAME_STRING */, 'Drudge Key')
-     , (30655, 013 /* KEY_CODE_STRING */, 'WhiteDrudgeKey')
-     , (30655, 016 /* LONG_DESC_STRING */, 'A key. Most likely used to open a door.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30655, 001 /* SETUP_DID */, 33554784)
-     , (30655, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30655, 008 /* ICON_DID */, 100677397)
-     , (30655, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30655', 'whitedrudgekey', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30655, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (30655, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30655, 008 /* MASS_INT */, 5)
-     , (30655, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (30655, 019 /* VALUE_INT */, 100)
-     , (30655, 091 /* MAX_STRUCTURE_INT */, 3)
-     , (30655, 092 /* STRUCTURE_INT */, 3)
-     , (30655, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30655, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (30655,   1,      16384) /* ItemType - Key */
+     , (30655,   5,          5) /* EncumbranceVal */
+     , (30655,   8,          5) /* Mass */
+     , (30655,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (30655,  19,        100) /* Value */
+     , (30655,  91,          3) /* MaxStructure */
+     , (30655,  92,          3) /* Structure */
+     , (30655,  93,       1044) /* PhysicsState */
+     , (30655,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30655, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30655, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (30655,  22, True ) /* Inscribable */
+     , (30655,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30655,   1, 'Drudge Key') /* Name */
+     , (30655,  13, 'WhiteDrudgeKey') /* KeyCode */
+     , (30655,  16, 'A key. Most likely used to open a door.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30655,   1,   33554784) /* Setup */
+     , (30655,   3,  536870932) /* SoundTable */
+     , (30655,   8,  100677397) /* Icon */
+     , (30655,  22,  872415275) /* PhysicsEffectTable */;

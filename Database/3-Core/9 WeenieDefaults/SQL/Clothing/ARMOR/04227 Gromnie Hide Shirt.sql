@@ -1,46 +1,42 @@
-/* Weenie - Gromnie Hide Shirt (4227) */
-DELETE FROM weenie WHERE class_Id = 4227;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4227, 'shirtgromniehide', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4227, 001 /* NAME_STRING */, 'Gromnie Hide Shirt')
-     , (4227, 015 /* SHORT_DESC_STRING */, 'Shirt crafted from the hide of a Gromnie.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4227, 001 /* SETUP_DID */, 33554883)
-     , (4227, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4227, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (4227, 007 /* CLOTHINGBASE_DID */, 268435625)
-     , (4227, 008 /* ICON_DID */, 100667353)
-     , (4227, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4227', 'shirtgromniehide', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4227, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (4227, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (4227, 004 /* CLOTHING_PRIORITY_INT */, 7168 /* OuterwearChest, OuterwearAbdomen, OuterwearUpperArms */)
-     , (4227, 005 /* ENCUMB_VAL_INT */, 810)
-     , (4227, 008 /* MASS_INT */, 270)
-     , (4227, 009 /* LOCATIONS_INT */, 3584 /* CHEST_ARMOR_LOC, ABDOMEN_ARMOR_LOC, UPPER_ARM_ARMOR_LOC */)
-     , (4227, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4227, 019 /* VALUE_INT */, 800)
-     , (4227, 027 /* ARMOR_TYPE_INT */, 2)
-     , (4227, 028 /* ARMOR_LEVEL_INT */, 90)
-     , (4227, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4227, 012 /* SHADE_FLOAT */, 0.66)
-     , (4227, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (4227, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (4227, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (4227, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (4227, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (4227, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (4227, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (4227, 110 /* BULK_MOD_FLOAT */, 1)
-     , (4227, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (4227,   1,          2) /* ItemType - Armor */
+     , (4227,   3,          4) /* PaletteTemplate - Brown */
+     , (4227,   4,       7168) /* ClothingPriority */
+     , (4227,   5,        810) /* EncumbranceVal */
+     , (4227,   8,        270) /* Mass */
+     , (4227,   9,       3584) /* ValidLocations */
+     , (4227,  16,          1) /* ItemUseable - No */
+     , (4227,  19,        800) /* Value */
+     , (4227,  27,          2) /* ArmorType */
+     , (4227,  28,         90) /* ArmorLevel */
+     , (4227,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4227, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (4227,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4227,  12,    0.66) /* Shade */
+     , (4227,  13,       1) /* ArmorModVsSlash */
+     , (4227,  14,       1) /* ArmorModVsPierce */
+     , (4227,  15,       1) /* ArmorModVsBludgeon */
+     , (4227,  16,       1) /* ArmorModVsCold */
+     , (4227,  17,       1) /* ArmorModVsFire */
+     , (4227,  18,       1) /* ArmorModVsAcid */
+     , (4227,  19,       1) /* ArmorModVsElectric */
+     , (4227, 110,       1) /* BulkMod */
+     , (4227, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4227,   1, 'Gromnie Hide Shirt') /* Name */
+     , (4227,  15, 'Shirt crafted from the hide of a Gromnie.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4227,   1,   33554883) /* Setup */
+     , (4227,   3,  536870932) /* SoundTable */
+     , (4227,   6,   67108990) /* PaletteBase */
+     , (4227,   7,  268435625) /* ClothingBase */
+     , (4227,   8,  100667353) /* Icon */
+     , (4227,  22,  872415275) /* PhysicsEffectTable */;

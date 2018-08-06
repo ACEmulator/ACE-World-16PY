@@ -1,42 +1,38 @@
-/* Weenie - Dark Shard (6058) */
-DELETE FROM weenie WHERE class_Id = 6058;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6058, 'shardshadowshard', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6058, 001 /* NAME_STRING */, 'Dark Shard')
-     , (6058, 014 /* USE_STRING */, 'Combine with another dark shard to make a shadow fragment, or combine with a small shard to make a glimmering gem.')
-     , (6058, 015 /* SHORT_DESC_STRING */, 'A strange, black shard.')
-     , (6058, 016 /* LONG_DESC_STRING */, 'A jet-black shard of something hard and crystalline.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6058, 001 /* SETUP_DID */, 33554809)
-     , (6058, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6058, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6058, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (6058, 008 /* ICON_DID */, 100670636)
-     , (6058, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6058', 'shardshadowshard', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6058, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (6058, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (6058, 005 /* ENCUMB_VAL_INT */, 20)
-     , (6058, 008 /* MASS_INT */, 20)
-     , (6058, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6058, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (6058, 012 /* STACK_SIZE_INT */, 1)
-     , (6058, 013 /* STACK_UNIT_ENCUMB_INT */, 20)
-     , (6058, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (6058, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (6058, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (6058, 019 /* VALUE_INT */, 0)
-     , (6058, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6058, 094 /* TARGET_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (6058, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6058, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (6058,   1,       2048) /* ItemType - Gem */
+     , (6058,   3,         39) /* PaletteTemplate - Black */
+     , (6058,   5,         20) /* EncumbranceVal */
+     , (6058,   8,         20) /* Mass */
+     , (6058,   9,          0) /* ValidLocations - None */
+     , (6058,  11,          1) /* MaxStackSize */
+     , (6058,  12,          1) /* StackSize */
+     , (6058,  13,         20) /* StackUnitEncumbrance */
+     , (6058,  14,         20) /* StackUnitMass */
+     , (6058,  15,          0) /* StackUnitValue */
+     , (6058,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (6058,  19,          0) /* Value */
+     , (6058,  93,       1044) /* PhysicsState */
+     , (6058,  94,       2048) /* TargetType - Gem */
+     , (6058, 150,        103) /* HookPlacement - Hook */
+     , (6058, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6058, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6058, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6058,  22, True ) /* Inscribable */
+     , (6058,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6058,   1, 'Dark Shard') /* Name */
+     , (6058,  14, 'Combine with another dark shard to make a shadow fragment, or combine with a small shard to make a glimmering gem.') /* Use */
+     , (6058,  15, 'A strange, black shard.') /* ShortDesc */
+     , (6058,  16, 'A jet-black shard of something hard and crystalline.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6058,   1,   33554809) /* Setup */
+     , (6058,   3,  536870932) /* SoundTable */
+     , (6058,   6,   67111919) /* PaletteBase */
+     , (6058,   7,  268435723) /* ClothingBase */
+     , (6058,   8,  100670636) /* Icon */
+     , (6058,  22,  872415275) /* PhysicsEffectTable */;

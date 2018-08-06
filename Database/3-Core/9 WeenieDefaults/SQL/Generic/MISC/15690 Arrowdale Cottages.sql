@@ -1,28 +1,24 @@
-/* Weenie - Arrowdale Cottages (15690) */
-DELETE FROM weenie WHERE class_Id = 15690;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15690, 'arrowdalecottagessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15690, 001 /* NAME_STRING */, 'Arrowdale Cottages')
-     , (15690, 016 /* LONG_DESC_STRING */, 'Welcome to Arrowdale Cottages');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15690, 001 /* SETUP_DID */, 33557463)
-     , (15690, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15690', 'arrowdalecottagessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15690, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15690, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (15690, 008 /* MASS_INT */, 1800)
-     , (15690, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15690, 019 /* VALUE_INT */, 125)
-     , (15690, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (15690,   1,        128) /* ItemType - Misc */
+     , (15690,   5,       9000) /* EncumbranceVal */
+     , (15690,   8,       1800) /* Mass */
+     , (15690,  16,          1) /* ItemUseable - No */
+     , (15690,  19,        125) /* Value */
+     , (15690,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15690, 001 /* STUCK_BOOL */, True)
-     , (15690, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (15690, 013 /* ETHEREAL_BOOL */, False)
-     , (15690, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (15690,   1, True ) /* Stuck */
+     , (15690,  12, True ) /* ReportCollisions */
+     , (15690,  13, False) /* Ethereal */
+     , (15690,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15690,   1, 'Arrowdale Cottages') /* Name */
+     , (15690,  16, 'Welcome to Arrowdale Cottages') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15690,   1,   33557463) /* Setup */
+     , (15690,   8,  100668115) /* Icon */;

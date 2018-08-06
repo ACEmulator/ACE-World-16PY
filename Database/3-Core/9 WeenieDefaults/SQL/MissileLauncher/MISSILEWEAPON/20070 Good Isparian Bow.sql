@@ -1,66 +1,62 @@
-/* Weenie - Good Isparian Bow (20070) */
-DELETE FROM weenie WHERE class_Id = 20070;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20070, 'bowispariangoodnostone', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20070, 001 /* NAME_STRING */, 'Good Isparian Bow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20070, 001 /* SETUP_DID */, 33557729)
-     , (20070, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20070, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20070, 007 /* CLOTHINGBASE_DID */, 268436394)
-     , (20070, 008 /* ICON_DID */, 100673010)
-     , (20070, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20070, 037 /* ITEM_SKILL_LIMIT_DID */, 2);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20070', 'bowispariangoodnostone', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20070, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (20070, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (20070, 005 /* ENCUMB_VAL_INT */, 950)
-     , (20070, 008 /* MASS_INT */, 140)
-     , (20070, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (20070, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20070, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (20070, 019 /* VALUE_INT */, 4000)
-     , (20070, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (20070, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (20070, 044 /* DAMAGE_INT */, 4)
-     , (20070, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
-     , (20070, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
-     , (20070, 049 /* WEAPON_TIME_INT */, 40)
-     , (20070, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (20070, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (20070, 052 /* PARENT_LOCATION_INT */, 2)
-     , (20070, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (20070, 060 /* WEAPON_RANGE_INT */, 175)
-     , (20070, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20070, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (20070, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (20070, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (20070, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 250)
-     , (20070, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (20070, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (20070, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (20070, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (20070, 160 /* WIELD_DIFFICULTY_INT */, 30);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20070, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (20070, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (20070, 029 /* WEAPON_DEFENSE_FLOAT */, 1.06)
-     , (20070, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (20070, 063 /* DAMAGE_MOD_FLOAT */, 2.1);
+VALUES (20070,   1,        256) /* ItemType - MissileWeapon */
+     , (20070,   3,         20) /* PaletteTemplate - Silver */
+     , (20070,   5,        950) /* EncumbranceVal */
+     , (20070,   8,        140) /* Mass */
+     , (20070,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (20070,  16,          1) /* ItemUseable - No */
+     , (20070,  18,          1) /* UiEffects - Magical */
+     , (20070,  19,       4000) /* Value */
+     , (20070,  33,          1) /* Bonded - Bonded */
+     , (20070,  36,       9999) /* ResistMagic */
+     , (20070,  44,          4) /* Damage */
+     , (20070,  46,         16) /* DefaultCombatStyle - Bow */
+     , (20070,  48,          2) /* WeaponSkill - Bow */
+     , (20070,  49,         40) /* WeaponTime */
+     , (20070,  50,          1) /* AmmoType - Arrow */
+     , (20070,  51,          2) /* CombatUse - Missle */
+     , (20070,  52,          2) /* ParentLocation */
+     , (20070,  53,          3) /* PlacementPosition */
+     , (20070,  60,        175) /* WeaponRange */
+     , (20070,  93,       1044) /* PhysicsState */
+     , (20070, 106,        100) /* ItemSpellcraft */
+     , (20070, 107,        400) /* ItemCurMana */
+     , (20070, 108,        400) /* ItemMaxMana */
+     , (20070, 115,        250) /* ItemSkillLevelLimit */
+     , (20070, 150,        103) /* HookPlacement - Hook */
+     , (20070, 151,          2) /* HookType - Wall */
+     , (20070, 158,          7) /* WieldRequirements - Level */
+     , (20070, 159,          1) /* WieldSkilltype - Axe */
+     , (20070, 160,         30) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20070, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20070, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (20070, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (20070,  22, True ) /* Inscribable */
+     , (20070,  23, True ) /* DestroyOnSell */
+     , (20070,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20070,   5,  -0.033) /* ManaRate */
+     , (20070,  26,    27.3) /* MaximumVelocity */
+     , (20070,  29,    1.06) /* WeaponDefense */
+     , (20070,  62,       1) /* WeaponOffense */
+     , (20070,  63,     2.1) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20070,   1, 'Good Isparian Bow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20070,   1,   33557729) /* Setup */
+     , (20070,   3,  536870932) /* SoundTable */
+     , (20070,   6,   67111919) /* PaletteBase */
+     , (20070,   7,  268436394) /* ClothingBase */
+     , (20070,   8,  100673010) /* Icon */
+     , (20070,  22,  872415275) /* PhysicsEffectTable */
+     , (20070,  37,          2) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20070, 1603, 2) /* Defender4_SpellID */
-     , (20070, 1614, 2) /* BloodDrinker4_SpellID */
-     , (20070, 2676, 2) /* FeebleBowAptitude_SpellID */;
-
+VALUES (20070,  1603,      2)  /* Aura of Defender Self IV */
+     , (20070,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (20070,  2676,      2)  /* Feeble Missile Weapon Aptitude */;

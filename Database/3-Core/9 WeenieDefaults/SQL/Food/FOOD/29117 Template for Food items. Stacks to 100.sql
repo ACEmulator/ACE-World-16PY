@@ -1,36 +1,32 @@
-/* Weenie - Template for Food items. Stacks to 100 (29117) */
-DELETE FROM weenie WHERE class_Id = 29117;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29117, 'stoutaromatic', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29117, 001 /* NAME_STRING */, 'Template for Food items. Stacks to 100')
-     , (29117, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (29117, 020 /* PLURAL_NAME_STRING */, 'Food');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29117, 001 /* SETUP_DID */, 33555978)
-     , (29117, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29117, 008 /* ICON_DID */, 100669942)
-     , (29117, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29117', 'stoutaromatic', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29117, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (29117, 005 /* ENCUMB_VAL_INT */, 75)
-     , (29117, 008 /* MASS_INT */, 50)
-     , (29117, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29117, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (29117, 012 /* STACK_SIZE_INT */, 1)
-     , (29117, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
-     , (29117, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (29117, 015 /* STACK_UNIT_VALUE_INT */, 22)
-     , (29117, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (29117, 019 /* VALUE_INT */, 22)
-     , (29117, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (29117, 090 /* BOOST_VALUE_INT */, 9)
-     , (29117, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (29117,   1,         32) /* ItemType - Food */
+     , (29117,   5,         75) /* EncumbranceVal */
+     , (29117,   8,         50) /* Mass */
+     , (29117,   9,          0) /* ValidLocations - None */
+     , (29117,  11,        100) /* MaxStackSize */
+     , (29117,  12,          1) /* StackSize */
+     , (29117,  13,         75) /* StackUnitEncumbrance */
+     , (29117,  14,         50) /* StackUnitMass */
+     , (29117,  15,         22) /* StackUnitValue */
+     , (29117,  16,          8) /* ItemUseable - Contained */
+     , (29117,  19,         22) /* Value */
+     , (29117,  89,          4) /* BoosterEnum - Stamina */
+     , (29117,  90,          9) /* BoostValue */
+     , (29117,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29117, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (29117,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29117,   1, 'Template for Food items. Stacks to 100') /* Name */
+     , (29117,  14, 'Use this item to eat it.') /* Use */
+     , (29117,  20, 'Food') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29117,   1,   33555978) /* Setup */
+     , (29117,   3,  536870932) /* SoundTable */
+     , (29117,   8,  100669942) /* Icon */
+     , (29117,  22,  872415275) /* PhysicsEffectTable */;

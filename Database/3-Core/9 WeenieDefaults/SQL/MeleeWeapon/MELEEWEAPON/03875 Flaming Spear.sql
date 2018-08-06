@@ -1,49 +1,45 @@
-/* Weenie - Flaming Spear (3875) */
-DELETE FROM weenie WHERE class_Id = 3875;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3875, 'spearflame', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3875, 001 /* NAME_STRING */, 'Flaming Spear');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3875, 001 /* SETUP_DID */, 33555412)
-     , (3875, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3875, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3875, 007 /* CLOTHINGBASE_DID */, 268435768)
-     , (3875, 008 /* ICON_DID */, 100667609)
-     , (3875, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3875, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3875, 046 /* TSYS_MUTATION_FILTER_DID */, 939524100);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3875', 'spearflame', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3875, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3875, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (3875, 005 /* ENCUMB_VAL_INT */, 700)
-     , (3875, 008 /* MASS_INT */, 140)
-     , (3875, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3875, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3875, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (3875, 019 /* VALUE_INT */, 425)
-     , (3875, 044 /* DAMAGE_INT */, 10)
-     , (3875, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (3875, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3875, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (3875, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (3875, 049 /* WEAPON_TIME_INT */, 30)
-     , (3875, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3875, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3875, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3875, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3875, 169 /* TSYS_MUTATION_DATA_INT */, 101188618);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3875, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (3875, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (3875, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3875, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3875,   1,          1) /* ItemType - MeleeWeapon */
+     , (3875,   3,         20) /* PaletteTemplate - Silver */
+     , (3875,   5,        700) /* EncumbranceVal */
+     , (3875,   8,        140) /* Mass */
+     , (3875,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3875,  16,          1) /* ItemUseable - No */
+     , (3875,  18,         32) /* UiEffects - Fire */
+     , (3875,  19,        425) /* Value */
+     , (3875,  44,         10) /* Damage */
+     , (3875,  45,         16) /* DamageType - Fire */
+     , (3875,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3875,  47,          2) /* AttackType - Thrust */
+     , (3875,  48,          9) /* WeaponSkill - Spear */
+     , (3875,  49,         30) /* WeaponTime */
+     , (3875,  51,          1) /* CombatUse - Melee */
+     , (3875,  93,       1044) /* PhysicsState */
+     , (3875, 150,        103) /* HookPlacement - Hook */
+     , (3875, 151,          2) /* HookType - Wall */
+     , (3875, 169,  101188618) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3875, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3875,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3875,  21,     1.5) /* WeaponLength */
+     , (3875,  22,    0.75) /* DamageVariance */
+     , (3875,  29,       1) /* WeaponDefense */
+     , (3875,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3875,   1, 'Flaming Spear') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3875,   1,   33555412) /* Setup */
+     , (3875,   3,  536870932) /* SoundTable */
+     , (3875,   6,   67111919) /* PaletteBase */
+     , (3875,   7,  268435768) /* ClothingBase */
+     , (3875,   8,  100667609) /* Icon */
+     , (3875,  22,  872415275) /* PhysicsEffectTable */
+     , (3875,  36,  234881053) /* MutateFilter */
+     , (3875,  46,  939524100) /* TsysMutationFilter */;

@@ -1,36 +1,32 @@
-/* Weenie - Corcima Castle Central Ward (29501) */
-DELETE FROM weenie WHERE class_Id = 29501;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29501, 'portalkarlunfortexit', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29501, 001 /* NAME_STRING */, 'Corcima Castle Central Ward')
-     , (29501, 037 /* QUEST_RESTRICTION_STRING */, 'HeartofInnocence');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29501, 001 /* SETUP_DID */, 33555925)
-     , (29501, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (29501, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29501', 'portalkarlunfortexit', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29501, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (29501, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (29501, 086 /* MIN_LEVEL_INT */, 60)
-     , (29501, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (29501, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (29501, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29501, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (29501,   1,      65536) /* ItemType - Portal */
+     , (29501,  16,         32) /* ItemUseable - Remote */
+     , (29501,  86,         60) /* MinLevel */
+     , (29501,  93,       3084) /* PhysicsState */
+     , (29501, 111,         49) /* PortalBitmask */
+     , (29501, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29501, 001 /* STUCK_BOOL */, True)
-     , (29501, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (29501, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (29501, 013 /* ETHEREAL_BOOL */, True)
-     , (29501, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (29501,   1, True ) /* Stuck */
+     , (29501,  11, False) /* IgnoreCollisions */
+     , (29501,  12, True ) /* ReportCollisions */
+     , (29501,  13, True ) /* Ethereal */
+     , (29501,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29501,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29501,   1, 'Corcima Castle Central Ward') /* Name */
+     , (29501,  37, 'HeartofInnocence') /* QuestRestriction */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29501,   1,   33555925) /* Setup */
+     , (29501,   2,  150994947) /* MotionTable */
+     , (29501,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29501, 2, 1598423433, 39.247, 0.038, 0, -0.02677006, 0, 0, -0.9996416) /* DESTINATION_POSITION */;
-
+VALUES (29501, 2, 1598423433, 39.247, 0.038, 0, -0.02677006, 0, 0, -0.9996416) /* Destination */;

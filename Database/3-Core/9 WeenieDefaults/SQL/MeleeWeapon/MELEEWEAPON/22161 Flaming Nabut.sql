@@ -1,50 +1,46 @@
-/* Weenie - Flaming Nabut (22161) */
-DELETE FROM weenie WHERE class_Id = 22161;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22161, 'nabutfirenew', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22161, 001 /* NAME_STRING */, 'Flaming Nabut');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22161, 001 /* SETUP_DID */, 33558071)
-     , (22161, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22161, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22161, 007 /* CLOTHINGBASE_DID */, 268436487)
-     , (22161, 008 /* ICON_DID */, 100667602)
-     , (22161, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (22161, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (22161, 046 /* TSYS_MUTATION_FILTER_DID */, 939524110);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22161', 'nabutfirenew', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22161, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (22161, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (22161, 005 /* ENCUMB_VAL_INT */, 550)
-     , (22161, 008 /* MASS_INT */, 110)
-     , (22161, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (22161, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22161, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (22161, 019 /* VALUE_INT */, 450)
-     , (22161, 044 /* DAMAGE_INT */, 7)
-     , (22161, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (22161, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (22161, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (22161, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (22161, 049 /* WEAPON_TIME_INT */, 45)
-     , (22161, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (22161, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22161, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22161, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (22161, 169 /* TSYS_MUTATION_DATA_INT */, 101189388);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22161, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (22161, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (22161, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (22161, 039 /* DEFAULT_SCALE_FLOAT */, 0.8)
-     , (22161, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (22161,   1,          1) /* ItemType - MeleeWeapon */
+     , (22161,   3,         14) /* PaletteTemplate - Red */
+     , (22161,   5,        550) /* EncumbranceVal */
+     , (22161,   8,        110) /* Mass */
+     , (22161,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (22161,  16,          1) /* ItemUseable - No */
+     , (22161,  18,         32) /* UiEffects - Fire */
+     , (22161,  19,        450) /* Value */
+     , (22161,  44,          7) /* Damage */
+     , (22161,  45,         16) /* DamageType - Fire */
+     , (22161,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (22161,  47,          6) /* AttackType */
+     , (22161,  48,         10) /* WeaponSkill - Staff */
+     , (22161,  49,         45) /* WeaponTime */
+     , (22161,  51,          1) /* CombatUse - Melee */
+     , (22161,  93,       1044) /* PhysicsState */
+     , (22161, 150,        103) /* HookPlacement - Hook */
+     , (22161, 151,          2) /* HookType - Wall */
+     , (22161, 169,  101189388) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22161, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22161,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22161,  21,    1.33) /* WeaponLength */
+     , (22161,  22,     0.5) /* DamageVariance */
+     , (22161,  29,       1) /* WeaponDefense */
+     , (22161,  39,     0.8) /* DefaultScale */
+     , (22161,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22161,   1, 'Flaming Nabut') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22161,   1,   33558071) /* Setup */
+     , (22161,   3,  536870932) /* SoundTable */
+     , (22161,   6,   67111919) /* PaletteBase */
+     , (22161,   7,  268436487) /* ClothingBase */
+     , (22161,   8,  100667602) /* Icon */
+     , (22161,  22,  872415275) /* PhysicsEffectTable */
+     , (22161,  36,  234881053) /* MutateFilter */
+     , (22161,  46,  939524110) /* TsysMutationFilter */;

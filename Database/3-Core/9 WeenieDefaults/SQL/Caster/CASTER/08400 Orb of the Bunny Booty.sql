@@ -1,45 +1,41 @@
-/* Weenie - Orb of the Bunny Booty (8400) */
-DELETE FROM weenie WHERE class_Id = 8400;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8400, 'orbwhitebunny', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8400, 001 /* NAME_STRING */, 'Orb of the Bunny Booty');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8400, 001 /* SETUP_DID */, 33556870)
-     , (8400, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8400, 006 /* PALETTE_BASE_DID */, 67109300)
-     , (8400, 007 /* CLOTHINGBASE_DID */, 268435725)
-     , (8400, 008 /* ICON_DID */, 100669116)
-     , (8400, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8400, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8400', 'orbwhitebunny', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8400, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (8400, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (8400, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8400, 008 /* MASS_INT */, 10)
-     , (8400, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (8400, 016 /* ITEM_USEABLE_INT */, 6291460 /* USEABLE_SOURCE_WIELDED_TARGET_REMOTE_NEVER_WALK */)
-     , (8400, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8400, 019 /* VALUE_INT */, 666)
-     , (8400, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8400, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (8400, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8400, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (8400, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (8400, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8400, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8400, 012 /* SHADE_FLOAT */, 0.5)
-     , (8400, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (8400, 039 /* DEFAULT_SCALE_FLOAT */, 1.6);
+VALUES (8400,   1,      32768) /* ItemType - Caster */
+     , (8400,   3,         61) /* PaletteTemplate - White */
+     , (8400,   5,         10) /* EncumbranceVal */
+     , (8400,   8,         10) /* Mass */
+     , (8400,   9,   16777216) /* ValidLocations - Held */
+     , (8400,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
+     , (8400,  18,          1) /* UiEffects - Magical */
+     , (8400,  19,        666) /* Value */
+     , (8400,  33,          1) /* Bonded - Bonded */
+     , (8400,  46,        512) /* DefaultCombatStyle - Magic */
+     , (8400,  93,       1044) /* PhysicsState */
+     , (8400,  94,         16) /* TargetType - Creature */
+     , (8400, 114,          1) /* Attuned - Attuned */
+     , (8400, 150,        103) /* HookPlacement - Hook */
+     , (8400, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8400, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8400, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (8400, 099 /* IVORYABLE_BOOL */, True);
+VALUES (8400,  22, True ) /* Inscribable */
+     , (8400,  23, True ) /* DestroyOnSell */
+     , (8400,  99, True ) /* Ivoryable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8400,  12,     0.5) /* Shade */
+     , (8400,  29,       1) /* WeaponDefense */
+     , (8400,  39,     1.6) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8400,   1, 'Orb of the Bunny Booty') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8400,   1,   33556870) /* Setup */
+     , (8400,   3,  536870932) /* SoundTable */
+     , (8400,   6,   67109300) /* PaletteBase */
+     , (8400,   7,  268435725) /* ClothingBase */
+     , (8400,   8,  100669116) /* Icon */
+     , (8400,  22,  872415275) /* PhysicsEffectTable */
+     , (8400,  36,  234881046) /* MutateFilter */;

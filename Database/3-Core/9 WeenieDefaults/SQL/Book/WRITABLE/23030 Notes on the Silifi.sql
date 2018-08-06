@@ -1,32 +1,29 @@
-/* Weenie - Notes on the Silifi (23030) */
-DELETE FROM weenie WHERE class_Id = 23030;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23030, 'booksilificrimsonstarshints', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23030, 001 /* NAME_STRING */, 'Notes on the Silifi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23030, 001 /* SETUP_DID */, 33554773)
-     , (23030, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23030, 008 /* ICON_DID */, 100668176)
-     , (23030, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23030', 'booksilificrimsonstarshints', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23030, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (23030, 005 /* ENCUMB_VAL_INT */, 10)
-     , (23030, 008 /* MASS_INT */, 5)
-     , (23030, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23030, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23030, 019 /* VALUE_INT */, 10)
-     , (23030, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (23030,   1,       8192) /* ItemType - Writable */
+     , (23030,   5,         10) /* EncumbranceVal */
+     , (23030,   8,          5) /* Mass */
+     , (23030,   9,          0) /* ValidLocations - None */
+     , (23030,  16,          8) /* ItemUseable - Contained */
+     , (23030,  19,         10) /* Value */
+     , (23030,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23030, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (23030,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23030,   1, 'Notes on the Silifi') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23030,   1,   33554773) /* Setup */
+     , (23030,   3,  536870932) /* SoundTable */
+     , (23030,   8,  100668176) /* Icon */
+     , (23030,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (23030, 3, 1000) /* Book Data */;
+VALUES (23030, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (23030, 0, 4294967295, 'Notes on the Silifi', 'prewritten', False, '
@@ -54,4 +51,3 @@ The Ruby Yujazik:
 The Ruby Sulmada: 
     Amiantos Bethel (16.3S, 35.1E)
 ');
-

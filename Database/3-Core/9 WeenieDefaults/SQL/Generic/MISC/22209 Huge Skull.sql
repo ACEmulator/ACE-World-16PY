@@ -1,28 +1,24 @@
-/* Weenie - Huge Skull (22209) */
-DELETE FROM weenie WHERE class_Id = 22209;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22209, 'hugeskull', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22209, 001 /* NAME_STRING */, 'Huge Skull');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22209, 001 /* SETUP_DID */, 33556825)
-     , (22209, 008 /* ICON_DID */, 100671032);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22209', 'hugeskull', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22209, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22209, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22209, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
-     , (22209, 133 /* SHOWABLE_ON_RADAR_INT */, 1 /* ShowNever_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22209, 039 /* DEFAULT_SCALE_FLOAT */, 5)
-     , (22209, 076 /* TRANSLUCENCY_FLOAT */, 0.45);
+VALUES (22209,   1,        128) /* ItemType - Misc */
+     , (22209,  16,          1) /* ItemUseable - No */
+     , (22209,  93,         20) /* PhysicsState */
+     , (22209, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22209, 001 /* STUCK_BOOL */, True)
-     , (22209, 013 /* ETHEREAL_BOOL */, True)
-     , (22209, 014 /* GRAVITY_STATUS_BOOL */, False);
+VALUES (22209,   1, True ) /* Stuck */
+     , (22209,  13, True ) /* Ethereal */
+     , (22209,  14, False) /* GravityStatus */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22209,  39,       5) /* DefaultScale */
+     , (22209,  76,    0.45) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22209,   1, 'Huge Skull') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22209,   1,   33556825) /* Setup */
+     , (22209,   8,  100671032) /* Icon */;

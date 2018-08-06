@@ -1,45 +1,41 @@
-/* Weenie - Sea Grey Kindling Stone (9077) */
-DELETE FROM weenie WHERE class_Id = 9077;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9077, 'stonekindlingseagrey', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9077, 001 /* NAME_STRING */, 'Sea Grey Kindling Stone')
-     , (9077, 014 /* USE_STRING */, 'This stone will imbue the proper object with unique magical properties.')
-     , (9077, 015 /* SHORT_DESC_STRING */, 'A sea grey stone.')
-     , (9077, 016 /* LONG_DESC_STRING */, 'A smooth sea grey stone, warm to the touch. There is a symbol inscribed on one side; an eight-pointed starburst shape overlaid on a swirling portal. In the heart of the starburst is a crashing wave. Within the folds of the portal swirl are four glass beads, red, blue, violet, and green.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9077, 001 /* SETUP_DID */, 33555677)
-     , (9077, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9077, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (9077, 007 /* CLOTHINGBASE_DID */, 268436111)
-     , (9077, 008 /* ICON_DID */, 100671339)
-     , (9077, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9077', 'stonekindlingseagrey', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9077, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9077, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (9077, 005 /* ENCUMB_VAL_INT */, 20)
-     , (9077, 008 /* MASS_INT */, 20)
-     , (9077, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9077, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (9077, 012 /* STACK_SIZE_INT */, 1)
-     , (9077, 013 /* STACK_UNIT_ENCUMB_INT */, 20)
-     , (9077, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (9077, 015 /* STACK_UNIT_VALUE_INT */, 50)
-     , (9077, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (9077, 019 /* VALUE_INT */, 50)
-     , (9077, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9077, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9077, 094 /* TARGET_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (9077, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9077, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (9077,   1,        128) /* ItemType - Misc */
+     , (9077,   3,         39) /* PaletteTemplate - Black */
+     , (9077,   5,         20) /* EncumbranceVal */
+     , (9077,   8,         20) /* Mass */
+     , (9077,   9,          0) /* ValidLocations - None */
+     , (9077,  11,          1) /* MaxStackSize */
+     , (9077,  12,          1) /* StackSize */
+     , (9077,  13,         20) /* StackUnitEncumbrance */
+     , (9077,  14,         20) /* StackUnitMass */
+     , (9077,  15,         50) /* StackUnitValue */
+     , (9077,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (9077,  19,         50) /* Value */
+     , (9077,  33,          1) /* Bonded - Bonded */
+     , (9077,  93,       1044) /* PhysicsState */
+     , (9077,  94,          2) /* TargetType - Armor */
+     , (9077, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9077, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9077, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9077,  22, True ) /* Inscribable */
+     , (9077,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9077,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9077,   1, 'Sea Grey Kindling Stone') /* Name */
+     , (9077,  14, 'This stone will imbue the proper object with unique magical properties.') /* Use */
+     , (9077,  15, 'A sea grey stone.') /* ShortDesc */
+     , (9077,  16, 'A smooth sea grey stone, warm to the touch. There is a symbol inscribed on one side; an eight-pointed starburst shape overlaid on a swirling portal. In the heart of the starburst is a crashing wave. Within the folds of the portal swirl are four glass beads, red, blue, violet, and green.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9077,   1,   33555677) /* Setup */
+     , (9077,   3,  536870932) /* SoundTable */
+     , (9077,   6,   67111919) /* PaletteBase */
+     , (9077,   7,  268436111) /* ClothingBase */
+     , (9077,   8,  100671339) /* Icon */
+     , (9077,  22,  872415275) /* PhysicsEffectTable */;

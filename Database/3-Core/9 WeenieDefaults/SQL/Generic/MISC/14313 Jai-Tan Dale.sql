@@ -1,28 +1,24 @@
-/* Weenie - Jai-Tan Dale (14313) */
-DELETE FROM weenie WHERE class_Id = 14313;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14313, 'jaitandalesign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14313, 001 /* NAME_STRING */, 'Jai-Tan Dale')
-     , (14313, 016 /* LONG_DESC_STRING */, 'Welcome to Jai-Tan Dale');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14313, 001 /* SETUP_DID */, 33557463)
-     , (14313, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14313', 'jaitandalesign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14313, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14313, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14313, 008 /* MASS_INT */, 1800)
-     , (14313, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14313, 019 /* VALUE_INT */, 125)
-     , (14313, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14313,   1,        128) /* ItemType - Misc */
+     , (14313,   5,       9000) /* EncumbranceVal */
+     , (14313,   8,       1800) /* Mass */
+     , (14313,  16,          1) /* ItemUseable - No */
+     , (14313,  19,        125) /* Value */
+     , (14313,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14313, 001 /* STUCK_BOOL */, True)
-     , (14313, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14313, 013 /* ETHEREAL_BOOL */, False)
-     , (14313, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14313,   1, True ) /* Stuck */
+     , (14313,  12, True ) /* ReportCollisions */
+     , (14313,  13, False) /* Ethereal */
+     , (14313,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14313,   1, 'Jai-Tan Dale') /* Name */
+     , (14313,  16, 'Welcome to Jai-Tan Dale') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14313,   1,   33557463) /* Setup */
+     , (14313,   8,  100668115) /* Icon */;

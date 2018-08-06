@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Drain Stamina (1860) */
-DELETE FROM weenie WHERE class_Id = 1860;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1860, 'scrolldrainstamina', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1860, 001 /* NAME_STRING */, 'Scroll of Drain Stamina')
-     , (1860, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (1860, 016 /* LONG_DESC_STRING */, 'When learned, this spell drains one-quarter of the target''s Stamina and gives 20% of that to the caster.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1860, 001 /* SETUP_DID */, 33554826)
-     , (1860, 008 /* ICON_DID */, 100676933)
-     , (1860, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1860, 028 /* SPELL_DID */, 1249 /* DrainStamina1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1860', 'scrolldrainstamina', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1860, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (1860, 005 /* ENCUMB_VAL_INT */, 30)
-     , (1860, 008 /* MASS_INT */, 90)
-     , (1860, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (1860, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (1860, 019 /* VALUE_INT */, 1)
-     , (1860, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1860, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (1860,   1,       8192) /* ItemType - Writable */
+     , (1860,   5,         30) /* EncumbranceVal */
+     , (1860,   8,         90) /* Mass */
+     , (1860,   9,          0) /* ValidLocations - None */
+     , (1860,  16,          8) /* ItemUseable - Contained */
+     , (1860,  19,          1) /* Value */
+     , (1860,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1860, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1860, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1860,  22, True ) /* Inscribable */
+     , (1860,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1860,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1860,   1, 'Scroll of Drain Stamina') /* Name */
+     , (1860,  15, 'A magic scroll.') /* ShortDesc */
+     , (1860,  16, 'When learned, this spell drains one-quarter of the target''s Stamina and gives 20% of that to the caster.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1860,   1,   33554826) /* Setup */
+     , (1860,   8,  100676933) /* Icon */
+     , (1860,  22,  872415275) /* PhysicsEffectTable */
+     , (1860,  28,       1249) /* Spell - Drain Stamina Other I */;

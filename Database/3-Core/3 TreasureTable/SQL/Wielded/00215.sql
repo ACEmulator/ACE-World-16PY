@@ -1,28 +1,27 @@
-INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
-VALUES (215, 304 /* Throwing Axe */, 0, 0, 0, 6, 0.1, 0.1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (215, 334 /* Nayin */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, True, False, 0, 0, 0, 0)
-     , (215, 300 /* Arrow */, 0, 0, 0, 20, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (215, 306 /* Longbow */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, True, True, 0, 0, 0, 0)
-     , (215, 300 /* Arrow */, 0, 0, 0, 20, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (215, 363 /* Yumi */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, True, True, 0, 0, 0, 0)
-     , (215, 300 /* Arrow */, 0, 0, 0, 0, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (215, 311 /* Heavy Crossbow */, 0, 0, 0, 0, 0, 0.6, 0, 0, 0, True, True, True, 0, 0, 0, 0)
-     , (215, 305 /* Quarrel */, 0, 0, 0, 15, 0, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (215, 301 /* Battle Axe */, 0, 0, 0, 0, 0, 0.14, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (215, 350 /* Broad Sword */, 0, 0, 0, 0, 0, 0.07, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 324 /* Kaskara */, 0, 0, 0, 0, 0, 0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 327 /* Ken */, 0, 0, 0, 0, 0, 0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 351 /* Long Sword */, 0, 0, 0, 0, 0, 0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 332 /* Morning Star */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 339 /* Scimitar */, 0, 0, 0, 0, 0, 0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 340 /* Shamshir */, 0, 0, 0, 0, 0, 0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 336 /* Ono */, 0, 0, 0, 0, 0, 0.13, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 344 /* Silifi */, 0, 0, 0, 0, 0, 0.13, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 353 /* Tachi */, 0, 0, 0, 0, 0, 0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 354 /* Takuba */, 0, 0, 0, 0, 0, 0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 92 /* Large Kite Shield */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (215, 91 /* Kite Shield */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 94 /* Large Round Shield */, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 93 /* Round Shield */, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (215, 95 /* Tower Shield */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0);
-
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `stack_Size_Variance`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `set_Start`, `has_Sub_Set`, `continues_Previous_Set`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (215,   304,  0, 0,    0, 6, 0.1,     0.1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Throwing Axe */
+     , (215,   334,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False,  True, False, 0, 0, 0, 0) /* Nayin */
+     , (215,   300,  0, 0,    0, 20, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Arrow */
+     , (215,   306,  0, 0,    0, 0, 0,     0.1, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0) /* Longbow */
+     , (215,   300,  0, 0,    0, 20, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Arrow */
+     , (215,   363,  0, 0,    0, 0, 0,     0.1, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0) /* Yumi */
+     , (215,   300,  0, 0,    0, 0, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Arrow */
+     , (215,   311,  0, 0,    0, 0, 0,     0.6, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0) /* Heavy Crossbow */
+     , (215,   305,  0, 0,    0, 15, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Quarrel */
+     , (215,   301,  0, 0,    0, 0, 0,    0.14, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Battle Axe */
+     , (215,   350,  0, 0,    0, 0, 0,    0.07, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Broad Sword */
+     , (215,   324,  0, 0,    0, 0, 0,    0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Kaskara */
+     , (215,   327,  0, 0,    0, 0, 0,    0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Ken */
+     , (215,   351,  0, 0,    0, 0, 0,    0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Long Sword */
+     , (215,   332,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Morning Star */
+     , (215,   339,  0, 0,    0, 0, 0,    0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Scimitar */
+     , (215,   340,  0, 0,    0, 0, 0,    0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Shamshir */
+     , (215,   336,  0, 0,    0, 0, 0,    0.13, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Ono */
+     , (215,   344,  0, 0,    0, 0, 0,    0.13, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Silifi */
+     , (215,   353,  0, 0,    0, 0, 0,    0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Tachi */
+     , (215,   354,  0, 0,    0, 0, 0,    0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Takuba */
+     , (215,    92,  0, 0,    0, 0, 0,     0.1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Large Kite Shield */
+     , (215,    91,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Kite Shield */
+     , (215,    94,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Large Round Shield */
+     , (215,    93,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Round Shield */
+     , (215,    95,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Tower Shield */;

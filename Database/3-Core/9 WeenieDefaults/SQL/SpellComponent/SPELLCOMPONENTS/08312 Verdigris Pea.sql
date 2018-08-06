@@ -1,42 +1,38 @@
-/* Weenie - Verdigris Pea (8312) */
-DELETE FROM weenie WHERE class_Id = 8312;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8312, 'peaalchemverdigris', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8312, 001 /* NAME_STRING */, 'Verdigris Pea')
-     , (8312, 015 /* SHORT_DESC_STRING */, 'A concentrated verdigris pea.')
-     , (8312, 016 /* LONG_DESC_STRING */, 'A concentrated verdigris pea.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8312, 001 /* SETUP_DID */, 33555209)
-     , (8312, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8312, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8312, 007 /* CLOTHINGBASE_DID */, 268435719)
-     , (8312, 008 /* ICON_DID */, 100671059)
-     , (8312, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8312, 029 /* SPELL_COMPONENT_DID */, 159);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8312', 'peaalchemverdigris', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8312, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (8312, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (8312, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8312, 008 /* MASS_INT */, 50)
-     , (8312, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8312, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (8312, 012 /* STACK_SIZE_INT */, 1)
-     , (8312, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8312, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (8312, 015 /* STACK_UNIT_VALUE_INT */, 625)
-     , (8312, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8312, 019 /* VALUE_INT */, 625)
-     , (8312, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8312, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8312, 039 /* DEFAULT_SCALE_FLOAT */, 0.33);
+VALUES (8312,   1,       4096) /* ItemType - SpellComponents */
+     , (8312,   3,          8) /* PaletteTemplate - Green */
+     , (8312,   5,         10) /* EncumbranceVal */
+     , (8312,   8,         50) /* Mass */
+     , (8312,   9,          0) /* ValidLocations - None */
+     , (8312,  11,        100) /* MaxStackSize */
+     , (8312,  12,          1) /* StackSize */
+     , (8312,  13,         10) /* StackUnitEncumbrance */
+     , (8312,  14,         50) /* StackUnitMass */
+     , (8312,  15,        625) /* StackUnitValue */
+     , (8312,  16,          1) /* ItemUseable - No */
+     , (8312,  19,        625) /* Value */
+     , (8312,  33,          1) /* Bonded - Bonded */
+     , (8312,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8312, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8312,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8312,  39,    0.33) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8312,   1, 'Verdigris Pea') /* Name */
+     , (8312,  15, 'A concentrated verdigris pea.') /* ShortDesc */
+     , (8312,  16, 'A concentrated verdigris pea.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8312,   1,   33555209) /* Setup */
+     , (8312,   3,  536870932) /* SoundTable */
+     , (8312,   6,   67111919) /* PaletteBase */
+     , (8312,   7,  268435719) /* ClothingBase */
+     , (8312,   8,  100671059) /* Icon */
+     , (8312,  22,  872415275) /* PhysicsEffectTable */
+     , (8312,  29,        159) /* SpellComponent */;

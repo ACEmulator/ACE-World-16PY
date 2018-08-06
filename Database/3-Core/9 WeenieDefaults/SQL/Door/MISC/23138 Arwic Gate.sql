@@ -1,40 +1,36 @@
-/* Weenie - Arwic Gate (23138) */
-DELETE FROM weenie WHERE class_Id = 23138;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23138, 'gatearwicleft', 19 /* Door_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23138, 001 /* NAME_STRING */, 'Arwic Gate')
-     , (23138, 014 /* USE_STRING */, 'Use this item to open it.')
-     , (23138, 015 /* SHORT_DESC_STRING */, 'A strong defensive gate.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23138, 001 /* SETUP_DID */, 33555490)
-     , (23138, 002 /* MOTION_TABLE_DID */, 150994999)
-     , (23138, 003 /* SOUND_TABLE_DID */, 536870947)
-     , (23138, 008 /* ICON_DID */, 100668183)
-     , (23138, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23138', 'gatearwicleft', 19) /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23138, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (23138, 008 /* MASS_INT */, 500)
-     , (23138, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (23138, 019 /* VALUE_INT */, 0)
-     , (23138, 038 /* RESIST_LOCKPICK_INT */, 5000)
-     , (23138, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23138, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (23138, 039 /* DEFAULT_SCALE_FLOAT */, 0.6)
-     , (23138, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (23138,   1,        128) /* ItemType - Misc */
+     , (23138,   8,        500) /* Mass */
+     , (23138,  16,         32) /* ItemUseable - Remote */
+     , (23138,  19,          0) /* Value */
+     , (23138,  38,       5000) /* ResistLockpick */
+     , (23138,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23138, 001 /* STUCK_BOOL */, True)
-     , (23138, 002 /* OPEN_BOOL */, False)
-     , (23138, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (23138, 013 /* ETHEREAL_BOOL */, False)
-     , (23138, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (23138, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (23138, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (23138,   1, True ) /* Stuck */
+     , (23138,   2, False) /* Open */
+     , (23138,  12, True ) /* ReportCollisions */
+     , (23138,  13, False) /* Ethereal */
+     , (23138,  14, False) /* GravityStatus */
+     , (23138,  33, False) /* ResetMessagePending */
+     , (23138,  34, False) /* DefaultOpen */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23138,  11,     300) /* ResetInterval */
+     , (23138,  39,     0.6) /* DefaultScale */
+     , (23138,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23138,   1, 'Arwic Gate') /* Name */
+     , (23138,  14, 'Use this item to open it.') /* Use */
+     , (23138,  15, 'A strong defensive gate.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23138,   1,   33555490) /* Setup */
+     , (23138,   2,  150994999) /* MotionTable */
+     , (23138,   3,  536870947) /* SoundTable */
+     , (23138,   8,  100668183) /* Icon */
+     , (23138,  22,  872415275) /* PhysicsEffectTable */;

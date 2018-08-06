@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Potent Sanctifier of the Clutch (28093) */
-DELETE FROM weenie WHERE class_Id = 28093;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28093, 'scrollmagicresistancefellowship7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28093, 001 /* NAME_STRING */, 'Scroll of Potent Sanctifier of the Clutch')
-     , (28093, 015 /* SHORT_DESC_STRING */, 'When learned, this spell enhances the Focus of all Fellowship members by 40 points for 60 minutes.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28093, 001 /* SETUP_DID */, 33554826)
-     , (28093, 008 /* ICON_DID */, 100676465)
-     , (28093, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28093, 028 /* SPELL_DID */, 3359 /* MagicResistanceFellowship7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28093', 'scrollmagicresistancefellowship7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28093, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28093, 005 /* ENCUMB_VAL_INT */, 30)
-     , (28093, 008 /* MASS_INT */, 90)
-     , (28093, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28093, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28093, 019 /* VALUE_INT */, 2000)
-     , (28093, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28093, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (28093,   1,       8192) /* ItemType - Writable */
+     , (28093,   5,         30) /* EncumbranceVal */
+     , (28093,   8,         90) /* Mass */
+     , (28093,   9,          0) /* ValidLocations - None */
+     , (28093,  16,          8) /* ItemUseable - Contained */
+     , (28093,  19,       2000) /* Value */
+     , (28093,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28093, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28093, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28093,  22, True ) /* Inscribable */
+     , (28093,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28093,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28093,   1, 'Scroll of Potent Sanctifier of the Clutch') /* Name */
+     , (28093,  15, 'When learned, this spell enhances the Focus of all Fellowship members by 40 points for 60 minutes.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28093,   1,   33554826) /* Setup */
+     , (28093,   8,  100676465) /* Icon */
+     , (28093,  22,  872415275) /* PhysicsEffectTable */
+     , (28093,  28,       3359) /* Spell - Potent Sanctifier of the Clutch */;

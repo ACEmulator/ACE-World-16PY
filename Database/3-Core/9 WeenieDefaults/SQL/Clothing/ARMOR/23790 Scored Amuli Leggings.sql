@@ -1,60 +1,56 @@
-/* Weenie - Scored Amuli Leggings (23790) */
-DELETE FROM weenie WHERE class_Id = 23790;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23790, 'leggingsamulishadowscored', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23790, 001 /* NAME_STRING */, 'Scored Amuli Leggings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23790, 001 /* SETUP_DID */, 33554856)
-     , (23790, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23790, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (23790, 007 /* CLOTHINGBASE_DID */, 268435872)
-     , (23790, 008 /* ICON_DID */, 100674068)
-     , (23790, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23790', 'leggingsamulishadowscored', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23790, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (23790, 003 /* PALETTE_TEMPLATE_INT */, 93 /* DYESPRINGBLACK_PALETTE_TEMPLATE */)
-     , (23790, 004 /* CLOTHING_PRIORITY_INT */, 2816 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */)
-     , (23790, 005 /* ENCUMB_VAL_INT */, 2288)
-     , (23790, 008 /* MASS_INT */, 1275)
-     , (23790, 009 /* LOCATIONS_INT */, 25600 /* ABDOMEN_ARMOR_LOC, UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (23790, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23790, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (23790, 019 /* VALUE_INT */, 3040)
-     , (23790, 027 /* ARMOR_TYPE_INT */, 2)
-     , (23790, 028 /* ARMOR_LEVEL_INT */, 240)
-     , (23790, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23790, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23790, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (23790, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (23790, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (23790, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (23790, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (23790, 160 /* WIELD_DIFFICULTY_INT */, 50);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23790, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (23790, 012 /* SHADE_FLOAT */, 0.25)
-     , (23790, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (23790, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (23790, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (23790, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (23790, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (23790, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (23790, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (23790, 110 /* BULK_MOD_FLOAT */, 1)
-     , (23790, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (23790,   1,          2) /* ItemType - Armor */
+     , (23790,   3,         93) /* PaletteTemplate - DyeSpringBlack */
+     , (23790,   4,       2816) /* ClothingPriority */
+     , (23790,   5,       2288) /* EncumbranceVal */
+     , (23790,   8,       1275) /* Mass */
+     , (23790,   9,      25600) /* ValidLocations */
+     , (23790,  16,          1) /* ItemUseable - No */
+     , (23790,  18,        256) /* UiEffects - Acid */
+     , (23790,  19,       3040) /* Value */
+     , (23790,  27,          2) /* ArmorType */
+     , (23790,  28,        240) /* ArmorLevel */
+     , (23790,  33,          1) /* Bonded - Bonded */
+     , (23790,  93,       1044) /* PhysicsState */
+     , (23790, 107,       1000) /* ItemCurMana */
+     , (23790, 108,       1000) /* ItemMaxMana */
+     , (23790, 109,          0) /* ItemDifficulty */
+     , (23790, 158,          7) /* WieldRequirements - Level */
+     , (23790, 159,          1) /* WieldSkilltype - Axe */
+     , (23790, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23790, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23790, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (23790, 069 /* IS_SELLABLE_BOOL */, False)
-     , (23790, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
+VALUES (23790,  22, True ) /* Inscribable */
+     , (23790,  23, True ) /* DestroyOnSell */
+     , (23790,  69, False) /* IsSellable */
+     , (23790,  84, True ) /* IgnoreCloIcons */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23790,   5,  -0.025) /* ManaRate */
+     , (23790,  12,    0.25) /* Shade */
+     , (23790,  13,       1) /* ArmorModVsSlash */
+     , (23790,  14,     0.8) /* ArmorModVsPierce */
+     , (23790,  15,       1) /* ArmorModVsBludgeon */
+     , (23790,  16,     0.8) /* ArmorModVsCold */
+     , (23790,  17,     0.8) /* ArmorModVsFire */
+     , (23790,  18,     0.8) /* ArmorModVsAcid */
+     , (23790,  19,     0.6) /* ArmorModVsElectric */
+     , (23790, 110,       1) /* BulkMod */
+     , (23790, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23790,   1, 'Scored Amuli Leggings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23790,   1,   33554856) /* Setup */
+     , (23790,   3,  536870932) /* SoundTable */
+     , (23790,   6,   67108990) /* PaletteBase */
+     , (23790,   7,  268435872) /* ClothingBase */
+     , (23790,   8,  100674068) /* Icon */
+     , (23790,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23790, 2609, 2) /* CANTRIPACIDWARD2_SpellID */;
-
+VALUES (23790,  2609,      2)  /* Major Acid Ward */;

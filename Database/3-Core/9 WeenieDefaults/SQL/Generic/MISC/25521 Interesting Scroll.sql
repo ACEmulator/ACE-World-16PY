@@ -1,29 +1,25 @@
-/* Weenie - Interesting Scroll (25521) */
-DELETE FROM weenie WHERE class_Id = 25521;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25521, 'scroll-npcwield', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25521, 001 /* NAME_STRING */, 'Interesting Scroll');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25521, 001 /* SETUP_DID */, 33554826)
-     , (25521, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25521, 008 /* ICON_DID */, 100671419)
-     , (25521, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25521', 'scroll-npcwield', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25521, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25521, 005 /* ENCUMB_VAL_INT */, 25)
-     , (25521, 008 /* MASS_INT */, 5)
-     , (25521, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (25521, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25521, 019 /* VALUE_INT */, 1)
-     , (25521, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (25521,   1,        128) /* ItemType - Misc */
+     , (25521,   5,         25) /* EncumbranceVal */
+     , (25521,   8,          5) /* Mass */
+     , (25521,   9,   16777216) /* ValidLocations - Held */
+     , (25521,  16,          1) /* ItemUseable - No */
+     , (25521,  19,          1) /* Value */
+     , (25521,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25521, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25521, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (25521, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (25521,  22, True ) /* Inscribable */
+     , (25521,  23, True ) /* DestroyOnSell */
+     , (25521,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25521,   1, 'Interesting Scroll') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25521,   1,   33554826) /* Setup */
+     , (25521,   3,  536870932) /* SoundTable */
+     , (25521,   8,  100671419) /* Icon */
+     , (25521,  22,  872415275) /* PhysicsEffectTable */;

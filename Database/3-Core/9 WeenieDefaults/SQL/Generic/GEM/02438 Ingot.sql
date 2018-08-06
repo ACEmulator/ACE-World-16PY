@@ -1,30 +1,26 @@
-/* Weenie - Ingot (2438) */
-DELETE FROM weenie WHERE class_Id = 2438;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2438, 'ingot', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2438, 001 /* NAME_STRING */, 'Ingot');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2438, 001 /* SETUP_DID */, 33555677)
-     , (2438, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2438, 007 /* CLOTHINGBASE_DID */, 268435747)
-     , (2438, 008 /* ICON_DID */, 100668692)
-     , (2438, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2438', 'ingot', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2438, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (2438, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (2438, 005 /* ENCUMB_VAL_INT */, 750)
-     , (2438, 008 /* MASS_INT */, 500)
-     , (2438, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2438, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2438, 019 /* VALUE_INT */, 30)
-     , (2438, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2438, 169 /* TSYS_MUTATION_DATA_INT */, 131332);
+VALUES (2438,   1,       2048) /* ItemType - Gem */
+     , (2438,   3,         21) /* PaletteTemplate - Gold */
+     , (2438,   5,        750) /* EncumbranceVal */
+     , (2438,   8,        500) /* Mass */
+     , (2438,   9,          0) /* ValidLocations - None */
+     , (2438,  16,          1) /* ItemUseable - No */
+     , (2438,  19,         30) /* Value */
+     , (2438,  93,       1044) /* PhysicsState */
+     , (2438, 169,     131332) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2438, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2438,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2438,   1, 'Ingot') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2438,   1,   33555677) /* Setup */
+     , (2438,   6,   67111919) /* PaletteBase */
+     , (2438,   7,  268435747) /* ClothingBase */
+     , (2438,   8,  100668692) /* Icon */
+     , (2438,  36,  234881046) /* MutateFilter */;

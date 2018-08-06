@@ -1,41 +1,37 @@
-/* Weenie - Yellow Pea (8357) */
-DELETE FROM weenie WHERE class_Id = 8357;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8357, 'peataperyellow', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8357, 001 /* NAME_STRING */, 'Yellow Pea')
-     , (8357, 015 /* SHORT_DESC_STRING */, 'A concentrated yellow pea.')
-     , (8357, 016 /* LONG_DESC_STRING */, 'A concentrated yellow pea.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8357, 001 /* SETUP_DID */, 33555445)
-     , (8357, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8357, 006 /* PALETTE_BASE_DID */, 67111410)
-     , (8357, 007 /* CLOTHINGBASE_DID */, 268435643)
-     , (8357, 008 /* ICON_DID */, 100671112)
-     , (8357, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8357, 029 /* SPELL_COMPONENT_DID */, 178);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8357', 'peataperyellow', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8357, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (8357, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8357, 008 /* MASS_INT */, 50)
-     , (8357, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8357, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (8357, 012 /* STACK_SIZE_INT */, 1)
-     , (8357, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8357, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (8357, 015 /* STACK_UNIT_VALUE_INT */, 3125)
-     , (8357, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8357, 019 /* VALUE_INT */, 3125)
-     , (8357, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8357, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8357, 039 /* DEFAULT_SCALE_FLOAT */, 0.33);
+VALUES (8357,   1,       4096) /* ItemType - SpellComponents */
+     , (8357,   5,         10) /* EncumbranceVal */
+     , (8357,   8,         50) /* Mass */
+     , (8357,   9,          0) /* ValidLocations - None */
+     , (8357,  11,        100) /* MaxStackSize */
+     , (8357,  12,          1) /* StackSize */
+     , (8357,  13,         10) /* StackUnitEncumbrance */
+     , (8357,  14,         50) /* StackUnitMass */
+     , (8357,  15,       3125) /* StackUnitValue */
+     , (8357,  16,          1) /* ItemUseable - No */
+     , (8357,  19,       3125) /* Value */
+     , (8357,  33,          1) /* Bonded - Bonded */
+     , (8357,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8357, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8357,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8357,  39,    0.33) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8357,   1, 'Yellow Pea') /* Name */
+     , (8357,  15, 'A concentrated yellow pea.') /* ShortDesc */
+     , (8357,  16, 'A concentrated yellow pea.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8357,   1,   33555445) /* Setup */
+     , (8357,   3,  536870932) /* SoundTable */
+     , (8357,   6,   67111410) /* PaletteBase */
+     , (8357,   7,  268435643) /* ClothingBase */
+     , (8357,   8,  100671112) /* Icon */
+     , (8357,  22,  872415275) /* PhysicsEffectTable */
+     , (8357,  29,        178) /* SpellComponent */;

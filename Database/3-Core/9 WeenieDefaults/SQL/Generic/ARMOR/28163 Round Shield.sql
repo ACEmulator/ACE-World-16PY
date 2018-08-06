@@ -1,50 +1,46 @@
-/* Weenie - Round Shield (28163) */
-DELETE FROM weenie WHERE class_Id = 28163;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28163, 'shieldgromniehide', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28163, 001 /* NAME_STRING */, 'Round Shield');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28163, 001 /* SETUP_DID */, 33554786)
-     , (28163, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28163, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (28163, 007 /* CLOTHINGBASE_DID */, 268435806)
-     , (28163, 008 /* ICON_DID */, 100668415)
-     , (28163, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28163, 036 /* MUTATE_FILTER_DID */, 234881043)
-     , (28163, 046 /* TSYS_MUTATION_FILTER_DID */, 939524147);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28163', 'shieldgromniehide', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28163, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (28163, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (28163, 005 /* ENCUMB_VAL_INT */, 690)
-     , (28163, 008 /* MASS_INT */, 230)
-     , (28163, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
-     , (28163, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28163, 019 /* VALUE_INT */, 120)
-     , (28163, 027 /* ARMOR_TYPE_INT */, 2)
-     , (28163, 028 /* ARMOR_LEVEL_INT */, 20)
-     , (28163, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
-     , (28163, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28163, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28163, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (28163, 169 /* TSYS_MUTATION_DATA_INT */, 134284804);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28163, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (28163, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (28163, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.2)
-     , (28163, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (28163, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
-     , (28163, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (28163, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (28163, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (28163, 110 /* BULK_MOD_FLOAT */, 1)
-     , (28163, 111 /* SIZE_MOD_FLOAT */, 1.33);
+VALUES (28163,   1,          2) /* ItemType - Armor */
+     , (28163,   3,          4) /* PaletteTemplate - Brown */
+     , (28163,   5,        690) /* EncumbranceVal */
+     , (28163,   8,        230) /* Mass */
+     , (28163,   9,    2097152) /* ValidLocations - Shield */
+     , (28163,  16,          1) /* ItemUseable - No */
+     , (28163,  19,        120) /* Value */
+     , (28163,  27,          2) /* ArmorType */
+     , (28163,  28,         20) /* ArmorLevel */
+     , (28163,  51,          4) /* CombatUse - Shield */
+     , (28163,  93,       1044) /* PhysicsState */
+     , (28163, 150,        103) /* HookPlacement - Hook */
+     , (28163, 151,          2) /* HookType - Wall */
+     , (28163, 169,  134284804) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28163, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28163,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28163,  13,       1) /* ArmorModVsSlash */
+     , (28163,  14,     0.8) /* ArmorModVsPierce */
+     , (28163,  15,     1.2) /* ArmorModVsBludgeon */
+     , (28163,  16,     0.6) /* ArmorModVsCold */
+     , (28163,  17,     0.6) /* ArmorModVsFire */
+     , (28163,  18,       1) /* ArmorModVsAcid */
+     , (28163,  19,     0.6) /* ArmorModVsElectric */
+     , (28163,  39,       1) /* DefaultScale */
+     , (28163, 110,       1) /* BulkMod */
+     , (28163, 111,    1.33) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28163,   1, 'Round Shield') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28163,   1,   33554786) /* Setup */
+     , (28163,   3,  536870932) /* SoundTable */
+     , (28163,   6,   67111919) /* PaletteBase */
+     , (28163,   7,  268435806) /* ClothingBase */
+     , (28163,   8,  100668415) /* Icon */
+     , (28163,  22,  872415275) /* PhysicsEffectTable */
+     , (28163,  36,  234881043) /* MutateFilter */
+     , (28163,  46,  939524147) /* TsysMutationFilter */;

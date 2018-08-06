@@ -1,50 +1,46 @@
-/* Weenie - Shoyanen's Portal Gem (8982) */
-DELETE FROM weenie WHERE class_Id = 8982;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8982, 'gemportalshoyanen', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8982, 001 /* NAME_STRING */, 'Shoyanen''s Portal Gem')
-     , (8982, 015 /* SHORT_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.')
-     , (8982, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8982, 001 /* SETUP_DID */, 33556769)
-     , (8982, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8982, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8982, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (8982, 008 /* ICON_DID */, 100674869)
-     , (8982, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8982, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (8982, 031 /* LINKED_PORTAL_ONE_DID */, 8994 /* Shoyanen's Portal */)
-     , (8982, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8982', 'gemportalshoyanen', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8982, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8982, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (8982, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8982, 008 /* MASS_INT */, 10)
-     , (8982, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8982, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (8982, 012 /* STACK_SIZE_INT */, 1)
-     , (8982, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8982, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (8982, 015 /* STACK_UNIT_VALUE_INT */, 20000)
-     , (8982, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8982, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8982, 019 /* VALUE_INT */, 20000)
-     , (8982, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8982, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (8982, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (8982, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (8982, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (8982, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (8982, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (8982, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8982, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (8982,   1,       2048) /* ItemType - Gem */
+     , (8982,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (8982,   5,         10) /* EncumbranceVal */
+     , (8982,   8,         10) /* Mass */
+     , (8982,   9,          0) /* ValidLocations - None */
+     , (8982,  11,         25) /* MaxStackSize */
+     , (8982,  12,          1) /* StackSize */
+     , (8982,  13,         10) /* StackUnitEncumbrance */
+     , (8982,  14,         10) /* StackUnitMass */
+     , (8982,  15,      20000) /* StackUnitValue */
+     , (8982,  16,          8) /* ItemUseable - Contained */
+     , (8982,  18,          1) /* UiEffects - Magical */
+     , (8982,  19,      20000) /* Value */
+     , (8982,  93,       3092) /* PhysicsState */
+     , (8982,  94,         16) /* TargetType - Creature */
+     , (8982, 106,        210) /* ItemSpellcraft */
+     , (8982, 107,         50) /* ItemCurMana */
+     , (8982, 108,         50) /* ItemMaxMana */
+     , (8982, 109,          0) /* ItemDifficulty */
+     , (8982, 110,          0) /* ItemAllegianceRankLimit */
+     , (8982, 150,        103) /* HookPlacement - Hook */
+     , (8982, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8982, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (8982, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8982,  15, True ) /* LightsStatus */
+     , (8982,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8982,   1, 'Shoyanen''s Portal Gem') /* Name */
+     , (8982,  15, 'This portal summoning gem works best if used outside in a relatively flat area.') /* ShortDesc */
+     , (8982,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8982,   1,   33556769) /* Setup */
+     , (8982,   3,  536870932) /* SoundTable */
+     , (8982,   6,   67111919) /* PaletteBase */
+     , (8982,   7,  268435723) /* ClothingBase */
+     , (8982,   8,  100674869) /* Icon */
+     , (8982,  22,  872415275) /* PhysicsEffectTable */
+     , (8982,  28,        157) /* Spell - Summon Primary Portal I */
+     , (8982,  31,       8994) /* LinkedPortalOne - Shoyanen's Portal */
+     , (8982,  36,  234881046) /* MutateFilter */;

@@ -1,52 +1,48 @@
-/* Weenie - Bone Dagger (30005) */
-DELETE FROM weenie WHERE class_Id = 30005;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30005, 'daggerruschkmid', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30005, 001 /* NAME_STRING */, 'Bone Dagger');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30005, 001 /* SETUP_DID */, 33558584)
-     , (30005, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30005, 008 /* ICON_DID */, 100675766)
-     , (30005, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30005, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30005', 'daggerruschkmid', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30005, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30005, 005 /* ENCUMB_VAL_INT */, 135)
-     , (30005, 008 /* MASS_INT */, 90)
-     , (30005, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30005, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30005, 019 /* VALUE_INT */, 40)
-     , (30005, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (30005, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (30005, 044 /* DAMAGE_INT */, 6)
-     , (30005, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (30005, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30005, 047 /* ATTACK_TYPE_INT */, 486 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, TripleSlash_AttackType, DoubleThrust_AttackType, TripleThrust_AttackType */)
-     , (30005, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (30005, 049 /* WEAPON_TIME_INT */, 1)
-     , (30005, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30005, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30005, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (30005, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (30005, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (30005, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (30005, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30005, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (30005, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (30005, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (30005, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (30005,   1,          1) /* ItemType - MeleeWeapon */
+     , (30005,   5,        135) /* EncumbranceVal */
+     , (30005,   8,         90) /* Mass */
+     , (30005,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30005,  16,          1) /* ItemUseable - No */
+     , (30005,  19,         40) /* Value */
+     , (30005,  33,         -2) /* Bonded - Destroy */
+     , (30005,  37,       9999) /* ResistItemAppraisal */
+     , (30005,  44,          6) /* Damage */
+     , (30005,  45,         32) /* DamageType - Acid */
+     , (30005,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (30005,  47,        486) /* AttackType */
+     , (30005,  48,          4) /* WeaponSkill - Dagger */
+     , (30005,  49,          1) /* WeaponTime */
+     , (30005,  51,          1) /* CombatUse - Melee */
+     , (30005,  93,       1044) /* PhysicsState */
+     , (30005, 106,        250) /* ItemSpellcraft */
+     , (30005, 107,        500) /* ItemCurMana */
+     , (30005, 108,        500) /* ItemMaxMana */
+     , (30005, 109,          0) /* ItemDifficulty */
+     , (30005, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30005, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30005,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30005,  21,     0.4) /* WeaponLength */
+     , (30005,  22,    0.75) /* DamageVariance */
+     , (30005,  29,       1) /* WeaponDefense */
+     , (30005,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30005,   1, 'Bone Dagger') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30005,   1,   33558584) /* Setup */
+     , (30005,   3,  536870932) /* SoundTable */
+     , (30005,   8,  100675766) /* Icon */
+     , (30005,  22,  872415275) /* PhysicsEffectTable */
+     , (30005,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30005, 1614, 2) /* BloodDrinker4_SpellID */
-     , (30005, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (30005,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (30005,  1625,      2)  /* Aura of Swift Killer Self IV */;

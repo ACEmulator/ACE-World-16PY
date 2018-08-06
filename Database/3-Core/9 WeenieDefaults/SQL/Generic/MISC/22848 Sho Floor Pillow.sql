@@ -1,29 +1,25 @@
-/* Weenie - Sho Floor Pillow (22848) */
-DELETE FROM weenie WHERE class_Id = 22848;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22848, 'shopillow', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22848, 001 /* NAME_STRING */, 'Sho Floor Pillow')
-     , (22848, 014 /* USE_STRING */, 'This item can be used on floor hooks.')
-     , (22848, 015 /* SHORT_DESC_STRING */, 'A beautifully sewn Sho pillow.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22848, 001 /* SETUP_DID */, 33558153)
-     , (22848, 008 /* ICON_DID */, 100673915);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22848', 'shopillow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22848, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22848, 005 /* ENCUMB_VAL_INT */, 500)
-     , (22848, 008 /* MASS_INT */, 500)
-     , (22848, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22848, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22848, 019 /* VALUE_INT */, 5000)
-     , (22848, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22848, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22848, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
+VALUES (22848,   1,        128) /* ItemType - Misc */
+     , (22848,   5,        500) /* EncumbranceVal */
+     , (22848,   8,        500) /* Mass */
+     , (22848,   9,          0) /* ValidLocations - None */
+     , (22848,  16,          1) /* ItemUseable - No */
+     , (22848,  19,       5000) /* Value */
+     , (22848,  93,       1044) /* PhysicsState */
+     , (22848, 150,        103) /* HookPlacement - Hook */
+     , (22848, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22848, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22848,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22848,   1, 'Sho Floor Pillow') /* Name */
+     , (22848,  14, 'This item can be used on floor hooks.') /* Use */
+     , (22848,  15, 'A beautifully sewn Sho pillow.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22848,   1,   33558153) /* Setup */
+     , (22848,   8,  100673915) /* Icon */;

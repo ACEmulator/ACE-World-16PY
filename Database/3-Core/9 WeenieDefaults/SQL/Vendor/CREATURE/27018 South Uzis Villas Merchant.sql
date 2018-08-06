@@ -1,104 +1,100 @@
-/* Weenie - South Uzis Villas Merchant (27018) */
-DELETE FROM weenie WHERE class_Id = 27018;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27018, 'southuzisvillasvendor', 12 /* Vendor_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27018, 001 /* NAME_STRING */, 'South Uzis Villas Merchant')
-     , (27018, 003 /* SEX_STRING */, 'Male')
-     , (27018, 004 /* HERITAGE_GROUP_STRING */, 'Aluvian')
-     , (27018, 005 /* TEMPLATE_STRING */, 'Merchant');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27018, 001 /* SETUP_DID */, 33554433)
-     , (27018, 002 /* MOTION_TABLE_DID */, 150994945)
-     , (27018, 003 /* SOUND_TABLE_DID */, 536870913)
-     , (27018, 004 /* COMBAT_TABLE_DID */, 805306368)
-     , (27018, 008 /* ICON_DID */, 100667446);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27018', 'southuzisvillasvendor', 12) /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27018, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (27018, 002 /* CREATURE_TYPE_INT */, 31 /* Human_CreatureType */)
-     , (27018, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (27018, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (27018, 008 /* MASS_INT */, 120)
-     , (27018, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (27018, 025 /* LEVEL_INT */, 10)
-     , (27018, 027 /* ARMOR_TYPE_INT */, 0)
-     , (27018, 074 /* MERCHANDISE_ITEM_TYPES_INT */, 264192 /* TYPE_GEM, TYPE_PROMISSORY_NOTE */)
-     , (27018, 075 /* MERCHANDISE_MIN_VALUE_INT */, 0)
-     , (27018, 076 /* MERCHANDISE_MAX_VALUE_INT */, 1000000)
-     , (27018, 093 /* PHYSICS_STATE_INT */, 2098204 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS */)
-     , (27018, 126 /* VENDOR_HAPPY_MEAN_INT */, 125)
-     , (27018, 127 /* VENDOR_HAPPY_VARIANCE_INT */, 125)
-     , (27018, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
-     , (27018, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
-     , (27018, 146 /* XP_OVERRIDE_INT */, 277);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27018, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
-     , (27018, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
-     , (27018, 003 /* HEALTH_RATE_FLOAT */, 0.16)
-     , (27018, 004 /* STAMINA_RATE_FLOAT */, 5)
-     , (27018, 005 /* MANA_RATE_FLOAT */, 1)
-     , (27018, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (27018, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (27018, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (27018, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (27018, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (27018, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (27018, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (27018, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (27018, 037 /* BUY_PRICE_FLOAT */, 0.5)
-     , (27018, 038 /* SELL_PRICE_FLOAT */, 1.5)
-     , (27018, 054 /* USE_RADIUS_FLOAT */, 3)
-     , (27018, 064 /* RESIST_SLASH_FLOAT */, 1)
-     , (27018, 065 /* RESIST_PIERCE_FLOAT */, 1)
-     , (27018, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
-     , (27018, 067 /* RESIST_FIRE_FLOAT */, 1)
-     , (27018, 068 /* RESIST_COLD_FLOAT */, 1)
-     , (27018, 069 /* RESIST_ACID_FLOAT */, 1)
-     , (27018, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
-     , (27018, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
-     , (27018, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
-     , (27018, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
-     , (27018, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
-     , (27018, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
-     , (27018, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
-     , (27018, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
+VALUES (27018,   1,         16) /* ItemType - Creature */
+     , (27018,   2,         31) /* CreatureType - Human */
+     , (27018,   6,         -1) /* ItemsCapacity */
+     , (27018,   7,         -1) /* ContainersCapacity */
+     , (27018,   8,        120) /* Mass */
+     , (27018,  16,         32) /* ItemUseable - Remote */
+     , (27018,  25,         10) /* Level */
+     , (27018,  27,          0) /* ArmorType */
+     , (27018,  74,     264192) /* MerchandiseItemTypes */
+     , (27018,  75,          0) /* MerchandiseMinValue */
+     , (27018,  76,    1000000) /* MerchandiseMaxValue */
+     , (27018,  93,    2098204) /* PhysicsState */
+     , (27018, 126,        125) /* VendorHappyMean */
+     , (27018, 127,        125) /* VendorHappyVariance */
+     , (27018, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (27018, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (27018, 146,        277) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27018, 001 /* STUCK_BOOL */, True)
-     , (27018, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (27018, 019 /* ATTACKABLE_BOOL */, False)
-     , (27018, 039 /* DEAL_MAGICAL_ITEMS_BOOL */, True)
-     , (27018, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True);
+VALUES (27018,   1, True ) /* Stuck */
+     , (27018,  12, True ) /* ReportCollisions */
+     , (27018,  19, False) /* Attackable */
+     , (27018,  39, True ) /* DealMagicalItems */
+     , (27018,  41, True ) /* ReportCollisionsAsEnvironment */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27018,   1,       5) /* HeartbeatInterval */
+     , (27018,   2,       0) /* HeartbeatTimestamp */
+     , (27018,   3,    0.16) /* HealthRate */
+     , (27018,   4,       5) /* StaminaRate */
+     , (27018,   5,       1) /* ManaRate */
+     , (27018,  11,     300) /* ResetInterval */
+     , (27018,  13,       1) /* ArmorModVsSlash */
+     , (27018,  14,       1) /* ArmorModVsPierce */
+     , (27018,  15,       1) /* ArmorModVsBludgeon */
+     , (27018,  16,       1) /* ArmorModVsCold */
+     , (27018,  17,       1) /* ArmorModVsFire */
+     , (27018,  18,       1) /* ArmorModVsAcid */
+     , (27018,  19,       1) /* ArmorModVsElectric */
+     , (27018,  37,     0.5) /* BuyPrice */
+     , (27018,  38,     1.5) /* SellPrice */
+     , (27018,  54,       3) /* UseRadius */
+     , (27018,  64,       1) /* ResistSlash */
+     , (27018,  65,       1) /* ResistPierce */
+     , (27018,  66,       1) /* ResistBludgeon */
+     , (27018,  67,       1) /* ResistFire */
+     , (27018,  68,       1) /* ResistCold */
+     , (27018,  69,       1) /* ResistAcid */
+     , (27018,  70,       1) /* ResistElectric */
+     , (27018,  71,       1) /* ResistHealthBoost */
+     , (27018,  72,       1) /* ResistStaminaDrain */
+     , (27018,  73,       1) /* ResistStaminaBoost */
+     , (27018,  74,       1) /* ResistManaDrain */
+     , (27018,  75,       1) /* ResistManaBoost */
+     , (27018, 104,      10) /* ObviousRadarRange */
+     , (27018, 125,       1) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27018,   1, 'South Uzis Villas Merchant') /* Name */
+     , (27018,   3, 'Male') /* Sex */
+     , (27018,   4, 'Aluvian') /* HeritageGroup */
+     , (27018,   5, 'Merchant') /* Template */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27018,   1,   33554433) /* Setup */
+     , (27018,   2,  150994945) /* MotionTable */
+     , (27018,   3,  536870913) /* SoundTable */
+     , (27018,   4,  805306368) /* CombatTable */
+     , (27018,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (27018, 1, 90, 0, 0) /* STRENGTH_ATTRIBUTE */
-     , (27018, 2, 90, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (27018, 3, 85, 0, 0) /* QUICKNESS_ATTRIBUTE */
-     , (27018, 4, 80, 0, 0) /* COORDINATION_ATTRIBUTE */
-     , (27018, 5, 40, 0, 0) /* FOCUS_ATTRIBUTE */
-     , (27018, 6, 45, 0, 0) /* SELF_ATTRIBUTE */;
+VALUES (27018,   1,  90, 0, 0) /* Strength */
+     , (27018,   2,  90, 0, 0) /* Endurance */
+     , (27018,   3,  85, 0, 0) /* Quickness */
+     , (27018,   4,  80, 0, 0) /* Coordination */
+     , (27018,   5,  40, 0, 0) /* Focus */
+     , (27018,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27018, 1, 90, 0, 0, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27018, 3, 100, 0, 0, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27018, 5, 50, 0, 0, 95) /* MAX_MANA_ATTRIBUTE_2ND */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27018, 4, 26383, -1, 0, 0, False) /* Create South Uzis Villas Portal Gem for Shop_DestinationType */;
+VALUES (27018,   1,    90, 0, 0, 135) /* MaxHealth */
+     , (27018,   3,   100, 0, 0, 190) /* MaxStamina */
+     , (27018,   5,    50, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (27018, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
-     , (27018, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
-     , (27018, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
-     , (27018, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
-     , (27018, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
-     , (27018, 5, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
-     , (27018, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (27018, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
-     , (27018, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
+VALUES (27018,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (27018,  1,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (27018,  2,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (27018,  3,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (27018,  4,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (27018,  5,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (27018,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (27018,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (27018,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27018, 4, 26383, -1, 0, 0, False) /* Create South Uzis Villas Portal Gem for Shop */;

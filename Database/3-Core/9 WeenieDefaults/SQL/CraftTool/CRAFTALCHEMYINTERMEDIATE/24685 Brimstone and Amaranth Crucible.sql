@@ -1,40 +1,36 @@
-/* Weenie - Brimstone and Amaranth Crucible (24685) */
-DELETE FROM weenie WHERE class_Id = 24685;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24685, 'crucibleacid5', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24685, 001 /* NAME_STRING */, 'Brimstone and Amaranth Crucible')
-     , (24685, 014 /* USE_STRING */, 'This item is used in alchemy.')
-     , (24685, 016 /* LONG_DESC_STRING */, 'A Brimstone Potion and Amaranth have been added to this crucible.')
-     , (24685, 020 /* PLURAL_NAME_STRING */, 'Brimstone and Amaranth Crucibles');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24685, 001 /* SETUP_DID */, 33555966)
-     , (24685, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24685, 008 /* ICON_DID */, 100674469)
-     , (24685, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24685, 050 /* ICON_OVERLAY_DID */, 100674416);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24685', 'crucibleacid5', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24685, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (24685, 005 /* ENCUMB_VAL_INT */, 50)
-     , (24685, 008 /* MASS_INT */, 25)
-     , (24685, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24685, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (24685, 012 /* STACK_SIZE_INT */, 1)
-     , (24685, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (24685, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (24685, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (24685, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (24685, 019 /* VALUE_INT */, 500)
-     , (24685, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24685, 094 /* TARGET_TYPE_INT */, 4196992 /* TYPE_LOCKABLE_MAGIC_TARGET, TYPE_GEM, TYPE_CRAFT_COOKING_BASE */)
-     , (24685, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24685, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (24685,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (24685,   5,         50) /* EncumbranceVal */
+     , (24685,   8,         25) /* Mass */
+     , (24685,   9,          0) /* ValidLocations - None */
+     , (24685,  11,          1) /* MaxStackSize */
+     , (24685,  12,          1) /* StackSize */
+     , (24685,  13,         50) /* StackUnitEncumbrance */
+     , (24685,  14,         25) /* StackUnitMass */
+     , (24685,  15,        500) /* StackUnitValue */
+     , (24685,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (24685,  19,        500) /* Value */
+     , (24685,  93,       1044) /* PhysicsState */
+     , (24685,  94,    4196992) /* TargetType */
+     , (24685, 150,        103) /* HookPlacement - Hook */
+     , (24685, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24685, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24685, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24685,  22, True ) /* Inscribable */
+     , (24685,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24685,   1, 'Brimstone and Amaranth Crucible') /* Name */
+     , (24685,  14, 'This item is used in alchemy.') /* Use */
+     , (24685,  16, 'A Brimstone Potion and Amaranth have been added to this crucible.') /* LongDesc */
+     , (24685,  20, 'Brimstone and Amaranth Crucibles') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24685,   1,   33555966) /* Setup */
+     , (24685,   3,  536870932) /* SoundTable */
+     , (24685,   8,  100674469) /* Icon */
+     , (24685,  22,  872415275) /* PhysicsEffectTable */
+     , (24685,  50,  100674416) /* IconOverlay */;

@@ -1,32 +1,28 @@
-/* Weenie - Name Me Please (29085) */
-DELETE FROM weenie WHERE class_Id = 29085;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29085, 'fryingpanthrungusnoob', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29085, 001 /* NAME_STRING */, 'Name Me Please')
-     , (29085, 015 /* SHORT_DESC_STRING */, 'Short description does not show up in game.')
-     , (29085, 016 /* LONG_DESC_STRING */, 'Long description shows up when players ID an item.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29085, 001 /* SETUP_DID */, 33554769)
-     , (29085, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29085, 008 /* ICON_DID */, 100674497)
-     , (29085, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29085', 'fryingpanthrungusnoob', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29085, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29085, 005 /* ENCUMB_VAL_INT */, 10)
-     , (29085, 008 /* MASS_INT */, 10)
-     , (29085, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29085, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29085, 019 /* VALUE_INT */, 200)
-     , (29085, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
-     , (29085, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29085, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */);
+VALUES (29085,   1,        128) /* ItemType - Misc */
+     , (29085,   5,         10) /* EncumbranceVal */
+     , (29085,   8,         10) /* Mass */
+     , (29085,   9,          0) /* ValidLocations - None */
+     , (29085,  16,          1) /* ItemUseable - No */
+     , (29085,  19,        200) /* Value */
+     , (29085,  33,          0) /* Bonded - Normal */
+     , (29085,  93,       1044) /* PhysicsState */
+     , (29085, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29085, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29085, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29085,  22, True ) /* Inscribable */
+     , (29085,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29085,   1, 'Name Me Please') /* Name */
+     , (29085,  15, 'Short description does not show up in game.') /* ShortDesc */
+     , (29085,  16, 'Long description shows up when players ID an item.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29085,   1,   33554769) /* Setup */
+     , (29085,   3,  536870932) /* SoundTable */
+     , (29085,   8,  100674497) /* Icon */
+     , (29085,  22,  872415275) /* PhysicsEffectTable */;

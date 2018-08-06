@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Empowering the Conclave (27212) */
-DELETE FROM weenie WHERE class_Id = 27212;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27212, 'scrollstrengthfellowship5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27212, 001 /* NAME_STRING */, 'Scroll of Empowering the Conclave')
-     , (27212, 015 /* SHORT_DESC_STRING */, 'A magic scroll.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27212, 001 /* SETUP_DID */, 33554826)
-     , (27212, 008 /* ICON_DID */, 100676474)
-     , (27212, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27212, 028 /* SPELL_DID */, 3176 /* StrengthFellowship5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27212', 'scrollstrengthfellowship5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27212, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (27212, 005 /* ENCUMB_VAL_INT */, 10)
-     , (27212, 008 /* MASS_INT */, 90)
-     , (27212, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27212, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (27212, 019 /* VALUE_INT */, 0)
-     , (27212, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27212, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (27212,   1,       8192) /* ItemType - Writable */
+     , (27212,   5,         10) /* EncumbranceVal */
+     , (27212,   8,         90) /* Mass */
+     , (27212,   9,          0) /* ValidLocations - None */
+     , (27212,  16,          8) /* ItemUseable - Contained */
+     , (27212,  19,          0) /* Value */
+     , (27212,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27212, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27212, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27212,  22, True ) /* Inscribable */
+     , (27212,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27212,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27212,   1, 'Scroll of Empowering the Conclave') /* Name */
+     , (27212,  15, 'A magic scroll.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27212,   1,   33554826) /* Setup */
+     , (27212,   8,  100676474) /* Icon */
+     , (27212,  22,  872415275) /* PhysicsEffectTable */
+     , (27212,  28,       3176) /* Spell - Empowering the Conclave */;

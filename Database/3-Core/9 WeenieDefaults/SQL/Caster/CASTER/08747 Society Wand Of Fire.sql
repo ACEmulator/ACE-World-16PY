@@ -1,48 +1,44 @@
-/* Weenie - Society Wand Of Fire (8747) */
-DELETE FROM weenie WHERE class_Id = 8747;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8747, 'wandfirenewbiequest', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8747, 001 /* NAME_STRING */, 'Society Wand Of Fire');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8747, 001 /* SETUP_DID */, 33558231)
-     , (8747, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8747, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8747, 007 /* CLOTHINGBASE_DID */, 268436549)
-     , (8747, 008 /* ICON_DID */, 100674107)
-     , (8747, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8747, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (8747, 028 /* SPELL_DID */, 81 /* FlameBolt2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8747', 'wandfirenewbiequest', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8747, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (8747, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (8747, 005 /* ENCUMB_VAL_INT */, 100)
-     , (8747, 008 /* MASS_INT */, 50)
-     , (8747, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (8747, 016 /* ITEM_USEABLE_INT */, 6291460 /* USEABLE_SOURCE_WIELDED_TARGET_REMOTE_NEVER_WALK */)
-     , (8747, 019 /* VALUE_INT */, 1)
-     , (8747, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (8747, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8747, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (8747, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (8747, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (8747, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (8747, 117 /* ITEM_MANA_COST_INT */, 20)
-     , (8747, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8747, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8747, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (8747, 029 /* WEAPON_DEFENSE_FLOAT */, 1);
+VALUES (8747,   1,      32768) /* ItemType - Caster */
+     , (8747,   3,         61) /* PaletteTemplate - White */
+     , (8747,   5,        100) /* EncumbranceVal */
+     , (8747,   8,         50) /* Mass */
+     , (8747,   9,   16777216) /* ValidLocations - Held */
+     , (8747,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
+     , (8747,  19,          1) /* Value */
+     , (8747,  46,        512) /* DefaultCombatStyle - Magic */
+     , (8747,  93,       1044) /* PhysicsState */
+     , (8747,  94,         16) /* TargetType - Creature */
+     , (8747, 106,        150) /* ItemSpellcraft */
+     , (8747, 107,        600) /* ItemCurMana */
+     , (8747, 108,        600) /* ItemMaxMana */
+     , (8747, 117,         20) /* ItemManaCost */
+     , (8747, 150,        103) /* HookPlacement - Hook */
+     , (8747, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8747, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (8747,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8747,   5,  -0.025) /* ManaRate */
+     , (8747,  29,       1) /* WeaponDefense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8747,   1, 'Society Wand Of Fire') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8747,   1,   33558231) /* Setup */
+     , (8747,   3,  536870932) /* SoundTable */
+     , (8747,   6,   67111919) /* PaletteBase */
+     , (8747,   7,  268436549) /* ClothingBase */
+     , (8747,   8,  100674107) /* Icon */
+     , (8747,  22,  872415275) /* PhysicsEffectTable */
+     , (8747,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (8747,  28,         81) /* Spell - Flame Bolt II */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8747, 654, 2) /* ManaMasterySelf2_SpellID */
-     , (8747, 582, 2) /* ItemEnchantmentMasterySelf2_SpellID */;
-
+VALUES (8747,   582,      2)  /* Item Enchantment Mastery Self II */
+     , (8747,   654,      2)  /* Mana Conversion Mastery Self II */;

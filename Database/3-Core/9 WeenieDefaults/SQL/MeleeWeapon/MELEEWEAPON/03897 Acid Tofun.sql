@@ -1,50 +1,46 @@
-/* Weenie - Acid Tofun (3897) */
-DELETE FROM weenie WHERE class_Id = 3897;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3897, 'tofunacid', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3897, 001 /* NAME_STRING */, 'Acid Tofun');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3897, 001 /* SETUP_DID */, 33555759)
-     , (3897, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3897, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3897, 007 /* CLOTHINGBASE_DID */, 268435792)
-     , (3897, 008 /* ICON_DID */, 100667599)
-     , (3897, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3897, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3897, 046 /* TSYS_MUTATION_FILTER_DID */, 939524099);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3897', 'tofunacid', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3897, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3897, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (3897, 005 /* ENCUMB_VAL_INT */, 600)
-     , (3897, 008 /* MASS_INT */, 400)
-     , (3897, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3897, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3897, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (3897, 019 /* VALUE_INT */, 325)
-     , (3897, 044 /* DAMAGE_INT */, 10)
-     , (3897, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (3897, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3897, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (3897, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (3897, 049 /* WEAPON_TIME_INT */, 30)
-     , (3897, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3897, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3897, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3897, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3897, 169 /* TSYS_MUTATION_DATA_INT */, 101188618);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3897, 021 /* WEAPON_LENGTH_FLOAT */, 0.56)
-     , (3897, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3897, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3897, 039 /* DEFAULT_SCALE_FLOAT */, 0.9)
-     , (3897, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3897,   1,          1) /* ItemType - MeleeWeapon */
+     , (3897,   3,         20) /* PaletteTemplate - Silver */
+     , (3897,   5,        600) /* EncumbranceVal */
+     , (3897,   8,        400) /* Mass */
+     , (3897,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3897,  16,          1) /* ItemUseable - No */
+     , (3897,  18,        256) /* UiEffects - Acid */
+     , (3897,  19,        325) /* Value */
+     , (3897,  44,         10) /* Damage */
+     , (3897,  45,         32) /* DamageType - Acid */
+     , (3897,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3897,  47,          4) /* AttackType - Slash */
+     , (3897,  48,          5) /* WeaponSkill - Mace */
+     , (3897,  49,         30) /* WeaponTime */
+     , (3897,  51,          1) /* CombatUse - Melee */
+     , (3897,  93,       1044) /* PhysicsState */
+     , (3897, 150,        103) /* HookPlacement - Hook */
+     , (3897, 151,          2) /* HookType - Wall */
+     , (3897, 169,  101188618) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3897, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3897,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3897,  21,    0.56) /* WeaponLength */
+     , (3897,  22,     0.5) /* DamageVariance */
+     , (3897,  29,       1) /* WeaponDefense */
+     , (3897,  39,     0.9) /* DefaultScale */
+     , (3897,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3897,   1, 'Acid Tofun') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3897,   1,   33555759) /* Setup */
+     , (3897,   3,  536870932) /* SoundTable */
+     , (3897,   6,   67111919) /* PaletteBase */
+     , (3897,   7,  268435792) /* ClothingBase */
+     , (3897,   8,  100667599) /* Icon */
+     , (3897,  22,  872415275) /* PhysicsEffectTable */
+     , (3897,  36,  234881053) /* MutateFilter */
+     , (3897,  46,  939524099) /* TsysMutationFilter */;

@@ -1,37 +1,33 @@
-/* Weenie - Peppermint Chocolate Cookie Dough (14781) */
-DELETE FROM weenie WHERE class_Id = 14781;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14781, 'cookiedoughchocolatepeppermint', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14781, 001 /* NAME_STRING */, 'Peppermint Chocolate Cookie Dough')
-     , (14781, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (14781, 020 /* PLURAL_NAME_STRING */, 'Batches of Peppermint Chocolate Cookie Dough');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14781, 001 /* SETUP_DID */, 33555968)
-     , (14781, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14781, 006 /* PALETTE_BASE_DID */, 67111928)
-     , (14781, 007 /* CLOTHINGBASE_DID */, 268436333)
-     , (14781, 008 /* ICON_DID */, 100672543)
-     , (14781, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14781', 'cookiedoughchocolatepeppermint', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14781, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (14781, 005 /* ENCUMB_VAL_INT */, 50)
-     , (14781, 008 /* MASS_INT */, 25)
-     , (14781, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14781, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (14781, 012 /* STACK_SIZE_INT */, 1)
-     , (14781, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (14781, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (14781, 015 /* STACK_UNIT_VALUE_INT */, 6)
-     , (14781, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (14781, 019 /* VALUE_INT */, 6)
-     , (14781, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14781, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */);
+VALUES (14781,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (14781,   5,         50) /* EncumbranceVal */
+     , (14781,   8,         25) /* Mass */
+     , (14781,   9,          0) /* ValidLocations - None */
+     , (14781,  11,        100) /* MaxStackSize */
+     , (14781,  12,          1) /* StackSize */
+     , (14781,  13,         50) /* StackUnitEncumbrance */
+     , (14781,  14,         25) /* StackUnitMass */
+     , (14781,  15,          6) /* StackUnitValue */
+     , (14781,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (14781,  19,          6) /* Value */
+     , (14781,  93,       1044) /* PhysicsState */
+     , (14781,  94,    4194336) /* TargetType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14781, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14781,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14781,   1, 'Peppermint Chocolate Cookie Dough') /* Name */
+     , (14781,  14, 'This item is used in cooking.') /* Use */
+     , (14781,  20, 'Batches of Peppermint Chocolate Cookie Dough') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14781,   1,   33555968) /* Setup */
+     , (14781,   3,  536870932) /* SoundTable */
+     , (14781,   6,   67111928) /* PaletteBase */
+     , (14781,   7,  268436333) /* ClothingBase */
+     , (14781,   8,  100672543) /* Icon */
+     , (14781,  22,  872415275) /* PhysicsEffectTable */;

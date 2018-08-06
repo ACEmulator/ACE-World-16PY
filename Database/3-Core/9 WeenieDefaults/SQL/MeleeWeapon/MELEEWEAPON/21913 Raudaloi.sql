@@ -1,65 +1,61 @@
-/* Weenie - Raudaloi (21913) */
-DELETE FROM weenie WHERE class_Id = 21913;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21913, 'swordgaerlan', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21913, 001 /* NAME_STRING */, 'Raudaloi')
-     , (21913, 015 /* SHORT_DESC_STRING */, 'A sword constructed of obsidian and cerulean colored stone.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21913, 001 /* SETUP_DID */, 33557967)
-     , (21913, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21913, 008 /* ICON_DID */, 100673494)
-     , (21913, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21913, 037 /* ITEM_SKILL_LIMIT_DID */, 11);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21913', 'swordgaerlan', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21913, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (21913, 005 /* ENCUMB_VAL_INT */, 450)
-     , (21913, 008 /* MASS_INT */, 450)
-     , (21913, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (21913, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (21913, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (21913, 019 /* VALUE_INT */, 4000)
-     , (21913, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (21913, 044 /* DAMAGE_INT */, 30)
-     , (21913, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (21913, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (21913, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (21913, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (21913, 049 /* WEAPON_TIME_INT */, 30)
-     , (21913, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (21913, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (21913, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (21913, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (21913, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (21913, 109 /* ITEM_DIFFICULTY_INT */, 125)
-     , (21913, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 325)
-     , (21913, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (21913, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (21913, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (21913, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (21913, 160 /* WIELD_DIFFICULTY_INT */, 30)
-     , (21913, 166 /* SLAYER_CREATURE_TYPE_INT */, 1 /* Olthoi_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21913, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (21913, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (21913, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (21913, 029 /* WEAPON_DEFENSE_FLOAT */, 1.12)
-     , (21913, 062 /* WEAPON_OFFENSE_FLOAT */, 1.12)
-     , (21913, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 2);
+VALUES (21913,   1,          1) /* ItemType - MeleeWeapon */
+     , (21913,   5,        450) /* EncumbranceVal */
+     , (21913,   8,        450) /* Mass */
+     , (21913,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (21913,  16,          1) /* ItemUseable - No */
+     , (21913,  18,          1) /* UiEffects - Magical */
+     , (21913,  19,       4000) /* Value */
+     , (21913,  36,       9999) /* ResistMagic */
+     , (21913,  44,         30) /* Damage */
+     , (21913,  45,          3) /* DamageType */
+     , (21913,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (21913,  47,          6) /* AttackType */
+     , (21913,  48,         11) /* WeaponSkill - Sword */
+     , (21913,  49,         30) /* WeaponTime */
+     , (21913,  51,          1) /* CombatUse - Melee */
+     , (21913,  93,       1044) /* PhysicsState */
+     , (21913, 106,        250) /* ItemSpellcraft */
+     , (21913, 107,       1000) /* ItemCurMana */
+     , (21913, 108,       1000) /* ItemMaxMana */
+     , (21913, 109,        125) /* ItemDifficulty */
+     , (21913, 115,        325) /* ItemSkillLevelLimit */
+     , (21913, 150,        103) /* HookPlacement - Hook */
+     , (21913, 151,          2) /* HookType - Wall */
+     , (21913, 158,          7) /* WieldRequirements - Level */
+     , (21913, 159,          1) /* WieldSkilltype - Axe */
+     , (21913, 160,         30) /* WieldDifficulty */
+     , (21913, 166,          1) /* SlayerCreatureType - Olthoi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21913, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21913, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (21913,  22, True ) /* Inscribable */
+     , (21913,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21913,   5,   -0.05) /* ManaRate */
+     , (21913,  21,    0.95) /* WeaponLength */
+     , (21913,  22,     0.5) /* DamageVariance */
+     , (21913,  29,    1.12) /* WeaponDefense */
+     , (21913,  62,    1.12) /* WeaponOffense */
+     , (21913, 138,       2) /* SlayerDamageBonus */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21913,   1, 'Raudaloi') /* Name */
+     , (21913,  15, 'A sword constructed of obsidian and cerulean colored stone.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21913,   1,   33557967) /* Setup */
+     , (21913,   3,  536870932) /* SoundTable */
+     , (21913,   8,  100673494) /* Icon */
+     , (21913,  22,  872415275) /* PhysicsEffectTable */
+     , (21913,  37,         11) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21913, 1604, 2) /* Defender5_SpellID */
-     , (21913, 1591, 2) /* HeartSeeker5_SpellID */
-     , (21913, 1615, 2) /* BloodDrinker5_SpellID */
-     , (21913, 1624, 2) /* SwiftKiller3_SpellID */
-     , (21913, 416, 2) /* SwordMasteryOther5_SpellID */;
-
+VALUES (21913,   416,      2)  /* Heavy Weapon Mastery Other V */
+     , (21913,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (21913,  1604,      2)  /* Aura of Defender Self V */
+     , (21913,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (21913,  1624,      2)  /* Aura of Swift Killer Self III */;

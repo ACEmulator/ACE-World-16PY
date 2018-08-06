@@ -1,34 +1,30 @@
-/* Weenie - Carenzi Pouchling Pelt (11340) */
-DELETE FROM weenie WHERE class_Id = 11340;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11340, 'carenzipeltpouchling-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11340, 001 /* NAME_STRING */, 'Carenzi Pouchling Pelt');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11340, 001 /* SETUP_DID */, 33554817)
-     , (11340, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11340, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (11340, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (11340, 008 /* ICON_DID */, 100671835)
-     , (11340, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11340', 'carenzipeltpouchling-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11340, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11340, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (11340, 005 /* ENCUMB_VAL_INT */, 200)
-     , (11340, 008 /* MASS_INT */, 240)
-     , (11340, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11340, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11340, 019 /* VALUE_INT */, 75)
-     , (11340, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11340, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (11340,   1,        128) /* ItemType - Misc */
+     , (11340,   3,          2) /* PaletteTemplate - Blue */
+     , (11340,   5,        200) /* EncumbranceVal */
+     , (11340,   8,        240) /* Mass */
+     , (11340,   9,          0) /* ValidLocations - None */
+     , (11340,  16,          1) /* ItemUseable - No */
+     , (11340,  19,         75) /* Value */
+     , (11340,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11340, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11340, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11340,  22, True ) /* Inscribable */
+     , (11340,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11340,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11340,   1, 'Carenzi Pouchling Pelt') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11340,   1,   33554817) /* Setup */
+     , (11340,   3,  536870932) /* SoundTable */
+     , (11340,   6,   67111919) /* PaletteBase */
+     , (11340,   7,  268435832) /* ClothingBase */
+     , (11340,   8,  100671835) /* Icon */
+     , (11340,  22,  872415275) /* PhysicsEffectTable */;

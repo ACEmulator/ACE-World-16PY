@@ -1,46 +1,42 @@
-/* Weenie - Bandit Jambiya (12057) */
-DELETE FROM weenie WHERE class_Id = 12057;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12057, 'jambiyabandit', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12057, 001 /* NAME_STRING */, 'Bandit Jambiya');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12057, 001 /* SETUP_DID */, 33554887)
-     , (12057, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12057, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12057, 007 /* CLOTHINGBASE_DID */, 268435784)
-     , (12057, 008 /* ICON_DID */, 100668885)
-     , (12057, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12057, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12057', 'jambiyabandit', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12057, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (12057, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (12057, 005 /* ENCUMB_VAL_INT */, 30)
-     , (12057, 008 /* MASS_INT */, 20)
-     , (12057, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (12057, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12057, 019 /* VALUE_INT */, 30)
-     , (12057, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (12057, 044 /* DAMAGE_INT */, 3)
-     , (12057, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (12057, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (12057, 047 /* ATTACK_TYPE_INT */, 486 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, TripleSlash_AttackType, DoubleThrust_AttackType, TripleThrust_AttackType */)
-     , (12057, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (12057, 049 /* WEAPON_TIME_INT */, 15)
-     , (12057, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (12057, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12057, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12057, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (12057, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (12057, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (12057, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (12057,   1,          1) /* ItemType - MeleeWeapon */
+     , (12057,   3,         20) /* PaletteTemplate - Silver */
+     , (12057,   5,         30) /* EncumbranceVal */
+     , (12057,   8,         20) /* Mass */
+     , (12057,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12057,  16,          1) /* ItemUseable - No */
+     , (12057,  19,         30) /* Value */
+     , (12057,  33,         -2) /* Bonded - Destroy */
+     , (12057,  44,          3) /* Damage */
+     , (12057,  45,          3) /* DamageType */
+     , (12057,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (12057,  47,        486) /* AttackType */
+     , (12057,  48,          4) /* WeaponSkill - Dagger */
+     , (12057,  49,         15) /* WeaponTime */
+     , (12057,  51,          1) /* CombatUse - Melee */
+     , (12057,  93,       1044) /* PhysicsState */
+     , (12057, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12057, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (12057,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12057,  21,     0.4) /* WeaponLength */
+     , (12057,  22,    0.75) /* DamageVariance */
+     , (12057,  29,       1) /* WeaponDefense */
+     , (12057,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12057,   1, 'Bandit Jambiya') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12057,   1,   33554887) /* Setup */
+     , (12057,   3,  536870932) /* SoundTable */
+     , (12057,   6,   67111919) /* PaletteBase */
+     , (12057,   7,  268435784) /* ClothingBase */
+     , (12057,   8,  100668885) /* Icon */
+     , (12057,  22,  872415275) /* PhysicsEffectTable */
+     , (12057,  36,  234881044) /* MutateFilter */;

@@ -1,46 +1,42 @@
-/* Weenie - Pyreal Mace (11237) */
-DELETE FROM weenie WHERE class_Id = 11237;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11237, 'menhirhammer-xp', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11237, 001 /* NAME_STRING */, 'Pyreal Mace')
-     , (11237, 015 /* SHORT_DESC_STRING */, 'A mace')
-     , (11237, 016 /* LONG_DESC_STRING */, 'A mace with a small loop at the end, allowing it to be hung from something. There is a fine inscription along its length - "Marae Edare," in the script of Yalain.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11237, 001 /* SETUP_DID */, 33557230)
-     , (11237, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11237, 008 /* ICON_DID */, 100672027)
-     , (11237, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (11237, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11237', 'menhirhammer-xp', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11237, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (11237, 005 /* ENCUMB_VAL_INT */, 200)
-     , (11237, 008 /* MASS_INT */, 100)
-     , (11237, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (11237, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11237, 019 /* VALUE_INT */, 50)
-     , (11237, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11237, 044 /* DAMAGE_INT */, 20)
-     , (11237, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (11237, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (11237, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (11237, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (11237, 049 /* WEAPON_TIME_INT */, 80)
-     , (11237, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (11237, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11237, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11237, 021 /* WEAPON_LENGTH_FLOAT */, 0.62)
-     , (11237, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (11237, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (11237, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (11237,   1,          1) /* ItemType - MeleeWeapon */
+     , (11237,   5,        200) /* EncumbranceVal */
+     , (11237,   8,        100) /* Mass */
+     , (11237,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (11237,  16,          1) /* ItemUseable - No */
+     , (11237,  19,         50) /* Value */
+     , (11237,  33,          1) /* Bonded - Bonded */
+     , (11237,  44,         20) /* Damage */
+     , (11237,  45,          4) /* DamageType - Bludgeon */
+     , (11237,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (11237,  47,          4) /* AttackType - Slash */
+     , (11237,  48,          5) /* WeaponSkill - Mace */
+     , (11237,  49,         80) /* WeaponTime */
+     , (11237,  51,          1) /* CombatUse - Melee */
+     , (11237,  93,       1044) /* PhysicsState */
+     , (11237, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11237, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11237, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11237,  22, True ) /* Inscribable */
+     , (11237,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11237,  21,    0.62) /* WeaponLength */
+     , (11237,  22,     0.5) /* DamageVariance */
+     , (11237,  29,       1) /* WeaponDefense */
+     , (11237,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11237,   1, 'Pyreal Mace') /* Name */
+     , (11237,  15, 'A mace') /* ShortDesc */
+     , (11237,  16, 'A mace with a small loop at the end, allowing it to be hung from something. There is a fine inscription along its length - "Marae Edare," in the script of Yalain.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11237,   1,   33557230) /* Setup */
+     , (11237,   3,  536870932) /* SoundTable */
+     , (11237,   8,  100672027) /* Icon */
+     , (11237,  22,  872415275) /* PhysicsEffectTable */
+     , (11237,  36,  234881044) /* MutateFilter */;

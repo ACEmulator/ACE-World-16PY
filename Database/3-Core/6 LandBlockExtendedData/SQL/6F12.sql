@@ -1,17 +1,27 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (232, 1995513856, 1863450624, 149.564, 109.391, 30.4686, -0.633139, 0, 0, -0.774038) /* Tumerok Scout */
-     , (232, 1995513857, 1863450624, 152.203, 106.145, 30.6886, 0.953426, 0, 0, -0.301626) /* Tumerok Scout */
-     , (232, 1995513858, 1863450624, 152.143, 107.834, 30.6836, 0.447885, 0, 0, -0.894091) /* Tumerok Scout */
-     , (233, 1995513859, 1863450624, 147.281, 108.395, 30.2784, 0.964143, 0, 0, 0.265384) /* Tumerok Warrior */
-     , (233, 1995513860, 1863450624, 149.041, 105.075, 30.4251, 0.821706, 0, 0, -0.569911) /* Tumerok Warrior */
-     , (1154, 1995513861, 1863450624, 149.843, 107.572, 30.4919, 0.874497, 0, 0, -0.48503) /* linkmonstergen */
-     , (1930, 1995513862, 1863450624, 149.466, 106.055, 30.5058, 0.995623, 0, 0, 0.0934657) /* Chest */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1995513856,   232, 1863450624, 149.564, 109.391, 30.4686, -0.633139, 0, 0, -0.774038,  True); /* Tumerok Scout */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1995513861'; /* linkmonstergen */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1995513857,   232, 1863450624, 152.203, 106.145, 30.6886, 0.953426, 0, 0, -0.301626,  True); /* Tumerok Scout */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1995513856'; /* linkmonstergen <- Tumerok Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1995513857'; /* linkmonstergen <- Tumerok Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1995513858'; /* linkmonstergen <- Tumerok Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1995513859'; /* linkmonstergen <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1995513860'; /* linkmonstergen <- Tumerok Warrior */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1995513858,   232, 1863450624, 152.143, 107.834, 30.6836, 0.447885, 0, 0, -0.894091,  True); /* Tumerok Scout */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1995513859,   233, 1863450624, 147.281, 108.395, 30.2784, 0.964143, 0, 0, 0.265384,  True); /* Tumerok Warrior */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1995513860,   233, 1863450624, 149.041, 105.075, 30.4251, 0.821706, 0, 0, -0.569911,  True); /* Tumerok Warrior */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1995513861,  1154, 1863450624, 149.843, 107.572, 30.4919, 0.874497, 0, 0, -0.48503, False); /* Linkable Monster Generator */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1995513861, 1995513856) /* Tumerok Scout */
+     , (1995513861, 1995513857) /* Tumerok Scout */
+     , (1995513861, 1995513858) /* Tumerok Scout */
+     , (1995513861, 1995513859) /* Tumerok Warrior */
+     , (1995513861, 1995513860) /* Tumerok Warrior */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1995513862,  1930, 1863450624, 149.466, 106.055, 30.5058, 0.995623, 0, 0, 0.0934657, False); /* Chest */

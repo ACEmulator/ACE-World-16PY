@@ -1,30 +1,26 @@
-/* Weenie - Weaver Chueh (878) */
-DELETE FROM weenie WHERE class_Id = 878;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (878, 'hebiantailorsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (878, 001 /* NAME_STRING */, 'Weaver Chueh')
-     , (878, 016 /* LONG_DESC_STRING */, 'Weaver Chueh');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (878, 001 /* SETUP_DID */, 33555594)
-     , (878, 006 /* PALETTE_BASE_DID */, 67111782)
-     , (878, 007 /* CLOTHINGBASE_DID */, 268435693)
-     , (878, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('878', 'hebiantailorsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (878, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (878, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (878, 008 /* MASS_INT */, 1800)
-     , (878, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (878, 019 /* VALUE_INT */, 125)
-     , (878, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (878,   1,        128) /* ItemType - Misc */
+     , (878,   5,       9000) /* EncumbranceVal */
+     , (878,   8,       1800) /* Mass */
+     , (878,  16,          1) /* ItemUseable - No */
+     , (878,  19,        125) /* Value */
+     , (878,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (878, 001 /* STUCK_BOOL */, True)
-     , (878, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (878, 013 /* ETHEREAL_BOOL */, False)
-     , (878, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (878,   1, True ) /* Stuck */
+     , (878,  12, True ) /* ReportCollisions */
+     , (878,  13, False) /* Ethereal */
+     , (878,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (878,   1, 'Weaver Chueh') /* Name */
+     , (878,  16, 'Weaver Chueh') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (878,   1,   33555594) /* Setup */
+     , (878,   6,   67111782) /* PaletteBase */
+     , (878,   7,  268435693) /* ClothingBase */
+     , (878,   8,  100668115) /* Icon */;

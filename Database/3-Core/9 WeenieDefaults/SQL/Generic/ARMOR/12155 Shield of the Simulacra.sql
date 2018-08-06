@@ -1,63 +1,59 @@
-/* Weenie - Shield of the Simulacra (12155) */
-DELETE FROM weenie WHERE class_Id = 12155;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12155, 'shieldsimulacra', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12155, 001 /* NAME_STRING */, 'Shield of the Simulacra')
-     , (12155, 016 /* LONG_DESC_STRING */, 'A shield enchanted with powerful magic, taken from the Northern Infiltrator Keep dungeon.')
-     , (12155, 033 /* QUEST_STRING */, 'ShieldSimulacra');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12155, 001 /* SETUP_DID */, 33554786)
-     , (12155, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12155, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12155, 007 /* CLOTHINGBASE_DID */, 268435607)
-     , (12155, 008 /* ICON_DID */, 100672136)
-     , (12155, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12155, 037 /* ITEM_SKILL_LIMIT_DID */, 6);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12155', 'shieldsimulacra', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12155, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (12155, 003 /* PALETTE_TEMPLATE_INT */, 5 /* DARKBLUE_PALETTE_TEMPLATE */)
-     , (12155, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (12155, 008 /* MASS_INT */, 500)
-     , (12155, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
-     , (12155, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12155, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (12155, 019 /* VALUE_INT */, 3000)
-     , (12155, 027 /* ARMOR_TYPE_INT */, 2)
-     , (12155, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (12155, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
-     , (12155, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12155, 106 /* ITEM_SPELLCRAFT_INT */, 220)
-     , (12155, 107 /* ITEM_CUR_MANA_INT */, 650)
-     , (12155, 108 /* ITEM_MAX_MANA_INT */, 650)
-     , (12155, 109 /* ITEM_DIFFICULTY_INT */, 35)
-     , (12155, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (12155, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 180)
-     , (12155, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12155, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12155, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (12155, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (12155, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (12155, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.2)
-     , (12155, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (12155, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
-     , (12155, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (12155, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (12155, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (12155, 110 /* BULK_MOD_FLOAT */, 1)
-     , (12155, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (12155,   1,          2) /* ItemType - Armor */
+     , (12155,   3,          5) /* PaletteTemplate - DarkBlue */
+     , (12155,   5,       1000) /* EncumbranceVal */
+     , (12155,   8,        500) /* Mass */
+     , (12155,   9,    2097152) /* ValidLocations - Shield */
+     , (12155,  16,          1) /* ItemUseable - No */
+     , (12155,  18,          1) /* UiEffects - Magical */
+     , (12155,  19,       3000) /* Value */
+     , (12155,  27,          2) /* ArmorType */
+     , (12155,  28,        100) /* ArmorLevel */
+     , (12155,  51,          4) /* CombatUse - Shield */
+     , (12155,  93,       1044) /* PhysicsState */
+     , (12155, 106,        220) /* ItemSpellcraft */
+     , (12155, 107,        650) /* ItemCurMana */
+     , (12155, 108,        650) /* ItemMaxMana */
+     , (12155, 109,         35) /* ItemDifficulty */
+     , (12155, 110,          0) /* ItemAllegianceRankLimit */
+     , (12155, 115,        180) /* ItemSkillLevelLimit */
+     , (12155, 150,        103) /* HookPlacement - Hook */
+     , (12155, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12155, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (12155,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12155,   5, -0.0333) /* ManaRate */
+     , (12155,  13,       1) /* ArmorModVsSlash */
+     , (12155,  14,     0.8) /* ArmorModVsPierce */
+     , (12155,  15,     1.2) /* ArmorModVsBludgeon */
+     , (12155,  16,     0.6) /* ArmorModVsCold */
+     , (12155,  17,     0.6) /* ArmorModVsFire */
+     , (12155,  18,       1) /* ArmorModVsAcid */
+     , (12155,  19,     0.6) /* ArmorModVsElectric */
+     , (12155,  39,    1.25) /* DefaultScale */
+     , (12155, 110,       1) /* BulkMod */
+     , (12155, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12155,   1, 'Shield of the Simulacra') /* Name */
+     , (12155,  16, 'A shield enchanted with powerful magic, taken from the Northern Infiltrator Keep dungeon.') /* LongDesc */
+     , (12155,  33, 'ShieldSimulacra') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12155,   1,   33554786) /* Setup */
+     , (12155,   3,  536870932) /* SoundTable */
+     , (12155,   6,   67111919) /* PaletteBase */
+     , (12155,   7,  268435607) /* ClothingBase */
+     , (12155,   8,  100672136) /* Icon */
+     , (12155,  22,  872415275) /* PhysicsEffectTable */
+     , (12155,  37,          6) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12155, 1484, 2) /* Impenetrability4_SpellID */
-     , (12155, 1376, 2) /* CoordinationSelf4_SpellID */
-     , (12155, 1330, 2) /* StrengthSelf4_SpellID */;
-
+VALUES (12155,  1330,      2)  /* Strength Self IV */
+     , (12155,  1376,      2)  /* Coordination Self IV */
+     , (12155,  1484,      2)  /* Impenetrability IV */;

@@ -1,42 +1,39 @@
-/* Weenie - The Hundred Trackless Paths (5129) */
-DELETE FROM weenie WHERE class_Id = 5129;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5129, 'book100paths7', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5129, 001 /* NAME_STRING */, 'The Hundred Trackless Paths')
-     , (5129, 015 /* SHORT_DESC_STRING */, 'A faded volume of The Hundred Trackless Paths by Khaymahlai.')
-     , (5129, 016 /* LONG_DESC_STRING */, 'A faded copy of Volume 7 of The Hundred Trackless Paths by Khaymahlai.')
-     , (5129, 033 /* QUEST_STRING */, 'Book100Paths7Quest');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5129, 001 /* SETUP_DID */, 33554771)
-     , (5129, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5129, 008 /* ICON_DID */, 100668117)
-     , (5129, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5129', 'book100paths7', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5129, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5129, 005 /* ENCUMB_VAL_INT */, 160)
-     , (5129, 008 /* MASS_INT */, 230)
-     , (5129, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5129, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5129, 019 /* VALUE_INT */, 90)
-     , (5129, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (5129, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5129, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5129, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (5129, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (5129,   1,       8192) /* ItemType - Writable */
+     , (5129,   5,        160) /* EncumbranceVal */
+     , (5129,   8,        230) /* Mass */
+     , (5129,   9,          0) /* ValidLocations - None */
+     , (5129,  16,          8) /* ItemUseable - Contained */
+     , (5129,  19,         90) /* Value */
+     , (5129,  33,          1) /* Bonded - Bonded */
+     , (5129,  93,       1044) /* PhysicsState */
+     , (5129, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5129, 022 /* INSCRIBABLE_BOOL */, False)
-     , (5129, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (5129,  22, False) /* Inscribable */
+     , (5129,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5129,  39,    1.22) /* DefaultScale */
+     , (5129,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5129,   1, 'The Hundred Trackless Paths') /* Name */
+     , (5129,  15, 'A faded volume of The Hundred Trackless Paths by Khaymahlai.') /* ShortDesc */
+     , (5129,  16, 'A faded copy of Volume 7 of The Hundred Trackless Paths by Khaymahlai.') /* LongDesc */
+     , (5129,  33, 'Book100Paths7Quest') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5129,   1,   33554771) /* Setup */
+     , (5129,   3,  536870932) /* SoundTable */
+     , (5129,   8,  100668117) /* Icon */
+     , (5129,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5129, 8, 1000) /* Book Data */;
+VALUES (5129, 8, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5129, 0, 4294967295, '', 'prewritten', False, 'Khaymahlai
@@ -66,4 +63,3 @@ The traveler then sat beside the stream again, and drew more water into his skin
 
 As the people swore their loyalty to the traveler, Ma''yani was swept around a bend in the river, and saw the village no more.
 ');
-

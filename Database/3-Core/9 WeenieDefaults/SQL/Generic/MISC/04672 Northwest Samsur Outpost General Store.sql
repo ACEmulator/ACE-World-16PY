@@ -1,31 +1,27 @@
-/* Weenie - Northwest Samsur Outpost General Store (4672) */
-DELETE FROM weenie WHERE class_Id = 4672;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4672, 'samsurnorthwestoutpostshopkeepsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4672, 001 /* NAME_STRING */, 'Northwest Samsur Outpost General Store')
-     , (4672, 016 /* LONG_DESC_STRING */, 'Northwest Samsur Outpost General Store');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4672, 001 /* SETUP_DID */, 33555909)
-     , (4672, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (4672, 007 /* CLOTHINGBASE_DID */, 268435820)
-     , (4672, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4672', 'samsurnorthwestoutpostshopkeepsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4672, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4672, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4672, 008 /* MASS_INT */, 1800)
-     , (4672, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4672, 019 /* VALUE_INT */, 125)
-     , (4672, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (4672,   1,        128) /* ItemType - Misc */
+     , (4672,   5,       9000) /* EncumbranceVal */
+     , (4672,   8,       1800) /* Mass */
+     , (4672,  16,          1) /* ItemUseable - No */
+     , (4672,  19,        125) /* Value */
+     , (4672,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4672, 001 /* STUCK_BOOL */, True)
-     , (4672, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4672, 013 /* ETHEREAL_BOOL */, False)
-     , (4672, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (4672, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4672,   1, True ) /* Stuck */
+     , (4672,  12, True ) /* ReportCollisions */
+     , (4672,  13, False) /* Ethereal */
+     , (4672,  14, False) /* GravityStatus */
+     , (4672,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4672,   1, 'Northwest Samsur Outpost General Store') /* Name */
+     , (4672,  16, 'Northwest Samsur Outpost General Store') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4672,   1,   33555909) /* Setup */
+     , (4672,   6,   67111860) /* PaletteBase */
+     , (4672,   7,  268435820) /* ClothingBase */
+     , (4672,   8,  100668115) /* Icon */;

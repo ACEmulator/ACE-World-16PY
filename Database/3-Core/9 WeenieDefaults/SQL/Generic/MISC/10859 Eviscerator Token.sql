@@ -1,37 +1,33 @@
-/* Weenie - Eviscerator Token (10859) */
-DELETE FROM weenie WHERE class_Id = 10859;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10859, 'tokenbutcher-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10859, 001 /* NAME_STRING */, 'Eviscerator Token')
-     , (10859, 015 /* SHORT_DESC_STRING */, 'A token of your completion of the Eviscerator Quest.  Please give this back to Behdo in order for him to change your title to Bug Butcher.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10859, 001 /* SETUP_DID */, 33554817)
-     , (10859, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10859, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (10859, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (10859, 008 /* ICON_DID */, 100672061)
-     , (10859, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10859', 'tokenbutcher-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10859, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (10859, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (10859, 005 /* ENCUMB_VAL_INT */, 10)
-     , (10859, 008 /* MASS_INT */, 10)
-     , (10859, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (10859, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10859, 019 /* VALUE_INT */, 0)
-     , (10859, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (10859, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (10859, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10859, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (10859,   1,        128) /* ItemType - Misc */
+     , (10859,   3,         20) /* PaletteTemplate - Silver */
+     , (10859,   5,         10) /* EncumbranceVal */
+     , (10859,   8,         10) /* Mass */
+     , (10859,   9,          0) /* ValidLocations - None */
+     , (10859,  16,          1) /* ItemUseable - No */
+     , (10859,  19,          0) /* Value */
+     , (10859,  33,          1) /* Bonded - Bonded */
+     , (10859,  93,       1044) /* PhysicsState */
+     , (10859, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10859, 022 /* INSCRIBABLE_BOOL */, True)
-     , (10859, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (10859,  22, True ) /* Inscribable */
+     , (10859,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10859,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10859,   1, 'Eviscerator Token') /* Name */
+     , (10859,  15, 'A token of your completion of the Eviscerator Quest.  Please give this back to Behdo in order for him to change your title to Bug Butcher.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10859,   1,   33554817) /* Setup */
+     , (10859,   3,  536870932) /* SoundTable */
+     , (10859,   6,   67111919) /* PaletteBase */
+     , (10859,   7,  268435832) /* ClothingBase */
+     , (10859,   8,  100672061) /* Icon */
+     , (10859,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,39 +1,35 @@
-/* Weenie - Bai Den's Gem (5186) */
-DELETE FROM weenie WHERE class_Id = 5186;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5186, 'gembaiden', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5186, 001 /* NAME_STRING */, 'Bai Den''s Gem')
-     , (5186, 016 /* LONG_DESC_STRING */, 'A small blue gem. It has several scratches which decrease its value. ')
-     , (5186, 033 /* QUEST_STRING */, 'GemBaiDenQuest');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5186, 001 /* SETUP_DID */, 33554809)
-     , (5186, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5186, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (5186, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (5186, 008 /* ICON_DID */, 100668360)
-     , (5186, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5186', 'gembaiden', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5186, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (5186, 003 /* PALETTE_TEMPLATE_INT */, 10 /* LIGHTBLUE_PALETTE_TEMPLATE */)
-     , (5186, 005 /* ENCUMB_VAL_INT */, 10)
-     , (5186, 008 /* MASS_INT */, 5)
-     , (5186, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5186, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (5186, 012 /* STACK_SIZE_INT */, 1)
-     , (5186, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (5186, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (5186, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (5186, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5186, 019 /* VALUE_INT */, 0)
-     , (5186, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (5186, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5186, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (5186,   1,       2048) /* ItemType - Gem */
+     , (5186,   3,         10) /* PaletteTemplate - LightBlue */
+     , (5186,   5,         10) /* EncumbranceVal */
+     , (5186,   8,          5) /* Mass */
+     , (5186,   9,          0) /* ValidLocations - None */
+     , (5186,  11,          1) /* MaxStackSize */
+     , (5186,  12,          1) /* StackSize */
+     , (5186,  13,         10) /* StackUnitEncumbrance */
+     , (5186,  14,          5) /* StackUnitMass */
+     , (5186,  15,          0) /* StackUnitValue */
+     , (5186,  16,          1) /* ItemUseable - No */
+     , (5186,  19,          0) /* Value */
+     , (5186,  33,          1) /* Bonded - Bonded */
+     , (5186,  93,       1044) /* PhysicsState */
+     , (5186, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5186, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (5186,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5186,   1, 'Bai Den''s Gem') /* Name */
+     , (5186,  16, 'A small blue gem. It has several scratches which decrease its value. ') /* LongDesc */
+     , (5186,  33, 'GemBaiDenQuest') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5186,   1,   33554809) /* Setup */
+     , (5186,   3,  536870932) /* SoundTable */
+     , (5186,   6,   67111919) /* PaletteBase */
+     , (5186,   7,  268435723) /* ClothingBase */
+     , (5186,   8,  100668360) /* Icon */
+     , (5186,  22,  872415275) /* PhysicsEffectTable */;

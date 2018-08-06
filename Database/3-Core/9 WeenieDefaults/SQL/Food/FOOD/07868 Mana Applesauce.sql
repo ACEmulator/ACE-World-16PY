@@ -1,38 +1,34 @@
-/* Weenie - Mana Applesauce (7868) */
-DELETE FROM weenie WHERE class_Id = 7868;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7868, 'manaapplesauce', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7868, 001 /* NAME_STRING */, 'Mana Applesauce')
-     , (7868, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (7868, 015 /* SHORT_DESC_STRING */, 'Applesauce: simple, impeccably pureed, buttery.')
-     , (7868, 020 /* PLURAL_NAME_STRING */, 'Mana Jars of Applesauce');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7868, 001 /* SETUP_DID */, 33555977)
-     , (7868, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7868, 008 /* ICON_DID */, 100670845)
-     , (7868, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7868', 'manaapplesauce', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7868, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (7868, 005 /* ENCUMB_VAL_INT */, 40)
-     , (7868, 008 /* MASS_INT */, 25)
-     , (7868, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7868, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (7868, 012 /* STACK_SIZE_INT */, 1)
-     , (7868, 013 /* STACK_UNIT_ENCUMB_INT */, 40)
-     , (7868, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (7868, 015 /* STACK_UNIT_VALUE_INT */, 70)
-     , (7868, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (7868, 018 /* UI_EFFECTS_INT */, 8 /* UI_EFFECT_BOOST_MANA */)
-     , (7868, 019 /* VALUE_INT */, 70)
-     , (7868, 089 /* BOOSTER_ENUM_INT */, 6 /* MANA_ATTRIBUTE_2ND */)
-     , (7868, 090 /* BOOST_VALUE_INT */, 24)
-     , (7868, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (7868,   1,         32) /* ItemType - Food */
+     , (7868,   5,         40) /* EncumbranceVal */
+     , (7868,   8,         25) /* Mass */
+     , (7868,   9,          0) /* ValidLocations - None */
+     , (7868,  11,        100) /* MaxStackSize */
+     , (7868,  12,          1) /* StackSize */
+     , (7868,  13,         40) /* StackUnitEncumbrance */
+     , (7868,  14,         25) /* StackUnitMass */
+     , (7868,  15,         70) /* StackUnitValue */
+     , (7868,  16,          8) /* ItemUseable - Contained */
+     , (7868,  18,          8) /* UiEffects - BoostMana */
+     , (7868,  19,         70) /* Value */
+     , (7868,  89,          6) /* BoosterEnum - Mana */
+     , (7868,  90,         24) /* BoostValue */
+     , (7868,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7868, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7868,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7868,   1, 'Mana Applesauce') /* Name */
+     , (7868,  14, 'Use this item to eat it.') /* Use */
+     , (7868,  15, 'Applesauce: simple, impeccably pureed, buttery.') /* ShortDesc */
+     , (7868,  20, 'Mana Jars of Applesauce') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7868,   1,   33555977) /* Setup */
+     , (7868,   3,  536870932) /* SoundTable */
+     , (7868,   8,  100670845) /* Icon */
+     , (7868,  22,  872415275) /* PhysicsEffectTable */;

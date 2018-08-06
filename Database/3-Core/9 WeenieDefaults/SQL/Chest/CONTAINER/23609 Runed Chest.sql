@@ -1,49 +1,45 @@
-/* Weenie - Runed Chest (23609) */
-DELETE FROM weenie WHERE class_Id = 23609;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23609, 'chestquestunlockedmidpoia', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23609, 001 /* NAME_STRING */, 'Runed Chest')
-     , (23609, 014 /* USE_STRING */, 'Use this item to open it and see its contents.')
-     , (23609, 016 /* LONG_DESC_STRING */, 'A heavy iron chest. There are strange runes carved around the lid.')
-     , (23609, 033 /* QUEST_STRING */, 'ChestQuestUnlockedMidPOIA');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23609, 001 /* SETUP_DID */, 33558095)
-     , (23609, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (23609, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (23609, 008 /* ICON_DID */, 100667424)
-     , (23609, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23609', 'chestquestunlockedmidpoia', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23609, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (23609, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (23609, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (23609, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (23609, 008 /* MASS_INT */, 3000)
-     , (23609, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (23609, 019 /* VALUE_INT */, 2500)
-     , (23609, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (23609, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (23609, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (23609, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23609, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23609, 041 /* REGENERATION_INTERVAL_FLOAT */, 10)
-     , (23609, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (23609, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (23609,   1,        512) /* ItemType - Container */
+     , (23609,   5,       9000) /* EncumbranceVal */
+     , (23609,   6,         -1) /* ItemsCapacity */
+     , (23609,   7,         -1) /* ContainersCapacity */
+     , (23609,   8,       3000) /* Mass */
+     , (23609,  16,         48) /* ItemUseable - ViewedRemote */
+     , (23609,  19,       2500) /* Value */
+     , (23609,  81,          1) /* MaxGeneratedObjects */
+     , (23609,  82,          1) /* InitGeneratedObjects */
+     , (23609,  83,          2) /* ActivationResponse - Use */
+     , (23609,  93,       1048) /* PhysicsState */
+     , (23609, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23609, 001 /* STUCK_BOOL */, True)
-     , (23609, 002 /* OPEN_BOOL */, False)
-     , (23609, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (23609, 013 /* ETHEREAL_BOOL */, False)
-     , (23609, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (23609, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (23609,   1, True ) /* Stuck */
+     , (23609,   2, False) /* Open */
+     , (23609,  12, True ) /* ReportCollisions */
+     , (23609,  13, False) /* Ethereal */
+     , (23609,  33, False) /* ResetMessagePending */
+     , (23609,  34, False) /* DefaultOpen */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23609,  41,      10) /* RegenerationInterval */
+     , (23609,  43,       1) /* GeneratorRadius */
+     , (23609,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23609,   1, 'Runed Chest') /* Name */
+     , (23609,  14, 'Use this item to open it and see its contents.') /* Use */
+     , (23609,  16, 'A heavy iron chest. There are strange runes carved around the lid.') /* LongDesc */
+     , (23609,  33, 'ChestQuestUnlockedMidPOIA') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23609,   1,   33558095) /* Setup */
+     , (23609,   2,  150994948) /* MotionTable */
+     , (23609,   3,  536870945) /* SoundTable */
+     , (23609,   8,  100667424) /* Icon */
+     , (23609,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23609, -1, 411, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate RANDOM TREASURE from Loot Tier 3 (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
-
+VALUES (23609, -1, 411, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

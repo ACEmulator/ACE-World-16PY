@@ -1,36 +1,33 @@
-/* Weenie - A Journal by Martine (10876) */
-DELETE FROM weenie WHERE class_Id = 10876;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10876, 'diarymartineascendant1-xp', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10876, 001 /* NAME_STRING */, 'A Journal by Martine')
-     , (10876, 015 /* SHORT_DESC_STRING */, 'A new book by Martine');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10876, 001 /* SETUP_DID */, 33554771)
-     , (10876, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10876, 008 /* ICON_DID */, 100668117)
-     , (10876, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10876', 'diarymartineascendant1-xp', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10876, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (10876, 005 /* ENCUMB_VAL_INT */, 10)
-     , (10876, 008 /* MASS_INT */, 200)
-     , (10876, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (10876, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (10876, 019 /* VALUE_INT */, 0)
-     , (10876, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10876, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (10876,   1,       8192) /* ItemType - Writable */
+     , (10876,   5,         10) /* EncumbranceVal */
+     , (10876,   8,        200) /* Mass */
+     , (10876,   9,          0) /* ValidLocations - None */
+     , (10876,  16,          8) /* ItemUseable - Contained */
+     , (10876,  19,          0) /* Value */
+     , (10876,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10876, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (10876,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10876,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10876,   1, 'A Journal by Martine') /* Name */
+     , (10876,  15, 'A new book by Martine') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10876,   1,   33554771) /* Setup */
+     , (10876,   3,  536870932) /* SoundTable */
+     , (10876,   8,  100668117) /* Icon */
+     , (10876,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (10876, 63, 1000) /* Book Data */;
+VALUES (10876, 63, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (10876, 0, 4294967295, '', 'prewritten', False, 'Part 1
@@ -236,4 +233,3 @@ For my former writings culminating in the Singularity Weapons, the answer was cl
 ')
      , (10876, 62, 4294967295, '', 'prewritten', False, 'I suppose I write this because I enjoy giving you hope, much I have given to Britana over these past few weeks.  You read this and feel those sparks, sparks of uniqueness and meaning, those two shields which humans have used to defend against the darkness since the beginning.  You know that there must be some purpose to you having read this, some answer to glean out of the pattern and the weave.  You read this and hope; you read it and wonder; you read it and think that the ending, your ending, might still change.  And that is what makes this so fun.
 ');
-

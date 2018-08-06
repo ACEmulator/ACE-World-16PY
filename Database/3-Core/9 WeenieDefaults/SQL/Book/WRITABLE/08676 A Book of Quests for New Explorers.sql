@@ -1,36 +1,33 @@
-/* Weenie - A Book of Quests for New Explorers (8676) */
-DELETE FROM weenie WHERE class_Id = 8676;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8676, 'booknewbiequests', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8676, 001 /* NAME_STRING */, 'A Book of Quests for New Explorers')
-     , (8676, 015 /* SHORT_DESC_STRING */, 'A book listing Agents of the Society across the land of Dereth');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8676, 001 /* SETUP_DID */, 33554771)
-     , (8676, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8676, 008 /* ICON_DID */, 100668117)
-     , (8676, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8676', 'booknewbiequests', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8676, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8676, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8676, 008 /* MASS_INT */, 200)
-     , (8676, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8676, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8676, 019 /* VALUE_INT */, 0)
-     , (8676, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8676, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8676,   1,       8192) /* ItemType - Writable */
+     , (8676,   5,         10) /* EncumbranceVal */
+     , (8676,   8,        200) /* Mass */
+     , (8676,   9,          0) /* ValidLocations - None */
+     , (8676,  16,          8) /* ItemUseable - Contained */
+     , (8676,  19,          0) /* Value */
+     , (8676,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8676, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8676,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8676,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8676,   1, 'A Book of Quests for New Explorers') /* Name */
+     , (8676,  15, 'A book listing Agents of the Society across the land of Dereth') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8676,   1,   33554771) /* Setup */
+     , (8676,   3,  536870932) /* SoundTable */
+     , (8676,   8,  100668117) /* Icon */
+     , (8676,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8676, 9, 1000) /* Book Data */;
+VALUES (8676, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8676, 0, 4294967295, '', 'prewritten', False, 'Welcome to the land of Dereth, fellow traveler!
@@ -85,4 +82,3 @@ Rithwic
      East Outpost: Mindorla     
      South Outpost: Brentsella
 ');
-

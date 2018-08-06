@@ -1,3 +1,2 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30774, 1913118720, 545128448, 77.9329, 32.9372, 150.005, -0.156621, 0, 0, -0.987659) /* eventpvphate60gatekeepergen */;
-
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1913118720, 30774, 545128448, 77.9329, 32.9372, 150.005, -0.156621, 0, 0, -0.987659, False); /* Gatekeeper of Cruelty Gen */

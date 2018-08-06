@@ -1,36 +1,33 @@
-/* Weenie - The Book of Minesh (5881) */
-DELETE FROM weenie WHERE class_Id = 5881;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5881, 'bookfroreminesh', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5881, 001 /* NAME_STRING */, 'The Book of Minesh')
-     , (5881, 016 /* LONG_DESC_STRING */, 'A translation of a book taken from a powerful Revenant in the Lost City of Frore.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5881, 001 /* SETUP_DID */, 33554771)
-     , (5881, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5881, 008 /* ICON_DID */, 100668117)
-     , (5881, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5881', 'bookfroreminesh', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5881, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5881, 005 /* ENCUMB_VAL_INT */, 200)
-     , (5881, 008 /* MASS_INT */, 100)
-     , (5881, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5881, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5881, 019 /* VALUE_INT */, 400)
-     , (5881, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5881, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5881,   1,       8192) /* ItemType - Writable */
+     , (5881,   5,        200) /* EncumbranceVal */
+     , (5881,   8,        100) /* Mass */
+     , (5881,   9,          0) /* ValidLocations - None */
+     , (5881,  16,          8) /* ItemUseable - Contained */
+     , (5881,  19,        400) /* Value */
+     , (5881,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5881, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5881,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5881,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5881,   1, 'The Book of Minesh') /* Name */
+     , (5881,  16, 'A translation of a book taken from a powerful Revenant in the Lost City of Frore.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5881,   1,   33554771) /* Setup */
+     , (5881,   3,  536870932) /* SoundTable */
+     , (5881,   8,  100668117) /* Icon */
+     , (5881,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5881, 18, 1000) /* Book Data */;
+VALUES (5881, 18, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5881, 0, 4294967295, 'Fenza Tan', 'prewritten', False, '
@@ -123,4 +120,3 @@ Rytheran''s face darkened, and he turned to his retainers. Before he could speak
 The Council met again in the northern reaches of the Ifisveraqu shortly after, and agreed that we would need to build in that area to be safe from enemies old and new. So, on a small, windy peak overlooking green valleys, we moved underground. Natural caves were expanded and restructured, and, at long last, construction of Great Frore began.
 
 ');
-

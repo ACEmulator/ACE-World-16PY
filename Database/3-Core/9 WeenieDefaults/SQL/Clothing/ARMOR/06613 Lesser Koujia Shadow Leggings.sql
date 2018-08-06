@@ -1,47 +1,43 @@
-/* Weenie - Lesser Koujia Shadow Leggings (6613) */
-DELETE FROM weenie WHERE class_Id = 6613;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6613, 'leggingskoujiashadowlesser', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6613, 001 /* NAME_STRING */, 'Lesser Koujia Shadow Leggings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6613, 001 /* SETUP_DID */, 33554856)
-     , (6613, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6613, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (6613, 007 /* CLOTHINGBASE_DID */, 268435849)
-     , (6613, 008 /* ICON_DID */, 100670459)
-     , (6613, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6613', 'leggingskoujiashadowlesser', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6613, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (6613, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (6613, 004 /* CLOTHING_PRIORITY_INT */, 2816 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */)
-     , (6613, 005 /* ENCUMB_VAL_INT */, 2725)
-     , (6613, 008 /* MASS_INT */, 1350)
-     , (6613, 009 /* LOCATIONS_INT */, 25600 /* ABDOMEN_ARMOR_LOC, UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (6613, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6613, 019 /* VALUE_INT */, 3240)
-     , (6613, 027 /* ARMOR_TYPE_INT */, 32)
-     , (6613, 028 /* ARMOR_LEVEL_INT */, 85)
-     , (6613, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6613, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6613, 012 /* SHADE_FLOAT */, 0.2)
-     , (6613, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (6613, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (6613, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (6613, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (6613, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (6613, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (6613, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.5)
-     , (6613, 110 /* BULK_MOD_FLOAT */, 1)
-     , (6613, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (6613,   1,          2) /* ItemType - Armor */
+     , (6613,   3,         14) /* PaletteTemplate - Red */
+     , (6613,   4,       2816) /* ClothingPriority */
+     , (6613,   5,       2725) /* EncumbranceVal */
+     , (6613,   8,       1350) /* Mass */
+     , (6613,   9,      25600) /* ValidLocations */
+     , (6613,  16,          1) /* ItemUseable - No */
+     , (6613,  19,       3240) /* Value */
+     , (6613,  27,         32) /* ArmorType */
+     , (6613,  28,         85) /* ArmorLevel */
+     , (6613,  33,          1) /* Bonded - Bonded */
+     , (6613,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6613, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6613, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (6613,  22, True ) /* Inscribable */
+     , (6613,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6613,  12,     0.2) /* Shade */
+     , (6613,  13,     1.3) /* ArmorModVsSlash */
+     , (6613,  14,       1) /* ArmorModVsPierce */
+     , (6613,  15,       1) /* ArmorModVsBludgeon */
+     , (6613,  16,     0.8) /* ArmorModVsCold */
+     , (6613,  17,     0.8) /* ArmorModVsFire */
+     , (6613,  18,     0.8) /* ArmorModVsAcid */
+     , (6613,  19,     0.5) /* ArmorModVsElectric */
+     , (6613, 110,       1) /* BulkMod */
+     , (6613, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6613,   1, 'Lesser Koujia Shadow Leggings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6613,   1,   33554856) /* Setup */
+     , (6613,   3,  536870932) /* SoundTable */
+     , (6613,   6,   67108990) /* PaletteBase */
+     , (6613,   7,  268435849) /* ClothingBase */
+     , (6613,   8,  100670459) /* Icon */
+     , (6613,  22,  872415275) /* PhysicsEffectTable */;

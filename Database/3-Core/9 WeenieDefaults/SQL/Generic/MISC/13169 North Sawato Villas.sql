@@ -1,28 +1,24 @@
-/* Weenie - North Sawato Villas (13169) */
-DELETE FROM weenie WHERE class_Id = 13169;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13169, 'northsawatovillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13169, 001 /* NAME_STRING */, 'North Sawato Villas')
-     , (13169, 016 /* LONG_DESC_STRING */, 'Welcome to North Sawato Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13169, 001 /* SETUP_DID */, 33557463)
-     , (13169, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('13169', 'northsawatovillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13169, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (13169, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (13169, 008 /* MASS_INT */, 1800)
-     , (13169, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (13169, 019 /* VALUE_INT */, 125)
-     , (13169, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (13169,   1,        128) /* ItemType - Misc */
+     , (13169,   5,       9000) /* EncumbranceVal */
+     , (13169,   8,       1800) /* Mass */
+     , (13169,  16,          1) /* ItemUseable - No */
+     , (13169,  19,        125) /* Value */
+     , (13169,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13169, 001 /* STUCK_BOOL */, True)
-     , (13169, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (13169, 013 /* ETHEREAL_BOOL */, False)
-     , (13169, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (13169,   1, True ) /* Stuck */
+     , (13169,  12, True ) /* ReportCollisions */
+     , (13169,  13, False) /* Ethereal */
+     , (13169,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (13169,   1, 'North Sawato Villas') /* Name */
+     , (13169,  16, 'Welcome to North Sawato Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (13169,   1,   33557463) /* Setup */
+     , (13169,   8,  100668115) /* Icon */;

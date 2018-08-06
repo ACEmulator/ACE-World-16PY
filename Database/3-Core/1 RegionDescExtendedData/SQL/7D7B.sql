@@ -1,7 +1,6 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (32123, 21178, 1, 5) /* lowcentraldesertplainsgen */
-     , (32123, 21178, 2, 6) /* lowcentraldesertplainsgen */
-     , (32123, 21178, 5, 5) /* lowcentraldesertplainsgen */
-     , (32123, 21178, 5, 6) /* lowcentraldesertplainsgen */
-     , (32123, 21178, 7, 7) /* lowcentraldesertplainsgen */;
-
+VALUES (32123, 21178, 1, 5) /* Low Central Desert Plains Mix Generator */
+     , (32123, 21178, 2, 6) /* Low Central Desert Plains Mix Generator */
+     , (32123, 21178, 5, 5) /* Low Central Desert Plains Mix Generator */
+     , (32123, 21178, 5, 6) /* Low Central Desert Plains Mix Generator */
+     , (32123, 21178, 7, 7) /* Low Central Desert Plains Mix Generator */;

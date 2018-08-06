@@ -1,49 +1,45 @@
-/* Weenie - Celebratory Gem (6440) */
-DELETE FROM weenie WHERE class_Id = 6440;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6440, 'gemcelebratory', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6440, 001 /* NAME_STRING */, 'Celebratory Gem');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6440, 001 /* SETUP_DID */, 33554809)
-     , (6440, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6440, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6440, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (6440, 008 /* ICON_DID */, 100668360)
-     , (6440, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6440, 028 /* SPELL_DID */, 1708 /* WeddingBliss_SpellID */)
-     , (6440, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6440', 'gemcelebratory', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6440, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (6440, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (6440, 005 /* ENCUMB_VAL_INT */, 30)
-     , (6440, 008 /* MASS_INT */, 20)
-     , (6440, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6440, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (6440, 012 /* STACK_SIZE_INT */, 1)
-     , (6440, 013 /* STACK_UNIT_ENCUMB_INT */, 30)
-     , (6440, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (6440, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (6440, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (6440, 019 /* VALUE_INT */, 0)
-     , (6440, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6440, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6440, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (6440, 106 /* ITEM_SPELLCRAFT_INT */, 90)
-     , (6440, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (6440, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (6440, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (6440, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (6440, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6440, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (6440,   1,       2048) /* ItemType - Gem */
+     , (6440,   3,          2) /* PaletteTemplate - Blue */
+     , (6440,   5,         30) /* EncumbranceVal */
+     , (6440,   8,         20) /* Mass */
+     , (6440,   9,          0) /* ValidLocations - None */
+     , (6440,  11,          1) /* MaxStackSize */
+     , (6440,  12,          1) /* StackSize */
+     , (6440,  13,         30) /* StackUnitEncumbrance */
+     , (6440,  14,         20) /* StackUnitMass */
+     , (6440,  15,          0) /* StackUnitValue */
+     , (6440,  16,          8) /* ItemUseable - Contained */
+     , (6440,  19,          0) /* Value */
+     , (6440,  33,          1) /* Bonded - Bonded */
+     , (6440,  93,       1044) /* PhysicsState */
+     , (6440,  94,         16) /* TargetType - Creature */
+     , (6440, 106,         90) /* ItemSpellcraft */
+     , (6440, 107,         50) /* ItemCurMana */
+     , (6440, 108,         50) /* ItemMaxMana */
+     , (6440, 109,          0) /* ItemDifficulty */
+     , (6440, 110,          0) /* ItemAllegianceRankLimit */
+     , (6440, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6440, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6440, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (6440,  22, True ) /* Inscribable */
+     , (6440,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6440,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6440,   1, 'Celebratory Gem') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6440,   1,   33554809) /* Setup */
+     , (6440,   3,  536870932) /* SoundTable */
+     , (6440,   6,   67111919) /* PaletteBase */
+     , (6440,   7,  268435723) /* ClothingBase */
+     , (6440,   8,  100668360) /* Icon */
+     , (6440,  22,  872415275) /* PhysicsEffectTable */
+     , (6440,  28,       1708) /* Spell - Wedding Bliss */
+     , (6440,  36,  234881046) /* MutateFilter */;

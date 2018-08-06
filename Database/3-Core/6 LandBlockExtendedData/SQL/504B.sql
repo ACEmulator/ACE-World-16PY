@@ -1,61 +1,122 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9687, 1963241472, 1347092736, 0.0230001, -43.404, -5.995, 0, 0, 0, -1) /* Storage */
-     , (9687, 1963241473, 1347092736, -3.608, -39.98, -5.995, -0.707107, 0, 0, -0.707107) /* Storage */
-     , (278, 1963241474, 1347092738, 4.75, -40, -6, 0.707107, 0, 0, -0.707107) /* Door */
-     , (11697, 1963241475, 1347092739, 14.0306, -20.114, -5.995, 0.696707, 0, 0, -0.717356) /* Floor Hook */
-     , (9686, 1963241476, 1347092739, 10.1259, -15.604, -4.32, -0.999989, 0, 0, -0.00478195) /* Wall Hook */
-     , (278, 1963241477, 1347092741, 10, -24.75, -6, -4.37114E-08, 0, 0, -1) /* Door */
-     , (11697, 1963241478, 1347092752, 20, 4.13086, -5.995, 1, 0, 0, -4.37114E-08) /* Floor Hook */
-     , (9686, 1963241479, 1347092752, 15.6054, -0.00737062, -4.3, -0.707107, 0, 0, -0.707107) /* Wall Hook */
-     , (278, 1963241480, 1347092754, 20, -4.75, -6, -4.37114E-08, 0, 0, -1) /* Door */
-     , (9686, 1963241481, 1347092760, 19.9588, -15.1013, -4.3, 1, 0, 0, 0) /* Wall Hook */
-     , (11697, 1963241482, 1347092760, 20, -20, -5.995, 1, 0, 0, 0) /* Floor Hook */
-     , (9686, 1963241483, 1347092760, 15.1014, -19.9684, -4.3, -0.714424, 0, 0, -0.699713) /* Wall Hook */
-     , (14191, 1963241484, 1347092760, 20.0682, -18.5777, -5.995, 1, 0, 0, 0) /* Villa */
-     , (9686, 1963241485, 1347092761, 19.9979, -34.8959, -4.3, 0.00368296, 0, 0, -0.999993) /* Wall Hook */
-     , (11697, 1963241486, 1347092761, 20, -30, -5.995, 1, 0, 0, -4.37114E-08) /* Floor Hook */
-     , (9686, 1963241487, 1347092761, 24.8939, -29.9547, -4.3, 0.714424, 0, 0, -0.699713) /* Wall Hook */
-     , (11730, 1963241488, 1347092767, 20, -50, -5.995, 1, 0, 0, 0) /* House Portal */
-     , (10762, 1963241503, 1347092767, 81.6406, 57.8456, 47.205, 0.0216542, 0, 0, 0.999766) /* Portal Linkspot */
-     , (568, 1963241489, 1347092769, 20, -45.25, -6, 1, 0, 0, 0) /* Door */
-     , (9686, 1963241490, 1347092780, 29.8549, -34.3941, -4.3, -0.029195, 0, 0, -0.999574) /* Wall Hook */
-     , (278, 1963241491, 1347092782, 30, -25.25, -6, 1, 0, 0, 0) /* Door */
-     , (11697, 1963241492, 1347092783, 40, -5.99258, -5.995, 1, 0, 0, 0) /* Floor Hook */
-     , (9686, 1963241493, 1347092783, 44.388, -10.2405, -4.3, 0.704517, 0, 0, -0.709687) /* Wall Hook */
-     , (278, 1963241494, 1347092785, 35.25, -10, -6, -0.707107, 0, 0, -0.707107) /* Door */
-     , (9686, 1963241495, 1347092786, -4.39398, -20.0622, 1.5, -0.696708, 0, 0, -0.717355) /* Wall Hook */
-     , (11697, 1963241496, 1347092786, -0.752003, -24.0199, 0.005, -0.00525027, 0, 0, 0.999986) /* Floor Hook */
-     , (278, 1963241497, 1347092788, 4.75, -20, 0, 0.707107, 0, 0, -0.707107) /* Door */
-     , (9686, 1963241498, 1347092793, 10.0959, -29.9483, 1.5, -0.354161, 0, 0, -0.935185) /* Wall Hook */
-     , (9686, 1963241499, 1347092796, 29.9432, -20.0868, 1.5, 0.935786, 0, 0, -0.352568) /* Wall Hook */
-     , (11697, 1963241500, 1347092801, 44.1812, -30.4155, 0.005, 0.716417, 0, 0, -0.697672) /* Floor Hook */
-     , (9686, 1963241501, 1347092801, 40.1348, -25.6021, 1.68725, 0.999755, 0, 0, -0.0221374) /* Wall Hook */
-     , (278, 1963241502, 1347092803, 35.25, -30, 0, -0.707107, 0, 0, -0.707107) /* Door */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241472,  9687, 1347092736, 0.0230001, -43.404, -5.995, 0, 0, 0, -1,  True); /* Storage */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1963241484'; /* Villa */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1963241488'; /* House Portal */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241473,  9687, 1347092736, -3.608, -39.98, -5.995, -0.707107, 0, 0, -0.707107,  True); /* Storage */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241472'; /* Villa <- Storage */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241473'; /* Villa <- Storage */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241475'; /* Villa <- Floor Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241476'; /* Villa <- Wall Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241478'; /* Villa <- Floor Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241479'; /* Villa <- Wall Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241481'; /* Villa <- Wall Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241482'; /* Villa <- Floor Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241483'; /* Villa <- Wall Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241485'; /* Villa <- Wall Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241486'; /* Villa <- Floor Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241487'; /* Villa <- Wall Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241488'; /* Villa <- House Portal */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241490'; /* Villa <- Wall Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241492'; /* Villa <- Floor Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241493'; /* Villa <- Wall Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241495'; /* Villa <- Wall Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241496'; /* Villa <- Floor Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241498'; /* Villa <- Wall Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241499'; /* Villa <- Wall Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241500'; /* Villa <- Floor Hook */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1963241501'; /* Villa <- Wall Hook */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1963241503'; /* House Portal <- Portal Linkspot */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241474,   278, 1347092738, 4.75, -40, -6, 0.707107, 0, 0, -0.707107, False); /* Door */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241475, 11697, 1347092739, 14.0306, -20.114, -5.995, 0.696707, 0, 0, -0.717356,  True); /* Floor Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241476,  9686, 1347092739, 10.1259, -15.604, -4.32, -0.999989, 0, 0, -0.00478195,  True); /* Wall Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241477,   278, 1347092741, 10, -24.75, -6, -4.37114E-08, 0, 0, -1, False); /* Door */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241478, 11697, 1347092752, 20, 4.13086, -5.995, 1, 0, 0, -4.37114E-08,  True); /* Floor Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241479,  9686, 1347092752, 15.6054, -0.00737062, -4.3, -0.707107, 0, 0, -0.707107,  True); /* Wall Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241480,   278, 1347092754, 20, -4.75, -6, -4.37114E-08, 0, 0, -1, False); /* Door */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241481,  9686, 1347092760, 19.9588, -15.1013, -4.3, 1, 0, 0, 0,  True); /* Wall Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241482, 11697, 1347092760, 20, -20, -5.995, 1, 0, 0, 0,  True); /* Floor Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241483,  9686, 1347092760, 15.1014, -19.9684, -4.3, -0.714424, 0, 0, -0.699713,  True); /* Wall Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241484, 14191, 1347092760, 20.0682, -18.5777, -5.995, 1, 0, 0, 0, False); /* Villa */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1963241484, 1963241472) /* Storage */
+     , (1963241484, 1963241473) /* Storage */
+     , (1963241484, 1963241475) /* Floor Hook */
+     , (1963241484, 1963241476) /* Wall Hook */
+     , (1963241484, 1963241478) /* Floor Hook */
+     , (1963241484, 1963241479) /* Wall Hook */
+     , (1963241484, 1963241481) /* Wall Hook */
+     , (1963241484, 1963241482) /* Floor Hook */
+     , (1963241484, 1963241483) /* Wall Hook */
+     , (1963241484, 1963241485) /* Wall Hook */
+     , (1963241484, 1963241486) /* Floor Hook */
+     , (1963241484, 1963241487) /* Wall Hook */
+     , (1963241484, 1963241488) /* House Portal */
+     , (1963241484, 1963241490) /* Wall Hook */
+     , (1963241484, 1963241492) /* Floor Hook */
+     , (1963241484, 1963241493) /* Wall Hook */
+     , (1963241484, 1963241495) /* Wall Hook */
+     , (1963241484, 1963241496) /* Floor Hook */
+     , (1963241484, 1963241498) /* Wall Hook */
+     , (1963241484, 1963241499) /* Wall Hook */
+     , (1963241484, 1963241500) /* Floor Hook */
+     , (1963241484, 1963241501) /* Wall Hook */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241485,  9686, 1347092761, 19.9979, -34.8959, -4.3, 0.00368296, 0, 0, -0.999993,  True); /* Wall Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241486, 11697, 1347092761, 20, -30, -5.995, 1, 0, 0, -4.37114E-08,  True); /* Floor Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241487,  9686, 1347092761, 24.8939, -29.9547, -4.3, 0.714424, 0, 0, -0.699713,  True); /* Wall Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241488, 11730, 1347092767, 20, -50, -5.995, 1, 0, 0, 0,  True); /* House Portal */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1963241488, 1963241503) /* Portal Linkspot */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241489,   568, 1347092769, 20, -45.25, -6, 1, 0, 0, 0, False); /* Door */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241490,  9686, 1347092780, 29.8549, -34.3941, -4.3, -0.029195, 0, 0, -0.999574,  True); /* Wall Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241491,   278, 1347092782, 30, -25.25, -6, 1, 0, 0, 0, False); /* Door */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241492, 11697, 1347092783, 40, -5.99258, -5.995, 1, 0, 0, 0,  True); /* Floor Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241493,  9686, 1347092783, 44.388, -10.2405, -4.3, 0.704517, 0, 0, -0.709687,  True); /* Wall Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241494,   278, 1347092785, 35.25, -10, -6, -0.707107, 0, 0, -0.707107, False); /* Door */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241495,  9686, 1347092786, -4.39398, -20.0622, 1.5, -0.696708, 0, 0, -0.717355,  True); /* Wall Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241496, 11697, 1347092786, -0.752003, -24.0199, 0.005, -0.00525027, 0, 0, 0.999986,  True); /* Floor Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241497,   278, 1347092788, 4.75, -20, 0, 0.707107, 0, 0, -0.707107, False); /* Door */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241498,  9686, 1347092793, 10.0959, -29.9483, 1.5, -0.354161, 0, 0, -0.935185,  True); /* Wall Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241499,  9686, 1347092796, 29.9432, -20.0868, 1.5, 0.935786, 0, 0, -0.352568,  True); /* Wall Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241500, 11697, 1347092801, 44.1812, -30.4155, 0.005, 0.716417, 0, 0, -0.697672,  True); /* Floor Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241501,  9686, 1347092801, 40.1348, -25.6021, 1.68725, 0.999755, 0, 0, -0.0221374,  True); /* Wall Hook */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241502,   278, 1347092803, 35.25, -30, 0, -0.707107, 0, 0, -0.707107, False); /* Door */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1963241503, 10762, 1347092767, 81.6406, 57.8456, 47.205, 0.0216542, 0, 0, 0.999766,  True); /* Portal Linkspot */

@@ -1,36 +1,32 @@
-/* Weenie - Mocha Base (7851) */
-DELETE FROM weenie WHERE class_Id = 7851;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7851, 'mochabase', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7851, 001 /* NAME_STRING */, 'Mocha Base')
-     , (7851, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (7851, 015 /* SHORT_DESC_STRING */, 'A mixture of coffee and chocolate, but somehow still lacking.')
-     , (7851, 020 /* PLURAL_NAME_STRING */, 'Cups of Mocha Base');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7851, 001 /* SETUP_DID */, 33555967)
-     , (7851, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7851, 007 /* CLOTHINGBASE_DID */, 268436028)
-     , (7851, 008 /* ICON_DID */, 100670868);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7851', 'mochabase', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7851, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (7851, 005 /* ENCUMB_VAL_INT */, 20)
-     , (7851, 008 /* MASS_INT */, 10)
-     , (7851, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7851, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (7851, 012 /* STACK_SIZE_INT */, 1)
-     , (7851, 013 /* STACK_UNIT_ENCUMB_INT */, 20)
-     , (7851, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (7851, 015 /* STACK_UNIT_VALUE_INT */, 20)
-     , (7851, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (7851, 019 /* VALUE_INT */, 20)
-     , (7851, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7851, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */);
+VALUES (7851,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (7851,   5,         20) /* EncumbranceVal */
+     , (7851,   8,         10) /* Mass */
+     , (7851,   9,          0) /* ValidLocations - None */
+     , (7851,  11,        100) /* MaxStackSize */
+     , (7851,  12,          1) /* StackSize */
+     , (7851,  13,         20) /* StackUnitEncumbrance */
+     , (7851,  14,         10) /* StackUnitMass */
+     , (7851,  15,         20) /* StackUnitValue */
+     , (7851,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (7851,  19,         20) /* Value */
+     , (7851,  93,       1044) /* PhysicsState */
+     , (7851,  94,    4194336) /* TargetType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7851, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7851,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7851,   1, 'Mocha Base') /* Name */
+     , (7851,  14, 'This item is used in cooking.') /* Use */
+     , (7851,  15, 'A mixture of coffee and chocolate, but somehow still lacking.') /* ShortDesc */
+     , (7851,  20, 'Cups of Mocha Base') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7851,   1,   33555967) /* Setup */
+     , (7851,   6,   67111919) /* PaletteBase */
+     , (7851,   7,  268436028) /* ClothingBase */
+     , (7851,   8,  100670868) /* Icon */;

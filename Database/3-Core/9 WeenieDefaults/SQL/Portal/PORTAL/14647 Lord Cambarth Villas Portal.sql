@@ -1,34 +1,30 @@
-/* Weenie - Lord Cambarth Villas Portal (14647) */
-DELETE FROM weenie WHERE class_Id = 14647;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14647, 'portallordcambarthvillas', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14647, 001 /* NAME_STRING */, 'Lord Cambarth Villas Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14647, 001 /* SETUP_DID */, 33554867)
-     , (14647, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (14647, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14647', 'portallordcambarthvillas', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14647, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (14647, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (14647, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (14647, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (14647, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14647, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (14647,   1,      65536) /* ItemType - Portal */
+     , (14647,  16,         32) /* ItemUseable - Remote */
+     , (14647,  93,       3084) /* PhysicsState */
+     , (14647, 111,          1) /* PortalBitmask - Unrestricted */
+     , (14647, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14647, 001 /* STUCK_BOOL */, True)
-     , (14647, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14647, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14647, 013 /* ETHEREAL_BOOL */, True)
-     , (14647, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (14647,   1, True ) /* Stuck */
+     , (14647,  11, False) /* IgnoreCollisions */
+     , (14647,  12, True ) /* ReportCollisions */
+     , (14647,  13, True ) /* Ethereal */
+     , (14647,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14647,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14647,   1, 'Lord Cambarth Villas Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14647,   1,   33554867) /* Setup */
+     , (14647,   2,  150994947) /* MotionTable */
+     , (14647,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14647, 2, 1910767646, 86.065, 132.357, 197.154, -0.2278241, 0, 0, -0.9737023) /* DESTINATION_POSITION */;
-
+VALUES (14647, 2, 1910767646, 86.065, 132.357, 197.154, -0.2278241, 0, 0, -0.9737023) /* Destination */;

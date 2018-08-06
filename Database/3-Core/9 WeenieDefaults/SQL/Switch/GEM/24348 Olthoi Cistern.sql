@@ -1,42 +1,40 @@
-/* Weenie - Olthoi Cistern (24348) */
-DELETE FROM weenie WHERE class_Id = 24348;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24348, 'boygrubcisternfake-xp', 26 /* Switch_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24348, 001 /* NAME_STRING */, 'Olthoi Cistern')
-     , (24348, 014 /* USE_STRING */, 'There is an opening in the top of the cistern that you might be able to reach into.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24348, 001 /* SETUP_DID */, 33557286)
-     , (24348, 002 /* MOTION_TABLE_DID */, 150995240)
-     , (24348, 008 /* ICON_DID */, 100674304)
-     , (24348, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24348, 016 /* ACTIVATION_TARGET_IID */, 0);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24348', 'boygrubcisternfake-xp', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24348, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (24348, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (24348, 019 /* VALUE_INT */, 0)
-     , (24348, 083 /* ACTIVATION_RESPONSE_INT */, 2048 /* Unk800_ActivationResponse */)
-     , (24348, 093 /* PHYSICS_STATE_INT */, 16 /* IGNORE_COLLISIONS_PS */)
-     , (24348, 119 /* ACTIVE_INT */, 1);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24348, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (24348, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (24348,   1,       2048) /* ItemType - Gem */
+     , (24348,  16,         48) /* ItemUseable - ViewedRemote */
+     , (24348,  19,          0) /* Value */
+     , (24348,  83,       2048) /* ActivationResponse - Unk800 */
+     , (24348,  93,         16) /* PhysicsState - IgnoreCollision */
+     , (24348, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24348, 001 /* STUCK_BOOL */, True)
-     , (24348, 013 /* ETHEREAL_BOOL */, False)
-     , (24348, 014 /* GRAVITY_STATUS_BOOL */, False);
+VALUES (24348,   1, True ) /* Stuck */
+     , (24348,  13, False) /* Ethereal */
+     , (24348,  14, False) /* GravityStatus */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24348, 1, 8 /* Activation_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24348,  39,     1.1) /* DefaultScale */
+     , (24348,  54,       1) /* UseRadius */;
 
-INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24348, 8 /* Activation_EmoteCategory */, 0, 0, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'You feel around in the warm slime for a bit. This one seems to be empty.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24348,   1, 'Olthoi Cistern') /* Name */
+     , (24348,  14, 'There is an opening in the top of the cistern that you might be able to reach into.') /* Use */;
 
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24348,   1,   33557286) /* Setup */
+     , (24348,   2,  150995240) /* MotionTable */
+     , (24348,   8,  100674304) /* Icon */
+     , (24348,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (24348,  16,          0) /* ActivationTarget */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (24348,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You feel around in the warm slime for a bit. This one seems to be empty.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

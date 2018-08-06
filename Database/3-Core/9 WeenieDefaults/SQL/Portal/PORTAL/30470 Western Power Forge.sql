@@ -1,35 +1,31 @@
-/* Weenie - Western Power Forge (30470) */
-DELETE FROM weenie WHERE class_Id = 30470;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30470, 'portalpowerforgewest', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30470, 001 /* NAME_STRING */, 'Western Power Forge');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30470, 001 /* SETUP_DID */, 33555925)
-     , (30470, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (30470, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30470', 'portalpowerforgewest', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30470, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (30470, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (30470, 086 /* MIN_LEVEL_INT */, 100)
-     , (30470, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (30470, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (30470, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30470, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (30470,   1,      65536) /* ItemType - Portal */
+     , (30470,  16,         32) /* ItemUseable - Remote */
+     , (30470,  86,        100) /* MinLevel */
+     , (30470,  93,       3084) /* PhysicsState */
+     , (30470, 111,          1) /* PortalBitmask - Unrestricted */
+     , (30470, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30470, 001 /* STUCK_BOOL */, True)
-     , (30470, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (30470, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (30470, 013 /* ETHEREAL_BOOL */, True)
-     , (30470, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (30470,   1, True ) /* Stuck */
+     , (30470,  11, False) /* IgnoreCollisions */
+     , (30470,  12, True ) /* ReportCollisions */
+     , (30470,  13, True ) /* Ethereal */
+     , (30470,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30470,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30470,   1, 'Western Power Forge') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30470,   1,   33555925) /* Setup */
+     , (30470,   2,  150994947) /* MotionTable */
+     , (30470,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30470, 2, 393472, 0, -170, 6.005, 0.7071068, 0, 0, -0.7071068) /* DESTINATION_POSITION */;
-
+VALUES (30470, 2, 393472, 0, -170, 6.005, 0.7071068, 0, 0, -0.7071068) /* Destination */;

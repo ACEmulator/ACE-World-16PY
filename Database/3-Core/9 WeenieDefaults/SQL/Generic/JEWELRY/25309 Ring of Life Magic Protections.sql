@@ -1,56 +1,52 @@
-/* Weenie - Ring of Life Magic Protections (25309) */
-DELETE FROM weenie WHERE class_Id = 25309;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25309, 'ringlife2lo', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25309, 001 /* NAME_STRING */, 'Ring of Life Magic Protections');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25309, 001 /* SETUP_DID */, 33554691)
-     , (25309, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25309, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (25309, 007 /* CLOTHINGBASE_DID */, 268436318)
-     , (25309, 008 /* ICON_DID */, 100672480)
-     , (25309, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (25309, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25309', 'ringlife2lo', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25309, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (25309, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (25309, 005 /* ENCUMB_VAL_INT */, 15)
-     , (25309, 008 /* MASS_INT */, 10)
-     , (25309, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (25309, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25309, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (25309, 019 /* VALUE_INT */, 0)
-     , (25309, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25309, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25309, 106 /* ITEM_SPELLCRAFT_INT */, 350)
-     , (25309, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (25309, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (25309, 109 /* ITEM_DIFFICULTY_INT */, 1)
-     , (25309, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25309, 005 /* MANA_RATE_FLOAT */, 0)
-     , (25309, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (25309,   1,          8) /* ItemType - Jewelry */
+     , (25309,   3,          2) /* PaletteTemplate - Blue */
+     , (25309,   5,         15) /* EncumbranceVal */
+     , (25309,   8,         10) /* Mass */
+     , (25309,   9,     786432) /* ValidLocations - FingerWear */
+     , (25309,  16,          1) /* ItemUseable - No */
+     , (25309,  18,          1) /* UiEffects - Magical */
+     , (25309,  19,          0) /* Value */
+     , (25309,  33,          1) /* Bonded - Bonded */
+     , (25309,  93,       1044) /* PhysicsState */
+     , (25309, 106,        350) /* ItemSpellcraft */
+     , (25309, 107,        500) /* ItemCurMana */
+     , (25309, 108,        500) /* ItemMaxMana */
+     , (25309, 109,          1) /* ItemDifficulty */
+     , (25309, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25309, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25309, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (25309,  22, True ) /* Inscribable */
+     , (25309,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25309,   5,       0) /* ManaRate */
+     , (25309,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25309,   1, 'Ring of Life Magic Protections') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25309,   1,   33554691) /* Setup */
+     , (25309,   3,  536870932) /* SoundTable */
+     , (25309,   6,   67111919) /* PaletteBase */
+     , (25309,   7,  268436318) /* ClothingBase */
+     , (25309,   8,  100672480) /* Icon */
+     , (25309,  22,  872415275) /* PhysicsEffectTable */
+     , (25309,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25309, 213, 2) /* ManaRenewalSelf2_SpellID */
-     , (25309, 1025, 2) /* BludgeonProtectionOther2_SpellID */
-     , (25309, 166, 2) /* RegenerationSelf2_SpellID */
-     , (25309, 1313, 2) /* ArmorOther2_SpellID */
-     , (25309, 1090, 2) /* FireProtectionSelf2_SpellID */
-     , (25309, 1031, 2) /* ColdProtectionSelf2_SpellID */
-     , (25309, 1140, 2) /* PiercingProtectionOther2_SpellID */
-     , (25309, 1116, 2) /* BladeProtectionOther2_SpellID */
-     , (25309, 1067, 2) /* LightningProtectionSelf2_SpellID */
-     , (25309, 189, 2) /* RejuvenationSelf2_SpellID */
-     , (25309, 510, 2) /* AcidProtectionOther2_SpellID */;
-
+VALUES (25309,   166,      2)  /* Regeneration Self II */
+     , (25309,   189,      2)  /* Rejuvenation Self II */
+     , (25309,   213,      2)  /* Mana Renewal Self II */
+     , (25309,   510,      2)  /* Acid Protection Other II */
+     , (25309,  1025,      2)  /* Bludgeoning Protection Other II */
+     , (25309,  1031,      2)  /* Cold Protection Self II */
+     , (25309,  1067,      2)  /* Lightning Protection Self II */
+     , (25309,  1090,      2)  /* Fire Protection Self II */
+     , (25309,  1116,      2)  /* Blade Protection Other II */
+     , (25309,  1140,      2)  /* Piercing Protection Other II */
+     , (25309,  1313,      2)  /* Armor Other II */;

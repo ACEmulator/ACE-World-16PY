@@ -1,37 +1,33 @@
-/* Weenie - Hearty Healing Apple Pie (5268) */
-DELETE FROM weenie WHERE class_Id = 5268;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5268, 'heartyhealingapplepie', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5268, 001 /* NAME_STRING */, 'Hearty Healing Apple Pie')
-     , (5268, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5268, 020 /* PLURAL_NAME_STRING */, 'Hearty Healing Apple Pies');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5268, 001 /* SETUP_DID */, 33555978)
-     , (5268, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5268, 008 /* ICON_DID */, 100669942)
-     , (5268, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5268', 'heartyhealingapplepie', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5268, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5268, 005 /* ENCUMB_VAL_INT */, 50)
-     , (5268, 008 /* MASS_INT */, 50)
-     , (5268, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5268, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5268, 012 /* STACK_SIZE_INT */, 1)
-     , (5268, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (5268, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (5268, 015 /* STACK_UNIT_VALUE_INT */, 132)
-     , (5268, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5268, 018 /* UI_EFFECTS_INT */, 4 /* UI_EFFECT_BOOST_HEALTH */)
-     , (5268, 019 /* VALUE_INT */, 132)
-     , (5268, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
-     , (5268, 090 /* BOOST_VALUE_INT */, 35)
-     , (5268, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5268,   1,         32) /* ItemType - Food */
+     , (5268,   5,         50) /* EncumbranceVal */
+     , (5268,   8,         50) /* Mass */
+     , (5268,   9,          0) /* ValidLocations - None */
+     , (5268,  11,        100) /* MaxStackSize */
+     , (5268,  12,          1) /* StackSize */
+     , (5268,  13,         50) /* StackUnitEncumbrance */
+     , (5268,  14,         50) /* StackUnitMass */
+     , (5268,  15,        132) /* StackUnitValue */
+     , (5268,  16,          8) /* ItemUseable - Contained */
+     , (5268,  18,          4) /* UiEffects - BoostHealth */
+     , (5268,  19,        132) /* Value */
+     , (5268,  89,          2) /* BoosterEnum - Health */
+     , (5268,  90,         35) /* BoostValue */
+     , (5268,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5268, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5268,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5268,   1, 'Hearty Healing Apple Pie') /* Name */
+     , (5268,  14, 'Use this item to eat it.') /* Use */
+     , (5268,  20, 'Hearty Healing Apple Pies') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5268,   1,   33555978) /* Setup */
+     , (5268,   3,  536870932) /* SoundTable */
+     , (5268,   8,  100669942) /* Icon */
+     , (5268,  22,  872415275) /* PhysicsEffectTable */;

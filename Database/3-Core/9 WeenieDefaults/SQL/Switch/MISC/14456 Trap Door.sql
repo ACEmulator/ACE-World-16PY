@@ -1,38 +1,34 @@
-/* Weenie - Trap Door (14456) */
-DELETE FROM weenie WHERE class_Id = 14456;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14456, 'trap-portalsend-hallofhollowssurface', 26 /* Switch_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14456, 001 /* NAME_STRING */, 'Trap Door')
-     , (14456, 022 /* ACTIVATION_FAILURE_STRING */, 'The trap door is stuck. Try again.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14456, 001 /* SETUP_DID */, 33554809)
-     , (14456, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14456, 008 /* ICON_DID */, 100667499)
-     , (14456, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (14456, 028 /* SPELL_DID */, 2632 /* PortalSendingHallofHollowsSurface_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14456', 'trap-portalsend-hallofhollowssurface', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14456, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14456, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (14456, 008 /* MASS_INT */, 3000)
-     , (14456, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14456, 019 /* VALUE_INT */, 200)
-     , (14456, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
-     , (14456, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
-     , (14456, 106 /* ITEM_SPELLCRAFT_INT */, 1000)
-     , (14456, 119 /* ACTIVE_INT */, 1);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14456, 011 /* RESET_INTERVAL_FLOAT */, 1);
+VALUES (14456,   1,        128) /* ItemType - Misc */
+     , (14456,   5,       6000) /* EncumbranceVal */
+     , (14456,   8,       3000) /* Mass */
+     , (14456,  16,          1) /* ItemUseable - No */
+     , (14456,  19,        200) /* Value */
+     , (14456,  83,       4096) /* ActivationResponse - CastSpell */
+     , (14456,  93,         20) /* PhysicsState */
+     , (14456, 106,       1000) /* ItemSpellcraft */
+     , (14456, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14456, 001 /* STUCK_BOOL */, True)
-     , (14456, 012 /* REPORT_COLLISIONS_BOOL */, False)
-     , (14456, 013 /* ETHEREAL_BOOL */, True)
-     , (14456, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (14456, 018 /* VISIBILITY_BOOL */, True);
+VALUES (14456,   1, True ) /* Stuck */
+     , (14456,  12, False) /* ReportCollisions */
+     , (14456,  13, True ) /* Ethereal */
+     , (14456,  14, False) /* GravityStatus */
+     , (14456,  18, True ) /* Visibility */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14456,  11,       1) /* ResetInterval */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14456,   1, 'Trap Door') /* Name */
+     , (14456,  22, 'The trap door is stuck. Try again.') /* ActivationFailure */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14456,   1,   33554809) /* Setup */
+     , (14456,   3,  536870932) /* SoundTable */
+     , (14456,   8,  100667499) /* Icon */
+     , (14456,  22,  872415275) /* PhysicsEffectTable */
+     , (14456,  28,       2632) /* Spell - Secret Ascent */;

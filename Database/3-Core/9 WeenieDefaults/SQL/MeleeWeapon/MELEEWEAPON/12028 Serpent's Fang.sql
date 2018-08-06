@@ -1,57 +1,53 @@
-/* Weenie - Serpent's Fang (12028) */
-DELETE FROM weenie WHERE class_Id = 12028;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12028, 'spearserpent', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12028, 001 /* NAME_STRING */, 'Serpent''s Fang')
-     , (12028, 015 /* SHORT_DESC_STRING */, 'A spear crafted in the semblance of a large snake.')
-     , (12028, 016 /* LONG_DESC_STRING */, 'A spear crafted in the semblance of a large snake.  The eyes seem to be crafted from some sort of gems, and the fangs are quite sharp.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12028, 001 /* SETUP_DID */, 33557337)
-     , (12028, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12028, 008 /* ICON_DID */, 100672119)
-     , (12028, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12028, 037 /* ITEM_SKILL_LIMIT_DID */, 9);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12028', 'spearserpent', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12028, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (12028, 005 /* ENCUMB_VAL_INT */, 550)
-     , (12028, 008 /* MASS_INT */, 500)
-     , (12028, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (12028, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12028, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (12028, 019 /* VALUE_INT */, 7000)
-     , (12028, 044 /* DAMAGE_INT */, 16)
-     , (12028, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (12028, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (12028, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (12028, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (12028, 049 /* WEAPON_TIME_INT */, 30)
-     , (12028, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (12028, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12028, 106 /* ITEM_SPELLCRAFT_INT */, 55)
-     , (12028, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (12028, 108 /* ITEM_MAX_MANA_INT */, 550)
-     , (12028, 109 /* ITEM_DIFFICULTY_INT */, 130)
-     , (12028, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 240)
-     , (12028, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12028, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12028, 005 /* MANA_RATE_FLOAT */, -0.02)
-     , (12028, 021 /* WEAPON_LENGTH_FLOAT */, 1.3)
-     , (12028, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.66)
-     , (12028, 029 /* WEAPON_DEFENSE_FLOAT */, 1.04)
-     , (12028, 062 /* WEAPON_OFFENSE_FLOAT */, 1.04);
+VALUES (12028,   1,          1) /* ItemType - MeleeWeapon */
+     , (12028,   5,        550) /* EncumbranceVal */
+     , (12028,   8,        500) /* Mass */
+     , (12028,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12028,  16,          1) /* ItemUseable - No */
+     , (12028,  18,          1) /* UiEffects - Magical */
+     , (12028,  19,       7000) /* Value */
+     , (12028,  44,         16) /* Damage */
+     , (12028,  45,          2) /* DamageType - Pierce */
+     , (12028,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (12028,  47,          2) /* AttackType - Thrust */
+     , (12028,  48,          9) /* WeaponSkill - Spear */
+     , (12028,  49,         30) /* WeaponTime */
+     , (12028,  51,          1) /* CombatUse - Melee */
+     , (12028,  93,       1044) /* PhysicsState */
+     , (12028, 106,         55) /* ItemSpellcraft */
+     , (12028, 107,        500) /* ItemCurMana */
+     , (12028, 108,        550) /* ItemMaxMana */
+     , (12028, 109,        130) /* ItemDifficulty */
+     , (12028, 115,        240) /* ItemSkillLevelLimit */
+     , (12028, 150,        103) /* HookPlacement - Hook */
+     , (12028, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12028, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (12028,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12028,   5,   -0.02) /* ManaRate */
+     , (12028,  21,     1.3) /* WeaponLength */
+     , (12028,  22,    0.66) /* DamageVariance */
+     , (12028,  29,    1.04) /* WeaponDefense */
+     , (12028,  62,    1.04) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12028,   1, 'Serpent''s Fang') /* Name */
+     , (12028,  15, 'A spear crafted in the semblance of a large snake.') /* ShortDesc */
+     , (12028,  16, 'A spear crafted in the semblance of a large snake.  The eyes seem to be crafted from some sort of gems, and the fangs are quite sharp.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12028,   1,   33557337) /* Setup */
+     , (12028,   3,  536870932) /* SoundTable */
+     , (12028,   8,  100672119) /* Icon */
+     , (12028,  22,  872415275) /* PhysicsEffectTable */
+     , (12028,  37,          9) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12028, 1615, 2) /* BloodDrinker5_SpellID */
-     , (12028, 2005, 2) /* WarriorsGreaterVitality_SpellID */
-     , (12028, 247, 2) /* InvulnerabilitySelf4_SpellID */;
-
+VALUES (12028,   247,      2)  /* Invulnerability Self IV */
+     , (12028,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (12028,  2005,      2)  /* Warrior's Greater Vitality */;

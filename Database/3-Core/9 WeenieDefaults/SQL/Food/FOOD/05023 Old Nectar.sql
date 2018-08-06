@@ -1,36 +1,32 @@
-/* Weenie - Old Nectar (5023) */
-DELETE FROM weenie WHERE class_Id = 5023;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5023, 'oldnectar', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5023, 001 /* NAME_STRING */, 'Old Nectar')
-     , (5023, 014 /* USE_STRING */, 'Use this item to drink it.')
-     , (5023, 015 /* SHORT_DESC_STRING */, 'A small bottle full of golden liquid.')
-     , (5023, 016 /* LONG_DESC_STRING */, 'A small bottle full of a sweet golden nectar from the Folthid Cellar.')
-     , (5023, 020 /* PLURAL_NAME_STRING */, 'Bottles of Old Nectar');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5023, 001 /* SETUP_DID */, 33554602)
-     , (5023, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5023, 008 /* ICON_DID */, 100667410)
-     , (5023, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (5023, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5023', 'oldnectar', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5023, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5023, 005 /* ENCUMB_VAL_INT */, 50)
-     , (5023, 008 /* MASS_INT */, 25)
-     , (5023, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5023, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5023, 012 /* STACK_SIZE_INT */, 1)
-     , (5023, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (5023, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (5023, 015 /* STACK_UNIT_VALUE_INT */, 80)
-     , (5023, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5023, 019 /* VALUE_INT */, 80)
-     , (5023, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (5023, 090 /* BOOST_VALUE_INT */, 8)
-     , (5023, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5023,   1,         32) /* ItemType - Food */
+     , (5023,   5,         50) /* EncumbranceVal */
+     , (5023,   8,         25) /* Mass */
+     , (5023,   9,          0) /* ValidLocations - None */
+     , (5023,  11,        100) /* MaxStackSize */
+     , (5023,  12,          1) /* StackSize */
+     , (5023,  13,         50) /* StackUnitEncumbrance */
+     , (5023,  14,         25) /* StackUnitMass */
+     , (5023,  15,         80) /* StackUnitValue */
+     , (5023,  16,          8) /* ItemUseable - Contained */
+     , (5023,  19,         80) /* Value */
+     , (5023,  89,          4) /* BoosterEnum - Stamina */
+     , (5023,  90,          8) /* BoostValue */
+     , (5023,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5023,   1, 'Old Nectar') /* Name */
+     , (5023,  14, 'Use this item to drink it.') /* Use */
+     , (5023,  15, 'A small bottle full of golden liquid.') /* ShortDesc */
+     , (5023,  16, 'A small bottle full of a sweet golden nectar from the Folthid Cellar.') /* LongDesc */
+     , (5023,  20, 'Bottles of Old Nectar') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5023,   1,   33554602) /* Setup */
+     , (5023,   3,  536870932) /* SoundTable */
+     , (5023,   8,  100667410) /* Icon */
+     , (5023,  22,  872415275) /* PhysicsEffectTable */
+     , (5023,  23,         65) /* UseSound - Drink1 */;

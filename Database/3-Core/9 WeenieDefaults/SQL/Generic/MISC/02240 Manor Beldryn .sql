@@ -1,30 +1,26 @@
-/* Weenie - Manor Beldryn  (2240) */
-DELETE FROM weenie WHERE class_Id = 2240;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2240, 'dryreachmanorbeldrynsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2240, 001 /* NAME_STRING */, 'Manor Beldryn ')
-     , (2240, 016 /* LONG_DESC_STRING */, 'Manor Beldryn');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2240, 001 /* SETUP_DID */, 33555088)
-     , (2240, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (2240, 007 /* CLOTHINGBASE_DID */, 268435656)
-     , (2240, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2240', 'dryreachmanorbeldrynsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2240, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (2240, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (2240, 008 /* MASS_INT */, 1800)
-     , (2240, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2240, 019 /* VALUE_INT */, 125)
-     , (2240, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (2240,   1,        128) /* ItemType - Misc */
+     , (2240,   5,       9000) /* EncumbranceVal */
+     , (2240,   8,       1800) /* Mass */
+     , (2240,  16,          1) /* ItemUseable - No */
+     , (2240,  19,        125) /* Value */
+     , (2240,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2240, 001 /* STUCK_BOOL */, True)
-     , (2240, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (2240, 013 /* ETHEREAL_BOOL */, False)
-     , (2240, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (2240,   1, True ) /* Stuck */
+     , (2240,  12, True ) /* ReportCollisions */
+     , (2240,  13, False) /* Ethereal */
+     , (2240,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2240,   1, 'Manor Beldryn ') /* Name */
+     , (2240,  16, 'Manor Beldryn') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2240,   1,   33555088) /* Setup */
+     , (2240,   6,   67111092) /* PaletteBase */
+     , (2240,   7,  268435656) /* ClothingBase */
+     , (2240,   8,  100668115) /* Icon */;

@@ -1,41 +1,37 @@
-/* Weenie - White Molly (23295) */
-DELETE FROM weenie WHERE class_Id = 23295;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23295, 'mollywhite', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23295, 001 /* NAME_STRING */, 'White Molly')
-     , (23295, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (23295, 020 /* PLURAL_NAME_STRING */, 'White Mollies');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23295, 001 /* SETUP_DID */, 33558282)
-     , (23295, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23295, 006 /* PALETTE_BASE_DID */, 67114203)
-     , (23295, 007 /* CLOTHINGBASE_DID */, 268436587)
-     , (23295, 008 /* ICON_DID */, 100674220)
-     , (23295, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23295', 'mollywhite', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23295, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (23295, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (23295, 005 /* ENCUMB_VAL_INT */, 20)
-     , (23295, 008 /* MASS_INT */, 20)
-     , (23295, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23295, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (23295, 012 /* STACK_SIZE_INT */, 1)
-     , (23295, 013 /* STACK_UNIT_ENCUMB_INT */, 20)
-     , (23295, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (23295, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (23295, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23295, 019 /* VALUE_INT */, 0)
-     , (23295, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (23295, 090 /* BOOST_VALUE_INT */, 8)
-     , (23295, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23295, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23295, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (23295,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (23295,   3,         61) /* PaletteTemplate - White */
+     , (23295,   5,         20) /* EncumbranceVal */
+     , (23295,   8,         20) /* Mass */
+     , (23295,   9,          0) /* ValidLocations - None */
+     , (23295,  11,        100) /* MaxStackSize */
+     , (23295,  12,          1) /* StackSize */
+     , (23295,  13,         20) /* StackUnitEncumbrance */
+     , (23295,  14,         20) /* StackUnitMass */
+     , (23295,  15,          0) /* StackUnitValue */
+     , (23295,  16,          8) /* ItemUseable - Contained */
+     , (23295,  19,          0) /* Value */
+     , (23295,  89,          4) /* BoosterEnum - Stamina */
+     , (23295,  90,          8) /* BoostValue */
+     , (23295,  93,       1044) /* PhysicsState */
+     , (23295, 150,        103) /* HookPlacement - Hook */
+     , (23295, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23295, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
+VALUES (23295,  84, True ) /* IgnoreCloIcons */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23295,   1, 'White Molly') /* Name */
+     , (23295,  14, 'Use this item to eat it.') /* Use */
+     , (23295,  20, 'White Mollies') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23295,   1,   33558282) /* Setup */
+     , (23295,   3,  536870932) /* SoundTable */
+     , (23295,   6,   67114203) /* PaletteBase */
+     , (23295,   7,  268436587) /* ClothingBase */
+     , (23295,   8,  100674220) /* Icon */
+     , (23295,  22,  872415275) /* PhysicsEffectTable */;

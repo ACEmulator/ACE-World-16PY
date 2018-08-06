@@ -1,49 +1,45 @@
-/* Weenie - Flaming Katar (3820) */
-DELETE FROM weenie WHERE class_Id = 3820;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3820, 'katarfire', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3820, 001 /* NAME_STRING */, 'Flaming Katar');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3820, 001 /* SETUP_DID */, 33555740)
-     , (3820, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3820, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3820, 007 /* CLOTHINGBASE_DID */, 268435789)
-     , (3820, 008 /* ICON_DID */, 100667596)
-     , (3820, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3820, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3820, 046 /* TSYS_MUTATION_FILTER_DID */, 939524102);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3820', 'katarfire', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3820, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3820, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (3820, 005 /* ENCUMB_VAL_INT */, 135)
-     , (3820, 008 /* MASS_INT */, 90)
-     , (3820, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3820, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3820, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (3820, 019 /* VALUE_INT */, 125)
-     , (3820, 044 /* DAMAGE_INT */, 4)
-     , (3820, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (3820, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1 /* Unarmed_CombatStyle */)
-     , (3820, 047 /* ATTACK_TYPE_INT */, 1 /* Punch_AttackType */)
-     , (3820, 048 /* WEAPON_SKILL_INT */, 13 /* UNARMED_COMBAT_SKILL */)
-     , (3820, 049 /* WEAPON_TIME_INT */, 20)
-     , (3820, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3820, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3820, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3820, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3820, 169 /* TSYS_MUTATION_DATA_INT */, 101254146);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3820, 021 /* WEAPON_LENGTH_FLOAT */, 0.52)
-     , (3820, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (3820, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (3820, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3820,   1,          1) /* ItemType - MeleeWeapon */
+     , (3820,   3,         20) /* PaletteTemplate - Silver */
+     , (3820,   5,        135) /* EncumbranceVal */
+     , (3820,   8,         90) /* Mass */
+     , (3820,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3820,  16,          1) /* ItemUseable - No */
+     , (3820,  18,         32) /* UiEffects - Fire */
+     , (3820,  19,        125) /* Value */
+     , (3820,  44,          4) /* Damage */
+     , (3820,  45,         16) /* DamageType - Fire */
+     , (3820,  46,          1) /* DefaultCombatStyle - Unarmed */
+     , (3820,  47,          1) /* AttackType - Punch */
+     , (3820,  48,         13) /* WeaponSkill - UnarmedCombat */
+     , (3820,  49,         20) /* WeaponTime */
+     , (3820,  51,          1) /* CombatUse - Melee */
+     , (3820,  93,       1044) /* PhysicsState */
+     , (3820, 150,        103) /* HookPlacement - Hook */
+     , (3820, 151,          2) /* HookType - Wall */
+     , (3820, 169,  101254146) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3820, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3820,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3820,  21,    0.52) /* WeaponLength */
+     , (3820,  22,    0.75) /* DamageVariance */
+     , (3820,  29,    1.05) /* WeaponDefense */
+     , (3820,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3820,   1, 'Flaming Katar') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3820,   1,   33555740) /* Setup */
+     , (3820,   3,  536870932) /* SoundTable */
+     , (3820,   6,   67111919) /* PaletteBase */
+     , (3820,   7,  268435789) /* ClothingBase */
+     , (3820,   8,  100667596) /* Icon */
+     , (3820,  22,  872415275) /* PhysicsEffectTable */
+     , (3820,  36,  234881053) /* MutateFilter */
+     , (3820,  46,  939524102) /* TsysMutationFilter */;

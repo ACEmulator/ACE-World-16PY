@@ -1,39 +1,36 @@
-/* Weenie - Elysa Strathelar's Letter to Lania Cartoth (15800) */
-DELETE FROM weenie WHERE class_Id = 15800;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15800, 'letterthorstenarmor2', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15800, 001 /* NAME_STRING */, 'Elysa Strathelar''s Letter to Lania Cartoth')
-     , (15800, 015 /* SHORT_DESC_STRING */, 'A letter from Elysa Strathelar to Lania Cartoth.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15800, 001 /* SETUP_DID */, 33554773)
-     , (15800, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15800, 008 /* ICON_DID */, 100672829)
-     , (15800, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15800', 'letterthorstenarmor2', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15800, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (15800, 005 /* ENCUMB_VAL_INT */, 25)
-     , (15800, 008 /* MASS_INT */, 5)
-     , (15800, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (15800, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (15800, 019 /* VALUE_INT */, 0)
-     , (15800, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (15800, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (15800, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15800, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (15800,   1,       8192) /* ItemType - Writable */
+     , (15800,   5,         25) /* EncumbranceVal */
+     , (15800,   8,          5) /* Mass */
+     , (15800,   9,          0) /* ValidLocations - None */
+     , (15800,  16,          8) /* ItemUseable - Contained */
+     , (15800,  19,          0) /* Value */
+     , (15800,  33,          1) /* Bonded - Bonded */
+     , (15800,  93,       1044) /* PhysicsState */
+     , (15800, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15800, 022 /* INSCRIBABLE_BOOL */, False)
-     , (15800, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (15800,  22, False) /* Inscribable */
+     , (15800,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15800,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15800,   1, 'Elysa Strathelar''s Letter to Lania Cartoth') /* Name */
+     , (15800,  15, 'A letter from Elysa Strathelar to Lania Cartoth.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15800,   1,   33554773) /* Setup */
+     , (15800,   3,  536870932) /* SoundTable */
+     , (15800,   8,  100672829) /* Icon */
+     , (15800,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (15800, 3, 1000) /* Book Data */;
+VALUES (15800, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (15800, 0, 4294967295, 'Elysa Strathelar', 'prewritten', False, '
@@ -53,4 +50,3 @@ I live.  I rage.  I close my eyes against the winter glare and breathe deep.  Th
 
 Elysa
 ');
-

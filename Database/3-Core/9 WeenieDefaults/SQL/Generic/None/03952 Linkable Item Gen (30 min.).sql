@@ -1,0 +1,27 @@
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3952', 'linkitemgen30minutes', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (3952,  66,          1) /* CheckpointStatus */
+     , (3952,  81,          0) /* MaxGeneratedObjects */
+     , (3952,  82,          0) /* InitGeneratedObjects */
+     , (3952,  93,       1044) /* PhysicsState */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (3952,   1, True ) /* Stuck */
+     , (3952,  11, True ) /* IgnoreCollisions */
+     , (3952,  18, True ) /* Visibility */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3952,  41,      60) /* RegenerationInterval */
+     , (3952,  43,       2) /* GeneratorRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3952,   1, 'Linkable Item Gen (30 min.)') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3952,   1,   33555051) /* Setup */
+     , (3952,   8,  100667494) /* Icon */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (3952, -1, 3666, 1800, 1, 1, 2, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

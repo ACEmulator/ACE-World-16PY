@@ -1,65 +1,61 @@
-/* Weenie - Perfect Dissolving Isparian Wand (20159) */
-DELETE FROM weenie WHERE class_Id = 20159;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20159, 'wandisparianperfectstingingmajor', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20159, 001 /* NAME_STRING */, 'Perfect Dissolving Isparian Wand');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20159, 001 /* SETUP_DID */, 33557783)
-     , (20159, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20159, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20159, 007 /* CLOTHINGBASE_DID */, 268436395)
-     , (20159, 008 /* ICON_DID */, 100672995)
-     , (20159, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20159, 037 /* ITEM_SKILL_LIMIT_DID */, 16);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20159', 'wandisparianperfectstingingmajor', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20159, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (20159, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (20159, 005 /* ENCUMB_VAL_INT */, 150)
-     , (20159, 008 /* MASS_INT */, 10)
-     , (20159, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (20159, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20159, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (20159, 019 /* VALUE_INT */, 8000)
-     , (20159, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (20159, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (20159, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (20159, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20159, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (20159, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (20159, 107 /* ITEM_CUR_MANA_INT */, 1200)
-     , (20159, 108 /* ITEM_MAX_MANA_INT */, 1200)
-     , (20159, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 250)
-     , (20159, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (20159, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (20159, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (20159, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (20159, 160 /* WIELD_DIFFICULTY_INT */, 50)
-     , (20159, 166 /* SLAYER_CREATURE_TYPE_INT */, 42 /* Lightning_Elemental_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20159, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (20159, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (20159, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (20159, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 3);
+VALUES (20159,   1,      32768) /* ItemType - Caster */
+     , (20159,   3,          8) /* PaletteTemplate - Green */
+     , (20159,   5,        150) /* EncumbranceVal */
+     , (20159,   8,         10) /* Mass */
+     , (20159,   9,   16777216) /* ValidLocations - Held */
+     , (20159,  16,          1) /* ItemUseable - No */
+     , (20159,  18,          1) /* UiEffects - Magical */
+     , (20159,  19,       8000) /* Value */
+     , (20159,  33,          1) /* Bonded - Bonded */
+     , (20159,  36,       9999) /* ResistMagic */
+     , (20159,  46,        512) /* DefaultCombatStyle - Magic */
+     , (20159,  93,       1044) /* PhysicsState */
+     , (20159,  94,         16) /* TargetType - Creature */
+     , (20159, 106,        300) /* ItemSpellcraft */
+     , (20159, 107,       1200) /* ItemCurMana */
+     , (20159, 108,       1200) /* ItemMaxMana */
+     , (20159, 115,        250) /* ItemSkillLevelLimit */
+     , (20159, 150,        103) /* HookPlacement - Hook */
+     , (20159, 151,          2) /* HookType - Wall */
+     , (20159, 158,          7) /* WieldRequirements - Level */
+     , (20159, 159,          1) /* WieldSkilltype - Axe */
+     , (20159, 160,         50) /* WieldDifficulty */
+     , (20159, 166,         42) /* SlayerCreatureType - LightningElemental */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20159, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20159, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (20159, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (20159,  22, True ) /* Inscribable */
+     , (20159,  23, True ) /* DestroyOnSell */
+     , (20159,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20159,   5,    -0.1) /* ManaRate */
+     , (20159,  29,       1) /* WeaponDefense */
+     , (20159,  39,       1) /* DefaultScale */
+     , (20159, 138,       3) /* SlayerDamageBonus */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20159,   1, 'Perfect Dissolving Isparian Wand') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20159,   1,   33557783) /* Setup */
+     , (20159,   3,  536870932) /* SoundTable */
+     , (20159,   6,   67111919) /* PaletteBase */
+     , (20159,   7,  268436395) /* ClothingBase */
+     , (20159,   8,  100672995) /* Icon */
+     , (20159,  22,  872415275) /* PhysicsEffectTable */
+     , (20159,  37,         16) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20159, 2691, 2) /* ModerateManaConversionProwess_SpellID */
-     , (20159, 1450, 2) /* WillpowerSelf6_SpellID */
-     , (20159, 1426, 2) /* FocusSelf6_SpellID */
-     , (20159, 632, 2) /* WarMagicMasterySelf4_SpellID */
-     , (20159, 560, 2) /* CreatureEnchantmentMasterySelf4_SpellID */
-     , (20159, 584, 2) /* ItemEnchantmentMasterySelf4_SpellID */
-     , (20159, 520, 2) /* AcidProtectionSelf6_SpellID */
-     , (20159, 610, 2) /* LifeMagicMasterySelf6_SpellID */
-     , (20159, 658, 2) /* ManaMasterySelf6_SpellID */;
-
+VALUES (20159,   520,      2)  /* Acid Protection Self VI */
+     , (20159,   560,      2)  /* Creature Enchantment Mastery Self IV */
+     , (20159,   584,      2)  /* Item Enchantment Mastery Self IV */
+     , (20159,   610,      2)  /* Life Magic Mastery Self VI */
+     , (20159,   632,      2)  /* War Magic Mastery Self IV */
+     , (20159,   658,      2)  /* Mana Conversion Mastery Self VI */
+     , (20159,  1426,      2)  /* Focus Self VI */
+     , (20159,  1450,      2)  /* Willpower Self VI */
+     , (20159,  2691,      2)  /* Moderate Mana Conversion Prowess */;

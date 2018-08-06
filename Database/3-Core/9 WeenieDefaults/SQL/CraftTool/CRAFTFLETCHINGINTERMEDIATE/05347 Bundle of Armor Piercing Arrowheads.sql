@@ -1,35 +1,31 @@
-/* Weenie - Bundle of Armor Piercing Arrowheads (5347) */
-DELETE FROM weenie WHERE class_Id = 5347;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5347, 'arrowheadarmorpiercing', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5347, 001 /* NAME_STRING */, 'Bundle of Armor Piercing Arrowheads')
-     , (5347, 014 /* USE_STRING */, 'This item is used in fletching.')
-     , (5347, 020 /* PLURAL_NAME_STRING */, 'Bundles of Armor Piercing Arrowheads');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5347, 001 /* SETUP_DID */, 33555958)
-     , (5347, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5347, 008 /* ICON_DID */, 100670169)
-     , (5347, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5347', 'arrowheadarmorpiercing', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5347, 001 /* ITEM_TYPE_INT */, 134217728 /* TYPE_CRAFT_FLETCHING_INTERMEDIATE */)
-     , (5347, 005 /* ENCUMB_VAL_INT */, 10)
-     , (5347, 008 /* MASS_INT */, 10)
-     , (5347, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5347, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5347, 012 /* STACK_SIZE_INT */, 1)
-     , (5347, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (5347, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (5347, 015 /* STACK_UNIT_VALUE_INT */, 30)
-     , (5347, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (5347, 019 /* VALUE_INT */, 30)
-     , (5347, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5347, 094 /* TARGET_TYPE_INT */, 134217728 /* TYPE_CRAFT_FLETCHING_INTERMEDIATE */);
+VALUES (5347,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
+     , (5347,   5,         10) /* EncumbranceVal */
+     , (5347,   8,         10) /* Mass */
+     , (5347,   9,          0) /* ValidLocations - None */
+     , (5347,  11,        100) /* MaxStackSize */
+     , (5347,  12,          1) /* StackSize */
+     , (5347,  13,         10) /* StackUnitEncumbrance */
+     , (5347,  14,         10) /* StackUnitMass */
+     , (5347,  15,         30) /* StackUnitValue */
+     , (5347,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (5347,  19,         30) /* Value */
+     , (5347,  93,       1044) /* PhysicsState */
+     , (5347,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5347, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5347,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5347,   1, 'Bundle of Armor Piercing Arrowheads') /* Name */
+     , (5347,  14, 'This item is used in fletching.') /* Use */
+     , (5347,  20, 'Bundles of Armor Piercing Arrowheads') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5347,   1,   33555958) /* Setup */
+     , (5347,   3,  536870932) /* SoundTable */
+     , (5347,   8,  100670169) /* Icon */
+     , (5347,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,35 +1,32 @@
-/* Weenie - The Journal of Nandesu Ka (8081) */
-DELETE FROM weenie WHERE class_Id = 8081;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8081, 'shocontestbook3', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8081, 001 /* NAME_STRING */, 'The Journal of Nandesu Ka');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8081, 001 /* SETUP_DID */, 33554771)
-     , (8081, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8081, 008 /* ICON_DID */, 100670970)
-     , (8081, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8081', 'shocontestbook3', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8081, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8081, 005 /* ENCUMB_VAL_INT */, 160)
-     , (8081, 008 /* MASS_INT */, 200)
-     , (8081, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8081, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8081, 019 /* VALUE_INT */, 90)
-     , (8081, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8081, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8081,   1,       8192) /* ItemType - Writable */
+     , (8081,   5,        160) /* EncumbranceVal */
+     , (8081,   8,        200) /* Mass */
+     , (8081,   9,          0) /* ValidLocations - None */
+     , (8081,  16,          8) /* ItemUseable - Contained */
+     , (8081,  19,         90) /* Value */
+     , (8081,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8081, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8081,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8081,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8081,   1, 'The Journal of Nandesu Ka') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8081,   1,   33554771) /* Setup */
+     , (8081,   3,  536870932) /* SoundTable */
+     , (8081,   8,  100670970) /* Icon */
+     , (8081,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8081, 100, 1000) /* Book Data */;
+VALUES (8081, 100, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8081, 0, 4294967295, 'Nandesu Ka of Leafcull', 'prewritten', False, '
@@ -174,4 +171,3 @@ For a moment I was tempted to walk up to her, to see if she remembered that time
 
 She would not recognize me for I too was changed. That is the nature of this, my new world. It changes people. Those two frightened little girls... hungry, hurt, alone in the dark... they no longer exist.
 ');
-

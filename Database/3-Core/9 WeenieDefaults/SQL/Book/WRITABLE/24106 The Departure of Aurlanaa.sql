@@ -1,36 +1,33 @@
-/* Weenie - The Departure of Aurlanaa (24106) */
-DELETE FROM weenie WHERE class_Id = 24106;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24106, 'bookasheronaurlanaa', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24106, 001 /* NAME_STRING */, 'The Departure of Aurlanaa');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24106, 001 /* SETUP_DID */, 33556929)
-     , (24106, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24106, 008 /* ICON_DID */, 100671237)
-     , (24106, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24106', 'bookasheronaurlanaa', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24106, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (24106, 005 /* ENCUMB_VAL_INT */, 160)
-     , (24106, 008 /* MASS_INT */, 200)
-     , (24106, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24106, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24106, 019 /* VALUE_INT */, 90)
-     , (24106, 037 /* RESIST_ITEM_APPRAISAL_INT */, 50)
-     , (24106, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24106, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (24106,   1,       8192) /* ItemType - Writable */
+     , (24106,   5,        160) /* EncumbranceVal */
+     , (24106,   8,        200) /* Mass */
+     , (24106,   9,          0) /* ValidLocations - None */
+     , (24106,  16,          8) /* ItemUseable - Contained */
+     , (24106,  19,         90) /* Value */
+     , (24106,  37,         50) /* ResistItemAppraisal */
+     , (24106,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24106, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (24106,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24106,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24106,   1, 'The Departure of Aurlanaa') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24106,   1,   33556929) /* Setup */
+     , (24106,   3,  536870932) /* SoundTable */
+     , (24106,   8,  100671237) /* Icon */
+     , (24106,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (24106, 3, 1000) /* Book Data */;
+VALUES (24106, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (24106, 0, 4294967295, 'Lord Asheron', 'prewritten', False, 'Aurlanaa, the last of the Gromnatross has left our world. Still they do not see what they have become.
@@ -51,4 +48,3 @@ I have my hope. Delacim and the Order; and that hope is stronger than the faith 
 
 I will see that the world is once again fit for you Aurlanaa, I will see that the Light has a place.
 ');
-

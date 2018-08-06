@@ -1,37 +1,33 @@
-/* Weenie - Glenden Wood (913) */
-DELETE FROM weenie WHERE class_Id = 913;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (913, 'glendensign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (913, 001 /* NAME_STRING */, 'Glenden Wood')
-     , (913, 016 /* LONG_DESC_STRING */, 'Welcome to the village of Glenden Wood.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (913, 001 /* SETUP_DID */, 33556206)
-     , (913, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('913', 'glendensign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (913, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (913, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (913, 008 /* MASS_INT */, 1800)
-     , (913, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (913, 019 /* VALUE_INT */, 125)
-     , (913, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (913, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (913, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (913, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (913, 043 /* GENERATOR_RADIUS_FLOAT */, 1);
+VALUES (913,   1,        128) /* ItemType - Misc */
+     , (913,   5,       9000) /* EncumbranceVal */
+     , (913,   8,       1800) /* Mass */
+     , (913,  16,          1) /* ItemUseable - No */
+     , (913,  19,        125) /* Value */
+     , (913,  81,          1) /* MaxGeneratedObjects */
+     , (913,  82,          1) /* InitGeneratedObjects */
+     , (913,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (913, 001 /* STUCK_BOOL */, True)
-     , (913, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (913, 013 /* ETHEREAL_BOOL */, False)
-     , (913, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (913,   1, True ) /* Stuck */
+     , (913,  12, True ) /* ReportCollisions */
+     , (913,  13, False) /* Ethereal */
+     , (913,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (913,  41,      60) /* RegenerationInterval */
+     , (913,  43,       1) /* GeneratorRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (913,   1, 'Glenden Wood') /* Name */
+     , (913,  16, 'Welcome to the village of Glenden Wood.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (913,   1,   33556206) /* Setup */
+     , (913,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (913, 1, 5773, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Town Crier (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
-
+VALUES (913, 1, 5773, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

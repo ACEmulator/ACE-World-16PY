@@ -1,29 +1,25 @@
-/* Weenie - Zairente's Frying Pan (9041) */
-DELETE FROM weenie WHERE class_Id = 9041;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9041, 'fryingpandecorative', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9041, 001 /* NAME_STRING */, 'Zairente''s Frying Pan');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9041, 001 /* SETUP_DID */, 33555976)
-     , (9041, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9041, 008 /* ICON_DID */, 100669995)
-     , (9041, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9041', 'fryingpandecorative', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9041, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9041, 005 /* ENCUMB_VAL_INT */, 400)
-     , (9041, 008 /* MASS_INT */, 200)
-     , (9041, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9041, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9041, 019 /* VALUE_INT */, 5)
-     , (9041, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (9041,   1,        128) /* ItemType - Misc */
+     , (9041,   5,        400) /* EncumbranceVal */
+     , (9041,   8,        200) /* Mass */
+     , (9041,   9,          0) /* ValidLocations - None */
+     , (9041,  16,          1) /* ItemUseable - No */
+     , (9041,  19,          5) /* Value */
+     , (9041,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9041, 001 /* STUCK_BOOL */, True)
-     , (9041, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (9041, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (9041,   1, True ) /* Stuck */
+     , (9041,  14, True ) /* GravityStatus */
+     , (9041,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9041,   1, 'Zairente''s Frying Pan') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9041,   1,   33555976) /* Setup */
+     , (9041,   3,  536870932) /* SoundTable */
+     , (9041,   8,  100669995) /* Icon */
+     , (9041,  22,  872415275) /* PhysicsEffectTable */;

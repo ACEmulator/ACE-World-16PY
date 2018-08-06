@@ -1,48 +1,44 @@
-/* Weenie - Ice Heaume of Frore (4981) */
-DELETE FROM weenie WHERE class_Id = 4981;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4981, 'heaumeicefrore', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4981, 001 /* NAME_STRING */, 'Ice Heaume of Frore');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4981, 001 /* SETUP_DID */, 33555248)
-     , (4981, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4981, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (4981, 007 /* CLOTHINGBASE_DID */, 268435629)
-     , (4981, 008 /* ICON_DID */, 100667349)
-     , (4981, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4981', 'heaumeicefrore', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4981, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (4981, 003 /* PALETTE_TEMPLATE_INT */, 22 /* AQUA_PALETTE_TEMPLATE */)
-     , (4981, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (4981, 005 /* ENCUMB_VAL_INT */, 1100)
-     , (4981, 008 /* MASS_INT */, 340)
-     , (4981, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (4981, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4981, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (4981, 019 /* VALUE_INT */, 2100)
-     , (4981, 027 /* ARMOR_TYPE_INT */, 32)
-     , (4981, 028 /* ARMOR_LEVEL_INT */, 160)
-     , (4981, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (4981, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (4981, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4981, 012 /* SHADE_FLOAT */, 0.8)
-     , (4981, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (4981, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (4981, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.1)
-     , (4981, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 2)
-     , (4981, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 2)
-     , (4981, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.7)
-     , (4981, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
-     , (4981, 110 /* BULK_MOD_FLOAT */, 1)
-     , (4981, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (4981,   1,          2) /* ItemType - Armor */
+     , (4981,   3,         22) /* PaletteTemplate - Aqua */
+     , (4981,   4,      16384) /* ClothingPriority - Head */
+     , (4981,   5,       1100) /* EncumbranceVal */
+     , (4981,   8,        340) /* Mass */
+     , (4981,   9,          1) /* ValidLocations - HeadWear */
+     , (4981,  16,          1) /* ItemUseable - No */
+     , (4981,  18,        128) /* UiEffects - Frost */
+     , (4981,  19,       2100) /* Value */
+     , (4981,  27,         32) /* ArmorType */
+     , (4981,  28,        160) /* ArmorLevel */
+     , (4981,  93,       1044) /* PhysicsState */
+     , (4981, 150,        103) /* HookPlacement - Hook */
+     , (4981, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4981, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (4981,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4981,  12,     0.8) /* Shade */
+     , (4981,  13,     1.3) /* ArmorModVsSlash */
+     , (4981,  14,       1) /* ArmorModVsPierce */
+     , (4981,  15,     1.1) /* ArmorModVsBludgeon */
+     , (4981,  16,       2) /* ArmorModVsCold */
+     , (4981,  17,       2) /* ArmorModVsFire */
+     , (4981,  18,     0.7) /* ArmorModVsAcid */
+     , (4981,  19,       0) /* ArmorModVsElectric */
+     , (4981, 110,       1) /* BulkMod */
+     , (4981, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4981,   1, 'Ice Heaume of Frore') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4981,   1,   33555248) /* Setup */
+     , (4981,   3,  536870932) /* SoundTable */
+     , (4981,   6,   67108990) /* PaletteBase */
+     , (4981,   7,  268435629) /* ClothingBase */
+     , (4981,   8,  100667349) /* Icon */
+     , (4981,  22,  872415275) /* PhysicsEffectTable */;

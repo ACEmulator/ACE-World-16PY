@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Shock Wave Streak VI (8952) */
-DELETE FROM weenie WHERE class_Id = 8952;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8952, 'scrollshockwavestreak6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8952, 001 /* NAME_STRING */, 'Scroll of Shock Wave Streak VI')
-     , (8952, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (8952, 016 /* LONG_DESC_STRING */, 'When learned, this spell sends a shock wave streaking towards the target. The wave does 32-60 points of bludgeoning damage to the first thing it hits.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8952, 001 /* SETUP_DID */, 33554826)
-     , (8952, 008 /* ICON_DID */, 100677008)
-     , (8952, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8952, 028 /* SPELL_DID */, 1825 /* ShockwaveStreak6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8952', 'scrollshockwavestreak6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8952, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8952, 005 /* ENCUMB_VAL_INT */, 30)
-     , (8952, 008 /* MASS_INT */, 90)
-     , (8952, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8952, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8952, 019 /* VALUE_INT */, 1000)
-     , (8952, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8952, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (8952,   1,       8192) /* ItemType - Writable */
+     , (8952,   5,         30) /* EncumbranceVal */
+     , (8952,   8,         90) /* Mass */
+     , (8952,   9,          0) /* ValidLocations - None */
+     , (8952,  16,          8) /* ItemUseable - Contained */
+     , (8952,  19,       1000) /* Value */
+     , (8952,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8952, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8952, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8952,  22, True ) /* Inscribable */
+     , (8952,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8952,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8952,   1, 'Scroll of Shock Wave Streak VI') /* Name */
+     , (8952,  15, 'A magic scroll.') /* ShortDesc */
+     , (8952,  16, 'When learned, this spell sends a shock wave streaking towards the target. The wave does 32-60 points of bludgeoning damage to the first thing it hits.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8952,   1,   33554826) /* Setup */
+     , (8952,   8,  100677008) /* Icon */
+     , (8952,  22,  872415275) /* PhysicsEffectTable */
+     , (8952,  28,       1825) /* Spell - Shock Wave Streak VI */;

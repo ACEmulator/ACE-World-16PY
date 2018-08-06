@@ -1,31 +1,27 @@
-/* Weenie - Philanthropist Title Token (28828) */
-DELETE FROM weenie WHERE class_Id = 28828;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28828, 'medallionsilyungrandmother', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28828, 001 /* NAME_STRING */, 'Philanthropist Title Token')
-     , (28828, 015 /* SHORT_DESC_STRING */, 'Give this token to a member of the Guild of Bestowers, and they will grant you the title of "Philanthropist".');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28828, 001 /* SETUP_DID */, 33554802)
-     , (28828, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28828, 008 /* ICON_DID */, 100676406)
-     , (28828, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28828', 'medallionsilyungrandmother', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28828, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28828, 005 /* ENCUMB_VAL_INT */, 25)
-     , (28828, 008 /* MASS_INT */, 10)
-     , (28828, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28828, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28828, 019 /* VALUE_INT */, 0)
-     , (28828, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28828, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28828, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (28828,   1,        128) /* ItemType - Misc */
+     , (28828,   5,         25) /* EncumbranceVal */
+     , (28828,   8,         10) /* Mass */
+     , (28828,   9,          0) /* ValidLocations - None */
+     , (28828,  16,          1) /* ItemUseable - No */
+     , (28828,  19,          0) /* Value */
+     , (28828,  33,          1) /* Bonded - Bonded */
+     , (28828,  93,       1044) /* PhysicsState */
+     , (28828, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28828, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28828, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (28828,  22, True ) /* Inscribable */
+     , (28828,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28828,   1, 'Philanthropist Title Token') /* Name */
+     , (28828,  15, 'Give this token to a member of the Guild of Bestowers, and they will grant you the title of "Philanthropist".') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28828,   1,   33554802) /* Setup */
+     , (28828,   3,  536870932) /* SoundTable */
+     , (28828,   8,  100676406) /* Icon */
+     , (28828,  22,  872415275) /* PhysicsEffectTable */;

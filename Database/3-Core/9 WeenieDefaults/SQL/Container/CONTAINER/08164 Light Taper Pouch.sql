@@ -1,53 +1,49 @@
-/* Weenie - Light Taper Pouch (8164) */
-DELETE FROM weenie WHERE class_Id = 8164;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8164, 'sacktapers25', 21 /* Container_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8164, 001 /* NAME_STRING */, 'Light Taper Pouch')
-     , (8164, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8164, 001 /* SETUP_DID */, 33554817)
-     , (8164, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8164, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8164, 007 /* CLOTHINGBASE_DID */, 268435833)
-     , (8164, 008 /* ICON_DID */, 100667436)
-     , (8164, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8164', 'sacktapers25', 21) /* Container */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8164, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (8164, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (8164, 005 /* ENCUMB_VAL_INT */, 15)
-     , (8164, 006 /* ITEMS_CAPACITY_INT */, 24)
-     , (8164, 007 /* CONTAINERS_CAPACITY_INT */, 0)
-     , (8164, 008 /* MASS_INT */, 140)
-     , (8164, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8164, 016 /* ITEM_USEABLE_INT */, 56 /* USEABLE_CONTAINED_VIEWED_REMOTE */)
-     , (8164, 019 /* VALUE_INT */, 5)
-     , (8164, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8164, 096 /* ENCUMB_CAPACITY_INT */, 180);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8164, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (8164, 054 /* USE_RADIUS_FLOAT */, 0.5);
+VALUES (8164,   1,        512) /* ItemType - Container */
+     , (8164,   3,         21) /* PaletteTemplate - Gold */
+     , (8164,   5,         15) /* EncumbranceVal */
+     , (8164,   6,         24) /* ItemsCapacity */
+     , (8164,   7,          0) /* ContainersCapacity */
+     , (8164,   8,        140) /* Mass */
+     , (8164,   9,          0) /* ValidLocations - None */
+     , (8164,  16,         56) /* ItemUseable - ContainedViewedRemote */
+     , (8164,  19,          5) /* Value */
+     , (8164,  93,       1044) /* PhysicsState */
+     , (8164,  96,        180) /* EncumbranceCapacity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8164, 002 /* OPEN_BOOL */, False)
-     , (8164, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (8164,   2, False) /* Open */
+     , (8164,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8164,  39,       1) /* DefaultScale */
+     , (8164,  54,     0.5) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8164,   1, 'Light Taper Pouch') /* Name */
+     , (8164,  14, 'Use this item to open it and see its contents.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8164,   1,   33554817) /* Setup */
+     , (8164,   3,  536870932) /* SoundTable */
+     , (8164,   6,   67111919) /* PaletteBase */
+     , (8164,   7,  268435833) /* ClothingBase */
+     , (8164,   8,  100667436) /* Icon */
+     , (8164,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8164, 1, 1650, 25, 0, 0, False) /* Create Red Taper for Contain_DestinationType */
-     , (8164, 1, 1649, 25, 0, 0, False) /* Create Pink Taper for Contain_DestinationType */
-     , (8164, 1, 1648, 25, 0, 0, False) /* Create Orange Taper for Contain_DestinationType */
-     , (8164, 1, 1653, 25, 0, 0, False) /* Create Yellow Taper for Contain_DestinationType */
-     , (8164, 1, 1645, 25, 0, 0, False) /* Create Green Taper for Contain_DestinationType */
-     , (8164, 1, 1654, 25, 0, 0, False) /* Create Turquoise Taper for Contain_DestinationType */
-     , (8164, 1, 1643, 25, 0, 0, False) /* Create Blue Taper for Contain_DestinationType */
-     , (8164, 1, 1647, 25, 0, 0, False) /* Create Indigo Taper for Contain_DestinationType */
-     , (8164, 1, 1651, 25, 0, 0, False) /* Create Violet Taper for Contain_DestinationType */
-     , (8164, 1, 1644, 25, 0, 0, False) /* Create Brown Taper for Contain_DestinationType */
-     , (8164, 1, 1652, 25, 0, 0, False) /* Create White Taper for Contain_DestinationType */
-     , (8164, 1, 1646, 25, 0, 0, False) /* Create Grey Taper for Contain_DestinationType */;
-
+VALUES (8164, 1,  1643, 25, 0, 0, False) /* Create Blue Taper for Contain */
+     , (8164, 1,  1644, 25, 0, 0, False) /* Create Brown Taper for Contain */
+     , (8164, 1,  1645, 25, 0, 0, False) /* Create Green Taper for Contain */
+     , (8164, 1,  1646, 25, 0, 0, False) /* Create Grey Taper for Contain */
+     , (8164, 1,  1647, 25, 0, 0, False) /* Create Indigo Taper for Contain */
+     , (8164, 1,  1648, 25, 0, 0, False) /* Create Orange Taper for Contain */
+     , (8164, 1,  1649, 25, 0, 0, False) /* Create Pink Taper for Contain */
+     , (8164, 1,  1650, 25, 0, 0, False) /* Create Red Taper for Contain */
+     , (8164, 1,  1651, 25, 0, 0, False) /* Create Violet Taper for Contain */
+     , (8164, 1,  1652, 25, 0, 0, False) /* Create White Taper for Contain */
+     , (8164, 1,  1653, 25, 0, 0, False) /* Create Yellow Taper for Contain */
+     , (8164, 1,  1654, 25, 0, 0, False) /* Create Turquoise Taper for Contain */;

@@ -1,28 +1,24 @@
-/* Weenie - Fine Gem (1442) */
-DELETE FROM weenie WHERE class_Id = 1442;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1442, 'gemfine', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1442, 001 /* NAME_STRING */, 'Fine Gem');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1442, 001 /* SETUP_DID */, 33554809)
-     , (1442, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (1442, 008 /* ICON_DID */, 100667482)
-     , (1442, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1442, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1442', 'gemfine', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1442, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (1442, 005 /* ENCUMB_VAL_INT */, 5)
-     , (1442, 008 /* MASS_INT */, 25)
-     , (1442, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (1442, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1442, 019 /* VALUE_INT */, 300)
-     , (1442, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (1442,   1,       2048) /* ItemType - Gem */
+     , (1442,   5,          5) /* EncumbranceVal */
+     , (1442,   8,         25) /* Mass */
+     , (1442,   9,          0) /* ValidLocations - None */
+     , (1442,  16,          1) /* ItemUseable - No */
+     , (1442,  19,        300) /* Value */
+     , (1442,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1442, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (1442,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1442,   1, 'Fine Gem') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1442,   1,   33554809) /* Setup */
+     , (1442,   3,  536870932) /* SoundTable */
+     , (1442,   8,  100667482) /* Icon */
+     , (1442,  22,  872415275) /* PhysicsEffectTable */
+     , (1442,  36,  234881046) /* MutateFilter */;

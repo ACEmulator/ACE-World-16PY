@@ -1,34 +1,30 @@
-/* Weenie - Weathered Key (1541) */
-DELETE FROM weenie WHERE class_Id = 1541;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1541, 'keysysfear', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1541, 001 /* NAME_STRING */, 'Weathered Key')
-     , (1541, 013 /* KEY_CODE_STRING */, 'sylsfearkey')
-     , (1541, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (1541, 015 /* SHORT_DESC_STRING */, 'A weathered-looking key.')
-     , (1541, 016 /* LONG_DESC_STRING */, 'This weathered-looking key unlocks a door in the Sylsfear Dungeon.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1541, 001 /* SETUP_DID */, 33554784)
-     , (1541, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (1541, 008 /* ICON_DID */, 100668441)
-     , (1541, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1541', 'keysysfear', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1541, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (1541, 005 /* ENCUMB_VAL_INT */, 50)
-     , (1541, 008 /* MASS_INT */, 20)
-     , (1541, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (1541, 019 /* VALUE_INT */, 50)
-     , (1541, 091 /* MAX_STRUCTURE_INT */, 3)
-     , (1541, 092 /* STRUCTURE_INT */, 3)
-     , (1541, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (1541, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (1541,   1,      16384) /* ItemType - Key */
+     , (1541,   5,         50) /* EncumbranceVal */
+     , (1541,   8,         20) /* Mass */
+     , (1541,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (1541,  19,         50) /* Value */
+     , (1541,  91,          3) /* MaxStructure */
+     , (1541,  92,          3) /* Structure */
+     , (1541,  93,       1044) /* PhysicsState */
+     , (1541,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1541, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1541, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1541,  22, True ) /* Inscribable */
+     , (1541,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1541,   1, 'Weathered Key') /* Name */
+     , (1541,  13, 'sylsfearkey') /* KeyCode */
+     , (1541,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (1541,  15, 'A weathered-looking key.') /* ShortDesc */
+     , (1541,  16, 'This weathered-looking key unlocks a door in the Sylsfear Dungeon.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1541,   1,   33554784) /* Setup */
+     , (1541,   3,  536870932) /* SoundTable */
+     , (1541,   8,  100668441) /* Icon */
+     , (1541,  22,  872415275) /* PhysicsEffectTable */;

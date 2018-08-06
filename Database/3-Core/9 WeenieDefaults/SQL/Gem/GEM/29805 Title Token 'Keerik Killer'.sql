@@ -1,38 +1,34 @@
-/* Weenie - Title Token 'Keerik Killer' (29805) */
-DELETE FROM weenie WHERE class_Id = 29805;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29805, 'tokenkeerikkiller', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29805, 001 /* NAME_STRING */, 'Title Token ''Keerik Killer''')
-     , (29805, 015 /* SHORT_DESC_STRING */, 'You may turn this token in to Guard Sorchia in Cragstone to change your title to ''Keerik Killer''.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29805, 001 /* SETUP_DID */, 33557280)
-     , (29805, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29805, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (29805, 007 /* CLOTHINGBASE_DID */, 268436298)
-     , (29805, 008 /* ICON_DID */, 100677159)
-     , (29805, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29805, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29805', 'tokenkeerikkiller', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29805, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (29805, 005 /* ENCUMB_VAL_INT */, 10)
-     , (29805, 008 /* MASS_INT */, 10)
-     , (29805, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29805, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (29805, 012 /* STACK_SIZE_INT */, 1)
-     , (29805, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (29805, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (29805, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (29805, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29805, 019 /* VALUE_INT */, 0)
-     , (29805, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (29805, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29805, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (29805,   1,       2048) /* ItemType - Gem */
+     , (29805,   5,         10) /* EncumbranceVal */
+     , (29805,   8,         10) /* Mass */
+     , (29805,   9,          0) /* ValidLocations - None */
+     , (29805,  11,          1) /* MaxStackSize */
+     , (29805,  12,          1) /* StackSize */
+     , (29805,  13,         10) /* StackUnitEncumbrance */
+     , (29805,  14,         10) /* StackUnitMass */
+     , (29805,  15,          0) /* StackUnitValue */
+     , (29805,  16,          1) /* ItemUseable - No */
+     , (29805,  19,          0) /* Value */
+     , (29805,  33,          1) /* Bonded - Bonded */
+     , (29805,  93,       1044) /* PhysicsState */
+     , (29805, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29805, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29805,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29805,   1, 'Title Token ''Keerik Killer''') /* Name */
+     , (29805,  15, 'You may turn this token in to Guard Sorchia in Cragstone to change your title to ''Keerik Killer''.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29805,   1,   33557280) /* Setup */
+     , (29805,   3,  536870932) /* SoundTable */
+     , (29805,   6,   67111092) /* PaletteBase */
+     , (29805,   7,  268436298) /* ClothingBase */
+     , (29805,   8,  100677159) /* Icon */
+     , (29805,  22,  872415275) /* PhysicsEffectTable */
+     , (29805,  36,  234881046) /* MutateFilter */;

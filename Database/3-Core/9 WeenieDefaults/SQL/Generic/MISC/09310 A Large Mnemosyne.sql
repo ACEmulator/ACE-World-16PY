@@ -1,35 +1,31 @@
-/* Weenie - A Large Mnemosyne (9310) */
-DELETE FROM weenie WHERE class_Id = 9310;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9310, 'pyramidgreenlarge', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9310, 001 /* NAME_STRING */, 'A Large Mnemosyne')
-     , (9310, 015 /* SHORT_DESC_STRING */, 'A large green pyramid.')
-     , (9310, 016 /* LONG_DESC_STRING */, 'A Mnemosyne, invented by Tennar Portheran, used by the Dericost to preserve their heritage after the chaos wrought by the Fourth Sending.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9310, 001 /* SETUP_DID */, 33556998)
-     , (9310, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9310, 008 /* ICON_DID */, 100671422)
-     , (9310, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9310', 'pyramidgreenlarge', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9310, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9310, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9310, 008 /* MASS_INT */, 10)
-     , (9310, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9310, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9310, 019 /* VALUE_INT */, 0)
-     , (9310, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9310, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9310, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9310, 039 /* DEFAULT_SCALE_FLOAT */, 1.3);
+VALUES (9310,   1,        128) /* ItemType - Misc */
+     , (9310,   5,         10) /* EncumbranceVal */
+     , (9310,   8,         10) /* Mass */
+     , (9310,   9,          0) /* ValidLocations - None */
+     , (9310,  16,          1) /* ItemUseable - No */
+     , (9310,  19,          0) /* Value */
+     , (9310,  33,          1) /* Bonded - Bonded */
+     , (9310,  93,       1044) /* PhysicsState */
+     , (9310, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9310, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9310, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9310,  22, True ) /* Inscribable */
+     , (9310,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9310,  39,     1.3) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9310,   1, 'A Large Mnemosyne') /* Name */
+     , (9310,  15, 'A large green pyramid.') /* ShortDesc */
+     , (9310,  16, 'A Mnemosyne, invented by Tennar Portheran, used by the Dericost to preserve their heritage after the chaos wrought by the Fourth Sending.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9310,   1,   33556998) /* Setup */
+     , (9310,   3,  536870932) /* SoundTable */
+     , (9310,   8,  100671422) /* Icon */
+     , (9310,  22,  872415275) /* PhysicsEffectTable */;

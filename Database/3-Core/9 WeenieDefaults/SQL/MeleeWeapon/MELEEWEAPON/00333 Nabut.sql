@@ -1,49 +1,45 @@
-/* Weenie - Nabut (333) */
-DELETE FROM weenie WHERE class_Id = 333;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (333, 'nabut', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (333, 001 /* NAME_STRING */, 'Nabut');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (333, 001 /* SETUP_DID */, 33554749)
-     , (333, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (333, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (333, 007 /* CLOTHINGBASE_DID */, 268435795)
-     , (333, 008 /* ICON_DID */, 100669105)
-     , (333, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (333, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (333, 046 /* TSYS_MUTATION_FILTER_DID */, 939524110);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('333', 'nabut', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (333, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (333, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (333, 005 /* ENCUMB_VAL_INT */, 550)
-     , (333, 008 /* MASS_INT */, 110)
-     , (333, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (333, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (333, 019 /* VALUE_INT */, 180)
-     , (333, 044 /* DAMAGE_INT */, 7)
-     , (333, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (333, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (333, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (333, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (333, 049 /* WEAPON_TIME_INT */, 45)
-     , (333, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (333, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (333, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (333, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (333, 169 /* TSYS_MUTATION_DATA_INT */, 101189388);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (333, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (333, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (333, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (333, 039 /* DEFAULT_SCALE_FLOAT */, 0.67)
-     , (333, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (333,   1,          1) /* ItemType - MeleeWeapon */
+     , (333,   3,          4) /* PaletteTemplate - Brown */
+     , (333,   5,        550) /* EncumbranceVal */
+     , (333,   8,        110) /* Mass */
+     , (333,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (333,  16,          1) /* ItemUseable - No */
+     , (333,  19,        180) /* Value */
+     , (333,  44,          7) /* Damage */
+     , (333,  45,          4) /* DamageType - Bludgeon */
+     , (333,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (333,  47,          6) /* AttackType */
+     , (333,  48,         10) /* WeaponSkill - Staff */
+     , (333,  49,         45) /* WeaponTime */
+     , (333,  51,          1) /* CombatUse - Melee */
+     , (333,  93,       1044) /* PhysicsState */
+     , (333, 150,        103) /* HookPlacement - Hook */
+     , (333, 151,          2) /* HookType - Wall */
+     , (333, 169,  101189388) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (333, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (333,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (333,  21,    1.33) /* WeaponLength */
+     , (333,  22,     0.5) /* DamageVariance */
+     , (333,  29,       1) /* WeaponDefense */
+     , (333,  39,    0.67) /* DefaultScale */
+     , (333,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (333,   1, 'Nabut') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (333,   1,   33554749) /* Setup */
+     , (333,   3,  536870932) /* SoundTable */
+     , (333,   6,   67111919) /* PaletteBase */
+     , (333,   7,  268435795) /* ClothingBase */
+     , (333,   8,  100669105) /* Icon */
+     , (333,  22,  872415275) /* PhysicsEffectTable */
+     , (333,  36,  234881053) /* MutateFilter */
+     , (333,  46,  939524110) /* TsysMutationFilter */;

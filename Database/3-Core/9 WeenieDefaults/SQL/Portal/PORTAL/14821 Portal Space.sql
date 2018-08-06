@@ -1,35 +1,31 @@
-/* Weenie - Portal Space (14821) */
-DELETE FROM weenie WHERE class_Id = 14821;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14821, 'portalportalspacetanuac', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14821, 001 /* NAME_STRING */, 'Portal Space');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14821, 001 /* SETUP_DID */, 33555922)
-     , (14821, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (14821, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14821', 'portalportalspacetanuac', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14821, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (14821, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (14821, 093 /* PHYSICS_STATE_INT */, 2060 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, LIGHTING_ON_PS */)
-     , (14821, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (14821, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14821, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (14821,   1,      65536) /* ItemType - Portal */
+     , (14821,  16,         32) /* ItemUseable - Remote */
+     , (14821,  93,       2060) /* PhysicsState */
+     , (14821, 111,         49) /* PortalBitmask */
+     , (14821, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14821, 001 /* STUCK_BOOL */, True)
-     , (14821, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14821, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14821, 013 /* ETHEREAL_BOOL */, True)
-     , (14821, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (14821, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (14821,   1, True ) /* Stuck */
+     , (14821,  11, False) /* IgnoreCollisions */
+     , (14821,  12, True ) /* ReportCollisions */
+     , (14821,  13, True ) /* Ethereal */
+     , (14821,  14, False) /* GravityStatus */
+     , (14821,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14821,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14821,   1, 'Portal Space') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14821,   1,   33555922) /* Setup */
+     , (14821,   2,  150994947) /* MotionTable */
+     , (14821,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14821, 2, 1382744641, 40, -200, -36, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (14821, 2, 1382744641, 40, -200, -36, 1, 0, 0, 0) /* Destination */;

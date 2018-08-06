@@ -1,28 +1,24 @@
-/* Weenie - SylvanDwellings (16902) */
-DELETE FROM weenie WHERE class_Id = 16902;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (16902, 'sylvandwellingssign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (16902, 001 /* NAME_STRING */, 'SylvanDwellings')
-     , (16902, 016 /* LONG_DESC_STRING */, 'SylvanDwellings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16902, 001 /* SETUP_DID */, 33557659)
-     , (16902, 008 /* ICON_DID */, 100672342);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('16902', 'sylvandwellingssign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (16902, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (16902, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (16902, 008 /* MASS_INT */, 1800)
-     , (16902, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (16902, 019 /* VALUE_INT */, 125)
-     , (16902, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (16902,   1,        128) /* ItemType - Misc */
+     , (16902,   5,       9000) /* EncumbranceVal */
+     , (16902,   8,       1800) /* Mass */
+     , (16902,  16,          1) /* ItemUseable - No */
+     , (16902,  19,        125) /* Value */
+     , (16902,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16902, 001 /* STUCK_BOOL */, True)
-     , (16902, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (16902, 013 /* ETHEREAL_BOOL */, False)
-     , (16902, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (16902,   1, True ) /* Stuck */
+     , (16902,  12, True ) /* ReportCollisions */
+     , (16902,  13, False) /* Ethereal */
+     , (16902,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (16902,   1, 'SylvanDwellings') /* Name */
+     , (16902,  16, 'SylvanDwellings') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (16902,   1,   33557659) /* Setup */
+     , (16902,   8,  100672342) /* Icon */;

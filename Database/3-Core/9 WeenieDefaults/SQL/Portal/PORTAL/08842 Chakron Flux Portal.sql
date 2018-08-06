@@ -1,34 +1,30 @@
-/* Weenie - Chakron Flux Portal (8842) */
-DELETE FROM weenie WHERE class_Id = 8842;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8842, 'portalchakronflux', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8842, 001 /* NAME_STRING */, 'Chakron Flux Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8842, 001 /* SETUP_DID */, 33554867)
-     , (8842, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (8842, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8842', 'portalchakronflux', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8842, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (8842, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (8842, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8842, 111 /* PORTAL_BITMASK_INT */, 17 /* Player_NotSummonable_PortalEnum */)
-     , (8842, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8842, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (8842,   1,      65536) /* ItemType - Portal */
+     , (8842,  16,         32) /* ItemUseable - Remote */
+     , (8842,  93,       3084) /* PhysicsState */
+     , (8842, 111,         17) /* PortalBitmask */
+     , (8842, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8842, 001 /* STUCK_BOOL */, True)
-     , (8842, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (8842, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (8842, 013 /* ETHEREAL_BOOL */, True)
-     , (8842, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (8842,   1, True ) /* Stuck */
+     , (8842,  11, False) /* IgnoreCollisions */
+     , (8842,  12, True ) /* ReportCollisions */
+     , (8842,  13, True ) /* Ethereal */
+     , (8842,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8842,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8842,   1, 'Chakron Flux Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8842,   1,   33554867) /* Setup */
+     , (8842,   2,  150994947) /* MotionTable */
+     , (8842,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8842, 2, 45024078, 180, 0, 0, -0.7071068, 0, 0, -0.7071068) /* DESTINATION_POSITION */;
-
+VALUES (8842, 2, 45024078, 180, 0, 0, -0.7071068, 0, 0, -0.7071068) /* Destination */;

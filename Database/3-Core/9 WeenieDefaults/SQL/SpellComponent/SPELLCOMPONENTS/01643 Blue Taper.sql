@@ -1,32 +1,28 @@
-/* Weenie - Blue Taper (1643) */
-DELETE FROM weenie WHERE class_Id = 1643;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1643, 'taperblue', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1643, 001 /* NAME_STRING */, 'Blue Taper');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1643, 001 /* SETUP_DID */, 33555445)
-     , (1643, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (1643, 006 /* PALETTE_BASE_DID */, 67111410)
-     , (1643, 007 /* CLOTHINGBASE_DID */, 268435633)
-     , (1643, 008 /* ICON_DID */, 100668318)
-     , (1643, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1643, 029 /* SPELL_COMPONENT_DID */, 69);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1643', 'taperblue', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1643, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (1643, 005 /* ENCUMB_VAL_INT */, 4)
-     , (1643, 008 /* MASS_INT */, 100)
-     , (1643, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (1643, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (1643, 012 /* STACK_SIZE_INT */, 1)
-     , (1643, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
-     , (1643, 014 /* STACK_UNIT_MASS_INT */, 100)
-     , (1643, 015 /* STACK_UNIT_VALUE_INT */, 25)
-     , (1643, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1643, 019 /* VALUE_INT */, 25)
-     , (1643, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (1643,   1,       4096) /* ItemType - SpellComponents */
+     , (1643,   5,          4) /* EncumbranceVal */
+     , (1643,   8,        100) /* Mass */
+     , (1643,   9,          0) /* ValidLocations - None */
+     , (1643,  11,        100) /* MaxStackSize */
+     , (1643,  12,          1) /* StackSize */
+     , (1643,  13,          4) /* StackUnitEncumbrance */
+     , (1643,  14,        100) /* StackUnitMass */
+     , (1643,  15,         25) /* StackUnitValue */
+     , (1643,  16,          1) /* ItemUseable - No */
+     , (1643,  19,         25) /* Value */
+     , (1643,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1643,   1, 'Blue Taper') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1643,   1,   33555445) /* Setup */
+     , (1643,   3,  536870932) /* SoundTable */
+     , (1643,   6,   67111410) /* PaletteBase */
+     , (1643,   7,  268435633) /* ClothingBase */
+     , (1643,   8,  100668318) /* Icon */
+     , (1643,  22,  872415275) /* PhysicsEffectTable */
+     , (1643,  29,         69) /* SpellComponent */;

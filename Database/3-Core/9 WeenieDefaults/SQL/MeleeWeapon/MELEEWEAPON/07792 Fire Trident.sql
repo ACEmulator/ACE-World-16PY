@@ -1,50 +1,46 @@
-/* Weenie - Fire Trident (7792) */
-DELETE FROM weenie WHERE class_Id = 7792;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7792, 'tridentfire', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7792, 001 /* NAME_STRING */, 'Fire Trident');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7792, 001 /* SETUP_DID */, 33556661)
-     , (7792, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7792, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7792, 007 /* CLOTHINGBASE_DID */, 268436013)
-     , (7792, 008 /* ICON_DID */, 100670762)
-     , (7792, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (7792, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (7792, 046 /* TSYS_MUTATION_FILTER_DID */, 939524103);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7792', 'tridentfire', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7792, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (7792, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (7792, 005 /* ENCUMB_VAL_INT */, 850)
-     , (7792, 008 /* MASS_INT */, 150)
-     , (7792, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (7792, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7792, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (7792, 019 /* VALUE_INT */, 500)
-     , (7792, 044 /* DAMAGE_INT */, 10)
-     , (7792, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (7792, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (7792, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (7792, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (7792, 049 /* WEAPON_TIME_INT */, 55)
-     , (7792, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (7792, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7792, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (7792, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (7792, 169 /* TSYS_MUTATION_DATA_INT */, 101188618);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7792, 021 /* WEAPON_LENGTH_FLOAT */, 1.3)
-     , (7792, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (7792, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (7792, 039 /* DEFAULT_SCALE_FLOAT */, 1.2)
-     , (7792, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (7792,   1,          1) /* ItemType - MeleeWeapon */
+     , (7792,   3,         20) /* PaletteTemplate - Silver */
+     , (7792,   5,        850) /* EncumbranceVal */
+     , (7792,   8,        150) /* Mass */
+     , (7792,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (7792,  16,          1) /* ItemUseable - No */
+     , (7792,  18,         32) /* UiEffects - Fire */
+     , (7792,  19,        500) /* Value */
+     , (7792,  44,         10) /* Damage */
+     , (7792,  45,         16) /* DamageType - Fire */
+     , (7792,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (7792,  47,          2) /* AttackType - Thrust */
+     , (7792,  48,          9) /* WeaponSkill - Spear */
+     , (7792,  49,         55) /* WeaponTime */
+     , (7792,  51,          1) /* CombatUse - Melee */
+     , (7792,  93,       1044) /* PhysicsState */
+     , (7792, 150,        103) /* HookPlacement - Hook */
+     , (7792, 151,          2) /* HookType - Wall */
+     , (7792, 169,  101188618) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7792, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (7792,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7792,  21,     1.3) /* WeaponLength */
+     , (7792,  22,     0.6) /* DamageVariance */
+     , (7792,  29,       1) /* WeaponDefense */
+     , (7792,  39,     1.2) /* DefaultScale */
+     , (7792,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7792,   1, 'Fire Trident') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7792,   1,   33556661) /* Setup */
+     , (7792,   3,  536870932) /* SoundTable */
+     , (7792,   6,   67111919) /* PaletteBase */
+     , (7792,   7,  268436013) /* ClothingBase */
+     , (7792,   8,  100670762) /* Icon */
+     , (7792,  22,  872415275) /* PhysicsEffectTable */
+     , (7792,  36,  234881053) /* MutateFilter */
+     , (7792,  46,  939524103) /* TsysMutationFilter */;

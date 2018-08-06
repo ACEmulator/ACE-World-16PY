@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Jumping Mastery Other III (3334) */
-DELETE FROM weenie WHERE class_Id = 3334;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3334, 'scrolljumpmasteryother3', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3334, 001 /* NAME_STRING */, 'Scroll of Jumping Mastery Other III')
-     , (3334, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3334, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the target''s Jump skill by 50%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3334, 001 /* SETUP_DID */, 33554826)
-     , (3334, 008 /* ICON_DID */, 100676461)
-     , (3334, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3334, 028 /* SPELL_DID */, 978 /* JumpingMasteryOther3_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3334', 'scrolljumpmasteryother3', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3334, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3334, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3334, 008 /* MASS_INT */, 90)
-     , (3334, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3334, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3334, 019 /* VALUE_INT */, 20)
-     , (3334, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3334, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3334,   1,       8192) /* ItemType - Writable */
+     , (3334,   5,         30) /* EncumbranceVal */
+     , (3334,   8,         90) /* Mass */
+     , (3334,   9,          0) /* ValidLocations - None */
+     , (3334,  16,          8) /* ItemUseable - Contained */
+     , (3334,  19,         20) /* Value */
+     , (3334,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3334, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3334, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3334,  22, True ) /* Inscribable */
+     , (3334,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3334,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3334,   1, 'Scroll of Jumping Mastery Other III') /* Name */
+     , (3334,  15, 'A magic scroll.') /* ShortDesc */
+     , (3334,  16, 'When learned, this spell increases the target''s Jump skill by 50%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3334,   1,   33554826) /* Setup */
+     , (3334,   8,  100676461) /* Icon */
+     , (3334,  22,  872415275) /* PhysicsEffectTable */
+     , (3334,  28,        978) /* Spell - Jumping Mastery Other III */;

@@ -1,35 +1,31 @@
-/* Weenie - Tusker Husk (20996) */
-DELETE FROM weenie WHERE class_Id = 20996;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20996, 'husktusker', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20996, 001 /* NAME_STRING */, 'Tusker Husk');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20996, 001 /* SETUP_DID */, 33557475)
-     , (20996, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20996, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (20996, 007 /* CLOTHINGBASE_DID */, 268436433)
-     , (20996, 008 /* ICON_DID */, 100673257)
-     , (20996, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20996, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20996', 'husktusker', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20996, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (20996, 003 /* PALETTE_TEMPLATE_INT */, 64 /* ORANGEBROWN_PALETTE_TEMPLATE */)
-     , (20996, 005 /* ENCUMB_VAL_INT */, 40)
-     , (20996, 008 /* MASS_INT */, 20)
-     , (20996, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20996, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20996, 019 /* VALUE_INT */, 0)
-     , (20996, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20996, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20996,   1,        128) /* ItemType - Misc */
+     , (20996,   3,         64) /* PaletteTemplate - OrangeBrown */
+     , (20996,   5,         40) /* EncumbranceVal */
+     , (20996,   8,         20) /* Mass */
+     , (20996,   9,          0) /* ValidLocations - None */
+     , (20996,  16,          1) /* ItemUseable - No */
+     , (20996,  19,          0) /* Value */
+     , (20996,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20996, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20996, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20996,  22, True ) /* Inscribable */
+     , (20996,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20996,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20996,   1, 'Tusker Husk') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20996,   1,   33557475) /* Setup */
+     , (20996,   3,  536870932) /* SoundTable */
+     , (20996,   6,   67108990) /* PaletteBase */
+     , (20996,   7,  268436433) /* ClothingBase */
+     , (20996,   8,  100673257) /* Icon */
+     , (20996,  22,  872415275) /* PhysicsEffectTable */
+     , (20996,  36,  234881046) /* MutateFilter */;

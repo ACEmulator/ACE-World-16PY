@@ -1,28 +1,24 @@
-/* Weenie - Cragstone: 2 miles (465) */
-DELETE FROM weenie WHERE class_Id = 465;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (465, 'sign-cragstone2miles', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (465, 001 /* NAME_STRING */, 'Cragstone: 2 miles')
-     , (465, 016 /* LONG_DESC_STRING */, 'Town of Cragstone: 2 miles.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (465, 001 /* SETUP_DID */, 33555984)
-     , (465, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('465', 'sign-cragstone2miles', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (465, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (465, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (465, 008 /* MASS_INT */, 1800)
-     , (465, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (465, 019 /* VALUE_INT */, 125)
-     , (465, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (465,   1,        128) /* ItemType - Misc */
+     , (465,   5,       9000) /* EncumbranceVal */
+     , (465,   8,       1800) /* Mass */
+     , (465,  16,          1) /* ItemUseable - No */
+     , (465,  19,        125) /* Value */
+     , (465,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (465, 001 /* STUCK_BOOL */, True)
-     , (465, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (465, 013 /* ETHEREAL_BOOL */, False)
-     , (465, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (465,   1, True ) /* Stuck */
+     , (465,  12, True ) /* ReportCollisions */
+     , (465,  13, False) /* Ethereal */
+     , (465,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (465,   1, 'Cragstone: 2 miles') /* Name */
+     , (465,  16, 'Town of Cragstone: 2 miles.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (465,   1,   33555984) /* Setup */
+     , (465,   8,  100668115) /* Icon */;

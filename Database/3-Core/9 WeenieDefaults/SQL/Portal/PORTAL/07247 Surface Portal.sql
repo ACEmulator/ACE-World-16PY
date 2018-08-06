@@ -1,34 +1,30 @@
-/* Weenie - Surface Portal (7247) */
-DELETE FROM weenie WHERE class_Id = 7247;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7247, 'portalblackdrudgespawnshoexit', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7247, 001 /* NAME_STRING */, 'Surface Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7247, 001 /* SETUP_DID */, 33554867)
-     , (7247, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (7247, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7247', 'portalblackdrudgespawnshoexit', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7247, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (7247, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (7247, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (7247, 111 /* PORTAL_BITMASK_INT */, 17 /* Player_NotSummonable_PortalEnum */)
-     , (7247, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7247, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (7247,   1,      65536) /* ItemType - Portal */
+     , (7247,  16,         32) /* ItemUseable - Remote */
+     , (7247,  93,       3084) /* PhysicsState */
+     , (7247, 111,         17) /* PortalBitmask */
+     , (7247, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7247, 001 /* STUCK_BOOL */, True)
-     , (7247, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (7247, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (7247, 013 /* ETHEREAL_BOOL */, True)
-     , (7247, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (7247,   1, True ) /* Stuck */
+     , (7247,  11, False) /* IgnoreCollisions */
+     , (7247,  12, True ) /* ReportCollisions */
+     , (7247,  13, True ) /* Ethereal */
+     , (7247,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7247,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7247,   1, 'Surface Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7247,   1,   33554867) /* Setup */
+     , (7247,   2,  150994947) /* MotionTable */
+     , (7247,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7247, 2, 926154772, 56.3, 91.1, 87.3, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (7247, 2, 926154772, 56.3, 91.1, 87.3, 1, 0, 0, 0) /* Destination */;

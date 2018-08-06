@@ -1,36 +1,32 @@
-/* Weenie - Ivory Gromnie Tooth Brush (22063) */
-DELETE FROM weenie WHERE class_Id = 22063;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22063, 'gromnietoothbrushivory', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22063, 001 /* NAME_STRING */, 'Ivory Gromnie Tooth Brush')
-     , (22063, 016 /* LONG_DESC_STRING */, 'A brush made from the tooth of an ivory gromnie.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22063, 001 /* SETUP_DID */, 33554817)
-     , (22063, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22063, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (22063, 008 /* ICON_DID */, 100676773);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22063', 'gromnietoothbrushivory', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22063, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22063, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (22063, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22063, 008 /* MASS_INT */, 10)
-     , (22063, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22063, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22063, 019 /* VALUE_INT */, 0)
-     , (22063, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22063, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22063, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22063, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
+VALUES (22063,   1,        128) /* ItemType - Misc */
+     , (22063,   3,         20) /* PaletteTemplate - Silver */
+     , (22063,   5,         10) /* EncumbranceVal */
+     , (22063,   8,         10) /* Mass */
+     , (22063,   9,          0) /* ValidLocations - None */
+     , (22063,  16,          1) /* ItemUseable - No */
+     , (22063,  19,          0) /* Value */
+     , (22063,  33,          1) /* Bonded - Bonded */
+     , (22063,  93,       1044) /* PhysicsState */
+     , (22063, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22063, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22063, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (22063, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (22063,  22, True ) /* Inscribable */
+     , (22063,  23, True ) /* DestroyOnSell */
+     , (22063,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22063,  39,     0.4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22063,   1, 'Ivory Gromnie Tooth Brush') /* Name */
+     , (22063,  16, 'A brush made from the tooth of an ivory gromnie.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22063,   1,   33554817) /* Setup */
+     , (22063,   6,   67111919) /* PaletteBase */
+     , (22063,   7,  268435832) /* ClothingBase */
+     , (22063,   8,  100676773) /* Icon */;

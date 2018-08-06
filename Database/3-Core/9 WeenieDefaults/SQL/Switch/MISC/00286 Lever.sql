@@ -1,33 +1,29 @@
-/* Weenie - Lever (286) */
-DELETE FROM weenie WHERE class_Id = 286;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (286, 'levergearswitch', 26 /* Switch_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (286, 001 /* NAME_STRING */, 'Lever');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (286, 001 /* SETUP_DID */, 33555041)
-     , (286, 002 /* MOTION_TABLE_DID */, 150995054)
-     , (286, 003 /* SOUND_TABLE_DID */, 536870980)
-     , (286, 008 /* ICON_DID */, 100667624)
-     , (286, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (286, 024 /* USE_TARGET_ANIMATION_DID */, 268435537 /* Motion_Twitch1 */);
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (286, 016 /* ACTIVATION_TARGET_IID */, 0);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('286', 'levergearswitch', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (286, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (286, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (286, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
-     , (286, 119 /* ACTIVE_INT */, 1);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (286, 054 /* USE_RADIUS_FLOAT */, 2.5);
+VALUES (286,   1,        128) /* ItemType - Misc */
+     , (286,  16,         48) /* ItemUseable - ViewedRemote */
+     , (286,  93,         20) /* PhysicsState */
+     , (286, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (286, 001 /* STUCK_BOOL */, True)
-     , (286, 014 /* GRAVITY_STATUS_BOOL */, False);
+VALUES (286,   1, True ) /* Stuck */
+     , (286,  14, False) /* GravityStatus */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (286,  54,     2.5) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (286,   1, 'Lever') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (286,   1,   33555041) /* Setup */
+     , (286,   2,  150995054) /* MotionTable */
+     , (286,   3,  536870980) /* SoundTable */
+     , (286,   8,  100667624) /* Icon */
+     , (286,  22,  872415275) /* PhysicsEffectTable */
+     , (286,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (286,  16,          0) /* ActivationTarget */;

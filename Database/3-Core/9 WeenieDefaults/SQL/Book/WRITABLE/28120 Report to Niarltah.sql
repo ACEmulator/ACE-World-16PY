@@ -1,40 +1,37 @@
-/* Weenie - Report to Niarltah (28120) */
-DELETE FROM weenie WHERE class_Id = 28120;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28120, 'reportikakhe2', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28120, 001 /* NAME_STRING */, 'Report to Niarltah')
-     , (28120, 033 /* QUEST_STRING */, 'NoteBurunHistory1');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28120, 001 /* SETUP_DID */, 33554772)
-     , (28120, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28120, 008 /* ICON_DID */, 100667470)
-     , (28120, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28120', 'reportikakhe2', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28120, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28120, 005 /* ENCUMB_VAL_INT */, 25)
-     , (28120, 008 /* MASS_INT */, 5)
-     , (28120, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28120, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28120, 019 /* VALUE_INT */, 10)
-     , (28120, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28120, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28120, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28120, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (28120, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (28120,   1,       8192) /* ItemType - Writable */
+     , (28120,   5,         25) /* EncumbranceVal */
+     , (28120,   8,          5) /* Mass */
+     , (28120,   9,          0) /* ValidLocations - None */
+     , (28120,  16,          8) /* ItemUseable - Contained */
+     , (28120,  19,         10) /* Value */
+     , (28120,  33,          1) /* Bonded - Bonded */
+     , (28120,  93,       1044) /* PhysicsState */
+     , (28120, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28120, 022 /* INSCRIBABLE_BOOL */, False)
-     , (28120, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28120,  22, False) /* Inscribable */
+     , (28120,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28120,  39,    1.22) /* DefaultScale */
+     , (28120,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28120,   1, 'Report to Niarltah') /* Name */
+     , (28120,  33, 'NoteBurunHistory1') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28120,   1,   33554772) /* Setup */
+     , (28120,   3,  536870932) /* SoundTable */
+     , (28120,   8,  100667470) /* Icon */
+     , (28120,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28120, 10, 1000) /* Book Data */;
+VALUES (28120, 10, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28120, 0, 4294967295, 'Ikakhe', 'prewritten', False, 'We have begun our translation of the book. Torgluuk hides it each sunrise and returns to it each evening as the sun draws below the horizon. Our first efforts to understand the language were failures, later pages have proven easier for the spirits to understand. With time they have been able to decipher the first pages. I have included a large amount of the book that we have managed to decipher thus far.
@@ -61,4 +58,3 @@ All was silent and dark with the world. The Sleeping One had yet to dream of the
 ')
      , (28120, 9, 4294967295, 'Ikakhe', 'prewritten', False, 'Across Bur, the flora had spread and grown a sea of life that was unknowing of The Sleeping One. Its gaze fell upon them and watched at all times, but the life of Bur was unknowing, save for the mucor. But even the mucor knew only what it had seen, and its knowledge was not one that learned, rather it was one that grew without limit, scope or design.
 ');
-

@@ -1,38 +1,34 @@
-/* Weenie - Onyx (22821) */
-DELETE FROM weenie WHERE class_Id = 22821;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22821, 'gemelemprots', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22821, 001 /* NAME_STRING */, 'Onyx');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22821, 001 /* SETUP_DID */, 33554809)
-     , (22821, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22821, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22821, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (22821, 008 /* ICON_DID */, 100668359)
-     , (22821, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (22821, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22821', 'gemelemprots', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22821, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22821, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (22821, 005 /* ENCUMB_VAL_INT */, 5)
-     , (22821, 008 /* MASS_INT */, 5)
-     , (22821, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22821, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (22821, 012 /* STACK_SIZE_INT */, 1)
-     , (22821, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (22821, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (22821, 015 /* STACK_UNIT_VALUE_INT */, 50)
-     , (22821, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22821, 019 /* VALUE_INT */, 50)
-     , (22821, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22821, 131 /* MATERIAL_TYPE_INT */, 32 /* Onyx_MaterialType */)
-     , (22821, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
+VALUES (22821,   1,       2048) /* ItemType - Gem */
+     , (22821,   3,         39) /* PaletteTemplate - Black */
+     , (22821,   5,          5) /* EncumbranceVal */
+     , (22821,   8,          5) /* Mass */
+     , (22821,   9,          0) /* ValidLocations - None */
+     , (22821,  11,          1) /* MaxStackSize */
+     , (22821,  12,          1) /* StackSize */
+     , (22821,  13,          5) /* StackUnitEncumbrance */
+     , (22821,  14,          5) /* StackUnitMass */
+     , (22821,  15,         50) /* StackUnitValue */
+     , (22821,  16,          1) /* ItemUseable - No */
+     , (22821,  19,         50) /* Value */
+     , (22821,  93,       1044) /* PhysicsState */
+     , (22821, 131,         32) /* MaterialType - Onyx */
+     , (22821, 169,   16777216) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22821, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22821,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22821,   1, 'Onyx') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22821,   1,   33554809) /* Setup */
+     , (22821,   3,  536870932) /* SoundTable */
+     , (22821,   6,   67111919) /* PaletteBase */
+     , (22821,   7,  268435723) /* ClothingBase */
+     , (22821,   8,  100668359) /* Icon */
+     , (22821,  22,  872415275) /* PhysicsEffectTable */
+     , (22821,  36,  234881046) /* MutateFilter */;

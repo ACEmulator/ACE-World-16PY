@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Ataxia (20233) */
-DELETE FROM weenie WHERE class_Id = 20233;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20233, 'scrollclumsiness7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20233, 001 /* NAME_STRING */, 'Scroll of Ataxia')
-     , (20233, 015 /* SHORT_DESC_STRING */, 'When learned, this spell decreases the target''s Coordination by 40 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20233, 001 /* SETUP_DID */, 33554826)
-     , (20233, 008 /* ICON_DID */, 100676452)
-     , (20233, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20233, 028 /* SPELL_DID */, 2056 /* ClumsinessOther7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20233', 'scrollclumsiness7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20233, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20233, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20233, 008 /* MASS_INT */, 90)
-     , (20233, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20233, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20233, 019 /* VALUE_INT */, 2000)
-     , (20233, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20233, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20233,   1,       8192) /* ItemType - Writable */
+     , (20233,   5,         30) /* EncumbranceVal */
+     , (20233,   8,         90) /* Mass */
+     , (20233,   9,          0) /* ValidLocations - None */
+     , (20233,  16,          8) /* ItemUseable - Contained */
+     , (20233,  19,       2000) /* Value */
+     , (20233,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20233, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20233, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20233,  22, True ) /* Inscribable */
+     , (20233,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20233,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20233,   1, 'Scroll of Ataxia') /* Name */
+     , (20233,  15, 'When learned, this spell decreases the target''s Coordination by 40 points.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20233,   1,   33554826) /* Setup */
+     , (20233,   8,  100676452) /* Icon */
+     , (20233,  22,  872415275) /* PhysicsEffectTable */
+     , (20233,  28,       2056) /* Spell - Ataxia */;

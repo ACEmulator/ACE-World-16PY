@@ -1,69 +1,65 @@
-/* Weenie - Superb Chilling Isparian Sword (20006) */
-DELETE FROM weenie WHERE class_Id = 20006;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20006, 'swordispariansuperbshiveringmajor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20006, 001 /* NAME_STRING */, 'Superb Chilling Isparian Sword');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20006, 001 /* SETUP_DID */, 33556385)
-     , (20006, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20006, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20006, 007 /* CLOTHINGBASE_DID */, 268436385)
-     , (20006, 008 /* ICON_DID */, 100672944)
-     , (20006, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20006, 037 /* ITEM_SKILL_LIMIT_DID */, 11);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20006', 'swordispariansuperbshiveringmajor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20006, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (20006, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (20006, 005 /* ENCUMB_VAL_INT */, 550)
-     , (20006, 008 /* MASS_INT */, 500)
-     , (20006, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (20006, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20006, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (20006, 019 /* VALUE_INT */, 6000)
-     , (20006, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (20006, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (20006, 044 /* DAMAGE_INT */, 35)
-     , (20006, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (20006, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (20006, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (20006, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (20006, 049 /* WEAPON_TIME_INT */, 35)
-     , (20006, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (20006, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20006, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (20006, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (20006, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (20006, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 300)
-     , (20006, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (20006, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (20006, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (20006, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (20006, 160 /* WIELD_DIFFICULTY_INT */, 40)
-     , (20006, 166 /* SLAYER_CREATURE_TYPE_INT */, 38 /* Fire_Elemental_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20006, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (20006, 021 /* WEAPON_LENGTH_FLOAT */, 1)
-     , (20006, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (20006, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
-     , (20006, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (20006, 062 /* WEAPON_OFFENSE_FLOAT */, 1.08)
-     , (20006, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 3);
+VALUES (20006,   1,          1) /* ItemType - MeleeWeapon */
+     , (20006,   3,          2) /* PaletteTemplate - Blue */
+     , (20006,   5,        550) /* EncumbranceVal */
+     , (20006,   8,        500) /* Mass */
+     , (20006,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (20006,  16,          1) /* ItemUseable - No */
+     , (20006,  18,          1) /* UiEffects - Magical */
+     , (20006,  19,       6000) /* Value */
+     , (20006,  33,          1) /* Bonded - Bonded */
+     , (20006,  36,       9999) /* ResistMagic */
+     , (20006,  44,         35) /* Damage */
+     , (20006,  45,          8) /* DamageType - Cold */
+     , (20006,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (20006,  47,          6) /* AttackType */
+     , (20006,  48,         11) /* WeaponSkill - Sword */
+     , (20006,  49,         35) /* WeaponTime */
+     , (20006,  51,          1) /* CombatUse - Melee */
+     , (20006,  93,       1044) /* PhysicsState */
+     , (20006, 106,        300) /* ItemSpellcraft */
+     , (20006, 107,        600) /* ItemCurMana */
+     , (20006, 108,        600) /* ItemMaxMana */
+     , (20006, 115,        300) /* ItemSkillLevelLimit */
+     , (20006, 150,        103) /* HookPlacement - Hook */
+     , (20006, 151,          2) /* HookType - Wall */
+     , (20006, 158,          7) /* WieldRequirements - Level */
+     , (20006, 159,          1) /* WieldSkilltype - Axe */
+     , (20006, 160,         40) /* WieldDifficulty */
+     , (20006, 166,         38) /* SlayerCreatureType - FireElemental */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20006, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20006, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (20006, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (20006,  22, True ) /* Inscribable */
+     , (20006,  23, True ) /* DestroyOnSell */
+     , (20006,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20006,   5,   -0.05) /* ManaRate */
+     , (20006,  21,       1) /* WeaponLength */
+     , (20006,  22,     0.5) /* DamageVariance */
+     , (20006,  29,    1.08) /* WeaponDefense */
+     , (20006,  39,       1) /* DefaultScale */
+     , (20006,  62,    1.08) /* WeaponOffense */
+     , (20006, 138,       3) /* SlayerDamageBonus */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20006,   1, 'Superb Chilling Isparian Sword') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20006,   1,   33556385) /* Setup */
+     , (20006,   3,  536870932) /* SoundTable */
+     , (20006,   6,   67111919) /* PaletteBase */
+     , (20006,   7,  268436385) /* ClothingBase */
+     , (20006,   8,  100672944) /* Icon */
+     , (20006,  22,  872415275) /* PhysicsEffectTable */
+     , (20006,  37,         11) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20006, 2566, 2) /* CANTRIPSWORDAPTITUDE1_SpellID */
-     , (20006, 1035, 2) /* ColdProtectionSelf6_SpellID */
-     , (20006, 1591, 2) /* HeartSeeker5_SpellID */
-     , (20006, 1615, 2) /* BloodDrinker5_SpellID */
-     , (20006, 1377, 2) /* CoordinationSelf5_SpellID */;
-
+VALUES (20006,  1035,      2)  /* Cold Protection Self VI */
+     , (20006,  1377,      2)  /* Coordination Self V */
+     , (20006,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (20006,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (20006,  2566,      2)  /* Minor Heavy Weapon Aptitude */;

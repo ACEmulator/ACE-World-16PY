@@ -1,37 +1,33 @@
-/* Weenie - Peppermint Cookie (14763) */
-DELETE FROM weenie WHERE class_Id = 14763;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14763, 'cookiepeppermint', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14763, 001 /* NAME_STRING */, 'Peppermint Cookie')
-     , (14763, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (14763, 015 /* SHORT_DESC_STRING */, 'A cookie with crushed Peppermint in it.')
-     , (14763, 020 /* PLURAL_NAME_STRING */, 'Peppermint Cookies');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14763, 001 /* SETUP_DID */, 33556032)
-     , (14763, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14763, 008 /* ICON_DID */, 100672542)
-     , (14763, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14763', 'cookiepeppermint', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14763, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (14763, 005 /* ENCUMB_VAL_INT */, 15)
-     , (14763, 008 /* MASS_INT */, 15)
-     , (14763, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14763, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (14763, 012 /* STACK_SIZE_INT */, 1)
-     , (14763, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (14763, 014 /* STACK_UNIT_MASS_INT */, 15)
-     , (14763, 015 /* STACK_UNIT_VALUE_INT */, 14)
-     , (14763, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (14763, 019 /* VALUE_INT */, 14)
-     , (14763, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (14763, 090 /* BOOST_VALUE_INT */, 15)
-     , (14763, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14763,   1,         32) /* ItemType - Food */
+     , (14763,   5,         15) /* EncumbranceVal */
+     , (14763,   8,         15) /* Mass */
+     , (14763,   9,          0) /* ValidLocations - None */
+     , (14763,  11,        100) /* MaxStackSize */
+     , (14763,  12,          1) /* StackSize */
+     , (14763,  13,         15) /* StackUnitEncumbrance */
+     , (14763,  14,         15) /* StackUnitMass */
+     , (14763,  15,         14) /* StackUnitValue */
+     , (14763,  16,          8) /* ItemUseable - Contained */
+     , (14763,  19,         14) /* Value */
+     , (14763,  89,          4) /* BoosterEnum - Stamina */
+     , (14763,  90,         15) /* BoostValue */
+     , (14763,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14763, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14763,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14763,   1, 'Peppermint Cookie') /* Name */
+     , (14763,  14, 'Use this item to eat it.') /* Use */
+     , (14763,  15, 'A cookie with crushed Peppermint in it.') /* ShortDesc */
+     , (14763,  20, 'Peppermint Cookies') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14763,   1,   33556032) /* Setup */
+     , (14763,   3,  536870932) /* SoundTable */
+     , (14763,   8,  100672542) /* Icon */
+     , (14763,  22,  872415275) /* PhysicsEffectTable */;

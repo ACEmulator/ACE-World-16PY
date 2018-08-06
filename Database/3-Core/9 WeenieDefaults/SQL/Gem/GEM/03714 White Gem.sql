@@ -1,43 +1,39 @@
-/* Weenie - White Gem (3714) */
-DELETE FROM weenie WHERE class_Id = 3714;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3714, 'gemwhitevirindi', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3714, 001 /* NAME_STRING */, 'White Gem');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3714, 001 /* SETUP_DID */, 33554809)
-     , (3714, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3714, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3714, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (3714, 008 /* ICON_DID */, 100668365)
-     , (3714, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3714, 028 /* SPELL_DID */, 1431 /* FocusOther5_SpellID */)
-     , (3714, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3714', 'gemwhitevirindi', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3714, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (3714, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (3714, 005 /* ENCUMB_VAL_INT */, 5)
-     , (3714, 008 /* MASS_INT */, 5)
-     , (3714, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3714, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (3714, 012 /* STACK_SIZE_INT */, 1)
-     , (3714, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (3714, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (3714, 015 /* STACK_UNIT_VALUE_INT */, 1500)
-     , (3714, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3714, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (3714, 019 /* VALUE_INT */, 1500)
-     , (3714, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3714, 106 /* ITEM_SPELLCRAFT_INT */, 90)
-     , (3714, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (3714, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (3714, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (3714, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (3714,   1,       2048) /* ItemType - Gem */
+     , (3714,   3,         61) /* PaletteTemplate - White */
+     , (3714,   5,          5) /* EncumbranceVal */
+     , (3714,   8,          5) /* Mass */
+     , (3714,   9,          0) /* ValidLocations - None */
+     , (3714,  11,          1) /* MaxStackSize */
+     , (3714,  12,          1) /* StackSize */
+     , (3714,  13,          5) /* StackUnitEncumbrance */
+     , (3714,  14,          5) /* StackUnitMass */
+     , (3714,  15,       1500) /* StackUnitValue */
+     , (3714,  16,          8) /* ItemUseable - Contained */
+     , (3714,  18,          1) /* UiEffects - Magical */
+     , (3714,  19,       1500) /* Value */
+     , (3714,  93,       1044) /* PhysicsState */
+     , (3714, 106,         90) /* ItemSpellcraft */
+     , (3714, 107,         50) /* ItemCurMana */
+     , (3714, 108,         50) /* ItemMaxMana */
+     , (3714, 109,          0) /* ItemDifficulty */
+     , (3714, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3714, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3714,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3714,   1, 'White Gem') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3714,   1,   33554809) /* Setup */
+     , (3714,   3,  536870932) /* SoundTable */
+     , (3714,   6,   67111919) /* PaletteBase */
+     , (3714,   7,  268435723) /* ClothingBase */
+     , (3714,   8,  100668365) /* Icon */
+     , (3714,  22,  872415275) /* PhysicsEffectTable */
+     , (3714,  28,       1431) /* Spell - Focus Other V */
+     , (3714,  36,  234881046) /* MutateFilter */;

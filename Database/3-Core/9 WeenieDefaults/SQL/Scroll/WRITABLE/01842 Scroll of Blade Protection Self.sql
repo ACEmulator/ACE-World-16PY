@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Blade Protection Self (1842) */
-DELETE FROM weenie WHERE class_Id = 1842;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1842, 'scrollbladeprotectionself', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1842, 001 /* NAME_STRING */, 'Scroll of Blade Protection Self')
-     , (1842, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (1842, 016 /* LONG_DESC_STRING */, 'When learned, this spell reduces damage the caster takes from Slashing by 9%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1842, 001 /* SETUP_DID */, 33554826)
-     , (1842, 008 /* ICON_DID */, 100676954)
-     , (1842, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1842, 028 /* SPELL_DID */, 1109 /* BladeProtectionSelf1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1842', 'scrollbladeprotectionself', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1842, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (1842, 005 /* ENCUMB_VAL_INT */, 30)
-     , (1842, 008 /* MASS_INT */, 90)
-     , (1842, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (1842, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (1842, 019 /* VALUE_INT */, 1)
-     , (1842, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1842, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (1842,   1,       8192) /* ItemType - Writable */
+     , (1842,   5,         30) /* EncumbranceVal */
+     , (1842,   8,         90) /* Mass */
+     , (1842,   9,          0) /* ValidLocations - None */
+     , (1842,  16,          8) /* ItemUseable - Contained */
+     , (1842,  19,          1) /* Value */
+     , (1842,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1842, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1842, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1842,  22, True ) /* Inscribable */
+     , (1842,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1842,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1842,   1, 'Scroll of Blade Protection Self') /* Name */
+     , (1842,  15, 'A magic scroll.') /* ShortDesc */
+     , (1842,  16, 'When learned, this spell reduces damage the caster takes from Slashing by 9%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1842,   1,   33554826) /* Setup */
+     , (1842,   8,  100676954) /* Icon */
+     , (1842,  22,  872415275) /* PhysicsEffectTable */
+     , (1842,  28,       1109) /* Spell - Blade Protection Self I */;

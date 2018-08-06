@@ -1,49 +1,45 @@
-/* Weenie - Caulnalain Staff of the Lightbringer (8890) */
-DELETE FROM weenie WHERE class_Id = 8890;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8890, 'staffcaulnalain', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8890, 001 /* NAME_STRING */, 'Caulnalain Staff of the Lightbringer')
-     , (8890, 015 /* SHORT_DESC_STRING */, 'A trophy from the banishment of Bael''Zharon.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8890, 001 /* SETUP_DID */, 33556940)
-     , (8890, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8890, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8890, 007 /* CLOTHINGBASE_DID */, 268436103)
-     , (8890, 008 /* ICON_DID */, 100671276)
-     , (8890, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8890, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (8890, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8890', 'staffcaulnalain', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8890, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (8890, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (8890, 005 /* ENCUMB_VAL_INT */, 100)
-     , (8890, 008 /* MASS_INT */, 25)
-     , (8890, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (8890, 016 /* ITEM_USEABLE_INT */, 6291460 /* USEABLE_SOURCE_WIELDED_TARGET_REMOTE_NEVER_WALK */)
-     , (8890, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8890, 019 /* VALUE_INT */, 0)
-     , (8890, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8890, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (8890, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8890, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (8890, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (8890, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (8890, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8890, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8890, 012 /* SHADE_FLOAT */, 0.5)
-     , (8890, 029 /* WEAPON_DEFENSE_FLOAT */, 1);
+VALUES (8890,   1,      32768) /* ItemType - Caster */
+     , (8890,   3,         13) /* PaletteTemplate - Purple */
+     , (8890,   5,        100) /* EncumbranceVal */
+     , (8890,   8,         25) /* Mass */
+     , (8890,   9,   16777216) /* ValidLocations - Held */
+     , (8890,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
+     , (8890,  18,          1) /* UiEffects - Magical */
+     , (8890,  19,          0) /* Value */
+     , (8890,  33,          1) /* Bonded - Bonded */
+     , (8890,  46,        512) /* DefaultCombatStyle - Magic */
+     , (8890,  93,       3092) /* PhysicsState */
+     , (8890,  94,         16) /* TargetType - Creature */
+     , (8890, 110,          0) /* ItemAllegianceRankLimit */
+     , (8890, 114,          1) /* Attuned - Attuned */
+     , (8890, 150,        103) /* HookPlacement - Hook */
+     , (8890, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8890, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (8890, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8890, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (8890, 069 /* IS_SELLABLE_BOOL */, False)
-     , (8890, 099 /* IVORYABLE_BOOL */, True);
+VALUES (8890,  15, True ) /* LightsStatus */
+     , (8890,  22, True ) /* Inscribable */
+     , (8890,  23, True ) /* DestroyOnSell */
+     , (8890,  69, False) /* IsSellable */
+     , (8890,  99, True ) /* Ivoryable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8890,  12,     0.5) /* Shade */
+     , (8890,  29,       1) /* WeaponDefense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8890,   1, 'Caulnalain Staff of the Lightbringer') /* Name */
+     , (8890,  15, 'A trophy from the banishment of Bael''Zharon.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8890,   1,   33556940) /* Setup */
+     , (8890,   3,  536870932) /* SoundTable */
+     , (8890,   6,   67111919) /* PaletteBase */
+     , (8890,   7,  268436103) /* ClothingBase */
+     , (8890,   8,  100671276) /* Icon */
+     , (8890,  22,  872415275) /* PhysicsEffectTable */
+     , (8890,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (8890,  36,  234881046) /* MutateFilter */;

@@ -1,35 +1,32 @@
-/* Weenie - Destructions and Beginnings (23114) */
-DELETE FROM weenie WHERE class_Id = 23114;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23114, 'writingaerbaxsingularity', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23114, 001 /* NAME_STRING */, 'Destructions and Beginnings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23114, 001 /* SETUP_DID */, 33554771)
-     , (23114, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23114, 008 /* ICON_DID */, 100668117)
-     , (23114, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23114', 'writingaerbaxsingularity', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23114, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (23114, 005 /* ENCUMB_VAL_INT */, 500)
-     , (23114, 008 /* MASS_INT */, 200)
-     , (23114, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23114, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23114, 019 /* VALUE_INT */, 0)
-     , (23114, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23114, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (23114,   1,       8192) /* ItemType - Writable */
+     , (23114,   5,        500) /* EncumbranceVal */
+     , (23114,   8,        200) /* Mass */
+     , (23114,   9,          0) /* ValidLocations - None */
+     , (23114,  16,          8) /* ItemUseable - Contained */
+     , (23114,  19,          0) /* Value */
+     , (23114,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23114, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (23114,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23114,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23114,   1, 'Destructions and Beginnings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23114,   1,   33554771) /* Setup */
+     , (23114,   3,  536870932) /* SoundTable */
+     , (23114,   8,  100668117) /* Icon */
+     , (23114,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (23114, 25, 1000) /* Book Data */;
+VALUES (23114, 25, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (23114, 0, 4294967295, 'Aerbax', 'prewritten', False, 'Failings in diversity and separation lead to the failure of the splinter that fled the Singularity. It was inevitable that the Quiddity would send more prolific collectors for the distorted members that had strayed. Levistras and his cohorts have been cleansed. Their destruction was nothing more than their creation and through the consciousness they have undoubtedly been reborn as so much new energy to seed across the boundaries of several cells. 
@@ -104,4 +101,3 @@ Collections have also continued from the "feral tribe" and the Hea. Arantah rema
 ')
      , (23114, 24, 4294967295, '', 'prewritten', False, '
 ');
-

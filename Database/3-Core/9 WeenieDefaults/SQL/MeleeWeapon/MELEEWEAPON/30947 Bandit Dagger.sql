@@ -1,47 +1,43 @@
-/* Weenie - Bandit Dagger (30947) */
-DELETE FROM weenie WHERE class_Id = 30947;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30947, 'daggerbanditmageextreme', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30947, 001 /* NAME_STRING */, 'Bandit Dagger');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30947, 001 /* SETUP_DID */, 33554735)
-     , (30947, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30947, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30947, 007 /* CLOTHINGBASE_DID */, 268435783)
-     , (30947, 008 /* ICON_DID */, 100668875)
-     , (30947, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30947, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30947', 'daggerbanditmageextreme', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30947, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30947, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (30947, 005 /* ENCUMB_VAL_INT */, 135)
-     , (30947, 008 /* MASS_INT */, 90)
-     , (30947, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30947, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30947, 019 /* VALUE_INT */, 40)
-     , (30947, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (30947, 044 /* DAMAGE_INT */, 26)
-     , (30947, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (30947, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30947, 047 /* ATTACK_TYPE_INT */, 486 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, TripleSlash_AttackType, DoubleThrust_AttackType, TripleThrust_AttackType */)
-     , (30947, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (30947, 049 /* WEAPON_TIME_INT */, 1)
-     , (30947, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30947, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30947, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (30947, 179 /* IMBUED_EFFECT_INT */, 4 /* ArmorRending_ImbuedEffectType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30947, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (30947, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (30947, 029 /* WEAPON_DEFENSE_FLOAT */, 1.22)
-     , (30947, 062 /* WEAPON_OFFENSE_FLOAT */, 1.22);
+VALUES (30947,   1,          1) /* ItemType - MeleeWeapon */
+     , (30947,   3,         20) /* PaletteTemplate - Silver */
+     , (30947,   5,        135) /* EncumbranceVal */
+     , (30947,   8,         90) /* Mass */
+     , (30947,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30947,  16,          1) /* ItemUseable - No */
+     , (30947,  19,         40) /* Value */
+     , (30947,  33,         -2) /* Bonded - Destroy */
+     , (30947,  44,         26) /* Damage */
+     , (30947,  45,          3) /* DamageType */
+     , (30947,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (30947,  47,        486) /* AttackType */
+     , (30947,  48,          4) /* WeaponSkill - Dagger */
+     , (30947,  49,          1) /* WeaponTime */
+     , (30947,  51,          1) /* CombatUse - Melee */
+     , (30947,  93,       1044) /* PhysicsState */
+     , (30947, 114,          1) /* Attuned - Attuned */
+     , (30947, 179,          4) /* ImbuedEffect - ArmorRending */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30947, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30947,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30947,  21,     0.4) /* WeaponLength */
+     , (30947,  22,    0.75) /* DamageVariance */
+     , (30947,  29,    1.22) /* WeaponDefense */
+     , (30947,  62,    1.22) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30947,   1, 'Bandit Dagger') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30947,   1,   33554735) /* Setup */
+     , (30947,   3,  536870932) /* SoundTable */
+     , (30947,   6,   67111919) /* PaletteBase */
+     , (30947,   7,  268435783) /* ClothingBase */
+     , (30947,   8,  100668875) /* Icon */
+     , (30947,  22,  872415275) /* PhysicsEffectTable */
+     , (30947,  36,  234881044) /* MutateFilter */;

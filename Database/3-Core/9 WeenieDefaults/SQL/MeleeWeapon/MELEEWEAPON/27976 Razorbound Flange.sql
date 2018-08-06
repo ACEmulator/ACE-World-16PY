@@ -1,64 +1,60 @@
-/* Weenie - Razorbound Flange (27976) */
-DELETE FROM weenie WHERE class_Id = 27976;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27976, 'macehizkri2', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27976, 001 /* NAME_STRING */, 'Razorbound Flange')
-     , (27976, 016 /* LONG_DESC_STRING */, 'A vile looking mace. Blades have been fashioned to the flange head to allow for the weapon to flay flesh.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27976, 001 /* SETUP_DID */, 33558753)
-     , (27976, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27976, 006 /* PALETTE_BASE_DID */, 67114956)
-     , (27976, 007 /* CLOTHINGBASE_DID */, 268436792)
-     , (27976, 008 /* ICON_DID */, 100676553)
-     , (27976, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27976', 'macehizkri2', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27976, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (27976, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (27976, 005 /* ENCUMB_VAL_INT */, 600)
-     , (27976, 008 /* MASS_INT */, 360)
-     , (27976, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (27976, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27976, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27976, 019 /* VALUE_INT */, 4000)
-     , (27976, 044 /* DAMAGE_INT */, 54)
-     , (27976, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (27976, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (27976, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (27976, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (27976, 049 /* WEAPON_TIME_INT */, 45)
-     , (27976, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (27976, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27976, 106 /* ITEM_SPELLCRAFT_INT */, 325)
-     , (27976, 107 /* ITEM_CUR_MANA_INT */, 1200)
-     , (27976, 108 /* ITEM_MAX_MANA_INT */, 1200)
-     , (27976, 109 /* ITEM_DIFFICULTY_INT */, 175)
-     , (27976, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27976, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27976, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (27976, 159 /* WIELD_SKILLTYPE_INT */, 5 /* MACE_SKILL */)
-     , (27976, 160 /* WIELD_DIFFICULTY_INT */, 355);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27976, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (27976, 021 /* WEAPON_LENGTH_FLOAT */, 1)
-     , (27976, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.35)
-     , (27976, 029 /* WEAPON_DEFENSE_FLOAT */, 1.09)
-     , (27976, 062 /* WEAPON_OFFENSE_FLOAT */, 1.11)
-     , (27976, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 3);
+VALUES (27976,   1,          1) /* ItemType - MeleeWeapon */
+     , (27976,   3,         39) /* PaletteTemplate - Black */
+     , (27976,   5,        600) /* EncumbranceVal */
+     , (27976,   8,        360) /* Mass */
+     , (27976,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (27976,  16,          1) /* ItemUseable - No */
+     , (27976,  18,          1) /* UiEffects - Magical */
+     , (27976,  19,       4000) /* Value */
+     , (27976,  44,         54) /* Damage */
+     , (27976,  45,          1) /* DamageType - Slash */
+     , (27976,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (27976,  47,          4) /* AttackType - Slash */
+     , (27976,  48,          5) /* WeaponSkill - Mace */
+     , (27976,  49,         45) /* WeaponTime */
+     , (27976,  51,          1) /* CombatUse - Melee */
+     , (27976,  93,       1044) /* PhysicsState */
+     , (27976, 106,        325) /* ItemSpellcraft */
+     , (27976, 107,       1200) /* ItemCurMana */
+     , (27976, 108,       1200) /* ItemMaxMana */
+     , (27976, 109,        175) /* ItemDifficulty */
+     , (27976, 150,        103) /* HookPlacement - Hook */
+     , (27976, 151,          2) /* HookType - Wall */
+     , (27976, 158,          2) /* WieldRequirements - RawSkill */
+     , (27976, 159,          5) /* WieldSkilltype - Mace */
+     , (27976, 160,        355) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27976, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27976, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (27976,  22, True ) /* Inscribable */
+     , (27976,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27976,   5,   -0.05) /* ManaRate */
+     , (27976,  21,       1) /* WeaponLength */
+     , (27976,  22,    0.35) /* DamageVariance */
+     , (27976,  29,    1.09) /* WeaponDefense */
+     , (27976,  62,    1.11) /* WeaponOffense */
+     , (27976, 136,       3) /* CriticalMultiplier */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27976,   1, 'Razorbound Flange') /* Name */
+     , (27976,  16, 'A vile looking mace. Blades have been fashioned to the flange head to allow for the weapon to flay flesh.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27976,   1,   33558753) /* Setup */
+     , (27976,   3,  536870932) /* SoundTable */
+     , (27976,   6,   67114956) /* PaletteBase */
+     , (27976,   7,  268436792) /* ClothingBase */
+     , (27976,   8,  100676553) /* Icon */
+     , (27976,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27976, 1604, 2) /* Defender5_SpellID */
-     , (27976, 2557, 2) /* CANTRIPMACEAPTITUDE1_SpellID */
-     , (27976, 1337, 2) /* StrengthOther6_SpellID */
-     , (27976, 1616, 2) /* BloodDrinker6_SpellID */
-     , (27976, 1626, 2) /* SwiftKiller5_SpellID */;
-
+VALUES (27976,  1337,      2)  /* Strength Other VI */
+     , (27976,  1604,      2)  /* Aura of Defender Self V */
+     , (27976,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (27976,  1626,      2)  /* Aura of Swift Killer Self V */
+     , (27976,  2557,      2)  /* Minor Light Weapon Aptitude */;

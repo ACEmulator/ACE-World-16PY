@@ -1,28 +1,24 @@
-/* Weenie - Tou-Tou Road Villas (13190) */
-DELETE FROM weenie WHERE class_Id = 13190;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13190, 'toutoroadvillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13190, 001 /* NAME_STRING */, 'Tou-Tou Road Villas')
-     , (13190, 016 /* LONG_DESC_STRING */, 'Welcome to Tou-Tou Road Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13190, 001 /* SETUP_DID */, 33557463)
-     , (13190, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('13190', 'toutoroadvillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13190, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (13190, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (13190, 008 /* MASS_INT */, 1800)
-     , (13190, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (13190, 019 /* VALUE_INT */, 125)
-     , (13190, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (13190,   1,        128) /* ItemType - Misc */
+     , (13190,   5,       9000) /* EncumbranceVal */
+     , (13190,   8,       1800) /* Mass */
+     , (13190,  16,          1) /* ItemUseable - No */
+     , (13190,  19,        125) /* Value */
+     , (13190,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13190, 001 /* STUCK_BOOL */, True)
-     , (13190, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (13190, 013 /* ETHEREAL_BOOL */, False)
-     , (13190, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (13190,   1, True ) /* Stuck */
+     , (13190,  12, True ) /* ReportCollisions */
+     , (13190,  13, False) /* Ethereal */
+     , (13190,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (13190,   1, 'Tou-Tou Road Villas') /* Name */
+     , (13190,  16, 'Welcome to Tou-Tou Road Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (13190,   1,   33557463) /* Setup */
+     , (13190,   8,  100668115) /* Icon */;

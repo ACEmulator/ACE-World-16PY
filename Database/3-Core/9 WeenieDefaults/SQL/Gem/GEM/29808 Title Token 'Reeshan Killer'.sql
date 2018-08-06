@@ -1,38 +1,34 @@
-/* Weenie - Title Token 'Reeshan Killer' (29808) */
-DELETE FROM weenie WHERE class_Id = 29808;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29808, 'tokenreeshankiller', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29808, 001 /* NAME_STRING */, 'Title Token ''Reeshan Killer''')
-     , (29808, 015 /* SHORT_DESC_STRING */, 'You may turn this token in to Guard Ellyon in Cragstone to change your title to ''Reeshan Killer''.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29808, 001 /* SETUP_DID */, 33557280)
-     , (29808, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29808, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (29808, 007 /* CLOTHINGBASE_DID */, 268436298)
-     , (29808, 008 /* ICON_DID */, 100677157)
-     , (29808, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29808, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29808', 'tokenreeshankiller', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29808, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (29808, 005 /* ENCUMB_VAL_INT */, 10)
-     , (29808, 008 /* MASS_INT */, 10)
-     , (29808, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29808, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (29808, 012 /* STACK_SIZE_INT */, 1)
-     , (29808, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (29808, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (29808, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (29808, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29808, 019 /* VALUE_INT */, 0)
-     , (29808, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (29808, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29808, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (29808,   1,       2048) /* ItemType - Gem */
+     , (29808,   5,         10) /* EncumbranceVal */
+     , (29808,   8,         10) /* Mass */
+     , (29808,   9,          0) /* ValidLocations - None */
+     , (29808,  11,          1) /* MaxStackSize */
+     , (29808,  12,          1) /* StackSize */
+     , (29808,  13,         10) /* StackUnitEncumbrance */
+     , (29808,  14,         10) /* StackUnitMass */
+     , (29808,  15,          0) /* StackUnitValue */
+     , (29808,  16,          1) /* ItemUseable - No */
+     , (29808,  19,          0) /* Value */
+     , (29808,  33,          1) /* Bonded - Bonded */
+     , (29808,  93,       1044) /* PhysicsState */
+     , (29808, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29808, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29808,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29808,   1, 'Title Token ''Reeshan Killer''') /* Name */
+     , (29808,  15, 'You may turn this token in to Guard Ellyon in Cragstone to change your title to ''Reeshan Killer''.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29808,   1,   33557280) /* Setup */
+     , (29808,   3,  536870932) /* SoundTable */
+     , (29808,   6,   67111092) /* PaletteBase */
+     , (29808,   7,  268436298) /* ClothingBase */
+     , (29808,   8,  100677157) /* Icon */
+     , (29808,  22,  872415275) /* PhysicsEffectTable */
+     , (29808,  36,  234881046) /* MutateFilter */;

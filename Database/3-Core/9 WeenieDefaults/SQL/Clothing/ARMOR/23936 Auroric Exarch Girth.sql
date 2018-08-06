@@ -1,70 +1,66 @@
-/* Weenie - Auroric Exarch Girth (23936) */
-DELETE FROM weenie WHERE class_Id = 23936;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23936, 'girthaurorblue', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23936, 001 /* NAME_STRING */, 'Auroric Exarch Girth')
-     , (23936, 016 /* LONG_DESC_STRING */, 'A richly enchanted and ornate girth once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23936, 001 /* SETUP_DID */, 33554647)
-     , (23936, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23936, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (23936, 007 /* CLOTHINGBASE_DID */, 268436556)
-     , (23936, 008 /* ICON_DID */, 100674131)
-     , (23936, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23936', 'girthaurorblue', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23936, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (23936, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (23936, 004 /* CLOTHING_PRIORITY_INT */, 2048 /* OuterwearAbdomen */)
-     , (23936, 005 /* ENCUMB_VAL_INT */, 250)
-     , (23936, 008 /* MASS_INT */, 325)
-     , (23936, 009 /* LOCATIONS_INT */, 1024 /* ABDOMEN_ARMOR_LOC */)
-     , (23936, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23936, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (23936, 019 /* VALUE_INT */, 4400)
-     , (23936, 027 /* ARMOR_TYPE_INT */, 32)
-     , (23936, 028 /* ARMOR_LEVEL_INT */, 225)
-     , (23936, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (23936, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23936, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (23936, 107 /* ITEM_CUR_MANA_INT */, 4000)
-     , (23936, 108 /* ITEM_MAX_MANA_INT */, 4000)
-     , (23936, 109 /* ITEM_DIFFICULTY_INT */, 50)
-     , (23936, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (23936, 159 /* WIELD_SKILLTYPE_INT */, 34 /* WAR_MAGIC_SKILL */)
-     , (23936, 160 /* WIELD_DIFFICULTY_INT */, 315);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23936, 005 /* MANA_RATE_FLOAT */, -0.5)
-     , (23936, 012 /* SHADE_FLOAT */, 0.5)
-     , (23936, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.75)
-     , (23936, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.75)
-     , (23936, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.75)
-     , (23936, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.75)
-     , (23936, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (23936, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (23936, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.75)
-     , (23936, 110 /* BULK_MOD_FLOAT */, 1)
-     , (23936, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (23936,   1,          2) /* ItemType - Armor */
+     , (23936,   3,          2) /* PaletteTemplate - Blue */
+     , (23936,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
+     , (23936,   5,        250) /* EncumbranceVal */
+     , (23936,   8,        325) /* Mass */
+     , (23936,   9,       1024) /* ValidLocations - AbdomenArmor */
+     , (23936,  16,          1) /* ItemUseable - No */
+     , (23936,  18,          1) /* UiEffects - Magical */
+     , (23936,  19,       4400) /* Value */
+     , (23936,  27,         32) /* ArmorType */
+     , (23936,  28,        225) /* ArmorLevel */
+     , (23936,  36,       9999) /* ResistMagic */
+     , (23936,  93,       1044) /* PhysicsState */
+     , (23936, 106,        300) /* ItemSpellcraft */
+     , (23936, 107,       4000) /* ItemCurMana */
+     , (23936, 108,       4000) /* ItemMaxMana */
+     , (23936, 109,         50) /* ItemDifficulty */
+     , (23936, 158,          2) /* WieldRequirements - RawSkill */
+     , (23936, 159,         34) /* WieldSkilltype - WarMagic */
+     , (23936, 160,        315) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23936, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23936, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (23936,  22, True ) /* Inscribable */
+     , (23936,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23936,   5,    -0.5) /* ManaRate */
+     , (23936,  12,     0.5) /* Shade */
+     , (23936,  13,    0.75) /* ArmorModVsSlash */
+     , (23936,  14,    0.75) /* ArmorModVsPierce */
+     , (23936,  15,    0.75) /* ArmorModVsBludgeon */
+     , (23936,  16,    0.75) /* ArmorModVsCold */
+     , (23936,  17,       1) /* ArmorModVsFire */
+     , (23936,  18,       1) /* ArmorModVsAcid */
+     , (23936,  19,    0.75) /* ArmorModVsElectric */
+     , (23936, 110,       1) /* BulkMod */
+     , (23936, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23936,   1, 'Auroric Exarch Girth') /* Name */
+     , (23936,  16, 'A richly enchanted and ornate girth once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23936,   1,   33554647) /* Setup */
+     , (23936,   3,  536870932) /* SoundTable */
+     , (23936,   6,   67108990) /* PaletteBase */
+     , (23936,   7,  268436556) /* ClothingBase */
+     , (23936,   8,  100674131) /* Icon */
+     , (23936,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23936, 2350, 2) /* DecayDurance_SpellID */
-     , (23936, 2948, 2) /* HieroWardGreat_SpellID */
-     , (23936, 2380, 2) /* InstrumentalityGrip_SpellID */
-     , (23936, 211, 2) /* ManaRenewalOther6_SpellID */
-     , (23936, 2960, 2) /* BludgeoningDurance_SpellID */
-     , (23936, 2351, 2) /* ConsumptionDurance_SpellID */
-     , (23936, 2961, 2) /* PiercingDurance_SpellID */
-     , (23936, 273, 2) /* MagicResistanceOther6_SpellID */
-     , (23936, 2962, 2) /* SlashingDurance_SpellID */
-     , (23936, 2352, 2) /* StasisDurance_SpellID */
-     , (23936, 2353, 2) /* StimulationDurance_SpellID */;
-
+VALUES (23936,   211,      2)  /* Mana Renewal Other VI */
+     , (23936,   273,      2)  /* Magic Resistance Other VI */
+     , (23936,  2350,      2)  /* Greater Decay Durance */
+     , (23936,  2351,      2)  /* Greater Consumption Durance */
+     , (23936,  2352,      2)  /* Greater Stasis Durance */
+     , (23936,  2353,      2)  /* Greater Stimulation Durance */
+     , (23936,  2380,      2)  /* Grip of Instrumentality */
+     , (23936,  2948,      2)  /* Hieromancer's Great Ward */
+     , (23936,  2960,      2)  /* Greater Bludgeoning Durance */
+     , (23936,  2961,      2)  /* Greater Piercing Durance */
+     , (23936,  2962,      2)  /* Greater Slashing Durance */;

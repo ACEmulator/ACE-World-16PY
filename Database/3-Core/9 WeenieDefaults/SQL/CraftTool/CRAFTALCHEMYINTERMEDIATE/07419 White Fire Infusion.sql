@@ -1,44 +1,40 @@
-/* Weenie - White Fire Infusion (7419) */
-DELETE FROM weenie WHERE class_Id = 7419;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7419, 'whitefireinfusion', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7419, 001 /* NAME_STRING */, 'White Fire Infusion')
-     , (7419, 014 /* USE_STRING */, 'It looks like you could pour this on some other item.')
-     , (7419, 015 /* SHORT_DESC_STRING */, 'A small grass flask containing a radiant white liquid.')
-     , (7419, 016 /* LONG_DESC_STRING */, 'A small glass flask containing a radiant white liquid. It is impossible to guess how long its light has been lost beneath the earth.')
-     , (7419, 020 /* PLURAL_NAME_STRING */, 'White Fire Infusions')
-     , (7419, 033 /* QUEST_STRING */, 'WhiteFireInfusion');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7419, 001 /* SETUP_DID */, 33555965)
-     , (7419, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7419, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7419, 007 /* CLOTHINGBASE_DID */, 268435814)
-     , (7419, 008 /* ICON_DID */, 100670747)
-     , (7419, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7419', 'whitefireinfusion', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7419, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (7419, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (7419, 005 /* ENCUMB_VAL_INT */, 15)
-     , (7419, 008 /* MASS_INT */, 5)
-     , (7419, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7419, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (7419, 012 /* STACK_SIZE_INT */, 1)
-     , (7419, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (7419, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (7419, 015 /* STACK_UNIT_VALUE_INT */, 1500)
-     , (7419, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (7419, 019 /* VALUE_INT */, 1500)
-     , (7419, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7419, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7419, 094 /* TARGET_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (7419, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (7419,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (7419,   3,         61) /* PaletteTemplate - White */
+     , (7419,   5,         15) /* EncumbranceVal */
+     , (7419,   8,          5) /* Mass */
+     , (7419,   9,          0) /* ValidLocations - None */
+     , (7419,  11,          1) /* MaxStackSize */
+     , (7419,  12,          1) /* StackSize */
+     , (7419,  13,         15) /* StackUnitEncumbrance */
+     , (7419,  14,          5) /* StackUnitMass */
+     , (7419,  15,       1500) /* StackUnitValue */
+     , (7419,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (7419,  19,       1500) /* Value */
+     , (7419,  33,          1) /* Bonded - Bonded */
+     , (7419,  93,       1044) /* PhysicsState */
+     , (7419,  94,          1) /* TargetType - MeleeWeapon */
+     , (7419, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7419, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7419, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (7419,  22, True ) /* Inscribable */
+     , (7419,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7419,   1, 'White Fire Infusion') /* Name */
+     , (7419,  14, 'It looks like you could pour this on some other item.') /* Use */
+     , (7419,  15, 'A small grass flask containing a radiant white liquid.') /* ShortDesc */
+     , (7419,  16, 'A small glass flask containing a radiant white liquid. It is impossible to guess how long its light has been lost beneath the earth.') /* LongDesc */
+     , (7419,  20, 'White Fire Infusions') /* PluralName */
+     , (7419,  33, 'WhiteFireInfusion') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7419,   1,   33555965) /* Setup */
+     , (7419,   3,  536870932) /* SoundTable */
+     , (7419,   6,   67111919) /* PaletteBase */
+     , (7419,   7,  268435814) /* ClothingBase */
+     , (7419,   8,  100670747) /* Icon */
+     , (7419,  22,  872415275) /* PhysicsEffectTable */;

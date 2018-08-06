@@ -1,36 +1,32 @@
-/* Weenie - Hebian-To Middle Guard Tower Portal (11853) */
-DELETE FROM weenie WHERE class_Id = 11853;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11853, 'portalhebiantowerb', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11853, 001 /* NAME_STRING */, 'Hebian-To Middle Guard Tower Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11853, 001 /* SETUP_DID */, 33555923)
-     , (11853, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (11853, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11853', 'portalhebiantowerb', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11853, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (11853, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (11853, 086 /* MIN_LEVEL_INT */, 24)
-     , (11853, 087 /* MAX_LEVEL_INT */, 40)
-     , (11853, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (11853, 111 /* PORTAL_BITMASK_INT */, 17 /* Player_NotSummonable_PortalEnum */)
-     , (11853, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11853, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (11853,   1,      65536) /* ItemType - Portal */
+     , (11853,  16,         32) /* ItemUseable - Remote */
+     , (11853,  86,         24) /* MinLevel */
+     , (11853,  87,         40) /* MaxLevel */
+     , (11853,  93,       3084) /* PhysicsState */
+     , (11853, 111,         17) /* PortalBitmask */
+     , (11853, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11853, 001 /* STUCK_BOOL */, True)
-     , (11853, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (11853, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (11853, 013 /* ETHEREAL_BOOL */, True)
-     , (11853, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (11853,   1, True ) /* Stuck */
+     , (11853,  11, False) /* IgnoreCollisions */
+     , (11853,  12, True ) /* ReportCollisions */
+     , (11853,  13, True ) /* Ethereal */
+     , (11853,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11853,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11853,   1, 'Hebian-To Middle Guard Tower Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11853,   1,   33555923) /* Setup */
+     , (11853,   2,  150994947) /* MotionTable */
+     , (11853,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11853, 2, 3695706369, 154.8, 111.2, 76, -4.371139E-08, 0, 0, -1) /* DESTINATION_POSITION */;
-
+VALUES (11853, 2, 3695706369, 154.8, 111.2, 76, -4.371139E-08, 0, 0, -1) /* Destination */;

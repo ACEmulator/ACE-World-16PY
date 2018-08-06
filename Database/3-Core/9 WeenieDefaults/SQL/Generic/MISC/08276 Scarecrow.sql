@@ -1,45 +1,41 @@
-/* Weenie - Scarecrow (8276) */
-DELETE FROM weenie WHERE class_Id = 8276;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8276, 'scarecrowsuspiciousfake', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8276, 001 /* NAME_STRING */, 'Scarecrow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8276, 001 /* SETUP_DID */, 33556871)
-     , (8276, 006 /* PALETTE_BASE_DID */, 67112967)
-     , (8276, 007 /* CLOTHINGBASE_DID */, 268436084)
-     , (8276, 008 /* ICON_DID */, 100671141);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8276', 'scarecrowsuspiciousfake', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8276, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (8276, 003 /* PALETTE_TEMPLATE_INT */, 76 /* ORANGE_PALETTE_TEMPLATE */)
-     , (8276, 005 /* ENCUMB_VAL_INT */, 400)
-     , (8276, 008 /* MASS_INT */, 200)
-     , (8276, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8276, 019 /* VALUE_INT */, 0)
-     , (8276, 081 /* MAX_GENERATED_OBJECTS_INT */, 4)
-     , (8276, 082 /* INIT_GENERATED_OBJECTS_INT */, 2)
-     , (8276, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8276, 012 /* SHADE_FLOAT */, 1)
-     , (8276, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (8276, 043 /* GENERATOR_RADIUS_FLOAT */, 1);
+VALUES (8276,   1,        128) /* ItemType - Misc */
+     , (8276,   3,         76) /* PaletteTemplate - Orange */
+     , (8276,   5,        400) /* EncumbranceVal */
+     , (8276,   8,        200) /* Mass */
+     , (8276,  16,          1) /* ItemUseable - No */
+     , (8276,  19,          0) /* Value */
+     , (8276,  81,          4) /* MaxGeneratedObjects */
+     , (8276,  82,          2) /* InitGeneratedObjects */
+     , (8276,  93,       1040) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8276, 001 /* STUCK_BOOL */, True)
-     , (8276, 013 /* ETHEREAL_BOOL */, False);
+VALUES (8276,   1, True ) /* Stuck */
+     , (8276,  13, False) /* Ethereal */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8276,  12,       1) /* Shade */
+     , (8276,  41,      60) /* RegenerationInterval */
+     , (8276,  43,       1) /* GeneratorRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8276,   1, 'Scarecrow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8276,   1,   33556871) /* Setup */
+     , (8276,   6,   67112967) /* PaletteBase */
+     , (8276,   7,  268436084) /* ClothingBase */
+     , (8276,   8,  100671141) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8276, 0.12, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */
-     , (8276, 0.24, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 1.4, 1.4, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */
-     , (8276, 0.36, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */
-     , (8276, 0.48, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, -1.4, 1.4, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */
-     , (8276, 0.6, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, -2, 0, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */
-     , (8276, 0.72, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, -1.4, -1.4, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */
-     , (8276, 0.84, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 0, -2, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */
-     , (8276, 0.96, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 1.4, -1.4, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */;
-
+VALUES (8276, 0.12, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0)
+     , (8276, 0.24, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 1.4, 1.4, 0, 1, 0, 0, 0)
+     , (8276, 0.36, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0)
+     , (8276, 0.48, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, -1.4, 1.4, 0, 1, 0, 0, 0)
+     , (8276, 0.6, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, -2, 0, 0, 1, 0, 0, 0)
+     , (8276, 0.72, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, -1.4, -1.4, 0, 1, 0, 0, 0)
+     , (8276, 0.84, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 0, -2, 0, 1, 0, 0, 0)
+     , (8276, 0.96, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 1.4, -1.4, 0, 1, 0, 0, 0);

@@ -1,52 +1,48 @@
-/* Weenie - Bone Sword (29976) */
-DELETE FROM weenie WHERE class_Id = 29976;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29976, 'swordknighthigh', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29976, 001 /* NAME_STRING */, 'Bone Sword');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29976, 001 /* SETUP_DID */, 33558586)
-     , (29976, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29976, 008 /* ICON_DID */, 100675765)
-     , (29976, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29976, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29976', 'swordknighthigh', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29976, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (29976, 005 /* ENCUMB_VAL_INT */, 450)
-     , (29976, 008 /* MASS_INT */, 180)
-     , (29976, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (29976, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29976, 019 /* VALUE_INT */, 1150)
-     , (29976, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (29976, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (29976, 044 /* DAMAGE_INT */, 34)
-     , (29976, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (29976, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (29976, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (29976, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (29976, 049 /* WEAPON_TIME_INT */, 40)
-     , (29976, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (29976, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29976, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (29976, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (29976, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (29976, 109 /* ITEM_DIFFICULTY_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29976, 021 /* WEAPON_LENGTH_FLOAT */, 1.1)
-     , (29976, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (29976, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (29976, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (29976,   1,          1) /* ItemType - MeleeWeapon */
+     , (29976,   5,        450) /* EncumbranceVal */
+     , (29976,   8,        180) /* Mass */
+     , (29976,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (29976,  16,          1) /* ItemUseable - No */
+     , (29976,  19,       1150) /* Value */
+     , (29976,  33,         -2) /* Bonded - Destroy */
+     , (29976,  37,       9999) /* ResistItemAppraisal */
+     , (29976,  44,         34) /* Damage */
+     , (29976,  45,          3) /* DamageType */
+     , (29976,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (29976,  47,          6) /* AttackType */
+     , (29976,  48,         11) /* WeaponSkill - Sword */
+     , (29976,  49,         40) /* WeaponTime */
+     , (29976,  51,          1) /* CombatUse - Melee */
+     , (29976,  93,       1044) /* PhysicsState */
+     , (29976, 106,        250) /* ItemSpellcraft */
+     , (29976, 107,        500) /* ItemCurMana */
+     , (29976, 108,        500) /* ItemMaxMana */
+     , (29976, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29976, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29976, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29976,  22, True ) /* Inscribable */
+     , (29976,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29976,  21,     1.1) /* WeaponLength */
+     , (29976,  22,     0.5) /* DamageVariance */
+     , (29976,  29,       1) /* WeaponDefense */
+     , (29976,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29976,   1, 'Bone Sword') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29976,   1,   33558586) /* Setup */
+     , (29976,   3,  536870932) /* SoundTable */
+     , (29976,   8,  100675765) /* Icon */
+     , (29976,  22,  872415275) /* PhysicsEffectTable */
+     , (29976,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29976, 1615, 2) /* BloodDrinker5_SpellID */
-     , (29976, 1626, 2) /* SwiftKiller5_SpellID */;
-
+VALUES (29976,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (29976,  1626,      2)  /* Aura of Swift Killer Self V */;

@@ -1,38 +1,35 @@
-/* Weenie - An Interesting Note (25635) */
-DELETE FROM weenie WHERE class_Id = 25635;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25635, 'noteelementalcaverns', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25635, 001 /* NAME_STRING */, 'An Interesting Note')
-     , (25635, 015 /* SHORT_DESC_STRING */, 'An Interesting Note.')
-     , (25635, 016 /* LONG_DESC_STRING */, 'An interesting note found in the Elemental Caverns.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25635, 001 /* SETUP_DID */, 33554773)
-     , (25635, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25635, 008 /* ICON_DID */, 100668176)
-     , (25635, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25635', 'noteelementalcaverns', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25635, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (25635, 005 /* ENCUMB_VAL_INT */, 160)
-     , (25635, 008 /* MASS_INT */, 5)
-     , (25635, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25635, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (25635, 019 /* VALUE_INT */, 90)
-     , (25635, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25635, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25635, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (25635,   1,       8192) /* ItemType - Writable */
+     , (25635,   5,        160) /* EncumbranceVal */
+     , (25635,   8,          5) /* Mass */
+     , (25635,   9,          0) /* ValidLocations - None */
+     , (25635,  16,          8) /* ItemUseable - Contained */
+     , (25635,  19,         90) /* Value */
+     , (25635,  93,       1044) /* PhysicsState */
+     , (25635, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25635, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (25635,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25635,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25635,   1, 'An Interesting Note') /* Name */
+     , (25635,  15, 'An Interesting Note.') /* ShortDesc */
+     , (25635,  16, 'An interesting note found in the Elemental Caverns.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25635,   1,   33554773) /* Setup */
+     , (25635,   3,  536870932) /* SoundTable */
+     , (25635,   8,  100668176) /* Icon */
+     , (25635,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (25635, 1, 1000) /* Book Data */;
+VALUES (25635, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (25635, 0, 4294967295, 'Oswald', 'prewritten', False, '
@@ -50,4 +47,3 @@ an elemental choice one cannot unmake.
 
 -O
 ');
-

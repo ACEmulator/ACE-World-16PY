@@ -1,49 +1,45 @@
-/* Weenie - Drudge Mask (8149) */
-DELETE FROM weenie WHERE class_Id = 8149;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8149, 'maskdrudge', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8149, 001 /* NAME_STRING */, 'Drudge Mask')
-     , (8149, 016 /* LONG_DESC_STRING */, 'A mask made from the head of a Drudge Prowler.  Its skin is very well cured, and the mask is very well put together.  A faint odor still clings to it however...');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8149, 001 /* SETUP_DID */, 33556823)
-     , (8149, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8149, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (8149, 007 /* CLOTHINGBASE_DID */, 268436051)
-     , (8149, 008 /* ICON_DID */, 100671023)
-     , (8149, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8149', 'maskdrudge', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8149, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (8149, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (8149, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (8149, 005 /* ENCUMB_VAL_INT */, 150)
-     , (8149, 008 /* MASS_INT */, 75)
-     , (8149, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (8149, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8149, 019 /* VALUE_INT */, 75)
-     , (8149, 027 /* ARMOR_TYPE_INT */, 2)
-     , (8149, 028 /* ARMOR_LEVEL_INT */, 10)
-     , (8149, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8149, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8149, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8149, 012 /* SHADE_FLOAT */, 0.66)
-     , (8149, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.45)
-     , (8149, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.5)
-     , (8149, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.55)
-     , (8149, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.3)
-     , (8149, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.3)
-     , (8149, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.5)
-     , (8149, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.3)
-     , (8149, 110 /* BULK_MOD_FLOAT */, 1)
-     , (8149, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (8149,   1,          2) /* ItemType - Armor */
+     , (8149,   3,          4) /* PaletteTemplate - Brown */
+     , (8149,   4,      16384) /* ClothingPriority - Head */
+     , (8149,   5,        150) /* EncumbranceVal */
+     , (8149,   8,         75) /* Mass */
+     , (8149,   9,          1) /* ValidLocations - HeadWear */
+     , (8149,  16,          1) /* ItemUseable - No */
+     , (8149,  19,         75) /* Value */
+     , (8149,  27,          2) /* ArmorType */
+     , (8149,  28,         10) /* ArmorLevel */
+     , (8149,  93,       1044) /* PhysicsState */
+     , (8149, 150,        103) /* HookPlacement - Hook */
+     , (8149, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8149, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8149, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8149,  22, True ) /* Inscribable */
+     , (8149,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8149,  12,    0.66) /* Shade */
+     , (8149,  13,    0.45) /* ArmorModVsSlash */
+     , (8149,  14,     0.5) /* ArmorModVsPierce */
+     , (8149,  15,    0.55) /* ArmorModVsBludgeon */
+     , (8149,  16,     0.3) /* ArmorModVsCold */
+     , (8149,  17,     0.3) /* ArmorModVsFire */
+     , (8149,  18,     0.5) /* ArmorModVsAcid */
+     , (8149,  19,     0.3) /* ArmorModVsElectric */
+     , (8149, 110,       1) /* BulkMod */
+     , (8149, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8149,   1, 'Drudge Mask') /* Name */
+     , (8149,  16, 'A mask made from the head of a Drudge Prowler.  Its skin is very well cured, and the mask is very well put together.  A faint odor still clings to it however...') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8149,   1,   33556823) /* Setup */
+     , (8149,   3,  536870932) /* SoundTable */
+     , (8149,   6,   67108990) /* PaletteBase */
+     , (8149,   7,  268436051) /* ClothingBase */
+     , (8149,   8,  100671023) /* Icon */
+     , (8149,  22,  872415275) /* PhysicsEffectTable */;

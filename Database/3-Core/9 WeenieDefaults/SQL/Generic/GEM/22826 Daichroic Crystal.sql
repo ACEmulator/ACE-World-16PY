@@ -1,31 +1,27 @@
-/* Weenie - Daichroic Crystal (22826) */
-DELETE FROM weenie WHERE class_Id = 22826;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22826, 'dailantiumcrystal', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22826, 001 /* NAME_STRING */, 'Daichroic Crystal')
-     , (22826, 015 /* SHORT_DESC_STRING */, 'Daichroic  Crystal')
-     , (22826, 016 /* LONG_DESC_STRING */, 'A small quantity of Daichroic Crystal')
-     , (22826, 033 /* QUEST_STRING */, 'PICKEDUPDAILANTIUMCRYSTAL');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22826, 001 /* SETUP_DID */, 33554809)
-     , (22826, 008 /* ICON_DID */, 100673920);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22826', 'dailantiumcrystal', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22826, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22826, 005 /* ENCUMB_VAL_INT */, 50)
-     , (22826, 008 /* MASS_INT */, 25)
-     , (22826, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22826, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22826, 019 /* VALUE_INT */, 75)
-     , (22826, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22826, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22826, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (22826,   1,       2048) /* ItemType - Gem */
+     , (22826,   5,         50) /* EncumbranceVal */
+     , (22826,   8,         25) /* Mass */
+     , (22826,   9,          0) /* ValidLocations - None */
+     , (22826,  16,          1) /* ItemUseable - No */
+     , (22826,  19,         75) /* Value */
+     , (22826,  33,          1) /* Bonded - Bonded */
+     , (22826,  93,       1044) /* PhysicsState */
+     , (22826, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22826, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22826, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22826,  22, True ) /* Inscribable */
+     , (22826,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22826,   1, 'Daichroic Crystal') /* Name */
+     , (22826,  15, 'Daichroic  Crystal') /* ShortDesc */
+     , (22826,  16, 'A small quantity of Daichroic Crystal') /* LongDesc */
+     , (22826,  33, 'PICKEDUPDAILANTIUMCRYSTAL') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22826,   1,   33554809) /* Setup */
+     , (22826,   8,  100673920) /* Icon */;

@@ -1,30 +1,26 @@
-/* Weenie - South Holtburg Outpost Supplies (4410) */
-DELETE FROM weenie WHERE class_Id = 4410;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4410, 'holtburgsouthoutpostshopkeepsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4410, 001 /* NAME_STRING */, 'South Holtburg Outpost Supplies')
-     , (4410, 016 /* LONG_DESC_STRING */, 'South Holtburg Outpost Supplies');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4410, 001 /* SETUP_DID */, 33555088)
-     , (4410, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (4410, 007 /* CLOTHINGBASE_DID */, 268435656)
-     , (4410, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4410', 'holtburgsouthoutpostshopkeepsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4410, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4410, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4410, 008 /* MASS_INT */, 1800)
-     , (4410, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4410, 019 /* VALUE_INT */, 125)
-     , (4410, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4410,   1,        128) /* ItemType - Misc */
+     , (4410,   5,       9000) /* EncumbranceVal */
+     , (4410,   8,       1800) /* Mass */
+     , (4410,  16,          1) /* ItemUseable - No */
+     , (4410,  19,        125) /* Value */
+     , (4410,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4410, 001 /* STUCK_BOOL */, True)
-     , (4410, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4410, 013 /* ETHEREAL_BOOL */, False)
-     , (4410, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4410,   1, True ) /* Stuck */
+     , (4410,  12, True ) /* ReportCollisions */
+     , (4410,  13, False) /* Ethereal */
+     , (4410,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4410,   1, 'South Holtburg Outpost Supplies') /* Name */
+     , (4410,  16, 'South Holtburg Outpost Supplies') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4410,   1,   33555088) /* Setup */
+     , (4410,   6,   67111092) /* PaletteBase */
+     , (4410,   7,  268435656) /* ClothingBase */
+     , (4410,   8,  100668115) /* Icon */;

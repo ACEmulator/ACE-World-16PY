@@ -1,39 +1,35 @@
-/* Weenie - Rock of Splendor (25821) */
-DELETE FROM weenie WHERE class_Id = 25821;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25821, 'rockemptysoul', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25821, 001 /* NAME_STRING */, 'Rock of Splendor')
-     , (25821, 014 /* USE_STRING */, 'Something can be applied to this rock, but what that item is, is unclear.')
-     , (25821, 015 /* SHORT_DESC_STRING */, 'This rock is a perfect sphere, rubbed smooth in hot magma currents.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25821, 001 /* SETUP_DID */, 33554669)
-     , (25821, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25821, 007 /* CLOTHINGBASE_DID */, 268435751)
-     , (25821, 008 /* ICON_DID */, 100670073)
-     , (25821, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25821', 'rockemptysoul', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25821, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25821, 005 /* ENCUMB_VAL_INT */, 500)
-     , (25821, 008 /* MASS_INT */, 200)
-     , (25821, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25821, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (25821, 012 /* STACK_SIZE_INT */, 1)
-     , (25821, 013 /* STACK_UNIT_ENCUMB_INT */, 500)
-     , (25821, 014 /* STACK_UNIT_MASS_INT */, 200)
-     , (25821, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (25821, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (25821, 019 /* VALUE_INT */, 0)
-     , (25821, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25821, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25821, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25821, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (25821,   1,        128) /* ItemType - Misc */
+     , (25821,   5,        500) /* EncumbranceVal */
+     , (25821,   8,        200) /* Mass */
+     , (25821,   9,          0) /* ValidLocations - None */
+     , (25821,  11,          1) /* MaxStackSize */
+     , (25821,  12,          1) /* StackSize */
+     , (25821,  13,        500) /* StackUnitEncumbrance */
+     , (25821,  14,        200) /* StackUnitMass */
+     , (25821,  15,          0) /* StackUnitValue */
+     , (25821,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (25821,  19,          0) /* Value */
+     , (25821,  33,          1) /* Bonded - Bonded */
+     , (25821,  93,       1044) /* PhysicsState */
+     , (25821,  94,        128) /* TargetType - Misc */
+     , (25821, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25821, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25821, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (25821,  22, True ) /* Inscribable */
+     , (25821,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25821,   1, 'Rock of Splendor') /* Name */
+     , (25821,  14, 'Something can be applied to this rock, but what that item is, is unclear.') /* Use */
+     , (25821,  15, 'This rock is a perfect sphere, rubbed smooth in hot magma currents.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25821,   1,   33554669) /* Setup */
+     , (25821,   3,  536870932) /* SoundTable */
+     , (25821,   7,  268435751) /* ClothingBase */
+     , (25821,   8,  100670073) /* Icon */
+     , (25821,  22,  872415275) /* PhysicsEffectTable */;

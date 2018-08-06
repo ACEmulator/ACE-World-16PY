@@ -1,39 +1,36 @@
-/* Weenie - Queen Elysa's New Year's Resolutions (30739) */
-DELETE FROM weenie WHERE class_Id = 30739;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30739, 'notenewyearsresolutionselysa', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30739, 001 /* NAME_STRING */, 'Queen Elysa''s New Year''s Resolutions');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30739, 001 /* SETUP_DID */, 33554773)
-     , (30739, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30739, 008 /* ICON_DID */, 100667503)
-     , (30739, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30739', 'notenewyearsresolutionselysa', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30739, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (30739, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30739, 008 /* MASS_INT */, 5)
-     , (30739, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30739, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30739, 019 /* VALUE_INT */, 100)
-     , (30739, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
-     , (30739, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30739, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
-     , (30739, 150 /* HOOK_PLACEMENT_INT */, 99 /* XXXUnknown63 */)
-     , (30739, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30739, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (30739,   1,       8192) /* ItemType - Writable */
+     , (30739,   5,          5) /* EncumbranceVal */
+     , (30739,   8,          5) /* Mass */
+     , (30739,   9,          0) /* ValidLocations - None */
+     , (30739,  16,          8) /* ItemUseable - Contained */
+     , (30739,  19,        100) /* Value */
+     , (30739,  33,          0) /* Bonded - Normal */
+     , (30739,  93,       1044) /* PhysicsState */
+     , (30739, 114,          0) /* Attuned - Normal */
+     , (30739, 150,         99) /* HookPlacement - XXXUnknown63 */
+     , (30739, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30739, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (30739,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30739,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30739,   1, 'Queen Elysa''s New Year''s Resolutions') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30739,   1,   33554773) /* Setup */
+     , (30739,   3,  536870932) /* SoundTable */
+     , (30739,   8,  100667503) /* Icon */
+     , (30739,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (30739, 2, 1000) /* Book Data */;
+VALUES (30739, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (30739, 0, 4294967295, 'High Queen Elysa Strathelar', 'prewritten', False, '1. Knit a scarf for Borelean.
@@ -48,4 +45,3 @@ VALUES (30739, 0, 4294967295, 'High Queen Elysa Strathelar', 'prewritten', False
 9. Bind myself to a more conveniently placed lifestone.
 10. Find Oswald and kill him.
 ');
-

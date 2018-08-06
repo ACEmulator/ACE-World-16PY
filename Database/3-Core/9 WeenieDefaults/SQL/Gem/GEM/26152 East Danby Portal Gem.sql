@@ -1,48 +1,44 @@
-/* Weenie - East Danby Portal Gem (26152) */
-DELETE FROM weenie WHERE class_Id = 26152;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26152, 'gemportaleastdanby', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26152, 001 /* NAME_STRING */, 'East Danby Portal Gem')
-     , (26152, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26152, 001 /* SETUP_DID */, 33556769)
-     , (26152, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26152, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26152, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26152, 008 /* ICON_DID */, 100675760)
-     , (26152, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26152, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26152, 031 /* LINKED_PORTAL_ONE_DID */, 13101 /* East Danby Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26152', 'gemportaleastdanby', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26152, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26152, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26152, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26152, 008 /* MASS_INT */, 10)
-     , (26152, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26152, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26152, 012 /* STACK_SIZE_INT */, 1)
-     , (26152, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26152, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26152, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26152, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26152, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26152, 019 /* VALUE_INT */, 500)
-     , (26152, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26152, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26152, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26152, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26152, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26152, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26152, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26152, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26152, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26152,   1,       2048) /* ItemType - Gem */
+     , (26152,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26152,   5,         10) /* EncumbranceVal */
+     , (26152,   8,         10) /* Mass */
+     , (26152,   9,          0) /* ValidLocations - None */
+     , (26152,  11,         20) /* MaxStackSize */
+     , (26152,  12,          1) /* StackSize */
+     , (26152,  13,         10) /* StackUnitEncumbrance */
+     , (26152,  14,         10) /* StackUnitMass */
+     , (26152,  15,        500) /* StackUnitValue */
+     , (26152,  16,          8) /* ItemUseable - Contained */
+     , (26152,  18,          1) /* UiEffects - Magical */
+     , (26152,  19,        500) /* Value */
+     , (26152,  93,       3092) /* PhysicsState */
+     , (26152,  94,         16) /* TargetType - Creature */
+     , (26152, 106,        210) /* ItemSpellcraft */
+     , (26152, 107,         50) /* ItemCurMana */
+     , (26152, 108,         50) /* ItemMaxMana */
+     , (26152, 109,          0) /* ItemDifficulty */
+     , (26152, 110,          0) /* ItemAllegianceRankLimit */
+     , (26152, 150,        103) /* HookPlacement - Hook */
+     , (26152, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26152, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26152, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26152,  15, True ) /* LightsStatus */
+     , (26152,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26152,   1, 'East Danby Portal Gem') /* Name */
+     , (26152,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26152,   1,   33556769) /* Setup */
+     , (26152,   3,  536870932) /* SoundTable */
+     , (26152,   6,   67111919) /* PaletteBase */
+     , (26152,   7,  268435723) /* ClothingBase */
+     , (26152,   8,  100675760) /* Icon */
+     , (26152,  22,  872415275) /* PhysicsEffectTable */
+     , (26152,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26152,  31,      13101) /* LinkedPortalOne - East Danby Portal */;

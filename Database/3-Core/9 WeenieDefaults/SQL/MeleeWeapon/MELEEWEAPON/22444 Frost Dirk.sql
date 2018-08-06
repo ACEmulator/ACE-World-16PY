@@ -1,48 +1,44 @@
-/* Weenie - Frost Dirk (22444) */
-DELETE FROM weenie WHERE class_Id = 22444;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22444, 'dirkfrost', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22444, 001 /* NAME_STRING */, 'Frost Dirk');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22444, 001 /* SETUP_DID */, 33558091)
-     , (22444, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22444, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22444, 007 /* CLOTHINGBASE_DID */, 268436501)
-     , (22444, 008 /* ICON_DID */, 100673795)
-     , (22444, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (22444, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (22444, 046 /* TSYS_MUTATION_FILTER_DID */, 939524145);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22444', 'dirkfrost', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22444, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (22444, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (22444, 005 /* ENCUMB_VAL_INT */, 200)
-     , (22444, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (22444, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22444, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (22444, 019 /* VALUE_INT */, 100)
-     , (22444, 044 /* DAMAGE_INT */, 7)
-     , (22444, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (22444, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (22444, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (22444, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (22444, 049 /* WEAPON_TIME_INT */, 40)
-     , (22444, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (22444, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22444, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22444, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (22444, 169 /* TSYS_MUTATION_DATA_INT */, 101254146);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22444, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (22444, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (22444, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (22444, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (22444,   1,          1) /* ItemType - MeleeWeapon */
+     , (22444,   3,          2) /* PaletteTemplate - Blue */
+     , (22444,   5,        200) /* EncumbranceVal */
+     , (22444,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (22444,  16,          1) /* ItemUseable - No */
+     , (22444,  18,        128) /* UiEffects - Frost */
+     , (22444,  19,        100) /* Value */
+     , (22444,  44,          7) /* Damage */
+     , (22444,  45,          8) /* DamageType - Cold */
+     , (22444,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (22444,  47,          6) /* AttackType */
+     , (22444,  48,          4) /* WeaponSkill - Dagger */
+     , (22444,  49,         40) /* WeaponTime */
+     , (22444,  51,          1) /* CombatUse - Melee */
+     , (22444,  93,       1044) /* PhysicsState */
+     , (22444, 150,        103) /* HookPlacement - Hook */
+     , (22444, 151,          2) /* HookType - Wall */
+     , (22444, 169,  101254146) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22444, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22444,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22444,  21,     0.4) /* WeaponLength */
+     , (22444,  22,    0.75) /* DamageVariance */
+     , (22444,  29,       1) /* WeaponDefense */
+     , (22444,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22444,   1, 'Frost Dirk') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22444,   1,   33558091) /* Setup */
+     , (22444,   3,  536870932) /* SoundTable */
+     , (22444,   6,   67111919) /* PaletteBase */
+     , (22444,   7,  268436501) /* ClothingBase */
+     , (22444,   8,  100673795) /* Icon */
+     , (22444,  22,  872415275) /* PhysicsEffectTable */
+     , (22444,  36,  234881053) /* MutateFilter */
+     , (22444,  46,  939524145) /* TsysMutationFilter */;

@@ -1,41 +1,37 @@
-/* Weenie - Flames (5148) */
-DELETE FROM weenie WHERE class_Id = 5148;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5148, 'fireplacefire', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5148, 001 /* NAME_STRING */, 'Flames')
-     , (5148, 017 /* ACTIVATION_TALK_STRING */, 'The flames burn you for %i damage!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5148, 001 /* SETUP_DID */, 33555589)
-     , (5148, 003 /* SOUND_TABLE_DID */, 536870994)
-     , (5148, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5148', 'fireplacefire', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5148, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (5148, 005 /* ENCUMB_VAL_INT */, 10)
-     , (5148, 008 /* MASS_INT */, 500)
-     , (5148, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5148, 019 /* VALUE_INT */, 5)
-     , (5148, 044 /* DAMAGE_INT */, 10)
-     , (5148, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (5148, 093 /* PHYSICS_STATE_INT */, 1036 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (5148, 119 /* ACTIVE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5148, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (5148, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 4)
-     , (5148, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0.25);
+VALUES (5148,   1,        128) /* ItemType - Misc */
+     , (5148,   5,         10) /* EncumbranceVal */
+     , (5148,   8,        500) /* Mass */
+     , (5148,  16,          1) /* ItemUseable - No */
+     , (5148,  19,          5) /* Value */
+     , (5148,  44,         10) /* Damage */
+     , (5148,  45,         32) /* DamageType - Acid */
+     , (5148,  93,       1036) /* PhysicsState */
+     , (5148, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5148, 001 /* STUCK_BOOL */, True)
-     , (5148, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (5148, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5148, 013 /* ETHEREAL_BOOL */, True)
-     , (5148, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (5148, 024 /* UI_HIDDEN_BOOL */, True)
-     , (5148, 055 /* IS_HOT_BOOL */, True)
-     , (5148, 057 /* AFFECTS_AIS_BOOL */, False);
+VALUES (5148,   1, True ) /* Stuck */
+     , (5148,  11, False) /* IgnoreCollisions */
+     , (5148,  12, True ) /* ReportCollisions */
+     , (5148,  13, True ) /* Ethereal */
+     , (5148,  14, True ) /* GravityStatus */
+     , (5148,  24, True ) /* UiHidden */
+     , (5148,  55, True ) /* IsHot */
+     , (5148,  57, False) /* AffectsAis */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5148,  22,    0.75) /* DamageVariance */
+     , (5148, 105,       4) /* HotspotCycleTime */
+     , (5148, 106,    0.25) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5148,   1, 'Flames') /* Name */
+     , (5148,  17, 'The flames burn you for %i damage!') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5148,   1,   33555589) /* Setup */
+     , (5148,   3,  536870994) /* SoundTable */
+     , (5148,   8,  100667465) /* Icon */;

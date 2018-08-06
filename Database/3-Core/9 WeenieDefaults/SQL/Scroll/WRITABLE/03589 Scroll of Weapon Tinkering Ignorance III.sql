@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Weapon Tinkering Ignorance III (3589) */
-DELETE FROM weenie WHERE class_Id = 3589;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3589, 'scrollweaponignorance3', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3589, 001 /* NAME_STRING */, 'Scroll of Weapon Tinkering Ignorance III')
-     , (3589, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3589, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Weapon Tinkering skill by 33%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3589, 001 /* SETUP_DID */, 33554826)
-     , (3589, 008 /* ICON_DID */, 100676477)
-     , (3589, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3589, 028 /* SPELL_DID */, 794 /* WeaponIgnoranceOther3_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3589', 'scrollweaponignorance3', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3589, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3589, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3589, 008 /* MASS_INT */, 90)
-     , (3589, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3589, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3589, 019 /* VALUE_INT */, 20)
-     , (3589, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3589, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3589,   1,       8192) /* ItemType - Writable */
+     , (3589,   5,         30) /* EncumbranceVal */
+     , (3589,   8,         90) /* Mass */
+     , (3589,   9,          0) /* ValidLocations - None */
+     , (3589,  16,          8) /* ItemUseable - Contained */
+     , (3589,  19,         20) /* Value */
+     , (3589,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3589, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3589, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3589,  22, True ) /* Inscribable */
+     , (3589,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3589,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3589,   1, 'Scroll of Weapon Tinkering Ignorance III') /* Name */
+     , (3589,  15, 'A magic scroll.') /* ShortDesc */
+     , (3589,  16, 'When learned, this spell decreases the target''s Weapon Tinkering skill by 33%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3589,   1,   33554826) /* Setup */
+     , (3589,   8,  100676477) /* Icon */
+     , (3589,  22,  872415275) /* PhysicsEffectTable */
+     , (3589,  28,        794) /* Spell - Weapon Tinkering Ignorance Other III */;

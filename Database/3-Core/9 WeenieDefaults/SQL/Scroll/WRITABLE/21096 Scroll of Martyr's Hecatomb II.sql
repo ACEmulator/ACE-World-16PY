@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Martyr's Hecatomb II (21096) */
-DELETE FROM weenie WHERE class_Id = 21096;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21096, 'scrollhealthbolt2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21096, 001 /* NAME_STRING */, 'Scroll of Martyr''s Hecatomb II')
-     , (21096, 015 /* SHORT_DESC_STRING */, 'When learned, this spell drains one-quarter of the casters Health into a bolt of energy which shoots at the target.  The bolt does 65% of the amount drained.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21096, 001 /* SETUP_DID */, 33554826)
-     , (21096, 008 /* ICON_DID */, 100676938)
-     , (21096, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21096, 028 /* SPELL_DID */, 2761 /* HealthBolt2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21096', 'scrollhealthbolt2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21096, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (21096, 005 /* ENCUMB_VAL_INT */, 30)
-     , (21096, 008 /* MASS_INT */, 90)
-     , (21096, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (21096, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (21096, 019 /* VALUE_INT */, 5)
-     , (21096, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21096, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (21096,   1,       8192) /* ItemType - Writable */
+     , (21096,   5,         30) /* EncumbranceVal */
+     , (21096,   8,         90) /* Mass */
+     , (21096,   9,          0) /* ValidLocations - None */
+     , (21096,  16,          8) /* ItemUseable - Contained */
+     , (21096,  19,          5) /* Value */
+     , (21096,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21096, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21096, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (21096,  22, True ) /* Inscribable */
+     , (21096,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21096,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21096,   1, 'Scroll of Martyr''s Hecatomb II') /* Name */
+     , (21096,  15, 'When learned, this spell drains one-quarter of the casters Health into a bolt of energy which shoots at the target.  The bolt does 65% of the amount drained.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21096,   1,   33554826) /* Setup */
+     , (21096,   8,  100676938) /* Icon */
+     , (21096,  22,  872415275) /* PhysicsEffectTable */
+     , (21096,  28,       2761) /* Spell - Martyr's Hecatomb II */;

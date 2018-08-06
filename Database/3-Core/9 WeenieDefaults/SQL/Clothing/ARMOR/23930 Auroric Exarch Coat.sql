@@ -1,70 +1,66 @@
-/* Weenie - Auroric Exarch Coat (23930) */
-DELETE FROM weenie WHERE class_Id = 23930;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23930, 'coataurorblue', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23930, 001 /* NAME_STRING */, 'Auroric Exarch Coat')
-     , (23930, 016 /* LONG_DESC_STRING */, 'A richly enchanted and ornate coat once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness. The seal of the Lightbringer adorns the chestplate.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23930, 001 /* SETUP_DID */, 33554644)
-     , (23930, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23930, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (23930, 007 /* CLOTHINGBASE_DID */, 268436554)
-     , (23930, 008 /* ICON_DID */, 100674123)
-     , (23930, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23930', 'coataurorblue', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23930, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (23930, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (23930, 004 /* CLOTHING_PRIORITY_INT */, 46080 /* OuterwearChest, OuterwearUpperArms, OuterwearLowerArms, Hands */)
-     , (23930, 005 /* ENCUMB_VAL_INT */, 300)
-     , (23930, 008 /* MASS_INT */, 700)
-     , (23930, 009 /* LOCATIONS_INT */, 6688 /* HAND_WEAR_LOC, CHEST_ARMOR_LOC, UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (23930, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23930, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (23930, 019 /* VALUE_INT */, 6800)
-     , (23930, 027 /* ARMOR_TYPE_INT */, 32)
-     , (23930, 028 /* ARMOR_LEVEL_INT */, 225)
-     , (23930, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (23930, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23930, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (23930, 107 /* ITEM_CUR_MANA_INT */, 4000)
-     , (23930, 108 /* ITEM_MAX_MANA_INT */, 4000)
-     , (23930, 109 /* ITEM_DIFFICULTY_INT */, 50)
-     , (23930, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (23930, 159 /* WIELD_SKILLTYPE_INT */, 34 /* WAR_MAGIC_SKILL */)
-     , (23930, 160 /* WIELD_DIFFICULTY_INT */, 315);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23930, 005 /* MANA_RATE_FLOAT */, -0.5)
-     , (23930, 012 /* SHADE_FLOAT */, 0.5)
-     , (23930, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.75)
-     , (23930, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.75)
-     , (23930, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.75)
-     , (23930, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.75)
-     , (23930, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (23930, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (23930, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.75)
-     , (23930, 110 /* BULK_MOD_FLOAT */, 1)
-     , (23930, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (23930,   1,          2) /* ItemType - Armor */
+     , (23930,   3,          2) /* PaletteTemplate - Blue */
+     , (23930,   4,      46080) /* ClothingPriority */
+     , (23930,   5,        300) /* EncumbranceVal */
+     , (23930,   8,        700) /* Mass */
+     , (23930,   9,       6688) /* ValidLocations */
+     , (23930,  16,          1) /* ItemUseable - No */
+     , (23930,  18,          1) /* UiEffects - Magical */
+     , (23930,  19,       6800) /* Value */
+     , (23930,  27,         32) /* ArmorType */
+     , (23930,  28,        225) /* ArmorLevel */
+     , (23930,  36,       9999) /* ResistMagic */
+     , (23930,  93,       1044) /* PhysicsState */
+     , (23930, 106,        300) /* ItemSpellcraft */
+     , (23930, 107,       4000) /* ItemCurMana */
+     , (23930, 108,       4000) /* ItemMaxMana */
+     , (23930, 109,         50) /* ItemDifficulty */
+     , (23930, 158,          2) /* WieldRequirements - RawSkill */
+     , (23930, 159,         34) /* WieldSkilltype - WarMagic */
+     , (23930, 160,        315) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23930, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23930, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (23930,  22, True ) /* Inscribable */
+     , (23930,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23930,   5,    -0.5) /* ManaRate */
+     , (23930,  12,     0.5) /* Shade */
+     , (23930,  13,    0.75) /* ArmorModVsSlash */
+     , (23930,  14,    0.75) /* ArmorModVsPierce */
+     , (23930,  15,    0.75) /* ArmorModVsBludgeon */
+     , (23930,  16,    0.75) /* ArmorModVsCold */
+     , (23930,  17,       1) /* ArmorModVsFire */
+     , (23930,  18,       1) /* ArmorModVsAcid */
+     , (23930,  19,    0.75) /* ArmorModVsElectric */
+     , (23930, 110,       1) /* BulkMod */
+     , (23930, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23930,   1, 'Auroric Exarch Coat') /* Name */
+     , (23930,  16, 'A richly enchanted and ornate coat once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness. The seal of the Lightbringer adorns the chestplate.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23930,   1,   33554644) /* Setup */
+     , (23930,   3,  536870932) /* SoundTable */
+     , (23930,   6,   67108990) /* PaletteBase */
+     , (23930,   7,  268436554) /* ClothingBase */
+     , (23930,   8,  100674123) /* Icon */
+     , (23930,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23930, 2350, 2) /* DecayDurance_SpellID */
-     , (23930, 908, 2) /* LeadershipMasteryOther5_SpellID */
-     , (23930, 2948, 2) /* HieroWardGreat_SpellID */
-     , (23930, 664, 2) /* ManaMasteryOther6_SpellID */
-     , (23930, 2377, 2) /* AnnihilationVision_SpellID */
-     , (23930, 2960, 2) /* BludgeoningDurance_SpellID */
-     , (23930, 2351, 2) /* ConsumptionDurance_SpellID */
-     , (23930, 2961, 2) /* PiercingDurance_SpellID */
-     , (23930, 2962, 2) /* SlashingDurance_SpellID */
-     , (23930, 2352, 2) /* StasisDurance_SpellID */
-     , (23930, 2353, 2) /* StimulationDurance_SpellID */;
-
+VALUES (23930,   664,      2)  /* Mana Conversion Mastery Other VI */
+     , (23930,   908,      2)  /* Leadership Mastery Other V */
+     , (23930,  2350,      2)  /* Greater Decay Durance */
+     , (23930,  2351,      2)  /* Greater Consumption Durance */
+     , (23930,  2352,      2)  /* Greater Stasis Durance */
+     , (23930,  2353,      2)  /* Greater Stimulation Durance */
+     , (23930,  2377,      2)  /* Vision of Annihilation */
+     , (23930,  2948,      2)  /* Hieromancer's Great Ward */
+     , (23930,  2960,      2)  /* Greater Bludgeoning Durance */
+     , (23930,  2961,      2)  /* Greater Piercing Durance */
+     , (23930,  2962,      2)  /* Greater Slashing Durance */;

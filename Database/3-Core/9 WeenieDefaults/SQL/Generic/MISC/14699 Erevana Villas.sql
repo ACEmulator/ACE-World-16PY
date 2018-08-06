@@ -1,28 +1,24 @@
-/* Weenie - Erevana Villas (14699) */
-DELETE FROM weenie WHERE class_Id = 14699;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14699, 'erevanavillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14699, 001 /* NAME_STRING */, 'Erevana Villas')
-     , (14699, 016 /* LONG_DESC_STRING */, 'Welcome to Erevana Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14699, 001 /* SETUP_DID */, 33557463)
-     , (14699, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14699', 'erevanavillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14699, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14699, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14699, 008 /* MASS_INT */, 1800)
-     , (14699, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14699, 019 /* VALUE_INT */, 125)
-     , (14699, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14699,   1,        128) /* ItemType - Misc */
+     , (14699,   5,       9000) /* EncumbranceVal */
+     , (14699,   8,       1800) /* Mass */
+     , (14699,  16,          1) /* ItemUseable - No */
+     , (14699,  19,        125) /* Value */
+     , (14699,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14699, 001 /* STUCK_BOOL */, True)
-     , (14699, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14699, 013 /* ETHEREAL_BOOL */, False)
-     , (14699, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14699,   1, True ) /* Stuck */
+     , (14699,  12, True ) /* ReportCollisions */
+     , (14699,  13, False) /* Ethereal */
+     , (14699,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14699,   1, 'Erevana Villas') /* Name */
+     , (14699,  16, 'Welcome to Erevana Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14699,   1,   33557463) /* Setup */
+     , (14699,   8,  100668115) /* Icon */;

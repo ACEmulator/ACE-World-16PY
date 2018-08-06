@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Monster Unfamiliarity IV (3445) */
-DELETE FROM weenie WHERE class_Id = 3445;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3445, 'scrollmonsterunfamiliarity4', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3445, 001 /* NAME_STRING */, 'Scroll of Monster Unfamiliarity IV')
-     , (3445, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3445, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Assess Monster skill by 43%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3445, 001 /* SETUP_DID */, 33554826)
-     , (3445, 008 /* ICON_DID */, 100676448)
-     , (3445, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3445, 028 /* SPELL_DID */, 820 /* MonsterUnfamiliarityOther4_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3445', 'scrollmonsterunfamiliarity4', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3445, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3445, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3445, 008 /* MASS_INT */, 90)
-     , (3445, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3445, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3445, 019 /* VALUE_INT */, 100)
-     , (3445, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3445, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3445,   1,       8192) /* ItemType - Writable */
+     , (3445,   5,         30) /* EncumbranceVal */
+     , (3445,   8,         90) /* Mass */
+     , (3445,   9,          0) /* ValidLocations - None */
+     , (3445,  16,          8) /* ItemUseable - Contained */
+     , (3445,  19,        100) /* Value */
+     , (3445,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3445, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3445, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3445,  22, True ) /* Inscribable */
+     , (3445,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3445,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3445,   1, 'Scroll of Monster Unfamiliarity IV') /* Name */
+     , (3445,  15, 'A magic scroll.') /* ShortDesc */
+     , (3445,  16, 'When learned, this spell decreases the target''s Assess Monster skill by 43%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3445,   1,   33554826) /* Setup */
+     , (3445,   8,  100676448) /* Icon */
+     , (3445,  22,  872415275) /* PhysicsEffectTable */
+     , (3445,  28,        820) /* Spell - Monster Unfamiliarity Other IV */;

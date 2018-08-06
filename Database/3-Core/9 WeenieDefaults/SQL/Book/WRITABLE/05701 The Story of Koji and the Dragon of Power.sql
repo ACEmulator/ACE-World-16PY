@@ -1,37 +1,34 @@
-/* Weenie - The Story of Koji and the Dragon of Power (5701) */
-DELETE FROM weenie WHERE class_Id = 5701;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5701, 'lecternkoji2', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5701, 001 /* NAME_STRING */, 'The Story of Koji and the Dragon of Power');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5701, 001 /* SETUP_DID */, 33556013)
-     , (5701, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5701, 008 /* ICON_DID */, 100668236)
-     , (5701, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5701', 'lecternkoji2', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5701, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5701, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5701, 008 /* MASS_INT */, 5)
-     , (5701, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5701, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5701, 019 /* VALUE_INT */, 10)
-     , (5701, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5701, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5701,   1,       8192) /* ItemType - Writable */
+     , (5701,   5,         25) /* EncumbranceVal */
+     , (5701,   8,          5) /* Mass */
+     , (5701,   9,          0) /* ValidLocations - None */
+     , (5701,  16,          8) /* ItemUseable - Contained */
+     , (5701,  19,         10) /* Value */
+     , (5701,  93,       1040) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5701, 001 /* STUCK_BOOL */, True)
-     , (5701, 013 /* ETHEREAL_BOOL */, False)
-     , (5701, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5701,   1, True ) /* Stuck */
+     , (5701,  13, False) /* Ethereal */
+     , (5701,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5701,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5701,   1, 'The Story of Koji and the Dragon of Power') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5701,   1,   33556013) /* Setup */
+     , (5701,   3,  536870932) /* SoundTable */
+     , (5701,   8,  100668236) /* Icon */
+     , (5701,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5701, 16, 1000) /* Book Data */;
+VALUES (5701, 16, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5701, 0, 4294967295, 'Koji and the Dragon', 'prewritten', False, 'Once upon a time, as Koji traveled the land of Ryujii with her tachi, she decided to go pray at the great statue of Jojii at the capital.  Near the city, she found a Temple of the Dragon of Power beside the road.  At the time, Koji mistrusted the Dragon of Power, for everyone taught how fickle the Dragon was, but she stopped at the Temple to rest for the night anyway.
@@ -86,4 +83,3 @@ Suddenly her limbs were given great strength, and she easily picked up the man a
 
 As for the voice, some say that it was the voice of the Dragon; others say it was the voice of Jojii; still others say the One spoke to Koji directly.  But does it really matter?
 ');
-

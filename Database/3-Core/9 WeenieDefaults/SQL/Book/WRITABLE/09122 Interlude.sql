@@ -1,36 +1,33 @@
-/* Weenie - Interlude (9122) */
-DELETE FROM weenie WHERE class_Id = 9122;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9122, 'diarymartinerevenge5', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9122, 001 /* NAME_STRING */, 'Interlude')
-     , (9122, 015 /* SHORT_DESC_STRING */, 'The fifth installment of a tale by Martine');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9122, 001 /* SETUP_DID */, 33554771)
-     , (9122, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9122, 008 /* ICON_DID */, 100668117)
-     , (9122, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9122', 'diarymartinerevenge5', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9122, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (9122, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9122, 008 /* MASS_INT */, 200)
-     , (9122, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9122, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (9122, 019 /* VALUE_INT */, 10)
-     , (9122, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9122, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (9122,   1,       8192) /* ItemType - Writable */
+     , (9122,   5,         10) /* EncumbranceVal */
+     , (9122,   8,        200) /* Mass */
+     , (9122,   9,          0) /* ValidLocations - None */
+     , (9122,  16,          8) /* ItemUseable - Contained */
+     , (9122,  19,         10) /* Value */
+     , (9122,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9122, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (9122,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9122,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9122,   1, 'Interlude') /* Name */
+     , (9122,  15, 'The fifth installment of a tale by Martine') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9122,   1,   33554771) /* Setup */
+     , (9122,   3,  536870932) /* SoundTable */
+     , (9122,   8,  100668117) /* Icon */
+     , (9122,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (9122, 18, 1000) /* Book Data */;
+VALUES (9122, 18, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (9122, 0, 4294967295, '', 'prewritten', False, 'Interlude
@@ -79,4 +76,3 @@ The man was happy when Shalafal left.
 ')
      , (9122, 17, 4294967295, '', 'prewritten', False, 'He cannot say why he is so blessed.  Later that night, as he falls into sleep, he tells himself not to dream about the strange world that has filled his nights lately.  When he finally does dream, though, he finds himself once more walking through forests underneath two giant moons.  And this time, the whole world is calling his name. 
 ');
-

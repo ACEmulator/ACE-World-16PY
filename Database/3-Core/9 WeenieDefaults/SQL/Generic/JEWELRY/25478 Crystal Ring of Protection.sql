@@ -1,54 +1,58 @@
-/* Weenie - Crystal Ring of Protection (25478) */
-DELETE FROM weenie WHERE class_Id = 25478;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25478, 'ringcrystal1rot2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25478, 001 /* NAME_STRING */, 'Crystal Ring of Protection')
-     , (25478, 016 /* LONG_DESC_STRING */, 'A ring carved of Whispering Venom crystal. When worn, it allows portal passage down to the Lair of the Ancient Queen.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25478, 001 /* SETUP_DID */, 33554690)
-     , (25478, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25478, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (25478, 008 /* ICON_DID */, 100674800)
-     , (25478, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25478', 'ringcrystal1rot2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25478, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (25478, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (25478, 005 /* ENCUMB_VAL_INT */, 30)
-     , (25478, 008 /* MASS_INT */, 20)
-     , (25478, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (25478, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25478, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (25478, 019 /* VALUE_INT */, 50)
-     , (25478, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25478, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25478, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (25478, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (25478, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (25478, 109 /* ITEM_DIFFICULTY_INT */, 10)
-     , (25478, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25478, 005 /* MANA_RATE_FLOAT */, -0.033333)
-     , (25478, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (25478,   1,          8) /* ItemType - Jewelry */
+     , (25478,   3,          2) /* PaletteTemplate - Blue */
+     , (25478,   5,         30) /* EncumbranceVal */
+     , (25478,   8,         20) /* Mass */
+     , (25478,   9,     786432) /* ValidLocations - FingerWear */
+     , (25478,  16,          1) /* ItemUseable - No */
+     , (25478,  18,          1) /* UiEffects - Magical */
+     , (25478,  19,         50) /* Value */
+     , (25478,  33,          1) /* Bonded - Bonded */
+     , (25478,  93,       1044) /* PhysicsState */
+     , (25478, 106,        150) /* ItemSpellcraft */
+     , (25478, 107,        500) /* ItemCurMana */
+     , (25478, 108,        500) /* ItemMaxMana */
+     , (25478, 109,         10) /* ItemDifficulty */
+     , (25478, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25478, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25478, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (25478, 099 /* IVORYABLE_BOOL */, True);
+VALUES (25478,  22, True ) /* Inscribable */
+     , (25478,  23, True ) /* DestroyOnSell */
+     , (25478,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25478,   5, -0.033333) /* ManaRate */
+     , (25478,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25478,   1, 'Crystal Ring of Protection') /* Name */
+     , (25478,  16, 'A ring carved of Whispering Venom crystal. When worn, it allows portal passage down to the Lair of the Ancient Queen.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25478,   1,   33554690) /* Setup */
+     , (25478,   3,  536870932) /* SoundTable */
+     , (25478,   6,   67111919) /* PaletteBase */
+     , (25478,   8,  100674800) /* Icon */
+     , (25478,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25478, 512, 2) /* AcidProtectionOther4_SpellID */;
+VALUES (25478,   512,      2)  /* Acid Protection Other IV */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25478, 1, 25 /* Wield_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25478, 1, 26 /* UnWield_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25478, 25 /* Wield */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25478, 25 /* Wield_EmoteCategory */, 0, 0, 22 /* StampQuest_EmoteType */, 0, 1, NULL, 'CanAccessQueenLairROT2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25478, 26 /* UnWield_EmoteCategory */, 0, 0, 31 /* EraseQuest_EmoteType */, 0, 1, NULL, 'CanAccessQueenLairROT2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+SET @parent_id = LAST_INSERT_ID();
 
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'CanAccessQueenLairROT2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25478, 26 /* UnWield */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  31 /* EraseQuest */, 0, 1, NULL, 'CanAccessQueenLairROT2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

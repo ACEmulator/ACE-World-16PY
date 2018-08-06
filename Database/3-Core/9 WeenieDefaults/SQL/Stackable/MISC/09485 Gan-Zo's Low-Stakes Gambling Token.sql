@@ -1,39 +1,35 @@
-/* Weenie - Gan-Zo's Low-Stakes Gambling Token (9485) */
-DELETE FROM weenie WHERE class_Id = 9485;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9485, 'tokengamblinglowsho', 51 /* Stackable_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9485, 001 /* NAME_STRING */, 'Gan-Zo''s Low-Stakes Gambling Token')
-     , (9485, 016 /* LONG_DESC_STRING */, 'A green gambling token from Gan-Zo''s Den of Iniquity.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9485, 001 /* SETUP_DID */, 33557006)
-     , (9485, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9485, 006 /* PALETTE_BASE_DID */, 67113173)
-     , (9485, 007 /* CLOTHINGBASE_DID */, 268436161)
-     , (9485, 008 /* ICON_DID */, 100671523)
-     , (9485, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9485', 'tokengamblinglowsho', 51) /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9485, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9485, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9485, 008 /* MASS_INT */, 10)
-     , (9485, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9485, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (9485, 012 /* STACK_SIZE_INT */, 1)
-     , (9485, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (9485, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (9485, 015 /* STACK_UNIT_VALUE_INT */, 1000)
-     , (9485, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9485, 019 /* VALUE_INT */, 1000)
-     , (9485, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9485, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9485, 039 /* DEFAULT_SCALE_FLOAT */, 0.67);
+VALUES (9485,   1,        128) /* ItemType - Misc */
+     , (9485,   5,         10) /* EncumbranceVal */
+     , (9485,   8,         10) /* Mass */
+     , (9485,   9,          0) /* ValidLocations - None */
+     , (9485,  11,        100) /* MaxStackSize */
+     , (9485,  12,          1) /* StackSize */
+     , (9485,  13,         10) /* StackUnitEncumbrance */
+     , (9485,  14,         10) /* StackUnitMass */
+     , (9485,  15,       1000) /* StackUnitValue */
+     , (9485,  16,          1) /* ItemUseable - No */
+     , (9485,  19,       1000) /* Value */
+     , (9485,  33,          1) /* Bonded - Bonded */
+     , (9485,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9485, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9485,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9485,  39,    0.67) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9485,   1, 'Gan-Zo''s Low-Stakes Gambling Token') /* Name */
+     , (9485,  16, 'A green gambling token from Gan-Zo''s Den of Iniquity.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9485,   1,   33557006) /* Setup */
+     , (9485,   3,  536870932) /* SoundTable */
+     , (9485,   6,   67113173) /* PaletteBase */
+     , (9485,   7,  268436161) /* ClothingBase */
+     , (9485,   8,  100671523) /* Icon */
+     , (9485,  22,  872415275) /* PhysicsEffectTable */;

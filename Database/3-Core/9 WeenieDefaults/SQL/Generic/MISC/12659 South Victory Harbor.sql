@@ -1,28 +1,24 @@
-/* Weenie - South Victory Harbor (12659) */
-DELETE FROM weenie WHERE class_Id = 12659;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12659, 'southvictoryharborsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12659, 001 /* NAME_STRING */, 'South Victory Harbor')
-     , (12659, 016 /* LONG_DESC_STRING */, 'Welcome to South Victory Harbor');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12659, 001 /* SETUP_DID */, 33557463)
-     , (12659, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12659', 'southvictoryharborsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12659, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (12659, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (12659, 008 /* MASS_INT */, 1800)
-     , (12659, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12659, 019 /* VALUE_INT */, 125)
-     , (12659, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (12659,   1,        128) /* ItemType - Misc */
+     , (12659,   5,       9000) /* EncumbranceVal */
+     , (12659,   8,       1800) /* Mass */
+     , (12659,  16,          1) /* ItemUseable - No */
+     , (12659,  19,        125) /* Value */
+     , (12659,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12659, 001 /* STUCK_BOOL */, True)
-     , (12659, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12659, 013 /* ETHEREAL_BOOL */, False)
-     , (12659, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (12659,   1, True ) /* Stuck */
+     , (12659,  12, True ) /* ReportCollisions */
+     , (12659,  13, False) /* Ethereal */
+     , (12659,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12659,   1, 'South Victory Harbor') /* Name */
+     , (12659,  16, 'Welcome to South Victory Harbor') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12659,   1,   33557463) /* Setup */
+     , (12659,   8,  100668115) /* Icon */;

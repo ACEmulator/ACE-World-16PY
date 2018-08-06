@@ -1,36 +1,32 @@
-/* Weenie - Underground Passage (14449) */
-DELETE FROM weenie WHERE class_Id = 14449;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14449, 'portalwitshiredungeonbottom', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14449, 001 /* NAME_STRING */, 'Underground Passage')
-     , (14449, 037 /* QUEST_RESTRICTION_STRING */, 'PortalRegicideWitshirePermissionGiven');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14449, 001 /* SETUP_DID */, 33554867)
-     , (14449, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (14449, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14449', 'portalwitshiredungeonbottom', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14449, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (14449, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (14449, 086 /* MIN_LEVEL_INT */, 20)
-     , (14449, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (14449, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (14449, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14449, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (14449,   1,      65536) /* ItemType - Portal */
+     , (14449,  16,         32) /* ItemUseable - Remote */
+     , (14449,  86,         20) /* MinLevel */
+     , (14449,  93,       3084) /* PhysicsState */
+     , (14449, 111,         49) /* PortalBitmask */
+     , (14449, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14449, 001 /* STUCK_BOOL */, True)
-     , (14449, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14449, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14449, 013 /* ETHEREAL_BOOL */, True)
-     , (14449, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (14449,   1, True ) /* Stuck */
+     , (14449,  11, False) /* IgnoreCollisions */
+     , (14449,  12, True ) /* ReportCollisions */
+     , (14449,  13, True ) /* Ethereal */
+     , (14449,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14449,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14449,   1, 'Underground Passage') /* Name */
+     , (14449,  37, 'PortalRegicideWitshirePermissionGiven') /* QuestRestriction */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14449,   1,   33554867) /* Setup */
+     , (14449,   2,  150994947) /* MotionTable */
+     , (14449,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14449, 2, 29491491, 80, -70, -24, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (14449, 2, 29491491, 80, -70, -24, 1, 0, 0, 0) /* Destination */;

@@ -1,28 +1,24 @@
-/* Weenie - Festivus Court (22236) */
-DELETE FROM weenie WHERE class_Id = 22236;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22236, 'festivuscourtsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22236, 001 /* NAME_STRING */, 'Festivus Court')
-     , (22236, 016 /* LONG_DESC_STRING */, 'Festivus Court');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22236, 001 /* SETUP_DID */, 33558050)
-     , (22236, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22236', 'festivuscourtsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22236, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22236, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (22236, 008 /* MASS_INT */, 1800)
-     , (22236, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22236, 019 /* VALUE_INT */, 125)
-     , (22236, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (22236,   1,        128) /* ItemType - Misc */
+     , (22236,   5,       9000) /* EncumbranceVal */
+     , (22236,   8,       1800) /* Mass */
+     , (22236,  16,          1) /* ItemUseable - No */
+     , (22236,  19,        125) /* Value */
+     , (22236,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22236, 001 /* STUCK_BOOL */, True)
-     , (22236, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22236, 013 /* ETHEREAL_BOOL */, False)
-     , (22236, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (22236,   1, True ) /* Stuck */
+     , (22236,  12, True ) /* ReportCollisions */
+     , (22236,  13, False) /* Ethereal */
+     , (22236,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22236,   1, 'Festivus Court') /* Name */
+     , (22236,  16, 'Festivus Court') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22236,   1,   33558050) /* Setup */
+     , (22236,   8,  100667499) /* Icon */;

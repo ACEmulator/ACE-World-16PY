@@ -1,38 +1,35 @@
-/* Weenie - Journal of Tamian Wilmot (23353) */
-DELETE FROM weenie WHERE class_Id = 23353;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23353, 'tamianjournal', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23353, 001 /* NAME_STRING */, 'Journal of Tamian Wilmot');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23353, 001 /* SETUP_DID */, 33554771)
-     , (23353, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23353, 008 /* ICON_DID */, 100674007)
-     , (23353, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23353', 'tamianjournal', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23353, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (23353, 005 /* ENCUMB_VAL_INT */, 20)
-     , (23353, 008 /* MASS_INT */, 50)
-     , (23353, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23353, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23353, 019 /* VALUE_INT */, 25)
-     , (23353, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23353, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23353, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23353, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (23353,   1,       8192) /* ItemType - Writable */
+     , (23353,   5,         20) /* EncumbranceVal */
+     , (23353,   8,         50) /* Mass */
+     , (23353,   9,          0) /* ValidLocations - None */
+     , (23353,  16,          8) /* ItemUseable - Contained */
+     , (23353,  19,         25) /* Value */
+     , (23353,  33,          1) /* Bonded - Bonded */
+     , (23353,  93,       1044) /* PhysicsState */
+     , (23353, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23353, 022 /* INSCRIBABLE_BOOL */, False)
-     , (23353, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (23353,  22, False) /* Inscribable */
+     , (23353,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23353,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23353,   1, 'Journal of Tamian Wilmot') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23353,   1,   33554771) /* Setup */
+     , (23353,   3,  536870932) /* SoundTable */
+     , (23353,   8,  100674007) /* Icon */
+     , (23353,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (23353, 11, 1000) /* Book Data */;
+VALUES (23353, 11, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (23353, 0, 4294967295, 'Tamian Wilmot', 'prewritten', False, 'I love to draw and for this reason she will never love me.  I favor the sketching of designs over the heft of a blade. Thus, she will not love me.
@@ -83,4 +80,3 @@ I resolved to find the Tower. Telling no one, I made plans, gathered my things. 
 When I arrived in Lin, Tian Li was kind enough to put me up and tell me where I could research this structure.  I was able to discover that the Empyrean who did this sketch was named Saolor Lentain. I found evidence of an archive southwest of the Dungeon of Tatters. The archive was attributed to having been built by Saolor Lentain. I go there now. I will leave this journal with Tian Li. He could give give it to you, Astara, should you come searching for me.
   -Tamian
 ');
-

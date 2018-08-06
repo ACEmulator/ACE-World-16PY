@@ -1,42 +1,38 @@
-/* Weenie - Storage (22207) */
-DELETE FROM weenie WHERE class_Id = 22207;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22207, 'storagechestfake', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22207, 001 /* NAME_STRING */, 'Storage')
-     , (22207, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22207, 001 /* SETUP_DID */, 33557143)
-     , (22207, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (22207, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (22207, 008 /* ICON_DID */, 100671885)
-     , (22207, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22207', 'storagechestfake', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22207, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (22207, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (22207, 006 /* ITEMS_CAPACITY_INT */, 26)
-     , (22207, 007 /* CONTAINERS_CAPACITY_INT */, 1)
-     , (22207, 008 /* MASS_INT */, 3000)
-     , (22207, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (22207, 019 /* VALUE_INT */, 200)
-     , (22207, 038 /* RESIST_LOCKPICK_INT */, 5000)
-     , (22207, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22207, 096 /* ENCUMB_CAPACITY_INT */, 500);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22207, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (22207,   1,        512) /* ItemType - Container */
+     , (22207,   5,       6000) /* EncumbranceVal */
+     , (22207,   6,         26) /* ItemsCapacity */
+     , (22207,   7,          1) /* ContainersCapacity */
+     , (22207,   8,       3000) /* Mass */
+     , (22207,  16,         48) /* ItemUseable - ViewedRemote */
+     , (22207,  19,        200) /* Value */
+     , (22207,  38,       5000) /* ResistLockpick */
+     , (22207,  93,       1048) /* PhysicsState */
+     , (22207,  96,        500) /* EncumbranceCapacity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22207, 001 /* STUCK_BOOL */, True)
-     , (22207, 002 /* OPEN_BOOL */, False)
-     , (22207, 003 /* LOCKED_BOOL */, True)
-     , (22207, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22207, 013 /* ETHEREAL_BOOL */, False)
-     , (22207, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (22207, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (22207, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (22207,   1, True ) /* Stuck */
+     , (22207,   2, False) /* Open */
+     , (22207,   3, True ) /* Locked */
+     , (22207,  12, True ) /* ReportCollisions */
+     , (22207,  13, False) /* Ethereal */
+     , (22207,  33, False) /* ResetMessagePending */
+     , (22207,  34, False) /* DefaultOpen */
+     , (22207,  35, True ) /* DefaultLocked */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22207,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22207,   1, 'Storage') /* Name */
+     , (22207,  14, 'Use this item to open it and see its contents.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22207,   1,   33557143) /* Setup */
+     , (22207,   2,  150994948) /* MotionTable */
+     , (22207,   3,  536870945) /* SoundTable */
+     , (22207,   8,  100671885) /* Icon */
+     , (22207,  22,  872415275) /* PhysicsEffectTable */;

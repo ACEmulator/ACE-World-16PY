@@ -1,30 +1,26 @@
-/* Weenie - Tou-Tou Smithy (4532) */
-DELETE FROM weenie WHERE class_Id = 4532;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4532, 'toutoublacksmithsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4532, 001 /* NAME_STRING */, 'Tou-Tou Smithy')
-     , (4532, 016 /* LONG_DESC_STRING */, 'Tou-Tou Smithy');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4532, 001 /* SETUP_DID */, 33555594)
-     , (4532, 006 /* PALETTE_BASE_DID */, 67111782)
-     , (4532, 007 /* CLOTHINGBASE_DID */, 268435686)
-     , (4532, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4532', 'toutoublacksmithsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4532, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4532, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4532, 008 /* MASS_INT */, 1800)
-     , (4532, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4532, 019 /* VALUE_INT */, 125)
-     , (4532, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4532,   1,        128) /* ItemType - Misc */
+     , (4532,   5,       9000) /* EncumbranceVal */
+     , (4532,   8,       1800) /* Mass */
+     , (4532,  16,          1) /* ItemUseable - No */
+     , (4532,  19,        125) /* Value */
+     , (4532,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4532, 001 /* STUCK_BOOL */, True)
-     , (4532, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4532, 013 /* ETHEREAL_BOOL */, False)
-     , (4532, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4532,   1, True ) /* Stuck */
+     , (4532,  12, True ) /* ReportCollisions */
+     , (4532,  13, False) /* Ethereal */
+     , (4532,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4532,   1, 'Tou-Tou Smithy') /* Name */
+     , (4532,  16, 'Tou-Tou Smithy') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4532,   1,   33555594) /* Setup */
+     , (4532,   6,   67111782) /* PaletteBase */
+     , (4532,   7,  268435686) /* ClothingBase */
+     , (4532,   8,  100668115) /* Icon */;

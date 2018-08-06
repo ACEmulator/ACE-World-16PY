@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Asmolum's Boon (20588) */
-DELETE FROM weenie WHERE class_Id = 20588;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20588, 'scrollthrownmasteryother7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20588, 001 /* NAME_STRING */, 'Scroll of Asmolum''s Boon')
-     , (20588, 015 /* SHORT_DESC_STRING */, 'When learned, this spell increases the target''s Thrown Weapons skill by 40 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20588, 001 /* SETUP_DID */, 33554826)
-     , (20588, 008 /* ICON_DID */, 100676476)
-     , (20588, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20588, 028 /* SPELL_DID */, 2312 /* ThrownWeaponMasteryOther7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20588', 'scrollthrownmasteryother7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20588, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20588, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20588, 008 /* MASS_INT */, 90)
-     , (20588, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20588, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20588, 019 /* VALUE_INT */, 2000)
-     , (20588, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20588, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20588,   1,       8192) /* ItemType - Writable */
+     , (20588,   5,         30) /* EncumbranceVal */
+     , (20588,   8,         90) /* Mass */
+     , (20588,   9,          0) /* ValidLocations - None */
+     , (20588,  16,          8) /* ItemUseable - Contained */
+     , (20588,  19,       2000) /* Value */
+     , (20588,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20588, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20588, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20588,  22, True ) /* Inscribable */
+     , (20588,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20588,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20588,   1, 'Scroll of Asmolum''s Boon') /* Name */
+     , (20588,  15, 'When learned, this spell increases the target''s Thrown Weapons skill by 40 points.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20588,   1,   33554826) /* Setup */
+     , (20588,   8,  100676476) /* Icon */
+     , (20588,  22,  872415275) /* PhysicsEffectTable */
+     , (20588,  28,       2312) /* Spell - Missile Weapon Mastery Other VII */;

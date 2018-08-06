@@ -1,30 +1,26 @@
-/* Weenie - The Scholar's Study	 (4424) */
-DELETE FROM weenie WHERE class_Id = 4424;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4424, 'lytelthorpeshopscribesign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4424, 001 /* NAME_STRING */, 'The Scholar''s Study	')
-     , (4424, 016 /* LONG_DESC_STRING */, 'The Scholar''s Study');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4424, 001 /* SETUP_DID */, 33555088)
-     , (4424, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (4424, 007 /* CLOTHINGBASE_DID */, 268435660)
-     , (4424, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4424', 'lytelthorpeshopscribesign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4424, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4424, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4424, 008 /* MASS_INT */, 1800)
-     , (4424, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4424, 019 /* VALUE_INT */, 125)
-     , (4424, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4424,   1,        128) /* ItemType - Misc */
+     , (4424,   5,       9000) /* EncumbranceVal */
+     , (4424,   8,       1800) /* Mass */
+     , (4424,  16,          1) /* ItemUseable - No */
+     , (4424,  19,        125) /* Value */
+     , (4424,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4424, 001 /* STUCK_BOOL */, True)
-     , (4424, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4424, 013 /* ETHEREAL_BOOL */, False)
-     , (4424, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4424,   1, True ) /* Stuck */
+     , (4424,  12, True ) /* ReportCollisions */
+     , (4424,  13, False) /* Ethereal */
+     , (4424,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4424,   1, 'The Scholar''s Study	') /* Name */
+     , (4424,  16, 'The Scholar''s Study') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4424,   1,   33555088) /* Setup */
+     , (4424,   6,   67111092) /* PaletteBase */
+     , (4424,   7,  268435660) /* ClothingBase */
+     , (4424,   8,  100668115) /* Icon */;

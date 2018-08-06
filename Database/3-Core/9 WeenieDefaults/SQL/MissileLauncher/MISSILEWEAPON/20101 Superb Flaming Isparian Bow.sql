@@ -1,68 +1,64 @@
-/* Weenie - Superb Flaming Isparian Bow (20101) */
-DELETE FROM weenie WHERE class_Id = 20101;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20101, 'bowispariansuperbsmolderingminor', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20101, 001 /* NAME_STRING */, 'Superb Flaming Isparian Bow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20101, 001 /* SETUP_DID */, 33557759)
-     , (20101, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20101, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20101, 007 /* CLOTHINGBASE_DID */, 268436394)
-     , (20101, 008 /* ICON_DID */, 100673016)
-     , (20101, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20101, 037 /* ITEM_SKILL_LIMIT_DID */, 2);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20101', 'bowispariansuperbsmolderingminor', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20101, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (20101, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (20101, 005 /* ENCUMB_VAL_INT */, 950)
-     , (20101, 008 /* MASS_INT */, 140)
-     , (20101, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (20101, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20101, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (20101, 019 /* VALUE_INT */, 6000)
-     , (20101, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (20101, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (20101, 044 /* DAMAGE_INT */, 6)
-     , (20101, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
-     , (20101, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
-     , (20101, 049 /* WEAPON_TIME_INT */, 40)
-     , (20101, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (20101, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (20101, 052 /* PARENT_LOCATION_INT */, 2)
-     , (20101, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (20101, 060 /* WEAPON_RANGE_INT */, 175)
-     , (20101, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20101, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (20101, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (20101, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (20101, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 270)
-     , (20101, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (20101, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (20101, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (20101, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (20101, 160 /* WIELD_DIFFICULTY_INT */, 40);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20101, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (20101, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (20101, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
-     , (20101, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (20101, 063 /* DAMAGE_MOD_FLOAT */, 2.2);
+VALUES (20101,   1,        256) /* ItemType - MissileWeapon */
+     , (20101,   3,         14) /* PaletteTemplate - Red */
+     , (20101,   5,        950) /* EncumbranceVal */
+     , (20101,   8,        140) /* Mass */
+     , (20101,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (20101,  16,          1) /* ItemUseable - No */
+     , (20101,  18,          1) /* UiEffects - Magical */
+     , (20101,  19,       6000) /* Value */
+     , (20101,  33,          1) /* Bonded - Bonded */
+     , (20101,  36,       9999) /* ResistMagic */
+     , (20101,  44,          6) /* Damage */
+     , (20101,  46,         16) /* DefaultCombatStyle - Bow */
+     , (20101,  48,          2) /* WeaponSkill - Bow */
+     , (20101,  49,         40) /* WeaponTime */
+     , (20101,  50,          1) /* AmmoType - Arrow */
+     , (20101,  51,          2) /* CombatUse - Missle */
+     , (20101,  52,          2) /* ParentLocation */
+     , (20101,  53,          3) /* PlacementPosition */
+     , (20101,  60,        175) /* WeaponRange */
+     , (20101,  93,       1044) /* PhysicsState */
+     , (20101, 106,        100) /* ItemSpellcraft */
+     , (20101, 107,        600) /* ItemCurMana */
+     , (20101, 108,        600) /* ItemMaxMana */
+     , (20101, 115,        270) /* ItemSkillLevelLimit */
+     , (20101, 150,        103) /* HookPlacement - Hook */
+     , (20101, 151,          2) /* HookType - Wall */
+     , (20101, 158,          7) /* WieldRequirements - Level */
+     , (20101, 159,          1) /* WieldSkilltype - Axe */
+     , (20101, 160,         40) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20101, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20101, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (20101, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (20101,  22, True ) /* Inscribable */
+     , (20101,  23, True ) /* DestroyOnSell */
+     , (20101,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20101,   5,   -0.05) /* ManaRate */
+     , (20101,  26,    27.3) /* MaximumVelocity */
+     , (20101,  29,    1.08) /* WeaponDefense */
+     , (20101,  62,       1) /* WeaponOffense */
+     , (20101,  63,     2.2) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20101,   1, 'Superb Flaming Isparian Bow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20101,   1,   33557759) /* Setup */
+     , (20101,   3,  536870932) /* SoundTable */
+     , (20101,   6,   67111919) /* PaletteBase */
+     , (20101,   7,  268436394) /* ClothingBase */
+     , (20101,   8,  100673016) /* Icon */
+     , (20101,  22,  872415275) /* PhysicsEffectTable */
+     , (20101,  37,          2) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20101, 1092, 2) /* FireProtectionSelf4_SpellID */
-     , (20101, 1604, 2) /* Defender5_SpellID */
-     , (20101, 1615, 2) /* BloodDrinker5_SpellID */
-     , (20101, 2540, 2) /* CANTRIPBOWAPTITUDE1_SpellID */
-     , (20101, 1329, 2) /* StrengthSelf3_SpellID */;
-
+VALUES (20101,  1092,      2)  /* Fire Protection Self IV */
+     , (20101,  1329,      2)  /* Strength Self III */
+     , (20101,  1604,      2)  /* Aura of Defender Self V */
+     , (20101,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (20101,  2540,      2)  /* Minor Missile Weapon Aptitude */;

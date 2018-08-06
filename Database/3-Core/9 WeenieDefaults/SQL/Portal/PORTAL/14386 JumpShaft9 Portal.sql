@@ -1,34 +1,30 @@
-/* Weenie - JumpShaft9 Portal (14386) */
-DELETE FROM weenie WHERE class_Id = 14386;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14386, 'portaljumpshaft9', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14386, 001 /* NAME_STRING */, 'JumpShaft9 Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14386, 001 /* SETUP_DID */, 33554867)
-     , (14386, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (14386, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14386', 'portaljumpshaft9', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14386, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (14386, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (14386, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (14386, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (14386, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14386, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (14386,   1,      65536) /* ItemType - Portal */
+     , (14386,  16,         32) /* ItemUseable - Remote */
+     , (14386,  93,       3084) /* PhysicsState */
+     , (14386, 111,         49) /* PortalBitmask */
+     , (14386, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14386, 001 /* STUCK_BOOL */, True)
-     , (14386, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14386, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14386, 013 /* ETHEREAL_BOOL */, True)
-     , (14386, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (14386,   1, True ) /* Stuck */
+     , (14386,  11, False) /* IgnoreCollisions */
+     , (14386,  12, True ) /* ReportCollisions */
+     , (14386,  13, True ) /* Ethereal */
+     , (14386,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14386,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14386,   1, 'JumpShaft9 Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14386,   1,   33554867) /* Setup */
+     , (14386,   2,  150994947) /* MotionTable */
+     , (14386,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14386, 2, 3846111270, 0, 0, 0, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (14386, 2, 3846111270, 0, 0, 0, 1, 0, 0, 0) /* Destination */;

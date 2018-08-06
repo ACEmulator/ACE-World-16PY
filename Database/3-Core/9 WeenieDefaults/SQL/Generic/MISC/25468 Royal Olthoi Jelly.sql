@@ -1,32 +1,28 @@
-/* Weenie - Royal Olthoi Jelly (25468) */
-DELETE FROM weenie WHERE class_Id = 25468;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25468, 'olthoijellyroyal', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25468, 001 /* NAME_STRING */, 'Royal Olthoi Jelly')
-     , (25468, 016 /* LONG_DESC_STRING */, 'A jar of foul smelling goo.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25468, 001 /* SETUP_DID */, 33554598)
-     , (25468, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25468, 008 /* ICON_DID */, 100674796)
-     , (25468, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25468', 'olthoijellyroyal', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25468, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25468, 005 /* ENCUMB_VAL_INT */, 300)
-     , (25468, 008 /* MASS_INT */, 200)
-     , (25468, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25468, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25468, 019 /* VALUE_INT */, 65)
-     , (25468, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25468, 039 /* DEFAULT_SCALE_FLOAT */, 2);
+VALUES (25468,   1,        128) /* ItemType - Misc */
+     , (25468,   5,        300) /* EncumbranceVal */
+     , (25468,   8,        200) /* Mass */
+     , (25468,   9,          0) /* ValidLocations - None */
+     , (25468,  16,          1) /* ItemUseable - No */
+     , (25468,  19,         65) /* Value */
+     , (25468,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25468, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25468, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (25468,  22, True ) /* Inscribable */
+     , (25468,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25468,  39,       2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25468,   1, 'Royal Olthoi Jelly') /* Name */
+     , (25468,  16, 'A jar of foul smelling goo.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25468,   1,   33554598) /* Setup */
+     , (25468,   3,  536870932) /* SoundTable */
+     , (25468,   8,  100674796) /* Icon */
+     , (25468,  22,  872415275) /* PhysicsEffectTable */;

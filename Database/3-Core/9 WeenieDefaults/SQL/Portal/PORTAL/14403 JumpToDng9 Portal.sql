@@ -1,34 +1,30 @@
-/* Weenie - JumpToDng9 Portal (14403) */
-DELETE FROM weenie WHERE class_Id = 14403;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14403, 'portaljumptodng9', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14403, 001 /* NAME_STRING */, 'JumpToDng9 Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14403, 001 /* SETUP_DID */, 33554867)
-     , (14403, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (14403, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14403', 'portaljumptodng9', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14403, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (14403, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (14403, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (14403, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (14403, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14403, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (14403,   1,      65536) /* ItemType - Portal */
+     , (14403,  16,         32) /* ItemUseable - Remote */
+     , (14403,  93,       3084) /* PhysicsState */
+     , (14403, 111,         49) /* PortalBitmask */
+     , (14403, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14403, 001 /* STUCK_BOOL */, True)
-     , (14403, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14403, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14403, 013 /* ETHEREAL_BOOL */, True)
-     , (14403, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (14403,   1, True ) /* Stuck */
+     , (14403,  11, False) /* IgnoreCollisions */
+     , (14403,  12, True ) /* ReportCollisions */
+     , (14403,  13, True ) /* Ethereal */
+     , (14403,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14403,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14403,   1, 'JumpToDng9 Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14403,   1,   33554867) /* Setup */
+     , (14403,   2,  150994947) /* MotionTable */
+     , (14403,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14403, 2, 3846111270, 0, 0, 0, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (14403, 2, 3846111270, 0, 0, 0, 1, 0, 0, 0) /* Destination */;

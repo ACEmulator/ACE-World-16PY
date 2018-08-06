@@ -1,39 +1,35 @@
-/* Weenie - Obsidian Shard (10803) */
-DELETE FROM weenie WHERE class_Id = 10803;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10803, 'sharddiplomat', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10803, 001 /* NAME_STRING */, 'Obsidian Shard')
-     , (10803, 015 /* SHORT_DESC_STRING */, 'A chunk of polished volcanic rock.')
-     , (10803, 016 /* LONG_DESC_STRING */, 'A chunk of polished volcanic rock.  As you look at it, you can see what seems to be movement just under its surface.  You feel a strange pressure in the back of your mind, but it slowly recedes.  (Bring it to Diyas in Zaikhal)');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10803, 001 /* SETUP_DID */, 33555391)
-     , (10803, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10803, 008 /* ICON_DID */, 100671395)
-     , (10803, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (10803, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10803', 'sharddiplomat', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10803, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (10803, 005 /* ENCUMB_VAL_INT */, 20)
-     , (10803, 008 /* MASS_INT */, 20)
-     , (10803, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (10803, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (10803, 012 /* STACK_SIZE_INT */, 1)
-     , (10803, 013 /* STACK_UNIT_ENCUMB_INT */, 20)
-     , (10803, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (10803, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (10803, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10803, 019 /* VALUE_INT */, 0)
-     , (10803, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10803, 039 /* DEFAULT_SCALE_FLOAT */, 0.2)
-     , (10803, 076 /* TRANSLUCENCY_FLOAT */, 0.25);
+VALUES (10803,   1,       2048) /* ItemType - Gem */
+     , (10803,   5,         20) /* EncumbranceVal */
+     , (10803,   8,         20) /* Mass */
+     , (10803,   9,          0) /* ValidLocations - None */
+     , (10803,  11,          1) /* MaxStackSize */
+     , (10803,  12,          1) /* StackSize */
+     , (10803,  13,         20) /* StackUnitEncumbrance */
+     , (10803,  14,         20) /* StackUnitMass */
+     , (10803,  15,          0) /* StackUnitValue */
+     , (10803,  16,          1) /* ItemUseable - No */
+     , (10803,  19,          0) /* Value */
+     , (10803,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10803, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (10803,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10803,  39,     0.2) /* DefaultScale */
+     , (10803,  76,    0.25) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10803,   1, 'Obsidian Shard') /* Name */
+     , (10803,  15, 'A chunk of polished volcanic rock.') /* ShortDesc */
+     , (10803,  16, 'A chunk of polished volcanic rock.  As you look at it, you can see what seems to be movement just under its surface.  You feel a strange pressure in the back of your mind, but it slowly recedes.  (Bring it to Diyas in Zaikhal)') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10803,   1,   33555391) /* Setup */
+     , (10803,   3,  536870932) /* SoundTable */
+     , (10803,   8,  100671395) /* Icon */
+     , (10803,  22,  872415275) /* PhysicsEffectTable */
+     , (10803,  36,  234881046) /* MutateFilter */;

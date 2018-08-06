@@ -1,35 +1,31 @@
-/* Weenie - Bundle of Broad Arrowheads (5345) */
-DELETE FROM weenie WHERE class_Id = 5345;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5345, 'arrowheadbroad', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5345, 001 /* NAME_STRING */, 'Bundle of Broad Arrowheads')
-     , (5345, 014 /* USE_STRING */, 'This item is used in fletching.')
-     , (5345, 020 /* PLURAL_NAME_STRING */, 'Bundles of Broad Arrowheads');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5345, 001 /* SETUP_DID */, 33555958)
-     , (5345, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5345, 008 /* ICON_DID */, 100670170)
-     , (5345, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5345', 'arrowheadbroad', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5345, 001 /* ITEM_TYPE_INT */, 134217728 /* TYPE_CRAFT_FLETCHING_INTERMEDIATE */)
-     , (5345, 005 /* ENCUMB_VAL_INT */, 10)
-     , (5345, 008 /* MASS_INT */, 10)
-     , (5345, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5345, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5345, 012 /* STACK_SIZE_INT */, 1)
-     , (5345, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (5345, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (5345, 015 /* STACK_UNIT_VALUE_INT */, 12)
-     , (5345, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (5345, 019 /* VALUE_INT */, 12)
-     , (5345, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5345, 094 /* TARGET_TYPE_INT */, 134217728 /* TYPE_CRAFT_FLETCHING_INTERMEDIATE */);
+VALUES (5345,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
+     , (5345,   5,         10) /* EncumbranceVal */
+     , (5345,   8,         10) /* Mass */
+     , (5345,   9,          0) /* ValidLocations - None */
+     , (5345,  11,        100) /* MaxStackSize */
+     , (5345,  12,          1) /* StackSize */
+     , (5345,  13,         10) /* StackUnitEncumbrance */
+     , (5345,  14,         10) /* StackUnitMass */
+     , (5345,  15,         12) /* StackUnitValue */
+     , (5345,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (5345,  19,         12) /* Value */
+     , (5345,  93,       1044) /* PhysicsState */
+     , (5345,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5345, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5345,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5345,   1, 'Bundle of Broad Arrowheads') /* Name */
+     , (5345,  14, 'This item is used in fletching.') /* Use */
+     , (5345,  20, 'Bundles of Broad Arrowheads') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5345,   1,   33555958) /* Setup */
+     , (5345,   3,  536870932) /* SoundTable */
+     , (5345,   8,  100670170) /* Icon */
+     , (5345,  22,  872415275) /* PhysicsEffectTable */;

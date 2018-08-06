@@ -1,50 +1,46 @@
-/* Weenie - Greater Celdon Breastplate of Frost (7631) */
-DELETE FROM weenie WHERE class_Id = 7631;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7631, 'breastplateceldonshadowgreaternewfrost', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7631, 001 /* NAME_STRING */, 'Greater Celdon Breastplate of Frost');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7631, 001 /* SETUP_DID */, 33554642)
-     , (7631, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7631, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (7631, 007 /* CLOTHINGBASE_DID */, 268435848)
-     , (7631, 008 /* ICON_DID */, 100670400)
-     , (7631, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7631', 'breastplateceldonshadowgreaternewfrost', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7631, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (7631, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (7631, 004 /* CLOTHING_PRIORITY_INT */, 1024 /* OuterwearChest */)
-     , (7631, 005 /* ENCUMB_VAL_INT */, 2100)
-     , (7631, 008 /* MASS_INT */, 1200)
-     , (7631, 009 /* LOCATIONS_INT */, 512 /* CHEST_ARMOR_LOC */)
-     , (7631, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7631, 019 /* VALUE_INT */, 2680)
-     , (7631, 027 /* ARMOR_TYPE_INT */, 32)
-     , (7631, 028 /* ARMOR_LEVEL_INT */, 190)
-     , (7631, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7631, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (7631, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7631, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7631, 012 /* SHADE_FLOAT */, 0.5)
-     , (7631, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (7631, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (7631, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (7631, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 2)
-     , (7631, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0)
-     , (7631, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.2)
-     , (7631, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.2)
-     , (7631, 110 /* BULK_MOD_FLOAT */, 1)
-     , (7631, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (7631,   1,          2) /* ItemType - Armor */
+     , (7631,   3,          2) /* PaletteTemplate - Blue */
+     , (7631,   4,       1024) /* ClothingPriority - OuterwearChest */
+     , (7631,   5,       2100) /* EncumbranceVal */
+     , (7631,   8,       1200) /* Mass */
+     , (7631,   9,        512) /* ValidLocations - ChestArmor */
+     , (7631,  16,          1) /* ItemUseable - No */
+     , (7631,  19,       2680) /* Value */
+     , (7631,  27,         32) /* ArmorType */
+     , (7631,  28,        190) /* ArmorLevel */
+     , (7631,  33,          1) /* Bonded - Bonded */
+     , (7631,  36,       9999) /* ResistMagic */
+     , (7631,  93,       1044) /* PhysicsState */
+     , (7631, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7631, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7631, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7631, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7631,  22, True ) /* Inscribable */
+     , (7631,  23, True ) /* DestroyOnSell */
+     , (7631,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7631,  12,     0.5) /* Shade */
+     , (7631,  13,     1.3) /* ArmorModVsSlash */
+     , (7631,  14,       1) /* ArmorModVsPierce */
+     , (7631,  15,       1) /* ArmorModVsBludgeon */
+     , (7631,  16,       2) /* ArmorModVsCold */
+     , (7631,  17,       0) /* ArmorModVsFire */
+     , (7631,  18,     1.2) /* ArmorModVsAcid */
+     , (7631,  19,     1.2) /* ArmorModVsElectric */
+     , (7631, 110,       1) /* BulkMod */
+     , (7631, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7631,   1, 'Greater Celdon Breastplate of Frost') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7631,   1,   33554642) /* Setup */
+     , (7631,   3,  536870932) /* SoundTable */
+     , (7631,   6,   67108990) /* PaletteBase */
+     , (7631,   7,  268435848) /* ClothingBase */
+     , (7631,   8,  100670400) /* Icon */
+     , (7631,  22,  872415275) /* PhysicsEffectTable */;

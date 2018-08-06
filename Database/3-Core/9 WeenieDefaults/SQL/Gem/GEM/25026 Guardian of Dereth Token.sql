@@ -1,37 +1,33 @@
-/* Weenie - Guardian of Dereth Token (25026) */
-DELETE FROM weenie WHERE class_Id = 25026;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25026, 'tokenmidolthoi', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25026, 001 /* NAME_STRING */, 'Guardian of Dereth Token')
-     , (25026, 015 /* SHORT_DESC_STRING */, 'This token will grant the title Guardian of Dereth when turned into the High Queen, or a royal guard who grant this title.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25026, 001 /* SETUP_DID */, 33557280)
-     , (25026, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25026, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (25026, 007 /* CLOTHINGBASE_DID */, 268436301)
-     , (25026, 008 /* ICON_DID */, 100674708)
-     , (25026, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25026', 'tokenmidolthoi', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25026, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (25026, 005 /* ENCUMB_VAL_INT */, 5)
-     , (25026, 008 /* MASS_INT */, 5)
-     , (25026, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25026, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (25026, 012 /* STACK_SIZE_INT */, 1)
-     , (25026, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (25026, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (25026, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (25026, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25026, 019 /* VALUE_INT */, 0)
-     , (25026, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25026, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25026, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (25026,   1,       2048) /* ItemType - Gem */
+     , (25026,   5,          5) /* EncumbranceVal */
+     , (25026,   8,          5) /* Mass */
+     , (25026,   9,          0) /* ValidLocations - None */
+     , (25026,  11,          1) /* MaxStackSize */
+     , (25026,  12,          1) /* StackSize */
+     , (25026,  13,          5) /* StackUnitEncumbrance */
+     , (25026,  14,          5) /* StackUnitMass */
+     , (25026,  15,          0) /* StackUnitValue */
+     , (25026,  16,          1) /* ItemUseable - No */
+     , (25026,  19,          0) /* Value */
+     , (25026,  33,          1) /* Bonded - Bonded */
+     , (25026,  93,       1044) /* PhysicsState */
+     , (25026, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25026, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (25026,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25026,   1, 'Guardian of Dereth Token') /* Name */
+     , (25026,  15, 'This token will grant the title Guardian of Dereth when turned into the High Queen, or a royal guard who grant this title.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25026,   1,   33557280) /* Setup */
+     , (25026,   3,  536870932) /* SoundTable */
+     , (25026,   6,   67111092) /* PaletteBase */
+     , (25026,   7,  268436301) /* ClothingBase */
+     , (25026,   8,  100674708) /* Icon */
+     , (25026,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,28 +1,27 @@
-INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
-VALUES (68, 308 /* Budiaq */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (68, 309 /* Club */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 313 /* Dabus */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 314 /* Dagger */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 303 /* Hand Axe */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 319 /* Jambiya */, 0, 0, 0, 0, 0, 0.01, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 321 /* Jitte */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 325 /* Kasrullah */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 326 /* Katar */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 328 /* Khanjar */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 329 /* Knife */, 0, 0, 0, 0, 0, 0.02, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 331 /* Mace */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 352 /* Short Sword */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 342 /* Shou-ono */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 345 /* Simi */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 348 /* Spear */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 356 /* Tofun */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 361 /* Yaoji */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 362 /* Yari */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 316 /* Throwing Dart */, 0, 0, 0, 10, 0.1, 0.02, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 343 /* Shouken */, 0, 0, 0, 10, 0.1, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 315 /* Throwing Dagger */, 0, 0, 0, 6, 0.1, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 320 /* Javelin */, 0, 0, 0, 4, 0.1, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 317 /* Djarid */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 310 /* Throwing Club */, 0, 0, 0, 5, 0.1, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (68, 304 /* Throwing Axe */, 0, 0, 0, 5, 0.1, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0);
-
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `stack_Size_Variance`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `set_Start`, `has_Sub_Set`, `continues_Previous_Set`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (68,   308,  0, 0,    0, 0, 0,    0.03, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Budiaq */
+     , (68,   309,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Club */
+     , (68,   313,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Dabus */
+     , (68,   314,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Dagger */
+     , (68,   303,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Hand Axe */
+     , (68,   319,  0, 0,    0, 0, 0,    0.01, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Jambiya */
+     , (68,   321,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Jitte */
+     , (68,   325,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Kasrullah */
+     , (68,   326,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Katar */
+     , (68,   328,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Khanjar */
+     , (68,   329,  0, 0,    0, 0, 0,    0.02, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Knife */
+     , (68,   331,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Mace */
+     , (68,   352,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Short Sword */
+     , (68,   342,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Shou-ono */
+     , (68,   345,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Simi */
+     , (68,   348,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Spear */
+     , (68,   356,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Tofun */
+     , (68,   361,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Yaoji */
+     , (68,   362,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Yari */
+     , (68,   316,  0, 0,    0, 10, 0.1,    0.02, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Throwing Dart */
+     , (68,   343,  0, 0,    0, 10, 0.1,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Shouken */
+     , (68,   315,  0, 0,    0, 6, 0.1,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Throwing Dagger */
+     , (68,   320,  0, 0,    0, 4, 0.1,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Javelin */
+     , (68,   317,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Djarid */
+     , (68,   310,  0, 0,    0, 5, 0.1,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Throwing Club */
+     , (68,   304,  0, 0,    0, 5, 0.1,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Throwing Axe */;

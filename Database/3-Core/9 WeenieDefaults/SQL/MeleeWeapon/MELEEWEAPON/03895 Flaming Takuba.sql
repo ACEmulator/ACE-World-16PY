@@ -1,50 +1,46 @@
-/* Weenie - Flaming Takuba (3895) */
-DELETE FROM weenie WHERE class_Id = 3895;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3895, 'takubafire', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3895, 001 /* NAME_STRING */, 'Flaming Takuba');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3895, 001 /* SETUP_DID */, 33555803)
-     , (3895, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3895, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3895, 007 /* CLOTHINGBASE_DID */, 268435773)
-     , (3895, 008 /* ICON_DID */, 100668165)
-     , (3895, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3895, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3895, 046 /* TSYS_MUTATION_FILTER_DID */, 939524101);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3895', 'takubafire', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3895, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3895, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (3895, 005 /* ENCUMB_VAL_INT */, 650)
-     , (3895, 008 /* MASS_INT */, 260)
-     , (3895, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3895, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3895, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (3895, 019 /* VALUE_INT */, 950)
-     , (3895, 044 /* DAMAGE_INT */, 10)
-     , (3895, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (3895, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3895, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (3895, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (3895, 049 /* WEAPON_TIME_INT */, 45)
-     , (3895, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3895, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3895, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3895, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3895, 169 /* TSYS_MUTATION_DATA_INT */, 101255170);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3895, 021 /* WEAPON_LENGTH_FLOAT */, 0.86)
-     , (3895, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3895, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3895, 039 /* DEFAULT_SCALE_FLOAT */, 1.21)
-     , (3895, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3895,   1,          1) /* ItemType - MeleeWeapon */
+     , (3895,   3,         20) /* PaletteTemplate - Silver */
+     , (3895,   5,        650) /* EncumbranceVal */
+     , (3895,   8,        260) /* Mass */
+     , (3895,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3895,  16,          1) /* ItemUseable - No */
+     , (3895,  18,         32) /* UiEffects - Fire */
+     , (3895,  19,        950) /* Value */
+     , (3895,  44,         10) /* Damage */
+     , (3895,  45,         16) /* DamageType - Fire */
+     , (3895,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3895,  47,          6) /* AttackType */
+     , (3895,  48,         11) /* WeaponSkill - Sword */
+     , (3895,  49,         45) /* WeaponTime */
+     , (3895,  51,          1) /* CombatUse - Melee */
+     , (3895,  93,       1044) /* PhysicsState */
+     , (3895, 150,        103) /* HookPlacement - Hook */
+     , (3895, 151,          2) /* HookType - Wall */
+     , (3895, 169,  101255170) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3895, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3895,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3895,  21,    0.86) /* WeaponLength */
+     , (3895,  22,     0.5) /* DamageVariance */
+     , (3895,  29,       1) /* WeaponDefense */
+     , (3895,  39,    1.21) /* DefaultScale */
+     , (3895,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3895,   1, 'Flaming Takuba') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3895,   1,   33555803) /* Setup */
+     , (3895,   3,  536870932) /* SoundTable */
+     , (3895,   6,   67111919) /* PaletteBase */
+     , (3895,   7,  268435773) /* ClothingBase */
+     , (3895,   8,  100668165) /* Icon */
+     , (3895,  22,  872415275) /* PhysicsEffectTable */
+     , (3895,  36,  234881053) /* MutateFilter */
+     , (3895,  46,  939524101) /* TsysMutationFilter */;

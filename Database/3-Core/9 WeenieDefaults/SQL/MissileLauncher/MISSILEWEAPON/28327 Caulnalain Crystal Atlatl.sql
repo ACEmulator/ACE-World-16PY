@@ -1,67 +1,63 @@
-/* Weenie - Caulnalain Crystal Atlatl (28327) */
-DELETE FROM weenie WHERE class_Id = 28327;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28327, 'atlatlcrystalcaulnew', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28327, 001 /* NAME_STRING */, 'Caulnalain Crystal Atlatl')
-     , (28327, 016 /* LONG_DESC_STRING */, 'An atlatl imbued with the essence of the Caulnalain Crystal. Uses crystal-tipped darts.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28327, 001 /* SETUP_DID */, 33557433)
-     , (28327, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28327, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (28327, 007 /* CLOTHINGBASE_DID */, 268436042)
-     , (28327, 008 /* ICON_DID */, 100674033)
-     , (28327, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28327', 'atlatlcrystalcaulnew', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28327, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (28327, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (28327, 005 /* ENCUMB_VAL_INT */, 200)
-     , (28327, 008 /* MASS_INT */, 15)
-     , (28327, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (28327, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28327, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28327, 019 /* VALUE_INT */, 2000)
-     , (28327, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (28327, 044 /* DAMAGE_INT */, 6)
-     , (28327, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1024 /* Atlatl_CombatStyle */)
-     , (28327, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (28327, 049 /* WEAPON_TIME_INT */, 30)
-     , (28327, 050 /* AMMO_TYPE_INT */, 32 /*  */)
-     , (28327, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (28327, 060 /* WEAPON_RANGE_INT */, 120)
-     , (28327, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28327, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (28327, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (28327, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (28327, 109 /* ITEM_DIFFICULTY_INT */, 10)
-     , (28327, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28327, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (28327, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (28327, 159 /* WIELD_SKILLTYPE_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (28327, 160 /* WIELD_DIFFICULTY_INT */, 250);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28327, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (28327, 012 /* SHADE_FLOAT */, 0.5)
-     , (28327, 026 /* MAXIMUM_VELOCITY_FLOAT */, 24.9)
-     , (28327, 029 /* WEAPON_DEFENSE_FLOAT */, 1.1)
-     , (28327, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (28327, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (28327, 063 /* DAMAGE_MOD_FLOAT */, 2.55)
-     , (28327, 076 /* TRANSLUCENCY_FLOAT */, 0.5)
-     , (28327, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.15);
+VALUES (28327,   1,        256) /* ItemType - MissileWeapon */
+     , (28327,   3,         13) /* PaletteTemplate - Purple */
+     , (28327,   5,        200) /* EncumbranceVal */
+     , (28327,   8,         15) /* Mass */
+     , (28327,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (28327,  16,          1) /* ItemUseable - No */
+     , (28327,  18,          1) /* UiEffects - Magical */
+     , (28327,  19,       2000) /* Value */
+     , (28327,  36,       9999) /* ResistMagic */
+     , (28327,  44,          6) /* Damage */
+     , (28327,  46,       1024) /* DefaultCombatStyle - Atlatl */
+     , (28327,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (28327,  49,         30) /* WeaponTime */
+     , (28327,  50,         32) /* AmmoType */
+     , (28327,  51,          2) /* CombatUse - Missle */
+     , (28327,  60,        120) /* WeaponRange */
+     , (28327,  93,       1044) /* PhysicsState */
+     , (28327, 106,        200) /* ItemSpellcraft */
+     , (28327, 107,        500) /* ItemCurMana */
+     , (28327, 108,        500) /* ItemMaxMana */
+     , (28327, 109,         10) /* ItemDifficulty */
+     , (28327, 150,        103) /* HookPlacement - Hook */
+     , (28327, 151,          2) /* HookType - Wall */
+     , (28327, 158,          2) /* WieldRequirements - RawSkill */
+     , (28327, 159,         12) /* WieldSkilltype - ThrownWeapon */
+     , (28327, 160,        250) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28327, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28327, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28327,  22, True ) /* Inscribable */
+     , (28327,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28327,   5,   -0.05) /* ManaRate */
+     , (28327,  12,     0.5) /* Shade */
+     , (28327,  26,    24.9) /* MaximumVelocity */
+     , (28327,  29,     1.1) /* WeaponDefense */
+     , (28327,  39,     1.1) /* DefaultScale */
+     , (28327,  62,       1) /* WeaponOffense */
+     , (28327,  63,    2.55) /* DamageMod */
+     , (28327,  76,     0.5) /* Translucency */
+     , (28327, 147,    0.15) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28327,   1, 'Caulnalain Crystal Atlatl') /* Name */
+     , (28327,  16, 'An atlatl imbued with the essence of the Caulnalain Crystal. Uses crystal-tipped darts.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28327,   1,   33557433) /* Setup */
+     , (28327,   3,  536870932) /* SoundTable */
+     , (28327,   6,   67111919) /* PaletteBase */
+     , (28327,   7,  268436042) /* ClothingBase */
+     , (28327,   8,  100674033) /* Icon */
+     , (28327,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28327, 1603, 2) /* Defender4_SpellID */
-     , (28327, 1614, 2) /* BloodDrinker4_SpellID */
-     , (28327, 536, 2) /* ThrownWeaponMasteryOther4_SpellID */
-     , (28327, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (28327,   536,      2)  /* Missile Weapon Mastery Other IV */
+     , (28327,  1603,      2)  /* Aura of Defender Self IV */
+     , (28327,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (28327,  1625,      2)  /* Aura of Swift Killer Self IV */;

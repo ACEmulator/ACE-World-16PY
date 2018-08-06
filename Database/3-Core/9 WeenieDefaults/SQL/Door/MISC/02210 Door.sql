@@ -1,41 +1,37 @@
-/* Weenie - Door (2210) */
-DELETE FROM weenie WHERE class_Id = 2210;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2210, 'doortumerokb', 19 /* Door_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2210, 001 /* NAME_STRING */, 'Door')
-     , (2210, 012 /* LOCK_CODE_STRING */, 'keytumerokB')
-     , (2210, 014 /* USE_STRING */, 'Use this item to open it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2210, 001 /* SETUP_DID */, 33555023)
-     , (2210, 002 /* MOTION_TABLE_DID */, 150994966)
-     , (2210, 003 /* SOUND_TABLE_DID */, 536870946)
-     , (2210, 008 /* ICON_DID */, 100668183)
-     , (2210, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2210', 'doortumerokb', 19) /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2210, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (2210, 008 /* MASS_INT */, 500)
-     , (2210, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (2210, 019 /* VALUE_INT */, 0)
-     , (2210, 038 /* RESIST_LOCKPICK_INT */, 425)
-     , (2210, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2210, 011 /* RESET_INTERVAL_FLOAT */, 180)
-     , (2210, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (2210,   1,        128) /* ItemType - Misc */
+     , (2210,   8,        500) /* Mass */
+     , (2210,  16,         32) /* ItemUseable - Remote */
+     , (2210,  19,          0) /* Value */
+     , (2210,  38,        425) /* ResistLockpick */
+     , (2210,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2210, 001 /* STUCK_BOOL */, True)
-     , (2210, 002 /* OPEN_BOOL */, False)
-     , (2210, 003 /* LOCKED_BOOL */, True)
-     , (2210, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (2210, 013 /* ETHEREAL_BOOL */, False)
-     , (2210, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (2210, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (2210, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (2210, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (2210,   1, True ) /* Stuck */
+     , (2210,   2, False) /* Open */
+     , (2210,   3, True ) /* Locked */
+     , (2210,  12, True ) /* ReportCollisions */
+     , (2210,  13, False) /* Ethereal */
+     , (2210,  14, False) /* GravityStatus */
+     , (2210,  33, False) /* ResetMessagePending */
+     , (2210,  34, False) /* DefaultOpen */
+     , (2210,  35, True ) /* DefaultLocked */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2210,  11,     180) /* ResetInterval */
+     , (2210,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2210,   1, 'Door') /* Name */
+     , (2210,  12, 'keytumerokB') /* LockCode */
+     , (2210,  14, 'Use this item to open it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2210,   1,   33555023) /* Setup */
+     , (2210,   2,  150994966) /* MotionTable */
+     , (2210,   3,  536870946) /* SoundTable */
+     , (2210,   8,  100668183) /* Icon */
+     , (2210,  22,  872415275) /* PhysicsEffectTable */;

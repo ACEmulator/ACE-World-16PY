@@ -1,49 +1,45 @@
-/* Weenie - Platemail Cuirass (51) */
-DELETE FROM weenie WHERE class_Id = 51;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (51, 'cuirassplatemail', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51, 001 /* NAME_STRING */, 'Platemail Cuirass');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51, 001 /* SETUP_DID */, 33554854)
-     , (51, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (51, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (51, 007 /* CLOTHINGBASE_DID */, 268435616)
-     , (51, 008 /* ICON_DID */, 100667355)
-     , (51, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (51, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (51, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('51', 'cuirassplatemail', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (51, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (51, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (51, 004 /* CLOTHING_PRIORITY_INT */, 3072 /* OuterwearChest, OuterwearAbdomen */)
-     , (51, 005 /* ENCUMB_VAL_INT */, 2798)
-     , (51, 008 /* MASS_INT */, 1400)
-     , (51, 009 /* LOCATIONS_INT */, 1536 /* CHEST_ARMOR_LOC, ABDOMEN_ARMOR_LOC */)
-     , (51, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (51, 019 /* VALUE_INT */, 2284)
-     , (51, 027 /* ARMOR_TYPE_INT */, 32)
-     , (51, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (51, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (51, 169 /* TSYS_MUTATION_DATA_INT */, 118097668);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51, 012 /* SHADE_FLOAT */, 0.66)
-     , (51, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (51, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (51, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (51, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (51, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (51, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (51, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
-     , (51, 110 /* BULK_MOD_FLOAT */, 1)
-     , (51, 111 /* SIZE_MOD_FLOAT */, 1.4);
+VALUES (51,   1,          2) /* ItemType - Armor */
+     , (51,   3,         20) /* PaletteTemplate - Silver */
+     , (51,   4,       3072) /* ClothingPriority */
+     , (51,   5,       2798) /* EncumbranceVal */
+     , (51,   8,       1400) /* Mass */
+     , (51,   9,       1536) /* ValidLocations */
+     , (51,  16,          1) /* ItemUseable - No */
+     , (51,  19,       2284) /* Value */
+     , (51,  27,         32) /* ArmorType */
+     , (51,  28,        100) /* ArmorLevel */
+     , (51,  93,       1044) /* PhysicsState */
+     , (51, 169,  118097668) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51, 022 /* INSCRIBABLE_BOOL */, True)
-     , (51, 100 /* DYABLE_BOOL */, True);
+VALUES (51,  22, True ) /* Inscribable */
+     , (51, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (51,  12,    0.66) /* Shade */
+     , (51,  13,     1.3) /* ArmorModVsSlash */
+     , (51,  14,       1) /* ArmorModVsPierce */
+     , (51,  15,       1) /* ArmorModVsBludgeon */
+     , (51,  16,     0.4) /* ArmorModVsCold */
+     , (51,  17,     0.4) /* ArmorModVsFire */
+     , (51,  18,     0.6) /* ArmorModVsAcid */
+     , (51,  19,     0.4) /* ArmorModVsElectric */
+     , (51, 110,       1) /* BulkMod */
+     , (51, 111,     1.4) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (51,   1, 'Platemail Cuirass') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (51,   1,   33554854) /* Setup */
+     , (51,   3,  536870932) /* SoundTable */
+     , (51,   6,   67108990) /* PaletteBase */
+     , (51,   7,  268435616) /* ClothingBase */
+     , (51,   8,  100667355) /* Icon */
+     , (51,  22,  872415275) /* PhysicsEffectTable */
+     , (51,  36,  234881042) /* MutateFilter */
+     , (51,  46,  939524146) /* TsysMutationFilter */;

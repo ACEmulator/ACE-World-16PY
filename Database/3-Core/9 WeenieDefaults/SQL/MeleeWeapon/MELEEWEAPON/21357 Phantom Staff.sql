@@ -1,61 +1,57 @@
-/* Weenie - Phantom Staff (21357) */
-DELETE FROM weenie WHERE class_Id = 21357;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21357, 'nabutphantom', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21357, 001 /* NAME_STRING */, 'Phantom Staff')
-     , (21357, 015 /* SHORT_DESC_STRING */, 'A ghostly staff crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)')
-     , (21357, 016 /* LONG_DESC_STRING */, 'A ghostly staff crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21357, 001 /* SETUP_DID */, 33556652)
-     , (21357, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21357, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (21357, 007 /* CLOTHINGBASE_DID */, 268435795)
-     , (21357, 008 /* ICON_DID */, 100669105)
-     , (21357, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21357, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21357', 'nabutphantom', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21357, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (21357, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (21357, 005 /* ENCUMB_VAL_INT */, 450)
-     , (21357, 008 /* MASS_INT */, 110)
-     , (21357, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (21357, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (21357, 019 /* VALUE_INT */, 3000)
-     , (21357, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (21357, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (21357, 044 /* DAMAGE_INT */, 5)
-     , (21357, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (21357, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (21357, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (21357, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (21357, 049 /* WEAPON_TIME_INT */, 20)
-     , (21357, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (21357, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (21357, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (21357, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (21357, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (21357, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (21357, 159 /* WIELD_SKILLTYPE_INT */, 10 /* STAFF_SKILL */)
-     , (21357, 160 /* WIELD_DIFFICULTY_INT */, 275)
-     , (21357, 179 /* IMBUED_EFFECT_INT */, -2147483648 /* IgnoreAllArmor_ImbuedEffectType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21357, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (21357, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.1)
-     , (21357, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (21357, 039 /* DEFAULT_SCALE_FLOAT */, 0.67)
-     , (21357, 062 /* WEAPON_OFFENSE_FLOAT */, 1.15)
-     , (21357, 076 /* TRANSLUCENCY_FLOAT */, 0.7);
+VALUES (21357,   1,          1) /* ItemType - MeleeWeapon */
+     , (21357,   3,          4) /* PaletteTemplate - Brown */
+     , (21357,   5,        450) /* EncumbranceVal */
+     , (21357,   8,        110) /* Mass */
+     , (21357,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (21357,  16,          1) /* ItemUseable - No */
+     , (21357,  19,       3000) /* Value */
+     , (21357,  33,          1) /* Bonded - Bonded */
+     , (21357,  36,       9999) /* ResistMagic */
+     , (21357,  44,          5) /* Damage */
+     , (21357,  45,          4) /* DamageType - Bludgeon */
+     , (21357,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (21357,  47,          6) /* AttackType */
+     , (21357,  48,         10) /* WeaponSkill - Staff */
+     , (21357,  49,         20) /* WeaponTime */
+     , (21357,  51,          1) /* CombatUse - Melee */
+     , (21357,  93,       3092) /* PhysicsState */
+     , (21357, 114,          1) /* Attuned - Attuned */
+     , (21357, 150,        103) /* HookPlacement - Hook */
+     , (21357, 151,          2) /* HookType - Wall */
+     , (21357, 158,          2) /* WieldRequirements - RawSkill */
+     , (21357, 159,         10) /* WieldSkilltype - Staff */
+     , (21357, 160,        275) /* WieldDifficulty */
+     , (21357, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21357, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (21357, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21357, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (21357, 069 /* IS_SELLABLE_BOOL */, False)
-     , (21357, 099 /* IVORYABLE_BOOL */, True);
+VALUES (21357,  15, True ) /* LightsStatus */
+     , (21357,  22, True ) /* Inscribable */
+     , (21357,  23, True ) /* DestroyOnSell */
+     , (21357,  69, False) /* IsSellable */
+     , (21357,  99, True ) /* Ivoryable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21357,  21,    1.33) /* WeaponLength */
+     , (21357,  22,     0.1) /* DamageVariance */
+     , (21357,  29,       1) /* WeaponDefense */
+     , (21357,  39,    0.67) /* DefaultScale */
+     , (21357,  62,    1.15) /* WeaponOffense */
+     , (21357,  76,     0.7) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21357,   1, 'Phantom Staff') /* Name */
+     , (21357,  15, 'A ghostly staff crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* ShortDesc */
+     , (21357,  16, 'A ghostly staff crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21357,   1,   33556652) /* Setup */
+     , (21357,   3,  536870932) /* SoundTable */
+     , (21357,   6,   67111919) /* PaletteBase */
+     , (21357,   7,  268435795) /* ClothingBase */
+     , (21357,   8,  100669105) /* Icon */
+     , (21357,  22,  872415275) /* PhysicsEffectTable */
+     , (21357,  36,  234881044) /* MutateFilter */;

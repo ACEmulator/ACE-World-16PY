@@ -1,48 +1,44 @@
-/* Weenie - Acid Kasrullah (3814) */
-DELETE FROM weenie WHERE class_Id = 3814;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3814, 'kasrullahacid', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3814, 001 /* NAME_STRING */, 'Acid Kasrullah');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3814, 001 /* SETUP_DID */, 33555729)
-     , (3814, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3814, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3814, 007 /* CLOTHINGBASE_DID */, 268435787)
-     , (3814, 008 /* ICON_DID */, 100667595)
-     , (3814, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3814, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3814, 046 /* TSYS_MUTATION_FILTER_DID */, 939524099);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3814', 'kasrullahacid', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3814, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3814, 005 /* ENCUMB_VAL_INT */, 275)
-     , (3814, 008 /* MASS_INT */, 110)
-     , (3814, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3814, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3814, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (3814, 019 /* VALUE_INT */, 255)
-     , (3814, 044 /* DAMAGE_INT */, 9)
-     , (3814, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (3814, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3814, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (3814, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (3814, 049 /* WEAPON_TIME_INT */, 35)
-     , (3814, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3814, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3814, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3814, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3814, 169 /* TSYS_MUTATION_DATA_INT */, 101189388);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3814, 021 /* WEAPON_LENGTH_FLOAT */, 0.72)
-     , (3814, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3814, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3814, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3814,   1,          1) /* ItemType - MeleeWeapon */
+     , (3814,   5,        275) /* EncumbranceVal */
+     , (3814,   8,        110) /* Mass */
+     , (3814,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3814,  16,          1) /* ItemUseable - No */
+     , (3814,  18,        256) /* UiEffects - Acid */
+     , (3814,  19,        255) /* Value */
+     , (3814,  44,          9) /* Damage */
+     , (3814,  45,         32) /* DamageType - Acid */
+     , (3814,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3814,  47,          4) /* AttackType - Slash */
+     , (3814,  48,          5) /* WeaponSkill - Mace */
+     , (3814,  49,         35) /* WeaponTime */
+     , (3814,  51,          1) /* CombatUse - Melee */
+     , (3814,  93,       1044) /* PhysicsState */
+     , (3814, 150,        103) /* HookPlacement - Hook */
+     , (3814, 151,          2) /* HookType - Wall */
+     , (3814, 169,  101189388) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3814, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3814,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3814,  21,    0.72) /* WeaponLength */
+     , (3814,  22,     0.5) /* DamageVariance */
+     , (3814,  29,       1) /* WeaponDefense */
+     , (3814,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3814,   1, 'Acid Kasrullah') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3814,   1,   33555729) /* Setup */
+     , (3814,   3,  536870932) /* SoundTable */
+     , (3814,   6,   67111919) /* PaletteBase */
+     , (3814,   7,  268435787) /* ClothingBase */
+     , (3814,   8,  100667595) /* Icon */
+     , (3814,  22,  872415275) /* PhysicsEffectTable */
+     , (3814,  36,  234881053) /* MutateFilter */
+     , (3814,  46,  939524099) /* TsysMutationFilter */;

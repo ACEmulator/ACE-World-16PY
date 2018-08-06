@@ -1,57 +1,53 @@
-/* Weenie - Nuhmudira's Bestowment of Focus and Lightning Defense (19614) */
-DELETE FROM weenie WHERE class_Id = 19614;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19614, 'gorgetnuhmudirafocuslightninghigh', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19614, 001 /* NAME_STRING */, 'Nuhmudira''s Bestowment of Focus and Lightning Defense')
-     , (19614, 015 /* SHORT_DESC_STRING */, 'A red gorget, crafted from a strong metal, imbued with an elixir of single mind and elixir of autumn.')
-     , (19614, 016 /* LONG_DESC_STRING */, 'A red gorget, crafted from a strong metal, imbued with an elixir of single mind and elixir of autumn. As you hold the gorget in your hand you feel a soft vibration.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19614, 001 /* SETUP_DID */, 33554687)
-     , (19614, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19614, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19614, 007 /* CLOTHINGBASE_DID */, 268436388)
-     , (19614, 008 /* ICON_DID */, 100668632)
-     , (19614, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (19614, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19614', 'gorgetnuhmudirafocuslightninghigh', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19614, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (19614, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (19614, 005 /* ENCUMB_VAL_INT */, 150)
-     , (19614, 008 /* MASS_INT */, 150)
-     , (19614, 009 /* LOCATIONS_INT */, 32768 /* NECK_WEAR_LOC */)
-     , (19614, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19614, 018 /* UI_EFFECTS_INT */, 64 /* UI_EFFECT_LIGHTNING */)
-     , (19614, 019 /* VALUE_INT */, 5000)
-     , (19614, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19614, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19614, 106 /* ITEM_SPELLCRAFT_INT */, 225)
-     , (19614, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (19614, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (19614, 109 /* ITEM_DIFFICULTY_INT */, 180)
-     , (19614, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (19614, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (19614, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (19614, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (19614, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (19614, 160 /* WIELD_DIFFICULTY_INT */, 45);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19614, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (19614, 039 /* DEFAULT_SCALE_FLOAT */, 0.67);
+VALUES (19614,   1,          8) /* ItemType - Jewelry */
+     , (19614,   3,         14) /* PaletteTemplate - Red */
+     , (19614,   5,        150) /* EncumbranceVal */
+     , (19614,   8,        150) /* Mass */
+     , (19614,   9,      32768) /* ValidLocations - NeckWear */
+     , (19614,  16,          1) /* ItemUseable - No */
+     , (19614,  18,         64) /* UiEffects - Lightning */
+     , (19614,  19,       5000) /* Value */
+     , (19614,  33,          1) /* Bonded - Bonded */
+     , (19614,  93,       1044) /* PhysicsState */
+     , (19614, 106,        225) /* ItemSpellcraft */
+     , (19614, 107,        500) /* ItemCurMana */
+     , (19614, 108,        500) /* ItemMaxMana */
+     , (19614, 109,        180) /* ItemDifficulty */
+     , (19614, 114,          1) /* Attuned - Attuned */
+     , (19614, 150,        103) /* HookPlacement - Hook */
+     , (19614, 151,          2) /* HookType - Wall */
+     , (19614, 158,          7) /* WieldRequirements - Level */
+     , (19614, 159,          1) /* WieldSkilltype - Axe */
+     , (19614, 160,         45) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19614, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19614, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19614, 069 /* IS_SELLABLE_BOOL */, False)
-     , (19614, 099 /* IVORYABLE_BOOL */, True);
+VALUES (19614,  22, True ) /* Inscribable */
+     , (19614,  23, True ) /* DestroyOnSell */
+     , (19614,  69, False) /* IsSellable */
+     , (19614,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19614,   5,  -0.033) /* ManaRate */
+     , (19614,  39,    0.67) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19614,   1, 'Nuhmudira''s Bestowment of Focus and Lightning Defense') /* Name */
+     , (19614,  15, 'A red gorget, crafted from a strong metal, imbued with an elixir of single mind and elixir of autumn.') /* ShortDesc */
+     , (19614,  16, 'A red gorget, crafted from a strong metal, imbued with an elixir of single mind and elixir of autumn. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19614,   1,   33554687) /* Setup */
+     , (19614,   3,  536870932) /* SoundTable */
+     , (19614,   6,   67111919) /* PaletteBase */
+     , (19614,   7,  268436388) /* ClothingBase */
+     , (19614,   8,  100668632) /* Icon */
+     , (19614,  22,  872415275) /* PhysicsEffectTable */
+     , (19614,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19614, 1431, 2) /* FocusOther5_SpellID */
-     , (19614, 2669, 2) /* NuhmudirasBestowment_SpellID */
-     , (19614, 1076, 2) /* LightningProtectionOther5_SpellID */;
-
+VALUES (19614,  1076,      2)  /* Lightning Protection Other V */
+     , (19614,  1431,      2)  /* Focus Other V */
+     , (19614,  2669,      2)  /* Nuhmudiras Bestowment */;

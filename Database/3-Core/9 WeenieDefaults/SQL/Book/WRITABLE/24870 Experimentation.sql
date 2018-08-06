@@ -1,36 +1,33 @@
-/* Weenie - Experimentation (24870) */
-DELETE FROM weenie WHERE class_Id = 24870;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24870, 'bookaerbaxharbinger', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24870, 001 /* NAME_STRING */, 'Experimentation');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24870, 001 /* SETUP_DID */, 33554771)
-     , (24870, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24870, 008 /* ICON_DID */, 100668117)
-     , (24870, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24870', 'bookaerbaxharbinger', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24870, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (24870, 005 /* ENCUMB_VAL_INT */, 500)
-     , (24870, 008 /* MASS_INT */, 200)
-     , (24870, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24870, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24870, 019 /* VALUE_INT */, 0)
-     , (24870, 037 /* RESIST_ITEM_APPRAISAL_INT */, 50)
-     , (24870, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24870, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (24870,   1,       8192) /* ItemType - Writable */
+     , (24870,   5,        500) /* EncumbranceVal */
+     , (24870,   8,        200) /* Mass */
+     , (24870,   9,          0) /* ValidLocations - None */
+     , (24870,  16,          8) /* ItemUseable - Contained */
+     , (24870,  19,          0) /* Value */
+     , (24870,  37,         50) /* ResistItemAppraisal */
+     , (24870,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24870, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (24870,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24870,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24870,   1, 'Experimentation') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24870,   1,   33554771) /* Setup */
+     , (24870,   3,  536870932) /* SoundTable */
+     , (24870,   8,  100668117) /* Icon */
+     , (24870,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (24870, 16, 1000) /* Book Data */;
+VALUES (24870, 16, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (24870, 0, 4294967295, 'Aerbax', 'prewritten', False, 'Greetings. If you are in possession of this missive then you have chosen to assist in the collection of the entity known as the Harbinger. I thank you for your offer and welcome any assistance that you may be able to provide.
@@ -123,4 +120,3 @@ Aerbax
 ')
      , (24870, 15, 4294967295, '', 'prewritten', False, '
 ');
-

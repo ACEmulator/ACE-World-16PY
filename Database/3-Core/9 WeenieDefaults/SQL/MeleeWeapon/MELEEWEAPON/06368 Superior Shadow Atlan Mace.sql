@@ -1,63 +1,59 @@
-/* Weenie - Superior Shadow Atlan Mace (6368) */
-DELETE FROM weenie WHERE class_Id = 6368;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6368, 'macebettershadow', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6368, 001 /* NAME_STRING */, 'Superior Shadow Atlan Mace');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6368, 001 /* SETUP_DID */, 33556323)
-     , (6368, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6368, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6368, 007 /* CLOTHINGBASE_DID */, 268435902)
-     , (6368, 008 /* ICON_DID */, 100670543)
-     , (6368, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6368, 037 /* ITEM_SKILL_LIMIT_DID */, 5);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6368', 'macebettershadow', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6368, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6368, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (6368, 005 /* ENCUMB_VAL_INT */, 600)
-     , (6368, 008 /* MASS_INT */, 900)
-     , (6368, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6368, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6368, 019 /* VALUE_INT */, 4000)
-     , (6368, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6368, 044 /* DAMAGE_INT */, 16)
-     , (6368, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (6368, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6368, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (6368, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (6368, 049 /* WEAPON_TIME_INT */, 40)
-     , (6368, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6368, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6368, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (6368, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (6368, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (6368, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (6368, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 180);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6368, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (6368, 021 /* WEAPON_LENGTH_FLOAT */, 0.6)
-     , (6368, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (6368, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (6368, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6368, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (6368,   1,          1) /* ItemType - MeleeWeapon */
+     , (6368,   3,         39) /* PaletteTemplate - Black */
+     , (6368,   5,        600) /* EncumbranceVal */
+     , (6368,   8,        900) /* Mass */
+     , (6368,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6368,  16,          1) /* ItemUseable - No */
+     , (6368,  19,       4000) /* Value */
+     , (6368,  33,          1) /* Bonded - Bonded */
+     , (6368,  44,         16) /* Damage */
+     , (6368,  45,          4) /* DamageType - Bludgeon */
+     , (6368,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6368,  47,          4) /* AttackType - Slash */
+     , (6368,  48,          5) /* WeaponSkill - Mace */
+     , (6368,  49,         40) /* WeaponTime */
+     , (6368,  51,          1) /* CombatUse - Melee */
+     , (6368,  93,       1044) /* PhysicsState */
+     , (6368, 106,        200) /* ItemSpellcraft */
+     , (6368, 107,       1000) /* ItemCurMana */
+     , (6368, 108,       1000) /* ItemMaxMana */
+     , (6368, 114,          1) /* Attuned - Attuned */
+     , (6368, 115,        180) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6368, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6368, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6368, 069 /* IS_SELLABLE_BOOL */, False)
-     , (6368, 099 /* IVORYABLE_BOOL */, True);
+VALUES (6368,  22, True ) /* Inscribable */
+     , (6368,  23, True ) /* DestroyOnSell */
+     , (6368,  69, False) /* IsSellable */
+     , (6368,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6368,   5,    -0.1) /* ManaRate */
+     , (6368,  21,     0.6) /* WeaponLength */
+     , (6368,  22,     0.6) /* DamageVariance */
+     , (6368,  29,       1) /* WeaponDefense */
+     , (6368,  39,       1) /* DefaultScale */
+     , (6368,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6368,   1, 'Superior Shadow Atlan Mace') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6368,   1,   33556323) /* Setup */
+     , (6368,   3,  536870932) /* SoundTable */
+     , (6368,   6,   67111919) /* PaletteBase */
+     , (6368,   7,  268435902) /* ClothingBase */
+     , (6368,   8,  100670543) /* Icon */
+     , (6368,  22,  872415275) /* PhysicsEffectTable */
+     , (6368,  37,          5) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6368, 265, 2) /* DefenselessnessOther4_SpellID */
-     , (6368, 1616, 2) /* BloodDrinker6_SpellID */
-     , (6368, 1623, 2) /* SwiftKiller2_SpellID */
-     , (6368, 1590, 2) /* HeartSeeker4_SpellID */
-     , (6368, 1468, 2) /* FeeblemindOther6_SpellID */
-     , (6368, 957, 2) /* FealtyOther6_SpellID */;
-
+VALUES (6368,   265,      2)  /* Defenselessness Other IV */
+     , (6368,   957,      2)  /* Fealty Other VI */
+     , (6368,  1468,      2)  /* Feeblemind Other VI */
+     , (6368,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (6368,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (6368,  1623,      2)  /* Aura of Swift Killer Self II */;

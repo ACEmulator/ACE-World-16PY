@@ -1,49 +1,45 @@
-/* Weenie - Acid Battle Axe (3750) */
-DELETE FROM weenie WHERE class_Id = 3750;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3750, 'axebattleacid', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3750, 001 /* NAME_STRING */, 'Acid Battle Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3750, 001 /* SETUP_DID */, 33555687)
-     , (3750, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3750, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3750, 007 /* CLOTHINGBASE_DID */, 268435780)
-     , (3750, 008 /* ICON_DID */, 100667606)
-     , (3750, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3750, 030 /* PHYSICS_SCRIPT_DID */, 87 /* PS_BreatheLightning */)
-     , (3750, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3750, 046 /* TSYS_MUTATION_FILTER_DID */, 939524098);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3750', 'axebattleacid', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3750, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3750, 005 /* ENCUMB_VAL_INT */, 800)
-     , (3750, 008 /* MASS_INT */, 320)
-     , (3750, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3750, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3750, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (3750, 019 /* VALUE_INT */, 900)
-     , (3750, 044 /* DAMAGE_INT */, 11)
-     , (3750, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (3750, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3750, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (3750, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (3750, 049 /* WEAPON_TIME_INT */, 60)
-     , (3750, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3750, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3750, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3750, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3750, 169 /* TSYS_MUTATION_DATA_INT */, 101189386);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3750, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (3750, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3750, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3750, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3750,   1,          1) /* ItemType - MeleeWeapon */
+     , (3750,   5,        800) /* EncumbranceVal */
+     , (3750,   8,        320) /* Mass */
+     , (3750,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3750,  16,          1) /* ItemUseable - No */
+     , (3750,  18,        256) /* UiEffects - Acid */
+     , (3750,  19,        900) /* Value */
+     , (3750,  44,         11) /* Damage */
+     , (3750,  45,         32) /* DamageType - Acid */
+     , (3750,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3750,  47,          4) /* AttackType - Slash */
+     , (3750,  48,          1) /* WeaponSkill - Axe */
+     , (3750,  49,         60) /* WeaponTime */
+     , (3750,  51,          1) /* CombatUse - Melee */
+     , (3750,  93,       1044) /* PhysicsState */
+     , (3750, 150,        103) /* HookPlacement - Hook */
+     , (3750, 151,          2) /* HookType - Wall */
+     , (3750, 169,  101189386) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3750, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3750,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3750,  21,    0.75) /* WeaponLength */
+     , (3750,  22,     0.5) /* DamageVariance */
+     , (3750,  29,       1) /* WeaponDefense */
+     , (3750,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3750,   1, 'Acid Battle Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3750,   1,   33555687) /* Setup */
+     , (3750,   3,  536870932) /* SoundTable */
+     , (3750,   6,   67111919) /* PaletteBase */
+     , (3750,   7,  268435780) /* ClothingBase */
+     , (3750,   8,  100667606) /* Icon */
+     , (3750,  22,  872415275) /* PhysicsEffectTable */
+     , (3750,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (3750,  36,  234881053) /* MutateFilter */
+     , (3750,  46,  939524098) /* TsysMutationFilter */;

@@ -1,48 +1,44 @@
-/* Weenie - Driftwood Cottages Portal Gem (26142) */
-DELETE FROM weenie WHERE class_Id = 26142;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26142, 'gemportaldriftwoodcottages', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26142, 001 /* NAME_STRING */, 'Driftwood Cottages Portal Gem')
-     , (26142, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26142, 001 /* SETUP_DID */, 33556769)
-     , (26142, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26142, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26142, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26142, 008 /* ICON_DID */, 100675760)
-     , (26142, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26142, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26142, 031 /* LINKED_PORTAL_ONE_DID */, 14260 /* Driftwood Cottages Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26142', 'gemportaldriftwoodcottages', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26142, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26142, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26142, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26142, 008 /* MASS_INT */, 10)
-     , (26142, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26142, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26142, 012 /* STACK_SIZE_INT */, 1)
-     , (26142, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26142, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26142, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26142, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26142, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26142, 019 /* VALUE_INT */, 500)
-     , (26142, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26142, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26142, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26142, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26142, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26142, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26142, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26142, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26142, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26142,   1,       2048) /* ItemType - Gem */
+     , (26142,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26142,   5,         10) /* EncumbranceVal */
+     , (26142,   8,         10) /* Mass */
+     , (26142,   9,          0) /* ValidLocations - None */
+     , (26142,  11,         20) /* MaxStackSize */
+     , (26142,  12,          1) /* StackSize */
+     , (26142,  13,         10) /* StackUnitEncumbrance */
+     , (26142,  14,         10) /* StackUnitMass */
+     , (26142,  15,        500) /* StackUnitValue */
+     , (26142,  16,          8) /* ItemUseable - Contained */
+     , (26142,  18,          1) /* UiEffects - Magical */
+     , (26142,  19,        500) /* Value */
+     , (26142,  93,       3092) /* PhysicsState */
+     , (26142,  94,         16) /* TargetType - Creature */
+     , (26142, 106,        210) /* ItemSpellcraft */
+     , (26142, 107,         50) /* ItemCurMana */
+     , (26142, 108,         50) /* ItemMaxMana */
+     , (26142, 109,          0) /* ItemDifficulty */
+     , (26142, 110,          0) /* ItemAllegianceRankLimit */
+     , (26142, 150,        103) /* HookPlacement - Hook */
+     , (26142, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26142, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26142, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26142,  15, True ) /* LightsStatus */
+     , (26142,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26142,   1, 'Driftwood Cottages Portal Gem') /* Name */
+     , (26142,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26142,   1,   33556769) /* Setup */
+     , (26142,   3,  536870932) /* SoundTable */
+     , (26142,   6,   67111919) /* PaletteBase */
+     , (26142,   7,  268435723) /* ClothingBase */
+     , (26142,   8,  100675760) /* Icon */
+     , (26142,  22,  872415275) /* PhysicsEffectTable */
+     , (26142,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26142,  31,      14260) /* LinkedPortalOne - Driftwood Cottages Portal */;

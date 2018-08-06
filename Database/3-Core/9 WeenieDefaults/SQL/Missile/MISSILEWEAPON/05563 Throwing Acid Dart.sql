@@ -1,50 +1,46 @@
-/* Weenie - Throwing Acid Dart (5563) */
-DELETE FROM weenie WHERE class_Id = 5563;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5563, 'dartacidstack', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5563, 001 /* NAME_STRING */, 'Throwing Acid Dart');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5563, 001 /* SETUP_DID */, 33555700)
-     , (5563, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5563, 008 /* ICON_DID */, 100667591)
-     , (5563, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5563', 'dartacidstack', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5563, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (5563, 005 /* ENCUMB_VAL_INT */, 50)
-     , (5563, 008 /* MASS_INT */, 50)
-     , (5563, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (5563, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5563, 012 /* STACK_SIZE_INT */, 10)
-     , (5563, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (5563, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (5563, 015 /* STACK_UNIT_VALUE_INT */, 4)
-     , (5563, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5563, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (5563, 019 /* VALUE_INT */, 40)
-     , (5563, 044 /* DAMAGE_INT */, 6)
-     , (5563, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (5563, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (5563, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (5563, 049 /* WEAPON_TIME_INT */, 10)
-     , (5563, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (5563, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (5563, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (5563, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5563, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (5563, 027 /* ROTATION_SPEED_FLOAT */, 0)
-     , (5563, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (5563, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (5563, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (5563, 078 /* FRICTION_FLOAT */, 1)
-     , (5563, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (5563,   1,        256) /* ItemType - MissileWeapon */
+     , (5563,   5,         50) /* EncumbranceVal */
+     , (5563,   8,         50) /* Mass */
+     , (5563,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (5563,  11,        100) /* MaxStackSize */
+     , (5563,  12,         10) /* StackSize */
+     , (5563,  13,          5) /* StackUnitEncumbrance */
+     , (5563,  14,          5) /* StackUnitMass */
+     , (5563,  15,          4) /* StackUnitValue */
+     , (5563,  16,          1) /* ItemUseable - No */
+     , (5563,  18,        256) /* UiEffects - Acid */
+     , (5563,  19,         40) /* Value */
+     , (5563,  44,          6) /* Damage */
+     , (5563,  45,         32) /* DamageType - Acid */
+     , (5563,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (5563,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (5563,  49,         10) /* WeaponTime */
+     , (5563,  51,          2) /* CombatUse - Missle */
+     , (5563,  93,     132116) /* PhysicsState */
+     , (5563, 150,        103) /* HookPlacement - Hook */
+     , (5563, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5563, 017 /* INELASTIC_BOOL */, True);
+VALUES (5563,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5563,  22,    0.25) /* DamageVariance */
+     , (5563,  27,       0) /* RotationSpeed */
+     , (5563,  29,       1) /* WeaponDefense */
+     , (5563,  39,       1) /* DefaultScale */
+     , (5563,  62,       1) /* WeaponOffense */
+     , (5563,  78,       1) /* Friction */
+     , (5563,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5563,   1, 'Throwing Acid Dart') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5563,   1,   33555700) /* Setup */
+     , (5563,   3,  536870932) /* SoundTable */
+     , (5563,   8,  100667591) /* Icon */
+     , (5563,  22,  872415275) /* PhysicsEffectTable */;

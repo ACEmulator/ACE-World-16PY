@@ -1,37 +1,34 @@
-/* Weenie - The Legend of Lilitha (5689) */
-DELETE FROM weenie WHERE class_Id = 5689;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5689, 'booklilitha', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5689, 001 /* NAME_STRING */, 'The Legend of Lilitha')
-     , (5689, 016 /* LONG_DESC_STRING */, 'A copy of the Legend of Lilitha, bought from the Cragstone Library.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5689, 001 /* SETUP_DID */, 33554771)
-     , (5689, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5689, 008 /* ICON_DID */, 100668117)
-     , (5689, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5689', 'booklilitha', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5689, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5689, 005 /* ENCUMB_VAL_INT */, 160)
-     , (5689, 008 /* MASS_INT */, 230)
-     , (5689, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5689, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5689, 019 /* VALUE_INT */, 120)
-     , (5689, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5689, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (5689, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (5689,   1,       8192) /* ItemType - Writable */
+     , (5689,   5,        160) /* EncumbranceVal */
+     , (5689,   8,        230) /* Mass */
+     , (5689,   9,          0) /* ValidLocations - None */
+     , (5689,  16,          8) /* ItemUseable - Contained */
+     , (5689,  19,        120) /* Value */
+     , (5689,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5689, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5689,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5689,  39,    1.22) /* DefaultScale */
+     , (5689,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5689,   1, 'The Legend of Lilitha') /* Name */
+     , (5689,  16, 'A copy of the Legend of Lilitha, bought from the Cragstone Library.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5689,   1,   33554771) /* Setup */
+     , (5689,   3,  536870932) /* SoundTable */
+     , (5689,   8,  100668117) /* Icon */
+     , (5689,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5689, 5, 1000) /* Book Data */;
+VALUES (5689, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5689, 0, 4294967295, 'Legend of Lilitha', 'prewritten', False, 'Both hated and revered she was, Lilitha the Hunter.  In the early days of Elysa Strathelar''s reign, Lilitha refused to be bound by duty or conscience, and plunged without care into the dark woods of Tiofor.  Leaving behind all else, she traveled with bow and arrow into the wilds, slaying all manner of beasts and creatures - and even the people who sought to oppose her, it is said.  So she earned the name Hunter.
@@ -46,4 +43,3 @@ It is said that she was the first to come upon the fort known now as the Bandit 
 ')
      , (5689, 4, 4294967295, 'Legend of Lilitha', 'prewritten', False, 'Now, in these later days, few remember Lilitha the Hunter.  It is said some of the earliest arrows she used can be found still: cast-off arrows which she made, used, and abandoned back in the days in which she still came back to town to drink and brag and spin her tales.  Where is she now?  No one knows.  Perhaps she has traveled on, with her arrows and her wild love of the hunt, into the next life.
 ');
-

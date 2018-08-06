@@ -1,48 +1,44 @@
-/* Weenie - Sonpay Portal Gem (26372) */
-DELETE FROM weenie WHERE class_Id = 26372;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26372, 'gemportalsonpay', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26372, 001 /* NAME_STRING */, 'Sonpay Portal Gem')
-     , (26372, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26372, 001 /* SETUP_DID */, 33556769)
-     , (26372, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26372, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26372, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26372, 008 /* ICON_DID */, 100675760)
-     , (26372, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26372, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26372, 031 /* LINKED_PORTAL_ONE_DID */, 15192 /* Sonpay Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26372', 'gemportalsonpay', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26372, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26372, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26372, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26372, 008 /* MASS_INT */, 10)
-     , (26372, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26372, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26372, 012 /* STACK_SIZE_INT */, 1)
-     , (26372, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26372, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26372, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26372, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26372, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26372, 019 /* VALUE_INT */, 500)
-     , (26372, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26372, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26372, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26372, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26372, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26372, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26372, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26372, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26372, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26372,   1,       2048) /* ItemType - Gem */
+     , (26372,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26372,   5,         10) /* EncumbranceVal */
+     , (26372,   8,         10) /* Mass */
+     , (26372,   9,          0) /* ValidLocations - None */
+     , (26372,  11,         20) /* MaxStackSize */
+     , (26372,  12,          1) /* StackSize */
+     , (26372,  13,         10) /* StackUnitEncumbrance */
+     , (26372,  14,         10) /* StackUnitMass */
+     , (26372,  15,        500) /* StackUnitValue */
+     , (26372,  16,          8) /* ItemUseable - Contained */
+     , (26372,  18,          1) /* UiEffects - Magical */
+     , (26372,  19,        500) /* Value */
+     , (26372,  93,       3092) /* PhysicsState */
+     , (26372,  94,         16) /* TargetType - Creature */
+     , (26372, 106,        210) /* ItemSpellcraft */
+     , (26372, 107,         50) /* ItemCurMana */
+     , (26372, 108,         50) /* ItemMaxMana */
+     , (26372, 109,          0) /* ItemDifficulty */
+     , (26372, 110,          0) /* ItemAllegianceRankLimit */
+     , (26372, 150,        103) /* HookPlacement - Hook */
+     , (26372, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26372, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26372, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26372,  15, True ) /* LightsStatus */
+     , (26372,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26372,   1, 'Sonpay Portal Gem') /* Name */
+     , (26372,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26372,   1,   33556769) /* Setup */
+     , (26372,   3,  536870932) /* SoundTable */
+     , (26372,   6,   67111919) /* PaletteBase */
+     , (26372,   7,  268435723) /* ClothingBase */
+     , (26372,   8,  100675760) /* Icon */
+     , (26372,  22,  872415275) /* PhysicsEffectTable */
+     , (26372,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26372,  31,      15192) /* LinkedPortalOne - Sonpay Portal */;

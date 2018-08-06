@@ -1,36 +1,32 @@
-/* Weenie - Carving Knife (4757) */
-DELETE FROM weenie WHERE class_Id = 4757;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4757, 'carvingknife', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4757, 001 /* NAME_STRING */, 'Carving Knife')
-     , (4757, 014 /* USE_STRING */, 'This item is used in cooking and miscellaneous crafts');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4757, 001 /* SETUP_DID */, 33555971)
-     , (4757, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4757, 008 /* ICON_DID */, 100670174)
-     , (4757, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4757', 'carvingknife', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4757, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (4757, 005 /* ENCUMB_VAL_INT */, 50)
-     , (4757, 008 /* MASS_INT */, 25)
-     , (4757, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4757, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (4757, 012 /* STACK_SIZE_INT */, 1)
-     , (4757, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (4757, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (4757, 015 /* STACK_UNIT_VALUE_INT */, 25)
-     , (4757, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (4757, 019 /* VALUE_INT */, 25)
-     , (4757, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (4757, 094 /* TARGET_TYPE_INT */, 4194720 /* TYPE_FOOD, TYPE_MISC, TYPE_MISSILE_WEAPON, TYPE_CRAFT_COOKING_BASE */)
-     , (4757, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (4757, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (4757,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (4757,   5,         50) /* EncumbranceVal */
+     , (4757,   8,         25) /* Mass */
+     , (4757,   9,          0) /* ValidLocations - None */
+     , (4757,  11,          1) /* MaxStackSize */
+     , (4757,  12,          1) /* StackSize */
+     , (4757,  13,         50) /* StackUnitEncumbrance */
+     , (4757,  14,         25) /* StackUnitMass */
+     , (4757,  15,         25) /* StackUnitValue */
+     , (4757,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (4757,  19,         25) /* Value */
+     , (4757,  93,       1044) /* PhysicsState */
+     , (4757,  94,    4194720) /* TargetType */
+     , (4757, 150,        103) /* HookPlacement - Hook */
+     , (4757, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4757, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (4757,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4757,   1, 'Carving Knife') /* Name */
+     , (4757,  14, 'This item is used in cooking and miscellaneous crafts') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4757,   1,   33555971) /* Setup */
+     , (4757,   3,  536870932) /* SoundTable */
+     , (4757,   8,  100670174) /* Icon */
+     , (4757,  22,  872415275) /* PhysicsEffectTable */;

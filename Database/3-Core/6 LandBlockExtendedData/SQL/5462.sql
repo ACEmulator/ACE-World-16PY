@@ -1,20 +1,34 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15793, 1967529984, 1415708929, 0.018757, -9.55409, 0.079, -0.319929, 0, 0, -0.947441) /* A Hastily Scrawled Note */
-     , (15756, 1967529985, 1415708930, -3.5, -20, 0.005, -0.707107, 0, 0, -0.707107) /* Lever */
-     , (15792, 1967529986, 1415708932, 11.8914, 2.27639, 0.079, -0.897979, 0, 0, -0.440039) /* A Hastily Scrawled Note */
-     , (15794, 1967529987, 1415708941, 9.39135, -29.0854, 0.079, 0.229094, 0, 0, -0.973404) /* Bloody Scrawled Note */
-     , (15791, 1967529988, 1415708942, 21.7749, -1.47583, 0.079, -0.92287, 0, 0, -0.385111) /* A Painfully Scrawled Note */
-     , (15755, 1967529989, 1415708953, 33.5, -10, 0.005, 0.707107, 0, 0, -0.707107) /* Lever */
-     , (15790, 1967529990, 1415708953, 29.7525, -6.79775, 0.079, -0.782665, 0, 0, -0.622443) /* A Hastily Scrawled Note */
-     , (15759, 1967529991, 1415708954, 28.8947, -20.6798, 0.005, -0.782665, 0, 0, -0.622443) /* linkitemgen10seconds */
-     , (15789, 1967529992, 1415708954, 27.2903, -18.5597, 0.079, -0.782665, 0, 0, -0.622443) /* Scrawled Bloody Note */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1967529984, 15793, 1415708929, 0.018757, -9.55409, 0.079, -0.319929, 0, 0, -0.947441,  True); /* A Hastily Scrawled Note */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967529991'; /* linkitemgen10seconds */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1967529985, 15756, 1415708930, -3.5, -20, 0.005, -0.707107, 0, 0, -0.707107, False); /* Lever */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529992'; /* linkitemgen10seconds <- Scrawled Bloody Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529990'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529988'; /* linkitemgen10seconds <- A Painfully Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529986'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529984'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529987'; /* linkitemgen10seconds <- Bloody Scrawled Note */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1967529986, 15792, 1415708932, 11.8914, 2.27639, 0.079, -0.897979, 0, 0, -0.440039,  True); /* A Hastily Scrawled Note */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1967529987, 15794, 1415708941, 9.39135, -29.0854, 0.079, 0.229094, 0, 0, -0.973404,  True); /* Bloody Scrawled Note */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1967529988, 15791, 1415708942, 21.7749, -1.47583, 0.079, -0.92287, 0, 0, -0.385111,  True); /* A Painfully Scrawled Note */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1967529989, 15755, 1415708953, 33.5, -10, 0.005, 0.707107, 0, 0, -0.707107, False); /* Lever */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1967529990, 15790, 1415708953, 29.7525, -6.79775, 0.079, -0.782665, 0, 0, -0.622443,  True); /* A Hastily Scrawled Note */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1967529991, 15759, 1415708954, 28.8947, -20.6798, 0.005, -0.782665, 0, 0, -0.622443, False); /* Linkable Item Generator */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1967529991, 1967529984) /* A Hastily Scrawled Note */
+     , (1967529991, 1967529986) /* A Hastily Scrawled Note */
+     , (1967529991, 1967529987) /* Bloody Scrawled Note */
+     , (1967529991, 1967529988) /* A Painfully Scrawled Note */
+     , (1967529991, 1967529990) /* A Hastily Scrawled Note */
+     , (1967529991, 1967529992) /* Scrawled Bloody Note */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1967529992, 15789, 1415708954, 27.2903, -18.5597, 0.079, -0.782665, 0, 0, -0.622443,  True); /* Scrawled Bloody Note */

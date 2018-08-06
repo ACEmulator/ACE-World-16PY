@@ -1,50 +1,46 @@
-/* Weenie - Amuli Coat of Frost (7671) */
-DELETE FROM weenie WHERE class_Id = 7671;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7671, 'coatamullianshadownewfrost', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7671, 001 /* NAME_STRING */, 'Amuli Coat of Frost');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7671, 001 /* SETUP_DID */, 33554854)
-     , (7671, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7671, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (7671, 007 /* CLOTHINGBASE_DID */, 268435873)
-     , (7671, 008 /* ICON_DID */, 100670432)
-     , (7671, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7671', 'coatamullianshadownewfrost', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7671, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (7671, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (7671, 004 /* CLOTHING_PRIORITY_INT */, 13312 /* OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */)
-     , (7671, 005 /* ENCUMB_VAL_INT */, 1500)
-     , (7671, 008 /* MASS_INT */, 1000)
-     , (7671, 009 /* LOCATIONS_INT */, 6656 /* CHEST_ARMOR_LOC, UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (7671, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7671, 019 /* VALUE_INT */, 2610)
-     , (7671, 027 /* ARMOR_TYPE_INT */, 8)
-     , (7671, 028 /* ARMOR_LEVEL_INT */, 140)
-     , (7671, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7671, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (7671, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7671, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7671, 012 /* SHADE_FLOAT */, 0.8)
-     , (7671, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (7671, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.1)
-     , (7671, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (7671, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 2)
-     , (7671, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0)
-     , (7671, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.2)
-     , (7671, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.2)
-     , (7671, 110 /* BULK_MOD_FLOAT */, 1)
-     , (7671, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (7671,   1,          2) /* ItemType - Armor */
+     , (7671,   3,          2) /* PaletteTemplate - Blue */
+     , (7671,   4,      13312) /* ClothingPriority */
+     , (7671,   5,       1500) /* EncumbranceVal */
+     , (7671,   8,       1000) /* Mass */
+     , (7671,   9,       6656) /* ValidLocations */
+     , (7671,  16,          1) /* ItemUseable - No */
+     , (7671,  19,       2610) /* Value */
+     , (7671,  27,          8) /* ArmorType */
+     , (7671,  28,        140) /* ArmorLevel */
+     , (7671,  33,          1) /* Bonded - Bonded */
+     , (7671,  36,       9999) /* ResistMagic */
+     , (7671,  93,       1044) /* PhysicsState */
+     , (7671, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7671, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7671, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7671, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7671,  22, True ) /* Inscribable */
+     , (7671,  23, True ) /* DestroyOnSell */
+     , (7671,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7671,  12,     0.8) /* Shade */
+     , (7671,  13,       1) /* ArmorModVsSlash */
+     , (7671,  14,     1.1) /* ArmorModVsPierce */
+     , (7671,  15,       1) /* ArmorModVsBludgeon */
+     , (7671,  16,       2) /* ArmorModVsCold */
+     , (7671,  17,       0) /* ArmorModVsFire */
+     , (7671,  18,     1.2) /* ArmorModVsAcid */
+     , (7671,  19,     1.2) /* ArmorModVsElectric */
+     , (7671, 110,       1) /* BulkMod */
+     , (7671, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7671,   1, 'Amuli Coat of Frost') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7671,   1,   33554854) /* Setup */
+     , (7671,   3,  536870932) /* SoundTable */
+     , (7671,   6,   67108990) /* PaletteBase */
+     , (7671,   7,  268435873) /* ClothingBase */
+     , (7671,   8,  100670432) /* Icon */
+     , (7671,  22,  872415275) /* PhysicsEffectTable */;

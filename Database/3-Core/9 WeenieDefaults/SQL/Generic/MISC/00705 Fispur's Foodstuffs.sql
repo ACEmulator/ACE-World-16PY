@@ -1,30 +1,26 @@
-/* Weenie - Fispur's Foodstuffs (705) */
-DELETE FROM weenie WHERE class_Id = 705;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (705, 'holtburggrocersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (705, 001 /* NAME_STRING */, 'Fispur''s Foodstuffs')
-     , (705, 016 /* LONG_DESC_STRING */, 'Fispur''s Foodstuffs');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (705, 001 /* SETUP_DID */, 33555088)
-     , (705, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (705, 007 /* CLOTHINGBASE_DID */, 268435656)
-     , (705, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('705', 'holtburggrocersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (705, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (705, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (705, 008 /* MASS_INT */, 1800)
-     , (705, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (705, 019 /* VALUE_INT */, 125)
-     , (705, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (705,   1,        128) /* ItemType - Misc */
+     , (705,   5,       9000) /* EncumbranceVal */
+     , (705,   8,       1800) /* Mass */
+     , (705,  16,          1) /* ItemUseable - No */
+     , (705,  19,        125) /* Value */
+     , (705,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (705, 001 /* STUCK_BOOL */, True)
-     , (705, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (705, 013 /* ETHEREAL_BOOL */, False)
-     , (705, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (705,   1, True ) /* Stuck */
+     , (705,  12, True ) /* ReportCollisions */
+     , (705,  13, False) /* Ethereal */
+     , (705,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (705,   1, 'Fispur''s Foodstuffs') /* Name */
+     , (705,  16, 'Fispur''s Foodstuffs') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (705,   1,   33555088) /* Setup */
+     , (705,   6,   67111092) /* PaletteBase */
+     , (705,   7,  268435656) /* ClothingBase */
+     , (705,   8,  100668115) /* Icon */;

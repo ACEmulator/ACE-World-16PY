@@ -1,59 +1,55 @@
-/* Weenie - Quadruple-bladed Axe (24557) */
-DELETE FROM weenie WHERE class_Id = 24557;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24557, 'axerenegaderaids', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24557, 001 /* NAME_STRING */, 'Quadruple-bladed Axe')
-     , (24557, 016 /* LONG_DESC_STRING */, 'Picked up from General Garsh, a defeated Renegade Lugian')
-     , (24557, 033 /* QUEST_STRING */, 'GotAxeRenegadeRaids');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24557, 001 /* SETUP_DID */, 33558379)
-     , (24557, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24557, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24557, 008 /* ICON_DID */, 100674408)
-     , (24557, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24557, 030 /* PHYSICS_SCRIPT_DID */, 87 /* PS_BreatheLightning */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24557', 'axerenegaderaids', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24557, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (24557, 005 /* ENCUMB_VAL_INT */, 950)
-     , (24557, 008 /* MASS_INT */, 320)
-     , (24557, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (24557, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24557, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (24557, 019 /* VALUE_INT */, 9000)
-     , (24557, 044 /* DAMAGE_INT */, 45)
-     , (24557, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (24557, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (24557, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (24557, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (24557, 049 /* WEAPON_TIME_INT */, 55)
-     , (24557, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (24557, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24557, 106 /* ITEM_SPELLCRAFT_INT */, 400)
-     , (24557, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (24557, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (24557, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24557, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (24557, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (24557, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (24557, 160 /* WIELD_DIFFICULTY_INT */, 325);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24557, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (24557, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (24557, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.4)
-     , (24557, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
-     , (24557, 039 /* DEFAULT_SCALE_FLOAT */, 1.4)
-     , (24557, 062 /* WEAPON_OFFENSE_FLOAT */, 1.08)
-     , (24557, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 6);
+VALUES (24557,   1,          1) /* ItemType - MeleeWeapon */
+     , (24557,   5,        950) /* EncumbranceVal */
+     , (24557,   8,        320) /* Mass */
+     , (24557,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (24557,  16,          1) /* ItemUseable - No */
+     , (24557,  18,          1) /* UiEffects - Magical */
+     , (24557,  19,       9000) /* Value */
+     , (24557,  44,         45) /* Damage */
+     , (24557,  45,          1) /* DamageType - Slash */
+     , (24557,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (24557,  47,          4) /* AttackType - Slash */
+     , (24557,  48,          1) /* WeaponSkill - Axe */
+     , (24557,  49,         55) /* WeaponTime */
+     , (24557,  51,          1) /* CombatUse - Melee */
+     , (24557,  93,       1044) /* PhysicsState */
+     , (24557, 106,        400) /* ItemSpellcraft */
+     , (24557, 107,       1000) /* ItemCurMana */
+     , (24557, 108,       1000) /* ItemMaxMana */
+     , (24557, 150,        103) /* HookPlacement - Hook */
+     , (24557, 151,          2) /* HookType - Wall */
+     , (24557, 158,          2) /* WieldRequirements - RawSkill */
+     , (24557, 159,          1) /* WieldSkilltype - Axe */
+     , (24557, 160,        325) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24557, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (24557,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24557,   5,   -0.05) /* ManaRate */
+     , (24557,  21,    0.75) /* WeaponLength */
+     , (24557,  22,     0.4) /* DamageVariance */
+     , (24557,  29,    1.08) /* WeaponDefense */
+     , (24557,  39,     1.4) /* DefaultScale */
+     , (24557,  62,    1.08) /* WeaponOffense */
+     , (24557, 136,       6) /* CriticalMultiplier */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24557,   1, 'Quadruple-bladed Axe') /* Name */
+     , (24557,  16, 'Picked up from General Garsh, a defeated Renegade Lugian') /* LongDesc */
+     , (24557,  33, 'GotAxeRenegadeRaids') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24557,   1,   33558379) /* Setup */
+     , (24557,   3,  536870932) /* SoundTable */
+     , (24557,   6,   67111919) /* PaletteBase */
+     , (24557,   8,  100674408) /* Icon */
+     , (24557,  22,  872415275) /* PhysicsEffectTable */
+     , (24557,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24557, 1616, 2) /* BloodDrinker6_SpellID */;
-
+VALUES (24557,  1616,      2)  /* Aura of Blood Drinker Self VI */;

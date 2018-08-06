@@ -1,46 +1,42 @@
-/* Weenie - Arrow of Frore (4983) */
-DELETE FROM weenie WHERE class_Id = 4983;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4983, 'arrowfrore', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4983, 001 /* NAME_STRING */, 'Arrow of Frore');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4983, 001 /* SETUP_DID */, 33555689)
-     , (4983, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4983, 008 /* ICON_DID */, 100667622)
-     , (4983, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4983', 'arrowfrore', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4983, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (4983, 005 /* ENCUMB_VAL_INT */, 12)
-     , (4983, 008 /* MASS_INT */, 2)
-     , (4983, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
-     , (4983, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (4983, 012 /* STACK_SIZE_INT */, 1)
-     , (4983, 013 /* STACK_UNIT_ENCUMB_INT */, 12)
-     , (4983, 014 /* STACK_UNIT_MASS_INT */, 2)
-     , (4983, 015 /* STACK_UNIT_VALUE_INT */, 6)
-     , (4983, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4983, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (4983, 019 /* VALUE_INT */, 6)
-     , (4983, 044 /* DAMAGE_INT */, 14)
-     , (4983, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (4983, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (4983, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
-     , (4983, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (4983, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (4983, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4983, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (4983, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (4983, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (4983, 078 /* FRICTION_FLOAT */, 1)
-     , (4983, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (4983,   1,        256) /* ItemType - MissileWeapon */
+     , (4983,   5,         12) /* EncumbranceVal */
+     , (4983,   8,          2) /* Mass */
+     , (4983,   9,    8388608) /* ValidLocations - MissileAmmo */
+     , (4983,  11,        100) /* MaxStackSize */
+     , (4983,  12,          1) /* StackSize */
+     , (4983,  13,         12) /* StackUnitEncumbrance */
+     , (4983,  14,          2) /* StackUnitMass */
+     , (4983,  15,          6) /* StackUnitValue */
+     , (4983,  16,          1) /* ItemUseable - No */
+     , (4983,  18,        128) /* UiEffects - Frost */
+     , (4983,  19,          6) /* Value */
+     , (4983,  44,         14) /* Damage */
+     , (4983,  45,          8) /* DamageType - Cold */
+     , (4983,  50,          1) /* AmmoType - Arrow */
+     , (4983,  51,          3) /* CombatUse - Ammo */
+     , (4983,  93,     132116) /* PhysicsState */
+     , (4983, 150,        103) /* HookPlacement - Hook */
+     , (4983, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4983, 017 /* INELASTIC_BOOL */, True);
+VALUES (4983,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4983,  22,    0.25) /* DamageVariance */
+     , (4983,  29,       1) /* WeaponDefense */
+     , (4983,  62,       1) /* WeaponOffense */
+     , (4983,  78,       1) /* Friction */
+     , (4983,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4983,   1, 'Arrow of Frore') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4983,   1,   33555689) /* Setup */
+     , (4983,   3,  536870932) /* SoundTable */
+     , (4983,   8,  100667622) /* Icon */
+     , (4983,  22,  872415275) /* PhysicsEffectTable */;

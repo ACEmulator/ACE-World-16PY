@@ -1,62 +1,58 @@
-/* Weenie - Noble War Maul (28490) */
-DELETE FROM weenie WHERE class_Id = 28490;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28490, 'axenoble', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28490, 001 /* NAME_STRING */, 'Noble War Maul');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28490, 001 /* SETUP_DID */, 33558861)
-     , (28490, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28490, 008 /* ICON_DID */, 100676975)
-     , (28490, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28490, 030 /* PHYSICS_SCRIPT_DID */, 87 /* PS_BreatheLightning */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28490', 'axenoble', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28490, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (28490, 005 /* ENCUMB_VAL_INT */, 950)
-     , (28490, 008 /* MASS_INT */, 350)
-     , (28490, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (28490, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28490, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28490, 019 /* VALUE_INT */, 6000)
-     , (28490, 044 /* DAMAGE_INT */, 38)
-     , (28490, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (28490, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (28490, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (28490, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (28490, 049 /* WEAPON_TIME_INT */, 65)
-     , (28490, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (28490, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28490, 106 /* ITEM_SPELLCRAFT_INT */, 275)
-     , (28490, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (28490, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (28490, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (28490, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28490, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (28490, 158 /* WIELD_REQUIREMENTS_INT */, 1 /* WIELD_REQUIRES_SKILL_WieldRequirement */)
-     , (28490, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (28490, 160 /* WIELD_DIFFICULTY_INT */, 325);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28490, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (28490, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (28490, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (28490, 029 /* WEAPON_DEFENSE_FLOAT */, 1.09)
-     , (28490, 062 /* WEAPON_OFFENSE_FLOAT */, 1.09)
-     , (28490, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (28490, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.3);
+VALUES (28490,   1,          1) /* ItemType - MeleeWeapon */
+     , (28490,   5,        950) /* EncumbranceVal */
+     , (28490,   8,        350) /* Mass */
+     , (28490,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (28490,  16,          1) /* ItemUseable - No */
+     , (28490,  18,          1) /* UiEffects - Magical */
+     , (28490,  19,       6000) /* Value */
+     , (28490,  44,         38) /* Damage */
+     , (28490,  45,          2) /* DamageType - Pierce */
+     , (28490,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (28490,  47,          4) /* AttackType - Slash */
+     , (28490,  48,          1) /* WeaponSkill - Axe */
+     , (28490,  49,         65) /* WeaponTime */
+     , (28490,  51,          1) /* CombatUse - Melee */
+     , (28490,  93,       1044) /* PhysicsState */
+     , (28490, 106,        275) /* ItemSpellcraft */
+     , (28490, 107,        800) /* ItemCurMana */
+     , (28490, 108,        800) /* ItemMaxMana */
+     , (28490, 109,        150) /* ItemDifficulty */
+     , (28490, 150,        103) /* HookPlacement - Hook */
+     , (28490, 151,          2) /* HookType - Wall */
+     , (28490, 158,          1) /* WieldRequirements - Skill */
+     , (28490, 159,          1) /* WieldSkilltype - Axe */
+     , (28490, 160,        325) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28490, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28490,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28490,   5, -0.0333) /* ManaRate */
+     , (28490,  21,    0.75) /* WeaponLength */
+     , (28490,  22,     0.6) /* DamageVariance */
+     , (28490,  29,    1.09) /* WeaponDefense */
+     , (28490,  62,    1.09) /* WeaponOffense */
+     , (28490, 136,     2.5) /* CriticalMultiplier */
+     , (28490, 147,     0.3) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28490,   1, 'Noble War Maul') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28490,   1,   33558861) /* Setup */
+     , (28490,   3,  536870932) /* SoundTable */
+     , (28490,   8,  100676975) /* Icon */
+     , (28490,  22,  872415275) /* PhysicsEffectTable */
+     , (28490,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28490, 1604, 2) /* Defender5_SpellID */
-     , (28490, 1359, 2) /* EnduranceOther5_SpellID */
-     , (28490, 1616, 2) /* BloodDrinker6_SpellID */
-     , (28490, 243, 2) /* InvulnerabilityOther5_SpellID */
-     , (28490, 1625, 2) /* SwiftKiller4_SpellID */
-     , (28490, 1591, 2) /* HeartSeeker5_SpellID */;
-
+VALUES (28490,   243,      2)  /* Invulnerability Other V */
+     , (28490,  1359,      2)  /* Endurance Other V */
+     , (28490,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (28490,  1604,      2)  /* Aura of Defender Self V */
+     , (28490,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (28490,  1625,      2)  /* Aura of Swift Killer Self IV */;

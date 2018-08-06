@@ -1,68 +1,64 @@
-/* Weenie - Palenqual's Okane (12116) */
-DELETE FROM weenie WHERE class_Id = 12116;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12116, 'tumerokdaggerpalenqualmid-xp', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12116, 001 /* NAME_STRING */, 'Palenqual''s Okane')
-     , (12116, 015 /* SHORT_DESC_STRING */, 'An okane fused to a triple totem.')
-     , (12116, 016 /* LONG_DESC_STRING */, 'An okane fused to a triple totem. It almost seems as if the totem''s creatures are moving.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12116, 001 /* SETUP_DID */, 33557234)
-     , (12116, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12116, 008 /* ICON_DID */, 100672032)
-     , (12116, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12116, 036 /* MUTATE_FILTER_DID */, 234881044)
-     , (12116, 037 /* ITEM_SKILL_LIMIT_DID */, 4);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12116', 'tumerokdaggerpalenqualmid-xp', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12116, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (12116, 005 /* ENCUMB_VAL_INT */, 135)
-     , (12116, 008 /* MASS_INT */, 90)
-     , (12116, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (12116, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12116, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (12116, 019 /* VALUE_INT */, 0)
-     , (12116, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (12116, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (12116, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (12116, 044 /* DAMAGE_INT */, 33)
-     , (12116, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (12116, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (12116, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (12116, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (12116, 049 /* WEAPON_TIME_INT */, 1)
-     , (12116, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (12116, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12116, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (12116, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (12116, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (12116, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (12116, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (12116, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 100);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12116, 005 /* MANA_RATE_FLOAT */, -0.03333)
-     , (12116, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (12116, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (12116, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (12116, 039 /* DEFAULT_SCALE_FLOAT */, 1.2)
-     , (12116, 062 /* WEAPON_OFFENSE_FLOAT */, 1.06);
+VALUES (12116,   1,          1) /* ItemType - MeleeWeapon */
+     , (12116,   5,        135) /* EncumbranceVal */
+     , (12116,   8,         90) /* Mass */
+     , (12116,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12116,  16,          1) /* ItemUseable - No */
+     , (12116,  18,          1) /* UiEffects - Magical */
+     , (12116,  19,          0) /* Value */
+     , (12116,  33,         -2) /* Bonded - Destroy */
+     , (12116,  36,       9999) /* ResistMagic */
+     , (12116,  37,       9999) /* ResistItemAppraisal */
+     , (12116,  44,         33) /* Damage */
+     , (12116,  45,          3) /* DamageType */
+     , (12116,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (12116,  47,          6) /* AttackType */
+     , (12116,  48,          4) /* WeaponSkill - Dagger */
+     , (12116,  49,          1) /* WeaponTime */
+     , (12116,  51,          1) /* CombatUse - Melee */
+     , (12116,  93,       1044) /* PhysicsState */
+     , (12116, 106,        200) /* ItemSpellcraft */
+     , (12116, 107,        800) /* ItemCurMana */
+     , (12116, 108,        800) /* ItemMaxMana */
+     , (12116, 109,        150) /* ItemDifficulty */
+     , (12116, 114,          1) /* Attuned - Attuned */
+     , (12116, 115,        100) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12116, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12116, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (12116,  22, True ) /* Inscribable */
+     , (12116,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12116,   5, -0.03333) /* ManaRate */
+     , (12116,  21,     0.4) /* WeaponLength */
+     , (12116,  22,    0.75) /* DamageVariance */
+     , (12116,  29,    1.05) /* WeaponDefense */
+     , (12116,  39,     1.2) /* DefaultScale */
+     , (12116,  62,    1.06) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12116,   1, 'Palenqual''s Okane') /* Name */
+     , (12116,  15, 'An okane fused to a triple totem.') /* ShortDesc */
+     , (12116,  16, 'An okane fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12116,   1,   33557234) /* Setup */
+     , (12116,   3,  536870932) /* SoundTable */
+     , (12116,   8,  100672032) /* Icon */
+     , (12116,  22,  872415275) /* PhysicsEffectTable */
+     , (12116,  36,  234881044) /* MutateFilter */
+     , (12116,  37,          4) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12116, 2454, 2) /* Thorns_SpellID */
-     , (12116, 2438, 2) /* RockslideLesser_SpellID */
-     , (12116, 2441, 2) /* StoneCliffsLesser_SpellID */
-     , (12116, 2444, 2) /* StrengthofEarthLesser_SpellID */
-     , (12116, 2448, 2) /* Growth_SpellID */
-     , (12116, 2459, 2) /* CascadeDaggerLesser_SpellID */
-     , (12116, 2451, 2) /* HuntersAcumen_SpellID */
-     , (12116, 2471, 2) /* StillWaterLesser_SpellID */
-     , (12116, 2474, 2) /* TorrentLesser_SpellID */;
-
+VALUES (12116,  2438,      2)  /* Lesser Rockslide */
+     , (12116,  2441,      2)  /* Lesser Stone Cliffs */
+     , (12116,  2444,      2)  /* Lesser Strength of Earth */
+     , (12116,  2448,      2)  /* Growth */
+     , (12116,  2451,      2)  /* Hunter's Acumen */
+     , (12116,  2454,      2)  /* Thorns */
+     , (12116,  2459,      2)  /* Lesser Cascade */
+     , (12116,  2471,      2)  /* Lesser Still Water */
+     , (12116,  2474,      2)  /* Lesser Torrent */;

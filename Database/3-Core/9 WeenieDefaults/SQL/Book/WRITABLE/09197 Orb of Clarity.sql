@@ -1,38 +1,35 @@
-/* Weenie - Orb of Clarity (9197) */
-DELETE FROM weenie WHERE class_Id = 9197;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9197, 'writingaerbaxfinal', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9197, 001 /* NAME_STRING */, 'Orb of Clarity')
-     , (9197, 014 /* USE_STRING */, 'Use this item to read it.')
-     , (9197, 015 /* SHORT_DESC_STRING */, 'A soft light that seems to emit a silent message in the back of your mind.')
-     , (9197, 016 /* LONG_DESC_STRING */, 'A soft light that seems to emit a silent message in the back of your mind.  Staring at it gives you a sense of peace, and you feel your hand begin to stroke the orb''s surface.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9197, 001 /* SETUP_DID */, 33556994)
-     , (9197, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9197, 008 /* ICON_DID */, 100671418)
-     , (9197, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9197', 'writingaerbaxfinal', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9197, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (9197, 005 /* ENCUMB_VAL_INT */, 5)
-     , (9197, 008 /* MASS_INT */, 5)
-     , (9197, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9197, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (9197, 019 /* VALUE_INT */, 0)
-     , (9197, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9197, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (9197,   1,       8192) /* ItemType - Writable */
+     , (9197,   5,          5) /* EncumbranceVal */
+     , (9197,   8,          5) /* Mass */
+     , (9197,   9,          0) /* ValidLocations - None */
+     , (9197,  16,          8) /* ItemUseable - Contained */
+     , (9197,  19,          0) /* Value */
+     , (9197,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9197, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (9197,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9197,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9197,   1, 'Orb of Clarity') /* Name */
+     , (9197,  14, 'Use this item to read it.') /* Use */
+     , (9197,  15, 'A soft light that seems to emit a silent message in the back of your mind.') /* ShortDesc */
+     , (9197,  16, 'A soft light that seems to emit a silent message in the back of your mind.  Staring at it gives you a sense of peace, and you feel your hand begin to stroke the orb''s surface.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9197,   1,   33556994) /* Setup */
+     , (9197,   3,  536870932) /* SoundTable */
+     , (9197,   8,  100671418) /* Icon */
+     , (9197,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (9197, 7, 1000) /* Book Data */;
+VALUES (9197, 7, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (9197, 0, 4294967295, 'Aerbax', 'prewritten', False, 'Greetings Apprentice,
@@ -58,4 +55,3 @@ I greatly appreciate your work.  It takes a great deal of skill to decorate my h
      , (9197, 6, 4294967295, 'Aerbax', 'prewritten', False, 'The Singularity''s patience is almost at an end.  Soon it will realize the flawed nature of its minions, and act to purge the imperfections.  I will continue on this route until I have succeeded in helping those who wish enlightenment.  The undead are beginning to understand.  I am certain you too will understand one day, apprentice.
 
 ');
-

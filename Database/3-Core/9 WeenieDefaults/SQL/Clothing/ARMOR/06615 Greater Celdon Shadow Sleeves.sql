@@ -1,47 +1,43 @@
-/* Weenie - Greater Celdon Shadow Sleeves (6615) */
-DELETE FROM weenie WHERE class_Id = 6615;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6615, 'sleevesceldonshadowgreater', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6615, 001 /* NAME_STRING */, 'Greater Celdon Shadow Sleeves');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6615, 001 /* SETUP_DID */, 33554655)
-     , (6615, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6615, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (6615, 007 /* CLOTHINGBASE_DID */, 268435847)
-     , (6615, 008 /* ICON_DID */, 100670427)
-     , (6615, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6615', 'sleevesceldonshadowgreater', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6615, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (6615, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (6615, 004 /* CLOTHING_PRIORITY_INT */, 12288 /* OuterwearUpperArms, OuterwearLowerArms */)
-     , (6615, 005 /* ENCUMB_VAL_INT */, 1600)
-     , (6615, 008 /* MASS_INT */, 700)
-     , (6615, 009 /* LOCATIONS_INT */, 6144 /* UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (6615, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6615, 019 /* VALUE_INT */, 1870)
-     , (6615, 027 /* ARMOR_TYPE_INT */, 32)
-     , (6615, 028 /* ARMOR_LEVEL_INT */, 210)
-     , (6615, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6615, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6615, 012 /* SHADE_FLOAT */, 0.6)
-     , (6615, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (6615, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (6615, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (6615, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (6615, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (6615, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (6615, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.5)
-     , (6615, 110 /* BULK_MOD_FLOAT */, 1)
-     , (6615, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (6615,   1,          2) /* ItemType - Armor */
+     , (6615,   3,         21) /* PaletteTemplate - Gold */
+     , (6615,   4,      12288) /* ClothingPriority */
+     , (6615,   5,       1600) /* EncumbranceVal */
+     , (6615,   8,        700) /* Mass */
+     , (6615,   9,       6144) /* ValidLocations */
+     , (6615,  16,          1) /* ItemUseable - No */
+     , (6615,  19,       1870) /* Value */
+     , (6615,  27,         32) /* ArmorType */
+     , (6615,  28,        210) /* ArmorLevel */
+     , (6615,  33,          1) /* Bonded - Bonded */
+     , (6615,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6615, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6615, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (6615,  22, True ) /* Inscribable */
+     , (6615,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6615,  12,     0.6) /* Shade */
+     , (6615,  13,     1.3) /* ArmorModVsSlash */
+     , (6615,  14,       1) /* ArmorModVsPierce */
+     , (6615,  15,       1) /* ArmorModVsBludgeon */
+     , (6615,  16,     0.8) /* ArmorModVsCold */
+     , (6615,  17,     0.8) /* ArmorModVsFire */
+     , (6615,  18,     0.8) /* ArmorModVsAcid */
+     , (6615,  19,     0.5) /* ArmorModVsElectric */
+     , (6615, 110,       1) /* BulkMod */
+     , (6615, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6615,   1, 'Greater Celdon Shadow Sleeves') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6615,   1,   33554655) /* Setup */
+     , (6615,   3,  536870932) /* SoundTable */
+     , (6615,   6,   67108990) /* PaletteBase */
+     , (6615,   7,  268435847) /* ClothingBase */
+     , (6615,   8,  100670427) /* Icon */
+     , (6615,  22,  872415275) /* PhysicsEffectTable */;

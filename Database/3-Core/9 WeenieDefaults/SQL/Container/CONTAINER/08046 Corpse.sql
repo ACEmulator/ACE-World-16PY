@@ -1,49 +1,45 @@
-/* Weenie - Corpse (8046) */
-DELETE FROM weenie WHERE class_Id = 8046;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8046, 'rottingshadowcorpsemale1', 21 /* Container_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8046, 001 /* NAME_STRING */, 'Corpse');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8046, 001 /* SETUP_DID */, 33556721)
-     , (8046, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8046, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (8046, 007 /* CLOTHINGBASE_DID */, 268435632)
-     , (8046, 008 /* ICON_DID */, 100667504)
-     , (8046, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8046', 'rottingshadowcorpsemale1', 21) /* Container */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8046, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (8046, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (8046, 005 /* ENCUMB_VAL_INT */, 3000)
-     , (8046, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (8046, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (8046, 008 /* MASS_INT */, 120)
-     , (8046, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (8046, 019 /* VALUE_INT */, 0)
-     , (8046, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (8046, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (8046, 093 /* PHYSICS_STATE_INT */, 1052 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8046, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (8046, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8046, 012 /* SHADE_FLOAT */, 0.1)
-     , (8046, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (8046, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (8046, 054 /* USE_RADIUS_FLOAT */, 1)
-     , (8046, 076 /* TRANSLUCENCY_FLOAT */, 0.5);
+VALUES (8046,   1,        512) /* ItemType - Container */
+     , (8046,   3,         39) /* PaletteTemplate - Black */
+     , (8046,   5,       3000) /* EncumbranceVal */
+     , (8046,   6,         -1) /* ItemsCapacity */
+     , (8046,   7,         -1) /* ContainersCapacity */
+     , (8046,   8,        120) /* Mass */
+     , (8046,  16,         48) /* ItemUseable - ViewedRemote */
+     , (8046,  19,          0) /* Value */
+     , (8046,  81,          1) /* MaxGeneratedObjects */
+     , (8046,  82,          1) /* InitGeneratedObjects */
+     , (8046,  93,       1052) /* PhysicsState */
+     , (8046,  96,        500) /* EncumbranceCapacity */
+     , (8046, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8046, 001 /* STUCK_BOOL */, True)
-     , (8046, 002 /* OPEN_BOOL */, False)
-     , (8046, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (8046, 013 /* ETHEREAL_BOOL */, True)
-     , (8046, 014 /* GRAVITY_STATUS_BOOL */, True);
+VALUES (8046,   1, True ) /* Stuck */
+     , (8046,   2, False) /* Open */
+     , (8046,  12, True ) /* ReportCollisions */
+     , (8046,  13, True ) /* Ethereal */
+     , (8046,  14, True ) /* GravityStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8046,  12,     0.1) /* Shade */
+     , (8046,  41,      60) /* RegenerationInterval */
+     , (8046,  43,       1) /* GeneratorRadius */
+     , (8046,  54,       1) /* UseRadius */
+     , (8046,  76,     0.5) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8046,   1, 'Corpse') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8046,   1,   33556721) /* Setup */
+     , (8046,   3,  536870932) /* SoundTable */
+     , (8046,   6,   67108990) /* PaletteBase */
+     , (8046,   7,  268435632) /* ClothingBase */
+     , (8046,   8,  100667504) /* Icon */
+     , (8046,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8046, 0.7, 457, 1200, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate RANDOM TREASURE from Loot Tier 2 (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
-
+VALUES (8046, 0.7, 457, 1200, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

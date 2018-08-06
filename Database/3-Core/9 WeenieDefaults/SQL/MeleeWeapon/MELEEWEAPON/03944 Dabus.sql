@@ -1,45 +1,41 @@
-/* Weenie - Dabus (3944) */
-DELETE FROM weenie WHERE class_Id = 3944;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3944, 'monougadabus', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3944, 001 /* NAME_STRING */, 'Dabus');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3944, 001 /* SETUP_DID */, 33554747)
-     , (3944, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3944, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3944, 007 /* CLOTHINGBASE_DID */, 268435793)
-     , (3944, 008 /* ICON_DID */, 100668865)
-     , (3944, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3944, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3944', 'monougadabus', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3944, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3944, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (3944, 005 /* ENCUMB_VAL_INT */, 800)
-     , (3944, 008 /* MASS_INT */, 320)
-     , (3944, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3944, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3944, 019 /* VALUE_INT */, 530)
-     , (3944, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (3944, 044 /* DAMAGE_INT */, 7)
-     , (3944, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (3944, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3944, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (3944, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (3944, 049 /* WEAPON_TIME_INT */, 35)
-     , (3944, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3944, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3944, 021 /* WEAPON_LENGTH_FLOAT */, 1)
-     , (3944, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3944, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3944, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3944,   1,          1) /* ItemType - MeleeWeapon */
+     , (3944,   3,         20) /* PaletteTemplate - Silver */
+     , (3944,   5,        800) /* EncumbranceVal */
+     , (3944,   8,        320) /* Mass */
+     , (3944,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3944,  16,          1) /* ItemUseable - No */
+     , (3944,  19,        530) /* Value */
+     , (3944,  33,         -2) /* Bonded - Destroy */
+     , (3944,  44,          7) /* Damage */
+     , (3944,  45,          4) /* DamageType - Bludgeon */
+     , (3944,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3944,  47,          4) /* AttackType - Slash */
+     , (3944,  48,          5) /* WeaponSkill - Mace */
+     , (3944,  49,         35) /* WeaponTime */
+     , (3944,  51,          1) /* CombatUse - Melee */
+     , (3944,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3944, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3944,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3944,  21,       1) /* WeaponLength */
+     , (3944,  22,     0.5) /* DamageVariance */
+     , (3944,  29,       1) /* WeaponDefense */
+     , (3944,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3944,   1, 'Dabus') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3944,   1,   33554747) /* Setup */
+     , (3944,   3,  536870932) /* SoundTable */
+     , (3944,   6,   67111919) /* PaletteBase */
+     , (3944,   7,  268435793) /* ClothingBase */
+     , (3944,   8,  100668865) /* Icon */
+     , (3944,  22,  872415275) /* PhysicsEffectTable */
+     , (3944,  36,  234881044) /* MutateFilter */;

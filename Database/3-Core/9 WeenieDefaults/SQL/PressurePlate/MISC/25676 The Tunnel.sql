@@ -1,44 +1,42 @@
-/* Weenie - The Tunnel (25676) */
-DELETE FROM weenie WHERE class_Id = 25676;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25676, 'trapcultistblackbreath', 24 /* PressurePlate_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25676, 001 /* NAME_STRING */, 'The Tunnel');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25676, 001 /* SETUP_DID */, 33555536)
-     , (25676, 002 /* MOTION_TABLE_DID */, 150994977)
-     , (25676, 008 /* ICON_DID */, 100668114);
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25676, 016 /* ACTIVATION_TARGET_IID */, 0);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25676', 'trapcultistblackbreath', 24) /* PressurePlate */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25676, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25676, 005 /* ENCUMB_VAL_INT */, 500)
-     , (25676, 008 /* MASS_INT */, 250)
-     , (25676, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25676, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25676, 019 /* VALUE_INT */, 1000)
-     , (25676, 083 /* ACTIVATION_RESPONSE_INT */, 2048 /* Unk800_ActivationResponse */)
-     , (25676, 093 /* PHYSICS_STATE_INT */, 1036 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (25676, 119 /* ACTIVE_INT */, 1);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25676, 011 /* RESET_INTERVAL_FLOAT */, 3);
+VALUES (25676,   1,        128) /* ItemType - Misc */
+     , (25676,   5,        500) /* EncumbranceVal */
+     , (25676,   8,        250) /* Mass */
+     , (25676,   9,          0) /* ValidLocations - None */
+     , (25676,  16,          1) /* ItemUseable - No */
+     , (25676,  19,       1000) /* Value */
+     , (25676,  83,       2048) /* ActivationResponse - Unk800 */
+     , (25676,  93,       1036) /* PhysicsState */
+     , (25676, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25676, 001 /* STUCK_BOOL */, True)
-     , (25676, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (25676, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (25676, 013 /* ETHEREAL_BOOL */, True)
-     , (25676, 018 /* VISIBILITY_BOOL */, True);
+VALUES (25676,   1, True ) /* Stuck */
+     , (25676,  11, False) /* IgnoreCollisions */
+     , (25676,  12, True ) /* ReportCollisions */
+     , (25676,  13, True ) /* Ethereal */
+     , (25676,  18, True ) /* Visibility */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25676, 1, 8 /* Activation_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25676,  11,       3) /* ResetInterval */;
 
-INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25676, 8 /* Activation_EmoteCategory */, 0, 0, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'As you step into the hallway, you notice its red hue. The air smells thick with death.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25676,   1, 'The Tunnel') /* Name */;
 
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25676,   1,   33555536) /* Setup */
+     , (25676,   2,  150994977) /* MotionTable */
+     , (25676,   8,  100668114) /* Icon */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (25676,  16,          0) /* ActivationTarget */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25676,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'As you step into the hallway, you notice its red hue. The air smells thick with death.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -1,52 +1,48 @@
-/* Weenie - Studded Leather Gauntlets (59) */
-DELETE FROM weenie WHERE class_Id = 59;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (59, 'gauntletsstuddedleather', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (59, 001 /* NAME_STRING */, 'Studded Leather Gauntlets');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (59, 001 /* SETUP_DID */, 33554648)
-     , (59, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (59, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (59, 007 /* CLOTHINGBASE_DID */, 268435475)
-     , (59, 008 /* ICON_DID */, 100667342)
-     , (59, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (59, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (59, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('59', 'gauntletsstuddedleather', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (59, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (59, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (59, 004 /* CLOTHING_PRIORITY_INT */, 32768 /* Hands */)
-     , (59, 005 /* ENCUMB_VAL_INT */, 450)
-     , (59, 008 /* MASS_INT */, 180)
-     , (59, 009 /* LOCATIONS_INT */, 32 /* HAND_WEAR_LOC */)
-     , (59, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (59, 019 /* VALUE_INT */, 110)
-     , (59, 027 /* ARMOR_TYPE_INT */, 4)
-     , (59, 028 /* ARMOR_LEVEL_INT */, 30)
-     , (59, 044 /* DAMAGE_INT */, 2)
-     , (59, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (59, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (59, 169 /* TSYS_MUTATION_DATA_INT */, 151717134);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (59, 012 /* SHADE_FLOAT */, 0.66)
-     , (59, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
-     , (59, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.1)
-     , (59, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (59, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (59, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (59, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (59, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2)
-     , (59, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (59, 110 /* BULK_MOD_FLOAT */, 1.5)
-     , (59, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (59,   1,          2) /* ItemType - Armor */
+     , (59,   3,          4) /* PaletteTemplate - Brown */
+     , (59,   4,      32768) /* ClothingPriority - Hands */
+     , (59,   5,        450) /* EncumbranceVal */
+     , (59,   8,        180) /* Mass */
+     , (59,   9,         32) /* ValidLocations - HandWear */
+     , (59,  16,          1) /* ItemUseable - No */
+     , (59,  19,        110) /* Value */
+     , (59,  27,          4) /* ArmorType */
+     , (59,  28,         30) /* ArmorLevel */
+     , (59,  44,          2) /* Damage */
+     , (59,  45,          4) /* DamageType - Bludgeon */
+     , (59,  93,       1044) /* PhysicsState */
+     , (59, 169,  151717134) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (59, 022 /* INSCRIBABLE_BOOL */, True)
-     , (59, 100 /* DYABLE_BOOL */, True);
+VALUES (59,  22, True ) /* Inscribable */
+     , (59, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (59,  12,    0.66) /* Shade */
+     , (59,  13,     1.2) /* ArmorModVsSlash */
+     , (59,  14,     1.1) /* ArmorModVsPierce */
+     , (59,  15,       1) /* ArmorModVsBludgeon */
+     , (59,  16,     0.2) /* ArmorModVsCold */
+     , (59,  17,     0.2) /* ArmorModVsFire */
+     , (59,  18,     0.1) /* ArmorModVsAcid */
+     , (59,  19,     0.2) /* ArmorModVsElectric */
+     , (59,  22,    0.75) /* DamageVariance */
+     , (59, 110,     1.5) /* BulkMod */
+     , (59, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (59,   1, 'Studded Leather Gauntlets') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (59,   1,   33554648) /* Setup */
+     , (59,   3,  536870932) /* SoundTable */
+     , (59,   6,   67108990) /* PaletteBase */
+     , (59,   7,  268435475) /* ClothingBase */
+     , (59,   8,  100667342) /* Icon */
+     , (59,  22,  872415275) /* PhysicsEffectTable */
+     , (59,  36,  234881042) /* MutateFilter */
+     , (59,  46,  939524146) /* TsysMutationFilter */;

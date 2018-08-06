@@ -1,35 +1,32 @@
-/* Weenie - Energy Source (23110) */
-DELETE FROM weenie WHERE class_Id = 23110;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23110, 'noteaerbaxenergysource', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23110, 001 /* NAME_STRING */, 'Energy Source');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23110, 001 /* SETUP_DID */, 33554771)
-     , (23110, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23110, 008 /* ICON_DID */, 100668117)
-     , (23110, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23110', 'noteaerbaxenergysource', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23110, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (23110, 005 /* ENCUMB_VAL_INT */, 160)
-     , (23110, 008 /* MASS_INT */, 200)
-     , (23110, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23110, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23110, 019 /* VALUE_INT */, 90)
-     , (23110, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23110, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (23110,   1,       8192) /* ItemType - Writable */
+     , (23110,   5,        160) /* EncumbranceVal */
+     , (23110,   8,        200) /* Mass */
+     , (23110,   9,          0) /* ValidLocations - None */
+     , (23110,  16,          8) /* ItemUseable - Contained */
+     , (23110,  19,         90) /* Value */
+     , (23110,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23110, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (23110,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23110,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23110,   1, 'Energy Source') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23110,   1,   33554771) /* Setup */
+     , (23110,   3,  536870932) /* SoundTable */
+     , (23110,   8,  100668117) /* Icon */
+     , (23110,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (23110, 13, 1000) /* Book Data */;
+VALUES (23110, 13, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (23110, 0, 4294967295, 'Aerbax', 'prewritten', False, 'My freedom of the control and watchful eye of Singularity is complete. My efforts have proven to be well directed as the furthering of my personal cause for the betterment of the all has begun to spread across the minions that were set to administer and assist me in my new capacity at this laboratory. 
@@ -83,4 +80,3 @@ In conclusion, the exposure of an energy source that heightens the potential of 
 ')
      , (23110, 12, 4294967295, 'Aerbax', 'prewritten', False, 'crumble in upon itself under the weight of the enlightened forces with such fervent loyalty to the Singularity. The "Light Child" would crumble and we would obtain that which we have endeavoured after since our calling to this shallow.
 ');
-

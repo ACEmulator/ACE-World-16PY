@@ -1,39 +1,36 @@
-/* Weenie - Crafting the Horn of Vigilance (19480) */
-DELETE FROM weenie WHERE class_Id = 19480;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19480, 'hornofvigilanceinstructions', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19480, 001 /* NAME_STRING */, 'Crafting the Horn of Vigilance')
-     , (19480, 015 /* SHORT_DESC_STRING */, 'Instructions for Crafting the Horn of Vigilance');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19480, 001 /* SETUP_DID */, 33554771)
-     , (19480, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19480, 008 /* ICON_DID */, 100668117)
-     , (19480, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19480', 'hornofvigilanceinstructions', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19480, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (19480, 005 /* ENCUMB_VAL_INT */, 25)
-     , (19480, 008 /* MASS_INT */, 5)
-     , (19480, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19480, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (19480, 019 /* VALUE_INT */, 0)
-     , (19480, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19480, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19480, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19480, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (19480,   1,       8192) /* ItemType - Writable */
+     , (19480,   5,         25) /* EncumbranceVal */
+     , (19480,   8,          5) /* Mass */
+     , (19480,   9,          0) /* ValidLocations - None */
+     , (19480,  16,          8) /* ItemUseable - Contained */
+     , (19480,  19,          0) /* Value */
+     , (19480,  33,          1) /* Bonded - Bonded */
+     , (19480,  93,       1044) /* PhysicsState */
+     , (19480, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19480, 022 /* INSCRIBABLE_BOOL */, False)
-     , (19480, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (19480,  22, False) /* Inscribable */
+     , (19480,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19480,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19480,   1, 'Crafting the Horn of Vigilance') /* Name */
+     , (19480,  15, 'Instructions for Crafting the Horn of Vigilance') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19480,   1,   33554771) /* Setup */
+     , (19480,   3,  536870932) /* SoundTable */
+     , (19480,   8,  100668117) /* Icon */
+     , (19480,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (19480, 4, 1000) /* Book Data */;
+VALUES (19480, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (19480, 0, 4294967295, 'Telk the Addlepated', 'prewritten', False, 'Telk the Addlepated wishes to thank thee for purchasing this Book of Instruction on Crafting the Horn of Vigilance.  The Horn should provide years of care-free service in repelling a variety of creatures. A mere four items are required for the material with which to craft the Horn. The four items required are:
@@ -52,4 +49,3 @@ Telk the Addlepated must alert thee to the fact that thy results with this instr
 ')
      , (19480, 3, 4294967295, 'Telk the Addlepated', 'prewritten', False, 'the Horn be used in a manner not suited to the use for which it is claimed to theoretically be utilized for, nor if thy Horn is used on nights when the moons are visible, days when the sun appears in the sky and during seasons of the year that are wet or dry.  Care must be taken in obtaining the items necessary for the construction of the Horn for some creatures do not easily give up body parts required for this instrument. Always carry a weapon and stay alert in the presence of Olthoi and other vermin.
 ');
-

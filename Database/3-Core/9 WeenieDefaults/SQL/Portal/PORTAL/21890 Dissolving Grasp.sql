@@ -1,36 +1,32 @@
-/* Weenie - Dissolving Grasp (21890) */
-DELETE FROM weenie WHERE class_Id = 21890;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21890, 'portaldissolvinggrasp1', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21890, 001 /* NAME_STRING */, 'Dissolving Grasp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21890, 001 /* SETUP_DID */, 33555926)
-     , (21890, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (21890, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21890', 'portaldissolvinggrasp1', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21890, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (21890, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (21890, 086 /* MIN_LEVEL_INT */, 46)
-     , (21890, 087 /* MAX_LEVEL_INT */, 60)
-     , (21890, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (21890, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (21890, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21890, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (21890,   1,      65536) /* ItemType - Portal */
+     , (21890,  16,         32) /* ItemUseable - Remote */
+     , (21890,  86,         46) /* MinLevel */
+     , (21890,  87,         60) /* MaxLevel */
+     , (21890,  93,       3084) /* PhysicsState */
+     , (21890, 111,         49) /* PortalBitmask */
+     , (21890, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21890, 001 /* STUCK_BOOL */, True)
-     , (21890, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (21890, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (21890, 013 /* ETHEREAL_BOOL */, True)
-     , (21890, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (21890,   1, True ) /* Stuck */
+     , (21890,  11, False) /* IgnoreCollisions */
+     , (21890,  12, True ) /* ReportCollisions */
+     , (21890,  13, True ) /* Ethereal */
+     , (21890,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21890,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21890,   1, 'Dissolving Grasp') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21890,   1,   33555926) /* Setup */
+     , (21890,   2,  150994947) /* MotionTable */
+     , (21890,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21890, 2, 1514602870, 176.5, -90.25, 0.005, 0.7071068, 0, 0, -0.7071068) /* DESTINATION_POSITION */;
-
+VALUES (21890, 2, 1514602870, 176.5, -90.25, 0.005, 0.7071068, 0, 0, -0.7071068) /* Destination */;

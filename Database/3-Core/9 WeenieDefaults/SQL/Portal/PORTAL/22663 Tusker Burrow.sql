@@ -1,34 +1,30 @@
-/* Weenie - Tusker Burrow (22663) */
-DELETE FROM weenie WHERE class_Id = 22663;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22663, 'portaltuskerburrow', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22663, 001 /* NAME_STRING */, 'Tusker Burrow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22663, 001 /* SETUP_DID */, 33554867)
-     , (22663, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (22663, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22663', 'portaltuskerburrow', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22663, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (22663, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (22663, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (22663, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (22663, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22663, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (22663,   1,      65536) /* ItemType - Portal */
+     , (22663,  16,         32) /* ItemUseable - Remote */
+     , (22663,  93,       3084) /* PhysicsState */
+     , (22663, 111,         49) /* PortalBitmask */
+     , (22663, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22663, 001 /* STUCK_BOOL */, True)
-     , (22663, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (22663, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22663, 013 /* ETHEREAL_BOOL */, True)
-     , (22663, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (22663,   1, True ) /* Stuck */
+     , (22663,  11, False) /* IgnoreCollisions */
+     , (22663,  12, True ) /* ReportCollisions */
+     , (22663,  13, True ) /* Ethereal */
+     , (22663,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22663,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22663,   1, 'Tusker Burrow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22663,   1,   33554867) /* Setup */
+     , (22663,   2,  150994947) /* MotionTable */
+     , (22663,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22663, 2, 1464336912, 148.378, -2.8159, 0.005, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (22663, 2, 1464336912, 148.378, -2.8159, 0.005, 1, 0, 0, 0) /* Destination */;

@@ -1,51 +1,47 @@
-/* Weenie - Frest Greelving's Chest (22083) */
-DELETE FROM weenie WHERE class_Id = 22083;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22083, 'chesthauntedmansion1', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22083, 001 /* NAME_STRING */, 'Frest Greelving''s Chest')
-     , (22083, 014 /* USE_STRING */, 'Use this item to open it and see its contents.')
-     , (22083, 015 /* SHORT_DESC_STRING */, 'A chest belonging to Frest Greelving')
-     , (22083, 016 /* LONG_DESC_STRING */, 'A chest belonging to Frest Greelving');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22083, 001 /* SETUP_DID */, 33554556)
-     , (22083, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (22083, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (22083, 008 /* ICON_DID */, 100667424)
-     , (22083, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22083', 'chesthauntedmansion1', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22083, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (22083, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (22083, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (22083, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (22083, 008 /* MASS_INT */, 3000)
-     , (22083, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (22083, 019 /* VALUE_INT */, 200)
-     , (22083, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (22083, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (22083, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (22083, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22083, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (22083, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22083, 011 /* RESET_INTERVAL_FLOAT */, 60)
-     , (22083, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (22083, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (22083, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (22083,   1,        512) /* ItemType - Container */
+     , (22083,   5,       9000) /* EncumbranceVal */
+     , (22083,   6,         -1) /* ItemsCapacity */
+     , (22083,   7,         -1) /* ContainersCapacity */
+     , (22083,   8,       3000) /* Mass */
+     , (22083,  16,         48) /* ItemUseable - ViewedRemote */
+     , (22083,  19,        200) /* Value */
+     , (22083,  81,          1) /* MaxGeneratedObjects */
+     , (22083,  82,          1) /* InitGeneratedObjects */
+     , (22083,  83,          2) /* ActivationResponse - Use */
+     , (22083,  93,       1048) /* PhysicsState */
+     , (22083,  96,        500) /* EncumbranceCapacity */
+     , (22083, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22083, 001 /* STUCK_BOOL */, True)
-     , (22083, 002 /* OPEN_BOOL */, False)
-     , (22083, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22083, 013 /* ETHEREAL_BOOL */, False)
-     , (22083, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (22083, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (22083,   1, True ) /* Stuck */
+     , (22083,   2, False) /* Open */
+     , (22083,  12, True ) /* ReportCollisions */
+     , (22083,  13, False) /* Ethereal */
+     , (22083,  33, False) /* ResetMessagePending */
+     , (22083,  34, False) /* DefaultOpen */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22083,  11,      60) /* ResetInterval */
+     , (22083,  41,      60) /* RegenerationInterval */
+     , (22083,  43,       1) /* GeneratorRadius */
+     , (22083,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22083,   1, 'Frest Greelving''s Chest') /* Name */
+     , (22083,  14, 'Use this item to open it and see its contents.') /* Use */
+     , (22083,  15, 'A chest belonging to Frest Greelving') /* ShortDesc */
+     , (22083,  16, 'A chest belonging to Frest Greelving') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22083,   1,   33554556) /* Setup */
+     , (22083,   2,  150994948) /* MotionTable */
+     , (22083,   3,  536870945) /* SoundTable */
+     , (22083,   8,  100667424) /* Icon */
+     , (22083,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22083, -1, 22135, 40, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Frest Greelving's Emerald (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */;
-
+VALUES (22083, -1, 22135, 40, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

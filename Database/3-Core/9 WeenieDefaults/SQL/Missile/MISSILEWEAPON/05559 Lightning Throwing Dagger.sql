@@ -1,49 +1,45 @@
-/* Weenie - Lightning Throwing Dagger (5559) */
-DELETE FROM weenie WHERE class_Id = 5559;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5559, 'daggerthrowingelectricstack', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5559, 001 /* NAME_STRING */, 'Lightning Throwing Dagger');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5559, 001 /* SETUP_DID */, 33555697)
-     , (5559, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5559, 008 /* ICON_DID */, 100667590)
-     , (5559, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5559', 'daggerthrowingelectricstack', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5559, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (5559, 005 /* ENCUMB_VAL_INT */, 360)
-     , (5559, 008 /* MASS_INT */, 480)
-     , (5559, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (5559, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5559, 012 /* STACK_SIZE_INT */, 60)
-     , (5559, 013 /* STACK_UNIT_ENCUMB_INT */, 6)
-     , (5559, 014 /* STACK_UNIT_MASS_INT */, 8)
-     , (5559, 015 /* STACK_UNIT_VALUE_INT */, 15)
-     , (5559, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5559, 018 /* UI_EFFECTS_INT */, 64 /* UI_EFFECT_LIGHTNING */)
-     , (5559, 019 /* VALUE_INT */, 900)
-     , (5559, 044 /* DAMAGE_INT */, 8)
-     , (5559, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (5559, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (5559, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (5559, 049 /* WEAPON_TIME_INT */, 10)
-     , (5559, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (5559, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (5559, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (5559, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5559, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (5559, 027 /* ROTATION_SPEED_FLOAT */, 2)
-     , (5559, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (5559, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (5559, 078 /* FRICTION_FLOAT */, 1)
-     , (5559, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (5559,   1,        256) /* ItemType - MissileWeapon */
+     , (5559,   5,        360) /* EncumbranceVal */
+     , (5559,   8,        480) /* Mass */
+     , (5559,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (5559,  11,        100) /* MaxStackSize */
+     , (5559,  12,         60) /* StackSize */
+     , (5559,  13,          6) /* StackUnitEncumbrance */
+     , (5559,  14,          8) /* StackUnitMass */
+     , (5559,  15,         15) /* StackUnitValue */
+     , (5559,  16,          1) /* ItemUseable - No */
+     , (5559,  18,         64) /* UiEffects - Lightning */
+     , (5559,  19,        900) /* Value */
+     , (5559,  44,          8) /* Damage */
+     , (5559,  45,         64) /* DamageType - Electric */
+     , (5559,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (5559,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (5559,  49,         10) /* WeaponTime */
+     , (5559,  51,          2) /* CombatUse - Missle */
+     , (5559,  93,     132116) /* PhysicsState */
+     , (5559, 150,        103) /* HookPlacement - Hook */
+     , (5559, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5559, 017 /* INELASTIC_BOOL */, True);
+VALUES (5559,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5559,  22,    0.25) /* DamageVariance */
+     , (5559,  27,       2) /* RotationSpeed */
+     , (5559,  29,       1) /* WeaponDefense */
+     , (5559,  62,       1) /* WeaponOffense */
+     , (5559,  78,       1) /* Friction */
+     , (5559,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5559,   1, 'Lightning Throwing Dagger') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5559,   1,   33555697) /* Setup */
+     , (5559,   3,  536870932) /* SoundTable */
+     , (5559,   8,  100667590) /* Icon */
+     , (5559,  22,  872415275) /* PhysicsEffectTable */;

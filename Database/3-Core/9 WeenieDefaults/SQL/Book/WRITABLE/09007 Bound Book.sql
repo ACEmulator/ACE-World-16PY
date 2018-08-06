@@ -1,37 +1,34 @@
-/* Weenie - Bound Book (9007) */
-DELETE FROM weenie WHERE class_Id = 9007;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9007, 'bookminesofdespairlore', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9007, 001 /* NAME_STRING */, 'Bound Book')
-     , (9007, 015 /* SHORT_DESC_STRING */, 'A written history of the Mines of Despair.')
-     , (9007, 016 /* LONG_DESC_STRING */, 'A written history of the Mines of Despair.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9007, 001 /* SETUP_DID */, 33554771)
-     , (9007, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9007, 008 /* ICON_DID */, 100668117)
-     , (9007, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9007', 'bookminesofdespairlore', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9007, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (9007, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9007, 008 /* MASS_INT */, 10)
-     , (9007, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9007, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (9007, 019 /* VALUE_INT */, 0)
-     , (9007, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9007, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (9007,   1,       8192) /* ItemType - Writable */
+     , (9007,   5,         10) /* EncumbranceVal */
+     , (9007,   8,         10) /* Mass */
+     , (9007,   9,          0) /* ValidLocations - None */
+     , (9007,  16,          8) /* ItemUseable - Contained */
+     , (9007,  19,          0) /* Value */
+     , (9007,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9007, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (9007,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9007,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9007,   1, 'Bound Book') /* Name */
+     , (9007,  15, 'A written history of the Mines of Despair.') /* ShortDesc */
+     , (9007,  16, 'A written history of the Mines of Despair.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9007,   1,   33554771) /* Setup */
+     , (9007,   3,  536870932) /* SoundTable */
+     , (9007,   8,  100668117) /* Icon */
+     , (9007,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (9007, 6, 1000) /* Book Data */;
+VALUES (9007, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (9007, 0, 4294967295, 'Le-Ai Rea', 'prewritten', False, 'Not long ago, in a time I remember as if it were just yesterday, the mines provided us with wealth and happiness. We were called to the mines in the name of greed and our insatiable desire for a life our ancestors set upon us.  It was as if happiness itself was being mined from the rich veins in those tunnels. Every day we picked and cracked those tunnels open forcing them to reveal their wealth. Our wealth.
@@ -47,4 +44,3 @@ it had been hiding from us. Our miners had broken down a wall revealing an ancie
 ')
      , (9007, 5, 4294967295, 'Le-Ai Rea', 'prewritten', False, 'The decision soon came down from the town council. We were to abandon the mine and lock the entrance.  The very thing that once sustained our town had destroyed us. It placed a pox upon everyone and everything. Our town coffers dried up, our crops died, and over time even the most stubborn person left town.  Only I remain to tell this story and to warn others from entering the Mines of Despair.
 ');
-

@@ -1,31 +1,27 @@
-/* Weenie - House of Fathlan (1002) */
-DELETE FROM weenie WHERE class_Id = 1002;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1002, 'samsurjewelersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1002, 001 /* NAME_STRING */, 'House of Fathlan')
-     , (1002, 016 /* LONG_DESC_STRING */, 'House of Fathlan');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1002, 001 /* SETUP_DID */, 33555909)
-     , (1002, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (1002, 007 /* CLOTHINGBASE_DID */, 268435823)
-     , (1002, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1002', 'samsurjewelersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1002, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (1002, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (1002, 008 /* MASS_INT */, 1800)
-     , (1002, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1002, 019 /* VALUE_INT */, 125)
-     , (1002, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (1002,   1,        128) /* ItemType - Misc */
+     , (1002,   5,       9000) /* EncumbranceVal */
+     , (1002,   8,       1800) /* Mass */
+     , (1002,  16,          1) /* ItemUseable - No */
+     , (1002,  19,        125) /* Value */
+     , (1002,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1002, 001 /* STUCK_BOOL */, True)
-     , (1002, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1002, 013 /* ETHEREAL_BOOL */, False)
-     , (1002, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (1002, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (1002,   1, True ) /* Stuck */
+     , (1002,  12, True ) /* ReportCollisions */
+     , (1002,  13, False) /* Ethereal */
+     , (1002,  14, False) /* GravityStatus */
+     , (1002,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1002,   1, 'House of Fathlan') /* Name */
+     , (1002,  16, 'House of Fathlan') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1002,   1,   33555909) /* Setup */
+     , (1002,   6,   67111860) /* PaletteBase */
+     , (1002,   7,  268435823) /* ClothingBase */
+     , (1002,   8,  100668115) /* Icon */;

@@ -1,64 +1,60 @@
-/* Weenie - Silifi of Crimson Stars (22959) */
-DELETE FROM weenie WHERE class_Id = 22959;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22959, 'silificrimsonstars14xhoary', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22959, 001 /* NAME_STRING */, 'Silifi of Crimson Stars')
-     , (22959, 016 /* LONG_DESC_STRING */, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Hoary Armoredillo. It is fitted with the rubies Al-Shajar and Yujazik. There is a notch for one more.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22959, 001 /* SETUP_DID */, 33556553)
-     , (22959, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22959, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22959, 007 /* CLOTHINGBASE_DID */, 268435986)
-     , (22959, 008 /* ICON_DID */, 100670611)
-     , (22959, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (22959, 037 /* ITEM_SKILL_LIMIT_DID */, 1);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22959', 'silificrimsonstars14xhoary', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22959, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (22959, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (22959, 005 /* ENCUMB_VAL_INT */, 950)
-     , (22959, 008 /* MASS_INT */, 360)
-     , (22959, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (22959, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22959, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (22959, 019 /* VALUE_INT */, 8100)
-     , (22959, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22959, 044 /* DAMAGE_INT */, 48)
-     , (22959, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (22959, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (22959, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (22959, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (22959, 049 /* WEAPON_TIME_INT */, 70)
-     , (22959, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (22959, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22959, 106 /* ITEM_SPELLCRAFT_INT */, 170)
-     , (22959, 107 /* ITEM_CUR_MANA_INT */, 900)
-     , (22959, 108 /* ITEM_MAX_MANA_INT */, 900)
-     , (22959, 109 /* ITEM_DIFFICULTY_INT */, 110)
-     , (22959, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (22959, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 280)
-     , (22959, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (22959, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (22959, 160 /* WIELD_DIFFICULTY_INT */, 300);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22959, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (22959, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (22959, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (22959, 029 /* WEAPON_DEFENSE_FLOAT */, 1.12)
-     , (22959, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (22959, 062 /* WEAPON_OFFENSE_FLOAT */, 1.12);
+VALUES (22959,   1,          1) /* ItemType - MeleeWeapon */
+     , (22959,   3,         14) /* PaletteTemplate - Red */
+     , (22959,   5,        950) /* EncumbranceVal */
+     , (22959,   8,        360) /* Mass */
+     , (22959,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (22959,  16,          1) /* ItemUseable - No */
+     , (22959,  18,          1) /* UiEffects - Magical */
+     , (22959,  19,       8100) /* Value */
+     , (22959,  33,          1) /* Bonded - Bonded */
+     , (22959,  44,         48) /* Damage */
+     , (22959,  45,         64) /* DamageType - Electric */
+     , (22959,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (22959,  47,          4) /* AttackType - Slash */
+     , (22959,  48,          1) /* WeaponSkill - Axe */
+     , (22959,  49,         70) /* WeaponTime */
+     , (22959,  51,          1) /* CombatUse - Melee */
+     , (22959,  93,       1044) /* PhysicsState */
+     , (22959, 106,        170) /* ItemSpellcraft */
+     , (22959, 107,        900) /* ItemCurMana */
+     , (22959, 108,        900) /* ItemMaxMana */
+     , (22959, 109,        110) /* ItemDifficulty */
+     , (22959, 114,          1) /* Attuned - Attuned */
+     , (22959, 115,        280) /* ItemSkillLevelLimit */
+     , (22959, 158,          2) /* WieldRequirements - RawSkill */
+     , (22959, 159,          1) /* WieldSkilltype - Axe */
+     , (22959, 160,        300) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22959, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22959, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (22959, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (22959,  22, True ) /* Inscribable */
+     , (22959,  23, True ) /* DestroyOnSell */
+     , (22959,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22959,   5,   -0.05) /* ManaRate */
+     , (22959,  21,    0.95) /* WeaponLength */
+     , (22959,  22,     0.5) /* DamageVariance */
+     , (22959,  29,    1.12) /* WeaponDefense */
+     , (22959,  39,    1.25) /* DefaultScale */
+     , (22959,  62,    1.12) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22959,   1, 'Silifi of Crimson Stars') /* Name */
+     , (22959,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Hoary Armoredillo. It is fitted with the rubies Al-Shajar and Yujazik. There is a notch for one more.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22959,   1,   33556553) /* Setup */
+     , (22959,   3,  536870932) /* SoundTable */
+     , (22959,   6,   67111919) /* PaletteBase */
+     , (22959,   7,  268435986) /* ClothingBase */
+     , (22959,   8,  100670611) /* Icon */
+     , (22959,  22,  872415275) /* PhysicsEffectTable */
+     , (22959,  37,          1) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22959, 1096, 2) /* FireProtectionOther6_SpellID */
-     , (22959, 1077, 2) /* LightningProtectionOther6_SpellID */;
-
+VALUES (22959,  1077,      2)  /* Lightning Protection Other VI */
+     , (22959,  1096,      2)  /* Fire Protection Other VI */;

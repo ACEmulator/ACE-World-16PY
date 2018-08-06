@@ -1,39 +1,35 @@
-/* Weenie - Mounted Fish (23457) */
-DELETE FROM weenie WHERE class_Id = 23457;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23457, 'shadowfishplaque', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23457, 001 /* NAME_STRING */, 'Mounted Fish')
-     , (23457, 014 /* USE_STRING */, 'This item can be used on wall hooks.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23457, 001 /* SETUP_DID */, 33554674)
-     , (23457, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23457, 008 /* ICON_DID */, 100667461)
-     , (23457, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23457', 'shadowfishplaque', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23457, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (23457, 005 /* ENCUMB_VAL_INT */, 100)
-     , (23457, 008 /* MASS_INT */, 50)
-     , (23457, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23457, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (23457, 019 /* VALUE_INT */, 15)
-     , (23457, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23457, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23457, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (23457,   1,       8192) /* ItemType - Writable */
+     , (23457,   5,        100) /* EncumbranceVal */
+     , (23457,   8,         50) /* Mass */
+     , (23457,   9,          0) /* ValidLocations - None */
+     , (23457,  16,         48) /* ItemUseable - ViewedRemote */
+     , (23457,  19,         15) /* Value */
+     , (23457,  93,       1044) /* PhysicsState */
+     , (23457, 150,        103) /* HookPlacement - Hook */
+     , (23457, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23457, 013 /* ETHEREAL_BOOL */, True)
-     , (23457, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23457, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (23457,  13, True ) /* Ethereal */
+     , (23457,  22, True ) /* Inscribable */
+     , (23457,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23457,   1, 'Mounted Fish') /* Name */
+     , (23457,  14, 'This item can be used on wall hooks.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23457,   1,   33554674) /* Setup */
+     , (23457,   3,  536870932) /* SoundTable */
+     , (23457,   8,  100667461) /* Icon */
+     , (23457,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (23457, 1, 1000) /* Book Data */;
+VALUES (23457, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (23457, 0, 4294967295, '', 'prewritten', False, '
 ');
-

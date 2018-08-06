@@ -1,48 +1,44 @@
-/* Weenie - Ebon Spine Harpoon (10995) */
-DELETE FROM weenie WHERE class_Id = 10995;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10995, 'ebonharpoonspearfake-xp', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10995, 001 /* NAME_STRING */, 'Ebon Spine Harpoon')
-     , (10995, 015 /* SHORT_DESC_STRING */, 'A hefty harpoon made from the spine of an ebon gromnie, and bound in bands of chorizite.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10995, 001 /* SETUP_DID */, 33557227)
-     , (10995, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10995, 008 /* ICON_DID */, 100671859)
-     , (10995, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10995', 'ebonharpoonspearfake-xp', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10995, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (10995, 005 /* ENCUMB_VAL_INT */, 500)
-     , (10995, 008 /* MASS_INT */, 500)
-     , (10995, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (10995, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10995, 019 /* VALUE_INT */, 9840)
-     , (10995, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (10995, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (10995, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (10995, 044 /* DAMAGE_INT */, 46)
-     , (10995, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (10995, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (10995, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (10995, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (10995, 049 /* WEAPON_TIME_INT */, 40)
-     , (10995, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (10995, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (10995, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (10995, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10995, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (10995, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (10995, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (10995, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (10995,   1,          1) /* ItemType - MeleeWeapon */
+     , (10995,   5,        500) /* EncumbranceVal */
+     , (10995,   8,        500) /* Mass */
+     , (10995,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (10995,  16,          1) /* ItemUseable - No */
+     , (10995,  19,       9840) /* Value */
+     , (10995,  33,         -2) /* Bonded - Destroy */
+     , (10995,  36,       9999) /* ResistMagic */
+     , (10995,  37,       9999) /* ResistItemAppraisal */
+     , (10995,  44,         46) /* Damage */
+     , (10995,  45,          8) /* DamageType - Cold */
+     , (10995,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (10995,  47,          2) /* AttackType - Thrust */
+     , (10995,  48,          9) /* WeaponSkill - Spear */
+     , (10995,  49,         40) /* WeaponTime */
+     , (10995,  51,          1) /* CombatUse - Melee */
+     , (10995,  93,       1044) /* PhysicsState */
+     , (10995, 150,        103) /* HookPlacement - Hook */
+     , (10995, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10995, 022 /* INSCRIBABLE_BOOL */, True)
-     , (10995, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
-     , (10995, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True);
+VALUES (10995,  22, True ) /* Inscribable */
+     , (10995,  65, True ) /* IgnoreMagicResist */
+     , (10995,  66, True ) /* IgnoreMagicArmor */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10995,  21,     1.5) /* WeaponLength */
+     , (10995,  22,     0.6) /* DamageVariance */
+     , (10995,  29,       1) /* WeaponDefense */
+     , (10995,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10995,   1, 'Ebon Spine Harpoon') /* Name */
+     , (10995,  15, 'A hefty harpoon made from the spine of an ebon gromnie, and bound in bands of chorizite.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10995,   1,   33557227) /* Setup */
+     , (10995,   3,  536870932) /* SoundTable */
+     , (10995,   8,  100671859) /* Icon */
+     , (10995,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,28 +1,24 @@
-/* Weenie - East Plateau Villa (14694) */
-DELETE FROM weenie WHERE class_Id = 14694;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14694, 'eastplateauvillasign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14694, 001 /* NAME_STRING */, 'East Plateau Villa')
-     , (14694, 016 /* LONG_DESC_STRING */, 'Welcome to East Plateau Villa');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14694, 001 /* SETUP_DID */, 33557463)
-     , (14694, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14694', 'eastplateauvillasign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14694, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14694, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14694, 008 /* MASS_INT */, 1800)
-     , (14694, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14694, 019 /* VALUE_INT */, 125)
-     , (14694, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14694,   1,        128) /* ItemType - Misc */
+     , (14694,   5,       9000) /* EncumbranceVal */
+     , (14694,   8,       1800) /* Mass */
+     , (14694,  16,          1) /* ItemUseable - No */
+     , (14694,  19,        125) /* Value */
+     , (14694,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14694, 001 /* STUCK_BOOL */, True)
-     , (14694, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14694, 013 /* ETHEREAL_BOOL */, False)
-     , (14694, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14694,   1, True ) /* Stuck */
+     , (14694,  12, True ) /* ReportCollisions */
+     , (14694,  13, False) /* Ethereal */
+     , (14694,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14694,   1, 'East Plateau Villa') /* Name */
+     , (14694,  16, 'Welcome to East Plateau Villa') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14694,   1,   33557463) /* Setup */
+     , (14694,   8,  100668115) /* Icon */;

@@ -1,44 +1,40 @@
-/* Weenie - Browerk's Hide (29562) */
-DELETE FROM weenie WHERE class_Id = 29562;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29562, 'hidebrowerk', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29562, 001 /* NAME_STRING */, 'Browerk''s Hide')
-     , (29562, 014 /* USE_STRING */, 'Combine with other Kukuur hides.')
-     , (29562, 016 /* LONG_DESC_STRING */, 'Heavy, thick and reeking of all manner of refuse, this hide was blown free of Browerk''s corpse when the Kukuur died. Perhaps you can collect the hides of other Burun Kings and assemble them into one.')
-     , (29562, 033 /* QUEST_STRING */, 'BrowerkBeaten');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29562, 001 /* SETUP_DID */, 33554817)
-     , (29562, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29562, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (29562, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (29562, 008 /* ICON_DID */, 100677171)
-     , (29562, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29562', 'hidebrowerk', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29562, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (29562, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (29562, 005 /* ENCUMB_VAL_INT */, 500)
-     , (29562, 008 /* MASS_INT */, 500)
-     , (29562, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29562, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (29562, 012 /* STACK_SIZE_INT */, 1)
-     , (29562, 013 /* STACK_UNIT_ENCUMB_INT */, 500)
-     , (29562, 014 /* STACK_UNIT_MASS_INT */, 500)
-     , (29562, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (29562, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (29562, 019 /* VALUE_INT */, 0)
-     , (29562, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (29562, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29562, 094 /* TARGET_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (29562, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (29562, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29562, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (29562,   1,       2048) /* ItemType - Gem */
+     , (29562,   3,          4) /* PaletteTemplate - Brown */
+     , (29562,   5,        500) /* EncumbranceVal */
+     , (29562,   8,        500) /* Mass */
+     , (29562,   9,          0) /* ValidLocations - None */
+     , (29562,  11,          1) /* MaxStackSize */
+     , (29562,  12,          1) /* StackSize */
+     , (29562,  13,        500) /* StackUnitEncumbrance */
+     , (29562,  14,        500) /* StackUnitMass */
+     , (29562,  15,          0) /* StackUnitValue */
+     , (29562,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (29562,  19,          0) /* Value */
+     , (29562,  33,          1) /* Bonded - Bonded */
+     , (29562,  93,       1044) /* PhysicsState */
+     , (29562,  94,       2048) /* TargetType - Gem */
+     , (29562, 114,          1) /* Attuned - Attuned */
+     , (29562, 150,        103) /* HookPlacement - Hook */
+     , (29562, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29562, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29562, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (29562,  22, True ) /* Inscribable */
+     , (29562,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29562,   1, 'Browerk''s Hide') /* Name */
+     , (29562,  14, 'Combine with other Kukuur hides.') /* Use */
+     , (29562,  16, 'Heavy, thick and reeking of all manner of refuse, this hide was blown free of Browerk''s corpse when the Kukuur died. Perhaps you can collect the hides of other Burun Kings and assemble them into one.') /* LongDesc */
+     , (29562,  33, 'BrowerkBeaten') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29562,   1,   33554817) /* Setup */
+     , (29562,   3,  536870932) /* SoundTable */
+     , (29562,   6,   67111919) /* PaletteBase */
+     , (29562,   7,  268435832) /* ClothingBase */
+     , (29562,   8,  100677171) /* Icon */
+     , (29562,  22,  872415275) /* PhysicsEffectTable */;

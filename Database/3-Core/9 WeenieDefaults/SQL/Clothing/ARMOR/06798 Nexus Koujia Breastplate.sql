@@ -1,59 +1,55 @@
-/* Weenie - Nexus Koujia Breastplate (6798) */
-DELETE FROM weenie WHERE class_Id = 6798;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6798, 'breastplatekoujianexus', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6798, 001 /* NAME_STRING */, 'Nexus Koujia Breastplate')
-     , (6798, 015 /* SHORT_DESC_STRING */, 'A magnificent Koujia breastplate, infused with the essence of the Nexus Crystal.')
-     , (6798, 016 /* LONG_DESC_STRING */, 'A magnificent Koujia breastplate, infused with the essence of the Nexus Crystal.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6798, 001 /* SETUP_DID */, 33554642)
-     , (6798, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6798, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (6798, 007 /* CLOTHINGBASE_DID */, 268435852)
-     , (6798, 008 /* ICON_DID */, 100670451)
-     , (6798, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6798', 'breastplatekoujianexus', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6798, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (6798, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (6798, 004 /* CLOTHING_PRIORITY_INT */, 1024 /* OuterwearChest */)
-     , (6798, 005 /* ENCUMB_VAL_INT */, 1875)
-     , (6798, 008 /* MASS_INT */, 850)
-     , (6798, 009 /* LOCATIONS_INT */, 512 /* CHEST_ARMOR_LOC */)
-     , (6798, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6798, 019 /* VALUE_INT */, 3320)
-     , (6798, 027 /* ARMOR_TYPE_INT */, 32)
-     , (6798, 028 /* ARMOR_LEVEL_INT */, 245)
-     , (6798, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6798, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6798, 106 /* ITEM_SPELLCRAFT_INT */, 270)
-     , (6798, 107 /* ITEM_CUR_MANA_INT */, 900)
-     , (6798, 108 /* ITEM_MAX_MANA_INT */, 900)
-     , (6798, 109 /* ITEM_DIFFICULTY_INT */, 150);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6798, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (6798, 012 /* SHADE_FLOAT */, 0.1)
-     , (6798, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (6798, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.3)
-     , (6798, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.3)
-     , (6798, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (6798, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (6798, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (6798, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (6798, 110 /* BULK_MOD_FLOAT */, 1)
-     , (6798, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (6798,   1,          2) /* ItemType - Armor */
+     , (6798,   3,          2) /* PaletteTemplate - Blue */
+     , (6798,   4,       1024) /* ClothingPriority - OuterwearChest */
+     , (6798,   5,       1875) /* EncumbranceVal */
+     , (6798,   8,        850) /* Mass */
+     , (6798,   9,        512) /* ValidLocations - ChestArmor */
+     , (6798,  16,          1) /* ItemUseable - No */
+     , (6798,  19,       3320) /* Value */
+     , (6798,  27,         32) /* ArmorType */
+     , (6798,  28,        245) /* ArmorLevel */
+     , (6798,  33,          1) /* Bonded - Bonded */
+     , (6798,  93,       1044) /* PhysicsState */
+     , (6798, 106,        270) /* ItemSpellcraft */
+     , (6798, 107,        900) /* ItemCurMana */
+     , (6798, 108,        900) /* ItemMaxMana */
+     , (6798, 109,        150) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6798, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6798, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (6798,  22, True ) /* Inscribable */
+     , (6798,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6798,   5,    -0.1) /* ManaRate */
+     , (6798,  12,     0.1) /* Shade */
+     , (6798,  13,     1.3) /* ArmorModVsSlash */
+     , (6798,  14,     1.3) /* ArmorModVsPierce */
+     , (6798,  15,     1.3) /* ArmorModVsBludgeon */
+     , (6798,  16,       1) /* ArmorModVsCold */
+     , (6798,  17,       1) /* ArmorModVsFire */
+     , (6798,  18,       1) /* ArmorModVsAcid */
+     , (6798,  19,       1) /* ArmorModVsElectric */
+     , (6798, 110,       1) /* BulkMod */
+     , (6798, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6798,   1, 'Nexus Koujia Breastplate') /* Name */
+     , (6798,  15, 'A magnificent Koujia breastplate, infused with the essence of the Nexus Crystal.') /* ShortDesc */
+     , (6798,  16, 'A magnificent Koujia breastplate, infused with the essence of the Nexus Crystal.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6798,   1,   33554642) /* Setup */
+     , (6798,   3,  536870932) /* SoundTable */
+     , (6798,   6,   67108990) /* PaletteBase */
+     , (6798,   7,  268435852) /* ClothingBase */
+     , (6798,   8,  100670451) /* Icon */
+     , (6798,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6798, 909, 2) /* LeadershipMasteryOther6_SpellID */
-     , (6798, 272, 2) /* MagicResistanceOther5_SpellID */
-     , (6798, 209, 2) /* ManaRenewalOther4_SpellID */;
-
+VALUES (6798,   209,      2)  /* Mana Renewal Other IV */
+     , (6798,   272,      2)  /* Magic Resistance Other V */
+     , (6798,   909,      2)  /* Leadership Mastery Other VI */;

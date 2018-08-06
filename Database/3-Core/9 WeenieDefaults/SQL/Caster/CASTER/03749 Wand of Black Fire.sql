@@ -1,53 +1,49 @@
-/* Weenie - Wand of Black Fire (3749) */
-DELETE FROM weenie WHERE class_Id = 3749;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3749, 'wandblackfire', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3749, 001 /* NAME_STRING */, 'Wand of Black Fire');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3749, 001 /* SETUP_DID */, 33558258)
-     , (3749, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3749, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3749, 007 /* CLOTHINGBASE_DID */, 268435758)
-     , (3749, 008 /* ICON_DID */, 100674115)
-     , (3749, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3749, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (3749, 028 /* SPELL_DID */, 145 /* FlameVolley5_SpellID */)
-     , (3749, 037 /* ITEM_SKILL_LIMIT_DID */, 34);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3749', 'wandblackfire', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3749, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (3749, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (3749, 005 /* ENCUMB_VAL_INT */, 125)
-     , (3749, 008 /* MASS_INT */, 50)
-     , (3749, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (3749, 016 /* ITEM_USEABLE_INT */, 6291460 /* USEABLE_SOURCE_WIELDED_TARGET_REMOTE_NEVER_WALK */)
-     , (3749, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (3749, 019 /* VALUE_INT */, 5700)
-     , (3749, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (3749, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3749, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (3749, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (3749, 107 /* ITEM_CUR_MANA_INT */, 2000)
-     , (3749, 108 /* ITEM_MAX_MANA_INT */, 2000)
-     , (3749, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 125)
-     , (3749, 117 /* ITEM_MANA_COST_INT */, 75)
-     , (3749, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3749, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3749, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (3749, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3749, 039 /* DEFAULT_SCALE_FLOAT */, 0.8)
-     , (3749, 144 /* MANA_CONVERSION_MOD_FLOAT */, 0.03);
+VALUES (3749,   1,      32768) /* ItemType - Caster */
+     , (3749,   3,         39) /* PaletteTemplate - Black */
+     , (3749,   5,        125) /* EncumbranceVal */
+     , (3749,   8,         50) /* Mass */
+     , (3749,   9,   16777216) /* ValidLocations - Held */
+     , (3749,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
+     , (3749,  18,          1) /* UiEffects - Magical */
+     , (3749,  19,       5700) /* Value */
+     , (3749,  46,        512) /* DefaultCombatStyle - Magic */
+     , (3749,  93,       1044) /* PhysicsState */
+     , (3749,  94,         16) /* TargetType - Creature */
+     , (3749, 106,        250) /* ItemSpellcraft */
+     , (3749, 107,       2000) /* ItemCurMana */
+     , (3749, 108,       2000) /* ItemMaxMana */
+     , (3749, 115,        125) /* ItemSkillLevelLimit */
+     , (3749, 117,         75) /* ItemManaCost */
+     , (3749, 150,        103) /* HookPlacement - Hook */
+     , (3749, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3749, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3749,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3749,   5,  -0.025) /* ManaRate */
+     , (3749,  29,       1) /* WeaponDefense */
+     , (3749,  39,     0.8) /* DefaultScale */
+     , (3749, 144,    0.03) /* ManaConversionMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3749,   1, 'Wand of Black Fire') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3749,   1,   33558258) /* Setup */
+     , (3749,   3,  536870932) /* SoundTable */
+     , (3749,   6,   67111919) /* PaletteBase */
+     , (3749,   7,  268435758) /* ClothingBase */
+     , (3749,   8,  100674115) /* Icon */
+     , (3749,  22,  872415275) /* PhysicsEffectTable */
+     , (3749,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (3749,  28,        145) /* Spell - Flame Volley V */
+     , (3749,  37,         34) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3749, 1033, 2) /* ColdProtectionSelf4_SpellID */
-     , (3749, 1069, 2) /* LightningProtectionSelf4_SpellID */;
-
+VALUES (3749,  1033,      2)  /* Cold Protection Self IV */
+     , (3749,  1069,      2)  /* Lightning Protection Self IV */;

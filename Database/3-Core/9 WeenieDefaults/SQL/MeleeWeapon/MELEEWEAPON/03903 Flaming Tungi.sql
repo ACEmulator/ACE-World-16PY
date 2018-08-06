@@ -1,50 +1,46 @@
-/* Weenie - Flaming Tungi (3903) */
-DELETE FROM weenie WHERE class_Id = 3903;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3903, 'tungifire', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3903, 001 /* NAME_STRING */, 'Flaming Tungi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3903, 001 /* SETUP_DID */, 33555811)
-     , (3903, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3903, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3903, 007 /* CLOTHINGBASE_DID */, 268435774)
-     , (3903, 008 /* ICON_DID */, 100667618)
-     , (3903, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3903, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3903, 046 /* TSYS_MUTATION_FILTER_DID */, 939524098);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3903', 'tungifire', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3903, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3903, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (3903, 005 /* ENCUMB_VAL_INT */, 600)
-     , (3903, 008 /* MASS_INT */, 240)
-     , (3903, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3903, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3903, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (3903, 019 /* VALUE_INT */, 525)
-     , (3903, 044 /* DAMAGE_INT */, 10)
-     , (3903, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (3903, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3903, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (3903, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (3903, 049 /* WEAPON_TIME_INT */, 50)
-     , (3903, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3903, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3903, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3903, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3903, 169 /* TSYS_MUTATION_DATA_INT */, 101188618);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3903, 021 /* WEAPON_LENGTH_FLOAT */, 0.43)
-     , (3903, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3903, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3903, 039 /* DEFAULT_SCALE_FLOAT */, 1.2)
-     , (3903, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3903,   1,          1) /* ItemType - MeleeWeapon */
+     , (3903,   3,         20) /* PaletteTemplate - Silver */
+     , (3903,   5,        600) /* EncumbranceVal */
+     , (3903,   8,        240) /* Mass */
+     , (3903,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3903,  16,          1) /* ItemUseable - No */
+     , (3903,  18,         32) /* UiEffects - Fire */
+     , (3903,  19,        525) /* Value */
+     , (3903,  44,         10) /* Damage */
+     , (3903,  45,         16) /* DamageType - Fire */
+     , (3903,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3903,  47,          4) /* AttackType - Slash */
+     , (3903,  48,          1) /* WeaponSkill - Axe */
+     , (3903,  49,         50) /* WeaponTime */
+     , (3903,  51,          1) /* CombatUse - Melee */
+     , (3903,  93,       1044) /* PhysicsState */
+     , (3903, 150,        103) /* HookPlacement - Hook */
+     , (3903, 151,          2) /* HookType - Wall */
+     , (3903, 169,  101188618) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3903, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3903,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3903,  21,    0.43) /* WeaponLength */
+     , (3903,  22,     0.5) /* DamageVariance */
+     , (3903,  29,       1) /* WeaponDefense */
+     , (3903,  39,     1.2) /* DefaultScale */
+     , (3903,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3903,   1, 'Flaming Tungi') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3903,   1,   33555811) /* Setup */
+     , (3903,   3,  536870932) /* SoundTable */
+     , (3903,   6,   67111919) /* PaletteBase */
+     , (3903,   7,  268435774) /* ClothingBase */
+     , (3903,   8,  100667618) /* Icon */
+     , (3903,  22,  872415275) /* PhysicsEffectTable */
+     , (3903,  36,  234881053) /* MutateFilter */
+     , (3903,  46,  939524098) /* TsysMutationFilter */;

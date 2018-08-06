@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Magic Yield Other (3725) */
-DELETE FROM weenie WHERE class_Id = 3725;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3725, 'scrollmagicyieldother', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3725, 001 /* NAME_STRING */, 'Scroll of Magic Yield Other')
-     , (3725, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3725, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Magic Defense skill by 9%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3725, 001 /* SETUP_DID */, 33554826)
-     , (3725, 008 /* ICON_DID */, 100676465)
-     , (3725, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3725, 028 /* SPELL_DID */, 280 /* MagicYieldOther1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3725', 'scrollmagicyieldother', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3725, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3725, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3725, 008 /* MASS_INT */, 90)
-     , (3725, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3725, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3725, 019 /* VALUE_INT */, 1)
-     , (3725, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3725, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3725,   1,       8192) /* ItemType - Writable */
+     , (3725,   5,         30) /* EncumbranceVal */
+     , (3725,   8,         90) /* Mass */
+     , (3725,   9,          0) /* ValidLocations - None */
+     , (3725,  16,          8) /* ItemUseable - Contained */
+     , (3725,  19,          1) /* Value */
+     , (3725,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3725, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3725, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3725,  22, True ) /* Inscribable */
+     , (3725,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3725,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3725,   1, 'Scroll of Magic Yield Other') /* Name */
+     , (3725,  15, 'A magic scroll.') /* ShortDesc */
+     , (3725,  16, 'When learned, this spell decreases the target''s Magic Defense skill by 9%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3725,   1,   33554826) /* Setup */
+     , (3725,   8,  100676465) /* Icon */
+     , (3725,  22,  872415275) /* PhysicsEffectTable */
+     , (3725,  28,        280) /* Spell - Magic Yield Other I */;

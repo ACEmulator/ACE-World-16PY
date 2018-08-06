@@ -1,50 +1,46 @@
-/* Weenie - Lesser Celdon Breastplate of Flame (7635) */
-DELETE FROM weenie WHERE class_Id = 7635;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7635, 'breastplateceldonshadowlessernewfire', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7635, 001 /* NAME_STRING */, 'Lesser Celdon Breastplate of Flame');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7635, 001 /* SETUP_DID */, 33554642)
-     , (7635, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7635, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (7635, 007 /* CLOTHINGBASE_DID */, 268435848)
-     , (7635, 008 /* ICON_DID */, 100670405)
-     , (7635, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7635', 'breastplateceldonshadowlessernewfire', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7635, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (7635, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (7635, 004 /* CLOTHING_PRIORITY_INT */, 1024 /* OuterwearChest */)
-     , (7635, 005 /* ENCUMB_VAL_INT */, 2100)
-     , (7635, 008 /* MASS_INT */, 1200)
-     , (7635, 009 /* LOCATIONS_INT */, 512 /* CHEST_ARMOR_LOC */)
-     , (7635, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7635, 019 /* VALUE_INT */, 2680)
-     , (7635, 027 /* ARMOR_TYPE_INT */, 32)
-     , (7635, 028 /* ARMOR_LEVEL_INT */, 130)
-     , (7635, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7635, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (7635, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7635, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7635, 012 /* SHADE_FLOAT */, 0.7)
-     , (7635, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (7635, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (7635, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (7635, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0)
-     , (7635, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 2)
-     , (7635, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.2)
-     , (7635, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.2)
-     , (7635, 110 /* BULK_MOD_FLOAT */, 1)
-     , (7635, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (7635,   1,          2) /* ItemType - Armor */
+     , (7635,   3,         14) /* PaletteTemplate - Red */
+     , (7635,   4,       1024) /* ClothingPriority - OuterwearChest */
+     , (7635,   5,       2100) /* EncumbranceVal */
+     , (7635,   8,       1200) /* Mass */
+     , (7635,   9,        512) /* ValidLocations - ChestArmor */
+     , (7635,  16,          1) /* ItemUseable - No */
+     , (7635,  19,       2680) /* Value */
+     , (7635,  27,         32) /* ArmorType */
+     , (7635,  28,        130) /* ArmorLevel */
+     , (7635,  33,          1) /* Bonded - Bonded */
+     , (7635,  36,       9999) /* ResistMagic */
+     , (7635,  93,       1044) /* PhysicsState */
+     , (7635, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7635, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7635, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7635, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7635,  22, True ) /* Inscribable */
+     , (7635,  23, True ) /* DestroyOnSell */
+     , (7635,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7635,  12,     0.7) /* Shade */
+     , (7635,  13,     1.3) /* ArmorModVsSlash */
+     , (7635,  14,       1) /* ArmorModVsPierce */
+     , (7635,  15,       1) /* ArmorModVsBludgeon */
+     , (7635,  16,       0) /* ArmorModVsCold */
+     , (7635,  17,       2) /* ArmorModVsFire */
+     , (7635,  18,     1.2) /* ArmorModVsAcid */
+     , (7635,  19,     1.2) /* ArmorModVsElectric */
+     , (7635, 110,       1) /* BulkMod */
+     , (7635, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7635,   1, 'Lesser Celdon Breastplate of Flame') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7635,   1,   33554642) /* Setup */
+     , (7635,   3,  536870932) /* SoundTable */
+     , (7635,   6,   67108990) /* PaletteBase */
+     , (7635,   7,  268435848) /* ClothingBase */
+     , (7635,   8,  100670405) /* Icon */
+     , (7635,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,47 +1,43 @@
-/* Weenie - Amuli Shadow Leggings (6605) */
-DELETE FROM weenie WHERE class_Id = 6605;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6605, 'leggingsamullianshadow', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6605, 001 /* NAME_STRING */, 'Amuli Shadow Leggings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6605, 001 /* SETUP_DID */, 33554856)
-     , (6605, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6605, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (6605, 007 /* CLOTHINGBASE_DID */, 268435872)
-     , (6605, 008 /* ICON_DID */, 100670443)
-     , (6605, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6605', 'leggingsamullianshadow', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6605, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (6605, 003 /* PALETTE_TEMPLATE_INT */, 9 /* GREY_PALETTE_TEMPLATE */)
-     , (6605, 004 /* CLOTHING_PRIORITY_INT */, 2816 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */)
-     , (6605, 005 /* ENCUMB_VAL_INT */, 2163)
-     , (6605, 008 /* MASS_INT */, 1275)
-     , (6605, 009 /* LOCATIONS_INT */, 25600 /* ABDOMEN_ARMOR_LOC, UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (6605, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6605, 019 /* VALUE_INT */, 3040)
-     , (6605, 027 /* ARMOR_TYPE_INT */, 2)
-     , (6605, 028 /* ARMOR_LEVEL_INT */, 130)
-     , (6605, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6605, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6605, 012 /* SHADE_FLOAT */, 0.9)
-     , (6605, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (6605, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (6605, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (6605, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (6605, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (6605, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (6605, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (6605, 110 /* BULK_MOD_FLOAT */, 1)
-     , (6605, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (6605,   1,          2) /* ItemType - Armor */
+     , (6605,   3,          9) /* PaletteTemplate - Grey */
+     , (6605,   4,       2816) /* ClothingPriority */
+     , (6605,   5,       2163) /* EncumbranceVal */
+     , (6605,   8,       1275) /* Mass */
+     , (6605,   9,      25600) /* ValidLocations */
+     , (6605,  16,          1) /* ItemUseable - No */
+     , (6605,  19,       3040) /* Value */
+     , (6605,  27,          2) /* ArmorType */
+     , (6605,  28,        130) /* ArmorLevel */
+     , (6605,  33,          1) /* Bonded - Bonded */
+     , (6605,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6605, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6605, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (6605,  22, True ) /* Inscribable */
+     , (6605,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6605,  12,     0.9) /* Shade */
+     , (6605,  13,       1) /* ArmorModVsSlash */
+     , (6605,  14,     0.8) /* ArmorModVsPierce */
+     , (6605,  15,       1) /* ArmorModVsBludgeon */
+     , (6605,  16,     0.8) /* ArmorModVsCold */
+     , (6605,  17,     0.8) /* ArmorModVsFire */
+     , (6605,  18,     0.8) /* ArmorModVsAcid */
+     , (6605,  19,     0.6) /* ArmorModVsElectric */
+     , (6605, 110,       1) /* BulkMod */
+     , (6605, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6605,   1, 'Amuli Shadow Leggings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6605,   1,   33554856) /* Setup */
+     , (6605,   3,  536870932) /* SoundTable */
+     , (6605,   6,   67108990) /* PaletteBase */
+     , (6605,   7,  268435872) /* ClothingBase */
+     , (6605,   8,  100670443) /* Icon */
+     , (6605,  22,  872415275) /* PhysicsEffectTable */;

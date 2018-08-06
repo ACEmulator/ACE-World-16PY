@@ -1,33 +1,29 @@
-/* Weenie - Marble Key (23095) */
-DELETE FROM weenie WHERE class_Id = 23095;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23095, 'keychestvodlow', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23095, 001 /* NAME_STRING */, 'Marble Key')
-     , (23095, 013 /* KEY_CODE_STRING */, 'KeyChestVoDLow')
-     , (23095, 014 /* USE_STRING */, 'Use this item on a locked chest to unlock it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23095, 001 /* SETUP_DID */, 33554784)
-     , (23095, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23095, 008 /* ICON_DID */, 100673960)
-     , (23095, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23095', 'keychestvodlow', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23095, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (23095, 005 /* ENCUMB_VAL_INT */, 10)
-     , (23095, 008 /* MASS_INT */, 20)
-     , (23095, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (23095, 019 /* VALUE_INT */, 0)
-     , (23095, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (23095, 092 /* STRUCTURE_INT */, 1)
-     , (23095, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23095, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (23095,   1,      16384) /* ItemType - Key */
+     , (23095,   5,         10) /* EncumbranceVal */
+     , (23095,   8,         20) /* Mass */
+     , (23095,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (23095,  19,          0) /* Value */
+     , (23095,  91,          1) /* MaxStructure */
+     , (23095,  92,          1) /* Structure */
+     , (23095,  93,       1044) /* PhysicsState */
+     , (23095,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23095, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23095, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (23095, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (23095,  22, True ) /* Inscribable */
+     , (23095,  23, True ) /* DestroyOnSell */
+     , (23095,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23095,   1, 'Marble Key') /* Name */
+     , (23095,  13, 'KeyChestVoDLow') /* KeyCode */
+     , (23095,  14, 'Use this item on a locked chest to unlock it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23095,   1,   33554784) /* Setup */
+     , (23095,   3,  536870932) /* SoundTable */
+     , (23095,   8,  100673960) /* Icon */
+     , (23095,  22,  872415275) /* PhysicsEffectTable */;

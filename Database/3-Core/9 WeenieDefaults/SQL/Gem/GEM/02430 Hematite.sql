@@ -1,38 +1,34 @@
-/* Weenie - Hematite (2430) */
-DELETE FROM weenie WHERE class_Id = 2430;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2430, 'gemhematite', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2430, 001 /* NAME_STRING */, 'Hematite');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2430, 001 /* SETUP_DID */, 33554809)
-     , (2430, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2430, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2430, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (2430, 008 /* ICON_DID */, 100674742)
-     , (2430, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2430, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2430', 'gemhematite', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2430, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (2430, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (2430, 005 /* ENCUMB_VAL_INT */, 5)
-     , (2430, 008 /* MASS_INT */, 5)
-     , (2430, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2430, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (2430, 012 /* STACK_SIZE_INT */, 1)
-     , (2430, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (2430, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (2430, 015 /* STACK_UNIT_VALUE_INT */, 50)
-     , (2430, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2430, 019 /* VALUE_INT */, 50)
-     , (2430, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2430, 131 /* MATERIAL_TYPE_INT */, 25 /* Hematite_MaterialType */)
-     , (2430, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
+VALUES (2430,   1,       2048) /* ItemType - Gem */
+     , (2430,   3,         39) /* PaletteTemplate - Black */
+     , (2430,   5,          5) /* EncumbranceVal */
+     , (2430,   8,          5) /* Mass */
+     , (2430,   9,          0) /* ValidLocations - None */
+     , (2430,  11,          1) /* MaxStackSize */
+     , (2430,  12,          1) /* StackSize */
+     , (2430,  13,          5) /* StackUnitEncumbrance */
+     , (2430,  14,          5) /* StackUnitMass */
+     , (2430,  15,         50) /* StackUnitValue */
+     , (2430,  16,          1) /* ItemUseable - No */
+     , (2430,  19,         50) /* Value */
+     , (2430,  93,       1044) /* PhysicsState */
+     , (2430, 131,         25) /* MaterialType - Hematite */
+     , (2430, 169,   16777216) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2430, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2430,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2430,   1, 'Hematite') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2430,   1,   33554809) /* Setup */
+     , (2430,   3,  536870932) /* SoundTable */
+     , (2430,   6,   67111919) /* PaletteBase */
+     , (2430,   7,  268435723) /* ClothingBase */
+     , (2430,   8,  100674742) /* Icon */
+     , (2430,  22,  872415275) /* PhysicsEffectTable */
+     , (2430,  36,  234881046) /* MutateFilter */;

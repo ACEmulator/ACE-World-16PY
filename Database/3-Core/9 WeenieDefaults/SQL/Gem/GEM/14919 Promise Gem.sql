@@ -1,51 +1,47 @@
-/* Weenie - Promise Gem (14919) */
-DELETE FROM weenie WHERE class_Id = 14919;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14919, 'gempromise', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14919, 001 /* NAME_STRING */, 'Promise Gem')
-     , (14919, 015 /* SHORT_DESC_STRING */, 'The use of this gem is the final step of entering of life''s greatest quests... marriage.  Use it to signify to the world your eternal love.')
-     , (14919, 016 /* LONG_DESC_STRING */, 'The use of this gem is the final step of entering of life''s greatest quests... marriage.  Use it to signify to the world your eternal love.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14919, 001 /* SETUP_DID */, 33554809)
-     , (14919, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14919, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (14919, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (14919, 008 /* ICON_DID */, 100672698)
-     , (14919, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (14919, 028 /* SPELL_DID */, 1708 /* WeddingBliss_SpellID */)
-     , (14919, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14919', 'gempromise', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14919, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (14919, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (14919, 005 /* ENCUMB_VAL_INT */, 30)
-     , (14919, 008 /* MASS_INT */, 20)
-     , (14919, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14919, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (14919, 012 /* STACK_SIZE_INT */, 1)
-     , (14919, 013 /* STACK_UNIT_ENCUMB_INT */, 30)
-     , (14919, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (14919, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (14919, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (14919, 019 /* VALUE_INT */, 0)
-     , (14919, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14919, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14919, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (14919, 106 /* ITEM_SPELLCRAFT_INT */, 90)
-     , (14919, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (14919, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (14919, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (14919, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (14919, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14919, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (14919,   1,       2048) /* ItemType - Gem */
+     , (14919,   3,         13) /* PaletteTemplate - Purple */
+     , (14919,   5,         30) /* EncumbranceVal */
+     , (14919,   8,         20) /* Mass */
+     , (14919,   9,          0) /* ValidLocations - None */
+     , (14919,  11,          1) /* MaxStackSize */
+     , (14919,  12,          1) /* StackSize */
+     , (14919,  13,         30) /* StackUnitEncumbrance */
+     , (14919,  14,         20) /* StackUnitMass */
+     , (14919,  15,          0) /* StackUnitValue */
+     , (14919,  16,          8) /* ItemUseable - Contained */
+     , (14919,  19,          0) /* Value */
+     , (14919,  33,          1) /* Bonded - Bonded */
+     , (14919,  93,       1044) /* PhysicsState */
+     , (14919,  94,         16) /* TargetType - Creature */
+     , (14919, 106,         90) /* ItemSpellcraft */
+     , (14919, 107,         50) /* ItemCurMana */
+     , (14919, 108,         50) /* ItemMaxMana */
+     , (14919, 109,          0) /* ItemDifficulty */
+     , (14919, 110,          0) /* ItemAllegianceRankLimit */
+     , (14919, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14919, 022 /* INSCRIBABLE_BOOL */, True)
-     , (14919, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (14919,  22, True ) /* Inscribable */
+     , (14919,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14919,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14919,   1, 'Promise Gem') /* Name */
+     , (14919,  15, 'The use of this gem is the final step of entering of life''s greatest quests... marriage.  Use it to signify to the world your eternal love.') /* ShortDesc */
+     , (14919,  16, 'The use of this gem is the final step of entering of life''s greatest quests... marriage.  Use it to signify to the world your eternal love.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14919,   1,   33554809) /* Setup */
+     , (14919,   3,  536870932) /* SoundTable */
+     , (14919,   6,   67111919) /* PaletteBase */
+     , (14919,   7,  268435723) /* ClothingBase */
+     , (14919,   8,  100672698) /* Icon */
+     , (14919,  22,  872415275) /* PhysicsEffectTable */
+     , (14919,  28,       1708) /* Spell - Wedding Bliss */
+     , (14919,  36,  234881046) /* MutateFilter */;

@@ -1,47 +1,43 @@
-/* Weenie - Greater Amuli Shadow Coat (6600) */
-DELETE FROM weenie WHERE class_Id = 6600;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6600, 'coatamullianshadowgreater', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6600, 001 /* NAME_STRING */, 'Greater Amuli Shadow Coat');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6600, 001 /* SETUP_DID */, 33554854)
-     , (6600, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6600, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (6600, 007 /* CLOTHINGBASE_DID */, 268435873)
-     , (6600, 008 /* ICON_DID */, 100670435)
-     , (6600, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6600', 'coatamullianshadowgreater', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6600, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (6600, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (6600, 004 /* CLOTHING_PRIORITY_INT */, 13312 /* OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */)
-     , (6600, 005 /* ENCUMB_VAL_INT */, 1600)
-     , (6600, 008 /* MASS_INT */, 1000)
-     , (6600, 009 /* LOCATIONS_INT */, 6656 /* CHEST_ARMOR_LOC, UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (6600, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6600, 019 /* VALUE_INT */, 2610)
-     , (6600, 027 /* ARMOR_TYPE_INT */, 8)
-     , (6600, 028 /* ARMOR_LEVEL_INT */, 190)
-     , (6600, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6600, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6600, 012 /* SHADE_FLOAT */, 0.3)
-     , (6600, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (6600, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.1)
-     , (6600, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (6600, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (6600, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (6600, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (6600, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.5)
-     , (6600, 110 /* BULK_MOD_FLOAT */, 1)
-     , (6600, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (6600,   1,          2) /* ItemType - Armor */
+     , (6600,   3,         21) /* PaletteTemplate - Gold */
+     , (6600,   4,      13312) /* ClothingPriority */
+     , (6600,   5,       1600) /* EncumbranceVal */
+     , (6600,   8,       1000) /* Mass */
+     , (6600,   9,       6656) /* ValidLocations */
+     , (6600,  16,          1) /* ItemUseable - No */
+     , (6600,  19,       2610) /* Value */
+     , (6600,  27,          8) /* ArmorType */
+     , (6600,  28,        190) /* ArmorLevel */
+     , (6600,  33,          1) /* Bonded - Bonded */
+     , (6600,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6600, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6600, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (6600,  22, True ) /* Inscribable */
+     , (6600,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6600,  12,     0.3) /* Shade */
+     , (6600,  13,       1) /* ArmorModVsSlash */
+     , (6600,  14,     1.1) /* ArmorModVsPierce */
+     , (6600,  15,       1) /* ArmorModVsBludgeon */
+     , (6600,  16,     0.8) /* ArmorModVsCold */
+     , (6600,  17,     0.8) /* ArmorModVsFire */
+     , (6600,  18,     0.8) /* ArmorModVsAcid */
+     , (6600,  19,     0.5) /* ArmorModVsElectric */
+     , (6600, 110,       1) /* BulkMod */
+     , (6600, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6600,   1, 'Greater Amuli Shadow Coat') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6600,   1,   33554854) /* Setup */
+     , (6600,   3,  536870932) /* SoundTable */
+     , (6600,   6,   67108990) /* PaletteBase */
+     , (6600,   7,  268435873) /* ClothingBase */
+     , (6600,   8,  100670435) /* Icon */
+     , (6600,  22,  872415275) /* PhysicsEffectTable */;

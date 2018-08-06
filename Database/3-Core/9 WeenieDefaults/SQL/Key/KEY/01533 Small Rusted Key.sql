@@ -1,34 +1,30 @@
-/* Weenie - Small Rusted Key (1533) */
-DELETE FROM weenie WHERE class_Id = 1533;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1533, 'keycoliermine', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1533, 001 /* NAME_STRING */, 'Small Rusted Key')
-     , (1533, 013 /* KEY_CODE_STRING */, 'keycoliermine')
-     , (1533, 014 /* USE_STRING */, 'Use this item on a locked door to unlock it.')
-     , (1533, 015 /* SHORT_DESC_STRING */, 'This key is small and rusty.')
-     , (1533, 016 /* LONG_DESC_STRING */, 'This key is badly rusted. It will open the door to Colier Mine.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1533, 001 /* SETUP_DID */, 33554784)
-     , (1533, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (1533, 008 /* ICON_DID */, 100668441)
-     , (1533, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1533', 'keycoliermine', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1533, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (1533, 005 /* ENCUMB_VAL_INT */, 20)
-     , (1533, 008 /* MASS_INT */, 20)
-     , (1533, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (1533, 019 /* VALUE_INT */, 10)
-     , (1533, 091 /* MAX_STRUCTURE_INT */, 2)
-     , (1533, 092 /* STRUCTURE_INT */, 2)
-     , (1533, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (1533, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (1533,   1,      16384) /* ItemType - Key */
+     , (1533,   5,         20) /* EncumbranceVal */
+     , (1533,   8,         20) /* Mass */
+     , (1533,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (1533,  19,         10) /* Value */
+     , (1533,  91,          2) /* MaxStructure */
+     , (1533,  92,          2) /* Structure */
+     , (1533,  93,       1044) /* PhysicsState */
+     , (1533,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1533, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1533, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1533,  22, True ) /* Inscribable */
+     , (1533,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1533,   1, 'Small Rusted Key') /* Name */
+     , (1533,  13, 'keycoliermine') /* KeyCode */
+     , (1533,  14, 'Use this item on a locked door to unlock it.') /* Use */
+     , (1533,  15, 'This key is small and rusty.') /* ShortDesc */
+     , (1533,  16, 'This key is badly rusted. It will open the door to Colier Mine.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1533,   1,   33554784) /* Setup */
+     , (1533,   3,  536870932) /* SoundTable */
+     , (1533,   8,  100668441) /* Icon */
+     , (1533,  22,  872415275) /* PhysicsEffectTable */;

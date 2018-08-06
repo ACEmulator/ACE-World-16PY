@@ -1,41 +1,38 @@
-/* Weenie - Menacet's Orders (14438) */
-DELETE FROM weenie WHERE class_Id = 14438;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14438, 'letterregicidemenacet', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14438, 001 /* NAME_STRING */, 'Menacet''s Orders')
-     , (14438, 033 /* QUEST_STRING */, 'LetterRegicideMenacetPickUp')
-     , (14438, 037 /* QUEST_RESTRICTION_STRING */, 'PortalRegicideWitshirePermissionGiven');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14438, 001 /* SETUP_DID */, 33557474)
-     , (14438, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14438, 008 /* ICON_DID */, 100672466)
-     , (14438, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14438', 'letterregicidemenacet', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14438, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (14438, 005 /* ENCUMB_VAL_INT */, 5)
-     , (14438, 008 /* MASS_INT */, 5)
-     , (14438, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14438, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (14438, 019 /* VALUE_INT */, 0)
-     , (14438, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14438, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14438, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14438, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (14438,   1,       8192) /* ItemType - Writable */
+     , (14438,   5,          5) /* EncumbranceVal */
+     , (14438,   8,          5) /* Mass */
+     , (14438,   9,          0) /* ValidLocations - None */
+     , (14438,  16,          8) /* ItemUseable - Contained */
+     , (14438,  19,          0) /* Value */
+     , (14438,  33,          1) /* Bonded - Bonded */
+     , (14438,  93,       1044) /* PhysicsState */
+     , (14438, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14438, 001 /* STUCK_BOOL */, False)
-     , (14438, 022 /* INSCRIBABLE_BOOL */, False)
-     , (14438, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (14438,   1, False) /* Stuck */
+     , (14438,  22, False) /* Inscribable */
+     , (14438,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14438,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14438,   1, 'Menacet''s Orders') /* Name */
+     , (14438,  33, 'LetterRegicideMenacetPickUp') /* Quest */
+     , (14438,  37, 'PortalRegicideWitshirePermissionGiven') /* QuestRestriction */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14438,   1,   33557474) /* Setup */
+     , (14438,   3,  536870932) /* SoundTable */
+     , (14438,   8,  100672466) /* Icon */
+     , (14438,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (14438, 2, 1000) /* Book Data */;
+VALUES (14438, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (14438, 0, 4294967295, '', 'prewritten', False, 'Dranith--you are a faithful servant. I was...harsh during my last visit. I forget what it was like to have an unreasonable master. You did not fail. All goes according to plan.
@@ -48,4 +45,3 @@ Remember, you must instruct the infiltrators to have patience, to wait for the r
 
 - M
 ');
-

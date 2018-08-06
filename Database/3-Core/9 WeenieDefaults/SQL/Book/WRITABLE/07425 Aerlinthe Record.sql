@@ -1,37 +1,34 @@
-/* Weenie - Aerlinthe Record (7425) */
-DELETE FROM weenie WHERE class_Id = 7425;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7425, 'bookaerlinthetranslated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7425, 001 /* NAME_STRING */, 'Aerlinthe Record')
-     , (7425, 015 /* SHORT_DESC_STRING */, 'A translation of an Empyrean text.')
-     , (7425, 016 /* LONG_DESC_STRING */, 'A translation of an Empyrean text found on Aerlinthe Island.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7425, 001 /* SETUP_DID */, 33554771)
-     , (7425, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7425, 008 /* ICON_DID */, 100668117)
-     , (7425, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7425', 'bookaerlinthetranslated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7425, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (7425, 005 /* ENCUMB_VAL_INT */, 160)
-     , (7425, 008 /* MASS_INT */, 200)
-     , (7425, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7425, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (7425, 019 /* VALUE_INT */, 90)
-     , (7425, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7425, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (7425,   1,       8192) /* ItemType - Writable */
+     , (7425,   5,        160) /* EncumbranceVal */
+     , (7425,   8,        200) /* Mass */
+     , (7425,   9,          0) /* ValidLocations - None */
+     , (7425,  16,          8) /* ItemUseable - Contained */
+     , (7425,  19,         90) /* Value */
+     , (7425,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7425, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (7425,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7425,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7425,   1, 'Aerlinthe Record') /* Name */
+     , (7425,  15, 'A translation of an Empyrean text.') /* ShortDesc */
+     , (7425,  16, 'A translation of an Empyrean text found on Aerlinthe Island.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7425,   1,   33554771) /* Setup */
+     , (7425,   3,  536870932) /* SoundTable */
+     , (7425,   8,  100668117) /* Icon */
+     , (7425,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (7425, 32, 1000) /* Book Data */;
+VALUES (7425, 32, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (7425, 0, 4294967295, 'Tale of Years', 'prewritten', False, '
@@ -204,4 +201,3 @@ HE 348: The Rejection. Troops returning from Valind''s desecration and sack of I
      , (7425, 31, 4294967295, 'Tale of Years', 'prewritten', False, '
 HE 459: Severe landquakes cause magma flows in the upper forge tunnels. Smiths remove to the port while golems effect repairs.
 ');
-

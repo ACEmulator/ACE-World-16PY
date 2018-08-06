@@ -1,61 +1,57 @@
-/* Weenie - Phantom Axe (21353) */
-DELETE FROM weenie WHERE class_Id = 21353;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21353, 'axebattlephantom', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21353, 001 /* NAME_STRING */, 'Phantom Axe')
-     , (21353, 015 /* SHORT_DESC_STRING */, 'An axe with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)')
-     , (21353, 016 /* LONG_DESC_STRING */, 'An axe with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21353, 001 /* SETUP_DID */, 33556657)
-     , (21353, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21353, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (21353, 007 /* CLOTHINGBASE_DID */, 268435779)
-     , (21353, 008 /* ICON_DID */, 100668985)
-     , (21353, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21353, 030 /* PHYSICS_SCRIPT_DID */, 87 /* PS_BreatheLightning */)
-     , (21353, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21353', 'axebattlephantom', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21353, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (21353, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (21353, 005 /* ENCUMB_VAL_INT */, 800)
-     , (21353, 008 /* MASS_INT */, 320)
-     , (21353, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (21353, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (21353, 019 /* VALUE_INT */, 5000)
-     , (21353, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (21353, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (21353, 044 /* DAMAGE_INT */, 7)
-     , (21353, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (21353, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (21353, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (21353, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (21353, 049 /* WEAPON_TIME_INT */, 30)
-     , (21353, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (21353, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (21353, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (21353, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (21353, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (21353, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (21353, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (21353, 160 /* WIELD_DIFFICULTY_INT */, 275)
-     , (21353, 179 /* IMBUED_EFFECT_INT */, -2147483648 /* IgnoreAllArmor_ImbuedEffectType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21353, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (21353, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.4)
-     , (21353, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (21353, 062 /* WEAPON_OFFENSE_FLOAT */, 1.15)
-     , (21353, 076 /* TRANSLUCENCY_FLOAT */, 0.7);
+VALUES (21353,   1,          1) /* ItemType - MeleeWeapon */
+     , (21353,   3,         20) /* PaletteTemplate - Silver */
+     , (21353,   5,        800) /* EncumbranceVal */
+     , (21353,   8,        320) /* Mass */
+     , (21353,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (21353,  16,          1) /* ItemUseable - No */
+     , (21353,  19,       5000) /* Value */
+     , (21353,  33,          1) /* Bonded - Bonded */
+     , (21353,  36,       9999) /* ResistMagic */
+     , (21353,  44,          7) /* Damage */
+     , (21353,  45,          1) /* DamageType - Slash */
+     , (21353,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (21353,  47,          4) /* AttackType - Slash */
+     , (21353,  48,          1) /* WeaponSkill - Axe */
+     , (21353,  49,         30) /* WeaponTime */
+     , (21353,  51,          1) /* CombatUse - Melee */
+     , (21353,  93,       3092) /* PhysicsState */
+     , (21353, 114,          1) /* Attuned - Attuned */
+     , (21353, 150,        103) /* HookPlacement - Hook */
+     , (21353, 151,          2) /* HookType - Wall */
+     , (21353, 158,          2) /* WieldRequirements - RawSkill */
+     , (21353, 159,          1) /* WieldSkilltype - Axe */
+     , (21353, 160,        275) /* WieldDifficulty */
+     , (21353, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21353, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (21353, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21353, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (21353, 069 /* IS_SELLABLE_BOOL */, False)
-     , (21353, 099 /* IVORYABLE_BOOL */, True);
+VALUES (21353,  15, True ) /* LightsStatus */
+     , (21353,  22, True ) /* Inscribable */
+     , (21353,  23, True ) /* DestroyOnSell */
+     , (21353,  69, False) /* IsSellable */
+     , (21353,  99, True ) /* Ivoryable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21353,  21,    0.75) /* WeaponLength */
+     , (21353,  22,     0.4) /* DamageVariance */
+     , (21353,  29,       1) /* WeaponDefense */
+     , (21353,  62,    1.15) /* WeaponOffense */
+     , (21353,  76,     0.7) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21353,   1, 'Phantom Axe') /* Name */
+     , (21353,  15, 'An axe with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* ShortDesc */
+     , (21353,  16, 'An axe with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21353,   1,   33556657) /* Setup */
+     , (21353,   3,  536870932) /* SoundTable */
+     , (21353,   6,   67111919) /* PaletteBase */
+     , (21353,   7,  268435779) /* ClothingBase */
+     , (21353,   8,  100668985) /* Icon */
+     , (21353,  22,  872415275) /* PhysicsEffectTable */
+     , (21353,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (21353,  36,  234881044) /* MutateFilter */;

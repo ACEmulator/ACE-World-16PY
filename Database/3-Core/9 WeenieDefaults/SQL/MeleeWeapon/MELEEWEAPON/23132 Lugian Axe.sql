@@ -1,47 +1,43 @@
-/* Weenie - Lugian Axe (23132) */
-DELETE FROM weenie WHERE class_Id = 23132;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23132, 'lugianaxehollowvod', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23132, 001 /* NAME_STRING */, 'Lugian Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23132, 001 /* SETUP_DID */, 33554726)
-     , (23132, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23132, 008 /* ICON_DID */, 100667580)
-     , (23132, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23132', 'lugianaxehollowvod', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23132, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (23132, 005 /* ENCUMB_VAL_INT */, 6400)
-     , (23132, 008 /* MASS_INT */, 2560)
-     , (23132, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (23132, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23132, 019 /* VALUE_INT */, 750)
-     , (23132, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (23132, 044 /* DAMAGE_INT */, 50)
-     , (23132, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (23132, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (23132, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (23132, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (23132, 049 /* WEAPON_TIME_INT */, 80)
-     , (23132, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (23132, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23132, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23132, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23132, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (23132, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (23132, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (23132, 039 /* DEFAULT_SCALE_FLOAT */, 2)
-     , (23132, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (23132, 076 /* TRANSLUCENCY_FLOAT */, 0.7);
+VALUES (23132,   1,          1) /* ItemType - MeleeWeapon */
+     , (23132,   5,       6400) /* EncumbranceVal */
+     , (23132,   8,       2560) /* Mass */
+     , (23132,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (23132,  16,          1) /* ItemUseable - No */
+     , (23132,  19,        750) /* Value */
+     , (23132,  36,       9999) /* ResistMagic */
+     , (23132,  44,         50) /* Damage */
+     , (23132,  45,          1) /* DamageType - Slash */
+     , (23132,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (23132,  47,          4) /* AttackType - Slash */
+     , (23132,  48,          1) /* WeaponSkill - Axe */
+     , (23132,  49,         80) /* WeaponTime */
+     , (23132,  51,          1) /* CombatUse - Melee */
+     , (23132,  93,       1044) /* PhysicsState */
+     , (23132, 150,        103) /* HookPlacement - Hook */
+     , (23132, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23132, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23132, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
-     , (23132, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True);
+VALUES (23132,  22, True ) /* Inscribable */
+     , (23132,  65, True ) /* IgnoreMagicResist */
+     , (23132,  66, True ) /* IgnoreMagicArmor */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23132,  21,     1.5) /* WeaponLength */
+     , (23132,  22,     0.5) /* DamageVariance */
+     , (23132,  29,       1) /* WeaponDefense */
+     , (23132,  39,       2) /* DefaultScale */
+     , (23132,  62,       1) /* WeaponOffense */
+     , (23132,  76,     0.7) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23132,   1, 'Lugian Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23132,   1,   33554726) /* Setup */
+     , (23132,   3,  536870932) /* SoundTable */
+     , (23132,   8,  100667580) /* Icon */
+     , (23132,  22,  872415275) /* PhysicsEffectTable */;

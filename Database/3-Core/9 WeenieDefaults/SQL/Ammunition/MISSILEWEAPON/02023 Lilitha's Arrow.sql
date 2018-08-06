@@ -1,40 +1,36 @@
-/* Weenie - Lilitha's Arrow (2023) */
-DELETE FROM weenie WHERE class_Id = 2023;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2023, 'arrowlilitha', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2023, 001 /* NAME_STRING */, 'Lilitha''s Arrow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2023, 001 /* SETUP_DID */, 33554724)
-     , (2023, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2023, 008 /* ICON_DID */, 100667622)
-     , (2023, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2023', 'arrowlilitha', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2023, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (2023, 005 /* ENCUMB_VAL_INT */, 25)
-     , (2023, 008 /* MASS_INT */, 5)
-     , (2023, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
-     , (2023, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (2023, 012 /* STACK_SIZE_INT */, 1)
-     , (2023, 013 /* STACK_UNIT_ENCUMB_INT */, 25)
-     , (2023, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (2023, 015 /* STACK_UNIT_VALUE_INT */, 2)
-     , (2023, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2023, 019 /* VALUE_INT */, 2)
-     , (2023, 044 /* DAMAGE_INT */, 10)
-     , (2023, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (2023, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (2023, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
-     , (2023, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2023, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (2023, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (2023,   1,        256) /* ItemType - MissileWeapon */
+     , (2023,   5,         25) /* EncumbranceVal */
+     , (2023,   8,          5) /* Mass */
+     , (2023,   9,    8388608) /* ValidLocations - MissileAmmo */
+     , (2023,  11,        100) /* MaxStackSize */
+     , (2023,  12,          1) /* StackSize */
+     , (2023,  13,         25) /* StackUnitEncumbrance */
+     , (2023,  14,          5) /* StackUnitMass */
+     , (2023,  15,          2) /* StackUnitValue */
+     , (2023,  16,          1) /* ItemUseable - No */
+     , (2023,  19,          2) /* Value */
+     , (2023,  44,         10) /* Damage */
+     , (2023,  45,          2) /* DamageType - Pierce */
+     , (2023,  50,          1) /* AmmoType - Arrow */
+     , (2023,  51,          3) /* CombatUse - Ammo */
+     , (2023,  93,       1044) /* PhysicsState */
+     , (2023, 150,        103) /* HookPlacement - Hook */
+     , (2023, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2023, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (2023, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (2023, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (2023,  22,     0.5) /* DamageVariance */
+     , (2023,  29,       1) /* WeaponDefense */
+     , (2023,  62,       1) /* WeaponOffense */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2023,   1, 'Lilitha''s Arrow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2023,   1,   33554724) /* Setup */
+     , (2023,   3,  536870932) /* SoundTable */
+     , (2023,   8,  100667622) /* Icon */
+     , (2023,  22,  872415275) /* PhysicsEffectTable */;

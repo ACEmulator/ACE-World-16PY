@@ -1,10 +1,12 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7924, 2118369280, 3829137408, 116.332, 177.817, 69.905, -0.992524, 0, 0, 0.122053) /* linkmonstergen5minutes */
-     , (22257, 2118369281, 3829137408, 121.107, 185.859, 69.555, 0.999774, 0, 0, 0.0212556) /* Fishing Hole */
-     , (22257, 2118369282, 3829137408, 125.835, 186.339, 69.555, 0.488176, 0, 0, -0.872745) /* Fishing Hole */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2118369280,  7924, 3829137408, 116.332, 177.817, 69.905, -0.992524, 0, 0, 0.122053, False); /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2118369280'; /* linkmonstergen5minutes */
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2118369280, 2118369281) /* Fishing Hole */
+     , (2118369280, 2118369282) /* Fishing Hole */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118369281'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118369282'; /* linkmonstergen5minutes <- Fishing Hole */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2118369281, 22257, 3829137408, 121.107, 185.859, 69.555, 0.999774, 0, 0, 0.0212556,  True); /* Fishing Hole */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2118369282, 22257, 3829137408, 125.835, 186.339, 69.555, 0.488176, 0, 0, -0.872745,  True); /* Fishing Hole */

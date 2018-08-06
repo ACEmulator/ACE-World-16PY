@@ -1,43 +1,39 @@
-/* Weenie - Distillery Ambrosia (4889) */
-DELETE FROM weenie WHERE class_Id = 4889;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4889, 'distilleryambrosia', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4889, 001 /* NAME_STRING */, 'Distillery Ambrosia')
-     , (4889, 014 /* USE_STRING */, 'Use this item to drink it.')
-     , (4889, 015 /* SHORT_DESC_STRING */, 'A dusty bottle of pale liquid.')
-     , (4889, 016 /* LONG_DESC_STRING */, 'A bottle of perfectly aged pale ambrosia from the lost distillery.')
-     , (4889, 020 /* PLURAL_NAME_STRING */, 'Bottles of Distillery Ambrosia')
-     , (4889, 033 /* QUEST_STRING */, 'DistilleryAmbrosiaQuest');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4889, 001 /* SETUP_DID */, 33554602)
-     , (4889, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4889, 008 /* ICON_DID */, 100667410)
-     , (4889, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (4889, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4889', 'distilleryambrosia', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4889, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (4889, 005 /* ENCUMB_VAL_INT */, 50)
-     , (4889, 008 /* MASS_INT */, 25)
-     , (4889, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4889, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (4889, 012 /* STACK_SIZE_INT */, 1)
-     , (4889, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (4889, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (4889, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (4889, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (4889, 019 /* VALUE_INT */, 0)
-     , (4889, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (4889, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
-     , (4889, 090 /* BOOST_VALUE_INT */, 4)
-     , (4889, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (4889, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (4889,   1,         32) /* ItemType - Food */
+     , (4889,   5,         50) /* EncumbranceVal */
+     , (4889,   8,         25) /* Mass */
+     , (4889,   9,          0) /* ValidLocations - None */
+     , (4889,  11,          1) /* MaxStackSize */
+     , (4889,  12,          1) /* StackSize */
+     , (4889,  13,         50) /* StackUnitEncumbrance */
+     , (4889,  14,         25) /* StackUnitMass */
+     , (4889,  15,          0) /* StackUnitValue */
+     , (4889,  16,          8) /* ItemUseable - Contained */
+     , (4889,  19,          0) /* Value */
+     , (4889,  33,          1) /* Bonded - Bonded */
+     , (4889,  89,          2) /* BoosterEnum - Health */
+     , (4889,  90,          4) /* BoostValue */
+     , (4889,  93,       1044) /* PhysicsState */
+     , (4889, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4889, 022 /* INSCRIBABLE_BOOL */, True)
-     , (4889, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (4889,  22, True ) /* Inscribable */
+     , (4889,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4889,   1, 'Distillery Ambrosia') /* Name */
+     , (4889,  14, 'Use this item to drink it.') /* Use */
+     , (4889,  15, 'A dusty bottle of pale liquid.') /* ShortDesc */
+     , (4889,  16, 'A bottle of perfectly aged pale ambrosia from the lost distillery.') /* LongDesc */
+     , (4889,  20, 'Bottles of Distillery Ambrosia') /* PluralName */
+     , (4889,  33, 'DistilleryAmbrosiaQuest') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4889,   1,   33554602) /* Setup */
+     , (4889,   3,  536870932) /* SoundTable */
+     , (4889,   8,  100667410) /* Icon */
+     , (4889,  22,  872415275) /* PhysicsEffectTable */
+     , (4889,  23,         65) /* UseSound - Drink1 */;

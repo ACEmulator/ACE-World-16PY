@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Sword Mastery Other IV (3520) */
-DELETE FROM weenie WHERE class_Id = 3520;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3520, 'scrollswordmasteryother4', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3520, 001 /* NAME_STRING */, 'Scroll of Sword Mastery Other IV')
-     , (3520, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3520, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the target''s Sword skill by 75%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3520, 001 /* SETUP_DID */, 33554826)
-     , (3520, 008 /* ICON_DID */, 100676475)
-     , (3520, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3520, 028 /* SPELL_DID */, 415 /* SwordMasteryOther4_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3520', 'scrollswordmasteryother4', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3520, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3520, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3520, 008 /* MASS_INT */, 90)
-     , (3520, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3520, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3520, 019 /* VALUE_INT */, 100)
-     , (3520, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3520, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3520,   1,       8192) /* ItemType - Writable */
+     , (3520,   5,         30) /* EncumbranceVal */
+     , (3520,   8,         90) /* Mass */
+     , (3520,   9,          0) /* ValidLocations - None */
+     , (3520,  16,          8) /* ItemUseable - Contained */
+     , (3520,  19,        100) /* Value */
+     , (3520,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3520, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3520, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3520,  22, True ) /* Inscribable */
+     , (3520,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3520,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3520,   1, 'Scroll of Sword Mastery Other IV') /* Name */
+     , (3520,  15, 'A magic scroll.') /* ShortDesc */
+     , (3520,  16, 'When learned, this spell increases the target''s Sword skill by 75%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3520,   1,   33554826) /* Setup */
+     , (3520,   8,  100676475) /* Icon */
+     , (3520,  22,  872415275) /* PhysicsEffectTable */
+     , (3520,  28,        415) /* Spell - Heavy Weapon Mastery Other IV */;

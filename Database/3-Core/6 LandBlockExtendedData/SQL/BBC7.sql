@@ -1,16 +1,24 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21489, 2075947016, 3150381056, 180.234, 120.857, 60.012, 0.753622, 0, 0, 0.657308) /* Asheron's Platinum Golem */
-     , (21493, 2075947018, 3150381056, 77.8543, 89.3185, 71.005, 0.950514, 0, 0, 0.31068) /* Ornate Pillar */
-     , (7924, 2075947017, 3150381056, 180.234, 120.857, 60.005, 0.753622, 0, 0, 0.657308) /* linkmonstergen5minutes */
-     , (21493, 2075947019, 3150381056, 41.6468, 89.5332, 71.005, -0.938456, 0, 0, 0.3454) /* Ornate Pillar */
-     , (21493, 2075947020, 3150381056, 43.1567, 124.749, 71.005, 0.922485, 0, 0, 0.386034) /* Ornate Pillar */
-     , (21493, 2075947021, 3150381056, 77.5187, 125.721, 71.005, -0.426223, 0, 0, -0.904618) /* Ornate Pillar */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075947016, 21489, 3150381056, 180.234, 120.857, 60.012, 0.753622, 0, 0, 0.657308,  True); /* Asheron's Platinum Golem */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2075947017'; /* linkmonstergen5minutes */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075947017,  7924, 3150381056, 180.234, 120.857, 60.005, 0.753622, 0, 0, 0.657308, False); /* Linkable Monster Generator ( 5 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075947016'; /* linkmonstergen5minutes <- Asheron's Platinum Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075947018'; /* linkmonstergen5minutes <- Ornate Pillar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075947021'; /* linkmonstergen5minutes <- Ornate Pillar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075947020'; /* linkmonstergen5minutes <- Ornate Pillar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075947019'; /* linkmonstergen5minutes <- Ornate Pillar */
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2075947017, 2075947016) /* Asheron's Platinum Golem */
+     , (2075947017, 2075947018) /* Ornate Pillar */
+     , (2075947017, 2075947019) /* Ornate Pillar */
+     , (2075947017, 2075947020) /* Ornate Pillar */
+     , (2075947017, 2075947021) /* Ornate Pillar */;
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075947018, 21493, 3150381056, 77.8543, 89.3185, 71.005, 0.950514, 0, 0, 0.31068,  True); /* Ornate Pillar */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075947019, 21493, 3150381056, 41.6468, 89.5332, 71.005, -0.938456, 0, 0, 0.3454,  True); /* Ornate Pillar */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075947020, 21493, 3150381056, 43.1567, 124.749, 71.005, 0.922485, 0, 0, 0.386034,  True); /* Ornate Pillar */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075947021, 21493, 3150381056, 77.5187, 125.721, 71.005, -0.426223, 0, 0, -0.904618,  True); /* Ornate Pillar */

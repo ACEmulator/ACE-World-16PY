@@ -1,38 +1,34 @@
-/* Weenie - Tourmaline (2398) */
-DELETE FROM weenie WHERE class_Id = 2398;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2398, 'gemtourmaline', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2398, 001 /* NAME_STRING */, 'Tourmaline');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2398, 001 /* SETUP_DID */, 33554809)
-     , (2398, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2398, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2398, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (2398, 008 /* ICON_DID */, 100674719)
-     , (2398, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2398, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2398', 'gemtourmaline', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2398, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (2398, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (2398, 005 /* ENCUMB_VAL_INT */, 5)
-     , (2398, 008 /* MASS_INT */, 5)
-     , (2398, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2398, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (2398, 012 /* STACK_SIZE_INT */, 1)
-     , (2398, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (2398, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (2398, 015 /* STACK_UNIT_VALUE_INT */, 100)
-     , (2398, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2398, 019 /* VALUE_INT */, 100)
-     , (2398, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2398, 131 /* MATERIAL_TYPE_INT */, 43 /* Tourmaline_MaterialType */)
-     , (2398, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
+VALUES (2398,   1,       2048) /* ItemType - Gem */
+     , (2398,   3,          8) /* PaletteTemplate - Green */
+     , (2398,   5,          5) /* EncumbranceVal */
+     , (2398,   8,          5) /* Mass */
+     , (2398,   9,          0) /* ValidLocations - None */
+     , (2398,  11,          1) /* MaxStackSize */
+     , (2398,  12,          1) /* StackSize */
+     , (2398,  13,          5) /* StackUnitEncumbrance */
+     , (2398,  14,          5) /* StackUnitMass */
+     , (2398,  15,        100) /* StackUnitValue */
+     , (2398,  16,          1) /* ItemUseable - No */
+     , (2398,  19,        100) /* Value */
+     , (2398,  93,       1044) /* PhysicsState */
+     , (2398, 131,         43) /* MaterialType - Tourmaline */
+     , (2398, 169,   16777216) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2398, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2398,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2398,   1, 'Tourmaline') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2398,   1,   33554809) /* Setup */
+     , (2398,   3,  536870932) /* SoundTable */
+     , (2398,   6,   67111919) /* PaletteBase */
+     , (2398,   7,  268435723) /* ClothingBase */
+     , (2398,   8,  100674719) /* Icon */
+     , (2398,  22,  872415275) /* PhysicsEffectTable */
+     , (2398,  36,  234881046) /* MutateFilter */;

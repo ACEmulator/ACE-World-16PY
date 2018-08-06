@@ -1,40 +1,37 @@
-/* Weenie - Bewren's Journal (25679) */
-DELETE FROM weenie WHERE class_Id = 25679;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25679, 'notebethelbrother', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25679, 001 /* NAME_STRING */, 'Bewren''s Journal')
-     , (25679, 016 /* LONG_DESC_STRING */, 'A well written journal.')
-     , (25679, 033 /* QUEST_STRING */, 'PickedUpNoteBethelBrother');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25679, 001 /* SETUP_DID */, 33554771)
-     , (25679, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25679, 008 /* ICON_DID */, 100675474)
-     , (25679, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25679', 'notebethelbrother', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25679, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (25679, 005 /* ENCUMB_VAL_INT */, 25)
-     , (25679, 008 /* MASS_INT */, 5)
-     , (25679, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25679, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (25679, 019 /* VALUE_INT */, 0)
-     , (25679, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
-     , (25679, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25679, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25679, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (25679,   1,       8192) /* ItemType - Writable */
+     , (25679,   5,         25) /* EncumbranceVal */
+     , (25679,   8,          5) /* Mass */
+     , (25679,   9,          0) /* ValidLocations - None */
+     , (25679,  16,          8) /* ItemUseable - Contained */
+     , (25679,  19,          0) /* Value */
+     , (25679,  33,          0) /* Bonded - Normal */
+     , (25679,  93,       1044) /* PhysicsState */
+     , (25679, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25679, 022 /* INSCRIBABLE_BOOL */, False)
-     , (25679, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (25679,  22, False) /* Inscribable */
+     , (25679,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25679,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25679,   1, 'Bewren''s Journal') /* Name */
+     , (25679,  16, 'A well written journal.') /* LongDesc */
+     , (25679,  33, 'PickedUpNoteBethelBrother') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25679,   1,   33554771) /* Setup */
+     , (25679,   3,  536870932) /* SoundTable */
+     , (25679,   8,  100675474) /* Icon */
+     , (25679,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (25679, 9, 1000) /* Book Data */;
+VALUES (25679, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (25679, 0, 4294967295, 'Bewren', 'prewritten', False, 'While we were fur hunting on the Marescent Plateau yesterday, Jaeget and I were approached by a man proclaiming to be capable of making our lives meaningful. 
@@ -89,4 +86,3 @@ Struggling, they threw me before what I can only describe as a vile cloud of soo
 
 Earlier today a procession of cultists marched into the room, one of them my brother. His eyes seemed glazed and he bore no recognition for me. It was as I feared. Not only are they about to take my life, but they have taken his as well.
 ');
-

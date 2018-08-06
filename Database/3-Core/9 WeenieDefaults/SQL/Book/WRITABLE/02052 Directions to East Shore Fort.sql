@@ -1,39 +1,35 @@
-/* Weenie - Directions to East Shore Fort (2052) */
-DELETE FROM weenie WHERE class_Id = 2052;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2052, 'directionseastshorefort', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2052, 001 /* NAME_STRING */, 'Directions to East Shore Fort');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2052, 001 /* SETUP_DID */, 33554773)
-     , (2052, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2052, 008 /* ICON_DID */, 100668176)
-     , (2052, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2052', 'directionseastshorefort', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2052, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2052, 005 /* ENCUMB_VAL_INT */, 25)
-     , (2052, 008 /* MASS_INT */, 5)
-     , (2052, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2052, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2052, 019 /* VALUE_INT */, 5)
-     , (2052, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2052, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (2052,   1,       8192) /* ItemType - Writable */
+     , (2052,   5,         25) /* EncumbranceVal */
+     , (2052,   8,          5) /* Mass */
+     , (2052,   9,          0) /* ValidLocations - None */
+     , (2052,  16,          8) /* ItemUseable - Contained */
+     , (2052,  19,          5) /* Value */
+     , (2052,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2052, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (2052,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2052,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2052,   1, 'Directions to East Shore Fort') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2052,   1,   33554773) /* Setup */
+     , (2052,   3,  536870932) /* SoundTable */
+     , (2052,   8,  100668176) /* Icon */
+     , (2052,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (2052, 1, 1000) /* Book Data */;
+VALUES (2052, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (2052, 0, 4294967295, 'Directions to East Shore Fort', 'prewritten', False, '
 You can''t get there from here!
 
 ');
-

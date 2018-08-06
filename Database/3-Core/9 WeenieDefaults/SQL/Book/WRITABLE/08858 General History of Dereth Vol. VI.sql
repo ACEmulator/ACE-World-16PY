@@ -1,35 +1,32 @@
-/* Weenie - General History of Dereth Vol. VI (8858) */
-DELETE FROM weenie WHERE class_Id = 8858;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8858, 'histmay00', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8858, 001 /* NAME_STRING */, 'General History of Dereth Vol. VI');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8858, 001 /* SETUP_DID */, 33554771)
-     , (8858, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8858, 008 /* ICON_DID */, 100668117)
-     , (8858, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8858', 'histmay00', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8858, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8858, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8858, 008 /* MASS_INT */, 10)
-     , (8858, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8858, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8858, 019 /* VALUE_INT */, 0)
-     , (8858, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8858, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8858,   1,       8192) /* ItemType - Writable */
+     , (8858,   5,         10) /* EncumbranceVal */
+     , (8858,   8,         10) /* Mass */
+     , (8858,   9,          0) /* ValidLocations - None */
+     , (8858,  16,          8) /* ItemUseable - Contained */
+     , (8858,  19,          0) /* Value */
+     , (8858,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8858, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8858,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8858,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8858,   1, 'General History of Dereth Vol. VI') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8858,   1,   33554771) /* Setup */
+     , (8858,   3,  536870932) /* SoundTable */
+     , (8858,   8,  100668117) /* Icon */
+     , (8858,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8858, 7, 1000) /* Book Data */;
+VALUES (8858, 7, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8858, 0, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, '
@@ -66,4 +63,3 @@ Harking to the abandoned arts of Ispar, weaponsmiths recreated Viamont''s pierci
 ')
      , (8858, 6, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, 'Finally, in the fastness of his mountain stronghold, the assassin Hamud ibn Rafik continued to fight his lonely war against the dominion of the Shadows. When some Tenebrous Edge initiates came to see him, they discovered he had been transformed into a Shadow creature, and barely able to speak. "I am unable to leave my chambers in this ancient, cursed fortress," he had written his daughter. "I know now what will become of me. The Dark Master himself spoke to me and told me what lies in store... what awaits me now surpasses even the depraved rites of the Milantans." Alone and tormented, the entity that had been Hamud stoically awaited his fate.
 ');
-

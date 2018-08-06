@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Conveyic Chant (28570) */
-DELETE FROM weenie WHERE class_Id = 28570;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28570, 'scrollmanaconversionmasteryfellowship5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28570, 001 /* NAME_STRING */, 'Scroll of Conveyic Chant')
-     , (28570, 015 /* SHORT_DESC_STRING */, 'Use this scroll to learn Conveyic Chant.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28570, 001 /* SETUP_DID */, 33554826)
-     , (28570, 008 /* ICON_DID */, 100676466)
-     , (28570, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28570, 028 /* SPELL_DID */, 3397 /* ManaConversionMasteryFellow5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28570', 'scrollmanaconversionmasteryfellowship5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28570, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28570, 005 /* ENCUMB_VAL_INT */, 5)
-     , (28570, 008 /* MASS_INT */, 90)
-     , (28570, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28570, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28570, 019 /* VALUE_INT */, 0)
-     , (28570, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28570, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (28570,   1,       8192) /* ItemType - Writable */
+     , (28570,   5,          5) /* EncumbranceVal */
+     , (28570,   8,         90) /* Mass */
+     , (28570,   9,          0) /* ValidLocations - None */
+     , (28570,  16,          8) /* ItemUseable - Contained */
+     , (28570,  19,          0) /* Value */
+     , (28570,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28570, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28570, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28570,  22, True ) /* Inscribable */
+     , (28570,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28570,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28570,   1, 'Scroll of Conveyic Chant') /* Name */
+     , (28570,  15, 'Use this scroll to learn Conveyic Chant.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28570,   1,   33554826) /* Setup */
+     , (28570,   8,  100676466) /* Icon */
+     , (28570,  22,  872415275) /* PhysicsEffectTable */
+     , (28570,  28,       3397) /* Spell - Conveyic Chant */;

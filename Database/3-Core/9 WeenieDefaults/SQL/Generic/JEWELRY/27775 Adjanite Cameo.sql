@@ -1,50 +1,46 @@
-/* Weenie - Adjanite Cameo (27775) */
-DELETE FROM weenie WHERE class_Id = 27775;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27775, 'necklaceadjanitecameo', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27775, 001 /* NAME_STRING */, 'Adjanite Cameo')
-     , (27775, 016 /* LONG_DESC_STRING */, 'A finely detailed emerald cameo engraved with the face of Lady Adja.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27775, 001 /* SETUP_DID */, 33554680)
-     , (27775, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27775, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27775, 007 /* CLOTHINGBASE_DID */, 268435735)
-     , (27775, 008 /* ICON_DID */, 100676626)
-     , (27775, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27775', 'necklaceadjanitecameo', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27775, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (27775, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (27775, 005 /* ENCUMB_VAL_INT */, 30)
-     , (27775, 008 /* MASS_INT */, 50)
-     , (27775, 009 /* LOCATIONS_INT */, 32768 /* NECK_WEAR_LOC */)
-     , (27775, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27775, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27775, 019 /* VALUE_INT */, 3000)
-     , (27775, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27775, 106 /* ITEM_SPELLCRAFT_INT */, 50)
-     , (27775, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (27775, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (27775, 109 /* ITEM_DIFFICULTY_INT */, 50)
-     , (27775, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (27775, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (27775, 160 /* WIELD_DIFFICULTY_INT */, 20);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27775, 005 /* MANA_RATE_FLOAT */, -0.033333)
-     , (27775, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
+VALUES (27775,   1,          8) /* ItemType - Jewelry */
+     , (27775,   3,          8) /* PaletteTemplate - Green */
+     , (27775,   5,         30) /* EncumbranceVal */
+     , (27775,   8,         50) /* Mass */
+     , (27775,   9,      32768) /* ValidLocations - NeckWear */
+     , (27775,  16,          1) /* ItemUseable - No */
+     , (27775,  18,          1) /* UiEffects - Magical */
+     , (27775,  19,       3000) /* Value */
+     , (27775,  93,       1044) /* PhysicsState */
+     , (27775, 106,         50) /* ItemSpellcraft */
+     , (27775, 107,       1000) /* ItemCurMana */
+     , (27775, 108,       1000) /* ItemMaxMana */
+     , (27775, 109,         50) /* ItemDifficulty */
+     , (27775, 158,          7) /* WieldRequirements - Level */
+     , (27775, 159,          1) /* WieldSkilltype - Axe */
+     , (27775, 160,         20) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27775, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27775, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (27775, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
+VALUES (27775,  22, True ) /* Inscribable */
+     , (27775,  23, True ) /* DestroyOnSell */
+     , (27775,  84, True ) /* IgnoreCloIcons */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27775,   5, -0.033333) /* ManaRate */
+     , (27775,  39,     0.8) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27775,   1, 'Adjanite Cameo') /* Name */
+     , (27775,  16, 'A finely detailed emerald cameo engraved with the face of Lady Adja.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27775,   1,   33554680) /* Setup */
+     , (27775,   3,  536870932) /* SoundTable */
+     , (27775,   6,   67111919) /* PaletteBase */
+     , (27775,   7,  268435735) /* ClothingBase */
+     , (27775,   8,  100676626) /* Icon */
+     , (27775,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27775, 208, 2) /* ManaRenewalOther3_SpellID */
-     , (27775, 185, 2) /* RejuvenationOther3_SpellID */
-     , (27775, 161, 2) /* RegenerationOther3_SpellID */;
-
+VALUES (27775,   161,      2)  /* Regeneration Other III */
+     , (27775,   185,      2)  /* Rejuvenation Other III */
+     , (27775,   208,      2)  /* Mana Renewal Other III */;

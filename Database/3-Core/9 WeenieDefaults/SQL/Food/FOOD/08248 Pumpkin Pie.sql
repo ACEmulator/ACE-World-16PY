@@ -1,38 +1,34 @@
-/* Weenie - Pumpkin Pie (8248) */
-DELETE FROM weenie WHERE class_Id = 8248;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8248, 'pumpkinpie', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8248, 001 /* NAME_STRING */, 'Pumpkin Pie')
-     , (8248, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (8248, 015 /* SHORT_DESC_STRING */, 'A lightly baked, browned pumpkin pie, thick, savory, sweet.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8248, 001 /* SETUP_DID */, 33555978)
-     , (8248, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8248, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8248, 007 /* CLOTHINGBASE_DID */, 268436048)
-     , (8248, 008 /* ICON_DID */, 100671010)
-     , (8248, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8248', 'pumpkinpie', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8248, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (8248, 005 /* ENCUMB_VAL_INT */, 75)
-     , (8248, 008 /* MASS_INT */, 50)
-     , (8248, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8248, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (8248, 012 /* STACK_SIZE_INT */, 1)
-     , (8248, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
-     , (8248, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (8248, 015 /* STACK_UNIT_VALUE_INT */, 35)
-     , (8248, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8248, 019 /* VALUE_INT */, 35)
-     , (8248, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (8248, 090 /* BOOST_VALUE_INT */, 15)
-     , (8248, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (8248,   1,         32) /* ItemType - Food */
+     , (8248,   5,         75) /* EncumbranceVal */
+     , (8248,   8,         50) /* Mass */
+     , (8248,   9,          0) /* ValidLocations - None */
+     , (8248,  11,        100) /* MaxStackSize */
+     , (8248,  12,          1) /* StackSize */
+     , (8248,  13,         75) /* StackUnitEncumbrance */
+     , (8248,  14,         50) /* StackUnitMass */
+     , (8248,  15,         35) /* StackUnitValue */
+     , (8248,  16,          8) /* ItemUseable - Contained */
+     , (8248,  19,         35) /* Value */
+     , (8248,  89,          4) /* BoosterEnum - Stamina */
+     , (8248,  90,         15) /* BoostValue */
+     , (8248,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8248, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (8248,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8248,   1, 'Pumpkin Pie') /* Name */
+     , (8248,  14, 'Use this item to eat it.') /* Use */
+     , (8248,  15, 'A lightly baked, browned pumpkin pie, thick, savory, sweet.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8248,   1,   33555978) /* Setup */
+     , (8248,   3,  536870932) /* SoundTable */
+     , (8248,   6,   67111919) /* PaletteBase */
+     , (8248,   7,  268436048) /* ClothingBase */
+     , (8248,   8,  100671010) /* Icon */
+     , (8248,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,37 +1,34 @@
-/* Weenie - A Note From Ciandra (22949) */
-DELETE FROM weenie WHERE class_Id = 22949;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22949, 'noteattributetransfer', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22949, 001 /* NAME_STRING */, 'A Note From Ciandra')
-     , (22949, 016 /* LONG_DESC_STRING */, 'A short note left here for you to find. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22949, 001 /* SETUP_DID */, 33554773)
-     , (22949, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22949, 008 /* ICON_DID */, 100668176)
-     , (22949, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22949', 'noteattributetransfer', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22949, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (22949, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22949, 008 /* MASS_INT */, 230)
-     , (22949, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22949, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22949, 019 /* VALUE_INT */, 0)
-     , (22949, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22949, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (22949, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (22949,   1,       8192) /* ItemType - Writable */
+     , (22949,   5,         10) /* EncumbranceVal */
+     , (22949,   8,        230) /* Mass */
+     , (22949,   9,          0) /* ValidLocations - None */
+     , (22949,  16,          8) /* ItemUseable - Contained */
+     , (22949,  19,          0) /* Value */
+     , (22949,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22949, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (22949,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22949,  39,    1.22) /* DefaultScale */
+     , (22949,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22949,   1, 'A Note From Ciandra') /* Name */
+     , (22949,  16, 'A short note left here for you to find. ') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22949,   1,   33554773) /* Setup */
+     , (22949,   3,  536870932) /* SoundTable */
+     , (22949,   8,  100668176) /* Icon */
+     , (22949,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (22949, 7, 1000) /* Book Data */;
+VALUES (22949, 7, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (22949, 0, 4294967295, 'Ciandra', 'prewritten', False, '
@@ -63,4 +60,3 @@ your modifications carefully and with some thought.
 
 Again, certain armor or weapons will prevent the gems from working -- you should remove the offending items from your body and try again. At this time, I do not have sufficient data to completely reassure you that there are no side effects to this procedure. But I have used it on myself, and I have detected no problems thus far.
 ');
-

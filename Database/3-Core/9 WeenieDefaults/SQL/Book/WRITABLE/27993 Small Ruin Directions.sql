@@ -1,37 +1,33 @@
-/* Weenie - Small Ruin Directions (27993) */
-DELETE FROM weenie WHERE class_Id = 27993;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27993, 'directionssmallruinlin', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27993, 001 /* NAME_STRING */, 'Small Ruin Directions');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27993, 001 /* SETUP_DID */, 33554773)
-     , (27993, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27993, 008 /* ICON_DID */, 100675747)
-     , (27993, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27993', 'directionssmallruinlin', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27993, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (27993, 005 /* ENCUMB_VAL_INT */, 10)
-     , (27993, 008 /* MASS_INT */, 10)
-     , (27993, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27993, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (27993, 019 /* VALUE_INT */, 10)
-     , (27993, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27993, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (27993,   1,       8192) /* ItemType - Writable */
+     , (27993,   5,         10) /* EncumbranceVal */
+     , (27993,   8,         10) /* Mass */
+     , (27993,   9,          0) /* ValidLocations - None */
+     , (27993,  16,          8) /* ItemUseable - Contained */
+     , (27993,  19,         10) /* Value */
+     , (27993,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27993, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (27993,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27993,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27993,   1, 'Small Ruin Directions') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27993,   1,   33554773) /* Setup */
+     , (27993,   3,  536870932) /* SoundTable */
+     , (27993,   8,  100675747) /* Icon */
+     , (27993,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (27993, 1, 1000) /* Book Data */;
+VALUES (27993, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (27993, 0, 4294967295, 'Small Ruin Directions', 'prewritten', False, 'West of Lin, there is an underground crypt known as the Small Ruin.  It was once the home of a Banderling Breeder and her ilk, but now it seems that the decaying complex has been overrun by more aggressive beasts.  It is rumored that some adventurers have raided the ruin, returning to town with fine treasures and exciting stories.
 ');
-

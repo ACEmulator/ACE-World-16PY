@@ -1,54 +1,50 @@
-/* Weenie - Hollow Spear (7573) */
-DELETE FROM weenie WHERE class_Id = 7573;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7573, 'spearhollow', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7573, 001 /* NAME_STRING */, 'Hollow Spear')
-     , (7573, 015 /* SHORT_DESC_STRING */, 'A spear crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)')
-     , (7573, 016 /* LONG_DESC_STRING */, 'A spear crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7573, 001 /* SETUP_DID */, 33556646)
-     , (7573, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7573, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7573, 007 /* CLOTHINGBASE_DID */, 268435768)
-     , (7573, 008 /* ICON_DID */, 100669005)
-     , (7573, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (7573, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7573', 'spearhollow', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7573, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (7573, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (7573, 005 /* ENCUMB_VAL_INT */, 700)
-     , (7573, 008 /* MASS_INT */, 140)
-     , (7573, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (7573, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7573, 019 /* VALUE_INT */, 4000)
-     , (7573, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7573, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (7573, 044 /* DAMAGE_INT */, 36)
-     , (7573, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (7573, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (7573, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (7573, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (7573, 049 /* WEAPON_TIME_INT */, 30)
-     , (7573, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (7573, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (7573, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7573, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (7573, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (7573, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (7573, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05)
-     , (7573, 076 /* TRANSLUCENCY_FLOAT */, 0.7);
+VALUES (7573,   1,          1) /* ItemType - MeleeWeapon */
+     , (7573,   3,         20) /* PaletteTemplate - Silver */
+     , (7573,   5,        700) /* EncumbranceVal */
+     , (7573,   8,        140) /* Mass */
+     , (7573,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (7573,  16,          1) /* ItemUseable - No */
+     , (7573,  19,       4000) /* Value */
+     , (7573,  33,          1) /* Bonded - Bonded */
+     , (7573,  36,       9999) /* ResistMagic */
+     , (7573,  44,         36) /* Damage */
+     , (7573,  45,          2) /* DamageType - Pierce */
+     , (7573,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (7573,  47,          2) /* AttackType - Thrust */
+     , (7573,  48,          9) /* WeaponSkill - Spear */
+     , (7573,  49,         30) /* WeaponTime */
+     , (7573,  51,          1) /* CombatUse - Melee */
+     , (7573,  93,       3092) /* PhysicsState */
+     , (7573, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7573, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (7573, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7573, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7573, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
-     , (7573, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True);
+VALUES (7573,  15, True ) /* LightsStatus */
+     , (7573,  22, True ) /* Inscribable */
+     , (7573,  23, True ) /* DestroyOnSell */
+     , (7573,  65, True ) /* IgnoreMagicResist */
+     , (7573,  66, True ) /* IgnoreMagicArmor */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7573,  21,     1.5) /* WeaponLength */
+     , (7573,  22,     0.5) /* DamageVariance */
+     , (7573,  29,       1) /* WeaponDefense */
+     , (7573,  62,    1.05) /* WeaponOffense */
+     , (7573,  76,     0.7) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7573,   1, 'Hollow Spear') /* Name */
+     , (7573,  15, 'A spear crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* ShortDesc */
+     , (7573,  16, 'A spear crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7573,   1,   33556646) /* Setup */
+     , (7573,   3,  536870932) /* SoundTable */
+     , (7573,   6,   67111919) /* PaletteBase */
+     , (7573,   7,  268435768) /* ClothingBase */
+     , (7573,   8,  100669005) /* Icon */
+     , (7573,  22,  872415275) /* PhysicsEffectTable */
+     , (7573,  36,  234881044) /* MutateFilter */;

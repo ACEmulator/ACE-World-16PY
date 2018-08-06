@@ -1,47 +1,43 @@
-/* Weenie - Gem of Greater Regeneration (24826) */
-DELETE FROM weenie WHERE class_Id = 24826;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24826, 'gemregeneration6', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24826, 001 /* NAME_STRING */, 'Gem of Greater Regeneration')
-     , (24826, 015 /* SHORT_DESC_STRING */, 'A gem that will cast Regeneration VI on anyone who uses it. The gem will be destroyed in the process.')
-     , (24826, 020 /* PLURAL_NAME_STRING */, 'Gems of Greater Regeneration');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24826, 001 /* SETUP_DID */, 33554809)
-     , (24826, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24826, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24826, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (24826, 008 /* ICON_DID */, 100674428)
-     , (24826, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24826, 028 /* SPELL_DID */, 164 /* RegenerationOther6_SpellID */)
-     , (24826, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24826', 'gemregeneration6', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24826, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (24826, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (24826, 005 /* ENCUMB_VAL_INT */, 5)
-     , (24826, 008 /* MASS_INT */, 10)
-     , (24826, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24826, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (24826, 012 /* STACK_SIZE_INT */, 1)
-     , (24826, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (24826, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (24826, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (24826, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24826, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (24826, 019 /* VALUE_INT */, 0)
-     , (24826, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24826, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (24826, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (24826, 107 /* ITEM_CUR_MANA_INT */, 100)
-     , (24826, 108 /* ITEM_MAX_MANA_INT */, 200)
-     , (24826, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (24826, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (24826,   1,       2048) /* ItemType - Gem */
+     , (24826,   3,         14) /* PaletteTemplate - Red */
+     , (24826,   5,          5) /* EncumbranceVal */
+     , (24826,   8,         10) /* Mass */
+     , (24826,   9,          0) /* ValidLocations - None */
+     , (24826,  11,         25) /* MaxStackSize */
+     , (24826,  12,          1) /* StackSize */
+     , (24826,  13,          5) /* StackUnitEncumbrance */
+     , (24826,  14,         10) /* StackUnitMass */
+     , (24826,  15,          0) /* StackUnitValue */
+     , (24826,  16,          8) /* ItemUseable - Contained */
+     , (24826,  18,          1) /* UiEffects - Magical */
+     , (24826,  19,          0) /* Value */
+     , (24826,  93,       1044) /* PhysicsState */
+     , (24826,  94,         16) /* TargetType - Creature */
+     , (24826, 106,        210) /* ItemSpellcraft */
+     , (24826, 107,        100) /* ItemCurMana */
+     , (24826, 108,        200) /* ItemMaxMana */
+     , (24826, 109,          0) /* ItemDifficulty */
+     , (24826, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24826, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (24826, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24826,  23, True ) /* DestroyOnSell */
+     , (24826,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24826,   1, 'Gem of Greater Regeneration') /* Name */
+     , (24826,  15, 'A gem that will cast Regeneration VI on anyone who uses it. The gem will be destroyed in the process.') /* ShortDesc */
+     , (24826,  20, 'Gems of Greater Regeneration') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24826,   1,   33554809) /* Setup */
+     , (24826,   3,  536870932) /* SoundTable */
+     , (24826,   6,   67111919) /* PaletteBase */
+     , (24826,   7,  268435723) /* ClothingBase */
+     , (24826,   8,  100674428) /* Icon */
+     , (24826,  22,  872415275) /* PhysicsEffectTable */
+     , (24826,  28,        164) /* Spell - Regeneration Other VI */
+     , (24826,  36,  234881046) /* MutateFilter */;

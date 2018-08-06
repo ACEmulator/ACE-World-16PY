@@ -1,36 +1,32 @@
-/* Weenie - Hoeroa of Palenqual (11267) */
-DELETE FROM weenie WHERE class_Id = 11267;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11267, 'staffmelee13xmenhir-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11267, 001 /* NAME_STRING */, 'Hoeroa of Palenqual')
-     , (11267, 015 /* SHORT_DESC_STRING */, 'The Hoeroa of Palenqual.')
-     , (11267, 016 /* LONG_DESC_STRING */, 'The Hoeroa of Palenqual, an Aun Tumerok relic. This melee weapon was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes must be added to this weapon in order to use it. The Timaru and Siraluun Totems have already been added; there is space for one more.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11267, 001 /* SETUP_DID */, 33557232)
-     , (11267, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11267, 008 /* ICON_DID */, 100671869)
-     , (11267, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11267', 'staffmelee13xmenhir-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11267, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11267, 005 /* ENCUMB_VAL_INT */, 200)
-     , (11267, 008 /* MASS_INT */, 200)
-     , (11267, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11267, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11267, 019 /* VALUE_INT */, 0)
-     , (11267, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11267, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11267, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11267, 039 /* DEFAULT_SCALE_FLOAT */, 0.95);
+VALUES (11267,   1,        128) /* ItemType - Misc */
+     , (11267,   5,        200) /* EncumbranceVal */
+     , (11267,   8,        200) /* Mass */
+     , (11267,   9,          0) /* ValidLocations - None */
+     , (11267,  16,          1) /* ItemUseable - No */
+     , (11267,  19,          0) /* Value */
+     , (11267,  33,          1) /* Bonded - Bonded */
+     , (11267,  93,       1044) /* PhysicsState */
+     , (11267, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11267, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11267, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (11267, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (11267,  22, True ) /* Inscribable */
+     , (11267,  23, True ) /* DestroyOnSell */
+     , (11267,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11267,  39,    0.95) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11267,   1, 'Hoeroa of Palenqual') /* Name */
+     , (11267,  15, 'The Hoeroa of Palenqual.') /* ShortDesc */
+     , (11267,  16, 'The Hoeroa of Palenqual, an Aun Tumerok relic. This melee weapon was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes must be added to this weapon in order to use it. The Timaru and Siraluun Totems have already been added; there is space for one more.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11267,   1,   33557232) /* Setup */
+     , (11267,   3,  536870932) /* SoundTable */
+     , (11267,   8,  100671869) /* Icon */
+     , (11267,  22,  872415275) /* PhysicsEffectTable */;

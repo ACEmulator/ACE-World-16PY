@@ -1,33 +1,29 @@
-/* Weenie - Guard Post Key (8214) */
-DELETE FROM weenie WHERE class_Id = 8214;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8214, 'keyxara', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8214, 001 /* NAME_STRING */, 'Guard Post Key')
-     , (8214, 013 /* KEY_CODE_STRING */, 'keyxara')
-     , (8214, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (8214, 015 /* SHORT_DESC_STRING */, 'A moss-encrusted key found in the caverns below Xarabydun.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8214, 001 /* SETUP_DID */, 33554784)
-     , (8214, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8214, 008 /* ICON_DID */, 100670820)
-     , (8214, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8214', 'keyxara', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8214, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (8214, 005 /* ENCUMB_VAL_INT */, 50)
-     , (8214, 008 /* MASS_INT */, 20)
-     , (8214, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (8214, 019 /* VALUE_INT */, 100)
-     , (8214, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (8214, 092 /* STRUCTURE_INT */, 1)
-     , (8214, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8214, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (8214,   1,      16384) /* ItemType - Key */
+     , (8214,   5,         50) /* EncumbranceVal */
+     , (8214,   8,         20) /* Mass */
+     , (8214,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (8214,  19,        100) /* Value */
+     , (8214,  91,          1) /* MaxStructure */
+     , (8214,  92,          1) /* Structure */
+     , (8214,  93,       1044) /* PhysicsState */
+     , (8214,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8214, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8214, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8214,  22, True ) /* Inscribable */
+     , (8214,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8214,   1, 'Guard Post Key') /* Name */
+     , (8214,  13, 'keyxara') /* KeyCode */
+     , (8214,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (8214,  15, 'A moss-encrusted key found in the caverns below Xarabydun.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8214,   1,   33554784) /* Setup */
+     , (8214,   3,  536870932) /* SoundTable */
+     , (8214,   8,  100670820) /* Icon */
+     , (8214,  22,  872415275) /* PhysicsEffectTable */;

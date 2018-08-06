@@ -1,46 +1,42 @@
-/* Weenie - Niffis Shell (10702) */
-DELETE FROM weenie WHERE class_Id = 10702;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10702, 'shieldniffis', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10702, 001 /* NAME_STRING */, 'Niffis Shell')
-     , (10702, 015 /* SHORT_DESC_STRING */, 'A large niffis shell, carved into a shield.')
-     , (10702, 016 /* LONG_DESC_STRING */, 'A large niffis shell, carved into a shield.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10702, 001 /* SETUP_DID */, 33557043)
-     , (10702, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10702, 008 /* ICON_DID */, 100671648)
-     , (10702, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10702', 'shieldniffis', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10702, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (10702, 005 /* ENCUMB_VAL_INT */, 420)
-     , (10702, 008 /* MASS_INT */, 140)
-     , (10702, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
-     , (10702, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10702, 019 /* VALUE_INT */, 1000)
-     , (10702, 027 /* ARMOR_TYPE_INT */, 2)
-     , (10702, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (10702, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
-     , (10702, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (10702, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (10702, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10702, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.6)
-     , (10702, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (10702, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (10702, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (10702, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (10702, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (10702, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (10702, 039 /* DEFAULT_SCALE_FLOAT */, 1.3)
-     , (10702, 110 /* BULK_MOD_FLOAT */, 1)
-     , (10702, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (10702,   1,          2) /* ItemType - Armor */
+     , (10702,   5,        420) /* EncumbranceVal */
+     , (10702,   8,        140) /* Mass */
+     , (10702,   9,    2097152) /* ValidLocations - Shield */
+     , (10702,  16,          1) /* ItemUseable - No */
+     , (10702,  19,       1000) /* Value */
+     , (10702,  27,          2) /* ArmorType */
+     , (10702,  28,        100) /* ArmorLevel */
+     , (10702,  51,          4) /* CombatUse - Shield */
+     , (10702,  93,       1044) /* PhysicsState */
+     , (10702, 150,        103) /* HookPlacement - Hook */
+     , (10702, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10702, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (10702,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10702,  13,     0.6) /* ArmorModVsSlash */
+     , (10702,  14,       1) /* ArmorModVsPierce */
+     , (10702,  15,       1) /* ArmorModVsBludgeon */
+     , (10702,  16,     0.6) /* ArmorModVsCold */
+     , (10702,  17,       1) /* ArmorModVsFire */
+     , (10702,  18,     0.6) /* ArmorModVsAcid */
+     , (10702,  19,       1) /* ArmorModVsElectric */
+     , (10702,  39,     1.3) /* DefaultScale */
+     , (10702, 110,       1) /* BulkMod */
+     , (10702, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10702,   1, 'Niffis Shell') /* Name */
+     , (10702,  15, 'A large niffis shell, carved into a shield.') /* ShortDesc */
+     , (10702,  16, 'A large niffis shell, carved into a shield.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10702,   1,   33557043) /* Setup */
+     , (10702,   3,  536870932) /* SoundTable */
+     , (10702,   8,  100671648) /* Icon */
+     , (10702,  22,  872415275) /* PhysicsEffectTable */;

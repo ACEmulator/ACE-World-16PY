@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Armor Tinkering Expertise Self (1683) */
-DELETE FROM weenie WHERE class_Id = 1683;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1683, 'scrollarmorexpertiseself', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1683, 001 /* NAME_STRING */, 'Scroll of Armor Tinkering Expertise Self')
-     , (1683, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (1683, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the caster''s Armor Tinkering skill by 10%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1683, 001 /* SETUP_DID */, 33554826)
-     , (1683, 008 /* ICON_DID */, 100676477)
-     , (1683, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1683, 028 /* SPELL_DID */, 702 /* ArmorExpertiseSelf1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1683', 'scrollarmorexpertiseself', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1683, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (1683, 005 /* ENCUMB_VAL_INT */, 30)
-     , (1683, 008 /* MASS_INT */, 90)
-     , (1683, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (1683, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (1683, 019 /* VALUE_INT */, 1)
-     , (1683, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1683, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (1683,   1,       8192) /* ItemType - Writable */
+     , (1683,   5,         30) /* EncumbranceVal */
+     , (1683,   8,         90) /* Mass */
+     , (1683,   9,          0) /* ValidLocations - None */
+     , (1683,  16,          8) /* ItemUseable - Contained */
+     , (1683,  19,          1) /* Value */
+     , (1683,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1683, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1683, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1683,  22, True ) /* Inscribable */
+     , (1683,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1683,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1683,   1, 'Scroll of Armor Tinkering Expertise Self') /* Name */
+     , (1683,  15, 'A magic scroll.') /* ShortDesc */
+     , (1683,  16, 'When learned, this spell increases the caster''s Armor Tinkering skill by 10%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1683,   1,   33554826) /* Setup */
+     , (1683,   8,  100676477) /* Icon */
+     , (1683,  22,  872415275) /* PhysicsEffectTable */
+     , (1683,  28,        702) /* Spell - Armor Tinkering Expertise Self I */;

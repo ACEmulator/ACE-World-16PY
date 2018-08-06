@@ -1,65 +1,61 @@
-/* Weenie - Gauraloi (21428) */
-DELETE FROM weenie WHERE class_Id = 21428;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21428, 'cestusgaerlan', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21428, 001 /* NAME_STRING */, 'Gauraloi')
-     , (21428, 015 /* SHORT_DESC_STRING */, 'A cestus constructed from obsidian and cerulean colored stone.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21428, 001 /* SETUP_DID */, 33557960)
-     , (21428, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21428, 008 /* ICON_DID */, 100673487)
-     , (21428, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21428, 037 /* ITEM_SKILL_LIMIT_DID */, 13);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21428', 'cestusgaerlan', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21428, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (21428, 005 /* ENCUMB_VAL_INT */, 120)
-     , (21428, 008 /* MASS_INT */, 120)
-     , (21428, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (21428, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (21428, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (21428, 019 /* VALUE_INT */, 4000)
-     , (21428, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (21428, 044 /* DAMAGE_INT */, 12)
-     , (21428, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (21428, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1 /* Unarmed_CombatStyle */)
-     , (21428, 047 /* ATTACK_TYPE_INT */, 1 /* Punch_AttackType */)
-     , (21428, 048 /* WEAPON_SKILL_INT */, 13 /* UNARMED_COMBAT_SKILL */)
-     , (21428, 049 /* WEAPON_TIME_INT */, 15)
-     , (21428, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (21428, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (21428, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (21428, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (21428, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (21428, 109 /* ITEM_DIFFICULTY_INT */, 125)
-     , (21428, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 325)
-     , (21428, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (21428, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (21428, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (21428, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (21428, 160 /* WIELD_DIFFICULTY_INT */, 30)
-     , (21428, 166 /* SLAYER_CREATURE_TYPE_INT */, 1 /* Olthoi_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21428, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (21428, 021 /* WEAPON_LENGTH_FLOAT */, 0.52)
-     , (21428, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (21428, 029 /* WEAPON_DEFENSE_FLOAT */, 1.12)
-     , (21428, 062 /* WEAPON_OFFENSE_FLOAT */, 1.12)
-     , (21428, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 2);
+VALUES (21428,   1,          1) /* ItemType - MeleeWeapon */
+     , (21428,   5,        120) /* EncumbranceVal */
+     , (21428,   8,        120) /* Mass */
+     , (21428,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (21428,  16,          1) /* ItemUseable - No */
+     , (21428,  18,          1) /* UiEffects - Magical */
+     , (21428,  19,       4000) /* Value */
+     , (21428,  36,       9999) /* ResistMagic */
+     , (21428,  44,         12) /* Damage */
+     , (21428,  45,          4) /* DamageType - Bludgeon */
+     , (21428,  46,          1) /* DefaultCombatStyle - Unarmed */
+     , (21428,  47,          1) /* AttackType - Punch */
+     , (21428,  48,         13) /* WeaponSkill - UnarmedCombat */
+     , (21428,  49,         15) /* WeaponTime */
+     , (21428,  51,          1) /* CombatUse - Melee */
+     , (21428,  93,       1044) /* PhysicsState */
+     , (21428, 106,        250) /* ItemSpellcraft */
+     , (21428, 107,       1000) /* ItemCurMana */
+     , (21428, 108,       1000) /* ItemMaxMana */
+     , (21428, 109,        125) /* ItemDifficulty */
+     , (21428, 115,        325) /* ItemSkillLevelLimit */
+     , (21428, 150,        103) /* HookPlacement - Hook */
+     , (21428, 151,          2) /* HookType - Wall */
+     , (21428, 158,          7) /* WieldRequirements - Level */
+     , (21428, 159,          1) /* WieldSkilltype - Axe */
+     , (21428, 160,         30) /* WieldDifficulty */
+     , (21428, 166,          1) /* SlayerCreatureType - Olthoi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21428, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21428, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (21428,  22, True ) /* Inscribable */
+     , (21428,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21428,   5,   -0.05) /* ManaRate */
+     , (21428,  21,    0.52) /* WeaponLength */
+     , (21428,  22,     0.5) /* DamageVariance */
+     , (21428,  29,    1.12) /* WeaponDefense */
+     , (21428,  62,    1.12) /* WeaponOffense */
+     , (21428, 138,       2) /* SlayerDamageBonus */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21428,   1, 'Gauraloi') /* Name */
+     , (21428,  15, 'A cestus constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21428,   1,   33557960) /* Setup */
+     , (21428,   3,  536870932) /* SoundTable */
+     , (21428,   8,  100673487) /* Icon */
+     , (21428,  22,  872415275) /* PhysicsEffectTable */
+     , (21428,  37,         13) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21428, 441, 2) /* UnarmedCombatMasteryOther5_SpellID */
-     , (21428, 1604, 2) /* Defender5_SpellID */
-     , (21428, 1591, 2) /* HeartSeeker5_SpellID */
-     , (21428, 1615, 2) /* BloodDrinker5_SpellID */
-     , (21428, 1624, 2) /* SwiftKiller3_SpellID */;
-
+VALUES (21428,   441,      2)  /* Light Weapon Mastery Other V */
+     , (21428,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (21428,  1604,      2)  /* Aura of Defender Self V */
+     , (21428,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (21428,  1624,      2)  /* Aura of Swift Killer Self III */;

@@ -1,33 +1,29 @@
-/* Weenie - Olthoi Head (3680) */
-DELETE FROM weenie WHERE class_Id = 3680;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3680, 'olthoihead', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3680, 001 /* NAME_STRING */, 'Olthoi Head');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3680, 001 /* SETUP_DID */, 33556866)
-     , (3680, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3680, 008 /* ICON_DID */, 100670057)
-     , (3680, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3680', 'olthoihead', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3680, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (3680, 005 /* ENCUMB_VAL_INT */, 1050)
-     , (3680, 008 /* MASS_INT */, 700)
-     , (3680, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3680, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3680, 019 /* VALUE_INT */, 200)
-     , (3680, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3680, 150 /* HOOK_PLACEMENT_INT */, 102 /* Other */)
-     , (3680, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3680, 039 /* DEFAULT_SCALE_FLOAT */, 1.2);
+VALUES (3680,   1,        128) /* ItemType - Misc */
+     , (3680,   5,       1050) /* EncumbranceVal */
+     , (3680,   8,        700) /* Mass */
+     , (3680,   9,          0) /* ValidLocations - None */
+     , (3680,  16,          1) /* ItemUseable - No */
+     , (3680,  19,        200) /* Value */
+     , (3680,  93,       1044) /* PhysicsState */
+     , (3680, 150,        102) /* HookPlacement - Other */
+     , (3680, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3680, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3680, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3680,  22, True ) /* Inscribable */
+     , (3680,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3680,  39,     1.2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3680,   1, 'Olthoi Head') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3680,   1,   33556866) /* Setup */
+     , (3680,   3,  536870932) /* SoundTable */
+     , (3680,   8,  100670057) /* Icon */
+     , (3680,  22,  872415275) /* PhysicsEffectTable */;

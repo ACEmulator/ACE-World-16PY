@@ -1,31 +1,27 @@
-/* Weenie - Fishing Title Token (23475) */
-DELETE FROM weenie WHERE class_Id = 23475;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23475, 'tokentrout', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23475, 001 /* NAME_STRING */, 'Fishing Title Token')
-     , (23475, 015 /* SHORT_DESC_STRING */, 'Handing this token to a Tackle Master to get the Title of Fisherman.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23475, 001 /* SETUP_DID */, 33558276)
-     , (23475, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23475, 008 /* ICON_DID */, 100674183)
-     , (23475, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23475', 'tokentrout', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23475, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (23475, 005 /* ENCUMB_VAL_INT */, 100)
-     , (23475, 008 /* MASS_INT */, 10)
-     , (23475, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23475, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23475, 019 /* VALUE_INT */, 0)
-     , (23475, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23475, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23475, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (23475,   1,        128) /* ItemType - Misc */
+     , (23475,   5,        100) /* EncumbranceVal */
+     , (23475,   8,         10) /* Mass */
+     , (23475,   9,          0) /* ValidLocations - None */
+     , (23475,  16,          1) /* ItemUseable - No */
+     , (23475,  19,          0) /* Value */
+     , (23475,  33,          1) /* Bonded - Bonded */
+     , (23475,  93,       1044) /* PhysicsState */
+     , (23475, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23475, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23475, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (23475,  22, True ) /* Inscribable */
+     , (23475,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23475,   1, 'Fishing Title Token') /* Name */
+     , (23475,  15, 'Handing this token to a Tackle Master to get the Title of Fisherman.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23475,   1,   33558276) /* Setup */
+     , (23475,   3,  536870932) /* SoundTable */
+     , (23475,   8,  100674183) /* Icon */
+     , (23475,  22,  872415275) /* PhysicsEffectTable */;

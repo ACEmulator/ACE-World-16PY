@@ -1,35 +1,31 @@
-/* Weenie - Embroidered Bag (29872) */
-DELETE FROM weenie WHERE class_Id = 29872;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29872, 'bagsiraluunlittoral5', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29872, 001 /* NAME_STRING */, 'Embroidered Bag')
-     , (29872, 015 /* SHORT_DESC_STRING */, 'An embroidered bag bulging with five bundles of Littoral Siraluun feathers.  There is no room for more.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29872, 001 /* SETUP_DID */, 33554769)
-     , (29872, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29872, 008 /* ICON_DID */, 100671838)
-     , (29872, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29872', 'bagsiraluunlittoral5', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29872, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29872, 005 /* ENCUMB_VAL_INT */, 100)
-     , (29872, 008 /* MASS_INT */, 240)
-     , (29872, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29872, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29872, 019 /* VALUE_INT */, 0)
-     , (29872, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (29872, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29872, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29872, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (29872,   1,        128) /* ItemType - Misc */
+     , (29872,   5,        100) /* EncumbranceVal */
+     , (29872,   8,        240) /* Mass */
+     , (29872,   9,          0) /* ValidLocations - None */
+     , (29872,  16,          1) /* ItemUseable - No */
+     , (29872,  19,          0) /* Value */
+     , (29872,  33,          1) /* Bonded - Bonded */
+     , (29872,  93,       1044) /* PhysicsState */
+     , (29872, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29872, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29872, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (29872, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (29872,  22, True ) /* Inscribable */
+     , (29872,  23, True ) /* DestroyOnSell */
+     , (29872,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29872,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29872,   1, 'Embroidered Bag') /* Name */
+     , (29872,  15, 'An embroidered bag bulging with five bundles of Littoral Siraluun feathers.  There is no room for more.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29872,   1,   33554769) /* Setup */
+     , (29872,   3,  536870932) /* SoundTable */
+     , (29872,   8,  100671838) /* Icon */
+     , (29872,  22,  872415275) /* PhysicsEffectTable */;

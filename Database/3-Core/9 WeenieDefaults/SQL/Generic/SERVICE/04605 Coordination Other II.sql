@@ -1,28 +1,24 @@
-/* Weenie - Coordination Other II (4605) */
-DELETE FROM weenie WHERE class_Id = 4605;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4605, 'servicecoordinationother2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4605, 001 /* NAME_STRING */, 'Coordination Other II');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4605, 001 /* SETUP_DID */, 33554667)
-     , (4605, 008 /* ICON_DID */, 100668268)
-     , (4605, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (4605, 028 /* SPELL_DID */, 1380 /* CoordinationOther2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4605', 'servicecoordinationother2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4605, 001 /* ITEM_TYPE_INT */, 1048576 /* TYPE_SERVICE */)
-     , (4605, 005 /* ENCUMB_VAL_INT */, 0)
-     , (4605, 008 /* MASS_INT */, 0)
-     , (4605, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4605, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4605, 019 /* VALUE_INT */, 200)
-     , (4605, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4605,   1,    1048576) /* ItemType - Service */
+     , (4605,   5,          0) /* EncumbranceVal */
+     , (4605,   8,          0) /* Mass */
+     , (4605,   9,          0) /* ValidLocations - None */
+     , (4605,  16,          1) /* ItemUseable - No */
+     , (4605,  19,        200) /* Value */
+     , (4605,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4605, 022 /* INSCRIBABLE_BOOL */, False)
-     , (4605, 051 /* VENDOR_SERVICE_BOOL */, True);
+VALUES (4605,  22, False) /* Inscribable */
+     , (4605,  51, True ) /* VendorService */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4605,   1, 'Coordination Other II') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4605,   1,   33554667) /* Setup */
+     , (4605,   8,  100668268) /* Icon */
+     , (4605,  22,  872415275) /* PhysicsEffectTable */
+     , (4605,  28,       1380) /* Spell - Coordination Other II */;

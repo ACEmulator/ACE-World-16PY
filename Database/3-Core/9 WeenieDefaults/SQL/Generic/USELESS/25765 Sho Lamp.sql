@@ -1,31 +1,27 @@
-/* Weenie - Sho Lamp (25765) */
-DELETE FROM weenie WHERE class_Id = 25765;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25765, 'lampwallsho', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25765, 001 /* NAME_STRING */, 'Sho Lamp')
-     , (25765, 014 /* USE_STRING */, 'This item can be used on wall hooks.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25765, 001 /* SETUP_DID */, 33558532)
-     , (25765, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25765, 008 /* ICON_DID */, 100675561)
-     , (25765, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25765', 'lampwallsho', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25765, 001 /* ITEM_TYPE_INT */, 1024 /* TYPE_USELESS */)
-     , (25765, 005 /* ENCUMB_VAL_INT */, 50)
-     , (25765, 008 /* MASS_INT */, 50)
-     , (25765, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25765, 019 /* VALUE_INT */, 5000)
-     , (25765, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (25765, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25765, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (25765,   1,       1024) /* ItemType - Useless */
+     , (25765,   5,         50) /* EncumbranceVal */
+     , (25765,   8,         50) /* Mass */
+     , (25765,  16,          1) /* ItemUseable - No */
+     , (25765,  19,       5000) /* Value */
+     , (25765,  93,       3092) /* PhysicsState */
+     , (25765, 150,        103) /* HookPlacement - Hook */
+     , (25765, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25765, 013 /* ETHEREAL_BOOL */, True)
-     , (25765, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (25765, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (25765,  13, True ) /* Ethereal */
+     , (25765,  15, True ) /* LightsStatus */
+     , (25765,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25765,   1, 'Sho Lamp') /* Name */
+     , (25765,  14, 'This item can be used on wall hooks.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25765,   1,   33558532) /* Setup */
+     , (25765,   3,  536870932) /* SoundTable */
+     , (25765,   8,  100675561) /* Icon */
+     , (25765,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,8 +1,8 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5767, 1999446016, 1926365184, 105.171, 179.718, 381.241, -0.349444, 0, 0, -0.936957) /* Giant Snowman */
-     , (3953, 1999446017, 1926365184, 105.171, 179.718, 381.241, -0.349447, 0, 0, -0.936956) /* linkmonstergen30minutes */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1999446016,  5767, 1926365184, 105.171, 179.718, 381.241, -0.349444, 0, 0, -0.936957,  True); /* Giant Snowman */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1999446017'; /* linkmonstergen30minutes */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1999446017,  3953, 1926365184, 105.171, 179.718, 381.241, -0.349447, 0, 0, -0.936956, False); /* Linkable Monster Gen (30 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999446016'; /* linkmonstergen30minutes <- Giant Snowman */
-
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1999446017, 1999446016) /* Giant Snowman */;

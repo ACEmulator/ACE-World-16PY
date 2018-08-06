@@ -1,40 +1,37 @@
-/* Weenie - Great Skeleton Note Translation (7911) */
-DELETE FROM weenie WHERE class_Id = 7911;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7911, 'septskelgreatnotetranslated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7911, 001 /* NAME_STRING */, 'Great Skeleton Note Translation')
-     , (7911, 014 /* USE_STRING */, 'Use this item to read it.')
-     , (7911, 015 /* SHORT_DESC_STRING */, 'The translation of a message carried by a Great Skeleton.')
-     , (7911, 016 /* LONG_DESC_STRING */, 'The translation of a message carried by a Great Skeleton.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7911, 001 /* SETUP_DID */, 33554773)
-     , (7911, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7911, 008 /* ICON_DID */, 100668176)
-     , (7911, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7911', 'septskelgreatnotetranslated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7911, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (7911, 005 /* ENCUMB_VAL_INT */, 25)
-     , (7911, 008 /* MASS_INT */, 5)
-     , (7911, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7911, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (7911, 019 /* VALUE_INT */, 20)
-     , (7911, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7911, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7911, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (7911,   1,        128) /* ItemType - Misc */
+     , (7911,   5,         25) /* EncumbranceVal */
+     , (7911,   8,          5) /* Mass */
+     , (7911,   9,          0) /* ValidLocations - None */
+     , (7911,  16,          8) /* ItemUseable - Contained */
+     , (7911,  19,         20) /* Value */
+     , (7911,  33,          1) /* Bonded - Bonded */
+     , (7911,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7911, 022 /* INSCRIBABLE_BOOL */, False)
-     , (7911, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (7911,  22, False) /* Inscribable */
+     , (7911,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7911,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7911,   1, 'Great Skeleton Note Translation') /* Name */
+     , (7911,  14, 'Use this item to read it.') /* Use */
+     , (7911,  15, 'The translation of a message carried by a Great Skeleton.') /* ShortDesc */
+     , (7911,  16, 'The translation of a message carried by a Great Skeleton.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7911,   1,   33554773) /* Setup */
+     , (7911,   3,  536870932) /* SoundTable */
+     , (7911,   8,  100668176) /* Icon */
+     , (7911,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (7911, 5, 1000) /* Book Data */;
+VALUES (7911, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (7911, 0, 4294967295, '', 'prewritten', False, '
@@ -55,4 +52,3 @@ Anadil has a great plan, brother. I cannot speak of it, lest this message to the
 
 Until then, keep safe, and hasten. The sun has dimmed, and now the stars begin to fall.
 ');
-

@@ -1,33 +1,29 @@
-/* Weenie - Scroll of WillPower Self V (2760) */
-DELETE FROM weenie WHERE class_Id = 2760;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2760, 'scrollwillpowerself5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2760, 001 /* NAME_STRING */, 'Scroll of WillPower Self V')
-     , (2760, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (2760, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the caster''s Self by 50 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2760, 001 /* SETUP_DID */, 33554826)
-     , (2760, 008 /* ICON_DID */, 100676471)
-     , (2760, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2760, 028 /* SPELL_DID */, 1449 /* WillpowerSelf5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2760', 'scrollwillpowerself5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2760, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2760, 005 /* ENCUMB_VAL_INT */, 30)
-     , (2760, 008 /* MASS_INT */, 90)
-     , (2760, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2760, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2760, 019 /* VALUE_INT */, 200)
-     , (2760, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2760, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (2760,   1,       8192) /* ItemType - Writable */
+     , (2760,   5,         30) /* EncumbranceVal */
+     , (2760,   8,         90) /* Mass */
+     , (2760,   9,          0) /* ValidLocations - None */
+     , (2760,  16,          8) /* ItemUseable - Contained */
+     , (2760,  19,        200) /* Value */
+     , (2760,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2760, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2760, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2760,  22, True ) /* Inscribable */
+     , (2760,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2760,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2760,   1, 'Scroll of WillPower Self V') /* Name */
+     , (2760,  15, 'A magic scroll.') /* ShortDesc */
+     , (2760,  16, 'When learned, this spell increases the caster''s Self by 50 points.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2760,   1,   33554826) /* Setup */
+     , (2760,   8,  100676471) /* Icon */
+     , (2760,  22,  872415275) /* PhysicsEffectTable */
+     , (2760,  28,       1449) /* Spell - Willpower Self V */;

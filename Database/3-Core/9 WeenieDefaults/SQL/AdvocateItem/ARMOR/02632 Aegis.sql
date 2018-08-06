@@ -1,47 +1,43 @@
-/* Weenie - Aegis (2632) */
-DELETE FROM weenie WHERE class_Id = 2632;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2632, 'shieldadvocate5', 40 /* AdvocateItem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2632, 001 /* NAME_STRING */, 'Aegis');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2632, 001 /* SETUP_DID */, 33555835)
-     , (2632, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2632, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2632, 007 /* CLOTHINGBASE_DID */, 268435802)
-     , (2632, 008 /* ICON_DID */, 100668151)
-     , (2632, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2632', 'shieldadvocate5', 40) /* AdvocateItem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2632, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (2632, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (2632, 005 /* ENCUMB_VAL_INT */, 1)
-     , (2632, 008 /* MASS_INT */, 140)
-     , (2632, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
-     , (2632, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2632, 019 /* VALUE_INT */, 120)
-     , (2632, 027 /* ARMOR_TYPE_INT */, 2)
-     , (2632, 028 /* ARMOR_LEVEL_INT */, 50)
-     , (2632, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (2632, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
-     , (2632, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2632, 114 /* ATTUNED_INT */, 2 /* Sticky_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2632, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (2632, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (2632, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.2)
-     , (2632, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (2632, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
-     , (2632, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (2632, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (2632, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (2632, 110 /* BULK_MOD_FLOAT */, 1)
-     , (2632, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (2632,   1,          2) /* ItemType - Armor */
+     , (2632,   3,         14) /* PaletteTemplate - Red */
+     , (2632,   5,          1) /* EncumbranceVal */
+     , (2632,   8,        140) /* Mass */
+     , (2632,   9,    2097152) /* ValidLocations - Shield */
+     , (2632,  16,          1) /* ItemUseable - No */
+     , (2632,  19,        120) /* Value */
+     , (2632,  27,          2) /* ArmorType */
+     , (2632,  28,         50) /* ArmorLevel */
+     , (2632,  33,          1) /* Bonded - Bonded */
+     , (2632,  51,          4) /* CombatUse - Shield */
+     , (2632,  93,       1044) /* PhysicsState */
+     , (2632, 114,          2) /* Attuned - Sticky */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2632, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2632,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2632,  13,       1) /* ArmorModVsSlash */
+     , (2632,  14,     0.8) /* ArmorModVsPierce */
+     , (2632,  15,     1.2) /* ArmorModVsBludgeon */
+     , (2632,  16,     0.6) /* ArmorModVsCold */
+     , (2632,  17,     0.6) /* ArmorModVsFire */
+     , (2632,  18,       1) /* ArmorModVsAcid */
+     , (2632,  19,     0.6) /* ArmorModVsElectric */
+     , (2632,  39,       1) /* DefaultScale */
+     , (2632, 110,       1) /* BulkMod */
+     , (2632, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2632,   1, 'Aegis') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2632,   1,   33555835) /* Setup */
+     , (2632,   3,  536870932) /* SoundTable */
+     , (2632,   6,   67111919) /* PaletteBase */
+     , (2632,   7,  268435802) /* ClothingBase */
+     , (2632,   8,  100668151) /* Icon */
+     , (2632,  22,  872415275) /* PhysicsEffectTable */;

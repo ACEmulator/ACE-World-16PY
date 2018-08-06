@@ -1,17 +1,29 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7507, 2075045888, 3135963136, 9.48041, 177.635, -0.44, 0.918707, 0, 0, -0.39494) /* Coral Golem */
-     , (7507, 2075045889, 3135963136, 15.2396, 183.717, -0.44, -0.363689, 0, 0, -0.93152) /* Coral Golem */
-     , (7626, 2075045893, 3135963136, 14.8277, 176.672, -0.09, -0.911627, 0, 0, -0.411018) /* Coral Golem */
-     , (7626, 2075045891, 3135963136, 9.80114, 182.42, -0.44, -0.343784, 0, 0, 0.939049) /* Coral Golem */
-     , (7924, 2075045894, 3135963136, 21.5414, 172.434, -0.095, 0.260299, 0, 0, 0.965528) /* linkmonstergen5minutes */
-     , (7215, 2075045895, 3135963136, 61.234, 181.796, -0.445, -0.698891, 0, 0, 0.715228) /* lavalandasheastmixgen */
-     , (7215, 2075045896, 3135963136, 108.757, 180.698, -0.445, -0.698891, 0, 0, 0.715228) /* lavalandasheastmixgen */
-     , (7215, 2075045897, 3135963136, 157.257, 179.578, -0.095, -0.698891, 0, 0, 0.715228) /* lavalandasheastmixgen */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075045888,  7507, 3135963136, 9.48041, 177.635, -0.44, 0.918707, 0, 0, -0.39494,  True); /* Coral Golem */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2075045894'; /* linkmonstergen5minutes */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075045889,  7507, 3135963136, 15.2396, 183.717, -0.44, -0.363689, 0, 0, -0.93152,  True); /* Coral Golem */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075045888'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075045889'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075045891'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075045893'; /* linkmonstergen5minutes <- Coral Golem */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075045891,  7626, 3135963136, 9.80114, 182.42, -0.44, -0.343784, 0, 0, 0.939049,  True); /* Coral Golem */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075045893,  7626, 3135963136, 14.8277, 176.672, -0.09, -0.911627, 0, 0, -0.411018,  True); /* Coral Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075045894,  7924, 3135963136, 21.5414, 172.434, -0.095, 0.260299, 0, 0, 0.965528, False); /* Linkable Monster Generator ( 5 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2075045894, 2075045888) /* Coral Golem */
+     , (2075045894, 2075045889) /* Coral Golem */
+     , (2075045894, 2075045891) /* Coral Golem */
+     , (2075045894, 2075045893) /* Coral Golem */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075045895,  7215, 3135963136, 61.234, 181.796, -0.445, -0.698891, 0, 0, 0.715228, False); /* Aerlinthe Ash East Mix Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075045896,  7215, 3135963136, 108.757, 180.698, -0.445, -0.698891, 0, 0, 0.715228, False); /* Aerlinthe Ash East Mix Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2075045897,  7215, 3135963136, 157.257, 179.578, -0.095, -0.698891, 0, 0, 0.715228, False); /* Aerlinthe Ash East Mix Gen */

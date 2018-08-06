@@ -1,48 +1,44 @@
-/* Weenie - Chest (5192) */
-DELETE FROM weenie WHERE class_Id = 5192;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5192, 'chestshrethhive', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5192, 001 /* NAME_STRING */, 'Chest')
-     , (5192, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5192, 001 /* SETUP_DID */, 33554556)
-     , (5192, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (5192, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (5192, 008 /* ICON_DID */, 100667424)
-     , (5192, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5192', 'chestshrethhive', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5192, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (5192, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (5192, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (5192, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (5192, 008 /* MASS_INT */, 3000)
-     , (5192, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (5192, 019 /* VALUE_INT */, 2500)
-     , (5192, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (5192, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (5192, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (5192, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5192, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (5192, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5192, 041 /* REGENERATION_INTERVAL_FLOAT */, 30)
-     , (5192, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (5192, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5192,   1,        512) /* ItemType - Container */
+     , (5192,   5,       9000) /* EncumbranceVal */
+     , (5192,   6,         -1) /* ItemsCapacity */
+     , (5192,   7,         -1) /* ContainersCapacity */
+     , (5192,   8,       3000) /* Mass */
+     , (5192,  16,         48) /* ItemUseable - ViewedRemote */
+     , (5192,  19,       2500) /* Value */
+     , (5192,  81,          1) /* MaxGeneratedObjects */
+     , (5192,  82,          1) /* InitGeneratedObjects */
+     , (5192,  83,          2) /* ActivationResponse - Use */
+     , (5192,  93,       1048) /* PhysicsState */
+     , (5192,  96,        500) /* EncumbranceCapacity */
+     , (5192, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5192, 001 /* STUCK_BOOL */, True)
-     , (5192, 002 /* OPEN_BOOL */, False)
-     , (5192, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5192, 013 /* ETHEREAL_BOOL */, False)
-     , (5192, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (5192, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (5192,   1, True ) /* Stuck */
+     , (5192,   2, False) /* Open */
+     , (5192,  12, True ) /* ReportCollisions */
+     , (5192,  13, False) /* Ethereal */
+     , (5192,  33, False) /* ResetMessagePending */
+     , (5192,  34, False) /* DefaultOpen */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5192,  41,      30) /* RegenerationInterval */
+     , (5192,  43,       1) /* GeneratorRadius */
+     , (5192,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5192,   1, 'Chest') /* Name */
+     , (5192,  14, 'Use this item to open it and see its contents.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5192,   1,   33554556) /* Setup */
+     , (5192,   2,  150994948) /* MotionTable */
+     , (5192,   3,  536870945) /* SoundTable */
+     , (5192,   8,  100667424) /* Icon */
+     , (5192,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5192, 1, 5184, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Stone of Detachment (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */;
-
+VALUES (5192, 1, 5184, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

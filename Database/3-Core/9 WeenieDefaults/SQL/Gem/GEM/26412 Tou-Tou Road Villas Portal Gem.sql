@@ -1,48 +1,44 @@
-/* Weenie - Tou-Tou Road Villas Portal Gem (26412) */
-DELETE FROM weenie WHERE class_Id = 26412;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26412, 'gemportaltoutoroadvillas', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26412, 001 /* NAME_STRING */, 'Tou-Tou Road Villas Portal Gem')
-     , (26412, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26412, 001 /* SETUP_DID */, 33556769)
-     , (26412, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26412, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26412, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26412, 008 /* ICON_DID */, 100675760)
-     , (26412, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26412, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26412, 031 /* LINKED_PORTAL_ONE_DID */, 13137 /* Tou-Tou Road Villas Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26412', 'gemportaltoutoroadvillas', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26412, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26412, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26412, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26412, 008 /* MASS_INT */, 10)
-     , (26412, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26412, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26412, 012 /* STACK_SIZE_INT */, 1)
-     , (26412, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26412, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26412, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26412, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26412, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26412, 019 /* VALUE_INT */, 500)
-     , (26412, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26412, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26412, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26412, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26412, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26412, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26412, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26412, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26412, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26412,   1,       2048) /* ItemType - Gem */
+     , (26412,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26412,   5,         10) /* EncumbranceVal */
+     , (26412,   8,         10) /* Mass */
+     , (26412,   9,          0) /* ValidLocations - None */
+     , (26412,  11,         20) /* MaxStackSize */
+     , (26412,  12,          1) /* StackSize */
+     , (26412,  13,         10) /* StackUnitEncumbrance */
+     , (26412,  14,         10) /* StackUnitMass */
+     , (26412,  15,        500) /* StackUnitValue */
+     , (26412,  16,          8) /* ItemUseable - Contained */
+     , (26412,  18,          1) /* UiEffects - Magical */
+     , (26412,  19,        500) /* Value */
+     , (26412,  93,       3092) /* PhysicsState */
+     , (26412,  94,         16) /* TargetType - Creature */
+     , (26412, 106,        210) /* ItemSpellcraft */
+     , (26412, 107,         50) /* ItemCurMana */
+     , (26412, 108,         50) /* ItemMaxMana */
+     , (26412, 109,          0) /* ItemDifficulty */
+     , (26412, 110,          0) /* ItemAllegianceRankLimit */
+     , (26412, 150,        103) /* HookPlacement - Hook */
+     , (26412, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26412, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26412, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26412,  15, True ) /* LightsStatus */
+     , (26412,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26412,   1, 'Tou-Tou Road Villas Portal Gem') /* Name */
+     , (26412,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26412,   1,   33556769) /* Setup */
+     , (26412,   3,  536870932) /* SoundTable */
+     , (26412,   6,   67111919) /* PaletteBase */
+     , (26412,   7,  268435723) /* ClothingBase */
+     , (26412,   8,  100675760) /* Icon */
+     , (26412,  22,  872415275) /* PhysicsEffectTable */
+     , (26412,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26412,  31,      13137) /* LinkedPortalOne - Tou-Tou Road Villas Portal */;

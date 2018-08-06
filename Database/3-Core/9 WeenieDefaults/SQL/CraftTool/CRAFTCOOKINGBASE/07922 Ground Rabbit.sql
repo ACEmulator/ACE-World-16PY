@@ -1,38 +1,34 @@
-/* Weenie - Ground Rabbit (7922) */
-DELETE FROM weenie WHERE class_Id = 7922;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7922, 'rabbitground', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7922, 001 /* NAME_STRING */, 'Ground Rabbit')
-     , (7922, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (7922, 015 /* SHORT_DESC_STRING */, 'A lump of moist, ground rabbit meat.')
-     , (7922, 020 /* PLURAL_NAME_STRING */, 'Lumps of Ground Rabbit Meat');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7922, 001 /* SETUP_DID */, 33556232)
-     , (7922, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7922, 006 /* PALETTE_BASE_DID */, 67111928)
-     , (7922, 007 /* CLOTHINGBASE_DID */, 268436023)
-     , (7922, 008 /* ICON_DID */, 100670893)
-     , (7922, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7922', 'rabbitground', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7922, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (7922, 005 /* ENCUMB_VAL_INT */, 75)
-     , (7922, 008 /* MASS_INT */, 50)
-     , (7922, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7922, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (7922, 012 /* STACK_SIZE_INT */, 1)
-     , (7922, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
-     , (7922, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (7922, 015 /* STACK_UNIT_VALUE_INT */, 25)
-     , (7922, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (7922, 019 /* VALUE_INT */, 25)
-     , (7922, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7922, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */);
+VALUES (7922,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (7922,   5,         75) /* EncumbranceVal */
+     , (7922,   8,         50) /* Mass */
+     , (7922,   9,          0) /* ValidLocations - None */
+     , (7922,  11,        100) /* MaxStackSize */
+     , (7922,  12,          1) /* StackSize */
+     , (7922,  13,         75) /* StackUnitEncumbrance */
+     , (7922,  14,         50) /* StackUnitMass */
+     , (7922,  15,         25) /* StackUnitValue */
+     , (7922,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (7922,  19,         25) /* Value */
+     , (7922,  93,       1044) /* PhysicsState */
+     , (7922,  94,    4194336) /* TargetType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7922, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7922,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7922,   1, 'Ground Rabbit') /* Name */
+     , (7922,  14, 'This item is used in cooking.') /* Use */
+     , (7922,  15, 'A lump of moist, ground rabbit meat.') /* ShortDesc */
+     , (7922,  20, 'Lumps of Ground Rabbit Meat') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7922,   1,   33556232) /* Setup */
+     , (7922,   3,  536870932) /* SoundTable */
+     , (7922,   6,   67111928) /* PaletteBase */
+     , (7922,   7,  268436023) /* ClothingBase */
+     , (7922,   8,  100670893) /* Icon */
+     , (7922,  22,  872415275) /* PhysicsEffectTable */;

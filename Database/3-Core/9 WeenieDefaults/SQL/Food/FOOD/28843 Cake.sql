@@ -1,36 +1,32 @@
-/* Weenie - Cake (28843) */
-DELETE FROM weenie WHERE class_Id = 28843;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28843, 'cakeeggpenguincave', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28843, 001 /* NAME_STRING */, 'Cake')
-     , (28843, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (28843, 020 /* PLURAL_NAME_STRING */, 'Slices of Cake');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28843, 001 /* SETUP_DID */, 33555193)
-     , (28843, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28843, 008 /* ICON_DID */, 100667457)
-     , (28843, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28843', 'cakeeggpenguincave', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28843, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (28843, 005 /* ENCUMB_VAL_INT */, 35)
-     , (28843, 008 /* MASS_INT */, 25)
-     , (28843, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28843, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (28843, 012 /* STACK_SIZE_INT */, 1)
-     , (28843, 013 /* STACK_UNIT_ENCUMB_INT */, 35)
-     , (28843, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (28843, 015 /* STACK_UNIT_VALUE_INT */, 28)
-     , (28843, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28843, 019 /* VALUE_INT */, 28)
-     , (28843, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (28843, 090 /* BOOST_VALUE_INT */, 8)
-     , (28843, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (28843,   1,         32) /* ItemType - Food */
+     , (28843,   5,         35) /* EncumbranceVal */
+     , (28843,   8,         25) /* Mass */
+     , (28843,   9,          0) /* ValidLocations - None */
+     , (28843,  11,        100) /* MaxStackSize */
+     , (28843,  12,          1) /* StackSize */
+     , (28843,  13,         35) /* StackUnitEncumbrance */
+     , (28843,  14,         25) /* StackUnitMass */
+     , (28843,  15,         28) /* StackUnitValue */
+     , (28843,  16,          8) /* ItemUseable - Contained */
+     , (28843,  19,         28) /* Value */
+     , (28843,  89,          4) /* BoosterEnum - Stamina */
+     , (28843,  90,          8) /* BoostValue */
+     , (28843,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28843, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (28843,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28843,   1, 'Cake') /* Name */
+     , (28843,  14, 'Use this item to eat it.') /* Use */
+     , (28843,  20, 'Slices of Cake') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28843,   1,   33555193) /* Setup */
+     , (28843,   3,  536870932) /* SoundTable */
+     , (28843,   8,  100667457) /* Icon */
+     , (28843,  22,  872415275) /* PhysicsEffectTable */;

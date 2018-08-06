@@ -1,47 +1,43 @@
-/* Weenie - Staff of Fettered Souls (30326) */
-DELETE FROM weenie WHERE class_Id = 30326;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30326, 'staffrarefetteredsouls', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30326, 001 /* NAME_STRING */, 'Staff of Fettered Souls')
-     , (30326, 016 /* LONG_DESC_STRING */, 'Describe me here.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30326, 001 /* SETUP_DID */, 33554749)
-     , (30326, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30326, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30326, 007 /* CLOTHINGBASE_DID */, 268435795)
-     , (30326, 008 /* ICON_DID */, 100669105)
-     , (30326, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30326', 'staffrarefetteredsouls', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30326, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30326, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (30326, 005 /* ENCUMB_VAL_INT */, 450)
-     , (30326, 008 /* MASS_INT */, 90)
-     , (30326, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30326, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30326, 019 /* VALUE_INT */, 130)
-     , (30326, 044 /* DAMAGE_INT */, 7)
-     , (30326, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (30326, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30326, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (30326, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (30326, 049 /* WEAPON_TIME_INT */, 30)
-     , (30326, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30326, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30326, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30326, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30326, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (30326, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (30326, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (30326, 039 /* DEFAULT_SCALE_FLOAT */, 0.67)
-     , (30326, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (30326,   1,          1) /* ItemType - MeleeWeapon */
+     , (30326,   3,          4) /* PaletteTemplate - Brown */
+     , (30326,   5,        450) /* EncumbranceVal */
+     , (30326,   8,         90) /* Mass */
+     , (30326,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30326,  16,          1) /* ItemUseable - No */
+     , (30326,  19,        130) /* Value */
+     , (30326,  44,          7) /* Damage */
+     , (30326,  45,          4) /* DamageType - Bludgeon */
+     , (30326,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (30326,  47,          6) /* AttackType */
+     , (30326,  48,         10) /* WeaponSkill - Staff */
+     , (30326,  49,         30) /* WeaponTime */
+     , (30326,  51,          1) /* CombatUse - Melee */
+     , (30326,  93,       1044) /* PhysicsState */
+     , (30326, 150,        103) /* HookPlacement - Hook */
+     , (30326, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30326, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30326,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30326,  21,    1.33) /* WeaponLength */
+     , (30326,  22,     0.5) /* DamageVariance */
+     , (30326,  29,       1) /* WeaponDefense */
+     , (30326,  39,    0.67) /* DefaultScale */
+     , (30326,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30326,   1, 'Staff of Fettered Souls') /* Name */
+     , (30326,  16, 'Describe me here.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30326,   1,   33554749) /* Setup */
+     , (30326,   3,  536870932) /* SoundTable */
+     , (30326,   6,   67111919) /* PaletteBase */
+     , (30326,   7,  268435795) /* ClothingBase */
+     , (30326,   8,  100669105) /* Icon */
+     , (30326,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,28 +1,24 @@
-/* Weenie - Anniversary Effect (8359) */
-DELETE FROM weenie WHERE class_Id = 8359;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8359, 'anniversaryeffect', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8359, 001 /* NAME_STRING */, 'Anniversary Effect');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8359, 001 /* SETUP_DID */, 33556796)
-     , (8359, 008 /* ICON_DID */, 100667494);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8359', 'anniversaryeffect', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8359, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (8359, 005 /* ENCUMB_VAL_INT */, 0)
-     , (8359, 008 /* MASS_INT */, 0)
-     , (8359, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8359, 019 /* VALUE_INT */, 0)
-     , (8359, 093 /* PHYSICS_STATE_INT */, 2068 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, LIGHTING_ON_PS */);
+VALUES (8359,   1,        128) /* ItemType - Misc */
+     , (8359,   5,          0) /* EncumbranceVal */
+     , (8359,   8,          0) /* Mass */
+     , (8359,  16,          1) /* ItemUseable - No */
+     , (8359,  19,          0) /* Value */
+     , (8359,  93,       2068) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8359, 001 /* STUCK_BOOL */, True)
-     , (8359, 013 /* ETHEREAL_BOOL */, True)
-     , (8359, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (8359, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (8359, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (8359,   1, True ) /* Stuck */
+     , (8359,  13, True ) /* Ethereal */
+     , (8359,  14, False) /* GravityStatus */
+     , (8359,  15, True ) /* LightsStatus */
+     , (8359,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8359,   1, 'Anniversary Effect') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8359,   1,   33556796) /* Setup */
+     , (8359,   8,  100667494) /* Icon */;

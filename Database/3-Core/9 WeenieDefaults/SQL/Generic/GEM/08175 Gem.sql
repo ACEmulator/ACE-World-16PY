@@ -1,25 +1,21 @@
-/* Weenie - Gem (8175) */
-DELETE FROM weenie WHERE class_Id = 8175;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8175, 'vestryctfb', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8175, 001 /* NAME_STRING */, 'Gem');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8175, 001 /* SETUP_DID */, 33554809)
-     , (8175, 008 /* ICON_DID */, 100667482);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8175', 'vestryctfb', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8175, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8175, 005 /* ENCUMB_VAL_INT */, 50)
-     , (8175, 008 /* MASS_INT */, 25)
-     , (8175, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8175, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8175, 019 /* VALUE_INT */, 75)
-     , (8175, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (8175,   1,       2048) /* ItemType - Gem */
+     , (8175,   5,         50) /* EncumbranceVal */
+     , (8175,   8,         25) /* Mass */
+     , (8175,   9,          0) /* ValidLocations - None */
+     , (8175,  16,          1) /* ItemUseable - No */
+     , (8175,  19,         75) /* Value */
+     , (8175,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8175, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (8175,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8175,   1, 'Gem') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8175,   1,   33554809) /* Setup */
+     , (8175,   8,  100667482) /* Icon */;

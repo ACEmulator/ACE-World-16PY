@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Person Unfamiliarity V (3461) */
-DELETE FROM weenie WHERE class_Id = 3461;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3461, 'scrollpersonunfamiliarity5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3461, 001 /* NAME_STRING */, 'Scroll of Person Unfamiliarity V')
-     , (3461, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3461, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Assess Person skill by 50%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3461, 001 /* SETUP_DID */, 33554826)
-     , (3461, 008 /* ICON_DID */, 100676448)
-     , (3461, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3461, 028 /* SPELL_DID */, 847 /* PersonUnfamiliarityOther5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3461', 'scrollpersonunfamiliarity5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3461, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3461, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3461, 008 /* MASS_INT */, 90)
-     , (3461, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3461, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3461, 019 /* VALUE_INT */, 200)
-     , (3461, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3461, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3461,   1,       8192) /* ItemType - Writable */
+     , (3461,   5,         30) /* EncumbranceVal */
+     , (3461,   8,         90) /* Mass */
+     , (3461,   9,          0) /* ValidLocations - None */
+     , (3461,  16,          8) /* ItemUseable - Contained */
+     , (3461,  19,        200) /* Value */
+     , (3461,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3461, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3461, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3461,  22, True ) /* Inscribable */
+     , (3461,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3461,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3461,   1, 'Scroll of Person Unfamiliarity V') /* Name */
+     , (3461,  15, 'A magic scroll.') /* ShortDesc */
+     , (3461,  16, 'When learned, this spell decreases the target''s Assess Person skill by 50%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3461,   1,   33554826) /* Setup */
+     , (3461,   8,  100676448) /* Icon */
+     , (3461,  22,  872415275) /* PhysicsEffectTable */
+     , (3461,  28,        847) /* Spell - Person Unfamiliarity Other V */;

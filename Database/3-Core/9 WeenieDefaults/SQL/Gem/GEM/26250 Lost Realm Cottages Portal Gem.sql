@@ -1,48 +1,44 @@
-/* Weenie - Lost Realm Cottages Portal Gem (26250) */
-DELETE FROM weenie WHERE class_Id = 26250;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26250, 'gemportallostrealmcottages', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26250, 001 /* NAME_STRING */, 'Lost Realm Cottages Portal Gem')
-     , (26250, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26250, 001 /* SETUP_DID */, 33556769)
-     , (26250, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26250, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26250, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26250, 008 /* ICON_DID */, 100675760)
-     , (26250, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26250, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26250, 031 /* LINKED_PORTAL_ONE_DID */, 14649 /* Lost Realm Cottages Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26250', 'gemportallostrealmcottages', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26250, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26250, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26250, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26250, 008 /* MASS_INT */, 10)
-     , (26250, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26250, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26250, 012 /* STACK_SIZE_INT */, 1)
-     , (26250, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26250, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26250, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26250, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26250, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26250, 019 /* VALUE_INT */, 500)
-     , (26250, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26250, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26250, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26250, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26250, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26250, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26250, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26250, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26250, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26250,   1,       2048) /* ItemType - Gem */
+     , (26250,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26250,   5,         10) /* EncumbranceVal */
+     , (26250,   8,         10) /* Mass */
+     , (26250,   9,          0) /* ValidLocations - None */
+     , (26250,  11,         20) /* MaxStackSize */
+     , (26250,  12,          1) /* StackSize */
+     , (26250,  13,         10) /* StackUnitEncumbrance */
+     , (26250,  14,         10) /* StackUnitMass */
+     , (26250,  15,        500) /* StackUnitValue */
+     , (26250,  16,          8) /* ItemUseable - Contained */
+     , (26250,  18,          1) /* UiEffects - Magical */
+     , (26250,  19,        500) /* Value */
+     , (26250,  93,       3092) /* PhysicsState */
+     , (26250,  94,         16) /* TargetType - Creature */
+     , (26250, 106,        210) /* ItemSpellcraft */
+     , (26250, 107,         50) /* ItemCurMana */
+     , (26250, 108,         50) /* ItemMaxMana */
+     , (26250, 109,          0) /* ItemDifficulty */
+     , (26250, 110,          0) /* ItemAllegianceRankLimit */
+     , (26250, 150,        103) /* HookPlacement - Hook */
+     , (26250, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26250, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26250, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26250,  15, True ) /* LightsStatus */
+     , (26250,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26250,   1, 'Lost Realm Cottages Portal Gem') /* Name */
+     , (26250,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26250,   1,   33556769) /* Setup */
+     , (26250,   3,  536870932) /* SoundTable */
+     , (26250,   6,   67111919) /* PaletteBase */
+     , (26250,   7,  268435723) /* ClothingBase */
+     , (26250,   8,  100675760) /* Icon */
+     , (26250,  22,  872415275) /* PhysicsEffectTable */
+     , (26250,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26250,  31,      14649) /* LinkedPortalOne - Lost Realm Cottages Portal */;

@@ -1,31 +1,27 @@
-/* Weenie - North Yaraq Outpost Supplies (4675) */
-DELETE FROM weenie WHERE class_Id = 4675;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4675, 'yaraqnorthoutpostshopkeepsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4675, 001 /* NAME_STRING */, 'North Yaraq Outpost Supplies')
-     , (4675, 016 /* LONG_DESC_STRING */, 'North Yaraq Outpost Supplies');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4675, 001 /* SETUP_DID */, 33555909)
-     , (4675, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (4675, 007 /* CLOTHINGBASE_DID */, 268435820)
-     , (4675, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4675', 'yaraqnorthoutpostshopkeepsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4675, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4675, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4675, 008 /* MASS_INT */, 1800)
-     , (4675, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4675, 019 /* VALUE_INT */, 125)
-     , (4675, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (4675,   1,        128) /* ItemType - Misc */
+     , (4675,   5,       9000) /* EncumbranceVal */
+     , (4675,   8,       1800) /* Mass */
+     , (4675,  16,          1) /* ItemUseable - No */
+     , (4675,  19,        125) /* Value */
+     , (4675,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4675, 001 /* STUCK_BOOL */, True)
-     , (4675, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4675, 013 /* ETHEREAL_BOOL */, False)
-     , (4675, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (4675, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4675,   1, True ) /* Stuck */
+     , (4675,  12, True ) /* ReportCollisions */
+     , (4675,  13, False) /* Ethereal */
+     , (4675,  14, False) /* GravityStatus */
+     , (4675,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4675,   1, 'North Yaraq Outpost Supplies') /* Name */
+     , (4675,  16, 'North Yaraq Outpost Supplies') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4675,   1,   33555909) /* Setup */
+     , (4675,   6,   67111860) /* PaletteBase */
+     , (4675,   7,  268435820) /* ClothingBase */
+     , (4675,   8,  100668115) /* Icon */;

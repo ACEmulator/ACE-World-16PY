@@ -1,42 +1,38 @@
-/* Weenie - Fragment of Polished Serpentine (28354) */
-DELETE FROM weenie WHERE class_Id = 28354;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28354, 'glyphkiviklirshardserpentine', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28354, 001 /* NAME_STRING */, 'Fragment of Polished Serpentine')
-     , (28354, 015 /* SHORT_DESC_STRING */, 'A chiseled crescent of polished serpentine. It does not look complete.')
-     , (28354, 033 /* QUEST_STRING */, 'GlyphKivikLirShardSerpentine');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28354, 001 /* SETUP_DID */, 33558874)
-     , (28354, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28354, 008 /* ICON_DID */, 100676990)
-     , (28354, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28354', 'glyphkiviklirshardserpentine', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28354, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28354, 005 /* ENCUMB_VAL_INT */, 20)
-     , (28354, 008 /* MASS_INT */, 200)
-     , (28354, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28354, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (28354, 012 /* STACK_SIZE_INT */, 1)
-     , (28354, 013 /* STACK_UNIT_ENCUMB_INT */, 20)
-     , (28354, 014 /* STACK_UNIT_MASS_INT */, 200)
-     , (28354, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (28354, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (28354, 019 /* VALUE_INT */, 0)
-     , (28354, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28354, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28354, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28354, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28354, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (28354,   1,        128) /* ItemType - Misc */
+     , (28354,   5,         20) /* EncumbranceVal */
+     , (28354,   8,        200) /* Mass */
+     , (28354,   9,          0) /* ValidLocations - None */
+     , (28354,  11,          1) /* MaxStackSize */
+     , (28354,  12,          1) /* StackSize */
+     , (28354,  13,         20) /* StackUnitEncumbrance */
+     , (28354,  14,        200) /* StackUnitMass */
+     , (28354,  15,          0) /* StackUnitValue */
+     , (28354,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (28354,  19,          0) /* Value */
+     , (28354,  33,          1) /* Bonded - Bonded */
+     , (28354,  93,       1044) /* PhysicsState */
+     , (28354,  94,        128) /* TargetType - Misc */
+     , (28354, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28354, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28354, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (28354, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (28354,  22, True ) /* Inscribable */
+     , (28354,  23, True ) /* DestroyOnSell */
+     , (28354,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28354,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28354,   1, 'Fragment of Polished Serpentine') /* Name */
+     , (28354,  15, 'A chiseled crescent of polished serpentine. It does not look complete.') /* ShortDesc */
+     , (28354,  33, 'GlyphKivikLirShardSerpentine') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28354,   1,   33558874) /* Setup */
+     , (28354,   3,  536870932) /* SoundTable */
+     , (28354,   8,  100676990) /* Icon */
+     , (28354,  22,  872415275) /* PhysicsEffectTable */;

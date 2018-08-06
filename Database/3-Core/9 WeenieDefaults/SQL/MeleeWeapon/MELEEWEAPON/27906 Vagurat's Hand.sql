@@ -1,59 +1,55 @@
-/* Weenie - Vagurat's Hand (27906) */
-DELETE FROM weenie WHERE class_Id = 27906;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27906, 'macevagurat', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27906, 001 /* NAME_STRING */, 'Vagurat''s Hand')
-     , (27906, 016 /* LONG_DESC_STRING */, 'A mace crafted to look like the Mosswart relic, The Hand of Vagurat. A small stamp on the hilt reads: A Ketnan Product.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27906, 001 /* SETUP_DID */, 33558801)
-     , (27906, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27906, 008 /* ICON_DID */, 100676621)
-     , (27906, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27906, 037 /* ITEM_SKILL_LIMIT_DID */, 5);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27906', 'macevagurat', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27906, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (27906, 005 /* ENCUMB_VAL_INT */, 350)
-     , (27906, 008 /* MASS_INT */, 360)
-     , (27906, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (27906, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27906, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27906, 019 /* VALUE_INT */, 750)
-     , (27906, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (27906, 044 /* DAMAGE_INT */, 16)
-     , (27906, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (27906, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (27906, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (27906, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (27906, 049 /* WEAPON_TIME_INT */, 45)
-     , (27906, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (27906, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27906, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (27906, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (27906, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (27906, 109 /* ITEM_DIFFICULTY_INT */, 30)
-     , (27906, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 100)
-     , (27906, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27906, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27906, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (27906, 021 /* WEAPON_LENGTH_FLOAT */, 0.62)
-     , (27906, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (27906, 029 /* WEAPON_DEFENSE_FLOAT */, 1.03)
-     , (27906, 062 /* WEAPON_OFFENSE_FLOAT */, 1.03);
+VALUES (27906,   1,          1) /* ItemType - MeleeWeapon */
+     , (27906,   5,        350) /* EncumbranceVal */
+     , (27906,   8,        360) /* Mass */
+     , (27906,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (27906,  16,          1) /* ItemUseable - No */
+     , (27906,  18,          1) /* UiEffects - Magical */
+     , (27906,  19,        750) /* Value */
+     , (27906,  33,          1) /* Bonded - Bonded */
+     , (27906,  44,         16) /* Damage */
+     , (27906,  45,          4) /* DamageType - Bludgeon */
+     , (27906,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (27906,  47,          4) /* AttackType - Slash */
+     , (27906,  48,          5) /* WeaponSkill - Mace */
+     , (27906,  49,         45) /* WeaponTime */
+     , (27906,  51,          1) /* CombatUse - Melee */
+     , (27906,  93,       1044) /* PhysicsState */
+     , (27906, 106,        100) /* ItemSpellcraft */
+     , (27906, 107,        400) /* ItemCurMana */
+     , (27906, 108,        400) /* ItemMaxMana */
+     , (27906, 109,         30) /* ItemDifficulty */
+     , (27906, 115,        100) /* ItemSkillLevelLimit */
+     , (27906, 150,        103) /* HookPlacement - Hook */
+     , (27906, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27906, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27906, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (27906, 099 /* IVORYABLE_BOOL */, True);
+VALUES (27906,  22, True ) /* Inscribable */
+     , (27906,  23, True ) /* DestroyOnSell */
+     , (27906,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27906,   5, -0.0333) /* ManaRate */
+     , (27906,  21,    0.62) /* WeaponLength */
+     , (27906,  22,     0.5) /* DamageVariance */
+     , (27906,  29,    1.03) /* WeaponDefense */
+     , (27906,  62,    1.03) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27906,   1, 'Vagurat''s Hand') /* Name */
+     , (27906,  16, 'A mace crafted to look like the Mosswart relic, The Hand of Vagurat. A small stamp on the hilt reads: A Ketnan Product.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27906,   1,   33558801) /* Setup */
+     , (27906,   3,  536870932) /* SoundTable */
+     , (27906,   8,  100676621) /* Icon */
+     , (27906,  22,  872415275) /* PhysicsEffectTable */
+     , (27906,  37,          5) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27906, 1588, 2) /* HeartSeeker2_SpellID */
-     , (27906, 1612, 2) /* BloodDrinker2_SpellID */
-     , (27906, 341, 2) /* MaceMasteryOther2_SpellID */;
-
+VALUES (27906,   341,      2)  /* Light Weapon Mastery Other II */
+     , (27906,  1588,      2)  /* Aura of Heart Seeker Self II */
+     , (27906,  1612,      2)  /* Aura of Blood Drinker Self II */;

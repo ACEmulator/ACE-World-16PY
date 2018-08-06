@@ -1,8 +1,8 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3955, 2044362752, 2645032960, 68.8175, 183.299, 152.005, 0.859183, 0, 0, -0.511669) /* linkmonstergen15minutes */
-     , (6, 2044362753, 2645032960, 77.7375, 181.624, 152.01, -0.202148, 0, 0, -0.979355) /* Banderling Scout */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2044362752,  3955, 2645032960, 68.8175, 183.299, 152.005, 0.859183, 0, 0, -0.511669, False); /* Linkable Monster Gen (15 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2044362752'; /* linkmonstergen15minutes */
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2044362752, 2044362753) /* Banderling Scout */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2044362753'; /* linkmonstergen15minutes <- Banderling Scout */
-
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2044362753,     6, 2645032960, 77.7375, 181.624, 152.01, -0.202148, 0, 0, -0.979355,  True); /* Banderling Scout */

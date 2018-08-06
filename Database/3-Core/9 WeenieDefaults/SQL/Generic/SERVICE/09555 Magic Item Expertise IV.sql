@@ -1,28 +1,24 @@
-/* Weenie - Magic Item Expertise IV (9555) */
-DELETE FROM weenie WHERE class_Id = 9555;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9555, 'servicemagicitemexpertise4', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9555, 001 /* NAME_STRING */, 'Magic Item Expertise IV');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9555, 001 /* SETUP_DID */, 33554667)
-     , (9555, 008 /* ICON_DID */, 100668354)
-     , (9555, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9555, 028 /* SPELL_DID */, 759 /* MagicItemExpertiseOther4_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9555', 'servicemagicitemexpertise4', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9555, 001 /* ITEM_TYPE_INT */, 1048576 /* TYPE_SERVICE */)
-     , (9555, 005 /* ENCUMB_VAL_INT */, 0)
-     , (9555, 008 /* MASS_INT */, 0)
-     , (9555, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9555, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9555, 019 /* VALUE_INT */, 2000)
-     , (9555, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (9555,   1,    1048576) /* ItemType - Service */
+     , (9555,   5,          0) /* EncumbranceVal */
+     , (9555,   8,          0) /* Mass */
+     , (9555,   9,          0) /* ValidLocations - None */
+     , (9555,  16,          1) /* ItemUseable - No */
+     , (9555,  19,       2000) /* Value */
+     , (9555,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9555, 022 /* INSCRIBABLE_BOOL */, False)
-     , (9555, 051 /* VENDOR_SERVICE_BOOL */, True);
+VALUES (9555,  22, False) /* Inscribable */
+     , (9555,  51, True ) /* VendorService */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9555,   1, 'Magic Item Expertise IV') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9555,   1,   33554667) /* Setup */
+     , (9555,   8,  100668354) /* Icon */
+     , (9555,  22,  872415275) /* PhysicsEffectTable */
+     , (9555,  28,        759) /* Spell - Magic Item Tinkering Expertise Other IV */;

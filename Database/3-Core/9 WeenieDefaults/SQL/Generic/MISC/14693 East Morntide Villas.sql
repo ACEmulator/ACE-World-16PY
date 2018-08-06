@@ -1,28 +1,24 @@
-/* Weenie - East Morntide Villas (14693) */
-DELETE FROM weenie WHERE class_Id = 14693;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14693, 'eastmorntidevillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14693, 001 /* NAME_STRING */, 'East Morntide Villas')
-     , (14693, 016 /* LONG_DESC_STRING */, 'Welcome to East Morntide Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14693, 001 /* SETUP_DID */, 33557463)
-     , (14693, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14693', 'eastmorntidevillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14693, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14693, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14693, 008 /* MASS_INT */, 1800)
-     , (14693, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14693, 019 /* VALUE_INT */, 125)
-     , (14693, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14693,   1,        128) /* ItemType - Misc */
+     , (14693,   5,       9000) /* EncumbranceVal */
+     , (14693,   8,       1800) /* Mass */
+     , (14693,  16,          1) /* ItemUseable - No */
+     , (14693,  19,        125) /* Value */
+     , (14693,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14693, 001 /* STUCK_BOOL */, True)
-     , (14693, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14693, 013 /* ETHEREAL_BOOL */, False)
-     , (14693, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14693,   1, True ) /* Stuck */
+     , (14693,  12, True ) /* ReportCollisions */
+     , (14693,  13, False) /* Ethereal */
+     , (14693,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14693,   1, 'East Morntide Villas') /* Name */
+     , (14693,  16, 'Welcome to East Morntide Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14693,   1,   33557463) /* Setup */
+     , (14693,   8,  100668115) /* Icon */;

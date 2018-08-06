@@ -1,10 +1,14 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (794, 2045218816, 2658729984, 146.568, 59.138, 26.005, -0.901249, 0, 0, 0.433301) /* applegenerator */
-     , (1760, 2045218817, 2658729984, 146.059, 58.864, 26.005, -0.931183, 0, 0, 0.364552) /* Skeleton Warrior */
-     , (1154, 2045218818, 2658729984, 146.029, 60.5156, 26.005, -0.866249, 0, 0, 0.499613) /* linkmonstergen */
-     , (152, 2045218819, 2658729984, 148.891, 60.5195, 26.005, 1, 0, 0, 0) /* Font */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045218816,   794, 2658729984, 146.568, 59.138, 26.005, -0.901249, 0, 0, 0.433301, False); /* Apple Generator */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2045218818'; /* linkmonstergen */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045218817,  1760, 2658729984, 146.059, 58.864, 26.005, -0.931183, 0, 0, 0.364552,  True); /* Skeleton Warrior */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045218817'; /* linkmonstergen <- Skeleton Warrior */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045218818,  1154, 2658729984, 146.029, 60.5156, 26.005, -0.866249, 0, 0, 0.499613, False); /* Linkable Monster Generator */
 
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2045218818, 2045218817) /* Skeleton Warrior */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045218819,   152, 2658729984, 148.891, 60.5195, 26.005, 1, 0, 0, 0, False); /* Font */

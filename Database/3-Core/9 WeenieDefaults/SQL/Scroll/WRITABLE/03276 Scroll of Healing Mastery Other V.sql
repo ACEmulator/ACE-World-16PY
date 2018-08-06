@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Healing Mastery Other V (3276) */
-DELETE FROM weenie WHERE class_Id = 3276;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3276, 'scrollhealingmasteryother5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3276, 001 /* NAME_STRING */, 'Scroll of Healing Mastery Other V')
-     , (3276, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3276, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the target''s Healing skill by 100%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3276, 001 /* SETUP_DID */, 33554826)
-     , (3276, 008 /* ICON_DID */, 100676459)
-     , (3276, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3276, 028 /* SPELL_DID */, 884 /* HealingMasteryOther5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3276', 'scrollhealingmasteryother5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3276, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3276, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3276, 008 /* MASS_INT */, 90)
-     , (3276, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3276, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3276, 019 /* VALUE_INT */, 200)
-     , (3276, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3276, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3276,   1,       8192) /* ItemType - Writable */
+     , (3276,   5,         30) /* EncumbranceVal */
+     , (3276,   8,         90) /* Mass */
+     , (3276,   9,          0) /* ValidLocations - None */
+     , (3276,  16,          8) /* ItemUseable - Contained */
+     , (3276,  19,        200) /* Value */
+     , (3276,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3276, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3276, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3276,  22, True ) /* Inscribable */
+     , (3276,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3276,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3276,   1, 'Scroll of Healing Mastery Other V') /* Name */
+     , (3276,  15, 'A magic scroll.') /* ShortDesc */
+     , (3276,  16, 'When learned, this spell increases the target''s Healing skill by 100%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3276,   1,   33554826) /* Setup */
+     , (3276,   8,  100676459) /* Icon */
+     , (3276,  22,  872415275) /* PhysicsEffectTable */
+     , (3276,  28,        884) /* Spell - Healing Mastery Other V */;

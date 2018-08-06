@@ -1,40 +1,37 @@
-/* Weenie - Shadow Note Translation (7909) */
-DELETE FROM weenie WHERE class_Id = 7909;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7909, 'septshadownotebtranslated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7909, 001 /* NAME_STRING */, 'Shadow Note Translation')
-     , (7909, 014 /* USE_STRING */, 'Use this item to read it.')
-     , (7909, 015 /* SHORT_DESC_STRING */, 'The translation of a message carried by powerful Shadows.')
-     , (7909, 016 /* LONG_DESC_STRING */, 'The translation of a message carried by powerful Shadows.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7909, 001 /* SETUP_DID */, 33554773)
-     , (7909, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7909, 008 /* ICON_DID */, 100668176)
-     , (7909, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7909', 'septshadownotebtranslated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7909, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (7909, 005 /* ENCUMB_VAL_INT */, 25)
-     , (7909, 008 /* MASS_INT */, 5)
-     , (7909, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7909, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (7909, 019 /* VALUE_INT */, 20)
-     , (7909, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7909, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7909, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (7909,   1,        128) /* ItemType - Misc */
+     , (7909,   5,         25) /* EncumbranceVal */
+     , (7909,   8,          5) /* Mass */
+     , (7909,   9,          0) /* ValidLocations - None */
+     , (7909,  16,          8) /* ItemUseable - Contained */
+     , (7909,  19,         20) /* Value */
+     , (7909,  33,          1) /* Bonded - Bonded */
+     , (7909,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7909, 022 /* INSCRIBABLE_BOOL */, False)
-     , (7909, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (7909,  22, False) /* Inscribable */
+     , (7909,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7909,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7909,   1, 'Shadow Note Translation') /* Name */
+     , (7909,  14, 'Use this item to read it.') /* Use */
+     , (7909,  15, 'The translation of a message carried by powerful Shadows.') /* ShortDesc */
+     , (7909,  16, 'The translation of a message carried by powerful Shadows.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7909,   1,   33554773) /* Setup */
+     , (7909,   3,  536870932) /* SoundTable */
+     , (7909,   8,  100668176) /* Icon */
+     , (7909,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (7909, 5, 1000) /* Book Data */;
+VALUES (7909, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (7909, 0, 4294967295, 'Unknown', 'prewritten', False, 'I have heard thy words.
@@ -56,4 +53,3 @@ You have my assurance that I will use all my power to prevent damage to that whi
 
 A note, before I leave thee; I am become suspicious of the elder ones, those that existed before the Great War. They speak too little, and seem to much of a mind for my taste. I wonder indeed what their goals are. Speak not to them of our plans.
 ');
-

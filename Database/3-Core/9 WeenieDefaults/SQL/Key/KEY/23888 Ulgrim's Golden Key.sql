@@ -1,35 +1,31 @@
-/* Weenie - Ulgrim's Golden Key (23888) */
-DELETE FROM weenie WHERE class_Id = 23888;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23888, 'keyulgrimsdungeon', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23888, 001 /* NAME_STRING */, 'Ulgrim''s Golden Key')
-     , (23888, 013 /* KEY_CODE_STRING */, 'KeyUlgrimsDungeon')
-     , (23888, 014 /* USE_STRING */, 'This key unlocks Ulgrim''s Treasures.')
-     , (23888, 016 /* LONG_DESC_STRING */, 'A golden key found in Ulgrim''s Basement.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23888, 001 /* SETUP_DID */, 33557005)
-     , (23888, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23888, 008 /* ICON_DID */, 100674103)
-     , (23888, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23888', 'keyulgrimsdungeon', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23888, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (23888, 005 /* ENCUMB_VAL_INT */, 50)
-     , (23888, 008 /* MASS_INT */, 20)
-     , (23888, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (23888, 019 /* VALUE_INT */, 0)
-     , (23888, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (23888, 092 /* STRUCTURE_INT */, 1)
-     , (23888, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23888, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */)
-     , (23888, 150 /* HOOK_PLACEMENT_INT */, 104 /* XXXUnknown68 */)
-     , (23888, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (23888,   1,      16384) /* ItemType - Key */
+     , (23888,   5,         50) /* EncumbranceVal */
+     , (23888,   8,         20) /* Mass */
+     , (23888,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (23888,  19,          0) /* Value */
+     , (23888,  91,          1) /* MaxStructure */
+     , (23888,  92,          1) /* Structure */
+     , (23888,  93,       1044) /* PhysicsState */
+     , (23888,  94,        640) /* TargetType - LockableMagicTarget */
+     , (23888, 150,        104) /* HookPlacement - XXXUnknown68 */
+     , (23888, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23888, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23888, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (23888,  22, True ) /* Inscribable */
+     , (23888,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23888,   1, 'Ulgrim''s Golden Key') /* Name */
+     , (23888,  13, 'KeyUlgrimsDungeon') /* KeyCode */
+     , (23888,  14, 'This key unlocks Ulgrim''s Treasures.') /* Use */
+     , (23888,  16, 'A golden key found in Ulgrim''s Basement.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23888,   1,   33557005) /* Setup */
+     , (23888,   3,  536870932) /* SoundTable */
+     , (23888,   8,  100674103) /* Icon */
+     , (23888,  22,  872415275) /* PhysicsEffectTable */;

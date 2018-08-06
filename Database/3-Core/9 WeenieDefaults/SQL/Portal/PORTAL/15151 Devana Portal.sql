@@ -1,34 +1,30 @@
-/* Weenie - Devana Portal (15151) */
-DELETE FROM weenie WHERE class_Id = 15151;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15151, 'portaldevana', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15151, 001 /* NAME_STRING */, 'Devana Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15151, 001 /* SETUP_DID */, 33554867)
-     , (15151, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (15151, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15151', 'portaldevana', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15151, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (15151, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (15151, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (15151, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (15151, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15151, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (15151,   1,      65536) /* ItemType - Portal */
+     , (15151,  16,         32) /* ItemUseable - Remote */
+     , (15151,  93,       3084) /* PhysicsState */
+     , (15151, 111,          1) /* PortalBitmask - Unrestricted */
+     , (15151, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15151, 001 /* STUCK_BOOL */, True)
-     , (15151, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (15151, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (15151, 013 /* ETHEREAL_BOOL */, True)
-     , (15151, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (15151,   1, True ) /* Stuck */
+     , (15151,  11, False) /* IgnoreCollisions */
+     , (15151,  12, True ) /* ReportCollisions */
+     , (15151,  13, True ) /* Ethereal */
+     , (15151,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15151,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15151,   1, 'Devana Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15151,   1,   33554867) /* Setup */
+     , (15151,   2,  150994947) /* MotionTable */
+     , (15151,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15151, 2, 2843541531, 76.1, 70.665, 18.005, 0.9596557, 0, 0, -0.2811777) /* DESTINATION_POSITION */;
-
+VALUES (15151, 2, 2843541531, 76.1, 70.665, 18.005, 0.9596557, 0, 0, -0.2811777) /* Destination */;

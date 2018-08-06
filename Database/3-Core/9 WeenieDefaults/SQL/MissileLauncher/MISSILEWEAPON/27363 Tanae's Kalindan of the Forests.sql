@@ -1,69 +1,65 @@
-/* Weenie - Tanae's Kalindan of the Forests (27363) */
-DELETE FROM weenie WHERE class_Id = 27363;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27363, 'xbowkalindanforests', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27363, 001 /* NAME_STRING */, 'Tanae''s Kalindan of the Forests')
-     , (27363, 016 /* LONG_DESC_STRING */, 'A kalindan fused to a triple totem. It almost seems as if the totem''s creatures are moving.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27363, 001 /* SETUP_DID */, 33558668)
-     , (27363, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27363, 006 /* PALETTE_BASE_DID */, 67113336)
-     , (27363, 007 /* CLOTHINGBASE_DID */, 268436251)
-     , (27363, 008 /* ICON_DID */, 100676344)
-     , (27363, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27363', 'xbowkalindanforests', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27363, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (27363, 005 /* ENCUMB_VAL_INT */, 900)
-     , (27363, 008 /* MASS_INT */, 640)
-     , (27363, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (27363, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27363, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27363, 019 /* VALUE_INT */, 20000)
-     , (27363, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (27363, 044 /* DAMAGE_INT */, 6)
-     , (27363, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (27363, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (27363, 049 /* WEAPON_TIME_INT */, 60)
-     , (27363, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (27363, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (27363, 052 /* PARENT_LOCATION_INT */, 2)
-     , (27363, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (27363, 060 /* WEAPON_RANGE_INT */, 160)
-     , (27363, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27363, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (27363, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (27363, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (27363, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (27363, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (27363, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27363, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27363, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (27363, 159 /* WIELD_SKILLTYPE_INT */, 3 /* CROSSBOW_SKILL */)
-     , (27363, 160 /* WIELD_DIFFICULTY_INT */, 250);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27363, 005 /* MANA_RATE_FLOAT */, -0.033333)
-     , (27363, 026 /* MAXIMUM_VELOCITY_FLOAT */, 24.9)
-     , (27363, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
-     , (27363, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (27363, 062 /* WEAPON_OFFENSE_FLOAT */, 1.08)
-     , (27363, 063 /* DAMAGE_MOD_FLOAT */, 2.45)
-     , (27363, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 3)
-     , (27363, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.2);
+VALUES (27363,   1,        256) /* ItemType - MissileWeapon */
+     , (27363,   5,        900) /* EncumbranceVal */
+     , (27363,   8,        640) /* Mass */
+     , (27363,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (27363,  16,          1) /* ItemUseable - No */
+     , (27363,  18,          1) /* UiEffects - Magical */
+     , (27363,  19,      20000) /* Value */
+     , (27363,  33,          1) /* Bonded - Bonded */
+     , (27363,  44,          6) /* Damage */
+     , (27363,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (27363,  48,          3) /* WeaponSkill - Crossbow */
+     , (27363,  49,         60) /* WeaponTime */
+     , (27363,  50,          2) /* AmmoType - Bolt */
+     , (27363,  51,          2) /* CombatUse - Missle */
+     , (27363,  52,          2) /* ParentLocation */
+     , (27363,  53,          3) /* PlacementPosition */
+     , (27363,  60,        160) /* WeaponRange */
+     , (27363,  93,       1044) /* PhysicsState */
+     , (27363, 106,        250) /* ItemSpellcraft */
+     , (27363, 107,       1000) /* ItemCurMana */
+     , (27363, 108,       1000) /* ItemMaxMana */
+     , (27363, 109,          0) /* ItemDifficulty */
+     , (27363, 114,          1) /* Attuned - Attuned */
+     , (27363, 150,        103) /* HookPlacement - Hook */
+     , (27363, 151,          2) /* HookType - Wall */
+     , (27363, 158,          2) /* WieldRequirements - RawSkill */
+     , (27363, 159,          3) /* WieldSkilltype - Crossbow */
+     , (27363, 160,        250) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27363, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27363, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (27363, 069 /* IS_SELLABLE_BOOL */, False)
-     , (27363, 099 /* IVORYABLE_BOOL */, True);
+VALUES (27363,  22, True ) /* Inscribable */
+     , (27363,  23, True ) /* DestroyOnSell */
+     , (27363,  69, False) /* IsSellable */
+     , (27363,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27363,   5, -0.033333) /* ManaRate */
+     , (27363,  26,    24.9) /* MaximumVelocity */
+     , (27363,  29,    1.08) /* WeaponDefense */
+     , (27363,  39,       1) /* DefaultScale */
+     , (27363,  62,    1.08) /* WeaponOffense */
+     , (27363,  63,    2.45) /* DamageMod */
+     , (27363, 136,       3) /* CriticalMultiplier */
+     , (27363, 147,     0.2) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27363,   1, 'Tanae''s Kalindan of the Forests') /* Name */
+     , (27363,  16, 'A kalindan fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27363,   1,   33558668) /* Setup */
+     , (27363,   3,  536870932) /* SoundTable */
+     , (27363,   6,   67113336) /* PaletteBase */
+     , (27363,   7,  268436251) /* ClothingBase */
+     , (27363,   8,  100676344) /* Icon */
+     , (27363,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27363, 2446, 2) /* GrowthGreater_SpellID */
-     , (27363, 2449, 2) /* HuntersAcumenGreater_SpellID */
-     , (27363, 2452, 2) /* ThornsGreater_SpellID */;
-
+VALUES (27363,  2446,      2)  /* Greater Growth */
+     , (27363,  2449,      2)  /* Greater Hunter's Acumen */
+     , (27363,  2452,      2)  /* Greater Thorns */;

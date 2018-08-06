@@ -1,49 +1,45 @@
-/* Weenie - Training Spear (12745) */
-DELETE FROM weenie WHERE class_Id = 12745;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12745, 'speartraining', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12745, 001 /* NAME_STRING */, 'Training Spear')
-     , (12745, 014 /* USE_STRING */, 'Use Oil of Rendering on this weapon to create an Academy Spear.')
-     , (12745, 015 /* SHORT_DESC_STRING */, 'A basic spear forged in the Strathelar Training Academy. This item can be used on an item hook.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12745, 001 /* SETUP_DID */, 33554756)
-     , (12745, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12745, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12745, 007 /* CLOTHINGBASE_DID */, 268435768)
-     , (12745, 008 /* ICON_DID */, 100669005)
-     , (12745, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12745, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12745', 'speartraining', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12745, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (12745, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (12745, 005 /* ENCUMB_VAL_INT */, 600)
-     , (12745, 008 /* MASS_INT */, 140)
-     , (12745, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (12745, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12745, 019 /* VALUE_INT */, 25)
-     , (12745, 044 /* DAMAGE_INT */, 6)
-     , (12745, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (12745, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (12745, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (12745, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (12745, 049 /* WEAPON_TIME_INT */, 35)
-     , (12745, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (12745, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12745, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12745, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12745, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (12745, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (12745, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (12745, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (12745,   1,          1) /* ItemType - MeleeWeapon */
+     , (12745,   3,          4) /* PaletteTemplate - Brown */
+     , (12745,   5,        600) /* EncumbranceVal */
+     , (12745,   8,        140) /* Mass */
+     , (12745,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12745,  16,          1) /* ItemUseable - No */
+     , (12745,  19,         25) /* Value */
+     , (12745,  44,          6) /* Damage */
+     , (12745,  45,          2) /* DamageType - Pierce */
+     , (12745,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (12745,  47,          2) /* AttackType - Thrust */
+     , (12745,  48,          9) /* WeaponSkill - Spear */
+     , (12745,  49,         35) /* WeaponTime */
+     , (12745,  51,          1) /* CombatUse - Melee */
+     , (12745,  93,       1044) /* PhysicsState */
+     , (12745, 150,        103) /* HookPlacement - Hook */
+     , (12745, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12745, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12745, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (12745,  22, True ) /* Inscribable */
+     , (12745,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12745,  21,     1.5) /* WeaponLength */
+     , (12745,  22,     0.5) /* DamageVariance */
+     , (12745,  29,       1) /* WeaponDefense */
+     , (12745,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12745,   1, 'Training Spear') /* Name */
+     , (12745,  14, 'Use Oil of Rendering on this weapon to create an Academy Spear.') /* Use */
+     , (12745,  15, 'A basic spear forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12745,   1,   33554756) /* Setup */
+     , (12745,   3,  536870932) /* SoundTable */
+     , (12745,   6,   67111919) /* PaletteBase */
+     , (12745,   7,  268435768) /* ClothingBase */
+     , (12745,   8,  100669005) /* Icon */
+     , (12745,  22,  872415275) /* PhysicsEffectTable */
+     , (12745,  36,  234881044) /* MutateFilter */;

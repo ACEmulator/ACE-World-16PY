@@ -1,31 +1,27 @@
-/* Weenie - Bubtil's Wares (1799) */
-DELETE FROM weenie WHERE class_Id = 1799;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1799, 'tufatradersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1799, 001 /* NAME_STRING */, 'Bubtil''s Wares')
-     , (1799, 016 /* LONG_DESC_STRING */, 'Bubtil''s Wares');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1799, 001 /* SETUP_DID */, 33555909)
-     , (1799, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (1799, 007 /* CLOTHINGBASE_DID */, 268435820)
-     , (1799, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1799', 'tufatradersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1799, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (1799, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (1799, 008 /* MASS_INT */, 1800)
-     , (1799, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1799, 019 /* VALUE_INT */, 125)
-     , (1799, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (1799,   1,        128) /* ItemType - Misc */
+     , (1799,   5,       9000) /* EncumbranceVal */
+     , (1799,   8,       1800) /* Mass */
+     , (1799,  16,          1) /* ItemUseable - No */
+     , (1799,  19,        125) /* Value */
+     , (1799,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1799, 001 /* STUCK_BOOL */, True)
-     , (1799, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1799, 013 /* ETHEREAL_BOOL */, False)
-     , (1799, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (1799, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (1799,   1, True ) /* Stuck */
+     , (1799,  12, True ) /* ReportCollisions */
+     , (1799,  13, False) /* Ethereal */
+     , (1799,  14, False) /* GravityStatus */
+     , (1799,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1799,   1, 'Bubtil''s Wares') /* Name */
+     , (1799,  16, 'Bubtil''s Wares') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1799,   1,   33555909) /* Setup */
+     , (1799,   6,   67111860) /* PaletteBase */
+     , (1799,   7,  268435820) /* ClothingBase */
+     , (1799,   8,  100668115) /* Icon */;

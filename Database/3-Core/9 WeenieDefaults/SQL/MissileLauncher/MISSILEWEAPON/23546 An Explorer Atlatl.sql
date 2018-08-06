@@ -1,57 +1,53 @@
-/* Weenie - An Explorer Atlatl (23546) */
-DELETE FROM weenie WHERE class_Id = 23546;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23546, 'atlatlrarenewbiequest', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23546, 001 /* NAME_STRING */, 'An Explorer Atlatl');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23546, 001 /* SETUP_DID */, 33557433)
-     , (23546, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23546, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23546, 007 /* CLOTHINGBASE_DID */, 268436304)
-     , (23546, 008 /* ICON_DID */, 100672372)
-     , (23546, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (23546, 050 /* ICON_OVERLAY_DID */, 100675462);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23546', 'atlatlrarenewbiequest', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23546, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (23546, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (23546, 005 /* ENCUMB_VAL_INT */, 200)
-     , (23546, 008 /* MASS_INT */, 15)
-     , (23546, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (23546, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23546, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (23546, 019 /* VALUE_INT */, 1)
-     , (23546, 044 /* DAMAGE_INT */, 0)
-     , (23546, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1024 /* Atlatl_CombatStyle */)
-     , (23546, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (23546, 049 /* WEAPON_TIME_INT */, 15)
-     , (23546, 050 /* AMMO_TYPE_INT */, 4 /* AMMO_ARROW_CRYSTAL */)
-     , (23546, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (23546, 060 /* WEAPON_RANGE_INT */, 192)
-     , (23546, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23546, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (23546, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (23546, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (23546, 109 /* ITEM_DIFFICULTY_INT */, 15)
-     , (23546, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23546, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23546, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (23546, 026 /* MAXIMUM_VELOCITY_FLOAT */, 24.9)
-     , (23546, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (23546, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (23546, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (23546, 063 /* DAMAGE_MOD_FLOAT */, 2.15);
+VALUES (23546,   1,        256) /* ItemType - MissileWeapon */
+     , (23546,   3,         20) /* PaletteTemplate - Silver */
+     , (23546,   5,        200) /* EncumbranceVal */
+     , (23546,   8,         15) /* Mass */
+     , (23546,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (23546,  16,          1) /* ItemUseable - No */
+     , (23546,  18,          1) /* UiEffects - Magical */
+     , (23546,  19,          1) /* Value */
+     , (23546,  44,          0) /* Damage */
+     , (23546,  46,       1024) /* DefaultCombatStyle - Atlatl */
+     , (23546,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (23546,  49,         15) /* WeaponTime */
+     , (23546,  50,          4) /* AmmoType - ArrowCrystal */
+     , (23546,  51,          2) /* CombatUse - Missle */
+     , (23546,  60,        192) /* WeaponRange */
+     , (23546,  93,       1044) /* PhysicsState */
+     , (23546, 106,        150) /* ItemSpellcraft */
+     , (23546, 107,        400) /* ItemCurMana */
+     , (23546, 108,        400) /* ItemMaxMana */
+     , (23546, 109,         15) /* ItemDifficulty */
+     , (23546, 150,        103) /* HookPlacement - Hook */
+     , (23546, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23546, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (23546,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23546,   5,  -0.025) /* ManaRate */
+     , (23546,  26,    24.9) /* MaximumVelocity */
+     , (23546,  29,       1) /* WeaponDefense */
+     , (23546,  39,     1.1) /* DefaultScale */
+     , (23546,  62,       1) /* WeaponOffense */
+     , (23546,  63,    2.15) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23546,   1, 'An Explorer Atlatl') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23546,   1,   33557433) /* Setup */
+     , (23546,   3,  536870932) /* SoundTable */
+     , (23546,   6,   67111919) /* PaletteBase */
+     , (23546,   7,  268436304) /* ClothingBase */
+     , (23546,   8,  100672372) /* Icon */
+     , (23546,  22,  872415275) /* PhysicsEffectTable */
+     , (23546,  50,  100675462) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23546, 1613, 2) /* BloodDrinker3_SpellID */
-     , (23546, 535, 2) /* ThrownWeaponMasteryOther3_SpellID */;
-
+VALUES (23546,   535,      2)  /* Missile Weapon Mastery Other III */
+     , (23546,  1613,      2)  /* Aura of Blood Drinker Self III */;

@@ -1,32 +1,28 @@
-/* Weenie - Bronze Coil from a Statue (19210) */
-DELETE FROM weenie WHERE class_Id = 19210;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19210, 'coilbenten', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19210, 001 /* NAME_STRING */, 'Bronze Coil from a Statue')
-     , (19210, 015 /* SHORT_DESC_STRING */, 'A bronze coil taken from the ruins of a living Bronze Statue of Ben Ten. The Arcanum Tinker or the Arcanum Researcher might find this item of great interest.')
-     , (19210, 033 /* QUEST_STRING */, 'CoilBenTen');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19210, 001 /* SETUP_DID */, 33557680)
-     , (19210, 008 /* ICON_DID */, 100672955);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19210', 'coilbenten', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19210, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19210, 005 /* ENCUMB_VAL_INT */, 40)
-     , (19210, 008 /* MASS_INT */, 90)
-     , (19210, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19210, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19210, 019 /* VALUE_INT */, 0)
-     , (19210, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19210, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19210, 039 /* DEFAULT_SCALE_FLOAT */, 3);
+VALUES (19210,   1,        128) /* ItemType - Misc */
+     , (19210,   5,         40) /* EncumbranceVal */
+     , (19210,   8,         90) /* Mass */
+     , (19210,   9,          0) /* ValidLocations - None */
+     , (19210,  16,          1) /* ItemUseable - No */
+     , (19210,  19,          0) /* Value */
+     , (19210,  93,       1044) /* PhysicsState */
+     , (19210, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19210, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19210, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (19210,  22, True ) /* Inscribable */
+     , (19210,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19210,  39,       3) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19210,   1, 'Bronze Coil from a Statue') /* Name */
+     , (19210,  15, 'A bronze coil taken from the ruins of a living Bronze Statue of Ben Ten. The Arcanum Tinker or the Arcanum Researcher might find this item of great interest.') /* ShortDesc */
+     , (19210,  33, 'CoilBenTen') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19210,   1,   33557680) /* Setup */
+     , (19210,   8,  100672955) /* Icon */;

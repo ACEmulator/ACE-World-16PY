@@ -1,36 +1,33 @@
-/* Weenie - The New Alchemy (24855) */
-DELETE FROM weenie WHERE class_Id = 24855;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24855, 'bookalchemyciandra', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24855, 001 /* NAME_STRING */, 'The New Alchemy');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24855, 001 /* SETUP_DID */, 33554771)
-     , (24855, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24855, 008 /* ICON_DID */, 100668117)
-     , (24855, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24855', 'bookalchemyciandra', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24855, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (24855, 005 /* ENCUMB_VAL_INT */, 500)
-     , (24855, 008 /* MASS_INT */, 200)
-     , (24855, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24855, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24855, 019 /* VALUE_INT */, 0)
-     , (24855, 037 /* RESIST_ITEM_APPRAISAL_INT */, 50)
-     , (24855, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24855, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (24855,   1,       8192) /* ItemType - Writable */
+     , (24855,   5,        500) /* EncumbranceVal */
+     , (24855,   8,        200) /* Mass */
+     , (24855,   9,          0) /* ValidLocations - None */
+     , (24855,  16,          8) /* ItemUseable - Contained */
+     , (24855,  19,          0) /* Value */
+     , (24855,  37,         50) /* ResistItemAppraisal */
+     , (24855,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24855, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (24855,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24855,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24855,   1, 'The New Alchemy') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24855,   1,   33554771) /* Setup */
+     , (24855,   3,  536870932) /* SoundTable */
+     , (24855,   8,  100668117) /* Icon */
+     , (24855,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (24855, 7, 1000) /* Book Data */;
+VALUES (24855, 7, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (24855, 0, 4294967295, '', 'prewritten', False, 'We at the Arcanum are pleased to unveil our latest find in the study of alchemy. Hiro, the Arcanum''s Artificer, and the alchemists here have made a fantastic discovery that will give alchemists an enhanced role in the future of Dereth. These are the initial findings as documented on our first successful tests.
@@ -71,4 +68,3 @@ Pour the mixture onto the powdered bloodstone. As the mixture is poured onto the
 ')
      , (24855, 6, 4294967295, 'Ciandra', 'prewritten', False, 'This success is only the first of many that we see in the future. We are still working on finding more combinations but with this as a guideline we hope to discover the remainder of the combinations to allow for several spells to be mimicked through alchemical application.
 ');
-

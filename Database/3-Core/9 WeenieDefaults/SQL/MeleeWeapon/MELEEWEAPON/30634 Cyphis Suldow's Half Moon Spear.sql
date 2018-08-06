@@ -1,62 +1,58 @@
-/* Weenie - Cyphis Suldow's Half Moon Spear (30634) */
-DELETE FROM weenie WHERE class_Id = 30634;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30634, 'spearhalfmoon', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30634, 001 /* NAME_STRING */, 'Cyphis Suldow''s Half Moon Spear');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30634, 001 /* SETUP_DID */, 33559207)
-     , (30634, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30634, 008 /* ICON_DID */, 100677384)
-     , (30634, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30634', 'spearhalfmoon', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30634, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30634, 005 /* ENCUMB_VAL_INT */, 600)
-     , (30634, 008 /* MASS_INT */, 140)
-     , (30634, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30634, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30634, 019 /* VALUE_INT */, 3000)
-     , (30634, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (30634, 044 /* DAMAGE_INT */, 30)
-     , (30634, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (30634, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30634, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (30634, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (30634, 049 /* WEAPON_TIME_INT */, 30)
-     , (30634, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30634, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30634, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (30634, 107 /* ITEM_CUR_MANA_INT */, 2000)
-     , (30634, 108 /* ITEM_MAX_MANA_INT */, 2000)
-     , (30634, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (30634, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30634, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (30634, 158 /* WIELD_REQUIREMENTS_INT */, 1 /* WIELD_REQUIRES_SKILL_WieldRequirement */)
-     , (30634, 159 /* WIELD_SKILLTYPE_INT */, 9 /* SPEAR_SKILL */)
-     , (30634, 160 /* WIELD_DIFFICULTY_INT */, 325);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30634, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (30634, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (30634, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (30634, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
-     , (30634, 039 /* DEFAULT_SCALE_FLOAT */, 1.5)
-     , (30634, 062 /* WEAPON_OFFENSE_FLOAT */, 1.06)
-     , (30634, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.4);
+VALUES (30634,   1,          1) /* ItemType - MeleeWeapon */
+     , (30634,   5,        600) /* EncumbranceVal */
+     , (30634,   8,        140) /* Mass */
+     , (30634,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30634,  16,          1) /* ItemUseable - No */
+     , (30634,  19,       3000) /* Value */
+     , (30634,  33,          1) /* Bonded - Bonded */
+     , (30634,  44,         30) /* Damage */
+     , (30634,  45,          8) /* DamageType - Cold */
+     , (30634,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (30634,  47,          2) /* AttackType - Thrust */
+     , (30634,  48,          9) /* WeaponSkill - Spear */
+     , (30634,  49,         30) /* WeaponTime */
+     , (30634,  51,          1) /* CombatUse - Melee */
+     , (30634,  93,       1044) /* PhysicsState */
+     , (30634, 106,        300) /* ItemSpellcraft */
+     , (30634, 107,       2000) /* ItemCurMana */
+     , (30634, 108,       2000) /* ItemMaxMana */
+     , (30634, 114,          1) /* Attuned - Attuned */
+     , (30634, 150,        103) /* HookPlacement - Hook */
+     , (30634, 151,          2) /* HookType - Wall */
+     , (30634, 158,          1) /* WieldRequirements - Skill */
+     , (30634, 159,          9) /* WieldSkilltype - Spear */
+     , (30634, 160,        325) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30634, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30634, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (30634, 069 /* IS_SELLABLE_BOOL */, True)
-     , (30634, 099 /* IVORYABLE_BOOL */, True);
+VALUES (30634,  22, True ) /* Inscribable */
+     , (30634,  23, True ) /* DestroyOnSell */
+     , (30634,  69, True ) /* IsSellable */
+     , (30634,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30634,   5, -0.0333) /* ManaRate */
+     , (30634,  21,     1.5) /* WeaponLength */
+     , (30634,  22,     0.6) /* DamageVariance */
+     , (30634,  29,    1.08) /* WeaponDefense */
+     , (30634,  39,     1.5) /* DefaultScale */
+     , (30634,  62,    1.06) /* WeaponOffense */
+     , (30634, 147,     0.4) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30634,   1, 'Cyphis Suldow''s Half Moon Spear') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30634,   1,   33559207) /* Setup */
+     , (30634,   3,  536870932) /* SoundTable */
+     , (30634,   8,  100677384) /* Icon */
+     , (30634,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30634, 2563, 2) /* CANTRIPSPEARAPTITUDE1_SpellID */
-     , (30634, 1616, 2) /* BloodDrinker6_SpellID */
-     , (30634, 1627, 2) /* SwiftKiller6_SpellID */
-     , (30634, 375, 2) /* SpearMasterySelf6_SpellID */;
-
+VALUES (30634,   375,      2)  /* Light Weapon Mastery Self VI */
+     , (30634,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (30634,  1627,      2)  /* Aura of Swift Killer Self VI */
+     , (30634,  2563,      2)  /* Minor Light Weapon Aptitude */;

@@ -1,27 +1,23 @@
-/* Weenie - Urn (169) */
-DELETE FROM weenie WHERE class_Id = 169;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (169, 'urn', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (169, 001 /* NAME_STRING */, 'Urn');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (169, 001 /* SETUP_DID */, 33555091)
-     , (169, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (169, 008 /* ICON_DID */, 100667440)
-     , (169, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('169', 'urn', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (169, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (169, 005 /* ENCUMB_VAL_INT */, 300)
-     , (169, 008 /* MASS_INT */, 200)
-     , (169, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (169, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (169, 019 /* VALUE_INT */, 65)
-     , (169, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (169,   1,        128) /* ItemType - Misc */
+     , (169,   5,        300) /* EncumbranceVal */
+     , (169,   8,        200) /* Mass */
+     , (169,   9,          0) /* ValidLocations - None */
+     , (169,  16,          1) /* ItemUseable - No */
+     , (169,  19,         65) /* Value */
+     , (169,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (169, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (169,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (169,   1, 'Urn') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (169,   1,   33555091) /* Setup */
+     , (169,   3,  536870932) /* SoundTable */
+     , (169,   8,  100667440) /* Icon */
+     , (169,  22,  872415275) /* PhysicsEffectTable */;

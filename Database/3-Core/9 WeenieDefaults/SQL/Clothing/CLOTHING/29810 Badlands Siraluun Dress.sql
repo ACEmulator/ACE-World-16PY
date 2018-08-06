@@ -1,63 +1,59 @@
-/* Weenie - Badlands Siraluun Dress (29810) */
-DELETE FROM weenie WHERE class_Id = 29810;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29810, 'dresssiraluunbadlands', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29810, 001 /* NAME_STRING */, 'Badlands Siraluun Dress')
-     , (29810, 016 /* LONG_DESC_STRING */, 'A formal gown woven from the plumes of a Badlands Siraluun.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29810, 001 /* SETUP_DID */, 33554854)
-     , (29810, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29810, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (29810, 007 /* CLOTHINGBASE_DID */, 268436236)
-     , (29810, 008 /* ICON_DID */, 100677280)
-     , (29810, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29810, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29810', 'dresssiraluunbadlands', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29810, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (29810, 003 /* PALETTE_TEMPLATE_INT */, 16 /* ROSE_PALETTE_TEMPLATE */)
-     , (29810, 004 /* CLOTHING_PRIORITY_INT */, 81664 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */)
-     , (29810, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (29810, 008 /* MASS_INT */, 150)
-     , (29810, 009 /* LOCATIONS_INT */, 32512 /* FOOT_WEAR_LOC, ARMOR_LOC */)
-     , (29810, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29810, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (29810, 019 /* VALUE_INT */, 8500)
-     , (29810, 027 /* ARMOR_TYPE_INT */, 1)
-     , (29810, 028 /* ARMOR_LEVEL_INT */, 200)
-     , (29810, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29810, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (29810, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (29810, 109 /* ITEM_DIFFICULTY_INT */, 190)
-     , (29810, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29810, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (29810, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (29810, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (29810, 160 /* WIELD_DIFFICULTY_INT */, 70);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29810, 005 /* MANA_RATE_FLOAT */, -0.03)
-     , (29810, 012 /* SHADE_FLOAT */, 1)
-     , (29810, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.4)
-     , (29810, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.4)
-     , (29810, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (29810, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (29810, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (29810, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (29810, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.6);
+VALUES (29810,   1,          4) /* ItemType - Clothing */
+     , (29810,   3,         16) /* PaletteTemplate - Rose */
+     , (29810,   4,      81664) /* ClothingPriority */
+     , (29810,   5,       1000) /* EncumbranceVal */
+     , (29810,   8,        150) /* Mass */
+     , (29810,   9,      32512) /* ValidLocations - Armor */
+     , (29810,  16,          1) /* ItemUseable - No */
+     , (29810,  18,          1) /* UiEffects - Magical */
+     , (29810,  19,       8500) /* Value */
+     , (29810,  27,          1) /* ArmorType */
+     , (29810,  28,        200) /* ArmorLevel */
+     , (29810,  93,       1044) /* PhysicsState */
+     , (29810, 107,        800) /* ItemCurMana */
+     , (29810, 108,        800) /* ItemMaxMana */
+     , (29810, 109,        190) /* ItemDifficulty */
+     , (29810, 150,        103) /* HookPlacement - Hook */
+     , (29810, 151,          2) /* HookType - Wall */
+     , (29810, 158,          7) /* WieldRequirements - Level */
+     , (29810, 159,          1) /* WieldSkilltype - Axe */
+     , (29810, 160,         70) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29810, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29810, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29810,  22, True ) /* Inscribable */
+     , (29810,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29810,   5,   -0.03) /* ManaRate */
+     , (29810,  12,       1) /* Shade */
+     , (29810,  13,     1.4) /* ArmorModVsSlash */
+     , (29810,  14,     1.4) /* ArmorModVsPierce */
+     , (29810,  15,       1) /* ArmorModVsBludgeon */
+     , (29810,  16,       1) /* ArmorModVsCold */
+     , (29810,  17,       1) /* ArmorModVsFire */
+     , (29810,  18,       1) /* ArmorModVsAcid */
+     , (29810,  19,     1.6) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29810,   1, 'Badlands Siraluun Dress') /* Name */
+     , (29810,  16, 'A formal gown woven from the plumes of a Badlands Siraluun.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29810,   1,   33554854) /* Setup */
+     , (29810,   3,  536870932) /* SoundTable */
+     , (29810,   6,   67108990) /* PaletteBase */
+     , (29810,   7,  268436236) /* ClothingBase */
+     , (29810,   8,  100677280) /* Icon */
+     , (29810,  22,  872415275) /* PhysicsEffectTable */
+     , (29810,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29810, 2262, 2) /* LeadershipMasteryOther7_SpellID */
-     , (29810, 2014, 2) /* WizardsUltimateIntellect_SpellID */
-     , (29810, 2554, 2) /* CANTRIPLEADERSHIP1_SpellID */
-     , (29810, 2546, 2) /* CANTRIPFEALTY1_SpellID */
-     , (29810, 957, 2) /* FealtyOther6_SpellID */;
-
+VALUES (29810,   957,      2)  /* Fealty Other VI */
+     , (29810,  2014,      2)  /* Wizard's Ultimate Intellect */
+     , (29810,  2262,      2)  /* Ar-Pei's Boon */
+     , (29810,  2546,      2)  /* Minor Fealty */
+     , (29810,  2554,      2)  /* Minor Leadership */;

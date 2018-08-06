@@ -1,35 +1,31 @@
-/* Weenie - Scroll (366) */
-DELETE FROM weenie WHERE class_Id = 366;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (366, 'scroll', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (366, 001 /* NAME_STRING */, 'Scroll');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (366, 001 /* SETUP_DID */, 33554776)
-     , (366, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (366, 008 /* ICON_DID */, 100668176)
-     , (366, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('366', 'scroll', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (366, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (366, 005 /* ENCUMB_VAL_INT */, 270)
-     , (366, 008 /* MASS_INT */, 90)
-     , (366, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (366, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (366, 019 /* VALUE_INT */, 1500)
-     , (366, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (366, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (366, 039 /* DEFAULT_SCALE_FLOAT */, 1.5)
-     , (366, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (366,   1,       8192) /* ItemType - Writable */
+     , (366,   5,        270) /* EncumbranceVal */
+     , (366,   8,         90) /* Mass */
+     , (366,   9,          0) /* ValidLocations - None */
+     , (366,  16,          8) /* ItemUseable - Contained */
+     , (366,  19,       1500) /* Value */
+     , (366,  33,          1) /* Bonded - Bonded */
+     , (366,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (366, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (366,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (366,  39,     1.5) /* DefaultScale */
+     , (366,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (366,   1, 'Scroll') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (366,   1,   33554776) /* Setup */
+     , (366,   3,  536870932) /* SoundTable */
+     , (366,   8,  100668176) /* Icon */
+     , (366,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (366, 1, 1000) /* Book Data */;
-
+VALUES (366, 1, 1000);

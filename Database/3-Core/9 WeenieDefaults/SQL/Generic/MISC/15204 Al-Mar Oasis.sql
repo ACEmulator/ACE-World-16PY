@@ -1,28 +1,24 @@
-/* Weenie - Al-Mar Oasis (15204) */
-DELETE FROM weenie WHERE class_Id = 15204;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15204, 'almaroasissign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15204, 001 /* NAME_STRING */, 'Al-Mar Oasis')
-     , (15204, 016 /* LONG_DESC_STRING */, 'Welcome to Al-Mar Oasis');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15204, 001 /* SETUP_DID */, 33557463)
-     , (15204, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15204', 'almaroasissign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15204, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15204, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (15204, 008 /* MASS_INT */, 1800)
-     , (15204, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15204, 019 /* VALUE_INT */, 125)
-     , (15204, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (15204,   1,        128) /* ItemType - Misc */
+     , (15204,   5,       9000) /* EncumbranceVal */
+     , (15204,   8,       1800) /* Mass */
+     , (15204,  16,          1) /* ItemUseable - No */
+     , (15204,  19,        125) /* Value */
+     , (15204,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15204, 001 /* STUCK_BOOL */, True)
-     , (15204, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (15204, 013 /* ETHEREAL_BOOL */, False)
-     , (15204, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (15204,   1, True ) /* Stuck */
+     , (15204,  12, True ) /* ReportCollisions */
+     , (15204,  13, False) /* Ethereal */
+     , (15204,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15204,   1, 'Al-Mar Oasis') /* Name */
+     , (15204,  16, 'Welcome to Al-Mar Oasis') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15204,   1,   33557463) /* Setup */
+     , (15204,   8,  100668115) /* Icon */;

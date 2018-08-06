@@ -1,35 +1,31 @@
-/* Weenie - Rice Dough (14787) */
-DELETE FROM weenie WHERE class_Id = 14787;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14787, 'doughrice', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14787, 001 /* NAME_STRING */, 'Rice Dough')
-     , (14787, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (14787, 020 /* PLURAL_NAME_STRING */, 'Batches of Rice Dough');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14787, 001 /* SETUP_DID */, 33555968)
-     , (14787, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14787, 008 /* ICON_DID */, 100672566)
-     , (14787, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14787', 'doughrice', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14787, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (14787, 005 /* ENCUMB_VAL_INT */, 50)
-     , (14787, 008 /* MASS_INT */, 25)
-     , (14787, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14787, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (14787, 012 /* STACK_SIZE_INT */, 1)
-     , (14787, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (14787, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (14787, 015 /* STACK_UNIT_VALUE_INT */, 2)
-     , (14787, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (14787, 019 /* VALUE_INT */, 2)
-     , (14787, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14787, 094 /* TARGET_TYPE_INT */, 4194464 /* TYPE_FOOD, TYPE_MISC, TYPE_CRAFT_COOKING_BASE */);
+VALUES (14787,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (14787,   5,         50) /* EncumbranceVal */
+     , (14787,   8,         25) /* Mass */
+     , (14787,   9,          0) /* ValidLocations - None */
+     , (14787,  11,        100) /* MaxStackSize */
+     , (14787,  12,          1) /* StackSize */
+     , (14787,  13,         50) /* StackUnitEncumbrance */
+     , (14787,  14,         25) /* StackUnitMass */
+     , (14787,  15,          2) /* StackUnitValue */
+     , (14787,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (14787,  19,          2) /* Value */
+     , (14787,  93,       1044) /* PhysicsState */
+     , (14787,  94,    4194464) /* TargetType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14787, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14787,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14787,   1, 'Rice Dough') /* Name */
+     , (14787,  14, 'This item is used in cooking.') /* Use */
+     , (14787,  20, 'Batches of Rice Dough') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14787,   1,   33555968) /* Setup */
+     , (14787,   3,  536870932) /* SoundTable */
+     , (14787,   8,  100672566) /* Icon */
+     , (14787,  22,  872415275) /* PhysicsEffectTable */;

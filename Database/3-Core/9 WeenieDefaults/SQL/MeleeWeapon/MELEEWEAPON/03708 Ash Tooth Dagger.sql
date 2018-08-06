@@ -1,46 +1,42 @@
-/* Weenie - Ash Tooth Dagger (3708) */
-DELETE FROM weenie WHERE class_Id = 3708;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3708, 'daggerashtooth', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3708, 001 /* NAME_STRING */, 'Ash Tooth Dagger')
-     , (3708, 016 /* LONG_DESC_STRING */, 'A dagger made from the tooth of an Ash Gromnie. Lightning flickers from the blade.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3708, 001 /* SETUP_DID */, 33555707)
-     , (3708, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3708, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3708, 007 /* CLOTHINGBASE_DID */, 268435783)
-     , (3708, 008 /* ICON_DID */, 100667589)
-     , (3708, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3708', 'daggerashtooth', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3708, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3708, 005 /* ENCUMB_VAL_INT */, 105)
-     , (3708, 008 /* MASS_INT */, 70)
-     , (3708, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3708, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3708, 018 /* UI_EFFECTS_INT */, 64 /* UI_EFFECT_LIGHTNING */)
-     , (3708, 019 /* VALUE_INT */, 400)
-     , (3708, 044 /* DAMAGE_INT */, 12)
-     , (3708, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (3708, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3708, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (3708, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (3708, 049 /* WEAPON_TIME_INT */, 10)
-     , (3708, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3708, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3708, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3708, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3708, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (3708, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3708, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (3708, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05);
+VALUES (3708,   1,          1) /* ItemType - MeleeWeapon */
+     , (3708,   5,        105) /* EncumbranceVal */
+     , (3708,   8,         70) /* Mass */
+     , (3708,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3708,  16,          1) /* ItemUseable - No */
+     , (3708,  18,         64) /* UiEffects - Lightning */
+     , (3708,  19,        400) /* Value */
+     , (3708,  44,         12) /* Damage */
+     , (3708,  45,         64) /* DamageType - Electric */
+     , (3708,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3708,  47,          6) /* AttackType */
+     , (3708,  48,          4) /* WeaponSkill - Dagger */
+     , (3708,  49,         10) /* WeaponTime */
+     , (3708,  51,          1) /* CombatUse - Melee */
+     , (3708,  93,       1044) /* PhysicsState */
+     , (3708, 150,        103) /* HookPlacement - Hook */
+     , (3708, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3708, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3708,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3708,  21,     0.4) /* WeaponLength */
+     , (3708,  22,     0.5) /* DamageVariance */
+     , (3708,  29,    1.05) /* WeaponDefense */
+     , (3708,  62,    1.05) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3708,   1, 'Ash Tooth Dagger') /* Name */
+     , (3708,  16, 'A dagger made from the tooth of an Ash Gromnie. Lightning flickers from the blade.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3708,   1,   33555707) /* Setup */
+     , (3708,   3,  536870932) /* SoundTable */
+     , (3708,   6,   67111919) /* PaletteBase */
+     , (3708,   7,  268435783) /* ClothingBase */
+     , (3708,   8,  100667589) /* Icon */
+     , (3708,  22,  872415275) /* PhysicsEffectTable */;

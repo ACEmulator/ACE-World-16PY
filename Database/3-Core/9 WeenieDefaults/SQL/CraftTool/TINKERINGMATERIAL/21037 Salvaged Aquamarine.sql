@@ -1,45 +1,41 @@
-/* Weenie - Salvaged Aquamarine (21037) */
-DELETE FROM weenie WHERE class_Id = 21037;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21037, 'materialaquamarine', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21037, 001 /* NAME_STRING */, 'Salvaged Aquamarine')
-     , (21037, 014 /* USE_STRING */, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Cold Rending. Cold Rending gives the weapon the ability to make its opponent vulnerable to cold attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Cold Vulnerability spells. ')
-     , (21037, 015 /* SHORT_DESC_STRING */, 'Chips of aquamarine material salvaged from old items.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21037, 001 /* SETUP_DID */, 33554817)
-     , (21037, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21037, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (21037, 007 /* CLOTHINGBASE_DID */, 268436430)
-     , (21037, 008 /* ICON_DID */, 100667436)
-     , (21037, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21037, 050 /* ICON_OVERLAY_DID */, 100673262);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21037', 'materialaquamarine', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21037, 001 /* ITEM_TYPE_INT */, 1073741824 /* TYPE_TINKERING_MATERIAL */)
-     , (21037, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (21037, 005 /* ENCUMB_VAL_INT */, 100)
-     , (21037, 008 /* MASS_INT */, 100)
-     , (21037, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (21037, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (21037, 012 /* STACK_SIZE_INT */, 1)
-     , (21037, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (21037, 014 /* STACK_UNIT_MASS_INT */, 100)
-     , (21037, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (21037, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (21037, 019 /* VALUE_INT */, 10)
-     , (21037, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (21037, 091 /* MAX_STRUCTURE_INT */, 100)
-     , (21037, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (21037, 094 /* TARGET_TYPE_INT */, 33025 /* TYPE_WEAPON_OR_CASTER */)
-     , (21037, 131 /* MATERIAL_TYPE_INT */, 13 /* Aquamarine_MaterialType */)
-     , (21037, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (21037, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (21037,   1, 1073741824) /* ItemType - TinkeringMaterial */
+     , (21037,   3,         14) /* PaletteTemplate - Red */
+     , (21037,   5,        100) /* EncumbranceVal */
+     , (21037,   8,        100) /* Mass */
+     , (21037,   9,          0) /* ValidLocations - None */
+     , (21037,  11,          1) /* MaxStackSize */
+     , (21037,  12,          1) /* StackSize */
+     , (21037,  13,        100) /* StackUnitEncumbrance */
+     , (21037,  14,        100) /* StackUnitMass */
+     , (21037,  15,         10) /* StackUnitValue */
+     , (21037,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (21037,  19,         10) /* Value */
+     , (21037,  33,          1) /* Bonded - Bonded */
+     , (21037,  91,        100) /* MaxStructure */
+     , (21037,  93,       1044) /* PhysicsState */
+     , (21037,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (21037, 131,         13) /* MaterialType - Aquamarine */
+     , (21037, 150,        103) /* HookPlacement - Hook */
+     , (21037, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21037, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21037, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (21037,  22, True ) /* Inscribable */
+     , (21037,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21037,   1, 'Salvaged Aquamarine') /* Name */
+     , (21037,  14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Cold Rending. Cold Rending gives the weapon the ability to make its opponent vulnerable to cold attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Cold Vulnerability spells. ') /* Use */
+     , (21037,  15, 'Chips of aquamarine material salvaged from old items.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21037,   1,   33554817) /* Setup */
+     , (21037,   3,  536870932) /* SoundTable */
+     , (21037,   6,   67111919) /* PaletteBase */
+     , (21037,   7,  268436430) /* ClothingBase */
+     , (21037,   8,  100667436) /* Icon */
+     , (21037,  22,  872415275) /* PhysicsEffectTable */
+     , (21037,  50,  100673262) /* IconOverlay */;

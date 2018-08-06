@@ -1,113 +1,256 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5525, 1880387584, 21430530, 70.1316, 2.87299, -42, -4.37114E-08, 0, 0, -1) /* Surface */
-     , (7096, 1880387585, 21430533, 71.9771, -11.0064, -41.989, -0.0033814, 0, 0, -0.999994) /* Gold Golem */
-     , (7096, 1880387586, 21430533, 69.2384, -9.93025, -41.989, -0.389627, 0, 0, -0.920973) /* Gold Golem */
-     , (1917, 1880387587, 21430533, 72.2162, -6.13956, -42, 0.986123, 0, 0, -0.166016) /* Chest */
-     , (1923, 1880387588, 21430533, 74.2954, -6.27908, -42, 0.999332, 0, 0, -0.0365341) /* Chest */
-     , (25333, 1880387653, 21430533, 74.5325, -6.97108, -41.995, -0.966702, 0, 0, -0.255903) /* Alloy Generator */
-     , (24517, 1880387654, 21430533, 72.8478, -7.35931, -41.995, -0.383388, 0, 0, -0.923587) /* Small Sand Golem */
-     , (15759, 1880387655, 21430535, 75.4909, -7.31523, -41.995, -0.969162, 0, 0, -0.246426) /* linkitemgen10seconds */
-     , (7096, 1880387589, 21430547, 69.7466, -25.8058, -35.989, 1, 0, 0, 0) /* Gold Golem */
-     , (7096, 1880387590, 21430586, 43.079, -29.0881, -17.786, -0.0865032, 0, 0, -0.996252) /* Gold Golem */
-     , (7096, 1880387591, 21430587, 42.8836, -39.0872, -17.989, 0, 0, 0, -1) /* Gold Golem */
-     , (2131, 1880387592, 21430593, 61.9153, -42.8235, -18, -0.707107, 0, 0, -0.707107) /* Pressure Plate */
-     , (5148, 1880387593, 21430593, 60.0114, -40.0659, -17.6924, -0.707107, 0, 0, -0.707107) /* Flames */
-     , (5148, 1880387594, 21430593, 60.0395, -43.175, -17.5854, -0.707107, 0, 0, -0.707107) /* Flames */
-     , (5148, 1880387595, 21430593, 59.9685, -37.3379, -17.5854, -0.707107, 0, 0, -0.707107) /* Flames */
-     , (5148, 1880387596, 21430593, 63.0667, -40.2392, -17.5854, -0.707107, 0, 0, -0.707107) /* Flames */
-     , (4139, 1880387597, 21430594, 60, -45.25, -18, 1, 0, 0, 0) /* Door */
-     , (7096, 1880387598, 21430594, 60, -50, -17.989, 1, 0, 0, 0) /* Gold Golem */
-     , (7096, 1880387599, 21430599, 70, -30, -17.989, -4.37114E-08, 0, 0, -1) /* Gold Golem */
-     , (4139, 1880387600, 21430599, 70, -34.75, -18, -4.37114E-08, 0, 0, -1) /* Door */
-     , (2131, 1880387601, 21430600, 71.7018, -37.2523, -18, 0.707107, 0, 0, -0.707107) /* Pressure Plate */
-     , (5148, 1880387602, 21430600, 69.9991, -39.9465, -17.6121, 0.707107, 0, 0, -0.707107) /* Flames */
-     , (5148, 1880387603, 21430600, 70.1186, -43.2633, -17.5319, 0.707107, 0, 0, -0.707107) /* Flames */
-     , (5148, 1880387604, 21430600, 69.9962, -36.865, -17.7459, 0.707107, 0, 0, -0.707107) /* Flames */
-     , (5148, 1880387605, 21430600, 67.235, -40.2821, -17.5854, -0.707107, 0, 0, -0.707107) /* Flames */
-     , (7096, 1880387606, 21430606, 86.8762, -40.9027, -17.989, 1, 0, 0, 0) /* Gold Golem */
-     , (7096, 1880387607, 21430607, 86.8867, -50.9041, -17.989, -0.974, 0, 0, -0.226546) /* Gold Golem */
-     , (7096, 1880387608, 21430624, 58.4172, -31.0093, -11.989, 0.707107, 0, 0, -0.707107) /* Gold Golem */
-     , (7096, 1880387609, 21430627, 60, -50, -11.989, -0.707107, 0, 0, -0.707107) /* Gold Golem */
-     , (7096, 1880387610, 21430641, 103.46, -49.3818, -11.989, 0.707107, 0, 0, -0.707107) /* Gold Golem */
-     , (7096, 1880387611, 21430655, 23.9718, -79.9672, -5.989, 0.707107, 0, 0, -0.707107) /* Gold Golem */
-     , (7096, 1880387612, 21430681, 54.7401, -81.2582, -5.989, 1, 0, 0, 0) /* Gold Golem */
-     , (7096, 1880387613, 21430708, 68.8928, -73.0492, -5.989, 1, 0, 0, 0) /* Gold Golem */
-     , (1923, 1880387614, 21430727, 89.878, -84.7202, -6, 1, 0, 0, 0) /* Chest */
-     , (7096, 1880387615, 21430728, 90, -90, -5.989, 1, 0, 0, 0) /* Gold Golem */
-     , (7096, 1880387616, 21430737, 0.172826, -82.7488, 0.011, 1, 0, 0, 0) /* Gold Golem */
-     , (7096, 1880387617, 21430741, 10, -50, 0.011, -0.707107, 0, 0, -0.707107) /* Gold Golem */
-     , (5148, 1880387618, 21430744, 10, -60, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387619, 21430749, 10, -70, 0.3, 1, 0, 0, 0) /* Flames */
-     , (7096, 1880387620, 21430754, 10, -80, 0.011, -4.37114E-08, 0, 0, -1) /* Gold Golem */
-     , (7923, 1880387621, 21430763, 10, -139.993, 0.012215, -0.707107, 0, 0, -0.707107) /* linkmonstergen3minutes */
-     , (5148, 1880387622, 21430767, 20, -50, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387623, 21430772, 20, -60, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387624, 21430777, 20, -70, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5524, 1880387625, 21430792, 18.4693, -138.291, 0.1195, -0.707107, 0, 0, -0.707107) /* Surface */
-     , (7096, 1880387626, 21430794, 25.3589, -41.472, 0.011, 1, 0, 0, 0) /* Gold Golem */
-     , (5148, 1880387627, 21430796, 30, -50, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387628, 21430801, 30, -60, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387629, 21430806, 30, -70, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387630, 21430811, 30, -80, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387631, 21430816, 30, -90, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387632, 21430828, 40, -60, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387633, 21430833, 40, -70, 0.3, 1, 0, 0, 0) /* Flames */
-     , (7096, 1880387634, 21430838, 41.4388, -79.7151, 0.011, 1, 0, 0, 0) /* Gold Golem */
-     , (5148, 1880387635, 21430838, 40, -80, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387636, 21430849, 50, -60, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387637, 21430854, 50, -70, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387638, 21430859, 50, -80, 0.3, 1, 0, 0, 0) /* Flames */
-     , (7096, 1880387639, 21430867, 60.6286, -20, 0.011, -0.707107, 0, 0, -0.707107) /* Gold Golem */
-     , (7096, 1880387640, 21430869, 64.0561, -21.259, 0.011, -0.707107, 0, 0, -0.707107) /* Gold Golem */
-     , (5148, 1880387641, 21430876, 60, -50, 0.3, 1, 0, 0, 0) /* Flames */
-     , (7096, 1880387642, 21430880, 55.0129, -51.4583, 0.011, -0.707107, 0, 0, -0.707107) /* Gold Golem */
-     , (5148, 1880387643, 21430881, 60, -60, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387644, 21430899, 70, -30, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387645, 21430904, 70, -40, 0.3, 1, 0, 0, 0) /* Flames */
-     , (5148, 1880387646, 21430909, 70, -50, 0.3, 1, 0, 0, 0) /* Flames */
-     , (7096, 1880387647, 21430918, 75.4102, -21.2199, 0.011, 1, 0, 0, 0) /* Gold Golem */
-     , (5148, 1880387648, 21430920, 80, -30, 0.3, 1, 0, 0, 0) /* Flames */
-     , (7096, 1880387649, 21430928, 76.4064, -50.8948, 0.011, 1, 0, 0, 0) /* Gold Golem */
-     , (7096, 1880387650, 21430930, 101.396, -23.1011, 0.011, 1, 0, 0, 0) /* Gold Golem */
-     , (7096, 1880387651, 21430933, 101.532, -37.7537, 0.011, 1, 0, 0, 0) /* Gold Golem */
-     , (7096, 1880387652, 21430934, 112.319, -21.7415, 0.011, 1, 0, 0, 0) /* Gold Golem */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387584,  5525, 21430530, 70.1316, 2.87299, -42, -4.37114E-08, 0, 0, -1, False); /* Surface */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880387621'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880387600'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880387597'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880387655'; /* linkitemgen10seconds */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387585,  7096, 21430533, 71.9771, -11.0064, -41.989, -0.0033814, 0, 0, -0.999994,  True); /* Gold Golem */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387620'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387617'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387649'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387640'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387599'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387650'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387610'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387613'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387615'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387612'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387611'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387634'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387585'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387586'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387589'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387590'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387591'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387606'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387607'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387626'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387652'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387651'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387642'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387647'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387616'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387598'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387608'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387609'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387639'; /* linkmonstergen3minutes <- Gold Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880387654'; /* linkmonstergen3minutes <- Small Sand Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880387592'; /* Door <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880387601'; /* Door <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880387653'; /* linkitemgen10seconds <- Alloy Generator */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387586,  7096, 21430533, 69.2384, -9.93025, -41.989, -0.389627, 0, 0, -0.920973,  True); /* Gold Golem */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387587,  1917, 21430533, 72.2162, -6.13956, -42, 0.986123, 0, 0, -0.166016, False); /* Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387588,  1923, 21430533, 74.2954, -6.27908, -42, 0.999332, 0, 0, -0.0365341, False); /* Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387589,  7096, 21430547, 69.7466, -25.8058, -35.989, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387590,  7096, 21430586, 43.079, -29.0881, -17.786, -0.0865032, 0, 0, -0.996252,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387591,  7096, 21430587, 42.8836, -39.0872, -17.989, 0, 0, 0, -1,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387592,  2131, 21430593, 61.9153, -42.8235, -18, -0.707107, 0, 0, -0.707107,  True); /* Pressure Plate */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387593,  5148, 21430593, 60.0114, -40.0659, -17.6924, -0.707107, 0, 0, -0.707107, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387594,  5148, 21430593, 60.0395, -43.175, -17.5854, -0.707107, 0, 0, -0.707107, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387595,  5148, 21430593, 59.9685, -37.3379, -17.5854, -0.707107, 0, 0, -0.707107, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387596,  5148, 21430593, 63.0667, -40.2392, -17.5854, -0.707107, 0, 0, -0.707107, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387597,  4139, 21430594, 60, -45.25, -18, 1, 0, 0, 0, False); /* Door */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1880387597, 1880387601) /* Pressure Plate */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387598,  7096, 21430594, 60, -50, -17.989, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387599,  7096, 21430599, 70, -30, -17.989, -4.37114E-08, 0, 0, -1,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387600,  4139, 21430599, 70, -34.75, -18, -4.37114E-08, 0, 0, -1, False); /* Door */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1880387600, 1880387592) /* Pressure Plate */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387601,  2131, 21430600, 71.7018, -37.2523, -18, 0.707107, 0, 0, -0.707107,  True); /* Pressure Plate */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387602,  5148, 21430600, 69.9991, -39.9465, -17.6121, 0.707107, 0, 0, -0.707107, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387603,  5148, 21430600, 70.1186, -43.2633, -17.5319, 0.707107, 0, 0, -0.707107, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387604,  5148, 21430600, 69.9962, -36.865, -17.7459, 0.707107, 0, 0, -0.707107, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387605,  5148, 21430600, 67.235, -40.2821, -17.5854, -0.707107, 0, 0, -0.707107, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387606,  7096, 21430606, 86.8762, -40.9027, -17.989, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387607,  7096, 21430607, 86.8867, -50.9041, -17.989, -0.974, 0, 0, -0.226546,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387608,  7096, 21430624, 58.4172, -31.0093, -11.989, 0.707107, 0, 0, -0.707107,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387609,  7096, 21430627, 60, -50, -11.989, -0.707107, 0, 0, -0.707107,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387610,  7096, 21430641, 103.46, -49.3818, -11.989, 0.707107, 0, 0, -0.707107,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387611,  7096, 21430655, 23.9718, -79.9672, -5.989, 0.707107, 0, 0, -0.707107,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387612,  7096, 21430681, 54.7401, -81.2582, -5.989, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387613,  7096, 21430708, 68.8928, -73.0492, -5.989, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387614,  1923, 21430727, 89.878, -84.7202, -6, 1, 0, 0, 0, False); /* Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387615,  7096, 21430728, 90, -90, -5.989, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387616,  7096, 21430737, 0.172826, -82.7488, 0.011, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387617,  7096, 21430741, 10, -50, 0.011, -0.707107, 0, 0, -0.707107,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387618,  5148, 21430744, 10, -60, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387619,  5148, 21430749, 10, -70, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387620,  7096, 21430754, 10, -80, 0.011, -4.37114E-08, 0, 0, -1,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387621,  7923, 21430763, 10, -139.993, 0.012215, -0.707107, 0, 0, -0.707107, False); /* Linkable Monster Generator ( 3 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1880387621, 1880387585) /* Gold Golem */
+     , (1880387621, 1880387586) /* Gold Golem */
+     , (1880387621, 1880387589) /* Gold Golem */
+     , (1880387621, 1880387590) /* Gold Golem */
+     , (1880387621, 1880387591) /* Gold Golem */
+     , (1880387621, 1880387598) /* Gold Golem */
+     , (1880387621, 1880387599) /* Gold Golem */
+     , (1880387621, 1880387606) /* Gold Golem */
+     , (1880387621, 1880387607) /* Gold Golem */
+     , (1880387621, 1880387608) /* Gold Golem */
+     , (1880387621, 1880387609) /* Gold Golem */
+     , (1880387621, 1880387610) /* Gold Golem */
+     , (1880387621, 1880387611) /* Gold Golem */
+     , (1880387621, 1880387612) /* Gold Golem */
+     , (1880387621, 1880387613) /* Gold Golem */
+     , (1880387621, 1880387615) /* Gold Golem */
+     , (1880387621, 1880387616) /* Gold Golem */
+     , (1880387621, 1880387617) /* Gold Golem */
+     , (1880387621, 1880387620) /* Gold Golem */
+     , (1880387621, 1880387626) /* Gold Golem */
+     , (1880387621, 1880387634) /* Gold Golem */
+     , (1880387621, 1880387639) /* Gold Golem */
+     , (1880387621, 1880387640) /* Gold Golem */
+     , (1880387621, 1880387642) /* Gold Golem */
+     , (1880387621, 1880387647) /* Gold Golem */
+     , (1880387621, 1880387649) /* Gold Golem */
+     , (1880387621, 1880387650) /* Gold Golem */
+     , (1880387621, 1880387651) /* Gold Golem */
+     , (1880387621, 1880387652) /* Gold Golem */
+     , (1880387621, 1880387654) /* Small Sand Golem */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387622,  5148, 21430767, 20, -50, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387623,  5148, 21430772, 20, -60, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387624,  5148, 21430777, 20, -70, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387625,  5524, 21430792, 18.4693, -138.291, 0.1195, -0.707107, 0, 0, -0.707107, False); /* Surface */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387626,  7096, 21430794, 25.3589, -41.472, 0.011, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387627,  5148, 21430796, 30, -50, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387628,  5148, 21430801, 30, -60, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387629,  5148, 21430806, 30, -70, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387630,  5148, 21430811, 30, -80, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387631,  5148, 21430816, 30, -90, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387632,  5148, 21430828, 40, -60, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387633,  5148, 21430833, 40, -70, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387634,  7096, 21430838, 41.4388, -79.7151, 0.011, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387635,  5148, 21430838, 40, -80, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387636,  5148, 21430849, 50, -60, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387637,  5148, 21430854, 50, -70, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387638,  5148, 21430859, 50, -80, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387639,  7096, 21430867, 60.6286, -20, 0.011, -0.707107, 0, 0, -0.707107,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387640,  7096, 21430869, 64.0561, -21.259, 0.011, -0.707107, 0, 0, -0.707107,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387641,  5148, 21430876, 60, -50, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387642,  7096, 21430880, 55.0129, -51.4583, 0.011, -0.707107, 0, 0, -0.707107,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387643,  5148, 21430881, 60, -60, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387644,  5148, 21430899, 70, -30, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387645,  5148, 21430904, 70, -40, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387646,  5148, 21430909, 70, -50, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387647,  7096, 21430918, 75.4102, -21.2199, 0.011, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387648,  5148, 21430920, 80, -30, 0.3, 1, 0, 0, 0, False); /* Flames */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387649,  7096, 21430928, 76.4064, -50.8948, 0.011, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387650,  7096, 21430930, 101.396, -23.1011, 0.011, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387651,  7096, 21430933, 101.532, -37.7537, 0.011, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387652,  7096, 21430934, 112.319, -21.7415, 0.011, 1, 0, 0, 0,  True); /* Gold Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387653, 25333, 21430533, 74.5325, -6.97108, -41.995, -0.966702, 0, 0, -0.255903,  True); /* Alloy Generator */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387654, 24517, 21430533, 72.8478, -7.35931, -41.995, -0.383388, 0, 0, -0.923587,  True); /* Small Sand Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880387655, 15759, 21430535, 75.4909, -7.31523, -41.995, -0.969162, 0, 0, -0.246426, False); /* Linkable Item Generator */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1880387655, 1880387653) /* Alloy Generator */;

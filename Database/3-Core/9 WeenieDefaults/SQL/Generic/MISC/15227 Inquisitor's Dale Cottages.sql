@@ -1,28 +1,24 @@
-/* Weenie - Inquisitor's Dale Cottages (15227) */
-DELETE FROM weenie WHERE class_Id = 15227;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15227, 'inquisitorsdalecottagessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15227, 001 /* NAME_STRING */, 'Inquisitor''s Dale Cottages')
-     , (15227, 016 /* LONG_DESC_STRING */, 'Welcome to Inquisitor''s Dale Cottages');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15227, 001 /* SETUP_DID */, 33557463)
-     , (15227, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15227', 'inquisitorsdalecottagessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15227, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15227, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (15227, 008 /* MASS_INT */, 1800)
-     , (15227, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15227, 019 /* VALUE_INT */, 125)
-     , (15227, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (15227,   1,        128) /* ItemType - Misc */
+     , (15227,   5,       9000) /* EncumbranceVal */
+     , (15227,   8,       1800) /* Mass */
+     , (15227,  16,          1) /* ItemUseable - No */
+     , (15227,  19,        125) /* Value */
+     , (15227,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15227, 001 /* STUCK_BOOL */, True)
-     , (15227, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (15227, 013 /* ETHEREAL_BOOL */, False)
-     , (15227, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (15227,   1, True ) /* Stuck */
+     , (15227,  12, True ) /* ReportCollisions */
+     , (15227,  13, False) /* Ethereal */
+     , (15227,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15227,   1, 'Inquisitor''s Dale Cottages') /* Name */
+     , (15227,  16, 'Welcome to Inquisitor''s Dale Cottages') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15227,   1,   33557463) /* Setup */
+     , (15227,   8,  100668115) /* Icon */;

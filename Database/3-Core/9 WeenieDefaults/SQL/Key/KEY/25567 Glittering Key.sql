@@ -1,33 +1,29 @@
-/* Weenie - Glittering Key (25567) */
-DELETE FROM weenie WHERE class_Id = 25567;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25567, 'keydrudgeglittervod', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25567, 001 /* NAME_STRING */, 'Glittering Key')
-     , (25567, 013 /* KEY_CODE_STRING */, 'DoorDrudgeVOD')
-     , (25567, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25567, 001 /* SETUP_DID */, 33554784)
-     , (25567, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25567, 008 /* ICON_DID */, 100674911)
-     , (25567, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25567', 'keydrudgeglittervod', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25567, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (25567, 005 /* ENCUMB_VAL_INT */, 100)
-     , (25567, 008 /* MASS_INT */, 20)
-     , (25567, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (25567, 019 /* VALUE_INT */, 0)
-     , (25567, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (25567, 092 /* STRUCTURE_INT */, 1)
-     , (25567, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25567, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (25567,   1,      16384) /* ItemType - Key */
+     , (25567,   5,        100) /* EncumbranceVal */
+     , (25567,   8,         20) /* Mass */
+     , (25567,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (25567,  19,          0) /* Value */
+     , (25567,  91,          1) /* MaxStructure */
+     , (25567,  92,          1) /* Structure */
+     , (25567,  93,       1044) /* PhysicsState */
+     , (25567,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25567, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25567, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (25567, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (25567,  22, True ) /* Inscribable */
+     , (25567,  23, True ) /* DestroyOnSell */
+     , (25567,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25567,   1, 'Glittering Key') /* Name */
+     , (25567,  13, 'DoorDrudgeVOD') /* KeyCode */
+     , (25567,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25567,   1,   33554784) /* Setup */
+     , (25567,   3,  536870932) /* SoundTable */
+     , (25567,   8,  100674911) /* Icon */
+     , (25567,  22,  872415275) /* PhysicsEffectTable */;

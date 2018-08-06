@@ -1,37 +1,33 @@
-/* Weenie - Aged Cove Apple Cider (30502) */
-DELETE FROM weenie WHERE class_Id = 30502;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30502, 'cidercoveappleaged', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30502, 001 /* NAME_STRING */, 'Aged Cove Apple Cider')
-     , (30502, 016 /* LONG_DESC_STRING */, 'A nicely aged bottle of Cove Apple Cider, made in Yaraq by the al-Luq family.')
-     , (30502, 033 /* QUEST_STRING */, 'YaraqCiderCoveAppleAged1204');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30502, 001 /* SETUP_DID */, 33554602)
-     , (30502, 003 /* SOUND_TABLE_DID */, 536871012)
-     , (30502, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30502, 007 /* CLOTHINGBASE_DID */, 268435733)
-     , (30502, 008 /* ICON_DID */, 100667410)
-     , (30502, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30502', 'cidercoveappleaged', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30502, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (30502, 003 /* PALETTE_TEMPLATE_INT */, 17 /* YELLOW_PALETTE_TEMPLATE */)
-     , (30502, 005 /* ENCUMB_VAL_INT */, 10)
-     , (30502, 008 /* MASS_INT */, 50)
-     , (30502, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30502, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30502, 019 /* VALUE_INT */, 0)
-     , (30502, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (30502, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30502, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30502, 039 /* DEFAULT_SCALE_FLOAT */, 2);
+VALUES (30502,   1,        128) /* ItemType - Misc */
+     , (30502,   3,         17) /* PaletteTemplate - Yellow */
+     , (30502,   5,         10) /* EncumbranceVal */
+     , (30502,   8,         50) /* Mass */
+     , (30502,   9,          0) /* ValidLocations - None */
+     , (30502,  16,          1) /* ItemUseable - No */
+     , (30502,  19,          0) /* Value */
+     , (30502,  33,          1) /* Bonded - Bonded */
+     , (30502,  93,       1044) /* PhysicsState */
+     , (30502, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30502, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30502,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30502,  39,       2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30502,   1, 'Aged Cove Apple Cider') /* Name */
+     , (30502,  16, 'A nicely aged bottle of Cove Apple Cider, made in Yaraq by the al-Luq family.') /* LongDesc */
+     , (30502,  33, 'YaraqCiderCoveAppleAged1204') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30502,   1,   33554602) /* Setup */
+     , (30502,   3,  536871012) /* SoundTable */
+     , (30502,   6,   67111919) /* PaletteBase */
+     , (30502,   7,  268435733) /* ClothingBase */
+     , (30502,   8,  100667410) /* Icon */
+     , (30502,  22,  872415275) /* PhysicsEffectTable */;

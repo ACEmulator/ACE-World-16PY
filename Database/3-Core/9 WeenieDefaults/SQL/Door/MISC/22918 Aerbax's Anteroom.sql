@@ -1,41 +1,37 @@
-/* Weenie - Aerbax's Anteroom (22918) */
-DELETE FROM weenie WHERE class_Id = 22918;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22918, 'dooraerbax3', 19 /* Door_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22918, 001 /* NAME_STRING */, 'Aerbax''s Anteroom')
-     , (22918, 012 /* LOCK_CODE_STRING */, 'AerbaxDoor3')
-     , (22918, 014 /* USE_STRING */, 'Use this item to open it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22918, 001 /* SETUP_DID */, 33555953)
-     , (22918, 002 /* MOTION_TABLE_DID */, 150995078)
-     , (22918, 003 /* SOUND_TABLE_DID */, 536870946)
-     , (22918, 008 /* ICON_DID */, 100668183)
-     , (22918, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22918', 'dooraerbax3', 19) /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22918, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22918, 008 /* MASS_INT */, 500)
-     , (22918, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (22918, 019 /* VALUE_INT */, 0)
-     , (22918, 038 /* RESIST_LOCKPICK_INT */, 5000)
-     , (22918, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22918, 011 /* RESET_INTERVAL_FLOAT */, 180)
-     , (22918, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (22918,   1,        128) /* ItemType - Misc */
+     , (22918,   8,        500) /* Mass */
+     , (22918,  16,         32) /* ItemUseable - Remote */
+     , (22918,  19,          0) /* Value */
+     , (22918,  38,       5000) /* ResistLockpick */
+     , (22918,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22918, 001 /* STUCK_BOOL */, True)
-     , (22918, 002 /* OPEN_BOOL */, False)
-     , (22918, 003 /* LOCKED_BOOL */, True)
-     , (22918, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22918, 013 /* ETHEREAL_BOOL */, False)
-     , (22918, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (22918, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (22918, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (22918, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (22918,   1, True ) /* Stuck */
+     , (22918,   2, False) /* Open */
+     , (22918,   3, True ) /* Locked */
+     , (22918,  12, True ) /* ReportCollisions */
+     , (22918,  13, False) /* Ethereal */
+     , (22918,  14, False) /* GravityStatus */
+     , (22918,  33, False) /* ResetMessagePending */
+     , (22918,  34, False) /* DefaultOpen */
+     , (22918,  35, True ) /* DefaultLocked */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22918,  11,     180) /* ResetInterval */
+     , (22918,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22918,   1, 'Aerbax''s Anteroom') /* Name */
+     , (22918,  12, 'AerbaxDoor3') /* LockCode */
+     , (22918,  14, 'Use this item to open it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22918,   1,   33555953) /* Setup */
+     , (22918,   2,  150995078) /* MotionTable */
+     , (22918,   3,  536870946) /* SoundTable */
+     , (22918,   8,  100668183) /* Icon */
+     , (22918,  22,  872415275) /* PhysicsEffectTable */;

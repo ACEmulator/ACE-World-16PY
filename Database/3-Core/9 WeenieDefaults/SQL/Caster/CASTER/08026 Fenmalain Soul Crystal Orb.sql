@@ -1,61 +1,57 @@
-/* Weenie - Fenmalain Soul Crystal Orb (8026) */
-DELETE FROM weenie WHERE class_Id = 8026;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8026, 'orbsoulcrystalfen', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8026, 001 /* NAME_STRING */, 'Fenmalain Soul Crystal Orb')
-     , (8026, 015 /* SHORT_DESC_STRING */, 'An orb imbued with the power of the Fenmalain Soul Crystal.')
-     , (8026, 016 /* LONG_DESC_STRING */, 'An orb imbued with the power of the Fenmalain Soul Crystal.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8026, 001 /* SETUP_DID */, 33556767)
-     , (8026, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8026, 006 /* PALETTE_BASE_DID */, 67111928)
-     , (8026, 007 /* CLOTHINGBASE_DID */, 268436041)
-     , (8026, 008 /* ICON_DID */, 100670983)
-     , (8026, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8026, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (8026, 036 /* MUTATE_FILTER_DID */, 234881046)
-     , (8026, 037 /* ITEM_SKILL_LIMIT_DID */, 32);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8026', 'orbsoulcrystalfen', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8026, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (8026, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (8026, 005 /* ENCUMB_VAL_INT */, 50)
-     , (8026, 008 /* MASS_INT */, 50)
-     , (8026, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (8026, 016 /* ITEM_USEABLE_INT */, 6291464 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE_NEVER_WALK */)
-     , (8026, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8026, 019 /* VALUE_INT */, 1000)
-     , (8026, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8026, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (8026, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8026, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (8026, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (8026, 107 /* ITEM_CUR_MANA_INT */, 300)
-     , (8026, 108 /* ITEM_MAX_MANA_INT */, 2000)
-     , (8026, 109 /* ITEM_DIFFICULTY_INT */, 130)
-     , (8026, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (8026, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 160)
-     , (8026, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8026, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8026, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (8026, 012 /* SHADE_FLOAT */, 0.9)
-     , (8026, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (8026, 076 /* TRANSLUCENCY_FLOAT */, 0.5);
+VALUES (8026,   1,      32768) /* ItemType - Caster */
+     , (8026,   3,         13) /* PaletteTemplate - Purple */
+     , (8026,   5,         50) /* EncumbranceVal */
+     , (8026,   8,         50) /* Mass */
+     , (8026,   9,   16777216) /* ValidLocations - Held */
+     , (8026,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
+     , (8026,  18,          1) /* UiEffects - Magical */
+     , (8026,  19,       1000) /* Value */
+     , (8026,  33,          1) /* Bonded - Bonded */
+     , (8026,  46,        512) /* DefaultCombatStyle - Magic */
+     , (8026,  93,       3092) /* PhysicsState */
+     , (8026,  94,         16) /* TargetType - Creature */
+     , (8026, 106,        250) /* ItemSpellcraft */
+     , (8026, 107,        300) /* ItemCurMana */
+     , (8026, 108,       2000) /* ItemMaxMana */
+     , (8026, 109,        130) /* ItemDifficulty */
+     , (8026, 114,          1) /* Attuned - Attuned */
+     , (8026, 115,        160) /* ItemSkillLevelLimit */
+     , (8026, 150,        103) /* HookPlacement - Hook */
+     , (8026, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8026, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (8026, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8026, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (8026, 099 /* IVORYABLE_BOOL */, True);
+VALUES (8026,  15, True ) /* LightsStatus */
+     , (8026,  22, True ) /* Inscribable */
+     , (8026,  23, True ) /* DestroyOnSell */
+     , (8026,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8026,   5,   -0.05) /* ManaRate */
+     , (8026,  12,     0.9) /* Shade */
+     , (8026,  29,       1) /* WeaponDefense */
+     , (8026,  76,     0.5) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8026,   1, 'Fenmalain Soul Crystal Orb') /* Name */
+     , (8026,  15, 'An orb imbued with the power of the Fenmalain Soul Crystal.') /* ShortDesc */
+     , (8026,  16, 'An orb imbued with the power of the Fenmalain Soul Crystal.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8026,   1,   33556767) /* Setup */
+     , (8026,   3,  536870932) /* SoundTable */
+     , (8026,   6,   67111928) /* PaletteBase */
+     , (8026,   7,  268436041) /* ClothingBase */
+     , (8026,   8,  100670983) /* Icon */
+     , (8026,  22,  872415275) /* PhysicsEffectTable */
+     , (8026,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (8026,  36,  234881046) /* MutateFilter */
+     , (8026,  37,         32) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8026, 584, 2) /* ItemEnchantmentMasterySelf4_SpellID */
-     , (8026, 559, 2) /* CreatureEnchantmentMasterySelf3_SpellID */
-     , (8026, 2012, 2) /* WizardsIntellect_SpellID */;
-
+VALUES (8026,   559,      2)  /* Creature Enchantment Mastery Self III */
+     , (8026,   584,      2)  /* Item Enchantment Mastery Self IV */
+     , (8026,  2012,      2)  /* Wizard's Intellect */;

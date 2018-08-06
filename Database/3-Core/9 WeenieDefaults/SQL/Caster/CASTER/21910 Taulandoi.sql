@@ -1,58 +1,54 @@
-/* Weenie - Taulandoi (21910) */
-DELETE FROM weenie WHERE class_Id = 21910;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21910, 'stavegaerlanacid', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21910, 001 /* NAME_STRING */, 'Taulandoi')
-     , (21910, 015 /* SHORT_DESC_STRING */, 'A stave carved from obsidian, a large sapphire rests at the tip.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21910, 001 /* SETUP_DID */, 33557963)
-     , (21910, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21910, 008 /* ICON_DID */, 100673490)
-     , (21910, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21910, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (21910, 028 /* SPELL_DID */, 2781 /* LesserElementalFuryAcid_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21910', 'stavegaerlanacid', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21910, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (21910, 005 /* ENCUMB_VAL_INT */, 120)
-     , (21910, 008 /* MASS_INT */, 120)
-     , (21910, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (21910, 016 /* ITEM_USEABLE_INT */, 6291460 /* USEABLE_SOURCE_WIELDED_TARGET_REMOTE_NEVER_WALK */)
-     , (21910, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (21910, 019 /* VALUE_INT */, 4000)
-     , (21910, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (21910, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (21910, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (21910, 106 /* ITEM_SPELLCRAFT_INT */, 325)
-     , (21910, 107 /* ITEM_CUR_MANA_INT */, 10000)
-     , (21910, 108 /* ITEM_MAX_MANA_INT */, 10000)
-     , (21910, 109 /* ITEM_DIFFICULTY_INT */, 100)
-     , (21910, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (21910, 117 /* ITEM_MANA_COST_INT */, 4000)
-     , (21910, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (21910, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (21910, 158 /* WIELD_REQUIREMENTS_INT */, 8 /* WIELD_REQUIRES_TRAINING_WieldRequirement */)
-     , (21910, 159 /* WIELD_SKILLTYPE_INT */, 34 /* WAR_MAGIC_SKILL */)
-     , (21910, 160 /* WIELD_DIFFICULTY_INT */, 2)
-     , (21910, 166 /* SLAYER_CREATURE_TYPE_INT */, 1 /* Olthoi_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21910, 005 /* MANA_RATE_FLOAT */, -1)
-     , (21910, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (21910, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 2);
+VALUES (21910,   1,      32768) /* ItemType - Caster */
+     , (21910,   5,        120) /* EncumbranceVal */
+     , (21910,   8,        120) /* Mass */
+     , (21910,   9,   16777216) /* ValidLocations - Held */
+     , (21910,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
+     , (21910,  18,          1) /* UiEffects - Magical */
+     , (21910,  19,       4000) /* Value */
+     , (21910,  46,        512) /* DefaultCombatStyle - Magic */
+     , (21910,  93,       1044) /* PhysicsState */
+     , (21910,  94,         16) /* TargetType - Creature */
+     , (21910, 106,        325) /* ItemSpellcraft */
+     , (21910, 107,      10000) /* ItemCurMana */
+     , (21910, 108,      10000) /* ItemMaxMana */
+     , (21910, 109,        100) /* ItemDifficulty */
+     , (21910, 110,          0) /* ItemAllegianceRankLimit */
+     , (21910, 117,       4000) /* ItemManaCost */
+     , (21910, 150,        103) /* HookPlacement - Hook */
+     , (21910, 151,          2) /* HookType - Wall */
+     , (21910, 158,          8) /* WieldRequirements - Training */
+     , (21910, 159,         34) /* WieldSkilltype - WarMagic */
+     , (21910, 160,          2) /* WieldDifficulty */
+     , (21910, 166,          1) /* SlayerCreatureType - Olthoi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21910, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21910, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (21910,  22, True ) /* Inscribable */
+     , (21910,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21910,   5,      -1) /* ManaRate */
+     , (21910,  29,       1) /* WeaponDefense */
+     , (21910, 138,       2) /* SlayerDamageBonus */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21910,   1, 'Taulandoi') /* Name */
+     , (21910,  15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21910,   1,   33557963) /* Setup */
+     , (21910,   3,  536870932) /* SoundTable */
+     , (21910,   8,  100673490) /* Icon */
+     , (21910,  22,  872415275) /* PhysicsEffectTable */
+     , (21910,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (21910,  28,       2781) /* Spell - Lesser Elemental Fury */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21910, 664, 2) /* ManaMasteryOther6_SpellID */
-     , (21910, 2584, 2) /* CANTRIPWILLPOWER1_SpellID */
-     , (21910, 640, 2) /* WarMagicMasteryOther6_SpellID */
-     , (21910, 2581, 2) /* CANTRIPFOCUS1_SpellID */
-     , (21910, 2812, 2) /* ModerateWarMagicAptitude_SpellID */;
-
+VALUES (21910,   640,      2)  /* War Magic Mastery Other VI */
+     , (21910,   664,      2)  /* Mana Conversion Mastery Other VI */
+     , (21910,  2581,      2)  /* Minor Focus */
+     , (21910,  2584,      2)  /* Minor Willpower */
+     , (21910,  2812,      2)  /* Moderate War Magic Aptitude */;

@@ -1,38 +1,34 @@
-/* Weenie - Bloodseeker Infusion (5329) */
-DELETE FROM weenie WHERE class_Id = 5329;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5329, 'infusionbloodseeker', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5329, 001 /* NAME_STRING */, 'Bloodseeker Infusion')
-     , (5329, 014 /* USE_STRING */, 'This item is used in alchemy.')
-     , (5329, 020 /* PLURAL_NAME_STRING */, 'Bloodseeker Infusions');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5329, 001 /* SETUP_DID */, 33555965)
-     , (5329, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5329, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (5329, 007 /* CLOTHINGBASE_DID */, 268435814)
-     , (5329, 008 /* ICON_DID */, 100669997)
-     , (5329, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5329', 'infusionbloodseeker', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5329, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (5329, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (5329, 005 /* ENCUMB_VAL_INT */, 15)
-     , (5329, 008 /* MASS_INT */, 5)
-     , (5329, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5329, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5329, 012 /* STACK_SIZE_INT */, 1)
-     , (5329, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (5329, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (5329, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (5329, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (5329, 019 /* VALUE_INT */, 10)
-     , (5329, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5329, 094 /* TARGET_TYPE_INT */, 75497472 /* TYPE_CRAFT_ALCHEMY_BASE, TYPE_CRAFT_ALCHEMY_INTERMEDIATE */);
+VALUES (5329,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (5329,   3,         39) /* PaletteTemplate - Black */
+     , (5329,   5,         15) /* EncumbranceVal */
+     , (5329,   8,          5) /* Mass */
+     , (5329,   9,          0) /* ValidLocations - None */
+     , (5329,  11,        100) /* MaxStackSize */
+     , (5329,  12,          1) /* StackSize */
+     , (5329,  13,         15) /* StackUnitEncumbrance */
+     , (5329,  14,          5) /* StackUnitMass */
+     , (5329,  15,         10) /* StackUnitValue */
+     , (5329,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (5329,  19,         10) /* Value */
+     , (5329,  93,       1044) /* PhysicsState */
+     , (5329,  94,   75497472) /* TargetType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5329, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5329,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5329,   1, 'Bloodseeker Infusion') /* Name */
+     , (5329,  14, 'This item is used in alchemy.') /* Use */
+     , (5329,  20, 'Bloodseeker Infusions') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5329,   1,   33555965) /* Setup */
+     , (5329,   3,  536870932) /* SoundTable */
+     , (5329,   6,   67111919) /* PaletteBase */
+     , (5329,   7,  268435814) /* ClothingBase */
+     , (5329,   8,  100669997) /* Icon */
+     , (5329,  22,  872415275) /* PhysicsEffectTable */;

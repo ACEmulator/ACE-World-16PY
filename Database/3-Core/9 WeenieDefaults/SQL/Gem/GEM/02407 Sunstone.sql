@@ -1,38 +1,34 @@
-/* Weenie - Sunstone (2407) */
-DELETE FROM weenie WHERE class_Id = 2407;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2407, 'gemsunstone', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2407, 001 /* NAME_STRING */, 'Sunstone');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2407, 001 /* SETUP_DID */, 33554809)
-     , (2407, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2407, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2407, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (2407, 008 /* ICON_DID */, 100674717)
-     , (2407, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2407, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2407', 'gemsunstone', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2407, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (2407, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
-     , (2407, 005 /* ENCUMB_VAL_INT */, 5)
-     , (2407, 008 /* MASS_INT */, 5)
-     , (2407, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2407, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (2407, 012 /* STACK_SIZE_INT */, 1)
-     , (2407, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (2407, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (2407, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (2407, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2407, 019 /* VALUE_INT */, 500)
-     , (2407, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2407, 131 /* MATERIAL_TYPE_INT */, 41 /* Sunstone_MaterialType */)
-     , (2407, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
+VALUES (2407,   1,       2048) /* ItemType - Gem */
+     , (2407,   3,         83) /* PaletteTemplate - Amber */
+     , (2407,   5,          5) /* EncumbranceVal */
+     , (2407,   8,          5) /* Mass */
+     , (2407,   9,          0) /* ValidLocations - None */
+     , (2407,  11,          1) /* MaxStackSize */
+     , (2407,  12,          1) /* StackSize */
+     , (2407,  13,          5) /* StackUnitEncumbrance */
+     , (2407,  14,          5) /* StackUnitMass */
+     , (2407,  15,        500) /* StackUnitValue */
+     , (2407,  16,          1) /* ItemUseable - No */
+     , (2407,  19,        500) /* Value */
+     , (2407,  93,       1044) /* PhysicsState */
+     , (2407, 131,         41) /* MaterialType - Sunstone */
+     , (2407, 169,   16777216) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2407, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2407,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2407,   1, 'Sunstone') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2407,   1,   33554809) /* Setup */
+     , (2407,   3,  536870932) /* SoundTable */
+     , (2407,   6,   67111919) /* PaletteBase */
+     , (2407,   7,  268435723) /* ClothingBase */
+     , (2407,   8,  100674717) /* Icon */
+     , (2407,  22,  872415275) /* PhysicsEffectTable */
+     , (2407,  36,  234881046) /* MutateFilter */;

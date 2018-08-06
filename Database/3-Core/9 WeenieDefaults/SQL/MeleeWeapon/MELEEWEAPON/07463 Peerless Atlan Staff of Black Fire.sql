@@ -1,64 +1,60 @@
-/* Weenie - Peerless Atlan Staff of Black Fire (7463) */
-DELETE FROM weenie WHERE class_Id = 7463;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7463, 'staffbestblackfire', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7463, 001 /* NAME_STRING */, 'Peerless Atlan Staff of Black Fire');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7463, 001 /* SETUP_DID */, 33557408)
-     , (7463, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7463, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7463, 007 /* CLOTHINGBASE_DID */, 268435916)
-     , (7463, 008 /* ICON_DID */, 100670563)
-     , (7463, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (7463, 037 /* ITEM_SKILL_LIMIT_DID */, 10);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7463', 'staffbestblackfire', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7463, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (7463, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (7463, 005 /* ENCUMB_VAL_INT */, 450)
-     , (7463, 008 /* MASS_INT */, 400)
-     , (7463, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (7463, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7463, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (7463, 019 /* VALUE_INT */, 5000)
-     , (7463, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7463, 044 /* DAMAGE_INT */, 20)
-     , (7463, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (7463, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (7463, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (7463, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (7463, 049 /* WEAPON_TIME_INT */, 20)
-     , (7463, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (7463, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7463, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (7463, 107 /* ITEM_CUR_MANA_INT */, 750)
-     , (7463, 108 /* ITEM_MAX_MANA_INT */, 750)
-     , (7463, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (7463, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 225);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7463, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (7463, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (7463, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (7463, 029 /* WEAPON_DEFENSE_FLOAT */, 1.07)
-     , (7463, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (7463, 062 /* WEAPON_OFFENSE_FLOAT */, 1.07);
+VALUES (7463,   1,          1) /* ItemType - MeleeWeapon */
+     , (7463,   3,         39) /* PaletteTemplate - Black */
+     , (7463,   5,        450) /* EncumbranceVal */
+     , (7463,   8,        400) /* Mass */
+     , (7463,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (7463,  16,          1) /* ItemUseable - No */
+     , (7463,  18,          1) /* UiEffects - Magical */
+     , (7463,  19,       5000) /* Value */
+     , (7463,  33,          1) /* Bonded - Bonded */
+     , (7463,  44,         20) /* Damage */
+     , (7463,  45,          4) /* DamageType - Bludgeon */
+     , (7463,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (7463,  47,          6) /* AttackType */
+     , (7463,  48,         10) /* WeaponSkill - Staff */
+     , (7463,  49,         20) /* WeaponTime */
+     , (7463,  51,          1) /* CombatUse - Melee */
+     , (7463,  93,       1044) /* PhysicsState */
+     , (7463, 106,        200) /* ItemSpellcraft */
+     , (7463, 107,        750) /* ItemCurMana */
+     , (7463, 108,        750) /* ItemMaxMana */
+     , (7463, 114,          1) /* Attuned - Attuned */
+     , (7463, 115,        225) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7463, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7463, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7463, 069 /* IS_SELLABLE_BOOL */, False)
-     , (7463, 099 /* IVORYABLE_BOOL */, True);
+VALUES (7463,  22, True ) /* Inscribable */
+     , (7463,  23, True ) /* DestroyOnSell */
+     , (7463,  69, False) /* IsSellable */
+     , (7463,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7463,   5,  -0.033) /* ManaRate */
+     , (7463,  21,    1.33) /* WeaponLength */
+     , (7463,  22,    0.25) /* DamageVariance */
+     , (7463,  29,    1.07) /* WeaponDefense */
+     , (7463,  39,       1) /* DefaultScale */
+     , (7463,  62,    1.07) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7463,   1, 'Peerless Atlan Staff of Black Fire') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7463,   1,   33557408) /* Setup */
+     , (7463,   3,  536870932) /* SoundTable */
+     , (7463,   6,   67111919) /* PaletteBase */
+     , (7463,   7,  268435916) /* ClothingBase */
+     , (7463,   8,  100670563) /* Icon */
+     , (7463,  22,  872415275) /* PhysicsEffectTable */
+     , (7463,  37,         10) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7463, 1846, 2) /* MagicYieldBlackFire_SpellID */
-     , (7463, 1605, 2) /* Defender6_SpellID */
-     , (7463, 399, 2) /* StaffMasterySelf6_SpellID */
-     , (7463, 1592, 2) /* HeartSeeker6_SpellID */
-     , (7463, 1616, 2) /* BloodDrinker6_SpellID */
-     , (7463, 1627, 2) /* SwiftKiller6_SpellID */;
-
+VALUES (7463,   399,      2)  /* Light Weapon Mastery Self VI */
+     , (7463,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (7463,  1605,      2)  /* Aura of Defender Self VI */
+     , (7463,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (7463,  1627,      2)  /* Aura of Swift Killer Self VI */
+     , (7463,  1846,      2)  /* Curse of Black Fire */;

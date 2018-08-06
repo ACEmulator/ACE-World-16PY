@@ -1,49 +1,45 @@
-/* Weenie - Bastion of Tukal (9389) */
-DELETE FROM weenie WHERE class_Id = 9389;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9389, 'hauberkbastion', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9389, 001 /* NAME_STRING */, 'Bastion of Tukal')
-     , (9389, 015 /* SHORT_DESC_STRING */, 'A chestplate decorated with a large carved seal on the chest.')
-     , (9389, 016 /* LONG_DESC_STRING */, 'A chestplate with the seal of Linvak Tukal on the chest.  The armor is elegant yet simple, and sturdily crafted.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9389, 001 /* SETUP_DID */, 33554644)
-     , (9389, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9389, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (9389, 007 /* CLOTHINGBASE_DID */, 268436167)
-     , (9389, 008 /* ICON_DID */, 100671501)
-     , (9389, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9389', 'hauberkbastion', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9389, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (9389, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (9389, 004 /* CLOTHING_PRIORITY_INT */, 15360 /* OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */)
-     , (9389, 005 /* ENCUMB_VAL_INT */, 2200)
-     , (9389, 008 /* MASS_INT */, 1100)
-     , (9389, 009 /* LOCATIONS_INT */, 7680 /* CHEST_ARMOR_LOC, ABDOMEN_ARMOR_LOC, UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (9389, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9389, 019 /* VALUE_INT */, 2500)
-     , (9389, 027 /* ARMOR_TYPE_INT */, 32)
-     , (9389, 028 /* ARMOR_LEVEL_INT */, 160)
-     , (9389, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9389, 012 /* SHADE_FLOAT */, 0.66)
-     , (9389, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (9389, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (9389, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (9389, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.7)
-     , (9389, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.7)
-     , (9389, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.5)
-     , (9389, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.3)
-     , (9389, 110 /* BULK_MOD_FLOAT */, 1)
-     , (9389, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (9389,   1,          2) /* ItemType - Armor */
+     , (9389,   3,         13) /* PaletteTemplate - Purple */
+     , (9389,   4,      15360) /* ClothingPriority */
+     , (9389,   5,       2200) /* EncumbranceVal */
+     , (9389,   8,       1100) /* Mass */
+     , (9389,   9,       7680) /* ValidLocations */
+     , (9389,  16,          1) /* ItemUseable - No */
+     , (9389,  19,       2500) /* Value */
+     , (9389,  27,         32) /* ArmorType */
+     , (9389,  28,        160) /* ArmorLevel */
+     , (9389,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9389, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9389, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (9389, 100 /* DYABLE_BOOL */, True);
+VALUES (9389,  22, True ) /* Inscribable */
+     , (9389,  23, True ) /* DestroyOnSell */
+     , (9389, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9389,  12,    0.66) /* Shade */
+     , (9389,  13,     1.3) /* ArmorModVsSlash */
+     , (9389,  14,       1) /* ArmorModVsPierce */
+     , (9389,  15,       1) /* ArmorModVsBludgeon */
+     , (9389,  16,     0.7) /* ArmorModVsCold */
+     , (9389,  17,     0.7) /* ArmorModVsFire */
+     , (9389,  18,     0.5) /* ArmorModVsAcid */
+     , (9389,  19,     0.3) /* ArmorModVsElectric */
+     , (9389, 110,       1) /* BulkMod */
+     , (9389, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9389,   1, 'Bastion of Tukal') /* Name */
+     , (9389,  15, 'A chestplate decorated with a large carved seal on the chest.') /* ShortDesc */
+     , (9389,  16, 'A chestplate with the seal of Linvak Tukal on the chest.  The armor is elegant yet simple, and sturdily crafted.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9389,   1,   33554644) /* Setup */
+     , (9389,   3,  536870932) /* SoundTable */
+     , (9389,   6,   67108990) /* PaletteBase */
+     , (9389,   7,  268436167) /* ClothingBase */
+     , (9389,   8,  100671501) /* Icon */
+     , (9389,  22,  872415275) /* PhysicsEffectTable */;

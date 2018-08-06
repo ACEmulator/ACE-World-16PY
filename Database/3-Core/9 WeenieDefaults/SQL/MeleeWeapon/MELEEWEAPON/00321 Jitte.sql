@@ -1,48 +1,44 @@
-/* Weenie - Jitte (321) */
-DELETE FROM weenie WHERE class_Id = 321;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (321, 'jitte', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (321, 001 /* NAME_STRING */, 'Jitte');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (321, 001 /* SETUP_DID */, 33554740)
-     , (321, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (321, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (321, 007 /* CLOTHINGBASE_DID */, 268435786)
-     , (321, 008 /* ICON_DID */, 100668895)
-     , (321, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (321, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (321, 046 /* TSYS_MUTATION_FILTER_DID */, 939524099);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('321', 'jitte', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (321, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (321, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (321, 005 /* ENCUMB_VAL_INT */, 350)
-     , (321, 008 /* MASS_INT */, 140)
-     , (321, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (321, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (321, 019 /* VALUE_INT */, 100)
-     , (321, 044 /* DAMAGE_INT */, 9)
-     , (321, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (321, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (321, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (321, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (321, 049 /* WEAPON_TIME_INT */, 30)
-     , (321, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (321, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (321, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (321, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (321, 169 /* TSYS_MUTATION_DATA_INT */, 101188610);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (321, 021 /* WEAPON_LENGTH_FLOAT */, 0.66)
-     , (321, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (321, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (321, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (321,   1,          1) /* ItemType - MeleeWeapon */
+     , (321,   3,          4) /* PaletteTemplate - Brown */
+     , (321,   5,        350) /* EncumbranceVal */
+     , (321,   8,        140) /* Mass */
+     , (321,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (321,  16,          1) /* ItemUseable - No */
+     , (321,  19,        100) /* Value */
+     , (321,  44,          9) /* Damage */
+     , (321,  45,          4) /* DamageType - Bludgeon */
+     , (321,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (321,  47,          4) /* AttackType - Slash */
+     , (321,  48,          5) /* WeaponSkill - Mace */
+     , (321,  49,         30) /* WeaponTime */
+     , (321,  51,          1) /* CombatUse - Melee */
+     , (321,  93,       1044) /* PhysicsState */
+     , (321, 150,        103) /* HookPlacement - Hook */
+     , (321, 151,          2) /* HookType - Wall */
+     , (321, 169,  101188610) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (321, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (321,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (321,  21,    0.66) /* WeaponLength */
+     , (321,  22,     0.5) /* DamageVariance */
+     , (321,  29,    1.05) /* WeaponDefense */
+     , (321,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (321,   1, 'Jitte') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (321,   1,   33554740) /* Setup */
+     , (321,   3,  536870932) /* SoundTable */
+     , (321,   6,   67111919) /* PaletteBase */
+     , (321,   7,  268435786) /* ClothingBase */
+     , (321,   8,  100668895) /* Icon */
+     , (321,  22,  872415275) /* PhysicsEffectTable */
+     , (321,  36,  234881053) /* MutateFilter */
+     , (321,  46,  939524099) /* TsysMutationFilter */;

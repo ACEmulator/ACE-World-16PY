@@ -1,49 +1,45 @@
-/* Weenie - Flaming Dabus (3776) */
-DELETE FROM weenie WHERE class_Id = 3776;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3776, 'dabusfire', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3776, 001 /* NAME_STRING */, 'Flaming Dabus');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3776, 001 /* SETUP_DID */, 33555736)
-     , (3776, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3776, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3776, 007 /* CLOTHINGBASE_DID */, 268435793)
-     , (3776, 008 /* ICON_DID */, 100667588)
-     , (3776, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3776, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3776, 046 /* TSYS_MUTATION_FILTER_DID */, 939524099);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3776', 'dabusfire', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3776, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3776, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (3776, 005 /* ENCUMB_VAL_INT */, 600)
-     , (3776, 008 /* MASS_INT */, 400)
-     , (3776, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3776, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3776, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (3776, 019 /* VALUE_INT */, 525)
-     , (3776, 044 /* DAMAGE_INT */, 10)
-     , (3776, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (3776, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3776, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (3776, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (3776, 049 /* WEAPON_TIME_INT */, 35)
-     , (3776, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3776, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3776, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3776, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3776, 169 /* TSYS_MUTATION_DATA_INT */, 101189386);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3776, 021 /* WEAPON_LENGTH_FLOAT */, 0.66)
-     , (3776, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3776, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3776, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3776,   1,          1) /* ItemType - MeleeWeapon */
+     , (3776,   3,         20) /* PaletteTemplate - Silver */
+     , (3776,   5,        600) /* EncumbranceVal */
+     , (3776,   8,        400) /* Mass */
+     , (3776,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3776,  16,          1) /* ItemUseable - No */
+     , (3776,  18,         32) /* UiEffects - Fire */
+     , (3776,  19,        525) /* Value */
+     , (3776,  44,         10) /* Damage */
+     , (3776,  45,         16) /* DamageType - Fire */
+     , (3776,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3776,  47,          4) /* AttackType - Slash */
+     , (3776,  48,          5) /* WeaponSkill - Mace */
+     , (3776,  49,         35) /* WeaponTime */
+     , (3776,  51,          1) /* CombatUse - Melee */
+     , (3776,  93,       1044) /* PhysicsState */
+     , (3776, 150,        103) /* HookPlacement - Hook */
+     , (3776, 151,          2) /* HookType - Wall */
+     , (3776, 169,  101189386) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3776, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3776,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3776,  21,    0.66) /* WeaponLength */
+     , (3776,  22,     0.5) /* DamageVariance */
+     , (3776,  29,       1) /* WeaponDefense */
+     , (3776,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3776,   1, 'Flaming Dabus') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3776,   1,   33555736) /* Setup */
+     , (3776,   3,  536870932) /* SoundTable */
+     , (3776,   6,   67111919) /* PaletteBase */
+     , (3776,   7,  268435793) /* ClothingBase */
+     , (3776,   8,  100667588) /* Icon */
+     , (3776,  22,  872415275) /* PhysicsEffectTable */
+     , (3776,  36,  234881053) /* MutateFilter */
+     , (3776,  46,  939524099) /* TsysMutationFilter */;

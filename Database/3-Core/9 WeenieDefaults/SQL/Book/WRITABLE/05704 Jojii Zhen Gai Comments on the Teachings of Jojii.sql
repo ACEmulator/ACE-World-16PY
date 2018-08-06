@@ -1,37 +1,34 @@
-/* Weenie - Jojii Zhen Gai Comments on the Teachings of Jojii (5704) */
-DELETE FROM weenie WHERE class_Id = 5704;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5704, 'lecternzojiizhen', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5704, 001 /* NAME_STRING */, 'Jojii Zhen Gai Comments on the Teachings of Jojii');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5704, 001 /* SETUP_DID */, 33556013)
-     , (5704, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5704, 008 /* ICON_DID */, 100668236)
-     , (5704, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5704', 'lecternzojiizhen', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5704, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5704, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5704, 008 /* MASS_INT */, 5)
-     , (5704, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5704, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5704, 019 /* VALUE_INT */, 10)
-     , (5704, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5704, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5704,   1,       8192) /* ItemType - Writable */
+     , (5704,   5,         25) /* EncumbranceVal */
+     , (5704,   8,          5) /* Mass */
+     , (5704,   9,          0) /* ValidLocations - None */
+     , (5704,  16,          8) /* ItemUseable - Contained */
+     , (5704,  19,         10) /* Value */
+     , (5704,  93,       1040) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5704, 001 /* STUCK_BOOL */, True)
-     , (5704, 013 /* ETHEREAL_BOOL */, False)
-     , (5704, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5704,   1, True ) /* Stuck */
+     , (5704,  13, False) /* Ethereal */
+     , (5704,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5704,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5704,   1, 'Jojii Zhen Gai Comments on the Teachings of Jojii') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5704,   1,   33556013) /* Setup */
+     , (5704,   3,  536870932) /* SoundTable */
+     , (5704,   8,  100668236) /* Icon */
+     , (5704,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5704, 25, 1000) /* Book Data */;
+VALUES (5704, 25, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5704, 0, 4294967295, 'The Teachings of Jojii', 'prewritten', False, '[Herein are some of the teachings of Master Jojii.  The comments of later scholars are included in this telling, enriching and deepening our understanding.  
@@ -125,4 +122,3 @@ And then, smiling, he passed on.
 ')
      , (5704, 24, 4294967295, 'The Teachings of Jojii', 'prewritten', False, 'We, of the Jojii Zhen Gai, recognize that all Four Stones must be studied and learned by anyone seeking rest in Paradise, but we know that, so long as Mankind is flawed, each person will tend to cling to but one facet.  In the hopes of one day unifying the Four Stones into the perfection of humanity, we wait.]
 ');
-

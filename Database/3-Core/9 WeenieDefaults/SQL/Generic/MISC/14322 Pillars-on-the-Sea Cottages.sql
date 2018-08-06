@@ -1,28 +1,24 @@
-/* Weenie - Pillars-on-the-Sea Cottages (14322) */
-DELETE FROM weenie WHERE class_Id = 14322;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14322, 'pillarsontheseacottagessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14322, 001 /* NAME_STRING */, 'Pillars-on-the-Sea Cottages')
-     , (14322, 016 /* LONG_DESC_STRING */, 'Welcome to Pillars-on-the-Sea Cottages');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14322, 001 /* SETUP_DID */, 33557463)
-     , (14322, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14322', 'pillarsontheseacottagessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14322, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14322, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14322, 008 /* MASS_INT */, 1800)
-     , (14322, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14322, 019 /* VALUE_INT */, 125)
-     , (14322, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14322,   1,        128) /* ItemType - Misc */
+     , (14322,   5,       9000) /* EncumbranceVal */
+     , (14322,   8,       1800) /* Mass */
+     , (14322,  16,          1) /* ItemUseable - No */
+     , (14322,  19,        125) /* Value */
+     , (14322,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14322, 001 /* STUCK_BOOL */, True)
-     , (14322, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14322, 013 /* ETHEREAL_BOOL */, False)
-     , (14322, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14322,   1, True ) /* Stuck */
+     , (14322,  12, True ) /* ReportCollisions */
+     , (14322,  13, False) /* Ethereal */
+     , (14322,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14322,   1, 'Pillars-on-the-Sea Cottages') /* Name */
+     , (14322,  16, 'Welcome to Pillars-on-the-Sea Cottages') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14322,   1,   33557463) /* Setup */
+     , (14322,   8,  100668115) /* Icon */;

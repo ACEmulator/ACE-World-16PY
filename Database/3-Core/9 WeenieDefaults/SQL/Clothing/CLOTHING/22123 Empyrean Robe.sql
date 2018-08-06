@@ -1,44 +1,40 @@
-/* Weenie - Empyrean Robe (22123) */
-DELETE FROM weenie WHERE class_Id = 22123;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22123, 'robeempyrean', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22123, 001 /* NAME_STRING */, 'Empyrean Robe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22123, 001 /* SETUP_DID */, 33554854)
-     , (22123, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22123, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (22123, 007 /* CLOTHINGBASE_DID */, 268436482)
-     , (22123, 008 /* ICON_DID */, 100670349)
-     , (22123, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (22123, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22123', 'robeempyrean', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22123, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (22123, 003 /* PALETTE_TEMPLATE_INT */, 22 /* AQUA_PALETTE_TEMPLATE */)
-     , (22123, 004 /* CLOTHING_PRIORITY_INT */, 81664 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */)
-     , (22123, 005 /* ENCUMB_VAL_INT */, 200)
-     , (22123, 008 /* MASS_INT */, 150)
-     , (22123, 009 /* LOCATIONS_INT */, 32512 /* FOOT_WEAR_LOC, ARMOR_LOC */)
-     , (22123, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22123, 019 /* VALUE_INT */, 50)
-     , (22123, 027 /* ARMOR_TYPE_INT */, 1)
-     , (22123, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (22123, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22123, 012 /* SHADE_FLOAT */, 0.5)
-     , (22123, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (22123, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (22123, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (22123, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (22123, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (22123, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (22123, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (22123,   1,          4) /* ItemType - Clothing */
+     , (22123,   3,         22) /* PaletteTemplate - Aqua */
+     , (22123,   4,      81664) /* ClothingPriority */
+     , (22123,   5,        200) /* EncumbranceVal */
+     , (22123,   8,        150) /* Mass */
+     , (22123,   9,      32512) /* ValidLocations - Armor */
+     , (22123,  16,          1) /* ItemUseable - No */
+     , (22123,  19,         50) /* Value */
+     , (22123,  27,          1) /* ArmorType */
+     , (22123,  28,          0) /* ArmorLevel */
+     , (22123,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22123, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22123,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22123,  12,     0.5) /* Shade */
+     , (22123,  13,     0.8) /* ArmorModVsSlash */
+     , (22123,  14,     0.8) /* ArmorModVsPierce */
+     , (22123,  15,       1) /* ArmorModVsBludgeon */
+     , (22123,  16,     0.2) /* ArmorModVsCold */
+     , (22123,  17,     0.2) /* ArmorModVsFire */
+     , (22123,  18,     0.1) /* ArmorModVsAcid */
+     , (22123,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22123,   1, 'Empyrean Robe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22123,   1,   33554854) /* Setup */
+     , (22123,   3,  536870932) /* SoundTable */
+     , (22123,   6,   67108990) /* PaletteBase */
+     , (22123,   7,  268436482) /* ClothingBase */
+     , (22123,   8,  100670349) /* Icon */
+     , (22123,  22,  872415275) /* PhysicsEffectTable */
+     , (22123,  36,  234881046) /* MutateFilter */;

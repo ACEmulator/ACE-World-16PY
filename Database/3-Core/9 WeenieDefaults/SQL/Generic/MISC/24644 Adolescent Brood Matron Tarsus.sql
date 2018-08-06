@@ -1,32 +1,28 @@
-/* Weenie - Adolescent Brood Matron Tarsus (24644) */
-DELETE FROM weenie WHERE class_Id = 24644;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24644, 'broodmatrontarsushigh', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24644, 001 /* NAME_STRING */, 'Adolescent Brood Matron Tarsus')
-     , (24644, 015 /* SHORT_DESC_STRING */, 'The tarsus of a departed Adolescent Olthoi Brood Matron.')
-     , (24644, 033 /* QUEST_STRING */, 'PickedUpBroodMatronTarsus');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24644, 001 /* SETUP_DID */, 33556593)
-     , (24644, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24644, 008 /* ICON_DID */, 100674518)
-     , (24644, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24644', 'broodmatrontarsushigh', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24644, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24644, 005 /* ENCUMB_VAL_INT */, 50)
-     , (24644, 008 /* MASS_INT */, 50)
-     , (24644, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24644, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24644, 019 /* VALUE_INT */, 0)
-     , (24644, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (24644, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24644, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (24644,   1,        128) /* ItemType - Misc */
+     , (24644,   5,         50) /* EncumbranceVal */
+     , (24644,   8,         50) /* Mass */
+     , (24644,   9,          0) /* ValidLocations - None */
+     , (24644,  16,          1) /* ItemUseable - No */
+     , (24644,  19,          0) /* Value */
+     , (24644,  33,          1) /* Bonded - Bonded */
+     , (24644,  93,       1044) /* PhysicsState */
+     , (24644, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24644, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24644, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24644,  22, True ) /* Inscribable */
+     , (24644,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24644,   1, 'Adolescent Brood Matron Tarsus') /* Name */
+     , (24644,  15, 'The tarsus of a departed Adolescent Olthoi Brood Matron.') /* ShortDesc */
+     , (24644,  33, 'PickedUpBroodMatronTarsus') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24644,   1,   33556593) /* Setup */
+     , (24644,   3,  536870932) /* SoundTable */
+     , (24644,   8,  100674518) /* Icon */
+     , (24644,  22,  872415275) /* PhysicsEffectTable */;

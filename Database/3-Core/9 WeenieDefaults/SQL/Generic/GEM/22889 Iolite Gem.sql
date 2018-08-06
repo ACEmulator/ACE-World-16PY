@@ -1,30 +1,26 @@
-/* Weenie - Iolite Gem (22889) */
-DELETE FROM weenie WHERE class_Id = 22889;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22889, 'gemiolite', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22889, 001 /* NAME_STRING */, 'Iolite Gem')
-     , (22889, 015 /* SHORT_DESC_STRING */, 'an Iolite gem')
-     , (22889, 016 /* LONG_DESC_STRING */, 'A gem of pure Iolite');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22889, 001 /* SETUP_DID */, 33554809)
-     , (22889, 008 /* ICON_DID */, 100673904);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22889', 'gemiolite', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22889, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22889, 005 /* ENCUMB_VAL_INT */, 50)
-     , (22889, 008 /* MASS_INT */, 25)
-     , (22889, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22889, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22889, 019 /* VALUE_INT */, 75)
-     , (22889, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22889, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22889, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (22889,   1,       2048) /* ItemType - Gem */
+     , (22889,   5,         50) /* EncumbranceVal */
+     , (22889,   8,         25) /* Mass */
+     , (22889,   9,          0) /* ValidLocations - None */
+     , (22889,  16,          1) /* ItemUseable - No */
+     , (22889,  19,         75) /* Value */
+     , (22889,  33,          1) /* Bonded - Bonded */
+     , (22889,  93,       1044) /* PhysicsState */
+     , (22889, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22889, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22889, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22889,  22, True ) /* Inscribable */
+     , (22889,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22889,   1, 'Iolite Gem') /* Name */
+     , (22889,  15, 'an Iolite gem') /* ShortDesc */
+     , (22889,  16, 'A gem of pure Iolite') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22889,   1,   33554809) /* Setup */
+     , (22889,   8,  100673904) /* Icon */;

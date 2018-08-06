@@ -1,48 +1,44 @@
-/* Weenie - Ring of Crystals Estates Portal Gem (26331) */
-DELETE FROM weenie WHERE class_Id = 26331;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26331, 'gemportalringofcrystalsestates', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26331, 001 /* NAME_STRING */, 'Ring of Crystals Estates Portal Gem')
-     , (26331, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26331, 001 /* SETUP_DID */, 33556769)
-     , (26331, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26331, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26331, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26331, 008 /* ICON_DID */, 100675760)
-     , (26331, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26331, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26331, 031 /* LINKED_PORTAL_ONE_DID */, 13121 /* Ring of Crystals Estates Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26331', 'gemportalringofcrystalsestates', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26331, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26331, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26331, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26331, 008 /* MASS_INT */, 10)
-     , (26331, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26331, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26331, 012 /* STACK_SIZE_INT */, 1)
-     , (26331, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26331, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26331, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26331, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26331, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26331, 019 /* VALUE_INT */, 500)
-     , (26331, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26331, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26331, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26331, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26331, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26331, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26331, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26331, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26331, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26331,   1,       2048) /* ItemType - Gem */
+     , (26331,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26331,   5,         10) /* EncumbranceVal */
+     , (26331,   8,         10) /* Mass */
+     , (26331,   9,          0) /* ValidLocations - None */
+     , (26331,  11,         20) /* MaxStackSize */
+     , (26331,  12,          1) /* StackSize */
+     , (26331,  13,         10) /* StackUnitEncumbrance */
+     , (26331,  14,         10) /* StackUnitMass */
+     , (26331,  15,        500) /* StackUnitValue */
+     , (26331,  16,          8) /* ItemUseable - Contained */
+     , (26331,  18,          1) /* UiEffects - Magical */
+     , (26331,  19,        500) /* Value */
+     , (26331,  93,       3092) /* PhysicsState */
+     , (26331,  94,         16) /* TargetType - Creature */
+     , (26331, 106,        210) /* ItemSpellcraft */
+     , (26331, 107,         50) /* ItemCurMana */
+     , (26331, 108,         50) /* ItemMaxMana */
+     , (26331, 109,          0) /* ItemDifficulty */
+     , (26331, 110,          0) /* ItemAllegianceRankLimit */
+     , (26331, 150,        103) /* HookPlacement - Hook */
+     , (26331, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26331, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26331, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26331,  15, True ) /* LightsStatus */
+     , (26331,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26331,   1, 'Ring of Crystals Estates Portal Gem') /* Name */
+     , (26331,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26331,   1,   33556769) /* Setup */
+     , (26331,   3,  536870932) /* SoundTable */
+     , (26331,   6,   67111919) /* PaletteBase */
+     , (26331,   7,  268435723) /* ClothingBase */
+     , (26331,   8,  100675760) /* Icon */
+     , (26331,  22,  872415275) /* PhysicsEffectTable */
+     , (26331,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26331,  31,      13121) /* LinkedPortalOne - Ring of Crystals Estates Portal */;

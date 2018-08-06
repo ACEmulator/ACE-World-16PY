@@ -1,51 +1,47 @@
-/* Weenie - Fire Spike (23878) */
-DELETE FROM weenie WHERE class_Id = 23878;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23878, 'spikefire', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23878, 001 /* NAME_STRING */, 'Fire Spike');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23878, 001 /* SETUP_DID */, 33558221)
-     , (23878, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23878, 008 /* ICON_DID */, 100674063)
-     , (23878, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23878', 'spikefire', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23878, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (23878, 005 /* ENCUMB_VAL_INT */, 5)
-     , (23878, 008 /* MASS_INT */, 5)
-     , (23878, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (23878, 011 /* MAX_STACK_SIZE_INT */, 250)
-     , (23878, 012 /* STACK_SIZE_INT */, 1)
-     , (23878, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (23878, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (23878, 015 /* STACK_UNIT_VALUE_INT */, 5)
-     , (23878, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23878, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (23878, 019 /* VALUE_INT */, 5)
-     , (23878, 044 /* DAMAGE_INT */, 50)
-     , (23878, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (23878, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (23878, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (23878, 049 /* WEAPON_TIME_INT */, 10)
-     , (23878, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (23878, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (23878, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23878, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23878, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.2)
-     , (23878, 027 /* ROTATION_SPEED_FLOAT */, 0)
-     , (23878, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (23878, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (23878, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (23878, 078 /* FRICTION_FLOAT */, 1)
-     , (23878, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (23878,   1,        256) /* ItemType - MissileWeapon */
+     , (23878,   5,          5) /* EncumbranceVal */
+     , (23878,   8,          5) /* Mass */
+     , (23878,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (23878,  11,        250) /* MaxStackSize */
+     , (23878,  12,          1) /* StackSize */
+     , (23878,  13,          5) /* StackUnitEncumbrance */
+     , (23878,  14,          5) /* StackUnitMass */
+     , (23878,  15,          5) /* StackUnitValue */
+     , (23878,  16,          1) /* ItemUseable - No */
+     , (23878,  18,         32) /* UiEffects - Fire */
+     , (23878,  19,          5) /* Value */
+     , (23878,  44,         50) /* Damage */
+     , (23878,  45,         16) /* DamageType - Fire */
+     , (23878,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (23878,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (23878,  49,         10) /* WeaponTime */
+     , (23878,  51,          2) /* CombatUse - Missle */
+     , (23878,  93,     132116) /* PhysicsState */
+     , (23878, 150,        103) /* HookPlacement - Hook */
+     , (23878, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23878, 017 /* INELASTIC_BOOL */, True)
-     , (23878, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (23878,  17, True ) /* Inelastic */
+     , (23878,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23878,  22,     0.2) /* DamageVariance */
+     , (23878,  27,       0) /* RotationSpeed */
+     , (23878,  29,       1) /* WeaponDefense */
+     , (23878,  39,       1) /* DefaultScale */
+     , (23878,  62,       1) /* WeaponOffense */
+     , (23878,  78,       1) /* Friction */
+     , (23878,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23878,   1, 'Fire Spike') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23878,   1,   33558221) /* Setup */
+     , (23878,   3,  536870932) /* SoundTable */
+     , (23878,   8,  100674063) /* Icon */
+     , (23878,  22,  872415275) /* PhysicsEffectTable */;

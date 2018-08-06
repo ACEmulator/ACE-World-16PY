@@ -1,54 +1,50 @@
-/* Weenie - Crystal-tip quarrel (7997) */
-DELETE FROM weenie WHERE class_Id = 7997;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7997, 'boltcrystaltip', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7997, 001 /* NAME_STRING */, 'Crystal-tip quarrel')
-     , (7997, 014 /* USE_STRING */, 'Used as ammunition by crystal crossbows.')
-     , (7997, 015 /* SHORT_DESC_STRING */, 'A crystal-tipped quarrel.')
-     , (7997, 016 /* LONG_DESC_STRING */, 'A crystal-tipped quarrel that appears to do fire damage.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7997, 001 /* SETUP_DID */, 33556748)
-     , (7997, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7997, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7997, 007 /* CLOTHINGBASE_DID */, 268436306)
-     , (7997, 008 /* ICON_DID */, 100670967)
-     , (7997, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7997', 'boltcrystaltip', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7997, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (7997, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (7997, 005 /* ENCUMB_VAL_INT */, 10)
-     , (7997, 008 /* MASS_INT */, 2)
-     , (7997, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
-     , (7997, 011 /* MAX_STACK_SIZE_INT */, 250)
-     , (7997, 012 /* STACK_SIZE_INT */, 1)
-     , (7997, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (7997, 014 /* STACK_UNIT_MASS_INT */, 2)
-     , (7997, 015 /* STACK_UNIT_VALUE_INT */, 7)
-     , (7997, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7997, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (7997, 019 /* VALUE_INT */, 7)
-     , (7997, 044 /* DAMAGE_INT */, 24)
-     , (7997, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (7997, 050 /* AMMO_TYPE_INT */, 16 /*  */)
-     , (7997, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
-     , (7997, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (7997, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (7997, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7997, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.1)
-     , (7997, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (7997, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (7997, 076 /* TRANSLUCENCY_FLOAT */, 0.4)
-     , (7997, 078 /* FRICTION_FLOAT */, 1)
-     , (7997, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (7997,   1,        256) /* ItemType - MissileWeapon */
+     , (7997,   3,          2) /* PaletteTemplate - Blue */
+     , (7997,   5,         10) /* EncumbranceVal */
+     , (7997,   8,          2) /* Mass */
+     , (7997,   9,    8388608) /* ValidLocations - MissileAmmo */
+     , (7997,  11,        250) /* MaxStackSize */
+     , (7997,  12,          1) /* StackSize */
+     , (7997,  13,         10) /* StackUnitEncumbrance */
+     , (7997,  14,          2) /* StackUnitMass */
+     , (7997,  15,          7) /* StackUnitValue */
+     , (7997,  16,          1) /* ItemUseable - No */
+     , (7997,  18,         32) /* UiEffects - Fire */
+     , (7997,  19,          7) /* Value */
+     , (7997,  44,         24) /* Damage */
+     , (7997,  45,         16) /* DamageType - Fire */
+     , (7997,  50,         16) /* AmmoType */
+     , (7997,  51,          3) /* CombatUse - Ammo */
+     , (7997,  93,     132116) /* PhysicsState */
+     , (7997, 150,        103) /* HookPlacement - Hook */
+     , (7997, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7997, 017 /* INELASTIC_BOOL */, True)
-     , (7997, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7997,  17, True ) /* Inelastic */
+     , (7997,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7997,  22,     0.1) /* DamageVariance */
+     , (7997,  29,       1) /* WeaponDefense */
+     , (7997,  62,       1) /* WeaponOffense */
+     , (7997,  76,     0.4) /* Translucency */
+     , (7997,  78,       1) /* Friction */
+     , (7997,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7997,   1, 'Crystal-tip quarrel') /* Name */
+     , (7997,  14, 'Used as ammunition by crystal crossbows.') /* Use */
+     , (7997,  15, 'A crystal-tipped quarrel.') /* ShortDesc */
+     , (7997,  16, 'A crystal-tipped quarrel that appears to do fire damage.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7997,   1,   33556748) /* Setup */
+     , (7997,   3,  536870932) /* SoundTable */
+     , (7997,   6,   67111919) /* PaletteBase */
+     , (7997,   7,  268436306) /* ClothingBase */
+     , (7997,   8,  100670967) /* Icon */
+     , (7997,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,42 +1,38 @@
-/* Weenie - Berimphur Dye Pot (8045) */
-DELETE FROM weenie WHERE class_Id = 8045;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8045, 'potdyedarkyellow', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8045, 001 /* NAME_STRING */, 'Berimphur Dye Pot')
-     , (8045, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (8045, 015 /* SHORT_DESC_STRING */, 'A pot with dye made from the crushed leaves of a dark yellow berimphur plant. The stench it gives off is overwhelmingly noxious. If applied improperly, the dye could harm the target''s color and armor value permanently. ')
-     , (8045, 016 /* LONG_DESC_STRING */, 'A pot with dye made from the crushed leaves of a dark yellow berimphur plant. The stench it gives off is overwhelmingly noxious. If applied improperly, the dye could harm the target''s color and armor value permanently. ')
-     , (8045, 020 /* PLURAL_NAME_STRING */, 'Berimphur Dye Pots');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8045, 001 /* SETUP_DID */, 33556753)
-     , (8045, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8045, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8045, 007 /* CLOTHINGBASE_DID */, 268436036)
-     , (8045, 008 /* ICON_DID */, 100670264)
-     , (8045, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8045', 'potdyedarkyellow', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8045, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (8045, 003 /* PALETTE_TEMPLATE_INT */, 86 /* DYEDARKYELLOW_PALETTE_TEMPLATE */)
-     , (8045, 005 /* ENCUMB_VAL_INT */, 150)
-     , (8045, 008 /* MASS_INT */, 50)
-     , (8045, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8045, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (8045, 012 /* STACK_SIZE_INT */, 1)
-     , (8045, 013 /* STACK_UNIT_ENCUMB_INT */, 150)
-     , (8045, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (8045, 015 /* STACK_UNIT_VALUE_INT */, 100)
-     , (8045, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (8045, 019 /* VALUE_INT */, 100)
-     , (8045, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8045, 094 /* TARGET_TYPE_INT */, 134 /* TYPE_VESTEMENTS, TYPE_MISC */)
-     , (8045, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8045, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (8045,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (8045,   3,         86) /* PaletteTemplate - DyeDarkYellow */
+     , (8045,   5,        150) /* EncumbranceVal */
+     , (8045,   8,         50) /* Mass */
+     , (8045,   9,          0) /* ValidLocations - None */
+     , (8045,  11,        100) /* MaxStackSize */
+     , (8045,  12,          1) /* StackSize */
+     , (8045,  13,        150) /* StackUnitEncumbrance */
+     , (8045,  14,         50) /* StackUnitMass */
+     , (8045,  15,        100) /* StackUnitValue */
+     , (8045,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (8045,  19,        100) /* Value */
+     , (8045,  93,       1044) /* PhysicsState */
+     , (8045,  94,        134) /* TargetType */
+     , (8045, 150,        103) /* HookPlacement - Hook */
+     , (8045, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8045, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (8045,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8045,   1, 'Berimphur Dye Pot') /* Name */
+     , (8045,  14, 'This item is used in cooking.') /* Use */
+     , (8045,  15, 'A pot with dye made from the crushed leaves of a dark yellow berimphur plant. The stench it gives off is overwhelmingly noxious. If applied improperly, the dye could harm the target''s color and armor value permanently. ') /* ShortDesc */
+     , (8045,  16, 'A pot with dye made from the crushed leaves of a dark yellow berimphur plant. The stench it gives off is overwhelmingly noxious. If applied improperly, the dye could harm the target''s color and armor value permanently. ') /* LongDesc */
+     , (8045,  20, 'Berimphur Dye Pots') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8045,   1,   33556753) /* Setup */
+     , (8045,   3,  536870932) /* SoundTable */
+     , (8045,   6,   67111919) /* PaletteBase */
+     , (8045,   7,  268436036) /* ClothingBase */
+     , (8045,   8,  100670264) /* Icon */
+     , (8045,  22,  872415275) /* PhysicsEffectTable */;

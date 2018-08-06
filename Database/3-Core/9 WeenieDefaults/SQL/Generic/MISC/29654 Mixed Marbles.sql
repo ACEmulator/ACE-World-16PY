@@ -1,32 +1,28 @@
-/* Weenie - Mixed Marbles (29654) */
-DELETE FROM weenie WHERE class_Id = 29654;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29654, 'threebagsmixedmarbles', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29654, 001 /* NAME_STRING */, 'Mixed Marbles')
-     , (29654, 016 /* LONG_DESC_STRING */, 'A handful of black and white mixed marbles.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29654, 001 /* SETUP_DID */, 33554809)
-     , (29654, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29654, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (29654, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (29654, 008 /* ICON_DID */, 100677179)
-     , (29654, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29654', 'threebagsmixedmarbles', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29654, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29654, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (29654, 005 /* ENCUMB_VAL_INT */, 1)
-     , (29654, 008 /* MASS_INT */, 1)
-     , (29654, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29654, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29654, 019 /* VALUE_INT */, 0)
-     , (29654, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (29654,   1,        128) /* ItemType - Misc */
+     , (29654,   3,         61) /* PaletteTemplate - White */
+     , (29654,   5,          1) /* EncumbranceVal */
+     , (29654,   8,          1) /* Mass */
+     , (29654,   9,          0) /* ValidLocations - None */
+     , (29654,  16,          1) /* ItemUseable - No */
+     , (29654,  19,          0) /* Value */
+     , (29654,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29654, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29654, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29654,  22, True ) /* Inscribable */
+     , (29654,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29654,   1, 'Mixed Marbles') /* Name */
+     , (29654,  16, 'A handful of black and white mixed marbles.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29654,   1,   33554809) /* Setup */
+     , (29654,   3,  536870932) /* SoundTable */
+     , (29654,   6,   67111919) /* PaletteBase */
+     , (29654,   7,  268435723) /* ClothingBase */
+     , (29654,   8,  100677179) /* Icon */
+     , (29654,  22,  872415275) /* PhysicsEffectTable */;

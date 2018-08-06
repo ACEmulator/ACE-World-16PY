@@ -1,38 +1,34 @@
-/* Weenie - Pass to the Night Club (30538) */
-DELETE FROM weenie WHERE class_Id = 30538;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30538, 'tokencasinonightclub', 51 /* Stackable_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30538, 001 /* NAME_STRING */, 'Pass to the Night Club')
-     , (30538, 016 /* LONG_DESC_STRING */, 'A pass into the exclusive Night Club!  Give this to the master of any of the three gambling dens near Holtburg, Yaraq, or Shoushi to gain entry to the Night Club. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30538, 001 /* SETUP_DID */, 33557006)
-     , (30538, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30538, 006 /* PALETTE_BASE_DID */, 67113173)
-     , (30538, 007 /* CLOTHINGBASE_DID */, 268436162)
-     , (30538, 008 /* ICON_DID */, 100671476)
-     , (30538, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30538', 'tokencasinonightclub', 51) /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30538, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (30538, 005 /* ENCUMB_VAL_INT */, 10)
-     , (30538, 008 /* MASS_INT */, 10)
-     , (30538, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30538, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (30538, 012 /* STACK_SIZE_INT */, 1)
-     , (30538, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (30538, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (30538, 015 /* STACK_UNIT_VALUE_INT */, 100)
-     , (30538, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30538, 019 /* VALUE_INT */, 100)
-     , (30538, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30538, 039 /* DEFAULT_SCALE_FLOAT */, 0.67);
+VALUES (30538,   1,        128) /* ItemType - Misc */
+     , (30538,   5,         10) /* EncumbranceVal */
+     , (30538,   8,         10) /* Mass */
+     , (30538,   9,          0) /* ValidLocations - None */
+     , (30538,  11,        100) /* MaxStackSize */
+     , (30538,  12,          1) /* StackSize */
+     , (30538,  13,         10) /* StackUnitEncumbrance */
+     , (30538,  14,         10) /* StackUnitMass */
+     , (30538,  15,        100) /* StackUnitValue */
+     , (30538,  16,          1) /* ItemUseable - No */
+     , (30538,  19,        100) /* Value */
+     , (30538,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30538, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (30538,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30538,  39,    0.67) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30538,   1, 'Pass to the Night Club') /* Name */
+     , (30538,  16, 'A pass into the exclusive Night Club!  Give this to the master of any of the three gambling dens near Holtburg, Yaraq, or Shoushi to gain entry to the Night Club. ') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30538,   1,   33557006) /* Setup */
+     , (30538,   3,  536870932) /* SoundTable */
+     , (30538,   6,   67113173) /* PaletteBase */
+     , (30538,   7,  268436162) /* ClothingBase */
+     , (30538,   8,  100671476) /* Icon */
+     , (30538,  22,  872415275) /* PhysicsEffectTable */;

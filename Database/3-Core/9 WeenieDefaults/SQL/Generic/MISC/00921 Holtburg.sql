@@ -1,37 +1,33 @@
-/* Weenie - Holtburg (921) */
-DELETE FROM weenie WHERE class_Id = 921;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (921, 'holtburgsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (921, 001 /* NAME_STRING */, 'Holtburg')
-     , (921, 016 /* LONG_DESC_STRING */, 'Welcome to the town of Holtburg.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (921, 001 /* SETUP_DID */, 33556207)
-     , (921, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('921', 'holtburgsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (921, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (921, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (921, 008 /* MASS_INT */, 1800)
-     , (921, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (921, 019 /* VALUE_INT */, 125)
-     , (921, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (921, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (921, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (921, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (921, 043 /* GENERATOR_RADIUS_FLOAT */, 1);
+VALUES (921,   1,        128) /* ItemType - Misc */
+     , (921,   5,       9000) /* EncumbranceVal */
+     , (921,   8,       1800) /* Mass */
+     , (921,  16,          1) /* ItemUseable - No */
+     , (921,  19,        125) /* Value */
+     , (921,  81,          1) /* MaxGeneratedObjects */
+     , (921,  82,          1) /* InitGeneratedObjects */
+     , (921,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (921, 001 /* STUCK_BOOL */, True)
-     , (921, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (921, 013 /* ETHEREAL_BOOL */, False)
-     , (921, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (921,   1, True ) /* Stuck */
+     , (921,  12, True ) /* ReportCollisions */
+     , (921,  13, False) /* Ethereal */
+     , (921,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (921,  41,      60) /* RegenerationInterval */
+     , (921,  43,       1) /* GeneratorRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (921,   1, 'Holtburg') /* Name */
+     , (921,  16, 'Welcome to the town of Holtburg.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (921,   1,   33556207) /* Setup */
+     , (921,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (921, 1, 5773, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Town Crier (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
-
+VALUES (921, 1, 5773, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

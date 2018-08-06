@@ -1,37 +1,33 @@
-/* Weenie - Mugwort (776) */
-DELETE FROM weenie WHERE class_Id = 776;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (776, 'mugwort', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (776, 001 /* NAME_STRING */, 'Mugwort')
-     , (776, 020 /* PLURAL_NAME_STRING */, 'Sacks of Mugwort');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (776, 001 /* SETUP_DID */, 33554817)
-     , (776, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (776, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (776, 007 /* CLOTHINGBASE_DID */, 268435720)
-     , (776, 008 /* ICON_DID */, 100668428)
-     , (776, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (776, 029 /* SPELL_COMPONENT_DID */, 11);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('776', 'mugwort', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (776, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (776, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (776, 005 /* ENCUMB_VAL_INT */, 4)
-     , (776, 008 /* MASS_INT */, 100)
-     , (776, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (776, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (776, 012 /* STACK_SIZE_INT */, 1)
-     , (776, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
-     , (776, 014 /* STACK_UNIT_MASS_INT */, 100)
-     , (776, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (776, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (776, 019 /* VALUE_INT */, 10)
-     , (776, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (776,   1,       4096) /* ItemType - SpellComponents */
+     , (776,   3,          8) /* PaletteTemplate - Green */
+     , (776,   5,          4) /* EncumbranceVal */
+     , (776,   8,        100) /* Mass */
+     , (776,   9,          0) /* ValidLocations - None */
+     , (776,  11,        100) /* MaxStackSize */
+     , (776,  12,          1) /* StackSize */
+     , (776,  13,          4) /* StackUnitEncumbrance */
+     , (776,  14,        100) /* StackUnitMass */
+     , (776,  15,         10) /* StackUnitValue */
+     , (776,  16,          1) /* ItemUseable - No */
+     , (776,  19,         10) /* Value */
+     , (776,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (776, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
+VALUES (776,  39,     0.4) /* DefaultScale */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (776,   1, 'Mugwort') /* Name */
+     , (776,  20, 'Sacks of Mugwort') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (776,   1,   33554817) /* Setup */
+     , (776,   3,  536870932) /* SoundTable */
+     , (776,   6,   67111919) /* PaletteBase */
+     , (776,   7,  268435720) /* ClothingBase */
+     , (776,   8,  100668428) /* Icon */
+     , (776,  22,  872415275) /* PhysicsEffectTable */
+     , (776,  29,         11) /* SpellComponent */;

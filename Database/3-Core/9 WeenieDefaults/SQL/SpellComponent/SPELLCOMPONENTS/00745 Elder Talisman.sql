@@ -1,33 +1,29 @@
-/* Weenie - Elder Talisman (745) */
-DELETE FROM weenie WHERE class_Id = 745;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (745, 'eldertalisman', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (745, 001 /* NAME_STRING */, 'Elder Talisman');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (745, 001 /* SETUP_DID */, 33555207)
-     , (745, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (745, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (745, 007 /* CLOTHINGBASE_DID */, 268435722)
-     , (745, 008 /* ICON_DID */, 100668397)
-     , (745, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (745, 029 /* SPELL_COMPONENT_DID */, 58);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('745', 'eldertalisman', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (745, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (745, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (745, 005 /* ENCUMB_VAL_INT */, 4)
-     , (745, 008 /* MASS_INT */, 100)
-     , (745, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (745, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (745, 012 /* STACK_SIZE_INT */, 1)
-     , (745, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
-     , (745, 014 /* STACK_UNIT_MASS_INT */, 100)
-     , (745, 015 /* STACK_UNIT_VALUE_INT */, 5)
-     , (745, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (745, 019 /* VALUE_INT */, 5)
-     , (745, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (745,   1,       4096) /* ItemType - SpellComponents */
+     , (745,   3,         13) /* PaletteTemplate - Purple */
+     , (745,   5,          4) /* EncumbranceVal */
+     , (745,   8,        100) /* Mass */
+     , (745,   9,          0) /* ValidLocations - None */
+     , (745,  11,        100) /* MaxStackSize */
+     , (745,  12,          1) /* StackSize */
+     , (745,  13,          4) /* StackUnitEncumbrance */
+     , (745,  14,        100) /* StackUnitMass */
+     , (745,  15,          5) /* StackUnitValue */
+     , (745,  16,          1) /* ItemUseable - No */
+     , (745,  19,          5) /* Value */
+     , (745,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (745,   1, 'Elder Talisman') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (745,   1,   33555207) /* Setup */
+     , (745,   3,  536870932) /* SoundTable */
+     , (745,   6,   67111919) /* PaletteBase */
+     , (745,   7,  268435722) /* ClothingBase */
+     , (745,   8,  100668397) /* Icon */
+     , (745,  22,  872415275) /* PhysicsEffectTable */
+     , (745,  29,         58) /* SpellComponent */;

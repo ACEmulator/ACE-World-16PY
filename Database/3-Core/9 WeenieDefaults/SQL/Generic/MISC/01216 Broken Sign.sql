@@ -1,28 +1,24 @@
-/* Weenie - Broken Sign (1216) */
-DELETE FROM weenie WHERE class_Id = 1216;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1216, 'warningsign4', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1216, 001 /* NAME_STRING */, 'Broken Sign')
-     , (1216, 016 /* LONG_DESC_STRING */, 'Gertarh''s Den. You have been warned. Enter and die.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1216, 001 /* SETUP_DID */, 33555088)
-     , (1216, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1216', 'warningsign4', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1216, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (1216, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (1216, 008 /* MASS_INT */, 1800)
-     , (1216, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1216, 019 /* VALUE_INT */, 125)
-     , (1216, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (1216,   1,        128) /* ItemType - Misc */
+     , (1216,   5,       9000) /* EncumbranceVal */
+     , (1216,   8,       1800) /* Mass */
+     , (1216,  16,          1) /* ItemUseable - No */
+     , (1216,  19,        125) /* Value */
+     , (1216,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1216, 001 /* STUCK_BOOL */, True)
-     , (1216, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1216, 013 /* ETHEREAL_BOOL */, False)
-     , (1216, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (1216,   1, True ) /* Stuck */
+     , (1216,  12, True ) /* ReportCollisions */
+     , (1216,  13, False) /* Ethereal */
+     , (1216,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1216,   1, 'Broken Sign') /* Name */
+     , (1216,  16, 'Gertarh''s Den. You have been warned. Enter and die.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1216,   1,   33555088) /* Setup */
+     , (1216,   8,  100668115) /* Icon */;

@@ -1,43 +1,39 @@
-/* Weenie - Hot Air Enter (9015) */
-DELETE FROM weenie WHERE class_Id = 9015;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9015, 'airhotenter', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9015, 001 /* NAME_STRING */, 'Hot Air Enter')
-     , (9015, 017 /* ACTIVATION_TALK_STRING */, 'A sudden gust of hot air burns you for %i points of damage!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9015, 001 /* SETUP_DID */, 33556024)
-     , (9015, 003 /* SOUND_TABLE_DID */, 536870994)
-     , (9015, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9015', 'airhotenter', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9015, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9015, 005 /* ENCUMB_VAL_INT */, 1)
-     , (9015, 008 /* MASS_INT */, 1)
-     , (9015, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9015, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9015, 019 /* VALUE_INT */, 1)
-     , (9015, 044 /* DAMAGE_INT */, 8)
-     , (9015, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (9015, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (9015, 119 /* ACTIVE_INT */, 1);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9015, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (9015, 039 /* DEFAULT_SCALE_FLOAT */, 1.5)
-     , (9015, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 0)
-     , (9015, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0);
+VALUES (9015,   1,        128) /* ItemType - Misc */
+     , (9015,   5,          1) /* EncumbranceVal */
+     , (9015,   8,          1) /* Mass */
+     , (9015,   9,          0) /* ValidLocations - None */
+     , (9015,  16,          1) /* ItemUseable - No */
+     , (9015,  19,          1) /* Value */
+     , (9015,  44,          8) /* Damage */
+     , (9015,  45,         16) /* DamageType - Fire */
+     , (9015,  93,         12) /* PhysicsState */
+     , (9015, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9015, 001 /* STUCK_BOOL */, True)
-     , (9015, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (9015, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (9015, 013 /* ETHEREAL_BOOL */, True)
-     , (9015, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (9015, 018 /* VISIBILITY_BOOL */, True)
-     , (9015, 024 /* UI_HIDDEN_BOOL */, True)
-     , (9015, 055 /* IS_HOT_BOOL */, True);
+VALUES (9015,   1, True ) /* Stuck */
+     , (9015,  11, False) /* IgnoreCollisions */
+     , (9015,  12, True ) /* ReportCollisions */
+     , (9015,  13, True ) /* Ethereal */
+     , (9015,  14, False) /* GravityStatus */
+     , (9015,  18, True ) /* Visibility */
+     , (9015,  24, True ) /* UiHidden */
+     , (9015,  55, True ) /* IsHot */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9015,  22,     0.5) /* DamageVariance */
+     , (9015,  39,     1.5) /* DefaultScale */
+     , (9015, 105,       0) /* HotspotCycleTime */
+     , (9015, 106,       0) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9015,   1, 'Hot Air Enter') /* Name */
+     , (9015,  17, 'A sudden gust of hot air burns you for %i points of damage!') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9015,   1,   33556024) /* Setup */
+     , (9015,   3,  536870994) /* SoundTable */
+     , (9015,   8,  100667465) /* Icon */;

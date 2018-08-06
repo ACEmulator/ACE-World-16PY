@@ -1,25 +1,21 @@
-/* Weenie - Candle (270) */
-DELETE FROM weenie WHERE class_Id = 270;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (270, 'candle', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (270, 001 /* NAME_STRING */, 'Candle');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (270, 001 /* SETUP_DID */, 33554695)
-     , (270, 008 /* ICON_DID */, 100667478);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('270', 'candle', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (270, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (270, 005 /* ENCUMB_VAL_INT */, 50)
-     , (270, 008 /* MASS_INT */, 25)
-     , (270, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (270, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (270, 019 /* VALUE_INT */, 7)
-     , (270, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (270,   1,        128) /* ItemType - Misc */
+     , (270,   5,         50) /* EncumbranceVal */
+     , (270,   8,         25) /* Mass */
+     , (270,   9,          0) /* ValidLocations - None */
+     , (270,  16,          1) /* ItemUseable - No */
+     , (270,  19,          7) /* Value */
+     , (270,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (270, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (270,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (270,   1, 'Candle') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (270,   1,   33554695) /* Setup */
+     , (270,   8,  100667478) /* Icon */;

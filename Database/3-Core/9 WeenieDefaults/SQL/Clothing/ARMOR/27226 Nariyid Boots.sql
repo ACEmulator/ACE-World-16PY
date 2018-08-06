@@ -1,52 +1,48 @@
-/* Weenie - Nariyid Boots (27226) */
-DELETE FROM weenie WHERE class_Id = 27226;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27226, 'bootsnariyid', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27226, 001 /* NAME_STRING */, 'Nariyid Boots');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27226, 001 /* SETUP_DID */, 33554654)
-     , (27226, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27226, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (27226, 007 /* CLOTHINGBASE_DID */, 268436812)
-     , (27226, 008 /* ICON_DID */, 100676176)
-     , (27226, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27226, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (27226, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27226', 'bootsnariyid', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27226, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (27226, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (27226, 004 /* CLOTHING_PRIORITY_INT */, 65536 /* Feet */)
-     , (27226, 005 /* ENCUMB_VAL_INT */, 540)
-     , (27226, 008 /* MASS_INT */, 360)
-     , (27226, 009 /* LOCATIONS_INT */, 256 /* FOOT_WEAR_LOC */)
-     , (27226, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27226, 019 /* VALUE_INT */, 653)
-     , (27226, 027 /* ARMOR_TYPE_INT */, 32)
-     , (27226, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (27226, 044 /* DAMAGE_INT */, 3)
-     , (27226, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (27226, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27226, 169 /* TSYS_MUTATION_DATA_INT */, 151650564);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27226, 012 /* SHADE_FLOAT */, 0.66)
-     , (27226, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (27226, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (27226, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (27226, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (27226, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (27226, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (27226, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
-     , (27226, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (27226, 110 /* BULK_MOD_FLOAT */, 1)
-     , (27226, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (27226,   1,          2) /* ItemType - Armor */
+     , (27226,   3,         20) /* PaletteTemplate - Silver */
+     , (27226,   4,      65536) /* ClothingPriority - Feet */
+     , (27226,   5,        540) /* EncumbranceVal */
+     , (27226,   8,        360) /* Mass */
+     , (27226,   9,        256) /* ValidLocations - FootWear */
+     , (27226,  16,          1) /* ItemUseable - No */
+     , (27226,  19,        653) /* Value */
+     , (27226,  27,         32) /* ArmorType */
+     , (27226,  28,        100) /* ArmorLevel */
+     , (27226,  44,          3) /* Damage */
+     , (27226,  45,          4) /* DamageType - Bludgeon */
+     , (27226,  93,       1044) /* PhysicsState */
+     , (27226, 169,  151650564) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27226, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27226, 100 /* DYABLE_BOOL */, True);
+VALUES (27226,  22, True ) /* Inscribable */
+     , (27226, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27226,  12,    0.66) /* Shade */
+     , (27226,  13,     1.3) /* ArmorModVsSlash */
+     , (27226,  14,       1) /* ArmorModVsPierce */
+     , (27226,  15,       1) /* ArmorModVsBludgeon */
+     , (27226,  16,     0.4) /* ArmorModVsCold */
+     , (27226,  17,     0.4) /* ArmorModVsFire */
+     , (27226,  18,     0.6) /* ArmorModVsAcid */
+     , (27226,  19,     0.4) /* ArmorModVsElectric */
+     , (27226,  22,    0.75) /* DamageVariance */
+     , (27226, 110,       1) /* BulkMod */
+     , (27226, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27226,   1, 'Nariyid Boots') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27226,   1,   33554654) /* Setup */
+     , (27226,   3,  536870932) /* SoundTable */
+     , (27226,   6,   67108990) /* PaletteBase */
+     , (27226,   7,  268436812) /* ClothingBase */
+     , (27226,   8,  100676176) /* Icon */
+     , (27226,  22,  872415275) /* PhysicsEffectTable */
+     , (27226,  36,  234881042) /* MutateFilter */
+     , (27226,  46,  939524146) /* TsysMutationFilter */;

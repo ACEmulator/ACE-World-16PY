@@ -1,37 +1,34 @@
-/* Weenie - Parts List for Arcane Pedestal (20627) */
-DELETE FROM weenie WHERE class_Id = 20627;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20627, 'partslistarcanepedestal', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20627, 001 /* NAME_STRING */, 'Parts List for Arcane Pedestal')
-     , (20627, 015 /* SHORT_DESC_STRING */, 'A hastily written List of parts for an Arcane Pedestal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20627, 001 /* SETUP_DID */, 33554773)
-     , (20627, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20627, 008 /* ICON_DID */, 100668176)
-     , (20627, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20627', 'partslistarcanepedestal', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20627, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20627, 005 /* ENCUMB_VAL_INT */, 25)
-     , (20627, 008 /* MASS_INT */, 5)
-     , (20627, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20627, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20627, 019 /* VALUE_INT */, 5)
-     , (20627, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20627, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (20627,   1,       8192) /* ItemType - Writable */
+     , (20627,   5,         25) /* EncumbranceVal */
+     , (20627,   8,          5) /* Mass */
+     , (20627,   9,          0) /* ValidLocations - None */
+     , (20627,  16,          8) /* ItemUseable - Contained */
+     , (20627,  19,          5) /* Value */
+     , (20627,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20627, 022 /* INSCRIBABLE_BOOL */, False)
-     , (20627, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20627,  22, False) /* Inscribable */
+     , (20627,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20627,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20627,   1, 'Parts List for Arcane Pedestal') /* Name */
+     , (20627,  15, 'A hastily written List of parts for an Arcane Pedestal') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20627,   1,   33554773) /* Setup */
+     , (20627,   3,  536870932) /* SoundTable */
+     , (20627,   8,  100668176) /* Icon */
+     , (20627,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (20627, 1, 1000) /* Book Data */;
+VALUES (20627, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (20627, 0, 4294967295, 'Slithe Tradittor', 'prewritten', False, '
@@ -42,4 +39,3 @@ A Bronze Coil from a bronze Sclavus Statue
 A Bronze Spring from a bronze Skeleton Statue
 
 ');
-

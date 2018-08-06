@@ -1,38 +1,34 @@
-/* Weenie - Peppermint Hot Chocolate (14770) */
-DELETE FROM weenie WHERE class_Id = 14770;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14770, 'hotchocolatepeppermint', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14770, 001 /* NAME_STRING */, 'Peppermint Hot Chocolate')
-     , (14770, 014 /* USE_STRING */, 'Use this item to drink it.')
-     , (14770, 015 /* SHORT_DESC_STRING */, 'A cup of rich minty Hot Chocolate.')
-     , (14770, 020 /* PLURAL_NAME_STRING */, 'Cups of Peppermint Hot Chocolate');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14770, 001 /* SETUP_DID */, 33554662)
-     , (14770, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14770, 008 /* ICON_DID */, 100672556)
-     , (14770, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (14770, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14770', 'hotchocolatepeppermint', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14770, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (14770, 005 /* ENCUMB_VAL_INT */, 50)
-     , (14770, 008 /* MASS_INT */, 25)
-     , (14770, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14770, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (14770, 012 /* STACK_SIZE_INT */, 1)
-     , (14770, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (14770, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (14770, 015 /* STACK_UNIT_VALUE_INT */, 60)
-     , (14770, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (14770, 019 /* VALUE_INT */, 60)
-     , (14770, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (14770, 090 /* BOOST_VALUE_INT */, 40)
-     , (14770, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14770,   1,         32) /* ItemType - Food */
+     , (14770,   5,         50) /* EncumbranceVal */
+     , (14770,   8,         25) /* Mass */
+     , (14770,   9,          0) /* ValidLocations - None */
+     , (14770,  11,        100) /* MaxStackSize */
+     , (14770,  12,          1) /* StackSize */
+     , (14770,  13,         50) /* StackUnitEncumbrance */
+     , (14770,  14,         25) /* StackUnitMass */
+     , (14770,  15,         60) /* StackUnitValue */
+     , (14770,  16,          8) /* ItemUseable - Contained */
+     , (14770,  19,         60) /* Value */
+     , (14770,  89,          4) /* BoosterEnum - Stamina */
+     , (14770,  90,         40) /* BoostValue */
+     , (14770,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14770, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14770,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14770,   1, 'Peppermint Hot Chocolate') /* Name */
+     , (14770,  14, 'Use this item to drink it.') /* Use */
+     , (14770,  15, 'A cup of rich minty Hot Chocolate.') /* ShortDesc */
+     , (14770,  20, 'Cups of Peppermint Hot Chocolate') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14770,   1,   33554662) /* Setup */
+     , (14770,   3,  536870932) /* SoundTable */
+     , (14770,   8,  100672556) /* Icon */
+     , (14770,  22,  872415275) /* PhysicsEffectTable */
+     , (14770,  23,         65) /* UseSound - Drink1 */;

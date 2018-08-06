@@ -1,43 +1,39 @@
-/* Weenie - Untranslated Note (25695) */
-DELETE FROM weenie WHERE class_Id = 25695;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25695, 'notedeepplaces3untranslated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25695, 001 /* NAME_STRING */, 'Untranslated Note')
-     , (25695, 016 /* LONG_DESC_STRING */, 'A note written in Empyrean script. It appears to be Dericost in nature.')
-     , (25695, 033 /* QUEST_STRING */, 'DeepPlaces3');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25695, 001 /* SETUP_DID */, 33554773)
-     , (25695, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25695, 008 /* ICON_DID */, 100668176)
-     , (25695, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25695', 'notedeepplaces3untranslated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25695, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (25695, 005 /* ENCUMB_VAL_INT */, 25)
-     , (25695, 008 /* MASS_INT */, 5)
-     , (25695, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25695, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (25695, 019 /* VALUE_INT */, 0)
-     , (25695, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25695, 037 /* RESIST_ITEM_APPRAISAL_INT */, 50)
-     , (25695, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25695, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25695, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (25695,   1,       8192) /* ItemType - Writable */
+     , (25695,   5,         25) /* EncumbranceVal */
+     , (25695,   8,          5) /* Mass */
+     , (25695,   9,          0) /* ValidLocations - None */
+     , (25695,  16,          8) /* ItemUseable - Contained */
+     , (25695,  19,          0) /* Value */
+     , (25695,  33,          1) /* Bonded - Bonded */
+     , (25695,  37,         50) /* ResistItemAppraisal */
+     , (25695,  93,       1044) /* PhysicsState */
+     , (25695, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25695, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (25695,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25695,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25695,   1, 'Untranslated Note') /* Name */
+     , (25695,  16, 'A note written in Empyrean script. It appears to be Dericost in nature.') /* LongDesc */
+     , (25695,  33, 'DeepPlaces3') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25695,   1,   33554773) /* Setup */
+     , (25695,   3,  536870932) /* SoundTable */
+     , (25695,   8,  100668176) /* Icon */
+     , (25695,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (25695, 1, 1000) /* Book Data */;
+VALUES (25695, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (25695, 0, 4294967295, 'Untranslated Text', 'prewritten', False, '
 [You cannot translate this text]
 ');
-

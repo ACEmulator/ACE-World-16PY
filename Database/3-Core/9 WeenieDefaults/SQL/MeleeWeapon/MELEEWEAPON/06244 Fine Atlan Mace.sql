@@ -1,49 +1,45 @@
-/* Weenie - Fine Atlan Mace (6244) */
-DELETE FROM weenie WHERE class_Id = 6244;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6244, 'macegoodnostone', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6244, 001 /* NAME_STRING */, 'Fine Atlan Mace');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6244, 001 /* SETUP_DID */, 33556259)
-     , (6244, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6244, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6244, 007 /* CLOTHINGBASE_DID */, 268435878)
-     , (6244, 008 /* ICON_DID */, 100670539)
-     , (6244, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6244', 'macegoodnostone', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6244, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6244, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (6244, 005 /* ENCUMB_VAL_INT */, 600)
-     , (6244, 008 /* MASS_INT */, 1000)
-     , (6244, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6244, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6244, 019 /* VALUE_INT */, 3000)
-     , (6244, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6244, 044 /* DAMAGE_INT */, 18)
-     , (6244, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (6244, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6244, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (6244, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (6244, 049 /* WEAPON_TIME_INT */, 35)
-     , (6244, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6244, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6244, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6244, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6244, 021 /* WEAPON_LENGTH_FLOAT */, 0.6)
-     , (6244, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (6244, 029 /* WEAPON_DEFENSE_FLOAT */, 1.03)
-     , (6244, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6244, 062 /* WEAPON_OFFENSE_FLOAT */, 1.03);
+VALUES (6244,   1,          1) /* ItemType - MeleeWeapon */
+     , (6244,   3,         39) /* PaletteTemplate - Black */
+     , (6244,   5,        600) /* EncumbranceVal */
+     , (6244,   8,       1000) /* Mass */
+     , (6244,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6244,  16,          1) /* ItemUseable - No */
+     , (6244,  19,       3000) /* Value */
+     , (6244,  33,          1) /* Bonded - Bonded */
+     , (6244,  44,         18) /* Damage */
+     , (6244,  45,          4) /* DamageType - Bludgeon */
+     , (6244,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6244,  47,          4) /* AttackType - Slash */
+     , (6244,  48,          5) /* WeaponSkill - Mace */
+     , (6244,  49,         35) /* WeaponTime */
+     , (6244,  51,          1) /* CombatUse - Melee */
+     , (6244,  93,       1044) /* PhysicsState */
+     , (6244, 150,        103) /* HookPlacement - Hook */
+     , (6244, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6244, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6244, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6244, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6244,  22, True ) /* Inscribable */
+     , (6244,  23, True ) /* DestroyOnSell */
+     , (6244,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6244,  21,     0.6) /* WeaponLength */
+     , (6244,  22,     0.6) /* DamageVariance */
+     , (6244,  29,    1.03) /* WeaponDefense */
+     , (6244,  39,       1) /* DefaultScale */
+     , (6244,  62,    1.03) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6244,   1, 'Fine Atlan Mace') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6244,   1,   33556259) /* Setup */
+     , (6244,   3,  536870932) /* SoundTable */
+     , (6244,   6,   67111919) /* PaletteBase */
+     , (6244,   7,  268435878) /* ClothingBase */
+     , (6244,   8,  100670539) /* Icon */
+     , (6244,  22,  872415275) /* PhysicsEffectTable */;

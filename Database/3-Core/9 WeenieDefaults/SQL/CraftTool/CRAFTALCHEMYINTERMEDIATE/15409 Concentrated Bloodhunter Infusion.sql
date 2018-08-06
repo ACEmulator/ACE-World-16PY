@@ -1,42 +1,38 @@
-/* Weenie - Concentrated Bloodhunter Infusion (15409) */
-DELETE FROM weenie WHERE class_Id = 15409;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15409, 'concentratedbloodhunterinfusion', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15409, 001 /* NAME_STRING */, 'Concentrated Bloodhunter Infusion')
-     , (15409, 014 /* USE_STRING */, 'This item is used in alchemy.')
-     , (15409, 020 /* PLURAL_NAME_STRING */, 'Concentrated Bloodhunter Infusions');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15409, 001 /* SETUP_DID */, 33555965)
-     , (15409, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15409, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (15409, 007 /* CLOTHINGBASE_DID */, 268435814)
-     , (15409, 008 /* ICON_DID */, 100672644)
-     , (15409, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15409', 'concentratedbloodhunterinfusion', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15409, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (15409, 003 /* PALETTE_TEMPLATE_INT */, 76 /* ORANGE_PALETTE_TEMPLATE */)
-     , (15409, 005 /* ENCUMB_VAL_INT */, 15)
-     , (15409, 008 /* MASS_INT */, 5)
-     , (15409, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (15409, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (15409, 012 /* STACK_SIZE_INT */, 1)
-     , (15409, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (15409, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (15409, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (15409, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (15409, 019 /* VALUE_INT */, 500)
-     , (15409, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (15409, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (15409, 094 /* TARGET_TYPE_INT */, 75498496 /* TYPE_USELESS, TYPE_CRAFT_ALCHEMY_BASE, TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (15409, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (15409, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (15409,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (15409,   3,         76) /* PaletteTemplate - Orange */
+     , (15409,   5,         15) /* EncumbranceVal */
+     , (15409,   8,          5) /* Mass */
+     , (15409,   9,          0) /* ValidLocations - None */
+     , (15409,  11,        100) /* MaxStackSize */
+     , (15409,  12,          1) /* StackSize */
+     , (15409,  13,         15) /* StackUnitEncumbrance */
+     , (15409,  14,          5) /* StackUnitMass */
+     , (15409,  15,        500) /* StackUnitValue */
+     , (15409,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (15409,  19,        500) /* Value */
+     , (15409,  33,          1) /* Bonded - Bonded */
+     , (15409,  93,       1044) /* PhysicsState */
+     , (15409,  94,   75498496) /* TargetType */
+     , (15409, 150,        103) /* HookPlacement - Hook */
+     , (15409, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15409, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (15409, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (15409,  23, True ) /* DestroyOnSell */
+     , (15409,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15409,   1, 'Concentrated Bloodhunter Infusion') /* Name */
+     , (15409,  14, 'This item is used in alchemy.') /* Use */
+     , (15409,  20, 'Concentrated Bloodhunter Infusions') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15409,   1,   33555965) /* Setup */
+     , (15409,   3,  536870932) /* SoundTable */
+     , (15409,   6,   67111919) /* PaletteBase */
+     , (15409,   7,  268435814) /* ClothingBase */
+     , (15409,   8,  100672644) /* Icon */
+     , (15409,  22,  872415275) /* PhysicsEffectTable */;

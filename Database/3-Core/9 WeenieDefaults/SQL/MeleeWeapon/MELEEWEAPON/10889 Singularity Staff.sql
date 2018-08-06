@@ -1,61 +1,57 @@
-/* Weenie - Singularity Staff (10889) */
-DELETE FROM weenie WHERE class_Id = 10889;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10889, 'staffsingularity', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10889, 001 /* NAME_STRING */, 'Singularity Staff')
-     , (10889, 015 /* SHORT_DESC_STRING */, 'A staff imbued with Singularity energy.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10889, 001 /* SETUP_DID */, 33557320)
-     , (10889, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10889, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (10889, 007 /* CLOTHINGBASE_DID */, 268436242)
-     , (10889, 008 /* ICON_DID */, 100672603)
-     , (10889, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (10889, 036 /* MUTATE_FILTER_DID */, 234881044)
-     , (10889, 037 /* ITEM_SKILL_LIMIT_DID */, 10);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10889', 'staffsingularity', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10889, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (10889, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (10889, 005 /* ENCUMB_VAL_INT */, 450)
-     , (10889, 008 /* MASS_INT */, 90)
-     , (10889, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (10889, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10889, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (10889, 019 /* VALUE_INT */, 0)
-     , (10889, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (10889, 044 /* DAMAGE_INT */, 9)
-     , (10889, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (10889, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (10889, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (10889, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (10889, 049 /* WEAPON_TIME_INT */, 30)
-     , (10889, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (10889, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (10889, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (10889, 107 /* ITEM_CUR_MANA_INT */, 700)
-     , (10889, 108 /* ITEM_MAX_MANA_INT */, 700)
-     , (10889, 109 /* ITEM_DIFFICULTY_INT */, 200)
-     , (10889, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (10889, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 325);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10889, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (10889, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (10889, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (10889, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (10889, 039 /* DEFAULT_SCALE_FLOAT */, 0.67)
-     , (10889, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (10889,   1,          1) /* ItemType - MeleeWeapon */
+     , (10889,   3,          2) /* PaletteTemplate - Blue */
+     , (10889,   5,        450) /* EncumbranceVal */
+     , (10889,   8,         90) /* Mass */
+     , (10889,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (10889,  16,          1) /* ItemUseable - No */
+     , (10889,  18,          1) /* UiEffects - Magical */
+     , (10889,  19,          0) /* Value */
+     , (10889,  33,         -2) /* Bonded - Destroy */
+     , (10889,  44,          9) /* Damage */
+     , (10889,  45,          4) /* DamageType - Bludgeon */
+     , (10889,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (10889,  47,          6) /* AttackType */
+     , (10889,  48,         10) /* WeaponSkill - Staff */
+     , (10889,  49,         30) /* WeaponTime */
+     , (10889,  51,          1) /* CombatUse - Melee */
+     , (10889,  93,       1044) /* PhysicsState */
+     , (10889, 106,        150) /* ItemSpellcraft */
+     , (10889, 107,        700) /* ItemCurMana */
+     , (10889, 108,        700) /* ItemMaxMana */
+     , (10889, 109,        200) /* ItemDifficulty */
+     , (10889, 114,          1) /* Attuned - Attuned */
+     , (10889, 115,        325) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10889, 022 /* INSCRIBABLE_BOOL */, True)
-     , (10889, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (10889,  22, True ) /* Inscribable */
+     , (10889,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10889,   5,  -0.033) /* ManaRate */
+     , (10889,  21,    1.33) /* WeaponLength */
+     , (10889,  22,     0.5) /* DamageVariance */
+     , (10889,  29,       1) /* WeaponDefense */
+     , (10889,  39,    0.67) /* DefaultScale */
+     , (10889,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10889,   1, 'Singularity Staff') /* Name */
+     , (10889,  15, 'A staff imbued with Singularity energy.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10889,   1,   33557320) /* Setup */
+     , (10889,   3,  536870932) /* SoundTable */
+     , (10889,   6,   67111919) /* PaletteBase */
+     , (10889,   7,  268436242) /* ClothingBase */
+     , (10889,   8,  100672603) /* Icon */
+     , (10889,  22,  872415275) /* PhysicsEffectTable */
+     , (10889,  36,  234881044) /* MutateFilter */
+     , (10889,  37,         10) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10889, 1360, 2) /* EnduranceOther6_SpellID */
-     , (10889, 1616, 2) /* BloodDrinker6_SpellID */;
-
+VALUES (10889,  1360,      2)  /* Endurance Other VI */
+     , (10889,  1616,      2)  /* Aura of Blood Drinker Self VI */;

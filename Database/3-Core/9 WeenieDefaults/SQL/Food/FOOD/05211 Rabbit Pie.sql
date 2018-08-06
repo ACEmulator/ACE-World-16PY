@@ -1,36 +1,32 @@
-/* Weenie - Rabbit Pie (5211) */
-DELETE FROM weenie WHERE class_Id = 5211;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5211, 'rabbitpie', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5211, 001 /* NAME_STRING */, 'Rabbit Pie')
-     , (5211, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5211, 020 /* PLURAL_NAME_STRING */, 'Rabbit Pies');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5211, 001 /* SETUP_DID */, 33555978)
-     , (5211, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5211, 008 /* ICON_DID */, 100670177)
-     , (5211, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5211', 'rabbitpie', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5211, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5211, 005 /* ENCUMB_VAL_INT */, 75)
-     , (5211, 008 /* MASS_INT */, 50)
-     , (5211, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5211, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5211, 012 /* STACK_SIZE_INT */, 1)
-     , (5211, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
-     , (5211, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (5211, 015 /* STACK_UNIT_VALUE_INT */, 30)
-     , (5211, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5211, 019 /* VALUE_INT */, 30)
-     , (5211, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (5211, 090 /* BOOST_VALUE_INT */, 15)
-     , (5211, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5211,   1,         32) /* ItemType - Food */
+     , (5211,   5,         75) /* EncumbranceVal */
+     , (5211,   8,         50) /* Mass */
+     , (5211,   9,          0) /* ValidLocations - None */
+     , (5211,  11,        100) /* MaxStackSize */
+     , (5211,  12,          1) /* StackSize */
+     , (5211,  13,         75) /* StackUnitEncumbrance */
+     , (5211,  14,         50) /* StackUnitMass */
+     , (5211,  15,         30) /* StackUnitValue */
+     , (5211,  16,          8) /* ItemUseable - Contained */
+     , (5211,  19,         30) /* Value */
+     , (5211,  89,          4) /* BoosterEnum - Stamina */
+     , (5211,  90,         15) /* BoostValue */
+     , (5211,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5211, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5211,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5211,   1, 'Rabbit Pie') /* Name */
+     , (5211,  14, 'Use this item to eat it.') /* Use */
+     , (5211,  20, 'Rabbit Pies') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5211,   1,   33555978) /* Setup */
+     , (5211,   3,  536870932) /* SoundTable */
+     , (5211,   8,  100670177) /* Icon */
+     , (5211,  22,  872415275) /* PhysicsEffectTable */;

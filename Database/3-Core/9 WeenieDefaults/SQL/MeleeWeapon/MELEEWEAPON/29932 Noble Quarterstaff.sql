@@ -1,64 +1,60 @@
-/* Weenie - Noble Quarterstaff (29932) */
-DELETE FROM weenie WHERE class_Id = 29932;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29932, 'staffregal', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29932, 001 /* NAME_STRING */, 'Noble Quarterstaff');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29932, 001 /* SETUP_DID */, 33559053)
-     , (29932, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29932, 008 /* ICON_DID */, 100676983)
-     , (29932, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29932', 'staffregal', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29932, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (29932, 005 /* ENCUMB_VAL_INT */, 85)
-     , (29932, 008 /* MASS_INT */, 90)
-     , (29932, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (29932, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29932, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (29932, 019 /* VALUE_INT */, 6000)
-     , (29932, 044 /* DAMAGE_INT */, 28)
-     , (29932, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (29932, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (29932, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (29932, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (29932, 049 /* WEAPON_TIME_INT */, 25)
-     , (29932, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (29932, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29932, 106 /* ITEM_SPELLCRAFT_INT */, 275)
-     , (29932, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (29932, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (29932, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (29932, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29932, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (29932, 158 /* WIELD_REQUIREMENTS_INT */, 1 /* WIELD_REQUIRES_SKILL_WieldRequirement */)
-     , (29932, 159 /* WIELD_SKILLTYPE_INT */, 10 /* STAFF_SKILL */)
-     , (29932, 160 /* WIELD_DIFFICULTY_INT */, 325)
-     , (29932, 166 /* SLAYER_CREATURE_TYPE_INT */, 75 /* Burun_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29932, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (29932, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (29932, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.55)
-     , (29932, 029 /* WEAPON_DEFENSE_FLOAT */, 1.1)
-     , (29932, 039 /* DEFAULT_SCALE_FLOAT */, 0.67)
-     , (29932, 062 /* WEAPON_OFFENSE_FLOAT */, 1.1)
-     , (29932, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (29932, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 1.75)
-     , (29932, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.3);
+VALUES (29932,   1,          1) /* ItemType - MeleeWeapon */
+     , (29932,   5,         85) /* EncumbranceVal */
+     , (29932,   8,         90) /* Mass */
+     , (29932,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (29932,  16,          1) /* ItemUseable - No */
+     , (29932,  18,          1) /* UiEffects - Magical */
+     , (29932,  19,       6000) /* Value */
+     , (29932,  44,         28) /* Damage */
+     , (29932,  45,          4) /* DamageType - Bludgeon */
+     , (29932,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (29932,  47,          6) /* AttackType */
+     , (29932,  48,         10) /* WeaponSkill - Staff */
+     , (29932,  49,         25) /* WeaponTime */
+     , (29932,  51,          1) /* CombatUse - Melee */
+     , (29932,  93,       1044) /* PhysicsState */
+     , (29932, 106,        275) /* ItemSpellcraft */
+     , (29932, 107,        800) /* ItemCurMana */
+     , (29932, 108,        800) /* ItemMaxMana */
+     , (29932, 109,        150) /* ItemDifficulty */
+     , (29932, 150,        103) /* HookPlacement - Hook */
+     , (29932, 151,          2) /* HookType - Wall */
+     , (29932, 158,          1) /* WieldRequirements - Skill */
+     , (29932, 159,         10) /* WieldSkilltype - Staff */
+     , (29932, 160,        325) /* WieldDifficulty */
+     , (29932, 166,         75) /* SlayerCreatureType - Burun */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29932, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29932,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29932,   5, -0.0333) /* ManaRate */
+     , (29932,  21,    1.33) /* WeaponLength */
+     , (29932,  22,    0.55) /* DamageVariance */
+     , (29932,  29,     1.1) /* WeaponDefense */
+     , (29932,  39,    0.67) /* DefaultScale */
+     , (29932,  62,     1.1) /* WeaponOffense */
+     , (29932, 136,     2.5) /* CriticalMultiplier */
+     , (29932, 138,    1.75) /* SlayerDamageBonus */
+     , (29932, 147,     0.3) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29932,   1, 'Noble Quarterstaff') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29932,   1,   33559053) /* Setup */
+     , (29932,   3,  536870932) /* SoundTable */
+     , (29932,   8,  100676983) /* Icon */
+     , (29932,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29932, 1604, 2) /* Defender5_SpellID */
-     , (29932, 1359, 2) /* EnduranceOther5_SpellID */
-     , (29932, 1616, 2) /* BloodDrinker6_SpellID */
-     , (29932, 243, 2) /* InvulnerabilityOther5_SpellID */
-     , (29932, 1625, 2) /* SwiftKiller4_SpellID */
-     , (29932, 1591, 2) /* HeartSeeker5_SpellID */;
-
+VALUES (29932,   243,      2)  /* Invulnerability Other V */
+     , (29932,  1359,      2)  /* Endurance Other V */
+     , (29932,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (29932,  1604,      2)  /* Aura of Defender Self V */
+     , (29932,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (29932,  1625,      2)  /* Aura of Swift Killer Self IV */;

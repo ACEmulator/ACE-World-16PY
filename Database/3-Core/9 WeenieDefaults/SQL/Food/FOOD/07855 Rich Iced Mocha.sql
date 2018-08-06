@@ -1,38 +1,34 @@
-/* Weenie - Rich Iced Mocha (7855) */
-DELETE FROM weenie WHERE class_Id = 7855;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7855, 'mocharichiced', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7855, 001 /* NAME_STRING */, 'Rich Iced Mocha')
-     , (7855, 014 /* USE_STRING */, 'Use this item to drink it.')
-     , (7855, 015 /* SHORT_DESC_STRING */, 'A dark, rich, refreshingly cold coffee with the smell of chocolate and cinnamon.')
-     , (7855, 020 /* PLURAL_NAME_STRING */, 'Cups of Rich Iced Mocha');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7855, 001 /* SETUP_DID */, 33554662)
-     , (7855, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7855, 008 /* ICON_DID */, 100670871)
-     , (7855, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (7855, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7855', 'mocharichiced', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7855, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (7855, 005 /* ENCUMB_VAL_INT */, 50)
-     , (7855, 008 /* MASS_INT */, 25)
-     , (7855, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7855, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (7855, 012 /* STACK_SIZE_INT */, 1)
-     , (7855, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (7855, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (7855, 015 /* STACK_UNIT_VALUE_INT */, 200)
-     , (7855, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (7855, 019 /* VALUE_INT */, 200)
-     , (7855, 089 /* BOOSTER_ENUM_INT */, 6 /* MANA_ATTRIBUTE_2ND */)
-     , (7855, 090 /* BOOST_VALUE_INT */, 20)
-     , (7855, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (7855,   1,         32) /* ItemType - Food */
+     , (7855,   5,         50) /* EncumbranceVal */
+     , (7855,   8,         25) /* Mass */
+     , (7855,   9,          0) /* ValidLocations - None */
+     , (7855,  11,        100) /* MaxStackSize */
+     , (7855,  12,          1) /* StackSize */
+     , (7855,  13,         50) /* StackUnitEncumbrance */
+     , (7855,  14,         25) /* StackUnitMass */
+     , (7855,  15,        200) /* StackUnitValue */
+     , (7855,  16,          8) /* ItemUseable - Contained */
+     , (7855,  19,        200) /* Value */
+     , (7855,  89,          6) /* BoosterEnum - Mana */
+     , (7855,  90,         20) /* BoostValue */
+     , (7855,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7855, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7855,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7855,   1, 'Rich Iced Mocha') /* Name */
+     , (7855,  14, 'Use this item to drink it.') /* Use */
+     , (7855,  15, 'A dark, rich, refreshingly cold coffee with the smell of chocolate and cinnamon.') /* ShortDesc */
+     , (7855,  20, 'Cups of Rich Iced Mocha') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7855,   1,   33554662) /* Setup */
+     , (7855,   3,  536870932) /* SoundTable */
+     , (7855,   8,  100670871) /* Icon */
+     , (7855,  22,  872415275) /* PhysicsEffectTable */
+     , (7855,  23,         65) /* UseSound - Drink1 */;

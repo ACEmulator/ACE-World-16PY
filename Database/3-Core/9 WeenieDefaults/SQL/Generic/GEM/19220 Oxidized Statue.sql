@@ -1,38 +1,34 @@
-/* Weenie - Oxidized Statue (19220) */
-DELETE FROM weenie WHERE class_Id = 19220;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19220, 'housestatuebanderlinggreen', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19220, 001 /* NAME_STRING */, 'Oxidized Statue')
-     , (19220, 016 /* LONG_DESC_STRING */, 'A small oxidized statue of a Banderling crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19220, 001 /* SETUP_DID */, 33554481)
-     , (19220, 002 /* MOTION_TABLE_DID */, 150995199)
-     , (19220, 006 /* PALETTE_BASE_DID */, 67109303)
-     , (19220, 007 /* CLOTHINGBASE_DID */, 268436366)
-     , (19220, 008 /* ICON_DID */, 100667453)
-     , (19220, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415383)
-     , (19220, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19220', 'housestatuebanderlinggreen', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19220, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (19220, 003 /* PALETTE_TEMPLATE_INT */, 27 /* DARKGREENMETAL_PALETTE_TEMPLATE */)
-     , (19220, 005 /* ENCUMB_VAL_INT */, 5000)
-     , (19220, 008 /* MASS_INT */, 10)
-     , (19220, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19220, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19220, 019 /* VALUE_INT */, 10000)
-     , (19220, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19220, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (19220, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19220, 039 /* DEFAULT_SCALE_FLOAT */, 0.7);
+VALUES (19220,   1,       2048) /* ItemType - Gem */
+     , (19220,   3,         27) /* PaletteTemplate - DarkGreenMetal */
+     , (19220,   5,       5000) /* EncumbranceVal */
+     , (19220,   8,         10) /* Mass */
+     , (19220,   9,          0) /* ValidLocations - None */
+     , (19220,  16,          1) /* ItemUseable - No */
+     , (19220,  19,      10000) /* Value */
+     , (19220,  93,       1044) /* PhysicsState */
+     , (19220,  94,         16) /* TargetType - Creature */
+     , (19220, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19220, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19220, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (19220,  22, True ) /* Inscribable */
+     , (19220,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19220,  39,     0.7) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19220,   1, 'Oxidized Statue') /* Name */
+     , (19220,  16, 'A small oxidized statue of a Banderling crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19220,   1,   33554481) /* Setup */
+     , (19220,   2,  150995199) /* MotionTable */
+     , (19220,   6,   67109303) /* PaletteBase */
+     , (19220,   7,  268436366) /* ClothingBase */
+     , (19220,   8,  100667453) /* Icon */
+     , (19220,  22,  872415383) /* PhysicsEffectTable */
+     , (19220,  36,  234881046) /* MutateFilter */;

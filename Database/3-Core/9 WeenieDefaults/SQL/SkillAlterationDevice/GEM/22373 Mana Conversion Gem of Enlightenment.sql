@@ -1,34 +1,30 @@
-/* Weenie - Mana Conversion Gem of Enlightenment (22373) */
-DELETE FROM weenie WHERE class_Id = 22373;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22373, 'skillgemupmanaconversion', 62 /* SkillAlterationDevice_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22373, 001 /* NAME_STRING */, 'Mana Conversion Gem of Enlightenment')
-     , (22373, 014 /* USE_STRING */, 'Use this gem to specialize a trained skill. It will cost you six skill credits to specialize the Mana Conversion skill.')
-     , (22373, 033 /* QUEST_STRING */, 'SkillAlterationGemPickedUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22373, 001 /* SETUP_DID */, 33558088)
-     , (22373, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22373, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (22373, 008 /* ICON_DID */, 100673788)
-     , (22373, 050 /* ICON_OVERLAY_DID */, 100673777);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22373', 'skillgemupmanaconversion', 62) /* SkillAlterationDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22373, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22373, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (22373, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22373, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22373, 019 /* VALUE_INT */, 0)
-     , (22373, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22373, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22373, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (22373, 185 /* TYPE_OF_ALTERATION_INT */, 1)
-     , (22373, 186 /* SKILL_TO_BE_ALTERED_INT */, 16);
+VALUES (22373,   1,       2048) /* ItemType - Gem */
+     , (22373,   3,          8) /* PaletteTemplate - Green */
+     , (22373,   5,         10) /* EncumbranceVal */
+     , (22373,  16,          8) /* ItemUseable - Contained */
+     , (22373,  19,          0) /* Value */
+     , (22373,  33,          1) /* Bonded - Bonded */
+     , (22373,  93,       1044) /* PhysicsState */
+     , (22373, 114,          1) /* Attuned - Attuned */
+     , (22373, 185,          1) /* TypeOfAlteration */
+     , (22373, 186,         16) /* SkillToBeAltered */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22373, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22373, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22373,  22, True ) /* Inscribable */
+     , (22373,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22373,   1, 'Mana Conversion Gem of Enlightenment') /* Name */
+     , (22373,  14, 'Use this gem to specialize a trained skill. It will cost you six skill credits to specialize the Mana Conversion skill.') /* Use */
+     , (22373,  33, 'SkillAlterationGemPickedUp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22373,   1,   33558088) /* Setup */
+     , (22373,   6,   67111919) /* PaletteBase */
+     , (22373,   7,  268435723) /* ClothingBase */
+     , (22373,   8,  100673788) /* Icon */
+     , (22373,  50,  100673777) /* IconOverlay */;

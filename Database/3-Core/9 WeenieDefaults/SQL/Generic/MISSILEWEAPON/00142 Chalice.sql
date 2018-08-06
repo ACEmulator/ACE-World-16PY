@@ -1,51 +1,47 @@
-/* Weenie - Chalice (142) */
-DELETE FROM weenie WHERE class_Id = 142;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (142, 'chalice', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (142, 001 /* NAME_STRING */, 'Chalice');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (142, 001 /* SETUP_DID */, 33554661)
-     , (142, 003 /* SOUND_TABLE_DID */, 536871012)
-     , (142, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (142, 007 /* CLOTHINGBASE_DID */, 268435740)
-     , (142, 008 /* ICON_DID */, 100668552)
-     , (142, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (142, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('142', 'chalice', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (142, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (142, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (142, 005 /* ENCUMB_VAL_INT */, 50)
-     , (142, 008 /* MASS_INT */, 80)
-     , (142, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (142, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (142, 019 /* VALUE_INT */, 185)
-     , (142, 044 /* DAMAGE_INT */, 10)
-     , (142, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (142, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (142, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (142, 049 /* WEAPON_TIME_INT */, 10)
-     , (142, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (142, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (142, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (142, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */)
-     , (142, 169 /* TSYS_MUTATION_DATA_INT */, 268634373);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (142, 021 /* WEAPON_LENGTH_FLOAT */, 0.34)
-     , (142, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (142, 027 /* ROTATION_SPEED_FLOAT */, 2)
-     , (142, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (142, 039 /* DEFAULT_SCALE_FLOAT */, 1.5)
-     , (142, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (142, 078 /* FRICTION_FLOAT */, 1)
-     , (142, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (142,   1,        256) /* ItemType - MissileWeapon */
+     , (142,   3,         20) /* PaletteTemplate - Silver */
+     , (142,   5,         50) /* EncumbranceVal */
+     , (142,   8,         80) /* Mass */
+     , (142,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (142,  16,          1) /* ItemUseable - No */
+     , (142,  19,        185) /* Value */
+     , (142,  44,         10) /* Damage */
+     , (142,  45,          4) /* DamageType - Bludgeon */
+     , (142,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (142,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (142,  49,         10) /* WeaponTime */
+     , (142,  51,          2) /* CombatUse - Missle */
+     , (142,  93,     132116) /* PhysicsState */
+     , (142, 150,        103) /* HookPlacement - Hook */
+     , (142, 151,          1) /* HookType - Floor */
+     , (142, 169,  268634373) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (142, 017 /* INELASTIC_BOOL */, True)
-     , (142, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (142,  17, True ) /* Inelastic */
+     , (142,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (142,  21,    0.34) /* WeaponLength */
+     , (142,  22,    0.25) /* DamageVariance */
+     , (142,  27,       2) /* RotationSpeed */
+     , (142,  29,       1) /* WeaponDefense */
+     , (142,  39,     1.5) /* DefaultScale */
+     , (142,  62,       1) /* WeaponOffense */
+     , (142,  78,       1) /* Friction */
+     , (142,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (142,   1, 'Chalice') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (142,   1,   33554661) /* Setup */
+     , (142,   3,  536871012) /* SoundTable */
+     , (142,   6,   67111919) /* PaletteBase */
+     , (142,   7,  268435740) /* ClothingBase */
+     , (142,   8,  100668552) /* Icon */
+     , (142,  22,  872415275) /* PhysicsEffectTable */
+     , (142,  36,  234881046) /* MutateFilter */;

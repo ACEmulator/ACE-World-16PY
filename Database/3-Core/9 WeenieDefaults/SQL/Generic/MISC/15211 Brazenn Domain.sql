@@ -1,28 +1,24 @@
-/* Weenie - Brazenn Domain (15211) */
-DELETE FROM weenie WHERE class_Id = 15211;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15211, 'brazenndomainsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15211, 001 /* NAME_STRING */, 'Brazenn Domain')
-     , (15211, 016 /* LONG_DESC_STRING */, 'Welcome to Brazenn Domain');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15211, 001 /* SETUP_DID */, 33557463)
-     , (15211, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15211', 'brazenndomainsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15211, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15211, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (15211, 008 /* MASS_INT */, 1800)
-     , (15211, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15211, 019 /* VALUE_INT */, 125)
-     , (15211, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (15211,   1,        128) /* ItemType - Misc */
+     , (15211,   5,       9000) /* EncumbranceVal */
+     , (15211,   8,       1800) /* Mass */
+     , (15211,  16,          1) /* ItemUseable - No */
+     , (15211,  19,        125) /* Value */
+     , (15211,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15211, 001 /* STUCK_BOOL */, True)
-     , (15211, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (15211, 013 /* ETHEREAL_BOOL */, False)
-     , (15211, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (15211,   1, True ) /* Stuck */
+     , (15211,  12, True ) /* ReportCollisions */
+     , (15211,  13, False) /* Ethereal */
+     , (15211,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15211,   1, 'Brazenn Domain') /* Name */
+     , (15211,  16, 'Welcome to Brazenn Domain') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15211,   1,   33557463) /* Setup */
+     , (15211,   8,  100668115) /* Icon */;

@@ -1,41 +1,37 @@
-/* Weenie - Mana Holtburger (7862) */
-DELETE FROM weenie WHERE class_Id = 7862;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7862, 'manaholtburger', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7862, 001 /* NAME_STRING */, 'Mana Holtburger')
-     , (7862, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (7862, 015 /* SHORT_DESC_STRING */, 'A juicy Holtburger, on bread.  Said to be old Foster''s favorite.')
-     , (7862, 020 /* PLURAL_NAME_STRING */, 'Mana Holtburgers');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7862, 001 /* SETUP_DID */, 33556680)
-     , (7862, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7862, 008 /* ICON_DID */, 100670859)
-     , (7862, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7862', 'manaholtburger', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7862, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (7862, 005 /* ENCUMB_VAL_INT */, 40)
-     , (7862, 008 /* MASS_INT */, 50)
-     , (7862, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7862, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (7862, 012 /* STACK_SIZE_INT */, 1)
-     , (7862, 013 /* STACK_UNIT_ENCUMB_INT */, 40)
-     , (7862, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (7862, 015 /* STACK_UNIT_VALUE_INT */, 89)
-     , (7862, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (7862, 018 /* UI_EFFECTS_INT */, 8 /* UI_EFFECT_BOOST_MANA */)
-     , (7862, 019 /* VALUE_INT */, 89)
-     , (7862, 089 /* BOOSTER_ENUM_INT */, 6 /* MANA_ATTRIBUTE_2ND */)
-     , (7862, 090 /* BOOST_VALUE_INT */, 30)
-     , (7862, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7862, 039 /* DEFAULT_SCALE_FLOAT */, 0.7);
+VALUES (7862,   1,         32) /* ItemType - Food */
+     , (7862,   5,         40) /* EncumbranceVal */
+     , (7862,   8,         50) /* Mass */
+     , (7862,   9,          0) /* ValidLocations - None */
+     , (7862,  11,        100) /* MaxStackSize */
+     , (7862,  12,          1) /* StackSize */
+     , (7862,  13,         40) /* StackUnitEncumbrance */
+     , (7862,  14,         50) /* StackUnitMass */
+     , (7862,  15,         89) /* StackUnitValue */
+     , (7862,  16,          8) /* ItemUseable - Contained */
+     , (7862,  18,          8) /* UiEffects - BoostMana */
+     , (7862,  19,         89) /* Value */
+     , (7862,  89,          6) /* BoosterEnum - Mana */
+     , (7862,  90,         30) /* BoostValue */
+     , (7862,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7862, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7862,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7862,  39,     0.7) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7862,   1, 'Mana Holtburger') /* Name */
+     , (7862,  14, 'Use this item to eat it.') /* Use */
+     , (7862,  15, 'A juicy Holtburger, on bread.  Said to be old Foster''s favorite.') /* ShortDesc */
+     , (7862,  20, 'Mana Holtburgers') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7862,   1,   33556680) /* Setup */
+     , (7862,   3,  536870932) /* SoundTable */
+     , (7862,   8,  100670859) /* Icon */
+     , (7862,  22,  872415275) /* PhysicsEffectTable */;

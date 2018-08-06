@@ -1,28 +1,24 @@
-/* Weenie - Weapon Expertise VI (9561) */
-DELETE FROM weenie WHERE class_Id = 9561;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9561, 'serviceweaponexpertise6', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9561, 001 /* NAME_STRING */, 'Weapon Expertise VI');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9561, 001 /* SETUP_DID */, 33554667)
-     , (9561, 008 /* ICON_DID */, 100668357)
-     , (9561, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9561, 028 /* SPELL_DID */, 785 /* WeaponExpertiseOther6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9561', 'serviceweaponexpertise6', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9561, 001 /* ITEM_TYPE_INT */, 1048576 /* TYPE_SERVICE */)
-     , (9561, 005 /* ENCUMB_VAL_INT */, 0)
-     , (9561, 008 /* MASS_INT */, 0)
-     , (9561, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9561, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9561, 019 /* VALUE_INT */, 4000)
-     , (9561, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (9561,   1,    1048576) /* ItemType - Service */
+     , (9561,   5,          0) /* EncumbranceVal */
+     , (9561,   8,          0) /* Mass */
+     , (9561,   9,          0) /* ValidLocations - None */
+     , (9561,  16,          1) /* ItemUseable - No */
+     , (9561,  19,       4000) /* Value */
+     , (9561,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9561, 022 /* INSCRIBABLE_BOOL */, False)
-     , (9561, 051 /* VENDOR_SERVICE_BOOL */, True);
+VALUES (9561,  22, False) /* Inscribable */
+     , (9561,  51, True ) /* VendorService */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9561,   1, 'Weapon Expertise VI') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9561,   1,   33554667) /* Setup */
+     , (9561,   8,  100668357) /* Icon */
+     , (9561,  22,  872415275) /* PhysicsEffectTable */
+     , (9561,  28,        785) /* Spell - Weapon Tinkering Expertise Other VI */;

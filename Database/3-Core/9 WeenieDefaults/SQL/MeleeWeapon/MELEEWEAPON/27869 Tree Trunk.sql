@@ -1,53 +1,49 @@
-/* Weenie - Tree Trunk (27869) */
-DELETE FROM weenie WHERE class_Id = 27869;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27869, 'maceguruktree1', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27869, 001 /* NAME_STRING */, 'Tree Trunk');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27869, 001 /* SETUP_DID */, 33558784)
-     , (27869, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27869, 008 /* ICON_DID */, 100676579)
-     , (27869, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27869', 'maceguruktree1', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27869, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (27869, 005 /* ENCUMB_VAL_INT */, 6400)
-     , (27869, 008 /* MASS_INT */, 2560)
-     , (27869, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (27869, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27869, 019 /* VALUE_INT */, 750)
-     , (27869, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (27869, 044 /* DAMAGE_INT */, 30)
-     , (27869, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (27869, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (27869, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (27869, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (27869, 049 /* WEAPON_TIME_INT */, 60)
-     , (27869, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (27869, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27869, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (27869, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (27869, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (27869, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (27869, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27869, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27869, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (27869, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (27869, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (27869, 039 /* DEFAULT_SCALE_FLOAT */, 0.3)
-     , (27869, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (27869,   1,          1) /* ItemType - MeleeWeapon */
+     , (27869,   5,       6400) /* EncumbranceVal */
+     , (27869,   8,       2560) /* Mass */
+     , (27869,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (27869,  16,          1) /* ItemUseable - No */
+     , (27869,  19,        750) /* Value */
+     , (27869,  37,       9999) /* ResistItemAppraisal */
+     , (27869,  44,         30) /* Damage */
+     , (27869,  45,          4) /* DamageType - Bludgeon */
+     , (27869,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (27869,  47,          4) /* AttackType - Slash */
+     , (27869,  48,          1) /* WeaponSkill - Axe */
+     , (27869,  49,         60) /* WeaponTime */
+     , (27869,  51,          1) /* CombatUse - Melee */
+     , (27869,  93,       1044) /* PhysicsState */
+     , (27869, 106,        250) /* ItemSpellcraft */
+     , (27869, 107,        500) /* ItemCurMana */
+     , (27869, 108,        500) /* ItemMaxMana */
+     , (27869, 109,          0) /* ItemDifficulty */
+     , (27869, 150,        103) /* HookPlacement - Hook */
+     , (27869, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27869, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27869, 070 /* IGNORE_SHIELDS_BY_SKILL_BOOL */, True);
+VALUES (27869,  22, True ) /* Inscribable */
+     , (27869,  70, True ) /* IgnoreShieldsBySkill */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27869,  21,     1.5) /* WeaponLength */
+     , (27869,  22,     0.5) /* DamageVariance */
+     , (27869,  29,       1) /* WeaponDefense */
+     , (27869,  39,     0.3) /* DefaultScale */
+     , (27869,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27869,   1, 'Tree Trunk') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27869,   1,   33558784) /* Setup */
+     , (27869,   3,  536870932) /* SoundTable */
+     , (27869,   8,  100676579) /* Icon */
+     , (27869,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27869, 1614, 2) /* BloodDrinker4_SpellID */
-     , (27869, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (27869,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (27869,  1625,      2)  /* Aura of Swift Killer Self IV */;

@@ -1,48 +1,44 @@
-/* Weenie - Cragstone's Shield (20641) */
-DELETE FROM weenie WHERE class_Id = 20641;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20641, 'shieldcragstonestatuegreen-monsteronly', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20641, 001 /* NAME_STRING */, 'Cragstone''s Shield');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20641, 001 /* SETUP_DID */, 33554788)
-     , (20641, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20641, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20641, 007 /* CLOTHINGBASE_DID */, 268436349)
-     , (20641, 008 /* ICON_DID */, 100668151)
-     , (20641, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20641', 'shieldcragstonestatuegreen-monsteronly', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20641, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (20641, 003 /* PALETTE_TEMPLATE_INT */, 25 /* DARKCOPPERMETAL_PALETTE_TEMPLATE */)
-     , (20641, 005 /* ENCUMB_VAL_INT */, 650)
-     , (20641, 008 /* MASS_INT */, 230)
-     , (20641, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
-     , (20641, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20641, 019 /* VALUE_INT */, 120)
-     , (20641, 027 /* ARMOR_TYPE_INT */, 2)
-     , (20641, 028 /* ARMOR_LEVEL_INT */, 150)
-     , (20641, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (20641, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (20641, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
-     , (20641, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20641, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20641, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.2)
-     , (20641, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.2)
-     , (20641, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.2)
-     , (20641, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
-     , (20641, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.2)
-     , (20641, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.2)
-     , (20641, 039 /* DEFAULT_SCALE_FLOAT */, 3)
-     , (20641, 110 /* BULK_MOD_FLOAT */, 1)
-     , (20641, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (20641,   1,          2) /* ItemType - Armor */
+     , (20641,   3,         25) /* PaletteTemplate - DarkCopperMetal */
+     , (20641,   5,        650) /* EncumbranceVal */
+     , (20641,   8,        230) /* Mass */
+     , (20641,   9,    2097152) /* ValidLocations - Shield */
+     , (20641,  16,          1) /* ItemUseable - No */
+     , (20641,  19,        120) /* Value */
+     , (20641,  27,          2) /* ArmorType */
+     , (20641,  28,        150) /* ArmorLevel */
+     , (20641,  33,         -2) /* Bonded - Destroy */
+     , (20641,  37,       9999) /* ResistItemAppraisal */
+     , (20641,  51,          4) /* CombatUse - Shield */
+     , (20641,  93,       1044) /* PhysicsState */
+     , (20641, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20641, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20641, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20641,  22, True ) /* Inscribable */
+     , (20641,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20641,  14,     1.2) /* ArmorModVsPierce */
+     , (20641,  15,     1.2) /* ArmorModVsBludgeon */
+     , (20641,  16,     1.2) /* ArmorModVsCold */
+     , (20641,  17,     1.2) /* ArmorModVsFire */
+     , (20641,  18,     1.2) /* ArmorModVsAcid */
+     , (20641,  19,     1.2) /* ArmorModVsElectric */
+     , (20641,  39,       3) /* DefaultScale */
+     , (20641, 110,       1) /* BulkMod */
+     , (20641, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20641,   1, 'Cragstone''s Shield') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20641,   1,   33554788) /* Setup */
+     , (20641,   3,  536870932) /* SoundTable */
+     , (20641,   6,   67111919) /* PaletteBase */
+     , (20641,   7,  268436349) /* ClothingBase */
+     , (20641,   8,  100668151) /* Icon */
+     , (20641,  22,  872415275) /* PhysicsEffectTable */;

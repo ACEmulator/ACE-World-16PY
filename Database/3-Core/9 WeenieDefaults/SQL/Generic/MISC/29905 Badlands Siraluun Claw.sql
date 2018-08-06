@@ -1,34 +1,30 @@
-/* Weenie - Badlands Siraluun Claw (29905) */
-DELETE FROM weenie WHERE class_Id = 29905;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29905, 'siraluunclawbadlands', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29905, 001 /* NAME_STRING */, 'Badlands Siraluun Claw');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29905, 001 /* SETUP_DID */, 33554817)
-     , (29905, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29905, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (29905, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (29905, 008 /* ICON_DID */, 100677298)
-     , (29905, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29905', 'siraluunclawbadlands', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29905, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29905, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (29905, 005 /* ENCUMB_VAL_INT */, 100)
-     , (29905, 008 /* MASS_INT */, 240)
-     , (29905, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29905, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29905, 019 /* VALUE_INT */, 75)
-     , (29905, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29905, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (29905,   1,        128) /* ItemType - Misc */
+     , (29905,   3,          2) /* PaletteTemplate - Blue */
+     , (29905,   5,        100) /* EncumbranceVal */
+     , (29905,   8,        240) /* Mass */
+     , (29905,   9,          0) /* ValidLocations - None */
+     , (29905,  16,          1) /* ItemUseable - No */
+     , (29905,  19,         75) /* Value */
+     , (29905,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29905, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29905, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29905,  22, True ) /* Inscribable */
+     , (29905,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29905,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29905,   1, 'Badlands Siraluun Claw') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29905,   1,   33554817) /* Setup */
+     , (29905,   3,  536870932) /* SoundTable */
+     , (29905,   6,   67111919) /* PaletteBase */
+     , (29905,   7,  268435832) /* ClothingBase */
+     , (29905,   8,  100677298) /* Icon */
+     , (29905,  22,  872415275) /* PhysicsEffectTable */;

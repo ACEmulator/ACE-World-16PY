@@ -1,34 +1,30 @@
-/* Weenie - Crescent Ridge Cottages Portal (14258) */
-DELETE FROM weenie WHERE class_Id = 14258;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14258, 'portalcrescentridgecottages', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14258, 001 /* NAME_STRING */, 'Crescent Ridge Cottages Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14258, 001 /* SETUP_DID */, 33554867)
-     , (14258, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (14258, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14258', 'portalcrescentridgecottages', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14258, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (14258, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (14258, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (14258, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (14258, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14258, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (14258,   1,      65536) /* ItemType - Portal */
+     , (14258,  16,         32) /* ItemUseable - Remote */
+     , (14258,  93,       3084) /* PhysicsState */
+     , (14258, 111,          1) /* PortalBitmask - Unrestricted */
+     , (14258, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14258, 001 /* STUCK_BOOL */, True)
-     , (14258, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14258, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14258, 013 /* ETHEREAL_BOOL */, True)
-     , (14258, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (14258,   1, True ) /* Stuck */
+     , (14258,  11, False) /* IgnoreCollisions */
+     , (14258,  12, True ) /* ReportCollisions */
+     , (14258,  13, True ) /* Ethereal */
+     , (14258,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14258,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14258,   1, 'Crescent Ridge Cottages Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14258,   1,   33554867) /* Setup */
+     , (14258,   2,  150994947) /* MotionTable */
+     , (14258,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14258, 2, 3846111270, 0, 0, 0, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (14258, 2, 3846111270, 0, 0, 0, 1, 0, 0, 0) /* Destination */;

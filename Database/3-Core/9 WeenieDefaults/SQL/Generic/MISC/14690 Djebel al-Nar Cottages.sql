@@ -1,28 +1,24 @@
-/* Weenie - Djebel al-Nar Cottages (14690) */
-DELETE FROM weenie WHERE class_Id = 14690;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14690, 'djebelalnarcottagessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14690, 001 /* NAME_STRING */, 'Djebel al-Nar Cottages')
-     , (14690, 016 /* LONG_DESC_STRING */, 'Welcome to Djebel al-Nar Cottages');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14690, 001 /* SETUP_DID */, 33557463)
-     , (14690, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14690', 'djebelalnarcottagessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14690, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14690, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14690, 008 /* MASS_INT */, 1800)
-     , (14690, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14690, 019 /* VALUE_INT */, 125)
-     , (14690, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14690,   1,        128) /* ItemType - Misc */
+     , (14690,   5,       9000) /* EncumbranceVal */
+     , (14690,   8,       1800) /* Mass */
+     , (14690,  16,          1) /* ItemUseable - No */
+     , (14690,  19,        125) /* Value */
+     , (14690,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14690, 001 /* STUCK_BOOL */, True)
-     , (14690, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14690, 013 /* ETHEREAL_BOOL */, False)
-     , (14690, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14690,   1, True ) /* Stuck */
+     , (14690,  12, True ) /* ReportCollisions */
+     , (14690,  13, False) /* Ethereal */
+     , (14690,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14690,   1, 'Djebel al-Nar Cottages') /* Name */
+     , (14690,  16, 'Welcome to Djebel al-Nar Cottages') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14690,   1,   33557463) /* Setup */
+     , (14690,   8,  100668115) /* Icon */;

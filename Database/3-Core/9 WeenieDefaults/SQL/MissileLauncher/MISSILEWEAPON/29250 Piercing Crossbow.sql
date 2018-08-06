@@ -1,57 +1,53 @@
-/* Weenie - Piercing Crossbow (29250) */
-DELETE FROM weenie WHERE class_Id = 29250;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29250, 'crossbowpiercing', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29250, 001 /* NAME_STRING */, 'Piercing Crossbow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29250, 001 /* SETUP_DID */, 33559235)
-     , (29250, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29250, 006 /* PALETTE_BASE_DID */, 67115373)
-     , (29250, 007 /* CLOTHINGBASE_DID */, 268436903)
-     , (29250, 008 /* ICON_DID */, 100668835)
-     , (29250, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29250, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (29250, 046 /* TSYS_MUTATION_FILTER_DID */, 939524168);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29250', 'crossbowpiercing', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29250, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (29250, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (29250, 005 /* ENCUMB_VAL_INT */, 1920)
-     , (29250, 008 /* MASS_INT */, 640)
-     , (29250, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (29250, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29250, 018 /* UI_EFFECTS_INT */, 2048 /* UI_EFFECT_PIERCING */)
-     , (29250, 019 /* VALUE_INT */, 375)
-     , (29250, 044 /* DAMAGE_INT */, 0)
-     , (29250, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (29250, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (29250, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (29250, 049 /* WEAPON_TIME_INT */, 120)
-     , (29250, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (29250, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (29250, 052 /* PARENT_LOCATION_INT */, 2)
-     , (29250, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (29250, 060 /* WEAPON_RANGE_INT */, 192)
-     , (29250, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29250, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29250, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (29250, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (29250, 159 /* WIELD_SKILLTYPE_INT */, 3 /* CROSSBOW_SKILL */)
-     , (29250, 160 /* WIELD_DIFFICULTY_INT */, 315)
-     , (29250, 169 /* TSYS_MUTATION_DATA_INT */, 101189386)
-     , (29250, 204 /* ELEMENTAL_DAMAGE_BONUS_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29250, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (29250, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (29250, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (29250, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (29250, 063 /* DAMAGE_MOD_FLOAT */, 1.8);
+VALUES (29250,   1,        256) /* ItemType - MissileWeapon */
+     , (29250,   3,         20) /* PaletteTemplate - Silver */
+     , (29250,   5,       1920) /* EncumbranceVal */
+     , (29250,   8,        640) /* Mass */
+     , (29250,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (29250,  16,          1) /* ItemUseable - No */
+     , (29250,  18,       2048) /* UiEffects - Piercing */
+     , (29250,  19,        375) /* Value */
+     , (29250,  44,          0) /* Damage */
+     , (29250,  45,          2) /* DamageType - Pierce */
+     , (29250,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (29250,  48,          3) /* WeaponSkill - Crossbow */
+     , (29250,  49,        120) /* WeaponTime */
+     , (29250,  50,          2) /* AmmoType - Bolt */
+     , (29250,  51,          2) /* CombatUse - Missle */
+     , (29250,  52,          2) /* ParentLocation */
+     , (29250,  53,          3) /* PlacementPosition */
+     , (29250,  60,        192) /* WeaponRange */
+     , (29250,  93,       1044) /* PhysicsState */
+     , (29250, 150,        103) /* HookPlacement - Hook */
+     , (29250, 151,          2) /* HookType - Wall */
+     , (29250, 158,          2) /* WieldRequirements - RawSkill */
+     , (29250, 159,          3) /* WieldSkilltype - Crossbow */
+     , (29250, 160,        315) /* WieldDifficulty */
+     , (29250, 169,  101189386) /* TsysMutationData */
+     , (29250, 204,          0) /* ElementalDamageBonus */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29250, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29250,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29250,  26,    27.3) /* MaximumVelocity */
+     , (29250,  29,       1) /* WeaponDefense */
+     , (29250,  39,    1.25) /* DefaultScale */
+     , (29250,  62,       1) /* WeaponOffense */
+     , (29250,  63,     1.8) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29250,   1, 'Piercing Crossbow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29250,   1,   33559235) /* Setup */
+     , (29250,   3,  536870932) /* SoundTable */
+     , (29250,   6,   67115373) /* PaletteBase */
+     , (29250,   7,  268436903) /* ClothingBase */
+     , (29250,   8,  100668835) /* Icon */
+     , (29250,  22,  872415275) /* PhysicsEffectTable */
+     , (29250,  36,  234881053) /* MutateFilter */
+     , (29250,  46,  939524168) /* TsysMutationFilter */;

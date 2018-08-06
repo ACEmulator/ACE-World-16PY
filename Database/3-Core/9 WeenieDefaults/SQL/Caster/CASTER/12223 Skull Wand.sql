@@ -1,40 +1,36 @@
-/* Weenie - Skull Wand (12223) */
-DELETE FROM weenie WHERE class_Id = 12223;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12223, 'wandskull', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12223, 001 /* NAME_STRING */, 'Skull Wand')
-     , (12223, 015 /* SHORT_DESC_STRING */, 'A wand with a shrunken skull on it.')
-     , (12223, 016 /* LONG_DESC_STRING */, 'A wand with a shrunken skull on it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12223, 001 /* SETUP_DID */, 33557371)
-     , (12223, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12223, 008 /* ICON_DID */, 100672181)
-     , (12223, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12223, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12223', 'wandskull', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12223, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (12223, 005 /* ENCUMB_VAL_INT */, 150)
-     , (12223, 008 /* MASS_INT */, 10)
-     , (12223, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (12223, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12223, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (12223, 019 /* VALUE_INT */, 75)
-     , (12223, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (12223, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12223, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (12223, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12223, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12223, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (12223, 039 /* DEFAULT_SCALE_FLOAT */, 1.2);
+VALUES (12223,   1,      32768) /* ItemType - Caster */
+     , (12223,   5,        150) /* EncumbranceVal */
+     , (12223,   8,         10) /* Mass */
+     , (12223,   9,   16777216) /* ValidLocations - Held */
+     , (12223,  16,          1) /* ItemUseable - No */
+     , (12223,  18,          1) /* UiEffects - Magical */
+     , (12223,  19,         75) /* Value */
+     , (12223,  46,        512) /* DefaultCombatStyle - Magic */
+     , (12223,  93,       1044) /* PhysicsState */
+     , (12223,  94,         16) /* TargetType - Creature */
+     , (12223, 150,        103) /* HookPlacement - Hook */
+     , (12223, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12223, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12223, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (12223,  22, True ) /* Inscribable */
+     , (12223,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12223,  29,       1) /* WeaponDefense */
+     , (12223,  39,     1.2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12223,   1, 'Skull Wand') /* Name */
+     , (12223,  15, 'A wand with a shrunken skull on it.') /* ShortDesc */
+     , (12223,  16, 'A wand with a shrunken skull on it.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12223,   1,   33557371) /* Setup */
+     , (12223,   3,  536870932) /* SoundTable */
+     , (12223,   8,  100672181) /* Icon */
+     , (12223,  22,  872415275) /* PhysicsEffectTable */
+     , (12223,  36,  234881046) /* MutateFilter */;

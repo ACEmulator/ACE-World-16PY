@@ -1,35 +1,31 @@
-/* Weenie - Floating Spire (8189) */
-DELETE FROM weenie WHERE class_Id = 8189;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8189, 'portalfloatingadvocatespire', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8189, 001 /* NAME_STRING */, 'Floating Spire');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8189, 001 /* SETUP_DID */, 33555926)
-     , (8189, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (8189, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8189', 'portalfloatingadvocatespire', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8189, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (8189, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (8189, 086 /* MIN_LEVEL_INT */, 25)
-     , (8189, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8189, 111 /* PORTAL_BITMASK_INT */, 17 /* Player_NotSummonable_PortalEnum */)
-     , (8189, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8189, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (8189,   1,      65536) /* ItemType - Portal */
+     , (8189,  16,         32) /* ItemUseable - Remote */
+     , (8189,  86,         25) /* MinLevel */
+     , (8189,  93,       3084) /* PhysicsState */
+     , (8189, 111,         17) /* PortalBitmask */
+     , (8189, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8189, 001 /* STUCK_BOOL */, True)
-     , (8189, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (8189, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (8189, 013 /* ETHEREAL_BOOL */, True)
-     , (8189, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (8189,   1, True ) /* Stuck */
+     , (8189,  11, False) /* IgnoreCollisions */
+     , (8189,  12, True ) /* ReportCollisions */
+     , (8189,  13, True ) /* Ethereal */
+     , (8189,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8189,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8189,   1, 'Floating Spire') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8189,   1,   33555926) /* Setup */
+     , (8189,   2,  150994947) /* MotionTable */
+     , (8189,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8189, 2, 679084288, 180, 152, 500, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (8189, 2, 679084288, 180, 152, 500, 1, 0, 0, 0) /* Destination */;

@@ -1,50 +1,46 @@
-/* Weenie - Greater Barbed Atlatl Dart (24550) */
-DELETE FROM weenie WHERE class_Id = 24550;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24550, 'atlatldartgreaterbarbed', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24550, 001 /* NAME_STRING */, 'Greater Barbed Atlatl Dart');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24550, 001 /* SETUP_DID */, 33557434)
-     , (24550, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24550, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24550, 007 /* CLOTHINGBASE_DID */, 268436305)
-     , (24550, 008 /* ICON_DID */, 100674388)
-     , (24550, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24550', 'atlatldartgreaterbarbed', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24550, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (24550, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (24550, 005 /* ENCUMB_VAL_INT */, 10)
-     , (24550, 008 /* MASS_INT */, 2)
-     , (24550, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
-     , (24550, 011 /* MAX_STACK_SIZE_INT */, 250)
-     , (24550, 012 /* STACK_SIZE_INT */, 1)
-     , (24550, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (24550, 014 /* STACK_UNIT_MASS_INT */, 2)
-     , (24550, 015 /* STACK_UNIT_VALUE_INT */, 8)
-     , (24550, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24550, 019 /* VALUE_INT */, 8)
-     , (24550, 044 /* DAMAGE_INT */, 21)
-     , (24550, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (24550, 050 /* AMMO_TYPE_INT */, 4 /* AMMO_ARROW_CRYSTAL */)
-     , (24550, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
-     , (24550, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (24550, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24550, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24550, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.33)
-     , (24550, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (24550, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (24550, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (24550, 078 /* FRICTION_FLOAT */, 1)
-     , (24550, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (24550,   1,        256) /* ItemType - MissileWeapon */
+     , (24550,   3,         61) /* PaletteTemplate - White */
+     , (24550,   5,         10) /* EncumbranceVal */
+     , (24550,   8,          2) /* Mass */
+     , (24550,   9,    8388608) /* ValidLocations - MissileAmmo */
+     , (24550,  11,        250) /* MaxStackSize */
+     , (24550,  12,          1) /* StackSize */
+     , (24550,  13,         10) /* StackUnitEncumbrance */
+     , (24550,  14,          2) /* StackUnitMass */
+     , (24550,  15,          8) /* StackUnitValue */
+     , (24550,  16,          1) /* ItemUseable - No */
+     , (24550,  19,          8) /* Value */
+     , (24550,  44,         21) /* Damage */
+     , (24550,  45,          2) /* DamageType - Pierce */
+     , (24550,  50,          4) /* AmmoType - ArrowCrystal */
+     , (24550,  51,          3) /* CombatUse - Ammo */
+     , (24550,  93,     132116) /* PhysicsState */
+     , (24550, 150,        103) /* HookPlacement - Hook */
+     , (24550, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24550, 017 /* INELASTIC_BOOL */, True)
-     , (24550, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24550,  17, True ) /* Inelastic */
+     , (24550,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24550,  22,    0.33) /* DamageVariance */
+     , (24550,  29,       1) /* WeaponDefense */
+     , (24550,  39,     1.1) /* DefaultScale */
+     , (24550,  62,       1) /* WeaponOffense */
+     , (24550,  78,       1) /* Friction */
+     , (24550,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24550,   1, 'Greater Barbed Atlatl Dart') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24550,   1,   33557434) /* Setup */
+     , (24550,   3,  536870932) /* SoundTable */
+     , (24550,   6,   67111919) /* PaletteBase */
+     , (24550,   7,  268436305) /* ClothingBase */
+     , (24550,   8,  100674388) /* Icon */
+     , (24550,  22,  872415275) /* PhysicsEffectTable */;

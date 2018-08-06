@@ -1,49 +1,45 @@
-/* Weenie - Flamberge (30579) */
-DELETE FROM weenie WHERE class_Id = 30579;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30579, 'swordflambergeacid', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30579, 001 /* NAME_STRING */, 'Flamberge');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30579, 001 /* SETUP_DID */, 33554533)
-     , (30579, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30579, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30579, 007 /* CLOTHINGBASE_DID */, 268435769)
-     , (30579, 008 /* ICON_DID */, 100669025)
-     , (30579, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30579, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (30579, 046 /* TSYS_MUTATION_FILTER_DID */, 939524101);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30579', 'swordflambergeacid', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30579, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30579, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (30579, 005 /* ENCUMB_VAL_INT */, 450)
-     , (30579, 008 /* MASS_INT */, 180)
-     , (30579, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30579, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30579, 019 /* VALUE_INT */, 460)
-     , (30579, 044 /* DAMAGE_INT */, 20)
-     , (30579, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (30579, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30579, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (30579, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (30579, 049 /* WEAPON_TIME_INT */, 35)
-     , (30579, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30579, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30579, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30579, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (30579, 169 /* TSYS_MUTATION_DATA_INT */, 101255170);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30579, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (30579, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (30579, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (30579, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (30579, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (30579,   1,          1) /* ItemType - MeleeWeapon */
+     , (30579,   3,         20) /* PaletteTemplate - Silver */
+     , (30579,   5,        450) /* EncumbranceVal */
+     , (30579,   8,        180) /* Mass */
+     , (30579,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30579,  16,          1) /* ItemUseable - No */
+     , (30579,  19,        460) /* Value */
+     , (30579,  44,         20) /* Damage */
+     , (30579,  45,          3) /* DamageType */
+     , (30579,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (30579,  47,          6) /* AttackType */
+     , (30579,  48,         11) /* WeaponSkill - Sword */
+     , (30579,  49,         35) /* WeaponTime */
+     , (30579,  51,          1) /* CombatUse - Melee */
+     , (30579,  93,       1044) /* PhysicsState */
+     , (30579, 150,        103) /* HookPlacement - Hook */
+     , (30579, 151,          2) /* HookType - Wall */
+     , (30579, 169,  101255170) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30579, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30579,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30579,  21,    0.95) /* WeaponLength */
+     , (30579,  22,     0.6) /* DamageVariance */
+     , (30579,  29,       1) /* WeaponDefense */
+     , (30579,  39,     1.1) /* DefaultScale */
+     , (30579,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30579,   1, 'Flamberge') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30579,   1,   33554533) /* Setup */
+     , (30579,   3,  536870932) /* SoundTable */
+     , (30579,   6,   67111919) /* PaletteBase */
+     , (30579,   7,  268435769) /* ClothingBase */
+     , (30579,   8,  100669025) /* Icon */
+     , (30579,  22,  872415275) /* PhysicsEffectTable */
+     , (30579,  36,  234881053) /* MutateFilter */
+     , (30579,  46,  939524101) /* TsysMutationFilter */;

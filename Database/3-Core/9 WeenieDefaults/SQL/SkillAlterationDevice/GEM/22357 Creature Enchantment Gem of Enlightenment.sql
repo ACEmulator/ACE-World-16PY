@@ -1,34 +1,30 @@
-/* Weenie - Creature Enchantment Gem of Enlightenment (22357) */
-DELETE FROM weenie WHERE class_Id = 22357;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22357, 'skillgemupcreatureenchantment', 62 /* SkillAlterationDevice_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22357, 001 /* NAME_STRING */, 'Creature Enchantment Gem of Enlightenment')
-     , (22357, 014 /* USE_STRING */, 'Use this gem to specialize a trained skill. It will cost you eight skill credits to specialize the Creature Enchantment skill.')
-     , (22357, 033 /* QUEST_STRING */, 'SkillAlterationGemPickedUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22357, 001 /* SETUP_DID */, 33558088)
-     , (22357, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22357, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (22357, 008 /* ICON_DID */, 100673788)
-     , (22357, 050 /* ICON_OVERLAY_DID */, 100673761);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22357', 'skillgemupcreatureenchantment', 62) /* SkillAlterationDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22357, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22357, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (22357, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22357, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22357, 019 /* VALUE_INT */, 0)
-     , (22357, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22357, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22357, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (22357, 185 /* TYPE_OF_ALTERATION_INT */, 1)
-     , (22357, 186 /* SKILL_TO_BE_ALTERED_INT */, 31);
+VALUES (22357,   1,       2048) /* ItemType - Gem */
+     , (22357,   3,          8) /* PaletteTemplate - Green */
+     , (22357,   5,         10) /* EncumbranceVal */
+     , (22357,  16,          8) /* ItemUseable - Contained */
+     , (22357,  19,          0) /* Value */
+     , (22357,  33,          1) /* Bonded - Bonded */
+     , (22357,  93,       1044) /* PhysicsState */
+     , (22357, 114,          1) /* Attuned - Attuned */
+     , (22357, 185,          1) /* TypeOfAlteration */
+     , (22357, 186,         31) /* SkillToBeAltered */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22357, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22357, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22357,  22, True ) /* Inscribable */
+     , (22357,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22357,   1, 'Creature Enchantment Gem of Enlightenment') /* Name */
+     , (22357,  14, 'Use this gem to specialize a trained skill. It will cost you eight skill credits to specialize the Creature Enchantment skill.') /* Use */
+     , (22357,  33, 'SkillAlterationGemPickedUp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22357,   1,   33558088) /* Setup */
+     , (22357,   6,   67111919) /* PaletteBase */
+     , (22357,   7,  268435723) /* ClothingBase */
+     , (22357,   8,  100673788) /* Icon */
+     , (22357,  50,  100673761) /* IconOverlay */;

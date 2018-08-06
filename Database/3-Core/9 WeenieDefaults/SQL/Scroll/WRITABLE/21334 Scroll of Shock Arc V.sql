@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Shock Arc V (21334) */
-DELETE FROM weenie WHERE class_Id = 21334;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21334, 'scrollshockarc5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21334, 001 /* NAME_STRING */, 'Scroll of Shock Arc V')
-     , (21334, 015 /* SHORT_DESC_STRING */, 'When learned, this spell shoots a shock wave at the target. The wave does 46-90 points of bludgeoning damage to the first thing it hits.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21334, 001 /* SETUP_DID */, 33554826)
-     , (21334, 008 /* ICON_DID */, 100677008)
-     , (21334, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21334, 028 /* SPELL_DID */, 2750 /* ShockArc5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21334', 'scrollshockarc5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21334, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (21334, 005 /* ENCUMB_VAL_INT */, 30)
-     , (21334, 008 /* MASS_INT */, 90)
-     , (21334, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (21334, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (21334, 019 /* VALUE_INT */, 200)
-     , (21334, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21334, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (21334,   1,       8192) /* ItemType - Writable */
+     , (21334,   5,         30) /* EncumbranceVal */
+     , (21334,   8,         90) /* Mass */
+     , (21334,   9,          0) /* ValidLocations - None */
+     , (21334,  16,          8) /* ItemUseable - Contained */
+     , (21334,  19,        200) /* Value */
+     , (21334,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21334, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21334, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (21334,  22, True ) /* Inscribable */
+     , (21334,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21334,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21334,   1, 'Scroll of Shock Arc V') /* Name */
+     , (21334,  15, 'When learned, this spell shoots a shock wave at the target. The wave does 46-90 points of bludgeoning damage to the first thing it hits.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21334,   1,   33554826) /* Setup */
+     , (21334,   8,  100677008) /* Icon */
+     , (21334,  22,  872415275) /* PhysicsEffectTable */
+     , (21334,  28,       2750) /* Spell - Shock Arc V */;

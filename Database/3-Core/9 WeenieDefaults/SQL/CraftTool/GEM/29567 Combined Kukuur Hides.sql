@@ -1,43 +1,39 @@
-/* Weenie - Combined Kukuur Hides (29567) */
-DELETE FROM weenie WHERE class_Id = 29567;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29567, 'hidekukuur3', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29567, 001 /* NAME_STRING */, 'Combined Kukuur Hides')
-     , (29567, 014 /* USE_STRING */, 'Combine with other Kukuur hides.')
-     , (29567, 016 /* LONG_DESC_STRING */, 'Four Kukuur hides have been placed together Reeshan''s, Kiree''s, Broodu''s and Keerik''s.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29567, 001 /* SETUP_DID */, 33554817)
-     , (29567, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29567, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (29567, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (29567, 008 /* ICON_DID */, 100677168)
-     , (29567, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29567', 'hidekukuur3', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29567, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (29567, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (29567, 005 /* ENCUMB_VAL_INT */, 100)
-     , (29567, 008 /* MASS_INT */, 100)
-     , (29567, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29567, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (29567, 012 /* STACK_SIZE_INT */, 1)
-     , (29567, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (29567, 014 /* STACK_UNIT_MASS_INT */, 100)
-     , (29567, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (29567, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (29567, 019 /* VALUE_INT */, 0)
-     , (29567, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (29567, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29567, 094 /* TARGET_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (29567, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (29567, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29567, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (29567,   1,       2048) /* ItemType - Gem */
+     , (29567,   3,          4) /* PaletteTemplate - Brown */
+     , (29567,   5,        100) /* EncumbranceVal */
+     , (29567,   8,        100) /* Mass */
+     , (29567,   9,          0) /* ValidLocations - None */
+     , (29567,  11,          1) /* MaxStackSize */
+     , (29567,  12,          1) /* StackSize */
+     , (29567,  13,        100) /* StackUnitEncumbrance */
+     , (29567,  14,        100) /* StackUnitMass */
+     , (29567,  15,          0) /* StackUnitValue */
+     , (29567,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (29567,  19,          0) /* Value */
+     , (29567,  33,          1) /* Bonded - Bonded */
+     , (29567,  93,       1044) /* PhysicsState */
+     , (29567,  94,       2048) /* TargetType - Gem */
+     , (29567, 114,          1) /* Attuned - Attuned */
+     , (29567, 150,        103) /* HookPlacement - Hook */
+     , (29567, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29567, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29567, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (29567,  22, True ) /* Inscribable */
+     , (29567,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29567,   1, 'Combined Kukuur Hides') /* Name */
+     , (29567,  14, 'Combine with other Kukuur hides.') /* Use */
+     , (29567,  16, 'Four Kukuur hides have been placed together Reeshan''s, Kiree''s, Broodu''s and Keerik''s.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29567,   1,   33554817) /* Setup */
+     , (29567,   3,  536870932) /* SoundTable */
+     , (29567,   6,   67111919) /* PaletteBase */
+     , (29567,   7,  268435832) /* ClothingBase */
+     , (29567,   8,  100677168) /* Icon */
+     , (29567,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Fat Fingers (20555) */
-DELETE FROM weenie WHERE class_Id = 20555;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20555, 'scrolllockpickineptitude7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20555, 001 /* NAME_STRING */, 'Scroll of Fat Fingers')
-     , (20555, 015 /* SHORT_DESC_STRING */, 'When learned, this spell decreases the target''s Lockpick skill by 40 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20555, 001 /* SETUP_DID */, 33554826)
-     , (20555, 008 /* ICON_DID */, 100676463)
-     , (20555, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20555, 028 /* SPELL_DID */, 2268 /* LockpickIneptitudeOther7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20555', 'scrolllockpickineptitude7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20555, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20555, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20555, 008 /* MASS_INT */, 90)
-     , (20555, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20555, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20555, 019 /* VALUE_INT */, 2000)
-     , (20555, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20555, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20555,   1,       8192) /* ItemType - Writable */
+     , (20555,   5,         30) /* EncumbranceVal */
+     , (20555,   8,         90) /* Mass */
+     , (20555,   9,          0) /* ValidLocations - None */
+     , (20555,  16,          8) /* ItemUseable - Contained */
+     , (20555,  19,       2000) /* Value */
+     , (20555,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20555, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20555, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20555,  22, True ) /* Inscribable */
+     , (20555,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20555,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20555,   1, 'Scroll of Fat Fingers') /* Name */
+     , (20555,  15, 'When learned, this spell decreases the target''s Lockpick skill by 40 points.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20555,   1,   33554826) /* Setup */
+     , (20555,   8,  100676463) /* Icon */
+     , (20555,  22,  872415275) /* PhysicsEffectTable */
+     , (20555,  28,       2268) /* Spell - Fat Fingers */;

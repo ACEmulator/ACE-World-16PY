@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Purge Item Magic (20334) */
-DELETE FROM weenie WHERE class_Id = 20334;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20334, 'scrolldispelitembadother5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20334, 001 /* NAME_STRING */, 'Scroll of Purge Item Magic')
-     , (20334, 015 /* SHORT_DESC_STRING */, 'When learned, this spell dispels 2-6 negative Item Magic enchantments of level 5 or lower from the target.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20334, 001 /* SETUP_DID */, 33554826)
-     , (20334, 008 /* ICON_DID */, 100676659)
-     , (20334, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20334, 028 /* SPELL_DID */, 1945 /* DispelItemBadOther5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20334', 'scrolldispelitembadother5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20334, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20334, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20334, 008 /* MASS_INT */, 90)
-     , (20334, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20334, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20334, 019 /* VALUE_INT */, 200)
-     , (20334, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20334, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20334,   1,       8192) /* ItemType - Writable */
+     , (20334,   5,         30) /* EncumbranceVal */
+     , (20334,   8,         90) /* Mass */
+     , (20334,   9,          0) /* ValidLocations - None */
+     , (20334,  16,          8) /* ItemUseable - Contained */
+     , (20334,  19,        200) /* Value */
+     , (20334,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20334, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20334, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20334,  22, True ) /* Inscribable */
+     , (20334,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20334,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20334,   1, 'Scroll of Purge Item Magic') /* Name */
+     , (20334,  15, 'When learned, this spell dispels 2-6 negative Item Magic enchantments of level 5 or lower from the target.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20334,   1,   33554826) /* Setup */
+     , (20334,   8,  100676659) /* Icon */
+     , (20334,  22,  872415275) /* PhysicsEffectTable */
+     , (20334,  28,       1945) /* Spell - Purge Item Magic */;

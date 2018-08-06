@@ -1,39 +1,35 @@
-/* Weenie - Gem of Raising Strength (22948) */
-DELETE FROM weenie WHERE class_Id = 22948;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22948, 'attributegemupstrength', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22948, 001 /* NAME_STRING */, 'Gem of Raising Strength')
-     , (22948, 014 /* USE_STRING */, 'Combine this gem with an attribute lowering gem to transfer up to 10 points of another attribute to your strength.')
-     , (22948, 033 /* QUEST_STRING */, 'AttributeRaisingGemPickedUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22948, 001 /* SETUP_DID */, 33558088)
-     , (22948, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22948, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (22948, 008 /* ICON_DID */, 100673788)
-     , (22948, 050 /* ICON_OVERLAY_DID */, 100673967);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22948', 'attributegemupstrength', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22948, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22948, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (22948, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22948, 008 /* MASS_INT */, 10)
-     , (22948, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (22948, 012 /* STACK_SIZE_INT */, 1)
-     , (22948, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (22948, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (22948, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (22948, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (22948, 019 /* VALUE_INT */, 0)
-     , (22948, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22948, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22948, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22948, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (22948,   1,        128) /* ItemType - Misc */
+     , (22948,   3,          8) /* PaletteTemplate - Green */
+     , (22948,   5,         10) /* EncumbranceVal */
+     , (22948,   8,         10) /* Mass */
+     , (22948,  11,          1) /* MaxStackSize */
+     , (22948,  12,          1) /* StackSize */
+     , (22948,  13,         10) /* StackUnitEncumbrance */
+     , (22948,  14,         10) /* StackUnitMass */
+     , (22948,  15,          0) /* StackUnitValue */
+     , (22948,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (22948,  19,          0) /* Value */
+     , (22948,  33,          1) /* Bonded - Bonded */
+     , (22948,  93,       1044) /* PhysicsState */
+     , (22948,  94,        128) /* TargetType - Misc */
+     , (22948, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22948, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22948, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22948,  22, True ) /* Inscribable */
+     , (22948,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22948,   1, 'Gem of Raising Strength') /* Name */
+     , (22948,  14, 'Combine this gem with an attribute lowering gem to transfer up to 10 points of another attribute to your strength.') /* Use */
+     , (22948,  33, 'AttributeRaisingGemPickedUp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22948,   1,   33558088) /* Setup */
+     , (22948,   6,   67111919) /* PaletteBase */
+     , (22948,   7,  268435723) /* ClothingBase */
+     , (22948,   8,  100673788) /* Icon */
+     , (22948,  50,  100673967) /* IconOverlay */;

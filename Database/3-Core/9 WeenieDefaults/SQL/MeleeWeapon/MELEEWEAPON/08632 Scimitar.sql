@@ -1,47 +1,43 @@
-/* Weenie - Scimitar (8632) */
-DELETE FROM weenie WHERE class_Id = 8632;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8632, 'scimitarmonsteronly2', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8632, 001 /* NAME_STRING */, 'Scimitar');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8632, 001 /* SETUP_DID */, 33554750)
-     , (8632, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8632, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8632, 007 /* CLOTHINGBASE_DID */, 268435765)
-     , (8632, 008 /* ICON_DID */, 100668975)
-     , (8632, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8632, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8632', 'scimitarmonsteronly2', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8632, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (8632, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (8632, 005 /* ENCUMB_VAL_INT */, 450)
-     , (8632, 008 /* MASS_INT */, 180)
-     , (8632, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (8632, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8632, 019 /* VALUE_INT */, 200)
-     , (8632, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (8632, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (8632, 044 /* DAMAGE_INT */, 30)
-     , (8632, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (8632, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (8632, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (8632, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (8632, 049 /* WEAPON_TIME_INT */, 35)
-     , (8632, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (8632, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8632, 021 /* WEAPON_LENGTH_FLOAT */, 0.96)
-     , (8632, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (8632, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (8632, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (8632,   1,          1) /* ItemType - MeleeWeapon */
+     , (8632,   3,         20) /* PaletteTemplate - Silver */
+     , (8632,   5,        450) /* EncumbranceVal */
+     , (8632,   8,        180) /* Mass */
+     , (8632,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (8632,  16,          1) /* ItemUseable - No */
+     , (8632,  19,        200) /* Value */
+     , (8632,  33,         -2) /* Bonded - Destroy */
+     , (8632,  37,       9999) /* ResistItemAppraisal */
+     , (8632,  44,         30) /* Damage */
+     , (8632,  45,          3) /* DamageType */
+     , (8632,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (8632,  47,          6) /* AttackType */
+     , (8632,  48,         11) /* WeaponSkill - Sword */
+     , (8632,  49,         35) /* WeaponTime */
+     , (8632,  51,          1) /* CombatUse - Melee */
+     , (8632,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8632, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8632, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8632,  22, True ) /* Inscribable */
+     , (8632,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8632,  21,    0.96) /* WeaponLength */
+     , (8632,  22,     0.5) /* DamageVariance */
+     , (8632,  29,       1) /* WeaponDefense */
+     , (8632,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8632,   1, 'Scimitar') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8632,   1,   33554750) /* Setup */
+     , (8632,   3,  536870932) /* SoundTable */
+     , (8632,   6,   67111919) /* PaletteBase */
+     , (8632,   7,  268435765) /* ClothingBase */
+     , (8632,   8,  100668975) /* Icon */
+     , (8632,  22,  872415275) /* PhysicsEffectTable */
+     , (8632,  36,  234881044) /* MutateFilter */;

@@ -1,35 +1,31 @@
-/* Weenie - Nevius Passage Portal (5507) */
-DELETE FROM weenie WHERE class_Id = 5507;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5507, 'portalneviuspassage', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5507, 001 /* NAME_STRING */, 'Nevius Passage Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5507, 001 /* SETUP_DID */, 33555922)
-     , (5507, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (5507, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5507', 'portalneviuspassage', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5507, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (5507, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (5507, 086 /* MIN_LEVEL_INT */, 8)
-     , (5507, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (5507, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (5507, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5507, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (5507,   1,      65536) /* ItemType - Portal */
+     , (5507,  16,         32) /* ItemUseable - Remote */
+     , (5507,  86,          8) /* MinLevel */
+     , (5507,  93,       3084) /* PhysicsState */
+     , (5507, 111,          1) /* PortalBitmask - Unrestricted */
+     , (5507, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5507, 001 /* STUCK_BOOL */, True)
-     , (5507, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (5507, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5507, 013 /* ETHEREAL_BOOL */, True)
-     , (5507, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (5507,   1, True ) /* Stuck */
+     , (5507,  11, False) /* IgnoreCollisions */
+     , (5507,  12, True ) /* ReportCollisions */
+     , (5507,  13, True ) /* Ethereal */
+     , (5507,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5507,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5507,   1, 'Nevius Passage Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5507,   1,   33555922) /* Setup */
+     , (5507,   2,  150994947) /* MotionTable */
+     , (5507,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5507, 2, 21758296, 170, -170, 0, -0.7071068, 0, 0, -0.7071068) /* DESTINATION_POSITION */;
-
+VALUES (5507, 2, 21758296, 170, -170, 0, -0.7071068, 0, 0, -0.7071068) /* Destination */;

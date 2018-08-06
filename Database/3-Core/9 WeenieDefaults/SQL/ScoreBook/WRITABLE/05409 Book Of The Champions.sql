@@ -1,45 +1,42 @@
-/* Weenie - Book Of The Champions (5409) */
-DELETE FROM weenie WHERE class_Id = 5409;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5409, 'scorebookphysical', 48 /* ScoreBook_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5409, 001 /* NAME_STRING */, 'Book Of The Champions')
-     , (5409, 028 /* SCORE_DEFAULT_ENTRY_FORMAT_STRING */, '\n   %n, with a rating of %s,')
-     , (5409, 029 /* SCORE_FIRST_ENTRY_FORMAT_STRING */, 'The most powerful heroes in the land are:\n\n   %n, with a physical rating of %s,')
-     , (5409, 030 /* SCORE_LAST_ENTRY_FORMAT_STRING */, '\n   and %n, with a rating of %s.')
-     , (5409, 031 /* SCORE_ONLY_ENTRY_FORMAT_STRING */, 'There is only one truly powerful dweller of Dereth: %n, with a physical rating of %s.\n')
-     , (5409, 032 /* SCORE_NO_ENTRY_STRING */, 'Unfortunately, no one in Dereth is wizened enough to appear within these pages.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5409, 001 /* SETUP_DID */, 33554771)
-     , (5409, 008 /* ICON_DID */, 100668117);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5409', 'scorebookphysical', 48) /* ScoreBook */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5409, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5409, 005 /* ENCUMB_VAL_INT */, 10)
-     , (5409, 008 /* MASS_INT */, 5)
-     , (5409, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5409, 019 /* VALUE_INT */, 25)
-     , (5409, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5409, 136 /* SCORE_PAGE_NUM_INT */, 2)
-     , (5409, 137 /* SCORE_CONFIG_NUM_INT */, 1)
-     , (5409, 138 /* SCORE_NUM_SCORES_INT */, 5);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5409, 054 /* USE_RADIUS_FLOAT */, 5);
+VALUES (5409,   1,       8192) /* ItemType - Writable */
+     , (5409,   5,         10) /* EncumbranceVal */
+     , (5409,   8,          5) /* Mass */
+     , (5409,  16,          8) /* ItemUseable - Contained */
+     , (5409,  19,         25) /* Value */
+     , (5409,  93,       1048) /* PhysicsState */
+     , (5409, 136,          2) /* ScorePageNum */
+     , (5409, 137,          1) /* ScoreConfigNum */
+     , (5409, 138,          5) /* ScoreNumScores */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5409, 001 /* STUCK_BOOL */, False)
-     , (5409, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5409, 013 /* ETHEREAL_BOOL */, False)
-     , (5409, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (5409, 022 /* INSCRIBABLE_BOOL */, False)
-     , (5409, 062 /* OPENS_ANY_LOCK_BOOL */, False);
+VALUES (5409,   1, False) /* Stuck */
+     , (5409,  12, True ) /* ReportCollisions */
+     , (5409,  13, False) /* Ethereal */
+     , (5409,  14, True ) /* GravityStatus */
+     , (5409,  22, False) /* Inscribable */
+     , (5409,  62, False) /* OpensAnyLock */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5409,  54,       5) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5409,   1, 'Book Of The Champions') /* Name */
+     , (5409,  28, '\n   %n, with a rating of %s,') /* ScoreDefaultEntryFormat */
+     , (5409,  29, 'The most powerful heroes in the land are:\n\n   %n, with a physical rating of %s,') /* ScoreFirstEntryFormat */
+     , (5409,  30, '\n   and %n, with a rating of %s.') /* ScoreLastEntryFormat */
+     , (5409,  31, 'There is only one truly powerful dweller of Dereth: %n, with a physical rating of %s.\n') /* ScoreOnlyEntryFormat */
+     , (5409,  32, 'Unfortunately, no one in Dereth is wizened enough to appear within these pages.') /* ScoreNoEntry */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5409,   1,   33554771) /* Setup */
+     , (5409,   8,  100668117) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5409, 2, 2000) /* Book Data */;
+VALUES (5409, 2, 2000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5409, 0, 4294967295, ' ', 'prewritten', False, 'The Champions
@@ -53,4 +50,3 @@ Physical prowess has long been the "true metric" by which heroes are measured.  
 These pages were penned on %D and reflect the most up-to-date information at the time.
 
 ');
-

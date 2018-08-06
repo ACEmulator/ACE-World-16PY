@@ -1,50 +1,46 @@
-/* Weenie - Celdon Girth of Acid (7685) */
-DELETE FROM weenie WHERE class_Id = 7685;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7685, 'girthceldonshadownewacid', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7685, 001 /* NAME_STRING */, 'Celdon Girth of Acid');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7685, 001 /* SETUP_DID */, 33554647)
-     , (7685, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7685, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (7685, 007 /* CLOTHINGBASE_DID */, 268435843)
-     , (7685, 008 /* ICON_DID */, 100670410)
-     , (7685, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7685', 'girthceldonshadownewacid', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7685, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (7685, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (7685, 004 /* CLOTHING_PRIORITY_INT */, 2048 /* OuterwearAbdomen */)
-     , (7685, 005 /* ENCUMB_VAL_INT */, 875)
-     , (7685, 008 /* MASS_INT */, 625)
-     , (7685, 009 /* LOCATIONS_INT */, 1024 /* ABDOMEN_ARMOR_LOC */)
-     , (7685, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7685, 019 /* VALUE_INT */, 1610)
-     , (7685, 027 /* ARMOR_TYPE_INT */, 32)
-     , (7685, 028 /* ARMOR_LEVEL_INT */, 160)
-     , (7685, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7685, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (7685, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7685, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7685, 012 /* SHADE_FLOAT */, 0.3)
-     , (7685, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (7685, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (7685, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (7685, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.2)
-     , (7685, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
-     , (7685, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 2)
-     , (7685, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
-     , (7685, 110 /* BULK_MOD_FLOAT */, 1)
-     , (7685, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (7685,   1,          2) /* ItemType - Armor */
+     , (7685,   3,          8) /* PaletteTemplate - Green */
+     , (7685,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
+     , (7685,   5,        875) /* EncumbranceVal */
+     , (7685,   8,        625) /* Mass */
+     , (7685,   9,       1024) /* ValidLocations - AbdomenArmor */
+     , (7685,  16,          1) /* ItemUseable - No */
+     , (7685,  19,       1610) /* Value */
+     , (7685,  27,         32) /* ArmorType */
+     , (7685,  28,        160) /* ArmorLevel */
+     , (7685,  33,          1) /* Bonded - Bonded */
+     , (7685,  36,       9999) /* ResistMagic */
+     , (7685,  93,       1044) /* PhysicsState */
+     , (7685, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7685, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7685, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7685, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7685,  22, True ) /* Inscribable */
+     , (7685,  23, True ) /* DestroyOnSell */
+     , (7685,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7685,  12,     0.3) /* Shade */
+     , (7685,  13,     1.3) /* ArmorModVsSlash */
+     , (7685,  14,       1) /* ArmorModVsPierce */
+     , (7685,  15,       1) /* ArmorModVsBludgeon */
+     , (7685,  16,     1.2) /* ArmorModVsCold */
+     , (7685,  17,     1.2) /* ArmorModVsFire */
+     , (7685,  18,       2) /* ArmorModVsAcid */
+     , (7685,  19,       0) /* ArmorModVsElectric */
+     , (7685, 110,       1) /* BulkMod */
+     , (7685, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7685,   1, 'Celdon Girth of Acid') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7685,   1,   33554647) /* Setup */
+     , (7685,   3,  536870932) /* SoundTable */
+     , (7685,   6,   67108990) /* PaletteBase */
+     , (7685,   7,  268435843) /* ClothingBase */
+     , (7685,   8,  100670410) /* Icon */
+     , (7685,  22,  872415275) /* PhysicsEffectTable */;

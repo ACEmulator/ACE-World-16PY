@@ -1,49 +1,45 @@
-/* Weenie - Training Staff (12743) */
-DELETE FROM weenie WHERE class_Id = 12743;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12743, 'stafftraining', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12743, 001 /* NAME_STRING */, 'Training Staff')
-     , (12743, 014 /* USE_STRING */, 'Use Oil of Rendering on this weapon to create an Academy Quarterstaff.')
-     , (12743, 015 /* SHORT_DESC_STRING */, 'A basic staff forged in the Strathelar Training Academy. This item can be used on an item hook.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12743, 001 /* SETUP_DID */, 33554749)
-     , (12743, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12743, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12743, 007 /* CLOTHINGBASE_DID */, 268435795)
-     , (12743, 008 /* ICON_DID */, 100669105)
-     , (12743, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12743, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12743', 'stafftraining', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12743, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (12743, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (12743, 005 /* ENCUMB_VAL_INT */, 400)
-     , (12743, 008 /* MASS_INT */, 90)
-     , (12743, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (12743, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12743, 019 /* VALUE_INT */, 25)
-     , (12743, 044 /* DAMAGE_INT */, 4)
-     , (12743, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (12743, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (12743, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (12743, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (12743, 049 /* WEAPON_TIME_INT */, 35)
-     , (12743, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (12743, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12743, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12743, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12743, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (12743, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.4)
-     , (12743, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (12743, 039 /* DEFAULT_SCALE_FLOAT */, 0.67)
-     , (12743, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (12743,   1,          1) /* ItemType - MeleeWeapon */
+     , (12743,   3,          4) /* PaletteTemplate - Brown */
+     , (12743,   5,        400) /* EncumbranceVal */
+     , (12743,   8,         90) /* Mass */
+     , (12743,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12743,  16,          1) /* ItemUseable - No */
+     , (12743,  19,         25) /* Value */
+     , (12743,  44,          4) /* Damage */
+     , (12743,  45,          4) /* DamageType - Bludgeon */
+     , (12743,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (12743,  47,          6) /* AttackType */
+     , (12743,  48,         10) /* WeaponSkill - Staff */
+     , (12743,  49,         35) /* WeaponTime */
+     , (12743,  51,          1) /* CombatUse - Melee */
+     , (12743,  93,       1044) /* PhysicsState */
+     , (12743, 150,        103) /* HookPlacement - Hook */
+     , (12743, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12743, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (12743,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12743,  21,    1.33) /* WeaponLength */
+     , (12743,  22,     0.4) /* DamageVariance */
+     , (12743,  29,       1) /* WeaponDefense */
+     , (12743,  39,    0.67) /* DefaultScale */
+     , (12743,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12743,   1, 'Training Staff') /* Name */
+     , (12743,  14, 'Use Oil of Rendering on this weapon to create an Academy Quarterstaff.') /* Use */
+     , (12743,  15, 'A basic staff forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12743,   1,   33554749) /* Setup */
+     , (12743,   3,  536870932) /* SoundTable */
+     , (12743,   6,   67111919) /* PaletteBase */
+     , (12743,   7,  268435795) /* ClothingBase */
+     , (12743,   8,  100669105) /* Icon */
+     , (12743,  22,  872415275) /* PhysicsEffectTable */
+     , (12743,  36,  234881044) /* MutateFilter */;

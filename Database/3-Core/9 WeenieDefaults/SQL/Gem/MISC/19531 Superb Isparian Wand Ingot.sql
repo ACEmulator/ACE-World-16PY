@@ -1,41 +1,37 @@
-/* Weenie - Superb Isparian Wand Ingot (19531) */
-DELETE FROM weenie WHERE class_Id = 19531;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19531, 'ingotwandispariansuperb', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19531, 001 /* NAME_STRING */, 'Superb Isparian Wand Ingot')
-     , (19531, 015 /* SHORT_DESC_STRING */, 'An diamond infused ingot, enhanced and stamped with an wand glyph.')
-     , (19531, 016 /* LONG_DESC_STRING */, 'An diamond infused ingot, enhanced and stamped with an wand glyph.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19531, 001 /* SETUP_DID */, 33555677)
-     , (19531, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19531, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19531, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (19531, 008 /* ICON_DID */, 100672974)
-     , (19531, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19531', 'ingotwandispariansuperb', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19531, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19531, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (19531, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (19531, 008 /* MASS_INT */, 1000)
-     , (19531, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19531, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (19531, 012 /* STACK_SIZE_INT */, 1)
-     , (19531, 013 /* STACK_UNIT_ENCUMB_INT */, 1000)
-     , (19531, 014 /* STACK_UNIT_MASS_INT */, 1000)
-     , (19531, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (19531, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19531, 019 /* VALUE_INT */, 0)
-     , (19531, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19531, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19531, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (19531,   1,        128) /* ItemType - Misc */
+     , (19531,   3,          8) /* PaletteTemplate - Green */
+     , (19531,   5,       1000) /* EncumbranceVal */
+     , (19531,   8,       1000) /* Mass */
+     , (19531,   9,          0) /* ValidLocations - None */
+     , (19531,  11,          1) /* MaxStackSize */
+     , (19531,  12,          1) /* StackSize */
+     , (19531,  13,       1000) /* StackUnitEncumbrance */
+     , (19531,  14,       1000) /* StackUnitMass */
+     , (19531,  15,          0) /* StackUnitValue */
+     , (19531,  16,          1) /* ItemUseable - No */
+     , (19531,  19,          0) /* Value */
+     , (19531,  33,          1) /* Bonded - Bonded */
+     , (19531,  93,       1044) /* PhysicsState */
+     , (19531, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19531, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19531, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19531, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19531,  22, True ) /* Inscribable */
+     , (19531,  23, True ) /* DestroyOnSell */
+     , (19531,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19531,   1, 'Superb Isparian Wand Ingot') /* Name */
+     , (19531,  15, 'An diamond infused ingot, enhanced and stamped with an wand glyph.') /* ShortDesc */
+     , (19531,  16, 'An diamond infused ingot, enhanced and stamped with an wand glyph.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19531,   1,   33555677) /* Setup */
+     , (19531,   3,  536870932) /* SoundTable */
+     , (19531,   6,   67111919) /* PaletteBase */
+     , (19531,   7,  268435723) /* ClothingBase */
+     , (19531,   8,  100672974) /* Icon */
+     , (19531,  22,  872415275) /* PhysicsEffectTable */;

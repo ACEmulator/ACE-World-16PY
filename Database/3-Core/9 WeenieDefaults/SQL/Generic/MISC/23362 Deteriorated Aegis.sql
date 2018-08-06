@@ -1,40 +1,36 @@
-/* Weenie - Deteriorated Aegis (23362) */
-DELETE FROM weenie WHERE class_Id = 23362;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23362, 'shielddeterioratedblue', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23362, 001 /* NAME_STRING */, 'Deteriorated Aegis')
-     , (23362, 014 /* USE_STRING */, 'This item cannot be wielded.')
-     , (23362, 016 /* LONG_DESC_STRING */, 'A worn and dilapidated Aegis.  Once a mighty barrier wielded between warrior and beast, this shield has been neglected too many years for it to be of any use in physical combat.  Perhaps it can be useful in other ways...')
-     , (23362, 033 /* QUEST_STRING */, 'DeterioratedAegisPickup');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23362, 001 /* SETUP_DID */, 33555654)
-     , (23362, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23362, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23362, 007 /* CLOTHINGBASE_DID */, 268435732)
-     , (23362, 008 /* ICON_DID */, 100668151)
-     , (23362, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23362', 'shielddeterioratedblue', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23362, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (23362, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (23362, 005 /* ENCUMB_VAL_INT */, 900)
-     , (23362, 008 /* MASS_INT */, 140)
-     , (23362, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23362, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23362, 019 /* VALUE_INT */, 0)
-     , (23362, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23362, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23362, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23362, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (23362,   1,        128) /* ItemType - Misc */
+     , (23362,   3,          2) /* PaletteTemplate - Blue */
+     , (23362,   5,        900) /* EncumbranceVal */
+     , (23362,   8,        140) /* Mass */
+     , (23362,   9,          0) /* ValidLocations - None */
+     , (23362,  16,          1) /* ItemUseable - No */
+     , (23362,  19,          0) /* Value */
+     , (23362,  33,          1) /* Bonded - Bonded */
+     , (23362,  93,       1044) /* PhysicsState */
+     , (23362, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23362, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23362, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (23362, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (23362,  22, True ) /* Inscribable */
+     , (23362,  23, True ) /* DestroyOnSell */
+     , (23362,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23362,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23362,   1, 'Deteriorated Aegis') /* Name */
+     , (23362,  14, 'This item cannot be wielded.') /* Use */
+     , (23362,  16, 'A worn and dilapidated Aegis.  Once a mighty barrier wielded between warrior and beast, this shield has been neglected too many years for it to be of any use in physical combat.  Perhaps it can be useful in other ways...') /* LongDesc */
+     , (23362,  33, 'DeterioratedAegisPickup') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23362,   1,   33555654) /* Setup */
+     , (23362,   3,  536870932) /* SoundTable */
+     , (23362,   6,   67111919) /* PaletteBase */
+     , (23362,   7,  268435732) /* ClothingBase */
+     , (23362,   8,  100668151) /* Icon */
+     , (23362,  22,  872415275) /* PhysicsEffectTable */;

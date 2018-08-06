@@ -1,42 +1,38 @@
-/* Weenie - Book Binding (15849) */
-DELETE FROM weenie WHERE class_Id = 15849;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15849, 'bookbinding4', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15849, 001 /* NAME_STRING */, 'Book Binding')
-     , (15849, 014 /* USE_STRING */, 'Use on a scrawled note to put the pages back into the book.')
-     , (15849, 015 /* SHORT_DESC_STRING */, 'A binding that once contained several pages of text, the pages seem to have been removed, or dropped. Four pages remain missing.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15849, 001 /* SETUP_DID */, 33556929)
-     , (15849, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15849, 006 /* PALETTE_BASE_DID */, 67113005)
-     , (15849, 007 /* CLOTHINGBASE_DID */, 268436360)
-     , (15849, 008 /* ICON_DID */, 100672804)
-     , (15849, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15849', 'bookbinding4', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15849, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15849, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (15849, 005 /* ENCUMB_VAL_INT */, 100)
-     , (15849, 008 /* MASS_INT */, 10)
-     , (15849, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (15849, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (15849, 012 /* STACK_SIZE_INT */, 1)
-     , (15849, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (15849, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (15849, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (15849, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (15849, 019 /* VALUE_INT */, 0)
-     , (15849, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (15849, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (15849, 094 /* TARGET_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (15849, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (15849,   1,        128) /* ItemType - Misc */
+     , (15849,   3,          8) /* PaletteTemplate - Green */
+     , (15849,   5,        100) /* EncumbranceVal */
+     , (15849,   8,         10) /* Mass */
+     , (15849,   9,          0) /* ValidLocations - None */
+     , (15849,  11,          1) /* MaxStackSize */
+     , (15849,  12,          1) /* StackSize */
+     , (15849,  13,        100) /* StackUnitEncumbrance */
+     , (15849,  14,         10) /* StackUnitMass */
+     , (15849,  15,          0) /* StackUnitValue */
+     , (15849,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (15849,  19,          0) /* Value */
+     , (15849,  33,          1) /* Bonded - Bonded */
+     , (15849,  93,       1044) /* PhysicsState */
+     , (15849,  94,       8192) /* TargetType - Writable */
+     , (15849, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15849, 022 /* INSCRIBABLE_BOOL */, True)
-     , (15849, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (15849, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (15849,  22, True ) /* Inscribable */
+     , (15849,  23, True ) /* DestroyOnSell */
+     , (15849,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15849,   1, 'Book Binding') /* Name */
+     , (15849,  14, 'Use on a scrawled note to put the pages back into the book.') /* Use */
+     , (15849,  15, 'A binding that once contained several pages of text, the pages seem to have been removed, or dropped. Four pages remain missing.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15849,   1,   33556929) /* Setup */
+     , (15849,   3,  536870932) /* SoundTable */
+     , (15849,   6,   67113005) /* PaletteBase */
+     , (15849,   7,  268436360) /* ClothingBase */
+     , (15849,   8,  100672804) /* Icon */
+     , (15849,  22,  872415275) /* PhysicsEffectTable */;

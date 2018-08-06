@@ -1,35 +1,31 @@
-/* Weenie - Legionary Pincer (10846) */
-DELETE FROM weenie WHERE class_Id = 10846;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10846, 'pincerlegionary-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10846, 001 /* NAME_STRING */, 'Legionary Pincer')
-     , (10846, 016 /* LONG_DESC_STRING */, 'The pincer off of an Olthoi Legionary, desired by Behdo Yii, in Redspire.')
-     , (10846, 033 /* QUEST_STRING */, 'OlthoiHunting4');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10846, 001 /* SETUP_DID */, 33554817)
-     , (10846, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10846, 008 /* ICON_DID */, 100672037)
-     , (10846, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10846', 'pincerlegionary-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10846, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (10846, 005 /* ENCUMB_VAL_INT */, 100)
-     , (10846, 008 /* MASS_INT */, 100)
-     , (10846, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (10846, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10846, 019 /* VALUE_INT */, 0)
-     , (10846, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (10846, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (10846, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10846, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (10846,   1,        128) /* ItemType - Misc */
+     , (10846,   5,        100) /* EncumbranceVal */
+     , (10846,   8,        100) /* Mass */
+     , (10846,   9,          0) /* ValidLocations - None */
+     , (10846,  16,          1) /* ItemUseable - No */
+     , (10846,  19,          0) /* Value */
+     , (10846,  33,          1) /* Bonded - Bonded */
+     , (10846,  93,       1044) /* PhysicsState */
+     , (10846, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10846, 022 /* INSCRIBABLE_BOOL */, True)
-     , (10846, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (10846,  22, True ) /* Inscribable */
+     , (10846,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10846,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10846,   1, 'Legionary Pincer') /* Name */
+     , (10846,  16, 'The pincer off of an Olthoi Legionary, desired by Behdo Yii, in Redspire.') /* LongDesc */
+     , (10846,  33, 'OlthoiHunting4') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10846,   1,   33554817) /* Setup */
+     , (10846,   3,  536870932) /* SoundTable */
+     , (10846,   8,  100672037) /* Icon */
+     , (10846,  22,  872415275) /* PhysicsEffectTable */;

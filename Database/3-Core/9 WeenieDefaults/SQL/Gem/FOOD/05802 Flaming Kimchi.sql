@@ -1,47 +1,43 @@
-/* Weenie - Flaming Kimchi (5802) */
-DELETE FROM weenie WHERE class_Id = 5802;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5802, 'flamingkimchi', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5802, 001 /* NAME_STRING */, 'Flaming Kimchi')
-     , (5802, 015 /* SHORT_DESC_STRING */, 'Kimchi so hot, it''ll keep you warm for a while.')
-     , (5802, 016 /* LONG_DESC_STRING */, 'Kimchi so hot, it''ll keep you warm for a while.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5802, 001 /* SETUP_DID */, 33554669)
-     , (5802, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5802, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (5802, 008 /* ICON_DID */, 100670313)
-     , (5802, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (5802, 023 /* USE_SOUND_DID */, 64 /* Sound_Eat1 */)
-     , (5802, 027 /* USE_USER_ANIMATION_DID */, 318767233 /* Motion_MimeEat */)
-     , (5802, 028 /* SPELL_DID */, 1030 /* ColdProtectionSelf1_SpellID */)
-     , (5802, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5802', 'flamingkimchi', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5802, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5802, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5802, 008 /* MASS_INT */, 35)
-     , (5802, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5802, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (5802, 012 /* STACK_SIZE_INT */, 1)
-     , (5802, 013 /* STACK_UNIT_ENCUMB_INT */, 25)
-     , (5802, 014 /* STACK_UNIT_MASS_INT */, 35)
-     , (5802, 015 /* STACK_UNIT_VALUE_INT */, 125)
-     , (5802, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5802, 018 /* UI_EFFECTS_INT */, 2 /* UI_EFFECT_POISONED */)
-     , (5802, 019 /* VALUE_INT */, 125)
-     , (5802, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5802, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (5802, 106 /* ITEM_SPELLCRAFT_INT */, 50)
-     , (5802, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (5802, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (5802, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (5802, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (5802,   1,         32) /* ItemType - Food */
+     , (5802,   5,         25) /* EncumbranceVal */
+     , (5802,   8,         35) /* Mass */
+     , (5802,   9,          0) /* ValidLocations - None */
+     , (5802,  11,          1) /* MaxStackSize */
+     , (5802,  12,          1) /* StackSize */
+     , (5802,  13,         25) /* StackUnitEncumbrance */
+     , (5802,  14,         35) /* StackUnitMass */
+     , (5802,  15,        125) /* StackUnitValue */
+     , (5802,  16,          8) /* ItemUseable - Contained */
+     , (5802,  18,          2) /* UiEffects - Poisoned */
+     , (5802,  19,        125) /* Value */
+     , (5802,  93,       1044) /* PhysicsState */
+     , (5802,  94,         16) /* TargetType - Creature */
+     , (5802, 106,         50) /* ItemSpellcraft */
+     , (5802, 107,         50) /* ItemCurMana */
+     , (5802, 108,         50) /* ItemMaxMana */
+     , (5802, 109,          0) /* ItemDifficulty */
+     , (5802, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5802, 022 /* INSCRIBABLE_BOOL */, True)
-     , (5802, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5802,  22, True ) /* Inscribable */
+     , (5802,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5802,   1, 'Flaming Kimchi') /* Name */
+     , (5802,  15, 'Kimchi so hot, it''ll keep you warm for a while.') /* ShortDesc */
+     , (5802,  16, 'Kimchi so hot, it''ll keep you warm for a while.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5802,   1,   33554669) /* Setup */
+     , (5802,   3,  536870932) /* SoundTable */
+     , (5802,   6,   67111919) /* PaletteBase */
+     , (5802,   8,  100670313) /* Icon */
+     , (5802,  22,  872415275) /* PhysicsEffectTable */
+     , (5802,  23,         64) /* UseSound - Eat1 */
+     , (5802,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (5802,  28,       1030) /* Spell - Cold Protection Self I */
+     , (5802,  36,  234881046) /* MutateFilter */;

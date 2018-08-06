@@ -1,32 +1,28 @@
-/* Weenie - Peerless Lockpick (516) */
-DELETE FROM weenie WHERE class_Id = 516;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (516, 'lockpickpeer', 23 /* Lockpick_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (516, 001 /* NAME_STRING */, 'Peerless Lockpick')
-     , (516, 014 /* USE_STRING */, 'Use this item on a locked door or chest to pick the lock.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (516, 001 /* SETUP_DID */, 33554790)
-     , (516, 008 /* ICON_DID */, 100670827);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('516', 'lockpickpeer', 23) /* Lockpick */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (516, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (516, 005 /* ENCUMB_VAL_INT */, 50)
-     , (516, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (516, 019 /* VALUE_INT */, 3000)
-     , (516, 088 /* LOCKPICK_MOD_INT */, 20)
-     , (516, 091 /* MAX_STRUCTURE_INT */, 50)
-     , (516, 092 /* STRUCTURE_INT */, 50)
-     , (516, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (516, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (516, 039 /* DEFAULT_SCALE_FLOAT */, 2)
-     , (516, 040 /* LOCKPICK_MOD_FLOAT */, 1);
+VALUES (516,   1,      16384) /* ItemType - Key */
+     , (516,   5,         50) /* EncumbranceVal */
+     , (516,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (516,  19,       3000) /* Value */
+     , (516,  88,         20) /* LockpickMod */
+     , (516,  91,         50) /* MaxStructure */
+     , (516,  92,         50) /* Structure */
+     , (516,  93,       1044) /* PhysicsState */
+     , (516,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (516, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (516,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (516,  39,       2) /* DefaultScale */
+     , (516,  40,       1) /* LockpickMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (516,   1, 'Peerless Lockpick') /* Name */
+     , (516,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (516,   1,   33554790) /* Setup */
+     , (516,   8,  100670827) /* Icon */;

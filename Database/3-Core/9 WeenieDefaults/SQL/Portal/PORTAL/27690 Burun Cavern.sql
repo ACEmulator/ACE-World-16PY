@@ -1,34 +1,30 @@
-/* Weenie - Burun Cavern (27690) */
-DELETE FROM weenie WHERE class_Id = 27690;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27690, 'portalburunholding', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27690, 001 /* NAME_STRING */, 'Burun Cavern');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27690, 001 /* SETUP_DID */, 33555926)
-     , (27690, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (27690, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27690', 'portalburunholding', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27690, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (27690, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (27690, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (27690, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (27690, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27690, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (27690,   1,      65536) /* ItemType - Portal */
+     , (27690,  16,         32) /* ItemUseable - Remote */
+     , (27690,  93,       3084) /* PhysicsState */
+     , (27690, 111,          1) /* PortalBitmask - Unrestricted */
+     , (27690, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27690, 001 /* STUCK_BOOL */, True)
-     , (27690, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (27690, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (27690, 013 /* ETHEREAL_BOOL */, True)
-     , (27690, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (27690,   1, True ) /* Stuck */
+     , (27690,  11, False) /* IgnoreCollisions */
+     , (27690,  12, True ) /* ReportCollisions */
+     , (27690,  13, True ) /* Ethereal */
+     , (27690,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27690,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27690,   1, 'Burun Cavern') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27690,   1,   33555926) /* Setup */
+     , (27690,   2,  150994947) /* MotionTable */
+     , (27690,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27690, 2, 1649017725, 60, -110, 0, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (27690, 2, 1649017725, 60, -110, 0, 1, 0, 0, 0) /* Destination */;

@@ -1,31 +1,27 @@
-/* Weenie - Key Template (28772) */
-DELETE FROM weenie WHERE class_Id = 28772;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28772, 'keyviamontiantorturechamber', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28772, 001 /* NAME_STRING */, 'Key Template')
-     , (28772, 013 /* KEY_CODE_STRING */, 'chestkey1')
-     , (28772, 016 /* LONG_DESC_STRING */, 'A template for a lovely key.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28772, 001 /* SETUP_DID */, 33554784)
-     , (28772, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28772, 008 /* ICON_DID */, 100667485)
-     , (28772, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28772', 'keyviamontiantorturechamber', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28772, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (28772, 005 /* ENCUMB_VAL_INT */, 5)
-     , (28772, 008 /* MASS_INT */, 5)
-     , (28772, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (28772, 019 /* VALUE_INT */, 5)
-     , (28772, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (28772, 092 /* STRUCTURE_INT */, 1)
-     , (28772, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28772, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (28772,   1,      16384) /* ItemType - Key */
+     , (28772,   5,          5) /* EncumbranceVal */
+     , (28772,   8,          5) /* Mass */
+     , (28772,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (28772,  19,          5) /* Value */
+     , (28772,  91,          1) /* MaxStructure */
+     , (28772,  92,          1) /* Structure */
+     , (28772,  93,       1044) /* PhysicsState */
+     , (28772,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28772, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28772,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28772,   1, 'Key Template') /* Name */
+     , (28772,  13, 'chestkey1') /* KeyCode */
+     , (28772,  16, 'A template for a lovely key.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28772,   1,   33554784) /* Setup */
+     , (28772,   3,  536870932) /* SoundTable */
+     , (28772,   8,  100667485) /* Icon */
+     , (28772,  22,  872415275) /* PhysicsEffectTable */;

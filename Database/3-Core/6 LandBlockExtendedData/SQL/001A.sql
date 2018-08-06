@@ -1,159 +1,317 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28656, 1879154688, 1704195, 230.305, -278.496, -11.995, 0.995004, 0, 0, -0.0998331) /* Drudge Prowler */
-     , (28637, 1879154689, 1704202, 239.901, -269.187, -11.995, -0.999893, 0, 0, -0.0146357) /* Drudge Prowler */
-     , (28637, 1879154690, 1704206, 240.171, -278.405, -11.995, -0.999893, 0, 0, -0.0146357) /* Drudge Prowler */
-     , (28637, 1879154691, 1704213, 250.235, -263.203, -11.995, -0.999196, 0, 0, 0.0400866) /* Drudge Prowler */
-     , (28637, 1879154692, 1704223, 261.337, -270.202, -11.995, 0.999687, 0, 0, 0.0249976) /* Drudge Prowler */
-     , (28637, 1879154693, 1704227, 261.625, -278.866, -11.995, 0.999687, 0, 0, 0.0249976) /* Drudge Prowler */
-     , (28656, 1879154694, 1704234, 269.66, -279.486, -11.995, 0.992393, 0, 0, 0.123113) /* Drudge Prowler */
-     , (28656, 1879154695, 1704238, 211.188, -358.306, -5.995, 0.935603, 0, 0, -0.353054) /* Drudge Prowler */
-     , (28656, 1879154696, 1704238, 211.002, -360.86, -5.995, 0.814898, 0, 0, -0.579605) /* Drudge Prowler */
-     , (29303, 1879154697, 1704238, 206.91, -357.882, -5.995, 0.801146, 0, 0, -0.598469) /* Drudge Prowler */
-     , (28637, 1879154698, 1704241, 231.845, -180.516, -5.995, 0.710523, 0, 0, -0.703674) /* Drudge Prowler */
-     , (28652, 1879154699, 1704250, 243.011, -130.575, -5.995, -0.9698, 0, 0, 0.243902) /* Drudge Prowler */
-     , (28652, 1879154700, 1704269, 249.354, -135.48, -5.995, 0.997615, 0, 0, -0.0690181) /* Drudge Prowler */
-     , (28652, 1879154701, 1704269, 250.987, -135.707, -5.995, 0.997615, 0, 0, -0.0690181) /* Drudge Prowler */
-     , (29303, 1879154702, 1704273, 250.204, -180.209, -5.995, 0.999768, 0, 0, -0.021531) /* Drudge Prowler */
-     , (28652, 1879154703, 1704273, 248.084, -178.294, -5.995, 0.999951, 0, 0, -0.009861) /* Drudge Prowler */
-     , (28652, 1879154704, 1704273, 251.92, -177.919, -5.995, -0.995473, 0, 0, -0.095043) /* Drudge Prowler */
-     , (28652, 1879154705, 1704290, 256.942, -130.522, -5.995, 0.997189, 0, 0, 0.0749293) /* Drudge Prowler */
-     , (28637, 1879154706, 1704299, 268.183, -180.116, -5.995, 0.726668, 0, 0, 0.686989) /* Drudge Prowler */
-     , (28656, 1879154707, 1704307, 281.657, -350.837, -5.995, 0.799875, 0, 0, 0.600167) /* Drudge Prowler */
-     , (29303, 1879154708, 1704309, 290.391, -347.733, -5.995, 0.764842, 0, 0, 0.644218) /* Drudge Prowler */
-     , (29303, 1879154709, 1704309, 290.867, -350.707, -5.995, 0.764842, 0, 0, 0.644218) /* Drudge Prowler */
-     , (7923, 1879154710, 1704320, 190, -100, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
-     , (28652, 1879154711, 1704321, 190, -107.92, 0.005, 1, 0, 0, -4.37114E-08) /* Drudge Prowler */
-     , (28652, 1879154712, 1704321, 188.47, -107.92, 0.005, 1, 0, 0, -4.37114E-08) /* Drudge Prowler */
-     , (28656, 1879154713, 1704354, 250.238, -413.191, 0.005, -0.998932, 0, 0, 0.0462095) /* Drudge Prowler */
-     , (28656, 1879154714, 1704354, 248.315, -413.013, 0.005, -0.998932, 0, 0, 0.0462095) /* Drudge Prowler */
-     , (29303, 1879154715, 1704355, 248.826, -417.211, 0.005, -0.998932, 0, 0, 0.046209) /* Drudge Prowler */
-     , (29303, 1879154716, 1704355, 251.808, -417.488, 0.005, -0.998932, 0, 0, 0.046209) /* Drudge Prowler */
-     , (28635, 1879154717, 1704357, 249.694, -437.989, 0.005, 0.999996, 0, 0, -0.00279004) /* Drudge Prowler */
-     , (28635, 1879154718, 1704364, 268.152, -430.758, 0.005, 0.833091, 0, 0, 0.553136) /* Drudge Prowler */
-     , (29385, 1879154719, 1704369, 12, -220, 6.005, -0.707107, 0, 0, -0.707107) /* Platinum Legion Quartermaster's Chest */
-     , (29385, 1879154720, 1704373, 30, -202, 6.005, 1, 0, 0, 0) /* Platinum Legion Quartermaster's Chest */
-     , (29385, 1879154721, 1704377, 30, -238, 6.005, -4.37114E-08, 0, 0, -1) /* Platinum Legion Quartermaster's Chest */
-     , (29424, 1879154722, 1704386, 61.2757, -219.998, 6.005, 0.74465, 0, 0, -0.667455) /* Platinum Legion Quartermaster */
-     , (29303, 1879154723, 1704386, 59.0279, -218.868, 6.005, 0.724649, 0, 0, -0.689118) /* Drudge Prowler */
-     , (29303, 1879154724, 1704386, 59.3367, -221.374, 6.005, 0.724649, 0, 0, -0.689118) /* Drudge Prowler */
-     , (28655, 1879154725, 1704393, 69.8231, -219.094, 6.005, 0.703727, 0, 0, -0.710471) /* Drudge Prowler */
-     , (28655, 1879154726, 1704393, 69.8013, -221.383, 6.005, 0.703727, 0, 0, -0.710471) /* Drudge Prowler */
-     , (30287, 1879154727, 1704425, 130, -284, 6.005, 1, 0, 0, -4.37114E-08) /* Door */
-     , (7923, 1879154728, 1704434, 130, -320, 6.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
-     , (28635, 1879154729, 1704434, 128.165, -315.933, 6.005, 0.0199227, 0, 0, 0.999802) /* Drudge Prowler */
-     , (28635, 1879154730, 1704434, 130.881, -316.679, 6.005, 0.0199227, 0, 0, 0.999802) /* Drudge Prowler */
-     , (30287, 1879154731, 1704442, 130, -404, 6.005, 1, 0, 0, -4.37114E-08) /* Door */
-     , (28635, 1879154732, 1704443, 130, -410, 6.005, 0.659983, 0, 0, -0.751281) /* Drudge Prowler */
-     , (286, 1879154733, 1704453, 136.5, -305, 7.954, 1, 0, 0, 0) /* Lever */
-     , (28635, 1879154734, 1704478, 145.892, -429.848, 6.005, -0.768739, 0, 0, 0.639563) /* Drudge Prowler */
-     , (29303, 1879154735, 1704512, 10.4766, -80.5153, 12.005, 0.731225, 0, 0, -0.682137) /* Drudge Prowler */
-     , (29438, 1879154736, 1704517, 20, 0, 12.005, 1, 0, 0, 0) /* Exit Platinum Legion Keep */
-     , (29458, 1879154737, 1704520, 20, -30, 12.005, 0, 0, 0, -1) /* generatoreventplatinumkeepboss1 */
-     , (29459, 1879154738, 1704520, 20, -28, 12.005, 0, 0, 0, -1) /* generatoreventplatinumkeepboss2 */
-     , (28655, 1879154739, 1704553, 30.5452, -79.6068, 12.005, 0.731225, 0, 0, -0.682137) /* Drudge Prowler */
-     , (28655, 1879154740, 1704553, 28.7799, -81.7297, 12.005, 0.731225, 0, 0, -0.682137) /* Drudge Prowler */
-     , (29376, 1879154741, 1704570, 100, -80, 12.005, -0.707107, 0, 0, -0.707107) /* Door */
-     , (30300, 1879154742, 1704574, 102.111, -300.795, 12.005, -0.987042, 0, 0, -0.16046) /* Drudge Prowler */
-     , (30300, 1879154743, 1704574, 98.9694, -302.814, 12.005, -0.934536, 0, 0, 0.355869) /* Drudge Prowler */
-     , (29414, 1879154744, 1704579, 108.727, -84.2287, 12.005, -0.029345, 0, 0, -0.999569) /* Platinum Legion Doorkeeper */
-     , (28655, 1879154745, 1704581, 111.168, -97.1985, 12.005, 0.0288344, 0, 0, 0.999584) /* Drudge Prowler */
-     , (28655, 1879154746, 1704581, 108.241, -97.0295, 12.005, 0.0288344, 0, 0, 0.999584) /* Drudge Prowler */
-     , (28655, 1879154747, 1704581, 109.19, -98.2712, 12.005, -0.0211602, 0, 0, 0.999776) /* Drudge Prowler */
-     , (30297, 1879154748, 1704602, 118.758, -270, 12.005, 1, 0, 0, 0) /* Drudge Prowler */
-     , (30301, 1879154749, 1704602, 120.733, -267.802, 12.005, 0.996359, 0, 0, -0.08526) /* Drudge Prowler */
-     , (286, 1879154750, 1704605, 123.35, -298.433, 13.825, 1, 0, 0, 0) /* Lever */
-     , (30297, 1879154751, 1704606, 119.928, -303.223, 12.005, 0.002502, 0, 0, 0.999997) /* Drudge Prowler */
-     , (29303, 1879154752, 1704615, 131.007, -181.496, 12.005, -0.027436, 0, 0, 0.999624) /* Drudge Prowler */
-     , (28656, 1879154753, 1704616, 128.67, -188.955, 12.005, -0.0274365, 0, 0, 0.999624) /* Drudge Prowler */
-     , (28656, 1879154754, 1704616, 130.876, -186.689, 12.005, -0.0274365, 0, 0, 0.999624) /* Drudge Prowler */
-     , (30287, 1879154755, 1704622, 130, -250, 12.005, 1, 0, 0, -4.37114E-08) /* Door */
-     , (30297, 1879154756, 1704646, 139.75, -272.209, 12.005, 0.99878, 0, 0, 0.04939) /* Drudge Prowler */
-     , (30301, 1879154757, 1704646, 139.978, -268.35, 12.005, 0.988771, 0, 0, 0.149438) /* Drudge Prowler */
-     , (30297, 1879154758, 1704650, 140.088, -303.09, 12.005, 0.132653, 0, 0, 0.991163) /* Drudge Prowler */
-     , (2609, 1879154759, 1704654, 140, -397, 12.059, 1, 0, 0, 0) /* Lever */
-     , (30301, 1879154760, 1704654, 141.172, -399.765, 12.005, -0.108585, 0, 0, 0.994087) /* Drudge Prowler */
-     , (30301, 1879154761, 1704654, 139.251, -399.158, 12.005, 0.0542004, 0, 0, 0.99853) /* Drudge Prowler */
-     , (30297, 1879154762, 1704656, 143.052, -419.723, 12.005, 0.371153, 0, 0, -0.928572) /* Drudge Prowler */
-     , (30297, 1879154763, 1704660, 144.16, -436.656, 12.005, 0.953882, 0, 0, -0.300182) /* Drudge Prowler */
-     , (30301, 1879154764, 1704660, 140.274, -437.834, 12.005, 0.991577, 0, 0, -0.129518) /* Drudge Prowler */
-     , (30301, 1879154765, 1704660, 138.252, -439.594, 12.005, 0.991577, 0, 0, -0.129518) /* Drudge Prowler */
-     , (30300, 1879154766, 1704675, 159.894, -301.629, 12.005, -0.805501, 0, 0, -0.592594) /* Drudge Prowler */
-     , (30300, 1879154767, 1704675, 160.719, -297.987, 12.005, 0.942329, 0, 0, -0.334687) /* Drudge Prowler */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154688, 28656, 1704195, 230.305, -278.496, -11.995, 0.995004, 0, 0, -0.0998331,  True); /* Drudge Prowler */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879154710'; /* linkmonstergen3minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879154731'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879154755'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879154727'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1879154728'; /* linkmonstergen3minutes */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154689, 28637, 1704202, 239.901, -269.187, -11.995, -0.999893, 0, 0, -0.0146357,  True); /* Drudge Prowler */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154711'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154712'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154699'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154705'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154700'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154701'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154706'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154698'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154703'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154704'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154702'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154691'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154689'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154690'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154692'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154693'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154694'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154688'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154695'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154696'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154697'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154708'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154709'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154707'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154713'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154714'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154713'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154714'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154715'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154716'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154718'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154734'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154732'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154762'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154763'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154764'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154765'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154760'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154761'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879154717'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879154759'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879154750'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879154733'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154722'; /* linkmonstergen3minutes <- Platinum Legion Quartermaster */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154744'; /* linkmonstergen3minutes <- Platinum Legion Doorkeeper */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154766'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154767'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154742'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154743'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154751'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154758'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154756'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154748'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154749'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154757'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154729'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154730'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154753'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154754'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154752'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154723'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154724'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154725'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154726'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154745'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154746'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154747'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154739'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154740'; /* linkmonstergen3minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879154735'; /* linkmonstergen3minutes <- Drudge Prowler */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154690, 28637, 1704206, 240.171, -278.405, -11.995, -0.999893, 0, 0, -0.0146357,  True); /* Drudge Prowler */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154691, 28637, 1704213, 250.235, -263.203, -11.995, -0.999196, 0, 0, 0.0400866,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154692, 28637, 1704223, 261.337, -270.202, -11.995, 0.999687, 0, 0, 0.0249976,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154693, 28637, 1704227, 261.625, -278.866, -11.995, 0.999687, 0, 0, 0.0249976,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154694, 28656, 1704234, 269.66, -279.486, -11.995, 0.992393, 0, 0, 0.123113,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154695, 28656, 1704238, 211.188, -358.306, -5.995, 0.935603, 0, 0, -0.353054,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154696, 28656, 1704238, 211.002, -360.86, -5.995, 0.814898, 0, 0, -0.579605,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154697, 29303, 1704238, 206.91, -357.882, -5.995, 0.801146, 0, 0, -0.598469,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154698, 28637, 1704241, 231.845, -180.516, -5.995, 0.710523, 0, 0, -0.703674,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154699, 28652, 1704250, 243.011, -130.575, -5.995, -0.9698, 0, 0, 0.243902,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154700, 28652, 1704269, 249.354, -135.48, -5.995, 0.997615, 0, 0, -0.0690181,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154701, 28652, 1704269, 250.987, -135.707, -5.995, 0.997615, 0, 0, -0.0690181,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154702, 29303, 1704273, 250.204, -180.209, -5.995, 0.999768, 0, 0, -0.021531,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154703, 28652, 1704273, 248.084, -178.294, -5.995, 0.999951, 0, 0, -0.009861,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154704, 28652, 1704273, 251.92, -177.919, -5.995, -0.995473, 0, 0, -0.095043,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154705, 28652, 1704290, 256.942, -130.522, -5.995, 0.997189, 0, 0, 0.0749293,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154706, 28637, 1704299, 268.183, -180.116, -5.995, 0.726668, 0, 0, 0.686989,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154707, 28656, 1704307, 281.657, -350.837, -5.995, 0.799875, 0, 0, 0.600167,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154708, 29303, 1704309, 290.391, -347.733, -5.995, 0.764842, 0, 0, 0.644218,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154709, 29303, 1704309, 290.867, -350.707, -5.995, 0.764842, 0, 0, 0.644218,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154710,  7923, 1704320, 190, -100, 0.005, 1, 0, 0, 0, False); /* Linkable Monster Generator ( 3 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1879154710, 1879154688) /* Drudge Prowler */
+     , (1879154710, 1879154689) /* Drudge Prowler */
+     , (1879154710, 1879154690) /* Drudge Prowler */
+     , (1879154710, 1879154691) /* Drudge Prowler */
+     , (1879154710, 1879154692) /* Drudge Prowler */
+     , (1879154710, 1879154693) /* Drudge Prowler */
+     , (1879154710, 1879154694) /* Drudge Prowler */
+     , (1879154710, 1879154695) /* Drudge Prowler */
+     , (1879154710, 1879154696) /* Drudge Prowler */
+     , (1879154710, 1879154697) /* Drudge Prowler */
+     , (1879154710, 1879154698) /* Drudge Prowler */
+     , (1879154710, 1879154699) /* Drudge Prowler */
+     , (1879154710, 1879154700) /* Drudge Prowler */
+     , (1879154710, 1879154701) /* Drudge Prowler */
+     , (1879154710, 1879154702) /* Drudge Prowler */
+     , (1879154710, 1879154703) /* Drudge Prowler */
+     , (1879154710, 1879154704) /* Drudge Prowler */
+     , (1879154710, 1879154705) /* Drudge Prowler */
+     , (1879154710, 1879154706) /* Drudge Prowler */
+     , (1879154710, 1879154707) /* Drudge Prowler */
+     , (1879154710, 1879154708) /* Drudge Prowler */
+     , (1879154710, 1879154709) /* Drudge Prowler */
+     , (1879154710, 1879154711) /* Drudge Prowler */
+     , (1879154710, 1879154712) /* Drudge Prowler */
+     , (1879154710, 1879154713) /* Drudge Prowler */
+     , (1879154710, 1879154714) /* Drudge Prowler */
+     , (1879154710, 1879154715) /* Drudge Prowler */
+     , (1879154710, 1879154716) /* Drudge Prowler */
+     , (1879154710, 1879154717) /* Drudge Prowler */
+     , (1879154710, 1879154718) /* Drudge Prowler */
+     , (1879154710, 1879154732) /* Drudge Prowler */
+     , (1879154710, 1879154734) /* Drudge Prowler */
+     , (1879154710, 1879154760) /* Drudge Prowler */
+     , (1879154710, 1879154761) /* Drudge Prowler */
+     , (1879154710, 1879154762) /* Drudge Prowler */
+     , (1879154710, 1879154763) /* Drudge Prowler */
+     , (1879154710, 1879154764) /* Drudge Prowler */
+     , (1879154710, 1879154765) /* Drudge Prowler */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154711, 28652, 1704321, 190, -107.92, 0.005, 1, 0, 0, -4.37114E-08,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154712, 28652, 1704321, 188.47, -107.92, 0.005, 1, 0, 0, -4.37114E-08,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154713, 28656, 1704354, 250.238, -413.191, 0.005, -0.998932, 0, 0, 0.0462095,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154714, 28656, 1704354, 248.315, -413.013, 0.005, -0.998932, 0, 0, 0.0462095,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154715, 29303, 1704355, 248.826, -417.211, 0.005, -0.998932, 0, 0, 0.046209,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154716, 29303, 1704355, 251.808, -417.488, 0.005, -0.998932, 0, 0, 0.046209,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154717, 28635, 1704357, 249.694, -437.989, 0.005, 0.999996, 0, 0, -0.00279004,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154718, 28635, 1704364, 268.152, -430.758, 0.005, 0.833091, 0, 0, 0.553136,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154719, 29385, 1704369, 12, -220, 6.005, -0.707107, 0, 0, -0.707107, False); /* Platinum Legion Quartermaster's Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154720, 29385, 1704373, 30, -202, 6.005, 1, 0, 0, 0, False); /* Platinum Legion Quartermaster's Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154721, 29385, 1704377, 30, -238, 6.005, -4.37114E-08, 0, 0, -1, False); /* Platinum Legion Quartermaster's Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154722, 29424, 1704386, 61.2757, -219.998, 6.005, 0.74465, 0, 0, -0.667455,  True); /* Platinum Legion Quartermaster */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154723, 29303, 1704386, 59.0279, -218.868, 6.005, 0.724649, 0, 0, -0.689118,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154724, 29303, 1704386, 59.3367, -221.374, 6.005, 0.724649, 0, 0, -0.689118,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154725, 28655, 1704393, 69.8231, -219.094, 6.005, 0.703727, 0, 0, -0.710471,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154726, 28655, 1704393, 69.8013, -221.383, 6.005, 0.703727, 0, 0, -0.710471,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154727, 30287, 1704425, 130, -284, 6.005, 1, 0, 0, -4.37114E-08, False); /* Door */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1879154727, 1879154733) /* Lever */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154728,  7923, 1704434, 130, -320, 6.005, 1, 0, 0, 0, False); /* Linkable Monster Generator ( 3 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1879154728, 1879154722) /* Platinum Legion Quartermaster */
+     , (1879154728, 1879154723) /* Drudge Prowler */
+     , (1879154728, 1879154724) /* Drudge Prowler */
+     , (1879154728, 1879154725) /* Drudge Prowler */
+     , (1879154728, 1879154726) /* Drudge Prowler */
+     , (1879154728, 1879154729) /* Drudge Prowler */
+     , (1879154728, 1879154730) /* Drudge Prowler */
+     , (1879154728, 1879154735) /* Drudge Prowler */
+     , (1879154728, 1879154739) /* Drudge Prowler */
+     , (1879154728, 1879154740) /* Drudge Prowler */
+     , (1879154728, 1879154742) /* Drudge Prowler */
+     , (1879154728, 1879154743) /* Drudge Prowler */
+     , (1879154728, 1879154744) /* Platinum Legion Doorkeeper */
+     , (1879154728, 1879154745) /* Drudge Prowler */
+     , (1879154728, 1879154746) /* Drudge Prowler */
+     , (1879154728, 1879154747) /* Drudge Prowler */
+     , (1879154728, 1879154748) /* Drudge Prowler */
+     , (1879154728, 1879154749) /* Drudge Prowler */
+     , (1879154728, 1879154751) /* Drudge Prowler */
+     , (1879154728, 1879154752) /* Drudge Prowler */
+     , (1879154728, 1879154753) /* Drudge Prowler */
+     , (1879154728, 1879154754) /* Drudge Prowler */
+     , (1879154728, 1879154756) /* Drudge Prowler */
+     , (1879154728, 1879154757) /* Drudge Prowler */
+     , (1879154728, 1879154758) /* Drudge Prowler */
+     , (1879154728, 1879154766) /* Drudge Prowler */
+     , (1879154728, 1879154767) /* Drudge Prowler */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154729, 28635, 1704434, 128.165, -315.933, 6.005, 0.0199227, 0, 0, 0.999802,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154730, 28635, 1704434, 130.881, -316.679, 6.005, 0.0199227, 0, 0, 0.999802,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154731, 30287, 1704442, 130, -404, 6.005, 1, 0, 0, -4.37114E-08, False); /* Door */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1879154731, 1879154759) /* Lever */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154732, 28635, 1704443, 130, -410, 6.005, 0.659983, 0, 0, -0.751281,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154733,   286, 1704453, 136.5, -305, 7.954, 1, 0, 0, 0,  True); /* Lever */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154734, 28635, 1704478, 145.892, -429.848, 6.005, -0.768739, 0, 0, 0.639563,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154735, 29303, 1704512, 10.4766, -80.5153, 12.005, 0.731225, 0, 0, -0.682137,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154736, 29438, 1704517, 20, 0, 12.005, 1, 0, 0, 0, False); /* Exit Platinum Legion Keep */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154737, 29458, 1704520, 20, -30, 12.005, 0, 0, 0, -1, False); /* Zaikhal Defense Platinum Keep Boss 1 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154738, 29459, 1704520, 20, -28, 12.005, 0, 0, 0, -1, False); /* Zaikhal Defense Platinum Keep Boss 2 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154739, 28655, 1704553, 30.5452, -79.6068, 12.005, 0.731225, 0, 0, -0.682137,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154740, 28655, 1704553, 28.7799, -81.7297, 12.005, 0.731225, 0, 0, -0.682137,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154741, 29376, 1704570, 100, -80, 12.005, -0.707107, 0, 0, -0.707107, False); /* Door */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154742, 30300, 1704574, 102.111, -300.795, 12.005, -0.987042, 0, 0, -0.16046,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154743, 30300, 1704574, 98.9694, -302.814, 12.005, -0.934536, 0, 0, 0.355869,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154744, 29414, 1704579, 108.727, -84.2287, 12.005, -0.029345, 0, 0, -0.999569,  True); /* Platinum Legion Doorkeeper */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154745, 28655, 1704581, 111.168, -97.1985, 12.005, 0.0288344, 0, 0, 0.999584,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154746, 28655, 1704581, 108.241, -97.0295, 12.005, 0.0288344, 0, 0, 0.999584,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154747, 28655, 1704581, 109.19, -98.2712, 12.005, -0.0211602, 0, 0, 0.999776,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154748, 30297, 1704602, 118.758, -270, 12.005, 1, 0, 0, 0,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154749, 30301, 1704602, 120.733, -267.802, 12.005, 0.996359, 0, 0, -0.08526,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154750,   286, 1704605, 123.35, -298.433, 13.825, 1, 0, 0, 0,  True); /* Lever */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154751, 30297, 1704606, 119.928, -303.223, 12.005, 0.002502, 0, 0, 0.999997,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154752, 29303, 1704615, 131.007, -181.496, 12.005, -0.027436, 0, 0, 0.999624,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154753, 28656, 1704616, 128.67, -188.955, 12.005, -0.0274365, 0, 0, 0.999624,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154754, 28656, 1704616, 130.876, -186.689, 12.005, -0.0274365, 0, 0, 0.999624,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154755, 30287, 1704622, 130, -250, 12.005, 1, 0, 0, -4.37114E-08, False); /* Door */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1879154755, 1879154750) /* Lever */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154756, 30297, 1704646, 139.75, -272.209, 12.005, 0.99878, 0, 0, 0.04939,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154757, 30301, 1704646, 139.978, -268.35, 12.005, 0.988771, 0, 0, 0.149438,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154758, 30297, 1704650, 140.088, -303.09, 12.005, 0.132653, 0, 0, 0.991163,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154759,  2609, 1704654, 140, -397, 12.059, 1, 0, 0, 0,  True); /* Lever */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154760, 30301, 1704654, 141.172, -399.765, 12.005, -0.108585, 0, 0, 0.994087,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154761, 30301, 1704654, 139.251, -399.158, 12.005, 0.0542004, 0, 0, 0.99853,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154762, 30297, 1704656, 143.052, -419.723, 12.005, 0.371153, 0, 0, -0.928572,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154763, 30297, 1704660, 144.16, -436.656, 12.005, 0.953882, 0, 0, -0.300182,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154764, 30301, 1704660, 140.274, -437.834, 12.005, 0.991577, 0, 0, -0.129518,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154765, 30301, 1704660, 138.252, -439.594, 12.005, 0.991577, 0, 0, -0.129518,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154766, 30300, 1704675, 159.894, -301.629, 12.005, -0.805501, 0, 0, -0.592594,  True); /* Drudge Prowler */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1879154767, 30300, 1704675, 160.719, -297.987, 12.005, 0.942329, 0, 0, -0.334687,  True); /* Drudge Prowler */

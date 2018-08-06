@@ -1,50 +1,46 @@
-/* Weenie - Tumerok Spear (9671) */
-DELETE FROM weenie WHERE class_Id = 9671;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9671, 'speartumerok', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9671, 001 /* NAME_STRING */, 'Tumerok Spear')
-     , (9671, 015 /* SHORT_DESC_STRING */, 'A Tumerok spear.')
-     , (9671, 016 /* LONG_DESC_STRING */, 'An lovingly carved Tumerok spear.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9671, 001 /* SETUP_DID */, 33554756)
-     , (9671, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9671, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (9671, 007 /* CLOTHINGBASE_DID */, 268435768)
-     , (9671, 008 /* ICON_DID */, 100669005)
-     , (9671, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9671, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9671', 'speartumerok', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9671, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (9671, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (9671, 005 /* ENCUMB_VAL_INT */, 600)
-     , (9671, 008 /* MASS_INT */, 140)
-     , (9671, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (9671, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9671, 019 /* VALUE_INT */, 150)
-     , (9671, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9671, 044 /* DAMAGE_INT */, 8)
-     , (9671, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (9671, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (9671, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (9671, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (9671, 049 /* WEAPON_TIME_INT */, 30)
-     , (9671, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (9671, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9671, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
-     , (9671, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9671, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9671, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (9671, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (9671, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (9671, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (9671,   1,          1) /* ItemType - MeleeWeapon */
+     , (9671,   3,         20) /* PaletteTemplate - Silver */
+     , (9671,   5,        600) /* EncumbranceVal */
+     , (9671,   8,        140) /* Mass */
+     , (9671,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (9671,  16,          1) /* ItemUseable - No */
+     , (9671,  19,        150) /* Value */
+     , (9671,  33,          1) /* Bonded - Bonded */
+     , (9671,  44,          8) /* Damage */
+     , (9671,  45,          2) /* DamageType - Pierce */
+     , (9671,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (9671,  47,          2) /* AttackType - Thrust */
+     , (9671,  48,          9) /* WeaponSkill - Spear */
+     , (9671,  49,         30) /* WeaponTime */
+     , (9671,  51,          1) /* CombatUse - Melee */
+     , (9671,  93,       1044) /* PhysicsState */
+     , (9671, 114,          0) /* Attuned - Normal */
+     , (9671, 150,        103) /* HookPlacement - Hook */
+     , (9671, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9671, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (9671,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9671,  21,     1.5) /* WeaponLength */
+     , (9671,  22,    0.75) /* DamageVariance */
+     , (9671,  29,       1) /* WeaponDefense */
+     , (9671,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9671,   1, 'Tumerok Spear') /* Name */
+     , (9671,  15, 'A Tumerok spear.') /* ShortDesc */
+     , (9671,  16, 'An lovingly carved Tumerok spear.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9671,   1,   33554756) /* Setup */
+     , (9671,   3,  536870932) /* SoundTable */
+     , (9671,   6,   67111919) /* PaletteBase */
+     , (9671,   7,  268435768) /* ClothingBase */
+     , (9671,   8,  100669005) /* Icon */
+     , (9671,  22,  872415275) /* PhysicsEffectTable */
+     , (9671,  36,  234881044) /* MutateFilter */;

@@ -1,47 +1,43 @@
-/* Weenie - Tusker Island Shirt (22565) */
-DELETE FROM weenie WHERE class_Id = 22565;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22565, 'shirttuskeremporium', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22565, 001 /* NAME_STRING */, 'Tusker Island Shirt')
-     , (22565, 007 /* INSCRIPTION_STRING */, 'I survived the Deadly Tusker Emporium Dungeon of Doom!! (tm)')
-     , (22565, 008 /* SCRIBE_NAME_STRING */, '-')
-     , (22565, 015 /* SHORT_DESC_STRING */, 'A souvenir from Tusker Island')
-     , (22565, 016 /* LONG_DESC_STRING */, 'A shirt purchased on Tusker Island.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22565, 001 /* SETUP_DID */, 33554883)
-     , (22565, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22565, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (22565, 007 /* CLOTHINGBASE_DID */, 268436531)
-     , (22565, 008 /* ICON_DID */, 100673830)
-     , (22565, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22565', 'shirttuskeremporium', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22565, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (22565, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (22565, 004 /* CLOTHING_PRIORITY_INT */, 40 /* UnderwearChest, UnderwearUpperArms */)
-     , (22565, 005 /* ENCUMB_VAL_INT */, 57)
-     , (22565, 008 /* MASS_INT */, 38)
-     , (22565, 009 /* LOCATIONS_INT */, 10 /* CHEST_WEAR_LOC, UPPER_ARM_WEAR_LOC */)
-     , (22565, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22565, 019 /* VALUE_INT */, 9000)
-     , (22565, 027 /* ARMOR_TYPE_INT */, 1)
-     , (22565, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (22565, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22565, 012 /* SHADE_FLOAT */, 0)
-     , (22565, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (22565, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (22565, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (22565, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (22565, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (22565, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (22565, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (22565,   1,          4) /* ItemType - Clothing */
+     , (22565,   3,          8) /* PaletteTemplate - Green */
+     , (22565,   4,         40) /* ClothingPriority */
+     , (22565,   5,         57) /* EncumbranceVal */
+     , (22565,   8,         38) /* Mass */
+     , (22565,   9,         10) /* ValidLocations */
+     , (22565,  16,          1) /* ItemUseable - No */
+     , (22565,  19,       9000) /* Value */
+     , (22565,  27,          1) /* ArmorType */
+     , (22565,  28,          0) /* ArmorLevel */
+     , (22565,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22565, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22565,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22565,  12,       0) /* Shade */
+     , (22565,  13,     0.8) /* ArmorModVsSlash */
+     , (22565,  14,     0.8) /* ArmorModVsPierce */
+     , (22565,  15,       1) /* ArmorModVsBludgeon */
+     , (22565,  16,     0.2) /* ArmorModVsCold */
+     , (22565,  17,     0.2) /* ArmorModVsFire */
+     , (22565,  18,     0.1) /* ArmorModVsAcid */
+     , (22565,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22565,   1, 'Tusker Island Shirt') /* Name */
+     , (22565,   7, 'I survived the Deadly Tusker Emporium Dungeon of Doom!! (tm)') /* Inscription */
+     , (22565,   8, '-') /* ScribeName */
+     , (22565,  15, 'A souvenir from Tusker Island') /* ShortDesc */
+     , (22565,  16, 'A shirt purchased on Tusker Island.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22565,   1,   33554883) /* Setup */
+     , (22565,   3,  536870932) /* SoundTable */
+     , (22565,   6,   67108990) /* PaletteBase */
+     , (22565,   7,  268436531) /* ClothingBase */
+     , (22565,   8,  100673830) /* Icon */
+     , (22565,  22,  872415275) /* PhysicsEffectTable */;

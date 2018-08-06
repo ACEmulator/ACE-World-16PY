@@ -1,36 +1,33 @@
-/* Weenie - Sir Martine's Journal (8581) */
-DELETE FROM weenie WHERE class_Id = 8581;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8581, 'bookmartine3', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8581, 001 /* NAME_STRING */, 'Sir Martine''s Journal')
-     , (8581, 015 /* SHORT_DESC_STRING */, 'A soggy and damp journal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8581, 001 /* SETUP_DID */, 33554771)
-     , (8581, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8581, 008 /* ICON_DID */, 100668117)
-     , (8581, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8581', 'bookmartine3', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8581, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8581, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8581, 008 /* MASS_INT */, 200)
-     , (8581, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8581, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8581, 019 /* VALUE_INT */, 10)
-     , (8581, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8581, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8581,   1,       8192) /* ItemType - Writable */
+     , (8581,   5,         10) /* EncumbranceVal */
+     , (8581,   8,        200) /* Mass */
+     , (8581,   9,          0) /* ValidLocations - None */
+     , (8581,  16,          8) /* ItemUseable - Contained */
+     , (8581,  19,         10) /* Value */
+     , (8581,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8581, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8581,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8581,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8581,   1, 'Sir Martine''s Journal') /* Name */
+     , (8581,  15, 'A soggy and damp journal') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8581,   1,   33554771) /* Setup */
+     , (8581,   3,  536870932) /* SoundTable */
+     , (8581,   8,  100668117) /* Icon */
+     , (8581,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8581, 14, 1000) /* Book Data */;
+VALUES (8581, 14, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8581, 0, 4294967295, '', 'prewritten', False, 'If you are reading this, then there is still hope.
@@ -85,4 +82,3 @@ The Virindi are our friends.  The Virindi are our friends.  The Virindi are our 
      , (8581, 13, 4294967295, '', 'prewritten', False, '.........
 More portals.  Where are they taking me to this time?  They are ignoring the note.  Are they even aware it exists?  They know I exist.  Do I exist?  Who am I?  I wish they would stop hurting this Candeth Martine.  His cries are keeping me up at night.  It would be easier if I could sleep.
 ');
-

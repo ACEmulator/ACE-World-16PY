@@ -1,0 +1,23 @@
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2118', 'cluelugiangen', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (2118,  81,          1) /* MaxGeneratedObjects */
+     , (2118,  82,          1) /* InitGeneratedObjects */
+     , (2118,  93,       1044) /* PhysicsState */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (2118,   1, True ) /* Stuck */
+     , (2118,  11, True ) /* IgnoreCollisions */
+     , (2118,  18, True ) /* Visibility */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2118,  41,     900) /* RegenerationInterval */
+     , (2118,  43,       1) /* GeneratorRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2118,   1, 'Lugian Clue Generator') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2118,   1,   33555051) /* Setup */
+     , (2118,   8,  100667494) /* Icon */;

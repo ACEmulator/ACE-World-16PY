@@ -1,58 +1,54 @@
-/* Weenie - Bandit Shield (1270) */
-DELETE FROM weenie WHERE class_Id = 1270;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1270, 'shieldroundfancy', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1270, 001 /* NAME_STRING */, 'Bandit Shield');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1270, 001 /* SETUP_DID */, 33554786)
-     , (1270, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (1270, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (1270, 007 /* CLOTHINGBASE_DID */, 268435607)
-     , (1270, 008 /* ICON_DID */, 100667361)
-     , (1270, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1270, 037 /* ITEM_SKILL_LIMIT_DID */, 6);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1270', 'shieldroundfancy', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1270, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (1270, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (1270, 005 /* ENCUMB_VAL_INT */, 600)
-     , (1270, 008 /* MASS_INT */, 230)
-     , (1270, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
-     , (1270, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1270, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (1270, 019 /* VALUE_INT */, 320)
-     , (1270, 027 /* ARMOR_TYPE_INT */, 2)
-     , (1270, 028 /* ARMOR_LEVEL_INT */, 60)
-     , (1270, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
-     , (1270, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (1270, 106 /* ITEM_SPELLCRAFT_INT */, 90)
-     , (1270, 107 /* ITEM_CUR_MANA_INT */, 100)
-     , (1270, 108 /* ITEM_MAX_MANA_INT */, 100)
-     , (1270, 109 /* ITEM_DIFFICULTY_INT */, 10)
-     , (1270, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 105)
-     , (1270, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (1270, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1270, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (1270, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (1270, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (1270, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (1270, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (1270, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.5)
-     , (1270, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.3)
-     , (1270, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (1270, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (1270, 110 /* BULK_MOD_FLOAT */, 1)
-     , (1270, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (1270,   1,          2) /* ItemType - Armor */
+     , (1270,   3,         39) /* PaletteTemplate - Black */
+     , (1270,   5,        600) /* EncumbranceVal */
+     , (1270,   8,        230) /* Mass */
+     , (1270,   9,    2097152) /* ValidLocations - Shield */
+     , (1270,  16,          1) /* ItemUseable - No */
+     , (1270,  18,          1) /* UiEffects - Magical */
+     , (1270,  19,        320) /* Value */
+     , (1270,  27,          2) /* ArmorType */
+     , (1270,  28,         60) /* ArmorLevel */
+     , (1270,  51,          4) /* CombatUse - Shield */
+     , (1270,  93,       1044) /* PhysicsState */
+     , (1270, 106,         90) /* ItemSpellcraft */
+     , (1270, 107,        100) /* ItemCurMana */
+     , (1270, 108,        100) /* ItemMaxMana */
+     , (1270, 109,         10) /* ItemDifficulty */
+     , (1270, 115,        105) /* ItemSkillLevelLimit */
+     , (1270, 150,        103) /* HookPlacement - Hook */
+     , (1270, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1270, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (1270,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1270,   5,    -0.1) /* ManaRate */
+     , (1270,  13,       1) /* ArmorModVsSlash */
+     , (1270,  14,     0.8) /* ArmorModVsPierce */
+     , (1270,  15,       1) /* ArmorModVsBludgeon */
+     , (1270,  16,     0.5) /* ArmorModVsCold */
+     , (1270,  17,     0.5) /* ArmorModVsFire */
+     , (1270,  18,     0.3) /* ArmorModVsAcid */
+     , (1270,  19,     0.6) /* ArmorModVsElectric */
+     , (1270,  39,       1) /* DefaultScale */
+     , (1270, 110,       1) /* BulkMod */
+     , (1270, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1270,   1, 'Bandit Shield') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1270,   1,   33554786) /* Setup */
+     , (1270,   3,  536870932) /* SoundTable */
+     , (1270,   6,   67111919) /* PaletteBase */
+     , (1270,   7,  268435607) /* ClothingBase */
+     , (1270,   8,  100667361) /* Icon */
+     , (1270,  22,  872415275) /* PhysicsEffectTable */
+     , (1270,  37,          6) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1270, 810, 2) /* FireProtectionOther2_SpellID */;
-
+VALUES (1270,   810,      2)  /* Fire Protection Other II */;

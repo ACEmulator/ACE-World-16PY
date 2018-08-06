@@ -1,40 +1,37 @@
-/* Weenie - Report to Niarltah (28124) */
-DELETE FROM weenie WHERE class_Id = 28124;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28124, 'reportikakhe6', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28124, 001 /* NAME_STRING */, 'Report to Niarltah')
-     , (28124, 033 /* QUEST_STRING */, 'NoteBurunHistory5');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28124, 001 /* SETUP_DID */, 33554772)
-     , (28124, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28124, 008 /* ICON_DID */, 100667470)
-     , (28124, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28124', 'reportikakhe6', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28124, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28124, 005 /* ENCUMB_VAL_INT */, 25)
-     , (28124, 008 /* MASS_INT */, 5)
-     , (28124, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28124, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28124, 019 /* VALUE_INT */, 10)
-     , (28124, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28124, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28124, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28124, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (28124, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (28124,   1,       8192) /* ItemType - Writable */
+     , (28124,   5,         25) /* EncumbranceVal */
+     , (28124,   8,          5) /* Mass */
+     , (28124,   9,          0) /* ValidLocations - None */
+     , (28124,  16,          8) /* ItemUseable - Contained */
+     , (28124,  19,         10) /* Value */
+     , (28124,  33,          1) /* Bonded - Bonded */
+     , (28124,  93,       1044) /* PhysicsState */
+     , (28124, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28124, 022 /* INSCRIBABLE_BOOL */, False)
-     , (28124, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28124,  22, False) /* Inscribable */
+     , (28124,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28124,  39,    1.22) /* DefaultScale */
+     , (28124,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28124,   1, 'Report to Niarltah') /* Name */
+     , (28124,  33, 'NoteBurunHistory5') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28124,   1,   33554772) /* Setup */
+     , (28124,   3,  536870932) /* SoundTable */
+     , (28124,   8,  100667470) /* Icon */
+     , (28124,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28124, 3, 1000) /* Book Data */;
+VALUES (28124, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28124, 0, 4294967295, 'Ikakhe', 'prewritten', False, 'Niarltah, We hope to finish our collections and get them to you soon. But some of the Burun that we are with have become suspicious of our activity. We are continuing forth with increased caution.
@@ -49,4 +46,3 @@ The false gods disappear from the world and the Fiazhat who are left behind fall
 
 The mucor see all and pass this knowledge forward.
 ');
-

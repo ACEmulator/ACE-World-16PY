@@ -1,64 +1,60 @@
-/* Weenie - Superior Smoldering Atlan Mace (6239) */
-DELETE FROM weenie WHERE class_Id = 6239;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6239, 'macebettersmolderingminor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6239, 001 /* NAME_STRING */, 'Superior Smoldering Atlan Mace');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6239, 001 /* SETUP_DID */, 33556328)
-     , (6239, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6239, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6239, 007 /* CLOTHINGBASE_DID */, 268435907)
-     , (6239, 008 /* ICON_DID */, 100670545)
-     , (6239, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6239, 037 /* ITEM_SKILL_LIMIT_DID */, 5);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6239', 'macebettersmolderingminor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6239, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6239, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (6239, 005 /* ENCUMB_VAL_INT */, 600)
-     , (6239, 008 /* MASS_INT */, 900)
-     , (6239, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6239, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6239, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6239, 019 /* VALUE_INT */, 4000)
-     , (6239, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6239, 044 /* DAMAGE_INT */, 18)
-     , (6239, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (6239, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6239, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (6239, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (6239, 049 /* WEAPON_TIME_INT */, 35)
-     , (6239, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6239, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6239, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (6239, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (6239, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (6239, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200)
-     , (6239, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6239, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6239, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (6239, 021 /* WEAPON_LENGTH_FLOAT */, 0.6)
-     , (6239, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (6239, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (6239, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6239, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05);
+VALUES (6239,   1,          1) /* ItemType - MeleeWeapon */
+     , (6239,   3,         14) /* PaletteTemplate - Red */
+     , (6239,   5,        600) /* EncumbranceVal */
+     , (6239,   8,        900) /* Mass */
+     , (6239,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6239,  16,          1) /* ItemUseable - No */
+     , (6239,  18,          1) /* UiEffects - Magical */
+     , (6239,  19,       4000) /* Value */
+     , (6239,  33,          1) /* Bonded - Bonded */
+     , (6239,  44,         18) /* Damage */
+     , (6239,  45,         16) /* DamageType - Fire */
+     , (6239,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6239,  47,          4) /* AttackType - Slash */
+     , (6239,  48,          5) /* WeaponSkill - Mace */
+     , (6239,  49,         35) /* WeaponTime */
+     , (6239,  51,          1) /* CombatUse - Melee */
+     , (6239,  93,       1044) /* PhysicsState */
+     , (6239, 106,        100) /* ItemSpellcraft */
+     , (6239, 107,        500) /* ItemCurMana */
+     , (6239, 108,        500) /* ItemMaxMana */
+     , (6239, 115,        200) /* ItemSkillLevelLimit */
+     , (6239, 150,        103) /* HookPlacement - Hook */
+     , (6239, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6239, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6239, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6239, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6239,  22, True ) /* Inscribable */
+     , (6239,  23, True ) /* DestroyOnSell */
+     , (6239,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6239,   5,  -0.025) /* ManaRate */
+     , (6239,  21,     0.6) /* WeaponLength */
+     , (6239,  22,     0.6) /* DamageVariance */
+     , (6239,  29,    1.05) /* WeaponDefense */
+     , (6239,  39,       1) /* DefaultScale */
+     , (6239,  62,    1.05) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6239,   1, 'Superior Smoldering Atlan Mace') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6239,   1,   33556328) /* Setup */
+     , (6239,   3,  536870932) /* SoundTable */
+     , (6239,   6,   67111919) /* PaletteBase */
+     , (6239,   7,  268435907) /* ClothingBase */
+     , (6239,   8,  100670545) /* Icon */
+     , (6239,  22,  872415275) /* PhysicsEffectTable */
+     , (6239,  37,          5) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6239, 1602, 2) /* Defender3_SpellID */
-     , (6239, 1589, 2) /* HeartSeeker3_SpellID */
-     , (6239, 1613, 2) /* BloodDrinker3_SpellID */
-     , (6239, 1091, 2) /* FireProtectionSelf3_SpellID */
-     , (6239, 1329, 2) /* StrengthSelf3_SpellID */
-     , (6239, 1624, 2) /* SwiftKiller3_SpellID */;
-
+VALUES (6239,  1091,      2)  /* Fire Protection Self III */
+     , (6239,  1329,      2)  /* Strength Self III */
+     , (6239,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (6239,  1602,      2)  /* Aura of Defender Self III */
+     , (6239,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6239,  1624,      2)  /* Aura of Swift Killer Self III */;

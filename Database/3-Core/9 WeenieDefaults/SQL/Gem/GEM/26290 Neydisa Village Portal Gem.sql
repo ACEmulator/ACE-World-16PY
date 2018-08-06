@@ -1,48 +1,44 @@
-/* Weenie - Neydisa Village Portal Gem (26290) */
-DELETE FROM weenie WHERE class_Id = 26290;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26290, 'gemportalneydisavillage', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26290, 001 /* NAME_STRING */, 'Neydisa Village Portal Gem')
-     , (26290, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26290, 001 /* SETUP_DID */, 33556769)
-     , (26290, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26290, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26290, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26290, 008 /* ICON_DID */, 100675760)
-     , (26290, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26290, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26290, 031 /* LINKED_PORTAL_ONE_DID */, 12529 /* Neydisa Village Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26290', 'gemportalneydisavillage', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26290, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26290, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26290, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26290, 008 /* MASS_INT */, 10)
-     , (26290, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26290, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26290, 012 /* STACK_SIZE_INT */, 1)
-     , (26290, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26290, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26290, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26290, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26290, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26290, 019 /* VALUE_INT */, 500)
-     , (26290, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26290, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26290, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26290, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26290, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26290, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26290, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26290, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26290, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26290,   1,       2048) /* ItemType - Gem */
+     , (26290,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26290,   5,         10) /* EncumbranceVal */
+     , (26290,   8,         10) /* Mass */
+     , (26290,   9,          0) /* ValidLocations - None */
+     , (26290,  11,         20) /* MaxStackSize */
+     , (26290,  12,          1) /* StackSize */
+     , (26290,  13,         10) /* StackUnitEncumbrance */
+     , (26290,  14,         10) /* StackUnitMass */
+     , (26290,  15,        500) /* StackUnitValue */
+     , (26290,  16,          8) /* ItemUseable - Contained */
+     , (26290,  18,          1) /* UiEffects - Magical */
+     , (26290,  19,        500) /* Value */
+     , (26290,  93,       3092) /* PhysicsState */
+     , (26290,  94,         16) /* TargetType - Creature */
+     , (26290, 106,        210) /* ItemSpellcraft */
+     , (26290, 107,         50) /* ItemCurMana */
+     , (26290, 108,         50) /* ItemMaxMana */
+     , (26290, 109,          0) /* ItemDifficulty */
+     , (26290, 110,          0) /* ItemAllegianceRankLimit */
+     , (26290, 150,        103) /* HookPlacement - Hook */
+     , (26290, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26290, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26290, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26290,  15, True ) /* LightsStatus */
+     , (26290,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26290,   1, 'Neydisa Village Portal Gem') /* Name */
+     , (26290,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26290,   1,   33556769) /* Setup */
+     , (26290,   3,  536870932) /* SoundTable */
+     , (26290,   6,   67111919) /* PaletteBase */
+     , (26290,   7,  268435723) /* ClothingBase */
+     , (26290,   8,  100675760) /* Icon */
+     , (26290,  22,  872415275) /* PhysicsEffectTable */
+     , (26290,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26290,  31,      12529) /* LinkedPortalOne - Neydisa Village Portal */;

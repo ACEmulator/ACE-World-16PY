@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Regenerate Self VI (3117) */
-DELETE FROM weenie WHERE class_Id = 3117;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3117, 'scrollregenerateself6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3117, 001 /* NAME_STRING */, 'Scroll of Regenerate Self VI')
-     , (3117, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3117, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the caster''s natural healing rate by 200%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3117, 001 /* SETUP_DID */, 33554826)
-     , (3117, 008 /* ICON_DID */, 100676941)
-     , (3117, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3117, 028 /* SPELL_DID */, 170 /* RegenerationSelf6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3117', 'scrollregenerateself6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3117, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3117, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3117, 008 /* MASS_INT */, 90)
-     , (3117, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3117, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3117, 019 /* VALUE_INT */, 1000)
-     , (3117, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3117, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3117,   1,       8192) /* ItemType - Writable */
+     , (3117,   5,         30) /* EncumbranceVal */
+     , (3117,   8,         90) /* Mass */
+     , (3117,   9,          0) /* ValidLocations - None */
+     , (3117,  16,          8) /* ItemUseable - Contained */
+     , (3117,  19,       1000) /* Value */
+     , (3117,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3117, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3117, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3117,  22, True ) /* Inscribable */
+     , (3117,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3117,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3117,   1, 'Scroll of Regenerate Self VI') /* Name */
+     , (3117,  15, 'A magic scroll.') /* ShortDesc */
+     , (3117,  16, 'When learned, this spell increases the caster''s natural healing rate by 200%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3117,   1,   33554826) /* Setup */
+     , (3117,   8,  100676941) /* Icon */
+     , (3117,  22,  872415275) /* PhysicsEffectTable */
+     , (3117,  28,        170) /* Spell - Regeneration Self VI */;

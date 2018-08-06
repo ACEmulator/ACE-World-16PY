@@ -1,19 +1,50 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11086, 1907060736, 448200704, 59.8904, 59.7337, 96.005, -0.999367, 0, 0, -0.0355638) /* menhirdrummerswgen-xp */
-     , (12096, 1907060737, 448200704, 60, 53, 96.005, 1, 0, 0, 0) /* menhir1intactswgen-xp */
-     , (12096, 1907060738, 448200704, 53, 60, 96.005, 0.707107, 0, 0, -0.707107) /* menhir1intactswgen-xp */
-     , (12096, 1907060739, 448200704, 60, 67, 96.005, -4.37114E-08, 0, 0, -1) /* menhir1intactswgen-xp */
-     , (12096, 1907060740, 448200704, 67, 60, 96.005, -0.707107, 0, 0, -0.707107) /* menhir1intactswgen-xp */
-     , (12091, 1907060741, 448200704, 60, 53, 96.005, 1, 0, 0, 0) /* menhir1brokenswgen-xp */
-     , (12091, 1907060742, 448200704, 53, 60, 96.005, 0.707107, 0, 0, -0.707107) /* menhir1brokenswgen-xp */
-     , (12091, 1907060743, 448200704, 60, 67, 96.005, -4.37114E-08, 0, 0, -1) /* menhir1brokenswgen-xp */
-     , (12091, 1907060744, 448200704, 67, 60, 96.005, -0.707107, 0, 0, -0.707107) /* menhir1brokenswgen-xp */
-     , (12102, 1907060745, 448200704, 63.5, 56.5, 96.005, -0.92388, 0, 0, -0.382683) /* menhir2brokenswgen-xp */
-     , (12102, 1907060746, 448200704, 56.5, 56.5, 96.005, -0.382683, 0, 0, -0.92388) /* menhir2brokenswgen-xp */
-     , (12102, 1907060747, 448200704, 56.5, 63.5, 96.005, 0.382683, 0, 0, -0.92388) /* menhir2brokenswgen-xp */
-     , (12102, 1907060748, 448200704, 63.5, 63.5, 96.005, 0.92388, 0, 0, -0.382683) /* menhir2brokenswgen-xp */
-     , (12107, 1907060749, 448200704, 63.5, 56.5, 96.005, -0.92388, 0, 0, -0.382683) /* menhir2intactswgen-xp */
-     , (12107, 1907060750, 448200704, 56.5, 56.5, 96.005, -0.382683, 0, 0, -0.92388) /* menhir2intactswgen-xp */
-     , (12107, 1907060751, 448200704, 56.5, 63.5, 96.005, 0.382683, 0, 0, -0.92388) /* menhir2intactswgen-xp */
-     , (12107, 1907060752, 448200704, 63.5, 63.5, 96.005, 0.92388, 0, 0, -0.382683) /* menhir2intactswgen-xp */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060736, 11086, 448200704, 59.8904, 59.7337, 96.005, -0.999367, 0, 0, -0.0355638, False); /* Southwest Menhir Drummer Gen */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060737, 12096, 448200704, 60, 53, 96.005, 1, 0, 0, 0, False); /* Southwest Menhir Stone 1 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060738, 12096, 448200704, 53, 60, 96.005, 0.707107, 0, 0, -0.707107, False); /* Southwest Menhir Stone 1 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060739, 12096, 448200704, 60, 67, 96.005, -4.37114E-08, 0, 0, -1, False); /* Southwest Menhir Stone 1 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060740, 12096, 448200704, 67, 60, 96.005, -0.707107, 0, 0, -0.707107, False); /* Southwest Menhir Stone 1 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060741, 12091, 448200704, 60, 53, 96.005, 1, 0, 0, 0, False); /* Southwest Menhir Broken Stone 1 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060742, 12091, 448200704, 53, 60, 96.005, 0.707107, 0, 0, -0.707107, False); /* Southwest Menhir Broken Stone 1 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060743, 12091, 448200704, 60, 67, 96.005, -4.37114E-08, 0, 0, -1, False); /* Southwest Menhir Broken Stone 1 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060744, 12091, 448200704, 67, 60, 96.005, -0.707107, 0, 0, -0.707107, False); /* Southwest Menhir Broken Stone 1 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060745, 12102, 448200704, 63.5, 56.5, 96.005, -0.92388, 0, 0, -0.382683, False); /* Southwest Menhir Broken Stone 2 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060746, 12102, 448200704, 56.5, 56.5, 96.005, -0.382683, 0, 0, -0.92388, False); /* Southwest Menhir Broken Stone 2 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060747, 12102, 448200704, 56.5, 63.5, 96.005, 0.382683, 0, 0, -0.92388, False); /* Southwest Menhir Broken Stone 2 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060748, 12102, 448200704, 63.5, 63.5, 96.005, 0.92388, 0, 0, -0.382683, False); /* Southwest Menhir Broken Stone 2 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060749, 12107, 448200704, 63.5, 56.5, 96.005, -0.92388, 0, 0, -0.382683, False); /* Southwest Menhir Stone 2 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060750, 12107, 448200704, 56.5, 56.5, 96.005, -0.382683, 0, 0, -0.92388, False); /* Southwest Menhir Stone 2 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060751, 12107, 448200704, 56.5, 63.5, 96.005, 0.382683, 0, 0, -0.92388, False); /* Southwest Menhir Stone 2 Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1907060752, 12107, 448200704, 63.5, 63.5, 96.005, 0.92388, 0, 0, -0.382683, False); /* Southwest Menhir Stone 2 Gen */

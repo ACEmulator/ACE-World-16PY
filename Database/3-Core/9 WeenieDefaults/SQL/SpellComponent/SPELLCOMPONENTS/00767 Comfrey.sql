@@ -1,37 +1,33 @@
-/* Weenie - Comfrey (767) */
-DELETE FROM weenie WHERE class_Id = 767;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (767, 'comfrey', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (767, 001 /* NAME_STRING */, 'Comfrey')
-     , (767, 020 /* PLURAL_NAME_STRING */, 'Sacks of Comfrey');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (767, 001 /* SETUP_DID */, 33554817)
-     , (767, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (767, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (767, 007 /* CLOTHINGBASE_DID */, 268435720)
-     , (767, 008 /* ICON_DID */, 100668418)
-     , (767, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (767, 029 /* SPELL_COMPONENT_DID */, 23);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('767', 'comfrey', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (767, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (767, 003 /* PALETTE_TEMPLATE_INT */, 64 /* ORANGEBROWN_PALETTE_TEMPLATE */)
-     , (767, 005 /* ENCUMB_VAL_INT */, 4)
-     , (767, 008 /* MASS_INT */, 100)
-     , (767, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (767, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (767, 012 /* STACK_SIZE_INT */, 1)
-     , (767, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
-     , (767, 014 /* STACK_UNIT_MASS_INT */, 100)
-     , (767, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (767, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (767, 019 /* VALUE_INT */, 10)
-     , (767, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (767,   1,       4096) /* ItemType - SpellComponents */
+     , (767,   3,         64) /* PaletteTemplate - OrangeBrown */
+     , (767,   5,          4) /* EncumbranceVal */
+     , (767,   8,        100) /* Mass */
+     , (767,   9,          0) /* ValidLocations - None */
+     , (767,  11,        100) /* MaxStackSize */
+     , (767,  12,          1) /* StackSize */
+     , (767,  13,          4) /* StackUnitEncumbrance */
+     , (767,  14,        100) /* StackUnitMass */
+     , (767,  15,         10) /* StackUnitValue */
+     , (767,  16,          1) /* ItemUseable - No */
+     , (767,  19,         10) /* Value */
+     , (767,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (767, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
+VALUES (767,  39,     0.4) /* DefaultScale */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (767,   1, 'Comfrey') /* Name */
+     , (767,  20, 'Sacks of Comfrey') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (767,   1,   33554817) /* Setup */
+     , (767,   3,  536870932) /* SoundTable */
+     , (767,   6,   67111919) /* PaletteBase */
+     , (767,   7,  268435720) /* ClothingBase */
+     , (767,   8,  100668418) /* Icon */
+     , (767,  22,  872415275) /* PhysicsEffectTable */
+     , (767,  29,         23) /* SpellComponent */;

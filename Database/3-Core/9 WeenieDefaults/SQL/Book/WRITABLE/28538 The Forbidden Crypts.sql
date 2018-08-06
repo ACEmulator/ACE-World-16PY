@@ -1,35 +1,32 @@
-/* Weenie - The Forbidden Crypts (28538) */
-DELETE FROM weenie WHERE class_Id = 28538;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28538, 'directionsforbiddencrypts', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28538, 001 /* NAME_STRING */, 'The Forbidden Crypts');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28538, 001 /* SETUP_DID */, 33554773)
-     , (28538, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28538, 008 /* ICON_DID */, 100675747)
-     , (28538, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28538', 'directionsforbiddencrypts', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28538, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28538, 005 /* ENCUMB_VAL_INT */, 25)
-     , (28538, 008 /* MASS_INT */, 5)
-     , (28538, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28538, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28538, 019 /* VALUE_INT */, 5)
-     , (28538, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28538, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (28538,   1,       8192) /* ItemType - Writable */
+     , (28538,   5,         25) /* EncumbranceVal */
+     , (28538,   8,          5) /* Mass */
+     , (28538,   9,          0) /* ValidLocations - None */
+     , (28538,  16,          8) /* ItemUseable - Contained */
+     , (28538,  19,          5) /* Value */
+     , (28538,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28538, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (28538,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28538,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28538,   1, 'The Forbidden Crypts') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28538,   1,   33554773) /* Setup */
+     , (28538,   3,  536870932) /* SoundTable */
+     , (28538,   8,  100675747) /* Icon */
+     , (28538,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28538, 1, 1000) /* Book Data */;
+VALUES (28538, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28538, 0, 4294967295, 'A "friend" from Al-Jalima', 'prewritten', False, '
@@ -37,4 +34,3 @@ Forbidden Crypts -- The place I speak of is so named to remind those who dare to
 
 -A "friend" from Al-Jalima
 ');
-

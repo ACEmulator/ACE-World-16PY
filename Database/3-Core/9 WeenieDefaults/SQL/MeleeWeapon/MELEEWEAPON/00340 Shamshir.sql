@@ -1,49 +1,45 @@
-/* Weenie - Shamshir (340) */
-DELETE FROM weenie WHERE class_Id = 340;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (340, 'shamshir', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (340, 001 /* NAME_STRING */, 'Shamshir');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (340, 001 /* SETUP_DID */, 33554750)
-     , (340, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (340, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (340, 007 /* CLOTHINGBASE_DID */, 268435765)
-     , (340, 008 /* ICON_DID */, 100668975)
-     , (340, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (340, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (340, 046 /* TSYS_MUTATION_FILTER_DID */, 939524101);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('340', 'shamshir', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (340, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (340, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (340, 005 /* ENCUMB_VAL_INT */, 450)
-     , (340, 008 /* MASS_INT */, 180)
-     , (340, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (340, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (340, 019 /* VALUE_INT */, 240)
-     , (340, 044 /* DAMAGE_INT */, 9)
-     , (340, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (340, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (340, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (340, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (340, 049 /* WEAPON_TIME_INT */, 40)
-     , (340, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (340, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (340, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (340, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (340, 169 /* TSYS_MUTATION_DATA_INT */, 101255170);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (340, 021 /* WEAPON_LENGTH_FLOAT */, 1.06)
-     , (340, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (340, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (340, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (340, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (340,   1,          1) /* ItemType - MeleeWeapon */
+     , (340,   3,         20) /* PaletteTemplate - Silver */
+     , (340,   5,        450) /* EncumbranceVal */
+     , (340,   8,        180) /* Mass */
+     , (340,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (340,  16,          1) /* ItemUseable - No */
+     , (340,  19,        240) /* Value */
+     , (340,  44,          9) /* Damage */
+     , (340,  45,          3) /* DamageType */
+     , (340,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (340,  47,          6) /* AttackType */
+     , (340,  48,         11) /* WeaponSkill - Sword */
+     , (340,  49,         40) /* WeaponTime */
+     , (340,  51,          1) /* CombatUse - Melee */
+     , (340,  93,       1044) /* PhysicsState */
+     , (340, 150,        103) /* HookPlacement - Hook */
+     , (340, 151,          2) /* HookType - Wall */
+     , (340, 169,  101255170) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (340, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (340,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (340,  21,    1.06) /* WeaponLength */
+     , (340,  22,     0.5) /* DamageVariance */
+     , (340,  29,       1) /* WeaponDefense */
+     , (340,  39,     1.1) /* DefaultScale */
+     , (340,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (340,   1, 'Shamshir') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (340,   1,   33554750) /* Setup */
+     , (340,   3,  536870932) /* SoundTable */
+     , (340,   6,   67111919) /* PaletteBase */
+     , (340,   7,  268435765) /* ClothingBase */
+     , (340,   8,  100668975) /* Icon */
+     , (340,  22,  872415275) /* PhysicsEffectTable */
+     , (340,  36,  234881053) /* MutateFilter */
+     , (340,  46,  939524101) /* TsysMutationFilter */;

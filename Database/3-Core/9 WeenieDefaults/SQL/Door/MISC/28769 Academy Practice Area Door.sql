@@ -1,41 +1,37 @@
-/* Weenie - Academy Practice Area Door (28769) */
-DELETE FROM weenie WHERE class_Id = 28769;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28769, 'doorsmallempvault', 19 /* Door_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28769, 001 /* NAME_STRING */, 'Academy Practice Area Door')
-     , (28769, 012 /* LOCK_CODE_STRING */, 'keydooracademya')
-     , (28769, 014 /* USE_STRING */, 'To unlock this door, double-click on the Greeter''s Key, then click on the door. Double-click on the door again to open it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28769, 001 /* SETUP_DID */, 33555930)
-     , (28769, 002 /* MOTION_TABLE_DID */, 150995078)
-     , (28769, 003 /* SOUND_TABLE_DID */, 536870946)
-     , (28769, 008 /* ICON_DID */, 100668183)
-     , (28769, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28769', 'doorsmallempvault', 19) /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28769, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28769, 008 /* MASS_INT */, 500)
-     , (28769, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (28769, 019 /* VALUE_INT */, 0)
-     , (28769, 038 /* RESIST_LOCKPICK_INT */, 9999)
-     , (28769, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28769, 011 /* RESET_INTERVAL_FLOAT */, 60)
-     , (28769, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (28769,   1,        128) /* ItemType - Misc */
+     , (28769,   8,        500) /* Mass */
+     , (28769,  16,         32) /* ItemUseable - Remote */
+     , (28769,  19,          0) /* Value */
+     , (28769,  38,       9999) /* ResistLockpick */
+     , (28769,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28769, 001 /* STUCK_BOOL */, True)
-     , (28769, 002 /* OPEN_BOOL */, False)
-     , (28769, 003 /* LOCKED_BOOL */, True)
-     , (28769, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (28769, 013 /* ETHEREAL_BOOL */, False)
-     , (28769, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (28769, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (28769, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (28769, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (28769,   1, True ) /* Stuck */
+     , (28769,   2, False) /* Open */
+     , (28769,   3, True ) /* Locked */
+     , (28769,  12, True ) /* ReportCollisions */
+     , (28769,  13, False) /* Ethereal */
+     , (28769,  14, False) /* GravityStatus */
+     , (28769,  33, False) /* ResetMessagePending */
+     , (28769,  34, False) /* DefaultOpen */
+     , (28769,  35, True ) /* DefaultLocked */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28769,  11,      60) /* ResetInterval */
+     , (28769,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28769,   1, 'Academy Practice Area Door') /* Name */
+     , (28769,  12, 'keydooracademya') /* LockCode */
+     , (28769,  14, 'To unlock this door, double-click on the Greeter''s Key, then click on the door. Double-click on the door again to open it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28769,   1,   33555930) /* Setup */
+     , (28769,   2,  150995078) /* MotionTable */
+     , (28769,   3,  536870946) /* SoundTable */
+     , (28769,   8,  100668183) /* Icon */
+     , (28769,  22,  872415275) /* PhysicsEffectTable */;

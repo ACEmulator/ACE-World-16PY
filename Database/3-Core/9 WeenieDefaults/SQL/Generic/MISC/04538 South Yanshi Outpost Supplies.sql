@@ -1,30 +1,26 @@
-/* Weenie - South Yanshi Outpost Supplies (4538) */
-DELETE FROM weenie WHERE class_Id = 4538;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4538, 'yanshisouthoutpostshopkeepsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4538, 001 /* NAME_STRING */, 'South Yanshi Outpost Supplies')
-     , (4538, 016 /* LONG_DESC_STRING */, 'South Yanshi Outpost Supplies');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4538, 001 /* SETUP_DID */, 33555088)
-     , (4538, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (4538, 007 /* CLOTHINGBASE_DID */, 268435656)
-     , (4538, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4538', 'yanshisouthoutpostshopkeepsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4538, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4538, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4538, 008 /* MASS_INT */, 1800)
-     , (4538, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4538, 019 /* VALUE_INT */, 125)
-     , (4538, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4538,   1,        128) /* ItemType - Misc */
+     , (4538,   5,       9000) /* EncumbranceVal */
+     , (4538,   8,       1800) /* Mass */
+     , (4538,  16,          1) /* ItemUseable - No */
+     , (4538,  19,        125) /* Value */
+     , (4538,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4538, 001 /* STUCK_BOOL */, True)
-     , (4538, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4538, 013 /* ETHEREAL_BOOL */, False)
-     , (4538, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4538,   1, True ) /* Stuck */
+     , (4538,  12, True ) /* ReportCollisions */
+     , (4538,  13, False) /* Ethereal */
+     , (4538,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4538,   1, 'South Yanshi Outpost Supplies') /* Name */
+     , (4538,  16, 'South Yanshi Outpost Supplies') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4538,   1,   33555088) /* Setup */
+     , (4538,   6,   67111092) /* PaletteBase */
+     , (4538,   7,  268435656) /* ClothingBase */
+     , (4538,   8,  100668115) /* Icon */;

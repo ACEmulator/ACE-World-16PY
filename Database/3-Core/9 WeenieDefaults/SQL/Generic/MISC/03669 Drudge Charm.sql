@@ -1,35 +1,31 @@
-/* Weenie - Drudge Charm (3669) */
-DELETE FROM weenie WHERE class_Id = 3669;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3669, 'drudgecharm', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3669, 001 /* NAME_STRING */, 'Drudge Charm');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3669, 001 /* SETUP_DID */, 33554683)
-     , (3669, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3669, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3669, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (3669, 008 /* ICON_DID */, 100670040)
-     , (3669, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3669, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3669', 'drudgecharm', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3669, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (3669, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (3669, 005 /* ENCUMB_VAL_INT */, 40)
-     , (3669, 008 /* MASS_INT */, 20)
-     , (3669, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3669, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3669, 019 /* VALUE_INT */, 5)
-     , (3669, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3669, 039 /* DEFAULT_SCALE_FLOAT */, 0.37);
+VALUES (3669,   1,        128) /* ItemType - Misc */
+     , (3669,   3,         21) /* PaletteTemplate - Gold */
+     , (3669,   5,         40) /* EncumbranceVal */
+     , (3669,   8,         20) /* Mass */
+     , (3669,   9,          0) /* ValidLocations - None */
+     , (3669,  16,          1) /* ItemUseable - No */
+     , (3669,  19,          5) /* Value */
+     , (3669,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3669, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3669, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3669,  22, True ) /* Inscribable */
+     , (3669,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3669,  39,    0.37) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3669,   1, 'Drudge Charm') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3669,   1,   33554683) /* Setup */
+     , (3669,   3,  536870932) /* SoundTable */
+     , (3669,   6,   67111919) /* PaletteBase */
+     , (3669,   7,  268435832) /* ClothingBase */
+     , (3669,   8,  100670040) /* Icon */
+     , (3669,  22,  872415275) /* PhysicsEffectTable */
+     , (3669,  36,  234881046) /* MutateFilter */;

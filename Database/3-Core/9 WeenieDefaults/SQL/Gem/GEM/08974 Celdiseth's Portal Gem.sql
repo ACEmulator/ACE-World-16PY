@@ -1,50 +1,46 @@
-/* Weenie - Celdiseth's Portal Gem (8974) */
-DELETE FROM weenie WHERE class_Id = 8974;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8974, 'gemportalceldiseth', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8974, 001 /* NAME_STRING */, 'Celdiseth''s Portal Gem')
-     , (8974, 015 /* SHORT_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.')
-     , (8974, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8974, 001 /* SETUP_DID */, 33556769)
-     , (8974, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8974, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8974, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (8974, 008 /* ICON_DID */, 100674865)
-     , (8974, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8974, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (8974, 031 /* LINKED_PORTAL_ONE_DID */, 8987 /* Celdiseth's Portal */)
-     , (8974, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8974', 'gemportalceldiseth', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8974, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8974, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (8974, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8974, 008 /* MASS_INT */, 10)
-     , (8974, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8974, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (8974, 012 /* STACK_SIZE_INT */, 1)
-     , (8974, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8974, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (8974, 015 /* STACK_UNIT_VALUE_INT */, 20000)
-     , (8974, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8974, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8974, 019 /* VALUE_INT */, 20000)
-     , (8974, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8974, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (8974, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (8974, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (8974, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (8974, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (8974, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (8974, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8974, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (8974,   1,       2048) /* ItemType - Gem */
+     , (8974,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (8974,   5,         10) /* EncumbranceVal */
+     , (8974,   8,         10) /* Mass */
+     , (8974,   9,          0) /* ValidLocations - None */
+     , (8974,  11,         25) /* MaxStackSize */
+     , (8974,  12,          1) /* StackSize */
+     , (8974,  13,         10) /* StackUnitEncumbrance */
+     , (8974,  14,         10) /* StackUnitMass */
+     , (8974,  15,      20000) /* StackUnitValue */
+     , (8974,  16,          8) /* ItemUseable - Contained */
+     , (8974,  18,          1) /* UiEffects - Magical */
+     , (8974,  19,      20000) /* Value */
+     , (8974,  93,       3092) /* PhysicsState */
+     , (8974,  94,         16) /* TargetType - Creature */
+     , (8974, 106,        210) /* ItemSpellcraft */
+     , (8974, 107,         50) /* ItemCurMana */
+     , (8974, 108,         50) /* ItemMaxMana */
+     , (8974, 109,          0) /* ItemDifficulty */
+     , (8974, 110,          0) /* ItemAllegianceRankLimit */
+     , (8974, 150,        103) /* HookPlacement - Hook */
+     , (8974, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8974, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (8974, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8974,  15, True ) /* LightsStatus */
+     , (8974,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8974,   1, 'Celdiseth''s Portal Gem') /* Name */
+     , (8974,  15, 'This portal summoning gem works best if used outside in a relatively flat area.') /* ShortDesc */
+     , (8974,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8974,   1,   33556769) /* Setup */
+     , (8974,   3,  536870932) /* SoundTable */
+     , (8974,   6,   67111919) /* PaletteBase */
+     , (8974,   7,  268435723) /* ClothingBase */
+     , (8974,   8,  100674865) /* Icon */
+     , (8974,  22,  872415275) /* PhysicsEffectTable */
+     , (8974,  28,        157) /* Spell - Summon Primary Portal I */
+     , (8974,  31,       8987) /* LinkedPortalOne - Celdiseth's Portal */
+     , (8974,  36,  234881046) /* MutateFilter */;

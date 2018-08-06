@@ -1,55 +1,51 @@
-/* Weenie - Lightning Yaoji (23716) */
-DELETE FROM weenie WHERE class_Id = 23716;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23716, 'yaojibanditelectricdrudgemid', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23716, 001 /* NAME_STRING */, 'Lightning Yaoji');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23716, 001 /* SETUP_DID */, 33555812)
-     , (23716, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23716, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23716, 007 /* CLOTHINGBASE_DID */, 268435775)
-     , (23716, 008 /* ICON_DID */, 100669075)
-     , (23716, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (23716, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23716', 'yaojibanditelectricdrudgemid', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23716, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (23716, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (23716, 005 /* ENCUMB_VAL_INT */, 350)
-     , (23716, 008 /* MASS_INT */, 140)
-     , (23716, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (23716, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23716, 019 /* VALUE_INT */, 220)
-     , (23716, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (23716, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (23716, 044 /* DAMAGE_INT */, 10)
-     , (23716, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (23716, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (23716, 047 /* ATTACK_TYPE_INT */, 486 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, TripleSlash_AttackType, DoubleThrust_AttackType, TripleThrust_AttackType */)
-     , (23716, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (23716, 049 /* WEAPON_TIME_INT */, 1)
-     , (23716, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (23716, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23716, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (23716, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (23716, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (23716, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (23716, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23716, 021 /* WEAPON_LENGTH_FLOAT */, 0.8)
-     , (23716, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (23716, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (23716, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (23716,   1,          1) /* ItemType - MeleeWeapon */
+     , (23716,   3,         20) /* PaletteTemplate - Silver */
+     , (23716,   5,        350) /* EncumbranceVal */
+     , (23716,   8,        140) /* Mass */
+     , (23716,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (23716,  16,          1) /* ItemUseable - No */
+     , (23716,  19,        220) /* Value */
+     , (23716,  33,         -2) /* Bonded - Destroy */
+     , (23716,  37,       9999) /* ResistItemAppraisal */
+     , (23716,  44,         10) /* Damage */
+     , (23716,  45,         64) /* DamageType - Electric */
+     , (23716,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (23716,  47,        486) /* AttackType */
+     , (23716,  48,         11) /* WeaponSkill - Sword */
+     , (23716,  49,          1) /* WeaponTime */
+     , (23716,  51,          1) /* CombatUse - Melee */
+     , (23716,  93,       1044) /* PhysicsState */
+     , (23716, 106,        250) /* ItemSpellcraft */
+     , (23716, 107,        500) /* ItemCurMana */
+     , (23716, 108,        500) /* ItemMaxMana */
+     , (23716, 109,          0) /* ItemDifficulty */
+     , (23716, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23716, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (23716,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23716,  21,     0.8) /* WeaponLength */
+     , (23716,  22,     0.5) /* DamageVariance */
+     , (23716,  29,       1) /* WeaponDefense */
+     , (23716,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23716,   1, 'Lightning Yaoji') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23716,   1,   33555812) /* Setup */
+     , (23716,   3,  536870932) /* SoundTable */
+     , (23716,   6,   67111919) /* PaletteBase */
+     , (23716,   7,  268435775) /* ClothingBase */
+     , (23716,   8,  100669075) /* Icon */
+     , (23716,  22,  872415275) /* PhysicsEffectTable */
+     , (23716,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23716, 1614, 2) /* BloodDrinker4_SpellID */
-     , (23716, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (23716,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (23716,  1625,      2)  /* Aura of Swift Killer Self IV */;

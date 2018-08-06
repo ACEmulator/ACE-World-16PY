@@ -1,45 +1,41 @@
-/* Weenie - Salvaged Linen (20987) */
-DELETE FROM weenie WHERE class_Id = 20987;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20987, 'materiallinen', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20987, 001 /* NAME_STRING */, 'Salvaged Linen')
-     , (20987, 014 /* USE_STRING */, 'Apply this material to a treasure-generated item to reduce the item''s burden by 25%.')
-     , (20987, 015 /* SHORT_DESC_STRING */, 'A bolt of linen material salvaged from old items.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20987, 001 /* SETUP_DID */, 33554817)
-     , (20987, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20987, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20987, 007 /* CLOTHINGBASE_DID */, 268436430)
-     , (20987, 008 /* ICON_DID */, 100667436)
-     , (20987, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20987, 050 /* ICON_OVERLAY_DID */, 100673231);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20987', 'materiallinen', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20987, 001 /* ITEM_TYPE_INT */, 1073741824 /* TYPE_TINKERING_MATERIAL */)
-     , (20987, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (20987, 005 /* ENCUMB_VAL_INT */, 100)
-     , (20987, 008 /* MASS_INT */, 100)
-     , (20987, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20987, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (20987, 012 /* STACK_SIZE_INT */, 1)
-     , (20987, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (20987, 014 /* STACK_UNIT_MASS_INT */, 100)
-     , (20987, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (20987, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (20987, 019 /* VALUE_INT */, 10)
-     , (20987, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (20987, 091 /* MAX_STRUCTURE_INT */, 100)
-     , (20987, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20987, 094 /* TARGET_TYPE_INT */, 35215 /* TYPE_JEWELRY, TYPE_MISC, TYPE_GEM, TYPE_REDIRECTABLE_ITEM_ENCHANTMENT_TARGET */)
-     , (20987, 131 /* MATERIAL_TYPE_INT */, 4 /* Linen_MaterialType */)
-     , (20987, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (20987, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (20987,   1, 1073741824) /* ItemType - TinkeringMaterial */
+     , (20987,   3,          8) /* PaletteTemplate - Green */
+     , (20987,   5,        100) /* EncumbranceVal */
+     , (20987,   8,        100) /* Mass */
+     , (20987,   9,          0) /* ValidLocations - None */
+     , (20987,  11,          1) /* MaxStackSize */
+     , (20987,  12,          1) /* StackSize */
+     , (20987,  13,        100) /* StackUnitEncumbrance */
+     , (20987,  14,        100) /* StackUnitMass */
+     , (20987,  15,         10) /* StackUnitValue */
+     , (20987,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (20987,  19,         10) /* Value */
+     , (20987,  33,          1) /* Bonded - Bonded */
+     , (20987,  91,        100) /* MaxStructure */
+     , (20987,  93,       1044) /* PhysicsState */
+     , (20987,  94,      35215) /* TargetType */
+     , (20987, 131,          4) /* MaterialType - Linen */
+     , (20987, 150,        103) /* HookPlacement - Hook */
+     , (20987, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20987, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20987, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20987,  22, True ) /* Inscribable */
+     , (20987,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20987,   1, 'Salvaged Linen') /* Name */
+     , (20987,  14, 'Apply this material to a treasure-generated item to reduce the item''s burden by 25%.') /* Use */
+     , (20987,  15, 'A bolt of linen material salvaged from old items.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20987,   1,   33554817) /* Setup */
+     , (20987,   3,  536870932) /* SoundTable */
+     , (20987,   6,   67111919) /* PaletteBase */
+     , (20987,   7,  268436430) /* ClothingBase */
+     , (20987,   8,  100667436) /* Icon */
+     , (20987,  22,  872415275) /* PhysicsEffectTable */
+     , (20987,  50,  100673231) /* IconOverlay */;

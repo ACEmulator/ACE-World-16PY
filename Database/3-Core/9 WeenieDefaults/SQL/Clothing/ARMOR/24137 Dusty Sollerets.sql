@@ -1,49 +1,45 @@
-/* Weenie - Dusty Sollerets (24137) */
-DELETE FROM weenie WHERE class_Id = 24137;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24137, 'solleretsdusty', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24137, 001 /* NAME_STRING */, 'Dusty Sollerets')
-     , (24137, 015 /* SHORT_DESC_STRING */, 'A pair of sollerets covered in reddish dust from the western desert.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24137, 001 /* SETUP_DID */, 33554654)
-     , (24137, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24137, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (24137, 007 /* CLOTHINGBASE_DID */, 268435540)
-     , (24137, 008 /* ICON_DID */, 100667309)
-     , (24137, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24137', 'solleretsdusty', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24137, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (24137, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (24137, 004 /* CLOTHING_PRIORITY_INT */, 65536 /* Feet */)
-     , (24137, 005 /* ENCUMB_VAL_INT */, 540)
-     , (24137, 008 /* MASS_INT */, 360)
-     , (24137, 009 /* LOCATIONS_INT */, 256 /* FOOT_WEAR_LOC */)
-     , (24137, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24137, 019 /* VALUE_INT */, 250)
-     , (24137, 027 /* ARMOR_TYPE_INT */, 32)
-     , (24137, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (24137, 044 /* DAMAGE_INT */, 3)
-     , (24137, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (24137, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24137, 012 /* SHADE_FLOAT */, 0.66)
-     , (24137, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (24137, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (24137, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (24137, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (24137, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (24137, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (24137, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
-     , (24137, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (24137, 110 /* BULK_MOD_FLOAT */, 1)
-     , (24137, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (24137,   1,          2) /* ItemType - Armor */
+     , (24137,   3,         20) /* PaletteTemplate - Silver */
+     , (24137,   4,      65536) /* ClothingPriority - Feet */
+     , (24137,   5,        540) /* EncumbranceVal */
+     , (24137,   8,        360) /* Mass */
+     , (24137,   9,        256) /* ValidLocations - FootWear */
+     , (24137,  16,          1) /* ItemUseable - No */
+     , (24137,  19,        250) /* Value */
+     , (24137,  27,         32) /* ArmorType */
+     , (24137,  28,        100) /* ArmorLevel */
+     , (24137,  44,          3) /* Damage */
+     , (24137,  45,          4) /* DamageType - Bludgeon */
+     , (24137,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24137, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (24137,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24137,  12,    0.66) /* Shade */
+     , (24137,  13,     1.3) /* ArmorModVsSlash */
+     , (24137,  14,       1) /* ArmorModVsPierce */
+     , (24137,  15,       1) /* ArmorModVsBludgeon */
+     , (24137,  16,     0.4) /* ArmorModVsCold */
+     , (24137,  17,     0.4) /* ArmorModVsFire */
+     , (24137,  18,     0.6) /* ArmorModVsAcid */
+     , (24137,  19,     0.4) /* ArmorModVsElectric */
+     , (24137,  22,    0.75) /* DamageVariance */
+     , (24137, 110,       1) /* BulkMod */
+     , (24137, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24137,   1, 'Dusty Sollerets') /* Name */
+     , (24137,  15, 'A pair of sollerets covered in reddish dust from the western desert.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24137,   1,   33554654) /* Setup */
+     , (24137,   3,  536870932) /* SoundTable */
+     , (24137,   6,   67108990) /* PaletteBase */
+     , (24137,   7,  268435540) /* ClothingBase */
+     , (24137,   8,  100667309) /* Icon */
+     , (24137,  22,  872415275) /* PhysicsEffectTable */;

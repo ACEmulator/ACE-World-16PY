@@ -1,28 +1,24 @@
-/* Weenie - Stone Scar Settlement (14330) */
-DELETE FROM weenie WHERE class_Id = 14330;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14330, 'stonescarsettlementsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14330, 001 /* NAME_STRING */, 'Stone Scar Settlement')
-     , (14330, 016 /* LONG_DESC_STRING */, 'Welcome to Stone Scar Settlement');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14330, 001 /* SETUP_DID */, 33557463)
-     , (14330, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14330', 'stonescarsettlementsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14330, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14330, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14330, 008 /* MASS_INT */, 1800)
-     , (14330, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14330, 019 /* VALUE_INT */, 125)
-     , (14330, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14330,   1,        128) /* ItemType - Misc */
+     , (14330,   5,       9000) /* EncumbranceVal */
+     , (14330,   8,       1800) /* Mass */
+     , (14330,  16,          1) /* ItemUseable - No */
+     , (14330,  19,        125) /* Value */
+     , (14330,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14330, 001 /* STUCK_BOOL */, True)
-     , (14330, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14330, 013 /* ETHEREAL_BOOL */, False)
-     , (14330, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14330,   1, True ) /* Stuck */
+     , (14330,  12, True ) /* ReportCollisions */
+     , (14330,  13, False) /* Ethereal */
+     , (14330,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14330,   1, 'Stone Scar Settlement') /* Name */
+     , (14330,  16, 'Welcome to Stone Scar Settlement') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14330,   1,   33557463) /* Setup */
+     , (14330,   8,  100668115) /* Icon */;

@@ -1,36 +1,32 @@
-/* Weenie - Platinum Prowler Title Token (27274) */
-DELETE FROM weenie WHERE class_Id = 27274;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27274, 'tokentitleplatinumgolem', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27274, 001 /* NAME_STRING */, 'Platinum Prowler Title Token')
-     , (27274, 015 /* SHORT_DESC_STRING */, 'An ornate Aun token given by Aun Khekierea in recognition of your hunting prowess. Return this token to him for the title - Platinum Prowler.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27274, 001 /* SETUP_DID */, 33557280)
-     , (27274, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27274, 008 /* ICON_DID */, 100671832)
-     , (27274, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27274, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27274', 'tokentitleplatinumgolem', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27274, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (27274, 005 /* ENCUMB_VAL_INT */, 5)
-     , (27274, 008 /* MASS_INT */, 5)
-     , (27274, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27274, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (27274, 012 /* STACK_SIZE_INT */, 1)
-     , (27274, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (27274, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (27274, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (27274, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27274, 019 /* VALUE_INT */, 0)
-     , (27274, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (27274, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27274, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (27274,   1,       2048) /* ItemType - Gem */
+     , (27274,   5,          5) /* EncumbranceVal */
+     , (27274,   8,          5) /* Mass */
+     , (27274,   9,          0) /* ValidLocations - None */
+     , (27274,  11,          1) /* MaxStackSize */
+     , (27274,  12,          1) /* StackSize */
+     , (27274,  13,          5) /* StackUnitEncumbrance */
+     , (27274,  14,          5) /* StackUnitMass */
+     , (27274,  15,          0) /* StackUnitValue */
+     , (27274,  16,          1) /* ItemUseable - No */
+     , (27274,  19,          0) /* Value */
+     , (27274,  33,          1) /* Bonded - Bonded */
+     , (27274,  93,       1044) /* PhysicsState */
+     , (27274, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27274, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (27274,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27274,   1, 'Platinum Prowler Title Token') /* Name */
+     , (27274,  15, 'An ornate Aun token given by Aun Khekierea in recognition of your hunting prowess. Return this token to him for the title - Platinum Prowler.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27274,   1,   33557280) /* Setup */
+     , (27274,   3,  536870932) /* SoundTable */
+     , (27274,   8,  100671832) /* Icon */
+     , (27274,  22,  872415275) /* PhysicsEffectTable */
+     , (27274,  36,  234881046) /* MutateFilter */;

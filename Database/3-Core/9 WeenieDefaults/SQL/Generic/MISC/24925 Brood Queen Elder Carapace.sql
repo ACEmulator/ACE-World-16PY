@@ -1,32 +1,28 @@
-/* Weenie - Brood Queen Elder Carapace (24925) */
-DELETE FROM weenie WHERE class_Id = 24925;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24925, 'broodqueencarapaceextreme', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24925, 001 /* NAME_STRING */, 'Brood Queen Elder Carapace')
-     , (24925, 015 /* SHORT_DESC_STRING */, 'The carapace of a departed Olthoi Brood Queen Elder.')
-     , (24925, 033 /* QUEST_STRING */, 'PickedUpBroodQueenCarapace');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24925, 001 /* SETUP_DID */, 33556593)
-     , (24925, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24925, 008 /* ICON_DID */, 100674517)
-     , (24925, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24925', 'broodqueencarapaceextreme', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24925, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24925, 005 /* ENCUMB_VAL_INT */, 50)
-     , (24925, 008 /* MASS_INT */, 50)
-     , (24925, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24925, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24925, 019 /* VALUE_INT */, 0)
-     , (24925, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (24925, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24925, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (24925,   1,        128) /* ItemType - Misc */
+     , (24925,   5,         50) /* EncumbranceVal */
+     , (24925,   8,         50) /* Mass */
+     , (24925,   9,          0) /* ValidLocations - None */
+     , (24925,  16,          1) /* ItemUseable - No */
+     , (24925,  19,          0) /* Value */
+     , (24925,  33,          1) /* Bonded - Bonded */
+     , (24925,  93,       1044) /* PhysicsState */
+     , (24925, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24925, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24925, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24925,  22, True ) /* Inscribable */
+     , (24925,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24925,   1, 'Brood Queen Elder Carapace') /* Name */
+     , (24925,  15, 'The carapace of a departed Olthoi Brood Queen Elder.') /* ShortDesc */
+     , (24925,  33, 'PickedUpBroodQueenCarapace') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24925,   1,   33556593) /* Setup */
+     , (24925,   3,  536870932) /* SoundTable */
+     , (24925,   8,  100674517) /* Icon */
+     , (24925,  22,  872415275) /* PhysicsEffectTable */;

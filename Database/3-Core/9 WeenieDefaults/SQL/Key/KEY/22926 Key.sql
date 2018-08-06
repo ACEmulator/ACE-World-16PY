@@ -1,35 +1,31 @@
-/* Weenie - Key (22926) */
-DELETE FROM weenie WHERE class_Id = 22926;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22926, 'keyaerbaxdoor3', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22926, 001 /* NAME_STRING */, 'Key')
-     , (22926, 013 /* KEY_CODE_STRING */, 'AerbaxDoor3')
-     , (22926, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22926, 001 /* SETUP_DID */, 33557000)
-     , (22926, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22926, 006 /* PALETTE_BASE_DID */, 67111346)
-     , (22926, 007 /* CLOTHINGBASE_DID */, 268436150)
-     , (22926, 008 /* ICON_DID */, 100671457)
-     , (22926, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22926', 'keyaerbaxdoor3', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22926, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (22926, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (22926, 005 /* ENCUMB_VAL_INT */, 50)
-     , (22926, 008 /* MASS_INT */, 20)
-     , (22926, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (22926, 019 /* VALUE_INT */, 100)
-     , (22926, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (22926, 092 /* STRUCTURE_INT */, 1)
-     , (22926, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22926, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (22926,   1,      16384) /* ItemType - Key */
+     , (22926,   3,         13) /* PaletteTemplate - Purple */
+     , (22926,   5,         50) /* EncumbranceVal */
+     , (22926,   8,         20) /* Mass */
+     , (22926,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (22926,  19,        100) /* Value */
+     , (22926,  91,          1) /* MaxStructure */
+     , (22926,  92,          1) /* Structure */
+     , (22926,  93,       1044) /* PhysicsState */
+     , (22926,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22926, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22926, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22926,  22, True ) /* Inscribable */
+     , (22926,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22926,   1, 'Key') /* Name */
+     , (22926,  13, 'AerbaxDoor3') /* KeyCode */
+     , (22926,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22926,   1,   33557000) /* Setup */
+     , (22926,   3,  536870932) /* SoundTable */
+     , (22926,   6,   67111346) /* PaletteBase */
+     , (22926,   7,  268436150) /* ClothingBase */
+     , (22926,   8,  100671457) /* Icon */
+     , (22926,  22,  872415275) /* PhysicsEffectTable */;

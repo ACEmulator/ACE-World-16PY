@@ -1,38 +1,34 @@
-/* Weenie - Title Token 'Broodu Killer' (29803) */
-DELETE FROM weenie WHERE class_Id = 29803;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29803, 'tokenbroodukiller', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29803, 001 /* NAME_STRING */, 'Title Token ''Broodu Killer''')
-     , (29803, 015 /* SHORT_DESC_STRING */, 'You may turn this token in to Guard Hamdyn in Cragstone to change your title to ''Broodu Killer''.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29803, 001 /* SETUP_DID */, 33557280)
-     , (29803, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29803, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (29803, 007 /* CLOTHINGBASE_DID */, 268436298)
-     , (29803, 008 /* ICON_DID */, 100677161)
-     , (29803, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29803, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29803', 'tokenbroodukiller', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29803, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (29803, 005 /* ENCUMB_VAL_INT */, 10)
-     , (29803, 008 /* MASS_INT */, 10)
-     , (29803, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29803, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (29803, 012 /* STACK_SIZE_INT */, 1)
-     , (29803, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (29803, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (29803, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (29803, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29803, 019 /* VALUE_INT */, 0)
-     , (29803, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (29803, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29803, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (29803,   1,       2048) /* ItemType - Gem */
+     , (29803,   5,         10) /* EncumbranceVal */
+     , (29803,   8,         10) /* Mass */
+     , (29803,   9,          0) /* ValidLocations - None */
+     , (29803,  11,          1) /* MaxStackSize */
+     , (29803,  12,          1) /* StackSize */
+     , (29803,  13,         10) /* StackUnitEncumbrance */
+     , (29803,  14,         10) /* StackUnitMass */
+     , (29803,  15,          0) /* StackUnitValue */
+     , (29803,  16,          1) /* ItemUseable - No */
+     , (29803,  19,          0) /* Value */
+     , (29803,  33,          1) /* Bonded - Bonded */
+     , (29803,  93,       1044) /* PhysicsState */
+     , (29803, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29803, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29803,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29803,   1, 'Title Token ''Broodu Killer''') /* Name */
+     , (29803,  15, 'You may turn this token in to Guard Hamdyn in Cragstone to change your title to ''Broodu Killer''.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29803,   1,   33557280) /* Setup */
+     , (29803,   3,  536870932) /* SoundTable */
+     , (29803,   6,   67111092) /* PaletteBase */
+     , (29803,   7,  268436298) /* ClothingBase */
+     , (29803,   8,  100677161) /* Icon */
+     , (29803,  22,  872415275) /* PhysicsEffectTable */
+     , (29803,  36,  234881046) /* MutateFilter */;

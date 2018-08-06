@@ -1,60 +1,56 @@
-/* Weenie - Ulgrim's Sword (21198) */
-DELETE FROM weenie WHERE class_Id = 21198;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21198, 'swordulgrimgreen', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21198, 001 /* NAME_STRING */, 'Ulgrim''s Sword')
-     , (21198, 007 /* INSCRIPTION_STRING */, 'Ulgrim''s Green Density Sword. If found, please return to Ulgrim.')
-     , (21198, 008 /* SCRIBE_NAME_STRING */, 'Ulgrim')
-     , (21198, 015 /* SHORT_DESC_STRING */, 'Although it''s incredibly sharp and obviously magical the sword seems to have something wrong with it.')
-     , (21198, 025 /* CRAFTSMAN_NAME_STRING */, 'Ulgrim the Unpleasant');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21198, 001 /* SETUP_DID */, 33554742)
-     , (21198, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21198, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (21198, 007 /* CLOTHINGBASE_DID */, 268436346)
-     , (21198, 008 /* ICON_DID */, 100668915)
-     , (21198, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21198, 036 /* MUTATE_FILTER_DID */, 234881044);
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21198, 038 /* ALLOWED_WIELDER_IID */, 0);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21198', 'swordulgrimgreen', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21198, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (21198, 003 /* PALETTE_TEMPLATE_INT */, 27 /* DARKGREENMETAL_PALETTE_TEMPLATE */)
-     , (21198, 005 /* ENCUMB_VAL_INT */, 8850)
-     , (21198, 008 /* MASS_INT */, 8000)
-     , (21198, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (21198, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (21198, 019 /* VALUE_INT */, 1)
-     , (21198, 044 /* DAMAGE_INT */, 80)
-     , (21198, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (21198, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (21198, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (21198, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (21198, 049 /* WEAPON_TIME_INT */, 200)
-     , (21198, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (21198, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (21198, 158 /* WIELD_REQUIREMENTS_INT */, 3 /* WIELD_REQUIRES_ATTRIB_WieldRequirement */)
-     , (21198, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (21198, 160 /* WIELD_DIFFICULTY_INT */, 2000)
-     , (21198, 171 /* NUM_TIMES_TINKERED_INT */, 20)
-     , (21198, 179 /* IMBUED_EFFECT_INT */, 7 /* CriticalStrike_ImbuedEffectType, CripplingBlow_ImbuedEffectType, ArmorRending_ImbuedEffectType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21198, 021 /* WEAPON_LENGTH_FLOAT */, 1.1)
-     , (21198, 022 /* DAMAGE_VARIANCE_FLOAT */, 1)
-     , (21198, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (21198, 039 /* DEFAULT_SCALE_FLOAT */, 1.2)
-     , (21198, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (21198,   1,          1) /* ItemType - MeleeWeapon */
+     , (21198,   3,         27) /* PaletteTemplate - DarkGreenMetal */
+     , (21198,   5,       8850) /* EncumbranceVal */
+     , (21198,   8,       8000) /* Mass */
+     , (21198,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (21198,  16,          1) /* ItemUseable - No */
+     , (21198,  19,          1) /* Value */
+     , (21198,  44,         80) /* Damage */
+     , (21198,  45,          3) /* DamageType */
+     , (21198,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (21198,  47,          6) /* AttackType */
+     , (21198,  48,         10) /* WeaponSkill - Staff */
+     , (21198,  49,        200) /* WeaponTime */
+     , (21198,  51,          1) /* CombatUse - Melee */
+     , (21198,  93,       1044) /* PhysicsState */
+     , (21198, 158,          3) /* WieldRequirements - Attrib */
+     , (21198, 159,          1) /* WieldSkilltype - Axe */
+     , (21198, 160,       2000) /* WieldDifficulty */
+     , (21198, 171,         20) /* NumTimesTinkered */
+     , (21198, 179,          7) /* ImbuedEffect */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21198, 001 /* STUCK_BOOL */, True)
-     , (21198, 013 /* ETHEREAL_BOOL */, True)
-     , (21198, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21198, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (21198,   1, True ) /* Stuck */
+     , (21198,  13, True ) /* Ethereal */
+     , (21198,  22, True ) /* Inscribable */
+     , (21198,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21198,  21,     1.1) /* WeaponLength */
+     , (21198,  22,       1) /* DamageVariance */
+     , (21198,  29,       1) /* WeaponDefense */
+     , (21198,  39,     1.2) /* DefaultScale */
+     , (21198,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21198,   1, 'Ulgrim''s Sword') /* Name */
+     , (21198,   7, 'Ulgrim''s Green Density Sword. If found, please return to Ulgrim.') /* Inscription */
+     , (21198,   8, 'Ulgrim') /* ScribeName */
+     , (21198,  15, 'Although it''s incredibly sharp and obviously magical the sword seems to have something wrong with it.') /* ShortDesc */
+     , (21198,  25, 'Ulgrim the Unpleasant') /* CraftsmanName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21198,   1,   33554742) /* Setup */
+     , (21198,   3,  536870932) /* SoundTable */
+     , (21198,   6,   67111919) /* PaletteBase */
+     , (21198,   7,  268436346) /* ClothingBase */
+     , (21198,   8,  100668915) /* Icon */
+     , (21198,  22,  872415275) /* PhysicsEffectTable */
+     , (21198,  36,  234881044) /* MutateFilter */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (21198,  38,          0) /* AllowedWielder */;

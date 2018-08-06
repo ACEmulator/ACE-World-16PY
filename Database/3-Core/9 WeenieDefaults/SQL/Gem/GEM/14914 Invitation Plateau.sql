@@ -1,49 +1,45 @@
-/* Weenie - Invitation Plateau (14914) */
-DELETE FROM weenie WHERE class_Id = 14914;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14914, 'gemportalwedding2', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14914, 001 /* NAME_STRING */, 'Invitation Plateau')
-     , (14914, 014 /* USE_STRING */, 'Use this invitation at the time of your friends'' wedding to be transported to their celebration overlooking Plateau Village.')
-     , (14914, 015 /* SHORT_DESC_STRING */, 'A wedding invitation.')
-     , (14914, 016 /* LONG_DESC_STRING */, 'A wedding invitation.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14914, 001 /* SETUP_DID */, 33557625)
-     , (14914, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14914, 008 /* ICON_DID */, 100674868)
-     , (14914, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (14914, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (14914, 031 /* LINKED_PORTAL_ONE_DID */, 14925 /* Plateau Wedding Portal */)
-     , (14914, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14914', 'gemportalwedding2', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14914, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (14914, 005 /* ENCUMB_VAL_INT */, 5)
-     , (14914, 008 /* MASS_INT */, 5)
-     , (14914, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14914, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (14914, 012 /* STACK_SIZE_INT */, 1)
-     , (14914, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (14914, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (14914, 015 /* STACK_UNIT_VALUE_INT */, 5000)
-     , (14914, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (14914, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (14914, 019 /* VALUE_INT */, 5000)
-     , (14914, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14914, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (14914, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (14914, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (14914, 107 /* ITEM_CUR_MANA_INT */, 70)
-     , (14914, 108 /* ITEM_MAX_MANA_INT */, 70)
-     , (14914, 109 /* ITEM_DIFFICULTY_INT */, 10)
-     , (14914, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (14914, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */);
+VALUES (14914,   1,       2048) /* ItemType - Gem */
+     , (14914,   5,          5) /* EncumbranceVal */
+     , (14914,   8,          5) /* Mass */
+     , (14914,   9,          0) /* ValidLocations - None */
+     , (14914,  11,          1) /* MaxStackSize */
+     , (14914,  12,          1) /* StackSize */
+     , (14914,  13,          5) /* StackUnitEncumbrance */
+     , (14914,  14,          5) /* StackUnitMass */
+     , (14914,  15,       5000) /* StackUnitValue */
+     , (14914,  16,          8) /* ItemUseable - Contained */
+     , (14914,  18,          1) /* UiEffects - Magical */
+     , (14914,  19,       5000) /* Value */
+     , (14914,  33,          1) /* Bonded - Bonded */
+     , (14914,  93,       3092) /* PhysicsState */
+     , (14914,  94,         16) /* TargetType - Creature */
+     , (14914, 106,        210) /* ItemSpellcraft */
+     , (14914, 107,         70) /* ItemCurMana */
+     , (14914, 108,         70) /* ItemMaxMana */
+     , (14914, 109,         10) /* ItemDifficulty */
+     , (14914, 110,          0) /* ItemAllegianceRankLimit */
+     , (14914, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14914, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (14914, 022 /* INSCRIBABLE_BOOL */, True)
-     , (14914, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (14914,  15, True ) /* LightsStatus */
+     , (14914,  22, True ) /* Inscribable */
+     , (14914,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14914,   1, 'Invitation Plateau') /* Name */
+     , (14914,  14, 'Use this invitation at the time of your friends'' wedding to be transported to their celebration overlooking Plateau Village.') /* Use */
+     , (14914,  15, 'A wedding invitation.') /* ShortDesc */
+     , (14914,  16, 'A wedding invitation.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14914,   1,   33557625) /* Setup */
+     , (14914,   3,  536870932) /* SoundTable */
+     , (14914,   8,  100674868) /* Icon */
+     , (14914,  22,  872415275) /* PhysicsEffectTable */
+     , (14914,  28,        157) /* Spell - Summon Primary Portal I */
+     , (14914,  31,      14925) /* LinkedPortalOne - Plateau Wedding Portal */
+     , (14914,  36,  234881046) /* MutateFilter */;

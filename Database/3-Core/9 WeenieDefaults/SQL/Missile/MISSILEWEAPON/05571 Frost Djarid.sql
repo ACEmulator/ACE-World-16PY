@@ -1,45 +1,41 @@
-/* Weenie - Frost Djarid (5571) */
-DELETE FROM weenie WHERE class_Id = 5571;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5571, 'djaridfroststack', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5571, 001 /* NAME_STRING */, 'Frost Djarid');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5571, 001 /* SETUP_DID */, 33555737)
-     , (5571, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5571, 008 /* ICON_DID */, 100667593)
-     , (5571, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5571', 'djaridfroststack', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5571, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (5571, 005 /* ENCUMB_VAL_INT */, 600)
-     , (5571, 008 /* MASS_INT */, 800)
-     , (5571, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (5571, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5571, 012 /* STACK_SIZE_INT */, 40)
-     , (5571, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (5571, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (5571, 015 /* STACK_UNIT_VALUE_INT */, 20)
-     , (5571, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5571, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (5571, 019 /* VALUE_INT */, 800)
-     , (5571, 044 /* DAMAGE_INT */, 10)
-     , (5571, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (5571, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (5571, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (5571, 049 /* WEAPON_TIME_INT */, 20)
-     , (5571, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (5571, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5571, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (5571, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (5571,   1,        256) /* ItemType - MissileWeapon */
+     , (5571,   5,        600) /* EncumbranceVal */
+     , (5571,   8,        800) /* Mass */
+     , (5571,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (5571,  11,        100) /* MaxStackSize */
+     , (5571,  12,         40) /* StackSize */
+     , (5571,  13,         15) /* StackUnitEncumbrance */
+     , (5571,  14,         20) /* StackUnitMass */
+     , (5571,  15,         20) /* StackUnitValue */
+     , (5571,  16,          1) /* ItemUseable - No */
+     , (5571,  18,        128) /* UiEffects - Frost */
+     , (5571,  19,        800) /* Value */
+     , (5571,  44,         10) /* Damage */
+     , (5571,  45,          8) /* DamageType - Cold */
+     , (5571,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (5571,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (5571,  49,         20) /* WeaponTime */
+     , (5571,  51,          2) /* CombatUse - Missle */
+     , (5571,  93,       1044) /* PhysicsState */
+     , (5571, 150,        103) /* HookPlacement - Hook */
+     , (5571, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5571, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (5571, 027 /* ROTATION_SPEED_FLOAT */, 0)
-     , (5571, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (5571, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (5571, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (5571,  22,    0.25) /* DamageVariance */
+     , (5571,  27,       0) /* RotationSpeed */
+     , (5571,  29,       1) /* WeaponDefense */
+     , (5571,  39,     1.1) /* DefaultScale */
+     , (5571,  62,       1) /* WeaponOffense */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5571,   1, 'Frost Djarid') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5571,   1,   33555737) /* Setup */
+     , (5571,   3,  536870932) /* SoundTable */
+     , (5571,   8,  100667593) /* Icon */
+     , (5571,  22,  872415275) /* PhysicsEffectTable */;

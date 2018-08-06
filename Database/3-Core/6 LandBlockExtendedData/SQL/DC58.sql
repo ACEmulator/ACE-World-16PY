@@ -1,19 +1,31 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27891, 2110095361, 3696754688, 7.268, 189.672, 5.905, 1, 0, 0, 0) /* Mosswart Chest */
-     , (27893, 2110095362, 3696754688, 6.60019, 187.981, 5.905, -0.130032, 0, 0, -0.99151) /* Drudge Prowler */
-     , (192, 2110095363, 3696754688, 9.22418, 186.943, 5.905, -0.0685756, 0, 0, -0.997646) /* Drudge Prowler */
-     , (193, 2110095364, 3696754688, 8.69701, 184.134, 5.905, -0.81904, 0, 0, -0.573736) /* Drudge Slinker */
-     , (193, 2110095365, 3696754688, 3.12555, 184.55, 5.905, -0.824067, 0, 0, 0.566492) /* Drudge Slinker */
-     , (940, 2110095366, 3696754688, 6.41984, 182.805, 5.905, -0.999923, 0, 0, -0.0123682) /* Drudge Sneaker */
-     , (7, 2110095367, 3696754688, 4.65566, 187.654, 5.905, -0.241588, 0, 0, 0.970379) /* Drudge Skulker */
-     , (7932, 2110095368, 3696754688, 8.87614, 188.428, 5.905, 0.223343, 0, 0, 0.97474) /* linkmonstergen4minutes */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2110095361, 27891, 3696754688, 7.268, 189.672, 5.905, 1, 0, 0, 0, False); /* Mosswart Chest */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2110095368'; /* linkmonstergen4minutes */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2110095362, 27893, 3696754688, 6.60019, 187.981, 5.905, -0.130032, 0, 0, -0.99151,  True); /* Drudge Prowler */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110095362'; /* linkmonstergen4minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110095363'; /* linkmonstergen4minutes <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110095364'; /* linkmonstergen4minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110095365'; /* linkmonstergen4minutes <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110095366'; /* linkmonstergen4minutes <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110095367'; /* linkmonstergen4minutes <- Drudge Skulker */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2110095363,   192, 3696754688, 9.22418, 186.943, 5.905, -0.0685756, 0, 0, -0.997646,  True); /* Drudge Prowler */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2110095364,   193, 3696754688, 8.69701, 184.134, 5.905, -0.81904, 0, 0, -0.573736,  True); /* Drudge Slinker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2110095365,   193, 3696754688, 3.12555, 184.55, 5.905, -0.824067, 0, 0, 0.566492,  True); /* Drudge Slinker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2110095366,   940, 3696754688, 6.41984, 182.805, 5.905, -0.999923, 0, 0, -0.0123682,  True); /* Drudge Sneaker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2110095367,     7, 3696754688, 4.65566, 187.654, 5.905, -0.241588, 0, 0, 0.970379,  True); /* Drudge Skulker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2110095368,  7932, 3696754688, 8.87614, 188.428, 5.905, 0.223343, 0, 0, 0.97474, False); /* Linkable Monster Generator ( 4 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2110095368, 2110095362) /* Drudge Prowler */
+     , (2110095368, 2110095363) /* Drudge Prowler */
+     , (2110095368, 2110095364) /* Drudge Slinker */
+     , (2110095368, 2110095365) /* Drudge Slinker */
+     , (2110095368, 2110095366) /* Drudge Sneaker */
+     , (2110095368, 2110095367) /* Drudge Skulker */;

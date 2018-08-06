@@ -1,65 +1,61 @@
-/* Weenie - Ravenous Sword (7576) */
-DELETE FROM weenie WHERE class_Id = 7576;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7576, 'swordravenous', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7576, 001 /* NAME_STRING */, 'Ravenous Sword')
-     , (7576, 015 /* SHORT_DESC_STRING */, 'A sword crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)')
-     , (7576, 016 /* LONG_DESC_STRING */, 'A sword crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7576, 001 /* SETUP_DID */, 33556658)
-     , (7576, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7576, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7576, 007 /* CLOTHINGBASE_DID */, 268435788)
-     , (7576, 008 /* ICON_DID */, 100668915)
-     , (7576, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (7576, 036 /* MUTATE_FILTER_DID */, 234881044)
-     , (7576, 037 /* ITEM_SKILL_LIMIT_DID */, 11);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7576', 'swordravenous', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7576, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (7576, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (7576, 005 /* ENCUMB_VAL_INT */, 450)
-     , (7576, 008 /* MASS_INT */, 180)
-     , (7576, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (7576, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7576, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (7576, 019 /* VALUE_INT */, 5000)
-     , (7576, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7576, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (7576, 044 /* DAMAGE_INT */, 9)
-     , (7576, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (7576, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (7576, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (7576, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (7576, 049 /* WEAPON_TIME_INT */, 50)
-     , (7576, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (7576, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (7576, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (7576, 107 /* ITEM_CUR_MANA_INT */, 250)
-     , (7576, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (7576, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (7576, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (7576, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 275);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7576, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (7576, 021 /* WEAPON_LENGTH_FLOAT */, 1.1)
-     , (7576, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (7576, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (7576, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (7576, 076 /* TRANSLUCENCY_FLOAT */, 0.7);
+VALUES (7576,   1,          1) /* ItemType - MeleeWeapon */
+     , (7576,   3,         20) /* PaletteTemplate - Silver */
+     , (7576,   5,        450) /* EncumbranceVal */
+     , (7576,   8,        180) /* Mass */
+     , (7576,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (7576,  16,          1) /* ItemUseable - No */
+     , (7576,  18,          1) /* UiEffects - Magical */
+     , (7576,  19,       5000) /* Value */
+     , (7576,  33,          1) /* Bonded - Bonded */
+     , (7576,  36,       9999) /* ResistMagic */
+     , (7576,  44,          9) /* Damage */
+     , (7576,  45,          3) /* DamageType */
+     , (7576,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (7576,  47,          6) /* AttackType */
+     , (7576,  48,         11) /* WeaponSkill - Sword */
+     , (7576,  49,         50) /* WeaponTime */
+     , (7576,  51,          1) /* CombatUse - Melee */
+     , (7576,  93,       3092) /* PhysicsState */
+     , (7576, 106,        200) /* ItemSpellcraft */
+     , (7576, 107,        250) /* ItemCurMana */
+     , (7576, 108,        500) /* ItemMaxMana */
+     , (7576, 109,          0) /* ItemDifficulty */
+     , (7576, 114,          1) /* Attuned - Attuned */
+     , (7576, 115,        275) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7576, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (7576, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7576, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (7576,  15, True ) /* LightsStatus */
+     , (7576,  22, True ) /* Inscribable */
+     , (7576,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7576,   5,    -0.1) /* ManaRate */
+     , (7576,  21,     1.1) /* WeaponLength */
+     , (7576,  22,     0.5) /* DamageVariance */
+     , (7576,  29,       1) /* WeaponDefense */
+     , (7576,  62,       1) /* WeaponOffense */
+     , (7576,  76,     0.7) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7576,   1, 'Ravenous Sword') /* Name */
+     , (7576,  15, 'A sword crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* ShortDesc */
+     , (7576,  16, 'A sword crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7576,   1,   33556658) /* Setup */
+     , (7576,   3,  536870932) /* SoundTable */
+     , (7576,   6,   67111919) /* PaletteBase */
+     , (7576,   7,  268435788) /* ClothingBase */
+     , (7576,   8,  100668915) /* Icon */
+     , (7576,  22,  872415275) /* PhysicsEffectTable */
+     , (7576,  36,  234881044) /* MutateFilter */
+     , (7576,  37,         11) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7576, 1994, 2) /* WoundTwister_SpellID */
-     , (7576, 1995, 2) /* Alacrity_SpellID */
-     , (7576, 1996, 2) /* SoulHunter_SpellID */;
-
+VALUES (7576,  1994,      2)  /* Aura of Wound Twister */
+     , (7576,  1995,      2)  /* Aura of Alacrity */
+     , (7576,  1996,      2)  /* Aura of Soul Hunter */;

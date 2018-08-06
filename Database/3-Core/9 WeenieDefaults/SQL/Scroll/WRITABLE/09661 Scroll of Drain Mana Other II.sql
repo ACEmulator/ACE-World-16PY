@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Drain Mana Other II (9661) */
-DELETE FROM weenie WHERE class_Id = 9661;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9661, 'scrolldrainmana2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9661, 001 /* NAME_STRING */, 'Scroll of Drain Mana Other II')
-     , (9661, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (9661, 016 /* LONG_DESC_STRING */, 'When learned, this spell drains one-quarter of the target''s Mana and gives 30% of that to the caster.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9661, 001 /* SETUP_DID */, 33554826)
-     , (9661, 008 /* ICON_DID */, 100676932)
-     , (9661, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9661, 028 /* SPELL_DID */, 1261 /* DrainMana2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9661', 'scrolldrainmana2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9661, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (9661, 005 /* ENCUMB_VAL_INT */, 30)
-     , (9661, 008 /* MASS_INT */, 90)
-     , (9661, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9661, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (9661, 019 /* VALUE_INT */, 5)
-     , (9661, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9661, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (9661,   1,       8192) /* ItemType - Writable */
+     , (9661,   5,         30) /* EncumbranceVal */
+     , (9661,   8,         90) /* Mass */
+     , (9661,   9,          0) /* ValidLocations - None */
+     , (9661,  16,          8) /* ItemUseable - Contained */
+     , (9661,  19,          5) /* Value */
+     , (9661,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9661, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9661, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9661,  22, True ) /* Inscribable */
+     , (9661,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9661,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9661,   1, 'Scroll of Drain Mana Other II') /* Name */
+     , (9661,  15, 'A magic scroll.') /* ShortDesc */
+     , (9661,  16, 'When learned, this spell drains one-quarter of the target''s Mana and gives 30% of that to the caster.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9661,   1,   33554826) /* Setup */
+     , (9661,   8,  100676932) /* Icon */
+     , (9661,  22,  872415275) /* PhysicsEffectTable */
+     , (9661,  28,       1261) /* Spell - Drain Mana Other II */;

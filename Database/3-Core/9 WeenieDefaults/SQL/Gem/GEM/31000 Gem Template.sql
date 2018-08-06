@@ -1,38 +1,34 @@
-/* Weenie - Gem Template (31000) */
-DELETE FROM weenie WHERE class_Id = 31000;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (31000, 'gemactdpurchaserewardarmor', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31000, 001 /* NAME_STRING */, 'Gem Template')
-     , (31000, 016 /* LONG_DESC_STRING */, 'A lovely template for a magical gem. Stacks to 25.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31000, 001 /* SETUP_DID */, 33554809)
-     , (31000, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (31000, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (31000, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (31000, 008 /* ICON_DID */, 100674739)
-     , (31000, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (31000, 028 /* SPELL_DID */, 678 /* ArcaneEnlightenmentSelf1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('31000', 'gemactdpurchaserewardarmor', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (31000, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (31000, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (31000, 005 /* ENCUMB_VAL_INT */, 5)
-     , (31000, 008 /* MASS_INT */, 5)
-     , (31000, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (31000, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (31000, 012 /* STACK_SIZE_INT */, 1)
-     , (31000, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (31000, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (31000, 015 /* STACK_UNIT_VALUE_INT */, 5)
-     , (31000, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (31000, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (31000, 019 /* VALUE_INT */, 5)
-     , (31000, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (31000, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (31000, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (31000, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (31000,   1,       2048) /* ItemType - Gem */
+     , (31000,   3,         39) /* PaletteTemplate - Black */
+     , (31000,   5,          5) /* EncumbranceVal */
+     , (31000,   8,          5) /* Mass */
+     , (31000,   9,          0) /* ValidLocations - None */
+     , (31000,  11,         25) /* MaxStackSize */
+     , (31000,  12,          1) /* StackSize */
+     , (31000,  13,          5) /* StackUnitEncumbrance */
+     , (31000,  14,          5) /* StackUnitMass */
+     , (31000,  15,          5) /* StackUnitValue */
+     , (31000,  16,          8) /* ItemUseable - Contained */
+     , (31000,  18,          1) /* UiEffects - Magical */
+     , (31000,  19,          5) /* Value */
+     , (31000,  93,       1044) /* PhysicsState */
+     , (31000,  94,         16) /* TargetType - Creature */
+     , (31000, 150,        103) /* HookPlacement - Hook */
+     , (31000, 151,         11) /* HookType */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (31000,   1, 'Gem Template') /* Name */
+     , (31000,  16, 'A lovely template for a magical gem. Stacks to 25.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (31000,   1,   33554809) /* Setup */
+     , (31000,   3,  536870932) /* SoundTable */
+     , (31000,   6,   67111919) /* PaletteBase */
+     , (31000,   7,  268435723) /* ClothingBase */
+     , (31000,   8,  100674739) /* Icon */
+     , (31000,  22,  872415275) /* PhysicsEffectTable */
+     , (31000,  28,        678) /* Spell - Arcane Enlightenment Self I */;

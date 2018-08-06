@@ -1,38 +1,34 @@
-/* Weenie - Green Jade (2395) */
-DELETE FROM weenie WHERE class_Id = 2395;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2395, 'gemgreenjade', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2395, 001 /* NAME_STRING */, 'Green Jade');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2395, 001 /* SETUP_DID */, 33554809)
-     , (2395, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2395, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2395, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (2395, 008 /* ICON_DID */, 100674741)
-     , (2395, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2395, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2395', 'gemgreenjade', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2395, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (2395, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (2395, 005 /* ENCUMB_VAL_INT */, 5)
-     , (2395, 008 /* MASS_INT */, 5)
-     , (2395, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2395, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (2395, 012 /* STACK_SIZE_INT */, 1)
-     , (2395, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (2395, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (2395, 015 /* STACK_UNIT_VALUE_INT */, 100)
-     , (2395, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2395, 019 /* VALUE_INT */, 100)
-     , (2395, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2395, 131 /* MATERIAL_TYPE_INT */, 24 /* Green_Jade_MaterialType */)
-     , (2395, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
+VALUES (2395,   1,       2048) /* ItemType - Gem */
+     , (2395,   3,          8) /* PaletteTemplate - Green */
+     , (2395,   5,          5) /* EncumbranceVal */
+     , (2395,   8,          5) /* Mass */
+     , (2395,   9,          0) /* ValidLocations - None */
+     , (2395,  11,          1) /* MaxStackSize */
+     , (2395,  12,          1) /* StackSize */
+     , (2395,  13,          5) /* StackUnitEncumbrance */
+     , (2395,  14,          5) /* StackUnitMass */
+     , (2395,  15,        100) /* StackUnitValue */
+     , (2395,  16,          1) /* ItemUseable - No */
+     , (2395,  19,        100) /* Value */
+     , (2395,  93,       1044) /* PhysicsState */
+     , (2395, 131,         24) /* MaterialType - GreenJade */
+     , (2395, 169,   16777216) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2395, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2395,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2395,   1, 'Green Jade') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2395,   1,   33554809) /* Setup */
+     , (2395,   3,  536870932) /* SoundTable */
+     , (2395,   6,   67111919) /* PaletteBase */
+     , (2395,   7,  268435723) /* ClothingBase */
+     , (2395,   8,  100674741) /* Icon */
+     , (2395,  22,  872415275) /* PhysicsEffectTable */
+     , (2395,  36,  234881046) /* MutateFilter */;

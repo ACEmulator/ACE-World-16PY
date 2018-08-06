@@ -1,41 +1,37 @@
-/* Weenie - Rune of Acid Bane (30112) */
-DELETE FROM weenie WHERE class_Id = 30112;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30112, 'gemrareeternalacidbane', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30112, 001 /* NAME_STRING */, 'Rune of Acid Bane')
-     , (30112, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30112, 001 /* SETUP_DID */, 33554809)
-     , (30112, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30112, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30112, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (30112, 008 /* ICON_DID */, 100674739)
-     , (30112, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30112, 028 /* SPELL_DID */, 2092 /* AcidBane7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30112', 'gemrareeternalacidbane', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30112, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (30112, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (30112, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30112, 008 /* MASS_INT */, 5)
-     , (30112, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30112, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30112, 012 /* STACK_SIZE_INT */, 1)
-     , (30112, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30112, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30112, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30112, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30112, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (30112, 019 /* VALUE_INT */, 0)
-     , (30112, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30112, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30112, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30112, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30112,   1,       2048) /* ItemType - Gem */
+     , (30112,   3,         39) /* PaletteTemplate - Black */
+     , (30112,   5,          5) /* EncumbranceVal */
+     , (30112,   8,          5) /* Mass */
+     , (30112,   9,          0) /* ValidLocations - None */
+     , (30112,  11,          1) /* MaxStackSize */
+     , (30112,  12,          1) /* StackSize */
+     , (30112,  13,          5) /* StackUnitEncumbrance */
+     , (30112,  14,          5) /* StackUnitMass */
+     , (30112,  15,          0) /* StackUnitValue */
+     , (30112,  16,          8) /* ItemUseable - Contained */
+     , (30112,  18,          1) /* UiEffects - Magical */
+     , (30112,  19,          0) /* Value */
+     , (30112,  93,       1044) /* PhysicsState */
+     , (30112,  94,         16) /* TargetType - Creature */
+     , (30112, 150,        103) /* HookPlacement - Hook */
+     , (30112, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30112, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30112,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30112,   1, 'Rune of Acid Bane') /* Name */
+     , (30112,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30112,   1,   33554809) /* Setup */
+     , (30112,   3,  536870932) /* SoundTable */
+     , (30112,   6,   67111919) /* PaletteBase */
+     , (30112,   7,  268435723) /* ClothingBase */
+     , (30112,   8,  100674739) /* Icon */
+     , (30112,  22,  872415275) /* PhysicsEffectTable */
+     , (30112,  28,       2092) /* Spell - Olthoi's Bane */;

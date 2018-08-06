@@ -1,33 +1,29 @@
-/* Weenie - Ashwood Talisman (740) */
-DELETE FROM weenie WHERE class_Id = 740;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (740, 'ashwoodtalisman', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (740, 001 /* NAME_STRING */, 'Ashwood Talisman');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (740, 001 /* SETUP_DID */, 33555207)
-     , (740, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (740, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (740, 007 /* CLOTHINGBASE_DID */, 268435722)
-     , (740, 008 /* ICON_DID */, 100668399)
-     , (740, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (740, 029 /* SPELL_COMPONENT_DID */, 57);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('740', 'ashwoodtalisman', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (740, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (740, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (740, 005 /* ENCUMB_VAL_INT */, 4)
-     , (740, 008 /* MASS_INT */, 100)
-     , (740, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (740, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (740, 012 /* STACK_SIZE_INT */, 1)
-     , (740, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
-     , (740, 014 /* STACK_UNIT_MASS_INT */, 100)
-     , (740, 015 /* STACK_UNIT_VALUE_INT */, 5)
-     , (740, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (740, 019 /* VALUE_INT */, 5)
-     , (740, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (740,   1,       4096) /* ItemType - SpellComponents */
+     , (740,   3,         61) /* PaletteTemplate - White */
+     , (740,   5,          4) /* EncumbranceVal */
+     , (740,   8,        100) /* Mass */
+     , (740,   9,          0) /* ValidLocations - None */
+     , (740,  11,        100) /* MaxStackSize */
+     , (740,  12,          1) /* StackSize */
+     , (740,  13,          4) /* StackUnitEncumbrance */
+     , (740,  14,        100) /* StackUnitMass */
+     , (740,  15,          5) /* StackUnitValue */
+     , (740,  16,          1) /* ItemUseable - No */
+     , (740,  19,          5) /* Value */
+     , (740,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (740,   1, 'Ashwood Talisman') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (740,   1,   33555207) /* Setup */
+     , (740,   3,  536870932) /* SoundTable */
+     , (740,   6,   67111919) /* PaletteBase */
+     , (740,   7,  268435722) /* ClothingBase */
+     , (740,   8,  100668399) /* Icon */
+     , (740,  22,  872415275) /* PhysicsEffectTable */
+     , (740,  29,         57) /* SpellComponent */;

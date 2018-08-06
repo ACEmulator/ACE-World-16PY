@@ -1,29 +1,25 @@
-/* Weenie - Ursuin Head (9097) */
-DELETE FROM weenie WHERE class_Id = 9097;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9097, 'ursuinheaddecorative', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9097, 001 /* NAME_STRING */, 'Ursuin Head');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9097, 001 /* SETUP_DID */, 33556974)
-     , (9097, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9097, 008 /* ICON_DID */, 100671287)
-     , (9097, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9097', 'ursuinheaddecorative', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9097, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9097, 005 /* ENCUMB_VAL_INT */, 400)
-     , (9097, 008 /* MASS_INT */, 200)
-     , (9097, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9097, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9097, 019 /* VALUE_INT */, 5)
-     , (9097, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (9097,   1,        128) /* ItemType - Misc */
+     , (9097,   5,        400) /* EncumbranceVal */
+     , (9097,   8,        200) /* Mass */
+     , (9097,   9,          0) /* ValidLocations - None */
+     , (9097,  16,          1) /* ItemUseable - No */
+     , (9097,  19,          5) /* Value */
+     , (9097,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9097, 001 /* STUCK_BOOL */, True)
-     , (9097, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (9097, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (9097,   1, True ) /* Stuck */
+     , (9097,  14, True ) /* GravityStatus */
+     , (9097,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9097,   1, 'Ursuin Head') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9097,   1,   33556974) /* Setup */
+     , (9097,   3,  536870932) /* SoundTable */
+     , (9097,   8,  100671287) /* Icon */
+     , (9097,  22,  872415275) /* PhysicsEffectTable */;

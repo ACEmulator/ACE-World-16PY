@@ -1,140 +1,290 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3958, 1880641536, 25493760, 46.057, -122.152, -30, -0.707107, 0, 0, -0.707107) /* Chest */
-     , (1913, 1880641537, 25493760, 50.7028, -115.995, -30, 1, 0, 0, 0) /* Chest */
-     , (1626, 1880641620, 25493760, 52.191, -119, -29.988, 0.53426, 0, 0, -0.84532) /* Silver Rat */
-     , (1626, 1880641621, 25493760, 50.2086, -120.046, -29.988, 0.826098, 0, 0, -0.563527) /* Silver Rat */
-     , (1608, 1880641622, 25493760, 51.7812, -121.07, -29.9925, 0.826098, 0, 0, -0.563527) /* Drudge Lurker */
-     , (1762, 1880641627, 25493769, 67.3451, -106.583, -29.995, 0.369442, 0, 0, -0.929254) /* Skeleton Lord */
-     , (1931, 1880641545, 25493779, 91.6529, -106.731, -30, 0.707107, 0, 0, -0.707107) /* Chest */
-     , (3968, 1880641549, 25493779, 92.3975, -114.2, -30, 0.707107, 0, 0, -0.707107) /* Chest */
-     , (22802, 1880641628, 25493779, 94.4685, -109.666, -29.995, 0.708042, 0, 0, -0.706171) /* Runed Chest */
-     , (1626, 1880641629, 25493779, 89.2265, -111.611, -29.988, 0.898903, 0, 0, 0.438147) /* Silver Rat */
-     , (1626, 1880641630, 25493779, 89.5611, -108.23, -29.988, 0.537323, 0, 0, 0.843376) /* Silver Rat */
-     , (1765, 1880641722, 25493780, 3.51838, -93.7319, -23.9935, 0.878459, 0, 0, 0.477818) /* Horrible Mu-miyah */
-     , (3993, 1880641551, 25493783, 5.96702, -69.2597, -24, 0.707107, 0, 0, 0.707107) /* Chest */
-     , (1946, 1880641552, 25493783, 5.96503, -66.3588, -24, 0.707107, 0, 0, 0.707107) /* Chest */
-     , (1608, 1880641633, 25493783, 11.1929, -73.4211, -23.995, 0.980067, 0, 0, -0.198669) /* Drudge Lurker */
-     , (1608, 1880641634, 25493783, 13.4626, -66.6362, -23.995, -0.217925, 0, 0, -0.975965) /* Drudge Lurker */
-     , (1924, 1880641553, 25493795, 15.9926, -20.0885, -24, -0.707107, 0, 0, -0.707107) /* Chest */
-     , (22806, 1880641554, 25493795, 15.9766, -18.5685, -24, -0.707107, 0, 0, -0.707107) /* Runed Chest */
-     , (1608, 1880641639, 25493795, 23.0561, -23.2744, -23.995, -0.877523, 0, 0, -0.479535) /* Drudge Lurker */
-     , (1947, 1880641556, 25493798, 21.7164, -55.9532, -24, 1, 0, 0, -4.37114E-08) /* Chest */
-     , (1626, 1880641640, 25493798, 23.235, -62.6946, -23.988, -0.332059, 0, 0, -0.943259) /* Silver Rat */
-     , (1626, 1880641641, 25493798, 16.4703, -60.2486, -23.988, -4.37114E-08, 0, 0, -1) /* Silver Rat */
-     , (1925, 1880641560, 25493810, 34.035, -73.6412, -24, 0.707107, 0, 0, -0.707107) /* Chest */
-     , (1931, 1880641561, 25493810, 34.033, -70.7403, -24, 0.707107, 0, 0, -0.707107) /* Chest */
-     , (1608, 1880641644, 25493810, 27.1438, -73.3253, -23.995, 0.845121, 0, 0, 0.534575) /* Drudge Lurker */
-     , (1608, 1880641645, 25493810, 28.7253, -66.4682, -23.995, 0.570234, 0, 0, 0.821482) /* Drudge Lurker */
-     , (1608, 1880641648, 25493820, 39.9465, -20.4033, -23.9958, 0.218462, 0, 0, -0.975845) /* Drudge Lurker */
-     , (1608, 1880641649, 25493820, 41.9875, -18.7982, -23.9925, -0.707107, 0, 0, -0.707107) /* Drudge Lurker */
-     , (1608, 1880641650, 25493820, 40.6814, -17.4167, -23.9925, 0.0082894, 0, 0, -0.999966) /* Drudge Lurker */
-     , (1765, 1880641711, 25493832, 46.5848, -83.437, -23.9935, -0.936221, 0, 0, 0.351413) /* Horrible Mu-miyah */
-     , (1765, 1880641712, 25493838, 46.8046, -96.6455, -23.9935, -0.440829, 0, 0, 0.897591) /* Horrible Mu-miyah */
-     , (1934, 1880641577, 25493849, 72.6974, 2.94163, -24, 0.998298, 0, 0, -0.058326) /* Chest */
-     , (1608, 1880641662, 25493849, 72.8567, 1.89702, -23.9955, -0.907411, 0, 0, -0.420245) /* Drudge Lurker */
-     , (1608, 1880641663, 25493849, 69.6672, 2.57655, -23.9955, 0.316373, 0, 0, -0.948635) /* Drudge Lurker */
-     , (1608, 1880641664, 25493851, 73.0901, -23.6233, -23.9958, -0.66466, 0, 0, -0.747146) /* Drudge Lurker */
-     , (1608, 1880641665, 25493854, 80, -10, -23.9958, -0.467834, 0, 0, -0.883816) /* Drudge Lurker */
-     , (1761, 1880641713, 25493873, 36.5488, -109.358, -17.995, -0.730797, 0, 0, 0.682595) /* Skeleton Captain */
-     , (1761, 1880641714, 25493873, 40.1997, -111.137, -17.995, 0.0712954, 0, 0, 0.997455) /* Skeleton Captain */
-     , (1761, 1880641715, 25493873, 38.6887, -111.743, -17.995, 0.999999, 0, 0, 0.00141984) /* Skeleton Captain */
-     , (1761, 1880641716, 25493873, 37.4496, -110.139, -17.995, 0.0644359, 0, 0, 0.997922) /* Skeleton Captain */
-     , (1761, 1880641717, 25493875, 37.6056, -133.207, -17.995, -0.917323, 0, 0, 0.398143) /* Skeleton Captain */
-     , (1761, 1880641718, 25493875, 42.1168, -132.196, -17.995, -0.97203, 0, 0, -0.234856) /* Skeleton Captain */
-     , (1761, 1880641719, 25493881, 46.7357, -106.644, -17.995, 0.381953, 0, 0, -0.924182) /* Skeleton Captain */
-     , (1761, 1880641720, 25493887, 59.2467, -127.294, -17.995, -0.88411, 0, 0, -0.467279) /* Skeleton Captain */
-     , (1761, 1880641721, 25493887, 56.9026, -128.711, -17.995, -0.977234, 0, 0, 0.212165) /* Skeleton Captain */
-     , (204, 1880641672, 25493894, 12.9339, -56.6507, -11.9925, -0.0444346, 0, 0, -0.999012) /* Lich */
-     , (1626, 1880641673, 25493897, 16.7415, -52.917, -11.988, -0.933273, 0, 0, 0.359167) /* Silver Rat */
-     , (204, 1880641675, 25493908, 32.7997, -46.8405, -11.9925, -0.399902, 0, 0, -0.916558) /* Lich */
-     , (1608, 1880641676, 25493911, 27.1071, -63.195, -11.9967, 0.99802, 0, 0, -0.0628985) /* Drudge Lurker */
-     , (1608, 1880641677, 25493911, 27.0207, -56.4064, -11.9967, 0.297374, 0, 0, -0.954761) /* Drudge Lurker */
-     , (204, 1880641678, 25493925, 43.0275, -53.1024, -11.9925, 1, 0, 0, 0) /* Lich */
-     , (1946, 1880641590, 25493934, 50.856, -53.3069, -12, 0.306734, 0, 0, -0.951795) /* Chest */
-     , (204, 1880641679, 25493934, 46.863, -53.5052, -11.9925, 0.927799, 0, 0, -0.373081) /* Lich */
-     , (1608, 1880641680, 25493940, 63.182, -63.3023, -11.995, -0.978403, 0, 0, -0.206707) /* Drudge Lurker */
-     , (1608, 1880641681, 25493947, 67.572, -52.8773, -11.9958, 1, 0, 0, 0) /* Drudge Lurker */
-     , (1608, 1880641682, 25493947, 72.5203, -53.3108, -11.9955, 1, 0, 0, 0) /* Drudge Lurker */
-     , (1626, 1880641683, 25493954, 73.5298, -103.033, -11.988, 0.04578, 0, 0, 0.998952) /* Silver Rat */
-     , (1626, 1880641684, 25493954, 72.0101, -99.6341, -11.988, -0.804919, 0, 0, 0.593385) /* Silver Rat */
-     , (1608, 1880641687, 25493963, 77.4573, -62.8319, -11.995, 0.930216, 0, 0, -0.367014) /* Drudge Lurker */
-     , (1626, 1880641689, 25493967, 80.1391, -83.7335, -11.988, 1, 0, 0, 0) /* Silver Rat */
-     , (1626, 1880641690, 25493968, 78.4908, -89.0927, -11.988, 0.113762, 0, 0, -0.993508) /* Silver Rat */
-     , (1626, 1880641691, 25493968, 80.6274, -89.5406, -11.988, 0.712945, 0, 0, -0.70122) /* Silver Rat */
-     , (204, 1880641692, 25493970, 76.0586, -129.126, -11.9925, 1, 0, 0, 0) /* Lich */
-     , (1608, 1880641693, 25493971, 88.9033, -71.4058, -11.9955, -0.871749, 0, 0, -0.489952) /* Drudge Lurker */
-     , (1608, 1880641695, 25493975, 103.416, -76.7628, -11.9955, -0.586638, 0, 0, -0.809849) /* Drudge Lurker */
-     , (1608, 1880641696, 25493977, 99.1304, -100.744, -11.995, 0.426411, 0, 0, -0.904529) /* Drudge Lurker */
-     , (1608, 1880641697, 25493977, 99.3257, -104.051, -11.995, 0.99928, 0, 0, 0.037929) /* Drudge Lurker */
-     , (204, 1880641698, 25493984, 43.6807, -73.2244, -5.9925, -0.94707, 0, 0, -0.321027) /* Lich */
-     , (1626, 1880641699, 25493989, 43.3216, -102.755, -5.988, -0.956801, 0, 0, -0.290743) /* Silver Rat */
-     , (1626, 1880641701, 25493995, 37.0688, -117.772, -5.988, 0.827999, 0, 0, -0.56073) /* Silver Rat */
-     , (1626, 1880641702, 25493995, 42.7271, -119.497, -5.988, -0.972877, 0, 0, -0.231323) /* Silver Rat */
-     , (204, 1880641704, 25494000, 58.0204, -69.0988, -5.95, -4.37114E-08, 0, 0, -1) /* Lich */
-     , (4159, 1880641618, 25494024, 50, -90, 0, 0.707107, 0, 0, -0.707107) /* Surface Portal */
-     , (7924, 1880641710, 25494032, 87.514, -88.8629, 0, 0.707107, 0, 0, -0.707107) /* linkmonstergen5minutes */
-     , (7924, 1880641709, 25494032, 87.483, -89.887, 0, 0.707107, 0, 0, -0.707107) /* linkmonstergen5minutes */
-     , (7924, 1880641708, 25494032, 87.4347, -91.0972, 0, 0.707107, 0, 0, -0.707107) /* linkmonstergen5minutes */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641536,  3958, 25493760, 46.057, -122.152, -30, -0.707107, 0, 0, -0.707107, False); /* Chest */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880641708'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880641709'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880641710'; /* linkmonstergen5minutes */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641537,  1913, 25493760, 50.7028, -115.995, -30, 1, 0, 0, 0, False); /* Chest */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641715'; /* linkmonstergen5minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641663'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641639'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641687'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641680'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641682'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641702'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641683'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641679'; /* linkmonstergen5minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641699'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641701'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641693'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641689'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641690'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641684'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641697'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641695'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641644'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641645'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641633'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880641691'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641704'; /* linkmonstergen5minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641620'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641634'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641640'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641678'; /* linkmonstergen5minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641641'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641698'; /* linkmonstergen5minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641648'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641627'; /* linkmonstergen5minutes <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641622'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641675'; /* linkmonstergen5minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641664'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641621'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641629'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641650'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641630'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880641649'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641672'; /* linkmonstergen5minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641665'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641677'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641676'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641681'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641673'; /* linkmonstergen5minutes <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641696'; /* linkmonstergen5minutes <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641692'; /* linkmonstergen5minutes <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641720'; /* linkmonstergen5minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641721'; /* linkmonstergen5minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641717'; /* linkmonstergen5minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641716'; /* linkmonstergen5minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641719'; /* linkmonstergen5minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641711'; /* linkmonstergen5minutes <- Horrible Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641712'; /* linkmonstergen5minutes <- Horrible Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641718'; /* linkmonstergen5minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641713'; /* linkmonstergen5minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641714'; /* linkmonstergen5minutes <- Skeleton Captain */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880641722'; /* linkmonstergen5minutes <- Horrible Mu-miyah */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641545,  1931, 25493779, 91.6529, -106.731, -30, 0.707107, 0, 0, -0.707107, False); /* Chest */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641549,  3968, 25493779, 92.3975, -114.2, -30, 0.707107, 0, 0, -0.707107, False); /* Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641551,  3993, 25493783, 5.96702, -69.2597, -24, 0.707107, 0, 0, 0.707107, False); /* Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641552,  1946, 25493783, 5.96503, -66.3588, -24, 0.707107, 0, 0, 0.707107, False); /* Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641553,  1924, 25493795, 15.9926, -20.0885, -24, -0.707107, 0, 0, -0.707107, False); /* Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641554, 22806, 25493795, 15.9766, -18.5685, -24, -0.707107, 0, 0, -0.707107, False); /* Runed Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641556,  1947, 25493798, 21.7164, -55.9532, -24, 1, 0, 0, -4.37114E-08, False); /* Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641560,  1925, 25493810, 34.035, -73.6412, -24, 0.707107, 0, 0, -0.707107, False); /* Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641561,  1931, 25493810, 34.033, -70.7403, -24, 0.707107, 0, 0, -0.707107, False); /* Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641577,  1934, 25493849, 72.6974, 2.94163, -24, 0.998298, 0, 0, -0.058326, False); /* Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641590,  1946, 25493934, 50.856, -53.3069, -12, 0.306734, 0, 0, -0.951795, False); /* Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641618,  4159, 25494024, 50, -90, 0, 0.707107, 0, 0, -0.707107, False); /* Surface Portal */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641620,  1626, 25493760, 52.191, -119, -29.988, 0.53426, 0, 0, -0.84532,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641621,  1626, 25493760, 50.2086, -120.046, -29.988, 0.826098, 0, 0, -0.563527,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641622,  1608, 25493760, 51.7812, -121.07, -29.9925, 0.826098, 0, 0, -0.563527,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641627,  1762, 25493769, 67.3451, -106.583, -29.995, 0.369442, 0, 0, -0.929254,  True); /* Skeleton Lord */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641628, 22802, 25493779, 94.4685, -109.666, -29.995, 0.708042, 0, 0, -0.706171, False); /* Runed Chest */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641629,  1626, 25493779, 89.2265, -111.611, -29.988, 0.898903, 0, 0, 0.438147,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641630,  1626, 25493779, 89.5611, -108.23, -29.988, 0.537323, 0, 0, 0.843376,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641633,  1608, 25493783, 11.1929, -73.4211, -23.995, 0.980067, 0, 0, -0.198669,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641634,  1608, 25493783, 13.4626, -66.6362, -23.995, -0.217925, 0, 0, -0.975965,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641639,  1608, 25493795, 23.0561, -23.2744, -23.995, -0.877523, 0, 0, -0.479535,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641640,  1626, 25493798, 23.235, -62.6946, -23.988, -0.332059, 0, 0, -0.943259,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641641,  1626, 25493798, 16.4703, -60.2486, -23.988, -4.37114E-08, 0, 0, -1,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641644,  1608, 25493810, 27.1438, -73.3253, -23.995, 0.845121, 0, 0, 0.534575,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641645,  1608, 25493810, 28.7253, -66.4682, -23.995, 0.570234, 0, 0, 0.821482,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641648,  1608, 25493820, 39.9465, -20.4033, -23.9958, 0.218462, 0, 0, -0.975845,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641649,  1608, 25493820, 41.9875, -18.7982, -23.9925, -0.707107, 0, 0, -0.707107,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641650,  1608, 25493820, 40.6814, -17.4167, -23.9925, 0.0082894, 0, 0, -0.999966,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641662,  1608, 25493849, 72.8567, 1.89702, -23.9955, -0.907411, 0, 0, -0.420245, False); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641663,  1608, 25493849, 69.6672, 2.57655, -23.9955, 0.316373, 0, 0, -0.948635,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641664,  1608, 25493851, 73.0901, -23.6233, -23.9958, -0.66466, 0, 0, -0.747146,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641665,  1608, 25493854, 80, -10, -23.9958, -0.467834, 0, 0, -0.883816,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641672,   204, 25493894, 12.9339, -56.6507, -11.9925, -0.0444346, 0, 0, -0.999012,  True); /* Lich */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641673,  1626, 25493897, 16.7415, -52.917, -11.988, -0.933273, 0, 0, 0.359167,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641675,   204, 25493908, 32.7997, -46.8405, -11.9925, -0.399902, 0, 0, -0.916558,  True); /* Lich */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641676,  1608, 25493911, 27.1071, -63.195, -11.9967, 0.99802, 0, 0, -0.0628985,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641677,  1608, 25493911, 27.0207, -56.4064, -11.9967, 0.297374, 0, 0, -0.954761,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641678,   204, 25493925, 43.0275, -53.1024, -11.9925, 1, 0, 0, 0,  True); /* Lich */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641679,   204, 25493934, 46.863, -53.5052, -11.9925, 0.927799, 0, 0, -0.373081,  True); /* Lich */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641680,  1608, 25493940, 63.182, -63.3023, -11.995, -0.978403, 0, 0, -0.206707,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641681,  1608, 25493947, 67.572, -52.8773, -11.9958, 1, 0, 0, 0,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641682,  1608, 25493947, 72.5203, -53.3108, -11.9955, 1, 0, 0, 0,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641683,  1626, 25493954, 73.5298, -103.033, -11.988, 0.04578, 0, 0, 0.998952,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641684,  1626, 25493954, 72.0101, -99.6341, -11.988, -0.804919, 0, 0, 0.593385,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641687,  1608, 25493963, 77.4573, -62.8319, -11.995, 0.930216, 0, 0, -0.367014,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641689,  1626, 25493967, 80.1391, -83.7335, -11.988, 1, 0, 0, 0,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641690,  1626, 25493968, 78.4908, -89.0927, -11.988, 0.113762, 0, 0, -0.993508,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641691,  1626, 25493968, 80.6274, -89.5406, -11.988, 0.712945, 0, 0, -0.70122,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641692,   204, 25493970, 76.0586, -129.126, -11.9925, 1, 0, 0, 0,  True); /* Lich */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641693,  1608, 25493971, 88.9033, -71.4058, -11.9955, -0.871749, 0, 0, -0.489952,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641695,  1608, 25493975, 103.416, -76.7628, -11.9955, -0.586638, 0, 0, -0.809849,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641696,  1608, 25493977, 99.1304, -100.744, -11.995, 0.426411, 0, 0, -0.904529,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641697,  1608, 25493977, 99.3257, -104.051, -11.995, 0.99928, 0, 0, 0.037929,  True); /* Drudge Lurker */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641698,   204, 25493984, 43.6807, -73.2244, -5.9925, -0.94707, 0, 0, -0.321027,  True); /* Lich */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641699,  1626, 25493989, 43.3216, -102.755, -5.988, -0.956801, 0, 0, -0.290743,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641701,  1626, 25493995, 37.0688, -117.772, -5.988, 0.827999, 0, 0, -0.56073,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641702,  1626, 25493995, 42.7271, -119.497, -5.988, -0.972877, 0, 0, -0.231323,  True); /* Silver Rat */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641704,   204, 25494000, 58.0204, -69.0988, -5.95, -4.37114E-08, 0, 0, -1,  True); /* Lich */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641708,  7924, 25494032, 87.4347, -91.0972, 0, 0.707107, 0, 0, -0.707107, False); /* Linkable Monster Generator ( 5 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1880641708, 1880641633) /* Drudge Lurker */
+     , (1880641708, 1880641639) /* Drudge Lurker */
+     , (1880641708, 1880641644) /* Drudge Lurker */
+     , (1880641708, 1880641645) /* Drudge Lurker */
+     , (1880641708, 1880641663) /* Drudge Lurker */
+     , (1880641708, 1880641679) /* Lich */
+     , (1880641708, 1880641680) /* Drudge Lurker */
+     , (1880641708, 1880641682) /* Drudge Lurker */
+     , (1880641708, 1880641683) /* Silver Rat */
+     , (1880641708, 1880641684) /* Silver Rat */
+     , (1880641708, 1880641687) /* Drudge Lurker */
+     , (1880641708, 1880641689) /* Silver Rat */
+     , (1880641708, 1880641690) /* Silver Rat */
+     , (1880641708, 1880641691) /* Silver Rat */
+     , (1880641708, 1880641693) /* Drudge Lurker */
+     , (1880641708, 1880641695) /* Drudge Lurker */
+     , (1880641708, 1880641697) /* Drudge Lurker */
+     , (1880641708, 1880641699) /* Silver Rat */
+     , (1880641708, 1880641701) /* Silver Rat */
+     , (1880641708, 1880641702) /* Silver Rat */
+     , (1880641708, 1880641715) /* Skeleton Captain */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641709,  7924, 25494032, 87.483, -89.887, 0, 0.707107, 0, 0, -0.707107, False); /* Linkable Monster Generator ( 5 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1880641709, 1880641620) /* Silver Rat */
+     , (1880641709, 1880641621) /* Silver Rat */
+     , (1880641709, 1880641622) /* Drudge Lurker */
+     , (1880641709, 1880641627) /* Skeleton Lord */
+     , (1880641709, 1880641629) /* Silver Rat */
+     , (1880641709, 1880641630) /* Silver Rat */
+     , (1880641709, 1880641634) /* Drudge Lurker */
+     , (1880641709, 1880641640) /* Silver Rat */
+     , (1880641709, 1880641641) /* Silver Rat */
+     , (1880641709, 1880641648) /* Drudge Lurker */
+     , (1880641709, 1880641649) /* Drudge Lurker */
+     , (1880641709, 1880641650) /* Drudge Lurker */
+     , (1880641709, 1880641664) /* Drudge Lurker */
+     , (1880641709, 1880641675) /* Lich */
+     , (1880641709, 1880641678) /* Lich */
+     , (1880641709, 1880641698) /* Lich */
+     , (1880641709, 1880641704) /* Lich */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641710,  7924, 25494032, 87.514, -88.8629, 0, 0.707107, 0, 0, -0.707107, False); /* Linkable Monster Generator ( 5 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1880641710, 1880641665) /* Drudge Lurker */
+     , (1880641710, 1880641672) /* Lich */
+     , (1880641710, 1880641673) /* Silver Rat */
+     , (1880641710, 1880641676) /* Drudge Lurker */
+     , (1880641710, 1880641677) /* Drudge Lurker */
+     , (1880641710, 1880641681) /* Drudge Lurker */
+     , (1880641710, 1880641692) /* Lich */
+     , (1880641710, 1880641696) /* Drudge Lurker */
+     , (1880641710, 1880641711) /* Horrible Mu-miyah */
+     , (1880641710, 1880641712) /* Horrible Mu-miyah */
+     , (1880641710, 1880641713) /* Skeleton Captain */
+     , (1880641710, 1880641714) /* Skeleton Captain */
+     , (1880641710, 1880641716) /* Skeleton Captain */
+     , (1880641710, 1880641717) /* Skeleton Captain */
+     , (1880641710, 1880641718) /* Skeleton Captain */
+     , (1880641710, 1880641719) /* Skeleton Captain */
+     , (1880641710, 1880641720) /* Skeleton Captain */
+     , (1880641710, 1880641721) /* Skeleton Captain */
+     , (1880641710, 1880641722) /* Horrible Mu-miyah */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641711,  1765, 25493832, 46.5848, -83.437, -23.9935, -0.936221, 0, 0, 0.351413,  True); /* Horrible Mu-miyah */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641712,  1765, 25493838, 46.8046, -96.6455, -23.9935, -0.440829, 0, 0, 0.897591,  True); /* Horrible Mu-miyah */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641713,  1761, 25493873, 36.5488, -109.358, -17.995, -0.730797, 0, 0, 0.682595,  True); /* Skeleton Captain */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641714,  1761, 25493873, 40.1997, -111.137, -17.995, 0.0712954, 0, 0, 0.997455,  True); /* Skeleton Captain */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641715,  1761, 25493873, 38.6887, -111.743, -17.995, 0.999999, 0, 0, 0.00141984,  True); /* Skeleton Captain */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641716,  1761, 25493873, 37.4496, -110.139, -17.995, 0.0644359, 0, 0, 0.997922,  True); /* Skeleton Captain */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641717,  1761, 25493875, 37.6056, -133.207, -17.995, -0.917323, 0, 0, 0.398143,  True); /* Skeleton Captain */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641718,  1761, 25493875, 42.1168, -132.196, -17.995, -0.97203, 0, 0, -0.234856,  True); /* Skeleton Captain */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641719,  1761, 25493881, 46.7357, -106.644, -17.995, 0.381953, 0, 0, -0.924182,  True); /* Skeleton Captain */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641720,  1761, 25493887, 59.2467, -127.294, -17.995, -0.88411, 0, 0, -0.467279,  True); /* Skeleton Captain */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641721,  1761, 25493887, 56.9026, -128.711, -17.995, -0.977234, 0, 0, 0.212165,  True); /* Skeleton Captain */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1880641722,  1765, 25493780, 3.51838, -93.7319, -23.9935, 0.878459, 0, 0, 0.477818,  True); /* Horrible Mu-miyah */

@@ -1,35 +1,32 @@
-/* Weenie - Book of Seasons (9239) */
-DELETE FROM weenie WHERE class_Id = 9239;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9239, 'bookseasonsspring', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9239, 001 /* NAME_STRING */, 'Book of Seasons');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9239, 001 /* SETUP_DID */, 33554771)
-     , (9239, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9239, 008 /* ICON_DID */, 100668117)
-     , (9239, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9239', 'bookseasonsspring', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9239, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (9239, 005 /* ENCUMB_VAL_INT */, 160)
-     , (9239, 008 /* MASS_INT */, 200)
-     , (9239, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9239, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (9239, 019 /* VALUE_INT */, 50)
-     , (9239, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9239, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (9239,   1,       8192) /* ItemType - Writable */
+     , (9239,   5,        160) /* EncumbranceVal */
+     , (9239,   8,        200) /* Mass */
+     , (9239,   9,          0) /* ValidLocations - None */
+     , (9239,  16,          8) /* ItemUseable - Contained */
+     , (9239,  19,         50) /* Value */
+     , (9239,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9239, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (9239,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9239,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9239,   1, 'Book of Seasons') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9239,   1,   33554771) /* Setup */
+     , (9239,   3,  536870932) /* SoundTable */
+     , (9239,   8,  100668117) /* Icon */
+     , (9239,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (9239, 7, 1000) /* Book Data */;
+VALUES (9239, 7, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (9239, 0, 4294967295, 'Gillian the Hunter', 'prewritten', False, '
@@ -65,4 +62,3 @@ Ursuins:  At the beginning of the winter I released a book about how fast the Ur
      , (9239, 6, 4294967295, 'Gillian the Hunter', 'prewritten', False, '
 Well, that''s all for now.  I''ll keep you updated if anything else changes amongst the flora and fauna of Dereth.
 ');
-

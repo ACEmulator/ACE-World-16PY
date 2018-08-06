@@ -1,8 +1,7 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (34147, 2000, 0, 3) /* lowbgharundimgen */
-     , (34147, 2000, 2, 6) /* lowbgharundimgen */
-     , (34147, 2000, 4, 7) /* lowbgharundimgen */
-     , (34147, 2000, 5, 6) /* lowbgharundimgen */
-     , (34147, 2000, 6, 2) /* lowbgharundimgen */
-     , (34147, 2000, 6, 6) /* lowbgharundimgen */;
-
+VALUES (34147, 2000, 0, 3) /* Low B Gharundim Generator */
+     , (34147, 2000, 2, 6) /* Low B Gharundim Generator */
+     , (34147, 2000, 4, 7) /* Low B Gharundim Generator */
+     , (34147, 2000, 5, 6) /* Low B Gharundim Generator */
+     , (34147, 2000, 6, 2) /* Low B Gharundim Generator */
+     , (34147, 2000, 6, 6) /* Low B Gharundim Generator */;

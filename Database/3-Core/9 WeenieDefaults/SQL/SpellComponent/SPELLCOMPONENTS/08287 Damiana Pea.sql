@@ -1,41 +1,37 @@
-/* Weenie - Damiana Pea (8287) */
-DELETE FROM weenie WHERE class_Id = 8287;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8287, 'peaherbdamiana', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8287, 001 /* NAME_STRING */, 'Damiana Pea')
-     , (8287, 015 /* SHORT_DESC_STRING */, 'A concentrated damiana pea.')
-     , (8287, 016 /* LONG_DESC_STRING */, 'A concentrated damiana pea.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8287, 001 /* SETUP_DID */, 33554817)
-     , (8287, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8287, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8287, 007 /* CLOTHINGBASE_DID */, 268435720)
-     , (8287, 008 /* ICON_DID */, 100671044)
-     , (8287, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8287, 029 /* SPELL_COMPONENT_DID */, 122);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8287', 'peaherbdamiana', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8287, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (8287, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8287, 008 /* MASS_INT */, 50)
-     , (8287, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8287, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (8287, 012 /* STACK_SIZE_INT */, 1)
-     , (8287, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8287, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (8287, 015 /* STACK_UNIT_VALUE_INT */, 1250)
-     , (8287, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8287, 019 /* VALUE_INT */, 1250)
-     , (8287, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8287, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8287, 039 /* DEFAULT_SCALE_FLOAT */, 0.33);
+VALUES (8287,   1,       4096) /* ItemType - SpellComponents */
+     , (8287,   5,         10) /* EncumbranceVal */
+     , (8287,   8,         50) /* Mass */
+     , (8287,   9,          0) /* ValidLocations - None */
+     , (8287,  11,        100) /* MaxStackSize */
+     , (8287,  12,          1) /* StackSize */
+     , (8287,  13,         10) /* StackUnitEncumbrance */
+     , (8287,  14,         50) /* StackUnitMass */
+     , (8287,  15,       1250) /* StackUnitValue */
+     , (8287,  16,          1) /* ItemUseable - No */
+     , (8287,  19,       1250) /* Value */
+     , (8287,  33,          1) /* Bonded - Bonded */
+     , (8287,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8287, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8287,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8287,  39,    0.33) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8287,   1, 'Damiana Pea') /* Name */
+     , (8287,  15, 'A concentrated damiana pea.') /* ShortDesc */
+     , (8287,  16, 'A concentrated damiana pea.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8287,   1,   33554817) /* Setup */
+     , (8287,   3,  536870932) /* SoundTable */
+     , (8287,   6,   67111919) /* PaletteBase */
+     , (8287,   7,  268435720) /* ClothingBase */
+     , (8287,   8,  100671044) /* Icon */
+     , (8287,  22,  872415275) /* PhysicsEffectTable */
+     , (8287,  29,        122) /* SpellComponent */;

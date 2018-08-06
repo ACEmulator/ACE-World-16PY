@@ -1,56 +1,52 @@
-/* Weenie - Khanjar (22784) */
-DELETE FROM weenie WHERE class_Id = 22784;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22784, 'khanjarbanditmid', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22784, 001 /* NAME_STRING */, 'Khanjar');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22784, 001 /* SETUP_DID */, 33554744)
-     , (22784, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22784, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22784, 007 /* CLOTHINGBASE_DID */, 268435790)
-     , (22784, 008 /* ICON_DID */, 100668935)
-     , (22784, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (22784, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22784', 'khanjarbanditmid', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22784, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (22784, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (22784, 005 /* ENCUMB_VAL_INT */, 120)
-     , (22784, 008 /* MASS_INT */, 80)
-     , (22784, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (22784, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22784, 019 /* VALUE_INT */, 40)
-     , (22784, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (22784, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (22784, 044 /* DAMAGE_INT */, 6)
-     , (22784, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (22784, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (22784, 047 /* ATTACK_TYPE_INT */, 486 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, TripleSlash_AttackType, DoubleThrust_AttackType, TripleThrust_AttackType */)
-     , (22784, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (22784, 049 /* WEAPON_TIME_INT */, 1)
-     , (22784, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (22784, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22784, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (22784, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (22784, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (22784, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (22784, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22784, 021 /* WEAPON_LENGTH_FLOAT */, 0.35)
-     , (22784, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (22784, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (22784, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (22784, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (22784,   1,          1) /* ItemType - MeleeWeapon */
+     , (22784,   3,         20) /* PaletteTemplate - Silver */
+     , (22784,   5,        120) /* EncumbranceVal */
+     , (22784,   8,         80) /* Mass */
+     , (22784,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (22784,  16,          1) /* ItemUseable - No */
+     , (22784,  19,         40) /* Value */
+     , (22784,  33,         -2) /* Bonded - Destroy */
+     , (22784,  37,       9999) /* ResistItemAppraisal */
+     , (22784,  44,          6) /* Damage */
+     , (22784,  45,          3) /* DamageType */
+     , (22784,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (22784,  47,        486) /* AttackType */
+     , (22784,  48,          4) /* WeaponSkill - Dagger */
+     , (22784,  49,          1) /* WeaponTime */
+     , (22784,  51,          1) /* CombatUse - Melee */
+     , (22784,  93,       1044) /* PhysicsState */
+     , (22784, 106,        250) /* ItemSpellcraft */
+     , (22784, 107,        500) /* ItemCurMana */
+     , (22784, 108,        500) /* ItemMaxMana */
+     , (22784, 109,          0) /* ItemDifficulty */
+     , (22784, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22784, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22784,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22784,  21,    0.35) /* WeaponLength */
+     , (22784,  22,    0.75) /* DamageVariance */
+     , (22784,  29,       1) /* WeaponDefense */
+     , (22784,  39,    1.25) /* DefaultScale */
+     , (22784,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22784,   1, 'Khanjar') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22784,   1,   33554744) /* Setup */
+     , (22784,   3,  536870932) /* SoundTable */
+     , (22784,   6,   67111919) /* PaletteBase */
+     , (22784,   7,  268435790) /* ClothingBase */
+     , (22784,   8,  100668935) /* Icon */
+     , (22784,  22,  872415275) /* PhysicsEffectTable */
+     , (22784,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22784, 1614, 2) /* BloodDrinker4_SpellID */
-     , (22784, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (22784,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (22784,  1625,      2)  /* Aura of Swift Killer Self IV */;

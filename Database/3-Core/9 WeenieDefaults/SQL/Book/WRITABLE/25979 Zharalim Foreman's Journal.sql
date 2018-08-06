@@ -1,37 +1,34 @@
-/* Weenie - Zharalim Foreman's Journal (25979) */
-DELETE FROM weenie WHERE class_Id = 25979;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25979, 'notezharalimforeman', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25979, 001 /* NAME_STRING */, 'Zharalim Foreman''s Journal')
-     , (25979, 015 /* SHORT_DESC_STRING */, 'A journal written by Zharalim Foreman Yumad. Several pages have been damaged, but the bulk of the book appears intact.')
-     , (25979, 033 /* QUEST_STRING */, 'PickedUpZharalimForemanJournal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25979, 001 /* SETUP_DID */, 33554771)
-     , (25979, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25979, 008 /* ICON_DID */, 100675687)
-     , (25979, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25979', 'notezharalimforeman', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25979, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (25979, 005 /* ENCUMB_VAL_INT */, 100)
-     , (25979, 008 /* MASS_INT */, 5)
-     , (25979, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25979, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (25979, 019 /* VALUE_INT */, 0)
-     , (25979, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25979, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (25979,   1,       8192) /* ItemType - Writable */
+     , (25979,   5,        100) /* EncumbranceVal */
+     , (25979,   8,          5) /* Mass */
+     , (25979,   9,          0) /* ValidLocations - None */
+     , (25979,  16,          8) /* ItemUseable - Contained */
+     , (25979,  19,          0) /* Value */
+     , (25979,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25979, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (25979,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25979,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25979,   1, 'Zharalim Foreman''s Journal') /* Name */
+     , (25979,  15, 'A journal written by Zharalim Foreman Yumad. Several pages have been damaged, but the bulk of the book appears intact.') /* ShortDesc */
+     , (25979,  33, 'PickedUpZharalimForemanJournal') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25979,   1,   33554771) /* Setup */
+     , (25979,   3,  536870932) /* SoundTable */
+     , (25979,   8,  100675687) /* Icon */
+     , (25979,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (25979, 6, 1000) /* Book Data */;
+VALUES (25979, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (25979, 0, 4294967295, 'Zharalim Foreman Yumad', 'prewritten', False, 'Log Entry 1-
@@ -60,4 +57,3 @@ I am fortunate to have chosen the room I did to stay the night, as when I awoke 
 ')
      , (25979, 5, 4294967295, 'Zharalim Foreman Yumad', 'prewritten', False, 'ones lose interest, I shall spring the lever in this room and make my attempt at escape. Hopefully I will be able to reach Yaral to warn him of what has transpired.
 ');
-

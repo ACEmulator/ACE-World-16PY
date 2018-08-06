@@ -1,37 +1,34 @@
-/* Weenie - Travel Log (25520) */
-DELETE FROM weenie WHERE class_Id = 25520;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25520, 'booktravellogrot1', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25520, 001 /* NAME_STRING */, 'Travel Log')
-     , (25520, 016 /* LONG_DESC_STRING */, 'A well worn log book full of notes.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25520, 001 /* SETUP_DID */, 33556929)
-     , (25520, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25520, 007 /* CLOTHINGBASE_DID */, 268436459)
-     , (25520, 008 /* ICON_DID */, 100673476)
-     , (25520, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25520', 'booktravellogrot1', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25520, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (25520, 005 /* ENCUMB_VAL_INT */, 100)
-     , (25520, 008 /* MASS_INT */, 5)
-     , (25520, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25520, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (25520, 019 /* VALUE_INT */, 0)
-     , (25520, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25520, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (25520,   1,       8192) /* ItemType - Writable */
+     , (25520,   5,        100) /* EncumbranceVal */
+     , (25520,   8,          5) /* Mass */
+     , (25520,   9,          0) /* ValidLocations - None */
+     , (25520,  16,          8) /* ItemUseable - Contained */
+     , (25520,  19,          0) /* Value */
+     , (25520,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25520, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (25520,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25520,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25520,   1, 'Travel Log') /* Name */
+     , (25520,  16, 'A well worn log book full of notes.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25520,   1,   33556929) /* Setup */
+     , (25520,   3,  536870932) /* SoundTable */
+     , (25520,   7,  268436459) /* ClothingBase */
+     , (25520,   8,  100673476) /* Icon */
+     , (25520,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (25520, 6, 1000) /* Book Data */;
+VALUES (25520, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (25520, 0, 4294967295, '', 'prewritten', False, 'Harvestgain 27th, PY14
@@ -59,4 +56,3 @@ We can''t lose these humans - they track us relentlessly! I fear we may not be a
 Harvestgain 29th, PY14
 We arrived back at the lifestone without weapons or armor. We have no choice, but to head back to our camp to collect our things. Without them we will never make it to the forward camp.
 ');
-

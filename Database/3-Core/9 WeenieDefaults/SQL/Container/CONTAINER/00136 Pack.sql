@@ -1,37 +1,33 @@
-/* Weenie - Pack (136) */
-DELETE FROM weenie WHERE class_Id = 136;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (136, 'backpack', 21 /* Container_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (136, 001 /* NAME_STRING */, 'Pack');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (136, 001 /* SETUP_DID */, 33554769)
-     , (136, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (136, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (136, 007 /* CLOTHINGBASE_DID */, 268435867)
-     , (136, 008 /* ICON_DID */, 100670383)
-     , (136, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('136', 'backpack', 21) /* Container */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (136, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (136, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (136, 005 /* ENCUMB_VAL_INT */, 15)
-     , (136, 006 /* ITEMS_CAPACITY_INT */, 24)
-     , (136, 007 /* CONTAINERS_CAPACITY_INT */, 0)
-     , (136, 008 /* MASS_INT */, 200)
-     , (136, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (136, 016 /* ITEM_USEABLE_INT */, 56 /* USEABLE_CONTAINED_VIEWED_REMOTE */)
-     , (136, 019 /* VALUE_INT */, 65)
-     , (136, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (136, 096 /* ENCUMB_CAPACITY_INT */, 2000);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (136, 039 /* DEFAULT_SCALE_FLOAT */, 1.75)
-     , (136, 054 /* USE_RADIUS_FLOAT */, 0.5);
+VALUES (136,   1,        512) /* ItemType - Container */
+     , (136,   3,         21) /* PaletteTemplate - Gold */
+     , (136,   5,         15) /* EncumbranceVal */
+     , (136,   6,         24) /* ItemsCapacity */
+     , (136,   7,          0) /* ContainersCapacity */
+     , (136,   8,        200) /* Mass */
+     , (136,   9,          0) /* ValidLocations - None */
+     , (136,  16,         56) /* ItemUseable - ContainedViewedRemote */
+     , (136,  19,         65) /* Value */
+     , (136,  93,       1044) /* PhysicsState */
+     , (136,  96,       2000) /* EncumbranceCapacity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (136, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (136,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (136,  39,    1.75) /* DefaultScale */
+     , (136,  54,     0.5) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (136,   1, 'Pack') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (136,   1,   33554769) /* Setup */
+     , (136,   3,  536870932) /* SoundTable */
+     , (136,   6,   67111919) /* PaletteBase */
+     , (136,   7,  268435867) /* ClothingBase */
+     , (136,   8,  100670383) /* Icon */
+     , (136,  22,  872415275) /* PhysicsEffectTable */;

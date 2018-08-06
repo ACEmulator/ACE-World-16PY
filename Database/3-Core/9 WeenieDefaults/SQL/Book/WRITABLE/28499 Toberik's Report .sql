@@ -1,36 +1,33 @@
-/* Weenie - Toberik's Report  (28499) */
-DELETE FROM weenie WHERE class_Id = 28499;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28499, 'reportlugianspy', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28499, 001 /* NAME_STRING */, 'Toberik''s Report ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28499, 001 /* SETUP_DID */, 33554776)
-     , (28499, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28499, 008 /* ICON_DID */, 100668176)
-     , (28499, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28499', 'reportlugianspy', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28499, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28499, 005 /* ENCUMB_VAL_INT */, 25)
-     , (28499, 008 /* MASS_INT */, 5)
-     , (28499, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28499, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28499, 019 /* VALUE_INT */, 10)
-     , (28499, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28499, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (28499,   1,       8192) /* ItemType - Writable */
+     , (28499,   5,         25) /* EncumbranceVal */
+     , (28499,   8,          5) /* Mass */
+     , (28499,   9,          0) /* ValidLocations - None */
+     , (28499,  16,          8) /* ItemUseable - Contained */
+     , (28499,  19,         10) /* Value */
+     , (28499,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28499, 022 /* INSCRIBABLE_BOOL */, False)
-     , (28499, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28499,  22, False) /* Inscribable */
+     , (28499,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28499,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28499,   1, 'Toberik''s Report ') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28499,   1,   33554776) /* Setup */
+     , (28499,   3,  536870932) /* SoundTable */
+     , (28499,   8,  100668176) /* Icon */
+     , (28499,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28499, 3, 1000) /* Book Data */;
+VALUES (28499, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28499, 0, 4294967295, 'Toberik', 'prewritten', False, 'Letter of Request
@@ -44,4 +41,3 @@ I''ve recently come into the following information. The Renegades are beginning 
      , (28499, 2, 4294967295, 'Toberik', 'prewritten', False, 'I have been given a task to entertain Torgluuk, the calmer of the two Burun leaders, while he visits the fortress here. I will ensure that Torgluuk is kept busy long enough to allow you to send a small force to eliminate the more aggressive brother. Torgluuk is due to arrive at any time, please exercise caution and haste in implementing your plan.
 Toberik
 ');
-

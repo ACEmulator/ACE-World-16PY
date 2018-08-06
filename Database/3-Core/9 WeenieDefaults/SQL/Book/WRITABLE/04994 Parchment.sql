@@ -1,36 +1,33 @@
-/* Weenie - Parchment (4994) */
-DELETE FROM weenie WHERE class_Id = 4994;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4994, 'journalionfrore', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4994, 001 /* NAME_STRING */, 'Parchment');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4994, 001 /* SETUP_DID */, 33554773)
-     , (4994, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4994, 008 /* ICON_DID */, 100667470)
-     , (4994, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4994', 'journalionfrore', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4994, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (4994, 005 /* ENCUMB_VAL_INT */, 25)
-     , (4994, 008 /* MASS_INT */, 5)
-     , (4994, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4994, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (4994, 019 /* VALUE_INT */, 10)
-     , (4994, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4994, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (4994,   1,       8192) /* ItemType - Writable */
+     , (4994,   5,         25) /* EncumbranceVal */
+     , (4994,   8,          5) /* Mass */
+     , (4994,   9,          0) /* ValidLocations - None */
+     , (4994,  16,          8) /* ItemUseable - Contained */
+     , (4994,  19,         10) /* Value */
+     , (4994,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4994, 001 /* STUCK_BOOL */, True)
-     , (4994, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4994,   1, True ) /* Stuck */
+     , (4994,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4994,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4994,   1, 'Parchment') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4994,   1,   33554773) /* Setup */
+     , (4994,   3,  536870932) /* SoundTable */
+     , (4994,   8,  100667470) /* Icon */
+     , (4994,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (4994, 3, 2000) /* Book Data */;
+VALUES (4994, 3, 2000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (4994, 0, 4294967295, 'Ion Lundgren', 'prewritten', False, '
@@ -55,4 +52,3 @@ Ion Lundgren
 Friend and Servant to his greatness,
 Sir Joffr e  Tr em...
 ');
-

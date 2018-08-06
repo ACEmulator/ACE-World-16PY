@@ -1,43 +1,39 @@
-/* Weenie - Academy Mana Potion (28833) */
-DELETE FROM weenie WHERE class_Id = 28833;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28833, 'potiongonjokudenherb', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28833, 001 /* NAME_STRING */, 'Academy Mana Potion')
-     , (28833, 014 /* USE_STRING */, 'Use this item to drink it.')
-     , (28833, 015 /* SHORT_DESC_STRING */, 'Many items, such as potions, are stackable. This means that they will stack on top of each other in the same slot in your Inventory. Academy potions, however, are not stackable.')
-     , (28833, 033 /* QUEST_STRING */, 'ManaPickup');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28833, 001 /* SETUP_DID */, 33554603)
-     , (28833, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28833, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (28833, 007 /* CLOTHINGBASE_DID */, 268435816)
-     , (28833, 008 /* ICON_DID */, 100670837)
-     , (28833, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28833, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28833', 'potiongonjokudenherb', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28833, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28833, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (28833, 005 /* ENCUMB_VAL_INT */, 15)
-     , (28833, 008 /* MASS_INT */, 45)
-     , (28833, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28833, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (28833, 012 /* STACK_SIZE_INT */, 1)
-     , (28833, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (28833, 014 /* STACK_UNIT_MASS_INT */, 45)
-     , (28833, 015 /* STACK_UNIT_VALUE_INT */, 75)
-     , (28833, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28833, 019 /* VALUE_INT */, 75)
-     , (28833, 089 /* BOOSTER_ENUM_INT */, 6 /* MANA_ATTRIBUTE_2ND */)
-     , (28833, 090 /* BOOST_VALUE_INT */, 25)
-     , (28833, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28833, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28833, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (28833,   1,        128) /* ItemType - Misc */
+     , (28833,   3,          2) /* PaletteTemplate - Blue */
+     , (28833,   5,         15) /* EncumbranceVal */
+     , (28833,   8,         45) /* Mass */
+     , (28833,   9,          0) /* ValidLocations - None */
+     , (28833,  11,          1) /* MaxStackSize */
+     , (28833,  12,          1) /* StackSize */
+     , (28833,  13,         15) /* StackUnitEncumbrance */
+     , (28833,  14,         45) /* StackUnitMass */
+     , (28833,  15,         75) /* StackUnitValue */
+     , (28833,  16,          8) /* ItemUseable - Contained */
+     , (28833,  19,         75) /* Value */
+     , (28833,  89,          6) /* BoosterEnum - Mana */
+     , (28833,  90,         25) /* BoostValue */
+     , (28833,  93,       1044) /* PhysicsState */
+     , (28833, 150,        103) /* HookPlacement - Hook */
+     , (28833, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28833, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28833,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28833,   1, 'Academy Mana Potion') /* Name */
+     , (28833,  14, 'Use this item to drink it.') /* Use */
+     , (28833,  15, 'Many items, such as potions, are stackable. This means that they will stack on top of each other in the same slot in your Inventory. Academy potions, however, are not stackable.') /* ShortDesc */
+     , (28833,  33, 'ManaPickup') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28833,   1,   33554603) /* Setup */
+     , (28833,   3,  536870932) /* SoundTable */
+     , (28833,   6,   67111919) /* PaletteBase */
+     , (28833,   7,  268435816) /* ClothingBase */
+     , (28833,   8,  100670837) /* Icon */
+     , (28833,  22,  872415275) /* PhysicsEffectTable */
+     , (28833,  23,         65) /* UseSound - Drink1 */;

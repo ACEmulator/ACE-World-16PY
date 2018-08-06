@@ -1,28 +1,24 @@
-/* Weenie - Celdiseth Court (22235) */
-DELETE FROM weenie WHERE class_Id = 22235;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22235, 'celdisethcourtsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22235, 001 /* NAME_STRING */, 'Celdiseth Court')
-     , (22235, 016 /* LONG_DESC_STRING */, 'Celdiseth Court');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22235, 001 /* SETUP_DID */, 33558049)
-     , (22235, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22235', 'celdisethcourtsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22235, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22235, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (22235, 008 /* MASS_INT */, 1800)
-     , (22235, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22235, 019 /* VALUE_INT */, 125)
-     , (22235, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (22235,   1,        128) /* ItemType - Misc */
+     , (22235,   5,       9000) /* EncumbranceVal */
+     , (22235,   8,       1800) /* Mass */
+     , (22235,  16,          1) /* ItemUseable - No */
+     , (22235,  19,        125) /* Value */
+     , (22235,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22235, 001 /* STUCK_BOOL */, True)
-     , (22235, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22235, 013 /* ETHEREAL_BOOL */, False)
-     , (22235, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (22235,   1, True ) /* Stuck */
+     , (22235,  12, True ) /* ReportCollisions */
+     , (22235,  13, False) /* Ethereal */
+     , (22235,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22235,   1, 'Celdiseth Court') /* Name */
+     , (22235,  16, 'Celdiseth Court') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22235,   1,   33558049) /* Setup */
+     , (22235,   8,  100667499) /* Icon */;

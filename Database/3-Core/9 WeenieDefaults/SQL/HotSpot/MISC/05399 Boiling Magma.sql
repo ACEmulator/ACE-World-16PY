@@ -1,41 +1,37 @@
-/* Weenie - Boiling Magma (5399) */
-DELETE FROM weenie WHERE class_Id = 5399;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5399, 'magmapool10', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5399, 001 /* NAME_STRING */, 'Boiling Magma')
-     , (5399, 017 /* ACTIVATION_TALK_STRING */, 'The magma boils %i points of flesh off your bones!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5399, 001 /* SETUP_DID */, 33558126)
-     , (5399, 003 /* SOUND_TABLE_DID */, 536870994)
-     , (5399, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5399', 'magmapool10', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5399, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (5399, 005 /* ENCUMB_VAL_INT */, 10)
-     , (5399, 008 /* MASS_INT */, 500)
-     , (5399, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5399, 019 /* VALUE_INT */, 5)
-     , (5399, 044 /* DAMAGE_INT */, 14)
-     , (5399, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (5399, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (5399, 119 /* ACTIVE_INT */, 65535);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5399, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (5399, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 4)
-     , (5399, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0.25);
+VALUES (5399,   1,        128) /* ItemType - Misc */
+     , (5399,   5,         10) /* EncumbranceVal */
+     , (5399,   8,        500) /* Mass */
+     , (5399,  16,          1) /* ItemUseable - No */
+     , (5399,  19,          5) /* Value */
+     , (5399,  44,         14) /* Damage */
+     , (5399,  45,         32) /* DamageType - Acid */
+     , (5399,  93,         12) /* PhysicsState */
+     , (5399, 119,      65535) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5399, 001 /* STUCK_BOOL */, True)
-     , (5399, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (5399, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5399, 013 /* ETHEREAL_BOOL */, True)
-     , (5399, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (5399, 024 /* UI_HIDDEN_BOOL */, True)
-     , (5399, 055 /* IS_HOT_BOOL */, True)
-     , (5399, 057 /* AFFECTS_AIS_BOOL */, False);
+VALUES (5399,   1, True ) /* Stuck */
+     , (5399,  11, False) /* IgnoreCollisions */
+     , (5399,  12, True ) /* ReportCollisions */
+     , (5399,  13, True ) /* Ethereal */
+     , (5399,  14, False) /* GravityStatus */
+     , (5399,  24, True ) /* UiHidden */
+     , (5399,  55, True ) /* IsHot */
+     , (5399,  57, False) /* AffectsAis */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5399,  22,    0.75) /* DamageVariance */
+     , (5399, 105,       4) /* HotspotCycleTime */
+     , (5399, 106,    0.25) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5399,   1, 'Boiling Magma') /* Name */
+     , (5399,  17, 'The magma boils %i points of flesh off your bones!') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5399,   1,   33558126) /* Setup */
+     , (5399,   3,  536870994) /* SoundTable */
+     , (5399,   8,  100667465) /* Icon */;

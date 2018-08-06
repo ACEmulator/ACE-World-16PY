@@ -1,42 +1,38 @@
-/* Weenie - Book Binding (15846) */
-DELETE FROM weenie WHERE class_Id = 15846;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15846, 'bookbinding1', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15846, 001 /* NAME_STRING */, 'Book Binding')
-     , (15846, 014 /* USE_STRING */, 'Use on a scrawled note to put the pages back into the book.')
-     , (15846, 015 /* SHORT_DESC_STRING */, 'A binding that once contained several pages of text, the pages seem to have been removed, or dropped. Seven pages are missing from this text.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15846, 001 /* SETUP_DID */, 33556929)
-     , (15846, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15846, 006 /* PALETTE_BASE_DID */, 67113005)
-     , (15846, 007 /* CLOTHINGBASE_DID */, 268436360)
-     , (15846, 008 /* ICON_DID */, 100672804)
-     , (15846, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15846', 'bookbinding1', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15846, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15846, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (15846, 005 /* ENCUMB_VAL_INT */, 100)
-     , (15846, 008 /* MASS_INT */, 10)
-     , (15846, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (15846, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (15846, 012 /* STACK_SIZE_INT */, 1)
-     , (15846, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (15846, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (15846, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (15846, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (15846, 019 /* VALUE_INT */, 0)
-     , (15846, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (15846, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (15846, 094 /* TARGET_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (15846, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (15846,   1,        128) /* ItemType - Misc */
+     , (15846,   3,          8) /* PaletteTemplate - Green */
+     , (15846,   5,        100) /* EncumbranceVal */
+     , (15846,   8,         10) /* Mass */
+     , (15846,   9,          0) /* ValidLocations - None */
+     , (15846,  11,          1) /* MaxStackSize */
+     , (15846,  12,          1) /* StackSize */
+     , (15846,  13,        100) /* StackUnitEncumbrance */
+     , (15846,  14,         10) /* StackUnitMass */
+     , (15846,  15,          0) /* StackUnitValue */
+     , (15846,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (15846,  19,          0) /* Value */
+     , (15846,  33,          1) /* Bonded - Bonded */
+     , (15846,  93,       1044) /* PhysicsState */
+     , (15846,  94,       8192) /* TargetType - Writable */
+     , (15846, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15846, 022 /* INSCRIBABLE_BOOL */, True)
-     , (15846, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (15846, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (15846,  22, True ) /* Inscribable */
+     , (15846,  23, True ) /* DestroyOnSell */
+     , (15846,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15846,   1, 'Book Binding') /* Name */
+     , (15846,  14, 'Use on a scrawled note to put the pages back into the book.') /* Use */
+     , (15846,  15, 'A binding that once contained several pages of text, the pages seem to have been removed, or dropped. Seven pages are missing from this text.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15846,   1,   33556929) /* Setup */
+     , (15846,   3,  536870932) /* SoundTable */
+     , (15846,   6,   67113005) /* PaletteBase */
+     , (15846,   7,  268436360) /* ClothingBase */
+     , (15846,   8,  100672804) /* Icon */
+     , (15846,  22,  872415275) /* PhysicsEffectTable */;

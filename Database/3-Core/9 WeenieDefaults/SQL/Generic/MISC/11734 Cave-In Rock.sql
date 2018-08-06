@@ -1,35 +1,31 @@
-/* Weenie - Cave-In Rock (11734) */
-DELETE FROM weenie WHERE class_Id = 11734;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11734, 'rocktrapcavein', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11734, 001 /* NAME_STRING */, 'Cave-In Rock');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11734, 001 /* SETUP_DID */, 33555863)
-     , (11734, 003 /* SOUND_TABLE_DID */, 536871003)
-     , (11734, 008 /* ICON_DID */, 100667500)
-     , (11734, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11734', 'rocktrapcavein', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11734, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11734, 005 /* ENCUMB_VAL_INT */, 500)
-     , (11734, 008 /* MASS_INT */, 500)
-     , (11734, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11734, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11734, 019 /* VALUE_INT */, 0)
-     , (11734, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (11734, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11734, 039 /* DEFAULT_SCALE_FLOAT */, 0.5)
-     , (11734, 044 /* TIME_TO_ROT_FLOAT */, 0);
+VALUES (11734,   1,        128) /* ItemType - Misc */
+     , (11734,   5,        500) /* EncumbranceVal */
+     , (11734,   8,        500) /* Mass */
+     , (11734,   9,          0) /* ValidLocations - None */
+     , (11734,  16,          1) /* ItemUseable - No */
+     , (11734,  19,          0) /* Value */
+     , (11734,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (11734,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11734, 001 /* STUCK_BOOL */, True)
-     , (11734, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (11734, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (11734, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (11734,   1, True ) /* Stuck */
+     , (11734,  14, True ) /* GravityStatus */
+     , (11734,  23, True ) /* DestroyOnSell */
+     , (11734,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11734,  39,     0.5) /* DefaultScale */
+     , (11734,  44,       0) /* TimeToRot */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11734,   1, 'Cave-In Rock') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11734,   1,   33555863) /* Setup */
+     , (11734,   3,  536871003) /* SoundTable */
+     , (11734,   8,  100667500) /* Icon */
+     , (11734,  22,  872415275) /* PhysicsEffectTable */;

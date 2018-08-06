@@ -1,41 +1,37 @@
-/* Weenie - Infused High-Grade Chorizite Ore (21966) */
-DELETE FROM weenie WHERE class_Id = 21966;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21966, 'chorizitehighstampedatlatl', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21966, 001 /* NAME_STRING */, 'Infused High-Grade Chorizite Ore')
-     , (21966, 015 /* SHORT_DESC_STRING */, 'A high-grade chunk of refined chorizite ore infused with the essence of an atlatl.')
-     , (21966, 016 /* LONG_DESC_STRING */, 'A high-grade chunk of refined chorizite ore infused with the essence of an atlatl.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21966, 001 /* SETUP_DID */, 33555677)
-     , (21966, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21966, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (21966, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (21966, 008 /* ICON_DID */, 100673571)
-     , (21966, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21966', 'chorizitehighstampedatlatl', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21966, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (21966, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
-     , (21966, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (21966, 008 /* MASS_INT */, 1000)
-     , (21966, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (21966, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (21966, 012 /* STACK_SIZE_INT */, 1)
-     , (21966, 013 /* STACK_UNIT_ENCUMB_INT */, 1000)
-     , (21966, 014 /* STACK_UNIT_MASS_INT */, 1000)
-     , (21966, 015 /* STACK_UNIT_VALUE_INT */, 2500)
-     , (21966, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (21966, 019 /* VALUE_INT */, 2500)
-     , (21966, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (21966, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (21966, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (21966,   1,        128) /* ItemType - Misc */
+     , (21966,   3,         83) /* PaletteTemplate - Amber */
+     , (21966,   5,       1000) /* EncumbranceVal */
+     , (21966,   8,       1000) /* Mass */
+     , (21966,   9,          0) /* ValidLocations - None */
+     , (21966,  11,          1) /* MaxStackSize */
+     , (21966,  12,          1) /* StackSize */
+     , (21966,  13,       1000) /* StackUnitEncumbrance */
+     , (21966,  14,       1000) /* StackUnitMass */
+     , (21966,  15,       2500) /* StackUnitValue */
+     , (21966,  16,          1) /* ItemUseable - No */
+     , (21966,  19,       2500) /* Value */
+     , (21966,  33,          1) /* Bonded - Bonded */
+     , (21966,  93,       1044) /* PhysicsState */
+     , (21966, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21966, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21966, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (21966, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (21966,  22, True ) /* Inscribable */
+     , (21966,  23, True ) /* DestroyOnSell */
+     , (21966,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21966,   1, 'Infused High-Grade Chorizite Ore') /* Name */
+     , (21966,  15, 'A high-grade chunk of refined chorizite ore infused with the essence of an atlatl.') /* ShortDesc */
+     , (21966,  16, 'A high-grade chunk of refined chorizite ore infused with the essence of an atlatl.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21966,   1,   33555677) /* Setup */
+     , (21966,   3,  536870932) /* SoundTable */
+     , (21966,   6,   67111919) /* PaletteBase */
+     , (21966,   7,  268435723) /* ClothingBase */
+     , (21966,   8,  100673571) /* Icon */
+     , (21966,  22,  872415275) /* PhysicsEffectTable */;

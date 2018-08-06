@@ -1,28 +1,24 @@
-/* Weenie - San-Chin (14732) */
-DELETE FROM weenie WHERE class_Id = 14732;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14732, 'sanchinsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14732, 001 /* NAME_STRING */, 'San-Chin')
-     , (14732, 016 /* LONG_DESC_STRING */, 'Welcome to San-Chin');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14732, 001 /* SETUP_DID */, 33557463)
-     , (14732, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14732', 'sanchinsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14732, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14732, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14732, 008 /* MASS_INT */, 1800)
-     , (14732, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14732, 019 /* VALUE_INT */, 125)
-     , (14732, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14732,   1,        128) /* ItemType - Misc */
+     , (14732,   5,       9000) /* EncumbranceVal */
+     , (14732,   8,       1800) /* Mass */
+     , (14732,  16,          1) /* ItemUseable - No */
+     , (14732,  19,        125) /* Value */
+     , (14732,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14732, 001 /* STUCK_BOOL */, True)
-     , (14732, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14732, 013 /* ETHEREAL_BOOL */, False)
-     , (14732, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14732,   1, True ) /* Stuck */
+     , (14732,  12, True ) /* ReportCollisions */
+     , (14732,  13, False) /* Ethereal */
+     , (14732,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14732,   1, 'San-Chin') /* Name */
+     , (14732,  16, 'Welcome to San-Chin') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14732,   1,   33557463) /* Setup */
+     , (14732,   8,  100668115) /* Icon */;

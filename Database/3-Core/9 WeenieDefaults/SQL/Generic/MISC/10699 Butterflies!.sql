@@ -1,26 +1,22 @@
-/* Weenie - Butterflies! (10699) */
-DELETE FROM weenie WHERE class_Id = 10699;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10699, 'butterflyswarmupward', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10699, 001 /* NAME_STRING */, 'Butterflies!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10699, 001 /* SETUP_DID */, 33555603)
-     , (10699, 008 /* ICON_DID */, 100667494);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10699', 'butterflyswarmupward', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10699, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (10699, 005 /* ENCUMB_VAL_INT */, 1)
-     , (10699, 008 /* MASS_INT */, 1)
-     , (10699, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10699, 019 /* VALUE_INT */, 0)
-     , (10699, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */);
+VALUES (10699,   1,        128) /* ItemType - Misc */
+     , (10699,   5,          1) /* EncumbranceVal */
+     , (10699,   8,          1) /* Mass */
+     , (10699,  16,          1) /* ItemUseable - No */
+     , (10699,  19,          0) /* Value */
+     , (10699,  93,         20) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10699, 001 /* STUCK_BOOL */, True)
-     , (10699, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (10699, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (10699,   1, True ) /* Stuck */
+     , (10699,  14, False) /* GravityStatus */
+     , (10699,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10699,   1, 'Butterflies!') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10699,   1,   33555603) /* Setup */
+     , (10699,   8,  100667494) /* Icon */;

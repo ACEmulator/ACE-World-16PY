@@ -1,49 +1,45 @@
-/* Weenie - Kite Shield (7969) */
-DELETE FROM weenie WHERE class_Id = 7969;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7969, 'shieldkitemonsteronly2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7969, 001 /* NAME_STRING */, 'Kite Shield');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7969, 001 /* SETUP_DID */, 33554788)
-     , (7969, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7969, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7969, 007 /* CLOTHINGBASE_DID */, 268435610)
-     , (7969, 008 /* ICON_DID */, 100668151)
-     , (7969, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7969', 'shieldkitemonsteronly2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7969, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (7969, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (7969, 005 /* ENCUMB_VAL_INT */, 690)
-     , (7969, 008 /* MASS_INT */, 230)
-     , (7969, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
-     , (7969, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7969, 019 /* VALUE_INT */, 120)
-     , (7969, 027 /* ARMOR_TYPE_INT */, 2)
-     , (7969, 028 /* ARMOR_LEVEL_INT */, 200)
-     , (7969, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (7969, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (7969, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
-     , (7969, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7969, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7969, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
-     , (7969, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.2)
-     , (7969, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.2)
-     , (7969, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.2)
-     , (7969, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
-     , (7969, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.2)
-     , (7969, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.2)
-     , (7969, 039 /* DEFAULT_SCALE_FLOAT */, 0.75)
-     , (7969, 110 /* BULK_MOD_FLOAT */, 1)
-     , (7969, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (7969,   1,          2) /* ItemType - Armor */
+     , (7969,   3,          4) /* PaletteTemplate - Brown */
+     , (7969,   5,        690) /* EncumbranceVal */
+     , (7969,   8,        230) /* Mass */
+     , (7969,   9,    2097152) /* ValidLocations - Shield */
+     , (7969,  16,          1) /* ItemUseable - No */
+     , (7969,  19,        120) /* Value */
+     , (7969,  27,          2) /* ArmorType */
+     , (7969,  28,        200) /* ArmorLevel */
+     , (7969,  33,         -2) /* Bonded - Destroy */
+     , (7969,  37,       9999) /* ResistItemAppraisal */
+     , (7969,  51,          4) /* CombatUse - Shield */
+     , (7969,  93,       1044) /* PhysicsState */
+     , (7969, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7969, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7969, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (7969,  22, True ) /* Inscribable */
+     , (7969,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7969,  13,     1.2) /* ArmorModVsSlash */
+     , (7969,  14,     1.2) /* ArmorModVsPierce */
+     , (7969,  15,     1.2) /* ArmorModVsBludgeon */
+     , (7969,  16,     1.2) /* ArmorModVsCold */
+     , (7969,  17,     1.2) /* ArmorModVsFire */
+     , (7969,  18,     1.2) /* ArmorModVsAcid */
+     , (7969,  19,     1.2) /* ArmorModVsElectric */
+     , (7969,  39,    0.75) /* DefaultScale */
+     , (7969, 110,       1) /* BulkMod */
+     , (7969, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7969,   1, 'Kite Shield') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7969,   1,   33554788) /* Setup */
+     , (7969,   3,  536870932) /* SoundTable */
+     , (7969,   6,   67111919) /* PaletteBase */
+     , (7969,   7,  268435610) /* ClothingBase */
+     , (7969,   8,  100668151) /* Icon */
+     , (7969,  22,  872415275) /* PhysicsEffectTable */;

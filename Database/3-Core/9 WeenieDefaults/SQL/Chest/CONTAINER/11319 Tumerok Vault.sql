@@ -1,55 +1,51 @@
-/* Weenie - Tumerok Vault (11319) */
-DELETE FROM weenie WHERE class_Id = 11319;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11319, 'altartanuaspear-xp', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11319, 001 /* NAME_STRING */, 'Tumerok Vault')
-     , (11319, 012 /* LOCK_CODE_STRING */, 'keytanuaspear')
-     , (11319, 014 /* USE_STRING */, 'Use this item to open it and see its contents.')
-     , (11319, 015 /* SHORT_DESC_STRING */, 'A beautifully decorated Tumerok vault containing a spear.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11319, 001 /* SETUP_DID */, 33557302)
-     , (11319, 002 /* MOTION_TABLE_DID */, 150995138)
-     , (11319, 003 /* SOUND_TABLE_DID */, 536871042)
-     , (11319, 008 /* ICON_DID */, 100667424)
-     , (11319, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11319', 'altartanuaspear-xp', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11319, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (11319, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (11319, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (11319, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (11319, 008 /* MASS_INT */, 3000)
-     , (11319, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (11319, 019 /* VALUE_INT */, 0)
-     , (11319, 038 /* RESIST_LOCKPICK_INT */, 9999)
-     , (11319, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (11319, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (11319, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11319, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (11319, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11319, 011 /* RESET_INTERVAL_FLOAT */, 60)
-     , (11319, 039 /* DEFAULT_SCALE_FLOAT */, 1.6)
-     , (11319, 041 /* REGENERATION_INTERVAL_FLOAT */, 10)
-     , (11319, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (11319, 054 /* USE_RADIUS_FLOAT */, 3);
+VALUES (11319,   1,        512) /* ItemType - Container */
+     , (11319,   5,       9000) /* EncumbranceVal */
+     , (11319,   6,         -1) /* ItemsCapacity */
+     , (11319,   7,         -1) /* ContainersCapacity */
+     , (11319,   8,       3000) /* Mass */
+     , (11319,  16,         48) /* ItemUseable - ViewedRemote */
+     , (11319,  19,          0) /* Value */
+     , (11319,  38,       9999) /* ResistLockpick */
+     , (11319,  81,          1) /* MaxGeneratedObjects */
+     , (11319,  82,          1) /* InitGeneratedObjects */
+     , (11319,  93,       1048) /* PhysicsState */
+     , (11319,  96,        500) /* EncumbranceCapacity */
+     , (11319, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11319, 001 /* STUCK_BOOL */, True)
-     , (11319, 002 /* OPEN_BOOL */, False)
-     , (11319, 003 /* LOCKED_BOOL */, True)
-     , (11319, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (11319, 013 /* ETHEREAL_BOOL */, False)
-     , (11319, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (11319, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (11319, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (11319, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (11319,   1, True ) /* Stuck */
+     , (11319,   2, False) /* Open */
+     , (11319,   3, True ) /* Locked */
+     , (11319,  12, True ) /* ReportCollisions */
+     , (11319,  13, False) /* Ethereal */
+     , (11319,  14, True ) /* GravityStatus */
+     , (11319,  33, False) /* ResetMessagePending */
+     , (11319,  34, False) /* DefaultOpen */
+     , (11319,  35, True ) /* DefaultLocked */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11319,  11,      60) /* ResetInterval */
+     , (11319,  39,     1.6) /* DefaultScale */
+     , (11319,  41,      10) /* RegenerationInterval */
+     , (11319,  43,       1) /* GeneratorRadius */
+     , (11319,  54,       3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11319,   1, 'Tumerok Vault') /* Name */
+     , (11319,  12, 'keytanuaspear') /* LockCode */
+     , (11319,  14, 'Use this item to open it and see its contents.') /* Use */
+     , (11319,  15, 'A beautifully decorated Tumerok vault containing a spear.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11319,   1,   33557302) /* Setup */
+     , (11319,   2,  150995138) /* MotionTable */
+     , (11319,   3,  536871042) /* SoundTable */
+     , (11319,   8,  100667424) /* Icon */
+     , (11319,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11319, -1, 11328, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Tumerok Spear (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */;
-
+VALUES (11319, -1, 11328, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

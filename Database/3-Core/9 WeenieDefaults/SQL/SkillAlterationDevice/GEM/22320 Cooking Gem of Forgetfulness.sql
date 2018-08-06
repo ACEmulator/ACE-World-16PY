@@ -1,34 +1,30 @@
-/* Weenie - Cooking Gem of Forgetfulness (22320) */
-DELETE FROM weenie WHERE class_Id = 22320;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22320, 'skillgemdowncooking', 62 /* SkillAlterationDevice_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22320, 001 /* NAME_STRING */, 'Cooking Gem of Forgetfulness')
-     , (22320, 014 /* USE_STRING */, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return four skill credits when used to unspecialize or untrain the Cooking skill.')
-     , (22320, 033 /* QUEST_STRING */, 'SkillAlterationGemPickedUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22320, 001 /* SETUP_DID */, 33558087)
-     , (22320, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22320, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (22320, 008 /* ICON_DID */, 100673789)
-     , (22320, 050 /* ICON_OVERLAY_DID */, 100673760);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22320', 'skillgemdowncooking', 62) /* SkillAlterationDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22320, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22320, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (22320, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22320, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22320, 019 /* VALUE_INT */, 0)
-     , (22320, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22320, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22320, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (22320, 185 /* TYPE_OF_ALTERATION_INT */, 2)
-     , (22320, 186 /* SKILL_TO_BE_ALTERED_INT */, 39);
+VALUES (22320,   1,       2048) /* ItemType - Gem */
+     , (22320,   3,         14) /* PaletteTemplate - Red */
+     , (22320,   5,         10) /* EncumbranceVal */
+     , (22320,  16,          8) /* ItemUseable - Contained */
+     , (22320,  19,          0) /* Value */
+     , (22320,  33,          1) /* Bonded - Bonded */
+     , (22320,  93,       1044) /* PhysicsState */
+     , (22320, 114,          1) /* Attuned - Attuned */
+     , (22320, 185,          2) /* TypeOfAlteration */
+     , (22320, 186,         39) /* SkillToBeAltered */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22320, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22320, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22320,  22, True ) /* Inscribable */
+     , (22320,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22320,   1, 'Cooking Gem of Forgetfulness') /* Name */
+     , (22320,  14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return four skill credits when used to unspecialize or untrain the Cooking skill.') /* Use */
+     , (22320,  33, 'SkillAlterationGemPickedUp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22320,   1,   33558087) /* Setup */
+     , (22320,   6,   67111919) /* PaletteBase */
+     , (22320,   7,  268435723) /* ClothingBase */
+     , (22320,   8,  100673789) /* Icon */
+     , (22320,  50,  100673760) /* IconOverlay */;

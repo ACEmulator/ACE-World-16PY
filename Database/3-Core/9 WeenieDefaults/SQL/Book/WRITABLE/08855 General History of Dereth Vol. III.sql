@@ -1,35 +1,32 @@
-/* Weenie - General History of Dereth Vol. III (8855) */
-DELETE FROM weenie WHERE class_Id = 8855;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8855, 'histfeb00', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8855, 001 /* NAME_STRING */, 'General History of Dereth Vol. III');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8855, 001 /* SETUP_DID */, 33554771)
-     , (8855, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8855, 008 /* ICON_DID */, 100668117)
-     , (8855, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8855', 'histfeb00', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8855, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8855, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8855, 008 /* MASS_INT */, 10)
-     , (8855, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8855, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8855, 019 /* VALUE_INT */, 0)
-     , (8855, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8855, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8855,   1,       8192) /* ItemType - Writable */
+     , (8855,   5,         10) /* EncumbranceVal */
+     , (8855,   8,         10) /* Mass */
+     , (8855,   9,          0) /* ValidLocations - None */
+     , (8855,  16,          8) /* ItemUseable - Contained */
+     , (8855,  19,          0) /* Value */
+     , (8855,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8855, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8855,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8855,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8855,   1, 'General History of Dereth Vol. III') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8855,   1,   33554771) /* Setup */
+     , (8855,   3,  536870932) /* SoundTable */
+     , (8855,   8,  100668117) /* Icon */
+     , (8855,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8855, 13, 1000) /* Book Data */;
+VALUES (8855, 13, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8855, 0, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, '
@@ -86,4 +83,3 @@ In other local news, Guthima the Wise, archmage of Arwic, moved down the road. C
      , (8855, 12, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, '
 Lastly, as if in omen, the beginning of the month saw a titanic bridge, carved from volcanic obsidian, appear over the River Prosper between Holtburg, Cragstone, and Arwic. Formerly cloaked by the lost magical arts of the Empyrean, the Obsidian Span drew crowds of gawkers. Not a few unfortunate souls jumped off of it -- doubtless driven to insanity by the inescapable gift of Lifestone resurrection. Sages could only speculate what other structures might lie in plain sight without our knowing.
 ');
-

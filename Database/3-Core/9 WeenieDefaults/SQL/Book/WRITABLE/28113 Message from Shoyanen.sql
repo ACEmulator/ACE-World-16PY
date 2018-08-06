@@ -1,35 +1,32 @@
-/* Weenie - Message from Shoyanen (28113) */
-DELETE FROM weenie WHERE class_Id = 28113;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28113, 'noteshoyaneningress', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28113, 001 /* NAME_STRING */, 'Message from Shoyanen');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28113, 001 /* SETUP_DID */, 33554773)
-     , (28113, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28113, 008 /* ICON_DID */, 100668176)
-     , (28113, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28113', 'noteshoyaneningress', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28113, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28113, 005 /* ENCUMB_VAL_INT */, 25)
-     , (28113, 008 /* MASS_INT */, 5)
-     , (28113, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28113, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28113, 019 /* VALUE_INT */, 10)
-     , (28113, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28113, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (28113,   1,       8192) /* ItemType - Writable */
+     , (28113,   5,         25) /* EncumbranceVal */
+     , (28113,   8,          5) /* Mass */
+     , (28113,   9,          0) /* ValidLocations - None */
+     , (28113,  16,          8) /* ItemUseable - Contained */
+     , (28113,  19,         10) /* Value */
+     , (28113,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28113, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (28113,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28113,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28113,   1, 'Message from Shoyanen') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28113,   1,   33554773) /* Setup */
+     , (28113,   3,  536870932) /* SoundTable */
+     , (28113,   8,  100668176) /* Icon */
+     , (28113,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28113, 1, 1000) /* Book Data */;
+VALUES (28113, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28113, 0, 4294967295, 'Shoyanen Kenchu', 'prewritten', False, '
@@ -38,4 +35,3 @@ With all that we have been able to accomplish recently this is just another wond
 Shoyanen
 
 ');
-

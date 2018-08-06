@@ -1,58 +1,54 @@
-/* Weenie - An Explorer Sword (8744) */
-DELETE FROM weenie WHERE class_Id = 8744;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8744, 'kenrarenewbiequest', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8744, 001 /* NAME_STRING */, 'An Explorer Sword');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8744, 001 /* SETUP_DID */, 33554759)
-     , (8744, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8744, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8744, 007 /* CLOTHINGBASE_DID */, 268435771)
-     , (8744, 008 /* ICON_DID */, 100669015)
-     , (8744, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8744, 036 /* MUTATE_FILTER_DID */, 234881044)
-     , (8744, 050 /* ICON_OVERLAY_DID */, 100675462);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8744', 'kenrarenewbiequest', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8744, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (8744, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (8744, 005 /* ENCUMB_VAL_INT */, 500)
-     , (8744, 008 /* MASS_INT */, 200)
-     , (8744, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (8744, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8744, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8744, 019 /* VALUE_INT */, 1)
-     , (8744, 044 /* DAMAGE_INT */, 18)
-     , (8744, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (8744, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (8744, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (8744, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (8744, 049 /* WEAPON_TIME_INT */, 40)
-     , (8744, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (8744, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8744, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (8744, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (8744, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (8744, 109 /* ITEM_DIFFICULTY_INT */, 15)
-     , (8744, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8744, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8744, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (8744, 021 /* WEAPON_LENGTH_FLOAT */, 0.86)
-     , (8744, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (8744, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (8744, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (8744, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.15);
+VALUES (8744,   1,          1) /* ItemType - MeleeWeapon */
+     , (8744,   3,         20) /* PaletteTemplate - Silver */
+     , (8744,   5,        500) /* EncumbranceVal */
+     , (8744,   8,        200) /* Mass */
+     , (8744,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (8744,  16,          1) /* ItemUseable - No */
+     , (8744,  18,          1) /* UiEffects - Magical */
+     , (8744,  19,          1) /* Value */
+     , (8744,  44,         18) /* Damage */
+     , (8744,  45,          3) /* DamageType */
+     , (8744,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (8744,  47,          6) /* AttackType */
+     , (8744,  48,         11) /* WeaponSkill - Sword */
+     , (8744,  49,         40) /* WeaponTime */
+     , (8744,  51,          1) /* CombatUse - Melee */
+     , (8744,  93,       1044) /* PhysicsState */
+     , (8744, 106,        150) /* ItemSpellcraft */
+     , (8744, 107,        400) /* ItemCurMana */
+     , (8744, 108,        400) /* ItemMaxMana */
+     , (8744, 109,         15) /* ItemDifficulty */
+     , (8744, 150,        103) /* HookPlacement - Hook */
+     , (8744, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8744, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (8744,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8744,   5,  -0.025) /* ManaRate */
+     , (8744,  21,    0.86) /* WeaponLength */
+     , (8744,  22,     0.5) /* DamageVariance */
+     , (8744,  29,       1) /* WeaponDefense */
+     , (8744,  62,       1) /* WeaponOffense */
+     , (8744, 147,    0.15) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8744,   1, 'An Explorer Sword') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8744,   1,   33554759) /* Setup */
+     , (8744,   3,  536870932) /* SoundTable */
+     , (8744,   6,   67111919) /* PaletteBase */
+     , (8744,   7,  268435771) /* ClothingBase */
+     , (8744,   8,  100669015) /* Icon */
+     , (8744,  22,  872415275) /* PhysicsEffectTable */
+     , (8744,  36,  234881044) /* MutateFilter */
+     , (8744,  50,  100675462) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8744, 1613, 2) /* BloodDrinker3_SpellID */
-     , (8744, 414, 2) /* SwordMasteryOther3_SpellID */;
-
+VALUES (8744,   414,      2)  /* Heavy Weapon Mastery Other III */
+     , (8744,  1613,      2)  /* Aura of Blood Drinker Self III */;

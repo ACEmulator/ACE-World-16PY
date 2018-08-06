@@ -1,38 +1,34 @@
-/* Weenie - Yellow Garnet (2400) */
-DELETE FROM weenie WHERE class_Id = 2400;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2400, 'gemyellowgarnet', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2400, 001 /* NAME_STRING */, 'Yellow Garnet');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2400, 001 /* SETUP_DID */, 33554809)
-     , (2400, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2400, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2400, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (2400, 008 /* ICON_DID */, 100674724)
-     , (2400, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2400, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2400', 'gemyellowgarnet', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2400, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (2400, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
-     , (2400, 005 /* ENCUMB_VAL_INT */, 5)
-     , (2400, 008 /* MASS_INT */, 5)
-     , (2400, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2400, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (2400, 012 /* STACK_SIZE_INT */, 1)
-     , (2400, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (2400, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (2400, 015 /* STACK_UNIT_VALUE_INT */, 100)
-     , (2400, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2400, 019 /* VALUE_INT */, 100)
-     , (2400, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2400, 131 /* MATERIAL_TYPE_INT */, 48 /* Yellow_Garnet_MaterialType */)
-     , (2400, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
+VALUES (2400,   1,       2048) /* ItemType - Gem */
+     , (2400,   3,         83) /* PaletteTemplate - Amber */
+     , (2400,   5,          5) /* EncumbranceVal */
+     , (2400,   8,          5) /* Mass */
+     , (2400,   9,          0) /* ValidLocations - None */
+     , (2400,  11,          1) /* MaxStackSize */
+     , (2400,  12,          1) /* StackSize */
+     , (2400,  13,          5) /* StackUnitEncumbrance */
+     , (2400,  14,          5) /* StackUnitMass */
+     , (2400,  15,        100) /* StackUnitValue */
+     , (2400,  16,          1) /* ItemUseable - No */
+     , (2400,  19,        100) /* Value */
+     , (2400,  93,       1044) /* PhysicsState */
+     , (2400, 131,         48) /* MaterialType - YellowGarnet */
+     , (2400, 169,   16777216) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2400, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2400,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2400,   1, 'Yellow Garnet') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2400,   1,   33554809) /* Setup */
+     , (2400,   3,  536870932) /* SoundTable */
+     , (2400,   6,   67111919) /* PaletteBase */
+     , (2400,   7,  268435723) /* ClothingBase */
+     , (2400,   8,  100674724) /* Icon */
+     , (2400,  22,  872415275) /* PhysicsEffectTable */
+     , (2400,  36,  234881046) /* MutateFilter */;

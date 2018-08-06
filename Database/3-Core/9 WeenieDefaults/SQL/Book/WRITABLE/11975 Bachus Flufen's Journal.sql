@@ -1,35 +1,32 @@
-/* Weenie - Bachus Flufen's Journal (11975) */
-DELETE FROM weenie WHERE class_Id = 11975;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11975, 'journaltanua-xp', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11975, 001 /* NAME_STRING */, 'Bachus Flufen''s Journal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11975, 001 /* SETUP_DID */, 33554771)
-     , (11975, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11975, 008 /* ICON_DID */, 100668117)
-     , (11975, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11975', 'journaltanua-xp', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11975, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (11975, 005 /* ENCUMB_VAL_INT */, 160)
-     , (11975, 008 /* MASS_INT */, 200)
-     , (11975, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11975, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (11975, 019 /* VALUE_INT */, 90)
-     , (11975, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11975, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (11975,   1,       8192) /* ItemType - Writable */
+     , (11975,   5,        160) /* EncumbranceVal */
+     , (11975,   8,        200) /* Mass */
+     , (11975,   9,          0) /* ValidLocations - None */
+     , (11975,  16,          8) /* ItemUseable - Contained */
+     , (11975,  19,         90) /* Value */
+     , (11975,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11975, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (11975,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11975,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11975,   1, 'Bachus Flufen''s Journal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11975,   1,   33554771) /* Setup */
+     , (11975,   3,  536870932) /* SoundTable */
+     , (11975,   8,  100668117) /* Icon */
+     , (11975,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (11975, 8, 1000) /* Book Data */;
+VALUES (11975, 8, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (11975, 0, 4294967295, 'Bachus Flufens', 'prewritten', False, 'Taiaha.  A beautiful word.  I think of farewells on a sandy beach, the sun setting into a blue on blue horizon.  "Taiaha," they would say.  "Taiaha," I would return, the last words spoken before night and sleep came upon us.
@@ -56,4 +53,3 @@ My new friends amongst the Tumeroks regale me with stories about their ways and 
 
 And so the story begins...but it does not end there, not now, not ever.  But the rest will be known in due time.
 ');
-

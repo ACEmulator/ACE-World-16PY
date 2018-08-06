@@ -1,41 +1,37 @@
-/* Weenie - Ideograph of Armor (30116) */
-DELETE FROM weenie WHERE class_Id = 30116;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30116, 'gemrareeternalarmor', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30116, 001 /* NAME_STRING */, 'Ideograph of Armor')
-     , (30116, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30116, 001 /* SETUP_DID */, 33554809)
-     , (30116, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30116, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30116, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (30116, 008 /* ICON_DID */, 100674739)
-     , (30116, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30116, 028 /* SPELL_DID */, 2053 /* ArmorSelf7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30116', 'gemrareeternalarmor', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30116, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (30116, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (30116, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30116, 008 /* MASS_INT */, 5)
-     , (30116, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30116, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30116, 012 /* STACK_SIZE_INT */, 1)
-     , (30116, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30116, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30116, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30116, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30116, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (30116, 019 /* VALUE_INT */, 0)
-     , (30116, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30116, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30116, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30116, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30116,   1,       2048) /* ItemType - Gem */
+     , (30116,   3,         39) /* PaletteTemplate - Black */
+     , (30116,   5,          5) /* EncumbranceVal */
+     , (30116,   8,          5) /* Mass */
+     , (30116,   9,          0) /* ValidLocations - None */
+     , (30116,  11,          1) /* MaxStackSize */
+     , (30116,  12,          1) /* StackSize */
+     , (30116,  13,          5) /* StackUnitEncumbrance */
+     , (30116,  14,          5) /* StackUnitMass */
+     , (30116,  15,          0) /* StackUnitValue */
+     , (30116,  16,          8) /* ItemUseable - Contained */
+     , (30116,  18,          1) /* UiEffects - Magical */
+     , (30116,  19,          0) /* Value */
+     , (30116,  93,       1044) /* PhysicsState */
+     , (30116,  94,         16) /* TargetType - Creature */
+     , (30116, 150,        103) /* HookPlacement - Hook */
+     , (30116, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30116, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30116,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30116,   1, 'Ideograph of Armor') /* Name */
+     , (30116,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30116,   1,   33554809) /* Setup */
+     , (30116,   3,  536870932) /* SoundTable */
+     , (30116,   6,   67111919) /* PaletteBase */
+     , (30116,   7,  268435723) /* ClothingBase */
+     , (30116,   8,  100674739) /* Icon */
+     , (30116,  22,  872415275) /* PhysicsEffectTable */
+     , (30116,  28,       2053) /* Spell - Executor's Blessing */;

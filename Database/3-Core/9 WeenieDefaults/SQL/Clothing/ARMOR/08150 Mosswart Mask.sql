@@ -1,49 +1,45 @@
-/* Weenie - Mosswart Mask (8150) */
-DELETE FROM weenie WHERE class_Id = 8150;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8150, 'maskmosswart', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8150, 001 /* NAME_STRING */, 'Mosswart Mask')
-     , (8150, 016 /* LONG_DESC_STRING */, 'A finely sewed and cured Mosswart head, complete with cushions around the neck for active use.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8150, 001 /* SETUP_DID */, 33556824)
-     , (8150, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8150, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (8150, 007 /* CLOTHINGBASE_DID */, 268436052)
-     , (8150, 008 /* ICON_DID */, 100671024)
-     , (8150, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8150', 'maskmosswart', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8150, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (8150, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (8150, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (8150, 005 /* ENCUMB_VAL_INT */, 150)
-     , (8150, 008 /* MASS_INT */, 75)
-     , (8150, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (8150, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8150, 019 /* VALUE_INT */, 200)
-     , (8150, 027 /* ARMOR_TYPE_INT */, 2)
-     , (8150, 028 /* ARMOR_LEVEL_INT */, 10)
-     , (8150, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8150, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8150, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8150, 012 /* SHADE_FLOAT */, 0.66)
-     , (8150, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.5)
-     , (8150, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.4)
-     , (8150, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.4)
-     , (8150, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (8150, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (8150, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.75)
-     , (8150, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.35)
-     , (8150, 110 /* BULK_MOD_FLOAT */, 1)
-     , (8150, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (8150,   1,          2) /* ItemType - Armor */
+     , (8150,   3,          4) /* PaletteTemplate - Brown */
+     , (8150,   4,      16384) /* ClothingPriority - Head */
+     , (8150,   5,        150) /* EncumbranceVal */
+     , (8150,   8,         75) /* Mass */
+     , (8150,   9,          1) /* ValidLocations - HeadWear */
+     , (8150,  16,          1) /* ItemUseable - No */
+     , (8150,  19,        200) /* Value */
+     , (8150,  27,          2) /* ArmorType */
+     , (8150,  28,         10) /* ArmorLevel */
+     , (8150,  93,       1044) /* PhysicsState */
+     , (8150, 150,        103) /* HookPlacement - Hook */
+     , (8150, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8150, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8150, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8150,  22, True ) /* Inscribable */
+     , (8150,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8150,  12,    0.66) /* Shade */
+     , (8150,  13,     0.5) /* ArmorModVsSlash */
+     , (8150,  14,     0.4) /* ArmorModVsPierce */
+     , (8150,  15,     0.4) /* ArmorModVsBludgeon */
+     , (8150,  16,     0.6) /* ArmorModVsCold */
+     , (8150,  17,     0.2) /* ArmorModVsFire */
+     , (8150,  18,    0.75) /* ArmorModVsAcid */
+     , (8150,  19,    0.35) /* ArmorModVsElectric */
+     , (8150, 110,       1) /* BulkMod */
+     , (8150, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8150,   1, 'Mosswart Mask') /* Name */
+     , (8150,  16, 'A finely sewed and cured Mosswart head, complete with cushions around the neck for active use.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8150,   1,   33556824) /* Setup */
+     , (8150,   3,  536870932) /* SoundTable */
+     , (8150,   6,   67108990) /* PaletteBase */
+     , (8150,   7,  268436052) /* ClothingBase */
+     , (8150,   8,  100671024) /* Icon */
+     , (8150,  22,  872415275) /* PhysicsEffectTable */;

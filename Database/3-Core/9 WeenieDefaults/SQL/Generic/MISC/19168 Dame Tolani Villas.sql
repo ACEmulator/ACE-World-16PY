@@ -1,28 +1,24 @@
-/* Weenie - Dame Tolani Villas (19168) */
-DELETE FROM weenie WHERE class_Id = 19168;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19168, 'dametolanivillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19168, 001 /* NAME_STRING */, 'Dame Tolani Villas')
-     , (19168, 016 /* LONG_DESC_STRING */, 'Welcome to Dame Tolani Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19168, 001 /* SETUP_DID */, 33557463)
-     , (19168, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19168', 'dametolanivillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19168, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19168, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (19168, 008 /* MASS_INT */, 1800)
-     , (19168, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19168, 019 /* VALUE_INT */, 125)
-     , (19168, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (19168,   1,        128) /* ItemType - Misc */
+     , (19168,   5,       9000) /* EncumbranceVal */
+     , (19168,   8,       1800) /* Mass */
+     , (19168,  16,          1) /* ItemUseable - No */
+     , (19168,  19,        125) /* Value */
+     , (19168,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19168, 001 /* STUCK_BOOL */, True)
-     , (19168, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (19168, 013 /* ETHEREAL_BOOL */, False)
-     , (19168, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (19168,   1, True ) /* Stuck */
+     , (19168,  12, True ) /* ReportCollisions */
+     , (19168,  13, False) /* Ethereal */
+     , (19168,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19168,   1, 'Dame Tolani Villas') /* Name */
+     , (19168,  16, 'Welcome to Dame Tolani Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19168,   1,   33557463) /* Setup */
+     , (19168,   8,  100668115) /* Icon */;

@@ -1,64 +1,60 @@
-/* Weenie - Superior Sparking Atlan Axe (6159) */
-DELETE FROM weenie WHERE class_Id = 6159;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6159, 'axebettersparkingminor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6159, 001 /* NAME_STRING */, 'Superior Sparking Atlan Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6159, 001 /* SETUP_DID */, 33556306)
-     , (6159, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6159, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6159, 007 /* CLOTHINGBASE_DID */, 268435885)
-     , (6159, 008 /* ICON_DID */, 100670511)
-     , (6159, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6159, 037 /* ITEM_SKILL_LIMIT_DID */, 1);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6159', 'axebettersparkingminor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6159, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6159, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (6159, 005 /* ENCUMB_VAL_INT */, 800)
-     , (6159, 008 /* MASS_INT */, 800)
-     , (6159, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6159, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6159, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6159, 019 /* VALUE_INT */, 4000)
-     , (6159, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6159, 044 /* DAMAGE_INT */, 19)
-     , (6159, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (6159, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6159, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (6159, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (6159, 049 /* WEAPON_TIME_INT */, 55)
-     , (6159, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6159, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6159, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (6159, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (6159, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (6159, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200)
-     , (6159, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6159, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6159, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (6159, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (6159, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (6159, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (6159, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6159, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05);
+VALUES (6159,   1,          1) /* ItemType - MeleeWeapon */
+     , (6159,   3,         13) /* PaletteTemplate - Purple */
+     , (6159,   5,        800) /* EncumbranceVal */
+     , (6159,   8,        800) /* Mass */
+     , (6159,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6159,  16,          1) /* ItemUseable - No */
+     , (6159,  18,          1) /* UiEffects - Magical */
+     , (6159,  19,       4000) /* Value */
+     , (6159,  33,          1) /* Bonded - Bonded */
+     , (6159,  44,         19) /* Damage */
+     , (6159,  45,         64) /* DamageType - Electric */
+     , (6159,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6159,  47,          4) /* AttackType - Slash */
+     , (6159,  48,          1) /* WeaponSkill - Axe */
+     , (6159,  49,         55) /* WeaponTime */
+     , (6159,  51,          1) /* CombatUse - Melee */
+     , (6159,  93,       1044) /* PhysicsState */
+     , (6159, 106,        100) /* ItemSpellcraft */
+     , (6159, 107,        500) /* ItemCurMana */
+     , (6159, 108,        500) /* ItemMaxMana */
+     , (6159, 115,        200) /* ItemSkillLevelLimit */
+     , (6159, 150,        103) /* HookPlacement - Hook */
+     , (6159, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6159, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6159, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6159, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6159,  22, True ) /* Inscribable */
+     , (6159,  23, True ) /* DestroyOnSell */
+     , (6159,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6159,   5,  -0.025) /* ManaRate */
+     , (6159,  21,    0.75) /* WeaponLength */
+     , (6159,  22,     0.5) /* DamageVariance */
+     , (6159,  29,    1.05) /* WeaponDefense */
+     , (6159,  39,       1) /* DefaultScale */
+     , (6159,  62,    1.05) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6159,   1, 'Superior Sparking Atlan Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6159,   1,   33556306) /* Setup */
+     , (6159,   3,  536870932) /* SoundTable */
+     , (6159,   6,   67111919) /* PaletteBase */
+     , (6159,   7,  268435885) /* ClothingBase */
+     , (6159,   8,  100670511) /* Icon */
+     , (6159,  22,  872415275) /* PhysicsEffectTable */
+     , (6159,  37,          1) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6159, 1351, 2) /* EnduranceSelf3_SpellID */
-     , (6159, 1602, 2) /* Defender3_SpellID */
-     , (6159, 1589, 2) /* HeartSeeker3_SpellID */
-     , (6159, 1613, 2) /* BloodDrinker3_SpellID */
-     , (6159, 1624, 2) /* SwiftKiller3_SpellID */
-     , (6159, 1068, 2) /* LightningProtectionSelf3_SpellID */;
-
+VALUES (6159,  1068,      2)  /* Lightning Protection Self III */
+     , (6159,  1351,      2)  /* Endurance Self III */
+     , (6159,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (6159,  1602,      2)  /* Aura of Defender Self III */
+     , (6159,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6159,  1624,      2)  /* Aura of Swift Killer Self III */;

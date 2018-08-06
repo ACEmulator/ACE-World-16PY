@@ -1,37 +1,34 @@
-/* Weenie - Shard Vigil Memorial (9002) */
-DELETE FROM weenie WHERE class_Id = 9002;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9002, 'monumentthistledown', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9002, 001 /* NAME_STRING */, 'Shard Vigil Memorial');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9002, 001 /* SETUP_DID */, 33556953)
-     , (9002, 008 /* ICON_DID */, 100671330);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9002', 'monumentthistledown', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9002, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (9002, 005 /* ENCUMB_VAL_INT */, 10000)
-     , (9002, 008 /* MASS_INT */, 10000)
-     , (9002, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (9002, 019 /* VALUE_INT */, 0)
-     , (9002, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9002, 095 /* RADARBLIP_COLOR_INT */, 8 /* Yellow */)
-     , (9002, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9002, 054 /* USE_RADIUS_FLOAT */, 5);
+VALUES (9002,   1,       8192) /* ItemType - Writable */
+     , (9002,   5,      10000) /* EncumbranceVal */
+     , (9002,   8,      10000) /* Mass */
+     , (9002,  16,         48) /* ItemUseable - ViewedRemote */
+     , (9002,  19,          0) /* Value */
+     , (9002,  93,       1048) /* PhysicsState */
+     , (9002,  95,          8) /* RadarBlipColor - Yellow */
+     , (9002, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9002, 001 /* STUCK_BOOL */, True)
-     , (9002, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (9002, 013 /* ETHEREAL_BOOL */, False)
-     , (9002, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (9002,   1, True ) /* Stuck */
+     , (9002,  12, True ) /* ReportCollisions */
+     , (9002,  13, False) /* Ethereal */
+     , (9002,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9002,  54,       5) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9002,   1, 'Shard Vigil Memorial') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9002,   1,   33556953) /* Setup */
+     , (9002,   8,  100671330) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (9002, 9, 1000) /* Book Data */;
+VALUES (9002, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (9002, 0, 4294967295, 'The Vigilant', 'prewritten', False, 'Upon this marker may be found the names of the known defenders of the Shard of the Herald, henceforth to be honorably known as The Vigilant. Throughout the month of Leafcull, Portal Year 11, these individuals defended the final Soul Crystal in defiance of the Shadows and their human servants. Regardless of the hour or other demands on their time, they kept their vigil; a flame to keep the night at bay.
@@ -161,4 +158,3 @@ Visioth Razorwind
 Vuln
 Walim
 ');
-

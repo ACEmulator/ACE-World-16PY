@@ -1,46 +1,42 @@
-/* Weenie - Club (3943) */
-DELETE FROM weenie WHERE class_Id = 3943;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3943, 'monougaclub', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3943, 001 /* NAME_STRING */, 'Club');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3943, 001 /* SETUP_DID */, 33554731)
-     , (3943, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3943, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3943, 007 /* CLOTHINGBASE_DID */, 268435761)
-     , (3943, 008 /* ICON_DID */, 100668855)
-     , (3943, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3943, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3943', 'monougaclub', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3943, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3943, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (3943, 005 /* ENCUMB_VAL_INT */, 350)
-     , (3943, 008 /* MASS_INT */, 140)
-     , (3943, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3943, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3943, 019 /* VALUE_INT */, 230)
-     , (3943, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (3943, 044 /* DAMAGE_INT */, 6)
-     , (3943, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (3943, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3943, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (3943, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (3943, 049 /* WEAPON_TIME_INT */, 40)
-     , (3943, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3943, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3943, 021 /* WEAPON_LENGTH_FLOAT */, 0.68)
-     , (3943, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3943, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3943, 039 /* DEFAULT_SCALE_FLOAT */, 2)
-     , (3943, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3943,   1,          1) /* ItemType - MeleeWeapon */
+     , (3943,   3,          4) /* PaletteTemplate - Brown */
+     , (3943,   5,        350) /* EncumbranceVal */
+     , (3943,   8,        140) /* Mass */
+     , (3943,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3943,  16,          1) /* ItemUseable - No */
+     , (3943,  19,        230) /* Value */
+     , (3943,  33,         -2) /* Bonded - Destroy */
+     , (3943,  44,          6) /* Damage */
+     , (3943,  45,          4) /* DamageType - Bludgeon */
+     , (3943,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3943,  47,          4) /* AttackType - Slash */
+     , (3943,  48,          5) /* WeaponSkill - Mace */
+     , (3943,  49,         40) /* WeaponTime */
+     , (3943,  51,          1) /* CombatUse - Melee */
+     , (3943,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3943, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3943,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3943,  21,    0.68) /* WeaponLength */
+     , (3943,  22,     0.5) /* DamageVariance */
+     , (3943,  29,       1) /* WeaponDefense */
+     , (3943,  39,       2) /* DefaultScale */
+     , (3943,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3943,   1, 'Club') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3943,   1,   33554731) /* Setup */
+     , (3943,   3,  536870932) /* SoundTable */
+     , (3943,   6,   67111919) /* PaletteBase */
+     , (3943,   7,  268435761) /* ClothingBase */
+     , (3943,   8,  100668855) /* Icon */
+     , (3943,  22,  872415275) /* PhysicsEffectTable */
+     , (3943,  36,  234881044) /* MutateFilter */;

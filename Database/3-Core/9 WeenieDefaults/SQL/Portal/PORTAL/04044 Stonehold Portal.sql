@@ -1,34 +1,30 @@
-/* Weenie - Stonehold Portal (4044) */
-DELETE FROM weenie WHERE class_Id = 4044;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4044, 'portalstonehold', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4044, 001 /* NAME_STRING */, 'Stonehold Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4044, 001 /* SETUP_DID */, 33554867)
-     , (4044, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (4044, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4044', 'portalstonehold', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4044, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (4044, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (4044, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (4044, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (4044, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4044, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (4044,   1,      65536) /* ItemType - Portal */
+     , (4044,  16,         32) /* ItemUseable - Remote */
+     , (4044,  93,       3084) /* PhysicsState */
+     , (4044, 111,          1) /* PortalBitmask - Unrestricted */
+     , (4044, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4044, 001 /* STUCK_BOOL */, True)
-     , (4044, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (4044, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4044, 013 /* ETHEREAL_BOOL */, True)
-     , (4044, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (4044,   1, True ) /* Stuck */
+     , (4044,  11, False) /* IgnoreCollisions */
+     , (4044,  12, True ) /* ReportCollisions */
+     , (4044,  13, True ) /* Ethereal */
+     , (4044,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4044,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4044,   1, 'Stonehold Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4044,   1,   33554867) /* Setup */
+     , (4044,   2,  150994947) /* MotionTable */
+     , (4044,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4044, 2, 1691680779, 30, 50, 78, 0.8433914, 0, 0, -0.5372996) /* DESTINATION_POSITION */;
-
+VALUES (4044, 2, 1691680779, 30, 50, 78, 0.8433914, 0, 0, -0.5372996) /* Destination */;

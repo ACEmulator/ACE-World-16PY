@@ -1,35 +1,32 @@
-/* Weenie - Call for Adventurers! (8209) */
-DELETE FROM weenie WHERE class_Id = 8209;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8209, 'bulletinxara', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8209, 001 /* NAME_STRING */, 'Call for Adventurers!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8209, 001 /* SETUP_DID */, 33554773)
-     , (8209, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8209, 008 /* ICON_DID */, 100668176)
-     , (8209, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8209', 'bulletinxara', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8209, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8209, 005 /* ENCUMB_VAL_INT */, 25)
-     , (8209, 008 /* MASS_INT */, 5)
-     , (8209, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8209, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8209, 019 /* VALUE_INT */, 10)
-     , (8209, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8209, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8209,   1,       8192) /* ItemType - Writable */
+     , (8209,   5,         25) /* EncumbranceVal */
+     , (8209,   8,          5) /* Mass */
+     , (8209,   9,          0) /* ValidLocations - None */
+     , (8209,  16,          8) /* ItemUseable - Contained */
+     , (8209,  19,         10) /* Value */
+     , (8209,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8209, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8209,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8209,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8209,   1, 'Call for Adventurers!') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8209,   1,   33554773) /* Setup */
+     , (8209,   3,  536870932) /* SoundTable */
+     , (8209,   8,  100668176) /* Icon */
+     , (8209,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8209, 1, 1000) /* Book Data */;
+VALUES (8209, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8209, 0, 4294967295, 'Fazyad ibn Raymar', 'prewritten', False, 'To all who wander the empty beauty of the great A''mun, I send greetings.
@@ -40,4 +37,3 @@ Interested parties should travel to the town''s entrance portal at 16.2E by 41.9
 
 - Fazyad ibn Raymar, Bey of Xarabydun
 ');
-

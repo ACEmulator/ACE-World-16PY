@@ -1,29 +1,25 @@
-/* Weenie - Olthoi Head (19446) */
-DELETE FROM weenie WHERE class_Id = 19446;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19446, 'olthoihead-noselect', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19446, 001 /* NAME_STRING */, 'Olthoi Head');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19446, 001 /* SETUP_DID */, 33557719)
-     , (19446, 008 /* ICON_DID */, 100670057);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19446', 'olthoihead-noselect', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19446, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19446, 005 /* ENCUMB_VAL_INT */, 180)
-     , (19446, 008 /* MASS_INT */, 90)
-     , (19446, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19446, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19446, 019 /* VALUE_INT */, 0)
-     , (19446, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19446, 044 /* TIME_TO_ROT_FLOAT */, 0);
+VALUES (19446,   1,        128) /* ItemType - Misc */
+     , (19446,   5,        180) /* EncumbranceVal */
+     , (19446,   8,         90) /* Mass */
+     , (19446,   9,          0) /* ValidLocations - None */
+     , (19446,  16,          1) /* ItemUseable - No */
+     , (19446,  19,          0) /* Value */
+     , (19446,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19446, 001 /* STUCK_BOOL */, True)
-     , (19446, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (19446,   1, True ) /* Stuck */
+     , (19446,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19446,  44,       0) /* TimeToRot */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19446,   1, 'Olthoi Head') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19446,   1,   33557719) /* Setup */
+     , (19446,   8,  100670057) /* Icon */;

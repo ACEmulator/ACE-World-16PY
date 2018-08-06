@@ -1,31 +1,27 @@
-/* Weenie - Into the Unknown (249) */
-DELETE FROM weenie WHERE class_Id = 249;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (249, 'painting3', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (249, 001 /* NAME_STRING */, 'Into the Unknown')
-     , (249, 015 /* SHORT_DESC_STRING */, 'This item can be used on an item hook.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (249, 001 /* SETUP_DID */, 33557343)
-     , (249, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (249, 008 /* ICON_DID */, 100672345)
-     , (249, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('249', 'painting3', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (249, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (249, 005 /* ENCUMB_VAL_INT */, 5000)
-     , (249, 008 /* MASS_INT */, 25)
-     , (249, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (249, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (249, 019 /* VALUE_INT */, 12904)
-     , (249, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (249, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (249, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (249,   1,        128) /* ItemType - Misc */
+     , (249,   5,       5000) /* EncumbranceVal */
+     , (249,   8,         25) /* Mass */
+     , (249,   9,          0) /* ValidLocations - None */
+     , (249,  16,          1) /* ItemUseable - No */
+     , (249,  19,      12904) /* Value */
+     , (249,  93,       1044) /* PhysicsState */
+     , (249, 150,        103) /* HookPlacement - Hook */
+     , (249, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (249, 013 /* ETHEREAL_BOOL */, True)
-     , (249, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (249,  13, True ) /* Ethereal */
+     , (249,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (249,   1, 'Into the Unknown') /* Name */
+     , (249,  15, 'This item can be used on an item hook.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (249,   1,   33557343) /* Setup */
+     , (249,   3,  536870932) /* SoundTable */
+     , (249,   8,  100672345) /* Icon */
+     , (249,  22,  872415275) /* PhysicsEffectTable */;

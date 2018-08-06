@@ -1,28 +1,24 @@
-/* Weenie - Helms Villas (14309) */
-DELETE FROM weenie WHERE class_Id = 14309;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14309, 'helmsvillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14309, 001 /* NAME_STRING */, 'Helms Villas')
-     , (14309, 016 /* LONG_DESC_STRING */, 'Welcome to Helms Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14309, 001 /* SETUP_DID */, 33557463)
-     , (14309, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14309', 'helmsvillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14309, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14309, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14309, 008 /* MASS_INT */, 1800)
-     , (14309, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14309, 019 /* VALUE_INT */, 125)
-     , (14309, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14309,   1,        128) /* ItemType - Misc */
+     , (14309,   5,       9000) /* EncumbranceVal */
+     , (14309,   8,       1800) /* Mass */
+     , (14309,  16,          1) /* ItemUseable - No */
+     , (14309,  19,        125) /* Value */
+     , (14309,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14309, 001 /* STUCK_BOOL */, True)
-     , (14309, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14309, 013 /* ETHEREAL_BOOL */, False)
-     , (14309, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14309,   1, True ) /* Stuck */
+     , (14309,  12, True ) /* ReportCollisions */
+     , (14309,  13, False) /* Ethereal */
+     , (14309,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14309,   1, 'Helms Villas') /* Name */
+     , (14309,  16, 'Welcome to Helms Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14309,   1,   33557463) /* Setup */
+     , (14309,   8,  100668115) /* Icon */;

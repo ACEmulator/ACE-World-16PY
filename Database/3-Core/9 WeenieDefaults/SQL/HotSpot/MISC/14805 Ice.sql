@@ -1,43 +1,39 @@
-/* Weenie - Ice (14805) */
-DELETE FROM weenie WHERE class_Id = 14805;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14805, 'icefloor', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14805, 001 /* NAME_STRING */, 'Ice')
-     , (14805, 017 /* ACTIVATION_TALK_STRING */, 'You suffer %i damage from freezing cold!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14805, 001 /* SETUP_DID */, 33557492)
-     , (14805, 003 /* SOUND_TABLE_DID */, 536870994)
-     , (14805, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14805', 'icefloor', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14805, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14805, 005 /* ENCUMB_VAL_INT */, 1)
-     , (14805, 008 /* MASS_INT */, 1)
-     , (14805, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14805, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14805, 019 /* VALUE_INT */, 1)
-     , (14805, 044 /* DAMAGE_INT */, 100)
-     , (14805, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (14805, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (14805, 119 /* ACTIVE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14805, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.15)
-     , (14805, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (14805, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 3)
-     , (14805, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0.2);
+VALUES (14805,   1,        128) /* ItemType - Misc */
+     , (14805,   5,          1) /* EncumbranceVal */
+     , (14805,   8,          1) /* Mass */
+     , (14805,   9,          0) /* ValidLocations - None */
+     , (14805,  16,          1) /* ItemUseable - No */
+     , (14805,  19,          1) /* Value */
+     , (14805,  44,        100) /* Damage */
+     , (14805,  45,          8) /* DamageType - Cold */
+     , (14805,  93,         12) /* PhysicsState */
+     , (14805, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14805, 001 /* STUCK_BOOL */, True)
-     , (14805, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14805, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14805, 013 /* ETHEREAL_BOOL */, True)
-     , (14805, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (14805, 024 /* UI_HIDDEN_BOOL */, True)
-     , (14805, 055 /* IS_HOT_BOOL */, True)
-     , (14805, 057 /* AFFECTS_AIS_BOOL */, False);
+VALUES (14805,   1, True ) /* Stuck */
+     , (14805,  11, False) /* IgnoreCollisions */
+     , (14805,  12, True ) /* ReportCollisions */
+     , (14805,  13, True ) /* Ethereal */
+     , (14805,  14, False) /* GravityStatus */
+     , (14805,  24, True ) /* UiHidden */
+     , (14805,  55, True ) /* IsHot */
+     , (14805,  57, False) /* AffectsAis */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14805,  22,    0.15) /* DamageVariance */
+     , (14805,  39,       1) /* DefaultScale */
+     , (14805, 105,       3) /* HotspotCycleTime */
+     , (14805, 106,     0.2) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14805,   1, 'Ice') /* Name */
+     , (14805,  17, 'You suffer %i damage from freezing cold!') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14805,   1,   33557492) /* Setup */
+     , (14805,   3,  536870994) /* SoundTable */
+     , (14805,   8,  100667465) /* Icon */;

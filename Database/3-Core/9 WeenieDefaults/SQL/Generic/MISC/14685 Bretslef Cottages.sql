@@ -1,28 +1,24 @@
-/* Weenie - Bretslef Cottages (14685) */
-DELETE FROM weenie WHERE class_Id = 14685;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14685, 'bretslefcottagessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14685, 001 /* NAME_STRING */, 'Bretslef Cottages')
-     , (14685, 016 /* LONG_DESC_STRING */, 'Welcome to Bretslef Cottages');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14685, 001 /* SETUP_DID */, 33557463)
-     , (14685, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14685', 'bretslefcottagessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14685, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14685, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14685, 008 /* MASS_INT */, 1800)
-     , (14685, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14685, 019 /* VALUE_INT */, 125)
-     , (14685, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14685,   1,        128) /* ItemType - Misc */
+     , (14685,   5,       9000) /* EncumbranceVal */
+     , (14685,   8,       1800) /* Mass */
+     , (14685,  16,          1) /* ItemUseable - No */
+     , (14685,  19,        125) /* Value */
+     , (14685,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14685, 001 /* STUCK_BOOL */, True)
-     , (14685, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14685, 013 /* ETHEREAL_BOOL */, False)
-     , (14685, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14685,   1, True ) /* Stuck */
+     , (14685,  12, True ) /* ReportCollisions */
+     , (14685,  13, False) /* Ethereal */
+     , (14685,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14685,   1, 'Bretslef Cottages') /* Name */
+     , (14685,  16, 'Welcome to Bretslef Cottages') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14685,   1,   33557463) /* Setup */
+     , (14685,   8,  100668115) /* Icon */;

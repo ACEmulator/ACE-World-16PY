@@ -1,44 +1,40 @@
-/* Weenie - Mu-miyah Torso with an Arm (22094) */
-DELETE FROM weenie WHERE class_Id = 22094;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22094, 'headarmmummy', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22094, 001 /* NAME_STRING */, 'Mu-miyah Torso with an Arm');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22094, 001 /* SETUP_DID */, 33558019)
-     , (22094, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22094, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (22094, 007 /* CLOTHINGBASE_DID */, 268436476)
-     , (22094, 008 /* ICON_DID */, 100673687)
-     , (22094, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22094', 'headarmmummy', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22094, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22094, 003 /* PALETTE_TEMPLATE_INT */, 46 /* TAN_PALETTE_TEMPLATE */)
-     , (22094, 005 /* ENCUMB_VAL_INT */, 800)
-     , (22094, 008 /* MASS_INT */, 800)
-     , (22094, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22094, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (22094, 012 /* STACK_SIZE_INT */, 1)
-     , (22094, 013 /* STACK_UNIT_ENCUMB_INT */, 800)
-     , (22094, 014 /* STACK_UNIT_MASS_INT */, 800)
-     , (22094, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (22094, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22094, 019 /* VALUE_INT */, 0)
-     , (22094, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
-     , (22094, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22094, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
-     , (22094, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22094, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22094, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
+VALUES (22094,   1,        128) /* ItemType - Misc */
+     , (22094,   3,         46) /* PaletteTemplate - Tan */
+     , (22094,   5,        800) /* EncumbranceVal */
+     , (22094,   8,        800) /* Mass */
+     , (22094,   9,          0) /* ValidLocations - None */
+     , (22094,  11,          1) /* MaxStackSize */
+     , (22094,  12,          1) /* StackSize */
+     , (22094,  13,        800) /* StackUnitEncumbrance */
+     , (22094,  14,        800) /* StackUnitMass */
+     , (22094,  15,          0) /* StackUnitValue */
+     , (22094,  16,          1) /* ItemUseable - No */
+     , (22094,  19,          0) /* Value */
+     , (22094,  33,          0) /* Bonded - Normal */
+     , (22094,  93,       1044) /* PhysicsState */
+     , (22094, 114,          0) /* Attuned - Normal */
+     , (22094, 150,        103) /* HookPlacement - Hook */
+     , (22094, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22094, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22094, 023 /* DESTROY_ON_SELL_BOOL */, False)
-     , (22094, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (22094,  22, True ) /* Inscribable */
+     , (22094,  23, False) /* DestroyOnSell */
+     , (22094,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22094,  39,     0.8) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22094,   1, 'Mu-miyah Torso with an Arm') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22094,   1,   33558019) /* Setup */
+     , (22094,   3,  536870932) /* SoundTable */
+     , (22094,   6,   67108990) /* PaletteBase */
+     , (22094,   7,  268436476) /* ClothingBase */
+     , (22094,   8,  100673687) /* Icon */
+     , (22094,  22,  872415275) /* PhysicsEffectTable */;

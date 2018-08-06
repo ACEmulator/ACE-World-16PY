@@ -1,57 +1,53 @@
-/* Weenie - Reinforced Gromnie Spear (11778) */
-DELETE FROM weenie WHERE class_Id = 11778;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11778, 'bannerreinforcedspeargromnie', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11778, 001 /* NAME_STRING */, 'Reinforced Gromnie Spear')
-     , (11778, 015 /* SHORT_DESC_STRING */, 'A reinforced, spear-tipped banner with a gromnie on it.')
-     , (11778, 016 /* LONG_DESC_STRING */, 'A reinforced, spear-tipped banner with a gromnie on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the gromnie, it almost seems to be gazing back.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11778, 001 /* SETUP_DID */, 33557254)
-     , (11778, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11778, 006 /* PALETTE_BASE_DID */, 67113338)
-     , (11778, 007 /* CLOTHINGBASE_DID */, 268436210)
-     , (11778, 008 /* ICON_DID */, 100671931)
-     , (11778, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11778', 'bannerreinforcedspeargromnie', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11778, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (11778, 005 /* ENCUMB_VAL_INT */, 400)
-     , (11778, 008 /* MASS_INT */, 500)
-     , (11778, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (11778, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11778, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (11778, 019 /* VALUE_INT */, 0)
-     , (11778, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11778, 044 /* DAMAGE_INT */, 15)
-     , (11778, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (11778, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (11778, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (11778, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (11778, 049 /* WEAPON_TIME_INT */, 30)
-     , (11778, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (11778, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11778, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (11778, 107 /* ITEM_CUR_MANA_INT */, 0)
-     , (11778, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (11778, 109 /* ITEM_DIFFICULTY_INT */, 90)
-     , (11778, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11778, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (11778, 021 /* WEAPON_LENGTH_FLOAT */, 1.3)
-     , (11778, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.66)
-     , (11778, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (11778, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (11778,   1,          1) /* ItemType - MeleeWeapon */
+     , (11778,   5,        400) /* EncumbranceVal */
+     , (11778,   8,        500) /* Mass */
+     , (11778,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (11778,  16,          1) /* ItemUseable - No */
+     , (11778,  18,          1) /* UiEffects - Magical */
+     , (11778,  19,          0) /* Value */
+     , (11778,  33,          1) /* Bonded - Bonded */
+     , (11778,  44,         15) /* Damage */
+     , (11778,  45,          2) /* DamageType - Pierce */
+     , (11778,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (11778,  47,          2) /* AttackType - Thrust */
+     , (11778,  48,          9) /* WeaponSkill - Spear */
+     , (11778,  49,         30) /* WeaponTime */
+     , (11778,  51,          1) /* CombatUse - Melee */
+     , (11778,  93,       1044) /* PhysicsState */
+     , (11778, 106,        200) /* ItemSpellcraft */
+     , (11778, 107,          0) /* ItemCurMana */
+     , (11778, 108,        600) /* ItemMaxMana */
+     , (11778, 109,         90) /* ItemDifficulty */
+     , (11778, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11778, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11778, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (11778, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (11778,  22, True ) /* Inscribable */
+     , (11778,  23, True ) /* DestroyOnSell */
+     , (11778,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11778,   5,    -0.1) /* ManaRate */
+     , (11778,  21,     1.3) /* WeaponLength */
+     , (11778,  22,    0.66) /* DamageVariance */
+     , (11778,  29,       1) /* WeaponDefense */
+     , (11778,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11778,   1, 'Reinforced Gromnie Spear') /* Name */
+     , (11778,  15, 'A reinforced, spear-tipped banner with a gromnie on it.') /* ShortDesc */
+     , (11778,  16, 'A reinforced, spear-tipped banner with a gromnie on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the gromnie, it almost seems to be gazing back.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11778,   1,   33557254) /* Setup */
+     , (11778,   3,  536870932) /* SoundTable */
+     , (11778,   6,   67113338) /* PaletteBase */
+     , (11778,   7,  268436210) /* ClothingBase */
+     , (11778,   8,  100671931) /* Icon */
+     , (11778,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11778, 1311, 2) /* ArmorSelf5_SpellID */;
-
+VALUES (11778,  1311,      2)  /* Armor Self V */;

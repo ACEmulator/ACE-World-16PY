@@ -1,36 +1,33 @@
-/* Weenie - Holtburg Information Guide (8756) */
-DELETE FROM weenie WHERE class_Id = 8756;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8756, 'bookportallistholtburg', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8756, 001 /* NAME_STRING */, 'Holtburg Information Guide')
-     , (8756, 015 /* SHORT_DESC_STRING */, 'A book listing the portals around Holtburg leading to other towns and where the Holtburg stamp can be found.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8756, 001 /* SETUP_DID */, 33554771)
-     , (8756, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8756, 008 /* ICON_DID */, 100668117)
-     , (8756, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8756', 'bookportallistholtburg', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8756, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8756, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8756, 008 /* MASS_INT */, 200)
-     , (8756, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8756, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8756, 019 /* VALUE_INT */, 0)
-     , (8756, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8756, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8756,   1,       8192) /* ItemType - Writable */
+     , (8756,   5,         10) /* EncumbranceVal */
+     , (8756,   8,        200) /* Mass */
+     , (8756,   9,          0) /* ValidLocations - None */
+     , (8756,  16,          8) /* ItemUseable - Contained */
+     , (8756,  19,          0) /* Value */
+     , (8756,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8756, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8756,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8756,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8756,   1, 'Holtburg Information Guide') /* Name */
+     , (8756,  15, 'A book listing the portals around Holtburg leading to other towns and where the Holtburg stamp can be found.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8756,   1,   33554771) /* Setup */
+     , (8756,   3,  536870932) /* SoundTable */
+     , (8756,   8,  100668117) /* Icon */
+     , (8756,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8756, 1, 1000) /* Book Data */;
+VALUES (8756, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8756, 0, 4294967295, '', 'prewritten', False, 'Holtburg 42.3 N 33.6 E
@@ -40,4 +37,3 @@ Holtburg South Outpost 39.5 N 33.3 E
 Holtburg West Outpost 42.3 N 30.7 E
 Location of the Holtburg Town Stamp: Cave of Alabree Portal 42.3 N 29.3 E
 ');
-

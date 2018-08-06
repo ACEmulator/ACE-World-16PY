@@ -1,49 +1,45 @@
-/* Weenie - Elysa's Band (27112) */
-DELETE FROM weenie WHERE class_Id = 27112;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27112, 'ringelysaband2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27112, 001 /* NAME_STRING */, 'Elysa''s Band')
-     , (27112, 016 /* LONG_DESC_STRING */, 'A vibrant ring given as a reward for finding out information of the new creatures that have come to Dereth.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27112, 001 /* SETUP_DID */, 33554691)
-     , (27112, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27112, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27112, 007 /* CLOTHINGBASE_DID */, 268436318)
-     , (27112, 008 /* ICON_DID */, 100675931)
-     , (27112, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27112', 'ringelysaband2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27112, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (27112, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (27112, 005 /* ENCUMB_VAL_INT */, 15)
-     , (27112, 008 /* MASS_INT */, 15)
-     , (27112, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (27112, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27112, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27112, 019 /* VALUE_INT */, 1000)
-     , (27112, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27112, 106 /* ITEM_SPELLCRAFT_INT */, 125)
-     , (27112, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (27112, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (27112, 109 /* ITEM_DIFFICULTY_INT */, 100)
-     , (27112, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27112, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27112, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (27112, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (27112, 160 /* WIELD_DIFFICULTY_INT */, 35);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27112, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (27112, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (27112,   1,          8) /* ItemType - Jewelry */
+     , (27112,   3,         21) /* PaletteTemplate - Gold */
+     , (27112,   5,         15) /* EncumbranceVal */
+     , (27112,   8,         15) /* Mass */
+     , (27112,   9,     786432) /* ValidLocations - FingerWear */
+     , (27112,  16,          1) /* ItemUseable - No */
+     , (27112,  18,          1) /* UiEffects - Magical */
+     , (27112,  19,       1000) /* Value */
+     , (27112,  93,       1044) /* PhysicsState */
+     , (27112, 106,        125) /* ItemSpellcraft */
+     , (27112, 107,        600) /* ItemCurMana */
+     , (27112, 108,        600) /* ItemMaxMana */
+     , (27112, 109,        100) /* ItemDifficulty */
+     , (27112, 150,        103) /* HookPlacement - Hook */
+     , (27112, 151,          2) /* HookType - Wall */
+     , (27112, 158,          7) /* WieldRequirements - Level */
+     , (27112, 159,          1) /* WieldSkilltype - Axe */
+     , (27112, 160,         35) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27112, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27112, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27112,  22, True ) /* Inscribable */
+     , (27112,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27112,   5,  -0.033) /* ManaRate */
+     , (27112,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27112,   1, 'Elysa''s Band') /* Name */
+     , (27112,  16, 'A vibrant ring given as a reward for finding out information of the new creatures that have come to Dereth.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27112,   1,   33554691) /* Setup */
+     , (27112,   3,  536870932) /* SoundTable */
+     , (27112,   6,   67111919) /* PaletteBase */
+     , (27112,   7,  268436318) /* ClothingBase */
+     , (27112,   8,  100675931) /* Icon */
+     , (27112,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27112, 242, 2) /* InvulnerabilityOther4_SpellID */;
-
+VALUES (27112,   242,      2)  /* Invulnerability Other IV */;

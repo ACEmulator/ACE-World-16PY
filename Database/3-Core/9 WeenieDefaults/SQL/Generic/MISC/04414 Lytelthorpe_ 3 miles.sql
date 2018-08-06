@@ -1,28 +1,24 @@
-/* Weenie - Lytelthorpe: 3 miles (4414) */
-DELETE FROM weenie WHERE class_Id = 4414;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4414, 'lytelthorpe3miles', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4414, 001 /* NAME_STRING */, 'Lytelthorpe: 3 miles')
-     , (4414, 016 /* LONG_DESC_STRING */, 'Town of Lytelthorpe: 3 miles');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4414, 001 /* SETUP_DID */, 33555984)
-     , (4414, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4414', 'lytelthorpe3miles', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4414, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4414, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4414, 008 /* MASS_INT */, 1800)
-     , (4414, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4414, 019 /* VALUE_INT */, 125)
-     , (4414, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4414,   1,        128) /* ItemType - Misc */
+     , (4414,   5,       9000) /* EncumbranceVal */
+     , (4414,   8,       1800) /* Mass */
+     , (4414,  16,          1) /* ItemUseable - No */
+     , (4414,  19,        125) /* Value */
+     , (4414,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4414, 001 /* STUCK_BOOL */, True)
-     , (4414, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4414, 013 /* ETHEREAL_BOOL */, False)
-     , (4414, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4414,   1, True ) /* Stuck */
+     , (4414,  12, True ) /* ReportCollisions */
+     , (4414,  13, False) /* Ethereal */
+     , (4414,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4414,   1, 'Lytelthorpe: 3 miles') /* Name */
+     , (4414,  16, 'Town of Lytelthorpe: 3 miles') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4414,   1,   33555984) /* Setup */
+     , (4414,   8,  100668115) /* Icon */;

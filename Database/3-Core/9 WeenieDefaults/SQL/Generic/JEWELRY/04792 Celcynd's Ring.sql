@@ -1,41 +1,37 @@
-/* Weenie - Celcynd's Ring (4792) */
-DELETE FROM weenie WHERE class_Id = 4792;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4792, 'ringcelcynd', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4792, 001 /* NAME_STRING */, 'Celcynd''s Ring')
-     , (4792, 007 /* INSCRIPTION_STRING */, 'To: Celcynd. In memory of our time together.')
-     , (4792, 008 /* SCRIBE_NAME_STRING */, 'Brentsella the Collector')
-     , (4792, 015 /* SHORT_DESC_STRING */, 'A plain, thin, fragile-looking ring.')
-     , (4792, 016 /* LONG_DESC_STRING */, 'A plain, thin, fragile-looking ring.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4792, 001 /* SETUP_DID */, 33554691)
-     , (4792, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4792, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (4792, 007 /* CLOTHINGBASE_DID */, 268435753)
-     , (4792, 008 /* ICON_DID */, 100667317)
-     , (4792, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (4792, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4792', 'ringcelcynd', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4792, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (4792, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (4792, 005 /* ENCUMB_VAL_INT */, 15)
-     , (4792, 008 /* MASS_INT */, 10)
-     , (4792, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (4792, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4792, 019 /* VALUE_INT */, 0)
-     , (4792, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (4792, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (4792, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4792, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (4792,   1,          8) /* ItemType - Jewelry */
+     , (4792,   3,         61) /* PaletteTemplate - White */
+     , (4792,   5,         15) /* EncumbranceVal */
+     , (4792,   8,         10) /* Mass */
+     , (4792,   9,     786432) /* ValidLocations - FingerWear */
+     , (4792,  16,          1) /* ItemUseable - No */
+     , (4792,  19,          0) /* Value */
+     , (4792,  33,          1) /* Bonded - Bonded */
+     , (4792,  93,       1044) /* PhysicsState */
+     , (4792, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4792, 022 /* INSCRIBABLE_BOOL */, True)
-     , (4792, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (4792,  22, True ) /* Inscribable */
+     , (4792,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4792,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4792,   1, 'Celcynd''s Ring') /* Name */
+     , (4792,   7, 'To: Celcynd. In memory of our time together.') /* Inscription */
+     , (4792,   8, 'Brentsella the Collector') /* ScribeName */
+     , (4792,  15, 'A plain, thin, fragile-looking ring.') /* ShortDesc */
+     , (4792,  16, 'A plain, thin, fragile-looking ring.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4792,   1,   33554691) /* Setup */
+     , (4792,   3,  536870932) /* SoundTable */
+     , (4792,   6,   67111919) /* PaletteBase */
+     , (4792,   7,  268435753) /* ClothingBase */
+     , (4792,   8,  100667317) /* Icon */
+     , (4792,  22,  872415275) /* PhysicsEffectTable */
+     , (4792,  36,  234881046) /* MutateFilter */;

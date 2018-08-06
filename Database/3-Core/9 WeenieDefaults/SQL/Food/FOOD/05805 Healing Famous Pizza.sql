@@ -1,38 +1,34 @@
-/* Weenie - Healing Famous Pizza (5805) */
-DELETE FROM weenie WHERE class_Id = 5805;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5805, 'healingfamouspizza', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5805, 001 /* NAME_STRING */, 'Healing Famous Pizza')
-     , (5805, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5805, 015 /* SHORT_DESC_STRING */, 'An aromatic cheese pizza, liberally sprinkled with spicy oregano.')
-     , (5805, 020 /* PLURAL_NAME_STRING */, 'Healing Famous Pizzas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5805, 001 /* SETUP_DID */, 33555979)
-     , (5805, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5805, 008 /* ICON_DID */, 100670304)
-     , (5805, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5805', 'healingfamouspizza', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5805, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5805, 005 /* ENCUMB_VAL_INT */, 50)
-     , (5805, 008 /* MASS_INT */, 50)
-     , (5805, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5805, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5805, 012 /* STACK_SIZE_INT */, 1)
-     , (5805, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (5805, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (5805, 015 /* STACK_UNIT_VALUE_INT */, 95)
-     , (5805, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5805, 018 /* UI_EFFECTS_INT */, 4 /* UI_EFFECT_BOOST_HEALTH */)
-     , (5805, 019 /* VALUE_INT */, 95)
-     , (5805, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
-     , (5805, 090 /* BOOST_VALUE_INT */, 35)
-     , (5805, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5805,   1,         32) /* ItemType - Food */
+     , (5805,   5,         50) /* EncumbranceVal */
+     , (5805,   8,         50) /* Mass */
+     , (5805,   9,          0) /* ValidLocations - None */
+     , (5805,  11,        100) /* MaxStackSize */
+     , (5805,  12,          1) /* StackSize */
+     , (5805,  13,         50) /* StackUnitEncumbrance */
+     , (5805,  14,         50) /* StackUnitMass */
+     , (5805,  15,         95) /* StackUnitValue */
+     , (5805,  16,          8) /* ItemUseable - Contained */
+     , (5805,  18,          4) /* UiEffects - BoostHealth */
+     , (5805,  19,         95) /* Value */
+     , (5805,  89,          2) /* BoosterEnum - Health */
+     , (5805,  90,         35) /* BoostValue */
+     , (5805,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5805, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5805,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5805,   1, 'Healing Famous Pizza') /* Name */
+     , (5805,  14, 'Use this item to eat it.') /* Use */
+     , (5805,  15, 'An aromatic cheese pizza, liberally sprinkled with spicy oregano.') /* ShortDesc */
+     , (5805,  20, 'Healing Famous Pizzas') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5805,   1,   33555979) /* Setup */
+     , (5805,   3,  536870932) /* SoundTable */
+     , (5805,   8,  100670304) /* Icon */
+     , (5805,  22,  872415275) /* PhysicsEffectTable */;

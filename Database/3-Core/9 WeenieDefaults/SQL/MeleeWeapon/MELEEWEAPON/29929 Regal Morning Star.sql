@@ -1,63 +1,59 @@
-/* Weenie - Regal Morning Star (29929) */
-DELETE FROM weenie WHERE class_Id = 29929;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29929, 'macenregal', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29929, 001 /* NAME_STRING */, 'Regal Morning Star');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29929, 001 /* SETUP_DID */, 33559051)
-     , (29929, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29929, 008 /* ICON_DID */, 100676980)
-     , (29929, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29929', 'macenregal', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29929, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (29929, 005 /* ENCUMB_VAL_INT */, 900)
-     , (29929, 008 /* MASS_INT */, 750)
-     , (29929, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (29929, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29929, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (29929, 019 /* VALUE_INT */, 6000)
-     , (29929, 044 /* DAMAGE_INT */, 43)
-     , (29929, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (29929, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (29929, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (29929, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (29929, 049 /* WEAPON_TIME_INT */, 50)
-     , (29929, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (29929, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29929, 106 /* ITEM_SPELLCRAFT_INT */, 275)
-     , (29929, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (29929, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (29929, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (29929, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29929, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (29929, 158 /* WIELD_REQUIREMENTS_INT */, 1 /* WIELD_REQUIRES_SKILL_WieldRequirement */)
-     , (29929, 159 /* WIELD_SKILLTYPE_INT */, 5 /* MACE_SKILL */)
-     , (29929, 160 /* WIELD_DIFFICULTY_INT */, 325)
-     , (29929, 166 /* SLAYER_CREATURE_TYPE_INT */, 75 /* Burun_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29929, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (29929, 021 /* WEAPON_LENGTH_FLOAT */, 0.9)
-     , (29929, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.35)
-     , (29929, 029 /* WEAPON_DEFENSE_FLOAT */, 1.1)
-     , (29929, 062 /* WEAPON_OFFENSE_FLOAT */, 1.1)
-     , (29929, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (29929, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 1.75)
-     , (29929, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.3);
+VALUES (29929,   1,          1) /* ItemType - MeleeWeapon */
+     , (29929,   5,        900) /* EncumbranceVal */
+     , (29929,   8,        750) /* Mass */
+     , (29929,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (29929,  16,          1) /* ItemUseable - No */
+     , (29929,  18,          1) /* UiEffects - Magical */
+     , (29929,  19,       6000) /* Value */
+     , (29929,  44,         43) /* Damage */
+     , (29929,  45,          4) /* DamageType - Bludgeon */
+     , (29929,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (29929,  47,          4) /* AttackType - Slash */
+     , (29929,  48,          5) /* WeaponSkill - Mace */
+     , (29929,  49,         50) /* WeaponTime */
+     , (29929,  51,          1) /* CombatUse - Melee */
+     , (29929,  93,       1044) /* PhysicsState */
+     , (29929, 106,        275) /* ItemSpellcraft */
+     , (29929, 107,        800) /* ItemCurMana */
+     , (29929, 108,        800) /* ItemMaxMana */
+     , (29929, 109,        150) /* ItemDifficulty */
+     , (29929, 150,        103) /* HookPlacement - Hook */
+     , (29929, 151,          2) /* HookType - Wall */
+     , (29929, 158,          1) /* WieldRequirements - Skill */
+     , (29929, 159,          5) /* WieldSkilltype - Mace */
+     , (29929, 160,        325) /* WieldDifficulty */
+     , (29929, 166,         75) /* SlayerCreatureType - Burun */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29929, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29929,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29929,   5, -0.0333) /* ManaRate */
+     , (29929,  21,     0.9) /* WeaponLength */
+     , (29929,  22,    0.35) /* DamageVariance */
+     , (29929,  29,     1.1) /* WeaponDefense */
+     , (29929,  62,     1.1) /* WeaponOffense */
+     , (29929, 136,     2.5) /* CriticalMultiplier */
+     , (29929, 138,    1.75) /* SlayerDamageBonus */
+     , (29929, 147,     0.3) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29929,   1, 'Regal Morning Star') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29929,   1,   33559051) /* Setup */
+     , (29929,   3,  536870932) /* SoundTable */
+     , (29929,   8,  100676980) /* Icon */
+     , (29929,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29929, 1604, 2) /* Defender5_SpellID */
-     , (29929, 1359, 2) /* EnduranceOther5_SpellID */
-     , (29929, 1616, 2) /* BloodDrinker6_SpellID */
-     , (29929, 243, 2) /* InvulnerabilityOther5_SpellID */
-     , (29929, 1625, 2) /* SwiftKiller4_SpellID */
-     , (29929, 1591, 2) /* HeartSeeker5_SpellID */;
-
+VALUES (29929,   243,      2)  /* Invulnerability Other V */
+     , (29929,  1359,      2)  /* Endurance Other V */
+     , (29929,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (29929,  1604,      2)  /* Aura of Defender Self V */
+     , (29929,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (29929,  1625,      2)  /* Aura of Swift Killer Self IV */;

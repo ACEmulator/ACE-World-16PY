@@ -1,36 +1,33 @@
-/* Weenie - Heart of Innocence (24172) */
-DELETE FROM weenie WHERE class_Id = 24172;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24172, 'noteheartinnocence', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24172, 001 /* NAME_STRING */, 'Heart of Innocence');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24172, 001 /* SETUP_DID */, 33554773)
-     , (24172, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24172, 008 /* ICON_DID */, 100668176)
-     , (24172, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24172', 'noteheartinnocence', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24172, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (24172, 005 /* ENCUMB_VAL_INT */, 50)
-     , (24172, 008 /* MASS_INT */, 200)
-     , (24172, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24172, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24172, 019 /* VALUE_INT */, 100)
-     , (24172, 037 /* RESIST_ITEM_APPRAISAL_INT */, 50)
-     , (24172, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24172, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (24172,   1,       8192) /* ItemType - Writable */
+     , (24172,   5,         50) /* EncumbranceVal */
+     , (24172,   8,        200) /* Mass */
+     , (24172,   9,          0) /* ValidLocations - None */
+     , (24172,  16,          8) /* ItemUseable - Contained */
+     , (24172,  19,        100) /* Value */
+     , (24172,  37,         50) /* ResistItemAppraisal */
+     , (24172,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24172, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (24172,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24172,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24172,   1, 'Heart of Innocence') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24172,   1,   33554773) /* Setup */
+     , (24172,   3,  536870932) /* SoundTable */
+     , (24172,   8,  100668176) /* Icon */
+     , (24172,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (24172, 2, 1000) /* Book Data */;
+VALUES (24172, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (24172, 0, 4294967295, 'Unknown', 'prewritten', False, 'Oswald,
@@ -42,4 +39,3 @@ Choose your victim well and if it benefits us both all the better. Be especially
      , (24172, 1, 4294967295, 'Unknown', 'prewritten', False, 'lose you.
 
 ');
-

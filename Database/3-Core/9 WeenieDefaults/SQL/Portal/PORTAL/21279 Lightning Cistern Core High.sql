@@ -1,36 +1,32 @@
-/* Weenie - Lightning Cistern Core High (21279) */
-DELETE FROM weenie WHERE class_Id = 21279;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21279, 'portallightningcisterncrystalhigh', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21279, 001 /* NAME_STRING */, 'Lightning Cistern Core High');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21279, 001 /* SETUP_DID */, 33555925)
-     , (21279, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (21279, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21279', 'portallightningcisterncrystalhigh', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21279, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (21279, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (21279, 086 /* MIN_LEVEL_INT */, 50)
-     , (21279, 087 /* MAX_LEVEL_INT */, 80)
-     , (21279, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (21279, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (21279, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21279, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (21279,   1,      65536) /* ItemType - Portal */
+     , (21279,  16,         32) /* ItemUseable - Remote */
+     , (21279,  86,         50) /* MinLevel */
+     , (21279,  87,         80) /* MaxLevel */
+     , (21279,  93,       3084) /* PhysicsState */
+     , (21279, 111,         49) /* PortalBitmask */
+     , (21279, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21279, 001 /* STUCK_BOOL */, True)
-     , (21279, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (21279, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (21279, 013 /* ETHEREAL_BOOL */, True)
-     , (21279, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (21279,   1, True ) /* Stuck */
+     , (21279,  11, False) /* IgnoreCollisions */
+     , (21279,  12, True ) /* ReportCollisions */
+     , (21279,  13, True ) /* Ethereal */
+     , (21279,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21279,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21279,   1, 'Lightning Cistern Core High') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21279,   1,   33555925) /* Setup */
+     , (21279,   2,  150994947) /* MotionTable */
+     , (21279,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21279, 2, 1448804692, 0, 0, 0.005, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (21279, 2, 1448804692, 0, 0, 0.005, 1, 0, 0, 0) /* Destination */;

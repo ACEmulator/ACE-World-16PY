@@ -1,46 +1,42 @@
-/* Weenie - Elysa's Band (27111) */
-DELETE FROM weenie WHERE class_Id = 27111;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27111, 'ringelysaband1', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27111, 001 /* NAME_STRING */, 'Elysa''s Band')
-     , (27111, 016 /* LONG_DESC_STRING */, 'A vibrant ring given as a reward for finding out information of the new creatures that have come to Dereth.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27111, 001 /* SETUP_DID */, 33554691)
-     , (27111, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27111, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27111, 007 /* CLOTHINGBASE_DID */, 268436318)
-     , (27111, 008 /* ICON_DID */, 100675932)
-     , (27111, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27111', 'ringelysaband1', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27111, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (27111, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (27111, 005 /* ENCUMB_VAL_INT */, 15)
-     , (27111, 008 /* MASS_INT */, 15)
-     , (27111, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (27111, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27111, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27111, 019 /* VALUE_INT */, 700)
-     , (27111, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27111, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (27111, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (27111, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (27111, 109 /* ITEM_DIFFICULTY_INT */, 50)
-     , (27111, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27111, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27111, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (27111, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (27111,   1,          8) /* ItemType - Jewelry */
+     , (27111,   3,         21) /* PaletteTemplate - Gold */
+     , (27111,   5,         15) /* EncumbranceVal */
+     , (27111,   8,         15) /* Mass */
+     , (27111,   9,     786432) /* ValidLocations - FingerWear */
+     , (27111,  16,          1) /* ItemUseable - No */
+     , (27111,  18,          1) /* UiEffects - Magical */
+     , (27111,  19,        700) /* Value */
+     , (27111,  93,       1044) /* PhysicsState */
+     , (27111, 106,        100) /* ItemSpellcraft */
+     , (27111, 107,        600) /* ItemCurMana */
+     , (27111, 108,        600) /* ItemMaxMana */
+     , (27111, 109,         50) /* ItemDifficulty */
+     , (27111, 150,        103) /* HookPlacement - Hook */
+     , (27111, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27111, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27111, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27111,  22, True ) /* Inscribable */
+     , (27111,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27111,   5,  -0.033) /* ManaRate */
+     , (27111,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27111,   1, 'Elysa''s Band') /* Name */
+     , (27111,  16, 'A vibrant ring given as a reward for finding out information of the new creatures that have come to Dereth.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27111,   1,   33554691) /* Setup */
+     , (27111,   3,  536870932) /* SoundTable */
+     , (27111,   6,   67111919) /* PaletteBase */
+     , (27111,   7,  268436318) /* ClothingBase */
+     , (27111,   8,  100675932) /* Icon */
+     , (27111,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27111, 241, 2) /* InvulnerabilityOther3_SpellID */;
-
+VALUES (27111,   241,      2)  /* Invulnerability Other III */;

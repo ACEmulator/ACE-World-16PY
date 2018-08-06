@@ -1,54 +1,50 @@
-/* Weenie - Staff of Clarity (27092) */
-DELETE FROM weenie WHERE class_Id = 27092;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27092, 'staffclaritynew', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27092, 001 /* NAME_STRING */, 'Staff of Clarity')
-     , (27092, 015 /* SHORT_DESC_STRING */, 'When you must strike, do not leave room for a return blow.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27092, 001 /* SETUP_DID */, 33557010)
-     , (27092, 008 /* ICON_DID */, 100671492)
-     , (27092, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27092, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27092', 'staffclaritynew', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27092, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (27092, 005 /* ENCUMB_VAL_INT */, 200)
-     , (27092, 008 /* MASS_INT */, 90)
-     , (27092, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (27092, 016 /* ITEM_USEABLE_INT */, 6291460 /* USEABLE_SOURCE_WIELDED_TARGET_REMOTE_NEVER_WALK */)
-     , (27092, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27092, 019 /* VALUE_INT */, 2000)
-     , (27092, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (27092, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27092, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (27092, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (27092, 107 /* ITEM_CUR_MANA_INT */, 700)
-     , (27092, 108 /* ITEM_MAX_MANA_INT */, 700)
-     , (27092, 109 /* ITEM_DIFFICULTY_INT */, 100)
-     , (27092, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27092, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27092, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (27092, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (27092, 160 /* WIELD_DIFFICULTY_INT */, 40);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27092, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (27092, 029 /* WEAPON_DEFENSE_FLOAT */, 1.07)
-     , (27092, 144 /* MANA_CONVERSION_MOD_FLOAT */, 0.06);
+VALUES (27092,   1,      32768) /* ItemType - Caster */
+     , (27092,   5,        200) /* EncumbranceVal */
+     , (27092,   8,         90) /* Mass */
+     , (27092,   9,   16777216) /* ValidLocations - Held */
+     , (27092,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
+     , (27092,  18,          1) /* UiEffects - Magical */
+     , (27092,  19,       2000) /* Value */
+     , (27092,  46,        512) /* DefaultCombatStyle - Magic */
+     , (27092,  93,       1044) /* PhysicsState */
+     , (27092,  94,         16) /* TargetType - Creature */
+     , (27092, 106,        200) /* ItemSpellcraft */
+     , (27092, 107,        700) /* ItemCurMana */
+     , (27092, 108,        700) /* ItemMaxMana */
+     , (27092, 109,        100) /* ItemDifficulty */
+     , (27092, 150,        103) /* HookPlacement - Hook */
+     , (27092, 151,          2) /* HookType - Wall */
+     , (27092, 158,          7) /* WieldRequirements - Level */
+     , (27092, 159,          1) /* WieldSkilltype - Axe */
+     , (27092, 160,         40) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27092, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27092, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (27092, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (27092,  22, True ) /* Inscribable */
+     , (27092,  23, True ) /* DestroyOnSell */
+     , (27092,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27092,   5,  -0.033) /* ManaRate */
+     , (27092,  29,    1.07) /* WeaponDefense */
+     , (27092, 144,    0.06) /* ManaConversionMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27092,   1, 'Staff of Clarity') /* Name */
+     , (27092,  15, 'When you must strike, do not leave room for a return blow.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27092,   1,   33557010) /* Setup */
+     , (27092,   8,  100671492) /* Icon */
+     , (27092,  22,  872415275) /* PhysicsEffectTable */
+     , (27092,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27092, 664, 2) /* ManaMasteryOther6_SpellID */
-     , (27092, 640, 2) /* WarMagicMasteryOther6_SpellID */
-     , (27092, 2387, 2) /* Determination_SpellID */
-     , (27092, 211, 2) /* ManaRenewalOther6_SpellID */
-     , (27092, 2392, 2) /* Serenity_SpellID */;
-
+VALUES (27092,   211,      2)  /* Mana Renewal Other VI */
+     , (27092,   640,      2)  /* War Magic Mastery Other VI */
+     , (27092,   664,      2)  /* Mana Conversion Mastery Other VI */
+     , (27092,  2387,      2)  /* Determination */
+     , (27092,  2392,      2)  /* Serenity */;

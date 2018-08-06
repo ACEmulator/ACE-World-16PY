@@ -1,50 +1,46 @@
-/* Weenie - Habitat Portal Gem (10975) */
-DELETE FROM weenie WHERE class_Id = 10975;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10975, 'gemportalhabitat-xp', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10975, 001 /* NAME_STRING */, 'Habitat Portal Gem')
-     , (10975, 014 /* USE_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 80+)')
-     , (10975, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10975, 001 /* SETUP_DID */, 33556769)
-     , (10975, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10975, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (10975, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (10975, 008 /* ICON_DID */, 100670993)
-     , (10975, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (10975, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (10975, 031 /* LINKED_PORTAL_ONE_DID */, 10985 /* Virindi Habitat Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10975', 'gemportalhabitat-xp', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10975, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (10975, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (10975, 005 /* ENCUMB_VAL_INT */, 10)
-     , (10975, 008 /* MASS_INT */, 10)
-     , (10975, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (10975, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (10975, 012 /* STACK_SIZE_INT */, 1)
-     , (10975, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (10975, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (10975, 015 /* STACK_UNIT_VALUE_INT */, 20000)
-     , (10975, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (10975, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (10975, 019 /* VALUE_INT */, 20000)
-     , (10975, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (10975, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (10975, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (10975, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (10975, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (10975, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (10975, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (10975, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (10975, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (10975,   1,       2048) /* ItemType - Gem */
+     , (10975,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (10975,   5,         10) /* EncumbranceVal */
+     , (10975,   8,         10) /* Mass */
+     , (10975,   9,          0) /* ValidLocations - None */
+     , (10975,  11,          1) /* MaxStackSize */
+     , (10975,  12,          1) /* StackSize */
+     , (10975,  13,         10) /* StackUnitEncumbrance */
+     , (10975,  14,         10) /* StackUnitMass */
+     , (10975,  15,      20000) /* StackUnitValue */
+     , (10975,  16,          8) /* ItemUseable - Contained */
+     , (10975,  18,          1) /* UiEffects - Magical */
+     , (10975,  19,      20000) /* Value */
+     , (10975,  33,          1) /* Bonded - Bonded */
+     , (10975,  93,       3092) /* PhysicsState */
+     , (10975,  94,         16) /* TargetType - Creature */
+     , (10975, 106,        210) /* ItemSpellcraft */
+     , (10975, 107,         50) /* ItemCurMana */
+     , (10975, 108,         50) /* ItemMaxMana */
+     , (10975, 109,          0) /* ItemDifficulty */
+     , (10975, 110,          0) /* ItemAllegianceRankLimit */
+     , (10975, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10975, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (10975, 022 /* INSCRIBABLE_BOOL */, True)
-     , (10975, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (10975,  15, True ) /* LightsStatus */
+     , (10975,  22, True ) /* Inscribable */
+     , (10975,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10975,   1, 'Habitat Portal Gem') /* Name */
+     , (10975,  14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 80+)') /* Use */
+     , (10975,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10975,   1,   33556769) /* Setup */
+     , (10975,   3,  536870932) /* SoundTable */
+     , (10975,   6,   67111919) /* PaletteBase */
+     , (10975,   7,  268435723) /* ClothingBase */
+     , (10975,   8,  100670993) /* Icon */
+     , (10975,  22,  872415275) /* PhysicsEffectTable */
+     , (10975,  28,        157) /* Spell - Summon Primary Portal I */
+     , (10975,  31,      10985) /* LinkedPortalOne - Virindi Habitat Portal */;

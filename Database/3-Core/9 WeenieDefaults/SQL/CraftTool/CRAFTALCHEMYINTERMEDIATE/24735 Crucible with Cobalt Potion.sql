@@ -1,39 +1,35 @@
-/* Weenie - Crucible with Cobalt Potion (24735) */
-DELETE FROM weenie WHERE class_Id = 24735;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24735, 'cruciblelightning', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24735, 001 /* NAME_STRING */, 'Crucible with Cobalt Potion')
-     , (24735, 014 /* USE_STRING */, 'This item is used in alchemy.')
-     , (24735, 016 /* LONG_DESC_STRING */, 'A Cobalt Potion has been added to this crucible.')
-     , (24735, 020 /* PLURAL_NAME_STRING */, 'Crucible');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24735, 001 /* SETUP_DID */, 33555966)
-     , (24735, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24735, 008 /* ICON_DID */, 100674470)
-     , (24735, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24735', 'cruciblelightning', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24735, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (24735, 005 /* ENCUMB_VAL_INT */, 50)
-     , (24735, 008 /* MASS_INT */, 25)
-     , (24735, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24735, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (24735, 012 /* STACK_SIZE_INT */, 1)
-     , (24735, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (24735, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (24735, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (24735, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (24735, 019 /* VALUE_INT */, 500)
-     , (24735, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24735, 094 /* TARGET_TYPE_INT */, 4201088 /* TYPE_LOCKABLE_MAGIC_TARGET, TYPE_GEM, TYPE_SPELL_COMPONENTS, TYPE_CRAFT_COOKING_BASE */)
-     , (24735, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24735, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (24735,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (24735,   5,         50) /* EncumbranceVal */
+     , (24735,   8,         25) /* Mass */
+     , (24735,   9,          0) /* ValidLocations - None */
+     , (24735,  11,          1) /* MaxStackSize */
+     , (24735,  12,          1) /* StackSize */
+     , (24735,  13,         50) /* StackUnitEncumbrance */
+     , (24735,  14,         25) /* StackUnitMass */
+     , (24735,  15,        500) /* StackUnitValue */
+     , (24735,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (24735,  19,        500) /* Value */
+     , (24735,  93,       1044) /* PhysicsState */
+     , (24735,  94,    4201088) /* TargetType */
+     , (24735, 150,        103) /* HookPlacement - Hook */
+     , (24735, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24735, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24735, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24735,  22, True ) /* Inscribable */
+     , (24735,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24735,   1, 'Crucible with Cobalt Potion') /* Name */
+     , (24735,  14, 'This item is used in alchemy.') /* Use */
+     , (24735,  16, 'A Cobalt Potion has been added to this crucible.') /* LongDesc */
+     , (24735,  20, 'Crucible') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24735,   1,   33555966) /* Setup */
+     , (24735,   3,  536870932) /* SoundTable */
+     , (24735,   8,  100674470) /* Icon */
+     , (24735,  22,  872415275) /* PhysicsEffectTable */;

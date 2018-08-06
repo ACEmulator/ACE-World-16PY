@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Deception Ineptitude III (3234) */
-DELETE FROM weenie WHERE class_Id = 3234;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3234, 'scrolldeceptionineptitude3', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3234, 001 /* NAME_STRING */, 'Scroll of Deception Ineptitude III')
-     , (3234, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3234, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Deception skill by 33%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3234, 001 /* SETUP_DID */, 33554826)
-     , (3234, 008 /* ICON_DID */, 100676448)
-     , (3234, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3234, 028 /* SPELL_DID */, 870 /* DeceptionIneptitudeOther3_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3234', 'scrolldeceptionineptitude3', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3234, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3234, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3234, 008 /* MASS_INT */, 90)
-     , (3234, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3234, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3234, 019 /* VALUE_INT */, 20)
-     , (3234, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3234, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3234,   1,       8192) /* ItemType - Writable */
+     , (3234,   5,         30) /* EncumbranceVal */
+     , (3234,   8,         90) /* Mass */
+     , (3234,   9,          0) /* ValidLocations - None */
+     , (3234,  16,          8) /* ItemUseable - Contained */
+     , (3234,  19,         20) /* Value */
+     , (3234,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3234, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3234, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3234,  22, True ) /* Inscribable */
+     , (3234,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3234,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3234,   1, 'Scroll of Deception Ineptitude III') /* Name */
+     , (3234,  15, 'A magic scroll.') /* ShortDesc */
+     , (3234,  16, 'When learned, this spell decreases the target''s Deception skill by 33%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3234,   1,   33554826) /* Setup */
+     , (3234,   8,  100676448) /* Icon */
+     , (3234,  22,  872415275) /* PhysicsEffectTable */
+     , (3234,  28,        870) /* Spell - Deception Ineptitude Other III */;

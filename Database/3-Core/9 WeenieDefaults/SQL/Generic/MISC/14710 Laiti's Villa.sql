@@ -1,28 +1,24 @@
-/* Weenie - Laiti's Villa (14710) */
-DELETE FROM weenie WHERE class_Id = 14710;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14710, 'laitisvillasign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14710, 001 /* NAME_STRING */, 'Laiti''s Villa')
-     , (14710, 016 /* LONG_DESC_STRING */, 'Welcome to Laiti''s Villa');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14710, 001 /* SETUP_DID */, 33557463)
-     , (14710, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14710', 'laitisvillasign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14710, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14710, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14710, 008 /* MASS_INT */, 1800)
-     , (14710, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14710, 019 /* VALUE_INT */, 125)
-     , (14710, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14710,   1,        128) /* ItemType - Misc */
+     , (14710,   5,       9000) /* EncumbranceVal */
+     , (14710,   8,       1800) /* Mass */
+     , (14710,  16,          1) /* ItemUseable - No */
+     , (14710,  19,        125) /* Value */
+     , (14710,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14710, 001 /* STUCK_BOOL */, True)
-     , (14710, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14710, 013 /* ETHEREAL_BOOL */, False)
-     , (14710, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14710,   1, True ) /* Stuck */
+     , (14710,  12, True ) /* ReportCollisions */
+     , (14710,  13, False) /* Ethereal */
+     , (14710,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14710,   1, 'Laiti''s Villa') /* Name */
+     , (14710,  16, 'Welcome to Laiti''s Villa') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14710,   1,   33557463) /* Setup */
+     , (14710,   8,  100668115) /* Icon */;

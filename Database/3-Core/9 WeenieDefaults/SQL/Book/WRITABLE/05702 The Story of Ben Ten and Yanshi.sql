@@ -1,37 +1,34 @@
-/* Weenie - The Story of Ben Ten and Yanshi (5702) */
-DELETE FROM weenie WHERE class_Id = 5702;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5702, 'lecternbenten', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5702, 001 /* NAME_STRING */, 'The Story of Ben Ten and Yanshi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5702, 001 /* SETUP_DID */, 33556013)
-     , (5702, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5702, 008 /* ICON_DID */, 100668236)
-     , (5702, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5702', 'lecternbenten', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5702, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5702, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5702, 008 /* MASS_INT */, 5)
-     , (5702, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5702, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5702, 019 /* VALUE_INT */, 10)
-     , (5702, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5702, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5702,   1,       8192) /* ItemType - Writable */
+     , (5702,   5,         25) /* EncumbranceVal */
+     , (5702,   8,          5) /* Mass */
+     , (5702,   9,          0) /* ValidLocations - None */
+     , (5702,  16,          8) /* ItemUseable - Contained */
+     , (5702,  19,         10) /* Value */
+     , (5702,  93,       1040) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5702, 001 /* STUCK_BOOL */, True)
-     , (5702, 013 /* ETHEREAL_BOOL */, False)
-     , (5702, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5702,   1, True ) /* Stuck */
+     , (5702,  13, False) /* Ethereal */
+     , (5702,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5702,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5702,   1, 'The Story of Ben Ten and Yanshi') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5702,   1,   33556013) /* Setup */
+     , (5702,   3,  536870932) /* SoundTable */
+     , (5702,   8,  100668236) /* Icon */
+     , (5702,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5702, 14, 1000) /* Book Data */;
+VALUES (5702, 14, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5702, 0, 4294967295, 'Ben Ten and Yanshi', 'prewritten', False, 'Ben Ten was, they say, among the first of our people to arrive upon this island, in the days when the Olthoi still ran rampant.  Some say Ben Ten was the first Sho to arrive.  Whether man or woman, we do not even know for sure; we know only that Ben Ten was tall, thin of frame, and wore always a dark hood.  Speaking softly, wielding a tachi of a quality that rivals even the mythical swords of the Dragon Temple, Ben Ten walked the land in search of the desperate who needed help.  I know this because I was one of those rescued by Ben Ten.
@@ -64,4 +61,3 @@ I looked up and saw a smiling face shadowed by a hood.  When I said that I was u
 ')
      , (5702, 13, 4294967295, 'Ben Ten and Yanshi', 'prewritten', False, 'I don''t know if any of those stories are true.  I only tell of what I have seen.  If Ben Ten lives today, surely he - or she - must be advancing in years, as I am now.  But if you happen to be lost and in danger in these new lands of the Sho, perchance you might meet Ben Ten too.
 ');
-

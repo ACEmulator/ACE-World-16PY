@@ -1,49 +1,45 @@
-/* Weenie - Hoary Mattekar Robe (5893) */
-DELETE FROM weenie WHERE class_Id = 5893;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5893, 'robehoarymattekar', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5893, 001 /* NAME_STRING */, 'Hoary Mattekar Robe')
-     , (5893, 015 /* SHORT_DESC_STRING */, 'Rare, lightweight, but warm robe crafted from the hide of the elusive Hoary Mattekar, rumored to appear only under certain conditions.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5893, 001 /* SETUP_DID */, 33554854)
-     , (5893, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5893, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (5893, 007 /* CLOTHINGBASE_DID */, 268436244)
-     , (5893, 008 /* ICON_DID */, 100667351)
-     , (5893, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (5893, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5893', 'robehoarymattekar', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5893, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (5893, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (5893, 004 /* CLOTHING_PRIORITY_INT */, 81664 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */)
-     , (5893, 005 /* ENCUMB_VAL_INT */, 1300)
-     , (5893, 008 /* MASS_INT */, 340)
-     , (5893, 009 /* LOCATIONS_INT */, 32512 /* FOOT_WEAR_LOC, ARMOR_LOC */)
-     , (5893, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5893, 019 /* VALUE_INT */, 4000)
-     , (5893, 027 /* ARMOR_TYPE_INT */, 1)
-     , (5893, 028 /* ARMOR_LEVEL_INT */, 150)
-     , (5893, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5893, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (5893, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5893, 012 /* SHADE_FLOAT */, 1)
-     , (5893, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
-     , (5893, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.9)
-     , (5893, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.9)
-     , (5893, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 2)
-     , (5893, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.7)
-     , (5893, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (5893, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 2)
-     , (5893, 110 /* BULK_MOD_FLOAT */, 1)
-     , (5893, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (5893,   1,          2) /* ItemType - Armor */
+     , (5893,   3,         61) /* PaletteTemplate - White */
+     , (5893,   4,      81664) /* ClothingPriority */
+     , (5893,   5,       1300) /* EncumbranceVal */
+     , (5893,   8,        340) /* Mass */
+     , (5893,   9,      32512) /* ValidLocations - Armor */
+     , (5893,  16,          1) /* ItemUseable - No */
+     , (5893,  19,       4000) /* Value */
+     , (5893,  27,          1) /* ArmorType */
+     , (5893,  28,        150) /* ArmorLevel */
+     , (5893,  93,       1044) /* PhysicsState */
+     , (5893, 150,        103) /* HookPlacement - Hook */
+     , (5893, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5893, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (5893,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5893,  12,       1) /* Shade */
+     , (5893,  13,     1.2) /* ArmorModVsSlash */
+     , (5893,  14,     0.9) /* ArmorModVsPierce */
+     , (5893,  15,     0.9) /* ArmorModVsBludgeon */
+     , (5893,  16,       2) /* ArmorModVsCold */
+     , (5893,  17,     0.7) /* ArmorModVsFire */
+     , (5893,  18,       1) /* ArmorModVsAcid */
+     , (5893,  19,       2) /* ArmorModVsElectric */
+     , (5893, 110,       1) /* BulkMod */
+     , (5893, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5893,   1, 'Hoary Mattekar Robe') /* Name */
+     , (5893,  15, 'Rare, lightweight, but warm robe crafted from the hide of the elusive Hoary Mattekar, rumored to appear only under certain conditions.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5893,   1,   33554854) /* Setup */
+     , (5893,   3,  536870932) /* SoundTable */
+     , (5893,   6,   67108990) /* PaletteBase */
+     , (5893,   7,  268436244) /* ClothingBase */
+     , (5893,   8,  100667351) /* Icon */
+     , (5893,  22,  872415275) /* PhysicsEffectTable */
+     , (5893,  36,  234881046) /* MutateFilter */;

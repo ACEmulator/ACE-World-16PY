@@ -1,34 +1,30 @@
-/* Weenie - Samsur Butte Cottages Portal (12540) */
-DELETE FROM weenie WHERE class_Id = 12540;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12540, 'portalsamsurbuttecottages', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12540, 001 /* NAME_STRING */, 'Samsur Butte Cottages Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12540, 001 /* SETUP_DID */, 33554867)
-     , (12540, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (12540, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12540', 'portalsamsurbuttecottages', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12540, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (12540, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (12540, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (12540, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (12540, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12540, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (12540,   1,      65536) /* ItemType - Portal */
+     , (12540,  16,         32) /* ItemUseable - Remote */
+     , (12540,  93,       3084) /* PhysicsState */
+     , (12540, 111,          1) /* PortalBitmask - Unrestricted */
+     , (12540, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12540, 001 /* STUCK_BOOL */, True)
-     , (12540, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (12540, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12540, 013 /* ETHEREAL_BOOL */, True)
-     , (12540, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (12540,   1, True ) /* Stuck */
+     , (12540,  11, False) /* IgnoreCollisions */
+     , (12540,  12, True ) /* ReportCollisions */
+     , (12540,  13, True ) /* Ethereal */
+     , (12540,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12540,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12540,   1, 'Samsur Butte Cottages Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12540,   1,   33554867) /* Setup */
+     , (12540,   2,  150994947) /* MotionTable */
+     , (12540,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12540, 2, 2457272371, 157.02, 64.692, 60.614, 0.7384789, 0, 0, -0.6742766) /* DESTINATION_POSITION */;
-
+VALUES (12540, 2, 2457272371, 157.02, 64.692, 60.614, 0.7384789, 0, 0, -0.6742766) /* Destination */;

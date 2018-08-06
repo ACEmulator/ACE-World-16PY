@@ -1,34 +1,30 @@
-/* Weenie - Coffee (2454) */
-DELETE FROM weenie WHERE class_Id = 2454;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2454, 'coffee', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2454, 001 /* NAME_STRING */, 'Coffee')
-     , (2454, 014 /* USE_STRING */, 'Use this item to drink it.')
-     , (2454, 020 /* PLURAL_NAME_STRING */, 'Mugs of Coffee');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2454, 001 /* SETUP_DID */, 33554665)
-     , (2454, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2454, 008 /* ICON_DID */, 100667432)
-     , (2454, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2454, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2454', 'coffee', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2454, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (2454, 005 /* ENCUMB_VAL_INT */, 50)
-     , (2454, 008 /* MASS_INT */, 25)
-     , (2454, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2454, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (2454, 012 /* STACK_SIZE_INT */, 1)
-     , (2454, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (2454, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (2454, 015 /* STACK_UNIT_VALUE_INT */, 30)
-     , (2454, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2454, 019 /* VALUE_INT */, 30)
-     , (2454, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (2454, 090 /* BOOST_VALUE_INT */, 12)
-     , (2454, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (2454,   1,         32) /* ItemType - Food */
+     , (2454,   5,         50) /* EncumbranceVal */
+     , (2454,   8,         25) /* Mass */
+     , (2454,   9,          0) /* ValidLocations - None */
+     , (2454,  11,        100) /* MaxStackSize */
+     , (2454,  12,          1) /* StackSize */
+     , (2454,  13,         50) /* StackUnitEncumbrance */
+     , (2454,  14,         25) /* StackUnitMass */
+     , (2454,  15,         30) /* StackUnitValue */
+     , (2454,  16,          8) /* ItemUseable - Contained */
+     , (2454,  19,         30) /* Value */
+     , (2454,  89,          4) /* BoosterEnum - Stamina */
+     , (2454,  90,         12) /* BoostValue */
+     , (2454,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2454,   1, 'Coffee') /* Name */
+     , (2454,  14, 'Use this item to drink it.') /* Use */
+     , (2454,  20, 'Mugs of Coffee') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2454,   1,   33554665) /* Setup */
+     , (2454,   3,  536870932) /* SoundTable */
+     , (2454,   8,  100667432) /* Icon */
+     , (2454,  22,  872415275) /* PhysicsEffectTable */
+     , (2454,  23,         65) /* UseSound - Drink1 */;

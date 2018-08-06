@@ -1,36 +1,32 @@
-/* Weenie - Scold's Heart (25798) */
-DELETE FROM weenie WHERE class_Id = 25798;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25798, 'golemheartmagmadfd', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25798, 001 /* NAME_STRING */, 'Scold''s Heart')
-     , (25798, 016 /* LONG_DESC_STRING */, 'A very, very small Magma Golem''s Heart.')
-     , (25798, 033 /* QUEST_STRING */, 'PickedUpGolemHeartMagmaDFD');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25798, 001 /* SETUP_DID */, 33558517)
-     , (25798, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25798, 008 /* ICON_DID */, 100675515)
-     , (25798, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25798', 'golemheartmagmadfd', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25798, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25798, 005 /* ENCUMB_VAL_INT */, 100)
-     , (25798, 008 /* MASS_INT */, 100)
-     , (25798, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25798, 019 /* VALUE_INT */, 100)
-     , (25798, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25798, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25798, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (25798, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25798, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25798, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (25798,   1,        128) /* ItemType - Misc */
+     , (25798,   5,        100) /* EncumbranceVal */
+     , (25798,   8,        100) /* Mass */
+     , (25798,  16,          1) /* ItemUseable - No */
+     , (25798,  19,        100) /* Value */
+     , (25798,  33,          1) /* Bonded - Bonded */
+     , (25798,  93,       1044) /* PhysicsState */
+     , (25798, 114,          1) /* Attuned - Attuned */
+     , (25798, 150,        103) /* HookPlacement - Hook */
+     , (25798, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25798, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25798, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (25798,  22, True ) /* Inscribable */
+     , (25798,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25798,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25798,   1, 'Scold''s Heart') /* Name */
+     , (25798,  16, 'A very, very small Magma Golem''s Heart.') /* LongDesc */
+     , (25798,  33, 'PickedUpGolemHeartMagmaDFD') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25798,   1,   33558517) /* Setup */
+     , (25798,   3,  536870932) /* SoundTable */
+     , (25798,   8,  100675515) /* Icon */
+     , (25798,  22,  872415275) /* PhysicsEffectTable */;

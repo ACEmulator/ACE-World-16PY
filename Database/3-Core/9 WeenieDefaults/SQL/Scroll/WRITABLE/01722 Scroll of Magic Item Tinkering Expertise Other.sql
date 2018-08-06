@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Magic Item Tinkering Expertise Other (1722) */
-DELETE FROM weenie WHERE class_Id = 1722;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1722, 'scrollmagicitemexpertiseother', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1722, 001 /* NAME_STRING */, 'Scroll of Magic Item Tinkering Expertise Other')
-     , (1722, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (1722, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the target''s Magic Item Tinkering skill by 10%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1722, 001 /* SETUP_DID */, 33554826)
-     , (1722, 008 /* ICON_DID */, 100676477)
-     , (1722, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1722, 028 /* SPELL_DID */, 756 /* MagicItemExpertiseOther1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1722', 'scrollmagicitemexpertiseother', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1722, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (1722, 005 /* ENCUMB_VAL_INT */, 30)
-     , (1722, 008 /* MASS_INT */, 90)
-     , (1722, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (1722, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (1722, 019 /* VALUE_INT */, 1)
-     , (1722, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1722, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (1722,   1,       8192) /* ItemType - Writable */
+     , (1722,   5,         30) /* EncumbranceVal */
+     , (1722,   8,         90) /* Mass */
+     , (1722,   9,          0) /* ValidLocations - None */
+     , (1722,  16,          8) /* ItemUseable - Contained */
+     , (1722,  19,          1) /* Value */
+     , (1722,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1722, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1722, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1722,  22, True ) /* Inscribable */
+     , (1722,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1722,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1722,   1, 'Scroll of Magic Item Tinkering Expertise Other') /* Name */
+     , (1722,  15, 'A magic scroll.') /* ShortDesc */
+     , (1722,  16, 'When learned, this spell increases the target''s Magic Item Tinkering skill by 10%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1722,   1,   33554826) /* Setup */
+     , (1722,   8,  100676477) /* Icon */
+     , (1722,  22,  872415275) /* PhysicsEffectTable */
+     , (1722,  28,        756) /* Spell - Magic Item Tinkering Expertise Other I */;

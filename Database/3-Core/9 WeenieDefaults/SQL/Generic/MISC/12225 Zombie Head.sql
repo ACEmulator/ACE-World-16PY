@@ -1,40 +1,36 @@
-/* Weenie - Zombie Head (12225) */
-DELETE FROM weenie WHERE class_Id = 12225;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12225, 'zombiehead', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12225, 001 /* NAME_STRING */, 'Zombie Head')
-     , (12225, 015 /* SHORT_DESC_STRING */, 'A foul smelling zombie head.')
-     , (12225, 016 /* LONG_DESC_STRING */, 'A stinking, smelling, decapitated zombie head.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12225, 001 /* SETUP_DID */, 33557363)
-     , (12225, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12225, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (12225, 007 /* CLOTHINGBASE_DID */, 268436268)
-     , (12225, 008 /* ICON_DID */, 100672172)
-     , (12225, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12225, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12225', 'zombiehead', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12225, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (12225, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (12225, 005 /* ENCUMB_VAL_INT */, 200)
-     , (12225, 008 /* MASS_INT */, 200)
-     , (12225, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (12225, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12225, 019 /* VALUE_INT */, 0)
-     , (12225, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12225, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12225, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12225, 012 /* SHADE_FLOAT */, 0.66)
-     , (12225, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (12225,   1,        128) /* ItemType - Misc */
+     , (12225,   3,          4) /* PaletteTemplate - Brown */
+     , (12225,   5,        200) /* EncumbranceVal */
+     , (12225,   8,        200) /* Mass */
+     , (12225,   9,          0) /* ValidLocations - None */
+     , (12225,  16,          1) /* ItemUseable - No */
+     , (12225,  19,          0) /* Value */
+     , (12225,  93,       1044) /* PhysicsState */
+     , (12225, 150,        103) /* HookPlacement - Hook */
+     , (12225, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12225, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12225, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (12225,  22, True ) /* Inscribable */
+     , (12225,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12225,  12,    0.66) /* Shade */
+     , (12225,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12225,   1, 'Zombie Head') /* Name */
+     , (12225,  15, 'A foul smelling zombie head.') /* ShortDesc */
+     , (12225,  16, 'A stinking, smelling, decapitated zombie head.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12225,   1,   33557363) /* Setup */
+     , (12225,   3,  536870932) /* SoundTable */
+     , (12225,   6,   67108990) /* PaletteBase */
+     , (12225,   7,  268436268) /* ClothingBase */
+     , (12225,   8,  100672172) /* Icon */
+     , (12225,  22,  872415275) /* PhysicsEffectTable */
+     , (12225,  36,  234881046) /* MutateFilter */;

@@ -1,29 +1,25 @@
-/* Weenie - Ursuin Rug (11937) */
-DELETE FROM weenie WHERE class_Id = 11937;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11937, 'decorationursuinrug-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11937, 001 /* NAME_STRING */, 'Ursuin Rug')
-     , (11937, 015 /* SHORT_DESC_STRING */, 'This item can be used on an item hook.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11937, 001 /* SETUP_DID */, 33557140)
-     , (11937, 008 /* ICON_DID */, 100671820);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11937', 'decorationursuinrug-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11937, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11937, 005 /* ENCUMB_VAL_INT */, 50)
-     , (11937, 008 /* MASS_INT */, 25)
-     , (11937, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11937, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11937, 019 /* VALUE_INT */, 100000)
-     , (11937, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11937, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (11937, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
+VALUES (11937,   1,        128) /* ItemType - Misc */
+     , (11937,   5,         50) /* EncumbranceVal */
+     , (11937,   8,         25) /* Mass */
+     , (11937,   9,          0) /* ValidLocations - None */
+     , (11937,  16,          1) /* ItemUseable - No */
+     , (11937,  19,     100000) /* Value */
+     , (11937,  93,       1044) /* PhysicsState */
+     , (11937, 150,        103) /* HookPlacement - Hook */
+     , (11937, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11937, 013 /* ETHEREAL_BOOL */, True)
-     , (11937, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (11937,  13, True ) /* Ethereal */
+     , (11937,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11937,   1, 'Ursuin Rug') /* Name */
+     , (11937,  15, 'This item can be used on an item hook.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11937,   1,   33557140) /* Setup */
+     , (11937,   8,  100671820) /* Icon */;

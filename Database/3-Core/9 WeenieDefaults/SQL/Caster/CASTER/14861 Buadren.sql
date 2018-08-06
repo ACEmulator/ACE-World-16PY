@@ -1,43 +1,39 @@
-/* Weenie - Buadren (14861) */
-DELETE FROM weenie WHERE class_Id = 14861;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14861, 'buadreninvokingnonmagic', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14861, 001 /* NAME_STRING */, 'Buadren')
-     , (14861, 015 /* SHORT_DESC_STRING */, 'A Tumerok drum. Aun Tikakhe would be interested in seeing this.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14861, 001 /* SETUP_DID */, 33557297)
-     , (14861, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14861, 006 /* PALETTE_BASE_DID */, 67113783)
-     , (14861, 007 /* CLOTHINGBASE_DID */, 268436324)
-     , (14861, 008 /* ICON_DID */, 100672059)
-     , (14861, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (14861, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (14861, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14861', 'buadreninvokingnonmagic', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14861, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (14861, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (14861, 005 /* ENCUMB_VAL_INT */, 20)
-     , (14861, 008 /* MASS_INT */, 20)
-     , (14861, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (14861, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14861, 019 /* VALUE_INT */, 0)
-     , (14861, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14861, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (14861, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14861, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (14861, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (14861, 151 /* HOOK_TYPE_INT */, 3 /* Floor_HookTypeEnum, Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14861, 029 /* WEAPON_DEFENSE_FLOAT */, 1);
+VALUES (14861,   1,      32768) /* ItemType - Caster */
+     , (14861,   3,         39) /* PaletteTemplate - Black */
+     , (14861,   5,         20) /* EncumbranceVal */
+     , (14861,   8,         20) /* Mass */
+     , (14861,   9,   16777216) /* ValidLocations - Held */
+     , (14861,  16,          1) /* ItemUseable - No */
+     , (14861,  19,          0) /* Value */
+     , (14861,  33,          1) /* Bonded - Bonded */
+     , (14861,  46,        512) /* DefaultCombatStyle - Magic */
+     , (14861,  93,       1044) /* PhysicsState */
+     , (14861,  94,         16) /* TargetType - Creature */
+     , (14861, 150,        103) /* HookPlacement - Hook */
+     , (14861, 151,          3) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14861, 022 /* INSCRIBABLE_BOOL */, True)
-     , (14861, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (14861, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14861,  22, True ) /* Inscribable */
+     , (14861,  23, True ) /* DestroyOnSell */
+     , (14861,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14861,  29,       1) /* WeaponDefense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14861,   1, 'Buadren') /* Name */
+     , (14861,  15, 'A Tumerok drum. Aun Tikakhe would be interested in seeing this.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14861,   1,   33557297) /* Setup */
+     , (14861,   3,  536870932) /* SoundTable */
+     , (14861,   6,   67113783) /* PaletteBase */
+     , (14861,   7,  268436324) /* ClothingBase */
+     , (14861,   8,  100672059) /* Icon */
+     , (14861,  22,  872415275) /* PhysicsEffectTable */
+     , (14861,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (14861,  36,  234881046) /* MutateFilter */;

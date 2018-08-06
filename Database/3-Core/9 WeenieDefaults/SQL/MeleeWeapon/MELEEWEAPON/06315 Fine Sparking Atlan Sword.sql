@@ -1,64 +1,60 @@
-/* Weenie - Fine Sparking Atlan Sword (6315) */
-DELETE FROM weenie WHERE class_Id = 6315;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6315, 'swordgoodsparkingminor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6315, 001 /* NAME_STRING */, 'Fine Sparking Atlan Sword');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6315, 001 /* SETUP_DID */, 33556348)
-     , (6315, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6315, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6315, 007 /* CLOTHINGBASE_DID */, 268435927)
-     , (6315, 008 /* ICON_DID */, 100670571)
-     , (6315, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6315, 037 /* ITEM_SKILL_LIMIT_DID */, 11);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6315', 'swordgoodsparkingminor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6315, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6315, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (6315, 005 /* ENCUMB_VAL_INT */, 450)
-     , (6315, 008 /* MASS_INT */, 600)
-     , (6315, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6315, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6315, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6315, 019 /* VALUE_INT */, 3000)
-     , (6315, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6315, 044 /* DAMAGE_INT */, 20)
-     , (6315, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (6315, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6315, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (6315, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (6315, 049 /* WEAPON_TIME_INT */, 35)
-     , (6315, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6315, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6315, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (6315, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (6315, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (6315, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200)
-     , (6315, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6315, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6315, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (6315, 021 /* WEAPON_LENGTH_FLOAT */, 1)
-     , (6315, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (6315, 029 /* WEAPON_DEFENSE_FLOAT */, 1.03)
-     , (6315, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6315, 062 /* WEAPON_OFFENSE_FLOAT */, 1.03);
+VALUES (6315,   1,          1) /* ItemType - MeleeWeapon */
+     , (6315,   3,         13) /* PaletteTemplate - Purple */
+     , (6315,   5,        450) /* EncumbranceVal */
+     , (6315,   8,        600) /* Mass */
+     , (6315,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6315,  16,          1) /* ItemUseable - No */
+     , (6315,  18,          1) /* UiEffects - Magical */
+     , (6315,  19,       3000) /* Value */
+     , (6315,  33,          1) /* Bonded - Bonded */
+     , (6315,  44,         20) /* Damage */
+     , (6315,  45,         64) /* DamageType - Electric */
+     , (6315,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6315,  47,          6) /* AttackType */
+     , (6315,  48,         11) /* WeaponSkill - Sword */
+     , (6315,  49,         35) /* WeaponTime */
+     , (6315,  51,          1) /* CombatUse - Melee */
+     , (6315,  93,       1044) /* PhysicsState */
+     , (6315, 106,        100) /* ItemSpellcraft */
+     , (6315, 107,        500) /* ItemCurMana */
+     , (6315, 108,        500) /* ItemMaxMana */
+     , (6315, 115,        200) /* ItemSkillLevelLimit */
+     , (6315, 150,        103) /* HookPlacement - Hook */
+     , (6315, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6315, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6315, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6315, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6315,  22, True ) /* Inscribable */
+     , (6315,  23, True ) /* DestroyOnSell */
+     , (6315,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6315,   5,  -0.025) /* ManaRate */
+     , (6315,  21,       1) /* WeaponLength */
+     , (6315,  22,     0.5) /* DamageVariance */
+     , (6315,  29,    1.03) /* WeaponDefense */
+     , (6315,  39,       1) /* DefaultScale */
+     , (6315,  62,    1.03) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6315,   1, 'Fine Sparking Atlan Sword') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6315,   1,   33556348) /* Setup */
+     , (6315,   3,  536870932) /* SoundTable */
+     , (6315,   6,   67111919) /* PaletteBase */
+     , (6315,   7,  268435927) /* ClothingBase */
+     , (6315,   8,  100670571) /* Icon */
+     , (6315,  22,  872415275) /* PhysicsEffectTable */
+     , (6315,  37,         11) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6315, 1351, 2) /* EnduranceSelf3_SpellID */
-     , (6315, 1602, 2) /* Defender3_SpellID */
-     , (6315, 1589, 2) /* HeartSeeker3_SpellID */
-     , (6315, 1613, 2) /* BloodDrinker3_SpellID */
-     , (6315, 1624, 2) /* SwiftKiller3_SpellID */
-     , (6315, 1068, 2) /* LightningProtectionSelf3_SpellID */;
-
+VALUES (6315,  1068,      2)  /* Lightning Protection Self III */
+     , (6315,  1351,      2)  /* Endurance Self III */
+     , (6315,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (6315,  1602,      2)  /* Aura of Defender Self III */
+     , (6315,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6315,  1624,      2)  /* Aura of Swift Killer Self III */;

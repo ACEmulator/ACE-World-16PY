@@ -1,48 +1,44 @@
-/* Weenie - Dragonspine Bow (30351) */
-DELETE FROM weenie WHERE class_Id = 30351;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30351, 'bowraredragonspinebow', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30351, 001 /* NAME_STRING */, 'Dragonspine Bow')
-     , (30351, 016 /* LONG_DESC_STRING */, 'Describe me here.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30351, 001 /* SETUP_DID */, 33554728)
-     , (30351, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30351, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30351, 007 /* CLOTHINGBASE_DID */, 268435759)
-     , (30351, 008 /* ICON_DID */, 100668815)
-     , (30351, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30351', 'bowraredragonspinebow', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30351, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (30351, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (30351, 005 /* ENCUMB_VAL_INT */, 980)
-     , (30351, 008 /* MASS_INT */, 140)
-     , (30351, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (30351, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30351, 019 /* VALUE_INT */, 350)
-     , (30351, 044 /* DAMAGE_INT */, 0)
-     , (30351, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
-     , (30351, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
-     , (30351, 049 /* WEAPON_TIME_INT */, 45)
-     , (30351, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (30351, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (30351, 052 /* PARENT_LOCATION_INT */, 2)
-     , (30351, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (30351, 060 /* WEAPON_RANGE_INT */, 175)
-     , (30351, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30351, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30351, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30351, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (30351, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (30351, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (30351, 063 /* DAMAGE_MOD_FLOAT */, 1.5);
+VALUES (30351,   1,        256) /* ItemType - MissileWeapon */
+     , (30351,   3,         20) /* PaletteTemplate - Silver */
+     , (30351,   5,        980) /* EncumbranceVal */
+     , (30351,   8,        140) /* Mass */
+     , (30351,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (30351,  16,          1) /* ItemUseable - No */
+     , (30351,  19,        350) /* Value */
+     , (30351,  44,          0) /* Damage */
+     , (30351,  46,         16) /* DefaultCombatStyle - Bow */
+     , (30351,  48,          2) /* WeaponSkill - Bow */
+     , (30351,  49,         45) /* WeaponTime */
+     , (30351,  50,          1) /* AmmoType - Arrow */
+     , (30351,  51,          2) /* CombatUse - Missle */
+     , (30351,  52,          2) /* ParentLocation */
+     , (30351,  53,          3) /* PlacementPosition */
+     , (30351,  60,        175) /* WeaponRange */
+     , (30351,  93,       1044) /* PhysicsState */
+     , (30351, 150,        103) /* HookPlacement - Hook */
+     , (30351, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30351, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30351,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30351,  26,    27.3) /* MaximumVelocity */
+     , (30351,  29,       1) /* WeaponDefense */
+     , (30351,  62,       1) /* WeaponOffense */
+     , (30351,  63,     1.5) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30351,   1, 'Dragonspine Bow') /* Name */
+     , (30351,  16, 'Describe me here.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30351,   1,   33554728) /* Setup */
+     , (30351,   3,  536870932) /* SoundTable */
+     , (30351,   6,   67111919) /* PaletteBase */
+     , (30351,   7,  268435759) /* ClothingBase */
+     , (30351,   8,  100668815) /* Icon */
+     , (30351,  22,  872415275) /* PhysicsEffectTable */;

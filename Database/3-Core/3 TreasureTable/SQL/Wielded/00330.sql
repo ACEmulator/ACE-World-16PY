@@ -1,10 +1,9 @@
-INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
-VALUES (330, 308 /* Budiaq */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (330, 339 /* Scimitar */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (330, 340 /* Shamshir */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (330, 348 /* Spear */, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (330, 353 /* Tachi */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (330, 362 /* Yari */, 0, 0, 0, 0, 0, 0.4, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (330, 320 /* Javelin */, 0, 0, 0, 4, 0.1, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (330, 317 /* Djarid */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0);
-
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `stack_Size_Variance`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `set_Start`, `has_Sub_Set`, `continues_Previous_Set`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (330,   308,  0, 0,    0, 0, 0,     0.1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Budiaq */
+     , (330,   339,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Scimitar */
+     , (330,   340,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Shamshir */
+     , (330,   348,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Spear */
+     , (330,   353,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Tachi */
+     , (330,   362,  0, 0,    0, 0, 0,     0.4, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Yari */
+     , (330,   320,  0, 0,    0, 4, 0.1,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Javelin */
+     , (330,   317,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Djarid */;

@@ -1,49 +1,45 @@
-/* Weenie - Niffis Shell Helm (10701) */
-DELETE FROM weenie WHERE class_Id = 10701;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10701, 'helmetniffis', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10701, 001 /* NAME_STRING */, 'Niffis Shell Helm')
-     , (10701, 015 /* SHORT_DESC_STRING */, 'A Niffis Shell Helmet.')
-     , (10701, 016 /* LONG_DESC_STRING */, 'A Niffis Shell Helmet.  It is unusally light, and very well ventilated.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10701, 001 /* SETUP_DID */, 33556883)
-     , (10701, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10701, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (10701, 007 /* CLOTHINGBASE_DID */, 268436186)
-     , (10701, 008 /* ICON_DID */, 100668243)
-     , (10701, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10701', 'helmetniffis', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10701, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (10701, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (10701, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (10701, 005 /* ENCUMB_VAL_INT */, 250)
-     , (10701, 008 /* MASS_INT */, 125)
-     , (10701, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (10701, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10701, 019 /* VALUE_INT */, 6500)
-     , (10701, 027 /* ARMOR_TYPE_INT */, 4)
-     , (10701, 028 /* ARMOR_LEVEL_INT */, 210)
-     , (10701, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (10701, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (10701, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10701, 012 /* SHADE_FLOAT */, 0.66)
-     , (10701, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (10701, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (10701, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (10701, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (10701, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (10701, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.5)
-     , (10701, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.9)
-     , (10701, 110 /* BULK_MOD_FLOAT */, 1)
-     , (10701, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (10701,   1,          2) /* ItemType - Armor */
+     , (10701,   3,         20) /* PaletteTemplate - Silver */
+     , (10701,   4,      16384) /* ClothingPriority - Head */
+     , (10701,   5,        250) /* EncumbranceVal */
+     , (10701,   8,        125) /* Mass */
+     , (10701,   9,          1) /* ValidLocations - HeadWear */
+     , (10701,  16,          1) /* ItemUseable - No */
+     , (10701,  19,       6500) /* Value */
+     , (10701,  27,          4) /* ArmorType */
+     , (10701,  28,        210) /* ArmorLevel */
+     , (10701,  93,       1044) /* PhysicsState */
+     , (10701, 150,        103) /* HookPlacement - Hook */
+     , (10701, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10701, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (10701,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10701,  12,    0.66) /* Shade */
+     , (10701,  13,     0.8) /* ArmorModVsSlash */
+     , (10701,  14,       1) /* ArmorModVsPierce */
+     , (10701,  15,       1) /* ArmorModVsBludgeon */
+     , (10701,  16,     0.5) /* ArmorModVsCold */
+     , (10701,  17,     0.8) /* ArmorModVsFire */
+     , (10701,  18,     0.5) /* ArmorModVsAcid */
+     , (10701,  19,     0.9) /* ArmorModVsElectric */
+     , (10701, 110,       1) /* BulkMod */
+     , (10701, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10701,   1, 'Niffis Shell Helm') /* Name */
+     , (10701,  15, 'A Niffis Shell Helmet.') /* ShortDesc */
+     , (10701,  16, 'A Niffis Shell Helmet.  It is unusally light, and very well ventilated.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10701,   1,   33556883) /* Setup */
+     , (10701,   3,  536870932) /* SoundTable */
+     , (10701,   6,   67108990) /* PaletteBase */
+     , (10701,   7,  268436186) /* ClothingBase */
+     , (10701,   8,  100668243) /* Icon */
+     , (10701,  22,  872415275) /* PhysicsEffectTable */;

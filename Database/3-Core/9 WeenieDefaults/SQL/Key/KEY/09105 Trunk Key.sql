@@ -1,34 +1,30 @@
-/* Weenie - Trunk Key (9105) */
-DELETE FROM weenie WHERE class_Id = 9105;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9105, 'keysasalia', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9105, 001 /* NAME_STRING */, 'Trunk Key')
-     , (9105, 013 /* KEY_CODE_STRING */, 'KeySasalia')
-     , (9105, 033 /* QUEST_STRING */, 'Feb01CLQuest11');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9105, 001 /* SETUP_DID */, 33554784)
-     , (9105, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9105, 008 /* ICON_DID */, 100667485)
-     , (9105, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9105', 'keysasalia', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9105, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (9105, 005 /* ENCUMB_VAL_INT */, 20)
-     , (9105, 008 /* MASS_INT */, 20)
-     , (9105, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (9105, 019 /* VALUE_INT */, 5)
-     , (9105, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9105, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (9105, 092 /* STRUCTURE_INT */, 1)
-     , (9105, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9105, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */)
-     , (9105, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (9105,   1,      16384) /* ItemType - Key */
+     , (9105,   5,         20) /* EncumbranceVal */
+     , (9105,   8,         20) /* Mass */
+     , (9105,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (9105,  19,          5) /* Value */
+     , (9105,  33,          1) /* Bonded - Bonded */
+     , (9105,  91,          1) /* MaxStructure */
+     , (9105,  92,          1) /* Structure */
+     , (9105,  93,       1044) /* PhysicsState */
+     , (9105,  94,        640) /* TargetType - LockableMagicTarget */
+     , (9105, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9105, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9105, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9105,  22, True ) /* Inscribable */
+     , (9105,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9105,   1, 'Trunk Key') /* Name */
+     , (9105,  13, 'KeySasalia') /* KeyCode */
+     , (9105,  33, 'Feb01CLQuest11') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9105,   1,   33554784) /* Setup */
+     , (9105,   3,  536870932) /* SoundTable */
+     , (9105,   8,  100667485) /* Icon */
+     , (9105,  22,  872415275) /* PhysicsEffectTable */;

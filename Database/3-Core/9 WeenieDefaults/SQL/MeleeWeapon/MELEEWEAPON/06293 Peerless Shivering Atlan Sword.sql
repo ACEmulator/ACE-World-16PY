@@ -1,64 +1,60 @@
-/* Weenie - Peerless Shivering Atlan Sword (6293) */
-DELETE FROM weenie WHERE class_Id = 6293;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6293, 'swordbestshiveringminor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6293, 001 /* NAME_STRING */, 'Peerless Shivering Atlan Sword');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6293, 001 /* SETUP_DID */, 33556345)
-     , (6293, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6293, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6293, 007 /* CLOTHINGBASE_DID */, 268435924)
-     , (6293, 008 /* ICON_DID */, 100670568)
-     , (6293, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6293, 037 /* ITEM_SKILL_LIMIT_DID */, 11);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6293', 'swordbestshiveringminor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6293, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6293, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (6293, 005 /* ENCUMB_VAL_INT */, 450)
-     , (6293, 008 /* MASS_INT */, 500)
-     , (6293, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6293, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6293, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6293, 019 /* VALUE_INT */, 5000)
-     , (6293, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6293, 044 /* DAMAGE_INT */, 20)
-     , (6293, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (6293, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6293, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (6293, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (6293, 049 /* WEAPON_TIME_INT */, 35)
-     , (6293, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6293, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6293, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (6293, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (6293, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (6293, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200)
-     , (6293, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6293, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6293, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (6293, 021 /* WEAPON_LENGTH_FLOAT */, 1)
-     , (6293, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (6293, 029 /* WEAPON_DEFENSE_FLOAT */, 1.07)
-     , (6293, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6293, 062 /* WEAPON_OFFENSE_FLOAT */, 1.07);
+VALUES (6293,   1,          1) /* ItemType - MeleeWeapon */
+     , (6293,   3,          2) /* PaletteTemplate - Blue */
+     , (6293,   5,        450) /* EncumbranceVal */
+     , (6293,   8,        500) /* Mass */
+     , (6293,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6293,  16,          1) /* ItemUseable - No */
+     , (6293,  18,          1) /* UiEffects - Magical */
+     , (6293,  19,       5000) /* Value */
+     , (6293,  33,          1) /* Bonded - Bonded */
+     , (6293,  44,         20) /* Damage */
+     , (6293,  45,          8) /* DamageType - Cold */
+     , (6293,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6293,  47,          6) /* AttackType */
+     , (6293,  48,         11) /* WeaponSkill - Sword */
+     , (6293,  49,         35) /* WeaponTime */
+     , (6293,  51,          1) /* CombatUse - Melee */
+     , (6293,  93,       1044) /* PhysicsState */
+     , (6293, 106,        100) /* ItemSpellcraft */
+     , (6293, 107,        500) /* ItemCurMana */
+     , (6293, 108,        500) /* ItemMaxMana */
+     , (6293, 115,        200) /* ItemSkillLevelLimit */
+     , (6293, 150,        103) /* HookPlacement - Hook */
+     , (6293, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6293, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6293, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6293, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6293,  22, True ) /* Inscribable */
+     , (6293,  23, True ) /* DestroyOnSell */
+     , (6293,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6293,   5,  -0.025) /* ManaRate */
+     , (6293,  21,       1) /* WeaponLength */
+     , (6293,  22,     0.5) /* DamageVariance */
+     , (6293,  29,    1.07) /* WeaponDefense */
+     , (6293,  39,       1) /* DefaultScale */
+     , (6293,  62,    1.07) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6293,   1, 'Peerless Shivering Atlan Sword') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6293,   1,   33556345) /* Setup */
+     , (6293,   3,  536870932) /* SoundTable */
+     , (6293,   6,   67111919) /* PaletteBase */
+     , (6293,   7,  268435924) /* ClothingBase */
+     , (6293,   8,  100670568) /* Icon */
+     , (6293,  22,  872415275) /* PhysicsEffectTable */
+     , (6293,  37,         11) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6293, 1399, 2) /* QuicknessSelf3_SpellID */
-     , (6293, 1032, 2) /* ColdProtectionSelf3_SpellID */
-     , (6293, 1602, 2) /* Defender3_SpellID */
-     , (6293, 1589, 2) /* HeartSeeker3_SpellID */
-     , (6293, 1613, 2) /* BloodDrinker3_SpellID */
-     , (6293, 1624, 2) /* SwiftKiller3_SpellID */;
-
+VALUES (6293,  1032,      2)  /* Cold Protection Self III */
+     , (6293,  1399,      2)  /* Quickness Self III */
+     , (6293,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (6293,  1602,      2)  /* Aura of Defender Self III */
+     , (6293,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6293,  1624,      2)  /* Aura of Swift Killer Self III */;

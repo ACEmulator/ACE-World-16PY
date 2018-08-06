@@ -1,52 +1,48 @@
-/* Weenie - Studded Leather Boots (116) */
-DELETE FROM weenie WHERE class_Id = 116;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (116, 'bootsreinforcedleather', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (116, 001 /* NAME_STRING */, 'Studded Leather Boots');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (116, 001 /* SETUP_DID */, 33554640)
-     , (116, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (116, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (116, 007 /* CLOTHINGBASE_DID */, 268435542)
-     , (116, 008 /* ICON_DID */, 100668177)
-     , (116, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (116, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (116, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('116', 'bootsreinforcedleather', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (116, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (116, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (116, 004 /* CLOTHING_PRIORITY_INT */, 65536 /* Feet */)
-     , (116, 005 /* ENCUMB_VAL_INT */, 690)
-     , (116, 008 /* MASS_INT */, 230)
-     , (116, 009 /* LOCATIONS_INT */, 384 /* LOWER_LEG_WEAR_LOC, FOOT_WEAR_LOC */)
-     , (116, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (116, 019 /* VALUE_INT */, 210)
-     , (116, 027 /* ARMOR_TYPE_INT */, 4)
-     , (116, 028 /* ARMOR_LEVEL_INT */, 30)
-     , (116, 044 /* DAMAGE_INT */, 2)
-     , (116, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (116, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (116, 169 /* TSYS_MUTATION_DATA_INT */, 185271566);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (116, 012 /* SHADE_FLOAT */, 0.1)
-     , (116, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
-     , (116, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.1)
-     , (116, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (116, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (116, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (116, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (116, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2)
-     , (116, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (116, 110 /* BULK_MOD_FLOAT */, 1.5)
-     , (116, 111 /* SIZE_MOD_FLOAT */, 2);
+VALUES (116,   1,          2) /* ItemType - Armor */
+     , (116,   3,          4) /* PaletteTemplate - Brown */
+     , (116,   4,      65536) /* ClothingPriority - Feet */
+     , (116,   5,        690) /* EncumbranceVal */
+     , (116,   8,        230) /* Mass */
+     , (116,   9,        384) /* ValidLocations */
+     , (116,  16,          1) /* ItemUseable - No */
+     , (116,  19,        210) /* Value */
+     , (116,  27,          4) /* ArmorType */
+     , (116,  28,         30) /* ArmorLevel */
+     , (116,  44,          2) /* Damage */
+     , (116,  45,          4) /* DamageType - Bludgeon */
+     , (116,  93,       1044) /* PhysicsState */
+     , (116, 169,  185271566) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (116, 022 /* INSCRIBABLE_BOOL */, True)
-     , (116, 100 /* DYABLE_BOOL */, True);
+VALUES (116,  22, True ) /* Inscribable */
+     , (116, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (116,  12,     0.1) /* Shade */
+     , (116,  13,     1.2) /* ArmorModVsSlash */
+     , (116,  14,     1.1) /* ArmorModVsPierce */
+     , (116,  15,       1) /* ArmorModVsBludgeon */
+     , (116,  16,     0.2) /* ArmorModVsCold */
+     , (116,  17,     0.2) /* ArmorModVsFire */
+     , (116,  18,     0.1) /* ArmorModVsAcid */
+     , (116,  19,     0.2) /* ArmorModVsElectric */
+     , (116,  22,    0.75) /* DamageVariance */
+     , (116, 110,     1.5) /* BulkMod */
+     , (116, 111,       2) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (116,   1, 'Studded Leather Boots') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (116,   1,   33554640) /* Setup */
+     , (116,   3,  536870932) /* SoundTable */
+     , (116,   6,   67108990) /* PaletteBase */
+     , (116,   7,  268435542) /* ClothingBase */
+     , (116,   8,  100668177) /* Icon */
+     , (116,  22,  872415275) /* PhysicsEffectTable */
+     , (116,  36,  234881042) /* MutateFilter */
+     , (116,  46,  939524146) /* TsysMutationFilter */;

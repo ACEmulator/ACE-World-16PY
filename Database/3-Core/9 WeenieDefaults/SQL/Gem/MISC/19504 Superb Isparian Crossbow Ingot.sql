@@ -1,41 +1,37 @@
-/* Weenie - Superb Isparian Crossbow Ingot (19504) */
-DELETE FROM weenie WHERE class_Id = 19504;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19504, 'ingotcrossbowispariansuperb', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19504, 001 /* NAME_STRING */, 'Superb Isparian Crossbow Ingot')
-     , (19504, 015 /* SHORT_DESC_STRING */, 'An diamond infused ingot, enhanced and stamped with an crossbow glyph.')
-     , (19504, 016 /* LONG_DESC_STRING */, 'An diamond infused ingot, enhanced and stamped with an crossbow glyph.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19504, 001 /* SETUP_DID */, 33555677)
-     , (19504, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19504, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19504, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (19504, 008 /* ICON_DID */, 100672974)
-     , (19504, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19504', 'ingotcrossbowispariansuperb', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19504, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19504, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (19504, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (19504, 008 /* MASS_INT */, 1000)
-     , (19504, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19504, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (19504, 012 /* STACK_SIZE_INT */, 1)
-     , (19504, 013 /* STACK_UNIT_ENCUMB_INT */, 1000)
-     , (19504, 014 /* STACK_UNIT_MASS_INT */, 1000)
-     , (19504, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (19504, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19504, 019 /* VALUE_INT */, 0)
-     , (19504, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19504, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19504, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (19504,   1,        128) /* ItemType - Misc */
+     , (19504,   3,          8) /* PaletteTemplate - Green */
+     , (19504,   5,       1000) /* EncumbranceVal */
+     , (19504,   8,       1000) /* Mass */
+     , (19504,   9,          0) /* ValidLocations - None */
+     , (19504,  11,          1) /* MaxStackSize */
+     , (19504,  12,          1) /* StackSize */
+     , (19504,  13,       1000) /* StackUnitEncumbrance */
+     , (19504,  14,       1000) /* StackUnitMass */
+     , (19504,  15,          0) /* StackUnitValue */
+     , (19504,  16,          1) /* ItemUseable - No */
+     , (19504,  19,          0) /* Value */
+     , (19504,  33,          1) /* Bonded - Bonded */
+     , (19504,  93,       1044) /* PhysicsState */
+     , (19504, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19504, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19504, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19504, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19504,  22, True ) /* Inscribable */
+     , (19504,  23, True ) /* DestroyOnSell */
+     , (19504,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19504,   1, 'Superb Isparian Crossbow Ingot') /* Name */
+     , (19504,  15, 'An diamond infused ingot, enhanced and stamped with an crossbow glyph.') /* ShortDesc */
+     , (19504,  16, 'An diamond infused ingot, enhanced and stamped with an crossbow glyph.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19504,   1,   33555677) /* Setup */
+     , (19504,   3,  536870932) /* SoundTable */
+     , (19504,   6,   67111919) /* PaletteBase */
+     , (19504,   7,  268435723) /* ClothingBase */
+     , (19504,   8,  100672974) /* Icon */
+     , (19504,  22,  872415275) /* PhysicsEffectTable */;

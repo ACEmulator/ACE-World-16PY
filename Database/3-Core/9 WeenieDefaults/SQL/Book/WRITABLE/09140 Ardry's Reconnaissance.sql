@@ -1,38 +1,35 @@
-/* Weenie - Ardry's Reconnaissance (9140) */
-DELETE FROM weenie WHERE class_Id = 9140;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9140, 'noteardryrecon', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9140, 001 /* NAME_STRING */, 'Ardry''s Reconnaissance')
-     , (9140, 015 /* SHORT_DESC_STRING */, 'A note from Ardry the Dubious.')
-     , (9140, 016 /* LONG_DESC_STRING */, 'A note from Ardry the Dubious.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9140, 001 /* SETUP_DID */, 33554773)
-     , (9140, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9140, 008 /* ICON_DID */, 100668176)
-     , (9140, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9140', 'noteardryrecon', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9140, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (9140, 005 /* ENCUMB_VAL_INT */, 25)
-     , (9140, 008 /* MASS_INT */, 5)
-     , (9140, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9140, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (9140, 019 /* VALUE_INT */, 10)
-     , (9140, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9140, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (9140,   1,       8192) /* ItemType - Writable */
+     , (9140,   5,         25) /* EncumbranceVal */
+     , (9140,   8,          5) /* Mass */
+     , (9140,   9,          0) /* ValidLocations - None */
+     , (9140,  16,          8) /* ItemUseable - Contained */
+     , (9140,  19,         10) /* Value */
+     , (9140,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9140, 001 /* STUCK_BOOL */, True)
-     , (9140, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (9140,   1, True ) /* Stuck */
+     , (9140,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9140,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9140,   1, 'Ardry''s Reconnaissance') /* Name */
+     , (9140,  15, 'A note from Ardry the Dubious.') /* ShortDesc */
+     , (9140,  16, 'A note from Ardry the Dubious.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9140,   1,   33554773) /* Setup */
+     , (9140,   3,  536870932) /* SoundTable */
+     , (9140,   8,  100668176) /* Icon */
+     , (9140,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (9140, 4, 1000) /* Book Data */;
+VALUES (9140, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (9140, 0, 4294967295, 'Ardry the Dubious', 'prewritten', False, 'Fellow explorer,
@@ -47,4 +44,3 @@ What mischief can the Tumeroks be planning?  Some days ago, whilst exploring the
 
 Ardry the Dubious
 ');
-

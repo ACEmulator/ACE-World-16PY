@@ -1,34 +1,30 @@
-/* Weenie - South Hebian-To Cottages Portal (12550) */
-DELETE FROM weenie WHERE class_Id = 12550;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12550, 'portalsouthhebiantocottages', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12550, 001 /* NAME_STRING */, 'South Hebian-To Cottages Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12550, 001 /* SETUP_DID */, 33554867)
-     , (12550, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (12550, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12550', 'portalsouthhebiantocottages', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12550, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (12550, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (12550, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (12550, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (12550, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12550, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (12550,   1,      65536) /* ItemType - Portal */
+     , (12550,  16,         32) /* ItemUseable - Remote */
+     , (12550,  93,       3084) /* PhysicsState */
+     , (12550, 111,          1) /* PortalBitmask - Unrestricted */
+     , (12550, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12550, 001 /* STUCK_BOOL */, True)
-     , (12550, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (12550, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12550, 013 /* ETHEREAL_BOOL */, True)
-     , (12550, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (12550,   1, True ) /* Stuck */
+     , (12550,  11, False) /* IgnoreCollisions */
+     , (12550,  12, True ) /* ReportCollisions */
+     , (12550,  13, True ) /* Ethereal */
+     , (12550,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12550,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12550,   1, 'South Hebian-To Cottages Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12550,   1,   33554867) /* Setup */
+     , (12550,   2,  150994947) /* MotionTable */
+     , (12550,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12550, 2, 3813146684, 183.23, 84.036, 22.736, -0.5126048, 0, 0, -0.8586246) /* DESTINATION_POSITION */;
-
+VALUES (12550, 2, 3813146684, 183.23, 84.036, 22.736, -0.5126048, 0, 0, -0.8586246) /* Destination */;

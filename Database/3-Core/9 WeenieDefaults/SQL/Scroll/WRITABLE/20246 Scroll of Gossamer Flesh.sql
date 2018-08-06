@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Gossamer Flesh (20246) */
-DELETE FROM weenie WHERE class_Id = 20246;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20246, 'scrollimperil7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20246, 001 /* NAME_STRING */, 'Scroll of Gossamer Flesh')
-     , (20246, 015 /* SHORT_DESC_STRING */, 'When learned, this spell decreases the target''s natural armor by 225 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20246, 001 /* SETUP_DID */, 33554826)
-     , (20246, 008 /* ICON_DID */, 100676928)
-     , (20246, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20246, 028 /* SPELL_DID */, 2074 /* ImperilOther7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20246', 'scrollimperil7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20246, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20246, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20246, 008 /* MASS_INT */, 90)
-     , (20246, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20246, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20246, 019 /* VALUE_INT */, 2000)
-     , (20246, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20246, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20246,   1,       8192) /* ItemType - Writable */
+     , (20246,   5,         30) /* EncumbranceVal */
+     , (20246,   8,         90) /* Mass */
+     , (20246,   9,          0) /* ValidLocations - None */
+     , (20246,  16,          8) /* ItemUseable - Contained */
+     , (20246,  19,       2000) /* Value */
+     , (20246,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20246, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20246, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20246,  22, True ) /* Inscribable */
+     , (20246,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20246,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20246,   1, 'Scroll of Gossamer Flesh') /* Name */
+     , (20246,  15, 'When learned, this spell decreases the target''s natural armor by 225 points.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20246,   1,   33554826) /* Setup */
+     , (20246,   8,  100676928) /* Icon */
+     , (20246,  22,  872415275) /* PhysicsEffectTable */
+     , (20246,  28,       2074) /* Spell - Gossamer Flesh */;

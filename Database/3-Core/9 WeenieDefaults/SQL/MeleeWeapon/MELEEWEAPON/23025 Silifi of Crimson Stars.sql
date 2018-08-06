@@ -1,70 +1,66 @@
-/* Weenie - Silifi of Crimson Stars (23025) */
-DELETE FROM weenie WHERE class_Id = 23025;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23025, 'silificrimsonstars234plate', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23025, 001 /* NAME_STRING */, 'Silifi of Crimson Stars')
-     , (23025, 015 /* SHORT_DESC_STRING */, 'An ancient silifi, its blade made from the spine of an Armoredillo. It is fitted with three of the Crimson Star rubies.')
-     , (23025, 016 /* LONG_DESC_STRING */, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Plate Armoredillo. It is fitted with the rubies Al-Khur, Mahwan, and Yujazik.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23025, 001 /* SETUP_DID */, 33556553)
-     , (23025, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23025, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23025, 007 /* CLOTHINGBASE_DID */, 268435986)
-     , (23025, 008 /* ICON_DID */, 100670611)
-     , (23025, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (23025, 036 /* MUTATE_FILTER_DID */, 234881044)
-     , (23025, 037 /* ITEM_SKILL_LIMIT_DID */, 1);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23025', 'silificrimsonstars234plate', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23025, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (23025, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (23025, 005 /* ENCUMB_VAL_INT */, 950)
-     , (23025, 008 /* MASS_INT */, 360)
-     , (23025, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (23025, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23025, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (23025, 019 /* VALUE_INT */, 11900)
-     , (23025, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23025, 044 /* DAMAGE_INT */, 60)
-     , (23025, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (23025, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (23025, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (23025, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (23025, 049 /* WEAPON_TIME_INT */, 70)
-     , (23025, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (23025, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23025, 106 /* ITEM_SPELLCRAFT_INT */, 170)
-     , (23025, 107 /* ITEM_CUR_MANA_INT */, 900)
-     , (23025, 108 /* ITEM_MAX_MANA_INT */, 900)
-     , (23025, 109 /* ITEM_DIFFICULTY_INT */, 110)
-     , (23025, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (23025, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 280)
-     , (23025, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23025, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (23025, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (23025, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (23025, 160 /* WIELD_DIFFICULTY_INT */, 325);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23025, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (23025, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (23025, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (23025, 029 /* WEAPON_DEFENSE_FLOAT */, 1.15)
-     , (23025, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (23025, 062 /* WEAPON_OFFENSE_FLOAT */, 1.15);
+VALUES (23025,   1,          1) /* ItemType - MeleeWeapon */
+     , (23025,   3,         14) /* PaletteTemplate - Red */
+     , (23025,   5,        950) /* EncumbranceVal */
+     , (23025,   8,        360) /* Mass */
+     , (23025,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (23025,  16,          1) /* ItemUseable - No */
+     , (23025,  18,          1) /* UiEffects - Magical */
+     , (23025,  19,      11900) /* Value */
+     , (23025,  33,          1) /* Bonded - Bonded */
+     , (23025,  44,         60) /* Damage */
+     , (23025,  45,         64) /* DamageType - Electric */
+     , (23025,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (23025,  47,          4) /* AttackType - Slash */
+     , (23025,  48,          1) /* WeaponSkill - Axe */
+     , (23025,  49,         70) /* WeaponTime */
+     , (23025,  51,          1) /* CombatUse - Melee */
+     , (23025,  93,       1044) /* PhysicsState */
+     , (23025, 106,        170) /* ItemSpellcraft */
+     , (23025, 107,        900) /* ItemCurMana */
+     , (23025, 108,        900) /* ItemMaxMana */
+     , (23025, 109,        110) /* ItemDifficulty */
+     , (23025, 114,          1) /* Attuned - Attuned */
+     , (23025, 115,        280) /* ItemSkillLevelLimit */
+     , (23025, 150,        103) /* HookPlacement - Hook */
+     , (23025, 151,          2) /* HookType - Wall */
+     , (23025, 158,          2) /* WieldRequirements - RawSkill */
+     , (23025, 159,          1) /* WieldSkilltype - Axe */
+     , (23025, 160,        325) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23025, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23025, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (23025, 069 /* IS_SELLABLE_BOOL */, False)
-     , (23025, 099 /* IVORYABLE_BOOL */, True);
+VALUES (23025,  22, True ) /* Inscribable */
+     , (23025,  23, True ) /* DestroyOnSell */
+     , (23025,  69, False) /* IsSellable */
+     , (23025,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23025,   5,   -0.05) /* ManaRate */
+     , (23025,  21,    0.95) /* WeaponLength */
+     , (23025,  22,     0.5) /* DamageVariance */
+     , (23025,  29,    1.15) /* WeaponDefense */
+     , (23025,  39,    1.25) /* DefaultScale */
+     , (23025,  62,    1.15) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23025,   1, 'Silifi of Crimson Stars') /* Name */
+     , (23025,  15, 'An ancient silifi, its blade made from the spine of an Armoredillo. It is fitted with three of the Crimson Star rubies.') /* ShortDesc */
+     , (23025,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Plate Armoredillo. It is fitted with the rubies Al-Khur, Mahwan, and Yujazik.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23025,   1,   33556553) /* Setup */
+     , (23025,   3,  536870932) /* SoundTable */
+     , (23025,   6,   67111919) /* PaletteBase */
+     , (23025,   7,  268435986) /* ClothingBase */
+     , (23025,   8,  100670611) /* Icon */
+     , (23025,  22,  872415275) /* PhysicsEffectTable */
+     , (23025,  36,  234881044) /* MutateFilter */
+     , (23025,  37,          1) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23025, 1605, 2) /* Defender6_SpellID */
-     , (23025, 1096, 2) /* FireProtectionOther6_SpellID */
-     , (23025, 1616, 2) /* BloodDrinker6_SpellID */;
-
+VALUES (23025,  1096,      2)  /* Fire Protection Other VI */
+     , (23025,  1605,      2)  /* Aura of Defender Self VI */
+     , (23025,  1616,      2)  /* Aura of Blood Drinker Self VI */;

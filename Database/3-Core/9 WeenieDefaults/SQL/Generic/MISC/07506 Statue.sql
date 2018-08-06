@@ -1,33 +1,29 @@
-/* Weenie - Statue (7506) */
-DELETE FROM weenie WHERE class_Id = 7506;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7506, 'aerlinthestatue3', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7506, 001 /* NAME_STRING */, 'Statue');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7506, 001 /* SETUP_DID */, 33556584)
-     , (7506, 006 /* PALETTE_BASE_DID */, 67110722)
-     , (7506, 007 /* CLOTHINGBASE_DID */, 268435558)
-     , (7506, 008 /* ICON_DID */, 100667494);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7506', 'aerlinthestatue3', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7506, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (7506, 003 /* PALETTE_TEMPLATE_INT */, 9 /* GREY_PALETTE_TEMPLATE */)
-     , (7506, 005 /* ENCUMB_VAL_INT */, 900)
-     , (7506, 008 /* MASS_INT */, 800)
-     , (7506, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7506, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7506, 019 /* VALUE_INT */, 0)
-     , (7506, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7506, 012 /* SHADE_FLOAT */, 0.5);
+VALUES (7506,   1,        128) /* ItemType - Misc */
+     , (7506,   3,          9) /* PaletteTemplate - Grey */
+     , (7506,   5,        900) /* EncumbranceVal */
+     , (7506,   8,        800) /* Mass */
+     , (7506,   9,          0) /* ValidLocations - None */
+     , (7506,  16,          1) /* ItemUseable - No */
+     , (7506,  19,          0) /* Value */
+     , (7506,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7506, 001 /* STUCK_BOOL */, True)
-     , (7506, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (7506, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (7506,   1, True ) /* Stuck */
+     , (7506,  14, True ) /* GravityStatus */
+     , (7506,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7506,  12,     0.5) /* Shade */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7506,   1, 'Statue') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7506,   1,   33556584) /* Setup */
+     , (7506,   6,   67110722) /* PaletteBase */
+     , (7506,   7,  268435558) /* ClothingBase */
+     , (7506,   8,  100667494) /* Icon */;
