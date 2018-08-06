@@ -71,7 +71,7 @@ VALUES (9256, 1881800704, 44040457, 5.65253, -80.115, -23.995, -0.762061, 0, 0, 
      , (9254, 1881800773, 44040931, 268.221, -260.757, 0.006, -0.774906, 0, 0, 0.632077) /* Ancient Mu-miyah */
      , (9257, 1881800774, 44040941, 283.579, -329.981, 0.005, -0.649021, 0, 0, 0.760771) /* Silt Lurker */
      , (9256, 1881800775, 44040943, 293.7, -270.147, 0.005, 0.714487, 0, 0, -0.699649) /* Dune Reaver */
-     , (4219, 1881800776, 44040955, 289.826, -354.756, 0.005, -0.983513, 0, 0, 0.180838) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1881800776, 44040955, 289.826, -354.756, 0.005, -0.983513, 0, 0, 0.180838) /* linkmonstergen7minutes */
      , (9200, 1881800777, 44040958, 285.267, -350.053, 0.005, 0.699516, 0, 0, -0.714617) /* Surface */
      , (9257, 1881800778, 44040967, 312.721, -289.622, 0.005, -0.636046, 0, 0, 0.771651) /* Silt Lurker */
      , (9257, 1881800779, 44040976, 320.248, -322.878, 0.005, -0.020742, 0, 0, -0.999785) /* Silt Lurker */
@@ -79,83 +79,83 @@ VALUES (9256, 1881800704, 44040457, 5.65253, -80.115, -23.995, -0.762061, 0, 0, 
      , (9257, 1881800781, 44040988, 340.06, -292.829, 0.005, -0.012536, 0, 0, -0.999921) /* Silt Lurker */
      , (9256, 1881800782, 44040995, 345.732, -329.811, 0.005, 0.70702, 0, 0, 0.707194) /* Dune Reaver */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881800776'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881800776'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800774'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800780'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800779'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800782'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800781'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800778'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800775'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800772'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800773'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800770'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800769'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800771'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800766'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800767'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800768'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800761'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800762'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800765'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800763'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800764'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800759'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800760'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800757'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800758'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800755'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800756'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800753'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800750'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800752'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800748'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800754'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800751'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800749'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800747'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800746'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800731'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800739'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800732'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800740'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800735'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800733'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800734'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800736'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800737'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800742'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800738'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800741'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800743'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800744'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800745'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800730'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800729'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800728'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800721'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800722'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800723'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800724'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800727'; /* Linkable Monster Generator ( 7 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800726'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800725'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800719'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800718'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800720'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800715'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800716'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800717'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800714'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800706'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800707'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800708'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800704'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800705'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800712'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800713'; /* Linkable Monster Generator ( 7 Min.) <- Dune Reaver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800709'; /* Linkable Monster Generator ( 7 Min.) <- Dread Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800710'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800711'; /* Linkable Monster Generator ( 7 Min.) <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800774'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800780'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800779'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800782'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800781'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800778'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800775'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800772'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800773'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800770'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800769'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800771'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800766'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800767'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800768'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800761'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800762'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800765'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800763'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800764'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800759'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800760'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800757'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800758'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800755'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800756'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800753'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800750'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800752'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800748'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800754'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800751'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800749'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800747'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800746'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800731'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800739'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800732'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800740'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800735'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800733'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800734'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800736'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800737'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800742'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800738'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800741'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800743'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800744'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800745'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800730'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800729'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800728'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800721'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800722'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800723'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800724'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800727'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800726'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800725'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800719'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800718'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800720'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800715'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800716'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800717'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800714'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800706'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800707'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800708'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800704'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800705'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800712'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800713'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800709'; /* linkmonstergen7minutes <- Dread Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800710'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881800711'; /* linkmonstergen7minutes <- Ancient Mu-miyah */
 

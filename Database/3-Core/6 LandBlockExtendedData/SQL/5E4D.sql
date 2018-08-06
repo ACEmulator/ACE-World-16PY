@@ -4,7 +4,7 @@ VALUES (25711, 1977929728, 1582104837, 10.9106, -30.881, -5.995, -0.999135, 0, 0
      , (25716, 1977929730, 1582104839, 10, -50, -5, 1, 0, 0, 0) /* Encrusted Scrollcase */
      , (2180, 1977929731, 1582104841, 10, -65.25, -6, 1, 0, 0, 0) /* Door */
      , (25712, 1977929732, 1582104841, 9.01727, -68.7589, -5.995, 0.04578, 0, 0, 0.998952) /* Klaus */
-     , (4219, 1977929733, 1582104841, 11.023, -69.114, -5.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1977929733, 1582104841, 11.023, -69.114, -5.995, 1, 0, 0, 0) /* linkmonstergen7minutes */
      , (25727, 1977929734, 1582104846, 23.2239, -50.0646, -5.995, 0.688432, 0, 0, -0.725301) /* Undisclosed Location */
      , (143, 1977929735, 1582104909, 42, -38.5, 0.005, 1, 0, 0, 0) /* Chest */
      , (143, 1977929736, 1582104909, 38, -38.5, 0.005, 1, 0, 0, 0) /* Chest */
@@ -195,7 +195,7 @@ VALUES (25711, 1977929728, 1582104837, 10.9106, -30.881, -5.995, -0.999135, 0, 0
      , (4132, 1977929920, 1582105015, 159.683, -73.0271, 0.01, -0.403903, 0, 0, -0.914802) /* Russet Rat */
      , (25725, 1977929921, 1582105016, 155.786, -78.6688, 2.252, 0.412811, 0, 0, 0.910817) /* Torch */
      , (25725, 1977929922, 1582105016, 161.366, -84.2555, 2.1985, 0.412811, 0, 0, 0.910817) /* Torch */
-     , (15759, 1977929923, 1582105020, 162.415, -89.9466, 0.005, 0.997779, 0, 0, 0.0666169) /* Linkable Item Generator */
+     , (15759, 1977929923, 1582105020, 162.415, -89.9466, 0.005, 0.997779, 0, 0, 0.0666169) /* linkitemgen10seconds */
      , (25718, 1977929924, 1582105020, 160.865, -86.264, 2.265, -0.939693, 0, 0, -0.34202) /* Key Ring */
      , (25725, 1977929925, 1582105020, 160.135, -86.9842, 2.21187, 0.930508, 0, 0, 0.366273) /* Torch */
      , (25725, 1977929926, 1582105020, 155.683, -91.4254, 2.13162, 0.930508, 0, 0, 0.366273) /* Torch */
@@ -211,107 +211,107 @@ VALUES (25711, 1977929728, 1582104837, 10.9106, -30.881, -5.995, -0.999135, 0, 0
      , (25706, 1977929936, 1582105028, 166.448, -89.4057, 0.005, 0.893073, 0, 0, 0.449912) /* Broken Fishing Pole */
      , (25704, 1977929937, 1582105028, 165.25, -90, 0.005, -0.707107, 0, 0, 0.707107) /* Prison Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1977929733'; /* Linkable Monster Generator ( 7 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1977929923'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1977929733'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1977929923'; /* linkitemgen10seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929732'; /* Linkable Monster Generator ( 7 Min.) <- Klaus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929728'; /* Linkable Monster Generator ( 7 Min.) <- Argyle */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929935'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929914'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929795'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929796'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929797'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929798'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929932'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929799'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929800'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929787'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929930'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929851'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929850'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929853'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929852'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929854'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929849'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929901'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929760'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929920'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929758'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929759'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929756'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929757'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929755'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929808'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929908'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929730'; /* Linkable Monster Generator ( 7 Min.) <- Encrusted Scrollcase */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929922'; /* Linkable Monster Generator ( 7 Min.) <- Torch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929921'; /* Linkable Monster Generator ( 7 Min.) <- Torch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929926'; /* Linkable Monster Generator ( 7 Min.) <- Torch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929925'; /* Linkable Monster Generator ( 7 Min.) <- Torch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929910'; /* Linkable Monster Generator ( 7 Min.) <- Torch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929924'; /* Linkable Monster Generator ( 7 Min.) <- Key Ring */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929909'; /* Linkable Monster Generator ( 7 Min.) <- Torch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929912'; /* Linkable Monster Generator ( 7 Min.) <- Torch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929911'; /* Linkable Monster Generator ( 7 Min.) <- Torch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929813'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929812'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929863'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929811'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929864'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929810'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929865'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929809'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929771'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929770'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929773'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929772'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929934'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929769'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929741'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929889'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929891'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929890'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929774'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929928'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929906'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929893'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929892'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929866'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929867'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929868'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929746'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929744'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929745'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929742'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929743'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929837'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929836'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929835'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929894'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929918'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929840'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929839'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929838'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929826'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929904'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929899'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929821'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929822'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929823'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929824'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929825'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929916'; /* Linkable Monster Generator ( 7 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929876'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929785'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929786'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929878'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929783'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929877'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929784'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929880'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929879'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929782'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929881'; /* Linkable Monster Generator ( 7 Min.) <- Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1977929936'; /* Linkable Item Generator <- Broken Fishing Pole */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1977929938'; /* Linkable Item Generator <- Bandit Mask */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929732'; /* linkmonstergen7minutes <- Klaus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929728'; /* linkmonstergen7minutes <- Argyle */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929935'; /* linkmonstergen7minutes <- Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929914'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929795'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929796'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929797'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929798'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929932'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929799'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929800'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929787'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929930'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929851'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929850'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929853'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929852'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929854'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929849'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929901'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929760'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929920'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929758'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929759'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929756'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929757'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929755'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929808'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929908'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929730'; /* linkmonstergen7minutes <- Encrusted Scrollcase */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929922'; /* linkmonstergen7minutes <- Torch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929921'; /* linkmonstergen7minutes <- Torch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929926'; /* linkmonstergen7minutes <- Torch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929925'; /* linkmonstergen7minutes <- Torch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929910'; /* linkmonstergen7minutes <- Torch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929924'; /* linkmonstergen7minutes <- Key Ring */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929909'; /* linkmonstergen7minutes <- Torch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929912'; /* linkmonstergen7minutes <- Torch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929911'; /* linkmonstergen7minutes <- Torch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929813'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929812'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929863'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929811'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929864'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929810'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929865'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929809'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929771'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929770'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929773'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929772'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929934'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929769'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929741'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929889'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929891'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929890'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929774'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929928'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929906'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929893'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929892'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929866'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929867'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929868'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929746'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929744'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929745'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929742'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929743'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929837'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929836'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929835'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929894'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929918'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929840'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929839'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929838'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929826'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929904'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929899'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929821'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929822'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929823'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929824'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929825'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929916'; /* linkmonstergen7minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929876'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929785'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929786'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929878'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929783'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929877'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929784'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929880'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929879'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929782'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977929881'; /* linkmonstergen7minutes <- Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1977929936'; /* linkitemgen10seconds <- Broken Fishing Pole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1977929938'; /* linkitemgen10seconds <- Bandit Mask */
 

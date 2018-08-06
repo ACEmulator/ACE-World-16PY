@@ -2,7 +2,7 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (7551, 1882091520, 48693505, 250.757, -330.022, 0.01, 0.696707, 0, 0, -0.717356) /* Extas Raider */
      , (7551, 1882091521, 48693506, 253.234, -340.197, 0.01, 0.834632, 0, 0, -0.550809) /* Extas Raider */
      , (7551, 1882091522, 48693506, 251.774, -336.076, 0.01, 0.808595, 0, 0, -0.588365) /* Extas Raider */
-     , (7624, 1882091523, 48693506, 248.598, -339.228, 0.005, 0.784372, 0, 0, -0.620291) /* Chorizite Deposit High Grade Generator */
+     , (7624, 1882091523, 48693506, 248.598, -339.228, 0.005, 0.784372, 0, 0, -0.620291) /* chorizitedepositcgen */
      , (7551, 1882091524, 48693512, 272.752, -330.183, 0.01, -0.70103, 0, 0, 0.713132) /* Extas Raider */
      , (7552, 1882091525, 48693513, 268.596, -359.672, 0.01, 0.62161, 0, 0, -0.783327) /* Gigas Raider */
      , (7552, 1882091526, 48693513, 266.003, -361.251, 0.01, 0.651271, 0, 0, -0.758846) /* Gigas Raider */
@@ -15,7 +15,7 @@ VALUES (7551, 1882091520, 48693505, 250.757, -330.022, 0.01, 0.696707, 0, 0, -0.
      , (7562, 1882091533, 48693528, 309.172, -448.405, 0.005, 0.999973, 0, 0, -0.0073129) /* Magic trap */
      , (7561, 1882091534, 48693528, 311.863, -448.292, 0.005, 0.76011, 0, 0, -0.649794) /* Magic trap */
      , (7551, 1882091535, 48693530, 323.573, -117.365, 0.01, -0.563768, 0, 0, 0.825933) /* Extas Raider */
-     , (7624, 1882091536, 48693530, 319.8, -120.955, 0.005, 0.743347, 0, 0, 0.668906) /* Chorizite Deposit High Grade Generator */
+     , (7624, 1882091536, 48693530, 319.8, -120.955, 0.005, 0.743347, 0, 0, 0.668906) /* chorizitedepositcgen */
      , (7551, 1882091537, 48693535, 318.287, -450.998, 0.01, -0.787824, 0, 0, -0.6159) /* Extas Raider */
      , (7552, 1882091538, 48693535, 320.872, -450.423, 0.01, -0.802878, 0, 0, -0.596143) /* Gigas Raider */
      , (7552, 1882091539, 48693535, 319.864, -452.655, 0.01, -0.581066, 0, 0, -0.813857) /* Gigas Raider */
@@ -24,7 +24,7 @@ VALUES (7551, 1882091520, 48693505, 250.757, -330.022, 0.01, 0.696707, 0, 0, -0.
      , (7552, 1882091542, 48693551, 348.235, -341.668, 0.01, 0.125917, 0, 0, 0.992041) /* Gigas Raider */
      , (7552, 1882091543, 48693551, 348.824, -339.449, 0.01, 0.436092, 0, 0, 0.899902) /* Gigas Raider */
      , (7552, 1882091544, 48693551, 352.725, -340.734, 0.01, -0.442035, 0, 0, 0.896998) /* Gigas Raider */
-     , (7923, 1882091545, 48693552, 350, -350, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1882091545, 48693552, 350, -350, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (7552, 1882091546, 48693566, 359.74, -420.9, 0.01, 0.242665, 0, 0, 0.97011) /* Gigas Raider */
      , (7552, 1882091547, 48693566, 361.674, -421.382, 0.01, 0.404209, 0, 0, 0.914667) /* Gigas Raider */
      , (7551, 1882091548, 48693572, 382.345, -99.6532, 0.01, 0.566107, 0, 0, -0.824332) /* Extas Raider */
@@ -45,7 +45,7 @@ VALUES (7551, 1882091520, 48693505, 250.757, -330.022, 0.01, 0.696707, 0, 0, -0.
      , (7551, 1882091563, 48693644, 441.25, -319.289, 0.01, 0.984727, 0, 0, 0.174108) /* Extas Raider */
      , (7551, 1882091564, 48693647, 438.193, -357.115, 0.01, 0.944957, 0, 0, 0.327195) /* Extas Raider */
      , (7551, 1882091565, 48693647, 435.734, -359.951, 0.01, 0.944957, 0, 0, 0.327195) /* Extas Raider */
-     , (7624, 1882091566, 48693647, 440.326, -360.993, 0.005, 0.641886, 0, 0, -0.7668) /* Chorizite Deposit High Grade Generator */
+     , (7624, 1882091566, 48693647, 440.326, -360.993, 0.005, 0.641886, 0, 0, -0.7668) /* chorizitedepositcgen */
      , (7551, 1882091567, 48693659, 450, -200, 0.01, 0.962425, 0, 0, 0.271547) /* Extas Raider */
      , (7551, 1882091568, 48693659, 451.119, -201.825, 0.01, 0.962425, 0, 0, 0.271547) /* Extas Raider */
      , (7551, 1882091569, 48693663, 460, -40, 0.01, 0.169967, 0, 0, 0.98545) /* Extas Raider */
@@ -57,7 +57,7 @@ VALUES (7551, 1882091520, 48693505, 250.757, -330.022, 0.01, 0.696707, 0, 0, -0.
      , (7551, 1882091575, 48693677, 482.871, -278.286, 0.01, -0.98081, 0, 0, -0.194968) /* Extas Raider */
      , (7551, 1882091576, 48693679, 485.266, -277.976, 0.055, -0.957108, 0, 0, -0.289731) /* Extas Raider */
      , (7551, 1882091577, 48693679, 485.777, -276.428, 0.01, -0.930083, 0, 0, -0.36735) /* Extas Raider */
-     , (7624, 1882091578, 48693679, 490.473, -280.471, 0.005, 0.454167, 0, 0, -0.890916) /* Chorizite Deposit High Grade Generator */
+     , (7624, 1882091578, 48693679, 490.473, -280.471, 0.005, 0.454167, 0, 0, -0.890916) /* chorizitedepositcgen */
      , (7552, 1882091579, 48693860, 222.052, -450.13, 12.01, -0.629682, 0, 0, -0.776853) /* Gigas Raider */
      , (2131, 1882091580, 48693860, 216.5, -450, 12.139, 1, 0, 0, 0) /* Pressure Plate */
      , (7561, 1882091581, 48693860, 220, -450, 12.005, 0.640997, 0, 0, -0.767544) /* Magic trap */
@@ -70,7 +70,7 @@ VALUES (7551, 1882091520, 48693505, 250.757, -330.022, 0.01, 0.696707, 0, 0, -0.
      , (7562, 1882091588, 48693887, 281.574, -449.967, 12.005, 0.714421, 0, 0, -0.699716) /* Magic trap */
      , (7613, 1882091589, 48693890, 510, -10, 12.005, 1, 0, 0, 0) /* Surface Portal */
      , (7613, 1882091590, 48693894, 12.5, -570, 18.005, -0.707107, 0, 0, -0.707107) /* Surface Portal */
-     , (3955, 1882091591, 48693904, 20, -550, 18.005, 1, 0, 0, 0) /* Linkable Monster Gen (15 min.) */
+     , (3955, 1882091591, 48693904, 20, -550, 18.005, 1, 0, 0, 0) /* linkmonstergen15minutes */
      , (7552, 1882091592, 48693915, 48.4076, -488.959, 18.01, -0.440632, 0, 0, -0.897688) /* Gigas Raider */
      , (7552, 1882091593, 48693916, 51.5483, -500.069, 18.01, 0.736712, 0, 0, 0.676206) /* Gigas Raider */
      , (7561, 1882091594, 48693922, 70, -500, 18.005, 1, 0, 0, 0) /* Magic trap */
@@ -87,8 +87,8 @@ VALUES (7551, 1882091520, 48693505, 250.757, -330.022, 0.01, 0.696707, 0, 0, -0.
      , (7552, 1882091605, 48693954, 178.94, -453.378, 18.01, 0.643411, 0, 0, 0.765521) /* Gigas Raider */
      , (7552, 1882091606, 48693954, 180.946, -450.899, 18.01, 0.670471, 0, 0, 0.741936) /* Gigas Raider */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882091591'; /* Linkable Monster Gen (15 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882091545'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882091591'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882091545'; /* linkmonstergen3minutes */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1882091588'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1882091581'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1882091594'; /* Magic trap */
@@ -96,73 +96,73 @@ UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `
 UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1882091533'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1882091534'; /* Magic trap */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091592'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091593'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091596'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091597'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091598'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091599'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091600'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091603'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091604'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091605'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091606'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091579'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091582'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091583'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091586'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091585'; /* Linkable Monster Gen (15 min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091584'; /* Linkable Monster Gen (15 min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091537'; /* Linkable Monster Gen (15 min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091538'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091539'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091546'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091547'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091542'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091543'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091544'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091529'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091530'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091525'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091526'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091554'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091555'; /* Linkable Monster Gen (15 min.) <- Gigas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091527'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091528'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091524'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091521'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091522'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091520'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091549'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091562'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091563'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091558'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091559'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091564'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091565'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091552'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091553'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091550'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091551'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091548'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091540'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091541'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091535'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091571'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091572'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091573'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091567'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091568'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091574'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091575'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091576'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091577'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091556'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091557'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091569'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091570'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091560'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091561'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091592'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091593'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091596'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091597'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091598'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091599'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091600'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091603'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091604'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091605'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091606'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091579'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091582'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091583'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091586'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091585'; /* linkmonstergen15minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091584'; /* linkmonstergen15minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091537'; /* linkmonstergen15minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091538'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091539'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091546'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091547'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091542'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091543'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091544'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091529'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091530'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091525'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091526'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091554'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882091555'; /* linkmonstergen15minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091527'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091528'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091524'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091521'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091522'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091520'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091549'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091562'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091563'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091558'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091559'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091564'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091565'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091552'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091553'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091550'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091551'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091548'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091540'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091541'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091535'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091571'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091572'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091573'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091567'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091568'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091574'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091575'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091576'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091577'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091556'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091557'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091569'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091570'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091560'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882091561'; /* linkmonstergen3minutes <- Extas Raider */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882091587'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1882091580'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1882091595'; /* Magic trap <- Pressure Plate */

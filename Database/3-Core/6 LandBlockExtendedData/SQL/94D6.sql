@@ -10,21 +10,21 @@ VALUES (3970, 2035113985, 2497052928, 10.5789, 111.361, 140.889, 1, 0, 0, 0) /* 
      , (215, 2035113988, 2497052672, 13.1115, 106.369, 147.21, -0.958571, 0, 0, -0.284852) /* Blue Phyntos Wasp */
      , (1535, 2035113989, 2497052672, 17.2367, 141.064, 130.251, 0.511035, 0, 0, 0.85956) /* Ethereal Wisp */
      , (942, 2035113990, 2497052672, 20.0983, 107.777, 132.012, 0.717725, 0, 0, -0.696327) /* Wood Golem */
-     , (3955, 2035113991, 2497052672, 30.7177, 111.846, 132.005, -0.674865, 0, 0, -0.737941) /* Linkable Monster Gen (15 min.) */
+     , (3955, 2035113991, 2497052672, 30.7177, 111.846, 132.005, -0.674865, 0, 0, -0.737941) /* linkmonstergen15minutes */
      , (4180, 2035113992, 2497052672, 9.68077, 111.024, 147.206, -0.578764, 0, 0, -0.815495) /* Corpse */
      , (2131, 2035113994, 2497052672, 30.1485, 145.548, 129.894, -4.37114E-08, 0, 0, -1) /* Pressure Plate */;
 
 UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2035113984'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2035113991'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2035113991'; /* linkmonstergen15minutes */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2035113994'; /* Door <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2035113995'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113986'; /* Linkable Monster Gen (15 min.) <- Blue Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113987'; /* Linkable Monster Gen (15 min.) <- Blue Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113988'; /* Linkable Monster Gen (15 min.) <- Blue Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113989'; /* Linkable Monster Gen (15 min.) <- Ethereal Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113990'; /* Linkable Monster Gen (15 min.) <- Wood Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113996'; /* Linkable Monster Gen (15 min.) <- Ethereal Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113997'; /* Linkable Monster Gen (15 min.) <- Ethereal Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113993'; /* Linkable Monster Gen (15 min.) <- Ivory Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113986'; /* linkmonstergen15minutes <- Blue Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113987'; /* linkmonstergen15minutes <- Blue Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113988'; /* linkmonstergen15minutes <- Blue Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113989'; /* linkmonstergen15minutes <- Ethereal Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113990'; /* linkmonstergen15minutes <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113996'; /* linkmonstergen15minutes <- Ethereal Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113997'; /* linkmonstergen15minutes <- Ethereal Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2035113993'; /* linkmonstergen15minutes <- Ivory Crafter */
 

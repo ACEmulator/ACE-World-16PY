@@ -40,70 +40,70 @@ VALUES (4109, 1880436736, 22216964, 19.4581, -144.979, -65.989, 0, 0, 0, -1) /* 
      , (4109, 1880436772, 22217302, 90, -60, -29.989, 0.707107, 0, 0, -0.707107) /* Carrion Shreth */
      , (4109, 1880436773, 22217302, 88.5824, -59.8308, -29.989, -0.781588, 0, 0, -0.623795) /* Carrion Shreth */
      , (4109, 1880436774, 22217354, 40, 0, -23.989, -0.098125, 0, 0, -0.995174) /* Carrion Shreth */
-     , (1400, 1880436775, 22217389, 82.9564, -83.8076, -24, 1, 0, 0, 0) /* Item Fish Generator */
+     , (1400, 1880436775, 22217389, 82.9564, -83.8076, -24, 1, 0, 0, 0) /* itemfishgenerator */
      , (4109, 1880436776, 22217391, 80.5263, -84.996, -23.989, 1, 0, 0, 0) /* Carrion Shreth */
      , (192, 1880436777, 22217428, 30.8915, -17.1495, -17.9967, 0.707107, 0, 0, -0.707107) /* Drudge Prowler */
      , (192, 1880436778, 22217431, 29.987, -50.0029, -17.9958, -0.707107, 0, 0, -0.707107) /* Drudge Prowler */
      , (4966, 1880436779, 22217448, 50, -40, -18, -0.767795, 0, 0, -0.640696) /* Surface */
      , (8740, 1880436780, 22217448, 46.6343, -39.7907, -17.9945, 0.706003, 0, 0, -0.708209) /* Shoushi Town Stamp */
      , (192, 1880436781, 22217449, 51.1714, -52.2806, -17.9958, -0.707107, 0, 0, -0.707107) /* Drudge Prowler */
-     , (5085, 1880436782, 22217449, 45.857, -45.0171, -17.995, -0.728522, 0, 0, -0.685023) /* Linkable Item Gen - 25 seconds */
+     , (5085, 1880436782, 22217449, 45.857, -45.0171, -17.995, -0.728522, 0, 0, -0.685023) /* linkitemgen25seconds */
      , (192, 1880436783, 22217483, 13.7807, -44.5314, -5.99668, -0.707107, 0, 0, -0.707107) /* Drudge Prowler */
      , (192, 1880436784, 22217502, 25.2833, -49.4569, -5.99668, 1, 0, 0, 0) /* Drudge Prowler */
      , (192, 1880436785, 22217505, 40.0233, -23.6338, -5.99668, -0.99898, 0, 0, -0.045145) /* Drudge Prowler */
      , (192, 1880436786, 22217516, 48.4708, -25.63, -5.99668, 0.707107, 0, 0, -0.707107) /* Drudge Prowler */
-     , (5485, 1880436787, 22217520, -1.34776, -30.1127, 0, 1, 0, 0, 0) /* Linkable Newbie Monster Generator */
+     , (5485, 1880436787, 22217520, -1.34776, -30.1127, 0, 1, 0, 0, 0) /* linknewbiemonstergen */
      , (5183, 1880436792, 22217520, 1.72869, -28.0476, 0.082, 0.640997, 0, 0, -0.767543) /* Stone of Compassion */
      , (192, 1880436788, 22217530, 33.1851, -34.2097, 0.003325, 0.707107, 0, 0, -0.707107) /* Drudge Prowler */
      , (192, 1880436789, 22217546, 60.626, -27.1113, 0.29775, 0.707107, 0, 0, -0.707107) /* Drudge Prowler */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880436787'; /* Linkable Newbie Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880436782'; /* Linkable Item Gen - 25 seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880436787'; /* linknewbiemonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880436782'; /* linkitemgen25seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436759'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436788'; /* Linkable Newbie Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436789'; /* Linkable Newbie Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436786'; /* Linkable Newbie Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436784'; /* Linkable Newbie Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436783'; /* Linkable Newbie Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436777'; /* Linkable Newbie Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436778'; /* Linkable Newbie Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436747'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436746'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436744'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436750'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436748'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436751'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436752'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436753'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436754'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436771'; /* Linkable Newbie Monster Generator <- Blue Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436776'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436766'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436772'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436767'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436765'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436761'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436762'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436760'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436758'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436757'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436756'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436755'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436749'; /* Linkable Newbie Monster Generator <- Blue Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436736'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436745'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436774'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436764'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436763'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436768'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436781'; /* Linkable Newbie Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436785'; /* Linkable Newbie Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436773'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436743'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436741'; /* Linkable Newbie Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880436780'; /* Linkable Item Gen - 25 seconds <- Shoushi Town Stamp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880436790'; /* Linkable Item Gen - 25 seconds <- Stone of Discipline */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880436791'; /* Linkable Item Gen - 25 seconds <- Stone of Humility */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880436792'; /* Linkable Item Gen - 25 seconds <- Stone of Compassion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436759'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436788'; /* linknewbiemonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436789'; /* linknewbiemonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436786'; /* linknewbiemonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436784'; /* linknewbiemonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436783'; /* linknewbiemonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436777'; /* linknewbiemonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436778'; /* linknewbiemonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436747'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436746'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436744'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436750'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436748'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436751'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436752'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436753'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436754'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436771'; /* linknewbiemonstergen <- Blue Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436776'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436766'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436772'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436767'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436765'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436761'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436762'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436760'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436758'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436757'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436756'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436755'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436749'; /* linknewbiemonstergen <- Blue Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436736'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436745'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436774'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436764'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436763'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436768'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436781'; /* linknewbiemonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436785'; /* linknewbiemonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436773'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436743'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880436741'; /* linknewbiemonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880436780'; /* linkitemgen25seconds <- Shoushi Town Stamp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880436790'; /* linkitemgen25seconds <- Stone of Discipline */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880436791'; /* linkitemgen25seconds <- Stone of Humility */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880436792'; /* linkitemgen25seconds <- Stone of Compassion */
 

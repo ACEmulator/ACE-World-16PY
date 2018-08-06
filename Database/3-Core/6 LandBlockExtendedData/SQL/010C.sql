@@ -25,29 +25,29 @@ VALUES (7, 1880145920, 17563907, 4.11384, -112.91, -5.9958, -0.995785, 0, 0, -0.
      , (4108, 1880145943, 17564081, 219.713, -99.9412, -5.989, -0.670831, 0, 0, -0.74161) /* Gnawer Shreth */
      , (7, 1880145944, 17564106, 61.7935, -75.4248, 0.005, 0.900447, 0, 0, 0.434966) /* Drudge Skulker */
      , (6885, 1880145945, 17564113, 74.3836, -60.1723, 0, 0.707107, 0, 0, -0.707107) /* Surface Portal */
-     , (7923, 1880145946, 17564123, 79.9874, -68.2893, 0.005, 0.917711, 0, 0, -0.397248) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1880145946, 17564123, 79.9874, -68.2893, 0.005, 0.917711, 0, 0, -0.397248) /* linkmonstergen3minutes */
      , (7, 1880145947, 17564129, 78.4386, -89.2059, 0.0042, 0.930498, 0, 0, -0.366297) /* Drudge Skulker */
      , (7, 1880145948, 17564137, 102.817, -88.0069, 0.048536, -0.773079, 0, 0, -0.63431) /* Drudge Skulker */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880145946'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880145946'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145948'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145947'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145944'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145925'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145924'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145923'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145921'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145920'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145931'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145932'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145927'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145937'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145941'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145943'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145933'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145934'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145929'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145926'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145928'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145948'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145947'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145944'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145925'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145924'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145923'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145921'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145920'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145931'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145932'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145927'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145937'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145941'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145943'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145933'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145934'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145929'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145926'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880145928'; /* linkmonstergen3minutes <- Drudge Skulker */
 

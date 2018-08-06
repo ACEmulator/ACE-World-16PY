@@ -21,9 +21,9 @@ VALUES (23486, 2126569484, 3960340736, 159.035, 101.398, 9.805, -0.0724322, 0, 0
      , (28981, 2126569502, 3960340480, 155.764, 24.553, 30.977, -4.37114E-08, 0, 0, -1) /* Xi Ru's Chapel */
      , (27853, 2126569501, 3960340480, 112.8, 179.694, 233.105, 0.473841, 0, 0, 0.880611) /* Disgusting Moarsman */
      , (27853, 2126569500, 3960340480, 151.503, 184.844, 233.105, -0.256137, 0, 0, 0.96664) /* Disgusting Moarsman */
-     , (4219, 2126569499, 3960340480, 149.15, 23.5049, 21.8998, 0.714421, 0, 0, -0.699716) /* Linkable Monster Generator ( 7 Min.) */
-     , (4219, 2126569498, 3960340480, 149.18, 22.0766, 21.8998, 0.678557, 0, 0, -0.734548) /* Linkable Monster Generator ( 7 Min.) */
-     , (4219, 2126569497, 3960340480, 149.336, 20.5412, 21.8998, 0.0492712, 0, 0, -0.998785) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 2126569499, 3960340480, 149.15, 23.5049, 21.8998, 0.714421, 0, 0, -0.699716) /* linkmonstergen7minutes */
+     , (4219, 2126569498, 3960340480, 149.18, 22.0766, 21.8998, 0.678557, 0, 0, -0.734548) /* linkmonstergen7minutes */
+     , (4219, 2126569497, 3960340480, 149.336, 20.5412, 21.8998, 0.0492712, 0, 0, -0.998785) /* linkmonstergen7minutes */
      , (23484, 2126569496, 3960340480, 152.443, 24.2448, 31.005, -0.999991, 0, 0, -0.00434845) /* Chomu Sclavus Lord */
      , (23484, 2126569495, 3960340480, 158.333, 24.3068, 31.005, -0.999991, 0, 0, -0.00434845) /* Chomu Sclavus Lord */
      , (23486, 2126569487, 3960340480, 156.055, 105.066, 21.8998, 0.999687, 0, 0, -0.0250354) /* Faisi Sclavus Lord */
@@ -31,33 +31,33 @@ VALUES (23486, 2126569484, 3960340736, 159.035, 101.398, 9.805, -0.0724322, 0, 0
      , (23484, 2126569494, 3960340480, 132.339, 71.0367, 31.005, 0.971989, 0, 0, -0.235025) /* Chomu Sclavus Lord */
      , (23484, 2126569493, 3960340480, 179.65, 70.8067, 31.005, -0.983191, 0, 0, -0.182578) /* Chomu Sclavus Lord */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2126569497'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2126569497'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569500'; /* Linkable Monster Generator ( 7 Min.) <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569501'; /* Linkable Monster Generator ( 7 Min.) <- Disgusting Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569494'; /* Linkable Monster Generator ( 7 Min.) <- Chomu Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569492'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569493'; /* Linkable Monster Generator ( 7 Min.) <- Chomu Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569491'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569495'; /* Linkable Monster Generator ( 7 Min.) <- Chomu Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569496'; /* Linkable Monster Generator ( 7 Min.) <- Chomu Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569488'; /* Linkable Monster Generator ( 7 Min.) <- Chomu Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569487'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569489'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569490'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569485'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569484'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569486'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569480'; /* Linkable Monster Generator ( 7 Min.) <- Ulu Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569479'; /* Linkable Monster Generator ( 7 Min.) <- Ulu Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569483'; /* Linkable Monster Generator ( 7 Min.) <- Ulu Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569482'; /* Linkable Monster Generator ( 7 Min.) <- Ulu Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569481'; /* Linkable Monster Generator ( 7 Min.) <- Ulu Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569472'; /* Linkable Monster Generator ( 7 Min.) <- Aste Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569474'; /* Linkable Monster Generator ( 7 Min.) <- Essa Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569473'; /* Linkable Monster Generator ( 7 Min.) <- Aste Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569476'; /* Linkable Monster Generator ( 7 Min.) <- Essa Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569475'; /* Linkable Monster Generator ( 7 Min.) <- Essa Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569478'; /* Linkable Monster Generator ( 7 Min.) <- Sata Sclavus Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569477'; /* Linkable Monster Generator ( 7 Min.) <- Sata Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569500'; /* linkmonstergen7minutes <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569501'; /* linkmonstergen7minutes <- Disgusting Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569494'; /* linkmonstergen7minutes <- Chomu Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569492'; /* linkmonstergen7minutes <- Faisi Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569493'; /* linkmonstergen7minutes <- Chomu Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569491'; /* linkmonstergen7minutes <- Faisi Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569495'; /* linkmonstergen7minutes <- Chomu Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569496'; /* linkmonstergen7minutes <- Chomu Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569488'; /* linkmonstergen7minutes <- Chomu Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569487'; /* linkmonstergen7minutes <- Faisi Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569489'; /* linkmonstergen7minutes <- Faisi Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569490'; /* linkmonstergen7minutes <- Faisi Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569485'; /* linkmonstergen7minutes <- Faisi Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569484'; /* linkmonstergen7minutes <- Faisi Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569486'; /* linkmonstergen7minutes <- Faisi Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569480'; /* linkmonstergen7minutes <- Ulu Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569479'; /* linkmonstergen7minutes <- Ulu Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569483'; /* linkmonstergen7minutes <- Ulu Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569482'; /* linkmonstergen7minutes <- Ulu Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569481'; /* linkmonstergen7minutes <- Ulu Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569472'; /* linkmonstergen7minutes <- Aste Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569474'; /* linkmonstergen7minutes <- Essa Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569473'; /* linkmonstergen7minutes <- Aste Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569476'; /* linkmonstergen7minutes <- Essa Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569475'; /* linkmonstergen7minutes <- Essa Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569478'; /* linkmonstergen7minutes <- Sata Sclavus Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126569477'; /* linkmonstergen7minutes <- Sata Sclavus Lord */
 

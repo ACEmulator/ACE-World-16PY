@@ -46,9 +46,9 @@ VALUES (29513, 1879187456, 2228481, 10, -510, -23.995, 0.707107, 0, 0, -0.707107
      , (29506, 1879187500, 2228800, 279.105, -448.096, -11.995, -0.711797, 0, 0, 0.702385) /* Atavistic Fiun */
      , (29506, 1879187501, 2228800, 275.488, -451.201, -11.995, -0.711797, 0, 0, 0.702385) /* Atavistic Fiun */
      , (29506, 1879187502, 2228808, 292.234, -450.487, -11.995, -0.711797, 0, 0, 0.702385) /* Atavistic Fiun */
-     , (7923, 1879187503, 2228808, 290, -450, -11.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879187503, 2228808, 290, -450, -11.995, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (28642, 1879187504, 2228819, 323.368, -380.171, -11.995, -0.993731, 0, 0, 0.111793) /* Drudge Prowler */
-     , (4142, 1879187505, 2228821, 330, -339, -11.995, 0.999344, 0, 0, -0.036208) /* Linkable Item Generator */
+     , (4142, 1879187505, 2228821, 330, -339, -11.995, 0.999344, 0, 0, -0.036208) /* linkitemgen2minutes */
      , (29510, 1879187506, 2228821, 331.243, -340.12, -11.9036, 0.366549, 0, 0, -0.930399) /* Page from a journal */
      , (29506, 1879187507, 2228840, 330.177, -420.601, -11.995, 0.955786, 0, 0, -0.294062) /* Atavistic Fiun */
      , (28642, 1879187508, 2228849, 336.424, -369.988, -11.995, -0.808193, 0, 0, -0.588918) /* Drudge Prowler */
@@ -61,7 +61,7 @@ VALUES (29513, 1879187456, 2228481, 10, -510, -23.995, 0.707107, 0, 0, -0.707107
      , (28643, 1879187515, 2228965, 220.166, -251.939, -5.995, 0.998716, 0, 0, 0.050664) /* Drudge Prowler */
      , (28643, 1879187516, 2228965, 218.535, -251.031, -5.995, 0.999704, 0, 0, -0.024312) /* Drudge Prowler */
      , (29513, 1879187517, 2228982, 230, 0, -5.995, 1, 0, 0, 0) /* Cannibal Caverns */
-     , (7932, 1879187518, 2228983, 230, -10, -5.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1879187518, 2228983, 230, -10, -5.995, 1, 0, 0, 0) /* linkmonstergen4minutes */
      , (28650, 1879187519, 2228993, 228.144, -170.468, -5.995, -0.741303, 0, 0, -0.671171) /* Drudge Prowler */
      , (28643, 1879187520, 2229003, 225.201, -308.872, -5.995, -0.97416, 0, 0, -0.225858) /* Drudge Prowler */
      , (28643, 1879187521, 2229003, 228.211, -307.397, -5.995, -0.97416, 0, 0, -0.225858) /* Drudge Prowler */
@@ -77,80 +77,80 @@ VALUES (29513, 1879187456, 2228481, 10, -510, -23.995, 0.707107, 0, 0, -0.707107
      , (28650, 1879187531, 2229135, 278.572, -65.5312, 0.005, 0.734552, 0, 0, 0.678553) /* Drudge Prowler */
      , (28650, 1879187532, 2229136, 278.28, -79.1373, 0.005, 0.888156, 0, 0, 0.459542) /* Drudge Prowler */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879187518'; /* Linkable Monster Generator ( 4 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879187503'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879187505'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879187518'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879187503'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879187505'; /* linkitemgen2minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187526'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187532'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187523'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187524'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187511'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187519'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187513'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187514'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187516'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187515'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187512'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187522'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187520'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187521'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187530'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187527'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187528'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187529'; /* Linkable Monster Generator ( 4 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187510'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187509'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187507'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187502'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187500'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187501'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187490'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187489'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187508'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187504'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187485'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187492'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187483'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187484'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187486'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187487'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187499'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187497'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187495'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187494'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187493'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187496'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187498'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187469'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187466'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187463'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187464'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187470'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187472'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187474'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187475'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187473'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187471'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187465'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187468'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187462'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187460'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187461'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187480'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187488'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187478'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187481'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187479'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187477'; /* Linkable Monster Generator ( 3 Min.) <- Atavistic Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187476'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187531'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187525'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187491'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187482'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187467'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187459'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187458'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187457'; /* Linkable Monster Generator ( 3 Min.) <- Cannibal Fiun */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879187506'; /* Linkable Item Generator <- Page from a journal */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187526'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187532'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187523'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187524'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187511'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187519'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187513'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187514'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187516'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187515'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187512'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187522'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187520'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187521'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187530'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187527'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187528'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879187529'; /* linkmonstergen4minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187510'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187509'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187507'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187502'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187500'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187501'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187490'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187489'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187508'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187504'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187485'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187492'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187483'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187484'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187486'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187487'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187499'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187497'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187495'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187494'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187493'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187496'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187498'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187469'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187466'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187463'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187464'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187470'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187472'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187474'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187475'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187473'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187471'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187465'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187468'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187462'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187460'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187461'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187480'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187488'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187478'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187481'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187479'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187477'; /* linkmonstergen3minutes <- Atavistic Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187476'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187531'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187525'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187491'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187482'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187467'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187459'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187458'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879187457'; /* linkmonstergen3minutes <- Cannibal Fiun */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879187506'; /* linkitemgen2minutes <- Page from a journal */
 

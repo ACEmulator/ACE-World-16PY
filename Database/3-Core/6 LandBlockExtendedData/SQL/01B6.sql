@@ -1,5 +1,5 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4219, 1880842287, 28705024, 0.027693, 0.401601, 0.005, -0.00420404, 0, 0, -0.999991) /* Linkable Monster Generator ( 7 Min.) */
+VALUES (4219, 1880842287, 28705024, 0.027693, 0.401601, 0.005, -0.00420404, 0, 0, -0.999991) /* linkmonstergen7minutes */
      , (202, 1880842288, 28705029, 0.003534, -20.0129, 0.011, 1, 0, 0, 0) /* Sandstone Golem */
      , (202, 1880842289, 28705033, 0, -30, 0.011, 1, 0, 0, 0) /* Sandstone Golem */
      , (2073, 1880842242, 28705038, 10, 0, 0, -0.707107, 0, 0, -0.707107) /* Surface */
@@ -12,8 +12,8 @@ VALUES (4219, 1880842287, 28705024, 0.027693, 0.401601, 0.005, -0.00420404, 0, 0
      , (1762, 1880842293, 28705053, 20.0859, -3.53747, 0.005, -4.37114E-08, 0, 0, -1) /* Skeleton Lord */
      , (5683, 1880842294, 28705053, 21.4703, -2.91057, 0.005, -4.37114E-08, 0, 0, -1) /* Seared Skeleton */
      , (5683, 1880842295, 28705053, 18.8798, -2.7621, 0.005, -4.37114E-08, 0, 0, -1) /* Seared Skeleton */
-     , (4012, 1880842296, 28705053, 22.5792, 2.72139, 0, -4.37114E-08, 0, 0, -1) /* Cheap Glitter Generator */
-     , (4014, 1880842297, 28705053, 18.4077, 3.17233, 0, -4.37114E-08, 0, 0, -1) /* Cheap Magic Generator */
+     , (4012, 1880842296, 28705053, 22.5792, 2.72139, 0, -4.37114E-08, 0, 0, -1) /* itemlowglittergen */
+     , (4014, 1880842297, 28705053, 18.4077, 3.17233, 0, -4.37114E-08, 0, 0, -1) /* itemlowmagicgen */
      , (202, 1880842298, 28705061, 20, -20, 0.011, 0.715312, 0, 0, -0.698805) /* Sandstone Golem */
      , (568, 1880842256, 28705064, 24.75, -20, 0, 0.707107, 0, 0, -0.707107) /* Door */
      , (568, 1880842257, 28705067, 24.75, -30, 0, -0.707107, 0, 0, 0.707107) /* Door */
@@ -44,33 +44,33 @@ VALUES (4219, 1880842287, 28705024, 0.027693, 0.401601, 0.005, -0.00420404, 0, 0
      , (1762, 1880842316, 28705113, 90.5068, -31.195, 0.005, -0.99788, 0, 0, -0.065076) /* Skeleton Lord */
      , (3971, 1880842318, 28705114, 89.9178, -38.0345, 0, -4.37114E-08, 0, 0, -1) /* Chest */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880842287'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880842287'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842289'; /* Linkable Monster Generator ( 7 Min.) <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842288'; /* Linkable Monster Generator ( 7 Min.) <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842290'; /* Linkable Monster Generator ( 7 Min.) <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842292'; /* Linkable Monster Generator ( 7 Min.) <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842298'; /* Linkable Monster Generator ( 7 Min.) <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842291'; /* Linkable Monster Generator ( 7 Min.) <- Sandstone Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842293'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842295'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842294'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842299'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842303'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842301'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842300'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842310'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842309'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842307'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842311'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842312'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842313'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842315'; /* Linkable Monster Generator ( 7 Min.) <- Risen Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842314'; /* Linkable Monster Generator ( 7 Min.) <- Risen Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842316'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842304'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842305'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842308'; /* Linkable Monster Generator ( 7 Min.) <- Risen Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842306'; /* Linkable Monster Generator ( 7 Min.) <- Risen Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842302'; /* Linkable Monster Generator ( 7 Min.) <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842289'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842288'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842290'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842292'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842298'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842291'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842293'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842295'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842294'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842299'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842303'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842301'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842300'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842310'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842309'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842307'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842311'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842312'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842313'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842315'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842314'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842316'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842304'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842305'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842308'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842306'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880842302'; /* linkmonstergen7minutes <- Seared Skeleton */
 

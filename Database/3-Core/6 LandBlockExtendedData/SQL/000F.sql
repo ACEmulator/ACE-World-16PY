@@ -43,7 +43,7 @@ VALUES (6122, 1879109632, 983296, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (30756, 1879109673, 983347, 128.31, -48.9357, -23.995, 0.547034, 0, 0, -0.83711) /* Ripper Grievver */
      , (30757, 1879109674, 983347, 128.817, -53.3726, -23.986, 0.841195, 0, 0, -0.540731) /* Diseased Phyntos Wasp */
      , (30757, 1879109675, 983347, 132.167, -52.7617, -23.986, 0.999946, 0, 0, -0.0103563) /* Diseased Phyntos Wasp */
-     , (7923, 1879109676, 983347, 131.527, -50.721, -23.995, 0.771473, 0, 0, 0.636262) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879109676, 983347, 131.527, -50.721, -23.995, 0.771473, 0, 0, 0.636262) /* linkmonstergen3minutes */
      , (4979, 1879109677, 983353, 153.135, -53.1949, -23.995, -0.371948, 0, 0, 0.928254) /* Sewer */
      , (30756, 1879109678, 983353, 150.303, -48.2534, -23.995, -0.2682, 0, 0, 0.963363) /* Ripper Grievver */
      , (6122, 1879109679, 983359, 160, -70, -23.995, 1, 0, 0, 0) /* Acid */
@@ -61,8 +61,8 @@ VALUES (6122, 1879109632, 983296, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (30755, 1879109691, 983371, 199.157, -122.231, -23.7519, 0.855939, 0, 0, -0.517076) /* Virulence */
      , (25879, 1879109692, 983373, 209.827, -51.01, -23.988, -0.777025, 0, 0, 0.629469) /* Pestilence Rat */
      , (25879, 1879109693, 983377, 212.86, -89.8223, -23.988, 0.983935, 0, 0, -0.178526) /* Pestilence Rat */
-     , (15274, 1879109694, 983377, 214.564, -89.973, -23.995, 0.675254, 0, 0, -0.737586) /* Linkable Monster Gen (1 min.) */
-     , (7923, 1879109695, 983377, 210.29, -90.037, -23.995, -0.847547, 0, 0, 0.53072) /* Linkable Monster Generator ( 3 Min.) */
+     , (15274, 1879109694, 983377, 214.564, -89.973, -23.995, 0.675254, 0, 0, -0.737586) /* linkmonstergen1minute */
+     , (7923, 1879109695, 983377, 210.29, -90.037, -23.995, -0.847547, 0, 0, 0.53072) /* linkmonstergen3minutes */
      , (25879, 1879109696, 983381, 220.439, -49.5399, -23.988, -0.599831, 0, 0, 0.800127) /* Pestilence Rat */
      , (25879, 1879109697, 983381, 220.278, -50.3837, -23.988, -0.599831, 0, 0, 0.800127) /* Pestilence Rat */
      , (25879, 1879109698, 983381, 222.578, -50.3688, -23.988, -0.722683, 0, 0, 0.69118) /* Pestilence Rat */
@@ -70,7 +70,7 @@ VALUES (6122, 1879109632, 983296, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (4979, 1879109700, 983383, 220.936, -119.283, -23.995, -0.913878, 0, 0, 0.40599) /* Sewer */
      , (25879, 1879109701, 983383, 219.912, -119.316, -23.988, -0.0541771, 0, 0, 0.998531) /* Pestilence Rat */
      , (25879, 1879109702, 983385, 219.029, -125.663, -23.988, -0.012537, 0, 0, 0.999921) /* Pestilence Rat */
-     , (7923, 1879109703, 983387, 223.946, -140.829, -23.995, 0.779241, 0, 0, 0.626725) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879109703, 983387, 223.946, -140.829, -23.995, 0.779241, 0, 0, 0.626725) /* linkmonstergen3minutes */
      , (25879, 1879109704, 983392, 229.967, -59.8961, -23.945, -0.597765, 0, 0, 0.801671) /* Pestilence Rat */
      , (25879, 1879109705, 983392, 230.266, -58.8908, -23.988, -0.597765, 0, 0, 0.801671) /* Pestilence Rat */
      , (25879, 1879109706, 983396, 234.011, -80.0724, -23.988, -0.303877, 0, 0, 0.952711) /* Pestilence Rat */
@@ -95,14 +95,14 @@ VALUES (6122, 1879109632, 983296, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (30757, 1879109725, 983441, 248.18, -98.0269, -23.986, -0.995104, 0, 0, 0.098835) /* Diseased Phyntos Wasp */
      , (30757, 1879109726, 983441, 252.665, -99.5195, -23.986, -0.811546, 0, 0, -0.584289) /* Diseased Phyntos Wasp */
      , (30757, 1879109727, 983445, 250.002, -130.348, -23.986, -0.686287, 0, 0, -0.727331) /* Diseased Phyntos Wasp */
-     , (24129, 1879109728, 983449, -2.70317, -96.7571, -17.995, 0.668142, 0, 0, 0.744034) /* Linkable Monster Generator ( 2 Min.) */
+     , (24129, 1879109728, 983449, -2.70317, -96.7571, -17.995, 0.668142, 0, 0, 0.744034) /* linkmonstergen2minutes */
      , (30715, 1879109729, 983449, 0, -100, -17.995, 0.707107, 0, 0, -0.707107) /* Fortified Royal Vault */
      , (30757, 1879109730, 983452, 10.5016, -88.3526, -17.986, -0.0806859, 0, 0, 0.99674) /* Diseased Phyntos Wasp */
      , (30757, 1879109731, 983452, 8.18027, -88.7309, -17.986, -0.0806859, 0, 0, 0.99674) /* Diseased Phyntos Wasp */
      , (25879, 1879109732, 983455, 7.49172, -96.6448, -17.988, 0.592388, 0, 0, -0.805653) /* Pestilence Rat */
      , (30756, 1879109733, 983455, 10.1355, -100.335, -17.995, -0.715727, 0, 0, 0.69838) /* Ripper Grievver */
      , (25879, 1879109734, 983461, 9.44186, -109.46, -17.988, 0.965339, 0, 0, -0.260999) /* Pestilence Rat */
-     , (15274, 1879109735, 983461, 12.0122, -110.345, -17.995, 0.998373, 0, 0, -0.057028) /* Linkable Monster Gen (1 min.) */
+     , (15274, 1879109735, 983461, 12.0122, -110.345, -17.995, 0.998373, 0, 0, -0.057028) /* linkmonstergen1minute */
      , (30757, 1879109736, 983461, 7.48358, -108.827, -17.986, -0.979483, 0, 0, 0.201526) /* Diseased Phyntos Wasp */
      , (30757, 1879109737, 983464, 22.0157, -89.2074, -17.986, -0.102334, 0, 0, -0.99475) /* Diseased Phyntos Wasp */
      , (30757, 1879109738, 983464, 19.0949, -88.4342, -17.986, 0.115108, 0, 0, -0.993353) /* Diseased Phyntos Wasp */
@@ -118,7 +118,7 @@ VALUES (6122, 1879109632, 983296, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (30757, 1879109748, 983485, 29.306, -110.43, -17.986, -0.980619, 0, 0, -0.195923) /* Diseased Phyntos Wasp */
      , (30757, 1879109749, 983485, 30.4427, -111.939, -17.986, -0.999754, 0, 0, -0.022196) /* Diseased Phyntos Wasp */
      , (30756, 1879109750, 983488, 40.0863, -91.0375, -17.995, 0.00312, 0, 0, -0.999995) /* Ripper Grievver */
-     , (24129, 1879109751, 983489, 42.6553, -102.66, -17.995, 0.566507, 0, 0, -0.824057) /* Linkable Monster Generator ( 2 Min.) */
+     , (24129, 1879109751, 983489, 42.6553, -102.66, -17.995, 0.566507, 0, 0, -0.824057) /* linkmonstergen2minutes */
      , (30756, 1879109752, 983490, 40.394, -108.249, -17.995, 0.978716, 0, 0, -0.20522) /* Ripper Grievver */
      , (25879, 1879109753, 983504, 133.847, -67.9461, -17.988, -0.75331, 0, 0, -0.657666) /* Pestilence Rat */
      , (25879, 1879109754, 983504, 127.679, -67.5768, -17.988, 0.503545, 0, 0, -0.863969) /* Pestilence Rat */
@@ -136,11 +136,11 @@ VALUES (6122, 1879109632, 983296, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (30756, 1879109766, 983529, 148.472, -78.7605, -17.995, -0.679682, 0, 0, -0.733507) /* Ripper Grievver */
      , (25879, 1879109767, 983541, 168.05, -93.1412, -17.988, 0.999995, 0, 0, 0.00316219) /* Pestilence Rat */
      , (25879, 1879109768, 983541, 167.703, -87.5541, -17.988, 0.666837, 0, 0, -0.745203) /* Pestilence Rat */
-     , (15274, 1879109769, 983541, 168.216, -89.6698, -17.995, 0.743501, 0, 0, -0.668734) /* Linkable Monster Gen (1 min.) */
+     , (15274, 1879109769, 983541, 168.216, -89.6698, -17.995, 0.743501, 0, 0, -0.668734) /* linkmonstergen1minute */
      , (30756, 1879109770, 983541, 170.752, -91.0594, -17.995, 0.99698, 0, 0, -0.0776602) /* Ripper Grievver */
      , (30757, 1879109771, 983549, 187.248, -47.2484, -17.986, 0.495368, 0, 0, -0.868683) /* Diseased Phyntos Wasp */
      , (30757, 1879109772, 983549, 189.73, -46.7678, -17.986, -0.201622, 0, 0, 0.979463) /* Diseased Phyntos Wasp */
-     , (7923, 1879109773, 983549, 187.478, -50.8353, -17.995, -0.66892, 0, 0, 0.743334) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879109773, 983549, 187.478, -50.8353, -17.995, -0.66892, 0, 0, 0.743334) /* linkmonstergen3minutes */
      , (30757, 1879109774, 983551, 191.415, -72.3552, -17.986, 0.999983, 0, 0, 0.00574592) /* Diseased Phyntos Wasp */
      , (30757, 1879109775, 983551, 188.61, -71.6326, -17.986, 0.94947, 0, 0, -0.313859) /* Diseased Phyntos Wasp */
      , (30757, 1879109776, 983551, 186.318, -68.53, -17.986, 0.763897, 0, 0, -0.645338) /* Diseased Phyntos Wasp */
@@ -188,18 +188,18 @@ VALUES (6122, 1879109632, 983296, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (4979, 1879109818, 983660, 156.973, -56.7616, -11.995, -0.882639, 0, 0, -0.470051) /* Sewer */
      , (25879, 1879109819, 983660, 162.223, -58.4854, -11.988, 0.38924, 0, 0, 0.921136) /* Pestilence Rat */
      , (25879, 1879109820, 983660, 158.471, -62.5663, -11.988, 0.885989, 0, 0, 0.463706) /* Pestilence Rat */
-     , (15274, 1879109821, 983660, 160.142, -60.1576, -11.995, 0.885989, 0, 0, 0.463706) /* Linkable Monster Gen (1 min.) */
+     , (15274, 1879109821, 983660, 160.142, -60.1576, -11.995, 0.885989, 0, 0, 0.463706) /* linkmonstergen1minute */
      , (30757, 1879109822, 983660, 162.016, -62.3806, -11.986, -0.792744, 0, 0, -0.609554) /* Diseased Phyntos Wasp */
-     , (7923, 1879109823, 983660, 159.029, -61.5866, -11.995, -0.792744, 0, 0, -0.609554) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879109823, 983660, 159.029, -61.5866, -11.995, -0.792744, 0, 0, -0.609554) /* linkmonstergen3minutes */
      , (25879, 1879109824, 983668, 166.604, -31.0757, -11.945, 0.790177, 0, 0, -0.612879) /* Pestilence Rat */
-     , (15274, 1879109825, 983668, 165.833, -29.5279, -11.995, 0.752314, 0, 0, -0.658805) /* Linkable Monster Gen (1 min.) */
+     , (15274, 1879109825, 983668, 165.833, -29.5279, -11.995, 0.752314, 0, 0, -0.658805) /* linkmonstergen1minute */
      , (25879, 1879109826, 983670, 165.722, -49.5608, -11.988, 0.492753, 0, 0, 0.870169) /* Pestilence Rat */
      , (25879, 1879109827, 983674, 175.83, -20.5345, -11.988, -0.453516, 0, 0, -0.891248) /* Pestilence Rat */
      , (25879, 1879109828, 983675, 180.036, -27.1487, -11.988, -0.373351, 0, 0, 0.92769) /* Pestilence Rat */
      , (25879, 1879109829, 983676, 180.846, -31.1955, -11.945, -0.391315, 0, 0, -0.920257) /* Pestilence Rat */
      , (30757, 1879109830, 983684, 180.29, -78.6993, -11.986, -0.00276762, 0, 0, -0.999996) /* Diseased Phyntos Wasp */
      , (30757, 1879109831, 983684, 182.066, -81.239, -11.986, -0.346583, 0, 0, -0.938019) /* Diseased Phyntos Wasp */
-     , (7923, 1879109832, 983684, 179.983, -82.1422, -11.995, -0.346583, 0, 0, -0.938019) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879109832, 983684, 179.983, -82.1422, -11.995, -0.346583, 0, 0, -0.938019) /* linkmonstergen3minutes */
      , (30757, 1879109833, 983689, 179.887, -100.066, -11.986, -0.929621, 0, 0, 0.368516) /* Diseased Phyntos Wasp */
      , (4979, 1879109834, 983690, 179.063, -100.966, -11.995, -0.366272, 0, 0, -0.930508) /* Sewer */
      , (30757, 1879109835, 983696, 191.468, -90.394, -11.986, -0.603415, 0, 0, 0.797428) /* Diseased Phyntos Wasp */
@@ -240,195 +240,195 @@ VALUES (6122, 1879109632, 983296, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (30724, 1879109870, 983787, 100, 0, 0.005, -0.720278, 0, 0, -0.693685) /* Surface */
      , (4979, 1879109871, 983796, 130.937, 0.965726, 0.005, 0.930508, 0, 0, -0.366272) /* Sewer */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879109825'; /* Linkable Monster Gen (1 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879109773'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879109694'; /* Linkable Monster Gen (1 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879109695'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1879109703'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1879109769'; /* Linkable Monster Gen (1 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1879109676'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1879109821'; /* Linkable Monster Gen (1 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1879109823'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1879109832'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1879109735'; /* Linkable Monster Gen (1 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1879109751'; /* Linkable Monster Generator ( 2 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1879109728'; /* Linkable Monster Generator ( 2 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879109825'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879109773'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879109694'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879109695'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1879109703'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1879109769'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1879109676'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1879109821'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1879109823'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1879109832'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1879109735'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1879109751'; /* linkmonstergen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1879109728'; /* linkmonstergen2minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109798'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109812'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109802'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109803'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109828'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109827'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109829'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109815'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109816'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109826'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109805'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109824'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109817'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109839'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109779'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109780'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109840'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109778'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109771'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109772'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109693'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109699'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109707'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109706'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109712'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109711'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109705'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109704'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109698'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109696'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109697'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109692'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109791'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109793'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109774'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109790'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109775'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109776'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109785'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109786'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109794'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109797'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109781'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109782'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109787'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109788'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109789'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109792'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109783'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109784'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109720'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109719'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109723'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109724'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109721'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109722'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109725'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109714'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109716'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109726'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109713'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109718'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109710'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109717'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109727'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109708'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109709'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109701'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109702'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109768'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109777'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109767'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109688'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109689'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109691'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109690'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109649'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109650'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109770'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109678'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109643'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109642'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109648'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109645'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109640'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109641'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109638'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109639'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109674'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109675'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109644'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109673'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109753'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109765'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109762'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109754'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109758'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109820'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109819'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109756'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109759'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109766'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109755'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109761'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109763'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109760'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109757'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109822'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109841'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109849'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109857'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109855'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109862'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109863'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109864'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109851'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109852'; /* Linkable Monster Generator ( 3 Min.) <- Virulence */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109866'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109867'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109865'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109868'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109861'; /* Linkable Monster Generator ( 3 Min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109858'; /* Linkable Monster Generator ( 3 Min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109869'; /* Linkable Monster Generator ( 3 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109860'; /* Linkable Monster Generator ( 3 Min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109835'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109843'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109859'; /* Linkable Monster Generator ( 3 Min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109837'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109846'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109844'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109845'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109833'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109830'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109848'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109831'; /* Linkable Monster Generator ( 3 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109734'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109732'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109806'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109807'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109667'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109662'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109808'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109809'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109739'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109740'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109659'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109746'; /* Linkable Monster Gen (1 min.) <- Pestilence Rat */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109810'; /* Linkable Monster Generator ( 2 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109660'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109668'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109663'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109811'; /* Linkable Monster Generator ( 2 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109672'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109671'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109670'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109664'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109661'; /* Linkable Monster Generator ( 2 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109666'; /* Linkable Monster Generator ( 2 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109669'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109665'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109750'; /* Linkable Monster Generator ( 2 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109752'; /* Linkable Monster Generator ( 2 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109733'; /* Linkable Monster Generator ( 2 Min.) <- Ripper Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109747'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109745'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109744'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109743'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109741'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109737'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109749'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109748'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109730'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109736'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109742'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109738'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109731'; /* Linkable Monster Generator ( 2 Min.) <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109798'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109812'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109802'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109803'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109828'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109827'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109829'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109815'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109816'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109826'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109805'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109824'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109817'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109839'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109779'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109780'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109840'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109778'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109771'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109772'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109693'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109699'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109707'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109706'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109712'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109711'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109705'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109704'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109698'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109696'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109697'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109692'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109791'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109793'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109774'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109790'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109775'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109776'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109785'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109786'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109794'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109797'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109781'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109782'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109787'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109788'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109789'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109792'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109783'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109784'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109720'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109719'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109723'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109724'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109721'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109722'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109725'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109714'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109716'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109726'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109713'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109718'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109710'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109717'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109727'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109708'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109709'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109701'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109702'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109768'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109777'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109767'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109688'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109689'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109691'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109690'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109649'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109650'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109770'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109678'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109643'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109642'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109648'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109645'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109640'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109641'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109638'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109639'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109674'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109675'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109644'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109673'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109753'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109765'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109762'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109754'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109758'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109820'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109819'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109756'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109759'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109766'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109755'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109761'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109763'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109760'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109757'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109822'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109841'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109849'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109857'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109855'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109862'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109863'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109864'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109851'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109852'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109866'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109867'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109865'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109868'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109861'; /* linkmonstergen3minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109858'; /* linkmonstergen3minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109869'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109860'; /* linkmonstergen3minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109835'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109843'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109859'; /* linkmonstergen3minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109837'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109846'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109844'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109845'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109833'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109830'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109848'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109831'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109734'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109732'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109806'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109807'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109667'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109662'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109808'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109809'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109739'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109740'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109659'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109746'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109810'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109660'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109668'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109663'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109811'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109672'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109671'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109670'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109664'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109661'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109666'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109669'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109665'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109750'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109752'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109733'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109747'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109745'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109744'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109743'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109741'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109737'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109749'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109748'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109730'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109736'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109742'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109738'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109731'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
 

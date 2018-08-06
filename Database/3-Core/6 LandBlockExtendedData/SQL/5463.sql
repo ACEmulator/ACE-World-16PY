@@ -54,7 +54,7 @@ VALUES (568, 1967534080, 1415774466, 4.74999, -210, -18, 0.707107, 0, 0, -0.7071
      , (15779, 1967534132, 1415774885, 223.061, -69.566, -5.995, 0.703696, 0, 0, -0.710501) /* Oubliette */
      , (15855, 1967534185, 1415774885, 218.871, -70.0546, -5.995, 0.696707, 0, 0, -0.717356) /* Gelidite Dais */
      , (16912, 1967534188, 1415774885, 218.801, -71.9973, -5.9905, -0.740316, 0, 0, -0.672259) /* Oubliette Gatekeeper */
-     , (5086, 1967534189, 1415774885, 217.473, -71.8105, -5.995, -0.687509, 0, 0, 0.726176) /* Linkable Monster Gen - 30 sec. */
+     , (5086, 1967534189, 1415774885, 217.473, -71.8105, -5.995, -0.687509, 0, 0, 0.726176) /* linkmonstergen30seconds */
      , (278, 1967534133, 1415774923, 70, -115.25, 0, 1, 0, 0, 0) /* Door */
      , (278, 1967534134, 1415774923, 70, -124.75, 0, 0, 0, 0, -1) /* Door */
      , (278, 1967534135, 1415774935, 80, -115.25, 0, 1, 0, 0, 0) /* Door */
@@ -65,7 +65,7 @@ VALUES (568, 1967534080, 1415774466, 4.74999, -210, -18, 0.707107, 0, 0, -0.7071
      , (278, 1967534140, 1415775011, 140, -184.75, 0, 0, 0, 0, -1) /* Door */
      , (278, 1967534141, 1415775016, 145.25, -70, 0, -0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1967534142, 1415775016, 154.75, -70, 0, 0.707107, 0, 0, -0.707107) /* Door */
-     , (15759, 1967534143, 1415775016, 151.614, -69.8769, 0.005, -0.42371, 0, 0, 0.905798) /* Linkable Item Generator */
+     , (15759, 1967534143, 1415775016, 151.614, -69.8769, 0.005, -0.42371, 0, 0, 0.905798) /* linkitemgen10seconds */
      , (15853, 1967534144, 1415775016, 148.727, -69.6912, 0.057, 0.423643, 0, 0, 0.905829) /* Empty Binding */
      , (278, 1967534145, 1415775017, 150, -74.75, 0, 0, 0, 0, -1) /* Door */
      , (278, 1967534146, 1415775018, 150, -65.25, 0, 1, 0, 0, 0) /* Door */
@@ -110,18 +110,18 @@ VALUES (568, 1967534080, 1415774466, 4.74999, -210, -18, 0.707107, 0, 0, -0.7071
      , (278, 1967534183, 1415775424, 194.75, -100, 12, 0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1967534184, 1415775424, 185.25, -100, 12, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967534143'; /* Linkable Item Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967534189'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967534143'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967534189'; /* linkmonstergen30seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534144'; /* Linkable Item Generator <- Empty Binding */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534157'; /* Linkable Item Generator <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534149'; /* Linkable Item Generator <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534156'; /* Linkable Item Generator <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534169'; /* Linkable Item Generator <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534090'; /* Linkable Item Generator <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534096'; /* Linkable Item Generator <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534111'; /* Linkable Item Generator <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534186'; /* Linkable Item Generator <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534185'; /* Linkable Item Generator <- Gelidite Dais */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967534188'; /* Linkable Monster Gen - 30 sec. <- Oubliette Gatekeeper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534144'; /* linkitemgen10seconds <- Empty Binding */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534157'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534149'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534156'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534169'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534090'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534096'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534111'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534186'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967534185'; /* linkitemgen10seconds <- Gelidite Dais */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967534188'; /* linkmonstergen30seconds <- Oubliette Gatekeeper */
 

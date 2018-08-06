@@ -7,8 +7,8 @@ VALUES (4454, 1983135744, 1665401098, 10, -5.25, 0.005, 1, 0, 0, 0) /* Door */
      , (4454, 1983135749, 1665401104, 10, -74.75, 0.005, 0, 0, 0, -1) /* Door */
      , (4454, 1983135750, 1665401106, 10, -85.25, 0.005, 1, 0, 0, 0) /* Door */
      , (23998, 1983135751, 1665401106, 10, -87.5, 0.012, 0, 0, 0, -1) /* Diamond Guardian */
-     , (15759, 1983135752, 1665401107, 10, -100, 0.005, 1, 0, 0, 0) /* Linkable Item Generator */
-     , (7923, 1983135753, 1665401107, 9.104, -100, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (15759, 1983135752, 1665401107, 10, -100, 0.005, 1, 0, 0, 0) /* linkitemgen10seconds */
+     , (7923, 1983135753, 1665401107, 9.104, -100, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (4454, 1983135754, 1665401108, 10, -114.75, 0.005, 0, 0, 0, -1) /* Door */
      , (91, 1983135755, 1665401119, 25.6425, -20.559, 0.075, 1, 0, 0, 0) /* Kite Shield */
      , (51, 1983135756, 1665401119, 27.9531, -20.6666, 0.005, 0.939373, 0, 0, -0.342898) /* Platemail Cuirass */
@@ -26,25 +26,25 @@ VALUES (4454, 1983135744, 1665401098, 10, -5.25, 0.005, 1, 0, 0, 0) /* Door */
      , (127, 1983135768, 1665401121, 27.1295, -99.5792, 0.005, 0.610099, 0, 0, 0.792325) /* Pants */
      , (365, 1983135769, 1665401121, 25.3094, -99.1053, 0.079, 0.692836, 0, 0, -0.721095) /* Parchment */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1983135752'; /* Linkable Item Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1983135753'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1983135752'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1983135753'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135764'; /* Linkable Item Generator <- Mead */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135755'; /* Linkable Item Generator <- Kite Shield */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135756'; /* Linkable Item Generator <- Platemail Cuirass */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135757'; /* Linkable Item Generator <- Long Sword */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135758'; /* Linkable Item Generator <- Silifi */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135759'; /* Linkable Item Generator <- Sollerets */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135765'; /* Linkable Item Generator <- Apple */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135766'; /* Linkable Item Generator <- Book */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135767'; /* Linkable Item Generator <- Shirt */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135768'; /* Linkable Item Generator <- Pants */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135760'; /* Linkable Item Generator <- Honey */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135761'; /* Linkable Item Generator <- Apple */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135762'; /* Linkable Item Generator <- Parchment */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135763'; /* Linkable Item Generator <- Ale */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135769'; /* Linkable Item Generator <- Parchment */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983135751'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983135748'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983135745'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135764'; /* linkitemgen10seconds <- Mead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135755'; /* linkitemgen10seconds <- Kite Shield */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135756'; /* linkitemgen10seconds <- Platemail Cuirass */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135757'; /* linkitemgen10seconds <- Long Sword */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135758'; /* linkitemgen10seconds <- Silifi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135759'; /* linkitemgen10seconds <- Sollerets */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135765'; /* linkitemgen10seconds <- Apple */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135766'; /* linkitemgen10seconds <- Book */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135767'; /* linkitemgen10seconds <- Shirt */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135768'; /* linkitemgen10seconds <- Pants */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135760'; /* linkitemgen10seconds <- Honey */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135761'; /* linkitemgen10seconds <- Apple */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135762'; /* linkitemgen10seconds <- Parchment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135763'; /* linkitemgen10seconds <- Ale */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135769'; /* linkitemgen10seconds <- Parchment */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983135751'; /* linkmonstergen3minutes <- Diamond Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983135748'; /* linkmonstergen3minutes <- Diamond Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983135745'; /* linkmonstergen3minutes <- Diamond Guardian */
 

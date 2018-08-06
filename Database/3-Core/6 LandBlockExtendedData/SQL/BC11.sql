@@ -25,22 +25,22 @@ VALUES (412, 2076250112, 3155230998, 56.64, 68.7758, 240.002, 0, 0, 0, -1) /* Do
      , (8127, 2076250119, 3155230720, 62.0172, 79.3401, 240.005, -0.22414, 0, 0, 0.974557) /* Menhir Mana Field */
      , (8127, 2076250120, 3155230720, 58.0414, 79.3222, 240.005, 0.246376, 0, 0, 0.969174) /* Menhir Mana Field */
      , (8127, 2076250121, 3155230720, 55.1452, 81.9675, 240.005, 0.542944, 0, 0, 0.839769) /* Menhir Mana Field */
-     , (5085, 2076250138, 3155230720, 77.2568, 80.8228, 250.005, -0.0564332, 0, 0, -0.998406) /* Linkable Item Gen - 25 seconds */
+     , (5085, 2076250138, 3155230720, 77.2568, 80.8228, 250.005, -0.0564332, 0, 0, -0.998406) /* linkitemgen25seconds */
      , (8127, 2076250137, 3155230720, 55.4573, 86.2017, 240.005, 0.542944, 0, 0, 0.839769) /* Menhir Mana Field */
      , (9027, 2076250124, 3155230720, 57, 118.513, 240.005, -4.37114E-08, 0, 0, -1) /* Lyceum Gates */
      , (9027, 2076250125, 3155230720, 94.528, 87, 240.082, -0.707107, 0, 0, -0.707107) /* Lyceum Gates */
-     , (4219, 2076250130, 3155230720, 75.6475, 75.4834, 240.005, 0.719576, 0, 0, -0.694414) /* Linkable Monster Generator ( 7 Min.) */;
+     , (4219, 2076250130, 3155230720, 75.6475, 75.4834, 240.005, 0.719576, 0, 0, -0.694414) /* linkmonstergen7minutes */;
 
 UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2076250125'; /* Lyceum Gates */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2076250124'; /* Lyceum Gates */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2076250130'; /* Linkable Monster Generator ( 7 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2076250138'; /* Linkable Item Gen - 25 seconds */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2076250130'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2076250138'; /* linkitemgen25seconds */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076250126'; /* Lyceum Gates <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076250127'; /* Lyceum Gates <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2076250128'; /* Linkable Monster Generator ( 7 Min.) <- Guardian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2076250129'; /* Linkable Monster Generator ( 7 Min.) <- Guardian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2076250140'; /* Linkable Monster Generator ( 7 Min.) <- Eaushi the Trainer */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2076250139'; /* Linkable Item Gen - 25 seconds <- Slip of Paper */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2076250141'; /* Linkable Item Gen - 25 seconds <- Lightweight Tome */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2076250128'; /* linkmonstergen7minutes <- Guardian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2076250129'; /* linkmonstergen7minutes <- Guardian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2076250140'; /* linkmonstergen7minutes <- Eaushi the Trainer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2076250139'; /* linkitemgen25seconds <- Slip of Paper */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2076250141'; /* linkitemgen25seconds <- Lightweight Tome */
 

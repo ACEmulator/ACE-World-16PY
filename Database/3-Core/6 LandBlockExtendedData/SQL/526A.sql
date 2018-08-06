@@ -50,26 +50,26 @@ VALUES (14584, 1965465600, 1382678784, 70.3223, -75.9365, -42, -4.37114E-08, 0, 
      , (14572, 1965465650, 1382679293, 229.935, -59.9859, -16.0282, 1, 0, 0, 0) /* Yalaini Woman */
      , (14573, 1965465651, 1382679301, 249.934, -79.9013, -17.155, 1, 0, 0, 0) /* Yalaini Man */
      , (14575, 1965465652, 1382679328, 69.9862, -70.1228, -11.7666, 1, 0, 0, 0) /* Aun Tanua */
-     , (7923, 1965465653, 1382679328, 66.9413, -65.8488, -11.995, 0.094411, 0, 0, -0.995533) /* Linkable Monster Generator ( 3 Min.) */;
+     , (7923, 1965465653, 1382679328, 66.9413, -65.8488, -11.995, 0.094411, 0, 0, -0.995533) /* linkmonstergen3minutes */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1965465653'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1965465653'; /* linkmonstergen3minutes */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1965465633'; /* Virindi Crystal */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1965465629'; /* Virindi Crystal */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465649'; /* Linkable Monster Generator ( 3 Min.) <- Lilitha */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465652'; /* Linkable Monster Generator ( 3 Min.) <- Aun Tanua */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465630'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465631'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465627'; /* Linkable Monster Generator ( 3 Min.) <- Vibrant Virindi Energy Cluster */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465611'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465650'; /* Linkable Monster Generator ( 3 Min.) <- Yalaini Woman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465607'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465651'; /* Linkable Monster Generator ( 3 Min.) <- Yalaini Man */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465603'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465605'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465604'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465654'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465601'; /* Linkable Monster Generator ( 3 Min.) <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465649'; /* linkmonstergen3minutes <- Lilitha */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465652'; /* linkmonstergen3minutes <- Aun Tanua */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465630'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465631'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465627'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465611'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465650'; /* linkmonstergen3minutes <- Yalaini Woman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465607'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465651'; /* linkmonstergen3minutes <- Yalaini Man */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465603'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465605'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465604'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465654'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465601'; /* linkmonstergen3minutes <- Quiddity Rift */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965465632'; /* Virindi Crystal <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1965465628'; /* Virindi Crystal <- Pressure Plate */
 

@@ -6,9 +6,9 @@ VALUES (1081, 2090385424, 3381395721, 112.927, 173.357, 22.1, 0.875886, 0, 0, 0.
      , (412, 2090385415, 3381395739, 127.975, 179.51, 22.01, -0.707107, 0, 0, -0.707107) /* Door */
      , (1082, 2090385423, 3381395739, 131.74, 178.18, 22.005, 0.0986681, 0, 0, -0.99512) /* Erludd the Cur the Barkeeper */
      , (2049, 2090385430, 3381395741, 122.767, 180.535, 22.005, 0.99791, 0, 0, -0.0646252) /* Weary-looking Man */
-     , (1154, 2090385431, 3381395741, 123.094, 183.024, 22.005, 0.124427, 0, 0, -0.992229) /* Linkable Monster Generator */
+     , (1154, 2090385431, 3381395741, 123.094, 183.024, 22.005, 0.124427, 0, 0, -0.992229) /* linkmonstergen */
      , (8377, 2090385432, 3381395752, 132.127, 174.826, 22.9467, 0.707107, 0, 0, -0.707107) /* Beer Keg */
-     , (7923, 2090385433, 3381395752, 134.683, 169.894, 22.005, -0.963373, 0, 0, 0.268165) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2090385433, 3381395752, 134.683, 169.894, 22.005, -0.963373, 0, 0, 0.268165) /* linkmonstergen3minutes */
      , (23349, 2090385434, 3381395752, 134.345, 171.453, 22.005, -0.798204, 0, 0, 0.602387) /* Delton Hardor */
      , (143, 2090385419, 3381395760, 86.1711, 159.852, 22.0125, 0.385102, 0, 0, -0.922874) /* Chest */
      , (1080, 2090385425, 3381395760, 80, 160, 22.1, 0.875886, 0, 0, 0.482518) /* Ji Tenxien the Tailor */
@@ -37,24 +37,24 @@ VALUES (1081, 2090385424, 3381395721, 112.927, 173.357, 22.1, 0.875886, 0, 0, 0.
      , (22257, 2090385435, 3381395456, 30.8284, 165.435, 3.555, -0.858466, 0, 0, -0.51287) /* Fishing Hole */
      , (22257, 2090385436, 3381395456, 17.9907, 165.103, 3.555, 0.991499, 0, 0, -0.130111) /* Fishing Hole */
      , (22257, 2090385437, 3381395456, 29.8239, 101.979, 3.555, -0.981269, 0, 0, -0.192641) /* Fishing Hole */
-     , (7923, 2090385438, 3381395456, 24.2018, 139.279, 3.555, -0.69211, 0, 0, -0.721792) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2090385438, 3381395456, 24.2018, 139.279, 3.555, -0.69211, 0, 0, -0.721792) /* linkmonstergen3minutes */
      , (22257, 2090385439, 3381395456, 20.4506, 103.847, 3.555, -0.938581, 0, 0, 0.34506) /* Fishing Hole */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2090385431'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2090385433'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2090385438'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2090385431'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2090385433'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2090385438'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2090385430'; /* Linkable Monster Generator <- Weary-looking Man */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385434'; /* Linkable Monster Generator ( 3 Min.) <- Delton Hardor */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385439'; /* Linkable Monster Generator ( 3 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385440'; /* Linkable Monster Generator ( 3 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385441'; /* Linkable Monster Generator ( 3 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385442'; /* Linkable Monster Generator ( 3 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385443'; /* Linkable Monster Generator ( 3 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385444'; /* Linkable Monster Generator ( 3 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385445'; /* Linkable Monster Generator ( 3 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385446'; /* Linkable Monster Generator ( 3 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2090385435'; /* Linkable Monster Generator ( 3 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2090385436'; /* Linkable Monster Generator ( 3 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2090385437'; /* Linkable Monster Generator ( 3 Min.) <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2090385430'; /* linkmonstergen <- Weary-looking Man */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385434'; /* linkmonstergen3minutes <- Delton Hardor */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385439'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385440'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385441'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385442'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385443'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385444'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385445'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090385446'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2090385435'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2090385436'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2090385437'; /* linkmonstergen3minutes <- Fishing Hole */
 

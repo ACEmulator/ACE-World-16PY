@@ -1,22 +1,22 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1930, 1880690688, 26280192, 52.375, 8.12928E-08, -72, -0.707107, 0, 0, -0.707107) /* Chest */
-     , (911, 1880690689, 26280193, 60, 0, -72, 0.707107, 0, 0, -0.707107) /* Lich Generator */
+     , (911, 1880690689, 26280193, 60, 0, -72, 0.707107, 0, 0, -0.707107) /* lichgenerator */
      , (1624, 1880690690, 26280194, 110, -20, -71.996, 0.707107, 0, 0, -0.707107) /* Swamp Rat */
      , (1624, 1880690691, 26280194, 108.781, -20.977, -71.996, -0.707107, 0, 0, -0.707107) /* Swamp Rat */
      , (1624, 1880690692, 26280194, 108.621, -20.424, -71.996, 1, 0, 0, 0) /* Swamp Rat */
      , (1930, 1880690693, 26280195, 117.597, -20.0985, -72, 0.707107, 0, 0, -0.707107) /* Chest */
      , (1394, 1880690694, 26280196, -0.685182, -22.5763, -65.995, 0.942131, 0, 0, -0.335246) /* Weaponsmith */
      , (278, 1880690695, 26280198, 4.755, -20, -66, 0.707107, 0, 0, -0.707107) /* Door */
-     , (905, 1880690696, 26280208, 28.481, -9.42289, -66, -4.37114E-08, 0, 0, -1) /* Black Rat Generator */
-     , (905, 1880690697, 26280208, 31.5324, -9.90829, -66, -0.662129, 0, 0, -0.74939) /* Black Rat Generator */
-     , (905, 1880690698, 26280208, 29.9928, -7.75198, -66, -4.37114E-08, 0, 0, -1) /* Black Rat Generator */
+     , (905, 1880690696, 26280208, 28.481, -9.42289, -66, -4.37114E-08, 0, 0, -1) /* ratblackgen */
+     , (905, 1880690697, 26280208, 31.5324, -9.90829, -66, -0.662129, 0, 0, -0.74939) /* ratblackgen */
+     , (905, 1880690698, 26280208, 29.9928, -7.75198, -66, -4.37114E-08, 0, 0, -1) /* ratblackgen */
      , (568, 1880690699, 26280215, 25.25, -40, -66, -0.707107, 0, 0, -0.707107) /* Door */
      , (568, 1880690700, 26280216, 30, -35.25, -66, 1, 0, 0, 0) /* Door */
      , (568, 1880690701, 26280220, 45.25, -30, -66, -0.707107, 0, 0, -0.707107) /* Door */
      , (568, 1880690702, 26280221, 54.75, -30, -66, 0.707107, 0, 0, -0.707107) /* Door */
      , (1297, 1880690703, 26280226, 74.75, -10, -66, 0.707107, 0, 0, -0.707107) /* Door */
-     , (965, 1880690704, 26280228, 80, -10, -66, 0.707107, 0, 0, -0.707107) /* Zombie Generator */
-     , (965, 1880690705, 26280228, 81.9586, -10.4039, -66, 0.690409, 0, 0, -0.723419) /* Zombie Generator */
+     , (965, 1880690704, 26280228, 80, -10, -66, 0.707107, 0, 0, -0.707107) /* zombiegen */
+     , (965, 1880690705, 26280228, 81.9586, -10.4039, -66, 0.690409, 0, 0, -0.723419) /* zombiegen */
      , (1624, 1880690706, 26280231, 90, -20, -65.996, 1, 0, 0, 0) /* Swamp Rat */
      , (1624, 1880690707, 26280233, 85.25, -30, -65.996, 1, 0, 0, 0) /* Swamp Rat */
      , (1624, 1880690708, 26280233, 86.9464, -27.7434, -65.996, 1, 0, 0, 0) /* Swamp Rat */
@@ -24,24 +24,24 @@ VALUES (1930, 1880690688, 26280192, 52.375, 8.12928E-08, -72, -0.707107, 0, 0, -
      , (1371, 1880690710, 26280239, 6.37229, -12.4414, -59.995, 0.707107, 0, 0, -0.707107) /* Archmage */
      , (1392, 1880690711, 26280246, 23.0228, -10.8542, -59.995, -0.707107, 0, 0, -0.707107) /* Peddler */
      , (509, 1880690712, 26280250, 20, -20, -60, 0.707107, 0, 0, -0.707107) /* Life Stone */
-     , (965, 1880690713, 26280270, 110, -24.75, -60, -4.37114E-08, 0, 0, -1) /* Zombie Generator */
-     , (965, 1880690714, 26280271, 110.182, -32.651, -60, 0, 0, 0, -1) /* Zombie Generator */
-     , (911, 1880690715, 26280277, 121.477, -22.8456, -60, 1, 0, 0, 0) /* Lich Generator */
-     , (965, 1880690716, 26280277, 119.198, -18.2519, -60, 0.575897, 0, 0, -0.817522) /* Zombie Generator */
+     , (965, 1880690713, 26280270, 110, -24.75, -60, -4.37114E-08, 0, 0, -1) /* zombiegen */
+     , (965, 1880690714, 26280271, 110.182, -32.651, -60, 0, 0, 0, -1) /* zombiegen */
+     , (911, 1880690715, 26280277, 121.477, -22.8456, -60, 1, 0, 0, 0) /* lichgenerator */
+     , (965, 1880690716, 26280277, 119.198, -18.2519, -60, 0.575897, 0, 0, -0.817522) /* zombiegen */
      , (568, 1880690717, 26280284, 115.25, -30, -60, -0.707107, 0, 0, -0.707107) /* Door */
-     , (911, 1880690718, 26280286, 129.309, -7.35553, -60, -0.707107, 0, 0, -0.707107) /* Lich Generator */
+     , (911, 1880690718, 26280286, 129.309, -7.35553, -60, -0.707107, 0, 0, -0.707107) /* lichgenerator */
      , (1930, 1880690719, 26280286, 130.215, -6.36644, -60, 1, 0, 0, 0) /* Chest */
      , (1930, 1880690720, 26280286, 132.646, -6.36536, -60, 1, 0, 0, 0) /* Chest */
      , (1931, 1880690721, 26280286, 131.392, -6.33642, -60, 1, 0, 0, 0) /* Chest */
-     , (911, 1880690722, 26280290, 130.604, -21.834, -60, 1, 0, 0, 0) /* Lich Generator */
+     , (911, 1880690722, 26280290, 130.604, -21.834, -60, 1, 0, 0, 0) /* lichgenerator */
      , (1300, 1880690723, 26280311, 34.75, -10, -54, 0.707107, 0, 0, -0.707107) /* Door */
-     , (911, 1880690724, 26280323, 90.3796, -23.1177, -54, 0, 0, 0, -1) /* Lich Generator */
+     , (911, 1880690724, 26280323, 90.3796, -23.1177, -54, 0, 0, 0, -1) /* lichgenerator */
      , (1630, 1880690725, 26280324, 90.0436, -28.4658, -54, -0.051573, 0, 0, -0.998669) /* Lich Lord */
-     , (911, 1880690726, 26280324, 91.8531, -31.8444, -54, -0.684388, 0, 0, -0.729118) /* Lich Generator */
-     , (911, 1880690727, 26280324, 88.6379, -31.883, -54, 0.691512, 0, 0, -0.722365) /* Lich Generator */
+     , (911, 1880690726, 26280324, 91.8531, -31.8444, -54, -0.684388, 0, 0, -0.729118) /* lichgenerator */
+     , (911, 1880690727, 26280324, 88.6379, -31.883, -54, 0.691512, 0, 0, -0.722365) /* lichgenerator */
      , (1931, 1880690728, 26280324, 86.048, -27.3564, -54, 1, 0, 0, 0) /* Chest */
      , (1931, 1880690729, 26280324, 94.2913, -27.5971, -54, 1, 0, 0, 0) /* Chest */
-     , (1154, 1880690730, 26280343, 90, -70, -48, 1, 0, 0, 0) /* Linkable Monster Generator */
+     , (1154, 1880690730, 26280343, 90, -70, -48, 1, 0, 0, 0) /* linkmonstergen */
      , (1298, 1880690731, 26280343, 90, -74.75, -48, 0, 0, 0, -1) /* Door */
      , (1624, 1880690732, 26280343, 91.2794, -72.5481, -47.996, -0.70122, 0, 0, -0.712945) /* Swamp Rat */
      , (1624, 1880690733, 26280343, 89.2287, -70.7106, -47.996, 0.004908, 0, 0, -0.999988) /* Swamp Rat */
@@ -68,11 +68,11 @@ VALUES (1930, 1880690688, 26280192, 52.375, 8.12928E-08, -72, -0.707107, 0, 0, -
      , (2611, 1880690754, 26280381, 128.545, -167.869, -35.3968, -0.684387, 0, 0, -0.729119) /* Zofrit Zefir */
      , (2608, 1880690755, 26280399, 88.9354, -202.659, -23.99, 1, 0, 0, 0) /* Jibrit Zefir */
      , (2608, 1880690756, 26280399, 91.1044, -202.777, -23.99, -0.724472, 0, 0, -0.689304) /* Jibrit Zefir */
-     , (1154, 1880690757, 26280399, 90, -200, -24, 1, 0, 0, 0) /* Linkable Monster Generator */
+     , (1154, 1880690757, 26280399, 90, -200, -24, 1, 0, 0, 0) /* linkmonstergen */
      , (2610, 1880690758, 26280400, 90.6637, -209.587, -23.99, 0.327424, 0, 0, -0.944878) /* Kilif Zefir */
      , (2610, 1880690759, 26280400, 88.3584, -209.986, -23.99, 0.327424, 0, 0, -0.944878) /* Kilif Zefir */
      , (2610, 1880690760, 26280400, 89.4573, -208.795, -23.99, 0.327424, 0, 0, -0.944878) /* Kilif Zefir */
-     , (1154, 1880690761, 26280400, 90, -210, -24, 1, 0, 0, 0) /* Linkable Monster Generator */
+     , (1154, 1880690761, 26280400, 90, -210, -24, 1, 0, 0, 0) /* linkmonstergen */
      , (1930, 1880690762, 26280402, 87.5279, -235.837, -24, 1, 0, 0, 0) /* Chest */
      , (1930, 1880690763, 26280402, 86.0953, -235.793, -24, 1, 0, 0, 0) /* Chest */
      , (2610, 1880690764, 26280403, 90, -250, -23.99, 0.008617, 0, 0, -0.999963) /* Kilif Zefir */
@@ -87,8 +87,8 @@ VALUES (1930, 1880690688, 26280192, 52.375, 8.12928E-08, -72, -0.707107, 0, 0, -
      , (2610, 1880690773, 26280415, 112.182, -211.133, -23.99, -0.948635, 0, 0, -0.316374) /* Kilif Zefir */
      , (2610, 1880690774, 26280415, 111.744, -207.975, -23.99, -0.948635, 0, 0, -0.316374) /* Kilif Zefir */
      , (2610, 1880690775, 26280415, 110.376, -205.785, -23.99, -0.948635, 0, 0, -0.316374) /* Kilif Zefir */
-     , (1154, 1880690776, 26280415, 107.723, -209.431, -24, -4.37114E-08, 0, 0, -1) /* Linkable Monster Generator */
-     , (1154, 1880690777, 26280415, 111.694, -208.909, -24, -4.37114E-08, 0, 0, -1) /* Linkable Monster Generator */
+     , (1154, 1880690776, 26280415, 107.723, -209.431, -24, -4.37114E-08, 0, 0, -1) /* linkmonstergen */
+     , (1154, 1880690777, 26280415, 111.694, -208.909, -24, -4.37114E-08, 0, 0, -1) /* linkmonstergen */
      , (1930, 1880690778, 26280415, 106.711, -214.151, -24, -4.37114E-08, 0, 0, -1) /* Chest */
      , (1930, 1880690779, 26280415, 108.116, -214.111, -24, -4.37114E-08, 0, 0, -1) /* Chest */
      , (1624, 1880690780, 26280416, 108.301, -231.672, -23.996, 1, 0, 0, 0) /* Swamp Rat */
@@ -104,60 +104,60 @@ VALUES (1930, 1880690688, 26280192, 52.375, 8.12928E-08, -72, -0.707107, 0, 0, -
      , (3635, 1880690790, 26280464, 100, -190, 0, -4.37114E-08, 0, 0, -1) /* Surface */
      , (568, 1880690791, 26280466, 100, -194.75, 0, -4.37114E-08, 0, 0, -1) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880690777'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880690730'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880690776'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880690757'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880690761'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880690777'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880690730'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880690776'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880690757'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880690761'; /* linkmonstergen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690764'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690765'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690768'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690783'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690784'; /* Linkable Monster Generator <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690785'; /* Linkable Monster Generator <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690759'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690774'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690766'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690758'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690773'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690771'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690772'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690780'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690781'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690732'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690733'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690734'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690725'; /* Linkable Monster Generator <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690707'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880690782'; /* Linkable Monster Generator <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880690767'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880690760'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880690755'; /* Linkable Monster Generator <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880690756'; /* Linkable Monster Generator <- Jibrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880690775'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690745'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690744'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690743'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690746'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690747'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690748'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690749'; /* Linkable Monster Generator <- Kilif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690752'; /* Linkable Monster Generator <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690753'; /* Linkable Monster Generator <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690754'; /* Linkable Monster Generator <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690741'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690706'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690708'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690690'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690691'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690692'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690737'; /* Linkable Monster Generator <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690738'; /* Linkable Monster Generator <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690739'; /* Linkable Monster Generator <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690736'; /* Linkable Monster Generator <- Zofrit Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690740'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690742'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690750'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690751'; /* Linkable Monster Generator <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690764'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690765'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690768'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690783'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690784'; /* linkmonstergen <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690785'; /* linkmonstergen <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690759'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880690774'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690766'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690758'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690773'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690771'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690772'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690780'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690781'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690732'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690733'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690734'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690725'; /* linkmonstergen <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880690707'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880690782'; /* linkmonstergen <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880690767'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880690760'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880690755'; /* linkmonstergen <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880690756'; /* linkmonstergen <- Jibrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880690775'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690745'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690744'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690743'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690746'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690747'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690748'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690749'; /* linkmonstergen <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690752'; /* linkmonstergen <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690753'; /* linkmonstergen <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690754'; /* linkmonstergen <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690741'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690706'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690708'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690690'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690691'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880690692'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690737'; /* linkmonstergen <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690738'; /* linkmonstergen <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690739'; /* linkmonstergen <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690736'; /* linkmonstergen <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690740'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690742'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690750'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880690751'; /* linkmonstergen <- Swamp Rat */
 

@@ -59,9 +59,9 @@ VALUES (201, 1976860673, 1564999936, -2.63825, -50.4166, 0.01, 0.840773, 0, 0, 0
      , (22942, 1976860756, 1565000054, 45.8822, -17.0885, 18.005, -0.615914, 0, 0, -0.787813) /* Gem of Lowering Strength */
      , (22940, 1976860757, 1565000066, 57.0108, -5.98572, 18.005, -0.999971, 0, 0, -0.00758652) /* Gem of Lowering Quickness */
      , (22939, 1976860758, 1565000066, 64.0197, -13.1116, 18.005, -0.708143, 0, 0, 0.706069) /* Gem of Lowering Focus */
-     , (15759, 1976860726, 1565000067, 62.5774, -15.079, 18.005, -0.617709, 0, 0, 0.786407) /* Linkable Item Generator */
+     , (15759, 1976860726, 1565000067, 62.5774, -15.079, 18.005, -0.617709, 0, 0, 0.786407) /* linkitemgen10seconds */
      , (22941, 1976860759, 1565000067, 64.1001, -16.9884, 18.005, -0.706346, 0, 0, 0.707867) /* Gem of Lowering Self */
-     , (7923, 1976860727, 1565000076, 63.9635, -117.838, 18.005, 0.676606, 0, 0, -0.736346) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1976860727, 1565000076, 63.9635, -117.838, 18.005, 0.676606, 0, 0, -0.736346) /* linkmonstergen3minutes */
      , (22333, 1976860728, 1565000077, 66.0419, 3.91896, 18.005, -0.852558, 0, 0, -0.522632) /* Lockpick Gem of Forgetfulness */
      , (22334, 1976860729, 1565000077, 68.0737, 4.10488, 18.005, -0.852558, 0, 0, -0.522632) /* Loyalty Gem of Forgetfulness */
      , (22335, 1976860730, 1565000077, 70.4229, 4.0747, 18.005, -0.852558, 0, 0, -0.522632) /* Mace Gem of Forgetfulness */
@@ -81,77 +81,77 @@ VALUES (201, 1976860673, 1564999936, -2.63825, -50.4166, 0.01, 0.840773, 0, 0, 0
      , (22349, 1976860744, 1565000082, 67.9869, -34.0701, 18.005, 0.972407, 0, 0, -0.233293) /* Weapon Tinkering Gem of Forgetfulness */
      , (28926, 1976860760, 1565000082, 65.9398, -26.007, 18.005, -0.778436, 0, 0, -0.627724) /* Salvaging Gem of Forgetfulness */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1976860727'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1976860726'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1976860727'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1976860726'; /* linkitemgen10seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860705'; /* Linkable Monster Generator ( 3 Min.) <- Copper Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860704'; /* Linkable Monster Generator ( 3 Min.) <- Copper Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860707'; /* Linkable Monster Generator ( 3 Min.) <- Copper Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860706'; /* Linkable Monster Generator ( 3 Min.) <- Copper Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860696'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860697'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860703'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860702'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860698'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860699'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860700'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860701'; /* Linkable Monster Generator ( 3 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860673'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860674'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860679'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860680'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860689'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860688'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860676'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860677'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860686'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860685'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860695'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860694'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860683'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860682'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860692'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860691'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860741'; /* Linkable Item Generator <- Thrown Weapon Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860740'; /* Linkable Item Generator <- Sword Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860743'; /* Linkable Item Generator <- War Magic Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860742'; /* Linkable Item Generator <- Unarmed Combat Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860737'; /* Linkable Item Generator <- Run Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860739'; /* Linkable Item Generator <- Staff Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860738'; /* Linkable Item Generator <- Spear Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860711'; /* Linkable Item Generator <- Axe Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860712'; /* Linkable Item Generator <- Bow Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860709'; /* Linkable Item Generator <- Arcane Lore Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860710'; /* Linkable Item Generator <- Armor Tinkering Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860708'; /* Linkable Item Generator <- Alchemy Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860744'; /* Linkable Item Generator <- Weapon Tinkering Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860715'; /* Linkable Item Generator <- Creature Enchantment Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860716'; /* Linkable Item Generator <- Crossbow Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860713'; /* Linkable Item Generator <- Cooking Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860714'; /* Linkable Item Generator <- Creature Appraisal Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860718'; /* Linkable Item Generator <- Deception Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860717'; /* Linkable Item Generator <- Dagger Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860724'; /* Linkable Item Generator <- Leadership Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860723'; /* Linkable Item Generator <- Jump Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860725'; /* Linkable Item Generator <- Life Magic Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860720'; /* Linkable Item Generator <- Healing Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860719'; /* Linkable Item Generator <- Fletching Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860722'; /* Linkable Item Generator <- Item Enchantment Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860721'; /* Linkable Item Generator <- Item Tinkering Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860734'; /* Linkable Item Generator <- Melee Defense Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860735'; /* Linkable Item Generator <- Missile Defense Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860732'; /* Linkable Item Generator <- Magic Item Tinkering Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860733'; /* Linkable Item Generator <- Mana Conversion Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860730'; /* Linkable Item Generator <- Mace Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860731'; /* Linkable Item Generator <- Magic Defense Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860728'; /* Linkable Item Generator <- Lockpick Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860729'; /* Linkable Item Generator <- Loyalty Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860759'; /* Linkable Item Generator <- Gem of Lowering Self */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860757'; /* Linkable Item Generator <- Gem of Lowering Quickness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860758'; /* Linkable Item Generator <- Gem of Lowering Focus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860754'; /* Linkable Item Generator <- Gem of Lowering Endurance */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860755'; /* Linkable Item Generator <- Gem of Lowering Coordination */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860756'; /* Linkable Item Generator <- Gem of Lowering Strength */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860736'; /* Linkable Item Generator <- Personal Appraisal Gem of Forgetfulness */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860760'; /* Linkable Item Generator <- Salvaging Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860705'; /* linkmonstergen3minutes <- Copper Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860704'; /* linkmonstergen3minutes <- Copper Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860707'; /* linkmonstergen3minutes <- Copper Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860706'; /* linkmonstergen3minutes <- Copper Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860696'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860697'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860703'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860702'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860698'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860699'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860700'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860701'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860673'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860674'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860679'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860680'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860689'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860688'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860676'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860677'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860686'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860685'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860695'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860694'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860683'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860682'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860692'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976860691'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860741'; /* linkitemgen10seconds <- Thrown Weapon Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860740'; /* linkitemgen10seconds <- Sword Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860743'; /* linkitemgen10seconds <- War Magic Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860742'; /* linkitemgen10seconds <- Unarmed Combat Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860737'; /* linkitemgen10seconds <- Run Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860739'; /* linkitemgen10seconds <- Staff Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860738'; /* linkitemgen10seconds <- Spear Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860711'; /* linkitemgen10seconds <- Axe Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860712'; /* linkitemgen10seconds <- Bow Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860709'; /* linkitemgen10seconds <- Arcane Lore Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860710'; /* linkitemgen10seconds <- Armor Tinkering Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860708'; /* linkitemgen10seconds <- Alchemy Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860744'; /* linkitemgen10seconds <- Weapon Tinkering Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860715'; /* linkitemgen10seconds <- Creature Enchantment Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860716'; /* linkitemgen10seconds <- Crossbow Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860713'; /* linkitemgen10seconds <- Cooking Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860714'; /* linkitemgen10seconds <- Creature Appraisal Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860718'; /* linkitemgen10seconds <- Deception Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860717'; /* linkitemgen10seconds <- Dagger Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860724'; /* linkitemgen10seconds <- Leadership Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860723'; /* linkitemgen10seconds <- Jump Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860725'; /* linkitemgen10seconds <- Life Magic Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860720'; /* linkitemgen10seconds <- Healing Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860719'; /* linkitemgen10seconds <- Fletching Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860722'; /* linkitemgen10seconds <- Item Enchantment Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860721'; /* linkitemgen10seconds <- Item Tinkering Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860734'; /* linkitemgen10seconds <- Melee Defense Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860735'; /* linkitemgen10seconds <- Missile Defense Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860732'; /* linkitemgen10seconds <- Magic Item Tinkering Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860733'; /* linkitemgen10seconds <- Mana Conversion Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860730'; /* linkitemgen10seconds <- Mace Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860731'; /* linkitemgen10seconds <- Magic Defense Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860728'; /* linkitemgen10seconds <- Lockpick Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860729'; /* linkitemgen10seconds <- Loyalty Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860759'; /* linkitemgen10seconds <- Gem of Lowering Self */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860757'; /* linkitemgen10seconds <- Gem of Lowering Quickness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860758'; /* linkitemgen10seconds <- Gem of Lowering Focus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860754'; /* linkitemgen10seconds <- Gem of Lowering Endurance */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860755'; /* linkitemgen10seconds <- Gem of Lowering Coordination */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860756'; /* linkitemgen10seconds <- Gem of Lowering Strength */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860736'; /* linkitemgen10seconds <- Personal Appraisal Gem of Forgetfulness */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976860760'; /* linkitemgen10seconds <- Salvaging Gem of Forgetfulness */
 

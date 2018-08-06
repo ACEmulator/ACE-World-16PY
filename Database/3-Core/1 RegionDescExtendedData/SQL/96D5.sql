@@ -1,8 +1,8 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (38613, 23159, 0, 5) /* Mid North Plains Generator */
-     , (38613, 23159, 1, 2) /* Mid North Plains Generator */
-     , (38613, 23159, 1, 4) /* Mid North Plains Generator */
-     , (38613, 23159, 3, 2) /* Mid North Plains Generator */
-     , (38613, 23159, 3, 5) /* Mid North Plains Generator */
-     , (38613, 23159, 6, 3) /* Mid North Plains Generator */;
+VALUES (38613, 23159, 0, 5) /* midnorthplainsgen */
+     , (38613, 23159, 1, 2) /* midnorthplainsgen */
+     , (38613, 23159, 1, 4) /* midnorthplainsgen */
+     , (38613, 23159, 3, 2) /* midnorthplainsgen */
+     , (38613, 23159, 3, 5) /* midnorthplainsgen */
+     , (38613, 23159, 6, 3) /* midnorthplainsgen */;
 

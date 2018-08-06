@@ -14,7 +14,7 @@ VALUES (23482, 1986494464, 1719140608, 0.802557, -73.3934, -11.7984, -0.029724, 
      , (23482, 1986494475, 1719140630, 29.3336, -110.051, -11.995, 0.693106, 0, 0, -0.720836) /* Olthoi Warrior */
      , (5627, 1986494476, 1719140634, 29.977, -124.159, -12, 1, 0, 0, 0) /* Door */
      , (23482, 1986494477, 1719140634, 30.1028, -123, -11.9719, 0.058021, 0, 0, 0.998315) /* Olthoi Warrior */
-     , (7924, 1986494478, 1719140634, 28.8385, -122.861, -11.995, 0.082958, 0, 0, 0.996553) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1986494478, 1719140634, 28.8385, -122.861, -11.995, 0.082958, 0, 0, 0.996553) /* linkmonstergen5minutes */
      , (23482, 1986494479, 1719140635, 30.7963, -133.655, -11.995, -0.120578, 0, 0, 0.992704) /* Olthoi Warrior */
      , (6122, 1986494480, 1719140643, 40, -90, -11.995, 1, 0, 0, 0) /* Acid */
      , (6122, 1986494481, 1719140644, 40, -100, -11.995, 1, 0, 0, -4.37114E-08) /* Acid */
@@ -68,54 +68,54 @@ VALUES (23482, 1986494464, 1719140608, 0.802557, -73.3934, -11.7984, -0.029724, 
      , (23482, 1986494528, 1719140937, 110.325, -18.1213, 0.005, -0.024007, 0, 0, 0.999712) /* Olthoi Warrior */
      , (23482, 1986494529, 1719140943, 120, -10, 0.005, 0.362358, 0, 0, -0.932039) /* Olthoi Warrior */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1986494478'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1986494478'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494496'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494496'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494493'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494501'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494499'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494515'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494514'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494477'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494525'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494526'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494522'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494527'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494519'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494516'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494520'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494518'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494523'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494487'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494517'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494482'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494485'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494489'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494483'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494492'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494479'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494464'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494467'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494491'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494466'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494465'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494510'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494505'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494468'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494488'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494490'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494486'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494484'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494497'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494502'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494475'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494474'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494473'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494470'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494521'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494529'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494528'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494531'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494530'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494496'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494496'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494493'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494501'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494499'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494515'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494514'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494477'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494525'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494526'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494522'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494527'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494519'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494516'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494520'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494518'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494523'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494487'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494517'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494482'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494485'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494489'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494483'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494492'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494479'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494464'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494467'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494491'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494466'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494465'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494510'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494505'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494468'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494488'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494490'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494486'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494484'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494497'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494502'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494475'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494474'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494473'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494470'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494521'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494529'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494528'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494531'; /* linkmonstergen5minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1986494530'; /* linkmonstergen5minutes <- Olthoi Warrior */
 

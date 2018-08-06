@@ -21,7 +21,7 @@ VALUES (9250, 1881796608, 43974912, -0.126479, -349.425, 0.005, -0.315646, 0, 0,
      , (9249, 1881796627, 43975024, 58.0445, -448.665, 0.005, -0.700756, 0, 0, 0.713401) /* Marionette */
      , (9249, 1881796628, 43975024, 58.0014, -451.075, 0.005, -0.700756, 0, 0, 0.713401) /* Marionette */
      , (9242, 1881796629, 43975026, 55.4864, -550.526, 0.055, -0.932611, 0, 0, 0.360883) /* Innocent Doll */
-     , (7924, 1881796630, 43975038, 60.1604, -613.885, 0.005, 0.999687, 0, 0, -0.025032) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1881796630, 43975038, 60.1604, -613.885, 0.005, 0.999687, 0, 0, -0.025032) /* linkmonstergen5minutes */
      , (9204, 1881796631, 43975039, 60, -617.55, 0.005, 1, 0, 0, -4.37114E-08) /* Surface */
      , (9249, 1881796632, 43975043, 70.3698, -380.656, 0.005, 0.679983, 0, 0, 0.733228) /* Marionette */
      , (9250, 1881796633, 43975044, 70, -390, 0.005, 1, 0, 0, -4.37114E-08) /* Dark Marionette */
@@ -43,7 +43,7 @@ VALUES (9250, 1881796608, 43974912, -0.126479, -349.425, 0.005, -0.315646, 0, 0,
      , (9249, 1881796649, 43975119, 109.964, -542.114, 0.005, 0.823503, 0, 0, 0.567312) /* Marionette */
      , (9242, 1881796650, 43975120, 106.317, -547, 0.029, 0.940601, 0, 0, 0.339513) /* Innocent Doll */
      , (9194, 1881796651, 43975126, 120.781, -450.04, 0.09638, -0.707272, 0, 0, -0.706942) /* Scrawled Note */
-     , (4142, 1881796652, 43975126, 119.961, -450.837, 0.005, -0.689379, 0, 0, -0.724401) /* Linkable Item Generator */
+     , (4142, 1881796652, 43975126, 119.961, -450.837, 0.005, -0.689379, 0, 0, -0.724401) /* linkitemgen2minutes */
      , (9250, 1881796653, 43975127, 115.9, -449.964, 0.005, -0.676928, 0, 0, -0.73605) /* Dark Marionette */
      , (9242, 1881796654, 43975132, 139.834, -301.239, 0.029, 0.033668, 0, 0, -0.999433) /* Innocent Doll */
      , (9250, 1881796655, 43975132, 140.914, -302.665, 0.005, 0.033668, 0, 0, -0.999433) /* Dark Marionette */
@@ -69,72 +69,72 @@ VALUES (9250, 1881796608, 43974912, -0.126479, -349.425, 0.005, -0.315646, 0, 0,
      , (9250, 1881796675, 43975547, 140, -20, 18.005, 1, 0, 0, 0) /* Dark Marionette */
      , (9198, 1881796676, 43975549, 140, -40, 18.029, 0.04578, 0, 0, 0.998952) /* Aerbax's Apprentice */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881796630'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881796652'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881796630'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881796652'; /* linkitemgen2minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796613'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796617'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796614'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796643'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796638'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796644'; /* Linkable Monster Generator ( 5 Min.) <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796623'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796637'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796636'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796622'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796621'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796629'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796650'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796649'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796646'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796642'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796657'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796645'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796635'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796641'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796647'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796648'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796653'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796626'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796627'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796628'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796612'; /* Linkable Monster Generator ( 5 Min.) <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796616'; /* Linkable Monster Generator ( 5 Min.) <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796625'; /* Linkable Monster Generator ( 5 Min.) <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796634'; /* Linkable Monster Generator ( 5 Min.) <- Pristine Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796611'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796608'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796610'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796633'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796624'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796632'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796609'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796618'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796619'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796620'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796615'; /* Linkable Monster Generator ( 5 Min.) <- Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796656'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796658'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796640'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796654'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796655'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796660'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796662'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796666'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796665'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796664'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796659'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796663'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796674'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796661'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Puppet */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796667'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Puppet */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796673'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Puppet */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796669'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796672'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796668'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Puppet */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796671'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Puppet */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796676'; /* Linkable Monster Generator ( 5 Min.) <- Aerbax's Apprentice */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796675'; /* Linkable Monster Generator ( 5 Min.) <- Dark Marionette */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796639'; /* Linkable Monster Generator ( 5 Min.) <- Innocent Doll */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881796651'; /* Linkable Item Generator <- Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796613'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796617'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796614'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796643'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796638'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796644'; /* linkmonstergen5minutes <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796623'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796637'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796636'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796622'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796621'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796629'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796650'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796649'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796646'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796642'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796657'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796645'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796635'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796641'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796647'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796648'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796653'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796626'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796627'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796628'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796612'; /* linkmonstergen5minutes <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796616'; /* linkmonstergen5minutes <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796625'; /* linkmonstergen5minutes <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796634'; /* linkmonstergen5minutes <- Pristine Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796611'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796608'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796610'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796633'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796624'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796632'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796609'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796618'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796619'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796620'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796615'; /* linkmonstergen5minutes <- Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796656'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796658'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796640'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796654'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796655'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796660'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796662'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796666'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796665'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796664'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796659'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796663'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796674'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796661'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796667'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796673'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796669'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796672'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796668'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796671'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796676'; /* linkmonstergen5minutes <- Aerbax's Apprentice */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796675'; /* linkmonstergen5minutes <- Dark Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881796639'; /* linkmonstergen5minutes <- Innocent Doll */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881796651'; /* linkitemgen2minutes <- Scrawled Note */
 

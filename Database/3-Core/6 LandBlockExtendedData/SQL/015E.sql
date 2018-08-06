@@ -6,7 +6,7 @@ VALUES (4830, 1880481792, 22937862, 57.8243, -171.582, -11.995, -0.712906, 0, 0,
      , (1762, 1880481796, 22937879, 79.8436, -166.013, -11.995, -0.983098, 0, 0, -0.183081) /* Skeleton Lord */
      , (8673, 1880481797, 22937885, 92.2097, -160.393, -11.9917, 0.766872, 0, 0, -0.6418) /* Risen Knight */
      , (5935, 1880481798, 22937888, 90.9111, -169.54, -11.9305, 0.797436, 0, 0, 0.603404) /* Dizah ibn Nadqab's Journal */
-     , (3597, 1880481799, 22937888, 91.9564, -169.878, -11.995, 0.455589, 0, 0, 0.89019) /* Linkable Item Scatter Generator */
+     , (3597, 1880481799, 22937888, 91.9564, -169.878, -11.995, 0.455589, 0, 0, 0.89019) /* linkitemscattergen */
      , (8673, 1880481800, 22937898, 99.7171, -169.993, -11.9917, 0.999535, 0, 0, -0.0304841) /* Risen Knight */
      , (8673, 1880481801, 22937903, 109.463, -160.037, -11.9917, -0.709152, 0, 0, -0.705055) /* Risen Knight */
      , (1762, 1880481802, 22937912, 76.1145, -119.653, -5.995, -0.359064, 0, 0, -0.933313) /* Skeleton Lord */
@@ -18,8 +18,8 @@ VALUES (4830, 1880481792, 22937862, 57.8243, -171.582, -11.995, -0.712906, 0, 0,
      , (1762, 1880481808, 22937934, 59.9027, -92.1026, 0.005, -0.030435, 0, 0, -0.999537) /* Skeleton Lord */
      , (1762, 1880481809, 22937945, 59.0501, -168.033, 0.005, -0.99992, 0, 0, -0.012611) /* Skeleton Lord */
      , (4976, 1880481810, 22937948, 71.7172, -170.106, 0.013375, 0.707107, 0, 0, -0.707107) /* Surface Portal */
-     , (7924, 1880481910, 22937959, 78.6648, -170, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
-     , (7923, 1880481911, 22937959, 80.6466, -170, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7924, 1880481910, 22937959, 78.6648, -170, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7923, 1880481911, 22937959, 80.6466, -170, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (1762, 1880481811, 22937981, 108.387, -111.96, 0.005, 0.999922, 0, 0, -0.012484) /* Skeleton Lord */
      , (1762, 1880481812, 22937995, 129.052, -116.201, 0.0025, -4.37114E-08, 0, 0, -1) /* Skeleton Lord */
      , (1762, 1880481813, 22937995, 126.602, -116.219, 0.0025, -4.37114E-08, 0, 0, -1) /* Skeleton Lord */
@@ -123,9 +123,9 @@ UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `
 UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880481859'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880481856'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880481888'; /* Magic trap */
-UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1880481799'; /* Linkable Item Scatter Generator */
-UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1880481910'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1880481911'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1880481799'; /* linkitemscattergen */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1880481910'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1880481911'; /* linkmonstergen3minutes */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880481884'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880481850'; /* Door <- Lever */
@@ -141,64 +141,64 @@ UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880481867'; /* D
 UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880481904'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880481855'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880481887'; /* Magic trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1880481798'; /* Linkable Item Scatter Generator <- Dizah ibn Nadqab's Journal */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481814'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481847'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481816'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481846'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481812'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481813'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481837'; /* Linkable Monster Generator ( 5 Min.) <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481835'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481836'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481844'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481845'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481806'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481840'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481804'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481805'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481827'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481842'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481841'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481807'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481820'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481817'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481843'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481819'; /* Linkable Monster Generator ( 5 Min.) <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481818'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481828'; /* Linkable Monster Generator ( 5 Min.) <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481886'; /* Linkable Monster Generator ( 5 Min.) <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481809'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481793'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481794'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481802'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481889'; /* Linkable Monster Generator ( 5 Min.) <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481880'; /* Linkable Monster Generator ( 5 Min.) <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481863'; /* Linkable Monster Generator ( 5 Min.) <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481801'; /* Linkable Monster Generator ( 5 Min.) <- Risen Knight */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481795'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481796'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481872'; /* Linkable Monster Generator ( 5 Min.) <- Risen Knight */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481892'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481891'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481854'; /* Linkable Monster Generator ( 5 Min.) <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481864'; /* Linkable Monster Generator ( 5 Min.) <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481852'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481853'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481808'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481803'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481811'; /* Linkable Monster Generator ( 5 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481797'; /* Linkable Monster Generator ( 5 Min.) <- Risen Knight */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481800'; /* Linkable Monster Generator ( 5 Min.) <- Risen Knight */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481898'; /* Linkable Monster Generator ( 3 Min.) <- Impious Lichen Priest */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481899'; /* Linkable Monster Generator ( 3 Min.) <- Impious Lichen Priest */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481907'; /* Linkable Monster Generator ( 3 Min.) <- Impious Lichen High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481897'; /* Linkable Monster Generator ( 3 Min.) <- Impious Lichen Priest */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481896'; /* Linkable Monster Generator ( 3 Min.) <- Impious Lichen Priest */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481906'; /* Linkable Monster Generator ( 3 Min.) <- Impious Lichen Priest */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481905'; /* Linkable Monster Generator ( 3 Min.) <- Impious Lichen Priest */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481821'; /* Linkable Monster Generator ( 3 Min.) <- Impious Mortuus Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481824'; /* Linkable Monster Generator ( 3 Min.) <- Impious Occasus Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481832'; /* Linkable Monster Generator ( 3 Min.) <- Impious Inferus Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481829'; /* Linkable Monster Generator ( 3 Min.) <- Impious Superna Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1880481798'; /* linkitemscattergen <- Dizah ibn Nadqab's Journal */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481814'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481847'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481816'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481846'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481812'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481813'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481837'; /* linkmonstergen5minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481835'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481836'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481844'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481845'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481806'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481840'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481804'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481805'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481827'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481842'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481841'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481807'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481820'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481817'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481843'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481819'; /* linkmonstergen5minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481818'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481828'; /* linkmonstergen5minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481886'; /* linkmonstergen5minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481809'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481793'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481794'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481802'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481889'; /* linkmonstergen5minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481880'; /* linkmonstergen5minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481863'; /* linkmonstergen5minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481801'; /* linkmonstergen5minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481795'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481796'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481872'; /* linkmonstergen5minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481892'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481891'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481854'; /* linkmonstergen5minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481864'; /* linkmonstergen5minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481852'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481853'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481808'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481803'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481811'; /* linkmonstergen5minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481797'; /* linkmonstergen5minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880481800'; /* linkmonstergen5minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481898'; /* linkmonstergen3minutes <- Impious Lichen Priest */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481899'; /* linkmonstergen3minutes <- Impious Lichen Priest */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481907'; /* linkmonstergen3minutes <- Impious Lichen High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481897'; /* linkmonstergen3minutes <- Impious Lichen Priest */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481896'; /* linkmonstergen3minutes <- Impious Lichen Priest */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481906'; /* linkmonstergen3minutes <- Impious Lichen Priest */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481905'; /* linkmonstergen3minutes <- Impious Lichen Priest */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481821'; /* linkmonstergen3minutes <- Impious Mortuus Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481824'; /* linkmonstergen3minutes <- Impious Occasus Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481832'; /* linkmonstergen3minutes <- Impious Inferus Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880481829'; /* linkmonstergen3minutes <- Impious Superna Guardian */
 

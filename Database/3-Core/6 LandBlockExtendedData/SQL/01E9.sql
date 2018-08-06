@@ -1,15 +1,15 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1100, 1881051136, 32047360, 59.6924, -138.729, -17.9996, -4.37114E-08, 0, 0, -1) /* Surface */
-     , (962, 1881051137, 32047363, 60.6137, -151.881, -18, -0.880633, 0, 0, -0.4738) /* Mosswart Feeder Generator */
-     , (899, 1881051138, 32047364, 65.9875, -147.298, -18, -0.147809, 0, 0, -0.989016) /* Mosswart Mudlurk Generator */
-     , (418, 1881051139, 32047365, 73.211, -156.786, -18, 0.999728, 0, 0, -0.023342) /* Item Cheese Generator */
+     , (962, 1881051137, 32047363, 60.6137, -151.881, -18, -0.880633, 0, 0, -0.4738) /* mosswartfeedergen */
+     , (899, 1881051138, 32047364, 65.9875, -147.298, -18, -0.147809, 0, 0, -0.989016) /* mosswartmudlurkgen */
+     , (418, 1881051139, 32047365, 73.211, -156.786, -18, 0.999728, 0, 0, -0.023342) /* itemcheese-generator */
      , (278, 1881051140, 32047367, 70, -155.245, -18, 1, 0, 0, 0) /* Door */
-     , (383, 1881051141, 32047371, 90.1241, -160.375, -18, 0.929817, 0, 0, -0.368023) /* Mosswart Generator */
+     , (383, 1881051141, 32047371, 90.1241, -160.375, -18, 0.929817, 0, 0, -0.368023) /* mosswart-generator */
      , (940, 1881051142, 32047373, 7.12125, -120.294, -11.9958, 0.707107, 0, 0, -0.707107) /* Drudge Sneaker */
      , (278, 1881051143, 32047378, 20, -74.755, -12, -4.37114E-08, 0, 0, -1) /* Door */
      , (568, 1881051144, 32047382, 24.75, -90, -12, 0.707107, 0, 0, -0.707107) /* Door */
      , (940, 1881051145, 32047390, 20.4414, -119.211, -11.9958, 0.999988, 0, 0, -0.00490804) /* Drudge Sneaker */
-     , (418, 1881051146, 32047393, 22.2336, -122.073, -12, -4.37114E-08, 0, 0, -1) /* Item Cheese Generator */
+     , (418, 1881051146, 32047393, 22.2336, -122.073, -12, -4.37114E-08, 0, 0, -1) /* itemcheese-generator */
      , (1913, 1881051147, 32047399, 33.9125, -68.2475, -11.9875, -0.707107, 0, 0, 0.707107) /* Chest */
      , (947, 1881051148, 32047399, 31.8029, -67.6059, -11.9945, -0.116454, 0, 0, -0.993196) /* Barker Mosswart */
      , (278, 1881051149, 32047401, 30, -74.755, -12, -4.37114E-08, 0, 0, -1) /* Door */
@@ -19,7 +19,7 @@ VALUES (1100, 1881051136, 32047360, 59.6924, -138.729, -17.9996, -4.37114E-08, 0
      , (568, 1881051153, 32047421, 40, -94.75, -12, -4.37114E-08, 0, 0, -1) /* Door */
      , (8, 1881051154, 32047430, 41.3643, -141.939, -11.9945, -0.939319, 0, 0, -0.343045) /* Creeper Mosswart */
      , (278, 1881051155, 32047433, 40, -135.272, -11.9996, 0, 0, 0, -1) /* Door */
-     , (383, 1881051156, 32047435, 51.498, -67.646, -12, -0.421629, 0, 0, -0.906768) /* Mosswart Generator */
+     , (383, 1881051156, 32047435, 51.498, -67.646, -12, -0.421629, 0, 0, -0.906768) /* mosswart-generator */
      , (948, 1881051157, 32047439, 47.3517, -81.9126, -11.9945, 0.972877, 0, 0, -0.231323) /* Mosswart Feeder */
      , (568, 1881051158, 32047441, 45.25, -80, -12, -0.707107, 0, 0, -0.707107) /* Door */
      , (948, 1881051159, 32047448, 57.9269, -98.4217, -11.9945, 0.407932, 0, 0, -0.913012) /* Mosswart Feeder */
@@ -44,9 +44,9 @@ VALUES (1100, 1881051136, 32047360, 59.6924, -138.729, -17.9996, -4.37114E-08, 0
      , (970, 1881051178, 32047542, 130.436, -123.162, -11.995, -0.972446, 0, 0, -0.233128) /* Gailadu the Scribe */
      , (278, 1881051179, 32047550, 135.25, -110, -12, -0.707107, 0, 0, -0.707107) /* Door */
      , (14, 1881051180, 32047551, 138.708, -118.826, -11.994, 0.367749, 0, 0, -0.929925) /* Cow */
-     , (3955, 1881051181, 32047553, 140, -140, -12, -4.37114E-08, 0, 0, -1) /* Linkable Monster Gen (15 min.) */
-     , (3953, 1881051182, 32047553, 139.379, -141.452, -12, -4.37114E-08, 0, 0, -1) /* Linkable Monster Gen (30 min.) */
-     , (1154, 1881051183, 32047553, 141.511, -140.147, -12, -4.37114E-08, 0, 0, -1) /* Linkable Monster Generator */
+     , (3955, 1881051181, 32047553, 140, -140, -12, -4.37114E-08, 0, 0, -1) /* linkmonstergen15minutes */
+     , (3953, 1881051182, 32047553, 139.379, -141.452, -12, -4.37114E-08, 0, 0, -1) /* linkmonstergen30minutes */
+     , (1154, 1881051183, 32047553, 141.511, -140.147, -12, -4.37114E-08, 0, 0, -1) /* linkmonstergen */
      , (15823, 1881051323, 32047554, 149.667, 0.894006, -11.995, 0.999728, 0, 0, -0.023341) /* Hidden Dungeon Portal */
      , (220, 1881051184, 32047562, 153.499, -96.6018, -11.9912, -0.325671, 0, 0, -0.945483) /* Brown Rat */
      , (192, 1881051185, 32047567, 152.568, -141.337, -11.9958, -0.707107, 0, 0, -0.707107) /* Drudge Prowler */
@@ -73,24 +73,24 @@ VALUES (1100, 1881051136, 32047360, 59.6924, -138.729, -17.9996, -4.37114E-08, 0
      , (278, 1881051206, 32047659, 54.75, -60, -6, -0.707107, 0, 0, 0.707107) /* Door */
      , (947, 1881051207, 32047662, 50.9229, -70.1204, -5.9945, -0.950753, 0, 0, -0.30995) /* Barker Mosswart */
      , (8, 1881051208, 32047675, 48.2109, -170, -5.9945, 0.88223, 0, 0, -0.470819) /* Creeper Mosswart */
-     , (961, 1881051209, 32047676, 47.325, -183.25, -6, 0.958696, 0, 0, -0.284434) /* Mosswart Barker Generator */
+     , (961, 1881051209, 32047676, 47.325, -183.25, -6, 0.958696, 0, 0, -0.284434) /* mosswartbarkergen */
      , (171, 1881051210, 32047677, 53.0495, -190, -5.54525, 1, 0, 0, 0) /* Vat */
-     , (420, 1881051211, 32047677, 51.9929, -191.725, -6, 1, 0, 0, 0) /* Item Food Generator */
-     , (420, 1881051212, 32047677, 48.4351, -190.696, -6, 1, 0, 0, 0) /* Item Food Generator */
+     , (420, 1881051211, 32047677, 51.9929, -191.725, -6, 1, 0, 0, 0) /* itemfood-generator */
+     , (420, 1881051212, 32047677, 48.4351, -190.696, -6, 1, 0, 0, 0) /* itemfood-generator */
      , (218, 1881051213, 32047677, 50, -190, -5.9916, 1, 0, 0, 0) /* Black Rat */
      , (278, 1881051214, 32047679, 50, -185.25, -6, 1, 0, 0, 0) /* Door */
      , (278, 1881051215, 32047688, 55.25, -100, -6, -0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1881051216, 32047694, 60, -134.75, -6, -4.37114E-08, 0, 0, -1) /* Door */
      , (947, 1881051217, 32047695, 58.5925, -141.699, -5.9945, 0.613424, 0, 0, -0.789754) /* Barker Mosswart */
      , (278, 1881051218, 32047698, 60, -164.75, -6, -4.37114E-08, 0, 0, -1) /* Door */
-     , (7923, 1881051219, 32047699, 58.9434, -168.676, -6, 0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 3 Min.) */
-     , (3955, 1881051220, 32047699, 60.8961, -169.077, -6, 0.707107, 0, 0, -0.707107) /* Linkable Monster Gen (15 min.) */
-     , (1154, 1881051221, 32047699, 60, -170, -6, 0.707107, 0, 0, -0.707107) /* Linkable Monster Generator */
-     , (3953, 1881051222, 32047699, 58.6931, -170.03, -6, 0.707107, 0, 0, -0.707107) /* Linkable Monster Gen (30 min.) */
-     , (1154, 1881051223, 32047699, 61.3281, -170.16, -6, 0.707107, 0, 0, -0.707107) /* Linkable Monster Generator */
-     , (1154, 1881051224, 32047699, 62.3055, -168.726, -6, 0.707107, 0, 0, -0.707107) /* Linkable Monster Generator */
-     , (1154, 1881051225, 32047700, 60, -180, -6, -0.707107, 0, 0, -0.707107) /* Linkable Monster Generator */
-     , (1154, 1881051226, 32047700, 58.1965, -179.744, -6, -0.707107, 0, 0, -0.707107) /* Linkable Monster Generator */
+     , (7923, 1881051219, 32047699, 58.9434, -168.676, -6, 0.707107, 0, 0, -0.707107) /* linkmonstergen3minutes */
+     , (3955, 1881051220, 32047699, 60.8961, -169.077, -6, 0.707107, 0, 0, -0.707107) /* linkmonstergen15minutes */
+     , (1154, 1881051221, 32047699, 60, -170, -6, 0.707107, 0, 0, -0.707107) /* linkmonstergen */
+     , (3953, 1881051222, 32047699, 58.6931, -170.03, -6, 0.707107, 0, 0, -0.707107) /* linkmonstergen30minutes */
+     , (1154, 1881051223, 32047699, 61.3281, -170.16, -6, 0.707107, 0, 0, -0.707107) /* linkmonstergen */
+     , (1154, 1881051224, 32047699, 62.3055, -168.726, -6, 0.707107, 0, 0, -0.707107) /* linkmonstergen */
+     , (1154, 1881051225, 32047700, 60, -180, -6, -0.707107, 0, 0, -0.707107) /* linkmonstergen */
+     , (1154, 1881051226, 32047700, 58.1965, -179.744, -6, -0.707107, 0, 0, -0.707107) /* linkmonstergen */
      , (568, 1881051227, 32047705, 65.25, -70, -6, -0.707107, 0, 0, -0.707107) /* Door */
      , (947, 1881051228, 32047721, 69.4918, -138.234, -5.9945, -0.328867, 0, 0, -0.944376) /* Barker Mosswart */
      , (948, 1881051229, 32047724, 70, -170, -5.9945, 0.313164, 0, 0, -0.949699) /* Mosswart Feeder */
@@ -126,22 +126,22 @@ VALUES (1100, 1881051136, 32047360, 59.6924, -138.729, -17.9996, -4.37114E-08, 0
      , (2131, 1881051259, 32047991, 60, -200, 0, 1, 0, 0, 0) /* Pressure Plate */
      , (4074, 1881051260, 32047991, 61.4593, -201.089, 0.949625, 1, 0, 0, 0) /* Magic trap */
      , (278, 1881051261, 32047993, 60, -195.25, 0, 1, 0, 0, 0) /* Door */
-     , (961, 1881051262, 32047995, 72.4476, -70.5082, 0, 0.0583259, 0, 0, -0.998298) /* Mosswart Barker Generator */
-     , (961, 1881051263, 32047995, 68.823, -68.4084, 0, -4.37114E-08, 0, 0, -1) /* Mosswart Barker Generator */
+     , (961, 1881051262, 32047995, 72.4476, -70.5082, 0, 0.0583259, 0, 0, -0.998298) /* mosswartbarkergen */
+     , (961, 1881051263, 32047995, 68.823, -68.4084, 0, -4.37114E-08, 0, 0, -1) /* mosswartbarkergen */
      , (211, 1881051264, 32048006, 72.367, -189.639, 0.0055, -0.782541, 0, 0, -0.6226) /* Mudlurk Mosswart */
      , (211, 1881051265, 32048006, 69.679, -189.064, 0.0055, 0.397248, 0, 0, -0.917711) /* Mudlurk Mosswart */
-     , (422, 1881051266, 32048009, 76.9251, -80.6651, 0, 0.707107, 0, 0, -0.707107) /* Item Shield Generator */
-     , (4009, 1881051267, 32048014, 81.7757, -111.829, 0, -0.980379, 0, 0, -0.197123) /* Cheap Alu. Warrior Generator */
+     , (422, 1881051266, 32048009, 76.9251, -80.6651, 0, 0.707107, 0, 0, -0.707107) /* itemshield-generator */
+     , (4009, 1881051267, 32048014, 81.7757, -111.829, 0, -0.980379, 0, 0, -0.197123) /* itemlowaluwarriorgen */
      , (218, 1881051268, 32048014, 80, -110, 0.0084, 1, 0, 0, 0) /* Black Rat */
      , (218, 1881051269, 32048014, 80.3806, -107.714, 0.0084, 1, 0, 0, 0) /* Black Rat */
-     , (419, 1881051270, 32048022, 87.9059, -78.114, 0, -4.37114E-08, 0, 0, -1) /* Item Clothing Generator */
+     , (419, 1881051270, 32048022, 87.9059, -78.114, 0, -4.37114E-08, 0, 0, -1) /* itemclothing-generator */
      , (192, 1881051271, 32048022, 87.8027, -79.6752, 0.0042, 0.521475, 0, 0, -0.853266) /* Drudge Prowler */
      , (948, 1881051272, 32048026, 90, -90, 0.0055, 0.908189, 0, 0, -0.418561) /* Mosswart Feeder */
      , (278, 1881051273, 32048028, 85.25, -90, 0, -0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1881051274, 32048029, 94.75, -90, 0, 0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1881051275, 32048030, 90, -85.25, 0.0004, 1, 0, 0, 0) /* Door */
      , (2218, 1881051276, 32048042, 101.271, -119.746, 0.024, 0.707107, 0, 0, -0.707107) /* Beautiful key */
-     , (1542, 1881051277, 32048042, 100, -120, 0, 0.707107, 0, 0, -0.707107) /* Linkable Item Generator */
+     , (1542, 1881051277, 32048042, 100, -120, 0, 0.707107, 0, 0, -0.707107) /* linkitemgen */
      , (218, 1881051278, 32048042, 99.4982, -117.87, 0.0084, 0.707107, 0, 0, -0.707107) /* Black Rat */
      , (192, 1881051279, 32048049, 112.247, -80.7356, 0.0042, -0.870999, 0, 0, -0.491284) /* Drudge Prowler */
      , (192, 1881051281, 32048082, 120.367, -163.358, 0.0042, 0.965074, 0, 0, -0.261979) /* Drudge Prowler */
@@ -154,10 +154,10 @@ VALUES (1100, 1881051136, 32047360, 59.6924, -138.729, -17.9996, -4.37114E-08, 0
      , (192, 1881051288, 32048125, 142.441, -152.148, 0.0042, -0.990611, 0, 0, -0.13671) /* Drudge Prowler */
      , (2131, 1881051289, 32048178, 62.0741, -100.278, 6, 1, 0, 0, 0) /* Pressure Plate */
      , (4083, 1881051290, 32048178, 59.6726, -99.7243, 6.92287, 1, 0, 0, 0) /* Magic trap */
-     , (4009, 1881051291, 32048183, 58.6632, -189.749, 6, -0.707107, 0, 0, -0.707107) /* Cheap Alu. Warrior Generator */
+     , (4009, 1881051291, 32048183, 58.6632, -189.749, 6, -0.707107, 0, 0, -0.707107) /* itemlowaluwarriorgen */
      , (1619, 1881051292, 32048183, 58.735, -192.089, 6.0055, -0.707107, 0, 0, -0.707107) /* Mosswart Shaman */
-     , (1460, 1881051293, 32048184, 57.2841, -200.385, 6, 0.739338, 0, 0, -0.673335) /* Food Heal Gen */
-     , (4024, 1881051294, 32048184, 60.7089, -202.033, 6, 0.707107, 0, 0, -0.707107) /* Cheap Glitter Generator */
+     , (1460, 1881051293, 32048184, 57.2841, -200.385, 6, 0.739338, 0, 0, -0.673335) /* itemfoodhealgen */
+     , (4024, 1881051294, 32048184, 60.7089, -202.033, 6, 0.707107, 0, 0, -0.707107) /* itemmedglittergen */
      , (947, 1881051295, 32048184, 62.247, -201.097, 6.0055, 0.925458, 0, 0, -0.37885) /* Barker Mosswart */
      , (210, 1881051296, 32048184, 58.0874, -201.846, 6.0066, 0.891452, 0, 0, -0.453116) /* Mosswart Chief */
      , (1619, 1881051298, 32048184, 61.1636, -198.101, 6.0055, 0.707107, 0, 0, -0.707107) /* Mosswart Shaman */
@@ -175,7 +175,7 @@ VALUES (1100, 1881051136, 32047360, 59.6924, -138.729, -17.9996, -4.37114E-08, 0
      , (947, 1881051309, 32048238, 88.5333, -80.1781, 6.0055, 0.833641, 0, 0, -0.552307) /* Barker Mosswart */
      , (220, 1881051310, 32048244, 90, -97.967, 6.0088, 0.321027, 0, 0, -0.94707) /* Brown Rat */
      , (220, 1881051311, 32048244, 87.4609, -98.3385, 6.0088, 0.551027, 0, 0, -0.834487) /* Brown Rat */
-     , (420, 1881051312, 32048256, 102.795, -57.5925, 6, -4.37114E-08, 0, 0, -1) /* Item Food Generator */
+     , (420, 1881051312, 32048256, 102.795, -57.5925, 6, -4.37114E-08, 0, 0, -1) /* itemfood-generator */
      , (192, 1881051313, 32048256, 98.0874, -57.7262, 6.0042, -4.37114E-08, 0, 0, -1) /* Drudge Prowler */
      , (1464, 1881051314, 32048256, 102.073, -60.6019, 6.0042, -4.37114E-08, 0, 0, -1) /* Drudge Robber */
      , (1297, 1881051315, 32048258, 100, -64.75, 6, -4.37114E-08, 0, 0, -1) /* Door */
@@ -187,95 +187,95 @@ VALUES (1100, 1881051136, 32047360, 59.6924, -138.729, -17.9996, -4.37114E-08, 0
      , (192, 1881051321, 32048306, 151.966, -51.498, 6.0042, -0.707107, 0, 0, -0.707107) /* Drudge Prowler */
      , (192, 1881051322, 32048314, 150.197, -72.0999, 6.0042, -0.142952, 0, 0, -0.98973) /* Drudge Prowler */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881051277'; /* Linkable Item Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881051182'; /* Linkable Monster Gen (30 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881051181'; /* Linkable Monster Gen (15 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881051219'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1881051223'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1881051225'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1881051222'; /* Linkable Monster Gen (30 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1881051220'; /* Linkable Monster Gen (15 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1881051224'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1881051221'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1881051226'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881051277'; /* linkitemgen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881051182'; /* linkmonstergen30minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881051181'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881051219'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1881051223'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1881051225'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1881051222'; /* linkmonstergen30minutes */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1881051220'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1881051224'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1881051221'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1881051226'; /* linkmonstergen */
 UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1881051260'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1881051202'; /* Magic trap */
-UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1881051183'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1881051183'; /* linkmonstergen */
 UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1881051290'; /* Magic trap */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881051276'; /* Linkable Item Generator <- Beautiful key */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881051180'; /* Linkable Monster Gen (30 min.) <- Cow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881051184'; /* Linkable Monster Gen (30 min.) <- Brown Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051185'; /* Linkable Monster Gen (15 min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051186'; /* Linkable Monster Gen (15 min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051249'; /* Linkable Monster Gen (15 min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051250'; /* Linkable Monster Gen (15 min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051288'; /* Linkable Monster Gen (15 min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051286'; /* Linkable Monster Gen (15 min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051281'; /* Linkable Monster Gen (15 min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051282'; /* Linkable Monster Gen (15 min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051247'; /* Linkable Monster Gen (15 min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051235'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051207'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051217'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051229'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051272'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051271'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051279'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051306'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051295'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051233'; /* Linkable Monster Generator <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051230'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051231'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051203'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051191'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051213'; /* Linkable Monster Generator <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051269'; /* Linkable Monster Generator <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051321'; /* Linkable Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051322'; /* Linkable Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881051188'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881051200'; /* Linkable Monster Generator <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881051307'; /* Linkable Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881051190'; /* Linkable Monster Gen (30 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881051319'; /* Linkable Monster Gen (30 min.) <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051194'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051265'; /* Linkable Monster Gen (15 min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051278'; /* Linkable Monster Gen (15 min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051313'; /* Linkable Monster Gen (15 min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051301'; /* Linkable Monster Gen (15 min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051302'; /* Linkable Monster Gen (15 min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051303'; /* Linkable Monster Gen (15 min.) <- Brown Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051296'; /* Linkable Monster Gen (15 min.) <- Mosswart Chief */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051298'; /* Linkable Monster Gen (15 min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881051228'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881051208'; /* Linkable Monster Generator <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881051258'; /* Linkable Monster Generator <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881051268'; /* Linkable Monster Generator <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881051287'; /* Linkable Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881051320'; /* Linkable Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881051264'; /* Linkable Monster Generator <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881051309'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881051318'; /* Linkable Monster Generator <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881051304'; /* Linkable Monster Generator <- Brown Rat */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881051292'; /* Linkable Monster Generator <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881051305'; /* Linkable Monster Generator <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881051314'; /* Linkable Monster Generator <- Drudge Robber */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881051317'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881051310'; /* Linkable Monster Generator <- Brown Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881051311'; /* Linkable Monster Generator <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881051276'; /* linkitemgen <- Beautiful key */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881051180'; /* linkmonstergen30minutes <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881051184'; /* linkmonstergen30minutes <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051185'; /* linkmonstergen15minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051186'; /* linkmonstergen15minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051249'; /* linkmonstergen15minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051250'; /* linkmonstergen15minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051288'; /* linkmonstergen15minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051286'; /* linkmonstergen15minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051281'; /* linkmonstergen15minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051282'; /* linkmonstergen15minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881051247'; /* linkmonstergen15minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051235'; /* linkmonstergen3minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051207'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051217'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051229'; /* linkmonstergen3minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051272'; /* linkmonstergen3minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051271'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051279'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051306'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881051295'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051233'; /* linkmonstergen <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051230'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051231'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051203'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051191'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051213'; /* linkmonstergen <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051269'; /* linkmonstergen <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051321'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881051322'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881051188'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881051200'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881051307'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881051190'; /* linkmonstergen30minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881051319'; /* linkmonstergen30minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051194'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051265'; /* linkmonstergen15minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051278'; /* linkmonstergen15minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051313'; /* linkmonstergen15minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051301'; /* linkmonstergen15minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051302'; /* linkmonstergen15minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051303'; /* linkmonstergen15minutes <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051296'; /* linkmonstergen15minutes <- Mosswart Chief */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881051298'; /* linkmonstergen15minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881051228'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881051208'; /* linkmonstergen <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881051258'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881051268'; /* linkmonstergen <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881051287'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881051320'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881051264'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881051309'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881051318'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881051304'; /* linkmonstergen <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881051292'; /* linkmonstergen <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881051305'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881051314'; /* linkmonstergen <- Drudge Robber */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881051317'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881051310'; /* linkmonstergen <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881051311'; /* linkmonstergen <- Brown Rat */
 UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1881051259'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1881051201'; /* Magic trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051152'; /* Linkable Monster Generator <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051151'; /* Linkable Monster Generator <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051145'; /* Linkable Monster Generator <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051142'; /* Linkable Monster Generator <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051154'; /* Linkable Monster Generator <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051157'; /* Linkable Monster Generator <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051159'; /* Linkable Monster Generator <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051148'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051204'; /* Linkable Monster Generator <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051244'; /* Linkable Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051324'; /* Linkable Monster Generator <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051255'; /* Linkable Monster Generator <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051152'; /* linkmonstergen <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051151'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051145'; /* linkmonstergen <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051142'; /* linkmonstergen <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051154'; /* linkmonstergen <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051157'; /* linkmonstergen <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051159'; /* linkmonstergen <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051148'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051204'; /* linkmonstergen <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051244'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051324'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881051255'; /* linkmonstergen <- Undead */
 UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881051289'; /* Magic trap <- Pressure Plate */
 

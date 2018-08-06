@@ -1,6 +1,6 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23896, 1969504256, 1447297280, -0.733032, -60.2037, -41.995, -0.703404, 0, 0, -0.71079) /* Surface */
-     , (7923, 1969504258, 1447297283, 3.48893, -70.267, -41.995, 0.72278, 0, 0, -0.691078) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1969504258, 1447297283, 3.48893, -70.267, -41.995, 0.72278, 0, 0, -0.691078) /* linkmonstergen3minutes */
      , (11877, 1969504259, 1447297298, 39.3623, -49.4027, -41.994, 0.672412, 0, 0, 0.740177) /* Tumerok Standard Bearer */
      , (11877, 1969504260, 1447297311, 61.7074, -82.3156, -35.994, -0.873738, 0, 0, -0.486396) /* Tumerok Standard Bearer */
      , (11877, 1969504261, 1447297311, 59.6843, -77.7158, -35.994, -0.28494, 0, 0, -0.958545) /* Tumerok Standard Bearer */
@@ -90,7 +90,7 @@ VALUES (23896, 1969504256, 1447297280, -0.733032, -60.2037, -41.995, -0.703404, 
      , (11887, 1969504331, 1447297789, 72.9175, -40.4856, -5.9935, -0.879303, 0, 0, 0.476264) /* Tumerok Controller */
      , (11887, 1969504332, 1447297789, 74.2619, -38.0145, -5.9935, 0.085576, 0, 0, 0.996332) /* Tumerok Controller */
      , (11887, 1969504333, 1447297790, 66.4898, -50.4493, -5.9935, -0.985423, 0, 0, -0.17012) /* Tumerok Controller */
-     , (5086, 1969504334, 1447297790, 73.4426, -50.4876, -5.995, -0.996069, 0, 0, -0.088586) /* Linkable Monster Gen - 30 sec. */
+     , (5086, 1969504334, 1447297790, 73.4426, -50.4876, -5.995, -0.996069, 0, 0, -0.088586) /* linkmonstergen30seconds */
      , (23919, 1969504335, 1447297790, 72.6239, -48.9516, -5.921, 0.45414, 0, 0, 0.89093) /* A Note */
      , (11887, 1969504336, 1447297791, 66.9315, -63.0785, -5.9935, -0.983043, 0, 0, 0.183373) /* Tumerok Controller */
      , (23919, 1969504337, 1447297792, 77.5346, -8.47614, -5.921, -0.913731, 0, 0, 0.406321) /* A Note */
@@ -162,163 +162,163 @@ VALUES (23896, 1969504256, 1447297280, -0.733032, -60.2037, -41.995, -0.703404, 
      , (11871, 1969504416, 1447298184, 260.94, -68.5353, 0.0065, -0.0541778, 0, 0, -0.998531) /* Tumerok Commander */
      , (11871, 1969504417, 1447298184, 258.846, -71.2067, 0.0065, 0.590839, 0, 0, -0.806789) /* Tumerok Commander */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1969504258'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1969504334'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1969504258'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1969504334'; /* linkmonstergen30seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504259'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504260'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504261'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504270'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504268'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504269'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504271'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504272'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504266'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504262'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504267'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504263'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504264'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504265'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504273'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504274'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504276'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504275'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504277'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504278'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504281'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504282'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504279'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504280'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504284'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504286'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504287'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504288'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504285'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504293'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504294'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504292'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504290'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504291'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504289'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504301'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504302'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504297'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504300'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504306'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504307'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504308'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504295'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504309'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504298'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504299'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504303'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504304'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504305'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504296'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504313'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504314'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504315'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504316'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504311'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504310'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504312'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504322'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504321'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504323'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504319'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504320'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504324'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504325'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504317'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504318'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504326'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504391'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504389'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504387'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504388'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504386'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504390'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504381'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504382'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504383'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504384'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504385'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504378'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504379'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504380'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504376'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504377'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504363'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504364'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504365'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504351'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504375'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504371'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504372'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504350'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504349'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504358'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504373'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504374'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504368'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504369'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504370'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504355'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504356'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504357'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504359'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504366'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504367'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504352'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504353'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504354'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504362'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504343'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504344'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504345'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504346'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504347'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504360'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504361'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504327'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504328'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504329'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504330'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504338'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504331'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504333'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504340'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504339'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504332'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504336'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Controller */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504405'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504401'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504402'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504403'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504404'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504399'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504400'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504397'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504398'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504392'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504393'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504394'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504395'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Lieutenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504396'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504408'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504409'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504410'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504406'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504415'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504416'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504417'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504411'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Commander */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504412'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504413'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504414'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Standard Bearer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504407'; /* Linkable Monster Generator ( 3 Min.) <- Tumerok Major */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969504335'; /* Linkable Monster Gen - 30 sec. <- A Note */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969504337'; /* Linkable Monster Gen - 30 sec. <- A Note */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969504348'; /* Linkable Monster Gen - 30 sec. <- A Note */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969504342'; /* Linkable Monster Gen - 30 sec. <- A Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504259'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504260'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504261'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504270'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504268'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504269'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504271'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504272'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504266'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504262'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504267'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504263'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504264'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504265'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504273'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504274'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504276'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504275'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504277'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504278'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504281'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504282'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504279'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504280'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504284'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504286'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504287'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504288'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504285'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504293'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504294'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504292'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504290'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504291'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504289'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504301'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504302'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504297'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504300'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504306'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504307'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504308'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504295'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504309'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504298'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504299'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504303'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504304'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504305'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504296'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504313'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504314'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504315'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504316'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504311'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504310'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504312'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504322'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504321'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504323'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504319'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504320'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504324'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504325'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504317'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504318'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504326'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504391'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504389'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504387'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504388'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504386'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504390'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504381'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504382'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504383'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504384'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504385'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504378'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504379'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504380'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504376'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504377'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504363'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504364'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504365'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504351'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504375'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504371'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504372'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504350'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504349'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504358'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504373'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504374'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504368'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504369'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504370'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504355'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504356'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504357'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504359'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504366'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504367'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504352'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504353'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504354'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504362'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504343'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504344'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504345'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504346'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504347'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504360'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504361'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504327'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504328'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504329'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504330'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504338'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504331'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504333'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504340'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504339'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504332'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504336'; /* linkmonstergen3minutes <- Tumerok Controller */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504405'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504401'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504402'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504403'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504404'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504399'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504400'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504397'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504398'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504392'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504393'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504394'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504395'; /* linkmonstergen3minutes <- Tumerok Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504396'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504408'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504409'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504410'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504406'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504415'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504416'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504417'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504411'; /* linkmonstergen3minutes <- Tumerok Commander */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504412'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504413'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504414'; /* linkmonstergen3minutes <- Tumerok Standard Bearer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969504407'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969504335'; /* linkmonstergen30seconds <- A Note */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969504337'; /* linkmonstergen30seconds <- A Note */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969504348'; /* linkmonstergen30seconds <- A Note */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969504342'; /* linkmonstergen30seconds <- A Note */
 

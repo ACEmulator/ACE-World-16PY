@@ -18,7 +18,7 @@ VALUES (24494, 1882132480, 49348867, 10.0681, -60.5089, 0.01, 0.0415524, 0, 0, -
      , (24955, 1882132496, 49348926, 123.181, -81.5521, 0.01, 0.703139, 0, 0, -0.711053) /* Gotrok Montok */
      , (24494, 1882132497, 49348936, 138.115, -51.0459, 0.01, 0.603385, 0, 0, 0.79745) /* Gotrok Extas */
      , (24494, 1882132498, 49348936, 137.615, -48.9166, 0.01, 0.591368, 0, 0, 0.806402) /* Gotrok Extas */
-     , (7923, 1882132499, 49348944, 140, -120, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1882132499, 49348944, 140, -120, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (24955, 1882132500, 49348954, 160.138, -67.2755, 0.01, 0.054737, 0, 0, 0.998501) /* Gotrok Montok */
      , (24955, 1882132501, 49348954, 161.262, -66.4891, 0.01, 0.002933, 0, 0, 0.999996) /* Gotrok Montok */
      , (7320, 1882132502, 49348959, 160, -126, 0.005, -4.37114E-08, 0, 0, -1) /* Surface */
@@ -106,109 +106,109 @@ VALUES (24494, 1882132480, 49348867, 10.0681, -60.5089, 0.01, 0.0415524, 0, 0, -
      , (24494, 1882132582, 49349225, 242.057, -58.9161, 24.01, -0.692905, 0, 0, 0.721029) /* Gotrok Extas */
      , (24494, 1882132583, 49349225, 242.348, -60.9632, 24.01, -0.761842, 0, 0, 0.647763) /* Gotrok Extas */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882132499'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882132499'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132500'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132501'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132519'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132520'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132517'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132518'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132515'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132516'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132521'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132522'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132529'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132530'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132536'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132537'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132526'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132523'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132531'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132527'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132532'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132524'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132528'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132503'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132504'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132505'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132506'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132561'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132562'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132575'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132576'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132582'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132583'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132577'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132580'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132581'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132563'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132525'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132495'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132496'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132489'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132490'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132493'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132494'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132497'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132498'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132487'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132488'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132485'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132486'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132491'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132492'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132508'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132509'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132510'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132511'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132512'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132514'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132513'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132555'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132554'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132560'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132556'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132557'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132558'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132559'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132542'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132543'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132544'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132538'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132539'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132540'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132541'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132548'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132549'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132550'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132545'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132546'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132547'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132551'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132552'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132553'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132571'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132572'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132574'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132570'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132484'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132483'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132480'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132481'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132482'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Montok */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132564'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132565'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132566'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132567'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132568'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132569'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132533'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132534'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132535'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Extas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132585'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132589'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132588'; /* Linkable Monster Generator ( 3 Min.) <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132587'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132586'; /* Linkable Monster Generator ( 3 Min.) <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132500'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132501'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132519'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132520'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132517'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132518'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132515'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132516'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132521'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132522'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132529'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132530'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132536'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132537'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132526'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132523'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132531'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132527'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132532'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132524'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132528'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132503'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132504'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132505'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132506'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132561'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132562'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132575'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132576'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132582'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132583'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132577'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132580'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132581'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132563'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132525'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132495'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132496'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132489'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132490'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132493'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132494'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132497'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132498'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132487'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132488'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132485'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132486'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132491'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132492'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132508'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132509'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132510'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132511'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132512'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132514'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132513'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132555'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132554'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132560'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132556'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132557'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132558'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132559'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132542'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132543'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132544'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132538'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132539'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132540'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132541'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132548'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132549'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132550'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132545'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132546'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132547'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132551'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132552'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132553'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132571'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132572'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132574'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132570'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132484'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132483'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132480'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132481'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132482'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132564'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132565'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132566'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132567'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132568'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132569'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132533'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132534'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132535'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132585'; /* linkmonstergen3minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132589'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132588'; /* linkmonstergen3minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132587'; /* linkmonstergen3minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882132586'; /* linkmonstergen3minutes <- Gotrok Tiatus */
 

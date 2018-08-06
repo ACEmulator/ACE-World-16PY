@@ -16,9 +16,9 @@ VALUES (8377, 1924206655, 722534674, 37.4016, 156.663, 48.505, 0.707107, 0, 0, -
      , (412, 1924206609, 722534400, 162.074, 172.273, 48, 0.707107, 0, 0, -0.707107) /* Door */
      , (412, 1924206610, 722534400, 159.749, 167.136, 48, -4.37114E-08, 0, 0, -1) /* Door */
      , (720, 1924206611, 722534400, 61.398, 125.588, 48, -1, 0, 0, 0) /* Sliding Door */
-     , (1969, 1924206599, 722534400, 122.498, 40.0265, 22.5783, -0.995546, 0, 0, 0.094276) /* High Direlands Desert Undead Generator */
-     , (3953, 1924206606, 722534400, 94.6229, 188.383, 48.005, -0.618458, 0, 0, 0.785818) /* Linkable Monster Gen (30 min.) */
-     , (7925, 1924206612, 722534400, 122.728, 120.727, 48.005, -0.999999, 0, 0, 0.00162973) /* Linkable Monster Generator ( 10 Min.) */
+     , (1969, 1924206599, 722534400, 122.498, 40.0265, 22.5783, -0.995546, 0, 0, 0.094276) /* highdirelandsldesertundeadgen */
+     , (3953, 1924206606, 722534400, 94.6229, 188.383, 48.005, -0.618458, 0, 0, 0.785818) /* linkmonstergen30minutes */
+     , (7925, 1924206612, 722534400, 122.728, 120.727, 48.005, -0.999999, 0, 0, 0.00162973) /* linkmonstergen10minutes */
      , (20, 1924206613, 722534400, 132.598, 123.87, 48.0093, 0.389755, 0, 0, -0.920919) /* Auroch Bull */
      , (181, 1924206614, 722534400, 122.314, 107.646, 48.0085, -0.999967, 0, 0, -0.00811607) /* Auroch Cow */
      , (181, 1924206615, 722534400, 126.895, 119.575, 48.0085, 0.988973, 0, 0, -0.148098) /* Auroch Cow */
@@ -42,25 +42,25 @@ VALUES (8377, 1924206655, 722534674, 37.4016, 156.663, 48.505, 0.707107, 0, 0, -
      , (24571, 1924206634, 722534400, 179.755, 108.735, 48.5534, 0.382683, 0, 0, -0.92388) /* Portcullis */
      , (24873, 1924206635, 722534400, 177.624, 114.107, 48.005, 0.172802, 0, 0, -0.984957) /* Gate Guard */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1924206612'; /* Linkable Monster Generator ( 10 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1924206606'; /* Linkable Monster Gen (30 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1924206612'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1924206606'; /* linkmonstergen30minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206614'; /* Linkable Monster Generator ( 10 Min.) <- Auroch Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206613'; /* Linkable Monster Generator ( 10 Min.) <- Auroch Bull */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206616'; /* Linkable Monster Generator ( 10 Min.) <- Auroch Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206615'; /* Linkable Monster Generator ( 10 Min.) <- Auroch Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206618'; /* Linkable Monster Generator ( 10 Min.) <- Auroch Yearling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206617'; /* Linkable Monster Generator ( 10 Min.) <- Auroch Yearling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206620'; /* Linkable Monster Generator ( 10 Min.) <- Auroch Yearling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206619'; /* Linkable Monster Generator ( 10 Min.) <- Auroch Yearling */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206622'; /* Linkable Monster Gen (30 min.) <- Aun Xathurea the Leather Crafter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206628'; /* Linkable Monster Gen (30 min.) <- Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206627'; /* Linkable Monster Gen (30 min.) <- Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206629'; /* Linkable Monster Gen (30 min.) <- Ulna bint-Fasha the Ivory Crafter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206631'; /* Linkable Monster Gen (30 min.) <- Yukara Miko the Collector */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206635'; /* Linkable Monster Gen (30 min.) <- Gate Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206636'; /* Linkable Monster Gen (30 min.) <- Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206637'; /* Linkable Monster Gen (30 min.) <- Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206656'; /* Linkable Monster Gen (30 min.) <- Small Creepy Statue */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206657'; /* Linkable Monster Gen (30 min.) <- Finn Skigg */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206614'; /* linkmonstergen10minutes <- Auroch Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206613'; /* linkmonstergen10minutes <- Auroch Bull */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206616'; /* linkmonstergen10minutes <- Auroch Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206615'; /* linkmonstergen10minutes <- Auroch Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206618'; /* linkmonstergen10minutes <- Auroch Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206617'; /* linkmonstergen10minutes <- Auroch Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206620'; /* linkmonstergen10minutes <- Auroch Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206619'; /* linkmonstergen10minutes <- Auroch Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206622'; /* linkmonstergen30minutes <- Aun Xathurea the Leather Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206628'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206627'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206629'; /* linkmonstergen30minutes <- Ulna bint-Fasha the Ivory Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206631'; /* linkmonstergen30minutes <- Yukara Miko the Collector */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206635'; /* linkmonstergen30minutes <- Gate Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206636'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206637'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206656'; /* linkmonstergen30minutes <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206657'; /* linkmonstergen30minutes <- Finn Skigg */
 

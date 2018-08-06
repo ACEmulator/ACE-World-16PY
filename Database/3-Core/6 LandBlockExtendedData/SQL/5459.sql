@@ -46,8 +46,8 @@ VALUES (19315, 1967493120, 1415119104, 163.448, -19.8086, -5.9885, 0.696707, 0, 
      , (19303, 1967493168, 1415119275, 207.476, -70.1519, 0.0115, -0.762913, 0, 0, -0.646501) /* Bronze Statue of Ben Ten */
      , (19303, 1967493169, 1415119276, 206.483, -89.9943, 0.0115, 0.723372, 0, 0, 0.690458) /* Bronze Statue of Ben Ten */
      , (19137, 1967493170, 1415119278, 2.75099, -99.738, 6.005, -0.696708, 0, 0, -0.717355) /* Portal to Cragstone */
-     , (7923, 1967493171, 1415119280, 6.45277, -76.1702, 6.005, -0.079121, 0, 0, -0.996865) /* Linkable Monster Generator ( 3 Min.) */
-     , (15274, 1967493172, 1415119280, 14.3935, -76.2248, 6.005, 0.036284, 0, 0, -0.999342) /* Linkable Monster Gen (1 min.) */
+     , (7923, 1967493171, 1415119280, 6.45277, -76.1702, 6.005, -0.079121, 0, 0, -0.996865) /* linkmonstergen3minutes */
+     , (15274, 1967493172, 1415119280, 14.3935, -76.2248, 6.005, 0.036284, 0, 0, -0.999342) /* linkmonstergen1minute */
      , (19312, 1967493173, 1415119304, 40.1775, -52.7529, 6.0115, -0.066982, 0, 0, -0.997754) /* Bronze Statue of Thorsten Cragstone */
      , (19300, 1967493174, 1415119305, 40, -60, 6.0165, 0.453596, 0, 0, 0.891207) /* Bronze Statue of a Banderling */
      , (19312, 1967493175, 1415119309, 38.8633, -80.2409, 6.0115, 0.729137, 0, 0, 0.684368) /* Bronze Statue of Thorsten Cragstone */
@@ -85,87 +85,87 @@ VALUES (19315, 1967493120, 1415119104, 163.448, -19.8086, -5.9885, 0.696707, 0, 
      , (19306, 1967493212, 1415119518, 250, -70, 6.005, 0.431176, 0, 0, 0.902268) /* Bronze Statue of a Sclavus */
      , (19306, 1967493215, 1415119568, 108.553, -80.1361, 12.9285, 0.705959, 0, 0, 0.708253) /* Bronze Statue of a Sclavus */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967493171'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967493172'; /* Linkable Monster Gen (1 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967493171'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967493172'; /* linkmonstergen1minute */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493173'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493179'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493180'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493177'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Ben Ten */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493176'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493174'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493142'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493149'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493147'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493181'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493185'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493192'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493190'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493188'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493189'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493186'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493148'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493144'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Ben Ten */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493145'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493150'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493143'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493215'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493146'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493151'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493153'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493191'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493196'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493197'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493194'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493195'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493193'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493199'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493200'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493201'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493156'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493154'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493155'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493152'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Ben Ten */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493157'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493158'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493130'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493135'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493123'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493131'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493138'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493126'; /* Linkable Monster Generator ( 3 Min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493175'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493182'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493187'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493178'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Thorsten Cragstone */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493198'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493204'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493205'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493160'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Ben Ten */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493161'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Ben Ten */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493165'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Ben Ten */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493169'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Ben Ten */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493168'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Ben Ten */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493162'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Ben Ten */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493159'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Ben Ten */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493163'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Ben Ten */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493164'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of Ben Ten */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493136'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493124'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493140'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493120'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493122'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493134'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493125'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493137'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493141'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493121'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493139'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493127'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493211'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493208'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493206'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493207'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493212'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493209'; /* Linkable Monster Gen (1 min.) <- Bronze Statue of a Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493173'; /* linkmonstergen3minutes <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493179'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493180'; /* linkmonstergen3minutes <- Bronze Statue of a Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493177'; /* linkmonstergen3minutes <- Bronze Statue of Ben Ten */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493176'; /* linkmonstergen3minutes <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493174'; /* linkmonstergen3minutes <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493142'; /* linkmonstergen3minutes <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493149'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493147'; /* linkmonstergen3minutes <- Bronze Statue of a Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493181'; /* linkmonstergen3minutes <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493185'; /* linkmonstergen3minutes <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493192'; /* linkmonstergen3minutes <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493190'; /* linkmonstergen3minutes <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493188'; /* linkmonstergen3minutes <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493189'; /* linkmonstergen3minutes <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493186'; /* linkmonstergen3minutes <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493148'; /* linkmonstergen3minutes <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493144'; /* linkmonstergen3minutes <- Bronze Statue of Ben Ten */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493145'; /* linkmonstergen3minutes <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493150'; /* linkmonstergen3minutes <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493143'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493215'; /* linkmonstergen3minutes <- Bronze Statue of a Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493146'; /* linkmonstergen3minutes <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493151'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493153'; /* linkmonstergen3minutes <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493191'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493196'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493197'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493194'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493195'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493193'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493199'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493200'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493201'; /* linkmonstergen3minutes <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493156'; /* linkmonstergen3minutes <- Bronze Statue of a Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493154'; /* linkmonstergen3minutes <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493155'; /* linkmonstergen3minutes <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493152'; /* linkmonstergen3minutes <- Bronze Statue of Ben Ten */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493157'; /* linkmonstergen3minutes <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493158'; /* linkmonstergen3minutes <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493130'; /* linkmonstergen3minutes <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493135'; /* linkmonstergen3minutes <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493123'; /* linkmonstergen3minutes <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493131'; /* linkmonstergen3minutes <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493138'; /* linkmonstergen3minutes <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967493126'; /* linkmonstergen3minutes <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493175'; /* linkmonstergen1minute <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493182'; /* linkmonstergen1minute <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493187'; /* linkmonstergen1minute <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493178'; /* linkmonstergen1minute <- Bronze Statue of Thorsten Cragstone */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493198'; /* linkmonstergen1minute <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493204'; /* linkmonstergen1minute <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493205'; /* linkmonstergen1minute <- Bronze Statue of a Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493160'; /* linkmonstergen1minute <- Bronze Statue of Ben Ten */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493161'; /* linkmonstergen1minute <- Bronze Statue of Ben Ten */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493165'; /* linkmonstergen1minute <- Bronze Statue of Ben Ten */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493169'; /* linkmonstergen1minute <- Bronze Statue of Ben Ten */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493168'; /* linkmonstergen1minute <- Bronze Statue of Ben Ten */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493162'; /* linkmonstergen1minute <- Bronze Statue of Ben Ten */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493159'; /* linkmonstergen1minute <- Bronze Statue of Ben Ten */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493163'; /* linkmonstergen1minute <- Bronze Statue of Ben Ten */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493164'; /* linkmonstergen1minute <- Bronze Statue of Ben Ten */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493136'; /* linkmonstergen1minute <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493124'; /* linkmonstergen1minute <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493140'; /* linkmonstergen1minute <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493120'; /* linkmonstergen1minute <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493122'; /* linkmonstergen1minute <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493134'; /* linkmonstergen1minute <- Bronze Statue of a Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493125'; /* linkmonstergen1minute <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493137'; /* linkmonstergen1minute <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493141'; /* linkmonstergen1minute <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493121'; /* linkmonstergen1minute <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493139'; /* linkmonstergen1minute <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493127'; /* linkmonstergen1minute <- Bronze Statue of a Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493211'; /* linkmonstergen1minute <- Bronze Statue of a Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493208'; /* linkmonstergen1minute <- Bronze Statue of a Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493206'; /* linkmonstergen1minute <- Bronze Statue of a Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493207'; /* linkmonstergen1minute <- Bronze Statue of a Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493212'; /* linkmonstergen1minute <- Bronze Statue of a Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967493209'; /* linkmonstergen1minute <- Bronze Statue of a Sclavus */
 

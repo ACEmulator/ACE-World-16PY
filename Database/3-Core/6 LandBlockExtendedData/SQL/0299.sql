@@ -29,39 +29,39 @@ VALUES (9531, 1881772058, 43581719, 73.0666, -89.2407, 0.005, -0.616503, 0, 0, 0
      , (9531, 1881772055, 43581757, 27.5574, -103.495, 6.005, -0.994891, 0, 0, -0.100955) /* Nasty Rabbit */
      , (9535, 1881772056, 43581757, 27.2913, -99.9804, 6.005, -0.998947, 0, 0, -0.04587) /* Grimacing Rabbit */
      , (9533, 1881772057, 43581758, 26.3927, -105.928, 6.005, 0.542846, 0, 0, -0.839832) /* Bleached Rabbit */
-     , (4219, 1881772071, 43581758, 28.1263, -109.688, 6.005, -0.781197, 0, 0, 0.624285) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1881772071, 43581758, 28.1263, -109.688, 6.005, -0.781197, 0, 0, 0.624285) /* linkmonstergen7minutes */
      , (9532, 1881772072, 43581759, 26.7997, -130.25, 6.005, 0.759933, 0, 0, 0.650001) /* Nasty Boss Rabbit */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881772071'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881772071'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772072'; /* Linkable Monster Generator ( 7 Min.) <- Nasty Boss Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772067'; /* Linkable Monster Generator ( 7 Min.) <- Bleached Boss Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772070'; /* Linkable Monster Generator ( 7 Min.) <- Grimacing Boss Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772064'; /* Linkable Monster Generator ( 7 Min.) <- Grimacing Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772065'; /* Linkable Monster Generator ( 7 Min.) <- Grimacing Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772069'; /* Linkable Monster Generator ( 7 Min.) <- Nasty Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772068'; /* Linkable Monster Generator ( 7 Min.) <- Grimacing Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772062'; /* Linkable Monster Generator ( 7 Min.) <- Bleached Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772063'; /* Linkable Monster Generator ( 7 Min.) <- Bleached Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772066'; /* Linkable Monster Generator ( 7 Min.) <- Grimacing Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772061'; /* Linkable Monster Generator ( 7 Min.) <- Bleached Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772060'; /* Linkable Monster Generator ( 7 Min.) <- Nasty Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772058'; /* Linkable Monster Generator ( 7 Min.) <- Nasty Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772059'; /* Linkable Monster Generator ( 7 Min.) <- Nasty Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772034'; /* Linkable Monster Generator ( 7 Min.) <- Nasty Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772035'; /* Linkable Monster Generator ( 7 Min.) <- Nasty Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772046'; /* Linkable Monster Generator ( 7 Min.) <- Bleached Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772050'; /* Linkable Monster Generator ( 7 Min.) <- Nasty Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772047'; /* Linkable Monster Generator ( 7 Min.) <- Nasty Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772055'; /* Linkable Monster Generator ( 7 Min.) <- Nasty Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772036'; /* Linkable Monster Generator ( 7 Min.) <- Bleached Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772053'; /* Linkable Monster Generator ( 7 Min.) <- Bleached Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772051'; /* Linkable Monster Generator ( 7 Min.) <- Bleached Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772048'; /* Linkable Monster Generator ( 7 Min.) <- Bleached Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772057'; /* Linkable Monster Generator ( 7 Min.) <- Bleached Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772033'; /* Linkable Monster Generator ( 7 Min.) <- Grimacing Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772054'; /* Linkable Monster Generator ( 7 Min.) <- Grimacing Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772052'; /* Linkable Monster Generator ( 7 Min.) <- Grimacing Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772037'; /* Linkable Monster Generator ( 7 Min.) <- Grimacing Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772056'; /* Linkable Monster Generator ( 7 Min.) <- Grimacing Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772072'; /* linkmonstergen7minutes <- Nasty Boss Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772067'; /* linkmonstergen7minutes <- Bleached Boss Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772070'; /* linkmonstergen7minutes <- Grimacing Boss Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772064'; /* linkmonstergen7minutes <- Grimacing Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772065'; /* linkmonstergen7minutes <- Grimacing Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772069'; /* linkmonstergen7minutes <- Nasty Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772068'; /* linkmonstergen7minutes <- Grimacing Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772062'; /* linkmonstergen7minutes <- Bleached Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772063'; /* linkmonstergen7minutes <- Bleached Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772066'; /* linkmonstergen7minutes <- Grimacing Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772061'; /* linkmonstergen7minutes <- Bleached Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772060'; /* linkmonstergen7minutes <- Nasty Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772058'; /* linkmonstergen7minutes <- Nasty Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772059'; /* linkmonstergen7minutes <- Nasty Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772034'; /* linkmonstergen7minutes <- Nasty Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772035'; /* linkmonstergen7minutes <- Nasty Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772046'; /* linkmonstergen7minutes <- Bleached Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772050'; /* linkmonstergen7minutes <- Nasty Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772047'; /* linkmonstergen7minutes <- Nasty Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772055'; /* linkmonstergen7minutes <- Nasty Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772036'; /* linkmonstergen7minutes <- Bleached Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772053'; /* linkmonstergen7minutes <- Bleached Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772051'; /* linkmonstergen7minutes <- Bleached Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772048'; /* linkmonstergen7minutes <- Bleached Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772057'; /* linkmonstergen7minutes <- Bleached Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772033'; /* linkmonstergen7minutes <- Grimacing Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772054'; /* linkmonstergen7minutes <- Grimacing Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772052'; /* linkmonstergen7minutes <- Grimacing Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772037'; /* linkmonstergen7minutes <- Grimacing Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881772056'; /* linkmonstergen7minutes <- Grimacing Rabbit */
 

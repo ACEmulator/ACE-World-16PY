@@ -13,23 +13,23 @@ VALUES (7124, 1881931776, 46137600, 3.68906, -10.076, 0.00825, 0.601834, 0, 0, -
      , (7112, 1881931787, 46137618, 29.8193, -45.9976, 0.005, 0.994564, 0, 0, -0.104126) /* Chomu Sclavus */
      , (7124, 1881931788, 46137624, 49.8536, -3.4008, 0.00825, -0.190532, 0, 0, -0.981681) /* Dark Magus */
      , (7112, 1881931789, 46137627, 46.7857, -30.0758, 0.005, 0.68172, 0, 0, 0.731613) /* Chomu Sclavus */
-     , (7925, 1881931790, 46137629, 52.0524, -51.1907, 0, -4.37114E-08, 0, 0, -1) /* Linkable Monster Generator ( 10 Min.) */
-     , (7932, 1881931791, 46137629, 50.8075, -52.1129, 0, -4.37114E-08, 0, 0, -1) /* Linkable Monster Generator ( 4 Min.) */
+     , (7925, 1881931790, 46137629, 52.0524, -51.1907, 0, -4.37114E-08, 0, 0, -1) /* linkmonstergen10minutes */
+     , (7932, 1881931791, 46137629, 50.8075, -52.1129, 0, -4.37114E-08, 0, 0, -1) /* linkmonstergen4minutes */
      , (7123, 1881931792, 46137631, 56.6291, -10.0501, 0.00825, 0.659983, 0, 0, 0.75128) /* Dark Leech */
      , (8479, 1881931793, 46137632, 56.193, -50, 0, -0.707107, 0, 0, -0.707107) /* Surface */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881931790'; /* Linkable Monster Generator ( 10 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881931791'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881931790'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881931791'; /* linkmonstergen4minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881931782'; /* Linkable Monster Generator ( 10 Min.) <- Sulthis Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931787'; /* Linkable Monster Generator ( 4 Min.) <- Chomu Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931789'; /* Linkable Monster Generator ( 4 Min.) <- Chomu Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931781'; /* Linkable Monster Generator ( 4 Min.) <- Chomu Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931779'; /* Linkable Monster Generator ( 4 Min.) <- Chomu Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931780'; /* Linkable Monster Generator ( 4 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931776'; /* Linkable Monster Generator ( 4 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931788'; /* Linkable Monster Generator ( 4 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931792'; /* Linkable Monster Generator ( 4 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931777'; /* Linkable Monster Generator ( 4 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931778'; /* Linkable Monster Generator ( 4 Min.) <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881931782'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931787'; /* linkmonstergen4minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931789'; /* linkmonstergen4minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931781'; /* linkmonstergen4minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931779'; /* linkmonstergen4minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931780'; /* linkmonstergen4minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931776'; /* linkmonstergen4minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931788'; /* linkmonstergen4minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931792'; /* linkmonstergen4minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931777'; /* linkmonstergen4minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931778'; /* linkmonstergen4minutes <- Dark Leech */
 

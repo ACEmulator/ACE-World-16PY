@@ -12,9 +12,9 @@ VALUES (4447, 2075656196, 3145728265, 175.598, 128.992, 44.005, -0.542918, 0, 0,
      , (4427, 2075656200, 3145728000, 179.059, 119.505, 44.005, -0.0269394, 0, 0, -0.999637) /* Lytelthorpe Outpost */
      , (174, 2075656201, 3145728000, 102.536, 121.41, 46.005, -0.790539, 0, 0, -0.612411) /* Well */
      , (5071, 2075656210, 3145728000, 171.605, 134.631, 44.005, 0.707107, 0, 0, -0.707107) /* West Lytelthorpe Outpost */
-     , (3955, 2075656203, 3145728000, 191.677, 104.1, 44.005, 0.991288, 0, 0, -0.131712) /* Linkable Monster Gen (15 min.) */;
+     , (3955, 2075656203, 3145728000, 191.677, 104.1, 44.005, 0.991288, 0, 0, -0.131712) /* linkmonstergen15minutes */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2075656203'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2075656203'; /* linkmonstergen15minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075656206'; /* Linkable Monster Gen (15 min.) <- Beltslora */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075656206'; /* linkmonstergen15minutes <- Beltslora */
 

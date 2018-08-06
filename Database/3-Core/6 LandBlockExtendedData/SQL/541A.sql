@@ -11,20 +11,20 @@ VALUES (1605, 1967235083, 1410990080, 51.0101, 126.146, 42.7602, 0.951041, 0, 0,
      , (1606, 1967235092, 1410990080, 50.414, 113.595, 40.3457, -0.467949, 0, 0, -0.883756) /* Auroch Fire Cow */
      , (1605, 1967235093, 1410990080, 47.8016, 116.784, 40.6509, -0.796485, 0, 0, -0.604658) /* Auroch Fire Yearling */
      , (1605, 1967235094, 1410990080, 51.8618, 114.907, 41.4946, 0.647861, 0, 0, -0.761759) /* Auroch Fire Yearling */
-     , (7924, 1967235095, 1410990080, 52.5929, 118.602, 42.8041, -0.840143, 0, 0, -0.542364) /* Linkable Monster Generator ( 5 Min.) */;
+     , (7924, 1967235095, 1410990080, 52.5929, 118.602, 42.8041, -0.840143, 0, 0, -0.542364) /* linkmonstergen5minutes */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967235095'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967235095'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235083'; /* Linkable Monster Generator ( 5 Min.) <- Auroch Fire Yearling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235085'; /* Linkable Monster Generator ( 5 Min.) <- Auroch Fire Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235088'; /* Linkable Monster Generator ( 5 Min.) <- Auroch Fire Yearling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235087'; /* Linkable Monster Generator ( 5 Min.) <- Auroch Fire Bull */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235086'; /* Linkable Monster Generator ( 5 Min.) <- Auroch Fire Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235089'; /* Linkable Monster Generator ( 5 Min.) <- Auroch Fire Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235090'; /* Linkable Monster Generator ( 5 Min.) <- Auroch Fire Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235091'; /* Linkable Monster Generator ( 5 Min.) <- Auroch Fire Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235092'; /* Linkable Monster Generator ( 5 Min.) <- Auroch Fire Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235093'; /* Linkable Monster Generator ( 5 Min.) <- Auroch Fire Yearling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235094'; /* Linkable Monster Generator ( 5 Min.) <- Auroch Fire Yearling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235084'; /* Linkable Monster Generator ( 5 Min.) <- Auroch Fire Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235083'; /* linkmonstergen5minutes <- Auroch Fire Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235085'; /* linkmonstergen5minutes <- Auroch Fire Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235088'; /* linkmonstergen5minutes <- Auroch Fire Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235087'; /* linkmonstergen5minutes <- Auroch Fire Bull */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235086'; /* linkmonstergen5minutes <- Auroch Fire Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235089'; /* linkmonstergen5minutes <- Auroch Fire Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235090'; /* linkmonstergen5minutes <- Auroch Fire Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235091'; /* linkmonstergen5minutes <- Auroch Fire Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235092'; /* linkmonstergen5minutes <- Auroch Fire Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235093'; /* linkmonstergen5minutes <- Auroch Fire Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235094'; /* linkmonstergen5minutes <- Auroch Fire Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967235084'; /* linkmonstergen5minutes <- Auroch Fire Yearling */
 

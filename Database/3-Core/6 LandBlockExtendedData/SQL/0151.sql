@@ -33,37 +33,37 @@ VALUES (193, 1880428544, 22085891, 67.3844, -133.549, -11.9965, 0.982613, 0, 0, 
      , (7, 1880428575, 22086096, 70.4688, -64.1572, 12.0035, 0.743875, 0, 0, -0.668319) /* Drudge Skulker */
      , (4962, 1880428576, 22086125, 60, -60, 30, 0.707107, 0, 0, -0.707107) /* Surface Portal */
      , (7, 1880428577, 22086129, 60, -100, 30.0035, 1, 0, 0, 0) /* Drudge Skulker */
-     , (7923, 1880428578, 22086143, 70, -70, 30, -0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 3 Min.) */
-     , (7923, 1880428579, 22086143, 69.5979, -68.7241, 30, -0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 3 Min.) */
-     , (7923, 1880428580, 22086143, 69.9066, -71.1043, 30, -0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1880428578, 22086143, 70, -70, 30, -0.707107, 0, 0, -0.707107) /* linkmonstergen3minutes */
+     , (7923, 1880428579, 22086143, 69.5979, -68.7241, 30, -0.707107, 0, 0, -0.707107) /* linkmonstergen3minutes */
+     , (7923, 1880428580, 22086143, 69.9066, -71.1043, 30, -0.707107, 0, 0, -0.707107) /* linkmonstergen3minutes */
      , (7, 1880428581, 22086152, 80, -20, 30.0035, 1, 0, 0, 0) /* Drudge Skulker */
      , (7, 1880428582, 22086161, 80, -100, 30.0035, 1, 0, 0, 0) /* Drudge Skulker */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880428578'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880428579'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880428580'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880428578'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880428579'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880428580'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880428577'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880428581'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880428582'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880428575'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880428567'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880428566'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428550'; /* Linkable Monster Generator ( 3 Min.) <- Red Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428559'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428560'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428561'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428570'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428554'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428563'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428573'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428572'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428549'; /* Linkable Monster Generator ( 3 Min.) <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428556'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428557'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428546'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428544'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428545'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428548'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428553'; /* Linkable Monster Generator ( 3 Min.) <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880428577'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880428581'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880428582'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880428575'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880428567'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880428566'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428550'; /* linkmonstergen3minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428559'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428560'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428561'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428570'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428554'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428563'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428573'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428572'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880428549'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428556'; /* linkmonstergen3minutes <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428557'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428546'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428544'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428545'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428548'; /* linkmonstergen3minutes <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880428553'; /* linkmonstergen3minutes <- Red Phyntos Wasp */
 

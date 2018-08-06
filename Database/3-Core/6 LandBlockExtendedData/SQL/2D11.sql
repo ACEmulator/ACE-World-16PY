@@ -23,37 +23,37 @@ VALUES (8431, 1926303744, 756089088, 83.9663, 172.682, 49.6615, -0.0194307, 0, 0
      , (7107, 1926303786, 756088832, 131.91, 145.378, 56.012, -0.191166, 0, 0, -0.981558) /* Wasteland Rat */
      , (8431, 1926303762, 756088832, 132.618, 155.568, 60.0565, 0.336643, 0, 0, -0.941632) /* Nomad Mu-miyah */
      , (8431, 1926303775, 756088832, 109.766, 150.828, 56.0065, 0.170797, 0, 0, -0.985306) /* Nomad Mu-miyah */
-     , (7923, 1926303749, 756088832, 85.614, 149.036, 56.005, 0.94322, 0, 0, -0.33217) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1926303749, 756088832, 85.614, 149.036, 56.005, 0.94322, 0, 0, -0.33217) /* linkmonstergen3minutes */
      , (7402, 1926303750, 756088832, 82.6887, 171.336, 56.0083, -0.992742, 0, 0, -0.120263) /* Garaena the Emissary */
      , (7107, 1926303785, 756088832, 107.651, 157.718, 60.062, -0.599365, 0, 0, -0.800476) /* Wasteland Rat */
      , (7117, 1926303782, 756088832, 105.703, 150.743, 56.0065, -0.177417, 0, 0, -0.984136) /* Guardian Mu-miyah */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1926303749'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1926303749'; /* linkmonstergen3minutes */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1926303770'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1926303771'; /* Magic trap */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303750'; /* Linkable Monster Generator ( 3 Min.) <- Garaena the Emissary */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303762'; /* Linkable Monster Generator ( 3 Min.) <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303744'; /* Linkable Monster Generator ( 3 Min.) <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303786'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303772'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303788'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303787'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303784'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303789'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303780'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303785'; /* Linkable Monster Generator ( 3 Min.) <- Wasteland Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303781'; /* Linkable Monster Generator ( 3 Min.) <- Guardian Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303774'; /* Linkable Monster Generator ( 3 Min.) <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303773'; /* Linkable Monster Generator ( 3 Min.) <- Guardian Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303783'; /* Linkable Monster Generator ( 3 Min.) <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303782'; /* Linkable Monster Generator ( 3 Min.) <- Guardian Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303777'; /* Linkable Monster Generator ( 3 Min.) <- Guardian Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303779'; /* Linkable Monster Generator ( 3 Min.) <- Guardian Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303776'; /* Linkable Monster Generator ( 3 Min.) <- Guardian Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303775'; /* Linkable Monster Generator ( 3 Min.) <- Nomad Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303778'; /* Linkable Monster Generator ( 3 Min.) <- Guardian Mu-miyah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303790'; /* Linkable Monster Generator ( 3 Min.) <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303750'; /* linkmonstergen3minutes <- Garaena the Emissary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303762'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303744'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303786'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303772'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303788'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303787'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303784'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303789'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303780'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303785'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303781'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303774'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303773'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303783'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303782'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303777'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303779'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303776'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303775'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303778'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303790'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1926303768'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1926303769'; /* Magic trap <- Pressure Plate */
 

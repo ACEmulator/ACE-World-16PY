@@ -1,13 +1,13 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4542, 2107879448, 3661299974, 114.211, 40.7714, 18.005, -0.333767, 0, 0, 0.942656) /* Ri-Gau Ro the Bowyer */
      , (3924, 2107879437, 3661299983, 104.606, 88.639, 6.805, 0.61995, 0, 0, -0.784641) /* Wing Collector */
-     , (1154, 2107879438, 3661299983, 106.534, 89.5565, 6.805, -0.712275, 0, 0, 0.701901) /* Linkable Monster Generator */
+     , (1154, 2107879438, 3661299983, 106.534, 89.5565, 6.805, -0.712275, 0, 0, 0.701901) /* linkmonstergen */
      , (720, 2107879425, 3661299985, 112.925, 80.95, 10.5, -1, 0, 0, 0) /* Sliding Door */
      , (720, 2107879426, 3661299988, 112.925, 87.05, 10.5, -1, 0, 0, 0) /* Sliding Door */
      , (3918, 2107879445, 3661299990, 105.743, 78.6139, 6.805, 0.629112, 0, 0, 0.777315) /* Collector */
      , (4545, 2107879443, 3661299995, 159.306, 91.0276, 1.605, -0.464216, 0, 0, -0.885722) /* Tekai Shou the Scribe */
      , (4544, 2107879442, 3661299996, 155.072, 76.0535, 1.605, 0.98763, 0, 0, -0.156801) /* Lo Ma the Jeweler */
-     , (7923, 2107879470, 3661300000, 158.445, 90.2908, 4.405, 0.323358, 0, 0, -0.946277) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2107879470, 3661300000, 158.445, 90.2908, 4.405, 0.323358, 0, 0, -0.946277) /* linkmonstergen3minutes */
      , (23350, 2107879469, 3661300000, 158.821, 89.226, 4.405, -0.839153, 0, 0, -0.543895) /* Tian Li Quan */
      , (4540, 2107879439, 3661300008, 176.886, 28.7303, 0.005, -0.999261, 0, 0, -0.0384474) /* Bu-Chi Long the Armorer */
      , (4546, 2107879440, 3661300009, 183.457, 42.8361, 0.00500001, 0.0157463, 0, 0, 0.999876) /* To Za-I the Weaponsmith */
@@ -29,23 +29,23 @@ VALUES (4542, 2107879448, 3661299974, 114.211, 40.7714, 18.005, -0.333767, 0, 0,
      , (16919, 2107879459, 3661299712, 179.034, 61.4486, 2.26312E-07, 7.54979E-08, 0, 0, -1) /* Pedestal Weak Spot */
      , (509, 2107879473, 3661299712, 156.478, 57.1226, 0.00499994, -0.972363, 0, 0, -0.233476) /* Life Stone */
      , (25829, 2107879472, 3661299712, 150.298, 116.485, 0.005, -0.819152, 0, 0, -0.573576) /* Jojii Shrine */
-     , (23631, 2107879471, 3661299712, 147.325, 56.6054, 79.034, 0.704963, 0, 0, -0.709244) /* April 2003 Raining Mad Cows Gen */
+     , (23631, 2107879471, 3661299712, 147.325, 56.6054, 79.034, 0.704963, 0, 0, -0.709244) /* eventmadcowgen */
      , (22231, 2107879468, 3661299712, 188.868, 97.006, 1.744, -0.82783, 0, 0, -0.560979) /* Victory Residential Halls Portal */
      , (22242, 2107879467, 3661299712, 188.868, 97.006, 1.744, -0.82783, 0, 0, -0.560979) /* Victory Residential Halls */
      , (4499, 2107879441, 3661299712, 171.709, 30.1466, 2.41213, -4.37114E-08, 0, 0, -1) /* Lin's Armor and Weapons */
      , (19204, 2107879465, 3661299712, 179.279, 65.947, 6.81, 0.704136, 0, 0, 0.710066) /* Nullified Statue of a Skeleton */
-     , (19457, 2107879462, 3661299712, 179.267, 65.692, 7, -0.706477, 0, 0, -0.707736) /* Fireworks Generator */
+     , (19457, 2107879462, 3661299712, 179.267, 65.692, 7, -0.706477, 0, 0, -0.707736) /* fireworksgen */
      , (4505, 2107879444, 3661299712, 69.8004, 62.4132, 28.3456, 1, 0, 0, 0) /* The Pine and Fir */
      , (4504, 2107879451, 3661299712, 162.519, 16.5849, 0.005, -0.707107, 0, 0, -0.707107) /* Lin */
      , (4502, 2107879446, 3661299712, 158.804, 81.7967, 2.796, -0.707107, 0, 0, -0.707107) /* Gems of the Woods */
      , (4503, 2107879447, 3661299712, 153.228, 86.1752, 2.79562, 0.707107, 0, 0, -0.707107) /* Tekai the Scribe */
      , (5431, 2107879449, 3661299712, 116.827, 38.5033, 19.8, 0.707107, 0, 0, -0.707107) /* Forest's Blessing Bows */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2107879438'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2107879470'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2107879438'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2107879470'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2107879437'; /* Linkable Monster Generator <- Wing Collector */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2107879445'; /* Linkable Monster Generator <- Collector */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107879469'; /* Linkable Monster Generator ( 3 Min.) <- Tian Li Quan */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107879472'; /* Linkable Monster Generator ( 3 Min.) <- Jojii Shrine */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2107879437'; /* linkmonstergen <- Wing Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2107879445'; /* linkmonstergen <- Collector */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107879469'; /* linkmonstergen3minutes <- Tian Li Quan */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107879472'; /* linkmonstergen3minutes <- Jojii Shrine */
 

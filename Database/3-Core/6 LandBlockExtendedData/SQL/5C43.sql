@@ -60,75 +60,75 @@ VALUES (22668, 1975791616, 1547895040, 3.56568, -110.004, -23.995, 0.714421, 0, 
      , (235, 1975791674, 1547895384, 79.954, -109.582, 12.0121, 0.001775, 0, 0, -0.999998) /* Goldenback Tusker */
      , (235, 1975791675, 1547895394, 90.5715, -100.079, 12.0121, -0.004204, 0, 0, 0.999991) /* Goldenback Tusker */
      , (235, 1975791676, 1547895399, 90.0991, -109.546, 12.0121, 0.001775, 0, 0, -0.999998) /* Goldenback Tusker */
-     , (7924, 1975791677, 1547895410, 90.1119, -135.138, 12.005, 0.999687, 0, 0, 0.024997) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1975791677, 1547895410, 90.1119, -135.138, 12.005, 0.999687, 0, 0, 0.024997) /* linkmonstergen5minutes */
      , (235, 1975791678, 1547895411, 100.571, -99.9952, 12.0121, -0.004204, 0, 0, 0.999991) /* Goldenback Tusker */
      , (235, 1975791679, 1547895415, 100.139, -109.511, 12.0121, 0.001775, 0, 0, -0.999998) /* Goldenback Tusker */
      , (235, 1975791680, 1547895424, 109.808, -99.9175, 12.0121, -0.004204, 0, 0, 0.999991) /* Goldenback Tusker */
      , (235, 1975791681, 1547895427, 110.143, -109.475, 12.0121, 0.00177556, 0, 0, -0.999998) /* Goldenback Tusker */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1975791677'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1975791677'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791674'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791676'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791679'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791681'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791680'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791678'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791675'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791673'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791665'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791667'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791662'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791663'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791660'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791661'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791664'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791668'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791672'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791671'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791670'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791669'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791666'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791649'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791654'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791650'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791655'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791657'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791658'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791659'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791645'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791644'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791642'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791643'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791656'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791652'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791651'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791648'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791647'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791646'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791638'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791639'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791641'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791640'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791653'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791632'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791634'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791635'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791633'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791636'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791637'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791624'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791622'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791620'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791618'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791626'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791629'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791630'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791627'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791628'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791631'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791617'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791619'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791621'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791623'; /* Linkable Monster Generator ( 5 Min.) <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791674'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791676'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791679'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791681'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791680'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791678'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791675'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791673'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791665'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791667'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791662'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791663'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791660'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791661'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791664'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791668'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791672'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791671'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791670'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791669'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791666'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791649'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791654'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791650'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791655'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791657'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791658'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791659'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791645'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791644'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791642'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791643'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791656'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791652'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791651'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791648'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791647'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791646'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791638'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791639'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791641'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791640'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791653'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791632'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791634'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791635'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791633'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791636'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791637'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791624'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791622'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791620'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791618'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791626'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791629'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791630'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791627'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791628'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791631'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791617'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791619'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791621'; /* linkmonstergen5minutes <- Goldenback Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975791623'; /* linkmonstergen5minutes <- Goldenback Tusker */
 

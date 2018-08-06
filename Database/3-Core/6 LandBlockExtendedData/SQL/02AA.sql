@@ -58,8 +58,8 @@ VALUES (1107, 1881841664, 44695811, 210, -60, 0.005, 1, 0, 0, 0) /* South Direla
      , (229, 1881841720, 44696102, 50.3795, -347.42, 30.0055, 0.127176, 0, 0, 0.99188) /* Tumerok Officer */
      , (4103, 1881841721, 44696102, 52.3266, -347.121, 30.0055, 0.127176, 0, 0, 0.99188) /* Tumerok Officer */
      , (231, 1881841722, 44696102, 51.7963, -348.744, 30.006, 0.135437, 0, 0, 0.990786) /* Tumerok Priest */
-     , (7923, 1881841723, 44696110, 50.6051, -490, 30.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
-     , (4219, 1881841724, 44696110, 48.1437, -490, 30.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 7 Min.) */
+     , (7923, 1881841723, 44696110, 50.6051, -490, 30.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (4219, 1881841724, 44696110, 48.1437, -490, 30.005, 1, 0, 0, 0) /* linkmonstergen7minutes */
      , (9004, 1881841725, 44696113, 50, -520, 30.005, 1, 0, 0, 0) /* Surface Portal */
      , (233, 1881841726, 44696131, 81.5981, -398.148, 30.0055, 0.135957, 0, 0, -0.990715) /* Tumerok Warrior */
      , (233, 1881841727, 44696131, 79.5519, -397.289, 30.0055, 0.330676, 0, 0, -0.943744) /* Tumerok Warrior */
@@ -75,72 +75,72 @@ VALUES (1107, 1881841664, 44695811, 210, -60, 0.005, 1, 0, 0, 0) /* South Direla
      , (4100, 1881841737, 44696198, 90.9455, -447.743, 36.0055, -0.989638, 0, 0, -0.143587) /* Tumerok Warrior */
      , (4100, 1881841738, 44696200, 99.718, -445.929, 36.0055, -0.987856, 0, 0, -0.155374) /* Tumerok Warrior */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881841724'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881841724'; /* linkmonstergen7minutes */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881841703'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881841700'; /* Magic trap */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881841723'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881841723'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841738'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841737'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841736'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841728'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841729'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841730'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841731'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841732'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841718'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841719'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841734'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841735'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841726'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841727'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841716'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841717'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841733'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841720'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Officer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841721'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Officer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841722'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841692'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841693'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Priest */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841694'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Officer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841695'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Officer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841697'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Gladiator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841698'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Gladiator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841696'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Gladiator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841701'; /* Linkable Monster Generator ( 7 Min.) <- Tumerok Gladiator */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841704'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841705'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841709'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841710'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841711'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841715'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841688'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841689'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841687'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841691'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841690'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841686'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841677'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841678'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841679'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841738'; /* linkmonstergen7minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841737'; /* linkmonstergen7minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841736'; /* linkmonstergen7minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841728'; /* linkmonstergen7minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841729'; /* linkmonstergen7minutes <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841730'; /* linkmonstergen7minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841731'; /* linkmonstergen7minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841732'; /* linkmonstergen7minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841718'; /* linkmonstergen7minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841719'; /* linkmonstergen7minutes <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841734'; /* linkmonstergen7minutes <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841735'; /* linkmonstergen7minutes <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841726'; /* linkmonstergen7minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841727'; /* linkmonstergen7minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841716'; /* linkmonstergen7minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841717'; /* linkmonstergen7minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841733'; /* linkmonstergen7minutes <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841720'; /* linkmonstergen7minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841721'; /* linkmonstergen7minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841722'; /* linkmonstergen7minutes <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841692'; /* linkmonstergen7minutes <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841693'; /* linkmonstergen7minutes <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841694'; /* linkmonstergen7minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841695'; /* linkmonstergen7minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841697'; /* linkmonstergen7minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841698'; /* linkmonstergen7minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841696'; /* linkmonstergen7minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841701'; /* linkmonstergen7minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841704'; /* linkmonstergen7minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841705'; /* linkmonstergen7minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841709'; /* linkmonstergen7minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841710'; /* linkmonstergen7minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841711'; /* linkmonstergen7minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841715'; /* linkmonstergen7minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841688'; /* linkmonstergen7minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841689'; /* linkmonstergen7minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841687'; /* linkmonstergen7minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841691'; /* linkmonstergen7minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841690'; /* linkmonstergen7minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841686'; /* linkmonstergen7minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841677'; /* linkmonstergen7minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841678'; /* linkmonstergen7minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881841679'; /* linkmonstergen7minutes <- Drudge Ravener */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881841702'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881841699'; /* Magic trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841708'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841707'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841706'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841712'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841713'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841714'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841674'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841675'; /* Linkable Monster Generator ( 3 Min.) <- Sotiris Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841676'; /* Linkable Monster Generator ( 3 Min.) <- Sotiris Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841671'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841672'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841673'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841682'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841683'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841684'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841666'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841665'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841667'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841708'; /* linkmonstergen3minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841707'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841706'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841712'; /* linkmonstergen3minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841713'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841714'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841674'; /* linkmonstergen3minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841675'; /* linkmonstergen3minutes <- Sotiris Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841676'; /* linkmonstergen3minutes <- Sotiris Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841671'; /* linkmonstergen3minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841672'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841673'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841682'; /* linkmonstergen3minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841683'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841684'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841666'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841665'; /* linkmonstergen3minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881841667'; /* linkmonstergen3minutes <- Drudge Ravener */
 

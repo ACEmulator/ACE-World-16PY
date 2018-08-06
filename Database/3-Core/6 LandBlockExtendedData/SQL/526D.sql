@@ -20,7 +20,7 @@ VALUES (2131, 1965477888, 1382875393, 24, -120, -42, 0.707107, 0, 0, -0.707107) 
      , (6122, 1965477902, 1382875434, 70, -180, -42, 0, 0, 0, -1) /* Acid */
      , (14514, 1965478074, 1382875437, 80, -80, -41.9915, 1, 0, 0, 0) /* Miasma */
      , (14538, 1965478050, 1382875438, 84.7397, -94.9094, -41.995, -0.1868, 0, 0, -0.982398) /* Prism of Acid */
-     , (7923, 1965478075, 1382875440, 80, -110, -41.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1965478075, 1382875440, 80, -110, -41.995, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (4454, 1965477903, 1382875442, 80, -125.25, -42, 0, 0, 0, -1) /* Door */
      , (14516, 1965478051, 1382875442, 80, -130, -41.9915, 0.731689, 0, 0, 0.681639) /* Caustic */
      , (15267, 1965478121, 1382875443, 80, -140, -41.99, 1, 0, 0, -4.37114E-08) /* Acidic Diamond Golem */
@@ -99,7 +99,7 @@ VALUES (2131, 1965477888, 1382875393, 24, -120, -42, 0.707107, 0, 0, -0.707107) 
      , (15267, 1965478134, 1382875708, 130, -120, 0.01, 1, 0, 0, 0) /* Acidic Diamond Golem */
      , (6122, 1965477973, 1382875718, 130, -140, 0, 1, 0, 0, 0) /* Acid */
      , (269, 1965477974, 1382875718, 129.75, -144.4, 1.85, 0, 0, 0, -1) /* Button */
-     , (7924, 1965477975, 1382875727, 150, -120, 0.005, 0.696707, 0, 0, 0.717356) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1965477975, 1382875727, 150, -120, 0.005, 0.696707, 0, 0, 0.717356) /* linkmonstergen5minutes */
      , (14492, 1965477976, 1382875730, 158.979, -128.607, 0.005, -0.32329, 0, 0, 0.9463) /* Empyrean Acid Propylaeum */
      , (14492, 1965477977, 1382875735, 36.9268, -43.1781, 6, -0.382684, 0, 0, -0.923879) /* Empyrean Acid Propylaeum */
      , (2180, 1965477978, 1382875742, 64.75, -30, 6, -0.707107, 0, 0, -0.707107) /* Door */
@@ -107,7 +107,7 @@ VALUES (2131, 1965477888, 1382875393, 24, -120, -42, 0.707107, 0, 0, -0.707107) 
      , (6122, 1965477980, 1382875747, 70, -10, 6, 1, 0, 0, 0) /* Acid */
      , (14548, 1965477981, 1382875747, 68.9632, -10.0128, 7.50862, 0.709777, 0, 0, 0.704426) /* Acid Trap */
      , (15266, 1965478135, 1382875751, 70.3136, -30.4687, 6.01, -0.705897, 0, 0, -0.708315) /* Acidic Coral Golem */
-     , (7924, 1965477983, 1382875752, 67.5766, -37.5699, 6.005, -0.933554, 0, 0, 0.358436) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1965477983, 1382875752, 67.5766, -37.5699, 6.005, -0.933554, 0, 0, 0.358436) /* linkmonstergen5minutes */
      , (14516, 1965478062, 1382875752, 67.1603, -36.0632, 6.0085, -0.490911, 0, 0, -0.87121) /* Caustic */
      , (15266, 1965478136, 1382875752, 69.5822, -41.3178, 6.01, -0.993609, 0, 0, -0.112876) /* Acidic Coral Golem */
      , (14516, 1965478063, 1382875761, 80, -30, 6.0085, 1, 0, 0, 0) /* Caustic */
@@ -214,10 +214,10 @@ UPDATE `landblock_instances` SET `link_Slot`='34', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='35', `link_Controller`=True WHERE `guid`='1965477921'; /* Acid Trap */
 UPDATE `landblock_instances` SET `link_Slot`='36', `link_Controller`=True WHERE `guid`='1965477920'; /* Acid Trap */
 UPDATE `landblock_instances` SET `link_Slot`='37', `link_Controller`=True WHERE `guid`='1965477919'; /* Acid Trap */
-UPDATE `landblock_instances` SET `link_Slot`='38', `link_Controller`=True WHERE `guid`='1965477983'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='39', `link_Controller`=True WHERE `guid`='1965477975'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='38', `link_Controller`=True WHERE `guid`='1965477983'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='39', `link_Controller`=True WHERE `guid`='1965477975'; /* linkmonstergen5minutes */
 UPDATE `landblock_instances` SET `link_Slot`='40', `link_Controller`=True WHERE `guid`='1965478077'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='41', `link_Controller`=True WHERE `guid`='1965478075'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='41', `link_Controller`=True WHERE `guid`='1965478075'; /* linkmonstergen3minutes */
 UPDATE `landblock_instances` SET `link_Slot`='42', `link_Controller`=True WHERE `guid`='1965477934'; /* Door */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965477974'; /* Door <- Button */
@@ -258,69 +258,69 @@ UPDATE `landblock_instances` SET `link_Slot`='34' WHERE `guid`='1965477928'; /* 
 UPDATE `landblock_instances` SET `link_Slot`='35' WHERE `guid`='1965477916'; /* Acid Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='36' WHERE `guid`='1965477915'; /* Acid Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='37' WHERE `guid`='1965477914'; /* Acid Trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478136'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478137'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478138'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478062'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478063'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478066'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478065'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478064'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478067'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478068'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478069'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478139'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478146'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478144'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478145'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478143'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478141'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478142'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478140'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478149'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478148'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478150'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478147'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478135'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478137'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478138'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478136'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478134'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478131'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478132'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478128'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478126'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478127'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478124'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478125'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478130'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478129'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478123'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478122'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478115'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478116'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478117'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478120'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478121'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478118'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478119'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478059'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478053'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478054'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478051'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478048'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478049'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478061'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478060'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478055'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478058'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478056'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478133'; /* Linkable Monster Generator ( 5 Min.) <- Acidic Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478057'; /* Linkable Monster Generator ( 5 Min.) <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478136'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478137'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478138'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478062'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478063'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478066'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478065'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478064'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478067'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478068'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478069'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478139'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478146'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478144'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478145'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478143'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478141'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478142'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478140'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478149'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478148'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478150'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478147'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478135'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478137'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478138'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478136'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478134'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478131'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478132'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478128'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478126'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478127'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478124'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478125'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478130'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478129'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478123'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478122'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478115'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478116'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478117'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478120'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478121'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478118'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478119'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478059'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478053'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478054'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478051'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478048'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478049'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478061'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478060'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478055'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478058'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478056'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478133'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478057'; /* linkmonstergen5minutes <- Caustic */
 UPDATE `landblock_instances` SET `link_Slot`='40' WHERE `guid`='1965477969'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965478074'; /* Linkable Monster Generator ( 3 Min.) <- Miasma */
-UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965478076'; /* Linkable Monster Generator ( 3 Min.) <- Miasma */
-UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965478072'; /* Linkable Monster Generator ( 3 Min.) <- Miasma */
-UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965478073'; /* Linkable Monster Generator ( 3 Min.) <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965478074'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965478076'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965478072'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965478073'; /* linkmonstergen3minutes <- Miasma */
 UPDATE `landblock_instances` SET `link_Slot`='42' WHERE `guid`='1965477999'; /* Door <- Lever */
 

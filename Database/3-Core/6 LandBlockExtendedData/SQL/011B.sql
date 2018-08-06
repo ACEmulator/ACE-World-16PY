@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7129, 1880207360, 18546947, 68.6837, -40.55, -83.985, 0.711025, 0, 0, 0.703166) /* Nalif Zefir */
      , (7129, 1880207361, 18546947, 68.728, -36.5684, -83.985, 0.711025, 0, 0, 0.703166) /* Nalif Zefir */
-     , (3955, 1880207362, 18546950, 71.787, -59.714, -83.995, 0.872637, 0, 0, 0.48837) /* Linkable Monster Gen (15 min.) */
+     , (3955, 1880207362, 18546950, 71.787, -59.714, -83.995, 0.872637, 0, 0, 0.48837) /* linkmonstergen15minutes */
      , (7129, 1880207363, 18546950, 70.6335, -61.154, -83.985, 0.689338, 0, 0, 0.72444) /* Nalif Zefir */
      , (7129, 1880207364, 18546950, 70.5021, -58.5093, -83.985, 0.689338, 0, 0, 0.72444) /* Nalif Zefir */
      , (8405, 1880207365, 18546963, 90.3462, -35.1972, -77.945, -0.98102, 0, 0, 0.193907) /* Flamma */
@@ -10,7 +10,7 @@ VALUES (7129, 1880207360, 18546947, 68.6837, -40.55, -83.985, 0.711025, 0, 0, 0.
      , (8405, 1880207368, 18546983, 100.881, -64.9035, -77.945, 0.90198, 0, 0, 0.431778) /* Flamma */
      , (7129, 1880207369, 18546988, 106.431, -49.8268, -77.985, 0.658177, 0, 0, 0.752863) /* Nalif Zefir */
      , (8405, 1880207370, 18546999, 38.9438, -35.6878, -65.9935, 0.999999, 0, 0, -0.001503) /* Flamma */
-     , (3955, 1880207371, 18547013, 78.0698, -41.9159, -65.995, 0.849302, 0, 0, -0.527907) /* Linkable Monster Gen (15 min.) */
+     , (3955, 1880207371, 18547013, 78.0698, -41.9159, -65.995, 0.849302, 0, 0, -0.527907) /* linkmonstergen15minutes */
      , (6396, 1880207372, 18547013, 80, -40, -65.995, 1, 0, 0, -4.37114E-08) /* Surface Portal */
      , (278, 1880207373, 18547015, 80, -44.75, -66, 1, 0, 0, -4.37114E-08) /* Door */
      , (278, 1880207374, 18547021, 80, -55.25, -66, 0, 0, 0, -1) /* Door */
@@ -39,8 +39,8 @@ VALUES (7129, 1880207360, 18546947, 68.6837, -40.55, -83.985, 0.711025, 0, 0, 0.
      , (8405, 1880207398, 18547116, 40.2428, -28.991, -35.9935, -0.0156808, 0, 0, 0.999877) /* Flamma */
      , (7129, 1880207399, 18547117, 37.9042, -30.379, -35.945, 0.813017, 0, 0, 0.58224) /* Nalif Zefir */
      , (7607, 1880207400, 18547123, -1.0758, -19.7778, -29.9915, 0.705619, 0, 0, -0.708592) /* Ember */
-     , (3955, 1880207401, 18547123, -0.523423, -19.9624, -29.995, 0.66721, 0, 0, -0.74487) /* Linkable Monster Gen (15 min.) */
-     , (5085, 1880207402, 18547123, -0.168678, -23.8992, -29.995, 0.178173, 0, 0, -0.983999) /* Linkable Item Gen - 25 seconds */
+     , (3955, 1880207401, 18547123, -0.523423, -19.9624, -29.995, 0.66721, 0, 0, -0.74487) /* linkmonstergen15minutes */
+     , (5085, 1880207402, 18547123, -0.168678, -23.8992, -29.995, 0.178173, 0, 0, -0.983999) /* linkitemgen25seconds */
      , (6124, 1880207403, 18547123, -2.90107, -20.0789, -29.9835, -0.701702, 0, 0, -0.71247) /* Major Smoldering Stone */
      , (7129, 1880207404, 18547123, 0.975327, -16.8783, -29.985, -0.561292, 0, 0, 0.827618) /* Nalif Zefir */
      , (7129, 1880207405, 18547123, 0.413812, -20.3147, -29.985, -0.731791, 0, 0, 0.681529) /* Nalif Zefir */
@@ -63,7 +63,7 @@ VALUES (7129, 1880207360, 18546947, 68.6837, -40.55, -83.985, 0.711025, 0, 0, 0.
      , (8405, 1880207421, 18547168, 70.3742, -48.3975, -17.9935, 0.04539, 0, 0, -0.998969) /* Flamma */
      , (7106, 1880207422, 18547173, 79.8877, -39.754, -20.988, 0.690134, 0, 0, 0.723682) /* Sewer Rat */
      , (5712, 1880207423, 18547174, 78.8776, -53.7595, -17.9915, 0.992131, 0, 0, -0.125207) /* Inferno */
-     , (5085, 1880207424, 18547187, 50.281, -49.2445, -11.995, 0.387404, 0, 0, -0.92191) /* Linkable Item Gen - 25 seconds */
+     , (5085, 1880207424, 18547187, 50.281, -49.2445, -11.995, 0.387404, 0, 0, -0.92191) /* linkitemgen25seconds */
      , (6405, 1880207425, 18547189, 52.2553, -51.1787, -11.921, 0.387404, 0, 0, -0.92191) /* Carefully Printed Note */
      , (7129, 1880207426, 18547212, 91.3984, -46.8071, -13.0425, -0.318689, 0, 0, 0.947859) /* Nalif Zefir */
      , (7129, 1880207427, 18547212, 89.1168, -52.9749, -16.9346, 0.771208, 0, 0, 0.636583) /* Nalif Zefir */
@@ -75,8 +75,8 @@ VALUES (7129, 1880207360, 18546947, 68.6837, -40.55, -83.985, 0.711025, 0, 0, 0.
      , (7106, 1880207433, 18547239, 83.0989, -23.758, -5.988, 0.766189, 0, 0, 0.642615) /* Sewer Rat */
      , (7106, 1880207434, 18547239, 83.7793, -17.1764, -5.988, 0.642602, 0, 0, 0.7662) /* Sewer Rat */
      , (7106, 1880207435, 18547239, 83.0837, -19.6106, -5.988, 0.433065, 0, 0, 0.901363) /* Sewer Rat */
-     , (3955, 1880207436, 18547239, 80, -18.6983, -5.995, 1, 0, 0, 0) /* Linkable Monster Gen (15 min.) */
-     , (3955, 1880207437, 18547247, 87.8986, -42.7884, -5.995, -0.997419, 0, 0, -0.071799) /* Linkable Monster Gen (15 min.) */
+     , (3955, 1880207436, 18547239, 80, -18.6983, -5.995, 1, 0, 0, 0) /* linkmonstergen15minutes */
+     , (3955, 1880207437, 18547247, 87.8986, -42.7884, -5.995, -0.997419, 0, 0, -0.071799) /* linkmonstergen15minutes */
      , (7129, 1880207438, 18547247, 90.1956, -43.8154, -11.985, 0.022121, 0, 0, 0.999755) /* Nalif Zefir */
      , (8405, 1880207439, 18547251, 29.2628, -9.66502, 0.0065, 0.695539, 0, 0, -0.718488) /* Flamma */
      , (8405, 1880207440, 18547259, 29.6943, -70.3163, -2.9935, 0.711498, 0, 0, -0.702688) /* Flamma */
@@ -87,85 +87,85 @@ VALUES (7129, 1880207360, 18546947, 68.6837, -40.55, -83.985, 0.711025, 0, 0, 0.
      , (7106, 1880207445, 18547287, 19.8289, -63.8778, 0.78351, 0.009676, 0, 0, 0.999953) /* Sewer Rat */
      , (7106, 1880207446, 18547290, 26.9846, -48.0645, 6.012, 0.394744, 0, 0, 0.918791) /* Sewer Rat */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880207401'; /* Linkable Monster Gen (15 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880207362'; /* Linkable Monster Gen (15 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880207437'; /* Linkable Monster Gen (15 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880207371'; /* Linkable Monster Gen (15 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880207402'; /* Linkable Item Gen - 25 seconds */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880207424'; /* Linkable Item Gen - 25 seconds */
-UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880207436'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880207401'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880207362'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880207437'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880207371'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880207402'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880207424'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880207436'; /* linkmonstergen15minutes */
 UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880207376'; /* Magic trap */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207400'; /* Linkable Monster Gen (15 min.) <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207439'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207435'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207429'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207445'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207444'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207446'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207415'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207416'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207417'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207418'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207419'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207420'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207408'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207407'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207404'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207405'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207406'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207438'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207399'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207397'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207392'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207410'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207412'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207411'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207369'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207367'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207363'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207364'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207360'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207361'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207366'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207365'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207388'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207381'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880207422'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880207414'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880207413'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207370'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207375'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207385'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207386'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207383'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207382'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207384'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207379'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207387'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207380'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207394'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207441'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207440'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207368'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207432'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207443'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207442'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207428'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207427'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207426'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207423'; /* Linkable Monster Gen (15 min.) <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207393'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207398'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207390'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207391'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207389'; /* Linkable Monster Gen (15 min.) <- Nalif Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207421'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207430'; /* Linkable Monster Gen (15 min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880207403'; /* Linkable Item Gen - 25 seconds <- Major Smoldering Stone */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880207448'; /* Linkable Item Gen - 25 seconds <- Textbook */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880207425'; /* Linkable Item Gen - 25 seconds <- Carefully Printed Note */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880207434'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880207433'; /* Linkable Monster Gen (15 min.) <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207400'; /* linkmonstergen15minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207439'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207435'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207429'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207445'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207444'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207446'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207415'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207416'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207417'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207418'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207419'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207420'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207408'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207407'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207404'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207405'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880207406'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207438'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207399'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207397'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207392'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207410'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207412'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207411'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207369'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207367'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207363'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207364'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207360'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207361'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207366'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207365'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207388'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880207381'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880207422'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880207414'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880207413'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207370'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207375'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207385'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207386'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207383'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207382'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207384'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207379'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207387'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207380'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207394'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207441'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207440'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207368'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207432'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207443'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207442'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207428'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207427'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207426'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207423'; /* linkmonstergen15minutes <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207393'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207398'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207390'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207391'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207389'; /* linkmonstergen15minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207421'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880207430'; /* linkmonstergen15minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880207403'; /* linkitemgen25seconds <- Major Smoldering Stone */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880207448'; /* linkitemgen25seconds <- Textbook */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880207425'; /* linkitemgen25seconds <- Carefully Printed Note */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880207434'; /* linkmonstergen15minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880207433'; /* linkmonstergen15minutes <- Sewer Rat */
 UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880207378'; /* Magic trap <- Pressure Plate */
 

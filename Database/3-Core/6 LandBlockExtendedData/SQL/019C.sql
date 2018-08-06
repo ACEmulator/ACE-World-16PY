@@ -6,11 +6,11 @@ VALUES (1925, 1880735744, 27001088, 76.4118, -42.8933, -42, -0.707107, 0, 0, -0.
      , (2584, 1880735748, 27001093, 92.1705, -65.8144, -42, 0, 0, 0, -1) /* Aste Sclavus */
      , (2584, 1880735749, 27001093, 87.6196, -65.7608, -42, 0, 0, 0, -1) /* Aste Sclavus */
      , (1616, 1880735750, 27001093, 88.1935, -70.451, -41.995, -0.898172, 0, 0, -0.439645) /* Swamp Gromnie */
-     , (1154, 1880735751, 27001093, 93.1678, -67.8489, -42, 1, 0, 0, 0) /* Linkable Monster Generator */
-     , (1154, 1880735752, 27001093, 93.2245, -69.4117, -42, 1, 0, 0, 0) /* Linkable Monster Generator */
-     , (1154, 1880735753, 27001093, 93.0926, -70.906, -42, 1, 0, 0, 0) /* Linkable Monster Generator */
-     , (1154, 1880735754, 27001093, 93.1159, -72.1294, -42, 1, 0, 0, 0) /* Linkable Monster Generator */
-     , (1154, 1880735755, 27001093, 93.0167, -73.4634, -42, 1, 0, 0, 0) /* Linkable Monster Generator */
+     , (1154, 1880735751, 27001093, 93.1678, -67.8489, -42, 1, 0, 0, 0) /* linkmonstergen */
+     , (1154, 1880735752, 27001093, 93.2245, -69.4117, -42, 1, 0, 0, 0) /* linkmonstergen */
+     , (1154, 1880735753, 27001093, 93.0926, -70.906, -42, 1, 0, 0, 0) /* linkmonstergen */
+     , (1154, 1880735754, 27001093, 93.1159, -72.1294, -42, 1, 0, 0, 0) /* linkmonstergen */
+     , (1154, 1880735755, 27001093, 93.0167, -73.4634, -42, 1, 0, 0, 0) /* linkmonstergen */
      , (2586, 1880735756, 27001094, 97.7717, -18.2544, -42, 1, 0, 0, 0) /* Sata Sclavus */
      , (1917, 1880735757, 27001094, 97.6871, -16.8257, -42, 1, 0, 0, 0) /* Chest */
      , (2586, 1880735758, 27001096, 98.1393, -39.9026, -42, 0.709494, 0, 0, -0.704711) /* Sata Sclavus */
@@ -24,22 +24,22 @@ VALUES (1925, 1880735744, 27001088, 76.4118, -42.8933, -42, -0.707107, 0, 0, -0.
      , (1931, 1880735766, 27001102, 123.176, -42.0664, -42, 0.707107, 0, 0, -0.707107) /* Chest */
      , (2557, 1880735767, 27001117, 110, -80, -36, 0.707107, 0, 0, -0.707107) /* Surface */
      , (568, 1880735768, 27001119, 114.75, -80, -36, 0.707107, 0, 0, -0.707107) /* Door */
-     , (965, 1880735769, 27001122, 130, -44.75, -36, -4.37114E-08, 0, 0, -1) /* Zombie Generator */
-     , (912, 1880735770, 27001125, 130, -90, -36, 0.707107, 0, 0, -0.707107) /* Revenant Generator */
-     , (911, 1880735771, 27001125, 131.339, -89.1045, -36, 0.707107, 0, 0, -0.707107) /* Lich Generator */
-     , (911, 1880735772, 27001125, 131.296, -91.2615, -36, 0.707107, 0, 0, -0.707107) /* Lich Generator */
-     , (965, 1880735773, 27001126, 135.25, -50, -36, -0.707107, 0, 0, -0.707107) /* Zombie Generator */
-     , (911, 1880735774, 27001127, 141.715, -61.0199, -36, 1, 0, 0, 0) /* Lich Generator */
+     , (965, 1880735769, 27001122, 130, -44.75, -36, -4.37114E-08, 0, 0, -1) /* zombiegen */
+     , (912, 1880735770, 27001125, 130, -90, -36, 0.707107, 0, 0, -0.707107) /* revenantgenerator */
+     , (911, 1880735771, 27001125, 131.339, -89.1045, -36, 0.707107, 0, 0, -0.707107) /* lichgenerator */
+     , (911, 1880735772, 27001125, 131.296, -91.2615, -36, 0.707107, 0, 0, -0.707107) /* lichgenerator */
+     , (965, 1880735773, 27001126, 135.25, -50, -36, -0.707107, 0, 0, -0.707107) /* zombiegen */
+     , (911, 1880735774, 27001127, 141.715, -61.0199, -36, 1, 0, 0, 0) /* lichgenerator */
      , (1630, 1880735775, 27001131, 140.025, -98.421, -35.9925, 1, 0, 0, -4.37114E-08) /* Lich Lord */
-     , (911, 1880735776, 27001131, 141.482, -99.3668, -36, 1, 0, 0, -4.37114E-08) /* Lich Generator */
-     , (911, 1880735777, 27001131, 139.269, -99.2804, -36, 1, 0, 0, -4.37114E-08) /* Lich Generator */
-     , (911, 1880735778, 27001133, 150.354, -79.8362, -36, 1, 0, 0, 0) /* Lich Generator */
+     , (911, 1880735776, 27001131, 141.482, -99.3668, -36, 1, 0, 0, -4.37114E-08) /* lichgenerator */
+     , (911, 1880735777, 27001131, 139.269, -99.2804, -36, 1, 0, 0, -4.37114E-08) /* lichgenerator */
+     , (911, 1880735778, 27001133, 150.354, -79.8362, -36, 1, 0, 0, 0) /* lichgenerator */
      , (152, 1880735779, 27001135, 160, -80, -36, 0.707107, 0, 0, -0.707107) /* Font */
-     , (911, 1880735780, 27001135, 157.452, -79.9798, -36, 0.707107, 0, 0, -0.707107) /* Lich Generator */
+     , (911, 1880735780, 27001135, 157.452, -79.9798, -36, 0.707107, 0, 0, -0.707107) /* lichgenerator */
      , (1624, 1880735781, 27001136, 9.72635, -40.716, -29.988, 0.707107, 0, 0, -0.707107) /* Swamp Rat */
      , (1624, 1880735782, 27001137, 13.0518, -40.1715, -29.988, 0.707107, 0, 0, -0.707107) /* Swamp Rat */
-     , (553, 1880735783, 27001146, 20, -90, -30, -0.707107, 0, 0, -0.707107) /* Mushroom Circle Generator */
-     , (553, 1880735784, 27001146, 20, -90, -30, -0.707107, 0, 0, -0.707107) /* Mushroom Circle Generator */
+     , (553, 1880735783, 27001146, 20, -90, -30, -0.707107, 0, 0, -0.707107) /* mushroomcirclegen */
+     , (553, 1880735784, 27001146, 20, -90, -30, -0.707107, 0, 0, -0.707107) /* mushroomcirclegen */
      , (2584, 1880735785, 27001146, 22.5774, -89.1882, -30, -0.707107, 0, 0, -0.707107) /* Aste Sclavus */
      , (2583, 1880735786, 27001150, 26.3758, -71.9807, -30, 1, 0, 0, 0) /* Se Sclavus */
      , (2583, 1880735787, 27001150, 26.3358, -67.894, -30, 0, 0, 0, -1) /* Se Sclavus */
@@ -62,8 +62,8 @@ VALUES (1925, 1880735744, 27001088, 76.4118, -42.8933, -42, -0.707107, 0, 0, -0.
      , (568, 1880735804, 27001201, 125.256, -20, -30, 0.707107, 0, 0, -0.707107) /* Door */
      , (1624, 1880735805, 27001213, 135.408, -28.8428, -29.946, -4.37114E-08, 0, 0, -1) /* Swamp Rat */
      , (1624, 1880735806, 27001213, 136.403, -29.814, -29.988, 1, 0, 0, -4.37114E-08) /* Swamp Rat */
-     , (394, 1880735807, 27001214, 137.876, -39.2865, -36, -0.707107, 0, 0, -0.707107) /* Undead Generator */
-     , (394, 1880735808, 27001214, 138.888, -41.7762, -36, 0.9995, 0, 0, -0.0316289) /* Undead Generator */
+     , (394, 1880735807, 27001214, 137.876, -39.2865, -36, -0.707107, 0, 0, -0.707107) /* undead-generator */
+     , (394, 1880735808, 27001214, 138.888, -41.7762, -36, 0.9995, 0, 0, -0.0316289) /* undead-generator */
      , (1624, 1880735809, 27001227, 5.25, -20, -23.946, -0.707107, 0, 0, -0.707107) /* Swamp Rat */
      , (2586, 1880735810, 27001229, 9.78617, -48.0045, -24, 1, 0, 0, 0) /* Sata Sclavus */
      , (2586, 1880735811, 27001229, 9.787, -46.601, -24, 0, 0, 0, -1) /* Sata Sclavus */
@@ -129,94 +129,94 @@ VALUES (1925, 1880735744, 27001088, 76.4118, -42.8933, -42, -0.707107, 0, 0, -0.
      , (2506, 1880735871, 27001525, 130, -45.25, 0, 1, 0, 0, 0) /* Door */
      , (2583, 1880735872, 27001525, 130, -50, 0, 1, 0, 0, 0) /* Se Sclavus */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880735751'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880735752'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880735753'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880735754'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880735755'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880735751'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880735752'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880735753'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880735754'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880735755'; /* linkmonstergen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735864'; /* Linkable Monster Generator <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735872'; /* Linkable Monster Generator <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735870'; /* Linkable Monster Generator <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735865'; /* Linkable Monster Generator <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735866'; /* Linkable Monster Generator <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735854'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735855'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735869'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735851'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735852'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735853'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735834'; /* Linkable Monster Generator <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735842'; /* Linkable Monster Generator <- Swamp Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735802'; /* Linkable Monster Generator <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735803'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735821'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735814'; /* Linkable Monster Generator <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735787'; /* Linkable Monster Generator <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735758'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735759'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735761'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735856'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735847'; /* Linkable Monster Generator <- Swamp Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735848'; /* Linkable Monster Generator <- Swamp Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735849'; /* Linkable Monster Generator <- Swamp Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735850'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735861'; /* Linkable Monster Generator <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735859'; /* Linkable Monster Generator <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735860'; /* Linkable Monster Generator <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735788'; /* Linkable Monster Generator <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735763'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735746'; /* Linkable Monster Generator <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735748'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735831'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735823'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735798'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735796'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735797'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735799'; /* Linkable Monster Generator <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735800'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735801'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735820'; /* Linkable Monster Generator <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735822'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735862'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735858'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735760'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735756'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735764'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735816'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735817'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735812'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735793'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735794'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735789'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735790'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735791'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735813'; /* Linkable Monster Generator <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735818'; /* Linkable Monster Generator <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735786'; /* Linkable Monster Generator <- Se Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735785'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735749'; /* Linkable Monster Generator <- Aste Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735810'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735836'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735835'; /* Linkable Monster Generator <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735844'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735809'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735781'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735806'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735829'; /* Linkable Monster Generator <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735824'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735775'; /* Linkable Monster Generator <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735819'; /* Linkable Monster Generator <- Swamp Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735747'; /* Linkable Monster Generator <- Essa Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735750'; /* Linkable Monster Generator <- Swamp Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735827'; /* Linkable Monster Generator <- Swamp Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735826'; /* Linkable Monster Generator <- Swamp Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735833'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735811'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735837'; /* Linkable Monster Generator <- Sata Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735843'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735845'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735782'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735805'; /* Linkable Monster Generator <- Swamp Rat */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735830'; /* Linkable Monster Generator <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735864'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735872'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735870'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735865'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735866'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735854'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735855'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735869'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735851'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735852'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735853'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735834'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735842'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735802'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735803'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735821'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735814'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735787'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735758'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735759'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880735761'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735856'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735847'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735848'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735849'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735850'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735861'; /* linkmonstergen <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735859'; /* linkmonstergen <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735860'; /* linkmonstergen <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735788'; /* linkmonstergen <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735763'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735746'; /* linkmonstergen <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735748'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735831'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735823'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880735798'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735796'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735797'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735799'; /* linkmonstergen <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735800'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735801'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735820'; /* linkmonstergen <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735822'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735862'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735858'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735760'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735756'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880735764'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735816'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735817'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735812'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735793'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735794'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735789'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735790'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735791'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735813'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735818'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735786'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735785'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735749'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735810'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735836'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735835'; /* linkmonstergen <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735844'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735809'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735781'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735806'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735829'; /* linkmonstergen <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735824'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880735775'; /* linkmonstergen <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735819'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735747'; /* linkmonstergen <- Essa Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735750'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735827'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735826'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735833'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735811'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735837'; /* linkmonstergen <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735843'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735845'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735782'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735805'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880735830'; /* linkmonstergen <- Sata Sclavus */
 

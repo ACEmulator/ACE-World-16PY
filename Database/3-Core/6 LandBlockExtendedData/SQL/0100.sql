@@ -4,8 +4,8 @@ VALUES (947, 1880096768, 16777475, 29.9647, -158.253, 0.0055, 0.250794, 0, 0, -0
      , (211, 1880096770, 16777490, 41.1953, -178.763, 0.0055, 0.020154, 0, 0, 0.999797) /* Mudlurk Mosswart */
      , (211, 1880096771, 16777490, 39.3638, -179.623, 0.0055, -0.011459, 0, 0, 0.999934) /* Mudlurk Mosswart */
      , (947, 1880096772, 16777490, 39.3235, -177.868, 0.0055, -0.011459, 0, 0, 0.999934) /* Barker Mosswart */
-     , (3955, 1880096773, 16777491, 40, -190, 0.005, 1, 0, 0, 0) /* Linkable Monster Gen (15 min.) */
-     , (7923, 1880096774, 16777491, 41.9496, -191.037, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (3955, 1880096773, 16777491, 40, -190, 0.005, 1, 0, 0, 0) /* linkmonstergen15minutes */
+     , (7923, 1880096774, 16777491, 41.9496, -191.037, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (7253, 1880096775, 16777493, 40, -210, 0.005, 1, 0, 0, 0) /* Surface Portal */
      , (947, 1880096776, 16777533, 47.6575, -138.795, 6.0055, -0.738701, 0, 0, -0.674033) /* Barker Mosswart */
      , (1619, 1880096777, 16777533, 48.5193, -140.877, 6.0055, -0.857886, 0, 0, -0.51384) /* Mosswart Shaman */
@@ -224,219 +224,219 @@ VALUES (947, 1880096768, 16777475, 29.9647, -158.253, 0.0055, 0.250794, 0, 0, -0
      , (937, 1880096990, 16778321, 163.61, -138.63, 18.0077, 0.671016, 0, 0, -0.741443) /* Banderling Guard */
      , (7253, 1880096991, 16778341, 10, -230, 24.005, 1, 0, 0, 0) /* Surface Portal */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880096774'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880096773'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880096774'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880096773'; /* linkmonstergen15minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096770'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096771'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096772'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096768'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096769'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096778'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096779'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096776'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096777'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096809'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096807'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096811'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096808'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096810'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096812'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096813'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096816'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096817'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096833'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096834'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096835'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096836'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096843'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096844'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096837'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096838'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096842'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096845'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096846'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096839'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096840'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096841'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096847'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096848'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096849'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096871'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096872'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096873'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096861'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096862'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096870'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096854'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096868'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096869'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096864'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096865'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096866'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096867'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096857'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096859'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096858'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096806'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096814'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096815'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096819'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096818'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096820'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096821'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096822'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096823'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096824'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096825'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096831'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096832'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096827'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096828'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096829'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096830'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096792'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096793'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096794'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096804'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096785'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096797'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096798'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096795'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096796'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096805'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096786'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096801'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096802'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096803'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096782'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096783'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096784'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096799'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096800'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096780'; /* Linkable Monster Generator ( 3 Min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096781'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096788'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096789'; /* Linkable Monster Generator ( 3 Min.) <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096790'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096791'; /* Linkable Monster Generator ( 3 Min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096852'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096853'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096984'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096985'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096982'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096983'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096980'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096981'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096976'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096977'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096978'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096979'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096988'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096974'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096975'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096989'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096990'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096986'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096987'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096851'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096850'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096908'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096909'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096910'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096923'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096924'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096939'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096911'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096925'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096926'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096951'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096952'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096940'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096912'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096913'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096927'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096928'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096893'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096894'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096941'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096942'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096943'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096929'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096930'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096931'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096932'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096885'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096886'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096895'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096896'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096897'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096971'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096972'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096973'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096969'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096970'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096968'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096962'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Breeder */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096963'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Breeder */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096964'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Breeder */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096958'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096959'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096960'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096961'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096948'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096949'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096950'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096917'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096918'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096919'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096901'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096902'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096903'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096953'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096954'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096955'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096956'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096957'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096933'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096934'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096944'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096945'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096946'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096947'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096889'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096888'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096890'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096898'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096879'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096877'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096887'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096878'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096914'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096899'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096915'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096935'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096936'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096937'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096938'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096916'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raider */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096900'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096904'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096905'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096906'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096907'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096891'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096892'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096881'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096882'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096883'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Raver */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096965'; /* Linkable Monster Generator ( 3 Min.) <- Young Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096966'; /* Linkable Monster Generator ( 3 Min.) <- Young Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096967'; /* Linkable Monster Generator ( 3 Min.) <- Young Banderling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096921'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096922'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Scout */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880096860'; /* Linkable Monster Gen (15 min.) <- Mosswart Chief */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880096874'; /* Linkable Monster Gen (15 min.) <- Banderling Captain */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880096875'; /* Linkable Monster Gen (15 min.) <- Banderling Breeder */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880096876'; /* Linkable Monster Gen (15 min.) <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096770'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096771'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096772'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096768'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096769'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096778'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096779'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096776'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096777'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096809'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096807'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096811'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096808'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096810'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096812'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096813'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096816'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096817'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096833'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096834'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096835'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096836'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096843'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096844'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096837'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096838'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096842'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096845'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096846'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096839'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096840'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096841'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096847'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096848'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096849'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096871'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096872'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096873'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096861'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096862'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096870'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096854'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096868'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096869'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096864'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096865'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096866'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096867'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096857'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096859'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096858'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096806'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096814'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096815'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096819'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096818'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096820'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096821'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096822'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096823'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096824'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096825'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096831'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096832'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096827'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096828'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096829'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096830'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096792'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096793'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096794'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096804'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096785'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096797'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096798'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096795'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096796'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096805'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096786'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096801'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096802'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096803'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096782'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096783'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096784'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096799'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096800'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096780'; /* linkmonstergen3minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096781'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096788'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096789'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096790'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096791'; /* linkmonstergen3minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096852'; /* linkmonstergen3minutes <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096853'; /* linkmonstergen3minutes <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096984'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096985'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096982'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096983'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096980'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096981'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096976'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096977'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096978'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096979'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096988'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096974'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096975'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096989'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096990'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096986'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096987'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096851'; /* linkmonstergen3minutes <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096850'; /* linkmonstergen3minutes <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096908'; /* linkmonstergen3minutes <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096909'; /* linkmonstergen3minutes <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096910'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096923'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096924'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096939'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096911'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096925'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096926'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096951'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096952'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096940'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096912'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096913'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096927'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096928'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096893'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096894'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096941'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096942'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096943'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096929'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096930'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096931'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096932'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096885'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096886'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096895'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096896'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096897'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096971'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096972'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096973'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096969'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096970'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096968'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096962'; /* linkmonstergen3minutes <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096963'; /* linkmonstergen3minutes <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096964'; /* linkmonstergen3minutes <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096958'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096959'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096960'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096961'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096948'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096949'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096950'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096917'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096918'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096919'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096901'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096902'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096903'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096953'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096954'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096955'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096956'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096957'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096933'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096934'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096944'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096945'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096946'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096947'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096889'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096888'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096890'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096898'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096879'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096877'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096887'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096878'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096914'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096899'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096915'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096935'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096936'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096937'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096938'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096916'; /* linkmonstergen3minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096900'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096904'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096905'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096906'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096907'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096891'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096892'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096881'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096882'; /* linkmonstergen3minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096883'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096965'; /* linkmonstergen3minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096966'; /* linkmonstergen3minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096967'; /* linkmonstergen3minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096921'; /* linkmonstergen3minutes <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880096922'; /* linkmonstergen3minutes <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880096860'; /* linkmonstergen15minutes <- Mosswart Chief */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880096874'; /* linkmonstergen15minutes <- Banderling Captain */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880096875'; /* linkmonstergen15minutes <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880096876'; /* linkmonstergen15minutes <- Banderling Breeder */
 

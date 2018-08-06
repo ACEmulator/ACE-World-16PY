@@ -7,7 +7,7 @@ VALUES (7, 1880514560, 23462150, 153.407, -84.0948, 0.012216, -0.993756, 0, 0, -
      , (7, 1880514565, 23462165, 33.2988, -81.2448, 12.0033, -0.967599, 0, 0, -0.252491) /* Drudge Skulker */
      , (7, 1880514566, 23462165, 31.4466, -80.8141, 12.0033, -0.983235, 0, 0, -0.182343) /* Drudge Skulker */
      , (278, 1880514567, 23462171, 45.25, -80, 12, 0.695286, 0, 0, -0.718733) /* Door */
-     , (420, 1880514568, 23462173, 57.0172, -38.7852, 12, -4.37114E-08, 0, 0, -1) /* Item Food Generator */
+     , (420, 1880514568, 23462173, 57.0172, -38.7852, 12, -4.37114E-08, 0, 0, -1) /* itemfood-generator */
      , (7, 1880514569, 23462176, 59.9622, -49.2172, 12.0033, 0.180841, 0, 0, -0.983512) /* Drudge Skulker */
      , (7, 1880514570, 23462194, 79.9771, -70.0192, 12.0033, -0.707107, 0, 0, -0.707107) /* Drudge Skulker */
      , (278, 1880514571, 23462196, 75.245, -70, 12, -0.707107, 0, 0, -0.707107) /* Door */
@@ -26,34 +26,34 @@ VALUES (7, 1880514560, 23462150, 153.407, -84.0948, 0.012216, -0.993756, 0, 0, -
      , (298, 1880514584, 23462224, 141.407, -60.2508, 12, -0.998747, 0, 0, -0.0500497) /* Pressure Plate */
      , (940, 1880514585, 23462224, 136.711, -57.4836, 12.0042, 0.306733, 0, 0, -0.951796) /* Drudge Sneaker */
      , (4932, 1880514586, 23462231, -3.14275, -29.8196, 18, 0.707107, 0, 0, -0.707107) /* Surface Portal */
-     , (5485, 1880514587, 23462235, 10, -40, 18, -4.37114E-08, 0, 0, -1) /* Linkable Newbie Monster Generator */
+     , (5485, 1880514587, 23462235, 10, -40, 18, -4.37114E-08, 0, 0, -1) /* linknewbiemonstergen */
      , (8741, 1880514588, 23462235, 10.5316, -35.6207, 18.0055, -0.999975, 0, 0, 0.00702405) /* Yanshi Town Stamp */
-     , (5085, 1880514589, 23462235, 11.0632, -39.8643, 18.005, -1, 0, 0, -0.000448956) /* Linkable Item Gen - 25 seconds */
+     , (5085, 1880514589, 23462235, 11.0632, -39.8643, 18.005, -1, 0, 0, -0.000448956) /* linkitemgen25seconds */
      , (7, 1880514590, 23462267, 58.1569, -1.70011, 18.0033, 1, 0, 0, 0) /* Drudge Skulker */
      , (7, 1880514591, 23462267, 61.9033, -0.266536, 18.0033, 1, 0, 0, 0) /* Drudge Skulker */
      , (1921, 1880514592, 23462272, 70.9577, -5.45957, 18, 0.684387, 0, 0, -0.729119) /* Chest */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880514587'; /* Linkable Newbie Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880514587'; /* linknewbiemonstergen */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880514583'; /* Magic trap */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880514589'; /* Linkable Item Gen - 25 seconds */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880514589'; /* linkitemgen25seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514560'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514564'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514561'; /* Linkable Newbie Monster Generator <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514574'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514575'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514576'; /* Linkable Newbie Monster Generator <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514569'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514570'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514572'; /* Linkable Newbie Monster Generator <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514573'; /* Linkable Newbie Monster Generator <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514565'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514566'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514590'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514591'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514578'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514585'; /* Linkable Newbie Monster Generator <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514580'; /* Linkable Newbie Monster Generator <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514560'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514564'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514561'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514574'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514575'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514576'; /* linknewbiemonstergen <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514569'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514570'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514572'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514573'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514565'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514566'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514590'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514591'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514578'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514585'; /* linknewbiemonstergen <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880514580'; /* linknewbiemonstergen <- Drudge Slinker */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880514584'; /* Magic trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880514588'; /* Linkable Item Gen - 25 seconds <- Yanshi Town Stamp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880514588'; /* linkitemgen25seconds <- Yanshi Town Stamp */
 

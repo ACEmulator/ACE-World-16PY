@@ -5,9 +5,9 @@ VALUES (14889, 1966530560, 1399718145, -0.461765, -94.401, -113.995, 0.375868, 0
      , (14873, 1966530626, 1399718157, 10.2192, -91.3946, -113.995, 0.752672, 0, 0, -0.658395) /* Altered Olthoi */
      , (14873, 1966530627, 1399718159, 11.9415, -97.7266, -113.995, 0.907021, 0, 0, -0.421085) /* Altered Olthoi */
      , (14873, 1966530562, 1399718170, 16.6644, -89.5258, -113.995, 0.648651, 0, 0, -0.761086) /* Altered Olthoi */
-     , (5086, 1966530628, 1399718170, 17.9035, -91.6553, -113.995, 0.648651, 0, 0, -0.761086) /* Linkable Monster Gen - 30 sec. */
+     , (5086, 1966530628, 1399718170, 17.9035, -91.6553, -113.995, 0.648651, 0, 0, -0.761086) /* linkmonstergen30seconds */
      , (14874, 1966530563, 1399718180, 26.894, -83.097, -113.995, -0.925765, 0, 0, 0.3781) /* Augmented Olthoi */
-     , (7923, 1966530564, 1399718186, 32.558, -88.2067, -113.995, -0.705446, 0, 0, 0.708763) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1966530564, 1399718186, 32.558, -88.2067, -113.995, -0.705446, 0, 0, 0.708763) /* linkmonstergen3minutes */
      , (14872, 1966530565, 1399718188, 30.2714, -91.0509, -113.995, -0.705446, 0, 0, 0.708763) /* Altered Olthoi */
      , (14872, 1966530566, 1399718188, 29.9905, -87.8173, -113.995, -0.705446, 0, 0, 0.708763) /* Altered Olthoi */
      , (14874, 1966530567, 1399718190, 27.1332, -96.9801, -113.995, -0.43737, 0, 0, 0.899282) /* Augmented Olthoi */
@@ -65,74 +65,74 @@ VALUES (14889, 1966530560, 1399718145, -0.461765, -94.401, -113.995, 0.375868, 0
      , (238, 1966530619, 1399718443, 39.1821, -42.0525, -23.971, 0.62161, 0, 0, -0.783327) /* Virindi Puppet */
      , (238, 1966530620, 1399718447, 40.0322, -58.8965, -23.971, 0.696707, 0, 0, -0.717356) /* Virindi Puppet */
      , (237, 1966530621, 1399718447, 39.9858, -60.4854, -23.971, 0.696707, 0, 0, -0.717356) /* Virindi Master */
-     , (7924, 1966530622, 1399718486, 90, -50, -23.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1966530622, 1399718486, 90, -50, -23.995, 1, 0, 0, 0) /* linkmonstergen5minutes */
      , (14889, 1966530623, 1399718486, 86.5016, -47.0359, -23.995, 0.930508, 0, 0, 0.366273) /* Surface */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1966530622'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1966530564'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1966530628'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1966530622'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1966530564'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1966530628'; /* linkmonstergen30seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530618'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530619'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Puppet */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530620'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Puppet */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530621'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530606'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530607'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530608'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530612'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530613'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530614'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530609'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530610'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530611'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum Magician */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530615'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum Magician */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530616'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530617'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530601'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530602'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530600'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530595'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530596'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530597'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530603'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530604'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530605'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum Magician */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530598'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum Magician */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530599'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530593'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530585'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530586'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Puppet */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530594'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Puppet */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530587'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530588'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530589'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530590'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530591'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530592'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530579'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530580'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530581'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530582'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530583'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530584'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530570'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530571'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530572'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530574'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530575'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530576'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530577'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum Magician */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530578'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum Magician */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530573'; /* Linkable Monster Generator ( 5 Min.) <- Martinate Simulacrum Magician */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966530565'; /* Linkable Monster Generator ( 3 Min.) <- Altered Olthoi */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966530566'; /* Linkable Monster Generator ( 3 Min.) <- Altered Olthoi */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966530563'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Olthoi */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966530567'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Olthoi */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966530569'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966530568'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1966530562'; /* Linkable Monster Gen - 30 sec. <- Altered Olthoi */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1966530627'; /* Linkable Monster Gen - 30 sec. <- Altered Olthoi */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1966530625'; /* Linkable Monster Gen - 30 sec. <- Altered Olthoi */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1966530626'; /* Linkable Monster Gen - 30 sec. <- Altered Olthoi */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1966530624'; /* Linkable Monster Gen - 30 sec. <- Altered Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530618'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530619'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530620'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530621'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530606'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530607'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530608'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530612'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530613'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530614'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530609'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530610'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530611'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530615'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530616'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530617'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530601'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530602'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530600'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530595'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530596'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530597'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530603'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530604'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530605'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530598'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530599'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530593'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530585'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530586'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530594'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530587'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530588'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530589'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530590'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530591'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530592'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530579'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530580'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530581'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530582'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530583'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530584'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530570'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530571'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530572'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530574'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530575'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530576'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530577'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530578'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966530573'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966530565'; /* linkmonstergen3minutes <- Altered Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966530566'; /* linkmonstergen3minutes <- Altered Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966530563'; /* linkmonstergen3minutes <- Augmented Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966530567'; /* linkmonstergen3minutes <- Augmented Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966530569'; /* linkmonstergen3minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1966530568'; /* linkmonstergen3minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1966530562'; /* linkmonstergen30seconds <- Altered Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1966530627'; /* linkmonstergen30seconds <- Altered Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1966530625'; /* linkmonstergen30seconds <- Altered Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1966530626'; /* linkmonstergen30seconds <- Altered Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1966530624'; /* linkmonstergen30seconds <- Altered Olthoi */
 

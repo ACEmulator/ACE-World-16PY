@@ -10,19 +10,19 @@ VALUES (25723, 2121547776, 3879993344, 149.79, 54.0383, 33.5018, -0.928481, 0, 0
      , (25723, 2121547784, 3879993344, 107.824, 91.2596, 32.9903, 0.103324, 0, 0, -0.994648) /* Tree */
      , (25723, 2121547785, 3879993344, 93.9643, 112.91, 32.1746, 0.658736, 0, 0, 0.752374) /* Tree */
      , (25723, 2121547786, 3879993344, 84.2545, 75.4328, 32.005, 0.667129, 0, 0, 0.744942) /* Tree */
-     , (7924, 2121547787, 3879993344, 84.942, 79.179, 32.005, -0.640118, 0, 0, 0.768277) /* Linkable Monster Generator ( 5 Min.) */;
+     , (7924, 2121547787, 3879993344, 84.942, 79.179, 32.005, -0.640118, 0, 0, 0.768277) /* linkmonstergen5minutes */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2121547787'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2121547787'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547776'; /* Linkable Monster Generator ( 5 Min.) <- Tree */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547777'; /* Linkable Monster Generator ( 5 Min.) <- Tree */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547778'; /* Linkable Monster Generator ( 5 Min.) <- Tree */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547779'; /* Linkable Monster Generator ( 5 Min.) <- Tree */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547780'; /* Linkable Monster Generator ( 5 Min.) <- Tree */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547781'; /* Linkable Monster Generator ( 5 Min.) <- Tree */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547782'; /* Linkable Monster Generator ( 5 Min.) <- Tree */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547783'; /* Linkable Monster Generator ( 5 Min.) <- Tree */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547784'; /* Linkable Monster Generator ( 5 Min.) <- Tree */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547785'; /* Linkable Monster Generator ( 5 Min.) <- Tree */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547786'; /* Linkable Monster Generator ( 5 Min.) <- Tree */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547776'; /* linkmonstergen5minutes <- Tree */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547777'; /* linkmonstergen5minutes <- Tree */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547778'; /* linkmonstergen5minutes <- Tree */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547779'; /* linkmonstergen5minutes <- Tree */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547780'; /* linkmonstergen5minutes <- Tree */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547781'; /* linkmonstergen5minutes <- Tree */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547782'; /* linkmonstergen5minutes <- Tree */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547783'; /* linkmonstergen5minutes <- Tree */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547784'; /* linkmonstergen5minutes <- Tree */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547785'; /* linkmonstergen5minutes <- Tree */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121547786'; /* linkmonstergen5minutes <- Tree */
 

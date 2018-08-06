@@ -6,16 +6,16 @@ VALUES (232, 2008453120, 2070478848, 0.690943, 13.7573, 0.858554, -0.576653, 0, 
      , (233, 2008453124, 2070478848, 9.28777, 6.77784, 1.44068, 0.953244, 0, 0, 0.302203) /* Tumerok Warrior */
      , (2439, 2008453125, 2070478848, 4.63329, 6.24077, 1.48544, 0.976333, 0, 0, -0.216274) /* Tumerok Fighter */
      , (2439, 2008453126, 2070478848, 1.00325, 7.93199, 1.3445, 0.913904, 0, 0, -0.40593) /* Tumerok Fighter */
-     , (7925, 2008453127, 2070478848, 8.18566, 12.756, 0.942, -0.800168, 0, 0, 0.599776) /* Linkable Monster Generator ( 10 Min.) */
+     , (7925, 2008453127, 2070478848, 8.18566, 12.756, 0.942, -0.800168, 0, 0, 0.599776) /* linkmonstergen10minutes */
      , (26627, 2008453128, 2070478848, 3.56929, 12.8601, 0.935192, 0.318773, 0, 0, -0.947831) /* Runed Chest */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2008453127'; /* Linkable Monster Generator ( 10 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2008453127'; /* linkmonstergen10minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453122'; /* Linkable Monster Generator ( 10 Min.) <- Tumerok Fighter */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453123'; /* Linkable Monster Generator ( 10 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453124'; /* Linkable Monster Generator ( 10 Min.) <- Tumerok Warrior */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453125'; /* Linkable Monster Generator ( 10 Min.) <- Tumerok Fighter */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453126'; /* Linkable Monster Generator ( 10 Min.) <- Tumerok Fighter */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453120'; /* Linkable Monster Generator ( 10 Min.) <- Tumerok Scout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453121'; /* Linkable Monster Generator ( 10 Min.) <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453122'; /* linkmonstergen10minutes <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453123'; /* linkmonstergen10minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453124'; /* linkmonstergen10minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453125'; /* linkmonstergen10minutes <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453126'; /* linkmonstergen10minutes <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453120'; /* linkmonstergen10minutes <- Tumerok Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008453121'; /* linkmonstergen10minutes <- Tumerok Fighter */
 

@@ -7,16 +7,16 @@ VALUES (9417, 2049040393, 2719875330, 146.6, 40.4578, 578.01, -0.28363, 0, 0, -0
      , (27096, 2049040396, 2719875481, 136.06, 136.225, 577.005, -0.558915, 0, 0, -0.829225) /* Lugian Lifestone */
      , (9416, 2049040392, 2719875488, 141.253, 114.643, 585.01, 0.348913, 0, 0, 0.937155) /* Omerik the Bowyer */
      , (9467, 2049040384, 2719875072, 127.215, 49.6755, 565.01, -0.883203, 0, 0, -0.46899) /* Aurutis */
-     , (3955, 2049040385, 2719875072, 128.21, 47.9667, 565.005, 0.874153, 0, 0, -0.485651) /* Linkable Monster Gen (15 min.) */
+     , (3955, 2049040385, 2719875072, 128.21, 47.9667, 565.005, 0.874153, 0, 0, -0.485651) /* linkmonstergen15minutes */
      , (9410, 2049040386, 2719875072, 75.7615, 129.583, 560.162, -0.89607, 0, 0, -0.443913) /* Outside Linvak Tukal */
      , (28515, 2049040397, 2719875072, 77.4115, 50.9697, 560.322, -0.192543, 0, 0, 0.981288) /* Captain K'rank */
-     , (28460, 2049040398, 2719875072, 91.4526, 50.558, 560.267, -0.454417, 0, 0, -0.890789) /* Morgluuk's Head Gen */
+     , (28460, 2049040398, 2719875072, 91.4526, 50.558, 560.267, -0.454417, 0, 0, -0.890789) /* generatormorgluukheadlinvak */
      , (9406, 2049040390, 2719875072, 89.1623, 86.0302, 611.055, 0.654336, 0, 0, -0.756204) /* Lord Kresovus */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2049040385'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2049040385'; /* linkmonstergen15minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2049040384'; /* Linkable Monster Gen (15 min.) <- Aurutis */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2049040390'; /* Linkable Monster Gen (15 min.) <- Lord Kresovus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2049040394'; /* Linkable Monster Gen (15 min.) <- Master Ulkas */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2049040397'; /* Linkable Monster Gen (15 min.) <- Captain K'rank */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2049040384'; /* linkmonstergen15minutes <- Aurutis */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2049040390'; /* linkmonstergen15minutes <- Lord Kresovus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2049040394'; /* linkmonstergen15minutes <- Master Ulkas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2049040397'; /* linkmonstergen15minutes <- Captain K'rank */
 

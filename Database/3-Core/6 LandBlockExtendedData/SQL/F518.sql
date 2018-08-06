@@ -2,14 +2,14 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (7183, 2136047616, 4111991040, 133.516, 129.101, 133.59, 0.254337, 0, 0, 0.967116) /* Jungle Phyntos Wasp */
      , (7183, 2136047617, 4111991040, 131.301, 129.395, 133.738, -0.0448038, 0, 0, 0.998996) /* Jungle Phyntos Wasp */
      , (3993, 2136047618, 4111991045, 130.095, 138.578, 132.677, -0.99249, 0, 0, -0.122326) /* Chest */
-     , (5086, 2136047645, 4111990784, 174.481, 169.478, 180.005, 0.696734, 0, 0, 0.717329) /* Linkable Monster Gen - 30 sec. */
+     , (5086, 2136047645, 4111990784, 174.481, 169.478, 180.005, 0.696734, 0, 0, 0.717329) /* linkmonstergen30seconds */
      , (14923, 2136047644, 4111990784, 172.33, 179.718, 180.005, -0.702393, 0, 0, 0.711789) /* Grand Sentinel Ehcac */
-     , (7924, 2136047643, 4111990784, 83.9218, 77.194, 130.496, 0.984864, 0, 0, -0.173329) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 2136047643, 4111990784, 83.9218, 77.194, 130.496, 0.984864, 0, 0, -0.173329) /* linkmonstergen5minutes */
      , (7183, 2136047619, 4111990784, 138.827, 134.389, 142.236, 0.569146, 0, 0, -0.822236) /* Jungle Phyntos Wasp */
      , (7183, 2136047620, 4111990784, 138.009, 132.156, 142.671, 0.709508, 0, 0, -0.704697) /* Jungle Phyntos Wasp */
      , (7183, 2136047621, 4111990784, 133.979, 130.39, 143.537, -0.45357, 0, 0, -0.891221) /* Jungle Phyntos Wasp */
      , (7183, 2136047622, 4111990784, 129.114, 134.621, 143.363, -0.44946, 0, 0, -0.8933) /* Jungle Phyntos Wasp */
-     , (7925, 2136047623, 4111990784, 136.515, 112.962, 129.905, 0.959456, 0, 0, 0.281858) /* Linkable Monster Generator ( 10 Min.) */
+     , (7925, 2136047623, 4111990784, 136.515, 112.962, 129.905, 0.959456, 0, 0, 0.281858) /* linkmonstergen10minutes */
      , (7988, 2136047624, 4111990784, 62.161, 99.2247, 129.555, -0.909656, 0, 0, -0.415362) /* Sephal Niffis */
      , (7988, 2136047625, 4111990784, 86.2216, 104.218, 129.555, -0.804673, 0, 0, 0.593719) /* Sephal Niffis */
      , (7988, 2136047626, 4111990784, 86.1749, 99.3682, 129.555, -0.0242096, 0, 0, 0.999707) /* Sephal Niffis */
@@ -30,34 +30,34 @@ VALUES (7183, 2136047616, 4111991040, 133.516, 129.101, 133.59, 0.254337, 0, 0, 
      , (7986, 2136047641, 4111990784, 110.484, 85.4844, 129.105, -0.787999, 0, 0, 0.615676) /* Glissnal Niffis */
      , (7988, 2136047642, 4111990784, 90.0494, 75.7047, 129.105, 0.530435, 0, 0, 0.847725) /* Sephal Niffis */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2136047623'; /* Linkable Monster Generator ( 10 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2136047643'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2136047645'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2136047623'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2136047643'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2136047645'; /* linkmonstergen30seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047616'; /* Linkable Monster Generator ( 10 Min.) <- Jungle Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047617'; /* Linkable Monster Generator ( 10 Min.) <- Jungle Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047619'; /* Linkable Monster Generator ( 10 Min.) <- Jungle Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047620'; /* Linkable Monster Generator ( 10 Min.) <- Jungle Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047621'; /* Linkable Monster Generator ( 10 Min.) <- Jungle Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047622'; /* Linkable Monster Generator ( 10 Min.) <- Jungle Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047624'; /* Linkable Monster Generator ( 5 Min.) <- Sephal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047625'; /* Linkable Monster Generator ( 5 Min.) <- Sephal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047626'; /* Linkable Monster Generator ( 5 Min.) <- Sephal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047627'; /* Linkable Monster Generator ( 5 Min.) <- Opor Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047628'; /* Linkable Monster Generator ( 5 Min.) <- Opor Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047629'; /* Linkable Monster Generator ( 5 Min.) <- Glissnal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047630'; /* Linkable Monster Generator ( 5 Min.) <- Glissnal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047631'; /* Linkable Monster Generator ( 5 Min.) <- Glissnal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047632'; /* Linkable Monster Generator ( 5 Min.) <- Listris Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047633'; /* Linkable Monster Generator ( 5 Min.) <- Parfal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047634'; /* Linkable Monster Generator ( 5 Min.) <- Parfal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047635'; /* Linkable Monster Generator ( 5 Min.) <- Parfal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047636'; /* Linkable Monster Generator ( 5 Min.) <- Listris Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047637'; /* Linkable Monster Generator ( 5 Min.) <- Glissnal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047638'; /* Linkable Monster Generator ( 5 Min.) <- Opor Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047639'; /* Linkable Monster Generator ( 5 Min.) <- Opor Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047640'; /* Linkable Monster Generator ( 5 Min.) <- Opor Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047641'; /* Linkable Monster Generator ( 5 Min.) <- Glissnal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047642'; /* Linkable Monster Generator ( 5 Min.) <- Sephal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2136047644'; /* Linkable Monster Gen - 30 sec. <- Grand Sentinel Ehcac */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047616'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047617'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047619'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047620'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047621'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047622'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047624'; /* linkmonstergen5minutes <- Sephal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047625'; /* linkmonstergen5minutes <- Sephal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047626'; /* linkmonstergen5minutes <- Sephal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047627'; /* linkmonstergen5minutes <- Opor Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047628'; /* linkmonstergen5minutes <- Opor Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047629'; /* linkmonstergen5minutes <- Glissnal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047630'; /* linkmonstergen5minutes <- Glissnal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047631'; /* linkmonstergen5minutes <- Glissnal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047632'; /* linkmonstergen5minutes <- Listris Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047633'; /* linkmonstergen5minutes <- Parfal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047634'; /* linkmonstergen5minutes <- Parfal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047635'; /* linkmonstergen5minutes <- Parfal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047636'; /* linkmonstergen5minutes <- Listris Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047637'; /* linkmonstergen5minutes <- Glissnal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047638'; /* linkmonstergen5minutes <- Opor Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047639'; /* linkmonstergen5minutes <- Opor Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047640'; /* linkmonstergen5minutes <- Opor Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047641'; /* linkmonstergen5minutes <- Glissnal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047642'; /* linkmonstergen5minutes <- Sephal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2136047644'; /* linkmonstergen30seconds <- Grand Sentinel Ehcac */
 

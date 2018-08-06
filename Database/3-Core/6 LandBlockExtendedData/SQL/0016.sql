@@ -2,12 +2,12 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (30692, 1879138304, 1442048, 10, -10, -30, -4.37114E-08, 0, 0, -1) /* Surface */
      , (30687, 1879138305, 1442050, 19.4494, -13.741, -29.989, 0, 0, 0, -1) /* Withered Revered Tumerok Shaman */
      , (286, 1879138306, 1442050, 21.3053, -13.8755, -28.4831, 0.793884, 0, 0, -0.608069) /* Lever */
-     , (1460, 1879138307, 1442052, 1.70218, -11.9764, -24, 0, 0, 0, -1) /* Food Heal Gen */
+     , (1460, 1879138307, 1442052, 1.70218, -11.9764, -24, 0, 0, 0, -1) /* itemfoodhealgen */
      , (30687, 1879138308, 1442053, 1.45622, -16.0147, -23.989, 0.39895, 0, 0, -0.916973) /* Withered Revered Tumerok Shaman */
      , (30683, 1879138361, 1442055, 0.591166, -56.2753, -23.9929, 0.89401, 0, 0, -0.448047) /* Withered Banderling Hierophant */
      , (30687, 1879138309, 1442057, 10.2853, -16.0199, -23.989, 0.036863, 0, 0, -0.99932) /* Withered Revered Tumerok Shaman */
      , (30688, 1879138310, 1442057, 7.42612, -19.0895, -23.9923, 0.346774, 0, 0, -0.937949) /* Withered Revered Tumerok Shaman */
-     , (7923, 1879138311, 1442057, 6.49319, -19.8886, -23.995, 0.346774, 0, 0, -0.937949) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879138311, 1442057, 6.49319, -19.8886, -23.995, 0.346774, 0, 0, -0.937949) /* linkmonstergen3minutes */
      , (2179, 1879138312, 1442059, 14.6357, -29.9725, -24, 0.707107, 0, 0, -0.707107) /* Door */
      , (30687, 1879138313, 1442060, 10.8906, -43.9709, -23.989, -0.352247, 0, 0, -0.935907) /* Withered Revered Tumerok Shaman */
      , (30687, 1879138314, 1442065, 17.1673, -30.021, -23.989, -0.692851, 0, 0, -0.72108) /* Withered Revered Tumerok Shaman */
@@ -31,12 +31,12 @@ VALUES (30692, 1879138304, 1442048, 10, -10, -30, -4.37114E-08, 0, 0, -1) /* Sur
      , (278, 1879138330, 1442106, 4.755, -50, -12, 0.707107, 0, 0, -0.707107) /* Door */
      , (3979, 1879138331, 1442107, -1.7525, -56.0875, -11.9875, -1, 0, 0, 0) /* Chest */
      , (30683, 1879138332, 1442107, 0.361152, -59.9333, -11.9929, 0.707107, 0, 0, -0.707107) /* Withered Banderling Hierophant */
-     , (794, 1879138333, 1442107, -2.12488, -63.4344, -12, 0.83262, 0, 0, -0.553845) /* Apple Generator */
+     , (794, 1879138333, 1442107, -2.12488, -63.4344, -12, 0.83262, 0, 0, -0.553845) /* applegenerator */
      , (278, 1879138334, 1442109, 4.755, -60, -12, 0.707107, 0, 0, -0.707107) /* Door */
      , (2179, 1879138335, 1442117, 14.75, -40, -12, 0.707107, 0, 0, -0.707107) /* Door */
      , (30683, 1879138364, 1442118, 10, -50, -11.9929, 1, 0, 0, 0) /* Withered Banderling Hierophant */
      , (30683, 1879138336, 1442120, 10.8972, -64.139, -11.9929, -0.707107, 0, 0, -0.707107) /* Withered Banderling Hierophant */
-     , (1460, 1879138337, 1442125, 20, -10, -12, -0.66466, 0, 0, -0.747146) /* Food Heal Gen */
+     , (1460, 1879138337, 1442125, 20, -10, -12, -0.66466, 0, 0, -0.747146) /* itemfoodhealgen */
      , (30685, 1879138338, 1442126, 16.5256, -10.9872, -11.9458, -0.707107, 0, 0, -0.707107) /* Withered Banderling Paragon */
      , (30685, 1879138339, 1442126, 17.867, -10.0033, -11.9465, -0.707107, 0, 0, -0.707107) /* Withered Banderling Paragon */
      , (30683, 1879138365, 1442145, 30, -40, -11.9929, 1, 0, 0, 0) /* Withered Banderling Hierophant */
@@ -59,55 +59,55 @@ VALUES (30692, 1879138304, 1442048, 10, -10, -30, -4.37114E-08, 0, 0, -1) /* Sur
      , (1929, 1879138354, 1442220, 23.3793, -23.6069, 6, -0.018435, 0, 0, -0.99983) /* Chest */
      , (30685, 1879138355, 1442220, 22.6059, -17.9987, 6.00825, -0.886809, 0, 0, -0.462136) /* Withered Banderling Paragon */
      , (30685, 1879138356, 1442220, 17.504, -18.391, 6.00825, 0.968148, 0, 0, -0.250379) /* Withered Banderling Paragon */
-     , (7923, 1879138368, 1442220, 20, -20, 6.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879138368, 1442220, 20, -20, 6.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (30683, 1879138357, 1442237, 28.008, -70.0358, 6.00715, 0.707107, 0, 0, -0.707107) /* Withered Banderling Hierophant */
      , (30692, 1879138358, 1442254, 19.9454, -63.6429, 12, 0.976249, 0, 0, -0.216653) /* Surface */
-     , (7923, 1879138359, 1442254, 20, -60, 12, -0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879138359, 1442254, 20, -60, 12, -0.707107, 0, 0, -0.707107) /* linkmonstergen3minutes */
      , (30683, 1879138369, 1442255, 28.1633, -32.8427, 12.0071, -0.467036, 0, 0, 0.884238) /* Withered Banderling Hierophant */
      , (30683, 1879138360, 1442260, 39.0199, -45.8829, 12.0071, 0.406537, 0, 0, -0.913634) /* Withered Banderling Hierophant */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879138359'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879138359'; /* linkmonstergen3minutes */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879138312'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879138335'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879138340'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1879138311'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1879138368'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1879138311'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1879138368'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138355'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Paragon */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138356'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Paragon */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138308'; /* Linkable Monster Generator ( 3 Min.) <- Withered Revered Tumerok Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138329'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138332'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138324'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138325'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138342'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Paragon */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138347'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Paragon */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138341'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138309'; /* Linkable Monster Generator ( 3 Min.) <- Withered Revered Tumerok Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138313'; /* Linkable Monster Generator ( 3 Min.) <- Withered Revered Tumerok Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138305'; /* Linkable Monster Generator ( 3 Min.) <- Withered Revered Tumerok Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138315'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138323'; /* Linkable Monster Generator ( 3 Min.) <- Withered Revered Tumerok Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138317'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138318'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138319'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138338'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Paragon */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138339'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Paragon */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138357'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138352'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138336'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138360'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138314'; /* Linkable Monster Generator ( 3 Min.) <- Withered Revered Tumerok Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138355'; /* linkmonstergen3minutes <- Withered Banderling Paragon */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138356'; /* linkmonstergen3minutes <- Withered Banderling Paragon */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138308'; /* linkmonstergen3minutes <- Withered Revered Tumerok Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138329'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138332'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138324'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138325'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138342'; /* linkmonstergen3minutes <- Withered Banderling Paragon */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138347'; /* linkmonstergen3minutes <- Withered Banderling Paragon */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138341'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138309'; /* linkmonstergen3minutes <- Withered Revered Tumerok Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138313'; /* linkmonstergen3minutes <- Withered Revered Tumerok Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138305'; /* linkmonstergen3minutes <- Withered Revered Tumerok Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138315'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138323'; /* linkmonstergen3minutes <- Withered Revered Tumerok Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138317'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138318'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138319'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138338'; /* linkmonstergen3minutes <- Withered Banderling Paragon */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138339'; /* linkmonstergen3minutes <- Withered Banderling Paragon */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138357'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138352'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138336'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138360'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879138314'; /* linkmonstergen3minutes <- Withered Revered Tumerok Shaman */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879138306'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879138344'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879138327'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879138310'; /* Linkable Monster Generator ( 3 Min.) <- Withered Revered Tumerok Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138369'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138364'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138365'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138367'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138366'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138361'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138363'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138362'; /* Linkable Monster Generator ( 3 Min.) <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879138310'; /* linkmonstergen3minutes <- Withered Revered Tumerok Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138369'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138364'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138365'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138367'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138366'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138361'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138363'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879138362'; /* linkmonstergen3minutes <- Withered Banderling Hierophant */
 

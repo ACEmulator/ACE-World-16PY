@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4261, 2135003136, 4095279104, 124.345, 7.64768, 99.555, 0.196458, 0, 0, 0.980512) /* Slithayr Eye Stalk */
-     , (7925, 2135003137, 4095279104, 121.997, 8.54121, 99.555, 0.0726797, 0, 0, 0.997355) /* Linkable Monster Generator ( 10 Min.) */
-     , (4219, 2135003138, 4095279104, 138.313, 124.633, 0.391116, 0.734907, 0, 0, 0.678168) /* Linkable Monster Generator ( 7 Min.) */
+     , (7925, 2135003137, 4095279104, 121.997, 8.54121, 99.555, 0.0726797, 0, 0, 0.997355) /* linkmonstergen10minutes */
+     , (4219, 2135003138, 4095279104, 138.313, 124.633, 0.391116, 0.734907, 0, 0, 0.678168) /* linkmonstergen7minutes */
      , (8470, 2135003139, 4095279104, 155.067, 78.7603, -0.895, -0.502622, 0, 0, 0.864506) /* Sulthis Eye Stalk */
      , (8470, 2135003140, 4095279104, 127.588, 74.5644, -0.895, 0.742213, 0, 0, 0.670164) /* Sulthis Eye Stalk */
      , (8470, 2135003141, 4095279104, 134.407, 94.8911, -0.895, 0.906148, 0, 0, 0.42296) /* Sulthis Eye Stalk */
@@ -19,7 +19,7 @@ VALUES (4261, 2135003136, 4095279104, 124.345, 7.64768, 99.555, 0.196458, 0, 0, 
      , (7988, 2135003153, 4095279104, 108.346, 75.8302, -0.895, -0.697464, 0, 0, 0.71662) /* Sephal Niffis */
      , (7988, 2135003154, 4095279104, 118.978, 89.0725, -0.895, -0.0820816, 0, 0, -0.996626) /* Sephal Niffis */
      , (7988, 2135003155, 4095279104, 163.128, 95.9519, -0.895, 0.723937, 0, 0, -0.689866) /* Sephal Niffis */
-     , (3954, 2135003156, 4095279104, 139.477, 122.403, 0.205265, 0.985539, 0, 0, 0.169446) /* Linkable Item Gen (15 min.) */
+     , (3954, 2135003156, 4095279104, 139.477, 122.403, 0.205265, 0.985539, 0, 0, 0.169446) /* linkitemgen15minutes */
      , (5408, 2135003157, 4095279104, 187.659, 76.1639, -0.095, -0.692156, 0, 0, 0.721748) /* Waterfall */
      , (5408, 2135003158, 4095279104, 187.563, 83.8919, -0.095, -0.692156, 0, 0, 0.721748) /* Waterfall */
      , (5408, 2135003159, 4095279104, 187.322, 68.2549, -0.095, -0.720816, 0, 0, 0.693126) /* Waterfall */
@@ -43,26 +43,26 @@ VALUES (4261, 2135003136, 4095279104, 124.345, 7.64768, 99.555, 0.196458, 0, 0, 
      , (8580, 2135003177, 4095279104, 124.73, 56.9538, -0.095, -0.0122585, 0, 0, 0.999925) /* Waterfall */
      , (8580, 2135003178, 4095279104, 116.128, 56.9045, -0.095, -0.0122585, 0, 0, 0.999925) /* Waterfall */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2135003137'; /* Linkable Monster Generator ( 10 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2135003156'; /* Linkable Item Gen (15 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2135003138'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2135003137'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2135003156'; /* linkitemgen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2135003138'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003136'; /* Linkable Monster Generator ( 10 Min.) <- Slithayr Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003139'; /* Linkable Monster Generator ( 10 Min.) <- Sulthis Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003140'; /* Linkable Monster Generator ( 10 Min.) <- Sulthis Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003141'; /* Linkable Monster Generator ( 10 Min.) <- Sulthis Eye Stalk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003142'; /* Linkable Monster Generator ( 10 Min.) <- Island Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003143'; /* Linkable Monster Generator ( 10 Min.) <- Island Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003153'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003154'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003155'; /* Linkable Monster Generator ( 10 Min.) <- Sephal Niffis */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2135003146'; /* Linkable Item Gen (15 min.) <- Pile of Long Sticks */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2135003147'; /* Linkable Item Gen (15 min.) <- Pile of Long Sticks */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2135003148'; /* Linkable Item Gen (15 min.) <- Pile of Short Sticks */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2135003149'; /* Linkable Item Gen (15 min.) <- Pile of Short Sticks */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2135003144'; /* Linkable Monster Generator ( 7 Min.) <- Shallows Devourer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2135003145'; /* Linkable Monster Generator ( 7 Min.) <- Shallows Devourer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2135003150'; /* Linkable Monster Generator ( 7 Min.) <- Shallows Devourer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2135003151'; /* Linkable Monster Generator ( 7 Min.) <- Shallows Devourer */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2135003152'; /* Linkable Monster Generator ( 7 Min.) <- Shallows Destroyer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003136'; /* linkmonstergen10minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003139'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003140'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003141'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003142'; /* linkmonstergen10minutes <- Island Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003143'; /* linkmonstergen10minutes <- Island Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003153'; /* linkmonstergen10minutes <- Sephal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003154'; /* linkmonstergen10minutes <- Sephal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2135003155'; /* linkmonstergen10minutes <- Sephal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2135003146'; /* linkitemgen15minutes <- Pile of Long Sticks */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2135003147'; /* linkitemgen15minutes <- Pile of Long Sticks */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2135003148'; /* linkitemgen15minutes <- Pile of Short Sticks */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2135003149'; /* linkitemgen15minutes <- Pile of Short Sticks */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2135003144'; /* linkmonstergen7minutes <- Shallows Devourer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2135003145'; /* linkmonstergen7minutes <- Shallows Devourer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2135003150'; /* linkmonstergen7minutes <- Shallows Devourer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2135003151'; /* linkmonstergen7minutes <- Shallows Devourer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2135003152'; /* linkmonstergen7minutes <- Shallows Destroyer */
 

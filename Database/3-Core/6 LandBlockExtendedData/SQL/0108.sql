@@ -60,8 +60,8 @@ VALUES (2131, 1880129536, 17301760, 53.3711, -139.087, -30, 1, 0, 0, 0) /* Press
      , (948, 1880129594, 17301894, 65.038, -50.951, -11.994, -0.707107, 0, 0, -0.707107) /* Mosswart Feeder */
      , (948, 1880129595, 17301895, 66.8805, -56.3189, -11.994, -0.707107, 0, 0, -0.707107) /* Mosswart Feeder */
      , (4049, 1880129596, 17301897, 70.8271, -109.962, -9.8895, 0.707107, 0, 0, -0.707107) /* Lightning Trap */
-     , (3955, 1880129597, 17301897, 68.3598, -109.33, -12, 0.707107, 0, 0, -0.707107) /* Linkable Monster Gen (15 min.) */
-     , (3955, 1880129598, 17301897, 68.5734, -107.908, -12, 0.707107, 0, 0, -0.707107) /* Linkable Monster Gen (15 min.) */
+     , (3955, 1880129597, 17301897, 68.3598, -109.33, -12, 0.707107, 0, 0, -0.707107) /* linkmonstergen15minutes */
+     , (3955, 1880129598, 17301897, 68.5734, -107.908, -12, 0.707107, 0, 0, -0.707107) /* linkmonstergen15minutes */
      , (2131, 1880129599, 17301902, 70.0478, -116.395, -12, 0.707107, 0, 0, -0.707107) /* Pressure Plate */
      , (2131, 1880129600, 17301904, 68.5132, -131.545, -12, 0.898172, 0, 0, -0.439645) /* Pressure Plate */
      , (4075, 1880129601, 17301904, 67.1523, -130.694, -10.0155, -0.879537, 0, 0, 0.47583) /* Magic trap */
@@ -98,14 +98,14 @@ VALUES (2131, 1880129536, 17301760, 53.3711, -139.087, -30, 1, 0, 0, 0) /* Press
      , (8, 1880129632, 17302128, 90, -10, 0.0055, -0.211858, 0, 0, -0.9773) /* Creeper Mosswart */
      , (947, 1880129633, 17302138, 96.9755, -2.67112, 0.0055, 0.0956497, 0, 0, 0.995415) /* Barker Mosswart */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880129597'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880129597'; /* linkmonstergen15minutes */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880129629'; /* Lightning Trap */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880129614'; /* Acid Trap */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880129607'; /* Lightning Trap */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880129601'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880129596'; /* Lightning Trap */
 UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880129580'; /* Lightning Trap */
-UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880129598'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880129598'; /* linkmonstergen15minutes */
 UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1880129561'; /* Acid Trap */
 UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1880129566'; /* Acid Trap */
 UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1880129573'; /* Magic trap */
@@ -129,45 +129,45 @@ UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='29', `link_Controller`=True WHERE `guid`='1880129603'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='30', `link_Controller`=True WHERE `guid`='1880129563'; /* Magic trap */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129616'; /* Linkable Monster Gen (15 min.) <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129621'; /* Linkable Monster Gen (15 min.) <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129617'; /* Linkable Monster Gen (15 min.) <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129612'; /* Linkable Monster Gen (15 min.) <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129631'; /* Linkable Monster Gen (15 min.) <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129632'; /* Linkable Monster Gen (15 min.) <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129622'; /* Linkable Monster Gen (15 min.) <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129627'; /* Linkable Monster Gen (15 min.) <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129623'; /* Linkable Monster Gen (15 min.) <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129626'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129625'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129624'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129630'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129539'; /* Linkable Monster Gen (15 min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129554'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129616'; /* linkmonstergen15minutes <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129621'; /* linkmonstergen15minutes <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129617'; /* linkmonstergen15minutes <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129612'; /* linkmonstergen15minutes <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129631'; /* linkmonstergen15minutes <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129632'; /* linkmonstergen15minutes <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129622'; /* linkmonstergen15minutes <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129627'; /* linkmonstergen15minutes <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129623'; /* linkmonstergen15minutes <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129626'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129625'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129624'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129630'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129539'; /* linkmonstergen15minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880129554'; /* linkmonstergen15minutes <- Mosswart Feeder */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880129628'; /* Lightning Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880129613'; /* Acid Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880129606'; /* Lightning Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880129600'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880129599'; /* Lightning Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880129581'; /* Lightning Trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129568'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129567'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129594'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129595'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129608'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129609'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129558'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129555'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129544'; /* Linkable Monster Gen (15 min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129553'; /* Linkable Monster Gen (15 min.) <- Mosswart Feeder */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129619'; /* Linkable Monster Gen (15 min.) <- Creeper Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129611'; /* Linkable Monster Gen (15 min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129556'; /* Linkable Monster Gen (15 min.) <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129546'; /* Linkable Monster Gen (15 min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129557'; /* Linkable Monster Gen (15 min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129559'; /* Linkable Monster Gen (15 min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129615'; /* Linkable Monster Gen (15 min.) <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129633'; /* Linkable Monster Gen (15 min.) <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129568'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129567'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129594'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129595'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129608'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129609'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129558'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129555'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129544'; /* linkmonstergen15minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129553'; /* linkmonstergen15minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129619'; /* linkmonstergen15minutes <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129611'; /* linkmonstergen15minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129556'; /* linkmonstergen15minutes <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129546'; /* linkmonstergen15minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129557'; /* linkmonstergen15minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129559'; /* linkmonstergen15minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129615'; /* linkmonstergen15minutes <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880129633'; /* linkmonstergen15minutes <- Barker Mosswart */
 UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1880129562'; /* Acid Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880129565'; /* Acid Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880129572'; /* Magic trap <- Pressure Plate */

@@ -1,9 +1,9 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!" */
      , (7489, 1880186881, 18219274, 90, -160, -144, 1, 0, 0, 0) /* Surface Portal */
-     , (7352, 1880186882, 18219287, 0, -70, -72, 1, 0, 0, 0) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880186882, 18219287, 0, -70, -72, 1, 0, 0, 0) /* eruptdungeonmagmagen */
      , (7395, 1880186883, 18219287, -1.99039, -68.6885, -72, 1, 0, 0, 0) /* Hot Air */
-     , (7352, 1880186884, 18219288, 0, -80, -72, -0.707107, 0, 0, -0.707107) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880186884, 18219288, 0, -80, -72, -0.707107, 0, 0, -0.707107) /* eruptdungeonmagmagen */
      , (7395, 1880186885, 18219288, -1.99981, -81.5946, -72, -0.707107, 0, 0, -0.707107) /* Hot Air */
      , (7395, 1880186886, 18219291, 10, -70, -66, 0.707107, 0, 0, -0.707107) /* Hot Air */
      , (7396, 1880186887, 18219293, 13.5271, -72.466, -71.995, -0.648337, 0, 0, -0.761354) /* Hot Air */
@@ -24,11 +24,11 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (7445, 1880186903, 18219318, 26.5701, -129.989, -71.995, 0.704074, 0, 0, -0.710127) /* Hot Air */
      , (7445, 1880186904, 18219318, 30, -130, -72, 0.707107, 0, 0, -0.707107) /* Hot Air */
      , (7445, 1880186905, 18219318, 33.6211, -130.156, -71.995, 0.69248, 0, 0, 0.721437) /* Hot Air */
-     , (7352, 1880186906, 18219319, 40, -70, -72, 0.707107, 0, 0, -0.707107) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880186906, 18219319, 40, -70, -72, 0.707107, 0, 0, -0.707107) /* eruptdungeonmagmagen */
      , (7395, 1880186907, 18219319, 41.9663, -68.1668, -72, 0.707107, 0, 0, -0.707107) /* Hot Air */
-     , (7352, 1880186908, 18219320, 40, -80, -72, -4.37114E-08, 0, 0, -1) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880186908, 18219320, 40, -80, -72, -4.37114E-08, 0, 0, -1) /* eruptdungeonmagmagen */
      , (7395, 1880186909, 18219320, 41.9965, -81.7553, -72, -4.37114E-08, 0, 0, -1) /* Hot Air */
-     , (6430, 1880186910, 18219321, 41.5883, -109.893, -71.995, 0.731689, 0, 0, -0.681639) /* Large Pressure Plate */
+     , (6430, 1880186910, 18219321, 41.5883, -109.893, -71.995, 0.731689, 0, 0, -0.681639) /* linkactivatebigpressureplategen */
      , (7445, 1880186911, 18219321, 40, -110, -72, 0.707107, 0, 0, -0.707107) /* Hot Air */
      , (7445, 1880186912, 18219321, 43.6366, -109.932, -71.995, 0.678884, 0, 0, 0.734245) /* Hot Air */
      , (7445, 1880186913, 18219321, 36.8957, -110.102, -71.995, 0.74803, 0, 0, -0.663665) /* Hot Air */
@@ -47,7 +47,7 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (7445, 1880186926, 18219328, 50, -110, -72, 1, 0, 0, 0) /* Hot Air */
      , (7445, 1880186927, 18219328, 53.1378, -110.023, -72, 1, 0, 0, 0) /* Hot Air */
      , (7445, 1880186928, 18219328, 46.8278, -110.029, -72, 1, 0, 0, 0) /* Hot Air */
-     , (7479, 1880186929, 18219328, 50, -110, -72, 1, 0, 0, 0) /* Exploding Magma Ambush Gen! */
+     , (7479, 1880186929, 18219328, 50, -110, -72, 1, 0, 0, 0) /* aerlinthemagmaambushgen */
      , (7445, 1880186930, 18219329, 50.1047, -112.935, -72, 1, 0, 0, 0) /* Hot Air */
      , (23082, 1880187384, 18219329, 50.0946, -114.691, -71.945, 0.999941, 0, 0, 0.010895) /* Nubilous Golem */
      , (7445, 1880186931, 18219330, 49.9298, -107.037, -72, 1, 0, 0, 0) /* Hot Air */
@@ -66,15 +66,15 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (7445, 1880186946, 18219340, 63.4403, -119.693, -71.995, -0.662983, 0, 0, 0.748634) /* Hot Air */
      , (7445, 1880186947, 18219341, 60.6552, -117.1, -71.995, -0.109814, 0, 0, 0.993952) /* Hot Air */
      , (5920, 1880186948, 18219343, 55.735, -129.761, -70.735, -0.707107, 0, 0, -0.707107) /* Wall of Fire */
-     , (7352, 1880186949, 18219343, 60, -130, -71.995, 1, 0, 0, 0) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880186949, 18219343, 60, -130, -71.995, 1, 0, 0, 0) /* eruptdungeonmagmagen */
      , (7395, 1880186951, 18219343, 63.7982, -128.004, -72, 1, 0, 0, 0) /* Hot Air */
-     , (7479, 1880186952, 18219343, 55.872, -130.119, -71.5, 0.707107, 0, 0, -0.707107) /* Exploding Magma Ambush Gen! */
+     , (7479, 1880186952, 18219343, 55.872, -130.119, -71.5, 0.707107, 0, 0, -0.707107) /* aerlinthemagmaambushgen */
      , (6645, 1880187387, 18219343, 58.3908, -127.435, -71.99, 0.115966, 0, 0, -0.993253) /* Unstable Magma Golem */
      , (6645, 1880186953, 18219346, 58.4369, -137.47, -71.989, -0.99684, 0, 0, 0.079433) /* Unstable Magma Golem */
      , (7395, 1880186954, 18219346, 64.5407, -135.355, -72, 1, 0, 0, 0) /* Hot Air */
      , (7394, 1880186956, 18219350, 62.9724, -152.454, -71.995, 0.998666, 0, 0, 0.051643) /* Hot Air */
      , (199, 1880187388, 18219350, 62.8947, -151.767, -71.99, 0.199075, 0, 0, -0.979984) /* Magma Golem */
-     , (7366, 1880186958, 18219352, 60.049, -160.477, -71.995, 0.581136, 0, 0, 0.813807) /* Forge Golem Gen */
+     , (7366, 1880186958, 18219352, 60.049, -160.477, -71.995, 0.581136, 0, 0, 0.813807) /* forgegolemgen */
      , (7394, 1880186959, 18219352, 62.45, -157.504, -71.995, 0.999999, 0, 0, 0.00166594) /* Hot Air */
      , (7394, 1880186960, 18219352, 56.9479, -156.911, -71.995, 0.999999, 0, 0, 0.00166594) /* Hot Air */
      , (7394, 1880186961, 18219352, 61.4047, -162.969, -71.995, 0.0190197, 0, 0, -0.999819) /* Hot Air */
@@ -85,7 +85,7 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (6645, 1880186965, 18219356, 66.8842, -128.835, -71.945, -0.449931, 0, 0, -0.893063) /* Unstable Magma Golem */
      , (6645, 1880187390, 18219356, 65.7149, -133.601, -71.99, -0.874819, 0, 0, -0.48445) /* Unstable Magma Golem */
      , (7092, 1880187391, 18219362, 67.196, -137.5, -71.945, -0.926214, 0, 0, -0.376999) /* Firestorm */
-     , (7352, 1880186968, 18219367, 70, -160, -72, -0.707107, 0, 0, -0.707107) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880186968, 18219367, 70, -160, -72, -0.707107, 0, 0, -0.707107) /* eruptdungeonmagmagen */
      , (7394, 1880186969, 18219367, 72.5052, -157.471, -71.995, 0.999999, 0, 0, 0.00166594) /* Hot Air */
      , (7394, 1880186970, 18219367, 67.2891, -157.354, -71.995, 0.999999, 0, 0, 0.00166594) /* Hot Air */
      , (7394, 1880186971, 18219367, 65.2622, -162.779, -71.995, 0.0190197, 0, 0, -0.999819) /* Hot Air */
@@ -100,7 +100,7 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (7394, 1880186985, 18219379, 82.8137, -152.462, -72, 0, 0, 0, -1) /* Hot Air */
      , (7394, 1880186989, 18219380, 75.6748, -152.385, -71.995, 0.999999, 0, 0, 0.001666) /* Hot Air */
      , (199, 1880187394, 18219380, 76.3511, -152.298, -71.99, 0.371381, 0, 0, -0.928481) /* Magma Golem */
-     , (7352, 1880186990, 18219381, 80, -160, -72, -0.707107, 0, 0, -0.707107) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880186990, 18219381, 80, -160, -72, -0.707107, 0, 0, -0.707107) /* eruptdungeonmagmagen */
      , (7394, 1880186991, 18219381, 82.6611, -157.462, -71.995, 0.999999, 0, 0, 0.00166594) /* Hot Air */
      , (7394, 1880186992, 18219381, 77.1769, -157.347, -71.995, 0.999999, 0, 0, 0.00166594) /* Hot Air */
      , (199, 1880187395, 18219381, 75.3727, -163.356, -71.945, 0.99531, 0, 0, -0.0967385) /* Magma Golem */
@@ -111,18 +111,18 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (298, 1880186997, 18219383, 88.712, -123.834, -71.995, -0.037417, 0, 0, 0.9993) /* Pressure Plate */
      , (7391, 1880186998, 18219384, 87.9752, -120.136, -69.9085, -0.770208, 0, 0, -0.637793) /* Empyrean protective field */
      , (7391, 1880186999, 18219384, 87.5074, -120.493, -69.9085, -0.770208, 0, 0, -0.637793) /* Empyrean protective field */
-     , (7352, 1880187000, 18219385, 90, -130, -72, 0.707107, 0, 0, -0.707107) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880187000, 18219385, 90, -130, -72, 0.707107, 0, 0, -0.707107) /* eruptdungeonmagmagen */
      , (7394, 1880187001, 18219385, 87.1279, -132.835, -71.995, 0.0249793, 0, 0, -0.999688) /* Hot Air */
      , (7394, 1880187002, 18219385, 87.2057, -127.191, -71.995, 0.0249793, 0, 0, -0.999688) /* Hot Air */
      , (7394, 1880187003, 18219385, 90.3031, -126.854, -71.995, 0.0249793, 0, 0, -0.999688) /* Hot Air */
      , (199, 1880187396, 18219385, 91.9078, -133.908, -71.989, -0.8073, 0, 0, -0.590141) /* Magma Golem */
-     , (7352, 1880187005, 18219386, 90, -140, -72, -4.37114E-08, 0, 0, -1) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880187005, 18219386, 90, -140, -72, -4.37114E-08, 0, 0, -1) /* eruptdungeonmagmagen */
      , (7394, 1880187006, 18219386, 87.1166, -142.981, -72, -4.37114E-08, 0, 0, -1) /* Hot Air */
      , (7394, 1880187007, 18219386, 87.0626, -137.029, -72, -4.37114E-08, 0, 0, -1) /* Hot Air */
      , (7394, 1880187008, 18219386, 92.9275, -135.042, -72, -4.37114E-08, 0, 0, -1) /* Hot Air */
      , (7394, 1880187009, 18219386, 87.0626, -137.029, -72, -4.37114E-08, 0, 0, -1) /* Hot Air */
      , (199, 1880187397, 18219386, 92.9199, -144.858, -71.945, -0.825717, 0, 0, -0.564084) /* Magma Golem */
-     , (7352, 1880187010, 18219387, 90, -150, -72, -4.37114E-08, 0, 0, -1) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880187010, 18219387, 90, -150, -72, -4.37114E-08, 0, 0, -1) /* eruptdungeonmagmagen */
      , (7394, 1880187011, 18219387, 87.3858, -147.385, -72, -4.37114E-08, 0, 0, -1) /* Hot Air */
      , (7394, 1880187012, 18219387, 87.1643, -152.807, -72, -4.37114E-08, 0, 0, -1) /* Hot Air */
      , (7394, 1880187013, 18219387, 92.3921, -145.047, -72, -4.37114E-08, 0, 0, -1) /* Hot Air */
@@ -179,7 +179,7 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (7179, 1880187401, 18219432, 26.1743, -119.566, -65.995, -0.90824, 0, 0, 0.418449) /* Relic Bones */
      , (22933, 1880187402, 18219434, 39.8881, -44.3496, -65.99, -0.040061, 0, 0, 0.999197) /* Mist Golem */
      , (7395, 1880187069, 18219443, 50, -20, -66, 1, 0, 0, 0) /* Hot Air */
-     , (7352, 1880187070, 18219443, 50, -20, -66, 1, 0, 0, 0) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880187070, 18219443, 50, -20, -66, 1, 0, 0, 0) /* eruptdungeonmagmagen */
      , (7396, 1880187071, 18219446, 52.2927, -27.3759, -65.995, 0.060146, 0, 0, -0.99819) /* Hot Air */
      , (7396, 1880187072, 18219446, 47.6963, -27.3343, -65.995, 0.060146, 0, 0, -0.99819) /* Hot Air */
      , (22933, 1880187403, 18219446, 49.9981, -25.4533, -65.945, 0.949048, 0, 0, -0.315133) /* Mist Golem */
@@ -190,11 +190,11 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (7394, 1880187077, 18219451, 47.9568, -37.5118, -65.995, -0.263065, 0, 0, -0.964778) /* Hot Air */
      , (5748, 1880187405, 18219451, 47.9624, -37.5117, -65.995, 0.770451, 0, 0, -0.6375) /* Fire Wisp */
      , (7395, 1880187079, 18219452, 50, -50, -66, 1, 0, 0, 0) /* Hot Air */
-     , (7352, 1880187080, 18219452, 50, -50, -66, 1, 0, 0, 0) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880187080, 18219452, 50, -50, -66, 1, 0, 0, 0) /* eruptdungeonmagmagen */
      , (7395, 1880187081, 18219453, 52.1102, -57.8622, -65.995, 0.936471, 0, 0, -0.350744) /* Hot Air */
      , (5748, 1880187406, 18219454, 59.9017, -3.29093, -65.995, 0.0250851, 0, 0, 0.999685) /* Fire Wisp */
      , (7395, 1880187082, 18219455, 60, -10, -66, 0.707107, 0, 0, -0.707107) /* Hot Air */
-     , (7352, 1880187083, 18219455, 60, -10, -66, 0.707107, 0, 0, -0.707107) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880187083, 18219455, 60, -10, -66, 0.707107, 0, 0, -0.707107) /* eruptdungeonmagmagen */
      , (22933, 1880187407, 18219455, 58.7363, -13.4361, -65.99, -0.602169, 0, 0, -0.798369) /* Mist Golem */
      , (7395, 1880187084, 18219455, 60, -10, -60, 0.707107, 0, 0, -0.707107) /* Hot Air */
      , (7395, 1880187085, 18219458, 60, -20, -66, -4.37114E-08, 0, 0, -1) /* Hot Air */
@@ -215,7 +215,7 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (7394, 1880187096, 18219473, 63.8022, -46.1206, -65.995, -0.307722, 0, 0, -0.951476) /* Hot Air */
      , (7092, 1880187098, 18219474, 59.8009, -61.5462, -65.9915, 0.734011, 0, 0, -0.679138) /* Firestorm */
      , (7395, 1880187099, 18219474, 60, -60, -60, -0.707107, 0, 0, -0.707107) /* Hot Air */
-     , (7352, 1880187101, 18219479, 70, -10, -66, 0.707107, 0, 0, -0.707107) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880187101, 18219479, 70, -10, -66, 0.707107, 0, 0, -0.707107) /* eruptdungeonmagmagen */
      , (7394, 1880187104, 18219482, 73.0516, -22.6707, -65.995, -0.666778, 0, 0, 0.745256) /* Hot Air */
      , (2609, 1880187105, 18219482, 70, -22.608, -65.995, 1, 0, 0, 0) /* Lever */
      , (7412, 1880187106, 18219482, 71.9424, -23.5868, -65.9, 0.928656, 0, 0, -0.370943) /* Sluice Gate Bar */
@@ -243,14 +243,14 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (7395, 1880187136, 18219492, 70, -60, -60, -0.707107, 0, 0, -0.707107) /* Hot Air */
      , (7478, 1880187137, 18219497, 80, -3.479, -65.995, -0.999687, 0, 0, -0.024999) /* Surface Portal */
      , (7395, 1880187138, 18219498, 80, -10, -66, 0.707107, 0, 0, -0.707107) /* Hot Air */
-     , (7352, 1880187139, 18219498, 80, -10, -66, 0.707107, 0, 0, -0.707107) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880187139, 18219498, 80, -10, -66, 0.707107, 0, 0, -0.707107) /* eruptdungeonmagmagen */
      , (7395, 1880187140, 18219498, 80, -10, -60, 0.707107, 0, 0, -0.707107) /* Hot Air */
      , (7395, 1880187141, 18219501, 80, -20, -66, -0.707107, 0, 0, -0.707107) /* Hot Air */
      , (22933, 1880187414, 18219501, 80.8134, -15.0693, -65.99, -0.931778, 0, 0, -0.363029) /* Mist Golem */
      , (7395, 1880187142, 18219501, 80, -20, -60, -0.707107, 0, 0, -0.707107) /* Hot Air */
      , (7394, 1880187143, 18219505, 77.5558, -26.5276, -65.995, -0.213973, 0, 0, 0.97684) /* Hot Air */
      , (7394, 1880187144, 18219505, 77.2455, -32.5571, -65.995, -0.0239716, 0, 0, 0.999713) /* Hot Air */
-     , (1542, 1880187145, 18219505, 75.868, -25.2427, -65.995, 0.757288, 0, 0, 0.653081) /* Linkable Item Generator */
+     , (1542, 1880187145, 18219505, 75.868, -25.2427, -65.995, 0.757288, 0, 0, 0.653081) /* linkitemgen */
      , (199, 1880187415, 18219505, 76.6077, -28.5959, -65.99, -0.0935347, 0, 0, -0.995616) /* Magma Golem */
      , (7394, 1880187146, 18219506, 82.106, -32.2095, -65.995, -0.741997, 0, 0, 0.670404) /* Hot Air */
      , (7396, 1880187147, 18219507, 82.5011, -27.0426, -65.995, 0.0103697, 0, 0, -0.999946) /* Hot Air */
@@ -266,7 +266,7 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (7092, 1880187419, 18219517, 79.209, -61.0667, -65.9915, 0.692397, 0, 0, 0.721517) /* Firestorm */
      , (7395, 1880187157, 18219517, 80.0134, -60, -60, -0.707107, 0, 0, -0.707107) /* Hot Air */
      , (7395, 1880187158, 18219522, 88.0217, -12.2647, -66, 0.707107, 0, 0, -0.707107) /* Hot Air */
-     , (7352, 1880187160, 18219523, 90, -20, -66, -4.37114E-08, 0, 0, -1) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880187160, 18219523, 90, -20, -66, -4.37114E-08, 0, 0, -1) /* eruptdungeonmagmagen */
      , (7395, 1880187161, 18219523, 90, -20, -60, -4.37114E-08, 0, 0, -1) /* Hot Air */
      , (7395, 1880187162, 18219525, 90, -30, -60, -4.37114E-08, 0, 0, -1) /* Hot Air */
      , (7396, 1880187163, 18219526, 87.4909, -27.2334, -65.995, 0.01037, 0, 0, -0.999946) /* Hot Air */
@@ -280,7 +280,7 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (23082, 1880187422, 18219530, 92.3954, -42.7769, -65.99, 0.998925, 0, 0, -0.046363) /* Nubilous Golem */
      , (7394, 1880187170, 18219531, 87.6962, -37.5185, -65.995, 0.733598, 0, 0, -0.679583) /* Hot Air */
      , (7395, 1880187172, 18219532, 90, -50, -66, -4.37114E-08, 0, 0, -1) /* Hot Air */
-     , (7352, 1880187173, 18219532, 90, -50, -66, -4.37114E-08, 0, 0, -1) /* Erupt Dungeon Magma Gen */
+     , (7352, 1880187173, 18219532, 90, -50, -66, -4.37114E-08, 0, 0, -1) /* eruptdungeonmagmagen */
      , (7395, 1880187174, 18219533, 87.9289, -57.8196, -66, -4.37114E-08, 0, 0, -1) /* Hot Air */
      , (7396, 1880187176, 18219561, 64.0622, -24.0603, -59.995, 0.909383, 0, 0, 0.41596) /* Hot Air */
      , (7396, 1880187177, 18219564, 61.95, -31.1646, -59.995, 0.998129, 0, 0, 0.061135) /* Hot Air */
@@ -354,7 +354,7 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (199, 1880187429, 18219732, 47.4074, -99.8895, -35.99, -0.692457, 0, 0, -0.721459) /* Magma Golem */
      , (199, 1880187430, 18219735, 48.24, -119.855, -35.945, -0.692457, 0, 0, -0.721459) /* Magma Golem */
      , (5748, 1880187431, 18219739, 49.954, -135.864, -35.995, 0.997761, 0, 0, -0.0668761) /* Fire Wisp */
-     , (7480, 1880187248, 18219740, 60.2277, -57.2239, -35.5304, 0.707107, 0, 0, -0.707107) /* Firestorm Ambush Gen! */
+     , (7480, 1880187248, 18219740, 60.2277, -57.2239, -35.5304, 0.707107, 0, 0, -0.707107) /* aerlinthefirestormambushgen */
      , (5619, 1880187250, 18219750, 66.9009, -62.3607, -35.995, 0.703192, 0, 0, -0.711) /* Hot Air */
      , (5619, 1880187251, 18219750, 66.7712, -57.2396, -35.995, 0.703192, 0, 0, -0.711) /* Hot Air */
      , (22933, 1880187432, 18219750, 74.3933, -60.3416, -35.99, 0.431364, 0, 0, 0.902178) /* Mist Golem */
@@ -368,7 +368,7 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (6645, 1880187258, 18219766, 20.7442, -140.753, -29.989, -0.328019, 0, 0, -0.944671) /* Unstable Magma Golem */
      , (5619, 1880187259, 18219768, 15.2326, -139.903, -29.995, 0.799124, 0, 0, 0.601166) /* Hot Air */
      , (5619, 1880187260, 18219770, 20.6909, -151.763, -29.995, 0.99899, 0, 0, 0.044944) /* Hot Air */
-     , (7479, 1880187261, 18219770, 19.957, -148.146, -29.5, 1, 0, 0, 0) /* Exploding Magma Ambush Gen! */
+     , (7479, 1880187261, 18219770, 19.957, -148.146, -29.5, 1, 0, 0, 0) /* aerlinthemagmaambushgen */
      , (5619, 1880187262, 18219771, 21.4404, -160.076, -29.995, 0.700314, 0, 0, 0.713835) /* Hot Air */
      , (6645, 1880187263, 18219771, 20.0299, -162.713, -29.989, 0.813341, 0, 0, -0.581787) /* Unstable Magma Golem */
      , (5619, 1880187264, 18219775, 19.6732, -165.446, -29.995, 0.238436, 0, 0, -0.971158) /* Hot Air */
@@ -494,7 +494,7 @@ VALUES (5489, 1880186880, 18219264, 90, -160, -209.995, 1, 0, 0, 0) /* "Mag-Ma!"
      , (4216, 1880187374, 18220066, 102.227, -169.997, -11.99, -0.699426, 0, 0, -0.714705) /* Diamond Golem */
      , (5626, 1880187375, 18220066, 95.552, -170, -11.995, 0.707107, 0, 0, -0.707107) /* Door */
      , (5619, 1880187376, 18220066, 104.01, -169.957, -11.995, -0.70505, 0, 0, 0.709158) /* Hot Air */
-     , (7923, 1880187462, 18220089, 77.0861, -111.597, -5.995, -0.0113045, 0, 0, -0.999936) /* Linkable Monster Generator ( 3 Min.) */;
+     , (7923, 1880187462, 18220089, 77.0861, -111.597, -5.995, -0.0113045, 0, 0, -0.999936) /* linkmonstergen3minutes */;
 
 UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880187131'; /* Empyrean protective field */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880187132'; /* Empyrean protective field */
@@ -508,11 +508,11 @@ UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `
 UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1880187032'; /* Flame Trap */
 UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1880187033'; /* Flame Trap */
 UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1880187034'; /* Flame Trap */
-UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1880187145'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1880187145'; /* linkitemgen */
 UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1880186998'; /* Empyrean protective field */
 UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1880186999'; /* Empyrean protective field */
 UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1880186994'; /* Empyrean protective field */
-UPDATE `landblock_instances` SET `link_Slot`='17', `link_Controller`=True WHERE `guid`='1880187462'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='17', `link_Controller`=True WHERE `guid`='1880187462'; /* linkmonstergen3minutes */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880187126'; /* Empyrean protective field <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880187128'; /* Empyrean protective field <- Pressure Plate */
@@ -528,125 +528,125 @@ UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1880187029'; /* F
 UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880187028'; /* Flame Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880187027'; /* Flame Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1880187026'; /* Flame Trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1880187106'; /* Linkable Item Generator <- Sluice Gate Bar */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1880187106'; /* linkitemgen <- Sluice Gate Bar */
 UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1880186995'; /* Empyrean protective field <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1880186996'; /* Empyrean protective field <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880186997'; /* Empyrean protective field <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187444'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187236'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187447'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187445'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187448'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187296'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187327'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187440'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187443'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187297'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187458'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187441'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187442'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187446'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187457'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187459'; /* Linkable Monster Generator ( 3 Min.) <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187460'; /* Linkable Monster Generator ( 3 Min.) <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187434'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187431'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187272'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187436'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187271'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187438'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187435'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187437'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187453'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187454'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187455'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187456'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187461'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187061'; /* Linkable Monster Generator ( 3 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187450'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187277'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187055'; /* Linkable Monster Generator ( 3 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187451'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187274'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187059'; /* Linkable Monster Generator ( 3 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187452'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187230'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187060'; /* Linkable Monster Generator ( 3 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187413'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187412'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187415'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187402'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187421'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187417'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187098'; /* Linkable Monster Generator ( 3 Min.) <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187409'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187410'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187427'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187428'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880186965'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187419'; /* Linkable Monster Generator ( 3 Min.) <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187405'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187430'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187429'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187432'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187433'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187426'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880186945'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187424'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880186944'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187423'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187398'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187407'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187408'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187416'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187308'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187425'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187312'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187403'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187332'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187406'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187335'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187255'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187420'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187414'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187411'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187363'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187404'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187355'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187422'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187352'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187258'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187418'; /* Linkable Monster Generator ( 3 Min.) <- Mist Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187257'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187397'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187263'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187388'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187205'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187389'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187392'; /* Linkable Monster Generator ( 3 Min.) <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187382'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187384'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187393'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187396'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187387'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187210'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187390'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187208'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187385'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187400'; /* Linkable Monster Generator ( 3 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187401'; /* Linkable Monster Generator ( 3 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187391'; /* Linkable Monster Generator ( 3 Min.) <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187019'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187395'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187394'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880186953'; /* Linkable Monster Generator ( 3 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187052'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187366'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187374'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187014'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187245'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187242'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187370'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187254'; /* Linkable Monster Generator ( 3 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187383'; /* Linkable Monster Generator ( 3 Min.) <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187444'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187236'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187447'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187445'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187448'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187296'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187327'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187440'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187443'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187297'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187458'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187441'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187442'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187446'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187457'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187459'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187460'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187434'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187431'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187272'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187436'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187271'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187438'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187435'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187437'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187453'; /* linkmonstergen3minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187454'; /* linkmonstergen3minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187455'; /* linkmonstergen3minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187456'; /* linkmonstergen3minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187461'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187061'; /* linkmonstergen3minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187450'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187277'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187055'; /* linkmonstergen3minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187451'; /* linkmonstergen3minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187274'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187059'; /* linkmonstergen3minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187452'; /* linkmonstergen3minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187230'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187060'; /* linkmonstergen3minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187413'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187412'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187415'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187402'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187421'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187417'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187098'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187409'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187410'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187427'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187428'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880186965'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187419'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187405'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187430'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187429'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187432'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187433'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187426'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880186945'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187424'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880186944'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187423'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187398'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187407'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187408'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187416'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187308'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187425'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187312'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187403'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187332'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187406'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187335'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187255'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187420'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187414'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187411'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187363'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187404'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187355'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187422'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187352'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187258'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187418'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187257'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187397'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187263'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187388'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187205'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187389'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187392'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187382'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187384'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187393'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187396'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187387'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187210'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187390'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187208'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187385'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187400'; /* linkmonstergen3minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187401'; /* linkmonstergen3minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187391'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187019'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187395'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187394'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880186953'; /* linkmonstergen3minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187052'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187366'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187374'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187014'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187245'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187242'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187370'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187254'; /* linkmonstergen3minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880187383'; /* linkmonstergen3minutes <- Nubilous Golem */
 

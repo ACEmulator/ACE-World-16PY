@@ -6,10 +6,10 @@ VALUES (143, 2093588480, 3432644864, 86.3698, 113.105, 6.0125, 1, 0, 0, 0) /* Ch
      , (174, 2093588487, 3432644608, 75.1597, 111.807, 6.005, 0.994302, 0, 0, 0.1066) /* Well */
      , (618, 2093588484, 3432644608, 101.619, 106.799, 6.00562, 0.997725, 0, 0, -0.0674221) /* Cow */
      , (618, 2093588485, 3432644608, 98.3683, 109.852, 6.00562, 0.997725, 0, 0, -0.0674221) /* Cow */
-     , (1154, 2093588486, 3432644608, 101.049, 110.409, 6.005, 0.986354, 0, 0, -0.164636) /* Linkable Monster Generator */;
+     , (1154, 2093588486, 3432644608, 101.049, 110.409, 6.005, 0.986354, 0, 0, -0.164636) /* linkmonstergen */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2093588486'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2093588486'; /* linkmonstergen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2093588485'; /* Linkable Monster Generator <- Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2093588484'; /* Linkable Monster Generator <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2093588485'; /* linkmonstergen <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2093588484'; /* linkmonstergen <- Cow */
 

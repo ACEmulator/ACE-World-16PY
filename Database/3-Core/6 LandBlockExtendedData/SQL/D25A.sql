@@ -1,5 +1,5 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1154, 2099617795, 3529113600, 158.333, 157.551, 24.005, 0.0178129, 0, 0, -0.999841) /* Linkable Monster Generator */
+VALUES (1154, 2099617795, 3529113600, 158.333, 157.551, 24.005, 0.0178129, 0, 0, -0.999841) /* linkmonstergen */
      , (211, 2099617796, 3529113600, 158.629, 152.026, 24.2864, 0.288647, 0, 0, -0.957436) /* Mudlurk Mosswart */
      , (211, 2099617797, 3529113600, 153.121, 161.86, 24.0055, -0.915468, 0, 0, -0.402391) /* Mudlurk Mosswart */
      , (947, 2099617798, 3529113600, 153.816, 155.874, 24.0055, -0.297785, 0, 0, -0.954633) /* Barker Mosswart */
@@ -14,18 +14,18 @@ VALUES (1154, 2099617795, 3529113600, 158.333, 157.551, 24.005, 0.0178129, 0, 0,
      , (947, 2099617807, 3529113600, 150.67, 157.09, 22.0055, 0.566575, 0, 0, 0.82401) /* Barker Mosswart */
      , (26625, 2099617809, 3529113600, 155.548, 156.694, 24.005, 0.698003, 0, 0, -0.716095) /* Runed Chest */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2099617795'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2099617795'; /* linkmonstergen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617796'; /* Linkable Monster Generator <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617797'; /* Linkable Monster Generator <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617798'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617799'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617800'; /* Linkable Monster Generator <- Mosswart Chief */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617801'; /* Linkable Monster Generator <- Mosswart Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617802'; /* Linkable Monster Generator <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617803'; /* Linkable Monster Generator <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617804'; /* Linkable Monster Generator <- Mudlurk Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617805'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617806'; /* Linkable Monster Generator <- Barker Mosswart */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617807'; /* Linkable Monster Generator <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617796'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617797'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617798'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617799'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617800'; /* linkmonstergen <- Mosswart Chief */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617801'; /* linkmonstergen <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617802'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617803'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617804'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617805'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617806'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2099617807'; /* linkmonstergen <- Barker Mosswart */
 

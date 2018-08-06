@@ -2,7 +2,7 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (5711, 1984204800, 1682505984, 310, 0, -24, 1, 0, 0, 0) /* Flamma */
      , (5711, 1984204801, 1682505985, 310, -10, -24, 1, 0, 0, 0) /* Flamma */
      , (7607, 1984204802, 1682505987, 320, 0, -24, 0.707107, 0, 0, -0.707107) /* Ember */
-     , (7923, 1984204975, 1682505988, 320, -10, -29.995, 0.09565, 0, 0, -0.995415) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1984204975, 1682505988, 320, -10, -29.995, 0.09565, 0, 0, -0.995415) /* linkmonstergen3minutes */
      , (5711, 1984204805, 1682505990, 330, 0, -24, 0.707107, 0, 0, -0.707107) /* Flamma */
      , (5711, 1984204806, 1682505991, 330, -10, -24, -4.37114E-08, 0, 0, -1) /* Flamma */
      , (7345, 1984204807, 1682505993, 100.576, -93.9386, -23.9929, 0.681626, 0, 0, 0.731701) /* Banderling Striker */
@@ -10,7 +10,7 @@ VALUES (5711, 1984204800, 1682505984, 310, 0, -24, 1, 0, 0, 0) /* Flamma */
      , (22810, 1984204809, 1682505996, 112.064, -93.0338, -23.9923, -0.707168, 0, 0, -0.707046) /* Banderling Rogue */
      , (25825, 1984204810, 1682505997, 110.113, -99.821, -23.995, 1, 0, 0, 0) /* Crystal Formation */
      , (25942, 1984204969, 1682505997, 109.173, -96.5722, -23.921, -0.797687, 0, 0, 0.603072) /* Unicorn's Cavern */
-     , (15759, 1984204970, 1682505997, 109.246, -97.3344, -23.995, -0.756155, 0, 0, 0.654392) /* Linkable Item Generator */
+     , (15759, 1984204970, 1682505997, 109.246, -97.3344, -23.995, -0.756155, 0, 0, 0.654392) /* linkitemgen10seconds */
      , (22810, 1984204811, 1682505998, 110.3, -107.718, -23.9923, -0.667169, 0, 0, -0.744907) /* Banderling Rogue */
      , (22810, 1984204812, 1682505999, 118.669, -92.9798, -23.9923, -0.625847, 0, 0, -0.779946) /* Banderling Rogue */
      , (7085, 1984204813, 1682506000, 118.581, -99.9193, -23.9929, -0.712667, 0, 0, -0.701502) /* Banderling Berserker */
@@ -48,7 +48,7 @@ VALUES (5711, 1984204800, 1682505984, 310, 0, -24, 1, 0, 0, 0) /* Flamma */
      , (7124, 1984204843, 1682506111, 500.238, -70, -11.9917, 1, 0, 0, -4.37114E-08) /* Dark Magus */
      , (278, 1984204844, 1682506114, 500, -74.75, -12, -4.37114E-08, 0, 0, -1) /* Door */
      , (7780, 1984204845, 1682506131, 290, -109.954, -5.995, 0.120503, 0, 0, 0.992713) /* Ashen Bones */
-     , (4219, 1984204846, 1682506142, 406.989, -108.345, -5.995, 0.338946, 0, 0, 0.940806) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1984204846, 1682506142, 406.989, -108.345, -5.995, 0.338946, 0, 0, 0.940806) /* linkmonstergen7minutes */
      , (619, 1984204847, 1682506144, 424.779, -60.0215, -5.945, -0.447457, 0, 0, -0.894306) /* Revenant */
      , (619, 1984204848, 1682506148, 423.303, -78.8368, -5.99175, 0.362358, 0, 0, -0.932039) /* Revenant */
      , (7123, 1984204849, 1682506155, 426.579, -61.1224, -5.99175, -0.447457, 0, 0, -0.894306) /* Dark Leech */
@@ -106,7 +106,7 @@ VALUES (5711, 1984204800, 1682505984, 310, 0, -24, 1, 0, 0, 0) /* Flamma */
      , (22810, 1984204900, 1682506327, 68.5955, -109.074, 0.0077, 0.998734, 0, 0, -0.0502993) /* Banderling Rogue */
      , (7345, 1984204901, 1682506327, 70.2818, -110.849, 0.00715, 0.998734, 0, 0, -0.0502993) /* Banderling Striker */
      , (7345, 1984204902, 1682506334, 83.1895, -69.8523, 0.00715, -0.724825, 0, 0, 0.688933) /* Banderling Striker */
-     , (4219, 1984204903, 1682506339, 90, -60, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1984204903, 1682506339, 90, -60, 0.005, 1, 0, 0, 0) /* linkmonstergen7minutes */
      , (7345, 1984204904, 1682506366, 106.152, -88.7797, 0.00715, -0.830575, 0, 0, -0.556907) /* Banderling Striker */
      , (22810, 1984204905, 1682506366, 105.476, -90.674, 0.055, -0.882023, 0, 0, -0.471206) /* Banderling Rogue */
      , (7121, 1984204906, 1682506369, 231.959, -120.069, 0.005, 0.011566, 0, 0, -0.999933) /* Skeleton Bone Lord */
@@ -133,7 +133,7 @@ VALUES (5711, 1984204800, 1682505984, 310, 0, -24, 1, 0, 0, 0) /* Flamma */
      , (7121, 1984204927, 1682506440, 279.659, -112.979, 0.005, 0.743734, 0, 0, 0.668476) /* Skeleton Bone Lord */
      , (7334, 1984204928, 1682506440, 280.209, -107.831, 0.005, 0.743734, 0, 0, 0.668476) /* Skeleton Bone Knight */
      , (568, 1984204929, 1682506442, 275.25, -110, 0, -0.707107, 0, 0, -0.707107) /* Door */
-     , (4219, 1984204930, 1682506451, 290, -60, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1984204930, 1682506451, 290, -60, 0.005, 1, 0, 0, 0) /* linkmonstergen7minutes */
      , (278, 1984204931, 1682506453, 290, -64.75, 0, 0, 0, 0, -1) /* Door */
      , (278, 1984204932, 1682506454, 290, -55.25, 0, 1, 0, 0, 0) /* Door */
      , (7334, 1984204933, 1682506455, 289.706, -70, 0.005, 1, 0, 0, 0) /* Skeleton Bone Knight */
@@ -173,146 +173,146 @@ VALUES (5711, 1984204800, 1682505984, 310, 0, -24, 1, 0, 0, 0) /* Flamma */
      , (7121, 1984204967, 1682506543, 347.1, -120.296, 0.005, -0.00420404, 0, 0, -0.999991) /* Skeleton Bone Lord */
      , (568, 1984204968, 1682506545, 350, -124.75, 0, -4.37114E-08, 0, 0, -1) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1984204903'; /* Linkable Monster Generator ( 7 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1984204930'; /* Linkable Monster Generator ( 7 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1984204846'; /* Linkable Monster Generator ( 7 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1984204970'; /* Linkable Item Generator */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1984204975'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1984204903'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1984204930'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1984204846'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1984204970'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1984204975'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204902'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204904'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204905'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204899'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204900'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204816'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204901'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204815'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204896'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204818'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204897'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204817'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204898'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204890'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204813'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204889'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204891'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204892'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204893'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204894'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204895'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204821'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204822'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204819'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204820'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204808'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204807'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204809'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204811'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204814'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204812'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Rogue */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204910'; /* Linkable Monster Generator ( 7 Min.) <- Ashen Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204962'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204923'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204909'; /* Linkable Monster Generator ( 7 Min.) <- Ashen Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204965'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204944'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204961'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204964'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204948'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204963'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204945'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204947'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204952'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204953'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204966'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204967'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204958'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204919'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204954'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204957'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204950'; /* Linkable Monster Generator ( 7 Min.) <- Ashen Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204951'; /* Linkable Monster Generator ( 7 Min.) <- Ashen Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204920'; /* Linkable Monster Generator ( 7 Min.) <- Ashen Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204940'; /* Linkable Monster Generator ( 7 Min.) <- Ashen Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204936'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204937'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204960'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204935'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204911'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204912'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204916'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204917'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204907'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204924'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204913'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204906'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204925'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204845'; /* Linkable Monster Generator ( 7 Min.) <- Ashen Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204927'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204928'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204941'; /* Linkable Monster Generator ( 7 Min.) <- Ashen Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204800'; /* Linkable Monster Generator ( 7 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204801'; /* Linkable Monster Generator ( 7 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204802'; /* Linkable Monster Generator ( 7 Min.) <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204805'; /* Linkable Monster Generator ( 7 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204806'; /* Linkable Monster Generator ( 7 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204933'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204943'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204922'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204934'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204942'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Bone Knight */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204869'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204868'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204850'; /* Linkable Monster Generator ( 7 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204872'; /* Linkable Monster Generator ( 7 Min.) <- Great Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204871'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204870'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204851'; /* Linkable Monster Generator ( 7 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204849'; /* Linkable Monster Generator ( 7 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204847'; /* Linkable Monster Generator ( 7 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204848'; /* Linkable Monster Generator ( 7 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204855'; /* Linkable Monster Generator ( 7 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204854'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204853'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204852'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204861'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204860'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204859'; /* Linkable Monster Generator ( 7 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204858'; /* Linkable Monster Generator ( 7 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204834'; /* Linkable Monster Generator ( 7 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204833'; /* Linkable Monster Generator ( 7 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204857'; /* Linkable Monster Generator ( 7 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204856'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204841'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204838'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204837'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204836'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204843'; /* Linkable Monster Generator ( 7 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204842'; /* Linkable Monster Generator ( 7 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204826'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204825'; /* Linkable Monster Generator ( 7 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204824'; /* Linkable Monster Generator ( 7 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204884'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204880'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204883'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204827'; /* Linkable Monster Generator ( 7 Min.) <- Great Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204885'; /* Linkable Monster Generator ( 7 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204887'; /* Linkable Monster Generator ( 7 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204886'; /* Linkable Monster Generator ( 7 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204881'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204862'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204877'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204876'; /* Linkable Monster Generator ( 7 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204882'; /* Linkable Monster Generator ( 7 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204879'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204878'; /* Linkable Monster Generator ( 7 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204864'; /* Linkable Monster Generator ( 7 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204863'; /* Linkable Monster Generator ( 7 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204865'; /* Linkable Monster Generator ( 7 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1984204969'; /* Linkable Item Generator <- Unicorn's Cavern */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1984204971'; /* Linkable Item Generator <- Stone of the Firebird */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1984204974'; /* Linkable Item Generator <- Journey's End */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1984204803'; /* Linkable Monster Generator ( 3 Min.) <- Smooth Rocks */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1984204810'; /* Linkable Monster Generator ( 3 Min.) <- Crystal Formation */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1984204973'; /* Linkable Monster Generator ( 3 Min.) <- Smoldering Brazier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204902'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204904'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204905'; /* linkmonstergen7minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204899'; /* linkmonstergen7minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204900'; /* linkmonstergen7minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204816'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204901'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204815'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204896'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204818'; /* linkmonstergen7minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204897'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204817'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204898'; /* linkmonstergen7minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204890'; /* linkmonstergen7minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204813'; /* linkmonstergen7minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204889'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204891'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204892'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204893'; /* linkmonstergen7minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204894'; /* linkmonstergen7minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204895'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204821'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204822'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204819'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204820'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204808'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204807'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204809'; /* linkmonstergen7minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204811'; /* linkmonstergen7minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204814'; /* linkmonstergen7minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984204812'; /* linkmonstergen7minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204910'; /* linkmonstergen7minutes <- Ashen Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204962'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204923'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204909'; /* linkmonstergen7minutes <- Ashen Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204965'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204944'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204961'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204964'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204948'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204963'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204945'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204947'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204952'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204953'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204966'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204967'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204958'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204919'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204954'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204957'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204950'; /* linkmonstergen7minutes <- Ashen Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204951'; /* linkmonstergen7minutes <- Ashen Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204920'; /* linkmonstergen7minutes <- Ashen Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204940'; /* linkmonstergen7minutes <- Ashen Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204936'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204937'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204960'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204935'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204911'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204912'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204916'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204917'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204907'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204924'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204913'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204906'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204925'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204845'; /* linkmonstergen7minutes <- Ashen Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204927'; /* linkmonstergen7minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204928'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204941'; /* linkmonstergen7minutes <- Ashen Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204800'; /* linkmonstergen7minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204801'; /* linkmonstergen7minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204802'; /* linkmonstergen7minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204805'; /* linkmonstergen7minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204806'; /* linkmonstergen7minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204933'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204943'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204922'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204934'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984204942'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204869'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204868'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204850'; /* linkmonstergen7minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204872'; /* linkmonstergen7minutes <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204871'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204870'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204851'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204849'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204847'; /* linkmonstergen7minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204848'; /* linkmonstergen7minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204855'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204854'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204853'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204852'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204861'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204860'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204859'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204858'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204834'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204833'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204857'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204856'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204841'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204838'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204837'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204836'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204843'; /* linkmonstergen7minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204842'; /* linkmonstergen7minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204826'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204825'; /* linkmonstergen7minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204824'; /* linkmonstergen7minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204884'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204880'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204883'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204827'; /* linkmonstergen7minutes <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204885'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204887'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204886'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204881'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204862'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204877'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204876'; /* linkmonstergen7minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204882'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204879'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204878'; /* linkmonstergen7minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204864'; /* linkmonstergen7minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204863'; /* linkmonstergen7minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984204865'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1984204969'; /* linkitemgen10seconds <- Unicorn's Cavern */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1984204971'; /* linkitemgen10seconds <- Stone of the Firebird */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1984204974'; /* linkitemgen10seconds <- Journey's End */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1984204803'; /* linkmonstergen3minutes <- Smooth Rocks */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1984204810'; /* linkmonstergen3minutes <- Crystal Formation */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1984204973'; /* linkmonstergen3minutes <- Smoldering Brazier */
 

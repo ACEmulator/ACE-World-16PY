@@ -2,7 +2,7 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (2543, 1945313289, 1060241668, 65.6117, 30.8234, 8.405, -0.98389, 0, 0, -0.178776) /* Archmage Dou Ran */
      , (143, 1945313309, 1060241668, 53.6032, 40.13, 8.405, 1, 0, 0, 0) /* Chest */
      , (12050, 1945313295, 1060241668, 54.8468, 41.3855, 8.405, -0.379301, 0, 0, 0.925273) /* Agent of the Arcanum */
-     , (7923, 1945313303, 1060241668, 54.847, 41.386, 8.405, 0.379303, 0, 0, -0.925273) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1945313303, 1060241668, 54.847, 41.386, 8.405, 0.379303, 0, 0, -0.925273) /* linkmonstergen3minutes */
      , (153, 1945313291, 1060241674, 60, 36, 0.005, 1, 0, 0, 0) /* Fountain */
      , (720, 1945313280, 1060241679, 67.3, 36.02, -7.45058E-09, -0.707107, 0, 0, -0.707107) /* Sliding Door */
      , (720, 1945313281, 1060241680, 52.745, 35.955, 4.84288E-08, 0.707107, 0, 0, -0.707107) /* Sliding Door */
@@ -24,11 +24,11 @@ VALUES (2543, 1945313289, 1060241668, 65.6117, 30.8234, 8.405, -0.98389, 0, 0, -
      , (720, 1945313313, 1060241408, 9.66598, 18.7983, 5, -0.999048, 0, 0, -0.0436193) /* Sliding Door */
      , (720, 1945313314, 1060241408, 10.982, 3.75574, 5, 0.0436193, 0, 0, -0.999048) /* Sliding Door */
      , (24218, 1945313302, 1060241408, 55.8867, 27.6451, 5.605, -0.240715, 0, 0, -0.970596) /* Bowyer Xana Bin-Xara */
-     , (794, 1945313293, 1060241408, 75.6346, 28.1274, 3.108, 0.453658, 0, 0, 0.891176) /* Apple Generator */
+     , (794, 1945313293, 1060241408, 75.6346, 28.1274, 3.108, 0.453658, 0, 0, 0.891176) /* applegenerator */
      , (2385, 1945313292, 1060241408, 147.354, 166.059, 34.9491, 0.669374, 0, 0, 0.742926) /* Disaster Maze */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1945313303'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1945313303'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1945313315'; /* Linkable Monster Generator ( 3 Min.) <- Jojii Shrine */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1945313295'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1945313315'; /* linkmonstergen3minutes <- Jojii Shrine */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1945313295'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

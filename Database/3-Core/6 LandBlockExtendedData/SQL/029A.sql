@@ -40,8 +40,8 @@ VALUES (1610, 1881776128, 43647232, 233.605, -89.8014, -5.995, 0.770617, 0, 0, -
      , (23, 1881776166, 43647449, 151.993, -69.6914, 0.029, 0.211855, 0, 0, 0.977301) /* Virindi Servant */
      , (1610, 1881776167, 43647454, 151.503, -158.971, 0.005, 0.599377, 0, 0, -0.800467) /* Drudge Ravener */
      , (1610, 1881776168, 43647454, 149.891, -156.842, 0.005, 0.599377, 0, 0, -0.800467) /* Drudge Ravener */
-     , (7924, 1881776169, 43647471, 170, -200, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
-     , (7923, 1881776170, 43647471, 172.41, -200, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7924, 1881776169, 43647471, 170, -200, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7923, 1881776170, 43647471, 172.41, -200, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (9507, 1881776171, 43647474, 170, -230, 0.005, 1, 0, 0, -4.37114E-08) /* Gredaline Consulate */
      , (1629, 1881776172, 43647487, 212.267, -21.3967, 0.011, -0.701968, 0, 0, -0.712208) /* Tusker Guard */
      , (1629, 1881776173, 43647487, 213.055, -18.1433, 0.011, -0.701968, 0, 0, -0.712208) /* Tusker Guard */
@@ -61,64 +61,64 @@ VALUES (1610, 1881776128, 43647232, 233.605, -89.8014, -5.995, 0.770617, 0, 0, -
      , (1610, 1881776187, 43647572, 202.672, -27.247, 6.005, -0.923902, 0, 0, -0.382629) /* Drudge Ravener */
      , (1610, 1881776188, 43647572, 200.359, -28.5119, 6.005, -0.923902, 0, 0, -0.382629) /* Drudge Ravener */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881776169'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881776170'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881776169'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881776170'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776167'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776168'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776162'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776163'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776153'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776154'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776155'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776144'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776145'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776146'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776141'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776142'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776143'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776160'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776161'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776158'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776159'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776150'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776151'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776152'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776177'; /* Linkable Monster Generator ( 5 Min.) <- Sotiris Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776175'; /* Linkable Monster Generator ( 5 Min.) <- Sotiris Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776176'; /* Linkable Monster Generator ( 5 Min.) <- Sotiris Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776178'; /* Linkable Monster Generator ( 5 Min.) <- Sotiris Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776181'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776179'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776180'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776182'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776164'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776165'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776166'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776174'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776173'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776172'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776187'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776188'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776184'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776183'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776185'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776186'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776132'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776131'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776128'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776136'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776137'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776129'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776156'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776157'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776147'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776148'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776149'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776138'; /* Linkable Monster Generator ( 5 Min.) <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776139'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776140'; /* Linkable Monster Generator ( 5 Min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881776133'; /* Linkable Monster Generator ( 3 Min.) <- Cazamal the Envoy */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881776130'; /* Linkable Monster Generator ( 3 Min.) <- Sotiris Hollow Minion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881776135'; /* Linkable Monster Generator ( 3 Min.) <- Sotiris Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776167'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776168'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776162'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776163'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776153'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776154'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776155'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776144'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776145'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776146'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776141'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776142'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776143'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776160'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776161'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776158'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776159'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776150'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776151'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776152'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776177'; /* linkmonstergen5minutes <- Sotiris Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776175'; /* linkmonstergen5minutes <- Sotiris Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776176'; /* linkmonstergen5minutes <- Sotiris Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776178'; /* linkmonstergen5minutes <- Sotiris Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776181'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776179'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776180'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776182'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776164'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776165'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776166'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776174'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776173'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776172'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776187'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776188'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776184'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776183'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776185'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776186'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776132'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776131'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776128'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776136'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776137'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776129'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776156'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776157'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776147'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776148'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776149'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776138'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776139'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881776140'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881776133'; /* linkmonstergen3minutes <- Cazamal the Envoy */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881776130'; /* linkmonstergen3minutes <- Sotiris Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881776135'; /* linkmonstergen3minutes <- Sotiris Hollow Minion */
 

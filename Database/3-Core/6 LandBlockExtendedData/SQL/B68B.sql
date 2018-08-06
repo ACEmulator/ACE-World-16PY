@@ -6,17 +6,17 @@ VALUES (942, 2070458368, 3062562816, 88.2303, 82.3229, 80.2289, -0.770662, 0, 0,
      , (758, 2070458372, 3062562816, 88.845, 84.3543, 80.4383, 0.762967, 0, 0, 0.646438) /* Gypsum */
      , (782, 2070458373, 3062562816, 86.8629, 79.7034, 80.005, 0.954474, 0, 0, 0.298295) /* Powdered Agate */
      , (767, 2070458374, 3062562816, 81.3612, 82.4339, 80.005, 0.85404, 0, 0, -0.520208) /* Comfrey */
-     , (1154, 2070458375, 3062562816, 82.4416, 83.007, 80.005, 0.956191, 0, 0, -0.292743) /* Linkable Monster Generator */
-     , (1542, 2070458376, 3062562816, 84.9983, 86.802, 80.3217, 0.956191, 0, 0, -0.292743) /* Linkable Item Generator */;
+     , (1154, 2070458375, 3062562816, 82.4416, 83.007, 80.005, 0.956191, 0, 0, -0.292743) /* linkmonstergen */
+     , (1542, 2070458376, 3062562816, 84.9983, 86.802, 80.3217, 0.956191, 0, 0, -0.292743) /* linkitemgen */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2070458375'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2070458376'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2070458375'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2070458376'; /* linkitemgen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070458368'; /* Linkable Monster Generator <- Wood Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070458369'; /* Linkable Monster Generator <- Wood Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070458370'; /* Linkable Monster Generator <- Wood Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070458371'; /* Linkable Monster Generator <- Wood Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2070458372'; /* Linkable Item Generator <- Gypsum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2070458373'; /* Linkable Item Generator <- Powdered Agate */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2070458374'; /* Linkable Item Generator <- Comfrey */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070458368'; /* linkmonstergen <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070458369'; /* linkmonstergen <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070458370'; /* linkmonstergen <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070458371'; /* linkmonstergen <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2070458372'; /* linkitemgen <- Gypsum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2070458373'; /* linkitemgen <- Powdered Agate */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2070458374'; /* linkitemgen <- Comfrey */
 

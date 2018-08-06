@@ -1,6 +1,6 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7093, 1880383488, 21364998, 10, -60, -71.9915, -0.707107, 0, 0, -0.707107) /* Hellfire */
-     , (4025, 1880383489, 21365002, 9.76659, -91.7525, -72, 0.86102, 0, 0, -0.508571) /* Valuable Healer Generator */
+     , (4025, 1880383489, 21365002, 9.76659, -91.7525, -72, 0.86102, 0, 0, -0.508571) /* itemmedhealergen */
      , (7340, 1880383490, 21365002, 9.15785, -89.9689, -71.971, 0.899653, 0, 0, -0.436605) /* Virindi Observer */
      , (7089, 1880383491, 21365012, 21.183, -70.8004, -71.9954, -0.906124, 0, 0, -0.423013) /* Altered Drudge */
      , (7090, 1880383492, 21365012, 18.6946, -70.5372, -71.9967, 0.999977, 0, 0, -0.00676404) /* Augmented Drudge */
@@ -38,7 +38,7 @@ VALUES (7093, 1880383488, 21364998, 10, -60, -71.9915, -0.707107, 0, 0, -0.70710
      , (7395, 1880383525, 21365074, 40, -60, -59.8, 0.707107, 0, 0, -0.707107) /* Hot Air */
      , (199, 1880383526, 21365075, 41.6368, -69.954, -59.989, 0.707107, 0, 0, -0.707107) /* Magma Golem */
      , (3991, 1880383527, 21365075, 36.6967, -68.7868, -60, -0.91905, 0, 0, -0.394142) /* Chest */
-     , (4026, 1880383528, 21365075, 36.888, -72.2646, -60, 0.879752, 0, 0, -0.475433) /* Valuable Magic Generator */
+     , (4026, 1880383528, 21365075, 36.888, -72.2646, -60, 0.879752, 0, 0, -0.475433) /* itemmedmagicgen */
      , (2609, 1880383529, 21365075, 37.0668, -66.7006, -60, 0.357146, 0, 0, -0.934049) /* Lever */
      , (7395, 1880383530, 21365080, 40, -80, -59.8, -0.707107, 0, 0, -0.707107) /* Hot Air */
      , (5529, 1880383531, 21365081, 39.6264, -93.0946, -60, 1, 0, 0, 0) /* Surface Portal */
@@ -84,7 +84,7 @@ VALUES (7093, 1880383488, 21364998, 10, -60, -71.9915, -0.707107, 0, 0, -0.70710
      , (199, 1880383579, 21365268, 62.9384, -52.2574, -17.989, 0.253969, 0, 0, -0.967212) /* Magma Golem */
      , (2131, 1880383580, 21365269, 62.7319, -58.8655, -18, 0, 0, 0, -1) /* Pressure Plate */
      , (7444, 1880383581, 21365270, 60.8054, -68.8728, -15.2341, 0.0233416, 0, 0, -0.999728) /* Flame Trap */
-     , (4032, 1880383582, 21365272, 67.7767, -51.1974, -17.9611, -0.990674, 0, 0, -0.136255) /* Valuable Warrior Generator */
+     , (4032, 1880383582, 21365272, 67.7767, -51.1974, -17.9611, -0.990674, 0, 0, -0.136255) /* itemmedwarriorgen */
      , (7487, 1880383583, 21365272, 71.0244, -54.3851, -17.945, 0, 0, 0, -1) /* Inferno */
      , (5619, 1880383584, 21365272, 68.9561, -52.1938, -17.3848, 0, 0, 0, -1) /* Hot Air */
      , (2131, 1880383585, 21365273, 70, -60, -18, -4.37114E-08, 0, 0, -1) /* Pressure Plate */
@@ -102,22 +102,22 @@ VALUES (7093, 1880383488, 21364998, 10, -60, -71.9915, -0.707107, 0, 0, -0.70710
      , (22052, 1880383597, 21365362, 113.481, -30.1617, -11.9975, 0.709494, 0, 0, -0.704711) /* Seared Guard */
      , (7340, 1880383598, 21365363, 120, 0, -11.971, -4.37114E-08, 0, 0, -1) /* Virindi Observer */
      , (1922, 1880383599, 21365363, 122.729, 2.48581, -12, 0.959129, 0, 0, -0.282969) /* Chest */
-     , (4026, 1880383600, 21365373, 119.838, -34.2869, -12, 1, 0, 0, 0) /* Valuable Magic Generator */
+     , (4026, 1880383600, 21365373, 119.838, -34.2869, -12, 1, 0, 0, 0) /* itemmedmagicgen */
      , (5619, 1880383601, 21365373, 120, -30, -12, 1, 0, 0, 0) /* Hot Air */
      , (5619, 1880383602, 21365373, 117.879, -30.0188, -12, 1, 0, 0, 0) /* Hot Air */
      , (568, 1880383603, 21365378, 120, -25.25, -12, 1, 0, 0, 0) /* Door */
      , (3975, 1880383604, 21365379, 119.978, -36.991, -12, 0.004908, 0, 0, -0.999988) /* Chest */
-     , (420, 1880383605, 21365383, 128.293, -21.7217, -12, 1, 0, 0, 0) /* Item Food Generator */
-     , (420, 1880383606, 21365383, 126.815, -19.0478, -12, 1, 0, 0, 0) /* Item Food Generator */
+     , (420, 1880383605, 21365383, 128.293, -21.7217, -12, 1, 0, 0, 0) /* itemfood-generator */
+     , (420, 1880383606, 21365383, 126.815, -19.0478, -12, 1, 0, 0, 0) /* itemfood-generator */
      , (22051, 1880383607, 21365386, 126.64, -30.0278, -11.9975, -0.70122, 0, 0, -0.712945) /* Charred Miner */
      , (2131, 1880383608, 21365391, 69.6997, -49.6763, -6, -4.37114E-08, 0, 0, -1) /* Pressure Plate */
      , (7444, 1880383609, 21365391, 73.3045, -47.409, -3.44812, -4.37114E-08, 0, 0, -1) /* Flame Trap */
-     , (7923, 1880383610, 21365403, 68.4117, -20.834, 0, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1880383610, 21365403, 68.4117, -20.834, 0, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (5673, 1880383611, 21365405, 68.1217, -29.4294, 0, -0.142954, 0, 0, -0.989729) /* Charred Sign */
      , (5528, 1880383612, 21365412, 90, -20, 0, 0.707107, 0, 0, -0.707107) /* Surface Portal */;
 
 UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880383609'; /* Flame Trap */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880383610'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880383610'; /* linkmonstergen3minutes */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880383577'; /* Flame Trap */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880383524'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880383533'; /* Door */
@@ -125,53 +125,53 @@ UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `
 UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880383581'; /* Flame Trap */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880383608'; /* Flame Trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383593'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383598'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383597'; /* Linkable Monster Generator ( 3 Min.) <- Seared Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383607'; /* Linkable Monster Generator ( 3 Min.) <- Charred Miner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383586'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383572'; /* Linkable Monster Generator ( 3 Min.) <- Altered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383573'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383570'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383526'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383504'; /* Linkable Monster Generator ( 3 Min.) <- Altered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383491'; /* Linkable Monster Generator ( 3 Min.) <- Altered Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383492'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383557'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383564'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383505'; /* Linkable Monster Generator ( 3 Min.) <- Augmented Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383553'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383490'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Observer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383579'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383590'; /* Linkable Monster Generator ( 3 Min.) <- Charred Miner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383589'; /* Linkable Monster Generator ( 3 Min.) <- Charred Miner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383502'; /* Linkable Monster Generator ( 3 Min.) <- Lord Cambarth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383503'; /* Linkable Monster Generator ( 3 Min.) <- Foreman Brelax */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383498'; /* Linkable Monster Generator ( 3 Min.) <- Virindi Overseer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383545'; /* Linkable Monster Generator ( 3 Min.) <- Seared Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383546'; /* Linkable Monster Generator ( 3 Min.) <- Seared Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383548'; /* Linkable Monster Generator ( 3 Min.) <- Seared Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383549'; /* Linkable Monster Generator ( 3 Min.) <- Charred Miner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383520'; /* Linkable Monster Generator ( 3 Min.) <- Charred Miner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383512'; /* Linkable Monster Generator ( 3 Min.) <- Charred Miner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383513'; /* Linkable Monster Generator ( 3 Min.) <- Charred Miner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383541'; /* Linkable Monster Generator ( 3 Min.) <- Charred Miner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383542'; /* Linkable Monster Generator ( 3 Min.) <- Charred Miner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383555'; /* Linkable Monster Generator ( 3 Min.) <- Seared Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383554'; /* Linkable Monster Generator ( 3 Min.) <- Seared Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383591'; /* Linkable Monster Generator ( 3 Min.) <- Seared Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383575'; /* Linkable Monster Generator ( 3 Min.) <- Seared Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383576'; /* Linkable Monster Generator ( 3 Min.) <- Charred Miner */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383588'; /* Linkable Monster Generator ( 3 Min.) <- Seared Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383539'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383583'; /* Linkable Monster Generator ( 3 Min.) <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383547'; /* Linkable Monster Generator ( 3 Min.) <- Firestorm */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383536'; /* Linkable Monster Generator ( 3 Min.) <- Hellfire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383488'; /* Linkable Monster Generator ( 3 Min.) <- Hellfire */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383532'; /* Linkable Monster Generator ( 3 Min.) <- Inferno */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383521'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383517'; /* Linkable Monster Generator ( 3 Min.) <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383538'; /* Linkable Monster Generator ( 3 Min.) <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383593'; /* linkmonstergen3minutes <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383598'; /* linkmonstergen3minutes <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383597'; /* linkmonstergen3minutes <- Seared Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383607'; /* linkmonstergen3minutes <- Charred Miner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383586'; /* linkmonstergen3minutes <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383572'; /* linkmonstergen3minutes <- Altered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383573'; /* linkmonstergen3minutes <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383570'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383526'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383504'; /* linkmonstergen3minutes <- Altered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383491'; /* linkmonstergen3minutes <- Altered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383492'; /* linkmonstergen3minutes <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383557'; /* linkmonstergen3minutes <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383564'; /* linkmonstergen3minutes <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383505'; /* linkmonstergen3minutes <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383553'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383490'; /* linkmonstergen3minutes <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383579'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383590'; /* linkmonstergen3minutes <- Charred Miner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383589'; /* linkmonstergen3minutes <- Charred Miner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383502'; /* linkmonstergen3minutes <- Lord Cambarth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383503'; /* linkmonstergen3minutes <- Foreman Brelax */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383498'; /* linkmonstergen3minutes <- Virindi Overseer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383545'; /* linkmonstergen3minutes <- Seared Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383546'; /* linkmonstergen3minutes <- Seared Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383548'; /* linkmonstergen3minutes <- Seared Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383549'; /* linkmonstergen3minutes <- Charred Miner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383520'; /* linkmonstergen3minutes <- Charred Miner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383512'; /* linkmonstergen3minutes <- Charred Miner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383513'; /* linkmonstergen3minutes <- Charred Miner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383541'; /* linkmonstergen3minutes <- Charred Miner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383542'; /* linkmonstergen3minutes <- Charred Miner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383555'; /* linkmonstergen3minutes <- Seared Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383554'; /* linkmonstergen3minutes <- Seared Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383591'; /* linkmonstergen3minutes <- Seared Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383575'; /* linkmonstergen3minutes <- Seared Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383576'; /* linkmonstergen3minutes <- Charred Miner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383588'; /* linkmonstergen3minutes <- Seared Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383539'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383583'; /* linkmonstergen3minutes <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383547'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383536'; /* linkmonstergen3minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383488'; /* linkmonstergen3minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383532'; /* linkmonstergen3minutes <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383521'; /* linkmonstergen3minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383517'; /* linkmonstergen3minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880383538'; /* linkmonstergen3minutes <- Inferno */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880383578'; /* Flame Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880383529'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880383522'; /* Door <- Lever */

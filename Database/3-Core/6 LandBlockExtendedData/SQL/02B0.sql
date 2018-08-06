@@ -2,9 +2,9 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (22900, 1881866443, 45089024, 112.303, -60.6616, -5.995, -0.71514, 0, 0, 0.698981) /* Bile Grievver */
      , (8851, 1881866241, 45089028, 130, -39.426, -5.995, 1, 0, 0, 0) /* Surface Portal */
      , (7983, 1881866242, 45089028, 129.17, -42.0792, -5.995, -0.014872, 0, 0, 0.999889) /* Bane Grievver */
-     , (7923, 1881866243, 45089030, 129.639, -62.7068, -6, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
-     , (4219, 1881866244, 45089030, 132.434, -62.8905, -5.995, 0.035739, 0, 0, -0.999361) /* Linkable Monster Generator ( 7 Min.) */
-     , (7925, 1881866245, 45089031, 127.138, -70.4555, -5.995, -0.98877, 0, 0, 0.149446) /* Linkable Monster Generator ( 10 Min.) */
+     , (7923, 1881866243, 45089030, 129.639, -62.7068, -6, 1, 0, 0, 0) /* linkmonstergen3minutes */
+     , (4219, 1881866244, 45089030, 132.434, -62.8905, -5.995, 0.035739, 0, 0, -0.999361) /* linkmonstergen7minutes */
+     , (7925, 1881866245, 45089031, 127.138, -70.4555, -5.995, -0.98877, 0, 0, 0.149446) /* linkmonstergen10minutes */
      , (9000, 1881866246, 45089032, 129.709, -80.2786, -5.995, -0.00321396, 0, 0, 0.999995) /* Remnants of Ilservian */
      , (8822, 1881866247, 45089032, 129.991, -77.0294, -5.995, -0.999997, 0, 0, 0.00226004) /* A Shadow of Black Ferah */
      , (22900, 1881866444, 45089036, 147.961, -60.0662, -5.995, 0.744059, 0, 0, 0.668114) /* Bile Grievver */
@@ -205,77 +205,77 @@ VALUES (22900, 1881866443, 45089024, 112.303, -60.6616, -5.995, -0.71514, 0, 0, 
 
 UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881866396'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881866381'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881866243'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881866244'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881866243'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881866244'; /* linkmonstergen7minutes */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1881866436'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1881866439'; /* Magic trap */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881866298'; /* Door <- Button */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881866382'; /* Door <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881866429'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866250'; /* Linkable Monster Generator ( 3 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866252'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866256'; /* Linkable Monster Generator ( 3 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866258'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866259'; /* Linkable Monster Generator ( 3 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866261'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866253'; /* Linkable Monster Generator ( 3 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866255'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866416'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866412'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866414'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866418'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866430'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866434'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866431'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866432'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866433'; /* Linkable Monster Generator ( 3 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866428'; /* Linkable Monster Generator ( 3 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866427'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866426'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866425'; /* Linkable Monster Generator ( 3 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866423'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866424'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866422'; /* Linkable Monster Generator ( 3 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866242'; /* Linkable Monster Generator ( 3 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866247'; /* Linkable Monster Generator ( 3 Min.) <- A Shadow of Black Ferah */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866443'; /* Linkable Monster Generator ( 3 Min.) <- Bile Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866444'; /* Linkable Monster Generator ( 3 Min.) <- Bile Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866251'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866257'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866260'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866254'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866387'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866394'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866347'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866354'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866326'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866333'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866307'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866314'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866288'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866295'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866262'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866285'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866363'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866342'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866355'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866374'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866361'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866317'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866279'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866336'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866318'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866299'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866300'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866419'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866421'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866420'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866410'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866406'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866404'; /* Linkable Monster Generator ( 7 Min.) <- Bane Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866409'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866408'; /* Linkable Monster Generator ( 7 Min.) <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866250'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866252'; /* linkmonstergen3minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866256'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866258'; /* linkmonstergen3minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866259'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866261'; /* linkmonstergen3minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866253'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866255'; /* linkmonstergen3minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866416'; /* linkmonstergen3minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866412'; /* linkmonstergen3minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866414'; /* linkmonstergen3minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866418'; /* linkmonstergen3minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866430'; /* linkmonstergen3minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866434'; /* linkmonstergen3minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866431'; /* linkmonstergen3minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866432'; /* linkmonstergen3minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866433'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866428'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866427'; /* linkmonstergen3minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866426'; /* linkmonstergen3minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866425'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866423'; /* linkmonstergen3minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866424'; /* linkmonstergen3minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866422'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866242'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866247'; /* linkmonstergen3minutes <- A Shadow of Black Ferah */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866443'; /* linkmonstergen3minutes <- Bile Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881866444'; /* linkmonstergen3minutes <- Bile Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866251'; /* linkmonstergen7minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866257'; /* linkmonstergen7minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866260'; /* linkmonstergen7minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866254'; /* linkmonstergen7minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866387'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866394'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866347'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866354'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866326'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866333'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866307'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866314'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866288'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866295'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866262'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866285'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866363'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866342'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866355'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866374'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866361'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866317'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866279'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866336'; /* linkmonstergen7minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866318'; /* linkmonstergen7minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866299'; /* linkmonstergen7minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866300'; /* linkmonstergen7minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866419'; /* linkmonstergen7minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866421'; /* linkmonstergen7minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866420'; /* linkmonstergen7minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866410'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866406'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866404'; /* linkmonstergen7minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866409'; /* linkmonstergen7minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881866408'; /* linkmonstergen7minutes <- Shadow Phantom */
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881866435'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881866440'; /* Magic trap <- Pressure Plate */
 

@@ -10,16 +10,16 @@ VALUES (171, 2119442442, 3846308102, 116.412, 4.54109, 56.805, -0.374823, 0, 0, 
      , (5073, 2119442437, 3846307840, 100.002, 9.697, 58.005, 0.707107, 0, 0, -0.707107) /* North Nanto Outpost */
      , (4524, 2119442438, 3846307840, 91.887, 12.687, 58.005, -0.707107, 0, 0, -0.707107) /* Nanto Outpost */
      , (4524, 2119442447, 3846307840, 90.7482, 54.0737, 58.005, -0.662078, 0, 0, -0.749435) /* Nanto Outpost */
-     , (794, 2119442440, 3846307840, 101.978, 5.55757, 60.5193, -0.348421, 0, 0, 0.937338) /* Apple Generator */
+     , (794, 2119442440, 3846307840, 101.978, 5.55757, 60.5193, -0.348421, 0, 0, 0.937338) /* applegenerator */
      , (509, 2119442441, 3846307840, 85.5193, 25.5125, 58.005, 0.75579, 0, 0, -0.654814) /* Life Stone */
      , (4524, 2119442446, 3846307840, 99.0045, 2.12006, 58.005, -0.68971, 0, 0, -0.724085) /* Nanto Outpost */
      , (2567, 2119442443, 3846307840, 103.392, 18.2452, 58.005, -0.45443, 0, 0, -0.890782) /* Brown Rabbit */
-     , (3955, 2119442444, 3846307840, 103.277, 21.2613, 58.005, -0.353608, 0, 0, 0.935394) /* Linkable Monster Gen (15 min.) */
+     , (3955, 2119442444, 3846307840, 103.277, 21.2613, 58.005, -0.353608, 0, 0, 0.935394) /* linkmonstergen15minutes */
      , (4524, 2119442445, 3846307840, 93.031, 81.2447, 58.005, -0.581997, 0, 0, -0.813191) /* Nanto Outpost */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2119442444'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2119442444'; /* linkmonstergen15minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119442443'; /* Linkable Monster Gen (15 min.) <- Brown Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119442448'; /* Linkable Monster Gen (15 min.) <- Ji Ra Ping  */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119442465'; /* Linkable Monster Gen (15 min.) <- Ikomi Ra, Jojii Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119442443'; /* linkmonstergen15minutes <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119442448'; /* linkmonstergen15minutes <- Ji Ra Ping  */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119442465'; /* linkmonstergen15minutes <- Ikomi Ra, Jojii Adherent */
 

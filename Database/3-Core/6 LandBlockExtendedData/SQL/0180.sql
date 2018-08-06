@@ -56,10 +56,10 @@ VALUES (8137, 1880621056, 25166080, 19.8766, -51.707, -17.99, 0.696707, 0, 0, -0
      , (27562, 1880621110, 25166214, 25, -150, 0.005, -0.707107, 0, 0, -0.707107) /* Door */
      , (24497, 1880621111, 25166222, 31.537, -151.144, 0.01, 0.161195, 0, 0, 0.986923) /* Gotrok Tiatus */
      , (24497, 1880621112, 25166222, 28.4128, -150.095, 0.01, 0.161195, 0, 0, 0.986923) /* Gotrok Tiatus */
-     , (15759, 1880621113, 25166236, 40, -250, 0.005, 1, 0, 0, 0) /* Linkable Item Generator */
-     , (7924, 1880621114, 25166238, 41.648, -260, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
-     , (7924, 1880621115, 25166238, 40.5386, -260, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
-     , (7924, 1880621116, 25166238, 39.4984, -260, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
+     , (15759, 1880621113, 25166236, 40, -250, 0.005, 1, 0, 0, 0) /* linkitemgen10seconds */
+     , (7924, 1880621114, 25166238, 41.648, -260, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7924, 1880621115, 25166238, 40.5386, -260, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7924, 1880621116, 25166238, 39.4984, -260, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
      , (28103, 1880621117, 25166239, 39.933, -268.29, 0, -4.37114E-08, 0, 0, -1) /* Underway */
      , (24497, 1880621118, 25166242, 51.6875, -149.759, 0.01, 0.070737, 0, 0, -0.997495) /* Gotrok Tiatus */
      , (24497, 1880621119, 25166242, 47.624, -150.676, 0.01, 0.196381, 0, 0, -0.980528) /* Gotrok Tiatus */
@@ -88,74 +88,74 @@ VALUES (8137, 1880621056, 25166080, 19.8766, -51.707, -17.99, 0.696707, 0, 0, -0
      , (23617, 1880621142, 25166330, 46.7683, -197.958, 12.0065, -0.406427, 0, 0, 0.913683) /* Tumerok Champion */
      , (23617, 1880621143, 25166330, 52.4782, -201.465, 12.0065, 0.878483, 0, 0, 0.477773) /* Tumerok Champion */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880621114'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880621115'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880621116'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880621113'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880621114'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880621115'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880621116'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880621113'; /* linkitemgen10seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621079'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621078'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621123'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621124'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621126'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621125'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621119'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621118'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621134'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621135'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621140'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621141'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621138'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621139'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621142'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621143'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621130'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621131'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621136'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621137'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621111'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621112'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621107'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621108'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621105'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621106'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621128'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621129'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621085'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621086'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621089'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621090'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621064'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621065'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621068'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621069'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621091'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621092'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621061'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621062'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621056'; /* Linkable Monster Generator ( 5 Min.) <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621057'; /* Linkable Monster Generator ( 5 Min.) <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621058'; /* Linkable Monster Generator ( 5 Min.) <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621059'; /* Linkable Monster Generator ( 5 Min.) <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621076'; /* Linkable Monster Generator ( 5 Min.) <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621070'; /* Linkable Monster Generator ( 5 Min.) <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621074'; /* Linkable Monster Generator ( 5 Min.) <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621075'; /* Linkable Monster Generator ( 5 Min.) <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621094'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621095'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621071'; /* Linkable Monster Generator ( 5 Min.) <- Tiatus Raider */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621093'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621096'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621097'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621098'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621083'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621084'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621101'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621102'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621103'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621104'; /* Linkable Monster Generator ( 5 Min.) <- Gotrok Tiatus */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880621063'; /* Linkable Item Generator <- Report to Niarltah */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880621127'; /* Linkable Item Generator <- Report to Niarltah */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880621121'; /* Linkable Item Generator <- Report to Niarltah */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880621072'; /* Linkable Item Generator <- Report to Niarltah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621079'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621078'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621123'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621124'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621126'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621125'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621119'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621118'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621134'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621135'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621140'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621141'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621138'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621139'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621142'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621143'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621130'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621131'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621136'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621137'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621111'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621112'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621107'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621108'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880621105'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621106'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621128'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621129'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621085'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621086'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621089'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621090'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621064'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621065'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621068'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621069'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621091'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621092'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621061'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621062'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621056'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621057'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621058'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621059'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621076'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621070'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621074'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621075'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621094'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880621095'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621071'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621093'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621096'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621097'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621098'; /* linkmonstergen5minutes <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621083'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621084'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621101'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621102'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621103'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880621104'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880621063'; /* linkitemgen10seconds <- Report to Niarltah */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880621127'; /* linkitemgen10seconds <- Report to Niarltah */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880621121'; /* linkitemgen10seconds <- Report to Niarltah */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880621072'; /* linkitemgen10seconds <- Report to Niarltah */
 

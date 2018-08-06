@@ -16,7 +16,7 @@ VALUES (278, 1880334337, 20578576, 24.75, -20, 0, 0.707107, 0, 0, -0.707107) /* 
      , (1296, 1880334356, 20578848, 80, -28, 6, 0, 0, 0, -1) /* Door */
      , (1387, 1880334357, 20578877, 106.781, -49.8029, 6.005, -0.54128, 0, 0, -0.840843) /* Merchant */
      , (174, 1880334358, 20578904, 172.606, -72.1841, 6, 1, 0, 0, 0) /* Well */
-     , (794, 1880334359, 20578905, 171.656, -77.0465, 9.34375, -0.707107, 0, 0, -0.707107) /* Apple Generator */
+     , (794, 1880334359, 20578905, 171.656, -77.0465, 9.34375, -0.707107, 0, 0, -0.707107) /* applegenerator */
      , (2566, 1880334360, 20578907, 177.507, -82.8881, 6, -4.37114E-08, 0, 0, -1) /* Black Rabbit */
      , (2566, 1880334361, 20578907, 176.195, -83.9884, 6, 0.74613, 0, 0, -0.6658) /* Black Rabbit */
      , (4980, 1880334362, 20578907, 178.214, -80.6995, 6.05, -4.37114E-08, 0, 0, -1) /* Refreshing Fountain */
@@ -28,7 +28,7 @@ VALUES (278, 1880334337, 20578576, 24.75, -20, 0, 0.707107, 0, 0, -0.707107) /* 
      , (568, 1880334368, 20578966, 120, -44.75, 12, -4.37114E-08, 0, 0, -1) /* Door */
      , (278, 1880334369, 20578998, 135.25, -60, 12, -0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1880334370, 20579007, 154.75, -60, 12, 0.707107, 0, 0, -0.707107) /* Door */
-     , (7923, 1880334371, 20579015, 160, -50, 12, -4.37114E-08, 0, 0, -1) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1880334371, 20579015, 160, -50, 12, -4.37114E-08, 0, 0, -1) /* linkmonstergen3minutes */
      , (165, 1880334372, 20579016, 160, -60, 12.05, -4.37114E-08, 0, 0, -1) /* Pool */
      , (1912, 1880334373, 20579024, 168.38, -46.0268, 12, -1, 0, 0, 0) /* Chest */
      , (4132, 1880334374, 20579024, 173.335, -46.6571, 12.01, -0.273225, 0, 0, -0.96195) /* Russet Rat */
@@ -50,9 +50,9 @@ VALUES (278, 1880334337, 20578576, 24.75, -20, 0, 0.707107, 0, 0, -0.707107) /* 
      , (1302, 1880334390, 20579326, 165.25, -50, 30, -0.707107, 0, 0, -0.707107) /* Door */
      , (568, 1880334391, 20579396, 165.25, -60, 36, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880334371'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880334371'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880334374'; /* Linkable Monster Generator ( 3 Min.) <- Russet Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880334360'; /* Linkable Monster Generator ( 3 Min.) <- Black Rabbit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880334361'; /* Linkable Monster Generator ( 3 Min.) <- Black Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880334374'; /* linkmonstergen3minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880334360'; /* linkmonstergen3minutes <- Black Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880334361'; /* linkmonstergen3minutes <- Black Rabbit */
 

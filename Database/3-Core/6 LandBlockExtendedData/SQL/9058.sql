@@ -32,19 +32,19 @@ VALUES (4686, 2030403592, 2421686545, 173.852, 132.299, 0.005, 0.755999, 0, 0, -
      , (20225, 2030403627, 2421686272, 104.826, 14.5333, 37.605, 0.930528, 0, 0, 0.366221) /* Journeyman Scrivener of War Magic */
      , (4643, 2030403595, 2421686272, 67.0511, 62.6296, 3.48313, -0.707107, 0, 0, -0.707107) /* House of Treasure */
      , (19199, 2030403623, 2421686272, 114.493, 90.5114, 6.815, 0.715141, 0, 0, -0.69898) /* Nullified Statue of a Gromnie */
-     , (19457, 2030403617, 2421686272, 115.148, 90.5245, 7, -0.718897, 0, 0, -0.695117) /* Fireworks Generator */
-     , (7923, 2030403608, 2421686272, 131.905, 91.745, 0.005, -0.675204, 0, 0, -0.737631) /* Linkable Monster Generator ( 3 Min.) */
+     , (19457, 2030403617, 2421686272, 115.148, 90.5245, 7, -0.718897, 0, 0, -0.695117) /* fireworksgen */
+     , (7923, 2030403608, 2421686272, 131.905, 91.745, 0.005, -0.675204, 0, 0, -0.737631) /* linkmonstergen3minutes */
      , (4639, 2030403599, 2421686272, 106.632, 131.355, 9.55, 0.999001, 0, 0, 0.0446969) /* Armaments of Truth */
      , (4645, 2030403606, 2421686272, 92.568, 86.7431, -0.095, 0.125157, 0, 0, -0.992137) /* Al-Arqas */
      , (4642, 2030403601, 2421686272, 118.373, 67.4096, 2.97525, -4.37114E-08, 0, 0, -1) /* House of Peace */
      , (4645, 2030403605, 2421686272, 35.2427, 160.153, 5.34729, 0.997699, 0, 0, 0.0678047) /* Al-Arqas */
      , (27547, 2030403635, 2421686272, 142.744, 89.0523, 0.00500003, -0.362012, 0, 0, 0.932173) /* Bind Stone */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2030403608'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2030403608'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403598'; /* Linkable Monster Generator ( 3 Min.) <- Collector */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403630'; /* Linkable Monster Generator ( 3 Min.) <- Jalina al-Hajj */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403603'; /* Linkable Monster Generator ( 3 Min.) <- Jilsaya bint Dah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403631'; /* Linkable Monster Generator ( 3 Min.) <- Adara al-Rajin */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403636'; /* Linkable Monster Generator ( 3 Min.) <- Apprentice Cook */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403598'; /* linkmonstergen3minutes <- Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403630'; /* linkmonstergen3minutes <- Jalina al-Hajj */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403603'; /* linkmonstergen3minutes <- Jilsaya bint Dah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403631'; /* linkmonstergen3minutes <- Adara al-Rajin */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403636'; /* linkmonstergen3minutes <- Apprentice Cook */
 

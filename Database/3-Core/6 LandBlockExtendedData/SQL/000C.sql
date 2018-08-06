@@ -43,7 +43,7 @@ VALUES (6122, 1879097351, 786688, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (28554, 1879097424, 786739, 128.31, -48.9357, -23.995, 0.547034, 0, 0, -0.83711) /* Spiked Grievver */
      , (217, 1879097425, 786739, 128.817, -53.3726, -23.988, 0.841195, 0, 0, -0.540731) /* Gold Phyntos Wasp */
      , (217, 1879097426, 786739, 132.167, -52.7617, -23.988, 0.999946, 0, 0, -0.0103563) /* Gold Phyntos Wasp */
-     , (7923, 1879097427, 786739, 131.527, -50.721, -23.995, 0.771473, 0, 0, 0.636262) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879097427, 786739, 131.527, -50.721, -23.995, 0.771473, 0, 0, 0.636262) /* linkmonstergen3minutes */
      , (4979, 1879097367, 786745, 153.135, -53.1949, -23.995, -0.371948, 0, 0, 0.928254) /* Sewer */
      , (28554, 1879097428, 786745, 150.303, -48.2534, -23.995, -0.2682, 0, 0, 0.963363) /* Spiked Grievver */
      , (6122, 1879097368, 786751, 160, -70, -23.995, 1, 0, 0, 0) /* Acid */
@@ -61,8 +61,8 @@ VALUES (6122, 1879097351, 786688, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (20186, 1879097432, 786763, 199.157, -122.231, -23.7519, 0.855939, 0, 0, -0.517076) /* Apozim */
      , (7106, 1879097433, 786765, 209.827, -51.01, -23.988, -0.777025, 0, 0, 0.629469) /* Sewer Rat */
      , (7106, 1879097434, 786769, 212.86, -89.8223, -23.988, 0.983935, 0, 0, -0.178526) /* Sewer Rat */
-     , (15274, 1879097435, 786769, 214.564, -89.973, -23.995, 0.675254, 0, 0, -0.737586) /* Linkable Monster Gen (1 min.) */
-     , (7923, 1879097436, 786769, 210.29, -90.037, -23.995, -0.847547, 0, 0, 0.53072) /* Linkable Monster Generator ( 3 Min.) */
+     , (15274, 1879097435, 786769, 214.564, -89.973, -23.995, 0.675254, 0, 0, -0.737586) /* linkmonstergen1minute */
+     , (7923, 1879097436, 786769, 210.29, -90.037, -23.995, -0.847547, 0, 0, 0.53072) /* linkmonstergen3minutes */
      , (7106, 1879097437, 786772, 214.627, -120.019, -23.945, 0.528164, 0, 0, 0.849142) /* Sewer Rat */
      , (7106, 1879097438, 786773, 220.439, -49.5399, -23.988, -0.599831, 0, 0, 0.800127) /* Sewer Rat */
      , (7106, 1879097439, 786773, 220.278, -50.3837, -23.988, -0.599831, 0, 0, 0.800127) /* Sewer Rat */
@@ -73,7 +73,7 @@ VALUES (6122, 1879097351, 786688, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (7106, 1879097443, 786775, 219.938, -123.903, -23.988, -0.0541771, 0, 0, 0.998531) /* Sewer Rat */
      , (7106, 1879097444, 786777, 219.029, -125.663, -23.988, -0.012537, 0, 0, 0.999921) /* Sewer Rat */
      , (7106, 1879097445, 786777, 220.558, -125.625, -23.988, -0.012537, 0, 0, 0.999921) /* Sewer Rat */
-     , (7923, 1879097446, 786779, 223.946, -140.829, -23.995, 0.779241, 0, 0, 0.626725) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879097446, 786779, 223.946, -140.829, -23.995, 0.779241, 0, 0, 0.626725) /* linkmonstergen3minutes */
      , (7106, 1879097447, 786784, 229.967, -59.8961, -23.945, -0.597765, 0, 0, 0.801671) /* Sewer Rat */
      , (7106, 1879097448, 786784, 230.266, -58.8908, -23.988, -0.597765, 0, 0, 0.801671) /* Sewer Rat */
      , (7106, 1879097449, 786788, 234.011, -80.0724, -23.988, -0.303877, 0, 0, 0.952711) /* Sewer Rat */
@@ -102,13 +102,13 @@ VALUES (6122, 1879097351, 786688, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (217, 1879097471, 786833, 252.665, -99.5195, -23.988, -0.811546, 0, 0, -0.584289) /* Gold Phyntos Wasp */
      , (7105, 1879097472, 786837, 250.002, -130.348, -23.988, -0.686287, 0, 0, -0.727331) /* White Phyntos Wasp */
      , (30726, 1879097379, 786841, 0, -100, -17.995, 0.707107, 0, 0, -0.707107) /* Weakened Royal Vault */
-     , (24129, 1879097473, 786841, -2.70317, -96.7571, -17.995, 0.668142, 0, 0, 0.744034) /* Linkable Monster Generator ( 2 Min.) */
+     , (24129, 1879097473, 786841, -2.70317, -96.7571, -17.995, 0.668142, 0, 0, 0.744034) /* linkmonstergen2minutes */
      , (7105, 1879097474, 786844, 10.5016, -88.3526, -17.988, -0.0806859, 0, 0, 0.99674) /* White Phyntos Wasp */
      , (217, 1879097475, 786844, 8.18027, -88.7309, -17.988, -0.0806859, 0, 0, 0.99674) /* Gold Phyntos Wasp */
      , (7106, 1879097476, 786847, 7.49172, -96.6448, -17.988, 0.592388, 0, 0, -0.805653) /* Sewer Rat */
      , (28554, 1879097477, 786847, 10.1355, -100.335, -17.995, -0.715727, 0, 0, 0.69838) /* Spiked Grievver */
      , (7106, 1879097478, 786853, 9.44186, -109.46, -17.988, 0.965339, 0, 0, -0.260999) /* Sewer Rat */
-     , (15274, 1879097479, 786853, 12.0122, -110.345, -17.995, 0.998373, 0, 0, -0.057028) /* Linkable Monster Gen (1 min.) */
+     , (15274, 1879097479, 786853, 12.0122, -110.345, -17.995, 0.998373, 0, 0, -0.057028) /* linkmonstergen1minute */
      , (7105, 1879097480, 786853, 7.48358, -108.827, -17.988, -0.979483, 0, 0, 0.201526) /* White Phyntos Wasp */
      , (217, 1879097481, 786856, 22.0157, -89.2074, -17.988, -0.102334, 0, 0, -0.99475) /* Gold Phyntos Wasp */
      , (7105, 1879097482, 786856, 19.0949, -88.4342, -17.988, 0.115108, 0, 0, -0.993353) /* White Phyntos Wasp */
@@ -124,7 +124,7 @@ VALUES (6122, 1879097351, 786688, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (217, 1879097492, 786877, 29.306, -110.43, -17.988, -0.980619, 0, 0, -0.195923) /* Gold Phyntos Wasp */
      , (217, 1879097493, 786877, 30.4427, -111.939, -17.988, -0.999754, 0, 0, -0.022196) /* Gold Phyntos Wasp */
      , (28554, 1879097494, 786880, 40.0863, -91.0375, -17.995, 0.00312, 0, 0, -0.999995) /* Spiked Grievver */
-     , (24129, 1879097495, 786881, 42.6553, -102.66, -17.995, 0.566507, 0, 0, -0.824057) /* Linkable Monster Generator ( 2 Min.) */
+     , (24129, 1879097495, 786881, 42.6553, -102.66, -17.995, 0.566507, 0, 0, -0.824057) /* linkmonstergen2minutes */
      , (28554, 1879097496, 786882, 40.394, -108.249, -17.995, 0.978716, 0, 0, -0.20522) /* Spiked Grievver */
      , (7106, 1879097497, 786896, 127.201, -71.7009, -17.988, -0.923844, 0, 0, 0.382768) /* Sewer Rat */
      , (7106, 1879097498, 786896, 131.178, -70.9296, -17.988, -0.996527, 0, 0, -0.083271) /* Sewer Rat */
@@ -145,11 +145,11 @@ VALUES (6122, 1879097351, 786688, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (28554, 1879097512, 786921, 148.472, -78.7605, -17.995, -0.679682, 0, 0, -0.733507) /* Spiked Grievver */
      , (7106, 1879097513, 786933, 168.05, -93.1412, -17.988, 0.999995, 0, 0, 0.00316219) /* Sewer Rat */
      , (7106, 1879097514, 786933, 167.703, -87.5541, -17.988, 0.666837, 0, 0, -0.745203) /* Sewer Rat */
-     , (15274, 1879097515, 786933, 168.216, -89.6698, -17.995, 0.743501, 0, 0, -0.668734) /* Linkable Monster Gen (1 min.) */
+     , (15274, 1879097515, 786933, 168.216, -89.6698, -17.995, 0.743501, 0, 0, -0.668734) /* linkmonstergen1minute */
      , (28554, 1879097516, 786933, 170.752, -91.0594, -17.995, 0.99698, 0, 0, -0.0776602) /* Spiked Grievver */
      , (217, 1879097517, 786941, 187.248, -47.2484, -17.988, 0.495368, 0, 0, -0.868683) /* Gold Phyntos Wasp */
      , (7105, 1879097518, 786941, 189.73, -46.7678, -17.988, -0.201622, 0, 0, 0.979463) /* White Phyntos Wasp */
-     , (7923, 1879097519, 786941, 187.478, -50.8353, -17.995, -0.66892, 0, 0, 0.743334) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879097519, 786941, 187.478, -50.8353, -17.995, -0.66892, 0, 0, 0.743334) /* linkmonstergen3minutes */
      , (7105, 1879097520, 786943, 191.415, -72.3552, -17.988, 0.999983, 0, 0, 0.00574592) /* White Phyntos Wasp */
      , (217, 1879097521, 786943, 188.61, -71.6326, -17.988, 0.94947, 0, 0, -0.313859) /* Gold Phyntos Wasp */
      , (217, 1879097522, 786943, 186.318, -68.53, -17.988, 0.763897, 0, 0, -0.645338) /* Gold Phyntos Wasp */
@@ -199,11 +199,11 @@ VALUES (6122, 1879097351, 786688, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (4979, 1879097389, 787052, 156.973, -56.7616, -11.995, -0.882639, 0, 0, -0.470051) /* Sewer */
      , (7106, 1879097558, 787052, 162.223, -58.4854, -11.988, 0.38924, 0, 0, 0.921136) /* Sewer Rat */
      , (7106, 1879097559, 787052, 158.471, -62.5663, -11.988, 0.885989, 0, 0, 0.463706) /* Sewer Rat */
-     , (15274, 1879097560, 787052, 160.142, -60.1576, -11.995, 0.885989, 0, 0, 0.463706) /* Linkable Monster Gen (1 min.) */
+     , (15274, 1879097560, 787052, 160.142, -60.1576, -11.995, 0.885989, 0, 0, 0.463706) /* linkmonstergen1minute */
      , (217, 1879097561, 787052, 162.016, -62.3806, -11.988, -0.792744, 0, 0, -0.609554) /* Gold Phyntos Wasp */
-     , (7923, 1879097562, 787052, 159.029, -61.5866, -11.995, -0.792744, 0, 0, -0.609554) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879097562, 787052, 159.029, -61.5866, -11.995, -0.792744, 0, 0, -0.609554) /* linkmonstergen3minutes */
      , (7106, 1879097563, 787060, 166.604, -31.0757, -11.945, 0.790177, 0, 0, -0.612879) /* Sewer Rat */
-     , (15274, 1879097564, 787060, 165.833, -29.5279, -11.995, 0.752314, 0, 0, -0.658805) /* Linkable Monster Gen (1 min.) */
+     , (15274, 1879097564, 787060, 165.833, -29.5279, -11.995, 0.752314, 0, 0, -0.658805) /* linkmonstergen1minute */
      , (7106, 1879097565, 787062, 165.722, -49.5608, -11.988, 0.492753, 0, 0, 0.870169) /* Sewer Rat */
      , (7106, 1879097566, 787066, 175.83, -20.5345, -11.988, -0.453516, 0, 0, -0.891248) /* Sewer Rat */
      , (7106, 1879097567, 787067, 180.036, -27.1487, -11.988, -0.373351, 0, 0, 0.92769) /* Sewer Rat */
@@ -211,7 +211,7 @@ VALUES (6122, 1879097351, 786688, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (7106, 1879097569, 787068, 180.246, -29.8391, -11.988, -0.586767, 0, 0, -0.809756) /* Sewer Rat */
      , (7105, 1879097570, 787076, 180.29, -78.6993, -11.988, -0.00276762, 0, 0, -0.999996) /* White Phyntos Wasp */
      , (7105, 1879097571, 787076, 182.066, -81.239, -11.988, -0.346583, 0, 0, -0.938019) /* White Phyntos Wasp */
-     , (7923, 1879097572, 787076, 179.983, -82.1422, -11.995, -0.346583, 0, 0, -0.938019) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1879097572, 787076, 179.983, -82.1422, -11.995, -0.346583, 0, 0, -0.938019) /* linkmonstergen3minutes */
      , (217, 1879097573, 787081, 179.887, -100.066, -11.988, -0.929621, 0, 0, 0.368516) /* Gold Phyntos Wasp */
      , (4979, 1879097390, 787082, 179.063, -100.966, -11.995, -0.366272, 0, 0, -0.930508) /* Sewer */
      , (7105, 1879097574, 787088, 191.468, -90.394, -11.988, -0.603415, 0, 0, 0.797428) /* White Phyntos Wasp */
@@ -252,207 +252,207 @@ VALUES (6122, 1879097351, 786688, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (30718, 1879097347, 787179, 100, 0, 0.005, -0.720278, 0, 0, -0.693685) /* Surface */
      , (4979, 1879097348, 787188, 130.937, 0.965726, 0.005, 0.930508, 0, 0, -0.366272) /* Sewer */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879097564'; /* Linkable Monster Gen (1 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879097519'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879097435'; /* Linkable Monster Gen (1 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879097436'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1879097446'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1879097515'; /* Linkable Monster Gen (1 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1879097427'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1879097560'; /* Linkable Monster Gen (1 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1879097562'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1879097572'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1879097479'; /* Linkable Monster Gen (1 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1879097495'; /* Linkable Monster Generator ( 2 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1879097473'; /* Linkable Monster Generator ( 2 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879097564'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879097519'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879097435'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879097436'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1879097446'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1879097515'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1879097427'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1879097560'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1879097562'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1879097572'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1879097479'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1879097495'; /* linkmonstergen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1879097473'; /* linkmonstergen2minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097543'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097546'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097554'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097544'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097545'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097569'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097567'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097566'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097568'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097555'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097556'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097565'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097547'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097563'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097557'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097576'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097525'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097526'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097577'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097524'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097517'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097518'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097434'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097441'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097450'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097449'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097455'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097454'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097448'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097447'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097440'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097438'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097439'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097433'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097537'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097538'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097540'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097520'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097536'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097521'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097522'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097531'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097532'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097541'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097542'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097527'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097528'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097533'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097534'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097535'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097539'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097529'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097530'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097462'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097461'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097465'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097466'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097463'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097464'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097469'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097470'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097467'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097468'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097457'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097458'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097471'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097456'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097460'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097453'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097459'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097472'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097451'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097452'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097442'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097445'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097437'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097443'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097444'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097514'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097523'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097513'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097429'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097430'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097432'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097431'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097408'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097409'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097516'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097428'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097404'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097403'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097407'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097406'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097401'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097402'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097399'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097400'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097425'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097426'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097405'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097424'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097498'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097499'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097497'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097511'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097508'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097500'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097504'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097559'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097509'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097558'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097502'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097505'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097512'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097501'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097507'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097510'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097506'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097503'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097561'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097578'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097584'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097588'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097587'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097593'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097594'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097595'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097585'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097586'; /* Linkable Monster Generator ( 3 Min.) <- Apozim */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097597'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097598'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097596'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097599'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097592'; /* Linkable Monster Generator ( 3 Min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097589'; /* Linkable Monster Generator ( 3 Min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097600'; /* Linkable Monster Generator ( 3 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097591'; /* Linkable Monster Generator ( 3 Min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097574'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097579'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097590'; /* Linkable Monster Generator ( 3 Min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097575'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097582'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097580'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097581'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097573'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097570'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097583'; /* Linkable Monster Generator ( 3 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097571'; /* Linkable Monster Generator ( 3 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097478'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097476'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097548'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097549'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097418'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097413'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097550'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097551'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097483'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097484'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097410'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097490'; /* Linkable Monster Gen (1 min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097552'; /* Linkable Monster Generator ( 2 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097411'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097419'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097414'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097553'; /* Linkable Monster Generator ( 2 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097423'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097422'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097421'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097415'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097412'; /* Linkable Monster Generator ( 2 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097417'; /* Linkable Monster Generator ( 2 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097420'; /* Linkable Monster Generator ( 2 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097416'; /* Linkable Monster Generator ( 2 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097494'; /* Linkable Monster Generator ( 2 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097496'; /* Linkable Monster Generator ( 2 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097477'; /* Linkable Monster Generator ( 2 Min.) <- Spiked Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097491'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097489'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097488'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097487'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097485'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097481'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097493'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097492'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097474'; /* Linkable Monster Generator ( 2 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097480'; /* Linkable Monster Generator ( 2 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097486'; /* Linkable Monster Generator ( 2 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097482'; /* Linkable Monster Generator ( 2 Min.) <- White Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097475'; /* Linkable Monster Generator ( 2 Min.) <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097543'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097546'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097554'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097544'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097545'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097569'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097567'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097566'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097568'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097555'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097556'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097565'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097547'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879097563'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097557'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097576'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097525'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097526'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097577'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097524'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097517'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879097518'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097434'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097441'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097450'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097449'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097455'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097454'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097448'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097447'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097440'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097438'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097439'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097433'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097537'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097538'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879097540'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097520'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097536'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097521'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097522'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097531'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097532'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097541'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097542'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097527'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097528'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097533'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097534'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097535'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097539'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097529'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879097530'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097462'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097461'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097465'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097466'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097463'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097464'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097469'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097470'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097467'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097468'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097457'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097458'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097471'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097456'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097460'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097453'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097459'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097472'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097451'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879097452'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097442'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097445'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097437'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097443'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097444'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097514'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097523'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879097513'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097429'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097430'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097432'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097431'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097408'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097409'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097516'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097428'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097404'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097403'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097407'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097406'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097401'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097402'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097399'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097400'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097425'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097426'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097405'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879097424'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097498'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097499'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097497'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097511'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097508'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097500'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097504'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097559'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097509'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879097558'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097502'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097505'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097512'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097501'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097507'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097510'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097506'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097503'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879097561'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097578'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097584'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097588'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097587'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097593'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097594'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097595'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097585'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097586'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097597'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097598'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097596'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097599'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097592'; /* linkmonstergen3minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097589'; /* linkmonstergen3minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097600'; /* linkmonstergen3minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097591'; /* linkmonstergen3minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097574'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097579'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097590'; /* linkmonstergen3minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097575'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097582'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097580'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097581'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097573'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097570'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097583'; /* linkmonstergen3minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879097571'; /* linkmonstergen3minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097478'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097476'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097548'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097549'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097418'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097413'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097550'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097551'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097483'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097484'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097410'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879097490'; /* linkmonstergen1minute <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097552'; /* linkmonstergen2minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097411'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097419'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097414'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097553'; /* linkmonstergen2minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097423'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097422'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097421'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097415'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097412'; /* linkmonstergen2minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097417'; /* linkmonstergen2minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097420'; /* linkmonstergen2minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097416'; /* linkmonstergen2minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097494'; /* linkmonstergen2minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879097496'; /* linkmonstergen2minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097477'; /* linkmonstergen2minutes <- Spiked Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097491'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097489'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097488'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097487'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097485'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097481'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097493'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097492'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097474'; /* linkmonstergen2minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097480'; /* linkmonstergen2minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097486'; /* linkmonstergen2minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097482'; /* linkmonstergen2minutes <- White Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879097475'; /* linkmonstergen2minutes <- Gold Phyntos Wasp */
 
