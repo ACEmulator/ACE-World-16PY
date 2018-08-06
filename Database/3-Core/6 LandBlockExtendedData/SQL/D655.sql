@@ -3,7 +3,7 @@ VALUES (412, 2103791616, 3595895045, 107.05, 82.24, 52.01, -1, 0, 0, 0) /* Door 
      , (720, 2103791617, 3595895056, 161.441, 111.957, 44, 0.707107, 0, 0, 0.707107) /* Sliding Door */
      , (720, 2103791618, 3595895057, 150.541, 104.032, 44, 0.707107, 0, 0, -0.707107) /* Sliding Door */
      , (12725, 2103791636, 3595895062, 61.3864, 33.9821, 52.005, -0.376478, 0, 0, -0.926426) /* Sentry */
-     , (7923, 2103791635, 3595895062, 62.5377, 32.5295, 52.005, 0.891101, 0, 0, -0.453806) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2103791635, 3595895062, 62.5377, 32.5295, 52.005, 0.891101, 0, 0, -0.453806) /* linkmonstergen3minutes */
      , (722, 2103791619, 3595894784, 156, 102.475, 44, 1, 0, 0, 0) /* Door */
      , (722, 2103791620, 3595894784, 156, 113.525, 44, -4.37114E-08, 0, 0, -1) /* Door */
      , (4488, 2103791621, 3595894784, 107.927, 74.467, 52.005, 1, 0, 0, 0) /* Shoushi West Training Academy Portal */
@@ -18,7 +18,7 @@ VALUES (412, 2103791616, 3595895045, 107.05, 82.24, 52.01, -1, 0, 0, 0) /* Door 
      , (5142, 2103791630, 3595894784, 107.622, 71.0277, 52.005, -0.998231, 0, 0, 0.0594489) /* IMPORTANT SIGN  */
      , (6441, 2103791633, 3595894784, 162.034, 75.6874, 44.005, 0.707107, 0, 0, -0.707107) /* Well */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2103791635'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2103791635'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103791636'; /* Linkable Monster Generator ( 3 Min.) <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103791636'; /* linkmonstergen3minutes <- Sentry */
 

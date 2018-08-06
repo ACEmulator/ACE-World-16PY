@@ -40,7 +40,7 @@ VALUES (22910, 1880821815, 28377344, 9.95205, -138.09, -35.9935, 0.73704, 0, 0, 
      , (22911, 1880821782, 28377532, 54.0474, -189.207, -29.9935, -0.707107, 0, 0, -0.707107) /* Paroxysm Shadow */
      , (22911, 1880821783, 28377532, 52.5814, -189.382, -29.9935, 0.643289, 0, 0, -0.765624) /* Paroxysm Shadow */
      , (25331, 1880821805, 28377532, 52.5693, -192.774, -29.995, 0.437572, 0, 0, -0.899184) /* Alloy Engine */
-     , (15759, 1880821806, 28377532, 54.2999, -192.156, -29.995, 0.118091, 0, 0, -0.993003) /* Linkable Item Generator */
+     , (15759, 1880821806, 28377532, 54.2999, -192.156, -29.995, 0.118091, 0, 0, -0.993003) /* linkitemgen10seconds */
      , (7178, 1880821833, 28377576, 30.7119, -68.1308, -11.995, 0.379084, 0, 0, -0.925362) /* Cursed Bones */
      , (7178, 1880821784, 28377584, 40, -80, -11.9935, 1, 0, 0, 0) /* Cursed Bones */
      , (7122, 1880821785, 28377596, 0.452896, -33.9395, -5.90906, 0.684388, 0, 0, -0.729118) /* Great Skeleton */
@@ -82,90 +82,90 @@ VALUES (22910, 1880821815, 28377344, 9.95205, -138.09, -35.9935, 0.73704, 0, 0, 
      , (7122, 1880821848, 28377763, 10, -30, 6.0065, 0.861019, 0, 0, -0.508572) /* Great Skeleton */
      , (7178, 1880821849, 28377763, 9.35302, -28.2716, 6.005, 0.00913723, 0, 0, 0.999958) /* Cursed Bones */
      , (7178, 1880821850, 28377763, 11.4522, -31.262, 6.005, 0.834075, 0, 0, 0.551651) /* Cursed Bones */
-     , (7923, 1880821814, 28377785, 40, 0, 6.005, 1, 0, 0, -4.37114E-08) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1880821814, 28377785, 40, 0, 6.005, 1, 0, 0, -4.37114E-08) /* linkmonstergen3minutes */
      , (1602, 1880821803, 28377792, 50, 0, 6, -0.707107, 0, 0, -0.707107) /* Surface */
      , (568, 1880821804, 28377794, 45.25, 1.62586E-07, 6, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880821806'; /* Linkable Item Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880821814'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880821806'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880821814'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880821805'; /* Linkable Item Generator <- Alloy Engine */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821798'; /* Linkable Monster Generator ( 3 Min.) <- Tart Apple */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821799'; /* Linkable Monster Generator ( 3 Min.) <- Tart Apple */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821801'; /* Linkable Monster Generator ( 3 Min.) <- Tart Apple */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821794'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821793'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821792'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821795'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821813'; /* Linkable Monster Generator ( 3 Min.) <- Tart Apple */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821810'; /* Linkable Monster Generator ( 3 Min.) <- Tart Apple */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821809'; /* Linkable Monster Generator ( 3 Min.) <- Tart Apple */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821812'; /* Linkable Monster Generator ( 3 Min.) <- Tart Apple */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821811'; /* Linkable Monster Generator ( 3 Min.) <- Tart Apple */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821808'; /* Linkable Monster Generator ( 3 Min.) <- Tart Apple */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821807'; /* Linkable Monster Generator ( 3 Min.) <- Tart Apple */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821762'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821763'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821783'; /* Linkable Monster Generator ( 3 Min.) <- Paroxysm Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821781'; /* Linkable Monster Generator ( 3 Min.) <- Paroxysm Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821779'; /* Linkable Monster Generator ( 3 Min.) <- Paroxysm Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821760'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821761'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821782'; /* Linkable Monster Generator ( 3 Min.) <- Paroxysm Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821784'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821790'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821773'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821785'; /* Linkable Monster Generator ( 3 Min.) <- Great Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821787'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821791'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821789'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821788'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821786'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821777'; /* Linkable Monster Generator ( 3 Min.) <- Gem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821769'; /* Linkable Monster Generator ( 3 Min.) <- Paroxysm Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821771'; /* Linkable Monster Generator ( 3 Min.) <- Gem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821772'; /* Linkable Monster Generator ( 3 Min.) <- Gem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821775'; /* Linkable Monster Generator ( 3 Min.) <- Gem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821776'; /* Linkable Monster Generator ( 3 Min.) <- Gem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821770'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821774'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821764'; /* Linkable Monster Generator ( 3 Min.) <- Heavy Bracelet */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821765'; /* Linkable Monster Generator ( 3 Min.) <- Ring */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821766'; /* Linkable Monster Generator ( 3 Min.) <- Ring */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821836'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821835'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821839'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821838'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821840'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821847'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821834'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821837'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821845'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821843'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821846'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821844'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821850'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821849'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821842'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821841'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821848'; /* Linkable Monster Generator ( 3 Min.) <- Great Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821832'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821828'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821829'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821831'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821830'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821821'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821823'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821825'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821824'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821816'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821818'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821817'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821815'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821827'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821822'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821819'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821820'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821833'; /* Linkable Monster Generator ( 3 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821826'; /* Linkable Monster Generator ( 3 Min.) <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880821805'; /* linkitemgen10seconds <- Alloy Engine */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821798'; /* linkmonstergen3minutes <- Tart Apple */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821799'; /* linkmonstergen3minutes <- Tart Apple */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821801'; /* linkmonstergen3minutes <- Tart Apple */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821794'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821793'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821792'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821795'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821813'; /* linkmonstergen3minutes <- Tart Apple */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821810'; /* linkmonstergen3minutes <- Tart Apple */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821809'; /* linkmonstergen3minutes <- Tart Apple */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821812'; /* linkmonstergen3minutes <- Tart Apple */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821811'; /* linkmonstergen3minutes <- Tart Apple */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821808'; /* linkmonstergen3minutes <- Tart Apple */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821807'; /* linkmonstergen3minutes <- Tart Apple */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821762'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821763'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821783'; /* linkmonstergen3minutes <- Paroxysm Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821781'; /* linkmonstergen3minutes <- Paroxysm Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821779'; /* linkmonstergen3minutes <- Paroxysm Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821760'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821761'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821782'; /* linkmonstergen3minutes <- Paroxysm Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821784'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821790'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821773'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821785'; /* linkmonstergen3minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821787'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821791'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821789'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821788'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821786'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821777'; /* linkmonstergen3minutes <- Gem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821769'; /* linkmonstergen3minutes <- Paroxysm Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821771'; /* linkmonstergen3minutes <- Gem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821772'; /* linkmonstergen3minutes <- Gem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821775'; /* linkmonstergen3minutes <- Gem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821776'; /* linkmonstergen3minutes <- Gem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821770'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821774'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821764'; /* linkmonstergen3minutes <- Heavy Bracelet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821765'; /* linkmonstergen3minutes <- Ring */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821766'; /* linkmonstergen3minutes <- Ring */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821836'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821835'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821839'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821838'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821840'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821847'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821834'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821837'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821845'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821843'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821846'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821844'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821850'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821849'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821842'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821841'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821848'; /* linkmonstergen3minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821832'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821828'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821829'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821831'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821830'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821821'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821823'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821825'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821824'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821816'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821818'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821817'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821815'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821827'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821822'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821819'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821820'; /* linkmonstergen3minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821833'; /* linkmonstergen3minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880821826'; /* linkmonstergen3minutes <- Pandemonium Shadow */
 

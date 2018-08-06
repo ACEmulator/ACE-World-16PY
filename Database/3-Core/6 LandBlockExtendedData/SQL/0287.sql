@@ -10,10 +10,10 @@ VALUES (11494, 1881698304, 42402052, 30.5353, -27.1066, -12, -0.995481, 0, 0, 0.
      , (11494, 1881698312, 42402075, 69.1664, -25.9946, -11.995, 0.786875, 0, 0, -0.617113) /* Carenzi Pouchling */
      , (11494, 1881698313, 42402075, 72.5981, -29.0082, -11.995, 0.385535, 0, 0, -0.922693) /* Carenzi Pouchling */
      , (11331, 1881698314, 42402076, 70.2365, -39.7375, -9.23449, 0, 0, 0, -1) /* Aun Papileona's Chest */
-     , (11334, 1881698315, 42402076, 70.266, -35.174, -11.995, 1, 0, 0, 0) /* Carenzi Generator */
-     , (11333, 1881698316, 42402076, 70.3052, -35.8354, -11.995, 0, 0, 0, -1) /* Butterfly Generator (Linkable) */
+     , (11334, 1881698315, 42402076, 70.266, -35.174, -11.995, 1, 0, 0, 0) /* bethelcarenzigen-xp */
+     , (11333, 1881698316, 42402076, 70.3052, -35.8354, -11.995, 0, 0, 0, -1) /* bethelbutterflyswarmgen-xp */
      , (11494, 1881698317, 42402078, 79.6572, -33.421, -11.9907, -0.916893, 0, 0, -0.399132) /* Carenzi Pouchling */
-     , (4219, 1881698318, 42402078, 80.778, -32.217, -11.995, -0.916893, 0, 0, -0.399132) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1881698318, 42402078, 80.778, -32.217, -11.995, -0.916893, 0, 0, -0.399132) /* linkmonstergen7minutes */
      , (11494, 1881698319, 42402078, 77.0983, -26.636, -11.995, 0.860749, 0, 0, -0.50903) /* Carenzi Pouchling */
      , (11494, 1881698320, 42402095, 109.687, -23.7721, -11.945, -0.960108, 0, 0, -0.279629) /* Carenzi Pouchling */
      , (11494, 1881698321, 42402096, 110, -30, -11.9907, 0.62161, 0, 0, 0.783327) /* Carenzi Pouchling */
@@ -48,43 +48,43 @@ VALUES (11494, 1881698304, 42402052, 30.5353, -27.1066, -12, -0.995481, 0, 0, 0.
      , (11494, 1881698350, 42402424, 120, -30, 0.00935, 1, 0, 0, 0) /* Carenzi Pouchling */
      , (11494, 1881698351, 42402441, 130, -50, 0.00935, 0.992198, 0, 0, -0.124675) /* Carenzi Pouchling */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881698318'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881698318'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698306'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698309'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698310'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698326'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698325'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698327'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698322'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698324'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698323'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698339'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698340'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698342'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698317'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698321'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698320'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698304'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698331'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698330'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698329'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698332'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698347'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698350'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698351'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698349'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698335'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698333'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698337'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698345'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698348'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698346'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698307'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698319'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698312'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698313'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Pouchling */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698308'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698311'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Sentry */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698305'; /* Linkable Monster Generator ( 7 Min.) <- Carenzi Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698306'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698309'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698310'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698326'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698325'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698327'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698322'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698324'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698323'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698339'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698340'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698342'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698317'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698321'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698320'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698304'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698331'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698330'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698329'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698332'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698347'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698350'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698351'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698349'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698335'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698333'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698337'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698345'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698348'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698346'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698307'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698319'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698312'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698313'; /* linkmonstergen7minutes <- Carenzi Pouchling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698308'; /* linkmonstergen7minutes <- Carenzi Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698311'; /* linkmonstergen7minutes <- Carenzi Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881698305'; /* linkmonstergen7minutes <- Carenzi Sentry */
 

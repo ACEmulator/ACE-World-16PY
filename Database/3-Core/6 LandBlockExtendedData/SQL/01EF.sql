@@ -18,12 +18,12 @@ VALUES (1620, 1881075712, 32440580, 87.0843, -137.111, -66, -0.07487, 0, 0, -0.9
      , (1626, 1881075882, 32440692, 38.5287, -187.566, -35.988, 0.707107, 0, 0, -0.707107) /* Silver Rat */
      , (3632, 1881075729, 32440695, 53.0237, -140, -36, 0.707107, 0, 0, -0.707107) /* Old Mine */
      , (204, 1881075730, 32440706, 49.9465, -193.504, -35.9925, 1, 0, 0, 0) /* Lich */
-     , (419, 1881075731, 32440708, 52.708, -198.114, -36, 1, 0, 0, 0) /* Item Clothing Generator */
+     , (419, 1881075731, 32440708, 52.708, -198.114, -36, 1, 0, 0, 0) /* itemclothing-generator */
      , (1916, 1881075732, 32440708, 46.0439, -201.015, -36, -0.692851, 0, 0, -0.72108) /* Chest */
      , (1089, 1881075733, 32440711, 60.0384, -123.574, -36, -4.37114E-08, 0, 0, -1) /* Surface */
      , (1339, 1881075734, 32440729, 66.5833, -130, -36, -0.707107, 0, 0, -0.707107) /* Moss Chamber */
      , (204, 1881075735, 32440742, 80.0199, -152.432, -35.9925, 1, 0, 0, 0) /* Lich */
-     , (4010, 1881075736, 32440762, 28.0874, -92.4075, -24, 0.707107, 0, 0, -0.707107) /* Cheap General Generator */
+     , (4010, 1881075736, 32440762, 28.0874, -92.4075, -24, 0.707107, 0, 0, -0.707107) /* itemlowgeneralgen */
      , (204, 1881075737, 32440762, 31.4579, -89.9197, -23.9925, 0.747146, 0, 0, -0.66466) /* Lich */
      , (204, 1881075738, 32440769, 40, -90, -23.9925, -0.141117, 0, 0, -0.989993) /* Lich */
      , (204, 1881075740, 32440782, 88.0472, -78.0193, -23.9925, 0.418561, 0, 0, -0.908189) /* Lich */
@@ -39,7 +39,7 @@ VALUES (1620, 1881075712, 32440580, 87.0843, -137.111, -66, -0.07487, 0, 0, -0.9
      , (204, 1881075752, 32440855, 133.144, -23.1449, -23.9925, -4.37114E-08, 0, 0, -1) /* Lich */
      , (171, 1881075753, 32440868, 130.067, -52.162, -24, 1, 0, 0, 0) /* Vat */
      , (7087, 1881075754, 32440873, 130.174, -69.9732, -23.9923, -0.996089, 0, 0, -0.088351) /* Banderling Ogre */
-     , (420, 1881075755, 32440877, 133.113, -92.6349, -24, 1, 0, 0, 0) /* Item Food Generator */
+     , (420, 1881075755, 32440877, 133.113, -92.6349, -24, 1, 0, 0, 0) /* itemfood-generator */
      , (1916, 1881075756, 32440877, 129.664, -93.6215, -24, -0.028249, 0, 0, -0.999601) /* Chest */
      , (7087, 1881075757, 32440877, 128.756, -89.037, -23.9923, 1, 0, 0, 0) /* Banderling Ogre */
      , (22809, 1881075758, 32440877, 131.382, -88.2837, -23.9923, 1, 0, 0, 0) /* Banderling Bandit */
@@ -54,7 +54,7 @@ VALUES (1620, 1881075712, 32440580, 87.0843, -137.111, -66, -0.07487, 0, 0, -0.9
      , (22809, 1881075767, 32440920, 159.933, -101.592, -23.9923, 0.997999, 0, 0, -0.0632251) /* Banderling Bandit */
      , (1298, 1881075768, 32440921, 164.75, -110, -24, 0.707107, 0, 0, -0.707107) /* Door */
      , (7345, 1881075769, 32440927, 179.452, -97.6193, -23.9923, 0.26524, 0, 0, -0.964182) /* Banderling Striker */
-     , (420, 1881075770, 32440932, 177.432, -121.431, -24, 1, 0, 0, 0) /* Item Food Generator */
+     , (420, 1881075770, 32440932, 177.432, -121.431, -24, 1, 0, 0, 0) /* itemfood-generator */
      , (7345, 1881075771, 32440932, 178.422, -118.716, -23.9929, 0.990207, 0, 0, -0.139605) /* Banderling Striker */
      , (7345, 1881075772, 32440936, 190, -100, -23.9923, 1, 0, 0, 0) /* Banderling Striker */
      , (1626, 1881075884, 32440947, 40, -150, -17.988, 0.707107, 0, 0, -0.707107) /* Silver Rat */
@@ -82,7 +82,7 @@ VALUES (1620, 1881075712, 32440580, 87.0843, -137.111, -66, -0.07487, 0, 0, -0.9
      , (1626, 1881075895, 32441142, 99.1975, -117.151, -11.988, 0.343045, 0, 0, -0.939319) /* Silver Rat */
      , (278, 1881075797, 32441174, 35.25, -90, -6, -0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1881075798, 32441177, 54.75, -100, -6, 0.707107, 0, 0, -0.707107) /* Door */
-     , (419, 1881075799, 32441181, 60.5048, -83.1611, -6, -4.37114E-08, 0, 0, -1) /* Item Clothing Generator */
+     , (419, 1881075799, 32441181, 60.5048, -83.1611, -6, -4.37114E-08, 0, 0, -1) /* itemclothing-generator */
      , (278, 1881075800, 32441189, 74.75, -110, -6, 0.707107, 0, 0, -0.707107) /* Door */
      , (1626, 1881075896, 32441192, 67.967, -139.371, -5.988, 0.707107, 0, 0, -0.707107) /* Silver Rat */
      , (1626, 1881075897, 32441192, 71.4203, -141.91, -5.988, 0.977692, 0, 0, -0.210045) /* Silver Rat */
@@ -137,16 +137,16 @@ VALUES (1620, 1881075712, 32440580, 87.0843, -137.111, -66, -0.07487, 0, 0, -0.9
      , (278, 1881075855, 32441290, 30, -75.245, 0, 1, 0, 0, 0) /* Door */
      , (278, 1881075856, 32441300, 54.75, -70, 0, 0.707107, 0, 0, -0.707107) /* Door */
      , (1089, 1881075859, 32441309, 71.8056, -70.2675, 0.298815, 0.707107, 0, 0, -0.707107) /* Surface */
-     , (4219, 1881075925, 32441309, 72.7694, -66.1671, 0.005, 0.715596, 0, 0, -0.698514) /* Linkable Monster Generator ( 7 Min.) */
-     , (4219, 1881075926, 32441309, 72.7462, -67.064, 0.005, 0.697912, 0, 0, -0.716184) /* Linkable Monster Generator ( 7 Min.) */
-     , (4219, 1881075927, 32441309, 72.7214, -68.0239, 0.005, 0.697912, 0, 0, -0.716184) /* Linkable Monster Generator ( 7 Min.) */
-     , (4219, 1881075928, 32441309, 72.6993, -68.8785, 0.005, 0.697912, 0, 0, -0.716184) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1881075925, 32441309, 72.7694, -66.1671, 0.005, 0.715596, 0, 0, -0.698514) /* linkmonstergen7minutes */
+     , (4219, 1881075926, 32441309, 72.7462, -67.064, 0.005, 0.697912, 0, 0, -0.716184) /* linkmonstergen7minutes */
+     , (4219, 1881075927, 32441309, 72.7214, -68.0239, 0.005, 0.697912, 0, 0, -0.716184) /* linkmonstergen7minutes */
+     , (4219, 1881075928, 32441309, 72.6993, -68.8785, 0.005, 0.697912, 0, 0, -0.716184) /* linkmonstergen7minutes */
      , (278, 1881075860, 32441343, 90, -55.25, 0, 1, 0, 0, 0) /* Door */
      , (405, 1881075861, 32441346, 100.401, -34.0348, 0.005, -0.248901, 0, 0, -0.968529) /* Elthina the Shady */
      , (278, 1881075862, 32441353, 105.25, -50, 0, -0.707107, 0, 0, -0.707107) /* Door */
      , (217, 1881075929, 32441357, 128.502, -30.9898, 0.012, -4.37114E-08, 0, 0, -1) /* Gold Phyntos Wasp */
      , (278, 1881075864, 32441363, 130, -45.25, 0, 1, 0, 0, 0) /* Door */
-     , (4012, 1881075865, 32441364, 130, -60, 0, -0.707107, 0, 0, -0.707107) /* Cheap Glitter Generator */
+     , (4012, 1881075865, 32441364, 130, -60, 0, -0.707107, 0, 0, -0.707107) /* itemlowglittergen */
      , (4255, 1881075866, 32441377, 64.7669, -50.108, 6.011, 0, 0, 0, -1) /* Malus Shreth */
      , (278, 1881075867, 32441383, 84.75, -30, 6, -0.707107, 0, 0, 0.707107) /* Door */
      , (7087, 1881075868, 32441383, 79.5185, -29.8395, 6.0077, 0.644457, 0, 0, -0.76464) /* Banderling Ogre */
@@ -161,101 +161,101 @@ VALUES (1620, 1881075712, 32440580, 87.0843, -137.111, -66, -0.07487, 0, 0, -0.9
      , (7087, 1881075877, 32441417, 118.71, -28.2503, 6.0077, 1, 0, 0, 0) /* Banderling Ogre */
      , (1626, 1881075931, 32441421, 119.759, -48.8631, 6.012, -0.707107, 0, 0, -0.707107) /* Silver Rat */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881075925'; /* Linkable Monster Generator ( 7 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881075926'; /* Linkable Monster Generator ( 7 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881075927'; /* Linkable Monster Generator ( 7 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881075928'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881075925'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881075926'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881075927'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881075928'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075912'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075738'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075914'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075911'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075910'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075890'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075740'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075889'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075758'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075888'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075757'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075913'; /* Linkable Monster Generator ( 7 Min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075737'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075884'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075887'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075885'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075886'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075902'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075764'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075901'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075748'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075908'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075907'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075915'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075779'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075919'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075922'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075924'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075900'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075783'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075899'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075898'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075781'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075916'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075780'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075921'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075920'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075714'; /* Linkable Monster Generator ( 7 Min.) <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075918'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075717'; /* Linkable Monster Generator ( 7 Min.) <- Granite Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075917'; /* Linkable Monster Generator ( 7 Min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075909'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075905'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075930'; /* Linkable Monster Generator ( 7 Min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075931'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075752'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075754'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075789'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075771'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075809'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075904'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075903'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075761'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075897'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075896'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075759'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075894'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075893'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075906'; /* Linkable Monster Generator ( 7 Min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075881'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075750'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075891'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075745'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075895'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075742'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075892'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075766'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075929'; /* Linkable Monster Generator ( 7 Min.) <- Gold Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075769'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075879'; /* Linkable Monster Generator ( 7 Min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075772'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075880'; /* Linkable Monster Generator ( 7 Min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075767'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075712'; /* Linkable Monster Generator ( 7 Min.) <- Injured Olthoi */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075882'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075730'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075726'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075718'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075723'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075735'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075720'; /* Linkable Monster Generator ( 7 Min.) <- Lich Lord */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075725'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075724'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075868'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075870'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075866'; /* Linkable Monster Generator ( 7 Min.) <- Malus Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075872'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075873'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075923'; /* Linkable Monster Generator ( 7 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075883'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075874'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075877'; /* Linkable Monster Generator ( 7 Min.) <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075912'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075738'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075914'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075911'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075910'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075890'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075740'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075889'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075758'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075888'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075757'; /* linkmonstergen7minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075913'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075737'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075884'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075887'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075885'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075886'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075902'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075764'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075901'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075748'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075908'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075907'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075915'; /* linkmonstergen7minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881075779'; /* linkmonstergen7minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075919'; /* linkmonstergen7minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075922'; /* linkmonstergen7minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075924'; /* linkmonstergen7minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075900'; /* linkmonstergen7minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075783'; /* linkmonstergen7minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075899'; /* linkmonstergen7minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075898'; /* linkmonstergen7minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075781'; /* linkmonstergen7minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075916'; /* linkmonstergen7minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075780'; /* linkmonstergen7minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075921'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075920'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075714'; /* linkmonstergen7minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075918'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075717'; /* linkmonstergen7minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075917'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075909'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075905'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075930'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075931'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075752'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075754'; /* linkmonstergen7minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075789'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075771'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881075809'; /* linkmonstergen7minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075904'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075903'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075761'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075897'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075896'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075759'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075894'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075893'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075906'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075881'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075750'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075891'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075745'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075895'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075742'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075892'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075766'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075929'; /* linkmonstergen7minutes <- Gold Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075769'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075879'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075772'; /* linkmonstergen7minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075880'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075767'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075712'; /* linkmonstergen7minutes <- Injured Olthoi */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881075882'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075730'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075726'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075718'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075723'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075735'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075720'; /* linkmonstergen7minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075725'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075724'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075868'; /* linkmonstergen7minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075870'; /* linkmonstergen7minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075866'; /* linkmonstergen7minutes <- Malus Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075872'; /* linkmonstergen7minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075873'; /* linkmonstergen7minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075923'; /* linkmonstergen7minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075883'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075874'; /* linkmonstergen7minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881075877'; /* linkmonstergen7minutes <- Banderling Ogre */
 

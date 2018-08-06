@@ -19,10 +19,10 @@ VALUES (5698, 2119491602, 3847094532, 90.0539, 88.3105, 20.405, -0.707107, 0, 0,
      , (720, 2119491591, 3847094556, 84.04, 76.745, 17.6, 1, 0, 0, 0) /* Sliding Door */
      , (1015, 2119491592, 3847094272, 23.8, 35.2, 23.1, 0.052336, 0, 0, -0.99863) /* Cragstone Portal */
      , (509, 2119491593, 3847094272, 83.9762, 108.323, 12.005, 0.0339994, 0, 0, -0.999422) /* Life Stone */
-     , (1154, 2119491601, 3847094272, 83.2435, 72.8769, 12.005, 0.998866, 0, 0, -0.0476042) /* Linkable Monster Generator */;
+     , (1154, 2119491601, 3847094272, 83.2435, 72.8769, 12.005, 0.998866, 0, 0, -0.0476042) /* linkmonstergen */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2119491601'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2119491601'; /* linkmonstergen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119491604'; /* Linkable Monster Generator <- Arcanum Researcher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119491596'; /* Linkable Monster Generator <- Fanzen San the Translator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119491604'; /* linkmonstergen <- Arcanum Researcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119491596'; /* linkmonstergen <- Fanzen San the Translator */
 

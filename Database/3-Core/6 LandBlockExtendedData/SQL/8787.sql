@@ -7,7 +7,7 @@ VALUES (1762, 2021158928, 2273771776, 150.115, 173.818, 108.005, -0.749725, 0, 0
      , (1762, 2021158925, 2273771782, 158.615, 186.831, 108.005, 0.241562, 0, 0, -0.970385) /* Skeleton Lord */
      , (1148, 2021158913, 2273771520, 160.092, 178.985, 108, 1, 0, 0, 0) /* Door */
      , (1148, 2021158914, 2273771520, 157.102, 173.495, 108, -0.707107, 0, 0, -0.707107) /* Door */
-     , (4219, 2021158924, 2273771520, 159.616, 175.354, 108.005, -0.999907, 0, 0, -0.0136582) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 2021158924, 2273771520, 159.616, 175.354, 108.005, -0.999907, 0, 0, -0.0136582) /* linkmonstergen7minutes */
      , (23601, 2021158935, 2273771520, 152, 177, 116.805, -4.37114E-08, 0, 0, -1) /* Runed Chest */
      , (1762, 2021158926, 2273771520, 153.081, 171.058, 111.605, -0.862409, 0, 0, -0.506212) /* Skeleton Lord */
      , (22208, 2021158927, 2273771520, 152.862, 173.311, 111.605, -0.727732, 0, 0, -0.685861) /* Skeleton Wraith */
@@ -15,16 +15,16 @@ VALUES (1762, 2021158928, 2273771776, 150.115, 173.818, 108.005, -0.749725, 0, 0
      , (1762, 2021158931, 2273771520, 150.062, 180.181, 116.805, -0.904134, 0, 0, 0.427249) /* Skeleton Lord */
      , (22208, 2021158930, 2273771520, 154.032, 179.108, 116.805, -0.901893, 0, 0, -0.431959) /* Skeleton Wraith */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2021158924'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2021158924'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158925'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158926'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158927'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158928'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158929'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158930'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158931'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158932'; /* Linkable Monster Generator ( 7 Min.) <- Risen Knight */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158933'; /* Linkable Monster Generator ( 7 Min.) <- Silver Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158934'; /* Linkable Monster Generator ( 7 Min.) <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158925'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158926'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158927'; /* linkmonstergen7minutes <- Skeleton Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158928'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158929'; /* linkmonstergen7minutes <- Skeleton Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158930'; /* linkmonstergen7minutes <- Skeleton Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158931'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158932'; /* linkmonstergen7minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158933'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158934'; /* linkmonstergen7minutes <- Skeleton Lord */
 

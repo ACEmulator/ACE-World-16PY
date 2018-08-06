@@ -7,19 +7,19 @@ VALUES (230, 1907879980, 461307904, 62.3963, 52.3343, 80.0065, -0.549427, 0, 0, 
      , (265, 1907879941, 461307904, 70.4082, 44.014, 80.005, 0.223451, 0, 0, 0.974715) /* Meat */
      , (265, 1907879942, 461307904, 65.7991, 41.282, 80.005, 0.0232685, 0, 0, 0.999729) /* Meat */
      , (265, 1907879943, 461307904, 70.8987, 40.454, 80.005, -0.996727, 0, 0, -0.080845) /* Meat */
-     , (1542, 1907879944, 461307904, 70.5009, 42.8901, 80.005, -0.996727, 0, 0, -0.080845) /* Linkable Item Generator */
-     , (1154, 1907879945, 461307904, 72.7475, 43.2367, 80.005, -0.545285, 0, 0, 0.83825) /* Linkable Monster Generator */
+     , (1542, 1907879944, 461307904, 70.5009, 42.8901, 80.005, -0.996727, 0, 0, -0.080845) /* linkitemgen */
+     , (1154, 1907879945, 461307904, 72.7475, 43.2367, 80.005, -0.545285, 0, 0, 0.83825) /* linkmonstergen */
      , (2492, 1907879946, 461307904, 36, 125.5, 80.005, 1, 0, 0, 0) /* Door */
      , (230, 1907879982, 461307904, 67.344, 42.2476, 80.0065, 0.499167, 0, 0, -0.866506) /* Tumerok Taskmaster */
      , (228, 1907879983, 461307904, 90.0662, 85.8039, 84.005, -0.652113, 0, 0, -0.758121) /* Tumerok High Priest */
-     , (386, 1907879949, 461307904, 57.9664, 51.1422, 80.005, 0.658122, 0, 0, -0.752911) /* Auroch Generator */
+     , (386, 1907879949, 461307904, 57.9664, 51.1422, 80.005, 0.658122, 0, 0, -0.752911) /* auroch-generator */
      , (230, 1907879984, 461307904, 79.9637, 100.476, 80.0065, 0.967216, 0, 0, -0.253954) /* Tumerok Taskmaster */
      , (228, 1907879985, 461307904, 89.4829, 130.142, 84.005, -0.432021, 0, 0, -0.901864) /* Tumerok High Priest */
-     , (385, 1907879952, 461307904, 90.0826, 106.645, 80.005, 0.999623, 0, 0, -0.0274709) /* Cow Generator */
-     , (385, 1907879953, 461307904, 80.3664, 113.69, 80.005, 0.495423, 0, 0, -0.868652) /* Cow Generator */
-     , (1154, 1907879954, 461307904, 41.4922, 118.231, 80.005, 0.999984, 0, 0, 0.00557733) /* Linkable Monster Generator */
-     , (891, 1907879955, 461307904, 37.1539, 112.989, 80.005, -0.0234681, 0, 0, -0.999725) /* Brown Cow Generator */
-     , (888, 1907879956, 461307904, 36.0773, 107.634, 80.005, -0.0234681, 0, 0, -0.999725) /* Auroch Yearling Generator */
+     , (385, 1907879952, 461307904, 90.0826, 106.645, 80.005, 0.999623, 0, 0, -0.0274709) /* cow-generator */
+     , (385, 1907879953, 461307904, 80.3664, 113.69, 80.005, 0.495423, 0, 0, -0.868652) /* cow-generator */
+     , (1154, 1907879954, 461307904, 41.4922, 118.231, 80.005, 0.999984, 0, 0, 0.00557733) /* linkmonstergen */
+     , (891, 1907879955, 461307904, 37.1539, 112.989, 80.005, -0.0234681, 0, 0, -0.999725) /* cowbrowngen */
+     , (888, 1907879956, 461307904, 36.0773, 107.634, 80.005, -0.0234681, 0, 0, -0.999725) /* aurochyearlinggen */
      , (228, 1907879986, 461307904, 62.0203, 116.525, 84.005, 0.0157668, 0, 0, -0.999876) /* Tumerok High Priest */
      , (230, 1907879987, 461307904, 31.4584, 113.566, 80.0065, 0.626091, 0, 0, -0.77975) /* Tumerok Taskmaster */
      , (230, 1907879988, 461307904, 9.67129, 130.455, 95.205, 0.723759, 0, 0, 0.690053) /* Tumerok Taskmaster */
@@ -46,42 +46,42 @@ VALUES (230, 1907879980, 461307904, 62.3963, 52.3343, 80.0065, -0.549427, 0, 0, 
      , (8138, 1907880008, 461307904, 130.817, 89.0319, 80.01, -0.974722, 0, 0, 0.223421) /* Extas Raider */
      , (8138, 1907880009, 461307904, 17.1174, 88.3064, 80.01, -0.959711, 0, 0, -0.28099) /* Extas Raider */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1907879944'; /* Linkable Item Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1907879954'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1907879944'; /* linkitemgen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1907879954'; /* linkmonstergen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879938'; /* Linkable Item Generator <- Meat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879939'; /* Linkable Item Generator <- Meat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879940'; /* Linkable Item Generator <- Meat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879941'; /* Linkable Item Generator <- Meat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879942'; /* Linkable Item Generator <- Meat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879943'; /* Linkable Item Generator <- Meat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879966'; /* Linkable Item Generator <- Meat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880000'; /* Linkable Monster Generator <- Tumerok Champion */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879996'; /* Linkable Monster Generator <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879997'; /* Linkable Monster Generator <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879991'; /* Linkable Monster Generator <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879987'; /* Linkable Monster Generator <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879988'; /* Linkable Monster Generator <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879989'; /* Linkable Monster Generator <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879990'; /* Linkable Monster Generator <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879984'; /* Linkable Monster Generator <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879980'; /* Linkable Monster Generator <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879982'; /* Linkable Monster Generator <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879981'; /* Linkable Monster Generator <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879995'; /* Linkable Monster Generator <- Tumerok Taskmaster */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879983'; /* Linkable Monster Generator <- Tumerok High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879985'; /* Linkable Monster Generator <- Tumerok High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879993'; /* Linkable Monster Generator <- Tumerok High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879998'; /* Linkable Monster Generator <- Tumerok High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879986'; /* Linkable Monster Generator <- Tumerok High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880003'; /* Linkable Monster Generator <- Tumerok High Priest */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880004'; /* Linkable Monster Generator <- Ascendant Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880002'; /* Linkable Monster Generator <- Ascendant Tumerok */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880005'; /* Linkable Monster Generator <- Tumerok Trooper */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880006'; /* Linkable Monster Generator <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879999'; /* Linkable Monster Generator <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880007'; /* Linkable Monster Generator <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880008'; /* Linkable Monster Generator <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879994'; /* Linkable Monster Generator <- Extas Raider */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880009'; /* Linkable Monster Generator <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879938'; /* linkitemgen <- Meat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879939'; /* linkitemgen <- Meat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879940'; /* linkitemgen <- Meat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879941'; /* linkitemgen <- Meat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879942'; /* linkitemgen <- Meat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879943'; /* linkitemgen <- Meat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1907879966'; /* linkitemgen <- Meat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880000'; /* linkmonstergen <- Tumerok Champion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879996'; /* linkmonstergen <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879997'; /* linkmonstergen <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879991'; /* linkmonstergen <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879987'; /* linkmonstergen <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879988'; /* linkmonstergen <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879989'; /* linkmonstergen <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879990'; /* linkmonstergen <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879984'; /* linkmonstergen <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879980'; /* linkmonstergen <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879982'; /* linkmonstergen <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879981'; /* linkmonstergen <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879995'; /* linkmonstergen <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879983'; /* linkmonstergen <- Tumerok High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879985'; /* linkmonstergen <- Tumerok High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879993'; /* linkmonstergen <- Tumerok High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879998'; /* linkmonstergen <- Tumerok High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879986'; /* linkmonstergen <- Tumerok High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880003'; /* linkmonstergen <- Tumerok High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880004'; /* linkmonstergen <- Ascendant Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880002'; /* linkmonstergen <- Ascendant Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880005'; /* linkmonstergen <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880006'; /* linkmonstergen <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879999'; /* linkmonstergen <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880007'; /* linkmonstergen <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880008'; /* linkmonstergen <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907879994'; /* linkmonstergen <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1907880009'; /* linkmonstergen <- Extas Raider */
 

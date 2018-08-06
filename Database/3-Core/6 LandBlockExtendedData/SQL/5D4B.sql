@@ -16,11 +16,11 @@ VALUES (6122, 1976872960, 1565196544, 100, -80, -5.995, -1, 0, 0, 0) /* Acid */
      , (7123, 1976872974, 1565196600, 59.9669, -40.2936, 0.00825, -0.666276, 0, 0, 0.745705) /* Dark Leech */
      , (7780, 1976872975, 1565196610, 70, -30, 0.005, 1, 0, 0, 0) /* Ashen Bones */
      , (7123, 1976872976, 1565196615, 79.5056, -20.307, 0.00825, -0.679133, 0, 0, 0.734015) /* Dark Leech */
-     , (7924, 1976872977, 1565196619, 91.2417, -10, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
-     , (7924, 1976872978, 1565196619, 90.2463, -10, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
-     , (7924, 1976872979, 1565196619, 89.3503, -10, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
-     , (7924, 1976872980, 1565196619, 88.355, -10, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
-     , (7924, 1976872981, 1565196619, 90.9818, -11.5194, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1976872977, 1565196619, 91.2417, -10, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7924, 1976872978, 1565196619, 90.2463, -10, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7924, 1976872979, 1565196619, 89.3503, -10, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7924, 1976872980, 1565196619, 88.355, -10, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
+     , (7924, 1976872981, 1565196619, 90.9818, -11.5194, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
      , (4217, 1976872982, 1565196627, 90.5143, -49.1069, 0.00825, 0.998589, 0, 0, 0.053113) /* Dark Revenant */
      , (7780, 1976872983, 1565196627, 89.8997, -52.3979, 0.005, 0.998589, 0, 0, 0.053113) /* Ashen Bones */
      , (7123, 1976872984, 1565196631, 99.243, -21.5527, 0.00825, 0.794021, 0, 0, 0.60789) /* Dark Leech */
@@ -136,141 +136,141 @@ VALUES (6122, 1976872960, 1565196544, 100, -80, -5.995, -1, 0, 0, 0) /* Acid */
      , (23989, 1976873096, 1565197090, 280, -570, 36.005, 1, 0, 0, 0) /* Olthoi Swarm Soldier */
      , (23989, 1976873097, 1565197092, 280, -590, 36.005, 1, 0, 0, 0) /* Olthoi Swarm Soldier */
      , (25693, 1976873098, 1565197102, 260.87, -649.73, 48.079, 0.999164, 0, 0, 0.040871) /* Untranslated Note */
-     , (15759, 1976873099, 1565197102, 261.314, -651.385, 48.005, 0.999164, 0, 0, 0.040871) /* Linkable Item Generator */
+     , (15759, 1976873099, 1565197102, 261.314, -651.385, 48.005, 0.999164, 0, 0, 0.040871) /* linkitemgen10seconds */
      , (25686, 1976873100, 1565197103, 259.993, -656.347, 48.005, 0.00603495, 0, 0, -0.999982) /* Deep Olthoi Chasm */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1976873099'; /* Linkable Item Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1976872977'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1976872978'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1976872979'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1976872980'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1976872981'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1976873099'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1976872977'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1976872978'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1976872979'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1976872980'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1976872981'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976873098'; /* Linkable Item Generator <- Untranslated Note */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873008'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873004'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873003'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873002'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873005'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873013'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873010'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873009'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873015'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873014'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873006'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873011'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873017'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873007'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873012'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873016'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873022'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873021'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873020'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873018'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873031'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873036'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873035'; /* Linkable Monster Generator ( 5 Min.) <- Great Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873019'; /* Linkable Monster Generator ( 5 Min.) <- Great Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873041'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Worker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873039'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Piercer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873040'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Piercer */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873025'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873026'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873032'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Worker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873027'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Worker */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873034'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873024'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873023'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Legionary */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873029'; /* Linkable Monster Generator ( 5 Min.) <- Great Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873028'; /* Linkable Monster Generator ( 5 Min.) <- Great Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873030'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873045'; /* Linkable Monster Generator ( 5 Min.) <- Great Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873046'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873044'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873038'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873047'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873043'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873042'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873053'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872984'; /* Linkable Monster Generator ( 5 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873052'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872985'; /* Linkable Monster Generator ( 5 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873051'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873050'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872976'; /* Linkable Monster Generator ( 5 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873055'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872982'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873057'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872983'; /* Linkable Monster Generator ( 5 Min.) <- Ashen Bones */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873056'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872986'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873054'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872987'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873059'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873058'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873049'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976872988'; /* Linkable Monster Generator ( 5 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873048'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873064'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873063'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873061'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873060'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873074'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873073'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873077'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873069'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873072'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873071'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873076'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873075'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873067'; /* Linkable Monster Generator ( 5 Min.) <- Great Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873066'; /* Linkable Monster Generator ( 5 Min.) <- Great Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873065'; /* Linkable Monster Generator ( 5 Min.) <- Great Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873070'; /* Linkable Monster Generator ( 5 Min.) <- Great Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873081'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976872993'; /* Linkable Monster Generator ( 5 Min.) <- Risen Lord */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873080'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976872989'; /* Linkable Monster Generator ( 5 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873079'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976872991'; /* Linkable Monster Generator ( 5 Min.) <- Great Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873068'; /* Linkable Monster Generator ( 5 Min.) <- Great Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976872992'; /* Linkable Monster Generator ( 5 Min.) <- Great Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873091'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872971'; /* Linkable Monster Generator ( 5 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873090'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872972'; /* Linkable Monster Generator ( 5 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873089'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872975'; /* Linkable Monster Generator ( 5 Min.) <- Ashen Bones */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873082'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872974'; /* Linkable Monster Generator ( 5 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873084'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873083'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873078'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872969'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873092'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872970'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873094'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873087'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873086'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873085'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873095'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872968'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Drone */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873097'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872967'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Drone */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873096'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873093'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872973'; /* Linkable Monster Generator ( 5 Min.) <- Ashen Bones */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872965'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Drone */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872966'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Drone */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872964'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Drone */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873088'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Soldier */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872963'; /* Linkable Monster Generator ( 5 Min.) <- Olthoi Swarm Drone */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976872997'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976872998'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976872995'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976872996'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976873000'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976873001'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976872994'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976872999'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976873098'; /* linkitemgen10seconds <- Untranslated Note */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873008'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873004'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873003'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873002'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873005'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873013'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873010'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873009'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873015'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873014'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873006'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873011'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873017'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873007'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873012'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873016'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873022'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873021'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873020'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873018'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873031'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873036'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873035'; /* linkmonstergen5minutes <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873019'; /* linkmonstergen5minutes <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873041'; /* linkmonstergen5minutes <- Olthoi Swarm Worker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873039'; /* linkmonstergen5minutes <- Olthoi Piercer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873040'; /* linkmonstergen5minutes <- Olthoi Piercer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873025'; /* linkmonstergen5minutes <- Olthoi Swarm Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976873026'; /* linkmonstergen5minutes <- Olthoi Swarm Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873032'; /* linkmonstergen5minutes <- Olthoi Swarm Worker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873027'; /* linkmonstergen5minutes <- Olthoi Swarm Worker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873034'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873024'; /* linkmonstergen5minutes <- Olthoi Swarm Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873023'; /* linkmonstergen5minutes <- Olthoi Swarm Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873029'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873028'; /* linkmonstergen5minutes <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873030'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873045'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873046'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873044'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873038'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873047'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873043'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873042'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873053'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872984'; /* linkmonstergen5minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873052'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872985'; /* linkmonstergen5minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873051'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873050'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872976'; /* linkmonstergen5minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873055'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872982'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873057'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872983'; /* linkmonstergen5minutes <- Ashen Bones */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873056'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872986'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976873054'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976872987'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873059'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873058'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873049'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976872988'; /* linkmonstergen5minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873048'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873064'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873063'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873061'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873060'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873074'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873073'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873077'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873069'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873072'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873071'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873076'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873075'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873067'; /* linkmonstergen5minutes <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873066'; /* linkmonstergen5minutes <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873065'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873070'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873081'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976872993'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873080'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976872989'; /* linkmonstergen5minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873079'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976872991'; /* linkmonstergen5minutes <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873068'; /* linkmonstergen5minutes <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976872992'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976873091'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872971'; /* linkmonstergen5minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873090'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872972'; /* linkmonstergen5minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873089'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872975'; /* linkmonstergen5minutes <- Ashen Bones */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873082'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872974'; /* linkmonstergen5minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873084'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873083'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873078'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872969'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873092'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872970'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873094'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873087'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873086'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873085'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873095'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872968'; /* linkmonstergen5minutes <- Olthoi Swarm Drone */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873097'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872967'; /* linkmonstergen5minutes <- Olthoi Swarm Drone */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873096'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873093'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872973'; /* linkmonstergen5minutes <- Ashen Bones */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872965'; /* linkmonstergen5minutes <- Olthoi Swarm Drone */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872966'; /* linkmonstergen5minutes <- Olthoi Swarm Drone */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872964'; /* linkmonstergen5minutes <- Olthoi Swarm Drone */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976873088'; /* linkmonstergen5minutes <- Olthoi Swarm Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976872963'; /* linkmonstergen5minutes <- Olthoi Swarm Drone */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976872997'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976872998'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976872995'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976872996'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976873000'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976873001'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976872994'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976872999'; /* linkmonstergen5minutes <- Cursed Bones */
 

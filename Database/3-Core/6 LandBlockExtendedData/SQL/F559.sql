@@ -5,7 +5,7 @@ VALUES (165, 2136313867, 4116250881, 181.248, 80.5406, 20.05, -0.999728, 0, 0, -
      , (5148, 2136313864, 4116250881, 184.107, 80.093, 20.305, 0.5373, 0, 0, -0.843391) /* Flames */
      , (5148, 2136313861, 4116250889, 152.002, 111.455, 20.205, -0.707107, 0, 0, -0.707107) /* Flames */
      , (4214, 2136313862, 4116250891, 152.843, 106.225, 20.005, -0.32099, 0, 0, 0.947083) /* Leather Crafter */
-     , (1154, 2136313863, 4116250891, 153.124, 104.432, 20.005, -0.999227, 0, 0, -0.0393015) /* Linkable Monster Generator */
+     , (1154, 2136313863, 4116250891, 153.124, 104.432, 20.005, -0.999227, 0, 0, -0.0393015) /* linkmonstergen */
      , (720, 2136313856, 4116250624, 180.792, 90.7643, 20, -0.698806, 0, 0, -0.715312) /* Sliding Door */
      , (720, 2136313857, 4116250624, 160.931, 107.42, 20.025, 1, 0, 0, 0) /* Sliding Door */
      , (720, 2136313858, 4116250624, 160.921, 112.47, 20.025, 1, 0, 0, 0) /* Sliding Door */
@@ -14,8 +14,8 @@ VALUES (165, 2136313867, 4116250881, 181.248, 80.5406, 20.05, -0.999728, 0, 0, -
      , (25990, 2136313869, 4116250624, 186.564, 105.419, 20.005, 0.45742, 0, 0, -0.889251) /* Small Creepy Statue */
      , (6441, 2136313868, 4116250624, 157.873, 113.209, 20.005, 0.707107, 0, 0, -0.707107) /* Well */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2136313863'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2136313863'; /* linkmonstergen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136313862'; /* Linkable Monster Generator <- Leather Crafter */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136313869'; /* Linkable Monster Generator <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136313862'; /* linkmonstergen <- Leather Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136313869'; /* linkmonstergen <- Small Creepy Statue */
 

@@ -6,7 +6,7 @@ VALUES (29858, 1914372125, 565182722, 133.58, 83.6203, 6.805, -0.999438, 0, 0, 0
      , (11387, 1914372105, 565182734, 76.6541, 83.6213, 0.005, -0.999934, 0, 0, -0.0115045) /* Wahnaqa bint Fayat the Mage */
      , (11385, 1914372114, 565182740, 4.35506, 151.473, 1.605, -0.967078, 0, 0, -0.25448) /* Yusnar ibn Lomaq the Grocer */
      , (143, 1914372115, 565182743, 1.05574, 151.164, 4.405, -0.743048, 0, 0, -0.669239) /* Chest */
-     , (5085, 1914372122, 565182744, 18.3353, 151.706, 4.405, -0.999922, 0, 0, 0.0124804) /* Linkable Item Gen - 25 seconds */
+     , (5085, 1914372122, 565182744, 18.3353, 151.706, 4.405, -0.999922, 0, 0, 0.0124804) /* linkitemgen25seconds */
      , (25672, 1914372121, 565182744, 18.2616, 152.646, 4.405, -0.935006, 0, 0, -0.354631) /* Aurten Rhell */
      , (11345, 1914372116, 565182744, 15.9165, 151.562, 4.405, 0.984083, 0, 0, -0.177711) /* Merlonna Farel the Collector */
      , (11382, 1914372107, 565182749, 4.88733, 87.0228, -0.295, 0.925563, 0, 0, -0.378595) /* Dorlan the Armorer */
@@ -25,14 +25,14 @@ VALUES (29858, 1914372125, 565182722, 133.58, 83.6203, 6.805, -0.999438, 0, 0, 0
      , (720, 1914372101, 565182464, 76.6706, 148.447, -6.69388E-10, 0.926734, 0, 0, -0.375719) /* Sliding Door */
      , (720, 1914372102, 565182464, 57.3411, 37.1902, 1.6, -0.718733, 0, 0, -0.695286) /* Sliding Door */
      , (720, 1914372103, 565182464, 63.2879, 36.993, 1.6, -0.718733, 0, 0, -0.695286) /* Sliding Door */
-     , (7923, 1914372104, 565182464, 13.8468, 144.546, 0.005, 0.942198, 0, 0, 0.335058) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1914372104, 565182464, 13.8468, 144.546, 0.005, 0.942198, 0, 0, 0.335058) /* linkmonstergen3minutes */
      , (5774, 1914372124, 565182464, 39.9044, 139.445, 0.005, 0.978377, 0, 0, -0.20683) /* Town Crier */
      , (509, 1914372123, 565182464, 50.6199, 116.939, 0.00499997, -9.71743E-05, 0, 0, 1) /* Life Stone */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1914372122'; /* Linkable Item Gen - 25 seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1914372122'; /* linkitemgen25seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1914372116'; /* Linkable Item Gen - 25 seconds <- Merlonna Farel the Collector */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1914372121'; /* Linkable Item Gen - 25 seconds <- Aurten Rhell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1914372124'; /* Linkable Item Gen - 25 seconds <- Town Crier */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1914372125'; /* Linkable Item Gen - 25 seconds <- Aun Arenura the Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1914372116'; /* linkitemgen25seconds <- Merlonna Farel the Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1914372121'; /* linkitemgen25seconds <- Aurten Rhell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1914372124'; /* linkitemgen25seconds <- Town Crier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1914372125'; /* linkitemgen25seconds <- Aun Arenura the Crafter */
 

@@ -9,20 +9,20 @@ VALUES (4248, 2139242496, 4163108864, 144.308, 42.8453, 18.006, -0.961814, 0, 0,
      , (7111, 2139242503, 4163108864, 160.051, 15.9658, 18.005, 0.753247, 0, 0, -0.657737) /* Faisi Sclavus */
      , (7111, 2139242504, 4163108864, 122.24, 34.077, 18.8448, -0.703314, 0, 0, -0.710879) /* Faisi Sclavus */
      , (4248, 2139242505, 4163108864, 123.654, 32.092, 18.6803, 0.541788, 0, 0, 0.840515) /* Putrid Moarsman */
-     , (7925, 2139242506, 4163108864, 136.131, 32.2069, 18.6608, 0.981857, 0, 0, -0.189624) /* Linkable Monster Generator ( 10 Min.) */
+     , (7925, 2139242506, 4163108864, 136.131, 32.2069, 18.6608, 0.981857, 0, 0, -0.189624) /* linkmonstergen10minutes */
      , (8470, 2139242507, 4163108864, 140.609, 177.249, -0.895, 0.992699, 0, 0, 0.120615) /* Sulthis Eye Stalk */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2139242506'; /* Linkable Monster Generator ( 10 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2139242506'; /* linkmonstergen10minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242496'; /* Linkable Monster Generator ( 10 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242497'; /* Linkable Monster Generator ( 10 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242498'; /* Linkable Monster Generator ( 10 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242499'; /* Linkable Monster Generator ( 10 Min.) <- Faisi Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242500'; /* Linkable Monster Generator ( 10 Min.) <- Faisi Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242501'; /* Linkable Monster Generator ( 10 Min.) <- Faisi Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242502'; /* Linkable Monster Generator ( 10 Min.) <- Faisi Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242503'; /* Linkable Monster Generator ( 10 Min.) <- Faisi Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242504'; /* Linkable Monster Generator ( 10 Min.) <- Faisi Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242505'; /* Linkable Monster Generator ( 10 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242507'; /* Linkable Monster Generator ( 10 Min.) <- Sulthis Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242496'; /* linkmonstergen10minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242497'; /* linkmonstergen10minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242498'; /* linkmonstergen10minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242499'; /* linkmonstergen10minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242500'; /* linkmonstergen10minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242501'; /* linkmonstergen10minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242502'; /* linkmonstergen10minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242503'; /* linkmonstergen10minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242504'; /* linkmonstergen10minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242505'; /* linkmonstergen10minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139242507'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
 

@@ -1,6 +1,6 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21724, 1971601413, 1480851766, 60, -10, -17.995, 0.714421, 0, 0, 0.699716) /* An angry spirit */
-     , (21570, 1971601414, 1480851788, 66.0842, -10.0361, -17.995, 0.705526, 0, 0, 0.708684) /* Cermony Disrupted Mid Gen */
+     , (21570, 1971601414, 1480851788, 66.0842, -10.0361, -17.995, 0.705526, 0, 0, 0.708684) /* eventceremonydisruptedmidgen */
      , (21530, 1971601481, 1480851801, 93.667, -19.795, -17.995, 0, 0, 0, -1) /* Chest */
      , (21530, 1971601482, 1480851801, 89.182, -19.986, -17.995, 0, 0, 0, -1) /* Chest */
      , (21404, 1971601483, 1480851802, 102.698, -7.79829, -17.995, 0.930361, 0, 0, -0.366644) /* Citadel Valley */
@@ -21,7 +21,7 @@ VALUES (21724, 1971601413, 1480851766, 60, -10, -17.995, 0.714421, 0, 0, 0.69971
      , (21497, 1971601428, 1480851875, 44.077, -111.748, 0.012, 0.707107, 0, 0, -0.707107) /* Bed */
      , (21503, 1971601429, 1480851875, 43.634, -106.492, 0.012, 0.939693, 0, 0, -0.34202) /* Eyes */
      , (21498, 1971601430, 1480851875, 39.5117, -105.599, 0.055, 1, 0, 0, 0) /* Black */
-     , (7925, 1971601409, 1480851876, 40.0088, -120.01, 0.005, 1, 0, 0, -4.37114E-08) /* Linkable Monster Generator ( 10 Min.) */
+     , (7925, 1971601409, 1480851876, 40.0088, -120.01, 0.005, 1, 0, 0, -4.37114E-08) /* linkmonstergen10minutes */
      , (21505, 1971601431, 1480851876, 44.299, -121.1, 0.012, 0.707107, 0, 0, -0.707107) /* Hole */
      , (21504, 1971601432, 1480851876, 44.14, -116.266, 0.012, 0.707107, 0, 0, -0.707107) /* Flame */
      , (21508, 1971601433, 1480851877, 38.546, -134.39, 0.012, -4.37114E-08, 0, 0, -1) /* Mushroom */
@@ -81,36 +81,36 @@ VALUES (21724, 1971601413, 1480851766, 60, -10, -17.995, 0.714421, 0, 0, 0.69971
      , (21529, 1971601497, 1480851945, 118.632, -199.844, 0.005, -4.37114E-08, 0, 0, -1) /* Chest */
      , (21495, 1971601412, 1480851956, 20, -30, 6.005, 1, 0, 0, 0) /* Statue */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1971601409'; /* Linkable Monster Generator ( 10 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1971601409'; /* linkmonstergen10minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601408'; /* Linkable Monster Generator ( 10 Min.) <- Tribunal */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601412'; /* Linkable Monster Generator ( 10 Min.) <- Statue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601420'; /* Linkable Monster Generator ( 10 Min.) <- Sunlight */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601421'; /* Linkable Monster Generator ( 10 Min.) <- Nothing */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601422'; /* Linkable Monster Generator ( 10 Min.) <- Man */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601433'; /* Linkable Monster Generator ( 10 Min.) <- Mushroom */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601418'; /* Linkable Monster Generator ( 10 Min.) <- Darkness */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601417'; /* Linkable Monster Generator ( 10 Min.) <- E */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601419'; /* Linkable Monster Generator ( 10 Min.) <- Wind */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601423'; /* Linkable Monster Generator ( 10 Min.) <- Stars */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601426'; /* Linkable Monster Generator ( 10 Min.) <- Tomorrow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601427'; /* Linkable Monster Generator ( 10 Min.) <- Death */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601434'; /* Linkable Monster Generator ( 10 Min.) <- Hope */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601435'; /* Linkable Monster Generator ( 10 Min.) <- Ring */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601431'; /* Linkable Monster Generator ( 10 Min.) <- Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601432'; /* Linkable Monster Generator ( 10 Min.) <- Flame */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601428'; /* Linkable Monster Generator ( 10 Min.) <- Bed */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601429'; /* Linkable Monster Generator ( 10 Min.) <- Eyes */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601430'; /* Linkable Monster Generator ( 10 Min.) <- Black */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601424'; /* Linkable Monster Generator ( 10 Min.) <- Silence */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601425'; /* Linkable Monster Generator ( 10 Min.) <- Coffin */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601436'; /* Linkable Monster Generator ( 10 Min.) <- Time */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601413'; /* Linkable Monster Generator ( 10 Min.) <- An angry spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601465'; /* Linkable Monster Generator ( 10 Min.) <- Statue */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601480'; /* Linkable Monster Generator ( 10 Min.) <- A Rolling Ball of Death */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601485'; /* Linkable Monster Generator ( 10 Min.) <- A Rolling Ball of Death */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601486'; /* Linkable Monster Generator ( 10 Min.) <- A Rolling Ball of Death */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601489'; /* Linkable Monster Generator ( 10 Min.) <- Door */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601487'; /* Linkable Monster Generator ( 10 Min.) <- A Rolling Ball of Death */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601488'; /* Linkable Monster Generator ( 10 Min.) <- A Rolling Ball of Death */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601408'; /* linkmonstergen10minutes <- Tribunal */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601412'; /* linkmonstergen10minutes <- Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601420'; /* linkmonstergen10minutes <- Sunlight */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601421'; /* linkmonstergen10minutes <- Nothing */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601422'; /* linkmonstergen10minutes <- Man */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601433'; /* linkmonstergen10minutes <- Mushroom */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601418'; /* linkmonstergen10minutes <- Darkness */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601417'; /* linkmonstergen10minutes <- E */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601419'; /* linkmonstergen10minutes <- Wind */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601423'; /* linkmonstergen10minutes <- Stars */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601426'; /* linkmonstergen10minutes <- Tomorrow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601427'; /* linkmonstergen10minutes <- Death */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601434'; /* linkmonstergen10minutes <- Hope */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601435'; /* linkmonstergen10minutes <- Ring */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601431'; /* linkmonstergen10minutes <- Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601432'; /* linkmonstergen10minutes <- Flame */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601428'; /* linkmonstergen10minutes <- Bed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601429'; /* linkmonstergen10minutes <- Eyes */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601430'; /* linkmonstergen10minutes <- Black */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601424'; /* linkmonstergen10minutes <- Silence */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601425'; /* linkmonstergen10minutes <- Coffin */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601436'; /* linkmonstergen10minutes <- Time */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601413'; /* linkmonstergen10minutes <- An angry spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601465'; /* linkmonstergen10minutes <- Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601480'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601485'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601486'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601489'; /* linkmonstergen10minutes <- Door */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601487'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971601488'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
 

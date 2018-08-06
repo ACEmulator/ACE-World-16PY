@@ -26,29 +26,29 @@ VALUES (7, 1880444928, 22348035, 28.142, -38.4548, -11.9967, -0.954306, 0, 0, -0
      , (7, 1880444952, 22348162, 11.3654, -32.3242, 6.535, -0.563526, 0, 0, -0.826099) /* Drudge Skulker */
      , (5203, 1880444953, 22348181, 20, 0, 12, -4.37114E-08, 0, 0, -1) /* Surface Portal */
      , (8739, 1880444954, 22348181, 19.998, -3.282, 12.006, 1, 0, 0, -4.37114E-08) /* Samsur Town Stamp */
-     , (5485, 1880444955, 22348184, 22.3661, -10.167, 12, 1, 0, 0, 0) /* Linkable Newbie Monster Generator */
-     , (3954, 1880444956, 22348184, 19.9807, -12.0924, 12, 1, 0, 0, 0) /* Linkable Item Gen (15 min.) */
-     , (3955, 1880444957, 22348184, 17.8439, -10.3975, 12, 1, 0, 0, 0) /* Linkable Monster Gen (15 min.) */
-     , (5085, 1880444958, 22348184, 19.4498, -8.80799, 12.005, -0.144762, 0, 0, 0.989466) /* Linkable Item Gen - 25 seconds */;
+     , (5485, 1880444955, 22348184, 22.3661, -10.167, 12, 1, 0, 0, 0) /* linknewbiemonstergen */
+     , (3954, 1880444956, 22348184, 19.9807, -12.0924, 12, 1, 0, 0, 0) /* linkitemgen15minutes */
+     , (3955, 1880444957, 22348184, 17.8439, -10.3975, 12, 1, 0, 0, 0) /* linkmonstergen15minutes */
+     , (5085, 1880444958, 22348184, 19.4498, -8.80799, 12.005, -0.144762, 0, 0, 0.989466) /* linkitemgen25seconds */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880444955'; /* Linkable Newbie Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880444957'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880444955'; /* linknewbiemonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880444957'; /* linkmonstergen15minutes */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880444941'; /* Lightning Trap */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880444958'; /* Linkable Item Gen - 25 seconds */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880444958'; /* linkitemgen25seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444945'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444947'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444942'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444952'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444933'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444930'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444928'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880444949'; /* Linkable Monster Gen (15 min.) <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880444934'; /* Linkable Monster Gen (15 min.) <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880444951'; /* Linkable Monster Gen (15 min.) <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880444929'; /* Linkable Monster Gen (15 min.) <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880444936'; /* Linkable Monster Gen (15 min.) <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444945'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444947'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444942'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444952'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444933'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444930'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880444928'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880444949'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880444934'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880444951'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880444929'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880444936'; /* linkmonstergen15minutes <- Drudge Prowler */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880444940'; /* Lightning Trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880444931'; /* Linkable Item Gen - 25 seconds <- The Hundred Trackless Paths */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880444954'; /* Linkable Item Gen - 25 seconds <- Samsur Town Stamp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880444931'; /* linkitemgen25seconds <- The Hundred Trackless Paths */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880444954'; /* linkitemgen25seconds <- Samsur Town Stamp */
 

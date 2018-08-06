@@ -22,7 +22,7 @@ VALUES (412, 2059902976, 2893676806, 79, 81.19, 20, 1, 0, 0, 0) /* Door */
      , (412, 2059902995, 2893676544, 69.4, 67.0053, 24.8, 1, 0, 0, 0) /* Door */
      , (15273, 2059902996, 2893676544, 73.719, 52.515, 20.005, 1, 0, 0, 0) /* Nuhmudira's Mansion */
      , (11506, 2059903009, 2893676544, 69.1994, 188.99, 34.7682, -0.796921, 0, 0, -0.604084) /* Zharalim */
-     , (7925, 2059902998, 2893676544, 157.968, 33.4324, 30.841, -0.0701413, 0, 0, -0.997537) /* Linkable Monster Generator ( 10 Min.) */
+     , (7925, 2059902998, 2893676544, 157.968, 33.4324, 30.841, -0.0701413, 0, 0, -0.997537) /* linkmonstergen10minutes */
      , (11506, 2059902999, 2893676544, 155.832, 29.8053, 31.019, -0.0701413, 0, 0, -0.997537) /* Zharalim */
      , (11506, 2059903000, 2893676544, 158.598, 29.4145, 30.7885, -0.0701413, 0, 0, -0.997537) /* Zharalim */
      , (11506, 2059903001, 2893676544, 159.588, 31.7909, 30.706, -0.0701413, 0, 0, -0.997537) /* Zharalim */
@@ -34,17 +34,17 @@ VALUES (412, 2059902976, 2893676806, 79, 81.19, 20, 1, 0, 0, 0) /* Door */
      , (11506, 2059903007, 2893676544, 67.4814, 188.657, 34.5142, -0.796921, 0, 0, -0.604084) /* Zharalim */
      , (11506, 2059903008, 2893676544, 68.7103, 187.269, 34.1538, -0.796921, 0, 0, -0.604084) /* Zharalim */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2059902998'; /* Linkable Monster Generator ( 10 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2059902998'; /* linkmonstergen10minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059902999'; /* Linkable Monster Generator ( 10 Min.) <- Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903000'; /* Linkable Monster Generator ( 10 Min.) <- Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903001'; /* Linkable Monster Generator ( 10 Min.) <- Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903002'; /* Linkable Monster Generator ( 10 Min.) <- Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903003'; /* Linkable Monster Generator ( 10 Min.) <- Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903004'; /* Linkable Monster Generator ( 10 Min.) <- Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903005'; /* Linkable Monster Generator ( 10 Min.) <- Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903006'; /* Linkable Monster Generator ( 10 Min.) <- Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903007'; /* Linkable Monster Generator ( 10 Min.) <- Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903008'; /* Linkable Monster Generator ( 10 Min.) <- Zharalim */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903009'; /* Linkable Monster Generator ( 10 Min.) <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059902999'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903000'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903001'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903002'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903003'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903004'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903005'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903006'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903007'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903008'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903009'; /* linkmonstergen10minutes <- Zharalim */
 

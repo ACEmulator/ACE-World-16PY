@@ -3,7 +3,7 @@ VALUES (7124, 1969508352, 1447362817, 76.6764, -93.9312, -53.9917, -0.941695, 0,
      , (5748, 1969508354, 1447362818, 84.5425, -98.1546, -53.995, 0.966415, 0, 0, -0.256988) /* Fire Wisp */
      , (7124, 1969508355, 1447362819, 85.096, -78.6674, -53.945, 0.985229, 0, 0, -0.17124) /* Dark Magus */
      , (7124, 1969508356, 1447362819, 94.6456, -78.6587, -53.945, 0.890012, 0, 0, 0.455937) /* Dark Magus */
-     , (5085, 1969508357, 1447362822, 90.1464, -109.682, -53.995, -0.012537, 0, 0, 0.999921) /* Linkable Item Gen - 25 seconds */
+     , (5085, 1969508357, 1447362822, 90.1464, -109.682, -53.995, -0.012537, 0, 0, 0.999921) /* linkitemgen25seconds */
      , (23362, 1969508482, 1447362822, 93.209, -109.858, -52, -4.37114E-08, 0, 0, -1) /* Deteriorated Aegis */
      , (23363, 1969508483, 1447362822, 93.205, -113.162, -52, -4.37114E-08, 0, 0, -1) /* Deteriorated Aegis */
      , (23364, 1969508484, 1447362822, 89.931, -113.218, -52, -4.37114E-08, 0, 0, -1) /* Deteriorated Aegis */
@@ -126,126 +126,126 @@ VALUES (7124, 1969508352, 1447362817, 76.6764, -93.9312, -53.9917, -0.941695, 0,
      , (619, 1969508474, 1447363125, 66.3378, -66.3373, 0.055, -0.315393, 0, 0, 0.948961) /* Revenant */
      , (619, 1969508475, 1447363125, 73.0909, -67.4639, 0.00825, 0.307403, 0, 0, 0.951579) /* Revenant */
      , (619, 1969508476, 1447363125, 73.685, -73.9885, 0.055, 0.972901, 0, 0, 0.231222) /* Revenant */
-     , (7923, 1969508477, 1447363132, 90, -80, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1969508477, 1447363132, 90, -80, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (619, 1969508478, 1447363139, 106.64, -87.2046, 0.00825, -0.446087, 0, 0, 0.89499) /* Revenant */
      , (619, 1969508479, 1447363139, 107.242, -93.9261, 0.00825, -0.991114, 0, 0, 0.133013) /* Revenant */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1969508477'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1969508477'; /* linkmonstergen3minutes */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1969508443'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1969508454'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1969508404'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1969508433'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1969508386'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1969508374'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1969508357'; /* Linkable Item Gen - 25 seconds */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1969508357'; /* linkitemgen25seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508470'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508465'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508466'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508471'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508472'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508462'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508463'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508468'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508479'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508478'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508424'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508423'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508426'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508425'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508415'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508427'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508407'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508416'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508405'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508408'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508418'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508417'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508409'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508406'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508411'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508410'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508413'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508412'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508434'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508403'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508402'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508435'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508395'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508394'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508397'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508396'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508399'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508398'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508401'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508400'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508388'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508387'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508390'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508389'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508392'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508391'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508381'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508380'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508383'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508382'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508375'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508384'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508377'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508376'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508379'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508378'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508367'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508366'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508369'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508368'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508371'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508370'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508385'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508373'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508356'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508355'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508352'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508363'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508365'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508354'; /* Linkable Monster Generator ( 3 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508474'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508476'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508475'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508464'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508469'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508467'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508461'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508473'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508453'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508442'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508445'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508444'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508447'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508446'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508460'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508448'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508436'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508459'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508440'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508437'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508456'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508439'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508451'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508457'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508458'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508452'; /* Linkable Monster Generator ( 3 Min.) <- Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508438'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508441'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508421'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508455'; /* Linkable Monster Generator ( 3 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508422'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508430'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508429'; /* Linkable Monster Generator ( 3 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508431'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508419'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508420'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508432'; /* Linkable Monster Generator ( 3 Min.) <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508470'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508465'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508466'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508471'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508472'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508462'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508463'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508468'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508479'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508478'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508424'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508423'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508426'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508425'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508415'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508427'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508407'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508416'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508405'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508408'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508418'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508417'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508409'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508406'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508411'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508410'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508413'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508412'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508434'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508403'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508402'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508435'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508395'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508394'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508397'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508396'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508399'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508398'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508401'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508400'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508388'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508387'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508390'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508389'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508392'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508391'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508381'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508380'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508383'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508382'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508375'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508384'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508377'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508376'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508379'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508378'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508367'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508366'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508369'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508368'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508371'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508370'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508385'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508373'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508356'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508355'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508352'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508363'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508365'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508354'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508474'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508476'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508475'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508464'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508469'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508467'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508461'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508473'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508453'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508442'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508445'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508444'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508447'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508446'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508460'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508448'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508436'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508459'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508440'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508437'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508456'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508439'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508451'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508457'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508458'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508452'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508438'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508441'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508421'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508455'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508422'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508430'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508429'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508431'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508419'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508420'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508432'; /* linkmonstergen3minutes <- Dark Magus */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969508450'; /* Door <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1969508449'; /* Door <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1969508414'; /* Door <- Pressure Plate */
@@ -254,9 +254,9 @@ UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1969508393'; /* D
 UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1969508489'; /* Door <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1969508372'; /* Door <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1969508488'; /* Door <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508482'; /* Linkable Item Gen - 25 seconds <- Deteriorated Aegis */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508484'; /* Linkable Item Gen - 25 seconds <- Deteriorated Aegis */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508483'; /* Linkable Item Gen - 25 seconds <- Deteriorated Aegis */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508486'; /* Linkable Item Gen - 25 seconds <- Deteriorated Aegis */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508485'; /* Linkable Item Gen - 25 seconds <- Deteriorated Aegis */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508482'; /* linkitemgen25seconds <- Deteriorated Aegis */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508484'; /* linkitemgen25seconds <- Deteriorated Aegis */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508483'; /* linkitemgen25seconds <- Deteriorated Aegis */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508486'; /* linkitemgen25seconds <- Deteriorated Aegis */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508485'; /* linkitemgen25seconds <- Deteriorated Aegis */
 

@@ -1,5 +1,5 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7932, 1879162880, 1835269, 0, -60, 0.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 4 Min.) */
+VALUES (7932, 1879162880, 1835269, 0, -60, 0.005, 1, 0, 0, 0) /* linkmonstergen4minutes */
      , (29482, 1879162881, 1835274, 8, -68, 0.121, 0.707107, 0, 0, -0.707107) /* Exit Lugian Ice Tunnels */
      , (24284, 1879162882, 1835295, 39.7182, -19.4935, 0.01, -0.525207, 0, 0, -0.850975) /* Lugian Juggernaut */
      , (24284, 1879162883, 1835316, 50.3482, -29.6744, 0.01, -0.706822, 0, 0, -0.707391) /* Lugian Juggernaut */
@@ -39,41 +39,41 @@ VALUES (7932, 1879162880, 1835269, 0, -60, 0.005, 1, 0, 0, 0) /* Linkable Monste
      , (29472, 1879162917, 1835715, 270.546, -521.278, 30.005, 0.502412, 0, 0, -0.864628) /* Corpse */
      , (29348, 1879162918, 1835720, 277.972, -499.417, 30.01, 0.766275, 0, 0, 0.642513) /* Lithos Lugian */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879162880'; /* Linkable Monster Generator ( 4 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879162880'; /* linkmonstergen4minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162882'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162883'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162884'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162885'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162886'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162887'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162888'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162889'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162890'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162891'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Titan */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162892'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Titan */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162898'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162894'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162893'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Titan */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162897'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Titan */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162895'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Titan */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162896'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Titan */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162899'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162900'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162901'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162903'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162904'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162905'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162902'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Titan */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162906'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Titan */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162907'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Titan */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162908'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Titan */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162910'; /* Linkable Monster Generator ( 4 Min.) <- Lugian Titan */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162912'; /* Linkable Monster Generator ( 4 Min.) <- Lithos Lugian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162911'; /* Linkable Monster Generator ( 4 Min.) <- Lithos Lugian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162913'; /* Linkable Monster Generator ( 4 Min.) <- Lithos Lugian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162918'; /* Linkable Monster Generator ( 4 Min.) <- Lithos Lugian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162914'; /* Linkable Monster Generator ( 4 Min.) <- Lithos Lugian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162916'; /* Linkable Monster Generator ( 4 Min.) <- Lithos Lugian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162915'; /* Linkable Monster Generator ( 4 Min.) <- Lithos Lugian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162882'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162883'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162884'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162885'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162886'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162887'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162888'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162889'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162890'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162891'; /* linkmonstergen4minutes <- Lugian Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162892'; /* linkmonstergen4minutes <- Lugian Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162898'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162894'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162893'; /* linkmonstergen4minutes <- Lugian Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162897'; /* linkmonstergen4minutes <- Lugian Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162895'; /* linkmonstergen4minutes <- Lugian Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162896'; /* linkmonstergen4minutes <- Lugian Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162899'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162900'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162901'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162903'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162904'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162905'; /* linkmonstergen4minutes <- Lugian Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162902'; /* linkmonstergen4minutes <- Lugian Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162906'; /* linkmonstergen4minutes <- Lugian Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162907'; /* linkmonstergen4minutes <- Lugian Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162908'; /* linkmonstergen4minutes <- Lugian Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162910'; /* linkmonstergen4minutes <- Lugian Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162912'; /* linkmonstergen4minutes <- Lithos Lugian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162911'; /* linkmonstergen4minutes <- Lithos Lugian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162913'; /* linkmonstergen4minutes <- Lithos Lugian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162918'; /* linkmonstergen4minutes <- Lithos Lugian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162914'; /* linkmonstergen4minutes <- Lithos Lugian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162916'; /* linkmonstergen4minutes <- Lithos Lugian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879162915'; /* linkmonstergen4minutes <- Lithos Lugian */
 

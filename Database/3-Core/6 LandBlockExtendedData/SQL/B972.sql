@@ -24,8 +24,8 @@ VALUES (20225, 2073501713, 3111256320, 181.605, 85.0497, 33.705, -0.347513, 0, 0
      , (27547, 2073501728, 3111256064, 134.025, 159.987, 40.005, -0.412391, 0, 0, 0.911007) /* Bind Stone */
      , (829, 2073501698, 3111256064, 130.937, 10.6072, 24.005, 0.864192, 0, 0, -0.503163) /* Shin's Provisions */
      , (828, 2073501699, 3111256064, 63.9006, 34.0261, 20.005, -0.77878, 0, 0, -0.627297) /* The Shining Amethyst */
-     , (23631, 2073501727, 3111256064, 83.4973, 76.3424, 155.134, -0.00203875, 0, 0, 0.999998) /* April 2003 Raining Mad Cows Gen */
-     , (7923, 2073501725, 3111256064, 106.933, 18.923, 24.005, 0.888566, 0, 0, 0.458749) /* Linkable Monster Generator ( 3 Min.) */
+     , (23631, 2073501727, 3111256064, 83.4973, 76.3424, 155.134, -0.00203875, 0, 0, 0.999998) /* eventmadcowgen */
+     , (7923, 2073501725, 3111256064, 106.933, 18.923, 24.005, 0.888566, 0, 0, 0.458749) /* linkmonstergen3minutes */
      , (509, 2073501730, 3111256064, 147.054, 93.6479, 34.005, -0.613228, 0, 0, 0.789906) /* Life Stone */
      , (21338, 2073501724, 3111256064, 105.522, 19.7399, 24.005, 0.865475, 0, 0, -0.500952) /* Collector */
      , (27748, 2073501749, 3111256064, 93.6038, 84.1244, 34.005, -0.971209, 0, 0, 0.238227) /* Apprentice Fletcher */
@@ -33,12 +33,12 @@ VALUES (20225, 2073501713, 3111256320, 181.605, 85.0497, 33.705, -0.347513, 0, 0
      , (827, 2073501716, 3111256064, 110.905, 78.0281, 34.005, 0.997874, 0, 0, 0.065168) /* Opal House */
      , (823, 2073501708, 3111256064, 103.561, 31.771, 24.005, 0.955278, 0, 0, 0.29571) /* Smith Wah */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2073501725'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2073501725'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501701'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501719'; /* Linkable Monster Generator ( 3 Min.) <- Dai Ya the Scholar */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501724'; /* Linkable Monster Generator ( 3 Min.) <- Collector */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501749'; /* Linkable Monster Generator ( 3 Min.) <- Apprentice Fletcher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501750'; /* Linkable Monster Generator ( 3 Min.) <- Bleeargh, Mosswart Swamp Lord */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501751'; /* Linkable Monster Generator ( 3 Min.) <- Ydnew */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501701'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501719'; /* linkmonstergen3minutes <- Dai Ya the Scholar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501724'; /* linkmonstergen3minutes <- Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501749'; /* linkmonstergen3minutes <- Apprentice Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501750'; /* linkmonstergen3minutes <- Bleeargh, Mosswart Swamp Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501751'; /* linkmonstergen3minutes <- Ydnew */
 

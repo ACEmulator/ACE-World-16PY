@@ -2,7 +2,7 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (4248, 1881894912, 45547776, 61.0308, -60.6889, -53.9933, 0.796209, 0, 0, -0.605022) /* Putrid Moarsman */
      , (8866, 1881894913, 45547779, 62.021, -75.922, -53.9933, 0.0632627, 0, 0, -0.997997) /* Putrid Moarsman */
      , (4248, 1881894914, 45547782, 73.8024, -70.7218, -53.9933, -0.79329, 0, 0, -0.608843) /* Putrid Moarsman */
-     , (4219, 1881894915, 45547782, 68.1913, -71.2687, -53.995, 0.783216, 0, 0, -0.621749) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 1881894915, 45547782, 68.1913, -71.2687, -53.995, 0.783216, 0, 0, -0.621749) /* linkmonstergen7minutes */
      , (2131, 1881894916, 45547782, 71.2718, -66.332, -53.995, 0, 0, 0, -1) /* Pressure Plate */
      , (2131, 1881894917, 45547782, 66.2834, -71.2652, -53.995, 0.707107, 0, 0, -0.707107) /* Pressure Plate */
      , (2131, 1881894918, 45547782, 68.8052, -73.7156, -53.995, 1, 0, 0, 0) /* Pressure Plate */
@@ -11,7 +11,7 @@ VALUES (4248, 1881894912, 45547776, 61.0308, -60.6889, -53.9933, 0.796209, 0, 0,
      , (8548, 1881894921, 45547782, 71.3156, -66.2161, -52.5371, -0.498683, 0, 0, 0.866784) /* Magic trap */
      , (8548, 1881894922, 45547782, 68.7991, -73.8329, -52.7378, 0.799501, 0, 0, 0.600665) /* Magic trap */
      , (8548, 1881894923, 45547782, 66.2675, -71.2095, -52.7511, 0.954397, 0, 0, -0.298541) /* Magic trap */
-     , (7923, 1881894924, 45547784, 65.5623, -77.6755, -53.995, 0.696707, 0, 0, -0.717356) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1881894924, 45547784, 65.5623, -77.6755, -53.995, 0.696707, 0, 0, -0.717356) /* linkmonstergen3minutes */
      , (4248, 1881894925, 45547786, 82.8007, -73.0362, -52.1861, -0.933574, 0, 0, -0.358385) /* Putrid Moarsman */
      , (2131, 1881894926, 45547794, 56.2797, -33.6664, -47.995, -0.042595, 0, 0, 0.999092) /* Pressure Plate */
      , (7562, 1881894927, 45547794, 56.1221, -33.7067, -45.7881, -0.042595, 0, 0, 0.999092) /* Magic trap */
@@ -116,7 +116,7 @@ VALUES (4248, 1881894912, 45547776, 61.0308, -60.6889, -53.9933, 0.796209, 0, 0,
 
 UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881895009'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881895012'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881894915'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881894915'; /* linkmonstergen7minutes */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881894986'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1881894989'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1881895014'; /* Magic trap */
@@ -144,53 +144,53 @@ UPDATE `landblock_instances` SET `link_Slot`='27', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE `guid`='1881894963'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='29', `link_Controller`=True WHERE `guid`='1881894953'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='30', `link_Controller`=True WHERE `guid`='1881894946'; /* Magic trap */
-UPDATE `landblock_instances` SET `link_Slot`='31', `link_Controller`=True WHERE `guid`='1881894924'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='31', `link_Controller`=True WHERE `guid`='1881894924'; /* linkmonstergen3minutes */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881894985'; /* Door <- Torch */
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881894996'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881894984'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881894940'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894914'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894912'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894925'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894932'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894931'; /* Linkable Monster Generator ( 7 Min.) <- Affliction Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894933'; /* Linkable Monster Generator ( 7 Min.) <- Affliction Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894928'; /* Linkable Monster Generator ( 7 Min.) <- Affliction Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894939'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894942'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894937'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894935'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895008'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895018'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895015'; /* Linkable Monster Generator ( 7 Min.) <- Cursed Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895002'; /* Linkable Monster Generator ( 7 Min.) <- Affliction Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894998'; /* Linkable Monster Generator ( 7 Min.) <- Chomu Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894999'; /* Linkable Monster Generator ( 7 Min.) <- Ulu Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895000'; /* Linkable Monster Generator ( 7 Min.) <- Ulu Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895001'; /* Linkable Monster Generator ( 7 Min.) <- Chomu Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894997'; /* Linkable Monster Generator ( 7 Min.) <- Affliction Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894983'; /* Linkable Monster Generator ( 7 Min.) <- Affliction Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894995'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894978'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894988'; /* Linkable Monster Generator ( 7 Min.) <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894976'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894967'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894945'; /* Linkable Monster Generator ( 7 Min.) <- Affliction Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895020'; /* Linkable Monster Generator ( 7 Min.) <- Cursed Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895019'; /* Linkable Monster Generator ( 7 Min.) <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895021'; /* Linkable Monster Generator ( 7 Min.) <- Ulu Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895022'; /* Linkable Monster Generator ( 7 Min.) <- Ulu Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894970'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894971'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894955'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894956'; /* Linkable Monster Generator ( 7 Min.) <- Putrid Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894950'; /* Linkable Monster Generator ( 7 Min.) <- Affliction Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894948'; /* Linkable Monster Generator ( 7 Min.) <- Affliction Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894949'; /* Linkable Monster Generator ( 7 Min.) <- Faisi Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895003'; /* Linkable Monster Generator ( 7 Min.) <- Chomu Sclavus */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894973'; /* Linkable Monster Generator ( 7 Min.) <- Foul Moarsman */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894977'; /* Linkable Monster Generator ( 7 Min.) <- Cursed Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894914'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894912'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894925'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894932'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894931'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894933'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894928'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894939'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894942'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894937'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894935'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895008'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895018'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895015'; /* linkmonstergen7minutes <- Cursed Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895002'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894998'; /* linkmonstergen7minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894999'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895000'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895001'; /* linkmonstergen7minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894997'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894983'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894995'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894978'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894988'; /* linkmonstergen7minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894976'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894967'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894945'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895020'; /* linkmonstergen7minutes <- Cursed Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895019'; /* linkmonstergen7minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895021'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895022'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894970'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894971'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894955'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894956'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894950'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894948'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894949'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895003'; /* linkmonstergen7minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894973'; /* linkmonstergen7minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894977'; /* linkmonstergen7minutes <- Cursed Wisp */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881894987'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881894990'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881895013'; /* Magic trap <- Pressure Plate */
@@ -218,5 +218,5 @@ UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1881894965'; /* 
 UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1881894962'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1881894954'; /* Magic trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='30' WHERE `guid`='1881894947'; /* Magic trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1881894913'; /* Linkable Monster Generator ( 3 Min.) <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1881894913'; /* linkmonstergen3minutes <- Putrid Moarsman */
 

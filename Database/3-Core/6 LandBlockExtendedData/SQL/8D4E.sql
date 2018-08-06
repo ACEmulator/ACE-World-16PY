@@ -12,21 +12,21 @@ VALUES (26016, 2027216896, 2370699264, 152.467, 55.2737, 10.6404, -0.732833, 0, 
      , (26013, 2027216906, 2370699264, 164.259, 26.0454, 11.7117, 0.831654, 0, 0, -0.555294) /* Burun Ruuk Adherent */
      , (26013, 2027216907, 2370699264, 163.094, 38.7482, 10.8173, 0.965536, 0, 0, 0.26027) /* Burun Ruuk Adherent */
      , (26013, 2027216908, 2370699264, 154.824, 42.0327, 10.5222, -0.309889, 0, 0, 0.950773) /* Burun Ruuk Adherent */
-     , (4219, 2027216909, 2370699264, 151.201, 46.9993, 10.0834, -0.309889, 0, 0, 0.950773) /* Linkable Monster Generator ( 7 Min.) */;
+     , (4219, 2027216909, 2370699264, 151.201, 46.9993, 10.0834, -0.309889, 0, 0, 0.950773) /* linkmonstergen7minutes */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2027216909'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2027216909'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216896'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216897'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216898'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216899'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216900'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216901'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216902'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Ruffian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216903'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216904'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216905'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216906'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216907'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Adherent */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216908'; /* Linkable Monster Generator ( 7 Min.) <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216896'; /* linkmonstergen7minutes <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216897'; /* linkmonstergen7minutes <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216898'; /* linkmonstergen7minutes <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216899'; /* linkmonstergen7minutes <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216900'; /* linkmonstergen7minutes <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216901'; /* linkmonstergen7minutes <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216902'; /* linkmonstergen7minutes <- Burun Ruuk Ruffian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216903'; /* linkmonstergen7minutes <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216904'; /* linkmonstergen7minutes <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216905'; /* linkmonstergen7minutes <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216906'; /* linkmonstergen7minutes <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216907'; /* linkmonstergen7minutes <- Burun Ruuk Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2027216908'; /* linkmonstergen7minutes <- Burun Ruuk Adherent */
 

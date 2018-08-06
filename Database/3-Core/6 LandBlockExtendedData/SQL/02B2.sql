@@ -1,6 +1,6 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8778, 1881874432, 45220100, 8.29088, -60, -29.995, 1, 0, 0, 0) /* Heart of Shadow */
-     , (4142, 1881874433, 45220100, 10.2167, -61.0567, -29.995, 0.71802, 0, 0, 0.696023) /* Linkable Item Generator */
+     , (4142, 1881874433, 45220100, 10.2167, -61.0567, -29.995, 0.71802, 0, 0, 0.696023) /* linkitemgen2minutes */
      , (23562, 1881874434, 45220100, 13.1936, -57.3048, -29.995, 0.732756, 0, 0, -0.680491) /* Abyssal Shadow */
      , (23562, 1881874435, 45220100, 13.4768, -61.8527, -29.995, 0.659054, 0, 0, -0.752095) /* Abyssal Shadow */
      , (8817, 1881874436, 45220100, 7.36142, -60.0217, -29.995, 0.706133, 0, 0, -0.708079) /* Lower Shadow Heart Leader */
@@ -57,13 +57,13 @@ VALUES (8778, 1881874432, 45220100, 8.29088, -60, -29.995, 1, 0, 0, 0) /* Heart 
      , (8850, 1881874487, 45220330, 150, -200, 6.005, 1, 0, 0, 0) /* Surface Portal */
      , (8886, 1881874488, 45220332, 150, -220, 6.005, 1, 0, 0, -4.37114E-08) /* Lower Shade Stronghold */
      , (2179, 1881874489, 45220335, 160, -155, 6.005, 1, 0, 0, 0) /* Door */
-     , (7932, 1881874490, 45220345, 170, -190, 6.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 4 Min.) */
+     , (7932, 1881874490, 45220345, 170, -190, 6.005, 1, 0, 0, 0) /* linkmonstergen4minutes */
      , (2609, 1881874491, 45220345, 167, -192, 6.059, -0.707107, 0, 0, -0.707107) /* Lever */
      , (2609, 1881874492, 45220345, 167, -190, 6.059, -0.707107, 0, 0, -0.707107) /* Lever */
      , (2609, 1881874493, 45220345, 167, -188, 6.059, -0.707107, 0, 0, -0.707107) /* Lever */
      , (4065, 1881874494, 45220345, 165.5, -190, 7, -0.708857, 0, 0, -0.705352) /* Lightning Trap */
      , (4066, 1881874495, 45220345, 165.5, -188, 7, -0.999458, 0, 0, -0.032911) /* Flame Trap */
-     , (7923, 1881874496, 45220345, 171.421, -190.156, 6.005, 0.968912, 0, 0, 0.247404) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1881874496, 45220345, 171.421, -190.156, 6.005, 0.968912, 0, 0, 0.247404) /* linkmonstergen3minutes */
      , (23564, 1881874497, 45220348, 181.12, -140.128, 6.005, -0.72395, 0, 0, -0.689853) /* Tenebrous Shadow */
      , (23564, 1881874498, 45220348, 183.162, -139.351, 6.005, -0.706479, 0, 0, -0.707734) /* Tenebrous Shadow */
      , (23564, 1881874499, 45220348, 183.741, -140.652, 6.005, -0.686287, 0, 0, -0.727331) /* Tenebrous Shadow */
@@ -115,9 +115,9 @@ UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1881874448'; /* Magic trap */
 UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1881874525'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1881874440'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1881874433'; /* Linkable Item Generator */
-UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1881874490'; /* Linkable Monster Generator ( 4 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1881874496'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1881874433'; /* linkitemgen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1881874490'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1881874496'; /* linkmonstergen3minutes */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881874492'; /* Lightning Trap <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881874493'; /* Flame Trap <- Lever */
@@ -132,54 +132,54 @@ UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881874508'; /* 
 UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881874447'; /* Magic trap <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1881874451'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1881874526'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881874432'; /* Linkable Item Generator <- Heart of Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874497'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874498'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874499'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874480'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874481'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874482'; /* Linkable Monster Generator ( 4 Min.) <- Harrower Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874479'; /* Linkable Monster Generator ( 4 Min.) <- Harrower Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874472'; /* Linkable Monster Generator ( 4 Min.) <- Harrower Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874473'; /* Linkable Monster Generator ( 4 Min.) <- Harrower Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874469'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874470'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874471'; /* Linkable Monster Generator ( 4 Min.) <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874468'; /* Linkable Monster Generator ( 4 Min.) <- Destroyer Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874465'; /* Linkable Monster Generator ( 4 Min.) <- Destroyer Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874446'; /* Linkable Monster Generator ( 4 Min.) <- Harrower Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874455'; /* Linkable Monster Generator ( 4 Min.) <- Harrower Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874442'; /* Linkable Monster Generator ( 4 Min.) <- Harrower Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874457'; /* Linkable Monster Generator ( 4 Min.) <- Harrower Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874453'; /* Linkable Monster Generator ( 4 Min.) <- Destroyer Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874444'; /* Linkable Monster Generator ( 4 Min.) <- Harrower Grievver */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874449'; /* Linkable Monster Generator ( 4 Min.) <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874450'; /* Linkable Monster Generator ( 4 Min.) <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874434'; /* Linkable Monster Generator ( 4 Min.) <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874435'; /* Linkable Monster Generator ( 4 Min.) <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874459'; /* Linkable Monster Generator ( 4 Min.) <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874460'; /* Linkable Monster Generator ( 4 Min.) <- Abyssal Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874461'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874462'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874511'; /* Linkable Monster Generator ( 4 Min.) <- Sinister Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874512'; /* Linkable Monster Generator ( 4 Min.) <- Sinister Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874513'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874486'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874485'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874484'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874483'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874503'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874504'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874505'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874521'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874522'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874523'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874524'; /* Linkable Monster Generator ( 4 Min.) <- Tenebrous Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874531'; /* Linkable Monster Generator ( 4 Min.) <- Sinister Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874529'; /* Linkable Monster Generator ( 4 Min.) <- Sinister Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874528'; /* Linkable Monster Generator ( 4 Min.) <- Sinister Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874532'; /* Linkable Monster Generator ( 4 Min.) <- Sinister Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874533'; /* Linkable Monster Generator ( 4 Min.) <- Sinister Shadow */
-UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1881874527'; /* Linkable Monster Generator ( 3 Min.) <- Upper Shadow Heart Leader */
-UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1881874436'; /* Linkable Monster Generator ( 3 Min.) <- Lower Shadow Heart Leader */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881874432'; /* linkitemgen2minutes <- Heart of Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874497'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874498'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874499'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874480'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874481'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874482'; /* linkmonstergen4minutes <- Harrower Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874479'; /* linkmonstergen4minutes <- Harrower Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874472'; /* linkmonstergen4minutes <- Harrower Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874473'; /* linkmonstergen4minutes <- Harrower Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874469'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874470'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874471'; /* linkmonstergen4minutes <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874468'; /* linkmonstergen4minutes <- Destroyer Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874465'; /* linkmonstergen4minutes <- Destroyer Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874446'; /* linkmonstergen4minutes <- Harrower Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874455'; /* linkmonstergen4minutes <- Harrower Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874442'; /* linkmonstergen4minutes <- Harrower Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874457'; /* linkmonstergen4minutes <- Harrower Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874453'; /* linkmonstergen4minutes <- Destroyer Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874444'; /* linkmonstergen4minutes <- Harrower Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874449'; /* linkmonstergen4minutes <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874450'; /* linkmonstergen4minutes <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874434'; /* linkmonstergen4minutes <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874435'; /* linkmonstergen4minutes <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874459'; /* linkmonstergen4minutes <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874460'; /* linkmonstergen4minutes <- Abyssal Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874461'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874462'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874511'; /* linkmonstergen4minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874512'; /* linkmonstergen4minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874513'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874486'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874485'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874484'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874483'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874503'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874504'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874505'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874521'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874522'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874523'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874524'; /* linkmonstergen4minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874531'; /* linkmonstergen4minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874529'; /* linkmonstergen4minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874528'; /* linkmonstergen4minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874532'; /* linkmonstergen4minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881874533'; /* linkmonstergen4minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1881874527'; /* linkmonstergen3minutes <- Upper Shadow Heart Leader */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1881874436'; /* linkmonstergen3minutes <- Lower Shadow Heart Leader */
 

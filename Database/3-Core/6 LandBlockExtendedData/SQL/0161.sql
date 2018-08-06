@@ -4,10 +4,10 @@ VALUES (218, 1880494080, 23134464, 48.9917, -90.2058, -47.9916, 0.903241, 0, 0, 
      , (4110, 1880494082, 23134494, 87.4567, -80.5957, -35.989, 0.926734, 0, 0, -0.375718) /* Blood Shreth */
      , (4110, 1880494083, 23134495, 87.8009, -89.048, -35.989, -0.505658, 0, 0, -0.862734) /* Blood Shreth */
      , (4111, 1880494084, 23134496, 100.646, -50.278, -35.989, 0.439645, 0, 0, -0.898172) /* Hunter Shreth */
-     , (4033, 1880494085, 23134496, 100.344, -51.4524, -36, 0.980379, 0, 0, -0.197122) /* Poor Treasure Generator */
+     , (4033, 1880494085, 23134496, 100.344, -51.4524, -36, 0.980379, 0, 0, -0.197122) /* itempoorgen */
      , (4110, 1880494086, 23134499, 98.6332, -68.2948, -35.9756, -0.429131, 0, 0, -0.903242) /* Blood Shreth */
      , (25316, 1880494161, 23134500, 108.58, -51.11, -35.995, 0.912161, 0, 0, 0.409833) /* Alloy Apparatus */
-     , (15759, 1880494162, 23134500, 109.425, -51.8607, -35.995, 0.963163, 0, 0, 0.26892) /* Linkable Item Generator */
+     , (15759, 1880494162, 23134500, 109.425, -51.8607, -35.995, 0.963163, 0, 0, 0.26892) /* linkitemgen10seconds */
      , (4110, 1880494087, 23134501, 109.06, -59.0418, -35.989, 0.817522, 0, 0, -0.575897) /* Blood Shreth */
      , (1298, 1880494088, 23134511, 17.985, -90, -30, 0.707107, 0, 0, -0.707107) /* Door */
      , (4960, 1880494089, 23134513, 63.9685, -50.0128, -29.4914, -0.707107, 0, 0, -0.707107) /* Surface */
@@ -26,8 +26,8 @@ VALUES (218, 1880494080, 23134464, 48.9917, -90.2058, -47.9916, 0.903241, 0, 0, 
      , (1464, 1880494102, 23134633, 31.2707, -18.087, -11.9958, -0.397247, 0, 0, -0.917712) /* Drudge Robber */
      , (4452, 1880494103, 23134640, 29.9892, -34.5006, -12, -4.37114E-08, 0, 0, -1) /* Door */
      , (4180, 1880494104, 23134647, 80.4836, -41.5407, -18, 0.929817, 0, 0, -0.368022) /* Corpse */
-     , (4012, 1880494105, 23134656, 19.989, -36.824, -6, 0.707107, 0, 0, -0.707107) /* Cheap Glitter Generator */
-     , (1429, 1880494106, 23134656, 18.395, -39.428, -6, -0.707107, 0, 0, -0.707107) /* Cabbage Generator */
+     , (4012, 1880494105, 23134656, 19.989, -36.824, -6, 0.707107, 0, 0, -0.707107) /* itemlowglittergen */
+     , (1429, 1880494106, 23134656, 18.395, -39.428, -6, -0.707107, 0, 0, -0.707107) /* itemcabbagegenerator */
      , (1631, 1880494107, 23134656, 22.3656, -40.575, -5.99668, -0.847122, 0, 0, -0.531399) /* Drudge Servant */
      , (1631, 1880494108, 23134656, 18.3153, -40.6772, -5.99668, 0.898172, 0, 0, -0.439645) /* Drudge Servant */
      , (192, 1880494109, 23134658, 16.9899, -62.3087, -5.9958, -0.491282, 0, 0, -0.871) /* Drudge Prowler */
@@ -77,65 +77,65 @@ VALUES (218, 1880494080, 23134464, 48.9917, -90.2058, -47.9916, 0.903241, 0, 0, 
      , (278, 1880494153, 23134811, 70, -64.75, 0, 0, 0, 0, 1) /* Door */
      , (218, 1880494154, 23134817, 80.1045, -28.5424, 0.949625, -0.524358, 0, 0, -0.851498) /* Black Rat */
      , (1464, 1880494155, 23134817, 80.0203, -29.5725, 0.0042, -0.999263, 0, 0, -0.0383882) /* Drudge Robber */
-     , (420, 1880494156, 23134817, 81.5538, -31.551, 0, -0.707107, 0, 0, -0.707107) /* Item Food Generator */
+     , (420, 1880494156, 23134817, 81.5538, -31.551, 0, -0.707107, 0, 0, -0.707107) /* itemfood-generator */
      , (278, 1880494157, 23134819, 75.245, -30, 0, -0.707107, 0, 0, -0.707107) /* Door */
      , (4960, 1880494158, 23134820, 82.4439, -82.0855, 0.6955, 0.10149, 0, 0, -0.994837) /* Surface */
-     , (7923, 1880494159, 23134820, 77.286, -82.3823, 0, -0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1880494159, 23134820, 77.286, -82.3823, 0, -0.707107, 0, 0, -0.707107) /* linkmonstergen3minutes */
      , (568, 1880494160, 23134822, 75.25, -80, 0, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880494159'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880494159'; /* linkmonstergen3minutes */
 UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880494127'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880494124'; /* Door */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880494125'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880494162'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880494162'; /* linkitemgen10seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494107'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494108'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494109'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494084'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494086'; /* Linkable Monster Generator ( 3 Min.) <- Blood Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494083'; /* Linkable Monster Generator ( 3 Min.) <- Blood Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494082'; /* Linkable Monster Generator ( 3 Min.) <- Blood Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494087'; /* Linkable Monster Generator ( 3 Min.) <- Blood Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494118'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494139'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494126'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494129'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494130'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494091'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494092'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494096'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494097'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494102'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Robber */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494100'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494123'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494113'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494120'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494119'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494117'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494111'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494141'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494145'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494142'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494143'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494154'; /* Linkable Monster Generator ( 3 Min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494148'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494140'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494150'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494152'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494098'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494094'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494095'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494099'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494155'; /* Linkable Monster Generator ( 3 Min.) <- Drudge Robber */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494081'; /* Linkable Monster Generator ( 3 Min.) <- Red Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494080'; /* Linkable Monster Generator ( 3 Min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494090'; /* Linkable Monster Generator ( 3 Min.) <- Red Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494107'; /* linkmonstergen3minutes <- Drudge Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494108'; /* linkmonstergen3minutes <- Drudge Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494109'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494084'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494086'; /* linkmonstergen3minutes <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494083'; /* linkmonstergen3minutes <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494082'; /* linkmonstergen3minutes <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494087'; /* linkmonstergen3minutes <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494118'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494139'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494126'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494129'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494130'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494091'; /* linkmonstergen3minutes <- Drudge Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494092'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494096'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494097'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494102'; /* linkmonstergen3minutes <- Drudge Robber */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494100'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494123'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494113'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494120'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494119'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494117'; /* linkmonstergen3minutes <- Drudge Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494111'; /* linkmonstergen3minutes <- Drudge Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494141'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494145'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494142'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494143'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494154'; /* linkmonstergen3minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494148'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494140'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494150'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494152'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494098'; /* linkmonstergen3minutes <- Drudge Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494094'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494095'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494099'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494155'; /* linkmonstergen3minutes <- Drudge Robber */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494081'; /* linkmonstergen3minutes <- Red Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494080'; /* linkmonstergen3minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880494090'; /* linkmonstergen3minutes <- Red Rat */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880494114'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880494133'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880494115'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880494132'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880494116'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880494131'; /* Door <- Lever */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880494161'; /* Linkable Item Generator <- Alloy Apparatus */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880494161'; /* linkitemgen10seconds <- Alloy Apparatus */
 

@@ -9,7 +9,7 @@ VALUES (23336, 2118373385, 3829203200, 84.7067, 138.076, 121.504, -0.869681, 0, 
      , (5408, 2118373382, 3829202944, 60.2679, 161.897, 120, 0.999995, 0, 0, -0.00329006) /* Waterfall */
      , (5408, 2118373383, 3829202944, 54.3758, 164.416, 120, 0.999995, 0, 0, -0.00329006) /* Waterfall */
      , (22257, 2118373406, 3829202944, 131.881, 13.3468, 69.555, 0.910997, 0, 0, -0.412414) /* Fishing Hole */
-     , (7924, 2118373386, 3829202944, 86.379, 141.164, 121.499, -0.755314, 0, 0, -0.655364) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 2118373386, 3829202944, 86.379, 141.164, 121.499, -0.755314, 0, 0, -0.655364) /* linkmonstergen5minutes */
      , (22257, 2118373387, 3829202944, 49.4094, 151.568, 119.555, 0.757114, 0, 0, -0.653283) /* Fishing Hole */
      , (22257, 2118373388, 3829202944, 32.7117, 140.845, 119.555, 0.916357, 0, 0, -0.400363) /* Fishing Hole */
      , (22257, 2118373389, 3829202944, 72.8065, 28.5165, 69.555, 0.0130766, 0, 0, -0.999915) /* Fishing Hole */
@@ -31,26 +31,26 @@ VALUES (23336, 2118373385, 3829203200, 84.7067, 138.076, 121.504, -0.869681, 0, 
      , (22257, 2118373404, 3829202944, 100.336, 30.0654, 69.555, 0.758608, 0, 0, 0.651547) /* Fishing Hole */
      , (22257, 2118373405, 3829202944, 123.152, 26.7274, 69.555, -0.998289, 0, 0, -0.0584648) /* Fishing Hole */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2118373386'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2118373386'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373385'; /* Linkable Monster Generator ( 5 Min.) <- Tackle Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373387'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373388'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373389'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373390'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373391'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373394'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373384'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373395'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373396'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373397'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373398'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373399'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373400'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373401'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373402'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373403'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373404'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373405'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373406'; /* Linkable Monster Generator ( 5 Min.) <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373385'; /* linkmonstergen5minutes <- Tackle Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373387'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373388'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373389'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373390'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373391'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373394'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373384'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373395'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373396'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373397'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373398'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373399'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373400'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373401'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373402'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373403'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373404'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373405'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373406'; /* linkmonstergen5minutes <- Fishing Hole */
 

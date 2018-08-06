@@ -9,14 +9,14 @@ VALUES (3981, 1881976832, 46858496, 3.02628, -10.349, -5.995, 0.435066, 0, 0, 0.
      , (218, 1881976839, 46858508, 39.0385, -72.8882, -5.9916, -0.127186, 0, 0, 0.991879) /* Black Rat */
      , (218, 1881976840, 46858508, 41.1622, -70.9618, -5.9916, -0.002531, 0, 0, 0.999997) /* Black Rat */
      , (7106, 1881976841, 46858509, 39.8331, -76.4269, -5.988, -0.999965, 0, 0, 0.008407) /* Sewer Rat */
-     , (4024, 1881976842, 46858509, 40.1216, -77.5573, -5.995, 0.008296, 0, 0, 0.999966) /* Cheap Glitter Generator */
+     , (4024, 1881976842, 46858509, 40.1216, -77.5573, -5.995, 0.008296, 0, 0, 0.999966) /* itemmedglittergen */
      , (218, 1881976843, 46858511, 54.7635, -19.8448, -5.945, -0.173999, 0, 0, 0.984746) /* Black Rat */
      , (218, 1881976844, 46858512, 51.4979, -39.9546, -5.9916, -0.790968, 0, 0, 0.611858) /* Black Rat */
      , (1299, 1881976845, 46858515, 58, -30, -6, -0.707107, 0, 0, -0.707107) /* Door */
      , (218, 1881976846, 46858516, 60.463, -35.9931, -5.9916, -0.996874, 0, 0, -0.07901) /* Black Rat */
      , (8199, 1881976847, 46858519, 3.24999, -10, 0, 0.707107, 0, 0, -0.707107) /* The Floating City */
-     , (4378, 1881976848, 46858521, 10, -40, 0.005, 1, 0, 0, 0) /* Random Portal Generator */
-     , (4219, 1881976849, 46858527, 19.957, -8.72277, 0.005, 0.188164, 0, 0, -0.982138) /* Linkable Monster Generator ( 7 Min.) */
+     , (4378, 1881976848, 46858521, 10, -40, 0.005, 1, 0, 0, 0) /* portalrandomgen */
+     , (4219, 1881976849, 46858527, 19.957, -8.72277, 0.005, 0.188164, 0, 0, -0.982138) /* linkmonstergen7minutes */
      , (5624, 1881976850, 46858535, 30, -4.755, 0, -4.37114E-08, 0, 0, -1) /* Door */
      , (950, 1881976851, 46858553, 31.9542, -69.8748, 0.0075, -0.041954, 0, 0, 0.99912) /* Zombie */
      , (4887, 1881976852, 46858553, 26.6034, -67.4238, 0.005, 0.76152, 0, 0, 0.648141) /* Chest */
@@ -50,35 +50,35 @@ VALUES (3981, 1881976832, 46858496, 3.02628, -10.349, -5.995, 0.435066, 0, 0, 0.
      , (950, 1881976880, 46858711, 39.1121, -60.5635, 12.0075, 0.994154, 0, 0, 0.107974) /* Zombie */
      , (1301, 1881976881, 46858714, 40, -55.25, 12, 1, 0, 0, 0) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881976849'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881976849'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976841'; /* Linkable Monster Generator ( 7 Min.) <- Sewer Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976837'; /* Linkable Monster Generator ( 7 Min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976838'; /* Linkable Monster Generator ( 7 Min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976844'; /* Linkable Monster Generator ( 7 Min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976846'; /* Linkable Monster Generator ( 7 Min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976834'; /* Linkable Monster Generator ( 7 Min.) <- Water Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976835'; /* Linkable Monster Generator ( 7 Min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976836'; /* Linkable Monster Generator ( 7 Min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976843'; /* Linkable Monster Generator ( 7 Min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976851'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976854'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976874'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976859'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976860'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976871'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976862'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976863'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976864'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976880'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976865'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976879'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976867'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976868'; /* Linkable Monster Generator ( 7 Min.) <- Zombie */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976878'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976876'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976855'; /* Linkable Monster Generator ( 7 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976839'; /* Linkable Monster Generator ( 7 Min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976840'; /* Linkable Monster Generator ( 7 Min.) <- Black Rat */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976833'; /* Linkable Monster Generator ( 7 Min.) <- Lesser Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976841'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976837'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976838'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976844'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976846'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976834'; /* linkmonstergen7minutes <- Water Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976835'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976836'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976843'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976851'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976854'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976874'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976859'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976860'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976871'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976862'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976863'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976864'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976880'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976865'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976879'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976867'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976868'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976878'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976876'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976855'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976839'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976840'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976833'; /* linkmonstergen7minutes <- Lesser Mu-miyah */
 

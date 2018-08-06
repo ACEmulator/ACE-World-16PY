@@ -6,15 +6,15 @@ VALUES (15793, 1967529984, 1415708929, 0.018757, -9.55409, 0.079, -0.319929, 0, 
      , (15791, 1967529988, 1415708942, 21.7749, -1.47583, 0.079, -0.92287, 0, 0, -0.385111) /* A Painfully Scrawled Note */
      , (15755, 1967529989, 1415708953, 33.5, -10, 0.005, 0.707107, 0, 0, -0.707107) /* Lever */
      , (15790, 1967529990, 1415708953, 29.7525, -6.79775, 0.079, -0.782665, 0, 0, -0.622443) /* A Hastily Scrawled Note */
-     , (15759, 1967529991, 1415708954, 28.8947, -20.6798, 0.005, -0.782665, 0, 0, -0.622443) /* Linkable Item Generator */
+     , (15759, 1967529991, 1415708954, 28.8947, -20.6798, 0.005, -0.782665, 0, 0, -0.622443) /* linkitemgen10seconds */
      , (15789, 1967529992, 1415708954, 27.2903, -18.5597, 0.079, -0.782665, 0, 0, -0.622443) /* Scrawled Bloody Note */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967529991'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967529991'; /* linkitemgen10seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529992'; /* Linkable Item Generator <- Scrawled Bloody Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529990'; /* Linkable Item Generator <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529988'; /* Linkable Item Generator <- A Painfully Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529986'; /* Linkable Item Generator <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529984'; /* Linkable Item Generator <- A Hastily Scrawled Note */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529987'; /* Linkable Item Generator <- Bloody Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529992'; /* linkitemgen10seconds <- Scrawled Bloody Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529990'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529988'; /* linkitemgen10seconds <- A Painfully Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529986'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529984'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967529987'; /* linkitemgen10seconds <- Bloody Scrawled Note */
 

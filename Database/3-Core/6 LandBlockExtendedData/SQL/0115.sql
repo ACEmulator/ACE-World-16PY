@@ -33,10 +33,10 @@ VALUES (4979, 1880182784, 18153728, -2.1713, -20.2492, 0, 0.707107, 0, 0, 0.7071
      , (152, 1880182828, 18153902, 70, -70, 18, 0.999932, 0, 0, -0.011672) /* Font */
      , (278, 1880182830, 18153912, 34.75, -40, 24, 0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1880182831, 18153921, 50, -55.25, 24, 1, 0, 0, 0) /* Door */
-     , (5086, 1880182837, 18153922, 57.5073, -18.3513, 24.005, 0.983956, 0, 0, 0.178412) /* Linkable Monster Gen - 30 sec. */
+     , (5086, 1880182837, 18153922, 57.5073, -18.3513, 24.005, 0.983956, 0, 0, 0.178412) /* linkmonstergen30seconds */
      , (278, 1880182834, 18153935, 85.25, -40, 24, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880182837'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880182837'; /* linkmonstergen30seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880182835'; /* Linkable Monster Gen - 30 sec. <- Grand Sentinel Muroba */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880182835'; /* linkmonstergen30seconds <- Grand Sentinel Muroba */
 

@@ -8,10 +8,10 @@ VALUES (2041, 2074734594, 3130982656, 33.9438, 180.139, 56.005, 0.968912, 0, 0, 
      , (5692, 2074734596, 3130982668, 35, 183, 59.005, -4.37114E-08, 0, 0, -1) /* The Days of the Olthoi */
      , (412, 2074734592, 3130982400, 36.9592, 186.158, 56, -4.37114E-08, 0, 0, -1) /* Door */
      , (412, 2074734593, 3130982400, 40.6892, 174.198, 56, 0.707107, 0, 0, -0.707107) /* Door */
-     , (1154, 2074734599, 3130982400, 34.6064, 187.303, 56.005, -0.0285891, 0, 0, 0.999591) /* Linkable Monster Generator */;
+     , (1154, 2074734599, 3130982400, 34.6064, 187.303, 56.005, -0.0285891, 0, 0, 0.999591) /* linkmonstergen */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2074734599'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2074734599'; /* linkmonstergen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074734602'; /* Linkable Monster Generator <- Arcanum Researcher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074734598'; /* Linkable Monster Generator <- Bretself the Translator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074734602'; /* linkmonstergen <- Arcanum Researcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074734598'; /* linkmonstergen <- Bretself the Translator */
 

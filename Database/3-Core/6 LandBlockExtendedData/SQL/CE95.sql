@@ -2,7 +2,7 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (28188, 2095665258, 3465871618, 83.4763, 15.3482, 20.005, -0.618304, 0, 0, 0.785939) /* Apprentice Fletcher */
      , (651, 2095665184, 3465871618, 88.2, 14.52, 20.005, 1, 0, 0, 0) /* Bowyer Bronwin */
      , (143, 2095665152, 3465871620, 87.9318, 16.1648, 23.04, -0.95956, 0, 0, 0.281503) /* Chest */
-     , (4777, 2095665199, 3465871620, 86.0501, 16.0809, 23.005, -0.275876, 0, 0, 0.961193) /* Aluvian Ivory Collector Gen */
+     , (4777, 2095665199, 3465871620, 86.0501, 16.0809, 23.005, -0.275876, 0, 0, 0.961193) /* crafterivoryaluviangen */
      , (145, 2095665155, 3465871633, 106.611, 156.659, 20.0125, 0.825606, 0, 0, 0.564247) /* Coffer */
      , (655, 2095665190, 3465871633, 111.96, 154.68, 20.28, 1, 0, 0, 0) /* Aderma the Lapidary */
      , (145, 2095665156, 3465871635, 107.412, 156.933, 23.0175, 0.714473, 0, 0, 0.699663) /* Coffer */
@@ -15,7 +15,7 @@ VALUES (28188, 2095665258, 3465871618, 83.4763, 15.3482, 20.005, -0.618304, 0, 0
      , (648, 2095665181, 3465871661, 90.24, 110.04, 20.28, -0.486335, 0, 0, 0.873772) /* Byrdara the Barkeeper */
      , (8377, 2095665209, 3465871661, 90.6164, 107.668, 20.9334, -0.211859, 0, 0, -0.9773) /* Beer Keg */
      , (25896, 2095665254, 3465871662, 77.4173, 106.369, 20.005, 0.391878, 0, 0, 0.920017) /* Samuel, Former Guardian */
-     , (4775, 2095665205, 3465871668, 83.4554, 116.469, 20.005, 0.116365, 0, 0, 0.993207) /* Aluvian Wing Collector Gen */
+     , (4775, 2095665205, 3465871668, 83.4554, 116.469, 20.005, 0.116365, 0, 0, 0.993207) /* collectorwingaluviangen */
      , (143, 2095665168, 3465871670, 156.51, 60.105, 20.015, -4.37114E-08, 0, 0, -1) /* Chest */
      , (652, 2095665185, 3465871670, 153.72, 63.72, 20.005, -0.47332, 0, 0, 0.880891) /* Grocer Parsal */
      , (658, 2095665186, 3465871670, 152.04, 66.96, 20.16, -0.0357716, 0, 0, 0.99936) /* Cynsela the Tailor */
@@ -32,7 +32,7 @@ VALUES (28188, 2095665258, 3465871618, 83.4763, 15.3482, 20.005, -0.618304, 0, 0
      , (656, 2095665189, 3465871695, 156.36, 132.24, 20.28, 0.413104, 0, 0, 0.910684) /* Farnum the Provisioner */
      , (143, 2095665177, 3465871707, 158.585, 132.815, 23.01, 0.707107, 0, 0, -0.707107) /* Chest */
      , (143, 2095665178, 3465871709, 161.605, 138.81, 23.01, 0.72176, 0, 0, -0.692143) /* Chest */
-     , (7923, 2095665214, 3465871715, 15.2818, 29.0179, 20.005, 0.642543, 0, 0, 0.766249) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2095665214, 3465871715, 15.2818, 29.0179, 20.005, 0.642543, 0, 0, 0.766249) /* linkmonstergen3minutes */
      , (12050, 2095665213, 3465871715, 14.0111, 28.7569, 20.005, 0.876614, 0, 0, -0.481194) /* Agent of the Arcanum */
      , (19718, 2095665232, 3465871721, 115.094, 96.4076, 14.805, 0.999881, 0, 0, -0.0154289) /* Effigy Foundry Portal */
      , (143, 2095665228, 3465871724, 56.77, 82.0225, 20.0125, 0.714473, 0, 0, 0.699663) /* Chest */
@@ -61,15 +61,15 @@ VALUES (28188, 2095665258, 3465871618, 83.4763, 15.3482, 20.005, -0.618304, 0, 0
      , (412, 2095665230, 3465871360, 64.275, 82.8, 20, 0.707107, 0, 0, 0.707107) /* Door */
      , (27547, 2095665256, 3465871360, 158.128, 95.0613, 20.005, 0.810591, 0, 0, -0.585612) /* Bind Stone */
      , (19194, 2095665231, 3465871360, 115.884, 84.1761, 26.8193, -0.628558, 0, 0, -0.777763) /* Nullified Statue of a Banderling */
-     , (19457, 2095665223, 3465871360, 115.143, 83.953, 27, -0.682531, 0, 0, -0.730857) /* Fireworks Generator */
+     , (19457, 2095665223, 3465871360, 115.143, 83.953, 27, -0.682531, 0, 0, -0.730857) /* fireworksgen */
      , (12304, 2095665216, 3465871360, 20.037, 44.7093, 20.005, -0.717863, 0, 0, -0.696184) /* Agent of the Arcanum  */
      , (8362, 2095665208, 3465871360, 110.098, 66.1994, 20.005, -0.0354007, 0, 0, -0.999373) /* Olivier Rognath */
      , (174, 2095665206, 3465871360, 128.16, 66.12, 20, 1, 0, 0, 0) /* Well */
      , (2048, 2095665203, 3465871360, 129.477, 66.9045, 20.005, 0.937724, 0, 0, 0.34738) /* Weary-looking Man */
      , (475, 2095665202, 3465871360, 116.04, 134.64, 20.04, -0.991894, 0, 0, -0.127065) /* Eastham */
      , (475, 2095665201, 3465871360, 113.76, 29.88, 20.04, 0.121869, 0, 0, -0.992546) /* Eastham */
-     , (891, 2095665200, 3465871360, 58.56, 39.36, 20, 0.361625, 0, 0, -0.932324) /* Brown Cow Generator */
-     , (1154, 2095665191, 3465871360, 129.193, 69.9237, 20.005, -0.34432, 0, 0, 0.938852) /* Linkable Monster Generator */
+     , (891, 2095665200, 3465871360, 58.56, 39.36, 20, 0.361625, 0, 0, -0.932324) /* cowbrowngen */
+     , (1154, 2095665191, 3465871360, 129.193, 69.9237, 20.005, -0.34432, 0, 0, 0.938852) /* linkmonstergen */
      , (639, 2095665192, 3465871360, 133.173, 11.5176, 20.04, -0.385101, 0, 0, 0.922875) /* Chirurgeon */
      , (643, 2095665193, 3465871360, 147.68, 66.2993, 20.04, 0.662129, 0, 0, -0.74939) /* Food, Garments, Books  */
      , (640, 2095665194, 3465871360, 116.707, 162.378, 20.04, -0.667995, -0.000582935, -0.000649406, -0.744165) /* Lapidary  */
@@ -78,14 +78,14 @@ VALUES (28188, 2095665258, 3465871618, 83.4763, 15.3482, 20.005, -0.618304, 0, 0
      , (638, 2095665197, 3465871360, 89.3005, 21.4586, 20.04, -0.38671, 0, 0, -0.922201) /* Bowyer  */
      , (637, 2095665198, 3465871360, 158.76, 24.24, 20.04, 1, 0, 0, 0) /* Blacksmith  */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2095665191'; /* Linkable Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2095665214'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2095665191'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2095665214'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095665203'; /* Linkable Monster Generator <- Weary-looking Man */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095665208'; /* Linkable Monster Generator <- Olivier Rognath */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095665207'; /* Linkable Monster Generator <- Alexander the Deft */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095665215'; /* Linkable Monster Generator <- Alexander's Apprentice */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2095665213'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2095665254'; /* Linkable Monster Generator ( 3 Min.) <- Samuel, Former Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2095665258'; /* Linkable Monster Generator ( 3 Min.) <- Apprentice Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095665203'; /* linkmonstergen <- Weary-looking Man */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095665208'; /* linkmonstergen <- Olivier Rognath */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095665207'; /* linkmonstergen <- Alexander the Deft */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095665215'; /* linkmonstergen <- Alexander's Apprentice */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2095665213'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2095665254'; /* linkmonstergen3minutes <- Samuel, Former Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2095665258'; /* linkmonstergen3minutes <- Apprentice Fletcher */
 

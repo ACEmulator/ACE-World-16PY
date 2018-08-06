@@ -33,7 +33,7 @@ VALUES (1609, 1880109056, 16974080, 43.572, -70.1673, -29.995, -0.714278, 0, 0, 
      , (1629, 1880109087, 16974119, 40.2185, -230.805, -23.989, 0.012462, 0, 0, -0.999922) /* Tusker Guard */
      , (1629, 1880109088, 16974150, 50.1836, -166.794, -23.945, -0.03184, 0, 0, -0.999493) /* Tusker Guard */
      , (1629, 1880109089, 16974160, 49.8087, -202.788, -23.989, 0.007625, 0, 0, 0.999971) /* Tusker Guard */
-     , (3955, 1880109090, 16974164, 49.3402, -209.248, -23.995, 0.999956, 0, 0, 0.009417) /* Linkable Monster Gen (15 min.) */
+     , (3955, 1880109090, 16974164, 49.3402, -209.248, -23.995, 0.999956, 0, 0, 0.009417) /* linkmonstergen15minutes */
      , (1629, 1880109091, 16974167, 46.9803, -228.518, -23.945, -0.514011, 0, 0, -0.857784) /* Tusker Guard */
      , (1629, 1880109092, 16974169, 52.0015, -229.335, -23.989, 0.239726, 0, 0, -0.970841) /* Tusker Guard */
      , (23, 1880109093, 16974186, 59.6545, -50.1152, -26.971, 0.703272, 0, 0, 0.710921) /* Virindi Servant */
@@ -121,130 +121,130 @@ VALUES (1609, 1880109056, 16974080, 43.572, -70.1673, -29.995, -0.714278, 0, 0, 
      , (7247, 1880109175, 16974657, 80, -210, 0.005, 1, 0, 0, 0) /* Surface Portal */
      , (1628, 1880109176, 16974703, 97.8906, -140.412, 0.055, -0.363027, 0, 0, 0.931779) /* Tusker Slave */
      , (1628, 1880109177, 16974711, 109.603, -140.554, 0.011, 0.0276225, 0, 0, 0.999618) /* Tusker Slave */
-     , (3955, 1880109178, 16974722, 110.001, -210.013, 0.005, 1, 0, 0, 0) /* Linkable Monster Gen (15 min.) */
-     , (3955, 1880109179, 16974722, 110.179, -208.522, 0.005, 0.999792, 0, 0, 0.0204106) /* Linkable Monster Gen (15 min.) */
+     , (3955, 1880109178, 16974722, 110.001, -210.013, 0.005, 1, 0, 0, 0) /* linkmonstergen15minutes */
+     , (3955, 1880109179, 16974722, 110.179, -208.522, 0.005, 0.999792, 0, 0, 0.0204106) /* linkmonstergen15minutes */
      , (1628, 1880109180, 16974723, 120.907, -168.382, 0.011, 0.430797, 0, 0, 0.902449) /* Tusker Slave */
      , (1628, 1880109181, 16974723, 116.984, -167.955, 0.011, 0.0628236, 0, 0, 0.998025) /* Tusker Slave */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880109179'; /* Linkable Monster Gen (15 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880109090'; /* Linkable Monster Gen (15 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880109178'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880109179'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880109090'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880109178'; /* linkmonstergen15minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109136'; /* Linkable Monster Gen (15 min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109181'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109177'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109176'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109174'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109173'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109169'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109170'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109165'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109166'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109168'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109167'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109171'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109172'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109146'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109148'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109147'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109151'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109152'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109153'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109154'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109144'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109145'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109142'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109143'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109149'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109150'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109155'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109156'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109157'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109158'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109162'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109164'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109163'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109139'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109140'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109134'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109135'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109138'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109137'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109133'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109110'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109111'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109112'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109113'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109118'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109119'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109129'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109130'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109122'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109123'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109125'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109131'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109132'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109124'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109126'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109128'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109127'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109115'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109114'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109120'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109121'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109116'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109117'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109076'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109077'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109103'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109104'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109087'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109091'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109092'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109102'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109065'; /* Linkable Monster Gen (15 min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109094'; /* Linkable Monster Gen (15 min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109080'; /* Linkable Monster Gen (15 min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109063'; /* Linkable Monster Gen (15 min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109160'; /* Linkable Monster Gen (15 min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109180'; /* Linkable Monster Gen (15 min.) <- Tusker Slave */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109062'; /* Linkable Monster Gen (15 min.) <- Virindi Master */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109093'; /* Linkable Monster Gen (15 min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109078'; /* Linkable Monster Gen (15 min.) <- Virindi Servant */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109086'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109101'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109085'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109100'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109084'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109099'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109098'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109083'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109088'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109089'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109066'; /* Linkable Monster Gen (15 min.) <- Tusker Guard */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109070'; /* Linkable Monster Gen (15 min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109059'; /* Linkable Monster Gen (15 min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109069'; /* Linkable Monster Gen (15 min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109058'; /* Linkable Monster Gen (15 min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109068'; /* Linkable Monster Gen (15 min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109057'; /* Linkable Monster Gen (15 min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109067'; /* Linkable Monster Gen (15 min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109056'; /* Linkable Monster Gen (15 min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109105'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109106'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109107'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109108'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109109'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109075'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109074'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109073'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109072'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109071'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109082'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109081'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109079'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109095'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109096'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109097'; /* Linkable Monster Gen (15 min.) <- Drudge Ravener */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880109159'; /* Linkable Monster Gen (15 min.) <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109136'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109181'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109177'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109176'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109174'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109173'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109169'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109170'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109165'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109166'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109168'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109167'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109171'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109172'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109146'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109148'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109147'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109151'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109152'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109153'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109154'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109144'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109145'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109142'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109143'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109149'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109150'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109155'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109156'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109157'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109158'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109162'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109164'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109163'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109139'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109140'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109134'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109135'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109138'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109137'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109133'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109110'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109111'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109112'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109113'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109118'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109119'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109129'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109130'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109122'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109123'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109125'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109131'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109132'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109124'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109126'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109128'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109127'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109115'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109114'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109120'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109121'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109116'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109117'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109076'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109077'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109103'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109104'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109087'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109091'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109092'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109102'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109065'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109094'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109080'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109063'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109160'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109180'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109062'; /* linkmonstergen15minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109093'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880109078'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109086'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109101'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109085'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109100'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109084'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109099'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109098'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109083'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109088'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109089'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109066'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109070'; /* linkmonstergen15minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109059'; /* linkmonstergen15minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109069'; /* linkmonstergen15minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109058'; /* linkmonstergen15minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109068'; /* linkmonstergen15minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109057'; /* linkmonstergen15minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109067'; /* linkmonstergen15minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109056'; /* linkmonstergen15minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109105'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109106'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109107'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109108'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109109'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109075'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109074'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109073'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109072'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109071'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109082'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109081'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109079'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109095'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109096'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880109097'; /* linkmonstergen15minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880109159'; /* linkmonstergen15minutes <- Virindi Master */
 

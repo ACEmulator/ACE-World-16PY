@@ -65,70 +65,70 @@ VALUES (199, 1969537024, 1447821568, 130.605, -31.155, -35.99, 0.881936, 0, 0, -
      , (201, 1969537087, 1447821848, 32.42, -121.615, -5.99, 0.0541028, 0, 0, 0.998535) /* Obsidian Golem */
      , (201, 1969537088, 1447821860, 39.6844, -105.056, -5.99, 0.974794, 0, 0, -0.223106) /* Obsidian Golem */
      , (22867, 1969537089, 1447821871, -0.337173, -150.954, 0.005, -0.389987, 0, 0, -0.92082) /* Exit */
-     , (7923, 1969537090, 1447821875, 7.45701, -147.432, 0.005, -0.998678, 0, 0, -0.051397) /* Linkable Monster Generator ( 3 Min.) */;
+     , (7923, 1969537090, 1447821875, 7.45701, -147.432, 0.005, -0.998678, 0, 0, -0.051397) /* linkmonstergen3minutes */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1969537090'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1969537090'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537084'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537085'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537087'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537086'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537082'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537083'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537081'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537080'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537079'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537078'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537054'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537055'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537059'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537047'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537049'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537048'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537088'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537046'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537063'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537065'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537060'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537067'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537073'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537061'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537064'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537076'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537057'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537052'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537051'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537050'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537058'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537068'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537077'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537069'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537056'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537053'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537070'; /* Linkable Monster Generator ( 3 Min.) <- Obsidian Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537071'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537075'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537074'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537066'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537062'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537072'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537027'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537028'; /* Linkable Monster Generator ( 3 Min.) <- Oak Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537034'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537035'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537038'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537041'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537042'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537045'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537043'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537044'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537024'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537025'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537031'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537026'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537029'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537030'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537033'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537037'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537032'; /* Linkable Monster Generator ( 3 Min.) <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537084'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537085'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537087'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537086'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537082'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537083'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537081'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537080'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537079'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537078'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537054'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537055'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537059'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537047'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537049'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537048'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537088'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537046'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537063'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537065'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537060'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537067'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537073'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537061'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537064'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537076'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537057'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537052'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537051'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537050'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537058'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537068'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537077'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537069'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537056'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537053'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537070'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537071'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537075'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537074'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537066'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537062'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537072'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537027'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537028'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537034'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537035'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537038'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537041'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537042'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537045'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537043'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537044'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537024'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537025'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537031'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537026'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537029'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537030'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537033'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537037'; /* linkmonstergen3minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969537032'; /* linkmonstergen3minutes <- Magma Golem */
 

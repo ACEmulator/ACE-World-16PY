@@ -190,8 +190,8 @@ VALUES (5114, 1880477696, 22872320, 120, -5, -30, 1, 0, 0, 0) /* Magical Portal 
      , (4986, 1880477894, 22872590, 120.162, -8.77135, 6.0075, -0.193807, 0, 0, -0.98104) /* Gelidite Initiate */
      , (2131, 1880477895, 22872622, 200, -14, 6, 0.707107, 0, 0, -0.707107) /* Pressure Plate */
      , (5110, 1880477896, 22872652, 5.05777, -49.7693, 36, 0.707107, 0, 0, -0.707107) /* Surface */
-     , (7923, 1880477897, 22872653, 10.5617, -53.5662, 36, 0.707107, 0, 0, -0.707107) /* Linkable Monster Generator ( 3 Min.) */
-     , (7923, 1880477901, 22872653, 11.0716, -46.7407, 36.005, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1880477897, 22872653, 10.5617, -53.5662, 36, 0.707107, 0, 0, -0.707107) /* linkmonstergen3minutes */
+     , (7923, 1880477901, 22872653, 11.0716, -46.7407, 36.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (6049, 1880477899, 22872657, 16.5708, -56.3716, 36, -0.976296, 0, 0, -0.216439) /* Memorial */
      , (278, 1880477900, 22872671, 54.757, -40, 36, -0.707107, 0, 0, -0.707107) /* Door */;
 
@@ -201,8 +201,8 @@ UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880477760'; /* Frost Trap */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880477761'; /* Frost Trap */
 UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880477730'; /* Frost Trap */
-UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880477897'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880477901'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880477897'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880477901'; /* linkmonstergen3minutes */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880477895'; /* Door <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880477707'; /* Door <- Button */
@@ -213,26 +213,26 @@ UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880477701'; /* D
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880477757'; /* Frost Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880477759'; /* Frost Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880477729'; /* Frost Trap <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477883'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477882'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477886'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477884'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477885'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477894'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477858'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477887'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477890'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477891'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Acolyte */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477893'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477876'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477754'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477755'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Acolyte */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477720'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477725'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477889'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477888'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477843'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477869'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Initiate */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880477716'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Lord */
-UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880477719'; /* Linkable Monster Generator ( 3 Min.) <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477883'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477882'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477886'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477884'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477885'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477894'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477858'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477887'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477890'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477891'; /* linkmonstergen3minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477893'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477876'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477754'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477755'; /* linkmonstergen3minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477720'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477725'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477889'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477888'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477843'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880477869'; /* linkmonstergen3minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880477716'; /* linkmonstergen3minutes <- Gelidite Lord */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880477719'; /* linkmonstergen3minutes <- Gelidite Acolyte */
 

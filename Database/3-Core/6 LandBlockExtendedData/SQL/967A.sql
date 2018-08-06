@@ -6,17 +6,17 @@ VALUES (7, 2036834310, 2524578048, 152.713, 80.0029, 0.005, 0.887987, 0, 0, 0.45
      , (1148, 2036834305, 2524577792, 160.5, 85.99, 0, 1, 0, 0, 0) /* Door */
      , (1148, 2036834306, 2524577792, 157.51, 80.5, 0, -0.707107, 0, 0, -0.707107) /* Door */
      , (1030, 2036834307, 2524577792, 140.8, 134.5, 20, 1, 0, 0, 0) /* Portal to Yaraq */
-     , (3955, 2036834308, 2524577792, 167.24, 77.1158, 0.00499997, 0.885375, 0, 0, 0.464877) /* Linkable Monster Gen (15 min.) */
+     , (3955, 2036834308, 2524577792, 167.24, 77.1158, 0.00499997, 0.885375, 0, 0, 0.464877) /* linkmonstergen15minutes */
      , (618, 2036834314, 2524577792, 164.272, 73.5512, 0.00561999, -0.353064, 0, 0, 0.935599) /* Cow */
      , (940, 2036834313, 2524577792, 152.45, 88.0804, 8.805, 0.0307955, 0, 0, -0.999526) /* Drudge Sneaker */
      , (7, 2036834311, 2524577792, 159.398, 81.3369, 0.005, -0.999843, 0, 0, 0.0177206) /* Drudge Skulker */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2036834308'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2036834308'; /* linkmonstergen15minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036834309'; /* Linkable Monster Gen (15 min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036834310'; /* Linkable Monster Gen (15 min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036834311'; /* Linkable Monster Gen (15 min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036834312'; /* Linkable Monster Gen (15 min.) <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036834314'; /* Linkable Monster Gen (15 min.) <- Cow */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036834313'; /* Linkable Monster Gen (15 min.) <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036834309'; /* linkmonstergen15minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036834310'; /* linkmonstergen15minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036834311'; /* linkmonstergen15minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036834312'; /* linkmonstergen15minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036834314'; /* linkmonstergen15minutes <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036834313'; /* linkmonstergen15minutes <- Drudge Sneaker */
 

@@ -8,17 +8,17 @@ VALUES (941, 2068463616, 3030646784, 92.6545, 98.3278, 27.111, 0.0346579, 0, 0, 
      , (941, 2068463622, 3030646784, 151.514, 177.411, 27.111, 0.999428, 0, 0, 0.0338292) /* Water Golem */
      , (941, 2068463623, 3030646784, 134.244, 153.383, 27.111, -0.446669, 0, 0, 0.894699) /* Water Golem */
      , (941, 2068463624, 3030646784, 97.7965, 58.5554, 27.111, -0.36502, 0, 0, 0.931) /* Water Golem */
-     , (4219, 2068463625, 3030646784, 131.329, 133.689, 27.105, 0.467503, 0, 0, -0.883991) /* Linkable Monster Generator ( 7 Min.) */;
+     , (4219, 2068463625, 3030646784, 131.329, 133.689, 27.105, 0.467503, 0, 0, -0.883991) /* linkmonstergen7minutes */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2068463625'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2068463625'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463616'; /* Linkable Monster Generator ( 7 Min.) <- Water Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463617'; /* Linkable Monster Generator ( 7 Min.) <- Water Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463618'; /* Linkable Monster Generator ( 7 Min.) <- Water Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463619'; /* Linkable Monster Generator ( 7 Min.) <- Water Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463620'; /* Linkable Monster Generator ( 7 Min.) <- Water Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463621'; /* Linkable Monster Generator ( 7 Min.) <- Water Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463622'; /* Linkable Monster Generator ( 7 Min.) <- Water Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463623'; /* Linkable Monster Generator ( 7 Min.) <- Water Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463624'; /* Linkable Monster Generator ( 7 Min.) <- Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463616'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463617'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463618'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463619'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463620'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463621'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463622'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463623'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068463624'; /* linkmonstergen7minutes <- Water Golem */
 

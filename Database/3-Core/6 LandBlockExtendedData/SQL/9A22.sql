@@ -7,18 +7,18 @@ VALUES (1379, 2040668170, 2585919745, 135.237, 40.2895, 107.705, -0.801503, 0, 0
      , (6075, 2040668161, 2585919488, 150, 75, 108.025, 0.707107, 0, 0, -0.707107) /* Straw Target Drudge */
      , (6075, 2040668162, 2585919488, 150, 80, 108.025, 0.707107, 0, 0, -0.707107) /* Straw Target Drudge */
      , (6075, 2040668163, 2585919488, 150, 85, 108.025, 0.707107, 0, 0, -0.707107) /* Straw Target Drudge */
-     , (7923, 2040668164, 2585919488, 146.633, 74.0578, 108.005, -0.118184, 0, 0, 0.992992) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2040668164, 2585919488, 146.633, 74.0578, 108.005, -0.118184, 0, 0, 0.992992) /* linkmonstergen3minutes */
      , (6076, 2040668165, 2585919488, 150, 102, 108.025, 0.707107, 0, 0, -0.707107) /* Wood Target Drudge */
      , (6076, 2040668166, 2585919488, 149.988, 106.994, 108.025, 0.707107, 0, 0, -0.707107) /* Wood Target Drudge */
      , (6076, 2040668167, 2585919488, 150, 112, 108.025, 0.707107, 0, 0, -0.707107) /* Wood Target Drudge */
      , (153, 2040668169, 2585919488, 147.878, 47.874, 108.005, -0.906308, 0, 0, -0.422618) /* Fountain */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2040668164'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2040668164'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040668161'; /* Linkable Monster Generator ( 3 Min.) <- Straw Target Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040668162'; /* Linkable Monster Generator ( 3 Min.) <- Straw Target Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040668163'; /* Linkable Monster Generator ( 3 Min.) <- Straw Target Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040668165'; /* Linkable Monster Generator ( 3 Min.) <- Wood Target Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040668166'; /* Linkable Monster Generator ( 3 Min.) <- Wood Target Drudge */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040668167'; /* Linkable Monster Generator ( 3 Min.) <- Wood Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040668161'; /* linkmonstergen3minutes <- Straw Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040668162'; /* linkmonstergen3minutes <- Straw Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040668163'; /* linkmonstergen3minutes <- Straw Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040668165'; /* linkmonstergen3minutes <- Wood Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040668166'; /* linkmonstergen3minutes <- Wood Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040668167'; /* linkmonstergen3minutes <- Wood Target Drudge */
 

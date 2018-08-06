@@ -4,7 +4,7 @@ VALUES (5520, 2132123654, 4049207554, 110.624, 83.8996, 0.005, -4.37114E-08, 0, 
      , (22809, 2132123670, 4049207554, 105.173, 84.0861, 0.00770001, 0.961077, 0, 0, -0.276282) /* Banderling Bandit */
      , (22809, 2132123667, 4049207554, 104.816, 87.3105, 8.8077, 0.999983, 0, 0, -0.0058193) /* Banderling Bandit */
      , (5501, 2132123657, 4049207296, 127.52, 103.189, 0.005, 0.92388, 0, 0, -0.382683) /* Smugglers Hideaway */
-     , (7923, 2132123658, 4049207296, 121.658, 94.2721, 0.00499997, -0.696955, 0, 0, 0.717115) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2132123658, 4049207296, 121.658, 94.2721, 0.00499997, -0.696955, 0, 0, 0.717115) /* linkmonstergen3minutes */
      , (7345, 2132123659, 4049207296, 110.229, 86.8625, 15.2093, 0.342449, 0, 0, 0.939536) /* Banderling Striker */
      , (22809, 2132123660, 4049207296, 130.883, 89.4891, 4.0077, -0.97116, 0, 0, -0.238427) /* Banderling Bandit */
      , (22809, 2132123661, 4049207296, 106.256, 83.1633, 15.233, -0.279571, 0, 0, 0.960125) /* Banderling Bandit */
@@ -16,17 +16,17 @@ VALUES (5520, 2132123654, 4049207554, 110.624, 83.8996, 0.005, -4.37114E-08, 0, 
      , (22809, 2132123666, 4049207296, 110.813, 81.5495, 15.2077, 0.507867, 0, 0, 0.861436) /* Banderling Bandit */
      , (22809, 2132123672, 4049207296, 117.367, 88.604, 0.00770001, -0.800097, 0, 0, 0.59987) /* Banderling Bandit */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2132123658'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2132123658'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123659'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Striker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123661'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123660'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123662'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123665'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123666'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123667'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123670'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123671'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123672'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Bandit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123677'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123659'; /* linkmonstergen3minutes <- Banderling Striker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123661'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123660'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123662'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123665'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123666'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123667'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123670'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123671'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123672'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132123677'; /* linkmonstergen3minutes <- Banderling Bandit */
 

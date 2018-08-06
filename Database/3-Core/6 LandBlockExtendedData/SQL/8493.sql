@@ -14,7 +14,7 @@ VALUES (1148, 2018062336, 2224226568, 182.521, 124.456, 224, 0, 0, 0, -1) /* Doo
      , (24288, 2018062394, 2224226304, 124.865, 139.459, 224.005, -0.999873, 0, 0, -0.0159668) /* Cruel Monouga */
      , (9251, 2018062382, 2224226304, 169.44, 147.223, 224.005, 0.567992, 0, 0, 0.823034) /* Brutish Monouga */
      , (9251, 2018062383, 2224226304, 160.646, 130.44, 224.005, 0.778445, 0, 0, -0.627713) /* Brutish Monouga */
-     , (7924, 2018062393, 2224226304, 162.435, 127.22, 224.005, -0.951513, 0, 0, -0.30761) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 2018062393, 2224226304, 162.435, 127.22, 224.005, -0.951513, 0, 0, -0.30761) /* linkmonstergen5minutes */
      , (9251, 2018062385, 2224226304, 181.748, 130.035, 232.805, 0.757129, 0, 0, 0.653266) /* Brutish Monouga */
      , (9253, 2018062386, 2224226304, 124.789, 100.779, 224.005, -0.944728, 0, 0, 0.327855) /* Wily Monouga */
      , (9253, 2018062387, 2224226304, 183.744, 134.793, 227.605, 0.691746, 0, 0, -0.722141) /* Wily Monouga */
@@ -24,22 +24,22 @@ VALUES (1148, 2018062336, 2224226568, 182.521, 124.456, 224, 0, 0, 0, -1) /* Doo
      , (9253, 2018062391, 2224226304, 140.647, 126.428, 224.005, -0.316563, 0, 0, -0.948572) /* Wily Monouga */
      , (24288, 2018062392, 2224226304, 155.065, 123.095, 227.605, 0.972655, 0, 0, -0.232253) /* Cruel Monouga */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2018062393'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2018062393'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062343'; /* Linkable Monster Generator ( 5 Min.) <- Crude Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062376'; /* Linkable Monster Generator ( 5 Min.) <- Brutish Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062382'; /* Linkable Monster Generator ( 5 Min.) <- Brutish Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062384'; /* Linkable Monster Generator ( 5 Min.) <- Brutish Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062383'; /* Linkable Monster Generator ( 5 Min.) <- Brutish Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062386'; /* Linkable Monster Generator ( 5 Min.) <- Wily Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062385'; /* Linkable Monster Generator ( 5 Min.) <- Brutish Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062387'; /* Linkable Monster Generator ( 5 Min.) <- Wily Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062388'; /* Linkable Monster Generator ( 5 Min.) <- Wily Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062381'; /* Linkable Monster Generator ( 5 Min.) <- Ferocious Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062392'; /* Linkable Monster Generator ( 5 Min.) <- Cruel Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062390'; /* Linkable Monster Generator ( 5 Min.) <- Wily Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062389'; /* Linkable Monster Generator ( 5 Min.) <- Wily Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062394'; /* Linkable Monster Generator ( 5 Min.) <- Cruel Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062391'; /* Linkable Monster Generator ( 5 Min.) <- Wily Monouga */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062345'; /* Linkable Monster Generator ( 5 Min.) <- Acid Axe */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062343'; /* linkmonstergen5minutes <- Crude Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062376'; /* linkmonstergen5minutes <- Brutish Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062382'; /* linkmonstergen5minutes <- Brutish Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062384'; /* linkmonstergen5minutes <- Brutish Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062383'; /* linkmonstergen5minutes <- Brutish Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062386'; /* linkmonstergen5minutes <- Wily Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062385'; /* linkmonstergen5minutes <- Brutish Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062387'; /* linkmonstergen5minutes <- Wily Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062388'; /* linkmonstergen5minutes <- Wily Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062381'; /* linkmonstergen5minutes <- Ferocious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062392'; /* linkmonstergen5minutes <- Cruel Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062390'; /* linkmonstergen5minutes <- Wily Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062389'; /* linkmonstergen5minutes <- Wily Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062394'; /* linkmonstergen5minutes <- Cruel Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062391'; /* linkmonstergen5minutes <- Wily Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018062345'; /* linkmonstergen5minutes <- Acid Axe */
 

@@ -22,7 +22,7 @@ VALUES (1623, 1880936448, 30212352, 33.7199, -30.7014, -5.988, -4.37114E-08, 0, 
      , (1623, 1880936510, 30212375, 51.2417, -50, -5.988, 1, 0, 0, 0) /* Desert Rat */
      , (1290, 1880936464, 30212377, 50, -45.25, -6, 1, 0, 0, 0) /* Door */
      , (4111, 1880936511, 30212378, 0, 0, 0.005, 0.020795, 0, 0, -0.999784) /* Hunter Shreth */
-     , (420, 1880936465, 30212380, 0.489342, -18.8545, 0, -4.37114E-08, 0, 0, -1) /* Item Food Generator */
+     , (420, 1880936465, 30212380, 0.489342, -18.8545, 0, -4.37114E-08, 0, 0, -1) /* itemfood-generator */
      , (4111, 1880936466, 30212380, 1.35716, -21.2358, 0.011, -0.999977, 0, 0, -0.00676296) /* Hunter Shreth */
      , (4111, 1880936467, 30212380, 2.58226, -17.4115, 0.011, -0.551027, 0, 0, -0.834487) /* Hunter Shreth */
      , (4111, 1880936468, 30212380, -0.513997, -15.7375, 0.011, -4.37114E-08, 0, 0, -1) /* Hunter Shreth */
@@ -39,7 +39,7 @@ VALUES (1623, 1880936448, 30212352, 33.7199, -30.7014, -5.988, -4.37114E-08, 0, 
      , (171, 1880936476, 30212396, 23.0604, -9.11857, 0, 0.984713, 0, 0, -0.174185) /* Vat */
      , (4111, 1880936478, 30212396, 17.4616, -11.8987, 0.011, 1, 0, 0, 0) /* Hunter Shreth */
      , (4111, 1880936479, 30212396, 19.4447, -8.5626, 0.011, -0.314614, 0, 0, -0.94922) /* Hunter Shreth */
-     , (4020, 1880936502, 30212396, 20.4721, -13.7773, 0, 1, 0, 0, 0) /* Cheap Warrior Generator */
+     , (4020, 1880936502, 30212396, 20.4721, -13.7773, 0, 1, 0, 0, 0) /* itemlowwarriorgen */
      , (1622, 1880936480, 30212398, 16.8938, -31.385, 0.012, 0.728072, 0, 0, -0.685501) /* Mire Phyntos Wasp */
      , (1622, 1880936481, 30212398, 18.6426, -28.8106, 0.012, 0.728072, 0, 0, -0.685501) /* Mire Phyntos Wasp */
      , (4111, 1880936482, 30212400, 20.5288, -51.0293, 0.011, 1, 0, 0, 0) /* Hunter Shreth */
@@ -47,7 +47,7 @@ VALUES (1623, 1880936448, 30212352, 33.7199, -30.7014, -5.988, -4.37114E-08, 0, 
      , (4111, 1880936484, 30212412, 38.151, 1.01538, 0.011, -0.380264, 0, 0, -0.924878) /* Hunter Shreth */
      , (4805, 1880936485, 30212412, 40.1973, 2.93066, 0, 1, 0, 0, 0) /* Sarcophagus */
      , (278, 1880936486, 30212416, 40, -24.75, 0, -4.37114E-08, 0, 0, -1) /* Door */
-     , (7923, 1880936503, 30212420, 36.3716, -49.918, 0, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1880936503, 30212420, 36.3716, -49.918, 0, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (1433, 1880936489, 30212421, 40, -63, 0, -4.37114E-08, 0, 0, -1) /* Surface */
      , (4111, 1880936515, 30212433, 60, -10, 0.005, -0.742897, 0, 0, 0.669405) /* Hunter Shreth */
      , (1622, 1880936490, 30212437, 59.9338, -48.446, 0.012, -4.37114E-08, 0, 0, -1) /* Mire Phyntos Wasp */
@@ -66,46 +66,46 @@ VALUES (1623, 1880936448, 30212352, 33.7199, -30.7014, -5.988, -4.37114E-08, 0, 
      , (1622, 1880936500, 30212455, 79.7213, -57.6869, 0.012, -0.78254, 0, 0, -0.6226) /* Mire Phyntos Wasp */;
 
 UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880936457'; /* Door */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880936503'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880936503'; /* linkmonstergen3minutes */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880936454'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880936453'; /* Door <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936516'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936517'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936511'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936515'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936508'; /* Linkable Monster Generator ( 3 Min.) <- Desert Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936509'; /* Linkable Monster Generator ( 3 Min.) <- Desert Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936518'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936504'; /* Linkable Monster Generator ( 3 Min.) <- Desert Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936506'; /* Linkable Monster Generator ( 3 Min.) <- Desert Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936507'; /* Linkable Monster Generator ( 3 Min.) <- Desert Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936510'; /* Linkable Monster Generator ( 3 Min.) <- Desert Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936505'; /* Linkable Monster Generator ( 3 Min.) <- Desert Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936512'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936514'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936513'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936482'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936484'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936448'; /* Linkable Monster Generator ( 3 Min.) <- Desert Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936470'; /* Linkable Monster Generator ( 3 Min.) <- Mire Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936461'; /* Linkable Monster Generator ( 3 Min.) <- Desert Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936455'; /* Linkable Monster Generator ( 3 Min.) <- Lich */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936462'; /* Linkable Monster Generator ( 3 Min.) <- Desert Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936495'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936490'; /* Linkable Monster Generator ( 3 Min.) <- Mire Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936492'; /* Linkable Monster Generator ( 3 Min.) <- Mire Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936500'; /* Linkable Monster Generator ( 3 Min.) <- Mire Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936491'; /* Linkable Monster Generator ( 3 Min.) <- Mire Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936480'; /* Linkable Monster Generator ( 3 Min.) <- Mire Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936481'; /* Linkable Monster Generator ( 3 Min.) <- Mire Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936469'; /* Linkable Monster Generator ( 3 Min.) <- Mire Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936458'; /* Linkable Monster Generator ( 3 Min.) <- Desert Rat */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936478'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936496'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936466'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936479'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936467'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936483'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936468'; /* Linkable Monster Generator ( 3 Min.) <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936516'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936517'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936511'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936515'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936508'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936509'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936518'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936504'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936506'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936507'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936510'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936505'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936512'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936514'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936513'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936482'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936484'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936448'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936470'; /* linkmonstergen3minutes <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936461'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936455'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936462'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936495'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936490'; /* linkmonstergen3minutes <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936492'; /* linkmonstergen3minutes <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936500'; /* linkmonstergen3minutes <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936491'; /* linkmonstergen3minutes <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936480'; /* linkmonstergen3minutes <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936481'; /* linkmonstergen3minutes <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936469'; /* linkmonstergen3minutes <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936458'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936478'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936496'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936466'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936479'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936467'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936483'; /* linkmonstergen3minutes <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880936468'; /* linkmonstergen3minutes <- Hunter Shreth */
 

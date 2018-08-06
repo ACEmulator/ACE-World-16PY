@@ -1,7 +1,7 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (12669, 1970, 1, 5) /* High Direlands Mountain Generator */
-     , (12669, 1970, 3, 3) /* High Direlands Mountain Generator */
-     , (12669, 1970, 5, 3) /* High Direlands Mountain Generator */
-     , (12669, 1970, 6, 2) /* High Direlands Mountain Generator */
-     , (12669, 1970, 7, 5) /* High Direlands Mountain Generator */;
+VALUES (12669, 1970, 1, 5) /* highdirelandsmountaingen */
+     , (12669, 1970, 3, 3) /* highdirelandsmountaingen */
+     , (12669, 1970, 5, 3) /* highdirelandsmountaingen */
+     , (12669, 1970, 6, 2) /* highdirelandsmountaingen */
+     , (12669, 1970, 7, 5) /* highdirelandsmountaingen */;
 

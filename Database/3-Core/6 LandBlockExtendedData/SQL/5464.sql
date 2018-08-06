@@ -25,7 +25,7 @@ VALUES (15778, 1967538176, 1415840000, 20.0903, -94.2561, -35.995, 0.998257, 0, 
      , (5920, 1967538189, 1415840106, 49.4607, -119.107, -4.735, 0.722659, 0, 0, 0.691204) /* Wall of Fire */
      , (8405, 1967538219, 1415840106, 50, -120, -5.9935, 1, 0, 0, 0) /* Flamma */
      , (15797, 1967538191, 1415840108, 59.4318, -23.8183, -5.0335, -0.0873136, 0, 0, -0.996181) /* Miadun hu Okardunai */
-     , (15759, 1967538192, 1415840108, 57.0426, -22.1916, -5.995, 0.210977, 0, 0, -0.977491) /* Linkable Item Generator */
+     , (15759, 1967538192, 1415840108, 57.0426, -22.1916, -5.995, 0.210977, 0, 0, -0.977491) /* linkitemgen10seconds */
      , (8405, 1967538220, 1415840108, 60, -20, -5.9935, 1, 0, 0, 0) /* Flamma */
      , (5920, 1967538194, 1415840109, 60, -30, -4.735, 1, 0, 0, 0) /* Wall of Fire */
      , (4453, 1967538195, 1415840110, 60, -35.5, -5.995, 0, 0, 0, -1) /* Door */
@@ -38,7 +38,7 @@ VALUES (15778, 1967538176, 1415840000, 20.0903, -94.2561, -35.995, 0.998257, 0, 
      , (8405, 1967538222, 1415840130, 70, -20, -5.9935, 1, 0, 0, 0) /* Flamma */
      , (5920, 1967538200, 1415840131, 70, -30, -4.735, 1, 0, 0, -4.37114E-08) /* Wall of Fire */
      , (8405, 1967538223, 1415840131, 70, -30, -5.9935, 1, 0, 0, -4.37114E-08) /* Flamma */
-     , (7924, 1967538224, 1415840136, 71.5071, -69.8108, -5.995, 0.731688, 0, 0, 0.681639) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1967538224, 1415840136, 71.5071, -69.8108, -5.995, 0.731688, 0, 0, 0.681639) /* linkmonstergen5minutes */
      , (5920, 1967538201, 1415840144, 68.7798, -111.95, -4.735, 0.999427, 0, 0, -0.0338499) /* Wall of Fire */
      , (8405, 1967538225, 1415840144, 70, -110, -5.9935, 1, 0, 0, 0) /* Flamma */
      , (5920, 1967538202, 1415840145, 68.6996, -120.074, -4.735, 0.71841, 0, 0, -0.69562) /* Wall of Fire */
@@ -48,25 +48,25 @@ VALUES (15778, 1967538176, 1415840000, 20.0903, -94.2561, -35.995, 0.998257, 0, 
      , (15777, 1967538207, 1415840174, 57.5763, -72.4069, 0.005, -0.370494, 0, 0, -0.928835) /* Surface */
      , (4453, 1967538205, 1415840183, 65.5, -70, 0.005, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967538192'; /* Linkable Item Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967538224'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967538192'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967538224'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967538191'; /* Linkable Item Generator <- Miadun hu Okardunai */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967538206'; /* Linkable Item Generator <- Linaural Urilaentai */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538218'; /* Linkable Monster Generator ( 5 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538225'; /* Linkable Monster Generator ( 5 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538221'; /* Linkable Monster Generator ( 5 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538219'; /* Linkable Monster Generator ( 5 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538226'; /* Linkable Monster Generator ( 5 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538222'; /* Linkable Monster Generator ( 5 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538220'; /* Linkable Monster Generator ( 5 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538216'; /* Linkable Monster Generator ( 5 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538223'; /* Linkable Monster Generator ( 5 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538217'; /* Linkable Monster Generator ( 5 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538215'; /* Linkable Monster Generator ( 5 Min.) <- Shivver */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538214'; /* Linkable Monster Generator ( 5 Min.) <- Shivver */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538208'; /* Linkable Monster Generator ( 5 Min.) <- Shivver */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538210'; /* Linkable Monster Generator ( 5 Min.) <- Shivver */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538211'; /* Linkable Monster Generator ( 5 Min.) <- Shivver */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538212'; /* Linkable Monster Generator ( 5 Min.) <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967538191'; /* linkitemgen10seconds <- Miadun hu Okardunai */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967538206'; /* linkitemgen10seconds <- Linaural Urilaentai */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538218'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538225'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538221'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538219'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538226'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538222'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538220'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538216'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538223'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538217'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538215'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538214'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538208'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538210'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538211'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538212'; /* linkmonstergen5minutes <- Shivver */
 

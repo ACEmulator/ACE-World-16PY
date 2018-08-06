@@ -13,7 +13,7 @@ VALUES (1609, 1981067264, 1632305413, 9.55014, -42.2013, 0.005, 0.51942, 0, 0, -
      , (1608, 1981067275, 1632305418, 19.8519, -47.8478, 0.005, 0.818691, 0, 0, 0.574234) /* Drudge Lurker */
      , (1608, 1981067276, 1632305418, 18.3484, -49.7437, 0.005, -0.982054, 0, 0, -0.188598) /* Drudge Lurker */
      , (1608, 1981067277, 1632305418, 20.6652, -45.6939, 0.005, -0.716346, 0, 0, -0.697745) /* Drudge Lurker */
-     , (7924, 1981067278, 1632305423, 28.2106, -56.7136, 0, 0.936128, 0, 0, 0.351659) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1981067278, 1632305423, 28.2106, -56.7136, 0, 0.936128, 0, 0, 0.351659) /* linkmonstergen5minutes */
      , (1608, 1981067279, 1632305438, 83.2104, -1.7819, 0.005, 0.823904, 0, 0, -0.566729) /* Drudge Lurker */
      , (1608, 1981067280, 1632305441, 79.3896, -41.3422, 0.005, 0.965512, 0, 0, -0.260358) /* Drudge Lurker */
      , (1609, 1981067281, 1632305443, 87.0382, -0.691693, 0.005, -0.429109, 0, 0, -0.903253) /* Drudge Stalker */
@@ -25,29 +25,29 @@ VALUES (1609, 1981067264, 1632305413, 9.55014, -42.2013, 0.005, 0.51942, 0, 0, -
      , (1609, 1981067287, 1632305453, 98.873, -46.5817, 0.005, -0.109833, 0, 0, 0.99395) /* Drudge Stalker */
      , (1609, 1981067288, 1632305453, 99.8789, -48.3336, 0.026081, 0.92406, 0, 0, 0.382247) /* Drudge Stalker */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1981067278'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1981067278'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067266'; /* Linkable Monster Generator ( 5 Min.) <- Kerthump the Ear Taker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067286'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067274'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067277'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067288'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067287'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067280'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067270'; /* Linkable Monster Generator ( 5 Min.) <- Baktak the Human Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067271'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067268'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067281'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067267'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067264'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067283'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067284'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067279'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067282'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067272'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067273'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067285'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067275'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067276'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067265'; /* Linkable Monster Generator ( 5 Min.) <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067266'; /* linkmonstergen5minutes <- Kerthump the Ear Taker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067286'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067274'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067277'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067288'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067287'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067280'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067270'; /* linkmonstergen5minutes <- Baktak the Human Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067271'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067268'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067281'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067267'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067264'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067283'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067284'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067279'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067282'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067272'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067273'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067285'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067275'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067276'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1981067265'; /* linkmonstergen5minutes <- Drudge Lurker */
 

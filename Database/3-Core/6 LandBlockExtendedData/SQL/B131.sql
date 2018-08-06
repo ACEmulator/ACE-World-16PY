@@ -11,31 +11,31 @@ VALUES (7085, 2064846863, 2972778752, 83.5835, 177.379, 51.6072, 0.997576, 0, 0,
      , (1914, 2064846881, 2972778765, 100.66, 146.989, 40.005, -0.0196567, 0, 0, 0.999807) /* Chest */
      , (1945, 2064846876, 2972778773, 107.983, 164.556, 40.005, 0.0242141, 0, 0, -0.999707) /* Chest */
      , (4217, 2064846874, 2972778773, 107.982, 172.61, 40.0083, 0.16162, 0, 0, -0.986853) /* Dark Revenant */
-     , (420, 2064846850, 2972778773, 108.017, 172.498, 40.005, -0.743085, 0, 0, -0.669197) /* Item Food Generator */
+     , (420, 2064846850, 2972778773, 108.017, 172.498, 40.005, -0.743085, 0, 0, -0.669197) /* itemfood-generator */
      , (4217, 2064846867, 2972778775, 107.348, 160.247, 40.0083, -0.113839, 0, 0, -0.993499) /* Dark Revenant */
      , (4217, 2064846875, 2972778778, 99.6734, 171.854, 34.8083, 0.562636, 0, 0, -0.826705) /* Dark Revenant */
      , (2074, 2064846860, 2972778781, 101.134, 148.806, 29.605, 0.0080547, 0, 0, 0.999968) /* Dungeon of Tatters */
      , (4217, 2064846883, 2972778781, 100.469, 163.311, 29.6082, -0.441852, 0, 0, 0.897088) /* Dark Revenant */
      , (7123, 2064846882, 2972778781, 109.674, 151.03, 29.6082, -0.975485, 0, 0, -0.220065) /* Dark Leech */
-     , (7924, 2064846885, 2972778496, 111.669, 165.826, 50.2831, -0.857111, 0, 0, 0.515131) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 2064846885, 2972778496, 111.669, 165.826, 50.2831, -0.857111, 0, 0, 0.515131) /* linkmonstergen5minutes */
      , (7085, 2064846873, 2972778496, 87.0794, 182.311, 65.2072, -0.304716, 0, 0, -0.952443) /* Banderling Berserker */
      , (7085, 2064846872, 2972778496, 81.0863, 179.65, 65.2072, -0.115734, 0, 0, -0.99328) /* Banderling Berserker */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2064846885'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2064846885'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846869'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846870'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846863'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846871'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846872'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846873'; /* Linkable Monster Generator ( 5 Min.) <- Banderling Berserker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846862'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846874'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846875'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846868'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846867'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846864'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846879'; /* Linkable Monster Generator ( 5 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846882'; /* Linkable Monster Generator ( 5 Min.) <- Dark Leech */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846883'; /* Linkable Monster Generator ( 5 Min.) <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846869'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846870'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846863'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846871'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846872'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846873'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846862'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846874'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846875'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846868'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846867'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846864'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846879'; /* linkmonstergen5minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846882'; /* linkmonstergen5minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846883'; /* linkmonstergen5minutes <- Dark Revenant */
 

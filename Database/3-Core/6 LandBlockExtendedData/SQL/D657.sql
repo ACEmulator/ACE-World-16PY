@@ -6,17 +6,17 @@ VALUES (192, 2103799814, 3596026114, 156.258, 61.5682, 25.2055, 0.0443321, 0, 0,
      , (7, 2103799813, 3596026120, 165.053, 49.2543, 25.205, 0.700991, 0, 0, 0.71317) /* Drudge Skulker */
      , (193, 2103799816, 3596026123, 146.283, 46.8208, 25.205, 0.843484, 0, 0, -0.537154) /* Drudge Slinker */
      , (4108, 2103799808, 3596025856, 169.538, 30.1411, 30.011, -0.417674, 0, 0, -0.908597) /* Gnawer Shreth */
-     , (1154, 2103799809, 3596025856, 149.664, 20.7554, 30.005, -0.0994797, 0, 0, 0.99504) /* Linkable Monster Generator */
+     , (1154, 2103799809, 3596025856, 149.664, 20.7554, 30.005, -0.0994797, 0, 0, 0.99504) /* linkmonstergen */
      , (4109, 2103799810, 3596025856, 152.78, 20.3847, 30.011, -0.912033, 0, 0, 0.410118) /* Carrion Shreth */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2103799809'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2103799809'; /* linkmonstergen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799811'; /* Linkable Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799812'; /* Linkable Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799813'; /* Linkable Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799814'; /* Linkable Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799815'; /* Linkable Monster Generator <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799816'; /* Linkable Monster Generator <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799810'; /* Linkable Monster Generator <- Carrion Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799808'; /* Linkable Monster Generator <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799811'; /* linkmonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799812'; /* linkmonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799813'; /* linkmonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799814'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799815'; /* linkmonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799816'; /* linkmonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799810'; /* linkmonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103799808'; /* linkmonstergen <- Gnawer Shreth */
 

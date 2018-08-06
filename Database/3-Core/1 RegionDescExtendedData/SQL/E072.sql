@@ -1,3 +1,3 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (57458, 23150, 3, 7) /* Mid Central Shore Mix Generator */;
+VALUES (57458, 23150, 3, 7) /* midcentralshoregen */;
 

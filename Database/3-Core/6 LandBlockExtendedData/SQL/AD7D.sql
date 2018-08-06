@@ -5,12 +5,12 @@ VALUES (153, 2060963846, 2910650640, 36, 78, 52.005, 1, 0, 0, 0) /* Fountain */
      , (4453, 2060963848, 2910650368, 36, 73.558, 52.005, -4.37114E-08, 0, 0, -1) /* Door */
      , (197, 2060963841, 2910650368, 39.5688, 69.4901, 52.2227, 0.172165, 0, 0, -0.985068) /* Iron Golem */
      , (197, 2060963842, 2910650368, 32.932, 68.9529, 52.2675, -0.129705, 0, 0, -0.991553) /* Iron Golem */
-     , (3955, 2060963843, 2910650368, 37.858, 62.979, 52.7584, 0.997473, 0, 0, 0.0710457) /* Linkable Monster Gen (15 min.) */
+     , (3955, 2060963843, 2910650368, 37.858, 62.979, 52.7584, 0.997473, 0, 0, 0.0710457) /* linkmonstergen15minutes */
      , (4980, 2060963845, 2910650368, 29.7878, 90.2518, 52.05, -0.92388, 0, 0, -0.382683) /* Refreshing Fountain */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2060963843'; /* Linkable Monster Gen (15 min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2060963843'; /* linkmonstergen15minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060963841'; /* Linkable Monster Gen (15 min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060963842'; /* Linkable Monster Gen (15 min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060963840'; /* Linkable Monster Gen (15 min.) <- Kayna bint Iswas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060963841'; /* linkmonstergen15minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060963842'; /* linkmonstergen15minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060963840'; /* linkmonstergen15minutes <- Kayna bint Iswas */
 

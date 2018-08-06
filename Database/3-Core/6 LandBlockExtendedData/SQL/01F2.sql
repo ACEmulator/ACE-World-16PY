@@ -54,7 +54,7 @@ VALUES (29752, 1881088132, 32637185, 80, -170, -11.995, 0.707107, 0, 0, -0.70710
      , (26014, 1881088051, 32637575, 211.61, -147.321, -5.945, 0.586597, 0, 0, 0.809879) /* Burun Ruuk Fiend */
      , (26014, 1881088052, 32637582, 212.269, -151.742, -5.95834, 0.722311, 0, 0, 0.691568) /* Burun Ruuk Fiend */
      , (26014, 1881088053, 32637601, 210.786, -159.552, -5.95834, 0.999047, 0, 0, 0.043651) /* Burun Ruuk Fiend */
-     , (7924, 1881088054, 32637616, 12.4051, -16.884, 0.005, 0.894314, 0, 0, -0.44744) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1881088054, 32637616, 12.4051, -16.884, 0.005, 0.894314, 0, 0, -0.44744) /* linkmonstergen5minutes */
      , (26015, 1881088055, 32637649, 50, -20, 0.038455, 1, 0, 0, 0) /* Burun Ruuk Lout */
      , (26015, 1881088056, 32637654, 60, 0, 0.038455, 1, 0, 0, 0) /* Burun Ruuk Lout */
      , (26019, 1881088057, 32637655, 60, -10, 0.038455, 0.714421, 0, 0, 0.699716) /* Burun Ruuk Seer */
@@ -133,138 +133,138 @@ VALUES (29752, 1881088132, 32637185, 80, -170, -11.995, 0.707107, 0, 0, -0.70710
      , (27987, 1881088130, 32638329, 200, -120, 0.005, 0.995004, 0, 0, 0.099833) /* Guruk Heavy */
      , (26015, 1881088131, 32638330, 210, -90, 0.038455, 1, 0, 0, 0) /* Burun Ruuk Lout */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881088054'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881088054'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088055'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088056'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088058'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088057'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088066'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088067'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088068'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088064'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088109'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088115'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088114'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088123'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088108'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Miscreant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088128'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088131'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088129'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088125'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088124'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088127'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Heavy */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088130'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Heavy */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088111'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Miscreant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088104'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088088'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088122'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088029'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088126'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088117'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088116'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088110'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088017'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088031'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088023'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088033'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088024'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Crusher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088030'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Crusher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088065'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088022'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088035'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088070'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088027'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088071'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Basher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088028'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088072'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Basher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088036'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088025'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Smasher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088026'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Smasher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088069'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088050'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088037'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088060'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088051'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088052'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088053'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088046'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088041'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088090'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088091'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088093'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088085'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Boor */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088008'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088077'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088005'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088013'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088083'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088092'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Miscreant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088040'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Beast */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088076'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088003'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Brute */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088087'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088001'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Brute */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088089'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088009'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Brute */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088099'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088006'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Brute */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088095'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088007'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088004'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088002'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088098'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088000'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088105'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088010'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Brute */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088011'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Brute */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088121'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088113'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088103'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088061'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088018'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088062'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Miscreant */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088059'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088014'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088039'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088020'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088063'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088016'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088097'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088084'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088078'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088034'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Smasher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088021'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Smasher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088049'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088048'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088094'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088106'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088101'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088032'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Smasher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088019'; /* Linkable Monster Generator ( 5 Min.) <- Guruk Smasher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088047'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088102'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088045'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088044'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088107'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088043'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088119'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088042'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088120'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088086'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088100'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088118'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088112'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088038'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088074'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088073'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088075'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088096'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088080'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088079'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088082'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Lout */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088081'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Seer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088015'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Fiend */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088012'; /* Linkable Monster Generator ( 5 Min.) <- Burun Ruuk Soothsayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088132'; /* Linkable Monster Generator ( 5 Min.) <- Portal Gateway */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088055'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088056'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088058'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088057'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088066'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088067'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088068'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088064'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088109'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088115'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088114'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088123'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088108'; /* linkmonstergen5minutes <- Guruk Miscreant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088128'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088131'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088129'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088125'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088124'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088127'; /* linkmonstergen5minutes <- Guruk Heavy */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088130'; /* linkmonstergen5minutes <- Guruk Heavy */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088111'; /* linkmonstergen5minutes <- Guruk Miscreant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088104'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088088'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088122'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088029'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088126'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088117'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088116'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088110'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088017'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088031'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088023'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088033'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088024'; /* linkmonstergen5minutes <- Guruk Crusher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088030'; /* linkmonstergen5minutes <- Guruk Crusher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088065'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088022'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088035'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088070'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088027'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088071'; /* linkmonstergen5minutes <- Guruk Basher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088028'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088072'; /* linkmonstergen5minutes <- Guruk Basher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088036'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088025'; /* linkmonstergen5minutes <- Guruk Smasher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088026'; /* linkmonstergen5minutes <- Guruk Smasher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088069'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088050'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088037'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088060'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088051'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088052'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088053'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088046'; /* linkmonstergen5minutes <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088041'; /* linkmonstergen5minutes <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088090'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088091'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088093'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088085'; /* linkmonstergen5minutes <- Guruk Boor */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088008'; /* linkmonstergen5minutes <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088077'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088005'; /* linkmonstergen5minutes <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088013'; /* linkmonstergen5minutes <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088083'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088092'; /* linkmonstergen5minutes <- Guruk Miscreant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088040'; /* linkmonstergen5minutes <- Guruk Beast */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088076'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088003'; /* linkmonstergen5minutes <- Guruk Brute */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088087'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088001'; /* linkmonstergen5minutes <- Guruk Brute */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088089'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088009'; /* linkmonstergen5minutes <- Guruk Brute */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088099'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088006'; /* linkmonstergen5minutes <- Guruk Brute */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088095'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088007'; /* linkmonstergen5minutes <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088004'; /* linkmonstergen5minutes <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088002'; /* linkmonstergen5minutes <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088098'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088000'; /* linkmonstergen5minutes <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088105'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088010'; /* linkmonstergen5minutes <- Guruk Brute */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088011'; /* linkmonstergen5minutes <- Guruk Brute */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088121'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088113'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088103'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088061'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088018'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088062'; /* linkmonstergen5minutes <- Guruk Miscreant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088059'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088014'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088039'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088020'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088063'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088016'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088097'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088084'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088078'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088034'; /* linkmonstergen5minutes <- Guruk Smasher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088021'; /* linkmonstergen5minutes <- Guruk Smasher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088049'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088048'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088094'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088106'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088101'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088032'; /* linkmonstergen5minutes <- Guruk Smasher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088019'; /* linkmonstergen5minutes <- Guruk Smasher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088047'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088102'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088045'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088044'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088107'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088043'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088119'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088042'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088120'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088086'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088100'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088118'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088112'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088038'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088074'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088073'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088075'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088096'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088080'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088079'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088082'; /* linkmonstergen5minutes <- Burun Ruuk Lout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088081'; /* linkmonstergen5minutes <- Burun Ruuk Seer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088015'; /* linkmonstergen5minutes <- Burun Ruuk Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088012'; /* linkmonstergen5minutes <- Burun Ruuk Soothsayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881088132'; /* linkmonstergen5minutes <- Portal Gateway */
 

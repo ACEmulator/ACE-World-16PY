@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23604, 1965920265, 1389953280, 184.209, 115.46, 16.805, -0.722678, 0, 0, 0.691185) /* Runed Chest */
      , (7086, 1965920266, 1389953280, 176.4, 123.251, 16.8071, -0.394789, 0, 0, 0.918772) /* Banderling Thrasher */
-     , (7923, 1965920267, 1389953280, 184.255, 124.968, 16.805, 0.994792, 0, 0, -0.101925) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1965920267, 1389953280, 184.255, 124.968, 16.805, 0.994792, 0, 0, -0.101925) /* linkmonstergen3minutes */
      , (3613, 1965920274, 1389953280, 180, 124.556, 16.805, 1, 0, 0, 0) /* Direlands Midland Portal */
      , (24277, 1965920279, 1389953280, 180.964, 121.318, 16.8071, 0.0718819, 0, 0, -0.997413) /* Banderling Slayer */
      , (24275, 1965920277, 1389953280, 182.459, 117.663, 16.8071, -0.275939, 0, 0, 0.961175) /* Banderling Antagonist */
@@ -22,24 +22,24 @@ VALUES (23604, 1965920265, 1389953280, 184.209, 115.46, 16.805, -0.722678, 0, 0,
      , (24277, 1965920281, 1389953024, 181.652, 101.041, 22.0071, -0.533375, 0, 0, -0.845879) /* Banderling Slayer */
      , (24476, 1965920273, 1389953024, 63.3179, 128.518, 41.205, -4.37114E-08, 0, 0, -1) /* Sturdy Steel Chest */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1965920267'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1965920267'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920275'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Antagonist */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920276'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Antagonist */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920277'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Antagonist */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920278'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Antagonist */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920279'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920280'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920281'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920282'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920283'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Slayer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920266'; /* Linkable Monster Generator ( 3 Min.) <- Banderling Thrasher */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920268'; /* Linkable Monster Generator ( 3 Min.) <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920270'; /* Linkable Monster Generator ( 3 Min.) <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920269'; /* Linkable Monster Generator ( 3 Min.) <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920271'; /* Linkable Monster Generator ( 3 Min.) <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920272'; /* Linkable Monster Generator ( 3 Min.) <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920284'; /* Linkable Monster Generator ( 3 Min.) <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920285'; /* Linkable Monster Generator ( 3 Min.) <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920286'; /* Linkable Monster Generator ( 3 Min.) <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920275'; /* linkmonstergen3minutes <- Banderling Antagonist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920276'; /* linkmonstergen3minutes <- Banderling Antagonist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920277'; /* linkmonstergen3minutes <- Banderling Antagonist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920278'; /* linkmonstergen3minutes <- Banderling Antagonist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920279'; /* linkmonstergen3minutes <- Banderling Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920280'; /* linkmonstergen3minutes <- Banderling Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920281'; /* linkmonstergen3minutes <- Banderling Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920282'; /* linkmonstergen3minutes <- Banderling Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920283'; /* linkmonstergen3minutes <- Banderling Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920266'; /* linkmonstergen3minutes <- Banderling Thrasher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920268'; /* linkmonstergen3minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920270'; /* linkmonstergen3minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920269'; /* linkmonstergen3minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920271'; /* linkmonstergen3minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920272'; /* linkmonstergen3minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920284'; /* linkmonstergen3minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920285'; /* linkmonstergen3minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965920286'; /* linkmonstergen3minutes <- Enku Zefir */
 

@@ -1,4 +1,4 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (8896, 11196, 1, 4) /* North Marae Plateau Master Gen */
-     , (8896, 11196, 3, 6) /* North Marae Plateau Master Gen */;
+VALUES (8896, 11196, 1, 4) /* northmaraeplateaumastergen-xp */
+     , (8896, 11196, 3, 6) /* northmaraeplateaumastergen-xp */;
 

@@ -1,5 +1,5 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4219, 2139258899, 4163371264, 14.531, 92.003, 13.205, 0.00841784, 0, 0, -0.999965) /* Linkable Monster Generator ( 7 Min.) */
+VALUES (4219, 2139258899, 4163371264, 14.531, 92.003, 13.205, 0.00841784, 0, 0, -0.999965) /* linkmonstergen7minutes */
      , (28000, 2139258892, 4163371264, 16.7755, 80.0891, 13.2055, -0.947825, 0, 0, -0.31879) /* Mosswart Scavenger */
      , (28001, 2139258895, 4163371264, 16.2194, 88.3661, 13.2055, 0.138162, 0, 0, 0.99041) /* Mosswart Scrounger */
      , (8584, 2139258888, 4163371265, 12.003, 79.1743, 13.205, -0.00378002, 0, 0, -0.999993) /* Moarsmen Spawning Grounds */
@@ -12,16 +12,16 @@ VALUES (4219, 2139258899, 4163371264, 14.531, 92.003, 13.205, 0.00841784, 0, 0, 
      , (28000, 2139258897, 4163371008, 4.54242, 133.235, 0.0055, -0.472818, 0, 0, 0.88116) /* Mosswart Scavenger */
      , (28001, 2139258896, 4163371008, 7.05571, 129.044, 0.0055, -0.996935, 0, 0, 0.0782298) /* Mosswart Scrounger */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2139258899'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2139258899'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258897'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258898'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258889'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258890'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258891'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258892'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258893'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Scavenger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258894'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258895'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Scrounger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258896'; /* Linkable Monster Generator ( 7 Min.) <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258897'; /* linkmonstergen7minutes <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258898'; /* linkmonstergen7minutes <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258889'; /* linkmonstergen7minutes <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258890'; /* linkmonstergen7minutes <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258891'; /* linkmonstergen7minutes <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258892'; /* linkmonstergen7minutes <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258893'; /* linkmonstergen7minutes <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258894'; /* linkmonstergen7minutes <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258895'; /* linkmonstergen7minutes <- Mosswart Scrounger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139258896'; /* linkmonstergen7minutes <- Mosswart Scrounger */
 

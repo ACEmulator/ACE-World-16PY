@@ -63,8 +63,8 @@ VALUES (27864, 1880993831, 31129858, 10, -50, -23.9934, 1, 0, 0, 0) /* Mosswart 
      , (27863, 1880993889, 31130071, 140.233, -20.0892, -8.9934, -0.683673, 0, 0, -0.729789) /* Mosswart Cringer */
      , (1340, 1880993816, 31130075, 59.9732, -37.3517, 0, -4.37114E-08, 0, 0, -1) /* Surface */
      , (568, 1880993817, 31130077, 60, -44.75, 0, -4.37114E-08, 0, 0, -1) /* Door */
-     , (5085, 1880993819, 31130078, 58.0611, -48.4346, 0.005, 0.0698792, 0, 0, 0.997555) /* Linkable Item Gen - 25 seconds */
-     , (7924, 1880993820, 31130078, 60.4937, -48.3128, 0.005, -0.0214664, 0, 0, -0.99977) /* Linkable Monster Generator ( 5 Min.) */
+     , (5085, 1880993819, 31130078, 58.0611, -48.4346, 0.005, 0.0698792, 0, 0, 0.997555) /* linkitemgen25seconds */
+     , (7924, 1880993820, 31130078, 60.4937, -48.3128, 0.005, -0.0214664, 0, 0, -0.99977) /* linkmonstergen5minutes */
      , (7102, 1880993890, 31130086, 78.8072, -89.4127, 0.0066, -0.979088, 0, 0, 0.203435) /* Mosswart Mire-Witch */
      , (7102, 1880993891, 31130086, 81.9406, -89.8452, 0.0066, -0.997541, 0, 0, -0.070078) /* Mosswart Mire-Witch */
      , (27864, 1880993892, 31130089, 90.2681, -38.1329, -2.995, 0.996047, 0, 0, -0.0888225) /* Mosswart Muck Stalker */
@@ -83,83 +83,83 @@ VALUES (27864, 1880993831, 31129858, 10, -50, -23.9934, 1, 0, 0, 0) /* Mosswart 
      , (7102, 1880993905, 31130140, 93.6806, -40.1534, 6.0066, -0.771178, 0, 0, 0.636619) /* Mosswart Mire-Witch */
      , (7102, 1880993906, 31130151, 100.006, -35.1878, 6.005, -0.109998, 0, 0, 0.993932) /* Mosswart Mire-Witch */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880993820'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880993820'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993850'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993851'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993848'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993847'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993870'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993871'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993874'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993868'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993857'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993867'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993858'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993859'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993869'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993866'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993843'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993840'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993844'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993842'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993833'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993839'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993834'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993831'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993853'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993854'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993872'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993873'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993846'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993845'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993852'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993855'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993899'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993879'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993841'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Clinger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993835'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Clinger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993838'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993837'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Clinger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993888'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993832'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Clinger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993836'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Clinger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993794'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993792'; /* Linkable Monster Generator ( 5 Min.) <- Gragghk */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993905'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993906'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993896'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993893'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993901'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993895'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993900'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993898'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993891'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993894'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993890'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993880'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993877'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993878'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993885'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993884'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993902'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993904'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993903'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993897'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993892'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993876'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993861'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993863'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993860'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993865'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993864'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993862'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Mire-Witch */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993856'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993886'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993882'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993883'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993889'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993875'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Cringer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993887'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993881'; /* Linkable Monster Generator ( 5 Min.) <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993850'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993851'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993848'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993847'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993870'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993871'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993874'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993868'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993857'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993867'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993858'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993859'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993869'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993866'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993843'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993840'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993844'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993842'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993833'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993839'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993834'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993831'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993853'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993854'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993872'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993873'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993846'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993845'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993852'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993855'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993899'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993879'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993841'; /* linkmonstergen5minutes <- Mosswart Clinger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993835'; /* linkmonstergen5minutes <- Mosswart Clinger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993838'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993837'; /* linkmonstergen5minutes <- Mosswart Clinger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993888'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993832'; /* linkmonstergen5minutes <- Mosswart Clinger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993836'; /* linkmonstergen5minutes <- Mosswart Clinger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993794'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993792'; /* linkmonstergen5minutes <- Gragghk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993905'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993906'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993896'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993893'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993901'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993895'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993900'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993898'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993891'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993894'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993890'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993880'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993877'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993878'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993885'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993884'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993902'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993904'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993903'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993897'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993892'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993876'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993861'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993863'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993860'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993865'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993864'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993862'; /* linkmonstergen5minutes <- Mosswart Mire-Witch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993856'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993886'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993882'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993883'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993889'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993875'; /* linkmonstergen5minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993887'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880993881'; /* linkmonstergen5minutes <- Mosswart Muck Stalker */
 

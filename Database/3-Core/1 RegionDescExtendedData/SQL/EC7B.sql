@@ -1,34 +1,34 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (60539, 22531, 0, 2) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 1, 0) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 1, 4) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 1, 6) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 1, 7) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 2, 1) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 2, 2) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 2, 3) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22533, 2, 4) /* Tusker Island High Beach Mix Gen */
-     , (60539, 22531, 2, 5) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 3, 0) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 3, 3) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 3, 4) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 3, 7) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 4, 0) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 4, 1) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22533, 4, 2) /* Tusker Island High Beach Mix Gen */
-     , (60539, 22531, 4, 3) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 4, 5) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 4, 6) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 5, 4) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 5, 6) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 6, 0) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 6, 1) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 6, 2) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 6, 4) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 6, 5) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 6, 6) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 7, 0) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 7, 3) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 7, 5) /* Tusker Island Extreme Beach Mix Gen */
-     , (60539, 22531, 7, 7) /* Tusker Island Extreme Beach Mix Gen */;
+VALUES (60539, 22531, 0, 2) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 1, 0) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 1, 4) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 1, 6) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 1, 7) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 2, 1) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 2, 2) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 2, 3) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22533, 2, 4) /* tuskerisland-highbeachlandgen */
+     , (60539, 22531, 2, 5) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 3, 0) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 3, 3) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 3, 4) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 3, 7) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 4, 0) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 4, 1) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22533, 4, 2) /* tuskerisland-highbeachlandgen */
+     , (60539, 22531, 4, 3) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 4, 5) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 4, 6) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 5, 4) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 5, 6) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 6, 0) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 6, 1) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 6, 2) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 6, 4) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 6, 5) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 6, 6) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 7, 0) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 7, 3) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 7, 5) /* tuskerisland-extremebeachlandgen */
+     , (60539, 22531, 7, 7) /* tuskerisland-extremebeachlandgen */;
 

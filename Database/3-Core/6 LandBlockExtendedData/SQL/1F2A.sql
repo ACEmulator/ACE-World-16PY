@@ -1,9 +1,9 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27429, 1911726088, 522846464, 189.841, 141.943, 193.66, -0.382683, 0, 0, -0.92388) /* Consumed Wraith */
-     , (7923, 1911726155, 522846464, 189.841, 141.943, 193.66, -0.382683, 0, 0, -0.92388) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1911726155, 522846464, 189.841, 141.943, 193.66, -0.382683, 0, 0, -0.92388) /* linkmonstergen3minutes */
      , (27377, 1911726153, 522846464, 189.437, 149.343, 193.66, -0.92388, 0, 0, -0.382683) /* Runed Chest */
-     , (7924, 1911726080, 522846208, 166.901, 119.161, 200.005, 0.370241, 0, 0, 0.928936) /* Linkable Monster Generator ( 5 Min.) */
-     , (7924, 1911726081, 522846208, 35.071, 11.2447, 148.005, 0.37651, 0, 0, 0.926413) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1911726080, 522846208, 166.901, 119.161, 200.005, 0.370241, 0, 0, 0.928936) /* linkmonstergen5minutes */
+     , (7924, 1911726081, 522846208, 35.071, 11.2447, 148.005, 0.37651, 0, 0, 0.926413) /* linkmonstergen5minutes */
      , (27427, 1911726082, 522846208, 42.7107, 18.8605, 148.005, -0.403993, 0, 0, -0.914762) /* Shadow Nightmare Leader */
      , (23091, 1911726083, 522846208, 43.5147, 11.4706, 148.005, 0.999951, 0, 0, -0.00994275) /* Shadow Wraith */
      , (23091, 1911726084, 522846208, 35.669, 19.4627, 148.005, 0.619316, 0, 0, -0.785142) /* Shadow Wraith */
@@ -38,7 +38,7 @@ VALUES (27429, 1911726088, 522846464, 189.841, 141.943, 193.66, -0.382683, 0, 0,
      , (27426, 1911726113, 522846208, 178.012, 125.533, 200.005, 0.349552, 0, 0, 0.936917) /* Shadow Nightmare */
      , (27569, 1911726152, 522846208, 174.33, 129.909, 210.676, 0.92388, 0, 0, -0.382683) /* The Storm */
      , (23091, 1911726115, 522846208, 175.701, 127.8, 200.005, 0.92388, 0, 0, -0.382683) /* Shadow Wraith */
-     , (7923, 1911726154, 522846208, 42.711, 18.861, 148.005, -0.403992, 0, 0, -0.914762) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1911726154, 522846208, 42.711, 18.861, 148.005, -0.403992, 0, 0, -0.914762) /* linkmonstergen3minutes */
      , (23091, 1911726117, 522846208, 159.507, 139.698, 200.005, 0.623738, 0, 0, -0.781633) /* Shadow Wraith */
      , (23091, 1911726118, 522846208, 168.953, 135.044, 200.005, 0.525074, 0, 0, -0.851057) /* Shadow Wraith */
      , (27426, 1911726156, 522846208, 187.728, 101.764, 200.005, -0.9881, 0, 0, -0.153814) /* Shadow Nightmare */
@@ -68,8 +68,8 @@ VALUES (27429, 1911726088, 522846464, 189.841, 141.943, 193.66, -0.382683, 0, 0,
      , (27569, 1911726150, 522846208, 180.304, 134.28, 209.35, -0.39253, 0, 0, -0.919739) /* The Storm */
      , (27569, 1911726151, 522846208, 177.519, 131.974, 209.35, -0.39253, 0, 0, -0.919739) /* The Storm */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1911726081'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1911726080'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1911726081'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1911726080'; /* linkmonstergen5minutes */
 UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1911726109'; /* The Storm */
 UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1911726126'; /* The Storm */
 UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1911726123'; /* The Storm */
@@ -89,24 +89,24 @@ UPDATE `landblock_instances` SET `link_Slot`='18', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE `guid`='1911726148'; /* The Storm */
 UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1911726142'; /* The Storm */
 UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1911726152'; /* The Storm */
-UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1911726154'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1911726155'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1911726154'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1911726155'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726084'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726083'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726087'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726086'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726085'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726111'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Nightmare */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726112'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Nightmare */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726113'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Nightmare */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726115'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726117'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726118'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Wraith */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726120'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726121'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726156'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Nightmare */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726157'; /* Linkable Monster Generator ( 5 Min.) <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726084'; /* linkmonstergen5minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726083'; /* linkmonstergen5minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726087'; /* linkmonstergen5minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726086'; /* linkmonstergen5minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726085'; /* linkmonstergen5minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726111'; /* linkmonstergen5minutes <- Shadow Nightmare */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726112'; /* linkmonstergen5minutes <- Shadow Nightmare */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726113'; /* linkmonstergen5minutes <- Shadow Nightmare */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726115'; /* linkmonstergen5minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726117'; /* linkmonstergen5minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726118'; /* linkmonstergen5minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726120'; /* linkmonstergen5minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726121'; /* linkmonstergen5minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726156'; /* linkmonstergen5minutes <- Shadow Nightmare */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726157'; /* linkmonstergen5minutes <- Shadow Wraith */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1911726099'; /* The Storm <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1911726102'; /* The Storm <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1911726100'; /* The Storm <- Pressure Plate */
@@ -134,6 +134,6 @@ UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1911726146'; /* 
 UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1911726147'; /* The Storm <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1911726131'; /* The Storm <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1911726135'; /* The Storm <- Pressure Plate */
-UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1911726082'; /* Linkable Monster Generator ( 3 Min.) <- Shadow Nightmare Leader */
-UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1911726088'; /* Linkable Monster Generator ( 3 Min.) <- Consumed Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1911726082'; /* linkmonstergen3minutes <- Shadow Nightmare Leader */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1911726088'; /* linkmonstergen3minutes <- Consumed Wraith */
 

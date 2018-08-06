@@ -18,7 +18,7 @@ VALUES (940, 1880502272, 23265537, 23.9435, -82.7587, -23.9958, -0.987545, 0, 0,
      , (30483, 1880502317, 23265603, 56.4147, -57.4803, -11.995, -0.999887, 0, 0, -0.0150592) /* Bronze Lamp */
      , (5031, 1880502288, 23265606, 55.25, -60, -12, -0.707107, 0, 0, -0.707107) /* Bunkroom Door */
      , (5026, 1880502289, 23265609, 73.2336, -53.4773, -11.8762, 0.876674, 0, 0, -0.481084) /* Antique Platter */
-     , (15759, 1880502313, 23265609, 66.6553, -53.4602, -11.995, -0.69609, 0, 0, -0.717955) /* Linkable Item Generator */
+     , (15759, 1880502313, 23265609, 66.6553, -53.4602, -11.995, -0.69609, 0, 0, -0.717955) /* linkitemgen10seconds */
      , (5031, 1880502290, 23265612, 70, -45.25, -12, 1, 0, 0, 0) /* Bunkroom Door */
      , (193, 1880502291, 23265616, 79.6834, -9.54194, -11.9967, -0.855685, 0, 0, -0.517498) /* Drudge Slinker */
      , (7, 1880502292, 23265616, 77.5245, -10.9424, -11.9967, 1, 0, 0, 0) /* Drudge Skulker */
@@ -29,7 +29,7 @@ VALUES (940, 1880502272, 23265537, 23.9435, -82.7587, -23.9958, -0.987545, 0, 0,
      , (278, 1880502296, 23265626, 85.245, -20, -12, -0.707107, 0, 0, -0.707107) /* Door */
      , (7, 1880502297, 23265642, 103.887, -19.8751, -5.99668, 0.707107, 0, 0, -0.707107) /* Drudge Skulker */
      , (7, 1880502299, 23265656, 120.292, -19.8657, 0.003325, 1, 0, 0, 0) /* Drudge Skulker */
-     , (5485, 1880502300, 23265656, 119.21, -18.4897, 0, 1, 0, 0, 0) /* Linkable Newbie Monster Generator */
+     , (5485, 1880502300, 23265656, 119.21, -18.4897, 0, 1, 0, 0, 0) /* linknewbiemonstergen */
      , (1915, 1880502301, 23265666, 115.526, -32.5531, -6, -0.707107, 0, 0, -0.707107) /* Chest */
      , (7, 1880502302, 23265669, 118.98, -32.8002, -5.99668, 0.999695, 0, 0, -0.024712) /* Drudge Skulker */
      , (193, 1880502303, 23265670, 132.211, -21.3644, -5.99668, -0.916844, 0, 0, -0.399246) /* Drudge Slinker */
@@ -44,32 +44,32 @@ VALUES (940, 1880502272, 23265537, 23.9435, -82.7587, -23.9958, -0.987545, 0, 0,
      , (568, 1880502311, 23265707, 130, -45.25, 0, 1, 0, 0, 0) /* Door */
      , (278, 1880502312, 23265710, 135.245, -40, 0, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880502300'; /* Linkable Newbie Monster Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880502313'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880502300'; /* linknewbiemonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880502313'; /* linkitemgen10seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502272'; /* Linkable Newbie Monster Generator <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502276'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502277'; /* Linkable Newbie Monster Generator <- Drudge Sneaker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502284'; /* Linkable Newbie Monster Generator <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502294'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502291'; /* Linkable Newbie Monster Generator <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502295'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502297'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502302'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502303'; /* Linkable Newbie Monster Generator <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502305'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502307'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502299'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502287'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502281'; /* Linkable Newbie Monster Generator <- Drudge Prowler */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502282'; /* Linkable Newbie Monster Generator <- Drudge Slinker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502292'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502274'; /* Linkable Newbie Monster Generator <- Drudge Skulker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502289'; /* Linkable Item Generator <- Antique Platter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502318'; /* Linkable Item Generator <- Antique Bowl */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502319'; /* Linkable Item Generator <- Bronze Candlestick */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502315'; /* Linkable Item Generator <- Antique Goblet */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502314'; /* Linkable Item Generator <- Antique Mug */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502316'; /* Linkable Item Generator <- Bronze Handbell */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502317'; /* Linkable Item Generator <- Bronze Lamp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502272'; /* linknewbiemonstergen <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502276'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502277'; /* linknewbiemonstergen <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502284'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502294'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502291'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502295'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502297'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502302'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502303'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502305'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502307'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502299'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502287'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502281'; /* linknewbiemonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502282'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502292'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502274'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502289'; /* linkitemgen10seconds <- Antique Platter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502318'; /* linkitemgen10seconds <- Antique Bowl */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502319'; /* linkitemgen10seconds <- Bronze Candlestick */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502315'; /* linkitemgen10seconds <- Antique Goblet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502314'; /* linkitemgen10seconds <- Antique Mug */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502316'; /* linkitemgen10seconds <- Bronze Handbell */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502317'; /* linkitemgen10seconds <- Bronze Lamp */
 

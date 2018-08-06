@@ -15,8 +15,8 @@ VALUES (28246, 2056126501, 2833252608, 87.1523, 109.08, 28.029, -0.203524, 0, 0,
      , (30712, 2056126494, 2833252627, 79.5242, 139.915, 23.229, -0.10584, 0, 0, 0.994383) /* Restless Spirit */
      , (28246, 2056126464, 2833252352, 87.1009, 110.958, 43.229, 0.917727, 0, 0, -0.397212) /* Spirit */
      , (28246, 2056126465, 2833252352, 86.8351, 106.195, 43.229, 0.588291, 0, 0, -0.80865) /* Spirit */
-     , (5086, 2056126466, 2833252352, 87.251, 108.925, 43.205, 0.21105, 0, 0, 0.977475) /* Linkable Monster Gen - 30 sec. */
-     , (7923, 2056126467, 2833252352, 134.867, 26.2454, 28.005, -0.342385, 0, 0, 0.93956) /* Linkable Monster Generator ( 3 Min.) */
+     , (5086, 2056126466, 2833252352, 87.251, 108.925, 43.205, 0.21105, 0, 0, 0.977475) /* linkmonstergen30seconds */
+     , (7923, 2056126467, 2833252352, 134.867, 26.2454, 28.005, -0.342385, 0, 0, 0.93956) /* linkmonstergen3minutes */
      , (28246, 2056126468, 2833252352, 139.844, 26.2291, 28.029, -0.246875, 0, 0, 0.969047) /* Spirit */
      , (28246, 2056126469, 2833252352, 111.255, 20.9616, 28.029, 0.400038, 0, 0, 0.916499) /* Spirit */
      , (28246, 2056126470, 2833252352, 77.5263, 21.3465, 28.029, 0.171661, 0, 0, 0.985156) /* Spirit */
@@ -29,56 +29,56 @@ VALUES (28246, 2056126501, 2833252608, 87.1523, 109.08, 28.029, -0.203524, 0, 0,
      , (28246, 2056126477, 2833252352, 151.679, 134.714, 28.029, 0.561537, 0, 0, -0.827452) /* Spirit */
      , (28246, 2056126478, 2833252352, 155.118, 105.859, 28.029, 0.437157, 0, 0, -0.899385) /* Spirit */
      , (28246, 2056126479, 2833252352, 154.301, 64.9607, 28.029, 0.535451, 0, 0, -0.844567) /* Spirit */
-     , (7923, 2056126480, 2833252352, 87.5053, 79.005, 28.005, 0.0223514, 0, 0, -0.99975) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2056126480, 2833252352, 87.5053, 79.005, 28.005, 0.0223514, 0, 0, -0.99975) /* linkmonstergen3minutes */
      , (28246, 2056126481, 2833252352, 87.7025, 74.5966, 28.029, -0.0526224, 0, 0, -0.998614) /* Spirit */
      , (28246, 2056126482, 2833252352, 77.6637, 74.5146, 28.029, -0.0606434, 0, 0, 0.998159) /* Spirit */
      , (28245, 2056126497, 2833252352, 115.459, 100.251, 28.029, 0.908514, 0, 0, -0.417855) /* Poltergeist */
      , (28245, 2056126496, 2833252352, 116.632, 110.465, 28.029, -0.648616, 0, 0, 0.761115) /* Poltergeist */
-     , (7923, 2056126485, 2833252352, 55.2425, 103.872, 28.005, -0.742398, 0, 0, -0.669959) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2056126485, 2833252352, 55.2425, 103.872, 28.005, -0.742398, 0, 0, -0.669959) /* linkmonstergen3minutes */
      , (28244, 2056126486, 2833252352, 50.7567, 104.304, 28.029, -0.680405, 0, 0, -0.732837) /* Phantom */
      , (28244, 2056126487, 2833252352, 50.4655, 113.834, 28.029, 0.649891, 0, 0, 0.760028) /* Phantom */
-     , (7923, 2056126495, 2833252352, 115.81, 112.086, 28.005, -0.648616, 0, 0, 0.761115) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2056126495, 2833252352, 115.81, 112.086, 28.005, -0.648616, 0, 0, 0.761115) /* linkmonstergen3minutes */
      , (30712, 2056126493, 2833252352, 88.7255, 141.837, 28.029, -0.993677, 0, 0, -0.112276) /* Restless Spirit */
-     , (7923, 2056126490, 2833252352, 75.5346, 135.138, 28.005, 0.938579, 0, 0, -0.345063) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2056126490, 2833252352, 75.5346, 135.138, 28.005, 0.938579, 0, 0, -0.345063) /* linkmonstergen3minutes */
      , (30712, 2056126492, 2833252352, 77.4031, 139.846, 28.029, 0.992157, 0, 0, -0.124999) /* Restless Spirit */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2056126466'; /* Linkable Monster Gen - 30 sec. */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2056126467'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2056126480'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2056126485'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='2056126490'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='2056126495'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2056126466'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2056126467'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2056126480'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2056126485'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='2056126490'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='2056126495'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056126464'; /* Linkable Monster Gen - 30 sec. <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056126465'; /* Linkable Monster Gen - 30 sec. <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056126500'; /* Linkable Monster Gen - 30 sec. <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056126501'; /* Linkable Monster Gen - 30 sec. <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126468'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126469'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126470'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126471'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126472'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126473'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126474'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126475'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126476'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126477'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126478'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126479'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2056126481'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2056126482'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2056126483'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2056126484'; /* Linkable Monster Generator ( 3 Min.) <- Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2056126486'; /* Linkable Monster Generator ( 3 Min.) <- Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2056126487'; /* Linkable Monster Generator ( 3 Min.) <- Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2056126488'; /* Linkable Monster Generator ( 3 Min.) <- Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2056126489'; /* Linkable Monster Generator ( 3 Min.) <- Phantom */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2056126492'; /* Linkable Monster Generator ( 3 Min.) <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2056126493'; /* Linkable Monster Generator ( 3 Min.) <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2056126494'; /* Linkable Monster Generator ( 3 Min.) <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2056126499'; /* Linkable Monster Generator ( 3 Min.) <- Restless Spirit */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='2056126491'; /* Linkable Monster Generator ( 3 Min.) <- Poltergeist */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='2056126496'; /* Linkable Monster Generator ( 3 Min.) <- Poltergeist */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='2056126497'; /* Linkable Monster Generator ( 3 Min.) <- Poltergeist */
-UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='2056126498'; /* Linkable Monster Generator ( 3 Min.) <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056126464'; /* linkmonstergen30seconds <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056126465'; /* linkmonstergen30seconds <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056126500'; /* linkmonstergen30seconds <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056126501'; /* linkmonstergen30seconds <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126468'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126469'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126470'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126471'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126472'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126473'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126474'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126475'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126476'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126477'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126478'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056126479'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2056126481'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2056126482'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2056126483'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2056126484'; /* linkmonstergen3minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2056126486'; /* linkmonstergen3minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2056126487'; /* linkmonstergen3minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2056126488'; /* linkmonstergen3minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2056126489'; /* linkmonstergen3minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2056126492'; /* linkmonstergen3minutes <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2056126493'; /* linkmonstergen3minutes <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2056126494'; /* linkmonstergen3minutes <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2056126499'; /* linkmonstergen3minutes <- Restless Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='2056126491'; /* linkmonstergen3minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='2056126496'; /* linkmonstergen3minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='2056126497'; /* linkmonstergen3minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='2056126498'; /* linkmonstergen3minutes <- Poltergeist */
 

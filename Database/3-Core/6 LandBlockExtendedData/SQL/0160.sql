@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29721, 1880490138, 23068931, 20, -120, -23.995, 1, 0, 0, 0) /* Guardian */
      , (29789, 1880489995, 23068939, 20, -140, -23.995, 1, 0, 0, 0) /* Exit */
-     , (15759, 1880489996, 23068952, 12.9214, -103.238, -11.995, 0.945664, 0, 0, 0.325146) /* Linkable Item Generator */
+     , (15759, 1880489996, 23068952, 12.9214, -103.238, -11.995, 0.945664, 0, 0, 0.325146) /* linkitemgen10seconds */
      , (29703, 1880489997, 23068953, 10.168, -109.894, -11.995, 0.92388, 0, 0, -0.382683) /* Sacrificial Statue */
      , (29606, 1880489998, 23068960, 20, -110, -11.995, 1, 0, 0, 0) /* Pool of Blood */
      , (29607, 1880489999, 23068960, 22.6879, -107.791, -11.9, -0.246373, 0, 0, -0.969175) /* Empty Water Skin */
@@ -35,7 +35,7 @@ VALUES (29721, 1880490138, 23068931, 20, -120, -23.995, 1, 0, 0, 0) /* Guardian 
      , (29619, 1880490029, 23069158, 39.9941, -29.1427, 0.019, 0, 0, 0, -1) /* Spear */
      , (29619, 1880490030, 23069158, 40.6147, -29.656, 0.019, -0.5, 0, 0, -0.866025) /* Spear */
      , (29619, 1880490031, 23069158, 40.6246, -30.4612, 0.019, -0.866025, 0, 0, -0.5) /* Spear */
-     , (15759, 1880490032, 23069158, 38.438, -26.6596, 0.005, 0.972091, 0, 0, 0.234602) /* Linkable Item Generator */
+     , (15759, 1880490032, 23069158, 38.438, -26.6596, 0.005, 0.972091, 0, 0, 0.234602) /* linkitemgen10seconds */
      , (29756, 1880490025, 23069158, 44.9, -34.9, 0.005, -0.976296, 0, 0, -0.21644) /* Statue */
      , (29614, 1880490033, 23069159, 38, -44.75, 3.25, 0, 0, 0, -1) /* Blue Sword */
      , (29614, 1880490034, 23069159, 36, -44.75, 3.25, 0, 0, 0, -1) /* Blue Sword */
@@ -116,7 +116,7 @@ VALUES (29721, 1880490138, 23068931, 20, -120, -23.995, 1, 0, 0, 0) /* Guardian 
      , (29633, 1880490112, 23069420, 97, -123, 0.005, 1, 0, 0, -4.37114E-08) /* 21 */
      , (29622, 1880490110, 23069432, 97, -143, 0.005, 1, 0, 0, -4.37114E-08) /* 3 */
      , (29765, 1880489984, 23069442, 111.409, -22.525, 0.005, 0.382683, 0, 0, -0.92388) /* Arbiter */
-     , (15759, 1880489985, 23069443, 109.377, -33.2764, 0.005, 0.998867, 0, 0, -0.047591) /* Linkable Item Generator */
+     , (15759, 1880489985, 23069443, 109.377, -33.2764, 0.005, 0.998867, 0, 0, -0.047591) /* linkitemgen10seconds */
      , (29649, 1880489986, 23069443, 109.749, -30.8665, 0.158, 0.809067, 0, 0, -0.587717) /* Clue Card */
      , (29649, 1880490140, 23069443, 111.699, -29.4312, 0.158, 0.840936, 0, 0, -0.541134) /* Clue Card */
      , (29649, 1880490141, 23069443, 111.282, -30.6685, 0.158, 0.05537, 0, 0, -0.998466) /* Clue Card */
@@ -149,85 +149,85 @@ VALUES (29721, 1880490138, 23068931, 20, -120, -23.995, 1, 0, 0, 0) /* Guardian 
      , (29651, 1880490129, 23069462, 147.79, -79.9927, 0.005, -0.707107, 0, 0, -0.707107) /* Center Shell */
      , (29652, 1880490130, 23069462, 147.79, -81.1003, 0.005, -0.382683, 0, 0, -0.92388) /* Right Shell */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880489985'; /* Linkable Item Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880490032'; /* Linkable Item Generator */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880489996'; /* Linkable Item Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880489985'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880490032'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880489996'; /* linkitemgen10seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880489986'; /* Linkable Item Generator <- Clue Card */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880489984'; /* Linkable Item Generator <- Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490088'; /* Linkable Item Generator <- Bag labeled "Black" */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490087'; /* Linkable Item Generator <- Bag labeled "White" */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490089'; /* Linkable Item Generator <- Bag labeled "Mixed" */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490104'; /* Linkable Item Generator <- Instructions */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490118'; /* Linkable Item Generator <- Shell Table */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490119'; /* Linkable Item Generator <- Left Shell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490120'; /* Linkable Item Generator <- Center Shell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490121'; /* Linkable Item Generator <- Right Shell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490114'; /* Linkable Item Generator <- Shell Table */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490117'; /* Linkable Item Generator <- Right Shell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490116'; /* Linkable Item Generator <- Center Shell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490115'; /* Linkable Item Generator <- Left Shell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490123'; /* Linkable Item Generator <- Shell Table */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490124'; /* Linkable Item Generator <- Left Shell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490125'; /* Linkable Item Generator <- Center Shell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490126'; /* Linkable Item Generator <- Right Shell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490127'; /* Linkable Item Generator <- Shell Table */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490128'; /* Linkable Item Generator <- Left Shell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490129'; /* Linkable Item Generator <- Center Shell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490130'; /* Linkable Item Generator <- Right Shell */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490131'; /* Linkable Item Generator <- Blue Ball */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490132'; /* Linkable Item Generator <- Green Ball */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490133'; /* Linkable Item Generator <- Indigo Ball */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490134'; /* Linkable Item Generator <- Orange Ball */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490136'; /* Linkable Item Generator <- Violet Ball */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490137'; /* Linkable Item Generator <- Yellow Ball */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490135'; /* Linkable Item Generator <- Red Ball */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490140'; /* Linkable Item Generator <- Clue Card */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490141'; /* Linkable Item Generator <- Clue Card */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490142'; /* Linkable Item Generator <- Clue Card */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490143'; /* Linkable Item Generator <- Clue Card */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490144'; /* Linkable Item Generator <- Clue Card */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490138'; /* Linkable Item Generator <- Guardian */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490026'; /* Linkable Item Generator <- Spear */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490027'; /* Linkable Item Generator <- Spear */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490028'; /* Linkable Item Generator <- Spear */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490029'; /* Linkable Item Generator <- Spear */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490030'; /* Linkable Item Generator <- Spear */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490031'; /* Linkable Item Generator <- Spear */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490042'; /* Linkable Item Generator <- Sword */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490043'; /* Linkable Item Generator <- Sword */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490044'; /* Linkable Item Generator <- Sword */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490045'; /* Linkable Item Generator <- Sword */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490046'; /* Linkable Item Generator <- Sword */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490047'; /* Linkable Item Generator <- Sword */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490072'; /* Linkable Item Generator <- Mace */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490073'; /* Linkable Item Generator <- Mace */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490074'; /* Linkable Item Generator <- Mace */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490075'; /* Linkable Item Generator <- Mace */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490076'; /* Linkable Item Generator <- Mace */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490077'; /* Linkable Item Generator <- Mace */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490057'; /* Linkable Item Generator <- Axe */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490058'; /* Linkable Item Generator <- Axe */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490059'; /* Linkable Item Generator <- Axe */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490060'; /* Linkable Item Generator <- Axe */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490061'; /* Linkable Item Generator <- Axe */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490062'; /* Linkable Item Generator <- Axe */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490025'; /* Linkable Item Generator <- Statue */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490014'; /* Linkable Item Generator <- Green Room Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490013'; /* Linkable Item Generator <- Red Room Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490012'; /* Linkable Item Generator <- Purple Room Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490011'; /* Linkable Item Generator <- Blue Room Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490007'; /* Linkable Item Generator <- Purple Room Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490008'; /* Linkable Item Generator <- Red Room Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490009'; /* Linkable Item Generator <- Green Room Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490010'; /* Linkable Item Generator <- Blue Room Arbiter */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880489997'; /* Linkable Item Generator <- Sacrificial Statue */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490005'; /* Linkable Item Generator <- Sacrificial Statue */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490006'; /* Linkable Item Generator <- Sacrificial Statue */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880489999'; /* Linkable Item Generator <- Empty Water Skin */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490000'; /* Linkable Item Generator <- Empty Water Skin */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490001'; /* Linkable Item Generator <- Empty Water Skin */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490002'; /* Linkable Item Generator <- Empty Water Skin */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490003'; /* Linkable Item Generator <- Empty Water Skin */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490004'; /* Linkable Item Generator <- Empty Water Skin */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880489986'; /* linkitemgen10seconds <- Clue Card */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880489984'; /* linkitemgen10seconds <- Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490088'; /* linkitemgen10seconds <- Bag labeled "Black" */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490087'; /* linkitemgen10seconds <- Bag labeled "White" */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490089'; /* linkitemgen10seconds <- Bag labeled "Mixed" */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490104'; /* linkitemgen10seconds <- Instructions */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490118'; /* linkitemgen10seconds <- Shell Table */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490119'; /* linkitemgen10seconds <- Left Shell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490120'; /* linkitemgen10seconds <- Center Shell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490121'; /* linkitemgen10seconds <- Right Shell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490114'; /* linkitemgen10seconds <- Shell Table */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490117'; /* linkitemgen10seconds <- Right Shell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490116'; /* linkitemgen10seconds <- Center Shell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490115'; /* linkitemgen10seconds <- Left Shell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490123'; /* linkitemgen10seconds <- Shell Table */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490124'; /* linkitemgen10seconds <- Left Shell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490125'; /* linkitemgen10seconds <- Center Shell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490126'; /* linkitemgen10seconds <- Right Shell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490127'; /* linkitemgen10seconds <- Shell Table */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490128'; /* linkitemgen10seconds <- Left Shell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490129'; /* linkitemgen10seconds <- Center Shell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490130'; /* linkitemgen10seconds <- Right Shell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490131'; /* linkitemgen10seconds <- Blue Ball */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490132'; /* linkitemgen10seconds <- Green Ball */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490133'; /* linkitemgen10seconds <- Indigo Ball */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490134'; /* linkitemgen10seconds <- Orange Ball */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490136'; /* linkitemgen10seconds <- Violet Ball */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490137'; /* linkitemgen10seconds <- Yellow Ball */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490135'; /* linkitemgen10seconds <- Red Ball */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490140'; /* linkitemgen10seconds <- Clue Card */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490141'; /* linkitemgen10seconds <- Clue Card */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490142'; /* linkitemgen10seconds <- Clue Card */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490143'; /* linkitemgen10seconds <- Clue Card */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490144'; /* linkitemgen10seconds <- Clue Card */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880490138'; /* linkitemgen10seconds <- Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490026'; /* linkitemgen10seconds <- Spear */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490027'; /* linkitemgen10seconds <- Spear */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490028'; /* linkitemgen10seconds <- Spear */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490029'; /* linkitemgen10seconds <- Spear */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490030'; /* linkitemgen10seconds <- Spear */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490031'; /* linkitemgen10seconds <- Spear */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490042'; /* linkitemgen10seconds <- Sword */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490043'; /* linkitemgen10seconds <- Sword */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490044'; /* linkitemgen10seconds <- Sword */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490045'; /* linkitemgen10seconds <- Sword */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490046'; /* linkitemgen10seconds <- Sword */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490047'; /* linkitemgen10seconds <- Sword */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490072'; /* linkitemgen10seconds <- Mace */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490073'; /* linkitemgen10seconds <- Mace */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490074'; /* linkitemgen10seconds <- Mace */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490075'; /* linkitemgen10seconds <- Mace */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490076'; /* linkitemgen10seconds <- Mace */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490077'; /* linkitemgen10seconds <- Mace */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490057'; /* linkitemgen10seconds <- Axe */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490058'; /* linkitemgen10seconds <- Axe */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490059'; /* linkitemgen10seconds <- Axe */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490060'; /* linkitemgen10seconds <- Axe */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490061'; /* linkitemgen10seconds <- Axe */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490062'; /* linkitemgen10seconds <- Axe */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490025'; /* linkitemgen10seconds <- Statue */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490014'; /* linkitemgen10seconds <- Green Room Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490013'; /* linkitemgen10seconds <- Red Room Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490012'; /* linkitemgen10seconds <- Purple Room Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490011'; /* linkitemgen10seconds <- Blue Room Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490007'; /* linkitemgen10seconds <- Purple Room Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490008'; /* linkitemgen10seconds <- Red Room Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490009'; /* linkitemgen10seconds <- Green Room Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880490010'; /* linkitemgen10seconds <- Blue Room Arbiter */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880489997'; /* linkitemgen10seconds <- Sacrificial Statue */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490005'; /* linkitemgen10seconds <- Sacrificial Statue */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490006'; /* linkitemgen10seconds <- Sacrificial Statue */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880489999'; /* linkitemgen10seconds <- Empty Water Skin */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490000'; /* linkitemgen10seconds <- Empty Water Skin */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490001'; /* linkitemgen10seconds <- Empty Water Skin */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490002'; /* linkitemgen10seconds <- Empty Water Skin */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490003'; /* linkitemgen10seconds <- Empty Water Skin */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880490004'; /* linkitemgen10seconds <- Empty Water Skin */
 

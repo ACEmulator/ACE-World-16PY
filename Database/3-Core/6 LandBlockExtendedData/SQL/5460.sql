@@ -1,7 +1,7 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19484, 1967521792, 1415577856, 260, -40, -101.995, 1, 0, 0, 0) /* Essence Font */
      , (19484, 1967521793, 1415577856, 260, -40, -96, 1, 0, 0, -4.37114E-08) /* Essence Font */
-     , (7926, 1967521795, 1415577859, 259.391, -23.4986, -95.995, 0.999986, 0, 0, 0.00520147) /* Linkable Monster Generator ( 20 Min.) */
+     , (7926, 1967521795, 1415577859, 259.391, -23.4986, -95.995, 0.999986, 0, 0, 0.00520147) /* linkmonstergen20minutes */
      , (19542, 1967521794, 1415577860, 258.288, -25.8324, -95.9825, 0.999986, 0, 0, 0.005201) /* Crystal Golem Imperator */
      , (19484, 1967521796, 1415577861, 260, -40, -90, 1, 0, 0, -4.37114E-08) /* Essence Font */
      , (19724, 1967521797, 1415577863, 266.837, -31.2435, -95.995, -0.420397, 0, 0, 0.90734) /* Surface */
@@ -10,7 +10,7 @@ VALUES (19484, 1967521792, 1415577856, 260, -40, -101.995, 1, 0, 0, 0) /* Essenc
      , (19484, 1967521800, 1415577884, 30, -400, -77.995, 1, 0, 0, 0) /* Essence Font */
      , (19484, 1967521801, 1415577884, 30, -400, -72, 1, 0, 0, 0) /* Essence Font */
      , (19484, 1967521802, 1415577888, 30, -400, -66, 1, 0, 0, -4.37114E-08) /* Essence Font */
-     , (7926, 1967521803, 1415577892, 30.8985, -384.657, -65.995, 0.99871, 0, 0, -0.0507837) /* Linkable Monster Generator ( 20 Min.) */
+     , (7926, 1967521803, 1415577892, 30.8985, -384.657, -65.995, 0.99871, 0, 0, -0.0507837) /* linkmonstergen20minutes */
      , (19543, 1967521804, 1415577892, 30.8985, -384.657, -65.945, 0.99871, 0, 0, -0.0507837) /* Diamond Golem Suzerain */
      , (19484, 1967521805, 1415577894, 30, -400, -60, 1, 0, 0, -4.37114E-08) /* Essence Font */
      , (19724, 1967521806, 1415577896, 38.1969, -388.926, -65.995, 0.393887, 0, 0, -0.919159) /* Surface */
@@ -60,10 +60,10 @@ VALUES (19484, 1967521792, 1415577856, 260, -40, -101.995, 1, 0, 0, 0) /* Essenc
      , (14880, 1967521849, 1415578199, 220, -110, 0.007, 1, 0, 0, 0) /* Theral */
      , (14877, 1967521850, 1415578236, 247.855, -69.725, 0.007, 0.696707, 0, 0, 0.717356) /* Tsuric */
      , (14877, 1967521851, 1415578236, 252.302, -69.9084, 0.007, 0.678557, 0, 0, -0.734548) /* Tsuric */
-     , (3955, 1967521852, 1415578240, 250, -100, 0.005, 1, 0, 0, 0) /* Linkable Monster Gen (15 min.) */
+     , (3955, 1967521852, 1415578240, 250, -100, 0.005, 1, 0, 0, 0) /* linkmonstergen15minutes */
      , (14880, 1967521853, 1415578274, 280, -110, 0.007, 1, 0, 0, 0) /* Theral */
      , (7095, 1967521854, 1415578284, 30, -210, 6.0085, 1, 0, 0, 0) /* Scathisa */
-     , (3955, 1967521855, 1415578300, 50, -200, 6.005, 0.714421, 0, 0, 0.699716) /* Linkable Monster Gen (15 min.) */
+     , (3955, 1967521855, 1415578300, 50, -200, 6.005, 0.714421, 0, 0, 0.699716) /* linkmonstergen15minutes */
      , (7095, 1967521856, 1415578307, 48.5196, -250.203, 6.0085, 0.694895, 0, 0, -0.719112) /* Scathisa */
      , (7095, 1967521857, 1415578317, 70, -210, 6.0085, 1, 0, 0, 0) /* Scathisa */
      , (14514, 1967521858, 1415578324, 244.757, -43.3133, 4.76205, 0.020981, 0, 0, 0.99978) /* Miasma */
@@ -81,73 +81,73 @@ VALUES (19484, 1967521792, 1415577856, 260, -40, -101.995, 1, 0, 0, 0) /* Essenc
      , (6379, 1967521870, 1415578405, 89.6151, -279.778, 12.055, 1, 0, 0, -4.37114E-08) /* Astyrrian */
      , (6379, 1967521871, 1415578407, 97.7187, -225.875, 12.0085, 0.845256, 0, 0, 0.534362) /* Astyrrian */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967521855'; /* Linkable Monster Gen (15 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967521803'; /* Linkable Monster Generator ( 20 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1967521852'; /* Linkable Monster Gen (15 min.) */
-UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1967521795'; /* Linkable Monster Generator ( 20 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967521855'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967521803'; /* linkmonstergen20minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1967521852'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1967521795'; /* linkmonstergen20minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521854'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521857'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521833'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521834'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521830'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521825'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521829'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521848'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521835'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521836'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521828'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521826'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521827'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521845'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521846'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521847'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521832'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521856'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521837'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521864'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521865'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521866'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521867'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521871'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521869'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521860'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521862'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521861'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521863'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521868'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521870'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521824'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521823'; /* Linkable Monster Gen (15 min.) <- Astyrrian */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521809'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521810'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521808'; /* Linkable Monster Gen (15 min.) <- Scathisa */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967521804'; /* Linkable Monster Generator ( 20 Min.) <- Diamond Golem Suzerain */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521850'; /* Linkable Monster Gen (15 min.) <- Tsuric */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521851'; /* Linkable Monster Gen (15 min.) <- Tsuric */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521853'; /* Linkable Monster Gen (15 min.) <- Theral */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521849'; /* Linkable Monster Gen (15 min.) <- Theral */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521838'; /* Linkable Monster Gen (15 min.) <- Theral */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521839'; /* Linkable Monster Gen (15 min.) <- Theral */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521840'; /* Linkable Monster Gen (15 min.) <- Theral */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521841'; /* Linkable Monster Gen (15 min.) <- Maelstrom */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521842'; /* Linkable Monster Gen (15 min.) <- Maelstrom */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521858'; /* Linkable Monster Gen (15 min.) <- Miasma */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521859'; /* Linkable Monster Gen (15 min.) <- Miasma */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521843'; /* Linkable Monster Gen (15 min.) <- Maelstrom */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521843'; /* Linkable Monster Gen (15 min.) <- Maelstrom */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521844'; /* Linkable Monster Gen (15 min.) <- Sirrocco */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521819'; /* Linkable Monster Gen (15 min.) <- Avalanche */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521822'; /* Linkable Monster Gen (15 min.) <- Blizzard */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521818'; /* Linkable Monster Gen (15 min.) <- Blizzard */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521820'; /* Linkable Monster Gen (15 min.) <- Blizzard */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521821'; /* Linkable Monster Gen (15 min.) <- Conflagration */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521817'; /* Linkable Monster Gen (15 min.) <- Scoriscant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521816'; /* Linkable Monster Gen (15 min.) <- Scoriscant */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521813'; /* Linkable Monster Gen (15 min.) <- Conflagration */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521815'; /* Linkable Monster Gen (15 min.) <- Blizzard */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521812'; /* Linkable Monster Gen (15 min.) <- Avalanche */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521798'; /* Linkable Monster Gen (15 min.) <- Conflagration */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521799'; /* Linkable Monster Gen (15 min.) <- Blizzard */
-UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1967521794'; /* Linkable Monster Generator ( 20 Min.) <- Crystal Golem Imperator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521854'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521857'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521833'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521834'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521830'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521825'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521829'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521848'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521835'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521836'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521828'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521826'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521827'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521845'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521846'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521847'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521832'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521856'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521837'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521864'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521865'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521866'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521867'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521871'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521869'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521860'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521862'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521861'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521863'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521868'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521870'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521824'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521823'; /* linkmonstergen15minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521809'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521810'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967521808'; /* linkmonstergen15minutes <- Scathisa */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967521804'; /* linkmonstergen20minutes <- Diamond Golem Suzerain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521850'; /* linkmonstergen15minutes <- Tsuric */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521851'; /* linkmonstergen15minutes <- Tsuric */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521853'; /* linkmonstergen15minutes <- Theral */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521849'; /* linkmonstergen15minutes <- Theral */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521838'; /* linkmonstergen15minutes <- Theral */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521839'; /* linkmonstergen15minutes <- Theral */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521840'; /* linkmonstergen15minutes <- Theral */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521841'; /* linkmonstergen15minutes <- Maelstrom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521842'; /* linkmonstergen15minutes <- Maelstrom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521858'; /* linkmonstergen15minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521859'; /* linkmonstergen15minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521843'; /* linkmonstergen15minutes <- Maelstrom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521843'; /* linkmonstergen15minutes <- Maelstrom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521844'; /* linkmonstergen15minutes <- Sirrocco */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521819'; /* linkmonstergen15minutes <- Avalanche */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521822'; /* linkmonstergen15minutes <- Blizzard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521818'; /* linkmonstergen15minutes <- Blizzard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521820'; /* linkmonstergen15minutes <- Blizzard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521821'; /* linkmonstergen15minutes <- Conflagration */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521817'; /* linkmonstergen15minutes <- Scoriscant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521816'; /* linkmonstergen15minutes <- Scoriscant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521813'; /* linkmonstergen15minutes <- Conflagration */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521815'; /* linkmonstergen15minutes <- Blizzard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521812'; /* linkmonstergen15minutes <- Avalanche */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521798'; /* linkmonstergen15minutes <- Conflagration */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1967521799'; /* linkmonstergen15minutes <- Blizzard */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1967521794'; /* linkmonstergen20minutes <- Crystal Golem Imperator */
 

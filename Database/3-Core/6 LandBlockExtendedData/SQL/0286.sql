@@ -3,7 +3,7 @@ VALUES (11318, 1881694208, 42336513, 120.977, -20.1223, -27.8358, 1, 0, 0, 0) /*
      , (11518, 1881694363, 42336515, 133.217, -11.8703, -29.994, 0.810503, 0, 0, -0.585734) /* Hea Hunter */
      , (9257, 1881694364, 42336518, 141.482, -4.91246, -29.995, -0.738965, 0, 0, 0.673744) /* Silt Lurker */
      , (11316, 1881694211, 42336519, 141.582, -8.6912, -29.994, 0.807899, 0, 0, -0.589321) /* Hea Shaman */
-     , (7923, 1881694212, 42336519, 143.529, -8.76975, -29.995, -0.398664, 0, 0, -0.917097) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1881694212, 42336519, 143.529, -8.76975, -29.995, -0.398664, 0, 0, -0.917097) /* linkmonstergen3minutes */
      , (9257, 1881694365, 42336519, 144.033, -9.36912, -29.995, -0.817198, 0, 0, 0.576357) /* Silt Lurker */
      , (11518, 1881694366, 42336522, 152.69, -3.74414, -29.994, 0.413563, 0, 0, -0.910475) /* Hea Hunter */
      , (9257, 1881694367, 42336524, 158.245, -4.79336, -29.995, -0.178479, 0, 0, 0.983944) /* Silt Lurker */
@@ -144,7 +144,7 @@ VALUES (11318, 1881694208, 42336513, 120.977, -20.1223, -27.8358, 1, 0, 0, 0) /*
      , (11518, 1881694421, 42336950, 40.6366, -99.5789, -5.9945, -0.276129, 0, 0, 0.961121) /* Hea Hunter */
      , (11324, 1881694342, 42336951, 20, -70, 0.005, 0.696707, 0, 0, 0.717356) /* Exit to the Surface */
      , (568, 1881694343, 42336953, 24.75, -70, 0, 0.707107, 0, 0, -0.707107) /* Door */
-     , (7924, 1881694422, 42336957, 32.8634, -71.7974, 0.005, 0.990885, 0, 0, -0.134707) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1881694422, 42336957, 32.8634, -71.7974, 0.005, 0.990885, 0, 0, -0.134707) /* linkmonstergen5minutes */
      , (568, 1881694344, 42336961, 40, -54.75, 0, -4.37114E-08, 0, 0, -1) /* Door */
      , (278, 1881694345, 42336965, 39.9887, -75.2594, 0.005, -4.37114E-08, 0, 0, -1) /* Door */
      , (11518, 1881694346, 42336971, 51.1829, -82.9876, 0.005, 0.89123, 0, 0, 0.453551) /* Hea Hunter */
@@ -167,80 +167,80 @@ VALUES (11318, 1881694208, 42336513, 120.977, -20.1223, -27.8358, 1, 0, 0, 0) /*
      , (278, 1881694361, 42337022, 80, -85.25, 0, -1, 0, 0, 0) /* Door */
      , (278, 1881694362, 42337023, 75.25, -90, 0, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881694212'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881694422'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881694212'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881694422'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881694211'; /* Linkable Monster Generator ( 3 Min.) <- Hea Shaman */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881694365'; /* Linkable Monster Generator ( 3 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881694364'; /* Linkable Monster Generator ( 3 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881694367'; /* Linkable Monster Generator ( 3 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694419'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694420'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694417'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694412'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694415'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694297'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694413'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694260'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694414'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694384'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694378'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694390'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694391'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694289'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694380'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694375'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694376'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694379'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694405'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694410'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694411'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694408'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694387'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694401'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694402'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694399'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694403'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694397'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694400'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694404'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694407'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694409'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694406'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694388'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694389'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694393'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694385'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694394'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694396'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694381'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694377'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694395'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694398'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694370'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694371'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694386'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694383'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694382'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694392'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694346'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694363'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694366'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694314'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694369'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694374'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694372'; /* Linkable Monster Generator ( 5 Min.) <- Silt Lurker */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694268'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694368'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694373'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694426'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694425'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694423'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694424'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694427'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694429'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694428'; /* Linkable Monster Generator ( 5 Min.) <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694416'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694418'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694421'; /* Linkable Monster Generator ( 5 Min.) <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881694211'; /* linkmonstergen3minutes <- Hea Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881694365'; /* linkmonstergen3minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881694364'; /* linkmonstergen3minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881694367'; /* linkmonstergen3minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694419'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694420'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694417'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694412'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694415'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694297'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694413'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694260'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694414'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694384'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694378'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694390'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694391'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694289'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694380'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694375'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694376'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694379'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694405'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694410'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694411'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694408'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694387'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694401'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694402'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694399'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694403'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694397'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694400'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694404'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694407'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694409'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694406'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694388'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694389'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694393'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694385'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694394'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694396'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694381'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694377'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694395'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694398'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694370'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694371'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694386'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694383'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694382'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694392'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694346'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694363'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694366'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694314'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694369'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694374'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694372'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694268'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694368'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694373'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694426'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694425'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694423'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694424'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694427'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694429'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694428'; /* linkmonstergen5minutes <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694416'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694418'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881694421'; /* linkmonstergen5minutes <- Hea Hunter */
 

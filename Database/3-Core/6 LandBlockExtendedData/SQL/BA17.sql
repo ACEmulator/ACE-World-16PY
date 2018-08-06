@@ -10,10 +10,10 @@ VALUES (27247, 2074177584, 3122069766, 89.4882, 182.685, 84.005, 0.031287, 0, 0,
      , (2536, 2074177556, 3122069799, 52.6688, 38.7667, 132.005, 0.719188, 0, 0, -0.694816) /* Shopkeep Kuro of Kara  */
      , (720, 2074177542, 3122069803, 65.4408, 39.9571, 132, 0.707107, 0, 0, 0.707107) /* Sliding Door */
      , (720, 2074177543, 3122069804, 54.5408, 32.0321, 132, 0.707107, 0, 0, -0.707107) /* Sliding Door */
-     , (4782, 2074177548, 3122069808, 59.2193, 39.1572, 136.405, -0.455643, 0, 0, 0.890163) /* Sho Leather Crafter Gen */
+     , (4782, 2074177548, 3122069808, 59.2193, 39.1572, 136.405, -0.455643, 0, 0, 0.890163) /* leathercraftershogen */
      , (28919, 2074177586, 3122069809, 90.141, 41.8881, 132.005, -0.593897, 0, 0, -0.804541) /* Journeyman Alchemist */
      , (25827, 2074177582, 3122069809, 78.7093, 43.3177, 132.005, 0.51492, 0, 0, 0.857238) /* Miko Li, Jojii Adherent */
-     , (7923, 2074177562, 3122069820, 36.9372, 177.072, 82.005, 0.89344, 0, 0, -0.449183) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2074177562, 3122069820, 36.9372, 177.072, 82.005, 0.89344, 0, 0, -0.449183) /* linkmonstergen3minutes */
      , (12050, 2074177561, 3122069820, 37.7636, 177.973, 82.005, -0.621028, 0, 0, -0.783788) /* Agent of the Arcanum */
      , (19715, 2074177576, 3122069826, 66.2036, 52.9584, 126.805, -0.0268142, 0, 0, -0.99964) /* Colossus Foundry Portal */
      , (720, 2074177536, 3122069504, 83.05, 173.956, 84, 0.707107, 0, 0, -0.707107) /* Sliding Door */
@@ -29,17 +29,17 @@ VALUES (27247, 2074177584, 3122069766, 89.4882, 182.685, 84.005, 0.031287, 0, 0,
      , (412, 2074177560, 3122069504, 31.34, 173.5, 82, 0.707107, 0, 0, -0.707107) /* Door */
      , (16919, 2074177569, 3122069504, 66.4293, 70.4997, 132, -0.999988, 0, 0, 0.0049097) /* Pedestal Weak Spot */
      , (509, 2074177585, 3122069504, 33.9878, 53.2589, 132.005, -0.792449, 0, 0, -0.609938) /* Life Stone */
-     , (23631, 2074177581, 3122069504, 78.3769, 58.2763, 172.768, 0.0131217, 0, 0, 0.999914) /* April 2003 Raining Mad Cows Gen */
+     , (23631, 2074177581, 3122069504, 78.3769, 58.2763, 172.768, 0.0131217, 0, 0, 0.999914) /* eventmadcowgen */
      , (2539, 2074177550, 3122069504, 92.1427, 53.3368, 132.005, -0.999523, 0, 0, 0.0308818) /* Koro of Kara, Farmer */
      , (19203, 2074177575, 3122069504, 66.6946, 66.331, 138.82, -0.698123, 0, 0, 0.715978) /* Nullified Statue of a Shadow */
      , (1907, 2074177552, 3122069504, 67.2193, 6.71643, 133.445, 0.0701175, 0, 0, -0.997539) /* Sho Roadside */
-     , (19457, 2074177572, 3122069504, 66.214, 66.243, 139, 0.707329, 0, 0, -0.706885) /* Fireworks Generator */
+     , (19457, 2074177572, 3122069504, 66.214, 66.243, 139, 0.707329, 0, 0, -0.706885) /* fireworksgen */
      , (12304, 2074177563, 3122069504, 28.7045, 184.06, 82.005, -0.698498, 0, 0, 0.715612) /* Agent of the Arcanum  */
      , (1351, 2074177555, 3122069504, 66.844, 9.35452, 133.225, 0.0701175, 0, 0, -0.997539) /* Sign */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2074177562'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2074177562'; /* linkmonstergen3minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074177561'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074177586'; /* Linkable Monster Generator ( 3 Min.) <- Journeyman Alchemist */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074177582'; /* Linkable Monster Generator ( 3 Min.) <- Miko Li, Jojii Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074177561'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074177586'; /* linkmonstergen3minutes <- Journeyman Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074177582'; /* linkmonstergen3minutes <- Miko Li, Jojii Adherent */
 

@@ -1,8 +1,8 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (48460, 4623, 1, 4) /* Low Central Forest Mix Generator */
-     , (48460, 4623, 1, 5) /* Low Central Forest Mix Generator */
-     , (48460, 4623, 1, 6) /* Low Central Forest Mix Generator */
-     , (48460, 21172, 2, 2) /* Low Central Undead Plains Mix Generator */
-     , (48460, 4623, 6, 5) /* Low Central Forest Mix Generator */
-     , (48460, 4623, 7, 1) /* Low Central Forest Mix Generator */;
+VALUES (48460, 4623, 1, 4) /* lowcentralforestgen */
+     , (48460, 4623, 1, 5) /* lowcentralforestgen */
+     , (48460, 4623, 1, 6) /* lowcentralforestgen */
+     , (48460, 21172, 2, 2) /* lowcentralplainsundeadgen */
+     , (48460, 4623, 6, 5) /* lowcentralforestgen */
+     , (48460, 4623, 7, 1) /* lowcentralforestgen */;
 

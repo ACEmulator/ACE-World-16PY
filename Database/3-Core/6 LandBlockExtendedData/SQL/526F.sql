@@ -24,7 +24,7 @@ VALUES (7562, 1965486080, 1383006465, 24.3757, -130.23, -41.6473, -0.66189, 0, 0
      , (4066, 1965486100, 1383006518, 67.4509, -181.502, -40.0233, -0.004204, 0, 0, 0.999991) /* Flame Trap */
      , (5711, 1965486236, 1383006521, 80, -80, -41.9935, 0.0457802, 0, 0, 0.998952) /* Flamma */
      , (14539, 1965486232, 1383006522, 84.7397, -94.9094, -41.995, -0.1868, 0, 0, -0.982398) /* Prism of Fire */
-     , (7923, 1965486237, 1383006524, 80, -110, -41.995, 1, 0, 0, 0) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 1965486237, 1383006524, 80, -110, -41.995, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (4454, 1965486101, 1383006526, 80, -125.5, -42, 0, 0, 0, -1) /* Door */
      , (5710, 1965486102, 1383006526, 80, -133.41, -41.995, 1, 0, 0, 0) /* Flare */
      , (5710, 1965486103, 1383006526, 80, -131.681, -41.995, 1, 0, 0, 0) /* Flare */
@@ -68,7 +68,7 @@ VALUES (7562, 1965486080, 1383006465, 24.3757, -130.23, -41.6473, -0.66189, 0, 0
      , (4066, 1965486143, 1383006711, 139.779, -54.4803, -4.45125, 0.999994, 0, 0, -0.00343804) /* Flame Trap */
      , (7561, 1965486144, 1383006711, 139.935, -53.2039, -5.995, 0.999994, 0, 0, -0.00343804) /* Magic trap */
      , (14488, 1965486145, 1383006715, 51.5706, -120.553, 0.005, 0.939373, 0, 0, 0.342898) /* Empyrean Fire Propylaeum */
-     , (7924, 1965486146, 1383006718, 59.994, -129.22, 0.005, 0.020794, 0, 0, 0.999784) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1965486146, 1383006718, 59.994, -129.22, 0.005, 0.020794, 0, 0, 0.999784) /* linkmonstergen5minutes */
      , (2609, 1965486147, 1383006728, 74.5, -150, 0, -0.707107, 0, 0, -0.707107) /* Lever */
      , (197, 1965486148, 1383006734, 80, -140, 0.01, 0.764842, 0, 0, 0.644218) /* Iron Golem */
      , (197, 1965486149, 1383006734, 81.2183, -139.968, 0.01, 0.764842, 0, 0, 0.644218) /* Iron Golem */
@@ -81,7 +81,7 @@ VALUES (7562, 1965486080, 1383006465, 24.3757, -130.23, -41.6473, -0.66189, 0, 0
      , (2609, 1965486156, 1383006782, 140, -103.5, 0, 1, 0, 0, 0) /* Lever */
      , (4066, 1965486157, 1383006784, 139.617, -106.415, 1.49525, 0.999999, 0, 0, -0.00115824) /* Flame Trap */
      , (14488, 1965486158, 1383006791, 36.6613, -43.2193, 6.005, 0.387232, 0, 0, 0.921982) /* Empyrean Fire Propylaeum */
-     , (7924, 1965486159, 1383006793, 52.295, -29.7268, 6.005, -0.666193, 0, 0, 0.745779) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1965486159, 1383006793, 52.295, -29.7268, 6.005, -0.666193, 0, 0, 0.745779) /* linkmonstergen5minutes */
      , (2180, 1965486160, 1383006800, 64.75, -30, 6, -0.707107, 0, 0, -0.707107) /* Door */
      , (2609, 1965486161, 1383006807, 70, -6, 6, 1, 0, 0, -4.37114E-08) /* Lever */
      , (4066, 1965486162, 1383006807, 69.8788, -11.4982, 7.74937, 1, 0, 0, -4.37114E-08) /* Flame Trap */
@@ -184,9 +184,9 @@ UPDATE `landblock_instances` SET `link_Slot`='27', `link_Controller`=True WHERE 
 UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE `guid`='1965486178'; /* Flame Trap */
 UPDATE `landblock_instances` SET `link_Slot`='29', `link_Controller`=True WHERE `guid`='1965486197'; /* Flame Trap */
 UPDATE `landblock_instances` SET `link_Slot`='30', `link_Controller`=True WHERE `guid`='1965486207'; /* Flame Trap */
-UPDATE `landblock_instances` SET `link_Slot`='31', `link_Controller`=True WHERE `guid`='1965486146'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='32', `link_Controller`=True WHERE `guid`='1965486159'; /* Linkable Monster Generator ( 5 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='33', `link_Controller`=True WHERE `guid`='1965486237'; /* Linkable Monster Generator ( 3 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='31', `link_Controller`=True WHERE `guid`='1965486146'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='32', `link_Controller`=True WHERE `guid`='1965486159'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='33', `link_Controller`=True WHERE `guid`='1965486237'; /* linkmonstergen3minutes */
 
 UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965486221'; /* Door <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965486213'; /* Door <- Lever */
@@ -218,64 +218,64 @@ UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1965486172'; /* 
 UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1965486177'; /* Flame Trap <- Lever */
 UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1965486195'; /* Flame Trap <- Pressure Plate */
 UPDATE `landblock_instances` SET `link_Slot`='30' WHERE `guid`='1965486204'; /* Flame Trap <- Button */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486150'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486149'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486148'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486152'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486154'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486155'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486140'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486133'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486129'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486130'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486124'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486134'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486137'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486127'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486125'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486126'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486135'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486136'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486113'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486115'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486114'; /* Linkable Monster Generator ( 5 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486088'; /* Linkable Monster Generator ( 5 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486089'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486090'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486091'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486092'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486104'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486105'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486102'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486103'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486118'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486123'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486128'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486132'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486122'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486119'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486163'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486164'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486165'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486166'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486180'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486181'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486182'; /* Linkable Monster Generator ( 5 Min.) <- Ember */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486192'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486193'; /* Linkable Monster Generator ( 5 Min.) <- Flare */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486189'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486190'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486188'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486187'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486186'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486199'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486205'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486202'; /* Linkable Monster Generator ( 5 Min.) <- Iron Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486201'; /* Linkable Monster Generator ( 5 Min.) <- Unstable Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486206'; /* Linkable Monster Generator ( 5 Min.) <- Magma Golem */
-UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486203'; /* Linkable Monster Generator ( 5 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='33' WHERE `guid`='1965486236'; /* Linkable Monster Generator ( 3 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='33' WHERE `guid`='1965486234'; /* Linkable Monster Generator ( 3 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='33' WHERE `guid`='1965486238'; /* Linkable Monster Generator ( 3 Min.) <- Flamma */
-UPDATE `landblock_instances` SET `link_Slot`='33' WHERE `guid`='1965486235'; /* Linkable Monster Generator ( 3 Min.) <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486150'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486149'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486148'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486152'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486154'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486155'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486140'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486133'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486129'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486130'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486124'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486134'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486137'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486127'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486125'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486126'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486135'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486136'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486113'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486115'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486114'; /* linkmonstergen5minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486088'; /* linkmonstergen5minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486089'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486090'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486091'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486092'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486104'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486105'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486102'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486103'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486118'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486123'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486128'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486132'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486122'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965486119'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486163'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486164'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486165'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486166'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486180'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486181'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486182'; /* linkmonstergen5minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486192'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486193'; /* linkmonstergen5minutes <- Flare */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486189'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486190'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486188'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486187'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486186'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486199'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486205'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486202'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486201'; /* linkmonstergen5minutes <- Unstable Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486206'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965486203'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='33' WHERE `guid`='1965486236'; /* linkmonstergen3minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='33' WHERE `guid`='1965486234'; /* linkmonstergen3minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='33' WHERE `guid`='1965486238'; /* linkmonstergen3minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='33' WHERE `guid`='1965486235'; /* linkmonstergen3minutes <- Flamma */
 

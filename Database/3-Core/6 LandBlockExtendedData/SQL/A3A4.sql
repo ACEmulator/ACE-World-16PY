@@ -2,7 +2,7 @@ INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `or
 VALUES (5424, 2050637831, 2745434370, 58.8272, 83.9826, 68.005, 0.958775, 0, 0, -0.284165) /* Fertroth the Healer */
      , (5148, 2050637839, 2745434370, 55.3828, 84.3297, 68.4611, 0.703076, 0, 0, 0.711115) /* Flames */
      , (5148, 2050637840, 2745434372, 55.3812, 84.3391, 71.4865, -0.702172, 0, 0, -0.712008) /* Flames */
-     , (1154, 2050637835, 2745434372, 55.2757, 81.1693, 71.005, 0.999799, 0, 0, 0.0200482) /* Linkable Monster Generator */
+     , (1154, 2050637835, 2745434372, 55.2757, 81.1693, 71.005, 0.999799, 0, 0, 0.0200482) /* linkmonstergen */
      , (3917, 2050637834, 2745434372, 60.2912, 84.0818, 71.005, -0.624314, 0, 0, 0.781173) /* Collector */
      , (5422, 2050637841, 2745434376, 106.934, 106.198, 80.005, -0.310832, 0, 0, 0.950465) /* Archmage Geltruma */
      , (5148, 2050637836, 2745434376, 105.364, 110.266, 80.3789, 0.696308, 0, 0, 0.717743) /* Flames */
@@ -18,8 +18,8 @@ VALUES (5424, 2050637831, 2745434370, 58.8272, 83.9826, 68.005, 0.958775, 0, 0, 
      , (509, 2050637830, 2745434112, 117.425, 103.42, 80.005, -0.831115, 0, 0, 0.556101) /* Life Stone */
      , (2567, 2050637832, 2745434112, 53.284, 80.8736, 68.005, -0.957913, 0, 0, -0.28706) /* Brown Rabbit */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2050637835'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2050637835'; /* linkmonstergen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2050637834'; /* Linkable Monster Generator <- Collector */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2050637832'; /* Linkable Monster Generator <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2050637834'; /* linkmonstergen <- Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2050637832'; /* linkmonstergen <- Brown Rabbit */
 

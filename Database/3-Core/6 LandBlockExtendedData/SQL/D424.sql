@@ -1,6 +1,6 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23608, 2101493770, 3559129344, 88.4944, 72.4867, 59.805, 0.707107, 0, 0, -0.707107) /* Runed Chest */
-     , (4219, 2101493783, 3559129344, 81.0225, 69.5014, 59.8054, -0.254316, 0, 0, -0.967121) /* Linkable Monster Generator ( 7 Min.) */
+     , (4219, 2101493783, 3559129344, 81.0225, 69.5014, 59.8054, -0.254316, 0, 0, -0.967121) /* linkmonstergen7minutes */
      , (11533, 2101493771, 3559129344, 81.2594, 69.1726, 59.8154, 0.197297, 0, 0, -0.980344) /* Azael Zefir */
      , (11533, 2101493772, 3559129344, 84.1438, 72.6575, 59.8154, -0.0610377, 0, 0, -0.998135) /* Azael Zefir */
      , (11533, 2101493773, 3559129344, 87.8588, 76.3574, 59.8154, -0.0610377, 0, 0, -0.998135) /* Azael Zefir */
@@ -14,18 +14,18 @@ VALUES (23608, 2101493770, 3559129344, 88.4944, 72.4867, 59.805, 0.707107, 0, 0,
      , (11533, 2101493780, 3559129088, 84.921, 53.827, 65.0917, -0.376702, 0, 0, 0.926334) /* Azael Zefir */
      , (11533, 2101493779, 3559129088, 81.0008, 53.5917, 64.7651, 0.290282, 0, 0, 0.956941) /* Azael Zefir */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2101493783'; /* Linkable Monster Generator ( 7 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2101493783'; /* linkmonstergen7minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493775'; /* Linkable Monster Generator ( 7 Min.) <- Azael Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493774'; /* Linkable Monster Generator ( 7 Min.) <- Azael Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493773'; /* Linkable Monster Generator ( 7 Min.) <- Azael Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493772'; /* Linkable Monster Generator ( 7 Min.) <- Azael Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493771'; /* Linkable Monster Generator ( 7 Min.) <- Azael Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493776'; /* Linkable Monster Generator ( 7 Min.) <- Azael Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493777'; /* Linkable Monster Generator ( 7 Min.) <- Azael Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493778'; /* Linkable Monster Generator ( 7 Min.) <- Azael Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493779'; /* Linkable Monster Generator ( 7 Min.) <- Azael Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493780'; /* Linkable Monster Generator ( 7 Min.) <- Azael Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493781'; /* Linkable Monster Generator ( 7 Min.) <- Azael Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493782'; /* Linkable Monster Generator ( 7 Min.) <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493775'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493774'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493773'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493772'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493771'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493776'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493777'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493778'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493779'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493780'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493781'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2101493782'; /* linkmonstergen7minutes <- Azael Zefir */
 

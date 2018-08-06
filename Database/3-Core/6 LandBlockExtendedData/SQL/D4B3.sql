@@ -8,16 +8,16 @@ VALUES (1919, 2102079488, 3568500736, 180.449, 104.49, -0.895, -0.527677, 0, 0, 
      , (2565, 2102079494, 3568500736, 157.84, 94.638, -0.4395, -0.538253, 0, 0, -0.842783) /* Shore Armoredillo */
      , (2565, 2102079495, 3568500736, 187.902, 110.386, -0.8895, -0.941252, 0, 0, -0.337706) /* Shore Armoredillo */
      , (2565, 2102079496, 3568500736, 172.965, 90.7627, -0.4395, -0.394812, 0, 0, -0.918762) /* Shore Armoredillo */
-     , (1154, 2102079497, 3568500736, 151.624, 83.9039, -0.095, -0.446349, 0, 0, -0.894859) /* Linkable Monster Generator */;
+     , (1154, 2102079497, 3568500736, 151.624, 83.9039, -0.095, -0.446349, 0, 0, -0.894859) /* linkmonstergen */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2102079497'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2102079497'; /* linkmonstergen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079489'; /* Linkable Monster Generator <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079490'; /* Linkable Monster Generator <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079491'; /* Linkable Monster Generator <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079492'; /* Linkable Monster Generator <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079493'; /* Linkable Monster Generator <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079494'; /* Linkable Monster Generator <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079495'; /* Linkable Monster Generator <- Shore Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079496'; /* Linkable Monster Generator <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079489'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079490'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079491'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079492'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079493'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079494'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079495'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102079496'; /* linkmonstergen <- Shore Armoredillo */
 

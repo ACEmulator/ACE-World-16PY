@@ -1,6 +1,6 @@
 INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4794, 2089320459, 3364356354, 41.499, 180.1, 34.005, -0.855457, 0, 0, -0.517874) /* Brentsella */
-     , (1154, 2089320460, 3364356354, 42.3507, 181.184, 34.005, 0.541833, 0, 0, -0.840486) /* Linkable Monster Generator */
+     , (1154, 2089320460, 3364356354, 42.3507, 181.184, 34.005, 0.541833, 0, 0, -0.840486) /* linkmonstergen */
      , (4449, 2089320455, 3364356361, 85.923, 173.578, 28.005, 0.198678, 0, 0, 0.980065) /* Girdweld the Shopkeeper */
      , (412, 2089320451, 3364356096, 44.8583, 177.602, 34, -0.707107, 0, 0, -0.707107) /* Door */
      , (412, 2089320452, 3364356096, 37.1183, 171.042, 34, -0.999986, 0, 0, 0.0052354) /* Door */
@@ -14,7 +14,7 @@ VALUES (4794, 2089320459, 3364356354, 41.499, 180.1, 34.005, -0.855457, 0, 0, -0
      , (4431, 2089320458, 3364356096, 74.9077, 169.985, 28.005, 0.538281, 0, 0, -0.842766) /* Rithwic Outpost */
      , (5108, 2089320461, 3364356096, 99.4053, 169.569, 28.005, 0.932314, 0, 0, -0.361649) /* LIFESTONES SIGN */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2089320460'; /* Linkable Monster Generator */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2089320460'; /* linkmonstergen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089320459'; /* Linkable Monster Generator <- Brentsella */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089320459'; /* linkmonstergen <- Brentsella */
 

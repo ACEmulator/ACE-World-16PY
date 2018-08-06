@@ -30,7 +30,7 @@ VALUES (412, 2056994816, 2847146240, 84.1029, 131.542, 66, -0.707107, 0, 0, -0.7
      , (714, 2056994852, 2847146346, 78.9714, 38.5313, 94.005, 0.999925, 0, 0, 0.012217) /* Fispur Ansel the Grocer */
      , (412, 2056994874, 2847146352, 155.429, 15.8632, 94, -4.37114E-08, 0, 0, -1) /* Door */
      , (12050, 2056994872, 2847146354, 163.152, 5.80392, 94.005, 0.978524, 0, 0, 0.206132) /* Agent of the Arcanum */
-     , (7923, 2056994873, 2847146354, 163.283, 7.1682, 94.005, -0.185739, 0, 0, 0.982599) /* Linkable Monster Generator ( 3 Min.) */
+     , (7923, 2056994873, 2847146354, 163.283, 7.1682, 94.005, -0.185739, 0, 0, 0.982599) /* linkmonstergen3minutes */
      , (14930, 2056994881, 2847146354, 163.045, 8.72678, 94.005, -0.465144, 0, 0, -0.885235) /* Wedding Planner */
      , (19717, 2056994890, 2847146358, 78.9654, 156.997, 60.805, -0.698103, 0, 0, 0.715998) /* Mannikin Foundry Portal */
      , (6096, 2056994897, 2847146362, 159.225, 39.0226, 96.005, 0.941122, 0, 0, -0.338067) /* Holtburg Meeting Hall Portal */
@@ -61,7 +61,7 @@ VALUES (412, 2056994816, 2847146240, 84.1029, 131.542, 66, -0.707107, 0, 0, -0.7
      , (30466, 2056994915, 2847145984, 91.519, 37.745, 94.005, -4.37114E-08, 0, 0, -1) /* Cooking Forge */
      , (30467, 2056994914, 2847145984, 104.71, 130.18, 66.005, 1, 0, 0, 0) /* Fletching Forge */
      , (30465, 2056994913, 2847145984, 141.557, 141.424, 66.005, -0.374607, 0, 0, -0.927184) /* Alchemy Forge */
-     , (7924, 2056994924, 2847145984, 102.483, 19.116, 94.005, -0.549961, 0, 0, -0.83519) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 2056994924, 2847145984, 102.483, 19.116, 94.005, -0.549961, 0, 0, -0.83519) /* linkmonstergen5minutes */
      , (11960, 2056994907, 2847145984, 27.325, 137.487, 66.5, -0.793566, 0, 0, -0.608485) /* Portal to Redspire */
      , (30461, 2056994917, 2847145984, 68.113, 131.614, 66.005, 0.991445, 0, 0, -0.130526) /* Salvaging Forge */
      , (27547, 2056994896, 2847145984, 144.989, 41.5477, 94.005, -0.419254, 0, 0, 0.907869) /* Bind Stone */
@@ -71,32 +71,32 @@ VALUES (412, 2056994816, 2847146240, 84.1029, 131.542, 66, -0.707107, 0, 0, -0.7
      , (706, 2056994860, 2847145984, 36.5961, 157.826, 66.12, 0.920845, 0, 0, 0.389928) /* Thelnoth's Remedies */
      , (708, 2056994861, 2847145984, 119.146, 37.3987, 94.08, 0.709571, 0, 0, 0.704634) /* Helm and Shield */
      , (707, 2056994862, 2847145984, 145.9, 132.545, 66.12, 0.896003, 0, 0, -0.444049) /* Monyra's Jewels */
-     , (385, 2056994863, 2847145984, 111.6, 158.04, 66, 1, 0, 0, 0) /* Cow Generator */
-     , (7923, 2056994898, 2847145984, 91.8298, 23.3139, 94.005, -0.361835, 0, 0, -0.932242) /* Linkable Monster Generator ( 3 Min.) */
+     , (385, 2056994863, 2847145984, 111.6, 158.04, 66, 1, 0, 0, 0) /* cow-generator */
+     , (7923, 2056994898, 2847145984, 91.8298, 23.3139, 94.005, -0.361835, 0, 0, -0.932242) /* linkmonstergen3minutes */
      , (9423, 2056994894, 2847145984, 124.794, 31.5153, 94.01, -0.0906617, 0, 0, -0.995882) /* Novedion the Gem Seller */
      , (509, 2056994895, 2847145984, 81.3304, 11.7974, 94.005, 0.839091, 0, 0, -0.543991) /* Life Stone */
-     , (23631, 2056994893, 2847145984, 90.708, 89.886, 173.259, -0.0892916, 0, 0, -0.996006) /* April 2003 Raining Mad Cows Gen */
-     , (4769, 2056994868, 2847145984, 87.2695, 156.115, 66.005, -0.402981, 0, 0, 0.915208) /* Collector Aluvian Gen */
+     , (23631, 2056994893, 2847145984, 90.708, 89.886, 173.259, -0.0892916, 0, 0, -0.996006) /* eventmadcowgen */
+     , (4769, 2056994868, 2847145984, 87.2695, 156.115, 66.005, -0.402981, 0, 0, 0.915208) /* collectoraluviangen */
      , (921, 2056994869, 2847145984, 94.597, 156.033, 66.005, 1, 0, 0, 0) /* Holtburg */
      , (174, 2056994870, 2847145984, 90.12, 157.8, 66, 1, 0, 0, 0) /* Well */
      , (19196, 2056994891, 2847145984, 65.2771, 156.796, 72.8123, -0.0077405, 0, 0, 0.99997) /* Nullified Statue of a Drudge */
-     , (19457, 2056994887, 2847145984, 65.366, 156.432, 73, 0.0170508, 0, 0, -0.999855) /* Fireworks Generator */
-     , (7923, 2056994876, 2847145984, 60.9059, 153.535, 66.005, -0.981916, 0, 0, 0.189318) /* Linkable Monster Generator ( 3 Min.) */
+     , (19457, 2056994887, 2847145984, 65.366, 156.432, 73, 0.0170508, 0, 0, -0.999855) /* fireworksgen */
+     , (7923, 2056994876, 2847145984, 60.9059, 153.535, 66.005, -0.981916, 0, 0, 0.189318) /* linkmonstergen3minutes */
      , (12304, 2056994875, 2847145984, 150.459, 17.8832, 94.005, 0.330031, 0, 0, -0.94397) /* Agent of the Arcanum  */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2056994898'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2056994873'; /* Linkable Monster Generator ( 3 Min.) */
-UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2056994924'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2056994898'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2056994873'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2056994924'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056994866'; /* Linkable Monster Generator ( 3 Min.) <- Flinrala Ryndmad */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056994899'; /* Linkable Monster Generator ( 3 Min.) <- Apprentice Alchemist */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056994872'; /* Linkable Monster Generator ( 3 Min.) <- Agent of the Arcanum */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056994908'; /* Linkable Monster Generator ( 3 Min.) <- Worcer */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056994910'; /* Linkable Monster Generator ( 3 Min.) <- Alfrin */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056994913'; /* Linkable Monster Generator ( 3 Min.) <- Alchemy Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056994914'; /* Linkable Monster Generator ( 3 Min.) <- Fletching Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056994915'; /* Linkable Monster Generator ( 3 Min.) <- Cooking Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056994916'; /* Linkable Monster Generator ( 3 Min.) <- Lockpick Forge */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056994917'; /* Linkable Monster Generator ( 3 Min.) <- Salvaging Forge */
-UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2056994923'; /* Linkable Monster Generator ( 5 Min.) <- Tirenia */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056994866'; /* linkmonstergen3minutes <- Flinrala Ryndmad */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056994899'; /* linkmonstergen3minutes <- Apprentice Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056994872'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056994908'; /* linkmonstergen3minutes <- Worcer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2056994910'; /* linkmonstergen3minutes <- Alfrin */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056994913'; /* linkmonstergen3minutes <- Alchemy Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056994914'; /* linkmonstergen3minutes <- Fletching Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056994915'; /* linkmonstergen3minutes <- Cooking Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056994916'; /* linkmonstergen3minutes <- Lockpick Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2056994917'; /* linkmonstergen3minutes <- Salvaging Forge */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2056994923'; /* linkmonstergen5minutes <- Tirenia */
 

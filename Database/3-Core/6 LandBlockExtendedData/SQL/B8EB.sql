@@ -13,13 +13,13 @@ VALUES (5748, 2072948796, 3102408960, 131.7, 107.918, 12.005, -0.680114, 0, 0, 0
      , (7178, 2072948763, 3102408975, 34.2931, 83.1299, 38.005, 0.825165, 0, 0, -0.564892) /* Cursed Bones */
      , (7401, 2072948736, 3102408704, 136.719, 61.4051, 14.0025, -0.686527, 0, 0, 0.727104) /* Smith Ejan */
      , (5748, 2072948797, 3102408704, 25.0507, 92.7371, 36.005, -0.959011, 0, 0, 0.28337) /* Fire Wisp */
-     , (7361, 2072948738, 3102408704, 47.0058, 94.9874, 36.005, -0.91861, 0, 0, 0.395165) /* Erupt Port Boss Gen */
-     , (7362, 2072948739, 3102408704, 33.8616, 114.956, 17.0494, -0.839927, 0, 0, -0.5427) /* Erupt Port Gen */
-     , (7362, 2072948740, 3102408704, 63.062, 142.508, 12.005, -0.896375, 0, 0, 0.443297) /* Erupt Port Gen */
-     , (7362, 2072948741, 3102408704, 53.6899, 168.675, -0.0950001, -0.916476, 0, 0, -0.40009) /* Erupt Port Gen */
-     , (7362, 2072948742, 3102408704, 100.473, 149.439, 9.28544, -0.164987, 0, 0, 0.986296) /* Erupt Port Gen */
-     , (7362, 2072948743, 3102408704, 147.233, 145.337, 5.19671, -0.754735, 0, 0, 0.65603) /* Erupt Port Gen */
-     , (7362, 2072948744, 3102408704, 126.977, 23.8478, 22.5294, -0.984294, 0, 0, -0.176536) /* Erupt Port Gen */
+     , (7361, 2072948738, 3102408704, 47.0058, 94.9874, 36.005, -0.91861, 0, 0, 0.395165) /* eruptportbossgen */
+     , (7362, 2072948739, 3102408704, 33.8616, 114.956, 17.0494, -0.839927, 0, 0, -0.5427) /* eruptportgen */
+     , (7362, 2072948740, 3102408704, 63.062, 142.508, 12.005, -0.896375, 0, 0, 0.443297) /* eruptportgen */
+     , (7362, 2072948741, 3102408704, 53.6899, 168.675, -0.0950001, -0.916476, 0, 0, -0.40009) /* eruptportgen */
+     , (7362, 2072948742, 3102408704, 100.473, 149.439, 9.28544, -0.164987, 0, 0, 0.986296) /* eruptportgen */
+     , (7362, 2072948743, 3102408704, 147.233, 145.337, 5.19671, -0.754735, 0, 0, 0.65603) /* eruptportgen */
+     , (7362, 2072948744, 3102408704, 126.977, 23.8478, 22.5294, -0.984294, 0, 0, -0.176536) /* eruptportgen */
      , (4216, 2072948794, 3102408704, 44.6773, 128.886, 12.01, -0.618903, 0, 0, 0.785467) /* Diamond Golem */
      , (7505, 2072948746, 3102408704, 39.0725, 86.0122, 38.005, 0.474521, 0, 0, -0.880244) /* Statue */
      , (7178, 2072948792, 3102408704, 108.127, 129.027, 21.5038, 0.105963, 0, 0, 0.99437) /* Cursed Bones */
@@ -29,7 +29,7 @@ VALUES (5748, 2072948796, 3102408960, 131.7, 107.918, 12.005, -0.680114, 0, 0, 0
      , (7506, 2072948751, 3102408704, 83.3594, 125.749, 14.005, -0.814892, 0, 0, -0.579613) /* Statue */
      , (7504, 2072948752, 3102408704, 82.4805, 129.082, 14.005, -0.236998, 0, 0, 0.97151) /* Statue */
      , (7504, 2072948753, 3102408704, 86.2198, 128.548, 14.005, -0.649198, 0, 0, -0.76062) /* Statue */
-     , (1542, 2072948754, 3102408704, 119.167, 141.825, 12.005, 0.0882256, 0, 0, 0.9961) /* Linkable Item Generator */
+     , (1542, 2072948754, 3102408704, 119.167, 141.825, 12.005, 0.0882256, 0, 0, 0.9961) /* linkitemgen */
      , (7178, 2072948791, 3102408704, 108.712, 136.313, 21.4122, 0.869814, 0, 0, 0.493379) /* Cursed Bones */
      , (7178, 2072948790, 3102408704, 37.1902, 135.182, 21.2478, 0.876209, 0, 0, -0.481931) /* Cursed Bones */
      , (7506, 2072948757, 3102408704, 106.315, 114.845, 12.005, -0.34992, 0, 0, 0.93678) /* Statue */
@@ -52,50 +52,50 @@ VALUES (5748, 2072948796, 3102408960, 131.7, 107.918, 12.005, -0.680114, 0, 0, 0
      , (7507, 2072948774, 3102408704, 179.564, 182.649, -0.44, -0.0761994, 0, 0, 0.997093) /* Coral Golem */
      , (7626, 2072948775, 3102408704, 182.703, 180.633, -0.44, 0.592746, 0, 0, 0.80539) /* Coral Golem */
      , (7507, 2072948776, 3102408704, 180.502, 176.763, -0.09, -0.991468, 0, 0, -0.130347) /* Coral Golem */
-     , (7924, 2072948778, 3102408704, 140.095, 71.3091, 12.005, -0.991783, 0, 0, -0.127931) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 2072948778, 3102408704, 140.095, 71.3091, 12.005, -0.991783, 0, 0, -0.127931) /* linkmonstergen5minutes */
      , (7626, 2072948779, 3102408704, 177.109, 178.794, -0.09, -0.754659, 0, 0, 0.656117) /* Coral Golem */
-     , (7362, 2072948780, 3102408704, 29.1156, 149.591, 9.20932, -0.726013, 0, 0, 0.687681) /* Erupt Port Gen */
-     , (7362, 2072948781, 3102408704, 10.3206, 75.9245, 41.7047, -0.841772, 0, 0, 0.539833) /* Erupt Port Gen */
-     , (7362, 2072948782, 3102408704, 92.8257, 57.655, 29.5912, -0.999989, 0, 0, 0.00465575) /* Erupt Port Gen */
-     , (7362, 2072948783, 3102408704, 84.0675, 132.19, 14.005, -0.999999, 0, 0, 0.00105213) /* Erupt Port Gen */
+     , (7362, 2072948780, 3102408704, 29.1156, 149.591, 9.20932, -0.726013, 0, 0, 0.687681) /* eruptportgen */
+     , (7362, 2072948781, 3102408704, 10.3206, 75.9245, 41.7047, -0.841772, 0, 0, 0.539833) /* eruptportgen */
+     , (7362, 2072948782, 3102408704, 92.8257, 57.655, 29.5912, -0.999989, 0, 0, 0.00465575) /* eruptportgen */
+     , (7362, 2072948783, 3102408704, 84.0675, 132.19, 14.005, -0.999999, 0, 0, 0.00105213) /* eruptportgen */
      , (7179, 2072948784, 3102408704, 35.8652, 87.1481, 45.4704, 0.97066, 0, 0, -0.240458) /* Relic Bones */
      , (7179, 2072948785, 3102408704, 33.8834, 77.7271, 45.3107, 0.913969, 0, 0, -0.405785) /* Relic Bones */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2072948754'; /* Linkable Item Generator */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2072948778'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2072948754'; /* linkitemgen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2072948778'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2072948745'; /* Linkable Item Generator <- Charred Book */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948779'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948760'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948762'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948761'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948764'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948763'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948766'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948765'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948768'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948767'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948769'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948770'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948771'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948773'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948772'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948775'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948774'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948776'; /* Linkable Monster Generator ( 5 Min.) <- Coral Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948736'; /* Linkable Monster Generator ( 5 Min.) <- Smith Ejan */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948784'; /* Linkable Monster Generator ( 5 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948786'; /* Linkable Monster Generator ( 5 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948785'; /* Linkable Monster Generator ( 5 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948788'; /* Linkable Monster Generator ( 5 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948787'; /* Linkable Monster Generator ( 5 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948790'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948789'; /* Linkable Monster Generator ( 5 Min.) <- Relic Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948792'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948791'; /* Linkable Monster Generator ( 5 Min.) <- Cursed Bones */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948794'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948793'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948796'; /* Linkable Monster Generator ( 5 Min.) <- Fire Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948795'; /* Linkable Monster Generator ( 5 Min.) <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948797'; /* Linkable Monster Generator ( 5 Min.) <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2072948745'; /* linkitemgen <- Charred Book */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948779'; /* linkmonstergen5minutes <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948760'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948762'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948761'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948764'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948763'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948766'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948765'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948768'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948767'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948769'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948770'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948771'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948773'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948772'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948775'; /* linkmonstergen5minutes <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948774'; /* linkmonstergen5minutes <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948776'; /* linkmonstergen5minutes <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948736'; /* linkmonstergen5minutes <- Smith Ejan */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948784'; /* linkmonstergen5minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948786'; /* linkmonstergen5minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948785'; /* linkmonstergen5minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948788'; /* linkmonstergen5minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948787'; /* linkmonstergen5minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948790'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948789'; /* linkmonstergen5minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948792'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948791'; /* linkmonstergen5minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948794'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948793'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948796'; /* linkmonstergen5minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948795'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072948797'; /* linkmonstergen5minutes <- Fire Wisp */
 

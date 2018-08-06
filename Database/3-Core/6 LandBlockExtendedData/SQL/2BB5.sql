@@ -7,10 +7,10 @@ VALUES (11392, 1924878341, 733282560, 157.178, 12.4023, 94.005, -0.528559, 0, 0,
      , (11391, 1924878342, 733282577, 180.097, 12.1678, 89.1619, -0.999054, 0, 0, -0.0434793) /* Misha the Jeweler */
      , (412, 1924878338, 733282581, 181.634, 11.05, 89.1669, -0.707107, 0, 0, -0.707107) /* Door */
      , (5777, 1924878346, 733282304, 181.229, 80.8462, 0.005, -0.971316, 0, 0, -0.237791) /* Town Crier */
-     , (5086, 1924878344, 733282304, 179.401, 76.9476, 0.005, -0.162572, 0, 0, 0.986697) /* Linkable Monster Gen - 30 sec. */
+     , (5086, 1924878344, 733282304, 179.401, 76.9476, 0.005, -0.162572, 0, 0, 0.986697) /* linkmonstergen30seconds */
      , (509, 1924878345, 733282304, 155.71, 9.3781, 99.005, 0.27163, 0, 0, -0.962402) /* Life Stone */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1924878344'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1924878344'; /* linkmonstergen30seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924878346'; /* Linkable Monster Gen - 30 sec. <- Town Crier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924878346'; /* linkmonstergen30seconds <- Town Crier */
 

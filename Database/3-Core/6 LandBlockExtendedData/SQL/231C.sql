@@ -8,22 +8,22 @@ VALUES (23567, 1915863059, 589037824, 82.9409, 185.348, 61.605, -0.304696, 0, 0,
      , (24285, 1915863056, 589037568, 22.3832, 182.205, 56.01, -0.802975, 0, 0, -0.596013) /* Raider Juggernaut */
      , (23567, 1915863061, 589037568, 84.7762, 184.946, 71.2065, 0.695009, 0, 0, 0.719001) /* Tumerok War Monger */
      , (24285, 1915863051, 589037568, 82.6049, 180.042, 71.21, -0.956218, 0, 0, 0.292654) /* Raider Juggernaut */
-     , (7924, 1915863062, 589037568, 59.1989, 173.545, 56.005, 0.743286, 0, 0, 0.668973) /* Linkable Monster Generator ( 5 Min.) */
+     , (7924, 1915863062, 589037568, 59.1989, 173.545, 56.005, 0.743286, 0, 0, 0.668973) /* linkmonstergen5minutes */
      , (24285, 1915863063, 589037568, 43.2046, 186.985, 56.01, -0.793724, 0, 0, 0.608278) /* Raider Juggernaut */
      , (24285, 1915863064, 589037568, 42.8089, 174.096, 56.01, -0.616913, 0, 0, 0.787031) /* Raider Juggernaut */
      , (24285, 1915863065, 589037568, 28.3068, 172.725, 56.01, 0.2376, 0, 0, 0.971363) /* Raider Juggernaut */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1915863062'; /* Linkable Monster Generator ( 5 Min.) */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1915863062'; /* linkmonstergen5minutes */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863051'; /* Linkable Monster Generator ( 5 Min.) <- Raider Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863056'; /* Linkable Monster Generator ( 5 Min.) <- Raider Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863057'; /* Linkable Monster Generator ( 5 Min.) <- Raider Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863063'; /* Linkable Monster Generator ( 5 Min.) <- Raider Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863064'; /* Linkable Monster Generator ( 5 Min.) <- Raider Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863065'; /* Linkable Monster Generator ( 5 Min.) <- Raider Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863058'; /* Linkable Monster Generator ( 5 Min.) <- Raider Juggernaut */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863059'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863060'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863061'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863066'; /* Linkable Monster Generator ( 5 Min.) <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863051'; /* linkmonstergen5minutes <- Raider Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863056'; /* linkmonstergen5minutes <- Raider Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863057'; /* linkmonstergen5minutes <- Raider Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863063'; /* linkmonstergen5minutes <- Raider Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863064'; /* linkmonstergen5minutes <- Raider Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863065'; /* linkmonstergen5minutes <- Raider Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863058'; /* linkmonstergen5minutes <- Raider Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863059'; /* linkmonstergen5minutes <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863060'; /* linkmonstergen5minutes <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863061'; /* linkmonstergen5minutes <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915863066'; /* linkmonstergen5minutes <- Tumerok War Monger */
 

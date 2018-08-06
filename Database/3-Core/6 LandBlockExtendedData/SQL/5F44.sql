@@ -36,43 +36,43 @@ VALUES (22477, 1978941440, 1598292225, 0, -30, 0.0132, 0, 0, 0, -1) /* Statue of
      , (22708, 1978941477, 1598292384, 220.084, -112.341, 0.005, -0.0156759, 0, 0, -0.999877) /* Idol of Wishes */
      , (8580, 1978941473, 1598292385, 230.352, -79.5477, 0.005, 1, 0, 0, 0) /* Waterfall */
      , (22500, 1978941474, 1598292386, 230, -91.5, 0.0132, 0, 0, 0, -1) /* Oolutanga, the Tusker King */
-     , (5086, 1978941475, 1598292387, 230.325, -97.5091, 0.005, 0.999993, 0, 0, 0.003737) /* Linkable Monster Gen - 30 sec. */
+     , (5086, 1978941475, 1598292387, 230.325, -97.5091, 0.005, 0.999993, 0, 0, 0.003737) /* linkmonstergen30seconds */
      , (278, 1978941476, 1598292390, 230, -125.25, 0, 1, 0, 0, 0) /* Door */
      , (22685, 1978941478, 1598292394, 239.477, -112.149, 0.005, 0.0427559, 0, 0, -0.999086) /* Surface */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1978941475'; /* Linkable Monster Gen - 30 sec. */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1978941475'; /* linkmonstergen30seconds */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941474'; /* Linkable Monster Gen - 30 sec. <- Oolutanga, the Tusker King */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941452'; /* Linkable Monster Gen - 30 sec. <- Statue of Alchemical Wishes */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941453'; /* Linkable Monster Gen - 30 sec. <- Statue of Armor Tinker's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941445'; /* Linkable Monster Gen - 30 sec. <- Statue of Scholarly Wishes */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941441'; /* Linkable Monster Gen - 30 sec. <- Statue of Axer's Wishes */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941460'; /* Linkable Monster Gen - 30 sec. <- Statue of Thrower's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941454'; /* Linkable Monster Gen - 30 sec. <- Statue of Cook's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941446'; /* Linkable Monster Gen - 30 sec. <- Statue of Bowman's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941467'; /* Linkable Monster Gen - 30 sec. <- Statue of Crossbowman's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941461'; /* Linkable Monster Gen - 30 sec. <- Statue of Enchanter's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941442'; /* Linkable Monster Gen - 30 sec. <- Statue of Fletcher's Dreams */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941440'; /* Linkable Monster Gen - 30 sec. <- Statue of Knifer's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941455'; /* Linkable Monster Gen - 30 sec. <- Statue of Artificer's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941447'; /* Linkable Monster Gen - 30 sec. <- Statue of Healer's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941468'; /* Linkable Monster Gen - 30 sec. <- Statue of Leaper's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941462'; /* Linkable Monster Gen - 30 sec. <- Statue of Item Tinker's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941443'; /* Linkable Monster Gen - 30 sec. <- Statue of Lockpicker's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941471'; /* Linkable Monster Gen - 30 sec. <- Statue of Life Giver's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941456'; /* Linkable Monster Gen - 30 sec. <- Statue of Resistance Wishes */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941449'; /* Linkable Monster Gen - 30 sec. <- Statue of Macer's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941469'; /* Linkable Monster Gen - 30 sec. <- Statue of Archmage's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941464'; /* Linkable Monster Gen - 30 sec. <- Statue of Magic Tinker's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941450'; /* Linkable Monster Gen - 30 sec. <- Statue of Dodge Wishes */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941444'; /* Linkable Monster Gen - 30 sec. <- Statue of Evasive Wishes */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941465'; /* Linkable Monster Gen - 30 sec. <- Statue of Spearman's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941457'; /* Linkable Monster Gen - 30 sec. <- Statue of Sprinter's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941451'; /* Linkable Monster Gen - 30 sec. <- Statue of Swordsman's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941470'; /* Linkable Monster Gen - 30 sec. <- Statue of Staffer's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941466'; /* Linkable Monster Gen - 30 sec. <- Statue of Sorcerer's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941458'; /* Linkable Monster Gen - 30 sec. <- Statue of Brawler's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941463'; /* Linkable Monster Gen - 30 sec. <- Statue of Greedy Wishes */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941459'; /* Linkable Monster Gen - 30 sec. <- Statue of Weapon Tinker's Wish */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941448'; /* Linkable Monster Gen - 30 sec. <- Statue of Greedy Wishes */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941474'; /* linkmonstergen30seconds <- Oolutanga, the Tusker King */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941452'; /* linkmonstergen30seconds <- Statue of Alchemical Wishes */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941453'; /* linkmonstergen30seconds <- Statue of Armor Tinker's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941445'; /* linkmonstergen30seconds <- Statue of Scholarly Wishes */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941441'; /* linkmonstergen30seconds <- Statue of Axer's Wishes */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941460'; /* linkmonstergen30seconds <- Statue of Thrower's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941454'; /* linkmonstergen30seconds <- Statue of Cook's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941446'; /* linkmonstergen30seconds <- Statue of Bowman's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941467'; /* linkmonstergen30seconds <- Statue of Crossbowman's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941461'; /* linkmonstergen30seconds <- Statue of Enchanter's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941442'; /* linkmonstergen30seconds <- Statue of Fletcher's Dreams */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941440'; /* linkmonstergen30seconds <- Statue of Knifer's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941455'; /* linkmonstergen30seconds <- Statue of Artificer's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941447'; /* linkmonstergen30seconds <- Statue of Healer's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941468'; /* linkmonstergen30seconds <- Statue of Leaper's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941462'; /* linkmonstergen30seconds <- Statue of Item Tinker's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941443'; /* linkmonstergen30seconds <- Statue of Lockpicker's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941471'; /* linkmonstergen30seconds <- Statue of Life Giver's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941456'; /* linkmonstergen30seconds <- Statue of Resistance Wishes */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941449'; /* linkmonstergen30seconds <- Statue of Macer's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941469'; /* linkmonstergen30seconds <- Statue of Archmage's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941464'; /* linkmonstergen30seconds <- Statue of Magic Tinker's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941450'; /* linkmonstergen30seconds <- Statue of Dodge Wishes */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941444'; /* linkmonstergen30seconds <- Statue of Evasive Wishes */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941465'; /* linkmonstergen30seconds <- Statue of Spearman's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941457'; /* linkmonstergen30seconds <- Statue of Sprinter's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941451'; /* linkmonstergen30seconds <- Statue of Swordsman's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941470'; /* linkmonstergen30seconds <- Statue of Staffer's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941466'; /* linkmonstergen30seconds <- Statue of Sorcerer's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941458'; /* linkmonstergen30seconds <- Statue of Brawler's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941463'; /* linkmonstergen30seconds <- Statue of Greedy Wishes */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941459'; /* linkmonstergen30seconds <- Statue of Weapon Tinker's Wish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978941448'; /* linkmonstergen30seconds <- Statue of Greedy Wishes */
 
