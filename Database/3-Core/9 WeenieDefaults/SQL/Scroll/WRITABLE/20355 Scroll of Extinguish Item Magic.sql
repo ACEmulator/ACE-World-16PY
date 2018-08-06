@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Extinguish Item Magic (20355) */
-DELETE FROM weenie WHERE class_Id = 20355;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20355, 'scrolldispelitemneutralother2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20355, 001 /* NAME_STRING */, 'Scroll of Extinguish Item Magic')
-     , (20355, 015 /* SHORT_DESC_STRING */, 'When learned, this spell dispels 3-6 negative Item Magic enchantments of level 2 or lower from the target.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20355, 001 /* SETUP_DID */, 33554826)
-     , (20355, 008 /* ICON_DID */, 100676659)
-     , (20355, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20355, 028 /* SPELL_DID */, 1927 /* DispelItemBadOther2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20355', 'scrolldispelitemneutralother2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20355, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20355, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20355, 008 /* MASS_INT */, 90)
-     , (20355, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20355, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20355, 019 /* VALUE_INT */, 5)
-     , (20355, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20355, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20355,   1,       8192) /* ItemType - Writable */
+     , (20355,   5,         30) /* EncumbranceVal */
+     , (20355,   8,         90) /* Mass */
+     , (20355,   9,          0) /* ValidLocations - None */
+     , (20355,  16,          8) /* ItemUseable - Contained */
+     , (20355,  19,          5) /* Value */
+     , (20355,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20355, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20355, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20355,  22, True ) /* Inscribable */
+     , (20355,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20355,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20355,   1, 'Scroll of Extinguish Item Magic') /* Name */
+     , (20355,  15, 'When learned, this spell dispels 3-6 negative Item Magic enchantments of level 2 or lower from the target.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20355,   1,   33554826) /* Setup */
+     , (20355,   8,  100676659) /* Icon */
+     , (20355,  22,  872415275) /* PhysicsEffectTable */
+     , (20355,  28,       1927) /* Spell - Extinguish Item Magic */;

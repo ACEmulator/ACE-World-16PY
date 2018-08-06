@@ -1,51 +1,47 @@
-/* Weenie - Studded Leather Cowl (723) */
-DELETE FROM weenie WHERE class_Id = 723;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (723, 'cowlstuddedleather', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (723, 001 /* NAME_STRING */, 'Studded Leather Cowl');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (723, 001 /* SETUP_DID */, 33555048)
-     , (723, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (723, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (723, 007 /* CLOTHINGBASE_DID */, 268435466)
-     , (723, 008 /* ICON_DID */, 100667323)
-     , (723, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (723, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (723, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('723', 'cowlstuddedleather', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (723, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (723, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (723, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (723, 005 /* ENCUMB_VAL_INT */, 255)
-     , (723, 008 /* MASS_INT */, 90)
-     , (723, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (723, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (723, 019 /* VALUE_INT */, 110)
-     , (723, 027 /* ARMOR_TYPE_INT */, 2)
-     , (723, 028 /* ARMOR_LEVEL_INT */, 30)
-     , (723, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (723, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (723, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (723, 169 /* TSYS_MUTATION_DATA_INT */, 168493326);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (723, 012 /* SHADE_FLOAT */, 0.66)
-     , (723, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
-     , (723, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.1)
-     , (723, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (723, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (723, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (723, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (723, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2)
-     , (723, 110 /* BULK_MOD_FLOAT */, 1.5)
-     , (723, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (723,   1,          2) /* ItemType - Armor */
+     , (723,   3,          4) /* PaletteTemplate - Brown */
+     , (723,   4,      16384) /* ClothingPriority - Head */
+     , (723,   5,        255) /* EncumbranceVal */
+     , (723,   8,         90) /* Mass */
+     , (723,   9,          1) /* ValidLocations - HeadWear */
+     , (723,  16,          1) /* ItemUseable - No */
+     , (723,  19,        110) /* Value */
+     , (723,  27,          2) /* ArmorType */
+     , (723,  28,         30) /* ArmorLevel */
+     , (723,  93,       1044) /* PhysicsState */
+     , (723, 150,        103) /* HookPlacement - Hook */
+     , (723, 151,          2) /* HookType - Wall */
+     , (723, 169,  168493326) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (723, 022 /* INSCRIBABLE_BOOL */, True)
-     , (723, 100 /* DYABLE_BOOL */, True);
+VALUES (723,  22, True ) /* Inscribable */
+     , (723, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (723,  12,    0.66) /* Shade */
+     , (723,  13,     1.2) /* ArmorModVsSlash */
+     , (723,  14,     1.1) /* ArmorModVsPierce */
+     , (723,  15,       1) /* ArmorModVsBludgeon */
+     , (723,  16,     0.2) /* ArmorModVsCold */
+     , (723,  17,     0.2) /* ArmorModVsFire */
+     , (723,  18,     0.1) /* ArmorModVsAcid */
+     , (723,  19,     0.2) /* ArmorModVsElectric */
+     , (723, 110,     1.5) /* BulkMod */
+     , (723, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (723,   1, 'Studded Leather Cowl') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (723,   1,   33555048) /* Setup */
+     , (723,   3,  536870932) /* SoundTable */
+     , (723,   6,   67108990) /* PaletteBase */
+     , (723,   7,  268435466) /* ClothingBase */
+     , (723,   8,  100667323) /* Icon */
+     , (723,  22,  872415275) /* PhysicsEffectTable */
+     , (723,  36,  234881042) /* MutateFilter */
+     , (723,  46,  939524146) /* TsysMutationFilter */;

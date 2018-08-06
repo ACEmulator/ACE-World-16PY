@@ -1,34 +1,30 @@
-/* Weenie - Yellow Ball (22453) */
-DELETE FROM weenie WHERE class_Id = 22453;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22453, 'ballyellow', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22453, 001 /* NAME_STRING */, 'Yellow Ball')
-     , (22453, 015 /* SHORT_DESC_STRING */, 'One of Bobo''s sons desires this ball.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22453, 001 /* SETUP_DID */, 33554669)
-     , (22453, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22453, 006 /* PALETTE_BASE_DID */, 67111928)
-     , (22453, 007 /* CLOTHINGBASE_DID */, 268435751)
-     , (22453, 008 /* ICON_DID */, 100668722)
-     , (22453, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22453', 'ballyellow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22453, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22453, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (22453, 005 /* ENCUMB_VAL_INT */, 50)
-     , (22453, 008 /* MASS_INT */, 50)
-     , (22453, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22453, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22453, 019 /* VALUE_INT */, 0)
-     , (22453, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22453, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22453, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (22453,   1,        128) /* ItemType - Misc */
+     , (22453,   3,         21) /* PaletteTemplate - Gold */
+     , (22453,   5,         50) /* EncumbranceVal */
+     , (22453,   8,         50) /* Mass */
+     , (22453,   9,          0) /* ValidLocations - None */
+     , (22453,  16,          1) /* ItemUseable - No */
+     , (22453,  19,          0) /* Value */
+     , (22453,  33,          1) /* Bonded - Bonded */
+     , (22453,  93,       1044) /* PhysicsState */
+     , (22453, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22453, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22453, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (22453,  22, True ) /* Inscribable */
+     , (22453,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22453,   1, 'Yellow Ball') /* Name */
+     , (22453,  15, 'One of Bobo''s sons desires this ball.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22453,   1,   33554669) /* Setup */
+     , (22453,   3,  536870932) /* SoundTable */
+     , (22453,   6,   67111928) /* PaletteBase */
+     , (22453,   7,  268435751) /* ClothingBase */
+     , (22453,   8,  100668722) /* Icon */
+     , (22453,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,36 +1,32 @@
-/* Weenie - Eternal Mana Kit (30248) */
-DELETE FROM weenie WHERE class_Id = 30248;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30248, 'healingkitrareeternalmana', 28 /* Healer_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30248, 001 /* NAME_STRING */, 'Eternal Mana Kit')
-     , (30248, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30248, 001 /* SETUP_DID */, 33555194)
-     , (30248, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (30248, 007 /* CLOTHINGBASE_DID */, 268436502)
-     , (30248, 008 /* ICON_DID */, 100676336);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30248', 'healingkitrareeternalmana', 28) /* Healer */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30248, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (30248, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30248, 008 /* MASS_INT */, 5)
-     , (30248, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30248, 016 /* ITEM_USEABLE_INT */, 2228232 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE_OR_SELF */)
-     , (30248, 019 /* VALUE_INT */, 0)
-     , (30248, 089 /* BOOSTER_ENUM_INT */, 6 /* MANA_ATTRIBUTE_2ND */)
-     , (30248, 090 /* BOOST_VALUE_INT */, 0)
-     , (30248, 091 /* MAX_STRUCTURE_INT */, 25)
-     , (30248, 092 /* STRUCTURE_INT */, 25)
-     , (30248, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30248, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30248, 100 /* HEALKIT_MOD_FLOAT */, 1);
+VALUES (30248,   1,        128) /* ItemType - Misc */
+     , (30248,   5,          5) /* EncumbranceVal */
+     , (30248,   8,          5) /* Mass */
+     , (30248,   9,          0) /* ValidLocations - None */
+     , (30248,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
+     , (30248,  19,          0) /* Value */
+     , (30248,  89,          6) /* BoosterEnum - Mana */
+     , (30248,  90,          0) /* BoostValue */
+     , (30248,  91,         25) /* MaxStructure */
+     , (30248,  92,         25) /* Structure */
+     , (30248,  93,       1044) /* PhysicsState */
+     , (30248,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30248, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30248,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30248, 100,       1) /* HealkitMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30248,   1, 'Eternal Mana Kit') /* Name */
+     , (30248,  16, 'A lovely template for a rare.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30248,   1,   33555194) /* Setup */
+     , (30248,   6,   67111092) /* PaletteBase */
+     , (30248,   7,  268436502) /* ClothingBase */
+     , (30248,   8,  100676336) /* Icon */;

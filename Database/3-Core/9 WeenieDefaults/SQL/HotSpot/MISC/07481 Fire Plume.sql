@@ -1,43 +1,39 @@
-/* Weenie - Fire Plume (7481) */
-DELETE FROM weenie WHERE class_Id = 7481;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7481, 'fireplume', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7481, 001 /* NAME_STRING */, 'Fire Plume')
-     , (7481, 017 /* ACTIVATION_TALK_STRING */, 'You suffer %i damage from the plume of fire.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7481, 001 /* SETUP_DID */, 33556686)
-     , (7481, 003 /* SOUND_TABLE_DID */, 536870994)
-     , (7481, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7481', 'fireplume', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7481, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (7481, 005 /* ENCUMB_VAL_INT */, 1)
-     , (7481, 008 /* MASS_INT */, 1)
-     , (7481, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7481, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7481, 019 /* VALUE_INT */, 1)
-     , (7481, 044 /* DAMAGE_INT */, 15)
-     , (7481, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (7481, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (7481, 119 /* ACTIVE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7481, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (7481, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (7481, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 5)
-     , (7481, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0.4);
+VALUES (7481,   1,        128) /* ItemType - Misc */
+     , (7481,   5,          1) /* EncumbranceVal */
+     , (7481,   8,          1) /* Mass */
+     , (7481,   9,          0) /* ValidLocations - None */
+     , (7481,  16,          1) /* ItemUseable - No */
+     , (7481,  19,          1) /* Value */
+     , (7481,  44,         15) /* Damage */
+     , (7481,  45,         16) /* DamageType - Fire */
+     , (7481,  93,         12) /* PhysicsState */
+     , (7481, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7481, 001 /* STUCK_BOOL */, True)
-     , (7481, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (7481, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (7481, 013 /* ETHEREAL_BOOL */, True)
-     , (7481, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (7481, 024 /* UI_HIDDEN_BOOL */, True)
-     , (7481, 055 /* IS_HOT_BOOL */, True)
-     , (7481, 057 /* AFFECTS_AIS_BOOL */, False);
+VALUES (7481,   1, True ) /* Stuck */
+     , (7481,  11, False) /* IgnoreCollisions */
+     , (7481,  12, True ) /* ReportCollisions */
+     , (7481,  13, True ) /* Ethereal */
+     , (7481,  14, False) /* GravityStatus */
+     , (7481,  24, True ) /* UiHidden */
+     , (7481,  55, True ) /* IsHot */
+     , (7481,  57, False) /* AffectsAis */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7481,  22,     0.5) /* DamageVariance */
+     , (7481,  39,       1) /* DefaultScale */
+     , (7481, 105,       5) /* HotspotCycleTime */
+     , (7481, 106,     0.4) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7481,   1, 'Fire Plume') /* Name */
+     , (7481,  17, 'You suffer %i damage from the plume of fire.') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7481,   1,   33556686) /* Setup */
+     , (7481,   3,  536870994) /* SoundTable */
+     , (7481,   8,  100667465) /* Icon */;

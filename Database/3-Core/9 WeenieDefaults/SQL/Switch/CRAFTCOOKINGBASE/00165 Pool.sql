@@ -1,37 +1,33 @@
-/* Weenie - Pool (165) */
-DELETE FROM weenie WHERE class_Id = 165;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (165, 'pool', 26 /* Switch_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (165, 001 /* NAME_STRING */, 'Pool')
-     , (165, 014 /* USE_STRING */, 'Use an empty flask on the pool to fill it with water.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (165, 001 /* SETUP_DID */, 33554711)
-     , (165, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (165, 008 /* ICON_DID */, 100668107)
-     , (165, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (165, 028 /* SPELL_DID */, 1183 /* RevitalizeOther1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('165', 'pool', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (165, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (165, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (165, 008 /* MASS_INT */, 3000)
-     , (165, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (165, 019 /* VALUE_INT */, 200)
-     , (165, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
-     , (165, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (165, 119 /* ACTIVE_INT */, 1);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (165, 011 /* RESET_INTERVAL_FLOAT */, 10)
-     , (165, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (165, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (165,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (165,   5,       6000) /* EncumbranceVal */
+     , (165,   8,       3000) /* Mass */
+     , (165,  16,         48) /* ItemUseable - ViewedRemote */
+     , (165,  19,        200) /* Value */
+     , (165,  83,       4096) /* ActivationResponse - CastSpell */
+     , (165,  93,       1048) /* PhysicsState */
+     , (165, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (165, 001 /* STUCK_BOOL */, True)
-     , (165, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (165, 013 /* ETHEREAL_BOOL */, False);
+VALUES (165,   1, True ) /* Stuck */
+     , (165,  12, True ) /* ReportCollisions */
+     , (165,  13, False) /* Ethereal */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (165,  11,      10) /* ResetInterval */
+     , (165,  39,       1) /* DefaultScale */
+     , (165,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (165,   1, 'Pool') /* Name */
+     , (165,  14, 'Use an empty flask on the pool to fill it with water.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (165,   1,   33554711) /* Setup */
+     , (165,   3,  536870932) /* SoundTable */
+     , (165,   8,  100668107) /* Icon */
+     , (165,  22,  872415275) /* PhysicsEffectTable */
+     , (165,  28,       1183) /* Spell - Revitalize Other I */;

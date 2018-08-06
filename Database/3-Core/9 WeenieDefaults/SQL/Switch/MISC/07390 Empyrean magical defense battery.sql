@@ -1,39 +1,35 @@
-/* Weenie - Empyrean magical defense battery (7390) */
-DELETE FROM weenie WHERE class_Id = 7390;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7390, 'trapshockwavestrike', 26 /* Switch_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7390, 001 /* NAME_STRING */, 'Empyrean magical defense battery')
-     , (7390, 022 /* ACTIVATION_FAILURE_STRING */, 'You hear a rising hum, as if something were rapidly recharging.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7390, 001 /* SETUP_DID */, 33554667)
-     , (7390, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7390, 008 /* ICON_DID */, 100667494)
-     , (7390, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (7390, 028 /* SPELL_DID */, 1838 /* ShockwaveStrike_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7390', 'trapshockwavestrike', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7390, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (7390, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (7390, 008 /* MASS_INT */, 3000)
-     , (7390, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7390, 019 /* VALUE_INT */, 200)
-     , (7390, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
-     , (7390, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
-     , (7390, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (7390, 119 /* ACTIVE_INT */, 1)
-     , (7390, 134 /* PLAYER_KILLER_STATUS_INT */, 8 /* Creature_PKStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7390, 011 /* RESET_INTERVAL_FLOAT */, 20);
+VALUES (7390,   1,        128) /* ItemType - Misc */
+     , (7390,   5,       6000) /* EncumbranceVal */
+     , (7390,   8,       3000) /* Mass */
+     , (7390,  16,          1) /* ItemUseable - No */
+     , (7390,  19,        200) /* Value */
+     , (7390,  83,       4096) /* ActivationResponse - CastSpell */
+     , (7390,  93,         20) /* PhysicsState */
+     , (7390, 106,        100) /* ItemSpellcraft */
+     , (7390, 119,          1) /* Active */
+     , (7390, 134,          8) /* PlayerKillerStatus - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7390, 001 /* STUCK_BOOL */, True)
-     , (7390, 012 /* REPORT_COLLISIONS_BOOL */, False)
-     , (7390, 013 /* ETHEREAL_BOOL */, True)
-     , (7390, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (7390, 018 /* VISIBILITY_BOOL */, True);
+VALUES (7390,   1, True ) /* Stuck */
+     , (7390,  12, False) /* ReportCollisions */
+     , (7390,  13, True ) /* Ethereal */
+     , (7390,  14, False) /* GravityStatus */
+     , (7390,  18, True ) /* Visibility */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7390,  11,      20) /* ResetInterval */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7390,   1, 'Empyrean magical defense battery') /* Name */
+     , (7390,  22, 'You hear a rising hum, as if something were rapidly recharging.') /* ActivationFailure */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7390,   1,   33554667) /* Setup */
+     , (7390,   3,  536870932) /* SoundTable */
+     , (7390,   8,  100667494) /* Icon */
+     , (7390,  22,  872415275) /* PhysicsEffectTable */
+     , (7390,  28,       1838) /* Spell - Stone Fists */;

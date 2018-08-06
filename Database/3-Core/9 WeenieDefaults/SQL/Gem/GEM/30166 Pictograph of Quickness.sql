@@ -1,41 +1,37 @@
-/* Weenie - Pictograph of Quickness (30166) */
-DELETE FROM weenie WHERE class_Id = 30166;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30166, 'gemrareeternalquickness', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30166, 001 /* NAME_STRING */, 'Pictograph of Quickness')
-     , (30166, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30166, 001 /* SETUP_DID */, 33554809)
-     , (30166, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30166, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30166, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (30166, 008 /* ICON_DID */, 100674739)
-     , (30166, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30166, 028 /* SPELL_DID */, 2081 /* QuicknessSelf7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30166', 'gemrareeternalquickness', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30166, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (30166, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (30166, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30166, 008 /* MASS_INT */, 5)
-     , (30166, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30166, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30166, 012 /* STACK_SIZE_INT */, 1)
-     , (30166, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30166, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30166, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30166, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30166, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (30166, 019 /* VALUE_INT */, 0)
-     , (30166, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30166, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30166, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30166, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30166,   1,       2048) /* ItemType - Gem */
+     , (30166,   3,         39) /* PaletteTemplate - Black */
+     , (30166,   5,          5) /* EncumbranceVal */
+     , (30166,   8,          5) /* Mass */
+     , (30166,   9,          0) /* ValidLocations - None */
+     , (30166,  11,          1) /* MaxStackSize */
+     , (30166,  12,          1) /* StackSize */
+     , (30166,  13,          5) /* StackUnitEncumbrance */
+     , (30166,  14,          5) /* StackUnitMass */
+     , (30166,  15,          0) /* StackUnitValue */
+     , (30166,  16,          8) /* ItemUseable - Contained */
+     , (30166,  18,          1) /* UiEffects - Magical */
+     , (30166,  19,          0) /* Value */
+     , (30166,  93,       1044) /* PhysicsState */
+     , (30166,  94,         16) /* TargetType - Creature */
+     , (30166, 150,        103) /* HookPlacement - Hook */
+     , (30166, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30166, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30166,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30166,   1, 'Pictograph of Quickness') /* Name */
+     , (30166,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30166,   1,   33554809) /* Setup */
+     , (30166,   3,  536870932) /* SoundTable */
+     , (30166,   6,   67111919) /* PaletteBase */
+     , (30166,   7,  268435723) /* ClothingBase */
+     , (30166,   8,  100674739) /* Icon */
+     , (30166,  22,  872415275) /* PhysicsEffectTable */
+     , (30166,  28,       2081) /* Spell - Hastening */;

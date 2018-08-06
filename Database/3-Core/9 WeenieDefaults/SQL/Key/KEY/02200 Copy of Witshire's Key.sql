@@ -1,34 +1,30 @@
-/* Weenie - Copy of Witshire's Key (2200) */
-DELETE FROM weenie WHERE class_Id = 2200;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2200, 'keywitshire', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2200, 001 /* NAME_STRING */, 'Copy of Witshire''s Key')
-     , (2200, 013 /* KEY_CODE_STRING */, 'keywitshire')
-     , (2200, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (2200, 015 /* SHORT_DESC_STRING */, 'A plain, simple key.')
-     , (2200, 016 /* LONG_DESC_STRING */, 'A plain, simple key.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2200, 001 /* SETUP_DID */, 33554784)
-     , (2200, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2200, 008 /* ICON_DID */, 100667486)
-     , (2200, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2200', 'keywitshire', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2200, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (2200, 005 /* ENCUMB_VAL_INT */, 50)
-     , (2200, 008 /* MASS_INT */, 20)
-     , (2200, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (2200, 019 /* VALUE_INT */, 0)
-     , (2200, 091 /* MAX_STRUCTURE_INT */, 5)
-     , (2200, 092 /* STRUCTURE_INT */, 5)
-     , (2200, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2200, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (2200,   1,      16384) /* ItemType - Key */
+     , (2200,   5,         50) /* EncumbranceVal */
+     , (2200,   8,         20) /* Mass */
+     , (2200,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (2200,  19,          0) /* Value */
+     , (2200,  91,          5) /* MaxStructure */
+     , (2200,  92,          5) /* Structure */
+     , (2200,  93,       1044) /* PhysicsState */
+     , (2200,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2200, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2200, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2200,  22, True ) /* Inscribable */
+     , (2200,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2200,   1, 'Copy of Witshire''s Key') /* Name */
+     , (2200,  13, 'keywitshire') /* KeyCode */
+     , (2200,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (2200,  15, 'A plain, simple key.') /* ShortDesc */
+     , (2200,  16, 'A plain, simple key.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2200,   1,   33554784) /* Setup */
+     , (2200,   3,  536870932) /* SoundTable */
+     , (2200,   8,  100667486) /* Icon */
+     , (2200,  22,  872415275) /* PhysicsEffectTable */;

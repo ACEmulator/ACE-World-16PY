@@ -1,57 +1,53 @@
-/* Weenie - Shroud of Levistras (12269) */
-DELETE FROM weenie WHERE class_Id = 12269;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12269, 'shroudvirindilevistras', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12269, 001 /* NAME_STRING */, 'Shroud of Levistras')
-     , (12269, 015 /* SHORT_DESC_STRING */, 'The wrappings of the Virindi Director Levistras.')
-     , (12269, 016 /* LONG_DESC_STRING */, 'The wrappings of the Virindi Director Levistras.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12269, 001 /* SETUP_DID */, 33554854)
-     , (12269, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12269, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (12269, 007 /* CLOTHINGBASE_DID */, 268436277)
-     , (12269, 008 /* ICON_DID */, 100672193)
-     , (12269, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12269', 'shroudvirindilevistras', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12269, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (12269, 003 /* PALETTE_TEMPLATE_INT */, 3 /* BLUEPURPLE_PALETTE_TEMPLATE */)
-     , (12269, 004 /* CLOTHING_PRIORITY_INT */, 81664 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */)
-     , (12269, 005 /* ENCUMB_VAL_INT */, 250)
-     , (12269, 008 /* MASS_INT */, 150)
-     , (12269, 009 /* LOCATIONS_INT */, 32512 /* FOOT_WEAR_LOC, ARMOR_LOC */)
-     , (12269, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12269, 019 /* VALUE_INT */, 7500)
-     , (12269, 027 /* ARMOR_TYPE_INT */, 1)
-     , (12269, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (12269, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12269, 106 /* ITEM_SPELLCRAFT_INT */, 220)
-     , (12269, 107 /* ITEM_CUR_MANA_INT */, 900)
-     , (12269, 108 /* ITEM_MAX_MANA_INT */, 900)
-     , (12269, 109 /* ITEM_DIFFICULTY_INT */, 220);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12269, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (12269, 012 /* SHADE_FLOAT */, 0)
-     , (12269, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (12269, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (12269, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
-     , (12269, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (12269, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (12269, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.4)
-     , (12269, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6);
+VALUES (12269,   1,          4) /* ItemType - Clothing */
+     , (12269,   3,          3) /* PaletteTemplate - BluePurple */
+     , (12269,   4,      81664) /* ClothingPriority */
+     , (12269,   5,        250) /* EncumbranceVal */
+     , (12269,   8,        150) /* Mass */
+     , (12269,   9,      32512) /* ValidLocations - Armor */
+     , (12269,  16,          1) /* ItemUseable - No */
+     , (12269,  19,       7500) /* Value */
+     , (12269,  27,          1) /* ArmorType */
+     , (12269,  28,          0) /* ArmorLevel */
+     , (12269,  93,       1044) /* PhysicsState */
+     , (12269, 106,        220) /* ItemSpellcraft */
+     , (12269, 107,        900) /* ItemCurMana */
+     , (12269, 108,        900) /* ItemMaxMana */
+     , (12269, 109,        220) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12269, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12269, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (12269,  22, True ) /* Inscribable */
+     , (12269,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12269,   5,   -0.05) /* ManaRate */
+     , (12269,  12,       0) /* Shade */
+     , (12269,  13,       1) /* ArmorModVsSlash */
+     , (12269,  14,     0.8) /* ArmorModVsPierce */
+     , (12269,  15,     0.8) /* ArmorModVsBludgeon */
+     , (12269,  16,     0.8) /* ArmorModVsCold */
+     , (12269,  17,     0.4) /* ArmorModVsFire */
+     , (12269,  18,     0.4) /* ArmorModVsAcid */
+     , (12269,  19,     0.6) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12269,   1, 'Shroud of Levistras') /* Name */
+     , (12269,  15, 'The wrappings of the Virindi Director Levistras.') /* ShortDesc */
+     , (12269,  16, 'The wrappings of the Virindi Director Levistras.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12269,   1,   33554854) /* Setup */
+     , (12269,   3,  536870932) /* SoundTable */
+     , (12269,   6,   67108990) /* PaletteBase */
+     , (12269,   7,  268436277) /* ClothingBase */
+     , (12269,   8,  100672193) /* Icon */
+     , (12269,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12269, 1485, 2) /* Impenetrability5_SpellID */
-     , (12269, 279, 2) /* MagicResistanceSelf6_SpellID */
-     , (12269, 1449, 2) /* WillpowerSelf5_SpellID */
-     , (12269, 249, 2) /* InvulnerabilitySelf6_SpellID */;
-
+VALUES (12269,   249,      2)  /* Invulnerability Self VI */
+     , (12269,   279,      2)  /* Magic Resistance Self VI */
+     , (12269,  1449,      2)  /* Willpower Self V */
+     , (12269,  1485,      2)  /* Impenetrability V */;

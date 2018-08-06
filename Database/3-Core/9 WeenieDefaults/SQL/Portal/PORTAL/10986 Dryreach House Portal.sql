@@ -1,35 +1,31 @@
-/* Weenie - Dryreach House Portal (10986) */
-DELETE FROM weenie WHERE class_Id = 10986;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10986, 'portalhousedryreach-xp', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10986, 001 /* NAME_STRING */, 'Dryreach House Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10986, 001 /* SETUP_DID */, 33555923)
-     , (10986, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (10986, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10986', 'portalhousedryreach-xp', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10986, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (10986, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (10986, 086 /* MIN_LEVEL_INT */, 12)
-     , (10986, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (10986, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (10986, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10986, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (10986,   1,      65536) /* ItemType - Portal */
+     , (10986,  16,         32) /* ItemUseable - Remote */
+     , (10986,  86,         12) /* MinLevel */
+     , (10986,  93,       3084) /* PhysicsState */
+     , (10986, 111,          1) /* PortalBitmask - Unrestricted */
+     , (10986, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10986, 001 /* STUCK_BOOL */, True)
-     , (10986, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (10986, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (10986, 013 /* ETHEREAL_BOOL */, True)
-     , (10986, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (10986,   1, True ) /* Stuck */
+     , (10986,  11, False) /* IgnoreCollisions */
+     , (10986,  12, True ) /* ReportCollisions */
+     , (10986,  13, True ) /* Ethereal */
+     , (10986,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10986,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10986,   1, 'Dryreach House Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10986,   1,   33555923) /* Setup */
+     , (10986,   2,  150994947) /* MotionTable */
+     , (10986,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10986, 2, 3681878075, 186, 65, 36, -0.7518399, 0, 0, -0.6593457) /* DESTINATION_POSITION */;
-
+VALUES (10986, 2, 3681878075, 186, 65, 36, -0.7518399, 0, 0, -0.6593457) /* Destination */;

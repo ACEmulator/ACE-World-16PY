@@ -1,40 +1,36 @@
-/* Weenie - Hearty Carrot Cake (5814) */
-DELETE FROM weenie WHERE class_Id = 5814;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5814, 'heartycarrotcake', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5814, 001 /* NAME_STRING */, 'Hearty Carrot Cake')
-     , (5814, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5814, 015 /* SHORT_DESC_STRING */, 'Moist, sweet carrot cake.')
-     , (5814, 020 /* PLURAL_NAME_STRING */, 'Hearty Carrot Cakes');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5814, 001 /* SETUP_DID */, 33555193)
-     , (5814, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5814, 006 /* PALETTE_BASE_DID */, 67111928)
-     , (5814, 007 /* CLOTHINGBASE_DID */, 268435860)
-     , (5814, 008 /* ICON_DID */, 100670292)
-     , (5814, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5814', 'heartycarrotcake', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5814, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5814, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5814, 008 /* MASS_INT */, 25)
-     , (5814, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5814, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5814, 012 /* STACK_SIZE_INT */, 1)
-     , (5814, 013 /* STACK_UNIT_ENCUMB_INT */, 25)
-     , (5814, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (5814, 015 /* STACK_UNIT_VALUE_INT */, 85)
-     , (5814, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5814, 018 /* UI_EFFECTS_INT */, 16 /* UI_EFFECT_BOOST_STAMINA */)
-     , (5814, 019 /* VALUE_INT */, 85)
-     , (5814, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (5814, 090 /* BOOST_VALUE_INT */, 35)
-     , (5814, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5814,   1,         32) /* ItemType - Food */
+     , (5814,   5,         25) /* EncumbranceVal */
+     , (5814,   8,         25) /* Mass */
+     , (5814,   9,          0) /* ValidLocations - None */
+     , (5814,  11,        100) /* MaxStackSize */
+     , (5814,  12,          1) /* StackSize */
+     , (5814,  13,         25) /* StackUnitEncumbrance */
+     , (5814,  14,         25) /* StackUnitMass */
+     , (5814,  15,         85) /* StackUnitValue */
+     , (5814,  16,          8) /* ItemUseable - Contained */
+     , (5814,  18,         16) /* UiEffects - BoostStamina */
+     , (5814,  19,         85) /* Value */
+     , (5814,  89,          4) /* BoosterEnum - Stamina */
+     , (5814,  90,         35) /* BoostValue */
+     , (5814,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5814, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5814,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5814,   1, 'Hearty Carrot Cake') /* Name */
+     , (5814,  14, 'Use this item to eat it.') /* Use */
+     , (5814,  15, 'Moist, sweet carrot cake.') /* ShortDesc */
+     , (5814,  20, 'Hearty Carrot Cakes') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5814,   1,   33555193) /* Setup */
+     , (5814,   3,  536870932) /* SoundTable */
+     , (5814,   6,   67111928) /* PaletteBase */
+     , (5814,   7,  268435860) /* ClothingBase */
+     , (5814,   8,  100670292) /* Icon */
+     , (5814,  22,  872415275) /* PhysicsEffectTable */;

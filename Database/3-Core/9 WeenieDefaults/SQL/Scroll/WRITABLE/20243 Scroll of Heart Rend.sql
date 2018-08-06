@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Heart Rend (20243) */
-DELETE FROM weenie WHERE class_Id = 20243;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20243, 'scrollharmother7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20243, 001 /* NAME_STRING */, 'Scroll of Heart Rend')
-     , (20243, 015 /* SHORT_DESC_STRING */, 'When learned, this spell drains 40-75 points of the target''s Health.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20243, 001 /* SETUP_DID */, 33554826)
-     , (20243, 008 /* ICON_DID */, 100676934)
-     , (20243, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20243, 028 /* SPELL_DID */, 2070 /* HarmOther7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20243', 'scrollharmother7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20243, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20243, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20243, 008 /* MASS_INT */, 90)
-     , (20243, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20243, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20243, 019 /* VALUE_INT */, 2000)
-     , (20243, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20243, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20243,   1,       8192) /* ItemType - Writable */
+     , (20243,   5,         30) /* EncumbranceVal */
+     , (20243,   8,         90) /* Mass */
+     , (20243,   9,          0) /* ValidLocations - None */
+     , (20243,  16,          8) /* ItemUseable - Contained */
+     , (20243,  19,       2000) /* Value */
+     , (20243,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20243, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20243, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20243,  22, True ) /* Inscribable */
+     , (20243,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20243,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20243,   1, 'Scroll of Heart Rend') /* Name */
+     , (20243,  15, 'When learned, this spell drains 40-75 points of the target''s Health.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20243,   1,   33554826) /* Setup */
+     , (20243,   8,  100676934) /* Icon */
+     , (20243,  22,  872415275) /* PhysicsEffectTable */
+     , (20243,  28,       2070) /* Spell - Heart Rend */;

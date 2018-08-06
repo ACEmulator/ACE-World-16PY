@@ -1,50 +1,46 @@
-/* Weenie - Nanto Portal Gem (8978) */
-DELETE FROM weenie WHERE class_Id = 8978;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8978, 'gemportalnanto', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8978, 001 /* NAME_STRING */, 'Nanto Portal Gem')
-     , (8978, 015 /* SHORT_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.')
-     , (8978, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8978, 001 /* SETUP_DID */, 33556769)
-     , (8978, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8978, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8978, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (8978, 008 /* ICON_DID */, 100674864)
-     , (8978, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8978, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (8978, 031 /* LINKED_PORTAL_ONE_DID */, 8990 /* Nanto Portal */)
-     , (8978, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8978', 'gemportalnanto', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8978, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8978, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (8978, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8978, 008 /* MASS_INT */, 10)
-     , (8978, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8978, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (8978, 012 /* STACK_SIZE_INT */, 1)
-     , (8978, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8978, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (8978, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (8978, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8978, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8978, 019 /* VALUE_INT */, 500)
-     , (8978, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8978, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (8978, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (8978, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (8978, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (8978, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (8978, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (8978, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8978, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (8978,   1,       2048) /* ItemType - Gem */
+     , (8978,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (8978,   5,         10) /* EncumbranceVal */
+     , (8978,   8,         10) /* Mass */
+     , (8978,   9,          0) /* ValidLocations - None */
+     , (8978,  11,         25) /* MaxStackSize */
+     , (8978,  12,          1) /* StackSize */
+     , (8978,  13,         10) /* StackUnitEncumbrance */
+     , (8978,  14,         10) /* StackUnitMass */
+     , (8978,  15,        500) /* StackUnitValue */
+     , (8978,  16,          8) /* ItemUseable - Contained */
+     , (8978,  18,          1) /* UiEffects - Magical */
+     , (8978,  19,        500) /* Value */
+     , (8978,  93,       3092) /* PhysicsState */
+     , (8978,  94,         16) /* TargetType - Creature */
+     , (8978, 106,        210) /* ItemSpellcraft */
+     , (8978, 107,         50) /* ItemCurMana */
+     , (8978, 108,         50) /* ItemMaxMana */
+     , (8978, 109,          0) /* ItemDifficulty */
+     , (8978, 110,          0) /* ItemAllegianceRankLimit */
+     , (8978, 150,        103) /* HookPlacement - Hook */
+     , (8978, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8978, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (8978, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8978,  15, True ) /* LightsStatus */
+     , (8978,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8978,   1, 'Nanto Portal Gem') /* Name */
+     , (8978,  15, 'This portal summoning gem works best if used outside in a relatively flat area.') /* ShortDesc */
+     , (8978,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8978,   1,   33556769) /* Setup */
+     , (8978,   3,  536870932) /* SoundTable */
+     , (8978,   6,   67111919) /* PaletteBase */
+     , (8978,   7,  268435723) /* ClothingBase */
+     , (8978,   8,  100674864) /* Icon */
+     , (8978,  22,  872415275) /* PhysicsEffectTable */
+     , (8978,  28,        157) /* Spell - Summon Primary Portal I */
+     , (8978,  31,       8990) /* LinkedPortalOne - Nanto Portal */
+     , (8978,  36,  234881046) /* MutateFilter */;

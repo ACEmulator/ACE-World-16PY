@@ -1,38 +1,34 @@
-/* Weenie - Olthoi Batter (11126) */
-DELETE FROM weenie WHERE class_Id = 11126;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11126, 'batterolthoi-xp', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11126, 001 /* NAME_STRING */, 'Olthoi Batter')
-     , (11126, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (11126, 015 /* SHORT_DESC_STRING */, 'Batter made with Olthoi Eggs.')
-     , (11126, 016 /* LONG_DESC_STRING */, 'Batter made with Olthoi Eggs.')
-     , (11126, 020 /* PLURAL_NAME_STRING */, 'Batches of Olthoi Batter');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11126, 001 /* SETUP_DID */, 33555968)
-     , (11126, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11126, 008 /* ICON_DID */, 100671757)
-     , (11126, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11126', 'batterolthoi-xp', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11126, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (11126, 005 /* ENCUMB_VAL_INT */, 50)
-     , (11126, 008 /* MASS_INT */, 25)
-     , (11126, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11126, 011 /* MAX_STACK_SIZE_INT */, 12)
-     , (11126, 012 /* STACK_SIZE_INT */, 1)
-     , (11126, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (11126, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (11126, 015 /* STACK_UNIT_VALUE_INT */, 20)
-     , (11126, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (11126, 019 /* VALUE_INT */, 20)
-     , (11126, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11126, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */);
+VALUES (11126,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (11126,   5,         50) /* EncumbranceVal */
+     , (11126,   8,         25) /* Mass */
+     , (11126,   9,          0) /* ValidLocations - None */
+     , (11126,  11,         12) /* MaxStackSize */
+     , (11126,  12,          1) /* StackSize */
+     , (11126,  13,         50) /* StackUnitEncumbrance */
+     , (11126,  14,         25) /* StackUnitMass */
+     , (11126,  15,         20) /* StackUnitValue */
+     , (11126,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (11126,  19,         20) /* Value */
+     , (11126,  93,       1044) /* PhysicsState */
+     , (11126,  94,    4194336) /* TargetType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11126, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (11126, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (11126,  23, True ) /* DestroyOnSell */
+     , (11126,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11126,   1, 'Olthoi Batter') /* Name */
+     , (11126,  14, 'This item is used in cooking.') /* Use */
+     , (11126,  15, 'Batter made with Olthoi Eggs.') /* ShortDesc */
+     , (11126,  16, 'Batter made with Olthoi Eggs.') /* LongDesc */
+     , (11126,  20, 'Batches of Olthoi Batter') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11126,   1,   33555968) /* Setup */
+     , (11126,   3,  536870932) /* SoundTable */
+     , (11126,   8,  100671757) /* Icon */
+     , (11126,  22,  872415275) /* PhysicsEffectTable */;

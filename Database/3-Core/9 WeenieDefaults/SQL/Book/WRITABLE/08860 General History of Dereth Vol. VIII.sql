@@ -1,35 +1,32 @@
-/* Weenie - General History of Dereth Vol. VIII (8860) */
-DELETE FROM weenie WHERE class_Id = 8860;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8860, 'histjul00', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8860, 001 /* NAME_STRING */, 'General History of Dereth Vol. VIII');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8860, 001 /* SETUP_DID */, 33554771)
-     , (8860, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8860, 008 /* ICON_DID */, 100668117)
-     , (8860, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8860', 'histjul00', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8860, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8860, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8860, 008 /* MASS_INT */, 10)
-     , (8860, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8860, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8860, 019 /* VALUE_INT */, 0)
-     , (8860, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8860, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8860,   1,       8192) /* ItemType - Writable */
+     , (8860,   5,         10) /* EncumbranceVal */
+     , (8860,   8,         10) /* Mass */
+     , (8860,   9,          0) /* ValidLocations - None */
+     , (8860,  16,          8) /* ItemUseable - Contained */
+     , (8860,  19,          0) /* Value */
+     , (8860,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8860, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8860,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8860,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8860,   1, 'General History of Dereth Vol. VIII') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8860,   1,   33554771) /* Setup */
+     , (8860,   3,  536870932) /* SoundTable */
+     , (8860,   8,  100668117) /* Icon */
+     , (8860,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8860, 11, 1000) /* Book Data */;
+VALUES (8860, 11, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8860, 0, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, '
@@ -77,4 +74,3 @@ However, the sighting of a great beast brought them back for more. The "Behemoth
      , (8860, 10, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, '
 Unfortunately, Aerlinthe kept its remaining secrets for the time being. As Leafdawning drew to a close, the bulk of the invading force of fire elementals still held the caldera of Mount Tenkarrdun. While many searched unsuccessfully for some obscure, hidden method to end their reign, few seemed willing to directly challenge them in open combat. Perhaps this was due to the fierce conditions in the crater, or perhaps because what commanded the occupying forces could not be easily discerned.
 ');
-

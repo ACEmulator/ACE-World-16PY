@@ -1,36 +1,32 @@
-/* Weenie - Frost Guardian Lair (21418) */
-DELETE FROM weenie WHERE class_Id = 21418;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21418, 'portalgaerlanguardianfrost', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21418, 001 /* NAME_STRING */, 'Frost Guardian Lair');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21418, 001 /* SETUP_DID */, 33555923)
-     , (21418, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (21418, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21418', 'portalgaerlanguardianfrost', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21418, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (21418, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (21418, 086 /* MIN_LEVEL_INT */, 20)
-     , (21418, 087 /* MAX_LEVEL_INT */, 39)
-     , (21418, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (21418, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (21418, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21418, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (21418,   1,      65536) /* ItemType - Portal */
+     , (21418,  16,         32) /* ItemUseable - Remote */
+     , (21418,  86,         20) /* MinLevel */
+     , (21418,  87,         39) /* MaxLevel */
+     , (21418,  93,       3084) /* PhysicsState */
+     , (21418, 111,         49) /* PortalBitmask */
+     , (21418, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21418, 001 /* STUCK_BOOL */, True)
-     , (21418, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (21418, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (21418, 013 /* ETHEREAL_BOOL */, True)
-     , (21418, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (21418,   1, True ) /* Stuck */
+     , (21418,  11, False) /* IgnoreCollisions */
+     , (21418,  12, True ) /* ReportCollisions */
+     , (21418,  13, True ) /* Ethereal */
+     , (21418,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21418,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21418,   1, 'Frost Guardian Lair') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21418,   1,   33555923) /* Setup */
+     , (21418,   2,  150994947) /* MotionTable */
+     , (21418,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21418, 2, 1464009034, 47.9531, -2.5, 6.005, -4.371139E-08, 0, 0, -1) /* DESTINATION_POSITION */;
-
+VALUES (21418, 2, 1464009034, 47.9531, -2.5, 6.005, -4.371139E-08, 0, 0, -1) /* Destination */;

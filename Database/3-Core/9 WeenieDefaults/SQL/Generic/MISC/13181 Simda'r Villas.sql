@@ -1,28 +1,24 @@
-/* Weenie - Simda'r Villas (13181) */
-DELETE FROM weenie WHERE class_Id = 13181;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13181, 'simdarvillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13181, 001 /* NAME_STRING */, 'Simda''r Villas')
-     , (13181, 016 /* LONG_DESC_STRING */, 'Welcome to Simda''r Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13181, 001 /* SETUP_DID */, 33557463)
-     , (13181, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('13181', 'simdarvillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13181, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (13181, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (13181, 008 /* MASS_INT */, 1800)
-     , (13181, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (13181, 019 /* VALUE_INT */, 125)
-     , (13181, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (13181,   1,        128) /* ItemType - Misc */
+     , (13181,   5,       9000) /* EncumbranceVal */
+     , (13181,   8,       1800) /* Mass */
+     , (13181,  16,          1) /* ItemUseable - No */
+     , (13181,  19,        125) /* Value */
+     , (13181,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13181, 001 /* STUCK_BOOL */, True)
-     , (13181, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (13181, 013 /* ETHEREAL_BOOL */, False)
-     , (13181, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (13181,   1, True ) /* Stuck */
+     , (13181,  12, True ) /* ReportCollisions */
+     , (13181,  13, False) /* Ethereal */
+     , (13181,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (13181,   1, 'Simda''r Villas') /* Name */
+     , (13181,  16, 'Welcome to Simda''r Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (13181,   1,   33557463) /* Setup */
+     , (13181,   8,  100668115) /* Icon */;

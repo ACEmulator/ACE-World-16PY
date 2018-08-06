@@ -1,49 +1,45 @@
-/* Weenie - Flaming Tachi (7973) */
-DELETE FROM weenie WHERE class_Id = 7973;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7973, 'tachifiremonsteronly2', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7973, 001 /* NAME_STRING */, 'Flaming Tachi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7973, 001 /* SETUP_DID */, 33555732)
-     , (7973, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7973, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7973, 007 /* CLOTHINGBASE_DID */, 268435788)
-     , (7973, 008 /* ICON_DID */, 100667934)
-     , (7973, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (7973, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7973', 'tachifiremonsteronly2', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7973, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (7973, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (7973, 005 /* ENCUMB_VAL_INT */, 450)
-     , (7973, 008 /* MASS_INT */, 180)
-     , (7973, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (7973, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7973, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (7973, 019 /* VALUE_INT */, 1150)
-     , (7973, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (7973, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (7973, 044 /* DAMAGE_INT */, 20)
-     , (7973, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (7973, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (7973, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (7973, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (7973, 049 /* WEAPON_TIME_INT */, 35)
-     , (7973, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (7973, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7973, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7973, 021 /* WEAPON_LENGTH_FLOAT */, 1.1)
-     , (7973, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (7973, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (7973, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (7973,   1,          1) /* ItemType - MeleeWeapon */
+     , (7973,   3,         20) /* PaletteTemplate - Silver */
+     , (7973,   5,        450) /* EncumbranceVal */
+     , (7973,   8,        180) /* Mass */
+     , (7973,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (7973,  16,          1) /* ItemUseable - No */
+     , (7973,  18,         32) /* UiEffects - Fire */
+     , (7973,  19,       1150) /* Value */
+     , (7973,  33,         -2) /* Bonded - Destroy */
+     , (7973,  37,       9999) /* ResistItemAppraisal */
+     , (7973,  44,         20) /* Damage */
+     , (7973,  45,         16) /* DamageType - Fire */
+     , (7973,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (7973,  47,          6) /* AttackType */
+     , (7973,  48,         11) /* WeaponSkill - Sword */
+     , (7973,  49,         35) /* WeaponTime */
+     , (7973,  51,          1) /* CombatUse - Melee */
+     , (7973,  93,       1044) /* PhysicsState */
+     , (7973, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7973, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7973, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (7973,  22, True ) /* Inscribable */
+     , (7973,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7973,  21,     1.1) /* WeaponLength */
+     , (7973,  22,     0.5) /* DamageVariance */
+     , (7973,  29,       1) /* WeaponDefense */
+     , (7973,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7973,   1, 'Flaming Tachi') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7973,   1,   33555732) /* Setup */
+     , (7973,   3,  536870932) /* SoundTable */
+     , (7973,   6,   67111919) /* PaletteBase */
+     , (7973,   7,  268435788) /* ClothingBase */
+     , (7973,   8,  100667934) /* Icon */
+     , (7973,  22,  872415275) /* PhysicsEffectTable */
+     , (7973,  36,  234881044) /* MutateFilter */;

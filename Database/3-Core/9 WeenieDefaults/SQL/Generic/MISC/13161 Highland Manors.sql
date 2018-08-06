@@ -1,28 +1,24 @@
-/* Weenie - Highland Manors (13161) */
-DELETE FROM weenie WHERE class_Id = 13161;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13161, 'highlandmanorssign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13161, 001 /* NAME_STRING */, 'Highland Manors')
-     , (13161, 016 /* LONG_DESC_STRING */, 'Welcome to Highland Manors');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13161, 001 /* SETUP_DID */, 33557463)
-     , (13161, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('13161', 'highlandmanorssign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13161, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (13161, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (13161, 008 /* MASS_INT */, 1800)
-     , (13161, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (13161, 019 /* VALUE_INT */, 125)
-     , (13161, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (13161,   1,        128) /* ItemType - Misc */
+     , (13161,   5,       9000) /* EncumbranceVal */
+     , (13161,   8,       1800) /* Mass */
+     , (13161,  16,          1) /* ItemUseable - No */
+     , (13161,  19,        125) /* Value */
+     , (13161,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13161, 001 /* STUCK_BOOL */, True)
-     , (13161, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (13161, 013 /* ETHEREAL_BOOL */, False)
-     , (13161, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (13161,   1, True ) /* Stuck */
+     , (13161,  12, True ) /* ReportCollisions */
+     , (13161,  13, False) /* Ethereal */
+     , (13161,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (13161,   1, 'Highland Manors') /* Name */
+     , (13161,  16, 'Welcome to Highland Manors') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (13161,   1,   33557463) /* Setup */
+     , (13161,   8,  100668115) /* Icon */;

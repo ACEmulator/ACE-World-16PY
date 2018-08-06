@@ -1,60 +1,56 @@
-/* Weenie - Ice Tachi (1435) */
-DELETE FROM weenie WHERE class_Id = 1435;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1435, 'tachiice', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1435, 001 /* NAME_STRING */, 'Ice Tachi')
-     , (1435, 015 /* SHORT_DESC_STRING */, 'An icy sword, its hilt inlaid with ivory and lapis lazuli.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1435, 001 /* SETUP_DID */, 33555754)
-     , (1435, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (1435, 007 /* CLOTHINGBASE_DID */, 268435788)
-     , (1435, 008 /* ICON_DID */, 100667934)
-     , (1435, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1435, 037 /* ITEM_SKILL_LIMIT_DID */, 11);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1435', 'tachiice', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1435, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (1435, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (1435, 005 /* ENCUMB_VAL_INT */, 450)
-     , (1435, 008 /* MASS_INT */, 180)
-     , (1435, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (1435, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1435, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (1435, 019 /* VALUE_INT */, 1300)
-     , (1435, 044 /* DAMAGE_INT */, 14)
-     , (1435, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (1435, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (1435, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (1435, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (1435, 049 /* WEAPON_TIME_INT */, 35)
-     , (1435, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (1435, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (1435, 106 /* ITEM_SPELLCRAFT_INT */, 15)
-     , (1435, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (1435, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (1435, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (1435, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 75)
-     , (1435, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (1435, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1435, 005 /* MANA_RATE_FLOAT */, -0.022)
-     , (1435, 021 /* WEAPON_LENGTH_FLOAT */, 1.1)
-     , (1435, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (1435, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (1435, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05);
+VALUES (1435,   1,          1) /* ItemType - MeleeWeapon */
+     , (1435,   3,         20) /* PaletteTemplate - Silver */
+     , (1435,   5,        450) /* EncumbranceVal */
+     , (1435,   8,        180) /* Mass */
+     , (1435,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (1435,  16,          1) /* ItemUseable - No */
+     , (1435,  18,        128) /* UiEffects - Frost */
+     , (1435,  19,       1300) /* Value */
+     , (1435,  44,         14) /* Damage */
+     , (1435,  45,          8) /* DamageType - Cold */
+     , (1435,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (1435,  47,          6) /* AttackType */
+     , (1435,  48,         11) /* WeaponSkill - Sword */
+     , (1435,  49,         35) /* WeaponTime */
+     , (1435,  51,          1) /* CombatUse - Melee */
+     , (1435,  93,       1044) /* PhysicsState */
+     , (1435, 106,         15) /* ItemSpellcraft */
+     , (1435, 107,       1000) /* ItemCurMana */
+     , (1435, 108,       1000) /* ItemMaxMana */
+     , (1435, 109,          0) /* ItemDifficulty */
+     , (1435, 115,         75) /* ItemSkillLevelLimit */
+     , (1435, 150,        103) /* HookPlacement - Hook */
+     , (1435, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1435, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (1435,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1435,   5,  -0.022) /* ManaRate */
+     , (1435,  21,     1.1) /* WeaponLength */
+     , (1435,  22,     0.5) /* DamageVariance */
+     , (1435,  29,    1.05) /* WeaponDefense */
+     , (1435,  62,    1.05) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1435,   1, 'Ice Tachi') /* Name */
+     , (1435,  15, 'An icy sword, its hilt inlaid with ivory and lapis lazuli.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1435,   1,   33555754) /* Setup */
+     , (1435,   6,   67111919) /* PaletteBase */
+     , (1435,   7,  268435788) /* ClothingBase */
+     , (1435,   8,  100667934) /* Icon */
+     , (1435,  22,  872415275) /* PhysicsEffectTable */
+     , (1435,  37,         11) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1435, 1601, 2) /* Defender2_SpellID */
-     , (1435, 1032, 2) /* ColdProtectionSelf3_SpellID */
-     , (1435, 1588, 2) /* HeartSeeker2_SpellID */
-     , (1435, 1612, 2) /* BloodDrinker2_SpellID */
-     , (1435, 49, 2) /* SwiftKiller1_SpellID */;
-
+VALUES (1435,    49,      2)  /* Aura of Swift Killer Self I */
+     , (1435,  1032,      2)  /* Cold Protection Self III */
+     , (1435,  1588,      2)  /* Aura of Heart Seeker Self II */
+     , (1435,  1601,      2)  /* Aura of Defender Self II */
+     , (1435,  1612,      2)  /* Aura of Blood Drinker Self II */;

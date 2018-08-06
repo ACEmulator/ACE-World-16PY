@@ -1,64 +1,60 @@
-/* Weenie - Enchanter's Gauntlets (24457) */
-DELETE FROM weenie WHERE class_Id = 24457;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24457, 'gauntletsenchanters', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24457, 001 /* NAME_STRING */, 'Enchanter''s Gauntlets')
-     , (24457, 016 /* LONG_DESC_STRING */, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the enchanter.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24457, 001 /* SETUP_DID */, 33554648)
-     , (24457, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24457, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (24457, 007 /* CLOTHINGBASE_DID */, 268436636)
-     , (24457, 008 /* ICON_DID */, 100674347)
-     , (24457, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24457, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24457', 'gauntletsenchanters', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24457, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (24457, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (24457, 004 /* CLOTHING_PRIORITY_INT */, 32768 /* Hands */)
-     , (24457, 005 /* ENCUMB_VAL_INT */, 450)
-     , (24457, 008 /* MASS_INT */, 460)
-     , (24457, 009 /* LOCATIONS_INT */, 32 /* HAND_WEAR_LOC */)
-     , (24457, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24457, 019 /* VALUE_INT */, 5500)
-     , (24457, 027 /* ARMOR_TYPE_INT */, 32)
-     , (24457, 028 /* ARMOR_LEVEL_INT */, 250)
-     , (24457, 044 /* DAMAGE_INT */, 8)
-     , (24457, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (24457, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24457, 106 /* ITEM_SPELLCRAFT_INT */, 290)
-     , (24457, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (24457, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (24457, 109 /* ITEM_DIFFICULTY_INT */, 100)
-     , (24457, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (24457, 159 /* WIELD_SKILLTYPE_INT */, 31 /* CREATURE_ENCHANTMENT_SKILL */)
-     , (24457, 160 /* WIELD_DIFFICULTY_INT */, 285);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24457, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (24457, 012 /* SHADE_FLOAT */, 0.66)
-     , (24457, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (24457, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (24457, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
-     , (24457, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (24457, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
-     , (24457, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.2)
-     , (24457, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (24457, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (24457, 110 /* BULK_MOD_FLOAT */, 1)
-     , (24457, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (24457,   1,          2) /* ItemType - Armor */
+     , (24457,   3,         14) /* PaletteTemplate - Red */
+     , (24457,   4,      32768) /* ClothingPriority - Hands */
+     , (24457,   5,        450) /* EncumbranceVal */
+     , (24457,   8,        460) /* Mass */
+     , (24457,   9,         32) /* ValidLocations - HandWear */
+     , (24457,  16,          1) /* ItemUseable - No */
+     , (24457,  19,       5500) /* Value */
+     , (24457,  27,         32) /* ArmorType */
+     , (24457,  28,        250) /* ArmorLevel */
+     , (24457,  44,          8) /* Damage */
+     , (24457,  45,          4) /* DamageType - Bludgeon */
+     , (24457,  93,       1044) /* PhysicsState */
+     , (24457, 106,        290) /* ItemSpellcraft */
+     , (24457, 107,       1000) /* ItemCurMana */
+     , (24457, 108,       1000) /* ItemMaxMana */
+     , (24457, 109,        100) /* ItemDifficulty */
+     , (24457, 158,          2) /* WieldRequirements - RawSkill */
+     , (24457, 159,         31) /* WieldSkilltype - CreatureEnchantment */
+     , (24457, 160,        285) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24457, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24457, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24457,  22, True ) /* Inscribable */
+     , (24457,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24457,   5,   -0.05) /* ManaRate */
+     , (24457,  12,    0.66) /* Shade */
+     , (24457,  13,     0.8) /* ArmorModVsSlash */
+     , (24457,  14,     0.8) /* ArmorModVsPierce */
+     , (24457,  15,     0.8) /* ArmorModVsBludgeon */
+     , (24457,  16,       1) /* ArmorModVsCold */
+     , (24457,  17,     1.2) /* ArmorModVsFire */
+     , (24457,  18,     1.2) /* ArmorModVsAcid */
+     , (24457,  19,       1) /* ArmorModVsElectric */
+     , (24457,  22,    0.75) /* DamageVariance */
+     , (24457, 110,       1) /* BulkMod */
+     , (24457, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24457,   1, 'Enchanter''s Gauntlets') /* Name */
+     , (24457,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the enchanter.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24457,   1,   33554648) /* Setup */
+     , (24457,   3,  536870932) /* SoundTable */
+     , (24457,   6,   67108990) /* PaletteBase */
+     , (24457,   7,  268436636) /* ClothingBase */
+     , (24457,   8,  100674347) /* Icon */
+     , (24457,  22,  872415275) /* PhysicsEffectTable */
+     , (24457,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24457, 2946, 2) /* ModerateCreatureMagicAptitude_SpellID */
-     , (24457, 1485, 2) /* Impenetrability5_SpellID */
-     , (24457, 1456, 2) /* WillpowerOther6_SpellID */;
-
+VALUES (24457,  1456,      2)  /* Willpower Other VI */
+     , (24457,  1485,      2)  /* Impenetrability V */
+     , (24457,  2946,      2)  /* Moderate Creature Magic Aptitude */;

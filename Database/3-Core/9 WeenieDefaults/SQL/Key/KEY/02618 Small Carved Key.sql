@@ -1,33 +1,29 @@
-/* Weenie - Small Carved Key (2618) */
-DELETE FROM weenie WHERE class_Id = 2618;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2618, 'keycarvedroom', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2618, 001 /* NAME_STRING */, 'Small Carved Key')
-     , (2618, 013 /* KEY_CODE_STRING */, 'keycarvedroom')
-     , (2618, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (2618, 015 /* SHORT_DESC_STRING */, 'This is a small, carved key made of stone.')
-     , (2618, 016 /* LONG_DESC_STRING */, 'This small, carved key made of stone is used in the Carved Cave.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2618, 001 /* SETUP_DID */, 33554784)
-     , (2618, 008 /* ICON_DID */, 100668441)
-     , (2618, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2618', 'keycarvedroom', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2618, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (2618, 005 /* ENCUMB_VAL_INT */, 50)
-     , (2618, 008 /* MASS_INT */, 50)
-     , (2618, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (2618, 019 /* VALUE_INT */, 25)
-     , (2618, 091 /* MAX_STRUCTURE_INT */, 3)
-     , (2618, 092 /* STRUCTURE_INT */, 3)
-     , (2618, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2618, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (2618,   1,      16384) /* ItemType - Key */
+     , (2618,   5,         50) /* EncumbranceVal */
+     , (2618,   8,         50) /* Mass */
+     , (2618,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (2618,  19,         25) /* Value */
+     , (2618,  91,          3) /* MaxStructure */
+     , (2618,  92,          3) /* Structure */
+     , (2618,  93,       1044) /* PhysicsState */
+     , (2618,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2618, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2618, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2618,  22, True ) /* Inscribable */
+     , (2618,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2618,   1, 'Small Carved Key') /* Name */
+     , (2618,  13, 'keycarvedroom') /* KeyCode */
+     , (2618,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (2618,  15, 'This is a small, carved key made of stone.') /* ShortDesc */
+     , (2618,  16, 'This small, carved key made of stone is used in the Carved Cave.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2618,   1,   33554784) /* Setup */
+     , (2618,   8,  100668441) /* Icon */
+     , (2618,  22,  872415275) /* PhysicsEffectTable */;

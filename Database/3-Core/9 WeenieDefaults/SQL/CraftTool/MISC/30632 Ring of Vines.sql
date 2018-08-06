@@ -1,40 +1,36 @@
-/* Weenie - Ring of Vines (30632) */
-DELETE FROM weenie WHERE class_Id = 30632;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30632, 'holysymbolring', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30632, 001 /* NAME_STRING */, 'Ring of Vines')
-     , (30632, 014 /* USE_STRING */, 'Combine the Ring of Vines with the Stone Emblem.')
-     , (30632, 015 /* SHORT_DESC_STRING */, 'Short description does not show up in game.')
-     , (30632, 016 /* LONG_DESC_STRING */, 'A ring made from dried vines.')
-     , (30632, 033 /* QUEST_STRING */, 'BanderlingHauntRingAcquired0105');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30632, 001 /* SETUP_DID */, 33554769)
-     , (30632, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30632, 008 /* ICON_DID */, 100677390)
-     , (30632, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30632', 'holysymbolring', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30632, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (30632, 005 /* ENCUMB_VAL_INT */, 40)
-     , (30632, 008 /* MASS_INT */, 10)
-     , (30632, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30632, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30632, 012 /* STACK_SIZE_INT */, 1)
-     , (30632, 013 /* STACK_UNIT_ENCUMB_INT */, 40)
-     , (30632, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (30632, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30632, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (30632, 019 /* VALUE_INT */, 0)
-     , (30632, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (30632, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30632, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (30632, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (30632,   1,        128) /* ItemType - Misc */
+     , (30632,   5,         40) /* EncumbranceVal */
+     , (30632,   8,         10) /* Mass */
+     , (30632,   9,          0) /* ValidLocations - None */
+     , (30632,  11,          1) /* MaxStackSize */
+     , (30632,  12,          1) /* StackSize */
+     , (30632,  13,         40) /* StackUnitEncumbrance */
+     , (30632,  14,         10) /* StackUnitMass */
+     , (30632,  15,          0) /* StackUnitValue */
+     , (30632,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (30632,  19,          0) /* Value */
+     , (30632,  33,          1) /* Bonded - Bonded */
+     , (30632,  93,       1044) /* PhysicsState */
+     , (30632,  94,        128) /* TargetType - Misc */
+     , (30632, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30632, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30632, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (30632,  22, True ) /* Inscribable */
+     , (30632,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30632,   1, 'Ring of Vines') /* Name */
+     , (30632,  14, 'Combine the Ring of Vines with the Stone Emblem.') /* Use */
+     , (30632,  15, 'Short description does not show up in game.') /* ShortDesc */
+     , (30632,  16, 'A ring made from dried vines.') /* LongDesc */
+     , (30632,  33, 'BanderlingHauntRingAcquired0105') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30632,   1,   33554769) /* Setup */
+     , (30632,   3,  536870932) /* SoundTable */
+     , (30632,   8,  100677390) /* Icon */
+     , (30632,  22,  872415275) /* PhysicsEffectTable */;

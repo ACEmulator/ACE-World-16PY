@@ -1,49 +1,45 @@
-/* Weenie - Ben Ten's Tachi (20648) */
-DELETE FROM weenie WHERE class_Id = 20648;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20648, 'tachibentenstatuegreen-monsteronly', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20648, 001 /* NAME_STRING */, 'Ben Ten''s Tachi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20648, 001 /* SETUP_DID */, 33554742)
-     , (20648, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20648, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20648, 007 /* CLOTHINGBASE_DID */, 268436346)
-     , (20648, 008 /* ICON_DID */, 100668915)
-     , (20648, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20648, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20648', 'tachibentenstatuegreen-monsteronly', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20648, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (20648, 003 /* PALETTE_TEMPLATE_INT */, 27 /* DARKGREENMETAL_PALETTE_TEMPLATE */)
-     , (20648, 005 /* ENCUMB_VAL_INT */, 450)
-     , (20648, 008 /* MASS_INT */, 180)
-     , (20648, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (20648, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20648, 019 /* VALUE_INT */, 460)
-     , (20648, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (20648, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (20648, 044 /* DAMAGE_INT */, 30)
-     , (20648, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (20648, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (20648, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (20648, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (20648, 049 /* WEAPON_TIME_INT */, 5)
-     , (20648, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (20648, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20648, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20648, 021 /* WEAPON_LENGTH_FLOAT */, 1.1)
-     , (20648, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (20648, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (20648, 039 /* DEFAULT_SCALE_FLOAT */, 3)
-     , (20648, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (20648,   1,          1) /* ItemType - MeleeWeapon */
+     , (20648,   3,         27) /* PaletteTemplate - DarkGreenMetal */
+     , (20648,   5,        450) /* EncumbranceVal */
+     , (20648,   8,        180) /* Mass */
+     , (20648,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (20648,  16,          1) /* ItemUseable - No */
+     , (20648,  19,        460) /* Value */
+     , (20648,  33,         -2) /* Bonded - Destroy */
+     , (20648,  37,       9999) /* ResistItemAppraisal */
+     , (20648,  44,         30) /* Damage */
+     , (20648,  45,          3) /* DamageType */
+     , (20648,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (20648,  47,          6) /* AttackType */
+     , (20648,  48,         11) /* WeaponSkill - Sword */
+     , (20648,  49,          5) /* WeaponTime */
+     , (20648,  51,          1) /* CombatUse - Melee */
+     , (20648,  93,       1044) /* PhysicsState */
+     , (20648, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20648, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20648, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20648,  22, True ) /* Inscribable */
+     , (20648,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20648,  21,     1.1) /* WeaponLength */
+     , (20648,  22,     0.5) /* DamageVariance */
+     , (20648,  29,       1) /* WeaponDefense */
+     , (20648,  39,       3) /* DefaultScale */
+     , (20648,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20648,   1, 'Ben Ten''s Tachi') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20648,   1,   33554742) /* Setup */
+     , (20648,   3,  536870932) /* SoundTable */
+     , (20648,   6,   67111919) /* PaletteBase */
+     , (20648,   7,  268436346) /* ClothingBase */
+     , (20648,   8,  100668915) /* Icon */
+     , (20648,  22,  872415275) /* PhysicsEffectTable */
+     , (20648,  36,  234881044) /* MutateFilter */;

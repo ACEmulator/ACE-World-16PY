@@ -1,72 +1,68 @@
-/* Weenie - Flaming Weeping Dagger (25617) */
-DELETE FROM weenie WHERE class_Id = 25617;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25617, 'daggerweepingfiery', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25617, 001 /* NAME_STRING */, 'Flaming Weeping Dagger')
-     , (25617, 015 /* SHORT_DESC_STRING */, 'A dagger infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25617, 001 /* SETUP_DID */, 33558462)
-     , (25617, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25617, 006 /* PALETTE_BASE_DID */, 67114522)
-     , (25617, 007 /* CLOTHINGBASE_DID */, 268436698)
-     , (25617, 008 /* ICON_DID */, 100674894)
-     , (25617, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (25617, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25617', 'daggerweepingfiery', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25617, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (25617, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (25617, 005 /* ENCUMB_VAL_INT */, 120)
-     , (25617, 008 /* MASS_INT */, 100)
-     , (25617, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (25617, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25617, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (25617, 019 /* VALUE_INT */, 8000)
-     , (25617, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25617, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (25617, 044 /* DAMAGE_INT */, 26)
-     , (25617, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (25617, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (25617, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (25617, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (25617, 049 /* WEAPON_TIME_INT */, 12)
-     , (25617, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (25617, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25617, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (25617, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (25617, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (25617, 109 /* ITEM_DIFFICULTY_INT */, 50)
-     , (25617, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (25617, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25617, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (25617, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (25617, 159 /* WIELD_SKILLTYPE_INT */, 4 /* DAGGER_SKILL */)
-     , (25617, 160 /* WIELD_DIFFICULTY_INT */, 325)
-     , (25617, 166 /* SLAYER_CREATURE_TYPE_INT */, 31 /* Human_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25617, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (25617, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (25617, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.3)
-     , (25617, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (25617, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (25617, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05)
-     , (25617, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 3.4)
-     , (25617, 151 /* IGNORE_SHIELD_FLOAT */, 1);
+VALUES (25617,   1,          1) /* ItemType - MeleeWeapon */
+     , (25617,   3,         14) /* PaletteTemplate - Red */
+     , (25617,   5,        120) /* EncumbranceVal */
+     , (25617,   8,        100) /* Mass */
+     , (25617,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (25617,  16,          1) /* ItemUseable - No */
+     , (25617,  18,          1) /* UiEffects - Magical */
+     , (25617,  19,       8000) /* Value */
+     , (25617,  33,          1) /* Bonded - Bonded */
+     , (25617,  36,       9999) /* ResistMagic */
+     , (25617,  44,         26) /* Damage */
+     , (25617,  45,         16) /* DamageType - Fire */
+     , (25617,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (25617,  47,          6) /* AttackType */
+     , (25617,  48,          4) /* WeaponSkill - Dagger */
+     , (25617,  49,         12) /* WeaponTime */
+     , (25617,  51,          1) /* CombatUse - Melee */
+     , (25617,  93,       1044) /* PhysicsState */
+     , (25617, 106,        300) /* ItemSpellcraft */
+     , (25617, 107,        800) /* ItemCurMana */
+     , (25617, 108,        800) /* ItemMaxMana */
+     , (25617, 109,         50) /* ItemDifficulty */
+     , (25617, 114,          1) /* Attuned - Attuned */
+     , (25617, 150,        103) /* HookPlacement - Hook */
+     , (25617, 151,          2) /* HookType - Wall */
+     , (25617, 158,          2) /* WieldRequirements - RawSkill */
+     , (25617, 159,          4) /* WieldSkilltype - Dagger */
+     , (25617, 160,        325) /* WieldDifficulty */
+     , (25617, 166,         31) /* SlayerCreatureType - Human */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25617, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25617, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (25617, 099 /* IVORYABLE_BOOL */, True);
+VALUES (25617,  22, True ) /* Inscribable */
+     , (25617,  23, True ) /* DestroyOnSell */
+     , (25617,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25617,   5,  -0.025) /* ManaRate */
+     , (25617,  21,     0.4) /* WeaponLength */
+     , (25617,  22,     0.3) /* DamageVariance */
+     , (25617,  29,       1) /* WeaponDefense */
+     , (25617,  39,       1) /* DefaultScale */
+     , (25617,  62,    1.05) /* WeaponOffense */
+     , (25617, 138,     3.4) /* SlayerDamageBonus */
+     , (25617, 151,       1) /* IgnoreShield */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25617,   1, 'Flaming Weeping Dagger') /* Name */
+     , (25617,  15, 'A dagger infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25617,   1,   33558462) /* Setup */
+     , (25617,   3,  536870932) /* SoundTable */
+     , (25617,   6,   67114522) /* PaletteBase */
+     , (25617,   7,  268436698) /* ClothingBase */
+     , (25617,   8,  100674894) /* Icon */
+     , (25617,  22,  872415275) /* PhysicsEffectTable */
+     , (25617,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25617, 2689, 2) /* ModerateDaggerAptitude_SpellID */
-     , (25617, 2963, 2) /* CunningHunter_SpellID */
-     , (25617, 2964, 2) /* MarkHunter_SpellID */
-     , (25617, 2966, 2) /* MurderousThirst_SpellID */
-     , (25617, 2967, 2) /* SpeedHunter_SpellID */;
-
+VALUES (25617,  2689,      2)  /* Moderate Finesse Weapon Aptitude */
+     , (25617,  2963,      2)  /* Aura of Hunter's Cunning */
+     , (25617,  2964,      2)  /* Aura of Hunter's Mark */
+     , (25617,  2966,      2)  /* Aura of Murderous Thirst */
+     , (25617,  2967,      2)  /* Aura of The Speedy Hunter */;

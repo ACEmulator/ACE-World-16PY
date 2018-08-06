@@ -1,28 +1,24 @@
-/* Weenie - Shield of Ispar Villas (15708) */
-DELETE FROM weenie WHERE class_Id = 15708;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15708, 'shieldofisparvillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15708, 001 /* NAME_STRING */, 'Shield of Ispar Villas')
-     , (15708, 016 /* LONG_DESC_STRING */, 'Welcome to Shield of Ispar Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15708, 001 /* SETUP_DID */, 33557463)
-     , (15708, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15708', 'shieldofisparvillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15708, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15708, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (15708, 008 /* MASS_INT */, 1800)
-     , (15708, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15708, 019 /* VALUE_INT */, 125)
-     , (15708, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (15708,   1,        128) /* ItemType - Misc */
+     , (15708,   5,       9000) /* EncumbranceVal */
+     , (15708,   8,       1800) /* Mass */
+     , (15708,  16,          1) /* ItemUseable - No */
+     , (15708,  19,        125) /* Value */
+     , (15708,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15708, 001 /* STUCK_BOOL */, True)
-     , (15708, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (15708, 013 /* ETHEREAL_BOOL */, False)
-     , (15708, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (15708,   1, True ) /* Stuck */
+     , (15708,  12, True ) /* ReportCollisions */
+     , (15708,  13, False) /* Ethereal */
+     , (15708,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15708,   1, 'Shield of Ispar Villas') /* Name */
+     , (15708,  16, 'Welcome to Shield of Ispar Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15708,   1,   33557463) /* Setup */
+     , (15708,   8,  100668115) /* Icon */;

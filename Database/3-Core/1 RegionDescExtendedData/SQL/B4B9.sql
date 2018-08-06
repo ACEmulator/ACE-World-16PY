@@ -1,3 +1,2 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (46265, 21185, 5, 5) /* lownorthmountainsgen */;
-
+VALUES (46265, 21185, 5, 5) /* Low North Mountain Mix Generator */;

@@ -1,28 +1,24 @@
-/* Weenie - Cleanse All Magic Other (8182) */
-DELETE FROM weenie WHERE class_Id = 8182;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8182, 'servicedispelother3', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8182, 001 /* NAME_STRING */, 'Cleanse All Magic Other');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8182, 001 /* SETUP_DID */, 33554667)
-     , (8182, 008 /* ICON_DID */, 100670799)
-     , (8182, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8182, 028 /* SPELL_DID */, 1859 /* DispelAllNeutralOther3_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8182', 'servicedispelother3', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8182, 001 /* ITEM_TYPE_INT */, 1048576 /* TYPE_SERVICE */)
-     , (8182, 005 /* ENCUMB_VAL_INT */, 0)
-     , (8182, 008 /* MASS_INT */, 0)
-     , (8182, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8182, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8182, 019 /* VALUE_INT */, 3000)
-     , (8182, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (8182,   1,    1048576) /* ItemType - Service */
+     , (8182,   5,          0) /* EncumbranceVal */
+     , (8182,   8,          0) /* Mass */
+     , (8182,   9,          0) /* ValidLocations - None */
+     , (8182,  16,          1) /* ItemUseable - No */
+     , (8182,  19,       3000) /* Value */
+     , (8182,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8182, 022 /* INSCRIBABLE_BOOL */, False)
-     , (8182, 051 /* VENDOR_SERVICE_BOOL */, True);
+VALUES (8182,  22, False) /* Inscribable */
+     , (8182,  51, True ) /* VendorService */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8182,   1, 'Cleanse All Magic Other') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8182,   1,   33554667) /* Setup */
+     , (8182,   8,  100670799) /* Icon */
+     , (8182,  22,  872415275) /* PhysicsEffectTable */
+     , (8182,  28,       1859) /* Spell - Cleanse All Magic Other */;

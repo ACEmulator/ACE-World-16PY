@@ -1,16 +1,24 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7081, 2127634432, 3977379840, 33.86, 139.494, -0.0831997, -0.0489709, 0, 0, -0.9988) /* Plate Armoredillo */
-     , (7081, 2127634433, 3977379840, 50.6629, 132.404, -0.4332, -0.594791, 0, 0, -0.80388) /* Plate Armoredillo */
-     , (7081, 2127634434, 3977379840, 45.6443, 141.517, -0.4332, -0.986858, 0, 0, -0.161591) /* Plate Armoredillo */
-     , (7084, 2127634435, 3977379840, 48.8049, 140.773, -0.43425, -0.934943, 0, 0, 0.354797) /* Hoary Armoredillo */
-     , (7084, 2127634436, 3977379840, 39.1952, 140.697, -0.43425, -0.326973, 0, 0, 0.945034) /* Hoary Armoredillo */
-     , (4219, 2127634437, 3977379840, 37.6394, 131.731, -0.095, 0.370119, 0, 0, 0.928984) /* linkmonstergen7minutes */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2127634432,  7081, 3977379840, 33.86, 139.494, -0.0831997, -0.0489709, 0, 0, -0.9988,  True); /* Plate Armoredillo */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2127634437'; /* linkmonstergen7minutes */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2127634433,  7081, 3977379840, 50.6629, 132.404, -0.4332, -0.594791, 0, 0, -0.80388,  True); /* Plate Armoredillo */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2127634432'; /* linkmonstergen7minutes <- Plate Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2127634433'; /* linkmonstergen7minutes <- Plate Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2127634434'; /* linkmonstergen7minutes <- Plate Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2127634435'; /* linkmonstergen7minutes <- Hoary Armoredillo */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2127634436'; /* linkmonstergen7minutes <- Hoary Armoredillo */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2127634434,  7081, 3977379840, 45.6443, 141.517, -0.4332, -0.986858, 0, 0, -0.161591,  True); /* Plate Armoredillo */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2127634435,  7084, 3977379840, 48.8049, 140.773, -0.43425, -0.934943, 0, 0, 0.354797,  True); /* Hoary Armoredillo */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2127634436,  7084, 3977379840, 39.1952, 140.697, -0.43425, -0.326973, 0, 0, 0.945034,  True); /* Hoary Armoredillo */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2127634437,  4219, 3977379840, 37.6394, 131.731, -0.095, 0.370119, 0, 0, 0.928984, False); /* Linkable Monster Generator ( 7 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2127634437, 2127634432) /* Plate Armoredillo */
+     , (2127634437, 2127634433) /* Plate Armoredillo */
+     , (2127634437, 2127634434) /* Plate Armoredillo */
+     , (2127634437, 2127634435) /* Hoary Armoredillo */
+     , (2127634437, 2127634436) /* Hoary Armoredillo */;

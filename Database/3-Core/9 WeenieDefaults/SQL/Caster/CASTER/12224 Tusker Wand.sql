@@ -1,40 +1,36 @@
-/* Weenie - Tusker Wand (12224) */
-DELETE FROM weenie WHERE class_Id = 12224;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12224, 'wandtusker', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12224, 001 /* NAME_STRING */, 'Tusker Wand')
-     , (12224, 015 /* SHORT_DESC_STRING */, 'A wand with a shrunken tusker head on it.')
-     , (12224, 016 /* LONG_DESC_STRING */, 'A wand with a shrunken tusker head on it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12224, 001 /* SETUP_DID */, 33557372)
-     , (12224, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12224, 008 /* ICON_DID */, 100672182)
-     , (12224, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12224, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12224', 'wandtusker', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12224, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (12224, 005 /* ENCUMB_VAL_INT */, 150)
-     , (12224, 008 /* MASS_INT */, 10)
-     , (12224, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (12224, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12224, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (12224, 019 /* VALUE_INT */, 75)
-     , (12224, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (12224, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12224, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (12224, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12224, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12224, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (12224, 039 /* DEFAULT_SCALE_FLOAT */, 1.2);
+VALUES (12224,   1,      32768) /* ItemType - Caster */
+     , (12224,   5,        150) /* EncumbranceVal */
+     , (12224,   8,         10) /* Mass */
+     , (12224,   9,   16777216) /* ValidLocations - Held */
+     , (12224,  16,          1) /* ItemUseable - No */
+     , (12224,  18,          1) /* UiEffects - Magical */
+     , (12224,  19,         75) /* Value */
+     , (12224,  46,        512) /* DefaultCombatStyle - Magic */
+     , (12224,  93,       1044) /* PhysicsState */
+     , (12224,  94,         16) /* TargetType - Creature */
+     , (12224, 150,        103) /* HookPlacement - Hook */
+     , (12224, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12224, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12224, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (12224,  22, True ) /* Inscribable */
+     , (12224,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12224,  29,       1) /* WeaponDefense */
+     , (12224,  39,     1.2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12224,   1, 'Tusker Wand') /* Name */
+     , (12224,  15, 'A wand with a shrunken tusker head on it.') /* ShortDesc */
+     , (12224,  16, 'A wand with a shrunken tusker head on it.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12224,   1,   33557372) /* Setup */
+     , (12224,   3,  536870932) /* SoundTable */
+     , (12224,   8,  100672182) /* Icon */
+     , (12224,  22,  872415275) /* PhysicsEffectTable */
+     , (12224,  36,  234881046) /* MutateFilter */;

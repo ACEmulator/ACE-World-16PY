@@ -1,36 +1,33 @@
-/* Weenie - Theories of Ezheret (24108) */
-DELETE FROM weenie WHERE class_Id = 24108;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24108, 'bookasheronezheret', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24108, 001 /* NAME_STRING */, 'Theories of Ezheret');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24108, 001 /* SETUP_DID */, 33556929)
-     , (24108, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24108, 008 /* ICON_DID */, 100671237)
-     , (24108, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24108', 'bookasheronezheret', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24108, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (24108, 005 /* ENCUMB_VAL_INT */, 160)
-     , (24108, 008 /* MASS_INT */, 200)
-     , (24108, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24108, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24108, 019 /* VALUE_INT */, 90)
-     , (24108, 037 /* RESIST_ITEM_APPRAISAL_INT */, 50)
-     , (24108, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24108, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (24108,   1,       8192) /* ItemType - Writable */
+     , (24108,   5,        160) /* EncumbranceVal */
+     , (24108,   8,        200) /* Mass */
+     , (24108,   9,          0) /* ValidLocations - None */
+     , (24108,  16,          8) /* ItemUseable - Contained */
+     , (24108,  19,         90) /* Value */
+     , (24108,  37,         50) /* ResistItemAppraisal */
+     , (24108,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24108, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (24108,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24108,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24108,   1, 'Theories of Ezheret') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24108,   1,   33556929) /* Setup */
+     , (24108,   3,  536870932) /* SoundTable */
+     , (24108,   8,  100671237) /* Icon */
+     , (24108,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (24108, 8, 1000) /* Book Data */;
+VALUES (24108, 8, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (24108, 0, 4294967295, 'Lord Asheron', 'prewritten', False, 'As observers it is ever our first priority to remain unseen, mindful that contact with these races could alter their culture in a way that would be infinitely damaging. To that end the Collegium Ingae Fatae has devised potent rites cast upon our excursions prior to travel through the portal flux. It has ever been my position to ensure that the weave of the spell does not falter on worlds where the potency of magic is dampened. Since the piercing of our veil on Ezheret we have redoubled our efforts and implemented new techniques to ensure that we are not seen.
@@ -64,4 +61,3 @@ Perhaps my discovery of Planar travel was not a discovery. Perhaps it was a reaw
 ')
      , (24108, 7, 4294967295, 'Lord Asheron', 'prewritten', False, 'The next research trip will be lead by Delacim. I''ll make sure to send both Yaeve and Raem along, as they can both draw further and perhaps more resolute conclusion by further exposure to the denizens of the world. Though the focus will not be placed upon the Tonk but on the Banderlings, a race to which we will not expose ourselves, I think that it will offer more insight to all three theories.
 ');
-

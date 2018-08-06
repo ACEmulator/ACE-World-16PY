@@ -1,47 +1,43 @@
-/* Weenie - Sentinel Jumpsuit 2 (5593) */
-DELETE FROM weenie WHERE class_Id = 5593;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5593, 'sentineljumpsuitlevel2', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5593, 001 /* NAME_STRING */, 'Sentinel Jumpsuit 2');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5593, 001 /* SETUP_DID */, 33554854)
-     , (5593, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5593, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (5593, 007 /* CLOTHINGBASE_DID */, 268435838)
-     , (5593, 008 /* ICON_DID */, 100667354)
-     , (5593, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5593', 'sentineljumpsuitlevel2', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5593, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (5593, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (5593, 004 /* CLOTHING_PRIORITY_INT */, 1024 /* OuterwearChest */)
-     , (5593, 005 /* ENCUMB_VAL_INT */, 23)
-     , (5593, 008 /* MASS_INT */, 15)
-     , (5593, 009 /* LOCATIONS_INT */, 512 /* CHEST_ARMOR_LOC */)
-     , (5593, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5593, 019 /* VALUE_INT */, 5)
-     , (5593, 027 /* ARMOR_TYPE_INT */, 32)
-     , (5593, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (5593, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (5593, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5593, 114 /* ATTUNED_INT */, 2 /* Sticky_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5593, 012 /* SHADE_FLOAT */, 1)
-     , (5593, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (5593, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (5593, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (5593, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0)
-     , (5593, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0)
-     , (5593, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (5593, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
-     , (5593, 110 /* BULK_MOD_FLOAT */, 1)
-     , (5593, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (5593,   1,          2) /* ItemType - Armor */
+     , (5593,   3,         13) /* PaletteTemplate - Purple */
+     , (5593,   4,       1024) /* ClothingPriority - OuterwearChest */
+     , (5593,   5,         23) /* EncumbranceVal */
+     , (5593,   8,         15) /* Mass */
+     , (5593,   9,        512) /* ValidLocations - ChestArmor */
+     , (5593,  16,          1) /* ItemUseable - No */
+     , (5593,  19,          5) /* Value */
+     , (5593,  27,         32) /* ArmorType */
+     , (5593,  28,        100) /* ArmorLevel */
+     , (5593,  33,          1) /* Bonded - Bonded */
+     , (5593,  93,       1044) /* PhysicsState */
+     , (5593, 114,          2) /* Attuned - Sticky */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5593, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (5593,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5593,  12,       1) /* Shade */
+     , (5593,  13,     1.3) /* ArmorModVsSlash */
+     , (5593,  14,       1) /* ArmorModVsPierce */
+     , (5593,  15,       1) /* ArmorModVsBludgeon */
+     , (5593,  16,       0) /* ArmorModVsCold */
+     , (5593,  17,       0) /* ArmorModVsFire */
+     , (5593,  18,     0.6) /* ArmorModVsAcid */
+     , (5593,  19,       0) /* ArmorModVsElectric */
+     , (5593, 110,       1) /* BulkMod */
+     , (5593, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5593,   1, 'Sentinel Jumpsuit 2') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5593,   1,   33554854) /* Setup */
+     , (5593,   3,  536870932) /* SoundTable */
+     , (5593,   6,   67108990) /* PaletteBase */
+     , (5593,   7,  268435838) /* ClothingBase */
+     , (5593,   8,  100667354) /* Icon */
+     , (5593,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,35 +1,31 @@
-/* Weenie - Stemless Mushroom (14793) */
-DELETE FROM weenie WHERE class_Id = 14793;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14793, 'mushroomstemless', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14793, 001 /* NAME_STRING */, 'Stemless Mushroom')
-     , (14793, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (14793, 020 /* PLURAL_NAME_STRING */, 'Stemless Mushrooms');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14793, 001 /* SETUP_DID */, 33557501)
-     , (14793, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14793, 008 /* ICON_DID */, 100672563)
-     , (14793, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14793', 'mushroomstemless', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14793, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (14793, 005 /* ENCUMB_VAL_INT */, 50)
-     , (14793, 008 /* MASS_INT */, 25)
-     , (14793, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14793, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (14793, 012 /* STACK_SIZE_INT */, 1)
-     , (14793, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (14793, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (14793, 015 /* STACK_UNIT_VALUE_INT */, 6)
-     , (14793, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (14793, 019 /* VALUE_INT */, 6)
-     , (14793, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14793, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */);
+VALUES (14793,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (14793,   5,         50) /* EncumbranceVal */
+     , (14793,   8,         25) /* Mass */
+     , (14793,   9,          0) /* ValidLocations - None */
+     , (14793,  11,        100) /* MaxStackSize */
+     , (14793,  12,          1) /* StackSize */
+     , (14793,  13,         50) /* StackUnitEncumbrance */
+     , (14793,  14,         25) /* StackUnitMass */
+     , (14793,  15,          6) /* StackUnitValue */
+     , (14793,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (14793,  19,          6) /* Value */
+     , (14793,  93,       1044) /* PhysicsState */
+     , (14793,  94,    4194336) /* TargetType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14793, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14793,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14793,   1, 'Stemless Mushroom') /* Name */
+     , (14793,  14, 'This item is used in cooking.') /* Use */
+     , (14793,  20, 'Stemless Mushrooms') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14793,   1,   33557501) /* Setup */
+     , (14793,   3,  536870932) /* SoundTable */
+     , (14793,   8,  100672563) /* Icon */
+     , (14793,  22,  872415275) /* PhysicsEffectTable */;

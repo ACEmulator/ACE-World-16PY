@@ -1,42 +1,38 @@
-/* Weenie - Orb (2366) */
-DELETE FROM weenie WHERE class_Id = 2366;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2366, 'orb', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2366, 001 /* NAME_STRING */, 'Orb');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2366, 001 /* SETUP_DID */, 33554669)
-     , (2366, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2366, 006 /* PALETTE_BASE_DID */, 67111928)
-     , (2366, 007 /* CLOTHINGBASE_DID */, 268435751)
-     , (2366, 008 /* ICON_DID */, 100668722)
-     , (2366, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2366, 027 /* USE_USER_ANIMATION_DID */, 1073741873 /* Motion_MagicHeal */)
-     , (2366, 036 /* MUTATE_FILTER_DID */, 234881046)
-     , (2366, 046 /* TSYS_MUTATION_FILTER_DID */, 939524144);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2366', 'orb', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2366, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (2366, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (2366, 005 /* ENCUMB_VAL_INT */, 50)
-     , (2366, 008 /* MASS_INT */, 50)
-     , (2366, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (2366, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2366, 019 /* VALUE_INT */, 200)
-     , (2366, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (2366, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2366, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (2366, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (2366, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (2366, 169 /* TSYS_MUTATION_DATA_INT */, 67242245);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2366, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (2366, 039 /* DEFAULT_SCALE_FLOAT */, 0.6);
+VALUES (2366,   1,      32768) /* ItemType - Caster */
+     , (2366,   3,         21) /* PaletteTemplate - Gold */
+     , (2366,   5,         50) /* EncumbranceVal */
+     , (2366,   8,         50) /* Mass */
+     , (2366,   9,   16777216) /* ValidLocations - Held */
+     , (2366,  16,          1) /* ItemUseable - No */
+     , (2366,  19,        200) /* Value */
+     , (2366,  46,        512) /* DefaultCombatStyle - Magic */
+     , (2366,  93,       1044) /* PhysicsState */
+     , (2366,  94,         16) /* TargetType - Creature */
+     , (2366, 150,        103) /* HookPlacement - Hook */
+     , (2366, 151,          2) /* HookType - Wall */
+     , (2366, 169,   67242245) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2366, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2366,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2366,  29,       1) /* WeaponDefense */
+     , (2366,  39,     0.6) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2366,   1, 'Orb') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2366,   1,   33554669) /* Setup */
+     , (2366,   3,  536870932) /* SoundTable */
+     , (2366,   6,   67111928) /* PaletteBase */
+     , (2366,   7,  268435751) /* ClothingBase */
+     , (2366,   8,  100668722) /* Icon */
+     , (2366,  22,  872415275) /* PhysicsEffectTable */
+     , (2366,  27, 1073741873) /* UseUserAnimation - MagicHeal */
+     , (2366,  36,  234881046) /* MutateFilter */
+     , (2366,  46,  939524144) /* TsysMutationFilter */;

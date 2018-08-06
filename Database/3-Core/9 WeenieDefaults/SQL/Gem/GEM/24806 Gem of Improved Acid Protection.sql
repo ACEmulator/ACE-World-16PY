@@ -1,47 +1,43 @@
-/* Weenie - Gem of Improved Acid Protection (24806) */
-DELETE FROM weenie WHERE class_Id = 24806;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24806, 'gemacidpro5', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24806, 001 /* NAME_STRING */, 'Gem of Improved Acid Protection')
-     , (24806, 015 /* SHORT_DESC_STRING */, 'A gem that will cast Acid Protection V on anyone who uses it. The gem will be destroyed in the process.')
-     , (24806, 020 /* PLURAL_NAME_STRING */, 'Gems of Improved Acid Protection');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24806, 001 /* SETUP_DID */, 33554809)
-     , (24806, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24806, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24806, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (24806, 008 /* ICON_DID */, 100674456)
-     , (24806, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24806, 028 /* SPELL_DID */, 513 /* AcidProtectionOther5_SpellID */)
-     , (24806, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24806', 'gemacidpro5', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24806, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (24806, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (24806, 005 /* ENCUMB_VAL_INT */, 5)
-     , (24806, 008 /* MASS_INT */, 10)
-     , (24806, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24806, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (24806, 012 /* STACK_SIZE_INT */, 1)
-     , (24806, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (24806, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (24806, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (24806, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24806, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (24806, 019 /* VALUE_INT */, 0)
-     , (24806, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24806, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (24806, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (24806, 107 /* ITEM_CUR_MANA_INT */, 100)
-     , (24806, 108 /* ITEM_MAX_MANA_INT */, 200)
-     , (24806, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (24806, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (24806,   1,       2048) /* ItemType - Gem */
+     , (24806,   3,         14) /* PaletteTemplate - Red */
+     , (24806,   5,          5) /* EncumbranceVal */
+     , (24806,   8,         10) /* Mass */
+     , (24806,   9,          0) /* ValidLocations - None */
+     , (24806,  11,         25) /* MaxStackSize */
+     , (24806,  12,          1) /* StackSize */
+     , (24806,  13,          5) /* StackUnitEncumbrance */
+     , (24806,  14,         10) /* StackUnitMass */
+     , (24806,  15,          0) /* StackUnitValue */
+     , (24806,  16,          8) /* ItemUseable - Contained */
+     , (24806,  18,          1) /* UiEffects - Magical */
+     , (24806,  19,          0) /* Value */
+     , (24806,  93,       1044) /* PhysicsState */
+     , (24806,  94,         16) /* TargetType - Creature */
+     , (24806, 106,        210) /* ItemSpellcraft */
+     , (24806, 107,        100) /* ItemCurMana */
+     , (24806, 108,        200) /* ItemMaxMana */
+     , (24806, 109,          0) /* ItemDifficulty */
+     , (24806, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24806, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (24806, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24806,  23, True ) /* DestroyOnSell */
+     , (24806,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24806,   1, 'Gem of Improved Acid Protection') /* Name */
+     , (24806,  15, 'A gem that will cast Acid Protection V on anyone who uses it. The gem will be destroyed in the process.') /* ShortDesc */
+     , (24806,  20, 'Gems of Improved Acid Protection') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24806,   1,   33554809) /* Setup */
+     , (24806,   3,  536870932) /* SoundTable */
+     , (24806,   6,   67111919) /* PaletteBase */
+     , (24806,   7,  268435723) /* ClothingBase */
+     , (24806,   8,  100674456) /* Icon */
+     , (24806,  22,  872415275) /* PhysicsEffectTable */
+     , (24806,  28,        513) /* Spell - Acid Protection Other V */
+     , (24806,  36,  234881046) /* MutateFilter */;

@@ -1,37 +1,34 @@
-/* Weenie - Smith's Note (7378) */
-DELETE FROM weenie WHERE class_Id = 7378;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7378, 'noteejantranslated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7378, 001 /* NAME_STRING */, 'Smith''s Note')
-     , (7378, 015 /* SHORT_DESC_STRING */, 'A note.')
-     , (7378, 016 /* LONG_DESC_STRING */, 'A note written by the Master Smith of Aerlinthe.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7378, 001 /* SETUP_DID */, 33554771)
-     , (7378, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7378, 008 /* ICON_DID */, 100668117)
-     , (7378, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7378', 'noteejantranslated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7378, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (7378, 005 /* ENCUMB_VAL_INT */, 160)
-     , (7378, 008 /* MASS_INT */, 200)
-     , (7378, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7378, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (7378, 019 /* VALUE_INT */, 90)
-     , (7378, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7378, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (7378,   1,       8192) /* ItemType - Writable */
+     , (7378,   5,        160) /* EncumbranceVal */
+     , (7378,   8,        200) /* Mass */
+     , (7378,   9,          0) /* ValidLocations - None */
+     , (7378,  16,          8) /* ItemUseable - Contained */
+     , (7378,  19,         90) /* Value */
+     , (7378,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7378, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (7378,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7378,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7378,   1, 'Smith''s Note') /* Name */
+     , (7378,  15, 'A note.') /* ShortDesc */
+     , (7378,  16, 'A note written by the Master Smith of Aerlinthe.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7378,   1,   33554771) /* Setup */
+     , (7378,   3,  536870932) /* SoundTable */
+     , (7378,   8,  100668117) /* Icon */
+     , (7378,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (7378, 4, 1000) /* Book Data */;
+VALUES (7378, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (7378, 0, 4294967295, 'Ejan Aralea', 'prewritten', False, '
@@ -55,4 +52,3 @@ Walk with light upon your shoulders.
 
                                        Ejan
 ');
-

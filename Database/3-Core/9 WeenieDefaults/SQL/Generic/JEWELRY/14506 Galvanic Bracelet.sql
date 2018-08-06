@@ -1,57 +1,53 @@
-/* Weenie - Galvanic Bracelet (14506) */
-DELETE FROM weenie WHERE class_Id = 14506;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14506, 'braceletgalvanic', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14506, 001 /* NAME_STRING */, 'Galvanic Bracelet')
-     , (14506, 016 /* LONG_DESC_STRING */, 'A golden bracelet fitted with a sparkling lavender gem. The metal vibrates with the power of lightning. The hair on your arms stands on end.')
-     , (14506, 033 /* QUEST_STRING */, 'BraceletGalvanicPickup');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14506, 001 /* SETUP_DID */, 33554683)
-     , (14506, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14506, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (14506, 007 /* CLOTHINGBASE_DID */, 268436286)
-     , (14506, 008 /* ICON_DID */, 100672506)
-     , (14506, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (14506, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14506', 'braceletgalvanic', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14506, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (14506, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (14506, 005 /* ENCUMB_VAL_INT */, 80)
-     , (14506, 008 /* MASS_INT */, 30)
-     , (14506, 009 /* LOCATIONS_INT */, 196608 /* WRIST_WEAR_LOC */)
-     , (14506, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14506, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (14506, 019 /* VALUE_INT */, 8500)
-     , (14506, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14506, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (14506, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14506, 106 /* ITEM_SPELLCRAFT_INT */, 400)
-     , (14506, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (14506, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (14506, 109 /* ITEM_DIFFICULTY_INT */, 200)
-     , (14506, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (14506, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (14506, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (14506, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (14506, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (14506, 160 /* WIELD_DIFFICULTY_INT */, 50);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14506, 005 /* MANA_RATE_FLOAT */, -0.033333);
+VALUES (14506,   1,          8) /* ItemType - Jewelry */
+     , (14506,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (14506,   5,         80) /* EncumbranceVal */
+     , (14506,   8,         30) /* Mass */
+     , (14506,   9,     196608) /* ValidLocations - WristWear */
+     , (14506,  16,          1) /* ItemUseable - No */
+     , (14506,  18,          1) /* UiEffects - Magical */
+     , (14506,  19,       8500) /* Value */
+     , (14506,  33,          1) /* Bonded - Bonded */
+     , (14506,  36,       9999) /* ResistMagic */
+     , (14506,  93,       1044) /* PhysicsState */
+     , (14506, 106,        400) /* ItemSpellcraft */
+     , (14506, 107,        600) /* ItemCurMana */
+     , (14506, 108,        600) /* ItemMaxMana */
+     , (14506, 109,        200) /* ItemDifficulty */
+     , (14506, 114,          1) /* Attuned - Attuned */
+     , (14506, 150,        103) /* HookPlacement - Hook */
+     , (14506, 151,          2) /* HookType - Wall */
+     , (14506, 158,          7) /* WieldRequirements - Level */
+     , (14506, 159,          1) /* WieldSkilltype - Axe */
+     , (14506, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14506, 022 /* INSCRIBABLE_BOOL */, True)
-     , (14506, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (14506, 099 /* IVORYABLE_BOOL */, True);
+VALUES (14506,  22, True ) /* Inscribable */
+     , (14506,  23, True ) /* DestroyOnSell */
+     , (14506,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14506,   5, -0.033333) /* ManaRate */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14506,   1, 'Galvanic Bracelet') /* Name */
+     , (14506,  16, 'A golden bracelet fitted with a sparkling lavender gem. The metal vibrates with the power of lightning. The hair on your arms stands on end.') /* LongDesc */
+     , (14506,  33, 'BraceletGalvanicPickup') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14506,   1,   33554683) /* Setup */
+     , (14506,   3,  536870932) /* SoundTable */
+     , (14506,   6,   67111919) /* PaletteBase */
+     , (14506,   7,  268436286) /* ClothingBase */
+     , (14506,   8,  100672506) /* Icon */
+     , (14506,  22,  872415275) /* PhysicsEffectTable */
+     , (14506,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14506, 1077, 2) /* LightningProtectionOther6_SpellID */
-     , (14506, 2639, 2) /* Repulsion_SpellID */
-     , (14506, 272, 2) /* MagicResistanceOther5_SpellID */
-     , (14506, 2582, 2) /* CANTRIPQUICKNESS1_SpellID */;
-
+VALUES (14506,   272,      2)  /* Magic Resistance Other V */
+     , (14506,  1077,      2)  /* Lightning Protection Other VI */
+     , (14506,  2582,      2)  /* Minor Quickness */
+     , (14506,  2639,      2)  /* Repulsion */;

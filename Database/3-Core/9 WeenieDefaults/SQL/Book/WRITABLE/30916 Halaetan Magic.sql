@@ -1,39 +1,36 @@
-/* Weenie - Halaetan Magic (30916) */
-DELETE FROM weenie WHERE class_Id = 30916;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30916, 'carloloreviamontianmages', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30916, 001 /* NAME_STRING */, 'Halaetan Magic')
-     , (30916, 016 /* LONG_DESC_STRING */, 'A portion of Carlo di Cenza''s journal. This book contains all ten pages.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30916, 001 /* SETUP_DID */, 33554771)
-     , (30916, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30916, 008 /* ICON_DID */, 100668117)
-     , (30916, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30916', 'carloloreviamontianmages', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30916, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (30916, 005 /* ENCUMB_VAL_INT */, 100)
-     , (30916, 008 /* MASS_INT */, 230)
-     , (30916, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30916, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30916, 019 /* VALUE_INT */, 10)
-     , (30916, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (30916, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30916, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30916, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (30916,   1,       8192) /* ItemType - Writable */
+     , (30916,   5,        100) /* EncumbranceVal */
+     , (30916,   8,        230) /* Mass */
+     , (30916,   9,          0) /* ValidLocations - None */
+     , (30916,  16,          8) /* ItemUseable - Contained */
+     , (30916,  19,         10) /* Value */
+     , (30916,  33,          1) /* Bonded - Bonded */
+     , (30916,  93,       1044) /* PhysicsState */
+     , (30916, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30916, 022 /* INSCRIBABLE_BOOL */, False)
-     , (30916, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (30916,  22, False) /* Inscribable */
+     , (30916,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30916,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30916,   1, 'Halaetan Magic') /* Name */
+     , (30916,  16, 'A portion of Carlo di Cenza''s journal. This book contains all ten pages.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30916,   1,   33554771) /* Setup */
+     , (30916,   3,  536870932) /* SoundTable */
+     , (30916,   8,  100668117) /* Icon */
+     , (30916,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (30916, 10, 1000) /* Book Data */;
+VALUES (30916, 10, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (30916, 0, 4294967295, 'Carlo di Cenza', 'prewritten', False, 'Varicci has struck a deal with some vile devil. That is the only explanation. 
@@ -80,4 +77,3 @@ Empyrean. The word is so foreign to me, though we have lived in their world for 
 
 So much speculation. So much fear. The hour grows late, and my pen grows heavy. I must conclude this entry for now. I rest my head with the hope that I may survive yet one more day. One more day on this world the Empyrean call ''Ireth Lassel''.
 ');
-

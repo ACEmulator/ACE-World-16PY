@@ -1,34 +1,30 @@
-/* Weenie - Ring (1443) */
-DELETE FROM weenie WHERE class_Id = 1443;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1443, 'ringlovely', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1443, 001 /* NAME_STRING */, 'Ring');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1443, 001 /* SETUP_DID */, 33554691)
-     , (1443, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (1443, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (1443, 007 /* CLOTHINGBASE_DID */, 268435753)
-     , (1443, 008 /* ICON_DID */, 100667317)
-     , (1443, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1443, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1443', 'ringlovely', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1443, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (1443, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (1443, 005 /* ENCUMB_VAL_INT */, 15)
-     , (1443, 008 /* MASS_INT */, 10)
-     , (1443, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (1443, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1443, 019 /* VALUE_INT */, 100)
-     , (1443, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1443, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (1443,   1,          8) /* ItemType - Jewelry */
+     , (1443,   3,          8) /* PaletteTemplate - Green */
+     , (1443,   5,         15) /* EncumbranceVal */
+     , (1443,   8,         10) /* Mass */
+     , (1443,   9,     786432) /* ValidLocations - FingerWear */
+     , (1443,  16,          1) /* ItemUseable - No */
+     , (1443,  19,        100) /* Value */
+     , (1443,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1443, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (1443,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1443,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1443,   1, 'Ring') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1443,   1,   33554691) /* Setup */
+     , (1443,   3,  536870932) /* SoundTable */
+     , (1443,   6,   67111919) /* PaletteBase */
+     , (1443,   7,  268435753) /* ClothingBase */
+     , (1443,   8,  100667317) /* Icon */
+     , (1443,  22,  872415275) /* PhysicsEffectTable */
+     , (1443,  36,  234881046) /* MutateFilter */;

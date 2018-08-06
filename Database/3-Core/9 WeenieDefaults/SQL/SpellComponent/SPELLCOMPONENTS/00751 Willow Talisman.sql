@@ -1,33 +1,29 @@
-/* Weenie - Willow Talisman (751) */
-DELETE FROM weenie WHERE class_Id = 751;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (751, 'willowtalisman', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (751, 001 /* NAME_STRING */, 'Willow Talisman');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (751, 001 /* SETUP_DID */, 33555207)
-     , (751, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (751, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (751, 007 /* CLOTHINGBASE_DID */, 268435722)
-     , (751, 008 /* ICON_DID */, 100668400)
-     , (751, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (751, 029 /* SPELL_COMPONENT_DID */, 61);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('751', 'willowtalisman', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (751, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (751, 003 /* PALETTE_TEMPLATE_INT */, 17 /* YELLOW_PALETTE_TEMPLATE */)
-     , (751, 005 /* ENCUMB_VAL_INT */, 4)
-     , (751, 008 /* MASS_INT */, 100)
-     , (751, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (751, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (751, 012 /* STACK_SIZE_INT */, 1)
-     , (751, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
-     , (751, 014 /* STACK_UNIT_MASS_INT */, 100)
-     , (751, 015 /* STACK_UNIT_VALUE_INT */, 5)
-     , (751, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (751, 019 /* VALUE_INT */, 5)
-     , (751, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (751,   1,       4096) /* ItemType - SpellComponents */
+     , (751,   3,         17) /* PaletteTemplate - Yellow */
+     , (751,   5,          4) /* EncumbranceVal */
+     , (751,   8,        100) /* Mass */
+     , (751,   9,          0) /* ValidLocations - None */
+     , (751,  11,        100) /* MaxStackSize */
+     , (751,  12,          1) /* StackSize */
+     , (751,  13,          4) /* StackUnitEncumbrance */
+     , (751,  14,        100) /* StackUnitMass */
+     , (751,  15,          5) /* StackUnitValue */
+     , (751,  16,          1) /* ItemUseable - No */
+     , (751,  19,          5) /* Value */
+     , (751,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (751,   1, 'Willow Talisman') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (751,   1,   33555207) /* Setup */
+     , (751,   3,  536870932) /* SoundTable */
+     , (751,   6,   67111919) /* PaletteBase */
+     , (751,   7,  268435722) /* ClothingBase */
+     , (751,   8,  100668400) /* Icon */
+     , (751,  22,  872415275) /* PhysicsEffectTable */
+     , (751,  29,         61) /* SpellComponent */;

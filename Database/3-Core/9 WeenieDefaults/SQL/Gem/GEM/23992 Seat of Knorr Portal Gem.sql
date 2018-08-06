@@ -1,52 +1,48 @@
-/* Weenie - Seat of Knorr Portal Gem (23992) */
-DELETE FROM weenie WHERE class_Id = 23992;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23992, 'gemportalknorrseat', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23992, 001 /* NAME_STRING */, 'Seat of Knorr Portal Gem')
-     , (23992, 014 /* USE_STRING */, 'Use this gem to be teleported to the gates of Knorr.')
-     , (23992, 015 /* SHORT_DESC_STRING */, 'A gem pulsating with the power of portal space. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23992, 001 /* SETUP_DID */, 33556769)
-     , (23992, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23992, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23992, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (23992, 008 /* ICON_DID */, 100668365)
-     , (23992, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (23992, 028 /* SPELL_DID */, 2957 /* PortalSendingKnorrSeat_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23992', 'gemportalknorrseat', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23992, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (23992, 003 /* PALETTE_TEMPLATE_INT */, 10 /* LIGHTBLUE_PALETTE_TEMPLATE */)
-     , (23992, 005 /* ENCUMB_VAL_INT */, 100)
-     , (23992, 008 /* MASS_INT */, 10)
-     , (23992, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23992, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (23992, 012 /* STACK_SIZE_INT */, 1)
-     , (23992, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (23992, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (23992, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (23992, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23992, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (23992, 019 /* VALUE_INT */, 0)
-     , (23992, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23992, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (23992, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (23992, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (23992, 107 /* ITEM_CUR_MANA_INT */, 150)
-     , (23992, 108 /* ITEM_MAX_MANA_INT */, 150)
-     , (23992, 109 /* ITEM_DIFFICULTY_INT */, 10)
-     , (23992, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (23992, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23992, 076 /* TRANSLUCENCY_FLOAT */, 0.5);
+VALUES (23992,   1,       2048) /* ItemType - Gem */
+     , (23992,   3,         10) /* PaletteTemplate - LightBlue */
+     , (23992,   5,        100) /* EncumbranceVal */
+     , (23992,   8,         10) /* Mass */
+     , (23992,   9,          0) /* ValidLocations - None */
+     , (23992,  11,          1) /* MaxStackSize */
+     , (23992,  12,          1) /* StackSize */
+     , (23992,  13,        100) /* StackUnitEncumbrance */
+     , (23992,  14,         10) /* StackUnitMass */
+     , (23992,  15,          0) /* StackUnitValue */
+     , (23992,  16,          8) /* ItemUseable - Contained */
+     , (23992,  18,          1) /* UiEffects - Magical */
+     , (23992,  19,          0) /* Value */
+     , (23992,  33,          1) /* Bonded - Bonded */
+     , (23992,  93,       3092) /* PhysicsState */
+     , (23992,  94,         16) /* TargetType - Creature */
+     , (23992, 106,        300) /* ItemSpellcraft */
+     , (23992, 107,        150) /* ItemCurMana */
+     , (23992, 108,        150) /* ItemMaxMana */
+     , (23992, 109,         10) /* ItemDifficulty */
+     , (23992, 110,          0) /* ItemAllegianceRankLimit */
+     , (23992, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23992, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (23992, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23992, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (23992,  15, True ) /* LightsStatus */
+     , (23992,  22, True ) /* Inscribable */
+     , (23992,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23992,  76,     0.5) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23992,   1, 'Seat of Knorr Portal Gem') /* Name */
+     , (23992,  14, 'Use this gem to be teleported to the gates of Knorr.') /* Use */
+     , (23992,  15, 'A gem pulsating with the power of portal space. ') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23992,   1,   33556769) /* Setup */
+     , (23992,   3,  536870932) /* SoundTable */
+     , (23992,   6,   67111919) /* PaletteBase */
+     , (23992,   7,  268435723) /* ClothingBase */
+     , (23992,   8,  100668365) /* Icon */
+     , (23992,  22,  872415275) /* PhysicsEffectTable */
+     , (23992,  28,       2957) /* Spell - Seat of Knorr */;

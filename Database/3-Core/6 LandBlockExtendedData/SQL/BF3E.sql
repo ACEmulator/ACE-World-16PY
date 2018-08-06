@@ -1,3 +1,2 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1371, 2079580160, 3208511744, 38.4618, 60.3265, 44.005, -0.173648, 0, 0, -0.984808) /* Archmage */;
-
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2079580160,  1371, 3208511744, 38.4618, 60.3265, 44.005, -0.173648, 0, 0, -0.984808, False); /* Archmage */

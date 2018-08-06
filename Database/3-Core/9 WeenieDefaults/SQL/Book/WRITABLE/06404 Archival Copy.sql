@@ -1,37 +1,34 @@
-/* Weenie - Archival Copy (6404) */
-DELETE FROM weenie WHERE class_Id = 6404;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6404, 'morphnote1', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6404, 001 /* NAME_STRING */, 'Archival Copy')
-     , (6404, 015 /* SHORT_DESC_STRING */, 'A translation of a carefully scribed note found in the Jahannan Vault.')
-     , (6404, 016 /* LONG_DESC_STRING */, 'A translation of a carefully scribed note found in the Jahannan Vault.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6404, 001 /* SETUP_DID */, 33554773)
-     , (6404, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6404, 008 /* ICON_DID */, 100668176)
-     , (6404, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6404', 'morphnote1', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6404, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (6404, 005 /* ENCUMB_VAL_INT */, 25)
-     , (6404, 008 /* MASS_INT */, 5)
-     , (6404, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6404, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (6404, 019 /* VALUE_INT */, 200)
-     , (6404, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6404, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (6404,   1,       8192) /* ItemType - Writable */
+     , (6404,   5,         25) /* EncumbranceVal */
+     , (6404,   8,          5) /* Mass */
+     , (6404,   9,          0) /* ValidLocations - None */
+     , (6404,  16,          8) /* ItemUseable - Contained */
+     , (6404,  19,        200) /* Value */
+     , (6404,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6404, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (6404,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6404,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6404,   1, 'Archival Copy') /* Name */
+     , (6404,  15, 'A translation of a carefully scribed note found in the Jahannan Vault.') /* ShortDesc */
+     , (6404,  16, 'A translation of a carefully scribed note found in the Jahannan Vault.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6404,   1,   33554773) /* Setup */
+     , (6404,   3,  536870932) /* SoundTable */
+     , (6404,   8,  100668176) /* Icon */
+     , (6404,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (6404, 13, 1000) /* Book Data */;
+VALUES (6404, 13, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (6404, 0, 4294967295, 'Archival Copy', 'prewritten', False, 'Dispatch from the northern town of Daralet, received by the court of Emperor Caerlin in the year 366 of Rhethis Eipoth. Copied by the scribe Wenheas for His Majesty Emperor Caerlin II''s archive in the year 12 of Torethis Eipoth.
@@ -69,4 +66,3 @@ I do beseech His Majesty that He might send aid to His loyal vassal in this time
 Yours in Faith and Honor,
 Walthryl Senjanh
 ');
-

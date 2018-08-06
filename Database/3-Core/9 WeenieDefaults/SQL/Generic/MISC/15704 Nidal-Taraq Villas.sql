@@ -1,28 +1,24 @@
-/* Weenie - Nidal-Taraq Villas (15704) */
-DELETE FROM weenie WHERE class_Id = 15704;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15704, 'nidaltaraqvillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15704, 001 /* NAME_STRING */, 'Nidal-Taraq Villas')
-     , (15704, 016 /* LONG_DESC_STRING */, 'Welcome to Nidal-Taraq Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15704, 001 /* SETUP_DID */, 33557463)
-     , (15704, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15704', 'nidaltaraqvillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15704, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15704, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (15704, 008 /* MASS_INT */, 1800)
-     , (15704, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15704, 019 /* VALUE_INT */, 125)
-     , (15704, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (15704,   1,        128) /* ItemType - Misc */
+     , (15704,   5,       9000) /* EncumbranceVal */
+     , (15704,   8,       1800) /* Mass */
+     , (15704,  16,          1) /* ItemUseable - No */
+     , (15704,  19,        125) /* Value */
+     , (15704,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15704, 001 /* STUCK_BOOL */, True)
-     , (15704, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (15704, 013 /* ETHEREAL_BOOL */, False)
-     , (15704, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (15704,   1, True ) /* Stuck */
+     , (15704,  12, True ) /* ReportCollisions */
+     , (15704,  13, False) /* Ethereal */
+     , (15704,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15704,   1, 'Nidal-Taraq Villas') /* Name */
+     , (15704,  16, 'Welcome to Nidal-Taraq Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15704,   1,   33557463) /* Setup */
+     , (15704,   8,  100668115) /* Icon */;

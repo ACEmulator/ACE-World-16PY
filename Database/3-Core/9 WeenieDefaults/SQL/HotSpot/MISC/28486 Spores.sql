@@ -1,46 +1,42 @@
-/* Weenie - Spores (28486) */
-DELETE FROM weenie WHERE class_Id = 28486;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28486, 'spores', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28486, 001 /* NAME_STRING */, 'Spores')
-     , (28486, 017 /* ACTIVATION_TALK_STRING */, 'You lose %i health, as spores burrow into your eyes, throat and lungs.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28486, 001 /* SETUP_DID */, 33556024)
-     , (28486, 003 /* SOUND_TABLE_DID */, 536871007)
-     , (28486, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28486', 'spores', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28486, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28486, 005 /* ENCUMB_VAL_INT */, 1)
-     , (28486, 008 /* MASS_INT */, 1)
-     , (28486, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28486, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28486, 019 /* VALUE_INT */, 1)
-     , (28486, 044 /* DAMAGE_INT */, 20)
-     , (28486, 045 /* DAMAGE_TYPE_INT */, 5 /* SLASH_DAMAGE_TYPE, BLUDGEON_DAMAGE_TYPE */)
-     , (28486, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (28486, 119 /* ACTIVE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28486, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (28486, 039 /* DEFAULT_SCALE_FLOAT */, 1.75)
-     , (28486, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 1)
-     , (28486, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0);
+VALUES (28486,   1,        128) /* ItemType - Misc */
+     , (28486,   5,          1) /* EncumbranceVal */
+     , (28486,   8,          1) /* Mass */
+     , (28486,   9,          0) /* ValidLocations - None */
+     , (28486,  16,          1) /* ItemUseable - No */
+     , (28486,  19,          1) /* Value */
+     , (28486,  44,         20) /* Damage */
+     , (28486,  45,          5) /* DamageType */
+     , (28486,  93,         12) /* PhysicsState */
+     , (28486, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28486, 001 /* STUCK_BOOL */, True)
-     , (28486, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (28486, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (28486, 013 /* ETHEREAL_BOOL */, True)
-     , (28486, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (28486, 018 /* VISIBILITY_BOOL */, True)
-     , (28486, 024 /* UI_HIDDEN_BOOL */, True)
-     , (28486, 055 /* IS_HOT_BOOL */, True)
-     , (28486, 057 /* AFFECTS_AIS_BOOL */, False)
-     , (28486, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
-     , (28486, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True);
+VALUES (28486,   1, True ) /* Stuck */
+     , (28486,  11, False) /* IgnoreCollisions */
+     , (28486,  12, True ) /* ReportCollisions */
+     , (28486,  13, True ) /* Ethereal */
+     , (28486,  14, False) /* GravityStatus */
+     , (28486,  18, True ) /* Visibility */
+     , (28486,  24, True ) /* UiHidden */
+     , (28486,  55, True ) /* IsHot */
+     , (28486,  57, False) /* AffectsAis */
+     , (28486,  65, True ) /* IgnoreMagicResist */
+     , (28486,  66, True ) /* IgnoreMagicArmor */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28486,  22,    0.75) /* DamageVariance */
+     , (28486,  39,    1.75) /* DefaultScale */
+     , (28486, 105,       1) /* HotspotCycleTime */
+     , (28486, 106,       0) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28486,   1, 'Spores') /* Name */
+     , (28486,  17, 'You lose %i health, as spores burrow into your eyes, throat and lungs.') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28486,   1,   33556024) /* Setup */
+     , (28486,   3,  536871007) /* SoundTable */
+     , (28486,   8,  100667465) /* Icon */;

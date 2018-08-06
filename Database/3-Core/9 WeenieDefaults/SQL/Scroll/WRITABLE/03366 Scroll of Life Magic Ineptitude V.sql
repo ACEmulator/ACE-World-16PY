@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Life Magic Ineptitude V (3366) */
-DELETE FROM weenie WHERE class_Id = 3366;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3366, 'scrolllifemagicineptitude5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3366, 001 /* NAME_STRING */, 'Scroll of Life Magic Ineptitude V')
-     , (3366, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3366, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Life Magic skill by 50%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3366, 001 /* SETUP_DID */, 33554826)
-     , (3366, 008 /* ICON_DID */, 100676462)
-     , (3366, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3366, 028 /* SPELL_DID */, 627 /* LifeMagicIneptitudeOther5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3366', 'scrolllifemagicineptitude5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3366, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3366, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3366, 008 /* MASS_INT */, 90)
-     , (3366, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3366, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3366, 019 /* VALUE_INT */, 200)
-     , (3366, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3366, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3366,   1,       8192) /* ItemType - Writable */
+     , (3366,   5,         30) /* EncumbranceVal */
+     , (3366,   8,         90) /* Mass */
+     , (3366,   9,          0) /* ValidLocations - None */
+     , (3366,  16,          8) /* ItemUseable - Contained */
+     , (3366,  19,        200) /* Value */
+     , (3366,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3366, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3366, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3366,  22, True ) /* Inscribable */
+     , (3366,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3366,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3366,   1, 'Scroll of Life Magic Ineptitude V') /* Name */
+     , (3366,  15, 'A magic scroll.') /* ShortDesc */
+     , (3366,  16, 'When learned, this spell decreases the target''s Life Magic skill by 50%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3366,   1,   33554826) /* Setup */
+     , (3366,   8,  100676462) /* Icon */
+     , (3366,  22,  872415275) /* PhysicsEffectTable */
+     , (3366,  28,        627) /* Spell - Life Magic Ineptitude Other V */;

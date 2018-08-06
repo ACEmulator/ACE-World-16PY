@@ -1,34 +1,30 @@
-/* Weenie - Tumerok Key (5037) */
-DELETE FROM weenie WHERE class_Id = 5037;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5037, 'keyalabree', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5037, 001 /* NAME_STRING */, 'Tumerok Key')
-     , (5037, 013 /* KEY_CODE_STRING */, 'KeyAlabree')
-     , (5037, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (5037, 015 /* SHORT_DESC_STRING */, 'A key, lightly dusted with rock and bone dust.')
-     , (5037, 016 /* LONG_DESC_STRING */, 'A key to the old Tumerok armory within the Cave of Alabree.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5037, 001 /* SETUP_DID */, 33554784)
-     , (5037, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5037, 008 /* ICON_DID */, 100667485)
-     , (5037, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5037', 'keyalabree', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5037, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (5037, 005 /* ENCUMB_VAL_INT */, 50)
-     , (5037, 008 /* MASS_INT */, 20)
-     , (5037, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (5037, 019 /* VALUE_INT */, 0)
-     , (5037, 091 /* MAX_STRUCTURE_INT */, 3)
-     , (5037, 092 /* STRUCTURE_INT */, 3)
-     , (5037, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5037, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (5037,   1,      16384) /* ItemType - Key */
+     , (5037,   5,         50) /* EncumbranceVal */
+     , (5037,   8,         20) /* Mass */
+     , (5037,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (5037,  19,          0) /* Value */
+     , (5037,  91,          3) /* MaxStructure */
+     , (5037,  92,          3) /* Structure */
+     , (5037,  93,       1044) /* PhysicsState */
+     , (5037,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5037, 022 /* INSCRIBABLE_BOOL */, True)
-     , (5037, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (5037,  22, True ) /* Inscribable */
+     , (5037,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5037,   1, 'Tumerok Key') /* Name */
+     , (5037,  13, 'KeyAlabree') /* KeyCode */
+     , (5037,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (5037,  15, 'A key, lightly dusted with rock and bone dust.') /* ShortDesc */
+     , (5037,  16, 'A key to the old Tumerok armory within the Cave of Alabree.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5037,   1,   33554784) /* Setup */
+     , (5037,   3,  536870932) /* SoundTable */
+     , (5037,   8,  100667485) /* Icon */
+     , (5037,  22,  872415275) /* PhysicsEffectTable */;

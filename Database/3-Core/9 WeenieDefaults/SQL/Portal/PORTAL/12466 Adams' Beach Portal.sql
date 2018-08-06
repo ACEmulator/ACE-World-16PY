@@ -1,34 +1,30 @@
-/* Weenie - Adams' Beach Portal (12466) */
-DELETE FROM weenie WHERE class_Id = 12466;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12466, 'portaladamsbeach', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12466, 001 /* NAME_STRING */, 'Adams'' Beach Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12466, 001 /* SETUP_DID */, 33554867)
-     , (12466, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (12466, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12466', 'portaladamsbeach', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12466, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (12466, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (12466, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (12466, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (12466, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12466, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (12466,   1,      65536) /* ItemType - Portal */
+     , (12466,  16,         32) /* ItemUseable - Remote */
+     , (12466,  93,       3084) /* PhysicsState */
+     , (12466, 111,          1) /* PortalBitmask - Unrestricted */
+     , (12466, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12466, 001 /* STUCK_BOOL */, True)
-     , (12466, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (12466, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12466, 013 /* ETHEREAL_BOOL */, True)
-     , (12466, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (12466,   1, True ) /* Stuck */
+     , (12466,  11, False) /* IgnoreCollisions */
+     , (12466,  12, True ) /* ReportCollisions */
+     , (12466,  13, True ) /* Ethereal */
+     , (12466,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12466,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12466,   1, 'Adams'' Beach Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12466,   1,   33554867) /* Setup */
+     , (12466,   2,  150994947) /* MotionTable */
+     , (12466,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12466, 2, 1036451867, 74.931, 65.051, 0.005, -0.3646332, 0, 0, -0.9311512) /* DESTINATION_POSITION */;
-
+VALUES (12466, 2, 1036451867, 74.931, 65.051, 0.005, -0.3646332, 0, 0, -0.9311512) /* Destination */;

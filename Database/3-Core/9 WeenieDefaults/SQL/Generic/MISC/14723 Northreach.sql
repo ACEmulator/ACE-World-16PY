@@ -1,28 +1,24 @@
-/* Weenie - Northreach (14723) */
-DELETE FROM weenie WHERE class_Id = 14723;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14723, 'northreachsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14723, 001 /* NAME_STRING */, 'Northreach')
-     , (14723, 016 /* LONG_DESC_STRING */, 'Welcome to Northreach');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14723, 001 /* SETUP_DID */, 33557463)
-     , (14723, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14723', 'northreachsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14723, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14723, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14723, 008 /* MASS_INT */, 1800)
-     , (14723, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14723, 019 /* VALUE_INT */, 125)
-     , (14723, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14723,   1,        128) /* ItemType - Misc */
+     , (14723,   5,       9000) /* EncumbranceVal */
+     , (14723,   8,       1800) /* Mass */
+     , (14723,  16,          1) /* ItemUseable - No */
+     , (14723,  19,        125) /* Value */
+     , (14723,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14723, 001 /* STUCK_BOOL */, True)
-     , (14723, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14723, 013 /* ETHEREAL_BOOL */, False)
-     , (14723, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14723,   1, True ) /* Stuck */
+     , (14723,  12, True ) /* ReportCollisions */
+     , (14723,  13, False) /* Ethereal */
+     , (14723,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14723,   1, 'Northreach') /* Name */
+     , (14723,  16, 'Welcome to Northreach') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14723,   1,   33557463) /* Setup */
+     , (14723,   8,  100668115) /* Icon */;

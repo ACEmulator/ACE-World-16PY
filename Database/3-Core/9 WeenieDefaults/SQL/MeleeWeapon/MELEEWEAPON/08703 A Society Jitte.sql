@@ -1,58 +1,54 @@
-/* Weenie - A Society Jitte (8703) */
-DELETE FROM weenie WHERE class_Id = 8703;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8703, 'macenewbiequest', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8703, 001 /* NAME_STRING */, 'A Society Jitte');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8703, 001 /* SETUP_DID */, 33554740)
-     , (8703, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8703, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8703, 007 /* CLOTHINGBASE_DID */, 268435786)
-     , (8703, 008 /* ICON_DID */, 100668895)
-     , (8703, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8703, 036 /* MUTATE_FILTER_DID */, 234881044)
-     , (8703, 050 /* ICON_OVERLAY_DID */, 100675463);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8703', 'macenewbiequest', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8703, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (8703, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (8703, 005 /* ENCUMB_VAL_INT */, 350)
-     , (8703, 008 /* MASS_INT */, 140)
-     , (8703, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (8703, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8703, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8703, 019 /* VALUE_INT */, 1)
-     , (8703, 044 /* DAMAGE_INT */, 17)
-     , (8703, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (8703, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (8703, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (8703, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (8703, 049 /* WEAPON_TIME_INT */, 30)
-     , (8703, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (8703, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8703, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (8703, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (8703, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (8703, 109 /* ITEM_DIFFICULTY_INT */, 15)
-     , (8703, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8703, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8703, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (8703, 021 /* WEAPON_LENGTH_FLOAT */, 0.66)
-     , (8703, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (8703, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (8703, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (8703, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.15);
+VALUES (8703,   1,          1) /* ItemType - MeleeWeapon */
+     , (8703,   3,          4) /* PaletteTemplate - Brown */
+     , (8703,   5,        350) /* EncumbranceVal */
+     , (8703,   8,        140) /* Mass */
+     , (8703,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (8703,  16,          1) /* ItemUseable - No */
+     , (8703,  18,          1) /* UiEffects - Magical */
+     , (8703,  19,          1) /* Value */
+     , (8703,  44,         17) /* Damage */
+     , (8703,  45,          4) /* DamageType - Bludgeon */
+     , (8703,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (8703,  47,          4) /* AttackType - Slash */
+     , (8703,  48,          5) /* WeaponSkill - Mace */
+     , (8703,  49,         30) /* WeaponTime */
+     , (8703,  51,          1) /* CombatUse - Melee */
+     , (8703,  93,       1044) /* PhysicsState */
+     , (8703, 106,        150) /* ItemSpellcraft */
+     , (8703, 107,        400) /* ItemCurMana */
+     , (8703, 108,        400) /* ItemMaxMana */
+     , (8703, 109,         15) /* ItemDifficulty */
+     , (8703, 150,        103) /* HookPlacement - Hook */
+     , (8703, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8703, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (8703,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8703,   5,  -0.025) /* ManaRate */
+     , (8703,  21,    0.66) /* WeaponLength */
+     , (8703,  22,     0.5) /* DamageVariance */
+     , (8703,  29,    1.05) /* WeaponDefense */
+     , (8703,  62,       1) /* WeaponOffense */
+     , (8703, 147,    0.15) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8703,   1, 'A Society Jitte') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8703,   1,   33554740) /* Setup */
+     , (8703,   3,  536870932) /* SoundTable */
+     , (8703,   6,   67111919) /* PaletteBase */
+     , (8703,   7,  268435786) /* ClothingBase */
+     , (8703,   8,  100668895) /* Icon */
+     , (8703,  22,  872415275) /* PhysicsEffectTable */
+     , (8703,  36,  234881044) /* MutateFilter */
+     , (8703,  50,  100675463) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8703, 1612, 2) /* BloodDrinker2_SpellID */
-     , (8703, 341, 2) /* MaceMasteryOther2_SpellID */;
-
+VALUES (8703,   341,      2)  /* Light Weapon Mastery Other II */
+     , (8703,  1612,      2)  /* Aura of Blood Drinker Self II */;

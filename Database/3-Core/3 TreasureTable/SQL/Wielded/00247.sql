@@ -1,40 +1,39 @@
-INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
-VALUES (247, 316 /* Throwing Dart */, 0, 0, 0, 10, 0.1, 0.05, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (247, 343 /* Shouken */, 0, 0, 0, 10, 0.1, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 315 /* Throwing Dagger */, 0, 0, 0, 10, 0.1, 0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 320 /* Javelin */, 0, 0, 0, 5, 0.1, 0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 317 /* Djarid */, 0, 0, 0, 5, 0.1, 0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 310 /* Throwing Club */, 0, 0, 0, 4, 0.1, 0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 304 /* Throwing Axe */, 0, 0, 0, 6, 0.1, 0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 360 /* Yag */, 0, 0, 0, 0, 0, 0.08, 0, 0, 0, False, True, False, 0, 0, 0, 0)
-     , (247, 300 /* Arrow */, 0, 0, 0, 20, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (247, 307 /* Shortbow */, 0, 0, 0, 0, 0, 0.09, 0, 0, 0, True, True, True, 0, 0, 0, 0)
-     , (247, 300 /* Arrow */, 0, 0, 0, 17, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (247, 341 /* Shouyumi */, 0, 0, 0, 0, 0, 0.08, 0, 0, 0, True, True, True, 0, 0, 0, 0)
-     , (247, 300 /* Arrow */, 0, 0, 0, 20, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (247, 312 /* Light Crossbow */, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, True, True, True, 0, 0, 0, 0)
-     , (247, 305 /* Quarrel */, 0, 0, 0, 16, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (247, 308 /* Budiaq */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (247, 309 /* Club */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 313 /* Dabus */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 314 /* Dagger */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 303 /* Hand Axe */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 319 /* Jambiya */, 0, 0, 0, 0, 0, 0.02, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 321 /* Jitte */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 325 /* Kasrullah */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 326 /* Katar */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 328 /* Khanjar */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 329 /* Knife */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 331 /* Mace */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 352 /* Short Sword */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 342 /* Shou-ono */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 345 /* Simi */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 348 /* Spear */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 356 /* Tofun */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 357 /* Tungi */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 361 /* Yaoji */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 362 /* Yari */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 44 /* Buckler */, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (247, 91 /* Kite Shield */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (247, 93 /* Round Shield */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0);
-
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `stack_Size_Variance`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `set_Start`, `has_Sub_Set`, `continues_Previous_Set`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (247,   316,  0, 0,    0, 10, 0.1,    0.05, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Throwing Dart */
+     , (247,   343,  0, 0,    0, 10, 0.1,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Shouken */
+     , (247,   315,  0, 0,    0, 10, 0.1,    0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Throwing Dagger */
+     , (247,   320,  0, 0,    0, 5, 0.1,    0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Javelin */
+     , (247,   317,  0, 0,    0, 5, 0.1,    0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Djarid */
+     , (247,   310,  0, 0,    0, 4, 0.1,    0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Throwing Club */
+     , (247,   304,  0, 0,    0, 6, 0.1,    0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Throwing Axe */
+     , (247,   360,  0, 0,    0, 0, 0,    0.08, 0, 0, 0, False,  True, False, 0, 0, 0, 0) /* Yag */
+     , (247,   300,  0, 0,    0, 20, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Arrow */
+     , (247,   307,  0, 0,    0, 0, 0,    0.09, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0) /* Shortbow */
+     , (247,   300,  0, 0,    0, 17, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Arrow */
+     , (247,   341,  0, 0,    0, 0, 0,    0.08, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0) /* Shouyumi */
+     , (247,   300,  0, 0,    0, 20, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Arrow */
+     , (247,   312,  0, 0,    0, 0, 0,     0.2, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0) /* Light Crossbow */
+     , (247,   305,  0, 0,    0, 16, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Quarrel */
+     , (247,   308,  0, 0,    0, 0, 0,    0.05, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Budiaq */
+     , (247,   309,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Club */
+     , (247,   313,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Dabus */
+     , (247,   314,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Dagger */
+     , (247,   303,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Hand Axe */
+     , (247,   319,  0, 0,    0, 0, 0,    0.02, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Jambiya */
+     , (247,   321,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Jitte */
+     , (247,   325,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Kasrullah */
+     , (247,   326,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Katar */
+     , (247,   328,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Khanjar */
+     , (247,   329,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Knife */
+     , (247,   331,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Mace */
+     , (247,   352,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Short Sword */
+     , (247,   342,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Shou-ono */
+     , (247,   345,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Simi */
+     , (247,   348,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Spear */
+     , (247,   356,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Tofun */
+     , (247,   357,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Tungi */
+     , (247,   361,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Yaoji */
+     , (247,   362,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Yari */
+     , (247,    44,  0, 0,    0, 0, 0,     0.2, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Buckler */
+     , (247,    91,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Kite Shield */
+     , (247,    93,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Round Shield */;

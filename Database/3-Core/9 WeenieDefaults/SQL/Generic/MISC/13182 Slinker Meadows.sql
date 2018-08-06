@@ -1,28 +1,24 @@
-/* Weenie - Slinker Meadows (13182) */
-DELETE FROM weenie WHERE class_Id = 13182;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13182, 'slinkermeadowssign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13182, 001 /* NAME_STRING */, 'Slinker Meadows')
-     , (13182, 016 /* LONG_DESC_STRING */, 'Welcome to Slinker Meadows');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13182, 001 /* SETUP_DID */, 33557463)
-     , (13182, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('13182', 'slinkermeadowssign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13182, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (13182, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (13182, 008 /* MASS_INT */, 1800)
-     , (13182, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (13182, 019 /* VALUE_INT */, 125)
-     , (13182, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (13182,   1,        128) /* ItemType - Misc */
+     , (13182,   5,       9000) /* EncumbranceVal */
+     , (13182,   8,       1800) /* Mass */
+     , (13182,  16,          1) /* ItemUseable - No */
+     , (13182,  19,        125) /* Value */
+     , (13182,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13182, 001 /* STUCK_BOOL */, True)
-     , (13182, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (13182, 013 /* ETHEREAL_BOOL */, False)
-     , (13182, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (13182,   1, True ) /* Stuck */
+     , (13182,  12, True ) /* ReportCollisions */
+     , (13182,  13, False) /* Ethereal */
+     , (13182,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (13182,   1, 'Slinker Meadows') /* Name */
+     , (13182,  16, 'Welcome to Slinker Meadows') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (13182,   1,   33557463) /* Setup */
+     , (13182,   8,  100668115) /* Icon */;

@@ -1,36 +1,32 @@
-/* Weenie - Sliced Nanners (22774) */
-DELETE FROM weenie WHERE class_Id = 22774;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22774, 'nannersliced', 51 /* Stackable_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22774, 001 /* NAME_STRING */, 'Sliced Nanners')
-     , (22774, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (22774, 015 /* SHORT_DESC_STRING */, 'Nanners that have painstakingly been sliced into bite size pieces.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22774, 001 /* SETUP_DID */, 33558106)
-     , (22774, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22774, 008 /* ICON_DID */, 100673825)
-     , (22774, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22774', 'nannersliced', 51) /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22774, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (22774, 005 /* ENCUMB_VAL_INT */, 30)
-     , (22774, 008 /* MASS_INT */, 25)
-     , (22774, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22774, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (22774, 012 /* STACK_SIZE_INT */, 1)
-     , (22774, 013 /* STACK_UNIT_ENCUMB_INT */, 30)
-     , (22774, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (22774, 015 /* STACK_UNIT_VALUE_INT */, 60)
-     , (22774, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (22774, 019 /* VALUE_INT */, 60)
-     , (22774, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22774, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22774, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (22774,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (22774,   5,         30) /* EncumbranceVal */
+     , (22774,   8,         25) /* Mass */
+     , (22774,   9,          0) /* ValidLocations - None */
+     , (22774,  11,        100) /* MaxStackSize */
+     , (22774,  12,          1) /* StackSize */
+     , (22774,  13,         30) /* StackUnitEncumbrance */
+     , (22774,  14,         25) /* StackUnitMass */
+     , (22774,  15,         60) /* StackUnitValue */
+     , (22774,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (22774,  19,         60) /* Value */
+     , (22774,  93,       1044) /* PhysicsState */
+     , (22774, 150,        103) /* HookPlacement - Hook */
+     , (22774, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22774, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (22774,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22774,   1, 'Sliced Nanners') /* Name */
+     , (22774,  14, 'This item is used in cooking.') /* Use */
+     , (22774,  15, 'Nanners that have painstakingly been sliced into bite size pieces.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22774,   1,   33558106) /* Setup */
+     , (22774,   3,  536870932) /* SoundTable */
+     , (22774,   8,  100673825) /* Icon */
+     , (22774,  22,  872415275) /* PhysicsEffectTable */;

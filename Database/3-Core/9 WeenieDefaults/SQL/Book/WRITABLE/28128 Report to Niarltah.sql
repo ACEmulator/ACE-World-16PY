@@ -1,40 +1,37 @@
-/* Weenie - Report to Niarltah (28128) */
-DELETE FROM weenie WHERE class_Id = 28128;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28128, 'reportikakhe10', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28128, 001 /* NAME_STRING */, 'Report to Niarltah')
-     , (28128, 033 /* QUEST_STRING */, 'NoteBurunHistory9');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28128, 001 /* SETUP_DID */, 33554772)
-     , (28128, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28128, 008 /* ICON_DID */, 100667470)
-     , (28128, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28128', 'reportikakhe10', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28128, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28128, 005 /* ENCUMB_VAL_INT */, 25)
-     , (28128, 008 /* MASS_INT */, 5)
-     , (28128, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28128, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28128, 019 /* VALUE_INT */, 10)
-     , (28128, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28128, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28128, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28128, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (28128, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (28128,   1,       8192) /* ItemType - Writable */
+     , (28128,   5,         25) /* EncumbranceVal */
+     , (28128,   8,          5) /* Mass */
+     , (28128,   9,          0) /* ValidLocations - None */
+     , (28128,  16,          8) /* ItemUseable - Contained */
+     , (28128,  19,         10) /* Value */
+     , (28128,  33,          1) /* Bonded - Bonded */
+     , (28128,  93,       1044) /* PhysicsState */
+     , (28128, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28128, 022 /* INSCRIBABLE_BOOL */, False)
-     , (28128, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28128,  22, False) /* Inscribable */
+     , (28128,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28128,  39,    1.22) /* DefaultScale */
+     , (28128,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28128,   1, 'Report to Niarltah') /* Name */
+     , (28128,  33, 'NoteBurunHistory9') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28128,   1,   33554772) /* Setup */
+     , (28128,   3,  536870932) /* SoundTable */
+     , (28128,   8,  100667470) /* Icon */
+     , (28128,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28128, 9, 1000) /* Book Data */;
+VALUES (28128, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28128, 0, 4294967295, 'Ikakhe', 'prewritten', False, 'We are certainly nearing the end of the book now Niarltah. The pages here are much fresher, though still ancient by our standards.
@@ -67,4 +64,3 @@ Food sources that the Burun consume are tainted by the contagion that nearly era
 
 The last remaining Fiazhat have used that time wisely and send assassins to kill the first amongst the Burun leaders, Browerk. They are captured and subjected to a unique form of torture that entraps the soul of the creatures and tears all the living secrets from within. Armed with the knowledge of the last Fiazhat settlement on all of Bur the Burun converge and nearly eradicate the once great race.
 ');
-

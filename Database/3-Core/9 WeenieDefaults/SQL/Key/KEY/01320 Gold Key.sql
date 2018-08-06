@@ -1,33 +1,29 @@
-/* Weenie - Gold Key (1320) */
-DELETE FROM weenie WHERE class_Id = 1320;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1320, 'keysewerdoor', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1320, 001 /* NAME_STRING */, 'Gold Key')
-     , (1320, 013 /* KEY_CODE_STRING */, 'keyeasthamsewer')
-     , (1320, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (1320, 015 /* SHORT_DESC_STRING */, 'This key probably opens a door.')
-     , (1320, 016 /* LONG_DESC_STRING */, 'This key opens a door in the Eastham Sewer.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1320, 001 /* SETUP_DID */, 33554784)
-     , (1320, 008 /* ICON_DID */, 100667483)
-     , (1320, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1320', 'keysewerdoor', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1320, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (1320, 005 /* ENCUMB_VAL_INT */, 50)
-     , (1320, 008 /* MASS_INT */, 20)
-     , (1320, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (1320, 019 /* VALUE_INT */, 100)
-     , (1320, 091 /* MAX_STRUCTURE_INT */, 3)
-     , (1320, 092 /* STRUCTURE_INT */, 3)
-     , (1320, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (1320, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (1320,   1,      16384) /* ItemType - Key */
+     , (1320,   5,         50) /* EncumbranceVal */
+     , (1320,   8,         20) /* Mass */
+     , (1320,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (1320,  19,        100) /* Value */
+     , (1320,  91,          3) /* MaxStructure */
+     , (1320,  92,          3) /* Structure */
+     , (1320,  93,       1044) /* PhysicsState */
+     , (1320,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1320, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1320, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1320,  22, True ) /* Inscribable */
+     , (1320,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1320,   1, 'Gold Key') /* Name */
+     , (1320,  13, 'keyeasthamsewer') /* KeyCode */
+     , (1320,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (1320,  15, 'This key probably opens a door.') /* ShortDesc */
+     , (1320,  16, 'This key opens a door in the Eastham Sewer.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1320,   1,   33554784) /* Setup */
+     , (1320,   8,  100667483) /* Icon */
+     , (1320,  22,  872415275) /* PhysicsEffectTable */;

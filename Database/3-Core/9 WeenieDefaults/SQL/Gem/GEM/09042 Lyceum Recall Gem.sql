@@ -1,51 +1,47 @@
-/* Weenie - Lyceum Recall Gem (9042) */
-DELETE FROM weenie WHERE class_Id = 9042;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9042, 'gemlyceumrecall', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9042, 001 /* NAME_STRING */, 'Lyceum Recall Gem')
-     , (9042, 015 /* SHORT_DESC_STRING */, 'A portal gem.')
-     , (9042, 016 /* LONG_DESC_STRING */, 'A portal gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9042, 001 /* SETUP_DID */, 33556769)
-     , (9042, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9042, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (9042, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (9042, 008 /* ICON_DID */, 100670993)
-     , (9042, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9042, 028 /* SPELL_DID */, 2358 /* RecallLyceum_SpellID */)
-     , (9042, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9042', 'gemlyceumrecall', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9042, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (9042, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (9042, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9042, 008 /* MASS_INT */, 10)
-     , (9042, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9042, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (9042, 012 /* STACK_SIZE_INT */, 1)
-     , (9042, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (9042, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (9042, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (9042, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (9042, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (9042, 019 /* VALUE_INT */, 10)
-     , (9042, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9042, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (9042, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (9042, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (9042, 107 /* ITEM_CUR_MANA_INT */, 250)
-     , (9042, 108 /* ITEM_MAX_MANA_INT */, 250)
-     , (9042, 109 /* ITEM_DIFFICULTY_INT */, 50)
-     , (9042, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (9042, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (9042,   1,       2048) /* ItemType - Gem */
+     , (9042,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (9042,   5,         10) /* EncumbranceVal */
+     , (9042,   8,         10) /* Mass */
+     , (9042,   9,          0) /* ValidLocations - None */
+     , (9042,  11,          1) /* MaxStackSize */
+     , (9042,  12,          1) /* StackSize */
+     , (9042,  13,         10) /* StackUnitEncumbrance */
+     , (9042,  14,         10) /* StackUnitMass */
+     , (9042,  15,         10) /* StackUnitValue */
+     , (9042,  16,          8) /* ItemUseable - Contained */
+     , (9042,  18,          1) /* UiEffects - Magical */
+     , (9042,  19,         10) /* Value */
+     , (9042,  33,          1) /* Bonded - Bonded */
+     , (9042,  93,       3092) /* PhysicsState */
+     , (9042,  94,         16) /* TargetType - Creature */
+     , (9042, 106,        210) /* ItemSpellcraft */
+     , (9042, 107,        250) /* ItemCurMana */
+     , (9042, 108,        250) /* ItemMaxMana */
+     , (9042, 109,         50) /* ItemDifficulty */
+     , (9042, 110,          0) /* ItemAllegianceRankLimit */
+     , (9042, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9042, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (9042, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9042, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (9042, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9042,  15, True ) /* LightsStatus */
+     , (9042,  22, True ) /* Inscribable */
+     , (9042,  23, True ) /* DestroyOnSell */
+     , (9042,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9042,   1, 'Lyceum Recall Gem') /* Name */
+     , (9042,  15, 'A portal gem.') /* ShortDesc */
+     , (9042,  16, 'A portal gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9042,   1,   33556769) /* Setup */
+     , (9042,   3,  536870932) /* SoundTable */
+     , (9042,   6,   67111919) /* PaletteBase */
+     , (9042,   7,  268435723) /* ClothingBase */
+     , (9042,   8,  100670993) /* Icon */
+     , (9042,  22,  872415275) /* PhysicsEffectTable */
+     , (9042,  28,       2358) /* Spell - Lyceum Recall */
+     , (9042,  36,  234881046) /* MutateFilter */;

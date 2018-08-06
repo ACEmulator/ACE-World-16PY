@@ -1,36 +1,32 @@
-/* Weenie - Royal Hive Portal (11207) */
-DELETE FROM weenie WHERE class_Id = 11207;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11207, 'portalcentralhive2-xp', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11207, 001 /* NAME_STRING */, 'Royal Hive Portal')
-     , (11207, 037 /* QUEST_RESTRICTION_STRING */, 'CentralHivePortalOK');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11207, 001 /* SETUP_DID */, 33555925)
-     , (11207, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (11207, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11207', 'portalcentralhive2-xp', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11207, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (11207, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (11207, 086 /* MIN_LEVEL_INT */, 70)
-     , (11207, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (11207, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (11207, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11207, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (11207,   1,      65536) /* ItemType - Portal */
+     , (11207,  16,         32) /* ItemUseable - Remote */
+     , (11207,  86,         70) /* MinLevel */
+     , (11207,  93,       3084) /* PhysicsState */
+     , (11207, 111,         49) /* PortalBitmask */
+     , (11207, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11207, 001 /* STUCK_BOOL */, True)
-     , (11207, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (11207, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (11207, 013 /* ETHEREAL_BOOL */, True)
-     , (11207, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (11207,   1, True ) /* Stuck */
+     , (11207,  11, False) /* IgnoreCollisions */
+     , (11207,  12, True ) /* ReportCollisions */
+     , (11207,  13, True ) /* Ethereal */
+     , (11207,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11207,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11207,   1, 'Royal Hive Portal') /* Name */
+     , (11207,  37, 'CentralHivePortalOK') /* QuestRestriction */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11207,   1,   33555925) /* Setup */
+     , (11207,   2,  150994947) /* MotionTable */
+     , (11207,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11207, 2, 42467948, 40, -70, -12, 0.7660444, 0, 0, -0.6427876) /* DESTINATION_POSITION */;
-
+VALUES (11207, 2, 42467948, 40, -70, -12, 0.7660444, 0, 0, -0.6427876) /* Destination */;

@@ -1,41 +1,37 @@
-/* Weenie - Alatar's Battle Axe (2026) */
-DELETE FROM weenie WHERE class_Id = 2026;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2026, 'axealatar', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2026, 001 /* NAME_STRING */, 'Alatar''s Battle Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2026, 001 /* SETUP_DID */, 33554725)
-     , (2026, 008 /* ICON_DID */, 100667606)
-     , (2026, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2026', 'axealatar', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2026, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (2026, 005 /* ENCUMB_VAL_INT */, 400)
-     , (2026, 008 /* MASS_INT */, 300)
-     , (2026, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (2026, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2026, 019 /* VALUE_INT */, 1100)
-     , (2026, 044 /* DAMAGE_INT */, 14)
-     , (2026, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (2026, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (2026, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (2026, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (2026, 049 /* WEAPON_TIME_INT */, 40)
-     , (2026, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (2026, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2026, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (2026, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2026, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (2026, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (2026, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (2026, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (2026,   1,          1) /* ItemType - MeleeWeapon */
+     , (2026,   5,        400) /* EncumbranceVal */
+     , (2026,   8,        300) /* Mass */
+     , (2026,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (2026,  16,          1) /* ItemUseable - No */
+     , (2026,  19,       1100) /* Value */
+     , (2026,  44,         14) /* Damage */
+     , (2026,  45,          1) /* DamageType - Slash */
+     , (2026,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (2026,  47,          4) /* AttackType - Slash */
+     , (2026,  48,          1) /* WeaponSkill - Axe */
+     , (2026,  49,         40) /* WeaponTime */
+     , (2026,  51,          1) /* CombatUse - Melee */
+     , (2026,  93,       1044) /* PhysicsState */
+     , (2026, 150,        103) /* HookPlacement - Hook */
+     , (2026, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2026, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2026,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2026,  21,    0.75) /* WeaponLength */
+     , (2026,  22,     0.6) /* DamageVariance */
+     , (2026,  29,       1) /* WeaponDefense */
+     , (2026,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2026,   1, 'Alatar''s Battle Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2026,   1,   33554725) /* Setup */
+     , (2026,   8,  100667606) /* Icon */
+     , (2026,  22,  872415275) /* PhysicsEffectTable */;

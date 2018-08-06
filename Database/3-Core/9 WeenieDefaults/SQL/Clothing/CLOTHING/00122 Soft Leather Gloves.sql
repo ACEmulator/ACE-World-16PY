@@ -1,47 +1,43 @@
-/* Weenie - Soft Leather Gloves (122) */
-DELETE FROM weenie WHERE class_Id = 122;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (122, 'glovessoftleather', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (122, 001 /* NAME_STRING */, 'Soft Leather Gloves');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (122, 001 /* SETUP_DID */, 33554648)
-     , (122, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (122, 007 /* CLOTHINGBASE_DID */, 268435464)
-     , (122, 008 /* ICON_DID */, 100667319)
-     , (122, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (122, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('122', 'glovessoftleather', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (122, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (122, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (122, 004 /* CLOTHING_PRIORITY_INT */, 32768 /* Hands */)
-     , (122, 005 /* ENCUMB_VAL_INT */, 180)
-     , (122, 008 /* MASS_INT */, 90)
-     , (122, 009 /* LOCATIONS_INT */, 32 /* HAND_WEAR_LOC */)
-     , (122, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (122, 019 /* VALUE_INT */, 26)
-     , (122, 027 /* ARMOR_TYPE_INT */, 1)
-     , (122, 028 /* ARMOR_LEVEL_INT */, 10)
-     , (122, 044 /* DAMAGE_INT */, 0)
-     , (122, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (122, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (122, 012 /* SHADE_FLOAT */, 0.8)
-     , (122, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (122, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (122, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (122, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (122, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.5)
-     , (122, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.3)
-     , (122, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (122, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75);
+VALUES (122,   1,          4) /* ItemType - Clothing */
+     , (122,   3,          4) /* PaletteTemplate - Brown */
+     , (122,   4,      32768) /* ClothingPriority - Hands */
+     , (122,   5,        180) /* EncumbranceVal */
+     , (122,   8,         90) /* Mass */
+     , (122,   9,         32) /* ValidLocations - HandWear */
+     , (122,  16,          1) /* ItemUseable - No */
+     , (122,  19,         26) /* Value */
+     , (122,  27,          1) /* ArmorType */
+     , (122,  28,         10) /* ArmorLevel */
+     , (122,  44,          0) /* Damage */
+     , (122,  45,          4) /* DamageType - Bludgeon */
+     , (122,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (122, 022 /* INSCRIBABLE_BOOL */, True)
-     , (122, 100 /* DYABLE_BOOL */, True);
+VALUES (122,  22, True ) /* Inscribable */
+     , (122, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (122,  12,     0.8) /* Shade */
+     , (122,  13,       1) /* ArmorModVsSlash */
+     , (122,  14,     0.8) /* ArmorModVsPierce */
+     , (122,  15,       1) /* ArmorModVsBludgeon */
+     , (122,  16,     0.5) /* ArmorModVsCold */
+     , (122,  17,     0.5) /* ArmorModVsFire */
+     , (122,  18,     0.3) /* ArmorModVsAcid */
+     , (122,  19,     0.6) /* ArmorModVsElectric */
+     , (122,  22,    0.75) /* DamageVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (122,   1, 'Soft Leather Gloves') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (122,   1,   33554648) /* Setup */
+     , (122,   6,   67108990) /* PaletteBase */
+     , (122,   7,  268435464) /* ClothingBase */
+     , (122,   8,  100667319) /* Icon */
+     , (122,  22,  872415275) /* PhysicsEffectTable */
+     , (122,  36,  234881046) /* MutateFilter */;

@@ -1,43 +1,39 @@
-/* Weenie - Chilly Air Level 3 (4999) */
-DELETE FROM weenie WHERE class_Id = 4999;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4999, 'airchillylvl3', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4999, 001 /* NAME_STRING */, 'Chilly Air Level 3')
-     , (4999, 017 /* ACTIVATION_TALK_STRING */, 'You suffer %i points of damage from the unbearable cold!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4999, 001 /* SETUP_DID */, 33556024)
-     , (4999, 003 /* SOUND_TABLE_DID */, 536870996)
-     , (4999, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4999', 'airchillylvl3', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4999, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4999, 005 /* ENCUMB_VAL_INT */, 1)
-     , (4999, 008 /* MASS_INT */, 1)
-     , (4999, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4999, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4999, 019 /* VALUE_INT */, 1)
-     , (4999, 044 /* DAMAGE_INT */, 8)
-     , (4999, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (4999, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (4999, 119 /* ACTIVE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4999, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (4999, 039 /* DEFAULT_SCALE_FLOAT */, 1.5)
-     , (4999, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 5)
-     , (4999, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0.4);
+VALUES (4999,   1,        128) /* ItemType - Misc */
+     , (4999,   5,          1) /* EncumbranceVal */
+     , (4999,   8,          1) /* Mass */
+     , (4999,   9,          0) /* ValidLocations - None */
+     , (4999,  16,          1) /* ItemUseable - No */
+     , (4999,  19,          1) /* Value */
+     , (4999,  44,          8) /* Damage */
+     , (4999,  45,          8) /* DamageType - Cold */
+     , (4999,  93,         12) /* PhysicsState */
+     , (4999, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4999, 001 /* STUCK_BOOL */, True)
-     , (4999, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (4999, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4999, 013 /* ETHEREAL_BOOL */, True)
-     , (4999, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (4999, 018 /* VISIBILITY_BOOL */, True)
-     , (4999, 024 /* UI_HIDDEN_BOOL */, True)
-     , (4999, 055 /* IS_HOT_BOOL */, True);
+VALUES (4999,   1, True ) /* Stuck */
+     , (4999,  11, False) /* IgnoreCollisions */
+     , (4999,  12, True ) /* ReportCollisions */
+     , (4999,  13, True ) /* Ethereal */
+     , (4999,  14, False) /* GravityStatus */
+     , (4999,  18, True ) /* Visibility */
+     , (4999,  24, True ) /* UiHidden */
+     , (4999,  55, True ) /* IsHot */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4999,  22,     0.5) /* DamageVariance */
+     , (4999,  39,     1.5) /* DefaultScale */
+     , (4999, 105,       5) /* HotspotCycleTime */
+     , (4999, 106,     0.4) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4999,   1, 'Chilly Air Level 3') /* Name */
+     , (4999,  17, 'You suffer %i points of damage from the unbearable cold!') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4999,   1,   33556024) /* Setup */
+     , (4999,   3,  536870996) /* SoundTable */
+     , (4999,   8,  100667465) /* Icon */;

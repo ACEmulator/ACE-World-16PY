@@ -1,64 +1,60 @@
-/* Weenie - Fine Smoldering Atlan Spear (6275) */
-DELETE FROM weenie WHERE class_Id = 6275;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6275, 'speargoodsmolderingminor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6275, 001 /* NAME_STRING */, 'Fine Smoldering Atlan Spear');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6275, 001 /* SETUP_DID */, 33556335)
-     , (6275, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6275, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6275, 007 /* CLOTHINGBASE_DID */, 268435914)
-     , (6275, 008 /* ICON_DID */, 100670555)
-     , (6275, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6275, 037 /* ITEM_SKILL_LIMIT_DID */, 9);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6275', 'speargoodsmolderingminor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6275, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6275, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (6275, 005 /* ENCUMB_VAL_INT */, 700)
-     , (6275, 008 /* MASS_INT */, 800)
-     , (6275, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6275, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6275, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6275, 019 /* VALUE_INT */, 3000)
-     , (6275, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6275, 044 /* DAMAGE_INT */, 17)
-     , (6275, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (6275, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6275, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (6275, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (6275, 049 /* WEAPON_TIME_INT */, 20)
-     , (6275, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6275, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6275, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (6275, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (6275, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (6275, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200)
-     , (6275, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6275, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6275, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (6275, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (6275, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (6275, 029 /* WEAPON_DEFENSE_FLOAT */, 1.03)
-     , (6275, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6275, 062 /* WEAPON_OFFENSE_FLOAT */, 1.03);
+VALUES (6275,   1,          1) /* ItemType - MeleeWeapon */
+     , (6275,   3,         14) /* PaletteTemplate - Red */
+     , (6275,   5,        700) /* EncumbranceVal */
+     , (6275,   8,        800) /* Mass */
+     , (6275,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6275,  16,          1) /* ItemUseable - No */
+     , (6275,  18,          1) /* UiEffects - Magical */
+     , (6275,  19,       3000) /* Value */
+     , (6275,  33,          1) /* Bonded - Bonded */
+     , (6275,  44,         17) /* Damage */
+     , (6275,  45,         16) /* DamageType - Fire */
+     , (6275,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6275,  47,          2) /* AttackType - Thrust */
+     , (6275,  48,          9) /* WeaponSkill - Spear */
+     , (6275,  49,         20) /* WeaponTime */
+     , (6275,  51,          1) /* CombatUse - Melee */
+     , (6275,  93,       1044) /* PhysicsState */
+     , (6275, 106,        100) /* ItemSpellcraft */
+     , (6275, 107,        500) /* ItemCurMana */
+     , (6275, 108,        500) /* ItemMaxMana */
+     , (6275, 115,        200) /* ItemSkillLevelLimit */
+     , (6275, 150,        103) /* HookPlacement - Hook */
+     , (6275, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6275, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6275, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6275, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6275,  22, True ) /* Inscribable */
+     , (6275,  23, True ) /* DestroyOnSell */
+     , (6275,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6275,   5,  -0.025) /* ManaRate */
+     , (6275,  21,     1.5) /* WeaponLength */
+     , (6275,  22,     0.6) /* DamageVariance */
+     , (6275,  29,    1.03) /* WeaponDefense */
+     , (6275,  39,       1) /* DefaultScale */
+     , (6275,  62,    1.03) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6275,   1, 'Fine Smoldering Atlan Spear') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6275,   1,   33556335) /* Setup */
+     , (6275,   3,  536870932) /* SoundTable */
+     , (6275,   6,   67111919) /* PaletteBase */
+     , (6275,   7,  268435914) /* ClothingBase */
+     , (6275,   8,  100670555) /* Icon */
+     , (6275,  22,  872415275) /* PhysicsEffectTable */
+     , (6275,  37,          9) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6275, 1602, 2) /* Defender3_SpellID */
-     , (6275, 1589, 2) /* HeartSeeker3_SpellID */
-     , (6275, 1613, 2) /* BloodDrinker3_SpellID */
-     , (6275, 1091, 2) /* FireProtectionSelf3_SpellID */
-     , (6275, 1329, 2) /* StrengthSelf3_SpellID */
-     , (6275, 1624, 2) /* SwiftKiller3_SpellID */;
-
+VALUES (6275,  1091,      2)  /* Fire Protection Self III */
+     , (6275,  1329,      2)  /* Strength Self III */
+     , (6275,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (6275,  1602,      2)  /* Aura of Defender Self III */
+     , (6275,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6275,  1624,      2)  /* Aura of Swift Killer Self III */;

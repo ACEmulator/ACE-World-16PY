@@ -1,49 +1,45 @@
-/* Weenie - Worn Chest (3647) */
-DELETE FROM weenie WHERE class_Id = 3647;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3647, 'chestcarvedcavearrows', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3647, 001 /* NAME_STRING */, 'Worn Chest')
-     , (3647, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3647, 001 /* SETUP_DID */, 33554556)
-     , (3647, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (3647, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (3647, 008 /* ICON_DID */, 100667424)
-     , (3647, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3647', 'chestcarvedcavearrows', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3647, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (3647, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (3647, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (3647, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (3647, 008 /* MASS_INT */, 3000)
-     , (3647, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (3647, 019 /* VALUE_INT */, 3000)
-     , (3647, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (3647, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (3647, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (3647, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3647, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (3647, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3647, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (3647, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (3647, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (3647, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (3647,   1,        512) /* ItemType - Container */
+     , (3647,   5,       9000) /* EncumbranceVal */
+     , (3647,   6,         -1) /* ItemsCapacity */
+     , (3647,   7,         -1) /* ContainersCapacity */
+     , (3647,   8,       3000) /* Mass */
+     , (3647,  16,         48) /* ItemUseable - ViewedRemote */
+     , (3647,  19,       3000) /* Value */
+     , (3647,  81,          1) /* MaxGeneratedObjects */
+     , (3647,  82,          1) /* InitGeneratedObjects */
+     , (3647,  83,          2) /* ActivationResponse - Use */
+     , (3647,  93,       1048) /* PhysicsState */
+     , (3647,  96,        500) /* EncumbranceCapacity */
+     , (3647, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3647, 001 /* STUCK_BOOL */, True)
-     , (3647, 002 /* OPEN_BOOL */, False)
-     , (3647, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (3647, 013 /* ETHEREAL_BOOL */, False)
-     , (3647, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (3647, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (3647,   1, True ) /* Stuck */
+     , (3647,   2, False) /* Open */
+     , (3647,  12, True ) /* ReportCollisions */
+     , (3647,  13, False) /* Ethereal */
+     , (3647,  33, False) /* ResetMessagePending */
+     , (3647,  34, False) /* DefaultOpen */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3647,  39,       1) /* DefaultScale */
+     , (3647,  41,      60) /* RegenerationInterval */
+     , (3647,  43,       1) /* GeneratorRadius */
+     , (3647,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3647,   1, 'Worn Chest') /* Name */
+     , (3647,  14, 'Use this item to open it and see its contents.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3647,   1,   33554556) /* Setup */
+     , (3647,   2,  150994948) /* MotionTable */
+     , (3647,   3,  536870945) /* SoundTable */
+     , (3647,   8,  100667424) /* Icon */
+     , (3647,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3647, 1, 3646, 1800, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Enchanted Fire Arrow (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */;
-
+VALUES (3647, 1, 3646, 1800, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

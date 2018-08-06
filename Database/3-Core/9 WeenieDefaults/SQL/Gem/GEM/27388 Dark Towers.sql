@@ -1,50 +1,46 @@
-/* Weenie - Dark Towers (27388) */
-DELETE FROM weenie WHERE class_Id = 27388;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27388, 'gemquestdarktowers', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27388, 001 /* NAME_STRING */, 'Dark Towers')
-     , (27388, 014 /* USE_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 80+)')
-     , (27388, 016 /* LONG_DESC_STRING */, 'Take heed! With the loss of our Lord, many shadows seek leadership other than the old generals. A new dark power is rising near the crater where our Lord was first imprisoned. Come and bask in the dark glory! We shall rise anew and consume this land with darkness!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27388, 001 /* SETUP_DID */, 33556769)
-     , (27388, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27388, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27388, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (27388, 008 /* ICON_DID */, 100668364)
-     , (27388, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27388, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (27388, 031 /* LINKED_PORTAL_ONE_DID */, 27399 /* Dark Towers */)
-     , (27388, 050 /* ICON_OVERLAY_DID */, 100676404);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27388', 'gemquestdarktowers', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27388, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (27388, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (27388, 005 /* ENCUMB_VAL_INT */, 10)
-     , (27388, 008 /* MASS_INT */, 10)
-     , (27388, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27388, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (27388, 012 /* STACK_SIZE_INT */, 1)
-     , (27388, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (27388, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (27388, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (27388, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (27388, 019 /* VALUE_INT */, 500)
-     , (27388, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (27388, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (27388, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (27388, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (27388, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (27388, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (27388, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (27388, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27388, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (27388,   1,       2048) /* ItemType - Gem */
+     , (27388,   3,         14) /* PaletteTemplate - Red */
+     , (27388,   5,         10) /* EncumbranceVal */
+     , (27388,   8,         10) /* Mass */
+     , (27388,   9,          0) /* ValidLocations - None */
+     , (27388,  11,          1) /* MaxStackSize */
+     , (27388,  12,          1) /* StackSize */
+     , (27388,  13,         10) /* StackUnitEncumbrance */
+     , (27388,  14,         10) /* StackUnitMass */
+     , (27388,  15,        500) /* StackUnitValue */
+     , (27388,  16,          8) /* ItemUseable - Contained */
+     , (27388,  19,        500) /* Value */
+     , (27388,  93,       3092) /* PhysicsState */
+     , (27388,  94,         16) /* TargetType - Creature */
+     , (27388, 106,        210) /* ItemSpellcraft */
+     , (27388, 107,         50) /* ItemCurMana */
+     , (27388, 108,         50) /* ItemMaxMana */
+     , (27388, 109,          0) /* ItemDifficulty */
+     , (27388, 110,          0) /* ItemAllegianceRankLimit */
+     , (27388, 150,        103) /* HookPlacement - Hook */
+     , (27388, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27388, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (27388, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27388, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27388,  15, True ) /* LightsStatus */
+     , (27388,  22, True ) /* Inscribable */
+     , (27388,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27388,   1, 'Dark Towers') /* Name */
+     , (27388,  14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 80+)') /* Use */
+     , (27388,  16, 'Take heed! With the loss of our Lord, many shadows seek leadership other than the old generals. A new dark power is rising near the crater where our Lord was first imprisoned. Come and bask in the dark glory! We shall rise anew and consume this land with darkness!') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27388,   1,   33556769) /* Setup */
+     , (27388,   3,  536870932) /* SoundTable */
+     , (27388,   6,   67111919) /* PaletteBase */
+     , (27388,   7,  268435723) /* ClothingBase */
+     , (27388,   8,  100668364) /* Icon */
+     , (27388,  22,  872415275) /* PhysicsEffectTable */
+     , (27388,  28,        157) /* Spell - Summon Primary Portal I */
+     , (27388,  31,      27399) /* LinkedPortalOne - Dark Towers */
+     , (27388,  50,  100676404) /* IconOverlay */;

@@ -1,66 +1,62 @@
-/* Weenie - Renegade Crossbow (24569) */
-DELETE FROM weenie WHERE class_Id = 24569;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24569, 'crossbowrenegaderaidsmonster', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24569, 001 /* NAME_STRING */, 'Renegade Crossbow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24569, 001 /* SETUP_DID */, 33558377)
-     , (24569, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24569, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24569, 008 /* ICON_DID */, 100674394)
-     , (24569, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24569, 030 /* PHYSICS_SCRIPT_DID */, 87 /* PS_BreatheLightning */)
-     , (24569, 037 /* ITEM_SKILL_LIMIT_DID */, 3);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24569', 'crossbowrenegaderaidsmonster', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24569, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (24569, 005 /* ENCUMB_VAL_INT */, 1250)
-     , (24569, 008 /* MASS_INT */, 220)
-     , (24569, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (24569, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24569, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (24569, 019 /* VALUE_INT */, 8000)
-     , (24569, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (24569, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (24569, 044 /* DAMAGE_INT */, 0)
-     , (24569, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (24569, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (24569, 049 /* WEAPON_TIME_INT */, 60)
-     , (24569, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (24569, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (24569, 052 /* PARENT_LOCATION_INT */, 2)
-     , (24569, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (24569, 060 /* WEAPON_RANGE_INT */, 192)
-     , (24569, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (24569, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (24569, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (24569, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (24569, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 290)
-     , (24569, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24569, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (24569, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (24569, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (24569, 160 /* WIELD_DIFFICULTY_INT */, 30);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24569, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (24569, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (24569, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (24569, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (24569, 039 /* DEFAULT_SCALE_FLOAT */, 1.5)
-     , (24569, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (24569, 063 /* DAMAGE_MOD_FLOAT */, 2.75)
-     , (24569, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 4);
+VALUES (24569,   1,        256) /* ItemType - MissileWeapon */
+     , (24569,   5,       1250) /* EncumbranceVal */
+     , (24569,   8,        220) /* Mass */
+     , (24569,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (24569,  16,          1) /* ItemUseable - No */
+     , (24569,  18,          1) /* UiEffects - Magical */
+     , (24569,  19,       8000) /* Value */
+     , (24569,  33,         -2) /* Bonded - Destroy */
+     , (24569,  37,       9999) /* ResistItemAppraisal */
+     , (24569,  44,          0) /* Damage */
+     , (24569,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (24569,  48,          3) /* WeaponSkill - Crossbow */
+     , (24569,  49,         60) /* WeaponTime */
+     , (24569,  50,          2) /* AmmoType - Bolt */
+     , (24569,  51,          2) /* CombatUse - Missle */
+     , (24569,  52,          2) /* ParentLocation */
+     , (24569,  53,          3) /* PlacementPosition */
+     , (24569,  60,        192) /* WeaponRange */
+     , (24569,  93,       3092) /* PhysicsState */
+     , (24569, 106,        250) /* ItemSpellcraft */
+     , (24569, 107,       1000) /* ItemCurMana */
+     , (24569, 108,       1000) /* ItemMaxMana */
+     , (24569, 115,        290) /* ItemSkillLevelLimit */
+     , (24569, 150,        103) /* HookPlacement - Hook */
+     , (24569, 151,          2) /* HookType - Wall */
+     , (24569, 158,          7) /* WieldRequirements - Level */
+     , (24569, 159,          1) /* WieldSkilltype - Axe */
+     , (24569, 160,         30) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24569, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (24569, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24569, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24569,  15, True ) /* LightsStatus */
+     , (24569,  22, True ) /* Inscribable */
+     , (24569,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24569,   5,   -0.05) /* ManaRate */
+     , (24569,  21,    0.75) /* WeaponLength */
+     , (24569,  26,    27.3) /* MaximumVelocity */
+     , (24569,  29,       1) /* WeaponDefense */
+     , (24569,  39,     1.5) /* DefaultScale */
+     , (24569,  62,       1) /* WeaponOffense */
+     , (24569,  63,    2.75) /* DamageMod */
+     , (24569, 136,       4) /* CriticalMultiplier */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24569,   1, 'Renegade Crossbow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24569,   1,   33558377) /* Setup */
+     , (24569,   3,  536870932) /* SoundTable */
+     , (24569,   6,   67111919) /* PaletteBase */
+     , (24569,   8,  100674394) /* Icon */
+     , (24569,  22,  872415275) /* PhysicsEffectTable */
+     , (24569,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (24569,  37,          3) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24569, 1616, 2) /* BloodDrinker6_SpellID */;
-
+VALUES (24569,  1616,      2)  /* Aura of Blood Drinker Self VI */;

@@ -1,28 +1,24 @@
-/* Weenie - Meditation Meadow (12625) */
-DELETE FROM weenie WHERE class_Id = 12625;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12625, 'meditationmeadownortheastnantosign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12625, 001 /* NAME_STRING */, 'Meditation Meadow')
-     , (12625, 016 /* LONG_DESC_STRING */, 'Welcome to Meditation Meadow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12625, 001 /* SETUP_DID */, 33557463)
-     , (12625, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12625', 'meditationmeadownortheastnantosign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12625, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (12625, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (12625, 008 /* MASS_INT */, 1800)
-     , (12625, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12625, 019 /* VALUE_INT */, 125)
-     , (12625, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (12625,   1,        128) /* ItemType - Misc */
+     , (12625,   5,       9000) /* EncumbranceVal */
+     , (12625,   8,       1800) /* Mass */
+     , (12625,  16,          1) /* ItemUseable - No */
+     , (12625,  19,        125) /* Value */
+     , (12625,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12625, 001 /* STUCK_BOOL */, True)
-     , (12625, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12625, 013 /* ETHEREAL_BOOL */, False)
-     , (12625, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (12625,   1, True ) /* Stuck */
+     , (12625,  12, True ) /* ReportCollisions */
+     , (12625,  13, False) /* Ethereal */
+     , (12625,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12625,   1, 'Meditation Meadow') /* Name */
+     , (12625,  16, 'Welcome to Meditation Meadow') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12625,   1,   33557463) /* Setup */
+     , (12625,   8,  100668115) /* Icon */;

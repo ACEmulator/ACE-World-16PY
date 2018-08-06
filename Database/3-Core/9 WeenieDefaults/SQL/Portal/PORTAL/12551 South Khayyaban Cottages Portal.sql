@@ -1,34 +1,30 @@
-/* Weenie - South Khayyaban Cottages Portal (12551) */
-DELETE FROM weenie WHERE class_Id = 12551;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12551, 'portalsouthkhayyabancottages', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12551, 001 /* NAME_STRING */, 'South Khayyaban Cottages Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12551, 001 /* SETUP_DID */, 33554867)
-     , (12551, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (12551, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12551', 'portalsouthkhayyabancottages', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12551, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (12551, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (12551, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (12551, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (12551, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12551, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (12551,   1,      65536) /* ItemType - Portal */
+     , (12551,  16,         32) /* ItemUseable - Remote */
+     , (12551,  93,       3084) /* PhysicsState */
+     , (12551, 111,          1) /* PortalBitmask - Unrestricted */
+     , (12551, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12551, 001 /* STUCK_BOOL */, True)
-     , (12551, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (12551, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12551, 013 /* ETHEREAL_BOOL */, True)
-     , (12551, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (12551,   1, True ) /* Stuck */
+     , (12551,  11, False) /* IgnoreCollisions */
+     , (12551,  12, True ) /* ReportCollisions */
+     , (12551,  13, True ) /* Ethereal */
+     , (12551,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12551,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12551,   1, 'South Khayyaban Cottages Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12551,   1,   33554867) /* Setup */
+     , (12551,   2,  150994947) /* MotionTable */
+     , (12551,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12551, 2, 2721906694, 6.485, 122.331, 68.005, 0.5810723, 0, 0, -0.8138519) /* DESTINATION_POSITION */;
-
+VALUES (12551, 2, 2721906694, 6.485, 122.331, 68.005, 0.5810723, 0, 0, -0.8138519) /* Destination */;

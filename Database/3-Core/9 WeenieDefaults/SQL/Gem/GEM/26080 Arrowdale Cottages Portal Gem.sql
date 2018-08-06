@@ -1,48 +1,44 @@
-/* Weenie - Arrowdale Cottages Portal Gem (26080) */
-DELETE FROM weenie WHERE class_Id = 26080;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26080, 'gemportalarrowdalecottages', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26080, 001 /* NAME_STRING */, 'Arrowdale Cottages Portal Gem')
-     , (26080, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26080, 001 /* SETUP_DID */, 33556769)
-     , (26080, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26080, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26080, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26080, 008 /* ICON_DID */, 100675760)
-     , (26080, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26080, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26080, 031 /* LINKED_PORTAL_ONE_DID */, 15664 /* Arrowdale Cottages Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26080', 'gemportalarrowdalecottages', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26080, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26080, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26080, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26080, 008 /* MASS_INT */, 10)
-     , (26080, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26080, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26080, 012 /* STACK_SIZE_INT */, 1)
-     , (26080, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26080, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26080, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26080, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26080, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26080, 019 /* VALUE_INT */, 500)
-     , (26080, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26080, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26080, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26080, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26080, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26080, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26080, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26080, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26080, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26080,   1,       2048) /* ItemType - Gem */
+     , (26080,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26080,   5,         10) /* EncumbranceVal */
+     , (26080,   8,         10) /* Mass */
+     , (26080,   9,          0) /* ValidLocations - None */
+     , (26080,  11,         20) /* MaxStackSize */
+     , (26080,  12,          1) /* StackSize */
+     , (26080,  13,         10) /* StackUnitEncumbrance */
+     , (26080,  14,         10) /* StackUnitMass */
+     , (26080,  15,        500) /* StackUnitValue */
+     , (26080,  16,          8) /* ItemUseable - Contained */
+     , (26080,  18,          1) /* UiEffects - Magical */
+     , (26080,  19,        500) /* Value */
+     , (26080,  93,       3092) /* PhysicsState */
+     , (26080,  94,         16) /* TargetType - Creature */
+     , (26080, 106,        210) /* ItemSpellcraft */
+     , (26080, 107,         50) /* ItemCurMana */
+     , (26080, 108,         50) /* ItemMaxMana */
+     , (26080, 109,          0) /* ItemDifficulty */
+     , (26080, 110,          0) /* ItemAllegianceRankLimit */
+     , (26080, 150,        103) /* HookPlacement - Hook */
+     , (26080, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26080, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26080, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26080,  15, True ) /* LightsStatus */
+     , (26080,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26080,   1, 'Arrowdale Cottages Portal Gem') /* Name */
+     , (26080,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26080,   1,   33556769) /* Setup */
+     , (26080,   3,  536870932) /* SoundTable */
+     , (26080,   6,   67111919) /* PaletteBase */
+     , (26080,   7,  268435723) /* ClothingBase */
+     , (26080,   8,  100675760) /* Icon */
+     , (26080,  22,  872415275) /* PhysicsEffectTable */
+     , (26080,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26080,  31,      15664) /* LinkedPortalOne - Arrowdale Cottages Portal */;

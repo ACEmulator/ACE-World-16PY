@@ -1,35 +1,31 @@
-/* Weenie - Spirit Cell (22895) */
-DELETE FROM weenie WHERE class_Id = 22895;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22895, 'portalspiritcell', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22895, 001 /* NAME_STRING */, 'Spirit Cell')
-     , (22895, 037 /* QUEST_RESTRICTION_STRING */, 'DELIVEREDIOLITEGEM');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22895, 001 /* SETUP_DID */, 33554867)
-     , (22895, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (22895, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22895', 'portalspiritcell', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22895, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (22895, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (22895, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (22895, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (22895, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22895, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (22895,   1,      65536) /* ItemType - Portal */
+     , (22895,  16,         32) /* ItemUseable - Remote */
+     , (22895,  93,       3084) /* PhysicsState */
+     , (22895, 111,          1) /* PortalBitmask - Unrestricted */
+     , (22895, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22895, 001 /* STUCK_BOOL */, True)
-     , (22895, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (22895, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22895, 013 /* ETHEREAL_BOOL */, True)
-     , (22895, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (22895,   1, True ) /* Stuck */
+     , (22895,  11, False) /* IgnoreCollisions */
+     , (22895,  12, True ) /* ReportCollisions */
+     , (22895,  13, True ) /* Ethereal */
+     , (22895,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22895,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22895,   1, 'Spirit Cell') /* Name */
+     , (22895,  37, 'DELIVEREDIOLITEGEM') /* QuestRestriction */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22895,   1,   33554867) /* Setup */
+     , (22895,   2,  150994947) /* MotionTable */
+     , (22895,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22895, 2, 1447690509, 9.81431, -58.5473, 0.005, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (22895, 2, 1447690509, 9.81431, -58.5473, 0.005, 1, 0, 0, 0) /* Destination */;

@@ -1,47 +1,43 @@
-/* Weenie - Circlet of Shielding (30457) */
-DELETE FROM weenie WHERE class_Id = 30457;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30457, 'ringshieldingsouth', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30457, 001 /* NAME_STRING */, 'Circlet of Shielding')
-     , (30457, 033 /* QUEST_STRING */, 'RingShieldingSouthAcquired1204');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30457, 001 /* SETUP_DID */, 33554691)
-     , (30457, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30457, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30457, 007 /* CLOTHINGBASE_DID */, 268435753)
-     , (30457, 008 /* ICON_DID */, 100677350)
-     , (30457, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30457', 'ringshieldingsouth', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30457, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (30457, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (30457, 005 /* ENCUMB_VAL_INT */, 15)
-     , (30457, 008 /* MASS_INT */, 10)
-     , (30457, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (30457, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30457, 019 /* VALUE_INT */, 2000)
-     , (30457, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (30457, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30457, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (30457, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (30457, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (30457, 109 /* ITEM_DIFFICULTY_INT */, 190)
-     , (30457, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30457, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (30457, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (30457,   1,          8) /* ItemType - Jewelry */
+     , (30457,   3,         21) /* PaletteTemplate - Gold */
+     , (30457,   5,         15) /* EncumbranceVal */
+     , (30457,   8,         10) /* Mass */
+     , (30457,   9,     786432) /* ValidLocations - FingerWear */
+     , (30457,  16,          1) /* ItemUseable - No */
+     , (30457,  19,       2000) /* Value */
+     , (30457,  33,          1) /* Bonded - Bonded */
+     , (30457,  93,       1044) /* PhysicsState */
+     , (30457, 106,        200) /* ItemSpellcraft */
+     , (30457, 107,        800) /* ItemCurMana */
+     , (30457, 108,        800) /* ItemMaxMana */
+     , (30457, 109,        190) /* ItemDifficulty */
+     , (30457, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30457, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30457, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (30457,  22, True ) /* Inscribable */
+     , (30457,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30457,   5,  -0.033) /* ManaRate */
+     , (30457,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30457,   1, 'Circlet of Shielding') /* Name */
+     , (30457,  33, 'RingShieldingSouthAcquired1204') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30457,   1,   33554691) /* Setup */
+     , (30457,   3,  536870932) /* SoundTable */
+     , (30457,   6,   67111919) /* PaletteBase */
+     , (30457,   7,  268435753) /* ClothingBase */
+     , (30457,   8,  100677350) /* Icon */
+     , (30457,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30457, 279, 2) /* MagicResistanceSelf6_SpellID */
-     , (30457, 1114, 2) /* BladeProtectionSelf6_SpellID */
-     , (30457, 2811, 2) /* ModerateMagicResistance_SpellID */;
-
+VALUES (30457,   279,      2)  /* Magic Resistance Self VI */
+     , (30457,  1114,      2)  /* Blade Protection Self VI */
+     , (30457,  2811,      2)  /* Moderate Magic Resistance */;

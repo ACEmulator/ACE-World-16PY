@@ -1,34 +1,30 @@
-/* Weenie - Magic Item Tinkering Gem of Enlightenment (22372) */
-DELETE FROM weenie WHERE class_Id = 22372;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22372, 'skillgemupmagicitemappraisal', 62 /* SkillAlterationDevice_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22372, 001 /* NAME_STRING */, 'Magic Item Tinkering Gem of Enlightenment')
-     , (22372, 014 /* USE_STRING */, 'Use this gem to specialize a trained skill. It will cost you four skill credits to train the Magic Item Tinkering skill.')
-     , (22372, 033 /* QUEST_STRING */, 'SkillAlterationGemPickedUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22372, 001 /* SETUP_DID */, 33558088)
-     , (22372, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22372, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (22372, 008 /* ICON_DID */, 100673788)
-     , (22372, 050 /* ICON_OVERLAY_DID */, 100673776);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22372', 'skillgemupmagicitemappraisal', 62) /* SkillAlterationDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22372, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22372, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (22372, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22372, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22372, 019 /* VALUE_INT */, 0)
-     , (22372, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22372, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22372, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (22372, 185 /* TYPE_OF_ALTERATION_INT */, 1)
-     , (22372, 186 /* SKILL_TO_BE_ALTERED_INT */, 30);
+VALUES (22372,   1,       2048) /* ItemType - Gem */
+     , (22372,   3,          8) /* PaletteTemplate - Green */
+     , (22372,   5,         10) /* EncumbranceVal */
+     , (22372,  16,          8) /* ItemUseable - Contained */
+     , (22372,  19,          0) /* Value */
+     , (22372,  33,          1) /* Bonded - Bonded */
+     , (22372,  93,       1044) /* PhysicsState */
+     , (22372, 114,          1) /* Attuned - Attuned */
+     , (22372, 185,          1) /* TypeOfAlteration */
+     , (22372, 186,         30) /* SkillToBeAltered */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22372, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22372, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22372,  22, True ) /* Inscribable */
+     , (22372,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22372,   1, 'Magic Item Tinkering Gem of Enlightenment') /* Name */
+     , (22372,  14, 'Use this gem to specialize a trained skill. It will cost you four skill credits to train the Magic Item Tinkering skill.') /* Use */
+     , (22372,  33, 'SkillAlterationGemPickedUp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22372,   1,   33558088) /* Setup */
+     , (22372,   6,   67111919) /* PaletteBase */
+     , (22372,   7,  268435723) /* ClothingBase */
+     , (22372,   8,  100673788) /* Icon */
+     , (22372,  50,  100673776) /* IconOverlay */;

@@ -1,46 +1,42 @@
-/* Weenie - Tunic (134) */
-DELETE FROM weenie WHERE class_Id = 134;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (134, 'tunic', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (134, 001 /* NAME_STRING */, 'Tunic');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (134, 001 /* SETUP_DID */, 33554883)
-     , (134, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (134, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (134, 007 /* CLOTHINGBASE_DID */, 268435459)
-     , (134, 008 /* ICON_DID */, 100667376)
-     , (134, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (134, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('134', 'tunic', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (134, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (134, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (134, 004 /* CLOTHING_PRIORITY_INT */, 56 /* UnderwearChest, UnderwearAbdomen, UnderwearUpperArms */)
-     , (134, 005 /* ENCUMB_VAL_INT */, 57)
-     , (134, 008 /* MASS_INT */, 38)
-     , (134, 009 /* LOCATIONS_INT */, 14 /* CHEST_WEAR_LOC, ABDOMEN_WEAR_LOC, UPPER_ARM_WEAR_LOC */)
-     , (134, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (134, 019 /* VALUE_INT */, 12)
-     , (134, 027 /* ARMOR_TYPE_INT */, 1)
-     , (134, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (134, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (134, 169 /* TSYS_MUTATION_DATA_INT */, 201328144);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (134, 012 /* SHADE_FLOAT */, 0.8)
-     , (134, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (134, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (134, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (134, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (134, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (134, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (134, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (134,   1,          4) /* ItemType - Clothing */
+     , (134,   3,          8) /* PaletteTemplate - Green */
+     , (134,   4,         56) /* ClothingPriority */
+     , (134,   5,         57) /* EncumbranceVal */
+     , (134,   8,         38) /* Mass */
+     , (134,   9,         14) /* ValidLocations */
+     , (134,  16,          1) /* ItemUseable - No */
+     , (134,  19,         12) /* Value */
+     , (134,  27,          1) /* ArmorType */
+     , (134,  28,          0) /* ArmorLevel */
+     , (134,  93,       1044) /* PhysicsState */
+     , (134, 169,  201328144) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (134, 022 /* INSCRIBABLE_BOOL */, True)
-     , (134, 100 /* DYABLE_BOOL */, True);
+VALUES (134,  22, True ) /* Inscribable */
+     , (134, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (134,  12,     0.8) /* Shade */
+     , (134,  13,     0.8) /* ArmorModVsSlash */
+     , (134,  14,     0.8) /* ArmorModVsPierce */
+     , (134,  15,       1) /* ArmorModVsBludgeon */
+     , (134,  16,     0.2) /* ArmorModVsCold */
+     , (134,  17,     0.2) /* ArmorModVsFire */
+     , (134,  18,     0.1) /* ArmorModVsAcid */
+     , (134,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (134,   1, 'Tunic') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (134,   1,   33554883) /* Setup */
+     , (134,   3,  536870932) /* SoundTable */
+     , (134,   6,   67108990) /* PaletteBase */
+     , (134,   7,  268435459) /* ClothingBase */
+     , (134,   8,  100667376) /* Icon */
+     , (134,  22,  872415275) /* PhysicsEffectTable */
+     , (134,  36,  234881046) /* MutateFilter */;

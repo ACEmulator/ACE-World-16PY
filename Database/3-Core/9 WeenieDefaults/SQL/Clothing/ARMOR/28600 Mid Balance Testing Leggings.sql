@@ -1,64 +1,60 @@
-/* Weenie - Mid Balance Testing Leggings (28600) */
-DELETE FROM weenie WHERE class_Id = 28600;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28600, 'leggingsbalancetestmid', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28600, 001 /* NAME_STRING */, 'Mid Balance Testing Leggings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28600, 001 /* SETUP_DID */, 33554856)
-     , (28600, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28600, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (28600, 007 /* CLOTHINGBASE_DID */, 268435872)
-     , (28600, 008 /* ICON_DID */, 100674068)
-     , (28600, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28600', 'leggingsbalancetestmid', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28600, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (28600, 003 /* PALETTE_TEMPLATE_INT */, 93 /* DYESPRINGBLACK_PALETTE_TEMPLATE */)
-     , (28600, 004 /* CLOTHING_PRIORITY_INT */, 2816 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */)
-     , (28600, 005 /* ENCUMB_VAL_INT */, 2288)
-     , (28600, 008 /* MASS_INT */, 1275)
-     , (28600, 009 /* LOCATIONS_INT */, 25600 /* ABDOMEN_ARMOR_LOC, UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (28600, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28600, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28600, 019 /* VALUE_INT */, 3040)
-     , (28600, 027 /* ARMOR_TYPE_INT */, 2)
-     , (28600, 028 /* ARMOR_LEVEL_INT */, 225)
-     , (28600, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28600, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28600, 107 /* ITEM_CUR_MANA_INT */, 4000)
-     , (28600, 108 /* ITEM_MAX_MANA_INT */, 4000)
-     , (28600, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28600, 005 /* MANA_RATE_FLOAT */, 0)
-     , (28600, 012 /* SHADE_FLOAT */, 0.25)
-     , (28600, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (28600, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (28600, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (28600, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (28600, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (28600, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (28600, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.8)
-     , (28600, 110 /* BULK_MOD_FLOAT */, 1)
-     , (28600, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (28600,   1,          2) /* ItemType - Armor */
+     , (28600,   3,         93) /* PaletteTemplate - DyeSpringBlack */
+     , (28600,   4,       2816) /* ClothingPriority */
+     , (28600,   5,       2288) /* EncumbranceVal */
+     , (28600,   8,       1275) /* Mass */
+     , (28600,   9,      25600) /* ValidLocations */
+     , (28600,  16,          1) /* ItemUseable - No */
+     , (28600,  18,          1) /* UiEffects - Magical */
+     , (28600,  19,       3040) /* Value */
+     , (28600,  27,          2) /* ArmorType */
+     , (28600,  28,        225) /* ArmorLevel */
+     , (28600,  33,          1) /* Bonded - Bonded */
+     , (28600,  93,       1044) /* PhysicsState */
+     , (28600, 107,       4000) /* ItemCurMana */
+     , (28600, 108,       4000) /* ItemMaxMana */
+     , (28600, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28600, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28600, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (28600, 069 /* IS_SELLABLE_BOOL */, False)
-     , (28600, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
+VALUES (28600,  22, True ) /* Inscribable */
+     , (28600,  23, True ) /* DestroyOnSell */
+     , (28600,  69, False) /* IsSellable */
+     , (28600,  84, True ) /* IgnoreCloIcons */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28600,   5,       0) /* ManaRate */
+     , (28600,  12,    0.25) /* Shade */
+     , (28600,  13,       1) /* ArmorModVsSlash */
+     , (28600,  14,       1) /* ArmorModVsPierce */
+     , (28600,  15,       1) /* ArmorModVsBludgeon */
+     , (28600,  16,     0.8) /* ArmorModVsCold */
+     , (28600,  17,     0.8) /* ArmorModVsFire */
+     , (28600,  18,     0.8) /* ArmorModVsAcid */
+     , (28600,  19,     0.8) /* ArmorModVsElectric */
+     , (28600, 110,       1) /* BulkMod */
+     , (28600, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28600,   1, 'Mid Balance Testing Leggings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28600,   1,   33554856) /* Setup */
+     , (28600,   3,  536870932) /* SoundTable */
+     , (28600,   6,   67108990) /* PaletteBase */
+     , (28600,   7,  268435872) /* ClothingBase */
+     , (28600,   8,  100674068) /* Icon */
+     , (28600,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28600, 1538, 2) /* LightningBane4_SpellID */
-     , (28600, 1484, 2) /* Impenetrability4_SpellID */
-     , (28600, 1550, 2) /* FlameBane4_SpellID */
-     , (28600, 1560, 2) /* BladeBane4_SpellID */
-     , (28600, 1496, 2) /* AcidBane4_SpellID */
-     , (28600, 1572, 2) /* PiercingBane4_SpellID */
-     , (28600, 1514, 2) /* BludgeonBane4_SpellID */
-     , (28600, 1526, 2) /* FrostBane4_SpellID */;
-
+VALUES (28600,  1484,      2)  /* Impenetrability IV */
+     , (28600,  1496,      2)  /* Acid Bane IV */
+     , (28600,  1514,      2)  /* Bludgeon Bane IV */
+     , (28600,  1526,      2)  /* Frost Bane IV */
+     , (28600,  1538,      2)  /* Lightning Bane IV */
+     , (28600,  1550,      2)  /* Flame Bane IV */
+     , (28600,  1560,      2)  /* Blade Bane IV */
+     , (28600,  1572,      2)  /* Piercing Bane IV */;

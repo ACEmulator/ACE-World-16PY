@@ -1,28 +1,52 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8127, 1918128128, 625278976, 129.674, 123.416, 0.00500003, 0.714544, 0, 0, -0.69959) /* Menhir Mana Field */
-     , (8127, 1918128129, 625278976, 123.652, 130.034, 0.00500003, 0.714544, 0, 0, -0.69959) /* Menhir Mana Field */
-     , (8127, 1918128130, 625278976, 129.876, 136.755, 0.00500003, 0.714544, 0, 0, -0.69959) /* Menhir Mana Field */
-     , (8127, 1918128131, 625278976, 136.595, 130.07, 0.00500003, 0.714544, 0, 0, -0.69959) /* Menhir Mana Field */
-     , (21551, 1918128132, 625278976, 117.483, 129.968, 0.0065, -0.708441, 0, 0, 0.70577) /* Strife Wisp */
-     , (21550, 1918128133, 625278976, 129.894, 141.773, 0.0065, -0.0719033, 0, 0, 0.997412) /* Stasis Wisp */
-     , (21549, 1918128134, 625278976, 142.041, 129.992, 0.0065, 0.706259, 0, 0, 0.707953) /* Corrosion Wisp */
-     , (21552, 1918128135, 625278976, 130.007, 117.876, 0.0065, 0.999901, 0, 0, -0.0140766) /* Tempest Wisp */
-     , (11535, 1918128136, 625278976, 129.763, 129.756, 0.005, 0.854594, 0, 0, -0.519297) /* Chaos Wisp */
-     , (11534, 1918128137, 625278976, 122.577, 122.692, 0.015, 0.922601, 0, 0, -0.385757) /* Enku Zefir */
-     , (11534, 1918128138, 625278976, 122.525, 137.352, 0.015, 0.384933, 0, 0, -0.922945) /* Enku Zefir */
-     , (11534, 1918128139, 625278976, 137.387, 137.358, 0.015, -0.381184, 0, 0, -0.924499) /* Enku Zefir */
-     , (11534, 1918128140, 625278976, 137.569, 122.701, 0.015, -0.910911, 0, 0, -0.412604) /* Enku Zefir */
-     , (7924, 1918128141, 625278976, 125.736, 134.225, 0.005, 0.932103, 0, 0, 0.362192) /* linkmonstergen5minutes */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128128,  8127, 625278976, 129.674, 123.416, 0.00500003, 0.714544, 0, 0, -0.69959, False); /* Menhir Mana Field */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1918128141'; /* linkmonstergen5minutes */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128129,  8127, 625278976, 123.652, 130.034, 0.00500003, 0.714544, 0, 0, -0.69959, False); /* Menhir Mana Field */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128132'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128133'; /* linkmonstergen5minutes <- Stasis Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128134'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128135'; /* linkmonstergen5minutes <- Tempest Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128136'; /* linkmonstergen5minutes <- Chaos Wisp */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128137'; /* linkmonstergen5minutes <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128138'; /* linkmonstergen5minutes <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128139'; /* linkmonstergen5minutes <- Enku Zefir */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128140'; /* linkmonstergen5minutes <- Enku Zefir */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128130,  8127, 625278976, 129.876, 136.755, 0.00500003, 0.714544, 0, 0, -0.69959, False); /* Menhir Mana Field */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128131,  8127, 625278976, 136.595, 130.07, 0.00500003, 0.714544, 0, 0, -0.69959, False); /* Menhir Mana Field */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128132, 21551, 625278976, 117.483, 129.968, 0.0065, -0.708441, 0, 0, 0.70577,  True); /* Strife Wisp */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128133, 21550, 625278976, 129.894, 141.773, 0.0065, -0.0719033, 0, 0, 0.997412,  True); /* Stasis Wisp */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128134, 21549, 625278976, 142.041, 129.992, 0.0065, 0.706259, 0, 0, 0.707953,  True); /* Corrosion Wisp */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128135, 21552, 625278976, 130.007, 117.876, 0.0065, 0.999901, 0, 0, -0.0140766,  True); /* Tempest Wisp */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128136, 11535, 625278976, 129.763, 129.756, 0.005, 0.854594, 0, 0, -0.519297,  True); /* Chaos Wisp */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128137, 11534, 625278976, 122.577, 122.692, 0.015, 0.922601, 0, 0, -0.385757,  True); /* Enku Zefir */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128138, 11534, 625278976, 122.525, 137.352, 0.015, 0.384933, 0, 0, -0.922945,  True); /* Enku Zefir */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128139, 11534, 625278976, 137.387, 137.358, 0.015, -0.381184, 0, 0, -0.924499,  True); /* Enku Zefir */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128140, 11534, 625278976, 137.569, 122.701, 0.015, -0.910911, 0, 0, -0.412604,  True); /* Enku Zefir */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1918128141,  7924, 625278976, 125.736, 134.225, 0.005, 0.932103, 0, 0, 0.362192, False); /* Linkable Monster Generator ( 5 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1918128141, 1918128132) /* Strife Wisp */
+     , (1918128141, 1918128133) /* Stasis Wisp */
+     , (1918128141, 1918128134) /* Corrosion Wisp */
+     , (1918128141, 1918128135) /* Tempest Wisp */
+     , (1918128141, 1918128136) /* Chaos Wisp */
+     , (1918128141, 1918128137) /* Enku Zefir */
+     , (1918128141, 1918128138) /* Enku Zefir */
+     , (1918128141, 1918128139) /* Enku Zefir */
+     , (1918128141, 1918128140) /* Enku Zefir */;

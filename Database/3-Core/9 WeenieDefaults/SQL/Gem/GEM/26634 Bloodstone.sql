@@ -1,39 +1,35 @@
-/* Weenie - Bloodstone (26634) */
-DELETE FROM weenie WHERE class_Id = 26634;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26634, 'gemtemplesacred', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26634, 001 /* NAME_STRING */, 'Bloodstone')
-     , (26634, 033 /* QUEST_STRING */, 'TempleSacredStone');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26634, 001 /* SETUP_DID */, 33554809)
-     , (26634, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26634, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26634, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26634, 008 /* ICON_DID */, 100674727)
-     , (26634, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26634, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26634', 'gemtemplesacred', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26634, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26634, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (26634, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26634, 008 /* MASS_INT */, 5)
-     , (26634, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26634, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (26634, 012 /* STACK_SIZE_INT */, 1)
-     , (26634, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26634, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (26634, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (26634, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (26634, 019 /* VALUE_INT */, 0)
-     , (26634, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (26634, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (26634, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (26634,   1,       2048) /* ItemType - Gem */
+     , (26634,   3,          8) /* PaletteTemplate - Green */
+     , (26634,   5,         10) /* EncumbranceVal */
+     , (26634,   8,          5) /* Mass */
+     , (26634,   9,          0) /* ValidLocations - None */
+     , (26634,  11,          1) /* MaxStackSize */
+     , (26634,  12,          1) /* StackSize */
+     , (26634,  13,         10) /* StackUnitEncumbrance */
+     , (26634,  14,          5) /* StackUnitMass */
+     , (26634,  15,          0) /* StackUnitValue */
+     , (26634,  16,          1) /* ItemUseable - No */
+     , (26634,  19,          0) /* Value */
+     , (26634,  33,          1) /* Bonded - Bonded */
+     , (26634,  93,       1044) /* PhysicsState */
+     , (26634, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26634, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (26634,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26634,   1, 'Bloodstone') /* Name */
+     , (26634,  33, 'TempleSacredStone') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26634,   1,   33554809) /* Setup */
+     , (26634,   3,  536870932) /* SoundTable */
+     , (26634,   6,   67111919) /* PaletteBase */
+     , (26634,   7,  268435723) /* ClothingBase */
+     , (26634,   8,  100674727) /* Icon */
+     , (26634,  22,  872415275) /* PhysicsEffectTable */
+     , (26634,  36,  234881046) /* MutateFilter */;

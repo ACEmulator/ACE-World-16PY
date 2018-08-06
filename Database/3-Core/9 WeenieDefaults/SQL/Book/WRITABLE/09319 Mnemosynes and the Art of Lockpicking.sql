@@ -1,36 +1,33 @@
-/* Weenie - Mnemosynes and the Art of Lockpicking (9319) */
-DELETE FROM weenie WHERE class_Id = 9319;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9319, 'manualpyramidunlocking', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9319, 001 /* NAME_STRING */, 'Mnemosynes and the Art of Lockpicking')
-     , (9319, 015 /* SHORT_DESC_STRING */, 'A Book written by Vinchlane Dranal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9319, 001 /* SETUP_DID */, 33554771)
-     , (9319, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9319, 008 /* ICON_DID */, 100668117)
-     , (9319, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9319', 'manualpyramidunlocking', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9319, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (9319, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9319, 008 /* MASS_INT */, 10)
-     , (9319, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9319, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (9319, 019 /* VALUE_INT */, 100)
-     , (9319, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9319, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (9319,   1,       8192) /* ItemType - Writable */
+     , (9319,   5,         10) /* EncumbranceVal */
+     , (9319,   8,         10) /* Mass */
+     , (9319,   9,          0) /* ValidLocations - None */
+     , (9319,  16,          8) /* ItemUseable - Contained */
+     , (9319,  19,        100) /* Value */
+     , (9319,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9319, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (9319,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9319,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9319,   1, 'Mnemosynes and the Art of Lockpicking') /* Name */
+     , (9319,  15, 'A Book written by Vinchlane Dranal') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9319,   1,   33554771) /* Setup */
+     , (9319,   3,  536870932) /* SoundTable */
+     , (9319,   8,  100668117) /* Icon */
+     , (9319,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (9319, 23, 1000) /* Book Data */;
+VALUES (9319, 23, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (9319, 0, 4294967295, '', 'prewritten', False, 'If you are reading this, then I am dead.
@@ -111,4 +108,3 @@ And who knows?  Maybe I will come back to read this note years hence and laugh a
 
 Vinchlane Dranal
 ');
-

@@ -1,37 +1,34 @@
-/* Weenie - Lashanda's Hand (5696) */
-DELETE FROM weenie WHERE class_Id = 5696;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5696, 'booklashanda', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5696, 001 /* NAME_STRING */, 'Lashanda''s Hand')
-     , (5696, 016 /* LONG_DESC_STRING */, 'A copy of the Tale of Lashanda''s Hand, bought from the Zaikhal Library.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5696, 001 /* SETUP_DID */, 33554771)
-     , (5696, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5696, 008 /* ICON_DID */, 100668117)
-     , (5696, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5696', 'booklashanda', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5696, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5696, 005 /* ENCUMB_VAL_INT */, 280)
-     , (5696, 008 /* MASS_INT */, 290)
-     , (5696, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5696, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5696, 019 /* VALUE_INT */, 120)
-     , (5696, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5696, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (5696, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (5696,   1,       8192) /* ItemType - Writable */
+     , (5696,   5,        280) /* EncumbranceVal */
+     , (5696,   8,        290) /* Mass */
+     , (5696,   9,          0) /* ValidLocations - None */
+     , (5696,  16,          8) /* ItemUseable - Contained */
+     , (5696,  19,        120) /* Value */
+     , (5696,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5696, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5696,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5696,  39,    1.22) /* DefaultScale */
+     , (5696,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5696,   1, 'Lashanda''s Hand') /* Name */
+     , (5696,  16, 'A copy of the Tale of Lashanda''s Hand, bought from the Zaikhal Library.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5696,   1,   33554771) /* Setup */
+     , (5696,   3,  536870932) /* SoundTable */
+     , (5696,   8,  100668117) /* Icon */
+     , (5696,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5696, 48, 1000) /* Book Data */;
+VALUES (5696, 48, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5696, 0, 4294967295, 'Lashanda''s Hand', 'prewritten', False, 'There came a time, in the reign of the Malik Taraj al-Saum, when the call went out for warriors. This was a strange thing, for the land had known peace for many years, and no foe yet loomed upon the horizons. The Gharu''ndim were a prosperous people, and the smiths forged many more plowshares than swords. But still, even in the quietest of days, the need for fighters sometimes arose.
@@ -174,4 +171,3 @@ Fasair looked down upon her, at a loss. "This cannot be," he said. "I will not h
 ')
      , (5696, 47, 4294967295, 'Lashanda''s Hand', 'prewritten', False, 'His messengers could not find her, however, though they wandered afar, for she had vanished that winter, delving deep into the ruins of al-Shaghra, the City Which Rises. But that tale is for another day.
 ');
-

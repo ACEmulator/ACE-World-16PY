@@ -1,34 +1,30 @@
-/* Weenie - Library Key (5135) */
-DELETE FROM weenie WHERE class_Id = 5135;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5135, 'keysamsurlibrary', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5135, 001 /* NAME_STRING */, 'Library Key')
-     , (5135, 013 /* KEY_CODE_STRING */, 'KeySamsurLibrary')
-     , (5135, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (5135, 015 /* SHORT_DESC_STRING */, 'A plain bronze key.')
-     , (5135, 016 /* LONG_DESC_STRING */, 'A bronze key used in Musansayn''s Vaults.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5135, 001 /* SETUP_DID */, 33554784)
-     , (5135, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5135, 008 /* ICON_DID */, 100668439)
-     , (5135, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5135', 'keysamsurlibrary', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5135, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (5135, 005 /* ENCUMB_VAL_INT */, 135)
-     , (5135, 008 /* MASS_INT */, 45)
-     , (5135, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (5135, 019 /* VALUE_INT */, 0)
-     , (5135, 091 /* MAX_STRUCTURE_INT */, 3)
-     , (5135, 092 /* STRUCTURE_INT */, 3)
-     , (5135, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5135, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (5135,   1,      16384) /* ItemType - Key */
+     , (5135,   5,        135) /* EncumbranceVal */
+     , (5135,   8,         45) /* Mass */
+     , (5135,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (5135,  19,          0) /* Value */
+     , (5135,  91,          3) /* MaxStructure */
+     , (5135,  92,          3) /* Structure */
+     , (5135,  93,       1044) /* PhysicsState */
+     , (5135,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5135, 022 /* INSCRIBABLE_BOOL */, True)
-     , (5135, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (5135,  22, True ) /* Inscribable */
+     , (5135,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5135,   1, 'Library Key') /* Name */
+     , (5135,  13, 'KeySamsurLibrary') /* KeyCode */
+     , (5135,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (5135,  15, 'A plain bronze key.') /* ShortDesc */
+     , (5135,  16, 'A bronze key used in Musansayn''s Vaults.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5135,   1,   33554784) /* Setup */
+     , (5135,   3,  536870932) /* SoundTable */
+     , (5135,   8,  100668439) /* Icon */
+     , (5135,  22,  872415275) /* PhysicsEffectTable */;

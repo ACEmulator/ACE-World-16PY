@@ -1,59 +1,55 @@
-/* Weenie - Oswald's Dagger (6877) */
-DELETE FROM weenie WHERE class_Id = 6877;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6877, 'daggeroswald', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6877, 001 /* NAME_STRING */, 'Oswald''s Dagger')
-     , (6877, 007 /* INSCRIPTION_STRING */, 'This is the blade that took the life of Gertarh.')
-     , (6877, 008 /* SCRIBE_NAME_STRING */, 'Oswald')
-     , (6877, 015 /* SHORT_DESC_STRING */, 'A well-worn dagger, its blade stained with Banderling blood.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6877, 001 /* SETUP_DID */, 33555707)
-     , (6877, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6877, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6877, 007 /* CLOTHINGBASE_DID */, 268435783)
-     , (6877, 008 /* ICON_DID */, 100668878)
-     , (6877, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6877', 'daggeroswald', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6877, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6877, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (6877, 005 /* ENCUMB_VAL_INT */, 135)
-     , (6877, 008 /* MASS_INT */, 90)
-     , (6877, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6877, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6877, 018 /* UI_EFFECTS_INT */, 64 /* UI_EFFECT_LIGHTNING */)
-     , (6877, 019 /* VALUE_INT */, 300)
-     , (6877, 044 /* DAMAGE_INT */, 8)
-     , (6877, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (6877, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6877, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (6877, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (6877, 049 /* WEAPON_TIME_INT */, 10)
-     , (6877, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6877, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6877, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (6877, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (6877, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (6877, 109 /* ITEM_DIFFICULTY_INT */, 1)
-     , (6877, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6877, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6877, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (6877, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (6877, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (6877, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (6877, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (6877,   1,          1) /* ItemType - MeleeWeapon */
+     , (6877,   3,          8) /* PaletteTemplate - Green */
+     , (6877,   5,        135) /* EncumbranceVal */
+     , (6877,   8,         90) /* Mass */
+     , (6877,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6877,  16,          1) /* ItemUseable - No */
+     , (6877,  18,         64) /* UiEffects - Lightning */
+     , (6877,  19,        300) /* Value */
+     , (6877,  44,          8) /* Damage */
+     , (6877,  45,         64) /* DamageType - Electric */
+     , (6877,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6877,  47,          6) /* AttackType */
+     , (6877,  48,          4) /* WeaponSkill - Dagger */
+     , (6877,  49,         10) /* WeaponTime */
+     , (6877,  51,          1) /* CombatUse - Melee */
+     , (6877,  93,       1044) /* PhysicsState */
+     , (6877, 106,        200) /* ItemSpellcraft */
+     , (6877, 107,        500) /* ItemCurMana */
+     , (6877, 108,        500) /* ItemMaxMana */
+     , (6877, 109,          1) /* ItemDifficulty */
+     , (6877, 150,        103) /* HookPlacement - Hook */
+     , (6877, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6877, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6877, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (6877,  22, True ) /* Inscribable */
+     , (6877,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6877,   5,  -0.025) /* ManaRate */
+     , (6877,  21,     0.4) /* WeaponLength */
+     , (6877,  22,     0.5) /* DamageVariance */
+     , (6877,  29,       1) /* WeaponDefense */
+     , (6877,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6877,   1, 'Oswald''s Dagger') /* Name */
+     , (6877,   7, 'This is the blade that took the life of Gertarh.') /* Inscription */
+     , (6877,   8, 'Oswald') /* ScribeName */
+     , (6877,  15, 'A well-worn dagger, its blade stained with Banderling blood.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6877,   1,   33555707) /* Setup */
+     , (6877,   3,  536870932) /* SoundTable */
+     , (6877,   6,   67111919) /* PaletteBase */
+     , (6877,   7,  268435783) /* ClothingBase */
+     , (6877,   8,  100668878) /* Icon */
+     , (6877,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6877, 854, 2) /* DeceptionMasterySelf5_SpellID */
-     , (6877, 1782, 2) /* GertarhsCurse_SpellID */;
-
+VALUES (6877,   854,      2)  /* Deception Mastery Self V */
+     , (6877,  1782,      2)  /* Gertarh's Curse */;

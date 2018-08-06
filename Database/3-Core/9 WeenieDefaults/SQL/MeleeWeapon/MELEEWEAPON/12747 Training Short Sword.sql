@@ -1,50 +1,46 @@
-/* Weenie - Training Short Sword (12747) */
-DELETE FROM weenie WHERE class_Id = 12747;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12747, 'swordtraining', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12747, 001 /* NAME_STRING */, 'Training Short Sword')
-     , (12747, 014 /* USE_STRING */, 'Use Oil of Rendering on this weapon to create an Academy Short Sword.')
-     , (12747, 015 /* SHORT_DESC_STRING */, 'A basic short sword forged in the Strathelar Training Academy. This item can be placed on an item hook.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12747, 001 /* SETUP_DID */, 33554760)
-     , (12747, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12747, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12747, 007 /* CLOTHINGBASE_DID */, 268435772)
-     , (12747, 008 /* ICON_DID */, 100669035)
-     , (12747, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12747, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12747', 'swordtraining', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12747, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (12747, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (12747, 005 /* ENCUMB_VAL_INT */, 300)
-     , (12747, 008 /* MASS_INT */, 300)
-     , (12747, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (12747, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12747, 019 /* VALUE_INT */, 25)
-     , (12747, 044 /* DAMAGE_INT */, 6)
-     , (12747, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (12747, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (12747, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (12747, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (12747, 049 /* WEAPON_TIME_INT */, 35)
-     , (12747, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (12747, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12747, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12747, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12747, 021 /* WEAPON_LENGTH_FLOAT */, 0.68)
-     , (12747, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (12747, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (12747, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (12747, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (12747,   1,          1) /* ItemType - MeleeWeapon */
+     , (12747,   3,          4) /* PaletteTemplate - Brown */
+     , (12747,   5,        300) /* EncumbranceVal */
+     , (12747,   8,        300) /* Mass */
+     , (12747,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12747,  16,          1) /* ItemUseable - No */
+     , (12747,  19,         25) /* Value */
+     , (12747,  44,          6) /* Damage */
+     , (12747,  45,          3) /* DamageType */
+     , (12747,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (12747,  47,          6) /* AttackType */
+     , (12747,  48,         11) /* WeaponSkill - Sword */
+     , (12747,  49,         35) /* WeaponTime */
+     , (12747,  51,          1) /* CombatUse - Melee */
+     , (12747,  93,       1044) /* PhysicsState */
+     , (12747, 150,        103) /* HookPlacement - Hook */
+     , (12747, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12747, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12747, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (12747,  22, True ) /* Inscribable */
+     , (12747,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12747,  21,    0.68) /* WeaponLength */
+     , (12747,  22,     0.5) /* DamageVariance */
+     , (12747,  29,       1) /* WeaponDefense */
+     , (12747,  39,     1.1) /* DefaultScale */
+     , (12747,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12747,   1, 'Training Short Sword') /* Name */
+     , (12747,  14, 'Use Oil of Rendering on this weapon to create an Academy Short Sword.') /* Use */
+     , (12747,  15, 'A basic short sword forged in the Strathelar Training Academy. This item can be placed on an item hook.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12747,   1,   33554760) /* Setup */
+     , (12747,   3,  536870932) /* SoundTable */
+     , (12747,   6,   67111919) /* PaletteBase */
+     , (12747,   7,  268435772) /* ClothingBase */
+     , (12747,   8,  100669035) /* Icon */
+     , (12747,  22,  872415275) /* PhysicsEffectTable */
+     , (12747,  36,  234881044) /* MutateFilter */;

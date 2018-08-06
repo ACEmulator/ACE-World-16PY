@@ -1,47 +1,43 @@
-/* Weenie - Practice Staff (4800) */
-DELETE FROM weenie WHERE class_Id = 4800;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4800, 'newbiestaff', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4800, 001 /* NAME_STRING */, 'Practice Staff');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4800, 001 /* SETUP_DID */, 33555022)
-     , (4800, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4800, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (4800, 007 /* CLOTHINGBASE_DID */, 268435796)
-     , (4800, 008 /* ICON_DID */, 100668702)
-     , (4800, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (4800, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (4800, 028 /* SPELL_DID */, 58 /* AcidStream1_SpellID */)
-     , (4800, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4800', 'newbiestaff', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4800, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (4800, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (4800, 005 /* ENCUMB_VAL_INT */, 50)
-     , (4800, 008 /* MASS_INT */, 25)
-     , (4800, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (4800, 016 /* ITEM_USEABLE_INT */, 6291460 /* USEABLE_SOURCE_WIELDED_TARGET_REMOTE_NEVER_WALK */)
-     , (4800, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (4800, 019 /* VALUE_INT */, 15)
-     , (4800, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (4800, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (4800, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (4800, 106 /* ITEM_SPELLCRAFT_INT */, 25)
-     , (4800, 107 /* ITEM_CUR_MANA_INT */, 60)
-     , (4800, 108 /* ITEM_MAX_MANA_INT */, 60)
-     , (4800, 109 /* ITEM_DIFFICULTY_INT */, 25)
-     , (4800, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (4800, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (4800, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4800, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (4800, 039 /* DEFAULT_SCALE_FLOAT */, 0.7);
+VALUES (4800,   1,      32768) /* ItemType - Caster */
+     , (4800,   3,          4) /* PaletteTemplate - Brown */
+     , (4800,   5,         50) /* EncumbranceVal */
+     , (4800,   8,         25) /* Mass */
+     , (4800,   9,   16777216) /* ValidLocations - Held */
+     , (4800,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
+     , (4800,  18,          1) /* UiEffects - Magical */
+     , (4800,  19,         15) /* Value */
+     , (4800,  46,        512) /* DefaultCombatStyle - Magic */
+     , (4800,  93,       1044) /* PhysicsState */
+     , (4800,  94,         16) /* TargetType - Creature */
+     , (4800, 106,         25) /* ItemSpellcraft */
+     , (4800, 107,         60) /* ItemCurMana */
+     , (4800, 108,         60) /* ItemMaxMana */
+     , (4800, 109,         25) /* ItemDifficulty */
+     , (4800, 110,          0) /* ItemAllegianceRankLimit */
+     , (4800, 150,        103) /* HookPlacement - Hook */
+     , (4800, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4800, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (4800,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4800,  29,       1) /* WeaponDefense */
+     , (4800,  39,     0.7) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4800,   1, 'Practice Staff') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4800,   1,   33555022) /* Setup */
+     , (4800,   3,  536870932) /* SoundTable */
+     , (4800,   6,   67111919) /* PaletteBase */
+     , (4800,   7,  268435796) /* ClothingBase */
+     , (4800,   8,  100668702) /* Icon */
+     , (4800,  22,  872415275) /* PhysicsEffectTable */
+     , (4800,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (4800,  28,         58) /* Spell - Acid Stream I */
+     , (4800,  36,  234881046) /* MutateFilter */;

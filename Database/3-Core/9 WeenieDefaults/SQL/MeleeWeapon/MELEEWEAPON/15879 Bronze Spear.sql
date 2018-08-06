@@ -1,48 +1,44 @@
-/* Weenie - Bronze Spear (15879) */
-DELETE FROM weenie WHERE class_Id = 15879;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15879, 'spearstatue-monsteronly', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15879, 001 /* NAME_STRING */, 'Bronze Spear');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15879, 001 /* SETUP_DID */, 33554756)
-     , (15879, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15879, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (15879, 007 /* CLOTHINGBASE_DID */, 268435768)
-     , (15879, 008 /* ICON_DID */, 100669005)
-     , (15879, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15879', 'spearstatue-monsteronly', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15879, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (15879, 003 /* PALETTE_TEMPLATE_INT */, 27 /* DARKGREENMETAL_PALETTE_TEMPLATE */)
-     , (15879, 005 /* ENCUMB_VAL_INT */, 700)
-     , (15879, 008 /* MASS_INT */, 140)
-     , (15879, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (15879, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15879, 019 /* VALUE_INT */, 170)
-     , (15879, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (15879, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (15879, 044 /* DAMAGE_INT */, 40)
-     , (15879, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (15879, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (15879, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (15879, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (15879, 049 /* WEAPON_TIME_INT */, 5)
-     , (15879, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (15879, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (15879, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15879, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (15879, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (15879, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (15879, 039 /* DEFAULT_SCALE_FLOAT */, 2.5)
-     , (15879, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (15879,   1,          1) /* ItemType - MeleeWeapon */
+     , (15879,   3,         27) /* PaletteTemplate - DarkGreenMetal */
+     , (15879,   5,        700) /* EncumbranceVal */
+     , (15879,   8,        140) /* Mass */
+     , (15879,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (15879,  16,          1) /* ItemUseable - No */
+     , (15879,  19,        170) /* Value */
+     , (15879,  33,         -2) /* Bonded - Destroy */
+     , (15879,  37,       9999) /* ResistItemAppraisal */
+     , (15879,  44,         40) /* Damage */
+     , (15879,  45,          2) /* DamageType - Pierce */
+     , (15879,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (15879,  47,          2) /* AttackType - Thrust */
+     , (15879,  48,          9) /* WeaponSkill - Spear */
+     , (15879,  49,          5) /* WeaponTime */
+     , (15879,  51,          1) /* CombatUse - Melee */
+     , (15879,  93,       1044) /* PhysicsState */
+     , (15879, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15879, 022 /* INSCRIBABLE_BOOL */, True)
-     , (15879, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (15879,  22, True ) /* Inscribable */
+     , (15879,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15879,  21,     1.5) /* WeaponLength */
+     , (15879,  22,    0.75) /* DamageVariance */
+     , (15879,  29,       1) /* WeaponDefense */
+     , (15879,  39,     2.5) /* DefaultScale */
+     , (15879,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15879,   1, 'Bronze Spear') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15879,   1,   33554756) /* Setup */
+     , (15879,   3,  536870932) /* SoundTable */
+     , (15879,   6,   67111919) /* PaletteBase */
+     , (15879,   7,  268435768) /* ClothingBase */
+     , (15879,   8,  100669005) /* Icon */
+     , (15879,  22,  872415275) /* PhysicsEffectTable */;

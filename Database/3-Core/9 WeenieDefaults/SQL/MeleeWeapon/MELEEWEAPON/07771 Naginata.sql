@@ -1,48 +1,44 @@
-/* Weenie - Naginata (7771) */
-DELETE FROM weenie WHERE class_Id = 7771;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7771, 'swordstaff', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7771, 001 /* NAME_STRING */, 'Naginata');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7771, 001 /* SETUP_DID */, 33556640)
-     , (7771, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7771, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7771, 007 /* CLOTHINGBASE_DID */, 268436012)
-     , (7771, 008 /* ICON_DID */, 100670761)
-     , (7771, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (7771, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (7771, 046 /* TSYS_MUTATION_FILTER_DID */, 939524103);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7771', 'swordstaff', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7771, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (7771, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (7771, 005 /* ENCUMB_VAL_INT */, 750)
-     , (7771, 008 /* MASS_INT */, 150)
-     , (7771, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (7771, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7771, 019 /* VALUE_INT */, 350)
-     , (7771, 044 /* DAMAGE_INT */, 9)
-     , (7771, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (7771, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (7771, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (7771, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (7771, 049 /* WEAPON_TIME_INT */, 35)
-     , (7771, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (7771, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7771, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (7771, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (7771, 169 /* TSYS_MUTATION_DATA_INT */, 101188618);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7771, 021 /* WEAPON_LENGTH_FLOAT */, 1.3)
-     , (7771, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.66)
-     , (7771, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (7771, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (7771,   1,          1) /* ItemType - MeleeWeapon */
+     , (7771,   3,         20) /* PaletteTemplate - Silver */
+     , (7771,   5,        750) /* EncumbranceVal */
+     , (7771,   8,        150) /* Mass */
+     , (7771,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (7771,  16,          1) /* ItemUseable - No */
+     , (7771,  19,        350) /* Value */
+     , (7771,  44,          9) /* Damage */
+     , (7771,  45,          3) /* DamageType */
+     , (7771,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (7771,  47,          6) /* AttackType */
+     , (7771,  48,          9) /* WeaponSkill - Spear */
+     , (7771,  49,         35) /* WeaponTime */
+     , (7771,  51,          1) /* CombatUse - Melee */
+     , (7771,  93,       1044) /* PhysicsState */
+     , (7771, 150,        103) /* HookPlacement - Hook */
+     , (7771, 151,          2) /* HookType - Wall */
+     , (7771, 169,  101188618) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7771, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (7771,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7771,  21,     1.3) /* WeaponLength */
+     , (7771,  22,    0.66) /* DamageVariance */
+     , (7771,  29,       1) /* WeaponDefense */
+     , (7771,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7771,   1, 'Naginata') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7771,   1,   33556640) /* Setup */
+     , (7771,   3,  536870932) /* SoundTable */
+     , (7771,   6,   67111919) /* PaletteBase */
+     , (7771,   7,  268436012) /* ClothingBase */
+     , (7771,   8,  100670761) /* Icon */
+     , (7771,  22,  872415275) /* PhysicsEffectTable */
+     , (7771,  36,  234881053) /* MutateFilter */
+     , (7771,  46,  939524103) /* TsysMutationFilter */;

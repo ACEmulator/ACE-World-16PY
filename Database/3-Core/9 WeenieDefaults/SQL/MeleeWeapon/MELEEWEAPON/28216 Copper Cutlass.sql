@@ -1,62 +1,58 @@
-/* Weenie - Copper Cutlass (28216) */
-DELETE FROM weenie WHERE class_Id = 28216;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28216, 'cutlasscopper', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28216, 001 /* NAME_STRING */, 'Copper Cutlass')
-     , (28216, 016 /* LONG_DESC_STRING */, 'A sword crafted from the tooth of a copper gromnie.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28216, 001 /* SETUP_DID */, 33558828)
-     , (28216, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28216, 008 /* ICON_DID */, 100676799)
-     , (28216, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28216', 'cutlasscopper', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28216, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (28216, 005 /* ENCUMB_VAL_INT */, 400)
-     , (28216, 008 /* MASS_INT */, 180)
-     , (28216, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (28216, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28216, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28216, 019 /* VALUE_INT */, 3000)
-     , (28216, 044 /* DAMAGE_INT */, 44)
-     , (28216, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (28216, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (28216, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (28216, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (28216, 049 /* WEAPON_TIME_INT */, 30)
-     , (28216, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (28216, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28216, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (28216, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (28216, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (28216, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (28216, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28216, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (28216, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (28216, 159 /* WIELD_SKILLTYPE_INT */, 11 /* SWORD_SKILL */)
-     , (28216, 160 /* WIELD_DIFFICULTY_INT */, 325);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28216, 005 /* MANA_RATE_FLOAT */, -0.04)
-     , (28216, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (28216, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.4)
-     , (28216, 029 /* WEAPON_DEFENSE_FLOAT */, 1.07)
-     , (28216, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (28216, 062 /* WEAPON_OFFENSE_FLOAT */, 1.07)
-     , (28216, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 3)
-     , (28216, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.2);
+VALUES (28216,   1,          1) /* ItemType - MeleeWeapon */
+     , (28216,   5,        400) /* EncumbranceVal */
+     , (28216,   8,        180) /* Mass */
+     , (28216,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (28216,  16,          1) /* ItemUseable - No */
+     , (28216,  18,          1) /* UiEffects - Magical */
+     , (28216,  19,       3000) /* Value */
+     , (28216,  44,         44) /* Damage */
+     , (28216,  45,          2) /* DamageType - Pierce */
+     , (28216,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (28216,  47,          2) /* AttackType - Thrust */
+     , (28216,  48,         11) /* WeaponSkill - Sword */
+     , (28216,  49,         30) /* WeaponTime */
+     , (28216,  51,          1) /* CombatUse - Melee */
+     , (28216,  93,       1044) /* PhysicsState */
+     , (28216, 106,        300) /* ItemSpellcraft */
+     , (28216, 107,       1000) /* ItemCurMana */
+     , (28216, 108,       1000) /* ItemMaxMana */
+     , (28216, 109,        150) /* ItemDifficulty */
+     , (28216, 150,        103) /* HookPlacement - Hook */
+     , (28216, 151,          2) /* HookType - Wall */
+     , (28216, 158,          2) /* WieldRequirements - RawSkill */
+     , (28216, 159,         11) /* WieldSkilltype - Sword */
+     , (28216, 160,        325) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28216, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28216, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28216,  22, True ) /* Inscribable */
+     , (28216,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28216,   5,   -0.04) /* ManaRate */
+     , (28216,  21,    0.95) /* WeaponLength */
+     , (28216,  22,     0.4) /* DamageVariance */
+     , (28216,  29,    1.07) /* WeaponDefense */
+     , (28216,  39,       1) /* DefaultScale */
+     , (28216,  62,    1.07) /* WeaponOffense */
+     , (28216, 136,       3) /* CriticalMultiplier */
+     , (28216, 147,     0.2) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28216,   1, 'Copper Cutlass') /* Name */
+     , (28216,  16, 'A sword crafted from the tooth of a copper gromnie.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28216,   1,   33558828) /* Setup */
+     , (28216,   3,  536870932) /* SoundTable */
+     , (28216,   8,  100676799) /* Icon */
+     , (28216,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28216, 1605, 2) /* Defender6_SpellID */
-     , (28216, 1592, 2) /* HeartSeeker6_SpellID */
-     , (28216, 1616, 2) /* BloodDrinker6_SpellID */
-     , (28216, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (28216,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (28216,  1605,      2)  /* Aura of Defender Self VI */
+     , (28216,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (28216,  1625,      2)  /* Aura of Swift Killer Self IV */;

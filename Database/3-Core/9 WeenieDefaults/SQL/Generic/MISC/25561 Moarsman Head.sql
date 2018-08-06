@@ -1,36 +1,32 @@
-/* Weenie - Moarsman Head (25561) */
-DELETE FROM weenie WHERE class_Id = 25561;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25561, 'headmoarsman', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25561, 001 /* NAME_STRING */, 'Moarsman Head')
-     , (25561, 016 /* LONG_DESC_STRING */, 'A stinking Moarsman''s head. It smells of a rotting fish and seaweed.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25561, 001 /* SETUP_DID */, 33556823)
-     , (25561, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25561, 006 /* PALETTE_BASE_DID */, 67112872)
-     , (25561, 007 /* CLOTHINGBASE_DID */, 268436684)
-     , (25561, 008 /* ICON_DID */, 100674949)
-     , (25561, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25561', 'headmoarsman', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25561, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25561, 005 /* ENCUMB_VAL_INT */, 500)
-     , (25561, 008 /* MASS_INT */, 600)
-     , (25561, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25561, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25561, 019 /* VALUE_INT */, 0)
-     , (25561, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25561, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25561, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25561, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (25561,   1,        128) /* ItemType - Misc */
+     , (25561,   5,        500) /* EncumbranceVal */
+     , (25561,   8,        600) /* Mass */
+     , (25561,   9,          0) /* ValidLocations - None */
+     , (25561,  16,          1) /* ItemUseable - No */
+     , (25561,  19,          0) /* Value */
+     , (25561,  93,       1044) /* PhysicsState */
+     , (25561, 150,        103) /* HookPlacement - Hook */
+     , (25561, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25561, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25561, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (25561,  22, True ) /* Inscribable */
+     , (25561,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25561,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25561,   1, 'Moarsman Head') /* Name */
+     , (25561,  16, 'A stinking Moarsman''s head. It smells of a rotting fish and seaweed.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25561,   1,   33556823) /* Setup */
+     , (25561,   3,  536870932) /* SoundTable */
+     , (25561,   6,   67112872) /* PaletteBase */
+     , (25561,   7,  268436684) /* ClothingBase */
+     , (25561,   8,  100674949) /* Icon */
+     , (25561,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,34 +1,30 @@
-/* Weenie - Gauloth Shreth Hide (24849) */
-DELETE FROM weenie WHERE class_Id = 24849;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24849, 'shrethhidegauloth', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24849, 001 /* NAME_STRING */, 'Gauloth Shreth Hide');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24849, 001 /* SETUP_DID */, 33554817)
-     , (24849, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24849, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24849, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (24849, 008 /* ICON_DID */, 100674493)
-     , (24849, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24849', 'shrethhidegauloth', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24849, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24849, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (24849, 005 /* ENCUMB_VAL_INT */, 500)
-     , (24849, 008 /* MASS_INT */, 500)
-     , (24849, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24849, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24849, 019 /* VALUE_INT */, 0)
-     , (24849, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24849, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (24849,   1,        128) /* ItemType - Misc */
+     , (24849,   3,          4) /* PaletteTemplate - Brown */
+     , (24849,   5,        500) /* EncumbranceVal */
+     , (24849,   8,        500) /* Mass */
+     , (24849,   9,          0) /* ValidLocations - None */
+     , (24849,  16,          1) /* ItemUseable - No */
+     , (24849,  19,          0) /* Value */
+     , (24849,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24849, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24849, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24849,  22, True ) /* Inscribable */
+     , (24849,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24849,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24849,   1, 'Gauloth Shreth Hide') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24849,   1,   33554817) /* Setup */
+     , (24849,   3,  536870932) /* SoundTable */
+     , (24849,   6,   67111919) /* PaletteBase */
+     , (24849,   7,  268435832) /* ClothingBase */
+     , (24849,   8,  100674493) /* Icon */
+     , (24849,  22,  872415275) /* PhysicsEffectTable */;

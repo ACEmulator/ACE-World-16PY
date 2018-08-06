@@ -1,64 +1,60 @@
-/* Weenie - Peerless Stinging Atlan Mace (6233) */
-DELETE FROM weenie WHERE class_Id = 6233;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6233, 'macebeststingingmajor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6233, 001 /* NAME_STRING */, 'Peerless Stinging Atlan Mace');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6233, 001 /* SETUP_DID */, 33556363)
-     , (6233, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6233, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6233, 007 /* CLOTHINGBASE_DID */, 268435942)
-     , (6233, 008 /* ICON_DID */, 100670544)
-     , (6233, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6233, 037 /* ITEM_SKILL_LIMIT_DID */, 5);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6233', 'macebeststingingmajor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6233, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6233, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (6233, 005 /* ENCUMB_VAL_INT */, 600)
-     , (6233, 008 /* MASS_INT */, 800)
-     , (6233, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6233, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6233, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6233, 019 /* VALUE_INT */, 5000)
-     , (6233, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6233, 044 /* DAMAGE_INT */, 18)
-     , (6233, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (6233, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6233, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (6233, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (6233, 049 /* WEAPON_TIME_INT */, 35)
-     , (6233, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6233, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6233, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (6233, 107 /* ITEM_CUR_MANA_INT */, 750)
-     , (6233, 108 /* ITEM_MAX_MANA_INT */, 750)
-     , (6233, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 225)
-     , (6233, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6233, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6233, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (6233, 021 /* WEAPON_LENGTH_FLOAT */, 0.6)
-     , (6233, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (6233, 029 /* WEAPON_DEFENSE_FLOAT */, 1.07)
-     , (6233, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6233, 062 /* WEAPON_OFFENSE_FLOAT */, 1.07);
+VALUES (6233,   1,          1) /* ItemType - MeleeWeapon */
+     , (6233,   3,          8) /* PaletteTemplate - Green */
+     , (6233,   5,        600) /* EncumbranceVal */
+     , (6233,   8,        800) /* Mass */
+     , (6233,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6233,  16,          1) /* ItemUseable - No */
+     , (6233,  18,          1) /* UiEffects - Magical */
+     , (6233,  19,       5000) /* Value */
+     , (6233,  33,          1) /* Bonded - Bonded */
+     , (6233,  44,         18) /* Damage */
+     , (6233,  45,         32) /* DamageType - Acid */
+     , (6233,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6233,  47,          4) /* AttackType - Slash */
+     , (6233,  48,          5) /* WeaponSkill - Mace */
+     , (6233,  49,         35) /* WeaponTime */
+     , (6233,  51,          1) /* CombatUse - Melee */
+     , (6233,  93,       1044) /* PhysicsState */
+     , (6233, 106,        200) /* ItemSpellcraft */
+     , (6233, 107,        750) /* ItemCurMana */
+     , (6233, 108,        750) /* ItemMaxMana */
+     , (6233, 115,        225) /* ItemSkillLevelLimit */
+     , (6233, 150,        103) /* HookPlacement - Hook */
+     , (6233, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6233, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6233, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6233, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6233,  22, True ) /* Inscribable */
+     , (6233,  23, True ) /* DestroyOnSell */
+     , (6233,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6233,   5,  -0.033) /* ManaRate */
+     , (6233,  21,     0.6) /* WeaponLength */
+     , (6233,  22,     0.6) /* DamageVariance */
+     , (6233,  29,    1.07) /* WeaponDefense */
+     , (6233,  39,       1) /* DefaultScale */
+     , (6233,  62,    1.07) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6233,   1, 'Peerless Stinging Atlan Mace') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6233,   1,   33556363) /* Setup */
+     , (6233,   3,  536870932) /* SoundTable */
+     , (6233,   6,   67111919) /* PaletteBase */
+     , (6233,   7,  268435942) /* ClothingBase */
+     , (6233,   8,  100670544) /* Icon */
+     , (6233,  22,  872415275) /* PhysicsEffectTable */
+     , (6233,  37,          5) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6233, 1603, 2) /* Defender4_SpellID */
-     , (6233, 518, 2) /* AcidProtectionSelf4_SpellID */
-     , (6233, 1590, 2) /* HeartSeeker4_SpellID */
-     , (6233, 1614, 2) /* BloodDrinker4_SpellID */
-     , (6233, 1376, 2) /* CoordinationSelf4_SpellID */
-     , (6233, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (6233,   518,      2)  /* Acid Protection Self IV */
+     , (6233,  1376,      2)  /* Coordination Self IV */
+     , (6233,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (6233,  1603,      2)  /* Aura of Defender Self IV */
+     , (6233,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (6233,  1625,      2)  /* Aura of Swift Killer Self IV */;

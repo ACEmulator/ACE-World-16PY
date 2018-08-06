@@ -1,64 +1,60 @@
-/* Weenie - Macer's Gauntlets (24462) */
-DELETE FROM weenie WHERE class_Id = 24462;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24462, 'gauntletsmacers', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24462, 001 /* NAME_STRING */, 'Macer''s Gauntlets')
-     , (24462, 016 /* LONG_DESC_STRING */, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the macer.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24462, 001 /* SETUP_DID */, 33554648)
-     , (24462, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24462, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (24462, 007 /* CLOTHINGBASE_DID */, 268436636)
-     , (24462, 008 /* ICON_DID */, 100674339)
-     , (24462, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24462, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24462', 'gauntletsmacers', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24462, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (24462, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (24462, 004 /* CLOTHING_PRIORITY_INT */, 32768 /* Hands */)
-     , (24462, 005 /* ENCUMB_VAL_INT */, 450)
-     , (24462, 008 /* MASS_INT */, 460)
-     , (24462, 009 /* LOCATIONS_INT */, 32 /* HAND_WEAR_LOC */)
-     , (24462, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24462, 019 /* VALUE_INT */, 5500)
-     , (24462, 027 /* ARMOR_TYPE_INT */, 32)
-     , (24462, 028 /* ARMOR_LEVEL_INT */, 250)
-     , (24462, 044 /* DAMAGE_INT */, 8)
-     , (24462, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (24462, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24462, 106 /* ITEM_SPELLCRAFT_INT */, 290)
-     , (24462, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (24462, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (24462, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (24462, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (24462, 159 /* WIELD_SKILLTYPE_INT */, 5 /* MACE_SKILL */)
-     , (24462, 160 /* WIELD_DIFFICULTY_INT */, 300);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24462, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (24462, 012 /* SHADE_FLOAT */, 0.66)
-     , (24462, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (24462, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (24462, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
-     , (24462, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (24462, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
-     , (24462, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.2)
-     , (24462, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (24462, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (24462, 110 /* BULK_MOD_FLOAT */, 1)
-     , (24462, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (24462,   1,          2) /* ItemType - Armor */
+     , (24462,   3,         14) /* PaletteTemplate - Red */
+     , (24462,   4,      32768) /* ClothingPriority - Hands */
+     , (24462,   5,        450) /* EncumbranceVal */
+     , (24462,   8,        460) /* Mass */
+     , (24462,   9,         32) /* ValidLocations - HandWear */
+     , (24462,  16,          1) /* ItemUseable - No */
+     , (24462,  19,       5500) /* Value */
+     , (24462,  27,         32) /* ArmorType */
+     , (24462,  28,        250) /* ArmorLevel */
+     , (24462,  44,          8) /* Damage */
+     , (24462,  45,          4) /* DamageType - Bludgeon */
+     , (24462,  93,       1044) /* PhysicsState */
+     , (24462, 106,        290) /* ItemSpellcraft */
+     , (24462, 107,       1000) /* ItemCurMana */
+     , (24462, 108,       1000) /* ItemMaxMana */
+     , (24462, 109,        150) /* ItemDifficulty */
+     , (24462, 158,          2) /* WieldRequirements - RawSkill */
+     , (24462, 159,          5) /* WieldSkilltype - Mace */
+     , (24462, 160,        300) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24462, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24462, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24462,  22, True ) /* Inscribable */
+     , (24462,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24462,   5,   -0.05) /* ManaRate */
+     , (24462,  12,    0.66) /* Shade */
+     , (24462,  13,     0.8) /* ArmorModVsSlash */
+     , (24462,  14,     0.8) /* ArmorModVsPierce */
+     , (24462,  15,     0.8) /* ArmorModVsBludgeon */
+     , (24462,  16,       1) /* ArmorModVsCold */
+     , (24462,  17,     1.2) /* ArmorModVsFire */
+     , (24462,  18,     1.2) /* ArmorModVsAcid */
+     , (24462,  19,       1) /* ArmorModVsElectric */
+     , (24462,  22,    0.75) /* DamageVariance */
+     , (24462, 110,       1) /* BulkMod */
+     , (24462, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24462,   1, 'Macer''s Gauntlets') /* Name */
+     , (24462,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the macer.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24462,   1,   33554648) /* Setup */
+     , (24462,   3,  536870932) /* SoundTable */
+     , (24462,   6,   67108990) /* PaletteBase */
+     , (24462,   7,  268436636) /* ClothingBase */
+     , (24462,   8,  100674339) /* Icon */
+     , (24462,  22,  872415275) /* PhysicsEffectTable */
+     , (24462,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24462, 2690, 2) /* ModerateMaceAptitude_SpellID */
-     , (24462, 1485, 2) /* Impenetrability5_SpellID */
-     , (24462, 1384, 2) /* CoordinationOther6_SpellID */;
-
+VALUES (24462,  1384,      2)  /* Coordination Other VI */
+     , (24462,  1485,      2)  /* Impenetrability V */
+     , (24462,  2690,      2)  /* Moderate Light Weapon Aptitude */;

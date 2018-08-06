@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Gelidite's Gift (20476) */
-DELETE FROM weenie WHERE class_Id = 20476;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20476, 'scrollcoldvulnerabilityother7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20476, 001 /* NAME_STRING */, 'Scroll of Gelidite''s Gift')
-     , (20476, 015 /* SHORT_DESC_STRING */, 'When learned, this spell increases damage the target takes from Cold by 185%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20476, 001 /* SETUP_DID */, 33554826)
-     , (20476, 008 /* ICON_DID */, 100676950)
-     , (20476, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20476, 028 /* SPELL_DID */, 2168 /* ColdVulnerabilityOther7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20476', 'scrollcoldvulnerabilityother7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20476, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20476, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20476, 008 /* MASS_INT */, 90)
-     , (20476, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20476, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20476, 019 /* VALUE_INT */, 2000)
-     , (20476, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20476, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20476,   1,       8192) /* ItemType - Writable */
+     , (20476,   5,         30) /* EncumbranceVal */
+     , (20476,   8,         90) /* Mass */
+     , (20476,   9,          0) /* ValidLocations - None */
+     , (20476,  16,          8) /* ItemUseable - Contained */
+     , (20476,  19,       2000) /* Value */
+     , (20476,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20476, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20476, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20476,  22, True ) /* Inscribable */
+     , (20476,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20476,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20476,   1, 'Scroll of Gelidite''s Gift') /* Name */
+     , (20476,  15, 'When learned, this spell increases damage the target takes from Cold by 185%.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20476,   1,   33554826) /* Setup */
+     , (20476,   8,  100676950) /* Icon */
+     , (20476,  22,  872415275) /* PhysicsEffectTable */
+     , (20476,  28,       2168) /* Spell - Gelidite's Gift */;

@@ -1,56 +1,52 @@
-/* Weenie - Essence Flicker (8671) */
-DELETE FROM weenie WHERE class_Id = 8671;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8671, 'wisporblow', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8671, 001 /* NAME_STRING */, 'Essence Flicker')
-     , (8671, 016 /* LONG_DESC_STRING */, 'A flickering essence formerly trapped in a wisp.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8671, 001 /* SETUP_DID */, 33556934)
-     , (8671, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8671, 006 /* PALETTE_BASE_DID */, 67111928)
-     , (8671, 007 /* CLOTHINGBASE_DID */, 268436041)
-     , (8671, 008 /* ICON_DID */, 100671240)
-     , (8671, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8671, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (8671, 037 /* ITEM_SKILL_LIMIT_DID */, 16);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8671', 'wisporblow', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8671, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (8671, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (8671, 005 /* ENCUMB_VAL_INT */, 50)
-     , (8671, 008 /* MASS_INT */, 50)
-     , (8671, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (8671, 016 /* ITEM_USEABLE_INT */, 6291464 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE_NEVER_WALK */)
-     , (8671, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8671, 019 /* VALUE_INT */, 200)
-     , (8671, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (8671, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8671, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (8671, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (8671, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (8671, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (8671, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 60)
-     , (8671, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8671, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8671, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (8671, 012 /* SHADE_FLOAT */, 0.5)
-     , (8671, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (8671, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (8671, 076 /* TRANSLUCENCY_FLOAT */, 0.5);
+VALUES (8671,   1,      32768) /* ItemType - Caster */
+     , (8671,   3,          2) /* PaletteTemplate - Blue */
+     , (8671,   5,         50) /* EncumbranceVal */
+     , (8671,   8,         50) /* Mass */
+     , (8671,   9,   16777216) /* ValidLocations - Held */
+     , (8671,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
+     , (8671,  18,          1) /* UiEffects - Magical */
+     , (8671,  19,        200) /* Value */
+     , (8671,  46,        512) /* DefaultCombatStyle - Magic */
+     , (8671,  93,       3092) /* PhysicsState */
+     , (8671,  94,         16) /* TargetType - Creature */
+     , (8671, 106,        150) /* ItemSpellcraft */
+     , (8671, 107,        600) /* ItemCurMana */
+     , (8671, 108,        600) /* ItemMaxMana */
+     , (8671, 115,         60) /* ItemSkillLevelLimit */
+     , (8671, 150,        103) /* HookPlacement - Hook */
+     , (8671, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8671, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (8671, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8671, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8671,  15, True ) /* LightsStatus */
+     , (8671,  22, True ) /* Inscribable */
+     , (8671,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8671,   5,  -0.025) /* ManaRate */
+     , (8671,  12,     0.5) /* Shade */
+     , (8671,  29,       1) /* WeaponDefense */
+     , (8671,  39,       1) /* DefaultScale */
+     , (8671,  76,     0.5) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8671,   1, 'Essence Flicker') /* Name */
+     , (8671,  16, 'A flickering essence formerly trapped in a wisp.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8671,   1,   33556934) /* Setup */
+     , (8671,   3,  536870932) /* SoundTable */
+     , (8671,   6,   67111928) /* PaletteBase */
+     , (8671,   7,  268436041) /* ClothingBase */
+     , (8671,   8,  100671240) /* Icon */
+     , (8671,  22,  872415275) /* PhysicsEffectTable */
+     , (8671,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (8671,  37,         16) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8671, 191, 2) /* RejuvenationSelf4_SpellID */
-     , (8671, 215, 2) /* ManaRenewalSelf4_SpellID */
-     , (8671, 168, 2) /* RegenerationSelf4_SpellID */;
-
+VALUES (8671,   168,      2)  /* Regeneration Self IV */
+     , (8671,   191,      2)  /* Rejuvenation Self IV */
+     , (8671,   215,      2)  /* Mana Renewal Self IV */;

@@ -1,56 +1,52 @@
-/* Weenie - Overlord's Sword (4912) */
-DELETE FROM weenie WHERE class_Id = 4912;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4912, 'swordrealoverlord', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4912, 001 /* NAME_STRING */, 'Overlord''s Sword');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4912, 001 /* SETUP_DID */, 33558185)
-     , (4912, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4912, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (4912, 008 /* ICON_DID */, 100667610)
-     , (4912, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4912', 'swordrealoverlord', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4912, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (4912, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (4912, 005 /* ENCUMB_VAL_INT */, 650)
-     , (4912, 008 /* MASS_INT */, 420)
-     , (4912, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (4912, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4912, 019 /* VALUE_INT */, 1550)
-     , (4912, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (4912, 044 /* DAMAGE_INT */, 45)
-     , (4912, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (4912, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (4912, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (4912, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (4912, 049 /* WEAPON_TIME_INT */, 50)
-     , (4912, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (4912, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (4912, 106 /* ITEM_SPELLCRAFT_INT */, 260)
-     , (4912, 107 /* ITEM_CUR_MANA_INT */, 2000)
-     , (4912, 108 /* ITEM_MAX_MANA_INT */, 2000)
-     , (4912, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (4912, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4912, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (4912, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (4912, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (4912, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (4912, 039 /* DEFAULT_SCALE_FLOAT */, 1.3)
-     , (4912, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (4912,   1,          1) /* ItemType - MeleeWeapon */
+     , (4912,   3,         61) /* PaletteTemplate - White */
+     , (4912,   5,        650) /* EncumbranceVal */
+     , (4912,   8,        420) /* Mass */
+     , (4912,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (4912,  16,          1) /* ItemUseable - No */
+     , (4912,  19,       1550) /* Value */
+     , (4912,  33,         -2) /* Bonded - Destroy */
+     , (4912,  44,         45) /* Damage */
+     , (4912,  45,         64) /* DamageType - Electric */
+     , (4912,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (4912,  47,          6) /* AttackType */
+     , (4912,  48,         11) /* WeaponSkill - Sword */
+     , (4912,  49,         50) /* WeaponTime */
+     , (4912,  51,          1) /* CombatUse - Melee */
+     , (4912,  93,       1044) /* PhysicsState */
+     , (4912, 106,        260) /* ItemSpellcraft */
+     , (4912, 107,       2000) /* ItemCurMana */
+     , (4912, 108,       2000) /* ItemMaxMana */
+     , (4912, 150,        103) /* HookPlacement - Hook */
+     , (4912, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4912, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (4912,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4912,   5,   -0.05) /* ManaRate */
+     , (4912,  21,    0.95) /* WeaponLength */
+     , (4912,  22,     0.5) /* DamageVariance */
+     , (4912,  29,       1) /* WeaponDefense */
+     , (4912,  39,     1.3) /* DefaultScale */
+     , (4912,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4912,   1, 'Overlord''s Sword') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4912,   1,   33558185) /* Setup */
+     , (4912,   3,  536870932) /* SoundTable */
+     , (4912,   6,   67111092) /* PaletteBase */
+     , (4912,   8,  100667610) /* Icon */
+     , (4912,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4912, 1605, 2) /* Defender6_SpellID */
-     , (4912, 1592, 2) /* HeartSeeker6_SpellID */
-     , (4912, 1616, 2) /* BloodDrinker6_SpellID */
-     , (4912, 417, 2) /* SwordMasteryOther6_SpellID */;
-
+VALUES (4912,   417,      2)  /* Heavy Weapon Mastery Other VI */
+     , (4912,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (4912,  1605,      2)  /* Aura of Defender Self VI */
+     , (4912,  1616,      2)  /* Aura of Blood Drinker Self VI */;

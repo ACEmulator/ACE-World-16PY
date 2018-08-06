@@ -1,28 +1,24 @@
-/* Weenie - Shian-To Cottages (12651) */
-DELETE FROM weenie WHERE class_Id = 12651;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12651, 'shiantocottagessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12651, 001 /* NAME_STRING */, 'Shian-To Cottages')
-     , (12651, 016 /* LONG_DESC_STRING */, 'Welcome to Shian-To Cottages');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12651, 001 /* SETUP_DID */, 33557463)
-     , (12651, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12651', 'shiantocottagessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12651, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (12651, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (12651, 008 /* MASS_INT */, 1800)
-     , (12651, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12651, 019 /* VALUE_INT */, 125)
-     , (12651, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (12651,   1,        128) /* ItemType - Misc */
+     , (12651,   5,       9000) /* EncumbranceVal */
+     , (12651,   8,       1800) /* Mass */
+     , (12651,  16,          1) /* ItemUseable - No */
+     , (12651,  19,        125) /* Value */
+     , (12651,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12651, 001 /* STUCK_BOOL */, True)
-     , (12651, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12651, 013 /* ETHEREAL_BOOL */, False)
-     , (12651, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (12651,   1, True ) /* Stuck */
+     , (12651,  12, True ) /* ReportCollisions */
+     , (12651,  13, False) /* Ethereal */
+     , (12651,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12651,   1, 'Shian-To Cottages') /* Name */
+     , (12651,  16, 'Welcome to Shian-To Cottages') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12651,   1,   33557463) /* Setup */
+     , (12651,   8,  100668115) /* Icon */;

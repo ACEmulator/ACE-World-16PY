@@ -1,39 +1,35 @@
-/* Weenie - Frost Trap (4067) */
-DELETE FROM weenie WHERE class_Id = 4067;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4067, 'trapfrostlvl3', 26 /* Switch_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4067, 001 /* NAME_STRING */, 'Frost Trap')
-     , (4067, 022 /* ACTIVATION_FAILURE_STRING */, 'You hear a faint clicking sound.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4067, 001 /* SETUP_DID */, 33554667)
-     , (4067, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4067, 008 /* ICON_DID */, 100667494)
-     , (4067, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (4067, 028 /* SPELL_DID */, 71 /* FrostBolt3_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4067', 'trapfrostlvl3', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4067, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4067, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (4067, 008 /* MASS_INT */, 3000)
-     , (4067, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4067, 019 /* VALUE_INT */, 200)
-     , (4067, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
-     , (4067, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
-     , (4067, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (4067, 119 /* ACTIVE_INT */, 1)
-     , (4067, 134 /* PLAYER_KILLER_STATUS_INT */, 8 /* Creature_PKStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4067, 011 /* RESET_INTERVAL_FLOAT */, 30);
+VALUES (4067,   1,        128) /* ItemType - Misc */
+     , (4067,   5,       6000) /* EncumbranceVal */
+     , (4067,   8,       3000) /* Mass */
+     , (4067,  16,          1) /* ItemUseable - No */
+     , (4067,  19,        200) /* Value */
+     , (4067,  83,       4096) /* ActivationResponse - CastSpell */
+     , (4067,  93,         20) /* PhysicsState */
+     , (4067, 106,        100) /* ItemSpellcraft */
+     , (4067, 119,          1) /* Active */
+     , (4067, 134,          8) /* PlayerKillerStatus - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4067, 001 /* STUCK_BOOL */, True)
-     , (4067, 012 /* REPORT_COLLISIONS_BOOL */, False)
-     , (4067, 013 /* ETHEREAL_BOOL */, True)
-     , (4067, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (4067, 018 /* VISIBILITY_BOOL */, True);
+VALUES (4067,   1, True ) /* Stuck */
+     , (4067,  12, False) /* ReportCollisions */
+     , (4067,  13, True ) /* Ethereal */
+     , (4067,  14, False) /* GravityStatus */
+     , (4067,  18, True ) /* Visibility */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4067,  11,      30) /* ResetInterval */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4067,   1, 'Frost Trap') /* Name */
+     , (4067,  22, 'You hear a faint clicking sound.') /* ActivationFailure */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4067,   1,   33554667) /* Setup */
+     , (4067,   3,  536870932) /* SoundTable */
+     , (4067,   8,  100667494) /* Icon */
+     , (4067,  22,  872415275) /* PhysicsEffectTable */
+     , (4067,  28,         71) /* Spell - Frost Bolt III */;

@@ -1,60 +1,56 @@
-/* Weenie - Balister of the Quiddity (11891) */
-DELETE FROM weenie WHERE class_Id = 11891;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11891, 'tumerokcrossbowfalcon-creatureonly', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11891, 001 /* NAME_STRING */, 'Balister of the Quiddity')
-     , (11891, 015 /* SHORT_DESC_STRING */, 'A weapon made of a strange pulsating energy.')
-     , (11891, 016 /* LONG_DESC_STRING */, 'A weapon made of a strange pulsating energy.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11891, 001 /* SETUP_DID */, 33557112)
-     , (11891, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11891, 008 /* ICON_DID */, 100671701)
-     , (11891, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (11891, 037 /* ITEM_SKILL_LIMIT_DID */, 3);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11891', 'tumerokcrossbowfalcon-creatureonly', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11891, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (11891, 005 /* ENCUMB_VAL_INT */, 650)
-     , (11891, 008 /* MASS_INT */, 640)
-     , (11891, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (11891, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11891, 019 /* VALUE_INT */, 2000)
-     , (11891, 044 /* DAMAGE_INT */, 0)
-     , (11891, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (11891, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (11891, 049 /* WEAPON_TIME_INT */, 120)
-     , (11891, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (11891, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (11891, 052 /* PARENT_LOCATION_INT */, 2)
-     , (11891, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (11891, 060 /* WEAPON_RANGE_INT */, 192)
-     , (11891, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (11891, 106 /* ITEM_SPELLCRAFT_INT */, 400)
-     , (11891, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (11891, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (11891, 109 /* ITEM_DIFFICULTY_INT */, 1)
-     , (11891, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11891, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (11891, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (11891, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (11891, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (11891, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (11891, 063 /* DAMAGE_MOD_FLOAT */, 1.5);
+VALUES (11891,   1,        256) /* ItemType - MissileWeapon */
+     , (11891,   5,        650) /* EncumbranceVal */
+     , (11891,   8,        640) /* Mass */
+     , (11891,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (11891,  16,          1) /* ItemUseable - No */
+     , (11891,  19,       2000) /* Value */
+     , (11891,  44,          0) /* Damage */
+     , (11891,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (11891,  48,          3) /* WeaponSkill - Crossbow */
+     , (11891,  49,        120) /* WeaponTime */
+     , (11891,  50,          2) /* AmmoType - Bolt */
+     , (11891,  51,          2) /* CombatUse - Missle */
+     , (11891,  52,          2) /* ParentLocation */
+     , (11891,  53,          3) /* PlacementPosition */
+     , (11891,  60,        192) /* WeaponRange */
+     , (11891,  93,       3092) /* PhysicsState */
+     , (11891, 106,        400) /* ItemSpellcraft */
+     , (11891, 107,       1000) /* ItemCurMana */
+     , (11891, 108,       1000) /* ItemMaxMana */
+     , (11891, 109,          1) /* ItemDifficulty */
+     , (11891, 115,        200) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11891, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (11891, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11891, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11891,  15, True ) /* LightsStatus */
+     , (11891,  22, True ) /* Inscribable */
+     , (11891,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11891,   5,  -0.025) /* ManaRate */
+     , (11891,  26,    27.3) /* MaximumVelocity */
+     , (11891,  29,       1) /* WeaponDefense */
+     , (11891,  39,    1.25) /* DefaultScale */
+     , (11891,  62,       1) /* WeaponOffense */
+     , (11891,  63,     1.5) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11891,   1, 'Balister of the Quiddity') /* Name */
+     , (11891,  15, 'A weapon made of a strange pulsating energy.') /* ShortDesc */
+     , (11891,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11891,   1,   33557112) /* Setup */
+     , (11891,   3,  536870932) /* SoundTable */
+     , (11891,   8,  100671701) /* Icon */
+     , (11891,  22,  872415275) /* PhysicsEffectTable */
+     , (11891,  37,          3) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11891, 1603, 2) /* Defender4_SpellID */
-     , (11891, 1615, 2) /* BloodDrinker5_SpellID */
-     , (11891, 1625, 2) /* SwiftKiller4_SpellID */
-     , (11891, 1590, 2) /* HeartSeeker4_SpellID */;
-
+VALUES (11891,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (11891,  1603,      2)  /* Aura of Defender Self IV */
+     , (11891,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (11891,  1625,      2)  /* Aura of Swift Killer Self IV */;

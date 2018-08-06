@@ -1,67 +1,63 @@
-/* Weenie - Exarch Plate Coat (9032) */
-DELETE FROM weenie WHERE class_Id = 9032;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9032, 'coatexarchseablue', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9032, 001 /* NAME_STRING */, 'Exarch Plate Coat')
-     , (9032, 016 /* LONG_DESC_STRING */, 'A heavily enchanted crystalline coat, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers. The seal of the Yalaini Seaborne Empire is embossed on its chest.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9032, 001 /* SETUP_DID */, 33554644)
-     , (9032, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9032, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (9032, 007 /* CLOTHINGBASE_DID */, 268436116)
-     , (9032, 008 /* ICON_DID */, 100670403)
-     , (9032, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9032, 041 /* ITEM_SPECIALIZED_ONLY_DID */, 34);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9032', 'coatexarchseablue', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9032, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (9032, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (9032, 004 /* CLOTHING_PRIORITY_INT */, 46080 /* OuterwearChest, OuterwearUpperArms, OuterwearLowerArms, Hands */)
-     , (9032, 005 /* ENCUMB_VAL_INT */, 100)
-     , (9032, 008 /* MASS_INT */, 700)
-     , (9032, 009 /* LOCATIONS_INT */, 6688 /* HAND_WEAR_LOC, CHEST_ARMOR_LOC, UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (9032, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9032, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (9032, 019 /* VALUE_INT */, 8000)
-     , (9032, 027 /* ARMOR_TYPE_INT */, 32)
-     , (9032, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (9032, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9032, 106 /* ITEM_SPELLCRAFT_INT */, 270)
-     , (9032, 107 /* ITEM_CUR_MANA_INT */, 0)
-     , (9032, 108 /* ITEM_MAX_MANA_INT */, 2000)
-     , (9032, 109 /* ITEM_DIFFICULTY_INT */, 50);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9032, 005 /* MANA_RATE_FLOAT */, -0.125)
-     , (9032, 012 /* SHADE_FLOAT */, 0.5)
-     , (9032, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0)
-     , (9032, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0)
-     , (9032, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0)
-     , (9032, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0)
-     , (9032, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0)
-     , (9032, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0)
-     , (9032, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
-     , (9032, 110 /* BULK_MOD_FLOAT */, 1)
-     , (9032, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (9032,   1,          2) /* ItemType - Armor */
+     , (9032,   3,          2) /* PaletteTemplate - Blue */
+     , (9032,   4,      46080) /* ClothingPriority */
+     , (9032,   5,        100) /* EncumbranceVal */
+     , (9032,   8,        700) /* Mass */
+     , (9032,   9,       6688) /* ValidLocations */
+     , (9032,  16,          1) /* ItemUseable - No */
+     , (9032,  18,          1) /* UiEffects - Magical */
+     , (9032,  19,       8000) /* Value */
+     , (9032,  27,         32) /* ArmorType */
+     , (9032,  28,          0) /* ArmorLevel */
+     , (9032,  93,       1044) /* PhysicsState */
+     , (9032, 106,        270) /* ItemSpellcraft */
+     , (9032, 107,          0) /* ItemCurMana */
+     , (9032, 108,       2000) /* ItemMaxMana */
+     , (9032, 109,         50) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9032, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9032, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9032,  22, True ) /* Inscribable */
+     , (9032,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9032,   5,  -0.125) /* ManaRate */
+     , (9032,  12,     0.5) /* Shade */
+     , (9032,  13,       0) /* ArmorModVsSlash */
+     , (9032,  14,       0) /* ArmorModVsPierce */
+     , (9032,  15,       0) /* ArmorModVsBludgeon */
+     , (9032,  16,       0) /* ArmorModVsCold */
+     , (9032,  17,       0) /* ArmorModVsFire */
+     , (9032,  18,       0) /* ArmorModVsAcid */
+     , (9032,  19,       0) /* ArmorModVsElectric */
+     , (9032, 110,       1) /* BulkMod */
+     , (9032, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9032,   1, 'Exarch Plate Coat') /* Name */
+     , (9032,  16, 'A heavily enchanted crystalline coat, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers. The seal of the Yalaini Seaborne Empire is embossed on its chest.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9032,   1,   33554644) /* Setup */
+     , (9032,   3,  536870932) /* SoundTable */
+     , (9032,   6,   67108990) /* PaletteBase */
+     , (9032,   7,  268436116) /* ClothingBase */
+     , (9032,   8,  100670403) /* Icon */
+     , (9032,  22,  872415275) /* PhysicsEffectTable */
+     , (9032,  41,         34) /* ItemSpecializedOnly */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9032, 2353, 2) /* StimulationDurance_SpellID */
-     , (9032, 664, 2) /* ManaMasteryOther6_SpellID */
-     , (9032, 2377, 2) /* AnnihilationVision_SpellID */
-     , (9032, 2350, 2) /* DecayDurance_SpellID */
-     , (9032, 908, 2) /* LeadershipMasteryOther5_SpellID */
-     , (9032, 2349, 2) /* HieroWard_SpellID */
-     , (9032, 2351, 2) /* ConsumptionDurance_SpellID */
-     , (9032, 2352, 2) /* StasisDurance_SpellID */
-     , (9032, 2354, 2) /* PiercingDuranceLess_SpellID */
-     , (9032, 2355, 2) /* SlashingDuranceLess_SpellID */
-     , (9032, 2356, 2) /* BludgeoningDuranceLess_SpellID */;
-
+VALUES (9032,   664,      2)  /* Mana Conversion Mastery Other VI */
+     , (9032,   908,      2)  /* Leadership Mastery Other V */
+     , (9032,  2349,      2)  /* Hieromancer's Ward */
+     , (9032,  2350,      2)  /* Greater Decay Durance */
+     , (9032,  2351,      2)  /* Greater Consumption Durance */
+     , (9032,  2352,      2)  /* Greater Stasis Durance */
+     , (9032,  2353,      2)  /* Greater Stimulation Durance */
+     , (9032,  2354,      2)  /* Lesser Piercing Durance */
+     , (9032,  2355,      2)  /* Lesser Slashing Durance */
+     , (9032,  2356,      2)  /* Lesser Bludgeoning Durance */
+     , (9032,  2377,      2)  /* Vision of Annihilation */;

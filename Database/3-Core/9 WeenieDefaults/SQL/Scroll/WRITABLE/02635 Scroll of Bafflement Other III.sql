@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Bafflement Other III (2635) */
-DELETE FROM weenie WHERE class_Id = 2635;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2635, 'scrollbafflement3', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2635, 001 /* NAME_STRING */, 'Scroll of Bafflement Other III')
-     , (2635, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (2635, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Focus by 30 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2635, 001 /* SETUP_DID */, 33554826)
-     , (2635, 008 /* ICON_DID */, 100676458)
-     , (2635, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2635, 028 /* SPELL_DID */, 1441 /* BafflementOther3_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2635', 'scrollbafflement3', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2635, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2635, 005 /* ENCUMB_VAL_INT */, 30)
-     , (2635, 008 /* MASS_INT */, 90)
-     , (2635, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2635, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2635, 019 /* VALUE_INT */, 20)
-     , (2635, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2635, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (2635,   1,       8192) /* ItemType - Writable */
+     , (2635,   5,         30) /* EncumbranceVal */
+     , (2635,   8,         90) /* Mass */
+     , (2635,   9,          0) /* ValidLocations - None */
+     , (2635,  16,          8) /* ItemUseable - Contained */
+     , (2635,  19,         20) /* Value */
+     , (2635,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2635, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2635, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2635,  22, True ) /* Inscribable */
+     , (2635,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2635,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2635,   1, 'Scroll of Bafflement Other III') /* Name */
+     , (2635,  15, 'A magic scroll.') /* ShortDesc */
+     , (2635,  16, 'When learned, this spell decreases the target''s Focus by 30 points.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2635,   1,   33554826) /* Setup */
+     , (2635,   8,  100676458) /* Icon */
+     , (2635,  22,  872415275) /* PhysicsEffectTable */
+     , (2635,  28,       1441) /* Spell - Bafflement Other III */;

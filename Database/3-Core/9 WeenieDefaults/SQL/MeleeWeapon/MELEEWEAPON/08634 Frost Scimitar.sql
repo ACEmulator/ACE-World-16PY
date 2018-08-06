@@ -1,48 +1,44 @@
-/* Weenie - Frost Scimitar (8634) */
-DELETE FROM weenie WHERE class_Id = 8634;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8634, 'scimitarfrostmonsteronly2', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8634, 001 /* NAME_STRING */, 'Frost Scimitar');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8634, 001 /* SETUP_DID */, 33555774)
-     , (8634, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8634, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8634, 007 /* CLOTHINGBASE_DID */, 268435765)
-     , (8634, 008 /* ICON_DID */, 100667604)
-     , (8634, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8634, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8634', 'scimitarfrostmonsteronly2', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8634, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (8634, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (8634, 005 /* ENCUMB_VAL_INT */, 450)
-     , (8634, 008 /* MASS_INT */, 180)
-     , (8634, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (8634, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8634, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (8634, 019 /* VALUE_INT */, 500)
-     , (8634, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (8634, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (8634, 044 /* DAMAGE_INT */, 30)
-     , (8634, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (8634, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (8634, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (8634, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (8634, 049 /* WEAPON_TIME_INT */, 35)
-     , (8634, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (8634, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8634, 021 /* WEAPON_LENGTH_FLOAT */, 0.96)
-     , (8634, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (8634, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (8634, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (8634,   1,          1) /* ItemType - MeleeWeapon */
+     , (8634,   3,         20) /* PaletteTemplate - Silver */
+     , (8634,   5,        450) /* EncumbranceVal */
+     , (8634,   8,        180) /* Mass */
+     , (8634,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (8634,  16,          1) /* ItemUseable - No */
+     , (8634,  18,        128) /* UiEffects - Frost */
+     , (8634,  19,        500) /* Value */
+     , (8634,  33,         -2) /* Bonded - Destroy */
+     , (8634,  37,       9999) /* ResistItemAppraisal */
+     , (8634,  44,         30) /* Damage */
+     , (8634,  45,          8) /* DamageType - Cold */
+     , (8634,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (8634,  47,          6) /* AttackType */
+     , (8634,  48,         11) /* WeaponSkill - Sword */
+     , (8634,  49,         35) /* WeaponTime */
+     , (8634,  51,          1) /* CombatUse - Melee */
+     , (8634,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8634, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8634, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8634,  22, True ) /* Inscribable */
+     , (8634,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8634,  21,    0.96) /* WeaponLength */
+     , (8634,  22,     0.5) /* DamageVariance */
+     , (8634,  29,       1) /* WeaponDefense */
+     , (8634,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8634,   1, 'Frost Scimitar') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8634,   1,   33555774) /* Setup */
+     , (8634,   3,  536870932) /* SoundTable */
+     , (8634,   6,   67111919) /* PaletteBase */
+     , (8634,   7,  268435765) /* ClothingBase */
+     , (8634,   8,  100667604) /* Icon */
+     , (8634,  22,  872415275) /* PhysicsEffectTable */
+     , (8634,  36,  234881044) /* MutateFilter */;

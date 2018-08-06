@@ -1,30 +1,26 @@
-/* Weenie - Nature's Balm (8451) */
-DELETE FROM weenie WHERE class_Id = 8451;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8451, 'krystscribesign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8451, 001 /* NAME_STRING */, 'Nature''s Balm')
-     , (8451, 016 /* LONG_DESC_STRING */, 'Nature''s Balm');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8451, 001 /* SETUP_DID */, 33555594)
-     , (8451, 006 /* PALETTE_BASE_DID */, 67111782)
-     , (8451, 007 /* CLOTHINGBASE_DID */, 268435692)
-     , (8451, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8451', 'krystscribesign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8451, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (8451, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (8451, 008 /* MASS_INT */, 1800)
-     , (8451, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8451, 019 /* VALUE_INT */, 125)
-     , (8451, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (8451,   1,        128) /* ItemType - Misc */
+     , (8451,   5,       9000) /* EncumbranceVal */
+     , (8451,   8,       1800) /* Mass */
+     , (8451,  16,          1) /* ItemUseable - No */
+     , (8451,  19,        125) /* Value */
+     , (8451,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8451, 001 /* STUCK_BOOL */, True)
-     , (8451, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (8451, 013 /* ETHEREAL_BOOL */, False)
-     , (8451, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8451,   1, True ) /* Stuck */
+     , (8451,  12, True ) /* ReportCollisions */
+     , (8451,  13, False) /* Ethereal */
+     , (8451,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8451,   1, 'Nature''s Balm') /* Name */
+     , (8451,  16, 'Nature''s Balm') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8451,   1,   33555594) /* Setup */
+     , (8451,   6,   67111782) /* PaletteBase */
+     , (8451,   7,  268435692) /* ClothingBase */
+     , (8451,   8,  100668115) /* Icon */;

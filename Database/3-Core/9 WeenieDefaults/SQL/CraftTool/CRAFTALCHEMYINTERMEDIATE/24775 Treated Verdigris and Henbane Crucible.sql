@@ -1,41 +1,37 @@
-/* Weenie - Treated Verdigris and Henbane Crucible (24775) */
-DELETE FROM weenie WHERE class_Id = 24775;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24775, 'cruciblebludgeonpro4', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24775, 001 /* NAME_STRING */, 'Treated Verdigris and Henbane Crucible')
-     , (24775, 014 /* USE_STRING */, 'This item is used in alchemy.')
-     , (24775, 016 /* LONG_DESC_STRING */, 'A treated henbane and verdigris concoction in a crucible.')
-     , (24775, 020 /* PLURAL_NAME_STRING */, 'Treated Verdigris and Henbane Crucibles');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24775, 001 /* SETUP_DID */, 33555966)
-     , (24775, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24775, 008 /* ICON_DID */, 100674465)
-     , (24775, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24775, 050 /* ICON_OVERLAY_DID */, 100674414);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24775', 'cruciblebludgeonpro4', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24775, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (24775, 005 /* ENCUMB_VAL_INT */, 50)
-     , (24775, 008 /* MASS_INT */, 25)
-     , (24775, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24775, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (24775, 012 /* STACK_SIZE_INT */, 1)
-     , (24775, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (24775, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (24775, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (24775, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (24775, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (24775, 019 /* VALUE_INT */, 500)
-     , (24775, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24775, 094 /* TARGET_TYPE_INT */, 4201088 /* TYPE_LOCKABLE_MAGIC_TARGET, TYPE_GEM, TYPE_SPELL_COMPONENTS, TYPE_CRAFT_COOKING_BASE */)
-     , (24775, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24775, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (24775,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (24775,   5,         50) /* EncumbranceVal */
+     , (24775,   8,         25) /* Mass */
+     , (24775,   9,          0) /* ValidLocations - None */
+     , (24775,  11,          1) /* MaxStackSize */
+     , (24775,  12,          1) /* StackSize */
+     , (24775,  13,         50) /* StackUnitEncumbrance */
+     , (24775,  14,         25) /* StackUnitMass */
+     , (24775,  15,        500) /* StackUnitValue */
+     , (24775,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (24775,  18,          1) /* UiEffects - Magical */
+     , (24775,  19,        500) /* Value */
+     , (24775,  93,       1044) /* PhysicsState */
+     , (24775,  94,    4201088) /* TargetType */
+     , (24775, 150,        103) /* HookPlacement - Hook */
+     , (24775, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24775, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24775, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24775,  22, True ) /* Inscribable */
+     , (24775,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24775,   1, 'Treated Verdigris and Henbane Crucible') /* Name */
+     , (24775,  14, 'This item is used in alchemy.') /* Use */
+     , (24775,  16, 'A treated henbane and verdigris concoction in a crucible.') /* LongDesc */
+     , (24775,  20, 'Treated Verdigris and Henbane Crucibles') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24775,   1,   33555966) /* Setup */
+     , (24775,   3,  536870932) /* SoundTable */
+     , (24775,   8,  100674465) /* Icon */
+     , (24775,  22,  872415275) /* PhysicsEffectTable */
+     , (24775,  50,  100674414) /* IconOverlay */;

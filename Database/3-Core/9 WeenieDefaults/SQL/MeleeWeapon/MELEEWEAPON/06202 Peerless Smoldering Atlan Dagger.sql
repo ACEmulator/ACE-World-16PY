@@ -1,64 +1,60 @@
-/* Weenie - Peerless Smoldering Atlan Dagger (6202) */
-DELETE FROM weenie WHERE class_Id = 6202;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6202, 'daggerbestsmolderingmajor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6202, 001 /* NAME_STRING */, 'Peerless Smoldering Atlan Dagger');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6202, 001 /* SETUP_DID */, 33556357)
-     , (6202, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6202, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6202, 007 /* CLOTHINGBASE_DID */, 268435936)
-     , (6202, 008 /* ICON_DID */, 100670525)
-     , (6202, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6202, 037 /* ITEM_SKILL_LIMIT_DID */, 4);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6202', 'daggerbestsmolderingmajor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6202, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6202, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (6202, 005 /* ENCUMB_VAL_INT */, 135)
-     , (6202, 008 /* MASS_INT */, 100)
-     , (6202, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6202, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6202, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6202, 019 /* VALUE_INT */, 5000)
-     , (6202, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6202, 044 /* DAMAGE_INT */, 12)
-     , (6202, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (6202, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6202, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (6202, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (6202, 049 /* WEAPON_TIME_INT */, 15)
-     , (6202, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6202, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6202, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (6202, 107 /* ITEM_CUR_MANA_INT */, 750)
-     , (6202, 108 /* ITEM_MAX_MANA_INT */, 750)
-     , (6202, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 225)
-     , (6202, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6202, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6202, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (6202, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (6202, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.45)
-     , (6202, 029 /* WEAPON_DEFENSE_FLOAT */, 1.07)
-     , (6202, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6202, 062 /* WEAPON_OFFENSE_FLOAT */, 1.07);
+VALUES (6202,   1,          1) /* ItemType - MeleeWeapon */
+     , (6202,   3,         14) /* PaletteTemplate - Red */
+     , (6202,   5,        135) /* EncumbranceVal */
+     , (6202,   8,        100) /* Mass */
+     , (6202,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6202,  16,          1) /* ItemUseable - No */
+     , (6202,  18,          1) /* UiEffects - Magical */
+     , (6202,  19,       5000) /* Value */
+     , (6202,  33,          1) /* Bonded - Bonded */
+     , (6202,  44,         12) /* Damage */
+     , (6202,  45,         16) /* DamageType - Fire */
+     , (6202,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6202,  47,          6) /* AttackType */
+     , (6202,  48,          4) /* WeaponSkill - Dagger */
+     , (6202,  49,         15) /* WeaponTime */
+     , (6202,  51,          1) /* CombatUse - Melee */
+     , (6202,  93,       1044) /* PhysicsState */
+     , (6202, 106,        200) /* ItemSpellcraft */
+     , (6202, 107,        750) /* ItemCurMana */
+     , (6202, 108,        750) /* ItemMaxMana */
+     , (6202, 115,        225) /* ItemSkillLevelLimit */
+     , (6202, 150,        103) /* HookPlacement - Hook */
+     , (6202, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6202, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6202, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6202, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6202,  22, True ) /* Inscribable */
+     , (6202,  23, True ) /* DestroyOnSell */
+     , (6202,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6202,   5,  -0.033) /* ManaRate */
+     , (6202,  21,     0.4) /* WeaponLength */
+     , (6202,  22,    0.45) /* DamageVariance */
+     , (6202,  29,    1.07) /* WeaponDefense */
+     , (6202,  39,       1) /* DefaultScale */
+     , (6202,  62,    1.07) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6202,   1, 'Peerless Smoldering Atlan Dagger') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6202,   1,   33556357) /* Setup */
+     , (6202,   3,  536870932) /* SoundTable */
+     , (6202,   6,   67111919) /* PaletteBase */
+     , (6202,   7,  268435936) /* ClothingBase */
+     , (6202,   8,  100670525) /* Icon */
+     , (6202,  22,  872415275) /* PhysicsEffectTable */
+     , (6202,  37,          4) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6202, 1603, 2) /* Defender4_SpellID */
-     , (6202, 1590, 2) /* HeartSeeker4_SpellID */
-     , (6202, 1614, 2) /* BloodDrinker4_SpellID */
-     , (6202, 1092, 2) /* FireProtectionSelf4_SpellID */
-     , (6202, 1625, 2) /* SwiftKiller4_SpellID */
-     , (6202, 1330, 2) /* StrengthSelf4_SpellID */;
-
+VALUES (6202,  1092,      2)  /* Fire Protection Self IV */
+     , (6202,  1330,      2)  /* Strength Self IV */
+     , (6202,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (6202,  1603,      2)  /* Aura of Defender Self IV */
+     , (6202,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (6202,  1625,      2)  /* Aura of Swift Killer Self IV */;

@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Swordsman's Gift (20470) */
-DELETE FROM weenie WHERE class_Id = 20470;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20470, 'scrollbladevulnerabilityother7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20470, 001 /* NAME_STRING */, 'Scroll of Swordsman''s Gift')
-     , (20470, 015 /* SHORT_DESC_STRING */, 'When learned, this spell increases damage the target takes from Slashing by 185%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20470, 001 /* SETUP_DID */, 33554826)
-     , (20470, 008 /* ICON_DID */, 100676954)
-     , (20470, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20470, 028 /* SPELL_DID */, 2164 /* BladeVulnerabilityOther7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20470', 'scrollbladevulnerabilityother7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20470, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20470, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20470, 008 /* MASS_INT */, 90)
-     , (20470, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20470, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20470, 019 /* VALUE_INT */, 2000)
-     , (20470, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20470, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20470,   1,       8192) /* ItemType - Writable */
+     , (20470,   5,         30) /* EncumbranceVal */
+     , (20470,   8,         90) /* Mass */
+     , (20470,   9,          0) /* ValidLocations - None */
+     , (20470,  16,          8) /* ItemUseable - Contained */
+     , (20470,  19,       2000) /* Value */
+     , (20470,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20470, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20470, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20470,  22, True ) /* Inscribable */
+     , (20470,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20470,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20470,   1, 'Scroll of Swordsman''s Gift') /* Name */
+     , (20470,  15, 'When learned, this spell increases damage the target takes from Slashing by 185%.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20470,   1,   33554826) /* Setup */
+     , (20470,   8,  100676954) /* Icon */
+     , (20470,  22,  872415275) /* PhysicsEffectTable */
+     , (20470,  28,       2164) /* Spell - Swordsman's Gift */;

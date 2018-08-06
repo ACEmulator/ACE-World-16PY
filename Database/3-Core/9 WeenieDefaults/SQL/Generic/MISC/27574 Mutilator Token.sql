@@ -1,37 +1,33 @@
-/* Weenie - Mutilator Token (27574) */
-DELETE FROM weenie WHERE class_Id = 27574;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27574, 'tokenmutilator', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27574, 001 /* NAME_STRING */, 'Mutilator Token')
-     , (27574, 015 /* SHORT_DESC_STRING */, 'A token of your completion of the Mutilator Quest.  Please give this back to Behdo in order for him to change your title to Mutilator Annihilator.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27574, 001 /* SETUP_DID */, 33554817)
-     , (27574, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27574, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27574, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (27574, 008 /* ICON_DID */, 100672061)
-     , (27574, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27574', 'tokenmutilator', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27574, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (27574, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (27574, 005 /* ENCUMB_VAL_INT */, 10)
-     , (27574, 008 /* MASS_INT */, 10)
-     , (27574, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27574, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27574, 019 /* VALUE_INT */, 0)
-     , (27574, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (27574, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27574, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27574, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (27574,   1,        128) /* ItemType - Misc */
+     , (27574,   3,         20) /* PaletteTemplate - Silver */
+     , (27574,   5,         10) /* EncumbranceVal */
+     , (27574,   8,         10) /* Mass */
+     , (27574,   9,          0) /* ValidLocations - None */
+     , (27574,  16,          1) /* ItemUseable - No */
+     , (27574,  19,          0) /* Value */
+     , (27574,  33,          1) /* Bonded - Bonded */
+     , (27574,  93,       1044) /* PhysicsState */
+     , (27574, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27574, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27574, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27574,  22, True ) /* Inscribable */
+     , (27574,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27574,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27574,   1, 'Mutilator Token') /* Name */
+     , (27574,  15, 'A token of your completion of the Mutilator Quest.  Please give this back to Behdo in order for him to change your title to Mutilator Annihilator.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27574,   1,   33554817) /* Setup */
+     , (27574,   3,  536870932) /* SoundTable */
+     , (27574,   6,   67111919) /* PaletteBase */
+     , (27574,   7,  268435832) /* ClothingBase */
+     , (27574,   8,  100672061) /* Icon */
+     , (27574,  22,  872415275) /* PhysicsEffectTable */;

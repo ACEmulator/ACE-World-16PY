@@ -1,31 +1,27 @@
-/* Weenie - The Hero (22847) */
-DELETE FROM weenie WHERE class_Id = 22847;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22847, 'lugianbanner2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22847, 001 /* NAME_STRING */, 'The Hero')
-     , (22847, 015 /* SHORT_DESC_STRING */, 'This item can be used on wall hooks.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22847, 001 /* SETUP_DID */, 33558156)
-     , (22847, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22847, 008 /* ICON_DID */, 100673913)
-     , (22847, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22847', 'lugianbanner2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22847, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22847, 005 /* ENCUMB_VAL_INT */, 5000)
-     , (22847, 008 /* MASS_INT */, 5000)
-     , (22847, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22847, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22847, 019 /* VALUE_INT */, 10000)
-     , (22847, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22847, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22847, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (22847,   1,        128) /* ItemType - Misc */
+     , (22847,   5,       5000) /* EncumbranceVal */
+     , (22847,   8,       5000) /* Mass */
+     , (22847,   9,          0) /* ValidLocations - None */
+     , (22847,  16,          1) /* ItemUseable - No */
+     , (22847,  19,      10000) /* Value */
+     , (22847,  93,       1044) /* PhysicsState */
+     , (22847, 150,        103) /* HookPlacement - Hook */
+     , (22847, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22847, 013 /* ETHEREAL_BOOL */, True)
-     , (22847, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22847,  13, True ) /* Ethereal */
+     , (22847,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22847,   1, 'The Hero') /* Name */
+     , (22847,  15, 'This item can be used on wall hooks.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22847,   1,   33558156) /* Setup */
+     , (22847,   3,  536870932) /* SoundTable */
+     , (22847,   8,  100673913) /* Icon */
+     , (22847,  22,  872415275) /* PhysicsEffectTable */;

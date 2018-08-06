@@ -1,53 +1,49 @@
-/* Weenie - Portal Gem to the Callous Heart (20019) */
-DELETE FROM weenie WHERE class_Id = 20019;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20019, 'gemportalrewardskai', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20019, 001 /* NAME_STRING */, 'Portal Gem to the Callous Heart')
-     , (20019, 014 /* USE_STRING */, 'Double Click on this portal gem to transport yourself to Kai''s Masters Dungeon. ')
-     , (20019, 015 /* SHORT_DESC_STRING */, 'A glowing black gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20019, 001 /* SETUP_DID */, 33556769)
-     , (20019, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20019, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20019, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (20019, 008 /* ICON_DID */, 100673039)
-     , (20019, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20019, 028 /* SPELL_DID */, 2671 /* PortalSendingLabyrinthRewards_SpellID */)
-     , (20019, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20019', 'gemportalrewardskai', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20019, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (20019, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (20019, 005 /* ENCUMB_VAL_INT */, 5)
-     , (20019, 008 /* MASS_INT */, 5)
-     , (20019, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20019, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (20019, 012 /* STACK_SIZE_INT */, 1)
-     , (20019, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (20019, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (20019, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (20019, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20019, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (20019, 019 /* VALUE_INT */, 0)
-     , (20019, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (20019, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (20019, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (20019, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (20019, 107 /* ITEM_CUR_MANA_INT */, 70)
-     , (20019, 108 /* ITEM_MAX_MANA_INT */, 70)
-     , (20019, 109 /* ITEM_DIFFICULTY_INT */, 10)
-     , (20019, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (20019, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20019, 076 /* TRANSLUCENCY_FLOAT */, 0.5);
+VALUES (20019,   1,       2048) /* ItemType - Gem */
+     , (20019,   3,         39) /* PaletteTemplate - Black */
+     , (20019,   5,          5) /* EncumbranceVal */
+     , (20019,   8,          5) /* Mass */
+     , (20019,   9,          0) /* ValidLocations - None */
+     , (20019,  11,          1) /* MaxStackSize */
+     , (20019,  12,          1) /* StackSize */
+     , (20019,  13,          5) /* StackUnitEncumbrance */
+     , (20019,  14,          5) /* StackUnitMass */
+     , (20019,  15,          0) /* StackUnitValue */
+     , (20019,  16,          8) /* ItemUseable - Contained */
+     , (20019,  18,          1) /* UiEffects - Magical */
+     , (20019,  19,          0) /* Value */
+     , (20019,  33,          1) /* Bonded - Bonded */
+     , (20019,  93,       3092) /* PhysicsState */
+     , (20019,  94,         16) /* TargetType - Creature */
+     , (20019, 106,        210) /* ItemSpellcraft */
+     , (20019, 107,         70) /* ItemCurMana */
+     , (20019, 108,         70) /* ItemMaxMana */
+     , (20019, 109,         10) /* ItemDifficulty */
+     , (20019, 110,          0) /* ItemAllegianceRankLimit */
+     , (20019, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20019, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (20019, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20019, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20019,  15, True ) /* LightsStatus */
+     , (20019,  22, True ) /* Inscribable */
+     , (20019,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20019,  76,     0.5) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20019,   1, 'Portal Gem to the Callous Heart') /* Name */
+     , (20019,  14, 'Double Click on this portal gem to transport yourself to Kai''s Masters Dungeon. ') /* Use */
+     , (20019,  15, 'A glowing black gem.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20019,   1,   33556769) /* Setup */
+     , (20019,   3,  536870932) /* SoundTable */
+     , (20019,   6,   67111919) /* PaletteBase */
+     , (20019,   7,  268435723) /* ClothingBase */
+     , (20019,   8,  100673039) /* Icon */
+     , (20019,  22,  872415275) /* PhysicsEffectTable */
+     , (20019,  28,       2671) /* Spell - Portal to the Callous Heart */
+     , (20019,  36,  234881046) /* MutateFilter */;

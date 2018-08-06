@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Lightning Arc IV (21326) */
-DELETE FROM weenie WHERE class_Id = 21326;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21326, 'scrolllightningarc4', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21326, 001 /* NAME_STRING */, 'Scroll of Lightning Arc IV')
-     , (21326, 015 /* SHORT_DESC_STRING */, 'When learned, this spell shoots a bolt of lighting at the target. The bolt does 31-60 points of electrical damage to the first thing it hits.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21326, 001 /* SETUP_DID */, 33554826)
-     , (21326, 008 /* ICON_DID */, 100677013)
-     , (21326, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21326, 028 /* SPELL_DID */, 2735 /* LightningArc4_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21326', 'scrolllightningarc4', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21326, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (21326, 005 /* ENCUMB_VAL_INT */, 30)
-     , (21326, 008 /* MASS_INT */, 90)
-     , (21326, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (21326, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (21326, 019 /* VALUE_INT */, 100)
-     , (21326, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21326, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (21326,   1,       8192) /* ItemType - Writable */
+     , (21326,   5,         30) /* EncumbranceVal */
+     , (21326,   8,         90) /* Mass */
+     , (21326,   9,          0) /* ValidLocations - None */
+     , (21326,  16,          8) /* ItemUseable - Contained */
+     , (21326,  19,        100) /* Value */
+     , (21326,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21326, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21326, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (21326,  22, True ) /* Inscribable */
+     , (21326,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21326,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21326,   1, 'Scroll of Lightning Arc IV') /* Name */
+     , (21326,  15, 'When learned, this spell shoots a bolt of lighting at the target. The bolt does 31-60 points of electrical damage to the first thing it hits.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21326,   1,   33554826) /* Setup */
+     , (21326,   8,  100677013) /* Icon */
+     , (21326,  22,  872415275) /* PhysicsEffectTable */
+     , (21326,  28,       2735) /* Spell - Lightning Arc IV */;

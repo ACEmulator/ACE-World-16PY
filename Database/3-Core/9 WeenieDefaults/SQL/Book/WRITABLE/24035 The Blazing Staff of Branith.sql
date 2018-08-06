@@ -1,35 +1,32 @@
-/* Weenie - The Blazing Staff of Branith (24035) */
-DELETE FROM weenie WHERE class_Id = 24035;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24035, 'rumorstaffbranith', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24035, 001 /* NAME_STRING */, 'The Blazing Staff of Branith');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24035, 001 /* SETUP_DID */, 33554773)
-     , (24035, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24035, 008 /* ICON_DID */, 100668176)
-     , (24035, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24035', 'rumorstaffbranith', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24035, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (24035, 005 /* ENCUMB_VAL_INT */, 25)
-     , (24035, 008 /* MASS_INT */, 5)
-     , (24035, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24035, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24035, 019 /* VALUE_INT */, 10)
-     , (24035, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24035, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (24035,   1,       8192) /* ItemType - Writable */
+     , (24035,   5,         25) /* EncumbranceVal */
+     , (24035,   8,          5) /* Mass */
+     , (24035,   9,          0) /* ValidLocations - None */
+     , (24035,  16,          8) /* ItemUseable - Contained */
+     , (24035,  19,         10) /* Value */
+     , (24035,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24035, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (24035,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24035,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24035,   1, 'The Blazing Staff of Branith') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24035,   1,   33554773) /* Setup */
+     , (24035,   3,  536870932) /* SoundTable */
+     , (24035,   8,  100668176) /* Icon */
+     , (24035,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (24035, 2, 1000) /* Book Data */;
+VALUES (24035, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (24035, 0, 4294967295, 'Unknown', 'prewritten', False, '
@@ -38,4 +35,3 @@ The mage Branith was a sorcerer who fought, for a time, alongside Thorsten Crags
      , (24035, 1, 4294967295, 'Unknown', 'prewritten', False, '
 Unfortunately, its location is not known. Branith has since given up adventuring to live a life of quiet seclusion in the mountains, but he no longer owns the staff: it, and several other items of power, were stolen from his home by mites. Perhaps one day, some intrepid soul will find it again.
 ');
-

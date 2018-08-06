@@ -1,47 +1,43 @@
-/* Weenie - Wedding Raiment (14906) */
-DELETE FROM weenie WHERE class_Id = 14906;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14906, 'rainmentwedding', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14906, 001 /* NAME_STRING */, 'Wedding Raiment')
-     , (14906, 015 /* SHORT_DESC_STRING */, 'The perfect outfit for wedding party members. This rainment is dyeable.')
-     , (14906, 016 /* LONG_DESC_STRING */, 'The perfect outfit for wedding party members. This rainment is dyeable.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14906, 001 /* SETUP_DID */, 33554854)
-     , (14906, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14906, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (14906, 007 /* CLOTHINGBASE_DID */, 268436357)
-     , (14906, 008 /* ICON_DID */, 100672726)
-     , (14906, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (14906, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14906', 'rainmentwedding', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14906, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (14906, 003 /* PALETTE_TEMPLATE_INT */, 9 /* GREY_PALETTE_TEMPLATE */)
-     , (14906, 004 /* CLOTHING_PRIORITY_INT */, 81664 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */)
-     , (14906, 005 /* ENCUMB_VAL_INT */, 200)
-     , (14906, 008 /* MASS_INT */, 175)
-     , (14906, 009 /* LOCATIONS_INT */, 32512 /* FOOT_WEAR_LOC, ARMOR_LOC */)
-     , (14906, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14906, 019 /* VALUE_INT */, 25000)
-     , (14906, 027 /* ARMOR_TYPE_INT */, 1)
-     , (14906, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (14906, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14906, 012 /* SHADE_FLOAT */, 0.48)
-     , (14906, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (14906, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.7)
-     , (14906, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.4)
-     , (14906, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (14906, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (14906, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.3)
-     , (14906, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4);
+VALUES (14906,   1,          4) /* ItemType - Clothing */
+     , (14906,   3,          9) /* PaletteTemplate - Grey */
+     , (14906,   4,      81664) /* ClothingPriority */
+     , (14906,   5,        200) /* EncumbranceVal */
+     , (14906,   8,        175) /* Mass */
+     , (14906,   9,      32512) /* ValidLocations - Armor */
+     , (14906,  16,          1) /* ItemUseable - No */
+     , (14906,  19,      25000) /* Value */
+     , (14906,  27,          1) /* ArmorType */
+     , (14906,  28,          0) /* ArmorLevel */
+     , (14906,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14906, 022 /* INSCRIBABLE_BOOL */, True)
-     , (14906, 100 /* DYABLE_BOOL */, True);
+VALUES (14906,  22, True ) /* Inscribable */
+     , (14906, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14906,  12,    0.48) /* Shade */
+     , (14906,  13,       1) /* ArmorModVsSlash */
+     , (14906,  14,     0.7) /* ArmorModVsPierce */
+     , (14906,  15,     0.4) /* ArmorModVsBludgeon */
+     , (14906,  16,     0.2) /* ArmorModVsCold */
+     , (14906,  17,     0.2) /* ArmorModVsFire */
+     , (14906,  18,     0.3) /* ArmorModVsAcid */
+     , (14906,  19,     0.4) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14906,   1, 'Wedding Raiment') /* Name */
+     , (14906,  15, 'The perfect outfit for wedding party members. This rainment is dyeable.') /* ShortDesc */
+     , (14906,  16, 'The perfect outfit for wedding party members. This rainment is dyeable.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14906,   1,   33554854) /* Setup */
+     , (14906,   3,  536870932) /* SoundTable */
+     , (14906,   6,   67108990) /* PaletteBase */
+     , (14906,   7,  268436357) /* ClothingBase */
+     , (14906,   8,  100672726) /* Icon */
+     , (14906,  22,  872415275) /* PhysicsEffectTable */
+     , (14906,  36,  234881046) /* MutateFilter */;

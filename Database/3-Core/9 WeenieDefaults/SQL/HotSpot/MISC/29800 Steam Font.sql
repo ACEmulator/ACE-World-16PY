@@ -1,43 +1,39 @@
-/* Weenie - Steam Font (29800) */
-DELETE FROM weenie WHERE class_Id = 29800;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29800, 'hotspotheatfont', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29800, 001 /* NAME_STRING */, 'Steam Font')
-     , (29800, 017 /* ACTIVATION_TALK_STRING */, 'You suffer %i damage from the steam font.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29800, 001 /* SETUP_DID */, 33555403)
-     , (29800, 003 /* SOUND_TABLE_DID */, 536870994)
-     , (29800, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29800', 'hotspotheatfont', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29800, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29800, 005 /* ENCUMB_VAL_INT */, 1)
-     , (29800, 008 /* MASS_INT */, 1)
-     , (29800, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29800, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29800, 019 /* VALUE_INT */, 1)
-     , (29800, 044 /* DAMAGE_INT */, 100)
-     , (29800, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (29800, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (29800, 119 /* ACTIVE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29800, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (29800, 039 /* DEFAULT_SCALE_FLOAT */, 1.75)
-     , (29800, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 2)
-     , (29800, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0.4);
+VALUES (29800,   1,        128) /* ItemType - Misc */
+     , (29800,   5,          1) /* EncumbranceVal */
+     , (29800,   8,          1) /* Mass */
+     , (29800,   9,          0) /* ValidLocations - None */
+     , (29800,  16,          1) /* ItemUseable - No */
+     , (29800,  19,          1) /* Value */
+     , (29800,  44,        100) /* Damage */
+     , (29800,  45,         16) /* DamageType - Fire */
+     , (29800,  93,         12) /* PhysicsState */
+     , (29800, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29800, 001 /* STUCK_BOOL */, True)
-     , (29800, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (29800, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (29800, 013 /* ETHEREAL_BOOL */, True)
-     , (29800, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (29800, 024 /* UI_HIDDEN_BOOL */, True)
-     , (29800, 055 /* IS_HOT_BOOL */, True)
-     , (29800, 057 /* AFFECTS_AIS_BOOL */, False);
+VALUES (29800,   1, True ) /* Stuck */
+     , (29800,  11, False) /* IgnoreCollisions */
+     , (29800,  12, True ) /* ReportCollisions */
+     , (29800,  13, True ) /* Ethereal */
+     , (29800,  14, False) /* GravityStatus */
+     , (29800,  24, True ) /* UiHidden */
+     , (29800,  55, True ) /* IsHot */
+     , (29800,  57, False) /* AffectsAis */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29800,  22,     0.5) /* DamageVariance */
+     , (29800,  39,    1.75) /* DefaultScale */
+     , (29800, 105,       2) /* HotspotCycleTime */
+     , (29800, 106,     0.4) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29800,   1, 'Steam Font') /* Name */
+     , (29800,  17, 'You suffer %i damage from the steam font.') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29800,   1,   33555403) /* Setup */
+     , (29800,   3,  536870994) /* SoundTable */
+     , (29800,   8,  100667465) /* Icon */;

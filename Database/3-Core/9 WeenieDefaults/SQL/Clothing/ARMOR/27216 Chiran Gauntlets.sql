@@ -1,52 +1,48 @@
-/* Weenie - Chiran Gauntlets (27216) */
-DELETE FROM weenie WHERE class_Id = 27216;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27216, 'gauntletschiran', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27216, 001 /* NAME_STRING */, 'Chiran Gauntlets');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27216, 001 /* SETUP_DID */, 33554648)
-     , (27216, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27216, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (27216, 007 /* CLOTHINGBASE_DID */, 268436799)
-     , (27216, 008 /* ICON_DID */, 100675987)
-     , (27216, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27216, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (27216, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27216', 'gauntletschiran', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27216, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (27216, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (27216, 004 /* CLOTHING_PRIORITY_INT */, 32768 /* Hands */)
-     , (27216, 005 /* ENCUMB_VAL_INT */, 919)
-     , (27216, 008 /* MASS_INT */, 460)
-     , (27216, 009 /* LOCATIONS_INT */, 32 /* HAND_WEAR_LOC */)
-     , (27216, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27216, 019 /* VALUE_INT */, 653)
-     , (27216, 027 /* ARMOR_TYPE_INT */, 32)
-     , (27216, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (27216, 044 /* DAMAGE_INT */, 3)
-     , (27216, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (27216, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27216, 169 /* TSYS_MUTATION_DATA_INT */, 151651600);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27216, 012 /* SHADE_FLOAT */, 0.66)
-     , (27216, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (27216, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (27216, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (27216, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (27216, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (27216, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (27216, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
-     , (27216, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (27216, 110 /* BULK_MOD_FLOAT */, 1)
-     , (27216, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (27216,   1,          2) /* ItemType - Armor */
+     , (27216,   3,         20) /* PaletteTemplate - Silver */
+     , (27216,   4,      32768) /* ClothingPriority - Hands */
+     , (27216,   5,        919) /* EncumbranceVal */
+     , (27216,   8,        460) /* Mass */
+     , (27216,   9,         32) /* ValidLocations - HandWear */
+     , (27216,  16,          1) /* ItemUseable - No */
+     , (27216,  19,        653) /* Value */
+     , (27216,  27,         32) /* ArmorType */
+     , (27216,  28,        100) /* ArmorLevel */
+     , (27216,  44,          3) /* Damage */
+     , (27216,  45,          4) /* DamageType - Bludgeon */
+     , (27216,  93,       1044) /* PhysicsState */
+     , (27216, 169,  151651600) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27216, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27216, 100 /* DYABLE_BOOL */, True);
+VALUES (27216,  22, True ) /* Inscribable */
+     , (27216, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27216,  12,    0.66) /* Shade */
+     , (27216,  13,     1.3) /* ArmorModVsSlash */
+     , (27216,  14,       1) /* ArmorModVsPierce */
+     , (27216,  15,       1) /* ArmorModVsBludgeon */
+     , (27216,  16,     0.4) /* ArmorModVsCold */
+     , (27216,  17,     0.4) /* ArmorModVsFire */
+     , (27216,  18,     0.6) /* ArmorModVsAcid */
+     , (27216,  19,     0.4) /* ArmorModVsElectric */
+     , (27216,  22,    0.75) /* DamageVariance */
+     , (27216, 110,       1) /* BulkMod */
+     , (27216, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27216,   1, 'Chiran Gauntlets') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27216,   1,   33554648) /* Setup */
+     , (27216,   3,  536870932) /* SoundTable */
+     , (27216,   6,   67108990) /* PaletteBase */
+     , (27216,   7,  268436799) /* ClothingBase */
+     , (27216,   8,  100675987) /* Icon */
+     , (27216,  22,  872415275) /* PhysicsEffectTable */
+     , (27216,  36,  234881042) /* MutateFilter */
+     , (27216,  46,  939524146) /* TsysMutationFilter */;

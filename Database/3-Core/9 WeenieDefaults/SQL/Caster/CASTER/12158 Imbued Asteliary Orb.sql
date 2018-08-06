@@ -1,56 +1,52 @@
-/* Weenie - Imbued Asteliary Orb (12158) */
-DELETE FROM weenie WHERE class_Id = 12158;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12158, 'orbasteliaryimbued', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12158, 001 /* NAME_STRING */, 'Imbued Asteliary Orb')
-     , (12158, 016 /* LONG_DESC_STRING */, 'An orb enchanted with powerful magic, taken from the Asteliary dungeon and imbued with the power of the Asteliary gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12158, 001 /* SETUP_DID */, 33557354)
-     , (12158, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12158, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12158, 007 /* CLOTHINGBASE_DID */, 268436262)
-     , (12158, 008 /* ICON_DID */, 100672137)
-     , (12158, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12158, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (12158, 037 /* ITEM_SKILL_LIMIT_DID */, 16);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12158', 'orbasteliaryimbued', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12158, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (12158, 003 /* PALETTE_TEMPLATE_INT */, 5 /* DARKBLUE_PALETTE_TEMPLATE */)
-     , (12158, 005 /* ENCUMB_VAL_INT */, 100)
-     , (12158, 008 /* MASS_INT */, 50)
-     , (12158, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (12158, 016 /* ITEM_USEABLE_INT */, 6291464 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE_NEVER_WALK */)
-     , (12158, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (12158, 019 /* VALUE_INT */, 3000)
-     , (12158, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (12158, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (12158, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (12158, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (12158, 107 /* ITEM_CUR_MANA_INT */, 750)
-     , (12158, 108 /* ITEM_MAX_MANA_INT */, 750)
-     , (12158, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (12158, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 150)
-     , (12158, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12158, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12158, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (12158, 012 /* SHADE_FLOAT */, 0.5)
-     , (12158, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (12158, 144 /* MANA_CONVERSION_MOD_FLOAT */, 0.05);
+VALUES (12158,   1,      32768) /* ItemType - Caster */
+     , (12158,   3,          5) /* PaletteTemplate - DarkBlue */
+     , (12158,   5,        100) /* EncumbranceVal */
+     , (12158,   8,         50) /* Mass */
+     , (12158,   9,   16777216) /* ValidLocations - Held */
+     , (12158,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
+     , (12158,  18,          1) /* UiEffects - Magical */
+     , (12158,  19,       3000) /* Value */
+     , (12158,  46,        512) /* DefaultCombatStyle - Magic */
+     , (12158,  93,       3092) /* PhysicsState */
+     , (12158,  94,         16) /* TargetType - Creature */
+     , (12158, 106,        250) /* ItemSpellcraft */
+     , (12158, 107,        750) /* ItemCurMana */
+     , (12158, 108,        750) /* ItemMaxMana */
+     , (12158, 109,        150) /* ItemDifficulty */
+     , (12158, 115,        150) /* ItemSkillLevelLimit */
+     , (12158, 150,        103) /* HookPlacement - Hook */
+     , (12158, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12158, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (12158, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12158, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (12158,  15, True ) /* LightsStatus */
+     , (12158,  22, True ) /* Inscribable */
+     , (12158,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12158,   5,   -0.05) /* ManaRate */
+     , (12158,  12,     0.5) /* Shade */
+     , (12158,  29,       1) /* WeaponDefense */
+     , (12158, 144,    0.05) /* ManaConversionMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12158,   1, 'Imbued Asteliary Orb') /* Name */
+     , (12158,  16, 'An orb enchanted with powerful magic, taken from the Asteliary dungeon and imbued with the power of the Asteliary gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12158,   1,   33557354) /* Setup */
+     , (12158,   3,  536870932) /* SoundTable */
+     , (12158,   6,   67111919) /* PaletteBase */
+     , (12158,   7,  268436262) /* ClothingBase */
+     , (12158,   8,  100672137) /* Icon */
+     , (12158,  22,  872415275) /* PhysicsEffectTable */
+     , (12158,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (12158,  37,         16) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12158, 658, 2) /* ManaMasterySelf6_SpellID */
-     , (12158, 1450, 2) /* WillpowerSelf6_SpellID */
-     , (12158, 1426, 2) /* FocusSelf6_SpellID */;
-
+VALUES (12158,   658,      2)  /* Mana Conversion Mastery Self VI */
+     , (12158,  1426,      2)  /* Focus Self VI */
+     , (12158,  1450,      2)  /* Willpower Self VI */;

@@ -1,49 +1,45 @@
-/* Weenie - Rusted Tachi (23324) */
-DELETE FROM weenie WHERE class_Id = 23324;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23324, 'tachirusted', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23324, 001 /* NAME_STRING */, 'Rusted Tachi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23324, 001 /* SETUP_DID */, 33554742)
-     , (23324, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23324, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23324, 007 /* CLOTHINGBASE_DID */, 268435788)
-     , (23324, 008 /* ICON_DID */, 100674228)
-     , (23324, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23324', 'tachirusted', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23324, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (23324, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (23324, 005 /* ENCUMB_VAL_INT */, 450)
-     , (23324, 008 /* MASS_INT */, 180)
-     , (23324, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (23324, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23324, 019 /* VALUE_INT */, 0)
-     , (23324, 044 /* DAMAGE_INT */, 1)
-     , (23324, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (23324, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (23324, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (23324, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (23324, 049 /* WEAPON_TIME_INT */, 35)
-     , (23324, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (23324, 092 /* STRUCTURE_INT */, 100)
-     , (23324, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23324, 105 /* ITEM_WORKMANSHIP_INT */, 3)
-     , (23324, 131 /* MATERIAL_TYPE_INT */, 64 /* Steel_MaterialType */)
-     , (23324, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23324, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23324, 021 /* WEAPON_LENGTH_FLOAT */, 1.1)
-     , (23324, 022 /* DAMAGE_VARIANCE_FLOAT */, 1)
-     , (23324, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (23324, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (23324,   1,          1) /* ItemType - MeleeWeapon */
+     , (23324,   3,         14) /* PaletteTemplate - Red */
+     , (23324,   5,        450) /* EncumbranceVal */
+     , (23324,   8,        180) /* Mass */
+     , (23324,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (23324,  16,          1) /* ItemUseable - No */
+     , (23324,  19,          0) /* Value */
+     , (23324,  44,          1) /* Damage */
+     , (23324,  45,          3) /* DamageType */
+     , (23324,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (23324,  47,          6) /* AttackType */
+     , (23324,  48,         11) /* WeaponSkill - Sword */
+     , (23324,  49,         35) /* WeaponTime */
+     , (23324,  51,          1) /* CombatUse - Melee */
+     , (23324,  92,        100) /* Structure */
+     , (23324,  93,       1044) /* PhysicsState */
+     , (23324, 105,          3) /* ItemWorkmanship */
+     , (23324, 131,         64) /* MaterialType - Steel */
+     , (23324, 150,        103) /* HookPlacement - Hook */
+     , (23324, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23324, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23324, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
+VALUES (23324,  22, True ) /* Inscribable */
+     , (23324,  84, True ) /* IgnoreCloIcons */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23324,  21,     1.1) /* WeaponLength */
+     , (23324,  22,       1) /* DamageVariance */
+     , (23324,  29,       1) /* WeaponDefense */
+     , (23324,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23324,   1, 'Rusted Tachi') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23324,   1,   33554742) /* Setup */
+     , (23324,   3,  536870932) /* SoundTable */
+     , (23324,   6,   67111919) /* PaletteBase */
+     , (23324,   7,  268435788) /* ClothingBase */
+     , (23324,   8,  100674228) /* Icon */
+     , (23324,  22,  872415275) /* PhysicsEffectTable */;

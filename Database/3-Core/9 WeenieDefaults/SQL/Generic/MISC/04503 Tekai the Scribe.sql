@@ -1,30 +1,26 @@
-/* Weenie - Tekai the Scribe (4503) */
-DELETE FROM weenie WHERE class_Id = 4503;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4503, 'linscribesign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4503, 001 /* NAME_STRING */, 'Tekai the Scribe')
-     , (4503, 016 /* LONG_DESC_STRING */, 'Tekai the Scribe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4503, 001 /* SETUP_DID */, 33555594)
-     , (4503, 006 /* PALETTE_BASE_DID */, 67111782)
-     , (4503, 007 /* CLOTHINGBASE_DID */, 268435692)
-     , (4503, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4503', 'linscribesign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4503, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4503, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4503, 008 /* MASS_INT */, 1800)
-     , (4503, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4503, 019 /* VALUE_INT */, 125)
-     , (4503, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4503,   1,        128) /* ItemType - Misc */
+     , (4503,   5,       9000) /* EncumbranceVal */
+     , (4503,   8,       1800) /* Mass */
+     , (4503,  16,          1) /* ItemUseable - No */
+     , (4503,  19,        125) /* Value */
+     , (4503,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4503, 001 /* STUCK_BOOL */, True)
-     , (4503, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4503, 013 /* ETHEREAL_BOOL */, False)
-     , (4503, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4503,   1, True ) /* Stuck */
+     , (4503,  12, True ) /* ReportCollisions */
+     , (4503,  13, False) /* Ethereal */
+     , (4503,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4503,   1, 'Tekai the Scribe') /* Name */
+     , (4503,  16, 'Tekai the Scribe') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4503,   1,   33555594) /* Setup */
+     , (4503,   6,   67111782) /* PaletteBase */
+     , (4503,   7,  268435692) /* ClothingBase */
+     , (4503,   8,  100668115) /* Icon */;

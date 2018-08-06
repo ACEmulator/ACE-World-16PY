@@ -1,37 +1,33 @@
-/* Weenie - Hearty Mushroom Pie (5262) */
-DELETE FROM weenie WHERE class_Id = 5262;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5262, 'heartymushroompie', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5262, 001 /* NAME_STRING */, 'Hearty Mushroom Pie')
-     , (5262, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5262, 020 /* PLURAL_NAME_STRING */, 'Hearty Mushroom Pies');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5262, 001 /* SETUP_DID */, 33555978)
-     , (5262, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5262, 008 /* ICON_DID */, 100669964)
-     , (5262, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5262', 'heartymushroompie', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5262, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5262, 005 /* ENCUMB_VAL_INT */, 50)
-     , (5262, 008 /* MASS_INT */, 50)
-     , (5262, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5262, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5262, 012 /* STACK_SIZE_INT */, 1)
-     , (5262, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (5262, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (5262, 015 /* STACK_UNIT_VALUE_INT */, 85)
-     , (5262, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5262, 018 /* UI_EFFECTS_INT */, 16 /* UI_EFFECT_BOOST_STAMINA */)
-     , (5262, 019 /* VALUE_INT */, 85)
-     , (5262, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (5262, 090 /* BOOST_VALUE_INT */, 39)
-     , (5262, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5262,   1,         32) /* ItemType - Food */
+     , (5262,   5,         50) /* EncumbranceVal */
+     , (5262,   8,         50) /* Mass */
+     , (5262,   9,          0) /* ValidLocations - None */
+     , (5262,  11,        100) /* MaxStackSize */
+     , (5262,  12,          1) /* StackSize */
+     , (5262,  13,         50) /* StackUnitEncumbrance */
+     , (5262,  14,         50) /* StackUnitMass */
+     , (5262,  15,         85) /* StackUnitValue */
+     , (5262,  16,          8) /* ItemUseable - Contained */
+     , (5262,  18,         16) /* UiEffects - BoostStamina */
+     , (5262,  19,         85) /* Value */
+     , (5262,  89,          4) /* BoosterEnum - Stamina */
+     , (5262,  90,         39) /* BoostValue */
+     , (5262,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5262, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5262,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5262,   1, 'Hearty Mushroom Pie') /* Name */
+     , (5262,  14, 'Use this item to eat it.') /* Use */
+     , (5262,  20, 'Hearty Mushroom Pies') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5262,   1,   33555978) /* Setup */
+     , (5262,   3,  536870932) /* SoundTable */
+     , (5262,   8,  100669964) /* Icon */
+     , (5262,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,40 +1,37 @@
-/* Weenie - Report to Niarltah (28126) */
-DELETE FROM weenie WHERE class_Id = 28126;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28126, 'reportikakhe8', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28126, 001 /* NAME_STRING */, 'Report to Niarltah')
-     , (28126, 033 /* QUEST_STRING */, 'NoteBurunHistory7');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28126, 001 /* SETUP_DID */, 33554772)
-     , (28126, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28126, 008 /* ICON_DID */, 100667470)
-     , (28126, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28126', 'reportikakhe8', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28126, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28126, 005 /* ENCUMB_VAL_INT */, 25)
-     , (28126, 008 /* MASS_INT */, 5)
-     , (28126, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28126, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28126, 019 /* VALUE_INT */, 10)
-     , (28126, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28126, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28126, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28126, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (28126, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (28126,   1,       8192) /* ItemType - Writable */
+     , (28126,   5,         25) /* EncumbranceVal */
+     , (28126,   8,          5) /* Mass */
+     , (28126,   9,          0) /* ValidLocations - None */
+     , (28126,  16,          8) /* ItemUseable - Contained */
+     , (28126,  19,         10) /* Value */
+     , (28126,  33,          1) /* Bonded - Bonded */
+     , (28126,  93,       1044) /* PhysicsState */
+     , (28126, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28126, 022 /* INSCRIBABLE_BOOL */, False)
-     , (28126, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28126,  22, False) /* Inscribable */
+     , (28126,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28126,  39,    1.22) /* DefaultScale */
+     , (28126,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28126,   1, 'Report to Niarltah') /* Name */
+     , (28126,  33, 'NoteBurunHistory7') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28126,   1,   33554772) /* Setup */
+     , (28126,   3,  536870932) /* SoundTable */
+     , (28126,   8,  100667470) /* Icon */
+     , (28126,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28126, 5, 1000) /* Book Data */;
+VALUES (28126, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28126, 0, 4294967295, 'Ikakhe', 'prewritten', False, 'After the success of the last report, we have decided that all future missives will be handled in such a manner. Torgluuk has yet to make mention if he is aware of our machinations.
@@ -51,4 +48,3 @@ During one thousand cycles moar that were returned to Bur by the false gods are 
 ')
      , (28126, 4, 4294967295, 'Ikakhe', 'prewritten', False, 'Fiazhat, without the guidance of their gods, continue to show reverence to those that brought them to the height of this world. Spoken tradition gives way to a written tradition. Cities are built once more and the temples crafted to their gods are returned to former splendor. Storytellers become the voice of the gods and are chosen as leaders for their people. Wars are forgotten and the Burun become an afterthought of Fiazhat culture in the ensuing five thousand cycles.
 ');
-

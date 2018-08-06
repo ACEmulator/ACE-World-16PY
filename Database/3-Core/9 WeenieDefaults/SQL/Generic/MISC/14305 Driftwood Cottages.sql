@@ -1,28 +1,24 @@
-/* Weenie - Driftwood Cottages (14305) */
-DELETE FROM weenie WHERE class_Id = 14305;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14305, 'driftwoodcottagessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14305, 001 /* NAME_STRING */, 'Driftwood Cottages')
-     , (14305, 016 /* LONG_DESC_STRING */, 'Welcome to Driftwood Cottages');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14305, 001 /* SETUP_DID */, 33557463)
-     , (14305, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14305', 'driftwoodcottagessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14305, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14305, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14305, 008 /* MASS_INT */, 1800)
-     , (14305, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14305, 019 /* VALUE_INT */, 125)
-     , (14305, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14305,   1,        128) /* ItemType - Misc */
+     , (14305,   5,       9000) /* EncumbranceVal */
+     , (14305,   8,       1800) /* Mass */
+     , (14305,  16,          1) /* ItemUseable - No */
+     , (14305,  19,        125) /* Value */
+     , (14305,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14305, 001 /* STUCK_BOOL */, True)
-     , (14305, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14305, 013 /* ETHEREAL_BOOL */, False)
-     , (14305, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14305,   1, True ) /* Stuck */
+     , (14305,  12, True ) /* ReportCollisions */
+     , (14305,  13, False) /* Ethereal */
+     , (14305,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14305,   1, 'Driftwood Cottages') /* Name */
+     , (14305,  16, 'Welcome to Driftwood Cottages') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14305,   1,   33557463) /* Setup */
+     , (14305,   8,  100668115) /* Icon */;

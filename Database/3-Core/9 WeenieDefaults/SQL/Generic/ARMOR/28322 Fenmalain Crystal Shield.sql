@@ -1,64 +1,60 @@
-/* Weenie - Fenmalain Crystal Shield (28322) */
-DELETE FROM weenie WHERE class_Id = 28322;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28322, 'shieldcrystalfennew', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28322, 001 /* NAME_STRING */, 'Fenmalain Crystal Shield')
-     , (28322, 015 /* SHORT_DESC_STRING */, 'A shield imbued with the power of the Fenmalain Crystal.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28322, 001 /* SETUP_DID */, 33554786)
-     , (28322, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28322, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (28322, 007 /* CLOTHINGBASE_DID */, 268436037)
-     , (28322, 008 /* ICON_DID */, 100670976)
-     , (28322, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28322', 'shieldcrystalfennew', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28322, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (28322, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (28322, 005 /* ENCUMB_VAL_INT */, 690)
-     , (28322, 008 /* MASS_INT */, 460)
-     , (28322, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
-     , (28322, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28322, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28322, 019 /* VALUE_INT */, 1000)
-     , (28322, 027 /* ARMOR_TYPE_INT */, 2)
-     , (28322, 028 /* ARMOR_LEVEL_INT */, 150)
-     , (28322, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (28322, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
-     , (28322, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28322, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (28322, 107 /* ITEM_CUR_MANA_INT */, 250)
-     , (28322, 108 /* ITEM_MAX_MANA_INT */, 250)
-     , (28322, 109 /* ITEM_DIFFICULTY_INT */, 1)
-     , (28322, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28322, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28322, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (28322, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (28322, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (28322, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.2)
-     , (28322, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (28322, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (28322, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (28322, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (28322, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (28322, 076 /* TRANSLUCENCY_FLOAT */, 0.5)
-     , (28322, 110 /* BULK_MOD_FLOAT */, 1)
-     , (28322, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (28322,   1,          2) /* ItemType - Armor */
+     , (28322,   3,         13) /* PaletteTemplate - Purple */
+     , (28322,   5,        690) /* EncumbranceVal */
+     , (28322,   8,        460) /* Mass */
+     , (28322,   9,    2097152) /* ValidLocations - Shield */
+     , (28322,  16,          1) /* ItemUseable - No */
+     , (28322,  18,          1) /* UiEffects - Magical */
+     , (28322,  19,       1000) /* Value */
+     , (28322,  27,          2) /* ArmorType */
+     , (28322,  28,        150) /* ArmorLevel */
+     , (28322,  36,       9999) /* ResistMagic */
+     , (28322,  51,          4) /* CombatUse - Shield */
+     , (28322,  93,       1044) /* PhysicsState */
+     , (28322, 106,        150) /* ItemSpellcraft */
+     , (28322, 107,        250) /* ItemCurMana */
+     , (28322, 108,        250) /* ItemMaxMana */
+     , (28322, 109,          1) /* ItemDifficulty */
+     , (28322, 150,        103) /* HookPlacement - Hook */
+     , (28322, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28322, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28322, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28322,  22, True ) /* Inscribable */
+     , (28322,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28322,   5,   -0.05) /* ManaRate */
+     , (28322,  13,       1) /* ArmorModVsSlash */
+     , (28322,  14,       1) /* ArmorModVsPierce */
+     , (28322,  15,     1.2) /* ArmorModVsBludgeon */
+     , (28322,  16,       1) /* ArmorModVsCold */
+     , (28322,  17,       1) /* ArmorModVsFire */
+     , (28322,  18,       1) /* ArmorModVsAcid */
+     , (28322,  19,       1) /* ArmorModVsElectric */
+     , (28322,  39,    1.25) /* DefaultScale */
+     , (28322,  76,     0.5) /* Translucency */
+     , (28322, 110,       1) /* BulkMod */
+     , (28322, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28322,   1, 'Fenmalain Crystal Shield') /* Name */
+     , (28322,  15, 'A shield imbued with the power of the Fenmalain Crystal.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28322,   1,   33554786) /* Setup */
+     , (28322,   3,  536870932) /* SoundTable */
+     , (28322,   6,   67111919) /* PaletteBase */
+     , (28322,   7,  268436037) /* ClothingBase */
+     , (28322,   8,  100670976) /* Icon */
+     , (28322,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28322, 258, 2) /* ImpregnabilitySelf3_SpellID */
-     , (28322, 1483, 2) /* Impenetrability3_SpellID */
-     , (28322, 2003, 2) /* WarriorsLesserVitality_SpellID */
-     , (28322, 246, 2) /* InvulnerabilitySelf3_SpellID */
-     , (28322, 2007, 2) /* WarriorsLesserVigor_SpellID */;
-
+VALUES (28322,   246,      2)  /* Invulnerability Self III */
+     , (28322,   258,      2)  /* Impregnability Self III */
+     , (28322,  1483,      2)  /* Impenetrability III */
+     , (28322,  2003,      2)  /* Warrior's Lesser Vitality */
+     , (28322,  2007,      2)  /* Warrior's Lesser Vigor */;

@@ -1,35 +1,31 @@
-/* Weenie - Bundle of Deadly Frog Crotch Arrowheads (15418) */
-DELETE FROM weenie WHERE class_Id = 15418;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15418, 'arrowheaddeadlyfrogcrotch', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15418, 001 /* NAME_STRING */, 'Bundle of Deadly Frog Crotch Arrowheads')
-     , (15418, 014 /* USE_STRING */, 'This item is used in fletching.')
-     , (15418, 020 /* PLURAL_NAME_STRING */, 'Bundles of Deadly Frog Crotch Arrowheads');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15418, 001 /* SETUP_DID */, 33555958)
-     , (15418, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15418, 008 /* ICON_DID */, 100672673)
-     , (15418, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15418', 'arrowheaddeadlyfrogcrotch', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15418, 001 /* ITEM_TYPE_INT */, 134217728 /* TYPE_CRAFT_FLETCHING_INTERMEDIATE */)
-     , (15418, 005 /* ENCUMB_VAL_INT */, 10)
-     , (15418, 008 /* MASS_INT */, 10)
-     , (15418, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (15418, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (15418, 012 /* STACK_SIZE_INT */, 1)
-     , (15418, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (15418, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (15418, 015 /* STACK_UNIT_VALUE_INT */, 70)
-     , (15418, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (15418, 019 /* VALUE_INT */, 70)
-     , (15418, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (15418, 094 /* TARGET_TYPE_INT */, 134217728 /* TYPE_CRAFT_FLETCHING_INTERMEDIATE */);
+VALUES (15418,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
+     , (15418,   5,         10) /* EncumbranceVal */
+     , (15418,   8,         10) /* Mass */
+     , (15418,   9,          0) /* ValidLocations - None */
+     , (15418,  11,        100) /* MaxStackSize */
+     , (15418,  12,          1) /* StackSize */
+     , (15418,  13,         10) /* StackUnitEncumbrance */
+     , (15418,  14,         10) /* StackUnitMass */
+     , (15418,  15,         70) /* StackUnitValue */
+     , (15418,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (15418,  19,         70) /* Value */
+     , (15418,  93,       1044) /* PhysicsState */
+     , (15418,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15418, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (15418,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15418,   1, 'Bundle of Deadly Frog Crotch Arrowheads') /* Name */
+     , (15418,  14, 'This item is used in fletching.') /* Use */
+     , (15418,  20, 'Bundles of Deadly Frog Crotch Arrowheads') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15418,   1,   33555958) /* Setup */
+     , (15418,   3,  536870932) /* SoundTable */
+     , (15418,   8,  100672673) /* Icon */
+     , (15418,  22,  872415275) /* PhysicsEffectTable */;

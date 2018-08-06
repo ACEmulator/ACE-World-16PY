@@ -1,36 +1,33 @@
-/* Weenie - Blood Stained Book (24193) */
-DELETE FROM weenie WHERE class_Id = 24193;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24193, 'booksacrificerite', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24193, 001 /* NAME_STRING */, 'Blood Stained Book');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24193, 001 /* SETUP_DID */, 33554771)
-     , (24193, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24193, 008 /* ICON_DID */, 100674282)
-     , (24193, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24193', 'booksacrificerite', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24193, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (24193, 005 /* ENCUMB_VAL_INT */, 100)
-     , (24193, 008 /* MASS_INT */, 200)
-     , (24193, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24193, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24193, 019 /* VALUE_INT */, 50)
-     , (24193, 037 /* RESIST_ITEM_APPRAISAL_INT */, 50)
-     , (24193, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24193, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (24193,   1,       8192) /* ItemType - Writable */
+     , (24193,   5,        100) /* EncumbranceVal */
+     , (24193,   8,        200) /* Mass */
+     , (24193,   9,          0) /* ValidLocations - None */
+     , (24193,  16,          8) /* ItemUseable - Contained */
+     , (24193,  19,         50) /* Value */
+     , (24193,  37,         50) /* ResistItemAppraisal */
+     , (24193,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24193, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (24193,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24193,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24193,   1, 'Blood Stained Book') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24193,   1,   33554771) /* Setup */
+     , (24193,   3,  536870932) /* SoundTable */
+     , (24193,   8,  100674282) /* Icon */
+     , (24193,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (24193, 9, 1000) /* Book Data */;
+VALUES (24193, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (24193, 0, 4294967295, 'Oswald', 'prewritten', False, 'In the future there will be some who look back on these events and question the morality of my actions. I am fully aware that many will view me as a monster, while some will regard me as a hero to be emulated, others still will be unaffected by my actions. Whichever thought you ascribe to me there are some parcels of information that you should be made aware of as they may color your opinions for good or ill.
@@ -67,4 +64,3 @@ He was a lying cheating scoundrel who had turned his back on a code. That is an 
 ')
      , (24193, 8, 4294967295, 'Oswald', 'prewritten', False, 'His price was already dictated, I simply found a way to benefit from his punishment.
 ');
-

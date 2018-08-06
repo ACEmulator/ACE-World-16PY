@@ -1,46 +1,42 @@
-/* Weenie - Piercing Protection Gem (22882) */
-DELETE FROM weenie WHERE class_Id = 22882;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22882, 'gempierceprot6', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22882, 001 /* NAME_STRING */, 'Piercing Protection Gem')
-     , (22882, 015 /* SHORT_DESC_STRING */, 'A gem of piercing protection VI');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22882, 001 /* SETUP_DID */, 33554809)
-     , (22882, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22882, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22882, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (22882, 008 /* ICON_DID */, 100673906)
-     , (22882, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (22882, 028 /* SPELL_DID */, 1144 /* PiercingProtectionOther6_SpellID */)
-     , (22882, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22882', 'gempierceprot6', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22882, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22882, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (22882, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22882, 008 /* MASS_INT */, 10)
-     , (22882, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22882, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (22882, 012 /* STACK_SIZE_INT */, 1)
-     , (22882, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (22882, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (22882, 015 /* STACK_UNIT_VALUE_INT */, 200)
-     , (22882, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22882, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (22882, 019 /* VALUE_INT */, 200)
-     , (22882, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22882, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (22882, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (22882, 107 /* ITEM_CUR_MANA_INT */, 100)
-     , (22882, 108 /* ITEM_MAX_MANA_INT */, 200)
-     , (22882, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (22882, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (22882,   1,       2048) /* ItemType - Gem */
+     , (22882,   3,         14) /* PaletteTemplate - Red */
+     , (22882,   5,         10) /* EncumbranceVal */
+     , (22882,   8,         10) /* Mass */
+     , (22882,   9,          0) /* ValidLocations - None */
+     , (22882,  11,          1) /* MaxStackSize */
+     , (22882,  12,          1) /* StackSize */
+     , (22882,  13,         10) /* StackUnitEncumbrance */
+     , (22882,  14,         10) /* StackUnitMass */
+     , (22882,  15,        200) /* StackUnitValue */
+     , (22882,  16,          8) /* ItemUseable - Contained */
+     , (22882,  18,          1) /* UiEffects - Magical */
+     , (22882,  19,        200) /* Value */
+     , (22882,  93,       1044) /* PhysicsState */
+     , (22882,  94,         16) /* TargetType - Creature */
+     , (22882, 106,        210) /* ItemSpellcraft */
+     , (22882, 107,        100) /* ItemCurMana */
+     , (22882, 108,        200) /* ItemMaxMana */
+     , (22882, 109,          0) /* ItemDifficulty */
+     , (22882, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22882, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22882, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22882,  22, True ) /* Inscribable */
+     , (22882,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22882,   1, 'Piercing Protection Gem') /* Name */
+     , (22882,  15, 'A gem of piercing protection VI') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22882,   1,   33554809) /* Setup */
+     , (22882,   3,  536870932) /* SoundTable */
+     , (22882,   6,   67111919) /* PaletteBase */
+     , (22882,   7,  268435723) /* ClothingBase */
+     , (22882,   8,  100673906) /* Icon */
+     , (22882,  22,  872415275) /* PhysicsEffectTable */
+     , (22882,  28,       1144) /* Spell - Piercing Protection Other VI */
+     , (22882,  36,  234881046) /* MutateFilter */;

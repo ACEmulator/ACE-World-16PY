@@ -1,43 +1,39 @@
-/* Weenie - Gate (15816) */
-DELETE FROM weenie WHERE class_Id = 15816;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15816, 'gatethorstenarmor', 19 /* Door_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15816, 001 /* NAME_STRING */, 'Gate')
-     , (15816, 012 /* LOCK_CODE_STRING */, 'KeyThorstenArmorFreeBron')
-     , (15816, 014 /* USE_STRING */, 'Use this item to open it.')
-     , (15816, 015 /* SHORT_DESC_STRING */, 'A Tumerok Gate.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15816, 001 /* SETUP_DID */, 33557630)
-     , (15816, 002 /* MOTION_TABLE_DID */, 150995139)
-     , (15816, 003 /* SOUND_TABLE_DID */, 536870947)
-     , (15816, 008 /* ICON_DID */, 100668183)
-     , (15816, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15816', 'gatethorstenarmor', 19) /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15816, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15816, 008 /* MASS_INT */, 500)
-     , (15816, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (15816, 019 /* VALUE_INT */, 0)
-     , (15816, 038 /* RESIST_LOCKPICK_INT */, 5000)
-     , (15816, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15816, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (15816, 039 /* DEFAULT_SCALE_FLOAT */, 0.6)
-     , (15816, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (15816,   1,        128) /* ItemType - Misc */
+     , (15816,   8,        500) /* Mass */
+     , (15816,  16,         32) /* ItemUseable - Remote */
+     , (15816,  19,          0) /* Value */
+     , (15816,  38,       5000) /* ResistLockpick */
+     , (15816,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15816, 001 /* STUCK_BOOL */, True)
-     , (15816, 002 /* OPEN_BOOL */, False)
-     , (15816, 003 /* LOCKED_BOOL */, True)
-     , (15816, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (15816, 013 /* ETHEREAL_BOOL */, False)
-     , (15816, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (15816, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (15816, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (15816, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (15816,   1, True ) /* Stuck */
+     , (15816,   2, False) /* Open */
+     , (15816,   3, True ) /* Locked */
+     , (15816,  12, True ) /* ReportCollisions */
+     , (15816,  13, False) /* Ethereal */
+     , (15816,  14, False) /* GravityStatus */
+     , (15816,  33, False) /* ResetMessagePending */
+     , (15816,  34, False) /* DefaultOpen */
+     , (15816,  35, True ) /* DefaultLocked */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15816,  11,     300) /* ResetInterval */
+     , (15816,  39,     0.6) /* DefaultScale */
+     , (15816,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15816,   1, 'Gate') /* Name */
+     , (15816,  12, 'KeyThorstenArmorFreeBron') /* LockCode */
+     , (15816,  14, 'Use this item to open it.') /* Use */
+     , (15816,  15, 'A Tumerok Gate.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15816,   1,   33557630) /* Setup */
+     , (15816,   2,  150995139) /* MotionTable */
+     , (15816,   3,  536870947) /* SoundTable */
+     , (15816,   8,  100668183) /* Icon */
+     , (15816,  22,  872415275) /* PhysicsEffectTable */;

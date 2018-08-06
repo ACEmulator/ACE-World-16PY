@@ -1,41 +1,37 @@
-/* Weenie - Hieroglyph of Person Attunement (30119) */
-DELETE FROM weenie WHERE class_Id = 30119;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30119, 'gemrareeternalassessperson', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30119, 001 /* NAME_STRING */, 'Hieroglyph of Person Attunement')
-     , (30119, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30119, 001 /* SETUP_DID */, 33554809)
-     , (30119, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30119, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30119, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (30119, 008 /* ICON_DID */, 100674739)
-     , (30119, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30119, 028 /* SPELL_DID */, 2293 /* PersonAttunementSelf7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30119', 'gemrareeternalassessperson', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30119, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (30119, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (30119, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30119, 008 /* MASS_INT */, 5)
-     , (30119, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30119, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30119, 012 /* STACK_SIZE_INT */, 1)
-     , (30119, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30119, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30119, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30119, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30119, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (30119, 019 /* VALUE_INT */, 0)
-     , (30119, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30119, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30119, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30119, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30119,   1,       2048) /* ItemType - Gem */
+     , (30119,   3,         39) /* PaletteTemplate - Black */
+     , (30119,   5,          5) /* EncumbranceVal */
+     , (30119,   8,          5) /* Mass */
+     , (30119,   9,          0) /* ValidLocations - None */
+     , (30119,  11,          1) /* MaxStackSize */
+     , (30119,  12,          1) /* StackSize */
+     , (30119,  13,          5) /* StackUnitEncumbrance */
+     , (30119,  14,          5) /* StackUnitMass */
+     , (30119,  15,          0) /* StackUnitValue */
+     , (30119,  16,          8) /* ItemUseable - Contained */
+     , (30119,  18,          1) /* UiEffects - Magical */
+     , (30119,  19,          0) /* Value */
+     , (30119,  93,       1044) /* PhysicsState */
+     , (30119,  94,         16) /* TargetType - Creature */
+     , (30119, 150,        103) /* HookPlacement - Hook */
+     , (30119, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30119, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30119,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30119,   1, 'Hieroglyph of Person Attunement') /* Name */
+     , (30119,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30119,   1,   33554809) /* Setup */
+     , (30119,   3,  536870932) /* SoundTable */
+     , (30119,   6,   67111919) /* PaletteBase */
+     , (30119,   7,  268435723) /* ClothingBase */
+     , (30119,   8,  100674739) /* Icon */
+     , (30119,  22,  872415275) /* PhysicsEffectTable */
+     , (30119,  28,       2293) /* Spell - Kaluhc's Blessing */;

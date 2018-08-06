@@ -1,37 +1,34 @@
-/* Weenie - The Advocates' Tome (3653) */
-DELETE FROM weenie WHERE class_Id = 3653;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3653, 'bookadvocatefane', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3653, 001 /* NAME_STRING */, 'The Advocates'' Tome');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3653, 001 /* SETUP_DID */, 33554772)
-     , (3653, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3653, 008 /* ICON_DID */, 100667470)
-     , (3653, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3653', 'bookadvocatefane', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3653, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3653, 005 /* ENCUMB_VAL_INT */, 5)
-     , (3653, 008 /* MASS_INT */, 5)
-     , (3653, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3653, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3653, 019 /* VALUE_INT */, 25)
-     , (3653, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3653, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (3653, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (3653,   1,       8192) /* ItemType - Writable */
+     , (3653,   5,          5) /* EncumbranceVal */
+     , (3653,   8,          5) /* Mass */
+     , (3653,   9,          0) /* ValidLocations - None */
+     , (3653,  16,          8) /* ItemUseable - Contained */
+     , (3653,  19,         25) /* Value */
+     , (3653,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3653, 022 /* INSCRIBABLE_BOOL */, False)
-     , (3653, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3653,  22, False) /* Inscribable */
+     , (3653,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3653,  39,    1.22) /* DefaultScale */
+     , (3653,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3653,   1, 'The Advocates'' Tome') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3653,   1,   33554772) /* Setup */
+     , (3653,   3,  536870932) /* SoundTable */
+     , (3653,   8,  100667470) /* Icon */
+     , (3653,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (3653, 5, 1000) /* Book Data */;
+VALUES (3653, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (3653, 0, 4294967295, '', 'prewritten', False, 'The Advocates'' Tome
@@ -54,4 +51,3 @@ The First Advocate was Queen Elysa Strathelar, who helped free humankind from th
      , (3653, 4, 4294967295, '', 'prewritten', False, 'By reading this book, you now know the basics of Advocacy.  If want to become an Advocate, you should now find a second-rank or higher Advocate and ask that he or she bestow upon you the status of Advocate first rank.
 
 ');
-

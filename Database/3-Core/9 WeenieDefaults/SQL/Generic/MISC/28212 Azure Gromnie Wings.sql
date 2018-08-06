@@ -1,34 +1,30 @@
-/* Weenie - Azure Gromnie Wings (28212) */
-DELETE FROM weenie WHERE class_Id = 28212;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28212, 'wingsgromnieazurevod', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28212, 001 /* NAME_STRING */, 'Azure Gromnie Wings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28212, 001 /* SETUP_DID */, 33554817)
-     , (28212, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28212, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (28212, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (28212, 008 /* ICON_DID */, 100676765)
-     , (28212, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28212', 'wingsgromnieazurevod', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28212, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28212, 003 /* PALETTE_TEMPLATE_INT */, 22 /* AQUA_PALETTE_TEMPLATE */)
-     , (28212, 005 /* ENCUMB_VAL_INT */, 900)
-     , (28212, 008 /* MASS_INT */, 70)
-     , (28212, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28212, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28212, 019 /* VALUE_INT */, 75)
-     , (28212, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28212, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (28212,   1,        128) /* ItemType - Misc */
+     , (28212,   3,         22) /* PaletteTemplate - Aqua */
+     , (28212,   5,        900) /* EncumbranceVal */
+     , (28212,   8,         70) /* Mass */
+     , (28212,   9,          0) /* ValidLocations - None */
+     , (28212,  16,          1) /* ItemUseable - No */
+     , (28212,  19,         75) /* Value */
+     , (28212,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28212, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28212, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28212,  22, True ) /* Inscribable */
+     , (28212,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28212,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28212,   1, 'Azure Gromnie Wings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28212,   1,   33554817) /* Setup */
+     , (28212,   3,  536870932) /* SoundTable */
+     , (28212,   6,   67111919) /* PaletteBase */
+     , (28212,   7,  268435832) /* ClothingBase */
+     , (28212,   8,  100676765) /* Icon */
+     , (28212,  22,  872415275) /* PhysicsEffectTable */;

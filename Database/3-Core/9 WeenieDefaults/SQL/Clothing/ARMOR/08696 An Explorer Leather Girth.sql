@@ -1,55 +1,51 @@
-/* Weenie - An Explorer Leather Girth (8696) */
-DELETE FROM weenie WHERE class_Id = 8696;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8696, 'girthleatherrarenewbiequest', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8696, 001 /* NAME_STRING */, 'An Explorer Leather Girth');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8696, 001 /* SETUP_DID */, 33554647)
-     , (8696, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8696, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (8696, 007 /* CLOTHINGBASE_DID */, 268436714)
-     , (8696, 008 /* ICON_DID */, 100668143)
-     , (8696, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8696', 'girthleatherrarenewbiequest', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8696, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (8696, 003 /* PALETTE_TEMPLATE_INT */, 27 /* DARKGREENMETAL_PALETTE_TEMPLATE */)
-     , (8696, 004 /* CLOTHING_PRIORITY_INT */, 2048 /* OuterwearAbdomen */)
-     , (8696, 005 /* ENCUMB_VAL_INT */, 220)
-     , (8696, 008 /* MASS_INT */, 90)
-     , (8696, 009 /* LOCATIONS_INT */, 1024 /* ABDOMEN_ARMOR_LOC */)
-     , (8696, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8696, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8696, 019 /* VALUE_INT */, 1)
-     , (8696, 027 /* ARMOR_TYPE_INT */, 2)
-     , (8696, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (8696, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8696, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (8696, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (8696, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (8696, 109 /* ITEM_DIFFICULTY_INT */, 15);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8696, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (8696, 012 /* SHADE_FLOAT */, 0.66)
-     , (8696, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (8696, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (8696, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (8696, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (8696, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
-     , (8696, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (8696, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (8696, 110 /* BULK_MOD_FLOAT */, 1)
-     , (8696, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (8696,   1,          2) /* ItemType - Armor */
+     , (8696,   3,         27) /* PaletteTemplate - DarkGreenMetal */
+     , (8696,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
+     , (8696,   5,        220) /* EncumbranceVal */
+     , (8696,   8,         90) /* Mass */
+     , (8696,   9,       1024) /* ValidLocations - AbdomenArmor */
+     , (8696,  16,          1) /* ItemUseable - No */
+     , (8696,  18,          1) /* UiEffects - Magical */
+     , (8696,  19,          1) /* Value */
+     , (8696,  27,          2) /* ArmorType */
+     , (8696,  28,        100) /* ArmorLevel */
+     , (8696,  93,       1044) /* PhysicsState */
+     , (8696, 106,        150) /* ItemSpellcraft */
+     , (8696, 107,        400) /* ItemCurMana */
+     , (8696, 108,        400) /* ItemMaxMana */
+     , (8696, 109,         15) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8696, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (8696,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8696,   5,  -0.025) /* ManaRate */
+     , (8696,  12,    0.66) /* Shade */
+     , (8696,  13,       1) /* ArmorModVsSlash */
+     , (8696,  14,       1) /* ArmorModVsPierce */
+     , (8696,  15,       1) /* ArmorModVsBludgeon */
+     , (8696,  16,     0.6) /* ArmorModVsCold */
+     , (8696,  17,     0.6) /* ArmorModVsFire */
+     , (8696,  18,     0.6) /* ArmorModVsAcid */
+     , (8696,  19,     0.6) /* ArmorModVsElectric */
+     , (8696, 110,       1) /* BulkMod */
+     , (8696, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8696,   1, 'An Explorer Leather Girth') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8696,   1,   33554647) /* Setup */
+     , (8696,   3,  536870932) /* SoundTable */
+     , (8696,   6,   67108990) /* PaletteBase */
+     , (8696,   7,  268436714) /* ClothingBase */
+     , (8696,   8,  100668143) /* Icon */
+     , (8696,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8696, 1483, 2) /* Impenetrability3_SpellID */
-     , (8696, 1141, 2) /* PiercingProtectionOther3_SpellID */;
-
+VALUES (8696,  1141,      2)  /* Piercing Protection Other III */
+     , (8696,  1483,      2)  /* Impenetrability III */;

@@ -1,14 +1,13 @@
-INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
-VALUES (388, 11915 /* Blade of the Quiddity */, 0, 0, 0, 0, 0, 0.25, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (388, 11912 /* Lance of the Quiddity */, 0, 0, 0, 0, 0, 0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (388, 11906 /* Mace of the Quiddity */, 0, 0, 0, 0, 0, 0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (388, 324 /* Kaskara */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (388, 351 /* Long Sword */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (388, 344 /* Silifi */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (388, 353 /* Tachi */, 0, 0, 0, 0, 0, 0.02, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (388, 359 /* War Hammer */, 0, 0, 0, 0, 0, 0.02, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (388, 320 /* Javelin */, 0, 0, 0, 5, 0.1, 0.03, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (388, 317 /* Djarid */, 0, 0, 0, 5, 0.1, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (388, 310 /* Throwing Club */, 0, 0, 0, 4, 0.1, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (388, 304 /* Throwing Axe */, 0, 0, 0, 6, 0.1, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0);
-
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `stack_Size_Variance`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `set_Start`, `has_Sub_Set`, `continues_Previous_Set`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (388, 11915,  0, 0,    0, 0, 0,    0.25, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Blade of the Quiddity */
+     , (388, 11912,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Lance of the Quiddity */
+     , (388, 11906,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Mace of the Quiddity */
+     , (388,   324,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Kaskara */
+     , (388,   351,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Long Sword */
+     , (388,   344,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Silifi */
+     , (388,   353,  0, 0,    0, 0, 0,    0.02, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Tachi */
+     , (388,   359,  0, 0,    0, 0, 0,    0.02, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* War Hammer */
+     , (388,   320,  0, 0,    0, 5, 0.1,    0.03, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Javelin */
+     , (388,   317,  0, 0,    0, 5, 0.1,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Djarid */
+     , (388,   310,  0, 0,    0, 4, 0.1,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Throwing Club */
+     , (388,   304,  0, 0,    0, 6, 0.1,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Throwing Axe */;

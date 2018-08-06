@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Staff Mastery Self II (3508) */
-DELETE FROM weenie WHERE class_Id = 3508;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3508, 'scrollstaffmasteryself2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3508, 001 /* NAME_STRING */, 'Scroll of Staff Mastery Self II')
-     , (3508, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3508, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the caster''s Staff skill by 25%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3508, 001 /* SETUP_DID */, 33554826)
-     , (3508, 008 /* ICON_DID */, 100676473)
-     , (3508, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3508, 028 /* SPELL_DID */, 395 /* StaffMasterySelf2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3508', 'scrollstaffmasteryself2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3508, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3508, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3508, 008 /* MASS_INT */, 90)
-     , (3508, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3508, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3508, 019 /* VALUE_INT */, 5)
-     , (3508, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3508, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3508,   1,       8192) /* ItemType - Writable */
+     , (3508,   5,         30) /* EncumbranceVal */
+     , (3508,   8,         90) /* Mass */
+     , (3508,   9,          0) /* ValidLocations - None */
+     , (3508,  16,          8) /* ItemUseable - Contained */
+     , (3508,  19,          5) /* Value */
+     , (3508,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3508, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3508, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3508,  22, True ) /* Inscribable */
+     , (3508,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3508,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3508,   1, 'Scroll of Staff Mastery Self II') /* Name */
+     , (3508,  15, 'A magic scroll.') /* ShortDesc */
+     , (3508,  16, 'When learned, this spell increases the caster''s Staff skill by 25%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3508,   1,   33554826) /* Setup */
+     , (3508,   8,  100676473) /* Icon */
+     , (3508,  22,  872415275) /* PhysicsEffectTable */
+     , (3508,  28,        395) /* Spell - Light Weapon Mastery Self II */;

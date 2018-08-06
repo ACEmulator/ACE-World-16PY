@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Silencia's Boon (28960) */
-DELETE FROM weenie WHERE class_Id = 28960;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28960, 'scrollnuhmudiraswisdomother7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28960, 001 /* NAME_STRING */, 'Scroll of Silencia''s Boon')
-     , (28960, 015 /* SHORT_DESC_STRING */, 'When learned, this spell increases the target''s Alchemy skill by 40 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28960, 001 /* SETUP_DID */, 33554826)
-     , (28960, 008 /* ICON_DID */, 100676480)
-     , (28960, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28960, 028 /* SPELL_DID */, 2190 /* AlchemyMasteryOther7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28960', 'scrollnuhmudiraswisdomother7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28960, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28960, 005 /* ENCUMB_VAL_INT */, 30)
-     , (28960, 008 /* MASS_INT */, 90)
-     , (28960, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28960, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28960, 019 /* VALUE_INT */, 2000)
-     , (28960, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28960, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (28960,   1,       8192) /* ItemType - Writable */
+     , (28960,   5,         30) /* EncumbranceVal */
+     , (28960,   8,         90) /* Mass */
+     , (28960,   9,          0) /* ValidLocations - None */
+     , (28960,  16,          8) /* ItemUseable - Contained */
+     , (28960,  19,       2000) /* Value */
+     , (28960,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28960, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28960, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28960,  22, True ) /* Inscribable */
+     , (28960,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28960,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28960,   1, 'Scroll of Silencia''s Boon') /* Name */
+     , (28960,  15, 'When learned, this spell increases the target''s Alchemy skill by 40 points.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28960,   1,   33554826) /* Setup */
+     , (28960,   8,  100676480) /* Icon */
+     , (28960,  22,  872415275) /* PhysicsEffectTable */
+     , (28960,  28,       2190) /* Spell - Silencia's Boon */;

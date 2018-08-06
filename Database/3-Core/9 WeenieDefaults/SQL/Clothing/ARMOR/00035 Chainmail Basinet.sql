@@ -1,51 +1,47 @@
-/* Weenie - Chainmail Basinet (35) */
-DELETE FROM weenie WHERE class_Id = 35;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (35, 'basinetchainmail', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35, 001 /* NAME_STRING */, 'Chainmail Basinet');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35, 001 /* SETUP_DID */, 33555048)
-     , (35, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (35, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (35, 007 /* CLOTHINGBASE_DID */, 268435514)
-     , (35, 008 /* ICON_DID */, 100667343)
-     , (35, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (35, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (35, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('35', 'basinetchainmail', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (35, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (35, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (35, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (35, 005 /* ENCUMB_VAL_INT */, 320)
-     , (35, 008 /* MASS_INT */, 160)
-     , (35, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (35, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (35, 019 /* VALUE_INT */, 433)
-     , (35, 027 /* ARMOR_TYPE_INT */, 16)
-     , (35, 028 /* ARMOR_LEVEL_INT */, 75)
-     , (35, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (35, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (35, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (35, 169 /* TSYS_MUTATION_DATA_INT */, 168429060);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35, 012 /* SHADE_FLOAT */, 0.66)
-     , (35, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
-     , (35, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (35, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
-     , (35, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (35, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
-     , (35, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.5)
-     , (35, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
-     , (35, 110 /* BULK_MOD_FLOAT */, 1.2)
-     , (35, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (35,   1,          2) /* ItemType - Armor */
+     , (35,   3,         20) /* PaletteTemplate - Silver */
+     , (35,   4,      16384) /* ClothingPriority - Head */
+     , (35,   5,        320) /* EncumbranceVal */
+     , (35,   8,        160) /* Mass */
+     , (35,   9,          1) /* ValidLocations - HeadWear */
+     , (35,  16,          1) /* ItemUseable - No */
+     , (35,  19,        433) /* Value */
+     , (35,  27,         16) /* ArmorType */
+     , (35,  28,         75) /* ArmorLevel */
+     , (35,  93,       1044) /* PhysicsState */
+     , (35, 150,        103) /* HookPlacement - Hook */
+     , (35, 151,          2) /* HookType - Wall */
+     , (35, 169,  168429060) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35, 022 /* INSCRIBABLE_BOOL */, True)
-     , (35, 100 /* DYABLE_BOOL */, True);
+VALUES (35,  22, True ) /* Inscribable */
+     , (35, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (35,  12,    0.66) /* Shade */
+     , (35,  13,     1.2) /* ArmorModVsSlash */
+     , (35,  14,       1) /* ArmorModVsPierce */
+     , (35,  15,     0.8) /* ArmorModVsBludgeon */
+     , (35,  16,     0.6) /* ArmorModVsCold */
+     , (35,  17,     0.6) /* ArmorModVsFire */
+     , (35,  18,     0.5) /* ArmorModVsAcid */
+     , (35,  19,     0.4) /* ArmorModVsElectric */
+     , (35, 110,     1.2) /* BulkMod */
+     , (35, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (35,   1, 'Chainmail Basinet') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (35,   1,   33555048) /* Setup */
+     , (35,   3,  536870932) /* SoundTable */
+     , (35,   6,   67108990) /* PaletteBase */
+     , (35,   7,  268435514) /* ClothingBase */
+     , (35,   8,  100667343) /* Icon */
+     , (35,  22,  872415275) /* PhysicsEffectTable */
+     , (35,  36,  234881042) /* MutateFilter */
+     , (35,  46,  939524146) /* TsysMutationFilter */;

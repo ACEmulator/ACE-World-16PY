@@ -1,31 +1,27 @@
-/* Weenie - Alloy Machine (25449) */
-DELETE FROM weenie WHERE class_Id = 25449;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25449, 'decorationundeadmechanism', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25449, 001 /* NAME_STRING */, 'Alloy Machine')
-     , (25449, 015 /* SHORT_DESC_STRING */, 'An odd machine made of a strange, silvery alloy. This item has no apparent use, but it can be hooked on the floor.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25449, 001 /* SETUP_DID */, 33558435)
-     , (25449, 002 /* MOTION_TABLE_DID */, 150995250)
-     , (25449, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25449, 008 /* ICON_DID */, 100674822)
-     , (25449, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25449', 'decorationundeadmechanism', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25449, 001 /* ITEM_TYPE_INT */, 1024 /* TYPE_USELESS */)
-     , (25449, 005 /* ENCUMB_VAL_INT */, 250)
-     , (25449, 008 /* MASS_INT */, 250)
-     , (25449, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25449, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25449, 019 /* VALUE_INT */, 0)
-     , (25449, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25449, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25449, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (25449,   1,       1024) /* ItemType - Useless */
+     , (25449,   5,        250) /* EncumbranceVal */
+     , (25449,   8,        250) /* Mass */
+     , (25449,   9,          0) /* ValidLocations - None */
+     , (25449,  16,          1) /* ItemUseable - No */
+     , (25449,  19,          0) /* Value */
+     , (25449,  93,       1044) /* PhysicsState */
+     , (25449, 150,        103) /* HookPlacement - Hook */
+     , (25449, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25449, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (25449,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25449,   1, 'Alloy Machine') /* Name */
+     , (25449,  15, 'An odd machine made of a strange, silvery alloy. This item has no apparent use, but it can be hooked on the floor.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25449,   1,   33558435) /* Setup */
+     , (25449,   2,  150995250) /* MotionTable */
+     , (25449,   3,  536870932) /* SoundTable */
+     , (25449,   8,  100674822) /* Icon */
+     , (25449,  22,  872415275) /* PhysicsEffectTable */;

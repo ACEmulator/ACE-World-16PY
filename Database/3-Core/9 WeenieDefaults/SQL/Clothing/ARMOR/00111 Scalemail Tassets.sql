@@ -1,50 +1,46 @@
-/* Weenie - Scalemail Tassets (111) */
-DELETE FROM weenie WHERE class_Id = 111;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (111, 'tassetsscalemail', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (111, 001 /* NAME_STRING */, 'Scalemail Tassets');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (111, 001 /* SETUP_DID */, 33554656)
-     , (111, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (111, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (111, 007 /* CLOTHINGBASE_DID */, 268436435)
-     , (111, 008 /* ICON_DID */, 100673349)
-     , (111, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (111, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (111, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('111', 'tassetsscalemail', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (111, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (111, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (111, 004 /* CLOTHING_PRIORITY_INT */, 256 /* OuterwearUpperLegs */)
-     , (111, 005 /* ENCUMB_VAL_INT */, 533)
-     , (111, 008 /* MASS_INT */, 320)
-     , (111, 009 /* LOCATIONS_INT */, 8192 /* UPPER_LEG_ARMOR_LOC */)
-     , (111, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (111, 019 /* VALUE_INT */, 433)
-     , (111, 027 /* ARMOR_TYPE_INT */, 8)
-     , (111, 028 /* ARMOR_LEVEL_INT */, 75)
-     , (111, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (111, 169 /* TSYS_MUTATION_DATA_INT */, 252313860);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (111, 012 /* SHADE_FLOAT */, 0.66)
-     , (111, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (111, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.1)
-     , (111, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (111, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (111, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (111, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (111, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
-     , (111, 039 /* DEFAULT_SCALE_FLOAT */, 1.33)
-     , (111, 110 /* BULK_MOD_FLOAT */, 1.2)
-     , (111, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (111,   1,          2) /* ItemType - Armor */
+     , (111,   3,         20) /* PaletteTemplate - Silver */
+     , (111,   4,        256) /* ClothingPriority - OuterwearUpperLegs */
+     , (111,   5,        533) /* EncumbranceVal */
+     , (111,   8,        320) /* Mass */
+     , (111,   9,       8192) /* ValidLocations - UpperLegArmor */
+     , (111,  16,          1) /* ItemUseable - No */
+     , (111,  19,        433) /* Value */
+     , (111,  27,          8) /* ArmorType */
+     , (111,  28,         75) /* ArmorLevel */
+     , (111,  93,       1044) /* PhysicsState */
+     , (111, 169,  252313860) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (111, 022 /* INSCRIBABLE_BOOL */, True)
-     , (111, 100 /* DYABLE_BOOL */, True);
+VALUES (111,  22, True ) /* Inscribable */
+     , (111, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (111,  12,    0.66) /* Shade */
+     , (111,  13,       1) /* ArmorModVsSlash */
+     , (111,  14,     1.1) /* ArmorModVsPierce */
+     , (111,  15,       1) /* ArmorModVsBludgeon */
+     , (111,  16,     0.4) /* ArmorModVsCold */
+     , (111,  17,     0.4) /* ArmorModVsFire */
+     , (111,  18,     0.6) /* ArmorModVsAcid */
+     , (111,  19,     0.4) /* ArmorModVsElectric */
+     , (111,  39,    1.33) /* DefaultScale */
+     , (111, 110,     1.2) /* BulkMod */
+     , (111, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (111,   1, 'Scalemail Tassets') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (111,   1,   33554656) /* Setup */
+     , (111,   3,  536870932) /* SoundTable */
+     , (111,   6,   67108990) /* PaletteBase */
+     , (111,   7,  268436435) /* ClothingBase */
+     , (111,   8,  100673349) /* Icon */
+     , (111,  22,  872415275) /* PhysicsEffectTable */
+     , (111,  36,  234881042) /* MutateFilter */
+     , (111,  46,  939524146) /* TsysMutationFilter */;

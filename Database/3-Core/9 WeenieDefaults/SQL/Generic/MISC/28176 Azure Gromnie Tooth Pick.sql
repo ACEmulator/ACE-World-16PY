@@ -1,36 +1,32 @@
-/* Weenie - Azure Gromnie Tooth Pick (28176) */
-DELETE FROM weenie WHERE class_Id = 28176;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28176, 'gromnietoothpickazure', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28176, 001 /* NAME_STRING */, 'Azure Gromnie Tooth Pick')
-     , (28176, 016 /* LONG_DESC_STRING */, 'A pick made from the tooth of an azure gromnie.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28176, 001 /* SETUP_DID */, 33554817)
-     , (28176, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (28176, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (28176, 008 /* ICON_DID */, 100676789);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28176', 'gromnietoothpickazure', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28176, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28176, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (28176, 005 /* ENCUMB_VAL_INT */, 10)
-     , (28176, 008 /* MASS_INT */, 10)
-     , (28176, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28176, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28176, 019 /* VALUE_INT */, 0)
-     , (28176, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28176, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28176, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28176, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
+VALUES (28176,   1,        128) /* ItemType - Misc */
+     , (28176,   3,          2) /* PaletteTemplate - Blue */
+     , (28176,   5,         10) /* EncumbranceVal */
+     , (28176,   8,         10) /* Mass */
+     , (28176,   9,          0) /* ValidLocations - None */
+     , (28176,  16,          1) /* ItemUseable - No */
+     , (28176,  19,          0) /* Value */
+     , (28176,  33,          1) /* Bonded - Bonded */
+     , (28176,  93,       1044) /* PhysicsState */
+     , (28176, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28176, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28176, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (28176, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (28176,  22, True ) /* Inscribable */
+     , (28176,  23, True ) /* DestroyOnSell */
+     , (28176,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28176,  39,     0.4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28176,   1, 'Azure Gromnie Tooth Pick') /* Name */
+     , (28176,  16, 'A pick made from the tooth of an azure gromnie.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28176,   1,   33554817) /* Setup */
+     , (28176,   6,   67111919) /* PaletteBase */
+     , (28176,   7,  268435832) /* ClothingBase */
+     , (28176,   8,  100676789) /* Icon */;

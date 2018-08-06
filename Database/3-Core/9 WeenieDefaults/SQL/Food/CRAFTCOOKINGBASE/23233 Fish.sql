@@ -1,35 +1,31 @@
-/* Weenie - Fish (23233) */
-DELETE FROM weenie WHERE class_Id = 23233;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23233, 'fishgiantyellow', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23233, 001 /* NAME_STRING */, 'Fish')
-     , (23233, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (23233, 020 /* PLURAL_NAME_STRING */, 'Fish');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23233, 001 /* SETUP_DID */, 33554674)
-     , (23233, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23233, 008 /* ICON_DID */, 100667461)
-     , (23233, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23233', 'fishgiantyellow', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23233, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (23233, 005 /* ENCUMB_VAL_INT */, 100)
-     , (23233, 008 /* MASS_INT */, 50)
-     , (23233, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23233, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (23233, 012 /* STACK_SIZE_INT */, 1)
-     , (23233, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (23233, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (23233, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (23233, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23233, 019 /* VALUE_INT */, 0)
-     , (23233, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (23233, 090 /* BOOST_VALUE_INT */, 8)
-     , (23233, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23233, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23233, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (23233,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (23233,   5,        100) /* EncumbranceVal */
+     , (23233,   8,         50) /* Mass */
+     , (23233,   9,          0) /* ValidLocations - None */
+     , (23233,  11,        100) /* MaxStackSize */
+     , (23233,  12,          1) /* StackSize */
+     , (23233,  13,        100) /* StackUnitEncumbrance */
+     , (23233,  14,         50) /* StackUnitMass */
+     , (23233,  15,          0) /* StackUnitValue */
+     , (23233,  16,          8) /* ItemUseable - Contained */
+     , (23233,  19,          0) /* Value */
+     , (23233,  89,          4) /* BoosterEnum - Stamina */
+     , (23233,  90,          8) /* BoostValue */
+     , (23233,  93,       1044) /* PhysicsState */
+     , (23233, 150,        103) /* HookPlacement - Hook */
+     , (23233, 151,          2) /* HookType - Wall */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23233,   1, 'Fish') /* Name */
+     , (23233,  14, 'Use this item to eat it.') /* Use */
+     , (23233,  20, 'Fish') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23233,   1,   33554674) /* Setup */
+     , (23233,   3,  536870932) /* SoundTable */
+     , (23233,   8,  100667461) /* Icon */
+     , (23233,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,34 +1,30 @@
-/* Weenie - Knath Husk (25743) */
-DELETE FROM weenie WHERE class_Id = 25743;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25743, 'headknathwhite', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25743, 001 /* NAME_STRING */, 'Knath Husk')
-     , (25743, 016 /* LONG_DESC_STRING */, 'Fragile remains of a Knath.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25743, 001 /* SETUP_DID */, 33555630)
-     , (25743, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25743, 008 /* ICON_DID */, 100668443)
-     , (25743, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25743', 'headknathwhite', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25743, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25743, 005 /* ENCUMB_VAL_INT */, 50)
-     , (25743, 008 /* MASS_INT */, 600)
-     , (25743, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25743, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25743, 019 /* VALUE_INT */, 0)
-     , (25743, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25743, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25743, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25743, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (25743,   1,        128) /* ItemType - Misc */
+     , (25743,   5,         50) /* EncumbranceVal */
+     , (25743,   8,        600) /* Mass */
+     , (25743,   9,          0) /* ValidLocations - None */
+     , (25743,  16,          1) /* ItemUseable - No */
+     , (25743,  19,          0) /* Value */
+     , (25743,  93,       1044) /* PhysicsState */
+     , (25743, 150,        103) /* HookPlacement - Hook */
+     , (25743, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25743, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25743, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (25743,  22, True ) /* Inscribable */
+     , (25743,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25743,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25743,   1, 'Knath Husk') /* Name */
+     , (25743,  16, 'Fragile remains of a Knath.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25743,   1,   33555630) /* Setup */
+     , (25743,   3,  536870932) /* SoundTable */
+     , (25743,   8,  100668443) /* Icon */
+     , (25743,  22,  872415275) /* PhysicsEffectTable */;

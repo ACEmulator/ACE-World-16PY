@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Evaporate Item Magic (20348) */
-DELETE FROM weenie WHERE class_Id = 20348;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20348, 'scrolldispelitemgoodself1', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20348, 001 /* NAME_STRING */, 'Scroll of Evaporate Item Magic')
-     , (20348, 015 /* SHORT_DESC_STRING */, 'When learned, this spell dispels 1-3 positive Item Magic enchantments of level 1 from the caster.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20348, 001 /* SETUP_DID */, 33554826)
-     , (20348, 008 /* ICON_DID */, 100676659)
-     , (20348, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20348, 028 /* SPELL_DID */, 1923 /* DispelItemGoodSelf1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20348', 'scrolldispelitemgoodself1', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20348, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20348, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20348, 008 /* MASS_INT */, 90)
-     , (20348, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20348, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20348, 019 /* VALUE_INT */, 1)
-     , (20348, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20348, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20348,   1,       8192) /* ItemType - Writable */
+     , (20348,   5,         30) /* EncumbranceVal */
+     , (20348,   8,         90) /* Mass */
+     , (20348,   9,          0) /* ValidLocations - None */
+     , (20348,  16,          8) /* ItemUseable - Contained */
+     , (20348,  19,          1) /* Value */
+     , (20348,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20348, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20348, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20348,  22, True ) /* Inscribable */
+     , (20348,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20348,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20348,   1, 'Scroll of Evaporate Item Magic') /* Name */
+     , (20348,  15, 'When learned, this spell dispels 1-3 positive Item Magic enchantments of level 1 from the caster.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20348,   1,   33554826) /* Setup */
+     , (20348,   8,  100676659) /* Icon */
+     , (20348,  22,  872415275) /* PhysicsEffectTable */
+     , (20348,  28,       1923) /* Spell - Evaporate Item Magic */;

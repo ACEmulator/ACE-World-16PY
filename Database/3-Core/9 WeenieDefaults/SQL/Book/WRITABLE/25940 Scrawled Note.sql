@@ -1,37 +1,34 @@
-/* Weenie - Scrawled Note (25940) */
-DELETE FROM weenie WHERE class_Id = 25940;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25940, 'noteemptysoul1', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25940, 001 /* NAME_STRING */, 'Scrawled Note')
-     , (25940, 015 /* SHORT_DESC_STRING */, 'A well-written note.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25940, 001 /* SETUP_DID */, 33554773)
-     , (25940, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25940, 008 /* ICON_DID */, 100668176)
-     , (25940, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25940', 'noteemptysoul1', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25940, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (25940, 005 /* ENCUMB_VAL_INT */, 25)
-     , (25940, 008 /* MASS_INT */, 5)
-     , (25940, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25940, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (25940, 019 /* VALUE_INT */, 10)
-     , (25940, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25940, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (25940,   1,       8192) /* ItemType - Writable */
+     , (25940,   5,         25) /* EncumbranceVal */
+     , (25940,   8,          5) /* Mass */
+     , (25940,   9,          0) /* ValidLocations - None */
+     , (25940,  16,          8) /* ItemUseable - Contained */
+     , (25940,  19,         10) /* Value */
+     , (25940,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25940, 001 /* STUCK_BOOL */, True)
-     , (25940, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (25940,   1, True ) /* Stuck */
+     , (25940,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25940,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25940,   1, 'Scrawled Note') /* Name */
+     , (25940,  15, 'A well-written note.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25940,   1,   33554773) /* Setup */
+     , (25940,   3,  536870932) /* SoundTable */
+     , (25940,   8,  100668176) /* Icon */
+     , (25940,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (25940, 2, 1000) /* Book Data */;
+VALUES (25940, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (25940, 0, 4294967295, 'Honshu Takeda', 'prewritten', False, 'I am without the tongue to express the emptiness that has entered my being. I have lost sight of what it meant to live a right life. I have placed the need of physical goods over the breath that must fill my soul.
@@ -45,4 +42,3 @@ If you choose to follow me, seek out Han Rin-Jo first. He dwells within the inn 
 
 Seek the adherent there.
 ');
-

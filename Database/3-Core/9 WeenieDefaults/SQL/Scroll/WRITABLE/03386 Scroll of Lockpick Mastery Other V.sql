@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Lockpick Mastery Other V (3386) */
-DELETE FROM weenie WHERE class_Id = 3386;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3386, 'scrolllockpickmasteryother5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3386, 001 /* NAME_STRING */, 'Scroll of Lockpick Mastery Other V')
-     , (3386, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3386, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the target''s Lockpick skill by 100%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3386, 001 /* SETUP_DID */, 33554826)
-     , (3386, 008 /* ICON_DID */, 100676463)
-     , (3386, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3386, 028 /* SPELL_DID */, 932 /* LockpickMasteryOther5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3386', 'scrolllockpickmasteryother5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3386, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3386, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3386, 008 /* MASS_INT */, 90)
-     , (3386, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3386, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3386, 019 /* VALUE_INT */, 200)
-     , (3386, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3386, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3386,   1,       8192) /* ItemType - Writable */
+     , (3386,   5,         30) /* EncumbranceVal */
+     , (3386,   8,         90) /* Mass */
+     , (3386,   9,          0) /* ValidLocations - None */
+     , (3386,  16,          8) /* ItemUseable - Contained */
+     , (3386,  19,        200) /* Value */
+     , (3386,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3386, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3386, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3386,  22, True ) /* Inscribable */
+     , (3386,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3386,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3386,   1, 'Scroll of Lockpick Mastery Other V') /* Name */
+     , (3386,  15, 'A magic scroll.') /* ShortDesc */
+     , (3386,  16, 'When learned, this spell increases the target''s Lockpick skill by 100%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3386,   1,   33554826) /* Setup */
+     , (3386,   8,  100676463) /* Icon */
+     , (3386,  22,  872415275) /* PhysicsEffectTable */
+     , (3386,  28,        932) /* Spell - Lockpick Mastery Other V */;

@@ -1,49 +1,45 @@
-/* Weenie - Koujia Breastplate (6003) */
-DELETE FROM weenie WHERE class_Id = 6003;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6003, 'breastplatekoujia', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6003, 001 /* NAME_STRING */, 'Koujia Breastplate');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6003, 001 /* SETUP_DID */, 33554642)
-     , (6003, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6003, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (6003, 007 /* CLOTHINGBASE_DID */, 268435852)
-     , (6003, 008 /* ICON_DID */, 100670451)
-     , (6003, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6003, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (6003, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6003', 'breastplatekoujia', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6003, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (6003, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (6003, 004 /* CLOTHING_PRIORITY_INT */, 1024 /* OuterwearChest */)
-     , (6003, 005 /* ENCUMB_VAL_INT */, 1415)
-     , (6003, 008 /* MASS_INT */, 850)
-     , (6003, 009 /* LOCATIONS_INT */, 512 /* CHEST_ARMOR_LOC */)
-     , (6003, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6003, 019 /* VALUE_INT */, 1545)
-     , (6003, 027 /* ARMOR_TYPE_INT */, 32)
-     , (6003, 028 /* ARMOR_LEVEL_INT */, 95)
-     , (6003, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6003, 169 /* TSYS_MUTATION_DATA_INT */, 118097668);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6003, 012 /* SHADE_FLOAT */, 0.33)
-     , (6003, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (6003, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (6003, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (6003, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (6003, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (6003, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (6003, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
-     , (6003, 110 /* BULK_MOD_FLOAT */, 1.05)
-     , (6003, 111 /* SIZE_MOD_FLOAT */, 1.3);
+VALUES (6003,   1,          2) /* ItemType - Armor */
+     , (6003,   3,         20) /* PaletteTemplate - Silver */
+     , (6003,   4,       1024) /* ClothingPriority - OuterwearChest */
+     , (6003,   5,       1415) /* EncumbranceVal */
+     , (6003,   8,        850) /* Mass */
+     , (6003,   9,        512) /* ValidLocations - ChestArmor */
+     , (6003,  16,          1) /* ItemUseable - No */
+     , (6003,  19,       1545) /* Value */
+     , (6003,  27,         32) /* ArmorType */
+     , (6003,  28,         95) /* ArmorLevel */
+     , (6003,  93,       1044) /* PhysicsState */
+     , (6003, 169,  118097668) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6003, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6003, 100 /* DYABLE_BOOL */, True);
+VALUES (6003,  22, True ) /* Inscribable */
+     , (6003, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6003,  12,    0.33) /* Shade */
+     , (6003,  13,     1.3) /* ArmorModVsSlash */
+     , (6003,  14,       1) /* ArmorModVsPierce */
+     , (6003,  15,       1) /* ArmorModVsBludgeon */
+     , (6003,  16,     0.4) /* ArmorModVsCold */
+     , (6003,  17,     0.4) /* ArmorModVsFire */
+     , (6003,  18,     0.6) /* ArmorModVsAcid */
+     , (6003,  19,     0.4) /* ArmorModVsElectric */
+     , (6003, 110,    1.05) /* BulkMod */
+     , (6003, 111,     1.3) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6003,   1, 'Koujia Breastplate') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6003,   1,   33554642) /* Setup */
+     , (6003,   3,  536870932) /* SoundTable */
+     , (6003,   6,   67108990) /* PaletteBase */
+     , (6003,   7,  268435852) /* ClothingBase */
+     , (6003,   8,  100670451) /* Icon */
+     , (6003,  22,  872415275) /* PhysicsEffectTable */
+     , (6003,  36,  234881042) /* MutateFilter */
+     , (6003,  46,  939524146) /* TsysMutationFilter */;

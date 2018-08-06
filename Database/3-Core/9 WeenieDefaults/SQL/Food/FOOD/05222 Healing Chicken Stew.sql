@@ -1,37 +1,33 @@
-/* Weenie - Healing Chicken Stew (5222) */
-DELETE FROM weenie WHERE class_Id = 5222;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5222, 'healingchickenstew', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5222, 001 /* NAME_STRING */, 'Healing Chicken Stew')
-     , (5222, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5222, 020 /* PLURAL_NAME_STRING */, 'Bowls of Healing Chicken Stew ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5222, 001 /* SETUP_DID */, 33555968)
-     , (5222, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5222, 008 /* ICON_DID */, 100669951)
-     , (5222, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5222', 'healingchickenstew', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5222, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5222, 005 /* ENCUMB_VAL_INT */, 50)
-     , (5222, 008 /* MASS_INT */, 50)
-     , (5222, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5222, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5222, 012 /* STACK_SIZE_INT */, 1)
-     , (5222, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (5222, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (5222, 015 /* STACK_UNIT_VALUE_INT */, 80)
-     , (5222, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5222, 018 /* UI_EFFECTS_INT */, 4 /* UI_EFFECT_BOOST_HEALTH */)
-     , (5222, 019 /* VALUE_INT */, 80)
-     , (5222, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
-     , (5222, 090 /* BOOST_VALUE_INT */, 27)
-     , (5222, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5222,   1,         32) /* ItemType - Food */
+     , (5222,   5,         50) /* EncumbranceVal */
+     , (5222,   8,         50) /* Mass */
+     , (5222,   9,          0) /* ValidLocations - None */
+     , (5222,  11,        100) /* MaxStackSize */
+     , (5222,  12,          1) /* StackSize */
+     , (5222,  13,         50) /* StackUnitEncumbrance */
+     , (5222,  14,         50) /* StackUnitMass */
+     , (5222,  15,         80) /* StackUnitValue */
+     , (5222,  16,          8) /* ItemUseable - Contained */
+     , (5222,  18,          4) /* UiEffects - BoostHealth */
+     , (5222,  19,         80) /* Value */
+     , (5222,  89,          2) /* BoosterEnum - Health */
+     , (5222,  90,         27) /* BoostValue */
+     , (5222,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5222, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5222,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5222,   1, 'Healing Chicken Stew') /* Name */
+     , (5222,  14, 'Use this item to eat it.') /* Use */
+     , (5222,  20, 'Bowls of Healing Chicken Stew ') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5222,   1,   33555968) /* Setup */
+     , (5222,   3,  536870932) /* SoundTable */
+     , (5222,   8,  100669951) /* Icon */
+     , (5222,  22,  872415275) /* PhysicsEffectTable */;

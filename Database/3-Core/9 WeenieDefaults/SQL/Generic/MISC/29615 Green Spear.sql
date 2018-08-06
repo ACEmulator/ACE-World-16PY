@@ -1,39 +1,35 @@
-/* Weenie - Green Spear (29615) */
-DELETE FROM weenie WHERE class_Id = 29615;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29615, 'memorygamegreenspeardecoration', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29615, 001 /* NAME_STRING */, 'Green Spear')
-     , (29615, 016 /* LONG_DESC_STRING */, 'A decorative green spear.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29615, 001 /* SETUP_DID */, 33559064)
-     , (29615, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29615, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (29615, 007 /* CLOTHINGBASE_DID */, 268435768)
-     , (29615, 008 /* ICON_DID */, 100669005)
-     , (29615, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29615', 'memorygamegreenspeardecoration', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29615, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29615, 003 /* PALETTE_TEMPLATE_INT */, 28 /* DARKPURPLEMETAL_PALETTE_TEMPLATE */)
-     , (29615, 005 /* ENCUMB_VAL_INT */, 1)
-     , (29615, 008 /* MASS_INT */, 1)
-     , (29615, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29615, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29615, 019 /* VALUE_INT */, 0)
-     , (29615, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
-     , (29615, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
-     , (29615, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29615, 039 /* DEFAULT_SCALE_FLOAT */, 2);
+VALUES (29615,   1,        128) /* ItemType - Misc */
+     , (29615,   3,         28) /* PaletteTemplate - DarkPurpleMetal */
+     , (29615,   5,          1) /* EncumbranceVal */
+     , (29615,   8,          1) /* Mass */
+     , (29615,   9,          0) /* ValidLocations - None */
+     , (29615,  16,          1) /* ItemUseable - No */
+     , (29615,  19,          0) /* Value */
+     , (29615,  33,          0) /* Bonded - Normal */
+     , (29615,  93,         20) /* PhysicsState */
+     , (29615, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29615, 001 /* STUCK_BOOL */, True)
-     , (29615, 013 /* ETHEREAL_BOOL */, True)
-     , (29615, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (29615, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29615,   1, True ) /* Stuck */
+     , (29615,  13, True ) /* Ethereal */
+     , (29615,  14, False) /* GravityStatus */
+     , (29615,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29615,  39,       2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29615,   1, 'Green Spear') /* Name */
+     , (29615,  16, 'A decorative green spear.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29615,   1,   33559064) /* Setup */
+     , (29615,   3,  536870932) /* SoundTable */
+     , (29615,   6,   67111919) /* PaletteBase */
+     , (29615,   7,  268435768) /* ClothingBase */
+     , (29615,   8,  100669005) /* Icon */
+     , (29615,  22,  872415275) /* PhysicsEffectTable */;

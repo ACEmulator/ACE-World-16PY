@@ -1,35 +1,31 @@
-/* Weenie - Pressure Plate (2131) */
-DELETE FROM weenie WHERE class_Id = 2131;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2131, 'pressure-plate2m', 24 /* PressurePlate_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2131, 001 /* NAME_STRING */, 'Pressure Plate');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2131, 001 /* SETUP_DID */, 33555536)
-     , (2131, 002 /* MOTION_TABLE_DID */, 150994977)
-     , (2131, 008 /* ICON_DID */, 100668114)
-     , (2131, 023 /* USE_SOUND_DID */, 149 /* Sound_TriggerActivated */);
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2131, 016 /* ACTIVATION_TARGET_IID */, 0);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2131', 'pressure-plate2m', 24) /* PressurePlate */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2131, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (2131, 005 /* ENCUMB_VAL_INT */, 500)
-     , (2131, 008 /* MASS_INT */, 250)
-     , (2131, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2131, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2131, 019 /* VALUE_INT */, 1000)
-     , (2131, 093 /* PHYSICS_STATE_INT */, 1036 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (2131, 119 /* ACTIVE_INT */, 1);
+VALUES (2131,   1,        128) /* ItemType - Misc */
+     , (2131,   5,        500) /* EncumbranceVal */
+     , (2131,   8,        250) /* Mass */
+     , (2131,   9,          0) /* ValidLocations - None */
+     , (2131,  16,          1) /* ItemUseable - No */
+     , (2131,  19,       1000) /* Value */
+     , (2131,  93,       1036) /* PhysicsState */
+     , (2131, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2131, 001 /* STUCK_BOOL */, True)
-     , (2131, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (2131, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (2131, 013 /* ETHEREAL_BOOL */, True)
-     , (2131, 018 /* VISIBILITY_BOOL */, True);
+VALUES (2131,   1, True ) /* Stuck */
+     , (2131,  11, False) /* IgnoreCollisions */
+     , (2131,  12, True ) /* ReportCollisions */
+     , (2131,  13, True ) /* Ethereal */
+     , (2131,  18, True ) /* Visibility */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2131,   1, 'Pressure Plate') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2131,   1,   33555536) /* Setup */
+     , (2131,   2,  150994977) /* MotionTable */
+     , (2131,   8,  100668114) /* Icon */
+     , (2131,  23,        149) /* UseSound - TriggerActivated */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (2131,  16,          0) /* ActivationTarget */;

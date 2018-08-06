@@ -1,28 +1,24 @@
-/* Weenie - Desert Boundary Cottages (14687) */
-DELETE FROM weenie WHERE class_Id = 14687;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14687, 'desertboundarycottagessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14687, 001 /* NAME_STRING */, 'Desert Boundary Cottages')
-     , (14687, 016 /* LONG_DESC_STRING */, 'Welcome to Desert Boundary Cottages');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14687, 001 /* SETUP_DID */, 33557463)
-     , (14687, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14687', 'desertboundarycottagessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14687, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14687, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14687, 008 /* MASS_INT */, 1800)
-     , (14687, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14687, 019 /* VALUE_INT */, 125)
-     , (14687, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14687,   1,        128) /* ItemType - Misc */
+     , (14687,   5,       9000) /* EncumbranceVal */
+     , (14687,   8,       1800) /* Mass */
+     , (14687,  16,          1) /* ItemUseable - No */
+     , (14687,  19,        125) /* Value */
+     , (14687,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14687, 001 /* STUCK_BOOL */, True)
-     , (14687, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14687, 013 /* ETHEREAL_BOOL */, False)
-     , (14687, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14687,   1, True ) /* Stuck */
+     , (14687,  12, True ) /* ReportCollisions */
+     , (14687,  13, False) /* Ethereal */
+     , (14687,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14687,   1, 'Desert Boundary Cottages') /* Name */
+     , (14687,  16, 'Welcome to Desert Boundary Cottages') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14687,   1,   33557463) /* Setup */
+     , (14687,   8,  100668115) /* Icon */;

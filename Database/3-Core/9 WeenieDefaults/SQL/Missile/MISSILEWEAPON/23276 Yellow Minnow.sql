@@ -1,55 +1,51 @@
-/* Weenie - Yellow Minnow (23276) */
-DELETE FROM weenie WHERE class_Id = 23276;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23276, 'minnowgold', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23276, 001 /* NAME_STRING */, 'Yellow Minnow')
-     , (23276, 016 /* LONG_DESC_STRING */, 'Not as damaging as darts since minnows are more squishy.')
-     , (23276, 020 /* PLURAL_NAME_STRING */, 'Yellow Minnows');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23276, 001 /* SETUP_DID */, 33554674)
-     , (23276, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23276, 006 /* PALETTE_BASE_DID */, 67114188)
-     , (23276, 007 /* CLOTHINGBASE_DID */, 268436573)
-     , (23276, 008 /* ICON_DID */, 100674209)
-     , (23276, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23276', 'minnowgold', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23276, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (23276, 003 /* PALETTE_TEMPLATE_INT */, 17 /* YELLOW_PALETTE_TEMPLATE */)
-     , (23276, 005 /* ENCUMB_VAL_INT */, 5)
-     , (23276, 008 /* MASS_INT */, 5)
-     , (23276, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (23276, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (23276, 012 /* STACK_SIZE_INT */, 1)
-     , (23276, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (23276, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (23276, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (23276, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23276, 019 /* VALUE_INT */, 0)
-     , (23276, 044 /* DAMAGE_INT */, 3)
-     , (23276, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (23276, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (23276, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (23276, 049 /* WEAPON_TIME_INT */, 10)
-     , (23276, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (23276, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (23276, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23276, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23276, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (23276, 027 /* ROTATION_SPEED_FLOAT */, 0)
-     , (23276, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (23276, 039 /* DEFAULT_SCALE_FLOAT */, 0.3)
-     , (23276, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (23276, 078 /* FRICTION_FLOAT */, 1)
-     , (23276, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (23276,   1,        256) /* ItemType - MissileWeapon */
+     , (23276,   3,         17) /* PaletteTemplate - Yellow */
+     , (23276,   5,          5) /* EncumbranceVal */
+     , (23276,   8,          5) /* Mass */
+     , (23276,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (23276,  11,        100) /* MaxStackSize */
+     , (23276,  12,          1) /* StackSize */
+     , (23276,  13,          5) /* StackUnitEncumbrance */
+     , (23276,  14,          5) /* StackUnitMass */
+     , (23276,  15,          0) /* StackUnitValue */
+     , (23276,  16,          1) /* ItemUseable - No */
+     , (23276,  19,          0) /* Value */
+     , (23276,  44,          3) /* Damage */
+     , (23276,  45,          2) /* DamageType - Pierce */
+     , (23276,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (23276,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (23276,  49,         10) /* WeaponTime */
+     , (23276,  51,          2) /* CombatUse - Missle */
+     , (23276,  93,     132116) /* PhysicsState */
+     , (23276, 150,        103) /* HookPlacement - Hook */
+     , (23276, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23276, 017 /* INELASTIC_BOOL */, True)
-     , (23276, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
+VALUES (23276,  17, True ) /* Inelastic */
+     , (23276,  84, True ) /* IgnoreCloIcons */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23276,  22,    0.25) /* DamageVariance */
+     , (23276,  27,       0) /* RotationSpeed */
+     , (23276,  29,       1) /* WeaponDefense */
+     , (23276,  39,     0.3) /* DefaultScale */
+     , (23276,  62,       1) /* WeaponOffense */
+     , (23276,  78,       1) /* Friction */
+     , (23276,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23276,   1, 'Yellow Minnow') /* Name */
+     , (23276,  16, 'Not as damaging as darts since minnows are more squishy.') /* LongDesc */
+     , (23276,  20, 'Yellow Minnows') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23276,   1,   33554674) /* Setup */
+     , (23276,   3,  536870932) /* SoundTable */
+     , (23276,   6,   67114188) /* PaletteBase */
+     , (23276,   7,  268436573) /* ClothingBase */
+     , (23276,   8,  100674209) /* Icon */
+     , (23276,  22,  872415275) /* PhysicsEffectTable */;

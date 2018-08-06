@@ -1,59 +1,55 @@
-/* Weenie - Amethyst Oculus (28154) */
-DELETE FROM weenie WHERE class_Id = 28154;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28154, 'oculusamethyst', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28154, 001 /* NAME_STRING */, 'Amethyst Oculus')
-     , (28154, 016 /* LONG_DESC_STRING */, 'A solidifed amethyst gromnie eye.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28154, 001 /* SETUP_DID */, 33554809)
-     , (28154, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28154, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (28154, 007 /* CLOTHINGBASE_DID */, 268436858)
-     , (28154, 008 /* ICON_DID */, 100674136)
-     , (28154, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28154', 'oculusamethyst', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28154, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (28154, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (28154, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (28154, 005 /* ENCUMB_VAL_INT */, 325)
-     , (28154, 008 /* MASS_INT */, 125)
-     , (28154, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (28154, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28154, 019 /* VALUE_INT */, 4500)
-     , (28154, 027 /* ARMOR_TYPE_INT */, 32)
-     , (28154, 028 /* ARMOR_LEVEL_INT */, 225)
-     , (28154, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28154, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (28154, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (28154, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (28154, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (28154, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (28154, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (28154, 160 /* WIELD_DIFFICULTY_INT */, 50);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28154, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (28154, 012 /* SHADE_FLOAT */, 0.66)
-     , (28154, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
-     , (28154, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.4)
-     , (28154, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.2)
-     , (28154, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (28154, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (28154, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (28154, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.6)
-     , (28154, 110 /* BULK_MOD_FLOAT */, 1)
-     , (28154, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (28154,   1,          2) /* ItemType - Armor */
+     , (28154,   3,         13) /* PaletteTemplate - Purple */
+     , (28154,   4,      16384) /* ClothingPriority - Head */
+     , (28154,   5,        325) /* EncumbranceVal */
+     , (28154,   8,        125) /* Mass */
+     , (28154,   9,          1) /* ValidLocations - HeadWear */
+     , (28154,  16,          1) /* ItemUseable - No */
+     , (28154,  19,       4500) /* Value */
+     , (28154,  27,         32) /* ArmorType */
+     , (28154,  28,        225) /* ArmorLevel */
+     , (28154,  93,       1044) /* PhysicsState */
+     , (28154, 106,        200) /* ItemSpellcraft */
+     , (28154, 107,       1000) /* ItemCurMana */
+     , (28154, 108,       1000) /* ItemMaxMana */
+     , (28154, 109,        150) /* ItemDifficulty */
+     , (28154, 158,          7) /* WieldRequirements - Level */
+     , (28154, 159,          1) /* WieldSkilltype - Axe */
+     , (28154, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28154, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28154,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28154,   5,  -0.033) /* ManaRate */
+     , (28154,  12,    0.66) /* Shade */
+     , (28154,  13,     1.2) /* ArmorModVsSlash */
+     , (28154,  14,     1.4) /* ArmorModVsPierce */
+     , (28154,  15,     1.2) /* ArmorModVsBludgeon */
+     , (28154,  16,     0.8) /* ArmorModVsCold */
+     , (28154,  17,     0.8) /* ArmorModVsFire */
+     , (28154,  18,     0.8) /* ArmorModVsAcid */
+     , (28154,  19,     1.6) /* ArmorModVsElectric */
+     , (28154, 110,       1) /* BulkMod */
+     , (28154, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28154,   1, 'Amethyst Oculus') /* Name */
+     , (28154,  16, 'A solidifed amethyst gromnie eye.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28154,   1,   33554809) /* Setup */
+     , (28154,   3,  536870932) /* SoundTable */
+     , (28154,   6,   67108990) /* PaletteBase */
+     , (28154,   7,  268436858) /* ClothingBase */
+     , (28154,   8,  100674136) /* Icon */
+     , (28154,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28154, 1997, 2) /* LifeGiver_SpellID */
-     , (28154, 1077, 2) /* LightningProtectionOther6_SpellID */
-     , (28154, 2622, 2) /* CANTRIPSTORMWARD1_SpellID */;
-
+VALUES (28154,  1077,      2)  /* Lightning Protection Other VI */
+     , (28154,  1997,      2)  /* Life Giver */
+     , (28154,  2622,      2)  /* Minor Storm Ward */;

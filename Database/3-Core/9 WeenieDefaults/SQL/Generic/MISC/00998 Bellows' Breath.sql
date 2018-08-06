@@ -1,31 +1,27 @@
-/* Weenie - Bellows' Breath (998) */
-DELETE FROM weenie WHERE class_Id = 998;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (998, 'samsurblacksmithsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (998, 001 /* NAME_STRING */, 'Bellows'' Breath')
-     , (998, 016 /* LONG_DESC_STRING */, 'Bellows'' Breath');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (998, 001 /* SETUP_DID */, 33555909)
-     , (998, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (998, 007 /* CLOTHINGBASE_DID */, 268435818)
-     , (998, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('998', 'samsurblacksmithsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (998, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (998, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (998, 008 /* MASS_INT */, 1800)
-     , (998, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (998, 019 /* VALUE_INT */, 125)
-     , (998, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (998,   1,        128) /* ItemType - Misc */
+     , (998,   5,       9000) /* EncumbranceVal */
+     , (998,   8,       1800) /* Mass */
+     , (998,  16,          1) /* ItemUseable - No */
+     , (998,  19,        125) /* Value */
+     , (998,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (998, 001 /* STUCK_BOOL */, True)
-     , (998, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (998, 013 /* ETHEREAL_BOOL */, False)
-     , (998, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (998, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (998,   1, True ) /* Stuck */
+     , (998,  12, True ) /* ReportCollisions */
+     , (998,  13, False) /* Ethereal */
+     , (998,  14, False) /* GravityStatus */
+     , (998,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (998,   1, 'Bellows'' Breath') /* Name */
+     , (998,  16, 'Bellows'' Breath') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (998,   1,   33555909) /* Setup */
+     , (998,   6,   67111860) /* PaletteBase */
+     , (998,   7,  268435818) /* ClothingBase */
+     , (998,   8,  100668115) /* Icon */;

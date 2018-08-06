@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Leadership Mastery Other II (3353) */
-DELETE FROM weenie WHERE class_Id = 3353;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3353, 'scrollleadershipmasteryother2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3353, 001 /* NAME_STRING */, 'Scroll of Leadership Mastery Other II')
-     , (3353, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3353, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the target''s Leadership skill by 25%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3353, 001 /* SETUP_DID */, 33554826)
-     , (3353, 008 /* ICON_DID */, 100676446)
-     , (3353, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3353, 028 /* SPELL_DID */, 905 /* LeadershipMasteryOther2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3353', 'scrollleadershipmasteryother2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3353, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3353, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3353, 008 /* MASS_INT */, 90)
-     , (3353, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3353, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3353, 019 /* VALUE_INT */, 5)
-     , (3353, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3353, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3353,   1,       8192) /* ItemType - Writable */
+     , (3353,   5,         30) /* EncumbranceVal */
+     , (3353,   8,         90) /* Mass */
+     , (3353,   9,          0) /* ValidLocations - None */
+     , (3353,  16,          8) /* ItemUseable - Contained */
+     , (3353,  19,          5) /* Value */
+     , (3353,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3353, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3353, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3353,  22, True ) /* Inscribable */
+     , (3353,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3353,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3353,   1, 'Scroll of Leadership Mastery Other II') /* Name */
+     , (3353,  15, 'A magic scroll.') /* ShortDesc */
+     , (3353,  16, 'When learned, this spell increases the target''s Leadership skill by 25%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3353,   1,   33554826) /* Setup */
+     , (3353,   8,  100676446) /* Icon */
+     , (3353,  22,  872415275) /* PhysicsEffectTable */
+     , (3353,  28,        905) /* Spell - Leadership Mastery Other II */;

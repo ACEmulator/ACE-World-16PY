@@ -1,37 +1,33 @@
-/* Weenie - Pedestal Weak Spot (16919) */
-DELETE FROM weenie WHERE class_Id = 16919;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (16919, 'doorpedestal', 19 /* Door_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (16919, 001 /* NAME_STRING */, 'Pedestal Weak Spot')
-     , (16919, 014 /* USE_STRING */, 'The part of the pedestal doesn''t look quite the same as the rest.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16919, 001 /* SETUP_DID */, 33557845)
-     , (16919, 002 /* MOTION_TABLE_DID */, 150995193)
-     , (16919, 003 /* SOUND_TABLE_DID */, 536871053)
-     , (16919, 008 /* ICON_DID */, 100668183)
-     , (16919, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('16919', 'doorpedestal', 19) /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (16919, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (16919, 008 /* MASS_INT */, 500)
-     , (16919, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (16919, 019 /* VALUE_INT */, 0)
-     , (16919, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (16919, 011 /* RESET_INTERVAL_FLOAT */, 60)
-     , (16919, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (16919,   1,        128) /* ItemType - Misc */
+     , (16919,   8,        500) /* Mass */
+     , (16919,  16,         32) /* ItemUseable - Remote */
+     , (16919,  19,          0) /* Value */
+     , (16919,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16919, 001 /* STUCK_BOOL */, True)
-     , (16919, 002 /* OPEN_BOOL */, False)
-     , (16919, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (16919, 013 /* ETHEREAL_BOOL */, False)
-     , (16919, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (16919, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (16919, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (16919,   1, True ) /* Stuck */
+     , (16919,   2, False) /* Open */
+     , (16919,  12, True ) /* ReportCollisions */
+     , (16919,  13, False) /* Ethereal */
+     , (16919,  14, False) /* GravityStatus */
+     , (16919,  33, False) /* ResetMessagePending */
+     , (16919,  34, False) /* DefaultOpen */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (16919,  11,      60) /* ResetInterval */
+     , (16919,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (16919,   1, 'Pedestal Weak Spot') /* Name */
+     , (16919,  14, 'The part of the pedestal doesn''t look quite the same as the rest.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (16919,   1,   33557845) /* Setup */
+     , (16919,   2,  150995193) /* MotionTable */
+     , (16919,   3,  536871053) /* SoundTable */
+     , (16919,   8,  100668183) /* Icon */
+     , (16919,  22,  872415275) /* PhysicsEffectTable */;

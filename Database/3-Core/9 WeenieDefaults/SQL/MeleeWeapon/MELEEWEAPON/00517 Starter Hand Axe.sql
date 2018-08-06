@@ -1,44 +1,40 @@
-/* Weenie - Starter Hand Axe (517) */
-DELETE FROM weenie WHERE class_Id = 517;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (517, 'newbieaxehand', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (517, 001 /* NAME_STRING */, 'Starter Hand Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (517, 001 /* SETUP_DID */, 33554727)
-     , (517, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (517, 008 /* ICON_DID */, 100667581)
-     , (517, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('517', 'newbieaxehand', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (517, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (517, 005 /* ENCUMB_VAL_INT */, 450)
-     , (517, 008 /* MASS_INT */, 180)
-     , (517, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (517, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (517, 019 /* VALUE_INT */, 10)
-     , (517, 044 /* DAMAGE_INT */, 5)
-     , (517, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (517, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (517, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (517, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (517, 049 /* WEAPON_TIME_INT */, 40)
-     , (517, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (517, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (517, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (517, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (517, 021 /* WEAPON_LENGTH_FLOAT */, 0.34)
-     , (517, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (517, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (517, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (517, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (517,   1,          1) /* ItemType - MeleeWeapon */
+     , (517,   5,        450) /* EncumbranceVal */
+     , (517,   8,        180) /* Mass */
+     , (517,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (517,  16,          1) /* ItemUseable - No */
+     , (517,  19,         10) /* Value */
+     , (517,  44,          5) /* Damage */
+     , (517,  45,          1) /* DamageType - Slash */
+     , (517,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (517,  47,          4) /* AttackType - Slash */
+     , (517,  48,          1) /* WeaponSkill - Axe */
+     , (517,  49,         40) /* WeaponTime */
+     , (517,  51,          1) /* CombatUse - Melee */
+     , (517,  93,       1044) /* PhysicsState */
+     , (517, 150,        103) /* HookPlacement - Hook */
+     , (517, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (517, 022 /* INSCRIBABLE_BOOL */, True)
-     , (517, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (517,  22, True ) /* Inscribable */
+     , (517,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (517,  21,    0.34) /* WeaponLength */
+     , (517,  22,     0.5) /* DamageVariance */
+     , (517,  29,       1) /* WeaponDefense */
+     , (517,  39,       1) /* DefaultScale */
+     , (517,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (517,   1, 'Starter Hand Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (517,   1,   33554727) /* Setup */
+     , (517,   3,  536870932) /* SoundTable */
+     , (517,   8,  100667581) /* Icon */
+     , (517,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,63 +1,59 @@
-/* Weenie - Regal Swordstaff (29931) */
-DELETE FROM weenie WHERE class_Id = 29931;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29931, 'spearregal', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29931, 001 /* NAME_STRING */, 'Regal Swordstaff');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29931, 001 /* SETUP_DID */, 33559052)
-     , (29931, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29931, 008 /* ICON_DID */, 100676982)
-     , (29931, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29931', 'spearregal', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29931, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (29931, 005 /* ENCUMB_VAL_INT */, 950)
-     , (29931, 008 /* MASS_INT */, 150)
-     , (29931, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (29931, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29931, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (29931, 019 /* VALUE_INT */, 6000)
-     , (29931, 044 /* DAMAGE_INT */, 38)
-     , (29931, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (29931, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (29931, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (29931, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (29931, 049 /* WEAPON_TIME_INT */, 25)
-     , (29931, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (29931, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29931, 106 /* ITEM_SPELLCRAFT_INT */, 275)
-     , (29931, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (29931, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (29931, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (29931, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29931, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (29931, 158 /* WIELD_REQUIREMENTS_INT */, 1 /* WIELD_REQUIRES_SKILL_WieldRequirement */)
-     , (29931, 159 /* WIELD_SKILLTYPE_INT */, 9 /* SPEAR_SKILL */)
-     , (29931, 160 /* WIELD_DIFFICULTY_INT */, 325)
-     , (29931, 166 /* SLAYER_CREATURE_TYPE_INT */, 75 /* Burun_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29931, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (29931, 021 /* WEAPON_LENGTH_FLOAT */, 1.3)
-     , (29931, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (29931, 029 /* WEAPON_DEFENSE_FLOAT */, 1.1)
-     , (29931, 062 /* WEAPON_OFFENSE_FLOAT */, 1.1)
-     , (29931, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (29931, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 1.75)
-     , (29931, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.3);
+VALUES (29931,   1,          1) /* ItemType - MeleeWeapon */
+     , (29931,   5,        950) /* EncumbranceVal */
+     , (29931,   8,        150) /* Mass */
+     , (29931,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (29931,  16,          1) /* ItemUseable - No */
+     , (29931,  18,          1) /* UiEffects - Magical */
+     , (29931,  19,       6000) /* Value */
+     , (29931,  44,         38) /* Damage */
+     , (29931,  45,          3) /* DamageType */
+     , (29931,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (29931,  47,          6) /* AttackType */
+     , (29931,  48,          9) /* WeaponSkill - Spear */
+     , (29931,  49,         25) /* WeaponTime */
+     , (29931,  51,          1) /* CombatUse - Melee */
+     , (29931,  93,       1044) /* PhysicsState */
+     , (29931, 106,        275) /* ItemSpellcraft */
+     , (29931, 107,        800) /* ItemCurMana */
+     , (29931, 108,        800) /* ItemMaxMana */
+     , (29931, 109,        150) /* ItemDifficulty */
+     , (29931, 150,        103) /* HookPlacement - Hook */
+     , (29931, 151,          2) /* HookType - Wall */
+     , (29931, 158,          1) /* WieldRequirements - Skill */
+     , (29931, 159,          9) /* WieldSkilltype - Spear */
+     , (29931, 160,        325) /* WieldDifficulty */
+     , (29931, 166,         75) /* SlayerCreatureType - Burun */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29931, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29931,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29931,   5, -0.0333) /* ManaRate */
+     , (29931,  21,     1.3) /* WeaponLength */
+     , (29931,  22,     0.5) /* DamageVariance */
+     , (29931,  29,     1.1) /* WeaponDefense */
+     , (29931,  62,     1.1) /* WeaponOffense */
+     , (29931, 136,     2.5) /* CriticalMultiplier */
+     , (29931, 138,    1.75) /* SlayerDamageBonus */
+     , (29931, 147,     0.3) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29931,   1, 'Regal Swordstaff') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29931,   1,   33559052) /* Setup */
+     , (29931,   3,  536870932) /* SoundTable */
+     , (29931,   8,  100676982) /* Icon */
+     , (29931,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29931, 1604, 2) /* Defender5_SpellID */
-     , (29931, 1359, 2) /* EnduranceOther5_SpellID */
-     , (29931, 1616, 2) /* BloodDrinker6_SpellID */
-     , (29931, 243, 2) /* InvulnerabilityOther5_SpellID */
-     , (29931, 1625, 2) /* SwiftKiller4_SpellID */
-     , (29931, 1591, 2) /* HeartSeeker5_SpellID */;
-
+VALUES (29931,   243,      2)  /* Invulnerability Other V */
+     , (29931,  1359,      2)  /* Endurance Other V */
+     , (29931,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (29931,  1604,      2)  /* Aura of Defender Self V */
+     , (29931,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (29931,  1625,      2)  /* Aura of Swift Killer Self IV */;

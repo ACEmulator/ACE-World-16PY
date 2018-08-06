@@ -1,48 +1,44 @@
-/* Weenie - Javelin (320) */
-DELETE FROM weenie WHERE class_Id = 320;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (320, 'javelin', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (320, 001 /* NAME_STRING */, 'Javelin');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (320, 001 /* SETUP_DID */, 33554738)
-     , (320, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (320, 008 /* ICON_DID */, 100667593)
-     , (320, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('320', 'javelin', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (320, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (320, 005 /* ENCUMB_VAL_INT */, 15)
-     , (320, 008 /* MASS_INT */, 15)
-     , (320, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (320, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (320, 012 /* STACK_SIZE_INT */, 1)
-     , (320, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (320, 014 /* STACK_UNIT_MASS_INT */, 15)
-     , (320, 015 /* STACK_UNIT_VALUE_INT */, 4)
-     , (320, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (320, 019 /* VALUE_INT */, 4)
-     , (320, 044 /* DAMAGE_INT */, 10)
-     , (320, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (320, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (320, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (320, 049 /* WEAPON_TIME_INT */, 20)
-     , (320, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (320, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (320, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (320, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (320, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (320, 027 /* ROTATION_SPEED_FLOAT */, 0)
-     , (320, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (320, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (320, 078 /* FRICTION_FLOAT */, 1)
-     , (320, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (320,   1,        256) /* ItemType - MissileWeapon */
+     , (320,   5,         15) /* EncumbranceVal */
+     , (320,   8,         15) /* Mass */
+     , (320,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (320,  11,        100) /* MaxStackSize */
+     , (320,  12,          1) /* StackSize */
+     , (320,  13,         15) /* StackUnitEncumbrance */
+     , (320,  14,         15) /* StackUnitMass */
+     , (320,  15,          4) /* StackUnitValue */
+     , (320,  16,          1) /* ItemUseable - No */
+     , (320,  19,          4) /* Value */
+     , (320,  44,         10) /* Damage */
+     , (320,  45,          2) /* DamageType - Pierce */
+     , (320,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (320,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (320,  49,         20) /* WeaponTime */
+     , (320,  51,          2) /* CombatUse - Missle */
+     , (320,  93,     132116) /* PhysicsState */
+     , (320, 150,        103) /* HookPlacement - Hook */
+     , (320, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (320, 017 /* INELASTIC_BOOL */, True);
+VALUES (320,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (320,  22,    0.25) /* DamageVariance */
+     , (320,  27,       0) /* RotationSpeed */
+     , (320,  29,       1) /* WeaponDefense */
+     , (320,  62,       1) /* WeaponOffense */
+     , (320,  78,       1) /* Friction */
+     , (320,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (320,   1, 'Javelin') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (320,   1,   33554738) /* Setup */
+     , (320,   3,  536870932) /* SoundTable */
+     , (320,   8,  100667593) /* Icon */
+     , (320,  22,  872415275) /* PhysicsEffectTable */;

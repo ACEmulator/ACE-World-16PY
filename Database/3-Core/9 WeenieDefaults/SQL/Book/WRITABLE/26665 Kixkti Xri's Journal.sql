@@ -1,36 +1,33 @@
-/* Weenie - Kixkti Xri's Journal (26665) */
-DELETE FROM weenie WHERE class_Id = 26665;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26665, 'journalkixktixri', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26665, 001 /* NAME_STRING */, 'Kixkti Xri''s Journal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26665, 001 /* SETUP_DID */, 33558620)
-     , (26665, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26665, 006 /* PALETTE_BASE_DID */, 67114957)
-     , (26665, 008 /* ICON_DID */, 100675783)
-     , (26665, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26665', 'journalkixktixri', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26665, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (26665, 005 /* ENCUMB_VAL_INT */, 160)
-     , (26665, 008 /* MASS_INT */, 200)
-     , (26665, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26665, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26665, 019 /* VALUE_INT */, 90)
-     , (26665, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26665, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (26665,   1,       8192) /* ItemType - Writable */
+     , (26665,   5,        160) /* EncumbranceVal */
+     , (26665,   8,        200) /* Mass */
+     , (26665,   9,          0) /* ValidLocations - None */
+     , (26665,  16,          8) /* ItemUseable - Contained */
+     , (26665,  19,         90) /* Value */
+     , (26665,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26665, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (26665,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (26665,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26665,   1, 'Kixkti Xri''s Journal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26665,   1,   33558620) /* Setup */
+     , (26665,   3,  536870932) /* SoundTable */
+     , (26665,   6,   67114957) /* PaletteBase */
+     , (26665,   8,  100675783) /* Icon */
+     , (26665,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (26665, 21, 1000) /* Book Data */;
+VALUES (26665, 21, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (26665, 0, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, '"Behold! Gates long closed, opened by blood.
@@ -224,4 +221,3 @@ some form of ultimate perhaps, but explains where the name Sclavus
 is born.)
 Rise, thrall-kin and serve!"
 ');
-

@@ -1,47 +1,43 @@
-/* Weenie - Nuhumudira's Robe (26638) */
-DELETE FROM weenie WHERE class_Id = 26638;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26638, 'robeulgrim', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26638, 001 /* NAME_STRING */, 'Nuhumudira''s Robe')
-     , (26638, 015 /* SHORT_DESC_STRING */, 'A fine robe shimmering with silk fibers.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26638, 001 /* SETUP_DID */, 33554854)
-     , (26638, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26638, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (26638, 007 /* CLOTHINGBASE_DID */, 268436454)
-     , (26638, 008 /* ICON_DID */, 100672146)
-     , (26638, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26638', 'robeulgrim', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26638, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (26638, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (26638, 004 /* CLOTHING_PRIORITY_INT */, 98048 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */)
-     , (26638, 005 /* ENCUMB_VAL_INT */, 450)
-     , (26638, 008 /* MASS_INT */, 450)
-     , (26638, 009 /* LOCATIONS_INT */, 32513 /* HEAD_WEAR_LOC, FOOT_WEAR_LOC, ARMOR_LOC */)
-     , (26638, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (26638, 019 /* VALUE_INT */, 5000)
-     , (26638, 027 /* ARMOR_TYPE_INT */, 1)
-     , (26638, 028 /* ARMOR_LEVEL_INT */, 30)
-     , (26638, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (26638, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26638, 012 /* SHADE_FLOAT */, 1)
-     , (26638, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.4)
-     , (26638, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.4)
-     , (26638, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.4)
-     , (26638, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (26638, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (26638, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.4)
-     , (26638, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4);
+VALUES (26638,   1,          4) /* ItemType - Clothing */
+     , (26638,   3,          2) /* PaletteTemplate - Blue */
+     , (26638,   4,      98048) /* ClothingPriority */
+     , (26638,   5,        450) /* EncumbranceVal */
+     , (26638,   8,        450) /* Mass */
+     , (26638,   9,      32513) /* ValidLocations */
+     , (26638,  16,          1) /* ItemUseable - No */
+     , (26638,  19,       5000) /* Value */
+     , (26638,  27,          1) /* ArmorType */
+     , (26638,  28,         30) /* ArmorLevel */
+     , (26638,  33,         -2) /* Bonded - Destroy */
+     , (26638,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26638, 022 /* INSCRIBABLE_BOOL */, True)
-     , (26638, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (26638, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (26638,  22, True ) /* Inscribable */
+     , (26638,  23, True ) /* DestroyOnSell */
+     , (26638,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (26638,  12,       1) /* Shade */
+     , (26638,  13,     0.4) /* ArmorModVsSlash */
+     , (26638,  14,     0.4) /* ArmorModVsPierce */
+     , (26638,  15,     0.4) /* ArmorModVsBludgeon */
+     , (26638,  16,     0.4) /* ArmorModVsCold */
+     , (26638,  17,     0.4) /* ArmorModVsFire */
+     , (26638,  18,     0.4) /* ArmorModVsAcid */
+     , (26638,  19,     0.4) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26638,   1, 'Nuhumudira''s Robe') /* Name */
+     , (26638,  15, 'A fine robe shimmering with silk fibers.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26638,   1,   33554854) /* Setup */
+     , (26638,   3,  536870932) /* SoundTable */
+     , (26638,   6,   67108990) /* PaletteBase */
+     , (26638,   7,  268436454) /* ClothingBase */
+     , (26638,   8,  100672146) /* Icon */
+     , (26638,  22,  872415275) /* PhysicsEffectTable */;

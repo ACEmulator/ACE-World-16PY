@@ -1,28 +1,24 @@
-/* Weenie - Quickness Other I (4606) */
-DELETE FROM weenie WHERE class_Id = 4606;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4606, 'servicequicknessother', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4606, 001 /* NAME_STRING */, 'Quickness Other I');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4606, 001 /* SETUP_DID */, 33554667)
-     , (4606, 008 /* ICON_DID */, 100668294)
-     , (4606, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (4606, 028 /* SPELL_DID */, 1403 /* QuicknessOther1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4606', 'servicequicknessother', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4606, 001 /* ITEM_TYPE_INT */, 1048576 /* TYPE_SERVICE */)
-     , (4606, 005 /* ENCUMB_VAL_INT */, 0)
-     , (4606, 008 /* MASS_INT */, 0)
-     , (4606, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4606, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4606, 019 /* VALUE_INT */, 100)
-     , (4606, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4606,   1,    1048576) /* ItemType - Service */
+     , (4606,   5,          0) /* EncumbranceVal */
+     , (4606,   8,          0) /* Mass */
+     , (4606,   9,          0) /* ValidLocations - None */
+     , (4606,  16,          1) /* ItemUseable - No */
+     , (4606,  19,        100) /* Value */
+     , (4606,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4606, 022 /* INSCRIBABLE_BOOL */, False)
-     , (4606, 051 /* VENDOR_SERVICE_BOOL */, True);
+VALUES (4606,  22, False) /* Inscribable */
+     , (4606,  51, True ) /* VendorService */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4606,   1, 'Quickness Other I') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4606,   1,   33554667) /* Setup */
+     , (4606,   8,  100668294) /* Icon */
+     , (4606,  22,  872415275) /* PhysicsEffectTable */
+     , (4606,  28,       1403) /* Spell - Quickness Other I */;

@@ -1,53 +1,49 @@
-/* Weenie - Greater Olthoi Girth (24895) */
-DELETE FROM weenie WHERE class_Id = 24895;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24895, 'girtholthoiextreme', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24895, 001 /* NAME_STRING */, 'Greater Olthoi Girth');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24895, 001 /* SETUP_DID */, 33554647)
-     , (24895, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24895, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (24895, 007 /* CLOTHINGBASE_DID */, 268436655)
-     , (24895, 008 /* ICON_DID */, 100674600)
-     , (24895, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24895, 036 /* MUTATE_FILTER_DID */, 234881046)
-     , (24895, 046 /* TSYS_MUTATION_FILTER_DID */, 939524130);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24895', 'girtholthoiextreme', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24895, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (24895, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (24895, 004 /* CLOTHING_PRIORITY_INT */, 2048 /* OuterwearAbdomen */)
-     , (24895, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (24895, 008 /* MASS_INT */, 550)
-     , (24895, 009 /* LOCATIONS_INT */, 1024 /* ABDOMEN_ARMOR_LOC */)
-     , (24895, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24895, 019 /* VALUE_INT */, 3000)
-     , (24895, 027 /* ARMOR_TYPE_INT */, 32)
-     , (24895, 028 /* ARMOR_LEVEL_INT */, 500)
-     , (24895, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (24895, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24895, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (24895, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (24895, 160 /* WIELD_DIFFICULTY_INT */, 80)
-     , (24895, 169 /* TSYS_MUTATION_DATA_INT */, 118096132);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24895, 012 /* SHADE_FLOAT */, 0.33)
-     , (24895, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.7)
-     , (24895, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.3)
-     , (24895, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.3)
-     , (24895, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.5)
-     , (24895, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.5)
-     , (24895, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 2)
-     , (24895, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.6)
-     , (24895, 110 /* BULK_MOD_FLOAT */, 1)
-     , (24895, 111 /* SIZE_MOD_FLOAT */, 1.5);
+VALUES (24895,   1,          2) /* ItemType - Armor */
+     , (24895,   3,          2) /* PaletteTemplate - Blue */
+     , (24895,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
+     , (24895,   5,       1000) /* EncumbranceVal */
+     , (24895,   8,        550) /* Mass */
+     , (24895,   9,       1024) /* ValidLocations - AbdomenArmor */
+     , (24895,  16,          1) /* ItemUseable - No */
+     , (24895,  19,       3000) /* Value */
+     , (24895,  27,         32) /* ArmorType */
+     , (24895,  28,        500) /* ArmorLevel */
+     , (24895,  36,       9999) /* ResistMagic */
+     , (24895,  93,       1044) /* PhysicsState */
+     , (24895, 158,          7) /* WieldRequirements - Level */
+     , (24895, 159,          1) /* WieldSkilltype - Axe */
+     , (24895, 160,         80) /* WieldDifficulty */
+     , (24895, 169,  118096132) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24895, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24895, 100 /* DYABLE_BOOL */, True);
+VALUES (24895,  22, True ) /* Inscribable */
+     , (24895, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24895,  12,    0.33) /* Shade */
+     , (24895,  13,     1.7) /* ArmorModVsSlash */
+     , (24895,  14,     1.3) /* ArmorModVsPierce */
+     , (24895,  15,     1.3) /* ArmorModVsBludgeon */
+     , (24895,  16,     1.5) /* ArmorModVsCold */
+     , (24895,  17,     1.5) /* ArmorModVsFire */
+     , (24895,  18,       2) /* ArmorModVsAcid */
+     , (24895,  19,     1.6) /* ArmorModVsElectric */
+     , (24895, 110,       1) /* BulkMod */
+     , (24895, 111,     1.5) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24895,   1, 'Greater Olthoi Girth') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24895,   1,   33554647) /* Setup */
+     , (24895,   3,  536870932) /* SoundTable */
+     , (24895,   6,   67108990) /* PaletteBase */
+     , (24895,   7,  268436655) /* ClothingBase */
+     , (24895,   8,  100674600) /* Icon */
+     , (24895,  22,  872415275) /* PhysicsEffectTable */
+     , (24895,  36,  234881046) /* MutateFilter */
+     , (24895,  46,  939524130) /* TsysMutationFilter */;

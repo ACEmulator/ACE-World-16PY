@@ -1,35 +1,32 @@
-/* Weenie - The Recovered Temple (28541) */
-DELETE FROM weenie WHERE class_Id = 28541;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28541, 'directionsrecoveredtemple', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28541, 001 /* NAME_STRING */, 'The Recovered Temple');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28541, 001 /* SETUP_DID */, 33554773)
-     , (28541, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28541, 008 /* ICON_DID */, 100675747)
-     , (28541, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28541', 'directionsrecoveredtemple', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28541, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28541, 005 /* ENCUMB_VAL_INT */, 25)
-     , (28541, 008 /* MASS_INT */, 5)
-     , (28541, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28541, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28541, 019 /* VALUE_INT */, 5)
-     , (28541, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28541, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (28541,   1,       8192) /* ItemType - Writable */
+     , (28541,   5,         25) /* EncumbranceVal */
+     , (28541,   8,          5) /* Mass */
+     , (28541,   9,          0) /* ValidLocations - None */
+     , (28541,  16,          8) /* ItemUseable - Contained */
+     , (28541,  19,          5) /* Value */
+     , (28541,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28541, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (28541,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28541,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28541,   1, 'The Recovered Temple') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28541,   1,   33554773) /* Setup */
+     , (28541,   3,  536870932) /* SoundTable */
+     , (28541,   8,  100675747) /* Icon */
+     , (28541,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28541, 1, 1000) /* Book Data */;
+VALUES (28541, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28541, 0, 4294967295, 'An Adventurer', 'prewritten', False, '
@@ -37,4 +34,3 @@ When I first heard of the Recovered Temple, I expected to find a holy place or s
 
 The "recovered" temple can be found a bit west of town, near 6.5N 1.7W.  Heed my warning:  If you enter unprepared, you might find yourself looking to "recover" your corpse!
 ');
-

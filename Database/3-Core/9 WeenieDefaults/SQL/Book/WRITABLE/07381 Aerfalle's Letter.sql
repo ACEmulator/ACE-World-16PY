@@ -1,37 +1,34 @@
-/* Weenie - Aerfalle's Letter (7381) */
-DELETE FROM weenie WHERE class_Id = 7381;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7381, 'letteraerfalletranslated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7381, 001 /* NAME_STRING */, 'Aerfalle''s Letter')
-     , (7381, 015 /* SHORT_DESC_STRING */, 'A letter.')
-     , (7381, 016 /* LONG_DESC_STRING */, 'A letter written by the undead named Aerfalle, on Aerlinthe Island, intended for Rytheran in the Mage Academy.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7381, 001 /* SETUP_DID */, 33554771)
-     , (7381, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7381, 008 /* ICON_DID */, 100668117)
-     , (7381, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7381', 'letteraerfalletranslated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7381, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (7381, 005 /* ENCUMB_VAL_INT */, 160)
-     , (7381, 008 /* MASS_INT */, 200)
-     , (7381, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7381, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (7381, 019 /* VALUE_INT */, 90)
-     , (7381, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7381, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (7381,   1,       8192) /* ItemType - Writable */
+     , (7381,   5,        160) /* EncumbranceVal */
+     , (7381,   8,        200) /* Mass */
+     , (7381,   9,          0) /* ValidLocations - None */
+     , (7381,  16,          8) /* ItemUseable - Contained */
+     , (7381,  19,         90) /* Value */
+     , (7381,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7381, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (7381,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7381,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7381,   1, 'Aerfalle''s Letter') /* Name */
+     , (7381,  15, 'A letter.') /* ShortDesc */
+     , (7381,  16, 'A letter written by the undead named Aerfalle, on Aerlinthe Island, intended for Rytheran in the Mage Academy.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7381,   1,   33554771) /* Setup */
+     , (7381,   3,  536870932) /* SoundTable */
+     , (7381,   8,  100668117) /* Icon */
+     , (7381,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (7381, 28, 1000) /* Book Data */;
+VALUES (7381, 28, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (7381, 0, 4294967295, 'Kuyiza bint Zayi', 'prewritten', False, 'Translator''s note: There is a word early in this text which defies easy conversion from Dericostian to Roulean. This I have rendered as "kemeroi," a direct phonetic equivalent of the original word.
@@ -130,4 +127,3 @@ Write soon, dear heart. I miss you, and I have need of your advice and assistanc
 
                                       ~ Aerfalle
 ');
-

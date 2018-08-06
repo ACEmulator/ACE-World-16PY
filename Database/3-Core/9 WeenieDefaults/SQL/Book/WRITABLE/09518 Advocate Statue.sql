@@ -1,48 +1,45 @@
-/* Weenie - Advocate Statue (9518) */
-DELETE FROM weenie WHERE class_Id = 9518;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9518, 'statueadvocate', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9518, 001 /* NAME_STRING */, 'Advocate Statue')
-     , (9518, 014 /* USE_STRING */, 'Use this statue to read its inscription.')
-     , (9518, 015 /* SHORT_DESC_STRING */, 'A memorial to those who served.')
-     , (9518, 016 /* LONG_DESC_STRING */, 'A memorial to those who served.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9518, 001 /* SETUP_DID */, 33557019)
-     , (9518, 002 /* MOTION_TABLE_DID */, 150995124)
-     , (9518, 003 /* SOUND_TABLE_DID */, 536871026)
-     , (9518, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (9518, 007 /* CLOTHINGBASE_DID */, 268436176)
-     , (9518, 008 /* ICON_DID */, 100671531)
-     , (9518, 019 /* ACTIVATION_ANIMATION_DID */, 268435537 /* Motion_Twitch1 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9518', 'statueadvocate', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9518, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (9518, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (9518, 005 /* ENCUMB_VAL_INT */, 4000)
-     , (9518, 008 /* MASS_INT */, 2500)
-     , (9518, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (9518, 019 /* VALUE_INT */, 0)
-     , (9518, 083 /* ACTIVATION_RESPONSE_INT */, 4 /* Animate_ActivationResponse */)
-     , (9518, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9518, 119 /* ACTIVE_INT */, 1);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9518, 011 /* RESET_INTERVAL_FLOAT */, 3)
-     , (9518, 012 /* SHADE_FLOAT */, 0.1)
-     , (9518, 039 /* DEFAULT_SCALE_FLOAT */, 5)
-     , (9518, 054 /* USE_RADIUS_FLOAT */, 22.5);
+VALUES (9518,   1,       8192) /* ItemType - Writable */
+     , (9518,   3,          8) /* PaletteTemplate - Green */
+     , (9518,   5,       4000) /* EncumbranceVal */
+     , (9518,   8,       2500) /* Mass */
+     , (9518,  16,         32) /* ItemUseable - Remote */
+     , (9518,  19,          0) /* Value */
+     , (9518,  83,          4) /* ActivationResponse - Animate */
+     , (9518,  93,       1040) /* PhysicsState */
+     , (9518, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9518, 001 /* STUCK_BOOL */, True)
-     , (9518, 013 /* ETHEREAL_BOOL */, False)
-     , (9518, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (9518,   1, True ) /* Stuck */
+     , (9518,  13, False) /* Ethereal */
+     , (9518,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9518,  11,       3) /* ResetInterval */
+     , (9518,  12,     0.1) /* Shade */
+     , (9518,  39,       5) /* DefaultScale */
+     , (9518,  54,    22.5) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9518,   1, 'Advocate Statue') /* Name */
+     , (9518,  14, 'Use this statue to read its inscription.') /* Use */
+     , (9518,  15, 'A memorial to those who served.') /* ShortDesc */
+     , (9518,  16, 'A memorial to those who served.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9518,   1,   33557019) /* Setup */
+     , (9518,   2,  150995124) /* MotionTable */
+     , (9518,   3,  536871026) /* SoundTable */
+     , (9518,   6,   67108990) /* PaletteBase */
+     , (9518,   7,  268436176) /* ClothingBase */
+     , (9518,   8,  100671531) /* Icon */
+     , (9518,  19,  268435537) /* ActivationAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (9518, 1, 1000) /* Book Data */;
+VALUES (9518, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (9518, 0, 4294967295, '', 'prewritten', False, '
@@ -57,4 +54,3 @@ In memory of those who served the peoples of Ispar in their time of need. A torc
 
                You shall not be forgotten.
 ');
-

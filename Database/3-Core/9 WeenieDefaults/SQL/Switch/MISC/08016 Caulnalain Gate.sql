@@ -1,34 +1,30 @@
-/* Weenie - Caulnalain Gate (8016) */
-DELETE FROM weenie WHERE class_Id = 8016;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8016, 'gatecaulnalain', 26 /* Switch_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8016, 001 /* NAME_STRING */, 'Caulnalain Gate')
-     , (8016, 014 /* USE_STRING */, 'Use the Caulnalain Key on this gate.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8016, 001 /* SETUP_DID */, 33556740)
-     , (8016, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8016, 008 /* ICON_DID */, 100670964)
-     , (8016, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8016', 'gatecaulnalain', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8016, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (8016, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (8016, 008 /* MASS_INT */, 3000)
-     , (8016, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (8016, 019 /* VALUE_INT */, 200)
-     , (8016, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8016, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8016, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (8016, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (8016,   1,        128) /* ItemType - Misc */
+     , (8016,   5,       6000) /* EncumbranceVal */
+     , (8016,   8,       3000) /* Mass */
+     , (8016,  16,         48) /* ItemUseable - ViewedRemote */
+     , (8016,  19,        200) /* Value */
+     , (8016,  93,       1048) /* PhysicsState */
+     , (8016,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8016, 001 /* STUCK_BOOL */, True)
-     , (8016, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (8016, 013 /* ETHEREAL_BOOL */, False);
+VALUES (8016,   1, True ) /* Stuck */
+     , (8016,  12, True ) /* ReportCollisions */
+     , (8016,  13, False) /* Ethereal */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8016,  39,       1) /* DefaultScale */
+     , (8016,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8016,   1, 'Caulnalain Gate') /* Name */
+     , (8016,  14, 'Use the Caulnalain Key on this gate.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8016,   1,   33556740) /* Setup */
+     , (8016,   3,  536870932) /* SoundTable */
+     , (8016,   8,  100670964) /* Icon */
+     , (8016,  22,  872415275) /* PhysicsEffectTable */;

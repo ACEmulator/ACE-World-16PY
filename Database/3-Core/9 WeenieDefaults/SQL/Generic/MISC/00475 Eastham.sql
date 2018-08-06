@@ -1,37 +1,33 @@
-/* Weenie - Eastham (475) */
-DELETE FROM weenie WHERE class_Id = 475;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (475, 'sign-eastham', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (475, 001 /* NAME_STRING */, 'Eastham')
-     , (475, 016 /* LONG_DESC_STRING */, 'Rest ye, weary traveler, and welcome.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (475, 001 /* SETUP_DID */, 33556205)
-     , (475, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('475', 'sign-eastham', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (475, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (475, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (475, 008 /* MASS_INT */, 1800)
-     , (475, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (475, 019 /* VALUE_INT */, 125)
-     , (475, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (475, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (475, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (475, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (475, 043 /* GENERATOR_RADIUS_FLOAT */, 1);
+VALUES (475,   1,        128) /* ItemType - Misc */
+     , (475,   5,       9000) /* EncumbranceVal */
+     , (475,   8,       1800) /* Mass */
+     , (475,  16,          1) /* ItemUseable - No */
+     , (475,  19,        125) /* Value */
+     , (475,  81,          1) /* MaxGeneratedObjects */
+     , (475,  82,          1) /* InitGeneratedObjects */
+     , (475,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (475, 001 /* STUCK_BOOL */, True)
-     , (475, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (475, 013 /* ETHEREAL_BOOL */, False)
-     , (475, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (475,   1, True ) /* Stuck */
+     , (475,  12, True ) /* ReportCollisions */
+     , (475,  13, False) /* Ethereal */
+     , (475,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (475,  41,      60) /* RegenerationInterval */
+     , (475,  43,       1) /* GeneratorRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (475,   1, 'Eastham') /* Name */
+     , (475,  16, 'Rest ye, weary traveler, and welcome.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (475,   1,   33556205) /* Setup */
+     , (475,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (475, 1, 5772, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Town Crier (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
-
+VALUES (475, 1, 5772, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

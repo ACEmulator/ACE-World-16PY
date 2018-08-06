@@ -1,41 +1,37 @@
-/* Weenie - Gem of Perfect Speed (29558) */
-DELETE FROM weenie WHERE class_Id = 29558;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29558, 'gemnoblequickness', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29558, 001 /* NAME_STRING */, 'Gem of Perfect Speed')
-     , (29558, 014 /* USE_STRING */, 'Combine with a piece of Noble Armor to infuse the armor with the Perfect Speed spell.')
-     , (29558, 016 /* LONG_DESC_STRING */, 'This gem can be placed into a piece of Noble Armor. If so, it will imbue the armor with a very potent Quickness Spell that will affect the wearer. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29558, 001 /* SETUP_DID */, 33554809)
-     , (29558, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29558, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (29558, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (29558, 008 /* ICON_DID */, 100677135)
-     , (29558, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29558', 'gemnoblequickness', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29558, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (29558, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
-     , (29558, 005 /* ENCUMB_VAL_INT */, 10)
-     , (29558, 008 /* MASS_INT */, 10)
-     , (29558, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29558, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (29558, 012 /* STACK_SIZE_INT */, 1)
-     , (29558, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (29558, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (29558, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (29558, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (29558, 019 /* VALUE_INT */, 0)
-     , (29558, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29558, 094 /* TARGET_TYPE_INT */, 2050 /* TYPE_ARMOR, TYPE_GEM */)
-     , (29558, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29558, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (29558,   1,       2048) /* ItemType - Gem */
+     , (29558,   3,         83) /* PaletteTemplate - Amber */
+     , (29558,   5,         10) /* EncumbranceVal */
+     , (29558,   8,         10) /* Mass */
+     , (29558,   9,          0) /* ValidLocations - None */
+     , (29558,  11,          1) /* MaxStackSize */
+     , (29558,  12,          1) /* StackSize */
+     , (29558,  13,         10) /* StackUnitEncumbrance */
+     , (29558,  14,         10) /* StackUnitMass */
+     , (29558,  15,          0) /* StackUnitValue */
+     , (29558,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (29558,  19,          0) /* Value */
+     , (29558,  93,       1044) /* PhysicsState */
+     , (29558,  94,       2050) /* TargetType */
+     , (29558, 150,        103) /* HookPlacement - Hook */
+     , (29558, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29558, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29558, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (29558,  22, True ) /* Inscribable */
+     , (29558,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29558,   1, 'Gem of Perfect Speed') /* Name */
+     , (29558,  14, 'Combine with a piece of Noble Armor to infuse the armor with the Perfect Speed spell.') /* Use */
+     , (29558,  16, 'This gem can be placed into a piece of Noble Armor. If so, it will imbue the armor with a very potent Quickness Spell that will affect the wearer. ') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29558,   1,   33554809) /* Setup */
+     , (29558,   3,  536870932) /* SoundTable */
+     , (29558,   6,   67111919) /* PaletteBase */
+     , (29558,   7,  268435723) /* ClothingBase */
+     , (29558,   8,  100677135) /* Icon */
+     , (29558,  22,  872415275) /* PhysicsEffectTable */;

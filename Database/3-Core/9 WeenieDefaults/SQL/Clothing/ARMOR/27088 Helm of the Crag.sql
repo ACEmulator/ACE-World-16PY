@@ -1,66 +1,62 @@
-/* Weenie - Helm of the Crag (27088) */
-DELETE FROM weenie WHERE class_Id = 27088;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27088, 'helmcragnew', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27088, 001 /* NAME_STRING */, 'Helm of the Crag')
-     , (27088, 015 /* SHORT_DESC_STRING */, 'A large horned helm.')
-     , (27088, 016 /* LONG_DESC_STRING */, 'A large horned helm with the horns of a large mattekar.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27088, 001 /* SETUP_DID */, 33557002)
-     , (27088, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27088, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (27088, 007 /* CLOTHINGBASE_DID */, 268436151)
-     , (27088, 008 /* ICON_DID */, 100667349)
-     , (27088, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27088', 'helmcragnew', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27088, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (27088, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (27088, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (27088, 005 /* ENCUMB_VAL_INT */, 900)
-     , (27088, 008 /* MASS_INT */, 300)
-     , (27088, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (27088, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27088, 019 /* VALUE_INT */, 2000)
-     , (27088, 027 /* ARMOR_TYPE_INT */, 32)
-     , (27088, 028 /* ARMOR_LEVEL_INT */, 300)
-     , (27088, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27088, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (27088, 107 /* ITEM_CUR_MANA_INT */, 200)
-     , (27088, 108 /* ITEM_MAX_MANA_INT */, 200)
-     , (27088, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27088, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27088, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (27088, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (27088, 160 /* WIELD_DIFFICULTY_INT */, 40);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27088, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (27088, 012 /* SHADE_FLOAT */, 0.25)
-     , (27088, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (27088, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.7)
-     , (27088, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.1)
-     , (27088, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.7)
-     , (27088, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.7)
-     , (27088, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.7)
-     , (27088, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.7)
-     , (27088, 110 /* BULK_MOD_FLOAT */, 1)
-     , (27088, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (27088,   1,          2) /* ItemType - Armor */
+     , (27088,   3,          2) /* PaletteTemplate - Blue */
+     , (27088,   4,      16384) /* ClothingPriority - Head */
+     , (27088,   5,        900) /* EncumbranceVal */
+     , (27088,   8,        300) /* Mass */
+     , (27088,   9,          1) /* ValidLocations - HeadWear */
+     , (27088,  16,          1) /* ItemUseable - No */
+     , (27088,  19,       2000) /* Value */
+     , (27088,  27,         32) /* ArmorType */
+     , (27088,  28,        300) /* ArmorLevel */
+     , (27088,  93,       1044) /* PhysicsState */
+     , (27088, 106,        200) /* ItemSpellcraft */
+     , (27088, 107,        200) /* ItemCurMana */
+     , (27088, 108,        200) /* ItemMaxMana */
+     , (27088, 150,        103) /* HookPlacement - Hook */
+     , (27088, 151,          2) /* HookType - Wall */
+     , (27088, 158,          7) /* WieldRequirements - Level */
+     , (27088, 159,          1) /* WieldSkilltype - Axe */
+     , (27088, 160,         40) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27088, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27088, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (27088, 100 /* DYABLE_BOOL */, True);
+VALUES (27088,  22, True ) /* Inscribable */
+     , (27088,  23, True ) /* DestroyOnSell */
+     , (27088, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27088,   5,   -0.05) /* ManaRate */
+     , (27088,  12,    0.25) /* Shade */
+     , (27088,  13,       1) /* ArmorModVsSlash */
+     , (27088,  14,     0.7) /* ArmorModVsPierce */
+     , (27088,  15,     1.1) /* ArmorModVsBludgeon */
+     , (27088,  16,     0.7) /* ArmorModVsCold */
+     , (27088,  17,     0.7) /* ArmorModVsFire */
+     , (27088,  18,     0.7) /* ArmorModVsAcid */
+     , (27088,  19,     0.7) /* ArmorModVsElectric */
+     , (27088, 110,       1) /* BulkMod */
+     , (27088, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27088,   1, 'Helm of the Crag') /* Name */
+     , (27088,  15, 'A large horned helm.') /* ShortDesc */
+     , (27088,  16, 'A large horned helm with the horns of a large mattekar.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27088,   1,   33557002) /* Setup */
+     , (27088,   3,  536870932) /* SoundTable */
+     , (27088,   6,   67108990) /* PaletteBase */
+     , (27088,   7,  268436151) /* ClothingBase */
+     , (27088,   8,  100667349) /* Icon */
+     , (27088,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27088, 1538, 2) /* LightningBane4_SpellID */
-     , (27088, 1027, 2) /* BludgeonProtectionOther4_SpellID */
-     , (27088, 1550, 2) /* FlameBane4_SpellID */
-     , (27088, 1496, 2) /* AcidBane4_SpellID */
-     , (27088, 883, 2) /* HealingMasteryOther4_SpellID */
-     , (27088, 1526, 2) /* FrostBane4_SpellID */;
-
+VALUES (27088,   883,      2)  /* Healing Mastery Other IV */
+     , (27088,  1027,      2)  /* Bludgeoning Protection Other IV */
+     , (27088,  1496,      2)  /* Acid Bane IV */
+     , (27088,  1526,      2)  /* Frost Bane IV */
+     , (27088,  1538,      2)  /* Lightning Bane IV */
+     , (27088,  1550,      2)  /* Flame Bane IV */;

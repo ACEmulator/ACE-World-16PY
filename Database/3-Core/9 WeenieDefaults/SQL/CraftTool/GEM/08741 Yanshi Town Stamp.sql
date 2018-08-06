@@ -1,42 +1,38 @@
-/* Weenie - Yanshi Town Stamp (8741) */
-DELETE FROM weenie WHERE class_Id = 8741;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8741, 'stampyanshinewbiequest', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8741, 001 /* NAME_STRING */, 'Yanshi Town Stamp')
-     , (8741, 014 /* USE_STRING */, 'Combine with Red or Gold Letters to create Stamped Red or Gold Letters')
-     , (8741, 016 /* LONG_DESC_STRING */, 'A town stamp of Yanshi to be used on any Red or Gold Letters you come across.')
-     , (8741, 033 /* QUEST_STRING */, 'NewbieQuestStampYanshi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8741, 001 /* SETUP_DID */, 33556922)
-     , (8741, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8741, 008 /* ICON_DID */, 100671218)
-     , (8741, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8741', 'stampyanshinewbiequest', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8741, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8741, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8741, 008 /* MASS_INT */, 40)
-     , (8741, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8741, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (8741, 012 /* STACK_SIZE_INT */, 1)
-     , (8741, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8741, 014 /* STACK_UNIT_MASS_INT */, 40)
-     , (8741, 015 /* STACK_UNIT_VALUE_INT */, 1)
-     , (8741, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (8741, 019 /* VALUE_INT */, 1)
-     , (8741, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8741, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8741, 094 /* TARGET_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8741, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8741, 039 /* DEFAULT_SCALE_FLOAT */, 3);
+VALUES (8741,   1,       2048) /* ItemType - Gem */
+     , (8741,   5,         10) /* EncumbranceVal */
+     , (8741,   8,         40) /* Mass */
+     , (8741,   9,          0) /* ValidLocations - None */
+     , (8741,  11,          1) /* MaxStackSize */
+     , (8741,  12,          1) /* StackSize */
+     , (8741,  13,         10) /* StackUnitEncumbrance */
+     , (8741,  14,         40) /* StackUnitMass */
+     , (8741,  15,          1) /* StackUnitValue */
+     , (8741,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (8741,  19,          1) /* Value */
+     , (8741,  33,          1) /* Bonded - Bonded */
+     , (8741,  93,       1044) /* PhysicsState */
+     , (8741,  94,       8192) /* TargetType - Writable */
+     , (8741, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8741, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8741, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8741,  22, True ) /* Inscribable */
+     , (8741,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8741,  39,       3) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8741,   1, 'Yanshi Town Stamp') /* Name */
+     , (8741,  14, 'Combine with Red or Gold Letters to create Stamped Red or Gold Letters') /* Use */
+     , (8741,  16, 'A town stamp of Yanshi to be used on any Red or Gold Letters you come across.') /* LongDesc */
+     , (8741,  33, 'NewbieQuestStampYanshi') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8741,   1,   33556922) /* Setup */
+     , (8741,   3,  536870932) /* SoundTable */
+     , (8741,   8,  100671218) /* Icon */
+     , (8741,  22,  872415275) /* PhysicsEffectTable */;

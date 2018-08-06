@@ -1,28 +1,24 @@
-/* Weenie - Lin: 2 miles (4496) */
-DELETE FROM weenie WHERE class_Id = 4496;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4496, 'lin2milesign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4496, 001 /* NAME_STRING */, 'Lin: 2 miles')
-     , (4496, 016 /* LONG_DESC_STRING */, 'The forest town of Lin: 2 miles.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4496, 001 /* SETUP_DID */, 33555986)
-     , (4496, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4496', 'lin2milesign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4496, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4496, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4496, 008 /* MASS_INT */, 1800)
-     , (4496, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4496, 019 /* VALUE_INT */, 125)
-     , (4496, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4496,   1,        128) /* ItemType - Misc */
+     , (4496,   5,       9000) /* EncumbranceVal */
+     , (4496,   8,       1800) /* Mass */
+     , (4496,  16,          1) /* ItemUseable - No */
+     , (4496,  19,        125) /* Value */
+     , (4496,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4496, 001 /* STUCK_BOOL */, True)
-     , (4496, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4496, 013 /* ETHEREAL_BOOL */, False)
-     , (4496, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4496,   1, True ) /* Stuck */
+     , (4496,  12, True ) /* ReportCollisions */
+     , (4496,  13, False) /* Ethereal */
+     , (4496,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4496,   1, 'Lin: 2 miles') /* Name */
+     , (4496,  16, 'The forest town of Lin: 2 miles.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4496,   1,   33555986) /* Setup */
+     , (4496,   8,  100668115) /* Icon */;

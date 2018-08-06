@@ -1,38 +1,35 @@
-/* Weenie - Old Lascare's Journal (29509) */
-DELETE FROM weenie WHERE class_Id = 29509;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29509, 'bookjournalredbulllascare', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29509, 001 /* NAME_STRING */, 'Old Lascare''s Journal')
-     , (29509, 015 /* SHORT_DESC_STRING */, 'A book.')
-     , (29509, 016 /* LONG_DESC_STRING */, 'A book written by Yuan Hanzu regarding composite bows. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29509, 001 /* SETUP_DID */, 33554771)
-     , (29509, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29509, 008 /* ICON_DID */, 100668117)
-     , (29509, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29509', 'bookjournalredbulllascare', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29509, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (29509, 005 /* ENCUMB_VAL_INT */, 160)
-     , (29509, 008 /* MASS_INT */, 230)
-     , (29509, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29509, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (29509, 019 /* VALUE_INT */, 0)
-     , (29509, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29509, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (29509, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (29509,   1,       8192) /* ItemType - Writable */
+     , (29509,   5,        160) /* EncumbranceVal */
+     , (29509,   8,        230) /* Mass */
+     , (29509,   9,          0) /* ValidLocations - None */
+     , (29509,  16,          8) /* ItemUseable - Contained */
+     , (29509,  19,          0) /* Value */
+     , (29509,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29509, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (29509,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29509,  39,    1.22) /* DefaultScale */
+     , (29509,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29509,   1, 'Old Lascare''s Journal') /* Name */
+     , (29509,  15, 'A book.') /* ShortDesc */
+     , (29509,  16, 'A book written by Yuan Hanzu regarding composite bows. ') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29509,   1,   33554771) /* Setup */
+     , (29509,   3,  536870932) /* SoundTable */
+     , (29509,   8,  100668117) /* Icon */
+     , (29509,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (29509, 6, 1000) /* Book Data */;
+VALUES (29509, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (29509, 0, 4294967295, '', 'prewritten', False, 'Yuan Hanzu
@@ -53,4 +50,3 @@ For too long in Dereth, archers have had to settle for inferior wooden bows. Mak
 ')
      , (29509, 5, 4294967295, '', 'prewritten', False, 'Obviously one has to attach the stave to the stock before one strings up the crossbow. Barnar also says that the bone handle aids in his aiming, but is certainly not integral to a functional crossbow. Hopefully this knowledge will help you to make your own composite bow. It gives one a rare sense of accomplishment to wield a bow assembled with one''s own hands, a bow that descends from an ancient and venerable Isparian art. Happy hunting!
 ');
-

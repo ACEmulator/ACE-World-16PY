@@ -1,38 +1,34 @@
-/* Weenie - Eggnog (14765) */
-DELETE FROM weenie WHERE class_Id = 14765;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14765, 'eggnog', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14765, 001 /* NAME_STRING */, 'Eggnog')
-     , (14765, 014 /* USE_STRING */, 'Use this item to drink it.')
-     , (14765, 015 /* SHORT_DESC_STRING */, 'A rich milky drink.')
-     , (14765, 020 /* PLURAL_NAME_STRING */, 'Cups of Eggnog');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14765, 001 /* SETUP_DID */, 33554662)
-     , (14765, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14765, 008 /* ICON_DID */, 100672551)
-     , (14765, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (14765, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14765', 'eggnog', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14765, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (14765, 005 /* ENCUMB_VAL_INT */, 50)
-     , (14765, 008 /* MASS_INT */, 25)
-     , (14765, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14765, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (14765, 012 /* STACK_SIZE_INT */, 1)
-     , (14765, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (14765, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (14765, 015 /* STACK_UNIT_VALUE_INT */, 40)
-     , (14765, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (14765, 019 /* VALUE_INT */, 40)
-     , (14765, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (14765, 090 /* BOOST_VALUE_INT */, 50)
-     , (14765, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14765,   1,         32) /* ItemType - Food */
+     , (14765,   5,         50) /* EncumbranceVal */
+     , (14765,   8,         25) /* Mass */
+     , (14765,   9,          0) /* ValidLocations - None */
+     , (14765,  11,        100) /* MaxStackSize */
+     , (14765,  12,          1) /* StackSize */
+     , (14765,  13,         50) /* StackUnitEncumbrance */
+     , (14765,  14,         25) /* StackUnitMass */
+     , (14765,  15,         40) /* StackUnitValue */
+     , (14765,  16,          8) /* ItemUseable - Contained */
+     , (14765,  19,         40) /* Value */
+     , (14765,  89,          4) /* BoosterEnum - Stamina */
+     , (14765,  90,         50) /* BoostValue */
+     , (14765,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14765, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14765,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14765,   1, 'Eggnog') /* Name */
+     , (14765,  14, 'Use this item to drink it.') /* Use */
+     , (14765,  15, 'A rich milky drink.') /* ShortDesc */
+     , (14765,  20, 'Cups of Eggnog') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14765,   1,   33554662) /* Setup */
+     , (14765,   3,  536870932) /* SoundTable */
+     , (14765,   8,  100672551) /* Icon */
+     , (14765,  22,  872415275) /* PhysicsEffectTable */
+     , (14765,  23,         65) /* UseSound - Drink1 */;

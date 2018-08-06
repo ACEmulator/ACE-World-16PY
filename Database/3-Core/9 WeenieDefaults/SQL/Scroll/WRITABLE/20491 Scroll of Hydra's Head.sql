@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Hydra's Head (20491) */
-DELETE FROM weenie WHERE class_Id = 20491;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20491, 'scrollregenerateother7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20491, 001 /* NAME_STRING */, 'Scroll of Hydra''s Head')
-     , (20491, 015 /* SHORT_DESC_STRING */, 'When learned, this spell increase target''s natural healing rate by 115%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20491, 001 /* SETUP_DID */, 33554826)
-     , (20491, 008 /* ICON_DID */, 100676941)
-     , (20491, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20491, 028 /* SPELL_DID */, 2184 /* RegenerationOther7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20491', 'scrollregenerateother7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20491, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20491, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20491, 008 /* MASS_INT */, 90)
-     , (20491, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20491, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20491, 019 /* VALUE_INT */, 2000)
-     , (20491, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20491, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20491,   1,       8192) /* ItemType - Writable */
+     , (20491,   5,         30) /* EncumbranceVal */
+     , (20491,   8,         90) /* Mass */
+     , (20491,   9,          0) /* ValidLocations - None */
+     , (20491,  16,          8) /* ItemUseable - Contained */
+     , (20491,  19,       2000) /* Value */
+     , (20491,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20491, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20491, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20491,  22, True ) /* Inscribable */
+     , (20491,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20491,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20491,   1, 'Scroll of Hydra''s Head') /* Name */
+     , (20491,  15, 'When learned, this spell increase target''s natural healing rate by 115%.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20491,   1,   33554826) /* Setup */
+     , (20491,   8,  100676941) /* Icon */
+     , (20491,  22,  872415275) /* PhysicsEffectTable */
+     , (20491,  28,       2184) /* Spell - Hydra's Head */;

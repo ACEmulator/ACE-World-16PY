@@ -1,37 +1,33 @@
-/* Weenie - Wrapped Bundle of Greater Acid Arrowheads (9369) */
-DELETE FROM weenie WHERE class_Id = 9369;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9369, 'wrappedarrowheadgreateracid', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9369, 001 /* NAME_STRING */, 'Wrapped Bundle of Greater Acid Arrowheads')
-     , (9369, 014 /* USE_STRING */, 'This item is used in fletching.')
-     , (9369, 020 /* PLURAL_NAME_STRING */, 'Wrapped Bundles of Greater Acid Arrowheads');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9369, 001 /* SETUP_DID */, 33557030)
-     , (9369, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9369, 008 /* ICON_DID */, 100671599)
-     , (9369, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9369', 'wrappedarrowheadgreateracid', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9369, 001 /* ITEM_TYPE_INT */, 134217728 /* TYPE_CRAFT_FLETCHING_INTERMEDIATE */)
-     , (9369, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9369, 008 /* MASS_INT */, 10)
-     , (9369, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9369, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (9369, 012 /* STACK_SIZE_INT */, 1)
-     , (9369, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (9369, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (9369, 015 /* STACK_UNIT_VALUE_INT */, 2500)
-     , (9369, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (9369, 019 /* VALUE_INT */, 2500)
-     , (9369, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9369, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9369, 094 /* TARGET_TYPE_INT */, 134217728 /* TYPE_CRAFT_FLETCHING_INTERMEDIATE */);
+VALUES (9369,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
+     , (9369,   5,         10) /* EncumbranceVal */
+     , (9369,   8,         10) /* Mass */
+     , (9369,   9,          0) /* ValidLocations - None */
+     , (9369,  11,        100) /* MaxStackSize */
+     , (9369,  12,          1) /* StackSize */
+     , (9369,  13,         10) /* StackUnitEncumbrance */
+     , (9369,  14,         10) /* StackUnitMass */
+     , (9369,  15,       2500) /* StackUnitValue */
+     , (9369,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (9369,  19,       2500) /* Value */
+     , (9369,  33,          1) /* Bonded - Bonded */
+     , (9369,  93,       1044) /* PhysicsState */
+     , (9369,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9369, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (9369, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9369,  23, True ) /* DestroyOnSell */
+     , (9369,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9369,   1, 'Wrapped Bundle of Greater Acid Arrowheads') /* Name */
+     , (9369,  14, 'This item is used in fletching.') /* Use */
+     , (9369,  20, 'Wrapped Bundles of Greater Acid Arrowheads') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9369,   1,   33557030) /* Setup */
+     , (9369,   3,  536870932) /* SoundTable */
+     , (9369,   8,  100671599) /* Icon */
+     , (9369,  22,  872415275) /* PhysicsEffectTable */;

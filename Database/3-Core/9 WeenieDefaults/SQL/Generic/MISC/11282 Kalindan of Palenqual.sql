@@ -1,36 +1,32 @@
-/* Weenie - Kalindan of Palenqual (11282) */
-DELETE FROM weenie WHERE class_Id = 11282;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11282, 'xbow13xmenhir-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11282, 001 /* NAME_STRING */, 'Kalindan of Palenqual')
-     , (11282, 015 /* SHORT_DESC_STRING */, 'The Kalindan of Palenqual.')
-     , (11282, 016 /* LONG_DESC_STRING */, 'The Kalindan of Palenqual, an Aun Tumerok relic. This missile weapon was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes must be added to this weapon in order to use it. The Timaru and Siraluun Totems have already been added; there is space for one more.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11282, 001 /* SETUP_DID */, 33557238)
-     , (11282, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11282, 008 /* ICON_DID */, 100671872)
-     , (11282, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11282', 'xbow13xmenhir-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11282, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11282, 005 /* ENCUMB_VAL_INT */, 200)
-     , (11282, 008 /* MASS_INT */, 200)
-     , (11282, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11282, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11282, 019 /* VALUE_INT */, 0)
-     , (11282, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11282, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11282, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11282, 039 /* DEFAULT_SCALE_FLOAT */, 0.95);
+VALUES (11282,   1,        128) /* ItemType - Misc */
+     , (11282,   5,        200) /* EncumbranceVal */
+     , (11282,   8,        200) /* Mass */
+     , (11282,   9,          0) /* ValidLocations - None */
+     , (11282,  16,          1) /* ItemUseable - No */
+     , (11282,  19,          0) /* Value */
+     , (11282,  33,          1) /* Bonded - Bonded */
+     , (11282,  93,       1044) /* PhysicsState */
+     , (11282, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11282, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11282, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (11282, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (11282,  22, True ) /* Inscribable */
+     , (11282,  23, True ) /* DestroyOnSell */
+     , (11282,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11282,  39,    0.95) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11282,   1, 'Kalindan of Palenqual') /* Name */
+     , (11282,  15, 'The Kalindan of Palenqual.') /* ShortDesc */
+     , (11282,  16, 'The Kalindan of Palenqual, an Aun Tumerok relic. This missile weapon was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes must be added to this weapon in order to use it. The Timaru and Siraluun Totems have already been added; there is space for one more.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11282,   1,   33557238) /* Setup */
+     , (11282,   3,  536870932) /* SoundTable */
+     , (11282,   8,  100671872) /* Icon */
+     , (11282,  22,  872415275) /* PhysicsEffectTable */;

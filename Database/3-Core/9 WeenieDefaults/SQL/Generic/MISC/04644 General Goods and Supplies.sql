@@ -1,31 +1,27 @@
-/* Weenie - General Goods and Supplies (4644) */
-DELETE FROM weenie WHERE class_Id = 4644;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4644, 'alarqasshopkeepsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4644, 001 /* NAME_STRING */, 'General Goods and Supplies')
-     , (4644, 016 /* LONG_DESC_STRING */, 'General Goods and Supplies');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4644, 001 /* SETUP_DID */, 33555909)
-     , (4644, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (4644, 007 /* CLOTHINGBASE_DID */, 268435821)
-     , (4644, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4644', 'alarqasshopkeepsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4644, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4644, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4644, 008 /* MASS_INT */, 1800)
-     , (4644, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4644, 019 /* VALUE_INT */, 125)
-     , (4644, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (4644,   1,        128) /* ItemType - Misc */
+     , (4644,   5,       9000) /* EncumbranceVal */
+     , (4644,   8,       1800) /* Mass */
+     , (4644,  16,          1) /* ItemUseable - No */
+     , (4644,  19,        125) /* Value */
+     , (4644,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4644, 001 /* STUCK_BOOL */, True)
-     , (4644, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4644, 013 /* ETHEREAL_BOOL */, False)
-     , (4644, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (4644, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4644,   1, True ) /* Stuck */
+     , (4644,  12, True ) /* ReportCollisions */
+     , (4644,  13, False) /* Ethereal */
+     , (4644,  14, False) /* GravityStatus */
+     , (4644,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4644,   1, 'General Goods and Supplies') /* Name */
+     , (4644,  16, 'General Goods and Supplies') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4644,   1,   33555909) /* Setup */
+     , (4644,   6,   67111860) /* PaletteBase */
+     , (4644,   7,  268435821) /* ClothingBase */
+     , (4644,   8,  100668115) /* Icon */;

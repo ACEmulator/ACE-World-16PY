@@ -1,65 +1,61 @@
-/* Weenie - Burun Slaying Crossbow (28990) */
-DELETE FROM weenie WHERE class_Id = 28990;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28990, 'crossbownobleburun', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28990, 001 /* NAME_STRING */, 'Burun Slaying Crossbow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28990, 001 /* SETUP_DID */, 33558922)
-     , (28990, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28990, 008 /* ICON_DID */, 100676977)
-     , (28990, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28990', 'crossbownobleburun', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28990, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (28990, 005 /* ENCUMB_VAL_INT */, 950)
-     , (28990, 008 /* MASS_INT */, 640)
-     , (28990, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (28990, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28990, 018 /* UI_EFFECTS_INT */, 16 /* UI_EFFECT_BOOST_STAMINA */)
-     , (28990, 019 /* VALUE_INT */, 6000)
-     , (28990, 044 /* DAMAGE_INT */, 0)
-     , (28990, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (28990, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (28990, 049 /* WEAPON_TIME_INT */, 120)
-     , (28990, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (28990, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (28990, 052 /* PARENT_LOCATION_INT */, 2)
-     , (28990, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (28990, 060 /* WEAPON_RANGE_INT */, 192)
-     , (28990, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28990, 106 /* ITEM_SPELLCRAFT_INT */, 275)
-     , (28990, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (28990, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (28990, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (28990, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28990, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (28990, 158 /* WIELD_REQUIREMENTS_INT */, 1 /* WIELD_REQUIRES_SKILL_WieldRequirement */)
-     , (28990, 159 /* WIELD_SKILLTYPE_INT */, 3 /* CROSSBOW_SKILL */)
-     , (28990, 160 /* WIELD_DIFFICULTY_INT */, 290)
-     , (28990, 166 /* SLAYER_CREATURE_TYPE_INT */, 75 /* Burun_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28990, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (28990, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (28990, 029 /* WEAPON_DEFENSE_FLOAT */, 1.09)
-     , (28990, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (28990, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (28990, 063 /* DAMAGE_MOD_FLOAT */, 2.8)
-     , (28990, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (28990, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 1.75)
-     , (28990, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.3);
+VALUES (28990,   1,        256) /* ItemType - MissileWeapon */
+     , (28990,   5,        950) /* EncumbranceVal */
+     , (28990,   8,        640) /* Mass */
+     , (28990,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (28990,  16,          1) /* ItemUseable - No */
+     , (28990,  18,         16) /* UiEffects - BoostStamina */
+     , (28990,  19,       6000) /* Value */
+     , (28990,  44,          0) /* Damage */
+     , (28990,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (28990,  48,          3) /* WeaponSkill - Crossbow */
+     , (28990,  49,        120) /* WeaponTime */
+     , (28990,  50,          2) /* AmmoType - Bolt */
+     , (28990,  51,          2) /* CombatUse - Missle */
+     , (28990,  52,          2) /* ParentLocation */
+     , (28990,  53,          3) /* PlacementPosition */
+     , (28990,  60,        192) /* WeaponRange */
+     , (28990,  93,       1044) /* PhysicsState */
+     , (28990, 106,        275) /* ItemSpellcraft */
+     , (28990, 107,        800) /* ItemCurMana */
+     , (28990, 108,        800) /* ItemMaxMana */
+     , (28990, 109,        150) /* ItemDifficulty */
+     , (28990, 150,        103) /* HookPlacement - Hook */
+     , (28990, 151,          2) /* HookType - Wall */
+     , (28990, 158,          1) /* WieldRequirements - Skill */
+     , (28990, 159,          3) /* WieldSkilltype - Crossbow */
+     , (28990, 160,        290) /* WieldDifficulty */
+     , (28990, 166,         75) /* SlayerCreatureType - Burun */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28990, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28990,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28990,   5, -0.0333) /* ManaRate */
+     , (28990,  26,    27.3) /* MaximumVelocity */
+     , (28990,  29,    1.09) /* WeaponDefense */
+     , (28990,  39,       1) /* DefaultScale */
+     , (28990,  62,       1) /* WeaponOffense */
+     , (28990,  63,     2.8) /* DamageMod */
+     , (28990, 136,     2.5) /* CriticalMultiplier */
+     , (28990, 138,    1.75) /* SlayerDamageBonus */
+     , (28990, 147,     0.3) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28990,   1, 'Burun Slaying Crossbow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28990,   1,   33558922) /* Setup */
+     , (28990,   3,  536870932) /* SoundTable */
+     , (28990,   8,  100676977) /* Icon */
+     , (28990,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28990, 1604, 2) /* Defender5_SpellID */
-     , (28990, 1359, 2) /* EnduranceOther5_SpellID */
-     , (28990, 1616, 2) /* BloodDrinker6_SpellID */
-     , (28990, 243, 2) /* InvulnerabilityOther5_SpellID */
-     , (28990, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (28990,   243,      2)  /* Invulnerability Other V */
+     , (28990,  1359,      2)  /* Endurance Other V */
+     , (28990,  1604,      2)  /* Aura of Defender Self V */
+     , (28990,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (28990,  1625,      2)  /* Aura of Swift Killer Self IV */;

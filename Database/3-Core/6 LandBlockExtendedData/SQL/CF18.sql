@@ -1,7 +1,14 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (509, 2096201728, 3474456576, 3.75656, 150.849, 0.00500003, 0.970543, 0, 0, -0.240928) /* Life Stone */
-     , (1371, 2096201729, 3474456576, 13.3036, 163.135, 0.005, -0.109804, 0, 0, -0.993953) /* Archmage */
-     , (4043, 2096201730, 3474456576, 30.0411, 68.4665, 56.005, 0.667565, 0, 0, 0.744552) /* Sawato Portal */
-     , (4037, 2096201731, 3474456576, 27.8148, 31.9718, 55.6871, 0.0808451, 0, 0, 0.996727) /* Baishi Portal */
-     , (1392, 2096201732, 3474456576, 14.2333, 160.219, 0.005, -0.741314, 0, 0, -0.671158) /* Peddler */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2096201728,   509, 3474456576, 3.75656, 150.849, 0.00500003, 0.970543, 0, 0, -0.240928, False); /* Life Stone */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2096201729,  1371, 3474456576, 13.3036, 163.135, 0.005, -0.109804, 0, 0, -0.993953, False); /* Archmage */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2096201730,  4043, 3474456576, 30.0411, 68.4665, 56.005, 0.667565, 0, 0, 0.744552, False); /* Sawato Portal */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2096201731,  4037, 3474456576, 27.8148, 31.9718, 55.6871, 0.0808451, 0, 0, 0.996727, False); /* Baishi Portal */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2096201732,  1392, 3474456576, 14.2333, 160.219, 0.005, -0.741314, 0, 0, -0.671158, False); /* Peddler */

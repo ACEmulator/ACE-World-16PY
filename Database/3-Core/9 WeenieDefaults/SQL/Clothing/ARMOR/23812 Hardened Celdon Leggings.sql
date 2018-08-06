@@ -1,60 +1,56 @@
-/* Weenie - Hardened Celdon Leggings (23812) */
-DELETE FROM weenie WHERE class_Id = 23812;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23812, 'leggingsceldonshadowhardened', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23812, 001 /* NAME_STRING */, 'Hardened Celdon Leggings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23812, 001 /* SETUP_DID */, 33554856)
-     , (23812, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23812, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (23812, 007 /* CLOTHINGBASE_DID */, 268435844)
-     , (23812, 008 /* ICON_DID */, 100674071)
-     , (23812, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23812', 'leggingsceldonshadowhardened', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23812, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (23812, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (23812, 004 /* CLOTHING_PRIORITY_INT */, 768 /* OuterwearUpperLegs, OuterwearLowerLegs */)
-     , (23812, 005 /* ENCUMB_VAL_INT */, 3100)
-     , (23812, 008 /* MASS_INT */, 1200)
-     , (23812, 009 /* LOCATIONS_INT */, 24576 /* UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (23812, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23812, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (23812, 019 /* VALUE_INT */, 2140)
-     , (23812, 027 /* ARMOR_TYPE_INT */, 32)
-     , (23812, 028 /* ARMOR_LEVEL_INT */, 260)
-     , (23812, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23812, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23812, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (23812, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (23812, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (23812, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (23812, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (23812, 160 /* WIELD_DIFFICULTY_INT */, 50);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23812, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (23812, 012 /* SHADE_FLOAT */, 0.232225)
-     , (23812, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (23812, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (23812, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (23812, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (23812, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (23812, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (23812, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.5)
-     , (23812, 110 /* BULK_MOD_FLOAT */, 1)
-     , (23812, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (23812,   1,          2) /* ItemType - Armor */
+     , (23812,   3,         39) /* PaletteTemplate - Black */
+     , (23812,   4,        768) /* ClothingPriority */
+     , (23812,   5,       3100) /* EncumbranceVal */
+     , (23812,   8,       1200) /* Mass */
+     , (23812,   9,      24576) /* ValidLocations */
+     , (23812,  16,          1) /* ItemUseable - No */
+     , (23812,  18,          1) /* UiEffects - Magical */
+     , (23812,  19,       2140) /* Value */
+     , (23812,  27,         32) /* ArmorType */
+     , (23812,  28,        260) /* ArmorLevel */
+     , (23812,  33,          1) /* Bonded - Bonded */
+     , (23812,  93,       1044) /* PhysicsState */
+     , (23812, 107,       1000) /* ItemCurMana */
+     , (23812, 108,       1000) /* ItemMaxMana */
+     , (23812, 109,          0) /* ItemDifficulty */
+     , (23812, 158,          7) /* WieldRequirements - Level */
+     , (23812, 159,          1) /* WieldSkilltype - Axe */
+     , (23812, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23812, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23812, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (23812, 069 /* IS_SELLABLE_BOOL */, False)
-     , (23812, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
+VALUES (23812,  22, True ) /* Inscribable */
+     , (23812,  23, True ) /* DestroyOnSell */
+     , (23812,  69, False) /* IsSellable */
+     , (23812,  84, True ) /* IgnoreCloIcons */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23812,   5,  -0.025) /* ManaRate */
+     , (23812,  12, 0.232225) /* Shade */
+     , (23812,  13,     1.3) /* ArmorModVsSlash */
+     , (23812,  14,       1) /* ArmorModVsPierce */
+     , (23812,  15,       1) /* ArmorModVsBludgeon */
+     , (23812,  16,     0.8) /* ArmorModVsCold */
+     , (23812,  17,     0.8) /* ArmorModVsFire */
+     , (23812,  18,     0.8) /* ArmorModVsAcid */
+     , (23812,  19,     0.5) /* ArmorModVsElectric */
+     , (23812, 110,       1) /* BulkMod */
+     , (23812, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23812,   1, 'Hardened Celdon Leggings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23812,   1,   33554856) /* Setup */
+     , (23812,   3,  536870932) /* SoundTable */
+     , (23812,   6,   67108990) /* PaletteBase */
+     , (23812,   7,  268435844) /* ClothingBase */
+     , (23812,   8,  100674071) /* Icon */
+     , (23812,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23812, 2613, 2) /* CANTRIPPIERCINGWARD2_SpellID */;
-
+VALUES (23812,  2613,      2)  /* Major Piercing Ward */;

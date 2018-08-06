@@ -1,45 +1,41 @@
-/* Weenie - Sparring Pants (25983) */
-DELETE FROM weenie WHERE class_Id = 25983;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25983, 'pantssparring', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25983, 001 /* NAME_STRING */, 'Sparring Pants')
-     , (25983, 016 /* LONG_DESC_STRING */, 'Loose pants typically worn while sparring.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25983, 001 /* SETUP_DID */, 33554653)
-     , (25983, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25983, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (25983, 007 /* CLOTHINGBASE_DID */, 268436783)
-     , (25983, 008 /* ICON_DID */, 100667371)
-     , (25983, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25983', 'pantssparring', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25983, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (25983, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (25983, 004 /* CLOTHING_PRIORITY_INT */, 22 /* UnderwearUpperLegs, UnderwearLowerLegs, UnderwearAbdomen */)
-     , (25983, 005 /* ENCUMB_VAL_INT */, 135)
-     , (25983, 008 /* MASS_INT */, 135)
-     , (25983, 009 /* LOCATIONS_INT */, 196 /* ABDOMEN_WEAR_LOC, UPPER_LEG_WEAR_LOC, LOWER_LEG_WEAR_LOC */)
-     , (25983, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25983, 019 /* VALUE_INT */, 100)
-     , (25983, 027 /* ARMOR_TYPE_INT */, 1)
-     , (25983, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (25983, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25983, 012 /* SHADE_FLOAT */, 0.33)
-     , (25983, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (25983, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (25983, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (25983, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (25983, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (25983, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (25983, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (25983,   1,          4) /* ItemType - Clothing */
+     , (25983,   3,         61) /* PaletteTemplate - White */
+     , (25983,   4,         22) /* ClothingPriority */
+     , (25983,   5,        135) /* EncumbranceVal */
+     , (25983,   8,        135) /* Mass */
+     , (25983,   9,        196) /* ValidLocations */
+     , (25983,  16,          1) /* ItemUseable - No */
+     , (25983,  19,        100) /* Value */
+     , (25983,  27,          1) /* ArmorType */
+     , (25983,  28,          0) /* ArmorLevel */
+     , (25983,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25983, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25983, 100 /* DYABLE_BOOL */, True);
+VALUES (25983,  22, True ) /* Inscribable */
+     , (25983, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25983,  12,    0.33) /* Shade */
+     , (25983,  13,     0.8) /* ArmorModVsSlash */
+     , (25983,  14,     0.8) /* ArmorModVsPierce */
+     , (25983,  15,       1) /* ArmorModVsBludgeon */
+     , (25983,  16,     0.2) /* ArmorModVsCold */
+     , (25983,  17,     0.2) /* ArmorModVsFire */
+     , (25983,  18,     0.1) /* ArmorModVsAcid */
+     , (25983,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25983,   1, 'Sparring Pants') /* Name */
+     , (25983,  16, 'Loose pants typically worn while sparring.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25983,   1,   33554653) /* Setup */
+     , (25983,   3,  536870932) /* SoundTable */
+     , (25983,   6,   67108990) /* PaletteBase */
+     , (25983,   7,  268436783) /* ClothingBase */
+     , (25983,   8,  100667371) /* Icon */
+     , (25983,  22,  872415275) /* PhysicsEffectTable */;

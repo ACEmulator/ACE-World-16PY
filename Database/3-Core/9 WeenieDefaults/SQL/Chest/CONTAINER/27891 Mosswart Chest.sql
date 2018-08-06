@@ -1,55 +1,51 @@
-/* Weenie - Mosswart Chest (27891) */
-DELETE FROM weenie WHERE class_Id = 27891;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27891, 'chestspearkreerg', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27891, 001 /* NAME_STRING */, 'Mosswart Chest')
-     , (27891, 012 /* LOCK_CODE_STRING */, 'KeyMosswartSpearKreerg')
-     , (27891, 014 /* USE_STRING */, 'Use this item to open it and see its contents.')
-     , (27891, 016 /* LONG_DESC_STRING */, 'A Mosswart chest.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27891, 001 /* SETUP_DID */, 33554556)
-     , (27891, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (27891, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (27891, 008 /* ICON_DID */, 100667424)
-     , (27891, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27891', 'chestspearkreerg', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27891, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (27891, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (27891, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (27891, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (27891, 008 /* MASS_INT */, 3000)
-     , (27891, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (27891, 019 /* VALUE_INT */, 2500)
-     , (27891, 037 /* RESIST_ITEM_APPRAISAL_INT */, 100)
-     , (27891, 038 /* RESIST_LOCKPICK_INT */, 9999)
-     , (27891, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (27891, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (27891, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (27891, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27891, 096 /* ENCUMB_CAPACITY_INT */, 5000)
-     , (27891, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27891, 011 /* RESET_INTERVAL_FLOAT */, 30)
-     , (27891, 041 /* REGENERATION_INTERVAL_FLOAT */, 10)
-     , (27891, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (27891, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (27891,   1,        512) /* ItemType - Container */
+     , (27891,   5,       9000) /* EncumbranceVal */
+     , (27891,   6,         -1) /* ItemsCapacity */
+     , (27891,   7,         -1) /* ContainersCapacity */
+     , (27891,   8,       3000) /* Mass */
+     , (27891,  16,         48) /* ItemUseable - ViewedRemote */
+     , (27891,  19,       2500) /* Value */
+     , (27891,  37,        100) /* ResistItemAppraisal */
+     , (27891,  38,       9999) /* ResistLockpick */
+     , (27891,  81,          1) /* MaxGeneratedObjects */
+     , (27891,  82,          1) /* InitGeneratedObjects */
+     , (27891,  83,          2) /* ActivationResponse - Use */
+     , (27891,  93,       1048) /* PhysicsState */
+     , (27891,  96,       5000) /* EncumbranceCapacity */
+     , (27891, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27891, 001 /* STUCK_BOOL */, True)
-     , (27891, 002 /* OPEN_BOOL */, False)
-     , (27891, 003 /* LOCKED_BOOL */, True)
-     , (27891, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (27891, 013 /* ETHEREAL_BOOL */, False)
-     , (27891, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (27891, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (27891, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (27891,   1, True ) /* Stuck */
+     , (27891,   2, False) /* Open */
+     , (27891,   3, True ) /* Locked */
+     , (27891,  12, True ) /* ReportCollisions */
+     , (27891,  13, False) /* Ethereal */
+     , (27891,  33, False) /* ResetMessagePending */
+     , (27891,  34, False) /* DefaultOpen */
+     , (27891,  35, True ) /* DefaultLocked */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27891,  11,      30) /* ResetInterval */
+     , (27891,  41,      10) /* RegenerationInterval */
+     , (27891,  43,       1) /* GeneratorRadius */
+     , (27891,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27891,   1, 'Mosswart Chest') /* Name */
+     , (27891,  12, 'KeyMosswartSpearKreerg') /* LockCode */
+     , (27891,  14, 'Use this item to open it and see its contents.') /* Use */
+     , (27891,  16, 'A Mosswart chest.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27891,   1,   33554556) /* Setup */
+     , (27891,   2,  150994948) /* MotionTable */
+     , (27891,   3,  536870945) /* SoundTable */
+     , (27891,   8,  100667424) /* Icon */
+     , (27891,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27891, -1, 27904, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Spear of Kreerg (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */;
-
+VALUES (27891, -1, 27904, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

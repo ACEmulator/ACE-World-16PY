@@ -1,9 +1,11 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1148, 2041991168, 2607087872, 108.025, 84, 27.205, 0.707107, 0, 0, 0.707107) /* Door */
-     , (29957, 2041991169, 2607087881, 115.156, 87.9843, 28.4022, 0.647058, 0, 0, -0.762441) /* Open Journal */
-     , (7923, 2041991170, 2607087881, 114.074, 92.5842, 27.205, -0.678913, 0, 0, -0.734219) /* linkmonstergen3minutes */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2041991168,  1148, 2607087872, 108.025, 84, 27.205, 0.707107, 0, 0, 0.707107, False); /* Door */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2041991170'; /* linkmonstergen3minutes */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2041991169, 29957, 2607087881, 115.156, 87.9843, 28.4022, 0.647058, 0, 0, -0.762441,  True); /* Open Journal */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2041991169'; /* linkmonstergen3minutes <- Open Journal */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2041991170,  7923, 2607087881, 114.074, 92.5842, 27.205, -0.678913, 0, 0, -0.734219, False); /* Linkable Monster Generator ( 3 Min.) */
 
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2041991170, 2041991169) /* Open Journal */;

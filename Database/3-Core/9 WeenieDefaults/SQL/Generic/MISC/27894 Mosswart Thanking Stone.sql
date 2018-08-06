@@ -1,36 +1,32 @@
-/* Weenie - Mosswart Thanking Stone (27894) */
-DELETE FROM weenie WHERE class_Id = 27894;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27894, 'mosswartthankingstonebleeargh', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27894, 001 /* NAME_STRING */, 'Mosswart Thanking Stone')
-     , (27894, 016 /* LONG_DESC_STRING */, 'This thanking stone looks identical to normal Mosswart thanking stones. Until you turn it over. On the bottom in very small print, it reads: "Made by Ketnan. Visit Monty, Arshid or Mi Gan-Zo to take your chances."');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27894, 001 /* SETUP_DID */, 33558698)
-     , (27894, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27894, 008 /* ICON_DID */, 100676432)
-     , (27894, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27894', 'mosswartthankingstonebleeargh', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27894, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (27894, 005 /* ENCUMB_VAL_INT */, 75)
-     , (27894, 008 /* MASS_INT */, 1)
-     , (27894, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27894, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27894, 019 /* VALUE_INT */, 5)
-     , (27894, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (27894, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27894, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (27894, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27894, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27894, 039 /* DEFAULT_SCALE_FLOAT */, 0.75);
+VALUES (27894,   1,        128) /* ItemType - Misc */
+     , (27894,   5,         75) /* EncumbranceVal */
+     , (27894,   8,          1) /* Mass */
+     , (27894,   9,          0) /* ValidLocations - None */
+     , (27894,  16,          1) /* ItemUseable - No */
+     , (27894,  19,          5) /* Value */
+     , (27894,  33,          1) /* Bonded - Bonded */
+     , (27894,  93,       1044) /* PhysicsState */
+     , (27894, 114,          1) /* Attuned - Attuned */
+     , (27894, 150,        103) /* HookPlacement - Hook */
+     , (27894, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27894, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27894, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27894,  22, True ) /* Inscribable */
+     , (27894,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27894,  39,    0.75) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27894,   1, 'Mosswart Thanking Stone') /* Name */
+     , (27894,  16, 'This thanking stone looks identical to normal Mosswart thanking stones. Until you turn it over. On the bottom in very small print, it reads: "Made by Ketnan. Visit Monty, Arshid or Mi Gan-Zo to take your chances."') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27894,   1,   33558698) /* Setup */
+     , (27894,   3,  536870932) /* SoundTable */
+     , (27894,   8,  100676432) /* Icon */
+     , (27894,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,48 +1,44 @@
-/* Weenie - Blazing Wand Villas Portal Gem (26097) */
-DELETE FROM weenie WHERE class_Id = 26097;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26097, 'gemportalblazingwandvillas', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26097, 001 /* NAME_STRING */, 'Blazing Wand Villas Portal Gem')
-     , (26097, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26097, 001 /* SETUP_DID */, 33556769)
-     , (26097, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26097, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26097, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26097, 008 /* ICON_DID */, 100675760)
-     , (26097, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26097, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26097, 031 /* LINKED_PORTAL_ONE_DID */, 15668 /* Blazing Wand Villas Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26097', 'gemportalblazingwandvillas', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26097, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26097, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26097, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26097, 008 /* MASS_INT */, 10)
-     , (26097, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26097, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26097, 012 /* STACK_SIZE_INT */, 1)
-     , (26097, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26097, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26097, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26097, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26097, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26097, 019 /* VALUE_INT */, 500)
-     , (26097, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26097, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26097, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26097, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26097, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26097, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26097, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26097, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26097, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26097,   1,       2048) /* ItemType - Gem */
+     , (26097,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26097,   5,         10) /* EncumbranceVal */
+     , (26097,   8,         10) /* Mass */
+     , (26097,   9,          0) /* ValidLocations - None */
+     , (26097,  11,         20) /* MaxStackSize */
+     , (26097,  12,          1) /* StackSize */
+     , (26097,  13,         10) /* StackUnitEncumbrance */
+     , (26097,  14,         10) /* StackUnitMass */
+     , (26097,  15,        500) /* StackUnitValue */
+     , (26097,  16,          8) /* ItemUseable - Contained */
+     , (26097,  18,          1) /* UiEffects - Magical */
+     , (26097,  19,        500) /* Value */
+     , (26097,  93,       3092) /* PhysicsState */
+     , (26097,  94,         16) /* TargetType - Creature */
+     , (26097, 106,        210) /* ItemSpellcraft */
+     , (26097, 107,         50) /* ItemCurMana */
+     , (26097, 108,         50) /* ItemMaxMana */
+     , (26097, 109,          0) /* ItemDifficulty */
+     , (26097, 110,          0) /* ItemAllegianceRankLimit */
+     , (26097, 150,        103) /* HookPlacement - Hook */
+     , (26097, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26097, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26097, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26097,  15, True ) /* LightsStatus */
+     , (26097,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26097,   1, 'Blazing Wand Villas Portal Gem') /* Name */
+     , (26097,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26097,   1,   33556769) /* Setup */
+     , (26097,   3,  536870932) /* SoundTable */
+     , (26097,   6,   67111919) /* PaletteBase */
+     , (26097,   7,  268435723) /* ClothingBase */
+     , (26097,   8,  100675760) /* Icon */
+     , (26097,  22,  872415275) /* PhysicsEffectTable */
+     , (26097,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26097,  31,      15668) /* LinkedPortalOne - Blazing Wand Villas Portal */;

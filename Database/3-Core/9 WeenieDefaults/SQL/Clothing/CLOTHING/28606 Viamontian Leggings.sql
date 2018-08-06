@@ -1,45 +1,41 @@
-/* Weenie - Viamontian Leggings (28606) */
-DELETE FROM weenie WHERE class_Id = 28606;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28606, 'leggingsviamont', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28606, 001 /* NAME_STRING */, 'Viamontian Leggings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28606, 001 /* SETUP_DID */, 33554653)
-     , (28606, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28606, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (28606, 007 /* CLOTHINGBASE_DID */, 268435458)
-     , (28606, 008 /* ICON_DID */, 100667368)
-     , (28606, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28606, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28606', 'leggingsviamont', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28606, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (28606, 003 /* PALETTE_TEMPLATE_INT */, 9 /* GREY_PALETTE_TEMPLATE */)
-     , (28606, 004 /* CLOTHING_PRIORITY_INT */, 7 /* 7 */)
-     , (28606, 005 /* ENCUMB_VAL_INT */, 135)
-     , (28606, 008 /* MASS_INT */, 90)
-     , (28606, 009 /* LOCATIONS_INT */, 196 /* ABDOMEN_WEAR_LOC, UPPER_LEG_WEAR_LOC, LOWER_LEG_WEAR_LOC */)
-     , (28606, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28606, 019 /* VALUE_INT */, 30)
-     , (28606, 027 /* ARMOR_TYPE_INT */, 1)
-     , (28606, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (28606, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28606, 012 /* SHADE_FLOAT */, 0.6)
-     , (28606, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (28606, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (28606, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (28606, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (28606, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (28606, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (28606, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (28606,   1,          4) /* ItemType - Clothing */
+     , (28606,   3,          9) /* PaletteTemplate - Grey */
+     , (28606,   4,          7) /* ClothingPriority */
+     , (28606,   5,        135) /* EncumbranceVal */
+     , (28606,   8,         90) /* Mass */
+     , (28606,   9,        196) /* ValidLocations */
+     , (28606,  16,          1) /* ItemUseable - No */
+     , (28606,  19,         30) /* Value */
+     , (28606,  27,          1) /* ArmorType */
+     , (28606,  28,          0) /* ArmorLevel */
+     , (28606,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28606, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28606, 100 /* DYABLE_BOOL */, True);
+VALUES (28606,  22, True ) /* Inscribable */
+     , (28606, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28606,  12,     0.6) /* Shade */
+     , (28606,  13,     0.8) /* ArmorModVsSlash */
+     , (28606,  14,     0.8) /* ArmorModVsPierce */
+     , (28606,  15,       1) /* ArmorModVsBludgeon */
+     , (28606,  16,     0.2) /* ArmorModVsCold */
+     , (28606,  17,     0.2) /* ArmorModVsFire */
+     , (28606,  18,     0.1) /* ArmorModVsAcid */
+     , (28606,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28606,   1, 'Viamontian Leggings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28606,   1,   33554653) /* Setup */
+     , (28606,   3,  536870932) /* SoundTable */
+     , (28606,   6,   67108990) /* PaletteBase */
+     , (28606,   7,  268435458) /* ClothingBase */
+     , (28606,   8,  100667368) /* Icon */
+     , (28606,  22,  872415275) /* PhysicsEffectTable */
+     , (28606,  36,  234881046) /* MutateFilter */;

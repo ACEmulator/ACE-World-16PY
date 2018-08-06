@@ -1,58 +1,54 @@
-/* Weenie - Aphus Lounging Shirt (28072) */
-DELETE FROM weenie WHERE class_Id = 28072;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28072, 'shirtxuut', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28072, 001 /* NAME_STRING */, 'Aphus Lounging Shirt')
-     , (28072, 007 /* INSCRIPTION_STRING */, 'Island Wear by Xuut')
-     , (28072, 008 /* SCRIBE_NAME_STRING */, 'Xuut')
-     , (28072, 016 /* LONG_DESC_STRING */, 'A shirt with a grand array of floral patterns crafted with Gharu''ndim silk. Thin lines of Pyreal can be seen woven into the fabric.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28072, 001 /* SETUP_DID */, 33554883)
-     , (28072, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28072, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (28072, 007 /* CLOTHINGBASE_DID */, 268436842)
-     , (28072, 008 /* ICON_DID */, 100670734)
-     , (28072, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28072, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28072', 'shirtxuut', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28072, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (28072, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (28072, 004 /* CLOTHING_PRIORITY_INT */, 56 /* UnderwearChest, UnderwearAbdomen, UnderwearUpperArms */)
-     , (28072, 005 /* ENCUMB_VAL_INT */, 100)
-     , (28072, 008 /* MASS_INT */, 38)
-     , (28072, 009 /* LOCATIONS_INT */, 10 /* CHEST_WEAR_LOC, UPPER_ARM_WEAR_LOC */)
-     , (28072, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28072, 019 /* VALUE_INT */, 6000)
-     , (28072, 027 /* ARMOR_TYPE_INT */, 1)
-     , (28072, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (28072, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28072, 106 /* ITEM_SPELLCRAFT_INT */, 350)
-     , (28072, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (28072, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (28072, 109 /* ITEM_DIFFICULTY_INT */, 100)
-     , (28072, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (28072, 159 /* WIELD_SKILLTYPE_INT */, 22 /* JUMP_SKILL */)
-     , (28072, 160 /* WIELD_DIFFICULTY_INT */, 200);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28072, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (28072, 012 /* SHADE_FLOAT */, 0)
-     , (28072, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (28072, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (28072, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (28072, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (28072, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (28072, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (28072, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (28072,   1,          4) /* ItemType - Clothing */
+     , (28072,   3,         14) /* PaletteTemplate - Red */
+     , (28072,   4,         56) /* ClothingPriority */
+     , (28072,   5,        100) /* EncumbranceVal */
+     , (28072,   8,         38) /* Mass */
+     , (28072,   9,         10) /* ValidLocations */
+     , (28072,  16,          1) /* ItemUseable - No */
+     , (28072,  19,       6000) /* Value */
+     , (28072,  27,          1) /* ArmorType */
+     , (28072,  28,          0) /* ArmorLevel */
+     , (28072,  93,       1044) /* PhysicsState */
+     , (28072, 106,        350) /* ItemSpellcraft */
+     , (28072, 107,       1000) /* ItemCurMana */
+     , (28072, 108,       1000) /* ItemMaxMana */
+     , (28072, 109,        100) /* ItemDifficulty */
+     , (28072, 158,          2) /* WieldRequirements - RawSkill */
+     , (28072, 159,         22) /* WieldSkilltype - Jump */
+     , (28072, 160,        200) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28072, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28072,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28072,   5,   -0.05) /* ManaRate */
+     , (28072,  12,       0) /* Shade */
+     , (28072,  13,     0.8) /* ArmorModVsSlash */
+     , (28072,  14,     0.8) /* ArmorModVsPierce */
+     , (28072,  15,       1) /* ArmorModVsBludgeon */
+     , (28072,  16,     0.2) /* ArmorModVsCold */
+     , (28072,  17,     0.2) /* ArmorModVsFire */
+     , (28072,  18,     0.1) /* ArmorModVsAcid */
+     , (28072,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28072,   1, 'Aphus Lounging Shirt') /* Name */
+     , (28072,   7, 'Island Wear by Xuut') /* Inscription */
+     , (28072,   8, 'Xuut') /* ScribeName */
+     , (28072,  16, 'A shirt with a grand array of floral patterns crafted with Gharu''ndim silk. Thin lines of Pyreal can be seen woven into the fabric.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28072,   1,   33554883) /* Setup */
+     , (28072,   3,  536870932) /* SoundTable */
+     , (28072,   6,   67108990) /* PaletteBase */
+     , (28072,   7,  268436842) /* ClothingBase */
+     , (28072,   8,  100670734) /* Icon */
+     , (28072,  22,  872415275) /* PhysicsEffectTable */
+     , (28072,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28072, 3367, 2) /* LeapingLegs_SpellID */;
-
+VALUES (28072,  3367,      2)  /* Leaping Legs */;

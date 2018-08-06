@@ -1,29 +1,25 @@
-/* Weenie - Olthoi Carapace (19444) */
-DELETE FROM weenie WHERE class_Id = 19444;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19444, 'olthoicarapace-noselect', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19444, 001 /* NAME_STRING */, 'Olthoi Carapace');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19444, 001 /* SETUP_DID */, 33557720)
-     , (19444, 008 /* ICON_DID */, 100670055);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19444', 'olthoicarapace-noselect', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19444, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19444, 005 /* ENCUMB_VAL_INT */, 180)
-     , (19444, 008 /* MASS_INT */, 90)
-     , (19444, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19444, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19444, 019 /* VALUE_INT */, 0)
-     , (19444, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19444, 044 /* TIME_TO_ROT_FLOAT */, 0);
+VALUES (19444,   1,        128) /* ItemType - Misc */
+     , (19444,   5,        180) /* EncumbranceVal */
+     , (19444,   8,         90) /* Mass */
+     , (19444,   9,          0) /* ValidLocations - None */
+     , (19444,  16,          1) /* ItemUseable - No */
+     , (19444,  19,          0) /* Value */
+     , (19444,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19444, 001 /* STUCK_BOOL */, True)
-     , (19444, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (19444,   1, True ) /* Stuck */
+     , (19444,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19444,  44,       0) /* TimeToRot */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19444,   1, 'Olthoi Carapace') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19444,   1,   33557720) /* Setup */
+     , (19444,   8,  100670055) /* Icon */;

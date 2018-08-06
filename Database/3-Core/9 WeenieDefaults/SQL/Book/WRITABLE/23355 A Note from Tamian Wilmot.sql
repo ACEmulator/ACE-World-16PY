@@ -1,41 +1,38 @@
-/* Weenie - A Note from Tamian Wilmot (23355) */
-DELETE FROM weenie WHERE class_Id = 23355;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23355, 'tamiannote3', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23355, 001 /* NAME_STRING */, 'A Note from Tamian Wilmot')
-     , (23355, 016 /* LONG_DESC_STRING */, 'Notes by Tamian Wilmot.')
-     , (23355, 033 /* QUEST_STRING */, 'TowerDungeonAccess');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23355, 001 /* SETUP_DID */, 33554773)
-     , (23355, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23355, 008 /* ICON_DID */, 100674008)
-     , (23355, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23355', 'tamiannote3', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23355, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (23355, 005 /* ENCUMB_VAL_INT */, 25)
-     , (23355, 008 /* MASS_INT */, 5)
-     , (23355, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23355, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23355, 019 /* VALUE_INT */, 0)
-     , (23355, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23355, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23355, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23355, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (23355,   1,       8192) /* ItemType - Writable */
+     , (23355,   5,         25) /* EncumbranceVal */
+     , (23355,   8,          5) /* Mass */
+     , (23355,   9,          0) /* ValidLocations - None */
+     , (23355,  16,          8) /* ItemUseable - Contained */
+     , (23355,  19,          0) /* Value */
+     , (23355,  33,          1) /* Bonded - Bonded */
+     , (23355,  93,       1044) /* PhysicsState */
+     , (23355, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23355, 001 /* STUCK_BOOL */, False)
-     , (23355, 022 /* INSCRIBABLE_BOOL */, False)
-     , (23355, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (23355,   1, False) /* Stuck */
+     , (23355,  22, False) /* Inscribable */
+     , (23355,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23355,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23355,   1, 'A Note from Tamian Wilmot') /* Name */
+     , (23355,  16, 'Notes by Tamian Wilmot.') /* LongDesc */
+     , (23355,  33, 'TowerDungeonAccess') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23355,   1,   33554773) /* Setup */
+     , (23355,   3,  536870932) /* SoundTable */
+     , (23355,   8,  100674008) /* Icon */
+     , (23355,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (23355, 3, 1000) /* Book Data */;
+VALUES (23355, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (23355, 0, 4294967295, 'Tamian Wilmot', 'prewritten', False, '
@@ -51,4 +48,3 @@ In the morning I will continue on to the tower. I know now it is southeast of Uz
 
 Tamian
 ');
-

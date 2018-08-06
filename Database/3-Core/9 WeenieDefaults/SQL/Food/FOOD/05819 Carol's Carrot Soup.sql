@@ -1,38 +1,34 @@
-/* Weenie - Carol's Carrot Soup (5819) */
-DELETE FROM weenie WHERE class_Id = 5819;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5819, 'carolscarrotsoup', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5819, 001 /* NAME_STRING */, 'Carol''s Carrot Soup')
-     , (5819, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5819, 015 /* SHORT_DESC_STRING */, 'A rich, creamy carrot soup with grated cheese on top.')
-     , (5819, 016 /* LONG_DESC_STRING */, 'A rich, creamy carrot soup with grated cheese on top. ')
-     , (5819, 020 /* PLURAL_NAME_STRING */, 'Bowls of Carol''s Carrot Soup');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5819, 001 /* SETUP_DID */, 33554668)
-     , (5819, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5819, 008 /* ICON_DID */, 100670311)
-     , (5819, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5819', 'carolscarrotsoup', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5819, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5819, 005 /* ENCUMB_VAL_INT */, 75)
-     , (5819, 008 /* MASS_INT */, 50)
-     , (5819, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5819, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5819, 012 /* STACK_SIZE_INT */, 1)
-     , (5819, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
-     , (5819, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (5819, 015 /* STACK_UNIT_VALUE_INT */, 35)
-     , (5819, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5819, 019 /* VALUE_INT */, 35)
-     , (5819, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (5819, 090 /* BOOST_VALUE_INT */, 20)
-     , (5819, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5819,   1,         32) /* ItemType - Food */
+     , (5819,   5,         75) /* EncumbranceVal */
+     , (5819,   8,         50) /* Mass */
+     , (5819,   9,          0) /* ValidLocations - None */
+     , (5819,  11,        100) /* MaxStackSize */
+     , (5819,  12,          1) /* StackSize */
+     , (5819,  13,         75) /* StackUnitEncumbrance */
+     , (5819,  14,         50) /* StackUnitMass */
+     , (5819,  15,         35) /* StackUnitValue */
+     , (5819,  16,          8) /* ItemUseable - Contained */
+     , (5819,  19,         35) /* Value */
+     , (5819,  89,          4) /* BoosterEnum - Stamina */
+     , (5819,  90,         20) /* BoostValue */
+     , (5819,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5819, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5819,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5819,   1, 'Carol''s Carrot Soup') /* Name */
+     , (5819,  14, 'Use this item to eat it.') /* Use */
+     , (5819,  15, 'A rich, creamy carrot soup with grated cheese on top.') /* ShortDesc */
+     , (5819,  16, 'A rich, creamy carrot soup with grated cheese on top. ') /* LongDesc */
+     , (5819,  20, 'Bowls of Carol''s Carrot Soup') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5819,   1,   33554668) /* Setup */
+     , (5819,   3,  536870932) /* SoundTable */
+     , (5819,   8,  100670311) /* Icon */
+     , (5819,  22,  872415275) /* PhysicsEffectTable */;

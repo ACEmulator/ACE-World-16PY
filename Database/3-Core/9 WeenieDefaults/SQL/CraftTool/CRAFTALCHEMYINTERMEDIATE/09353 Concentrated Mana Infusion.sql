@@ -1,42 +1,38 @@
-/* Weenie - Concentrated Mana Infusion (9353) */
-DELETE FROM weenie WHERE class_Id = 9353;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9353, 'concentratedmanainfusion', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9353, 001 /* NAME_STRING */, 'Concentrated Mana Infusion')
-     , (9353, 014 /* USE_STRING */, 'This item is used in alchemy.')
-     , (9353, 020 /* PLURAL_NAME_STRING */, 'Concentrated Mana Infusions');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9353, 001 /* SETUP_DID */, 33555965)
-     , (9353, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9353, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (9353, 007 /* CLOTHINGBASE_DID */, 268435814)
-     , (9353, 008 /* ICON_DID */, 100671579)
-     , (9353, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9353', 'concentratedmanainfusion', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9353, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (9353, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (9353, 005 /* ENCUMB_VAL_INT */, 15)
-     , (9353, 008 /* MASS_INT */, 5)
-     , (9353, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9353, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (9353, 012 /* STACK_SIZE_INT */, 1)
-     , (9353, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (9353, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (9353, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (9353, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (9353, 019 /* VALUE_INT */, 500)
-     , (9353, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9353, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9353, 094 /* TARGET_TYPE_INT */, 75498496 /* TYPE_USELESS, TYPE_CRAFT_ALCHEMY_BASE, TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (9353, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9353, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (9353,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (9353,   3,          2) /* PaletteTemplate - Blue */
+     , (9353,   5,         15) /* EncumbranceVal */
+     , (9353,   8,          5) /* Mass */
+     , (9353,   9,          0) /* ValidLocations - None */
+     , (9353,  11,        100) /* MaxStackSize */
+     , (9353,  12,          1) /* StackSize */
+     , (9353,  13,         15) /* StackUnitEncumbrance */
+     , (9353,  14,          5) /* StackUnitMass */
+     , (9353,  15,        500) /* StackUnitValue */
+     , (9353,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (9353,  19,        500) /* Value */
+     , (9353,  33,          1) /* Bonded - Bonded */
+     , (9353,  93,       1044) /* PhysicsState */
+     , (9353,  94,   75498496) /* TargetType */
+     , (9353, 150,        103) /* HookPlacement - Hook */
+     , (9353, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9353, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (9353, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9353,  23, True ) /* DestroyOnSell */
+     , (9353,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9353,   1, 'Concentrated Mana Infusion') /* Name */
+     , (9353,  14, 'This item is used in alchemy.') /* Use */
+     , (9353,  20, 'Concentrated Mana Infusions') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9353,   1,   33555965) /* Setup */
+     , (9353,   3,  536870932) /* SoundTable */
+     , (9353,   6,   67111919) /* PaletteBase */
+     , (9353,   7,  268435814) /* ClothingBase */
+     , (9353,   8,  100671579) /* Icon */
+     , (9353,  22,  872415275) /* PhysicsEffectTable */;

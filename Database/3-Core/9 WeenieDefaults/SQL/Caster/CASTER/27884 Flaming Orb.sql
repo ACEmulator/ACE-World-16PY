@@ -1,45 +1,41 @@
-/* Weenie - Flaming Orb (27884) */
-DELETE FROM weenie WHERE class_Id = 27884;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27884, 'casterfire', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27884, 001 /* NAME_STRING */, 'Flaming Orb');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27884, 001 /* SETUP_DID */, 33559021)
-     , (27884, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27884, 006 /* PALETTE_BASE_DID */, 67115357)
-     , (27884, 007 /* CLOTHINGBASE_DID */, 268436872)
-     , (27884, 008 /* ICON_DID */, 100668722)
-     , (27884, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27884, 027 /* USE_USER_ANIMATION_DID */, 1073741873 /* Motion_MagicHeal */)
-     , (27884, 036 /* MUTATE_FILTER_DID */, 234881046)
-     , (27884, 046 /* TSYS_MUTATION_FILTER_DID */, 939524144);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27884', 'casterfire', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27884, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (27884, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (27884, 005 /* ENCUMB_VAL_INT */, 50)
-     , (27884, 008 /* MASS_INT */, 50)
-     , (27884, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (27884, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27884, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (27884, 019 /* VALUE_INT */, 200)
-     , (27884, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (27884, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (27884, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27884, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (27884, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27884, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27884, 169 /* TSYS_MUTATION_DATA_INT */, 67242245);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27884, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (27884, 039 /* DEFAULT_SCALE_FLOAT */, 0.6)
-     , (27884, 152 /* ELEMENTAL_DAMAGE_MOD_FLOAT */, 1.02);
+VALUES (27884,   1,      32768) /* ItemType - Caster */
+     , (27884,   3,         14) /* PaletteTemplate - Red */
+     , (27884,   5,         50) /* EncumbranceVal */
+     , (27884,   8,         50) /* Mass */
+     , (27884,   9,   16777216) /* ValidLocations - Held */
+     , (27884,  16,          1) /* ItemUseable - No */
+     , (27884,  18,         32) /* UiEffects - Fire */
+     , (27884,  19,        200) /* Value */
+     , (27884,  45,         16) /* DamageType - Fire */
+     , (27884,  46,        512) /* DefaultCombatStyle - Magic */
+     , (27884,  93,       1044) /* PhysicsState */
+     , (27884,  94,         16) /* TargetType - Creature */
+     , (27884, 150,        103) /* HookPlacement - Hook */
+     , (27884, 151,          2) /* HookType - Wall */
+     , (27884, 169,   67242245) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27884, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (27884,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27884,  29,       1) /* WeaponDefense */
+     , (27884,  39,     0.6) /* DefaultScale */
+     , (27884, 152,    1.02) /* ElementalDamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27884,   1, 'Flaming Orb') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27884,   1,   33559021) /* Setup */
+     , (27884,   3,  536870932) /* SoundTable */
+     , (27884,   6,   67115357) /* PaletteBase */
+     , (27884,   7,  268436872) /* ClothingBase */
+     , (27884,   8,  100668722) /* Icon */
+     , (27884,  22,  872415275) /* PhysicsEffectTable */
+     , (27884,  27, 1073741873) /* UseUserAnimation - MagicHeal */
+     , (27884,  36,  234881046) /* MutateFilter */
+     , (27884,  46,  939524144) /* TsysMutationFilter */;

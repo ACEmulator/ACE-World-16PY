@@ -1,36 +1,32 @@
-/* Weenie - Ust (20646) */
-DELETE FROM weenie WHERE class_Id = 20646;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20646, 'tinkeringtool', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20646, 001 /* NAME_STRING */, 'Ust')
-     , (20646, 014 /* USE_STRING */, 'Use to salvage materials from treasure items.')
-     , (20646, 015 /* SHORT_DESC_STRING */, 'A tool used to extract materials from treasure items.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20646, 001 /* SETUP_DID */, 33557852)
-     , (20646, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20646, 008 /* ICON_DID */, 100673210)
-     , (20646, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20646', 'tinkeringtool', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20646, 001 /* ITEM_TYPE_INT */, 536870912 /* TYPE_TINKERING_TOOL */)
-     , (20646, 005 /* ENCUMB_VAL_INT */, 40)
-     , (20646, 008 /* MASS_INT */, 40)
-     , (20646, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20646, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (20646, 012 /* STACK_SIZE_INT */, 1)
-     , (20646, 013 /* STACK_UNIT_ENCUMB_INT */, 40)
-     , (20646, 014 /* STACK_UNIT_MASS_INT */, 40)
-     , (20646, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (20646, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20646, 019 /* VALUE_INT */, 10)
-     , (20646, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20646, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (20646, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (20646,   1,  536870912) /* ItemType - TinkeringTool */
+     , (20646,   5,         40) /* EncumbranceVal */
+     , (20646,   8,         40) /* Mass */
+     , (20646,   9,          0) /* ValidLocations - None */
+     , (20646,  11,          1) /* MaxStackSize */
+     , (20646,  12,          1) /* StackSize */
+     , (20646,  13,         40) /* StackUnitEncumbrance */
+     , (20646,  14,         40) /* StackUnitMass */
+     , (20646,  15,         10) /* StackUnitValue */
+     , (20646,  16,          8) /* ItemUseable - Contained */
+     , (20646,  19,         10) /* Value */
+     , (20646,  93,       1044) /* PhysicsState */
+     , (20646, 150,        103) /* HookPlacement - Hook */
+     , (20646, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20646, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (20646,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20646,   1, 'Ust') /* Name */
+     , (20646,  14, 'Use to salvage materials from treasure items.') /* Use */
+     , (20646,  15, 'A tool used to extract materials from treasure items.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20646,   1,   33557852) /* Setup */
+     , (20646,   3,  536870932) /* SoundTable */
+     , (20646,   8,  100673210) /* Icon */
+     , (20646,  22,  872415275) /* PhysicsEffectTable */;

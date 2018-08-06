@@ -1,39 +1,35 @@
-/* Weenie - Seal Fragment (21379) */
-DELETE FROM weenie WHERE class_Id = 21379;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21379, 'sealfragment2', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21379, 001 /* NAME_STRING */, 'Seal Fragment')
-     , (21379, 014 /* USE_STRING */, 'This fragment appears to be a piece from a larger version. Use this on another fragment to combine them.')
-     , (21379, 015 /* SHORT_DESC_STRING */, 'A seal fragment with odd glyphs and sigils.')
-     , (21379, 033 /* QUEST_STRING */, 'ProvingGroundsRollingDeath');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21379, 001 /* SETUP_DID */, 33557974)
-     , (21379, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21379, 008 /* ICON_DID */, 100673503)
-     , (21379, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21379', 'sealfragment2', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21379, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (21379, 005 /* ENCUMB_VAL_INT */, 200)
-     , (21379, 008 /* MASS_INT */, 200)
-     , (21379, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (21379, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (21379, 012 /* STACK_SIZE_INT */, 1)
-     , (21379, 013 /* STACK_UNIT_ENCUMB_INT */, 200)
-     , (21379, 014 /* STACK_UNIT_MASS_INT */, 200)
-     , (21379, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (21379, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (21379, 019 /* VALUE_INT */, 0)
-     , (21379, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (21379, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (21379, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (21379, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (21379,   1,        128) /* ItemType - Misc */
+     , (21379,   5,        200) /* EncumbranceVal */
+     , (21379,   8,        200) /* Mass */
+     , (21379,   9,          0) /* ValidLocations - None */
+     , (21379,  11,          1) /* MaxStackSize */
+     , (21379,  12,          1) /* StackSize */
+     , (21379,  13,        200) /* StackUnitEncumbrance */
+     , (21379,  14,        200) /* StackUnitMass */
+     , (21379,  15,          0) /* StackUnitValue */
+     , (21379,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (21379,  19,          0) /* Value */
+     , (21379,  33,          1) /* Bonded - Bonded */
+     , (21379,  93,       1044) /* PhysicsState */
+     , (21379,  94,        128) /* TargetType - Misc */
+     , (21379, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21379, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21379, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (21379,  22, True ) /* Inscribable */
+     , (21379,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21379,   1, 'Seal Fragment') /* Name */
+     , (21379,  14, 'This fragment appears to be a piece from a larger version. Use this on another fragment to combine them.') /* Use */
+     , (21379,  15, 'A seal fragment with odd glyphs and sigils.') /* ShortDesc */
+     , (21379,  33, 'ProvingGroundsRollingDeath') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21379,   1,   33557974) /* Setup */
+     , (21379,   3,  536870932) /* SoundTable */
+     , (21379,   8,  100673503) /* Icon */
+     , (21379,  22,  872415275) /* PhysicsEffectTable */;

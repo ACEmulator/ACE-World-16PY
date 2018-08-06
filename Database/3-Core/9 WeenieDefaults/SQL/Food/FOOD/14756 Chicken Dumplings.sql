@@ -1,36 +1,32 @@
-/* Weenie - Chicken Dumplings (14756) */
-DELETE FROM weenie WHERE class_Id = 14756;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14756, 'chickendumplings', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14756, 001 /* NAME_STRING */, 'Chicken Dumplings')
-     , (14756, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (14756, 015 /* SHORT_DESC_STRING */, 'Fried dough with chicken meat in the center.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14756, 001 /* SETUP_DID */, 33555968)
-     , (14756, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14756, 008 /* ICON_DID */, 100672547)
-     , (14756, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14756', 'chickendumplings', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14756, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (14756, 005 /* ENCUMB_VAL_INT */, 30)
-     , (14756, 008 /* MASS_INT */, 30)
-     , (14756, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14756, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (14756, 012 /* STACK_SIZE_INT */, 1)
-     , (14756, 013 /* STACK_UNIT_ENCUMB_INT */, 30)
-     , (14756, 014 /* STACK_UNIT_MASS_INT */, 30)
-     , (14756, 015 /* STACK_UNIT_VALUE_INT */, 30)
-     , (14756, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (14756, 019 /* VALUE_INT */, 30)
-     , (14756, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (14756, 090 /* BOOST_VALUE_INT */, 25)
-     , (14756, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14756,   1,         32) /* ItemType - Food */
+     , (14756,   5,         30) /* EncumbranceVal */
+     , (14756,   8,         30) /* Mass */
+     , (14756,   9,          0) /* ValidLocations - None */
+     , (14756,  11,        100) /* MaxStackSize */
+     , (14756,  12,          1) /* StackSize */
+     , (14756,  13,         30) /* StackUnitEncumbrance */
+     , (14756,  14,         30) /* StackUnitMass */
+     , (14756,  15,         30) /* StackUnitValue */
+     , (14756,  16,          8) /* ItemUseable - Contained */
+     , (14756,  19,         30) /* Value */
+     , (14756,  89,          4) /* BoosterEnum - Stamina */
+     , (14756,  90,         25) /* BoostValue */
+     , (14756,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14756, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14756,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14756,   1, 'Chicken Dumplings') /* Name */
+     , (14756,  14, 'Use this item to eat it.') /* Use */
+     , (14756,  15, 'Fried dough with chicken meat in the center.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14756,   1,   33555968) /* Setup */
+     , (14756,   3,  536870932) /* SoundTable */
+     , (14756,   8,  100672547) /* Icon */
+     , (14756,  22,  872415275) /* PhysicsEffectTable */;

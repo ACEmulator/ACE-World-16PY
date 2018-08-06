@@ -1,37 +1,34 @@
-/* Weenie - The Full Code of Pwyll (5690) */
-DELETE FROM weenie WHERE class_Id = 5690;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5690, 'lecterncodepwyll', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5690, 001 /* NAME_STRING */, 'The Full Code of Pwyll');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5690, 001 /* SETUP_DID */, 33556013)
-     , (5690, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5690, 008 /* ICON_DID */, 100668236)
-     , (5690, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5690', 'lecterncodepwyll', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5690, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5690, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5690, 008 /* MASS_INT */, 5)
-     , (5690, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5690, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5690, 019 /* VALUE_INT */, 10)
-     , (5690, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5690, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5690,   1,       8192) /* ItemType - Writable */
+     , (5690,   5,         25) /* EncumbranceVal */
+     , (5690,   8,          5) /* Mass */
+     , (5690,   9,          0) /* ValidLocations - None */
+     , (5690,  16,          8) /* ItemUseable - Contained */
+     , (5690,  19,         10) /* Value */
+     , (5690,  93,       1040) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5690, 001 /* STUCK_BOOL */, True)
-     , (5690, 013 /* ETHEREAL_BOOL */, False)
-     , (5690, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5690,   1, True ) /* Stuck */
+     , (5690,  13, False) /* Ethereal */
+     , (5690,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5690,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5690,   1, 'The Full Code of Pwyll') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5690,   1,   33556013) /* Setup */
+     , (5690,   3,  536870932) /* SoundTable */
+     , (5690,   8,  100668236) /* Icon */
+     , (5690,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5690, 8, 1000) /* Book Data */;
+VALUES (5690, 8, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5690, 0, 4294967295, 'The Full Code of Pwyll', 'prewritten', False, '"It not for all of the people to walk the path of high honor. For some it is enough that they follow the path of low justice. But we, as knights, shall take the high road."  - High King Pwyll
@@ -64,4 +61,3 @@ It is to the great sorrow of the historians that so few texts have been brought 
 ')
      , (5690, 7, 4294967295, 'The Full Code of Pwyll', 'prewritten', False, 'When teaching those of low aspirations and lowly station the Code of High King Pwyll, it is necessary only to teach the first Five rules, as simply as possible.  See to it that such a one obeys to the best of his ability, as crude as such may be.  A true noble or knight, however, should know all Ten, along with the full explanation and the deeper meanings behind the words.  The rules should be engraved upon his heart and mind, and upon the very sinews of his arm.  Justice is the finest of all blades, when tempered with wisdom and the Code of High King Pwyll.
 ');
-

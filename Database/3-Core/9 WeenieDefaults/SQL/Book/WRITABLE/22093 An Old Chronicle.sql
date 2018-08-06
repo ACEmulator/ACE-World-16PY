@@ -1,41 +1,37 @@
-/* Weenie - An Old Chronicle (22093) */
-DELETE FROM weenie WHERE class_Id = 22093;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22093, 'untranslatedsheafofpapers', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22093, 001 /* NAME_STRING */, 'An Old Chronicle')
-     , (22093, 015 /* SHORT_DESC_STRING */, 'An old and crumbling chronicle written in an unrecognizable language.')
-     , (22093, 016 /* LONG_DESC_STRING */, 'An old and crumbling chronicle written in an unrecognizable language.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22093, 001 /* SETUP_DID */, 33554773)
-     , (22093, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22093, 008 /* ICON_DID */, 100668176)
-     , (22093, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22093', 'untranslatedsheafofpapers', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22093, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (22093, 005 /* ENCUMB_VAL_INT */, 100)
-     , (22093, 008 /* MASS_INT */, 100)
-     , (22093, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22093, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (22093, 019 /* VALUE_INT */, 50)
-     , (22093, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22093, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (22093,   1,       8192) /* ItemType - Writable */
+     , (22093,   5,        100) /* EncumbranceVal */
+     , (22093,   8,        100) /* Mass */
+     , (22093,   9,          0) /* ValidLocations - None */
+     , (22093,  16,         48) /* ItemUseable - ViewedRemote */
+     , (22093,  19,         50) /* Value */
+     , (22093,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22093, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (22093,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22093,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22093,   1, 'An Old Chronicle') /* Name */
+     , (22093,  15, 'An old and crumbling chronicle written in an unrecognizable language.') /* ShortDesc */
+     , (22093,  16, 'An old and crumbling chronicle written in an unrecognizable language.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22093,   1,   33554773) /* Setup */
+     , (22093,   3,  536870932) /* SoundTable */
+     , (22093,   8,  100668176) /* Icon */
+     , (22093,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (22093, 1, 1000) /* Book Data */;
+VALUES (22093, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (22093, 0, 4294967295, 'Unknown', 'prewritten', False, '
 (You cannot understand what is written on these pages.)
 
 ');
-

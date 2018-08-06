@@ -1,36 +1,33 @@
-/* Weenie - Our Great Work (5879) */
-DELETE FROM weenie WHERE class_Id = 5879;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5879, 'bookfroregreatwork', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5879, 001 /* NAME_STRING */, 'Our Great Work')
-     , (5879, 016 /* LONG_DESC_STRING */, 'A translation of a book taken from the animated corpse of Lord Joffre Tremblant, in the Lost City of Frore.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5879, 001 /* SETUP_DID */, 33554771)
-     , (5879, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5879, 008 /* ICON_DID */, 100668117)
-     , (5879, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5879', 'bookfroregreatwork', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5879, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5879, 005 /* ENCUMB_VAL_INT */, 200)
-     , (5879, 008 /* MASS_INT */, 100)
-     , (5879, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5879, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5879, 019 /* VALUE_INT */, 400)
-     , (5879, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5879, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5879,   1,       8192) /* ItemType - Writable */
+     , (5879,   5,        200) /* EncumbranceVal */
+     , (5879,   8,        100) /* Mass */
+     , (5879,   9,          0) /* ValidLocations - None */
+     , (5879,  16,          8) /* ItemUseable - Contained */
+     , (5879,  19,        400) /* Value */
+     , (5879,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5879, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5879,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5879,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5879,   1, 'Our Great Work') /* Name */
+     , (5879,  16, 'A translation of a book taken from the animated corpse of Lord Joffre Tremblant, in the Lost City of Frore.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5879,   1,   33554771) /* Setup */
+     , (5879,   3,  536870932) /* SoundTable */
+     , (5879,   8,  100668117) /* Icon */
+     , (5879,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5879, 20, 1000) /* Book Data */;
+VALUES (5879, 20, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5879, 0, 4294967295, 'Kuyiza bint Zayi', 'prewritten', False, '
@@ -121,4 +118,3 @@ They are far more primitive than even the Yalain, barely possessing any magical 
 We are on the cusp of going home, or being discovered by the cattle that call Killiakta their home now. This is a critical time - to call a halt to the Great Work would be folly of the gravest sort.
 
 ');
-

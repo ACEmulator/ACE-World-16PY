@@ -1,30 +1,26 @@
-/* Weenie - Skull and Flagons (1086) */
-DELETE FROM weenie WHERE class_Id = 1086;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1086, 'eastrithwicpubsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1086, 001 /* NAME_STRING */, 'Skull and Flagons')
-     , (1086, 016 /* LONG_DESC_STRING */, 'Skull and Flagons');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1086, 001 /* SETUP_DID */, 33555088)
-     , (1086, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (1086, 007 /* CLOTHINGBASE_DID */, 268435662)
-     , (1086, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1086', 'eastrithwicpubsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1086, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (1086, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (1086, 008 /* MASS_INT */, 1800)
-     , (1086, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1086, 019 /* VALUE_INT */, 125)
-     , (1086, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (1086,   1,        128) /* ItemType - Misc */
+     , (1086,   5,       9000) /* EncumbranceVal */
+     , (1086,   8,       1800) /* Mass */
+     , (1086,  16,          1) /* ItemUseable - No */
+     , (1086,  19,        125) /* Value */
+     , (1086,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1086, 001 /* STUCK_BOOL */, True)
-     , (1086, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1086, 013 /* ETHEREAL_BOOL */, False)
-     , (1086, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (1086,   1, True ) /* Stuck */
+     , (1086,  12, True ) /* ReportCollisions */
+     , (1086,  13, False) /* Ethereal */
+     , (1086,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1086,   1, 'Skull and Flagons') /* Name */
+     , (1086,  16, 'Skull and Flagons') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1086,   1,   33555088) /* Setup */
+     , (1086,   6,   67111092) /* PaletteBase */
+     , (1086,   7,  268435662) /* ClothingBase */
+     , (1086,   8,  100668115) /* Icon */;

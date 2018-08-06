@@ -1,50 +1,46 @@
-/* Weenie - Canescent Mattekar Robe (10871) */
-DELETE FROM weenie WHERE class_Id = 10871;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10871, 'robeolthoimattekarcanescent-xp', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10871, 001 /* NAME_STRING */, 'Canescent Mattekar Robe')
-     , (10871, 015 /* SHORT_DESC_STRING */, 'The Canescent Mattekar Robe, brought to you with the finest care by Britana.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10871, 001 /* SETUP_DID */, 33554854)
-     , (10871, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10871, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (10871, 007 /* CLOTHINGBASE_DID */, 268436296)
-     , (10871, 008 /* ICON_DID */, 100667351)
-     , (10871, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10871', 'robeolthoimattekarcanescent-xp', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10871, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (10871, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (10871, 004 /* CLOTHING_PRIORITY_INT */, 81664 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */)
-     , (10871, 005 /* ENCUMB_VAL_INT */, 500)
-     , (10871, 008 /* MASS_INT */, 500)
-     , (10871, 009 /* LOCATIONS_INT */, 32512 /* FOOT_WEAR_LOC, ARMOR_LOC */)
-     , (10871, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10871, 019 /* VALUE_INT */, 0)
-     , (10871, 027 /* ARMOR_TYPE_INT */, 1)
-     , (10871, 028 /* ARMOR_LEVEL_INT */, 130)
-     , (10871, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (10871, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (10871, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (10871, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10871, 012 /* SHADE_FLOAT */, 0.09)
-     , (10871, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.3)
-     , (10871, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.3)
-     , (10871, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.3)
-     , (10871, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.3)
-     , (10871, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.3)
-     , (10871, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.3)
-     , (10871, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.3)
-     , (10871, 110 /* BULK_MOD_FLOAT */, 1)
-     , (10871, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (10871,   1,          2) /* ItemType - Armor */
+     , (10871,   3,         14) /* PaletteTemplate - Red */
+     , (10871,   4,      81664) /* ClothingPriority */
+     , (10871,   5,        500) /* EncumbranceVal */
+     , (10871,   8,        500) /* Mass */
+     , (10871,   9,      32512) /* ValidLocations - Armor */
+     , (10871,  16,          1) /* ItemUseable - No */
+     , (10871,  19,          0) /* Value */
+     , (10871,  27,          1) /* ArmorType */
+     , (10871,  28,        130) /* ArmorLevel */
+     , (10871,  33,          1) /* Bonded - Bonded */
+     , (10871,  93,       1044) /* PhysicsState */
+     , (10871, 150,        103) /* HookPlacement - Hook */
+     , (10871, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10871, 022 /* INSCRIBABLE_BOOL */, True)
-     , (10871, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (10871,  22, True ) /* Inscribable */
+     , (10871,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10871,  12,    0.09) /* Shade */
+     , (10871,  13,     0.3) /* ArmorModVsSlash */
+     , (10871,  14,     0.3) /* ArmorModVsPierce */
+     , (10871,  15,     0.3) /* ArmorModVsBludgeon */
+     , (10871,  16,     1.3) /* ArmorModVsCold */
+     , (10871,  17,     1.3) /* ArmorModVsFire */
+     , (10871,  18,     1.3) /* ArmorModVsAcid */
+     , (10871,  19,     1.3) /* ArmorModVsElectric */
+     , (10871, 110,       1) /* BulkMod */
+     , (10871, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10871,   1, 'Canescent Mattekar Robe') /* Name */
+     , (10871,  15, 'The Canescent Mattekar Robe, brought to you with the finest care by Britana.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10871,   1,   33554854) /* Setup */
+     , (10871,   3,  536870932) /* SoundTable */
+     , (10871,   6,   67108990) /* PaletteBase */
+     , (10871,   7,  268436296) /* ClothingBase */
+     , (10871,   8,  100667351) /* Icon */
+     , (10871,  22,  872415275) /* PhysicsEffectTable */;

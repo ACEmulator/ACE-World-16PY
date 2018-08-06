@@ -1,39 +1,35 @@
-/* Weenie - Emblem of Blackened Blood (28346) */
-DELETE FROM weenie WHERE class_Id = 28346;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28346, 'glyphkiviklir', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28346, 001 /* NAME_STRING */, 'Emblem of Blackened Blood')
-     , (28346, 015 /* SHORT_DESC_STRING */, 'A round emblem made from wood and solidified blood.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28346, 001 /* SETUP_DID */, 33555194)
-     , (28346, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28346, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (28346, 007 /* CLOTHINGBASE_DID */, 268436400)
-     , (28346, 008 /* ICON_DID */, 100676996)
-     , (28346, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28346', 'glyphkiviklir', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28346, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (28346, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (28346, 005 /* ENCUMB_VAL_INT */, 20)
-     , (28346, 008 /* MASS_INT */, 200)
-     , (28346, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28346, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28346, 019 /* VALUE_INT */, 0)
-     , (28346, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28346, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28346, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28346, 012 /* SHADE_FLOAT */, 1)
-     , (28346, 039 /* DEFAULT_SCALE_FLOAT */, 1.2);
+VALUES (28346,   1,       2048) /* ItemType - Gem */
+     , (28346,   3,         14) /* PaletteTemplate - Red */
+     , (28346,   5,         20) /* EncumbranceVal */
+     , (28346,   8,        200) /* Mass */
+     , (28346,   9,          0) /* ValidLocations - None */
+     , (28346,  16,          1) /* ItemUseable - No */
+     , (28346,  19,          0) /* Value */
+     , (28346,  33,          1) /* Bonded - Bonded */
+     , (28346,  93,       1044) /* PhysicsState */
+     , (28346, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28346, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28346, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (28346, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (28346,  22, True ) /* Inscribable */
+     , (28346,  23, True ) /* DestroyOnSell */
+     , (28346,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28346,  12,       1) /* Shade */
+     , (28346,  39,     1.2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28346,   1, 'Emblem of Blackened Blood') /* Name */
+     , (28346,  15, 'A round emblem made from wood and solidified blood.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28346,   1,   33555194) /* Setup */
+     , (28346,   3,  536870932) /* SoundTable */
+     , (28346,   6,   67111092) /* PaletteBase */
+     , (28346,   7,  268436400) /* ClothingBase */
+     , (28346,   8,  100676996) /* Icon */
+     , (28346,  22,  872415275) /* PhysicsEffectTable */;

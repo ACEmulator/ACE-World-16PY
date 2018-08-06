@@ -1,7 +1,6 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (59172, 7230, 0, 4) /* junglebeach1mixgen */
-     , (59172, 7230, 0, 6) /* junglebeach1mixgen */
-     , (59172, 7230, 0, 7) /* junglebeach1mixgen */
-     , (59172, 7230, 1, 4) /* junglebeach1mixgen */
-     , (59172, 7230, 4, 0) /* junglebeach1mixgen */;
-
+VALUES (59172, 7230, 0, 4) /* Jungle Beach 1 Mix Generator */
+     , (59172, 7230, 0, 6) /* Jungle Beach 1 Mix Generator */
+     , (59172, 7230, 0, 7) /* Jungle Beach 1 Mix Generator */
+     , (59172, 7230, 1, 4) /* Jungle Beach 1 Mix Generator */
+     , (59172, 7230, 4, 0) /* Jungle Beach 1 Mix Generator */;

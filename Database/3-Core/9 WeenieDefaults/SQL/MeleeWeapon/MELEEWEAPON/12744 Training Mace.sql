@@ -1,49 +1,45 @@
-/* Weenie - Training Mace (12744) */
-DELETE FROM weenie WHERE class_Id = 12744;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12744, 'macetraining', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12744, 001 /* NAME_STRING */, 'Training Mace')
-     , (12744, 014 /* USE_STRING */, 'Use Oil of Rendering on this weapon to create an Academy Mace.')
-     , (12744, 015 /* SHORT_DESC_STRING */, 'A basic mace forged in the Strathelar Training Academy. This item can be used on an item hook.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12744, 001 /* SETUP_DID */, 33554746)
-     , (12744, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12744, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12744, 007 /* CLOTHINGBASE_DID */, 268435792)
-     , (12744, 008 /* ICON_DID */, 100668955)
-     , (12744, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12744, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12744', 'macetraining', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12744, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (12744, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (12744, 005 /* ENCUMB_VAL_INT */, 600)
-     , (12744, 008 /* MASS_INT */, 360)
-     , (12744, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (12744, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12744, 019 /* VALUE_INT */, 25)
-     , (12744, 044 /* DAMAGE_INT */, 6)
-     , (12744, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (12744, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (12744, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (12744, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (12744, 049 /* WEAPON_TIME_INT */, 45)
-     , (12744, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (12744, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12744, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12744, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12744, 021 /* WEAPON_LENGTH_FLOAT */, 0.62)
-     , (12744, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (12744, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (12744, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (12744,   1,          1) /* ItemType - MeleeWeapon */
+     , (12744,   3,          4) /* PaletteTemplate - Brown */
+     , (12744,   5,        600) /* EncumbranceVal */
+     , (12744,   8,        360) /* Mass */
+     , (12744,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12744,  16,          1) /* ItemUseable - No */
+     , (12744,  19,         25) /* Value */
+     , (12744,  44,          6) /* Damage */
+     , (12744,  45,          4) /* DamageType - Bludgeon */
+     , (12744,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (12744,  47,          4) /* AttackType - Slash */
+     , (12744,  48,          5) /* WeaponSkill - Mace */
+     , (12744,  49,         45) /* WeaponTime */
+     , (12744,  51,          1) /* CombatUse - Melee */
+     , (12744,  93,       1044) /* PhysicsState */
+     , (12744, 150,        103) /* HookPlacement - Hook */
+     , (12744, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12744, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12744, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (12744,  22, True ) /* Inscribable */
+     , (12744,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12744,  21,    0.62) /* WeaponLength */
+     , (12744,  22,     0.5) /* DamageVariance */
+     , (12744,  29,       1) /* WeaponDefense */
+     , (12744,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12744,   1, 'Training Mace') /* Name */
+     , (12744,  14, 'Use Oil of Rendering on this weapon to create an Academy Mace.') /* Use */
+     , (12744,  15, 'A basic mace forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12744,   1,   33554746) /* Setup */
+     , (12744,   3,  536870932) /* SoundTable */
+     , (12744,   6,   67111919) /* PaletteBase */
+     , (12744,   7,  268435792) /* ClothingBase */
+     , (12744,   8,  100668955) /* Icon */
+     , (12744,  22,  872415275) /* PhysicsEffectTable */
+     , (12744,  36,  234881044) /* MutateFilter */;

@@ -1,38 +1,34 @@
-/* Weenie - Hot Sauce (5795) */
-DELETE FROM weenie WHERE class_Id = 5795;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5795, 'hotsauce', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5795, 001 /* NAME_STRING */, 'Hot Sauce')
-     , (5795, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (5795, 015 /* SHORT_DESC_STRING */, 'A quantity of hot pepper sauce.  Not for plain consumption.')
-     , (5795, 020 /* PLURAL_NAME_STRING */, 'Jars of Hot Sauce');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5795, 001 /* SETUP_DID */, 33555967)
-     , (5795, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5795, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (5795, 007 /* CLOTHINGBASE_DID */, 268435862)
-     , (5795, 008 /* ICON_DID */, 100670316)
-     , (5795, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5795', 'hotsauce', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5795, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (5795, 005 /* ENCUMB_VAL_INT */, 10)
-     , (5795, 008 /* MASS_INT */, 10)
-     , (5795, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5795, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5795, 012 /* STACK_SIZE_INT */, 1)
-     , (5795, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (5795, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (5795, 015 /* STACK_UNIT_VALUE_INT */, 5)
-     , (5795, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (5795, 019 /* VALUE_INT */, 5)
-     , (5795, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5795, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */);
+VALUES (5795,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (5795,   5,         10) /* EncumbranceVal */
+     , (5795,   8,         10) /* Mass */
+     , (5795,   9,          0) /* ValidLocations - None */
+     , (5795,  11,        100) /* MaxStackSize */
+     , (5795,  12,          1) /* StackSize */
+     , (5795,  13,         10) /* StackUnitEncumbrance */
+     , (5795,  14,         10) /* StackUnitMass */
+     , (5795,  15,          5) /* StackUnitValue */
+     , (5795,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (5795,  19,          5) /* Value */
+     , (5795,  93,       1044) /* PhysicsState */
+     , (5795,  94,    4194336) /* TargetType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5795, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5795,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5795,   1, 'Hot Sauce') /* Name */
+     , (5795,  14, 'This item is used in cooking.') /* Use */
+     , (5795,  15, 'A quantity of hot pepper sauce.  Not for plain consumption.') /* ShortDesc */
+     , (5795,  20, 'Jars of Hot Sauce') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5795,   1,   33555967) /* Setup */
+     , (5795,   3,  536870932) /* SoundTable */
+     , (5795,   6,   67111919) /* PaletteBase */
+     , (5795,   7,  268435862) /* ClothingBase */
+     , (5795,   8,  100670316) /* Icon */
+     , (5795,  22,  872415275) /* PhysicsEffectTable */;

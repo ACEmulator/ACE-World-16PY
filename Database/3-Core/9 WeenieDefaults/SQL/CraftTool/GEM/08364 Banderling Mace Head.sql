@@ -1,43 +1,39 @@
-/* Weenie - Banderling Mace Head (8364) */
-DELETE FROM weenie WHERE class_Id = 8364;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8364, 'maceheadbanderling', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8364, 001 /* NAME_STRING */, 'Banderling Mace Head')
-     , (8364, 014 /* USE_STRING */, 'Combine with Mace shaft to make ceremonial weapon.')
-     , (8364, 015 /* SHORT_DESC_STRING */, 'A large and heavy stone.')
-     , (8364, 016 /* LONG_DESC_STRING */, 'A large and heavy stone with strange markings on the side.')
-     , (8364, 033 /* QUEST_STRING */, 'BanderlingMaceHead');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8364, 001 /* SETUP_DID */, 33554669)
-     , (8364, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8364, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8364, 007 /* CLOTHINGBASE_DID */, 268436017)
-     , (8364, 008 /* ICON_DID */, 100671137)
-     , (8364, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8364', 'maceheadbanderling', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8364, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8364, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (8364, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (8364, 008 /* MASS_INT */, 40)
-     , (8364, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8364, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (8364, 012 /* STACK_SIZE_INT */, 1)
-     , (8364, 013 /* STACK_UNIT_ENCUMB_INT */, 1000)
-     , (8364, 014 /* STACK_UNIT_MASS_INT */, 40)
-     , (8364, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (8364, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (8364, 019 /* VALUE_INT */, 10)
-     , (8364, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8364, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8364, 094 /* TARGET_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8364, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (8364,   1,       2048) /* ItemType - Gem */
+     , (8364,   3,         61) /* PaletteTemplate - White */
+     , (8364,   5,       1000) /* EncumbranceVal */
+     , (8364,   8,         40) /* Mass */
+     , (8364,   9,          0) /* ValidLocations - None */
+     , (8364,  11,          1) /* MaxStackSize */
+     , (8364,  12,          1) /* StackSize */
+     , (8364,  13,       1000) /* StackUnitEncumbrance */
+     , (8364,  14,         40) /* StackUnitMass */
+     , (8364,  15,         10) /* StackUnitValue */
+     , (8364,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (8364,  19,         10) /* Value */
+     , (8364,  33,          1) /* Bonded - Bonded */
+     , (8364,  93,       1044) /* PhysicsState */
+     , (8364,  94,       2048) /* TargetType - Gem */
+     , (8364, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8364, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8364, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8364,  22, True ) /* Inscribable */
+     , (8364,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8364,   1, 'Banderling Mace Head') /* Name */
+     , (8364,  14, 'Combine with Mace shaft to make ceremonial weapon.') /* Use */
+     , (8364,  15, 'A large and heavy stone.') /* ShortDesc */
+     , (8364,  16, 'A large and heavy stone with strange markings on the side.') /* LongDesc */
+     , (8364,  33, 'BanderlingMaceHead') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8364,   1,   33554669) /* Setup */
+     , (8364,   3,  536870932) /* SoundTable */
+     , (8364,   6,   67111919) /* PaletteBase */
+     , (8364,   7,  268436017) /* ClothingBase */
+     , (8364,   8,  100671137) /* Icon */
+     , (8364,  22,  872415275) /* PhysicsEffectTable */;

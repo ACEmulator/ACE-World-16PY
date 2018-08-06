@@ -1,35 +1,31 @@
-/* Weenie - Lower Empyrean Acid Cistern (14494) */
-DELETE FROM weenie WHERE class_Id = 14494;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14494, 'portalempyreanacidcisternlower', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14494, 001 /* NAME_STRING */, 'Lower Empyrean Acid Cistern');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14494, 001 /* SETUP_DID */, 33555925)
-     , (14494, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (14494, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14494', 'portalempyreanacidcisternlower', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14494, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (14494, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (14494, 086 /* MIN_LEVEL_INT */, 50)
-     , (14494, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (14494, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (14494, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14494, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (14494,   1,      65536) /* ItemType - Portal */
+     , (14494,  16,         32) /* ItemUseable - Remote */
+     , (14494,  86,         50) /* MinLevel */
+     , (14494,  93,       3084) /* PhysicsState */
+     , (14494, 111,         49) /* PortalBitmask */
+     , (14494, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14494, 001 /* STUCK_BOOL */, True)
-     , (14494, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14494, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14494, 013 /* ETHEREAL_BOOL */, True)
-     , (14494, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (14494,   1, True ) /* Stuck */
+     , (14494,  11, False) /* IgnoreCollisions */
+     , (14494,  12, True ) /* ReportCollisions */
+     , (14494,  13, True ) /* Ethereal */
+     , (14494,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14494,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14494,   1, 'Lower Empyrean Acid Cistern') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14494,   1,   33555925) /* Setup */
+     , (14494,   2,  150994947) /* MotionTable */
+     , (14494,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14494, 2, 1382875729, 150, -120, 0, -0.7071068, 0, 0, -0.7071068) /* DESTINATION_POSITION */;
-
+VALUES (14494, 2, 1382875729, 150, -120, 0, -0.7071068, 0, 0, -0.7071068) /* Destination */;

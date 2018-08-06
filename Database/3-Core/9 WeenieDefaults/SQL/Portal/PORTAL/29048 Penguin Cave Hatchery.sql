@@ -1,34 +1,30 @@
-/* Weenie - Penguin Cave Hatchery (29048) */
-DELETE FROM weenie WHERE class_Id = 29048;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29048, 'portalpenguincavehatchery', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29048, 001 /* NAME_STRING */, 'Penguin Cave Hatchery');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29048, 001 /* SETUP_DID */, 33554867)
-     , (29048, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (29048, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29048', 'portalpenguincavehatchery', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29048, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (29048, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (29048, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (29048, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (29048, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29048, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (29048,   1,      65536) /* ItemType - Portal */
+     , (29048,  16,         32) /* ItemUseable - Remote */
+     , (29048,  93,       3084) /* PhysicsState */
+     , (29048, 111,          1) /* PortalBitmask - Unrestricted */
+     , (29048, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29048, 001 /* STUCK_BOOL */, True)
-     , (29048, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (29048, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (29048, 013 /* ETHEREAL_BOOL */, True)
-     , (29048, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (29048,   1, True ) /* Stuck */
+     , (29048,  11, False) /* IgnoreCollisions */
+     , (29048,  12, True ) /* ReportCollisions */
+     , (29048,  13, True ) /* Ethereal */
+     , (29048,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29048,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29048,   1, 'Penguin Cave Hatchery') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29048,   1,   33554867) /* Setup */
+     , (29048,   2,  150994947) /* MotionTable */
+     , (29048,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29048, 2, 27787606, 40, -10, 0, 0.004206243, 0, 0, -0.9999912) /* DESTINATION_POSITION */;
-
+VALUES (29048, 2, 27787606, 40, -10, 0, 0.004206243, 0, 0, -0.9999912) /* Destination */;

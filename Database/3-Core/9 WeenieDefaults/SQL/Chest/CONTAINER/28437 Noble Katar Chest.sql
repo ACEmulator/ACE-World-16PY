@@ -1,56 +1,52 @@
-/* Weenie - Noble Katar Chest (28437) */
-DELETE FROM weenie WHERE class_Id = 28437;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28437, 'chestmorgluukkatar', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28437, 001 /* NAME_STRING */, 'Noble Katar Chest')
-     , (28437, 012 /* LOCK_CODE_STRING */, 'KeyMorgluukReward')
-     , (28437, 014 /* USE_STRING */, 'Use this item to open it and see its contents.')
-     , (28437, 016 /* LONG_DESC_STRING */, 'A treasure chest crafted to hold many valuables, to be used when one is deserving of grand rewards.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28437, 001 /* SETUP_DID */, 33558857)
-     , (28437, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (28437, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (28437, 008 /* ICON_DID */, 100676961)
-     , (28437, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28437', 'chestmorgluukkatar', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28437, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (28437, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (28437, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (28437, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (28437, 008 /* MASS_INT */, 3000)
-     , (28437, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (28437, 019 /* VALUE_INT */, 0)
-     , (28437, 037 /* RESIST_ITEM_APPRAISAL_INT */, 200)
-     , (28437, 038 /* RESIST_LOCKPICK_INT */, 9999)
-     , (28437, 081 /* MAX_GENERATED_OBJECTS_INT */, 2)
-     , (28437, 082 /* INIT_GENERATED_OBJECTS_INT */, 2)
-     , (28437, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (28437, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28437, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (28437, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28437, 011 /* RESET_INTERVAL_FLOAT */, 30)
-     , (28437, 041 /* REGENERATION_INTERVAL_FLOAT */, 30)
-     , (28437, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (28437, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (28437,   1,        512) /* ItemType - Container */
+     , (28437,   5,       9000) /* EncumbranceVal */
+     , (28437,   6,         -1) /* ItemsCapacity */
+     , (28437,   7,         -1) /* ContainersCapacity */
+     , (28437,   8,       3000) /* Mass */
+     , (28437,  16,         48) /* ItemUseable - ViewedRemote */
+     , (28437,  19,          0) /* Value */
+     , (28437,  37,        200) /* ResistItemAppraisal */
+     , (28437,  38,       9999) /* ResistLockpick */
+     , (28437,  81,          2) /* MaxGeneratedObjects */
+     , (28437,  82,          2) /* InitGeneratedObjects */
+     , (28437,  83,          2) /* ActivationResponse - Use */
+     , (28437,  93,       1048) /* PhysicsState */
+     , (28437,  96,        500) /* EncumbranceCapacity */
+     , (28437, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28437, 001 /* STUCK_BOOL */, True)
-     , (28437, 002 /* OPEN_BOOL */, False)
-     , (28437, 003 /* LOCKED_BOOL */, True)
-     , (28437, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (28437, 013 /* ETHEREAL_BOOL */, False)
-     , (28437, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (28437, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (28437, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (28437,   1, True ) /* Stuck */
+     , (28437,   2, False) /* Open */
+     , (28437,   3, True ) /* Locked */
+     , (28437,  12, True ) /* ReportCollisions */
+     , (28437,  13, False) /* Ethereal */
+     , (28437,  33, False) /* ResetMessagePending */
+     , (28437,  34, False) /* DefaultOpen */
+     , (28437,  35, True ) /* DefaultLocked */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28437,  11,      30) /* ResetInterval */
+     , (28437,  41,      30) /* RegenerationInterval */
+     , (28437,  43,       1) /* GeneratorRadius */
+     , (28437,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28437,   1, 'Noble Katar Chest') /* Name */
+     , (28437,  12, 'KeyMorgluukReward') /* LockCode */
+     , (28437,  14, 'Use this item to open it and see its contents.') /* Use */
+     , (28437,  16, 'A treasure chest crafted to hold many valuables, to be used when one is deserving of grand rewards.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28437,   1,   33558857) /* Setup */
+     , (28437,   2,  150994948) /* MotionTable */
+     , (28437,   3,  536870945) /* SoundTable */
+     , (28437,   8,  100676961) /* Icon */
+     , (28437,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28437, -1, 341, 10, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate RANDOM TREASURE from Loot Tier 5 (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */
-     , (28437, -1, 28494, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Noble Katar (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */;
-
+VALUES (28437, -1, 341, 10, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
+     , (28437, -1, 28494, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

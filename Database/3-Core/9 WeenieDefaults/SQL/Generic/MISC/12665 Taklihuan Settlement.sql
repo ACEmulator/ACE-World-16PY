@@ -1,28 +1,24 @@
-/* Weenie - Taklihuan Settlement (12665) */
-DELETE FROM weenie WHERE class_Id = 12665;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12665, 'taklihuansettlementsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12665, 001 /* NAME_STRING */, 'Taklihuan Settlement')
-     , (12665, 016 /* LONG_DESC_STRING */, 'Welcome to Taklihuan Settlement');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12665, 001 /* SETUP_DID */, 33557463)
-     , (12665, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12665', 'taklihuansettlementsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12665, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (12665, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (12665, 008 /* MASS_INT */, 1800)
-     , (12665, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12665, 019 /* VALUE_INT */, 125)
-     , (12665, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (12665,   1,        128) /* ItemType - Misc */
+     , (12665,   5,       9000) /* EncumbranceVal */
+     , (12665,   8,       1800) /* Mass */
+     , (12665,  16,          1) /* ItemUseable - No */
+     , (12665,  19,        125) /* Value */
+     , (12665,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12665, 001 /* STUCK_BOOL */, True)
-     , (12665, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12665, 013 /* ETHEREAL_BOOL */, False)
-     , (12665, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (12665,   1, True ) /* Stuck */
+     , (12665,  12, True ) /* ReportCollisions */
+     , (12665,  13, False) /* Ethereal */
+     , (12665,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12665,   1, 'Taklihuan Settlement') /* Name */
+     , (12665,  16, 'Welcome to Taklihuan Settlement') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12665,   1,   33557463) /* Setup */
+     , (12665,   8,  100668115) /* Icon */;

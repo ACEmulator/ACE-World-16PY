@@ -1,48 +1,44 @@
-/* Weenie - Decorated Adjanite Gem (27770) */
-DELETE FROM weenie WHERE class_Id = 27770;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27770, 'gemportalsunkenmerelow', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27770, 001 /* NAME_STRING */, 'Decorated Adjanite Gem')
-     , (27770, 014 /* USE_STRING */, 'Double-click on this portal gem to summon a portal. You must be level 20 or greater to enter the summoned portal.')
-     , (27770, 015 /* SHORT_DESC_STRING */, 'A green portal gem surrounded by a clasp.  ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27770, 001 /* SETUP_DID */, 33558807)
-     , (27770, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27770, 008 /* ICON_DID */, 100676633)
-     , (27770, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27770, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (27770, 031 /* LINKED_PORTAL_ONE_DID */, 27779 /* Sunken Mere */)
-     , (27770, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27770', 'gemportalsunkenmerelow', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27770, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (27770, 005 /* ENCUMB_VAL_INT */, 25)
-     , (27770, 008 /* MASS_INT */, 5)
-     , (27770, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27770, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (27770, 012 /* STACK_SIZE_INT */, 1)
-     , (27770, 013 /* STACK_UNIT_ENCUMB_INT */, 25)
-     , (27770, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (27770, 015 /* STACK_UNIT_VALUE_INT */, 10000)
-     , (27770, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (27770, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27770, 019 /* VALUE_INT */, 10000)
-     , (27770, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (27770, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (27770, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (27770, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (27770, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (27770, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (27770, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (27770, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27770, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (27770,   1,       2048) /* ItemType - Gem */
+     , (27770,   5,         25) /* EncumbranceVal */
+     , (27770,   8,          5) /* Mass */
+     , (27770,   9,          0) /* ValidLocations - None */
+     , (27770,  11,          1) /* MaxStackSize */
+     , (27770,  12,          1) /* StackSize */
+     , (27770,  13,         25) /* StackUnitEncumbrance */
+     , (27770,  14,          5) /* StackUnitMass */
+     , (27770,  15,      10000) /* StackUnitValue */
+     , (27770,  16,          8) /* ItemUseable - Contained */
+     , (27770,  18,          1) /* UiEffects - Magical */
+     , (27770,  19,      10000) /* Value */
+     , (27770,  93,       3092) /* PhysicsState */
+     , (27770,  94,         16) /* TargetType - Creature */
+     , (27770, 106,        210) /* ItemSpellcraft */
+     , (27770, 107,         50) /* ItemCurMana */
+     , (27770, 108,         50) /* ItemMaxMana */
+     , (27770, 109,          0) /* ItemDifficulty */
+     , (27770, 110,          0) /* ItemAllegianceRankLimit */
+     , (27770, 150,        103) /* HookPlacement - Hook */
+     , (27770, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27770, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (27770, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27770, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27770,  15, True ) /* LightsStatus */
+     , (27770,  22, True ) /* Inscribable */
+     , (27770,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27770,   1, 'Decorated Adjanite Gem') /* Name */
+     , (27770,  14, 'Double-click on this portal gem to summon a portal. You must be level 20 or greater to enter the summoned portal.') /* Use */
+     , (27770,  15, 'A green portal gem surrounded by a clasp.  ') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27770,   1,   33558807) /* Setup */
+     , (27770,   3,  536870932) /* SoundTable */
+     , (27770,   8,  100676633) /* Icon */
+     , (27770,  22,  872415275) /* PhysicsEffectTable */
+     , (27770,  28,        157) /* Spell - Summon Primary Portal I */
+     , (27770,  31,      27779) /* LinkedPortalOne - Sunken Mere */
+     , (27770,  36,  234881046) /* MutateFilter */;

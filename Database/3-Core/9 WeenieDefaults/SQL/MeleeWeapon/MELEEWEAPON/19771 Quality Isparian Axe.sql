@@ -1,63 +1,59 @@
-/* Weenie - Quality Isparian Axe (19771) */
-DELETE FROM weenie WHERE class_Id = 19771;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19771, 'axeispariannostone', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19771, 001 /* NAME_STRING */, 'Quality Isparian Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19771, 001 /* SETUP_DID */, 33556256)
-     , (19771, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19771, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19771, 007 /* CLOTHINGBASE_DID */, 268436377)
-     , (19771, 008 /* ICON_DID */, 100672885)
-     , (19771, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (19771, 037 /* ITEM_SKILL_LIMIT_DID */, 1);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19771', 'axeispariannostone', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19771, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (19771, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (19771, 005 /* ENCUMB_VAL_INT */, 750)
-     , (19771, 008 /* MASS_INT */, 950)
-     , (19771, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (19771, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19771, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (19771, 019 /* VALUE_INT */, 2000)
-     , (19771, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19771, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (19771, 044 /* DAMAGE_INT */, 19)
-     , (19771, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (19771, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (19771, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (19771, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (19771, 049 /* WEAPON_TIME_INT */, 55)
-     , (19771, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (19771, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19771, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (19771, 107 /* ITEM_CUR_MANA_INT */, 300)
-     , (19771, 108 /* ITEM_MAX_MANA_INT */, 300)
-     , (19771, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 225)
-     , (19771, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (19771, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (19771, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (19771, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (19771, 160 /* WIELD_DIFFICULTY_INT */, 20);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19771, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (19771, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (19771, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (19771, 029 /* WEAPON_DEFENSE_FLOAT */, 1.04)
-     , (19771, 062 /* WEAPON_OFFENSE_FLOAT */, 1.04);
+VALUES (19771,   1,          1) /* ItemType - MeleeWeapon */
+     , (19771,   3,         39) /* PaletteTemplate - Black */
+     , (19771,   5,        750) /* EncumbranceVal */
+     , (19771,   8,        950) /* Mass */
+     , (19771,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (19771,  16,          1) /* ItemUseable - No */
+     , (19771,  18,          1) /* UiEffects - Magical */
+     , (19771,  19,       2000) /* Value */
+     , (19771,  33,          1) /* Bonded - Bonded */
+     , (19771,  36,       9999) /* ResistMagic */
+     , (19771,  44,         19) /* Damage */
+     , (19771,  45,          1) /* DamageType - Slash */
+     , (19771,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (19771,  47,          4) /* AttackType - Slash */
+     , (19771,  48,          1) /* WeaponSkill - Axe */
+     , (19771,  49,         55) /* WeaponTime */
+     , (19771,  51,          1) /* CombatUse - Melee */
+     , (19771,  93,       1044) /* PhysicsState */
+     , (19771, 106,        100) /* ItemSpellcraft */
+     , (19771, 107,        300) /* ItemCurMana */
+     , (19771, 108,        300) /* ItemMaxMana */
+     , (19771, 115,        225) /* ItemSkillLevelLimit */
+     , (19771, 150,        103) /* HookPlacement - Hook */
+     , (19771, 151,          2) /* HookType - Wall */
+     , (19771, 158,          7) /* WieldRequirements - Level */
+     , (19771, 159,          1) /* WieldSkilltype - Axe */
+     , (19771, 160,         20) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19771, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19771, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19771, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19771,  22, True ) /* Inscribable */
+     , (19771,  23, True ) /* DestroyOnSell */
+     , (19771,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19771,   5,  -0.025) /* ManaRate */
+     , (19771,  21,    0.75) /* WeaponLength */
+     , (19771,  22,     0.5) /* DamageVariance */
+     , (19771,  29,    1.04) /* WeaponDefense */
+     , (19771,  62,    1.04) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19771,   1, 'Quality Isparian Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19771,   1,   33556256) /* Setup */
+     , (19771,   3,  536870932) /* SoundTable */
+     , (19771,   6,   67111919) /* PaletteBase */
+     , (19771,   7,  268436377) /* ClothingBase */
+     , (19771,   8,  100672885) /* Icon */
+     , (19771,  22,  872415275) /* PhysicsEffectTable */
+     , (19771,  37,          1) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19771, 1589, 2) /* HeartSeeker3_SpellID */
-     , (19771, 1613, 2) /* BloodDrinker3_SpellID */;
-
+VALUES (19771,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (19771,  1613,      2)  /* Aura of Blood Drinker Self III */;

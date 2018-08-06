@@ -1,37 +1,34 @@
-/* Weenie - The Story of Koji's Sword (5700) */
-DELETE FROM weenie WHERE class_Id = 5700;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5700, 'bookkoji1', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5700, 001 /* NAME_STRING */, 'The Story of Koji''s Sword')
-     , (5700, 016 /* LONG_DESC_STRING */, 'A copy of The Story of Koji''s Sword, bought from the Hebian-To Library.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5700, 001 /* SETUP_DID */, 33554771)
-     , (5700, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5700, 008 /* ICON_DID */, 100668117)
-     , (5700, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5700', 'bookkoji1', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5700, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5700, 005 /* ENCUMB_VAL_INT */, 220)
-     , (5700, 008 /* MASS_INT */, 275)
-     , (5700, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5700, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5700, 019 /* VALUE_INT */, 120)
-     , (5700, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5700, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (5700, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (5700,   1,       8192) /* ItemType - Writable */
+     , (5700,   5,        220) /* EncumbranceVal */
+     , (5700,   8,        275) /* Mass */
+     , (5700,   9,          0) /* ValidLocations - None */
+     , (5700,  16,          8) /* ItemUseable - Contained */
+     , (5700,  19,        120) /* Value */
+     , (5700,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5700, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5700,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5700,  39,    1.22) /* DefaultScale */
+     , (5700,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5700,   1, 'The Story of Koji''s Sword') /* Name */
+     , (5700,  16, 'A copy of The Story of Koji''s Sword, bought from the Hebian-To Library.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5700,   1,   33554771) /* Setup */
+     , (5700,   3,  536870932) /* SoundTable */
+     , (5700,   8,  100668117) /* Icon */
+     , (5700,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5700, 14, 1000) /* Book Data */;
+VALUES (5700, 14, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5700, 0, 4294967295, 'Koji''s Sword', 'prewritten', False, 'Once upon a time, on a little island not part of any of the main Sho lands, stood a little temple, not much more than a shrine to Jojii.  An old man and woman lived near the shrine, taking care of it, and offering daily prayers.  They had one daughter named Koji, whom they had trained to be kind, gentle, and a master of the wooden sword (for they could not afford a real sword).  It was well known that winged sea serpents lived in the ocean nearby, and would occasionally come up onto land and, in the form of human beings, would trick people, kill them, and eat their livers.
@@ -104,4 +101,3 @@ Keep the tachi, O Heaven''s daughter.
 ')
      , (5700, 13, 4294967295, 'Koji''s Sword', 'prewritten', False, 'Then Koji realized that it must be the will of Heaven that she had the sword, so she offered her deep thanks and took the sword.  Of course, she went on to far greater adventures after that, but that is a story for another day.
 ');
-

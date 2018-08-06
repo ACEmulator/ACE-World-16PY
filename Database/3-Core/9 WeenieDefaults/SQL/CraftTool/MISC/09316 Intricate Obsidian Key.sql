@@ -1,40 +1,36 @@
-/* Weenie - Intricate Obsidian Key (9316) */
-DELETE FROM weenie WHERE class_Id = 9316;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9316, 'keypyramidgreenlarge', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9316, 001 /* NAME_STRING */, 'Intricate Obsidian Key')
-     , (9316, 016 /* LONG_DESC_STRING */, 'A key that can be used to unlock Large Mnemosynes.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9316, 001 /* SETUP_DID */, 33554784)
-     , (9316, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9316, 008 /* ICON_DID */, 100671430)
-     , (9316, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9316', 'keypyramidgreenlarge', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9316, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9316, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9316, 008 /* MASS_INT */, 10)
-     , (9316, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9316, 011 /* MAX_STACK_SIZE_INT */, 50)
-     , (9316, 012 /* STACK_SIZE_INT */, 1)
-     , (9316, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (9316, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (9316, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (9316, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (9316, 019 /* VALUE_INT */, 0)
-     , (9316, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9316, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9316, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9316, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9316, 039 /* DEFAULT_SCALE_FLOAT */, 0.75);
+VALUES (9316,   1,        128) /* ItemType - Misc */
+     , (9316,   5,         10) /* EncumbranceVal */
+     , (9316,   8,         10) /* Mass */
+     , (9316,   9,          0) /* ValidLocations - None */
+     , (9316,  11,         50) /* MaxStackSize */
+     , (9316,  12,          1) /* StackSize */
+     , (9316,  13,         10) /* StackUnitEncumbrance */
+     , (9316,  14,         10) /* StackUnitMass */
+     , (9316,  15,          0) /* StackUnitValue */
+     , (9316,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (9316,  19,          0) /* Value */
+     , (9316,  93,       1044) /* PhysicsState */
+     , (9316,  94,        128) /* TargetType - Misc */
+     , (9316, 150,        103) /* HookPlacement - Hook */
+     , (9316, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9316, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (9316, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9316,  23, True ) /* DestroyOnSell */
+     , (9316,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9316,  39,    0.75) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9316,   1, 'Intricate Obsidian Key') /* Name */
+     , (9316,  16, 'A key that can be used to unlock Large Mnemosynes.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9316,   1,   33554784) /* Setup */
+     , (9316,   3,  536870932) /* SoundTable */
+     , (9316,   8,  100671430) /* Icon */
+     , (9316,  22,  872415275) /* PhysicsEffectTable */;

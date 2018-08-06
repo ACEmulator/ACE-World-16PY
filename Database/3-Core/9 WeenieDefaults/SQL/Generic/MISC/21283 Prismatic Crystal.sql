@@ -1,27 +1,23 @@
-/* Weenie - Prismatic Crystal (21283) */
-DELETE FROM weenie WHERE class_Id = 21283;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21283, 'elementalhighcampcrystal', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21283, 001 /* NAME_STRING */, 'Prismatic Crystal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21283, 001 /* SETUP_DID */, 33557879)
-     , (21283, 008 /* ICON_DID */, 100673212);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21283', 'elementalhighcampcrystal', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21283, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (21283, 005 /* ENCUMB_VAL_INT */, 10)
-     , (21283, 008 /* MASS_INT */, 10)
-     , (21283, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (21283, 019 /* VALUE_INT */, 5)
-     , (21283, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */);
+VALUES (21283,   1,        128) /* ItemType - Misc */
+     , (21283,   5,         10) /* EncumbranceVal */
+     , (21283,   8,         10) /* Mass */
+     , (21283,  16,          1) /* ItemUseable - No */
+     , (21283,  19,          5) /* Value */
+     , (21283,  93,       3092) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21283, 001 /* STUCK_BOOL */, True)
-     , (21283, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (21283, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (21283, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (21283,   1, True ) /* Stuck */
+     , (21283,  14, True ) /* GravityStatus */
+     , (21283,  15, True ) /* LightsStatus */
+     , (21283,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21283,   1, 'Prismatic Crystal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21283,   1,   33557879) /* Setup */
+     , (21283,   8,  100673212) /* Icon */;

@@ -1,49 +1,45 @@
-/* Weenie - Bronze Short Sword (15881) */
-DELETE FROM weenie WHERE class_Id = 15881;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15881, 'swordshortstatue-monsteronly', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15881, 001 /* NAME_STRING */, 'Bronze Short Sword');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15881, 001 /* SETUP_DID */, 33554760)
-     , (15881, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15881, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (15881, 007 /* CLOTHINGBASE_DID */, 268435772)
-     , (15881, 008 /* ICON_DID */, 100669035)
-     , (15881, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (15881, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15881', 'swordshortstatue-monsteronly', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15881, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (15881, 003 /* PALETTE_TEMPLATE_INT */, 27 /* DARKGREENMETAL_PALETTE_TEMPLATE */)
-     , (15881, 005 /* ENCUMB_VAL_INT */, 350)
-     , (15881, 008 /* MASS_INT */, 140)
-     , (15881, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (15881, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15881, 019 /* VALUE_INT */, 160)
-     , (15881, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (15881, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (15881, 044 /* DAMAGE_INT */, 30)
-     , (15881, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (15881, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (15881, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (15881, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (15881, 049 /* WEAPON_TIME_INT */, 12)
-     , (15881, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (15881, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (15881, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15881, 021 /* WEAPON_LENGTH_FLOAT */, 0.68)
-     , (15881, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (15881, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (15881, 039 /* DEFAULT_SCALE_FLOAT */, 2.5)
-     , (15881, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (15881,   1,          1) /* ItemType - MeleeWeapon */
+     , (15881,   3,         27) /* PaletteTemplate - DarkGreenMetal */
+     , (15881,   5,        350) /* EncumbranceVal */
+     , (15881,   8,        140) /* Mass */
+     , (15881,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (15881,  16,          1) /* ItemUseable - No */
+     , (15881,  19,        160) /* Value */
+     , (15881,  33,         -2) /* Bonded - Destroy */
+     , (15881,  37,       9999) /* ResistItemAppraisal */
+     , (15881,  44,         30) /* Damage */
+     , (15881,  45,          3) /* DamageType */
+     , (15881,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (15881,  47,          6) /* AttackType */
+     , (15881,  48,         11) /* WeaponSkill - Sword */
+     , (15881,  49,         12) /* WeaponTime */
+     , (15881,  51,          1) /* CombatUse - Melee */
+     , (15881,  93,       1044) /* PhysicsState */
+     , (15881, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15881, 022 /* INSCRIBABLE_BOOL */, True)
-     , (15881, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (15881,  22, True ) /* Inscribable */
+     , (15881,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15881,  21,    0.68) /* WeaponLength */
+     , (15881,  22,     0.5) /* DamageVariance */
+     , (15881,  29,       1) /* WeaponDefense */
+     , (15881,  39,     2.5) /* DefaultScale */
+     , (15881,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15881,   1, 'Bronze Short Sword') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15881,   1,   33554760) /* Setup */
+     , (15881,   3,  536870932) /* SoundTable */
+     , (15881,   6,   67111919) /* PaletteBase */
+     , (15881,   7,  268435772) /* ClothingBase */
+     , (15881,   8,  100669035) /* Icon */
+     , (15881,  22,  872415275) /* PhysicsEffectTable */
+     , (15881,  36,  234881044) /* MutateFilter */;

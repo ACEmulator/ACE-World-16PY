@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Thrown Weapons Ineptitude III (3529) */
-DELETE FROM weenie WHERE class_Id = 3529;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3529, 'scrollthrownineptitude3', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3529, 001 /* NAME_STRING */, 'Scroll of Thrown Weapons Ineptitude III')
-     , (3529, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3529, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Thrown Weapons skill by 33%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3529, 001 /* SETUP_DID */, 33554826)
-     , (3529, 008 /* ICON_DID */, 100676476)
-     , (3529, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3529, 028 /* SPELL_DID */, 547 /* ThrownWeaponIneptitudeOther3_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3529', 'scrollthrownineptitude3', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3529, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3529, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3529, 008 /* MASS_INT */, 90)
-     , (3529, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3529, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3529, 019 /* VALUE_INT */, 20)
-     , (3529, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3529, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3529,   1,       8192) /* ItemType - Writable */
+     , (3529,   5,         30) /* EncumbranceVal */
+     , (3529,   8,         90) /* Mass */
+     , (3529,   9,          0) /* ValidLocations - None */
+     , (3529,  16,          8) /* ItemUseable - Contained */
+     , (3529,  19,         20) /* Value */
+     , (3529,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3529, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3529, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3529,  22, True ) /* Inscribable */
+     , (3529,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3529,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3529,   1, 'Scroll of Thrown Weapons Ineptitude III') /* Name */
+     , (3529,  15, 'A magic scroll.') /* ShortDesc */
+     , (3529,  16, 'When learned, this spell decreases the target''s Thrown Weapons skill by 33%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3529,   1,   33554826) /* Setup */
+     , (3529,   8,  100676476) /* Icon */
+     , (3529,  22,  872415275) /* PhysicsEffectTable */
+     , (3529,  28,        547) /* Spell - Missile Weapon Ineptitude Other III */;

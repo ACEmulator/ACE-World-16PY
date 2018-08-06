@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Extinguish Creature Magic Self (20313) */
-DELETE FROM weenie WHERE class_Id = 20313;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20313, 'scrolldispelcreaturegoodself2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20313, 001 /* NAME_STRING */, 'Scroll of Extinguish Creature Magic Self')
-     , (20313, 015 /* SHORT_DESC_STRING */, 'When learned, this spell dispels 1-3 positive Creature Magic enchantments of level 2 or lower from the caster.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20313, 001 /* SETUP_DID */, 33554826)
-     , (20313, 008 /* ICON_DID */, 100676647)
-     , (20313, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20313, 028 /* SPELL_DID */, 1893 /* DispelCreatureGoodSelf2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20313', 'scrolldispelcreaturegoodself2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20313, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20313, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20313, 008 /* MASS_INT */, 90)
-     , (20313, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20313, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20313, 019 /* VALUE_INT */, 5)
-     , (20313, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20313, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20313,   1,       8192) /* ItemType - Writable */
+     , (20313,   5,         30) /* EncumbranceVal */
+     , (20313,   8,         90) /* Mass */
+     , (20313,   9,          0) /* ValidLocations - None */
+     , (20313,  16,          8) /* ItemUseable - Contained */
+     , (20313,  19,          5) /* Value */
+     , (20313,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20313, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20313, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20313,  22, True ) /* Inscribable */
+     , (20313,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20313,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20313,   1, 'Scroll of Extinguish Creature Magic Self') /* Name */
+     , (20313,  15, 'When learned, this spell dispels 1-3 positive Creature Magic enchantments of level 2 or lower from the caster.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20313,   1,   33554826) /* Setup */
+     , (20313,   8,  100676647) /* Icon */
+     , (20313,  22,  872415275) /* PhysicsEffectTable */
+     , (20313,  28,       1893) /* Spell - Extinguish Creature Magic Self */;

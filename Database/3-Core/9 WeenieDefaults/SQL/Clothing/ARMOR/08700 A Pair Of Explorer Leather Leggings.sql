@@ -1,55 +1,51 @@
-/* Weenie - A Pair Of Explorer Leather Leggings (8700) */
-DELETE FROM weenie WHERE class_Id = 8700;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8700, 'leggingsleatherrarenewbiequest', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8700, 001 /* NAME_STRING */, 'A Pair Of Explorer Leather Leggings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8700, 001 /* SETUP_DID */, 33554856)
-     , (8700, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8700, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (8700, 007 /* CLOTHINGBASE_DID */, 268436702)
-     , (8700, 008 /* ICON_DID */, 100667352)
-     , (8700, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8700', 'leggingsleatherrarenewbiequest', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8700, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (8700, 003 /* PALETTE_TEMPLATE_INT */, 27 /* DARKGREENMETAL_PALETTE_TEMPLATE */)
-     , (8700, 004 /* CLOTHING_PRIORITY_INT */, 768 /* OuterwearUpperLegs, OuterwearLowerLegs */)
-     , (8700, 005 /* ENCUMB_VAL_INT */, 600)
-     , (8700, 008 /* MASS_INT */, 320)
-     , (8700, 009 /* LOCATIONS_INT */, 24576 /* UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (8700, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8700, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8700, 019 /* VALUE_INT */, 1)
-     , (8700, 027 /* ARMOR_TYPE_INT */, 2)
-     , (8700, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (8700, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8700, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (8700, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (8700, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (8700, 109 /* ITEM_DIFFICULTY_INT */, 15);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8700, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (8700, 012 /* SHADE_FLOAT */, 0.66)
-     , (8700, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (8700, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (8700, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (8700, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (8700, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
-     , (8700, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (8700, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (8700, 110 /* BULK_MOD_FLOAT */, 1)
-     , (8700, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (8700,   1,          2) /* ItemType - Armor */
+     , (8700,   3,         27) /* PaletteTemplate - DarkGreenMetal */
+     , (8700,   4,        768) /* ClothingPriority */
+     , (8700,   5,        600) /* EncumbranceVal */
+     , (8700,   8,        320) /* Mass */
+     , (8700,   9,      24576) /* ValidLocations */
+     , (8700,  16,          1) /* ItemUseable - No */
+     , (8700,  18,          1) /* UiEffects - Magical */
+     , (8700,  19,          1) /* Value */
+     , (8700,  27,          2) /* ArmorType */
+     , (8700,  28,        100) /* ArmorLevel */
+     , (8700,  93,       1044) /* PhysicsState */
+     , (8700, 106,        150) /* ItemSpellcraft */
+     , (8700, 107,        400) /* ItemCurMana */
+     , (8700, 108,        400) /* ItemMaxMana */
+     , (8700, 109,         15) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8700, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (8700,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8700,   5,  -0.025) /* ManaRate */
+     , (8700,  12,    0.66) /* Shade */
+     , (8700,  13,       1) /* ArmorModVsSlash */
+     , (8700,  14,       1) /* ArmorModVsPierce */
+     , (8700,  15,       1) /* ArmorModVsBludgeon */
+     , (8700,  16,     0.6) /* ArmorModVsCold */
+     , (8700,  17,     0.6) /* ArmorModVsFire */
+     , (8700,  18,     0.6) /* ArmorModVsAcid */
+     , (8700,  19,     0.6) /* ArmorModVsElectric */
+     , (8700, 110,       1) /* BulkMod */
+     , (8700, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8700,   1, 'A Pair Of Explorer Leather Leggings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8700,   1,   33554856) /* Setup */
+     , (8700,   3,  536870932) /* SoundTable */
+     , (8700,   6,   67108990) /* PaletteBase */
+     , (8700,   7,  268436702) /* ClothingBase */
+     , (8700,   8,  100667352) /* Icon */
+     , (8700,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8700, 1483, 2) /* Impenetrability3_SpellID */
-     , (8700, 1117, 2) /* BladeProtectionOther3_SpellID */;
-
+VALUES (8700,  1117,      2)  /* Blade Protection Other III */
+     , (8700,  1483,      2)  /* Impenetrability III */;

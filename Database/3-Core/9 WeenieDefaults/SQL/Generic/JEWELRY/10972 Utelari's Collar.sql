@@ -1,45 +1,41 @@
-/* Weenie - Utelari's Collar (10972) */
-DELETE FROM weenie WHERE class_Id = 10972;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10972, 'collarreedshark3-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10972, 001 /* NAME_STRING */, 'Utelari''s Collar')
-     , (10972, 016 /* LONG_DESC_STRING */, 'A spiked collar, smelling faintly of Reedshark.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10972, 001 /* SETUP_DID */, 33554810)
-     , (10972, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10972, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (10972, 008 /* ICON_DID */, 100671855)
-     , (10972, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (10972, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10972', 'collarreedshark3-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10972, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (10972, 005 /* ENCUMB_VAL_INT */, 50)
-     , (10972, 008 /* MASS_INT */, 50)
-     , (10972, 009 /* LOCATIONS_INT */, 32768 /* NECK_WEAR_LOC */)
-     , (10972, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10972, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (10972, 019 /* VALUE_INT */, 5800)
-     , (10972, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (10972, 106 /* ITEM_SPELLCRAFT_INT */, 225)
-     , (10972, 107 /* ITEM_CUR_MANA_INT */, 1400)
-     , (10972, 108 /* ITEM_MAX_MANA_INT */, 1400)
-     , (10972, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (10972, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 1);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10972, 005 /* MANA_RATE_FLOAT */, -0.01)
-     , (10972, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
+VALUES (10972,   1,          8) /* ItemType - Jewelry */
+     , (10972,   5,         50) /* EncumbranceVal */
+     , (10972,   8,         50) /* Mass */
+     , (10972,   9,      32768) /* ValidLocations - NeckWear */
+     , (10972,  16,          1) /* ItemUseable - No */
+     , (10972,  18,          1) /* UiEffects - Magical */
+     , (10972,  19,       5800) /* Value */
+     , (10972,  93,       1044) /* PhysicsState */
+     , (10972, 106,        225) /* ItemSpellcraft */
+     , (10972, 107,       1400) /* ItemCurMana */
+     , (10972, 108,       1400) /* ItemMaxMana */
+     , (10972, 109,          0) /* ItemDifficulty */
+     , (10972, 110,          1) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10972, 022 /* INSCRIBABLE_BOOL */, True)
-     , (10972, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (10972,  22, True ) /* Inscribable */
+     , (10972,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10972,   5,   -0.01) /* ManaRate */
+     , (10972,  39,     0.8) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10972,   1, 'Utelari''s Collar') /* Name */
+     , (10972,  16, 'A spiked collar, smelling faintly of Reedshark.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10972,   1,   33554810) /* Setup */
+     , (10972,   3,  536870932) /* SoundTable */
+     , (10972,   6,   67111919) /* PaletteBase */
+     , (10972,   8,  100671855) /* Icon */
+     , (10972,  22,  872415275) /* PhysicsEffectTable */
+     , (10972,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10972, 1384, 2) /* CoordinationOther6_SpellID */
-     , (10972, 957, 2) /* FealtyOther6_SpellID */;
-
+VALUES (10972,   957,      2)  /* Fealty Other VI */
+     , (10972,  1384,      2)  /* Coordination Other VI */;

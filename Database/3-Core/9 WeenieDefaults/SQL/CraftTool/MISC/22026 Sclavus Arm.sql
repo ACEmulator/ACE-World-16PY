@@ -1,39 +1,35 @@
-/* Weenie - Sclavus Arm (22026) */
-DELETE FROM weenie WHERE class_Id = 22026;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22026, 'armsclavus', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22026, 001 /* NAME_STRING */, 'Sclavus Arm')
-     , (22026, 014 /* USE_STRING */, 'Use this on a sclavus torso or a sclavus torso already fitted with an arm.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22026, 001 /* SETUP_DID */, 33558029)
-     , (22026, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22026, 008 /* ICON_DID */, 100673695)
-     , (22026, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22026', 'armsclavus', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22026, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22026, 005 /* ENCUMB_VAL_INT */, 300)
-     , (22026, 008 /* MASS_INT */, 800)
-     , (22026, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22026, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (22026, 012 /* STACK_SIZE_INT */, 1)
-     , (22026, 013 /* STACK_UNIT_ENCUMB_INT */, 300)
-     , (22026, 014 /* STACK_UNIT_MASS_INT */, 800)
-     , (22026, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (22026, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (22026, 019 /* VALUE_INT */, 0)
-     , (22026, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
-     , (22026, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22026, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22026, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
-     , (22026, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22026, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (22026,   1,        128) /* ItemType - Misc */
+     , (22026,   5,        300) /* EncumbranceVal */
+     , (22026,   8,        800) /* Mass */
+     , (22026,   9,          0) /* ValidLocations - None */
+     , (22026,  11,          1) /* MaxStackSize */
+     , (22026,  12,          1) /* StackSize */
+     , (22026,  13,        300) /* StackUnitEncumbrance */
+     , (22026,  14,        800) /* StackUnitMass */
+     , (22026,  15,          0) /* StackUnitValue */
+     , (22026,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (22026,  19,          0) /* Value */
+     , (22026,  33,          0) /* Bonded - Normal */
+     , (22026,  93,       1044) /* PhysicsState */
+     , (22026,  94,        128) /* TargetType - Misc */
+     , (22026, 114,          0) /* Attuned - Normal */
+     , (22026, 150,        103) /* HookPlacement - Hook */
+     , (22026, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22026, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22026, 023 /* DESTROY_ON_SELL_BOOL */, False);
+VALUES (22026,  22, True ) /* Inscribable */
+     , (22026,  23, False) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22026,   1, 'Sclavus Arm') /* Name */
+     , (22026,  14, 'Use this on a sclavus torso or a sclavus torso already fitted with an arm.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22026,   1,   33558029) /* Setup */
+     , (22026,   3,  536870932) /* SoundTable */
+     , (22026,   8,  100673695) /* Icon */
+     , (22026,  22,  872415275) /* PhysicsEffectTable */;

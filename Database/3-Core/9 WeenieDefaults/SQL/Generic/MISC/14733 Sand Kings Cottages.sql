@@ -1,28 +1,24 @@
-/* Weenie - Sand Kings Cottages (14733) */
-DELETE FROM weenie WHERE class_Id = 14733;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14733, 'sandkingscottagessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14733, 001 /* NAME_STRING */, 'Sand Kings Cottages')
-     , (14733, 016 /* LONG_DESC_STRING */, 'Welcome to Sand Kings Cottages');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14733, 001 /* SETUP_DID */, 33557463)
-     , (14733, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14733', 'sandkingscottagessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14733, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14733, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14733, 008 /* MASS_INT */, 1800)
-     , (14733, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14733, 019 /* VALUE_INT */, 125)
-     , (14733, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14733,   1,        128) /* ItemType - Misc */
+     , (14733,   5,       9000) /* EncumbranceVal */
+     , (14733,   8,       1800) /* Mass */
+     , (14733,  16,          1) /* ItemUseable - No */
+     , (14733,  19,        125) /* Value */
+     , (14733,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14733, 001 /* STUCK_BOOL */, True)
-     , (14733, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14733, 013 /* ETHEREAL_BOOL */, False)
-     , (14733, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14733,   1, True ) /* Stuck */
+     , (14733,  12, True ) /* ReportCollisions */
+     , (14733,  13, False) /* Ethereal */
+     , (14733,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14733,   1, 'Sand Kings Cottages') /* Name */
+     , (14733,  16, 'Welcome to Sand Kings Cottages') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14733,   1,   33557463) /* Setup */
+     , (14733,   8,  100668115) /* Icon */;

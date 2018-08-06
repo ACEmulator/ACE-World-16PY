@@ -1,36 +1,32 @@
-/* Weenie - Coleslaw (4720) */
-DELETE FROM weenie WHERE class_Id = 4720;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4720, 'coleslaw', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4720, 001 /* NAME_STRING */, 'Coleslaw')
-     , (4720, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (4720, 020 /* PLURAL_NAME_STRING */, 'Bowls of Coleslaw');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4720, 001 /* SETUP_DID */, 33554668)
-     , (4720, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4720, 008 /* ICON_DID */, 100669952)
-     , (4720, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4720', 'coleslaw', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4720, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (4720, 005 /* ENCUMB_VAL_INT */, 35)
-     , (4720, 008 /* MASS_INT */, 25)
-     , (4720, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4720, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (4720, 012 /* STACK_SIZE_INT */, 1)
-     , (4720, 013 /* STACK_UNIT_ENCUMB_INT */, 35)
-     , (4720, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (4720, 015 /* STACK_UNIT_VALUE_INT */, 16)
-     , (4720, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (4720, 019 /* VALUE_INT */, 16)
-     , (4720, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (4720, 090 /* BOOST_VALUE_INT */, 6)
-     , (4720, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4720,   1,         32) /* ItemType - Food */
+     , (4720,   5,         35) /* EncumbranceVal */
+     , (4720,   8,         25) /* Mass */
+     , (4720,   9,          0) /* ValidLocations - None */
+     , (4720,  11,        100) /* MaxStackSize */
+     , (4720,  12,          1) /* StackSize */
+     , (4720,  13,         35) /* StackUnitEncumbrance */
+     , (4720,  14,         25) /* StackUnitMass */
+     , (4720,  15,         16) /* StackUnitValue */
+     , (4720,  16,          8) /* ItemUseable - Contained */
+     , (4720,  19,         16) /* Value */
+     , (4720,  89,          4) /* BoosterEnum - Stamina */
+     , (4720,  90,          6) /* BoostValue */
+     , (4720,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4720, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (4720,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4720,   1, 'Coleslaw') /* Name */
+     , (4720,  14, 'Use this item to eat it.') /* Use */
+     , (4720,  20, 'Bowls of Coleslaw') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4720,   1,   33554668) /* Setup */
+     , (4720,   3,  536870932) /* SoundTable */
+     , (4720,   8,  100669952) /* Icon */
+     , (4720,  22,  872415275) /* PhysicsEffectTable */;

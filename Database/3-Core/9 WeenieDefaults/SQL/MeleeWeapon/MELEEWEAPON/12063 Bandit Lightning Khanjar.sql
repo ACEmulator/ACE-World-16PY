@@ -1,48 +1,44 @@
-/* Weenie - Bandit Lightning Khanjar (12063) */
-DELETE FROM weenie WHERE class_Id = 12063;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12063, 'khanjarelectricbandit', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12063, 001 /* NAME_STRING */, 'Bandit Lightning Khanjar');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12063, 001 /* SETUP_DID */, 33555748)
-     , (12063, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12063, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12063, 007 /* CLOTHINGBASE_DID */, 268435790)
-     , (12063, 008 /* ICON_DID */, 100667597)
-     , (12063, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12063, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12063', 'khanjarelectricbandit', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12063, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (12063, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (12063, 005 /* ENCUMB_VAL_INT */, 120)
-     , (12063, 008 /* MASS_INT */, 80)
-     , (12063, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (12063, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12063, 018 /* UI_EFFECTS_INT */, 64 /* UI_EFFECT_LIGHTNING */)
-     , (12063, 019 /* VALUE_INT */, 90)
-     , (12063, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (12063, 044 /* DAMAGE_INT */, 4)
-     , (12063, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (12063, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (12063, 047 /* ATTACK_TYPE_INT */, 486 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, TripleSlash_AttackType, DoubleThrust_AttackType, TripleThrust_AttackType */)
-     , (12063, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (12063, 049 /* WEAPON_TIME_INT */, 20)
-     , (12063, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (12063, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12063, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12063, 021 /* WEAPON_LENGTH_FLOAT */, 0.35)
-     , (12063, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (12063, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (12063, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (12063, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (12063,   1,          1) /* ItemType - MeleeWeapon */
+     , (12063,   3,         20) /* PaletteTemplate - Silver */
+     , (12063,   5,        120) /* EncumbranceVal */
+     , (12063,   8,         80) /* Mass */
+     , (12063,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12063,  16,          1) /* ItemUseable - No */
+     , (12063,  18,         64) /* UiEffects - Lightning */
+     , (12063,  19,         90) /* Value */
+     , (12063,  33,         -2) /* Bonded - Destroy */
+     , (12063,  44,          4) /* Damage */
+     , (12063,  45,         64) /* DamageType - Electric */
+     , (12063,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (12063,  47,        486) /* AttackType */
+     , (12063,  48,          4) /* WeaponSkill - Dagger */
+     , (12063,  49,         20) /* WeaponTime */
+     , (12063,  51,          1) /* CombatUse - Melee */
+     , (12063,  93,       1044) /* PhysicsState */
+     , (12063, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12063, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (12063,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12063,  21,    0.35) /* WeaponLength */
+     , (12063,  22,    0.75) /* DamageVariance */
+     , (12063,  29,       1) /* WeaponDefense */
+     , (12063,  39,    1.25) /* DefaultScale */
+     , (12063,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12063,   1, 'Bandit Lightning Khanjar') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12063,   1,   33555748) /* Setup */
+     , (12063,   3,  536870932) /* SoundTable */
+     , (12063,   6,   67111919) /* PaletteBase */
+     , (12063,   7,  268435790) /* ClothingBase */
+     , (12063,   8,  100667597) /* Icon */
+     , (12063,  22,  872415275) /* PhysicsEffectTable */
+     , (12063,  36,  234881044) /* MutateFilter */;

@@ -1,35 +1,32 @@
-/* Weenie - Chronicle of Archeological Site Celadon (22092) */
-DELETE FROM weenie WHERE class_Id = 22092;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22092, 'translatedsheafofpapers', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22092, 001 /* NAME_STRING */, 'Chronicle of Archeological Site Celadon');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22092, 001 /* SETUP_DID */, 33554771)
-     , (22092, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22092, 008 /* ICON_DID */, 100668117)
-     , (22092, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22092', 'translatedsheafofpapers', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22092, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (22092, 005 /* ENCUMB_VAL_INT */, 160)
-     , (22092, 008 /* MASS_INT */, 200)
-     , (22092, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22092, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22092, 019 /* VALUE_INT */, 25)
-     , (22092, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22092, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (22092,   1,       8192) /* ItemType - Writable */
+     , (22092,   5,        160) /* EncumbranceVal */
+     , (22092,   8,        200) /* Mass */
+     , (22092,   9,          0) /* ValidLocations - None */
+     , (22092,  16,          8) /* ItemUseable - Contained */
+     , (22092,  19,         25) /* Value */
+     , (22092,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22092, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22092,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22092,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22092,   1, 'Chronicle of Archeological Site Celadon') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22092,   1,   33554771) /* Setup */
+     , (22092,   3,  536870932) /* SoundTable */
+     , (22092,   8,  100668117) /* Icon */
+     , (22092,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (22092, 36, 1000) /* Book Data */;
+VALUES (22092, 36, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (22092, 0, 4294967295, 'Jaerak Tiolan', 'prewritten', False, 'Day One
@@ -186,4 +183,3 @@ At the end of all now, I believe I know the truth of it. These are not the Deric
 
 They are so close now. If anyone should find this
 ');
-

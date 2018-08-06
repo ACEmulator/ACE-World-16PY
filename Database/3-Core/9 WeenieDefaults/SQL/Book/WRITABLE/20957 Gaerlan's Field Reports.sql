@@ -1,37 +1,34 @@
-/* Weenie - Gaerlan's Field Reports (20957) */
-DELETE FROM weenie WHERE class_Id = 20957;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20957, 'bookgaerlansreports', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20957, 001 /* NAME_STRING */, 'Gaerlan''s Field Reports')
-     , (20957, 015 /* SHORT_DESC_STRING */, 'A set of letters that have been bound within a book.')
-     , (20957, 016 /* LONG_DESC_STRING */, 'A set of letters that have been bound within a book.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20957, 001 /* SETUP_DID */, 33556929)
-     , (20957, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20957, 008 /* ICON_DID */, 100673196)
-     , (20957, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20957', 'bookgaerlansreports', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20957, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20957, 005 /* ENCUMB_VAL_INT */, 160)
-     , (20957, 008 /* MASS_INT */, 200)
-     , (20957, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20957, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20957, 019 /* VALUE_INT */, 0)
-     , (20957, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20957, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (20957,   1,       8192) /* ItemType - Writable */
+     , (20957,   5,        160) /* EncumbranceVal */
+     , (20957,   8,        200) /* Mass */
+     , (20957,   9,          0) /* ValidLocations - None */
+     , (20957,  16,          8) /* ItemUseable - Contained */
+     , (20957,  19,          0) /* Value */
+     , (20957,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20957, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (20957,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20957,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20957,   1, 'Gaerlan''s Field Reports') /* Name */
+     , (20957,  15, 'A set of letters that have been bound within a book.') /* ShortDesc */
+     , (20957,  16, 'A set of letters that have been bound within a book.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20957,   1,   33556929) /* Setup */
+     , (20957,   3,  536870932) /* SoundTable */
+     , (20957,   8,  100673196) /* Icon */
+     , (20957,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (20957, 7, 1000) /* Book Data */;
+VALUES (20957, 7, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (20957, 0, 4294967295, 'Gaerlan', 'prewritten', False, 'Event: Third visit to the Olthoi Homeworld.
@@ -75,4 +72,3 @@ It has become obvious that his devotion to these things drives him now. He has a
 ')
      , (20957, 6, 4294967295, 'Gaerlan', 'prewritten', False, '
 ');
-

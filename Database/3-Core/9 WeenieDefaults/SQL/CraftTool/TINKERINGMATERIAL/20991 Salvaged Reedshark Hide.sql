@@ -1,45 +1,41 @@
-/* Weenie - Salvaged Reedshark Hide (20991) */
-DELETE FROM weenie WHERE class_Id = 20991;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20991, 'materialreedsharkhide', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20991, 001 /* NAME_STRING */, 'Salvaged Reedshark Hide')
-     , (20991, 014 /* USE_STRING */, 'Apply this material to treasure-generated armor to increase the armor''s protection against lightning by 0.4.')
-     , (20991, 015 /* SHORT_DESC_STRING */, 'A strip of reedshark hide material salvaged from old items.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20991, 001 /* SETUP_DID */, 33554817)
-     , (20991, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20991, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20991, 007 /* CLOTHINGBASE_DID */, 268436430)
-     , (20991, 008 /* ICON_DID */, 100667436)
-     , (20991, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20991, 050 /* ICON_OVERLAY_DID */, 100673236);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20991', 'materialreedsharkhide', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20991, 001 /* ITEM_TYPE_INT */, 1073741824 /* TYPE_TINKERING_MATERIAL */)
-     , (20991, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (20991, 005 /* ENCUMB_VAL_INT */, 100)
-     , (20991, 008 /* MASS_INT */, 100)
-     , (20991, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20991, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (20991, 012 /* STACK_SIZE_INT */, 1)
-     , (20991, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (20991, 014 /* STACK_UNIT_MASS_INT */, 100)
-     , (20991, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (20991, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (20991, 019 /* VALUE_INT */, 10)
-     , (20991, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (20991, 091 /* MAX_STRUCTURE_INT */, 100)
-     , (20991, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20991, 094 /* TARGET_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (20991, 131 /* MATERIAL_TYPE_INT */, 55 /* Reed_Shark_Hide_MaterialType */)
-     , (20991, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (20991, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (20991,   1, 1073741824) /* ItemType - TinkeringMaterial */
+     , (20991,   3,         13) /* PaletteTemplate - Purple */
+     , (20991,   5,        100) /* EncumbranceVal */
+     , (20991,   8,        100) /* Mass */
+     , (20991,   9,          0) /* ValidLocations - None */
+     , (20991,  11,          1) /* MaxStackSize */
+     , (20991,  12,          1) /* StackSize */
+     , (20991,  13,        100) /* StackUnitEncumbrance */
+     , (20991,  14,        100) /* StackUnitMass */
+     , (20991,  15,         10) /* StackUnitValue */
+     , (20991,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (20991,  19,         10) /* Value */
+     , (20991,  33,          1) /* Bonded - Bonded */
+     , (20991,  91,        100) /* MaxStructure */
+     , (20991,  93,       1044) /* PhysicsState */
+     , (20991,  94,          2) /* TargetType - Armor */
+     , (20991, 131,         55) /* MaterialType - ReedSharkHide */
+     , (20991, 150,        103) /* HookPlacement - Hook */
+     , (20991, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20991, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20991, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20991,  22, True ) /* Inscribable */
+     , (20991,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20991,   1, 'Salvaged Reedshark Hide') /* Name */
+     , (20991,  14, 'Apply this material to treasure-generated armor to increase the armor''s protection against lightning by 0.4.') /* Use */
+     , (20991,  15, 'A strip of reedshark hide material salvaged from old items.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20991,   1,   33554817) /* Setup */
+     , (20991,   3,  536870932) /* SoundTable */
+     , (20991,   6,   67111919) /* PaletteBase */
+     , (20991,   7,  268436430) /* ClothingBase */
+     , (20991,   8,  100667436) /* Icon */
+     , (20991,  22,  872415275) /* PhysicsEffectTable */
+     , (20991,  50,  100673236) /* IconOverlay */;

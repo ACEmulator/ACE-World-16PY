@@ -1,6 +1,11 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (171, 1920040960, 655884544, 149.99, 30.8226, 49.66, -0.706334, 0, 0, 0.707878) /* Vat */
-     , (1372, 1920040961, 655884544, 149.327, 32.7016, 49.66, -0.989878, 0, 0, 0.141921) /* Armorer */
-     , (1378, 1920040962, 655884544, 142.302, 37.2257, 49.66, -0.597912, 0, 0, 0.801561) /* Roaming Bowyer */
-     , (1017, 1920040963, 655884288, 137.465, 36.5778, 56.005, 0.702803, 0, 0, -0.711385) /* Glenden Wood Portal */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1920040960,   171, 655884544, 149.99, 30.8226, 49.66, -0.706334, 0, 0, 0.707878, False); /* Vat */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1920040961,  1372, 655884544, 149.327, 32.7016, 49.66, -0.989878, 0, 0, 0.141921, False); /* Armorer */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1920040962,  1378, 655884544, 142.302, 37.2257, 49.66, -0.597912, 0, 0, 0.801561, False); /* Roaming Bowyer */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1920040963,  1017, 655884288, 137.465, 36.5778, 56.005, 0.702803, 0, 0, -0.711385, False); /* Glenden Wood Portal */

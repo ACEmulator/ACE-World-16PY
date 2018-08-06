@@ -1,65 +1,61 @@
-/* Weenie - Composite Crossbow with Handle (6984) */
-DELETE FROM weenie WHERE class_Id = 6984;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6984, 'crossbowcompositedmg1def3spd2atk1', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6984, 001 /* NAME_STRING */, 'Composite Crossbow with Handle');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6984, 001 /* SETUP_DID */, 33556596)
-     , (6984, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6984, 006 /* PALETTE_BASE_DID */, 67112869)
-     , (6984, 007 /* CLOTHINGBASE_DID */, 268436004)
-     , (6984, 008 /* ICON_DID */, 100670692)
-     , (6984, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6984, 037 /* ITEM_SKILL_LIMIT_DID */, 3);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6984', 'crossbowcompositedmg1def3spd2atk1', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6984, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (6984, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (6984, 005 /* ENCUMB_VAL_INT */, 1920)
-     , (6984, 008 /* MASS_INT */, 640)
-     , (6984, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (6984, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6984, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6984, 019 /* VALUE_INT */, 375)
-     , (6984, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6984, 044 /* DAMAGE_INT */, 0)
-     , (6984, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (6984, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (6984, 049 /* WEAPON_TIME_INT */, 105)
-     , (6984, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (6984, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (6984, 052 /* PARENT_LOCATION_INT */, 2)
-     , (6984, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (6984, 060 /* WEAPON_RANGE_INT */, 192)
-     , (6984, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6984, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (6984, 107 /* ITEM_CUR_MANA_INT */, 0)
-     , (6984, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (6984, 109 /* ITEM_DIFFICULTY_INT */, 100)
-     , (6984, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (6984, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 170)
-     , (6984, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6984, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6984, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (6984, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (6984, 029 /* WEAPON_DEFENSE_FLOAT */, 1.06)
-     , (6984, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (6984, 062 /* WEAPON_OFFENSE_FLOAT */, 1.02)
-     , (6984, 063 /* DAMAGE_MOD_FLOAT */, 1.6);
+VALUES (6984,   1,        256) /* ItemType - MissileWeapon */
+     , (6984,   3,         20) /* PaletteTemplate - Silver */
+     , (6984,   5,       1920) /* EncumbranceVal */
+     , (6984,   8,        640) /* Mass */
+     , (6984,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (6984,  16,          1) /* ItemUseable - No */
+     , (6984,  18,          1) /* UiEffects - Magical */
+     , (6984,  19,        375) /* Value */
+     , (6984,  33,          1) /* Bonded - Bonded */
+     , (6984,  44,          0) /* Damage */
+     , (6984,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (6984,  48,          3) /* WeaponSkill - Crossbow */
+     , (6984,  49,        105) /* WeaponTime */
+     , (6984,  50,          2) /* AmmoType - Bolt */
+     , (6984,  51,          2) /* CombatUse - Missle */
+     , (6984,  52,          2) /* ParentLocation */
+     , (6984,  53,          3) /* PlacementPosition */
+     , (6984,  60,        192) /* WeaponRange */
+     , (6984,  93,       1044) /* PhysicsState */
+     , (6984, 106,        200) /* ItemSpellcraft */
+     , (6984, 107,          0) /* ItemCurMana */
+     , (6984, 108,        500) /* ItemMaxMana */
+     , (6984, 109,        100) /* ItemDifficulty */
+     , (6984, 114,          1) /* Attuned - Attuned */
+     , (6984, 115,        170) /* ItemSkillLevelLimit */
+     , (6984, 150,        103) /* HookPlacement - Hook */
+     , (6984, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6984, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6984, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6984, 069 /* IS_SELLABLE_BOOL */, False)
-     , (6984, 099 /* IVORYABLE_BOOL */, True);
+VALUES (6984,  22, True ) /* Inscribable */
+     , (6984,  23, True ) /* DestroyOnSell */
+     , (6984,  69, False) /* IsSellable */
+     , (6984,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6984,   5,   -0.05) /* ManaRate */
+     , (6984,  26,    27.3) /* MaximumVelocity */
+     , (6984,  29,    1.06) /* WeaponDefense */
+     , (6984,  39,    1.25) /* DefaultScale */
+     , (6984,  62,    1.02) /* WeaponOffense */
+     , (6984,  63,     1.6) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6984,   1, 'Composite Crossbow with Handle') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6984,   1,   33556596) /* Setup */
+     , (6984,   3,  536870932) /* SoundTable */
+     , (6984,   6,   67112869) /* PaletteBase */
+     , (6984,   7,  268436004) /* ClothingBase */
+     , (6984,   8,  100670692) /* Icon */
+     , (6984,  22,  872415275) /* PhysicsEffectTable */
+     , (6984,  37,          3) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6984, 1613, 2) /* BloodDrinker3_SpellID */
-     , (6984, 487, 2) /* CrossBowMasteryOther3_SpellID */;
-
+VALUES (6984,   487,      2)  /* Missile Weapon Mastery Other III */
+     , (6984,  1613,      2)  /* Aura of Blood Drinker Self III */;

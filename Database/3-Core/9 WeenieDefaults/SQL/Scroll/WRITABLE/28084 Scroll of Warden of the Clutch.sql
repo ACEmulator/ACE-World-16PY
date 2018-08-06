@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Warden of the Clutch (28084) */
-DELETE FROM weenie WHERE class_Id = 28084;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28084, 'scrollimpregnabilityfellowship6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28084, 001 /* NAME_STRING */, 'Scroll of Warden of the Clutch')
-     , (28084, 015 /* SHORT_DESC_STRING */, 'When learned, this spell enhances the Missile Defense of all Fellowship members by 35 points for 45 minutes.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28084, 001 /* SETUP_DID */, 33554826)
-     , (28084, 008 /* ICON_DID */, 100676468)
-     , (28084, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28084, 028 /* SPELL_DID */, 3350 /* ImpregnabilityFellowship6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28084', 'scrollimpregnabilityfellowship6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28084, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28084, 005 /* ENCUMB_VAL_INT */, 30)
-     , (28084, 008 /* MASS_INT */, 90)
-     , (28084, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28084, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28084, 019 /* VALUE_INT */, 1000)
-     , (28084, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28084, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (28084,   1,       8192) /* ItemType - Writable */
+     , (28084,   5,         30) /* EncumbranceVal */
+     , (28084,   8,         90) /* Mass */
+     , (28084,   9,          0) /* ValidLocations - None */
+     , (28084,  16,          8) /* ItemUseable - Contained */
+     , (28084,  19,       1000) /* Value */
+     , (28084,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28084, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28084, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28084,  22, True ) /* Inscribable */
+     , (28084,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28084,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28084,   1, 'Scroll of Warden of the Clutch') /* Name */
+     , (28084,  15, 'When learned, this spell enhances the Missile Defense of all Fellowship members by 35 points for 45 minutes.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28084,   1,   33554826) /* Setup */
+     , (28084,   8,  100676468) /* Icon */
+     , (28084,  22,  872415275) /* PhysicsEffectTable */
+     , (28084,  28,       3350) /* Spell - Warden of the Clutch */;

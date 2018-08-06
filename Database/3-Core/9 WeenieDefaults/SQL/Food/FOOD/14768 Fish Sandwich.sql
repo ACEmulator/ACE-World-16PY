@@ -1,37 +1,33 @@
-/* Weenie - Fish Sandwich (14768) */
-DELETE FROM weenie WHERE class_Id = 14768;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14768, 'fishsandwich', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14768, 001 /* NAME_STRING */, 'Fish Sandwich')
-     , (14768, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (14768, 015 /* SHORT_DESC_STRING */, 'A smelly Fish Sandwich.')
-     , (14768, 020 /* PLURAL_NAME_STRING */, 'Fish Sandwiches');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14768, 001 /* SETUP_DID */, 33557499)
-     , (14768, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14768, 008 /* ICON_DID */, 100672553)
-     , (14768, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14768', 'fishsandwich', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14768, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (14768, 005 /* ENCUMB_VAL_INT */, 15)
-     , (14768, 008 /* MASS_INT */, 15)
-     , (14768, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14768, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (14768, 012 /* STACK_SIZE_INT */, 1)
-     , (14768, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (14768, 014 /* STACK_UNIT_MASS_INT */, 15)
-     , (14768, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (14768, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (14768, 019 /* VALUE_INT */, 10)
-     , (14768, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (14768, 090 /* BOOST_VALUE_INT */, 17)
-     , (14768, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14768,   1,         32) /* ItemType - Food */
+     , (14768,   5,         15) /* EncumbranceVal */
+     , (14768,   8,         15) /* Mass */
+     , (14768,   9,          0) /* ValidLocations - None */
+     , (14768,  11,        100) /* MaxStackSize */
+     , (14768,  12,          1) /* StackSize */
+     , (14768,  13,         15) /* StackUnitEncumbrance */
+     , (14768,  14,         15) /* StackUnitMass */
+     , (14768,  15,         10) /* StackUnitValue */
+     , (14768,  16,          8) /* ItemUseable - Contained */
+     , (14768,  19,         10) /* Value */
+     , (14768,  89,          4) /* BoosterEnum - Stamina */
+     , (14768,  90,         17) /* BoostValue */
+     , (14768,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14768, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14768,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14768,   1, 'Fish Sandwich') /* Name */
+     , (14768,  14, 'Use this item to eat it.') /* Use */
+     , (14768,  15, 'A smelly Fish Sandwich.') /* ShortDesc */
+     , (14768,  20, 'Fish Sandwiches') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14768,   1,   33557499) /* Setup */
+     , (14768,   3,  536870932) /* SoundTable */
+     , (14768,   8,  100672553) /* Icon */
+     , (14768,  22,  872415275) /* PhysicsEffectTable */;

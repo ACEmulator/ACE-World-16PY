@@ -1,64 +1,60 @@
-/* Weenie - Superior Shivering Atlan Staff (6133) */
-DELETE FROM weenie WHERE class_Id = 6133;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6133, 'staffbettershiveringmajor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6133, 001 /* NAME_STRING */, 'Superior Shivering Atlan Staff');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6133, 001 /* SETUP_DID */, 33556384)
-     , (6133, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6133, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6133, 007 /* CLOTHINGBASE_DID */, 268435963)
-     , (6133, 008 /* ICON_DID */, 100670558)
-     , (6133, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6133, 037 /* ITEM_SKILL_LIMIT_DID */, 10);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6133', 'staffbettershiveringmajor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6133, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6133, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (6133, 005 /* ENCUMB_VAL_INT */, 450)
-     , (6133, 008 /* MASS_INT */, 450)
-     , (6133, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6133, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6133, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6133, 019 /* VALUE_INT */, 4000)
-     , (6133, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6133, 044 /* DAMAGE_INT */, 12)
-     , (6133, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (6133, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6133, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (6133, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (6133, 049 /* WEAPON_TIME_INT */, 20)
-     , (6133, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6133, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6133, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (6133, 107 /* ITEM_CUR_MANA_INT */, 750)
-     , (6133, 108 /* ITEM_MAX_MANA_INT */, 750)
-     , (6133, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 225)
-     , (6133, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6133, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6133, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (6133, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (6133, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (6133, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (6133, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6133, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05);
+VALUES (6133,   1,          1) /* ItemType - MeleeWeapon */
+     , (6133,   3,          2) /* PaletteTemplate - Blue */
+     , (6133,   5,        450) /* EncumbranceVal */
+     , (6133,   8,        450) /* Mass */
+     , (6133,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6133,  16,          1) /* ItemUseable - No */
+     , (6133,  18,          1) /* UiEffects - Magical */
+     , (6133,  19,       4000) /* Value */
+     , (6133,  33,          1) /* Bonded - Bonded */
+     , (6133,  44,         12) /* Damage */
+     , (6133,  45,          8) /* DamageType - Cold */
+     , (6133,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6133,  47,          6) /* AttackType */
+     , (6133,  48,         10) /* WeaponSkill - Staff */
+     , (6133,  49,         20) /* WeaponTime */
+     , (6133,  51,          1) /* CombatUse - Melee */
+     , (6133,  93,       1044) /* PhysicsState */
+     , (6133, 106,        200) /* ItemSpellcraft */
+     , (6133, 107,        750) /* ItemCurMana */
+     , (6133, 108,        750) /* ItemMaxMana */
+     , (6133, 115,        225) /* ItemSkillLevelLimit */
+     , (6133, 150,        103) /* HookPlacement - Hook */
+     , (6133, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6133, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6133, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6133, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6133,  22, True ) /* Inscribable */
+     , (6133,  23, True ) /* DestroyOnSell */
+     , (6133,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6133,   5,  -0.033) /* ManaRate */
+     , (6133,  21,    1.33) /* WeaponLength */
+     , (6133,  22,    0.25) /* DamageVariance */
+     , (6133,  29,    1.05) /* WeaponDefense */
+     , (6133,  39,       1) /* DefaultScale */
+     , (6133,  62,    1.05) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6133,   1, 'Superior Shivering Atlan Staff') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6133,   1,   33556384) /* Setup */
+     , (6133,   3,  536870932) /* SoundTable */
+     , (6133,   6,   67111919) /* PaletteBase */
+     , (6133,   7,  268435963) /* ClothingBase */
+     , (6133,   8,  100670558) /* Icon */
+     , (6133,  22,  872415275) /* PhysicsEffectTable */
+     , (6133,  37,         10) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6133, 1603, 2) /* Defender4_SpellID */
-     , (6133, 1033, 2) /* ColdProtectionSelf4_SpellID */
-     , (6133, 1590, 2) /* HeartSeeker4_SpellID */
-     , (6133, 1614, 2) /* BloodDrinker4_SpellID */
-     , (6133, 1400, 2) /* QuicknessSelf4_SpellID */
-     , (6133, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (6133,  1033,      2)  /* Cold Protection Self IV */
+     , (6133,  1400,      2)  /* Quickness Self IV */
+     , (6133,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (6133,  1603,      2)  /* Aura of Defender Self IV */
+     , (6133,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (6133,  1625,      2)  /* Aura of Swift Killer Self IV */;

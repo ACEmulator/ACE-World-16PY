@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Cleanse All Magic Other (20284) */
-DELETE FROM weenie WHERE class_Id = 20284;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20284, 'scrolldispelallneutralother3', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20284, 001 /* NAME_STRING */, 'Scroll of Cleanse All Magic Other')
-     , (20284, 015 /* SHORT_DESC_STRING */, 'When learned, this spell dispels all enchantments of level 3 or lower from the target.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20284, 001 /* SETUP_DID */, 33554826)
-     , (20284, 008 /* ICON_DID */, 100669877)
-     , (20284, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20284, 028 /* SPELL_DID */, 1859 /* DispelAllNeutralOther3_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20284', 'scrolldispelallneutralother3', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20284, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20284, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20284, 008 /* MASS_INT */, 90)
-     , (20284, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20284, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20284, 019 /* VALUE_INT */, 20)
-     , (20284, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20284, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20284,   1,       8192) /* ItemType - Writable */
+     , (20284,   5,         30) /* EncumbranceVal */
+     , (20284,   8,         90) /* Mass */
+     , (20284,   9,          0) /* ValidLocations - None */
+     , (20284,  16,          8) /* ItemUseable - Contained */
+     , (20284,  19,         20) /* Value */
+     , (20284,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20284, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20284, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20284,  22, True ) /* Inscribable */
+     , (20284,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20284,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20284,   1, 'Scroll of Cleanse All Magic Other') /* Name */
+     , (20284,  15, 'When learned, this spell dispels all enchantments of level 3 or lower from the target.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20284,   1,   33554826) /* Setup */
+     , (20284,   8,  100669877) /* Icon */
+     , (20284,  22,  872415275) /* PhysicsEffectTable */
+     , (20284,  28,       1859) /* Spell - Cleanse All Magic Other */;

@@ -1,28 +1,24 @@
-/* Weenie - Ayan Baqur: 1 mile (6863) */
-DELETE FROM weenie WHERE class_Id = 6863;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6863, 'ayanbaqur1milesign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6863, 001 /* NAME_STRING */, 'Ayan Baqur: 1 mile')
-     , (6863, 016 /* LONG_DESC_STRING */, 'Town of Ayan Baqur: 1 mile.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6863, 001 /* SETUP_DID */, 33555088)
-     , (6863, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6863', 'ayanbaqur1milesign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6863, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (6863, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (6863, 008 /* MASS_INT */, 1800)
-     , (6863, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6863, 019 /* VALUE_INT */, 125)
-     , (6863, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (6863,   1,        128) /* ItemType - Misc */
+     , (6863,   5,       9000) /* EncumbranceVal */
+     , (6863,   8,       1800) /* Mass */
+     , (6863,  16,          1) /* ItemUseable - No */
+     , (6863,  19,        125) /* Value */
+     , (6863,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6863, 001 /* STUCK_BOOL */, True)
-     , (6863, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (6863, 013 /* ETHEREAL_BOOL */, False)
-     , (6863, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (6863,   1, True ) /* Stuck */
+     , (6863,  12, True ) /* ReportCollisions */
+     , (6863,  13, False) /* Ethereal */
+     , (6863,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6863,   1, 'Ayan Baqur: 1 mile') /* Name */
+     , (6863,  16, 'Town of Ayan Baqur: 1 mile.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6863,   1,   33555088) /* Setup */
+     , (6863,   8,  100668115) /* Icon */;

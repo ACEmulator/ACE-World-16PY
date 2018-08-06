@@ -1,52 +1,48 @@
-/* Weenie - Diforsa Gauntlets (28632) */
-DELETE FROM weenie WHERE class_Id = 28632;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28632, 'gauntletsdiforsa', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28632, 001 /* NAME_STRING */, 'Diforsa Gauntlets');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28632, 001 /* SETUP_DID */, 33554648)
-     , (28632, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28632, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (28632, 007 /* CLOTHINGBASE_DID */, 268435473)
-     , (28632, 008 /* ICON_DID */, 100667341)
-     , (28632, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28632, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (28632, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28632', 'gauntletsdiforsa', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28632, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (28632, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (28632, 004 /* CLOTHING_PRIORITY_INT */, 32768 /* Hands */)
-     , (28632, 005 /* ENCUMB_VAL_INT */, 1380)
-     , (28632, 008 /* MASS_INT */, 460)
-     , (28632, 009 /* LOCATIONS_INT */, 32 /* HAND_WEAR_LOC */)
-     , (28632, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28632, 019 /* VALUE_INT */, 980)
-     , (28632, 027 /* ARMOR_TYPE_INT */, 32)
-     , (28632, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (28632, 044 /* DAMAGE_INT */, 3)
-     , (28632, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (28632, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28632, 169 /* TSYS_MUTATION_DATA_INT */, 151651588);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28632, 012 /* SHADE_FLOAT */, 0.66)
-     , (28632, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
-     , (28632, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (28632, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (28632, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (28632, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (28632, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.5)
-     , (28632, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
-     , (28632, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (28632, 110 /* BULK_MOD_FLOAT */, 1)
-     , (28632, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (28632,   1,          2) /* ItemType - Armor */
+     , (28632,   3,         20) /* PaletteTemplate - Silver */
+     , (28632,   4,      32768) /* ClothingPriority - Hands */
+     , (28632,   5,       1380) /* EncumbranceVal */
+     , (28632,   8,        460) /* Mass */
+     , (28632,   9,         32) /* ValidLocations - HandWear */
+     , (28632,  16,          1) /* ItemUseable - No */
+     , (28632,  19,        980) /* Value */
+     , (28632,  27,         32) /* ArmorType */
+     , (28632,  28,        100) /* ArmorLevel */
+     , (28632,  44,          3) /* Damage */
+     , (28632,  45,          4) /* DamageType - Bludgeon */
+     , (28632,  93,       1044) /* PhysicsState */
+     , (28632, 169,  151651588) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28632, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28632, 100 /* DYABLE_BOOL */, True);
+VALUES (28632,  22, True ) /* Inscribable */
+     , (28632, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28632,  12,    0.66) /* Shade */
+     , (28632,  13,     1.2) /* ArmorModVsSlash */
+     , (28632,  14,       1) /* ArmorModVsPierce */
+     , (28632,  15,       1) /* ArmorModVsBludgeon */
+     , (28632,  16,     0.5) /* ArmorModVsCold */
+     , (28632,  17,     0.4) /* ArmorModVsFire */
+     , (28632,  18,     0.5) /* ArmorModVsAcid */
+     , (28632,  19,     0.4) /* ArmorModVsElectric */
+     , (28632,  22,    0.75) /* DamageVariance */
+     , (28632, 110,       1) /* BulkMod */
+     , (28632, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28632,   1, 'Diforsa Gauntlets') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28632,   1,   33554648) /* Setup */
+     , (28632,   3,  536870932) /* SoundTable */
+     , (28632,   6,   67108990) /* PaletteBase */
+     , (28632,   7,  268435473) /* ClothingBase */
+     , (28632,   8,  100667341) /* Icon */
+     , (28632,  22,  872415275) /* PhysicsEffectTable */
+     , (28632,  36,  234881042) /* MutateFilter */
+     , (28632,  46,  939524146) /* TsysMutationFilter */;

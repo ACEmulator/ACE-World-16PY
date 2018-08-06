@@ -1,41 +1,37 @@
-/* Weenie - Arbelist's Crystal (30198) */
-DELETE FROM weenie WHERE class_Id = 30198;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30198, 'gemrarevolatilecrossbow', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30198, 001 /* NAME_STRING */, 'Arbelist''s Crystal')
-     , (30198, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30198, 001 /* SETUP_DID */, 33554809)
-     , (30198, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30198, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30198, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (30198, 008 /* ICON_DID */, 100674739)
-     , (30198, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30198, 028 /* SPELL_DID */, 3696 /* CrossbowMasteryRare_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30198', 'gemrarevolatilecrossbow', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30198, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (30198, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (30198, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30198, 008 /* MASS_INT */, 5)
-     , (30198, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30198, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30198, 012 /* STACK_SIZE_INT */, 1)
-     , (30198, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30198, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30198, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30198, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30198, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (30198, 019 /* VALUE_INT */, 0)
-     , (30198, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30198, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30198, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30198, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30198,   1,       2048) /* ItemType - Gem */
+     , (30198,   3,         39) /* PaletteTemplate - Black */
+     , (30198,   5,          5) /* EncumbranceVal */
+     , (30198,   8,          5) /* Mass */
+     , (30198,   9,          0) /* ValidLocations - None */
+     , (30198,  11,          1) /* MaxStackSize */
+     , (30198,  12,          1) /* StackSize */
+     , (30198,  13,          5) /* StackUnitEncumbrance */
+     , (30198,  14,          5) /* StackUnitMass */
+     , (30198,  15,          0) /* StackUnitValue */
+     , (30198,  16,          8) /* ItemUseable - Contained */
+     , (30198,  18,          1) /* UiEffects - Magical */
+     , (30198,  19,          0) /* Value */
+     , (30198,  93,       1044) /* PhysicsState */
+     , (30198,  94,         16) /* TargetType - Creature */
+     , (30198, 150,        103) /* HookPlacement - Hook */
+     , (30198, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30198, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30198,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30198,   1, 'Arbelist''s Crystal') /* Name */
+     , (30198,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30198,   1,   33554809) /* Setup */
+     , (30198,   3,  536870932) /* SoundTable */
+     , (30198,   6,   67111919) /* PaletteBase */
+     , (30198,   7,  268435723) /* ClothingBase */
+     , (30198,   8,  100674739) /* Icon */
+     , (30198,  22,  872415275) /* PhysicsEffectTable */
+     , (30198,  28,       3696) /* Spell - Prodigal Missile Weapon Mastery */;

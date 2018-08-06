@@ -1,58 +1,54 @@
-/* Weenie - A Society Spear (8712) */
-DELETE FROM weenie WHERE class_Id = 8712;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8712, 'spearnewbiequest', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8712, 001 /* NAME_STRING */, 'A Society Spear');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8712, 001 /* SETUP_DID */, 33554756)
-     , (8712, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8712, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8712, 007 /* CLOTHINGBASE_DID */, 268435768)
-     , (8712, 008 /* ICON_DID */, 100669005)
-     , (8712, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8712, 036 /* MUTATE_FILTER_DID */, 234881044)
-     , (8712, 050 /* ICON_OVERLAY_DID */, 100675463);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8712', 'spearnewbiequest', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8712, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (8712, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (8712, 005 /* ENCUMB_VAL_INT */, 700)
-     , (8712, 008 /* MASS_INT */, 140)
-     , (8712, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (8712, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8712, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8712, 019 /* VALUE_INT */, 1)
-     , (8712, 044 /* DAMAGE_INT */, 17)
-     , (8712, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (8712, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (8712, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (8712, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (8712, 049 /* WEAPON_TIME_INT */, 30)
-     , (8712, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (8712, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8712, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (8712, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (8712, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (8712, 109 /* ITEM_DIFFICULTY_INT */, 15)
-     , (8712, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8712, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8712, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (8712, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (8712, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (8712, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (8712, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (8712, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.15);
+VALUES (8712,   1,          1) /* ItemType - MeleeWeapon */
+     , (8712,   3,         20) /* PaletteTemplate - Silver */
+     , (8712,   5,        700) /* EncumbranceVal */
+     , (8712,   8,        140) /* Mass */
+     , (8712,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (8712,  16,          1) /* ItemUseable - No */
+     , (8712,  18,          1) /* UiEffects - Magical */
+     , (8712,  19,          1) /* Value */
+     , (8712,  44,         17) /* Damage */
+     , (8712,  45,          2) /* DamageType - Pierce */
+     , (8712,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (8712,  47,          2) /* AttackType - Thrust */
+     , (8712,  48,          9) /* WeaponSkill - Spear */
+     , (8712,  49,         30) /* WeaponTime */
+     , (8712,  51,          1) /* CombatUse - Melee */
+     , (8712,  93,       1044) /* PhysicsState */
+     , (8712, 106,        150) /* ItemSpellcraft */
+     , (8712, 107,        400) /* ItemCurMana */
+     , (8712, 108,        400) /* ItemMaxMana */
+     , (8712, 109,         15) /* ItemDifficulty */
+     , (8712, 150,        103) /* HookPlacement - Hook */
+     , (8712, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8712, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (8712,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8712,   5,  -0.025) /* ManaRate */
+     , (8712,  21,     1.5) /* WeaponLength */
+     , (8712,  22,    0.75) /* DamageVariance */
+     , (8712,  29,       1) /* WeaponDefense */
+     , (8712,  62,       1) /* WeaponOffense */
+     , (8712, 147,    0.15) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8712,   1, 'A Society Spear') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8712,   1,   33554756) /* Setup */
+     , (8712,   3,  536870932) /* SoundTable */
+     , (8712,   6,   67111919) /* PaletteBase */
+     , (8712,   7,  268435768) /* ClothingBase */
+     , (8712,   8,  100669005) /* Icon */
+     , (8712,  22,  872415275) /* PhysicsEffectTable */
+     , (8712,  36,  234881044) /* MutateFilter */
+     , (8712,  50,  100675463) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8712, 1612, 2) /* BloodDrinker2_SpellID */
-     , (8712, 365, 2) /* SpearMasteryOther2_SpellID */;
-
+VALUES (8712,   365,      2)  /* Light Weapon Mastery Other II */
+     , (8712,  1612,      2)  /* Aura of Blood Drinker Self II */;

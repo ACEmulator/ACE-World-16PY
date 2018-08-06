@@ -1,31 +1,27 @@
-/* Weenie - Djusufa's Stones (1074) */
-DELETE FROM weenie WHERE class_Id = 1074;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1074, 'yaraqjeweler2sign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1074, 001 /* NAME_STRING */, 'Djusufa''s Stones')
-     , (1074, 016 /* LONG_DESC_STRING */, 'Djusufa''s Stones');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1074, 001 /* SETUP_DID */, 33555909)
-     , (1074, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (1074, 007 /* CLOTHINGBASE_DID */, 268435823)
-     , (1074, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1074', 'yaraqjeweler2sign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1074, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (1074, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (1074, 008 /* MASS_INT */, 1800)
-     , (1074, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1074, 019 /* VALUE_INT */, 125)
-     , (1074, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (1074,   1,        128) /* ItemType - Misc */
+     , (1074,   5,       9000) /* EncumbranceVal */
+     , (1074,   8,       1800) /* Mass */
+     , (1074,  16,          1) /* ItemUseable - No */
+     , (1074,  19,        125) /* Value */
+     , (1074,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1074, 001 /* STUCK_BOOL */, True)
-     , (1074, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1074, 013 /* ETHEREAL_BOOL */, False)
-     , (1074, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (1074, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (1074,   1, True ) /* Stuck */
+     , (1074,  12, True ) /* ReportCollisions */
+     , (1074,  13, False) /* Ethereal */
+     , (1074,  14, False) /* GravityStatus */
+     , (1074,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1074,   1, 'Djusufa''s Stones') /* Name */
+     , (1074,  16, 'Djusufa''s Stones') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1074,   1,   33555909) /* Setup */
+     , (1074,   6,   67111860) /* PaletteBase */
+     , (1074,   7,  268435823) /* ClothingBase */
+     , (1074,   8,  100668115) /* Icon */;

@@ -1,49 +1,45 @@
-/* Weenie - Broadhead Arrow (3600) */
-DELETE FROM weenie WHERE class_Id = 3600;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3600, 'arrowbroadhead', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3600, 001 /* NAME_STRING */, 'Broadhead Arrow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3600, 001 /* SETUP_DID */, 33554724)
-     , (3600, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3600, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3600, 007 /* CLOTHINGBASE_DID */, 268436303)
-     , (3600, 008 /* ICON_DID */, 100670187)
-     , (3600, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3600', 'arrowbroadhead', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3600, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (3600, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (3600, 005 /* ENCUMB_VAL_INT */, 10)
-     , (3600, 008 /* MASS_INT */, 2)
-     , (3600, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
-     , (3600, 011 /* MAX_STACK_SIZE_INT */, 250)
-     , (3600, 012 /* STACK_SIZE_INT */, 1)
-     , (3600, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (3600, 014 /* STACK_UNIT_MASS_INT */, 2)
-     , (3600, 015 /* STACK_UNIT_VALUE_INT */, 2)
-     , (3600, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3600, 019 /* VALUE_INT */, 2)
-     , (3600, 044 /* DAMAGE_INT */, 9)
-     , (3600, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (3600, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (3600, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
-     , (3600, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (3600, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3600, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3600, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (3600, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3600, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (3600, 078 /* FRICTION_FLOAT */, 1)
-     , (3600, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (3600,   1,        256) /* ItemType - MissileWeapon */
+     , (3600,   3,         39) /* PaletteTemplate - Black */
+     , (3600,   5,         10) /* EncumbranceVal */
+     , (3600,   8,          2) /* Mass */
+     , (3600,   9,    8388608) /* ValidLocations - MissileAmmo */
+     , (3600,  11,        250) /* MaxStackSize */
+     , (3600,  12,          1) /* StackSize */
+     , (3600,  13,         10) /* StackUnitEncumbrance */
+     , (3600,  14,          2) /* StackUnitMass */
+     , (3600,  15,          2) /* StackUnitValue */
+     , (3600,  16,          1) /* ItemUseable - No */
+     , (3600,  19,          2) /* Value */
+     , (3600,  44,          9) /* Damage */
+     , (3600,  45,          1) /* DamageType - Slash */
+     , (3600,  50,          1) /* AmmoType - Arrow */
+     , (3600,  51,          3) /* CombatUse - Ammo */
+     , (3600,  93,     132116) /* PhysicsState */
+     , (3600, 150,        103) /* HookPlacement - Hook */
+     , (3600, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3600, 017 /* INELASTIC_BOOL */, True)
-     , (3600, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (3600,  17, True ) /* Inelastic */
+     , (3600,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3600,  22,    0.25) /* DamageVariance */
+     , (3600,  29,       1) /* WeaponDefense */
+     , (3600,  62,       1) /* WeaponOffense */
+     , (3600,  78,       1) /* Friction */
+     , (3600,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3600,   1, 'Broadhead Arrow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3600,   1,   33554724) /* Setup */
+     , (3600,   3,  536870932) /* SoundTable */
+     , (3600,   6,   67111919) /* PaletteBase */
+     , (3600,   7,  268436303) /* ClothingBase */
+     , (3600,   8,  100670187) /* Icon */
+     , (3600,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,36 +1,33 @@
-/* Weenie - A Dry Withered Leather Bound Journal (8361) */
-DELETE FROM weenie WHERE class_Id = 8361;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8361, 'bookmartine2', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8361, 001 /* NAME_STRING */, 'A Dry Withered Leather Bound Journal')
-     , (8361, 015 /* SHORT_DESC_STRING */, 'A journal inscribed by Sir Candeth Martine');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8361, 001 /* SETUP_DID */, 33554771)
-     , (8361, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8361, 008 /* ICON_DID */, 100668117)
-     , (8361, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8361', 'bookmartine2', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8361, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8361, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8361, 008 /* MASS_INT */, 200)
-     , (8361, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8361, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8361, 019 /* VALUE_INT */, 10)
-     , (8361, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8361, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8361,   1,       8192) /* ItemType - Writable */
+     , (8361,   5,         10) /* EncumbranceVal */
+     , (8361,   8,        200) /* Mass */
+     , (8361,   9,          0) /* ValidLocations - None */
+     , (8361,  16,          8) /* ItemUseable - Contained */
+     , (8361,  19,         10) /* Value */
+     , (8361,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8361, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8361,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8361,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8361,   1, 'A Dry Withered Leather Bound Journal') /* Name */
+     , (8361,  15, 'A journal inscribed by Sir Candeth Martine') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8361,   1,   33554771) /* Setup */
+     , (8361,   3,  536870932) /* SoundTable */
+     , (8361,   8,  100668117) /* Icon */
+     , (8361,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8361, 16, 1000) /* Book Data */;
+VALUES (8361, 16, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8361, 0, 4294967295, '', 'prewritten', False, 'To whomever may find this:
@@ -85,4 +82,3 @@ Sir Candeth Martine
 ')
      , (8361, 15, 4294967295, '', 'prewritten', False, 'And yet another impromptu addition: We are moving again.  Apparently some of the Mosswarts had been moving the stone into the deepest caverns of the Maze when they were set upon by forces unknown and unseen.  When we came across their mangled and shredded bodies the stone was nowhere to be found.  I have been thrown into another cell, watched over by two guards, but they have not interrupted my writing.  Hearing all the commotion outside, I have decided to guess they are making preparations to leave.  I assume I will be a part of that process.
 ');
-

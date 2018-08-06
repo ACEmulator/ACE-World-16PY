@@ -1,34 +1,30 @@
-/* Weenie - Renegade Herbal Kit (27671) */
-DELETE FROM weenie WHERE class_Id = 27671;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27671, 'healingkitrenegade', 28 /* Healer_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27671, 001 /* NAME_STRING */, 'Renegade Herbal Kit')
-     , (27671, 016 /* LONG_DESC_STRING */, 'A hard roll of foul smelling salts and ores that serve as healing agents for the renegades.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27671, 001 /* SETUP_DID */, 33555194)
-     , (27671, 008 /* ICON_DID */, 100676523);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27671', 'healingkitrenegade', 28) /* Healer */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27671, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (27671, 005 /* ENCUMB_VAL_INT */, 65)
-     , (27671, 008 /* MASS_INT */, 25)
-     , (27671, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27671, 016 /* ITEM_USEABLE_INT */, 2228232 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE_OR_SELF */)
-     , (27671, 019 /* VALUE_INT */, 1000)
-     , (27671, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
-     , (27671, 090 /* BOOST_VALUE_INT */, 200)
-     , (27671, 091 /* MAX_STRUCTURE_INT */, 50)
-     , (27671, 092 /* STRUCTURE_INT */, 50)
-     , (27671, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27671, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27671, 100 /* HEALKIT_MOD_FLOAT */, 1);
+VALUES (27671,   1,        128) /* ItemType - Misc */
+     , (27671,   5,         65) /* EncumbranceVal */
+     , (27671,   8,         25) /* Mass */
+     , (27671,   9,          0) /* ValidLocations - None */
+     , (27671,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
+     , (27671,  19,       1000) /* Value */
+     , (27671,  89,          2) /* BoosterEnum - Health */
+     , (27671,  90,        200) /* BoostValue */
+     , (27671,  91,         50) /* MaxStructure */
+     , (27671,  92,         50) /* Structure */
+     , (27671,  93,       1044) /* PhysicsState */
+     , (27671,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27671, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (27671,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27671, 100,       1) /* HealkitMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27671,   1, 'Renegade Herbal Kit') /* Name */
+     , (27671,  16, 'A hard roll of foul smelling salts and ores that serve as healing agents for the renegades.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27671,   1,   33555194) /* Setup */
+     , (27671,   8,  100676523) /* Icon */;

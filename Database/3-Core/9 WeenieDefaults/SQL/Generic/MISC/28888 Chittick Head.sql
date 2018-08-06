@@ -1,35 +1,31 @@
-/* Weenie - Chittick Head (28888) */
-DELETE FROM weenie WHERE class_Id = 28888;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28888, 'headchittick', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28888, 001 /* NAME_STRING */, 'Chittick Head')
-     , (28888, 015 /* SHORT_DESC_STRING */, 'The stench emanating from this Chittick head is overwhelming.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28888, 001 /* SETUP_DID */, 33559014)
-     , (28888, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28888, 008 /* ICON_DID */, 100677103)
-     , (28888, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28888, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28888', 'headchittick', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28888, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28888, 005 /* ENCUMB_VAL_INT */, 200)
-     , (28888, 008 /* MASS_INT */, 600)
-     , (28888, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28888, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28888, 019 /* VALUE_INT */, 0)
-     , (28888, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28888, 150 /* HOOK_PLACEMENT_INT */, 101 /* Resting */)
-     , (28888, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28888, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (28888,   1,        128) /* ItemType - Misc */
+     , (28888,   5,        200) /* EncumbranceVal */
+     , (28888,   8,        600) /* Mass */
+     , (28888,   9,          0) /* ValidLocations - None */
+     , (28888,  16,          1) /* ItemUseable - No */
+     , (28888,  19,          0) /* Value */
+     , (28888,  93,       1044) /* PhysicsState */
+     , (28888, 150,        101) /* HookPlacement - Resting */
+     , (28888, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28888, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28888, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28888,  22, True ) /* Inscribable */
+     , (28888,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28888,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28888,   1, 'Chittick Head') /* Name */
+     , (28888,  15, 'The stench emanating from this Chittick head is overwhelming.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28888,   1,   33559014) /* Setup */
+     , (28888,   3,  536870932) /* SoundTable */
+     , (28888,   8,  100677103) /* Icon */
+     , (28888,  22,  872415275) /* PhysicsEffectTable */
+     , (28888,  36,  234881046) /* MutateFilter */;

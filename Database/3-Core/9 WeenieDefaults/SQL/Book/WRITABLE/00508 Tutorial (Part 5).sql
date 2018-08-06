@@ -1,35 +1,32 @@
-/* Weenie - Tutorial (Part 5) (508) */
-DELETE FROM weenie WHERE class_Id = 508;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (508, 'sign-arwictutorial5', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (508, 001 /* NAME_STRING */, 'Tutorial (Part 5)');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (508, 001 /* SETUP_DID */, 33555088)
-     , (508, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('508', 'sign-arwictutorial5', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (508, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (508, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (508, 008 /* MASS_INT */, 1800)
-     , (508, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (508, 019 /* VALUE_INT */, 125)
-     , (508, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (508, 054 /* USE_RADIUS_FLOAT */, 5);
+VALUES (508,   1,       8192) /* ItemType - Writable */
+     , (508,   5,       9000) /* EncumbranceVal */
+     , (508,   8,       1800) /* Mass */
+     , (508,  16,         48) /* ItemUseable - ViewedRemote */
+     , (508,  19,        125) /* Value */
+     , (508,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (508, 001 /* STUCK_BOOL */, True)
-     , (508, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (508, 013 /* ETHEREAL_BOOL */, False)
-     , (508, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (508,   1, True ) /* Stuck */
+     , (508,  12, True ) /* ReportCollisions */
+     , (508,  13, False) /* Ethereal */
+     , (508,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (508,  54,       5) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (508,   1, 'Tutorial (Part 5)') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (508,   1,   33555088) /* Setup */
+     , (508,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (508, 5, 1000) /* Book Data */;
+VALUES (508, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (508, 0, 4294967295, ' ', 'prewritten', False, 'Tutorial / Part 5 of 5 
@@ -61,4 +58,3 @@ If you kill a creature, double-click on its corpse to see if it has any belongin
 
 The first sign in this tutorial can be found behind the Twin Auroch Tavern, at the southwest edge of Arwic.
 ');
-

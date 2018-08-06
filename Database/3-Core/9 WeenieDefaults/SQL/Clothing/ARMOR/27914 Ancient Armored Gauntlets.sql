@@ -1,62 +1,58 @@
-/* Weenie - Ancient Armored Gauntlets (27914) */
-DELETE FROM weenie WHERE class_Id = 27914;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27914, 'gauntletshizkri3', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27914, 001 /* NAME_STRING */, 'Ancient Armored Gauntlets')
-     , (27914, 016 /* LONG_DESC_STRING */, 'These armored gauntlets appear to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27914, 001 /* SETUP_DID */, 33554648)
-     , (27914, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27914, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (27914, 007 /* CLOTHINGBASE_DID */, 268436828)
-     , (27914, 008 /* ICON_DID */, 100676550)
-     , (27914, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27914', 'gauntletshizkri3', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27914, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (27914, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (27914, 004 /* CLOTHING_PRIORITY_INT */, 32768 /* Hands */)
-     , (27914, 005 /* ENCUMB_VAL_INT */, 225)
-     , (27914, 008 /* MASS_INT */, 460)
-     , (27914, 009 /* LOCATIONS_INT */, 32 /* HAND_WEAR_LOC */)
-     , (27914, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27914, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27914, 019 /* VALUE_INT */, 18000)
-     , (27914, 027 /* ARMOR_TYPE_INT */, 32)
-     , (27914, 028 /* ARMOR_LEVEL_INT */, 440)
-     , (27914, 044 /* DAMAGE_INT */, 12)
-     , (27914, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (27914, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27914, 106 /* ITEM_SPELLCRAFT_INT */, 335)
-     , (27914, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (27914, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (27914, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (27914, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (27914, 160 /* WIELD_DIFFICULTY_INT */, 100);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27914, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (27914, 012 /* SHADE_FLOAT */, 0.66)
-     , (27914, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (27914, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (27914, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.3)
-     , (27914, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (27914, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (27914, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.1)
-     , (27914, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.5)
-     , (27914, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (27914, 110 /* BULK_MOD_FLOAT */, 1)
-     , (27914, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (27914,   1,          2) /* ItemType - Armor */
+     , (27914,   3,         14) /* PaletteTemplate - Red */
+     , (27914,   4,      32768) /* ClothingPriority - Hands */
+     , (27914,   5,        225) /* EncumbranceVal */
+     , (27914,   8,        460) /* Mass */
+     , (27914,   9,         32) /* ValidLocations - HandWear */
+     , (27914,  16,          1) /* ItemUseable - No */
+     , (27914,  18,          1) /* UiEffects - Magical */
+     , (27914,  19,      18000) /* Value */
+     , (27914,  27,         32) /* ArmorType */
+     , (27914,  28,        440) /* ArmorLevel */
+     , (27914,  44,         12) /* Damage */
+     , (27914,  45,          4) /* DamageType - Bludgeon */
+     , (27914,  93,       1044) /* PhysicsState */
+     , (27914, 106,        335) /* ItemSpellcraft */
+     , (27914, 107,        800) /* ItemCurMana */
+     , (27914, 108,        800) /* ItemMaxMana */
+     , (27914, 158,          7) /* WieldRequirements - Level */
+     , (27914, 159,          1) /* WieldSkilltype - Axe */
+     , (27914, 160,        100) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27914, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27914, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (27914,  22, True ) /* Inscribable */
+     , (27914,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27914,   5, -0.0333) /* ManaRate */
+     , (27914,  12,    0.66) /* Shade */
+     , (27914,  13,     1.3) /* ArmorModVsSlash */
+     , (27914,  14,     0.8) /* ArmorModVsPierce */
+     , (27914,  15,     1.3) /* ArmorModVsBludgeon */
+     , (27914,  16,       1) /* ArmorModVsCold */
+     , (27914,  17,       1) /* ArmorModVsFire */
+     , (27914,  18,     1.1) /* ArmorModVsAcid */
+     , (27914,  19,     0.5) /* ArmorModVsElectric */
+     , (27914,  22,    0.75) /* DamageVariance */
+     , (27914, 110,       1) /* BulkMod */
+     , (27914, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27914,   1, 'Ancient Armored Gauntlets') /* Name */
+     , (27914,  16, 'These armored gauntlets appear to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27914,   1,   33554648) /* Setup */
+     , (27914,   3,  536870932) /* SoundTable */
+     , (27914,   6,   67108990) /* PaletteBase */
+     , (27914,   7,  268436828) /* ClothingBase */
+     , (27914,   8,  100676550) /* Icon */
+     , (27914,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27914, 3094, 2) /* SkinFiazhat_SpellID */
-     , (27914, 3308, 2) /* FlangeAegis_SpellID */;
-
+VALUES (27914,  3094,      2)  /* Skin of the Fiazhat */
+     , (27914,  3308,      2)  /* Flange Aegis */;

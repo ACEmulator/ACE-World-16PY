@@ -1,54 +1,50 @@
-/* Weenie - Searing Yumi (28235) */
-DELETE FROM weenie WHERE class_Id = 28235;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28235, 'yumiacid', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28235, 001 /* NAME_STRING */, 'Searing Yumi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28235, 001 /* SETUP_DID */, 33559029)
-     , (28235, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28235, 006 /* PALETTE_BASE_DID */, 67115373)
-     , (28235, 007 /* CLOTHINGBASE_DID */, 268436873)
-     , (28235, 008 /* ICON_DID */, 100668815)
-     , (28235, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28235, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (28235, 046 /* TSYS_MUTATION_FILTER_DID */, 939524104);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28235', 'yumiacid', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28235, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (28235, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (28235, 005 /* ENCUMB_VAL_INT */, 980)
-     , (28235, 008 /* MASS_INT */, 140)
-     , (28235, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (28235, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28235, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (28235, 019 /* VALUE_INT */, 400)
-     , (28235, 044 /* DAMAGE_INT */, 0)
-     , (28235, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (28235, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
-     , (28235, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
-     , (28235, 049 /* WEAPON_TIME_INT */, 45)
-     , (28235, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (28235, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (28235, 052 /* PARENT_LOCATION_INT */, 2)
-     , (28235, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (28235, 060 /* WEAPON_RANGE_INT */, 192)
-     , (28235, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28235, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28235, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (28235, 169 /* TSYS_MUTATION_DATA_INT */, 101187850)
-     , (28235, 204 /* ELEMENTAL_DAMAGE_BONUS_INT */, 4);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28235, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (28235, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (28235, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (28235, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (28235, 063 /* DAMAGE_MOD_FLOAT */, 2.3);
+VALUES (28235,   1,        256) /* ItemType - MissileWeapon */
+     , (28235,   3,          8) /* PaletteTemplate - Green */
+     , (28235,   5,        980) /* EncumbranceVal */
+     , (28235,   8,        140) /* Mass */
+     , (28235,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (28235,  16,          1) /* ItemUseable - No */
+     , (28235,  18,        256) /* UiEffects - Acid */
+     , (28235,  19,        400) /* Value */
+     , (28235,  44,          0) /* Damage */
+     , (28235,  45,         32) /* DamageType - Acid */
+     , (28235,  46,         16) /* DefaultCombatStyle - Bow */
+     , (28235,  48,          2) /* WeaponSkill - Bow */
+     , (28235,  49,         45) /* WeaponTime */
+     , (28235,  50,          1) /* AmmoType - Arrow */
+     , (28235,  51,          2) /* CombatUse - Missle */
+     , (28235,  52,          2) /* ParentLocation */
+     , (28235,  53,          3) /* PlacementPosition */
+     , (28235,  60,        192) /* WeaponRange */
+     , (28235,  93,       1044) /* PhysicsState */
+     , (28235, 150,        103) /* HookPlacement - Hook */
+     , (28235, 151,          2) /* HookType - Wall */
+     , (28235, 169,  101187850) /* TsysMutationData */
+     , (28235, 204,          4) /* ElementalDamageBonus */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28235, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28235,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28235,  26,    27.3) /* MaximumVelocity */
+     , (28235,  29,       1) /* WeaponDefense */
+     , (28235,  39,     1.1) /* DefaultScale */
+     , (28235,  62,       1) /* WeaponOffense */
+     , (28235,  63,     2.3) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28235,   1, 'Searing Yumi') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28235,   1,   33559029) /* Setup */
+     , (28235,   3,  536870932) /* SoundTable */
+     , (28235,   6,   67115373) /* PaletteBase */
+     , (28235,   7,  268436873) /* ClothingBase */
+     , (28235,   8,  100668815) /* Icon */
+     , (28235,  22,  872415275) /* PhysicsEffectTable */
+     , (28235,  36,  234881053) /* MutateFilter */
+     , (28235,  46,  939524104) /* TsysMutationFilter */;

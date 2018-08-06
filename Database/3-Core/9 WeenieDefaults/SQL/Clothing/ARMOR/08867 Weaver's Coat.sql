@@ -1,58 +1,54 @@
-/* Weenie - Weaver's Coat (8867) */
-DELETE FROM weenie WHERE class_Id = 8867;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8867, 'coatamullianweavers', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8867, 001 /* NAME_STRING */, 'Weaver''s Coat')
-     , (8867, 015 /* SHORT_DESC_STRING */, 'A coat woven from the flaxen strands of time. ')
-     , (8867, 016 /* LONG_DESC_STRING */, 'A coat woven from the flaxen strands of time. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8867, 001 /* SETUP_DID */, 33554854)
-     , (8867, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8867, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (8867, 007 /* CLOTHINGBASE_DID */, 268435873)
-     , (8867, 008 /* ICON_DID */, 100670435)
-     , (8867, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8867', 'coatamullianweavers', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8867, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (8867, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (8867, 004 /* CLOTHING_PRIORITY_INT */, 13312 /* OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */)
-     , (8867, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8867, 008 /* MASS_INT */, 10)
-     , (8867, 009 /* LOCATIONS_INT */, 6656 /* CHEST_ARMOR_LOC, UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (8867, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8867, 019 /* VALUE_INT */, 10)
-     , (8867, 027 /* ARMOR_TYPE_INT */, 8)
-     , (8867, 028 /* ARMOR_LEVEL_INT */, 240)
-     , (8867, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8867, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8867, 106 /* ITEM_SPELLCRAFT_INT */, 270)
-     , (8867, 107 /* ITEM_CUR_MANA_INT */, 900)
-     , (8867, 108 /* ITEM_MAX_MANA_INT */, 900)
-     , (8867, 109 /* ITEM_DIFFICULTY_INT */, 10)
-     , (8867, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8867, 005 /* MANA_RATE_FLOAT */, -0.001)
-     , (8867, 012 /* SHADE_FLOAT */, 1E-05)
-     , (8867, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 2)
-     , (8867, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 2)
-     , (8867, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 2)
-     , (8867, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 2)
-     , (8867, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 2)
-     , (8867, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 2)
-     , (8867, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 2)
-     , (8867, 110 /* BULK_MOD_FLOAT */, 1)
-     , (8867, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (8867,   1,          2) /* ItemType - Armor */
+     , (8867,   3,          2) /* PaletteTemplate - Blue */
+     , (8867,   4,      13312) /* ClothingPriority */
+     , (8867,   5,         10) /* EncumbranceVal */
+     , (8867,   8,         10) /* Mass */
+     , (8867,   9,       6656) /* ValidLocations */
+     , (8867,  16,          1) /* ItemUseable - No */
+     , (8867,  19,         10) /* Value */
+     , (8867,  27,          8) /* ArmorType */
+     , (8867,  28,        240) /* ArmorLevel */
+     , (8867,  33,          1) /* Bonded - Bonded */
+     , (8867,  93,       1044) /* PhysicsState */
+     , (8867, 106,        270) /* ItemSpellcraft */
+     , (8867, 107,        900) /* ItemCurMana */
+     , (8867, 108,        900) /* ItemMaxMana */
+     , (8867, 109,         10) /* ItemDifficulty */
+     , (8867, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8867, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8867, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8867,  22, True ) /* Inscribable */
+     , (8867,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8867,   5,  -0.001) /* ManaRate */
+     , (8867,  12,   1E-05) /* Shade */
+     , (8867,  13,       2) /* ArmorModVsSlash */
+     , (8867,  14,       2) /* ArmorModVsPierce */
+     , (8867,  15,       2) /* ArmorModVsBludgeon */
+     , (8867,  16,       2) /* ArmorModVsCold */
+     , (8867,  17,       2) /* ArmorModVsFire */
+     , (8867,  18,       2) /* ArmorModVsAcid */
+     , (8867,  19,       2) /* ArmorModVsElectric */
+     , (8867, 110,       1) /* BulkMod */
+     , (8867, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8867,   1, 'Weaver''s Coat') /* Name */
+     , (8867,  15, 'A coat woven from the flaxen strands of time. ') /* ShortDesc */
+     , (8867,  16, 'A coat woven from the flaxen strands of time. ') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8867,   1,   33554854) /* Setup */
+     , (8867,   3,  536870932) /* SoundTable */
+     , (8867,   6,   67108990) /* PaletteBase */
+     , (8867,   7,  268435873) /* ClothingBase */
+     , (8867,   8,  100670435) /* Icon */
+     , (8867,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8867, 2048, 2) /* BaelzharonMagicDefense_SpellID */;
-
+VALUES (8867,  2048,      2)  /* Boon of the Demon */;

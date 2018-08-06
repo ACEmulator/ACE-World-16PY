@@ -1,36 +1,32 @@
-/* Weenie - Wooden Tumerok Figurine (9670) */
-DELETE FROM weenie WHERE class_Id = 9670;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9670, 'figurinetumerok', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9670, 001 /* NAME_STRING */, 'Wooden Tumerok Figurine')
-     , (9670, 015 /* SHORT_DESC_STRING */, 'A wooden figurine.')
-     , (9670, 016 /* LONG_DESC_STRING */, 'An intricately carved Tumerok figurine.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9670, 001 /* SETUP_DID */, 33554680)
-     , (9670, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9670, 008 /* ICON_DID */, 100667330)
-     , (9670, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9670, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9670', 'figurinetumerok', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9670, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9670, 005 /* ENCUMB_VAL_INT */, 20)
-     , (9670, 008 /* MASS_INT */, 50)
-     , (9670, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9670, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9670, 019 /* VALUE_INT */, 20)
-     , (9670, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9670, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9670, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9670, 039 /* DEFAULT_SCALE_FLOAT */, 0.37);
+VALUES (9670,   1,        128) /* ItemType - Misc */
+     , (9670,   5,         20) /* EncumbranceVal */
+     , (9670,   8,         50) /* Mass */
+     , (9670,   9,          0) /* ValidLocations - None */
+     , (9670,  16,          1) /* ItemUseable - No */
+     , (9670,  19,         20) /* Value */
+     , (9670,  33,          1) /* Bonded - Bonded */
+     , (9670,  93,       1044) /* PhysicsState */
+     , (9670, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9670, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9670, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9670,  22, True ) /* Inscribable */
+     , (9670,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9670,  39,    0.37) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9670,   1, 'Wooden Tumerok Figurine') /* Name */
+     , (9670,  15, 'A wooden figurine.') /* ShortDesc */
+     , (9670,  16, 'An intricately carved Tumerok figurine.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9670,   1,   33554680) /* Setup */
+     , (9670,   3,  536870932) /* SoundTable */
+     , (9670,   8,  100667330) /* Icon */
+     , (9670,  22,  872415275) /* PhysicsEffectTable */
+     , (9670,  36,  234881046) /* MutateFilter */;

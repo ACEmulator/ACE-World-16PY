@@ -1,44 +1,42 @@
-/* Weenie - Bookcase (15301) */
-DELETE FROM weenie WHERE class_Id = 15301;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15301, 'doorbookcasesliding', 19 /* Door_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15301, 001 /* NAME_STRING */, 'Bookcase')
-     , (15301, 015 /* SHORT_DESC_STRING */, 'A bookcase filled with well kept tomes.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15301, 001 /* SETUP_DID */, 33557590)
-     , (15301, 002 /* MOTION_TABLE_DID */, 150995157)
-     , (15301, 003 /* SOUND_TABLE_DID */, 536871051)
-     , (15301, 008 /* ICON_DID */, 100668246)
-     , (15301, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15301', 'doorbookcasesliding', 19) /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15301, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15301, 008 /* MASS_INT */, 2000)
-     , (15301, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15301, 019 /* VALUE_INT */, 0)
-     , (15301, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (15301, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15301, 011 /* RESET_INTERVAL_FLOAT */, 6)
-     , (15301, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (15301,   1,        128) /* ItemType - Misc */
+     , (15301,   8,       2000) /* Mass */
+     , (15301,  16,          1) /* ItemUseable - No */
+     , (15301,  19,          0) /* Value */
+     , (15301,  83,          2) /* ActivationResponse - Use */
+     , (15301,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15301, 001 /* STUCK_BOOL */, True)
-     , (15301, 002 /* OPEN_BOOL */, False)
-     , (15301, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (15301, 013 /* ETHEREAL_BOOL */, False)
-     , (15301, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (15301, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (15301, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (15301,   1, True ) /* Stuck */
+     , (15301,   2, False) /* Open */
+     , (15301,  12, True ) /* ReportCollisions */
+     , (15301,  13, False) /* Ethereal */
+     , (15301,  14, False) /* GravityStatus */
+     , (15301,  33, False) /* ResetMessagePending */
+     , (15301,  34, False) /* DefaultOpen */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (15301, 1, 7 /* Use_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15301,  11,       6) /* ResetInterval */
+     , (15301,  54,       2) /* UseRadius */;
 
-INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15301, 7 /* Use_EmoteCategory */, 0, 0, 17 /* LocalBroadcast_EmoteType */, 0, 0, NULL, 'With a soft rumble the two halves of the bookcase part.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15301,   1, 'Bookcase') /* Name */
+     , (15301,  15, 'A bookcase filled with well kept tomes.') /* ShortDesc */;
 
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15301,   1,   33557590) /* Setup */
+     , (15301,   2,  150995157) /* MotionTable */
+     , (15301,   3,  536871051) /* SoundTable */
+     , (15301,   8,  100668246) /* Icon */
+     , (15301,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (15301,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'With a soft rumble the two halves of the bookcase part.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

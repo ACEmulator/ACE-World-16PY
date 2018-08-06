@@ -1,48 +1,44 @@
-/* Weenie - Arqasanti Portal Gem (26078) */
-DELETE FROM weenie WHERE class_Id = 26078;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26078, 'gemportalarqasanti', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26078, 001 /* NAME_STRING */, 'Arqasanti Portal Gem')
-     , (26078, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26078, 001 /* SETUP_DID */, 33556769)
-     , (26078, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26078, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26078, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26078, 008 /* ICON_DID */, 100675760)
-     , (26078, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26078, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26078, 031 /* LINKED_PORTAL_ONE_DID */, 12474 /* Arqasanti Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26078', 'gemportalarqasanti', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26078, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26078, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26078, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26078, 008 /* MASS_INT */, 10)
-     , (26078, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26078, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26078, 012 /* STACK_SIZE_INT */, 1)
-     , (26078, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26078, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26078, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26078, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26078, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26078, 019 /* VALUE_INT */, 500)
-     , (26078, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26078, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26078, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26078, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26078, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26078, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26078, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26078, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26078, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26078,   1,       2048) /* ItemType - Gem */
+     , (26078,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26078,   5,         10) /* EncumbranceVal */
+     , (26078,   8,         10) /* Mass */
+     , (26078,   9,          0) /* ValidLocations - None */
+     , (26078,  11,         20) /* MaxStackSize */
+     , (26078,  12,          1) /* StackSize */
+     , (26078,  13,         10) /* StackUnitEncumbrance */
+     , (26078,  14,         10) /* StackUnitMass */
+     , (26078,  15,        500) /* StackUnitValue */
+     , (26078,  16,          8) /* ItemUseable - Contained */
+     , (26078,  18,          1) /* UiEffects - Magical */
+     , (26078,  19,        500) /* Value */
+     , (26078,  93,       3092) /* PhysicsState */
+     , (26078,  94,         16) /* TargetType - Creature */
+     , (26078, 106,        210) /* ItemSpellcraft */
+     , (26078, 107,         50) /* ItemCurMana */
+     , (26078, 108,         50) /* ItemMaxMana */
+     , (26078, 109,          0) /* ItemDifficulty */
+     , (26078, 110,          0) /* ItemAllegianceRankLimit */
+     , (26078, 150,        103) /* HookPlacement - Hook */
+     , (26078, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26078, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26078, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26078,  15, True ) /* LightsStatus */
+     , (26078,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26078,   1, 'Arqasanti Portal Gem') /* Name */
+     , (26078,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26078,   1,   33556769) /* Setup */
+     , (26078,   3,  536870932) /* SoundTable */
+     , (26078,   6,   67111919) /* PaletteBase */
+     , (26078,   7,  268435723) /* ClothingBase */
+     , (26078,   8,  100675760) /* Icon */
+     , (26078,  22,  872415275) /* PhysicsEffectTable */
+     , (26078,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26078,  31,      12474) /* LinkedPortalOne - Arqasanti Portal */;

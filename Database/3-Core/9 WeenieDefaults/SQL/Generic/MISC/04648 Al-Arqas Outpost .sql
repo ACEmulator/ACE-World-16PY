@@ -1,29 +1,25 @@
-/* Weenie - Al-Arqas Outpost  (4648) */
-DELETE FROM weenie WHERE class_Id = 4648;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4648, 'alarqasoutpostsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4648, 001 /* NAME_STRING */, 'Al-Arqas Outpost ')
-     , (4648, 016 /* LONG_DESC_STRING */, 'This way to Al-Arqas!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4648, 001 /* SETUP_DID */, 33555985)
-     , (4648, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4648', 'alarqasoutpostsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4648, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4648, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4648, 008 /* MASS_INT */, 1800)
-     , (4648, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4648, 019 /* VALUE_INT */, 125)
-     , (4648, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (4648,   1,        128) /* ItemType - Misc */
+     , (4648,   5,       9000) /* EncumbranceVal */
+     , (4648,   8,       1800) /* Mass */
+     , (4648,  16,          1) /* ItemUseable - No */
+     , (4648,  19,        125) /* Value */
+     , (4648,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4648, 001 /* STUCK_BOOL */, True)
-     , (4648, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4648, 013 /* ETHEREAL_BOOL */, False)
-     , (4648, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (4648, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4648,   1, True ) /* Stuck */
+     , (4648,  12, True ) /* ReportCollisions */
+     , (4648,  13, False) /* Ethereal */
+     , (4648,  14, False) /* GravityStatus */
+     , (4648,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4648,   1, 'Al-Arqas Outpost ') /* Name */
+     , (4648,  16, 'This way to Al-Arqas!') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4648,   1,   33555985) /* Setup */
+     , (4648,   8,  100668115) /* Icon */;

@@ -1,28 +1,24 @@
-/* Weenie - Pavanne Vale Freehold (12643) */
-DELETE FROM weenie WHERE class_Id = 12643;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12643, 'pavannevalefreeholdsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12643, 001 /* NAME_STRING */, 'Pavanne Vale Freehold')
-     , (12643, 016 /* LONG_DESC_STRING */, 'Welcome to Pavanne Vale Freehold');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12643, 001 /* SETUP_DID */, 33557463)
-     , (12643, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12643', 'pavannevalefreeholdsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12643, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (12643, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (12643, 008 /* MASS_INT */, 1800)
-     , (12643, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12643, 019 /* VALUE_INT */, 125)
-     , (12643, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (12643,   1,        128) /* ItemType - Misc */
+     , (12643,   5,       9000) /* EncumbranceVal */
+     , (12643,   8,       1800) /* Mass */
+     , (12643,  16,          1) /* ItemUseable - No */
+     , (12643,  19,        125) /* Value */
+     , (12643,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12643, 001 /* STUCK_BOOL */, True)
-     , (12643, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12643, 013 /* ETHEREAL_BOOL */, False)
-     , (12643, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (12643,   1, True ) /* Stuck */
+     , (12643,  12, True ) /* ReportCollisions */
+     , (12643,  13, False) /* Ethereal */
+     , (12643,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12643,   1, 'Pavanne Vale Freehold') /* Name */
+     , (12643,  16, 'Welcome to Pavanne Vale Freehold') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12643,   1,   33557463) /* Setup */
+     , (12643,   8,  100668115) /* Icon */;

@@ -1,60 +1,56 @@
-/* Weenie - Frosty Amuli Leggings (23787) */
-DELETE FROM weenie WHERE class_Id = 23787;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23787, 'leggingsamulishadowchilled', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23787, 001 /* NAME_STRING */, 'Frosty Amuli Leggings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23787, 001 /* SETUP_DID */, 33554856)
-     , (23787, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23787, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (23787, 007 /* CLOTHINGBASE_DID */, 268435872)
-     , (23787, 008 /* ICON_DID */, 100674068)
-     , (23787, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23787', 'leggingsamulishadowchilled', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23787, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (23787, 003 /* PALETTE_TEMPLATE_INT */, 93 /* DYESPRINGBLACK_PALETTE_TEMPLATE */)
-     , (23787, 004 /* CLOTHING_PRIORITY_INT */, 2816 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */)
-     , (23787, 005 /* ENCUMB_VAL_INT */, 2288)
-     , (23787, 008 /* MASS_INT */, 1275)
-     , (23787, 009 /* LOCATIONS_INT */, 25600 /* ABDOMEN_ARMOR_LOC, UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (23787, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23787, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (23787, 019 /* VALUE_INT */, 3040)
-     , (23787, 027 /* ARMOR_TYPE_INT */, 2)
-     , (23787, 028 /* ARMOR_LEVEL_INT */, 240)
-     , (23787, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23787, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23787, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (23787, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (23787, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (23787, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (23787, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (23787, 160 /* WIELD_DIFFICULTY_INT */, 50);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23787, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (23787, 012 /* SHADE_FLOAT */, 0.25)
-     , (23787, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (23787, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (23787, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (23787, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (23787, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (23787, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (23787, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (23787, 110 /* BULK_MOD_FLOAT */, 1)
-     , (23787, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (23787,   1,          2) /* ItemType - Armor */
+     , (23787,   3,         93) /* PaletteTemplate - DyeSpringBlack */
+     , (23787,   4,       2816) /* ClothingPriority */
+     , (23787,   5,       2288) /* EncumbranceVal */
+     , (23787,   8,       1275) /* Mass */
+     , (23787,   9,      25600) /* ValidLocations */
+     , (23787,  16,          1) /* ItemUseable - No */
+     , (23787,  18,        128) /* UiEffects - Frost */
+     , (23787,  19,       3040) /* Value */
+     , (23787,  27,          2) /* ArmorType */
+     , (23787,  28,        240) /* ArmorLevel */
+     , (23787,  33,          1) /* Bonded - Bonded */
+     , (23787,  93,       1044) /* PhysicsState */
+     , (23787, 107,       1000) /* ItemCurMana */
+     , (23787, 108,       1000) /* ItemMaxMana */
+     , (23787, 109,          0) /* ItemDifficulty */
+     , (23787, 158,          7) /* WieldRequirements - Level */
+     , (23787, 159,          1) /* WieldSkilltype - Axe */
+     , (23787, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23787, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23787, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (23787, 069 /* IS_SELLABLE_BOOL */, False)
-     , (23787, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
+VALUES (23787,  22, True ) /* Inscribable */
+     , (23787,  23, True ) /* DestroyOnSell */
+     , (23787,  69, False) /* IsSellable */
+     , (23787,  84, True ) /* IgnoreCloIcons */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23787,   5,  -0.025) /* ManaRate */
+     , (23787,  12,    0.25) /* Shade */
+     , (23787,  13,       1) /* ArmorModVsSlash */
+     , (23787,  14,     0.8) /* ArmorModVsPierce */
+     , (23787,  15,       1) /* ArmorModVsBludgeon */
+     , (23787,  16,     0.8) /* ArmorModVsCold */
+     , (23787,  17,     0.8) /* ArmorModVsFire */
+     , (23787,  18,     0.8) /* ArmorModVsAcid */
+     , (23787,  19,     0.6) /* ArmorModVsElectric */
+     , (23787, 110,       1) /* BulkMod */
+     , (23787, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23787,   1, 'Frosty Amuli Leggings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23787,   1,   33554856) /* Setup */
+     , (23787,   3,  536870932) /* SoundTable */
+     , (23787,   6,   67108990) /* PaletteBase */
+     , (23787,   7,  268435872) /* ClothingBase */
+     , (23787,   8,  100674068) /* Icon */
+     , (23787,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23787, 2612, 2) /* CANTRIPFROSTWARD2_SpellID */;
-
+VALUES (23787,  2612,      2)  /* Major Frost Ward */;

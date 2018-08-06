@@ -1,34 +1,30 @@
-/* Weenie - Moo Juice (9148) */
-DELETE FROM weenie WHERE class_Id = 9148;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9148, 'alchemmoojuice', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9148, 001 /* NAME_STRING */, 'Moo Juice')
-     , (9148, 020 /* PLURAL_NAME_STRING */, 'Moo Juices');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9148, 001 /* SETUP_DID */, 33555209)
-     , (9148, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9148, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (9148, 007 /* CLOTHINGBASE_DID */, 268435719)
-     , (9148, 008 /* ICON_DID */, 100668493)
-     , (9148, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9148, 029 /* SPELL_COMPONENT_DID */, 113);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9148', 'alchemmoojuice', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9148, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (9148, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (9148, 005 /* ENCUMB_VAL_INT */, 4)
-     , (9148, 008 /* MASS_INT */, 50)
-     , (9148, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9148, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (9148, 012 /* STACK_SIZE_INT */, 1)
-     , (9148, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
-     , (9148, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (9148, 015 /* STACK_UNIT_VALUE_INT */, 5)
-     , (9148, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9148, 019 /* VALUE_INT */, 5)
-     , (9148, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (9148,   1,       4096) /* ItemType - SpellComponents */
+     , (9148,   3,         61) /* PaletteTemplate - White */
+     , (9148,   5,          4) /* EncumbranceVal */
+     , (9148,   8,         50) /* Mass */
+     , (9148,   9,          0) /* ValidLocations - None */
+     , (9148,  11,        100) /* MaxStackSize */
+     , (9148,  12,          1) /* StackSize */
+     , (9148,  13,          4) /* StackUnitEncumbrance */
+     , (9148,  14,         50) /* StackUnitMass */
+     , (9148,  15,          5) /* StackUnitValue */
+     , (9148,  16,          1) /* ItemUseable - No */
+     , (9148,  19,          5) /* Value */
+     , (9148,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9148,   1, 'Moo Juice') /* Name */
+     , (9148,  20, 'Moo Juices') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9148,   1,   33555209) /* Setup */
+     , (9148,   3,  536870932) /* SoundTable */
+     , (9148,   6,   67111919) /* PaletteBase */
+     , (9148,   7,  268435719) /* ClothingBase */
+     , (9148,   8,  100668493) /* Icon */
+     , (9148,  22,  872415275) /* PhysicsEffectTable */
+     , (9148,  29,        113) /* SpellComponent */;

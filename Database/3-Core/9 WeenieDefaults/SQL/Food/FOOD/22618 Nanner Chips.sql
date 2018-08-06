@@ -1,38 +1,34 @@
-/* Weenie - Nanner Chips (22618) */
-DELETE FROM weenie WHERE class_Id = 22618;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22618, 'nannerchips', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22618, 001 /* NAME_STRING */, 'Nanner Chips')
-     , (22618, 014 /* USE_STRING */, 'Eat this food to recover stamina.')
-     , (22618, 015 /* SHORT_DESC_STRING */, 'A dried nanner treat.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22618, 001 /* SETUP_DID */, 33555968)
-     , (22618, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22618, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22618, 007 /* CLOTHINGBASE_DID */, 268436503)
-     , (22618, 008 /* ICON_DID */, 100673806)
-     , (22618, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22618', 'nannerchips', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22618, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (22618, 005 /* ENCUMB_VAL_INT */, 20)
-     , (22618, 008 /* MASS_INT */, 20)
-     , (22618, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22618, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (22618, 012 /* STACK_SIZE_INT */, 1)
-     , (22618, 013 /* STACK_UNIT_ENCUMB_INT */, 20)
-     , (22618, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (22618, 015 /* STACK_UNIT_VALUE_INT */, 75)
-     , (22618, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22618, 019 /* VALUE_INT */, 75)
-     , (22618, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (22618, 090 /* BOOST_VALUE_INT */, 20)
-     , (22618, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (22618,   1,         32) /* ItemType - Food */
+     , (22618,   5,         20) /* EncumbranceVal */
+     , (22618,   8,         20) /* Mass */
+     , (22618,   9,          0) /* ValidLocations - None */
+     , (22618,  11,        100) /* MaxStackSize */
+     , (22618,  12,          1) /* StackSize */
+     , (22618,  13,         20) /* StackUnitEncumbrance */
+     , (22618,  14,         20) /* StackUnitMass */
+     , (22618,  15,         75) /* StackUnitValue */
+     , (22618,  16,          8) /* ItemUseable - Contained */
+     , (22618,  19,         75) /* Value */
+     , (22618,  89,          4) /* BoosterEnum - Stamina */
+     , (22618,  90,         20) /* BoostValue */
+     , (22618,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22618, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (22618,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22618,   1, 'Nanner Chips') /* Name */
+     , (22618,  14, 'Eat this food to recover stamina.') /* Use */
+     , (22618,  15, 'A dried nanner treat.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22618,   1,   33555968) /* Setup */
+     , (22618,   3,  536870932) /* SoundTable */
+     , (22618,   6,   67111919) /* PaletteBase */
+     , (22618,   7,  268436503) /* ClothingBase */
+     , (22618,   8,  100673806) /* Icon */
+     , (22618,  22,  872415275) /* PhysicsEffectTable */;

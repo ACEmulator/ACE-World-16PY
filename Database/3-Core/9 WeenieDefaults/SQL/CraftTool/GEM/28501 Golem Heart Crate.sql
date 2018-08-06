@@ -1,43 +1,39 @@
-/* Weenie - Golem Heart Crate (28501) */
-DELETE FROM weenie WHERE class_Id = 28501;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28501, 'crategolemcatalogue2', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28501, 001 /* NAME_STRING */, 'Golem Heart Crate')
-     , (28501, 014 /* USE_STRING */, 'Place an Iron Golem heart into the slot assigned to the iron heart.')
-     , (28501, 016 /* LONG_DESC_STRING */, 'A crate with five empty slots. Currently only the first slot has been filled, a granite heart is within that slot. The second slot appears to be labeled for an Iron Golem Heart.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28501, 001 /* SETUP_DID */, 33554930)
-     , (28501, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28501, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (28501, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (28501, 008 /* ICON_DID */, 100676970)
-     , (28501, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28501', 'crategolemcatalogue2', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28501, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (28501, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
-     , (28501, 005 /* ENCUMB_VAL_INT */, 150)
-     , (28501, 008 /* MASS_INT */, 10)
-     , (28501, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28501, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (28501, 012 /* STACK_SIZE_INT */, 1)
-     , (28501, 013 /* STACK_UNIT_ENCUMB_INT */, 150)
-     , (28501, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (28501, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (28501, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (28501, 019 /* VALUE_INT */, 0)
-     , (28501, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28501, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28501, 094 /* TARGET_TYPE_INT */, 2176 /* TYPE_MISC, TYPE_GEM */)
-     , (28501, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (28501, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28501, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (28501,   1,       2048) /* ItemType - Gem */
+     , (28501,   3,         83) /* PaletteTemplate - Amber */
+     , (28501,   5,        150) /* EncumbranceVal */
+     , (28501,   8,         10) /* Mass */
+     , (28501,   9,          0) /* ValidLocations - None */
+     , (28501,  11,          1) /* MaxStackSize */
+     , (28501,  12,          1) /* StackSize */
+     , (28501,  13,        150) /* StackUnitEncumbrance */
+     , (28501,  14,         10) /* StackUnitMass */
+     , (28501,  15,          0) /* StackUnitValue */
+     , (28501,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (28501,  19,          0) /* Value */
+     , (28501,  33,          1) /* Bonded - Bonded */
+     , (28501,  93,       1044) /* PhysicsState */
+     , (28501,  94,       2176) /* TargetType */
+     , (28501, 114,          1) /* Attuned - Attuned */
+     , (28501, 150,        103) /* HookPlacement - Hook */
+     , (28501, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28501, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28501, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (28501,  22, True ) /* Inscribable */
+     , (28501,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28501,   1, 'Golem Heart Crate') /* Name */
+     , (28501,  14, 'Place an Iron Golem heart into the slot assigned to the iron heart.') /* Use */
+     , (28501,  16, 'A crate with five empty slots. Currently only the first slot has been filled, a granite heart is within that slot. The second slot appears to be labeled for an Iron Golem Heart.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28501,   1,   33554930) /* Setup */
+     , (28501,   3,  536870932) /* SoundTable */
+     , (28501,   6,   67111919) /* PaletteBase */
+     , (28501,   7,  268435723) /* ClothingBase */
+     , (28501,   8,  100676970) /* Icon */
+     , (28501,  22,  872415275) /* PhysicsEffectTable */;

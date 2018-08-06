@@ -1,24 +1,53 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7924, 1987960845, 1742602499, 117.388, 64.336, 64.405, -0.818654, 0, 0, 0.574288) /* linkmonstergen5minutes */
-     , (20642, 1987960847, 1742602499, 122.244, 66.2091, 64.405, 0.841501, 0, 0, -0.540255) /* Grievver Caves Portal */
-     , (7978, 1987960846, 1742602499, 117.846, 64.569, 64.405, -0.596707, 0, 0, -0.802459) /* Scrawed Grievver */
-     , (20178, 1987960832, 1742602240, 35.576, 36.5476, 58.9841, 0.663581, 0, 0, -0.748105) /* Scuttling Grievver Landscape Gen */
-     , (20178, 1987960833, 1742602240, 40.7224, 26.0657, 58.5248, 0.320575, 0, 0, -0.947223) /* Scuttling Grievver Landscape Gen */
-     , (20178, 1987960834, 1742602240, 29.7793, 23.8688, 55.4437, 0.839694, 0, 0, -0.54306) /* Scuttling Grievver Landscape Gen */
-     , (20178, 1987960835, 1742602240, 12.3981, 42.9678, 55.2272, -0.977557, 0, 0, -0.210672) /* Scuttling Grievver Landscape Gen */
-     , (20178, 1987960836, 1742602240, 15.988, 24.5892, 52.7636, -0.759865, 0, 0, -0.650081) /* Scuttling Grievver Landscape Gen */
-     , (20178, 1987960837, 1742602240, 39.814, 47.4248, 61.857, -0.997938, 0, 0, -0.064186) /* Scuttling Grievver Landscape Gen */
-     , (20178, 1987960838, 1742602240, 38.6997, 13.4242, 57.6739, 0.874391, 0, 0, -0.485222) /* Scuttling Grievver Landscape Gen */
-     , (20178, 1987960839, 1742602240, 56.0961, 13.4183, 62.0243, -0.115192, 0, 0, -0.993343) /* Scuttling Grievver Landscape Gen */
-     , (8059, 1987960840, 1742602240, 79.2175, 35.1821, 75.5942, -0.558039, 0, 0, -0.829814) /* grievverscrawedcampgen */
-     , (8059, 1987960841, 1742602240, 53.6283, 72.1672, 74.9674, -0.217689, 0, 0, -0.976018) /* grievverscrawedcampgen */
-     , (7925, 1987960842, 1742602240, 13.0947, 12.1339, 52.1875, 0.77736, 0, 0, 0.629056) /* linkmonstergen10minutes */
-     , (19435, 1987960843, 1742602240, 13.0947, 12.1339, 52.1945, 0.792842, 0, 0, 0.609428) /* Red Phyntos Wasp */
-     , (8059, 1987960844, 1742602240, 80.5871, 48.9337, 75.3711, -0.668421, 0, 0, -0.743783) /* grievverscrawedcampgen */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960832, 20178, 1742602240, 35.576, 36.5476, 58.9841, 0.663581, 0, 0, -0.748105, False); /* Scuttling Grievver Landscape Gen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1987960842'; /* linkmonstergen10minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1987960845'; /* linkmonstergen5minutes */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960833, 20178, 1742602240, 40.7224, 26.0657, 58.5248, 0.320575, 0, 0, -0.947223, False); /* Scuttling Grievver Landscape Gen */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1987960843'; /* linkmonstergen10minutes <- Red Phyntos Wasp */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1987960846'; /* linkmonstergen5minutes <- Scrawed Grievver */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960834, 20178, 1742602240, 29.7793, 23.8688, 55.4437, 0.839694, 0, 0, -0.54306, False); /* Scuttling Grievver Landscape Gen */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960835, 20178, 1742602240, 12.3981, 42.9678, 55.2272, -0.977557, 0, 0, -0.210672, False); /* Scuttling Grievver Landscape Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960836, 20178, 1742602240, 15.988, 24.5892, 52.7636, -0.759865, 0, 0, -0.650081, False); /* Scuttling Grievver Landscape Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960837, 20178, 1742602240, 39.814, 47.4248, 61.857, -0.997938, 0, 0, -0.064186, False); /* Scuttling Grievver Landscape Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960838, 20178, 1742602240, 38.6997, 13.4242, 57.6739, 0.874391, 0, 0, -0.485222, False); /* Scuttling Grievver Landscape Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960839, 20178, 1742602240, 56.0961, 13.4183, 62.0243, -0.115192, 0, 0, -0.993343, False); /* Scuttling Grievver Landscape Gen */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960840,  8059, 1742602240, 79.2175, 35.1821, 75.5942, -0.558039, 0, 0, -0.829814, False); /* Scrawed Grievver Camp Generator */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960841,  8059, 1742602240, 53.6283, 72.1672, 74.9674, -0.217689, 0, 0, -0.976018, False); /* Scrawed Grievver Camp Generator */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960842,  7925, 1742602240, 13.0947, 12.1339, 52.1875, 0.77736, 0, 0, 0.629056, False); /* Linkable Monster Generator ( 10 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1987960842, 1987960843) /* Red Phyntos Wasp */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960843, 19435, 1742602240, 13.0947, 12.1339, 52.1945, 0.792842, 0, 0, 0.609428,  True); /* Red Phyntos Wasp */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960844,  8059, 1742602240, 80.5871, 48.9337, 75.3711, -0.668421, 0, 0, -0.743783, False); /* Scrawed Grievver Camp Generator */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960845,  7924, 1742602499, 117.388, 64.336, 64.405, -0.818654, 0, 0, 0.574288, False); /* Linkable Monster Generator ( 5 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (1987960845, 1987960846) /* Scrawed Grievver */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960846,  7978, 1742602499, 117.846, 64.569, 64.405, -0.596707, 0, 0, -0.802459,  True); /* Scrawed Grievver */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (1987960847, 20642, 1742602499, 122.244, 66.2091, 64.405, 0.841501, 0, 0, -0.540255, False); /* Grievver Caves Portal */

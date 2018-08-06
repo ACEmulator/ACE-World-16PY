@@ -1,34 +1,30 @@
-/* Weenie - Alloy Contrivance (25324) */
-DELETE FROM weenie WHERE class_Id = 25324;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25324, 'undeadmechanism10', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25324, 001 /* NAME_STRING */, 'Alloy Contrivance')
-     , (25324, 016 /* LONG_DESC_STRING */, 'This mechanism appears to be made of some unknown alloy. Perhaps an Agent of the Arcanum would know what it is?')
-     , (25324, 033 /* QUEST_STRING */, 'UndeadMechanismPickup10');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25324, 001 /* SETUP_DID */, 33558439)
-     , (25324, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25324, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (25324, 008 /* ICON_DID */, 100674833)
-     , (25324, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25324', 'undeadmechanism10', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25324, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25324, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (25324, 005 /* ENCUMB_VAL_INT */, 25)
-     , (25324, 008 /* MASS_INT */, 25)
-     , (25324, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25324, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25324, 019 /* VALUE_INT */, 0)
-     , (25324, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25324, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25324, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (25324,   1,        128) /* ItemType - Misc */
+     , (25324,   3,         21) /* PaletteTemplate - Gold */
+     , (25324,   5,         25) /* EncumbranceVal */
+     , (25324,   8,         25) /* Mass */
+     , (25324,   9,          0) /* ValidLocations - None */
+     , (25324,  16,          1) /* ItemUseable - No */
+     , (25324,  19,          0) /* Value */
+     , (25324,  33,          1) /* Bonded - Bonded */
+     , (25324,  93,       1044) /* PhysicsState */
+     , (25324, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25324, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25324, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (25324,  22, True ) /* Inscribable */
+     , (25324,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25324,   1, 'Alloy Contrivance') /* Name */
+     , (25324,  16, 'This mechanism appears to be made of some unknown alloy. Perhaps an Agent of the Arcanum would know what it is?') /* LongDesc */
+     , (25324,  33, 'UndeadMechanismPickup10') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25324,   1,   33558439) /* Setup */
+     , (25324,   3,  536870932) /* SoundTable */
+     , (25324,   6,   67111919) /* PaletteBase */
+     , (25324,   8,  100674833) /* Icon */
+     , (25324,  22,  872415275) /* PhysicsEffectTable */;

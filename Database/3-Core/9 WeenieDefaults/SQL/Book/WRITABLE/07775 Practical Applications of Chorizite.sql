@@ -1,37 +1,34 @@
-/* Weenie - Practical Applications of Chorizite (7775) */
-DELETE FROM weenie WHERE class_Id = 7775;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7775, 'bookantimagicuses', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7775, 001 /* NAME_STRING */, 'Practical Applications of Chorizite')
-     , (7775, 016 /* LONG_DESC_STRING */, 'A book on the uses of anti-magic ore.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7775, 001 /* SETUP_DID */, 33554771)
-     , (7775, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7775, 008 /* ICON_DID */, 100668117)
-     , (7775, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7775', 'bookantimagicuses', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7775, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (7775, 005 /* ENCUMB_VAL_INT */, 220)
-     , (7775, 008 /* MASS_INT */, 275)
-     , (7775, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7775, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (7775, 019 /* VALUE_INT */, 120)
-     , (7775, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7775, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (7775, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (7775,   1,       8192) /* ItemType - Writable */
+     , (7775,   5,        220) /* EncumbranceVal */
+     , (7775,   8,        275) /* Mass */
+     , (7775,   9,          0) /* ValidLocations - None */
+     , (7775,  16,          8) /* ItemUseable - Contained */
+     , (7775,  19,        120) /* Value */
+     , (7775,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7775, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (7775,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7775,  39,    1.22) /* DefaultScale */
+     , (7775,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7775,   1, 'Practical Applications of Chorizite') /* Name */
+     , (7775,  16, 'A book on the uses of anti-magic ore.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7775,   1,   33554771) /* Setup */
+     , (7775,   3,  536870932) /* SoundTable */
+     , (7775,   8,  100668117) /* Icon */
+     , (7775,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (7775, 6, 1000) /* Book Data */;
+VALUES (7775, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (7775, 0, 4294967295, 'by Gondo Kanezo', 'prewritten', False, 'Some time ago, I received a rare treat: my esteemed, if  long-winded, colleague Aliester sent me some samples of what he called chorizite ore.  This ore apparently was stolen from some mines operated by Lugians in the southern mountains.  Aliester explained to me its strangely "anti-magical" properties and asked about possible practical applications for this new ore.  Curious and intrigued, I agreed to work on it and see what I could come up with.
@@ -46,4 +43,3 @@ VALUES (7775, 0, 4294967295, 'by Gondo Kanezo', 'prewritten', False, 'Some time 
 ')
      , (7775, 5, 4294967295, '', 'prewritten', False, 'My next step is to experiment with uses for this distillation, either in alchemical potions or as a possible reagent in magic casting.  No doubt the exceptional properties of chorizite will have some interesting effects...
 ');
-

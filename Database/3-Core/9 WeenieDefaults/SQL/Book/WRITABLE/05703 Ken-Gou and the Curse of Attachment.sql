@@ -1,37 +1,34 @@
-/* Weenie - Ken-Gou and the Curse of Attachment (5703) */
-DELETE FROM weenie WHERE class_Id = 5703;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5703, 'lecternkengou', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5703, 001 /* NAME_STRING */, 'Ken-Gou and the Curse of Attachment');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5703, 001 /* SETUP_DID */, 33556013)
-     , (5703, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5703, 008 /* ICON_DID */, 100668236)
-     , (5703, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5703', 'lecternkengou', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5703, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5703, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5703, 008 /* MASS_INT */, 5)
-     , (5703, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5703, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5703, 019 /* VALUE_INT */, 10)
-     , (5703, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5703, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5703,   1,       8192) /* ItemType - Writable */
+     , (5703,   5,         25) /* EncumbranceVal */
+     , (5703,   8,          5) /* Mass */
+     , (5703,   9,          0) /* ValidLocations - None */
+     , (5703,  16,          8) /* ItemUseable - Contained */
+     , (5703,  19,         10) /* Value */
+     , (5703,  93,       1040) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5703, 001 /* STUCK_BOOL */, True)
-     , (5703, 013 /* ETHEREAL_BOOL */, False)
-     , (5703, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5703,   1, True ) /* Stuck */
+     , (5703,  13, False) /* Ethereal */
+     , (5703,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5703,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5703,   1, 'Ken-Gou and the Curse of Attachment') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5703,   1,   33556013) /* Setup */
+     , (5703,   3,  536870932) /* SoundTable */
+     , (5703,   8,  100668236) /* Icon */
+     , (5703,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5703, 21, 1000) /* Book Data */;
+VALUES (5703, 21, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5703, 0, 4294967295, 'Ken-gou and the Curse of Attachment', 'prewritten', False, 'This was one of my favorite stories back in the homelands, that warned of the dangers of attachment.  I learned it from my grandmother, and now that I am an old man, it is time that I teach future generations this tale.  Here it is as best as I remember.
@@ -108,4 +105,3 @@ The Disciple of the Unicorn said, It is best that the gold go to the poor.
 ')
      , (5703, 20, 4294967295, 'Ken-gou and the Curse of Attachment', 'prewritten', False, 'But it is unknown to this day what happened to the Emperor''s unhappy spirit.
 ');
-

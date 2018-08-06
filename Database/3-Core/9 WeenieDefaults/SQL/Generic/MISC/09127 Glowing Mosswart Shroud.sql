@@ -1,38 +1,34 @@
-/* Weenie - Glowing Mosswart Shroud (9127) */
-DELETE FROM weenie WHERE class_Id = 9127;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9127, 'shroudglowingmosswart', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9127, 001 /* NAME_STRING */, 'Glowing Mosswart Shroud')
-     , (9127, 015 /* SHORT_DESC_STRING */, 'If you desire the pretty diamonds, then give this to my servant.  He is no longer an efficient observer, but he will do what I tell him to.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9127, 001 /* SETUP_DID */, 33554817)
-     , (9127, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9127, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (9127, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (9127, 008 /* ICON_DID */, 100671377)
-     , (9127, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9127', 'shroudglowingmosswart', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9127, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9127, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (9127, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9127, 008 /* MASS_INT */, 200)
-     , (9127, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9127, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9127, 019 /* VALUE_INT */, 0)
-     , (9127, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9127, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9127, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9127, 039 /* DEFAULT_SCALE_FLOAT */, 0.75);
+VALUES (9127,   1,        128) /* ItemType - Misc */
+     , (9127,   3,          8) /* PaletteTemplate - Green */
+     , (9127,   5,         10) /* EncumbranceVal */
+     , (9127,   8,        200) /* Mass */
+     , (9127,   9,          0) /* ValidLocations - None */
+     , (9127,  16,          1) /* ItemUseable - No */
+     , (9127,  19,          0) /* Value */
+     , (9127,  33,          1) /* Bonded - Bonded */
+     , (9127,  93,       1044) /* PhysicsState */
+     , (9127, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9127, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9127, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (9127, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9127,  22, True ) /* Inscribable */
+     , (9127,  23, True ) /* DestroyOnSell */
+     , (9127,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9127,  39,    0.75) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9127,   1, 'Glowing Mosswart Shroud') /* Name */
+     , (9127,  15, 'If you desire the pretty diamonds, then give this to my servant.  He is no longer an efficient observer, but he will do what I tell him to.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9127,   1,   33554817) /* Setup */
+     , (9127,   3,  536870932) /* SoundTable */
+     , (9127,   6,   67111919) /* PaletteBase */
+     , (9127,   7,  268435832) /* ClothingBase */
+     , (9127,   8,  100671377) /* Icon */
+     , (9127,  22,  872415275) /* PhysicsEffectTable */;

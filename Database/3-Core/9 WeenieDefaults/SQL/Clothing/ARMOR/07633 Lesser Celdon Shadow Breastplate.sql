@@ -1,48 +1,44 @@
-/* Weenie - Lesser Celdon Shadow Breastplate (7633) */
-DELETE FROM weenie WHERE class_Id = 7633;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7633, 'breastplateceldonshadowlessernew', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7633, 001 /* NAME_STRING */, 'Lesser Celdon Shadow Breastplate');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7633, 001 /* SETUP_DID */, 33554642)
-     , (7633, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7633, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (7633, 007 /* CLOTHINGBASE_DID */, 268435848)
-     , (7633, 008 /* ICON_DID */, 100670403)
-     , (7633, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7633', 'breastplateceldonshadowlessernew', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7633, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (7633, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (7633, 004 /* CLOTHING_PRIORITY_INT */, 1024 /* OuterwearChest */)
-     , (7633, 005 /* ENCUMB_VAL_INT */, 2100)
-     , (7633, 008 /* MASS_INT */, 1200)
-     , (7633, 009 /* LOCATIONS_INT */, 512 /* CHEST_ARMOR_LOC */)
-     , (7633, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7633, 019 /* VALUE_INT */, 2680)
-     , (7633, 027 /* ARMOR_TYPE_INT */, 32)
-     , (7633, 028 /* ARMOR_LEVEL_INT */, 110)
-     , (7633, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7633, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7633, 012 /* SHADE_FLOAT */, 0.6)
-     , (7633, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (7633, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (7633, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (7633, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.1)
-     , (7633, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.1)
-     , (7633, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (7633, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.1)
-     , (7633, 110 /* BULK_MOD_FLOAT */, 1)
-     , (7633, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (7633,   1,          2) /* ItemType - Armor */
+     , (7633,   3,         14) /* PaletteTemplate - Red */
+     , (7633,   4,       1024) /* ClothingPriority - OuterwearChest */
+     , (7633,   5,       2100) /* EncumbranceVal */
+     , (7633,   8,       1200) /* Mass */
+     , (7633,   9,        512) /* ValidLocations - ChestArmor */
+     , (7633,  16,          1) /* ItemUseable - No */
+     , (7633,  19,       2680) /* Value */
+     , (7633,  27,         32) /* ArmorType */
+     , (7633,  28,        110) /* ArmorLevel */
+     , (7633,  33,          1) /* Bonded - Bonded */
+     , (7633,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7633, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7633, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7633, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7633,  22, True ) /* Inscribable */
+     , (7633,  23, True ) /* DestroyOnSell */
+     , (7633,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7633,  12,     0.6) /* Shade */
+     , (7633,  13,     1.3) /* ArmorModVsSlash */
+     , (7633,  14,       1) /* ArmorModVsPierce */
+     , (7633,  15,       1) /* ArmorModVsBludgeon */
+     , (7633,  16,     0.1) /* ArmorModVsCold */
+     , (7633,  17,     0.1) /* ArmorModVsFire */
+     , (7633,  18,     0.1) /* ArmorModVsAcid */
+     , (7633,  19,     0.1) /* ArmorModVsElectric */
+     , (7633, 110,       1) /* BulkMod */
+     , (7633, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7633,   1, 'Lesser Celdon Shadow Breastplate') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7633,   1,   33554642) /* Setup */
+     , (7633,   3,  536870932) /* SoundTable */
+     , (7633,   6,   67108990) /* PaletteBase */
+     , (7633,   7,  268435848) /* ClothingBase */
+     , (7633,   8,  100670403) /* Icon */
+     , (7633,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,31 +1,27 @@
-/* Weenie - Auroch Skull (19443) */
-DELETE FROM weenie WHERE class_Id = 19443;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19443, 'aurochskull-noselect', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19443, 001 /* NAME_STRING */, 'Auroch Skull');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19443, 001 /* SETUP_DID */, 33557714)
-     , (19443, 006 /* PALETTE_BASE_DID */, 67111266)
-     , (19443, 007 /* CLOTHINGBASE_DID */, 268436390)
-     , (19443, 008 /* ICON_DID */, 100668178);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19443', 'aurochskull-noselect', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19443, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19443, 005 /* ENCUMB_VAL_INT */, 180)
-     , (19443, 008 /* MASS_INT */, 90)
-     , (19443, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19443, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19443, 019 /* VALUE_INT */, 0)
-     , (19443, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19443, 044 /* TIME_TO_ROT_FLOAT */, 0);
+VALUES (19443,   1,        128) /* ItemType - Misc */
+     , (19443,   5,        180) /* EncumbranceVal */
+     , (19443,   8,         90) /* Mass */
+     , (19443,   9,          0) /* ValidLocations - None */
+     , (19443,  16,          1) /* ItemUseable - No */
+     , (19443,  19,          0) /* Value */
+     , (19443,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19443, 001 /* STUCK_BOOL */, True)
-     , (19443, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (19443,   1, True ) /* Stuck */
+     , (19443,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19443,  44,       0) /* TimeToRot */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19443,   1, 'Auroch Skull') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19443,   1,   33557714) /* Setup */
+     , (19443,   6,   67111266) /* PaletteBase */
+     , (19443,   7,  268436390) /* ClothingBase */
+     , (19443,   8,  100668178) /* Icon */;

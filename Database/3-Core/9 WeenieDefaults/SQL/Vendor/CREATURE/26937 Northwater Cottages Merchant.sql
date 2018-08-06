@@ -1,104 +1,100 @@
-/* Weenie - Northwater Cottages Merchant (26937) */
-DELETE FROM weenie WHERE class_Id = 26937;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26937, 'northwatercottagesvendor', 12 /* Vendor_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26937, 001 /* NAME_STRING */, 'Northwater Cottages Merchant')
-     , (26937, 003 /* SEX_STRING */, 'Male')
-     , (26937, 004 /* HERITAGE_GROUP_STRING */, 'Aluvian')
-     , (26937, 005 /* TEMPLATE_STRING */, 'Merchant');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26937, 001 /* SETUP_DID */, 33554433)
-     , (26937, 002 /* MOTION_TABLE_DID */, 150994945)
-     , (26937, 003 /* SOUND_TABLE_DID */, 536870913)
-     , (26937, 004 /* COMBAT_TABLE_DID */, 805306368)
-     , (26937, 008 /* ICON_DID */, 100667446);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26937', 'northwatercottagesvendor', 12) /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26937, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26937, 002 /* CREATURE_TYPE_INT */, 31 /* Human_CreatureType */)
-     , (26937, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (26937, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (26937, 008 /* MASS_INT */, 120)
-     , (26937, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (26937, 025 /* LEVEL_INT */, 10)
-     , (26937, 027 /* ARMOR_TYPE_INT */, 0)
-     , (26937, 074 /* MERCHANDISE_ITEM_TYPES_INT */, 264192 /* TYPE_GEM, TYPE_PROMISSORY_NOTE */)
-     , (26937, 075 /* MERCHANDISE_MIN_VALUE_INT */, 0)
-     , (26937, 076 /* MERCHANDISE_MAX_VALUE_INT */, 1000000)
-     , (26937, 093 /* PHYSICS_STATE_INT */, 2098204 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS */)
-     , (26937, 126 /* VENDOR_HAPPY_MEAN_INT */, 125)
-     , (26937, 127 /* VENDOR_HAPPY_VARIANCE_INT */, 125)
-     , (26937, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
-     , (26937, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
-     , (26937, 146 /* XP_OVERRIDE_INT */, 277);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26937, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
-     , (26937, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
-     , (26937, 003 /* HEALTH_RATE_FLOAT */, 0.16)
-     , (26937, 004 /* STAMINA_RATE_FLOAT */, 5)
-     , (26937, 005 /* MANA_RATE_FLOAT */, 1)
-     , (26937, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (26937, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (26937, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (26937, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (26937, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (26937, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (26937, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (26937, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (26937, 037 /* BUY_PRICE_FLOAT */, 0.5)
-     , (26937, 038 /* SELL_PRICE_FLOAT */, 1.5)
-     , (26937, 054 /* USE_RADIUS_FLOAT */, 3)
-     , (26937, 064 /* RESIST_SLASH_FLOAT */, 1)
-     , (26937, 065 /* RESIST_PIERCE_FLOAT */, 1)
-     , (26937, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
-     , (26937, 067 /* RESIST_FIRE_FLOAT */, 1)
-     , (26937, 068 /* RESIST_COLD_FLOAT */, 1)
-     , (26937, 069 /* RESIST_ACID_FLOAT */, 1)
-     , (26937, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
-     , (26937, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
-     , (26937, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
-     , (26937, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
-     , (26937, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
-     , (26937, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
-     , (26937, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
-     , (26937, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
+VALUES (26937,   1,         16) /* ItemType - Creature */
+     , (26937,   2,         31) /* CreatureType - Human */
+     , (26937,   6,         -1) /* ItemsCapacity */
+     , (26937,   7,         -1) /* ContainersCapacity */
+     , (26937,   8,        120) /* Mass */
+     , (26937,  16,         32) /* ItemUseable - Remote */
+     , (26937,  25,         10) /* Level */
+     , (26937,  27,          0) /* ArmorType */
+     , (26937,  74,     264192) /* MerchandiseItemTypes */
+     , (26937,  75,          0) /* MerchandiseMinValue */
+     , (26937,  76,    1000000) /* MerchandiseMaxValue */
+     , (26937,  93,    2098204) /* PhysicsState */
+     , (26937, 126,        125) /* VendorHappyMean */
+     , (26937, 127,        125) /* VendorHappyVariance */
+     , (26937, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (26937, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (26937, 146,        277) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26937, 001 /* STUCK_BOOL */, True)
-     , (26937, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (26937, 019 /* ATTACKABLE_BOOL */, False)
-     , (26937, 039 /* DEAL_MAGICAL_ITEMS_BOOL */, True)
-     , (26937, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True);
+VALUES (26937,   1, True ) /* Stuck */
+     , (26937,  12, True ) /* ReportCollisions */
+     , (26937,  19, False) /* Attackable */
+     , (26937,  39, True ) /* DealMagicalItems */
+     , (26937,  41, True ) /* ReportCollisionsAsEnvironment */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (26937,   1,       5) /* HeartbeatInterval */
+     , (26937,   2,       0) /* HeartbeatTimestamp */
+     , (26937,   3,    0.16) /* HealthRate */
+     , (26937,   4,       5) /* StaminaRate */
+     , (26937,   5,       1) /* ManaRate */
+     , (26937,  11,     300) /* ResetInterval */
+     , (26937,  13,       1) /* ArmorModVsSlash */
+     , (26937,  14,       1) /* ArmorModVsPierce */
+     , (26937,  15,       1) /* ArmorModVsBludgeon */
+     , (26937,  16,       1) /* ArmorModVsCold */
+     , (26937,  17,       1) /* ArmorModVsFire */
+     , (26937,  18,       1) /* ArmorModVsAcid */
+     , (26937,  19,       1) /* ArmorModVsElectric */
+     , (26937,  37,     0.5) /* BuyPrice */
+     , (26937,  38,     1.5) /* SellPrice */
+     , (26937,  54,       3) /* UseRadius */
+     , (26937,  64,       1) /* ResistSlash */
+     , (26937,  65,       1) /* ResistPierce */
+     , (26937,  66,       1) /* ResistBludgeon */
+     , (26937,  67,       1) /* ResistFire */
+     , (26937,  68,       1) /* ResistCold */
+     , (26937,  69,       1) /* ResistAcid */
+     , (26937,  70,       1) /* ResistElectric */
+     , (26937,  71,       1) /* ResistHealthBoost */
+     , (26937,  72,       1) /* ResistStaminaDrain */
+     , (26937,  73,       1) /* ResistStaminaBoost */
+     , (26937,  74,       1) /* ResistManaDrain */
+     , (26937,  75,       1) /* ResistManaBoost */
+     , (26937, 104,      10) /* ObviousRadarRange */
+     , (26937, 125,       1) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26937,   1, 'Northwater Cottages Merchant') /* Name */
+     , (26937,   3, 'Male') /* Sex */
+     , (26937,   4, 'Aluvian') /* HeritageGroup */
+     , (26937,   5, 'Merchant') /* Template */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26937,   1,   33554433) /* Setup */
+     , (26937,   2,  150994945) /* MotionTable */
+     , (26937,   3,  536870913) /* SoundTable */
+     , (26937,   4,  805306368) /* CombatTable */
+     , (26937,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (26937, 1, 90, 0, 0) /* STRENGTH_ATTRIBUTE */
-     , (26937, 2, 90, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (26937, 3, 85, 0, 0) /* QUICKNESS_ATTRIBUTE */
-     , (26937, 4, 80, 0, 0) /* COORDINATION_ATTRIBUTE */
-     , (26937, 5, 40, 0, 0) /* FOCUS_ATTRIBUTE */
-     , (26937, 6, 45, 0, 0) /* SELF_ATTRIBUTE */;
+VALUES (26937,   1,  90, 0, 0) /* Strength */
+     , (26937,   2,  90, 0, 0) /* Endurance */
+     , (26937,   3,  85, 0, 0) /* Quickness */
+     , (26937,   4,  80, 0, 0) /* Coordination */
+     , (26937,   5,  40, 0, 0) /* Focus */
+     , (26937,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26937, 1, 90, 0, 0, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (26937, 3, 100, 0, 0, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (26937, 5, 50, 0, 0, 95) /* MAX_MANA_ATTRIBUTE_2ND */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26937, 4, 26302, -1, 0, 0, False) /* Create Northwater Cottages Portal Gem for Shop_DestinationType */;
+VALUES (26937,   1,    90, 0, 0, 135) /* MaxHealth */
+     , (26937,   3,   100, 0, 0, 190) /* MaxStamina */
+     , (26937,   5,    50, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (26937, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
-     , (26937, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
-     , (26937, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
-     , (26937, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
-     , (26937, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
-     , (26937, 5, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
-     , (26937, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (26937, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
-     , (26937, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
+VALUES (26937,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (26937,  1,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (26937,  2,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (26937,  3,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (26937,  4,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (26937,  5,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (26937,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (26937,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (26937,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (26937, 4, 26302, -1, 0, 0, False) /* Create Northwater Cottages Portal Gem for Shop */;

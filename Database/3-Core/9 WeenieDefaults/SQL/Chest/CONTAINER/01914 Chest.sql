@@ -1,48 +1,44 @@
-/* Weenie - Chest (1914) */
-DELETE FROM weenie WHERE class_Id = 1914;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1914, 'chestgeneralhigh', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1914, 001 /* NAME_STRING */, 'Chest')
-     , (1914, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1914, 001 /* SETUP_DID */, 33554556)
-     , (1914, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (1914, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (1914, 008 /* ICON_DID */, 100667424)
-     , (1914, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1914', 'chestgeneralhigh', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1914, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (1914, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (1914, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (1914, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (1914, 008 /* MASS_INT */, 3000)
-     , (1914, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (1914, 019 /* VALUE_INT */, 2500)
-     , (1914, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (1914, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (1914, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (1914, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (1914, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (1914, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1914, 041 /* REGENERATION_INTERVAL_FLOAT */, 600)
-     , (1914, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (1914, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (1914,   1,        512) /* ItemType - Container */
+     , (1914,   5,       9000) /* EncumbranceVal */
+     , (1914,   6,         -1) /* ItemsCapacity */
+     , (1914,   7,         -1) /* ContainersCapacity */
+     , (1914,   8,       3000) /* Mass */
+     , (1914,  16,         48) /* ItemUseable - ViewedRemote */
+     , (1914,  19,       2500) /* Value */
+     , (1914,  81,          1) /* MaxGeneratedObjects */
+     , (1914,  82,          1) /* InitGeneratedObjects */
+     , (1914,  83,          2) /* ActivationResponse - Use */
+     , (1914,  93,       1048) /* PhysicsState */
+     , (1914,  96,        500) /* EncumbranceCapacity */
+     , (1914, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1914, 001 /* STUCK_BOOL */, True)
-     , (1914, 002 /* OPEN_BOOL */, False)
-     , (1914, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1914, 013 /* ETHEREAL_BOOL */, False)
-     , (1914, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (1914, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (1914,   1, True ) /* Stuck */
+     , (1914,   2, False) /* Open */
+     , (1914,  12, True ) /* ReportCollisions */
+     , (1914,  13, False) /* Ethereal */
+     , (1914,  33, False) /* ResetMessagePending */
+     , (1914,  34, False) /* DefaultOpen */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1914,  41,     600) /* RegenerationInterval */
+     , (1914,  43,       1) /* GeneratorRadius */
+     , (1914,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1914,   1, 'Chest') /* Name */
+     , (1914,  14, 'Use this item to open it and see its contents.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1914,   1,   33554556) /* Setup */
+     , (1914,   2,  150994948) /* MotionTable */
+     , (1914,   3,  536870945) /* SoundTable */
+     , (1914,   8,  100667424) /* Icon */
+     , (1914,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1914, 1, 454, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate RANDOM TREASURE from Loot Tier 4 (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
-
+VALUES (1914, 1, 454, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

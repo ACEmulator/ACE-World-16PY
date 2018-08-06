@@ -1,34 +1,30 @@
-/* Weenie - Skull of a Dark Master (24854) */
-DELETE FROM weenie WHERE class_Id = 24854;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24854, 'undeadskulldarkmaster', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24854, 001 /* NAME_STRING */, 'Skull of a Dark Master');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24854, 001 /* SETUP_DID */, 33555205)
-     , (24854, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24854, 008 /* ICON_DID */, 100674474)
-     , (24854, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24854, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24854', 'undeadskulldarkmaster', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24854, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24854, 005 /* ENCUMB_VAL_INT */, 150)
-     , (24854, 008 /* MASS_INT */, 600)
-     , (24854, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24854, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24854, 019 /* VALUE_INT */, 10)
-     , (24854, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24854, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24854, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24854, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (24854,   1,        128) /* ItemType - Misc */
+     , (24854,   5,        150) /* EncumbranceVal */
+     , (24854,   8,        600) /* Mass */
+     , (24854,   9,          0) /* ValidLocations - None */
+     , (24854,  16,          1) /* ItemUseable - No */
+     , (24854,  19,         10) /* Value */
+     , (24854,  93,       1044) /* PhysicsState */
+     , (24854, 150,        103) /* HookPlacement - Hook */
+     , (24854, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24854, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24854, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24854,  22, True ) /* Inscribable */
+     , (24854,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24854,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24854,   1, 'Skull of a Dark Master') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24854,   1,   33555205) /* Setup */
+     , (24854,   3,  536870932) /* SoundTable */
+     , (24854,   8,  100674474) /* Icon */
+     , (24854,  22,  872415275) /* PhysicsEffectTable */
+     , (24854,  36,  234881046) /* MutateFilter */;

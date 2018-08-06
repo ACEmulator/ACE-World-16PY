@@ -1,46 +1,42 @@
-/* Weenie - Noxious Fumes (28485) */
-DELETE FROM weenie WHERE class_Id = 28485;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28485, 'noxiousfumes', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28485, 001 /* NAME_STRING */, 'Noxious Fumes')
-     , (28485, 017 /* ACTIVATION_TALK_STRING */, 'You lose %i health, as noxious fumes eat away at your lungs.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28485, 001 /* SETUP_DID */, 33556024)
-     , (28485, 003 /* SOUND_TABLE_DID */, 536871007)
-     , (28485, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28485', 'noxiousfumes', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28485, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28485, 005 /* ENCUMB_VAL_INT */, 1)
-     , (28485, 008 /* MASS_INT */, 1)
-     , (28485, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28485, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28485, 019 /* VALUE_INT */, 1)
-     , (28485, 044 /* DAMAGE_INT */, 30)
-     , (28485, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (28485, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (28485, 119 /* ACTIVE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28485, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (28485, 039 /* DEFAULT_SCALE_FLOAT */, 1.75)
-     , (28485, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 2)
-     , (28485, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0);
+VALUES (28485,   1,        128) /* ItemType - Misc */
+     , (28485,   5,          1) /* EncumbranceVal */
+     , (28485,   8,          1) /* Mass */
+     , (28485,   9,          0) /* ValidLocations - None */
+     , (28485,  16,          1) /* ItemUseable - No */
+     , (28485,  19,          1) /* Value */
+     , (28485,  44,         30) /* Damage */
+     , (28485,  45,          2) /* DamageType - Pierce */
+     , (28485,  93,         12) /* PhysicsState */
+     , (28485, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28485, 001 /* STUCK_BOOL */, True)
-     , (28485, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (28485, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (28485, 013 /* ETHEREAL_BOOL */, True)
-     , (28485, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (28485, 018 /* VISIBILITY_BOOL */, True)
-     , (28485, 024 /* UI_HIDDEN_BOOL */, True)
-     , (28485, 055 /* IS_HOT_BOOL */, True)
-     , (28485, 057 /* AFFECTS_AIS_BOOL */, False)
-     , (28485, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
-     , (28485, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True);
+VALUES (28485,   1, True ) /* Stuck */
+     , (28485,  11, False) /* IgnoreCollisions */
+     , (28485,  12, True ) /* ReportCollisions */
+     , (28485,  13, True ) /* Ethereal */
+     , (28485,  14, False) /* GravityStatus */
+     , (28485,  18, True ) /* Visibility */
+     , (28485,  24, True ) /* UiHidden */
+     , (28485,  55, True ) /* IsHot */
+     , (28485,  57, False) /* AffectsAis */
+     , (28485,  65, True ) /* IgnoreMagicResist */
+     , (28485,  66, True ) /* IgnoreMagicArmor */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28485,  22,     0.5) /* DamageVariance */
+     , (28485,  39,    1.75) /* DefaultScale */
+     , (28485, 105,       2) /* HotspotCycleTime */
+     , (28485, 106,       0) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28485,   1, 'Noxious Fumes') /* Name */
+     , (28485,  17, 'You lose %i health, as noxious fumes eat away at your lungs.') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28485,   1,   33556024) /* Setup */
+     , (28485,   3,  536871007) /* SoundTable */
+     , (28485,   8,  100667465) /* Icon */;

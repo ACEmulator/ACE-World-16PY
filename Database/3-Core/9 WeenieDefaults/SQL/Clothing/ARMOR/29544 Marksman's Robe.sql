@@ -1,60 +1,56 @@
-/* Weenie - Marksman's Robe (29544) */
-DELETE FROM weenie WHERE class_Id = 29544;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29544, 'robenoblemissile', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29544, 001 /* NAME_STRING */, 'Marksman''s Robe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29544, 001 /* SETUP_DID */, 33554854)
-     , (29544, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29544, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (29544, 007 /* CLOTHINGBASE_DID */, 268436881)
-     , (29544, 008 /* ICON_DID */, 100675613)
-     , (29544, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29544, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29544', 'robenoblemissile', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29544, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (29544, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (29544, 004 /* CLOTHING_PRIORITY_INT */, 81664 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */)
-     , (29544, 005 /* ENCUMB_VAL_INT */, 450)
-     , (29544, 008 /* MASS_INT */, 450)
-     , (29544, 009 /* LOCATIONS_INT */, 32512 /* FOOT_WEAR_LOC, ARMOR_LOC */)
-     , (29544, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29544, 019 /* VALUE_INT */, 6000)
-     , (29544, 027 /* ARMOR_TYPE_INT */, 1)
-     , (29544, 028 /* ARMOR_LEVEL_INT */, 190)
-     , (29544, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29544, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (29544, 107 /* ITEM_CUR_MANA_INT */, 3600)
-     , (29544, 108 /* ITEM_MAX_MANA_INT */, 3600)
-     , (29544, 109 /* ITEM_DIFFICULTY_INT */, 200)
-     , (29544, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (29544, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (29544, 160 /* WIELD_DIFFICULTY_INT */, 60);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29544, 005 /* MANA_RATE_FLOAT */, -0.01)
-     , (29544, 012 /* SHADE_FLOAT */, 1)
-     , (29544, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.4)
-     , (29544, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.2)
-     , (29544, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.4)
-     , (29544, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.1)
-     , (29544, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (29544, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.4)
-     , (29544, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.1)
-     , (29544, 110 /* BULK_MOD_FLOAT */, 1)
-     , (29544, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (29544,   1,          2) /* ItemType - Armor */
+     , (29544,   3,         21) /* PaletteTemplate - Gold */
+     , (29544,   4,      81664) /* ClothingPriority */
+     , (29544,   5,        450) /* EncumbranceVal */
+     , (29544,   8,        450) /* Mass */
+     , (29544,   9,      32512) /* ValidLocations - Armor */
+     , (29544,  16,          1) /* ItemUseable - No */
+     , (29544,  19,       6000) /* Value */
+     , (29544,  27,          1) /* ArmorType */
+     , (29544,  28,        190) /* ArmorLevel */
+     , (29544,  93,       1044) /* PhysicsState */
+     , (29544, 106,        300) /* ItemSpellcraft */
+     , (29544, 107,       3600) /* ItemCurMana */
+     , (29544, 108,       3600) /* ItemMaxMana */
+     , (29544, 109,        200) /* ItemDifficulty */
+     , (29544, 158,          7) /* WieldRequirements - Level */
+     , (29544, 159,          1) /* WieldSkilltype - Axe */
+     , (29544, 160,         60) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29544, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29544, 100 /* DYABLE_BOOL */, True);
+VALUES (29544,  22, True ) /* Inscribable */
+     , (29544, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29544,   5,   -0.01) /* ManaRate */
+     , (29544,  12,       1) /* Shade */
+     , (29544,  13,     0.4) /* ArmorModVsSlash */
+     , (29544,  14,     0.2) /* ArmorModVsPierce */
+     , (29544,  15,     0.4) /* ArmorModVsBludgeon */
+     , (29544,  16,     1.1) /* ArmorModVsCold */
+     , (29544,  17,     0.4) /* ArmorModVsFire */
+     , (29544,  18,     0.4) /* ArmorModVsAcid */
+     , (29544,  19,     1.1) /* ArmorModVsElectric */
+     , (29544, 110,       1) /* BulkMod */
+     , (29544, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29544,   1, 'Marksman''s Robe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29544,   1,   33554854) /* Setup */
+     , (29544,   3,  536870932) /* SoundTable */
+     , (29544,   6,   67108990) /* PaletteBase */
+     , (29544,   7,  268436881) /* ClothingBase */
+     , (29544,   8,  100675613) /* Icon */
+     , (29544,  22,  872415275) /* PhysicsEffectTable */
+     , (29544,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29544, 3637, 2) /* BowmansBoon_SpellID */
-     , (29544, 3638, 2) /* ChuckersBoon_SpellID */
-     , (29544, 3639, 2) /* CrossbowmansBoon_SpellID */;
-
+VALUES (29544,  3637,      2)  /* Ranger's Boon */
+     , (29544,  3638,      2)  /* Ranger's Boon */
+     , (29544,  3639,      2)  /* Ranger's Boon */;

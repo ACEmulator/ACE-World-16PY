@@ -1,34 +1,30 @@
-/* Weenie - North Glenden Prison (1311) */
-DELETE FROM weenie WHERE class_Id = 1311;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1311, 'portalnorthglenden', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1311, 001 /* NAME_STRING */, 'North Glenden Prison');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1311, 001 /* SETUP_DID */, 33555922)
-     , (1311, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (1311, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1311', 'portalnorthglenden', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1311, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (1311, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (1311, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (1311, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (1311, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1311, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (1311,   1,      65536) /* ItemType - Portal */
+     , (1311,  16,         32) /* ItemUseable - Remote */
+     , (1311,  93,       3084) /* PhysicsState */
+     , (1311, 111,          1) /* PortalBitmask - Unrestricted */
+     , (1311, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1311, 001 /* STUCK_BOOL */, True)
-     , (1311, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (1311, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1311, 013 /* ETHEREAL_BOOL */, True)
-     , (1311, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (1311,   1, True ) /* Stuck */
+     , (1311,  11, False) /* IgnoreCollisions */
+     , (1311,  12, True ) /* ReportCollisions */
+     , (1311,  13, True ) /* Ethereal */
+     , (1311,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1311,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1311,   1, 'North Glenden Prison') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1311,   1,   33555922) /* Setup */
+     , (1311,   2,  150994947) /* MotionTable */
+     , (1311,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1311, 2, 31719853, 38.4, -18.6, 6, -0.7826082, 0, 0, -0.6225145) /* DESTINATION_POSITION */;
-
+VALUES (1311, 2, 31719853, 38.4, -18.6, 6, -0.7826082, 0, 0, -0.6225145) /* Destination */;

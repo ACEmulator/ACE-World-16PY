@@ -1,50 +1,46 @@
-/* Weenie - Doll Mask (12206) */
-DELETE FROM weenie WHERE class_Id = 12206;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12206, 'maskdoll', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12206, 001 /* NAME_STRING */, 'Doll Mask')
-     , (12206, 016 /* LONG_DESC_STRING */, 'A strange looking doll mask.  From the inside, the mask is completely transparent...');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12206, 001 /* SETUP_DID */, 33557364)
-     , (12206, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12206, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (12206, 007 /* CLOTHINGBASE_DID */, 268436264)
-     , (12206, 008 /* ICON_DID */, 100671025)
-     , (12206, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12206', 'maskdoll', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12206, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (12206, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (12206, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (12206, 005 /* ENCUMB_VAL_INT */, 200)
-     , (12206, 008 /* MASS_INT */, 75)
-     , (12206, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (12206, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12206, 019 /* VALUE_INT */, 750)
-     , (12206, 027 /* ARMOR_TYPE_INT */, 2)
-     , (12206, 028 /* ARMOR_LEVEL_INT */, 10)
-     , (12206, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12206, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12206, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12206, 012 /* SHADE_FLOAT */, 0.66)
-     , (12206, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.25)
-     , (12206, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.25)
-     , (12206, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.25)
-     , (12206, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (12206, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.25)
-     , (12206, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.25)
-     , (12206, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.5)
-     , (12206, 039 /* DEFAULT_SCALE_FLOAT */, 0.5)
-     , (12206, 110 /* BULK_MOD_FLOAT */, 1)
-     , (12206, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (12206,   1,          2) /* ItemType - Armor */
+     , (12206,   3,         61) /* PaletteTemplate - White */
+     , (12206,   4,      16384) /* ClothingPriority - Head */
+     , (12206,   5,        200) /* EncumbranceVal */
+     , (12206,   8,         75) /* Mass */
+     , (12206,   9,          1) /* ValidLocations - HeadWear */
+     , (12206,  16,          1) /* ItemUseable - No */
+     , (12206,  19,        750) /* Value */
+     , (12206,  27,          2) /* ArmorType */
+     , (12206,  28,         10) /* ArmorLevel */
+     , (12206,  93,       1044) /* PhysicsState */
+     , (12206, 150,        103) /* HookPlacement - Hook */
+     , (12206, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12206, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12206, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (12206,  22, True ) /* Inscribable */
+     , (12206,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12206,  12,    0.66) /* Shade */
+     , (12206,  13,    0.25) /* ArmorModVsSlash */
+     , (12206,  14,    0.25) /* ArmorModVsPierce */
+     , (12206,  15,    0.25) /* ArmorModVsBludgeon */
+     , (12206,  16,     0.5) /* ArmorModVsCold */
+     , (12206,  17,    0.25) /* ArmorModVsFire */
+     , (12206,  18,    0.25) /* ArmorModVsAcid */
+     , (12206,  19,     0.5) /* ArmorModVsElectric */
+     , (12206,  39,     0.5) /* DefaultScale */
+     , (12206, 110,       1) /* BulkMod */
+     , (12206, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12206,   1, 'Doll Mask') /* Name */
+     , (12206,  16, 'A strange looking doll mask.  From the inside, the mask is completely transparent...') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12206,   1,   33557364) /* Setup */
+     , (12206,   3,  536870932) /* SoundTable */
+     , (12206,   6,   67108990) /* PaletteBase */
+     , (12206,   7,  268436264) /* ClothingBase */
+     , (12206,   8,  100671025) /* Icon */
+     , (12206,  22,  872415275) /* PhysicsEffectTable */;

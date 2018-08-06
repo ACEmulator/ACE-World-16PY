@@ -1,79 +1,75 @@
-/* Weenie - Bracelet of Creature Enchantments (29952) */
-DELETE FROM weenie WHERE class_Id = 29952;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29952, 'braceletskillsminorlo', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29952, 001 /* NAME_STRING */, 'Bracelet of Creature Enchantments');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29952, 001 /* SETUP_DID */, 33554683)
-     , (29952, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29952, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (29952, 007 /* CLOTHINGBASE_DID */, 268436286)
-     , (29952, 008 /* ICON_DID */, 100672215)
-     , (29952, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29952, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29952', 'braceletskillsminorlo', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29952, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (29952, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (29952, 005 /* ENCUMB_VAL_INT */, 60)
-     , (29952, 008 /* MASS_INT */, 30)
-     , (29952, 009 /* LOCATIONS_INT */, 196608 /* WRIST_WEAR_LOC */)
-     , (29952, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29952, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (29952, 019 /* VALUE_INT */, 0)
-     , (29952, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (29952, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29952, 106 /* ITEM_SPELLCRAFT_INT */, 350)
-     , (29952, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (29952, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (29952, 109 /* ITEM_DIFFICULTY_INT */, 1)
-     , (29952, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29952, 005 /* MANA_RATE_FLOAT */, 0);
+VALUES (29952,   1,          8) /* ItemType - Jewelry */
+     , (29952,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (29952,   5,         60) /* EncumbranceVal */
+     , (29952,   8,         30) /* Mass */
+     , (29952,   9,     196608) /* ValidLocations - WristWear */
+     , (29952,  16,          1) /* ItemUseable - No */
+     , (29952,  18,          1) /* UiEffects - Magical */
+     , (29952,  19,          0) /* Value */
+     , (29952,  33,          1) /* Bonded - Bonded */
+     , (29952,  93,       1044) /* PhysicsState */
+     , (29952, 106,        350) /* ItemSpellcraft */
+     , (29952, 107,        600) /* ItemCurMana */
+     , (29952, 108,        600) /* ItemMaxMana */
+     , (29952, 109,          1) /* ItemDifficulty */
+     , (29952, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29952, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29952, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29952,  22, True ) /* Inscribable */
+     , (29952,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29952,   5,       0) /* ManaRate */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29952,   1, 'Bracelet of Creature Enchantments') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29952,   1,   33554683) /* Setup */
+     , (29952,   3,  536870932) /* SoundTable */
+     , (29952,   6,   67111919) /* PaletteBase */
+     , (29952,   7,  268436286) /* ClothingBase */
+     , (29952,   8,  100672215) /* Icon */
+     , (29952,  22,  872415275) /* PhysicsEffectTable */
+     , (29952,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29952, 2553, 2) /* CANTRIPJUMPINGPROWESS1_SpellID */
-     , (29952, 2568, 2) /* CANTRIPUNARMEDAPTITUDE1_SpellID */
-     , (29952, 2545, 2) /* CANTRIPDECEPTIONPROWESS1_SpellID */
-     , (29952, 2560, 2) /* CANTRIPMANACONVERSIONPROWESS1_SpellID */
-     , (29952, 2561, 2) /* CANTRIPMONSTERATTUNEMENT1_SpellID */
-     , (29952, 2562, 2) /* CANTRIPPERSONATTUNEMENT1_SpellID */
-     , (29952, 2542, 2) /* CANTRIPCREATUREENCHANTMENTAPTITUDE1_SpellID */
-     , (29952, 2563, 2) /* CANTRIPSPEARAPTITUDE1_SpellID */
-     , (29952, 2549, 2) /* CANTRIPIMPREGNABILITY1_SpellID */
-     , (29952, 2564, 2) /* CANTRIPSPRINT1_SpellID */
-     , (29952, 2565, 2) /* CANTRIPSTAFFAPTITUDE1_SpellID */
-     , (29952, 2566, 2) /* CANTRIPSWORDAPTITUDE1_SpellID */
-     , (29952, 2567, 2) /* CANTRIPTHROWNAPTITUDE1_SpellID */
-     , (29952, 2569, 2) /* CANTRIPWARMAGICAPTITUDE1_SpellID */
-     , (29952, 2543, 2) /* CANTRIPCROSSBOWAPTITUDE1_SpellID */
-     , (29952, 2570, 2) /* CANTRIPWEAPONEXPERTISE1_SpellID */
-     , (29952, 2536, 2) /* CANTRIPALCHEMICALPROWESS1_SpellID */
-     , (29952, 2537, 2) /* CANTRIPARCANEPROWESS1_SpellID */
-     , (29952, 2538, 2) /* CANTRIPARMOREXPERTISE1_SpellID */
-     , (29952, 2539, 2) /* CANTRIPAXEAPTITUDE1_SpellID */
-     , (29952, 2540, 2) /* CANTRIPBOWAPTITUDE1_SpellID */
-     , (29952, 2541, 2) /* CANTRIPCOOKINGPROWESS1_SpellID */
-     , (29952, 2544, 2) /* CANTRIPDAGGERAPTITUDE1_SpellID */
-     , (29952, 2546, 2) /* CANTRIPFEALTY1_SpellID */
-     , (29952, 2547, 2) /* CANTRIPFLETCHINGPROWESS1_SpellID */
-     , (29952, 2548, 2) /* CANTRIPHEALINGPROWESS1_SpellID */
-     , (29952, 2550, 2) /* CANTRIPINVULNERABILITY1_SpellID */
-     , (29952, 2551, 2) /* CANTRIPITEMENCHANTMENTAPTITUDE1_SpellID */
-     , (29952, 2552, 2) /* CANTRIPITEMEXPERTISE1_SpellID */
-     , (29952, 2554, 2) /* CANTRIPLEADERSHIP1_SpellID */
-     , (29952, 2555, 2) /* CANTRIPLIFEMAGICAPTITUDE1_SpellID */
-     , (29952, 2556, 2) /* CANTRIPLOCKPICKPROWESS1_SpellID */
-     , (29952, 2557, 2) /* CANTRIPMACEAPTITUDE1_SpellID */
-     , (29952, 2558, 2) /* CANTRIPMAGICITEMEXPERTISE1_SpellID */
-     , (29952, 2559, 2) /* CANTRIPMAGICRESISTANCE1_SpellID */;
-
+VALUES (29952,  2536,      2)  /* Minor Alchemical Prowess */
+     , (29952,  2537,      2)  /* Minor Arcane Prowess */
+     , (29952,  2538,      2)  /* Minor Armor Tinkering Expertise */
+     , (29952,  2539,      2)  /* Minor Light Weapon Aptitude */
+     , (29952,  2540,      2)  /* Minor Missile Weapon Aptitude */
+     , (29952,  2541,      2)  /* Minor Cooking Prowess */
+     , (29952,  2542,      2)  /* Minor Creature Enchantment Aptitude */
+     , (29952,  2543,      2)  /* Minor Missile Weapon Aptitude */
+     , (29952,  2544,      2)  /* Minor Finesse Weapon Aptitude */
+     , (29952,  2545,      2)  /* Minor Deception Prowess */
+     , (29952,  2546,      2)  /* Minor Fealty */
+     , (29952,  2547,      2)  /* Minor Fletching Prowess */
+     , (29952,  2548,      2)  /* Minor Healing Prowess */
+     , (29952,  2549,      2)  /* Minor Impregnability */
+     , (29952,  2550,      2)  /* Minor Invulnerability */
+     , (29952,  2551,      2)  /* Minor Item Enchantment Aptitude */
+     , (29952,  2552,      2)  /* Minor Item Tinkering Expertise */
+     , (29952,  2553,      2)  /* Minor Jumping Prowess */
+     , (29952,  2554,      2)  /* Minor Leadership */
+     , (29952,  2555,      2)  /* Minor Life Magic Aptitude */
+     , (29952,  2556,      2)  /* Minor Lockpick Prowess */
+     , (29952,  2557,      2)  /* Minor Light Weapon Aptitude */
+     , (29952,  2558,      2)  /* Minor Magic Item Tinkering Expertise */
+     , (29952,  2559,      2)  /* Minor Magic Resistance */
+     , (29952,  2560,      2)  /* Minor Mana Conversion Prowess */
+     , (29952,  2561,      2)  /* Minor Monster Attunement */
+     , (29952,  2562,      2)  /* Minor Person Attunement */
+     , (29952,  2563,      2)  /* Minor Light Weapon Aptitude */
+     , (29952,  2564,      2)  /* Minor Sprint */
+     , (29952,  2565,      2)  /* Minor Light Weapon Aptitude */
+     , (29952,  2566,      2)  /* Minor Heavy Weapon Aptitude */
+     , (29952,  2567,      2)  /* Minor Missile Weapon Aptitude */
+     , (29952,  2568,      2)  /* Minor Light Weapon Aptitude */
+     , (29952,  2569,      2)  /* Minor War Magic Aptitude */
+     , (29952,  2570,      2)  /* Minor Weapon Tinkering Expertise */;

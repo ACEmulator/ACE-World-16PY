@@ -1,37 +1,33 @@
-/* Weenie - Blue Gem (3696) */
-DELETE FROM weenie WHERE class_Id = 3696;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3696, 'virindijewelblue', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3696, 001 /* NAME_STRING */, 'Blue Gem');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3696, 001 /* SETUP_DID */, 33554809)
-     , (3696, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3696, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3696, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (3696, 008 /* ICON_DID */, 100670079)
-     , (3696, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3696, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3696', 'virindijewelblue', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3696, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (3696, 003 /* PALETTE_TEMPLATE_INT */, 10 /* LIGHTBLUE_PALETTE_TEMPLATE */)
-     , (3696, 005 /* ENCUMB_VAL_INT */, 10)
-     , (3696, 008 /* MASS_INT */, 10)
-     , (3696, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3696, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (3696, 012 /* STACK_SIZE_INT */, 1)
-     , (3696, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (3696, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (3696, 015 /* STACK_UNIT_VALUE_INT */, 200)
-     , (3696, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3696, 019 /* VALUE_INT */, 200)
-     , (3696, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (3696,   1,       2048) /* ItemType - Gem */
+     , (3696,   3,         10) /* PaletteTemplate - LightBlue */
+     , (3696,   5,         10) /* EncumbranceVal */
+     , (3696,   8,         10) /* Mass */
+     , (3696,   9,          0) /* ValidLocations - None */
+     , (3696,  11,          1) /* MaxStackSize */
+     , (3696,  12,          1) /* StackSize */
+     , (3696,  13,         10) /* StackUnitEncumbrance */
+     , (3696,  14,         10) /* StackUnitMass */
+     , (3696,  15,        200) /* StackUnitValue */
+     , (3696,  16,          1) /* ItemUseable - No */
+     , (3696,  19,        200) /* Value */
+     , (3696,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3696, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3696, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3696,  22, True ) /* Inscribable */
+     , (3696,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3696,   1, 'Blue Gem') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3696,   1,   33554809) /* Setup */
+     , (3696,   3,  536870932) /* SoundTable */
+     , (3696,   6,   67111919) /* PaletteBase */
+     , (3696,   7,  268435723) /* ClothingBase */
+     , (3696,   8,  100670079) /* Icon */
+     , (3696,  22,  872415275) /* PhysicsEffectTable */
+     , (3696,  36,  234881046) /* MutateFilter */;

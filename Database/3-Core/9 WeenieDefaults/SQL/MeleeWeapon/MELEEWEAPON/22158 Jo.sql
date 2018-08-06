@@ -1,49 +1,45 @@
-/* Weenie - Jo (22158) */
-DELETE FROM weenie WHERE class_Id = 22158;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22158, 'jonew', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22158, 001 /* NAME_STRING */, 'Jo');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22158, 001 /* SETUP_DID */, 33558065)
-     , (22158, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22158, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22158, 007 /* CLOTHINGBASE_DID */, 268436488)
-     , (22158, 008 /* ICON_DID */, 100669105)
-     , (22158, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (22158, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (22158, 046 /* TSYS_MUTATION_FILTER_DID */, 939524110);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22158', 'jonew', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22158, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (22158, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (22158, 005 /* ENCUMB_VAL_INT */, 400)
-     , (22158, 008 /* MASS_INT */, 80)
-     , (22158, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (22158, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22158, 019 /* VALUE_INT */, 100)
-     , (22158, 044 /* DAMAGE_INT */, 7)
-     , (22158, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (22158, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (22158, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (22158, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (22158, 049 /* WEAPON_TIME_INT */, 25)
-     , (22158, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (22158, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22158, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22158, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (22158, 169 /* TSYS_MUTATION_DATA_INT */, 101189388);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22158, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (22158, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (22158, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (22158, 039 /* DEFAULT_SCALE_FLOAT */, 0.8)
-     , (22158, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (22158,   1,          1) /* ItemType - MeleeWeapon */
+     , (22158,   3,          4) /* PaletteTemplate - Brown */
+     , (22158,   5,        400) /* EncumbranceVal */
+     , (22158,   8,         80) /* Mass */
+     , (22158,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (22158,  16,          1) /* ItemUseable - No */
+     , (22158,  19,        100) /* Value */
+     , (22158,  44,          7) /* Damage */
+     , (22158,  45,          4) /* DamageType - Bludgeon */
+     , (22158,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (22158,  47,          6) /* AttackType */
+     , (22158,  48,         10) /* WeaponSkill - Staff */
+     , (22158,  49,         25) /* WeaponTime */
+     , (22158,  51,          1) /* CombatUse - Melee */
+     , (22158,  93,       1044) /* PhysicsState */
+     , (22158, 150,        103) /* HookPlacement - Hook */
+     , (22158, 151,          2) /* HookType - Wall */
+     , (22158, 169,  101189388) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22158, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22158,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22158,  21,    1.33) /* WeaponLength */
+     , (22158,  22,     0.5) /* DamageVariance */
+     , (22158,  29,       1) /* WeaponDefense */
+     , (22158,  39,     0.8) /* DefaultScale */
+     , (22158,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22158,   1, 'Jo') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22158,   1,   33558065) /* Setup */
+     , (22158,   3,  536870932) /* SoundTable */
+     , (22158,   6,   67111919) /* PaletteBase */
+     , (22158,   7,  268436488) /* ClothingBase */
+     , (22158,   8,  100669105) /* Icon */
+     , (22158,  22,  872415275) /* PhysicsEffectTable */
+     , (22158,  36,  234881053) /* MutateFilter */
+     , (22158,  46,  939524110) /* TsysMutationFilter */;

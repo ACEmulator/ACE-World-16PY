@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Sashi Mu's Kiss (20526) */
-DELETE FROM weenie WHERE class_Id = 20526;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20526, 'scrollfaithlessness7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20526, 001 /* NAME_STRING */, 'Scroll of Sashi Mu''s Kiss')
-     , (20526, 015 /* SHORT_DESC_STRING */, 'When learned, this spell decreases the target''s Loyalty skill by 40 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20526, 001 /* SETUP_DID */, 33554826)
-     , (20526, 008 /* ICON_DID */, 100676446)
-     , (20526, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20526, 028 /* SPELL_DID */, 2230 /* FaithlessnessOther7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20526', 'scrollfaithlessness7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20526, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20526, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20526, 008 /* MASS_INT */, 90)
-     , (20526, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20526, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20526, 019 /* VALUE_INT */, 2000)
-     , (20526, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20526, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20526,   1,       8192) /* ItemType - Writable */
+     , (20526,   5,         30) /* EncumbranceVal */
+     , (20526,   8,         90) /* Mass */
+     , (20526,   9,          0) /* ValidLocations - None */
+     , (20526,  16,          8) /* ItemUseable - Contained */
+     , (20526,  19,       2000) /* Value */
+     , (20526,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20526, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20526, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20526,  22, True ) /* Inscribable */
+     , (20526,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20526,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20526,   1, 'Scroll of Sashi Mu''s Kiss') /* Name */
+     , (20526,  15, 'When learned, this spell decreases the target''s Loyalty skill by 40 points.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20526,   1,   33554826) /* Setup */
+     , (20526,   8,  100676446) /* Icon */
+     , (20526,  22,  872415275) /* PhysicsEffectTable */
+     , (20526,  28,       2230) /* Spell - Sashi Mu's Kiss */;

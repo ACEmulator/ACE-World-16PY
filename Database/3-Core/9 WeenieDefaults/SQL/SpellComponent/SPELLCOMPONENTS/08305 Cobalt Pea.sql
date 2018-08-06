@@ -1,42 +1,38 @@
-/* Weenie - Cobalt Pea (8305) */
-DELETE FROM weenie WHERE class_Id = 8305;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8305, 'peaalchemcobalt', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8305, 001 /* NAME_STRING */, 'Cobalt Pea')
-     , (8305, 015 /* SHORT_DESC_STRING */, 'A concentrated cobalt pea.')
-     , (8305, 016 /* LONG_DESC_STRING */, 'A concentrated cobalt pea.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8305, 001 /* SETUP_DID */, 33555209)
-     , (8305, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8305, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8305, 007 /* CLOTHINGBASE_DID */, 268435719)
-     , (8305, 008 /* ICON_DID */, 100671058)
-     , (8305, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8305, 029 /* SPELL_COMPONENT_DID */, 152);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8305', 'peaalchemcobalt', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8305, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (8305, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (8305, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8305, 008 /* MASS_INT */, 50)
-     , (8305, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8305, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (8305, 012 /* STACK_SIZE_INT */, 1)
-     , (8305, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8305, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (8305, 015 /* STACK_UNIT_VALUE_INT */, 625)
-     , (8305, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8305, 019 /* VALUE_INT */, 625)
-     , (8305, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8305, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8305, 039 /* DEFAULT_SCALE_FLOAT */, 0.33);
+VALUES (8305,   1,       4096) /* ItemType - SpellComponents */
+     , (8305,   3,          2) /* PaletteTemplate - Blue */
+     , (8305,   5,         10) /* EncumbranceVal */
+     , (8305,   8,         50) /* Mass */
+     , (8305,   9,          0) /* ValidLocations - None */
+     , (8305,  11,        100) /* MaxStackSize */
+     , (8305,  12,          1) /* StackSize */
+     , (8305,  13,         10) /* StackUnitEncumbrance */
+     , (8305,  14,         50) /* StackUnitMass */
+     , (8305,  15,        625) /* StackUnitValue */
+     , (8305,  16,          1) /* ItemUseable - No */
+     , (8305,  19,        625) /* Value */
+     , (8305,  33,          1) /* Bonded - Bonded */
+     , (8305,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8305, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8305,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8305,  39,    0.33) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8305,   1, 'Cobalt Pea') /* Name */
+     , (8305,  15, 'A concentrated cobalt pea.') /* ShortDesc */
+     , (8305,  16, 'A concentrated cobalt pea.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8305,   1,   33555209) /* Setup */
+     , (8305,   3,  536870932) /* SoundTable */
+     , (8305,   6,   67111919) /* PaletteBase */
+     , (8305,   7,  268435719) /* ClothingBase */
+     , (8305,   8,  100671058) /* Icon */
+     , (8305,  22,  872415275) /* PhysicsEffectTable */
+     , (8305,  29,        152) /* SpellComponent */;

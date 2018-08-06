@@ -1,28 +1,24 @@
-/* Weenie - Not too far to the Tusker Emporium! (22717) */
-DELETE FROM weenie WHERE class_Id = 22717;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22717, 'totuskeremporiumsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22717, 001 /* NAME_STRING */, 'Not too far to the Tusker Emporium!')
-     , (22717, 016 /* LONG_DESC_STRING */, 'Only a short way to the Tusker Emporium of Deadly Doom! (tm)');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22717, 001 /* SETUP_DID */, 33555984)
-     , (22717, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22717', 'totuskeremporiumsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22717, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22717, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (22717, 008 /* MASS_INT */, 1800)
-     , (22717, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22717, 019 /* VALUE_INT */, 125)
-     , (22717, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (22717,   1,        128) /* ItemType - Misc */
+     , (22717,   5,       9000) /* EncumbranceVal */
+     , (22717,   8,       1800) /* Mass */
+     , (22717,  16,          1) /* ItemUseable - No */
+     , (22717,  19,        125) /* Value */
+     , (22717,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22717, 001 /* STUCK_BOOL */, True)
-     , (22717, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22717, 013 /* ETHEREAL_BOOL */, False)
-     , (22717, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (22717,   1, True ) /* Stuck */
+     , (22717,  12, True ) /* ReportCollisions */
+     , (22717,  13, False) /* Ethereal */
+     , (22717,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22717,   1, 'Not too far to the Tusker Emporium!') /* Name */
+     , (22717,  16, 'Only a short way to the Tusker Emporium of Deadly Doom! (tm)') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22717,   1,   33555984) /* Setup */
+     , (22717,   8,  100668115) /* Icon */;

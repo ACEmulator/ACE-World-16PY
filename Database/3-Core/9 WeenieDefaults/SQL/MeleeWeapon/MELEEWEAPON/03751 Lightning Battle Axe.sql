@@ -1,49 +1,45 @@
-/* Weenie - Lightning Battle Axe (3751) */
-DELETE FROM weenie WHERE class_Id = 3751;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3751, 'axebattleelectric', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3751, 001 /* NAME_STRING */, 'Lightning Battle Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3751, 001 /* SETUP_DID */, 33555704)
-     , (3751, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3751, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3751, 007 /* CLOTHINGBASE_DID */, 268435780)
-     , (3751, 008 /* ICON_DID */, 100667606)
-     , (3751, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3751, 030 /* PHYSICS_SCRIPT_DID */, 87 /* PS_BreatheLightning */)
-     , (3751, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3751, 046 /* TSYS_MUTATION_FILTER_DID */, 939524098);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3751', 'axebattleelectric', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3751, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3751, 005 /* ENCUMB_VAL_INT */, 800)
-     , (3751, 008 /* MASS_INT */, 320)
-     , (3751, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3751, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3751, 018 /* UI_EFFECTS_INT */, 64 /* UI_EFFECT_LIGHTNING */)
-     , (3751, 019 /* VALUE_INT */, 900)
-     , (3751, 044 /* DAMAGE_INT */, 11)
-     , (3751, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (3751, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3751, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (3751, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (3751, 049 /* WEAPON_TIME_INT */, 60)
-     , (3751, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3751, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3751, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3751, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3751, 169 /* TSYS_MUTATION_DATA_INT */, 101189386);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3751, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (3751, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3751, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3751, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3751,   1,          1) /* ItemType - MeleeWeapon */
+     , (3751,   5,        800) /* EncumbranceVal */
+     , (3751,   8,        320) /* Mass */
+     , (3751,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3751,  16,          1) /* ItemUseable - No */
+     , (3751,  18,         64) /* UiEffects - Lightning */
+     , (3751,  19,        900) /* Value */
+     , (3751,  44,         11) /* Damage */
+     , (3751,  45,         64) /* DamageType - Electric */
+     , (3751,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3751,  47,          4) /* AttackType - Slash */
+     , (3751,  48,          1) /* WeaponSkill - Axe */
+     , (3751,  49,         60) /* WeaponTime */
+     , (3751,  51,          1) /* CombatUse - Melee */
+     , (3751,  93,       1044) /* PhysicsState */
+     , (3751, 150,        103) /* HookPlacement - Hook */
+     , (3751, 151,          2) /* HookType - Wall */
+     , (3751, 169,  101189386) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3751, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3751,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3751,  21,    0.75) /* WeaponLength */
+     , (3751,  22,     0.5) /* DamageVariance */
+     , (3751,  29,       1) /* WeaponDefense */
+     , (3751,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3751,   1, 'Lightning Battle Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3751,   1,   33555704) /* Setup */
+     , (3751,   3,  536870932) /* SoundTable */
+     , (3751,   6,   67111919) /* PaletteBase */
+     , (3751,   7,  268435780) /* ClothingBase */
+     , (3751,   8,  100667606) /* Icon */
+     , (3751,  22,  872415275) /* PhysicsEffectTable */
+     , (3751,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (3751,  36,  234881053) /* MutateFilter */
+     , (3751,  46,  939524098) /* TsysMutationFilter */;

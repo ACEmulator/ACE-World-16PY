@@ -1,28 +1,24 @@
-/* Weenie - Yinar (14338) */
-DELETE FROM weenie WHERE class_Id = 14338;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14338, 'yinarsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14338, 001 /* NAME_STRING */, 'Yinar')
-     , (14338, 016 /* LONG_DESC_STRING */, 'Welcome to Yinar');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14338, 001 /* SETUP_DID */, 33557463)
-     , (14338, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14338', 'yinarsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14338, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14338, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14338, 008 /* MASS_INT */, 1800)
-     , (14338, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14338, 019 /* VALUE_INT */, 125)
-     , (14338, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14338,   1,        128) /* ItemType - Misc */
+     , (14338,   5,       9000) /* EncumbranceVal */
+     , (14338,   8,       1800) /* Mass */
+     , (14338,  16,          1) /* ItemUseable - No */
+     , (14338,  19,        125) /* Value */
+     , (14338,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14338, 001 /* STUCK_BOOL */, True)
-     , (14338, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14338, 013 /* ETHEREAL_BOOL */, False)
-     , (14338, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14338,   1, True ) /* Stuck */
+     , (14338,  12, True ) /* ReportCollisions */
+     , (14338,  13, False) /* Ethereal */
+     , (14338,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14338,   1, 'Yinar') /* Name */
+     , (14338,  16, 'Welcome to Yinar') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14338,   1,   33557463) /* Setup */
+     , (14338,   8,  100668115) /* Icon */;

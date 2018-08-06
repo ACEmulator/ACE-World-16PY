@@ -1,43 +1,39 @@
-/* Weenie - Hot Air (7445) */
-DELETE FROM weenie WHERE class_Id = 7445;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7445, 'outerforgeheatsmall', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7445, 001 /* NAME_STRING */, 'Hot Air')
-     , (7445, 017 /* ACTIVATION_TALK_STRING */, 'Hot air burns you for %i points of damage!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7445, 001 /* SETUP_DID */, 33556024)
-     , (7445, 003 /* SOUND_TABLE_DID */, 536870994)
-     , (7445, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7445', 'outerforgeheatsmall', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7445, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (7445, 005 /* ENCUMB_VAL_INT */, 1)
-     , (7445, 008 /* MASS_INT */, 1)
-     , (7445, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7445, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7445, 019 /* VALUE_INT */, 1)
-     , (7445, 044 /* DAMAGE_INT */, 12)
-     , (7445, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (7445, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (7445, 119 /* ACTIVE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7445, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (7445, 039 /* DEFAULT_SCALE_FLOAT */, 1.35)
-     , (7445, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 8)
-     , (7445, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0.25);
+VALUES (7445,   1,        128) /* ItemType - Misc */
+     , (7445,   5,          1) /* EncumbranceVal */
+     , (7445,   8,          1) /* Mass */
+     , (7445,   9,          0) /* ValidLocations - None */
+     , (7445,  16,          1) /* ItemUseable - No */
+     , (7445,  19,          1) /* Value */
+     , (7445,  44,         12) /* Damage */
+     , (7445,  45,         16) /* DamageType - Fire */
+     , (7445,  93,         12) /* PhysicsState */
+     , (7445, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7445, 001 /* STUCK_BOOL */, True)
-     , (7445, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (7445, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (7445, 013 /* ETHEREAL_BOOL */, True)
-     , (7445, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (7445, 018 /* VISIBILITY_BOOL */, True)
-     , (7445, 024 /* UI_HIDDEN_BOOL */, True)
-     , (7445, 055 /* IS_HOT_BOOL */, True);
+VALUES (7445,   1, True ) /* Stuck */
+     , (7445,  11, False) /* IgnoreCollisions */
+     , (7445,  12, True ) /* ReportCollisions */
+     , (7445,  13, True ) /* Ethereal */
+     , (7445,  14, False) /* GravityStatus */
+     , (7445,  18, True ) /* Visibility */
+     , (7445,  24, True ) /* UiHidden */
+     , (7445,  55, True ) /* IsHot */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7445,  22,     0.5) /* DamageVariance */
+     , (7445,  39,    1.35) /* DefaultScale */
+     , (7445, 105,       8) /* HotspotCycleTime */
+     , (7445, 106,    0.25) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7445,   1, 'Hot Air') /* Name */
+     , (7445,  17, 'Hot air burns you for %i points of damage!') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7445,   1,   33556024) /* Setup */
+     , (7445,   3,  536870994) /* SoundTable */
+     , (7445,   8,  100667465) /* Icon */;

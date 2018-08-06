@@ -1,50 +1,46 @@
-/* Weenie - Bracelet of Creature Enchantments (29942) */
-DELETE FROM weenie WHERE class_Id = 29942;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29942, 'braceletattributesfeeblelo', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29942, 001 /* NAME_STRING */, 'Bracelet of Creature Enchantments');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29942, 001 /* SETUP_DID */, 33554683)
-     , (29942, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29942, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (29942, 007 /* CLOTHINGBASE_DID */, 268436286)
-     , (29942, 008 /* ICON_DID */, 100672215)
-     , (29942, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29942, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29942', 'braceletattributesfeeblelo', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29942, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (29942, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (29942, 005 /* ENCUMB_VAL_INT */, 60)
-     , (29942, 008 /* MASS_INT */, 30)
-     , (29942, 009 /* LOCATIONS_INT */, 196608 /* WRIST_WEAR_LOC */)
-     , (29942, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29942, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (29942, 019 /* VALUE_INT */, 0)
-     , (29942, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (29942, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29942, 106 /* ITEM_SPELLCRAFT_INT */, 350)
-     , (29942, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (29942, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (29942, 109 /* ITEM_DIFFICULTY_INT */, 1)
-     , (29942, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29942, 005 /* MANA_RATE_FLOAT */, 0);
+VALUES (29942,   1,          8) /* ItemType - Jewelry */
+     , (29942,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (29942,   5,         60) /* EncumbranceVal */
+     , (29942,   8,         30) /* Mass */
+     , (29942,   9,     196608) /* ValidLocations - WristWear */
+     , (29942,  16,          1) /* ItemUseable - No */
+     , (29942,  18,          1) /* UiEffects - Magical */
+     , (29942,  19,          0) /* Value */
+     , (29942,  33,          1) /* Bonded - Bonded */
+     , (29942,  93,       1044) /* PhysicsState */
+     , (29942, 106,        350) /* ItemSpellcraft */
+     , (29942, 107,        600) /* ItemCurMana */
+     , (29942, 108,        600) /* ItemMaxMana */
+     , (29942, 109,          1) /* ItemDifficulty */
+     , (29942, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29942, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29942, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29942,  22, True ) /* Inscribable */
+     , (29942,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29942,   5,       0) /* ManaRate */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29942,   1, 'Bracelet of Creature Enchantments') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29942,   1,   33554683) /* Setup */
+     , (29942,   3,  536870932) /* SoundTable */
+     , (29942,   6,   67111919) /* PaletteBase */
+     , (29942,   7,  268436286) /* ClothingBase */
+     , (29942,   8,  100672215) /* Icon */
+     , (29942,  22,  872415275) /* PhysicsEffectTable */
+     , (29942,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29942, 2653, 2) /* FeebleWillpower_SpellID */
-     , (29942, 2654, 2) /* FeebleEndurance_SpellID */
-     , (29942, 2655, 2) /* FeebleFocus_SpellID */
-     , (29942, 2656, 2) /* FeebleQuickness_SpellID */
-     , (29942, 2657, 2) /* FeebleStrength_SpellID */
-     , (29942, 2658, 2) /* FeebleCoordination_SpellID */;
-
+VALUES (29942,  2653,      2)  /* Feeble Willpower */
+     , (29942,  2654,      2)  /* Feeble Endurance */
+     , (29942,  2655,      2)  /* Feeble Focus */
+     , (29942,  2656,      2)  /* Feeble Quickness */
+     , (29942,  2657,      2)  /* Feeble Strength */
+     , (29942,  2658,      2)  /* Feeble Coordination */;

@@ -1,36 +1,32 @@
-/* Weenie - Ruined Cave Outpost Portal (4963) */
-DELETE FROM weenie WHERE class_Id = 4963;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4963, 'portalruinedcaveoutpost', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4963, 001 /* NAME_STRING */, 'Ruined Cave Outpost Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4963, 001 /* SETUP_DID */, 33555922)
-     , (4963, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (4963, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4963', 'portalruinedcaveoutpost', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4963, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (4963, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (4963, 086 /* MIN_LEVEL_INT */, 1)
-     , (4963, 087 /* MAX_LEVEL_INT */, 20)
-     , (4963, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (4963, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (4963, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4963, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (4963,   1,      65536) /* ItemType - Portal */
+     , (4963,  16,         32) /* ItemUseable - Remote */
+     , (4963,  86,          1) /* MinLevel */
+     , (4963,  87,         20) /* MaxLevel */
+     , (4963,  93,       3084) /* PhysicsState */
+     , (4963, 111,          1) /* PortalBitmask - Unrestricted */
+     , (4963, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4963, 001 /* STUCK_BOOL */, True)
-     , (4963, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (4963, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4963, 013 /* ETHEREAL_BOOL */, True)
-     , (4963, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (4963,   1, True ) /* Stuck */
+     , (4963,  11, False) /* IgnoreCollisions */
+     , (4963,  12, True ) /* ReportCollisions */
+     , (4963,  13, True ) /* Ethereal */
+     , (4963,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4963,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4963,   1, 'Ruined Cave Outpost Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4963,   1,   33555922) /* Setup */
+     , (4963,   2,  150994947) /* MotionTable */
+     , (4963,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4963, 2, 22151755, 58.7, -88.7, 0, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (4963, 2, 22151755, 58.7, -88.7, 0, 1, 0, 0, 0) /* Destination */;

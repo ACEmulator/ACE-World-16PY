@@ -1,41 +1,37 @@
-/* Weenie - Hardened Shard (23856) */
-DELETE FROM weenie WHERE class_Id = 23856;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23856, 'shardpiercing', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23856, 001 /* NAME_STRING */, 'Hardened Shard')
-     , (23856, 014 /* USE_STRING */, 'Combine with existing greater shadow armor to create a Hardened piece of greater shadow armor.')
-     , (23856, 015 /* SHORT_DESC_STRING */, 'A hardened shard.')
-     , (23856, 016 /* LONG_DESC_STRING */, 'A hardened shard.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23856, 001 /* SETUP_DID */, 33558201)
-     , (23856, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23856, 006 /* PALETTE_BASE_DID */, 67114167)
-     , (23856, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (23856, 008 /* ICON_DID */, 100674043)
-     , (23856, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23856', 'shardpiercing', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23856, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (23856, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
-     , (23856, 005 /* ENCUMB_VAL_INT */, 150)
-     , (23856, 008 /* MASS_INT */, 40)
-     , (23856, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23856, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (23856, 012 /* STACK_SIZE_INT */, 1)
-     , (23856, 013 /* STACK_UNIT_ENCUMB_INT */, 150)
-     , (23856, 014 /* STACK_UNIT_MASS_INT */, 40)
-     , (23856, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (23856, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (23856, 019 /* VALUE_INT */, 0)
-     , (23856, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23856, 094 /* TARGET_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (23856, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23856, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (23856,   1,       2048) /* ItemType - Gem */
+     , (23856,   3,         83) /* PaletteTemplate - Amber */
+     , (23856,   5,        150) /* EncumbranceVal */
+     , (23856,   8,         40) /* Mass */
+     , (23856,   9,          0) /* ValidLocations - None */
+     , (23856,  11,          1) /* MaxStackSize */
+     , (23856,  12,          1) /* StackSize */
+     , (23856,  13,        150) /* StackUnitEncumbrance */
+     , (23856,  14,         40) /* StackUnitMass */
+     , (23856,  15,          0) /* StackUnitValue */
+     , (23856,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (23856,  19,          0) /* Value */
+     , (23856,  93,       1044) /* PhysicsState */
+     , (23856,  94,          2) /* TargetType - Armor */
+     , (23856, 150,        103) /* HookPlacement - Hook */
+     , (23856, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23856, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (23856,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23856,   1, 'Hardened Shard') /* Name */
+     , (23856,  14, 'Combine with existing greater shadow armor to create a Hardened piece of greater shadow armor.') /* Use */
+     , (23856,  15, 'A hardened shard.') /* ShortDesc */
+     , (23856,  16, 'A hardened shard.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23856,   1,   33558201) /* Setup */
+     , (23856,   3,  536870932) /* SoundTable */
+     , (23856,   6,   67114167) /* PaletteBase */
+     , (23856,   7,  268435723) /* ClothingBase */
+     , (23856,   8,  100674043) /* Icon */
+     , (23856,  22,  872415275) /* PhysicsEffectTable */;

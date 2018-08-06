@@ -1,31 +1,27 @@
-/* Weenie - Well of Tears (27916) */
-DELETE FROM weenie WHERE class_Id = 27916;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27916, 'wellbloodtears', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27916, 001 /* NAME_STRING */, 'Well of Tears')
-     , (27916, 016 /* LONG_DESC_STRING */, 'A well carved into the stone of the room. The sound of a woman crying is unmistakable. The bottom cannot be seen. The scent of blood is overwhelming here.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27916, 001 /* SETUP_DID */, 33558754)
-     , (27916, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27916, 008 /* ICON_DID */, 100676555)
-     , (27916, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27916', 'wellbloodtears', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27916, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (27916, 005 /* ENCUMB_VAL_INT */, 0)
-     , (27916, 008 /* MASS_INT */, 0)
-     , (27916, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27916, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27916, 019 /* VALUE_INT */, 0)
-     , (27916, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (27916,   1,        128) /* ItemType - Misc */
+     , (27916,   5,          0) /* EncumbranceVal */
+     , (27916,   8,          0) /* Mass */
+     , (27916,   9,          0) /* ValidLocations - None */
+     , (27916,  16,          1) /* ItemUseable - No */
+     , (27916,  19,          0) /* Value */
+     , (27916,  93,       1032) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27916, 001 /* STUCK_BOOL */, True)
-     , (27916, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (27916, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (27916, 013 /* ETHEREAL_BOOL */, False);
+VALUES (27916,   1, True ) /* Stuck */
+     , (27916,  11, False) /* IgnoreCollisions */
+     , (27916,  12, True ) /* ReportCollisions */
+     , (27916,  13, False) /* Ethereal */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27916,   1, 'Well of Tears') /* Name */
+     , (27916,  16, 'A well carved into the stone of the room. The sound of a woman crying is unmistakable. The bottom cannot be seen. The scent of blood is overwhelming here.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27916,   1,   33558754) /* Setup */
+     , (27916,   3,  536870932) /* SoundTable */
+     , (27916,   8,  100676555) /* Icon */
+     , (27916,  22,  872415275) /* PhysicsEffectTable */;

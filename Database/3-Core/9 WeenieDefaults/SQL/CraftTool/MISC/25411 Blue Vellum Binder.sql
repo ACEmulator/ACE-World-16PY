@@ -1,40 +1,36 @@
-/* Weenie - Blue Vellum Binder (25411) */
-DELETE FROM weenie WHERE class_Id = 25411;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25411, 'bookundeadmechanism4', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25411, 001 /* NAME_STRING */, 'Blue Vellum Binder')
-     , (25411, 014 /* USE_STRING */, 'Use this binder on Untranslated Pages in the correct order to complete this volume.')
-     , (25411, 016 /* LONG_DESC_STRING */, 'A blue vellum binder containing 4 thin sheets of parchment. The parchment is inscribed in an unknown alphabet.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25411, 001 /* SETUP_DID */, 33554771)
-     , (25411, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25411, 006 /* PALETTE_BASE_DID */, 67111928)
-     , (25411, 008 /* ICON_DID */, 100674843)
-     , (25411, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25411', 'bookundeadmechanism4', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25411, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25411, 005 /* ENCUMB_VAL_INT */, 25)
-     , (25411, 008 /* MASS_INT */, 5)
-     , (25411, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25411, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (25411, 012 /* STACK_SIZE_INT */, 1)
-     , (25411, 013 /* STACK_UNIT_ENCUMB_INT */, 25)
-     , (25411, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (25411, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (25411, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (25411, 019 /* VALUE_INT */, 0)
-     , (25411, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25411, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25411, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25411, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (25411,   1,        128) /* ItemType - Misc */
+     , (25411,   5,         25) /* EncumbranceVal */
+     , (25411,   8,          5) /* Mass */
+     , (25411,   9,          0) /* ValidLocations - None */
+     , (25411,  11,          1) /* MaxStackSize */
+     , (25411,  12,          1) /* StackSize */
+     , (25411,  13,         25) /* StackUnitEncumbrance */
+     , (25411,  14,          5) /* StackUnitMass */
+     , (25411,  15,          0) /* StackUnitValue */
+     , (25411,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (25411,  19,          0) /* Value */
+     , (25411,  33,          1) /* Bonded - Bonded */
+     , (25411,  93,       1044) /* PhysicsState */
+     , (25411,  94,        128) /* TargetType - Misc */
+     , (25411, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25411, 022 /* INSCRIBABLE_BOOL */, False)
-     , (25411, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (25411, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (25411,  22, False) /* Inscribable */
+     , (25411,  23, True ) /* DestroyOnSell */
+     , (25411,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25411,   1, 'Blue Vellum Binder') /* Name */
+     , (25411,  14, 'Use this binder on Untranslated Pages in the correct order to complete this volume.') /* Use */
+     , (25411,  16, 'A blue vellum binder containing 4 thin sheets of parchment. The parchment is inscribed in an unknown alphabet.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25411,   1,   33554771) /* Setup */
+     , (25411,   3,  536870932) /* SoundTable */
+     , (25411,   6,   67111928) /* PaletteBase */
+     , (25411,   8,  100674843) /* Icon */
+     , (25411,  22,  872415275) /* PhysicsEffectTable */;

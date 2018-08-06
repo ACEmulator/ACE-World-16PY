@@ -1,61 +1,57 @@
-/* Weenie - Deadly Hollow Mace (15448) */
-DELETE FROM weenie WHERE class_Id = 15448;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15448, 'macehollownew', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15448, 001 /* NAME_STRING */, 'Deadly Hollow Mace')
-     , (15448, 015 /* SHORT_DESC_STRING */, 'A mace crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)')
-     , (15448, 016 /* LONG_DESC_STRING */, 'A mace crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15448, 001 /* SETUP_DID */, 33556649)
-     , (15448, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15448, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (15448, 007 /* CLOTHINGBASE_DID */, 268435792)
-     , (15448, 008 /* ICON_DID */, 100668955)
-     , (15448, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (15448, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15448', 'macehollownew', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15448, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (15448, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (15448, 005 /* ENCUMB_VAL_INT */, 900)
-     , (15448, 008 /* MASS_INT */, 360)
-     , (15448, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (15448, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15448, 019 /* VALUE_INT */, 4000)
-     , (15448, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (15448, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (15448, 044 /* DAMAGE_INT */, 49)
-     , (15448, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (15448, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (15448, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (15448, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (15448, 049 /* WEAPON_TIME_INT */, 30)
-     , (15448, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (15448, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (15448, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (15448, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (15448, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (15448, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (15448, 159 /* WIELD_SKILLTYPE_INT */, 5 /* MACE_SKILL */)
-     , (15448, 160 /* WIELD_DIFFICULTY_INT */, 250);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15448, 021 /* WEAPON_LENGTH_FLOAT */, 0.62)
-     , (15448, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (15448, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (15448, 062 /* WEAPON_OFFENSE_FLOAT */, 1.1)
-     , (15448, 076 /* TRANSLUCENCY_FLOAT */, 0.7);
+VALUES (15448,   1,          1) /* ItemType - MeleeWeapon */
+     , (15448,   3,         20) /* PaletteTemplate - Silver */
+     , (15448,   5,        900) /* EncumbranceVal */
+     , (15448,   8,        360) /* Mass */
+     , (15448,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (15448,  16,          1) /* ItemUseable - No */
+     , (15448,  19,       4000) /* Value */
+     , (15448,  33,          1) /* Bonded - Bonded */
+     , (15448,  36,       9999) /* ResistMagic */
+     , (15448,  44,         49) /* Damage */
+     , (15448,  45,          4) /* DamageType - Bludgeon */
+     , (15448,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (15448,  47,          4) /* AttackType - Slash */
+     , (15448,  48,          5) /* WeaponSkill - Mace */
+     , (15448,  49,         30) /* WeaponTime */
+     , (15448,  51,          1) /* CombatUse - Melee */
+     , (15448,  93,       3092) /* PhysicsState */
+     , (15448, 114,          1) /* Attuned - Attuned */
+     , (15448, 150,        103) /* HookPlacement - Hook */
+     , (15448, 151,          2) /* HookType - Wall */
+     , (15448, 158,          2) /* WieldRequirements - RawSkill */
+     , (15448, 159,          5) /* WieldSkilltype - Mace */
+     , (15448, 160,        250) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15448, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (15448, 022 /* INSCRIBABLE_BOOL */, True)
-     , (15448, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (15448, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
-     , (15448, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True)
-     , (15448, 069 /* IS_SELLABLE_BOOL */, False)
-     , (15448, 099 /* IVORYABLE_BOOL */, True);
+VALUES (15448,  15, True ) /* LightsStatus */
+     , (15448,  22, True ) /* Inscribable */
+     , (15448,  23, True ) /* DestroyOnSell */
+     , (15448,  65, True ) /* IgnoreMagicResist */
+     , (15448,  66, True ) /* IgnoreMagicArmor */
+     , (15448,  69, False) /* IsSellable */
+     , (15448,  99, True ) /* Ivoryable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15448,  21,    0.62) /* WeaponLength */
+     , (15448,  22,    0.25) /* DamageVariance */
+     , (15448,  29,       1) /* WeaponDefense */
+     , (15448,  62,     1.1) /* WeaponOffense */
+     , (15448,  76,     0.7) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15448,   1, 'Deadly Hollow Mace') /* Name */
+     , (15448,  15, 'A mace crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* ShortDesc */
+     , (15448,  16, 'A mace crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15448,   1,   33556649) /* Setup */
+     , (15448,   3,  536870932) /* SoundTable */
+     , (15448,   6,   67111919) /* PaletteBase */
+     , (15448,   7,  268435792) /* ClothingBase */
+     , (15448,   8,  100668955) /* Icon */
+     , (15448,  22,  872415275) /* PhysicsEffectTable */
+     , (15448,  36,  234881044) /* MutateFilter */;

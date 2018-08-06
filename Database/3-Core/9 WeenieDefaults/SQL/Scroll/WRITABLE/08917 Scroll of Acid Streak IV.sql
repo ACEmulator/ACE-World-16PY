@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Acid Streak IV (8917) */
-DELETE FROM weenie WHERE class_Id = 8917;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8917, 'scrollacidstreak4', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8917, 001 /* NAME_STRING */, 'Scroll of Acid Streak IV')
-     , (8917, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (8917, 016 /* LONG_DESC_STRING */, 'When learned, this spell sends a stream of acid streaking towards the target. The stream does 16-30 points of acid damage to the first thing it hits.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8917, 001 /* SETUP_DID */, 33554826)
-     , (8917, 008 /* ICON_DID */, 100677026)
-     , (8917, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8917, 028 /* SPELL_DID */, 1793 /* AcidStreak4_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8917', 'scrollacidstreak4', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8917, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8917, 005 /* ENCUMB_VAL_INT */, 30)
-     , (8917, 008 /* MASS_INT */, 90)
-     , (8917, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8917, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8917, 019 /* VALUE_INT */, 100)
-     , (8917, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8917, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (8917,   1,       8192) /* ItemType - Writable */
+     , (8917,   5,         30) /* EncumbranceVal */
+     , (8917,   8,         90) /* Mass */
+     , (8917,   9,          0) /* ValidLocations - None */
+     , (8917,  16,          8) /* ItemUseable - Contained */
+     , (8917,  19,        100) /* Value */
+     , (8917,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8917, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8917, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8917,  22, True ) /* Inscribable */
+     , (8917,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8917,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8917,   1, 'Scroll of Acid Streak IV') /* Name */
+     , (8917,  15, 'A magic scroll.') /* ShortDesc */
+     , (8917,  16, 'When learned, this spell sends a stream of acid streaking towards the target. The stream does 16-30 points of acid damage to the first thing it hits.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8917,   1,   33554826) /* Setup */
+     , (8917,   8,  100677026) /* Icon */
+     , (8917,  22,  872415275) /* PhysicsEffectTable */
+     , (8917,  28,       1793) /* Spell - Acid Streak IV */;

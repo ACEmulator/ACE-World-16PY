@@ -1,50 +1,46 @@
-/* Weenie - Acid Long Sword (3881) */
-DELETE FROM weenie WHERE class_Id = 3881;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3881, 'swordlongacid', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3881, 001 /* NAME_STRING */, 'Acid Long Sword');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3881, 001 /* SETUP_DID */, 33555791)
-     , (3881, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3881, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3881, 007 /* CLOTHINGBASE_DID */, 268435769)
-     , (3881, 008 /* ICON_DID */, 100667613)
-     , (3881, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3881, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3881, 046 /* TSYS_MUTATION_FILTER_DID */, 939524101);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3881', 'swordlongacid', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3881, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3881, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (3881, 005 /* ENCUMB_VAL_INT */, 450)
-     , (3881, 008 /* MASS_INT */, 180)
-     , (3881, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3881, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3881, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (3881, 019 /* VALUE_INT */, 600)
-     , (3881, 044 /* DAMAGE_INT */, 9)
-     , (3881, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (3881, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3881, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (3881, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (3881, 049 /* WEAPON_TIME_INT */, 40)
-     , (3881, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3881, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3881, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3881, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3881, 169 /* TSYS_MUTATION_DATA_INT */, 101255170);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3881, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (3881, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3881, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3881, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (3881, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3881,   1,          1) /* ItemType - MeleeWeapon */
+     , (3881,   3,         20) /* PaletteTemplate - Silver */
+     , (3881,   5,        450) /* EncumbranceVal */
+     , (3881,   8,        180) /* Mass */
+     , (3881,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3881,  16,          1) /* ItemUseable - No */
+     , (3881,  18,        256) /* UiEffects - Acid */
+     , (3881,  19,        600) /* Value */
+     , (3881,  44,          9) /* Damage */
+     , (3881,  45,         32) /* DamageType - Acid */
+     , (3881,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3881,  47,          6) /* AttackType */
+     , (3881,  48,         11) /* WeaponSkill - Sword */
+     , (3881,  49,         40) /* WeaponTime */
+     , (3881,  51,          1) /* CombatUse - Melee */
+     , (3881,  93,       1044) /* PhysicsState */
+     , (3881, 150,        103) /* HookPlacement - Hook */
+     , (3881, 151,          2) /* HookType - Wall */
+     , (3881, 169,  101255170) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3881, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3881,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3881,  21,    0.95) /* WeaponLength */
+     , (3881,  22,     0.5) /* DamageVariance */
+     , (3881,  29,       1) /* WeaponDefense */
+     , (3881,  39,     1.1) /* DefaultScale */
+     , (3881,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3881,   1, 'Acid Long Sword') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3881,   1,   33555791) /* Setup */
+     , (3881,   3,  536870932) /* SoundTable */
+     , (3881,   6,   67111919) /* PaletteBase */
+     , (3881,   7,  268435769) /* ClothingBase */
+     , (3881,   8,  100667613) /* Icon */
+     , (3881,  22,  872415275) /* PhysicsEffectTable */
+     , (3881,  36,  234881053) /* MutateFilter */
+     , (3881,  46,  939524101) /* TsysMutationFilter */;

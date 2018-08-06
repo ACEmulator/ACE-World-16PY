@@ -1,39 +1,35 @@
-/* Weenie - Scarecrow Body (28885) */
-DELETE FROM weenie WHERE class_Id = 28885;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28885, 'bodyscarecrow', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28885, 001 /* NAME_STRING */, 'Scarecrow Body')
-     , (28885, 015 /* SHORT_DESC_STRING */, 'A complete Scarecrow body.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28885, 001 /* SETUP_DID */, 33559001)
-     , (28885, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28885, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (28885, 007 /* CLOTHINGBASE_DID */, 268436866)
-     , (28885, 008 /* ICON_DID */, 100677084)
-     , (28885, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28885', 'bodyscarecrow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28885, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28885, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (28885, 005 /* ENCUMB_VAL_INT */, 1600)
-     , (28885, 008 /* MASS_INT */, 800)
-     , (28885, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28885, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28885, 019 /* VALUE_INT */, 0)
-     , (28885, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
-     , (28885, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28885, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
-     , (28885, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28885, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28885, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (28885,   1,        128) /* ItemType - Misc */
+     , (28885,   3,          4) /* PaletteTemplate - Brown */
+     , (28885,   5,       1600) /* EncumbranceVal */
+     , (28885,   8,        800) /* Mass */
+     , (28885,   9,          0) /* ValidLocations - None */
+     , (28885,  16,          1) /* ItemUseable - No */
+     , (28885,  19,          0) /* Value */
+     , (28885,  33,          0) /* Bonded - Normal */
+     , (28885,  93,       1044) /* PhysicsState */
+     , (28885, 114,          0) /* Attuned - Normal */
+     , (28885, 150,        103) /* HookPlacement - Hook */
+     , (28885, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28885, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28885, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (28885,  22, True ) /* Inscribable */
+     , (28885,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28885,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28885,   1, 'Scarecrow Body') /* Name */
+     , (28885,  15, 'A complete Scarecrow body.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28885,   1,   33559001) /* Setup */
+     , (28885,   3,  536870932) /* SoundTable */
+     , (28885,   6,   67108990) /* PaletteBase */
+     , (28885,   7,  268436866) /* ClothingBase */
+     , (28885,   8,  100677084) /* Icon */
+     , (28885,  22,  872415275) /* PhysicsEffectTable */;

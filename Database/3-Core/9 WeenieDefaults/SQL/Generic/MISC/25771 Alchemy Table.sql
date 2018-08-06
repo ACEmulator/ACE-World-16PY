@@ -1,29 +1,25 @@
-/* Weenie - Alchemy Table (25771) */
-DELETE FROM weenie WHERE class_Id = 25771;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25771, 'tablealchemy', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25771, 001 /* NAME_STRING */, 'Alchemy Table')
-     , (25771, 014 /* USE_STRING */, 'This item can be used on floor hooks.')
-     , (25771, 016 /* LONG_DESC_STRING */, 'A table with various alchemy supplies and tools on it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25771, 001 /* SETUP_DID */, 33558527)
-     , (25771, 008 /* ICON_DID */, 100675554);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25771', 'tablealchemy', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25771, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25771, 005 /* ENCUMB_VAL_INT */, 300)
-     , (25771, 008 /* MASS_INT */, 14000)
-     , (25771, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25771, 019 /* VALUE_INT */, 6000)
-     , (25771, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25771, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25771, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
+VALUES (25771,   1,        128) /* ItemType - Misc */
+     , (25771,   5,        300) /* EncumbranceVal */
+     , (25771,   8,      14000) /* Mass */
+     , (25771,  16,          1) /* ItemUseable - No */
+     , (25771,  19,       6000) /* Value */
+     , (25771,  93,       1044) /* PhysicsState */
+     , (25771, 150,        103) /* HookPlacement - Hook */
+     , (25771, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25771, 013 /* ETHEREAL_BOOL */, True)
-     , (25771, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (25771,  13, True ) /* Ethereal */
+     , (25771,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25771,   1, 'Alchemy Table') /* Name */
+     , (25771,  14, 'This item can be used on floor hooks.') /* Use */
+     , (25771,  16, 'A table with various alchemy supplies and tools on it.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25771,   1,   33558527) /* Setup */
+     , (25771,   8,  100675554) /* Icon */;

@@ -1,27 +1,23 @@
-/* Weenie - Bones (4380) */
-DELETE FROM weenie WHERE class_Id = 4380;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4380, 'bonepilelarge', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4380, 001 /* NAME_STRING */, 'Bones');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4380, 001 /* SETUP_DID */, 33555404)
-     , (4380, 008 /* ICON_DID */, 100667504);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4380', 'bonepilelarge', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4380, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4380, 005 /* ENCUMB_VAL_INT */, 50)
-     , (4380, 008 /* MASS_INT */, 30)
-     , (4380, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4380, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4380, 019 /* VALUE_INT */, 0)
-     , (4380, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4380,   1,        128) /* ItemType - Misc */
+     , (4380,   5,         50) /* EncumbranceVal */
+     , (4380,   8,         30) /* Mass */
+     , (4380,   9,          0) /* ValidLocations - None */
+     , (4380,  16,          1) /* ItemUseable - No */
+     , (4380,  19,          0) /* Value */
+     , (4380,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4380, 001 /* STUCK_BOOL */, True)
-     , (4380, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (4380, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (4380,   1, True ) /* Stuck */
+     , (4380,  14, True ) /* GravityStatus */
+     , (4380,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4380,   1, 'Bones') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4380,   1,   33555404) /* Setup */
+     , (4380,   8,  100667504) /* Icon */;

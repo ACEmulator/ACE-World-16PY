@@ -1,128 +1,150 @@
-/* Weenie - Cydna Wren (25485) */
-DELETE FROM weenie WHERE class_Id = 25485;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25485, 'exstudentnuhmudirarot2', 10 /* Creature_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25485, 001 /* NAME_STRING */, 'Cydna Wren')
-     , (25485, 003 /* SEX_STRING */, 'Female')
-     , (25485, 004 /* HERITAGE_GROUP_STRING */, 'Gharu''ndim')
-     , (25485, 005 /* TEMPLATE_STRING */, 'Ex-student');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25485, 001 /* SETUP_DID */, 33554510)
-     , (25485, 002 /* MOTION_TABLE_DID */, 150994945)
-     , (25485, 003 /* SOUND_TABLE_DID */, 536870914)
-     , (25485, 004 /* COMBAT_TABLE_DID */, 805306368)
-     , (25485, 008 /* ICON_DID */, 100667446);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25485', 'exstudentnuhmudirarot2', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25485, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (25485, 002 /* CREATURE_TYPE_INT */, 31 /* Human_CreatureType */)
-     , (25485, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (25485, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (25485, 008 /* MASS_INT */, 120)
-     , (25485, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (25485, 025 /* LEVEL_INT */, 15)
-     , (25485, 027 /* ARMOR_TYPE_INT */, 0)
-     , (25485, 093 /* PHYSICS_STATE_INT */, 6292504 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS, EDGE_SLIDE_PS */)
-     , (25485, 095 /* RADARBLIP_COLOR_INT */, 8 /* Yellow */)
-     , (25485, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
-     , (25485, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
-     , (25485, 146 /* XP_OVERRIDE_INT */, 392);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25485, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
-     , (25485, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
-     , (25485, 003 /* HEALTH_RATE_FLOAT */, 0.16)
-     , (25485, 004 /* STAMINA_RATE_FLOAT */, 5)
-     , (25485, 005 /* MANA_RATE_FLOAT */, 1)
-     , (25485, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.9)
-     , (25485, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (25485, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.1)
-     , (25485, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (25485, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (25485, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (25485, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (25485, 054 /* USE_RADIUS_FLOAT */, 3)
-     , (25485, 064 /* RESIST_SLASH_FLOAT */, 1)
-     , (25485, 065 /* RESIST_PIERCE_FLOAT */, 1)
-     , (25485, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
-     , (25485, 067 /* RESIST_FIRE_FLOAT */, 1)
-     , (25485, 068 /* RESIST_COLD_FLOAT */, 1)
-     , (25485, 069 /* RESIST_ACID_FLOAT */, 1)
-     , (25485, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
-     , (25485, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
-     , (25485, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
-     , (25485, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
-     , (25485, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
-     , (25485, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
-     , (25485, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
-     , (25485, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
+VALUES (25485,   1,         16) /* ItemType - Creature */
+     , (25485,   2,         31) /* CreatureType - Human */
+     , (25485,   6,         -1) /* ItemsCapacity */
+     , (25485,   7,         -1) /* ContainersCapacity */
+     , (25485,   8,        120) /* Mass */
+     , (25485,  16,         32) /* ItemUseable - Remote */
+     , (25485,  25,         15) /* Level */
+     , (25485,  27,          0) /* ArmorType */
+     , (25485,  93,    6292504) /* PhysicsState */
+     , (25485,  95,          8) /* RadarBlipColor - Yellow */
+     , (25485, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (25485, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (25485, 146,        392) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25485, 001 /* STUCK_BOOL */, True)
-     , (25485, 008 /* ALLOW_GIVE_BOOL */, True)
-     , (25485, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (25485, 013 /* ETHEREAL_BOOL */, False)
-     , (25485, 019 /* ATTACKABLE_BOOL */, False)
-     , (25485, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True)
-     , (25485, 042 /* ALLOW_EDGE_SLIDE_BOOL */, True)
-     , (25485, 052 /* AI_IMMOBILE_BOOL */, True);
+VALUES (25485,   1, True ) /* Stuck */
+     , (25485,   8, True ) /* AllowGive */
+     , (25485,  12, True ) /* ReportCollisions */
+     , (25485,  13, False) /* Ethereal */
+     , (25485,  19, False) /* Attackable */
+     , (25485,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (25485,  42, True ) /* AllowEdgeSlide */
+     , (25485,  52, True ) /* AiImmobile */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25485,   1,       5) /* HeartbeatInterval */
+     , (25485,   2,       0) /* HeartbeatTimestamp */
+     , (25485,   3,    0.16) /* HealthRate */
+     , (25485,   4,       5) /* StaminaRate */
+     , (25485,   5,       1) /* ManaRate */
+     , (25485,  13,     0.9) /* ArmorModVsSlash */
+     , (25485,  14,       1) /* ArmorModVsPierce */
+     , (25485,  15,     1.1) /* ArmorModVsBludgeon */
+     , (25485,  16,     0.4) /* ArmorModVsCold */
+     , (25485,  17,     0.4) /* ArmorModVsFire */
+     , (25485,  18,       1) /* ArmorModVsAcid */
+     , (25485,  19,     0.6) /* ArmorModVsElectric */
+     , (25485,  54,       3) /* UseRadius */
+     , (25485,  64,       1) /* ResistSlash */
+     , (25485,  65,       1) /* ResistPierce */
+     , (25485,  66,       1) /* ResistBludgeon */
+     , (25485,  67,       1) /* ResistFire */
+     , (25485,  68,       1) /* ResistCold */
+     , (25485,  69,       1) /* ResistAcid */
+     , (25485,  70,       1) /* ResistElectric */
+     , (25485,  71,       1) /* ResistHealthBoost */
+     , (25485,  72,       1) /* ResistStaminaDrain */
+     , (25485,  73,       1) /* ResistStaminaBoost */
+     , (25485,  74,       1) /* ResistManaDrain */
+     , (25485,  75,       1) /* ResistManaBoost */
+     , (25485, 104,      10) /* ObviousRadarRange */
+     , (25485, 125,       1) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25485,   1, 'Cydna Wren') /* Name */
+     , (25485,   3, 'Female') /* Sex */
+     , (25485,   4, 'Gharu''ndim') /* HeritageGroup */
+     , (25485,   5, 'Ex-student') /* Template */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25485,   1,   33554510) /* Setup */
+     , (25485,   2,  150994945) /* MotionTable */
+     , (25485,   3,  536870914) /* SoundTable */
+     , (25485,   4,  805306368) /* CombatTable */
+     , (25485,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (25485, 1, 85, 0, 0) /* STRENGTH_ATTRIBUTE */
-     , (25485, 2, 75, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (25485, 3, 100, 0, 0) /* QUICKNESS_ATTRIBUTE */
-     , (25485, 4, 50, 0, 0) /* COORDINATION_ATTRIBUTE */
-     , (25485, 5, 160, 0, 0) /* FOCUS_ATTRIBUTE */
-     , (25485, 6, 180, 0, 0) /* SELF_ATTRIBUTE */;
+VALUES (25485,   1,  85, 0, 0) /* Strength */
+     , (25485,   2,  75, 0, 0) /* Endurance */
+     , (25485,   3, 100, 0, 0) /* Quickness */
+     , (25485,   4,  50, 0, 0) /* Coordination */
+     , (25485,   5, 160, 0, 0) /* Focus */
+     , (25485,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25485, 1, 0, 0, 0, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25485, 3, 0, 0, 0, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25485, 5, 0, 0, 0, 180) /* MAX_MANA_ATTRIBUTE_2ND */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25485, 2, 5916, 0, 0, 0, False) /* Create Dho Creature Master Robe for Wield_DestinationType */;
-
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (25485, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
-     , (25485, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
-     , (25485, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
-     , (25485, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
-     , (25485, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
-     , (25485, 5, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
-     , (25485, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (25485, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
-     , (25485, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
+VALUES (25485,   1,     0, 0, 0, 38) /* MaxHealth */
+     , (25485,   3,     0, 0, 0, 75) /* MaxStamina */
+     , (25485,   5,     0, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25485, 6, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 4, 0, 1632.61059507489) /* MELEE_DEFENSE_SKILL */
-     , (25485, 7, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 5, 0, 1632.61059507489) /* MISSILE_DEFENSE_SKILL */
-     , (25485, 13, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 5, 0, 1632.61059507489) /* UNARMED_COMBAT_SKILL */
-     , (25485, 32, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 200, 0, 1632.61059507489) /* ITEM_ENCHANTMENT_SKILL */;
+VALUES (25485,  6, 0, 2, 0,   4, 0, 1632.61059507489) /* MeleeDefense        Trained */
+     , (25485,  7, 0, 2, 0,   5, 0, 1632.61059507489) /* MissileDefense      Trained */
+     , (25485, 13, 0, 2, 0,   5, 0, 1632.61059507489) /* UnarmedCombat       Trained */
+     , (25485, 32, 0, 2, 0, 200, 0, 1632.61059507489) /* ItemEnchantment     Trained */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25485, 1, 1 /* Refuse_EmoteCategory */, 0, 25467 /* Whispering Venom crystal */, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 1, 13 /* QuestFailure_EmoteCategory */, 0, NULL, NULL, NULL, 'TalkedToZaikhalJeweler', NULL, NULL, NULL)
-     , (25485, 0.1, 5 /* HeartBeat_EmoteCategory */, 0, NULL, 2147483709 /* Standing */, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL)
-     , (25485, 1, 7 /* Use_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 1, 12 /* QuestSuccess_EmoteCategory */, 0, NULL, NULL, NULL, 'TalkedToZaikhalJeweler', NULL, NULL, NULL);
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (25485,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (25485,  1,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (25485,  2,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (25485,  3,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (25485,  4,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (25485,  5,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (25485,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (25485,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (25485,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25485, 1 /* Refuse_EmoteCategory */, 0, 0, 5 /* Motion_EmoteType */, 0, 1, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 1 /* Refuse_EmoteCategory */, 0, 1, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 1 /* Refuse_EmoteCategory */, 0, 2, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'Cydna Wren looks about fearfully.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 1 /* Refuse_EmoteCategory */, 0, 3, 10 /* Tell_EmoteType */, 1, 1, NULL, 'I do not want that! Get it away from me!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 13 /* QuestFailure_EmoteCategory */, 0, 0, 10 /* Tell_EmoteType */, 1, 1, NULL, 'What do you want from me? Go away, I do not trust you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 5 /* HeartBeat_EmoteCategory */, 0, 0, 5 /* Motion_EmoteType */, 0, 1, 318767245 /* Motion_TapFoot */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 7 /* Use_EmoteCategory */, 0, 0, 5 /* Motion_EmoteType */, 0, 1, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 7 /* Use_EmoteCategory */, 0, 1, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 7 /* Use_EmoteCategory */, 0, 2, 21 /* InqQuest_EmoteType */, 0, 1, NULL, 'TalkedToZaikhalJeweler', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 12 /* QuestSuccess_EmoteCategory */, 0, 0, 10 /* Tell_EmoteType */, 1, 1, NULL, 'What do you want from me? Oh ... the crystal. That jeweler must have led you to me. Ah well, there is no hiding ... nor does it matter who I put my trust in. Experience has taught me that lesson. If you keep my location here a secret, I will tell you where some of those crystals may be found. Take this small journal. I wrote it in case ... something happened to me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 12 /* QuestSuccess_EmoteCategory */, 0, 1, 22 /* StampQuest_EmoteType */, 0, 1, NULL, 'TalkedToExStudentROT2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 12 /* QuestSuccess_EmoteCategory */, 0, 2, 31 /* EraseQuest_EmoteType */, 0, 1, NULL, 'TalkedToZaikhalJeweler', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25485, 12 /* QuestSuccess_EmoteCategory */, 0, 3, 3 /* Give_EmoteType */, 3, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25503 /* Cydna Wren's Journal */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25485,  1 /* Refuse */,      1, 25467 /* Whispering Venom crystal */, NULL, NULL, NULL, NULL, NULL, NULL);
 
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,  18 /* DirectBroadcast */, 0, 1, NULL, 'Cydna Wren looks about fearfully.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I do not want that! Get it away from me!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25485,  5 /* HeartBeat */,    0.1, NULL, 2147483709 /* Standing */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767245 /* TapFoot */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25485,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,  21 /* InqQuest */, 0, 1, NULL, 'TalkedToZaikhalJeweler', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25485, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'TalkedToZaikhalJeweler', NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'What do you want from me? Oh ... the crystal. That jeweler must have led you to me. Ah well, there is no hiding ... nor does it matter who I put my trust in. Experience has taught me that lesson. If you keep my location here a secret, I will tell you where some of those crystals may be found. Take this small journal. I wrote it in case ... something happened to me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'TalkedToExStudentROT2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,  31 /* EraseQuest */, 0, 1, NULL, 'TalkedToZaikhalJeweler', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  3,   3 /* Give */, 3, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25503 /* Cydna Wren's Journal */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25485, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'TalkedToZaikhalJeweler', NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'What do you want from me? Go away, I do not trust you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25485, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe for Wield */;

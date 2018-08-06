@@ -1,32 +1,28 @@
-/* Weenie - Jar (155) */
-DELETE FROM weenie WHERE class_Id = 155;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (155, 'jar', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (155, 001 /* NAME_STRING */, 'Jar');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (155, 001 /* SETUP_DID */, 33554598)
-     , (155, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (155, 008 /* ICON_DID */, 100668106)
-     , (155, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('155', 'jar', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (155, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (155, 005 /* ENCUMB_VAL_INT */, 300)
-     , (155, 008 /* MASS_INT */, 200)
-     , (155, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (155, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (155, 019 /* VALUE_INT */, 65)
-     , (155, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (155, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (155, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (155, 039 /* DEFAULT_SCALE_FLOAT */, 2);
+VALUES (155,   1,        128) /* ItemType - Misc */
+     , (155,   5,        300) /* EncumbranceVal */
+     , (155,   8,        200) /* Mass */
+     , (155,   9,          0) /* ValidLocations - None */
+     , (155,  16,          1) /* ItemUseable - No */
+     , (155,  19,         65) /* Value */
+     , (155,  93,       1044) /* PhysicsState */
+     , (155, 150,        103) /* HookPlacement - Hook */
+     , (155, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (155, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (155,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (155,  39,       2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (155,   1, 'Jar') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (155,   1,   33554598) /* Setup */
+     , (155,   3,  536870932) /* SoundTable */
+     , (155,   8,  100668106) /* Icon */
+     , (155,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,36 +1,32 @@
-/* Weenie - Stuffed Grape Leaf (4743) */
-DELETE FROM weenie WHERE class_Id = 4743;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4743, 'stuffedgrapeleaf', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4743, 001 /* NAME_STRING */, 'Stuffed Grape Leaf')
-     , (4743, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (4743, 020 /* PLURAL_NAME_STRING */, 'Stuffed Grape Leaves');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4743, 001 /* SETUP_DID */, 33555982)
-     , (4743, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4743, 008 /* ICON_DID */, 100669970)
-     , (4743, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4743', 'stuffedgrapeleaf', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4743, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (4743, 005 /* ENCUMB_VAL_INT */, 75)
-     , (4743, 008 /* MASS_INT */, 50)
-     , (4743, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4743, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (4743, 012 /* STACK_SIZE_INT */, 1)
-     , (4743, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
-     , (4743, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (4743, 015 /* STACK_UNIT_VALUE_INT */, 18)
-     , (4743, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (4743, 019 /* VALUE_INT */, 18)
-     , (4743, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (4743, 090 /* BOOST_VALUE_INT */, 9)
-     , (4743, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4743,   1,         32) /* ItemType - Food */
+     , (4743,   5,         75) /* EncumbranceVal */
+     , (4743,   8,         50) /* Mass */
+     , (4743,   9,          0) /* ValidLocations - None */
+     , (4743,  11,        100) /* MaxStackSize */
+     , (4743,  12,          1) /* StackSize */
+     , (4743,  13,         75) /* StackUnitEncumbrance */
+     , (4743,  14,         50) /* StackUnitMass */
+     , (4743,  15,         18) /* StackUnitValue */
+     , (4743,  16,          8) /* ItemUseable - Contained */
+     , (4743,  19,         18) /* Value */
+     , (4743,  89,          4) /* BoosterEnum - Stamina */
+     , (4743,  90,          9) /* BoostValue */
+     , (4743,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4743, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (4743,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4743,   1, 'Stuffed Grape Leaf') /* Name */
+     , (4743,  14, 'Use this item to eat it.') /* Use */
+     , (4743,  20, 'Stuffed Grape Leaves') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4743,   1,   33555982) /* Setup */
+     , (4743,   3,  536870932) /* SoundTable */
+     , (4743,   8,  100669970) /* Icon */
+     , (4743,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Creature Enchantment Mastery Self VI (3202) */
-DELETE FROM weenie WHERE class_Id = 3202;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3202, 'scrollcreatureenchantmentself6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3202, 001 /* NAME_STRING */, 'Scroll of Creature Enchantment Mastery Self VI')
-     , (3202, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3202, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the caster''s Creature Enchantment skill by 150%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3202, 001 /* SETUP_DID */, 33554826)
-     , (3202, 008 /* ICON_DID */, 100676453)
-     , (3202, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3202, 028 /* SPELL_DID */, 562 /* CreatureEnchantmentMasterySelf6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3202', 'scrollcreatureenchantmentself6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3202, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3202, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3202, 008 /* MASS_INT */, 90)
-     , (3202, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3202, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3202, 019 /* VALUE_INT */, 1000)
-     , (3202, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3202, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3202,   1,       8192) /* ItemType - Writable */
+     , (3202,   5,         30) /* EncumbranceVal */
+     , (3202,   8,         90) /* Mass */
+     , (3202,   9,          0) /* ValidLocations - None */
+     , (3202,  16,          8) /* ItemUseable - Contained */
+     , (3202,  19,       1000) /* Value */
+     , (3202,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3202, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3202, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3202,  22, True ) /* Inscribable */
+     , (3202,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3202,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3202,   1, 'Scroll of Creature Enchantment Mastery Self VI') /* Name */
+     , (3202,  15, 'A magic scroll.') /* ShortDesc */
+     , (3202,  16, 'When learned, this spell increases the caster''s Creature Enchantment skill by 150%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3202,   1,   33554826) /* Setup */
+     , (3202,   8,  100676453) /* Icon */
+     , (3202,  22,  872415275) /* PhysicsEffectTable */
+     , (3202,  28,        562) /* Spell - Creature Enchantment Mastery Self VI */;

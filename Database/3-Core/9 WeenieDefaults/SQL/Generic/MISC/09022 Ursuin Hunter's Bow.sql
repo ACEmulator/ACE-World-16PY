@@ -1,32 +1,28 @@
-/* Weenie - Ursuin Hunter's Bow (9022) */
-DELETE FROM weenie WHERE class_Id = 9022;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9022, 'bowdecorative', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9022, 001 /* NAME_STRING */, 'Ursuin Hunter''s Bow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9022, 001 /* SETUP_DID */, 33554728)
-     , (9022, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9022, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (9022, 007 /* CLOTHINGBASE_DID */, 268435759)
-     , (9022, 008 /* ICON_DID */, 100668815)
-     , (9022, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9022', 'bowdecorative', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9022, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9022, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (9022, 005 /* ENCUMB_VAL_INT */, 400)
-     , (9022, 008 /* MASS_INT */, 200)
-     , (9022, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9022, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9022, 019 /* VALUE_INT */, 5)
-     , (9022, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (9022,   1,        128) /* ItemType - Misc */
+     , (9022,   3,         20) /* PaletteTemplate - Silver */
+     , (9022,   5,        400) /* EncumbranceVal */
+     , (9022,   8,        200) /* Mass */
+     , (9022,   9,          0) /* ValidLocations - None */
+     , (9022,  16,          1) /* ItemUseable - No */
+     , (9022,  19,          5) /* Value */
+     , (9022,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9022, 001 /* STUCK_BOOL */, True)
-     , (9022, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (9022, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (9022,   1, True ) /* Stuck */
+     , (9022,  14, True ) /* GravityStatus */
+     , (9022,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9022,   1, 'Ursuin Hunter''s Bow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9022,   1,   33554728) /* Setup */
+     , (9022,   3,  536870932) /* SoundTable */
+     , (9022,   6,   67111919) /* PaletteBase */
+     , (9022,   7,  268435759) /* ClothingBase */
+     , (9022,   8,  100668815) /* Icon */
+     , (9022,  22,  872415275) /* PhysicsEffectTable */;

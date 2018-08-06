@@ -1,41 +1,37 @@
-/* Weenie - Soul Stone (28927) */
-DELETE FROM weenie WHERE class_Id = 28927;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28927, 'soulstone', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28927, 001 /* NAME_STRING */, 'Soul Stone')
-     , (28927, 014 /* USE_STRING */, 'Use this on a fair amount of Burun Blood with this stone to create a stone that can be affixed to the Noble weapons to increase their potency against Burun.')
-     , (28927, 016 /* LONG_DESC_STRING */, 'This gem is unassuming and fairly plain. There is nothing overtly mystical about the gem at all.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28927, 001 /* SETUP_DID */, 33554809)
-     , (28927, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28927, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (28927, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (28927, 008 /* ICON_DID */, 100677065)
-     , (28927, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28927', 'soulstone', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28927, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28927, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
-     , (28927, 005 /* ENCUMB_VAL_INT */, 10)
-     , (28927, 008 /* MASS_INT */, 10)
-     , (28927, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28927, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (28927, 012 /* STACK_SIZE_INT */, 1)
-     , (28927, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (28927, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (28927, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (28927, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (28927, 019 /* VALUE_INT */, 0)
-     , (28927, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28927, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28927, 094 /* TARGET_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (28927, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (28927,   1,        128) /* ItemType - Misc */
+     , (28927,   3,         83) /* PaletteTemplate - Amber */
+     , (28927,   5,         10) /* EncumbranceVal */
+     , (28927,   8,         10) /* Mass */
+     , (28927,   9,          0) /* ValidLocations - None */
+     , (28927,  11,          1) /* MaxStackSize */
+     , (28927,  12,          1) /* StackSize */
+     , (28927,  13,         10) /* StackUnitEncumbrance */
+     , (28927,  14,         10) /* StackUnitMass */
+     , (28927,  15,          0) /* StackUnitValue */
+     , (28927,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (28927,  19,          0) /* Value */
+     , (28927,  33,          1) /* Bonded - Bonded */
+     , (28927,  93,       1044) /* PhysicsState */
+     , (28927,  94,       2048) /* TargetType - Gem */
+     , (28927, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28927, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28927, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (28927,  22, True ) /* Inscribable */
+     , (28927,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28927,   1, 'Soul Stone') /* Name */
+     , (28927,  14, 'Use this on a fair amount of Burun Blood with this stone to create a stone that can be affixed to the Noble weapons to increase their potency against Burun.') /* Use */
+     , (28927,  16, 'This gem is unassuming and fairly plain. There is nothing overtly mystical about the gem at all.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28927,   1,   33554809) /* Setup */
+     , (28927,   3,  536870932) /* SoundTable */
+     , (28927,   6,   67111919) /* PaletteBase */
+     , (28927,   7,  268435723) /* ClothingBase */
+     , (28927,   8,  100677065) /* Icon */
+     , (28927,  22,  872415275) /* PhysicsEffectTable */;

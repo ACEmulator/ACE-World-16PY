@@ -1,28 +1,24 @@
-/* Weenie - Stonerune Cottages (19188) */
-DELETE FROM weenie WHERE class_Id = 19188;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19188, 'stonerunecottagessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19188, 001 /* NAME_STRING */, 'Stonerune Cottages')
-     , (19188, 016 /* LONG_DESC_STRING */, 'Welcome to Stonerune Cottages');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19188, 001 /* SETUP_DID */, 33557463)
-     , (19188, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19188', 'stonerunecottagessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19188, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19188, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (19188, 008 /* MASS_INT */, 1800)
-     , (19188, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19188, 019 /* VALUE_INT */, 125)
-     , (19188, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (19188,   1,        128) /* ItemType - Misc */
+     , (19188,   5,       9000) /* EncumbranceVal */
+     , (19188,   8,       1800) /* Mass */
+     , (19188,  16,          1) /* ItemUseable - No */
+     , (19188,  19,        125) /* Value */
+     , (19188,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19188, 001 /* STUCK_BOOL */, True)
-     , (19188, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (19188, 013 /* ETHEREAL_BOOL */, False)
-     , (19188, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (19188,   1, True ) /* Stuck */
+     , (19188,  12, True ) /* ReportCollisions */
+     , (19188,  13, False) /* Ethereal */
+     , (19188,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19188,   1, 'Stonerune Cottages') /* Name */
+     , (19188,  16, 'Welcome to Stonerune Cottages') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19188,   1,   33557463) /* Setup */
+     , (19188,   8,  100668115) /* Icon */;

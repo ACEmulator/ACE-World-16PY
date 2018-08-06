@@ -1,31 +1,27 @@
-/* Weenie - Wine Cask (176) */
-DELETE FROM weenie WHERE class_Id = 176;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (176, 'winecask', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (176, 001 /* NAME_STRING */, 'Wine Cask');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (176, 001 /* SETUP_DID */, 33554597)
-     , (176, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (176, 008 /* ICON_DID */, 100667442)
-     , (176, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('176', 'winecask', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (176, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (176, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (176, 008 /* MASS_INT */, 3000)
-     , (176, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (176, 019 /* VALUE_INT */, 200)
-     , (176, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (176, 039 /* DEFAULT_SCALE_FLOAT */, 0.7);
+VALUES (176,   1,        128) /* ItemType - Misc */
+     , (176,   5,       6000) /* EncumbranceVal */
+     , (176,   8,       3000) /* Mass */
+     , (176,  16,          1) /* ItemUseable - No */
+     , (176,  19,        200) /* Value */
+     , (176,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (176, 001 /* STUCK_BOOL */, True)
-     , (176, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (176, 013 /* ETHEREAL_BOOL */, False);
+VALUES (176,   1, True ) /* Stuck */
+     , (176,  12, True ) /* ReportCollisions */
+     , (176,  13, False) /* Ethereal */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (176,  39,     0.7) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (176,   1, 'Wine Cask') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (176,   1,   33554597) /* Setup */
+     , (176,   3,  536870932) /* SoundTable */
+     , (176,   8,  100667442) /* Icon */
+     , (176,  22,  872415275) /* PhysicsEffectTable */;

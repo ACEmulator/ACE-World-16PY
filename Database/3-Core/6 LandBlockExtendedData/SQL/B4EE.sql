@@ -1,25 +1,44 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4216, 2068766727, 3035496704, 170.44, 98.0443, 164.81, 0.165686, 0, 0, -0.986179) /* Diamond Golem */
-     , (7488, 2068766723, 3035496704, 171.395, 108.224, 164.805, 0.999796, 0, 0, -0.0202071) /* Tenkarrdun Foundry Portal */
-     , (4216, 2068766720, 3035496448, 169.64, 81.4177, 170.01, 0.294993, 0, 0, 0.955499) /* Diamond Golem */
-     , (25596, 2068766736, 3035496448, 178.165, 135.719, 300.005, 0.890092, 0, 0, 0.455781) /* Amethyst Gromnie */
-     , (4216, 2068766722, 3035496448, 176.494, 82.9224, 170.01, -0.275058, 0, 0, 0.961428) /* Diamond Golem */
-     , (25597, 2068766735, 3035496448, 166.604, 152.263, 300.005, -0.996813, 0, 0, -0.0797791) /* Emerald Gromnie */
-     , (7924, 2068766730, 3035496448, 164.681, 86.8979, 171.388, -0.0165247, 0, 0, 0.999864) /* linkmonstergen5minutes */
-     , (23551, 2068766731, 3035496448, 148.62, 149.873, 300.008, -0.945162, 0, 0, 0.326601) /* Adolescent Ash Gromnie */
-     , (3951, 2068766732, 3035496448, 174.726, 135.9, 300.005, 0.988922, 0, 0, 0.148434) /* linkmonstergen1hour */
-     , (25599, 2068766733, 3035496448, 183.422, 140.176, 300.005, 0.611113, 0, 0, 0.791543) /* Sapphire Gromnie */
-     , (25598, 2068766734, 3035496448, 171.431, 127.887, 300.005, -0.990349, 0, 0, 0.138593) /* Ruby Gromnie */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2068766720,  4216, 3035496448, 169.64, 81.4177, 170.01, 0.294993, 0, 0, 0.955499,  True); /* Diamond Golem */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2068766730'; /* linkmonstergen5minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2068766732'; /* linkmonstergen1hour */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2068766722,  4216, 3035496448, 176.494, 82.9224, 170.01, -0.275058, 0, 0, 0.961428,  True); /* Diamond Golem */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068766720'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068766722'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068766727'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2068766731'; /* linkmonstergen1hour <- Adolescent Ash Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2068766733'; /* linkmonstergen1hour <- Sapphire Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2068766734'; /* linkmonstergen1hour <- Ruby Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2068766735'; /* linkmonstergen1hour <- Emerald Gromnie */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2068766736'; /* linkmonstergen1hour <- Amethyst Gromnie */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2068766723,  7488, 3035496704, 171.395, 108.224, 164.805, 0.999796, 0, 0, -0.0202071, False); /* Tenkarrdun Foundry Portal */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2068766727,  4216, 3035496704, 170.44, 98.0443, 164.81, 0.165686, 0, 0, -0.986179,  True); /* Diamond Golem */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2068766730,  7924, 3035496448, 164.681, 86.8979, 171.388, -0.0165247, 0, 0, 0.999864, False); /* Linkable Monster Generator ( 5 Min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2068766730, 2068766720) /* Diamond Golem */
+     , (2068766730, 2068766722) /* Diamond Golem */
+     , (2068766730, 2068766727) /* Diamond Golem */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2068766731, 23551, 3035496448, 148.62, 149.873, 300.008, -0.945162, 0, 0, 0.326601,  True); /* Adolescent Ash Gromnie */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2068766732,  3951, 3035496448, 174.726, 135.9, 300.005, 0.988922, 0, 0, 0.148434, False); /* Linkable Monster Gen (1 hour) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2068766732, 2068766731) /* Adolescent Ash Gromnie */
+     , (2068766732, 2068766733) /* Sapphire Gromnie */
+     , (2068766732, 2068766734) /* Ruby Gromnie */
+     , (2068766732, 2068766735) /* Emerald Gromnie */
+     , (2068766732, 2068766736) /* Amethyst Gromnie */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2068766733, 25599, 3035496448, 183.422, 140.176, 300.005, 0.611113, 0, 0, 0.791543,  True); /* Sapphire Gromnie */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2068766734, 25598, 3035496448, 171.431, 127.887, 300.005, -0.990349, 0, 0, 0.138593,  True); /* Ruby Gromnie */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2068766735, 25597, 3035496448, 166.604, 152.263, 300.005, -0.996813, 0, 0, -0.0797791,  True); /* Emerald Gromnie */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2068766736, 25596, 3035496448, 178.165, 135.719, 300.005, 0.890092, 0, 0, 0.455781,  True); /* Amethyst Gromnie */

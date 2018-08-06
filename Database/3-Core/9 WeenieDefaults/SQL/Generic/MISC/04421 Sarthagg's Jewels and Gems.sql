@@ -1,30 +1,26 @@
-/* Weenie - Sarthagg's Jewels and Gems (4421) */
-DELETE FROM weenie WHERE class_Id = 4421;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4421, 'lytelthorpejewelersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4421, 001 /* NAME_STRING */, 'Sarthagg''s Jewels and Gems')
-     , (4421, 016 /* LONG_DESC_STRING */, 'Sarthagg''s Jewels and Gems');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4421, 001 /* SETUP_DID */, 33555593)
-     , (4421, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (4421, 007 /* CLOTHINGBASE_DID */, 268435675)
-     , (4421, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4421', 'lytelthorpejewelersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4421, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4421, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4421, 008 /* MASS_INT */, 1800)
-     , (4421, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4421, 019 /* VALUE_INT */, 125)
-     , (4421, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4421,   1,        128) /* ItemType - Misc */
+     , (4421,   5,       9000) /* EncumbranceVal */
+     , (4421,   8,       1800) /* Mass */
+     , (4421,  16,          1) /* ItemUseable - No */
+     , (4421,  19,        125) /* Value */
+     , (4421,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4421, 001 /* STUCK_BOOL */, True)
-     , (4421, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4421, 013 /* ETHEREAL_BOOL */, False)
-     , (4421, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4421,   1, True ) /* Stuck */
+     , (4421,  12, True ) /* ReportCollisions */
+     , (4421,  13, False) /* Ethereal */
+     , (4421,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4421,   1, 'Sarthagg''s Jewels and Gems') /* Name */
+     , (4421,  16, 'Sarthagg''s Jewels and Gems') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4421,   1,   33555593) /* Setup */
+     , (4421,   6,   67111092) /* PaletteBase */
+     , (4421,   7,  268435675) /* ClothingBase */
+     , (4421,   8,  100668115) /* Icon */;

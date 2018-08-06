@@ -1,35 +1,32 @@
-/* Weenie - Aun Shimauri's Instructions (11974) */
-DELETE FROM weenie WHERE class_Id = 11974;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11974, 'instructionspalenqual-xp', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11974, 001 /* NAME_STRING */, 'Aun Shimauri''s Instructions');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11974, 001 /* SETUP_DID */, 33554771)
-     , (11974, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11974, 008 /* ICON_DID */, 100668117)
-     , (11974, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11974', 'instructionspalenqual-xp', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11974, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (11974, 005 /* ENCUMB_VAL_INT */, 160)
-     , (11974, 008 /* MASS_INT */, 200)
-     , (11974, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11974, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (11974, 019 /* VALUE_INT */, 50)
-     , (11974, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11974, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (11974,   1,       8192) /* ItemType - Writable */
+     , (11974,   5,        160) /* EncumbranceVal */
+     , (11974,   8,        200) /* Mass */
+     , (11974,   9,          0) /* ValidLocations - None */
+     , (11974,  16,          8) /* ItemUseable - Contained */
+     , (11974,  19,         50) /* Value */
+     , (11974,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11974, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (11974,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11974,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11974,   1, 'Aun Shimauri''s Instructions') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11974,   1,   33554771) /* Setup */
+     , (11974,   3,  536870932) /* SoundTable */
+     , (11974,   8,  100668117) /* Icon */
+     , (11974,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (11974, 39, 1000) /* Book Data */;
+VALUES (11974, 39, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (11974, 0, 4294967295, 'Aun Shimauri', 'prewritten', False, 'I place my Keh in your hands. I listen like the Forest. I know like the Mountain. I speak like the River. I place my Keh in your hands. I listen to the Truth. I speak the Truth. I place my Keh in your hands. Here are my words true.
@@ -213,4 +210,3 @@ but a small child of molten rock and
 ')
      , (11974, 38, 4294967295, 'Aun Shimauri', 'prewritten', False, '"And now, three final matters before I leave you, Aun Shimauri."  How I wish I could relate to you what those three matters were!  But as she told me, the game changes.  The game changes and I must remain silent for now.  But I will help to take back the totems of Tanae, Audetaunga, and Volkama.  I will collect them and let the people, all the peoples of this world, use them.  Oh my poor children.  The darkness changes and the world comes.  One day I shall know my mother''s name.
 ');
-

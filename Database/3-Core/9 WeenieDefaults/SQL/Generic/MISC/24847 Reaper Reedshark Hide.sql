@@ -1,34 +1,30 @@
-/* Weenie - Reaper Reedshark Hide (24847) */
-DELETE FROM weenie WHERE class_Id = 24847;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24847, 'reedsharkhidereaper', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24847, 001 /* NAME_STRING */, 'Reaper Reedshark Hide');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24847, 001 /* SETUP_DID */, 33554817)
-     , (24847, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24847, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24847, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (24847, 008 /* ICON_DID */, 100674491)
-     , (24847, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24847', 'reedsharkhidereaper', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24847, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24847, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (24847, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (24847, 008 /* MASS_INT */, 400)
-     , (24847, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24847, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24847, 019 /* VALUE_INT */, 50)
-     , (24847, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24847, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (24847,   1,        128) /* ItemType - Misc */
+     , (24847,   3,          8) /* PaletteTemplate - Green */
+     , (24847,   5,       1000) /* EncumbranceVal */
+     , (24847,   8,        400) /* Mass */
+     , (24847,   9,          0) /* ValidLocations - None */
+     , (24847,  16,          1) /* ItemUseable - No */
+     , (24847,  19,         50) /* Value */
+     , (24847,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24847, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24847, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24847,  22, True ) /* Inscribable */
+     , (24847,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24847,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24847,   1, 'Reaper Reedshark Hide') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24847,   1,   33554817) /* Setup */
+     , (24847,   3,  536870932) /* SoundTable */
+     , (24847,   6,   67111919) /* PaletteBase */
+     , (24847,   7,  268435832) /* ClothingBase */
+     , (24847,   8,  100674491) /* Icon */
+     , (24847,  22,  872415275) /* PhysicsEffectTable */;

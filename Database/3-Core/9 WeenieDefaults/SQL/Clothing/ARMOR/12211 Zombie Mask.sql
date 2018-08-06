@@ -1,49 +1,45 @@
-/* Weenie - Zombie Mask (12211) */
-DELETE FROM weenie WHERE class_Id = 12211;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12211, 'maskzombie', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12211, 001 /* NAME_STRING */, 'Zombie Mask')
-     , (12211, 016 /* LONG_DESC_STRING */, 'A mask made from the head of a zombie.  Its skin is dry, though the mask is very well put together.  The odor of undeath still clings to it, however...');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12211, 001 /* SETUP_DID */, 33557363)
-     , (12211, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12211, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (12211, 007 /* CLOTHINGBASE_DID */, 268436268)
-     , (12211, 008 /* ICON_DID */, 100672164)
-     , (12211, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12211', 'maskzombie', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12211, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (12211, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (12211, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (12211, 005 /* ENCUMB_VAL_INT */, 150)
-     , (12211, 008 /* MASS_INT */, 75)
-     , (12211, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (12211, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12211, 019 /* VALUE_INT */, 75)
-     , (12211, 027 /* ARMOR_TYPE_INT */, 2)
-     , (12211, 028 /* ARMOR_LEVEL_INT */, 10)
-     , (12211, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12211, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12211, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12211, 012 /* SHADE_FLOAT */, 0.66)
-     , (12211, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.5)
-     , (12211, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.35)
-     , (12211, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.375)
-     , (12211, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (12211, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.5)
-     , (12211, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.375)
-     , (12211, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.43)
-     , (12211, 110 /* BULK_MOD_FLOAT */, 1)
-     , (12211, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (12211,   1,          2) /* ItemType - Armor */
+     , (12211,   3,          4) /* PaletteTemplate - Brown */
+     , (12211,   4,      16384) /* ClothingPriority - Head */
+     , (12211,   5,        150) /* EncumbranceVal */
+     , (12211,   8,         75) /* Mass */
+     , (12211,   9,          1) /* ValidLocations - HeadWear */
+     , (12211,  16,          1) /* ItemUseable - No */
+     , (12211,  19,         75) /* Value */
+     , (12211,  27,          2) /* ArmorType */
+     , (12211,  28,         10) /* ArmorLevel */
+     , (12211,  93,       1044) /* PhysicsState */
+     , (12211, 150,        103) /* HookPlacement - Hook */
+     , (12211, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12211, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12211, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (12211,  22, True ) /* Inscribable */
+     , (12211,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12211,  12,    0.66) /* Shade */
+     , (12211,  13,     0.5) /* ArmorModVsSlash */
+     , (12211,  14,    0.35) /* ArmorModVsPierce */
+     , (12211,  15,   0.375) /* ArmorModVsBludgeon */
+     , (12211,  16,     0.2) /* ArmorModVsCold */
+     , (12211,  17,     0.5) /* ArmorModVsFire */
+     , (12211,  18,   0.375) /* ArmorModVsAcid */
+     , (12211,  19,    0.43) /* ArmorModVsElectric */
+     , (12211, 110,       1) /* BulkMod */
+     , (12211, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12211,   1, 'Zombie Mask') /* Name */
+     , (12211,  16, 'A mask made from the head of a zombie.  Its skin is dry, though the mask is very well put together.  The odor of undeath still clings to it, however...') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12211,   1,   33557363) /* Setup */
+     , (12211,   3,  536870932) /* SoundTable */
+     , (12211,   6,   67108990) /* PaletteBase */
+     , (12211,   7,  268436268) /* ClothingBase */
+     , (12211,   8,  100672164) /* Icon */
+     , (12211,  22,  872415275) /* PhysicsEffectTable */;

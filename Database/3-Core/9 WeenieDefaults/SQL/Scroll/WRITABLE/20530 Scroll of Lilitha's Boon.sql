@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Lilitha's Boon (20530) */
-DELETE FROM weenie WHERE class_Id = 20530;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20530, 'scrollfletchingmasteryother7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20530, 001 /* NAME_STRING */, 'Scroll of Lilitha''s Boon')
-     , (20530, 015 /* SHORT_DESC_STRING */, 'When learned, this spell increases the target''s Fletching skill by 40 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20530, 001 /* SETUP_DID */, 33554826)
-     , (20530, 008 /* ICON_DID */, 100676457)
-     , (20530, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20530, 028 /* SPELL_DID */, 2236 /* FletchingMasteryOther7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20530', 'scrollfletchingmasteryother7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20530, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20530, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20530, 008 /* MASS_INT */, 90)
-     , (20530, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20530, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20530, 019 /* VALUE_INT */, 2000)
-     , (20530, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20530, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20530,   1,       8192) /* ItemType - Writable */
+     , (20530,   5,         30) /* EncumbranceVal */
+     , (20530,   8,         90) /* Mass */
+     , (20530,   9,          0) /* ValidLocations - None */
+     , (20530,  16,          8) /* ItemUseable - Contained */
+     , (20530,  19,       2000) /* Value */
+     , (20530,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20530, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20530, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20530,  22, True ) /* Inscribable */
+     , (20530,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20530,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20530,   1, 'Scroll of Lilitha''s Boon') /* Name */
+     , (20530,  15, 'When learned, this spell increases the target''s Fletching skill by 40 points.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20530,   1,   33554826) /* Setup */
+     , (20530,   8,  100676457) /* Icon */
+     , (20530,  22,  872415275) /* PhysicsEffectTable */
+     , (20530,  28,       2236) /* Spell - Lilitha's Boon */;

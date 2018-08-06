@@ -1,41 +1,37 @@
-/* Weenie - Infinite Deadly Blunt Arrowheads (30077) */
-DELETE FROM weenie WHERE class_Id = 30077;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30077, 'arrowheadrareeternalblunt', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30077, 001 /* NAME_STRING */, 'Infinite Deadly Blunt Arrowheads')
-     , (30077, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30077, 001 /* SETUP_DID */, 33554817)
-     , (30077, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30077, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30077, 007 /* CLOTHINGBASE_DID */, 268436430)
-     , (30077, 008 /* ICON_DID */, 100667436)
-     , (30077, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30077, 050 /* ICON_OVERLAY_DID */, 100673260);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30077', 'arrowheadrareeternalblunt', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30077, 001 /* ITEM_TYPE_INT */, 1073741824 /* TYPE_TINKERING_MATERIAL */)
-     , (30077, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (30077, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30077, 008 /* MASS_INT */, 5)
-     , (30077, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30077, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30077, 012 /* STACK_SIZE_INT */, 1)
-     , (30077, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30077, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30077, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30077, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30077, 019 /* VALUE_INT */, 0)
-     , (30077, 091 /* MAX_STRUCTURE_INT */, 100)
-     , (30077, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30077, 131 /* MATERIAL_TYPE_INT */, 11 /* Amber_MaterialType */)
-     , (30077, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30077, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30077,   1, 1073741824) /* ItemType - TinkeringMaterial */
+     , (30077,   3,          4) /* PaletteTemplate - Brown */
+     , (30077,   5,          5) /* EncumbranceVal */
+     , (30077,   8,          5) /* Mass */
+     , (30077,   9,          0) /* ValidLocations - None */
+     , (30077,  11,          1) /* MaxStackSize */
+     , (30077,  12,          1) /* StackSize */
+     , (30077,  13,          5) /* StackUnitEncumbrance */
+     , (30077,  14,          5) /* StackUnitMass */
+     , (30077,  15,          0) /* StackUnitValue */
+     , (30077,  16,          1) /* ItemUseable - No */
+     , (30077,  19,          0) /* Value */
+     , (30077,  91,        100) /* MaxStructure */
+     , (30077,  93,       1044) /* PhysicsState */
+     , (30077, 131,         11) /* MaterialType - Amber */
+     , (30077, 150,        103) /* HookPlacement - Hook */
+     , (30077, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30077, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30077,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30077,   1, 'Infinite Deadly Blunt Arrowheads') /* Name */
+     , (30077,  16, 'A lovely template for a rare.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30077,   1,   33554817) /* Setup */
+     , (30077,   3,  536870932) /* SoundTable */
+     , (30077,   6,   67111919) /* PaletteBase */
+     , (30077,   7,  268436430) /* ClothingBase */
+     , (30077,   8,  100667436) /* Icon */
+     , (30077,  22,  872415275) /* PhysicsEffectTable */
+     , (30077,  50,  100673260) /* IconOverlay */;

@@ -1,37 +1,33 @@
-/* Weenie - Brown Beans (7825) */
-DELETE FROM weenie WHERE class_Id = 7825;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7825, 'cacaobeans', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7825, 001 /* NAME_STRING */, 'Brown Beans')
-     , (7825, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (7825, 015 /* SHORT_DESC_STRING */, 'A heap of brown beans.')
-     , (7825, 016 /* LONG_DESC_STRING */, 'A heap of brown beans, smelling somewhat fermented.')
-     , (7825, 020 /* PLURAL_NAME_STRING */, 'Heaps of Brown Beans');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7825, 001 /* SETUP_DID */, 33556678)
-     , (7825, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7825, 008 /* ICON_DID */, 100670852)
-     , (7825, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7825', 'cacaobeans', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7825, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (7825, 005 /* ENCUMB_VAL_INT */, 20)
-     , (7825, 008 /* MASS_INT */, 10)
-     , (7825, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7825, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (7825, 012 /* STACK_SIZE_INT */, 1)
-     , (7825, 013 /* STACK_UNIT_ENCUMB_INT */, 20)
-     , (7825, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (7825, 015 /* STACK_UNIT_VALUE_INT */, 20)
-     , (7825, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (7825, 019 /* VALUE_INT */, 20)
-     , (7825, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7825, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */);
+VALUES (7825,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (7825,   5,         20) /* EncumbranceVal */
+     , (7825,   8,         10) /* Mass */
+     , (7825,   9,          0) /* ValidLocations - None */
+     , (7825,  11,        100) /* MaxStackSize */
+     , (7825,  12,          1) /* StackSize */
+     , (7825,  13,         20) /* StackUnitEncumbrance */
+     , (7825,  14,         10) /* StackUnitMass */
+     , (7825,  15,         20) /* StackUnitValue */
+     , (7825,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (7825,  19,         20) /* Value */
+     , (7825,  93,       1044) /* PhysicsState */
+     , (7825,  94,    4194336) /* TargetType */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7825, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (7825,  39,       1) /* DefaultScale */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7825,   1, 'Brown Beans') /* Name */
+     , (7825,  14, 'This item is used in cooking.') /* Use */
+     , (7825,  15, 'A heap of brown beans.') /* ShortDesc */
+     , (7825,  16, 'A heap of brown beans, smelling somewhat fermented.') /* LongDesc */
+     , (7825,  20, 'Heaps of Brown Beans') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7825,   1,   33556678) /* Setup */
+     , (7825,   3,  536870932) /* SoundTable */
+     , (7825,   8,  100670852) /* Icon */
+     , (7825,  22,  872415275) /* PhysicsEffectTable */;

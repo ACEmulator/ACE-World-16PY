@@ -1,38 +1,34 @@
-/* Weenie - Peridot (2424) */
-DELETE FROM weenie WHERE class_Id = 2424;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2424, 'gemperidot', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2424, 001 /* NAME_STRING */, 'Peridot');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2424, 001 /* SETUP_DID */, 33554809)
-     , (2424, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2424, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2424, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (2424, 008 /* ICON_DID */, 100674751)
-     , (2424, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2424, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2424', 'gemperidot', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2424, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (2424, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (2424, 005 /* ENCUMB_VAL_INT */, 5)
-     , (2424, 008 /* MASS_INT */, 5)
-     , (2424, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2424, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (2424, 012 /* STACK_SIZE_INT */, 1)
-     , (2424, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (2424, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (2424, 015 /* STACK_UNIT_VALUE_INT */, 250)
-     , (2424, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2424, 019 /* VALUE_INT */, 250)
-     , (2424, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2424, 131 /* MATERIAL_TYPE_INT */, 34 /* Peridot_MaterialType */)
-     , (2424, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
+VALUES (2424,   1,       2048) /* ItemType - Gem */
+     , (2424,   3,          8) /* PaletteTemplate - Green */
+     , (2424,   5,          5) /* EncumbranceVal */
+     , (2424,   8,          5) /* Mass */
+     , (2424,   9,          0) /* ValidLocations - None */
+     , (2424,  11,          1) /* MaxStackSize */
+     , (2424,  12,          1) /* StackSize */
+     , (2424,  13,          5) /* StackUnitEncumbrance */
+     , (2424,  14,          5) /* StackUnitMass */
+     , (2424,  15,        250) /* StackUnitValue */
+     , (2424,  16,          1) /* ItemUseable - No */
+     , (2424,  19,        250) /* Value */
+     , (2424,  93,       1044) /* PhysicsState */
+     , (2424, 131,         34) /* MaterialType - Peridot */
+     , (2424, 169,   16777216) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2424, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2424,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2424,   1, 'Peridot') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2424,   1,   33554809) /* Setup */
+     , (2424,   3,  536870932) /* SoundTable */
+     , (2424,   6,   67111919) /* PaletteBase */
+     , (2424,   7,  268435723) /* ClothingBase */
+     , (2424,   8,  100674751) /* Icon */
+     , (2424,  22,  872415275) /* PhysicsEffectTable */
+     , (2424,  36,  234881046) /* MutateFilter */;

@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Devour Creature Magic Self (20303) */
-DELETE FROM weenie WHERE class_Id = 20303;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20303, 'scrolldispelcreaturebadself4', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20303, 001 /* NAME_STRING */, 'Scroll of Devour Creature Magic Self')
-     , (20303, 015 /* SHORT_DESC_STRING */, 'When learned, this spell dispels 2-4 negative Creature Magic enchantments of level 4 or lower from the caster.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20303, 001 /* SETUP_DID */, 33554826)
-     , (20303, 008 /* ICON_DID */, 100676647)
-     , (20303, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20303, 028 /* SPELL_DID */, 1906 /* DispelCreatureBadSelf4_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20303', 'scrolldispelcreaturebadself4', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20303, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20303, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20303, 008 /* MASS_INT */, 90)
-     , (20303, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20303, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20303, 019 /* VALUE_INT */, 100)
-     , (20303, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20303, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20303,   1,       8192) /* ItemType - Writable */
+     , (20303,   5,         30) /* EncumbranceVal */
+     , (20303,   8,         90) /* Mass */
+     , (20303,   9,          0) /* ValidLocations - None */
+     , (20303,  16,          8) /* ItemUseable - Contained */
+     , (20303,  19,        100) /* Value */
+     , (20303,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20303, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20303, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20303,  22, True ) /* Inscribable */
+     , (20303,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20303,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20303,   1, 'Scroll of Devour Creature Magic Self') /* Name */
+     , (20303,  15, 'When learned, this spell dispels 2-4 negative Creature Magic enchantments of level 4 or lower from the caster.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20303,   1,   33554826) /* Setup */
+     , (20303,   8,  100676647) /* Icon */
+     , (20303,  22,  872415275) /* PhysicsEffectTable */
+     , (20303,  28,       1906) /* Spell - Devour Creature Magic Self */;

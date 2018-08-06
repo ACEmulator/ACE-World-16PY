@@ -1,46 +1,42 @@
-/* Weenie - Force Opal (9427) */
-DELETE FROM weenie WHERE class_Id = 9427;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9427, 'gemlugianbludgeon3', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9427, 001 /* NAME_STRING */, 'Force Opal')
-     , (9427, 015 /* SHORT_DESC_STRING */, 'A gem of bludgeoning protection.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9427, 001 /* SETUP_DID */, 33554809)
-     , (9427, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9427, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (9427, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (9427, 008 /* ICON_DID */, 100668361)
-     , (9427, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9427, 028 /* SPELL_DID */, 2398 /* BludgeonShield_SpellID */)
-     , (9427, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9427', 'gemlugianbludgeon3', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9427, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (9427, 003 /* PALETTE_TEMPLATE_INT */, 77 /* BLUEGREEN_PALETTE_TEMPLATE */)
-     , (9427, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9427, 008 /* MASS_INT */, 10)
-     , (9427, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9427, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (9427, 012 /* STACK_SIZE_INT */, 1)
-     , (9427, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (9427, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (9427, 015 /* STACK_UNIT_VALUE_INT */, 200)
-     , (9427, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (9427, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (9427, 019 /* VALUE_INT */, 200)
-     , (9427, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9427, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (9427, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (9427, 107 /* ITEM_CUR_MANA_INT */, 100)
-     , (9427, 108 /* ITEM_MAX_MANA_INT */, 200)
-     , (9427, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (9427, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (9427,   1,       2048) /* ItemType - Gem */
+     , (9427,   3,         77) /* PaletteTemplate - BlueGreen */
+     , (9427,   5,         10) /* EncumbranceVal */
+     , (9427,   8,         10) /* Mass */
+     , (9427,   9,          0) /* ValidLocations - None */
+     , (9427,  11,          1) /* MaxStackSize */
+     , (9427,  12,          1) /* StackSize */
+     , (9427,  13,         10) /* StackUnitEncumbrance */
+     , (9427,  14,         10) /* StackUnitMass */
+     , (9427,  15,        200) /* StackUnitValue */
+     , (9427,  16,          8) /* ItemUseable - Contained */
+     , (9427,  18,          1) /* UiEffects - Magical */
+     , (9427,  19,        200) /* Value */
+     , (9427,  93,       1044) /* PhysicsState */
+     , (9427,  94,         16) /* TargetType - Creature */
+     , (9427, 106,        210) /* ItemSpellcraft */
+     , (9427, 107,        100) /* ItemCurMana */
+     , (9427, 108,        200) /* ItemMaxMana */
+     , (9427, 109,          0) /* ItemDifficulty */
+     , (9427, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9427, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9427, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9427,  22, True ) /* Inscribable */
+     , (9427,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9427,   1, 'Force Opal') /* Name */
+     , (9427,  15, 'A gem of bludgeoning protection.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9427,   1,   33554809) /* Setup */
+     , (9427,   3,  536870932) /* SoundTable */
+     , (9427,   6,   67111919) /* PaletteBase */
+     , (9427,   7,  268435723) /* ClothingBase */
+     , (9427,   8,  100668361) /* Icon */
+     , (9427,  22,  872415275) /* PhysicsEffectTable */
+     , (9427,  28,       2398) /* Spell - Bludgeon Shield */
+     , (9427,  36,  234881046) /* MutateFilter */;

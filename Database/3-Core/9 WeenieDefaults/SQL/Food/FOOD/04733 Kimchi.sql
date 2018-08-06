@@ -1,36 +1,32 @@
-/* Weenie - Kimchi (4733) */
-DELETE FROM weenie WHERE class_Id = 4733;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4733, 'kimchi', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4733, 001 /* NAME_STRING */, 'Kimchi')
-     , (4733, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (4733, 020 /* PLURAL_NAME_STRING */, 'Bowls of Kimchi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4733, 001 /* SETUP_DID */, 33554669)
-     , (4733, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4733, 008 /* ICON_DID */, 100668106)
-     , (4733, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4733', 'kimchi', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4733, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (4733, 005 /* ENCUMB_VAL_INT */, 35)
-     , (4733, 008 /* MASS_INT */, 25)
-     , (4733, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4733, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (4733, 012 /* STACK_SIZE_INT */, 1)
-     , (4733, 013 /* STACK_UNIT_ENCUMB_INT */, 35)
-     , (4733, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (4733, 015 /* STACK_UNIT_VALUE_INT */, 18)
-     , (4733, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (4733, 019 /* VALUE_INT */, 18)
-     , (4733, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (4733, 090 /* BOOST_VALUE_INT */, 9)
-     , (4733, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4733,   1,         32) /* ItemType - Food */
+     , (4733,   5,         35) /* EncumbranceVal */
+     , (4733,   8,         25) /* Mass */
+     , (4733,   9,          0) /* ValidLocations - None */
+     , (4733,  11,        100) /* MaxStackSize */
+     , (4733,  12,          1) /* StackSize */
+     , (4733,  13,         35) /* StackUnitEncumbrance */
+     , (4733,  14,         25) /* StackUnitMass */
+     , (4733,  15,         18) /* StackUnitValue */
+     , (4733,  16,          8) /* ItemUseable - Contained */
+     , (4733,  19,         18) /* Value */
+     , (4733,  89,          4) /* BoosterEnum - Stamina */
+     , (4733,  90,          9) /* BoostValue */
+     , (4733,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4733, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (4733,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4733,   1, 'Kimchi') /* Name */
+     , (4733,  14, 'Use this item to eat it.') /* Use */
+     , (4733,  20, 'Bowls of Kimchi') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4733,   1,   33554669) /* Setup */
+     , (4733,   3,  536870932) /* SoundTable */
+     , (4733,   8,  100668106) /* Icon */
+     , (4733,  22,  872415275) /* PhysicsEffectTable */;

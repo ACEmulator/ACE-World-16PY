@@ -1,109 +1,105 @@
-/* Weenie - Mosswart Pawn (14404) */
-DELETE FROM weenie WHERE class_Id = 14404;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14404, 'mosswartpawn', 61 /* GamePiece_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14404, 001 /* NAME_STRING */, 'Mosswart Pawn');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14404, 001 /* SETUP_DID */, 33554490)
-     , (14404, 002 /* MOTION_TABLE_DID */, 150994953)
-     , (14404, 003 /* SOUND_TABLE_DID */, 536870959)
-     , (14404, 004 /* COMBAT_TABLE_DID */, 805306373)
-     , (14404, 006 /* PALETTE_BASE_DID */, 67109310)
-     , (14404, 007 /* CLOTHINGBASE_DID */, 268435562)
-     , (14404, 008 /* ICON_DID */, 100667449)
-     , (14404, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415264);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14404', 'mosswartpawn', 61) /* GamePiece */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14404, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (14404, 002 /* CREATURE_TYPE_INT */, 4 /* Mosswart_CreatureType */)
-     , (14404, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (14404, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (14404, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (14404, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14404, 025 /* LEVEL_INT */, 2)
-     , (14404, 027 /* ARMOR_TYPE_INT */, 0)
-     , (14404, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
-     , (14404, 067 /* TOLERANCE_INT */, 64)
-     , (14404, 068 /* TARGETING_TACTIC_INT */, 6)
-     , (14404, 093 /* PHYSICS_STATE_INT */, 1036 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (14404, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 131 /* Unarmed_CombatStyle, OneHanded_CombatStyle, ThrownWeapon_CombatStyle */)
-     , (14404, 133 /* SHOWABLE_ON_RADAR_INT */, 1 /* ShowNever_RadarEnum */)
-     , (14404, 140 /* AI_OPTIONS_INT */, 1)
-     , (14404, 146 /* XP_OVERRIDE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14404, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
-     , (14404, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
-     , (14404, 003 /* HEALTH_RATE_FLOAT */, 0)
-     , (14404, 004 /* STAMINA_RATE_FLOAT */, 0)
-     , (14404, 005 /* MANA_RATE_FLOAT */, 0)
-     , (14404, 012 /* SHADE_FLOAT */, 0.5)
-     , (14404, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (14404, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (14404, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (14404, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (14404, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (14404, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (14404, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (14404, 031 /* VISUAL_AWARENESS_RANGE_FLOAT */, 1)
-     , (14404, 034 /* POWERUP_TIME_FLOAT */, 1)
-     , (14404, 036 /* CHARGE_SPEED_FLOAT */, 1)
-     , (14404, 039 /* DEFAULT_SCALE_FLOAT */, 0.5)
-     , (14404, 064 /* RESIST_SLASH_FLOAT */, 0)
-     , (14404, 065 /* RESIST_PIERCE_FLOAT */, 0)
-     , (14404, 066 /* RESIST_BLUDGEON_FLOAT */, 0)
-     , (14404, 067 /* RESIST_FIRE_FLOAT */, 0)
-     , (14404, 068 /* RESIST_COLD_FLOAT */, 0)
-     , (14404, 069 /* RESIST_ACID_FLOAT */, 0)
-     , (14404, 070 /* RESIST_ELECTRIC_FLOAT */, 0)
-     , (14404, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
-     , (14404, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
-     , (14404, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
-     , (14404, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
-     , (14404, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
-     , (14404, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
-     , (14404, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 0);
+VALUES (14404,   1,         16) /* ItemType - Creature */
+     , (14404,   2,          4) /* CreatureType - Mosswart */
+     , (14404,   3,          8) /* PaletteTemplate - Green */
+     , (14404,   6,         -1) /* ItemsCapacity */
+     , (14404,   7,         -1) /* ContainersCapacity */
+     , (14404,  16,          1) /* ItemUseable - No */
+     , (14404,  25,          2) /* Level */
+     , (14404,  27,          0) /* ArmorType */
+     , (14404,  40,          2) /* CombatMode - Melee */
+     , (14404,  67,         64) /* Tolerance */
+     , (14404,  68,          6) /* TargetingTactic */
+     , (14404,  93,       1036) /* PhysicsState */
+     , (14404, 101,        131) /* AiAllowedCombatStyle */
+     , (14404, 133,          1) /* ShowableOnRadar - ShowNever */
+     , (14404, 140,          1) /* AiOptions */
+     , (14404, 146,          0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14404, 001 /* STUCK_BOOL */, True)
-     , (14404, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14404, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14404, 013 /* ETHEREAL_BOOL */, True)
-     , (14404, 019 /* ATTACKABLE_BOOL */, False)
-     , (14404, 029 /* NO_CORPSE_BOOL */, True);
+VALUES (14404,   1, True ) /* Stuck */
+     , (14404,  11, False) /* IgnoreCollisions */
+     , (14404,  12, True ) /* ReportCollisions */
+     , (14404,  13, True ) /* Ethereal */
+     , (14404,  19, False) /* Attackable */
+     , (14404,  29, True ) /* NoCorpse */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14404,   1,       5) /* HeartbeatInterval */
+     , (14404,   2,       0) /* HeartbeatTimestamp */
+     , (14404,   3,       0) /* HealthRate */
+     , (14404,   4,       0) /* StaminaRate */
+     , (14404,   5,       0) /* ManaRate */
+     , (14404,  12,     0.5) /* Shade */
+     , (14404,  13,       1) /* ArmorModVsSlash */
+     , (14404,  14,       1) /* ArmorModVsPierce */
+     , (14404,  15,       1) /* ArmorModVsBludgeon */
+     , (14404,  16,       1) /* ArmorModVsCold */
+     , (14404,  17,       1) /* ArmorModVsFire */
+     , (14404,  18,       1) /* ArmorModVsAcid */
+     , (14404,  19,       1) /* ArmorModVsElectric */
+     , (14404,  31,       1) /* VisualAwarenessRange */
+     , (14404,  34,       1) /* PowerupTime */
+     , (14404,  36,       1) /* ChargeSpeed */
+     , (14404,  39,     0.5) /* DefaultScale */
+     , (14404,  64,       0) /* ResistSlash */
+     , (14404,  65,       0) /* ResistPierce */
+     , (14404,  66,       0) /* ResistBludgeon */
+     , (14404,  67,       0) /* ResistFire */
+     , (14404,  68,       0) /* ResistCold */
+     , (14404,  69,       0) /* ResistAcid */
+     , (14404,  70,       0) /* ResistElectric */
+     , (14404,  71,       1) /* ResistHealthBoost */
+     , (14404,  72,       1) /* ResistStaminaDrain */
+     , (14404,  73,       1) /* ResistStaminaBoost */
+     , (14404,  74,       1) /* ResistManaDrain */
+     , (14404,  75,       1) /* ResistManaBoost */
+     , (14404, 104,      10) /* ObviousRadarRange */
+     , (14404, 125,       0) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14404,   1, 'Mosswart Pawn') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14404,   1,   33554490) /* Setup */
+     , (14404,   2,  150994953) /* MotionTable */
+     , (14404,   3,  536870959) /* SoundTable */
+     , (14404,   4,  805306373) /* CombatTable */
+     , (14404,   6,   67109310) /* PaletteBase */
+     , (14404,   7,  268435562) /* ClothingBase */
+     , (14404,   8,  100667449) /* Icon */
+     , (14404,  22,  872415264) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (14404, 1, 20, 0, 0) /* STRENGTH_ATTRIBUTE */
-     , (14404, 2, 10, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (14404, 3, 30, 0, 0) /* QUICKNESS_ATTRIBUTE */
-     , (14404, 4, 25, 0, 0) /* COORDINATION_ATTRIBUTE */
-     , (14404, 5, 25, 0, 0) /* FOCUS_ATTRIBUTE */
-     , (14404, 6, 15, 0, 0) /* SELF_ATTRIBUTE */;
+VALUES (14404,   1,  20, 0, 0) /* Strength */
+     , (14404,   2,  10, 0, 0) /* Endurance */
+     , (14404,   3,  30, 0, 0) /* Quickness */
+     , (14404,   4,  25, 0, 0) /* Coordination */
+     , (14404,   5,  25, 0, 0) /* Focus */
+     , (14404,   6,  15, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14404, 1, 0, 0, 0, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (14404, 3, 50, 0, 0, 60) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (14404, 5, 0, 0, 0, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
-
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (14404, 0, 4, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
-     , (14404, 1, 4, 0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
-     , (14404, 2, 4, 0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
-     , (14404, 3, 4, 0, 0, 5, 5, 5, 5, 5, 5, 5, 5, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
-     , (14404, 4, 4, 0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
-     , (14404, 5, 4, 5, 0.75, 5, 5, 5, 5, 5, 5, 5, 5, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
-     , (14404, 6, 4, 0, 0, 5, 5, 5, 5, 5, 5, 5, 5, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (14404, 7, 4, 0, 0, 5, 5, 5, 5, 5, 5, 5, 5, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
-     , (14404, 8, 4, 6, 0.75, 5, 5, 5, 5, 5, 5, 5, 5, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
+VALUES (14404,   1,     0, 0, 0, 5) /* MaxHealth */
+     , (14404,   3,    50, 0, 0, 60) /* MaxStamina */
+     , (14404,   5,     0, 0, 0, 15) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (14404, 6, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 0, 0, 884.821436185421) /* MELEE_DEFENSE_SKILL */
-     , (14404, 7, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 0, 0, 884.821436185421) /* MISSILE_DEFENSE_SKILL */
-     , (14404, 13, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 120, 0, 884.821436185421) /* UNARMED_COMBAT_SKILL */
-     , (14404, 15, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 0, 0, 884.821436185421) /* MAGIC_DEFENSE_SKILL */
-     , (14404, 24, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 40, 0, 884.821436185421) /* RUN_SKILL */;
+VALUES (14404,  6, 0, 2, 0,   0, 0, 884.821436185421) /* MeleeDefense        Trained */
+     , (14404,  7, 0, 2, 0,   0, 0, 884.821436185421) /* MissileDefense      Trained */
+     , (14404, 13, 0, 2, 0, 120, 0, 884.821436185421) /* UnarmedCombat       Trained */
+     , (14404, 15, 0, 2, 0,   0, 0, 884.821436185421) /* MagicDefense        Trained */
+     , (14404, 24, 0, 2, 0,  40, 0, 884.821436185421) /* Run                 Trained */;
 
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (14404,  0,  4,  0,    0,    3,    3,    3,    3,    3,    3,    3,    3,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (14404,  1,  4,  0,    0,    7,    7,    7,    7,    7,    7,    7,    7,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (14404,  2,  4,  0,    0,    7,    7,    7,    7,    7,    7,    7,    7,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (14404,  3,  4,  0,    0,    5,    5,    5,    5,    5,    5,    5,    5,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (14404,  4,  4,  0,    0,    7,    7,    7,    7,    7,    7,    7,    7,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (14404,  5,  4,  5, 0.75,    5,    5,    5,    5,    5,    5,    5,    5,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (14404,  6,  4,  0,    0,    5,    5,    5,    5,    5,    5,    5,    5,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (14404,  7,  4,  0,    0,    5,    5,    5,    5,    5,    5,    5,    5,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (14404,  8,  4,  6, 0.75,    5,    5,    5,    5,    5,    5,    5,    5,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;

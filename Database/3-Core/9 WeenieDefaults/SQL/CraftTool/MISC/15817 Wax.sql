@@ -1,43 +1,39 @@
-/* Weenie - Wax (15817) */
-DELETE FROM weenie WHERE class_Id = 15817;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15817, 'waxthorsten', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15817, 001 /* NAME_STRING */, 'Wax')
-     , (15817, 014 /* USE_STRING */, 'This item is used to make impressions.')
-     , (15817, 015 /* SHORT_DESC_STRING */, 'A big lump of soft wax.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15817, 001 /* SETUP_DID */, 33554669)
-     , (15817, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15817, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (15817, 007 /* CLOTHINGBASE_DID */, 268436364)
-     , (15817, 008 /* ICON_DID */, 100672828)
-     , (15817, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15817', 'waxthorsten', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15817, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15817, 005 /* ENCUMB_VAL_INT */, 200)
-     , (15817, 008 /* MASS_INT */, 200)
-     , (15817, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (15817, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (15817, 012 /* STACK_SIZE_INT */, 1)
-     , (15817, 013 /* STACK_UNIT_ENCUMB_INT */, 200)
-     , (15817, 014 /* STACK_UNIT_MASS_INT */, 200)
-     , (15817, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (15817, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (15817, 019 /* VALUE_INT */, 0)
-     , (15817, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (15817, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (15817, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15817, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15817, 039 /* DEFAULT_SCALE_FLOAT */, 1.2);
+VALUES (15817,   1,        128) /* ItemType - Misc */
+     , (15817,   5,        200) /* EncumbranceVal */
+     , (15817,   8,        200) /* Mass */
+     , (15817,   9,          0) /* ValidLocations - None */
+     , (15817,  11,          1) /* MaxStackSize */
+     , (15817,  12,          1) /* StackSize */
+     , (15817,  13,        200) /* StackUnitEncumbrance */
+     , (15817,  14,        200) /* StackUnitMass */
+     , (15817,  15,          0) /* StackUnitValue */
+     , (15817,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (15817,  19,          0) /* Value */
+     , (15817,  33,          1) /* Bonded - Bonded */
+     , (15817,  93,       1044) /* PhysicsState */
+     , (15817,  94,        128) /* TargetType - Misc */
+     , (15817, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15817, 022 /* INSCRIBABLE_BOOL */, True)
-     , (15817, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (15817,  22, True ) /* Inscribable */
+     , (15817,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15817,  39,     1.2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15817,   1, 'Wax') /* Name */
+     , (15817,  14, 'This item is used to make impressions.') /* Use */
+     , (15817,  15, 'A big lump of soft wax.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15817,   1,   33554669) /* Setup */
+     , (15817,   3,  536870932) /* SoundTable */
+     , (15817,   6,   67111919) /* PaletteBase */
+     , (15817,   7,  268436364) /* ClothingBase */
+     , (15817,   8,  100672828) /* Icon */
+     , (15817,  22,  872415275) /* PhysicsEffectTable */;

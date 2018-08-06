@@ -1,51 +1,47 @@
-/* Weenie - Lugian Scepter (9421) */
-DELETE FROM weenie WHERE class_Id = 9421;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9421, 'scepterlugian', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9421, 001 /* NAME_STRING */, 'Lugian Scepter')
-     , (9421, 015 /* SHORT_DESC_STRING */, 'A large carved scepter.')
-     , (9421, 016 /* LONG_DESC_STRING */, 'A large scuffed scepter made from both stone and gems.')
-     , (9421, 033 /* QUEST_STRING */, 'ScepterLugian');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9421, 001 /* SETUP_DID */, 33557013)
-     , (9421, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9421, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (9421, 007 /* CLOTHINGBASE_DID */, 268436169)
-     , (9421, 008 /* ICON_DID */, 100671505)
-     , (9421, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9421', 'scepterlugian', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9421, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (9421, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (9421, 005 /* ENCUMB_VAL_INT */, 4800)
-     , (9421, 008 /* MASS_INT */, 2080)
-     , (9421, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (9421, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9421, 019 /* VALUE_INT */, 2500)
-     , (9421, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9421, 044 /* DAMAGE_INT */, 20)
-     , (9421, 045 /* DAMAGE_TYPE_INT */, 20 /* BLUDGEON_DAMAGE_TYPE, FIRE_DAMAGE_TYPE */)
-     , (9421, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (9421, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (9421, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (9421, 049 /* WEAPON_TIME_INT */, 80)
-     , (9421, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (9421, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9421, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9421, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9421, 021 /* WEAPON_LENGTH_FLOAT */, 1.24)
-     , (9421, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (9421, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (9421, 039 /* DEFAULT_SCALE_FLOAT */, 1.2)
-     , (9421, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (9421,   1,          1) /* ItemType - MeleeWeapon */
+     , (9421,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (9421,   5,       4800) /* EncumbranceVal */
+     , (9421,   8,       2080) /* Mass */
+     , (9421,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (9421,  16,          1) /* ItemUseable - No */
+     , (9421,  19,       2500) /* Value */
+     , (9421,  33,          1) /* Bonded - Bonded */
+     , (9421,  44,         20) /* Damage */
+     , (9421,  45,         20) /* DamageType */
+     , (9421,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (9421,  47,          6) /* AttackType */
+     , (9421,  48,          5) /* WeaponSkill - Mace */
+     , (9421,  49,         80) /* WeaponTime */
+     , (9421,  51,          1) /* CombatUse - Melee */
+     , (9421,  93,       1044) /* PhysicsState */
+     , (9421, 150,        103) /* HookPlacement - Hook */
+     , (9421, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9421, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9421, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9421,  22, True ) /* Inscribable */
+     , (9421,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9421,  21,    1.24) /* WeaponLength */
+     , (9421,  22,     0.5) /* DamageVariance */
+     , (9421,  29,       1) /* WeaponDefense */
+     , (9421,  39,     1.2) /* DefaultScale */
+     , (9421,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9421,   1, 'Lugian Scepter') /* Name */
+     , (9421,  15, 'A large carved scepter.') /* ShortDesc */
+     , (9421,  16, 'A large scuffed scepter made from both stone and gems.') /* LongDesc */
+     , (9421,  33, 'ScepterLugian') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9421,   1,   33557013) /* Setup */
+     , (9421,   3,  536870932) /* SoundTable */
+     , (9421,   6,   67111919) /* PaletteBase */
+     , (9421,   7,  268436169) /* ClothingBase */
+     , (9421,   8,  100671505) /* Icon */
+     , (9421,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,38 +1,35 @@
-/* Weenie - Guide to Healing (12762) */
-DELETE FROM weenie WHERE class_Id = 12762;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12762, 'bookhealingacademy', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12762, 001 /* NAME_STRING */, 'Guide to Healing')
-     , (12762, 015 /* SHORT_DESC_STRING */, 'A guide to regaining Health, Stamina, and Mana.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12762, 001 /* SETUP_DID */, 33554771)
-     , (12762, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12762, 008 /* ICON_DID */, 100668117)
-     , (12762, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12762', 'bookhealingacademy', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12762, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (12762, 005 /* ENCUMB_VAL_INT */, 5)
-     , (12762, 008 /* MASS_INT */, 5)
-     , (12762, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (12762, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (12762, 019 /* VALUE_INT */, 0)
-     , (12762, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12762, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (12762, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (12762,   1,       8192) /* ItemType - Writable */
+     , (12762,   5,          5) /* EncumbranceVal */
+     , (12762,   8,          5) /* Mass */
+     , (12762,   9,          0) /* ValidLocations - None */
+     , (12762,  16,          8) /* ItemUseable - Contained */
+     , (12762,  19,          0) /* Value */
+     , (12762,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12762, 022 /* INSCRIBABLE_BOOL */, False)
-     , (12762, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (12762,  22, False) /* Inscribable */
+     , (12762,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12762,  39,    1.22) /* DefaultScale */
+     , (12762,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12762,   1, 'Guide to Healing') /* Name */
+     , (12762,  15, 'A guide to regaining Health, Stamina, and Mana.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12762,   1,   33554771) /* Setup */
+     , (12762,   3,  536870932) /* SoundTable */
+     , (12762,   8,  100668117) /* Icon */
+     , (12762,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (12762, 6, 1000) /* Book Data */;
+VALUES (12762, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (12762, 0, 4294967295, 'Training Master', 'prewritten', False, 'GUIDE TO HEALING
@@ -85,4 +82,3 @@ When your character dies and is resurrected, your Vitae (lifeforce) is temporari
 
 To find your corpse, type "@corpse". Your corpse''s location will appear in the chat window.
 ');
-

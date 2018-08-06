@@ -1,42 +1,38 @@
-/* Weenie - Realgar Pea (8309) */
-DELETE FROM weenie WHERE class_Id = 8309;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8309, 'peaalchemrealgar', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8309, 001 /* NAME_STRING */, 'Realgar Pea')
-     , (8309, 015 /* SHORT_DESC_STRING */, 'A concentrated realgar pea.')
-     , (8309, 016 /* LONG_DESC_STRING */, 'A concentrated realgar pea.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8309, 001 /* SETUP_DID */, 33555209)
-     , (8309, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8309, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8309, 007 /* CLOTHINGBASE_DID */, 268435719)
-     , (8309, 008 /* ICON_DID */, 100671047)
-     , (8309, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8309, 029 /* SPELL_COMPONENT_DID */, 156);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8309', 'peaalchemrealgar', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8309, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (8309, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (8309, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8309, 008 /* MASS_INT */, 50)
-     , (8309, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8309, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (8309, 012 /* STACK_SIZE_INT */, 1)
-     , (8309, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8309, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (8309, 015 /* STACK_UNIT_VALUE_INT */, 625)
-     , (8309, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8309, 019 /* VALUE_INT */, 625)
-     , (8309, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8309, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8309, 039 /* DEFAULT_SCALE_FLOAT */, 0.33);
+VALUES (8309,   1,       4096) /* ItemType - SpellComponents */
+     , (8309,   3,         14) /* PaletteTemplate - Red */
+     , (8309,   5,         10) /* EncumbranceVal */
+     , (8309,   8,         50) /* Mass */
+     , (8309,   9,          0) /* ValidLocations - None */
+     , (8309,  11,        100) /* MaxStackSize */
+     , (8309,  12,          1) /* StackSize */
+     , (8309,  13,         10) /* StackUnitEncumbrance */
+     , (8309,  14,         50) /* StackUnitMass */
+     , (8309,  15,        625) /* StackUnitValue */
+     , (8309,  16,          1) /* ItemUseable - No */
+     , (8309,  19,        625) /* Value */
+     , (8309,  33,          1) /* Bonded - Bonded */
+     , (8309,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8309, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8309,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8309,  39,    0.33) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8309,   1, 'Realgar Pea') /* Name */
+     , (8309,  15, 'A concentrated realgar pea.') /* ShortDesc */
+     , (8309,  16, 'A concentrated realgar pea.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8309,   1,   33555209) /* Setup */
+     , (8309,   3,  536870932) /* SoundTable */
+     , (8309,   6,   67111919) /* PaletteBase */
+     , (8309,   7,  268435719) /* ClothingBase */
+     , (8309,   8,  100671047) /* Icon */
+     , (8309,  22,  872415275) /* PhysicsEffectTable */
+     , (8309,  29,        156) /* SpellComponent */;

@@ -1,41 +1,37 @@
-/* Weenie - Perfect Isparian Spear Ingot (19519) */
-DELETE FROM weenie WHERE class_Id = 19519;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19519, 'ingotspearisparianperfect', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19519, 001 /* NAME_STRING */, 'Perfect Isparian Spear Ingot')
-     , (19519, 015 /* SHORT_DESC_STRING */, 'An diamond infused ingot, enhanced and stamped with an spear glyph.')
-     , (19519, 016 /* LONG_DESC_STRING */, 'An diamond infused ingot, enhanced and stamped with an spear glyph.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19519, 001 /* SETUP_DID */, 33555677)
-     , (19519, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19519, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19519, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (19519, 008 /* ICON_DID */, 100672972)
-     , (19519, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19519', 'ingotspearisparianperfect', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19519, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19519, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (19519, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (19519, 008 /* MASS_INT */, 1000)
-     , (19519, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19519, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (19519, 012 /* STACK_SIZE_INT */, 1)
-     , (19519, 013 /* STACK_UNIT_ENCUMB_INT */, 1000)
-     , (19519, 014 /* STACK_UNIT_MASS_INT */, 1000)
-     , (19519, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (19519, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19519, 019 /* VALUE_INT */, 0)
-     , (19519, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19519, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19519, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (19519,   1,        128) /* ItemType - Misc */
+     , (19519,   3,          8) /* PaletteTemplate - Green */
+     , (19519,   5,       1000) /* EncumbranceVal */
+     , (19519,   8,       1000) /* Mass */
+     , (19519,   9,          0) /* ValidLocations - None */
+     , (19519,  11,          1) /* MaxStackSize */
+     , (19519,  12,          1) /* StackSize */
+     , (19519,  13,       1000) /* StackUnitEncumbrance */
+     , (19519,  14,       1000) /* StackUnitMass */
+     , (19519,  15,          0) /* StackUnitValue */
+     , (19519,  16,          1) /* ItemUseable - No */
+     , (19519,  19,          0) /* Value */
+     , (19519,  33,          1) /* Bonded - Bonded */
+     , (19519,  93,       1044) /* PhysicsState */
+     , (19519, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19519, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19519, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19519, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19519,  22, True ) /* Inscribable */
+     , (19519,  23, True ) /* DestroyOnSell */
+     , (19519,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19519,   1, 'Perfect Isparian Spear Ingot') /* Name */
+     , (19519,  15, 'An diamond infused ingot, enhanced and stamped with an spear glyph.') /* ShortDesc */
+     , (19519,  16, 'An diamond infused ingot, enhanced and stamped with an spear glyph.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19519,   1,   33555677) /* Setup */
+     , (19519,   3,  536870932) /* SoundTable */
+     , (19519,   6,   67111919) /* PaletteBase */
+     , (19519,   7,  268435723) /* ClothingBase */
+     , (19519,   8,  100672972) /* Icon */
+     , (19519,  22,  872415275) /* PhysicsEffectTable */;

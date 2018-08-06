@@ -1,48 +1,44 @@
-/* Weenie - Rending Talon Cottages Portal Gem (26326) */
-DELETE FROM weenie WHERE class_Id = 26326;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26326, 'gemportalrendingtaloncottages', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26326, 001 /* NAME_STRING */, 'Rending Talon Cottages Portal Gem')
-     , (26326, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26326, 001 /* SETUP_DID */, 33556769)
-     , (26326, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26326, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26326, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26326, 008 /* ICON_DID */, 100675760)
-     , (26326, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26326, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26326, 031 /* LINKED_PORTAL_ONE_DID */, 19155 /* Rending Talon Cottages Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26326', 'gemportalrendingtaloncottages', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26326, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26326, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26326, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26326, 008 /* MASS_INT */, 10)
-     , (26326, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26326, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26326, 012 /* STACK_SIZE_INT */, 1)
-     , (26326, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26326, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26326, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26326, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26326, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26326, 019 /* VALUE_INT */, 500)
-     , (26326, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26326, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26326, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26326, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26326, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26326, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26326, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26326, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26326, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26326,   1,       2048) /* ItemType - Gem */
+     , (26326,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26326,   5,         10) /* EncumbranceVal */
+     , (26326,   8,         10) /* Mass */
+     , (26326,   9,          0) /* ValidLocations - None */
+     , (26326,  11,         20) /* MaxStackSize */
+     , (26326,  12,          1) /* StackSize */
+     , (26326,  13,         10) /* StackUnitEncumbrance */
+     , (26326,  14,         10) /* StackUnitMass */
+     , (26326,  15,        500) /* StackUnitValue */
+     , (26326,  16,          8) /* ItemUseable - Contained */
+     , (26326,  18,          1) /* UiEffects - Magical */
+     , (26326,  19,        500) /* Value */
+     , (26326,  93,       3092) /* PhysicsState */
+     , (26326,  94,         16) /* TargetType - Creature */
+     , (26326, 106,        210) /* ItemSpellcraft */
+     , (26326, 107,         50) /* ItemCurMana */
+     , (26326, 108,         50) /* ItemMaxMana */
+     , (26326, 109,          0) /* ItemDifficulty */
+     , (26326, 110,          0) /* ItemAllegianceRankLimit */
+     , (26326, 150,        103) /* HookPlacement - Hook */
+     , (26326, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26326, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26326, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26326,  15, True ) /* LightsStatus */
+     , (26326,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26326,   1, 'Rending Talon Cottages Portal Gem') /* Name */
+     , (26326,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26326,   1,   33556769) /* Setup */
+     , (26326,   3,  536870932) /* SoundTable */
+     , (26326,   6,   67111919) /* PaletteBase */
+     , (26326,   7,  268435723) /* ClothingBase */
+     , (26326,   8,  100675760) /* Icon */
+     , (26326,  22,  872415275) /* PhysicsEffectTable */
+     , (26326,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26326,  31,      19155) /* LinkedPortalOne - Rending Talon Cottages Portal */;

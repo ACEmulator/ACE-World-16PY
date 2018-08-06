@@ -1,41 +1,37 @@
-/* Weenie - Rune of Frost Bane (30139) */
-DELETE FROM weenie WHERE class_Id = 30139;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30139, 'gemrareeternalfrostbane', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30139, 001 /* NAME_STRING */, 'Rune of Frost Bane')
-     , (30139, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30139, 001 /* SETUP_DID */, 33554809)
-     , (30139, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30139, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30139, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (30139, 008 /* ICON_DID */, 100674739)
-     , (30139, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30139, 028 /* SPELL_DID */, 2104 /* FrostBane7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30139', 'gemrareeternalfrostbane', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30139, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (30139, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (30139, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30139, 008 /* MASS_INT */, 5)
-     , (30139, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30139, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30139, 012 /* STACK_SIZE_INT */, 1)
-     , (30139, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30139, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30139, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30139, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30139, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (30139, 019 /* VALUE_INT */, 0)
-     , (30139, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30139, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30139, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30139, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30139,   1,       2048) /* ItemType - Gem */
+     , (30139,   3,         39) /* PaletteTemplate - Black */
+     , (30139,   5,          5) /* EncumbranceVal */
+     , (30139,   8,          5) /* Mass */
+     , (30139,   9,          0) /* ValidLocations - None */
+     , (30139,  11,          1) /* MaxStackSize */
+     , (30139,  12,          1) /* StackSize */
+     , (30139,  13,          5) /* StackUnitEncumbrance */
+     , (30139,  14,          5) /* StackUnitMass */
+     , (30139,  15,          0) /* StackUnitValue */
+     , (30139,  16,          8) /* ItemUseable - Contained */
+     , (30139,  18,          1) /* UiEffects - Magical */
+     , (30139,  19,          0) /* Value */
+     , (30139,  93,       1044) /* PhysicsState */
+     , (30139,  94,         16) /* TargetType - Creature */
+     , (30139, 150,        103) /* HookPlacement - Hook */
+     , (30139, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30139, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30139,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30139,   1, 'Rune of Frost Bane') /* Name */
+     , (30139,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30139,   1,   33554809) /* Setup */
+     , (30139,   3,  536870932) /* SoundTable */
+     , (30139,   6,   67111919) /* PaletteBase */
+     , (30139,   7,  268435723) /* ClothingBase */
+     , (30139,   8,  100674739) /* Icon */
+     , (30139,  22,  872415275) /* PhysicsEffectTable */
+     , (30139,  28,       2104) /* Spell - Gelidite's Bane */;

@@ -1,65 +1,61 @@
-/* Weenie - High Balance Testing Leggings (28598) */
-DELETE FROM weenie WHERE class_Id = 28598;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28598, 'leggingsbalancetesthigh', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28598, 001 /* NAME_STRING */, 'High Balance Testing Leggings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28598, 001 /* SETUP_DID */, 33554856)
-     , (28598, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28598, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (28598, 007 /* CLOTHINGBASE_DID */, 268435872)
-     , (28598, 008 /* ICON_DID */, 100674068)
-     , (28598, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28598', 'leggingsbalancetesthigh', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28598, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (28598, 003 /* PALETTE_TEMPLATE_INT */, 93 /* DYESPRINGBLACK_PALETTE_TEMPLATE */)
-     , (28598, 004 /* CLOTHING_PRIORITY_INT */, 2816 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */)
-     , (28598, 005 /* ENCUMB_VAL_INT */, 2288)
-     , (28598, 008 /* MASS_INT */, 1275)
-     , (28598, 009 /* LOCATIONS_INT */, 25600 /* ABDOMEN_ARMOR_LOC, UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (28598, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28598, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28598, 019 /* VALUE_INT */, 3040)
-     , (28598, 027 /* ARMOR_TYPE_INT */, 2)
-     , (28598, 028 /* ARMOR_LEVEL_INT */, 350)
-     , (28598, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28598, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28598, 107 /* ITEM_CUR_MANA_INT */, 4000)
-     , (28598, 108 /* ITEM_MAX_MANA_INT */, 4000)
-     , (28598, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (28598, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28598, 005 /* MANA_RATE_FLOAT */, 0)
-     , (28598, 012 /* SHADE_FLOAT */, 0.25)
-     , (28598, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (28598, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (28598, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (28598, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (28598, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (28598, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (28598, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.8)
-     , (28598, 110 /* BULK_MOD_FLOAT */, 1)
-     , (28598, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (28598,   1,          2) /* ItemType - Armor */
+     , (28598,   3,         93) /* PaletteTemplate - DyeSpringBlack */
+     , (28598,   4,       2816) /* ClothingPriority */
+     , (28598,   5,       2288) /* EncumbranceVal */
+     , (28598,   8,       1275) /* Mass */
+     , (28598,   9,      25600) /* ValidLocations */
+     , (28598,  16,          1) /* ItemUseable - No */
+     , (28598,  18,          1) /* UiEffects - Magical */
+     , (28598,  19,       3040) /* Value */
+     , (28598,  27,          2) /* ArmorType */
+     , (28598,  28,        350) /* ArmorLevel */
+     , (28598,  33,          1) /* Bonded - Bonded */
+     , (28598,  93,       1044) /* PhysicsState */
+     , (28598, 107,       4000) /* ItemCurMana */
+     , (28598, 108,       4000) /* ItemMaxMana */
+     , (28598, 109,          0) /* ItemDifficulty */
+     , (28598, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28598, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28598, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (28598, 069 /* IS_SELLABLE_BOOL */, False)
-     , (28598, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
+VALUES (28598,  22, True ) /* Inscribable */
+     , (28598,  23, True ) /* DestroyOnSell */
+     , (28598,  69, False) /* IsSellable */
+     , (28598,  84, True ) /* IgnoreCloIcons */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28598,   5,       0) /* ManaRate */
+     , (28598,  12,    0.25) /* Shade */
+     , (28598,  13,       1) /* ArmorModVsSlash */
+     , (28598,  14,       1) /* ArmorModVsPierce */
+     , (28598,  15,       1) /* ArmorModVsBludgeon */
+     , (28598,  16,     0.8) /* ArmorModVsCold */
+     , (28598,  17,     0.8) /* ArmorModVsFire */
+     , (28598,  18,     0.8) /* ArmorModVsAcid */
+     , (28598,  19,     0.8) /* ArmorModVsElectric */
+     , (28598, 110,       1) /* BulkMod */
+     , (28598, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28598,   1, 'High Balance Testing Leggings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28598,   1,   33554856) /* Setup */
+     , (28598,   3,  536870932) /* SoundTable */
+     , (28598,   6,   67108990) /* PaletteBase */
+     , (28598,   7,  268435872) /* ClothingBase */
+     , (28598,   8,  100674068) /* Icon */
+     , (28598,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28598, 1540, 2) /* LightningBane6_SpellID */
-     , (28598, 1486, 2) /* Impenetrability6_SpellID */
-     , (28598, 1552, 2) /* FlameBane6_SpellID */
-     , (28598, 1562, 2) /* BladeBane6_SpellID */
-     , (28598, 1498, 2) /* AcidBane6_SpellID */
-     , (28598, 1574, 2) /* PiercingBane6_SpellID */
-     , (28598, 1516, 2) /* BludgeonBane6_SpellID */
-     , (28598, 1528, 2) /* FrostBane6_SpellID */;
-
+VALUES (28598,  1486,      2)  /* Impenetrability VI */
+     , (28598,  1498,      2)  /* Acid Bane VI */
+     , (28598,  1516,      2)  /* Bludgeon Bane VI */
+     , (28598,  1528,      2)  /* Frost Bane VI */
+     , (28598,  1540,      2)  /* Lightning Bane VI */
+     , (28598,  1552,      2)  /* Flame Bane VI */
+     , (28598,  1562,      2)  /* Blade Bane VI */
+     , (28598,  1574,      2)  /* Piercing Bane VI */;

@@ -1,10 +1,12 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3955, 2038820864, 2556362752, 167.798, 100.75, 10.0235, -0.932394, 0, 0, -0.361444) /* linkmonstergen15minutes */
-     , (1759, 2038820865, 2556362752, 166.974, 103.975, 10.0922, 0.0614807, 0, 0, -0.998108) /* Skeleton */
-     , (1759, 2038820866, 2556362752, 167.487, 98.341, 10.0494, -0.413214, 0, 0, -0.910634) /* Skeleton */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2038820864,  3955, 2556362752, 167.798, 100.75, 10.0235, -0.932394, 0, 0, -0.361444, False); /* Linkable Monster Gen (15 min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2038820864'; /* linkmonstergen15minutes */
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2038820864, 2038820865) /* Skeleton */
+     , (2038820864, 2038820866) /* Skeleton */;
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2038820866'; /* linkmonstergen15minutes <- Skeleton */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2038820865'; /* linkmonstergen15minutes <- Skeleton */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2038820865,  1759, 2556362752, 166.974, 103.975, 10.0922, 0.0614807, 0, 0, -0.998108,  True); /* Skeleton */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2038820866,  1759, 2556362752, 167.487, 98.341, 10.0494, -0.413214, 0, 0, -0.910634,  True); /* Skeleton */

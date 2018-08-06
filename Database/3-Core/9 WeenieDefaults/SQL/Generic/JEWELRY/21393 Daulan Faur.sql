@@ -1,51 +1,47 @@
-/* Weenie - Daulan Faur (21393) */
-DELETE FROM weenie WHERE class_Id = 21393;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21393, 'necklacegaerlan', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21393, 001 /* NAME_STRING */, 'Daulan Faur')
-     , (21393, 015 /* SHORT_DESC_STRING */, 'A black necklace with a blue stone setting.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21393, 001 /* SETUP_DID */, 33554689)
-     , (21393, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21393, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (21393, 007 /* CLOTHINGBASE_DID */, 268435749)
-     , (21393, 008 /* ICON_DID */, 100673498)
-     , (21393, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21393', 'necklacegaerlan', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21393, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (21393, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (21393, 005 /* ENCUMB_VAL_INT */, 140)
-     , (21393, 008 /* MASS_INT */, 140)
-     , (21393, 009 /* LOCATIONS_INT */, 32768 /* NECK_WEAR_LOC */)
-     , (21393, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (21393, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (21393, 019 /* VALUE_INT */, 4000)
-     , (21393, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (21393, 106 /* ITEM_SPELLCRAFT_INT */, 275)
-     , (21393, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (21393, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (21393, 109 /* ITEM_DIFFICULTY_INT */, 125)
-     , (21393, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (21393, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (21393, 160 /* WIELD_DIFFICULTY_INT */, 30);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21393, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (21393, 039 /* DEFAULT_SCALE_FLOAT */, 2);
+VALUES (21393,   1,          8) /* ItemType - Jewelry */
+     , (21393,   3,          2) /* PaletteTemplate - Blue */
+     , (21393,   5,        140) /* EncumbranceVal */
+     , (21393,   8,        140) /* Mass */
+     , (21393,   9,      32768) /* ValidLocations - NeckWear */
+     , (21393,  16,          1) /* ItemUseable - No */
+     , (21393,  18,          1) /* UiEffects - Magical */
+     , (21393,  19,       4000) /* Value */
+     , (21393,  93,       1044) /* PhysicsState */
+     , (21393, 106,        275) /* ItemSpellcraft */
+     , (21393, 107,        500) /* ItemCurMana */
+     , (21393, 108,        500) /* ItemMaxMana */
+     , (21393, 109,        125) /* ItemDifficulty */
+     , (21393, 158,          7) /* WieldRequirements - Level */
+     , (21393, 159,          1) /* WieldSkilltype - Axe */
+     , (21393, 160,         30) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21393, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21393, 069 /* IS_SELLABLE_BOOL */, False)
-     , (21393, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
+VALUES (21393,  22, True ) /* Inscribable */
+     , (21393,  69, False) /* IsSellable */
+     , (21393,  84, True ) /* IgnoreCloIcons */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21393,   5, -0.0333) /* ManaRate */
+     , (21393,  39,       2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21393,   1, 'Daulan Faur') /* Name */
+     , (21393,  15, 'A black necklace with a blue stone setting.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21393,   1,   33554689) /* Setup */
+     , (21393,   3,  536870932) /* SoundTable */
+     , (21393,   6,   67111919) /* PaletteBase */
+     , (21393,   7,  268435749) /* ClothingBase */
+     , (21393,   8,  100673498) /* Icon */
+     , (21393,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21393, 272, 2) /* MagicResistanceOther5_SpellID */
-     , (21393, 2581, 2) /* CANTRIPFOCUS1_SpellID */
-     , (21393, 2584, 2) /* CANTRIPWILLPOWER1_SpellID */
-     , (21393, 2811, 2) /* ModerateMagicResistance_SpellID */;
-
+VALUES (21393,   272,      2)  /* Magic Resistance Other V */
+     , (21393,  2581,      2)  /* Minor Focus */
+     , (21393,  2584,      2)  /* Minor Willpower */
+     , (21393,  2811,      2)  /* Moderate Magic Resistance */;

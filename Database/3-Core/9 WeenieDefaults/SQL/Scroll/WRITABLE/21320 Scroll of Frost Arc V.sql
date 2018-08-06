@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Frost Arc V (21320) */
-DELETE FROM weenie WHERE class_Id = 21320;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21320, 'scrollfrostarc5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21320, 001 /* NAME_STRING */, 'Scroll of Frost Arc V')
-     , (21320, 015 /* SHORT_DESC_STRING */, 'When learned, this spell shoots a bolt of cold at the target. The bolt does 46-90 points of cold damage to the first thing it hits.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21320, 001 /* SETUP_DID */, 33554826)
-     , (21320, 008 /* ICON_DID */, 100677016)
-     , (21320, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21320, 028 /* SPELL_DID */, 2729 /* FrostArc5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21320', 'scrollfrostarc5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21320, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (21320, 005 /* ENCUMB_VAL_INT */, 30)
-     , (21320, 008 /* MASS_INT */, 90)
-     , (21320, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (21320, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (21320, 019 /* VALUE_INT */, 200)
-     , (21320, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21320, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (21320,   1,       8192) /* ItemType - Writable */
+     , (21320,   5,         30) /* EncumbranceVal */
+     , (21320,   8,         90) /* Mass */
+     , (21320,   9,          0) /* ValidLocations - None */
+     , (21320,  16,          8) /* ItemUseable - Contained */
+     , (21320,  19,        200) /* Value */
+     , (21320,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21320, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21320, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (21320,  22, True ) /* Inscribable */
+     , (21320,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21320,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21320,   1, 'Scroll of Frost Arc V') /* Name */
+     , (21320,  15, 'When learned, this spell shoots a bolt of cold at the target. The bolt does 46-90 points of cold damage to the first thing it hits.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21320,   1,   33554826) /* Setup */
+     , (21320,   8,  100677016) /* Icon */
+     , (21320,  22,  872415275) /* PhysicsEffectTable */
+     , (21320,  28,       2729) /* Spell - Frost Arc V */;

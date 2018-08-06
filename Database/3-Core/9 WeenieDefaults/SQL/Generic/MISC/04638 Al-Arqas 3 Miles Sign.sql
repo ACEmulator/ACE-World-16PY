@@ -1,29 +1,25 @@
-/* Weenie - Al-Arqas 3 Miles Sign (4638) */
-DELETE FROM weenie WHERE class_Id = 4638;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4638, 'alarqas3milesign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4638, 001 /* NAME_STRING */, 'Al-Arqas 3 Miles Sign')
-     , (4638, 016 /* LONG_DESC_STRING */, '3 Miles to Al-Arqas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4638, 001 /* SETUP_DID */, 33555985)
-     , (4638, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4638', 'alarqas3milesign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4638, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4638, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4638, 008 /* MASS_INT */, 1800)
-     , (4638, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4638, 019 /* VALUE_INT */, 125)
-     , (4638, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (4638,   1,        128) /* ItemType - Misc */
+     , (4638,   5,       9000) /* EncumbranceVal */
+     , (4638,   8,       1800) /* Mass */
+     , (4638,  16,          1) /* ItemUseable - No */
+     , (4638,  19,        125) /* Value */
+     , (4638,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4638, 001 /* STUCK_BOOL */, True)
-     , (4638, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4638, 013 /* ETHEREAL_BOOL */, False)
-     , (4638, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (4638, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4638,   1, True ) /* Stuck */
+     , (4638,  12, True ) /* ReportCollisions */
+     , (4638,  13, False) /* Ethereal */
+     , (4638,  14, False) /* GravityStatus */
+     , (4638,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4638,   1, 'Al-Arqas 3 Miles Sign') /* Name */
+     , (4638,  16, '3 Miles to Al-Arqas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4638,   1,   33555985) /* Setup */
+     , (4638,   8,  100668115) /* Icon */;

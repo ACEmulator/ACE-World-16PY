@@ -1,37 +1,34 @@
-/* Weenie - The Wedding Guide (6437) */
-DELETE FROM weenie WHERE class_Id = 6437;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6437, 'guidewedding', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6437, 001 /* NAME_STRING */, 'The Wedding Guide')
-     , (6437, 015 /* SHORT_DESC_STRING */, 'This is a guidebook that describes the traditional wedding ceremony and vows for getting married here in Dereth.')
-     , (6437, 016 /* LONG_DESC_STRING */, 'This is a guidebook that describes the traditional wedding ceremony and vows for getting married here in Dereth.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6437, 001 /* SETUP_DID */, 33554771)
-     , (6437, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6437, 008 /* ICON_DID */, 100668117)
-     , (6437, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6437', 'guidewedding', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6437, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (6437, 005 /* ENCUMB_VAL_INT */, 200)
-     , (6437, 008 /* MASS_INT */, 100)
-     , (6437, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6437, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (6437, 019 /* VALUE_INT */, 50)
-     , (6437, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6437, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (6437,   1,       8192) /* ItemType - Writable */
+     , (6437,   5,        200) /* EncumbranceVal */
+     , (6437,   8,        100) /* Mass */
+     , (6437,   9,          0) /* ValidLocations - None */
+     , (6437,  16,          8) /* ItemUseable - Contained */
+     , (6437,  19,         50) /* Value */
+     , (6437,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6437, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (6437,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6437,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6437,   1, 'The Wedding Guide') /* Name */
+     , (6437,  15, 'This is a guidebook that describes the traditional wedding ceremony and vows for getting married here in Dereth.') /* ShortDesc */
+     , (6437,  16, 'This is a guidebook that describes the traditional wedding ceremony and vows for getting married here in Dereth.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6437,   1,   33554771) /* Setup */
+     , (6437,   3,  536870932) /* SoundTable */
+     , (6437,   8,  100668117) /* Icon */
+     , (6437,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (6437, 13, 1000) /* Book Data */;
+VALUES (6437, 13, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (6437, 0, 4294967295, 'INTRODUCTION', 'prewritten', False, 'All weddings are special events of great personal importance.  They call for a deep and lasting commitment between two people, and should not be entered into lightly.  That said, the joys and happiness of marriage await!
@@ -123,4 +120,3 @@ Officiator: Before the witnesses of your friends and family, you are now pronoun
 
 [Guests may now congratulate the married couple.  Emote freely.  Save celebratory gems for use outside.]
 ');
-

@@ -1,51 +1,47 @@
-/* Weenie - Greater Amuli Shadow Coat (14834) */
-DELETE FROM weenie WHERE class_Id = 14834;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14834, 'coatamullianshadowgreater3', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14834, 001 /* NAME_STRING */, 'Greater Amuli Shadow Coat');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14834, 001 /* SETUP_DID */, 33554854)
-     , (14834, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14834, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (14834, 007 /* CLOTHINGBASE_DID */, 268435873)
-     , (14834, 008 /* ICON_DID */, 100670435)
-     , (14834, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14834', 'coatamullianshadowgreater3', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14834, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (14834, 003 /* PALETTE_TEMPLATE_INT */, 24 /* DARKBLUEMETAL_PALETTE_TEMPLATE */)
-     , (14834, 004 /* CLOTHING_PRIORITY_INT */, 13312 /* OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */)
-     , (14834, 005 /* ENCUMB_VAL_INT */, 1600)
-     , (14834, 008 /* MASS_INT */, 1000)
-     , (14834, 009 /* LOCATIONS_INT */, 6656 /* CHEST_ARMOR_LOC, UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (14834, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14834, 019 /* VALUE_INT */, 2610)
-     , (14834, 027 /* ARMOR_TYPE_INT */, 8)
-     , (14834, 028 /* ARMOR_LEVEL_INT */, 190)
-     , (14834, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14834, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14834, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (14834, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (14834, 160 /* WIELD_DIFFICULTY_INT */, 30);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14834, 012 /* SHADE_FLOAT */, 0.3)
-     , (14834, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (14834, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.1)
-     , (14834, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (14834, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (14834, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (14834, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (14834, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.5)
-     , (14834, 110 /* BULK_MOD_FLOAT */, 1)
-     , (14834, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (14834,   1,          2) /* ItemType - Armor */
+     , (14834,   3,         24) /* PaletteTemplate - DarkBlueMetal */
+     , (14834,   4,      13312) /* ClothingPriority */
+     , (14834,   5,       1600) /* EncumbranceVal */
+     , (14834,   8,       1000) /* Mass */
+     , (14834,   9,       6656) /* ValidLocations */
+     , (14834,  16,          1) /* ItemUseable - No */
+     , (14834,  19,       2610) /* Value */
+     , (14834,  27,          8) /* ArmorType */
+     , (14834,  28,        190) /* ArmorLevel */
+     , (14834,  33,          1) /* Bonded - Bonded */
+     , (14834,  93,       1044) /* PhysicsState */
+     , (14834, 158,          7) /* WieldRequirements - Level */
+     , (14834, 159,          1) /* WieldSkilltype - Axe */
+     , (14834, 160,         30) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14834, 022 /* INSCRIBABLE_BOOL */, True)
-     , (14834, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (14834, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14834,  22, True ) /* Inscribable */
+     , (14834,  23, True ) /* DestroyOnSell */
+     , (14834,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14834,  12,     0.3) /* Shade */
+     , (14834,  13,       1) /* ArmorModVsSlash */
+     , (14834,  14,     1.1) /* ArmorModVsPierce */
+     , (14834,  15,       1) /* ArmorModVsBludgeon */
+     , (14834,  16,     0.8) /* ArmorModVsCold */
+     , (14834,  17,     0.8) /* ArmorModVsFire */
+     , (14834,  18,     0.8) /* ArmorModVsAcid */
+     , (14834,  19,     0.5) /* ArmorModVsElectric */
+     , (14834, 110,       1) /* BulkMod */
+     , (14834, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14834,   1, 'Greater Amuli Shadow Coat') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14834,   1,   33554854) /* Setup */
+     , (14834,   3,  536870932) /* SoundTable */
+     , (14834,   6,   67108990) /* PaletteBase */
+     , (14834,   7,  268435873) /* ClothingBase */
+     , (14834,   8,  100670435) /* Icon */
+     , (14834,  22,  872415275) /* PhysicsEffectTable */;

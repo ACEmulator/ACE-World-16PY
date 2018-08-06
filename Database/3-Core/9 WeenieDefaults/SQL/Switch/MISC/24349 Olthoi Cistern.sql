@@ -1,46 +1,42 @@
-/* Weenie - Olthoi Cistern (24349) */
-DELETE FROM weenie WHERE class_Id = 24349;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24349, 'boygrubcisterntrap-xp', 26 /* Switch_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24349, 001 /* NAME_STRING */, 'Olthoi Cistern')
-     , (24349, 014 /* USE_STRING */, 'There is an opening in the top of the cistern that you might be able to reach into.')
-     , (24349, 017 /* ACTIVATION_TALK_STRING */, 'Something slimy grips your hand and then quickly releases it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24349, 001 /* SETUP_DID */, 33557286)
-     , (24349, 002 /* MOTION_TABLE_DID */, 150995240)
-     , (24349, 008 /* ICON_DID */, 100674304)
-     , (24349, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24349, 016 /* ACTIVATION_TARGET_IID */, 0);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24349', 'boygrubcisterntrap-xp', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24349, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24349, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (24349, 019 /* VALUE_INT */, 0)
-     , (24349, 081 /* MAX_GENERATED_OBJECTS_INT */, 4)
-     , (24349, 082 /* INIT_GENERATED_OBJECTS_INT */, 0)
-     , (24349, 083 /* ACTIVATION_RESPONSE_INT */, 65552 /*  */)
-     , (24349, 093 /* PHYSICS_STATE_INT */, 16 /* IGNORE_COLLISIONS_PS */)
-     , (24349, 119 /* ACTIVE_INT */, 1);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24349, 011 /* RESET_INTERVAL_FLOAT */, 120)
-     , (24349, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (24349, 041 /* REGENERATION_INTERVAL_FLOAT */, 0);
+VALUES (24349,   1,        128) /* ItemType - Misc */
+     , (24349,  16,         48) /* ItemUseable - ViewedRemote */
+     , (24349,  19,          0) /* Value */
+     , (24349,  81,          4) /* MaxGeneratedObjects */
+     , (24349,  82,          0) /* InitGeneratedObjects */
+     , (24349,  83,      65552) /* ActivationResponse */
+     , (24349,  93,         16) /* PhysicsState - IgnoreCollision */
+     , (24349, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24349, 001 /* STUCK_BOOL */, True)
-     , (24349, 013 /* ETHEREAL_BOOL */, False)
-     , (24349, 014 /* GRAVITY_STATUS_BOOL */, False);
+VALUES (24349,   1, True ) /* Stuck */
+     , (24349,  13, False) /* Ethereal */
+     , (24349,  14, False) /* GravityStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24349,  11,     120) /* ResetInterval */
+     , (24349,  39,     1.1) /* DefaultScale */
+     , (24349,  41,       0) /* RegenerationInterval */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24349,   1, 'Olthoi Cistern') /* Name */
+     , (24349,  14, 'There is an opening in the top of the cistern that you might be able to reach into.') /* Use */
+     , (24349,  17, 'Something slimy grips your hand and then quickly releases it.') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24349,   1,   33557286) /* Setup */
+     , (24349,   2,  150995240) /* MotionTable */
+     , (24349,   8,  100674304) /* Icon */
+     , (24349,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (24349,  16,          0) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24349, -1, 24270, 120, 1, 1, 1, 4, -1, 0, 0, 0, -3, 0, 0, 0.7071068, 0, 0, -0.7071068)/* Generate Olthoi Drone (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
-     , (24349, -1, 10911, 120, 1, 1, 1, 4, -1, 0, 0, 0, 3, 0, 0, -0.7071068, 0, 0, -0.7071068)/* Generate Olthoi Worker (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
-     , (24349, -1, 24271, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, -3, 0, 1, 0, 0, 0)/* Generate Olthoi Gardener (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
-     , (24349, -1, 24272, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 0, -4.371139E-08, 0, 0, -1)/* Generate Olthoi Harvester (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */;
-
+VALUES (24349, -1, 24270, 120, 1, 1, 1, 4, -1, 0, 0, 0, -3, 0, 0, 0.7071068, 0, 0, -0.7071068)
+     , (24349, -1, 10911, 120, 1, 1, 1, 4, -1, 0, 0, 0, 3, 0, 0, -0.7071068, 0, 0, -0.7071068)
+     , (24349, -1, 24271, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, -3, 0, 1, 0, 0, 0)
+     , (24349, -1, 24272, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 0, -4.371139E-08, 0, 0, -1);

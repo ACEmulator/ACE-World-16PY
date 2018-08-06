@@ -1,46 +1,42 @@
-/* Weenie - Ruined Amulet of the Staff (15770) */
-DELETE FROM weenie WHERE class_Id = 15770;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15770, 'amuletruinedstaff', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15770, 001 /* NAME_STRING */, 'Ruined Amulet of the Staff')
-     , (15770, 014 /* USE_STRING */, 'This might fit into a setting created for it.')
-     , (15770, 015 /* SHORT_DESC_STRING */, 'An amulet crafted in pyreal that bears the symbol of a staff.')
-     , (15770, 016 /* LONG_DESC_STRING */, 'An Amulet crafted in pyreal that bears the symbol of a staff. The amulet is damaged, seemingly beyond repair.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15770, 001 /* SETUP_DID */, 33554680)
-     , (15770, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15770, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (15770, 007 /* CLOTHINGBASE_DID */, 268436095)
-     , (15770, 008 /* ICON_DID */, 100672816)
-     , (15770, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (15770, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15770', 'amuletruinedstaff', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15770, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15770, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (15770, 005 /* ENCUMB_VAL_INT */, 10)
-     , (15770, 008 /* MASS_INT */, 10)
-     , (15770, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (15770, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (15770, 012 /* STACK_SIZE_INT */, 1)
-     , (15770, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (15770, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (15770, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (15770, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (15770, 019 /* VALUE_INT */, 0)
-     , (15770, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (15770, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (15770, 094 /* TARGET_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (15770, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15770, 039 /* DEFAULT_SCALE_FLOAT */, 0.67);
+VALUES (15770,   1,        128) /* ItemType - Misc */
+     , (15770,   3,          8) /* PaletteTemplate - Green */
+     , (15770,   5,         10) /* EncumbranceVal */
+     , (15770,   8,         10) /* Mass */
+     , (15770,   9,          0) /* ValidLocations - None */
+     , (15770,  11,          1) /* MaxStackSize */
+     , (15770,  12,          1) /* StackSize */
+     , (15770,  13,         10) /* StackUnitEncumbrance */
+     , (15770,  14,         10) /* StackUnitMass */
+     , (15770,  15,          0) /* StackUnitValue */
+     , (15770,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (15770,  19,          0) /* Value */
+     , (15770,  33,          1) /* Bonded - Bonded */
+     , (15770,  93,       1044) /* PhysicsState */
+     , (15770,  94,          2) /* TargetType - Armor */
+     , (15770, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15770, 022 /* INSCRIBABLE_BOOL */, True)
-     , (15770, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (15770,  22, True ) /* Inscribable */
+     , (15770,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15770,  39,    0.67) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15770,   1, 'Ruined Amulet of the Staff') /* Name */
+     , (15770,  14, 'This might fit into a setting created for it.') /* Use */
+     , (15770,  15, 'An amulet crafted in pyreal that bears the symbol of a staff.') /* ShortDesc */
+     , (15770,  16, 'An Amulet crafted in pyreal that bears the symbol of a staff. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15770,   1,   33554680) /* Setup */
+     , (15770,   3,  536870932) /* SoundTable */
+     , (15770,   6,   67111919) /* PaletteBase */
+     , (15770,   7,  268436095) /* ClothingBase */
+     , (15770,   8,  100672816) /* Icon */
+     , (15770,  22,  872415275) /* PhysicsEffectTable */
+     , (15770,  36,  234881046) /* MutateFilter */;

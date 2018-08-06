@@ -1,40 +1,37 @@
-/* Weenie - Report to Niarltah (28125) */
-DELETE FROM weenie WHERE class_Id = 28125;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28125, 'reportikakhe7', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28125, 001 /* NAME_STRING */, 'Report to Niarltah')
-     , (28125, 033 /* QUEST_STRING */, 'NoteBurunHistory6');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28125, 001 /* SETUP_DID */, 33554772)
-     , (28125, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28125, 008 /* ICON_DID */, 100667470)
-     , (28125, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28125', 'reportikakhe7', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28125, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28125, 005 /* ENCUMB_VAL_INT */, 25)
-     , (28125, 008 /* MASS_INT */, 5)
-     , (28125, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28125, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28125, 019 /* VALUE_INT */, 10)
-     , (28125, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28125, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28125, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28125, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (28125, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (28125,   1,       8192) /* ItemType - Writable */
+     , (28125,   5,         25) /* EncumbranceVal */
+     , (28125,   8,          5) /* Mass */
+     , (28125,   9,          0) /* ValidLocations - None */
+     , (28125,  16,          8) /* ItemUseable - Contained */
+     , (28125,  19,         10) /* Value */
+     , (28125,  33,          1) /* Bonded - Bonded */
+     , (28125,  93,       1044) /* PhysicsState */
+     , (28125, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28125, 022 /* INSCRIBABLE_BOOL */, False)
-     , (28125, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28125,  22, False) /* Inscribable */
+     , (28125,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28125,  39,    1.22) /* DefaultScale */
+     , (28125,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28125,   1, 'Report to Niarltah') /* Name */
+     , (28125,  33, 'NoteBurunHistory6') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28125,   1,   33554772) /* Setup */
+     , (28125,   3,  536870932) /* SoundTable */
+     , (28125,   8,  100667470) /* Icon */
+     , (28125,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28125, 8, 1000) /* Book Data */;
+VALUES (28125, 8, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28125, 0, 4294967295, 'Ikakhe', 'prewritten', False, 'Niarltah. Torgluuk appears to be catching on that the book is disappearing when he rests. There has been an increased guard watching his belongings. We have been able to obtain the book but our translation must be hurried. We have begun to list the happenings in a more formalized standard. It appears that this book is a record of all the knowledge of the mucor on the Burun homeworld.
@@ -61,4 +58,3 @@ Fiazhat culture strengthens and grows as they spread across the growing burning 
 ')
      , (28125, 7, 4294967295, 'Ikakhe', 'prewritten', False, 'The Fiazhat are stricken by a second shifting of the climate of the world that devastates their advancing culture. Many of their villages are destroyed and the temples to their gods are damaged. The Fiazhat make their way to the temples in fear, and perhaps hope that they are to be visited again. But the gateways remain silent.
 ');
-

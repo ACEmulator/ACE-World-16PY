@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Flensing Wings (20437) */
-DELETE FROM weenie WHERE class_Id = 20437;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20437, 'scrollbladevolley7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20437, 001 /* NAME_STRING */, 'Scroll of Flensing Wings')
-     , (20437, 015 /* SHORT_DESC_STRING */, 'When learned, this spell shoots five whirling blades toward the target. Each blade does 40-80 points of Slashing damage to the first thing it hits.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20437, 001 /* SETUP_DID */, 33554826)
-     , (20437, 008 /* ICON_DID */, 100677028)
-     , (20437, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20437, 028 /* SPELL_DID */, 2125 /* BladeVolley7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20437', 'scrollbladevolley7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20437, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20437, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20437, 008 /* MASS_INT */, 90)
-     , (20437, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20437, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20437, 019 /* VALUE_INT */, 2000)
-     , (20437, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20437, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20437,   1,       8192) /* ItemType - Writable */
+     , (20437,   5,         30) /* EncumbranceVal */
+     , (20437,   8,         90) /* Mass */
+     , (20437,   9,          0) /* ValidLocations - None */
+     , (20437,  16,          8) /* ItemUseable - Contained */
+     , (20437,  19,       2000) /* Value */
+     , (20437,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20437, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20437, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20437,  22, True ) /* Inscribable */
+     , (20437,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20437,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20437,   1, 'Scroll of Flensing Wings') /* Name */
+     , (20437,  15, 'When learned, this spell shoots five whirling blades toward the target. Each blade does 40-80 points of Slashing damage to the first thing it hits.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20437,   1,   33554826) /* Setup */
+     , (20437,   8,  100677028) /* Icon */
+     , (20437,  22,  872415275) /* PhysicsEffectTable */
+     , (20437,  28,       2125) /* Spell - Flensing Wings */;

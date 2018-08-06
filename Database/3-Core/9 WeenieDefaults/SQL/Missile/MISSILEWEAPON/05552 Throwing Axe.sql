@@ -1,49 +1,45 @@
-/* Weenie - Throwing Axe (5552) */
-DELETE FROM weenie WHERE class_Id = 5552;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5552, 'axethrowingstack', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5552, 001 /* NAME_STRING */, 'Throwing Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5552, 001 /* SETUP_DID */, 33554727)
-     , (5552, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5552, 008 /* ICON_DID */, 100667581)
-     , (5552, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5552', 'axethrowingstack', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5552, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (5552, 005 /* ENCUMB_VAL_INT */, 600)
-     , (5552, 008 /* MASS_INT */, 800)
-     , (5552, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (5552, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5552, 012 /* STACK_SIZE_INT */, 40)
-     , (5552, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (5552, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (5552, 015 /* STACK_UNIT_VALUE_INT */, 5)
-     , (5552, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5552, 019 /* VALUE_INT */, 200)
-     , (5552, 044 /* DAMAGE_INT */, 12)
-     , (5552, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (5552, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (5552, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (5552, 049 /* WEAPON_TIME_INT */, 20)
-     , (5552, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (5552, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (5552, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (5552, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5552, 021 /* WEAPON_LENGTH_FLOAT */, 0.34)
-     , (5552, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (5552, 027 /* ROTATION_SPEED_FLOAT */, 2)
-     , (5552, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (5552, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (5552, 078 /* FRICTION_FLOAT */, 1)
-     , (5552, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (5552,   1,        256) /* ItemType - MissileWeapon */
+     , (5552,   5,        600) /* EncumbranceVal */
+     , (5552,   8,        800) /* Mass */
+     , (5552,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (5552,  11,        100) /* MaxStackSize */
+     , (5552,  12,         40) /* StackSize */
+     , (5552,  13,         15) /* StackUnitEncumbrance */
+     , (5552,  14,         20) /* StackUnitMass */
+     , (5552,  15,          5) /* StackUnitValue */
+     , (5552,  16,          1) /* ItemUseable - No */
+     , (5552,  19,        200) /* Value */
+     , (5552,  44,         12) /* Damage */
+     , (5552,  45,          1) /* DamageType - Slash */
+     , (5552,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (5552,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (5552,  49,         20) /* WeaponTime */
+     , (5552,  51,          2) /* CombatUse - Missle */
+     , (5552,  93,     132116) /* PhysicsState */
+     , (5552, 150,        103) /* HookPlacement - Hook */
+     , (5552, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5552, 017 /* INELASTIC_BOOL */, True);
+VALUES (5552,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5552,  21,    0.34) /* WeaponLength */
+     , (5552,  22,    0.25) /* DamageVariance */
+     , (5552,  27,       2) /* RotationSpeed */
+     , (5552,  29,       1) /* WeaponDefense */
+     , (5552,  62,       1) /* WeaponOffense */
+     , (5552,  78,       1) /* Friction */
+     , (5552,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5552,   1, 'Throwing Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5552,   1,   33554727) /* Setup */
+     , (5552,   3,  536870932) /* SoundTable */
+     , (5552,   8,  100667581) /* Icon */
+     , (5552,  22,  872415275) /* PhysicsEffectTable */;

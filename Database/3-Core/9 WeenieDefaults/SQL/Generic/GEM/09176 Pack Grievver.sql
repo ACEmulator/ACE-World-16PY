@@ -1,40 +1,36 @@
-/* Weenie - Pack Grievver (9176) */
-DELETE FROM weenie WHERE class_Id = 9176;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9176, 'dollrewardgrievver', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9176, 001 /* NAME_STRING */, 'Pack Grievver')
-     , (9176, 016 /* LONG_DESC_STRING */, 'Articulated legs make this Pack Grievver number one on everyone''s holiday shopping list! Get yours now while supplies last. Do not taunt happy Pack Grievver.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9176, 001 /* SETUP_DID */, 33556698)
-     , (9176, 002 /* MOTION_TABLE_DID */, 150995117)
-     , (9176, 006 /* PALETTE_BASE_DID */, 67113135)
-     , (9176, 007 /* CLOTHINGBASE_DID */, 268436137)
-     , (9176, 008 /* ICON_DID */, 100670960)
-     , (9176, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415364)
-     , (9176, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9176', 'dollrewardgrievver', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9176, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (9176, 003 /* PALETTE_TEMPLATE_INT */, 5 /* DARKBLUE_PALETTE_TEMPLATE */)
-     , (9176, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9176, 008 /* MASS_INT */, 10)
-     , (9176, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9176, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9176, 019 /* VALUE_INT */, 10)
-     , (9176, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9176, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (9176, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9176, 012 /* SHADE_FLOAT */, 0.5)
-     , (9176, 039 /* DEFAULT_SCALE_FLOAT */, 0.3)
-     , (9176, 044 /* TIME_TO_ROT_FLOAT */, -1);
+VALUES (9176,   1,       2048) /* ItemType - Gem */
+     , (9176,   3,          5) /* PaletteTemplate - DarkBlue */
+     , (9176,   5,         10) /* EncumbranceVal */
+     , (9176,   8,         10) /* Mass */
+     , (9176,   9,          0) /* ValidLocations - None */
+     , (9176,  16,          1) /* ItemUseable - No */
+     , (9176,  19,         10) /* Value */
+     , (9176,  93,       1044) /* PhysicsState */
+     , (9176,  94,         16) /* TargetType - Creature */
+     , (9176, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9176, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9176, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9176,  22, True ) /* Inscribable */
+     , (9176,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9176,  12,     0.5) /* Shade */
+     , (9176,  39,     0.3) /* DefaultScale */
+     , (9176,  44,      -1) /* TimeToRot */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9176,   1, 'Pack Grievver') /* Name */
+     , (9176,  16, 'Articulated legs make this Pack Grievver number one on everyone''s holiday shopping list! Get yours now while supplies last. Do not taunt happy Pack Grievver.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9176,   1,   33556698) /* Setup */
+     , (9176,   2,  150995117) /* MotionTable */
+     , (9176,   6,   67113135) /* PaletteBase */
+     , (9176,   7,  268436137) /* ClothingBase */
+     , (9176,   8,  100670960) /* Icon */
+     , (9176,  22,  872415364) /* PhysicsEffectTable */
+     , (9176,  36,  234881046) /* MutateFilter */;

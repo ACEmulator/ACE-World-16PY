@@ -1,64 +1,60 @@
-/* Weenie - Hieromancer's Gauntlets (24459) */
-DELETE FROM weenie WHERE class_Id = 24459;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24459, 'gauntletsheiromancers', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24459, 001 /* NAME_STRING */, 'Hieromancer''s Gauntlets')
-     , (24459, 016 /* LONG_DESC_STRING */, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the hieromancer.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24459, 001 /* SETUP_DID */, 33554648)
-     , (24459, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24459, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (24459, 007 /* CLOTHINGBASE_DID */, 268436636)
-     , (24459, 008 /* ICON_DID */, 100674349)
-     , (24459, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24459, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24459', 'gauntletsheiromancers', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24459, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (24459, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (24459, 004 /* CLOTHING_PRIORITY_INT */, 32768 /* Hands */)
-     , (24459, 005 /* ENCUMB_VAL_INT */, 450)
-     , (24459, 008 /* MASS_INT */, 460)
-     , (24459, 009 /* LOCATIONS_INT */, 32 /* HAND_WEAR_LOC */)
-     , (24459, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24459, 019 /* VALUE_INT */, 5500)
-     , (24459, 027 /* ARMOR_TYPE_INT */, 32)
-     , (24459, 028 /* ARMOR_LEVEL_INT */, 250)
-     , (24459, 044 /* DAMAGE_INT */, 8)
-     , (24459, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (24459, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24459, 106 /* ITEM_SPELLCRAFT_INT */, 290)
-     , (24459, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (24459, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (24459, 109 /* ITEM_DIFFICULTY_INT */, 100)
-     , (24459, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (24459, 159 /* WIELD_SKILLTYPE_INT */, 34 /* WAR_MAGIC_SKILL */)
-     , (24459, 160 /* WIELD_DIFFICULTY_INT */, 285);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24459, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (24459, 012 /* SHADE_FLOAT */, 0.66)
-     , (24459, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (24459, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (24459, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
-     , (24459, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (24459, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
-     , (24459, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.2)
-     , (24459, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (24459, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (24459, 110 /* BULK_MOD_FLOAT */, 1)
-     , (24459, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (24459,   1,          2) /* ItemType - Armor */
+     , (24459,   3,         14) /* PaletteTemplate - Red */
+     , (24459,   4,      32768) /* ClothingPriority - Hands */
+     , (24459,   5,        450) /* EncumbranceVal */
+     , (24459,   8,        460) /* Mass */
+     , (24459,   9,         32) /* ValidLocations - HandWear */
+     , (24459,  16,          1) /* ItemUseable - No */
+     , (24459,  19,       5500) /* Value */
+     , (24459,  27,         32) /* ArmorType */
+     , (24459,  28,        250) /* ArmorLevel */
+     , (24459,  44,          8) /* Damage */
+     , (24459,  45,          4) /* DamageType - Bludgeon */
+     , (24459,  93,       1044) /* PhysicsState */
+     , (24459, 106,        290) /* ItemSpellcraft */
+     , (24459, 107,       1000) /* ItemCurMana */
+     , (24459, 108,       1000) /* ItemMaxMana */
+     , (24459, 109,        100) /* ItemDifficulty */
+     , (24459, 158,          2) /* WieldRequirements - RawSkill */
+     , (24459, 159,         34) /* WieldSkilltype - WarMagic */
+     , (24459, 160,        285) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24459, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24459, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24459,  22, True ) /* Inscribable */
+     , (24459,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24459,   5,   -0.05) /* ManaRate */
+     , (24459,  12,    0.66) /* Shade */
+     , (24459,  13,     0.8) /* ArmorModVsSlash */
+     , (24459,  14,     0.8) /* ArmorModVsPierce */
+     , (24459,  15,     0.8) /* ArmorModVsBludgeon */
+     , (24459,  16,       1) /* ArmorModVsCold */
+     , (24459,  17,     1.2) /* ArmorModVsFire */
+     , (24459,  18,     1.2) /* ArmorModVsAcid */
+     , (24459,  19,       1) /* ArmorModVsElectric */
+     , (24459,  22,    0.75) /* DamageVariance */
+     , (24459, 110,       1) /* BulkMod */
+     , (24459, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24459,   1, 'Hieromancer''s Gauntlets') /* Name */
+     , (24459,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the hieromancer.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24459,   1,   33554648) /* Setup */
+     , (24459,   3,  536870932) /* SoundTable */
+     , (24459,   6,   67108990) /* PaletteBase */
+     , (24459,   7,  268436636) /* ClothingBase */
+     , (24459,   8,  100674349) /* Icon */
+     , (24459,  22,  872415275) /* PhysicsEffectTable */
+     , (24459,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24459, 1485, 2) /* Impenetrability5_SpellID */
-     , (24459, 1456, 2) /* WillpowerOther6_SpellID */
-     , (24459, 2812, 2) /* ModerateWarMagicAptitude_SpellID */;
-
+VALUES (24459,  1456,      2)  /* Willpower Other VI */
+     , (24459,  1485,      2)  /* Impenetrability V */
+     , (24459,  2812,      2)  /* Moderate War Magic Aptitude */;

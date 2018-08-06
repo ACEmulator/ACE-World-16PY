@@ -1,35 +1,31 @@
-/* Weenie - Coral Tunnels (28061) */
-DELETE FROM weenie WHERE class_Id = 28061;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28061, 'portalcoraltunnelseast', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28061, 001 /* NAME_STRING */, 'Coral Tunnels');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28061, 001 /* SETUP_DID */, 33555926)
-     , (28061, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (28061, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28061', 'portalcoraltunnelseast', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28061, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (28061, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (28061, 086 /* MIN_LEVEL_INT */, 40)
-     , (28061, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (28061, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (28061, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28061, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (28061,   1,      65536) /* ItemType - Portal */
+     , (28061,  16,         32) /* ItemUseable - Remote */
+     , (28061,  86,         40) /* MinLevel */
+     , (28061,  93,       3084) /* PhysicsState */
+     , (28061, 111,         49) /* PortalBitmask */
+     , (28061, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28061, 001 /* STUCK_BOOL */, True)
-     , (28061, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (28061, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (28061, 013 /* ETHEREAL_BOOL */, True)
-     , (28061, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (28061,   1, True ) /* Stuck */
+     , (28061,  11, False) /* IgnoreCollisions */
+     , (28061,  12, True ) /* ReportCollisions */
+     , (28061,  13, True ) /* Ethereal */
+     , (28061,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28061,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28061,   1, 'Coral Tunnels') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28061,   1,   33555926) /* Setup */
+     , (28061,   2,  150994947) /* MotionTable */
+     , (28061,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28061, 2, 49021727, 260, -27.765, 6.005, -4.371139E-08, 0, 0, -1) /* DESTINATION_POSITION */;
-
+VALUES (28061, 2, 49021727, 260, -27.765, 6.005, -4.371139E-08, 0, 0, -1) /* Destination */;

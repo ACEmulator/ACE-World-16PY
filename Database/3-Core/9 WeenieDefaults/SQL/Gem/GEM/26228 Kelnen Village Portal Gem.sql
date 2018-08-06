@@ -1,48 +1,44 @@
-/* Weenie - Kelnen Village Portal Gem (26228) */
-DELETE FROM weenie WHERE class_Id = 26228;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26228, 'gemportalkelnenvillage', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26228, 001 /* NAME_STRING */, 'Kelnen Village Portal Gem')
-     , (26228, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26228, 001 /* SETUP_DID */, 33556769)
-     , (26228, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26228, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26228, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26228, 008 /* ICON_DID */, 100675760)
-     , (26228, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26228, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26228, 031 /* LINKED_PORTAL_ONE_DID */, 15166 /* Kelnen Village Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26228', 'gemportalkelnenvillage', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26228, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26228, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26228, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26228, 008 /* MASS_INT */, 10)
-     , (26228, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26228, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26228, 012 /* STACK_SIZE_INT */, 1)
-     , (26228, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26228, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26228, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26228, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26228, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26228, 019 /* VALUE_INT */, 500)
-     , (26228, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26228, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26228, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26228, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26228, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26228, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26228, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26228, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26228, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26228,   1,       2048) /* ItemType - Gem */
+     , (26228,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26228,   5,         10) /* EncumbranceVal */
+     , (26228,   8,         10) /* Mass */
+     , (26228,   9,          0) /* ValidLocations - None */
+     , (26228,  11,         20) /* MaxStackSize */
+     , (26228,  12,          1) /* StackSize */
+     , (26228,  13,         10) /* StackUnitEncumbrance */
+     , (26228,  14,         10) /* StackUnitMass */
+     , (26228,  15,        500) /* StackUnitValue */
+     , (26228,  16,          8) /* ItemUseable - Contained */
+     , (26228,  18,          1) /* UiEffects - Magical */
+     , (26228,  19,        500) /* Value */
+     , (26228,  93,       3092) /* PhysicsState */
+     , (26228,  94,         16) /* TargetType - Creature */
+     , (26228, 106,        210) /* ItemSpellcraft */
+     , (26228, 107,         50) /* ItemCurMana */
+     , (26228, 108,         50) /* ItemMaxMana */
+     , (26228, 109,          0) /* ItemDifficulty */
+     , (26228, 110,          0) /* ItemAllegianceRankLimit */
+     , (26228, 150,        103) /* HookPlacement - Hook */
+     , (26228, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26228, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26228, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26228,  15, True ) /* LightsStatus */
+     , (26228,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26228,   1, 'Kelnen Village Portal Gem') /* Name */
+     , (26228,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26228,   1,   33556769) /* Setup */
+     , (26228,   3,  536870932) /* SoundTable */
+     , (26228,   6,   67111919) /* PaletteBase */
+     , (26228,   7,  268435723) /* ClothingBase */
+     , (26228,   8,  100675760) /* Icon */
+     , (26228,  22,  872415275) /* PhysicsEffectTable */
+     , (26228,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26228,  31,      15166) /* LinkedPortalOne - Kelnen Village Portal */;

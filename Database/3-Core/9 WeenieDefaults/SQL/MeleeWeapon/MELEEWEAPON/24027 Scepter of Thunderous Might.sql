@@ -1,65 +1,61 @@
-/* Weenie - Scepter of Thunderous Might (24027) */
-DELETE FROM weenie WHERE class_Id = 24027;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24027, 'maceknorrscepter', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24027, 001 /* NAME_STRING */, 'Scepter of Thunderous Might')
-     , (24027, 007 /* INSCRIPTION_STRING */, 'Ae sa ai liat sauli baerai zharon.')
-     , (24027, 008 /* SCRIBE_NAME_STRING */, 'Unknown')
-     , (24027, 015 /* SHORT_DESC_STRING */, 'This scepter was wielded by the Elders of the Sentinels of Perfect Light. Ornate and ostentatious it appears to have been more a badge of office than a martial weapon.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24027, 001 /* SETUP_DID */, 33558265)
-     , (24027, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24027, 008 /* ICON_DID */, 100674149)
-     , (24027, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24027', 'maceknorrscepter', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24027, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (24027, 005 /* ENCUMB_VAL_INT */, 700)
-     , (24027, 008 /* MASS_INT */, 360)
-     , (24027, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (24027, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24027, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (24027, 019 /* VALUE_INT */, 3500)
-     , (24027, 044 /* DAMAGE_INT */, 36)
-     , (24027, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (24027, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (24027, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (24027, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (24027, 049 /* WEAPON_TIME_INT */, 60)
-     , (24027, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (24027, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (24027, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (24027, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (24027, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (24027, 109 /* ITEM_DIFFICULTY_INT */, 225)
-     , (24027, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24027, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (24027, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (24027, 159 /* WIELD_SKILLTYPE_INT */, 5 /* MACE_SKILL */)
-     , (24027, 160 /* WIELD_DIFFICULTY_INT */, 325);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24027, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (24027, 021 /* WEAPON_LENGTH_FLOAT */, 0.62)
-     , (24027, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (24027, 029 /* WEAPON_DEFENSE_FLOAT */, 1.11)
-     , (24027, 039 /* DEFAULT_SCALE_FLOAT */, 0.3)
-     , (24027, 062 /* WEAPON_OFFENSE_FLOAT */, 1.11)
-     , (24027, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 6);
+VALUES (24027,   1,          1) /* ItemType - MeleeWeapon */
+     , (24027,   5,        700) /* EncumbranceVal */
+     , (24027,   8,        360) /* Mass */
+     , (24027,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (24027,  16,          1) /* ItemUseable - No */
+     , (24027,  18,          1) /* UiEffects - Magical */
+     , (24027,  19,       3500) /* Value */
+     , (24027,  44,         36) /* Damage */
+     , (24027,  45,         64) /* DamageType - Electric */
+     , (24027,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (24027,  47,          4) /* AttackType - Slash */
+     , (24027,  48,          5) /* WeaponSkill - Mace */
+     , (24027,  49,         60) /* WeaponTime */
+     , (24027,  51,          1) /* CombatUse - Melee */
+     , (24027,  93,       3092) /* PhysicsState */
+     , (24027, 106,        300) /* ItemSpellcraft */
+     , (24027, 107,       1000) /* ItemCurMana */
+     , (24027, 108,       1000) /* ItemMaxMana */
+     , (24027, 109,        225) /* ItemDifficulty */
+     , (24027, 150,        103) /* HookPlacement - Hook */
+     , (24027, 151,          2) /* HookType - Wall */
+     , (24027, 158,          2) /* WieldRequirements - RawSkill */
+     , (24027, 159,          5) /* WieldSkilltype - Mace */
+     , (24027, 160,        325) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24027, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (24027, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24027, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24027,  15, True ) /* LightsStatus */
+     , (24027,  22, True ) /* Inscribable */
+     , (24027,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24027,   5,  -0.025) /* ManaRate */
+     , (24027,  21,    0.62) /* WeaponLength */
+     , (24027,  22,     0.5) /* DamageVariance */
+     , (24027,  29,    1.11) /* WeaponDefense */
+     , (24027,  39,     0.3) /* DefaultScale */
+     , (24027,  62,    1.11) /* WeaponOffense */
+     , (24027, 136,       6) /* CriticalMultiplier */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24027,   1, 'Scepter of Thunderous Might') /* Name */
+     , (24027,   7, 'Ae sa ai liat sauli baerai zharon.') /* Inscription */
+     , (24027,   8, 'Unknown') /* ScribeName */
+     , (24027,  15, 'This scepter was wielded by the Elders of the Sentinels of Perfect Light. Ornate and ostentatious it appears to have been more a badge of office than a martial weapon.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24027,   1,   33558265) /* Setup */
+     , (24027,   3,  536870932) /* SoundTable */
+     , (24027,   8,  100674149) /* Icon */
+     , (24027,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24027, 1605, 2) /* Defender6_SpellID */
-     , (24027, 1626, 2) /* SwiftKiller5_SpellID */
-     , (24027, 2949, 2) /* LightbringersWay_SpellID */
-     , (24027, 1337, 2) /* StrengthOther6_SpellID */
-     , (24027, 1592, 2) /* HeartSeeker6_SpellID */;
-
+VALUES (24027,  1337,      2)  /* Strength Other VI */
+     , (24027,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (24027,  1605,      2)  /* Aura of Defender Self VI */
+     , (24027,  1626,      2)  /* Aura of Swift Killer Self V */
+     , (24027,  2949,      2)  /* Lightbringer's Way */;

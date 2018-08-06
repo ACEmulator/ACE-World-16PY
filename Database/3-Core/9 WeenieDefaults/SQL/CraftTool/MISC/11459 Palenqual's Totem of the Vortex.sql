@@ -1,45 +1,41 @@
-/* Weenie - Palenqual's Totem of the Vortex (11459) */
-DELETE FROM weenie WHERE class_Id = 11459;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11459, 'totemtripletav-xp', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11459, 001 /* NAME_STRING */, 'Palenqual''s Totem of the Vortex')
-     , (11459, 014 /* USE_STRING */, 'Use this triple totem on one of Aun Kerehanua''s weapons to create one of Palenqual''s living weapons.')
-     , (11459, 015 /* SHORT_DESC_STRING */, 'An Aun triple totem.')
-     , (11459, 016 /* LONG_DESC_STRING */, 'A triple totem representing three of the animas found on Palenqual. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11459, 001 /* SETUP_DID */, 33557273)
-     , (11459, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11459, 008 /* ICON_DID */, 100672025)
-     , (11459, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11459', 'totemtripletav-xp', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11459, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11459, 005 /* ENCUMB_VAL_INT */, 300)
-     , (11459, 008 /* MASS_INT */, 10)
-     , (11459, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11459, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (11459, 012 /* STACK_SIZE_INT */, 1)
-     , (11459, 013 /* STACK_UNIT_ENCUMB_INT */, 300)
-     , (11459, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (11459, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (11459, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (11459, 019 /* VALUE_INT */, 0)
-     , (11459, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
-     , (11459, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11459, 094 /* TARGET_TYPE_INT */, 33025 /* TYPE_WEAPON_OR_CASTER */)
-     , (11459, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
-     , (11459, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (11459, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11459, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (11459,   1,        128) /* ItemType - Misc */
+     , (11459,   5,        300) /* EncumbranceVal */
+     , (11459,   8,         10) /* Mass */
+     , (11459,   9,          0) /* ValidLocations - None */
+     , (11459,  11,          1) /* MaxStackSize */
+     , (11459,  12,          1) /* StackSize */
+     , (11459,  13,        300) /* StackUnitEncumbrance */
+     , (11459,  14,         10) /* StackUnitMass */
+     , (11459,  15,          0) /* StackUnitValue */
+     , (11459,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (11459,  19,          0) /* Value */
+     , (11459,  33,          0) /* Bonded - Normal */
+     , (11459,  93,       1044) /* PhysicsState */
+     , (11459,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (11459, 114,          0) /* Attuned - Normal */
+     , (11459, 150,        103) /* HookPlacement - Hook */
+     , (11459, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11459, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11459, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (11459, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (11459,  22, True ) /* Inscribable */
+     , (11459,  23, True ) /* DestroyOnSell */
+     , (11459,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11459,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11459,   1, 'Palenqual''s Totem of the Vortex') /* Name */
+     , (11459,  14, 'Use this triple totem on one of Aun Kerehanua''s weapons to create one of Palenqual''s living weapons.') /* Use */
+     , (11459,  15, 'An Aun triple totem.') /* ShortDesc */
+     , (11459,  16, 'A triple totem representing three of the animas found on Palenqual. ') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11459,   1,   33557273) /* Setup */
+     , (11459,   3,  536870932) /* SoundTable */
+     , (11459,   8,  100672025) /* Icon */
+     , (11459,  22,  872415275) /* PhysicsEffectTable */;

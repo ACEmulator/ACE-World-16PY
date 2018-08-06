@@ -1,48 +1,44 @@
-/* Weenie - Dires' Door Estates Portal Gem (26136) */
-DELETE FROM weenie WHERE class_Id = 26136;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26136, 'gemportaldiresdoorestates', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26136, 001 /* NAME_STRING */, 'Dires'' Door Estates Portal Gem')
-     , (26136, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26136, 001 /* SETUP_DID */, 33556769)
-     , (26136, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26136, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26136, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26136, 008 /* ICON_DID */, 100675760)
-     , (26136, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26136, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26136, 031 /* LINKED_PORTAL_ONE_DID */, 13097 /* Dires' Door Estates Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26136', 'gemportaldiresdoorestates', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26136, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26136, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26136, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26136, 008 /* MASS_INT */, 10)
-     , (26136, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26136, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26136, 012 /* STACK_SIZE_INT */, 1)
-     , (26136, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26136, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26136, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26136, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26136, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26136, 019 /* VALUE_INT */, 500)
-     , (26136, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26136, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26136, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26136, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26136, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26136, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26136, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26136, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26136, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26136,   1,       2048) /* ItemType - Gem */
+     , (26136,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26136,   5,         10) /* EncumbranceVal */
+     , (26136,   8,         10) /* Mass */
+     , (26136,   9,          0) /* ValidLocations - None */
+     , (26136,  11,         20) /* MaxStackSize */
+     , (26136,  12,          1) /* StackSize */
+     , (26136,  13,         10) /* StackUnitEncumbrance */
+     , (26136,  14,         10) /* StackUnitMass */
+     , (26136,  15,        500) /* StackUnitValue */
+     , (26136,  16,          8) /* ItemUseable - Contained */
+     , (26136,  18,          1) /* UiEffects - Magical */
+     , (26136,  19,        500) /* Value */
+     , (26136,  93,       3092) /* PhysicsState */
+     , (26136,  94,         16) /* TargetType - Creature */
+     , (26136, 106,        210) /* ItemSpellcraft */
+     , (26136, 107,         50) /* ItemCurMana */
+     , (26136, 108,         50) /* ItemMaxMana */
+     , (26136, 109,          0) /* ItemDifficulty */
+     , (26136, 110,          0) /* ItemAllegianceRankLimit */
+     , (26136, 150,        103) /* HookPlacement - Hook */
+     , (26136, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26136, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26136, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26136,  15, True ) /* LightsStatus */
+     , (26136,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26136,   1, 'Dires'' Door Estates Portal Gem') /* Name */
+     , (26136,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26136,   1,   33556769) /* Setup */
+     , (26136,   3,  536870932) /* SoundTable */
+     , (26136,   6,   67111919) /* PaletteBase */
+     , (26136,   7,  268435723) /* ClothingBase */
+     , (26136,   8,  100675760) /* Icon */
+     , (26136,  22,  872415275) /* PhysicsEffectTable */
+     , (26136,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26136,  31,      13097) /* LinkedPortalOne - Dires' Door Estates Portal */;

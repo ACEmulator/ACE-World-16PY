@@ -1,30 +1,26 @@
-/* Weenie - The Brimful Jar (825) */
-DELETE FROM weenie WHERE class_Id = 825;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (825, 'yanshigrocersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (825, 001 /* NAME_STRING */, 'The Brimful Jar')
-     , (825, 016 /* LONG_DESC_STRING */, 'The Brimful Jar');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (825, 001 /* SETUP_DID */, 33555088)
-     , (825, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (825, 007 /* CLOTHINGBASE_DID */, 268435656)
-     , (825, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('825', 'yanshigrocersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (825, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (825, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (825, 008 /* MASS_INT */, 1800)
-     , (825, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (825, 019 /* VALUE_INT */, 125)
-     , (825, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (825,   1,        128) /* ItemType - Misc */
+     , (825,   5,       9000) /* EncumbranceVal */
+     , (825,   8,       1800) /* Mass */
+     , (825,  16,          1) /* ItemUseable - No */
+     , (825,  19,        125) /* Value */
+     , (825,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (825, 001 /* STUCK_BOOL */, True)
-     , (825, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (825, 013 /* ETHEREAL_BOOL */, False)
-     , (825, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (825,   1, True ) /* Stuck */
+     , (825,  12, True ) /* ReportCollisions */
+     , (825,  13, False) /* Ethereal */
+     , (825,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (825,   1, 'The Brimful Jar') /* Name */
+     , (825,  16, 'The Brimful Jar') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (825,   1,   33555088) /* Setup */
+     , (825,   6,   67111092) /* PaletteBase */
+     , (825,   7,  268435656) /* ClothingBase */
+     , (825,   8,  100668115) /* Icon */;

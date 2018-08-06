@@ -1,37 +1,33 @@
-/* Weenie - Mana Cake (5236) */
-DELETE FROM weenie WHERE class_Id = 5236;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5236, 'manacake', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5236, 001 /* NAME_STRING */, 'Mana Cake')
-     , (5236, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5236, 020 /* PLURAL_NAME_STRING */, 'Mana Cakes ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5236, 001 /* SETUP_DID */, 33555193)
-     , (5236, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5236, 008 /* ICON_DID */, 100667457)
-     , (5236, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5236', 'manacake', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5236, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5236, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5236, 008 /* MASS_INT */, 25)
-     , (5236, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5236, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5236, 012 /* STACK_SIZE_INT */, 1)
-     , (5236, 013 /* STACK_UNIT_ENCUMB_INT */, 25)
-     , (5236, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (5236, 015 /* STACK_UNIT_VALUE_INT */, 77)
-     , (5236, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5236, 018 /* UI_EFFECTS_INT */, 8 /* UI_EFFECT_BOOST_MANA */)
-     , (5236, 019 /* VALUE_INT */, 77)
-     , (5236, 089 /* BOOSTER_ENUM_INT */, 6 /* MANA_ATTRIBUTE_2ND */)
-     , (5236, 090 /* BOOST_VALUE_INT */, 24)
-     , (5236, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5236,   1,         32) /* ItemType - Food */
+     , (5236,   5,         25) /* EncumbranceVal */
+     , (5236,   8,         25) /* Mass */
+     , (5236,   9,          0) /* ValidLocations - None */
+     , (5236,  11,        100) /* MaxStackSize */
+     , (5236,  12,          1) /* StackSize */
+     , (5236,  13,         25) /* StackUnitEncumbrance */
+     , (5236,  14,         25) /* StackUnitMass */
+     , (5236,  15,         77) /* StackUnitValue */
+     , (5236,  16,          8) /* ItemUseable - Contained */
+     , (5236,  18,          8) /* UiEffects - BoostMana */
+     , (5236,  19,         77) /* Value */
+     , (5236,  89,          6) /* BoosterEnum - Mana */
+     , (5236,  90,         24) /* BoostValue */
+     , (5236,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5236, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5236,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5236,   1, 'Mana Cake') /* Name */
+     , (5236,  14, 'Use this item to eat it.') /* Use */
+     , (5236,  20, 'Mana Cakes ') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5236,   1,   33555193) /* Setup */
+     , (5236,   3,  536870932) /* SoundTable */
+     , (5236,   8,  100667457) /* Icon */
+     , (5236,  22,  872415275) /* PhysicsEffectTable */;

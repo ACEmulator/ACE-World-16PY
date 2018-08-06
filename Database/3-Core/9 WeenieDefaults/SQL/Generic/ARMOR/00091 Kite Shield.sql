@@ -1,50 +1,46 @@
-/* Weenie - Kite Shield (91) */
-DELETE FROM weenie WHERE class_Id = 91;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (91, 'shieldkite', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (91, 001 /* NAME_STRING */, 'Kite Shield');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (91, 001 /* SETUP_DID */, 33554788)
-     , (91, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (91, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (91, 007 /* CLOTHINGBASE_DID */, 268435610)
-     , (91, 008 /* ICON_DID */, 100668151)
-     , (91, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (91, 036 /* MUTATE_FILTER_DID */, 234881043)
-     , (91, 046 /* TSYS_MUTATION_FILTER_DID */, 939524147);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('91', 'shieldkite', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (91, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (91, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (91, 005 /* ENCUMB_VAL_INT */, 690)
-     , (91, 008 /* MASS_INT */, 230)
-     , (91, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
-     , (91, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (91, 019 /* VALUE_INT */, 120)
-     , (91, 027 /* ARMOR_TYPE_INT */, 2)
-     , (91, 028 /* ARMOR_LEVEL_INT */, 20)
-     , (91, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
-     , (91, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (91, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (91, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (91, 169 /* TSYS_MUTATION_DATA_INT */, 134284804);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (91, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (91, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (91, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.2)
-     , (91, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (91, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
-     , (91, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (91, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (91, 039 /* DEFAULT_SCALE_FLOAT */, 0.75)
-     , (91, 110 /* BULK_MOD_FLOAT */, 1)
-     , (91, 111 /* SIZE_MOD_FLOAT */, 1.33);
+VALUES (91,   1,          2) /* ItemType - Armor */
+     , (91,   3,          4) /* PaletteTemplate - Brown */
+     , (91,   5,        690) /* EncumbranceVal */
+     , (91,   8,        230) /* Mass */
+     , (91,   9,    2097152) /* ValidLocations - Shield */
+     , (91,  16,          1) /* ItemUseable - No */
+     , (91,  19,        120) /* Value */
+     , (91,  27,          2) /* ArmorType */
+     , (91,  28,         20) /* ArmorLevel */
+     , (91,  51,          4) /* CombatUse - Shield */
+     , (91,  93,       1044) /* PhysicsState */
+     , (91, 150,        103) /* HookPlacement - Hook */
+     , (91, 151,          2) /* HookType - Wall */
+     , (91, 169,  134284804) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (91, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (91,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (91,  13,       1) /* ArmorModVsSlash */
+     , (91,  14,     0.8) /* ArmorModVsPierce */
+     , (91,  15,     1.2) /* ArmorModVsBludgeon */
+     , (91,  16,     0.6) /* ArmorModVsCold */
+     , (91,  17,     0.6) /* ArmorModVsFire */
+     , (91,  18,       1) /* ArmorModVsAcid */
+     , (91,  19,     0.6) /* ArmorModVsElectric */
+     , (91,  39,    0.75) /* DefaultScale */
+     , (91, 110,       1) /* BulkMod */
+     , (91, 111,    1.33) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (91,   1, 'Kite Shield') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (91,   1,   33554788) /* Setup */
+     , (91,   3,  536870932) /* SoundTable */
+     , (91,   6,   67111919) /* PaletteBase */
+     , (91,   7,  268435610) /* ClothingBase */
+     , (91,   8,  100668151) /* Icon */
+     , (91,  22,  872415275) /* PhysicsEffectTable */
+     , (91,  36,  234881043) /* MutateFilter */
+     , (91,  46,  939524147) /* TsysMutationFilter */;

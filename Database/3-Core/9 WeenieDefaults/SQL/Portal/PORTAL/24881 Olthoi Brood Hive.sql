@@ -1,35 +1,31 @@
-/* Weenie - Olthoi Brood Hive (24881) */
-DELETE FROM weenie WHERE class_Id = 24881;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24881, 'portalothoihive2mid', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24881, 001 /* NAME_STRING */, 'Olthoi Brood Hive');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24881, 001 /* SETUP_DID */, 33555926)
-     , (24881, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (24881, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24881', 'portalothoihive2mid', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24881, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (24881, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (24881, 086 /* MIN_LEVEL_INT */, 40)
-     , (24881, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (24881, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (24881, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24881, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (24881,   1,      65536) /* ItemType - Portal */
+     , (24881,  16,         32) /* ItemUseable - Remote */
+     , (24881,  86,         40) /* MinLevel */
+     , (24881,  93,       3084) /* PhysicsState */
+     , (24881, 111,         49) /* PortalBitmask */
+     , (24881, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24881, 001 /* STUCK_BOOL */, True)
-     , (24881, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (24881, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (24881, 013 /* ETHEREAL_BOOL */, True)
-     , (24881, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (24881,   1, True ) /* Stuck */
+     , (24881,  11, False) /* IgnoreCollisions */
+     , (24881,  12, True ) /* ReportCollisions */
+     , (24881,  13, True ) /* Ethereal */
+     , (24881,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24881,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24881,   1, 'Olthoi Brood Hive') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24881,   1,   33555926) /* Setup */
+     , (24881,   2,  150994947) /* MotionTable */
+     , (24881,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24881, 2, 1581843509, 18.8143, -12.6949, 0.005, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (24881, 2, 1581843509, 18.8143, -12.6949, 0.005, 1, 0, 0, 0) /* Destination */;

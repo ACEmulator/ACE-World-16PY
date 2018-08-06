@@ -1,47 +1,43 @@
-/* Weenie - Bandit Lightning Simi (12073) */
-DELETE FROM weenie WHERE class_Id = 12073;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12073, 'simielectricbandit', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12073, 001 /* NAME_STRING */, 'Bandit Lightning Simi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12073, 001 /* SETUP_DID */, 33555778)
-     , (12073, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12073, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12073, 007 /* CLOTHINGBASE_DID */, 268435766)
-     , (12073, 008 /* ICON_DID */, 100668164)
-     , (12073, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12073, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12073', 'simielectricbandit', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12073, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (12073, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (12073, 005 /* ENCUMB_VAL_INT */, 400)
-     , (12073, 008 /* MASS_INT */, 160)
-     , (12073, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (12073, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12073, 018 /* UI_EFFECTS_INT */, 64 /* UI_EFFECT_LIGHTNING */)
-     , (12073, 019 /* VALUE_INT */, 400)
-     , (12073, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (12073, 044 /* DAMAGE_INT */, 7)
-     , (12073, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (12073, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (12073, 047 /* ATTACK_TYPE_INT */, 486 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, TripleSlash_AttackType, DoubleThrust_AttackType, TripleThrust_AttackType */)
-     , (12073, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (12073, 049 /* WEAPON_TIME_INT */, 30)
-     , (12073, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (12073, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12073, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12073, 021 /* WEAPON_LENGTH_FLOAT */, 0.68)
-     , (12073, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (12073, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (12073, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (12073,   1,          1) /* ItemType - MeleeWeapon */
+     , (12073,   3,         20) /* PaletteTemplate - Silver */
+     , (12073,   5,        400) /* EncumbranceVal */
+     , (12073,   8,        160) /* Mass */
+     , (12073,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12073,  16,          1) /* ItemUseable - No */
+     , (12073,  18,         64) /* UiEffects - Lightning */
+     , (12073,  19,        400) /* Value */
+     , (12073,  33,         -2) /* Bonded - Destroy */
+     , (12073,  44,          7) /* Damage */
+     , (12073,  45,         64) /* DamageType - Electric */
+     , (12073,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (12073,  47,        486) /* AttackType */
+     , (12073,  48,         11) /* WeaponSkill - Sword */
+     , (12073,  49,         30) /* WeaponTime */
+     , (12073,  51,          1) /* CombatUse - Melee */
+     , (12073,  93,       1044) /* PhysicsState */
+     , (12073, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12073, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (12073,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12073,  21,    0.68) /* WeaponLength */
+     , (12073,  22,     0.5) /* DamageVariance */
+     , (12073,  29,       1) /* WeaponDefense */
+     , (12073,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12073,   1, 'Bandit Lightning Simi') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12073,   1,   33555778) /* Setup */
+     , (12073,   3,  536870932) /* SoundTable */
+     , (12073,   6,   67111919) /* PaletteBase */
+     , (12073,   7,  268435766) /* ClothingBase */
+     , (12073,   8,  100668164) /* Icon */
+     , (12073,  22,  872415275) /* PhysicsEffectTable */
+     , (12073,  36,  234881044) /* MutateFilter */;

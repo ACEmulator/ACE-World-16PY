@@ -1,38 +1,34 @@
-/* Weenie - Hearty Healing Hot Kimchi (5800) */
-DELETE FROM weenie WHERE class_Id = 5800;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5800, 'heartyhealinghotkimchi', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5800, 001 /* NAME_STRING */, 'Hearty Healing Hot Kimchi')
-     , (5800, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5800, 015 /* SHORT_DESC_STRING */, 'Spicy, burning, red-hot, pungent kimchi.')
-     , (5800, 020 /* PLURAL_NAME_STRING */, 'Bowls of Hearty Healing Hot Kimchi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5800, 001 /* SETUP_DID */, 33554669)
-     , (5800, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5800, 008 /* ICON_DID */, 100670313)
-     , (5800, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5800', 'heartyhealinghotkimchi', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5800, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5800, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5800, 008 /* MASS_INT */, 25)
-     , (5800, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5800, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5800, 012 /* STACK_SIZE_INT */, 1)
-     , (5800, 013 /* STACK_UNIT_ENCUMB_INT */, 25)
-     , (5800, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (5800, 015 /* STACK_UNIT_VALUE_INT */, 120)
-     , (5800, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5800, 018 /* UI_EFFECTS_INT */, 4 /* UI_EFFECT_BOOST_HEALTH */)
-     , (5800, 019 /* VALUE_INT */, 120)
-     , (5800, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
-     , (5800, 090 /* BOOST_VALUE_INT */, 39)
-     , (5800, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5800,   1,         32) /* ItemType - Food */
+     , (5800,   5,         25) /* EncumbranceVal */
+     , (5800,   8,         25) /* Mass */
+     , (5800,   9,          0) /* ValidLocations - None */
+     , (5800,  11,        100) /* MaxStackSize */
+     , (5800,  12,          1) /* StackSize */
+     , (5800,  13,         25) /* StackUnitEncumbrance */
+     , (5800,  14,         25) /* StackUnitMass */
+     , (5800,  15,        120) /* StackUnitValue */
+     , (5800,  16,          8) /* ItemUseable - Contained */
+     , (5800,  18,          4) /* UiEffects - BoostHealth */
+     , (5800,  19,        120) /* Value */
+     , (5800,  89,          2) /* BoosterEnum - Health */
+     , (5800,  90,         39) /* BoostValue */
+     , (5800,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5800, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5800,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5800,   1, 'Hearty Healing Hot Kimchi') /* Name */
+     , (5800,  14, 'Use this item to eat it.') /* Use */
+     , (5800,  15, 'Spicy, burning, red-hot, pungent kimchi.') /* ShortDesc */
+     , (5800,  20, 'Bowls of Hearty Healing Hot Kimchi') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5800,   1,   33554669) /* Setup */
+     , (5800,   3,  536870932) /* SoundTable */
+     , (5800,   8,  100670313) /* Icon */
+     , (5800,  22,  872415275) /* PhysicsEffectTable */;

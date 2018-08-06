@@ -1,44 +1,40 @@
-/* Weenie - Trade Mana Elixir (12251) */
-DELETE FROM weenie WHERE class_Id = 12251;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12251, 'manaelixirtrade', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12251, 001 /* NAME_STRING */, 'Trade Mana Elixir')
-     , (12251, 014 /* USE_STRING */, 'Use this item to drink it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12251, 001 /* SETUP_DID */, 33554603)
-     , (12251, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12251, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12251, 007 /* CLOTHINGBASE_DID */, 268435816)
-     , (12251, 008 /* ICON_DID */, 100672204)
-     , (12251, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12251, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12251', 'manaelixirtrade', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12251, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (12251, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (12251, 005 /* ENCUMB_VAL_INT */, 70)
-     , (12251, 008 /* MASS_INT */, 45)
-     , (12251, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (12251, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (12251, 012 /* STACK_SIZE_INT */, 1)
-     , (12251, 013 /* STACK_UNIT_ENCUMB_INT */, 70)
-     , (12251, 014 /* STACK_UNIT_MASS_INT */, 45)
-     , (12251, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (12251, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (12251, 019 /* VALUE_INT */, 10)
-     , (12251, 089 /* BOOSTER_ENUM_INT */, 6 /* MANA_ATTRIBUTE_2ND */)
-     , (12251, 090 /* BOOST_VALUE_INT */, 70)
-     , (12251, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12251, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12251, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12251, 039 /* DEFAULT_SCALE_FLOAT */, 1.2);
+VALUES (12251,   1,        128) /* ItemType - Misc */
+     , (12251,   3,          2) /* PaletteTemplate - Blue */
+     , (12251,   5,         70) /* EncumbranceVal */
+     , (12251,   8,         45) /* Mass */
+     , (12251,   9,          0) /* ValidLocations - None */
+     , (12251,  11,        100) /* MaxStackSize */
+     , (12251,  12,          1) /* StackSize */
+     , (12251,  13,         70) /* StackUnitEncumbrance */
+     , (12251,  14,         45) /* StackUnitMass */
+     , (12251,  15,         10) /* StackUnitValue */
+     , (12251,  16,          8) /* ItemUseable - Contained */
+     , (12251,  19,         10) /* Value */
+     , (12251,  89,          6) /* BoosterEnum - Mana */
+     , (12251,  90,         70) /* BoostValue */
+     , (12251,  93,       1044) /* PhysicsState */
+     , (12251, 150,        103) /* HookPlacement - Hook */
+     , (12251, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12251, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (12251,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12251,  39,     1.2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12251,   1, 'Trade Mana Elixir') /* Name */
+     , (12251,  14, 'Use this item to drink it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12251,   1,   33554603) /* Setup */
+     , (12251,   3,  536870932) /* SoundTable */
+     , (12251,   6,   67111919) /* PaletteBase */
+     , (12251,   7,  268435816) /* ClothingBase */
+     , (12251,   8,  100672204) /* Icon */
+     , (12251,  22,  872415275) /* PhysicsEffectTable */
+     , (12251,  23,         65) /* UseSound - Drink1 */;

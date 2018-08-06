@@ -1,43 +1,39 @@
-/* Weenie - Geyser (7472) */
-DELETE FROM weenie WHERE class_Id = 7472;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7472, 'geyser', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7472, 001 /* NAME_STRING */, 'Geyser')
-     , (7472, 017 /* ACTIVATION_TALK_STRING */, 'You suffer %i damage from the geyser.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7472, 001 /* SETUP_DID */, 33555403)
-     , (7472, 003 /* SOUND_TABLE_DID */, 536870994)
-     , (7472, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7472', 'geyser', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7472, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (7472, 005 /* ENCUMB_VAL_INT */, 1)
-     , (7472, 008 /* MASS_INT */, 1)
-     , (7472, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7472, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7472, 019 /* VALUE_INT */, 1)
-     , (7472, 044 /* DAMAGE_INT */, 10)
-     , (7472, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (7472, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (7472, 119 /* ACTIVE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7472, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (7472, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (7472, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 5)
-     , (7472, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0.4);
+VALUES (7472,   1,        128) /* ItemType - Misc */
+     , (7472,   5,          1) /* EncumbranceVal */
+     , (7472,   8,          1) /* Mass */
+     , (7472,   9,          0) /* ValidLocations - None */
+     , (7472,  16,          1) /* ItemUseable - No */
+     , (7472,  19,          1) /* Value */
+     , (7472,  44,         10) /* Damage */
+     , (7472,  45,         16) /* DamageType - Fire */
+     , (7472,  93,         12) /* PhysicsState */
+     , (7472, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7472, 001 /* STUCK_BOOL */, True)
-     , (7472, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (7472, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (7472, 013 /* ETHEREAL_BOOL */, True)
-     , (7472, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (7472, 024 /* UI_HIDDEN_BOOL */, True)
-     , (7472, 055 /* IS_HOT_BOOL */, True)
-     , (7472, 057 /* AFFECTS_AIS_BOOL */, False);
+VALUES (7472,   1, True ) /* Stuck */
+     , (7472,  11, False) /* IgnoreCollisions */
+     , (7472,  12, True ) /* ReportCollisions */
+     , (7472,  13, True ) /* Ethereal */
+     , (7472,  14, False) /* GravityStatus */
+     , (7472,  24, True ) /* UiHidden */
+     , (7472,  55, True ) /* IsHot */
+     , (7472,  57, False) /* AffectsAis */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7472,  22,     0.5) /* DamageVariance */
+     , (7472,  39,       1) /* DefaultScale */
+     , (7472, 105,       5) /* HotspotCycleTime */
+     , (7472, 106,     0.4) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7472,   1, 'Geyser') /* Name */
+     , (7472,  17, 'You suffer %i damage from the geyser.') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7472,   1,   33555403) /* Setup */
+     , (7472,   3,  536870994) /* SoundTable */
+     , (7472,   8,  100667465) /* Icon */;

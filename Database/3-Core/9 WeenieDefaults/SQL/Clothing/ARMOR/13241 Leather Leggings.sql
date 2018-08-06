@@ -1,46 +1,42 @@
-/* Weenie - Leather Leggings (13241) */
-DELETE FROM weenie WHERE class_Id = 13241;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13241, 'leggingsleatheracademy', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13241, 001 /* NAME_STRING */, 'Leather Leggings')
-     , (13241, 033 /* QUEST_STRING */, 'LeggingsAcademyPickUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13241, 001 /* SETUP_DID */, 33554856)
-     , (13241, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (13241, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (13241, 007 /* CLOTHINGBASE_DID */, 268435533)
-     , (13241, 008 /* ICON_DID */, 100667352)
-     , (13241, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('13241', 'leggingsleatheracademy', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13241, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (13241, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (13241, 004 /* CLOTHING_PRIORITY_INT */, 768 /* OuterwearUpperLegs, OuterwearLowerLegs */)
-     , (13241, 005 /* ENCUMB_VAL_INT */, 960)
-     , (13241, 008 /* MASS_INT */, 320)
-     , (13241, 009 /* LOCATIONS_INT */, 24576 /* UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (13241, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (13241, 019 /* VALUE_INT */, 0)
-     , (13241, 027 /* ARMOR_TYPE_INT */, 2)
-     , (13241, 028 /* ARMOR_LEVEL_INT */, 20)
-     , (13241, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13241, 012 /* SHADE_FLOAT */, 0.66)
-     , (13241, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (13241, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (13241, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (13241, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (13241, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.5)
-     , (13241, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.3)
-     , (13241, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (13241, 110 /* BULK_MOD_FLOAT */, 1)
-     , (13241, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (13241,   1,          2) /* ItemType - Armor */
+     , (13241,   3,          4) /* PaletteTemplate - Brown */
+     , (13241,   4,        768) /* ClothingPriority */
+     , (13241,   5,        960) /* EncumbranceVal */
+     , (13241,   8,        320) /* Mass */
+     , (13241,   9,      24576) /* ValidLocations */
+     , (13241,  16,          1) /* ItemUseable - No */
+     , (13241,  19,          0) /* Value */
+     , (13241,  27,          2) /* ArmorType */
+     , (13241,  28,         20) /* ArmorLevel */
+     , (13241,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13241, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (13241,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (13241,  12,    0.66) /* Shade */
+     , (13241,  13,       1) /* ArmorModVsSlash */
+     , (13241,  14,     0.8) /* ArmorModVsPierce */
+     , (13241,  15,       1) /* ArmorModVsBludgeon */
+     , (13241,  16,     0.5) /* ArmorModVsCold */
+     , (13241,  17,     0.5) /* ArmorModVsFire */
+     , (13241,  18,     0.3) /* ArmorModVsAcid */
+     , (13241,  19,     0.6) /* ArmorModVsElectric */
+     , (13241, 110,       1) /* BulkMod */
+     , (13241, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (13241,   1, 'Leather Leggings') /* Name */
+     , (13241,  33, 'LeggingsAcademyPickUp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (13241,   1,   33554856) /* Setup */
+     , (13241,   3,  536870932) /* SoundTable */
+     , (13241,   6,   67108990) /* PaletteBase */
+     , (13241,   7,  268435533) /* ClothingBase */
+     , (13241,   8,  100667352) /* Icon */
+     , (13241,  22,  872415275) /* PhysicsEffectTable */;

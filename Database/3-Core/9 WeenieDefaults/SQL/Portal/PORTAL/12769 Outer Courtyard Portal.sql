@@ -1,35 +1,31 @@
-/* Weenie - Outer Courtyard Portal (12769) */
-DELETE FROM weenie WHERE class_Id = 12769;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12769, 'portalareabholtw', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12769, 001 /* NAME_STRING */, 'Outer Courtyard Portal')
-     , (12769, 037 /* QUEST_RESTRICTION_STRING */, 'RecruitSent');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12769, 001 /* SETUP_DID */, 33554867)
-     , (12769, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (12769, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12769', 'portalareabholtw', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12769, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (12769, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (12769, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (12769, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (12769, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12769, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (12769,   1,      65536) /* ItemType - Portal */
+     , (12769,  16,         32) /* ItemUseable - Remote */
+     , (12769,  93,       3084) /* PhysicsState */
+     , (12769, 111,          1) /* PortalBitmask - Unrestricted */
+     , (12769, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12769, 001 /* STUCK_BOOL */, True)
-     , (12769, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (12769, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12769, 013 /* ETHEREAL_BOOL */, True)
-     , (12769, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (12769,   1, True ) /* Stuck */
+     , (12769,  11, False) /* IgnoreCollisions */
+     , (12769,  12, True ) /* ReportCollisions */
+     , (12769,  13, True ) /* Ethereal */
+     , (12769,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12769,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12769,   1, 'Outer Courtyard Portal') /* Name */
+     , (12769,  37, 'RecruitSent') /* QuestRestriction */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12769,   1,   33554867) /* Setup */
+     , (12769,   2,  150994947) /* MotionTable */
+     , (12769,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12769, 2, 56885999, 100, -190, 0, 0.9025853, 0, 0, -0.4305111) /* DESTINATION_POSITION */;
-
+VALUES (12769, 2, 56885999, 100, -190, 0, 0.9025853, 0, 0, -0.4305111) /* Destination */;

@@ -1,31 +1,27 @@
-/* Weenie - An incomplete Horn of Vigilance (19417) */
-DELETE FROM weenie WHERE class_Id = 19417;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19417, 'soundmakerbaseupperpipe3', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19417, 001 /* NAME_STRING */, 'An incomplete Horn of Vigilance')
-     , (19417, 015 /* SHORT_DESC_STRING */, 'An incomplete Horn of Vigilance.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19417, 001 /* SETUP_DID */, 33557831)
-     , (19417, 008 /* ICON_DID */, 100673048);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19417', 'soundmakerbaseupperpipe3', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19417, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19417, 005 /* ENCUMB_VAL_INT */, 50)
-     , (19417, 008 /* MASS_INT */, 25)
-     , (19417, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19417, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19417, 019 /* VALUE_INT */, 0)
-     , (19417, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19417, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19417, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (19417,   1,        128) /* ItemType - Misc */
+     , (19417,   5,         50) /* EncumbranceVal */
+     , (19417,   8,         25) /* Mass */
+     , (19417,   9,          0) /* ValidLocations - None */
+     , (19417,  16,          1) /* ItemUseable - No */
+     , (19417,  19,          0) /* Value */
+     , (19417,  33,          1) /* Bonded - Bonded */
+     , (19417,  93,       1044) /* PhysicsState */
+     , (19417, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19417, 013 /* ETHEREAL_BOOL */, True)
-     , (19417, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19417, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19417, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19417,  13, True ) /* Ethereal */
+     , (19417,  22, True ) /* Inscribable */
+     , (19417,  23, True ) /* DestroyOnSell */
+     , (19417,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19417,   1, 'An incomplete Horn of Vigilance') /* Name */
+     , (19417,  15, 'An incomplete Horn of Vigilance.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19417,   1,   33557831) /* Setup */
+     , (19417,   8,  100673048) /* Icon */;

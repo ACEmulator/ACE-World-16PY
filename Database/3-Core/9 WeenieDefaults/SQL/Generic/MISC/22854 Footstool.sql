@@ -1,29 +1,25 @@
-/* Weenie - Footstool (22854) */
-DELETE FROM weenie WHERE class_Id = 22854;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22854, 'ottoman', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22854, 001 /* NAME_STRING */, 'Footstool')
-     , (22854, 015 /* SHORT_DESC_STRING */, 'This item can be used on floor hooks.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22854, 001 /* SETUP_DID */, 33555305)
-     , (22854, 008 /* ICON_DID */, 100673893);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22854', 'ottoman', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22854, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22854, 005 /* ENCUMB_VAL_INT */, 50)
-     , (22854, 008 /* MASS_INT */, 50)
-     , (22854, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22854, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22854, 019 /* VALUE_INT */, 5000)
-     , (22854, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22854, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22854, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
+VALUES (22854,   1,        128) /* ItemType - Misc */
+     , (22854,   5,         50) /* EncumbranceVal */
+     , (22854,   8,         50) /* Mass */
+     , (22854,   9,          0) /* ValidLocations - None */
+     , (22854,  16,          1) /* ItemUseable - No */
+     , (22854,  19,       5000) /* Value */
+     , (22854,  93,       1044) /* PhysicsState */
+     , (22854, 150,        103) /* HookPlacement - Hook */
+     , (22854, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22854, 013 /* ETHEREAL_BOOL */, True)
-     , (22854, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22854,  13, True ) /* Ethereal */
+     , (22854,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22854,   1, 'Footstool') /* Name */
+     , (22854,  15, 'This item can be used on floor hooks.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22854,   1,   33555305) /* Setup */
+     , (22854,   8,  100673893) /* Icon */;

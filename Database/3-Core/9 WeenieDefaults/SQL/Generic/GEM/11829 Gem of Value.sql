@@ -1,36 +1,32 @@
-/* Weenie - Gem of Value (11829) */
-DELETE FROM weenie WHERE class_Id = 11829;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11829, 'gemportallessergha', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11829, 001 /* NAME_STRING */, 'Gem of Value')
-     , (11829, 015 /* SHORT_DESC_STRING */, 'This is a gem of significant value.')
-     , (11829, 016 /* LONG_DESC_STRING */, 'This is a gem of significant value.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11829, 001 /* SETUP_DID */, 33554809)
-     , (11829, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11829, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (11829, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (11829, 008 /* ICON_DID */, 100672151)
-     , (11829, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (11829, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11829', 'gemportallessergha', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11829, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (11829, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (11829, 005 /* ENCUMB_VAL_INT */, 5)
-     , (11829, 008 /* MASS_INT */, 25)
-     , (11829, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11829, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11829, 019 /* VALUE_INT */, 800)
-     , (11829, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11829, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
+VALUES (11829,   1,       2048) /* ItemType - Gem */
+     , (11829,   3,         14) /* PaletteTemplate - Red */
+     , (11829,   5,          5) /* EncumbranceVal */
+     , (11829,   8,         25) /* Mass */
+     , (11829,   9,          0) /* ValidLocations - None */
+     , (11829,  16,          1) /* ItemUseable - No */
+     , (11829,  19,        800) /* Value */
+     , (11829,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11829, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (11829,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11829,  39,     0.8) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11829,   1, 'Gem of Value') /* Name */
+     , (11829,  15, 'This is a gem of significant value.') /* ShortDesc */
+     , (11829,  16, 'This is a gem of significant value.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11829,   1,   33554809) /* Setup */
+     , (11829,   3,  536870932) /* SoundTable */
+     , (11829,   6,   67111919) /* PaletteBase */
+     , (11829,   7,  268435723) /* ClothingBase */
+     , (11829,   8,  100672151) /* Icon */
+     , (11829,  22,  872415275) /* PhysicsEffectTable */
+     , (11829,  36,  234881046) /* MutateFilter */;

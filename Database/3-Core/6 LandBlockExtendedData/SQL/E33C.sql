@@ -1,14 +1,20 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4108, 2117320704, 3812360192, 79.0735, 62.3125, 102.604, 0.691352, 0, 0, 0.722518) /* Gnawer Shreth */
-     , (4108, 2117320705, 3812360192, 73.7822, 58.5747, 102.163, 0.998484, 0, 0, -0.0550343) /* Gnawer Shreth */
-     , (4108, 2117320706, 3812360192, 72.5171, 74.1122, 102.058, 0.800563, 0, 0, -0.599249) /* Gnawer Shreth */
-     , (1154, 2117320707, 3812360192, 71.145, 72.369, 102.005, 0.152635, 0, 0, -0.988283) /* linkmonstergen */
-     , (4108, 2117320708, 3812360192, 22.645, 24.5366, 91.847, 0.260325, 0, 0, 0.965521) /* Gnawer Shreth */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2117320704,  4108, 3812360192, 79.0735, 62.3125, 102.604, 0.691352, 0, 0, 0.722518,  True); /* Gnawer Shreth */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2117320707'; /* linkmonstergen */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2117320705,  4108, 3812360192, 73.7822, 58.5747, 102.163, 0.998484, 0, 0, -0.0550343,  True); /* Gnawer Shreth */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2117320704'; /* linkmonstergen <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2117320705'; /* linkmonstergen <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2117320706'; /* linkmonstergen <- Gnawer Shreth */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2117320708'; /* linkmonstergen <- Gnawer Shreth */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2117320706,  4108, 3812360192, 72.5171, 74.1122, 102.058, 0.800563, 0, 0, -0.599249,  True); /* Gnawer Shreth */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2117320707,  1154, 3812360192, 71.145, 72.369, 102.005, 0.152635, 0, 0, -0.988283, False); /* Linkable Monster Generator */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2117320707, 2117320704) /* Gnawer Shreth */
+     , (2117320707, 2117320705) /* Gnawer Shreth */
+     , (2117320707, 2117320706) /* Gnawer Shreth */
+     , (2117320707, 2117320708) /* Gnawer Shreth */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2117320708,  4108, 3812360192, 22.645, 24.5366, 91.847, 0.260325, 0, 0, 0.965521,  True); /* Gnawer Shreth */

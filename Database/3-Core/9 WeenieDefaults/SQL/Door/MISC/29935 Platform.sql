@@ -1,38 +1,34 @@
-/* Weenie - Platform (29935) */
-DELETE FROM weenie WHERE class_Id = 29935;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29935, 'doormetalgrate10x10', 19 /* Door_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29935, 001 /* NAME_STRING */, 'Platform');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29935, 001 /* SETUP_DID */, 33559061)
-     , (29935, 002 /* MOTION_TABLE_DID */, 150995316)
-     , (29935, 003 /* SOUND_TABLE_DID */, 536870946)
-     , (29935, 008 /* ICON_DID */, 100668183)
-     , (29935, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29935', 'doormetalgrate10x10', 19) /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29935, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29935, 008 /* MASS_INT */, 500)
-     , (29935, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29935, 019 /* VALUE_INT */, 0)
-     , (29935, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (29935, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29935, 011 /* RESET_INTERVAL_FLOAT */, 120)
-     , (29935, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (29935,   1,        128) /* ItemType - Misc */
+     , (29935,   8,        500) /* Mass */
+     , (29935,  16,          1) /* ItemUseable - No */
+     , (29935,  19,          0) /* Value */
+     , (29935,  83,          2) /* ActivationResponse - Use */
+     , (29935,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29935, 001 /* STUCK_BOOL */, True)
-     , (29935, 002 /* OPEN_BOOL */, False)
-     , (29935, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (29935, 013 /* ETHEREAL_BOOL */, False)
-     , (29935, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (29935, 024 /* UI_HIDDEN_BOOL */, True)
-     , (29935, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (29935, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (29935,   1, True ) /* Stuck */
+     , (29935,   2, False) /* Open */
+     , (29935,  12, True ) /* ReportCollisions */
+     , (29935,  13, False) /* Ethereal */
+     , (29935,  14, False) /* GravityStatus */
+     , (29935,  24, True ) /* UiHidden */
+     , (29935,  33, False) /* ResetMessagePending */
+     , (29935,  34, False) /* DefaultOpen */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29935,  11,     120) /* ResetInterval */
+     , (29935,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29935,   1, 'Platform') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29935,   1,   33559061) /* Setup */
+     , (29935,   2,  150995316) /* MotionTable */
+     , (29935,   3,  536870946) /* SoundTable */
+     , (29935,   8,  100668183) /* Icon */
+     , (29935,  22,  872415275) /* PhysicsEffectTable */;

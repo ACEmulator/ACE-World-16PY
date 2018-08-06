@@ -1,38 +1,34 @@
-/* Weenie - Mana Tonic (27323) */
-DELETE FROM weenie WHERE class_Id = 27323;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27323, 'manatonic', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27323, 001 /* NAME_STRING */, 'Mana Tonic')
-     , (27323, 014 /* USE_STRING */, 'Use this item to drink it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27323, 001 /* SETUP_DID */, 33554603)
-     , (27323, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27323, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27323, 007 /* CLOTHINGBASE_DID */, 268435816)
-     , (27323, 008 /* ICON_DID */, 100676296)
-     , (27323, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27323, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27323', 'manatonic', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27323, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (27323, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (27323, 005 /* ENCUMB_VAL_INT */, 100)
-     , (27323, 008 /* MASS_INT */, 45)
-     , (27323, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27323, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (27323, 012 /* STACK_SIZE_INT */, 1)
-     , (27323, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (27323, 014 /* STACK_UNIT_MASS_INT */, 45)
-     , (27323, 015 /* STACK_UNIT_VALUE_INT */, 2000)
-     , (27323, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (27323, 019 /* VALUE_INT */, 2000)
-     , (27323, 089 /* BOOSTER_ENUM_INT */, 6 /* MANA_ATTRIBUTE_2ND */)
-     , (27323, 090 /* BOOST_VALUE_INT */, 85)
-     , (27323, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27323, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27323, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (27323,   1,        128) /* ItemType - Misc */
+     , (27323,   3,          2) /* PaletteTemplate - Blue */
+     , (27323,   5,        100) /* EncumbranceVal */
+     , (27323,   8,         45) /* Mass */
+     , (27323,   9,          0) /* ValidLocations - None */
+     , (27323,  11,        100) /* MaxStackSize */
+     , (27323,  12,          1) /* StackSize */
+     , (27323,  13,        100) /* StackUnitEncumbrance */
+     , (27323,  14,         45) /* StackUnitMass */
+     , (27323,  15,       2000) /* StackUnitValue */
+     , (27323,  16,          8) /* ItemUseable - Contained */
+     , (27323,  19,       2000) /* Value */
+     , (27323,  89,          6) /* BoosterEnum - Mana */
+     , (27323,  90,         85) /* BoostValue */
+     , (27323,  93,       1044) /* PhysicsState */
+     , (27323, 150,        103) /* HookPlacement - Hook */
+     , (27323, 151,         11) /* HookType */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27323,   1, 'Mana Tonic') /* Name */
+     , (27323,  14, 'Use this item to drink it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27323,   1,   33554603) /* Setup */
+     , (27323,   3,  536870932) /* SoundTable */
+     , (27323,   6,   67111919) /* PaletteBase */
+     , (27323,   7,  268435816) /* ClothingBase */
+     , (27323,   8,  100676296) /* Icon */
+     , (27323,  22,  872415275) /* PhysicsEffectTable */
+     , (27323,  23,         65) /* UseSound - Drink1 */;

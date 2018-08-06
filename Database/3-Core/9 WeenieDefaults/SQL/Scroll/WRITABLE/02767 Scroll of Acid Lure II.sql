@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Acid Lure II (2767) */
-DELETE FROM weenie WHERE class_Id = 2767;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2767, 'scrollacidlure2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2767, 001 /* NAME_STRING */, 'Scroll of Acid Lure II')
-     , (2767, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (2767, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases a shield or piece of armor''s resistance to acid damage by 25%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2767, 001 /* SETUP_DID */, 33554826)
-     , (2767, 008 /* ICON_DID */, 100676663)
-     , (2767, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2767, 028 /* SPELL_DID */, 1500 /* AcidLure2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2767', 'scrollacidlure2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2767, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2767, 005 /* ENCUMB_VAL_INT */, 30)
-     , (2767, 008 /* MASS_INT */, 90)
-     , (2767, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2767, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2767, 019 /* VALUE_INT */, 5)
-     , (2767, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2767, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (2767,   1,       8192) /* ItemType - Writable */
+     , (2767,   5,         30) /* EncumbranceVal */
+     , (2767,   8,         90) /* Mass */
+     , (2767,   9,          0) /* ValidLocations - None */
+     , (2767,  16,          8) /* ItemUseable - Contained */
+     , (2767,  19,          5) /* Value */
+     , (2767,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2767, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2767, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2767,  22, True ) /* Inscribable */
+     , (2767,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2767,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2767,   1, 'Scroll of Acid Lure II') /* Name */
+     , (2767,  15, 'A magic scroll.') /* ShortDesc */
+     , (2767,  16, 'When learned, this spell decreases a shield or piece of armor''s resistance to acid damage by 25%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2767,   1,   33554826) /* Setup */
+     , (2767,   8,  100676663) /* Icon */
+     , (2767,  22,  872415275) /* PhysicsEffectTable */
+     , (2767,  28,       1500) /* Spell - Acid Lure II */;

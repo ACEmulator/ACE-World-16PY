@@ -1,51 +1,47 @@
-/* Weenie - Greater Koujia Shadow Sleeves (14858) */
-DELETE FROM weenie WHERE class_Id = 14858;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14858, 'sleeveskoujiashadowgreater3', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14858, 001 /* NAME_STRING */, 'Greater Koujia Shadow Sleeves');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14858, 001 /* SETUP_DID */, 33554655)
-     , (14858, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14858, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (14858, 007 /* CLOTHINGBASE_DID */, 268435851)
-     , (14858, 008 /* ICON_DID */, 100670467)
-     , (14858, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14858', 'sleeveskoujiashadowgreater3', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14858, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (14858, 003 /* PALETTE_TEMPLATE_INT */, 24 /* DARKBLUEMETAL_PALETTE_TEMPLATE */)
-     , (14858, 004 /* CLOTHING_PRIORITY_INT */, 12288 /* OuterwearUpperArms, OuterwearLowerArms */)
-     , (14858, 005 /* ENCUMB_VAL_INT */, 925)
-     , (14858, 008 /* MASS_INT */, 550)
-     , (14858, 009 /* LOCATIONS_INT */, 6144 /* UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (14858, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14858, 019 /* VALUE_INT */, 1620)
-     , (14858, 027 /* ARMOR_TYPE_INT */, 2)
-     , (14858, 028 /* ARMOR_LEVEL_INT */, 195)
-     , (14858, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14858, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14858, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (14858, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (14858, 160 /* WIELD_DIFFICULTY_INT */, 30);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14858, 012 /* SHADE_FLOAT */, 1)
-     , (14858, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (14858, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (14858, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (14858, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (14858, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (14858, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (14858, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (14858, 110 /* BULK_MOD_FLOAT */, 1)
-     , (14858, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (14858,   1,          2) /* ItemType - Armor */
+     , (14858,   3,         24) /* PaletteTemplate - DarkBlueMetal */
+     , (14858,   4,      12288) /* ClothingPriority */
+     , (14858,   5,        925) /* EncumbranceVal */
+     , (14858,   8,        550) /* Mass */
+     , (14858,   9,       6144) /* ValidLocations */
+     , (14858,  16,          1) /* ItemUseable - No */
+     , (14858,  19,       1620) /* Value */
+     , (14858,  27,          2) /* ArmorType */
+     , (14858,  28,        195) /* ArmorLevel */
+     , (14858,  33,          1) /* Bonded - Bonded */
+     , (14858,  93,       1044) /* PhysicsState */
+     , (14858, 158,          7) /* WieldRequirements - Level */
+     , (14858, 159,          1) /* WieldSkilltype - Axe */
+     , (14858, 160,         30) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14858, 022 /* INSCRIBABLE_BOOL */, True)
-     , (14858, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (14858, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14858,  22, True ) /* Inscribable */
+     , (14858,  23, True ) /* DestroyOnSell */
+     , (14858,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14858,  12,       1) /* Shade */
+     , (14858,  13,       1) /* ArmorModVsSlash */
+     , (14858,  14,     0.8) /* ArmorModVsPierce */
+     , (14858,  15,       1) /* ArmorModVsBludgeon */
+     , (14858,  16,     0.8) /* ArmorModVsCold */
+     , (14858,  17,     0.8) /* ArmorModVsFire */
+     , (14858,  18,     0.8) /* ArmorModVsAcid */
+     , (14858,  19,     0.6) /* ArmorModVsElectric */
+     , (14858, 110,       1) /* BulkMod */
+     , (14858, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14858,   1, 'Greater Koujia Shadow Sleeves') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14858,   1,   33554655) /* Setup */
+     , (14858,   3,  536870932) /* SoundTable */
+     , (14858,   6,   67108990) /* PaletteBase */
+     , (14858,   7,  268435851) /* ClothingBase */
+     , (14858,   8,  100670467) /* Icon */
+     , (14858,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,35 +1,31 @@
-/* Weenie - Defiled Temple Middle Wing (30750) */
-DELETE FROM weenie WHERE class_Id = 30750;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30750, 'portaldefiledtemplemid', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30750, 001 /* NAME_STRING */, 'Defiled Temple Middle Wing');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30750, 001 /* SETUP_DID */, 33555924)
-     , (30750, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (30750, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30750', 'portaldefiledtemplemid', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30750, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (30750, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (30750, 086 /* MIN_LEVEL_INT */, 60)
-     , (30750, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (30750, 111 /* PORTAL_BITMASK_INT */, 17 /* Player_NotSummonable_PortalEnum */)
-     , (30750, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30750, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (30750,   1,      65536) /* ItemType - Portal */
+     , (30750,  16,         32) /* ItemUseable - Remote */
+     , (30750,  86,         60) /* MinLevel */
+     , (30750,  93,       3084) /* PhysicsState */
+     , (30750, 111,         17) /* PortalBitmask */
+     , (30750, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30750, 001 /* STUCK_BOOL */, True)
-     , (30750, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (30750, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (30750, 013 /* ETHEREAL_BOOL */, True)
-     , (30750, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (30750,   1, True ) /* Stuck */
+     , (30750,  11, False) /* IgnoreCollisions */
+     , (30750,  12, True ) /* ReportCollisions */
+     , (30750,  13, True ) /* Ethereal */
+     , (30750,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30750,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30750,   1, 'Defiled Temple Middle Wing') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30750,   1,   33555924) /* Setup */
+     , (30750,   2,  150994947) /* MotionTable */
+     , (30750,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30750, 2, 32244068, 20, -110, 0.005, 0.7071068, 0, 0, -0.7071068) /* DESTINATION_POSITION */;
-
+VALUES (30750, 2, 32244068, 20, -110, 0.005, 0.7071068, 0, 0, -0.7071068) /* Destination */;

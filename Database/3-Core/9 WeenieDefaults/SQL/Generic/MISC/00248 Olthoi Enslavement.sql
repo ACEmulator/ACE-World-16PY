@@ -1,31 +1,27 @@
-/* Weenie - Olthoi Enslavement (248) */
-DELETE FROM weenie WHERE class_Id = 248;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (248, 'painting2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (248, 001 /* NAME_STRING */, 'Olthoi Enslavement')
-     , (248, 015 /* SHORT_DESC_STRING */, 'This item can be used on an item hook.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (248, 001 /* SETUP_DID */, 33557342)
-     , (248, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (248, 008 /* ICON_DID */, 100672344)
-     , (248, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('248', 'painting2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (248, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (248, 005 /* ENCUMB_VAL_INT */, 5000)
-     , (248, 008 /* MASS_INT */, 25)
-     , (248, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (248, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (248, 019 /* VALUE_INT */, 12904)
-     , (248, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (248, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (248, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (248,   1,        128) /* ItemType - Misc */
+     , (248,   5,       5000) /* EncumbranceVal */
+     , (248,   8,         25) /* Mass */
+     , (248,   9,          0) /* ValidLocations - None */
+     , (248,  16,          1) /* ItemUseable - No */
+     , (248,  19,      12904) /* Value */
+     , (248,  93,       1044) /* PhysicsState */
+     , (248, 150,        103) /* HookPlacement - Hook */
+     , (248, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (248, 013 /* ETHEREAL_BOOL */, True)
-     , (248, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (248,  13, True ) /* Ethereal */
+     , (248,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (248,   1, 'Olthoi Enslavement') /* Name */
+     , (248,  15, 'This item can be used on an item hook.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (248,   1,   33557342) /* Setup */
+     , (248,   3,  536870932) /* SoundTable */
+     , (248,   8,  100672344) /* Icon */
+     , (248,  22,  872415275) /* PhysicsEffectTable */;

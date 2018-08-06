@@ -1,28 +1,24 @@
-/* Weenie - South Town Supplies (4517) */
-DELETE FROM weenie WHERE class_Id = 4517;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4517, 'nantoprovisionersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4517, 001 /* NAME_STRING */, 'South Town Supplies')
-     , (4517, 016 /* LONG_DESC_STRING */, 'South Town Supplies');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4517, 001 /* SETUP_DID */, 33555594)
-     , (4517, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4517', 'nantoprovisionersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4517, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4517, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4517, 008 /* MASS_INT */, 1800)
-     , (4517, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4517, 019 /* VALUE_INT */, 125)
-     , (4517, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4517,   1,        128) /* ItemType - Misc */
+     , (4517,   5,       9000) /* EncumbranceVal */
+     , (4517,   8,       1800) /* Mass */
+     , (4517,  16,          1) /* ItemUseable - No */
+     , (4517,  19,        125) /* Value */
+     , (4517,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4517, 001 /* STUCK_BOOL */, True)
-     , (4517, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4517, 013 /* ETHEREAL_BOOL */, False)
-     , (4517, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4517,   1, True ) /* Stuck */
+     , (4517,  12, True ) /* ReportCollisions */
+     , (4517,  13, False) /* Ethereal */
+     , (4517,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4517,   1, 'South Town Supplies') /* Name */
+     , (4517,  16, 'South Town Supplies') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4517,   1,   33555594) /* Setup */
+     , (4517,   8,  100668115) /* Icon */;

@@ -1,35 +1,32 @@
-/* Weenie - Gharu'ndim Cookbook (5584) */
-DELETE FROM weenie WHERE class_Id = 5584;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5584, 'cookbookgharundim', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5584, 001 /* NAME_STRING */, 'Gharu''ndim Cookbook');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5584, 001 /* SETUP_DID */, 33554771)
-     , (5584, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5584, 008 /* ICON_DID */, 100668117)
-     , (5584, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5584', 'cookbookgharundim', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5584, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5584, 005 /* ENCUMB_VAL_INT */, 200)
-     , (5584, 008 /* MASS_INT */, 100)
-     , (5584, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5584, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5584, 019 /* VALUE_INT */, 15)
-     , (5584, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5584, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5584,   1,       8192) /* ItemType - Writable */
+     , (5584,   5,        200) /* EncumbranceVal */
+     , (5584,   8,        100) /* Mass */
+     , (5584,   9,          0) /* ValidLocations - None */
+     , (5584,  16,          8) /* ItemUseable - Contained */
+     , (5584,  19,         15) /* Value */
+     , (5584,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5584, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (5584,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5584,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5584,   1, 'Gharu''ndim Cookbook') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5584,   1,   33554771) /* Setup */
+     , (5584,   3,  536870932) /* SoundTable */
+     , (5584,   8,  100668117) /* Icon */
+     , (5584,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5584, 6, 1000) /* Book Data */;
+VALUES (5584, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5584, 0, 4294967295, 'Breads & Cakes', 'prewritten', False, 'BREAD & CAKES
@@ -81,4 +78,3 @@ Some foods are also receptive to oils that make them more potent. These oils, ma
 Foods affected by alchemical oils include cakes and pies.
 
 ');
-

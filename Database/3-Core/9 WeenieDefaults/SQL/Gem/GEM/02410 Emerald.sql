@@ -1,38 +1,34 @@
-/* Weenie - Emerald (2410) */
-DELETE FROM weenie WHERE class_Id = 2410;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2410, 'jewelemerald', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2410, 001 /* NAME_STRING */, 'Emerald');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2410, 001 /* SETUP_DID */, 33554809)
-     , (2410, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2410, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2410, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (2410, 008 /* ICON_DID */, 100674731)
-     , (2410, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2410, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2410', 'jewelemerald', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2410, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (2410, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (2410, 005 /* ENCUMB_VAL_INT */, 5)
-     , (2410, 008 /* MASS_INT */, 5)
-     , (2410, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2410, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (2410, 012 /* STACK_SIZE_INT */, 1)
-     , (2410, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (2410, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (2410, 015 /* STACK_UNIT_VALUE_INT */, 1000)
-     , (2410, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2410, 019 /* VALUE_INT */, 1000)
-     , (2410, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2410, 131 /* MATERIAL_TYPE_INT */, 21 /* Emerald_MaterialType */)
-     , (2410, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
+VALUES (2410,   1,       2048) /* ItemType - Gem */
+     , (2410,   3,          8) /* PaletteTemplate - Green */
+     , (2410,   5,          5) /* EncumbranceVal */
+     , (2410,   8,          5) /* Mass */
+     , (2410,   9,          0) /* ValidLocations - None */
+     , (2410,  11,          1) /* MaxStackSize */
+     , (2410,  12,          1) /* StackSize */
+     , (2410,  13,          5) /* StackUnitEncumbrance */
+     , (2410,  14,          5) /* StackUnitMass */
+     , (2410,  15,       1000) /* StackUnitValue */
+     , (2410,  16,          1) /* ItemUseable - No */
+     , (2410,  19,       1000) /* Value */
+     , (2410,  93,       1044) /* PhysicsState */
+     , (2410, 131,         21) /* MaterialType - Emerald */
+     , (2410, 169,   16777216) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2410, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2410,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2410,   1, 'Emerald') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2410,   1,   33554809) /* Setup */
+     , (2410,   3,  536870932) /* SoundTable */
+     , (2410,   6,   67111919) /* PaletteBase */
+     , (2410,   7,  268435723) /* ClothingBase */
+     , (2410,   8,  100674731) /* Icon */
+     , (2410,  22,  872415275) /* PhysicsEffectTable */
+     , (2410,  36,  234881046) /* MutateFilter */;

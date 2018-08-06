@@ -1,34 +1,30 @@
-/* Weenie - Renegade's Token (20033) */
-DELETE FROM weenie WHERE class_Id = 20033;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20033, 'tokenmartinerenegade', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20033, 001 /* NAME_STRING */, 'Renegade''s Token')
-     , (20033, 015 /* SHORT_DESC_STRING */, 'This token was found on the remains of a Renegade Virindi and is of some worth to their enemies. Return it to Martine for a reward.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20033, 001 /* SETUP_DID */, 33557843)
-     , (20033, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20033, 008 /* ICON_DID */, 100673063)
-     , (20033, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20033, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20033', 'tokenmartinerenegade', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20033, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (20033, 005 /* ENCUMB_VAL_INT */, 5)
-     , (20033, 008 /* MASS_INT */, 5)
-     , (20033, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20033, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (20033, 012 /* STACK_SIZE_INT */, 1)
-     , (20033, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (20033, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (20033, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (20033, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20033, 019 /* VALUE_INT */, 0)
-     , (20033, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (20033,   1,       2048) /* ItemType - Gem */
+     , (20033,   5,          5) /* EncumbranceVal */
+     , (20033,   8,          5) /* Mass */
+     , (20033,   9,          0) /* ValidLocations - None */
+     , (20033,  11,          1) /* MaxStackSize */
+     , (20033,  12,          1) /* StackSize */
+     , (20033,  13,          5) /* StackUnitEncumbrance */
+     , (20033,  14,          5) /* StackUnitMass */
+     , (20033,  15,          0) /* StackUnitValue */
+     , (20033,  16,          1) /* ItemUseable - No */
+     , (20033,  19,          0) /* Value */
+     , (20033,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20033, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (20033,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20033,   1, 'Renegade''s Token') /* Name */
+     , (20033,  15, 'This token was found on the remains of a Renegade Virindi and is of some worth to their enemies. Return it to Martine for a reward.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20033,   1,   33557843) /* Setup */
+     , (20033,   3,  536870932) /* SoundTable */
+     , (20033,   8,  100673063) /* Icon */
+     , (20033,  22,  872415275) /* PhysicsEffectTable */
+     , (20033,  36,  234881046) /* MutateFilter */;

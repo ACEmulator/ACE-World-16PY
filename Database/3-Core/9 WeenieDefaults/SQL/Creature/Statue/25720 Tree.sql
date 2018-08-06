@@ -1,139 +1,149 @@
-/* Weenie - Tree (25720) */
-DELETE FROM weenie WHERE class_Id = 25720;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25720, 'portaltreenoir1', 10 /* Creature_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25720, 001 /* NAME_STRING */, 'Tree')
-     , (25720, 015 /* SHORT_DESC_STRING */, 'A tree, looking much like all the others.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25720, 001 /* SETUP_DID */, 33558278)
-     , (25720, 002 /* MOTION_TABLE_DID */, 150995147)
-     , (25720, 003 /* SOUND_TABLE_DID */, 536871052)
-     , (25720, 004 /* COMBAT_TABLE_DID */, 805306398)
-     , (25720, 008 /* ICON_DID */, 100667499)
-     , (25720, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415274);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25720', 'portaltreenoir1', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25720, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (25720, 002 /* CREATURE_TYPE_INT */, 63 /* Statue_CreatureType */)
-     , (25720, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (25720, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (25720, 008 /* MASS_INT */, 120)
-     , (25720, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (25720, 025 /* LEVEL_INT */, 710)
-     , (25720, 027 /* ARMOR_TYPE_INT */, 0)
-     , (25720, 093 /* PHYSICS_STATE_INT */, 6292504 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS, EDGE_SLIDE_PS */)
-     , (25720, 095 /* RADARBLIP_COLOR_INT */, 3 /* White */)
-     , (25720, 133 /* SHOWABLE_ON_RADAR_INT */, 0 /* Undef_RadarEnum */)
-     , (25720, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
-     , (25720, 146 /* XP_OVERRIDE_INT */, 43164);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25720, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
-     , (25720, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
-     , (25720, 003 /* HEALTH_RATE_FLOAT */, 1.1)
-     , (25720, 004 /* STAMINA_RATE_FLOAT */, 0.5)
-     , (25720, 005 /* MANA_RATE_FLOAT */, 2)
-     , (25720, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.79)
-     , (25720, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.79)
-     , (25720, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
-     , (25720, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (25720, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (25720, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (25720, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (25720, 039 /* DEFAULT_SCALE_FLOAT */, 1.2)
-     , (25720, 054 /* USE_RADIUS_FLOAT */, 3)
-     , (25720, 064 /* RESIST_SLASH_FLOAT */, 1)
-     , (25720, 065 /* RESIST_PIERCE_FLOAT */, 1)
-     , (25720, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
-     , (25720, 067 /* RESIST_FIRE_FLOAT */, 1)
-     , (25720, 068 /* RESIST_COLD_FLOAT */, 1)
-     , (25720, 069 /* RESIST_ACID_FLOAT */, 1)
-     , (25720, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
-     , (25720, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
-     , (25720, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
-     , (25720, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
-     , (25720, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
-     , (25720, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
-     , (25720, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
-     , (25720, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
+VALUES (25720,   1,         16) /* ItemType - Creature */
+     , (25720,   2,         63) /* CreatureType - Statue */
+     , (25720,   6,         -1) /* ItemsCapacity */
+     , (25720,   7,         -1) /* ContainersCapacity */
+     , (25720,   8,        120) /* Mass */
+     , (25720,  16,         32) /* ItemUseable - Remote */
+     , (25720,  25,        710) /* Level */
+     , (25720,  27,          0) /* ArmorType */
+     , (25720,  93,    6292504) /* PhysicsState */
+     , (25720,  95,          3) /* RadarBlipColor - White */
+     , (25720, 133,          0) /* ShowableOnRadar - Undefined */
+     , (25720, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (25720, 146,      43164) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25720, 001 /* STUCK_BOOL */, True)
-     , (25720, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (25720, 013 /* ETHEREAL_BOOL */, False)
-     , (25720, 019 /* ATTACKABLE_BOOL */, False)
-     , (25720, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True)
-     , (25720, 042 /* ALLOW_EDGE_SLIDE_BOOL */, True)
-     , (25720, 052 /* AI_IMMOBILE_BOOL */, True)
-     , (25720, 082 /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */, True)
-     , (25720, 083 /* NPC_LOOKS_LIKE_OBJECT_BOOL */, True);
+VALUES (25720,   1, True ) /* Stuck */
+     , (25720,  12, True ) /* ReportCollisions */
+     , (25720,  13, False) /* Ethereal */
+     , (25720,  19, False) /* Attackable */
+     , (25720,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (25720,  42, True ) /* AllowEdgeSlide */
+     , (25720,  52, True ) /* AiImmobile */
+     , (25720,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (25720,  83, True ) /* NpcLooksLikeObject */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25720,   1,       5) /* HeartbeatInterval */
+     , (25720,   2,       0) /* HeartbeatTimestamp */
+     , (25720,   3,     1.1) /* HealthRate */
+     , (25720,   4,     0.5) /* StaminaRate */
+     , (25720,   5,       2) /* ManaRate */
+     , (25720,  13,    0.79) /* ArmorModVsSlash */
+     , (25720,  14,    0.79) /* ArmorModVsPierce */
+     , (25720,  15,     0.8) /* ArmorModVsBludgeon */
+     , (25720,  16,       1) /* ArmorModVsCold */
+     , (25720,  17,       1) /* ArmorModVsFire */
+     , (25720,  18,       1) /* ArmorModVsAcid */
+     , (25720,  19,       1) /* ArmorModVsElectric */
+     , (25720,  39,     1.2) /* DefaultScale */
+     , (25720,  54,       3) /* UseRadius */
+     , (25720,  64,       1) /* ResistSlash */
+     , (25720,  65,       1) /* ResistPierce */
+     , (25720,  66,       1) /* ResistBludgeon */
+     , (25720,  67,       1) /* ResistFire */
+     , (25720,  68,       1) /* ResistCold */
+     , (25720,  69,       1) /* ResistAcid */
+     , (25720,  70,       1) /* ResistElectric */
+     , (25720,  71,       1) /* ResistHealthBoost */
+     , (25720,  72,       1) /* ResistStaminaDrain */
+     , (25720,  73,       1) /* ResistStaminaBoost */
+     , (25720,  74,       1) /* ResistManaDrain */
+     , (25720,  75,       1) /* ResistManaBoost */
+     , (25720, 104,      10) /* ObviousRadarRange */
+     , (25720, 125,       1) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25720,   1, 'Tree') /* Name */
+     , (25720,  15, 'A tree, looking much like all the others.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25720,   1,   33558278) /* Setup */
+     , (25720,   2,  150995147) /* MotionTable */
+     , (25720,   3,  536871052) /* SoundTable */
+     , (25720,   4,  805306398) /* CombatTable */
+     , (25720,   8,  100667499) /* Icon */
+     , (25720,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (25720, 1, 380, 0, 0) /* STRENGTH_ATTRIBUTE */
-     , (25720, 2, 340, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (25720, 3, 250, 0, 0) /* QUICKNESS_ATTRIBUTE */
-     , (25720, 4, 330, 0, 0) /* COORDINATION_ATTRIBUTE */
-     , (25720, 5, 250, 0, 0) /* FOCUS_ATTRIBUTE */
-     , (25720, 6, 285, 0, 0) /* SELF_ATTRIBUTE */;
+VALUES (25720,   1, 380, 0, 0) /* Strength */
+     , (25720,   2, 340, 0, 0) /* Endurance */
+     , (25720,   3, 250, 0, 0) /* Quickness */
+     , (25720,   4, 330, 0, 0) /* Coordination */
+     , (25720,   5, 250, 0, 0) /* Focus */
+     , (25720,   6, 285, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25720, 1, 200, 0, 0, 370) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25720, 3, 151, 0, 0, 491) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25720, 5, 201, 0, 0, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
-
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (25720, 0, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
-     , (25720, 1, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
-     , (25720, 2, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
-     , (25720, 3, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
-     , (25720, 4, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
-     , (25720, 5, 4, 90, 0.75, 200, 158, 158, 160, 200, 200, 200, 200, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
-     , (25720, 6, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (25720, 7, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
-     , (25720, 8, 4, 90, 0.75, 200, 158, 158, 160, 200, 200, 200, 200, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
+VALUES (25720,   1,   200, 0, 0, 370) /* MaxHealth */
+     , (25720,   3,   151, 0, 0, 491) /* MaxStamina */
+     , (25720,   5,   201, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25720, 14, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 200, 0, 1659.56323013423) /* ARCANE_LORE_SKILL */
-     , (25720, 16, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 200, 0, 1659.56323013423) /* MANA_CONVERSION_SKILL */
-     , (25720, 20, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 900, 0, 1659.56323013423) /* DECEPTION_SKILL */
-     , (25720, 22, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 200, 0, 1659.56323013423) /* JUMP_SKILL */
-     , (25720, 24, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 200, 0, 1659.56323013423) /* RUN_SKILL */
-     , (25720, 31, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 900, 0, 1659.56323013423) /* CREATURE_ENCHANTMENT_SKILL */
-     , (25720, 33, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 900, 0, 1659.56323013423) /* LIFE_MAGIC_SKILL */
-     , (25720, 34, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 900, 0, 1659.56323013423) /* WAR_MAGIC_SKILL */;
+VALUES (25720, 14, 0, 3, 0, 200, 0, 1659.56323013423) /* ArcaneLore          Specialized */
+     , (25720, 16, 0, 3, 0, 200, 0, 1659.56323013423) /* ManaConversion      Specialized */
+     , (25720, 20, 0, 3, 0, 900, 0, 1659.56323013423) /* Deception           Specialized */
+     , (25720, 22, 0, 3, 0, 200, 0, 1659.56323013423) /* Jump                Specialized */
+     , (25720, 24, 0, 3, 0, 200, 0, 1659.56323013423) /* Run                 Specialized */
+     , (25720, 31, 0, 3, 0, 900, 0, 1659.56323013423) /* CreatureEnchantment Specialized */
+     , (25720, 33, 0, 3, 0, 900, 0, 1659.56323013423) /* LifeMagic           Specialized */
+     , (25720, 34, 0, 3, 0, 900, 0, 1659.56323013423) /* WarMagic            Specialized */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25720, 1, 7 /* Use_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 1, 12 /* QuestSuccess_EmoteCategory */, 0, NULL, NULL, NULL, 'DameNoir1', NULL, NULL, NULL)
-     , (25720, 1, 13 /* QuestFailure_EmoteCategory */, 0, NULL, NULL, NULL, 'DameNoir1', NULL, NULL, NULL);
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (25720,  0,  4,  0,    0,  200,  158,  158,  160,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (25720,  1,  4,  0,    0,  200,  158,  158,  160,  200,  200,  200,  200,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (25720,  2,  4,  0,    0,  200,  158,  158,  160,  200,  200,  200,  200,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (25720,  3,  4,  0,    0,  200,  158,  158,  160,  200,  200,  200,  200,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (25720,  4,  4,  0,    0,  200,  158,  158,  160,  200,  200,  200,  200,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (25720,  5,  4, 90, 0.75,  200,  158,  158,  160,  200,  200,  200,  200,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (25720,  6,  4,  0,    0,  200,  158,  158,  160,  200,  200,  200,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (25720,  7,  4,  0,    0,  200,  158,  158,  160,  200,  200,  200,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (25720,  8,  4, 90, 0.75,  200,  158,  158,  160,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25720, 7 /* Use_EmoteCategory */, 0, 0, 21 /* InqQuest_EmoteType */, 0, 1, NULL, 'DameNoir1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 0, 13 /* TextDirect_EmoteType */, 0, 1, NULL, 'You think, "Ever since I left the Dame standing in her room all alone I couldn''t help but wonder..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 1, 52 /* ForceMotion_EmoteType */, 1, 1, 1124073716 /* Motion_ScratchHeadState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 2, 13 /* TextDirect_EmoteType */, 0, 1, NULL, 'You think, "What was the towel for? I stopped and looked myself over twice, nothing on my face or hands. I knew I should have been paying attention while she was talking, but her voice kept me occupied."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 3, 52 /* ForceMotion_EmoteType */, 2.5, 1, 318767238 /* Motion_Shrug */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 4, 13 /* TextDirect_EmoteType */, 0, 1, NULL, 'You think, "I found myself running my hands over trees. They all looked alike in this little copse. I felt strange, like being watched. The feeling passed after a moment... As I ran my hands over the tree in front of me, I was struck by an odd feeling of deja vu..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 5, 52 /* ForceMotion_EmoteType */, 2.5, 1, 318767237 /* Motion_ShakeHead */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 6, 52 /* ForceMotion_EmoteType */, 0, 1, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 7, 13 /* TextDirect_EmoteType */, 0, 1, NULL, 'You think, "I didn''t remember seeing this place before, but somewhere in the dark shadows that shrouded my mind, I knew I had. Sure it had changed, but a lot had changed since I walked through that first swirling portal on Ispar. I was no hero there. I was simply living my life. I felt like I was waiting for something."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 8, 52 /* ForceMotion_EmoteType */, 2.5, 1, 1124073717 /* Motion_TapFootState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 9, 13 /* TextDirect_EmoteType */, 0, 1, NULL, 'You think, "I had the urge to dance..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 10, 52 /* ForceMotion_EmoteType */, 1, 1, 1124073793 /* Motion_PointRightState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 11, 13 /* TextDirect_EmoteType */, 3, 1, NULL, 'You think, "I suddenly realized that this tree was different from the others. There was a light syrupy texture that coated the branches. I pulled my hand up to my lips for a quick taste."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 12, 52 /* ForceMotion_EmoteType */, 3, 1, 318767233 /* Motion_MimeEat */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 13, 52 /* ForceMotion_EmoteType */, 0.5, 1, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 14, 13 /* TextDirect_EmoteType */, 0, 1, NULL, 'You think, "A heavy weight landed on my shoulders in the form of my head. It was like having ''Weight of the World'' cast on you while making a run to the shop to unload your latest armor haul. Everything slowed down and a taste of honey filled my mouth.  I dropped to a knee..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 15, 52 /* ForceMotion_EmoteType */, 2.5, 1, 1124073719 /* Motion_KneelState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 16, 13 /* TextDirect_EmoteType */, 2.5, 1, NULL, 'You think, "...but it wasn''t enough. I fell to the ground, like a mosswart who had zigged when he should have zagged."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 17, 52 /* ForceMotion_EmoteType */, 0, 1, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 18, 52 /* ForceMotion_EmoteType */, 2, 1, 1124073794 /* Motion_TalktotheHandState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 19, 19 /* CastSpellInstant_EmoteType */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2990 /* PortalSendingTreeNoir1_SpellID */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 20, 13 /* TextDirect_EmoteType */, 0, 1, NULL, 'You think, "The world spun out of control, a long gray tunnel filled with purple shards told me that I was heading back to my lifestone. The tree''s sap had played the role of hammer to my olthoi shell."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 12 /* QuestSuccess_EmoteCategory */, 0, 21, 13 /* TextDirect_EmoteType */, 0.5, 1, NULL, 'You think, "But my ride through the big swirl dropped me somewhere else. I didn''t know where I was. An open book on a nearby desk called to me."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (25720, 13 /* QuestFailure_EmoteCategory */, 0, 0, 13 /* TextDirect_EmoteType */, 0, 1, NULL, 'You think, "I like trees. Cripes, I hope no one saw me rubbing up against this tree."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25720,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'DameNoir1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25720, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'DameNoir1', NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  13 /* TextDirect */, 0, 1, NULL, 'You think, "Ever since I left the Dame standing in her room all alone I couldn''t help but wonder..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  52 /* ForceMotion */, 1, 1, 1124073716 /* ScratchHeadState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,  13 /* TextDirect */, 0, 1, NULL, 'You think, "What was the towel for? I stopped and looked myself over twice, nothing on my face or hands. I knew I should have been paying attention while she was talking, but her voice kept me occupied."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  3,  52 /* ForceMotion */, 2.5, 1, 318767238 /* Shrug */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  4,  13 /* TextDirect */, 0, 1, NULL, 'You think, "I found myself running my hands over trees. They all looked alike in this little copse. I felt strange, like being watched. The feeling passed after a moment... As I ran my hands over the tree in front of me, I was struck by an odd feeling of deja vu..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  5,  52 /* ForceMotion */, 2.5, 1, 318767237 /* ShakeHead */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  6,  52 /* ForceMotion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  7,  13 /* TextDirect */, 0, 1, NULL, 'You think, "I didn''t remember seeing this place before, but somewhere in the dark shadows that shrouded my mind, I knew I had. Sure it had changed, but a lot had changed since I walked through that first swirling portal on Ispar. I was no hero there. I was simply living my life. I felt like I was waiting for something."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  8,  52 /* ForceMotion */, 2.5, 1, 1124073717 /* TapFootState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  9,  13 /* TextDirect */, 0, 1, NULL, 'You think, "I had the urge to dance..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 10,  52 /* ForceMotion */, 1, 1, 1124073793 /* PointRightState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 11,  13 /* TextDirect */, 3, 1, NULL, 'You think, "I suddenly realized that this tree was different from the others. There was a light syrupy texture that coated the branches. I pulled my hand up to my lips for a quick taste."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 12,  52 /* ForceMotion */, 3, 1, 318767233 /* MimeEat */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 13,  52 /* ForceMotion */, 0.5, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 14,  13 /* TextDirect */, 0, 1, NULL, 'You think, "A heavy weight landed on my shoulders in the form of my head. It was like having ''Weight of the World'' cast on you while making a run to the shop to unload your latest armor haul. Everything slowed down and a taste of honey filled my mouth.  I dropped to a knee..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 15,  52 /* ForceMotion */, 2.5, 1, 1124073719 /* KneelState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 16,  13 /* TextDirect */, 2.5, 1, NULL, 'You think, "...but it wasn''t enough. I fell to the ground, like a mosswart who had zigged when he should have zagged."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 17,  52 /* ForceMotion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 18,  52 /* ForceMotion */, 2, 1, 1124073794 /* TalktotheHandState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 19,  19 /* CastSpellInstant */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2990 /* Knocked Out */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 20,  13 /* TextDirect */, 0, 1, NULL, 'You think, "The world spun out of control, a long gray tunnel filled with purple shards told me that I was heading back to my lifestone. The tree''s sap had played the role of hammer to my olthoi shell."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 21,  13 /* TextDirect */, 0.5, 1, NULL, 'You think, "But my ride through the big swirl dropped me somewhere else. I didn''t know where I was. An open book on a nearby desk called to me."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25720, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'DameNoir1', NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  13 /* TextDirect */, 0, 1, NULL, 'You think, "I like trees. Cripes, I hope no one saw me rubbing up against this tree."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

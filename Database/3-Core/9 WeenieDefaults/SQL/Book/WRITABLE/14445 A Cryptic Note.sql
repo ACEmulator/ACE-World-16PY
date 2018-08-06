@@ -1,45 +1,41 @@
-/* Weenie - A Cryptic Note (14445) */
-DELETE FROM weenie WHERE class_Id = 14445;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14445, 'noteregicideholtburg', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14445, 001 /* NAME_STRING */, 'A Cryptic Note')
-     , (14445, 015 /* SHORT_DESC_STRING */, 'A note.')
-     , (14445, 033 /* QUEST_STRING */, 'NoteRegicideHoltburgPickUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14445, 001 /* SETUP_DID */, 33557474)
-     , (14445, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14445, 008 /* ICON_DID */, 100672466)
-     , (14445, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14445', 'noteregicideholtburg', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14445, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (14445, 005 /* ENCUMB_VAL_INT */, 5)
-     , (14445, 008 /* MASS_INT */, 5)
-     , (14445, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14445, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (14445, 019 /* VALUE_INT */, 0)
-     , (14445, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14445, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14445, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14445, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (14445,   1,       8192) /* ItemType - Writable */
+     , (14445,   5,          5) /* EncumbranceVal */
+     , (14445,   8,          5) /* Mass */
+     , (14445,   9,          0) /* ValidLocations - None */
+     , (14445,  16,          8) /* ItemUseable - Contained */
+     , (14445,  19,          0) /* Value */
+     , (14445,  33,          1) /* Bonded - Bonded */
+     , (14445,  93,       1044) /* PhysicsState */
+     , (14445, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14445, 001 /* STUCK_BOOL */, False)
-     , (14445, 022 /* INSCRIBABLE_BOOL */, False)
-     , (14445, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (14445,   1, False) /* Stuck */
+     , (14445,  22, False) /* Inscribable */
+     , (14445,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14445,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14445,   1, 'A Cryptic Note') /* Name */
+     , (14445,  15, 'A note.') /* ShortDesc */
+     , (14445,  33, 'NoteRegicideHoltburgPickUp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14445,   1,   33557474) /* Setup */
+     , (14445,   3,  536870932) /* SoundTable */
+     , (14445,   8,  100672466) /* Icon */
+     , (14445,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (14445, 1, 1000) /* Book Data */;
+VALUES (14445, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (14445, 0, 4294967295, '', 'prewritten', False, '(The creases in the parchment have obscured much of the writing, but some of it is still discernible.)
 
 ...the perfect place to conduct our part of the plan. Asuger Temple ... A delicious irony that it would be here, under their very noses. We are close to refining the required amount of the substance--bide your time among the town''s unwitting inhabitants until you are called to transport the cargo.
 ');
-

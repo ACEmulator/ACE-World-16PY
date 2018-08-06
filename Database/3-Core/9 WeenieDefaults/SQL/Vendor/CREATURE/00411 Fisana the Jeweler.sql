@@ -1,138 +1,178 @@
-/* Weenie - Fisana the Jeweler (411) */
-DELETE FROM weenie WHERE class_Id = 411;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (411, 'jeweler-gharundim', 12 /* Vendor_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (411, 001 /* NAME_STRING */, 'Fisana the Jeweler')
-     , (411, 003 /* SEX_STRING */, 'Female')
-     , (411, 004 /* HERITAGE_GROUP_STRING */, 'Gharu''ndim')
-     , (411, 005 /* TEMPLATE_STRING */, 'Jeweler');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (411, 001 /* SETUP_DID */, 33554510)
-     , (411, 002 /* MOTION_TABLE_DID */, 150994945)
-     , (411, 003 /* SOUND_TABLE_DID */, 536870914)
-     , (411, 004 /* COMBAT_TABLE_DID */, 805306368)
-     , (411, 008 /* ICON_DID */, 100667446);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('411', 'jeweler-gharundim', 12) /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (411, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (411, 002 /* CREATURE_TYPE_INT */, 31 /* Human_CreatureType */)
-     , (411, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (411, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (411, 008 /* MASS_INT */, 120)
-     , (411, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (411, 025 /* LEVEL_INT */, 3)
-     , (411, 027 /* ARMOR_TYPE_INT */, 0)
-     , (411, 074 /* MERCHANDISE_ITEM_TYPES_INT */, 18440 /* TYPE_JEWELRY, TYPE_GEM, TYPE_KEY */)
-     , (411, 075 /* MERCHANDISE_MIN_VALUE_INT */, 0)
-     , (411, 076 /* MERCHANDISE_MAX_VALUE_INT */, 100000)
-     , (411, 093 /* PHYSICS_STATE_INT */, 2098200 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS */)
-     , (411, 126 /* VENDOR_HAPPY_MEAN_INT */, 800)
-     , (411, 127 /* VENDOR_HAPPY_VARIANCE_INT */, 500)
-     , (411, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
-     , (411, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
-     , (411, 146 /* XP_OVERRIDE_INT */, 31);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (411, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
-     , (411, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
-     , (411, 003 /* HEALTH_RATE_FLOAT */, 0.16)
-     , (411, 004 /* STAMINA_RATE_FLOAT */, 5)
-     , (411, 005 /* MANA_RATE_FLOAT */, 1)
-     , (411, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (411, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.9)
-     , (411, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (411, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.1)
-     , (411, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (411, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (411, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (411, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (411, 037 /* BUY_PRICE_FLOAT */, 0.9)
-     , (411, 038 /* SELL_PRICE_FLOAT */, 1.55)
-     , (411, 054 /* USE_RADIUS_FLOAT */, 3)
-     , (411, 064 /* RESIST_SLASH_FLOAT */, 1)
-     , (411, 065 /* RESIST_PIERCE_FLOAT */, 1)
-     , (411, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
-     , (411, 067 /* RESIST_FIRE_FLOAT */, 1)
-     , (411, 068 /* RESIST_COLD_FLOAT */, 1)
-     , (411, 069 /* RESIST_ACID_FLOAT */, 1)
-     , (411, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
-     , (411, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
-     , (411, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
-     , (411, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
-     , (411, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
-     , (411, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
-     , (411, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
-     , (411, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
+VALUES (411,   1,         16) /* ItemType - Creature */
+     , (411,   2,         31) /* CreatureType - Human */
+     , (411,   6,         -1) /* ItemsCapacity */
+     , (411,   7,         -1) /* ContainersCapacity */
+     , (411,   8,        120) /* Mass */
+     , (411,  16,         32) /* ItemUseable - Remote */
+     , (411,  25,          3) /* Level */
+     , (411,  27,          0) /* ArmorType */
+     , (411,  74,      18440) /* MerchandiseItemTypes */
+     , (411,  75,          0) /* MerchandiseMinValue */
+     , (411,  76,     100000) /* MerchandiseMaxValue */
+     , (411,  93,    2098200) /* PhysicsState */
+     , (411, 126,        800) /* VendorHappyMean */
+     , (411, 127,        500) /* VendorHappyVariance */
+     , (411, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (411, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (411, 146,         31) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (411, 001 /* STUCK_BOOL */, True)
-     , (411, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (411, 013 /* ETHEREAL_BOOL */, False)
-     , (411, 019 /* ATTACKABLE_BOOL */, False)
-     , (411, 039 /* DEAL_MAGICAL_ITEMS_BOOL */, True)
-     , (411, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True);
+VALUES (411,   1, True ) /* Stuck */
+     , (411,  12, True ) /* ReportCollisions */
+     , (411,  13, False) /* Ethereal */
+     , (411,  19, False) /* Attackable */
+     , (411,  39, True ) /* DealMagicalItems */
+     , (411,  41, True ) /* ReportCollisionsAsEnvironment */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (411,   1,       5) /* HeartbeatInterval */
+     , (411,   2,       0) /* HeartbeatTimestamp */
+     , (411,   3,    0.16) /* HealthRate */
+     , (411,   4,       5) /* StaminaRate */
+     , (411,   5,       1) /* ManaRate */
+     , (411,  11,     300) /* ResetInterval */
+     , (411,  13,     0.9) /* ArmorModVsSlash */
+     , (411,  14,       1) /* ArmorModVsPierce */
+     , (411,  15,     1.1) /* ArmorModVsBludgeon */
+     , (411,  16,     0.4) /* ArmorModVsCold */
+     , (411,  17,     0.4) /* ArmorModVsFire */
+     , (411,  18,       1) /* ArmorModVsAcid */
+     , (411,  19,     0.6) /* ArmorModVsElectric */
+     , (411,  37,     0.9) /* BuyPrice */
+     , (411,  38,    1.55) /* SellPrice */
+     , (411,  54,       3) /* UseRadius */
+     , (411,  64,       1) /* ResistSlash */
+     , (411,  65,       1) /* ResistPierce */
+     , (411,  66,       1) /* ResistBludgeon */
+     , (411,  67,       1) /* ResistFire */
+     , (411,  68,       1) /* ResistCold */
+     , (411,  69,       1) /* ResistAcid */
+     , (411,  70,       1) /* ResistElectric */
+     , (411,  71,       1) /* ResistHealthBoost */
+     , (411,  72,       1) /* ResistStaminaDrain */
+     , (411,  73,       1) /* ResistStaminaBoost */
+     , (411,  74,       1) /* ResistManaDrain */
+     , (411,  75,       1) /* ResistManaBoost */
+     , (411, 104,      10) /* ObviousRadarRange */
+     , (411, 125,       1) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (411,   1, 'Fisana the Jeweler') /* Name */
+     , (411,   3, 'Female') /* Sex */
+     , (411,   4, 'Gharu''ndim') /* HeritageGroup */
+     , (411,   5, 'Jeweler') /* Template */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (411,   1,   33554510) /* Setup */
+     , (411,   2,  150994945) /* MotionTable */
+     , (411,   3,  536870914) /* SoundTable */
+     , (411,   4,  805306368) /* CombatTable */
+     , (411,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (411, 1, 25, 0, 0) /* STRENGTH_ATTRIBUTE */
-     , (411, 2, 30, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (411, 3, 20, 0, 0) /* QUICKNESS_ATTRIBUTE */
-     , (411, 4, 40, 0, 0) /* COORDINATION_ATTRIBUTE */
-     , (411, 5, 35, 0, 0) /* FOCUS_ATTRIBUTE */
-     , (411, 6, 35, 0, 0) /* SELF_ATTRIBUTE */;
+VALUES (411,   1,  25, 0, 0) /* Strength */
+     , (411,   2,  30, 0, 0) /* Endurance */
+     , (411,   3,  20, 0, 0) /* Quickness */
+     , (411,   4,  40, 0, 0) /* Coordination */
+     , (411,   5,  35, 0, 0) /* Focus */
+     , (411,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (411, 1, 60, 0, 0, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (411, 3, 75, 0, 0, 105) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (411, 5, 40, 0, 0, 75) /* MAX_MANA_ATTRIBUTE_2ND */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (411, 2, 130, 0, 8, 0.2, False) /* Create Shirt for Wield_DestinationType */
-     , (411, 2, 127, 0, 8, 0.8, False) /* Create Pants for Wield_DestinationType */
-     , (411, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
-     , (411, 2, 135, 0, 8, 0.75, False) /* Create Turban for Wield_DestinationType */
-     , (411, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
-     , (411, 4, 297, -1, 0, 0, False) /* Create Ring for Shop_DestinationType */
-     , (411, 4, 295, -1, 0, 0, False) /* Create Bracelet for Shop_DestinationType */
-     , (411, 4, 280, -1, 0, 0, False) /* Create Gem for Shop_DestinationType */
-     , (411, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
-     , (411, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (411, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
-     , (411, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */
-     , (411, 4, 515, -1, 0, 0, False) /* Create Superb Lockpick for Shop_DestinationType */
-     , (411, 4, 516, -1, 0, 0, False) /* Create Peerless Lockpick for Shop_DestinationType */;
+VALUES (411,   1,    60, 0, 0, 75) /* MaxHealth */
+     , (411,   3,    75, 0, 0, 105) /* MaxStamina */
+     , (411,   5,    40, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (411, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
-     , (411, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
-     , (411, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
-     , (411, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
-     , (411, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
-     , (411, 5, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
-     , (411, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (411, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
-     , (411, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
+VALUES (411,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (411,  1,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (411,  2,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (411,  3,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (411,  4,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (411,  5,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (411,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (411,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (411,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (411, 0.8, 2 /* Vendor_EmoteCategory */, 0, NULL, NULL, NULL, NULL, 1 /* Open_VendorTypeEmote */, NULL, NULL)
-     , (411, 0.8, 2 /* Vendor_EmoteCategory */, 1, NULL, NULL, NULL, NULL, 2 /* Close_VendorTypeEmote */, NULL, NULL)
-     , (411, 0.8, 2 /* Vendor_EmoteCategory */, 2, NULL, NULL, NULL, NULL, 3 /* Sell_VendorTypeEmote */, NULL, NULL)
-     , (411, 0.8, 2 /* Vendor_EmoteCategory */, 3, NULL, NULL, NULL, NULL, 4 /* Buy_VendorTypeEmote */, NULL, NULL)
-     , (411, 0.125, 2 /* Vendor_EmoteCategory */, 4, NULL, NULL, NULL, NULL, 5 /* Heartbeat_VendorTypeEmote */, NULL, NULL)
-     , (411, 0.25, 2 /* Vendor_EmoteCategory */, 5, NULL, NULL, NULL, NULL, 5 /* Heartbeat_VendorTypeEmote */, NULL, NULL)
-     , (411, 0.375, 2 /* Vendor_EmoteCategory */, 6, NULL, NULL, NULL, NULL, 5 /* Heartbeat_VendorTypeEmote */, NULL, NULL)
-     , (411, 0.5, 2 /* Vendor_EmoteCategory */, 7, NULL, NULL, NULL, NULL, 5 /* Heartbeat_VendorTypeEmote */, NULL, NULL);
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (411,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 1 /* Open */, NULL, NULL);
 
-INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (411, 2 /* Vendor_EmoteCategory */, 0, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'Welcome! What''s your pleasure today?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (411, 2 /* Vendor_EmoteCategory */, 1, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'Thank you for your business. Please return soon.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (411, 2 /* Vendor_EmoteCategory */, 2, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'You drive a hard bargain, my friend.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (411, 2 /* Vendor_EmoteCategory */, 3, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'An excellent purchase.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (411, 2 /* Vendor_EmoteCategory */, 4, 0, 5 /* Motion_EmoteType */, 0, 1, 318767239 /* Motion_Wave */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (411, 2 /* Vendor_EmoteCategory */, 5, 0, 5 /* Motion_EmoteType */, 0, 1, 318767229 /* Motion_BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (411, 2 /* Vendor_EmoteCategory */, 6, 0, 5 /* Motion_EmoteType */, 0, 1, 318767238 /* Motion_Shrug */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (411, 2 /* Vendor_EmoteCategory */, 7, 0, 5 /* Motion_EmoteType */, 0, 1, 318767235 /* Motion_Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+SET @parent_id = LAST_INSERT_ID();
 
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Welcome! What''s your pleasure today?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (411,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 2 /* Close */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thank you for your business. Please return soon.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (411,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 3 /* Sell */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You drive a hard bargain, my friend.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (411,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 4 /* Buy */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'An excellent purchase.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (411,  2 /* Vendor */,  0.125, NULL, NULL, NULL, NULL, 5 /* Heartbeat */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767239 /* Wave */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (411,  2 /* Vendor */,   0.25, NULL, NULL, NULL, NULL, 5 /* Heartbeat */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767229 /* BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (411,  2 /* Vendor */,  0.375, NULL, NULL, NULL, NULL, 5 /* Heartbeat */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767238 /* Shrug */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (411,  2 /* Vendor */,    0.5, NULL, NULL, NULL, NULL, 5 /* Heartbeat */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (411, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
+     , (411, 2,   127,  0, 8, 0.8, False) /* Create Pants for Wield */
+     , (411, 2,   130,  0, 8, 0.2, False) /* Create Shirt for Wield */
+     , (411, 2,   135,  0, 8, 0.75, False) /* Create Turban for Wield */
+     , (411, 4,   280, -1, 0, 0, False) /* Create Gem for Shop */
+     , (411, 4,   295, -1, 0, 0, False) /* Create Bracelet for Shop */
+     , (411, 4,   297, -1, 0, 0, False) /* Create Ring for Shop */
+     , (411, 4,   512, -1, 0, 0, False) /* Create Good Lockpick for Shop */
+     , (411, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
+     , (411, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop */
+     , (411, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick for Shop */
+     , (411, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick for Shop */
+     , (411, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
+     , (411, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */;

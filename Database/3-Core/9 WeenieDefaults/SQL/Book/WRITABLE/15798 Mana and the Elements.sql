@@ -1,41 +1,38 @@
-/* Weenie - Mana and the Elements (15798) */
-DELETE FROM weenie WHERE class_Id = 15798;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15798, 'tometornelementaltranslated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15798, 001 /* NAME_STRING */, 'Mana and the Elements')
-     , (15798, 015 /* SHORT_DESC_STRING */, 'A tome torn and charred. But several pages are still readable, if one could understand the ancient language.')
-     , (15798, 016 /* LONG_DESC_STRING */, 'A tome torn and charred. Several pages are still salvageable. The text has been translated from Empyrean.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15798, 001 /* SETUP_DID */, 33556929)
-     , (15798, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15798, 006 /* PALETTE_BASE_DID */, 67113005)
-     , (15798, 007 /* CLOTHINGBASE_DID */, 268436360)
-     , (15798, 008 /* ICON_DID */, 100672793)
-     , (15798, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15798', 'tometornelementaltranslated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15798, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (15798, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (15798, 005 /* ENCUMB_VAL_INT */, 25)
-     , (15798, 008 /* MASS_INT */, 15)
-     , (15798, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (15798, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (15798, 019 /* VALUE_INT */, 0)
-     , (15798, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
-     , (15798, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15798, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (15798,   1,       8192) /* ItemType - Writable */
+     , (15798,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (15798,   5,         25) /* EncumbranceVal */
+     , (15798,   8,         15) /* Mass */
+     , (15798,   9,          0) /* ValidLocations - None */
+     , (15798,  16,          8) /* ItemUseable - Contained */
+     , (15798,  19,          0) /* Value */
+     , (15798,  33,          0) /* Bonded - Normal */
+     , (15798,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15798, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (15798,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15798,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15798,   1, 'Mana and the Elements') /* Name */
+     , (15798,  15, 'A tome torn and charred. But several pages are still readable, if one could understand the ancient language.') /* ShortDesc */
+     , (15798,  16, 'A tome torn and charred. Several pages are still salvageable. The text has been translated from Empyrean.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15798,   1,   33556929) /* Setup */
+     , (15798,   3,  536870932) /* SoundTable */
+     , (15798,   6,   67113005) /* PaletteBase */
+     , (15798,   7,  268436360) /* ClothingBase */
+     , (15798,   8,  100672793) /* Icon */
+     , (15798,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (15798, 13, 1000) /* Book Data */;
+VALUES (15798, 13, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (15798, 0, 4294967295, 'Unknown', 'prewritten', False, 'The Blood of the World flows quickly beneath this land. Once, our ancestors in darkness, called upon the blood by a name. Now we, an order outside the sway of any other call directly to the blood, for the life that it is. It heeds our call like the tree obeys the wind, and coalesces into beings that command an aspect of the whole.
@@ -135,4 +132,3 @@ unbelievable qualities
 
 without caution, and mastery, the result will ultimately be complete and utter destruction.
 ');
-

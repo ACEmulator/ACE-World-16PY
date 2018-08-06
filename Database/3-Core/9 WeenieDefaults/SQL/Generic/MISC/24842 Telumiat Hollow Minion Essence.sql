@@ -1,34 +1,30 @@
-/* Weenie - Telumiat Hollow Minion Essence (24842) */
-DELETE FROM weenie WHERE class_Id = 24842;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24842, 'hollowminiontelumiatmist', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24842, 001 /* NAME_STRING */, 'Telumiat Hollow Minion Essence');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24842, 001 /* SETUP_DID */, 33555205)
-     , (24842, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24842, 008 /* ICON_DID */, 100674488)
-     , (24842, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24842, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24842', 'hollowminiontelumiatmist', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24842, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24842, 005 /* ENCUMB_VAL_INT */, 10)
-     , (24842, 008 /* MASS_INT */, 600)
-     , (24842, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24842, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24842, 019 /* VALUE_INT */, 15)
-     , (24842, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24842, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24842, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24842, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (24842,   1,        128) /* ItemType - Misc */
+     , (24842,   5,         10) /* EncumbranceVal */
+     , (24842,   8,        600) /* Mass */
+     , (24842,   9,          0) /* ValidLocations - None */
+     , (24842,  16,          1) /* ItemUseable - No */
+     , (24842,  19,         15) /* Value */
+     , (24842,  93,       1044) /* PhysicsState */
+     , (24842, 150,        103) /* HookPlacement - Hook */
+     , (24842, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24842, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24842, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24842,  22, True ) /* Inscribable */
+     , (24842,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24842,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24842,   1, 'Telumiat Hollow Minion Essence') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24842,   1,   33555205) /* Setup */
+     , (24842,   3,  536870932) /* SoundTable */
+     , (24842,   8,  100674488) /* Icon */
+     , (24842,  22,  872415275) /* PhysicsEffectTable */
+     , (24842,  36,  234881046) /* MutateFilter */;

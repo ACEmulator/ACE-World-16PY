@@ -1,150 +1,146 @@
-/* Weenie - Sentient Crystal Shard (23548) */
-DELETE FROM weenie WHERE class_Id = 23548;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23548, 'crystalshardsentient', 10 /* Creature_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23548, 001 /* NAME_STRING */, 'Sentient Crystal Shard');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23548, 001 /* SETUP_DID */, 33556732)
-     , (23548, 002 /* MOTION_TABLE_DID */, 150995107)
-     , (23548, 003 /* SOUND_TABLE_DID */, 536871001)
-     , (23548, 004 /* COMBAT_TABLE_DID */, 805306407)
-     , (23548, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23548, 007 /* CLOTHINGBASE_DID */, 268435859)
-     , (23548, 008 /* ICON_DID */, 100670283)
-     , (23548, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415347)
-     , (23548, 035 /* DEATH_TREASURE_TYPE_DID */, 461 /* Loot Tier: 6 */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23548', 'crystalshardsentient', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23548, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (23548, 002 /* CREATURE_TYPE_INT */, 47 /* Crystal_CreatureType */)
-     , (23548, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (23548, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (23548, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (23548, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23548, 025 /* LEVEL_INT */, 161)
-     , (23548, 027 /* ARMOR_TYPE_INT */, 0)
-     , (23548, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
-     , (23548, 068 /* TARGETING_TACTIC_INT */, 5)
-     , (23548, 069 /* COMBAT_TACTIC_INT */, 4)
-     , (23548, 081 /* MAX_GENERATED_OBJECTS_INT */, 10)
-     , (23548, 082 /* INIT_GENERATED_OBJECTS_INT */, 10)
-     , (23548, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (23548, 103 /* GENERATOR_DESTRUCTION_TYPE_INT */, 3 /* Kill_GeneratorDestruct */)
-     , (23548, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
-     , (23548, 146 /* XP_OVERRIDE_INT */, 489069);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23548, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
-     , (23548, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
-     , (23548, 003 /* HEALTH_RATE_FLOAT */, 10)
-     , (23548, 004 /* STAMINA_RATE_FLOAT */, 5)
-     , (23548, 005 /* MANA_RATE_FLOAT */, 2)
-     , (23548, 012 /* SHADE_FLOAT */, 0.1)
-     , (23548, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (23548, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (23548, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (23548, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (23548, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
-     , (23548, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.08)
-     , (23548, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 100)
-     , (23548, 031 /* VISUAL_AWARENESS_RANGE_FLOAT */, 12)
-     , (23548, 034 /* POWERUP_TIME_FLOAT */, 1)
-     , (23548, 036 /* CHARGE_SPEED_FLOAT */, 1)
-     , (23548, 039 /* DEFAULT_SCALE_FLOAT */, 1.5)
-     , (23548, 041 /* REGENERATION_INTERVAL_FLOAT */, 300)
-     , (23548, 043 /* GENERATOR_RADIUS_FLOAT */, 15)
-     , (23548, 064 /* RESIST_SLASH_FLOAT */, 1)
-     , (23548, 065 /* RESIST_PIERCE_FLOAT */, 1)
-     , (23548, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
-     , (23548, 067 /* RESIST_FIRE_FLOAT */, 0.9)
-     , (23548, 068 /* RESIST_COLD_FLOAT */, 0.65)
-     , (23548, 069 /* RESIST_ACID_FLOAT */, 0.3)
-     , (23548, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
-     , (23548, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
-     , (23548, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 0)
-     , (23548, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
-     , (23548, 074 /* RESIST_MANA_DRAIN_FLOAT */, 0)
-     , (23548, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
-     , (23548, 080 /* AI_USE_MAGIC_DELAY_FLOAT */, 1)
-     , (23548, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
-     , (23548, 122 /* AI_ACQUIRE_HEALTH_FLOAT */, 2)
-     , (23548, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 0);
+VALUES (23548,   1,         16) /* ItemType - Creature */
+     , (23548,   2,         47) /* CreatureType - Crystal */
+     , (23548,   3,         39) /* PaletteTemplate - Black */
+     , (23548,   6,         -1) /* ItemsCapacity */
+     , (23548,   7,         -1) /* ContainersCapacity */
+     , (23548,  16,          1) /* ItemUseable - No */
+     , (23548,  25,        161) /* Level */
+     , (23548,  27,          0) /* ArmorType */
+     , (23548,  40,          2) /* CombatMode - Melee */
+     , (23548,  68,          5) /* TargetingTactic */
+     , (23548,  69,          4) /* CombatTactic */
+     , (23548,  81,         10) /* MaxGeneratedObjects */
+     , (23548,  82,         10) /* InitGeneratedObjects */
+     , (23548,  93,       1032) /* PhysicsState */
+     , (23548, 103,          3) /* GeneratorDestructionType - Kill */
+     , (23548, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (23548, 146,     489069) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23548, 001 /* STUCK_BOOL */, True)
-     , (23548, 006 /* AI_USES_MANA_BOOL */, True)
-     , (23548, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (23548, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (23548, 013 /* ETHEREAL_BOOL */, False)
-     , (23548, 050 /* NEVER_FAIL_CASTING_BOOL */, True);
+VALUES (23548,   1, True ) /* Stuck */
+     , (23548,   6, True ) /* AiUsesMana */
+     , (23548,  11, False) /* IgnoreCollisions */
+     , (23548,  12, True ) /* ReportCollisions */
+     , (23548,  13, False) /* Ethereal */
+     , (23548,  50, True ) /* NeverFailCasting */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23548, 2168, 2.083) /* ColdVulnerabilityOther7_SpellID */
-     , (23548, 2064, 2.083) /* FeeblemindOther7_SpellID */
-     , (23548, 2056, 2.083) /* ClumsinessOther7_SpellID */
-     , (23548, 2073, 2.083) /* healself7_SpellID */
-     , (23548, 2185, 2.083) /* RegenerationSelf7_SpellID */
-     , (23548, 2328, 2.083) /* DrainHealth7_SpellID */
-     , (23548, 2170, 2.083) /* FireVulnerabilityOther7_SpellID */
-     , (23548, 2162, 2.083) /* AcidVulnerabilityOther7_SpellID */
-     , (23548, 2172, 2.083) /* LightningVulnerabilityOther7_SpellID */;
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23548,   1,       5) /* HeartbeatInterval */
+     , (23548,   2,       0) /* HeartbeatTimestamp */
+     , (23548,   3,      10) /* HealthRate */
+     , (23548,   4,       5) /* StaminaRate */
+     , (23548,   5,       2) /* ManaRate */
+     , (23548,  12,     0.1) /* Shade */
+     , (23548,  13,       1) /* ArmorModVsSlash */
+     , (23548,  14,       1) /* ArmorModVsPierce */
+     , (23548,  15,       1) /* ArmorModVsBludgeon */
+     , (23548,  16,       1) /* ArmorModVsCold */
+     , (23548,  17,     1.2) /* ArmorModVsFire */
+     , (23548,  18,    1.08) /* ArmorModVsAcid */
+     , (23548,  19,     100) /* ArmorModVsElectric */
+     , (23548,  31,      12) /* VisualAwarenessRange */
+     , (23548,  34,       1) /* PowerupTime */
+     , (23548,  36,       1) /* ChargeSpeed */
+     , (23548,  39,     1.5) /* DefaultScale */
+     , (23548,  41,     300) /* RegenerationInterval */
+     , (23548,  43,      15) /* GeneratorRadius */
+     , (23548,  64,       1) /* ResistSlash */
+     , (23548,  65,       1) /* ResistPierce */
+     , (23548,  66,       1) /* ResistBludgeon */
+     , (23548,  67,     0.9) /* ResistFire */
+     , (23548,  68,    0.65) /* ResistCold */
+     , (23548,  69,     0.3) /* ResistAcid */
+     , (23548,  70,       1) /* ResistElectric */
+     , (23548,  71,       1) /* ResistHealthBoost */
+     , (23548,  72,       0) /* ResistStaminaDrain */
+     , (23548,  73,       1) /* ResistStaminaBoost */
+     , (23548,  74,       0) /* ResistManaDrain */
+     , (23548,  75,       1) /* ResistManaBoost */
+     , (23548,  80,       1) /* AiUseMagicDelay */
+     , (23548, 104,      10) /* ObviousRadarRange */
+     , (23548, 122,       2) /* AiAcquireHealth */
+     , (23548, 125,       0) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23548,   1, 'Sentient Crystal Shard') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23548,   1,   33556732) /* Setup */
+     , (23548,   2,  150995107) /* MotionTable */
+     , (23548,   3,  536871001) /* SoundTable */
+     , (23548,   4,  805306407) /* CombatTable */
+     , (23548,   6,   67111919) /* PaletteBase */
+     , (23548,   7,  268435859) /* ClothingBase */
+     , (23548,   8,  100670283) /* Icon */
+     , (23548,  22,  872415347) /* PhysicsEffectTable */
+     , (23548,  35,        461) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (23548, 1, 220, 0, 0) /* STRENGTH_ATTRIBUTE */
-     , (23548, 2, 220, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (23548, 3, 240, 0, 0) /* QUICKNESS_ATTRIBUTE */
-     , (23548, 4, 230, 0, 0) /* COORDINATION_ATTRIBUTE */
-     , (23548, 5, 420, 0, 0) /* FOCUS_ATTRIBUTE */
-     , (23548, 6, 560, 0, 0) /* SELF_ATTRIBUTE */;
+VALUES (23548,   1, 220, 0, 0) /* Strength */
+     , (23548,   2, 220, 0, 0) /* Endurance */
+     , (23548,   3, 240, 0, 0) /* Quickness */
+     , (23548,   4, 230, 0, 0) /* Coordination */
+     , (23548,   5, 420, 0, 0) /* Focus */
+     , (23548,   6, 560, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23548, 1, 14890, 0, 0, 15000) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (23548, 3, 4780, 0, 0, 5000) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (23548, 5, 14440, 0, 0, 15000) /* MAX_MANA_ATTRIBUTE_2ND */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23548, 9, 23853, 0, 0, 0.0125, False) /* Create Seared Shard for ContainTreasure_DestinationType */
-     , (23548, 9, 23854, 0, 0, 0.0125, False) /* Create Chilled Shard for ContainTreasure_DestinationType */
-     , (23548, 9, 23849, 0, 0, 0.0125, False) /* Create Scored Shard for ContainTreasure_DestinationType */
-     , (23548, 9, 23855, 0, 0, 0.0125, False) /* Create Charged Shard for ContainTreasure_DestinationType */
-     , (23548, 9, 23851, 0, 0, 0.0125, False) /* Create Solid Shard for ContainTreasure_DestinationType */
-     , (23548, 9, 23856, 0, 0, 0.0125, False) /* Create Hardened Shard for ContainTreasure_DestinationType */
-     , (23548, 9, 23852, 0, 0, 0.0125, False) /* Create Plated Shard for ContainTreasure_DestinationType */
-     , (23548, 9, 23850, 0, 0, 0.0125, False) /* Create Brilliant Shard for ContainTreasure_DestinationType */
-     , (23548, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */
-     , (23548, 9, 23108, 0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
-     , (23548, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */
-     , (23548, 9, 23107, 0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
-     , (23548, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */;
-
-INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23548, -1, 23549, 5, 10, 10, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Crystal Shard Sentinel (x10 up to max of 10) - Destruction_RegenerationType - Scatter_RegenLocationType */;
-
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (23548, 0, 4, 50, 0.75, 350, 350, 350, 350, 350, 420, 378, 35000, 0, 1, 0.5, 0.2, 0, 0.5, 0.2, 0, 0, 0, 0, 0, 0, 0) /* HEAD */
-     , (23548, 10, 4, 0, 0, 350, 350, 350, 350, 350, 420, 378, 35000, 0, 2, 0.2, 0.4, 0.5, 0.2, 0.4, 0.5, 0, 0, 0, 0, 0, 0) /* FRONT_LEG */
-     , (23548, 12, 4, 50, 0.75, 350, 350, 350, 350, 350, 420, 378, 35000, 0, 3, 0, 0, 0.25, 0, 0, 0.25, 0, 0, 0, 0, 0, 0) /* FRONT_FOOT */
-     , (23548, 13, 4, 0, 0, 350, 350, 350, 350, 350, 420, 378, 35000, 0, 2, 0, 0, 0, 0, 0, 0, 0.3, 0.4, 0.5, 0.3, 0.4, 0.5) /* REAR_LEG */
-     , (23548, 15, 4, 50, 0.75, 350, 350, 350, 350, 350, 420, 378, 35000, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0.25, 0, 0, 0.25) /* REAR_FOOT */
-     , (23548, 16, 4, 0, 0, 350, 350, 350, 350, 350, 420, 378, 35000, 0, 2, 0.3, 0.4, 0.25, 0.3, 0.4, 0.25, 0.6, 0.5, 0.25, 0.6, 0.5, 0.25) /* TORSO */
-     , (23548, 17, 4, 50, 0.75, 350, 350, 350, 350, 350, 420, 378, 35000, 0, 2, 0, 0, 0, 0, 0, 0, 0.1, 0.1, 0, 0.1, 0.1, 0) /* TAIL */;
-
-INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (23548, 94) /* ATTACK_NOTIFICATION_EVENT */
-     , (23548, 414) /* PLAYER_DEATH_EVENT */;
+VALUES (23548,   1, 14890, 0, 0, 15000) /* MaxHealth */
+     , (23548,   3,  4780, 0, 0, 5000) /* MaxStamina */
+     , (23548,   5, 14440, 0, 0, 15000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (23548, 6, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 374, 0, 1455.49429000828) /* MELEE_DEFENSE_SKILL */
-     , (23548, 7, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 464, 0, 1455.49429000828) /* MISSILE_DEFENSE_SKILL */
-     , (23548, 13, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 366, 0, 1455.49429000828) /* UNARMED_COMBAT_SKILL */
-     , (23548, 15, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 250, 0, 1455.49429000828) /* MAGIC_DEFENSE_SKILL */
-     , (23548, 20, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 200, 0, 1455.49429000828) /* DECEPTION_SKILL */
-     , (23548, 24, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 100, 0, 1455.49429000828) /* RUN_SKILL */
-     , (23548, 31, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 144, 0, 1455.49429000828) /* CREATURE_ENCHANTMENT_SKILL */
-     , (23548, 33, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 144, 0, 1455.49429000828) /* LIFE_MAGIC_SKILL */
-     , (23548, 34, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 144, 0, 1455.49429000828) /* WAR_MAGIC_SKILL */;
+VALUES (23548,  6, 0, 3, 0, 374, 0, 1455.49429000828) /* MeleeDefense        Specialized */
+     , (23548,  7, 0, 3, 0, 464, 0, 1455.49429000828) /* MissileDefense      Specialized */
+     , (23548, 13, 0, 3, 0, 366, 0, 1455.49429000828) /* UnarmedCombat       Specialized */
+     , (23548, 15, 0, 3, 0, 250, 0, 1455.49429000828) /* MagicDefense        Specialized */
+     , (23548, 20, 0, 3, 0, 200, 0, 1455.49429000828) /* Deception           Specialized */
+     , (23548, 24, 0, 3, 0, 100, 0, 1455.49429000828) /* Run                 Specialized */
+     , (23548, 31, 0, 3, 0, 144, 0, 1455.49429000828) /* CreatureEnchantment Specialized */
+     , (23548, 33, 0, 3, 0, 144, 0, 1455.49429000828) /* LifeMagic           Specialized */
+     , (23548, 34, 0, 3, 0, 144, 0, 1455.49429000828) /* WarMagic            Specialized */;
 
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (23548,  0,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 1,  0.5,  0.2,    0,  0.5,  0.2,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (23548, 10,  4,  0,    0,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 2,  0.2,  0.4,  0.5,  0.2,  0.4,  0.5,    0,    0,    0,    0,    0,    0) /* FrontLeg */
+     , (23548, 12,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 3,    0,    0, 0.25,    0,    0, 0.25,    0,    0,    0,    0,    0,    0) /* FrontFoot */
+     , (23548, 13,  4,  0,    0,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 2,    0,    0,    0,    0,    0,    0,  0.3,  0.4,  0.5,  0.3,  0.4,  0.5) /* RearLeg */
+     , (23548, 15,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 3,    0,    0,    0,    0,    0,    0,    0,    0, 0.25,    0,    0, 0.25) /* RearFoot */
+     , (23548, 16,  4,  0,    0,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 2,  0.3,  0.4, 0.25,  0.3,  0.4, 0.25,  0.6,  0.5, 0.25,  0.6,  0.5, 0.25) /* Torso */
+     , (23548, 17,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (23548,  2056,  2.083)  /* Ataxia */
+     , (23548,  2064,  2.083)  /* Self Loathing */
+     , (23548,  2073,  2.083)  /* Adja's Intervention */
+     , (23548,  2162,  2.083)  /* Olthoi's Gift */
+     , (23548,  2168,  2.083)  /* Gelidite's Gift */
+     , (23548,  2170,  2.083)  /* Inferno's Gift */
+     , (23548,  2172,  2.083)  /* Astyrrian's Gift */
+     , (23548,  2185,  2.083)  /* Robustify */
+     , (23548,  2328,  2.083)  /* Vitality Siphon */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (23548,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (23548, 414) /* PLAYER_DEATH_EVENT */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (23548, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
+     , (23548, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
+     , (23548, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
+     , (23548, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure */
+     , (23548, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure */
+     , (23548, 9, 23849,  0, 0, 0.0125, False) /* Create Scored Shard for ContainTreasure */
+     , (23548, 9, 23850,  0, 0, 0.0125, False) /* Create Brilliant Shard for ContainTreasure */
+     , (23548, 9, 23851,  0, 0, 0.0125, False) /* Create Solid Shard for ContainTreasure */
+     , (23548, 9, 23852,  0, 0, 0.0125, False) /* Create Plated Shard for ContainTreasure */
+     , (23548, 9, 23853,  0, 0, 0.0125, False) /* Create Seared Shard for ContainTreasure */
+     , (23548, 9, 23854,  0, 0, 0.0125, False) /* Create Chilled Shard for ContainTreasure */
+     , (23548, 9, 23855,  0, 0, 0.0125, False) /* Create Charged Shard for ContainTreasure */
+     , (23548, 9, 23856,  0, 0, 0.0125, False) /* Create Hardened Shard for ContainTreasure */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (23548, -1, 23549, 5, 10, 10, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

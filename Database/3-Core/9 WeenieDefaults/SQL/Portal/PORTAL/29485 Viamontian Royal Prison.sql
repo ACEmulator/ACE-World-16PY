@@ -1,36 +1,32 @@
-/* Weenie - Viamontian Royal Prison (29485) */
-DELETE FROM weenie WHERE class_Id = 29485;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29485, 'portalviamontianroyalprison', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29485, 001 /* NAME_STRING */, 'Viamontian Royal Prison')
-     , (29485, 037 /* QUEST_RESTRICTION_STRING */, 'HeartofInnocence');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29485, 001 /* SETUP_DID */, 33555925)
-     , (29485, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (29485, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29485', 'portalviamontianroyalprison', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29485, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (29485, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (29485, 086 /* MIN_LEVEL_INT */, 60)
-     , (29485, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (29485, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (29485, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29485, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (29485,   1,      65536) /* ItemType - Portal */
+     , (29485,  16,         32) /* ItemUseable - Remote */
+     , (29485,  86,         60) /* MinLevel */
+     , (29485,  93,       3084) /* PhysicsState */
+     , (29485, 111,         49) /* PortalBitmask */
+     , (29485, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29485, 001 /* STUCK_BOOL */, True)
-     , (29485, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (29485, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (29485, 013 /* ETHEREAL_BOOL */, True)
-     , (29485, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (29485,   1, True ) /* Stuck */
+     , (29485,  11, False) /* IgnoreCollisions */
+     , (29485,  12, True ) /* ReportCollisions */
+     , (29485,  13, True ) /* Ethereal */
+     , (29485,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29485,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29485,   1, 'Viamontian Royal Prison') /* Name */
+     , (29485,  37, 'HeartofInnocence') /* QuestRestriction */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29485,   1,   33555925) /* Setup */
+     , (29485,   2,  150994947) /* MotionTable */
+     , (29485,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29485, 2, 1598423433, 39.247, 0.038, 0, -0.02677006, 0, 0, -0.9996416) /* DESTINATION_POSITION */;
-
+VALUES (29485, 2, 1598423433, 39.247, 0.038, 0, -0.02677006, 0, 0, -0.9996416) /* Destination */;

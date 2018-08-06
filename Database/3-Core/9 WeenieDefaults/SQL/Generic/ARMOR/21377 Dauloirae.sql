@@ -1,65 +1,61 @@
-/* Weenie - Dauloirae (21377) */
-DELETE FROM weenie WHERE class_Id = 21377;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21377, 'shieldgaerlan', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21377, 001 /* NAME_STRING */, 'Dauloirae')
-     , (21377, 015 /* SHORT_DESC_STRING */, 'An obsidian shield enhanced to defend against the piercing attacks of olthoi.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21377, 001 /* SETUP_DID */, 33557964)
-     , (21377, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21377, 008 /* ICON_DID */, 100673491)
-     , (21377, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21377', 'shieldgaerlan', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21377, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (21377, 005 /* ENCUMB_VAL_INT */, 750)
-     , (21377, 008 /* MASS_INT */, 880)
-     , (21377, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
-     , (21377, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (21377, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (21377, 019 /* VALUE_INT */, 4000)
-     , (21377, 027 /* ARMOR_TYPE_INT */, 2)
-     , (21377, 028 /* ARMOR_LEVEL_INT */, 200)
-     , (21377, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (21377, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
-     , (21377, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (21377, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (21377, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (21377, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (21377, 109 /* ITEM_DIFFICULTY_INT */, 125)
-     , (21377, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (21377, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (21377, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (21377, 159 /* WIELD_SKILLTYPE_INT */, 6 /* MELEE_DEFENSE_SKILL */)
-     , (21377, 160 /* WIELD_DIFFICULTY_INT */, 275);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21377, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (21377, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (21377, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.2)
-     , (21377, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.5)
-     , (21377, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (21377, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.5)
-     , (21377, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.2)
-     , (21377, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.5)
-     , (21377, 110 /* BULK_MOD_FLOAT */, 1)
-     , (21377, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (21377,   1,          2) /* ItemType - Armor */
+     , (21377,   5,        750) /* EncumbranceVal */
+     , (21377,   8,        880) /* Mass */
+     , (21377,   9,    2097152) /* ValidLocations - Shield */
+     , (21377,  16,          1) /* ItemUseable - No */
+     , (21377,  18,          1) /* UiEffects - Magical */
+     , (21377,  19,       4000) /* Value */
+     , (21377,  27,          2) /* ArmorType */
+     , (21377,  28,        200) /* ArmorLevel */
+     , (21377,  36,       9999) /* ResistMagic */
+     , (21377,  51,          4) /* CombatUse - Shield */
+     , (21377,  93,       1044) /* PhysicsState */
+     , (21377, 106,        250) /* ItemSpellcraft */
+     , (21377, 107,       1000) /* ItemCurMana */
+     , (21377, 108,       1000) /* ItemMaxMana */
+     , (21377, 109,        125) /* ItemDifficulty */
+     , (21377, 150,        103) /* HookPlacement - Hook */
+     , (21377, 151,          2) /* HookType - Wall */
+     , (21377, 158,          2) /* WieldRequirements - RawSkill */
+     , (21377, 159,          6) /* WieldSkilltype - MeleeDefense */
+     , (21377, 160,        275) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21377, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21377, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (21377,  22, True ) /* Inscribable */
+     , (21377,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21377,   5,   -0.05) /* ManaRate */
+     , (21377,  13,     0.8) /* ArmorModVsSlash */
+     , (21377,  14,     1.2) /* ArmorModVsPierce */
+     , (21377,  15,     0.5) /* ArmorModVsBludgeon */
+     , (21377,  16,     0.5) /* ArmorModVsCold */
+     , (21377,  17,     0.5) /* ArmorModVsFire */
+     , (21377,  18,     1.2) /* ArmorModVsAcid */
+     , (21377,  19,     0.5) /* ArmorModVsElectric */
+     , (21377, 110,       1) /* BulkMod */
+     , (21377, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21377,   1, 'Dauloirae') /* Name */
+     , (21377,  15, 'An obsidian shield enhanced to defend against the piercing attacks of olthoi.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21377,   1,   33557964) /* Setup */
+     , (21377,   3,  536870932) /* SoundTable */
+     , (21377,   8,  100673491) /* Icon */
+     , (21377,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21377, 514, 2) /* AcidProtectionOther6_SpellID */
-     , (21377, 1572, 2) /* PiercingBane4_SpellID */
-     , (21377, 1485, 2) /* Impenetrability5_SpellID */
-     , (21377, 1560, 2) /* BladeBane4_SpellID */
-     , (21377, 243, 2) /* InvulnerabilityOther5_SpellID */
-     , (21377, 1119, 2) /* BladeProtectionOther5_SpellID */
-     , (21377, 1496, 2) /* AcidBane4_SpellID */
-     , (21377, 1144, 2) /* PiercingProtectionOther6_SpellID */;
-
+VALUES (21377,   243,      2)  /* Invulnerability Other V */
+     , (21377,   514,      2)  /* Acid Protection Other VI */
+     , (21377,  1119,      2)  /* Blade Protection Other V */
+     , (21377,  1144,      2)  /* Piercing Protection Other VI */
+     , (21377,  1485,      2)  /* Impenetrability V */
+     , (21377,  1496,      2)  /* Acid Bane IV */
+     , (21377,  1560,      2)  /* Blade Bane IV */
+     , (21377,  1572,      2)  /* Piercing Bane IV */;

@@ -1,33 +1,29 @@
-/* Weenie - Self To Strength Gem (23069) */
-DELETE FROM weenie WHERE class_Id = 23069;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23069, 'attributegemselftostrength', 63 /* AttributeTransferDevice_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23069, 001 /* NAME_STRING */, 'Self To Strength Gem')
-     , (23069, 014 /* USE_STRING */, 'Use this gem to transfer up to 10 points of your Self into your Strength.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23069, 001 /* SETUP_DID */, 33558087)
-     , (23069, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23069, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (23069, 008 /* ICON_DID */, 100673957);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23069', 'attributegemselftostrength', 63) /* AttributeTransferDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23069, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (23069, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (23069, 005 /* ENCUMB_VAL_INT */, 10)
-     , (23069, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23069, 019 /* VALUE_INT */, 0)
-     , (23069, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23069, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23069, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (23069, 189 /* TRANSFER_FROM_ATTRIBUTE_INT */, 6)
-     , (23069, 190 /* TRANSFER_TO_ATTRIBUTE_INT */, 1);
+VALUES (23069,   1,        128) /* ItemType - Misc */
+     , (23069,   3,         14) /* PaletteTemplate - Red */
+     , (23069,   5,         10) /* EncumbranceVal */
+     , (23069,  16,          8) /* ItemUseable - Contained */
+     , (23069,  19,          0) /* Value */
+     , (23069,  33,          1) /* Bonded - Bonded */
+     , (23069,  93,       1044) /* PhysicsState */
+     , (23069, 114,          1) /* Attuned - Attuned */
+     , (23069, 189,          6) /* TransferFromAttribute */
+     , (23069, 190,          1) /* TransferToAttribute */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23069, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23069, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (23069, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (23069,  22, True ) /* Inscribable */
+     , (23069,  23, True ) /* DestroyOnSell */
+     , (23069,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23069,   1, 'Self To Strength Gem') /* Name */
+     , (23069,  14, 'Use this gem to transfer up to 10 points of your Self into your Strength.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23069,   1,   33558087) /* Setup */
+     , (23069,   6,   67111919) /* PaletteBase */
+     , (23069,   7,  268435723) /* ClothingBase */
+     , (23069,   8,  100673957) /* Icon */;

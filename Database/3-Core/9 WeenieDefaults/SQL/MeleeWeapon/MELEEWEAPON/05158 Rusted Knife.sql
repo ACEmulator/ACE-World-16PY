@@ -1,47 +1,43 @@
-/* Weenie - Rusted Knife (5158) */
-DELETE FROM weenie WHERE class_Id = 5158;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5158, 'knifedah', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5158, 001 /* NAME_STRING */, 'Rusted Knife')
-     , (5158, 015 /* SHORT_DESC_STRING */, 'A rusted, old knife.')
-     , (5158, 016 /* LONG_DESC_STRING */, 'A rusted, old knife made by Dah bint Nas.')
-     , (5158, 033 /* QUEST_STRING */, 'KnifeDahQuest');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5158, 001 /* SETUP_DID */, 33554745)
-     , (5158, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5158, 008 /* ICON_DID */, 100667598)
-     , (5158, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5158', 'knifedah', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5158, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (5158, 005 /* ENCUMB_VAL_INT */, 38)
-     , (5158, 008 /* MASS_INT */, 25)
-     , (5158, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (5158, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5158, 019 /* VALUE_INT */, 0)
-     , (5158, 044 /* DAMAGE_INT */, 3)
-     , (5158, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (5158, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (5158, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (5158, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (5158, 049 /* WEAPON_TIME_INT */, 60)
-     , (5158, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (5158, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5158, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (5158, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5158, 021 /* WEAPON_LENGTH_FLOAT */, 0.25)
-     , (5158, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (5158, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (5158, 039 /* DEFAULT_SCALE_FLOAT */, 1.08)
-     , (5158, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (5158,   1,          1) /* ItemType - MeleeWeapon */
+     , (5158,   5,         38) /* EncumbranceVal */
+     , (5158,   8,         25) /* Mass */
+     , (5158,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (5158,  16,          1) /* ItemUseable - No */
+     , (5158,  19,          0) /* Value */
+     , (5158,  44,          3) /* Damage */
+     , (5158,  45,          3) /* DamageType */
+     , (5158,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (5158,  47,          6) /* AttackType */
+     , (5158,  48,          4) /* WeaponSkill - Dagger */
+     , (5158,  49,         60) /* WeaponTime */
+     , (5158,  51,          1) /* CombatUse - Melee */
+     , (5158,  93,       1044) /* PhysicsState */
+     , (5158, 150,        103) /* HookPlacement - Hook */
+     , (5158, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5158, 022 /* INSCRIBABLE_BOOL */, True)
-     , (5158, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (5158,  22, True ) /* Inscribable */
+     , (5158,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5158,  21,    0.25) /* WeaponLength */
+     , (5158,  22,    0.75) /* DamageVariance */
+     , (5158,  29,       1) /* WeaponDefense */
+     , (5158,  39,    1.08) /* DefaultScale */
+     , (5158,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5158,   1, 'Rusted Knife') /* Name */
+     , (5158,  15, 'A rusted, old knife.') /* ShortDesc */
+     , (5158,  16, 'A rusted, old knife made by Dah bint Nas.') /* LongDesc */
+     , (5158,  33, 'KnifeDahQuest') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5158,   1,   33554745) /* Setup */
+     , (5158,   3,  536870932) /* SoundTable */
+     , (5158,   8,  100667598) /* Icon */
+     , (5158,  22,  872415275) /* PhysicsEffectTable */;

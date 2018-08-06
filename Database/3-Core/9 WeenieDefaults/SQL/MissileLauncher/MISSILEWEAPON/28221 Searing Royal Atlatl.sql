@@ -1,52 +1,48 @@
-/* Weenie - Searing Royal Atlatl (28221) */
-DELETE FROM weenie WHERE class_Id = 28221;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28221, 'atlatlroyalacid', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28221, 001 /* NAME_STRING */, 'Searing Royal Atlatl');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28221, 001 /* SETUP_DID */, 33557857)
-     , (28221, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28221, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (28221, 007 /* CLOTHINGBASE_DID */, 268436432)
-     , (28221, 008 /* ICON_DID */, 100673250)
-     , (28221, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28221, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (28221, 046 /* TSYS_MUTATION_FILTER_DID */, 939524106);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28221', 'atlatlroyalacid', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28221, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (28221, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (28221, 005 /* ENCUMB_VAL_INT */, 400)
-     , (28221, 008 /* MASS_INT */, 16)
-     , (28221, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (28221, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28221, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (28221, 019 /* VALUE_INT */, 200)
-     , (28221, 044 /* DAMAGE_INT */, 0)
-     , (28221, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (28221, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1024 /* Atlatl_CombatStyle */)
-     , (28221, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (28221, 049 /* WEAPON_TIME_INT */, 25)
-     , (28221, 050 /* AMMO_TYPE_INT */, 4 /* AMMO_ARROW_CRYSTAL */)
-     , (28221, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (28221, 060 /* WEAPON_RANGE_INT */, 120)
-     , (28221, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28221, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28221, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (28221, 169 /* TSYS_MUTATION_DATA_INT */, 101189386)
-     , (28221, 204 /* ELEMENTAL_DAMAGE_BONUS_INT */, 4);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28221, 026 /* MAXIMUM_VELOCITY_FLOAT */, 24.9)
-     , (28221, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (28221, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (28221, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (28221, 063 /* DAMAGE_MOD_FLOAT */, 2.45);
+VALUES (28221,   1,        256) /* ItemType - MissileWeapon */
+     , (28221,   3,          8) /* PaletteTemplate - Green */
+     , (28221,   5,        400) /* EncumbranceVal */
+     , (28221,   8,         16) /* Mass */
+     , (28221,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (28221,  16,          1) /* ItemUseable - No */
+     , (28221,  18,        256) /* UiEffects - Acid */
+     , (28221,  19,        200) /* Value */
+     , (28221,  44,          0) /* Damage */
+     , (28221,  45,         32) /* DamageType - Acid */
+     , (28221,  46,       1024) /* DefaultCombatStyle - Atlatl */
+     , (28221,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (28221,  49,         25) /* WeaponTime */
+     , (28221,  50,          4) /* AmmoType - ArrowCrystal */
+     , (28221,  51,          2) /* CombatUse - Missle */
+     , (28221,  60,        120) /* WeaponRange */
+     , (28221,  93,       1044) /* PhysicsState */
+     , (28221, 150,        103) /* HookPlacement - Hook */
+     , (28221, 151,          2) /* HookType - Wall */
+     , (28221, 169,  101189386) /* TsysMutationData */
+     , (28221, 204,          4) /* ElementalDamageBonus */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28221, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28221,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28221,  26,    24.9) /* MaximumVelocity */
+     , (28221,  29,       1) /* WeaponDefense */
+     , (28221,  39,     1.1) /* DefaultScale */
+     , (28221,  62,       1) /* WeaponOffense */
+     , (28221,  63,    2.45) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28221,   1, 'Searing Royal Atlatl') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28221,   1,   33557857) /* Setup */
+     , (28221,   3,  536870932) /* SoundTable */
+     , (28221,   6,   67111919) /* PaletteBase */
+     , (28221,   7,  268436432) /* ClothingBase */
+     , (28221,   8,  100673250) /* Icon */
+     , (28221,  22,  872415275) /* PhysicsEffectTable */
+     , (28221,  36,  234881053) /* MutateFilter */
+     , (28221,  46,  939524106) /* TsysMutationFilter */;

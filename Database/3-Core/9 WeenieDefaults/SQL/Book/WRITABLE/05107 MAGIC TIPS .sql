@@ -1,35 +1,32 @@
-/* Weenie - MAGIC TIPS  (5107) */
-DELETE FROM weenie WHERE class_Id = 5107;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5107, 'trainmagic3sign', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5107, 001 /* NAME_STRING */, 'MAGIC TIPS ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5107, 001 /* SETUP_DID */, 33556014)
-     , (5107, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5107', 'trainmagic3sign', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5107, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5107, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (5107, 008 /* MASS_INT */, 1800)
-     , (5107, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (5107, 019 /* VALUE_INT */, 125)
-     , (5107, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5107, 054 /* USE_RADIUS_FLOAT */, 5);
+VALUES (5107,   1,       8192) /* ItemType - Writable */
+     , (5107,   5,       9000) /* EncumbranceVal */
+     , (5107,   8,       1800) /* Mass */
+     , (5107,  16,         48) /* ItemUseable - ViewedRemote */
+     , (5107,  19,        125) /* Value */
+     , (5107,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5107, 001 /* STUCK_BOOL */, True)
-     , (5107, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5107, 013 /* ETHEREAL_BOOL */, False)
-     , (5107, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5107,   1, True ) /* Stuck */
+     , (5107,  12, True ) /* ReportCollisions */
+     , (5107,  13, False) /* Ethereal */
+     , (5107,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5107,  54,       5) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5107,   1, 'MAGIC TIPS ') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5107,   1,   33556014) /* Setup */
+     , (5107,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5107, 1, 1000) /* Book Data */;
+VALUES (5107, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5107, 0, 4294967295, 'Training Master ', 'prewritten', False, ' 
@@ -37,4 +34,3 @@ Watch the blue MANA bar at the top of the screen.  If it runs out, you can''t ca
 
 Casting a spell requires a spellcasting foci and components--scarabs, and prismatic tapers. If these components are consumed by a spell, you can buy new ones in town.
 ');
-

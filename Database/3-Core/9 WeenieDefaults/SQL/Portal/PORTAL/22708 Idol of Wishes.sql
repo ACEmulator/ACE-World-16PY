@@ -1,36 +1,32 @@
-/* Weenie - Idol of Wishes (22708) */
-DELETE FROM weenie WHERE class_Id = 22708;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22708, 'portalwishingroom', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22708, 001 /* NAME_STRING */, 'Idol of Wishes')
-     , (22708, 037 /* QUEST_RESTRICTION_STRING */, 'MowenWait');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22708, 001 /* SETUP_DID */, 33554867)
-     , (22708, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (22708, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22708', 'portalwishingroom', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22708, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (22708, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (22708, 086 /* MIN_LEVEL_INT */, 80)
-     , (22708, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (22708, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (22708, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22708, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (22708,   1,      65536) /* ItemType - Portal */
+     , (22708,  16,         32) /* ItemUseable - Remote */
+     , (22708,  86,         80) /* MinLevel */
+     , (22708,  93,       3084) /* PhysicsState */
+     , (22708, 111,         49) /* PortalBitmask */
+     , (22708, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22708, 001 /* STUCK_BOOL */, True)
-     , (22708, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (22708, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22708, 013 /* ETHEREAL_BOOL */, True)
-     , (22708, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (22708,   1, True ) /* Stuck */
+     , (22708,  11, False) /* IgnoreCollisions */
+     , (22708,  12, True ) /* ReportCollisions */
+     , (22708,  13, True ) /* Ethereal */
+     , (22708,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22708,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22708,   1, 'Idol of Wishes') /* Name */
+     , (22708,  37, 'MowenWait') /* QuestRestriction */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22708,   1,   33554867) /* Setup */
+     , (22708,   2,  150994947) /* MotionTable */
+     , (22708,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22708, 2, 1598292300, 30, -40, 0.005, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (22708, 2, 1598292300, 30, -40, 0.005, 1, 0, 0, 0) /* Destination */;

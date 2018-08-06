@@ -1,31 +1,27 @@
-/* Weenie - The Thirsty Blade (1810) */
-DELETE FROM weenie WHERE class_Id = 1810;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1810, 'uzizswordsmithsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1810, 001 /* NAME_STRING */, 'The Thirsty Blade')
-     , (1810, 016 /* LONG_DESC_STRING */, 'The Thirsty Blade');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1810, 001 /* SETUP_DID */, 33555909)
-     , (1810, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (1810, 007 /* CLOTHINGBASE_DID */, 268435818)
-     , (1810, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1810', 'uzizswordsmithsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1810, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (1810, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (1810, 008 /* MASS_INT */, 1800)
-     , (1810, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1810, 019 /* VALUE_INT */, 125)
-     , (1810, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (1810,   1,        128) /* ItemType - Misc */
+     , (1810,   5,       9000) /* EncumbranceVal */
+     , (1810,   8,       1800) /* Mass */
+     , (1810,  16,          1) /* ItemUseable - No */
+     , (1810,  19,        125) /* Value */
+     , (1810,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1810, 001 /* STUCK_BOOL */, True)
-     , (1810, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1810, 013 /* ETHEREAL_BOOL */, False)
-     , (1810, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (1810, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (1810,   1, True ) /* Stuck */
+     , (1810,  12, True ) /* ReportCollisions */
+     , (1810,  13, False) /* Ethereal */
+     , (1810,  14, False) /* GravityStatus */
+     , (1810,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1810,   1, 'The Thirsty Blade') /* Name */
+     , (1810,  16, 'The Thirsty Blade') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1810,   1,   33555909) /* Setup */
+     , (1810,   6,   67111860) /* PaletteBase */
+     , (1810,   7,  268435818) /* ClothingBase */
+     , (1810,   8,  100668115) /* Icon */;

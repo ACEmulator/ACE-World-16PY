@@ -1,30 +1,26 @@
-/* Weenie - Rodega's Provender (502) */
-DELETE FROM weenie WHERE class_Id = 502;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (502, 'sign-arwicshopgrocer', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (502, 001 /* NAME_STRING */, 'Rodega''s Provender')
-     , (502, 016 /* LONG_DESC_STRING */, 'Rodega''s Provender');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (502, 001 /* SETUP_DID */, 33555593)
-     , (502, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (502, 007 /* CLOTHINGBASE_DID */, 268435672)
-     , (502, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('502', 'sign-arwicshopgrocer', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (502, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (502, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (502, 008 /* MASS_INT */, 1800)
-     , (502, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (502, 019 /* VALUE_INT */, 125)
-     , (502, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (502,   1,        128) /* ItemType - Misc */
+     , (502,   5,       9000) /* EncumbranceVal */
+     , (502,   8,       1800) /* Mass */
+     , (502,  16,          1) /* ItemUseable - No */
+     , (502,  19,        125) /* Value */
+     , (502,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (502, 001 /* STUCK_BOOL */, True)
-     , (502, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (502, 013 /* ETHEREAL_BOOL */, False)
-     , (502, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (502,   1, True ) /* Stuck */
+     , (502,  12, True ) /* ReportCollisions */
+     , (502,  13, False) /* Ethereal */
+     , (502,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (502,   1, 'Rodega''s Provender') /* Name */
+     , (502,  16, 'Rodega''s Provender') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (502,   1,   33555593) /* Setup */
+     , (502,   6,   67111092) /* PaletteBase */
+     , (502,   7,  268435672) /* ClothingBase */
+     , (502,   8,  100668115) /* Icon */;

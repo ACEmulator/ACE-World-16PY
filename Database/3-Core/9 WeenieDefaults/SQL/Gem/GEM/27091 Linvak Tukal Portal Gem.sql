@@ -1,50 +1,46 @@
-/* Weenie - Linvak Tukal Portal Gem (27091) */
-DELETE FROM weenie WHERE class_Id = 27091;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27091, 'gemportallinvaktukal', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27091, 001 /* NAME_STRING */, 'Linvak Tukal Portal Gem')
-     , (27091, 015 /* SHORT_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.')
-     , (27091, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27091, 001 /* SETUP_DID */, 33556769)
-     , (27091, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27091, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27091, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (27091, 008 /* ICON_DID */, 100674862)
-     , (27091, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27091, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (27091, 031 /* LINKED_PORTAL_ONE_DID */, 8401 /* Portal to Linvak Tukal */)
-     , (27091, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27091', 'gemportallinvaktukal', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27091, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (27091, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (27091, 005 /* ENCUMB_VAL_INT */, 10)
-     , (27091, 008 /* MASS_INT */, 10)
-     , (27091, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27091, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (27091, 012 /* STACK_SIZE_INT */, 1)
-     , (27091, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (27091, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (27091, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (27091, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (27091, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27091, 019 /* VALUE_INT */, 500)
-     , (27091, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (27091, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (27091, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (27091, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (27091, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (27091, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (27091, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (27091, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27091, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (27091,   1,       2048) /* ItemType - Gem */
+     , (27091,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (27091,   5,         10) /* EncumbranceVal */
+     , (27091,   8,         10) /* Mass */
+     , (27091,   9,          0) /* ValidLocations - None */
+     , (27091,  11,         25) /* MaxStackSize */
+     , (27091,  12,          1) /* StackSize */
+     , (27091,  13,         10) /* StackUnitEncumbrance */
+     , (27091,  14,         10) /* StackUnitMass */
+     , (27091,  15,        500) /* StackUnitValue */
+     , (27091,  16,          8) /* ItemUseable - Contained */
+     , (27091,  18,          1) /* UiEffects - Magical */
+     , (27091,  19,        500) /* Value */
+     , (27091,  93,       3092) /* PhysicsState */
+     , (27091,  94,         16) /* TargetType - Creature */
+     , (27091, 106,        210) /* ItemSpellcraft */
+     , (27091, 107,         50) /* ItemCurMana */
+     , (27091, 108,         50) /* ItemMaxMana */
+     , (27091, 109,          0) /* ItemDifficulty */
+     , (27091, 110,          0) /* ItemAllegianceRankLimit */
+     , (27091, 150,        103) /* HookPlacement - Hook */
+     , (27091, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27091, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (27091, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27091,  15, True ) /* LightsStatus */
+     , (27091,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27091,   1, 'Linvak Tukal Portal Gem') /* Name */
+     , (27091,  15, 'This portal summoning gem works best if used outside in a relatively flat area.') /* ShortDesc */
+     , (27091,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27091,   1,   33556769) /* Setup */
+     , (27091,   3,  536870932) /* SoundTable */
+     , (27091,   6,   67111919) /* PaletteBase */
+     , (27091,   7,  268435723) /* ClothingBase */
+     , (27091,   8,  100674862) /* Icon */
+     , (27091,  22,  872415275) /* PhysicsEffectTable */
+     , (27091,  28,        157) /* Spell - Summon Primary Portal I */
+     , (27091,  31,       8401) /* LinkedPortalOne - Portal to Linvak Tukal */
+     , (27091,  36,  234881046) /* MutateFilter */;

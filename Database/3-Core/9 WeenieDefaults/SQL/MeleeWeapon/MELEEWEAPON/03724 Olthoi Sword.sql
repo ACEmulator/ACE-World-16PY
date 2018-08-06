@@ -1,48 +1,44 @@
-/* Weenie - Olthoi Sword (3724) */
-DELETE FROM weenie WHERE class_Id = 3724;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3724, 'swordolthoi', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3724, 001 /* NAME_STRING */, 'Olthoi Sword')
-     , (3724, 016 /* LONG_DESC_STRING */, 'A sword crafted from the claw of an Olthoi. Ichor drips from the blade.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3724, 001 /* SETUP_DID */, 33556589)
-     , (3724, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3724, 006 /* PALETTE_BASE_DID */, 67109311)
-     , (3724, 007 /* CLOTHINGBASE_DID */, 268435998)
-     , (3724, 008 /* ICON_DID */, 100670666)
-     , (3724, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3724', 'swordolthoi', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3724, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3724, 003 /* PALETTE_TEMPLATE_INT */, 52 /* DARKGREY_PALETTE_TEMPLATE */)
-     , (3724, 005 /* ENCUMB_VAL_INT */, 350)
-     , (3724, 008 /* MASS_INT */, 140)
-     , (3724, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3724, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3724, 019 /* VALUE_INT */, 1500)
-     , (3724, 044 /* DAMAGE_INT */, 20)
-     , (3724, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (3724, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3724, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (3724, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (3724, 049 /* WEAPON_TIME_INT */, 40)
-     , (3724, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3724, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3724, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3724, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3724, 012 /* SHADE_FLOAT */, 0.5)
-     , (3724, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (3724, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3724, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (3724, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (3724, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05);
+VALUES (3724,   1,          1) /* ItemType - MeleeWeapon */
+     , (3724,   3,         52) /* PaletteTemplate - DarkGrey */
+     , (3724,   5,        350) /* EncumbranceVal */
+     , (3724,   8,        140) /* Mass */
+     , (3724,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3724,  16,          1) /* ItemUseable - No */
+     , (3724,  19,       1500) /* Value */
+     , (3724,  44,         20) /* Damage */
+     , (3724,  45,         32) /* DamageType - Acid */
+     , (3724,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3724,  47,          6) /* AttackType */
+     , (3724,  48,         11) /* WeaponSkill - Sword */
+     , (3724,  49,         40) /* WeaponTime */
+     , (3724,  51,          1) /* CombatUse - Melee */
+     , (3724,  93,       1044) /* PhysicsState */
+     , (3724, 150,        103) /* HookPlacement - Hook */
+     , (3724, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3724, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3724,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3724,  12,     0.5) /* Shade */
+     , (3724,  21,    0.95) /* WeaponLength */
+     , (3724,  22,     0.5) /* DamageVariance */
+     , (3724,  29,    1.05) /* WeaponDefense */
+     , (3724,  39,     1.1) /* DefaultScale */
+     , (3724,  62,    1.05) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3724,   1, 'Olthoi Sword') /* Name */
+     , (3724,  16, 'A sword crafted from the claw of an Olthoi. Ichor drips from the blade.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3724,   1,   33556589) /* Setup */
+     , (3724,   3,  536870932) /* SoundTable */
+     , (3724,   6,   67109311) /* PaletteBase */
+     , (3724,   7,  268435998) /* ClothingBase */
+     , (3724,   8,  100670666) /* Icon */
+     , (3724,  22,  872415275) /* PhysicsEffectTable */;

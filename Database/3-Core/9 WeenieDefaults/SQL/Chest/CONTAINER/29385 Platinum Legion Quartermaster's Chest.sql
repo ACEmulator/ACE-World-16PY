@@ -1,59 +1,55 @@
-/* Weenie - Platinum Legion Quartermaster's Chest (29385) */
-DELETE FROM weenie WHERE class_Id = 29385;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29385, 'chestquartermasterplatinum', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29385, 001 /* NAME_STRING */, 'Platinum Legion Quartermaster''s Chest')
-     , (29385, 012 /* LOCK_CODE_STRING */, 'keyultimatefrore')
-     , (29385, 014 /* USE_STRING */, 'Use this item to open it and see its contents.')
-     , (29385, 015 /* SHORT_DESC_STRING */, 'A stout iron chest, wrought with icicle-shaped carvings.')
-     , (29385, 016 /* LONG_DESC_STRING */, 'A stout iron chest, wrought with icicle-shaped carvings.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29385, 001 /* SETUP_DID */, 33554556)
-     , (29385, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (29385, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (29385, 008 /* ICON_DID */, 100667424)
-     , (29385, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29385', 'chestquartermasterplatinum', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29385, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (29385, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (29385, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (29385, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (29385, 008 /* MASS_INT */, 3000)
-     , (29385, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (29385, 019 /* VALUE_INT */, 2500)
-     , (29385, 037 /* RESIST_ITEM_APPRAISAL_INT */, 30)
-     , (29385, 038 /* RESIST_LOCKPICK_INT */, 999)
-     , (29385, 081 /* MAX_GENERATED_OBJECTS_INT */, 4)
-     , (29385, 082 /* INIT_GENERATED_OBJECTS_INT */, 4)
-     , (29385, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (29385, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29385, 096 /* ENCUMB_CAPACITY_INT */, -1)
-     , (29385, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29385, 011 /* RESET_INTERVAL_FLOAT */, 66)
-     , (29385, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (29385, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (29385, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (29385,   1,        512) /* ItemType - Container */
+     , (29385,   5,       9000) /* EncumbranceVal */
+     , (29385,   6,         -1) /* ItemsCapacity */
+     , (29385,   7,         -1) /* ContainersCapacity */
+     , (29385,   8,       3000) /* Mass */
+     , (29385,  16,         48) /* ItemUseable - ViewedRemote */
+     , (29385,  19,       2500) /* Value */
+     , (29385,  37,         30) /* ResistItemAppraisal */
+     , (29385,  38,        999) /* ResistLockpick */
+     , (29385,  81,          4) /* MaxGeneratedObjects */
+     , (29385,  82,          4) /* InitGeneratedObjects */
+     , (29385,  83,          2) /* ActivationResponse - Use */
+     , (29385,  93,       1048) /* PhysicsState */
+     , (29385,  96,         -1) /* EncumbranceCapacity */
+     , (29385, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29385, 001 /* STUCK_BOOL */, True)
-     , (29385, 002 /* OPEN_BOOL */, False)
-     , (29385, 003 /* LOCKED_BOOL */, True)
-     , (29385, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (29385, 013 /* ETHEREAL_BOOL */, False)
-     , (29385, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (29385, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (29385, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (29385,   1, True ) /* Stuck */
+     , (29385,   2, False) /* Open */
+     , (29385,   3, True ) /* Locked */
+     , (29385,  12, True ) /* ReportCollisions */
+     , (29385,  13, False) /* Ethereal */
+     , (29385,  33, False) /* ResetMessagePending */
+     , (29385,  34, False) /* DefaultOpen */
+     , (29385,  35, True ) /* DefaultLocked */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29385,  11,      66) /* ResetInterval */
+     , (29385,  41,      60) /* RegenerationInterval */
+     , (29385,  43,       1) /* GeneratorRadius */
+     , (29385,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29385,   1, 'Platinum Legion Quartermaster''s Chest') /* Name */
+     , (29385,  12, 'keyultimatefrore') /* LockCode */
+     , (29385,  14, 'Use this item to open it and see its contents.') /* Use */
+     , (29385,  15, 'A stout iron chest, wrought with icicle-shaped carvings.') /* ShortDesc */
+     , (29385,  16, 'A stout iron chest, wrought with icicle-shaped carvings.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29385,   1,   33554556) /* Setup */
+     , (29385,   2,  150994948) /* MotionTable */
+     , (29385,   3,  536870945) /* SoundTable */
+     , (29385,   8,  100667424) /* Icon */
+     , (29385,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29385, -1, 26007, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Gelidite Robe (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
-     , (29385, -1, 26009, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Hammer of Frore (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
-     , (29385, -1, 26006, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Ice Heaume of Frore (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
-     , (29385, -1, 59, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate RANDOM TREASURE from Loot Tier 4 (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
-
+VALUES (29385, -1, 26007, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
+     , (29385, -1, 26009, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
+     , (29385, -1, 26006, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
+     , (29385, -1, 59, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

@@ -1,67 +1,63 @@
-/* Weenie - Superb Dissolving Isparian Spear (19941) */
-DELETE FROM weenie WHERE class_Id = 19941;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19941, 'spearispariansuperbstingingminor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19941, 001 /* NAME_STRING */, 'Superb Dissolving Isparian Spear');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19941, 001 /* SETUP_DID */, 33556332)
-     , (19941, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19941, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19941, 007 /* CLOTHINGBASE_DID */, 268436383)
-     , (19941, 008 /* ICON_DID */, 100672930)
-     , (19941, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (19941, 037 /* ITEM_SKILL_LIMIT_DID */, 9);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19941', 'spearispariansuperbstingingminor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19941, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (19941, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (19941, 005 /* ENCUMB_VAL_INT */, 650)
-     , (19941, 008 /* MASS_INT */, 700)
-     , (19941, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (19941, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19941, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (19941, 019 /* VALUE_INT */, 6000)
-     , (19941, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19941, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (19941, 044 /* DAMAGE_INT */, 26)
-     , (19941, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (19941, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (19941, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (19941, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (19941, 049 /* WEAPON_TIME_INT */, 20)
-     , (19941, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (19941, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19941, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (19941, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (19941, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (19941, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 300)
-     , (19941, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (19941, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (19941, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (19941, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (19941, 160 /* WIELD_DIFFICULTY_INT */, 40);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19941, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (19941, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (19941, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (19941, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
-     , (19941, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (19941, 062 /* WEAPON_OFFENSE_FLOAT */, 1.08);
+VALUES (19941,   1,          1) /* ItemType - MeleeWeapon */
+     , (19941,   3,          8) /* PaletteTemplate - Green */
+     , (19941,   5,        650) /* EncumbranceVal */
+     , (19941,   8,        700) /* Mass */
+     , (19941,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (19941,  16,          1) /* ItemUseable - No */
+     , (19941,  18,          1) /* UiEffects - Magical */
+     , (19941,  19,       6000) /* Value */
+     , (19941,  33,          1) /* Bonded - Bonded */
+     , (19941,  36,       9999) /* ResistMagic */
+     , (19941,  44,         26) /* Damage */
+     , (19941,  45,         32) /* DamageType - Acid */
+     , (19941,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (19941,  47,          2) /* AttackType - Thrust */
+     , (19941,  48,          9) /* WeaponSkill - Spear */
+     , (19941,  49,         20) /* WeaponTime */
+     , (19941,  51,          1) /* CombatUse - Melee */
+     , (19941,  93,       1044) /* PhysicsState */
+     , (19941, 106,        100) /* ItemSpellcraft */
+     , (19941, 107,        600) /* ItemCurMana */
+     , (19941, 108,        600) /* ItemMaxMana */
+     , (19941, 115,        300) /* ItemSkillLevelLimit */
+     , (19941, 150,        103) /* HookPlacement - Hook */
+     , (19941, 151,          2) /* HookType - Wall */
+     , (19941, 158,          7) /* WieldRequirements - Level */
+     , (19941, 159,          1) /* WieldSkilltype - Axe */
+     , (19941, 160,         40) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19941, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19941, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19941, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19941,  22, True ) /* Inscribable */
+     , (19941,  23, True ) /* DestroyOnSell */
+     , (19941,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19941,   5,   -0.05) /* ManaRate */
+     , (19941,  21,     1.5) /* WeaponLength */
+     , (19941,  22,     0.6) /* DamageVariance */
+     , (19941,  29,    1.08) /* WeaponDefense */
+     , (19941,  39,       1) /* DefaultScale */
+     , (19941,  62,    1.08) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19941,   1, 'Superb Dissolving Isparian Spear') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19941,   1,   33556332) /* Setup */
+     , (19941,   3,  536870932) /* SoundTable */
+     , (19941,   6,   67111919) /* PaletteBase */
+     , (19941,   7,  268436383) /* ClothingBase */
+     , (19941,   8,  100672930) /* Icon */
+     , (19941,  22,  872415275) /* PhysicsEffectTable */
+     , (19941,  37,          9) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19941, 1591, 2) /* HeartSeeker5_SpellID */
-     , (19941, 1615, 2) /* BloodDrinker5_SpellID */
-     , (19941, 2563, 2) /* CANTRIPSPEARAPTITUDE1_SpellID */
-     , (19941, 1351, 2) /* EnduranceSelf3_SpellID */
-     , (19941, 518, 2) /* AcidProtectionSelf4_SpellID */;
-
+VALUES (19941,   518,      2)  /* Acid Protection Self IV */
+     , (19941,  1351,      2)  /* Endurance Self III */
+     , (19941,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (19941,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (19941,  2563,      2)  /* Minor Light Weapon Aptitude */;

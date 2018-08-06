@@ -1,63 +1,59 @@
-/* Weenie - Shackles of Obedience (10766) */
-DELETE FROM weenie WHERE class_Id = 10766;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10766, 'bracersmanacles', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10766, 001 /* NAME_STRING */, 'Shackles of Obedience')
-     , (10766, 016 /* LONG_DESC_STRING */, 'Shackles used to bind the wrists.  They have a long chain between them, allowing for freedom of movement.')
-     , (10766, 033 /* QUEST_STRING */, 'VirindiManacles');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10766, 001 /* SETUP_DID */, 33554641)
-     , (10766, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10766, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (10766, 007 /* CLOTHINGBASE_DID */, 268436191)
-     , (10766, 008 /* ICON_DID */, 100667331)
-     , (10766, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10766', 'bracersmanacles', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10766, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (10766, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (10766, 004 /* CLOTHING_PRIORITY_INT */, 8192 /* OuterwearLowerArms */)
-     , (10766, 005 /* ENCUMB_VAL_INT */, 600)
-     , (10766, 008 /* MASS_INT */, 270)
-     , (10766, 009 /* LOCATIONS_INT */, 4096 /* LOWER_ARM_ARMOR_LOC */)
-     , (10766, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10766, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (10766, 019 /* VALUE_INT */, 0)
-     , (10766, 027 /* ARMOR_TYPE_INT */, 32)
-     , (10766, 028 /* ARMOR_LEVEL_INT */, 140)
-     , (10766, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (10766, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (10766, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (10766, 106 /* ITEM_SPELLCRAFT_INT */, 230)
-     , (10766, 107 /* ITEM_CUR_MANA_INT */, 250)
-     , (10766, 108 /* ITEM_MAX_MANA_INT */, 2000)
-     , (10766, 109 /* ITEM_DIFFICULTY_INT */, 1)
-     , (10766, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10766, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (10766, 012 /* SHADE_FLOAT */, 0.33)
-     , (10766, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
-     , (10766, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (10766, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (10766, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (10766, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.5)
-     , (10766, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.7)
-     , (10766, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.5)
-     , (10766, 110 /* BULK_MOD_FLOAT */, 1)
-     , (10766, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (10766,   1,          2) /* ItemType - Armor */
+     , (10766,   3,         20) /* PaletteTemplate - Silver */
+     , (10766,   4,       8192) /* ClothingPriority - OuterwearLowerArms */
+     , (10766,   5,        600) /* EncumbranceVal */
+     , (10766,   8,        270) /* Mass */
+     , (10766,   9,       4096) /* ValidLocations - LowerArmArmor */
+     , (10766,  16,          1) /* ItemUseable - No */
+     , (10766,  18,          1) /* UiEffects - Magical */
+     , (10766,  19,          0) /* Value */
+     , (10766,  27,         32) /* ArmorType */
+     , (10766,  28,        140) /* ArmorLevel */
+     , (10766,  33,          1) /* Bonded - Bonded */
+     , (10766,  36,       9999) /* ResistMagic */
+     , (10766,  93,       1044) /* PhysicsState */
+     , (10766, 106,        230) /* ItemSpellcraft */
+     , (10766, 107,        250) /* ItemCurMana */
+     , (10766, 108,       2000) /* ItemMaxMana */
+     , (10766, 109,          1) /* ItemDifficulty */
+     , (10766, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10766, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (10766,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10766,   5,   -0.05) /* ManaRate */
+     , (10766,  12,    0.33) /* Shade */
+     , (10766,  13,     1.2) /* ArmorModVsSlash */
+     , (10766,  14,       1) /* ArmorModVsPierce */
+     , (10766,  15,       1) /* ArmorModVsBludgeon */
+     , (10766,  16,     0.5) /* ArmorModVsCold */
+     , (10766,  17,     0.5) /* ArmorModVsFire */
+     , (10766,  18,     0.7) /* ArmorModVsAcid */
+     , (10766,  19,     0.5) /* ArmorModVsElectric */
+     , (10766, 110,       1) /* BulkMod */
+     , (10766, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10766,   1, 'Shackles of Obedience') /* Name */
+     , (10766,  16, 'Shackles used to bind the wrists.  They have a long chain between them, allowing for freedom of movement.') /* LongDesc */
+     , (10766,  33, 'VirindiManacles') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10766,   1,   33554641) /* Setup */
+     , (10766,   3,  536870932) /* SoundTable */
+     , (10766,   6,   67108990) /* PaletteBase */
+     , (10766,   7,  268436191) /* ClothingBase */
+     , (10766,   8,  100667331) /* Icon */
+     , (10766,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10766, 1460, 2) /* FeeblemindSelf4_SpellID */
-     , (10766, 1436, 2) /* BafflementSelf4_SpellID */
-     , (10766, 1484, 2) /* Impenetrability4_SpellID */
-     , (10766, 1329, 2) /* StrengthSelf3_SpellID */
-     , (10766, 951, 2) /* FealtySelf6_SpellID */;
-
+VALUES (10766,   951,      2)  /* Fealty Self VI */
+     , (10766,  1329,      2)  /* Strength Self III */
+     , (10766,  1436,      2)  /* Bafflement Self IV */
+     , (10766,  1460,      2)  /* Feeblemind Self IV */
+     , (10766,  1484,      2)  /* Impenetrability IV */;

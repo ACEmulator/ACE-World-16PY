@@ -1,104 +1,100 @@
-/* Weenie - West Rithwic Estates Merchant (27062) */
-DELETE FROM weenie WHERE class_Id = 27062;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27062, 'westrithwicestatesvendor', 12 /* Vendor_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27062, 001 /* NAME_STRING */, 'West Rithwic Estates Merchant')
-     , (27062, 003 /* SEX_STRING */, 'Male')
-     , (27062, 004 /* HERITAGE_GROUP_STRING */, 'Aluvian')
-     , (27062, 005 /* TEMPLATE_STRING */, 'Merchant');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27062, 001 /* SETUP_DID */, 33554433)
-     , (27062, 002 /* MOTION_TABLE_DID */, 150994945)
-     , (27062, 003 /* SOUND_TABLE_DID */, 536870913)
-     , (27062, 004 /* COMBAT_TABLE_DID */, 805306368)
-     , (27062, 008 /* ICON_DID */, 100667446);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27062', 'westrithwicestatesvendor', 12) /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27062, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (27062, 002 /* CREATURE_TYPE_INT */, 31 /* Human_CreatureType */)
-     , (27062, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (27062, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (27062, 008 /* MASS_INT */, 120)
-     , (27062, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (27062, 025 /* LEVEL_INT */, 10)
-     , (27062, 027 /* ARMOR_TYPE_INT */, 0)
-     , (27062, 074 /* MERCHANDISE_ITEM_TYPES_INT */, 264192 /* TYPE_GEM, TYPE_PROMISSORY_NOTE */)
-     , (27062, 075 /* MERCHANDISE_MIN_VALUE_INT */, 0)
-     , (27062, 076 /* MERCHANDISE_MAX_VALUE_INT */, 1000000)
-     , (27062, 093 /* PHYSICS_STATE_INT */, 2098204 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS */)
-     , (27062, 126 /* VENDOR_HAPPY_MEAN_INT */, 125)
-     , (27062, 127 /* VENDOR_HAPPY_VARIANCE_INT */, 125)
-     , (27062, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
-     , (27062, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
-     , (27062, 146 /* XP_OVERRIDE_INT */, 277);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27062, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
-     , (27062, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
-     , (27062, 003 /* HEALTH_RATE_FLOAT */, 0.16)
-     , (27062, 004 /* STAMINA_RATE_FLOAT */, 5)
-     , (27062, 005 /* MANA_RATE_FLOAT */, 1)
-     , (27062, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (27062, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (27062, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (27062, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (27062, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (27062, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (27062, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (27062, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (27062, 037 /* BUY_PRICE_FLOAT */, 0.5)
-     , (27062, 038 /* SELL_PRICE_FLOAT */, 1.5)
-     , (27062, 054 /* USE_RADIUS_FLOAT */, 3)
-     , (27062, 064 /* RESIST_SLASH_FLOAT */, 1)
-     , (27062, 065 /* RESIST_PIERCE_FLOAT */, 1)
-     , (27062, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
-     , (27062, 067 /* RESIST_FIRE_FLOAT */, 1)
-     , (27062, 068 /* RESIST_COLD_FLOAT */, 1)
-     , (27062, 069 /* RESIST_ACID_FLOAT */, 1)
-     , (27062, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
-     , (27062, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
-     , (27062, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
-     , (27062, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
-     , (27062, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
-     , (27062, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
-     , (27062, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
-     , (27062, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
+VALUES (27062,   1,         16) /* ItemType - Creature */
+     , (27062,   2,         31) /* CreatureType - Human */
+     , (27062,   6,         -1) /* ItemsCapacity */
+     , (27062,   7,         -1) /* ContainersCapacity */
+     , (27062,   8,        120) /* Mass */
+     , (27062,  16,         32) /* ItemUseable - Remote */
+     , (27062,  25,         10) /* Level */
+     , (27062,  27,          0) /* ArmorType */
+     , (27062,  74,     264192) /* MerchandiseItemTypes */
+     , (27062,  75,          0) /* MerchandiseMinValue */
+     , (27062,  76,    1000000) /* MerchandiseMaxValue */
+     , (27062,  93,    2098204) /* PhysicsState */
+     , (27062, 126,        125) /* VendorHappyMean */
+     , (27062, 127,        125) /* VendorHappyVariance */
+     , (27062, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (27062, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (27062, 146,        277) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27062, 001 /* STUCK_BOOL */, True)
-     , (27062, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (27062, 019 /* ATTACKABLE_BOOL */, False)
-     , (27062, 039 /* DEAL_MAGICAL_ITEMS_BOOL */, True)
-     , (27062, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True);
+VALUES (27062,   1, True ) /* Stuck */
+     , (27062,  12, True ) /* ReportCollisions */
+     , (27062,  19, False) /* Attackable */
+     , (27062,  39, True ) /* DealMagicalItems */
+     , (27062,  41, True ) /* ReportCollisionsAsEnvironment */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27062,   1,       5) /* HeartbeatInterval */
+     , (27062,   2,       0) /* HeartbeatTimestamp */
+     , (27062,   3,    0.16) /* HealthRate */
+     , (27062,   4,       5) /* StaminaRate */
+     , (27062,   5,       1) /* ManaRate */
+     , (27062,  11,     300) /* ResetInterval */
+     , (27062,  13,       1) /* ArmorModVsSlash */
+     , (27062,  14,       1) /* ArmorModVsPierce */
+     , (27062,  15,       1) /* ArmorModVsBludgeon */
+     , (27062,  16,       1) /* ArmorModVsCold */
+     , (27062,  17,       1) /* ArmorModVsFire */
+     , (27062,  18,       1) /* ArmorModVsAcid */
+     , (27062,  19,       1) /* ArmorModVsElectric */
+     , (27062,  37,     0.5) /* BuyPrice */
+     , (27062,  38,     1.5) /* SellPrice */
+     , (27062,  54,       3) /* UseRadius */
+     , (27062,  64,       1) /* ResistSlash */
+     , (27062,  65,       1) /* ResistPierce */
+     , (27062,  66,       1) /* ResistBludgeon */
+     , (27062,  67,       1) /* ResistFire */
+     , (27062,  68,       1) /* ResistCold */
+     , (27062,  69,       1) /* ResistAcid */
+     , (27062,  70,       1) /* ResistElectric */
+     , (27062,  71,       1) /* ResistHealthBoost */
+     , (27062,  72,       1) /* ResistStaminaDrain */
+     , (27062,  73,       1) /* ResistStaminaBoost */
+     , (27062,  74,       1) /* ResistManaDrain */
+     , (27062,  75,       1) /* ResistManaBoost */
+     , (27062, 104,      10) /* ObviousRadarRange */
+     , (27062, 125,       1) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27062,   1, 'West Rithwic Estates Merchant') /* Name */
+     , (27062,   3, 'Male') /* Sex */
+     , (27062,   4, 'Aluvian') /* HeritageGroup */
+     , (27062,   5, 'Merchant') /* Template */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27062,   1,   33554433) /* Setup */
+     , (27062,   2,  150994945) /* MotionTable */
+     , (27062,   3,  536870913) /* SoundTable */
+     , (27062,   4,  805306368) /* CombatTable */
+     , (27062,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (27062, 1, 90, 0, 0) /* STRENGTH_ATTRIBUTE */
-     , (27062, 2, 90, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (27062, 3, 85, 0, 0) /* QUICKNESS_ATTRIBUTE */
-     , (27062, 4, 80, 0, 0) /* COORDINATION_ATTRIBUTE */
-     , (27062, 5, 40, 0, 0) /* FOCUS_ATTRIBUTE */
-     , (27062, 6, 45, 0, 0) /* SELF_ATTRIBUTE */;
+VALUES (27062,   1,  90, 0, 0) /* Strength */
+     , (27062,   2,  90, 0, 0) /* Endurance */
+     , (27062,   3,  85, 0, 0) /* Quickness */
+     , (27062,   4,  80, 0, 0) /* Coordination */
+     , (27062,   5,  40, 0, 0) /* Focus */
+     , (27062,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27062, 1, 90, 0, 0, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27062, 3, 100, 0, 0, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27062, 5, 50, 0, 0, 95) /* MAX_MANA_ATTRIBUTE_2ND */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27062, 4, 26427, -1, 0, 0, False) /* Create West Rithwic Estates Portal Gem for Shop_DestinationType */;
+VALUES (27062,   1,    90, 0, 0, 135) /* MaxHealth */
+     , (27062,   3,   100, 0, 0, 190) /* MaxStamina */
+     , (27062,   5,    50, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (27062, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
-     , (27062, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
-     , (27062, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
-     , (27062, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
-     , (27062, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
-     , (27062, 5, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
-     , (27062, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (27062, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
-     , (27062, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
+VALUES (27062,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (27062,  1,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (27062,  2,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (27062,  3,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (27062,  4,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (27062,  5,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (27062,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (27062,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (27062,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27062, 4, 26427, -1, 0, 0, False) /* Create West Rithwic Estates Portal Gem for Shop */;

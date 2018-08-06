@@ -1,34 +1,30 @@
-/* Weenie - Gate Key (25710) */
-DELETE FROM weenie WHERE class_Id = 25710;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25710, 'keynoir1', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25710, 001 /* NAME_STRING */, 'Gate Key')
-     , (25710, 013 /* KEY_CODE_STRING */, 'DoorKeyNoir1')
-     , (25710, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25710, 001 /* SETUP_DID */, 33554784)
-     , (25710, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25710, 008 /* ICON_DID */, 100667485)
-     , (25710, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25710', 'keynoir1', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25710, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (25710, 005 /* ENCUMB_VAL_INT */, 5)
-     , (25710, 008 /* MASS_INT */, 20)
-     , (25710, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (25710, 019 /* VALUE_INT */, 0)
-     , (25710, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25710, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (25710, 092 /* STRUCTURE_INT */, 1)
-     , (25710, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25710, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */)
-     , (25710, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (25710,   1,      16384) /* ItemType - Key */
+     , (25710,   5,          5) /* EncumbranceVal */
+     , (25710,   8,         20) /* Mass */
+     , (25710,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (25710,  19,          0) /* Value */
+     , (25710,  33,          1) /* Bonded - Bonded */
+     , (25710,  91,          1) /* MaxStructure */
+     , (25710,  92,          1) /* Structure */
+     , (25710,  93,       1044) /* PhysicsState */
+     , (25710,  94,        640) /* TargetType - LockableMagicTarget */
+     , (25710, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25710, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25710, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (25710,  22, True ) /* Inscribable */
+     , (25710,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25710,   1, 'Gate Key') /* Name */
+     , (25710,  13, 'DoorKeyNoir1') /* KeyCode */
+     , (25710,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25710,   1,   33554784) /* Setup */
+     , (25710,   3,  536870932) /* SoundTable */
+     , (25710,   8,  100667485) /* Icon */
+     , (25710,  22,  872415275) /* PhysicsEffectTable */;

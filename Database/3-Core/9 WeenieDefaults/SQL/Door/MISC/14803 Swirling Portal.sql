@@ -1,41 +1,37 @@
-/* Weenie - Swirling Portal (14803) */
-DELETE FROM weenie WHERE class_Id = 14803;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14803, 'doorhightech-ai', 19 /* Door_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14803, 001 /* NAME_STRING */, 'Swirling Portal')
-     , (14803, 014 /* USE_STRING */, 'Use this item to open it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14803, 001 /* SETUP_DID */, 33557511)
-     , (14803, 002 /* MOTION_TABLE_DID */, 150995155)
-     , (14803, 003 /* SOUND_TABLE_DID */, 536871050)
-     , (14803, 006 /* PALETTE_BASE_DID */, 67111868)
-     , (14803, 007 /* CLOTHINGBASE_DID */, 268436329)
-     , (14803, 008 /* ICON_DID */, 100667499)
-     , (14803, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14803', 'doorhightech-ai', 19) /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14803, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14803, 008 /* MASS_INT */, 500)
-     , (14803, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (14803, 019 /* VALUE_INT */, 0)
-     , (14803, 038 /* RESIST_LOCKPICK_INT */, 50)
-     , (14803, 093 /* PHYSICS_STATE_INT */, 8 /* REPORT_COLLISIONS_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14803, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (14803, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (14803,   1,        128) /* ItemType - Misc */
+     , (14803,   8,        500) /* Mass */
+     , (14803,  16,         32) /* ItemUseable - Remote */
+     , (14803,  19,          0) /* Value */
+     , (14803,  38,         50) /* ResistLockpick */
+     , (14803,  93,          8) /* PhysicsState - ReportCollision */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14803, 001 /* STUCK_BOOL */, True)
-     , (14803, 002 /* OPEN_BOOL */, False)
-     , (14803, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14803, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14803, 013 /* ETHEREAL_BOOL */, False)
-     , (14803, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (14803, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (14803, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (14803,   1, True ) /* Stuck */
+     , (14803,   2, False) /* Open */
+     , (14803,  11, False) /* IgnoreCollisions */
+     , (14803,  12, True ) /* ReportCollisions */
+     , (14803,  13, False) /* Ethereal */
+     , (14803,  14, False) /* GravityStatus */
+     , (14803,  33, False) /* ResetMessagePending */
+     , (14803,  34, False) /* DefaultOpen */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14803,  11,     300) /* ResetInterval */
+     , (14803,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14803,   1, 'Swirling Portal') /* Name */
+     , (14803,  14, 'Use this item to open it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14803,   1,   33557511) /* Setup */
+     , (14803,   2,  150995155) /* MotionTable */
+     , (14803,   3,  536871050) /* SoundTable */
+     , (14803,   6,   67111868) /* PaletteBase */
+     , (14803,   7,  268436329) /* ClothingBase */
+     , (14803,   8,  100667499) /* Icon */
+     , (14803,  22,  872415275) /* PhysicsEffectTable */;

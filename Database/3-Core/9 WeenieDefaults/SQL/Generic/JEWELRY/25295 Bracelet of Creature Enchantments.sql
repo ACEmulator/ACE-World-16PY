@@ -1,50 +1,46 @@
-/* Weenie - Bracelet of Creature Enchantments (25295) */
-DELETE FROM weenie WHERE class_Id = 25295;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25295, 'braceletattributes2lo', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25295, 001 /* NAME_STRING */, 'Bracelet of Creature Enchantments');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25295, 001 /* SETUP_DID */, 33554683)
-     , (25295, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25295, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (25295, 007 /* CLOTHINGBASE_DID */, 268436286)
-     , (25295, 008 /* ICON_DID */, 100672215)
-     , (25295, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (25295, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25295', 'braceletattributes2lo', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25295, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (25295, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (25295, 005 /* ENCUMB_VAL_INT */, 60)
-     , (25295, 008 /* MASS_INT */, 30)
-     , (25295, 009 /* LOCATIONS_INT */, 196608 /* WRIST_WEAR_LOC */)
-     , (25295, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25295, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (25295, 019 /* VALUE_INT */, 0)
-     , (25295, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25295, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25295, 106 /* ITEM_SPELLCRAFT_INT */, 350)
-     , (25295, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (25295, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (25295, 109 /* ITEM_DIFFICULTY_INT */, 1)
-     , (25295, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25295, 005 /* MANA_RATE_FLOAT */, 0);
+VALUES (25295,   1,          8) /* ItemType - Jewelry */
+     , (25295,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (25295,   5,         60) /* EncumbranceVal */
+     , (25295,   8,         30) /* Mass */
+     , (25295,   9,     196608) /* ValidLocations - WristWear */
+     , (25295,  16,          1) /* ItemUseable - No */
+     , (25295,  18,          1) /* UiEffects - Magical */
+     , (25295,  19,          0) /* Value */
+     , (25295,  33,          1) /* Bonded - Bonded */
+     , (25295,  93,       1044) /* PhysicsState */
+     , (25295, 106,        350) /* ItemSpellcraft */
+     , (25295, 107,        600) /* ItemCurMana */
+     , (25295, 108,        600) /* ItemMaxMana */
+     , (25295, 109,          1) /* ItemDifficulty */
+     , (25295, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25295, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25295, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (25295,  22, True ) /* Inscribable */
+     , (25295,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25295,   5,       0) /* ManaRate */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25295,   1, 'Bracelet of Creature Enchantments') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25295,   1,   33554683) /* Setup */
+     , (25295,   3,  536870932) /* SoundTable */
+     , (25295,   6,   67111919) /* PaletteBase */
+     , (25295,   7,  268436286) /* ClothingBase */
+     , (25295,   8,  100672215) /* Icon */
+     , (25295,  22,  872415275) /* PhysicsEffectTable */
+     , (25295,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25295, 1404, 2) /* QuicknessOther2_SpellID */
-     , (25295, 1452, 2) /* WillpowerOther2_SpellID */
-     , (25295, 1380, 2) /* CoordinationOther2_SpellID */
-     , (25295, 1428, 2) /* FocusOther2_SpellID */
-     , (25295, 1356, 2) /* EnduranceOther2_SpellID */
-     , (25295, 1333, 2) /* StrengthOther2_SpellID */;
-
+VALUES (25295,  1333,      2)  /* Strength Other II */
+     , (25295,  1356,      2)  /* Endurance Other II */
+     , (25295,  1380,      2)  /* Coordination Other II */
+     , (25295,  1404,      2)  /* Quickness Other II */
+     , (25295,  1428,      2)  /* Focus Other II */
+     , (25295,  1452,      2)  /* Willpower Other II */;

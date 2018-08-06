@@ -1,46 +1,42 @@
-/* Weenie - Ruined Amulet of the Arm (15773) */
-DELETE FROM weenie WHERE class_Id = 15773;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15773, 'amuletruinedwar', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15773, 001 /* NAME_STRING */, 'Ruined Amulet of the Arm')
-     , (15773, 014 /* USE_STRING */, 'This might fit into a setting created for it.')
-     , (15773, 015 /* SHORT_DESC_STRING */, 'An amulet crafted in pyreal that bears the symbol of war magic.')
-     , (15773, 016 /* LONG_DESC_STRING */, 'An Amulet crafted in pyreal that bears the symbol of war magic. The amulet is damaged, seemingly beyond repair.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15773, 001 /* SETUP_DID */, 33554680)
-     , (15773, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15773, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (15773, 007 /* CLOTHINGBASE_DID */, 268436095)
-     , (15773, 008 /* ICON_DID */, 100672818)
-     , (15773, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (15773, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15773', 'amuletruinedwar', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15773, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15773, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (15773, 005 /* ENCUMB_VAL_INT */, 10)
-     , (15773, 008 /* MASS_INT */, 10)
-     , (15773, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (15773, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (15773, 012 /* STACK_SIZE_INT */, 1)
-     , (15773, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (15773, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (15773, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (15773, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (15773, 019 /* VALUE_INT */, 0)
-     , (15773, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (15773, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (15773, 094 /* TARGET_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (15773, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15773, 039 /* DEFAULT_SCALE_FLOAT */, 0.67);
+VALUES (15773,   1,        128) /* ItemType - Misc */
+     , (15773,   3,          8) /* PaletteTemplate - Green */
+     , (15773,   5,         10) /* EncumbranceVal */
+     , (15773,   8,         10) /* Mass */
+     , (15773,   9,          0) /* ValidLocations - None */
+     , (15773,  11,          1) /* MaxStackSize */
+     , (15773,  12,          1) /* StackSize */
+     , (15773,  13,         10) /* StackUnitEncumbrance */
+     , (15773,  14,         10) /* StackUnitMass */
+     , (15773,  15,          0) /* StackUnitValue */
+     , (15773,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (15773,  19,          0) /* Value */
+     , (15773,  33,          1) /* Bonded - Bonded */
+     , (15773,  93,       1044) /* PhysicsState */
+     , (15773,  94,          2) /* TargetType - Armor */
+     , (15773, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15773, 022 /* INSCRIBABLE_BOOL */, True)
-     , (15773, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (15773,  22, True ) /* Inscribable */
+     , (15773,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15773,  39,    0.67) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15773,   1, 'Ruined Amulet of the Arm') /* Name */
+     , (15773,  14, 'This might fit into a setting created for it.') /* Use */
+     , (15773,  15, 'An amulet crafted in pyreal that bears the symbol of war magic.') /* ShortDesc */
+     , (15773,  16, 'An Amulet crafted in pyreal that bears the symbol of war magic. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15773,   1,   33554680) /* Setup */
+     , (15773,   3,  536870932) /* SoundTable */
+     , (15773,   6,   67111919) /* PaletteBase */
+     , (15773,   7,  268436095) /* ClothingBase */
+     , (15773,   8,  100672818) /* Icon */
+     , (15773,  22,  872415275) /* PhysicsEffectTable */
+     , (15773,  36,  234881046) /* MutateFilter */;

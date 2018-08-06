@@ -1,50 +1,46 @@
-/* Weenie - Lesser Koujia Breastplate of Acid (7649) */
-DELETE FROM weenie WHERE class_Id = 7649;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7649, 'breastplatekoujiashadowlessernewacid', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7649, 001 /* NAME_STRING */, 'Lesser Koujia Breastplate of Acid');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7649, 001 /* SETUP_DID */, 33554642)
-     , (7649, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7649, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (7649, 007 /* CLOTHINGBASE_DID */, 268435852)
-     , (7649, 008 /* ICON_DID */, 100670450)
-     , (7649, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7649', 'breastplatekoujiashadowlessernewacid', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7649, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (7649, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (7649, 004 /* CLOTHING_PRIORITY_INT */, 1024 /* OuterwearChest */)
-     , (7649, 005 /* ENCUMB_VAL_INT */, 1300)
-     , (7649, 008 /* MASS_INT */, 850)
-     , (7649, 009 /* LOCATIONS_INT */, 512 /* CHEST_ARMOR_LOC */)
-     , (7649, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7649, 019 /* VALUE_INT */, 2320)
-     , (7649, 027 /* ARMOR_TYPE_INT */, 32)
-     , (7649, 028 /* ARMOR_LEVEL_INT */, 115)
-     , (7649, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7649, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (7649, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7649, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7649, 012 /* SHADE_FLOAT */, 0.6)
-     , (7649, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (7649, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (7649, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (7649, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.2)
-     , (7649, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
-     , (7649, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 2)
-     , (7649, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
-     , (7649, 110 /* BULK_MOD_FLOAT */, 1)
-     , (7649, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (7649,   1,          2) /* ItemType - Armor */
+     , (7649,   3,          8) /* PaletteTemplate - Green */
+     , (7649,   4,       1024) /* ClothingPriority - OuterwearChest */
+     , (7649,   5,       1300) /* EncumbranceVal */
+     , (7649,   8,        850) /* Mass */
+     , (7649,   9,        512) /* ValidLocations - ChestArmor */
+     , (7649,  16,          1) /* ItemUseable - No */
+     , (7649,  19,       2320) /* Value */
+     , (7649,  27,         32) /* ArmorType */
+     , (7649,  28,        115) /* ArmorLevel */
+     , (7649,  33,          1) /* Bonded - Bonded */
+     , (7649,  36,       9999) /* ResistMagic */
+     , (7649,  93,       1044) /* PhysicsState */
+     , (7649, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7649, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7649, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7649, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7649,  22, True ) /* Inscribable */
+     , (7649,  23, True ) /* DestroyOnSell */
+     , (7649,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7649,  12,     0.6) /* Shade */
+     , (7649,  13,     1.3) /* ArmorModVsSlash */
+     , (7649,  14,       1) /* ArmorModVsPierce */
+     , (7649,  15,       1) /* ArmorModVsBludgeon */
+     , (7649,  16,     1.2) /* ArmorModVsCold */
+     , (7649,  17,     1.2) /* ArmorModVsFire */
+     , (7649,  18,       2) /* ArmorModVsAcid */
+     , (7649,  19,       0) /* ArmorModVsElectric */
+     , (7649, 110,       1) /* BulkMod */
+     , (7649, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7649,   1, 'Lesser Koujia Breastplate of Acid') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7649,   1,   33554642) /* Setup */
+     , (7649,   3,  536870932) /* SoundTable */
+     , (7649,   6,   67108990) /* PaletteBase */
+     , (7649,   7,  268435852) /* ClothingBase */
+     , (7649,   8,  100670450) /* Icon */
+     , (7649,  22,  872415275) /* PhysicsEffectTable */;

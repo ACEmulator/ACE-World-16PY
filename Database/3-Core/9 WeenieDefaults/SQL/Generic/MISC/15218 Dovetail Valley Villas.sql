@@ -1,28 +1,24 @@
-/* Weenie - Dovetail Valley Villas (15218) */
-DELETE FROM weenie WHERE class_Id = 15218;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15218, 'dovetailvalleyvillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15218, 001 /* NAME_STRING */, 'Dovetail Valley Villas')
-     , (15218, 016 /* LONG_DESC_STRING */, 'Welcome to Dovetail Valley Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15218, 001 /* SETUP_DID */, 33557463)
-     , (15218, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15218', 'dovetailvalleyvillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15218, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (15218, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (15218, 008 /* MASS_INT */, 1800)
-     , (15218, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15218, 019 /* VALUE_INT */, 125)
-     , (15218, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (15218,   1,        128) /* ItemType - Misc */
+     , (15218,   5,       9000) /* EncumbranceVal */
+     , (15218,   8,       1800) /* Mass */
+     , (15218,  16,          1) /* ItemUseable - No */
+     , (15218,  19,        125) /* Value */
+     , (15218,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15218, 001 /* STUCK_BOOL */, True)
-     , (15218, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (15218, 013 /* ETHEREAL_BOOL */, False)
-     , (15218, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (15218,   1, True ) /* Stuck */
+     , (15218,  12, True ) /* ReportCollisions */
+     , (15218,  13, False) /* Ethereal */
+     , (15218,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15218,   1, 'Dovetail Valley Villas') /* Name */
+     , (15218,  16, 'Welcome to Dovetail Valley Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15218,   1,   33557463) /* Setup */
+     , (15218,   8,  100668115) /* Icon */;

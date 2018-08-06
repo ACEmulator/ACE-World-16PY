@@ -1,39 +1,35 @@
-/* Weenie - Untranslated Writing (28319) */
-DELETE FROM weenie WHERE class_Id = 28319;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28319, 'notetorgluukingressuntranslated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28319, 001 /* NAME_STRING */, 'Untranslated Writing')
-     , (28319, 016 /* LONG_DESC_STRING */, 'A letter scrawled in strange characters.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28319, 001 /* SETUP_DID */, 33558644)
-     , (28319, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28319, 008 /* ICON_DID */, 100675924)
-     , (28319, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28319', 'notetorgluukingressuntranslated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28319, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28319, 005 /* ENCUMB_VAL_INT */, 10)
-     , (28319, 008 /* MASS_INT */, 5)
-     , (28319, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28319, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28319, 019 /* VALUE_INT */, 0)
-     , (28319, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28319, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (28319,   1,       8192) /* ItemType - Writable */
+     , (28319,   5,         10) /* EncumbranceVal */
+     , (28319,   8,          5) /* Mass */
+     , (28319,   9,          0) /* ValidLocations - None */
+     , (28319,  16,          8) /* ItemUseable - Contained */
+     , (28319,  19,          0) /* Value */
+     , (28319,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28319, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (28319,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28319,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28319,   1, 'Untranslated Writing') /* Name */
+     , (28319,  16, 'A letter scrawled in strange characters.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28319,   1,   33558644) /* Setup */
+     , (28319,   3,  536870932) /* SoundTable */
+     , (28319,   8,  100675924) /* Icon */
+     , (28319,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28319, 1, 1000) /* Book Data */;
+VALUES (28319, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28319, 0, 4294967295, 'Untranslated Text', 'prewritten', False, '
 [You cannot translate this text]
 ');
-

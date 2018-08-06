@@ -1,41 +1,37 @@
-/* Weenie - Gate (11702) */
-DELETE FROM weenie WHERE class_Id = 11702;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11702, 'gatetumeroklockedbrilliant', 19 /* Door_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11702, 001 /* NAME_STRING */, 'Gate')
-     , (11702, 012 /* LOCK_CODE_STRING */, 'masterkey')
-     , (11702, 014 /* USE_STRING */, 'Use this item to open it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11702, 001 /* SETUP_DID */, 33557118)
-     , (11702, 002 /* MOTION_TABLE_DID */, 150995139)
-     , (11702, 003 /* SOUND_TABLE_DID */, 536870947)
-     , (11702, 008 /* ICON_DID */, 100668183)
-     , (11702, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11702', 'gatetumeroklockedbrilliant', 19) /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11702, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11702, 008 /* MASS_INT */, 500)
-     , (11702, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (11702, 019 /* VALUE_INT */, 0)
-     , (11702, 038 /* RESIST_LOCKPICK_INT */, 322)
-     , (11702, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11702, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (11702, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (11702,   1,        128) /* ItemType - Misc */
+     , (11702,   8,        500) /* Mass */
+     , (11702,  16,         32) /* ItemUseable - Remote */
+     , (11702,  19,          0) /* Value */
+     , (11702,  38,        322) /* ResistLockpick */
+     , (11702,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11702, 001 /* STUCK_BOOL */, True)
-     , (11702, 002 /* OPEN_BOOL */, False)
-     , (11702, 003 /* LOCKED_BOOL */, True)
-     , (11702, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (11702, 013 /* ETHEREAL_BOOL */, False)
-     , (11702, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (11702, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (11702, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (11702, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (11702,   1, True ) /* Stuck */
+     , (11702,   2, False) /* Open */
+     , (11702,   3, True ) /* Locked */
+     , (11702,  12, True ) /* ReportCollisions */
+     , (11702,  13, False) /* Ethereal */
+     , (11702,  14, False) /* GravityStatus */
+     , (11702,  33, False) /* ResetMessagePending */
+     , (11702,  34, False) /* DefaultOpen */
+     , (11702,  35, True ) /* DefaultLocked */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11702,  11,     300) /* ResetInterval */
+     , (11702,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11702,   1, 'Gate') /* Name */
+     , (11702,  12, 'masterkey') /* LockCode */
+     , (11702,  14, 'Use this item to open it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11702,   1,   33557118) /* Setup */
+     , (11702,   2,  150995139) /* MotionTable */
+     , (11702,   3,  536870947) /* SoundTable */
+     , (11702,   8,  100668183) /* Icon */
+     , (11702,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,38 +1,34 @@
-/* Weenie - Hearty Spiced Applesauce (7875) */
-DELETE FROM weenie WHERE class_Id = 7875;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7875, 'heartyapplesaucespiced', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7875, 001 /* NAME_STRING */, 'Hearty Spiced Applesauce')
-     , (7875, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (7875, 015 /* SHORT_DESC_STRING */, 'Applesauce: spiced, impeccably pureed, buttery.')
-     , (7875, 020 /* PLURAL_NAME_STRING */, 'Hearty Jars of Spiced Applesauce');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7875, 001 /* SETUP_DID */, 33555977)
-     , (7875, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7875, 008 /* ICON_DID */, 100670844)
-     , (7875, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7875', 'heartyapplesaucespiced', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7875, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (7875, 005 /* ENCUMB_VAL_INT */, 40)
-     , (7875, 008 /* MASS_INT */, 25)
-     , (7875, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7875, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (7875, 012 /* STACK_SIZE_INT */, 1)
-     , (7875, 013 /* STACK_UNIT_ENCUMB_INT */, 40)
-     , (7875, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (7875, 015 /* STACK_UNIT_VALUE_INT */, 95)
-     , (7875, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (7875, 018 /* UI_EFFECTS_INT */, 16 /* UI_EFFECT_BOOST_STAMINA */)
-     , (7875, 019 /* VALUE_INT */, 95)
-     , (7875, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (7875, 090 /* BOOST_VALUE_INT */, 39)
-     , (7875, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (7875,   1,         32) /* ItemType - Food */
+     , (7875,   5,         40) /* EncumbranceVal */
+     , (7875,   8,         25) /* Mass */
+     , (7875,   9,          0) /* ValidLocations - None */
+     , (7875,  11,        100) /* MaxStackSize */
+     , (7875,  12,          1) /* StackSize */
+     , (7875,  13,         40) /* StackUnitEncumbrance */
+     , (7875,  14,         25) /* StackUnitMass */
+     , (7875,  15,         95) /* StackUnitValue */
+     , (7875,  16,          8) /* ItemUseable - Contained */
+     , (7875,  18,         16) /* UiEffects - BoostStamina */
+     , (7875,  19,         95) /* Value */
+     , (7875,  89,          4) /* BoosterEnum - Stamina */
+     , (7875,  90,         39) /* BoostValue */
+     , (7875,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7875, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7875,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7875,   1, 'Hearty Spiced Applesauce') /* Name */
+     , (7875,  14, 'Use this item to eat it.') /* Use */
+     , (7875,  15, 'Applesauce: spiced, impeccably pureed, buttery.') /* ShortDesc */
+     , (7875,  20, 'Hearty Jars of Spiced Applesauce') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7875,   1,   33555977) /* Setup */
+     , (7875,   3,  536870932) /* SoundTable */
+     , (7875,   8,  100670844) /* Icon */
+     , (7875,  22,  872415275) /* PhysicsEffectTable */;

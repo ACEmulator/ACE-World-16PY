@@ -1,43 +1,39 @@
-/* Weenie - Lugian Hammer (23754) */
-DELETE FROM weenie WHERE class_Id = 23754;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23754, 'lugianhammerhigh', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23754, 001 /* NAME_STRING */, 'Lugian Hammer');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23754, 001 /* SETUP_DID */, 33554766)
-     , (23754, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23754, 008 /* ICON_DID */, 100667619)
-     , (23754, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23754', 'lugianhammerhigh', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23754, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (23754, 005 /* ENCUMB_VAL_INT */, 4600)
-     , (23754, 008 /* MASS_INT */, 1840)
-     , (23754, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (23754, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23754, 019 /* VALUE_INT */, 450)
-     , (23754, 044 /* DAMAGE_INT */, 38)
-     , (23754, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (23754, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (23754, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (23754, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (23754, 049 /* WEAPON_TIME_INT */, 100)
-     , (23754, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (23754, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23754, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23754, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23754, 021 /* WEAPON_LENGTH_FLOAT */, 1.2)
-     , (23754, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (23754, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (23754, 039 /* DEFAULT_SCALE_FLOAT */, 2)
-     , (23754, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (23754,   1,          1) /* ItemType - MeleeWeapon */
+     , (23754,   5,       4600) /* EncumbranceVal */
+     , (23754,   8,       1840) /* Mass */
+     , (23754,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (23754,  16,          1) /* ItemUseable - No */
+     , (23754,  19,        450) /* Value */
+     , (23754,  44,         38) /* Damage */
+     , (23754,  45,          4) /* DamageType - Bludgeon */
+     , (23754,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (23754,  47,          4) /* AttackType - Slash */
+     , (23754,  48,          1) /* WeaponSkill - Axe */
+     , (23754,  49,        100) /* WeaponTime */
+     , (23754,  51,          1) /* CombatUse - Melee */
+     , (23754,  93,       1044) /* PhysicsState */
+     , (23754, 150,        103) /* HookPlacement - Hook */
+     , (23754, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23754, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (23754,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23754,  21,     1.2) /* WeaponLength */
+     , (23754,  22,     0.5) /* DamageVariance */
+     , (23754,  29,       1) /* WeaponDefense */
+     , (23754,  39,       2) /* DefaultScale */
+     , (23754,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23754,   1, 'Lugian Hammer') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23754,   1,   33554766) /* Setup */
+     , (23754,   3,  536870932) /* SoundTable */
+     , (23754,   8,  100667619) /* Icon */
+     , (23754,  22,  872415275) /* PhysicsEffectTable */;

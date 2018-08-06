@@ -1,65 +1,61 @@
-/* Weenie - Composite Bow with Handle (6912) */
-DELETE FROM weenie WHERE class_Id = 6912;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6912, 'bowcompositedmg1def3spd2atk1', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6912, 001 /* NAME_STRING */, 'Composite Bow with Handle');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6912, 001 /* SETUP_DID */, 33556600)
-     , (6912, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6912, 006 /* PALETTE_BASE_DID */, 67112869)
-     , (6912, 007 /* CLOTHINGBASE_DID */, 268436002)
-     , (6912, 008 /* ICON_DID */, 100670670)
-     , (6912, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6912, 037 /* ITEM_SKILL_LIMIT_DID */, 2);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6912', 'bowcompositedmg1def3spd2atk1', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6912, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (6912, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (6912, 005 /* ENCUMB_VAL_INT */, 980)
-     , (6912, 008 /* MASS_INT */, 140)
-     , (6912, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (6912, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6912, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6912, 019 /* VALUE_INT */, 400)
-     , (6912, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6912, 044 /* DAMAGE_INT */, 0)
-     , (6912, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
-     , (6912, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
-     , (6912, 049 /* WEAPON_TIME_INT */, 40)
-     , (6912, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (6912, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (6912, 052 /* PARENT_LOCATION_INT */, 2)
-     , (6912, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (6912, 060 /* WEAPON_RANGE_INT */, 192)
-     , (6912, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6912, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (6912, 107 /* ITEM_CUR_MANA_INT */, 0)
-     , (6912, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (6912, 109 /* ITEM_DIFFICULTY_INT */, 100)
-     , (6912, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (6912, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 170)
-     , (6912, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6912, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6912, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (6912, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (6912, 029 /* WEAPON_DEFENSE_FLOAT */, 1.06)
-     , (6912, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (6912, 062 /* WEAPON_OFFENSE_FLOAT */, 1.02)
-     , (6912, 063 /* DAMAGE_MOD_FLOAT */, 1.4);
+VALUES (6912,   1,        256) /* ItemType - MissileWeapon */
+     , (6912,   3,         20) /* PaletteTemplate - Silver */
+     , (6912,   5,        980) /* EncumbranceVal */
+     , (6912,   8,        140) /* Mass */
+     , (6912,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (6912,  16,          1) /* ItemUseable - No */
+     , (6912,  18,          1) /* UiEffects - Magical */
+     , (6912,  19,        400) /* Value */
+     , (6912,  33,          1) /* Bonded - Bonded */
+     , (6912,  44,          0) /* Damage */
+     , (6912,  46,         16) /* DefaultCombatStyle - Bow */
+     , (6912,  48,          2) /* WeaponSkill - Bow */
+     , (6912,  49,         40) /* WeaponTime */
+     , (6912,  50,          1) /* AmmoType - Arrow */
+     , (6912,  51,          2) /* CombatUse - Missle */
+     , (6912,  52,          2) /* ParentLocation */
+     , (6912,  53,          3) /* PlacementPosition */
+     , (6912,  60,        192) /* WeaponRange */
+     , (6912,  93,       1044) /* PhysicsState */
+     , (6912, 106,        200) /* ItemSpellcraft */
+     , (6912, 107,          0) /* ItemCurMana */
+     , (6912, 108,        500) /* ItemMaxMana */
+     , (6912, 109,        100) /* ItemDifficulty */
+     , (6912, 114,          1) /* Attuned - Attuned */
+     , (6912, 115,        170) /* ItemSkillLevelLimit */
+     , (6912, 150,        103) /* HookPlacement - Hook */
+     , (6912, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6912, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6912, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6912, 069 /* IS_SELLABLE_BOOL */, False)
-     , (6912, 099 /* IVORYABLE_BOOL */, True);
+VALUES (6912,  22, True ) /* Inscribable */
+     , (6912,  23, True ) /* DestroyOnSell */
+     , (6912,  69, False) /* IsSellable */
+     , (6912,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6912,   5,   -0.05) /* ManaRate */
+     , (6912,  26,    27.3) /* MaximumVelocity */
+     , (6912,  29,    1.06) /* WeaponDefense */
+     , (6912,  39,     1.1) /* DefaultScale */
+     , (6912,  62,    1.02) /* WeaponOffense */
+     , (6912,  63,     1.4) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6912,   1, 'Composite Bow with Handle') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6912,   1,   33556600) /* Setup */
+     , (6912,   3,  536870932) /* SoundTable */
+     , (6912,   6,   67112869) /* PaletteBase */
+     , (6912,   7,  268436002) /* ClothingBase */
+     , (6912,   8,  100670670) /* Icon */
+     , (6912,  22,  872415275) /* PhysicsEffectTable */
+     , (6912,  37,          2) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6912, 1613, 2) /* BloodDrinker3_SpellID */
-     , (6912, 463, 2) /* BowMasteryOther3_SpellID */;
-
+VALUES (6912,   463,      2)  /* Missile Weapon Mastery Other III */
+     , (6912,  1613,      2)  /* Aura of Blood Drinker Self III */;

@@ -1,48 +1,44 @@
-/* Weenie - Stone Glaive (27124) */
-DELETE FROM weenie WHERE class_Id = 27124;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27124, 'glaiveburunstoneuber', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27124, 001 /* NAME_STRING */, 'Stone Glaive');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27124, 001 /* SETUP_DID */, 33558585)
-     , (27124, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27124, 008 /* ICON_DID */, 100675767)
-     , (27124, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27124', 'glaiveburunstoneuber', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27124, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (27124, 005 /* ENCUMB_VAL_INT */, 23)
-     , (27124, 008 /* MASS_INT */, 15)
-     , (27124, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (27124, 011 /* MAX_STACK_SIZE_INT */, 40)
-     , (27124, 012 /* STACK_SIZE_INT */, 1)
-     , (27124, 013 /* STACK_UNIT_ENCUMB_INT */, 23)
-     , (27124, 014 /* STACK_UNIT_MASS_INT */, 15)
-     , (27124, 015 /* STACK_UNIT_VALUE_INT */, 4)
-     , (27124, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27124, 019 /* VALUE_INT */, 4)
-     , (27124, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (27124, 044 /* DAMAGE_INT */, 54)
-     , (27124, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (27124, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (27124, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (27124, 049 /* WEAPON_TIME_INT */, 20)
-     , (27124, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (27124, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27124, 021 /* WEAPON_LENGTH_FLOAT */, 0.54)
-     , (27124, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.45)
-     , (27124, 027 /* ROTATION_SPEED_FLOAT */, 2)
-     , (27124, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (27124, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (27124, 078 /* FRICTION_FLOAT */, 1)
-     , (27124, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (27124,   1,        256) /* ItemType - MissileWeapon */
+     , (27124,   5,         23) /* EncumbranceVal */
+     , (27124,   8,         15) /* Mass */
+     , (27124,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (27124,  11,         40) /* MaxStackSize */
+     , (27124,  12,          1) /* StackSize */
+     , (27124,  13,         23) /* StackUnitEncumbrance */
+     , (27124,  14,         15) /* StackUnitMass */
+     , (27124,  15,          4) /* StackUnitValue */
+     , (27124,  16,          1) /* ItemUseable - No */
+     , (27124,  19,          4) /* Value */
+     , (27124,  37,       9999) /* ResistItemAppraisal */
+     , (27124,  44,         54) /* Damage */
+     , (27124,  45,          4) /* DamageType - Bludgeon */
+     , (27124,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (27124,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (27124,  49,         20) /* WeaponTime */
+     , (27124,  51,          2) /* CombatUse - Missle */
+     , (27124,  93,     132116) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27124, 017 /* INELASTIC_BOOL */, True);
+VALUES (27124,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27124,  21,    0.54) /* WeaponLength */
+     , (27124,  22,    0.45) /* DamageVariance */
+     , (27124,  27,       2) /* RotationSpeed */
+     , (27124,  29,       1) /* WeaponDefense */
+     , (27124,  62,       1) /* WeaponOffense */
+     , (27124,  78,       1) /* Friction */
+     , (27124,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27124,   1, 'Stone Glaive') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27124,   1,   33558585) /* Setup */
+     , (27124,   3,  536870932) /* SoundTable */
+     , (27124,   8,  100675767) /* Icon */
+     , (27124,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,37 +1,33 @@
-/* Weenie - Mount Tenkarrdun Portal (7805) */
-DELETE FROM weenie WHERE class_Id = 7805;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7805, 'portalmounttenkarrdun', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7805, 001 /* NAME_STRING */, 'Mount Tenkarrdun Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7805, 001 /* SETUP_DID */, 33554867)
-     , (7805, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (7805, 006 /* PALETTE_BASE_DID */, 67109370)
-     , (7805, 007 /* CLOTHINGBASE_DID */, 268435652)
-     , (7805, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7805', 'portalmounttenkarrdun', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7805, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (7805, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (7805, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (7805, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (7805, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (7805, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7805, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (7805,   1,      65536) /* ItemType - Portal */
+     , (7805,   3,          8) /* PaletteTemplate - Green */
+     , (7805,  16,         32) /* ItemUseable - Remote */
+     , (7805,  93,       3084) /* PhysicsState */
+     , (7805, 111,          1) /* PortalBitmask - Unrestricted */
+     , (7805, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7805, 001 /* STUCK_BOOL */, True)
-     , (7805, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (7805, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (7805, 013 /* ETHEREAL_BOOL */, True)
-     , (7805, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (7805,   1, True ) /* Stuck */
+     , (7805,  11, False) /* IgnoreCollisions */
+     , (7805,  12, True ) /* ReportCollisions */
+     , (7805,  13, True ) /* Ethereal */
+     , (7805,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7805,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7805,   1, 'Mount Tenkarrdun Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7805,   1,   33554867) /* Setup */
+     , (7805,   2,  150994947) /* MotionTable */
+     , (7805,   6,   67109370) /* PaletteBase */
+     , (7805,   7,  268435652) /* ClothingBase */
+     , (7805,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7805, 2, 3119513626, 89, 45, 94, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (7805, 2, 3119513626, 89, 45, 94, 1, 0, 0, 0) /* Destination */;

@@ -1,47 +1,43 @@
-/* Weenie - Taiaha (11466) */
-DELETE FROM weenie WHERE class_Id = 11466;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11466, 'speartaiaha-xp', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11466, 001 /* NAME_STRING */, 'Taiaha')
-     , (11466, 016 /* LONG_DESC_STRING */, 'A beautifully carved spear. Fuse this with a triple totem to create one of Palenqual''s living weapons.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11466, 001 /* SETUP_DID */, 33557236)
-     , (11466, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11466, 006 /* PALETTE_BASE_DID */, 67113336)
-     , (11466, 007 /* CLOTHINGBASE_DID */, 268436252)
-     , (11466, 008 /* ICON_DID */, 100672091)
-     , (11466, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11466', 'speartaiaha-xp', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11466, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (11466, 005 /* ENCUMB_VAL_INT */, 700)
-     , (11466, 008 /* MASS_INT */, 140)
-     , (11466, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (11466, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11466, 019 /* VALUE_INT */, 10000)
-     , (11466, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11466, 044 /* DAMAGE_INT */, 10)
-     , (11466, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (11466, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (11466, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (11466, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (11466, 049 /* WEAPON_TIME_INT */, 30)
-     , (11466, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (11466, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11466, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11466, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (11466, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (11466, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (11466, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (11466, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 3);
+VALUES (11466,   1,          1) /* ItemType - MeleeWeapon */
+     , (11466,   5,        700) /* EncumbranceVal */
+     , (11466,   8,        140) /* Mass */
+     , (11466,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (11466,  16,          1) /* ItemUseable - No */
+     , (11466,  19,      10000) /* Value */
+     , (11466,  33,          1) /* Bonded - Bonded */
+     , (11466,  44,         10) /* Damage */
+     , (11466,  45,          2) /* DamageType - Pierce */
+     , (11466,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (11466,  47,          2) /* AttackType - Thrust */
+     , (11466,  48,          9) /* WeaponSkill - Spear */
+     , (11466,  49,         30) /* WeaponTime */
+     , (11466,  51,          1) /* CombatUse - Melee */
+     , (11466,  93,       1044) /* PhysicsState */
+     , (11466, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11466, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11466, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11466,  22, True ) /* Inscribable */
+     , (11466,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11466,  21,     1.5) /* WeaponLength */
+     , (11466,  22,     0.5) /* DamageVariance */
+     , (11466,  29,       1) /* WeaponDefense */
+     , (11466,  62,       1) /* WeaponOffense */
+     , (11466, 136,       3) /* CriticalMultiplier */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11466,   1, 'Taiaha') /* Name */
+     , (11466,  16, 'A beautifully carved spear. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11466,   1,   33557236) /* Setup */
+     , (11466,   3,  536870932) /* SoundTable */
+     , (11466,   6,   67113336) /* PaletteBase */
+     , (11466,   7,  268436252) /* ClothingBase */
+     , (11466,   8,  100672091) /* Icon */
+     , (11466,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,51 +1,47 @@
-/* Weenie - Ring of Piercing Protection (27581) */
-DELETE FROM weenie WHERE class_Id = 27581;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27581, 'ringbehdo2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27581, 001 /* NAME_STRING */, 'Ring of Piercing Protection')
-     , (27581, 015 /* SHORT_DESC_STRING */, 'A ring of piercing protection, given by Behdo Yii for completing the Harvester quest.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27581, 001 /* SETUP_DID */, 33554691)
-     , (27581, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27581, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27581, 007 /* CLOTHINGBASE_DID */, 268435753)
-     , (27581, 008 /* ICON_DID */, 100668662)
-     , (27581, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27581, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27581', 'ringbehdo2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27581, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (27581, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (27581, 005 /* ENCUMB_VAL_INT */, 10)
-     , (27581, 008 /* MASS_INT */, 10)
-     , (27581, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (27581, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27581, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27581, 019 /* VALUE_INT */, 0)
-     , (27581, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (27581, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27581, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (27581, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (27581, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (27581, 109 /* ITEM_DIFFICULTY_INT */, 75)
-     , (27581, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (27581, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27581, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27581, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (27581, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (27581,   1,          8) /* ItemType - Jewelry */
+     , (27581,   3,         21) /* PaletteTemplate - Gold */
+     , (27581,   5,         10) /* EncumbranceVal */
+     , (27581,   8,         10) /* Mass */
+     , (27581,   9,     786432) /* ValidLocations - FingerWear */
+     , (27581,  16,          1) /* ItemUseable - No */
+     , (27581,  18,          1) /* UiEffects - Magical */
+     , (27581,  19,          0) /* Value */
+     , (27581,  33,          1) /* Bonded - Bonded */
+     , (27581,  93,       1044) /* PhysicsState */
+     , (27581, 106,        150) /* ItemSpellcraft */
+     , (27581, 107,        600) /* ItemCurMana */
+     , (27581, 108,        600) /* ItemMaxMana */
+     , (27581, 109,         75) /* ItemDifficulty */
+     , (27581, 114,          1) /* Attuned - Attuned */
+     , (27581, 150,        103) /* HookPlacement - Hook */
+     , (27581, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27581, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27581, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (27581, 099 /* IVORYABLE_BOOL */, True);
+VALUES (27581,  22, True ) /* Inscribable */
+     , (27581,  23, True ) /* DestroyOnSell */
+     , (27581,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27581,   5,  -0.033) /* ManaRate */
+     , (27581,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27581,   1, 'Ring of Piercing Protection') /* Name */
+     , (27581,  15, 'A ring of piercing protection, given by Behdo Yii for completing the Harvester quest.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27581,   1,   33554691) /* Setup */
+     , (27581,   3,  536870932) /* SoundTable */
+     , (27581,   6,   67111919) /* PaletteBase */
+     , (27581,   7,  268435753) /* ClothingBase */
+     , (27581,   8,  100668662) /* Icon */
+     , (27581,  22,  872415275) /* PhysicsEffectTable */
+     , (27581,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27581, 240, 2) /* InvulnerabilityOther2_SpellID */
-     , (27581, 1141, 2) /* PiercingProtectionOther3_SpellID */;
-
+VALUES (27581,   240,      2)  /* Invulnerability Other II */
+     , (27581,  1141,      2)  /* Piercing Protection Other III */;

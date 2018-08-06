@@ -1,61 +1,57 @@
-/* Weenie - Noble Brace (28489) */
-DELETE FROM weenie WHERE class_Id = 28489;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28489, 'atlatlnoble', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28489, 001 /* NAME_STRING */, 'Noble Brace');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28489, 001 /* SETUP_DID */, 33558860)
-     , (28489, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28489, 008 /* ICON_DID */, 100676974)
-     , (28489, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28489', 'atlatlnoble', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28489, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (28489, 005 /* ENCUMB_VAL_INT */, 950)
-     , (28489, 008 /* MASS_INT */, 16)
-     , (28489, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (28489, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28489, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28489, 019 /* VALUE_INT */, 6000)
-     , (28489, 044 /* DAMAGE_INT */, 0)
-     , (28489, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1024 /* Atlatl_CombatStyle */)
-     , (28489, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (28489, 049 /* WEAPON_TIME_INT */, 30)
-     , (28489, 050 /* AMMO_TYPE_INT */, 4 /* AMMO_ARROW_CRYSTAL */)
-     , (28489, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (28489, 060 /* WEAPON_RANGE_INT */, 120)
-     , (28489, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28489, 106 /* ITEM_SPELLCRAFT_INT */, 275)
-     , (28489, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (28489, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (28489, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (28489, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28489, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (28489, 158 /* WIELD_REQUIREMENTS_INT */, 1 /* WIELD_REQUIRES_SKILL_WieldRequirement */)
-     , (28489, 159 /* WIELD_SKILLTYPE_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (28489, 160 /* WIELD_DIFFICULTY_INT */, 290);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28489, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (28489, 026 /* MAXIMUM_VELOCITY_FLOAT */, 24.9)
-     , (28489, 029 /* WEAPON_DEFENSE_FLOAT */, 1.09)
-     , (28489, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (28489, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (28489, 063 /* DAMAGE_MOD_FLOAT */, 2.7)
-     , (28489, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (28489, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.3);
+VALUES (28489,   1,        256) /* ItemType - MissileWeapon */
+     , (28489,   5,        950) /* EncumbranceVal */
+     , (28489,   8,         16) /* Mass */
+     , (28489,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (28489,  16,          1) /* ItemUseable - No */
+     , (28489,  18,          1) /* UiEffects - Magical */
+     , (28489,  19,       6000) /* Value */
+     , (28489,  44,          0) /* Damage */
+     , (28489,  46,       1024) /* DefaultCombatStyle - Atlatl */
+     , (28489,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (28489,  49,         30) /* WeaponTime */
+     , (28489,  50,          4) /* AmmoType - ArrowCrystal */
+     , (28489,  51,          2) /* CombatUse - Missle */
+     , (28489,  60,        120) /* WeaponRange */
+     , (28489,  93,       1044) /* PhysicsState */
+     , (28489, 106,        275) /* ItemSpellcraft */
+     , (28489, 107,        800) /* ItemCurMana */
+     , (28489, 108,        800) /* ItemMaxMana */
+     , (28489, 109,        150) /* ItemDifficulty */
+     , (28489, 150,        103) /* HookPlacement - Hook */
+     , (28489, 151,          2) /* HookType - Wall */
+     , (28489, 158,          1) /* WieldRequirements - Skill */
+     , (28489, 159,         12) /* WieldSkilltype - ThrownWeapon */
+     , (28489, 160,        290) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28489, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (28489,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28489,   5, -0.0333) /* ManaRate */
+     , (28489,  26,    24.9) /* MaximumVelocity */
+     , (28489,  29,    1.09) /* WeaponDefense */
+     , (28489,  39,       1) /* DefaultScale */
+     , (28489,  62,       1) /* WeaponOffense */
+     , (28489,  63,     2.7) /* DamageMod */
+     , (28489, 136,     2.5) /* CriticalMultiplier */
+     , (28489, 147,     0.3) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28489,   1, 'Noble Brace') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28489,   1,   33558860) /* Setup */
+     , (28489,   3,  536870932) /* SoundTable */
+     , (28489,   8,  100676974) /* Icon */
+     , (28489,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28489, 1604, 2) /* Defender5_SpellID */
-     , (28489, 1359, 2) /* EnduranceOther5_SpellID */
-     , (28489, 1616, 2) /* BloodDrinker6_SpellID */
-     , (28489, 243, 2) /* InvulnerabilityOther5_SpellID */
-     , (28489, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (28489,   243,      2)  /* Invulnerability Other V */
+     , (28489,  1359,      2)  /* Endurance Other V */
+     , (28489,  1604,      2)  /* Aura of Defender Self V */
+     , (28489,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (28489,  1625,      2)  /* Aura of Swift Killer Self IV */;

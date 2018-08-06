@@ -1,32 +1,28 @@
-/* Weenie - Brimstone-cap Mushroom (547) */
-DELETE FROM weenie WHERE class_Id = 547;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (547, 'mushroom', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (547, 001 /* NAME_STRING */, 'Brimstone-cap Mushroom')
-     , (547, 014 /* USE_STRING */, 'Use this item to eat it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (547, 001 /* SETUP_DID */, 33554805)
-     , (547, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (547, 008 /* ICON_DID */, 100668116)
-     , (547, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('547', 'mushroom', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (547, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (547, 005 /* ENCUMB_VAL_INT */, 50)
-     , (547, 008 /* MASS_INT */, 25)
-     , (547, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (547, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (547, 012 /* STACK_SIZE_INT */, 1)
-     , (547, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (547, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (547, 015 /* STACK_UNIT_VALUE_INT */, 6)
-     , (547, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (547, 019 /* VALUE_INT */, 6)
-     , (547, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (547, 090 /* BOOST_VALUE_INT */, 4)
-     , (547, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (547,   1,         32) /* ItemType - Food */
+     , (547,   5,         50) /* EncumbranceVal */
+     , (547,   8,         25) /* Mass */
+     , (547,   9,          0) /* ValidLocations - None */
+     , (547,  11,        100) /* MaxStackSize */
+     , (547,  12,          1) /* StackSize */
+     , (547,  13,         50) /* StackUnitEncumbrance */
+     , (547,  14,         25) /* StackUnitMass */
+     , (547,  15,          6) /* StackUnitValue */
+     , (547,  16,          8) /* ItemUseable - Contained */
+     , (547,  19,          6) /* Value */
+     , (547,  89,          4) /* BoosterEnum - Stamina */
+     , (547,  90,          4) /* BoostValue */
+     , (547,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (547,   1, 'Brimstone-cap Mushroom') /* Name */
+     , (547,  14, 'Use this item to eat it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (547,   1,   33554805) /* Setup */
+     , (547,   3,  536870932) /* SoundTable */
+     , (547,   8,  100668116) /* Icon */
+     , (547,  22,  872415275) /* PhysicsEffectTable */;

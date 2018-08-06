@@ -1,49 +1,45 @@
-/* Weenie - Nexus Celdon Girth (6800) */
-DELETE FROM weenie WHERE class_Id = 6800;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6800, 'girthceldonnexus', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6800, 001 /* NAME_STRING */, 'Nexus Celdon Girth')
-     , (6800, 015 /* SHORT_DESC_STRING */, 'A magnificent Celdon girth, infused with the essence of the Nexus Crystal.')
-     , (6800, 016 /* LONG_DESC_STRING */, 'A magnificent Celdon girth, infused with the essence of the Nexus Crystal.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6800, 001 /* SETUP_DID */, 33554647)
-     , (6800, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6800, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (6800, 007 /* CLOTHINGBASE_DID */, 268435843)
-     , (6800, 008 /* ICON_DID */, 100670411)
-     , (6800, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6800', 'girthceldonnexus', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6800, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (6800, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (6800, 004 /* CLOTHING_PRIORITY_INT */, 2048 /* OuterwearAbdomen */)
-     , (6800, 005 /* ENCUMB_VAL_INT */, 1575)
-     , (6800, 008 /* MASS_INT */, 625)
-     , (6800, 009 /* LOCATIONS_INT */, 1024 /* ABDOMEN_ARMOR_LOC */)
-     , (6800, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6800, 019 /* VALUE_INT */, 2610)
-     , (6800, 027 /* ARMOR_TYPE_INT */, 32)
-     , (6800, 028 /* ARMOR_LEVEL_INT */, 260)
-     , (6800, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6800, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6800, 012 /* SHADE_FLOAT */, 0.1)
-     , (6800, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (6800, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.3)
-     , (6800, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.3)
-     , (6800, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (6800, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (6800, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (6800, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (6800, 110 /* BULK_MOD_FLOAT */, 1)
-     , (6800, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (6800,   1,          2) /* ItemType - Armor */
+     , (6800,   3,          2) /* PaletteTemplate - Blue */
+     , (6800,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
+     , (6800,   5,       1575) /* EncumbranceVal */
+     , (6800,   8,        625) /* Mass */
+     , (6800,   9,       1024) /* ValidLocations - AbdomenArmor */
+     , (6800,  16,          1) /* ItemUseable - No */
+     , (6800,  19,       2610) /* Value */
+     , (6800,  27,         32) /* ArmorType */
+     , (6800,  28,        260) /* ArmorLevel */
+     , (6800,  33,          1) /* Bonded - Bonded */
+     , (6800,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6800, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6800, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (6800,  22, True ) /* Inscribable */
+     , (6800,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6800,  12,     0.1) /* Shade */
+     , (6800,  13,     1.3) /* ArmorModVsSlash */
+     , (6800,  14,     1.3) /* ArmorModVsPierce */
+     , (6800,  15,     1.3) /* ArmorModVsBludgeon */
+     , (6800,  16,       1) /* ArmorModVsCold */
+     , (6800,  17,       1) /* ArmorModVsFire */
+     , (6800,  18,       1) /* ArmorModVsAcid */
+     , (6800,  19,       1) /* ArmorModVsElectric */
+     , (6800, 110,       1) /* BulkMod */
+     , (6800, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6800,   1, 'Nexus Celdon Girth') /* Name */
+     , (6800,  15, 'A magnificent Celdon girth, infused with the essence of the Nexus Crystal.') /* ShortDesc */
+     , (6800,  16, 'A magnificent Celdon girth, infused with the essence of the Nexus Crystal.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6800,   1,   33554647) /* Setup */
+     , (6800,   3,  536870932) /* SoundTable */
+     , (6800,   6,   67108990) /* PaletteBase */
+     , (6800,   7,  268435843) /* ClothingBase */
+     , (6800,   8,  100670411) /* Icon */
+     , (6800,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,34 +1,30 @@
-/* Weenie - Rumuba's Hidey-Hole (8576) */
-DELETE FROM weenie WHERE class_Id = 8576;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8576, 'portalrumubahideyhole', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8576, 001 /* NAME_STRING */, 'Rumuba''s Hidey-Hole');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8576, 001 /* SETUP_DID */, 33554867)
-     , (8576, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (8576, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8576', 'portalrumubahideyhole', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8576, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (8576, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (8576, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8576, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (8576, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8576, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (8576,   1,      65536) /* ItemType - Portal */
+     , (8576,  16,         32) /* ItemUseable - Remote */
+     , (8576,  93,       3084) /* PhysicsState */
+     , (8576, 111,          1) /* PortalBitmask - Unrestricted */
+     , (8576, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8576, 001 /* STUCK_BOOL */, True)
-     , (8576, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (8576, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (8576, 013 /* ETHEREAL_BOOL */, True)
-     , (8576, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (8576,   1, True ) /* Stuck */
+     , (8576,  11, False) /* IgnoreCollisions */
+     , (8576,  12, True ) /* ReportCollisions */
+     , (8576,  13, True ) /* Ethereal */
+     , (8576,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8576,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8576,   1, 'Rumuba''s Hidey-Hole') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8576,   1,   33554867) /* Setup */
+     , (8576,   2,  150994947) /* MotionTable */
+     , (8576,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8576, 2, 45613747, 200, -270, 7, -0.9876884, 0, 0, -0.1564344) /* DESTINATION_POSITION */;
-
+VALUES (8576, 2, 45613747, 200, -270, 7, -0.9876884, 0, 0, -0.1564344) /* Destination */;

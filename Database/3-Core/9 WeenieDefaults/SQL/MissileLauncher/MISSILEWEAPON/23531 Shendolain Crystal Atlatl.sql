@@ -1,63 +1,59 @@
-/* Weenie - Shendolain Crystal Atlatl (23531) */
-DELETE FROM weenie WHERE class_Id = 23531;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23531, 'atlatlcrystalshen', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23531, 001 /* NAME_STRING */, 'Shendolain Crystal Atlatl')
-     , (23531, 016 /* LONG_DESC_STRING */, 'An atlatl imbued with the essence of the Shendolain Crystal. Uses crystal-tipped darts.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23531, 001 /* SETUP_DID */, 33557433)
-     , (23531, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23531, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23531, 007 /* CLOTHINGBASE_DID */, 268436042)
-     , (23531, 008 /* ICON_DID */, 100674035)
-     , (23531, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (23531, 037 /* ITEM_SKILL_LIMIT_DID */, 12);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23531', 'atlatlcrystalshen', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23531, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (23531, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (23531, 005 /* ENCUMB_VAL_INT */, 200)
-     , (23531, 008 /* MASS_INT */, 15)
-     , (23531, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (23531, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23531, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (23531, 019 /* VALUE_INT */, 4000)
-     , (23531, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (23531, 044 /* DAMAGE_INT */, 0)
-     , (23531, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1024 /* Atlatl_CombatStyle */)
-     , (23531, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (23531, 049 /* WEAPON_TIME_INT */, 30)
-     , (23531, 050 /* AMMO_TYPE_INT */, 32 /*  */)
-     , (23531, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (23531, 060 /* WEAPON_RANGE_INT */, 120)
-     , (23531, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23531, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (23531, 107 /* ITEM_CUR_MANA_INT */, 300)
-     , (23531, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (23531, 109 /* ITEM_DIFFICULTY_INT */, 10)
-     , (23531, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (23531, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 270);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23531, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (23531, 012 /* SHADE_FLOAT */, 0.2)
-     , (23531, 026 /* MAXIMUM_VELOCITY_FLOAT */, 24.9)
-     , (23531, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (23531, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (23531, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (23531, 063 /* DAMAGE_MOD_FLOAT */, 2.1)
-     , (23531, 076 /* TRANSLUCENCY_FLOAT */, 0.5);
+VALUES (23531,   1,        256) /* ItemType - MissileWeapon */
+     , (23531,   3,         13) /* PaletteTemplate - Purple */
+     , (23531,   5,        200) /* EncumbranceVal */
+     , (23531,   8,         15) /* Mass */
+     , (23531,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (23531,  16,          1) /* ItemUseable - No */
+     , (23531,  18,          1) /* UiEffects - Magical */
+     , (23531,  19,       4000) /* Value */
+     , (23531,  36,       9999) /* ResistMagic */
+     , (23531,  44,          0) /* Damage */
+     , (23531,  46,       1024) /* DefaultCombatStyle - Atlatl */
+     , (23531,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (23531,  49,         30) /* WeaponTime */
+     , (23531,  50,         32) /* AmmoType */
+     , (23531,  51,          2) /* CombatUse - Missle */
+     , (23531,  60,        120) /* WeaponRange */
+     , (23531,  93,       1044) /* PhysicsState */
+     , (23531, 106,        200) /* ItemSpellcraft */
+     , (23531, 107,        300) /* ItemCurMana */
+     , (23531, 108,        500) /* ItemMaxMana */
+     , (23531, 109,         10) /* ItemDifficulty */
+     , (23531, 114,          1) /* Attuned - Attuned */
+     , (23531, 115,        270) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23531, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23531, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (23531,  22, True ) /* Inscribable */
+     , (23531,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23531,   5,   -0.05) /* ManaRate */
+     , (23531,  12,     0.2) /* Shade */
+     , (23531,  26,    24.9) /* MaximumVelocity */
+     , (23531,  29,       1) /* WeaponDefense */
+     , (23531,  39,     1.1) /* DefaultScale */
+     , (23531,  62,       1) /* WeaponOffense */
+     , (23531,  63,     2.1) /* DamageMod */
+     , (23531,  76,     0.5) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23531,   1, 'Shendolain Crystal Atlatl') /* Name */
+     , (23531,  16, 'An atlatl imbued with the essence of the Shendolain Crystal. Uses crystal-tipped darts.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23531,   1,   33557433) /* Setup */
+     , (23531,   3,  536870932) /* SoundTable */
+     , (23531,   6,   67111919) /* PaletteBase */
+     , (23531,   7,  268436042) /* ClothingBase */
+     , (23531,   8,  100674035) /* Icon */
+     , (23531,  22,  872415275) /* PhysicsEffectTable */
+     , (23531,  37,         12) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23531, 1615, 2) /* BloodDrinker5_SpellID */
-     , (23531, 537, 2) /* ThrownWeaponMasteryOther5_SpellID */
-     , (23531, 1626, 2) /* SwiftKiller5_SpellID */;
-
+VALUES (23531,   537,      2)  /* Missile Weapon Mastery Other V */
+     , (23531,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (23531,  1626,      2)  /* Aura of Swift Killer Self V */;

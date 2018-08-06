@@ -1,34 +1,30 @@
-/* Weenie - Gateway Portal (24346) */
-DELETE FROM weenie WHERE class_Id = 24346;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24346, 'portalgrubhatcheryreturn3', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24346, 001 /* NAME_STRING */, 'Gateway Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24346, 001 /* SETUP_DID */, 33554867)
-     , (24346, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (24346, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24346', 'portalgrubhatcheryreturn3', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24346, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (24346, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (24346, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (24346, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (24346, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24346, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (24346,   1,      65536) /* ItemType - Portal */
+     , (24346,  16,         32) /* ItemUseable - Remote */
+     , (24346,  93,       3084) /* PhysicsState */
+     , (24346, 111,         49) /* PortalBitmask */
+     , (24346, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24346, 001 /* STUCK_BOOL */, True)
-     , (24346, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (24346, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (24346, 013 /* ETHEREAL_BOOL */, True)
-     , (24346, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (24346,   1, True ) /* Stuck */
+     , (24346,  11, False) /* IgnoreCollisions */
+     , (24346,  12, True ) /* ReportCollisions */
+     , (24346,  13, True ) /* Ethereal */
+     , (24346,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24346,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24346,   1, 'Gateway Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24346,   1,   33554867) /* Setup */
+     , (24346,   2,  150994947) /* MotionTable */
+     , (24346,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24346, 2, 1467286128, 19.3695, -40.5341, 0.005, -0.3867109, 0, 0, -0.922201) /* DESTINATION_POSITION */;
-
+VALUES (24346, 2, 1467286128, 19.3695, -40.5341, 0.005, -0.3867109, 0, 0, -0.922201) /* Destination */;

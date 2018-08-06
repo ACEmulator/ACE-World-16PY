@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Mana Renewal Other IV (3100) */
-DELETE FROM weenie WHERE class_Id = 3100;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3100, 'scrollmanarenewalother4', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3100, 001 /* NAME_STRING */, 'Scroll of Mana Renewal Other IV')
-     , (3100, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3100, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the target''s natural mana rate by 100%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3100, 001 /* SETUP_DID */, 33554826)
-     , (3100, 008 /* ICON_DID */, 100676939)
-     , (3100, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3100, 028 /* SPELL_DID */, 209 /* ManaRenewalOther4_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3100', 'scrollmanarenewalother4', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3100, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3100, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3100, 008 /* MASS_INT */, 90)
-     , (3100, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3100, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3100, 019 /* VALUE_INT */, 100)
-     , (3100, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3100, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3100,   1,       8192) /* ItemType - Writable */
+     , (3100,   5,         30) /* EncumbranceVal */
+     , (3100,   8,         90) /* Mass */
+     , (3100,   9,          0) /* ValidLocations - None */
+     , (3100,  16,          8) /* ItemUseable - Contained */
+     , (3100,  19,        100) /* Value */
+     , (3100,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3100, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3100, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3100,  22, True ) /* Inscribable */
+     , (3100,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3100,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3100,   1, 'Scroll of Mana Renewal Other IV') /* Name */
+     , (3100,  15, 'A magic scroll.') /* ShortDesc */
+     , (3100,  16, 'When learned, this spell increases the target''s natural mana rate by 100%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3100,   1,   33554826) /* Setup */
+     , (3100,   8,  100676939) /* Icon */
+     , (3100,  22,  872415275) /* PhysicsEffectTable */
+     , (3100,  28,        209) /* Spell - Mana Renewal Other IV */;

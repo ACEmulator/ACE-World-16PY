@@ -1,63 +1,59 @@
-/* Weenie - Invoker (26497) */
-DELETE FROM weenie WHERE class_Id = 26497;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26497, 'buadreninvokingtanuanew', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26497, 001 /* NAME_STRING */, 'Invoker')
-     , (26497, 007 /* INSCRIPTION_STRING */, 'Even in captivity, Tanua still fights against the enemies of his people.')
-     , (26497, 008 /* SCRIBE_NAME_STRING */, 'Aun Aulakhe')
-     , (26497, 014 /* USE_STRING */, 'This item can be used on floor and wall hooks.')
-     , (26497, 015 /* SHORT_DESC_STRING */, 'A buadren fashioned by Aun Aulakhe.')
-     , (26497, 016 /* LONG_DESC_STRING */, 'A buadren fashioned by Aun Aulakhe to invoke the spirit of Aun Tanua from his Virindi prison in portal space.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26497, 001 /* SETUP_DID */, 33558590)
-     , (26497, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26497, 006 /* PALETTE_BASE_DID */, 67113783)
-     , (26497, 007 /* CLOTHINGBASE_DID */, 268436324)
-     , (26497, 008 /* ICON_DID */, 100675769)
-     , (26497, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26497, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (26497, 028 /* SPELL_DID */, 2637 /* InvokingAunTanua_SpellID */)
-     , (26497, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26497', 'buadreninvokingtanuanew', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26497, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (26497, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (26497, 005 /* ENCUMB_VAL_INT */, 20)
-     , (26497, 008 /* MASS_INT */, 20)
-     , (26497, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (26497, 016 /* ITEM_USEABLE_INT */, 6291464 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE_NEVER_WALK */)
-     , (26497, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26497, 019 /* VALUE_INT */, 0)
-     , (26497, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (26497, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (26497, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (26497, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26497, 106 /* ITEM_SPELLCRAFT_INT */, 320)
-     , (26497, 107 /* ITEM_CUR_MANA_INT */, 12500)
-     , (26497, 108 /* ITEM_MAX_MANA_INT */, 12500)
-     , (26497, 109 /* ITEM_DIFFICULTY_INT */, 200)
-     , (26497, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26497, 117 /* ITEM_MANA_COST_INT */, 4000)
-     , (26497, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26497, 151 /* HOOK_TYPE_INT */, 3 /* Floor_HookTypeEnum, Wall_HookTypeEnum */)
-     , (26497, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (26497, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (26497, 160 /* WIELD_DIFFICULTY_INT */, 70);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26497, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (26497, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (26497, 144 /* MANA_CONVERSION_MOD_FLOAT */, 0.12)
-     , (26497, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.15);
+VALUES (26497,   1,      32768) /* ItemType - Caster */
+     , (26497,   3,         39) /* PaletteTemplate - Black */
+     , (26497,   5,         20) /* EncumbranceVal */
+     , (26497,   8,         20) /* Mass */
+     , (26497,   9,   16777216) /* ValidLocations - Held */
+     , (26497,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
+     , (26497,  18,          1) /* UiEffects - Magical */
+     , (26497,  19,          0) /* Value */
+     , (26497,  33,          1) /* Bonded - Bonded */
+     , (26497,  46,        512) /* DefaultCombatStyle - Magic */
+     , (26497,  93,       1044) /* PhysicsState */
+     , (26497,  94,         16) /* TargetType - Creature */
+     , (26497, 106,        320) /* ItemSpellcraft */
+     , (26497, 107,      12500) /* ItemCurMana */
+     , (26497, 108,      12500) /* ItemMaxMana */
+     , (26497, 109,        200) /* ItemDifficulty */
+     , (26497, 110,          0) /* ItemAllegianceRankLimit */
+     , (26497, 117,       4000) /* ItemManaCost */
+     , (26497, 150,        103) /* HookPlacement - Hook */
+     , (26497, 151,          3) /* HookType */
+     , (26497, 158,          7) /* WieldRequirements - Level */
+     , (26497, 159,          1) /* WieldSkilltype - Axe */
+     , (26497, 160,         70) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26497, 022 /* INSCRIBABLE_BOOL */, True)
-     , (26497, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26497,  22, True ) /* Inscribable */
+     , (26497,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (26497,   5,   -0.05) /* ManaRate */
+     , (26497,  29,       1) /* WeaponDefense */
+     , (26497, 144,    0.12) /* ManaConversionMod */
+     , (26497, 147,    0.15) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26497,   1, 'Invoker') /* Name */
+     , (26497,   7, 'Even in captivity, Tanua still fights against the enemies of his people.') /* Inscription */
+     , (26497,   8, 'Aun Aulakhe') /* ScribeName */
+     , (26497,  14, 'This item can be used on floor and wall hooks.') /* Use */
+     , (26497,  15, 'A buadren fashioned by Aun Aulakhe.') /* ShortDesc */
+     , (26497,  16, 'A buadren fashioned by Aun Aulakhe to invoke the spirit of Aun Tanua from his Virindi prison in portal space.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26497,   1,   33558590) /* Setup */
+     , (26497,   3,  536870932) /* SoundTable */
+     , (26497,   6,   67113783) /* PaletteBase */
+     , (26497,   7,  268436324) /* ClothingBase */
+     , (26497,   8,  100675769) /* Icon */
+     , (26497,  22,  872415275) /* PhysicsEffectTable */
+     , (26497,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (26497,  28,       2637) /* Spell - Invoking Aun Tanua */
+     , (26497,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26497, 2638, 2) /* HeartofOak_SpellID */;
-
+VALUES (26497,  2638,      2)  /* Heart of Oak */;

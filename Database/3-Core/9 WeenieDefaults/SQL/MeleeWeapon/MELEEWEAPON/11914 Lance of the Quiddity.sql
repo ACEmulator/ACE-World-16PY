@@ -1,58 +1,54 @@
-/* Weenie - Lance of the Quiddity (11914) */
-DELETE FROM weenie WHERE class_Id = 11914;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11914, 'tumerokspearshreth-creatureonly', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11914, 001 /* NAME_STRING */, 'Lance of the Quiddity')
-     , (11914, 015 /* SHORT_DESC_STRING */, 'A weapon made of a strange pulsating energy.')
-     , (11914, 016 /* LONG_DESC_STRING */, 'A weapon made of a strange pulsating energy.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11914, 001 /* SETUP_DID */, 33557108)
-     , (11914, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11914, 008 /* ICON_DID */, 100671698)
-     , (11914, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (11914, 036 /* MUTATE_FILTER_DID */, 234881044)
-     , (11914, 037 /* ITEM_SKILL_LIMIT_DID */, 9);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11914', 'tumerokspearshreth-creatureonly', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11914, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (11914, 005 /* ENCUMB_VAL_INT */, 600)
-     , (11914, 008 /* MASS_INT */, 140)
-     , (11914, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (11914, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11914, 019 /* VALUE_INT */, 2000)
-     , (11914, 044 /* DAMAGE_INT */, 12)
-     , (11914, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (11914, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (11914, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (11914, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (11914, 049 /* WEAPON_TIME_INT */, 30)
-     , (11914, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (11914, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (11914, 106 /* ITEM_SPELLCRAFT_INT */, 400)
-     , (11914, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (11914, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (11914, 109 /* ITEM_DIFFICULTY_INT */, 1)
-     , (11914, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11914, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (11914, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (11914, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (11914, 029 /* WEAPON_DEFENSE_FLOAT */, 1.06)
-     , (11914, 062 /* WEAPON_OFFENSE_FLOAT */, 1.06);
+VALUES (11914,   1,          1) /* ItemType - MeleeWeapon */
+     , (11914,   5,        600) /* EncumbranceVal */
+     , (11914,   8,        140) /* Mass */
+     , (11914,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (11914,  16,          1) /* ItemUseable - No */
+     , (11914,  19,       2000) /* Value */
+     , (11914,  44,         12) /* Damage */
+     , (11914,  45,          2) /* DamageType - Pierce */
+     , (11914,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (11914,  47,          2) /* AttackType - Thrust */
+     , (11914,  48,          9) /* WeaponSkill - Spear */
+     , (11914,  49,         30) /* WeaponTime */
+     , (11914,  51,          1) /* CombatUse - Melee */
+     , (11914,  93,       3092) /* PhysicsState */
+     , (11914, 106,        400) /* ItemSpellcraft */
+     , (11914, 107,       1000) /* ItemCurMana */
+     , (11914, 108,       1000) /* ItemMaxMana */
+     , (11914, 109,          1) /* ItemDifficulty */
+     , (11914, 115,        200) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11914, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (11914, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11914, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11914,  15, True ) /* LightsStatus */
+     , (11914,  22, True ) /* Inscribable */
+     , (11914,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11914,   5,  -0.025) /* ManaRate */
+     , (11914,  21,     1.5) /* WeaponLength */
+     , (11914,  22,     0.5) /* DamageVariance */
+     , (11914,  29,    1.06) /* WeaponDefense */
+     , (11914,  62,    1.06) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11914,   1, 'Lance of the Quiddity') /* Name */
+     , (11914,  15, 'A weapon made of a strange pulsating energy.') /* ShortDesc */
+     , (11914,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11914,   1,   33557108) /* Setup */
+     , (11914,   3,  536870932) /* SoundTable */
+     , (11914,   8,  100671698) /* Icon */
+     , (11914,  22,  872415275) /* PhysicsEffectTable */
+     , (11914,  36,  234881044) /* MutateFilter */
+     , (11914,  37,          9) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11914, 1603, 2) /* Defender4_SpellID */
-     , (11914, 1614, 2) /* BloodDrinker4_SpellID */
-     , (11914, 1625, 2) /* SwiftKiller4_SpellID */
-     , (11914, 1591, 2) /* HeartSeeker5_SpellID */;
-
+VALUES (11914,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (11914,  1603,      2)  /* Aura of Defender Self IV */
+     , (11914,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (11914,  1625,      2)  /* Aura of Swift Killer Self IV */;

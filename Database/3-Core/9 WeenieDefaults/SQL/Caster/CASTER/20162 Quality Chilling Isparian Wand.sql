@@ -1,59 +1,55 @@
-/* Weenie - Quality Chilling Isparian Wand (20162) */
-DELETE FROM weenie WHERE class_Id = 20162;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20162, 'wandisparianshiveringminor', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20162, 001 /* NAME_STRING */, 'Quality Chilling Isparian Wand');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20162, 001 /* SETUP_DID */, 33557782)
-     , (20162, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20162, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20162, 007 /* CLOTHINGBASE_DID */, 268436395)
-     , (20162, 008 /* ICON_DID */, 100672989)
-     , (20162, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20162, 037 /* ITEM_SKILL_LIMIT_DID */, 16);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20162', 'wandisparianshiveringminor', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20162, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (20162, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (20162, 005 /* ENCUMB_VAL_INT */, 150)
-     , (20162, 008 /* MASS_INT */, 10)
-     , (20162, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (20162, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20162, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (20162, 019 /* VALUE_INT */, 2000)
-     , (20162, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (20162, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (20162, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (20162, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20162, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (20162, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (20162, 107 /* ITEM_CUR_MANA_INT */, 300)
-     , (20162, 108 /* ITEM_MAX_MANA_INT */, 300)
-     , (20162, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 100)
-     , (20162, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (20162, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (20162, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (20162, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (20162, 160 /* WIELD_DIFFICULTY_INT */, 20);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20162, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (20162, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (20162, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (20162,   1,      32768) /* ItemType - Caster */
+     , (20162,   3,          2) /* PaletteTemplate - Blue */
+     , (20162,   5,        150) /* EncumbranceVal */
+     , (20162,   8,         10) /* Mass */
+     , (20162,   9,   16777216) /* ValidLocations - Held */
+     , (20162,  16,          1) /* ItemUseable - No */
+     , (20162,  18,          1) /* UiEffects - Magical */
+     , (20162,  19,       2000) /* Value */
+     , (20162,  33,          1) /* Bonded - Bonded */
+     , (20162,  36,       9999) /* ResistMagic */
+     , (20162,  46,        512) /* DefaultCombatStyle - Magic */
+     , (20162,  93,       1044) /* PhysicsState */
+     , (20162,  94,         16) /* TargetType - Creature */
+     , (20162, 106,        150) /* ItemSpellcraft */
+     , (20162, 107,        300) /* ItemCurMana */
+     , (20162, 108,        300) /* ItemMaxMana */
+     , (20162, 115,        100) /* ItemSkillLevelLimit */
+     , (20162, 150,        103) /* HookPlacement - Hook */
+     , (20162, 151,          2) /* HookType - Wall */
+     , (20162, 158,          7) /* WieldRequirements - Level */
+     , (20162, 159,          1) /* WieldSkilltype - Axe */
+     , (20162, 160,         20) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20162, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20162, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (20162, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (20162,  22, True ) /* Inscribable */
+     , (20162,  23, True ) /* DestroyOnSell */
+     , (20162,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20162,   5,  -0.025) /* ManaRate */
+     , (20162,  29,       1) /* WeaponDefense */
+     , (20162,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20162,   1, 'Quality Chilling Isparian Wand') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20162,   1,   33557782) /* Setup */
+     , (20162,   3,  536870932) /* SoundTable */
+     , (20162,   6,   67111919) /* PaletteBase */
+     , (20162,   7,  268436395) /* ClothingBase */
+     , (20162,   8,  100672989) /* Icon */
+     , (20162,  22,  872415275) /* PhysicsEffectTable */
+     , (20162,  37,         16) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20162, 1033, 2) /* ColdProtectionSelf4_SpellID */
-     , (20162, 655, 2) /* ManaMasterySelf3_SpellID */
-     , (20162, 1447, 2) /* WillpowerSelf3_SpellID */
-     , (20162, 1423, 2) /* FocusSelf3_SpellID */
-     , (20162, 560, 2) /* CreatureEnchantmentMasterySelf4_SpellID */;
-
+VALUES (20162,   560,      2)  /* Creature Enchantment Mastery Self IV */
+     , (20162,   655,      2)  /* Mana Conversion Mastery Self III */
+     , (20162,  1033,      2)  /* Cold Protection Self IV */
+     , (20162,  1423,      2)  /* Focus Self III */
+     , (20162,  1447,      2)  /* Willpower Self III */;

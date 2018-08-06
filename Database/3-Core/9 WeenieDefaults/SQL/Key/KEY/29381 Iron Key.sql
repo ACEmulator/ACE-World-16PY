@@ -1,34 +1,30 @@
-/* Weenie - Iron Key (29381) */
-DELETE FROM weenie WHERE class_Id = 29381;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29381, 'keyquartermastergold', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29381, 001 /* NAME_STRING */, 'Iron Key')
-     , (29381, 013 /* KEY_CODE_STRING */, 'KeyBaneWell')
-     , (29381, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (29381, 015 /* SHORT_DESC_STRING */, 'A small iron key.')
-     , (29381, 016 /* LONG_DESC_STRING */, 'A small iron key from the Dry Well near Samsur.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29381, 001 /* SETUP_DID */, 33554784)
-     , (29381, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29381, 008 /* ICON_DID */, 100667485)
-     , (29381, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29381', 'keyquartermastergold', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29381, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (29381, 005 /* ENCUMB_VAL_INT */, 135)
-     , (29381, 008 /* MASS_INT */, 45)
-     , (29381, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (29381, 019 /* VALUE_INT */, 0)
-     , (29381, 091 /* MAX_STRUCTURE_INT */, 3)
-     , (29381, 092 /* STRUCTURE_INT */, 3)
-     , (29381, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29381, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (29381,   1,      16384) /* ItemType - Key */
+     , (29381,   5,        135) /* EncumbranceVal */
+     , (29381,   8,         45) /* Mass */
+     , (29381,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (29381,  19,          0) /* Value */
+     , (29381,  91,          3) /* MaxStructure */
+     , (29381,  92,          3) /* Structure */
+     , (29381,  93,       1044) /* PhysicsState */
+     , (29381,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29381, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29381, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29381,  22, True ) /* Inscribable */
+     , (29381,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29381,   1, 'Iron Key') /* Name */
+     , (29381,  13, 'KeyBaneWell') /* KeyCode */
+     , (29381,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (29381,  15, 'A small iron key.') /* ShortDesc */
+     , (29381,  16, 'A small iron key from the Dry Well near Samsur.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29381,   1,   33554784) /* Setup */
+     , (29381,   3,  536870932) /* SoundTable */
+     , (29381,   8,  100667485) /* Icon */
+     , (29381,  22,  872415275) /* PhysicsEffectTable */;

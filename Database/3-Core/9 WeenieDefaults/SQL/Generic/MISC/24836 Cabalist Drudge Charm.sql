@@ -1,35 +1,31 @@
-/* Weenie - Cabalist Drudge Charm (24836) */
-DELETE FROM weenie WHERE class_Id = 24836;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24836, 'drudgecharmcabalist', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24836, 001 /* NAME_STRING */, 'Cabalist Drudge Charm');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24836, 001 /* SETUP_DID */, 33554683)
-     , (24836, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24836, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24836, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (24836, 008 /* ICON_DID */, 100674480)
-     , (24836, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24836, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24836', 'drudgecharmcabalist', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24836, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24836, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (24836, 005 /* ENCUMB_VAL_INT */, 40)
-     , (24836, 008 /* MASS_INT */, 20)
-     , (24836, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24836, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24836, 019 /* VALUE_INT */, 5)
-     , (24836, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24836, 039 /* DEFAULT_SCALE_FLOAT */, 0.37);
+VALUES (24836,   1,        128) /* ItemType - Misc */
+     , (24836,   3,         21) /* PaletteTemplate - Gold */
+     , (24836,   5,         40) /* EncumbranceVal */
+     , (24836,   8,         20) /* Mass */
+     , (24836,   9,          0) /* ValidLocations - None */
+     , (24836,  16,          1) /* ItemUseable - No */
+     , (24836,  19,          5) /* Value */
+     , (24836,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24836, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24836, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24836,  22, True ) /* Inscribable */
+     , (24836,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24836,  39,    0.37) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24836,   1, 'Cabalist Drudge Charm') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24836,   1,   33554683) /* Setup */
+     , (24836,   3,  536870932) /* SoundTable */
+     , (24836,   6,   67111919) /* PaletteBase */
+     , (24836,   7,  268435832) /* ClothingBase */
+     , (24836,   8,  100674480) /* Icon */
+     , (24836,  22,  872415275) /* PhysicsEffectTable */
+     , (24836,  36,  234881046) /* MutateFilter */;

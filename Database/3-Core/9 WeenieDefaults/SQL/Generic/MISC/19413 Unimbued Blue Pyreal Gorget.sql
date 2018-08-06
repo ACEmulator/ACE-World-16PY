@@ -1,37 +1,33 @@
-/* Weenie - Unimbued Blue Pyreal Gorget (19413) */
-DELETE FROM weenie WHERE class_Id = 19413;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19413, 'gorgetnuhmudiraunimbuedmid', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19413, 001 /* NAME_STRING */, 'Unimbued Blue Pyreal Gorget')
-     , (19413, 015 /* SHORT_DESC_STRING */, 'A blue gorget, crafted from a strong metal. As you hold the gorget in your hand you feel a quick and heavy vibration.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19413, 001 /* SETUP_DID */, 33554687)
-     , (19413, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19413, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19413, 007 /* CLOTHINGBASE_DID */, 268436388)
-     , (19413, 008 /* ICON_DID */, 100668632)
-     , (19413, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19413', 'gorgetnuhmudiraunimbuedmid', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19413, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19413, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (19413, 005 /* ENCUMB_VAL_INT */, 100)
-     , (19413, 008 /* MASS_INT */, 240)
-     , (19413, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19413, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19413, 019 /* VALUE_INT */, 150)
-     , (19413, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19413, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19413, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19413, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (19413,   1,        128) /* ItemType - Misc */
+     , (19413,   3,          2) /* PaletteTemplate - Blue */
+     , (19413,   5,        100) /* EncumbranceVal */
+     , (19413,   8,        240) /* Mass */
+     , (19413,   9,          0) /* ValidLocations - None */
+     , (19413,  16,          1) /* ItemUseable - No */
+     , (19413,  19,        150) /* Value */
+     , (19413,  33,          1) /* Bonded - Bonded */
+     , (19413,  93,       1044) /* PhysicsState */
+     , (19413, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19413, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19413, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (19413,  22, True ) /* Inscribable */
+     , (19413,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19413,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19413,   1, 'Unimbued Blue Pyreal Gorget') /* Name */
+     , (19413,  15, 'A blue gorget, crafted from a strong metal. As you hold the gorget in your hand you feel a quick and heavy vibration.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19413,   1,   33554687) /* Setup */
+     , (19413,   3,  536870932) /* SoundTable */
+     , (19413,   6,   67111919) /* PaletteBase */
+     , (19413,   7,  268436388) /* ClothingBase */
+     , (19413,   8,  100668632) /* Icon */
+     , (19413,  22,  872415275) /* PhysicsEffectTable */;

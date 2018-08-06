@@ -1,43 +1,39 @@
-/* Weenie - Baron's Amulet of Life Giving (7886) */
-DELETE FROM weenie WHERE class_Id = 7886;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7886, 'amuletcoliermine', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7886, 001 /* NAME_STRING */, 'Baron''s Amulet of Life Giving')
-     , (7886, 015 /* SHORT_DESC_STRING */, 'In life, this object was the Baron of Colier''s most coveted item.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7886, 001 /* SETUP_DID */, 33554680)
-     , (7886, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7886, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7886, 007 /* CLOTHINGBASE_DID */, 268435735)
-     , (7886, 008 /* ICON_DID */, 100670880)
-     , (7886, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (7886, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7886', 'amuletcoliermine', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7886, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (7886, 005 /* ENCUMB_VAL_INT */, 30)
-     , (7886, 008 /* MASS_INT */, 30)
-     , (7886, 009 /* LOCATIONS_INT */, 32768 /* NECK_WEAR_LOC */)
-     , (7886, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7886, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (7886, 019 /* VALUE_INT */, 2300)
-     , (7886, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7886, 106 /* ITEM_SPELLCRAFT_INT */, 45)
-     , (7886, 107 /* ITEM_CUR_MANA_INT */, 190)
-     , (7886, 108 /* ITEM_MAX_MANA_INT */, 230)
-     , (7886, 109 /* ITEM_DIFFICULTY_INT */, 45);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7886, 005 /* MANA_RATE_FLOAT */, -0.033333)
-     , (7886, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
+VALUES (7886,   1,          8) /* ItemType - Jewelry */
+     , (7886,   5,         30) /* EncumbranceVal */
+     , (7886,   8,         30) /* Mass */
+     , (7886,   9,      32768) /* ValidLocations - NeckWear */
+     , (7886,  16,          1) /* ItemUseable - No */
+     , (7886,  18,          1) /* UiEffects - Magical */
+     , (7886,  19,       2300) /* Value */
+     , (7886,  93,       1044) /* PhysicsState */
+     , (7886, 106,         45) /* ItemSpellcraft */
+     , (7886, 107,        190) /* ItemCurMana */
+     , (7886, 108,        230) /* ItemMaxMana */
+     , (7886, 109,         45) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7886, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (7886,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7886,   5, -0.033333) /* ManaRate */
+     , (7886,  39,     0.8) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7886,   1, 'Baron''s Amulet of Life Giving') /* Name */
+     , (7886,  15, 'In life, this object was the Baron of Colier''s most coveted item.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7886,   1,   33554680) /* Setup */
+     , (7886,   3,  536870932) /* SoundTable */
+     , (7886,   6,   67111919) /* PaletteBase */
+     , (7886,   7,  268435735) /* ClothingBase */
+     , (7886,   8,  100670880) /* Icon */
+     , (7886,  22,  872415275) /* PhysicsEffectTable */
+     , (7886,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7886, 1997, 2) /* LifeGiver_SpellID */;
-
+VALUES (7886,  1997,      2)  /* Life Giver */;

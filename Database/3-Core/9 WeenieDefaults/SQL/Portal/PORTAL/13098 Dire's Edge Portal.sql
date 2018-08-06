@@ -1,34 +1,30 @@
-/* Weenie - Dire's Edge Portal (13098) */
-DELETE FROM weenie WHERE class_Id = 13098;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13098, 'portaldiresedge', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13098, 001 /* NAME_STRING */, 'Dire''s Edge Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13098, 001 /* SETUP_DID */, 33554867)
-     , (13098, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (13098, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('13098', 'portaldiresedge', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13098, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (13098, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (13098, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (13098, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (13098, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13098, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (13098,   1,      65536) /* ItemType - Portal */
+     , (13098,  16,         32) /* ItemUseable - Remote */
+     , (13098,  93,       3084) /* PhysicsState */
+     , (13098, 111,          1) /* PortalBitmask - Unrestricted */
+     , (13098, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13098, 001 /* STUCK_BOOL */, True)
-     , (13098, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (13098, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (13098, 013 /* ETHEREAL_BOOL */, True)
-     , (13098, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (13098,   1, True ) /* Stuck */
+     , (13098,  11, False) /* IgnoreCollisions */
+     , (13098,  12, True ) /* ReportCollisions */
+     , (13098,  13, True ) /* Ethereal */
+     , (13098,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (13098,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (13098,   1, 'Dire''s Edge Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (13098,   1,   33554867) /* Setup */
+     , (13098,   2,  150994947) /* MotionTable */
+     , (13098,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13098, 2, 1000079403, 125.943, 53.815, 53.984, 0.09753048, 0, 0, -0.9952325) /* DESTINATION_POSITION */;
-
+VALUES (13098, 2, 1000079403, 125.943, 53.815, 53.984, 0.09753048, 0, 0, -0.9952325) /* Destination */;

@@ -1,55 +1,51 @@
-/* Weenie - Tall Stocking Cap (22887) */
-DELETE FROM weenie WHERE class_Id = 22887;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22887, 'capstocking2', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22887, 001 /* NAME_STRING */, 'Tall Stocking Cap')
-     , (22887, 016 /* LONG_DESC_STRING */, 'A silly, warm stocking cap of cold protection.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22887, 001 /* SETUP_DID */, 33558148)
-     , (22887, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22887, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (22887, 007 /* CLOTHINGBASE_DID */, 268436534)
-     , (22887, 008 /* ICON_DID */, 100673911)
-     , (22887, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22887', 'capstocking2', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22887, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (22887, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (22887, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (22887, 005 /* ENCUMB_VAL_INT */, 50)
-     , (22887, 008 /* MASS_INT */, 15)
-     , (22887, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (22887, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22887, 019 /* VALUE_INT */, 200)
-     , (22887, 027 /* ARMOR_TYPE_INT */, 1)
-     , (22887, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (22887, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22887, 106 /* ITEM_SPELLCRAFT_INT */, 30)
-     , (22887, 107 /* ITEM_CUR_MANA_INT */, 100)
-     , (22887, 108 /* ITEM_MAX_MANA_INT */, 200)
-     , (22887, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (22887, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22887, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22887, 005 /* MANA_RATE_FLOAT */, -0.0166)
-     , (22887, 012 /* SHADE_FLOAT */, 0.8)
-     , (22887, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (22887, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (22887, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (22887, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (22887, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (22887, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (22887, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (22887,   1,          4) /* ItemType - Clothing */
+     , (22887,   3,         13) /* PaletteTemplate - Purple */
+     , (22887,   4,      16384) /* ClothingPriority - Head */
+     , (22887,   5,         50) /* EncumbranceVal */
+     , (22887,   8,         15) /* Mass */
+     , (22887,   9,          1) /* ValidLocations - HeadWear */
+     , (22887,  16,          1) /* ItemUseable - No */
+     , (22887,  19,        200) /* Value */
+     , (22887,  27,          1) /* ArmorType */
+     , (22887,  28,          0) /* ArmorLevel */
+     , (22887,  93,       1044) /* PhysicsState */
+     , (22887, 106,         30) /* ItemSpellcraft */
+     , (22887, 107,        100) /* ItemCurMana */
+     , (22887, 108,        200) /* ItemMaxMana */
+     , (22887, 109,          0) /* ItemDifficulty */
+     , (22887, 150,        103) /* HookPlacement - Hook */
+     , (22887, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22887, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22887, 100 /* DYABLE_BOOL */, True);
+VALUES (22887,  22, True ) /* Inscribable */
+     , (22887, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22887,   5, -0.0166) /* ManaRate */
+     , (22887,  12,     0.8) /* Shade */
+     , (22887,  13,     0.8) /* ArmorModVsSlash */
+     , (22887,  14,     0.8) /* ArmorModVsPierce */
+     , (22887,  15,       1) /* ArmorModVsBludgeon */
+     , (22887,  16,     0.5) /* ArmorModVsCold */
+     , (22887,  17,     0.2) /* ArmorModVsFire */
+     , (22887,  18,     0.1) /* ArmorModVsAcid */
+     , (22887,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22887,   1, 'Tall Stocking Cap') /* Name */
+     , (22887,  16, 'A silly, warm stocking cap of cold protection.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22887,   1,   33558148) /* Setup */
+     , (22887,   3,  536870932) /* SoundTable */
+     , (22887,   6,   67108990) /* PaletteBase */
+     , (22887,   7,  268436534) /* ClothingBase */
+     , (22887,   8,  100673911) /* Icon */
+     , (22887,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22887, 1039, 2) /* ColdProtectionOther4_SpellID */;
-
+VALUES (22887,  1039,      2)  /* Cold Protection Other IV */;

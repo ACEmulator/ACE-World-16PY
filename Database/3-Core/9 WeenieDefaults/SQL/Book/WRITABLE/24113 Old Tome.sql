@@ -1,39 +1,35 @@
-/* Weenie - Old Tome (24113) */
-DELETE FROM weenie WHERE class_Id = 24113;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24113, 'bookasheronlamentuntranslated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24113, 001 /* NAME_STRING */, 'Old Tome');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24113, 001 /* SETUP_DID */, 33558254)
-     , (24113, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24113, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (24113, 008 /* ICON_DID */, 100671237)
-     , (24113, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24113', 'bookasheronlamentuntranslated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24113, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (24113, 005 /* ENCUMB_VAL_INT */, 160)
-     , (24113, 008 /* MASS_INT */, 200)
-     , (24113, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24113, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24113, 019 /* VALUE_INT */, 90)
-     , (24113, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24113, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (24113,   1,       8192) /* ItemType - Writable */
+     , (24113,   5,        160) /* EncumbranceVal */
+     , (24113,   8,        200) /* Mass */
+     , (24113,   9,          0) /* ValidLocations - None */
+     , (24113,  16,          8) /* ItemUseable - Contained */
+     , (24113,  19,         90) /* Value */
+     , (24113,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24113, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (24113,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24113,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24113,   1, 'Old Tome') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24113,   1,   33558254) /* Setup */
+     , (24113,   3,  536870932) /* SoundTable */
+     , (24113,   6,   67111092) /* PaletteBase */
+     , (24113,   8,  100671237) /* Icon */
+     , (24113,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (24113, 1, 1000) /* Book Data */;
+VALUES (24113, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (24113, 0, 4294967295, 'Untranslated Text', 'prewritten', False, '
 [You cannot translate this text]
 ');
-

@@ -1,38 +1,35 @@
-/* Weenie - Urgent Dispatch (8086) */
-DELETE FROM weenie WHERE class_Id = 8086;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8086, 'notefenmalainundeadtranslated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8086, 001 /* NAME_STRING */, 'Urgent Dispatch')
-     , (8086, 014 /* USE_STRING */, 'Use this item to read it.')
-     , (8086, 015 /* SHORT_DESC_STRING */, 'A translated note.')
-     , (8086, 016 /* LONG_DESC_STRING */, 'A translated missive, taken from the hands of an undead at the Fenmalain Facility.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8086, 001 /* SETUP_DID */, 33554773)
-     , (8086, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8086, 008 /* ICON_DID */, 100668176)
-     , (8086, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8086', 'notefenmalainundeadtranslated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8086, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8086, 005 /* ENCUMB_VAL_INT */, 160)
-     , (8086, 008 /* MASS_INT */, 200)
-     , (8086, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8086, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8086, 019 /* VALUE_INT */, 90)
-     , (8086, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8086, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8086,   1,       8192) /* ItemType - Writable */
+     , (8086,   5,        160) /* EncumbranceVal */
+     , (8086,   8,        200) /* Mass */
+     , (8086,   9,          0) /* ValidLocations - None */
+     , (8086,  16,          8) /* ItemUseable - Contained */
+     , (8086,  19,         90) /* Value */
+     , (8086,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8086, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8086,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8086,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8086,   1, 'Urgent Dispatch') /* Name */
+     , (8086,  14, 'Use this item to read it.') /* Use */
+     , (8086,  15, 'A translated note.') /* ShortDesc */
+     , (8086,  16, 'A translated missive, taken from the hands of an undead at the Fenmalain Facility.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8086,   1,   33554773) /* Setup */
+     , (8086,   3,  536870932) /* SoundTable */
+     , (8086,   8,  100668176) /* Icon */
+     , (8086,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8086, 7, 1000) /* Book Data */;
+VALUES (8086, 7, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8086, 0, 4294967295, 'Sahoni Arsanc', 'prewritten', False, '
@@ -60,4 +57,3 @@ My lord, forgive us. We have failed you utterly.
 
 Sahoni Arsanc
 ');
-

@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Inferno Ward (28300) */
-DELETE FROM weenie WHERE class_Id = 28300;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28300, 'scrollfireprotectionfellowship5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28300, 001 /* NAME_STRING */, 'Scroll of Inferno Ward')
-     , (28300, 015 /* SHORT_DESC_STRING */, 'When learned, this spell reduces damage all fellowship members take from fire by 50%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28300, 001 /* SETUP_DID */, 33554826)
-     , (28300, 008 /* ICON_DID */, 100676949)
-     , (28300, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28300, 028 /* SPELL_DID */, 3337 /* FireProtectionFellowship5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28300', 'scrollfireprotectionfellowship5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28300, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28300, 005 /* ENCUMB_VAL_INT */, 30)
-     , (28300, 008 /* MASS_INT */, 90)
-     , (28300, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28300, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28300, 019 /* VALUE_INT */, 200)
-     , (28300, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28300, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (28300,   1,       8192) /* ItemType - Writable */
+     , (28300,   5,         30) /* EncumbranceVal */
+     , (28300,   8,         90) /* Mass */
+     , (28300,   9,          0) /* ValidLocations - None */
+     , (28300,  16,          8) /* ItemUseable - Contained */
+     , (28300,  19,        200) /* Value */
+     , (28300,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28300, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28300, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28300,  22, True ) /* Inscribable */
+     , (28300,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28300,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28300,   1, 'Scroll of Inferno Ward') /* Name */
+     , (28300,  15, 'When learned, this spell reduces damage all fellowship members take from fire by 50%.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28300,   1,   33554826) /* Setup */
+     , (28300,   8,  100676949) /* Icon */
+     , (28300,  22,  872415275) /* PhysicsEffectTable */
+     , (28300,  28,       3337) /* Spell - Inferno Ward */;

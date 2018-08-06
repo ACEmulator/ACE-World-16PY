@@ -1,38 +1,34 @@
-/* Weenie - Dungeon Fern (22812) */
-DELETE FROM weenie WHERE class_Id = 22812;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22812, 'directionsdungeonfern', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22812, 001 /* NAME_STRING */, 'Dungeon Fern');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22812, 001 /* SETUP_DID */, 33554773)
-     , (22812, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22812, 008 /* ICON_DID */, 100675748)
-     , (22812, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22812', 'directionsdungeonfern', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22812, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (22812, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22812, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22812, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22812, 019 /* VALUE_INT */, 10)
-     , (22812, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22812, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (22812,   1,       8192) /* ItemType - Writable */
+     , (22812,   5,         10) /* EncumbranceVal */
+     , (22812,   9,          0) /* ValidLocations - None */
+     , (22812,  16,          8) /* ItemUseable - Contained */
+     , (22812,  19,         10) /* Value */
+     , (22812,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22812, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (22812,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22812,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22812,   1, 'Dungeon Fern') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22812,   1,   33554773) /* Setup */
+     , (22812,   3,  536870932) /* SoundTable */
+     , (22812,   8,  100675748) /* Icon */
+     , (22812,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (22812, 1, 1000) /* Book Data */;
+VALUES (22812, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (22812, 0, 4294967295, 'Dungeon Fern', 'prewritten', False, '
 Across the river from Holtburg -- just up the hill from the Festival Stone -- is the Dungeon Fern. It''s home to a small family of undead. Be careful if you go in -- they don''t like visitors much.
 
 ');
-

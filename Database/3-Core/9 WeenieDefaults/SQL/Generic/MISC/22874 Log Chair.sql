@@ -1,32 +1,28 @@
-/* Weenie - Log Chair (22874) */
-DELETE FROM weenie WHERE class_Id = 22874;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22874, 'logchair', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22874, 001 /* NAME_STRING */, 'Log Chair')
-     , (22874, 014 /* USE_STRING */, 'This item can be used on floor and yard hooks.')
-     , (22874, 015 /* SHORT_DESC_STRING */, 'A chair roughly cut from a log.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22874, 001 /* SETUP_DID */, 33558142)
-     , (22874, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22874, 008 /* ICON_DID */, 100673880)
-     , (22874, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22874', 'logchair', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22874, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22874, 005 /* ENCUMB_VAL_INT */, 200)
-     , (22874, 008 /* MASS_INT */, 200)
-     , (22874, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22874, 019 /* VALUE_INT */, 5000)
-     , (22874, 093 /* PHYSICS_STATE_INT */, 1052 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22874, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22874, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (22874,   1,        128) /* ItemType - Misc */
+     , (22874,   5,        200) /* EncumbranceVal */
+     , (22874,   8,        200) /* Mass */
+     , (22874,  16,          1) /* ItemUseable - No */
+     , (22874,  19,       5000) /* Value */
+     , (22874,  93,       1052) /* PhysicsState */
+     , (22874, 150,        103) /* HookPlacement - Hook */
+     , (22874, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22874, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22874, 013 /* ETHEREAL_BOOL */, True)
-     , (22874, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22874,  12, True ) /* ReportCollisions */
+     , (22874,  13, True ) /* Ethereal */
+     , (22874,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22874,   1, 'Log Chair') /* Name */
+     , (22874,  14, 'This item can be used on floor and yard hooks.') /* Use */
+     , (22874,  15, 'A chair roughly cut from a log.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22874,   1,   33558142) /* Setup */
+     , (22874,   3,  536870932) /* SoundTable */
+     , (22874,   8,  100673880) /* Icon */
+     , (22874,  22,  872415275) /* PhysicsEffectTable */;

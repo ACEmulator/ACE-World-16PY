@@ -1,36 +1,32 @@
-/* Weenie - Large Shreth Hide (8657) */
-DELETE FROM weenie WHERE class_Id = 8657;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8657, 'shrethhidelarge', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8657, 001 /* NAME_STRING */, 'Large Shreth Hide')
-     , (8657, 015 /* SHORT_DESC_STRING */, 'A Large Shreth hide.')
-     , (8657, 016 /* LONG_DESC_STRING */, 'A Large Shreth hide.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8657, 001 /* SETUP_DID */, 33554817)
-     , (8657, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8657, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8657, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (8657, 008 /* ICON_DID */, 100671282)
-     , (8657, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8657', 'shrethhidelarge', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8657, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (8657, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (8657, 005 /* ENCUMB_VAL_INT */, 500)
-     , (8657, 008 /* MASS_INT */, 500)
-     , (8657, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8657, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8657, 019 /* VALUE_INT */, 0)
-     , (8657, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8657, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (8657,   1,        128) /* ItemType - Misc */
+     , (8657,   3,          4) /* PaletteTemplate - Brown */
+     , (8657,   5,        500) /* EncumbranceVal */
+     , (8657,   8,        500) /* Mass */
+     , (8657,   9,          0) /* ValidLocations - None */
+     , (8657,  16,          1) /* ItemUseable - No */
+     , (8657,  19,          0) /* Value */
+     , (8657,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8657, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8657, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8657,  22, True ) /* Inscribable */
+     , (8657,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8657,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8657,   1, 'Large Shreth Hide') /* Name */
+     , (8657,  15, 'A Large Shreth hide.') /* ShortDesc */
+     , (8657,  16, 'A Large Shreth hide.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8657,   1,   33554817) /* Setup */
+     , (8657,   3,  536870932) /* SoundTable */
+     , (8657,   6,   67111919) /* PaletteBase */
+     , (8657,   7,  268435832) /* ClothingBase */
+     , (8657,   8,  100671282) /* Icon */
+     , (8657,  22,  872415275) /* PhysicsEffectTable */;

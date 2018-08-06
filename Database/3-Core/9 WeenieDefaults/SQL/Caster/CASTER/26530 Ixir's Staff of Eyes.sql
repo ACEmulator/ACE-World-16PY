@@ -1,62 +1,58 @@
-/* Weenie - Ixir's Staff of Eyes (26530) */
-DELETE FROM weenie WHERE class_Id = 26530;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26530, 'staffixir1', 35 /* Caster_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26530, 001 /* NAME_STRING */, 'Ixir''s Staff of Eyes')
-     , (26530, 015 /* SHORT_DESC_STRING */, 'A staff with an ever watchful eye once used by the High Matriarch Ixir Zi.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26530, 001 /* SETUP_DID */, 33558596)
-     , (26530, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26530, 006 /* PALETTE_BASE_DID */, 67114956)
-     , (26530, 007 /* CLOTHINGBASE_DID */, 268436792)
-     , (26530, 008 /* ICON_DID */, 100675776)
-     , (26530, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26530, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
-     , (26530, 028 /* SPELL_DID */, 3066 /* LesserWardRebirth_SpellID */)
-     , (26530, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26530', 'staffixir1', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26530, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
-     , (26530, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (26530, 005 /* ENCUMB_VAL_INT */, 75)
-     , (26530, 008 /* MASS_INT */, 25)
-     , (26530, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
-     , (26530, 016 /* ITEM_USEABLE_INT */, 6291460 /* USEABLE_SOURCE_WIELDED_TARGET_REMOTE_NEVER_WALK */)
-     , (26530, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26530, 019 /* VALUE_INT */, 2600)
-     , (26530, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
-     , (26530, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26530, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26530, 106 /* ITEM_SPELLCRAFT_INT */, 275)
-     , (26530, 107 /* ITEM_CUR_MANA_INT */, 1400)
-     , (26530, 108 /* ITEM_MAX_MANA_INT */, 1400)
-     , (26530, 109 /* ITEM_DIFFICULTY_INT */, 100)
-     , (26530, 117 /* ITEM_MANA_COST_INT */, 200)
-     , (26530, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26530, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (26530, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (26530, 159 /* WIELD_SKILLTYPE_INT */, 32 /* ITEM_ENCHANTMENT_SKILL */)
-     , (26530, 160 /* WIELD_DIFFICULTY_INT */, 150);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26530, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (26530, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (26530, 039 /* DEFAULT_SCALE_FLOAT */, 0.6)
-     , (26530, 144 /* MANA_CONVERSION_MOD_FLOAT */, 0.08);
+VALUES (26530,   1,      32768) /* ItemType - Caster */
+     , (26530,   3,          8) /* PaletteTemplate - Green */
+     , (26530,   5,         75) /* EncumbranceVal */
+     , (26530,   8,         25) /* Mass */
+     , (26530,   9,   16777216) /* ValidLocations - Held */
+     , (26530,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
+     , (26530,  18,          1) /* UiEffects - Magical */
+     , (26530,  19,       2600) /* Value */
+     , (26530,  46,        512) /* DefaultCombatStyle - Magic */
+     , (26530,  93,       3092) /* PhysicsState */
+     , (26530,  94,         16) /* TargetType - Creature */
+     , (26530, 106,        275) /* ItemSpellcraft */
+     , (26530, 107,       1400) /* ItemCurMana */
+     , (26530, 108,       1400) /* ItemMaxMana */
+     , (26530, 109,        100) /* ItemDifficulty */
+     , (26530, 117,        200) /* ItemManaCost */
+     , (26530, 150,        103) /* HookPlacement - Hook */
+     , (26530, 151,          2) /* HookType - Wall */
+     , (26530, 158,          2) /* WieldRequirements - RawSkill */
+     , (26530, 159,         32) /* WieldSkilltype - ItemEnchantment */
+     , (26530, 160,        150) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26530, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26530, 022 /* INSCRIBABLE_BOOL */, True)
-     , (26530, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26530,  15, True ) /* LightsStatus */
+     , (26530,  22, True ) /* Inscribable */
+     , (26530,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (26530,   5,   -0.05) /* ManaRate */
+     , (26530,  29,       1) /* WeaponDefense */
+     , (26530,  39,     0.6) /* DefaultScale */
+     , (26530, 144,    0.08) /* ManaConversionMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26530,   1, 'Ixir''s Staff of Eyes') /* Name */
+     , (26530,  15, 'A staff with an ever watchful eye once used by the High Matriarch Ixir Zi.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26530,   1,   33558596) /* Setup */
+     , (26530,   3,  536870932) /* SoundTable */
+     , (26530,   6,   67114956) /* PaletteBase */
+     , (26530,   7,  268436792) /* ClothingBase */
+     , (26530,   8,  100675776) /* Icon */
+     , (26530,  22,  872415275) /* PhysicsEffectTable */
+     , (26530,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (26530,  28,       3066) /* Spell - Lesser Ward of Rebirth */
+     , (26530,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26530, 1455, 2) /* WillpowerOther5_SpellID */
-     , (26530, 2654, 2) /* FeebleEndurance_SpellID */
-     , (26530, 1431, 2) /* FocusOther5_SpellID */
-     , (26530, 1359, 2) /* EnduranceOther5_SpellID */
-     , (26530, 187, 2) /* RejuvenationOther5_SpellID */;
-
+VALUES (26530,   187,      2)  /* Rejuvenation Other V */
+     , (26530,  1359,      2)  /* Endurance Other V */
+     , (26530,  1431,      2)  /* Focus Other V */
+     , (26530,  1455,      2)  /* Willpower Other V */
+     , (26530,  2654,      2)  /* Feeble Endurance */;

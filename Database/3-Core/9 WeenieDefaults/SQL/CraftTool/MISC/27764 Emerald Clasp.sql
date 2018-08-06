@@ -1,42 +1,38 @@
-/* Weenie - Emerald Clasp (27764) */
-DELETE FROM weenie WHERE class_Id = 27764;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27764, 'toolsunkenmereclasp', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27764, 001 /* NAME_STRING */, 'Emerald Clasp')
-     , (27764, 014 /* USE_STRING */, 'You are not sure what this artifact can be used on.')
-     , (27764, 015 /* SHORT_DESC_STRING */, 'An odd clasp that looks as if it could be fitted around a jewel of some sort.')
-     , (27764, 033 /* QUEST_STRING */, 'PickedUpEmeraldClasp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27764, 001 /* SETUP_DID */, 33554680)
-     , (27764, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27764, 008 /* ICON_DID */, 100676630)
-     , (27764, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27764', 'toolsunkenmereclasp', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27764, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (27764, 005 /* ENCUMB_VAL_INT */, 10)
-     , (27764, 008 /* MASS_INT */, 20)
-     , (27764, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27764, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (27764, 012 /* STACK_SIZE_INT */, 1)
-     , (27764, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (27764, 014 /* STACK_UNIT_MASS_INT */, 20)
-     , (27764, 015 /* STACK_UNIT_VALUE_INT */, 5000)
-     , (27764, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (27764, 019 /* VALUE_INT */, 5000)
-     , (27764, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (27764, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27764, 094 /* TARGET_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (27764, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27764, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (27764,   1,        128) /* ItemType - Misc */
+     , (27764,   5,         10) /* EncumbranceVal */
+     , (27764,   8,         20) /* Mass */
+     , (27764,   9,          0) /* ValidLocations - None */
+     , (27764,  11,          1) /* MaxStackSize */
+     , (27764,  12,          1) /* StackSize */
+     , (27764,  13,         10) /* StackUnitEncumbrance */
+     , (27764,  14,         20) /* StackUnitMass */
+     , (27764,  15,       5000) /* StackUnitValue */
+     , (27764,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (27764,  19,       5000) /* Value */
+     , (27764,  33,          1) /* Bonded - Bonded */
+     , (27764,  93,       1044) /* PhysicsState */
+     , (27764,  94,       2048) /* TargetType - Gem */
+     , (27764, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27764, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27764, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27764,  22, True ) /* Inscribable */
+     , (27764,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27764,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27764,   1, 'Emerald Clasp') /* Name */
+     , (27764,  14, 'You are not sure what this artifact can be used on.') /* Use */
+     , (27764,  15, 'An odd clasp that looks as if it could be fitted around a jewel of some sort.') /* ShortDesc */
+     , (27764,  33, 'PickedUpEmeraldClasp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27764,   1,   33554680) /* Setup */
+     , (27764,   3,  536870932) /* SoundTable */
+     , (27764,   8,  100676630) /* Icon */
+     , (27764,  22,  872415275) /* PhysicsEffectTable */;

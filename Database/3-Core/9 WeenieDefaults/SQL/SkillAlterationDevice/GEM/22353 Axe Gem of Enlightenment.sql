@@ -1,34 +1,30 @@
-/* Weenie - Axe Gem of Enlightenment (22353) */
-DELETE FROM weenie WHERE class_Id = 22353;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22353, 'skillgemupaxe', 62 /* SkillAlterationDevice_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22353, 001 /* NAME_STRING */, 'Axe Gem of Enlightenment')
-     , (22353, 014 /* USE_STRING */, 'Use this gem to specialize a trained skill. It will cost you six skill credits to specialize the Axe skill.')
-     , (22353, 033 /* QUEST_STRING */, 'SkillAlterationGemPickedUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22353, 001 /* SETUP_DID */, 33558088)
-     , (22353, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22353, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (22353, 008 /* ICON_DID */, 100673788)
-     , (22353, 050 /* ICON_OVERLAY_DID */, 100673758);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22353', 'skillgemupaxe', 62) /* SkillAlterationDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22353, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22353, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (22353, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22353, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22353, 019 /* VALUE_INT */, 0)
-     , (22353, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22353, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22353, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (22353, 185 /* TYPE_OF_ALTERATION_INT */, 1)
-     , (22353, 186 /* SKILL_TO_BE_ALTERED_INT */, 1);
+VALUES (22353,   1,       2048) /* ItemType - Gem */
+     , (22353,   3,          8) /* PaletteTemplate - Green */
+     , (22353,   5,         10) /* EncumbranceVal */
+     , (22353,  16,          8) /* ItemUseable - Contained */
+     , (22353,  19,          0) /* Value */
+     , (22353,  33,          1) /* Bonded - Bonded */
+     , (22353,  93,       1044) /* PhysicsState */
+     , (22353, 114,          1) /* Attuned - Attuned */
+     , (22353, 185,          1) /* TypeOfAlteration */
+     , (22353, 186,          1) /* SkillToBeAltered */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22353, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22353, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22353,  22, True ) /* Inscribable */
+     , (22353,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22353,   1, 'Axe Gem of Enlightenment') /* Name */
+     , (22353,  14, 'Use this gem to specialize a trained skill. It will cost you six skill credits to specialize the Axe skill.') /* Use */
+     , (22353,  33, 'SkillAlterationGemPickedUp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22353,   1,   33558088) /* Setup */
+     , (22353,   6,   67111919) /* PaletteBase */
+     , (22353,   7,  268435723) /* ClothingBase */
+     , (22353,   8,  100673788) /* Icon */
+     , (22353,  50,  100673758) /* IconOverlay */;

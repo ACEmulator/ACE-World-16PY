@@ -1,29 +1,25 @@
-/* Weenie - Cistern (144) */
-DELETE FROM weenie WHERE class_Id = 144;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (144, 'cistern', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (144, 001 /* NAME_STRING */, 'Cistern');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (144, 001 /* SETUP_DID */, 33554712)
-     , (144, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (144, 008 /* ICON_DID */, 100667466)
-     , (144, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('144', 'cistern', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (144, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (144, 005 /* ENCUMB_VAL_INT */, 300)
-     , (144, 008 /* MASS_INT */, 200)
-     , (144, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (144, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (144, 019 /* VALUE_INT */, 65)
-     , (144, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (144,   1,        128) /* ItemType - Misc */
+     , (144,   5,        300) /* EncumbranceVal */
+     , (144,   8,        200) /* Mass */
+     , (144,   9,          0) /* ValidLocations - None */
+     , (144,  16,          1) /* ItemUseable - No */
+     , (144,  19,         65) /* Value */
+     , (144,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (144, 001 /* STUCK_BOOL */, True)
-     , (144, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (144, 013 /* ETHEREAL_BOOL */, False);
+VALUES (144,   1, True ) /* Stuck */
+     , (144,  12, True ) /* ReportCollisions */
+     , (144,  13, False) /* Ethereal */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (144,   1, 'Cistern') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (144,   1,   33554712) /* Setup */
+     , (144,   3,  536870932) /* SoundTable */
+     , (144,   8,  100667466) /* Icon */
+     , (144,  22,  872415275) /* PhysicsEffectTable */;

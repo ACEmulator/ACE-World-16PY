@@ -1,30 +1,26 @@
-/* Weenie - The True Shot (499) */
-DELETE FROM weenie WHERE class_Id = 499;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (499, 'sign-arwicshopfletcher', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (499, 001 /* NAME_STRING */, 'The True Shot')
-     , (499, 016 /* LONG_DESC_STRING */, 'The True Shot ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (499, 001 /* SETUP_DID */, 33555088)
-     , (499, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (499, 007 /* CLOTHINGBASE_DID */, 268435654)
-     , (499, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('499', 'sign-arwicshopfletcher', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (499, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (499, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (499, 008 /* MASS_INT */, 1800)
-     , (499, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (499, 019 /* VALUE_INT */, 125)
-     , (499, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (499,   1,        128) /* ItemType - Misc */
+     , (499,   5,       9000) /* EncumbranceVal */
+     , (499,   8,       1800) /* Mass */
+     , (499,  16,          1) /* ItemUseable - No */
+     , (499,  19,        125) /* Value */
+     , (499,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (499, 001 /* STUCK_BOOL */, True)
-     , (499, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (499, 013 /* ETHEREAL_BOOL */, False)
-     , (499, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (499,   1, True ) /* Stuck */
+     , (499,  12, True ) /* ReportCollisions */
+     , (499,  13, False) /* Ethereal */
+     , (499,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (499,   1, 'The True Shot') /* Name */
+     , (499,  16, 'The True Shot ') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (499,   1,   33555088) /* Setup */
+     , (499,   6,   67111092) /* PaletteBase */
+     , (499,   7,  268435654) /* ClothingBase */
+     , (499,   8,  100668115) /* Icon */;

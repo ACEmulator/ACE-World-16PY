@@ -1,49 +1,45 @@
-/* Weenie - Fleshripper Quarrel (9237) */
-DELETE FROM weenie WHERE class_Id = 9237;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9237, 'boltfleshripper', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9237, 001 /* NAME_STRING */, 'Fleshripper Quarrel');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9237, 001 /* SETUP_DID */, 33556989)
-     , (9237, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9237, 008 /* ICON_DID */, 100671403)
-     , (9237, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9237', 'boltfleshripper', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9237, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (9237, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9237, 008 /* MASS_INT */, 2)
-     , (9237, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
-     , (9237, 011 /* MAX_STACK_SIZE_INT */, 250)
-     , (9237, 012 /* STACK_SIZE_INT */, 1)
-     , (9237, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (9237, 014 /* STACK_UNIT_MASS_INT */, 2)
-     , (9237, 015 /* STACK_UNIT_VALUE_INT */, 7)
-     , (9237, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9237, 019 /* VALUE_INT */, 7)
-     , (9237, 044 /* DAMAGE_INT */, 33)
-     , (9237, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (9237, 050 /* AMMO_TYPE_INT */, 16 /*  */)
-     , (9237, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
-     , (9237, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (9237, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9237, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (9237, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (9237, 159 /* WIELD_SKILLTYPE_INT */, 3 /* CROSSBOW_SKILL */)
-     , (9237, 160 /* WIELD_DIFFICULTY_INT */, 250);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9237, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (9237, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (9237, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (9237, 078 /* FRICTION_FLOAT */, 1)
-     , (9237, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (9237,   1,        256) /* ItemType - MissileWeapon */
+     , (9237,   5,         10) /* EncumbranceVal */
+     , (9237,   8,          2) /* Mass */
+     , (9237,   9,    8388608) /* ValidLocations - MissileAmmo */
+     , (9237,  11,        250) /* MaxStackSize */
+     , (9237,  12,          1) /* StackSize */
+     , (9237,  13,         10) /* StackUnitEncumbrance */
+     , (9237,  14,          2) /* StackUnitMass */
+     , (9237,  15,          7) /* StackUnitValue */
+     , (9237,  16,          1) /* ItemUseable - No */
+     , (9237,  19,          7) /* Value */
+     , (9237,  44,         33) /* Damage */
+     , (9237,  45,          2) /* DamageType - Pierce */
+     , (9237,  50,         16) /* AmmoType */
+     , (9237,  51,          3) /* CombatUse - Ammo */
+     , (9237,  93,     132116) /* PhysicsState */
+     , (9237, 150,        103) /* HookPlacement - Hook */
+     , (9237, 151,          2) /* HookType - Wall */
+     , (9237, 158,          2) /* WieldRequirements - RawSkill */
+     , (9237, 159,          3) /* WieldSkilltype - Crossbow */
+     , (9237, 160,        250) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9237, 017 /* INELASTIC_BOOL */, True)
-     , (9237, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9237,  17, True ) /* Inelastic */
+     , (9237,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9237,  22,     0.5) /* DamageVariance */
+     , (9237,  29,       1) /* WeaponDefense */
+     , (9237,  62,       1) /* WeaponOffense */
+     , (9237,  78,       1) /* Friction */
+     , (9237,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9237,   1, 'Fleshripper Quarrel') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9237,   1,   33556989) /* Setup */
+     , (9237,   3,  536870932) /* SoundTable */
+     , (9237,   8,  100671403) /* Icon */
+     , (9237,  22,  872415275) /* PhysicsEffectTable */;

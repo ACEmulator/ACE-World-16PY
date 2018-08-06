@@ -1,34 +1,30 @@
-/* Weenie - Demonsbane Cottages Portal (15672) */
-DELETE FROM weenie WHERE class_Id = 15672;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15672, 'portaldemonsbanecottages', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15672, 001 /* NAME_STRING */, 'Demonsbane Cottages Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15672, 001 /* SETUP_DID */, 33554867)
-     , (15672, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (15672, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15672', 'portaldemonsbanecottages', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15672, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (15672, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (15672, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (15672, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (15672, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15672, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (15672,   1,      65536) /* ItemType - Portal */
+     , (15672,  16,         32) /* ItemUseable - Remote */
+     , (15672,  93,       3084) /* PhysicsState */
+     , (15672, 111,          1) /* PortalBitmask - Unrestricted */
+     , (15672, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15672, 001 /* STUCK_BOOL */, True)
-     , (15672, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (15672, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (15672, 013 /* ETHEREAL_BOOL */, True)
-     , (15672, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (15672,   1, True ) /* Stuck */
+     , (15672,  11, False) /* IgnoreCollisions */
+     , (15672,  12, True ) /* ReportCollisions */
+     , (15672,  13, True ) /* Ethereal */
+     , (15672,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15672,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15672,   1, 'Demonsbane Cottages Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15672,   1,   33554867) /* Setup */
+     , (15672,   2,  150994947) /* MotionTable */
+     , (15672,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15672, 2, 2810839069, 94.16, 113.895, 32.005, -0.2330719, 0, 0, -0.9724595) /* DESTINATION_POSITION */;
-
+VALUES (15672, 2, 2810839069, 94.16, 113.895, 32.005, -0.2330719, 0, 0, -0.9724595) /* Destination */;

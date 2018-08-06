@@ -1,41 +1,37 @@
-/* Weenie - Warrior's Jewel (30210) */
-DELETE FROM weenie WHERE class_Id = 30210;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30210, 'gemrarevolatilehealthregeneration', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30210, 001 /* NAME_STRING */, 'Warrior''s Jewel')
-     , (30210, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30210, 001 /* SETUP_DID */, 33554809)
-     , (30210, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30210, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30210, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (30210, 008 /* ICON_DID */, 100674739)
-     , (30210, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30210, 028 /* SPELL_DID */, 3731 /* RegenerationRare_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30210', 'gemrarevolatilehealthregeneration', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30210, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (30210, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (30210, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30210, 008 /* MASS_INT */, 5)
-     , (30210, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30210, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30210, 012 /* STACK_SIZE_INT */, 1)
-     , (30210, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30210, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30210, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30210, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30210, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (30210, 019 /* VALUE_INT */, 0)
-     , (30210, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30210, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30210, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30210, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30210,   1,       2048) /* ItemType - Gem */
+     , (30210,   3,         39) /* PaletteTemplate - Black */
+     , (30210,   5,          5) /* EncumbranceVal */
+     , (30210,   8,          5) /* Mass */
+     , (30210,   9,          0) /* ValidLocations - None */
+     , (30210,  11,          1) /* MaxStackSize */
+     , (30210,  12,          1) /* StackSize */
+     , (30210,  13,          5) /* StackUnitEncumbrance */
+     , (30210,  14,          5) /* StackUnitMass */
+     , (30210,  15,          0) /* StackUnitValue */
+     , (30210,  16,          8) /* ItemUseable - Contained */
+     , (30210,  18,          1) /* UiEffects - Magical */
+     , (30210,  19,          0) /* Value */
+     , (30210,  93,       1044) /* PhysicsState */
+     , (30210,  94,         16) /* TargetType - Creature */
+     , (30210, 150,        103) /* HookPlacement - Hook */
+     , (30210, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30210, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30210,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30210,   1, 'Warrior''s Jewel') /* Name */
+     , (30210,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30210,   1,   33554809) /* Setup */
+     , (30210,   3,  536870932) /* SoundTable */
+     , (30210,   6,   67111919) /* PaletteBase */
+     , (30210,   7,  268435723) /* ClothingBase */
+     , (30210,   8,  100674739) /* Icon */
+     , (30210,  22,  872415275) /* PhysicsEffectTable */
+     , (30210,  28,       3731) /* Spell - Prodigal Regeneration */;

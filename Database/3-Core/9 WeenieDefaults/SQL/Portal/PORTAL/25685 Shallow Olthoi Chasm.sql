@@ -1,35 +1,31 @@
-/* Weenie - Shallow Olthoi Chasm (25685) */
-DELETE FROM weenie WHERE class_Id = 25685;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25685, 'portaldeepplaces2', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25685, 001 /* NAME_STRING */, 'Shallow Olthoi Chasm');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25685, 001 /* SETUP_DID */, 33555926)
-     , (25685, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (25685, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25685', 'portaldeepplaces2', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25685, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (25685, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (25685, 086 /* MIN_LEVEL_INT */, 40)
-     , (25685, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (25685, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (25685, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25685, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (25685,   1,      65536) /* ItemType - Portal */
+     , (25685,  16,         32) /* ItemUseable - Remote */
+     , (25685,  86,         40) /* MinLevel */
+     , (25685,  93,       3084) /* PhysicsState */
+     , (25685, 111,          1) /* PortalBitmask - Unrestricted */
+     , (25685, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25685, 001 /* STUCK_BOOL */, True)
-     , (25685, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (25685, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (25685, 013 /* ETHEREAL_BOOL */, True)
-     , (25685, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (25685,   1, True ) /* Stuck */
+     , (25685,  11, False) /* IgnoreCollisions */
+     , (25685,  12, True ) /* ReportCollisions */
+     , (25685,  13, True ) /* Ethereal */
+     , (25685,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25685,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25685,   1, 'Shallow Olthoi Chasm') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25685,   1,   33555926) /* Setup */
+     , (25685,   2,  150994947) /* MotionTable */
+     , (25685,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25685, 2, 1565196614, 84.1436, -0.1, 0.005, 0.7071068, 0, 0, -0.7071068) /* DESTINATION_POSITION */;
-
+VALUES (25685, 2, 1565196614, 84.1436, -0.1, 0.005, 0.7071068, 0, 0, -0.7071068) /* Destination */;

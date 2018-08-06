@@ -1,37 +1,34 @@
-/* Weenie - Asheron's Second Missive (8814) */
-DELETE FROM weenie WHERE class_Id = 8814;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8814, 'noteasheronthanks', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8814, 001 /* NAME_STRING */, 'Asheron''s Second Missive')
-     , (8814, 015 /* SHORT_DESC_STRING */, 'A book made of fine vellum and bound in leather.')
-     , (8814, 016 /* LONG_DESC_STRING */, 'A book made of fine vellum and bound in leather, written by the hand of Asheron.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8814, 001 /* SETUP_DID */, 33556929)
-     , (8814, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8814, 008 /* ICON_DID */, 100671238)
-     , (8814, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8814', 'noteasheronthanks', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8814, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8814, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8814, 008 /* MASS_INT */, 200)
-     , (8814, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8814, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8814, 019 /* VALUE_INT */, 0)
-     , (8814, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8814, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8814,   1,       8192) /* ItemType - Writable */
+     , (8814,   5,         10) /* EncumbranceVal */
+     , (8814,   8,        200) /* Mass */
+     , (8814,   9,          0) /* ValidLocations - None */
+     , (8814,  16,          8) /* ItemUseable - Contained */
+     , (8814,  19,          0) /* Value */
+     , (8814,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8814, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8814,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8814,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8814,   1, 'Asheron''s Second Missive') /* Name */
+     , (8814,  15, 'A book made of fine vellum and bound in leather.') /* ShortDesc */
+     , (8814,  16, 'A book made of fine vellum and bound in leather, written by the hand of Asheron.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8814,   1,   33556929) /* Setup */
+     , (8814,   3,  536870932) /* SoundTable */
+     , (8814,   8,  100671238) /* Icon */
+     , (8814,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8814, 9, 1000) /* Book Data */;
+VALUES (8814, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8814, 0, 4294967295, '', 'prewritten', False, 'I am pleased to say that the defeat of Bael''Zharon has been accomplished.
@@ -64,4 +61,3 @@ Whatever peace I have to offer, I offer to you. May Light fall gently upon your 
 
 ~ Asheron Realaidain, Moriqui Eipoth 590
 ');
-

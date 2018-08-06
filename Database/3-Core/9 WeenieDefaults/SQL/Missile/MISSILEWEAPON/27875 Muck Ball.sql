@@ -1,52 +1,48 @@
-/* Weenie - Muck Ball (27875) */
-DELETE FROM weenie WHERE class_Id = 27875;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27875, 'mudballguruk3', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27875, 001 /* NAME_STRING */, 'Muck Ball');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27875, 001 /* SETUP_DID */, 33558785)
-     , (27875, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27875, 008 /* ICON_DID */, 100676576)
-     , (27875, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27875', 'mudballguruk3', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27875, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (27875, 005 /* ENCUMB_VAL_INT */, 23)
-     , (27875, 008 /* MASS_INT */, 15)
-     , (27875, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (27875, 011 /* MAX_STACK_SIZE_INT */, 40)
-     , (27875, 012 /* STACK_SIZE_INT */, 1)
-     , (27875, 013 /* STACK_UNIT_ENCUMB_INT */, 23)
-     , (27875, 014 /* STACK_UNIT_MASS_INT */, 15)
-     , (27875, 015 /* STACK_UNIT_VALUE_INT */, 4)
-     , (27875, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27875, 019 /* VALUE_INT */, 4)
-     , (27875, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (27875, 044 /* DAMAGE_INT */, 102)
-     , (27875, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (27875, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (27875, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (27875, 049 /* WEAPON_TIME_INT */, 20)
-     , (27875, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (27875, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27875, 021 /* WEAPON_LENGTH_FLOAT */, 0.54)
-     , (27875, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (27875, 027 /* ROTATION_SPEED_FLOAT */, 1)
-     , (27875, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (27875, 039 /* DEFAULT_SCALE_FLOAT */, 0.3)
-     , (27875, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (27875, 078 /* FRICTION_FLOAT */, 1)
-     , (27875, 079 /* ELASTICITY_FLOAT */, 0)
-     , (27875, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.75)
-     , (27875, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.2)
-     , (27875, 151 /* IGNORE_SHIELD_FLOAT */, 0.9);
+VALUES (27875,   1,        256) /* ItemType - MissileWeapon */
+     , (27875,   5,         23) /* EncumbranceVal */
+     , (27875,   8,         15) /* Mass */
+     , (27875,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (27875,  11,         40) /* MaxStackSize */
+     , (27875,  12,          1) /* StackSize */
+     , (27875,  13,         23) /* StackUnitEncumbrance */
+     , (27875,  14,         15) /* StackUnitMass */
+     , (27875,  15,          4) /* StackUnitValue */
+     , (27875,  16,          1) /* ItemUseable - No */
+     , (27875,  19,          4) /* Value */
+     , (27875,  37,       9999) /* ResistItemAppraisal */
+     , (27875,  44,        102) /* Damage */
+     , (27875,  45,         32) /* DamageType - Acid */
+     , (27875,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (27875,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (27875,  49,         20) /* WeaponTime */
+     , (27875,  51,          2) /* CombatUse - Missle */
+     , (27875,  93,     132116) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27875, 017 /* INELASTIC_BOOL */, True);
+VALUES (27875,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27875,  21,    0.54) /* WeaponLength */
+     , (27875,  22,     0.5) /* DamageVariance */
+     , (27875,  27,       1) /* RotationSpeed */
+     , (27875,  29,       1) /* WeaponDefense */
+     , (27875,  39,     0.3) /* DefaultScale */
+     , (27875,  62,       1) /* WeaponOffense */
+     , (27875,  78,       1) /* Friction */
+     , (27875,  79,       0) /* Elasticity */
+     , (27875, 136,    2.75) /* CriticalMultiplier */
+     , (27875, 147,     0.2) /* CriticalFrequency */
+     , (27875, 151,     0.9) /* IgnoreShield */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27875,   1, 'Muck Ball') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27875,   1,   33558785) /* Setup */
+     , (27875,   3,  536870932) /* SoundTable */
+     , (27875,   8,  100676576) /* Icon */
+     , (27875,  22,  872415275) /* PhysicsEffectTable */;

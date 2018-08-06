@@ -1,50 +1,46 @@
-/* Weenie - Lightning Club (3767) */
-DELETE FROM weenie WHERE class_Id = 3767;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3767, 'clubelectric', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3767, 001 /* NAME_STRING */, 'Lightning Club');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3767, 001 /* SETUP_DID */, 33555715)
-     , (3767, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3767, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3767, 007 /* CLOTHINGBASE_DID */, 268435761)
-     , (3767, 008 /* ICON_DID */, 100667587)
-     , (3767, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3767, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3767, 046 /* TSYS_MUTATION_FILTER_DID */, 939524099);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3767', 'clubelectric', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3767, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3767, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (3767, 005 /* ENCUMB_VAL_INT */, 350)
-     , (3767, 008 /* MASS_INT */, 140)
-     , (3767, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3767, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3767, 018 /* UI_EFFECTS_INT */, 64 /* UI_EFFECT_LIGHTNING */)
-     , (3767, 019 /* VALUE_INT */, 250)
-     , (3767, 044 /* DAMAGE_INT */, 9)
-     , (3767, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (3767, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3767, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (3767, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (3767, 049 /* WEAPON_TIME_INT */, 40)
-     , (3767, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3767, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3767, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3767, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3767, 169 /* TSYS_MUTATION_DATA_INT */, 101189388);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3767, 021 /* WEAPON_LENGTH_FLOAT */, 0.68)
-     , (3767, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3767, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3767, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (3767, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3767,   1,          1) /* ItemType - MeleeWeapon */
+     , (3767,   3,          4) /* PaletteTemplate - Brown */
+     , (3767,   5,        350) /* EncumbranceVal */
+     , (3767,   8,        140) /* Mass */
+     , (3767,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3767,  16,          1) /* ItemUseable - No */
+     , (3767,  18,         64) /* UiEffects - Lightning */
+     , (3767,  19,        250) /* Value */
+     , (3767,  44,          9) /* Damage */
+     , (3767,  45,         64) /* DamageType - Electric */
+     , (3767,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3767,  47,          4) /* AttackType - Slash */
+     , (3767,  48,          5) /* WeaponSkill - Mace */
+     , (3767,  49,         40) /* WeaponTime */
+     , (3767,  51,          1) /* CombatUse - Melee */
+     , (3767,  93,       1044) /* PhysicsState */
+     , (3767, 150,        103) /* HookPlacement - Hook */
+     , (3767, 151,          2) /* HookType - Wall */
+     , (3767, 169,  101189388) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3767, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3767,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3767,  21,    0.68) /* WeaponLength */
+     , (3767,  22,     0.5) /* DamageVariance */
+     , (3767,  29,       1) /* WeaponDefense */
+     , (3767,  39,    1.25) /* DefaultScale */
+     , (3767,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3767,   1, 'Lightning Club') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3767,   1,   33555715) /* Setup */
+     , (3767,   3,  536870932) /* SoundTable */
+     , (3767,   6,   67111919) /* PaletteBase */
+     , (3767,   7,  268435761) /* ClothingBase */
+     , (3767,   8,  100667587) /* Icon */
+     , (3767,  22,  872415275) /* PhysicsEffectTable */
+     , (3767,  36,  234881053) /* MutateFilter */
+     , (3767,  46,  939524099) /* TsysMutationFilter */;

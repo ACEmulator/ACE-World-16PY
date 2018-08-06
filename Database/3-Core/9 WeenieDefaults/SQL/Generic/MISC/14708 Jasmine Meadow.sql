@@ -1,28 +1,24 @@
-/* Weenie - Jasmine Meadow (14708) */
-DELETE FROM weenie WHERE class_Id = 14708;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14708, 'jasminemeadowsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14708, 001 /* NAME_STRING */, 'Jasmine Meadow')
-     , (14708, 016 /* LONG_DESC_STRING */, 'Welcome to Jasmine Meadow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14708, 001 /* SETUP_DID */, 33557463)
-     , (14708, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14708', 'jasminemeadowsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14708, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14708, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14708, 008 /* MASS_INT */, 1800)
-     , (14708, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14708, 019 /* VALUE_INT */, 125)
-     , (14708, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14708,   1,        128) /* ItemType - Misc */
+     , (14708,   5,       9000) /* EncumbranceVal */
+     , (14708,   8,       1800) /* Mass */
+     , (14708,  16,          1) /* ItemUseable - No */
+     , (14708,  19,        125) /* Value */
+     , (14708,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14708, 001 /* STUCK_BOOL */, True)
-     , (14708, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14708, 013 /* ETHEREAL_BOOL */, False)
-     , (14708, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14708,   1, True ) /* Stuck */
+     , (14708,  12, True ) /* ReportCollisions */
+     , (14708,  13, False) /* Ethereal */
+     , (14708,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14708,   1, 'Jasmine Meadow') /* Name */
+     , (14708,  16, 'Welcome to Jasmine Meadow') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14708,   1,   33557463) /* Setup */
+     , (14708,   8,  100668115) /* Icon */;

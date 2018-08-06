@@ -1,37 +1,33 @@
-/* Weenie - Eyebright (770) */
-DELETE FROM weenie WHERE class_Id = 770;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (770, 'eyebright', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (770, 001 /* NAME_STRING */, 'Eyebright')
-     , (770, 020 /* PLURAL_NAME_STRING */, 'Sacks of Eyebright');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (770, 001 /* SETUP_DID */, 33554817)
-     , (770, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (770, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (770, 007 /* CLOTHINGBASE_DID */, 268435720)
-     , (770, 008 /* ICON_DID */, 100668421)
-     , (770, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (770, 029 /* SPELL_COMPONENT_DID */, 19);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('770', 'eyebright', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (770, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (770, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (770, 005 /* ENCUMB_VAL_INT */, 4)
-     , (770, 008 /* MASS_INT */, 100)
-     , (770, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (770, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (770, 012 /* STACK_SIZE_INT */, 1)
-     , (770, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
-     , (770, 014 /* STACK_UNIT_MASS_INT */, 100)
-     , (770, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (770, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (770, 019 /* VALUE_INT */, 10)
-     , (770, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (770,   1,       4096) /* ItemType - SpellComponents */
+     , (770,   3,          2) /* PaletteTemplate - Blue */
+     , (770,   5,          4) /* EncumbranceVal */
+     , (770,   8,        100) /* Mass */
+     , (770,   9,          0) /* ValidLocations - None */
+     , (770,  11,        100) /* MaxStackSize */
+     , (770,  12,          1) /* StackSize */
+     , (770,  13,          4) /* StackUnitEncumbrance */
+     , (770,  14,        100) /* StackUnitMass */
+     , (770,  15,         10) /* StackUnitValue */
+     , (770,  16,          1) /* ItemUseable - No */
+     , (770,  19,         10) /* Value */
+     , (770,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (770, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
+VALUES (770,  39,     0.4) /* DefaultScale */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (770,   1, 'Eyebright') /* Name */
+     , (770,  20, 'Sacks of Eyebright') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (770,   1,   33554817) /* Setup */
+     , (770,   3,  536870932) /* SoundTable */
+     , (770,   6,   67111919) /* PaletteBase */
+     , (770,   7,  268435720) /* ClothingBase */
+     , (770,   8,  100668421) /* Icon */
+     , (770,  22,  872415275) /* PhysicsEffectTable */
+     , (770,  29,         19) /* SpellComponent */;

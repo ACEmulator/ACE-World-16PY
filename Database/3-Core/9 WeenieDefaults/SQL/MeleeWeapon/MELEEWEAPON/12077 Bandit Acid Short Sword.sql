@@ -1,48 +1,44 @@
-/* Weenie - Bandit Acid Short Sword (12077) */
-DELETE FROM weenie WHERE class_Id = 12077;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12077, 'swordshortacidbandit', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12077, 001 /* NAME_STRING */, 'Bandit Acid Short Sword');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12077, 001 /* SETUP_DID */, 33555793)
-     , (12077, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12077, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12077, 007 /* CLOTHINGBASE_DID */, 268435772)
-     , (12077, 008 /* ICON_DID */, 100667614)
-     , (12077, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12077, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12077', 'swordshortacidbandit', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12077, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (12077, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (12077, 005 /* ENCUMB_VAL_INT */, 350)
-     , (12077, 008 /* MASS_INT */, 140)
-     , (12077, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (12077, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12077, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (12077, 019 /* VALUE_INT */, 400)
-     , (12077, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (12077, 044 /* DAMAGE_INT */, 7)
-     , (12077, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (12077, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (12077, 047 /* ATTACK_TYPE_INT */, 486 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, TripleSlash_AttackType, DoubleThrust_AttackType, TripleThrust_AttackType */)
-     , (12077, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (12077, 049 /* WEAPON_TIME_INT */, 30)
-     , (12077, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (12077, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12077, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12077, 021 /* WEAPON_LENGTH_FLOAT */, 0.68)
-     , (12077, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (12077, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (12077, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (12077, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (12077,   1,          1) /* ItemType - MeleeWeapon */
+     , (12077,   3,         20) /* PaletteTemplate - Silver */
+     , (12077,   5,        350) /* EncumbranceVal */
+     , (12077,   8,        140) /* Mass */
+     , (12077,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12077,  16,          1) /* ItemUseable - No */
+     , (12077,  18,        256) /* UiEffects - Acid */
+     , (12077,  19,        400) /* Value */
+     , (12077,  33,         -2) /* Bonded - Destroy */
+     , (12077,  44,          7) /* Damage */
+     , (12077,  45,         32) /* DamageType - Acid */
+     , (12077,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (12077,  47,        486) /* AttackType */
+     , (12077,  48,         11) /* WeaponSkill - Sword */
+     , (12077,  49,         30) /* WeaponTime */
+     , (12077,  51,          1) /* CombatUse - Melee */
+     , (12077,  93,       1044) /* PhysicsState */
+     , (12077, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12077, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (12077,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12077,  21,    0.68) /* WeaponLength */
+     , (12077,  22,     0.5) /* DamageVariance */
+     , (12077,  29,       1) /* WeaponDefense */
+     , (12077,  39,     1.1) /* DefaultScale */
+     , (12077,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12077,   1, 'Bandit Acid Short Sword') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12077,   1,   33555793) /* Setup */
+     , (12077,   3,  536870932) /* SoundTable */
+     , (12077,   6,   67111919) /* PaletteBase */
+     , (12077,   7,  268435772) /* ClothingBase */
+     , (12077,   8,  100667614) /* Icon */
+     , (12077,  22,  872415275) /* PhysicsEffectTable */
+     , (12077,  36,  234881044) /* MutateFilter */;

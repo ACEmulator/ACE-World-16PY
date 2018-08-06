@@ -1,30 +1,26 @@
-/* Weenie - Menhir Stone (12108) */
-DELETE FROM weenie WHERE class_Id = 12108;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12108, 'menhir2-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12108, 001 /* NAME_STRING */, 'Menhir Stone');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12108, 001 /* SETUP_DID */, 33555317)
-     , (12108, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12108, 008 /* ICON_DID */, 100670227)
-     , (12108, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12108', 'menhir2-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12108, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (12108, 005 /* ENCUMB_VAL_INT */, 400)
-     , (12108, 008 /* MASS_INT */, 200)
-     , (12108, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (12108, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12108, 019 /* VALUE_INT */, 0)
-     , (12108, 066 /* CHECKPOINT_STATUS_INT */, 0)
-     , (12108, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (12108,   1,        128) /* ItemType - Misc */
+     , (12108,   5,        400) /* EncumbranceVal */
+     , (12108,   8,        200) /* Mass */
+     , (12108,   9,          0) /* ValidLocations - None */
+     , (12108,  16,          1) /* ItemUseable - No */
+     , (12108,  19,          0) /* Value */
+     , (12108,  66,          0) /* CheckpointStatus */
+     , (12108,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12108, 001 /* STUCK_BOOL */, True)
-     , (12108, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (12108, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (12108,   1, True ) /* Stuck */
+     , (12108,  14, True ) /* GravityStatus */
+     , (12108,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12108,   1, 'Menhir Stone') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12108,   1,   33555317) /* Setup */
+     , (12108,   3,  536870932) /* SoundTable */
+     , (12108,   8,  100670227) /* Icon */
+     , (12108,  22,  872415275) /* PhysicsEffectTable */;

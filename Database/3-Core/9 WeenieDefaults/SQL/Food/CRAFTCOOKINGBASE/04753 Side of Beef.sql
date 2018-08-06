@@ -1,33 +1,29 @@
-/* Weenie - Side of Beef (4753) */
-DELETE FROM weenie WHERE class_Id = 4753;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4753, 'beefside', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4753, 001 /* NAME_STRING */, 'Side of Beef')
-     , (4753, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (4753, 020 /* PLURAL_NAME_STRING */, 'Sides of Beef');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4753, 001 /* SETUP_DID */, 33556233)
-     , (4753, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4753, 008 /* ICON_DID */, 100670310)
-     , (4753, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4753', 'beefside', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4753, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (4753, 005 /* ENCUMB_VAL_INT */, 460)
-     , (4753, 008 /* MASS_INT */, 230)
-     , (4753, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4753, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (4753, 012 /* STACK_SIZE_INT */, 1)
-     , (4753, 013 /* STACK_UNIT_ENCUMB_INT */, 460)
-     , (4753, 014 /* STACK_UNIT_MASS_INT */, 230)
-     , (4753, 015 /* STACK_UNIT_VALUE_INT */, 15)
-     , (4753, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (4753, 019 /* VALUE_INT */, 15)
-     , (4753, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (4753, 090 /* BOOST_VALUE_INT */, 1)
-     , (4753, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4753,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (4753,   5,        460) /* EncumbranceVal */
+     , (4753,   8,        230) /* Mass */
+     , (4753,   9,          0) /* ValidLocations - None */
+     , (4753,  11,        100) /* MaxStackSize */
+     , (4753,  12,          1) /* StackSize */
+     , (4753,  13,        460) /* StackUnitEncumbrance */
+     , (4753,  14,        230) /* StackUnitMass */
+     , (4753,  15,         15) /* StackUnitValue */
+     , (4753,  16,          8) /* ItemUseable - Contained */
+     , (4753,  19,         15) /* Value */
+     , (4753,  89,          4) /* BoosterEnum - Stamina */
+     , (4753,  90,          1) /* BoostValue */
+     , (4753,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4753,   1, 'Side of Beef') /* Name */
+     , (4753,  14, 'Use this item to eat it.') /* Use */
+     , (4753,  20, 'Sides of Beef') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4753,   1,   33556233) /* Setup */
+     , (4753,   3,  536870932) /* SoundTable */
+     , (4753,   8,  100670310) /* Icon */
+     , (4753,  22,  872415275) /* PhysicsEffectTable */;

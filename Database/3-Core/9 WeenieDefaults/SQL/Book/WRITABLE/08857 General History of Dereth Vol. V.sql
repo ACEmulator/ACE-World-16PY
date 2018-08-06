@@ -1,35 +1,32 @@
-/* Weenie - General History of Dereth Vol. V (8857) */
-DELETE FROM weenie WHERE class_Id = 8857;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8857, 'histapr00', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8857, 001 /* NAME_STRING */, 'General History of Dereth Vol. V');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8857, 001 /* SETUP_DID */, 33554771)
-     , (8857, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8857, 008 /* ICON_DID */, 100668117)
-     , (8857, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8857', 'histapr00', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8857, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8857, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8857, 008 /* MASS_INT */, 10)
-     , (8857, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8857, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8857, 019 /* VALUE_INT */, 0)
-     , (8857, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8857, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8857,   1,       8192) /* ItemType - Writable */
+     , (8857,   5,         10) /* EncumbranceVal */
+     , (8857,   8,         10) /* Mass */
+     , (8857,   9,          0) /* ValidLocations - None */
+     , (8857,  16,          8) /* ItemUseable - Contained */
+     , (8857,  19,          0) /* Value */
+     , (8857,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8857, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8857,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8857,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8857,   1, 'General History of Dereth Vol. V') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8857,   1,   33554771) /* Setup */
+     , (8857,   3,  536870932) /* SoundTable */
+     , (8857,   8,  100668117) /* Icon */
+     , (8857,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8857, 16, 1000) /* Book Data */;
+VALUES (8857, 16, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8857, 0, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, '
@@ -98,4 +95,3 @@ It was quickly swarmed by the vengeful Isparians, and fell. Tayway of Thistledow
      , (8857, 15, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, '
 Many questions were left unanswered. Where was the third general, Isin Dule, and why had he not participated in the assault? What was the purpose of the invasion, and why, if the Shadows have limitless armies, did so few participate? What was the Nexus Crystal, why were the Shadows protecting it, and why did they melt away upon its destruction? Most importantly, what was yet to come? The generals were pushed back, but not defeated, and Bael''Zharon''s power still waxed.
 ');
-

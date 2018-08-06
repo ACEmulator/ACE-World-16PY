@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Impenetrability VI (2846) */
-DELETE FROM weenie WHERE class_Id = 2846;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2846, 'scrollimpenetrability6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2846, 001 /* NAME_STRING */, 'Scroll of Impenetrability VI')
-     , (2846, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (2846, 016 /* LONG_DESC_STRING */, 'When learned, this spell improves a shield or piece of armor''s armor value by 200 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2846, 001 /* SETUP_DID */, 33554826)
-     , (2846, 008 /* ICON_DID */, 100676661)
-     , (2846, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2846, 028 /* SPELL_DID */, 1486 /* Impenetrability6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2846', 'scrollimpenetrability6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2846, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2846, 005 /* ENCUMB_VAL_INT */, 30)
-     , (2846, 008 /* MASS_INT */, 90)
-     , (2846, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2846, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2846, 019 /* VALUE_INT */, 1000)
-     , (2846, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2846, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (2846,   1,       8192) /* ItemType - Writable */
+     , (2846,   5,         30) /* EncumbranceVal */
+     , (2846,   8,         90) /* Mass */
+     , (2846,   9,          0) /* ValidLocations - None */
+     , (2846,  16,          8) /* ItemUseable - Contained */
+     , (2846,  19,       1000) /* Value */
+     , (2846,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2846, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2846, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2846,  22, True ) /* Inscribable */
+     , (2846,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2846,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2846,   1, 'Scroll of Impenetrability VI') /* Name */
+     , (2846,  15, 'A magic scroll.') /* ShortDesc */
+     , (2846,  16, 'When learned, this spell improves a shield or piece of armor''s armor value by 200 points.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2846,   1,   33554826) /* Setup */
+     , (2846,   8,  100676661) /* Icon */
+     , (2846,  22,  872415275) /* PhysicsEffectTable */
+     , (2846,  28,       1486) /* Spell - Impenetrability VI */;

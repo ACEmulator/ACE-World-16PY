@@ -1,35 +1,32 @@
-/* Weenie - The Journals of Change (8074) */
-DELETE FROM weenie WHERE class_Id = 8074;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8074, 'alucontestbook2', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8074, 001 /* NAME_STRING */, 'The Journals of Change');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8074, 001 /* SETUP_DID */, 33554771)
-     , (8074, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8074, 008 /* ICON_DID */, 100670970)
-     , (8074, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8074', 'alucontestbook2', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8074, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8074, 005 /* ENCUMB_VAL_INT */, 160)
-     , (8074, 008 /* MASS_INT */, 200)
-     , (8074, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8074, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8074, 019 /* VALUE_INT */, 90)
-     , (8074, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8074, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8074,   1,       8192) /* ItemType - Writable */
+     , (8074,   5,        160) /* EncumbranceVal */
+     , (8074,   8,        200) /* Mass */
+     , (8074,   9,          0) /* ValidLocations - None */
+     , (8074,  16,          8) /* ItemUseable - Contained */
+     , (8074,  19,         90) /* Value */
+     , (8074,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8074, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8074,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8074,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8074,   1, 'The Journals of Change') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8074,   1,   33554771) /* Setup */
+     , (8074,   3,  536870932) /* SoundTable */
+     , (8074,   8,  100670970) /* Icon */
+     , (8074,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8074, 44, 1000) /* Book Data */;
+VALUES (8074, 44, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8074, 0, 4294967295, 'Aragorn of Thistledown', 'prewritten', False, '12th of Verdantine, Western banks of the Canfeld River
@@ -193,4 +190,3 @@ The portals from Ispar to Dereth allowed only war and warriors through, and left
 
 These are my last words.
 ');
-

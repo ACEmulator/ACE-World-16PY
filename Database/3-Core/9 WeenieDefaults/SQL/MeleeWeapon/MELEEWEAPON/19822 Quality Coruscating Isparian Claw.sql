@@ -1,66 +1,62 @@
-/* Weenie - Quality Coruscating Isparian Claw (19822) */
-DELETE FROM weenie WHERE class_Id = 19822;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19822, 'clawispariansparkingminor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19822, 001 /* NAME_STRING */, 'Quality Coruscating Isparian Claw');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19822, 001 /* SETUP_DID */, 33556320)
-     , (19822, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19822, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19822, 007 /* CLOTHINGBASE_DID */, 268436380)
-     , (19822, 008 /* ICON_DID */, 100672907)
-     , (19822, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (19822, 037 /* ITEM_SKILL_LIMIT_DID */, 13);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19822', 'clawispariansparkingminor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19822, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (19822, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (19822, 005 /* ENCUMB_VAL_INT */, 125)
-     , (19822, 008 /* MASS_INT */, 150)
-     , (19822, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (19822, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19822, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (19822, 019 /* VALUE_INT */, 2000)
-     , (19822, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19822, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (19822, 044 /* DAMAGE_INT */, 8)
-     , (19822, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (19822, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1 /* Unarmed_CombatStyle */)
-     , (19822, 047 /* ATTACK_TYPE_INT */, 1 /* Punch_AttackType */)
-     , (19822, 048 /* WEAPON_SKILL_INT */, 13 /* UNARMED_COMBAT_SKILL */)
-     , (19822, 049 /* WEAPON_TIME_INT */, 12)
-     , (19822, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (19822, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19822, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (19822, 107 /* ITEM_CUR_MANA_INT */, 300)
-     , (19822, 108 /* ITEM_MAX_MANA_INT */, 300)
-     , (19822, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 225)
-     , (19822, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (19822, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (19822, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (19822, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (19822, 160 /* WIELD_DIFFICULTY_INT */, 20);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19822, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (19822, 021 /* WEAPON_LENGTH_FLOAT */, 0.55)
-     , (19822, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (19822, 029 /* WEAPON_DEFENSE_FLOAT */, 1.04)
-     , (19822, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (19822, 062 /* WEAPON_OFFENSE_FLOAT */, 1.04);
+VALUES (19822,   1,          1) /* ItemType - MeleeWeapon */
+     , (19822,   3,         13) /* PaletteTemplate - Purple */
+     , (19822,   5,        125) /* EncumbranceVal */
+     , (19822,   8,        150) /* Mass */
+     , (19822,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (19822,  16,          1) /* ItemUseable - No */
+     , (19822,  18,          1) /* UiEffects - Magical */
+     , (19822,  19,       2000) /* Value */
+     , (19822,  33,          1) /* Bonded - Bonded */
+     , (19822,  36,       9999) /* ResistMagic */
+     , (19822,  44,          8) /* Damage */
+     , (19822,  45,         64) /* DamageType - Electric */
+     , (19822,  46,          1) /* DefaultCombatStyle - Unarmed */
+     , (19822,  47,          1) /* AttackType - Punch */
+     , (19822,  48,         13) /* WeaponSkill - UnarmedCombat */
+     , (19822,  49,         12) /* WeaponTime */
+     , (19822,  51,          1) /* CombatUse - Melee */
+     , (19822,  93,       1044) /* PhysicsState */
+     , (19822, 106,        100) /* ItemSpellcraft */
+     , (19822, 107,        300) /* ItemCurMana */
+     , (19822, 108,        300) /* ItemMaxMana */
+     , (19822, 115,        225) /* ItemSkillLevelLimit */
+     , (19822, 150,        103) /* HookPlacement - Hook */
+     , (19822, 151,          2) /* HookType - Wall */
+     , (19822, 158,          7) /* WieldRequirements - Level */
+     , (19822, 159,          1) /* WieldSkilltype - Axe */
+     , (19822, 160,         20) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19822, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19822, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19822, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19822,  22, True ) /* Inscribable */
+     , (19822,  23, True ) /* DestroyOnSell */
+     , (19822,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19822,   5,  -0.025) /* ManaRate */
+     , (19822,  21,    0.55) /* WeaponLength */
+     , (19822,  22,    0.75) /* DamageVariance */
+     , (19822,  29,    1.04) /* WeaponDefense */
+     , (19822,  39,       1) /* DefaultScale */
+     , (19822,  62,    1.04) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19822,   1, 'Quality Coruscating Isparian Claw') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19822,   1,   33556320) /* Setup */
+     , (19822,   3,  536870932) /* SoundTable */
+     , (19822,   6,   67111919) /* PaletteBase */
+     , (19822,   7,  268436380) /* ClothingBase */
+     , (19822,   8,  100672907) /* Icon */
+     , (19822,  22,  872415275) /* PhysicsEffectTable */
+     , (19822,  37,         13) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19822, 1589, 2) /* HeartSeeker3_SpellID */
-     , (19822, 1613, 2) /* BloodDrinker3_SpellID */
-     , (19822, 1069, 2) /* LightningProtectionSelf4_SpellID */
-     , (19822, 1399, 2) /* QuicknessSelf3_SpellID */;
-
+VALUES (19822,  1069,      2)  /* Lightning Protection Self IV */
+     , (19822,  1399,      2)  /* Quickness Self III */
+     , (19822,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (19822,  1613,      2)  /* Aura of Blood Drinker Self III */;

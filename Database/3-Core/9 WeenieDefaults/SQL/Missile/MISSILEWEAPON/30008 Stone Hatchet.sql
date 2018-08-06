@@ -1,48 +1,44 @@
-/* Weenie - Stone Hatchet (30008) */
-DELETE FROM weenie WHERE class_Id = 30008;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30008, 'shardruschkhigh', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30008, 001 /* NAME_STRING */, 'Stone Hatchet');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30008, 001 /* SETUP_DID */, 33558588)
-     , (30008, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30008, 008 /* ICON_DID */, 100675762)
-     , (30008, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30008', 'shardruschkhigh', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30008, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (30008, 005 /* ENCUMB_VAL_INT */, 23)
-     , (30008, 008 /* MASS_INT */, 15)
-     , (30008, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (30008, 011 /* MAX_STACK_SIZE_INT */, 40)
-     , (30008, 012 /* STACK_SIZE_INT */, 1)
-     , (30008, 013 /* STACK_UNIT_ENCUMB_INT */, 23)
-     , (30008, 014 /* STACK_UNIT_MASS_INT */, 15)
-     , (30008, 015 /* STACK_UNIT_VALUE_INT */, 4)
-     , (30008, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30008, 019 /* VALUE_INT */, 4)
-     , (30008, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (30008, 044 /* DAMAGE_INT */, 36)
-     , (30008, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (30008, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (30008, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (30008, 049 /* WEAPON_TIME_INT */, 20)
-     , (30008, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (30008, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30008, 021 /* WEAPON_LENGTH_FLOAT */, 0.54)
-     , (30008, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.45)
-     , (30008, 027 /* ROTATION_SPEED_FLOAT */, 2)
-     , (30008, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (30008, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (30008, 078 /* FRICTION_FLOAT */, 1)
-     , (30008, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (30008,   1,        256) /* ItemType - MissileWeapon */
+     , (30008,   5,         23) /* EncumbranceVal */
+     , (30008,   8,         15) /* Mass */
+     , (30008,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (30008,  11,         40) /* MaxStackSize */
+     , (30008,  12,          1) /* StackSize */
+     , (30008,  13,         23) /* StackUnitEncumbrance */
+     , (30008,  14,         15) /* StackUnitMass */
+     , (30008,  15,          4) /* StackUnitValue */
+     , (30008,  16,          1) /* ItemUseable - No */
+     , (30008,  19,          4) /* Value */
+     , (30008,  37,       9999) /* ResistItemAppraisal */
+     , (30008,  44,         36) /* Damage */
+     , (30008,  45,          4) /* DamageType - Bludgeon */
+     , (30008,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (30008,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (30008,  49,         20) /* WeaponTime */
+     , (30008,  51,          2) /* CombatUse - Missle */
+     , (30008,  93,     132116) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30008, 017 /* INELASTIC_BOOL */, True);
+VALUES (30008,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30008,  21,    0.54) /* WeaponLength */
+     , (30008,  22,    0.45) /* DamageVariance */
+     , (30008,  27,       2) /* RotationSpeed */
+     , (30008,  29,       1) /* WeaponDefense */
+     , (30008,  62,       1) /* WeaponOffense */
+     , (30008,  78,       1) /* Friction */
+     , (30008,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30008,   1, 'Stone Hatchet') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30008,   1,   33558588) /* Setup */
+     , (30008,   3,  536870932) /* SoundTable */
+     , (30008,   8,  100675762) /* Icon */
+     , (30008,  22,  872415275) /* PhysicsEffectTable */;

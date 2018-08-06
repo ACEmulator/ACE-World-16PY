@@ -1,67 +1,63 @@
-/* Weenie - Exarch Plate Girth (9035) */
-DELETE FROM weenie WHERE class_Id = 9035;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9035, 'girthexarchseablue', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9035, 001 /* NAME_STRING */, 'Exarch Plate Girth')
-     , (9035, 016 /* LONG_DESC_STRING */, 'A heavily enchanted crystalline girth, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9035, 001 /* SETUP_DID */, 33554647)
-     , (9035, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9035, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (9035, 007 /* CLOTHINGBASE_DID */, 268436117)
-     , (9035, 008 /* ICON_DID */, 100670411)
-     , (9035, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9035, 041 /* ITEM_SPECIALIZED_ONLY_DID */, 34);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9035', 'girthexarchseablue', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9035, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (9035, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (9035, 004 /* CLOTHING_PRIORITY_INT */, 2048 /* OuterwearAbdomen */)
-     , (9035, 005 /* ENCUMB_VAL_INT */, 50)
-     , (9035, 008 /* MASS_INT */, 325)
-     , (9035, 009 /* LOCATIONS_INT */, 1024 /* ABDOMEN_ARMOR_LOC */)
-     , (9035, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9035, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (9035, 019 /* VALUE_INT */, 2400)
-     , (9035, 027 /* ARMOR_TYPE_INT */, 32)
-     , (9035, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (9035, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9035, 106 /* ITEM_SPELLCRAFT_INT */, 270)
-     , (9035, 107 /* ITEM_CUR_MANA_INT */, 0)
-     , (9035, 108 /* ITEM_MAX_MANA_INT */, 2000)
-     , (9035, 109 /* ITEM_DIFFICULTY_INT */, 50);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9035, 005 /* MANA_RATE_FLOAT */, -0.125)
-     , (9035, 012 /* SHADE_FLOAT */, 0.5)
-     , (9035, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0)
-     , (9035, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0)
-     , (9035, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0)
-     , (9035, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0)
-     , (9035, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0)
-     , (9035, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0)
-     , (9035, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
-     , (9035, 110 /* BULK_MOD_FLOAT */, 1)
-     , (9035, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (9035,   1,          2) /* ItemType - Armor */
+     , (9035,   3,          2) /* PaletteTemplate - Blue */
+     , (9035,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
+     , (9035,   5,         50) /* EncumbranceVal */
+     , (9035,   8,        325) /* Mass */
+     , (9035,   9,       1024) /* ValidLocations - AbdomenArmor */
+     , (9035,  16,          1) /* ItemUseable - No */
+     , (9035,  18,          1) /* UiEffects - Magical */
+     , (9035,  19,       2400) /* Value */
+     , (9035,  27,         32) /* ArmorType */
+     , (9035,  28,          0) /* ArmorLevel */
+     , (9035,  93,       1044) /* PhysicsState */
+     , (9035, 106,        270) /* ItemSpellcraft */
+     , (9035, 107,          0) /* ItemCurMana */
+     , (9035, 108,       2000) /* ItemMaxMana */
+     , (9035, 109,         50) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9035, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9035, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9035,  22, True ) /* Inscribable */
+     , (9035,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9035,   5,  -0.125) /* ManaRate */
+     , (9035,  12,     0.5) /* Shade */
+     , (9035,  13,       0) /* ArmorModVsSlash */
+     , (9035,  14,       0) /* ArmorModVsPierce */
+     , (9035,  15,       0) /* ArmorModVsBludgeon */
+     , (9035,  16,       0) /* ArmorModVsCold */
+     , (9035,  17,       0) /* ArmorModVsFire */
+     , (9035,  18,       0) /* ArmorModVsAcid */
+     , (9035,  19,       0) /* ArmorModVsElectric */
+     , (9035, 110,       1) /* BulkMod */
+     , (9035, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9035,   1, 'Exarch Plate Girth') /* Name */
+     , (9035,  16, 'A heavily enchanted crystalline girth, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9035,   1,   33554647) /* Setup */
+     , (9035,   3,  536870932) /* SoundTable */
+     , (9035,   6,   67108990) /* PaletteBase */
+     , (9035,   7,  268436117) /* ClothingBase */
+     , (9035,   8,  100670411) /* Icon */
+     , (9035,  22,  872415275) /* PhysicsEffectTable */
+     , (9035,  41,         34) /* ItemSpecializedOnly */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9035, 2380, 2) /* InstrumentalityGrip_SpellID */
-     , (9035, 211, 2) /* ManaRenewalOther6_SpellID */
-     , (9035, 2353, 2) /* StimulationDurance_SpellID */
-     , (9035, 273, 2) /* MagicResistanceOther6_SpellID */
-     , (9035, 2349, 2) /* HieroWard_SpellID */
-     , (9035, 2350, 2) /* DecayDurance_SpellID */
-     , (9035, 2351, 2) /* ConsumptionDurance_SpellID */
-     , (9035, 2352, 2) /* StasisDurance_SpellID */
-     , (9035, 2354, 2) /* PiercingDuranceLess_SpellID */
-     , (9035, 2355, 2) /* SlashingDuranceLess_SpellID */
-     , (9035, 2356, 2) /* BludgeoningDuranceLess_SpellID */;
-
+VALUES (9035,   211,      2)  /* Mana Renewal Other VI */
+     , (9035,   273,      2)  /* Magic Resistance Other VI */
+     , (9035,  2349,      2)  /* Hieromancer's Ward */
+     , (9035,  2350,      2)  /* Greater Decay Durance */
+     , (9035,  2351,      2)  /* Greater Consumption Durance */
+     , (9035,  2352,      2)  /* Greater Stasis Durance */
+     , (9035,  2353,      2)  /* Greater Stimulation Durance */
+     , (9035,  2354,      2)  /* Lesser Piercing Durance */
+     , (9035,  2355,      2)  /* Lesser Slashing Durance */
+     , (9035,  2356,      2)  /* Lesser Bludgeoning Durance */
+     , (9035,  2380,      2)  /* Grip of Instrumentality */;

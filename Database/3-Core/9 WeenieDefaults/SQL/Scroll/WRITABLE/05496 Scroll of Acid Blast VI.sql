@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Acid Blast VI (5496) */
-DELETE FROM weenie WHERE class_Id = 5496;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5496, 'scrollacidblast6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5496, 001 /* NAME_STRING */, 'Scroll of Acid Blast VI')
-     , (5496, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (5496, 016 /* LONG_DESC_STRING */, 'Shoots three streams of acid outward from the caster. Each stream does 16-30 points of acid damage to the first thing it hits.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5496, 001 /* SETUP_DID */, 33554826)
-     , (5496, 008 /* ICON_DID */, 100677026)
-     , (5496, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (5496, 028 /* SPELL_DID */, 102 /* AcidBlast6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5496', 'scrollacidblast6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5496, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5496, 005 /* ENCUMB_VAL_INT */, 30)
-     , (5496, 008 /* MASS_INT */, 90)
-     , (5496, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5496, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5496, 019 /* VALUE_INT */, 1000)
-     , (5496, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5496, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (5496,   1,       8192) /* ItemType - Writable */
+     , (5496,   5,         30) /* EncumbranceVal */
+     , (5496,   8,         90) /* Mass */
+     , (5496,   9,          0) /* ValidLocations - None */
+     , (5496,  16,          8) /* ItemUseable - Contained */
+     , (5496,  19,       1000) /* Value */
+     , (5496,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5496, 022 /* INSCRIBABLE_BOOL */, True)
-     , (5496, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (5496,  22, True ) /* Inscribable */
+     , (5496,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5496,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5496,   1, 'Scroll of Acid Blast VI') /* Name */
+     , (5496,  15, 'A magic scroll.') /* ShortDesc */
+     , (5496,  16, 'Shoots three streams of acid outward from the caster. Each stream does 16-30 points of acid damage to the first thing it hits.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5496,   1,   33554826) /* Setup */
+     , (5496,   8,  100677026) /* Icon */
+     , (5496,  22,  872415275) /* PhysicsEffectTable */
+     , (5496,  28,        102) /* Spell - Acid Blast VI */;

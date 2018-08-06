@@ -1,61 +1,57 @@
-/* Weenie - Hammer of Frore (26009) */
-DELETE FROM weenie WHERE class_Id = 26009;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26009, 'axefrorenew', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26009, 001 /* NAME_STRING */, 'Hammer of Frore');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26009, 001 /* SETUP_DID */, 33558574)
-     , (26009, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26009, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (26009, 008 /* ICON_DID */, 100675713)
-     , (26009, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26009, 030 /* PHYSICS_SCRIPT_DID */, 87 /* PS_BreatheLightning */)
-     , (26009, 036 /* MUTATE_FILTER_DID */, 234881044)
-     , (26009, 037 /* ITEM_SKILL_LIMIT_DID */, 1);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26009', 'axefrorenew', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26009, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (26009, 005 /* ENCUMB_VAL_INT */, 800)
-     , (26009, 008 /* MASS_INT */, 450)
-     , (26009, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (26009, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (26009, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (26009, 019 /* VALUE_INT */, 4500)
-     , (26009, 044 /* DAMAGE_INT */, 40)
-     , (26009, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (26009, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (26009, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (26009, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (26009, 049 /* WEAPON_TIME_INT */, 65)
-     , (26009, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (26009, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (26009, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (26009, 107 /* ITEM_CUR_MANA_INT */, 1200)
-     , (26009, 108 /* ITEM_MAX_MANA_INT */, 1200)
-     , (26009, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 375)
-     , (26009, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26009, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (26009, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (26009, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (26009, 160 /* WIELD_DIFFICULTY_INT */, 55);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26009, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (26009, 021 /* WEAPON_LENGTH_FLOAT */, 0.7)
-     , (26009, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (26009, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
-     , (26009, 062 /* WEAPON_OFFENSE_FLOAT */, 1.12)
-     , (26009, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.4);
+VALUES (26009,   1,          1) /* ItemType - MeleeWeapon */
+     , (26009,   5,        800) /* EncumbranceVal */
+     , (26009,   8,        450) /* Mass */
+     , (26009,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (26009,  16,          1) /* ItemUseable - No */
+     , (26009,  18,        128) /* UiEffects - Frost */
+     , (26009,  19,       4500) /* Value */
+     , (26009,  44,         40) /* Damage */
+     , (26009,  45,          8) /* DamageType - Cold */
+     , (26009,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (26009,  47,          4) /* AttackType - Slash */
+     , (26009,  48,          1) /* WeaponSkill - Axe */
+     , (26009,  49,         65) /* WeaponTime */
+     , (26009,  51,          1) /* CombatUse - Melee */
+     , (26009,  93,       1044) /* PhysicsState */
+     , (26009, 106,        300) /* ItemSpellcraft */
+     , (26009, 107,       1200) /* ItemCurMana */
+     , (26009, 108,       1200) /* ItemMaxMana */
+     , (26009, 115,        375) /* ItemSkillLevelLimit */
+     , (26009, 150,        103) /* HookPlacement - Hook */
+     , (26009, 151,          2) /* HookType - Wall */
+     , (26009, 158,          7) /* WieldRequirements - Level */
+     , (26009, 159,          1) /* WieldSkilltype - Axe */
+     , (26009, 160,         55) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26009, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (26009,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (26009,   5,   -0.05) /* ManaRate */
+     , (26009,  21,     0.7) /* WeaponLength */
+     , (26009,  22,     0.5) /* DamageVariance */
+     , (26009,  29,    1.08) /* WeaponDefense */
+     , (26009,  62,    1.12) /* WeaponOffense */
+     , (26009, 147,     0.4) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26009,   1, 'Hammer of Frore') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26009,   1,   33558574) /* Setup */
+     , (26009,   3,  536870932) /* SoundTable */
+     , (26009,   6,   67111092) /* PaletteBase */
+     , (26009,   8,  100675713) /* Icon */
+     , (26009,  22,  872415275) /* PhysicsEffectTable */
+     , (26009,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (26009,  36,  234881044) /* MutateFilter */
+     , (26009,  37,          1) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26009, 1035, 2) /* ColdProtectionSelf6_SpellID */
-     , (26009, 2675, 2) /* FeebleAxeAptitude_SpellID */
-     , (26009, 1615, 2) /* BloodDrinker5_SpellID */;
-
+VALUES (26009,  1035,      2)  /* Cold Protection Self VI */
+     , (26009,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (26009,  2675,      2)  /* Feeble Light Weapon Aptitude */;

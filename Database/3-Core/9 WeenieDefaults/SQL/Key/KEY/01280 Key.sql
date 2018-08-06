@@ -1,36 +1,32 @@
-/* Weenie - Key (1280) */
-DELETE FROM weenie WHERE class_Id = 1280;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1280, 'keybanditprison3', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1280, 001 /* NAME_STRING */, 'Key')
-     , (1280, 007 /* INSCRIPTION_STRING */, 'Property of the Bandit Castle Prison: Prison Access')
-     , (1280, 008 /* SCRIBE_NAME_STRING */, 'Brandith The Strong')
-     , (1280, 013 /* KEY_CODE_STRING */, 'keybanditprison3')
-     , (1280, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (1280, 015 /* SHORT_DESC_STRING */, 'This key opens a prison cell in the Bandit Castle Prison.')
-     , (1280, 016 /* LONG_DESC_STRING */, 'This key opens a prison cell in the Bandit Castle Prison.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1280, 001 /* SETUP_DID */, 33554784)
-     , (1280, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (1280, 008 /* ICON_DID */, 100668435)
-     , (1280, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1280', 'keybanditprison3', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1280, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (1280, 005 /* ENCUMB_VAL_INT */, 50)
-     , (1280, 008 /* MASS_INT */, 20)
-     , (1280, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (1280, 019 /* VALUE_INT */, 100)
-     , (1280, 091 /* MAX_STRUCTURE_INT */, 15)
-     , (1280, 092 /* STRUCTURE_INT */, 15)
-     , (1280, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (1280, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (1280,   1,      16384) /* ItemType - Key */
+     , (1280,   5,         50) /* EncumbranceVal */
+     , (1280,   8,         20) /* Mass */
+     , (1280,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (1280,  19,        100) /* Value */
+     , (1280,  91,         15) /* MaxStructure */
+     , (1280,  92,         15) /* Structure */
+     , (1280,  93,       1044) /* PhysicsState */
+     , (1280,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1280, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1280, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1280,  22, True ) /* Inscribable */
+     , (1280,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1280,   1, 'Key') /* Name */
+     , (1280,   7, 'Property of the Bandit Castle Prison: Prison Access') /* Inscription */
+     , (1280,   8, 'Brandith The Strong') /* ScribeName */
+     , (1280,  13, 'keybanditprison3') /* KeyCode */
+     , (1280,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (1280,  15, 'This key opens a prison cell in the Bandit Castle Prison.') /* ShortDesc */
+     , (1280,  16, 'This key opens a prison cell in the Bandit Castle Prison.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1280,   1,   33554784) /* Setup */
+     , (1280,   3,  536870932) /* SoundTable */
+     , (1280,   8,  100668435) /* Icon */
+     , (1280,  22,  872415275) /* PhysicsEffectTable */;

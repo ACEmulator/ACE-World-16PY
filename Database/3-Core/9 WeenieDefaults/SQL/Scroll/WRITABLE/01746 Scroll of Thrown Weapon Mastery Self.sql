@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Thrown Weapon Mastery Self (1746) */
-DELETE FROM weenie WHERE class_Id = 1746;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1746, 'scrollthrownmasteryself', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1746, 001 /* NAME_STRING */, 'Scroll of Thrown Weapon Mastery Self')
-     , (1746, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (1746, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the caster''s Thrown Weapons skill by 10%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1746, 001 /* SETUP_DID */, 33554826)
-     , (1746, 008 /* ICON_DID */, 100676476)
-     , (1746, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1746, 028 /* SPELL_DID */, 539 /* ThrownWeaponMasterySelf1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1746', 'scrollthrownmasteryself', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1746, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (1746, 005 /* ENCUMB_VAL_INT */, 30)
-     , (1746, 008 /* MASS_INT */, 90)
-     , (1746, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (1746, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (1746, 019 /* VALUE_INT */, 1)
-     , (1746, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1746, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (1746,   1,       8192) /* ItemType - Writable */
+     , (1746,   5,         30) /* EncumbranceVal */
+     , (1746,   8,         90) /* Mass */
+     , (1746,   9,          0) /* ValidLocations - None */
+     , (1746,  16,          8) /* ItemUseable - Contained */
+     , (1746,  19,          1) /* Value */
+     , (1746,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1746, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1746, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1746,  22, True ) /* Inscribable */
+     , (1746,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1746,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1746,   1, 'Scroll of Thrown Weapon Mastery Self') /* Name */
+     , (1746,  15, 'A magic scroll.') /* ShortDesc */
+     , (1746,  16, 'When learned, this spell increases the caster''s Thrown Weapons skill by 10%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1746,   1,   33554826) /* Setup */
+     , (1746,   8,  100676476) /* Icon */
+     , (1746,  22,  872415275) /* PhysicsEffectTable */
+     , (1746,  28,        539) /* Spell - Missile Weapon Mastery Self I */;

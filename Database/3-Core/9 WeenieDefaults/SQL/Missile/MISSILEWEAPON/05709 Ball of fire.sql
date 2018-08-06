@@ -1,53 +1,49 @@
-/* Weenie - Ball of fire (5709) */
-DELETE FROM weenie WHERE class_Id = 5709;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5709, 'balloffire', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5709, 001 /* NAME_STRING */, 'Ball of fire');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5709, 001 /* SETUP_DID */, 33555469)
-     , (5709, 003 /* SOUND_TABLE_DID */, 536870967)
-     , (5709, 008 /* ICON_DID */, 100667590)
-     , (5709, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415237)
-     , (5709, 030 /* PHYSICS_SCRIPT_DID */, 89 /* PS_Destroy */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5709', 'balloffire', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5709, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (5709, 005 /* ENCUMB_VAL_INT */, 12)
-     , (5709, 008 /* MASS_INT */, 8)
-     , (5709, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (5709, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5709, 012 /* STACK_SIZE_INT */, 1)
-     , (5709, 013 /* STACK_UNIT_ENCUMB_INT */, 12)
-     , (5709, 014 /* STACK_UNIT_MASS_INT */, 8)
-     , (5709, 015 /* STACK_UNIT_VALUE_INT */, 15)
-     , (5709, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5709, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (5709, 019 /* VALUE_INT */, 15)
-     , (5709, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (5709, 044 /* DAMAGE_INT */, 8)
-     , (5709, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (5709, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (5709, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (5709, 049 /* WEAPON_TIME_INT */, 10)
-     , (5709, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (5709, 093 /* PHYSICS_STATE_INT */, 131092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, INELASTIC_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5709, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (5709, 026 /* MAXIMUM_VELOCITY_FLOAT */, 15)
-     , (5709, 027 /* ROTATION_SPEED_FLOAT */, 0)
-     , (5709, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (5709, 044 /* TIME_TO_ROT_FLOAT */, 0)
-     , (5709, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (5709, 078 /* FRICTION_FLOAT */, 1)
-     , (5709, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (5709,   1,        256) /* ItemType - MissileWeapon */
+     , (5709,   5,         12) /* EncumbranceVal */
+     , (5709,   8,          8) /* Mass */
+     , (5709,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (5709,  11,        100) /* MaxStackSize */
+     , (5709,  12,          1) /* StackSize */
+     , (5709,  13,         12) /* StackUnitEncumbrance */
+     , (5709,  14,          8) /* StackUnitMass */
+     , (5709,  15,         15) /* StackUnitValue */
+     , (5709,  16,          1) /* ItemUseable - No */
+     , (5709,  18,         32) /* UiEffects - Fire */
+     , (5709,  19,         15) /* Value */
+     , (5709,  33,         -2) /* Bonded - Destroy */
+     , (5709,  44,          8) /* Damage */
+     , (5709,  45,         16) /* DamageType - Fire */
+     , (5709,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (5709,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (5709,  49,         10) /* WeaponTime */
+     , (5709,  51,          2) /* CombatUse - Missle */
+     , (5709,  93,     131092) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5709, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (5709, 016 /* SCRIPTED_COLLISION_BOOL */, True)
-     , (5709, 017 /* INELASTIC_BOOL */, True);
+VALUES (5709,  14, False) /* GravityStatus */
+     , (5709,  16, True ) /* ScriptedCollision */
+     , (5709,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5709,  22,    0.25) /* DamageVariance */
+     , (5709,  26,      15) /* MaximumVelocity */
+     , (5709,  27,       0) /* RotationSpeed */
+     , (5709,  29,       1) /* WeaponDefense */
+     , (5709,  44,       0) /* TimeToRot */
+     , (5709,  62,       1) /* WeaponOffense */
+     , (5709,  78,       1) /* Friction */
+     , (5709,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5709,   1, 'Ball of fire') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5709,   1,   33555469) /* Setup */
+     , (5709,   3,  536870967) /* SoundTable */
+     , (5709,   8,  100667590) /* Icon */
+     , (5709,  22,  872415237) /* PhysicsEffectTable */
+     , (5709,  30,         89) /* PhysicsScript - Destroy */;

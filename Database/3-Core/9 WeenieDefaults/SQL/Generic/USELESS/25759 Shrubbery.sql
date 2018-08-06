@@ -1,33 +1,29 @@
-/* Weenie - Shrubbery (25759) */
-DELETE FROM weenie WHERE class_Id = 25759;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25759, 'bush', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25759, 001 /* NAME_STRING */, 'Shrubbery')
-     , (25759, 014 /* USE_STRING */, 'This item can be used on yard hooks.')
-     , (25759, 016 /* LONG_DESC_STRING */, 'A green bush used to decorate yards.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25759, 001 /* SETUP_DID */, 33558531)
-     , (25759, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25759, 008 /* ICON_DID */, 100675563)
-     , (25759, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25759', 'bush', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25759, 001 /* ITEM_TYPE_INT */, 1024 /* TYPE_USELESS */)
-     , (25759, 005 /* ENCUMB_VAL_INT */, 500)
-     , (25759, 008 /* MASS_INT */, 500)
-     , (25759, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25759, 019 /* VALUE_INT */, 6000)
-     , (25759, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25759, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25759, 151 /* HOOK_TYPE_INT */, 8 /* Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25759, 039 /* DEFAULT_SCALE_FLOAT */, 0.55);
+VALUES (25759,   1,       1024) /* ItemType - Useless */
+     , (25759,   5,        500) /* EncumbranceVal */
+     , (25759,   8,        500) /* Mass */
+     , (25759,  16,          1) /* ItemUseable - No */
+     , (25759,  19,       6000) /* Value */
+     , (25759,  93,       1044) /* PhysicsState */
+     , (25759, 150,        103) /* HookPlacement - Hook */
+     , (25759, 151,          8) /* HookType - Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25759, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (25759,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25759,  39,    0.55) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25759,   1, 'Shrubbery') /* Name */
+     , (25759,  14, 'This item can be used on yard hooks.') /* Use */
+     , (25759,  16, 'A green bush used to decorate yards.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25759,   1,   33558531) /* Setup */
+     , (25759,   3,  536870932) /* SoundTable */
+     , (25759,   8,  100675563) /* Icon */
+     , (25759,  22,  872415275) /* PhysicsEffectTable */;

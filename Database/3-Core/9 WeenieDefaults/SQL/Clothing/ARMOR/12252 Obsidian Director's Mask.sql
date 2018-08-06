@@ -1,62 +1,58 @@
-/* Weenie - Obsidian Director's Mask (12252) */
-DELETE FROM weenie WHERE class_Id = 12252;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12252, 'maskvirindiobsidiandirector', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12252, 001 /* NAME_STRING */, 'Obsidian Director''s Mask')
-     , (12252, 015 /* SHORT_DESC_STRING */, 'The mask of a powerful Virindi Director.')
-     , (12252, 016 /* LONG_DESC_STRING */, 'A Virindi mask taken from the Director of the Singular Obsidian Repository.')
-     , (12252, 033 /* QUEST_STRING */, 'MaskDirectorOct01');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12252, 001 /* SETUP_DID */, 33556827)
-     , (12252, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12252, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (12252, 007 /* CLOTHINGBASE_DID */, 268436258)
-     , (12252, 008 /* ICON_DID */, 100672192)
-     , (12252, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12252', 'maskvirindiobsidiandirector', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12252, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (12252, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (12252, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (12252, 005 /* ENCUMB_VAL_INT */, 300)
-     , (12252, 008 /* MASS_INT */, 300)
-     , (12252, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (12252, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12252, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (12252, 019 /* VALUE_INT */, 5000)
-     , (12252, 027 /* ARMOR_TYPE_INT */, 2)
-     , (12252, 028 /* ARMOR_LEVEL_INT */, 120)
-     , (12252, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12252, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (12252, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (12252, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (12252, 109 /* ITEM_DIFFICULTY_INT */, 190)
-     , (12252, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (12252, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12252, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (12252, 012 /* SHADE_FLOAT */, 0.66)
-     , (12252, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (12252, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (12252, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (12252, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 2)
-     , (12252, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (12252, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (12252, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 2)
-     , (12252, 110 /* BULK_MOD_FLOAT */, 1)
-     , (12252, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (12252,   1,          2) /* ItemType - Armor */
+     , (12252,   3,         39) /* PaletteTemplate - Black */
+     , (12252,   4,      16384) /* ClothingPriority - Head */
+     , (12252,   5,        300) /* EncumbranceVal */
+     , (12252,   8,        300) /* Mass */
+     , (12252,   9,          1) /* ValidLocations - HeadWear */
+     , (12252,  16,          1) /* ItemUseable - No */
+     , (12252,  18,          1) /* UiEffects - Magical */
+     , (12252,  19,       5000) /* Value */
+     , (12252,  27,          2) /* ArmorType */
+     , (12252,  28,        120) /* ArmorLevel */
+     , (12252,  93,       1044) /* PhysicsState */
+     , (12252, 106,        200) /* ItemSpellcraft */
+     , (12252, 107,        800) /* ItemCurMana */
+     , (12252, 108,        800) /* ItemMaxMana */
+     , (12252, 109,        190) /* ItemDifficulty */
+     , (12252, 150,        103) /* HookPlacement - Hook */
+     , (12252, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12252, 022 /* INSCRIBABLE_BOOL */, True)
-     , (12252, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (12252,  22, True ) /* Inscribable */
+     , (12252,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12252,   5,   -0.05) /* ManaRate */
+     , (12252,  12,    0.66) /* Shade */
+     , (12252,  13,       1) /* ArmorModVsSlash */
+     , (12252,  14,       1) /* ArmorModVsPierce */
+     , (12252,  15,       1) /* ArmorModVsBludgeon */
+     , (12252,  16,       2) /* ArmorModVsCold */
+     , (12252,  17,       1) /* ArmorModVsFire */
+     , (12252,  18,       1) /* ArmorModVsAcid */
+     , (12252,  19,       2) /* ArmorModVsElectric */
+     , (12252, 110,       1) /* BulkMod */
+     , (12252, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12252,   1, 'Obsidian Director''s Mask') /* Name */
+     , (12252,  15, 'The mask of a powerful Virindi Director.') /* ShortDesc */
+     , (12252,  16, 'A Virindi mask taken from the Director of the Singular Obsidian Repository.') /* LongDesc */
+     , (12252,  33, 'MaskDirectorOct01') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12252,   1,   33556827) /* Setup */
+     , (12252,   3,  536870932) /* SoundTable */
+     , (12252,   6,   67108990) /* PaletteBase */
+     , (12252,   7,  268436258) /* ClothingBase */
+     , (12252,   8,  100672192) /* Icon */
+     , (12252,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12252, 1485, 2) /* Impenetrability5_SpellID */
-     , (12252, 1425, 2) /* FocusSelf5_SpellID */
-     , (12252, 248, 2) /* InvulnerabilitySelf5_SpellID */;
-
+VALUES (12252,   248,      2)  /* Invulnerability Self V */
+     , (12252,  1425,      2)  /* Focus Self V */
+     , (12252,  1485,      2)  /* Impenetrability V */;

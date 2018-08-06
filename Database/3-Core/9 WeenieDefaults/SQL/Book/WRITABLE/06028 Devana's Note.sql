@@ -1,37 +1,34 @@
-/* Weenie - Devana's Note (6028) */
-DELETE FROM weenie WHERE class_Id = 6028;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6028, 'notedevana', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6028, 001 /* NAME_STRING */, 'Devana''s Note')
-     , (6028, 015 /* SHORT_DESC_STRING */, 'A note from Devana bint Hamudi to her father, Hamud ibn Rafik.')
-     , (6028, 016 /* LONG_DESC_STRING */, 'A note from Devana bint Hamudi to her father, Hamud ibn Rafik.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6028, 001 /* SETUP_DID */, 33554773)
-     , (6028, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6028, 008 /* ICON_DID */, 100668176)
-     , (6028, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6028', 'notedevana', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6028, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (6028, 005 /* ENCUMB_VAL_INT */, 25)
-     , (6028, 008 /* MASS_INT */, 5)
-     , (6028, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6028, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (6028, 019 /* VALUE_INT */, 5)
-     , (6028, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6028, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (6028,   1,       8192) /* ItemType - Writable */
+     , (6028,   5,         25) /* EncumbranceVal */
+     , (6028,   8,          5) /* Mass */
+     , (6028,   9,          0) /* ValidLocations - None */
+     , (6028,  16,          8) /* ItemUseable - Contained */
+     , (6028,  19,          5) /* Value */
+     , (6028,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6028, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (6028,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6028,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6028,   1, 'Devana''s Note') /* Name */
+     , (6028,  15, 'A note from Devana bint Hamudi to her father, Hamud ibn Rafik.') /* ShortDesc */
+     , (6028,  16, 'A note from Devana bint Hamudi to her father, Hamud ibn Rafik.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6028,   1,   33554773) /* Setup */
+     , (6028,   3,  536870932) /* SoundTable */
+     , (6028,   8,  100668176) /* Icon */
+     , (6028,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (6028, 1, 1000) /* Book Data */;
+VALUES (6028, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (6028, 0, 4294967295, 'Devana bint Hamudi', 'prewritten', False, '
@@ -41,4 +38,3 @@ Your daughter,
 Devana
 
 ');
-

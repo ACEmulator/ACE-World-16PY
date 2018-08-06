@@ -1,38 +1,35 @@
-/* Weenie - Dirrich's Journal (10828) */
-DELETE FROM weenie WHERE class_Id = 10828;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10828, 'writingwarden', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10828, 001 /* NAME_STRING */, 'Dirrich''s Journal')
-     , (10828, 014 /* USE_STRING */, 'Use this item to read it.')
-     , (10828, 015 /* SHORT_DESC_STRING */, 'A parchment of fine writing.')
-     , (10828, 016 /* LONG_DESC_STRING */, 'A parchment of fine writing, translated with an even hand.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10828, 001 /* SETUP_DID */, 33554773)
-     , (10828, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10828, 008 /* ICON_DID */, 100668176)
-     , (10828, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10828', 'writingwarden', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10828, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (10828, 005 /* ENCUMB_VAL_INT */, 5)
-     , (10828, 008 /* MASS_INT */, 5)
-     , (10828, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (10828, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (10828, 019 /* VALUE_INT */, 0)
-     , (10828, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10828, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (10828,   1,       8192) /* ItemType - Writable */
+     , (10828,   5,          5) /* EncumbranceVal */
+     , (10828,   8,          5) /* Mass */
+     , (10828,   9,          0) /* ValidLocations - None */
+     , (10828,  16,          8) /* ItemUseable - Contained */
+     , (10828,  19,          0) /* Value */
+     , (10828,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10828, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (10828,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10828,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10828,   1, 'Dirrich''s Journal') /* Name */
+     , (10828,  14, 'Use this item to read it.') /* Use */
+     , (10828,  15, 'A parchment of fine writing.') /* ShortDesc */
+     , (10828,  16, 'A parchment of fine writing, translated with an even hand.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10828,   1,   33554773) /* Setup */
+     , (10828,   3,  536870932) /* SoundTable */
+     , (10828,   8,  100668176) /* Icon */
+     , (10828,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (10828, 10, 1000) /* Book Data */;
+VALUES (10828, 10, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (10828, 0, 4294967295, 'Dirrich', 'prewritten', False, 'Honored colleague Aerbax,
@@ -63,4 +60,3 @@ Despite your shortcomings, however, I feel that your resistance is a necessary s
 ')
      , (10828, 9, 4294967295, 'Dirrich', 'prewritten', False, 'To that end, Aerbax, I salute you and your faction for your courage, an uncommon trait in beings so recently torn loose from the tyranny of the whole.  I think that, when the Inquisitors come for me, I will surrender myself to the oblivion they bring.  But I will exercise my will and my judgment, and keep my memory clear when they ask me about you...
 ');
-

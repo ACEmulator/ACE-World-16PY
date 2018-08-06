@@ -1,56 +1,52 @@
-/* Weenie - Frost Yari (23725) */
-DELETE FROM weenie WHERE class_Id = 23725;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23725, 'yarifrostmonsterextreme', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23725, 001 /* NAME_STRING */, 'Frost Yari');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23725, 001 /* SETUP_DID */, 33555823)
-     , (23725, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23725, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23725, 007 /* CLOTHINGBASE_DID */, 268435777)
-     , (23725, 008 /* ICON_DID */, 100667579)
-     , (23725, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (23725, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23725', 'yarifrostmonsterextreme', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23725, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (23725, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (23725, 005 /* ENCUMB_VAL_INT */, 750)
-     , (23725, 008 /* MASS_INT */, 150)
-     , (23725, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (23725, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23725, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (23725, 019 /* VALUE_INT */, 600)
-     , (23725, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (23725, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (23725, 044 /* DAMAGE_INT */, 25)
-     , (23725, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (23725, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (23725, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (23725, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (23725, 049 /* WEAPON_TIME_INT */, 30)
-     , (23725, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (23725, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23725, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (23725, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (23725, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (23725, 109 /* ITEM_DIFFICULTY_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23725, 021 /* WEAPON_LENGTH_FLOAT */, 1.3)
-     , (23725, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (23725, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (23725, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (23725,   1,          1) /* ItemType - MeleeWeapon */
+     , (23725,   3,         20) /* PaletteTemplate - Silver */
+     , (23725,   5,        750) /* EncumbranceVal */
+     , (23725,   8,        150) /* Mass */
+     , (23725,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (23725,  16,          1) /* ItemUseable - No */
+     , (23725,  18,        128) /* UiEffects - Frost */
+     , (23725,  19,        600) /* Value */
+     , (23725,  33,         -2) /* Bonded - Destroy */
+     , (23725,  37,       9999) /* ResistItemAppraisal */
+     , (23725,  44,         25) /* Damage */
+     , (23725,  45,          8) /* DamageType - Cold */
+     , (23725,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (23725,  47,          2) /* AttackType - Thrust */
+     , (23725,  48,          9) /* WeaponSkill - Spear */
+     , (23725,  49,         30) /* WeaponTime */
+     , (23725,  51,          1) /* CombatUse - Melee */
+     , (23725,  93,       1044) /* PhysicsState */
+     , (23725, 106,        250) /* ItemSpellcraft */
+     , (23725, 107,        500) /* ItemCurMana */
+     , (23725, 108,        500) /* ItemMaxMana */
+     , (23725, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23725, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23725, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (23725,  22, True ) /* Inscribable */
+     , (23725,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23725,  21,     1.3) /* WeaponLength */
+     , (23725,  22,     0.5) /* DamageVariance */
+     , (23725,  29,       1) /* WeaponDefense */
+     , (23725,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23725,   1, 'Frost Yari') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23725,   1,   33555823) /* Setup */
+     , (23725,   3,  536870932) /* SoundTable */
+     , (23725,   6,   67111919) /* PaletteBase */
+     , (23725,   7,  268435777) /* ClothingBase */
+     , (23725,   8,  100667579) /* Icon */
+     , (23725,  22,  872415275) /* PhysicsEffectTable */
+     , (23725,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23725, 1616, 2) /* BloodDrinker6_SpellID */
-     , (23725, 1627, 2) /* SwiftKiller6_SpellID */;
-
+VALUES (23725,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (23725,  1627,      2)  /* Aura of Swift Killer Self VI */;

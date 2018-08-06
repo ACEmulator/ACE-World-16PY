@@ -1,37 +1,33 @@
-/* Weenie - Acid Ziggurat (21399) */
-DELETE FROM weenie WHERE class_Id = 21399;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21399, 'portalacidziggurat', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21399, 001 /* NAME_STRING */, 'Acid Ziggurat')
-     , (21399, 037 /* QUEST_RESTRICTION_STRING */, 'ZigguratEntrance');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21399, 001 /* SETUP_DID */, 33555926)
-     , (21399, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (21399, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21399', 'portalacidziggurat', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21399, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (21399, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (21399, 086 /* MIN_LEVEL_INT */, 40)
-     , (21399, 087 /* MAX_LEVEL_INT */, 59)
-     , (21399, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (21399, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (21399, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21399, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (21399,   1,      65536) /* ItemType - Portal */
+     , (21399,  16,         32) /* ItemUseable - Remote */
+     , (21399,  86,         40) /* MinLevel */
+     , (21399,  87,         59) /* MaxLevel */
+     , (21399,  93,       3084) /* PhysicsState */
+     , (21399, 111,         49) /* PortalBitmask */
+     , (21399, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21399, 001 /* STUCK_BOOL */, True)
-     , (21399, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (21399, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (21399, 013 /* ETHEREAL_BOOL */, True)
-     , (21399, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (21399,   1, True ) /* Stuck */
+     , (21399,  11, False) /* IgnoreCollisions */
+     , (21399,  12, True ) /* ReportCollisions */
+     , (21399,  13, True ) /* Ethereal */
+     , (21399,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21399,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21399,   1, 'Acid Ziggurat') /* Name */
+     , (21399,  37, 'ZigguratEntrance') /* QuestRestriction */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21399,   1,   33555926) /* Setup */
+     , (21399,   2,  150994947) /* MotionTable */
+     , (21399,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21399, 2, 1480982788, 20, -20, 0.005, -0.7071068, 0, 0, -0.7071068) /* DESTINATION_POSITION */;
-
+VALUES (21399, 2, 1480982788, 20, -20, 0.005, -0.7071068, 0, 0, -0.7071068) /* Destination */;

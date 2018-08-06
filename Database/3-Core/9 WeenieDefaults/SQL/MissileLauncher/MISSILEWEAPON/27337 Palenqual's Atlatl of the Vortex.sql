@@ -1,72 +1,68 @@
-/* Weenie - Palenqual's Atlatl of the Vortex (27337) */
-DELETE FROM weenie WHERE class_Id = 27337;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27337, 'atlatlvortex', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27337, 001 /* NAME_STRING */, 'Palenqual''s Atlatl of the Vortex')
-     , (27337, 016 /* LONG_DESC_STRING */, 'An atlatl fused to a triple totem. It almost seems as if the totem''s creatures are moving.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27337, 001 /* SETUP_DID */, 33558660)
-     , (27337, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27337, 006 /* PALETTE_BASE_DID */, 67113336)
-     , (27337, 007 /* CLOTHINGBASE_DID */, 268436253)
-     , (27337, 008 /* ICON_DID */, 100676387)
-     , (27337, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27337', 'atlatlvortex', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27337, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (27337, 005 /* ENCUMB_VAL_INT */, 200)
-     , (27337, 008 /* MASS_INT */, 15)
-     , (27337, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (27337, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27337, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27337, 019 /* VALUE_INT */, 20000)
-     , (27337, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (27337, 044 /* DAMAGE_INT */, 6)
-     , (27337, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1024 /* Atlatl_CombatStyle */)
-     , (27337, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (27337, 049 /* WEAPON_TIME_INT */, 15)
-     , (27337, 050 /* AMMO_TYPE_INT */, 4 /* AMMO_ARROW_CRYSTAL */)
-     , (27337, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (27337, 060 /* WEAPON_RANGE_INT */, 120)
-     , (27337, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27337, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (27337, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (27337, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (27337, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (27337, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (27337, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27337, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27337, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (27337, 159 /* WIELD_SKILLTYPE_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (27337, 160 /* WIELD_DIFFICULTY_INT */, 250);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27337, 005 /* MANA_RATE_FLOAT */, -0.033333)
-     , (27337, 026 /* MAXIMUM_VELOCITY_FLOAT */, 24.9)
-     , (27337, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
-     , (27337, 062 /* WEAPON_OFFENSE_FLOAT */, 1.08)
-     , (27337, 063 /* DAMAGE_MOD_FLOAT */, 2.36)
-     , (27337, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 3)
-     , (27337, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.2);
+VALUES (27337,   1,        256) /* ItemType - MissileWeapon */
+     , (27337,   5,        200) /* EncumbranceVal */
+     , (27337,   8,         15) /* Mass */
+     , (27337,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (27337,  16,          1) /* ItemUseable - No */
+     , (27337,  18,          1) /* UiEffects - Magical */
+     , (27337,  19,      20000) /* Value */
+     , (27337,  33,          1) /* Bonded - Bonded */
+     , (27337,  44,          6) /* Damage */
+     , (27337,  46,       1024) /* DefaultCombatStyle - Atlatl */
+     , (27337,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (27337,  49,         15) /* WeaponTime */
+     , (27337,  50,          4) /* AmmoType - ArrowCrystal */
+     , (27337,  51,          2) /* CombatUse - Missle */
+     , (27337,  60,        120) /* WeaponRange */
+     , (27337,  93,       1044) /* PhysicsState */
+     , (27337, 106,        250) /* ItemSpellcraft */
+     , (27337, 107,       1000) /* ItemCurMana */
+     , (27337, 108,       1000) /* ItemMaxMana */
+     , (27337, 109,          0) /* ItemDifficulty */
+     , (27337, 114,          1) /* Attuned - Attuned */
+     , (27337, 150,        103) /* HookPlacement - Hook */
+     , (27337, 151,          2) /* HookType - Wall */
+     , (27337, 158,          2) /* WieldRequirements - RawSkill */
+     , (27337, 159,         12) /* WieldSkilltype - ThrownWeapon */
+     , (27337, 160,        250) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27337, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27337, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (27337, 069 /* IS_SELLABLE_BOOL */, False)
-     , (27337, 099 /* IVORYABLE_BOOL */, True);
+VALUES (27337,  22, True ) /* Inscribable */
+     , (27337,  23, True ) /* DestroyOnSell */
+     , (27337,  69, False) /* IsSellable */
+     , (27337,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27337,   5, -0.033333) /* ManaRate */
+     , (27337,  26,    24.9) /* MaximumVelocity */
+     , (27337,  29,    1.08) /* WeaponDefense */
+     , (27337,  62,    1.08) /* WeaponOffense */
+     , (27337,  63,    2.36) /* DamageMod */
+     , (27337, 136,       3) /* CriticalMultiplier */
+     , (27337, 147,     0.2) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27337,   1, 'Palenqual''s Atlatl of the Vortex') /* Name */
+     , (27337,  16, 'An atlatl fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27337,   1,   33558660) /* Setup */
+     , (27337,   3,  536870932) /* SoundTable */
+     , (27337,   6,   67113336) /* PaletteBase */
+     , (27337,   7,  268436253) /* ClothingBase */
+     , (27337,   8,  100676387) /* Icon */
+     , (27337,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27337, 2438, 2) /* RockslideLesser_SpellID */
-     , (27337, 3217, 2) /* CascadeAtlatl_SpellID */
-     , (27337, 2441, 2) /* StoneCliffsLesser_SpellID */
-     , (27337, 2444, 2) /* StrengthofEarthLesser_SpellID */
-     , (27337, 2447, 2) /* GrowthLesser_SpellID */
-     , (27337, 2450, 2) /* HuntersAcumenLesser_SpellID */
-     , (27337, 2453, 2) /* ThornsLesser_SpellID */
-     , (27337, 2472, 2) /* StillWater_SpellID */
-     , (27337, 2475, 2) /* Torrent_SpellID */;
-
+VALUES (27337,  2438,      2)  /* Lesser Rockslide */
+     , (27337,  2441,      2)  /* Lesser Stone Cliffs */
+     , (27337,  2444,      2)  /* Lesser Strength of Earth */
+     , (27337,  2447,      2)  /* Lesser Growth */
+     , (27337,  2450,      2)  /* Lesser Hunter's Acumen */
+     , (27337,  2453,      2)  /* Lesser Thorns */
+     , (27337,  2472,      2)  /* Still Water */
+     , (27337,  2475,      2)  /* Torrent */
+     , (27337,  3217,      2)  /* Cascade */;

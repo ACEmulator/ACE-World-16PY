@@ -1,60 +1,56 @@
-/* Weenie - Phantom Dagger (21354) */
-DELETE FROM weenie WHERE class_Id = 21354;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21354, 'daggerphantom', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21354, 001 /* NAME_STRING */, 'Phantom Dagger')
-     , (21354, 015 /* SHORT_DESC_STRING */, 'A dagger with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)')
-     , (21354, 016 /* LONG_DESC_STRING */, 'A dagger with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21354, 001 /* SETUP_DID */, 33556656)
-     , (21354, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21354, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (21354, 007 /* CLOTHINGBASE_DID */, 268435783)
-     , (21354, 008 /* ICON_DID */, 100668875)
-     , (21354, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21354, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21354', 'daggerphantom', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21354, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (21354, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (21354, 005 /* ENCUMB_VAL_INT */, 135)
-     , (21354, 008 /* MASS_INT */, 90)
-     , (21354, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (21354, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (21354, 019 /* VALUE_INT */, 3000)
-     , (21354, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (21354, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (21354, 044 /* DAMAGE_INT */, 5)
-     , (21354, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (21354, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (21354, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (21354, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (21354, 049 /* WEAPON_TIME_INT */, 20)
-     , (21354, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (21354, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (21354, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (21354, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (21354, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (21354, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (21354, 159 /* WIELD_SKILLTYPE_INT */, 4 /* DAGGER_SKILL */)
-     , (21354, 160 /* WIELD_DIFFICULTY_INT */, 275)
-     , (21354, 179 /* IMBUED_EFFECT_INT */, -2147483648 /* IgnoreAllArmor_ImbuedEffectType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21354, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (21354, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.1)
-     , (21354, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (21354, 062 /* WEAPON_OFFENSE_FLOAT */, 1.15)
-     , (21354, 076 /* TRANSLUCENCY_FLOAT */, 0.7);
+VALUES (21354,   1,          1) /* ItemType - MeleeWeapon */
+     , (21354,   3,         20) /* PaletteTemplate - Silver */
+     , (21354,   5,        135) /* EncumbranceVal */
+     , (21354,   8,         90) /* Mass */
+     , (21354,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (21354,  16,          1) /* ItemUseable - No */
+     , (21354,  19,       3000) /* Value */
+     , (21354,  33,          1) /* Bonded - Bonded */
+     , (21354,  36,       9999) /* ResistMagic */
+     , (21354,  44,          5) /* Damage */
+     , (21354,  45,          3) /* DamageType */
+     , (21354,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (21354,  47,          6) /* AttackType */
+     , (21354,  48,          4) /* WeaponSkill - Dagger */
+     , (21354,  49,         20) /* WeaponTime */
+     , (21354,  51,          1) /* CombatUse - Melee */
+     , (21354,  93,       3092) /* PhysicsState */
+     , (21354, 114,          1) /* Attuned - Attuned */
+     , (21354, 150,        103) /* HookPlacement - Hook */
+     , (21354, 151,          2) /* HookType - Wall */
+     , (21354, 158,          2) /* WieldRequirements - RawSkill */
+     , (21354, 159,          4) /* WieldSkilltype - Dagger */
+     , (21354, 160,        275) /* WieldDifficulty */
+     , (21354, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21354, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (21354, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21354, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (21354, 069 /* IS_SELLABLE_BOOL */, False)
-     , (21354, 099 /* IVORYABLE_BOOL */, True);
+VALUES (21354,  15, True ) /* LightsStatus */
+     , (21354,  22, True ) /* Inscribable */
+     , (21354,  23, True ) /* DestroyOnSell */
+     , (21354,  69, False) /* IsSellable */
+     , (21354,  99, True ) /* Ivoryable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21354,  21,     0.4) /* WeaponLength */
+     , (21354,  22,     0.1) /* DamageVariance */
+     , (21354,  29,       1) /* WeaponDefense */
+     , (21354,  62,    1.15) /* WeaponOffense */
+     , (21354,  76,     0.7) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21354,   1, 'Phantom Dagger') /* Name */
+     , (21354,  15, 'A dagger with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* ShortDesc */
+     , (21354,  16, 'A dagger with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21354,   1,   33556656) /* Setup */
+     , (21354,   3,  536870932) /* SoundTable */
+     , (21354,   6,   67111919) /* PaletteBase */
+     , (21354,   7,  268435783) /* ClothingBase */
+     , (21354,   8,  100668875) /* Icon */
+     , (21354,  22,  872415275) /* PhysicsEffectTable */
+     , (21354,  36,  234881044) /* MutateFilter */;

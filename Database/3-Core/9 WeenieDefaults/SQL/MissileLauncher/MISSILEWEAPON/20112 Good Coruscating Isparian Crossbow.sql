@@ -1,69 +1,65 @@
-/* Weenie - Good Coruscating Isparian Crossbow (20112) */
-DELETE FROM weenie WHERE class_Id = 20112;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20112, 'crossbowispariangoodsparkingminor', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20112, 001 /* NAME_STRING */, 'Good Coruscating Isparian Crossbow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20112, 001 /* SETUP_DID */, 33557772)
-     , (20112, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20112, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20112, 007 /* CLOTHINGBASE_DID */, 268436396)
-     , (20112, 008 /* ICON_DID */, 100673019)
-     , (20112, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20112, 037 /* ITEM_SKILL_LIMIT_DID */, 3);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20112', 'crossbowispariangoodsparkingminor', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20112, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (20112, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (20112, 005 /* ENCUMB_VAL_INT */, 1400)
-     , (20112, 008 /* MASS_INT */, 640)
-     , (20112, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (20112, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20112, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (20112, 019 /* VALUE_INT */, 4000)
-     , (20112, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (20112, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (20112, 044 /* DAMAGE_INT */, 4)
-     , (20112, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (20112, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (20112, 049 /* WEAPON_TIME_INT */, 90)
-     , (20112, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (20112, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (20112, 052 /* PARENT_LOCATION_INT */, 2)
-     , (20112, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (20112, 060 /* WEAPON_RANGE_INT */, 195)
-     , (20112, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20112, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (20112, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (20112, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (20112, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 250)
-     , (20112, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (20112, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (20112, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (20112, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (20112, 160 /* WIELD_DIFFICULTY_INT */, 30);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20112, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (20112, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (20112, 029 /* WEAPON_DEFENSE_FLOAT */, 1.06)
-     , (20112, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (20112, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (20112, 063 /* DAMAGE_MOD_FLOAT */, 2.4);
+VALUES (20112,   1,        256) /* ItemType - MissileWeapon */
+     , (20112,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (20112,   5,       1400) /* EncumbranceVal */
+     , (20112,   8,        640) /* Mass */
+     , (20112,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (20112,  16,          1) /* ItemUseable - No */
+     , (20112,  18,          1) /* UiEffects - Magical */
+     , (20112,  19,       4000) /* Value */
+     , (20112,  33,          1) /* Bonded - Bonded */
+     , (20112,  36,       9999) /* ResistMagic */
+     , (20112,  44,          4) /* Damage */
+     , (20112,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (20112,  48,          3) /* WeaponSkill - Crossbow */
+     , (20112,  49,         90) /* WeaponTime */
+     , (20112,  50,          2) /* AmmoType - Bolt */
+     , (20112,  51,          2) /* CombatUse - Missle */
+     , (20112,  52,          2) /* ParentLocation */
+     , (20112,  53,          3) /* PlacementPosition */
+     , (20112,  60,        195) /* WeaponRange */
+     , (20112,  93,       1044) /* PhysicsState */
+     , (20112, 106,        100) /* ItemSpellcraft */
+     , (20112, 107,        400) /* ItemCurMana */
+     , (20112, 108,        400) /* ItemMaxMana */
+     , (20112, 115,        250) /* ItemSkillLevelLimit */
+     , (20112, 150,        103) /* HookPlacement - Hook */
+     , (20112, 151,          2) /* HookType - Wall */
+     , (20112, 158,          7) /* WieldRequirements - Level */
+     , (20112, 159,          1) /* WieldSkilltype - Axe */
+     , (20112, 160,         30) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20112, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20112, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (20112, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (20112,  22, True ) /* Inscribable */
+     , (20112,  23, True ) /* DestroyOnSell */
+     , (20112,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20112,   5,  -0.033) /* ManaRate */
+     , (20112,  26,    27.3) /* MaximumVelocity */
+     , (20112,  29,    1.06) /* WeaponDefense */
+     , (20112,  39,    1.25) /* DefaultScale */
+     , (20112,  62,       1) /* WeaponOffense */
+     , (20112,  63,     2.4) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20112,   1, 'Good Coruscating Isparian Crossbow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20112,   1,   33557772) /* Setup */
+     , (20112,   3,  536870932) /* SoundTable */
+     , (20112,   6,   67111919) /* PaletteBase */
+     , (20112,   7,  268436396) /* ClothingBase */
+     , (20112,   8,  100673019) /* Icon */
+     , (20112,  22,  872415275) /* PhysicsEffectTable */
+     , (20112,  37,          3) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20112, 1069, 2) /* LightningProtectionSelf4_SpellID */
-     , (20112, 1603, 2) /* Defender4_SpellID */
-     , (20112, 1614, 2) /* BloodDrinker4_SpellID */
-     , (20112, 2677, 2) /* FeebleCrossbowAptitude_SpellID */
-     , (20112, 1399, 2) /* QuicknessSelf3_SpellID */;
-
+VALUES (20112,  1069,      2)  /* Lightning Protection Self IV */
+     , (20112,  1399,      2)  /* Quickness Self III */
+     , (20112,  1603,      2)  /* Aura of Defender Self IV */
+     , (20112,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (20112,  2677,      2)  /* Feeble Missile Weapon Aptitude */;

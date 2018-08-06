@@ -1,33 +1,29 @@
-/* Weenie - Salmon (1450) */
-DELETE FROM weenie WHERE class_Id = 1450;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1450, 'salmonmagic', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1450, 001 /* NAME_STRING */, 'Salmon')
-     , (1450, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (1450, 020 /* PLURAL_NAME_STRING */, 'Salmon');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1450, 001 /* SETUP_DID */, 33554674)
-     , (1450, 008 /* ICON_DID */, 100667461)
-     , (1450, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1450', 'salmonmagic', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1450, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (1450, 005 /* ENCUMB_VAL_INT */, 100)
-     , (1450, 008 /* MASS_INT */, 50)
-     , (1450, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (1450, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (1450, 012 /* STACK_SIZE_INT */, 1)
-     , (1450, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (1450, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (1450, 015 /* STACK_UNIT_VALUE_INT */, 15)
-     , (1450, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (1450, 018 /* UI_EFFECTS_INT */, 4 /* UI_EFFECT_BOOST_HEALTH */)
-     , (1450, 019 /* VALUE_INT */, 15)
-     , (1450, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
-     , (1450, 090 /* BOOST_VALUE_INT */, 3)
-     , (1450, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (1450,   1,         32) /* ItemType - Food */
+     , (1450,   5,        100) /* EncumbranceVal */
+     , (1450,   8,         50) /* Mass */
+     , (1450,   9,          0) /* ValidLocations - None */
+     , (1450,  11,        100) /* MaxStackSize */
+     , (1450,  12,          1) /* StackSize */
+     , (1450,  13,        100) /* StackUnitEncumbrance */
+     , (1450,  14,         50) /* StackUnitMass */
+     , (1450,  15,         15) /* StackUnitValue */
+     , (1450,  16,          8) /* ItemUseable - Contained */
+     , (1450,  18,          4) /* UiEffects - BoostHealth */
+     , (1450,  19,         15) /* Value */
+     , (1450,  89,          2) /* BoosterEnum - Health */
+     , (1450,  90,          3) /* BoostValue */
+     , (1450,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1450,   1, 'Salmon') /* Name */
+     , (1450,  14, 'Use this item to eat it.') /* Use */
+     , (1450,  20, 'Salmon') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1450,   1,   33554674) /* Setup */
+     , (1450,   8,  100667461) /* Icon */
+     , (1450,  22,  872415275) /* PhysicsEffectTable */;

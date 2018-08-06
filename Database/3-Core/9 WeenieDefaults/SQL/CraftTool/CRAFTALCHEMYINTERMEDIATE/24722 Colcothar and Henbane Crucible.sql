@@ -1,40 +1,36 @@
-/* Weenie - Colcothar and Henbane Crucible (24722) */
-DELETE FROM weenie WHERE class_Id = 24722;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24722, 'cruciblefrost4', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24722, 001 /* NAME_STRING */, 'Colcothar and Henbane Crucible')
-     , (24722, 014 /* USE_STRING */, 'This item is used in alchemy.')
-     , (24722, 016 /* LONG_DESC_STRING */, 'A Colcothar Potion and Henbane have been added to this crucible.')
-     , (24722, 020 /* PLURAL_NAME_STRING */, 'Colcothar and Henbane Crucibles');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24722, 001 /* SETUP_DID */, 33555966)
-     , (24722, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24722, 008 /* ICON_DID */, 100674468)
-     , (24722, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24722, 050 /* ICON_OVERLAY_DID */, 100674414);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24722', 'cruciblefrost4', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24722, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (24722, 005 /* ENCUMB_VAL_INT */, 50)
-     , (24722, 008 /* MASS_INT */, 25)
-     , (24722, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24722, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (24722, 012 /* STACK_SIZE_INT */, 1)
-     , (24722, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (24722, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (24722, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (24722, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (24722, 019 /* VALUE_INT */, 500)
-     , (24722, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24722, 094 /* TARGET_TYPE_INT */, 4196992 /* TYPE_LOCKABLE_MAGIC_TARGET, TYPE_GEM, TYPE_CRAFT_COOKING_BASE */)
-     , (24722, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24722, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (24722,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (24722,   5,         50) /* EncumbranceVal */
+     , (24722,   8,         25) /* Mass */
+     , (24722,   9,          0) /* ValidLocations - None */
+     , (24722,  11,          1) /* MaxStackSize */
+     , (24722,  12,          1) /* StackSize */
+     , (24722,  13,         50) /* StackUnitEncumbrance */
+     , (24722,  14,         25) /* StackUnitMass */
+     , (24722,  15,        500) /* StackUnitValue */
+     , (24722,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (24722,  19,        500) /* Value */
+     , (24722,  93,       1044) /* PhysicsState */
+     , (24722,  94,    4196992) /* TargetType */
+     , (24722, 150,        103) /* HookPlacement - Hook */
+     , (24722, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24722, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24722, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24722,  22, True ) /* Inscribable */
+     , (24722,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24722,   1, 'Colcothar and Henbane Crucible') /* Name */
+     , (24722,  14, 'This item is used in alchemy.') /* Use */
+     , (24722,  16, 'A Colcothar Potion and Henbane have been added to this crucible.') /* LongDesc */
+     , (24722,  20, 'Colcothar and Henbane Crucibles') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24722,   1,   33555966) /* Setup */
+     , (24722,   3,  536870932) /* SoundTable */
+     , (24722,   8,  100674468) /* Icon */
+     , (24722,  22,  872415275) /* PhysicsEffectTable */
+     , (24722,  50,  100674414) /* IconOverlay */;

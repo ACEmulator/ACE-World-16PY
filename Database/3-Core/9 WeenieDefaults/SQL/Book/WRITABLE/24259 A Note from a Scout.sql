@@ -1,41 +1,38 @@
-/* Weenie - A Note from a Scout (24259) */
-DELETE FROM weenie WHERE class_Id = 24259;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24259, 'olthoiscoutnote8', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24259, 001 /* NAME_STRING */, 'A Note from a Scout')
-     , (24259, 016 /* LONG_DESC_STRING */, 'A Note from Scout Luzumin Abigwei')
-     , (24259, 033 /* QUEST_STRING */, 'PickedUpOlthoiScoutNote8');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24259, 001 /* SETUP_DID */, 33558173)
-     , (24259, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24259, 008 /* ICON_DID */, 100674328)
-     , (24259, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24259', 'olthoiscoutnote8', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24259, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (24259, 005 /* ENCUMB_VAL_INT */, 25)
-     , (24259, 008 /* MASS_INT */, 5)
-     , (24259, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24259, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24259, 019 /* VALUE_INT */, 0)
-     , (24259, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (24259, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
-     , (24259, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24259, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (24259,   1,       8192) /* ItemType - Writable */
+     , (24259,   5,         25) /* EncumbranceVal */
+     , (24259,   8,          5) /* Mass */
+     , (24259,   9,          0) /* ValidLocations - None */
+     , (24259,  16,          8) /* ItemUseable - Contained */
+     , (24259,  19,          0) /* Value */
+     , (24259,  33,          1) /* Bonded - Bonded */
+     , (24259,  93,         20) /* PhysicsState */
+     , (24259, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24259, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (24259, 022 /* INSCRIBABLE_BOOL */, False)
-     , (24259, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24259,  14, False) /* GravityStatus */
+     , (24259,  22, False) /* Inscribable */
+     , (24259,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24259,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24259,   1, 'A Note from a Scout') /* Name */
+     , (24259,  16, 'A Note from Scout Luzumin Abigwei') /* LongDesc */
+     , (24259,  33, 'PickedUpOlthoiScoutNote8') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24259,   1,   33558173) /* Setup */
+     , (24259,   3,  536870932) /* SoundTable */
+     , (24259,   8,  100674328) /* Icon */
+     , (24259,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (24259, 4, 1000) /* Book Data */;
+VALUES (24259, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (24259, 0, 4294967295, 'Luzumin Abigwei', 'prewritten', False, 'Upon entering the lair I was previously familiar with, it became immediately apparent that different varieties of Olthoi had infested the tunnels.  These were more active and aggressive. I managed to work my way down to what had previously been the lowest levels.  There, I discovered a portal leading to new and deeper catacombs.  These were inhabited by even deadlier Olthoi than those above.  An ill omen, to be sure, and worthy of the High Queen''s  attention. There is deadly purpose in all this activity.  Thus, I was not completely surprised to find yet another portal at the bottom of these new catacombs.  However, on the other side of 
@@ -54,4 +51,3 @@ The Royal Guard should alert the Queen and all Isparians should be vigilant.  Th
 
 Scout Luzumin Abigwei
 ');
-

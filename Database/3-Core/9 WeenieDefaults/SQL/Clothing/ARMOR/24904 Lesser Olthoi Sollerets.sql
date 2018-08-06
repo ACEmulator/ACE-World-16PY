@@ -1,58 +1,54 @@
-/* Weenie - Lesser Olthoi Sollerets (24904) */
-DELETE FROM weenie WHERE class_Id = 24904;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24904, 'solleretsolthoilow', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24904, 001 /* NAME_STRING */, 'Lesser Olthoi Sollerets');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24904, 001 /* SETUP_DID */, 33554654)
-     , (24904, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24904, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (24904, 007 /* CLOTHINGBASE_DID */, 268436652)
-     , (24904, 008 /* ICON_DID */, 100674544)
-     , (24904, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24904, 036 /* MUTATE_FILTER_DID */, 234881046)
-     , (24904, 046 /* TSYS_MUTATION_FILTER_DID */, 939524130);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24904', 'solleretsolthoilow', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24904, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (24904, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (24904, 004 /* CLOTHING_PRIORITY_INT */, 65536 /* Feet */)
-     , (24904, 005 /* ENCUMB_VAL_INT */, 400)
-     , (24904, 008 /* MASS_INT */, 360)
-     , (24904, 009 /* LOCATIONS_INT */, 256 /* FOOT_WEAR_LOC */)
-     , (24904, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24904, 019 /* VALUE_INT */, 2000)
-     , (24904, 027 /* ARMOR_TYPE_INT */, 32)
-     , (24904, 028 /* ARMOR_LEVEL_INT */, 300)
-     , (24904, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (24904, 044 /* DAMAGE_INT */, 3)
-     , (24904, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (24904, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24904, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24904, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */)
-     , (24904, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (24904, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (24904, 160 /* WIELD_DIFFICULTY_INT */, 20)
-     , (24904, 169 /* TSYS_MUTATION_DATA_INT */, 185204996);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24904, 012 /* SHADE_FLOAT */, 0.66)
-     , (24904, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.4)
-     , (24904, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (24904, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (24904, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.2)
-     , (24904, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
-     , (24904, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 2)
-     , (24904, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.3)
-     , (24904, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (24904, 110 /* BULK_MOD_FLOAT */, 1)
-     , (24904, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (24904,   1,          2) /* ItemType - Armor */
+     , (24904,   3,          2) /* PaletteTemplate - Blue */
+     , (24904,   4,      65536) /* ClothingPriority - Feet */
+     , (24904,   5,        400) /* EncumbranceVal */
+     , (24904,   8,        360) /* Mass */
+     , (24904,   9,        256) /* ValidLocations - FootWear */
+     , (24904,  16,          1) /* ItemUseable - No */
+     , (24904,  19,       2000) /* Value */
+     , (24904,  27,         32) /* ArmorType */
+     , (24904,  28,        300) /* ArmorLevel */
+     , (24904,  36,       9999) /* ResistMagic */
+     , (24904,  44,          3) /* Damage */
+     , (24904,  45,          4) /* DamageType - Bludgeon */
+     , (24904,  93,       1044) /* PhysicsState */
+     , (24904, 150,        103) /* HookPlacement - Hook */
+     , (24904, 151,          1) /* HookType - Floor */
+     , (24904, 158,          7) /* WieldRequirements - Level */
+     , (24904, 159,          1) /* WieldSkilltype - Axe */
+     , (24904, 160,         20) /* WieldDifficulty */
+     , (24904, 169,  185204996) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24904, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24904, 100 /* DYABLE_BOOL */, True);
+VALUES (24904,  22, True ) /* Inscribable */
+     , (24904, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24904,  12,    0.66) /* Shade */
+     , (24904,  13,     1.4) /* ArmorModVsSlash */
+     , (24904,  14,       1) /* ArmorModVsPierce */
+     , (24904,  15,       1) /* ArmorModVsBludgeon */
+     , (24904,  16,     1.2) /* ArmorModVsCold */
+     , (24904,  17,     1.2) /* ArmorModVsFire */
+     , (24904,  18,       2) /* ArmorModVsAcid */
+     , (24904,  19,     1.3) /* ArmorModVsElectric */
+     , (24904,  22,    0.75) /* DamageVariance */
+     , (24904, 110,       1) /* BulkMod */
+     , (24904, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24904,   1, 'Lesser Olthoi Sollerets') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24904,   1,   33554654) /* Setup */
+     , (24904,   3,  536870932) /* SoundTable */
+     , (24904,   6,   67108990) /* PaletteBase */
+     , (24904,   7,  268436652) /* ClothingBase */
+     , (24904,   8,  100674544) /* Icon */
+     , (24904,  22,  872415275) /* PhysicsEffectTable */
+     , (24904,  36,  234881046) /* MutateFilter */
+     , (24904,  46,  939524130) /* TsysMutationFilter */;

@@ -1,35 +1,31 @@
-/* Weenie - Moderate Mana Charge (4614) */
-DELETE FROM weenie WHERE class_Id = 4614;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4614, 'manastonemoderate', 37 /* ManaStone_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4614, 001 /* NAME_STRING */, 'Moderate Mana Charge');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4614, 001 /* SETUP_DID */, 33555639)
-     , (4614, 008 /* ICON_DID */, 100676298);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4614', 'manastonemoderate', 37) /* ManaStone */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4614, 001 /* ITEM_TYPE_INT */, 524288 /* TYPE_MANASTONE */)
-     , (4614, 005 /* ENCUMB_VAL_INT */, 50)
-     , (4614, 008 /* MASS_INT */, 50)
-     , (4614, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4614, 016 /* ITEM_USEABLE_INT */, 655368 /* USEABLE_SOURCE_CONTAINED_TARGET_SELF_OR_CONTAINED */)
-     , (4614, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (4614, 019 /* VALUE_INT */, 1500)
-     , (4614, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (4614, 094 /* TARGET_TYPE_INT */, 35103 /* TYPE_JEWELRY, TYPE_CREATURE, TYPE_GEM, TYPE_REDIRECTABLE_ITEM_ENCHANTMENT_TARGET */)
-     , (4614, 107 /* ITEM_CUR_MANA_INT */, 350)
-     , (4614, 108 /* ITEM_MAX_MANA_INT */, 350)
-     , (4614, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (4614, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4614, 087 /* ITEM_EFFICIENCY_FLOAT */, 1)
-     , (4614, 137 /* MANA_STONE_DESTROY_CHANCE_FLOAT */, 1);
+VALUES (4614,   1,     524288) /* ItemType - ManaStone */
+     , (4614,   5,         50) /* EncumbranceVal */
+     , (4614,   8,         50) /* Mass */
+     , (4614,   9,          0) /* ValidLocations - None */
+     , (4614,  16,     655368) /* ItemUseable - SourceContainedTargetSelfOrContained */
+     , (4614,  18,          1) /* UiEffects - Magical */
+     , (4614,  19,       1500) /* Value */
+     , (4614,  93,       1044) /* PhysicsState */
+     , (4614,  94,      35103) /* TargetType */
+     , (4614, 107,        350) /* ItemCurMana */
+     , (4614, 108,        350) /* ItemMaxMana */
+     , (4614, 150,        103) /* HookPlacement - Hook */
+     , (4614, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4614, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (4614,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4614,  87,       1) /* ItemEfficiency */
+     , (4614, 137,       1) /* ManaStoneDestroyChance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4614,   1, 'Moderate Mana Charge') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4614,   1,   33555639) /* Setup */
+     , (4614,   8,  100676298) /* Icon */;

@@ -1,48 +1,44 @@
-/* Weenie - Academy Coat (13215) */
-DELETE FROM weenie WHERE class_Id = 13215;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13215, 'coatacademycolor6', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13215, 001 /* NAME_STRING */, 'Academy Coat')
-     , (13215, 015 /* SHORT_DESC_STRING */, 'A fur coat awarded by the Academy to those who complete their training.')
-     , (13215, 016 /* LONG_DESC_STRING */, 'A fur coat awarded by the Academy to those who complete their training.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13215, 001 /* SETUP_DID */, 33554644)
-     , (13215, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (13215, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (13215, 007 /* CLOTHINGBASE_DID */, 268436102)
-     , (13215, 008 /* ICON_DID */, 100667377)
-     , (13215, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('13215', 'coatacademycolor6', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13215, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (13215, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (13215, 004 /* CLOTHING_PRIORITY_INT */, 15360 /* OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */)
-     , (13215, 005 /* ENCUMB_VAL_INT */, 600)
-     , (13215, 008 /* MASS_INT */, 600)
-     , (13215, 009 /* LOCATIONS_INT */, 7680 /* CHEST_ARMOR_LOC, ABDOMEN_ARMOR_LOC, UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (13215, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (13215, 019 /* VALUE_INT */, 150)
-     , (13215, 027 /* ARMOR_TYPE_INT */, 2)
-     , (13215, 028 /* ARMOR_LEVEL_INT */, 30)
-     , (13215, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (13215, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13215, 012 /* SHADE_FLOAT */, 0.66)
-     , (13215, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.6)
-     , (13215, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.6)
-     , (13215, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.75)
-     , (13215, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (13215, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.03)
-     , (13215, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.75)
-     , (13215, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (13215, 110 /* BULK_MOD_FLOAT */, 1)
-     , (13215, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (13215,   1,          2) /* ItemType - Armor */
+     , (13215,   3,          8) /* PaletteTemplate - Green */
+     , (13215,   4,      15360) /* ClothingPriority */
+     , (13215,   5,        600) /* EncumbranceVal */
+     , (13215,   8,        600) /* Mass */
+     , (13215,   9,       7680) /* ValidLocations */
+     , (13215,  16,          1) /* ItemUseable - No */
+     , (13215,  19,        150) /* Value */
+     , (13215,  27,          2) /* ArmorType */
+     , (13215,  28,         30) /* ArmorLevel */
+     , (13215,  33,          1) /* Bonded - Bonded */
+     , (13215,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13215, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (13215,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (13215,  12,    0.66) /* Shade */
+     , (13215,  13,     0.6) /* ArmorModVsSlash */
+     , (13215,  14,     0.6) /* ArmorModVsPierce */
+     , (13215,  15,    0.75) /* ArmorModVsBludgeon */
+     , (13215,  16,       1) /* ArmorModVsCold */
+     , (13215,  17,    0.03) /* ArmorModVsFire */
+     , (13215,  18,    0.75) /* ArmorModVsAcid */
+     , (13215,  19,     0.6) /* ArmorModVsElectric */
+     , (13215, 110,       1) /* BulkMod */
+     , (13215, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (13215,   1, 'Academy Coat') /* Name */
+     , (13215,  15, 'A fur coat awarded by the Academy to those who complete their training.') /* ShortDesc */
+     , (13215,  16, 'A fur coat awarded by the Academy to those who complete their training.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (13215,   1,   33554644) /* Setup */
+     , (13215,   3,  536870932) /* SoundTable */
+     , (13215,   6,   67108990) /* PaletteBase */
+     , (13215,   7,  268436102) /* ClothingBase */
+     , (13215,   8,  100667377) /* Icon */
+     , (13215,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,42 +1,38 @@
-/* Weenie - Map to Burun Lair (27700) */
-DELETE FROM weenie WHERE class_Id = 27700;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27700, 'maprenegadeburun', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27700, 001 /* NAME_STRING */, 'Map to Burun Lair');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27700, 001 /* SETUP_DID */, 33558748)
-     , (27700, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27700, 008 /* ICON_DID */, 100676545)
-     , (27700, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27700', 'maprenegadeburun', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27700, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (27700, 005 /* ENCUMB_VAL_INT */, 25)
-     , (27700, 008 /* MASS_INT */, 5)
-     , (27700, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27700, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (27700, 019 /* VALUE_INT */, 10)
-     , (27700, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27700, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27700, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27700, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (27700,   1,       8192) /* ItemType - Writable */
+     , (27700,   5,         25) /* EncumbranceVal */
+     , (27700,   8,          5) /* Mass */
+     , (27700,   9,          0) /* ValidLocations - None */
+     , (27700,  16,          8) /* ItemUseable - Contained */
+     , (27700,  19,         10) /* Value */
+     , (27700,  93,       1044) /* PhysicsState */
+     , (27700, 150,        103) /* HookPlacement - Hook */
+     , (27700, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27700, 022 /* INSCRIBABLE_BOOL */, False)
-     , (27700, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (27700,  22, False) /* Inscribable */
+     , (27700,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27700,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27700,   1, 'Map to Burun Lair') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27700,   1,   33558748) /* Setup */
+     , (27700,   3,  536870932) /* SoundTable */
+     , (27700,   8,  100676545) /* Icon */
+     , (27700,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (27700, 1, 1000) /* Book Data */;
+VALUES (27700, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (27700, 0, 4294967295, 'Muldaveus', 'prewritten', False, 'Brothers,
 On the reverse side of this parchment is a map that our scouts have drawn of the area we believe we can make contact with the Burun. See the chest bearing our gifts to the Burun delivered. Your efforts will earn you great accolades when this war is won!
 (A crude map marks X as the location of the Burun Holding where the Renegades delivered their goods.)
 ');
-

@@ -1,28 +1,24 @@
-/* Weenie - Master Tawa's (2280) */
-DELETE FROM weenie WHERE class_Id = 2280;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2280, 'sawatoarchmagesign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2280, 001 /* NAME_STRING */, 'Master Tawa''s')
-     , (2280, 016 /* LONG_DESC_STRING */, 'Master Tawa''s');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2280, 001 /* SETUP_DID */, 33555594)
-     , (2280, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2280', 'sawatoarchmagesign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2280, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (2280, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (2280, 008 /* MASS_INT */, 1800)
-     , (2280, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2280, 019 /* VALUE_INT */, 125)
-     , (2280, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (2280,   1,        128) /* ItemType - Misc */
+     , (2280,   5,       9000) /* EncumbranceVal */
+     , (2280,   8,       1800) /* Mass */
+     , (2280,  16,          1) /* ItemUseable - No */
+     , (2280,  19,        125) /* Value */
+     , (2280,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2280, 001 /* STUCK_BOOL */, True)
-     , (2280, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (2280, 013 /* ETHEREAL_BOOL */, False)
-     , (2280, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (2280,   1, True ) /* Stuck */
+     , (2280,  12, True ) /* ReportCollisions */
+     , (2280,  13, False) /* Ethereal */
+     , (2280,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2280,   1, 'Master Tawa''s') /* Name */
+     , (2280,  16, 'Master Tawa''s') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2280,   1,   33555594) /* Setup */
+     , (2280,   8,  100668115) /* Icon */;

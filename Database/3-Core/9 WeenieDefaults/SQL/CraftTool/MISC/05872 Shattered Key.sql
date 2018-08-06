@@ -1,40 +1,36 @@
-/* Weenie - Shattered Key (5872) */
-DELETE FROM weenie WHERE class_Id = 5872;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5872, 'keyironfrore', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5872, 001 /* NAME_STRING */, 'Shattered Key')
-     , (5872, 014 /* USE_STRING */, 'Use this item on the missing half to make a complete key.')
-     , (5872, 015 /* SHORT_DESC_STRING */, 'A plain iron key, broken in half. It cannot be used.')
-     , (5872, 016 /* LONG_DESC_STRING */, 'A plain iron key, broken in half. If repaired, it can be used somewhere in the Lost City of Frore.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5872, 001 /* SETUP_DID */, 33554784)
-     , (5872, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5872, 008 /* ICON_DID */, 100667573)
-     , (5872, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5872', 'keyironfrore', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5872, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (5872, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5872, 008 /* MASS_INT */, 5)
-     , (5872, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5872, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (5872, 012 /* STACK_SIZE_INT */, 1)
-     , (5872, 013 /* STACK_UNIT_ENCUMB_INT */, 25)
-     , (5872, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (5872, 015 /* STACK_UNIT_VALUE_INT */, 20)
-     , (5872, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (5872, 019 /* VALUE_INT */, 20)
-     , (5872, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5872, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5872, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (5872,   1,        128) /* ItemType - Misc */
+     , (5872,   5,         25) /* EncumbranceVal */
+     , (5872,   8,          5) /* Mass */
+     , (5872,   9,          0) /* ValidLocations - None */
+     , (5872,  11,          1) /* MaxStackSize */
+     , (5872,  12,          1) /* StackSize */
+     , (5872,  13,         25) /* StackUnitEncumbrance */
+     , (5872,  14,          5) /* StackUnitMass */
+     , (5872,  15,         20) /* StackUnitValue */
+     , (5872,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (5872,  19,         20) /* Value */
+     , (5872,  93,       1044) /* PhysicsState */
+     , (5872,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5872, 022 /* INSCRIBABLE_BOOL */, True)
-     , (5872, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (5872,  22, True ) /* Inscribable */
+     , (5872,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5872,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5872,   1, 'Shattered Key') /* Name */
+     , (5872,  14, 'Use this item on the missing half to make a complete key.') /* Use */
+     , (5872,  15, 'A plain iron key, broken in half. It cannot be used.') /* ShortDesc */
+     , (5872,  16, 'A plain iron key, broken in half. If repaired, it can be used somewhere in the Lost City of Frore.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5872,   1,   33554784) /* Setup */
+     , (5872,   3,  536870932) /* SoundTable */
+     , (5872,   8,  100667573) /* Icon */
+     , (5872,  22,  872415275) /* PhysicsEffectTable */;

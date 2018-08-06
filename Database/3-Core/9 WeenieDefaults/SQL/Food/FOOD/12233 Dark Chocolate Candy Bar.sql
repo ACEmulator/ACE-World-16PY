@@ -1,43 +1,39 @@
-/* Weenie - Dark Chocolate Candy Bar (12233) */
-DELETE FROM weenie WHERE class_Id = 12233;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12233, 'candychocolatedark', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12233, 001 /* NAME_STRING */, 'Dark Chocolate Candy Bar')
-     , (12233, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (12233, 015 /* SHORT_DESC_STRING */, 'A dark chocolate candy with a sticky, sweet center.')
-     , (12233, 020 /* PLURAL_NAME_STRING */, 'Dark Chocolate Candy Bars');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12233, 001 /* SETUP_DID */, 33555677)
-     , (12233, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12233, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12233, 007 /* CLOTHINGBASE_DID */, 268435979)
-     , (12233, 008 /* ICON_DID */, 100672208)
-     , (12233, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12233', 'candychocolatedark', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12233, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (12233, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (12233, 005 /* ENCUMB_VAL_INT */, 20)
-     , (12233, 008 /* MASS_INT */, 10)
-     , (12233, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (12233, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (12233, 012 /* STACK_SIZE_INT */, 1)
-     , (12233, 013 /* STACK_UNIT_ENCUMB_INT */, 20)
-     , (12233, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (12233, 015 /* STACK_UNIT_VALUE_INT */, 45)
-     , (12233, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (12233, 019 /* VALUE_INT */, 45)
-     , (12233, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (12233, 090 /* BOOST_VALUE_INT */, 35)
-     , (12233, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12233, 039 /* DEFAULT_SCALE_FLOAT */, 0.7);
+VALUES (12233,   1,         32) /* ItemType - Food */
+     , (12233,   3,          4) /* PaletteTemplate - Brown */
+     , (12233,   5,         20) /* EncumbranceVal */
+     , (12233,   8,         10) /* Mass */
+     , (12233,   9,          0) /* ValidLocations - None */
+     , (12233,  11,        100) /* MaxStackSize */
+     , (12233,  12,          1) /* StackSize */
+     , (12233,  13,         20) /* StackUnitEncumbrance */
+     , (12233,  14,         10) /* StackUnitMass */
+     , (12233,  15,         45) /* StackUnitValue */
+     , (12233,  16,          8) /* ItemUseable - Contained */
+     , (12233,  19,         45) /* Value */
+     , (12233,  89,          4) /* BoosterEnum - Stamina */
+     , (12233,  90,         35) /* BoostValue */
+     , (12233,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12233, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (12233,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12233,  39,     0.7) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12233,   1, 'Dark Chocolate Candy Bar') /* Name */
+     , (12233,  14, 'Use this item to eat it.') /* Use */
+     , (12233,  15, 'A dark chocolate candy with a sticky, sweet center.') /* ShortDesc */
+     , (12233,  20, 'Dark Chocolate Candy Bars') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12233,   1,   33555677) /* Setup */
+     , (12233,   3,  536870932) /* SoundTable */
+     , (12233,   6,   67111919) /* PaletteBase */
+     , (12233,   7,  268435979) /* ClothingBase */
+     , (12233,   8,  100672208) /* Icon */
+     , (12233,  22,  872415275) /* PhysicsEffectTable */;

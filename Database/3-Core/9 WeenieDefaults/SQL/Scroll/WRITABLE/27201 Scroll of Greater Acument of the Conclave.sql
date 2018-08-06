@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Greater Acument of the Conclave (27201) */
-DELETE FROM weenie WHERE class_Id = 27201;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27201, 'scrollfocusfellowship6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27201, 001 /* NAME_STRING */, 'Scroll of Greater Acument of the Conclave')
-     , (27201, 015 /* SHORT_DESC_STRING */, 'A magic scroll.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27201, 001 /* SETUP_DID */, 33554826)
-     , (27201, 008 /* ICON_DID */, 100676458)
-     , (27201, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27201, 028 /* SPELL_DID */, 3165 /* FocusFellowship6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27201', 'scrollfocusfellowship6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27201, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (27201, 005 /* ENCUMB_VAL_INT */, 10)
-     , (27201, 008 /* MASS_INT */, 90)
-     , (27201, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27201, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (27201, 019 /* VALUE_INT */, 0)
-     , (27201, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27201, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (27201,   1,       8192) /* ItemType - Writable */
+     , (27201,   5,         10) /* EncumbranceVal */
+     , (27201,   8,         90) /* Mass */
+     , (27201,   9,          0) /* ValidLocations - None */
+     , (27201,  16,          8) /* ItemUseable - Contained */
+     , (27201,  19,          0) /* Value */
+     , (27201,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27201, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27201, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27201,  22, True ) /* Inscribable */
+     , (27201,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27201,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27201,   1, 'Scroll of Greater Acument of the Conclave') /* Name */
+     , (27201,  15, 'A magic scroll.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27201,   1,   33554826) /* Setup */
+     , (27201,   8,  100676458) /* Icon */
+     , (27201,  22,  872415275) /* PhysicsEffectTable */
+     , (27201,  28,       3165) /* Spell - Greater Acumen of the Conclave */;

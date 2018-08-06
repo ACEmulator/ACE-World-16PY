@@ -1,36 +1,32 @@
-/* Weenie - Fried Rabbit  (5635) */
-DELETE FROM weenie WHERE class_Id = 5635;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5635, 'friedrabbit', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5635, 001 /* NAME_STRING */, 'Fried Rabbit ')
-     , (5635, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5635, 020 /* PLURAL_NAME_STRING */, 'Fried Rabbits');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5635, 001 /* SETUP_DID */, 33556031)
-     , (5635, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5635, 008 /* ICON_DID */, 100670272)
-     , (5635, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5635', 'friedrabbit', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5635, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5635, 005 /* ENCUMB_VAL_INT */, 75)
-     , (5635, 008 /* MASS_INT */, 50)
-     , (5635, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5635, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5635, 012 /* STACK_SIZE_INT */, 1)
-     , (5635, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
-     , (5635, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (5635, 015 /* STACK_UNIT_VALUE_INT */, 20)
-     , (5635, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5635, 019 /* VALUE_INT */, 20)
-     , (5635, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (5635, 090 /* BOOST_VALUE_INT */, 12)
-     , (5635, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5635,   1,         32) /* ItemType - Food */
+     , (5635,   5,         75) /* EncumbranceVal */
+     , (5635,   8,         50) /* Mass */
+     , (5635,   9,          0) /* ValidLocations - None */
+     , (5635,  11,        100) /* MaxStackSize */
+     , (5635,  12,          1) /* StackSize */
+     , (5635,  13,         75) /* StackUnitEncumbrance */
+     , (5635,  14,         50) /* StackUnitMass */
+     , (5635,  15,         20) /* StackUnitValue */
+     , (5635,  16,          8) /* ItemUseable - Contained */
+     , (5635,  19,         20) /* Value */
+     , (5635,  89,          4) /* BoosterEnum - Stamina */
+     , (5635,  90,         12) /* BoostValue */
+     , (5635,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5635, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5635,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5635,   1, 'Fried Rabbit ') /* Name */
+     , (5635,  14, 'Use this item to eat it.') /* Use */
+     , (5635,  20, 'Fried Rabbits') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5635,   1,   33556031) /* Setup */
+     , (5635,   3,  536870932) /* SoundTable */
+     , (5635,   8,  100670272) /* Icon */
+     , (5635,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,35 +1,31 @@
-/* Weenie - Niffis Fighting Pits (30394) */
-DELETE FROM weenie WHERE class_Id = 30394;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30394, 'portallittlestniffis', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30394, 001 /* NAME_STRING */, 'Niffis Fighting Pits');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30394, 001 /* SETUP_DID */, 33555925)
-     , (30394, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (30394, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30394', 'portallittlestniffis', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30394, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (30394, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (30394, 086 /* MIN_LEVEL_INT */, 80)
-     , (30394, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (30394, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (30394, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30394, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (30394,   1,      65536) /* ItemType - Portal */
+     , (30394,  16,         32) /* ItemUseable - Remote */
+     , (30394,  86,         80) /* MinLevel */
+     , (30394,  93,       3084) /* PhysicsState */
+     , (30394, 111,         49) /* PortalBitmask */
+     , (30394, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30394, 001 /* STUCK_BOOL */, True)
-     , (30394, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (30394, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (30394, 013 /* ETHEREAL_BOOL */, True)
-     , (30394, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (30394,   1, True ) /* Stuck */
+     , (30394,  11, False) /* IgnoreCollisions */
+     , (30394,  12, True ) /* ReportCollisions */
+     , (30394,  13, True ) /* Ethereal */
+     , (30394,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30394,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30394,   1, 'Niffis Fighting Pits') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30394,   1,   33555925) /* Setup */
+     , (30394,   2,  150994947) /* MotionTable */
+     , (30394,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30394, 2, 197022, 112, -0.8, 0.5, -4.371139E-08, 0, 0, -1) /* DESTINATION_POSITION */;
-
+VALUES (30394, 2, 197022, 112, -0.8, 0.5, -4.371139E-08, 0, 0, -1) /* Destination */;

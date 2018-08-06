@@ -1,29 +1,25 @@
-/* Weenie - East Samsur Outpost (5076) */
-DELETE FROM weenie WHERE class_Id = 5076;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5076, 'samsureastoutpostsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5076, 001 /* NAME_STRING */, 'East Samsur Outpost')
-     , (5076, 016 /* LONG_DESC_STRING */, 'Welcome to the East Samsur Outpost.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5076, 001 /* SETUP_DID */, 33555088)
-     , (5076, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5076', 'samsureastoutpostsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5076, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (5076, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (5076, 008 /* MASS_INT */, 1800)
-     , (5076, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5076, 019 /* VALUE_INT */, 125)
-     , (5076, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (5076,   1,        128) /* ItemType - Misc */
+     , (5076,   5,       9000) /* EncumbranceVal */
+     , (5076,   8,       1800) /* Mass */
+     , (5076,  16,          1) /* ItemUseable - No */
+     , (5076,  19,        125) /* Value */
+     , (5076,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5076, 001 /* STUCK_BOOL */, True)
-     , (5076, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5076, 013 /* ETHEREAL_BOOL */, False)
-     , (5076, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (5076, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5076,   1, True ) /* Stuck */
+     , (5076,  12, True ) /* ReportCollisions */
+     , (5076,  13, False) /* Ethereal */
+     , (5076,  14, False) /* GravityStatus */
+     , (5076,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5076,   1, 'East Samsur Outpost') /* Name */
+     , (5076,  16, 'Welcome to the East Samsur Outpost.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5076,   1,   33555088) /* Setup */
+     , (5076,   8,  100668115) /* Icon */;

@@ -1,60 +1,56 @@
-/* Weenie - Heavy Gromnie Hide Leggings (28152) */
-DELETE FROM weenie WHERE class_Id = 28152;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28152, 'leggingsgromniehideheavy', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28152, 001 /* NAME_STRING */, 'Heavy Gromnie Hide Leggings')
-     , (28152, 016 /* LONG_DESC_STRING */, 'A pair of amullian leggings crafted from the hide of a brass gromnie.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28152, 001 /* SETUP_DID */, 33554856)
-     , (28152, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28152, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (28152, 007 /* CLOTHINGBASE_DID */, 268436857)
-     , (28152, 008 /* ICON_DID */, 100670443)
-     , (28152, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28152', 'leggingsgromniehideheavy', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28152, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (28152, 003 /* PALETTE_TEMPLATE_INT */, 17 /* YELLOW_PALETTE_TEMPLATE */)
-     , (28152, 004 /* CLOTHING_PRIORITY_INT */, 2816 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */)
-     , (28152, 005 /* ENCUMB_VAL_INT */, 1200)
-     , (28152, 008 /* MASS_INT */, 1275)
-     , (28152, 009 /* LOCATIONS_INT */, 25600 /* ABDOMEN_ARMOR_LOC, UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (28152, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28152, 019 /* VALUE_INT */, 4575)
-     , (28152, 027 /* ARMOR_TYPE_INT */, 2)
-     , (28152, 028 /* ARMOR_LEVEL_INT */, 280)
-     , (28152, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28152, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (28152, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (28152, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (28152, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (28152, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (28152, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (28152, 160 /* WIELD_DIFFICULTY_INT */, 50);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28152, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (28152, 012 /* SHADE_FLOAT */, 0.5)
-     , (28152, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (28152, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (28152, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (28152, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (28152, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (28152, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (28152, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (28152, 110 /* BULK_MOD_FLOAT */, 1.1)
-     , (28152, 111 /* SIZE_MOD_FLOAT */, 1.5);
+VALUES (28152,   1,          2) /* ItemType - Armor */
+     , (28152,   3,         17) /* PaletteTemplate - Yellow */
+     , (28152,   4,       2816) /* ClothingPriority */
+     , (28152,   5,       1200) /* EncumbranceVal */
+     , (28152,   8,       1275) /* Mass */
+     , (28152,   9,      25600) /* ValidLocations */
+     , (28152,  16,          1) /* ItemUseable - No */
+     , (28152,  19,       4575) /* Value */
+     , (28152,  27,          2) /* ArmorType */
+     , (28152,  28,        280) /* ArmorLevel */
+     , (28152,  93,       1044) /* PhysicsState */
+     , (28152, 106,        200) /* ItemSpellcraft */
+     , (28152, 107,       1000) /* ItemCurMana */
+     , (28152, 108,       1000) /* ItemMaxMana */
+     , (28152, 109,        150) /* ItemDifficulty */
+     , (28152, 158,          7) /* WieldRequirements - Level */
+     , (28152, 159,          1) /* WieldSkilltype - Axe */
+     , (28152, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28152, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28152, 100 /* DYABLE_BOOL */, True);
+VALUES (28152,  22, True ) /* Inscribable */
+     , (28152, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28152,   5,  -0.033) /* ManaRate */
+     , (28152,  12,     0.5) /* Shade */
+     , (28152,  13,       1) /* ArmorModVsSlash */
+     , (28152,  14,       1) /* ArmorModVsPierce */
+     , (28152,  15,       1) /* ArmorModVsBludgeon */
+     , (28152,  16,       1) /* ArmorModVsCold */
+     , (28152,  17,       1) /* ArmorModVsFire */
+     , (28152,  18,       1) /* ArmorModVsAcid */
+     , (28152,  19,       1) /* ArmorModVsElectric */
+     , (28152, 110,     1.1) /* BulkMod */
+     , (28152, 111,     1.5) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28152,   1, 'Heavy Gromnie Hide Leggings') /* Name */
+     , (28152,  16, 'A pair of amullian leggings crafted from the hide of a brass gromnie.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28152,   1,   33554856) /* Setup */
+     , (28152,   3,  536870932) /* SoundTable */
+     , (28152,   6,   67108990) /* PaletteBase */
+     , (28152,   7,  268436857) /* ClothingBase */
+     , (28152,   8,  100670443) /* Icon */
+     , (28152,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28152, 1540, 2) /* LightningBane6_SpellID */
-     , (28152, 1486, 2) /* Impenetrability6_SpellID */
-     , (28152, 1316, 2) /* ArmorOther5_SpellID */;
-
+VALUES (28152,  1316,      2)  /* Armor Other V */
+     , (28152,  1486,      2)  /* Impenetrability VI */
+     , (28152,  1540,      2)  /* Lightning Bane VI */;

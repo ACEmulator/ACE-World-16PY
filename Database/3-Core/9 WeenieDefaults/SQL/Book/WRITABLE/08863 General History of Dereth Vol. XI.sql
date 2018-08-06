@@ -1,35 +1,32 @@
-/* Weenie - General History of Dereth Vol. XI (8863) */
-DELETE FROM weenie WHERE class_Id = 8863;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8863, 'histoct00', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8863, 001 /* NAME_STRING */, 'General History of Dereth Vol. XI');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8863, 001 /* SETUP_DID */, 33554771)
-     , (8863, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8863, 008 /* ICON_DID */, 100668117)
-     , (8863, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8863', 'histoct00', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8863, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8863, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8863, 008 /* MASS_INT */, 10)
-     , (8863, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8863, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8863, 019 /* VALUE_INT */, 0)
-     , (8863, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8863, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8863,   1,       8192) /* ItemType - Writable */
+     , (8863,   5,         10) /* EncumbranceVal */
+     , (8863,   8,         10) /* Mass */
+     , (8863,   9,          0) /* ValidLocations - None */
+     , (8863,  16,          8) /* ItemUseable - Contained */
+     , (8863,  19,          0) /* Value */
+     , (8863,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8863, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8863,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8863,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8863,   1, 'General History of Dereth Vol. XI') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8863,   1,   33554771) /* Setup */
+     , (8863,   3,  536870932) /* SoundTable */
+     , (8863,   8,  100668117) /* Icon */
+     , (8863,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8863, 12, 1000) /* Book Data */;
+VALUES (8863, 12, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8863, 0, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, '
@@ -81,4 +78,3 @@ Leopold was hardly the most worrisome Virindi of the month. The underground redo
 
 A final ill wind blew through the Direlands during Harvestgain . . . In a small cave by the coast, one of Dereth''s most benign creatures acquired a hideous strength, heretofore unseen in the world. The time of Pookie had come . . . and by the bodies began to pile up like cordwood.
 ');
-

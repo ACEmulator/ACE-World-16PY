@@ -1,41 +1,37 @@
-/* Weenie - Shore Armoredillo Spine (3691) */
-DELETE FROM weenie WHERE class_Id = 3691;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3691, 'spineshore', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3691, 001 /* NAME_STRING */, 'Shore Armoredillo Spine')
-     , (3691, 014 /* USE_STRING */, 'This spine looks as if it could function as the blade of an axe. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3691, 001 /* SETUP_DID */, 33554817)
-     , (3691, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3691, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3691, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (3691, 008 /* ICON_DID */, 100670072)
-     , (3691, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3691', 'spineshore', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3691, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (3691, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (3691, 005 /* ENCUMB_VAL_INT */, 220)
-     , (3691, 008 /* MASS_INT */, 110)
-     , (3691, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3691, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (3691, 012 /* STACK_SIZE_INT */, 1)
-     , (3691, 013 /* STACK_UNIT_ENCUMB_INT */, 220)
-     , (3691, 014 /* STACK_UNIT_MASS_INT */, 110)
-     , (3691, 015 /* STACK_UNIT_VALUE_INT */, 60)
-     , (3691, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (3691, 019 /* VALUE_INT */, 60)
-     , (3691, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3691, 094 /* TARGET_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3691, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
+VALUES (3691,   1,        128) /* ItemType - Misc */
+     , (3691,   3,          8) /* PaletteTemplate - Green */
+     , (3691,   5,        220) /* EncumbranceVal */
+     , (3691,   8,        110) /* Mass */
+     , (3691,   9,          0) /* ValidLocations - None */
+     , (3691,  11,          1) /* MaxStackSize */
+     , (3691,  12,          1) /* StackSize */
+     , (3691,  13,        220) /* StackUnitEncumbrance */
+     , (3691,  14,        110) /* StackUnitMass */
+     , (3691,  15,         60) /* StackUnitValue */
+     , (3691,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (3691,  19,         60) /* Value */
+     , (3691,  93,       1044) /* PhysicsState */
+     , (3691,  94,          1) /* TargetType - MeleeWeapon */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3691, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3691, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3691,  22, True ) /* Inscribable */
+     , (3691,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3691,  39,     0.4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3691,   1, 'Shore Armoredillo Spine') /* Name */
+     , (3691,  14, 'This spine looks as if it could function as the blade of an axe. ') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3691,   1,   33554817) /* Setup */
+     , (3691,   3,  536870932) /* SoundTable */
+     , (3691,   6,   67111919) /* PaletteBase */
+     , (3691,   7,  268435832) /* ClothingBase */
+     , (3691,   8,  100670072) /* Icon */
+     , (3691,  22,  872415275) /* PhysicsEffectTable */;

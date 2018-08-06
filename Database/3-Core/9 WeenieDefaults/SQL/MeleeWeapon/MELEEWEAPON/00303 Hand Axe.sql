@@ -1,49 +1,45 @@
-/* Weenie - Hand Axe (303) */
-DELETE FROM weenie WHERE class_Id = 303;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (303, 'axehand', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (303, 001 /* NAME_STRING */, 'Hand Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (303, 001 /* SETUP_DID */, 33554727)
-     , (303, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (303, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (303, 007 /* CLOTHINGBASE_DID */, 268435837)
-     , (303, 008 /* ICON_DID */, 100670216)
-     , (303, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (303, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (303, 046 /* TSYS_MUTATION_FILTER_DID */, 939524098);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('303', 'axehand', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (303, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (303, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (303, 005 /* ENCUMB_VAL_INT */, 450)
-     , (303, 008 /* MASS_INT */, 180)
-     , (303, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (303, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (303, 019 /* VALUE_INT */, 130)
-     , (303, 044 /* DAMAGE_INT */, 10)
-     , (303, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (303, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (303, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (303, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (303, 049 /* WEAPON_TIME_INT */, 30)
-     , (303, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (303, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (303, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (303, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (303, 169 /* TSYS_MUTATION_DATA_INT */, 101188618);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (303, 021 /* WEAPON_LENGTH_FLOAT */, 0.41)
-     , (303, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (303, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (303, 039 /* DEFAULT_SCALE_FLOAT */, 1.2)
-     , (303, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (303,   1,          1) /* ItemType - MeleeWeapon */
+     , (303,   3,         20) /* PaletteTemplate - Silver */
+     , (303,   5,        450) /* EncumbranceVal */
+     , (303,   8,        180) /* Mass */
+     , (303,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (303,  16,          1) /* ItemUseable - No */
+     , (303,  19,        130) /* Value */
+     , (303,  44,         10) /* Damage */
+     , (303,  45,          1) /* DamageType - Slash */
+     , (303,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (303,  47,          4) /* AttackType - Slash */
+     , (303,  48,          1) /* WeaponSkill - Axe */
+     , (303,  49,         30) /* WeaponTime */
+     , (303,  51,          1) /* CombatUse - Melee */
+     , (303,  93,       1044) /* PhysicsState */
+     , (303, 150,        103) /* HookPlacement - Hook */
+     , (303, 151,          2) /* HookType - Wall */
+     , (303, 169,  101188618) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (303, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (303,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (303,  21,    0.41) /* WeaponLength */
+     , (303,  22,     0.5) /* DamageVariance */
+     , (303,  29,       1) /* WeaponDefense */
+     , (303,  39,     1.2) /* DefaultScale */
+     , (303,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (303,   1, 'Hand Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (303,   1,   33554727) /* Setup */
+     , (303,   3,  536870932) /* SoundTable */
+     , (303,   6,   67111919) /* PaletteBase */
+     , (303,   7,  268435837) /* ClothingBase */
+     , (303,   8,  100670216) /* Icon */
+     , (303,  22,  872415275) /* PhysicsEffectTable */
+     , (303,  36,  234881053) /* MutateFilter */
+     , (303,  46,  939524098) /* TsysMutationFilter */;

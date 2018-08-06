@@ -1,50 +1,46 @@
-/* Weenie - Lesser Celdon Leggings of Lightning (7714) */
-DELETE FROM weenie WHERE class_Id = 7714;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7714, 'leggingsceldonshadowlessernewlightning', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7714, 001 /* NAME_STRING */, 'Lesser Celdon Leggings of Lightning');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7714, 001 /* SETUP_DID */, 33554856)
-     , (7714, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7714, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (7714, 007 /* CLOTHINGBASE_DID */, 268435844)
-     , (7714, 008 /* ICON_DID */, 100670420)
-     , (7714, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7714', 'leggingsceldonshadowlessernewlightning', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7714, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (7714, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (7714, 004 /* CLOTHING_PRIORITY_INT */, 768 /* OuterwearUpperLegs, OuterwearLowerLegs */)
-     , (7714, 005 /* ENCUMB_VAL_INT */, 2100)
-     , (7714, 008 /* MASS_INT */, 1200)
-     , (7714, 009 /* LOCATIONS_INT */, 24576 /* UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (7714, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7714, 019 /* VALUE_INT */, 2140)
-     , (7714, 027 /* ARMOR_TYPE_INT */, 32)
-     , (7714, 028 /* ARMOR_LEVEL_INT */, 130)
-     , (7714, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7714, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (7714, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7714, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7714, 012 /* SHADE_FLOAT */, 0.4)
-     , (7714, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (7714, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (7714, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (7714, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.2)
-     , (7714, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
-     , (7714, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0)
-     , (7714, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 2)
-     , (7714, 110 /* BULK_MOD_FLOAT */, 1)
-     , (7714, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (7714,   1,          2) /* ItemType - Armor */
+     , (7714,   3,         13) /* PaletteTemplate - Purple */
+     , (7714,   4,        768) /* ClothingPriority */
+     , (7714,   5,       2100) /* EncumbranceVal */
+     , (7714,   8,       1200) /* Mass */
+     , (7714,   9,      24576) /* ValidLocations */
+     , (7714,  16,          1) /* ItemUseable - No */
+     , (7714,  19,       2140) /* Value */
+     , (7714,  27,         32) /* ArmorType */
+     , (7714,  28,        130) /* ArmorLevel */
+     , (7714,  33,          1) /* Bonded - Bonded */
+     , (7714,  36,       9999) /* ResistMagic */
+     , (7714,  93,       1044) /* PhysicsState */
+     , (7714, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7714, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7714, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7714, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7714,  22, True ) /* Inscribable */
+     , (7714,  23, True ) /* DestroyOnSell */
+     , (7714,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7714,  12,     0.4) /* Shade */
+     , (7714,  13,     1.3) /* ArmorModVsSlash */
+     , (7714,  14,       1) /* ArmorModVsPierce */
+     , (7714,  15,       1) /* ArmorModVsBludgeon */
+     , (7714,  16,     1.2) /* ArmorModVsCold */
+     , (7714,  17,     1.2) /* ArmorModVsFire */
+     , (7714,  18,       0) /* ArmorModVsAcid */
+     , (7714,  19,       2) /* ArmorModVsElectric */
+     , (7714, 110,       1) /* BulkMod */
+     , (7714, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7714,   1, 'Lesser Celdon Leggings of Lightning') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7714,   1,   33554856) /* Setup */
+     , (7714,   3,  536870932) /* SoundTable */
+     , (7714,   6,   67108990) /* PaletteBase */
+     , (7714,   7,  268435844) /* ClothingBase */
+     , (7714,   8,  100670420) /* Icon */
+     , (7714,  22,  872415275) /* PhysicsEffectTable */;

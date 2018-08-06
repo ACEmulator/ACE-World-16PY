@@ -1,31 +1,27 @@
-/* Weenie - Life Stone (509) */
-DELETE FROM weenie WHERE class_Id = 509;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (509, 'lifestone', 25 /* LifeStone_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (509, 001 /* NAME_STRING */, 'Life Stone')
-     , (509, 014 /* USE_STRING */, 'Use this item to set your resurrection point.')
-     , (509, 018 /* USE_MESSAGE_STRING */, 'You have attuned your spirit to this Lifestone. You will resurrect here after you die.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (509, 001 /* SETUP_DID */, 33555182)
-     , (509, 002 /* MOTION_TABLE_DID */, 150994982)
-     , (509, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (509, 008 /* ICON_DID */, 100668245);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('509', 'lifestone', 25) /* LifeStone */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (509, 001 /* ITEM_TYPE_INT */, 268435456 /* TYPE_LIFESTONE */)
-     , (509, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (509, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (509, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (509, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (509,   1,  268435456) /* ItemType - LifeStone */
+     , (509,  16,         32) /* ItemUseable - Remote */
+     , (509,  93,       1040) /* PhysicsState */
+     , (509, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (509, 001 /* STUCK_BOOL */, True)
-     , (509, 012 /* REPORT_COLLISIONS_BOOL */, False)
-     , (509, 013 /* ETHEREAL_BOOL */, False);
+VALUES (509,   1, True ) /* Stuck */
+     , (509,  12, False) /* ReportCollisions */
+     , (509,  13, False) /* Ethereal */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (509,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (509,   1, 'Life Stone') /* Name */
+     , (509,  14, 'Use this item to set your resurrection point.') /* Use */
+     , (509,  18, 'You have attuned your spirit to this Lifestone. You will resurrect here after you die.') /* UseMessage */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (509,   1,   33555182) /* Setup */
+     , (509,   2,  150994982) /* MotionTable */
+     , (509,   3,  536870932) /* SoundTable */
+     , (509,   8,  100668245) /* Icon */;

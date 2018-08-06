@@ -1,41 +1,39 @@
-/* Weenie - Matron Hive South (24435) */
-DELETE FROM weenie WHERE class_Id = 24435;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24435, 'portalasheroninvasionlow', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24435, 001 /* NAME_STRING */, 'Matron Hive South');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24435, 001 /* SETUP_DID */, 33555923)
-     , (24435, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (24435, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24435', 'portalasheroninvasionlow', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24435, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (24435, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (24435, 086 /* MIN_LEVEL_INT */, 20)
-     , (24435, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (24435, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (24435, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24435, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (24435,   1,      65536) /* ItemType - Portal */
+     , (24435,  16,         32) /* ItemUseable - Remote */
+     , (24435,  86,         20) /* MinLevel */
+     , (24435,  93,       3084) /* PhysicsState */
+     , (24435, 111,          1) /* PortalBitmask - Unrestricted */
+     , (24435, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24435, 001 /* STUCK_BOOL */, True)
-     , (24435, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (24435, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (24435, 013 /* ETHEREAL_BOOL */, True)
-     , (24435, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (24435,   1, True ) /* Stuck */
+     , (24435,  11, False) /* IgnoreCollisions */
+     , (24435,  12, True ) /* ReportCollisions */
+     , (24435,  13, True ) /* Ethereal */
+     , (24435,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24435,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24435,   1, 'Matron Hive South') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24435,   1,   33555923) /* Setup */
+     , (24435,   2,  150994947) /* MotionTable */
+     , (24435,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24435, 2, 1665532782, 140.042, -182.837, 0.005, 1, 0, 0, 0) /* DESTINATION_POSITION */;
+VALUES (24435, 2, 1665532782, 140.042, -182.837, 0.005, 1, 0, 0, 0) /* Destination */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24435, 1, 7 /* Use_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (24435,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24435, 7 /* Use_EmoteCategory */, 0, 0, 22 /* StampQuest_EmoteType */, 0, 1, NULL, 'HelpedAsheron', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+SET @parent_id = LAST_INSERT_ID();
 
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'HelpedAsheron', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

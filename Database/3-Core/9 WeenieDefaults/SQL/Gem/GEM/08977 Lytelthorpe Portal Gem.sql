@@ -1,50 +1,46 @@
-/* Weenie - Lytelthorpe Portal Gem (8977) */
-DELETE FROM weenie WHERE class_Id = 8977;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8977, 'gemportallytelthorpe', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8977, 001 /* NAME_STRING */, 'Lytelthorpe Portal Gem')
-     , (8977, 015 /* SHORT_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.')
-     , (8977, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8977, 001 /* SETUP_DID */, 33556769)
-     , (8977, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8977, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8977, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (8977, 008 /* ICON_DID */, 100674859)
-     , (8977, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8977, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (8977, 031 /* LINKED_PORTAL_ONE_DID */, 8998 /* Lytelthorpe Portal */)
-     , (8977, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8977', 'gemportallytelthorpe', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8977, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8977, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (8977, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8977, 008 /* MASS_INT */, 10)
-     , (8977, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8977, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (8977, 012 /* STACK_SIZE_INT */, 1)
-     , (8977, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8977, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (8977, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (8977, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8977, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8977, 019 /* VALUE_INT */, 500)
-     , (8977, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8977, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (8977, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (8977, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (8977, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (8977, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (8977, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (8977, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8977, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (8977,   1,       2048) /* ItemType - Gem */
+     , (8977,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (8977,   5,         10) /* EncumbranceVal */
+     , (8977,   8,         10) /* Mass */
+     , (8977,   9,          0) /* ValidLocations - None */
+     , (8977,  11,         25) /* MaxStackSize */
+     , (8977,  12,          1) /* StackSize */
+     , (8977,  13,         10) /* StackUnitEncumbrance */
+     , (8977,  14,         10) /* StackUnitMass */
+     , (8977,  15,        500) /* StackUnitValue */
+     , (8977,  16,          8) /* ItemUseable - Contained */
+     , (8977,  18,          1) /* UiEffects - Magical */
+     , (8977,  19,        500) /* Value */
+     , (8977,  93,       3092) /* PhysicsState */
+     , (8977,  94,         16) /* TargetType - Creature */
+     , (8977, 106,        210) /* ItemSpellcraft */
+     , (8977, 107,         50) /* ItemCurMana */
+     , (8977, 108,         50) /* ItemMaxMana */
+     , (8977, 109,          0) /* ItemDifficulty */
+     , (8977, 110,          0) /* ItemAllegianceRankLimit */
+     , (8977, 150,        103) /* HookPlacement - Hook */
+     , (8977, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8977, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (8977, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8977,  15, True ) /* LightsStatus */
+     , (8977,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8977,   1, 'Lytelthorpe Portal Gem') /* Name */
+     , (8977,  15, 'This portal summoning gem works best if used outside in a relatively flat area.') /* ShortDesc */
+     , (8977,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8977,   1,   33556769) /* Setup */
+     , (8977,   3,  536870932) /* SoundTable */
+     , (8977,   6,   67111919) /* PaletteBase */
+     , (8977,   7,  268435723) /* ClothingBase */
+     , (8977,   8,  100674859) /* Icon */
+     , (8977,  22,  872415275) /* PhysicsEffectTable */
+     , (8977,  28,        157) /* Spell - Summon Primary Portal I */
+     , (8977,  31,       8998) /* LinkedPortalOne - Lytelthorpe Portal */
+     , (8977,  36,  234881046) /* MutateFilter */;

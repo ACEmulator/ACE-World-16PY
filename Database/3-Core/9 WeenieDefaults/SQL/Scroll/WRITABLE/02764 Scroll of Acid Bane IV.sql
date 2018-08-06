@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Acid Bane IV (2764) */
-DELETE FROM weenie WHERE class_Id = 2764;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2764, 'scrollacidbane4', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2764, 001 /* NAME_STRING */, 'Scroll of Acid Bane IV')
-     , (2764, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (2764, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases a shield or piece of armor''s resistance to acid damage by 75%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2764, 001 /* SETUP_DID */, 33554826)
-     , (2764, 008 /* ICON_DID */, 100676648)
-     , (2764, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2764, 028 /* SPELL_DID */, 1496 /* AcidBane4_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2764', 'scrollacidbane4', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2764, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2764, 005 /* ENCUMB_VAL_INT */, 30)
-     , (2764, 008 /* MASS_INT */, 90)
-     , (2764, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2764, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2764, 019 /* VALUE_INT */, 100)
-     , (2764, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2764, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (2764,   1,       8192) /* ItemType - Writable */
+     , (2764,   5,         30) /* EncumbranceVal */
+     , (2764,   8,         90) /* Mass */
+     , (2764,   9,          0) /* ValidLocations - None */
+     , (2764,  16,          8) /* ItemUseable - Contained */
+     , (2764,  19,        100) /* Value */
+     , (2764,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2764, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2764, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2764,  22, True ) /* Inscribable */
+     , (2764,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2764,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2764,   1, 'Scroll of Acid Bane IV') /* Name */
+     , (2764,  15, 'A magic scroll.') /* ShortDesc */
+     , (2764,  16, 'When learned, this spell increases a shield or piece of armor''s resistance to acid damage by 75%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2764,   1,   33554826) /* Setup */
+     , (2764,   8,  100676648) /* Icon */
+     , (2764,  22,  872415275) /* PhysicsEffectTable */
+     , (2764,  28,       1496) /* Spell - Acid Bane IV */;

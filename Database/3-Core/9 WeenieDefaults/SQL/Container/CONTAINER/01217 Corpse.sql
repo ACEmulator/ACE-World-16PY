@@ -1,45 +1,41 @@
-/* Weenie - Corpse (1217) */
-DELETE FROM weenie WHERE class_Id = 1217;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1217, 'undeadcorpse', 21 /* Container_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1217, 001 /* NAME_STRING */, 'Corpse');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1217, 001 /* SETUP_DID */, 33555322)
-     , (1217, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (1217, 008 /* ICON_DID */, 100667504)
-     , (1217, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1217', 'undeadcorpse', 21) /* Container */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1217, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (1217, 005 /* ENCUMB_VAL_INT */, 3000)
-     , (1217, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (1217, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (1217, 008 /* MASS_INT */, 130)
-     , (1217, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (1217, 019 /* VALUE_INT */, 0)
-     , (1217, 081 /* MAX_GENERATED_OBJECTS_INT */, 2)
-     , (1217, 082 /* INIT_GENERATED_OBJECTS_INT */, 2)
-     , (1217, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (1217, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (1217, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1217, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (1217, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (1217, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (1217,   1,        512) /* ItemType - Container */
+     , (1217,   5,       3000) /* EncumbranceVal */
+     , (1217,   6,         -1) /* ItemsCapacity */
+     , (1217,   7,         -1) /* ContainersCapacity */
+     , (1217,   8,        130) /* Mass */
+     , (1217,  16,         48) /* ItemUseable - ViewedRemote */
+     , (1217,  19,          0) /* Value */
+     , (1217,  81,          2) /* MaxGeneratedObjects */
+     , (1217,  82,          2) /* InitGeneratedObjects */
+     , (1217,  93,       1048) /* PhysicsState */
+     , (1217,  96,        500) /* EncumbranceCapacity */
+     , (1217, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1217, 001 /* STUCK_BOOL */, True)
-     , (1217, 002 /* OPEN_BOOL */, False)
-     , (1217, 003 /* LOCKED_BOOL */, False)
-     , (1217, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1217, 013 /* ETHEREAL_BOOL */, False)
-     , (1217, 014 /* GRAVITY_STATUS_BOOL */, True);
+VALUES (1217,   1, True ) /* Stuck */
+     , (1217,   2, False) /* Open */
+     , (1217,   3, False) /* Locked */
+     , (1217,  12, True ) /* ReportCollisions */
+     , (1217,  13, False) /* Ethereal */
+     , (1217,  14, True ) /* GravityStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1217,  41,      60) /* RegenerationInterval */
+     , (1217,  43,       1) /* GeneratorRadius */
+     , (1217,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1217,   1, 'Corpse') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1217,   1,   33555322) /* Setup */
+     , (1217,   3,  536870932) /* SoundTable */
+     , (1217,   8,  100667504) /* Icon */
+     , (1217,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1217, 1, 4, 1000, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate RANDOM TREASURE from Loot Tier 2 (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
-
+VALUES (1217, 1, 4, 1000, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

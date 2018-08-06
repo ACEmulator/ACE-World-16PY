@@ -1,104 +1,100 @@
-/* Weenie - Rending Talon Cottages Merchant (26961) */
-DELETE FROM weenie WHERE class_Id = 26961;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26961, 'rendingtaloncottagesvendor', 12 /* Vendor_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26961, 001 /* NAME_STRING */, 'Rending Talon Cottages Merchant')
-     , (26961, 003 /* SEX_STRING */, 'Male')
-     , (26961, 004 /* HERITAGE_GROUP_STRING */, 'Aluvian')
-     , (26961, 005 /* TEMPLATE_STRING */, 'Merchant');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26961, 001 /* SETUP_DID */, 33554433)
-     , (26961, 002 /* MOTION_TABLE_DID */, 150994945)
-     , (26961, 003 /* SOUND_TABLE_DID */, 536870913)
-     , (26961, 004 /* COMBAT_TABLE_DID */, 805306368)
-     , (26961, 008 /* ICON_DID */, 100667446);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26961', 'rendingtaloncottagesvendor', 12) /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26961, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26961, 002 /* CREATURE_TYPE_INT */, 31 /* Human_CreatureType */)
-     , (26961, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (26961, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (26961, 008 /* MASS_INT */, 120)
-     , (26961, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (26961, 025 /* LEVEL_INT */, 10)
-     , (26961, 027 /* ARMOR_TYPE_INT */, 0)
-     , (26961, 074 /* MERCHANDISE_ITEM_TYPES_INT */, 264192 /* TYPE_GEM, TYPE_PROMISSORY_NOTE */)
-     , (26961, 075 /* MERCHANDISE_MIN_VALUE_INT */, 0)
-     , (26961, 076 /* MERCHANDISE_MAX_VALUE_INT */, 1000000)
-     , (26961, 093 /* PHYSICS_STATE_INT */, 2098204 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS */)
-     , (26961, 126 /* VENDOR_HAPPY_MEAN_INT */, 125)
-     , (26961, 127 /* VENDOR_HAPPY_VARIANCE_INT */, 125)
-     , (26961, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
-     , (26961, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
-     , (26961, 146 /* XP_OVERRIDE_INT */, 277);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26961, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
-     , (26961, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
-     , (26961, 003 /* HEALTH_RATE_FLOAT */, 0.16)
-     , (26961, 004 /* STAMINA_RATE_FLOAT */, 5)
-     , (26961, 005 /* MANA_RATE_FLOAT */, 1)
-     , (26961, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (26961, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (26961, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (26961, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (26961, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (26961, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (26961, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (26961, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (26961, 037 /* BUY_PRICE_FLOAT */, 0.5)
-     , (26961, 038 /* SELL_PRICE_FLOAT */, 1.5)
-     , (26961, 054 /* USE_RADIUS_FLOAT */, 3)
-     , (26961, 064 /* RESIST_SLASH_FLOAT */, 1)
-     , (26961, 065 /* RESIST_PIERCE_FLOAT */, 1)
-     , (26961, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
-     , (26961, 067 /* RESIST_FIRE_FLOAT */, 1)
-     , (26961, 068 /* RESIST_COLD_FLOAT */, 1)
-     , (26961, 069 /* RESIST_ACID_FLOAT */, 1)
-     , (26961, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
-     , (26961, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
-     , (26961, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
-     , (26961, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
-     , (26961, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
-     , (26961, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
-     , (26961, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
-     , (26961, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
+VALUES (26961,   1,         16) /* ItemType - Creature */
+     , (26961,   2,         31) /* CreatureType - Human */
+     , (26961,   6,         -1) /* ItemsCapacity */
+     , (26961,   7,         -1) /* ContainersCapacity */
+     , (26961,   8,        120) /* Mass */
+     , (26961,  16,         32) /* ItemUseable - Remote */
+     , (26961,  25,         10) /* Level */
+     , (26961,  27,          0) /* ArmorType */
+     , (26961,  74,     264192) /* MerchandiseItemTypes */
+     , (26961,  75,          0) /* MerchandiseMinValue */
+     , (26961,  76,    1000000) /* MerchandiseMaxValue */
+     , (26961,  93,    2098204) /* PhysicsState */
+     , (26961, 126,        125) /* VendorHappyMean */
+     , (26961, 127,        125) /* VendorHappyVariance */
+     , (26961, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (26961, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (26961, 146,        277) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26961, 001 /* STUCK_BOOL */, True)
-     , (26961, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (26961, 019 /* ATTACKABLE_BOOL */, False)
-     , (26961, 039 /* DEAL_MAGICAL_ITEMS_BOOL */, True)
-     , (26961, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True);
+VALUES (26961,   1, True ) /* Stuck */
+     , (26961,  12, True ) /* ReportCollisions */
+     , (26961,  19, False) /* Attackable */
+     , (26961,  39, True ) /* DealMagicalItems */
+     , (26961,  41, True ) /* ReportCollisionsAsEnvironment */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (26961,   1,       5) /* HeartbeatInterval */
+     , (26961,   2,       0) /* HeartbeatTimestamp */
+     , (26961,   3,    0.16) /* HealthRate */
+     , (26961,   4,       5) /* StaminaRate */
+     , (26961,   5,       1) /* ManaRate */
+     , (26961,  11,     300) /* ResetInterval */
+     , (26961,  13,       1) /* ArmorModVsSlash */
+     , (26961,  14,       1) /* ArmorModVsPierce */
+     , (26961,  15,       1) /* ArmorModVsBludgeon */
+     , (26961,  16,       1) /* ArmorModVsCold */
+     , (26961,  17,       1) /* ArmorModVsFire */
+     , (26961,  18,       1) /* ArmorModVsAcid */
+     , (26961,  19,       1) /* ArmorModVsElectric */
+     , (26961,  37,     0.5) /* BuyPrice */
+     , (26961,  38,     1.5) /* SellPrice */
+     , (26961,  54,       3) /* UseRadius */
+     , (26961,  64,       1) /* ResistSlash */
+     , (26961,  65,       1) /* ResistPierce */
+     , (26961,  66,       1) /* ResistBludgeon */
+     , (26961,  67,       1) /* ResistFire */
+     , (26961,  68,       1) /* ResistCold */
+     , (26961,  69,       1) /* ResistAcid */
+     , (26961,  70,       1) /* ResistElectric */
+     , (26961,  71,       1) /* ResistHealthBoost */
+     , (26961,  72,       1) /* ResistStaminaDrain */
+     , (26961,  73,       1) /* ResistStaminaBoost */
+     , (26961,  74,       1) /* ResistManaDrain */
+     , (26961,  75,       1) /* ResistManaBoost */
+     , (26961, 104,      10) /* ObviousRadarRange */
+     , (26961, 125,       1) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26961,   1, 'Rending Talon Cottages Merchant') /* Name */
+     , (26961,   3, 'Male') /* Sex */
+     , (26961,   4, 'Aluvian') /* HeritageGroup */
+     , (26961,   5, 'Merchant') /* Template */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26961,   1,   33554433) /* Setup */
+     , (26961,   2,  150994945) /* MotionTable */
+     , (26961,   3,  536870913) /* SoundTable */
+     , (26961,   4,  805306368) /* CombatTable */
+     , (26961,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (26961, 1, 90, 0, 0) /* STRENGTH_ATTRIBUTE */
-     , (26961, 2, 90, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (26961, 3, 85, 0, 0) /* QUICKNESS_ATTRIBUTE */
-     , (26961, 4, 80, 0, 0) /* COORDINATION_ATTRIBUTE */
-     , (26961, 5, 40, 0, 0) /* FOCUS_ATTRIBUTE */
-     , (26961, 6, 45, 0, 0) /* SELF_ATTRIBUTE */;
+VALUES (26961,   1,  90, 0, 0) /* Strength */
+     , (26961,   2,  90, 0, 0) /* Endurance */
+     , (26961,   3,  85, 0, 0) /* Quickness */
+     , (26961,   4,  80, 0, 0) /* Coordination */
+     , (26961,   5,  40, 0, 0) /* Focus */
+     , (26961,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26961, 1, 90, 0, 0, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (26961, 3, 100, 0, 0, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (26961, 5, 50, 0, 0, 95) /* MAX_MANA_ATTRIBUTE_2ND */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26961, 4, 26326, -1, 0, 0, False) /* Create Rending Talon Cottages Portal Gem for Shop_DestinationType */;
+VALUES (26961,   1,    90, 0, 0, 135) /* MaxHealth */
+     , (26961,   3,   100, 0, 0, 190) /* MaxStamina */
+     , (26961,   5,    50, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (26961, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
-     , (26961, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
-     , (26961, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
-     , (26961, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
-     , (26961, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
-     , (26961, 5, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
-     , (26961, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (26961, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
-     , (26961, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
+VALUES (26961,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (26961,  1,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (26961,  2,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (26961,  3,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (26961,  4,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (26961,  5,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (26961,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (26961,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (26961,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (26961, 4, 26326, -1, 0, 0, False) /* Create Rending Talon Cottages Portal Gem for Shop */;

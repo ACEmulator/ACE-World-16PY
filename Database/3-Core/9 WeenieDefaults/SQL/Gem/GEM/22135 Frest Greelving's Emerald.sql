@@ -1,40 +1,36 @@
-/* Weenie - Frest Greelving's Emerald (22135) */
-DELETE FROM weenie WHERE class_Id = 22135;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22135, 'jewelemeraldhauntedmansion', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22135, 001 /* NAME_STRING */, 'Frest Greelving''s Emerald');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22135, 001 /* SETUP_DID */, 33554809)
-     , (22135, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22135, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22135, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (22135, 008 /* ICON_DID */, 100668362)
-     , (22135, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (22135, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22135', 'jewelemeraldhauntedmansion', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22135, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22135, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (22135, 005 /* ENCUMB_VAL_INT */, 5)
-     , (22135, 008 /* MASS_INT */, 5)
-     , (22135, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22135, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (22135, 012 /* STACK_SIZE_INT */, 1)
-     , (22135, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (22135, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (22135, 015 /* STACK_UNIT_VALUE_INT */, 1000)
-     , (22135, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22135, 019 /* VALUE_INT */, 1000)
-     , (22135, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (22135, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22135, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (22135, 131 /* MATERIAL_TYPE_INT */, 21 /* Emerald_MaterialType */)
-     , (22135, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
+VALUES (22135,   1,       2048) /* ItemType - Gem */
+     , (22135,   3,          8) /* PaletteTemplate - Green */
+     , (22135,   5,          5) /* EncumbranceVal */
+     , (22135,   8,          5) /* Mass */
+     , (22135,   9,          0) /* ValidLocations - None */
+     , (22135,  11,          1) /* MaxStackSize */
+     , (22135,  12,          1) /* StackSize */
+     , (22135,  13,          5) /* StackUnitEncumbrance */
+     , (22135,  14,          5) /* StackUnitMass */
+     , (22135,  15,       1000) /* StackUnitValue */
+     , (22135,  16,          1) /* ItemUseable - No */
+     , (22135,  19,       1000) /* Value */
+     , (22135,  33,          1) /* Bonded - Bonded */
+     , (22135,  93,       1044) /* PhysicsState */
+     , (22135, 114,          1) /* Attuned - Attuned */
+     , (22135, 131,         21) /* MaterialType - Emerald */
+     , (22135, 169,   16777216) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22135, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22135,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22135,   1, 'Frest Greelving''s Emerald') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22135,   1,   33554809) /* Setup */
+     , (22135,   3,  536870932) /* SoundTable */
+     , (22135,   6,   67111919) /* PaletteBase */
+     , (22135,   7,  268435723) /* ClothingBase */
+     , (22135,   8,  100668362) /* Icon */
+     , (22135,  22,  872415275) /* PhysicsEffectTable */
+     , (22135,  36,  234881046) /* MutateFilter */;

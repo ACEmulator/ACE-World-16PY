@@ -1,39 +1,35 @@
-/* Weenie - Mask Symbol (11842) */
-DELETE FROM weenie WHERE class_Id = 11842;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11842, 'masksymbol', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11842, 001 /* NAME_STRING */, 'Mask Symbol')
-     , (11842, 014 /* USE_STRING */, 'You can combine this with a hafted Mask Banner.')
-     , (11842, 015 /* SHORT_DESC_STRING */, 'A symbol with a mask mark on it.  It seems quite valuable, and if mounted on a hafted banner, you imagine it would increase it''s value...')
-     , (11842, 016 /* LONG_DESC_STRING */, 'A Mask Symbol.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11842, 001 /* SETUP_DID */, 33557248)
-     , (11842, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11842, 008 /* ICON_DID */, 100671966)
-     , (11842, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11842', 'masksymbol', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11842, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (11842, 005 /* ENCUMB_VAL_INT */, 50)
-     , (11842, 008 /* MASS_INT */, 40)
-     , (11842, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11842, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (11842, 012 /* STACK_SIZE_INT */, 1)
-     , (11842, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (11842, 014 /* STACK_UNIT_MASS_INT */, 40)
-     , (11842, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (11842, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (11842, 019 /* VALUE_INT */, 0)
-     , (11842, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11842, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11842, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (11842, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (11842,   1,       2048) /* ItemType - Gem */
+     , (11842,   5,         50) /* EncumbranceVal */
+     , (11842,   8,         40) /* Mass */
+     , (11842,   9,          0) /* ValidLocations - None */
+     , (11842,  11,          1) /* MaxStackSize */
+     , (11842,  12,          1) /* StackSize */
+     , (11842,  13,         50) /* StackUnitEncumbrance */
+     , (11842,  14,         40) /* StackUnitMass */
+     , (11842,  15,          0) /* StackUnitValue */
+     , (11842,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (11842,  19,          0) /* Value */
+     , (11842,  93,       1044) /* PhysicsState */
+     , (11842,  94,        128) /* TargetType - Misc */
+     , (11842, 150,        103) /* HookPlacement - Hook */
+     , (11842, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11842, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11842, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11842,  22, True ) /* Inscribable */
+     , (11842,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11842,   1, 'Mask Symbol') /* Name */
+     , (11842,  14, 'You can combine this with a hafted Mask Banner.') /* Use */
+     , (11842,  15, 'A symbol with a mask mark on it.  It seems quite valuable, and if mounted on a hafted banner, you imagine it would increase it''s value...') /* ShortDesc */
+     , (11842,  16, 'A Mask Symbol.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11842,   1,   33557248) /* Setup */
+     , (11842,   3,  536870932) /* SoundTable */
+     , (11842,   8,  100671966) /* Icon */
+     , (11842,  22,  872415275) /* PhysicsEffectTable */;

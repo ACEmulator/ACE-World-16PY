@@ -1,28 +1,24 @@
-/* Weenie - Gout of Elemental Acid (20635) */
-DELETE FROM weenie WHERE class_Id = 20635;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20635, 'acidgout', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20635, 001 /* NAME_STRING */, 'Gout of Elemental Acid');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20635, 001 /* SETUP_DID */, 33557547)
-     , (20635, 008 /* ICON_DID */, 100667494);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20635', 'acidgout', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20635, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (20635, 005 /* ENCUMB_VAL_INT */, 0)
-     , (20635, 008 /* MASS_INT */, 0)
-     , (20635, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20635, 019 /* VALUE_INT */, 0)
-     , (20635, 093 /* PHYSICS_STATE_INT */, 2068 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, LIGHTING_ON_PS */);
+VALUES (20635,   1,        128) /* ItemType - Misc */
+     , (20635,   5,          0) /* EncumbranceVal */
+     , (20635,   8,          0) /* Mass */
+     , (20635,  16,          1) /* ItemUseable - No */
+     , (20635,  19,          0) /* Value */
+     , (20635,  93,       2068) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20635, 001 /* STUCK_BOOL */, True)
-     , (20635, 013 /* ETHEREAL_BOOL */, True)
-     , (20635, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (20635, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (20635, 024 /* UI_HIDDEN_BOOL */, True);
+VALUES (20635,   1, True ) /* Stuck */
+     , (20635,  13, True ) /* Ethereal */
+     , (20635,  14, False) /* GravityStatus */
+     , (20635,  15, True ) /* LightsStatus */
+     , (20635,  24, True ) /* UiHidden */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20635,   1, 'Gout of Elemental Acid') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20635,   1,   33557547) /* Setup */
+     , (20635,   8,  100667494) /* Icon */;

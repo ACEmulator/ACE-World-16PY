@@ -1,43 +1,39 @@
-/* Weenie - Festival Stone (5392) */
-DELETE FROM weenie WHERE class_Id = 5392;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5392, 'festivalstonefrostfell', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5392, 001 /* NAME_STRING */, 'Festival Stone')
-     , (5392, 016 /* LONG_DESC_STRING */, 'Rejoice! The Hopeslayer has been defeated, thanks to the efforts of the brave people of Dereth!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5392, 001 /* SETUP_DID */, 33556034)
-     , (5392, 008 /* ICON_DID */, 100670208);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5392', 'festivalstonefrostfell', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5392, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (5392, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (5392, 008 /* MASS_INT */, 5800)
-     , (5392, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5392, 019 /* VALUE_INT */, 0)
-     , (5392, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (5392, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (5392, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (5392, 095 /* RADARBLIP_COLOR_INT */, 8 /* Yellow */)
-     , (5392, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
-     , (5392, 142 /* GENERATOR_TIME_TYPE_INT */, 1 /* RealTime_GeneratorTimeType */)
-     , (5392, 143 /* GENERATOR_START_TIME_INT */, 1036213260 /* 11/2/2002 10:01:00 AM */)
-     , (5392, 144 /* GENERATOR_END_TIME_INT */, 1036558740 /* 11/6/2002 9:59:00 AM */)
-     , (5392, 145 /* GENERATOR_END_DESTRUCTION_TYPE_INT */, 2 /* Destroy_GeneratorDestruct */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5392, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (5392, 043 /* GENERATOR_RADIUS_FLOAT */, 0);
+VALUES (5392,   1,        128) /* ItemType - Misc */
+     , (5392,   5,       9000) /* EncumbranceVal */
+     , (5392,   8,       5800) /* Mass */
+     , (5392,  16,          1) /* ItemUseable - No */
+     , (5392,  19,          0) /* Value */
+     , (5392,  81,          1) /* MaxGeneratedObjects */
+     , (5392,  82,          1) /* InitGeneratedObjects */
+     , (5392,  93,       1048) /* PhysicsState */
+     , (5392,  95,          8) /* RadarBlipColor - Yellow */
+     , (5392, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (5392, 142,          1) /* GeneratorTimeType - RealTime */
+     , (5392, 143, 1036213260) /* GeneratorStartTime - 11/02/2002 11:01:00 */
+     , (5392, 144, 1036558740) /* GeneratorEndTime - 11/06/2002 10:59:00 */
+     , (5392, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5392, 001 /* STUCK_BOOL */, True)
-     , (5392, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5392, 013 /* ETHEREAL_BOOL */, False)
-     , (5392, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5392,   1, True ) /* Stuck */
+     , (5392,  12, True ) /* ReportCollisions */
+     , (5392,  13, False) /* Ethereal */
+     , (5392,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5392,  41,      60) /* RegenerationInterval */
+     , (5392,  43,       0) /* GeneratorRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5392,   1, 'Festival Stone') /* Name */
+     , (5392,  16, 'Rejoice! The Hopeslayer has been defeated, thanks to the efforts of the brave people of Dereth!') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5392,   1,   33556034) /* Setup */
+     , (5392,   8,  100670208) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5392, -1, 8359, 60, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 8, 1, 0, 0, 0)/* Generate Anniversary Effect (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */;
-
+VALUES (5392, -1, 8359, 60, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 8, 1, 0, 0, 0);

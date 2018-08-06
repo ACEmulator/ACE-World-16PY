@@ -1,46 +1,42 @@
-/* Weenie - Chef's Hat (9622) */
-DELETE FROM weenie WHERE class_Id = 9622;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9622, 'hatchef', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9622, 001 /* NAME_STRING */, 'Chef''s Hat');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9622, 001 /* SETUP_DID */, 33557034)
-     , (9622, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9622, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (9622, 007 /* CLOTHINGBASE_DID */, 268436180)
-     , (9622, 008 /* ICON_DID */, 100668247)
-     , (9622, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9622, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9622', 'hatchef', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9622, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (9622, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (9622, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (9622, 005 /* ENCUMB_VAL_INT */, 23)
-     , (9622, 008 /* MASS_INT */, 15)
-     , (9622, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (9622, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9622, 019 /* VALUE_INT */, 5)
-     , (9622, 027 /* ARMOR_TYPE_INT */, 1)
-     , (9622, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (9622, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9622, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9622, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9622, 012 /* SHADE_FLOAT */, 0.66)
-     , (9622, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (9622, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (9622, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (9622, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (9622, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (9622, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (9622, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (9622,   1,          4) /* ItemType - Clothing */
+     , (9622,   3,         20) /* PaletteTemplate - Silver */
+     , (9622,   4,      16384) /* ClothingPriority - Head */
+     , (9622,   5,         23) /* EncumbranceVal */
+     , (9622,   8,         15) /* Mass */
+     , (9622,   9,          1) /* ValidLocations - HeadWear */
+     , (9622,  16,          1) /* ItemUseable - No */
+     , (9622,  19,          5) /* Value */
+     , (9622,  27,          1) /* ArmorType */
+     , (9622,  28,          0) /* ArmorLevel */
+     , (9622,  93,       1044) /* PhysicsState */
+     , (9622, 150,        103) /* HookPlacement - Hook */
+     , (9622, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9622, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (9622,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9622,  12,    0.66) /* Shade */
+     , (9622,  13,     0.8) /* ArmorModVsSlash */
+     , (9622,  14,     0.8) /* ArmorModVsPierce */
+     , (9622,  15,       1) /* ArmorModVsBludgeon */
+     , (9622,  16,     0.2) /* ArmorModVsCold */
+     , (9622,  17,     0.2) /* ArmorModVsFire */
+     , (9622,  18,     0.1) /* ArmorModVsAcid */
+     , (9622,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9622,   1, 'Chef''s Hat') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9622,   1,   33557034) /* Setup */
+     , (9622,   3,  536870932) /* SoundTable */
+     , (9622,   6,   67108990) /* PaletteBase */
+     , (9622,   7,  268436180) /* ClothingBase */
+     , (9622,   8,  100668247) /* Icon */
+     , (9622,  22,  872415275) /* PhysicsEffectTable */
+     , (9622,  36,  234881046) /* MutateFilter */;

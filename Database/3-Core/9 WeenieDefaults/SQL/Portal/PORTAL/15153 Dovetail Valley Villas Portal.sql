@@ -1,34 +1,30 @@
-/* Weenie - Dovetail Valley Villas Portal (15153) */
-DELETE FROM weenie WHERE class_Id = 15153;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15153, 'portaldovetailvalleyvillas', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15153, 001 /* NAME_STRING */, 'Dovetail Valley Villas Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15153, 001 /* SETUP_DID */, 33554867)
-     , (15153, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (15153, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15153', 'portaldovetailvalleyvillas', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15153, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (15153, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (15153, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (15153, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (15153, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15153, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (15153,   1,      65536) /* ItemType - Portal */
+     , (15153,  16,         32) /* ItemUseable - Remote */
+     , (15153,  93,       3084) /* PhysicsState */
+     , (15153, 111,          1) /* PortalBitmask - Unrestricted */
+     , (15153, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15153, 001 /* STUCK_BOOL */, True)
-     , (15153, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (15153, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (15153, 013 /* ETHEREAL_BOOL */, True)
-     , (15153, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (15153,   1, True ) /* Stuck */
+     , (15153,  11, False) /* IgnoreCollisions */
+     , (15153,  12, True ) /* ReportCollisions */
+     , (15153,  13, True ) /* Ethereal */
+     , (15153,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15153,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15153,   1, 'Dovetail Valley Villas Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15153,   1,   33554867) /* Setup */
+     , (15153,   2,  150994947) /* MotionTable */
+     , (15153,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15153, 2, 2359099430, 102.795, 132.329, 88.982, 0.4953904, 0, 0, -0.8686705) /* DESTINATION_POSITION */;
-
+VALUES (15153, 2, 2359099430, 102.795, 132.329, 88.982, 0.4953904, 0, 0, -0.8686705) /* Destination */;

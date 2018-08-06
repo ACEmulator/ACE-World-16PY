@@ -1,38 +1,35 @@
-/* Weenie - Writ of Refuge Text (25519) */
-DELETE FROM weenie WHERE class_Id = 25519;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25519, 'texthousecurrency', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25519, 001 /* NAME_STRING */, 'Writ of Refuge Text')
-     , (25519, 020 /* PLURAL_NAME_STRING */, 'Writs of Refuge Text');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25519, 001 /* SETUP_DID */, 33554771)
-     , (25519, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25519, 008 /* ICON_DID */, 100668117)
-     , (25519, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25519', 'texthousecurrency', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25519, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (25519, 005 /* ENCUMB_VAL_INT */, 10)
-     , (25519, 008 /* MASS_INT */, 1)
-     , (25519, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25519, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (25519, 019 /* VALUE_INT */, 10)
-     , (25519, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25519, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25519, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (25519, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (25519,   1,       8192) /* ItemType - Writable */
+     , (25519,   5,         10) /* EncumbranceVal */
+     , (25519,   8,          1) /* Mass */
+     , (25519,   9,          0) /* ValidLocations - None */
+     , (25519,  16,          8) /* ItemUseable - Contained */
+     , (25519,  19,         10) /* Value */
+     , (25519,  33,          1) /* Bonded - Bonded */
+     , (25519,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25519, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (25519,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25519,  39,    1.22) /* DefaultScale */
+     , (25519,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25519,   1, 'Writ of Refuge Text') /* Name */
+     , (25519,  20, 'Writs of Refuge Text') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25519,   1,   33554771) /* Setup */
+     , (25519,   3,  536870932) /* SoundTable */
+     , (25519,   8,  100668117) /* Icon */
+     , (25519,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (25519, 8, 1000) /* Book Data */;
+VALUES (25519, 8, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (25519, 0, 4294967295, '', 'prewritten', False, 'Writ of Refuge
@@ -75,4 +72,3 @@ Your Humble Servant,
 
 Nuhmudira of Zaikhal 
 ');
-

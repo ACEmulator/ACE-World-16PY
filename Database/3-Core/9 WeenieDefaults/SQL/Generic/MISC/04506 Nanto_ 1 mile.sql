@@ -1,28 +1,24 @@
-/* Weenie - Nanto: 1 mile (4506) */
-DELETE FROM weenie WHERE class_Id = 4506;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4506, 'nanto1milesign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4506, 001 /* NAME_STRING */, 'Nanto: 1 mile')
-     , (4506, 016 /* LONG_DESC_STRING */, 'Town of Nanto: 1 mile.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4506, 001 /* SETUP_DID */, 33555986)
-     , (4506, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4506', 'nanto1milesign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4506, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4506, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4506, 008 /* MASS_INT */, 1800)
-     , (4506, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4506, 019 /* VALUE_INT */, 125)
-     , (4506, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4506,   1,        128) /* ItemType - Misc */
+     , (4506,   5,       9000) /* EncumbranceVal */
+     , (4506,   8,       1800) /* Mass */
+     , (4506,  16,          1) /* ItemUseable - No */
+     , (4506,  19,        125) /* Value */
+     , (4506,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4506, 001 /* STUCK_BOOL */, True)
-     , (4506, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4506, 013 /* ETHEREAL_BOOL */, False)
-     , (4506, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4506,   1, True ) /* Stuck */
+     , (4506,  12, True ) /* ReportCollisions */
+     , (4506,  13, False) /* Ethereal */
+     , (4506,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4506,   1, 'Nanto: 1 mile') /* Name */
+     , (4506,  16, 'Town of Nanto: 1 mile.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4506,   1,   33555986) /* Setup */
+     , (4506,   8,  100668115) /* Icon */;

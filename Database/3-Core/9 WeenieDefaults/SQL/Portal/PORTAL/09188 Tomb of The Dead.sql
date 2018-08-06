@@ -1,34 +1,30 @@
-/* Weenie - Tomb of The Dead (9188) */
-DELETE FROM weenie WHERE class_Id = 9188;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9188, 'portaltombofthedead', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9188, 001 /* NAME_STRING */, 'Tomb of The Dead');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9188, 001 /* SETUP_DID */, 33555923)
-     , (9188, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (9188, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9188', 'portaltombofthedead', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9188, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (9188, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (9188, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (9188, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (9188, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9188, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (9188,   1,      65536) /* ItemType - Portal */
+     , (9188,  16,         32) /* ItemUseable - Remote */
+     , (9188,  93,       3084) /* PhysicsState */
+     , (9188, 111,          1) /* PortalBitmask - Unrestricted */
+     , (9188, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9188, 001 /* STUCK_BOOL */, True)
-     , (9188, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (9188, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (9188, 013 /* ETHEREAL_BOOL */, True)
-     , (9188, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (9188,   1, True ) /* Stuck */
+     , (9188,  11, False) /* IgnoreCollisions */
+     , (9188,  12, True ) /* ReportCollisions */
+     , (9188,  13, True ) /* Ethereal */
+     , (9188,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9188,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9188,   1, 'Tomb of The Dead') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9188,   1,   33555923) /* Setup */
+     , (9188,   2,  150994947) /* MotionTable */
+     , (9188,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9188, 2, 32702918, 130, -90, 0, -0.7071068, 0, 0, -0.7071068) /* DESTINATION_POSITION */;
-
+VALUES (9188, 2, 32702918, 130, -90, 0, -0.7071068, 0, 0, -0.7071068) /* Destination */;

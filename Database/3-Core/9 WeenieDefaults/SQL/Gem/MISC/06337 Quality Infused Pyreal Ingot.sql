@@ -1,41 +1,37 @@
-/* Weenie - Quality Infused Pyreal Ingot (6337) */
-DELETE FROM weenie WHERE class_Id = 6337;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6337, 'pyrealingotgoodinfusedstaff', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6337, 001 /* NAME_STRING */, 'Quality Infused Pyreal Ingot')
-     , (6337, 015 /* SHORT_DESC_STRING */, 'A pyreal ingot of high quality infused with the essence of a staff.')
-     , (6337, 016 /* LONG_DESC_STRING */, 'A pyreal ingot of high quality infused with the essence of a staff.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6337, 001 /* SETUP_DID */, 33555677)
-     , (6337, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6337, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6337, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (6337, 008 /* ICON_DID */, 100670499)
-     , (6337, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6337', 'pyrealingotgoodinfusedstaff', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6337, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (6337, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
-     , (6337, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (6337, 008 /* MASS_INT */, 1000)
-     , (6337, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6337, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (6337, 012 /* STACK_SIZE_INT */, 1)
-     , (6337, 013 /* STACK_UNIT_ENCUMB_INT */, 1000)
-     , (6337, 014 /* STACK_UNIT_MASS_INT */, 1000)
-     , (6337, 015 /* STACK_UNIT_VALUE_INT */, 2500)
-     , (6337, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6337, 019 /* VALUE_INT */, 2500)
-     , (6337, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6337, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6337, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (6337,   1,        128) /* ItemType - Misc */
+     , (6337,   3,         83) /* PaletteTemplate - Amber */
+     , (6337,   5,       1000) /* EncumbranceVal */
+     , (6337,   8,       1000) /* Mass */
+     , (6337,   9,          0) /* ValidLocations - None */
+     , (6337,  11,          1) /* MaxStackSize */
+     , (6337,  12,          1) /* StackSize */
+     , (6337,  13,       1000) /* StackUnitEncumbrance */
+     , (6337,  14,       1000) /* StackUnitMass */
+     , (6337,  15,       2500) /* StackUnitValue */
+     , (6337,  16,          1) /* ItemUseable - No */
+     , (6337,  19,       2500) /* Value */
+     , (6337,  33,          1) /* Bonded - Bonded */
+     , (6337,  93,       1044) /* PhysicsState */
+     , (6337, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6337, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6337, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6337, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6337,  22, True ) /* Inscribable */
+     , (6337,  23, True ) /* DestroyOnSell */
+     , (6337,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6337,   1, 'Quality Infused Pyreal Ingot') /* Name */
+     , (6337,  15, 'A pyreal ingot of high quality infused with the essence of a staff.') /* ShortDesc */
+     , (6337,  16, 'A pyreal ingot of high quality infused with the essence of a staff.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6337,   1,   33555677) /* Setup */
+     , (6337,   3,  536870932) /* SoundTable */
+     , (6337,   6,   67111919) /* PaletteBase */
+     , (6337,   7,  268435723) /* ClothingBase */
+     , (6337,   8,  100670499) /* Icon */
+     , (6337,  22,  872415275) /* PhysicsEffectTable */;

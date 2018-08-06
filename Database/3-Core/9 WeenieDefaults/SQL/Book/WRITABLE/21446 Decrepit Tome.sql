@@ -1,36 +1,33 @@
-/* Weenie - Decrepit Tome (21446) */
-DELETE FROM weenie WHERE class_Id = 21446;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21446, 'tomesplendordownfall', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21446, 001 /* NAME_STRING */, 'Decrepit Tome');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21446, 001 /* SETUP_DID */, 33556929)
-     , (21446, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21446, 007 /* CLOTHINGBASE_DID */, 268436459)
-     , (21446, 008 /* ICON_DID */, 100673476)
-     , (21446, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21446', 'tomesplendordownfall', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21446, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (21446, 005 /* ENCUMB_VAL_INT */, 160)
-     , (21446, 008 /* MASS_INT */, 200)
-     , (21446, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (21446, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (21446, 019 /* VALUE_INT */, 90)
-     , (21446, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21446, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (21446,   1,       8192) /* ItemType - Writable */
+     , (21446,   5,        160) /* EncumbranceVal */
+     , (21446,   8,        200) /* Mass */
+     , (21446,   9,          0) /* ValidLocations - None */
+     , (21446,  16,          8) /* ItemUseable - Contained */
+     , (21446,  19,         90) /* Value */
+     , (21446,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21446, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (21446,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21446,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21446,   1, 'Decrepit Tome') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21446,   1,   33556929) /* Setup */
+     , (21446,   3,  536870932) /* SoundTable */
+     , (21446,   7,  268436459) /* ClothingBase */
+     , (21446,   8,  100673476) /* Icon */
+     , (21446,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (21446, 13, 1000) /* Book Data */;
+VALUES (21446, 13, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (21446, 0, 4294967295, 'Unknown', 'prewritten', False, '(Translator''s Note 1: It is important to note that this book seems to be written directly to the page by a Dericost hand, but the tone of the writing makes it appear as though it was written at stages, perhaps over a long time and in the sub-conscious of the writer. It is as if the words contained herein began as thoughts that found their way to the page by some magical means, without any writing instrument. Also of note is the texture of the pages. It is not paper, at least no paper that I have ever encountered.)
@@ -105,4 +102,3 @@ Save our memories. See them welled so that I know, when the mountain crumbles an
 
 G
 ');
-

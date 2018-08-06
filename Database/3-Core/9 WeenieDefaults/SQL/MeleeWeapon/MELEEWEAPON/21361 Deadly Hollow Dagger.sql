@@ -1,61 +1,57 @@
-/* Weenie - Deadly Hollow Dagger (21361) */
-DELETE FROM weenie WHERE class_Id = 21361;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21361, 'daggerhollownew', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21361, 001 /* NAME_STRING */, 'Deadly Hollow Dagger')
-     , (21361, 015 /* SHORT_DESC_STRING */, 'A dagger crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)')
-     , (21361, 016 /* LONG_DESC_STRING */, 'A dagger crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21361, 001 /* SETUP_DID */, 33556650)
-     , (21361, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21361, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (21361, 007 /* CLOTHINGBASE_DID */, 268435783)
-     , (21361, 008 /* ICON_DID */, 100668875)
-     , (21361, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21361, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21361', 'daggerhollownew', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21361, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (21361, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (21361, 005 /* ENCUMB_VAL_INT */, 135)
-     , (21361, 008 /* MASS_INT */, 90)
-     , (21361, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (21361, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (21361, 019 /* VALUE_INT */, 2000)
-     , (21361, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (21361, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (21361, 044 /* DAMAGE_INT */, 42)
-     , (21361, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (21361, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (21361, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (21361, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (21361, 049 /* WEAPON_TIME_INT */, 20)
-     , (21361, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (21361, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (21361, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (21361, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (21361, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (21361, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (21361, 159 /* WIELD_SKILLTYPE_INT */, 4 /* DAGGER_SKILL */)
-     , (21361, 160 /* WIELD_DIFFICULTY_INT */, 250);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21361, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (21361, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.3)
-     , (21361, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (21361, 062 /* WEAPON_OFFENSE_FLOAT */, 1.1)
-     , (21361, 076 /* TRANSLUCENCY_FLOAT */, 0.7);
+VALUES (21361,   1,          1) /* ItemType - MeleeWeapon */
+     , (21361,   3,         20) /* PaletteTemplate - Silver */
+     , (21361,   5,        135) /* EncumbranceVal */
+     , (21361,   8,         90) /* Mass */
+     , (21361,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (21361,  16,          1) /* ItemUseable - No */
+     , (21361,  19,       2000) /* Value */
+     , (21361,  33,          1) /* Bonded - Bonded */
+     , (21361,  36,       9999) /* ResistMagic */
+     , (21361,  44,         42) /* Damage */
+     , (21361,  45,          3) /* DamageType */
+     , (21361,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (21361,  47,          6) /* AttackType */
+     , (21361,  48,          4) /* WeaponSkill - Dagger */
+     , (21361,  49,         20) /* WeaponTime */
+     , (21361,  51,          1) /* CombatUse - Melee */
+     , (21361,  93,       3092) /* PhysicsState */
+     , (21361, 114,          1) /* Attuned - Attuned */
+     , (21361, 150,        103) /* HookPlacement - Hook */
+     , (21361, 151,          2) /* HookType - Wall */
+     , (21361, 158,          2) /* WieldRequirements - RawSkill */
+     , (21361, 159,          4) /* WieldSkilltype - Dagger */
+     , (21361, 160,        250) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21361, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (21361, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21361, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (21361, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
-     , (21361, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True)
-     , (21361, 069 /* IS_SELLABLE_BOOL */, False)
-     , (21361, 099 /* IVORYABLE_BOOL */, True);
+VALUES (21361,  15, True ) /* LightsStatus */
+     , (21361,  22, True ) /* Inscribable */
+     , (21361,  23, True ) /* DestroyOnSell */
+     , (21361,  65, True ) /* IgnoreMagicResist */
+     , (21361,  66, True ) /* IgnoreMagicArmor */
+     , (21361,  69, False) /* IsSellable */
+     , (21361,  99, True ) /* Ivoryable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21361,  21,     0.4) /* WeaponLength */
+     , (21361,  22,     0.3) /* DamageVariance */
+     , (21361,  29,       1) /* WeaponDefense */
+     , (21361,  62,     1.1) /* WeaponOffense */
+     , (21361,  76,     0.7) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21361,   1, 'Deadly Hollow Dagger') /* Name */
+     , (21361,  15, 'A dagger crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* ShortDesc */
+     , (21361,  16, 'A dagger crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21361,   1,   33556650) /* Setup */
+     , (21361,   3,  536870932) /* SoundTable */
+     , (21361,   6,   67111919) /* PaletteBase */
+     , (21361,   7,  268435783) /* ClothingBase */
+     , (21361,   8,  100668875) /* Icon */
+     , (21361,  22,  872415275) /* PhysicsEffectTable */
+     , (21361,  36,  234881044) /* MutateFilter */;

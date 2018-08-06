@@ -1,34 +1,30 @@
-/* Weenie - Pyreal Golem Heart (23203) */
-DELETE FROM weenie WHERE class_Id = 23203;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23203, 'golemheartpyreal', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23203, 001 /* NAME_STRING */, 'Pyreal Golem Heart');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23203, 001 /* SETUP_DID */, 33554817)
-     , (23203, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23203, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23203, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (23203, 008 /* ICON_DID */, 100674015)
-     , (23203, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23203', 'golemheartpyreal', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23203, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (23203, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (23203, 005 /* ENCUMB_VAL_INT */, 100)
-     , (23203, 008 /* MASS_INT */, 100)
-     , (23203, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23203, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23203, 019 /* VALUE_INT */, 100)
-     , (23203, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23203, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
+VALUES (23203,   1,        128) /* ItemType - Misc */
+     , (23203,   3,         39) /* PaletteTemplate - Black */
+     , (23203,   5,        100) /* EncumbranceVal */
+     , (23203,   8,        100) /* Mass */
+     , (23203,   9,          0) /* ValidLocations - None */
+     , (23203,  16,          1) /* ItemUseable - No */
+     , (23203,  19,        100) /* Value */
+     , (23203,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23203, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23203, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (23203,  22, True ) /* Inscribable */
+     , (23203,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23203,  39,     0.4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23203,   1, 'Pyreal Golem Heart') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23203,   1,   33554817) /* Setup */
+     , (23203,   3,  536870932) /* SoundTable */
+     , (23203,   6,   67111919) /* PaletteBase */
+     , (23203,   7,  268435832) /* ClothingBase */
+     , (23203,   8,  100674015) /* Icon */
+     , (23203,  22,  872415275) /* PhysicsEffectTable */;

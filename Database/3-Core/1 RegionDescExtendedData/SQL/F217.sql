@@ -1,10 +1,9 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (61975, 7229, 0, 0) /* junglef2mixgen */
-     , (61975, 7229, 0, 4) /* junglef2mixgen */
-     , (61975, 7228, 1, 2) /* junglef1mixgen */
-     , (61975, 7229, 2, 1) /* junglef2mixgen */
-     , (61975, 7229, 3, 7) /* junglef2mixgen */
-     , (61975, 7229, 5, 3) /* junglef2mixgen */
-     , (61975, 7229, 6, 0) /* junglef2mixgen */
-     , (61975, 7229, 6, 1) /* junglef2mixgen */;
-
+VALUES (61975, 7229, 0, 0) /* Jungle F2 Mix Generator */
+     , (61975, 7229, 0, 4) /* Jungle F2 Mix Generator */
+     , (61975, 7228, 1, 2) /* Jungle F1 Mix Generator */
+     , (61975, 7229, 2, 1) /* Jungle F2 Mix Generator */
+     , (61975, 7229, 3, 7) /* Jungle F2 Mix Generator */
+     , (61975, 7229, 5, 3) /* Jungle F2 Mix Generator */
+     , (61975, 7229, 6, 0) /* Jungle F2 Mix Generator */
+     , (61975, 7229, 6, 1) /* Jungle F2 Mix Generator */;

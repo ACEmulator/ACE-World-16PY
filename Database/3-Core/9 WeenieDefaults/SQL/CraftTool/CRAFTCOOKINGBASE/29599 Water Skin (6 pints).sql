@@ -1,37 +1,33 @@
-/* Weenie - Water Skin (6 pints) (29599) */
-DELETE FROM weenie WHERE class_Id = 29599;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29599, 'bloodpuzzle6pints', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29599, 001 /* NAME_STRING */, 'Water Skin (6 pints)')
-     , (29599, 014 /* USE_STRING */, 'Use this item on a well.')
-     , (29599, 016 /* LONG_DESC_STRING */, 'A water skin filled with 6 pints of blood.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29599, 001 /* SETUP_DID */, 33554799)
-     , (29599, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29599, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (29599, 008 /* ICON_DID */, 100668541)
-     , (29599, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (29599, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29599', 'bloodpuzzle6pints', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29599, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (29599, 005 /* ENCUMB_VAL_INT */, 60)
-     , (29599, 008 /* MASS_INT */, 60)
-     , (29599, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29599, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (29599, 012 /* STACK_SIZE_INT */, 1)
-     , (29599, 013 /* STACK_UNIT_ENCUMB_INT */, 60)
-     , (29599, 014 /* STACK_UNIT_MASS_INT */, 60)
-     , (29599, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (29599, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (29599, 019 /* VALUE_INT */, 0)
-     , (29599, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29599, 094 /* TARGET_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */);
+VALUES (29599,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (29599,   5,         60) /* EncumbranceVal */
+     , (29599,   8,         60) /* Mass */
+     , (29599,   9,          0) /* ValidLocations - None */
+     , (29599,  11,          1) /* MaxStackSize */
+     , (29599,  12,          1) /* StackSize */
+     , (29599,  13,         60) /* StackUnitEncumbrance */
+     , (29599,  14,         60) /* StackUnitMass */
+     , (29599,  15,          0) /* StackUnitValue */
+     , (29599,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (29599,  19,          0) /* Value */
+     , (29599,  93,       1044) /* PhysicsState */
+     , (29599,  94,    4194304) /* TargetType - CraftCookingBase */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29599, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29599,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29599,   1, 'Water Skin (6 pints)') /* Name */
+     , (29599,  14, 'Use this item on a well.') /* Use */
+     , (29599,  16, 'A water skin filled with 6 pints of blood.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29599,   1,   33554799) /* Setup */
+     , (29599,   3,  536870932) /* SoundTable */
+     , (29599,   6,   67111919) /* PaletteBase */
+     , (29599,   8,  100668541) /* Icon */
+     , (29599,  22,  872415275) /* PhysicsEffectTable */
+     , (29599,  36,  234881046) /* MutateFilter */;

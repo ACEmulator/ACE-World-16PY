@@ -1,49 +1,45 @@
-/* Weenie - Frost Javelin (5576) */
-DELETE FROM weenie WHERE class_Id = 5576;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5576, 'javelinfroststack', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5576, 001 /* NAME_STRING */, 'Frost Javelin');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5576, 001 /* SETUP_DID */, 33555737)
-     , (5576, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5576, 008 /* ICON_DID */, 100667593)
-     , (5576, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5576', 'javelinfroststack', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5576, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (5576, 005 /* ENCUMB_VAL_INT */, 600)
-     , (5576, 008 /* MASS_INT */, 600)
-     , (5576, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (5576, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5576, 012 /* STACK_SIZE_INT */, 40)
-     , (5576, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
-     , (5576, 014 /* STACK_UNIT_MASS_INT */, 15)
-     , (5576, 015 /* STACK_UNIT_VALUE_INT */, 20)
-     , (5576, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5576, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (5576, 019 /* VALUE_INT */, 800)
-     , (5576, 044 /* DAMAGE_INT */, 10)
-     , (5576, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (5576, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (5576, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (5576, 049 /* WEAPON_TIME_INT */, 20)
-     , (5576, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (5576, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (5576, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (5576, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5576, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (5576, 027 /* ROTATION_SPEED_FLOAT */, 0)
-     , (5576, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (5576, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (5576, 078 /* FRICTION_FLOAT */, 1)
-     , (5576, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (5576,   1,        256) /* ItemType - MissileWeapon */
+     , (5576,   5,        600) /* EncumbranceVal */
+     , (5576,   8,        600) /* Mass */
+     , (5576,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (5576,  11,        100) /* MaxStackSize */
+     , (5576,  12,         40) /* StackSize */
+     , (5576,  13,         15) /* StackUnitEncumbrance */
+     , (5576,  14,         15) /* StackUnitMass */
+     , (5576,  15,         20) /* StackUnitValue */
+     , (5576,  16,          1) /* ItemUseable - No */
+     , (5576,  18,        128) /* UiEffects - Frost */
+     , (5576,  19,        800) /* Value */
+     , (5576,  44,         10) /* Damage */
+     , (5576,  45,          8) /* DamageType - Cold */
+     , (5576,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (5576,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (5576,  49,         20) /* WeaponTime */
+     , (5576,  51,          2) /* CombatUse - Missle */
+     , (5576,  93,     132116) /* PhysicsState */
+     , (5576, 150,        103) /* HookPlacement - Hook */
+     , (5576, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5576, 017 /* INELASTIC_BOOL */, True);
+VALUES (5576,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5576,  22,    0.25) /* DamageVariance */
+     , (5576,  27,       0) /* RotationSpeed */
+     , (5576,  29,       1) /* WeaponDefense */
+     , (5576,  62,       1) /* WeaponOffense */
+     , (5576,  78,       1) /* Friction */
+     , (5576,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5576,   1, 'Frost Javelin') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5576,   1,   33555737) /* Setup */
+     , (5576,   3,  536870932) /* SoundTable */
+     , (5576,   8,  100667593) /* Icon */
+     , (5576,  22,  872415275) /* PhysicsEffectTable */;

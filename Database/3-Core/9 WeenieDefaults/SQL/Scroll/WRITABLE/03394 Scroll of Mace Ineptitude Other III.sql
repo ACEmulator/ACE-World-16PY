@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Mace Ineptitude Other III (3394) */
-DELETE FROM weenie WHERE class_Id = 3394;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3394, 'scrollmaceineptitudeother3', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3394, 001 /* NAME_STRING */, 'Scroll of Mace Ineptitude Other III')
-     , (3394, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3394, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Mace skill by 33%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3394, 001 /* SETUP_DID */, 33554826)
-     , (3394, 008 /* ICON_DID */, 100676464)
-     , (3394, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3394, 028 /* SPELL_DID */, 354 /* MaceIneptitudeOther3_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3394', 'scrollmaceineptitudeother3', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3394, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3394, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3394, 008 /* MASS_INT */, 90)
-     , (3394, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3394, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3394, 019 /* VALUE_INT */, 20)
-     , (3394, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3394, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3394,   1,       8192) /* ItemType - Writable */
+     , (3394,   5,         30) /* EncumbranceVal */
+     , (3394,   8,         90) /* Mass */
+     , (3394,   9,          0) /* ValidLocations - None */
+     , (3394,  16,          8) /* ItemUseable - Contained */
+     , (3394,  19,         20) /* Value */
+     , (3394,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3394, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3394, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3394,  22, True ) /* Inscribable */
+     , (3394,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3394,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3394,   1, 'Scroll of Mace Ineptitude Other III') /* Name */
+     , (3394,  15, 'A magic scroll.') /* ShortDesc */
+     , (3394,  16, 'When learned, this spell decreases the target''s Mace skill by 33%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3394,   1,   33554826) /* Setup */
+     , (3394,   8,  100676464) /* Icon */
+     , (3394,  22,  872415275) /* PhysicsEffectTable */
+     , (3394,  28,        354) /* Spell - Light Weapon Ineptitude Other III */;

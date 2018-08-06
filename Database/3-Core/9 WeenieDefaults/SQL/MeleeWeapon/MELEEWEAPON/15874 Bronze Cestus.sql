@@ -1,50 +1,46 @@
-/* Weenie - Bronze Cestus (15874) */
-DELETE FROM weenie WHERE class_Id = 15874;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15874, 'cestusstatue-monsteronly', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15874, 001 /* NAME_STRING */, 'Bronze Cestus');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15874, 001 /* SETUP_DID */, 33555997)
-     , (15874, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15874, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (15874, 007 /* CLOTHINGBASE_DID */, 268435829)
-     , (15874, 008 /* ICON_DID */, 100670016)
-     , (15874, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (15874, 036 /* MUTATE_FILTER_DID */, 234881044)
-     , (15874, 046 /* TSYS_MUTATION_FILTER_DID */, 939524102);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15874', 'cestusstatue-monsteronly', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15874, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (15874, 003 /* PALETTE_TEMPLATE_INT */, 27 /* DARKGREENMETAL_PALETTE_TEMPLATE */)
-     , (15874, 005 /* ENCUMB_VAL_INT */, 135)
-     , (15874, 008 /* MASS_INT */, 90)
-     , (15874, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (15874, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15874, 019 /* VALUE_INT */, 50)
-     , (15874, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (15874, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (15874, 044 /* DAMAGE_INT */, 30)
-     , (15874, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (15874, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1 /* Unarmed_CombatStyle */)
-     , (15874, 047 /* ATTACK_TYPE_INT */, 1 /* Punch_AttackType */)
-     , (15874, 048 /* WEAPON_SKILL_INT */, 13 /* UNARMED_COMBAT_SKILL */)
-     , (15874, 049 /* WEAPON_TIME_INT */, 5)
-     , (15874, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (15874, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (15874, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15874, 021 /* WEAPON_LENGTH_FLOAT */, 0.52)
-     , (15874, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (15874, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (15874, 039 /* DEFAULT_SCALE_FLOAT */, 2.5)
-     , (15874, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (15874,   1,          1) /* ItemType - MeleeWeapon */
+     , (15874,   3,         27) /* PaletteTemplate - DarkGreenMetal */
+     , (15874,   5,        135) /* EncumbranceVal */
+     , (15874,   8,         90) /* Mass */
+     , (15874,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (15874,  16,          1) /* ItemUseable - No */
+     , (15874,  19,         50) /* Value */
+     , (15874,  33,         -2) /* Bonded - Destroy */
+     , (15874,  37,       9999) /* ResistItemAppraisal */
+     , (15874,  44,         30) /* Damage */
+     , (15874,  45,          4) /* DamageType - Bludgeon */
+     , (15874,  46,          1) /* DefaultCombatStyle - Unarmed */
+     , (15874,  47,          1) /* AttackType - Punch */
+     , (15874,  48,         13) /* WeaponSkill - UnarmedCombat */
+     , (15874,  49,          5) /* WeaponTime */
+     , (15874,  51,          1) /* CombatUse - Melee */
+     , (15874,  93,       1044) /* PhysicsState */
+     , (15874, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15874, 022 /* INSCRIBABLE_BOOL */, True)
-     , (15874, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (15874,  22, True ) /* Inscribable */
+     , (15874,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15874,  21,    0.52) /* WeaponLength */
+     , (15874,  22,    0.75) /* DamageVariance */
+     , (15874,  29,    1.05) /* WeaponDefense */
+     , (15874,  39,     2.5) /* DefaultScale */
+     , (15874,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15874,   1, 'Bronze Cestus') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15874,   1,   33555997) /* Setup */
+     , (15874,   3,  536870932) /* SoundTable */
+     , (15874,   6,   67111919) /* PaletteBase */
+     , (15874,   7,  268435829) /* ClothingBase */
+     , (15874,   8,  100670016) /* Icon */
+     , (15874,  22,  872415275) /* PhysicsEffectTable */
+     , (15874,  36,  234881044) /* MutateFilter */
+     , (15874,  46,  939524102) /* TsysMutationFilter */;

@@ -1,35 +1,31 @@
-/* Weenie - Singular Pyreal Repository (12296) */
-DELETE FROM weenie WHERE class_Id = 12296;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12296, 'portalpyrealrepository', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12296, 001 /* NAME_STRING */, 'Singular Pyreal Repository');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12296, 001 /* SETUP_DID */, 33555923)
-     , (12296, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (12296, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12296', 'portalpyrealrepository', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12296, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (12296, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (12296, 086 /* MIN_LEVEL_INT */, 24)
-     , (12296, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (12296, 111 /* PORTAL_BITMASK_INT */, 17 /* Player_NotSummonable_PortalEnum */)
-     , (12296, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12296, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (12296,   1,      65536) /* ItemType - Portal */
+     , (12296,  16,         32) /* ItemUseable - Remote */
+     , (12296,  86,         24) /* MinLevel */
+     , (12296,  93,       3084) /* PhysicsState */
+     , (12296, 111,         17) /* PortalBitmask */
+     , (12296, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12296, 001 /* STUCK_BOOL */, True)
-     , (12296, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (12296, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12296, 013 /* ETHEREAL_BOOL */, True)
-     , (12296, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (12296,   1, True ) /* Stuck */
+     , (12296,  11, False) /* IgnoreCollisions */
+     , (12296,  12, True ) /* ReportCollisions */
+     , (12296,  13, True ) /* Ethereal */
+     , (12296,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12296,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12296,   1, 'Singular Pyreal Repository') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12296,   1,   33555923) /* Setup */
+     , (12296,   2,  150994947) /* MotionTable */
+     , (12296,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12296, 2, 60883638, 90, -600, 0, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (12296, 2, 60883638, 90, -600, 0, 1, 0, 0, 0) /* Destination */;

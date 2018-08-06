@@ -1,38 +1,34 @@
-/* Weenie - Guardian (29934) */
-DELETE FROM weenie WHERE class_Id = 29934;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29934, 'doorbrowerk15', 19 /* Door_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29934, 001 /* NAME_STRING */, 'Guardian');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29934, 001 /* SETUP_DID */, 33559062)
-     , (29934, 002 /* MOTION_TABLE_DID */, 150995277)
-     , (29934, 003 /* SOUND_TABLE_DID */, 536871053)
-     , (29934, 008 /* ICON_DID */, 100677141)
-     , (29934, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29934', 'doorbrowerk15', 19) /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29934, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29934, 008 /* MASS_INT */, 500)
-     , (29934, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29934, 019 /* VALUE_INT */, 0)
-     , (29934, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (29934, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29934, 011 /* RESET_INTERVAL_FLOAT */, 900)
-     , (29934, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (29934,   1,        128) /* ItemType - Misc */
+     , (29934,   8,        500) /* Mass */
+     , (29934,  16,          1) /* ItemUseable - No */
+     , (29934,  19,          0) /* Value */
+     , (29934,  83,          2) /* ActivationResponse - Use */
+     , (29934,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29934, 001 /* STUCK_BOOL */, True)
-     , (29934, 002 /* OPEN_BOOL */, False)
-     , (29934, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (29934, 013 /* ETHEREAL_BOOL */, False)
-     , (29934, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (29934, 024 /* UI_HIDDEN_BOOL */, True)
-     , (29934, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (29934, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (29934,   1, True ) /* Stuck */
+     , (29934,   2, False) /* Open */
+     , (29934,  12, True ) /* ReportCollisions */
+     , (29934,  13, False) /* Ethereal */
+     , (29934,  14, False) /* GravityStatus */
+     , (29934,  24, True ) /* UiHidden */
+     , (29934,  33, False) /* ResetMessagePending */
+     , (29934,  34, False) /* DefaultOpen */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29934,  11,     900) /* ResetInterval */
+     , (29934,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29934,   1, 'Guardian') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29934,   1,   33559062) /* Setup */
+     , (29934,   2,  150995277) /* MotionTable */
+     , (29934,   3,  536871053) /* SoundTable */
+     , (29934,   8,  100677141) /* Icon */
+     , (29934,  22,  872415275) /* PhysicsEffectTable */;

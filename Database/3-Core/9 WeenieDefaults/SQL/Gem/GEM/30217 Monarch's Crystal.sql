@@ -1,41 +1,37 @@
-/* Weenie - Monarch's Crystal (30217) */
-DELETE FROM weenie WHERE class_Id = 30217;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30217, 'gemrarevolatileleadership', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30217, 001 /* NAME_STRING */, 'Monarch''s Crystal')
-     , (30217, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30217, 001 /* SETUP_DID */, 33554809)
-     , (30217, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30217, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30217, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (30217, 008 /* ICON_DID */, 100674739)
-     , (30217, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30217, 028 /* SPELL_DID */, 3716 /* LeadershipMasteryRare_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30217', 'gemrarevolatileleadership', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30217, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (30217, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (30217, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30217, 008 /* MASS_INT */, 5)
-     , (30217, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30217, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30217, 012 /* STACK_SIZE_INT */, 1)
-     , (30217, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30217, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30217, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30217, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30217, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (30217, 019 /* VALUE_INT */, 0)
-     , (30217, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30217, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30217, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30217, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30217,   1,       2048) /* ItemType - Gem */
+     , (30217,   3,         39) /* PaletteTemplate - Black */
+     , (30217,   5,          5) /* EncumbranceVal */
+     , (30217,   8,          5) /* Mass */
+     , (30217,   9,          0) /* ValidLocations - None */
+     , (30217,  11,          1) /* MaxStackSize */
+     , (30217,  12,          1) /* StackSize */
+     , (30217,  13,          5) /* StackUnitEncumbrance */
+     , (30217,  14,          5) /* StackUnitMass */
+     , (30217,  15,          0) /* StackUnitValue */
+     , (30217,  16,          8) /* ItemUseable - Contained */
+     , (30217,  18,          1) /* UiEffects - Magical */
+     , (30217,  19,          0) /* Value */
+     , (30217,  93,       1044) /* PhysicsState */
+     , (30217,  94,         16) /* TargetType - Creature */
+     , (30217, 150,        103) /* HookPlacement - Hook */
+     , (30217, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30217, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30217,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30217,   1, 'Monarch''s Crystal') /* Name */
+     , (30217,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30217,   1,   33554809) /* Setup */
+     , (30217,   3,  536870932) /* SoundTable */
+     , (30217,   6,   67111919) /* PaletteBase */
+     , (30217,   7,  268435723) /* ClothingBase */
+     , (30217,   8,  100674739) /* Icon */
+     , (30217,  22,  872415275) /* PhysicsEffectTable */
+     , (30217,  28,       3716) /* Spell - Prodigal Leadership Mastery */;

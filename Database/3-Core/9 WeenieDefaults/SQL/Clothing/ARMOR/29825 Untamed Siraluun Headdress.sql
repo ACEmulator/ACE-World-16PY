@@ -1,64 +1,60 @@
-/* Weenie - Untamed Siraluun Headdress (29825) */
-DELETE FROM weenie WHERE class_Id = 29825;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29825, 'headdresssiraluununtamed', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29825, 001 /* NAME_STRING */, 'Untamed Siraluun Headdress')
-     , (29825, 016 /* LONG_DESC_STRING */, 'A headdress plaited from the plumes of an Untamed Siraluun.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29825, 001 /* SETUP_DID */, 33557288)
-     , (29825, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29825, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (29825, 007 /* CLOTHINGBASE_DID */, 268436237)
-     , (29825, 008 /* ICON_DID */, 100677281)
-     , (29825, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29825', 'headdresssiraluununtamed', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29825, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (29825, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (29825, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (29825, 005 /* ENCUMB_VAL_INT */, 250)
-     , (29825, 008 /* MASS_INT */, 250)
-     , (29825, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (29825, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29825, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (29825, 019 /* VALUE_INT */, 3000)
-     , (29825, 027 /* ARMOR_TYPE_INT */, 32)
-     , (29825, 028 /* ARMOR_LEVEL_INT */, 275)
-     , (29825, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29825, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (29825, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (29825, 109 /* ITEM_DIFFICULTY_INT */, 170)
-     , (29825, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29825, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (29825, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (29825, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (29825, 160 /* WIELD_DIFFICULTY_INT */, 60);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29825, 005 /* MANA_RATE_FLOAT */, -0.03)
-     , (29825, 012 /* SHADE_FLOAT */, 0.66)
-     , (29825, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.4)
-     , (29825, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.4)
-     , (29825, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (29825, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (29825, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (29825, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (29825, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.6)
-     , (29825, 110 /* BULK_MOD_FLOAT */, 1)
-     , (29825, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (29825,   1,          2) /* ItemType - Armor */
+     , (29825,   3,          2) /* PaletteTemplate - Blue */
+     , (29825,   4,      16384) /* ClothingPriority - Head */
+     , (29825,   5,        250) /* EncumbranceVal */
+     , (29825,   8,        250) /* Mass */
+     , (29825,   9,          1) /* ValidLocations - HeadWear */
+     , (29825,  16,          1) /* ItemUseable - No */
+     , (29825,  18,          1) /* UiEffects - Magical */
+     , (29825,  19,       3000) /* Value */
+     , (29825,  27,         32) /* ArmorType */
+     , (29825,  28,        275) /* ArmorLevel */
+     , (29825,  93,       1044) /* PhysicsState */
+     , (29825, 107,        800) /* ItemCurMana */
+     , (29825, 108,        800) /* ItemMaxMana */
+     , (29825, 109,        170) /* ItemDifficulty */
+     , (29825, 150,        103) /* HookPlacement - Hook */
+     , (29825, 151,          2) /* HookType - Wall */
+     , (29825, 158,          7) /* WieldRequirements - Level */
+     , (29825, 159,          1) /* WieldSkilltype - Axe */
+     , (29825, 160,         60) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29825, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29825, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29825,  22, True ) /* Inscribable */
+     , (29825,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29825,   5,   -0.03) /* ManaRate */
+     , (29825,  12,    0.66) /* Shade */
+     , (29825,  13,     1.4) /* ArmorModVsSlash */
+     , (29825,  14,     1.4) /* ArmorModVsPierce */
+     , (29825,  15,       1) /* ArmorModVsBludgeon */
+     , (29825,  16,       1) /* ArmorModVsCold */
+     , (29825,  17,       1) /* ArmorModVsFire */
+     , (29825,  18,       1) /* ArmorModVsAcid */
+     , (29825,  19,     1.6) /* ArmorModVsElectric */
+     , (29825, 110,       1) /* BulkMod */
+     , (29825, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29825,   1, 'Untamed Siraluun Headdress') /* Name */
+     , (29825,  16, 'A headdress plaited from the plumes of an Untamed Siraluun.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29825,   1,   33557288) /* Setup */
+     , (29825,   3,  536870932) /* SoundTable */
+     , (29825,   6,   67108990) /* PaletteBase */
+     , (29825,   7,  268436237) /* ClothingBase */
+     , (29825,   8,  100677281) /* Icon */
+     , (29825,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29825, 761, 2) /* MagicItemExpertiseOther6_SpellID */
-     , (29825, 737, 2) /* ItemExpertiseOther6_SpellID */
-     , (29825, 713, 2) /* ArmorExpertiseOther6_SpellID */
-     , (29825, 785, 2) /* WeaponExpertiseOther6_SpellID */
-     , (29825, 3511, 2) /* ArcanumSalvagingOther6_SpellID */;
-
+VALUES (29825,   713,      2)  /* Armor Tinkering Expertise Other VI */
+     , (29825,   737,      2)  /* Item Tinkering Expertise Other VI */
+     , (29825,   761,      2)  /* Magic Item Tinkering Expertise Other VI */
+     , (29825,   785,      2)  /* Weapon Tinkering Expertise Other VI */
+     , (29825,  3511,      2)  /* Arcanum Enlightenment VI */;

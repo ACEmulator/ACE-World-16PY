@@ -1,49 +1,45 @@
-/* Weenie - Chest (21529) */
-DELETE FROM weenie WHERE class_Id = 21529;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21529, 'chestrollingdeath', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21529, 001 /* NAME_STRING */, 'Chest')
-     , (21529, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21529, 001 /* SETUP_DID */, 33554556)
-     , (21529, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (21529, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (21529, 008 /* ICON_DID */, 100667424)
-     , (21529, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21529', 'chestrollingdeath', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21529, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (21529, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (21529, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (21529, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (21529, 008 /* MASS_INT */, 3000)
-     , (21529, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (21529, 019 /* VALUE_INT */, 2500)
-     , (21529, 081 /* MAX_GENERATED_OBJECTS_INT */, 10)
-     , (21529, 082 /* INIT_GENERATED_OBJECTS_INT */, 10)
-     , (21529, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (21529, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (21529, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (21529, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21529, 011 /* RESET_INTERVAL_FLOAT */, 30)
-     , (21529, 041 /* REGENERATION_INTERVAL_FLOAT */, 5)
-     , (21529, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (21529, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (21529,   1,        512) /* ItemType - Container */
+     , (21529,   5,       9000) /* EncumbranceVal */
+     , (21529,   6,         -1) /* ItemsCapacity */
+     , (21529,   7,         -1) /* ContainersCapacity */
+     , (21529,   8,       3000) /* Mass */
+     , (21529,  16,         48) /* ItemUseable - ViewedRemote */
+     , (21529,  19,       2500) /* Value */
+     , (21529,  81,         10) /* MaxGeneratedObjects */
+     , (21529,  82,         10) /* InitGeneratedObjects */
+     , (21529,  83,          2) /* ActivationResponse - Use */
+     , (21529,  93,       1048) /* PhysicsState */
+     , (21529,  96,        500) /* EncumbranceCapacity */
+     , (21529, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21529, 001 /* STUCK_BOOL */, True)
-     , (21529, 002 /* OPEN_BOOL */, False)
-     , (21529, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (21529, 013 /* ETHEREAL_BOOL */, False)
-     , (21529, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (21529, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (21529,   1, True ) /* Stuck */
+     , (21529,   2, False) /* Open */
+     , (21529,  12, True ) /* ReportCollisions */
+     , (21529,  13, False) /* Ethereal */
+     , (21529,  33, False) /* ResetMessagePending */
+     , (21529,  34, False) /* DefaultOpen */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21529,  11,      30) /* ResetInterval */
+     , (21529,  41,       5) /* RegenerationInterval */
+     , (21529,  43,       1) /* GeneratorRadius */
+     , (21529,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21529,   1, 'Chest') /* Name */
+     , (21529,  14, 'Use this item to open it and see its contents.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21529,   1,   33554556) /* Setup */
+     , (21529,   2,  150994948) /* MotionTable */
+     , (21529,   3,  536870945) /* SoundTable */
+     , (21529,   8,  100667424) /* Icon */
+     , (21529,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21529, 1, 21379, 5, 10, 10, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Seal Fragment (x10 up to max of 10) - PickUp_RegenerationType - Contain_RegenLocationType */;
-
+VALUES (21529, 1, 21379, 5, 10, 10, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

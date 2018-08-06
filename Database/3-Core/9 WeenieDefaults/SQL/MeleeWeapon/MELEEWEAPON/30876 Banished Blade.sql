@@ -1,56 +1,52 @@
-/* Weenie - Banished Blade (30876) */
-DELETE FROM weenie WHERE class_Id = 30876;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30876, 'swordbanished', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30876, 001 /* NAME_STRING */, 'Banished Blade');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30876, 001 /* SETUP_DID */, 33559255)
-     , (30876, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30876, 008 /* ICON_DID */, 100677479)
-     , (30876, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30876', 'swordbanished', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30876, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30876, 005 /* ENCUMB_VAL_INT */, 450)
-     , (30876, 008 /* MASS_INT */, 340)
-     , (30876, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30876, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30876, 019 /* VALUE_INT */, 8000)
-     , (30876, 044 /* DAMAGE_INT */, 44)
-     , (30876, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (30876, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30876, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (30876, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (30876, 049 /* WEAPON_TIME_INT */, 40)
-     , (30876, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30876, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30876, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (30876, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (30876, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (30876, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30876, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (30876, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (30876, 159 /* WIELD_SKILLTYPE_INT */, 11 /* SWORD_SKILL */)
-     , (30876, 160 /* WIELD_DIFFICULTY_INT */, 300);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30876, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (30876, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (30876, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (30876, 029 /* WEAPON_DEFENSE_FLOAT */, 1.06)
-     , (30876, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (30876, 062 /* WEAPON_OFFENSE_FLOAT */, 1.06)
-     , (30876, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 3);
+VALUES (30876,   1,          1) /* ItemType - MeleeWeapon */
+     , (30876,   5,        450) /* EncumbranceVal */
+     , (30876,   8,        340) /* Mass */
+     , (30876,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30876,  16,          1) /* ItemUseable - No */
+     , (30876,  19,       8000) /* Value */
+     , (30876,  44,         44) /* Damage */
+     , (30876,  45,         16) /* DamageType - Fire */
+     , (30876,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (30876,  47,          6) /* AttackType */
+     , (30876,  48,         11) /* WeaponSkill - Sword */
+     , (30876,  49,         40) /* WeaponTime */
+     , (30876,  51,          1) /* CombatUse - Melee */
+     , (30876,  93,       1044) /* PhysicsState */
+     , (30876, 106,        250) /* ItemSpellcraft */
+     , (30876, 107,        800) /* ItemCurMana */
+     , (30876, 108,        800) /* ItemMaxMana */
+     , (30876, 150,        103) /* HookPlacement - Hook */
+     , (30876, 151,          2) /* HookType - Wall */
+     , (30876, 158,          2) /* WieldRequirements - RawSkill */
+     , (30876, 159,         11) /* WieldSkilltype - Sword */
+     , (30876, 160,        300) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30876, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30876, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (30876,  22, True ) /* Inscribable */
+     , (30876,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30876,   5,  -0.033) /* ManaRate */
+     , (30876,  21,    0.95) /* WeaponLength */
+     , (30876,  22,     0.5) /* DamageVariance */
+     , (30876,  29,    1.06) /* WeaponDefense */
+     , (30876,  39,       1) /* DefaultScale */
+     , (30876,  62,    1.06) /* WeaponOffense */
+     , (30876, 136,       3) /* CriticalMultiplier */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30876,   1, 'Banished Blade') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30876,   1,   33559255) /* Setup */
+     , (30876,   3,  536870932) /* SoundTable */
+     , (30876,   8,  100677479) /* Icon */
+     , (30876,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30876, 2566, 2) /* CANTRIPSWORDAPTITUDE1_SpellID */
-     , (30876, 1616, 2) /* BloodDrinker6_SpellID */;
-
+VALUES (30876,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (30876,  2566,      2)  /* Minor Heavy Weapon Aptitude */;

@@ -1,28 +1,24 @@
-/* Weenie - Qalaba'r Seaside Villas (13173) */
-DELETE FROM weenie WHERE class_Id = 13173;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13173, 'qalabarseasidevillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13173, 001 /* NAME_STRING */, 'Qalaba''r Seaside Villas')
-     , (13173, 016 /* LONG_DESC_STRING */, 'Welcome to Qalaba''r Seaside Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13173, 001 /* SETUP_DID */, 33557463)
-     , (13173, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('13173', 'qalabarseasidevillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13173, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (13173, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (13173, 008 /* MASS_INT */, 1800)
-     , (13173, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (13173, 019 /* VALUE_INT */, 125)
-     , (13173, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (13173,   1,        128) /* ItemType - Misc */
+     , (13173,   5,       9000) /* EncumbranceVal */
+     , (13173,   8,       1800) /* Mass */
+     , (13173,  16,          1) /* ItemUseable - No */
+     , (13173,  19,        125) /* Value */
+     , (13173,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13173, 001 /* STUCK_BOOL */, True)
-     , (13173, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (13173, 013 /* ETHEREAL_BOOL */, False)
-     , (13173, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (13173,   1, True ) /* Stuck */
+     , (13173,  12, True ) /* ReportCollisions */
+     , (13173,  13, False) /* Ethereal */
+     , (13173,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (13173,   1, 'Qalaba''r Seaside Villas') /* Name */
+     , (13173,  16, 'Welcome to Qalaba''r Seaside Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (13173,   1,   33557463) /* Setup */
+     , (13173,   8,  100668115) /* Icon */;

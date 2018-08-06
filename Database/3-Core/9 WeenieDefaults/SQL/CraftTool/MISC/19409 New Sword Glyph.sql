@@ -1,44 +1,40 @@
-/* Weenie - New Sword Glyph (19409) */
-DELETE FROM weenie WHERE class_Id = 19409;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19409, 'glyphnewsword', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19409, 001 /* NAME_STRING */, 'New Sword Glyph')
-     , (19409, 014 /* USE_STRING */, 'Use this on a Diamond Infused Pyreal Ingot.')
-     , (19409, 015 /* SHORT_DESC_STRING */, 'A glyph with the image of a sword emblazoned upon it.')
-     , (19409, 016 /* LONG_DESC_STRING */, 'A glyph with the image of a sword emblazoned upon it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19409, 001 /* SETUP_DID */, 33556438)
-     , (19409, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19409, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (19409, 007 /* CLOTHINGBASE_DID */, 268436386)
-     , (19409, 008 /* ICON_DID */, 100672879)
-     , (19409, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19409', 'glyphnewsword', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19409, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19409, 005 /* ENCUMB_VAL_INT */, 10)
-     , (19409, 008 /* MASS_INT */, 10)
-     , (19409, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19409, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (19409, 012 /* STACK_SIZE_INT */, 1)
-     , (19409, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (19409, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (19409, 015 /* STACK_UNIT_VALUE_INT */, 5000)
-     , (19409, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (19409, 019 /* VALUE_INT */, 5000)
-     , (19409, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19409, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19409, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (19409, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19409, 039 /* DEFAULT_SCALE_FLOAT */, 0.2);
+VALUES (19409,   1,        128) /* ItemType - Misc */
+     , (19409,   5,         10) /* EncumbranceVal */
+     , (19409,   8,         10) /* Mass */
+     , (19409,   9,          0) /* ValidLocations - None */
+     , (19409,  11,          1) /* MaxStackSize */
+     , (19409,  12,          1) /* StackSize */
+     , (19409,  13,         10) /* StackUnitEncumbrance */
+     , (19409,  14,         10) /* StackUnitMass */
+     , (19409,  15,       5000) /* StackUnitValue */
+     , (19409,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (19409,  19,       5000) /* Value */
+     , (19409,  93,       1044) /* PhysicsState */
+     , (19409,  94,        128) /* TargetType - Misc */
+     , (19409, 150,        103) /* HookPlacement - Hook */
+     , (19409, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19409, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19409, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (19409,  22, True ) /* Inscribable */
+     , (19409,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19409,  39,     0.2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19409,   1, 'New Sword Glyph') /* Name */
+     , (19409,  14, 'Use this on a Diamond Infused Pyreal Ingot.') /* Use */
+     , (19409,  15, 'A glyph with the image of a sword emblazoned upon it.') /* ShortDesc */
+     , (19409,  16, 'A glyph with the image of a sword emblazoned upon it.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19409,   1,   33556438) /* Setup */
+     , (19409,   3,  536870932) /* SoundTable */
+     , (19409,   6,   67111092) /* PaletteBase */
+     , (19409,   7,  268436386) /* ClothingBase */
+     , (19409,   8,  100672879) /* Icon */
+     , (19409,  22,  872415275) /* PhysicsEffectTable */;

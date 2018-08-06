@@ -1,37 +1,33 @@
-/* Weenie - Healing Cake (5219) */
-DELETE FROM weenie WHERE class_Id = 5219;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5219, 'healingcake', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5219, 001 /* NAME_STRING */, 'Healing Cake')
-     , (5219, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5219, 020 /* PLURAL_NAME_STRING */, 'Healing Cakes ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5219, 001 /* SETUP_DID */, 33555193)
-     , (5219, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5219, 008 /* ICON_DID */, 100667457)
-     , (5219, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5219', 'healingcake', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5219, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5219, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5219, 008 /* MASS_INT */, 25)
-     , (5219, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5219, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5219, 012 /* STACK_SIZE_INT */, 1)
-     , (5219, 013 /* STACK_UNIT_ENCUMB_INT */, 25)
-     , (5219, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (5219, 015 /* STACK_UNIT_VALUE_INT */, 77)
-     , (5219, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5219, 018 /* UI_EFFECTS_INT */, 4 /* UI_EFFECT_BOOST_HEALTH */)
-     , (5219, 019 /* VALUE_INT */, 77)
-     , (5219, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
-     , (5219, 090 /* BOOST_VALUE_INT */, 24)
-     , (5219, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5219,   1,         32) /* ItemType - Food */
+     , (5219,   5,         25) /* EncumbranceVal */
+     , (5219,   8,         25) /* Mass */
+     , (5219,   9,          0) /* ValidLocations - None */
+     , (5219,  11,        100) /* MaxStackSize */
+     , (5219,  12,          1) /* StackSize */
+     , (5219,  13,         25) /* StackUnitEncumbrance */
+     , (5219,  14,         25) /* StackUnitMass */
+     , (5219,  15,         77) /* StackUnitValue */
+     , (5219,  16,          8) /* ItemUseable - Contained */
+     , (5219,  18,          4) /* UiEffects - BoostHealth */
+     , (5219,  19,         77) /* Value */
+     , (5219,  89,          2) /* BoosterEnum - Health */
+     , (5219,  90,         24) /* BoostValue */
+     , (5219,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5219, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5219,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5219,   1, 'Healing Cake') /* Name */
+     , (5219,  14, 'Use this item to eat it.') /* Use */
+     , (5219,  20, 'Healing Cakes ') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5219,   1,   33555193) /* Setup */
+     , (5219,   3,  536870932) /* SoundTable */
+     , (5219,   8,  100667457) /* Icon */
+     , (5219,  22,  872415275) /* PhysicsEffectTable */;

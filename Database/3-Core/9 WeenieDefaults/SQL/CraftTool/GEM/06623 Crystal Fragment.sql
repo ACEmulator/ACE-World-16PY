@@ -1,42 +1,38 @@
-/* Weenie - Crystal Fragment (6623) */
-DELETE FROM weenie WHERE class_Id = 6623;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6623, 'shardcrystalfragment', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6623, 001 /* NAME_STRING */, 'Crystal Fragment')
-     , (6623, 014 /* USE_STRING */, 'Combine with a shadow fragment to make a sparkling gem.')
-     , (6623, 015 /* SHORT_DESC_STRING */, 'A fragment of crystal.')
-     , (6623, 016 /* LONG_DESC_STRING */, 'A fragment of crystal.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6623, 001 /* SETUP_DID */, 33554809)
-     , (6623, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6623, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6623, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (6623, 008 /* ICON_DID */, 100671739)
-     , (6623, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6623', 'shardcrystalfragment', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6623, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (6623, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
-     , (6623, 005 /* ENCUMB_VAL_INT */, 40)
-     , (6623, 008 /* MASS_INT */, 40)
-     , (6623, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6623, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (6623, 012 /* STACK_SIZE_INT */, 1)
-     , (6623, 013 /* STACK_UNIT_ENCUMB_INT */, 40)
-     , (6623, 014 /* STACK_UNIT_MASS_INT */, 40)
-     , (6623, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (6623, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (6623, 019 /* VALUE_INT */, 0)
-     , (6623, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6623, 094 /* TARGET_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (6623, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6623, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (6623,   1,       2048) /* ItemType - Gem */
+     , (6623,   3,         83) /* PaletteTemplate - Amber */
+     , (6623,   5,         40) /* EncumbranceVal */
+     , (6623,   8,         40) /* Mass */
+     , (6623,   9,          0) /* ValidLocations - None */
+     , (6623,  11,          1) /* MaxStackSize */
+     , (6623,  12,          1) /* StackSize */
+     , (6623,  13,         40) /* StackUnitEncumbrance */
+     , (6623,  14,         40) /* StackUnitMass */
+     , (6623,  15,          0) /* StackUnitValue */
+     , (6623,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (6623,  19,          0) /* Value */
+     , (6623,  93,       1044) /* PhysicsState */
+     , (6623,  94,       2048) /* TargetType - Gem */
+     , (6623, 150,        103) /* HookPlacement - Hook */
+     , (6623, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6623, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6623, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6623,  22, True ) /* Inscribable */
+     , (6623,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6623,   1, 'Crystal Fragment') /* Name */
+     , (6623,  14, 'Combine with a shadow fragment to make a sparkling gem.') /* Use */
+     , (6623,  15, 'A fragment of crystal.') /* ShortDesc */
+     , (6623,  16, 'A fragment of crystal.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6623,   1,   33554809) /* Setup */
+     , (6623,   3,  536870932) /* SoundTable */
+     , (6623,   6,   67111919) /* PaletteBase */
+     , (6623,   7,  268435723) /* ClothingBase */
+     , (6623,   8,  100671739) /* Icon */
+     , (6623,  22,  872415275) /* PhysicsEffectTable */;

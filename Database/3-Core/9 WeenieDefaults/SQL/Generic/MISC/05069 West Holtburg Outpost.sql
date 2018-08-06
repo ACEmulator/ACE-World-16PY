@@ -1,29 +1,25 @@
-/* Weenie - West Holtburg Outpost (5069) */
-DELETE FROM weenie WHERE class_Id = 5069;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5069, 'holtburgwestoutpostsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5069, 001 /* NAME_STRING */, 'West Holtburg Outpost')
-     , (5069, 016 /* LONG_DESC_STRING */, 'Welcome to the West Holtburg Outpost.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5069, 001 /* SETUP_DID */, 33555088)
-     , (5069, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5069', 'holtburgwestoutpostsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5069, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (5069, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (5069, 008 /* MASS_INT */, 1800)
-     , (5069, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5069, 019 /* VALUE_INT */, 125)
-     , (5069, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (5069,   1,        128) /* ItemType - Misc */
+     , (5069,   5,       9000) /* EncumbranceVal */
+     , (5069,   8,       1800) /* Mass */
+     , (5069,  16,          1) /* ItemUseable - No */
+     , (5069,  19,        125) /* Value */
+     , (5069,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5069, 001 /* STUCK_BOOL */, True)
-     , (5069, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5069, 013 /* ETHEREAL_BOOL */, False)
-     , (5069, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (5069, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (5069,   1, True ) /* Stuck */
+     , (5069,  12, True ) /* ReportCollisions */
+     , (5069,  13, False) /* Ethereal */
+     , (5069,  14, False) /* GravityStatus */
+     , (5069,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5069,   1, 'West Holtburg Outpost') /* Name */
+     , (5069,  16, 'Welcome to the West Holtburg Outpost.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5069,   1,   33555088) /* Setup */
+     , (5069,   8,  100668115) /* Icon */;

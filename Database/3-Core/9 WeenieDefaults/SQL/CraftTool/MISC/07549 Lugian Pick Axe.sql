@@ -1,40 +1,36 @@
-/* Weenie - Lugian Pick Axe (7549) */
-DELETE FROM weenie WHERE class_Id = 7549;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7549, 'lugianpickaxetool', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7549, 001 /* NAME_STRING */, 'Lugian Pick Axe')
-     , (7549, 014 /* USE_STRING */, 'This item is used in mining and is too heavy to wield.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7549, 001 /* SETUP_DID */, 33554813)
-     , (7549, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7549, 008 /* ICON_DID */, 100670275)
-     , (7549, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7549', 'lugianpickaxetool', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7549, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (7549, 005 /* ENCUMB_VAL_INT */, 4000)
-     , (7549, 008 /* MASS_INT */, 5)
-     , (7549, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7549, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (7549, 012 /* STACK_SIZE_INT */, 1)
-     , (7549, 013 /* STACK_UNIT_ENCUMB_INT */, 4000)
-     , (7549, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (7549, 015 /* STACK_UNIT_VALUE_INT */, 1500)
-     , (7549, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (7549, 019 /* VALUE_INT */, 1500)
-     , (7549, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7549, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (7549, 150 /* HOOK_PLACEMENT_INT */, 104 /* XXXUnknown68 */)
-     , (7549, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7549, 039 /* DEFAULT_SCALE_FLOAT */, 2);
+VALUES (7549,   1,        128) /* ItemType - Misc */
+     , (7549,   5,       4000) /* EncumbranceVal */
+     , (7549,   8,          5) /* Mass */
+     , (7549,   9,          0) /* ValidLocations - None */
+     , (7549,  11,          1) /* MaxStackSize */
+     , (7549,  12,          1) /* StackSize */
+     , (7549,  13,       4000) /* StackUnitEncumbrance */
+     , (7549,  14,          5) /* StackUnitMass */
+     , (7549,  15,       1500) /* StackUnitValue */
+     , (7549,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (7549,  19,       1500) /* Value */
+     , (7549,  93,       1044) /* PhysicsState */
+     , (7549,  94,        128) /* TargetType - Misc */
+     , (7549, 150,        104) /* HookPlacement - XXXUnknown68 */
+     , (7549, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7549, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7549, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (7549,  22, True ) /* Inscribable */
+     , (7549,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7549,  39,       2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7549,   1, 'Lugian Pick Axe') /* Name */
+     , (7549,  14, 'This item is used in mining and is too heavy to wield.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7549,   1,   33554813) /* Setup */
+     , (7549,   3,  536870932) /* SoundTable */
+     , (7549,   8,  100670275) /* Icon */
+     , (7549,  22,  872415275) /* PhysicsEffectTable */;

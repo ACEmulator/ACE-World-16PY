@@ -1,42 +1,38 @@
-/* Weenie - Blackthorn Pea (8335) */
-DELETE FROM weenie WHERE class_Id = 8335;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8335, 'peatalismanblackthorn', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8335, 001 /* NAME_STRING */, 'Blackthorn Pea')
-     , (8335, 015 /* SHORT_DESC_STRING */, 'A concentrated blackthorn pea.')
-     , (8335, 016 /* LONG_DESC_STRING */, 'A concentrated blackthorn pea.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8335, 001 /* SETUP_DID */, 33555207)
-     , (8335, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8335, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8335, 007 /* CLOTHINGBASE_DID */, 268435722)
-     , (8335, 008 /* ICON_DID */, 100671087)
-     , (8335, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8335, 029 /* SPELL_COMPONENT_DID */, 162);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8335', 'peatalismanblackthorn', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8335, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (8335, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (8335, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8335, 008 /* MASS_INT */, 50)
-     , (8335, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8335, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (8335, 012 /* STACK_SIZE_INT */, 1)
-     , (8335, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8335, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (8335, 015 /* STACK_UNIT_VALUE_INT */, 250)
-     , (8335, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8335, 019 /* VALUE_INT */, 250)
-     , (8335, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8335, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8335, 039 /* DEFAULT_SCALE_FLOAT */, 0.33);
+VALUES (8335,   1,       4096) /* ItemType - SpellComponents */
+     , (8335,   3,          2) /* PaletteTemplate - Blue */
+     , (8335,   5,         10) /* EncumbranceVal */
+     , (8335,   8,         50) /* Mass */
+     , (8335,   9,          0) /* ValidLocations - None */
+     , (8335,  11,        100) /* MaxStackSize */
+     , (8335,  12,          1) /* StackSize */
+     , (8335,  13,         10) /* StackUnitEncumbrance */
+     , (8335,  14,         50) /* StackUnitMass */
+     , (8335,  15,        250) /* StackUnitValue */
+     , (8335,  16,          1) /* ItemUseable - No */
+     , (8335,  19,        250) /* Value */
+     , (8335,  33,          1) /* Bonded - Bonded */
+     , (8335,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8335, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8335,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8335,  39,    0.33) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8335,   1, 'Blackthorn Pea') /* Name */
+     , (8335,  15, 'A concentrated blackthorn pea.') /* ShortDesc */
+     , (8335,  16, 'A concentrated blackthorn pea.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8335,   1,   33555207) /* Setup */
+     , (8335,   3,  536870932) /* SoundTable */
+     , (8335,   6,   67111919) /* PaletteBase */
+     , (8335,   7,  268435722) /* ClothingBase */
+     , (8335,   8,  100671087) /* Icon */
+     , (8335,  22,  872415275) /* PhysicsEffectTable */
+     , (8335,  29,        162) /* SpellComponent */;

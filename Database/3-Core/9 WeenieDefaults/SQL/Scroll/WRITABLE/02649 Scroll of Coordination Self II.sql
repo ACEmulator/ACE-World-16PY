@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Coordination Self II (2649) */
-DELETE FROM weenie WHERE class_Id = 2649;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2649, 'scrollcoordinationself2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2649, 001 /* NAME_STRING */, 'Scroll of Coordination Self II')
-     , (2649, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (2649, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the caster''s Coordination by 20 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2649, 001 /* SETUP_DID */, 33554826)
-     , (2649, 008 /* ICON_DID */, 100676452)
-     , (2649, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2649, 028 /* SPELL_DID */, 1374 /* CoordinationSelf2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2649', 'scrollcoordinationself2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2649, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2649, 005 /* ENCUMB_VAL_INT */, 30)
-     , (2649, 008 /* MASS_INT */, 90)
-     , (2649, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2649, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2649, 019 /* VALUE_INT */, 5)
-     , (2649, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2649, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (2649,   1,       8192) /* ItemType - Writable */
+     , (2649,   5,         30) /* EncumbranceVal */
+     , (2649,   8,         90) /* Mass */
+     , (2649,   9,          0) /* ValidLocations - None */
+     , (2649,  16,          8) /* ItemUseable - Contained */
+     , (2649,  19,          5) /* Value */
+     , (2649,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2649, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2649, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2649,  22, True ) /* Inscribable */
+     , (2649,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2649,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2649,   1, 'Scroll of Coordination Self II') /* Name */
+     , (2649,  15, 'A magic scroll.') /* ShortDesc */
+     , (2649,  16, 'When learned, this spell increases the caster''s Coordination by 20 points.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2649,   1,   33554826) /* Setup */
+     , (2649,   8,  100676452) /* Icon */
+     , (2649,  22,  872415275) /* PhysicsEffectTable */
+     , (2649,  28,       1374) /* Spell - Coordination Self II */;

@@ -1,58 +1,54 @@
-/* Weenie - Heavy Crossbow (23667) */
-DELETE FROM weenie WHERE class_Id = 23667;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23667, 'crossbowheavymid', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23667, 001 /* NAME_STRING */, 'Heavy Crossbow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23667, 001 /* SETUP_DID */, 33554732)
-     , (23667, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23667, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23667, 007 /* CLOTHINGBASE_DID */, 268435762)
-     , (23667, 008 /* ICON_DID */, 100668835)
-     , (23667, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23667', 'crossbowheavymid', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23667, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (23667, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (23667, 005 /* ENCUMB_VAL_INT */, 1920)
-     , (23667, 008 /* MASS_INT */, 640)
-     , (23667, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (23667, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23667, 019 /* VALUE_INT */, 375)
-     , (23667, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (23667, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (23667, 044 /* DAMAGE_INT */, 0)
-     , (23667, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (23667, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (23667, 049 /* WEAPON_TIME_INT */, 20)
-     , (23667, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (23667, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (23667, 052 /* PARENT_LOCATION_INT */, 2)
-     , (23667, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (23667, 060 /* WEAPON_RANGE_INT */, 192)
-     , (23667, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23667, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (23667, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (23667, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (23667, 109 /* ITEM_DIFFICULTY_INT */, 20);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23667, 005 /* MANA_RATE_FLOAT */, 0)
-     , (23667, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (23667, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (23667, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (23667, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (23667, 063 /* DAMAGE_MOD_FLOAT */, 2.2);
+VALUES (23667,   1,        256) /* ItemType - MissileWeapon */
+     , (23667,   3,         20) /* PaletteTemplate - Silver */
+     , (23667,   5,       1920) /* EncumbranceVal */
+     , (23667,   8,        640) /* Mass */
+     , (23667,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (23667,  16,          1) /* ItemUseable - No */
+     , (23667,  19,        375) /* Value */
+     , (23667,  33,         -2) /* Bonded - Destroy */
+     , (23667,  37,       9999) /* ResistItemAppraisal */
+     , (23667,  44,          0) /* Damage */
+     , (23667,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (23667,  48,          3) /* WeaponSkill - Crossbow */
+     , (23667,  49,         20) /* WeaponTime */
+     , (23667,  50,          2) /* AmmoType - Bolt */
+     , (23667,  51,          2) /* CombatUse - Missle */
+     , (23667,  52,          2) /* ParentLocation */
+     , (23667,  53,          3) /* PlacementPosition */
+     , (23667,  60,        192) /* WeaponRange */
+     , (23667,  93,       1044) /* PhysicsState */
+     , (23667, 106,        200) /* ItemSpellcraft */
+     , (23667, 107,        500) /* ItemCurMana */
+     , (23667, 108,        500) /* ItemMaxMana */
+     , (23667, 109,         20) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23667, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23667, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (23667,  22, True ) /* Inscribable */
+     , (23667,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23667,   5,       0) /* ManaRate */
+     , (23667,  26,    27.3) /* MaximumVelocity */
+     , (23667,  29,       1) /* WeaponDefense */
+     , (23667,  39,    1.25) /* DefaultScale */
+     , (23667,  62,       1) /* WeaponOffense */
+     , (23667,  63,     2.2) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23667,   1, 'Heavy Crossbow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23667,   1,   33554732) /* Setup */
+     , (23667,   3,  536870932) /* SoundTable */
+     , (23667,   6,   67111919) /* PaletteBase */
+     , (23667,   7,  268435762) /* ClothingBase */
+     , (23667,   8,  100668835) /* Icon */
+     , (23667,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23667, 1614, 2) /* BloodDrinker4_SpellID */
-     , (23667, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (23667,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (23667,  1625,      2)  /* Aura of Swift Killer Self IV */;

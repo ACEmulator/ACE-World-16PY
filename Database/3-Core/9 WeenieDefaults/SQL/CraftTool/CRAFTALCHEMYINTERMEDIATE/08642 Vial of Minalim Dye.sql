@@ -1,42 +1,38 @@
-/* Weenie - Vial of Minalim Dye (8642) */
-DELETE FROM weenie WHERE class_Id = 8642;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8642, 'dyewintergreen', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8642, 001 /* NAME_STRING */, 'Vial of Minalim Dye')
-     , (8642, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (8642, 015 /* SHORT_DESC_STRING */, 'Dye made from the crushed leaves of a winter green minalim plant.')
-     , (8642, 016 /* LONG_DESC_STRING */, 'Dye made from the crushed leaves of a winter green minalim plant.')
-     , (8642, 020 /* PLURAL_NAME_STRING */, 'Vials of Minalim Dye');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8642, 001 /* SETUP_DID */, 33556751)
-     , (8642, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8642, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8642, 007 /* CLOTHINGBASE_DID */, 268436034)
-     , (8642, 008 /* ICON_DID */, 100669996)
-     , (8642, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8642', 'dyewintergreen', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8642, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (8642, 003 /* PALETTE_TEMPLATE_INT */, 89 /* DYEWINTERGREEN_PALETTE_TEMPLATE */)
-     , (8642, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8642, 008 /* MASS_INT */, 5)
-     , (8642, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8642, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (8642, 012 /* STACK_SIZE_INT */, 1)
-     , (8642, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8642, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (8642, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (8642, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (8642, 019 /* VALUE_INT */, 10)
-     , (8642, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8642, 094 /* TARGET_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (8642, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8642, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (8642,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (8642,   3,         89) /* PaletteTemplate - DyeWinterGreen */
+     , (8642,   5,         10) /* EncumbranceVal */
+     , (8642,   8,          5) /* Mass */
+     , (8642,   9,          0) /* ValidLocations - None */
+     , (8642,  11,        100) /* MaxStackSize */
+     , (8642,  12,          1) /* StackSize */
+     , (8642,  13,         10) /* StackUnitEncumbrance */
+     , (8642,  14,          5) /* StackUnitMass */
+     , (8642,  15,         10) /* StackUnitValue */
+     , (8642,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (8642,  19,         10) /* Value */
+     , (8642,  93,       1044) /* PhysicsState */
+     , (8642,  94,    4194304) /* TargetType - CraftCookingBase */
+     , (8642, 150,        103) /* HookPlacement - Hook */
+     , (8642, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8642, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (8642,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8642,   1, 'Vial of Minalim Dye') /* Name */
+     , (8642,  14, 'This item is used in cooking.') /* Use */
+     , (8642,  15, 'Dye made from the crushed leaves of a winter green minalim plant.') /* ShortDesc */
+     , (8642,  16, 'Dye made from the crushed leaves of a winter green minalim plant.') /* LongDesc */
+     , (8642,  20, 'Vials of Minalim Dye') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8642,   1,   33556751) /* Setup */
+     , (8642,   3,  536870932) /* SoundTable */
+     , (8642,   6,   67111919) /* PaletteBase */
+     , (8642,   7,  268436034) /* ClothingBase */
+     , (8642,   8,  100669996) /* Icon */
+     , (8642,  22,  872415275) /* PhysicsEffectTable */;

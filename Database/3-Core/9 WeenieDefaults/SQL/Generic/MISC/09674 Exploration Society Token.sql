@@ -1,36 +1,32 @@
-/* Weenie - Exploration Society Token (9674) */
-DELETE FROM weenie WHERE class_Id = 9674;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9674, 'tokenexplorationsociety', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9674, 001 /* NAME_STRING */, 'Exploration Society Token')
-     , (9674, 015 /* SHORT_DESC_STRING */, 'An introductory token of the Dereth Exploration Society')
-     , (9674, 016 /* LONG_DESC_STRING */, 'An introductory token of the Dereth Exploration Society.  Present this to Bach Lien at the southeast Rithwic Explorer Society Outpost.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9674, 001 /* SETUP_DID */, 33554680)
-     , (9674, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9674, 008 /* ICON_DID */, 100667330)
-     , (9674, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (9674, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9674', 'tokenexplorationsociety', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9674, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9674, 005 /* ENCUMB_VAL_INT */, 150)
-     , (9674, 008 /* MASS_INT */, 50)
-     , (9674, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9674, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9674, 019 /* VALUE_INT */, 1)
-     , (9674, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9674, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9674, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9674, 039 /* DEFAULT_SCALE_FLOAT */, 0.37);
+VALUES (9674,   1,        128) /* ItemType - Misc */
+     , (9674,   5,        150) /* EncumbranceVal */
+     , (9674,   8,         50) /* Mass */
+     , (9674,   9,          0) /* ValidLocations - None */
+     , (9674,  16,          1) /* ItemUseable - No */
+     , (9674,  19,          1) /* Value */
+     , (9674,  33,          1) /* Bonded - Bonded */
+     , (9674,  93,       1044) /* PhysicsState */
+     , (9674, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9674, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9674, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9674,  22, True ) /* Inscribable */
+     , (9674,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9674,  39,    0.37) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9674,   1, 'Exploration Society Token') /* Name */
+     , (9674,  15, 'An introductory token of the Dereth Exploration Society') /* ShortDesc */
+     , (9674,  16, 'An introductory token of the Dereth Exploration Society.  Present this to Bach Lien at the southeast Rithwic Explorer Society Outpost.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9674,   1,   33554680) /* Setup */
+     , (9674,   3,  536870932) /* SoundTable */
+     , (9674,   8,  100667330) /* Icon */
+     , (9674,  22,  872415275) /* PhysicsEffectTable */
+     , (9674,  36,  234881046) /* MutateFilter */;

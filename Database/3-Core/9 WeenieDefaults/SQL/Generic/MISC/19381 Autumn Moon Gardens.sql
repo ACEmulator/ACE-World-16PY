@@ -1,28 +1,24 @@
-/* Weenie - Autumn Moon Gardens (19381) */
-DELETE FROM weenie WHERE class_Id = 19381;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19381, 'autumnmoongardenssign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19381, 001 /* NAME_STRING */, 'Autumn Moon Gardens')
-     , (19381, 016 /* LONG_DESC_STRING */, 'Autumn Moon Gardens');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19381, 001 /* SETUP_DID */, 33557684)
-     , (19381, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19381', 'autumnmoongardenssign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19381, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19381, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (19381, 008 /* MASS_INT */, 1800)
-     , (19381, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19381, 019 /* VALUE_INT */, 125)
-     , (19381, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (19381,   1,        128) /* ItemType - Misc */
+     , (19381,   5,       9000) /* EncumbranceVal */
+     , (19381,   8,       1800) /* Mass */
+     , (19381,  16,          1) /* ItemUseable - No */
+     , (19381,  19,        125) /* Value */
+     , (19381,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19381, 001 /* STUCK_BOOL */, True)
-     , (19381, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (19381, 013 /* ETHEREAL_BOOL */, False)
-     , (19381, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (19381,   1, True ) /* Stuck */
+     , (19381,  12, True ) /* ReportCollisions */
+     , (19381,  13, False) /* Ethereal */
+     , (19381,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19381,   1, 'Autumn Moon Gardens') /* Name */
+     , (19381,  16, 'Autumn Moon Gardens') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19381,   1,   33557684) /* Setup */
+     , (19381,   8,  100667499) /* Icon */;

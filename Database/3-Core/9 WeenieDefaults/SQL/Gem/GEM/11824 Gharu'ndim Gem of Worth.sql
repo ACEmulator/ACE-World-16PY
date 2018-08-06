@@ -1,45 +1,41 @@
-/* Weenie - Gharu'ndim Gem of Worth (11824) */
-DELETE FROM weenie WHERE class_Id = 11824;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11824, 'gemportalgha', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11824, 001 /* NAME_STRING */, 'Gharu''ndim Gem of Worth')
-     , (11824, 016 /* LONG_DESC_STRING */, 'This is a gem of significant value and usefulness.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11824, 001 /* SETUP_DID */, 33554809)
-     , (11824, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11824, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (11824, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (11824, 008 /* ICON_DID */, 100672150)
-     , (11824, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (11824, 028 /* SPELL_DID */, 2480 /* PORTALTUMEROKWARGHA_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11824', 'gemportalgha', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11824, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (11824, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (11824, 005 /* ENCUMB_VAL_INT */, 5)
-     , (11824, 008 /* MASS_INT */, 25)
-     , (11824, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11824, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (11824, 012 /* STACK_SIZE_INT */, 1)
-     , (11824, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (11824, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (11824, 015 /* STACK_UNIT_VALUE_INT */, 1500)
-     , (11824, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (11824, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (11824, 019 /* VALUE_INT */, 1500)
-     , (11824, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11824, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (11824, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (11824, 107 /* ITEM_CUR_MANA_INT */, 700)
-     , (11824, 108 /* ITEM_MAX_MANA_INT */, 700);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11824, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (11824,   1,       2048) /* ItemType - Gem */
+     , (11824,   3,         14) /* PaletteTemplate - Red */
+     , (11824,   5,          5) /* EncumbranceVal */
+     , (11824,   8,         25) /* Mass */
+     , (11824,   9,          0) /* ValidLocations - None */
+     , (11824,  11,          1) /* MaxStackSize */
+     , (11824,  12,          1) /* StackSize */
+     , (11824,  13,          5) /* StackUnitEncumbrance */
+     , (11824,  14,         25) /* StackUnitMass */
+     , (11824,  15,       1500) /* StackUnitValue */
+     , (11824,  16,          8) /* ItemUseable - Contained */
+     , (11824,  18,          1) /* UiEffects - Magical */
+     , (11824,  19,       1500) /* Value */
+     , (11824,  93,       1044) /* PhysicsState */
+     , (11824,  94,         16) /* TargetType - Creature */
+     , (11824, 106,        210) /* ItemSpellcraft */
+     , (11824, 107,        700) /* ItemCurMana */
+     , (11824, 108,        700) /* ItemMaxMana */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11824, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (11824,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11824,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11824,   1, 'Gharu''ndim Gem of Worth') /* Name */
+     , (11824,  16, 'This is a gem of significant value and usefulness.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11824,   1,   33554809) /* Setup */
+     , (11824,   3,  536870932) /* SoundTable */
+     , (11824,   6,   67111919) /* PaletteBase */
+     , (11824,   7,  268435723) /* ClothingBase */
+     , (11824,   8,  100672150) /* Icon */
+     , (11824,  22,  872415275) /* PhysicsEffectTable */
+     , (11824,  28,       2480) /* Spell - Free Trip to the Gharun'dim Casino */;

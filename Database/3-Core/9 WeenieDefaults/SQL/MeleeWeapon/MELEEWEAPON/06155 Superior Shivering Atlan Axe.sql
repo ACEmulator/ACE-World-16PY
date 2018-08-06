@@ -1,64 +1,60 @@
-/* Weenie - Superior Shivering Atlan Axe (6155) */
-DELETE FROM weenie WHERE class_Id = 6155;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6155, 'axebettershiveringminor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6155, 001 /* NAME_STRING */, 'Superior Shivering Atlan Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6155, 001 /* SETUP_DID */, 33556303)
-     , (6155, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6155, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6155, 007 /* CLOTHINGBASE_DID */, 268435882)
-     , (6155, 008 /* ICON_DID */, 100670508)
-     , (6155, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6155, 037 /* ITEM_SKILL_LIMIT_DID */, 1);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6155', 'axebettershiveringminor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6155, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6155, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (6155, 005 /* ENCUMB_VAL_INT */, 800)
-     , (6155, 008 /* MASS_INT */, 800)
-     , (6155, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6155, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6155, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6155, 019 /* VALUE_INT */, 4000)
-     , (6155, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6155, 044 /* DAMAGE_INT */, 19)
-     , (6155, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (6155, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6155, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (6155, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (6155, 049 /* WEAPON_TIME_INT */, 55)
-     , (6155, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6155, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6155, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (6155, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (6155, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (6155, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200)
-     , (6155, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6155, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6155, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (6155, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (6155, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (6155, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (6155, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6155, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05);
+VALUES (6155,   1,          1) /* ItemType - MeleeWeapon */
+     , (6155,   3,          2) /* PaletteTemplate - Blue */
+     , (6155,   5,        800) /* EncumbranceVal */
+     , (6155,   8,        800) /* Mass */
+     , (6155,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6155,  16,          1) /* ItemUseable - No */
+     , (6155,  18,          1) /* UiEffects - Magical */
+     , (6155,  19,       4000) /* Value */
+     , (6155,  33,          1) /* Bonded - Bonded */
+     , (6155,  44,         19) /* Damage */
+     , (6155,  45,          8) /* DamageType - Cold */
+     , (6155,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6155,  47,          4) /* AttackType - Slash */
+     , (6155,  48,          1) /* WeaponSkill - Axe */
+     , (6155,  49,         55) /* WeaponTime */
+     , (6155,  51,          1) /* CombatUse - Melee */
+     , (6155,  93,       1044) /* PhysicsState */
+     , (6155, 106,        100) /* ItemSpellcraft */
+     , (6155, 107,        500) /* ItemCurMana */
+     , (6155, 108,        500) /* ItemMaxMana */
+     , (6155, 115,        200) /* ItemSkillLevelLimit */
+     , (6155, 150,        103) /* HookPlacement - Hook */
+     , (6155, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6155, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6155, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6155, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6155,  22, True ) /* Inscribable */
+     , (6155,  23, True ) /* DestroyOnSell */
+     , (6155,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6155,   5,  -0.025) /* ManaRate */
+     , (6155,  21,    0.75) /* WeaponLength */
+     , (6155,  22,     0.5) /* DamageVariance */
+     , (6155,  29,    1.05) /* WeaponDefense */
+     , (6155,  39,       1) /* DefaultScale */
+     , (6155,  62,    1.05) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6155,   1, 'Superior Shivering Atlan Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6155,   1,   33556303) /* Setup */
+     , (6155,   3,  536870932) /* SoundTable */
+     , (6155,   6,   67111919) /* PaletteBase */
+     , (6155,   7,  268435882) /* ClothingBase */
+     , (6155,   8,  100670508) /* Icon */
+     , (6155,  22,  872415275) /* PhysicsEffectTable */
+     , (6155,  37,          1) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6155, 1399, 2) /* QuicknessSelf3_SpellID */
-     , (6155, 1032, 2) /* ColdProtectionSelf3_SpellID */
-     , (6155, 1602, 2) /* Defender3_SpellID */
-     , (6155, 1589, 2) /* HeartSeeker3_SpellID */
-     , (6155, 1613, 2) /* BloodDrinker3_SpellID */
-     , (6155, 1624, 2) /* SwiftKiller3_SpellID */;
-
+VALUES (6155,  1032,      2)  /* Cold Protection Self III */
+     , (6155,  1399,      2)  /* Quickness Self III */
+     , (6155,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (6155,  1602,      2)  /* Aura of Defender Self III */
+     , (6155,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6155,  1624,      2)  /* Aura of Swift Killer Self III */;

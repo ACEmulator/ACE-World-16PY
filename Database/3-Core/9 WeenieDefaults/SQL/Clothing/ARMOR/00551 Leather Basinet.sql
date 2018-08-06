@@ -1,51 +1,47 @@
-/* Weenie - Leather Basinet (551) */
-DELETE FROM weenie WHERE class_Id = 551;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (551, 'basinetleather', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (551, 001 /* NAME_STRING */, 'Leather Basinet');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (551, 001 /* SETUP_DID */, 33555048)
-     , (551, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (551, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (551, 007 /* CLOTHINGBASE_DID */, 268435512)
-     , (551, 008 /* ICON_DID */, 100668241)
-     , (551, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (551, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (551, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('551', 'basinetleather', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (551, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (551, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (551, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (551, 005 /* ENCUMB_VAL_INT */, 330)
-     , (551, 008 /* MASS_INT */, 110)
-     , (551, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (551, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (551, 019 /* VALUE_INT */, 180)
-     , (551, 027 /* ARMOR_TYPE_INT */, 2)
-     , (551, 028 /* ARMOR_LEVEL_INT */, 40)
-     , (551, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (551, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (551, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (551, 169 /* TSYS_MUTATION_DATA_INT */, 168494606);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (551, 012 /* SHADE_FLOAT */, 0.66)
-     , (551, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (551, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (551, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (551, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (551, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.5)
-     , (551, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.3)
-     , (551, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (551, 110 /* BULK_MOD_FLOAT */, 1.25)
-     , (551, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (551,   1,          2) /* ItemType - Armor */
+     , (551,   3,          4) /* PaletteTemplate - Brown */
+     , (551,   4,      16384) /* ClothingPriority - Head */
+     , (551,   5,        330) /* EncumbranceVal */
+     , (551,   8,        110) /* Mass */
+     , (551,   9,          1) /* ValidLocations - HeadWear */
+     , (551,  16,          1) /* ItemUseable - No */
+     , (551,  19,        180) /* Value */
+     , (551,  27,          2) /* ArmorType */
+     , (551,  28,         40) /* ArmorLevel */
+     , (551,  93,       1044) /* PhysicsState */
+     , (551, 150,        103) /* HookPlacement - Hook */
+     , (551, 151,          2) /* HookType - Wall */
+     , (551, 169,  168494606) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (551, 022 /* INSCRIBABLE_BOOL */, True)
-     , (551, 100 /* DYABLE_BOOL */, True);
+VALUES (551,  22, True ) /* Inscribable */
+     , (551, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (551,  12,    0.66) /* Shade */
+     , (551,  13,       1) /* ArmorModVsSlash */
+     , (551,  14,     0.8) /* ArmorModVsPierce */
+     , (551,  15,       1) /* ArmorModVsBludgeon */
+     , (551,  16,     0.5) /* ArmorModVsCold */
+     , (551,  17,     0.5) /* ArmorModVsFire */
+     , (551,  18,     0.3) /* ArmorModVsAcid */
+     , (551,  19,     0.6) /* ArmorModVsElectric */
+     , (551, 110,    1.25) /* BulkMod */
+     , (551, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (551,   1, 'Leather Basinet') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (551,   1,   33555048) /* Setup */
+     , (551,   3,  536870932) /* SoundTable */
+     , (551,   6,   67108990) /* PaletteBase */
+     , (551,   7,  268435512) /* ClothingBase */
+     , (551,   8,  100668241) /* Icon */
+     , (551,  22,  872415275) /* PhysicsEffectTable */
+     , (551,  36,  234881042) /* MutateFilter */
+     , (551,  46,  939524146) /* TsysMutationFilter */;

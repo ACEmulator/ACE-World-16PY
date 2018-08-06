@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Defenselessness II (3248) */
-DELETE FROM weenie WHERE class_Id = 3248;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3248, 'scrolldefenselessnessother2', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3248, 001 /* NAME_STRING */, 'Scroll of Defenselessness II')
-     , (3248, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3248, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Missile Defense skill by 20%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3248, 001 /* SETUP_DID */, 33554826)
-     , (3248, 008 /* ICON_DID */, 100676468)
-     , (3248, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3248, 028 /* SPELL_DID */, 263 /* DefenselessnessOther2_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3248', 'scrolldefenselessnessother2', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3248, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3248, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3248, 008 /* MASS_INT */, 90)
-     , (3248, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3248, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3248, 019 /* VALUE_INT */, 5)
-     , (3248, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3248, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3248,   1,       8192) /* ItemType - Writable */
+     , (3248,   5,         30) /* EncumbranceVal */
+     , (3248,   8,         90) /* Mass */
+     , (3248,   9,          0) /* ValidLocations - None */
+     , (3248,  16,          8) /* ItemUseable - Contained */
+     , (3248,  19,          5) /* Value */
+     , (3248,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3248, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3248, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3248,  22, True ) /* Inscribable */
+     , (3248,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3248,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3248,   1, 'Scroll of Defenselessness II') /* Name */
+     , (3248,  15, 'A magic scroll.') /* ShortDesc */
+     , (3248,  16, 'When learned, this spell decreases the target''s Missile Defense skill by 20%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3248,   1,   33554826) /* Setup */
+     , (3248,   8,  100676468) /* Icon */
+     , (3248,  22,  872415275) /* PhysicsEffectTable */
+     , (3248,  28,        263) /* Spell - Defenselessness Other II */;

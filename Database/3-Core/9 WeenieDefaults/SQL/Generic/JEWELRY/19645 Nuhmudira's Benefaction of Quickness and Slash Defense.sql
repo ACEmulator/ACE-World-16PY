@@ -1,57 +1,53 @@
-/* Weenie - Nuhmudira's Benefaction of Quickness and Slash Defense (19645) */
-DELETE FROM weenie WHERE class_Id = 19645;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19645, 'gorgetnuhmudiraquicknessslashlow', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19645, 001 /* NAME_STRING */, 'Nuhmudira''s Benefaction of Quickness and Slash Defense')
-     , (19645, 015 /* SHORT_DESC_STRING */, 'A green gorget, crafted from a strong metal, imbued with an elixir of speed and elixir of crystal skin.')
-     , (19645, 016 /* LONG_DESC_STRING */, 'A green gorget, crafted from a strong metal, imbued with an elixir of speed and elixir of crystal skin. As you hold the gorget in your hand you feel a soft vibration.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19645, 001 /* SETUP_DID */, 33554687)
-     , (19645, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19645, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19645, 007 /* CLOTHINGBASE_DID */, 268436388)
-     , (19645, 008 /* ICON_DID */, 100668632)
-     , (19645, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (19645, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19645', 'gorgetnuhmudiraquicknessslashlow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19645, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (19645, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (19645, 005 /* ENCUMB_VAL_INT */, 150)
-     , (19645, 008 /* MASS_INT */, 150)
-     , (19645, 009 /* LOCATIONS_INT */, 32768 /* NECK_WEAR_LOC */)
-     , (19645, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19645, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (19645, 019 /* VALUE_INT */, 5000)
-     , (19645, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19645, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19645, 106 /* ITEM_SPELLCRAFT_INT */, 225)
-     , (19645, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (19645, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (19645, 109 /* ITEM_DIFFICULTY_INT */, 120)
-     , (19645, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (19645, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (19645, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (19645, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (19645, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (19645, 160 /* WIELD_DIFFICULTY_INT */, 15);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19645, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (19645, 039 /* DEFAULT_SCALE_FLOAT */, 0.67);
+VALUES (19645,   1,          8) /* ItemType - Jewelry */
+     , (19645,   3,          8) /* PaletteTemplate - Green */
+     , (19645,   5,        150) /* EncumbranceVal */
+     , (19645,   8,        150) /* Mass */
+     , (19645,   9,      32768) /* ValidLocations - NeckWear */
+     , (19645,  16,          1) /* ItemUseable - No */
+     , (19645,  18,          1) /* UiEffects - Magical */
+     , (19645,  19,       5000) /* Value */
+     , (19645,  33,          1) /* Bonded - Bonded */
+     , (19645,  93,       1044) /* PhysicsState */
+     , (19645, 106,        225) /* ItemSpellcraft */
+     , (19645, 107,        500) /* ItemCurMana */
+     , (19645, 108,        500) /* ItemMaxMana */
+     , (19645, 109,        120) /* ItemDifficulty */
+     , (19645, 114,          1) /* Attuned - Attuned */
+     , (19645, 150,        103) /* HookPlacement - Hook */
+     , (19645, 151,          2) /* HookType - Wall */
+     , (19645, 158,          7) /* WieldRequirements - Level */
+     , (19645, 159,          1) /* WieldSkilltype - Axe */
+     , (19645, 160,         15) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19645, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19645, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19645, 069 /* IS_SELLABLE_BOOL */, False)
-     , (19645, 099 /* IVORYABLE_BOOL */, True);
+VALUES (19645,  22, True ) /* Inscribable */
+     , (19645,  23, True ) /* DestroyOnSell */
+     , (19645,  69, False) /* IsSellable */
+     , (19645,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19645,   5,  -0.033) /* ManaRate */
+     , (19645,  39,    0.67) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19645,   1, 'Nuhmudira''s Benefaction of Quickness and Slash Defense') /* Name */
+     , (19645,  15, 'A green gorget, crafted from a strong metal, imbued with an elixir of speed and elixir of crystal skin.') /* ShortDesc */
+     , (19645,  16, 'A green gorget, crafted from a strong metal, imbued with an elixir of speed and elixir of crystal skin. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19645,   1,   33554687) /* Setup */
+     , (19645,   3,  536870932) /* SoundTable */
+     , (19645,   6,   67111919) /* PaletteBase */
+     , (19645,   7,  268436388) /* ClothingBase */
+     , (19645,   8,  100668632) /* Icon */
+     , (19645,  22,  872415275) /* PhysicsEffectTable */
+     , (19645,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19645, 1117, 2) /* BladeProtectionOther3_SpellID */
-     , (19645, 2668, 2) /* NuhmudirasBenefaction_SpellID */
-     , (19645, 1405, 2) /* QuicknessOther3_SpellID */;
-
+VALUES (19645,  1117,      2)  /* Blade Protection Other III */
+     , (19645,  1405,      2)  /* Quickness Other III */
+     , (19645,  2668,      2)  /* Nuhmudiras Benefaction */;

@@ -1,28 +1,24 @@
-/* Weenie - Siege Road Settlement (12652) */
-DELETE FROM weenie WHERE class_Id = 12652;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12652, 'siegeroadsettlementsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12652, 001 /* NAME_STRING */, 'Siege Road Settlement')
-     , (12652, 016 /* LONG_DESC_STRING */, 'Welcome to Siege Road Settlement');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12652, 001 /* SETUP_DID */, 33557463)
-     , (12652, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12652', 'siegeroadsettlementsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12652, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (12652, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (12652, 008 /* MASS_INT */, 1800)
-     , (12652, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12652, 019 /* VALUE_INT */, 125)
-     , (12652, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (12652,   1,        128) /* ItemType - Misc */
+     , (12652,   5,       9000) /* EncumbranceVal */
+     , (12652,   8,       1800) /* Mass */
+     , (12652,  16,          1) /* ItemUseable - No */
+     , (12652,  19,        125) /* Value */
+     , (12652,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12652, 001 /* STUCK_BOOL */, True)
-     , (12652, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12652, 013 /* ETHEREAL_BOOL */, False)
-     , (12652, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (12652,   1, True ) /* Stuck */
+     , (12652,  12, True ) /* ReportCollisions */
+     , (12652,  13, False) /* Ethereal */
+     , (12652,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12652,   1, 'Siege Road Settlement') /* Name */
+     , (12652,  16, 'Welcome to Siege Road Settlement') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12652,   1,   33557463) /* Setup */
+     , (12652,   8,  100668115) /* Icon */;

@@ -1,47 +1,43 @@
-/* Weenie - Reedshark Hide Greaves (4228) */
-DELETE FROM weenie WHERE class_Id = 4228;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4228, 'greavesreedsharkhide', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4228, 001 /* NAME_STRING */, 'Reedshark Hide Greaves')
-     , (4228, 015 /* SHORT_DESC_STRING */, 'Greaves crafted from the hide of a Reed Shark.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4228, 001 /* SETUP_DID */, 33554641)
-     , (4228, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4228, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (4228, 007 /* CLOTHINGBASE_DID */, 268435543)
-     , (4228, 008 /* ICON_DID */, 100668122)
-     , (4228, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4228', 'greavesreedsharkhide', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4228, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (4228, 003 /* PALETTE_TEMPLATE_INT */, 6 /* DEEPBROWN_PALETTE_TEMPLATE */)
-     , (4228, 004 /* CLOTHING_PRIORITY_INT */, 512 /* OuterwearLowerLegs */)
-     , (4228, 005 /* ENCUMB_VAL_INT */, 420)
-     , (4228, 008 /* MASS_INT */, 140)
-     , (4228, 009 /* LOCATIONS_INT */, 16384 /* LOWER_LEG_ARMOR_LOC */)
-     , (4228, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4228, 019 /* VALUE_INT */, 100)
-     , (4228, 027 /* ARMOR_TYPE_INT */, 2)
-     , (4228, 028 /* ARMOR_LEVEL_INT */, 30)
-     , (4228, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4228, 012 /* SHADE_FLOAT */, 0.66)
-     , (4228, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (4228, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (4228, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
-     , (4228, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.1)
-     , (4228, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.7)
-     , (4228, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (4228, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
-     , (4228, 039 /* DEFAULT_SCALE_FLOAT */, 1.33)
-     , (4228, 110 /* BULK_MOD_FLOAT */, 1)
-     , (4228, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (4228,   1,          2) /* ItemType - Armor */
+     , (4228,   3,          6) /* PaletteTemplate - DeepBrown */
+     , (4228,   4,        512) /* ClothingPriority - OuterwearLowerLegs */
+     , (4228,   5,        420) /* EncumbranceVal */
+     , (4228,   8,        140) /* Mass */
+     , (4228,   9,      16384) /* ValidLocations - LowerLegArmor */
+     , (4228,  16,          1) /* ItemUseable - No */
+     , (4228,  19,        100) /* Value */
+     , (4228,  27,          2) /* ArmorType */
+     , (4228,  28,         30) /* ArmorLevel */
+     , (4228,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4228, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (4228,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4228,  12,    0.66) /* Shade */
+     , (4228,  13,       1) /* ArmorModVsSlash */
+     , (4228,  14,       1) /* ArmorModVsPierce */
+     , (4228,  15,     0.8) /* ArmorModVsBludgeon */
+     , (4228,  16,     1.1) /* ArmorModVsCold */
+     , (4228,  17,     0.7) /* ArmorModVsFire */
+     , (4228,  18,     0.6) /* ArmorModVsAcid */
+     , (4228,  19,       1) /* ArmorModVsElectric */
+     , (4228,  39,    1.33) /* DefaultScale */
+     , (4228, 110,       1) /* BulkMod */
+     , (4228, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4228,   1, 'Reedshark Hide Greaves') /* Name */
+     , (4228,  15, 'Greaves crafted from the hide of a Reed Shark.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4228,   1,   33554641) /* Setup */
+     , (4228,   3,  536870932) /* SoundTable */
+     , (4228,   6,   67108990) /* PaletteBase */
+     , (4228,   7,  268435543) /* ClothingBase */
+     , (4228,   8,  100668122) /* Icon */
+     , (4228,  22,  872415275) /* PhysicsEffectTable */;

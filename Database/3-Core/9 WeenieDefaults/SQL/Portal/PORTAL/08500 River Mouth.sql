@@ -1,35 +1,31 @@
-/* Weenie - River Mouth (8500) */
-DELETE FROM weenie WHERE class_Id = 8500;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8500, 'portalrivermouth', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8500, 001 /* NAME_STRING */, 'River Mouth');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8500, 001 /* SETUP_DID */, 33555923)
-     , (8500, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (8500, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8500', 'portalrivermouth', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8500, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (8500, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (8500, 086 /* MIN_LEVEL_INT */, 12)
-     , (8500, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (8500, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (8500, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8500, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (8500,   1,      65536) /* ItemType - Portal */
+     , (8500,  16,         32) /* ItemUseable - Remote */
+     , (8500,  86,         12) /* MinLevel */
+     , (8500,  93,       3084) /* PhysicsState */
+     , (8500, 111,          1) /* PortalBitmask - Unrestricted */
+     , (8500, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8500, 001 /* STUCK_BOOL */, True)
-     , (8500, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (8500, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (8500, 013 /* ETHEREAL_BOOL */, True)
-     , (8500, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (8500,   1, True ) /* Stuck */
+     , (8500,  11, False) /* IgnoreCollisions */
+     , (8500,  12, True ) /* ReportCollisions */
+     , (8500,  13, True ) /* Ethereal */
+     , (8500,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8500,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8500,   1, 'River Mouth') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8500,   1,   33555923) /* Setup */
+     , (8500,   2,  150994947) /* MotionTable */
+     , (8500,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8500, 2, 1053097995, 26.8, 51.7, 8, -0.4226183, 0, 0, -0.9063078) /* DESTINATION_POSITION */;
-
+VALUES (8500, 2, 1053097995, 26.8, 51.7, 8, -0.4226183, 0, 0, -0.9063078) /* Destination */;

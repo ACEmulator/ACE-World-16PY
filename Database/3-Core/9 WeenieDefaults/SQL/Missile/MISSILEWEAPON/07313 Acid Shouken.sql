@@ -1,48 +1,44 @@
-/* Weenie - Acid Shouken (7313) */
-DELETE FROM weenie WHERE class_Id = 7313;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7313, 'shurikenacidmonsteronly', 4 /* Missile_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7313, 001 /* NAME_STRING */, 'Acid Shouken');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7313, 001 /* SETUP_DID */, 33555772)
-     , (7313, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7313, 008 /* ICON_DID */, 100667605)
-     , (7313, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7313', 'shurikenacidmonsteronly', 4) /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7313, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (7313, 005 /* ENCUMB_VAL_INT */, 11)
-     , (7313, 008 /* MASS_INT */, 7)
-     , (7313, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (7313, 011 /* MAX_STACK_SIZE_INT */, 80)
-     , (7313, 012 /* STACK_SIZE_INT */, 1)
-     , (7313, 013 /* STACK_UNIT_ENCUMB_INT */, 11)
-     , (7313, 014 /* STACK_UNIT_MASS_INT */, 7)
-     , (7313, 015 /* STACK_UNIT_VALUE_INT */, 12)
-     , (7313, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7313, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (7313, 019 /* VALUE_INT */, 12)
-     , (7313, 044 /* DAMAGE_INT */, 12)
-     , (7313, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (7313, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (7313, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (7313, 049 /* WEAPON_TIME_INT */, 10)
-     , (7313, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (7313, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7313, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (7313, 027 /* ROTATION_SPEED_FLOAT */, 2)
-     , (7313, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (7313, 039 /* DEFAULT_SCALE_FLOAT */, 1.5)
-     , (7313, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (7313, 078 /* FRICTION_FLOAT */, 1)
-     , (7313, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (7313,   1,        256) /* ItemType - MissileWeapon */
+     , (7313,   5,         11) /* EncumbranceVal */
+     , (7313,   8,          7) /* Mass */
+     , (7313,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (7313,  11,         80) /* MaxStackSize */
+     , (7313,  12,          1) /* StackSize */
+     , (7313,  13,         11) /* StackUnitEncumbrance */
+     , (7313,  14,          7) /* StackUnitMass */
+     , (7313,  15,         12) /* StackUnitValue */
+     , (7313,  16,          1) /* ItemUseable - No */
+     , (7313,  18,        256) /* UiEffects - Acid */
+     , (7313,  19,         12) /* Value */
+     , (7313,  44,         12) /* Damage */
+     , (7313,  45,         32) /* DamageType - Acid */
+     , (7313,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (7313,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (7313,  49,         10) /* WeaponTime */
+     , (7313,  51,          2) /* CombatUse - Missle */
+     , (7313,  93,     132116) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7313, 017 /* INELASTIC_BOOL */, True);
+VALUES (7313,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7313,  22,    0.25) /* DamageVariance */
+     , (7313,  27,       2) /* RotationSpeed */
+     , (7313,  29,       1) /* WeaponDefense */
+     , (7313,  39,     1.5) /* DefaultScale */
+     , (7313,  62,       1) /* WeaponOffense */
+     , (7313,  78,       1) /* Friction */
+     , (7313,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7313,   1, 'Acid Shouken') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7313,   1,   33555772) /* Setup */
+     , (7313,   3,  536870932) /* SoundTable */
+     , (7313,   8,  100667605) /* Icon */
+     , (7313,  22,  872415275) /* PhysicsEffectTable */;

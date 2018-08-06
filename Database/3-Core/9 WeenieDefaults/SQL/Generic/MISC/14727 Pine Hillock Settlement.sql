@@ -1,28 +1,24 @@
-/* Weenie - Pine Hillock Settlement (14727) */
-DELETE FROM weenie WHERE class_Id = 14727;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14727, 'pinehillocksettlementsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14727, 001 /* NAME_STRING */, 'Pine Hillock Settlement')
-     , (14727, 016 /* LONG_DESC_STRING */, 'Welcome to Pine Hillock Settlement');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14727, 001 /* SETUP_DID */, 33557463)
-     , (14727, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14727', 'pinehillocksettlementsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14727, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14727, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14727, 008 /* MASS_INT */, 1800)
-     , (14727, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14727, 019 /* VALUE_INT */, 125)
-     , (14727, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14727,   1,        128) /* ItemType - Misc */
+     , (14727,   5,       9000) /* EncumbranceVal */
+     , (14727,   8,       1800) /* Mass */
+     , (14727,  16,          1) /* ItemUseable - No */
+     , (14727,  19,        125) /* Value */
+     , (14727,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14727, 001 /* STUCK_BOOL */, True)
-     , (14727, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14727, 013 /* ETHEREAL_BOOL */, False)
-     , (14727, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14727,   1, True ) /* Stuck */
+     , (14727,  12, True ) /* ReportCollisions */
+     , (14727,  13, False) /* Ethereal */
+     , (14727,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14727,   1, 'Pine Hillock Settlement') /* Name */
+     , (14727,  16, 'Welcome to Pine Hillock Settlement') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14727,   1,   33557463) /* Setup */
+     , (14727,   8,  100668115) /* Icon */;

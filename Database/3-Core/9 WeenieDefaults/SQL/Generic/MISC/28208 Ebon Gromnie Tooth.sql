@@ -1,34 +1,30 @@
-/* Weenie - Ebon Gromnie Tooth (28208) */
-DELETE FROM weenie WHERE class_Id = 28208;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28208, 'gromnietoothebon', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28208, 001 /* NAME_STRING */, 'Ebon Gromnie Tooth');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28208, 001 /* SETUP_DID */, 33554817)
-     , (28208, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28208, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (28208, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (28208, 008 /* ICON_DID */, 100676758)
-     , (28208, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28208', 'gromnietoothebon', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28208, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28208, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (28208, 005 /* ENCUMB_VAL_INT */, 105)
-     , (28208, 008 /* MASS_INT */, 70)
-     , (28208, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28208, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28208, 019 /* VALUE_INT */, 80)
-     , (28208, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28208, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
+VALUES (28208,   1,        128) /* ItemType - Misc */
+     , (28208,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (28208,   5,        105) /* EncumbranceVal */
+     , (28208,   8,         70) /* Mass */
+     , (28208,   9,          0) /* ValidLocations - None */
+     , (28208,  16,          1) /* ItemUseable - No */
+     , (28208,  19,         80) /* Value */
+     , (28208,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28208, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28208, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28208,  22, True ) /* Inscribable */
+     , (28208,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28208,  39,     0.4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28208,   1, 'Ebon Gromnie Tooth') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28208,   1,   33554817) /* Setup */
+     , (28208,   3,  536870932) /* SoundTable */
+     , (28208,   6,   67111919) /* PaletteBase */
+     , (28208,   7,  268435832) /* ClothingBase */
+     , (28208,   8,  100676758) /* Icon */
+     , (28208,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,33 +1,29 @@
-/* Weenie - Strength To Endurance Gem (23071) */
-DELETE FROM weenie WHERE class_Id = 23071;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23071, 'attributegemstrengthtoendurance', 63 /* AttributeTransferDevice_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23071, 001 /* NAME_STRING */, 'Strength To Endurance Gem')
-     , (23071, 014 /* USE_STRING */, 'Use this gem to transfer up to 10 points of your Strength into your Endurance.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23071, 001 /* SETUP_DID */, 33558087)
-     , (23071, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23071, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (23071, 008 /* ICON_DID */, 100673957);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23071', 'attributegemstrengthtoendurance', 63) /* AttributeTransferDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23071, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (23071, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (23071, 005 /* ENCUMB_VAL_INT */, 10)
-     , (23071, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23071, 019 /* VALUE_INT */, 0)
-     , (23071, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23071, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23071, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (23071, 189 /* TRANSFER_FROM_ATTRIBUTE_INT */, 1)
-     , (23071, 190 /* TRANSFER_TO_ATTRIBUTE_INT */, 2);
+VALUES (23071,   1,        128) /* ItemType - Misc */
+     , (23071,   3,         14) /* PaletteTemplate - Red */
+     , (23071,   5,         10) /* EncumbranceVal */
+     , (23071,  16,          8) /* ItemUseable - Contained */
+     , (23071,  19,          0) /* Value */
+     , (23071,  33,          1) /* Bonded - Bonded */
+     , (23071,  93,       1044) /* PhysicsState */
+     , (23071, 114,          1) /* Attuned - Attuned */
+     , (23071, 189,          1) /* TransferFromAttribute */
+     , (23071, 190,          2) /* TransferToAttribute */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23071, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23071, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (23071, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (23071,  22, True ) /* Inscribable */
+     , (23071,  23, True ) /* DestroyOnSell */
+     , (23071,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23071,   1, 'Strength To Endurance Gem') /* Name */
+     , (23071,  14, 'Use this gem to transfer up to 10 points of your Strength into your Endurance.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23071,   1,   33558087) /* Setup */
+     , (23071,   6,   67111919) /* PaletteBase */
+     , (23071,   7,  268435723) /* ClothingBase */
+     , (23071,   8,  100673957) /* Icon */;

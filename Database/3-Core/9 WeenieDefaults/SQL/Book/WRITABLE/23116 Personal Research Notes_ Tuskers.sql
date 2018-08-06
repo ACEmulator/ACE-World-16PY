@@ -1,35 +1,32 @@
-/* Weenie - Personal Research Notes: Tuskers (23116) */
-DELETE FROM weenie WHERE class_Id = 23116;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23116, 'writingaerbaxtusker', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23116, 001 /* NAME_STRING */, 'Personal Research Notes: Tuskers');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23116, 001 /* SETUP_DID */, 33554771)
-     , (23116, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23116, 008 /* ICON_DID */, 100668117)
-     , (23116, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23116', 'writingaerbaxtusker', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23116, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (23116, 005 /* ENCUMB_VAL_INT */, 160)
-     , (23116, 008 /* MASS_INT */, 200)
-     , (23116, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23116, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23116, 019 /* VALUE_INT */, 90)
-     , (23116, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23116, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (23116,   1,       8192) /* ItemType - Writable */
+     , (23116,   5,        160) /* EncumbranceVal */
+     , (23116,   8,        200) /* Mass */
+     , (23116,   9,          0) /* ValidLocations - None */
+     , (23116,  16,          8) /* ItemUseable - Contained */
+     , (23116,  19,         90) /* Value */
+     , (23116,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23116, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (23116,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23116,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23116,   1, 'Personal Research Notes: Tuskers') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23116,   1,   33554771) /* Setup */
+     , (23116,   3,  536870932) /* SoundTable */
+     , (23116,   8,  100668117) /* Icon */
+     , (23116,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (23116, 16, 1000) /* Book Data */;
+VALUES (23116, 16, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (23116, 0, 4294967295, 'Aerbax', 'prewritten', False, 'Test Subject: Alpha male tusker.
@@ -144,4 +141,3 @@ Experiment success.
 
 Location of subject "Oolutanga" unknown. Censure from the Singularity''s finding will restrict my capacity to search for the subject. Concentration must be maintained
 ');
-

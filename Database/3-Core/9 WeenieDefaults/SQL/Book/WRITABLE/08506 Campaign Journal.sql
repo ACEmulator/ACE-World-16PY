@@ -1,38 +1,35 @@
-/* Weenie - Campaign Journal (8506) */
-DELETE FROM weenie WHERE class_Id = 8506;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8506, 'noteanadil', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8506, 001 /* NAME_STRING */, 'Campaign Journal')
-     , (8506, 015 /* SHORT_DESC_STRING */, 'A partial translation of a personal journal found on the body of an undead.')
-     , (8506, 016 /* LONG_DESC_STRING */, 'A partial translation of the personal journal of the Sand King Anadil.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8506, 001 /* SETUP_DID */, 33554771)
-     , (8506, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8506, 008 /* ICON_DID */, 100668117)
-     , (8506, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8506', 'noteanadil', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8506, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8506, 005 /* ENCUMB_VAL_INT */, 290)
-     , (8506, 008 /* MASS_INT */, 200)
-     , (8506, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8506, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8506, 019 /* VALUE_INT */, 90)
-     , (8506, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8506, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8506,   1,       8192) /* ItemType - Writable */
+     , (8506,   5,        290) /* EncumbranceVal */
+     , (8506,   8,        200) /* Mass */
+     , (8506,   9,          0) /* ValidLocations - None */
+     , (8506,  16,          8) /* ItemUseable - Contained */
+     , (8506,  19,         90) /* Value */
+     , (8506,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8506, 022 /* INSCRIBABLE_BOOL */, False)
-     , (8506, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8506,  22, False) /* Inscribable */
+     , (8506,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8506,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8506,   1, 'Campaign Journal') /* Name */
+     , (8506,  15, 'A partial translation of a personal journal found on the body of an undead.') /* ShortDesc */
+     , (8506,  16, 'A partial translation of the personal journal of the Sand King Anadil.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8506,   1,   33554771) /* Setup */
+     , (8506,   3,  536870932) /* SoundTable */
+     , (8506,   8,  100668117) /* Icon */
+     , (8506,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8506, 25, 1000) /* Book Data */;
+VALUES (8506, 25, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8506, 0, 4294967295, 'Anadil of Shakrassekor', 'prewritten', False, '
@@ -130,4 +127,3 @@ Aerfalle recovered the key to the catacombs when we arrived here. To prevent the
      , (8506, 24, 4294967295, 'Anadil of Shakrassekor', 'prewritten', False, '
 Perhaps this is for the better. The outlanders who oppose the Herald may now be able to resist those who seek his release in direct combat beneath the cathedral. For once, they may be able to prevent a disaster rather than be its cause.
 ');
-

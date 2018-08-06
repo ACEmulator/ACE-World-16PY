@@ -1,41 +1,37 @@
-/* Weenie - Hieroglyph of Impregnability (30162) */
-DELETE FROM weenie WHERE class_Id = 30162;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30162, 'gemrareeternalmissiledefense', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30162, 001 /* NAME_STRING */, 'Hieroglyph of Impregnability')
-     , (30162, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30162, 001 /* SETUP_DID */, 33554809)
-     , (30162, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30162, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30162, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (30162, 008 /* ICON_DID */, 100674739)
-     , (30162, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30162, 028 /* SPELL_DID */, 2243 /* ImpregnabilitySelf7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30162', 'gemrareeternalmissiledefense', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30162, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (30162, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (30162, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30162, 008 /* MASS_INT */, 5)
-     , (30162, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30162, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30162, 012 /* STACK_SIZE_INT */, 1)
-     , (30162, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30162, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30162, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30162, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30162, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (30162, 019 /* VALUE_INT */, 0)
-     , (30162, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30162, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30162, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30162, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30162,   1,       2048) /* ItemType - Gem */
+     , (30162,   3,         39) /* PaletteTemplate - Black */
+     , (30162,   5,          5) /* EncumbranceVal */
+     , (30162,   8,          5) /* Mass */
+     , (30162,   9,          0) /* ValidLocations - None */
+     , (30162,  11,          1) /* MaxStackSize */
+     , (30162,  12,          1) /* StackSize */
+     , (30162,  13,          5) /* StackUnitEncumbrance */
+     , (30162,  14,          5) /* StackUnitMass */
+     , (30162,  15,          0) /* StackUnitValue */
+     , (30162,  16,          8) /* ItemUseable - Contained */
+     , (30162,  18,          1) /* UiEffects - Magical */
+     , (30162,  19,          0) /* Value */
+     , (30162,  93,       1044) /* PhysicsState */
+     , (30162,  94,         16) /* TargetType - Creature */
+     , (30162, 150,        103) /* HookPlacement - Hook */
+     , (30162, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30162, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30162,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30162,   1, 'Hieroglyph of Impregnability') /* Name */
+     , (30162,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30162,   1,   33554809) /* Setup */
+     , (30162,   3,  536870932) /* SoundTable */
+     , (30162,   6,   67111919) /* PaletteBase */
+     , (30162,   7,  268435723) /* ClothingBase */
+     , (30162,   8,  100674739) /* Icon */
+     , (30162,  22,  872415275) /* PhysicsEffectTable */
+     , (30162,  28,       2243) /* Spell - Aura of Deflection */;

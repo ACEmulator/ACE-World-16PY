@@ -1,49 +1,45 @@
-/* Weenie - Dolabra (30565) */
-DELETE FROM weenie WHERE class_Id = 30565;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30565, 'axedolabrafrost', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30565, 001 /* NAME_STRING */, 'Dolabra');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30565, 001 /* SETUP_DID */, 33554725)
-     , (30565, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30565, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30565, 007 /* CLOTHINGBASE_DID */, 268435779)
-     , (30565, 008 /* ICON_DID */, 100668985)
-     , (30565, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30565, 030 /* PHYSICS_SCRIPT_DID */, 87 /* PS_BreatheLightning */)
-     , (30565, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (30565, 046 /* TSYS_MUTATION_FILTER_DID */, 939524098);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30565', 'axedolabrafrost', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30565, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30565, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (30565, 005 /* ENCUMB_VAL_INT */, 750)
-     , (30565, 008 /* MASS_INT */, 320)
-     , (30565, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30565, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30565, 019 /* VALUE_INT */, 210)
-     , (30565, 044 /* DAMAGE_INT */, 16)
-     , (30565, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (30565, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30565, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (30565, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (30565, 049 /* WEAPON_TIME_INT */, 50)
-     , (30565, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30565, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30565, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30565, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (30565, 169 /* TSYS_MUTATION_DATA_INT */, 101189386);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30565, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (30565, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (30565, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (30565, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (30565,   1,          1) /* ItemType - MeleeWeapon */
+     , (30565,   3,         20) /* PaletteTemplate - Silver */
+     , (30565,   5,        750) /* EncumbranceVal */
+     , (30565,   8,        320) /* Mass */
+     , (30565,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30565,  16,          1) /* ItemUseable - No */
+     , (30565,  19,        210) /* Value */
+     , (30565,  44,         16) /* Damage */
+     , (30565,  45,          1) /* DamageType - Slash */
+     , (30565,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (30565,  47,          4) /* AttackType - Slash */
+     , (30565,  48,          1) /* WeaponSkill - Axe */
+     , (30565,  49,         50) /* WeaponTime */
+     , (30565,  51,          1) /* CombatUse - Melee */
+     , (30565,  93,       1044) /* PhysicsState */
+     , (30565, 150,        103) /* HookPlacement - Hook */
+     , (30565, 151,          2) /* HookType - Wall */
+     , (30565, 169,  101189386) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30565, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30565,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30565,  21,    0.75) /* WeaponLength */
+     , (30565,  22,     0.6) /* DamageVariance */
+     , (30565,  29,       1) /* WeaponDefense */
+     , (30565,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30565,   1, 'Dolabra') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30565,   1,   33554725) /* Setup */
+     , (30565,   3,  536870932) /* SoundTable */
+     , (30565,   6,   67111919) /* PaletteBase */
+     , (30565,   7,  268435779) /* ClothingBase */
+     , (30565,   8,  100668985) /* Icon */
+     , (30565,  22,  872415275) /* PhysicsEffectTable */
+     , (30565,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (30565,  36,  234881053) /* MutateFilter */
+     , (30565,  46,  939524098) /* TsysMutationFilter */;

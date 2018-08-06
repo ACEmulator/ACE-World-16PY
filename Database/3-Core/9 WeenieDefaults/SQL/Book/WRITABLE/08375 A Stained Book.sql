@@ -1,38 +1,35 @@
-/* Weenie - A Stained Book (8375) */
-DELETE FROM weenie WHERE class_Id = 8375;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8375, 'notefloatingcityf', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8375, 001 /* NAME_STRING */, 'A Stained Book')
-     , (8375, 015 /* SHORT_DESC_STRING */, 'A plain, thin book.')
-     , (8375, 016 /* LONG_DESC_STRING */, 'A plain, thin book of some years'' age.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8375, 001 /* SETUP_DID */, 33554772)
-     , (8375, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8375, 008 /* ICON_DID */, 100668117)
-     , (8375, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8375', 'notefloatingcityf', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8375, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8375, 005 /* ENCUMB_VAL_INT */, 460)
-     , (8375, 008 /* MASS_INT */, 230)
-     , (8375, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8375, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8375, 019 /* VALUE_INT */, 90)
-     , (8375, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8375, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8375,   1,       8192) /* ItemType - Writable */
+     , (8375,   5,        460) /* EncumbranceVal */
+     , (8375,   8,        230) /* Mass */
+     , (8375,   9,          0) /* ValidLocations - None */
+     , (8375,  16,          8) /* ItemUseable - Contained */
+     , (8375,  19,         90) /* Value */
+     , (8375,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8375, 001 /* STUCK_BOOL */, True)
-     , (8375, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8375,   1, True ) /* Stuck */
+     , (8375,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8375,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8375,   1, 'A Stained Book') /* Name */
+     , (8375,  15, 'A plain, thin book.') /* ShortDesc */
+     , (8375,  16, 'A plain, thin book of some years'' age.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8375,   1,   33554772) /* Setup */
+     , (8375,   3,  536870932) /* SoundTable */
+     , (8375,   8,  100668117) /* Icon */
+     , (8375,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8375, 6, 1000) /* Book Data */;
+VALUES (8375, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8375, 0, 4294967295, '', 'prewritten', False, 'It is I, Alatar Locke.  We meet again, here in the dwelling place of an Empyrean man or woman after my own heart: a scholar, historian, and archaeologist.  See the delicate samples this scholar so painstakingly collected and which now grace this apartment.  Note how some of the rooms have been carefully worked to reflect older styles of Empyrean architecture, some of which may be found within the Floating City itself.  Ah, a true devotee of history and learning!
@@ -47,4 +44,3 @@ VALUES (8375, 0, 4294967295, '', 'prewritten', False, 'It is I, Alatar Locke.  W
 ')
      , (8375, 5, 4294967295, '', 'prewritten', False, 'Even my lonely wanderings cannot compare to such despair, or to such rash disregard for the release of death.  I wonder: do they regret their actions?  Surely it would be better to pass through death''s gateway and to face the awakening of the other side, than to linger on in a dead city for a time just a little shorter than eternity.
 ');
-

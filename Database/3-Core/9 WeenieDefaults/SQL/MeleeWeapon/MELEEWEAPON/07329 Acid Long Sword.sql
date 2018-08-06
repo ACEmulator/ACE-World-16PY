@@ -1,49 +1,45 @@
-/* Weenie - Acid Long Sword (7329) */
-DELETE FROM weenie WHERE class_Id = 7329;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7329, 'swordlongacidmonsteronly', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7329, 001 /* NAME_STRING */, 'Acid Long Sword');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7329, 001 /* SETUP_DID */, 33555791)
-     , (7329, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7329, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7329, 007 /* CLOTHINGBASE_DID */, 268435769)
-     , (7329, 008 /* ICON_DID */, 100667613)
-     , (7329, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (7329, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7329', 'swordlongacidmonsteronly', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7329, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (7329, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (7329, 005 /* ENCUMB_VAL_INT */, 450)
-     , (7329, 008 /* MASS_INT */, 180)
-     , (7329, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (7329, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7329, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (7329, 019 /* VALUE_INT */, 600)
-     , (7329, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (7329, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (7329, 044 /* DAMAGE_INT */, 3)
-     , (7329, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (7329, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (7329, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (7329, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (7329, 049 /* WEAPON_TIME_INT */, 20)
-     , (7329, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (7329, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7329, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (7329, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (7329, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (7329, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (7329, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (7329,   1,          1) /* ItemType - MeleeWeapon */
+     , (7329,   3,         20) /* PaletteTemplate - Silver */
+     , (7329,   5,        450) /* EncumbranceVal */
+     , (7329,   8,        180) /* Mass */
+     , (7329,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (7329,  16,          1) /* ItemUseable - No */
+     , (7329,  18,        256) /* UiEffects - Acid */
+     , (7329,  19,        600) /* Value */
+     , (7329,  33,         -2) /* Bonded - Destroy */
+     , (7329,  37,       9999) /* ResistItemAppraisal */
+     , (7329,  44,          3) /* Damage */
+     , (7329,  45,         32) /* DamageType - Acid */
+     , (7329,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (7329,  47,          6) /* AttackType */
+     , (7329,  48,         11) /* WeaponSkill - Sword */
+     , (7329,  49,         20) /* WeaponTime */
+     , (7329,  51,          1) /* CombatUse - Melee */
+     , (7329,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7329, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7329, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (7329,  22, True ) /* Inscribable */
+     , (7329,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7329,  21,    0.95) /* WeaponLength */
+     , (7329,  22,     0.5) /* DamageVariance */
+     , (7329,  29,       1) /* WeaponDefense */
+     , (7329,  39,     1.1) /* DefaultScale */
+     , (7329,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7329,   1, 'Acid Long Sword') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7329,   1,   33555791) /* Setup */
+     , (7329,   3,  536870932) /* SoundTable */
+     , (7329,   6,   67111919) /* PaletteBase */
+     , (7329,   7,  268435769) /* ClothingBase */
+     , (7329,   8,  100667613) /* Icon */
+     , (7329,  22,  872415275) /* PhysicsEffectTable */
+     , (7329,  36,  234881044) /* MutateFilter */;

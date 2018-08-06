@@ -1,3 +1,2 @@
 INSERT INTO `event` (`name`, `start_Time`, `end_Time`, `state`)
-VALUES ('DrudgeTest', -1, 1065489322 /* 10/7/2003 5:15:22 AM */, 3);
-
+VALUES ('DrudgeTest', -1, 1065489322 /* 10/07/2003 06:15:22 */, 3);

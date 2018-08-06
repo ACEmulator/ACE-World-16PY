@@ -1,47 +1,43 @@
-/* Weenie - Assassin's Simi (12195) */
-DELETE FROM weenie WHERE class_Id = 12195;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12195, 'simibanditzharalim', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12195, 001 /* NAME_STRING */, 'Assassin''s Simi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12195, 001 /* SETUP_DID */, 33554751)
-     , (12195, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (12195, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (12195, 007 /* CLOTHINGBASE_DID */, 268435766)
-     , (12195, 008 /* ICON_DID */, 100668995)
-     , (12195, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (12195, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12195', 'simibanditzharalim', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12195, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (12195, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (12195, 005 /* ENCUMB_VAL_INT */, 400)
-     , (12195, 008 /* MASS_INT */, 160)
-     , (12195, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (12195, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12195, 019 /* VALUE_INT */, 160)
-     , (12195, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (12195, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (12195, 044 /* DAMAGE_INT */, 31)
-     , (12195, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (12195, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (12195, 047 /* ATTACK_TYPE_INT */, 486 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, TripleSlash_AttackType, DoubleThrust_AttackType, TripleThrust_AttackType */)
-     , (12195, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (12195, 049 /* WEAPON_TIME_INT */, 1)
-     , (12195, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (12195, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (12195, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12195, 021 /* WEAPON_LENGTH_FLOAT */, 0.68)
-     , (12195, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (12195, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (12195, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (12195,   1,          1) /* ItemType - MeleeWeapon */
+     , (12195,   3,         20) /* PaletteTemplate - Silver */
+     , (12195,   5,        400) /* EncumbranceVal */
+     , (12195,   8,        160) /* Mass */
+     , (12195,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12195,  16,          1) /* ItemUseable - No */
+     , (12195,  19,        160) /* Value */
+     , (12195,  33,         -2) /* Bonded - Destroy */
+     , (12195,  37,       9999) /* ResistItemAppraisal */
+     , (12195,  44,         31) /* Damage */
+     , (12195,  45,          3) /* DamageType */
+     , (12195,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (12195,  47,        486) /* AttackType */
+     , (12195,  48,         11) /* WeaponSkill - Sword */
+     , (12195,  49,          1) /* WeaponTime */
+     , (12195,  51,          1) /* CombatUse - Melee */
+     , (12195,  93,       1044) /* PhysicsState */
+     , (12195, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12195, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (12195,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (12195,  21,    0.68) /* WeaponLength */
+     , (12195,  22,     0.5) /* DamageVariance */
+     , (12195,  29,       1) /* WeaponDefense */
+     , (12195,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12195,   1, 'Assassin''s Simi') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12195,   1,   33554751) /* Setup */
+     , (12195,   3,  536870932) /* SoundTable */
+     , (12195,   6,   67111919) /* PaletteBase */
+     , (12195,   7,  268435766) /* ClothingBase */
+     , (12195,   8,  100668995) /* Icon */
+     , (12195,  22,  872415275) /* PhysicsEffectTable */
+     , (12195,  36,  234881044) /* MutateFilter */;

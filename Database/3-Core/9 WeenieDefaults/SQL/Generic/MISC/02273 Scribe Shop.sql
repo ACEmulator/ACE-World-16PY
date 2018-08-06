@@ -1,30 +1,26 @@
-/* Weenie - Scribe Shop (2273) */
-DELETE FROM weenie WHERE class_Id = 2273;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2273, 'baishiscribesign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2273, 001 /* NAME_STRING */, 'Scribe Shop')
-     , (2273, 016 /* LONG_DESC_STRING */, 'Scribe Shop');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2273, 001 /* SETUP_DID */, 33555088)
-     , (2273, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (2273, 007 /* CLOTHINGBASE_DID */, 268435660)
-     , (2273, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2273', 'baishiscribesign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2273, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (2273, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (2273, 008 /* MASS_INT */, 1800)
-     , (2273, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2273, 019 /* VALUE_INT */, 125)
-     , (2273, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (2273,   1,        128) /* ItemType - Misc */
+     , (2273,   5,       9000) /* EncumbranceVal */
+     , (2273,   8,       1800) /* Mass */
+     , (2273,  16,          1) /* ItemUseable - No */
+     , (2273,  19,        125) /* Value */
+     , (2273,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2273, 001 /* STUCK_BOOL */, True)
-     , (2273, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (2273, 013 /* ETHEREAL_BOOL */, False)
-     , (2273, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (2273,   1, True ) /* Stuck */
+     , (2273,  12, True ) /* ReportCollisions */
+     , (2273,  13, False) /* Ethereal */
+     , (2273,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2273,   1, 'Scribe Shop') /* Name */
+     , (2273,  16, 'Scribe Shop') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2273,   1,   33555088) /* Setup */
+     , (2273,   6,   67111092) /* PaletteBase */
+     , (2273,   7,  268435660) /* ClothingBase */
+     , (2273,   8,  100668115) /* Icon */;

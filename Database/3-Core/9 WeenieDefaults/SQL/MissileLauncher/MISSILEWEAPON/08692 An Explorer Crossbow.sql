@@ -1,59 +1,55 @@
-/* Weenie - An Explorer Crossbow (8692) */
-DELETE FROM weenie WHERE class_Id = 8692;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8692, 'crossbowrarenewbiequest', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8692, 001 /* NAME_STRING */, 'An Explorer Crossbow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8692, 001 /* SETUP_DID */, 33554732)
-     , (8692, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8692, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8692, 007 /* CLOTHINGBASE_DID */, 268435762)
-     , (8692, 008 /* ICON_DID */, 100668835)
-     , (8692, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8692, 050 /* ICON_OVERLAY_DID */, 100675462);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8692', 'crossbowrarenewbiequest', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8692, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (8692, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (8692, 005 /* ENCUMB_VAL_INT */, 1920)
-     , (8692, 008 /* MASS_INT */, 640)
-     , (8692, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (8692, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8692, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (8692, 019 /* VALUE_INT */, 1)
-     , (8692, 044 /* DAMAGE_INT */, 0)
-     , (8692, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (8692, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (8692, 049 /* WEAPON_TIME_INT */, 120)
-     , (8692, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (8692, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (8692, 052 /* PARENT_LOCATION_INT */, 2)
-     , (8692, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (8692, 060 /* WEAPON_RANGE_INT */, 192)
-     , (8692, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8692, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (8692, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (8692, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (8692, 109 /* ITEM_DIFFICULTY_INT */, 15)
-     , (8692, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8692, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8692, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (8692, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (8692, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (8692, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (8692, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (8692, 063 /* DAMAGE_MOD_FLOAT */, 2.25);
+VALUES (8692,   1,        256) /* ItemType - MissileWeapon */
+     , (8692,   3,         20) /* PaletteTemplate - Silver */
+     , (8692,   5,       1920) /* EncumbranceVal */
+     , (8692,   8,        640) /* Mass */
+     , (8692,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (8692,  16,          1) /* ItemUseable - No */
+     , (8692,  18,          1) /* UiEffects - Magical */
+     , (8692,  19,          1) /* Value */
+     , (8692,  44,          0) /* Damage */
+     , (8692,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (8692,  48,          3) /* WeaponSkill - Crossbow */
+     , (8692,  49,        120) /* WeaponTime */
+     , (8692,  50,          2) /* AmmoType - Bolt */
+     , (8692,  51,          2) /* CombatUse - Missle */
+     , (8692,  52,          2) /* ParentLocation */
+     , (8692,  53,          3) /* PlacementPosition */
+     , (8692,  60,        192) /* WeaponRange */
+     , (8692,  93,       1044) /* PhysicsState */
+     , (8692, 106,        150) /* ItemSpellcraft */
+     , (8692, 107,        400) /* ItemCurMana */
+     , (8692, 108,        400) /* ItemMaxMana */
+     , (8692, 109,         15) /* ItemDifficulty */
+     , (8692, 150,        103) /* HookPlacement - Hook */
+     , (8692, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8692, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (8692,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8692,   5,  -0.025) /* ManaRate */
+     , (8692,  26,    27.3) /* MaximumVelocity */
+     , (8692,  29,       1) /* WeaponDefense */
+     , (8692,  39,    1.25) /* DefaultScale */
+     , (8692,  62,       1) /* WeaponOffense */
+     , (8692,  63,    2.25) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8692,   1, 'An Explorer Crossbow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8692,   1,   33554732) /* Setup */
+     , (8692,   3,  536870932) /* SoundTable */
+     , (8692,   6,   67111919) /* PaletteBase */
+     , (8692,   7,  268435762) /* ClothingBase */
+     , (8692,   8,  100668835) /* Icon */
+     , (8692,  22,  872415275) /* PhysicsEffectTable */
+     , (8692,  50,  100675462) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8692, 1613, 2) /* BloodDrinker3_SpellID */
-     , (8692, 487, 2) /* CrossBowMasteryOther3_SpellID */;
-
+VALUES (8692,   487,      2)  /* Missile Weapon Mastery Other III */
+     , (8692,  1613,      2)  /* Aura of Blood Drinker Self III */;

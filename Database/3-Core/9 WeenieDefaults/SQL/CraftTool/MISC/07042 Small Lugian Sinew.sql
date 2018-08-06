@@ -1,40 +1,36 @@
-/* Weenie - Small Lugian Sinew (7042) */
-DELETE FROM weenie WHERE class_Id = 7042;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7042, 'lugiansinewamploth', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7042, 001 /* NAME_STRING */, 'Small Lugian Sinew')
-     , (7042, 014 /* USE_STRING */, 'This has no apparent use.')
-     , (7042, 015 /* SHORT_DESC_STRING */, 'The sinew of a departed small Lugian.')
-     , (7042, 016 /* LONG_DESC_STRING */, 'The sinew of a departed small Lugian.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7042, 001 /* SETUP_DID */, 33554817)
-     , (7042, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7042, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7042, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (7042, 008 /* ICON_DID */, 100670683)
-     , (7042, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7042', 'lugiansinewamploth', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7042, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (7042, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (7042, 005 /* ENCUMB_VAL_INT */, 10)
-     , (7042, 008 /* MASS_INT */, 10)
-     , (7042, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7042, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (7042, 012 /* STACK_SIZE_INT */, 1)
-     , (7042, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (7042, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (7042, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (7042, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (7042, 019 /* VALUE_INT */, 0)
-     , (7042, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7042, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */);
+VALUES (7042,   1,        128) /* ItemType - Misc */
+     , (7042,   3,         20) /* PaletteTemplate - Silver */
+     , (7042,   5,         10) /* EncumbranceVal */
+     , (7042,   8,         10) /* Mass */
+     , (7042,   9,          0) /* ValidLocations - None */
+     , (7042,  11,          1) /* MaxStackSize */
+     , (7042,  12,          1) /* StackSize */
+     , (7042,  13,         10) /* StackUnitEncumbrance */
+     , (7042,  14,         10) /* StackUnitMass */
+     , (7042,  15,          0) /* StackUnitValue */
+     , (7042,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (7042,  19,          0) /* Value */
+     , (7042,  93,       1044) /* PhysicsState */
+     , (7042,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7042, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7042, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (7042,  22, True ) /* Inscribable */
+     , (7042,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7042,   1, 'Small Lugian Sinew') /* Name */
+     , (7042,  14, 'This has no apparent use.') /* Use */
+     , (7042,  15, 'The sinew of a departed small Lugian.') /* ShortDesc */
+     , (7042,  16, 'The sinew of a departed small Lugian.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7042,   1,   33554817) /* Setup */
+     , (7042,   3,  536870932) /* SoundTable */
+     , (7042,   6,   67111919) /* PaletteBase */
+     , (7042,   7,  268435832) /* ClothingBase */
+     , (7042,   8,  100670683) /* Icon */
+     , (7042,  22,  872415275) /* PhysicsEffectTable */;

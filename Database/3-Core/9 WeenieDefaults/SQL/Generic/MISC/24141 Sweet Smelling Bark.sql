@@ -1,35 +1,31 @@
-/* Weenie - Sweet Smelling Bark (24141) */
-DELETE FROM weenie WHERE class_Id = 24141;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24141, 'barkoswald', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24141, 001 /* NAME_STRING */, 'Sweet Smelling Bark')
-     , (24141, 015 /* SHORT_DESC_STRING */, 'A sweet-smelling piece of bark.')
-     , (24141, 033 /* QUEST_STRING */, 'BarkOswaldTaken');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24141, 001 /* SETUP_DID */, 33558322)
-     , (24141, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24141, 008 /* ICON_DID */, 100676644)
-     , (24141, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24141', 'barkoswald', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24141, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24141, 005 /* ENCUMB_VAL_INT */, 15)
-     , (24141, 008 /* MASS_INT */, 180)
-     , (24141, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24141, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24141, 019 /* VALUE_INT */, 10)
-     , (24141, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (24141, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24141, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24141, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (24141,   1,        128) /* ItemType - Misc */
+     , (24141,   5,         15) /* EncumbranceVal */
+     , (24141,   8,        180) /* Mass */
+     , (24141,   9,          0) /* ValidLocations - None */
+     , (24141,  16,          1) /* ItemUseable - No */
+     , (24141,  19,         10) /* Value */
+     , (24141,  33,          1) /* Bonded - Bonded */
+     , (24141,  93,       1044) /* PhysicsState */
+     , (24141, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24141, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24141, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24141,  22, True ) /* Inscribable */
+     , (24141,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24141,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24141,   1, 'Sweet Smelling Bark') /* Name */
+     , (24141,  15, 'A sweet-smelling piece of bark.') /* ShortDesc */
+     , (24141,  33, 'BarkOswaldTaken') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24141,   1,   33558322) /* Setup */
+     , (24141,   3,  536870932) /* SoundTable */
+     , (24141,   8,  100676644) /* Icon */
+     , (24141,  22,  872415275) /* PhysicsEffectTable */;

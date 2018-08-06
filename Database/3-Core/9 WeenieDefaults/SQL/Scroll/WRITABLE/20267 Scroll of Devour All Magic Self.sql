@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Devour All Magic Self (20267) */
-DELETE FROM weenie WHERE class_Id = 20267;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20267, 'scrolldispelallbadself4', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20267, 001 /* NAME_STRING */, 'Scroll of Devour All Magic Self')
-     , (20267, 015 /* SHORT_DESC_STRING */, 'When learned, this spell dispels 2-4 negative enchantments of level 4 or lower from the caster.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20267, 001 /* SETUP_DID */, 33554826)
-     , (20267, 008 /* ICON_DID */, 100669877)
-     , (20267, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20267, 028 /* SPELL_DID */, 1870 /* DispelAllBadSelf4_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20267', 'scrolldispelallbadself4', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20267, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20267, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20267, 008 /* MASS_INT */, 90)
-     , (20267, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20267, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20267, 019 /* VALUE_INT */, 100)
-     , (20267, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20267, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20267,   1,       8192) /* ItemType - Writable */
+     , (20267,   5,         30) /* EncumbranceVal */
+     , (20267,   8,         90) /* Mass */
+     , (20267,   9,          0) /* ValidLocations - None */
+     , (20267,  16,          8) /* ItemUseable - Contained */
+     , (20267,  19,        100) /* Value */
+     , (20267,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20267, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20267, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20267,  22, True ) /* Inscribable */
+     , (20267,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20267,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20267,   1, 'Scroll of Devour All Magic Self') /* Name */
+     , (20267,  15, 'When learned, this spell dispels 2-4 negative enchantments of level 4 or lower from the caster.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20267,   1,   33554826) /* Setup */
+     , (20267,   8,  100669877) /* Icon */
+     , (20267,  22,  872415275) /* PhysicsEffectTable */
+     , (20267,  28,       1870) /* Spell - Devour All Magic Self */;

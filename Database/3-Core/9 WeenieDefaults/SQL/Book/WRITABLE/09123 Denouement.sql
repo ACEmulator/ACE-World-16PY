@@ -1,36 +1,33 @@
-/* Weenie - Denouement (9123) */
-DELETE FROM weenie WHERE class_Id = 9123;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9123, 'diarymartinerevenge6', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9123, 001 /* NAME_STRING */, 'Denouement')
-     , (9123, 015 /* SHORT_DESC_STRING */, 'The sixth and final installment of a tale by Martine');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9123, 001 /* SETUP_DID */, 33554771)
-     , (9123, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9123, 008 /* ICON_DID */, 100668117)
-     , (9123, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9123', 'diarymartinerevenge6', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9123, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (9123, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9123, 008 /* MASS_INT */, 200)
-     , (9123, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9123, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (9123, 019 /* VALUE_INT */, 0)
-     , (9123, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9123, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (9123,   1,       8192) /* ItemType - Writable */
+     , (9123,   5,         10) /* EncumbranceVal */
+     , (9123,   8,        200) /* Mass */
+     , (9123,   9,          0) /* ValidLocations - None */
+     , (9123,  16,          8) /* ItemUseable - Contained */
+     , (9123,  19,          0) /* Value */
+     , (9123,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9123, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (9123,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9123,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9123,   1, 'Denouement') /* Name */
+     , (9123,  15, 'The sixth and final installment of a tale by Martine') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9123,   1,   33554771) /* Setup */
+     , (9123,   3,  536870932) /* SoundTable */
+     , (9123,   8,  100668117) /* Icon */
+     , (9123,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (9123, 22, 1000) /* Book Data */;
+VALUES (9123, 22, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (9123, 0, 4294967295, '', 'prewritten', False, 'Denouement
@@ -85,4 +82,3 @@ I owe you for so many things.
 ')
      , (9123, 21, 4294967295, '', 'prewritten', False, 'I apologize, Sir Alayne.  It really has gotten quite late.  I must be going now to check on my various minions.  Wheels keep turning, and life does go on.  Most of the time.  Oh, and don''t be concerned.  I will make sure the Society is able to keep the Agents well stocked with Society and Explorer equipment.  It is the least I could do for an old friend.  I do admit I have some self-interest in keeping the adventurers happy and equipped.  My future plans would be much more difficult without these lovely Derethians.
 ');
-

@@ -1,25 +1,21 @@
-/* Weenie - Handbell (281) */
-DELETE FROM weenie WHERE class_Id = 281;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (281, 'handbell', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (281, 001 /* NAME_STRING */, 'Handbell');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (281, 001 /* SETUP_DID */, 33554814)
-     , (281, 008 /* ICON_DID */, 100668120);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('281', 'handbell', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (281, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (281, 005 /* ENCUMB_VAL_INT */, 50)
-     , (281, 008 /* MASS_INT */, 25)
-     , (281, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (281, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (281, 019 /* VALUE_INT */, 7)
-     , (281, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (281,   1,        128) /* ItemType - Misc */
+     , (281,   5,         50) /* EncumbranceVal */
+     , (281,   8,         25) /* Mass */
+     , (281,   9,          0) /* ValidLocations - None */
+     , (281,  16,          1) /* ItemUseable - No */
+     , (281,  19,          7) /* Value */
+     , (281,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (281, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (281,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (281,   1, 'Handbell') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (281,   1,   33554814) /* Setup */
+     , (281,   8,  100668120) /* Icon */;

@@ -1,41 +1,37 @@
-/* Weenie - Superb Isparian Axe Ingot (19492) */
-DELETE FROM weenie WHERE class_Id = 19492;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19492, 'ingotaxeispariansuperb', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19492, 001 /* NAME_STRING */, 'Superb Isparian Axe Ingot')
-     , (19492, 015 /* SHORT_DESC_STRING */, 'An diamond infused ingot, enhanced and stamped with an axe glyph.')
-     , (19492, 016 /* LONG_DESC_STRING */, 'An diamond infused ingot, enhanced and stamped with an axe glyph.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19492, 001 /* SETUP_DID */, 33555677)
-     , (19492, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19492, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19492, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (19492, 008 /* ICON_DID */, 100672974)
-     , (19492, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19492', 'ingotaxeispariansuperb', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19492, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19492, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (19492, 005 /* ENCUMB_VAL_INT */, 1000)
-     , (19492, 008 /* MASS_INT */, 1000)
-     , (19492, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (19492, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (19492, 012 /* STACK_SIZE_INT */, 1)
-     , (19492, 013 /* STACK_UNIT_ENCUMB_INT */, 1000)
-     , (19492, 014 /* STACK_UNIT_MASS_INT */, 1000)
-     , (19492, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (19492, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19492, 019 /* VALUE_INT */, 0)
-     , (19492, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19492, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19492, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (19492,   1,        128) /* ItemType - Misc */
+     , (19492,   3,          8) /* PaletteTemplate - Green */
+     , (19492,   5,       1000) /* EncumbranceVal */
+     , (19492,   8,       1000) /* Mass */
+     , (19492,   9,          0) /* ValidLocations - None */
+     , (19492,  11,          1) /* MaxStackSize */
+     , (19492,  12,          1) /* StackSize */
+     , (19492,  13,       1000) /* StackUnitEncumbrance */
+     , (19492,  14,       1000) /* StackUnitMass */
+     , (19492,  15,          0) /* StackUnitValue */
+     , (19492,  16,          1) /* ItemUseable - No */
+     , (19492,  19,          0) /* Value */
+     , (19492,  33,          1) /* Bonded - Bonded */
+     , (19492,  93,       1044) /* PhysicsState */
+     , (19492, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19492, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19492, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19492, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19492,  22, True ) /* Inscribable */
+     , (19492,  23, True ) /* DestroyOnSell */
+     , (19492,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19492,   1, 'Superb Isparian Axe Ingot') /* Name */
+     , (19492,  15, 'An diamond infused ingot, enhanced and stamped with an axe glyph.') /* ShortDesc */
+     , (19492,  16, 'An diamond infused ingot, enhanced and stamped with an axe glyph.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19492,   1,   33555677) /* Setup */
+     , (19492,   3,  536870932) /* SoundTable */
+     , (19492,   6,   67111919) /* PaletteBase */
+     , (19492,   7,  268435723) /* ClothingBase */
+     , (19492,   8,  100672974) /* Icon */
+     , (19492,  22,  872415275) /* PhysicsEffectTable */;

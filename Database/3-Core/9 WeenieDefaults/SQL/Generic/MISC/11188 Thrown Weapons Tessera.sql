@@ -1,37 +1,33 @@
-/* Weenie - Thrown Weapons Tessera (11188) */
-DELETE FROM weenie WHERE class_Id = 11188;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11188, 'skilltokenthrownweapons-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11188, 001 /* NAME_STRING */, 'Thrown Weapons Tessera')
-     , (11188, 015 /* SHORT_DESC_STRING */, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Thrown Weapons skill. There are tesserae available for each skill in the game. If you don''t want a point of Thrown Weapons, trade this tessera for another. You may only turn in five per character - so choose carefully!')
-     , (11188, 016 /* LONG_DESC_STRING */, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Thrown Weapons skill. There are tesserae available for each skill in the game. If you don''t want a point of Thrown Weapons, trade this tessera for another. You may only turn in five per character - so choose carefully!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11188, 001 /* SETUP_DID */, 33557218)
-     , (11188, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11188, 008 /* ICON_DID */, 100671814)
-     , (11188, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (11188, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11188', 'skilltokenthrownweapons-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11188, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11188, 005 /* ENCUMB_VAL_INT */, 10)
-     , (11188, 008 /* MASS_INT */, 10)
-     , (11188, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11188, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11188, 019 /* VALUE_INT */, 10)
-     , (11188, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11188, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11188, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (11188, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11188, 039 /* DEFAULT_SCALE_FLOAT */, 2);
+VALUES (11188,   1,        128) /* ItemType - Misc */
+     , (11188,   5,         10) /* EncumbranceVal */
+     , (11188,   8,         10) /* Mass */
+     , (11188,   9,          0) /* ValidLocations - None */
+     , (11188,  16,          1) /* ItemUseable - No */
+     , (11188,  19,         10) /* Value */
+     , (11188,  33,          1) /* Bonded - Bonded */
+     , (11188,  93,       1044) /* PhysicsState */
+     , (11188, 150,        103) /* HookPlacement - Hook */
+     , (11188, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11188, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11188, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11188,  22, True ) /* Inscribable */
+     , (11188,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11188,  39,       2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11188,   1, 'Thrown Weapons Tessera') /* Name */
+     , (11188,  15, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Thrown Weapons skill. There are tesserae available for each skill in the game. If you don''t want a point of Thrown Weapons, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* ShortDesc */
+     , (11188,  16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Thrown Weapons skill. There are tesserae available for each skill in the game. If you don''t want a point of Thrown Weapons, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11188,   1,   33557218) /* Setup */
+     , (11188,   3,  536870932) /* SoundTable */
+     , (11188,   8,  100671814) /* Icon */
+     , (11188,  22,  872415275) /* PhysicsEffectTable */
+     , (11188,  36,  234881046) /* MutateFilter */;

@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Sprint Other V (3491) */
-DELETE FROM weenie WHERE class_Id = 3491;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3491, 'scrollsprintother5', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3491, 001 /* NAME_STRING */, 'Scroll of Sprint Other V')
-     , (3491, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3491, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the target''s Run skill by 100%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3491, 001 /* SETUP_DID */, 33554826)
-     , (3491, 008 /* ICON_DID */, 100676470)
-     , (3491, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3491, 028 /* SPELL_DID */, 992 /* SprintOther5_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3491', 'scrollsprintother5', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3491, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3491, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3491, 008 /* MASS_INT */, 90)
-     , (3491, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3491, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3491, 019 /* VALUE_INT */, 200)
-     , (3491, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3491, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3491,   1,       8192) /* ItemType - Writable */
+     , (3491,   5,         30) /* EncumbranceVal */
+     , (3491,   8,         90) /* Mass */
+     , (3491,   9,          0) /* ValidLocations - None */
+     , (3491,  16,          8) /* ItemUseable - Contained */
+     , (3491,  19,        200) /* Value */
+     , (3491,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3491, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3491, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3491,  22, True ) /* Inscribable */
+     , (3491,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3491,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3491,   1, 'Scroll of Sprint Other V') /* Name */
+     , (3491,  15, 'A magic scroll.') /* ShortDesc */
+     , (3491,  16, 'When learned, this spell increases the target''s Run skill by 100%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3491,   1,   33554826) /* Setup */
+     , (3491,   8,  100676470) /* Icon */
+     , (3491,  22,  872415275) /* PhysicsEffectTable */
+     , (3491,  28,        992) /* Spell - Sprint Other V */;

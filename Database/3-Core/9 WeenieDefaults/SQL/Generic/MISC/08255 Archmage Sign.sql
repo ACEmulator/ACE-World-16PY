@@ -1,31 +1,27 @@
-/* Weenie - Archmage Sign (8255) */
-DELETE FROM weenie WHERE class_Id = 8255;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8255, 'xarabydunarchmagesign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8255, 001 /* NAME_STRING */, 'Archmage Sign')
-     , (8255, 016 /* LONG_DESC_STRING */, 'Chamber of Paradox. Zarri ibn Khaybi, Thaumaturgist of the Left Hand. WARNING!! Intense Empyrean-relic magilectrical activity within. Customers are warned to beware of static shocks and frizzy hair.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8255, 001 /* SETUP_DID */, 33555909)
-     , (8255, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (8255, 007 /* CLOTHINGBASE_DID */, 268435824)
-     , (8255, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8255', 'xarabydunarchmagesign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8255, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (8255, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (8255, 008 /* MASS_INT */, 1800)
-     , (8255, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8255, 019 /* VALUE_INT */, 125)
-     , (8255, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (8255,   1,        128) /* ItemType - Misc */
+     , (8255,   5,       9000) /* EncumbranceVal */
+     , (8255,   8,       1800) /* Mass */
+     , (8255,  16,          1) /* ItemUseable - No */
+     , (8255,  19,        125) /* Value */
+     , (8255,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8255, 001 /* STUCK_BOOL */, True)
-     , (8255, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (8255, 013 /* ETHEREAL_BOOL */, False)
-     , (8255, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (8255, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8255,   1, True ) /* Stuck */
+     , (8255,  12, True ) /* ReportCollisions */
+     , (8255,  13, False) /* Ethereal */
+     , (8255,  14, False) /* GravityStatus */
+     , (8255,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8255,   1, 'Archmage Sign') /* Name */
+     , (8255,  16, 'Chamber of Paradox. Zarri ibn Khaybi, Thaumaturgist of the Left Hand. WARNING!! Intense Empyrean-relic magilectrical activity within. Customers are warned to beware of static shocks and frizzy hair.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8255,   1,   33555909) /* Setup */
+     , (8255,   6,   67111860) /* PaletteBase */
+     , (8255,   7,  268435824) /* ClothingBase */
+     , (8255,   8,  100668115) /* Icon */;

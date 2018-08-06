@@ -1,32 +1,28 @@
-/* Weenie - Key (589) */
-DELETE FROM weenie WHERE class_Id = 589;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (589, 'prisonkey1', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (589, 001 /* NAME_STRING */, 'Key')
-     , (589, 013 /* KEY_CODE_STRING */, 'prisonkey')
-     , (589, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (589, 001 /* SETUP_DID */, 33554784)
-     , (589, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (589, 008 /* ICON_DID */, 100667486)
-     , (589, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('589', 'prisonkey1', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (589, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (589, 005 /* ENCUMB_VAL_INT */, 50)
-     , (589, 008 /* MASS_INT */, 20)
-     , (589, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (589, 019 /* VALUE_INT */, 100)
-     , (589, 091 /* MAX_STRUCTURE_INT */, 3)
-     , (589, 092 /* STRUCTURE_INT */, 3)
-     , (589, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (589, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (589,   1,      16384) /* ItemType - Key */
+     , (589,   5,         50) /* EncumbranceVal */
+     , (589,   8,         20) /* Mass */
+     , (589,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (589,  19,        100) /* Value */
+     , (589,  91,          3) /* MaxStructure */
+     , (589,  92,          3) /* Structure */
+     , (589,  93,       1044) /* PhysicsState */
+     , (589,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (589, 022 /* INSCRIBABLE_BOOL */, True)
-     , (589, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (589,  22, True ) /* Inscribable */
+     , (589,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (589,   1, 'Key') /* Name */
+     , (589,  13, 'prisonkey') /* KeyCode */
+     , (589,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (589,   1,   33554784) /* Setup */
+     , (589,   3,  536870932) /* SoundTable */
+     , (589,   8,  100667486) /* Icon */
+     , (589,  22,  872415275) /* PhysicsEffectTable */;

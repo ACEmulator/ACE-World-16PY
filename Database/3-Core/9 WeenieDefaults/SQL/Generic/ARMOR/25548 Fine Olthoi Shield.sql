@@ -1,52 +1,48 @@
-/* Weenie - Fine Olthoi Shield (25548) */
-DELETE FROM weenie WHERE class_Id = 25548;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25548, 'shieldolthoihighrot2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25548, 001 /* NAME_STRING */, 'Fine Olthoi Shield')
-     , (25548, 016 /* LONG_DESC_STRING */, 'A shield created from the abdomen of an Olthoi Sentinel.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25548, 001 /* SETUP_DID */, 33554785)
-     , (25548, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25548, 006 /* PALETTE_BASE_DID */, 67114593)
-     , (25548, 007 /* CLOTHINGBASE_DID */, 268436699)
-     , (25548, 008 /* ICON_DID */, 100675044)
-     , (25548, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25548', 'shieldolthoihighrot2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25548, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (25548, 005 /* ENCUMB_VAL_INT */, 1660)
-     , (25548, 008 /* MASS_INT */, 500)
-     , (25548, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
-     , (25548, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25548, 018 /* UI_EFFECTS_INT */, 0 /* UI_EFFECT_UNDEF */)
-     , (25548, 019 /* VALUE_INT */, 7000)
-     , (25548, 027 /* ARMOR_TYPE_INT */, 2)
-     , (25548, 028 /* ARMOR_LEVEL_INT */, 425)
-     , (25548, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (25548, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
-     , (25548, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25548, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25548, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (25548, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (25548, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (25548, 160 /* WIELD_DIFFICULTY_INT */, 60);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25548, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.6)
-     , (25548, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.2)
-     , (25548, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.2)
-     , (25548, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.4)
-     , (25548, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.4)
-     , (25548, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 2)
-     , (25548, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.5)
-     , (25548, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (25548, 110 /* BULK_MOD_FLOAT */, 1)
-     , (25548, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (25548,   1,          2) /* ItemType - Armor */
+     , (25548,   5,       1660) /* EncumbranceVal */
+     , (25548,   8,        500) /* Mass */
+     , (25548,   9,    2097152) /* ValidLocations - Shield */
+     , (25548,  16,          1) /* ItemUseable - No */
+     , (25548,  18,          0) /* UiEffects - Undef */
+     , (25548,  19,       7000) /* Value */
+     , (25548,  27,          2) /* ArmorType */
+     , (25548,  28,        425) /* ArmorLevel */
+     , (25548,  36,       9999) /* ResistMagic */
+     , (25548,  51,          4) /* CombatUse - Shield */
+     , (25548,  93,       1044) /* PhysicsState */
+     , (25548, 150,        103) /* HookPlacement - Hook */
+     , (25548, 151,          2) /* HookType - Wall */
+     , (25548, 158,          7) /* WieldRequirements - Level */
+     , (25548, 159,          1) /* WieldSkilltype - Axe */
+     , (25548, 160,         60) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25548, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (25548,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25548,  13,     1.6) /* ArmorModVsSlash */
+     , (25548,  14,     1.2) /* ArmorModVsPierce */
+     , (25548,  15,     1.2) /* ArmorModVsBludgeon */
+     , (25548,  16,     1.4) /* ArmorModVsCold */
+     , (25548,  17,     1.4) /* ArmorModVsFire */
+     , (25548,  18,       2) /* ArmorModVsAcid */
+     , (25548,  19,     1.5) /* ArmorModVsElectric */
+     , (25548,  39,       1) /* DefaultScale */
+     , (25548, 110,       1) /* BulkMod */
+     , (25548, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25548,   1, 'Fine Olthoi Shield') /* Name */
+     , (25548,  16, 'A shield created from the abdomen of an Olthoi Sentinel.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25548,   1,   33554785) /* Setup */
+     , (25548,   3,  536870932) /* SoundTable */
+     , (25548,   6,   67114593) /* PaletteBase */
+     , (25548,   7,  268436699) /* ClothingBase */
+     , (25548,   8,  100675044) /* Icon */
+     , (25548,  22,  872415275) /* PhysicsEffectTable */;

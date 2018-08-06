@@ -1,37 +1,33 @@
-/* Weenie - Cookie Cutter (14777) */
-DELETE FROM weenie WHERE class_Id = 14777;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14777, 'cookiecutterdrudge', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14777, 001 /* NAME_STRING */, 'Cookie Cutter')
-     , (14777, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (14777, 015 /* SHORT_DESC_STRING */, 'A Drudge shaped cookie cutter.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14777, 001 /* SETUP_DID */, 33557497)
-     , (14777, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14777, 008 /* ICON_DID */, 100672490)
-     , (14777, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14777', 'cookiecutterdrudge', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14777, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (14777, 005 /* ENCUMB_VAL_INT */, 50)
-     , (14777, 008 /* MASS_INT */, 25)
-     , (14777, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14777, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (14777, 012 /* STACK_SIZE_INT */, 1)
-     , (14777, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (14777, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (14777, 015 /* STACK_UNIT_VALUE_INT */, 25)
-     , (14777, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (14777, 019 /* VALUE_INT */, 25)
-     , (14777, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14777, 094 /* TARGET_TYPE_INT */, 4194592 /* TYPE_FOOD, TYPE_MISSILE_WEAPON, TYPE_CRAFT_COOKING_BASE */)
-     , (14777, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (14777, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (14777,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (14777,   5,         50) /* EncumbranceVal */
+     , (14777,   8,         25) /* Mass */
+     , (14777,   9,          0) /* ValidLocations - None */
+     , (14777,  11,          1) /* MaxStackSize */
+     , (14777,  12,          1) /* StackSize */
+     , (14777,  13,         50) /* StackUnitEncumbrance */
+     , (14777,  14,         25) /* StackUnitMass */
+     , (14777,  15,         25) /* StackUnitValue */
+     , (14777,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (14777,  19,         25) /* Value */
+     , (14777,  93,       1044) /* PhysicsState */
+     , (14777,  94,    4194592) /* TargetType */
+     , (14777, 150,        103) /* HookPlacement - Hook */
+     , (14777, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14777, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (14777,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14777,   1, 'Cookie Cutter') /* Name */
+     , (14777,  14, 'This item is used in cooking.') /* Use */
+     , (14777,  15, 'A Drudge shaped cookie cutter.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14777,   1,   33557497) /* Setup */
+     , (14777,   3,  536870932) /* SoundTable */
+     , (14777,   8,  100672490) /* Icon */
+     , (14777,  22,  872415275) /* PhysicsEffectTable */;

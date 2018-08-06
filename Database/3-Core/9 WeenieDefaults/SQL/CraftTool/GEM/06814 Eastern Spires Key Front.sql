@@ -1,39 +1,35 @@
-/* Weenie - Eastern Spires Key Front (6814) */
-DELETE FROM weenie WHERE class_Id = 6814;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6814, 'keyspireeastfront', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6814, 001 /* NAME_STRING */, 'Eastern Spires Key Front')
-     , (6814, 014 /* USE_STRING */, 'Use this item with other skeletal key pieces.')
-     , (6814, 015 /* SHORT_DESC_STRING */, 'The front section of an incomplete skeletal key, assembled from two fragments found in shadow spires.')
-     , (6814, 016 /* LONG_DESC_STRING */, 'The front section of an incomplete skeletal key, assembled from two fragments found in shadow spires. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6814, 001 /* SETUP_DID */, 33554784)
-     , (6814, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6814, 008 /* ICON_DID */, 100670626)
-     , (6814, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6814', 'keyspireeastfront', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6814, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (6814, 005 /* ENCUMB_VAL_INT */, 50)
-     , (6814, 008 /* MASS_INT */, 50)
-     , (6814, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6814, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (6814, 012 /* STACK_SIZE_INT */, 1)
-     , (6814, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (6814, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (6814, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (6814, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (6814, 019 /* VALUE_INT */, 0)
-     , (6814, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6814, 094 /* TARGET_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (6814, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6814, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (6814,   1,       2048) /* ItemType - Gem */
+     , (6814,   5,         50) /* EncumbranceVal */
+     , (6814,   8,         50) /* Mass */
+     , (6814,   9,          0) /* ValidLocations - None */
+     , (6814,  11,          1) /* MaxStackSize */
+     , (6814,  12,          1) /* StackSize */
+     , (6814,  13,         50) /* StackUnitEncumbrance */
+     , (6814,  14,         50) /* StackUnitMass */
+     , (6814,  15,          0) /* StackUnitValue */
+     , (6814,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (6814,  19,          0) /* Value */
+     , (6814,  93,       1044) /* PhysicsState */
+     , (6814,  94,       2048) /* TargetType - Gem */
+     , (6814, 150,        103) /* HookPlacement - Hook */
+     , (6814, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6814, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6814, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6814,  22, True ) /* Inscribable */
+     , (6814,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6814,   1, 'Eastern Spires Key Front') /* Name */
+     , (6814,  14, 'Use this item with other skeletal key pieces.') /* Use */
+     , (6814,  15, 'The front section of an incomplete skeletal key, assembled from two fragments found in shadow spires.') /* ShortDesc */
+     , (6814,  16, 'The front section of an incomplete skeletal key, assembled from two fragments found in shadow spires. ') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6814,   1,   33554784) /* Setup */
+     , (6814,   3,  536870932) /* SoundTable */
+     , (6814,   8,  100670626) /* Icon */
+     , (6814,  22,  872415275) /* PhysicsEffectTable */;

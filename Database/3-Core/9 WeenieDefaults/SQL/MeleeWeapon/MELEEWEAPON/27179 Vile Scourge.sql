@@ -1,66 +1,62 @@
-/* Weenie - Vile Scourge (27179) */
-DELETE FROM weenie WHERE class_Id = 27179;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27179, 'joliazk1', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27179, 001 /* NAME_STRING */, 'Vile Scourge')
-     , (27179, 016 /* LONG_DESC_STRING */, 'This blunt and flexible staff looks to have been used as a tool for administering punishment by the Falatacot.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27179, 001 /* SETUP_DID */, 33558636)
-     , (27179, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27179, 006 /* PALETTE_BASE_DID */, 67114956)
-     , (27179, 007 /* CLOTHINGBASE_DID */, 268436792)
-     , (27179, 008 /* ICON_DID */, 100675923)
-     , (27179, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27179', 'joliazk1', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27179, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (27179, 003 /* PALETTE_TEMPLATE_INT */, 17 /* YELLOW_PALETTE_TEMPLATE */)
-     , (27179, 005 /* ENCUMB_VAL_INT */, 425)
-     , (27179, 008 /* MASS_INT */, 90)
-     , (27179, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (27179, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27179, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27179, 019 /* VALUE_INT */, 1000)
-     , (27179, 044 /* DAMAGE_INT */, 21)
-     , (27179, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (27179, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (27179, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (27179, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (27179, 049 /* WEAPON_TIME_INT */, 10)
-     , (27179, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (27179, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (27179, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (27179, 107 /* ITEM_CUR_MANA_INT */, 1200)
-     , (27179, 108 /* ITEM_MAX_MANA_INT */, 1200)
-     , (27179, 109 /* ITEM_DIFFICULTY_INT */, 100)
-     , (27179, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27179, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27179, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (27179, 159 /* WIELD_SKILLTYPE_INT */, 10 /* STAFF_SKILL */)
-     , (27179, 160 /* WIELD_DIFFICULTY_INT */, 250);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27179, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (27179, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (27179, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (27179, 029 /* WEAPON_DEFENSE_FLOAT */, 1.09)
-     , (27179, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (27179, 062 /* WEAPON_OFFENSE_FLOAT */, 1.09)
-     , (27179, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (27179, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.15);
+VALUES (27179,   1,          1) /* ItemType - MeleeWeapon */
+     , (27179,   3,         17) /* PaletteTemplate - Yellow */
+     , (27179,   5,        425) /* EncumbranceVal */
+     , (27179,   8,         90) /* Mass */
+     , (27179,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (27179,  16,          1) /* ItemUseable - No */
+     , (27179,  18,          1) /* UiEffects - Magical */
+     , (27179,  19,       1000) /* Value */
+     , (27179,  44,         21) /* Damage */
+     , (27179,  45,          4) /* DamageType - Bludgeon */
+     , (27179,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (27179,  47,          6) /* AttackType */
+     , (27179,  48,         10) /* WeaponSkill - Staff */
+     , (27179,  49,         10) /* WeaponTime */
+     , (27179,  51,          1) /* CombatUse - Melee */
+     , (27179,  93,       3092) /* PhysicsState */
+     , (27179, 106,        250) /* ItemSpellcraft */
+     , (27179, 107,       1200) /* ItemCurMana */
+     , (27179, 108,       1200) /* ItemMaxMana */
+     , (27179, 109,        100) /* ItemDifficulty */
+     , (27179, 150,        103) /* HookPlacement - Hook */
+     , (27179, 151,          2) /* HookType - Wall */
+     , (27179, 158,          2) /* WieldRequirements - RawSkill */
+     , (27179, 159,         10) /* WieldSkilltype - Staff */
+     , (27179, 160,        250) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27179, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (27179, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27179, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27179,  15, True ) /* LightsStatus */
+     , (27179,  22, True ) /* Inscribable */
+     , (27179,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27179,   5,   -0.05) /* ManaRate */
+     , (27179,  21,    1.33) /* WeaponLength */
+     , (27179,  22,     0.5) /* DamageVariance */
+     , (27179,  29,    1.09) /* WeaponDefense */
+     , (27179,  39,       1) /* DefaultScale */
+     , (27179,  62,    1.09) /* WeaponOffense */
+     , (27179, 136,     2.5) /* CriticalMultiplier */
+     , (27179, 147,    0.15) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27179,   1, 'Vile Scourge') /* Name */
+     , (27179,  16, 'This blunt and flexible staff looks to have been used as a tool for administering punishment by the Falatacot.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27179,   1,   33558636) /* Setup */
+     , (27179,   3,  536870932) /* SoundTable */
+     , (27179,   6,   67114956) /* PaletteBase */
+     , (27179,   7,  268436792) /* ClothingBase */
+     , (27179,   8,  100675923) /* Icon */
+     , (27179,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27179, 1026, 2) /* BludgeonProtectionOther3_SpellID */
-     , (27179, 1603, 2) /* Defender4_SpellID */
-     , (27179, 1614, 2) /* BloodDrinker4_SpellID */
-     , (27179, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (27179,  1026,      2)  /* Bludgeoning Protection Other III */
+     , (27179,  1603,      2)  /* Aura of Defender Self IV */
+     , (27179,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (27179,  1625,      2)  /* Aura of Swift Killer Self IV */;

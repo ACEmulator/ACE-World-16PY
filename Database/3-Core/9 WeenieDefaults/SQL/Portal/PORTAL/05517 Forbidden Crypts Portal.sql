@@ -1,35 +1,31 @@
-/* Weenie - Forbidden Crypts Portal (5517) */
-DELETE FROM weenie WHERE class_Id = 5517;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5517, 'portalforbiddencrypts', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5517, 001 /* NAME_STRING */, 'Forbidden Crypts Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5517, 001 /* SETUP_DID */, 33555923)
-     , (5517, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (5517, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5517', 'portalforbiddencrypts', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5517, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (5517, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (5517, 086 /* MIN_LEVEL_INT */, 15)
-     , (5517, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (5517, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (5517, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5517, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (5517,   1,      65536) /* ItemType - Portal */
+     , (5517,  16,         32) /* ItemUseable - Remote */
+     , (5517,  86,         15) /* MinLevel */
+     , (5517,  93,       3084) /* PhysicsState */
+     , (5517, 111,          1) /* PortalBitmask - Unrestricted */
+     , (5517, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5517, 001 /* STUCK_BOOL */, True)
-     , (5517, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (5517, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5517, 013 /* ETHEREAL_BOOL */, True)
-     , (5517, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (5517,   1, True ) /* Stuck */
+     , (5517,  11, False) /* IgnoreCollisions */
+     , (5517,  12, True ) /* ReportCollisions */
+     , (5517,  13, True ) /* Ethereal */
+     , (5517,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5517,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5517,   1, 'Forbidden Crypts Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5517,   1,   33555923) /* Setup */
+     , (5517,   2,  150994947) /* MotionTable */
+     , (5517,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5517, 2, 20775637, 60, -10, -18, -4.371139E-08, 0, 0, -1) /* DESTINATION_POSITION */;
-
+VALUES (5517, 2, 20775637, 60, -10, -18, -4.371139E-08, 0, 0, -1) /* Destination */;

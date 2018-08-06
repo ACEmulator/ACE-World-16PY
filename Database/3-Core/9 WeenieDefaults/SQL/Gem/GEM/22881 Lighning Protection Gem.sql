@@ -1,46 +1,42 @@
-/* Weenie - Lighning Protection Gem (22881) */
-DELETE FROM weenie WHERE class_Id = 22881;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22881, 'gemlightningprot6', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22881, 001 /* NAME_STRING */, 'Lighning Protection Gem')
-     , (22881, 015 /* SHORT_DESC_STRING */, 'A gem of lightning protection VI');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22881, 001 /* SETUP_DID */, 33554809)
-     , (22881, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22881, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22881, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (22881, 008 /* ICON_DID */, 100673905)
-     , (22881, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (22881, 028 /* SPELL_DID */, 1077 /* LightningProtectionOther6_SpellID */)
-     , (22881, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22881', 'gemlightningprot6', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22881, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22881, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (22881, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22881, 008 /* MASS_INT */, 10)
-     , (22881, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22881, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (22881, 012 /* STACK_SIZE_INT */, 1)
-     , (22881, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (22881, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (22881, 015 /* STACK_UNIT_VALUE_INT */, 200)
-     , (22881, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22881, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (22881, 019 /* VALUE_INT */, 200)
-     , (22881, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22881, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (22881, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (22881, 107 /* ITEM_CUR_MANA_INT */, 100)
-     , (22881, 108 /* ITEM_MAX_MANA_INT */, 200)
-     , (22881, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (22881, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (22881,   1,       2048) /* ItemType - Gem */
+     , (22881,   3,         14) /* PaletteTemplate - Red */
+     , (22881,   5,         10) /* EncumbranceVal */
+     , (22881,   8,         10) /* Mass */
+     , (22881,   9,          0) /* ValidLocations - None */
+     , (22881,  11,          1) /* MaxStackSize */
+     , (22881,  12,          1) /* StackSize */
+     , (22881,  13,         10) /* StackUnitEncumbrance */
+     , (22881,  14,         10) /* StackUnitMass */
+     , (22881,  15,        200) /* StackUnitValue */
+     , (22881,  16,          8) /* ItemUseable - Contained */
+     , (22881,  18,          1) /* UiEffects - Magical */
+     , (22881,  19,        200) /* Value */
+     , (22881,  93,       1044) /* PhysicsState */
+     , (22881,  94,         16) /* TargetType - Creature */
+     , (22881, 106,        210) /* ItemSpellcraft */
+     , (22881, 107,        100) /* ItemCurMana */
+     , (22881, 108,        200) /* ItemMaxMana */
+     , (22881, 109,          0) /* ItemDifficulty */
+     , (22881, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22881, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22881, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22881,  22, True ) /* Inscribable */
+     , (22881,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22881,   1, 'Lighning Protection Gem') /* Name */
+     , (22881,  15, 'A gem of lightning protection VI') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22881,   1,   33554809) /* Setup */
+     , (22881,   3,  536870932) /* SoundTable */
+     , (22881,   6,   67111919) /* PaletteBase */
+     , (22881,   7,  268435723) /* ClothingBase */
+     , (22881,   8,  100673905) /* Icon */
+     , (22881,  22,  872415275) /* PhysicsEffectTable */
+     , (22881,  28,       1077) /* Spell - Lightning Protection Other VI */
+     , (22881,  36,  234881046) /* MutateFilter */;

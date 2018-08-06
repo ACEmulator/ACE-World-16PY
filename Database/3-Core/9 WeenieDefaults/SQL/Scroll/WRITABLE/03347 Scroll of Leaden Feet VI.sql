@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Leaden Feet VI (3347) */
-DELETE FROM weenie WHERE class_Id = 3347;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3347, 'scrollleadenfeet6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3347, 001 /* NAME_STRING */, 'Scroll of Leaden Feet VI')
-     , (3347, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3347, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Run skill by 60%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3347, 001 /* SETUP_DID */, 33554826)
-     , (3347, 008 /* ICON_DID */, 100676470)
-     , (3347, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3347, 028 /* SPELL_DID */, 1005 /* LeadenFeetOther6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3347', 'scrollleadenfeet6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3347, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3347, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3347, 008 /* MASS_INT */, 90)
-     , (3347, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3347, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3347, 019 /* VALUE_INT */, 1000)
-     , (3347, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3347, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3347,   1,       8192) /* ItemType - Writable */
+     , (3347,   5,         30) /* EncumbranceVal */
+     , (3347,   8,         90) /* Mass */
+     , (3347,   9,          0) /* ValidLocations - None */
+     , (3347,  16,          8) /* ItemUseable - Contained */
+     , (3347,  19,       1000) /* Value */
+     , (3347,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3347, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3347, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3347,  22, True ) /* Inscribable */
+     , (3347,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3347,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3347,   1, 'Scroll of Leaden Feet VI') /* Name */
+     , (3347,  15, 'A magic scroll.') /* ShortDesc */
+     , (3347,  16, 'When learned, this spell decreases the target''s Run skill by 60%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3347,   1,   33554826) /* Setup */
+     , (3347,   8,  100676470) /* Icon */
+     , (3347,  22,  872415275) /* PhysicsEffectTable */
+     , (3347,  28,       1005) /* Spell - Leaden Feet Other VI */;

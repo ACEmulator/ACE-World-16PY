@@ -1,38 +1,34 @@
-/* Weenie - Malachite (2416) */
-DELETE FROM weenie WHERE class_Id = 2416;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2416, 'gemmalachite', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2416, 001 /* NAME_STRING */, 'Malachite');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2416, 001 /* SETUP_DID */, 33554809)
-     , (2416, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2416, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2416, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (2416, 008 /* ICON_DID */, 100674747)
-     , (2416, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2416, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2416', 'gemmalachite', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2416, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (2416, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (2416, 005 /* ENCUMB_VAL_INT */, 5)
-     , (2416, 008 /* MASS_INT */, 5)
-     , (2416, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2416, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (2416, 012 /* STACK_SIZE_INT */, 1)
-     , (2416, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (2416, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (2416, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (2416, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2416, 019 /* VALUE_INT */, 10)
-     , (2416, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2416, 131 /* MATERIAL_TYPE_INT */, 30 /* Malachite_MaterialType */)
-     , (2416, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
+VALUES (2416,   1,       2048) /* ItemType - Gem */
+     , (2416,   3,          8) /* PaletteTemplate - Green */
+     , (2416,   5,          5) /* EncumbranceVal */
+     , (2416,   8,          5) /* Mass */
+     , (2416,   9,          0) /* ValidLocations - None */
+     , (2416,  11,          1) /* MaxStackSize */
+     , (2416,  12,          1) /* StackSize */
+     , (2416,  13,          5) /* StackUnitEncumbrance */
+     , (2416,  14,          5) /* StackUnitMass */
+     , (2416,  15,         10) /* StackUnitValue */
+     , (2416,  16,          1) /* ItemUseable - No */
+     , (2416,  19,         10) /* Value */
+     , (2416,  93,       1044) /* PhysicsState */
+     , (2416, 131,         30) /* MaterialType - Malachite */
+     , (2416, 169,   16777216) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2416, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2416,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2416,   1, 'Malachite') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2416,   1,   33554809) /* Setup */
+     , (2416,   3,  536870932) /* SoundTable */
+     , (2416,   6,   67111919) /* PaletteBase */
+     , (2416,   7,  268435723) /* ClothingBase */
+     , (2416,   8,  100674747) /* Icon */
+     , (2416,  22,  872415275) /* PhysicsEffectTable */
+     , (2416,  36,  234881046) /* MutateFilter */;

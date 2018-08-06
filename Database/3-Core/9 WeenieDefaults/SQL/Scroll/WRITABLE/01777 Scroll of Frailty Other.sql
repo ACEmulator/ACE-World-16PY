@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Frailty Other (1777) */
-DELETE FROM weenie WHERE class_Id = 1777;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1777, 'scrollfrailty', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1777, 001 /* NAME_STRING */, 'Scroll of Frailty Other')
-     , (1777, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (1777, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Endurance by 10 points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1777, 001 /* SETUP_DID */, 33554826)
-     , (1777, 008 /* ICON_DID */, 100676456)
-     , (1777, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (1777, 028 /* SPELL_DID */, 1367 /* FrailtyOther1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1777', 'scrollfrailty', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1777, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (1777, 005 /* ENCUMB_VAL_INT */, 30)
-     , (1777, 008 /* MASS_INT */, 90)
-     , (1777, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (1777, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (1777, 019 /* VALUE_INT */, 1)
-     , (1777, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1777, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (1777,   1,       8192) /* ItemType - Writable */
+     , (1777,   5,         30) /* EncumbranceVal */
+     , (1777,   8,         90) /* Mass */
+     , (1777,   9,          0) /* ValidLocations - None */
+     , (1777,  16,          8) /* ItemUseable - Contained */
+     , (1777,  19,          1) /* Value */
+     , (1777,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1777, 022 /* INSCRIBABLE_BOOL */, True)
-     , (1777, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (1777,  22, True ) /* Inscribable */
+     , (1777,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1777,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1777,   1, 'Scroll of Frailty Other') /* Name */
+     , (1777,  15, 'A magic scroll.') /* ShortDesc */
+     , (1777,  16, 'When learned, this spell decreases the target''s Endurance by 10 points.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1777,   1,   33554826) /* Setup */
+     , (1777,   8,  100676456) /* Icon */
+     , (1777,  22,  872415275) /* PhysicsEffectTable */
+     , (1777,  28,       1367) /* Spell - Frailty Other I */;

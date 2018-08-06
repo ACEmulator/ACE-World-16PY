@@ -1,45 +1,41 @@
-/* Weenie - Olthoi Fighter Sleeves (24268) */
-DELETE FROM weenie WHERE class_Id = 24268;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24268, 'sleevesolthoifighter', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24268, 001 /* NAME_STRING */, 'Olthoi Fighter Sleeves');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24268, 001 /* SETUP_DID */, 33554655)
-     , (24268, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24268, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (24268, 007 /* CLOTHINGBASE_DID */, 268436607)
-     , (24268, 008 /* ICON_DID */, 100668802)
-     , (24268, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24268', 'sleevesolthoifighter', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24268, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (24268, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (24268, 004 /* CLOTHING_PRIORITY_INT */, 12288 /* OuterwearUpperArms, OuterwearLowerArms */)
-     , (24268, 005 /* ENCUMB_VAL_INT */, 600)
-     , (24268, 008 /* MASS_INT */, 360)
-     , (24268, 009 /* LOCATIONS_INT */, 6144 /* UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (24268, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24268, 019 /* VALUE_INT */, 360)
-     , (24268, 027 /* ARMOR_TYPE_INT */, 16)
-     , (24268, 028 /* ARMOR_LEVEL_INT */, 50)
-     , (24268, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24268, 012 /* SHADE_FLOAT */, 0.66)
-     , (24268, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
-     , (24268, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (24268, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
-     , (24268, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (24268, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
-     , (24268, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.5)
-     , (24268, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
-     , (24268, 110 /* BULK_MOD_FLOAT */, 1.33)
-     , (24268, 111 /* SIZE_MOD_FLOAT */, 1.75);
+VALUES (24268,   1,          2) /* ItemType - Armor */
+     , (24268,   3,          2) /* PaletteTemplate - Blue */
+     , (24268,   4,      12288) /* ClothingPriority */
+     , (24268,   5,        600) /* EncumbranceVal */
+     , (24268,   8,        360) /* Mass */
+     , (24268,   9,       6144) /* ValidLocations */
+     , (24268,  16,          1) /* ItemUseable - No */
+     , (24268,  19,        360) /* Value */
+     , (24268,  27,         16) /* ArmorType */
+     , (24268,  28,         50) /* ArmorLevel */
+     , (24268,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24268, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (24268,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24268,  12,    0.66) /* Shade */
+     , (24268,  13,     1.2) /* ArmorModVsSlash */
+     , (24268,  14,       1) /* ArmorModVsPierce */
+     , (24268,  15,     0.8) /* ArmorModVsBludgeon */
+     , (24268,  16,     0.6) /* ArmorModVsCold */
+     , (24268,  17,     0.6) /* ArmorModVsFire */
+     , (24268,  18,     0.5) /* ArmorModVsAcid */
+     , (24268,  19,     0.4) /* ArmorModVsElectric */
+     , (24268, 110,    1.33) /* BulkMod */
+     , (24268, 111,    1.75) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24268,   1, 'Olthoi Fighter Sleeves') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24268,   1,   33554655) /* Setup */
+     , (24268,   3,  536870932) /* SoundTable */
+     , (24268,   6,   67108990) /* PaletteBase */
+     , (24268,   7,  268436607) /* ClothingBase */
+     , (24268,   8,  100668802) /* Icon */
+     , (24268,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Superior Artificant Chant (28564) */
-DELETE FROM weenie WHERE class_Id = 28564;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28564, 'scrollitemenchantmentmasteryfellowship7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28564, 001 /* NAME_STRING */, 'Scroll of Superior Artificant Chant')
-     , (28564, 015 /* SHORT_DESC_STRING */, 'Use this scroll to learn Superior Artificant Chant.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28564, 001 /* SETUP_DID */, 33554826)
-     , (28564, 008 /* ICON_DID */, 100676460)
-     , (28564, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28564, 028 /* SPELL_DID */, 3391 /* ItemEnchantmentMasteryFellow7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28564', 'scrollitemenchantmentmasteryfellowship7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28564, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28564, 005 /* ENCUMB_VAL_INT */, 5)
-     , (28564, 008 /* MASS_INT */, 90)
-     , (28564, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28564, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28564, 019 /* VALUE_INT */, 0)
-     , (28564, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28564, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (28564,   1,       8192) /* ItemType - Writable */
+     , (28564,   5,          5) /* EncumbranceVal */
+     , (28564,   8,         90) /* Mass */
+     , (28564,   9,          0) /* ValidLocations - None */
+     , (28564,  16,          8) /* ItemUseable - Contained */
+     , (28564,  19,          0) /* Value */
+     , (28564,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28564, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28564, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28564,  22, True ) /* Inscribable */
+     , (28564,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28564,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28564,   1, 'Scroll of Superior Artificant Chant') /* Name */
+     , (28564,  15, 'Use this scroll to learn Superior Artificant Chant.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28564,   1,   33554826) /* Setup */
+     , (28564,   8,  100676460) /* Icon */
+     , (28564,  22,  872415275) /* PhysicsEffectTable */
+     , (28564,  28,       3391) /* Spell - Superior Artificant Chant */;

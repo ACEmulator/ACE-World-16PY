@@ -1,31 +1,56 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3954, 2045939725, 2670264582, 11.4933, 156.367, 290.005, -0.411547, 0, 0, 0.911388) /* linkitemgen15minutes */
-     , (5768, 2045939724, 2670264582, 12.978, 155.022, 290.93, 0.324702, 0, 0, 0.945816) /* Poofy Snowball */
-     , (5768, 2045939723, 2670264582, 13.4492, 154.939, 290.93, 0.324702, 0, 0, 0.945816) /* Poofy Snowball */
-     , (5768, 2045939722, 2670264582, 13.0864, 154.48, 290.93, 0.324702, 0, 0, 0.945816) /* Poofy Snowball */
-     , (25788, 2045939718, 2670264582, 14.0807, 153.865, 290, -0.379344, 0, 0, 0.925256) /* Chef Pleist */
-     , (25793, 2045939716, 2670264586, 57.0838, 154.378, 290.005, 0.393441, 0, 0, -0.91935) /* Elijah */
-     , (25794, 2045939717, 2670264590, 11.9911, 126.915, 290.005, -0.278859, 0, 0, -0.960332) /* Emma */
-     , (25792, 2045939715, 2670264594, 36.4529, 109.191, 290.005, -4.37114E-08, 0, 0, -1) /* The Mayor */
-     , (25756, 2045939712, 2670264320, 36.7307, 146.042, 290.005, -0.197123, 0, 0, -0.980379) /* Sam */
-     , (4219, 2045939713, 2670264320, 36, 132, 290.005, 1, 0, 0, 0) /* linkmonstergen7minutes */
-     , (25789, 2045939714, 2670264320, 64.3606, 124.824, 290.005, 0.287674, 0, 0, -0.957728) /* Robert */
-     , (25797, 2045939721, 2670264320, 43.7382, 157.952, 290.005, 0.0195368, 0, 0, 0.999809) /* Frost Haven  */
-     , (25791, 2045939720, 2670264320, 35.9044, 132.257, 290.005, 0.00287147, 0, 0, -0.999996) /* Numb */
-     , (25790, 2045939719, 2670264320, 36.6449, 135.789, 290.005, -0.920189, 0, 0, -0.391474) /* Nip */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939712, 25756, 2670264320, 36.7307, 146.042, 290.005, -0.197123, 0, 0, -0.980379,  True); /* Sam */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2045939713'; /* linkmonstergen7minutes */
-UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2045939725'; /* linkitemgen15minutes */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939713,  4219, 2670264320, 36, 132, 290.005, 1, 0, 0, 0, False); /* Linkable Monster Generator ( 7 Min.) */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939712'; /* linkmonstergen7minutes <- Sam */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939714'; /* linkmonstergen7minutes <- Robert */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939715'; /* linkmonstergen7minutes <- The Mayor */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939717'; /* linkmonstergen7minutes <- Emma */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939716'; /* linkmonstergen7minutes <- Elijah */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939718'; /* linkmonstergen7minutes <- Chef Pleist */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939719'; /* linkmonstergen7minutes <- Nip */
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939720'; /* linkmonstergen7minutes <- Numb */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2045939722'; /* linkitemgen15minutes <- Poofy Snowball */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2045939723'; /* linkitemgen15minutes <- Poofy Snowball */
-UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2045939724'; /* linkitemgen15minutes <- Poofy Snowball */
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2045939713, 2045939712) /* Sam */
+     , (2045939713, 2045939714) /* Robert */
+     , (2045939713, 2045939715) /* The Mayor */
+     , (2045939713, 2045939716) /* Elijah */
+     , (2045939713, 2045939717) /* Emma */
+     , (2045939713, 2045939718) /* Chef Pleist */
+     , (2045939713, 2045939719) /* Nip */
+     , (2045939713, 2045939720) /* Numb */;
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939714, 25789, 2670264320, 64.3606, 124.824, 290.005, 0.287674, 0, 0, -0.957728,  True); /* Robert */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939715, 25792, 2670264594, 36.4529, 109.191, 290.005, -4.37114E-08, 0, 0, -1,  True); /* The Mayor */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939716, 25793, 2670264586, 57.0838, 154.378, 290.005, 0.393441, 0, 0, -0.91935,  True); /* Elijah */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939717, 25794, 2670264590, 11.9911, 126.915, 290.005, -0.278859, 0, 0, -0.960332,  True); /* Emma */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939718, 25788, 2670264582, 14.0807, 153.865, 290, -0.379344, 0, 0, 0.925256,  True); /* Chef Pleist */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939719, 25790, 2670264320, 36.6449, 135.789, 290.005, -0.920189, 0, 0, -0.391474,  True); /* Nip */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939720, 25791, 2670264320, 35.9044, 132.257, 290.005, 0.00287147, 0, 0, -0.999996,  True); /* Numb */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939721, 25797, 2670264320, 43.7382, 157.952, 290.005, 0.0195368, 0, 0, 0.999809, False); /* Frost Haven  */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939722,  5768, 2670264582, 13.0864, 154.48, 290.93, 0.324702, 0, 0, 0.945816,  True); /* Poofy Snowball */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939723,  5768, 2670264582, 13.4492, 154.939, 290.93, 0.324702, 0, 0, 0.945816,  True); /* Poofy Snowball */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939724,  5768, 2670264582, 12.978, 155.022, 290.93, 0.324702, 0, 0, 0.945816,  True); /* Poofy Snowball */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2045939725,  3954, 2670264582, 11.4933, 156.367, 290.005, -0.411547, 0, 0, 0.911388, False); /* Linkable Item Gen (15 min.) */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2045939725, 2045939722) /* Poofy Snowball */
+     , (2045939725, 2045939723) /* Poofy Snowball */
+     , (2045939725, 2045939724) /* Poofy Snowball */;

@@ -1,64 +1,60 @@
-/* Weenie - Superb Isparian Dagger (19861) */
-DELETE FROM weenie WHERE class_Id = 19861;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19861, 'daggerispariansuperbnostone', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19861, 001 /* NAME_STRING */, 'Superb Isparian Dagger');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19861, 001 /* SETUP_DID */, 33557746)
-     , (19861, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19861, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19861, 007 /* CLOTHINGBASE_DID */, 268436378)
-     , (19861, 008 /* ICON_DID */, 100673030)
-     , (19861, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (19861, 037 /* ITEM_SKILL_LIMIT_DID */, 4);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19861', 'daggerispariansuperbnostone', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19861, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (19861, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (19861, 005 /* ENCUMB_VAL_INT */, 120)
-     , (19861, 008 /* MASS_INT */, 120)
-     , (19861, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (19861, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19861, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (19861, 019 /* VALUE_INT */, 6000)
-     , (19861, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19861, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (19861, 044 /* DAMAGE_INT */, 14)
-     , (19861, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (19861, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (19861, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (19861, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (19861, 049 /* WEAPON_TIME_INT */, 12)
-     , (19861, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (19861, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19861, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (19861, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (19861, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (19861, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 300)
-     , (19861, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (19861, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (19861, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (19861, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (19861, 160 /* WIELD_DIFFICULTY_INT */, 40);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19861, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (19861, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (19861, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (19861, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
-     , (19861, 062 /* WEAPON_OFFENSE_FLOAT */, 1.08);
+VALUES (19861,   1,          1) /* ItemType - MeleeWeapon */
+     , (19861,   3,         39) /* PaletteTemplate - Black */
+     , (19861,   5,        120) /* EncumbranceVal */
+     , (19861,   8,        120) /* Mass */
+     , (19861,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (19861,  16,          1) /* ItemUseable - No */
+     , (19861,  18,          1) /* UiEffects - Magical */
+     , (19861,  19,       6000) /* Value */
+     , (19861,  33,          1) /* Bonded - Bonded */
+     , (19861,  36,       9999) /* ResistMagic */
+     , (19861,  44,         14) /* Damage */
+     , (19861,  45,          3) /* DamageType */
+     , (19861,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (19861,  47,          6) /* AttackType */
+     , (19861,  48,          4) /* WeaponSkill - Dagger */
+     , (19861,  49,         12) /* WeaponTime */
+     , (19861,  51,          1) /* CombatUse - Melee */
+     , (19861,  93,       1044) /* PhysicsState */
+     , (19861, 106,        100) /* ItemSpellcraft */
+     , (19861, 107,        600) /* ItemCurMana */
+     , (19861, 108,        600) /* ItemMaxMana */
+     , (19861, 115,        300) /* ItemSkillLevelLimit */
+     , (19861, 150,        103) /* HookPlacement - Hook */
+     , (19861, 151,          2) /* HookType - Wall */
+     , (19861, 158,          7) /* WieldRequirements - Level */
+     , (19861, 159,          1) /* WieldSkilltype - Axe */
+     , (19861, 160,         40) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19861, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19861, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19861, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19861,  22, True ) /* Inscribable */
+     , (19861,  23, True ) /* DestroyOnSell */
+     , (19861,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19861,   5,   -0.05) /* ManaRate */
+     , (19861,  21,     0.4) /* WeaponLength */
+     , (19861,  22,     0.5) /* DamageVariance */
+     , (19861,  29,    1.08) /* WeaponDefense */
+     , (19861,  62,    1.08) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19861,   1, 'Superb Isparian Dagger') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19861,   1,   33557746) /* Setup */
+     , (19861,   3,  536870932) /* SoundTable */
+     , (19861,   6,   67111919) /* PaletteBase */
+     , (19861,   7,  268436378) /* ClothingBase */
+     , (19861,   8,  100673030) /* Icon */
+     , (19861,  22,  872415275) /* PhysicsEffectTable */
+     , (19861,  37,          4) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19861, 1591, 2) /* HeartSeeker5_SpellID */
-     , (19861, 1615, 2) /* BloodDrinker5_SpellID */
-     , (19861, 2544, 2) /* CANTRIPDAGGERAPTITUDE1_SpellID */;
-
+VALUES (19861,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (19861,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (19861,  2544,      2)  /* Minor Finesse Weapon Aptitude */;

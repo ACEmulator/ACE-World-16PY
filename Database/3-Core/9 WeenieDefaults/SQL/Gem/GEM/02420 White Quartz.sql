@@ -1,38 +1,34 @@
-/* Weenie - White Quartz (2420) */
-DELETE FROM weenie WHERE class_Id = 2420;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2420, 'gemwhitequartz', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2420, 001 /* NAME_STRING */, 'White Quartz');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2420, 001 /* SETUP_DID */, 33554809)
-     , (2420, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2420, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (2420, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (2420, 008 /* ICON_DID */, 100674722)
-     , (2420, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2420, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2420', 'gemwhitequartz', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2420, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (2420, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (2420, 005 /* ENCUMB_VAL_INT */, 5)
-     , (2420, 008 /* MASS_INT */, 5)
-     , (2420, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2420, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (2420, 012 /* STACK_SIZE_INT */, 1)
-     , (2420, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (2420, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (2420, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (2420, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (2420, 019 /* VALUE_INT */, 10)
-     , (2420, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (2420, 131 /* MATERIAL_TYPE_INT */, 46 /* White_Quartz_MaterialType */)
-     , (2420, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
+VALUES (2420,   1,       2048) /* ItemType - Gem */
+     , (2420,   3,         61) /* PaletteTemplate - White */
+     , (2420,   5,          5) /* EncumbranceVal */
+     , (2420,   8,          5) /* Mass */
+     , (2420,   9,          0) /* ValidLocations - None */
+     , (2420,  11,          1) /* MaxStackSize */
+     , (2420,  12,          1) /* StackSize */
+     , (2420,  13,          5) /* StackUnitEncumbrance */
+     , (2420,  14,          5) /* StackUnitMass */
+     , (2420,  15,         10) /* StackUnitValue */
+     , (2420,  16,          1) /* ItemUseable - No */
+     , (2420,  19,         10) /* Value */
+     , (2420,  93,       1044) /* PhysicsState */
+     , (2420, 131,         46) /* MaterialType - WhiteQuartz */
+     , (2420, 169,   16777216) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2420, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (2420,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2420,   1, 'White Quartz') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2420,   1,   33554809) /* Setup */
+     , (2420,   3,  536870932) /* SoundTable */
+     , (2420,   6,   67111919) /* PaletteBase */
+     , (2420,   7,  268435723) /* ClothingBase */
+     , (2420,   8,  100674722) /* Icon */
+     , (2420,  22,  872415275) /* PhysicsEffectTable */
+     , (2420,  36,  234881046) /* MutateFilter */;

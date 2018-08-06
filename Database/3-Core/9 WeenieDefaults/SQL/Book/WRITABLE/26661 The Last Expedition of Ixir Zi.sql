@@ -1,36 +1,33 @@
-/* Weenie - The Last Expedition of Ixir Zi (26661) */
-DELETE FROM weenie WHERE class_Id = 26661;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26661, 'journalixirexpedition', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26661, 001 /* NAME_STRING */, 'The Last Expedition of Ixir Zi');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26661, 001 /* SETUP_DID */, 33558620)
-     , (26661, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26661, 006 /* PALETTE_BASE_DID */, 67114958)
-     , (26661, 008 /* ICON_DID */, 100675782)
-     , (26661, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26661', 'journalixirexpedition', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26661, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (26661, 005 /* ENCUMB_VAL_INT */, 160)
-     , (26661, 008 /* MASS_INT */, 200)
-     , (26661, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26661, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26661, 019 /* VALUE_INT */, 90)
-     , (26661, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26661, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (26661,   1,       8192) /* ItemType - Writable */
+     , (26661,   5,        160) /* EncumbranceVal */
+     , (26661,   8,        200) /* Mass */
+     , (26661,   9,          0) /* ValidLocations - None */
+     , (26661,  16,          8) /* ItemUseable - Contained */
+     , (26661,  19,         90) /* Value */
+     , (26661,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26661, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (26661,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (26661,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26661,   1, 'The Last Expedition of Ixir Zi') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26661,   1,   33558620) /* Setup */
+     , (26661,   3,  536870932) /* SoundTable */
+     , (26661,   6,   67114958) /* PaletteBase */
+     , (26661,   8,  100675782) /* Icon */
+     , (26661,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (26661, 9, 1000) /* Book Data */;
+VALUES (26661, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (26661, 0, 4294967295, 'Translator Aun Laokhe', 'prewritten', False, 'The War of Hate stretches onward 
@@ -124,4 +121,3 @@ and the Fiazhat will not survive here.
 Better they live on through the Willing
 in eternal service and guardianship to their gods.
 ');
-

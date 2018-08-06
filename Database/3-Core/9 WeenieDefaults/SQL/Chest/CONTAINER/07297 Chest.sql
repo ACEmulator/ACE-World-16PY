@@ -1,54 +1,50 @@
-/* Weenie - Chest (7297) */
-DELETE FROM weenie WHERE class_Id = 7297;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7297, 'chestscholarhighlocked', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7297, 001 /* NAME_STRING */, 'Chest')
-     , (7297, 012 /* LOCK_CODE_STRING */, 'keychesthigh')
-     , (7297, 014 /* USE_STRING */, 'Use this item to open it and see its contents.')
-     , (7297, 016 /* LONG_DESC_STRING */, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7297, 001 /* SETUP_DID */, 33554556)
-     , (7297, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (7297, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (7297, 008 /* ICON_DID */, 100667424)
-     , (7297, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7297', 'chestscholarhighlocked', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7297, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (7297, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (7297, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (7297, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (7297, 008 /* MASS_INT */, 3000)
-     , (7297, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (7297, 019 /* VALUE_INT */, 3000)
-     , (7297, 037 /* RESIST_ITEM_APPRAISAL_INT */, 40)
-     , (7297, 038 /* RESIST_LOCKPICK_INT */, 5000)
-     , (7297, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (7297, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (7297, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (7297, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7297, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (7297, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7297, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (7297, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (7297, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (7297,   1,        512) /* ItemType - Container */
+     , (7297,   5,       9000) /* EncumbranceVal */
+     , (7297,   6,         -1) /* ItemsCapacity */
+     , (7297,   7,         -1) /* ContainersCapacity */
+     , (7297,   8,       3000) /* Mass */
+     , (7297,  16,         48) /* ItemUseable - ViewedRemote */
+     , (7297,  19,       3000) /* Value */
+     , (7297,  37,         40) /* ResistItemAppraisal */
+     , (7297,  38,       5000) /* ResistLockpick */
+     , (7297,  81,          1) /* MaxGeneratedObjects */
+     , (7297,  82,          1) /* InitGeneratedObjects */
+     , (7297,  83,          2) /* ActivationResponse - Use */
+     , (7297,  93,       1048) /* PhysicsState */
+     , (7297,  96,        500) /* EncumbranceCapacity */
+     , (7297, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7297, 001 /* STUCK_BOOL */, True)
-     , (7297, 002 /* OPEN_BOOL */, False)
-     , (7297, 003 /* LOCKED_BOOL */, True)
-     , (7297, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (7297, 013 /* ETHEREAL_BOOL */, False)
-     , (7297, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (7297, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (7297, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (7297,   1, True ) /* Stuck */
+     , (7297,   2, False) /* Open */
+     , (7297,   3, True ) /* Locked */
+     , (7297,  12, True ) /* ReportCollisions */
+     , (7297,  13, False) /* Ethereal */
+     , (7297,  33, False) /* ResetMessagePending */
+     , (7297,  34, False) /* DefaultOpen */
+     , (7297,  35, True ) /* DefaultLocked */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7297,  41,      60) /* RegenerationInterval */
+     , (7297,  43,       1) /* GeneratorRadius */
+     , (7297,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7297,   1, 'Chest') /* Name */
+     , (7297,  12, 'keychesthigh') /* LockCode */
+     , (7297,  14, 'Use this item to open it and see its contents.') /* Use */
+     , (7297,  16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7297,   1,   33554556) /* Setup */
+     , (7297,   2,  150994948) /* MotionTable */
+     , (7297,   3,  536870945) /* SoundTable */
+     , (7297,   8,  100667424) /* Icon */
+     , (7297,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7297, 1, 460, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate RANDOM TREASURE from Loot Tier 4 (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
-
+VALUES (7297, 1, 460, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

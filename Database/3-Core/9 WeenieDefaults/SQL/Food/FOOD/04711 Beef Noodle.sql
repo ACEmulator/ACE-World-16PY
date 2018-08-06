@@ -1,36 +1,32 @@
-/* Weenie - Beef Noodle (4711) */
-DELETE FROM weenie WHERE class_Id = 4711;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4711, 'beefnoodle', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4711, 001 /* NAME_STRING */, 'Beef Noodle')
-     , (4711, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (4711, 020 /* PLURAL_NAME_STRING */, 'Bowls of Beef Noodle');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4711, 001 /* SETUP_DID */, 33554668)
-     , (4711, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4711, 008 /* ICON_DID */, 100670181)
-     , (4711, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4711', 'beefnoodle', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4711, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (4711, 005 /* ENCUMB_VAL_INT */, 75)
-     , (4711, 008 /* MASS_INT */, 50)
-     , (4711, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4711, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (4711, 012 /* STACK_SIZE_INT */, 1)
-     , (4711, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
-     , (4711, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (4711, 015 /* STACK_UNIT_VALUE_INT */, 20)
-     , (4711, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (4711, 019 /* VALUE_INT */, 20)
-     , (4711, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (4711, 090 /* BOOST_VALUE_INT */, 15)
-     , (4711, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4711,   1,         32) /* ItemType - Food */
+     , (4711,   5,         75) /* EncumbranceVal */
+     , (4711,   8,         50) /* Mass */
+     , (4711,   9,          0) /* ValidLocations - None */
+     , (4711,  11,        100) /* MaxStackSize */
+     , (4711,  12,          1) /* StackSize */
+     , (4711,  13,         75) /* StackUnitEncumbrance */
+     , (4711,  14,         50) /* StackUnitMass */
+     , (4711,  15,         20) /* StackUnitValue */
+     , (4711,  16,          8) /* ItemUseable - Contained */
+     , (4711,  19,         20) /* Value */
+     , (4711,  89,          4) /* BoosterEnum - Stamina */
+     , (4711,  90,         15) /* BoostValue */
+     , (4711,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4711, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (4711,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4711,   1, 'Beef Noodle') /* Name */
+     , (4711,  14, 'Use this item to eat it.') /* Use */
+     , (4711,  20, 'Bowls of Beef Noodle') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4711,   1,   33554668) /* Setup */
+     , (4711,   3,  536870932) /* SoundTable */
+     , (4711,   8,  100670181) /* Icon */
+     , (4711,  22,  872415275) /* PhysicsEffectTable */;

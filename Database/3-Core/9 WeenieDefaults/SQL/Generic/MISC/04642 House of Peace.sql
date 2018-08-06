@@ -1,31 +1,27 @@
-/* Weenie - House of Peace (4642) */
-DELETE FROM weenie WHERE class_Id = 4642;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4642, 'alarqashealersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4642, 001 /* NAME_STRING */, 'House of Peace')
-     , (4642, 016 /* LONG_DESC_STRING */, 'House of Peace');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4642, 001 /* SETUP_DID */, 33555909)
-     , (4642, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (4642, 007 /* CLOTHINGBASE_DID */, 268435822)
-     , (4642, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4642', 'alarqashealersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4642, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4642, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4642, 008 /* MASS_INT */, 1800)
-     , (4642, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4642, 019 /* VALUE_INT */, 125)
-     , (4642, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (4642,   1,        128) /* ItemType - Misc */
+     , (4642,   5,       9000) /* EncumbranceVal */
+     , (4642,   8,       1800) /* Mass */
+     , (4642,  16,          1) /* ItemUseable - No */
+     , (4642,  19,        125) /* Value */
+     , (4642,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4642, 001 /* STUCK_BOOL */, True)
-     , (4642, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4642, 013 /* ETHEREAL_BOOL */, False)
-     , (4642, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (4642, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4642,   1, True ) /* Stuck */
+     , (4642,  12, True ) /* ReportCollisions */
+     , (4642,  13, False) /* Ethereal */
+     , (4642,  14, False) /* GravityStatus */
+     , (4642,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4642,   1, 'House of Peace') /* Name */
+     , (4642,  16, 'House of Peace') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4642,   1,   33555909) /* Setup */
+     , (4642,   6,   67111860) /* PaletteBase */
+     , (4642,   7,  268435822) /* ClothingBase */
+     , (4642,   8,  100668115) /* Icon */;

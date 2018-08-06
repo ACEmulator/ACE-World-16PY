@@ -1,34 +1,30 @@
-/* Weenie - Strand Siraluun Claw (11368) */
-DELETE FROM weenie WHERE class_Id = 11368;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11368, 'siraluunclawstrand-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11368, 001 /* NAME_STRING */, 'Strand Siraluun Claw');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11368, 001 /* SETUP_DID */, 33554817)
-     , (11368, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11368, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (11368, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (11368, 008 /* ICON_DID */, 100671849)
-     , (11368, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11368', 'siraluunclawstrand-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11368, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11368, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (11368, 005 /* ENCUMB_VAL_INT */, 100)
-     , (11368, 008 /* MASS_INT */, 240)
-     , (11368, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11368, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11368, 019 /* VALUE_INT */, 75)
-     , (11368, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11368, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (11368,   1,        128) /* ItemType - Misc */
+     , (11368,   3,          2) /* PaletteTemplate - Blue */
+     , (11368,   5,        100) /* EncumbranceVal */
+     , (11368,   8,        240) /* Mass */
+     , (11368,   9,          0) /* ValidLocations - None */
+     , (11368,  16,          1) /* ItemUseable - No */
+     , (11368,  19,         75) /* Value */
+     , (11368,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11368, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11368, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11368,  22, True ) /* Inscribable */
+     , (11368,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11368,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11368,   1, 'Strand Siraluun Claw') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11368,   1,   33554817) /* Setup */
+     , (11368,   3,  536870932) /* SoundTable */
+     , (11368,   6,   67111919) /* PaletteBase */
+     , (11368,   7,  268435832) /* ClothingBase */
+     , (11368,   8,  100671849) /* Icon */
+     , (11368,  22,  872415275) /* PhysicsEffectTable */;

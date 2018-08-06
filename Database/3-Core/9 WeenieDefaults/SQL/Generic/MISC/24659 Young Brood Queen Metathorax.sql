@@ -1,32 +1,28 @@
-/* Weenie - Young Brood Queen Metathorax (24659) */
-DELETE FROM weenie WHERE class_Id = 24659;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24659, 'broodqueenmetathoraxmid', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24659, 001 /* NAME_STRING */, 'Young Brood Queen Metathorax')
-     , (24659, 015 /* SHORT_DESC_STRING */, 'The metathorax of a departed young Olthoi Brood Queen.')
-     , (24659, 033 /* QUEST_STRING */, 'PickedUpBroodQueenMetathorax');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24659, 001 /* SETUP_DID */, 33556593)
-     , (24659, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24659, 008 /* ICON_DID */, 100674522)
-     , (24659, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24659', 'broodqueenmetathoraxmid', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24659, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24659, 005 /* ENCUMB_VAL_INT */, 50)
-     , (24659, 008 /* MASS_INT */, 50)
-     , (24659, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24659, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24659, 019 /* VALUE_INT */, 0)
-     , (24659, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (24659, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24659, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (24659,   1,        128) /* ItemType - Misc */
+     , (24659,   5,         50) /* EncumbranceVal */
+     , (24659,   8,         50) /* Mass */
+     , (24659,   9,          0) /* ValidLocations - None */
+     , (24659,  16,          1) /* ItemUseable - No */
+     , (24659,  19,          0) /* Value */
+     , (24659,  33,          1) /* Bonded - Bonded */
+     , (24659,  93,       1044) /* PhysicsState */
+     , (24659, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24659, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24659, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24659,  22, True ) /* Inscribable */
+     , (24659,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24659,   1, 'Young Brood Queen Metathorax') /* Name */
+     , (24659,  15, 'The metathorax of a departed young Olthoi Brood Queen.') /* ShortDesc */
+     , (24659,  33, 'PickedUpBroodQueenMetathorax') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24659,   1,   33556593) /* Setup */
+     , (24659,   3,  536870932) /* SoundTable */
+     , (24659,   8,  100674522) /* Icon */
+     , (24659,  22,  872415275) /* PhysicsEffectTable */;

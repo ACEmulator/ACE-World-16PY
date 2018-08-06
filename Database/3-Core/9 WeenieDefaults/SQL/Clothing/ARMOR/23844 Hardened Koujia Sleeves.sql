@@ -1,60 +1,56 @@
-/* Weenie - Hardened Koujia Sleeves (23844) */
-DELETE FROM weenie WHERE class_Id = 23844;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23844, 'sleeveskoujiashadowhardened', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23844, 001 /* NAME_STRING */, 'Hardened Koujia Sleeves');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23844, 001 /* SETUP_DID */, 33554655)
-     , (23844, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23844, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (23844, 007 /* CLOTHINGBASE_DID */, 268435851)
-     , (23844, 008 /* ICON_DID */, 100674075)
-     , (23844, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23844', 'sleeveskoujiashadowhardened', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23844, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (23844, 003 /* PALETTE_TEMPLATE_INT */, 93 /* DYESPRINGBLACK_PALETTE_TEMPLATE */)
-     , (23844, 004 /* CLOTHING_PRIORITY_INT */, 12288 /* OuterwearUpperArms, OuterwearLowerArms */)
-     , (23844, 005 /* ENCUMB_VAL_INT */, 925)
-     , (23844, 008 /* MASS_INT */, 550)
-     , (23844, 009 /* LOCATIONS_INT */, 6144 /* UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (23844, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23844, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (23844, 019 /* VALUE_INT */, 1620)
-     , (23844, 027 /* ARMOR_TYPE_INT */, 2)
-     , (23844, 028 /* ARMOR_LEVEL_INT */, 245)
-     , (23844, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23844, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23844, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (23844, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (23844, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (23844, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (23844, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (23844, 160 /* WIELD_DIFFICULTY_INT */, 50);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23844, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (23844, 012 /* SHADE_FLOAT */, 0.25)
-     , (23844, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (23844, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (23844, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (23844, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (23844, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (23844, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (23844, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (23844, 110 /* BULK_MOD_FLOAT */, 1)
-     , (23844, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (23844,   1,          2) /* ItemType - Armor */
+     , (23844,   3,         93) /* PaletteTemplate - DyeSpringBlack */
+     , (23844,   4,      12288) /* ClothingPriority */
+     , (23844,   5,        925) /* EncumbranceVal */
+     , (23844,   8,        550) /* Mass */
+     , (23844,   9,       6144) /* ValidLocations */
+     , (23844,  16,          1) /* ItemUseable - No */
+     , (23844,  18,          1) /* UiEffects - Magical */
+     , (23844,  19,       1620) /* Value */
+     , (23844,  27,          2) /* ArmorType */
+     , (23844,  28,        245) /* ArmorLevel */
+     , (23844,  33,          1) /* Bonded - Bonded */
+     , (23844,  93,       1044) /* PhysicsState */
+     , (23844, 107,       1000) /* ItemCurMana */
+     , (23844, 108,       1000) /* ItemMaxMana */
+     , (23844, 109,          0) /* ItemDifficulty */
+     , (23844, 158,          7) /* WieldRequirements - Level */
+     , (23844, 159,          1) /* WieldSkilltype - Axe */
+     , (23844, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23844, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23844, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (23844, 069 /* IS_SELLABLE_BOOL */, False)
-     , (23844, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
+VALUES (23844,  22, True ) /* Inscribable */
+     , (23844,  23, True ) /* DestroyOnSell */
+     , (23844,  69, False) /* IsSellable */
+     , (23844,  84, True ) /* IgnoreCloIcons */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23844,   5,  -0.025) /* ManaRate */
+     , (23844,  12,    0.25) /* Shade */
+     , (23844,  13,       1) /* ArmorModVsSlash */
+     , (23844,  14,     0.8) /* ArmorModVsPierce */
+     , (23844,  15,       1) /* ArmorModVsBludgeon */
+     , (23844,  16,     0.8) /* ArmorModVsCold */
+     , (23844,  17,     0.8) /* ArmorModVsFire */
+     , (23844,  18,     0.8) /* ArmorModVsAcid */
+     , (23844,  19,     0.6) /* ArmorModVsElectric */
+     , (23844, 110,       1) /* BulkMod */
+     , (23844, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23844,   1, 'Hardened Koujia Sleeves') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23844,   1,   33554655) /* Setup */
+     , (23844,   3,  536870932) /* SoundTable */
+     , (23844,   6,   67108990) /* PaletteBase */
+     , (23844,   7,  268435851) /* ClothingBase */
+     , (23844,   8,  100674075) /* Icon */
+     , (23844,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23844, 2613, 2) /* CANTRIPPIERCINGWARD2_SpellID */;
-
+VALUES (23844,  2613,      2)  /* Major Piercing Ward */;

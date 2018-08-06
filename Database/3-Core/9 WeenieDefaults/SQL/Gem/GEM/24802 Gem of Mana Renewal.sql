@@ -1,47 +1,43 @@
-/* Weenie - Gem of Mana Renewal (24802) */
-DELETE FROM weenie WHERE class_Id = 24802;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24802, 'gemmanarenewal4', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24802, 001 /* NAME_STRING */, 'Gem of Mana Renewal')
-     , (24802, 015 /* SHORT_DESC_STRING */, 'A gem that will cast Mana Renewal IV on anyone who uses it. The gem will be destroyed in the process.')
-     , (24802, 020 /* PLURAL_NAME_STRING */, 'Gems of Mana Renewal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24802, 001 /* SETUP_DID */, 33554809)
-     , (24802, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24802, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24802, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (24802, 008 /* ICON_DID */, 100674419)
-     , (24802, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24802, 028 /* SPELL_DID */, 209 /* ManaRenewalOther4_SpellID */)
-     , (24802, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24802', 'gemmanarenewal4', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24802, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (24802, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (24802, 005 /* ENCUMB_VAL_INT */, 5)
-     , (24802, 008 /* MASS_INT */, 10)
-     , (24802, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24802, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (24802, 012 /* STACK_SIZE_INT */, 1)
-     , (24802, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (24802, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (24802, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (24802, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24802, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (24802, 019 /* VALUE_INT */, 0)
-     , (24802, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24802, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (24802, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (24802, 107 /* ITEM_CUR_MANA_INT */, 100)
-     , (24802, 108 /* ITEM_MAX_MANA_INT */, 200)
-     , (24802, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (24802, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (24802,   1,       2048) /* ItemType - Gem */
+     , (24802,   3,         14) /* PaletteTemplate - Red */
+     , (24802,   5,          5) /* EncumbranceVal */
+     , (24802,   8,         10) /* Mass */
+     , (24802,   9,          0) /* ValidLocations - None */
+     , (24802,  11,         25) /* MaxStackSize */
+     , (24802,  12,          1) /* StackSize */
+     , (24802,  13,          5) /* StackUnitEncumbrance */
+     , (24802,  14,         10) /* StackUnitMass */
+     , (24802,  15,          0) /* StackUnitValue */
+     , (24802,  16,          8) /* ItemUseable - Contained */
+     , (24802,  18,          1) /* UiEffects - Magical */
+     , (24802,  19,          0) /* Value */
+     , (24802,  93,       1044) /* PhysicsState */
+     , (24802,  94,         16) /* TargetType - Creature */
+     , (24802, 106,        210) /* ItemSpellcraft */
+     , (24802, 107,        100) /* ItemCurMana */
+     , (24802, 108,        200) /* ItemMaxMana */
+     , (24802, 109,          0) /* ItemDifficulty */
+     , (24802, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24802, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (24802, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24802,  23, True ) /* DestroyOnSell */
+     , (24802,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24802,   1, 'Gem of Mana Renewal') /* Name */
+     , (24802,  15, 'A gem that will cast Mana Renewal IV on anyone who uses it. The gem will be destroyed in the process.') /* ShortDesc */
+     , (24802,  20, 'Gems of Mana Renewal') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24802,   1,   33554809) /* Setup */
+     , (24802,   3,  536870932) /* SoundTable */
+     , (24802,   6,   67111919) /* PaletteBase */
+     , (24802,   7,  268435723) /* ClothingBase */
+     , (24802,   8,  100674419) /* Icon */
+     , (24802,  22,  872415275) /* PhysicsEffectTable */
+     , (24802,  28,        209) /* Spell - Mana Renewal Other IV */
+     , (24802,  36,  234881046) /* MutateFilter */;

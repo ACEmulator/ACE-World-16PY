@@ -1,40 +1,37 @@
-/* Weenie - Sir Rylanan's Letter to Sir Tenshin (14439) */
-DELETE FROM weenie WHERE class_Id = 14439;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14439, 'letterregicidetenshin1', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14439, 001 /* NAME_STRING */, 'Sir Rylanan''s Letter to Sir Tenshin')
-     , (14439, 015 /* SHORT_DESC_STRING */, 'A letter from Sir Rylanan to Sir Tenshin, in Shoushi.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14439, 001 /* SETUP_DID */, 33554773)
-     , (14439, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14439, 008 /* ICON_DID */, 100672451)
-     , (14439, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14439', 'letterregicidetenshin1', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14439, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (14439, 005 /* ENCUMB_VAL_INT */, 5)
-     , (14439, 008 /* MASS_INT */, 5)
-     , (14439, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14439, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (14439, 019 /* VALUE_INT */, 0)
-     , (14439, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14439, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14439, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14439, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (14439,   1,       8192) /* ItemType - Writable */
+     , (14439,   5,          5) /* EncumbranceVal */
+     , (14439,   8,          5) /* Mass */
+     , (14439,   9,          0) /* ValidLocations - None */
+     , (14439,  16,          8) /* ItemUseable - Contained */
+     , (14439,  19,          0) /* Value */
+     , (14439,  33,          1) /* Bonded - Bonded */
+     , (14439,  93,       1044) /* PhysicsState */
+     , (14439, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14439, 001 /* STUCK_BOOL */, False)
-     , (14439, 022 /* INSCRIBABLE_BOOL */, False)
-     , (14439, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (14439,   1, False) /* Stuck */
+     , (14439,  22, False) /* Inscribable */
+     , (14439,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14439,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14439,   1, 'Sir Rylanan''s Letter to Sir Tenshin') /* Name */
+     , (14439,  15, 'A letter from Sir Rylanan to Sir Tenshin, in Shoushi.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14439,   1,   33554773) /* Setup */
+     , (14439,   3,  536870932) /* SoundTable */
+     , (14439,   8,  100672451) /* Icon */
+     , (14439,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (14439, 2, 1000) /* Book Data */;
+VALUES (14439, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (14439, 0, 4294967295, 'Sir Rylanan', 'prewritten', False, 'Sir Tenshin,
@@ -47,4 +44,3 @@ With regards and congratulations for your latest promotion,
 
 Rylanan
 ');
-

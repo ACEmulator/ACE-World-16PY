@@ -1,37 +1,34 @@
-/* Weenie - Torn Journal (4995) */
-DELETE FROM weenie WHERE class_Id = 4995;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4995, 'journalyarick1frore', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4995, 001 /* NAME_STRING */, 'Torn Journal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4995, 001 /* SETUP_DID */, 33554772)
-     , (4995, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4995, 008 /* ICON_DID */, 100667470)
-     , (4995, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4995', 'journalyarick1frore', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4995, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (4995, 005 /* ENCUMB_VAL_INT */, 100)
-     , (4995, 008 /* MASS_INT */, 50)
-     , (4995, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4995, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (4995, 019 /* VALUE_INT */, 25)
-     , (4995, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4995, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (4995, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (4995,   1,       8192) /* ItemType - Writable */
+     , (4995,   5,        100) /* EncumbranceVal */
+     , (4995,   8,         50) /* Mass */
+     , (4995,   9,          0) /* ValidLocations - None */
+     , (4995,  16,          8) /* ItemUseable - Contained */
+     , (4995,  19,         25) /* Value */
+     , (4995,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4995, 001 /* STUCK_BOOL */, True)
-     , (4995, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4995,   1, True ) /* Stuck */
+     , (4995,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4995,  39,    1.22) /* DefaultScale */
+     , (4995,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4995,   1, 'Torn Journal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4995,   1,   33554772) /* Setup */
+     , (4995,   3,  536870932) /* SoundTable */
+     , (4995,   8,  100667470) /* Icon */
+     , (4995,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (4995, 9, 1000) /* Book Data */;
+VALUES (4995, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (4995, 0, 4294967295, '', 'prewritten', False, '
@@ -101,4 +98,3 @@ Entry 7
 
 What a wonder to behold!  We have made our way to what can only be the object of our quest, it appears to be the entrance to a ruined city! Toppled walls and debris are testament to the existence of a once thriving metropolis buried far, far below the ice.  There are no signs of life here, but I don''t know whether to be disturbed or relieved.  We have only scratched the surface - amidst the f-
 ');
-

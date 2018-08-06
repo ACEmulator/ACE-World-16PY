@@ -1,36 +1,33 @@
-/* Weenie - Dizah ibn Nadqab's Journal (5935) */
-DELETE FROM weenie WHERE class_Id = 5935;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5935, 'journalimpioustemple', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5935, 001 /* NAME_STRING */, 'Dizah ibn Nadqab''s Journal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5935, 001 /* SETUP_DID */, 33554771)
-     , (5935, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5935, 008 /* ICON_DID */, 100668117)
-     , (5935, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5935', 'journalimpioustemple', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5935, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5935, 005 /* ENCUMB_VAL_INT */, 160)
-     , (5935, 008 /* MASS_INT */, 200)
-     , (5935, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5935, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5935, 019 /* VALUE_INT */, 1)
-     , (5935, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5935, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (5935,   1,       8192) /* ItemType - Writable */
+     , (5935,   5,        160) /* EncumbranceVal */
+     , (5935,   8,        200) /* Mass */
+     , (5935,   9,          0) /* ValidLocations - None */
+     , (5935,  16,          8) /* ItemUseable - Contained */
+     , (5935,  19,          1) /* Value */
+     , (5935,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5935, 022 /* INSCRIBABLE_BOOL */, False)
-     , (5935, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (5935,  22, False) /* Inscribable */
+     , (5935,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5935,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5935,   1, 'Dizah ibn Nadqab''s Journal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5935,   1,   33554771) /* Setup */
+     , (5935,   3,  536870932) /* SoundTable */
+     , (5935,   8,  100668117) /* Icon */
+     , (5935,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5935, 11, 1000) /* Book Data */;
+VALUES (5935, 11, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5935, 0, 4294967295, 'Dizah ibn Nadqab', 'prewritten', False, 'DAY 1:
@@ -97,4 +94,3 @@ There is a large audience chamber here with lit candles. I don''t remember light
 Whatever I''ve done I now know my presence here is not wanted. I was awakened last night by voices...And footsteps! I was not dreaming! The dead have come back to reclaim what was once theirs. I should have known better than to rush in and desecrate something which had been held sacred by them for many years.  
 
 ');
-

@@ -1,45 +1,41 @@
-/* Weenie - Ring of a Singularity Key (14882) */
-DELETE FROM weenie WHERE class_Id = 14882;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14882, 'keyringbrokensingularity', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14882, 001 /* NAME_STRING */, 'Ring of a Singularity Key')
-     , (14882, 014 /* USE_STRING */, 'Combine with Teeth of a Singularity Key.')
-     , (14882, 015 /* SHORT_DESC_STRING */, 'The upper half of a green singularity key.')
-     , (14882, 016 /* LONG_DESC_STRING */, 'The upper half of a green singularity key.')
-     , (14882, 033 /* QUEST_STRING */, 'BrokenKeyRingMartine');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14882, 001 /* SETUP_DID */, 33557000)
-     , (14882, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14882, 006 /* PALETTE_BASE_DID */, 67111346)
-     , (14882, 007 /* CLOTHINGBASE_DID */, 268436150)
-     , (14882, 008 /* ICON_DID */, 100672606)
-     , (14882, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14882', 'keyringbrokensingularity', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14882, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (14882, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (14882, 005 /* ENCUMB_VAL_INT */, 40)
-     , (14882, 008 /* MASS_INT */, 40)
-     , (14882, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14882, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (14882, 012 /* STACK_SIZE_INT */, 1)
-     , (14882, 013 /* STACK_UNIT_ENCUMB_INT */, 40)
-     , (14882, 014 /* STACK_UNIT_MASS_INT */, 40)
-     , (14882, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (14882, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (14882, 019 /* VALUE_INT */, 0)
-     , (14882, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14882, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14882, 094 /* TARGET_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (14882, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14882, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
+VALUES (14882,   1,       2048) /* ItemType - Gem */
+     , (14882,   3,          8) /* PaletteTemplate - Green */
+     , (14882,   5,         40) /* EncumbranceVal */
+     , (14882,   8,         40) /* Mass */
+     , (14882,   9,          0) /* ValidLocations - None */
+     , (14882,  11,          1) /* MaxStackSize */
+     , (14882,  12,          1) /* StackSize */
+     , (14882,  13,         40) /* StackUnitEncumbrance */
+     , (14882,  14,         40) /* StackUnitMass */
+     , (14882,  15,          0) /* StackUnitValue */
+     , (14882,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (14882,  19,          0) /* Value */
+     , (14882,  33,          1) /* Bonded - Bonded */
+     , (14882,  93,       1044) /* PhysicsState */
+     , (14882,  94,       2048) /* TargetType - Gem */
+     , (14882, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14882, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (14882,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14882,  39,     0.8) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14882,   1, 'Ring of a Singularity Key') /* Name */
+     , (14882,  14, 'Combine with Teeth of a Singularity Key.') /* Use */
+     , (14882,  15, 'The upper half of a green singularity key.') /* ShortDesc */
+     , (14882,  16, 'The upper half of a green singularity key.') /* LongDesc */
+     , (14882,  33, 'BrokenKeyRingMartine') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14882,   1,   33557000) /* Setup */
+     , (14882,   3,  536870932) /* SoundTable */
+     , (14882,   6,   67111346) /* PaletteBase */
+     , (14882,   7,  268436150) /* ClothingBase */
+     , (14882,   8,  100672606) /* Icon */
+     , (14882,  22,  872415275) /* PhysicsEffectTable */;

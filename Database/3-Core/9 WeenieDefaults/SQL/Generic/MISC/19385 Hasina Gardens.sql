@@ -1,28 +1,24 @@
-/* Weenie - Hasina Gardens (19385) */
-DELETE FROM weenie WHERE class_Id = 19385;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19385, 'hasinagardenssign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19385, 001 /* NAME_STRING */, 'Hasina Gardens')
-     , (19385, 016 /* LONG_DESC_STRING */, 'Hasina Gardens');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19385, 001 /* SETUP_DID */, 33557693)
-     , (19385, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19385', 'hasinagardenssign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19385, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (19385, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (19385, 008 /* MASS_INT */, 1800)
-     , (19385, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19385, 019 /* VALUE_INT */, 125)
-     , (19385, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (19385,   1,        128) /* ItemType - Misc */
+     , (19385,   5,       9000) /* EncumbranceVal */
+     , (19385,   8,       1800) /* Mass */
+     , (19385,  16,          1) /* ItemUseable - No */
+     , (19385,  19,        125) /* Value */
+     , (19385,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19385, 001 /* STUCK_BOOL */, True)
-     , (19385, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (19385, 013 /* ETHEREAL_BOOL */, False)
-     , (19385, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (19385,   1, True ) /* Stuck */
+     , (19385,  12, True ) /* ReportCollisions */
+     , (19385,  13, False) /* Ethereal */
+     , (19385,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19385,   1, 'Hasina Gardens') /* Name */
+     , (19385,  16, 'Hasina Gardens') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19385,   1,   33557693) /* Setup */
+     , (19385,   8,  100667499) /* Icon */;

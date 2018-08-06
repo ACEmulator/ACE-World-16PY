@@ -1,64 +1,60 @@
-/* Weenie - Singularity Sword (10884) */
-DELETE FROM weenie WHERE class_Id = 10884;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10884, 'swordsingularitymarae-xp', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10884, 001 /* NAME_STRING */, 'Singularity Sword')
-     , (10884, 015 /* SHORT_DESC_STRING */, 'A sword imbued with Singularity energy.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10884, 001 /* SETUP_DID */, 33557319)
-     , (10884, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10884, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (10884, 007 /* CLOTHINGBASE_DID */, 268436127)
-     , (10884, 008 /* ICON_DID */, 100672048)
-     , (10884, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (10884, 036 /* MUTATE_FILTER_DID */, 234881044)
-     , (10884, 037 /* ITEM_SKILL_LIMIT_DID */, 11);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10884', 'swordsingularitymarae-xp', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10884, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (10884, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (10884, 005 /* ENCUMB_VAL_INT */, 450)
-     , (10884, 008 /* MASS_INT */, 180)
-     , (10884, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (10884, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10884, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (10884, 019 /* VALUE_INT */, 0)
-     , (10884, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (10884, 044 /* DAMAGE_INT */, 20)
-     , (10884, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (10884, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (10884, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (10884, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (10884, 049 /* WEAPON_TIME_INT */, 40)
-     , (10884, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (10884, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (10884, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (10884, 107 /* ITEM_CUR_MANA_INT */, 700)
-     , (10884, 108 /* ITEM_MAX_MANA_INT */, 700)
-     , (10884, 109 /* ITEM_DIFFICULTY_INT */, 175)
-     , (10884, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (10884, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 300)
-     , (10884, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (10884, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10884, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (10884, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (10884, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (10884, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (10884, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (10884, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05);
+VALUES (10884,   1,          1) /* ItemType - MeleeWeapon */
+     , (10884,   3,          8) /* PaletteTemplate - Green */
+     , (10884,   5,        450) /* EncumbranceVal */
+     , (10884,   8,        180) /* Mass */
+     , (10884,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (10884,  16,          1) /* ItemUseable - No */
+     , (10884,  18,          1) /* UiEffects - Magical */
+     , (10884,  19,          0) /* Value */
+     , (10884,  33,          1) /* Bonded - Bonded */
+     , (10884,  44,         20) /* Damage */
+     , (10884,  45,          3) /* DamageType */
+     , (10884,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (10884,  47,          6) /* AttackType */
+     , (10884,  48,         11) /* WeaponSkill - Sword */
+     , (10884,  49,         40) /* WeaponTime */
+     , (10884,  51,          1) /* CombatUse - Melee */
+     , (10884,  93,       1044) /* PhysicsState */
+     , (10884, 106,        150) /* ItemSpellcraft */
+     , (10884, 107,        700) /* ItemCurMana */
+     , (10884, 108,        700) /* ItemMaxMana */
+     , (10884, 109,        175) /* ItemDifficulty */
+     , (10884, 114,          1) /* Attuned - Attuned */
+     , (10884, 115,        300) /* ItemSkillLevelLimit */
+     , (10884, 150,        103) /* HookPlacement - Hook */
+     , (10884, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10884, 022 /* INSCRIBABLE_BOOL */, True)
-     , (10884, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (10884, 099 /* IVORYABLE_BOOL */, True);
+VALUES (10884,  22, True ) /* Inscribable */
+     , (10884,  23, True ) /* DestroyOnSell */
+     , (10884,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10884,   5,  -0.033) /* ManaRate */
+     , (10884,  21,    0.95) /* WeaponLength */
+     , (10884,  22,     0.5) /* DamageVariance */
+     , (10884,  29,    1.05) /* WeaponDefense */
+     , (10884,  39,     1.1) /* DefaultScale */
+     , (10884,  62,    1.05) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10884,   1, 'Singularity Sword') /* Name */
+     , (10884,  15, 'A sword imbued with Singularity energy.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10884,   1,   33557319) /* Setup */
+     , (10884,   3,  536870932) /* SoundTable */
+     , (10884,   6,   67111919) /* PaletteBase */
+     , (10884,   7,  268436127) /* ClothingBase */
+     , (10884,   8,  100672048) /* Icon */
+     , (10884,  22,  872415275) /* PhysicsEffectTable */
+     , (10884,  36,  234881044) /* MutateFilter */
+     , (10884,  37,         11) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10884, 1616, 2) /* BloodDrinker6_SpellID */
-     , (10884, 1384, 2) /* CoordinationOther6_SpellID */;
-
+VALUES (10884,  1384,      2)  /* Coordination Other VI */
+     , (10884,  1616,      2)  /* Aura of Blood Drinker Self VI */;

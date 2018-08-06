@@ -1,3 +1,2 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2084, 2076798976, 3164012544, 3.81672, 30.4902, 1.905, -0.91935, 0, 0, 0.39344) /* Lakeside Lair */;
-
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2076798976,  2084, 3164012544, 3.81672, 30.4902, 1.905, -0.91935, 0, 0, 0.39344, False); /* Lakeside Lair */

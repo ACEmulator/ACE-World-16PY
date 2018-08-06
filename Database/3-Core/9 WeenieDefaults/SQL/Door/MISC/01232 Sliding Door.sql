@@ -1,40 +1,36 @@
-/* Weenie - Sliding Door (1232) */
-DELETE FROM weenie WHERE class_Id = 1232;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1232, 'doorshoslidelockfair', 19 /* Door_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1232, 001 /* NAME_STRING */, 'Sliding Door')
-     , (1232, 014 /* USE_STRING */, 'Use this item to open it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1232, 001 /* SETUP_DID */, 33555216)
-     , (1232, 002 /* MOTION_TABLE_DID */, 150994987)
-     , (1232, 003 /* SOUND_TABLE_DID */, 536870963)
-     , (1232, 008 /* ICON_DID */, 100668183)
-     , (1232, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1232', 'doorshoslidelockfair', 19) /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1232, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (1232, 008 /* MASS_INT */, 500)
-     , (1232, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (1232, 019 /* VALUE_INT */, 0)
-     , (1232, 038 /* RESIST_LOCKPICK_INT */, 82)
-     , (1232, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1232, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (1232, 054 /* USE_RADIUS_FLOAT */, 2);
+VALUES (1232,   1,        128) /* ItemType - Misc */
+     , (1232,   8,        500) /* Mass */
+     , (1232,  16,         32) /* ItemUseable - Remote */
+     , (1232,  19,          0) /* Value */
+     , (1232,  38,         82) /* ResistLockpick */
+     , (1232,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1232, 001 /* STUCK_BOOL */, True)
-     , (1232, 002 /* OPEN_BOOL */, False)
-     , (1232, 003 /* LOCKED_BOOL */, True)
-     , (1232, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1232, 013 /* ETHEREAL_BOOL */, False)
-     , (1232, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (1232, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (1232, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (1232, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (1232,   1, True ) /* Stuck */
+     , (1232,   2, False) /* Open */
+     , (1232,   3, True ) /* Locked */
+     , (1232,  12, True ) /* ReportCollisions */
+     , (1232,  13, False) /* Ethereal */
+     , (1232,  14, False) /* GravityStatus */
+     , (1232,  33, False) /* ResetMessagePending */
+     , (1232,  34, False) /* DefaultOpen */
+     , (1232,  35, True ) /* DefaultLocked */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1232,  11,     300) /* ResetInterval */
+     , (1232,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1232,   1, 'Sliding Door') /* Name */
+     , (1232,  14, 'Use this item to open it.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1232,   1,   33555216) /* Setup */
+     , (1232,   2,  150994987) /* MotionTable */
+     , (1232,   3,  536870963) /* SoundTable */
+     , (1232,   8,  100668183) /* Icon */
+     , (1232,  22,  872415275) /* PhysicsEffectTable */;

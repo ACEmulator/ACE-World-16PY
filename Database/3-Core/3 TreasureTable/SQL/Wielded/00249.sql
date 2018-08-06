@@ -1,23 +1,22 @@
-INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
-VALUES (249, 23654 /* Throwing Club */, 0, 0, 0, 4, 0.1, 0.1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (249, 23735 /* Yumi */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, True, False, 0, 0, 0, 0)
-     , (249, 300 /* Arrow */, 0, 0, 0, 18, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (249, 23735 /* Yumi */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, True, True, 0, 0, 0, 0)
-     , (249, 1437 /* Fire Arrow */, 0, 0, 0, 20, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (249, 23735 /* Yumi */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, True, True, 0, 0, 0, 0)
-     , (249, 4181 /* Acid Arrow */, 0, 0, 0, 10, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (249, 23666 /* Heavy Crossbow */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, True, True, 0, 0, 0, 0)
-     , (249, 305 /* Quarrel */, 0, 0, 0, 12, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (249, 23666 /* Heavy Crossbow */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, True, True, 0, 0, 0, 0)
-     , (249, 4188 /* Fire Quarrel */, 0, 0, 0, 14, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (249, 23666 /* Heavy Crossbow */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, True, True, 0, 0, 0, 0)
-     , (249, 4185 /* Acid Quarrel */, 0, 0, 0, 16, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (249, 23675 /* Katar */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (249, 23638 /* Cestus */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (249, 23681 /* Nekode */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (249, 23697 /* Spear */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (249, 23701 /* Tachi */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (249, 23731 /* Yari */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0)
-     , (249, 23685 /* Kite Shield */, 0, 0, 0, 0, 0, 0.5, 0, 0, 0, True, False, False, 0, 0, 0, 0)
-     , (249, 95 /* Tower Shield */, 0, 0, 0, 0, 0, 0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0);
-
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `stack_Size_Variance`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `set_Start`, `has_Sub_Set`, `continues_Previous_Set`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (249, 23654,  0, 0,    0, 4, 0.1,     0.1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Throwing Club */
+     , (249, 23735,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False,  True, False, 0, 0, 0, 0) /* Yumi */
+     , (249,   300,  0, 0,    0, 18, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Arrow */
+     , (249, 23735,  0, 0,    0, 0, 0,     0.1, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0) /* Yumi */
+     , (249,  1437,  0, 0,    0, 20, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Fire Arrow */
+     , (249, 23735,  0, 0,    0, 0, 0,     0.1, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0) /* Yumi */
+     , (249,  4181,  0, 0,    0, 10, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Acid Arrow */
+     , (249, 23666,  0, 0,    0, 0, 0,     0.1, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0) /* Heavy Crossbow */
+     , (249,   305,  0, 0,    0, 12, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Quarrel */
+     , (249, 23666,  0, 0,    0, 0, 0,     0.1, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0) /* Heavy Crossbow */
+     , (249,  4188,  0, 0,    0, 14, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Fire Quarrel */
+     , (249, 23666,  0, 0,    0, 0, 0,     0.1, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0) /* Heavy Crossbow */
+     , (249,  4185,  0, 0,    0, 16, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Acid Quarrel */
+     , (249, 23675,  0, 0,    0, 0, 0,    0.15, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Katar */
+     , (249, 23638,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Cestus */
+     , (249, 23681,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Nekode */
+     , (249, 23697,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Spear */
+     , (249, 23701,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Tachi */
+     , (249, 23731,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Yari */
+     , (249, 23685,  0, 0,    0, 0, 0,     0.5, 0, 0, 0,  True, False, False, 0, 0, 0, 0) /* Kite Shield */
+     , (249,    95,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0) /* Tower Shield */;

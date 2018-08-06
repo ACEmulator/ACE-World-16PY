@@ -1,39 +1,35 @@
-/* Weenie - Floor Hook (11697) */
-DELETE FROM weenie WHERE class_Id = 11697;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11697, 'hook-floor', 56 /* Hook_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11697, 001 /* NAME_STRING */, 'Floor Hook')
-     , (11697, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11697, 001 /* SETUP_DID */, 33557133)
-     , (11697, 008 /* ICON_DID */, 100671680)
-     , (11697, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11697', 'hook-floor', 56) /* Hook */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11697, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (11697, 005 /* ENCUMB_VAL_INT */, 5)
-     , (11697, 006 /* ITEMS_CAPACITY_INT */, 1)
-     , (11697, 007 /* CONTAINERS_CAPACITY_INT */, 0)
-     , (11697, 008 /* MASS_INT */, 5)
-     , (11697, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (11697, 019 /* VALUE_INT */, 10)
-     , (11697, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
-     , (11697, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */)
-     , (11697, 152 /* HOOK_ITEM_TYPE_INT */, -1 /*  */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11697, 039 /* DEFAULT_SCALE_FLOAT */, 0.5)
-     , (11697, 054 /* USE_RADIUS_FLOAT */, 10)
-     , (11697, 135 /* INVENTORY_OFFSET_FLOAT */, 20);
+VALUES (11697,   1,        512) /* ItemType - Container */
+     , (11697,   5,          5) /* EncumbranceVal */
+     , (11697,   6,          1) /* ItemsCapacity */
+     , (11697,   7,          0) /* ContainersCapacity */
+     , (11697,   8,          5) /* Mass */
+     , (11697,  16,         48) /* ItemUseable - ViewedRemote */
+     , (11697,  19,         10) /* Value */
+     , (11697,  93,         20) /* PhysicsState */
+     , (11697, 151,          1) /* HookType - Floor */
+     , (11697, 152,         -1) /* HookItemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11697, 001 /* STUCK_BOOL */, True)
-     , (11697, 002 /* OPEN_BOOL */, False)
-     , (11697, 012 /* REPORT_COLLISIONS_BOOL */, False)
-     , (11697, 013 /* ETHEREAL_BOOL */, True)
-     , (11697, 014 /* GRAVITY_STATUS_BOOL */, False);
+VALUES (11697,   1, True ) /* Stuck */
+     , (11697,   2, False) /* Open */
+     , (11697,  12, False) /* ReportCollisions */
+     , (11697,  13, True ) /* Ethereal */
+     , (11697,  14, False) /* GravityStatus */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11697,  39,     0.5) /* DefaultScale */
+     , (11697,  54,      10) /* UseRadius */
+     , (11697, 135,      20) /* InventoryOffset */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11697,   1, 'Floor Hook') /* Name */
+     , (11697,  14, 'Use this item to open it and see its contents.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11697,   1,   33557133) /* Setup */
+     , (11697,   8,  100671680) /* Icon */
+     , (11697,  22,  872415275) /* PhysicsEffectTable */;

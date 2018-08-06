@@ -1,45 +1,41 @@
-/* Weenie - Suikan Robe (5855) */
-DELETE FROM weenie WHERE class_Id = 5855;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5855, 'robeshohood', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5855, 001 /* NAME_STRING */, 'Suikan Robe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5855, 001 /* SETUP_DID */, 33554854)
-     , (5855, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5855, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (5855, 007 /* CLOTHINGBASE_DID */, 268435864)
-     , (5855, 008 /* ICON_DID */, 100670382)
-     , (5855, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (5855, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5855', 'robeshohood', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5855, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (5855, 003 /* PALETTE_TEMPLATE_INT */, 17 /* YELLOW_PALETTE_TEMPLATE */)
-     , (5855, 004 /* CLOTHING_PRIORITY_INT */, 81664 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */)
-     , (5855, 005 /* ENCUMB_VAL_INT */, 200)
-     , (5855, 008 /* MASS_INT */, 150)
-     , (5855, 009 /* LOCATIONS_INT */, 32512 /* FOOT_WEAR_LOC, ARMOR_LOC */)
-     , (5855, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5855, 019 /* VALUE_INT */, 50)
-     , (5855, 027 /* ARMOR_TYPE_INT */, 1)
-     , (5855, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (5855, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5855, 012 /* SHADE_FLOAT */, 0.5)
-     , (5855, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (5855, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (5855, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (5855, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (5855, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (5855, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (5855, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (5855,   1,          4) /* ItemType - Clothing */
+     , (5855,   3,         17) /* PaletteTemplate - Yellow */
+     , (5855,   4,      81664) /* ClothingPriority */
+     , (5855,   5,        200) /* EncumbranceVal */
+     , (5855,   8,        150) /* Mass */
+     , (5855,   9,      32512) /* ValidLocations - Armor */
+     , (5855,  16,          1) /* ItemUseable - No */
+     , (5855,  19,         50) /* Value */
+     , (5855,  27,          1) /* ArmorType */
+     , (5855,  28,          0) /* ArmorLevel */
+     , (5855,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5855, 022 /* INSCRIBABLE_BOOL */, True)
-     , (5855, 100 /* DYABLE_BOOL */, True);
+VALUES (5855,  22, True ) /* Inscribable */
+     , (5855, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5855,  12,     0.5) /* Shade */
+     , (5855,  13,     0.8) /* ArmorModVsSlash */
+     , (5855,  14,     0.8) /* ArmorModVsPierce */
+     , (5855,  15,       1) /* ArmorModVsBludgeon */
+     , (5855,  16,     0.2) /* ArmorModVsCold */
+     , (5855,  17,     0.2) /* ArmorModVsFire */
+     , (5855,  18,     0.1) /* ArmorModVsAcid */
+     , (5855,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5855,   1, 'Suikan Robe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5855,   1,   33554854) /* Setup */
+     , (5855,   3,  536870932) /* SoundTable */
+     , (5855,   6,   67108990) /* PaletteBase */
+     , (5855,   7,  268435864) /* ClothingBase */
+     , (5855,   8,  100670382) /* Icon */
+     , (5855,  22,  872415275) /* PhysicsEffectTable */
+     , (5855,  36,  234881046) /* MutateFilter */;

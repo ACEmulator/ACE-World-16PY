@@ -1,39 +1,36 @@
-/* Weenie - Precepts of the Tenebrous Edge (6029) */
-DELETE FROM weenie WHERE class_Id = 6029;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6029, 'bookmountainfortressprecepts', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6029, 001 /* NAME_STRING */, 'Precepts of the Tenebrous Edge')
-     , (6029, 015 /* SHORT_DESC_STRING */, 'A book from the private chambers of Hamud ibn Rafik.')
-     , (6029, 016 /* LONG_DESC_STRING */, 'A book from the private chambers of Hamud ibn Rafik.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6029, 001 /* SETUP_DID */, 33554772)
-     , (6029, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6029, 008 /* ICON_DID */, 100667470)
-     , (6029, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6029', 'bookmountainfortressprecepts', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6029, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (6029, 005 /* ENCUMB_VAL_INT */, 100)
-     , (6029, 008 /* MASS_INT */, 150)
-     , (6029, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6029, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (6029, 019 /* VALUE_INT */, 25)
-     , (6029, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6029, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (6029, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (6029,   1,       8192) /* ItemType - Writable */
+     , (6029,   5,        100) /* EncumbranceVal */
+     , (6029,   8,        150) /* Mass */
+     , (6029,   9,          0) /* ValidLocations - None */
+     , (6029,  16,          8) /* ItemUseable - Contained */
+     , (6029,  19,         25) /* Value */
+     , (6029,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6029, 001 /* STUCK_BOOL */, True)
-     , (6029, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (6029,   1, True ) /* Stuck */
+     , (6029,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6029,  39,    1.22) /* DefaultScale */
+     , (6029,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6029,   1, 'Precepts of the Tenebrous Edge') /* Name */
+     , (6029,  15, 'A book from the private chambers of Hamud ibn Rafik.') /* ShortDesc */
+     , (6029,  16, 'A book from the private chambers of Hamud ibn Rafik.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6029,   1,   33554772) /* Setup */
+     , (6029,   3,  536870932) /* SoundTable */
+     , (6029,   8,  100667470) /* Icon */
+     , (6029,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (6029, 2, 1000) /* Book Data */;
+VALUES (6029, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (6029, 0, 4294967295, 'Hamud ibn Rafik', 'prewritten', False, '
@@ -54,4 +51,3 @@ Living to fight another day is preferable to dying uselessly.
 Wealth does not last, but your reputation will outlive you.
 
 ');
-

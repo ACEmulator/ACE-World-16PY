@@ -1,51 +1,47 @@
-/* Weenie - Aphus Lassel Portal Gem (22729) */
-DELETE FROM weenie WHERE class_Id = 22729;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22729, 'gemportaltuskerisland', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22729, 001 /* NAME_STRING */, 'Aphus Lassel Portal Gem')
-     , (22729, 014 /* USE_STRING */, 'Double Click on this portal gem to transport yourself to Aphus Lassel.')
-     , (22729, 015 /* SHORT_DESC_STRING */, 'A gem teeming with portal energy. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22729, 001 /* SETUP_DID */, 33556769)
-     , (22729, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22729, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22729, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (22729, 008 /* ICON_DID */, 100673478)
-     , (22729, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (22729, 028 /* SPELL_DID */, 2936 /* PortalSendingTuskerIsland_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22729', 'gemportaltuskerisland', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22729, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22729, 003 /* PALETTE_TEMPLATE_INT */, 10 /* LIGHTBLUE_PALETTE_TEMPLATE */)
-     , (22729, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22729, 008 /* MASS_INT */, 10)
-     , (22729, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22729, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (22729, 012 /* STACK_SIZE_INT */, 1)
-     , (22729, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (22729, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (22729, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (22729, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22729, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (22729, 019 /* VALUE_INT */, 0)
-     , (22729, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
-     , (22729, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (22729, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (22729, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (22729, 107 /* ITEM_CUR_MANA_INT */, 70)
-     , (22729, 108 /* ITEM_MAX_MANA_INT */, 70)
-     , (22729, 109 /* ITEM_DIFFICULTY_INT */, 10)
-     , (22729, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (22729, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22729, 076 /* TRANSLUCENCY_FLOAT */, 0.5);
+VALUES (22729,   1,       2048) /* ItemType - Gem */
+     , (22729,   3,         10) /* PaletteTemplate - LightBlue */
+     , (22729,   5,         10) /* EncumbranceVal */
+     , (22729,   8,         10) /* Mass */
+     , (22729,   9,          0) /* ValidLocations - None */
+     , (22729,  11,         25) /* MaxStackSize */
+     , (22729,  12,          1) /* StackSize */
+     , (22729,  13,         10) /* StackUnitEncumbrance */
+     , (22729,  14,         10) /* StackUnitMass */
+     , (22729,  15,          0) /* StackUnitValue */
+     , (22729,  16,          8) /* ItemUseable - Contained */
+     , (22729,  18,          1) /* UiEffects - Magical */
+     , (22729,  19,          0) /* Value */
+     , (22729,  33,          0) /* Bonded - Normal */
+     , (22729,  93,       3092) /* PhysicsState */
+     , (22729,  94,         16) /* TargetType - Creature */
+     , (22729, 106,        210) /* ItemSpellcraft */
+     , (22729, 107,         70) /* ItemCurMana */
+     , (22729, 108,         70) /* ItemMaxMana */
+     , (22729, 109,         10) /* ItemDifficulty */
+     , (22729, 110,          0) /* ItemAllegianceRankLimit */
+     , (22729, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22729, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (22729, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22729,  15, True ) /* LightsStatus */
+     , (22729,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22729,  76,     0.5) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22729,   1, 'Aphus Lassel Portal Gem') /* Name */
+     , (22729,  14, 'Double Click on this portal gem to transport yourself to Aphus Lassel.') /* Use */
+     , (22729,  15, 'A gem teeming with portal energy. ') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22729,   1,   33556769) /* Setup */
+     , (22729,   3,  536870932) /* SoundTable */
+     , (22729,   6,   67111919) /* PaletteBase */
+     , (22729,   7,  268435723) /* ClothingBase */
+     , (22729,   8,  100673478) /* Icon */
+     , (22729,  22,  872415275) /* PhysicsEffectTable */
+     , (22729,  28,       2936) /* Spell - Entrance to Tusker Island */;

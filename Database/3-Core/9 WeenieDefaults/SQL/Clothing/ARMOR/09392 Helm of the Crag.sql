@@ -1,51 +1,47 @@
-/* Weenie - Helm of the Crag (9392) */
-DELETE FROM weenie WHERE class_Id = 9392;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9392, 'helmcrag', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9392, 001 /* NAME_STRING */, 'Helm of the Crag')
-     , (9392, 015 /* SHORT_DESC_STRING */, 'A large horned helm.')
-     , (9392, 016 /* LONG_DESC_STRING */, 'A large horned helm with the horns of a large mattekar.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9392, 001 /* SETUP_DID */, 33557002)
-     , (9392, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9392, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (9392, 007 /* CLOTHINGBASE_DID */, 268436151)
-     , (9392, 008 /* ICON_DID */, 100667349)
-     , (9392, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9392', 'helmcrag', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9392, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (9392, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (9392, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (9392, 005 /* ENCUMB_VAL_INT */, 900)
-     , (9392, 008 /* MASS_INT */, 300)
-     , (9392, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (9392, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9392, 019 /* VALUE_INT */, 2000)
-     , (9392, 027 /* ARMOR_TYPE_INT */, 32)
-     , (9392, 028 /* ARMOR_LEVEL_INT */, 240)
-     , (9392, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9392, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9392, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9392, 012 /* SHADE_FLOAT */, 0.25)
-     , (9392, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (9392, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.5)
-     , (9392, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.1)
-     , (9392, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0)
-     , (9392, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0)
-     , (9392, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (9392, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
-     , (9392, 110 /* BULK_MOD_FLOAT */, 1)
-     , (9392, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (9392,   1,          2) /* ItemType - Armor */
+     , (9392,   3,          2) /* PaletteTemplate - Blue */
+     , (9392,   4,      16384) /* ClothingPriority - Head */
+     , (9392,   5,        900) /* EncumbranceVal */
+     , (9392,   8,        300) /* Mass */
+     , (9392,   9,          1) /* ValidLocations - HeadWear */
+     , (9392,  16,          1) /* ItemUseable - No */
+     , (9392,  19,       2000) /* Value */
+     , (9392,  27,         32) /* ArmorType */
+     , (9392,  28,        240) /* ArmorLevel */
+     , (9392,  93,       1044) /* PhysicsState */
+     , (9392, 150,        103) /* HookPlacement - Hook */
+     , (9392, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9392, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9392, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (9392, 100 /* DYABLE_BOOL */, True);
+VALUES (9392,  22, True ) /* Inscribable */
+     , (9392,  23, True ) /* DestroyOnSell */
+     , (9392, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9392,  12,    0.25) /* Shade */
+     , (9392,  13,     0.8) /* ArmorModVsSlash */
+     , (9392,  14,     0.5) /* ArmorModVsPierce */
+     , (9392,  15,     1.1) /* ArmorModVsBludgeon */
+     , (9392,  16,       0) /* ArmorModVsCold */
+     , (9392,  17,       0) /* ArmorModVsFire */
+     , (9392,  18,     0.6) /* ArmorModVsAcid */
+     , (9392,  19,       0) /* ArmorModVsElectric */
+     , (9392, 110,       1) /* BulkMod */
+     , (9392, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9392,   1, 'Helm of the Crag') /* Name */
+     , (9392,  15, 'A large horned helm.') /* ShortDesc */
+     , (9392,  16, 'A large horned helm with the horns of a large mattekar.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9392,   1,   33557002) /* Setup */
+     , (9392,   3,  536870932) /* SoundTable */
+     , (9392,   6,   67108990) /* PaletteBase */
+     , (9392,   7,  268436151) /* ClothingBase */
+     , (9392,   8,  100667349) /* Icon */
+     , (9392,  22,  872415275) /* PhysicsEffectTable */;

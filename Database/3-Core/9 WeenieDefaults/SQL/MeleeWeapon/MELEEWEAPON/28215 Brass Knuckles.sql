@@ -1,63 +1,59 @@
-/* Weenie - Brass Knuckles (28215) */
-DELETE FROM weenie WHERE class_Id = 28215;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28215, 'cestusbrassknuckles', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28215, 001 /* NAME_STRING */, 'Brass Knuckles')
-     , (28215, 015 /* SHORT_DESC_STRING */, 'A cestus crafted from the tooth of a brass gromnie.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28215, 001 /* SETUP_DID */, 33558830)
-     , (28215, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28215, 008 /* ICON_DID */, 100676801)
-     , (28215, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28215, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28215', 'cestusbrassknuckles', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28215, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (28215, 005 /* ENCUMB_VAL_INT */, 150)
-     , (28215, 008 /* MASS_INT */, 80)
-     , (28215, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (28215, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28215, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28215, 019 /* VALUE_INT */, 3000)
-     , (28215, 044 /* DAMAGE_INT */, 23)
-     , (28215, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (28215, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1 /* Unarmed_CombatStyle */)
-     , (28215, 047 /* ATTACK_TYPE_INT */, 1 /* Punch_AttackType */)
-     , (28215, 048 /* WEAPON_SKILL_INT */, 13 /* UNARMED_COMBAT_SKILL */)
-     , (28215, 049 /* WEAPON_TIME_INT */, 20)
-     , (28215, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (28215, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28215, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (28215, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (28215, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (28215, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (28215, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28215, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (28215, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (28215, 159 /* WIELD_SKILLTYPE_INT */, 13 /* UNARMED_COMBAT_SKILL */)
-     , (28215, 160 /* WIELD_DIFFICULTY_INT */, 325);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28215, 005 /* MANA_RATE_FLOAT */, -0.04)
-     , (28215, 021 /* WEAPON_LENGTH_FLOAT */, 0.35)
-     , (28215, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (28215, 029 /* WEAPON_DEFENSE_FLOAT */, 1.1)
-     , (28215, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (28215, 062 /* WEAPON_OFFENSE_FLOAT */, 1.1)
-     , (28215, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.25)
-     , (28215, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.3);
+VALUES (28215,   1,          1) /* ItemType - MeleeWeapon */
+     , (28215,   5,        150) /* EncumbranceVal */
+     , (28215,   8,         80) /* Mass */
+     , (28215,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (28215,  16,          1) /* ItemUseable - No */
+     , (28215,  18,          1) /* UiEffects - Magical */
+     , (28215,  19,       3000) /* Value */
+     , (28215,  44,         23) /* Damage */
+     , (28215,  45,          4) /* DamageType - Bludgeon */
+     , (28215,  46,          1) /* DefaultCombatStyle - Unarmed */
+     , (28215,  47,          1) /* AttackType - Punch */
+     , (28215,  48,         13) /* WeaponSkill - UnarmedCombat */
+     , (28215,  49,         20) /* WeaponTime */
+     , (28215,  51,          1) /* CombatUse - Melee */
+     , (28215,  93,       1044) /* PhysicsState */
+     , (28215, 106,        250) /* ItemSpellcraft */
+     , (28215, 107,       1000) /* ItemCurMana */
+     , (28215, 108,       1000) /* ItemMaxMana */
+     , (28215, 109,        150) /* ItemDifficulty */
+     , (28215, 150,        103) /* HookPlacement - Hook */
+     , (28215, 151,          2) /* HookType - Wall */
+     , (28215, 158,          2) /* WieldRequirements - RawSkill */
+     , (28215, 159,         13) /* WieldSkilltype - UnarmedCombat */
+     , (28215, 160,        325) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28215, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28215, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28215,  22, True ) /* Inscribable */
+     , (28215,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28215,   5,   -0.04) /* ManaRate */
+     , (28215,  21,    0.35) /* WeaponLength */
+     , (28215,  22,     0.5) /* DamageVariance */
+     , (28215,  29,     1.1) /* WeaponDefense */
+     , (28215,  39,       1) /* DefaultScale */
+     , (28215,  62,     1.1) /* WeaponOffense */
+     , (28215, 136,    2.25) /* CriticalMultiplier */
+     , (28215, 147,     0.3) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28215,   1, 'Brass Knuckles') /* Name */
+     , (28215,  15, 'A cestus crafted from the tooth of a brass gromnie.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28215,   1,   33558830) /* Setup */
+     , (28215,   3,  536870932) /* SoundTable */
+     , (28215,   8,  100676801) /* Icon */
+     , (28215,  22,  872415275) /* PhysicsEffectTable */
+     , (28215,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28215, 1604, 2) /* Defender5_SpellID */
-     , (28215, 1592, 2) /* HeartSeeker6_SpellID */
-     , (28215, 1616, 2) /* BloodDrinker6_SpellID */
-     , (28215, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (28215,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (28215,  1604,      2)  /* Aura of Defender Self V */
+     , (28215,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (28215,  1625,      2)  /* Aura of Swift Killer Self IV */;

@@ -1,35 +1,32 @@
-/* Weenie - Specialty Cookbook (5856) */
-DELETE FROM weenie WHERE class_Id = 5856;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5856, 'cookbookspecialty', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5856, 001 /* NAME_STRING */, 'Specialty Cookbook');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5856, 001 /* SETUP_DID */, 33554771)
-     , (5856, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5856, 008 /* ICON_DID */, 100668117)
-     , (5856, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5856', 'cookbookspecialty', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5856, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5856, 005 /* ENCUMB_VAL_INT */, 200)
-     , (5856, 008 /* MASS_INT */, 100)
-     , (5856, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5856, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5856, 019 /* VALUE_INT */, 15)
-     , (5856, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5856, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5856,   1,       8192) /* ItemType - Writable */
+     , (5856,   5,        200) /* EncumbranceVal */
+     , (5856,   8,        100) /* Mass */
+     , (5856,   9,          0) /* ValidLocations - None */
+     , (5856,  16,          8) /* ItemUseable - Contained */
+     , (5856,  19,         15) /* Value */
+     , (5856,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5856, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (5856,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5856,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5856,   1, 'Specialty Cookbook') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5856,   1,   33554771) /* Setup */
+     , (5856,   3,  536870932) /* SoundTable */
+     , (5856,   8,  100668117) /* Icon */
+     , (5856,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5856, 13, 1000) /* Book Data */;
+VALUES (5856, 13, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5856, 0, 4294967295, '', 'prewritten', False, 'This book is dedicated to aspiring chefs who are tired of the basics.
@@ -97,4 +94,3 @@ Ice cream is a frozen novelty enjoyed by many.  It requires special ice and is n
      , (5856, 12, 4294967295, 'Pumpkin Soup and Pie', 'prewritten', False, 'FESTIVE PUMPKIN SOUP AND PIE
 The key to using pumpkin is to use a baking pan to cook it first.  Take the soft, cooked pumpkin and add milk to get a liquid pumpkin mixture; add honey to get sweetened pumpkin.  To this, add cinnamon and the result is spiced pumpkin.  At this stage, cooking in a cooking pot yields a rich, sweet pumpkin soup.  Or, add in eggs and then use your finest dough to create a delicious pumpkin pie.
 ');
-

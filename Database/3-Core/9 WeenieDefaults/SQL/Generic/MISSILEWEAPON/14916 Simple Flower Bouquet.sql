@@ -1,49 +1,45 @@
-/* Weenie - Simple Flower Bouquet (14916) */
-DELETE FROM weenie WHERE class_Id = 14916;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14916, 'bouquetsmall', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14916, 001 /* NAME_STRING */, 'Simple Flower Bouquet')
-     , (14916, 015 /* SHORT_DESC_STRING */, 'A small floral arrangement.')
-     , (14916, 016 /* LONG_DESC_STRING */, 'A small floral arrangement.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14916, 001 /* SETUP_DID */, 33557616)
-     , (14916, 003 /* SOUND_TABLE_DID */, 536871012)
-     , (14916, 008 /* ICON_DID */, 100672709)
-     , (14916, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (14916, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14916', 'bouquetsmall', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14916, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (14916, 005 /* ENCUMB_VAL_INT */, 15)
-     , (14916, 008 /* MASS_INT */, 60)
-     , (14916, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (14916, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14916, 019 /* VALUE_INT */, 500)
-     , (14916, 044 /* DAMAGE_INT */, 0)
-     , (14916, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (14916, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
-     , (14916, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (14916, 049 /* WEAPON_TIME_INT */, 10)
-     , (14916, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (14916, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (14916, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (14916, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14916, 021 /* WEAPON_LENGTH_FLOAT */, 0.34)
-     , (14916, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (14916, 027 /* ROTATION_SPEED_FLOAT */, 2)
-     , (14916, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (14916, 039 /* DEFAULT_SCALE_FLOAT */, 0.5)
-     , (14916, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (14916, 078 /* FRICTION_FLOAT */, 1)
-     , (14916, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (14916,   1,        256) /* ItemType - MissileWeapon */
+     , (14916,   5,         15) /* EncumbranceVal */
+     , (14916,   8,         60) /* Mass */
+     , (14916,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (14916,  16,          1) /* ItemUseable - No */
+     , (14916,  19,        500) /* Value */
+     , (14916,  44,          0) /* Damage */
+     , (14916,  45,          4) /* DamageType - Bludgeon */
+     , (14916,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (14916,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (14916,  49,         10) /* WeaponTime */
+     , (14916,  51,          2) /* CombatUse - Missle */
+     , (14916,  93,     132116) /* PhysicsState */
+     , (14916, 150,        103) /* HookPlacement - Hook */
+     , (14916, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14916, 017 /* INELASTIC_BOOL */, True)
-     , (14916, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (14916,  17, True ) /* Inelastic */
+     , (14916,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14916,  21,    0.34) /* WeaponLength */
+     , (14916,  22,     0.5) /* DamageVariance */
+     , (14916,  27,       2) /* RotationSpeed */
+     , (14916,  29,       1) /* WeaponDefense */
+     , (14916,  39,     0.5) /* DefaultScale */
+     , (14916,  62,       1) /* WeaponOffense */
+     , (14916,  78,       1) /* Friction */
+     , (14916,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14916,   1, 'Simple Flower Bouquet') /* Name */
+     , (14916,  15, 'A small floral arrangement.') /* ShortDesc */
+     , (14916,  16, 'A small floral arrangement.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14916,   1,   33557616) /* Setup */
+     , (14916,   3,  536871012) /* SoundTable */
+     , (14916,   8,  100672709) /* Icon */
+     , (14916,  22,  872415275) /* PhysicsEffectTable */
+     , (14916,  36,  234881046) /* MutateFilter */;

@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Greater Frore Ward (28297) */
-DELETE FROM weenie WHERE class_Id = 28297;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28297, 'scrollcoldprotectionfellowship6', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28297, 001 /* NAME_STRING */, 'Scroll of Greater Frore Ward')
-     , (28297, 015 /* SHORT_DESC_STRING */, 'When learned, this spell reduces damage all fellowship members take from Cold by 60%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28297, 001 /* SETUP_DID */, 33554826)
-     , (28297, 008 /* ICON_DID */, 100676950)
-     , (28297, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (28297, 028 /* SPELL_DID */, 3334 /* ColdProtectionFellowship6_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28297', 'scrollcoldprotectionfellowship6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28297, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (28297, 005 /* ENCUMB_VAL_INT */, 30)
-     , (28297, 008 /* MASS_INT */, 90)
-     , (28297, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28297, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (28297, 019 /* VALUE_INT */, 1000)
-     , (28297, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28297, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (28297,   1,       8192) /* ItemType - Writable */
+     , (28297,   5,         30) /* EncumbranceVal */
+     , (28297,   8,         90) /* Mass */
+     , (28297,   9,          0) /* ValidLocations - None */
+     , (28297,  16,          8) /* ItemUseable - Contained */
+     , (28297,  19,       1000) /* Value */
+     , (28297,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28297, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28297, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28297,  22, True ) /* Inscribable */
+     , (28297,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28297,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28297,   1, 'Scroll of Greater Frore Ward') /* Name */
+     , (28297,  15, 'When learned, this spell reduces damage all fellowship members take from Cold by 60%.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28297,   1,   33554826) /* Setup */
+     , (28297,   8,  100676950) /* Icon */
+     , (28297,  22,  872415275) /* PhysicsEffectTable */
+     , (28297,  28,       3334) /* Spell - Greater Frore Ward */;

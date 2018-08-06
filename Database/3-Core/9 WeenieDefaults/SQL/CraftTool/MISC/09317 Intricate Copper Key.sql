@@ -1,40 +1,36 @@
-/* Weenie - Intricate Copper Key (9317) */
-DELETE FROM weenie WHERE class_Id = 9317;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9317, 'keypyramidgreensmall', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9317, 001 /* NAME_STRING */, 'Intricate Copper Key')
-     , (9317, 016 /* LONG_DESC_STRING */, 'A key that can be used to unlock Small Mnemosynes.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9317, 001 /* SETUP_DID */, 33554784)
-     , (9317, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9317, 008 /* ICON_DID */, 100671431)
-     , (9317, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9317', 'keypyramidgreensmall', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9317, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9317, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9317, 008 /* MASS_INT */, 10)
-     , (9317, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9317, 011 /* MAX_STACK_SIZE_INT */, 50)
-     , (9317, 012 /* STACK_SIZE_INT */, 1)
-     , (9317, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (9317, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (9317, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (9317, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (9317, 019 /* VALUE_INT */, 0)
-     , (9317, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9317, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9317, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9317, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9317, 039 /* DEFAULT_SCALE_FLOAT */, 0.75);
+VALUES (9317,   1,        128) /* ItemType - Misc */
+     , (9317,   5,         10) /* EncumbranceVal */
+     , (9317,   8,         10) /* Mass */
+     , (9317,   9,          0) /* ValidLocations - None */
+     , (9317,  11,         50) /* MaxStackSize */
+     , (9317,  12,          1) /* StackSize */
+     , (9317,  13,         10) /* StackUnitEncumbrance */
+     , (9317,  14,         10) /* StackUnitMass */
+     , (9317,  15,          0) /* StackUnitValue */
+     , (9317,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (9317,  19,          0) /* Value */
+     , (9317,  93,       1044) /* PhysicsState */
+     , (9317,  94,        128) /* TargetType - Misc */
+     , (9317, 150,        103) /* HookPlacement - Hook */
+     , (9317, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9317, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (9317, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9317,  23, True ) /* DestroyOnSell */
+     , (9317,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9317,  39,    0.75) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9317,   1, 'Intricate Copper Key') /* Name */
+     , (9317,  16, 'A key that can be used to unlock Small Mnemosynes.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9317,   1,   33554784) /* Setup */
+     , (9317,   3,  536870932) /* SoundTable */
+     , (9317,   8,  100671431) /* Icon */
+     , (9317,  22,  872415275) /* PhysicsEffectTable */;

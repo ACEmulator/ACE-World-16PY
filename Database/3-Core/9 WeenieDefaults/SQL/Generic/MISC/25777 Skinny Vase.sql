@@ -1,30 +1,26 @@
-/* Weenie - Skinny Vase (25777) */
-DELETE FROM weenie WHERE class_Id = 25777;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25777, 'vase2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25777, 001 /* NAME_STRING */, 'Skinny Vase')
-     , (25777, 014 /* USE_STRING */, 'This item can be used on floor and yard hooks.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25777, 001 /* SETUP_DID */, 33558537)
-     , (25777, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25777, 008 /* ICON_DID */, 100675571)
-     , (25777, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25777', 'vase2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25777, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (25777, 005 /* ENCUMB_VAL_INT */, 100)
-     , (25777, 008 /* MASS_INT */, 100)
-     , (25777, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25777, 019 /* VALUE_INT */, 3000)
-     , (25777, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25777, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25777, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (25777,   1,        128) /* ItemType - Misc */
+     , (25777,   5,        100) /* EncumbranceVal */
+     , (25777,   8,        100) /* Mass */
+     , (25777,  16,          1) /* ItemUseable - No */
+     , (25777,  19,       3000) /* Value */
+     , (25777,  93,       1044) /* PhysicsState */
+     , (25777, 150,        103) /* HookPlacement - Hook */
+     , (25777, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25777, 013 /* ETHEREAL_BOOL */, True)
-     , (25777, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (25777,  13, True ) /* Ethereal */
+     , (25777,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25777,   1, 'Skinny Vase') /* Name */
+     , (25777,  14, 'This item can be used on floor and yard hooks.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25777,   1,   33558537) /* Setup */
+     , (25777,   3,  536870932) /* SoundTable */
+     , (25777,   8,  100675571) /* Icon */
+     , (25777,  22,  872415275) /* PhysicsEffectTable */;

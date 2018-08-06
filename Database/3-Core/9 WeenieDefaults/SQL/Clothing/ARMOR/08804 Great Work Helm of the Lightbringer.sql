@@ -1,53 +1,49 @@
-/* Weenie - Great Work Helm of the Lightbringer (8804) */
-DELETE FROM weenie WHERE class_Id = 8804;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8804, 'helmgreatwork', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8804, 001 /* NAME_STRING */, 'Great Work Helm of the Lightbringer')
-     , (8804, 015 /* SHORT_DESC_STRING */, 'A trophy from the banishment of Bael''Zharon.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8804, 001 /* SETUP_DID */, 33556941)
-     , (8804, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8804, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (8804, 007 /* CLOTHINGBASE_DID */, 268436105)
-     , (8804, 008 /* ICON_DID */, 100671290)
-     , (8804, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8804', 'helmgreatwork', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8804, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (8804, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
-     , (8804, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (8804, 005 /* ENCUMB_VAL_INT */, 200)
-     , (8804, 008 /* MASS_INT */, 200)
-     , (8804, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (8804, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8804, 019 /* VALUE_INT */, 0)
-     , (8804, 027 /* ARMOR_TYPE_INT */, 32)
-     , (8804, 028 /* ARMOR_LEVEL_INT */, 10)
-     , (8804, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8804, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8804, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (8804, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8804, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8804, 012 /* SHADE_FLOAT */, 0.66)
-     , (8804, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (8804, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (8804, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (8804, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0)
-     , (8804, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0)
-     , (8804, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (8804, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
-     , (8804, 110 /* BULK_MOD_FLOAT */, 1)
-     , (8804, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (8804,   1,          2) /* ItemType - Armor */
+     , (8804,   3,         83) /* PaletteTemplate - Amber */
+     , (8804,   4,      16384) /* ClothingPriority - Head */
+     , (8804,   5,        200) /* EncumbranceVal */
+     , (8804,   8,        200) /* Mass */
+     , (8804,   9,          1) /* ValidLocations - HeadWear */
+     , (8804,  16,          1) /* ItemUseable - No */
+     , (8804,  19,          0) /* Value */
+     , (8804,  27,         32) /* ArmorType */
+     , (8804,  28,         10) /* ArmorLevel */
+     , (8804,  33,          1) /* Bonded - Bonded */
+     , (8804,  93,       1044) /* PhysicsState */
+     , (8804, 114,          1) /* Attuned - Attuned */
+     , (8804, 150,        103) /* HookPlacement - Hook */
+     , (8804, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8804, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8804, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (8804, 069 /* IS_SELLABLE_BOOL */, False)
-     , (8804, 099 /* IVORYABLE_BOOL */, True);
+VALUES (8804,  22, True ) /* Inscribable */
+     , (8804,  23, True ) /* DestroyOnSell */
+     , (8804,  69, False) /* IsSellable */
+     , (8804,  99, True ) /* Ivoryable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8804,  12,    0.66) /* Shade */
+     , (8804,  13,     1.3) /* ArmorModVsSlash */
+     , (8804,  14,       1) /* ArmorModVsPierce */
+     , (8804,  15,       1) /* ArmorModVsBludgeon */
+     , (8804,  16,       0) /* ArmorModVsCold */
+     , (8804,  17,       0) /* ArmorModVsFire */
+     , (8804,  18,     0.6) /* ArmorModVsAcid */
+     , (8804,  19,       0) /* ArmorModVsElectric */
+     , (8804, 110,       1) /* BulkMod */
+     , (8804, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8804,   1, 'Great Work Helm of the Lightbringer') /* Name */
+     , (8804,  15, 'A trophy from the banishment of Bael''Zharon.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8804,   1,   33556941) /* Setup */
+     , (8804,   3,  536870932) /* SoundTable */
+     , (8804,   6,   67108990) /* PaletteBase */
+     , (8804,   7,  268436105) /* ClothingBase */
+     , (8804,   8,  100671290) /* Icon */
+     , (8804,  22,  872415275) /* PhysicsEffectTable */;

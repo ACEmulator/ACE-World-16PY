@@ -1,36 +1,33 @@
-/* Weenie - Faded Parchment Scrap (5742) */
-DELETE FROM weenie WHERE class_Id = 5742;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5742, 'fireprophecy10', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5742, 001 /* NAME_STRING */, 'Faded Parchment Scrap');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5742, 001 /* SETUP_DID */, 33554773)
-     , (5742, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5742, 008 /* ICON_DID */, 100668176)
-     , (5742, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5742', 'fireprophecy10', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5742, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (5742, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5742, 008 /* MASS_INT */, 5)
-     , (5742, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5742, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5742, 019 /* VALUE_INT */, 10)
-     , (5742, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5742, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (5742,   1,       8192) /* ItemType - Writable */
+     , (5742,   5,         25) /* EncumbranceVal */
+     , (5742,   8,          5) /* Mass */
+     , (5742,   9,          0) /* ValidLocations - None */
+     , (5742,  16,          8) /* ItemUseable - Contained */
+     , (5742,  19,         10) /* Value */
+     , (5742,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5742, 022 /* INSCRIBABLE_BOOL */, False)
-     , (5742, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (5742,  22, False) /* Inscribable */
+     , (5742,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5742,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5742,   1, 'Faded Parchment Scrap') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5742,   1,   33554773) /* Setup */
+     , (5742,   3,  536870932) /* SoundTable */
+     , (5742,   8,  100668176) /* Icon */
+     , (5742,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (5742, 1, 1000) /* Book Data */;
+VALUES (5742, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (5742, 0, 4294967295, '', 'prewritten', False, '
@@ -39,4 +36,3 @@ VALUES (5742, 0, 4294967295, '', 'prewritten', False, '
                                     fully
 
 ');
-

@@ -1,38 +1,34 @@
-/* Weenie - Embroidered Bag (29870) */
-DELETE FROM weenie WHERE class_Id = 29870;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29870, 'bagsiraluunlittoral3', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29870, 001 /* NAME_STRING */, 'Embroidered Bag')
-     , (29870, 014 /* USE_STRING */, 'Use this on a small bundle of Littoral Siraluun feathers.')
-     , (29870, 015 /* SHORT_DESC_STRING */, 'A beautifully embroidered bag nearly filled with three bundles of Littoral Siraluun feathers.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29870, 001 /* SETUP_DID */, 33554769)
-     , (29870, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29870, 008 /* ICON_DID */, 100671838)
-     , (29870, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29870', 'bagsiraluunlittoral3', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29870, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29870, 005 /* ENCUMB_VAL_INT */, 100)
-     , (29870, 008 /* MASS_INT */, 10)
-     , (29870, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29870, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (29870, 012 /* STACK_SIZE_INT */, 1)
-     , (29870, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (29870, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (29870, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (29870, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (29870, 019 /* VALUE_INT */, 0)
-     , (29870, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (29870, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29870, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29870, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (29870,   1,        128) /* ItemType - Misc */
+     , (29870,   5,        100) /* EncumbranceVal */
+     , (29870,   8,         10) /* Mass */
+     , (29870,   9,          0) /* ValidLocations - None */
+     , (29870,  11,          1) /* MaxStackSize */
+     , (29870,  12,          1) /* StackSize */
+     , (29870,  13,        100) /* StackUnitEncumbrance */
+     , (29870,  14,         10) /* StackUnitMass */
+     , (29870,  15,          0) /* StackUnitValue */
+     , (29870,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (29870,  19,          0) /* Value */
+     , (29870,  33,          1) /* Bonded - Bonded */
+     , (29870,  93,       1044) /* PhysicsState */
+     , (29870,  94,        128) /* TargetType - Misc */
+     , (29870, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29870, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29870, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (29870,  22, True ) /* Inscribable */
+     , (29870,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29870,   1, 'Embroidered Bag') /* Name */
+     , (29870,  14, 'Use this on a small bundle of Littoral Siraluun feathers.') /* Use */
+     , (29870,  15, 'A beautifully embroidered bag nearly filled with three bundles of Littoral Siraluun feathers.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29870,   1,   33554769) /* Setup */
+     , (29870,   3,  536870932) /* SoundTable */
+     , (29870,   8,  100671838) /* Icon */
+     , (29870,  22,  872415275) /* PhysicsEffectTable */;

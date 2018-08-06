@@ -1,41 +1,37 @@
-/* Weenie - Silver Fish (23251) */
-DELETE FROM weenie WHERE class_Id = 23251;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23251, 'fishsilver', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23251, 001 /* NAME_STRING */, 'Silver Fish')
-     , (23251, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (23251, 020 /* PLURAL_NAME_STRING */, 'Silver Fish');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23251, 001 /* SETUP_DID */, 33554674)
-     , (23251, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23251, 006 /* PALETTE_BASE_DID */, 67114188)
-     , (23251, 007 /* CLOTHINGBASE_DID */, 268436572)
-     , (23251, 008 /* ICON_DID */, 100674182)
-     , (23251, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23251', 'fishsilver', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23251, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (23251, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (23251, 005 /* ENCUMB_VAL_INT */, 50)
-     , (23251, 008 /* MASS_INT */, 50)
-     , (23251, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23251, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (23251, 012 /* STACK_SIZE_INT */, 1)
-     , (23251, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (23251, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (23251, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (23251, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23251, 019 /* VALUE_INT */, 0)
-     , (23251, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (23251, 090 /* BOOST_VALUE_INT */, 16)
-     , (23251, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23251, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23251, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (23251,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (23251,   3,         20) /* PaletteTemplate - Silver */
+     , (23251,   5,         50) /* EncumbranceVal */
+     , (23251,   8,         50) /* Mass */
+     , (23251,   9,          0) /* ValidLocations - None */
+     , (23251,  11,        100) /* MaxStackSize */
+     , (23251,  12,          1) /* StackSize */
+     , (23251,  13,         50) /* StackUnitEncumbrance */
+     , (23251,  14,         50) /* StackUnitMass */
+     , (23251,  15,          0) /* StackUnitValue */
+     , (23251,  16,          8) /* ItemUseable - Contained */
+     , (23251,  19,          0) /* Value */
+     , (23251,  89,          4) /* BoosterEnum - Stamina */
+     , (23251,  90,         16) /* BoostValue */
+     , (23251,  93,       1044) /* PhysicsState */
+     , (23251, 150,        103) /* HookPlacement - Hook */
+     , (23251, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23251, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
+VALUES (23251,  84, True ) /* IgnoreCloIcons */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23251,   1, 'Silver Fish') /* Name */
+     , (23251,  14, 'Use this item to eat it.') /* Use */
+     , (23251,  20, 'Silver Fish') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23251,   1,   33554674) /* Setup */
+     , (23251,   3,  536870932) /* SoundTable */
+     , (23251,   6,   67114188) /* PaletteBase */
+     , (23251,   7,  268436572) /* ClothingBase */
+     , (23251,   8,  100674182) /* Icon */
+     , (23251,  22,  872415275) /* PhysicsEffectTable */;

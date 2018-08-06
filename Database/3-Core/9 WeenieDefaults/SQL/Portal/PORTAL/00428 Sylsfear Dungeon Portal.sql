@@ -1,35 +1,31 @@
-/* Weenie - Sylsfear Dungeon Portal (428) */
-DELETE FROM weenie WHERE class_Id = 428;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (428, 'portalsylsfeardungeon', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (428, 001 /* NAME_STRING */, 'Sylsfear Dungeon Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (428, 001 /* SETUP_DID */, 33555923)
-     , (428, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (428, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('428', 'portalsylsfeardungeon', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (428, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (428, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (428, 086 /* MIN_LEVEL_INT */, 10)
-     , (428, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (428, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (428, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (428, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (428,   1,      65536) /* ItemType - Portal */
+     , (428,  16,         32) /* ItemUseable - Remote */
+     , (428,  86,         10) /* MinLevel */
+     , (428,  93,       3084) /* PhysicsState */
+     , (428, 111,          1) /* PortalBitmask - Unrestricted */
+     , (428, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (428, 001 /* STUCK_BOOL */, True)
-     , (428, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (428, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (428, 013 /* ETHEREAL_BOOL */, True)
-     , (428, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (428,   1, True ) /* Stuck */
+     , (428,  11, False) /* IgnoreCollisions */
+     , (428,  12, True ) /* ReportCollisions */
+     , (428,  13, True ) /* Ethereal */
+     , (428,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (428,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (428,   1, 'Sylsfear Dungeon Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (428,   1,   33555923) /* Setup */
+     , (428,   2,  150994947) /* MotionTable */
+     , (428,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (428, 2, 30868087, 59.8, -136.9, 0, -0.4663864, 0, 0, -0.8845811) /* DESTINATION_POSITION */;
-
+VALUES (428, 2, 30868087, 59.8, -136.9, 0, -0.4663864, 0, 0, -0.8845811) /* Destination */;

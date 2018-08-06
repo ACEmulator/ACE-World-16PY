@@ -1,53 +1,49 @@
-/* Weenie - Silifi of Crimson Stars (23003) */
-DELETE FROM weenie WHERE class_Id = 23003;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23003, 'silificrimsonstarsxxxisland', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23003, 001 /* NAME_STRING */, 'Silifi of Crimson Stars')
-     , (23003, 016 /* LONG_DESC_STRING */, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Island Armoredillo. There are three notches on the haft.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23003, 001 /* SETUP_DID */, 33556553)
-     , (23003, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23003, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23003, 007 /* CLOTHINGBASE_DID */, 268435986)
-     , (23003, 008 /* ICON_DID */, 100670611)
-     , (23003, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23003', 'silificrimsonstarsxxxisland', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23003, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (23003, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (23003, 005 /* ENCUMB_VAL_INT */, 950)
-     , (23003, 008 /* MASS_INT */, 360)
-     , (23003, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (23003, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23003, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (23003, 019 /* VALUE_INT */, 2500)
-     , (23003, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23003, 044 /* DAMAGE_INT */, 28)
-     , (23003, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (23003, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (23003, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (23003, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (23003, 049 /* WEAPON_TIME_INT */, 70)
-     , (23003, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (23003, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23003, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (23003, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (23003, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (23003, 160 /* WIELD_DIFFICULTY_INT */, 250);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23003, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (23003, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (23003, 029 /* WEAPON_DEFENSE_FLOAT */, 1.1)
-     , (23003, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (23003, 062 /* WEAPON_OFFENSE_FLOAT */, 1.1);
+VALUES (23003,   1,          1) /* ItemType - MeleeWeapon */
+     , (23003,   3,         14) /* PaletteTemplate - Red */
+     , (23003,   5,        950) /* EncumbranceVal */
+     , (23003,   8,        360) /* Mass */
+     , (23003,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (23003,  16,          1) /* ItemUseable - No */
+     , (23003,  18,          1) /* UiEffects - Magical */
+     , (23003,  19,       2500) /* Value */
+     , (23003,  33,          1) /* Bonded - Bonded */
+     , (23003,  44,         28) /* Damage */
+     , (23003,  45,         64) /* DamageType - Electric */
+     , (23003,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (23003,  47,          4) /* AttackType - Slash */
+     , (23003,  48,          1) /* WeaponSkill - Axe */
+     , (23003,  49,         70) /* WeaponTime */
+     , (23003,  51,          1) /* CombatUse - Melee */
+     , (23003,  93,       1044) /* PhysicsState */
+     , (23003, 114,          1) /* Attuned - Attuned */
+     , (23003, 158,          2) /* WieldRequirements - RawSkill */
+     , (23003, 159,          1) /* WieldSkilltype - Axe */
+     , (23003, 160,        250) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23003, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23003, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (23003, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (23003,  22, True ) /* Inscribable */
+     , (23003,  23, True ) /* DestroyOnSell */
+     , (23003,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23003,  21,    0.95) /* WeaponLength */
+     , (23003,  22,     0.5) /* DamageVariance */
+     , (23003,  29,     1.1) /* WeaponDefense */
+     , (23003,  39,    1.25) /* DefaultScale */
+     , (23003,  62,     1.1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23003,   1, 'Silifi of Crimson Stars') /* Name */
+     , (23003,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Island Armoredillo. There are three notches on the haft.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23003,   1,   33556553) /* Setup */
+     , (23003,   3,  536870932) /* SoundTable */
+     , (23003,   6,   67111919) /* PaletteBase */
+     , (23003,   7,  268435986) /* ClothingBase */
+     , (23003,   8,  100670611) /* Icon */
+     , (23003,  22,  872415275) /* PhysicsEffectTable */;

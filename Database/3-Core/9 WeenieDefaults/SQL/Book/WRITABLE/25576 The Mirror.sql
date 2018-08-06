@@ -1,36 +1,33 @@
-/* Weenie - The Mirror (25576) */
-DELETE FROM weenie WHERE class_Id = 25576;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25576, 'shardwritingvod1translated', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25576, 001 /* NAME_STRING */, 'The Mirror');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25576, 001 /* SETUP_DID */, 33554771)
-     , (25576, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25576, 008 /* ICON_DID */, 100668117)
-     , (25576, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25576', 'shardwritingvod1translated', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25576, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (25576, 005 /* ENCUMB_VAL_INT */, 50)
-     , (25576, 008 /* MASS_INT */, 200)
-     , (25576, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25576, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (25576, 019 /* VALUE_INT */, 0)
-     , (25576, 037 /* RESIST_ITEM_APPRAISAL_INT */, 50)
-     , (25576, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25576, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (25576,   1,       8192) /* ItemType - Writable */
+     , (25576,   5,         50) /* EncumbranceVal */
+     , (25576,   8,        200) /* Mass */
+     , (25576,   9,          0) /* ValidLocations - None */
+     , (25576,  16,          8) /* ItemUseable - Contained */
+     , (25576,  19,          0) /* Value */
+     , (25576,  37,         50) /* ResistItemAppraisal */
+     , (25576,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25576, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (25576,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25576,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25576,   1, 'The Mirror') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25576,   1,   33554771) /* Setup */
+     , (25576,   3,  536870932) /* SoundTable */
+     , (25576,   8,  100668117) /* Icon */
+     , (25576,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (25576, 7, 1000) /* Book Data */;
+VALUES (25576, 7, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (25576, 0, 4294967295, 'Translated by Diyas al-Yat', 'prewritten', False, 'Our discussion today was pleasant. The mirror provides me with a unique perspective with regards to my accomplishments. There is no judgment. Our talents are unique and  provide an equilibrium I find unmatched. 
@@ -61,4 +58,3 @@ Though the debate over the successful alterations continues, we both agree that 
 ')
      , (25576, 6, 4294967295, 'Translated by Diyas al-Yat', 'prewritten', False, 'Today we reached an accord to continue study on only successful subjects until an answer to this conundrum can be established.
 ');
-

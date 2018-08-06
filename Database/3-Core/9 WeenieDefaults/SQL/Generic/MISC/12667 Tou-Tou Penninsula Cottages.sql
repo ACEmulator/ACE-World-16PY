@@ -1,28 +1,24 @@
-/* Weenie - Tou-Tou Penninsula Cottages (12667) */
-DELETE FROM weenie WHERE class_Id = 12667;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12667, 'toutoupenninsulacottagessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12667, 001 /* NAME_STRING */, 'Tou-Tou Penninsula Cottages')
-     , (12667, 016 /* LONG_DESC_STRING */, 'Welcome to Tou-Tou Penninsula Cottages');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12667, 001 /* SETUP_DID */, 33557463)
-     , (12667, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12667', 'toutoupenninsulacottagessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12667, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (12667, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (12667, 008 /* MASS_INT */, 1800)
-     , (12667, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12667, 019 /* VALUE_INT */, 125)
-     , (12667, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (12667,   1,        128) /* ItemType - Misc */
+     , (12667,   5,       9000) /* EncumbranceVal */
+     , (12667,   8,       1800) /* Mass */
+     , (12667,  16,          1) /* ItemUseable - No */
+     , (12667,  19,        125) /* Value */
+     , (12667,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12667, 001 /* STUCK_BOOL */, True)
-     , (12667, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12667, 013 /* ETHEREAL_BOOL */, False)
-     , (12667, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (12667,   1, True ) /* Stuck */
+     , (12667,  12, True ) /* ReportCollisions */
+     , (12667,  13, False) /* Ethereal */
+     , (12667,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12667,   1, 'Tou-Tou Penninsula Cottages') /* Name */
+     , (12667,  16, 'Welcome to Tou-Tou Penninsula Cottages') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12667,   1,   33557463) /* Setup */
+     , (12667,   8,  100668115) /* Icon */;

@@ -1,34 +1,30 @@
-/* Weenie - Siege Road Villas Portal (14282) */
-DELETE FROM weenie WHERE class_Id = 14282;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14282, 'portalsiegeroadvillas', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14282, 001 /* NAME_STRING */, 'Siege Road Villas Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14282, 001 /* SETUP_DID */, 33554867)
-     , (14282, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (14282, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14282', 'portalsiegeroadvillas', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14282, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (14282, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (14282, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (14282, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (14282, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14282, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (14282,   1,      65536) /* ItemType - Portal */
+     , (14282,  16,         32) /* ItemUseable - Remote */
+     , (14282,  93,       3084) /* PhysicsState */
+     , (14282, 111,          1) /* PortalBitmask - Unrestricted */
+     , (14282, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14282, 001 /* STUCK_BOOL */, True)
-     , (14282, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14282, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14282, 013 /* ETHEREAL_BOOL */, True)
-     , (14282, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (14282,   1, True ) /* Stuck */
+     , (14282,  11, False) /* IgnoreCollisions */
+     , (14282,  12, True ) /* ReportCollisions */
+     , (14282,  13, True ) /* Ethereal */
+     , (14282,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14282,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14282,   1, 'Siege Road Villas Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14282,   1,   33554867) /* Setup */
+     , (14282,   2,  150994947) /* MotionTable */
+     , (14282,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14282, 2, 3515023394, 100.52, 40.533, 24.627, -0.9428714, 0, 0, -0.3331569) /* DESTINATION_POSITION */;
-
+VALUES (14282, 2, 3515023394, 100.52, 40.533, 24.627, -0.9428714, 0, 0, -0.3331569) /* Destination */;

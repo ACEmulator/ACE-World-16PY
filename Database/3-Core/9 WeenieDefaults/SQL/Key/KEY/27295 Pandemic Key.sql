@@ -1,34 +1,30 @@
-/* Weenie - Pandemic Key (27295) */
-DELETE FROM weenie WHERE class_Id = 27295;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27295, 'keyshadowchildpandemic', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27295, 001 /* NAME_STRING */, 'Pandemic Key')
-     , (27295, 013 /* KEY_CODE_STRING */, 'PandemicChildKey')
-     , (27295, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (27295, 015 /* SHORT_DESC_STRING */, 'This key appears to be used to open a door in the Orphanage.')
-     , (27295, 016 /* LONG_DESC_STRING */, 'This key appears to be used to open a door in the Orphanage.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27295, 001 /* SETUP_DID */, 33554784)
-     , (27295, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27295, 008 /* ICON_DID */, 100675676)
-     , (27295, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27295', 'keyshadowchildpandemic', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27295, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (27295, 005 /* ENCUMB_VAL_INT */, 100)
-     , (27295, 008 /* MASS_INT */, 20)
-     , (27295, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (27295, 019 /* VALUE_INT */, 0)
-     , (27295, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (27295, 092 /* STRUCTURE_INT */, 1)
-     , (27295, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27295, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (27295,   1,      16384) /* ItemType - Key */
+     , (27295,   5,        100) /* EncumbranceVal */
+     , (27295,   8,         20) /* Mass */
+     , (27295,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (27295,  19,          0) /* Value */
+     , (27295,  91,          1) /* MaxStructure */
+     , (27295,  92,          1) /* Structure */
+     , (27295,  93,       1044) /* PhysicsState */
+     , (27295,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27295, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27295, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27295,  22, True ) /* Inscribable */
+     , (27295,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27295,   1, 'Pandemic Key') /* Name */
+     , (27295,  13, 'PandemicChildKey') /* KeyCode */
+     , (27295,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (27295,  15, 'This key appears to be used to open a door in the Orphanage.') /* ShortDesc */
+     , (27295,  16, 'This key appears to be used to open a door in the Orphanage.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27295,   1,   33554784) /* Setup */
+     , (27295,   3,  536870932) /* SoundTable */
+     , (27295,   8,  100675676) /* Icon */
+     , (27295,  22,  872415275) /* PhysicsEffectTable */;

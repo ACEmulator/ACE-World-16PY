@@ -1,64 +1,60 @@
-/* Weenie - Superior Atlan Dagger of Black Fire (7455) */
-DELETE FROM weenie WHERE class_Id = 7455;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7455, 'daggerbetterblackfire', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7455, 001 /* NAME_STRING */, 'Superior Atlan Dagger of Black Fire');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7455, 001 /* SETUP_DID */, 33557392)
-     , (7455, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7455, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7455, 007 /* CLOTHINGBASE_DID */, 268435888)
-     , (7455, 008 /* ICON_DID */, 100670523)
-     , (7455, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (7455, 037 /* ITEM_SKILL_LIMIT_DID */, 4);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7455', 'daggerbetterblackfire', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7455, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (7455, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (7455, 005 /* ENCUMB_VAL_INT */, 135)
-     , (7455, 008 /* MASS_INT */, 135)
-     , (7455, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (7455, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (7455, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (7455, 019 /* VALUE_INT */, 4000)
-     , (7455, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (7455, 044 /* DAMAGE_INT */, 24)
-     , (7455, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (7455, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (7455, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (7455, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (7455, 049 /* WEAPON_TIME_INT */, 15)
-     , (7455, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (7455, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7455, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (7455, 107 /* ITEM_CUR_MANA_INT */, 750)
-     , (7455, 108 /* ITEM_MAX_MANA_INT */, 750)
-     , (7455, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (7455, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 225);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7455, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (7455, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (7455, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.45)
-     , (7455, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
-     , (7455, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (7455, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05);
+VALUES (7455,   1,          1) /* ItemType - MeleeWeapon */
+     , (7455,   3,         39) /* PaletteTemplate - Black */
+     , (7455,   5,        135) /* EncumbranceVal */
+     , (7455,   8,        135) /* Mass */
+     , (7455,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (7455,  16,          1) /* ItemUseable - No */
+     , (7455,  18,          1) /* UiEffects - Magical */
+     , (7455,  19,       4000) /* Value */
+     , (7455,  33,          1) /* Bonded - Bonded */
+     , (7455,  44,         24) /* Damage */
+     , (7455,  45,          3) /* DamageType */
+     , (7455,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (7455,  47,          6) /* AttackType */
+     , (7455,  48,          4) /* WeaponSkill - Dagger */
+     , (7455,  49,         15) /* WeaponTime */
+     , (7455,  51,          1) /* CombatUse - Melee */
+     , (7455,  93,       1044) /* PhysicsState */
+     , (7455, 106,        200) /* ItemSpellcraft */
+     , (7455, 107,        750) /* ItemCurMana */
+     , (7455, 108,        750) /* ItemMaxMana */
+     , (7455, 114,          1) /* Attuned - Attuned */
+     , (7455, 115,        225) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7455, 022 /* INSCRIBABLE_BOOL */, True)
-     , (7455, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (7455, 069 /* IS_SELLABLE_BOOL */, False)
-     , (7455, 099 /* IVORYABLE_BOOL */, True);
+VALUES (7455,  22, True ) /* Inscribable */
+     , (7455,  23, True ) /* DestroyOnSell */
+     , (7455,  69, False) /* IsSellable */
+     , (7455,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7455,   5,  -0.033) /* ManaRate */
+     , (7455,  21,     0.4) /* WeaponLength */
+     , (7455,  22,    0.45) /* DamageVariance */
+     , (7455,  29,    1.05) /* WeaponDefense */
+     , (7455,  39,       1) /* DefaultScale */
+     , (7455,  62,    1.05) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7455,   1, 'Superior Atlan Dagger of Black Fire') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7455,   1,   33557392) /* Setup */
+     , (7455,   3,  536870932) /* SoundTable */
+     , (7455,   6,   67111919) /* PaletteBase */
+     , (7455,   7,  268435888) /* ClothingBase */
+     , (7455,   8,  100670523) /* Icon */
+     , (7455,  22,  872415275) /* PhysicsEffectTable */
+     , (7455,  37,          4) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7455, 1846, 2) /* MagicYieldBlackFire_SpellID */
-     , (7455, 1605, 2) /* Defender6_SpellID */
-     , (7455, 327, 2) /* DaggerMasterySelf6_SpellID */
-     , (7455, 1592, 2) /* HeartSeeker6_SpellID */
-     , (7455, 1616, 2) /* BloodDrinker6_SpellID */
-     , (7455, 1627, 2) /* SwiftKiller6_SpellID */;
-
+VALUES (7455,   327,      2)  /* Finesse Weapon Mastery Self VI */
+     , (7455,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (7455,  1605,      2)  /* Aura of Defender Self VI */
+     , (7455,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (7455,  1627,      2)  /* Aura of Swift Killer Self VI */
+     , (7455,  1846,      2)  /* Curse of Black Fire */;

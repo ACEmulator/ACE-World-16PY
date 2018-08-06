@@ -1,48 +1,44 @@
-/* Weenie - Dispel Potion (7556) */
-DELETE FROM weenie WHERE class_Id = 7556;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7556, 'potiondispel1', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7556, 001 /* NAME_STRING */, 'Dispel Potion')
-     , (7556, 015 /* SHORT_DESC_STRING */, 'A dispel potion.')
-     , (7556, 016 /* LONG_DESC_STRING */, 'A potion capable of dispelling negative enchantments of level 4 or lower.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7556, 001 /* SETUP_DID */, 33554603)
-     , (7556, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7556, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (7556, 007 /* CLOTHINGBASE_DID */, 268435996)
-     , (7556, 008 /* ICON_DID */, 100670741)
-     , (7556, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (7556, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */)
-     , (7556, 027 /* USE_USER_ANIMATION_DID */, 318767233 /* Motion_MimeEat */)
-     , (7556, 028 /* SPELL_DID */, 1867 /* DispelAllBadOther4_SpellID */)
-     , (7556, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7556', 'potiondispel1', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7556, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (7556, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (7556, 005 /* ENCUMB_VAL_INT */, 50)
-     , (7556, 008 /* MASS_INT */, 25)
-     , (7556, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7556, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (7556, 012 /* STACK_SIZE_INT */, 1)
-     , (7556, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (7556, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (7556, 015 /* STACK_UNIT_VALUE_INT */, 150)
-     , (7556, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (7556, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (7556, 019 /* VALUE_INT */, 150)
-     , (7556, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7556, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (7556, 106 /* ITEM_SPELLCRAFT_INT */, 50)
-     , (7556, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (7556, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (7556, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (7556, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (7556,   1,         32) /* ItemType - Food */
+     , (7556,   3,          2) /* PaletteTemplate - Blue */
+     , (7556,   5,         50) /* EncumbranceVal */
+     , (7556,   8,         25) /* Mass */
+     , (7556,   9,          0) /* ValidLocations - None */
+     , (7556,  11,         25) /* MaxStackSize */
+     , (7556,  12,          1) /* StackSize */
+     , (7556,  13,         50) /* StackUnitEncumbrance */
+     , (7556,  14,         25) /* StackUnitMass */
+     , (7556,  15,        150) /* StackUnitValue */
+     , (7556,  16,          8) /* ItemUseable - Contained */
+     , (7556,  18,          1) /* UiEffects - Magical */
+     , (7556,  19,        150) /* Value */
+     , (7556,  93,       1044) /* PhysicsState */
+     , (7556,  94,         16) /* TargetType - Creature */
+     , (7556, 106,         50) /* ItemSpellcraft */
+     , (7556, 107,         50) /* ItemCurMana */
+     , (7556, 108,         50) /* ItemMaxMana */
+     , (7556, 109,          0) /* ItemDifficulty */
+     , (7556, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7556, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (7556,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7556,   1, 'Dispel Potion') /* Name */
+     , (7556,  15, 'A dispel potion.') /* ShortDesc */
+     , (7556,  16, 'A potion capable of dispelling negative enchantments of level 4 or lower.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7556,   1,   33554603) /* Setup */
+     , (7556,   3,  536870932) /* SoundTable */
+     , (7556,   6,   67111919) /* PaletteBase */
+     , (7556,   7,  268435996) /* ClothingBase */
+     , (7556,   8,  100670741) /* Icon */
+     , (7556,  22,  872415275) /* PhysicsEffectTable */
+     , (7556,  23,         65) /* UseSound - Drink1 */
+     , (7556,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (7556,  28,       1867) /* Spell - Devour All Magic Other */
+     , (7556,  36,  234881046) /* MutateFilter */;

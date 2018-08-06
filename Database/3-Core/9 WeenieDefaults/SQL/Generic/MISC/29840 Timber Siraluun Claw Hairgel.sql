@@ -1,36 +1,32 @@
-/* Weenie - Timber Siraluun Claw Hairgel (29840) */
-DELETE FROM weenie WHERE class_Id = 29840;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29840, 'siraluunclawhairgeltimber', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29840, 001 /* NAME_STRING */, 'Timber Siraluun Claw Hairgel')
-     , (29840, 016 /* LONG_DESC_STRING */, 'Hair Gel made from the claw of a Timber Siraluun.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29840, 001 /* SETUP_DID */, 33554817)
-     , (29840, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (29840, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (29840, 008 /* ICON_DID */, 100677302);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29840', 'siraluunclawhairgeltimber', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29840, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (29840, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (29840, 005 /* ENCUMB_VAL_INT */, 10)
-     , (29840, 008 /* MASS_INT */, 10)
-     , (29840, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29840, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29840, 019 /* VALUE_INT */, 0)
-     , (29840, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (29840, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29840, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29840, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
+VALUES (29840,   1,        128) /* ItemType - Misc */
+     , (29840,   3,          4) /* PaletteTemplate - Brown */
+     , (29840,   5,         10) /* EncumbranceVal */
+     , (29840,   8,         10) /* Mass */
+     , (29840,   9,          0) /* ValidLocations - None */
+     , (29840,  16,          1) /* ItemUseable - No */
+     , (29840,  19,          0) /* Value */
+     , (29840,  33,          1) /* Bonded - Bonded */
+     , (29840,  93,       1044) /* PhysicsState */
+     , (29840, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29840, 022 /* INSCRIBABLE_BOOL */, True)
-     , (29840, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (29840, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (29840,  22, True ) /* Inscribable */
+     , (29840,  23, True ) /* DestroyOnSell */
+     , (29840,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29840,  39,     0.4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29840,   1, 'Timber Siraluun Claw Hairgel') /* Name */
+     , (29840,  16, 'Hair Gel made from the claw of a Timber Siraluun.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29840,   1,   33554817) /* Setup */
+     , (29840,   6,   67111919) /* PaletteBase */
+     , (29840,   7,  268435832) /* ClothingBase */
+     , (29840,   8,  100677302) /* Icon */;

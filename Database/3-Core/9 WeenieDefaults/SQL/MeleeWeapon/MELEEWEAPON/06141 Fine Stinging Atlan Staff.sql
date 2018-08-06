@@ -1,64 +1,60 @@
-/* Weenie - Fine Stinging Atlan Staff (6141) */
-DELETE FROM weenie WHERE class_Id = 6141;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6141, 'staffgoodstingingmajor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6141, 001 /* NAME_STRING */, 'Fine Stinging Atlan Staff');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6141, 001 /* SETUP_DID */, 33556371)
-     , (6141, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6141, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6141, 007 /* CLOTHINGBASE_DID */, 268435950)
-     , (6141, 008 /* ICON_DID */, 100670564)
-     , (6141, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6141, 037 /* ITEM_SKILL_LIMIT_DID */, 10);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6141', 'staffgoodstingingmajor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6141, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6141, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (6141, 005 /* ENCUMB_VAL_INT */, 450)
-     , (6141, 008 /* MASS_INT */, 550)
-     , (6141, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6141, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6141, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6141, 019 /* VALUE_INT */, 3000)
-     , (6141, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6141, 044 /* DAMAGE_INT */, 12)
-     , (6141, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (6141, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6141, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (6141, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (6141, 049 /* WEAPON_TIME_INT */, 20)
-     , (6141, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6141, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6141, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (6141, 107 /* ITEM_CUR_MANA_INT */, 750)
-     , (6141, 108 /* ITEM_MAX_MANA_INT */, 750)
-     , (6141, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 225)
-     , (6141, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6141, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6141, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (6141, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (6141, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (6141, 029 /* WEAPON_DEFENSE_FLOAT */, 1.03)
-     , (6141, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6141, 062 /* WEAPON_OFFENSE_FLOAT */, 1.03);
+VALUES (6141,   1,          1) /* ItemType - MeleeWeapon */
+     , (6141,   3,          8) /* PaletteTemplate - Green */
+     , (6141,   5,        450) /* EncumbranceVal */
+     , (6141,   8,        550) /* Mass */
+     , (6141,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6141,  16,          1) /* ItemUseable - No */
+     , (6141,  18,          1) /* UiEffects - Magical */
+     , (6141,  19,       3000) /* Value */
+     , (6141,  33,          1) /* Bonded - Bonded */
+     , (6141,  44,         12) /* Damage */
+     , (6141,  45,         32) /* DamageType - Acid */
+     , (6141,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6141,  47,          6) /* AttackType */
+     , (6141,  48,         10) /* WeaponSkill - Staff */
+     , (6141,  49,         20) /* WeaponTime */
+     , (6141,  51,          1) /* CombatUse - Melee */
+     , (6141,  93,       1044) /* PhysicsState */
+     , (6141, 106,        200) /* ItemSpellcraft */
+     , (6141, 107,        750) /* ItemCurMana */
+     , (6141, 108,        750) /* ItemMaxMana */
+     , (6141, 115,        225) /* ItemSkillLevelLimit */
+     , (6141, 150,        103) /* HookPlacement - Hook */
+     , (6141, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6141, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6141, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6141, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6141,  22, True ) /* Inscribable */
+     , (6141,  23, True ) /* DestroyOnSell */
+     , (6141,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6141,   5,  -0.033) /* ManaRate */
+     , (6141,  21,    1.33) /* WeaponLength */
+     , (6141,  22,    0.25) /* DamageVariance */
+     , (6141,  29,    1.03) /* WeaponDefense */
+     , (6141,  39,       1) /* DefaultScale */
+     , (6141,  62,    1.03) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6141,   1, 'Fine Stinging Atlan Staff') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6141,   1,   33556371) /* Setup */
+     , (6141,   3,  536870932) /* SoundTable */
+     , (6141,   6,   67111919) /* PaletteBase */
+     , (6141,   7,  268435950) /* ClothingBase */
+     , (6141,   8,  100670564) /* Icon */
+     , (6141,  22,  872415275) /* PhysicsEffectTable */
+     , (6141,  37,         10) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6141, 1603, 2) /* Defender4_SpellID */
-     , (6141, 518, 2) /* AcidProtectionSelf4_SpellID */
-     , (6141, 1590, 2) /* HeartSeeker4_SpellID */
-     , (6141, 1614, 2) /* BloodDrinker4_SpellID */
-     , (6141, 1376, 2) /* CoordinationSelf4_SpellID */
-     , (6141, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (6141,   518,      2)  /* Acid Protection Self IV */
+     , (6141,  1376,      2)  /* Coordination Self IV */
+     , (6141,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (6141,  1603,      2)  /* Aura of Defender Self IV */
+     , (6141,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (6141,  1625,      2)  /* Aura of Swift Killer Self IV */;

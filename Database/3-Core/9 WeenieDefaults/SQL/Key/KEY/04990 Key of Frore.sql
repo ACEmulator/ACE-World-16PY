@@ -1,33 +1,29 @@
-/* Weenie - Key of Frore (4990) */
-DELETE FROM weenie WHERE class_Id = 4990;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4990, 'keyfrore', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4990, 001 /* NAME_STRING */, 'Key of Frore')
-     , (4990, 013 /* KEY_CODE_STRING */, 'keyfrore')
-     , (4990, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (4990, 015 /* SHORT_DESC_STRING */, 'This is a smooth, frosted blue key.')
-     , (4990, 016 /* LONG_DESC_STRING */, 'This smooth, frosted blue key is used to unlock the upper gates of Frore.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4990, 001 /* SETUP_DID */, 33554784)
-     , (4990, 008 /* ICON_DID */, 100668441)
-     , (4990, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4990', 'keyfrore', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4990, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (4990, 005 /* ENCUMB_VAL_INT */, 50)
-     , (4990, 008 /* MASS_INT */, 20)
-     , (4990, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (4990, 019 /* VALUE_INT */, 30)
-     , (4990, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (4990, 092 /* STRUCTURE_INT */, 1)
-     , (4990, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (4990, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
+VALUES (4990,   1,      16384) /* ItemType - Key */
+     , (4990,   5,         50) /* EncumbranceVal */
+     , (4990,   8,         20) /* Mass */
+     , (4990,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (4990,  19,         30) /* Value */
+     , (4990,  91,          1) /* MaxStructure */
+     , (4990,  92,          1) /* Structure */
+     , (4990,  93,       1044) /* PhysicsState */
+     , (4990,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4990, 022 /* INSCRIBABLE_BOOL */, True)
-     , (4990, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (4990,  22, True ) /* Inscribable */
+     , (4990,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4990,   1, 'Key of Frore') /* Name */
+     , (4990,  13, 'keyfrore') /* KeyCode */
+     , (4990,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (4990,  15, 'This is a smooth, frosted blue key.') /* ShortDesc */
+     , (4990,  16, 'This smooth, frosted blue key is used to unlock the upper gates of Frore.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4990,   1,   33554784) /* Setup */
+     , (4990,   8,  100668441) /* Icon */
+     , (4990,  22,  872415275) /* PhysicsEffectTable */;

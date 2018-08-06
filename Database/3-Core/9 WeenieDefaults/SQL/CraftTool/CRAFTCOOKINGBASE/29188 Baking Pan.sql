@@ -1,36 +1,32 @@
-/* Weenie - Baking Pan (29188) */
-DELETE FROM weenie WHERE class_Id = 29188;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29188, 'brewdarkdistasteful', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29188, 001 /* NAME_STRING */, 'Baking Pan')
-     , (29188, 014 /* USE_STRING */, 'This item is used in cooking.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29188, 001 /* SETUP_DID */, 33555969)
-     , (29188, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29188, 008 /* ICON_DID */, 100669993)
-     , (29188, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29188', 'brewdarkdistasteful', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29188, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (29188, 005 /* ENCUMB_VAL_INT */, 150)
-     , (29188, 008 /* MASS_INT */, 50)
-     , (29188, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (29188, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (29188, 012 /* STACK_SIZE_INT */, 1)
-     , (29188, 013 /* STACK_UNIT_ENCUMB_INT */, 150)
-     , (29188, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (29188, 015 /* STACK_UNIT_VALUE_INT */, 50)
-     , (29188, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (29188, 019 /* VALUE_INT */, 50)
-     , (29188, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29188, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */)
-     , (29188, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29188, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (29188,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (29188,   5,        150) /* EncumbranceVal */
+     , (29188,   8,         50) /* Mass */
+     , (29188,   9,          0) /* ValidLocations - None */
+     , (29188,  11,          1) /* MaxStackSize */
+     , (29188,  12,          1) /* StackSize */
+     , (29188,  13,        150) /* StackUnitEncumbrance */
+     , (29188,  14,         50) /* StackUnitMass */
+     , (29188,  15,         50) /* StackUnitValue */
+     , (29188,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (29188,  19,         50) /* Value */
+     , (29188,  93,       1044) /* PhysicsState */
+     , (29188,  94,    4194336) /* TargetType */
+     , (29188, 150,        103) /* HookPlacement - Hook */
+     , (29188, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29188, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29188,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29188,   1, 'Baking Pan') /* Name */
+     , (29188,  14, 'This item is used in cooking.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29188,   1,   33555969) /* Setup */
+     , (29188,   3,  536870932) /* SoundTable */
+     , (29188,   8,  100669993) /* Icon */
+     , (29188,  22,  872415275) /* PhysicsEffectTable */;

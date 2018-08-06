@@ -1,41 +1,37 @@
-/* Weenie - Rune of Bludgeon Bane (30123) */
-DELETE FROM weenie WHERE class_Id = 30123;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30123, 'gemrareeternalbludgeonbane', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30123, 001 /* NAME_STRING */, 'Rune of Bludgeon Bane')
-     , (30123, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30123, 001 /* SETUP_DID */, 33554809)
-     , (30123, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30123, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30123, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (30123, 008 /* ICON_DID */, 100674739)
-     , (30123, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30123, 028 /* SPELL_DID */, 2098 /* BludgeonBane7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30123', 'gemrareeternalbludgeonbane', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30123, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (30123, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (30123, 005 /* ENCUMB_VAL_INT */, 5)
-     , (30123, 008 /* MASS_INT */, 5)
-     , (30123, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (30123, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (30123, 012 /* STACK_SIZE_INT */, 1)
-     , (30123, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (30123, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (30123, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (30123, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (30123, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (30123, 019 /* VALUE_INT */, 0)
-     , (30123, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30123, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30123, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30123, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (30123,   1,       2048) /* ItemType - Gem */
+     , (30123,   3,         39) /* PaletteTemplate - Black */
+     , (30123,   5,          5) /* EncumbranceVal */
+     , (30123,   8,          5) /* Mass */
+     , (30123,   9,          0) /* ValidLocations - None */
+     , (30123,  11,          1) /* MaxStackSize */
+     , (30123,  12,          1) /* StackSize */
+     , (30123,  13,          5) /* StackUnitEncumbrance */
+     , (30123,  14,          5) /* StackUnitMass */
+     , (30123,  15,          0) /* StackUnitValue */
+     , (30123,  16,          8) /* ItemUseable - Contained */
+     , (30123,  18,          1) /* UiEffects - Magical */
+     , (30123,  19,          0) /* Value */
+     , (30123,  93,       1044) /* PhysicsState */
+     , (30123,  94,         16) /* TargetType - Creature */
+     , (30123, 150,        103) /* HookPlacement - Hook */
+     , (30123, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30123, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30123,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30123,   1, 'Rune of Bludgeon Bane') /* Name */
+     , (30123,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30123,   1,   33554809) /* Setup */
+     , (30123,   3,  536870932) /* SoundTable */
+     , (30123,   6,   67111919) /* PaletteBase */
+     , (30123,   7,  268435723) /* ClothingBase */
+     , (30123,   8,  100674739) /* Icon */
+     , (30123,  22,  872415275) /* PhysicsEffectTable */
+     , (30123,  28,       2098) /* Spell - Tusker's Bane */;

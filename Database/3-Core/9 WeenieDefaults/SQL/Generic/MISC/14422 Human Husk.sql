@@ -1,38 +1,34 @@
-/* Weenie - Human Husk (14422) */
-DELETE FROM weenie WHERE class_Id = 14422;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14422, 'huskregicide', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14422, 001 /* NAME_STRING */, 'Human Husk')
-     , (14422, 015 /* SHORT_DESC_STRING */, 'A Human Husk.')
-     , (14422, 016 /* LONG_DESC_STRING */, 'A perfect human epidermis.')
-     , (14422, 033 /* QUEST_STRING */, 'HuskRegicidePickUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14422, 001 /* SETUP_DID */, 33557475)
-     , (14422, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (14422, 007 /* CLOTHINGBASE_DID */, 268436310)
-     , (14422, 008 /* ICON_DID */, 100672465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14422', 'huskregicide', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14422, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14422, 003 /* PALETTE_TEMPLATE_INT */, 9 /* GREY_PALETTE_TEMPLATE */)
-     , (14422, 005 /* ENCUMB_VAL_INT */, 150)
-     , (14422, 008 /* MASS_INT */, 150)
-     , (14422, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14422, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14422, 019 /* VALUE_INT */, 0)
-     , (14422, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14422, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14422, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14422, 039 /* DEFAULT_SCALE_FLOAT */, 1.3);
+VALUES (14422,   1,        128) /* ItemType - Misc */
+     , (14422,   3,          9) /* PaletteTemplate - Grey */
+     , (14422,   5,        150) /* EncumbranceVal */
+     , (14422,   8,        150) /* Mass */
+     , (14422,   9,          0) /* ValidLocations - None */
+     , (14422,  16,          1) /* ItemUseable - No */
+     , (14422,  19,          0) /* Value */
+     , (14422,  33,          1) /* Bonded - Bonded */
+     , (14422,  93,       1044) /* PhysicsState */
+     , (14422, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14422, 013 /* ETHEREAL_BOOL */, True)
-     , (14422, 022 /* INSCRIBABLE_BOOL */, True)
-     , (14422, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (14422,  13, True ) /* Ethereal */
+     , (14422,  22, True ) /* Inscribable */
+     , (14422,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14422,  39,     1.3) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14422,   1, 'Human Husk') /* Name */
+     , (14422,  15, 'A Human Husk.') /* ShortDesc */
+     , (14422,  16, 'A perfect human epidermis.') /* LongDesc */
+     , (14422,  33, 'HuskRegicidePickUp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14422,   1,   33557475) /* Setup */
+     , (14422,   6,   67108990) /* PaletteBase */
+     , (14422,   7,  268436310) /* ClothingBase */
+     , (14422,   8,  100672465) /* Icon */;

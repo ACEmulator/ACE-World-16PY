@@ -1,48 +1,44 @@
-/* Weenie - Hoory Mattekar Robe (8636) */
-DELETE FROM weenie WHERE class_Id = 8636;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8636, 'robehoorymattekarknockoff', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8636, 001 /* NAME_STRING */, 'Hoory Mattekar Robe')
-     , (8636, 015 /* SHORT_DESC_STRING */, 'A genuine artificial quality knockoff of the rare Hoary Mattekar Robe.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8636, 001 /* SETUP_DID */, 33554854)
-     , (8636, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8636, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (8636, 007 /* CLOTHINGBASE_DID */, 268436245)
-     , (8636, 008 /* ICON_DID */, 100667351)
-     , (8636, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8636', 'robehoorymattekarknockoff', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8636, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (8636, 003 /* PALETTE_TEMPLATE_INT */, 67 /* GREENSLIME_PALETTE_TEMPLATE */)
-     , (8636, 004 /* CLOTHING_PRIORITY_INT */, 81664 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */)
-     , (8636, 005 /* ENCUMB_VAL_INT */, 300)
-     , (8636, 008 /* MASS_INT */, 340)
-     , (8636, 009 /* LOCATIONS_INT */, 32512 /* FOOT_WEAR_LOC, ARMOR_LOC */)
-     , (8636, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8636, 019 /* VALUE_INT */, 1)
-     , (8636, 027 /* ARMOR_TYPE_INT */, 1)
-     , (8636, 028 /* ARMOR_LEVEL_INT */, 10)
-     , (8636, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8636, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8636, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8636, 012 /* SHADE_FLOAT */, 1)
-     , (8636, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.3)
-     , (8636, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.3)
-     , (8636, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.3)
-     , (8636, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0)
-     , (8636, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0)
-     , (8636, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0)
-     , (8636, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
-     , (8636, 110 /* BULK_MOD_FLOAT */, 1)
-     , (8636, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (8636,   1,          2) /* ItemType - Armor */
+     , (8636,   3,         67) /* PaletteTemplate - GreenSlime */
+     , (8636,   4,      81664) /* ClothingPriority */
+     , (8636,   5,        300) /* EncumbranceVal */
+     , (8636,   8,        340) /* Mass */
+     , (8636,   9,      32512) /* ValidLocations - Armor */
+     , (8636,  16,          1) /* ItemUseable - No */
+     , (8636,  19,          1) /* Value */
+     , (8636,  27,          1) /* ArmorType */
+     , (8636,  28,         10) /* ArmorLevel */
+     , (8636,  93,       1044) /* PhysicsState */
+     , (8636, 150,        103) /* HookPlacement - Hook */
+     , (8636, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8636, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (8636,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8636,  12,       1) /* Shade */
+     , (8636,  13,     0.3) /* ArmorModVsSlash */
+     , (8636,  14,     0.3) /* ArmorModVsPierce */
+     , (8636,  15,     0.3) /* ArmorModVsBludgeon */
+     , (8636,  16,       0) /* ArmorModVsCold */
+     , (8636,  17,       0) /* ArmorModVsFire */
+     , (8636,  18,       0) /* ArmorModVsAcid */
+     , (8636,  19,       0) /* ArmorModVsElectric */
+     , (8636, 110,       1) /* BulkMod */
+     , (8636, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8636,   1, 'Hoory Mattekar Robe') /* Name */
+     , (8636,  15, 'A genuine artificial quality knockoff of the rare Hoary Mattekar Robe.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8636,   1,   33554854) /* Setup */
+     , (8636,   3,  536870932) /* SoundTable */
+     , (8636,   6,   67108990) /* PaletteBase */
+     , (8636,   7,  268436245) /* ClothingBase */
+     , (8636,   8,  100667351) /* Icon */
+     , (8636,  22,  872415275) /* PhysicsEffectTable */;

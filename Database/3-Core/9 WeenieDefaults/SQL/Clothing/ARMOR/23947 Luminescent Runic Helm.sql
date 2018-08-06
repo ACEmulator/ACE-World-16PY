@@ -1,69 +1,65 @@
-/* Weenie - Luminescent Runic Helm (23947) */
-DELETE FROM weenie WHERE class_Id = 23947;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23947, 'helmlumingreen', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23947, 001 /* NAME_STRING */, 'Luminescent Runic Helm')
-     , (23947, 015 /* SHORT_DESC_STRING */, 'This helm was worn by Sentinels of Perfect Light. They are modeled after the helms worn by the armies of Lord Atlan against the swelling darkness. The helm has a single setting for an orb.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23947, 001 /* SETUP_DID */, 33558266)
-     , (23947, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23947, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (23947, 007 /* CLOTHINGBASE_DID */, 268436561)
-     , (23947, 008 /* ICON_DID */, 100674139)
-     , (23947, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23947', 'helmlumingreen', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23947, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (23947, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (23947, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (23947, 005 /* ENCUMB_VAL_INT */, 265)
-     , (23947, 008 /* MASS_INT */, 125)
-     , (23947, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (23947, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23947, 019 /* VALUE_INT */, 5200)
-     , (23947, 027 /* ARMOR_TYPE_INT */, 32)
-     , (23947, 028 /* ARMOR_LEVEL_INT */, 200)
-     , (23947, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23947, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (23947, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23947, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (23947, 107 /* ITEM_CUR_MANA_INT */, 4000)
-     , (23947, 108 /* ITEM_MAX_MANA_INT */, 4000)
-     , (23947, 109 /* ITEM_DIFFICULTY_INT */, 50)
-     , (23947, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (23947, 159 /* WIELD_SKILLTYPE_INT */, 33 /* LIFE_MAGIC_SKILL */)
-     , (23947, 160 /* WIELD_DIFFICULTY_INT */, 285);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23947, 005 /* MANA_RATE_FLOAT */, -0.5)
-     , (23947, 012 /* SHADE_FLOAT */, 0.66)
-     , (23947, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.75)
-     , (23947, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.75)
-     , (23947, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.75)
-     , (23947, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.75)
-     , (23947, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (23947, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (23947, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.75)
-     , (23947, 110 /* BULK_MOD_FLOAT */, 1)
-     , (23947, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (23947,   1,          2) /* ItemType - Armor */
+     , (23947,   3,          8) /* PaletteTemplate - Green */
+     , (23947,   4,      16384) /* ClothingPriority - Head */
+     , (23947,   5,        265) /* EncumbranceVal */
+     , (23947,   8,        125) /* Mass */
+     , (23947,   9,          1) /* ValidLocations - HeadWear */
+     , (23947,  16,          1) /* ItemUseable - No */
+     , (23947,  19,       5200) /* Value */
+     , (23947,  27,         32) /* ArmorType */
+     , (23947,  28,        200) /* ArmorLevel */
+     , (23947,  33,          1) /* Bonded - Bonded */
+     , (23947,  36,       9999) /* ResistMagic */
+     , (23947,  93,       1044) /* PhysicsState */
+     , (23947, 106,        300) /* ItemSpellcraft */
+     , (23947, 107,       4000) /* ItemCurMana */
+     , (23947, 108,       4000) /* ItemMaxMana */
+     , (23947, 109,         50) /* ItemDifficulty */
+     , (23947, 158,          2) /* WieldRequirements - RawSkill */
+     , (23947, 159,         33) /* WieldSkilltype - LifeMagic */
+     , (23947, 160,        285) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23947, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23947, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (23947,  22, True ) /* Inscribable */
+     , (23947,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23947,   5,    -0.5) /* ManaRate */
+     , (23947,  12,    0.66) /* Shade */
+     , (23947,  13,    0.75) /* ArmorModVsSlash */
+     , (23947,  14,    0.75) /* ArmorModVsPierce */
+     , (23947,  15,    0.75) /* ArmorModVsBludgeon */
+     , (23947,  16,    0.75) /* ArmorModVsCold */
+     , (23947,  17,       1) /* ArmorModVsFire */
+     , (23947,  18,       1) /* ArmorModVsAcid */
+     , (23947,  19,    0.75) /* ArmorModVsElectric */
+     , (23947, 110,       1) /* BulkMod */
+     , (23947, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23947,   1, 'Luminescent Runic Helm') /* Name */
+     , (23947,  15, 'This helm was worn by Sentinels of Perfect Light. They are modeled after the helms worn by the armies of Lord Atlan against the swelling darkness. The helm has a single setting for an orb.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23947,   1,   33558266) /* Setup */
+     , (23947,   3,  536870932) /* SoundTable */
+     , (23947,   6,   67108990) /* PaletteBase */
+     , (23947,   7,  268436561) /* ClothingBase */
+     , (23947,   8,  100674139) /* Icon */
+     , (23947,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23947, 2350, 2) /* DecayDurance_SpellID */
-     , (23947, 2948, 2) /* HieroWardGreat_SpellID */
-     , (23947, 1360, 2) /* EnduranceOther6_SpellID */
-     , (23947, 2958, 2) /* BlessingofthePriestess_SpellID */
-     , (23947, 2960, 2) /* BludgeoningDurance_SpellID */
-     , (23947, 2351, 2) /* ConsumptionDurance_SpellID */
-     , (23947, 2961, 2) /* PiercingDurance_SpellID */
-     , (23947, 2352, 2) /* StasisDurance_SpellID */
-     , (23947, 2962, 2) /* SlashingDurance_SpellID */
-     , (23947, 2353, 2) /* StimulationDurance_SpellID */;
-
+VALUES (23947,  1360,      2)  /* Endurance Other VI */
+     , (23947,  2350,      2)  /* Greater Decay Durance */
+     , (23947,  2351,      2)  /* Greater Consumption Durance */
+     , (23947,  2352,      2)  /* Greater Stasis Durance */
+     , (23947,  2353,      2)  /* Greater Stimulation Durance */
+     , (23947,  2948,      2)  /* Hieromancer's Great Ward */
+     , (23947,  2958,      2)  /* Blessing of the Priestess */
+     , (23947,  2960,      2)  /* Greater Bludgeoning Durance */
+     , (23947,  2961,      2)  /* Greater Piercing Durance */
+     , (23947,  2962,      2)  /* Greater Slashing Durance */;

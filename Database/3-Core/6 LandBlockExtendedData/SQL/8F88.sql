@@ -1,6 +1,11 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28533, 2029551620, 2408055040, 36.0327, 33.4448, 108.005, 0.949461, 0, 0, 0.313885) /* Lonely Weaponsmith */
-     , (1148, 2029551616, 2408054784, 26.5535, 28.9601, 108, 0.720021, 0, 0, -0.693952) /* Door */
-     , (1148, 2029551617, 2408054784, 36.261, 37.0735, 108, 0.720021, 0, 0, -0.693952) /* Door */
-     , (1148, 2029551618, 2408054784, 43.7809, 37.3508, 108, -0.693952, 0, 0, -0.720021) /* Door */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2029551616,  1148, 2408054784, 26.5535, 28.9601, 108, 0.720021, 0, 0, -0.693952, False); /* Door */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2029551617,  1148, 2408054784, 36.261, 37.0735, 108, 0.720021, 0, 0, -0.693952, False); /* Door */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2029551618,  1148, 2408054784, 43.7809, 37.3508, 108, -0.693952, 0, 0, -0.720021, False); /* Door */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2029551620, 28533, 2408055040, 36.0327, 33.4448, 108.005, 0.949461, 0, 0, 0.313885, False); /* Lonely Weaponsmith */

@@ -1,46 +1,42 @@
-/* Weenie - Bludgeon Protection Gem (22878) */
-DELETE FROM weenie WHERE class_Id = 22878;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22878, 'gembludgeonprot6', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22878, 001 /* NAME_STRING */, 'Bludgeon Protection Gem')
-     , (22878, 015 /* SHORT_DESC_STRING */, 'A gem of bludgeoning protection VI');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22878, 001 /* SETUP_DID */, 33554809)
-     , (22878, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22878, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (22878, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (22878, 008 /* ICON_DID */, 100673900)
-     , (22878, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (22878, 028 /* SPELL_DID */, 1029 /* BludgeonProtectionOther6_SpellID */)
-     , (22878, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22878', 'gembludgeonprot6', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22878, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (22878, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (22878, 005 /* ENCUMB_VAL_INT */, 10)
-     , (22878, 008 /* MASS_INT */, 10)
-     , (22878, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (22878, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (22878, 012 /* STACK_SIZE_INT */, 1)
-     , (22878, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (22878, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (22878, 015 /* STACK_UNIT_VALUE_INT */, 200)
-     , (22878, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (22878, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (22878, 019 /* VALUE_INT */, 200)
-     , (22878, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22878, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (22878, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (22878, 107 /* ITEM_CUR_MANA_INT */, 100)
-     , (22878, 108 /* ITEM_MAX_MANA_INT */, 200)
-     , (22878, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (22878, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (22878,   1,       2048) /* ItemType - Gem */
+     , (22878,   3,         14) /* PaletteTemplate - Red */
+     , (22878,   5,         10) /* EncumbranceVal */
+     , (22878,   8,         10) /* Mass */
+     , (22878,   9,          0) /* ValidLocations - None */
+     , (22878,  11,          1) /* MaxStackSize */
+     , (22878,  12,          1) /* StackSize */
+     , (22878,  13,         10) /* StackUnitEncumbrance */
+     , (22878,  14,         10) /* StackUnitMass */
+     , (22878,  15,        200) /* StackUnitValue */
+     , (22878,  16,          8) /* ItemUseable - Contained */
+     , (22878,  18,          1) /* UiEffects - Magical */
+     , (22878,  19,        200) /* Value */
+     , (22878,  93,       1044) /* PhysicsState */
+     , (22878,  94,         16) /* TargetType - Creature */
+     , (22878, 106,        210) /* ItemSpellcraft */
+     , (22878, 107,        100) /* ItemCurMana */
+     , (22878, 108,        200) /* ItemMaxMana */
+     , (22878, 109,          0) /* ItemDifficulty */
+     , (22878, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22878, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22878, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22878,  22, True ) /* Inscribable */
+     , (22878,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22878,   1, 'Bludgeon Protection Gem') /* Name */
+     , (22878,  15, 'A gem of bludgeoning protection VI') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22878,   1,   33554809) /* Setup */
+     , (22878,   3,  536870932) /* SoundTable */
+     , (22878,   6,   67111919) /* PaletteBase */
+     , (22878,   7,  268435723) /* ClothingBase */
+     , (22878,   8,  100673900) /* Icon */
+     , (22878,  22,  872415275) /* PhysicsEffectTable */
+     , (22878,  28,       1029) /* Spell - Bludgeoning Protection Other VI */
+     , (22878,  36,  234881046) /* MutateFilter */;

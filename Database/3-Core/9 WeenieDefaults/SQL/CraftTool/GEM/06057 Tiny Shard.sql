@@ -1,45 +1,41 @@
-/* Weenie - Tiny Shard (6057) */
-DELETE FROM weenie WHERE class_Id = 6057;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6057, 'shardcrystaltiny', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6057, 001 /* NAME_STRING */, 'Tiny Shard')
-     , (6057, 014 /* USE_STRING */, 'Combine with another tiny shard to make a small shard.')
-     , (6057, 015 /* SHORT_DESC_STRING */, 'A tiny crystalline shard.')
-     , (6057, 016 /* LONG_DESC_STRING */, 'A tiny piece of crystalline shard, with a strange faint glow.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6057, 001 /* SETUP_DID */, 33556406)
-     , (6057, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6057, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6057, 007 /* CLOTHINGBASE_DID */, 268435994)
-     , (6057, 008 /* ICON_DID */, 100670635)
-     , (6057, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6057', 'shardcrystaltiny', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6057, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (6057, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
-     , (6057, 005 /* ENCUMB_VAL_INT */, 10)
-     , (6057, 008 /* MASS_INT */, 10)
-     , (6057, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6057, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (6057, 012 /* STACK_SIZE_INT */, 1)
-     , (6057, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (6057, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (6057, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (6057, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (6057, 019 /* VALUE_INT */, 0)
-     , (6057, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6057, 094 /* TARGET_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (6057, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6057, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6057, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
+VALUES (6057,   1,       2048) /* ItemType - Gem */
+     , (6057,   3,         83) /* PaletteTemplate - Amber */
+     , (6057,   5,         10) /* EncumbranceVal */
+     , (6057,   8,         10) /* Mass */
+     , (6057,   9,          0) /* ValidLocations - None */
+     , (6057,  11,          1) /* MaxStackSize */
+     , (6057,  12,          1) /* StackSize */
+     , (6057,  13,         10) /* StackUnitEncumbrance */
+     , (6057,  14,         10) /* StackUnitMass */
+     , (6057,  15,          0) /* StackUnitValue */
+     , (6057,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (6057,  19,          0) /* Value */
+     , (6057,  93,       1044) /* PhysicsState */
+     , (6057,  94,       2048) /* TargetType - Gem */
+     , (6057, 150,        103) /* HookPlacement - Hook */
+     , (6057, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6057, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6057, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6057,  22, True ) /* Inscribable */
+     , (6057,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6057,  39,     0.8) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6057,   1, 'Tiny Shard') /* Name */
+     , (6057,  14, 'Combine with another tiny shard to make a small shard.') /* Use */
+     , (6057,  15, 'A tiny crystalline shard.') /* ShortDesc */
+     , (6057,  16, 'A tiny piece of crystalline shard, with a strange faint glow.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6057,   1,   33556406) /* Setup */
+     , (6057,   3,  536870932) /* SoundTable */
+     , (6057,   6,   67111919) /* PaletteBase */
+     , (6057,   7,  268435994) /* ClothingBase */
+     , (6057,   8,  100670635) /* Icon */
+     , (6057,  22,  872415275) /* PhysicsEffectTable */;

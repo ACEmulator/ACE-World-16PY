@@ -1,63 +1,59 @@
-/* Weenie - Fine Shadow Atlan Dagger (6366) */
-DELETE FROM weenie WHERE class_Id = 6366;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6366, 'daggergoodshadow', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6366, 001 /* NAME_STRING */, 'Fine Shadow Atlan Dagger');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6366, 001 /* SETUP_DID */, 33556309)
-     , (6366, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6366, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6366, 007 /* CLOTHINGBASE_DID */, 268435888)
-     , (6366, 008 /* ICON_DID */, 100670523)
-     , (6366, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6366, 037 /* ITEM_SKILL_LIMIT_DID */, 4);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6366', 'daggergoodshadow', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6366, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6366, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (6366, 005 /* ENCUMB_VAL_INT */, 135)
-     , (6366, 008 /* MASS_INT */, 150)
-     , (6366, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6366, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6366, 019 /* VALUE_INT */, 1000)
-     , (6366, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6366, 044 /* DAMAGE_INT */, 5)
-     , (6366, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (6366, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6366, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (6366, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (6366, 049 /* WEAPON_TIME_INT */, 20)
-     , (6366, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6366, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6366, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (6366, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (6366, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (6366, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (6366, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 180);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6366, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (6366, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (6366, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.45)
-     , (6366, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (6366, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6366, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (6366,   1,          1) /* ItemType - MeleeWeapon */
+     , (6366,   3,         39) /* PaletteTemplate - Black */
+     , (6366,   5,        135) /* EncumbranceVal */
+     , (6366,   8,        150) /* Mass */
+     , (6366,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6366,  16,          1) /* ItemUseable - No */
+     , (6366,  19,       1000) /* Value */
+     , (6366,  33,          1) /* Bonded - Bonded */
+     , (6366,  44,          5) /* Damage */
+     , (6366,  45,          3) /* DamageType */
+     , (6366,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6366,  47,          6) /* AttackType */
+     , (6366,  48,          4) /* WeaponSkill - Dagger */
+     , (6366,  49,         20) /* WeaponTime */
+     , (6366,  51,          1) /* CombatUse - Melee */
+     , (6366,  93,       1044) /* PhysicsState */
+     , (6366, 106,        200) /* ItemSpellcraft */
+     , (6366, 107,       1000) /* ItemCurMana */
+     , (6366, 108,       1000) /* ItemMaxMana */
+     , (6366, 114,          1) /* Attuned - Attuned */
+     , (6366, 115,        180) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6366, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6366, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6366, 069 /* IS_SELLABLE_BOOL */, False)
-     , (6366, 099 /* IVORYABLE_BOOL */, True);
+VALUES (6366,  22, True ) /* Inscribable */
+     , (6366,  23, True ) /* DestroyOnSell */
+     , (6366,  69, False) /* IsSellable */
+     , (6366,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6366,   5,    -0.1) /* ManaRate */
+     , (6366,  21,     0.4) /* WeaponLength */
+     , (6366,  22,    0.45) /* DamageVariance */
+     , (6366,  29,       1) /* WeaponDefense */
+     , (6366,  39,       1) /* DefaultScale */
+     , (6366,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6366,   1, 'Fine Shadow Atlan Dagger') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6366,   1,   33556309) /* Setup */
+     , (6366,   3,  536870932) /* SoundTable */
+     , (6366,   6,   67111919) /* PaletteBase */
+     , (6366,   7,  268435888) /* ClothingBase */
+     , (6366,   8,  100670523) /* Icon */
+     , (6366,  22,  872415275) /* PhysicsEffectTable */
+     , (6366,  37,          4) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6366, 265, 2) /* DefenselessnessOther4_SpellID */
-     , (6366, 1616, 2) /* BloodDrinker6_SpellID */
-     , (6366, 1623, 2) /* SwiftKiller2_SpellID */
-     , (6366, 1590, 2) /* HeartSeeker4_SpellID */
-     , (6366, 1468, 2) /* FeeblemindOther6_SpellID */
-     , (6366, 957, 2) /* FealtyOther6_SpellID */;
-
+VALUES (6366,   265,      2)  /* Defenselessness Other IV */
+     , (6366,   957,      2)  /* Fealty Other VI */
+     , (6366,  1468,      2)  /* Feeblemind Other VI */
+     , (6366,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (6366,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (6366,  1623,      2)  /* Aura of Swift Killer Self II */;

@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Frost Lure III (2828) */
-DELETE FROM weenie WHERE class_Id = 2828;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2828, 'scrollfrostlure3', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2828, 001 /* NAME_STRING */, 'Scroll of Frost Lure III')
-     , (2828, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (2828, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases a shield or piece of armor''s resistance to cold damage by 50%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2828, 001 /* SETUP_DID */, 33554826)
-     , (2828, 008 /* ICON_DID */, 100676667)
-     , (2828, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (2828, 028 /* SPELL_DID */, 1519 /* FrostLure3_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2828', 'scrollfrostlure3', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2828, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2828, 005 /* ENCUMB_VAL_INT */, 30)
-     , (2828, 008 /* MASS_INT */, 90)
-     , (2828, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2828, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2828, 019 /* VALUE_INT */, 20)
-     , (2828, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2828, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (2828,   1,       8192) /* ItemType - Writable */
+     , (2828,   5,         30) /* EncumbranceVal */
+     , (2828,   8,         90) /* Mass */
+     , (2828,   9,          0) /* ValidLocations - None */
+     , (2828,  16,          8) /* ItemUseable - Contained */
+     , (2828,  19,         20) /* Value */
+     , (2828,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2828, 022 /* INSCRIBABLE_BOOL */, True)
-     , (2828, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (2828,  22, True ) /* Inscribable */
+     , (2828,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2828,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2828,   1, 'Scroll of Frost Lure III') /* Name */
+     , (2828,  15, 'A magic scroll.') /* ShortDesc */
+     , (2828,  16, 'When learned, this spell decreases a shield or piece of armor''s resistance to cold damage by 50%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2828,   1,   33554826) /* Setup */
+     , (2828,   8,  100676667) /* Icon */
+     , (2828,  22,  872415275) /* PhysicsEffectTable */
+     , (2828,  28,       1519) /* Spell - Frost Lure III */;

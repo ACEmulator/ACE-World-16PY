@@ -1,30 +1,26 @@
-/* Weenie - Grocery (847) */
-DELETE FROM weenie WHERE class_Id = 847;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (847, 'shoushigrocersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (847, 001 /* NAME_STRING */, 'Grocery')
-     , (847, 016 /* LONG_DESC_STRING */, 'Grocery');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (847, 001 /* SETUP_DID */, 33555594)
-     , (847, 006 /* PALETTE_BASE_DID */, 67111782)
-     , (847, 007 /* CLOTHINGBASE_DID */, 268435688)
-     , (847, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('847', 'shoushigrocersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (847, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (847, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (847, 008 /* MASS_INT */, 1800)
-     , (847, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (847, 019 /* VALUE_INT */, 125)
-     , (847, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (847,   1,        128) /* ItemType - Misc */
+     , (847,   5,       9000) /* EncumbranceVal */
+     , (847,   8,       1800) /* Mass */
+     , (847,  16,          1) /* ItemUseable - No */
+     , (847,  19,        125) /* Value */
+     , (847,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (847, 001 /* STUCK_BOOL */, True)
-     , (847, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (847, 013 /* ETHEREAL_BOOL */, False)
-     , (847, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (847,   1, True ) /* Stuck */
+     , (847,  12, True ) /* ReportCollisions */
+     , (847,  13, False) /* Ethereal */
+     , (847,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (847,   1, 'Grocery') /* Name */
+     , (847,  16, 'Grocery') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (847,   1,   33555594) /* Setup */
+     , (847,   6,   67111782) /* PaletteBase */
+     , (847,   7,  268435688) /* ClothingBase */
+     , (847,   8,  100668115) /* Icon */;

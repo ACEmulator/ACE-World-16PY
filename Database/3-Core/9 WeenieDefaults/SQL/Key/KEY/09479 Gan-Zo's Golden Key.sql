@@ -1,39 +1,35 @@
-/* Weenie - Gan-Zo's Golden Key (9479) */
-DELETE FROM weenie WHERE class_Id = 9479;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9479, 'keygoldensho', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9479, 001 /* NAME_STRING */, 'Gan-Zo''s Golden Key')
-     , (9479, 013 /* KEY_CODE_STRING */, 'keygamblersho')
-     , (9479, 014 /* USE_STRING */, 'Use this item on a locked chest to unlock it.')
-     , (9479, 015 /* SHORT_DESC_STRING */, 'A large golden key.')
-     , (9479, 016 /* LONG_DESC_STRING */, 'A large, garish, golden key, a prize in Gan-Zo''s Den of Iniquity.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9479, 001 /* SETUP_DID */, 33557005)
-     , (9479, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9479, 008 /* ICON_DID */, 100671475)
-     , (9479, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9479', 'keygoldensho', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9479, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (9479, 005 /* ENCUMB_VAL_INT */, 500)
-     , (9479, 008 /* MASS_INT */, 500)
-     , (9479, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (9479, 019 /* VALUE_INT */, 0)
-     , (9479, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9479, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (9479, 092 /* STRUCTURE_INT */, 1)
-     , (9479, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9479, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */)
-     , (9479, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9479, 039 /* DEFAULT_SCALE_FLOAT */, 3);
+VALUES (9479,   1,      16384) /* ItemType - Key */
+     , (9479,   5,        500) /* EncumbranceVal */
+     , (9479,   8,        500) /* Mass */
+     , (9479,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (9479,  19,          0) /* Value */
+     , (9479,  33,          1) /* Bonded - Bonded */
+     , (9479,  91,          1) /* MaxStructure */
+     , (9479,  92,          1) /* Structure */
+     , (9479,  93,       1044) /* PhysicsState */
+     , (9479,  94,        640) /* TargetType - LockableMagicTarget */
+     , (9479, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9479, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9479, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9479,  22, True ) /* Inscribable */
+     , (9479,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9479,  39,       3) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9479,   1, 'Gan-Zo''s Golden Key') /* Name */
+     , (9479,  13, 'keygamblersho') /* KeyCode */
+     , (9479,  14, 'Use this item on a locked chest to unlock it.') /* Use */
+     , (9479,  15, 'A large golden key.') /* ShortDesc */
+     , (9479,  16, 'A large, garish, golden key, a prize in Gan-Zo''s Den of Iniquity.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9479,   1,   33557005) /* Setup */
+     , (9479,   3,  536870932) /* SoundTable */
+     , (9479,   8,  100671475) /* Icon */
+     , (9479,  22,  872415275) /* PhysicsEffectTable */;

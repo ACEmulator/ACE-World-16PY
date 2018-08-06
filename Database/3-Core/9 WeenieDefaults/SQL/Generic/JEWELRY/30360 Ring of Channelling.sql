@@ -1,34 +1,30 @@
-/* Weenie - Ring of Channelling (30360) */
-DELETE FROM weenie WHERE class_Id = 30360;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30360, 'ringrarechannelling', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30360, 001 /* NAME_STRING */, 'Ring of Channelling')
-     , (30360, 016 /* LONG_DESC_STRING */, 'Describe me here.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30360, 001 /* SETUP_DID */, 33554691)
-     , (30360, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30360, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (30360, 007 /* CLOTHINGBASE_DID */, 268435753)
-     , (30360, 008 /* ICON_DID */, 100668662)
-     , (30360, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30360', 'ringrarechannelling', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30360, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (30360, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (30360, 005 /* ENCUMB_VAL_INT */, 15)
-     , (30360, 008 /* MASS_INT */, 10)
-     , (30360, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (30360, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30360, 019 /* VALUE_INT */, 50)
-     , (30360, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30360, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (30360,   1,          8) /* ItemType - Jewelry */
+     , (30360,   3,         21) /* PaletteTemplate - Gold */
+     , (30360,   5,         15) /* EncumbranceVal */
+     , (30360,   8,         10) /* Mass */
+     , (30360,   9,     786432) /* ValidLocations - FingerWear */
+     , (30360,  16,          1) /* ItemUseable - No */
+     , (30360,  19,         50) /* Value */
+     , (30360,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30360, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (30360,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30360,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30360,   1, 'Ring of Channelling') /* Name */
+     , (30360,  16, 'Describe me here.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30360,   1,   33554691) /* Setup */
+     , (30360,   3,  536870932) /* SoundTable */
+     , (30360,   6,   67111919) /* PaletteBase */
+     , (30360,   7,  268435753) /* ClothingBase */
+     , (30360,   8,  100668662) /* Icon */
+     , (30360,  22,  872415275) /* PhysicsEffectTable */;

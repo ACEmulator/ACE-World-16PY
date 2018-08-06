@@ -1,35 +1,31 @@
-/* Weenie - Anchovy Dough (28905) */
-DELETE FROM weenie WHERE class_Id = 28905;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28905, 'doughanchovy', 51 /* Stackable_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28905, 001 /* NAME_STRING */, 'Anchovy Dough')
-     , (28905, 014 /* USE_STRING */, 'This item is used in the Journeyman Cook''s cooking skill tests.')
-     , (28905, 016 /* LONG_DESC_STRING */, 'A slightly-slimy mass of fishy-smelling dough.')
-     , (28905, 020 /* PLURAL_NAME_STRING */, 'Batches of Anchovy Dough');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28905, 001 /* SETUP_DID */, 33557505)
-     , (28905, 008 /* ICON_DID */, 100677045);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28905', 'doughanchovy', 51) /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28905, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (28905, 005 /* ENCUMB_VAL_INT */, 50)
-     , (28905, 008 /* MASS_INT */, 10)
-     , (28905, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (28905, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (28905, 012 /* STACK_SIZE_INT */, 1)
-     , (28905, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (28905, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (28905, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (28905, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28905, 019 /* VALUE_INT */, 10)
-     , (28905, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (28905, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28905, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (28905,   1,        128) /* ItemType - Misc */
+     , (28905,   5,         50) /* EncumbranceVal */
+     , (28905,   8,         10) /* Mass */
+     , (28905,   9,          0) /* ValidLocations - None */
+     , (28905,  11,        100) /* MaxStackSize */
+     , (28905,  12,          1) /* StackSize */
+     , (28905,  13,         50) /* StackUnitEncumbrance */
+     , (28905,  14,         10) /* StackUnitMass */
+     , (28905,  15,         10) /* StackUnitValue */
+     , (28905,  16,          1) /* ItemUseable - No */
+     , (28905,  19,         10) /* Value */
+     , (28905,  33,          1) /* Bonded - Bonded */
+     , (28905,  93,       1044) /* PhysicsState */
+     , (28905, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28905, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (28905,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28905,   1, 'Anchovy Dough') /* Name */
+     , (28905,  14, 'This item is used in the Journeyman Cook''s cooking skill tests.') /* Use */
+     , (28905,  16, 'A slightly-slimy mass of fishy-smelling dough.') /* LongDesc */
+     , (28905,  20, 'Batches of Anchovy Dough') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28905,   1,   33557505) /* Setup */
+     , (28905,   8,  100677045) /* Icon */;

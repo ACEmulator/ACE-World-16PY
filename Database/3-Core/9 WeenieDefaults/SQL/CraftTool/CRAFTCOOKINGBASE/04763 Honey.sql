@@ -1,32 +1,28 @@
-/* Weenie - Honey (4763) */
-DELETE FROM weenie WHERE class_Id = 4763;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4763, 'honey', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4763, 001 /* NAME_STRING */, 'Honey')
-     , (4763, 014 /* USE_STRING */, 'This item is used in cooking.')
-     , (4763, 020 /* PLURAL_NAME_STRING */, 'Pots of Honey');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4763, 001 /* SETUP_DID */, 33555977)
-     , (4763, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4763, 008 /* ICON_DID */, 100669961)
-     , (4763, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4763', 'honey', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4763, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (4763, 005 /* ENCUMB_VAL_INT */, 50)
-     , (4763, 008 /* MASS_INT */, 25)
-     , (4763, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (4763, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (4763, 012 /* STACK_SIZE_INT */, 1)
-     , (4763, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (4763, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (4763, 015 /* STACK_UNIT_VALUE_INT */, 2)
-     , (4763, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (4763, 019 /* VALUE_INT */, 2)
-     , (4763, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (4763, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */);
+VALUES (4763,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (4763,   5,         50) /* EncumbranceVal */
+     , (4763,   8,         25) /* Mass */
+     , (4763,   9,          0) /* ValidLocations - None */
+     , (4763,  11,        100) /* MaxStackSize */
+     , (4763,  12,          1) /* StackSize */
+     , (4763,  13,         50) /* StackUnitEncumbrance */
+     , (4763,  14,         25) /* StackUnitMass */
+     , (4763,  15,          2) /* StackUnitValue */
+     , (4763,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (4763,  19,          2) /* Value */
+     , (4763,  93,       1044) /* PhysicsState */
+     , (4763,  94,    4194336) /* TargetType */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4763,   1, 'Honey') /* Name */
+     , (4763,  14, 'This item is used in cooking.') /* Use */
+     , (4763,  20, 'Pots of Honey') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4763,   1,   33555977) /* Setup */
+     , (4763,   3,  536870932) /* SoundTable */
+     , (4763,   8,  100669961) /* Icon */
+     , (4763,  22,  872415275) /* PhysicsEffectTable */;

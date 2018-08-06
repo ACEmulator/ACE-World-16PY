@@ -1,30 +1,26 @@
-/* Weenie - Crude Tusker Painting (22711) */
-DELETE FROM weenie WHERE class_Id = 22711;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22711, 'signbobostory2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22711, 001 /* NAME_STRING */, 'Crude Tusker Painting')
-     , (22711, 016 /* LONG_DESC_STRING */, 'A crude painting that shows a tusker eating one human, and speaking to other human.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22711, 001 /* SETUP_DID */, 33558139)
-     , (22711, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (22711, 007 /* CLOTHINGBASE_DID */, 268436536)
-     , (22711, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22711', 'signbobostory2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22711, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22711, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (22711, 008 /* MASS_INT */, 1800)
-     , (22711, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22711, 019 /* VALUE_INT */, 125)
-     , (22711, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (22711,   1,        128) /* ItemType - Misc */
+     , (22711,   5,       9000) /* EncumbranceVal */
+     , (22711,   8,       1800) /* Mass */
+     , (22711,  16,          1) /* ItemUseable - No */
+     , (22711,  19,        125) /* Value */
+     , (22711,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22711, 001 /* STUCK_BOOL */, True)
-     , (22711, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22711, 013 /* ETHEREAL_BOOL */, False)
-     , (22711, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (22711,   1, True ) /* Stuck */
+     , (22711,  12, True ) /* ReportCollisions */
+     , (22711,  13, False) /* Ethereal */
+     , (22711,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22711,   1, 'Crude Tusker Painting') /* Name */
+     , (22711,  16, 'A crude painting that shows a tusker eating one human, and speaking to other human.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22711,   1,   33558139) /* Setup */
+     , (22711,   6,   67111092) /* PaletteBase */
+     , (22711,   7,  268436536) /* ClothingBase */
+     , (22711,   8,  100668115) /* Icon */;

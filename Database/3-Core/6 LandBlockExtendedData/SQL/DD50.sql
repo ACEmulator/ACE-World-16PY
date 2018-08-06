@@ -1,15 +1,29 @@
-INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14411, 2111111185, 3713007872, 151.275, 128.013, 22.005, 0.588842, 0, 0, -0.808248) /* Ostentatious Farmer */
-     , (14453, 2111111184, 3713007874, 157.066, 136.389, 21.505, 0.998846, 0, 0, -0.0480363) /* Trap Door */
-     , (14418, 2111111183, 3713007874, 156.081, 136.535, 21.505, 0.999545, 0, 0, -0.0301505) /* Trap Door */
-     , (5621, 2111111188, 3713007876, 156.526, 139.422, 21.505, -0.831201, 0, 0, 0.555972) /* Hot Air */
-     , (5621, 2111111187, 3713007876, 157.247, 139.72, 21.505, -0.831201, 0, 0, 0.555972) /* Hot Air */
-     , (5621, 2111111186, 3713007876, 155.057, 139.73, 21.505, -0.704178, 0, 0, 0.710023) /* Hot Air */
-     , (1403, 2111111177, 3713007877, 152.254, 127.395, 27.605, -0.834151, 0, 0, 0.551536) /* cluelostlightgen */
-     , (722, 2111111175, 3713007616, 155, 122.95, 22, 1, 0, 0, 0) /* Door */
-     , (721, 2111111176, 3713007616, 157, 122.95, 22, -4.37114E-08, 0, 0, -1) /* Door */;
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2111111175,   722, 3713007616, 155, 122.95, 22, 1, 0, 0, 0, False); /* Door */
 
-UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2111111184'; /* Trap Door */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2111111176,   721, 3713007616, 157, 122.95, 22, -4.37114E-08, 0, 0, -1, False); /* Door */
 
-UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2111111183'; /* Trap Door <- Trap Door */
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2111111177,  1403, 3713007877, 152.254, 127.395, 27.605, -0.834151, 0, 0, 0.551536, False); /* LostLight Clue Generator */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2111111183, 14418, 3713007874, 156.081, 136.535, 21.505, 0.999545, 0, 0, -0.0301505,  True); /* Trap Door */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2111111184, 14453, 3713007874, 157.066, 136.389, 21.505, 0.998846, 0, 0, -0.0480363, False); /* Trap Door */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2111111184, 2111111183) /* Trap Door */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2111111185, 14411, 3713007872, 151.275, 128.013, 22.005, 0.588842, 0, 0, -0.808248, False); /* Ostentatious Farmer */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2111111186,  5621, 3713007876, 155.057, 139.73, 21.505, -0.704178, 0, 0, 0.710023, False); /* Hot Air */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2111111187,  5621, 3713007876, 157.247, 139.72, 21.505, -0.831201, 0, 0, 0.555972, False); /* Hot Air */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2111111188,  5621, 3713007876, 156.526, 139.422, 21.505, -0.831201, 0, 0, 0.555972, False); /* Hot Air */

@@ -1,46 +1,42 @@
-/* Weenie - Suikan Robe (25810) */
-DELETE FROM weenie WHERE class_Id = 25810;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25810, 'robeshomonsteronly', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25810, 001 /* NAME_STRING */, 'Suikan Robe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25810, 001 /* SETUP_DID */, 33554854)
-     , (25810, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25810, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (25810, 007 /* CLOTHINGBASE_DID */, 268435864)
-     , (25810, 008 /* ICON_DID */, 100670382)
-     , (25810, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (25810, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25810', 'robeshomonsteronly', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25810, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (25810, 003 /* PALETTE_TEMPLATE_INT */, 17 /* YELLOW_PALETTE_TEMPLATE */)
-     , (25810, 004 /* CLOTHING_PRIORITY_INT */, 81664 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */)
-     , (25810, 005 /* ENCUMB_VAL_INT */, 200)
-     , (25810, 008 /* MASS_INT */, 150)
-     , (25810, 009 /* LOCATIONS_INT */, 32512 /* FOOT_WEAR_LOC, ARMOR_LOC */)
-     , (25810, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (25810, 019 /* VALUE_INT */, 50)
-     , (25810, 027 /* ARMOR_TYPE_INT */, 1)
-     , (25810, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (25810, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (25810, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25810, 012 /* SHADE_FLOAT */, 0.5)
-     , (25810, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
-     , (25810, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (25810, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (25810, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (25810, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (25810, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
-     , (25810, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
+VALUES (25810,   1,          4) /* ItemType - Clothing */
+     , (25810,   3,         17) /* PaletteTemplate - Yellow */
+     , (25810,   4,      81664) /* ClothingPriority */
+     , (25810,   5,        200) /* EncumbranceVal */
+     , (25810,   8,        150) /* Mass */
+     , (25810,   9,      32512) /* ValidLocations - Armor */
+     , (25810,  16,          1) /* ItemUseable - No */
+     , (25810,  19,         50) /* Value */
+     , (25810,  27,          1) /* ArmorType */
+     , (25810,  28,          0) /* ArmorLevel */
+     , (25810,  33,         -2) /* Bonded - Destroy */
+     , (25810,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25810, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25810, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (25810,  22, True ) /* Inscribable */
+     , (25810,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25810,  12,     0.5) /* Shade */
+     , (25810,  13,     0.8) /* ArmorModVsSlash */
+     , (25810,  14,     0.8) /* ArmorModVsPierce */
+     , (25810,  15,       1) /* ArmorModVsBludgeon */
+     , (25810,  16,     0.2) /* ArmorModVsCold */
+     , (25810,  17,     0.2) /* ArmorModVsFire */
+     , (25810,  18,     0.1) /* ArmorModVsAcid */
+     , (25810,  19,     0.2) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25810,   1, 'Suikan Robe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25810,   1,   33554854) /* Setup */
+     , (25810,   3,  536870932) /* SoundTable */
+     , (25810,   6,   67108990) /* PaletteBase */
+     , (25810,   7,  268435864) /* ClothingBase */
+     , (25810,   8,  100670382) /* Icon */
+     , (25810,  22,  872415275) /* PhysicsEffectTable */
+     , (25810,  36,  234881046) /* MutateFilter */;

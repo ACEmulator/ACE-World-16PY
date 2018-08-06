@@ -1,33 +1,29 @@
-/* Weenie - Dead Olthoi (24339) */
-DELETE FROM weenie WHERE class_Id = 24339;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24339, 'chestolthoiinfected', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24339, 001 /* NAME_STRING */, 'Dead Olthoi')
-     , (24339, 016 /* LONG_DESC_STRING */, 'The olthoi''s shell looks unusually thin and pliant. You think you see things moving under the surface.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24339, 001 /* SETUP_DID */, 33558341)
-     , (24339, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24339, 006 /* PALETTE_BASE_DID */, 67113236)
-     , (24339, 007 /* CLOTHINGBASE_DID */, 268436599)
-     , (24339, 008 /* ICON_DID */, 100667623);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24339', 'chestolthoiinfected', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24339, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24339, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (24339, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (24339, 008 /* MASS_INT */, 3000)
-     , (24339, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24339, 019 /* VALUE_INT */, 3000)
-     , (24339, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24339, 012 /* SHADE_FLOAT */, 0.5);
+VALUES (24339,   1,        128) /* ItemType - Misc */
+     , (24339,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (24339,   5,       9000) /* EncumbranceVal */
+     , (24339,   8,       3000) /* Mass */
+     , (24339,  16,          1) /* ItemUseable - No */
+     , (24339,  19,       3000) /* Value */
+     , (24339,  93,       1040) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24339, 001 /* STUCK_BOOL */, True)
-     , (24339, 013 /* ETHEREAL_BOOL */, False);
+VALUES (24339,   1, True ) /* Stuck */
+     , (24339,  13, False) /* Ethereal */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24339,  12,     0.5) /* Shade */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24339,   1, 'Dead Olthoi') /* Name */
+     , (24339,  16, 'The olthoi''s shell looks unusually thin and pliant. You think you see things moving under the surface.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24339,   1,   33558341) /* Setup */
+     , (24339,   3,  536870932) /* SoundTable */
+     , (24339,   6,   67113236) /* PaletteBase */
+     , (24339,   7,  268436599) /* ClothingBase */
+     , (24339,   8,  100667623) /* Icon */;

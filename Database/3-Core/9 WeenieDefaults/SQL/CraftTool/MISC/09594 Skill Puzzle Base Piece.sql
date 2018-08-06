@@ -1,43 +1,39 @@
-/* Weenie - Skill Puzzle Base Piece (9594) */
-DELETE FROM weenie WHERE class_Id = 9594;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9594, 'skillpuzzlebase', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9594, 001 /* NAME_STRING */, 'Skill Puzzle Base Piece')
-     , (9594, 014 /* USE_STRING */, 'Use this on a Bestowers'' Guild Skill Puzzle Piece.')
-     , (9594, 016 /* LONG_DESC_STRING */, 'The base piece for the Bestowers'' Guild skill puzzle.')
-     , (9594, 033 /* QUEST_STRING */, 'BestowerBasePiece');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9594, 001 /* SETUP_DID */, 33557028)
-     , (9594, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9594, 008 /* ICON_DID */, 100671537)
-     , (9594, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9594', 'skillpuzzlebase', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9594, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9594, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9594, 008 /* MASS_INT */, 10)
-     , (9594, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9594, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (9594, 012 /* STACK_SIZE_INT */, 1)
-     , (9594, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (9594, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (9594, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (9594, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (9594, 019 /* VALUE_INT */, 0)
-     , (9594, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (9594, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9594, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (9594, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9594, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9594, 039 /* DEFAULT_SCALE_FLOAT */, 1.67);
+VALUES (9594,   1,        128) /* ItemType - Misc */
+     , (9594,   5,         10) /* EncumbranceVal */
+     , (9594,   8,         10) /* Mass */
+     , (9594,   9,          0) /* ValidLocations - None */
+     , (9594,  11,          1) /* MaxStackSize */
+     , (9594,  12,          1) /* StackSize */
+     , (9594,  13,         10) /* StackUnitEncumbrance */
+     , (9594,  14,         10) /* StackUnitMass */
+     , (9594,  15,          0) /* StackUnitValue */
+     , (9594,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (9594,  19,          0) /* Value */
+     , (9594,  33,         -2) /* Bonded - Destroy */
+     , (9594,  93,       1044) /* PhysicsState */
+     , (9594,  94,        128) /* TargetType - Misc */
+     , (9594, 150,        103) /* HookPlacement - Hook */
+     , (9594, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9594, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9594, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9594,  22, True ) /* Inscribable */
+     , (9594,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9594,  39,    1.67) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9594,   1, 'Skill Puzzle Base Piece') /* Name */
+     , (9594,  14, 'Use this on a Bestowers'' Guild Skill Puzzle Piece.') /* Use */
+     , (9594,  16, 'The base piece for the Bestowers'' Guild skill puzzle.') /* LongDesc */
+     , (9594,  33, 'BestowerBasePiece') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9594,   1,   33557028) /* Setup */
+     , (9594,   3,  536870932) /* SoundTable */
+     , (9594,   8,  100671537) /* Icon */
+     , (9594,  22,  872415275) /* PhysicsEffectTable */;

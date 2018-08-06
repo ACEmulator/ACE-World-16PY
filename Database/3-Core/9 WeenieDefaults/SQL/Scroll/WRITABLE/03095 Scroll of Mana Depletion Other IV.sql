@@ -1,33 +1,29 @@
-/* Weenie - Scroll of Mana Depletion Other IV (3095) */
-DELETE FROM weenie WHERE class_Id = 3095;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3095, 'scrollmanadepletion4', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3095, 001 /* NAME_STRING */, 'Scroll of Mana Depletion Other IV')
-     , (3095, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
-     , (3095, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases target''s natural mana rate by 50%.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3095, 001 /* SETUP_DID */, 33554826)
-     , (3095, 008 /* ICON_DID */, 100676939)
-     , (3095, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3095, 028 /* SPELL_DID */, 221 /* ManaDepletionOther4_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3095', 'scrollmanadepletion4', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3095, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (3095, 005 /* ENCUMB_VAL_INT */, 30)
-     , (3095, 008 /* MASS_INT */, 90)
-     , (3095, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (3095, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (3095, 019 /* VALUE_INT */, 100)
-     , (3095, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3095, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (3095,   1,       8192) /* ItemType - Writable */
+     , (3095,   5,         30) /* EncumbranceVal */
+     , (3095,   8,         90) /* Mass */
+     , (3095,   9,          0) /* ValidLocations - None */
+     , (3095,  16,          8) /* ItemUseable - Contained */
+     , (3095,  19,        100) /* Value */
+     , (3095,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3095, 022 /* INSCRIBABLE_BOOL */, True)
-     , (3095, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (3095,  22, True ) /* Inscribable */
+     , (3095,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3095,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3095,   1, 'Scroll of Mana Depletion Other IV') /* Name */
+     , (3095,  15, 'A magic scroll.') /* ShortDesc */
+     , (3095,  16, 'When learned, this spell decreases target''s natural mana rate by 50%.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3095,   1,   33554826) /* Setup */
+     , (3095,   8,  100676939) /* Icon */
+     , (3095,  22,  872415275) /* PhysicsEffectTable */
+     , (3095,  28,        221) /* Spell - Mana Depletion Other IV */;

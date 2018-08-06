@@ -1,36 +1,32 @@
-/* Weenie - Button (8419) */
-DELETE FROM weenie WHERE class_Id = 8419;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8419, 'buttonswitchmini', 26 /* Switch_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8419, 001 /* NAME_STRING */, 'Button');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8419, 001 /* SETUP_DID */, 33554714)
-     , (8419, 008 /* ICON_DID */, 100667474);
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8419, 016 /* ACTIVATION_TARGET_IID */, 0);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8419', 'buttonswitchmini', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8419, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (8419, 005 /* ENCUMB_VAL_INT */, 5)
-     , (8419, 008 /* MASS_INT */, 5)
-     , (8419, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8419, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (8419, 019 /* VALUE_INT */, 10)
-     , (8419, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (8419, 119 /* ACTIVE_INT */, 1);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8419, 039 /* DEFAULT_SCALE_FLOAT */, 0.3)
-     , (8419, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (8419,   1,        128) /* ItemType - Misc */
+     , (8419,   5,          5) /* EncumbranceVal */
+     , (8419,   8,          5) /* Mass */
+     , (8419,   9,          0) /* ValidLocations - None */
+     , (8419,  16,         48) /* ItemUseable - ViewedRemote */
+     , (8419,  19,         10) /* Value */
+     , (8419,  93,       1032) /* PhysicsState */
+     , (8419, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8419, 001 /* STUCK_BOOL */, True)
-     , (8419, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (8419, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (8419, 013 /* ETHEREAL_BOOL */, False);
+VALUES (8419,   1, True ) /* Stuck */
+     , (8419,  11, False) /* IgnoreCollisions */
+     , (8419,  12, True ) /* ReportCollisions */
+     , (8419,  13, False) /* Ethereal */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8419,  39,     0.3) /* DefaultScale */
+     , (8419,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8419,   1, 'Button') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8419,   1,   33554714) /* Setup */
+     , (8419,   8,  100667474) /* Icon */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (8419,  16,          0) /* ActivationTarget */;

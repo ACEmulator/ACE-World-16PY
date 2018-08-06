@@ -1,53 +1,49 @@
-/* Weenie - Deadly Frog Crotch Atlatl Dart (20971) */
-DELETE FROM weenie WHERE class_Id = 20971;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20971, 'atlatldartdeadlyfrogcrotch', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20971, 001 /* NAME_STRING */, 'Deadly Frog Crotch Atlatl Dart');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20971, 001 /* SETUP_DID */, 33557434)
-     , (20971, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20971, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (20971, 007 /* CLOTHINGBASE_DID */, 268436305)
-     , (20971, 008 /* ICON_DID */, 100672683)
-     , (20971, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20971', 'atlatldartdeadlyfrogcrotch', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20971, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (20971, 003 /* PALETTE_TEMPLATE_INT */, 77 /* BLUEGREEN_PALETTE_TEMPLATE */)
-     , (20971, 005 /* ENCUMB_VAL_INT */, 10)
-     , (20971, 008 /* MASS_INT */, 2)
-     , (20971, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
-     , (20971, 011 /* MAX_STACK_SIZE_INT */, 250)
-     , (20971, 012 /* STACK_SIZE_INT */, 1)
-     , (20971, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (20971, 014 /* STACK_UNIT_MASS_INT */, 2)
-     , (20971, 015 /* STACK_UNIT_VALUE_INT */, 9)
-     , (20971, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20971, 019 /* VALUE_INT */, 9)
-     , (20971, 044 /* DAMAGE_INT */, 32)
-     , (20971, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (20971, 050 /* AMMO_TYPE_INT */, 4 /* AMMO_ARROW_CRYSTAL */)
-     , (20971, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
-     , (20971, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (20971, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (20971, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (20971, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (20971, 159 /* WIELD_SKILLTYPE_INT */, 12 /* THROWN_WEAPON_SKILL */)
-     , (20971, 160 /* WIELD_DIFFICULTY_INT */, 230);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20971, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.2)
-     , (20971, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (20971, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (20971, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (20971, 078 /* FRICTION_FLOAT */, 1)
-     , (20971, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (20971,   1,        256) /* ItemType - MissileWeapon */
+     , (20971,   3,         77) /* PaletteTemplate - BlueGreen */
+     , (20971,   5,         10) /* EncumbranceVal */
+     , (20971,   8,          2) /* Mass */
+     , (20971,   9,    8388608) /* ValidLocations - MissileAmmo */
+     , (20971,  11,        250) /* MaxStackSize */
+     , (20971,  12,          1) /* StackSize */
+     , (20971,  13,         10) /* StackUnitEncumbrance */
+     , (20971,  14,          2) /* StackUnitMass */
+     , (20971,  15,          9) /* StackUnitValue */
+     , (20971,  16,          1) /* ItemUseable - No */
+     , (20971,  19,          9) /* Value */
+     , (20971,  44,         32) /* Damage */
+     , (20971,  45,          1) /* DamageType - Slash */
+     , (20971,  50,          4) /* AmmoType - ArrowCrystal */
+     , (20971,  51,          3) /* CombatUse - Ammo */
+     , (20971,  93,     132116) /* PhysicsState */
+     , (20971, 150,        103) /* HookPlacement - Hook */
+     , (20971, 151,          2) /* HookType - Wall */
+     , (20971, 158,          2) /* WieldRequirements - RawSkill */
+     , (20971, 159,         12) /* WieldSkilltype - ThrownWeapon */
+     , (20971, 160,        230) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20971, 017 /* INELASTIC_BOOL */, True)
-     , (20971, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (20971,  17, True ) /* Inelastic */
+     , (20971,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20971,  22,     0.2) /* DamageVariance */
+     , (20971,  29,       1) /* WeaponDefense */
+     , (20971,  39,     1.1) /* DefaultScale */
+     , (20971,  62,       1) /* WeaponOffense */
+     , (20971,  78,       1) /* Friction */
+     , (20971,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20971,   1, 'Deadly Frog Crotch Atlatl Dart') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20971,   1,   33557434) /* Setup */
+     , (20971,   3,  536870932) /* SoundTable */
+     , (20971,   6,   67111919) /* PaletteBase */
+     , (20971,   7,  268436305) /* ClothingBase */
+     , (20971,   8,  100672683) /* Icon */
+     , (20971,  22,  872415275) /* PhysicsEffectTable */;

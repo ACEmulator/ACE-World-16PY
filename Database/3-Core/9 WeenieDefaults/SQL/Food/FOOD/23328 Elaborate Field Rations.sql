@@ -1,37 +1,33 @@
-/* Weenie - Elaborate Field Rations (23328) */
-DELETE FROM weenie WHERE class_Id = 23328;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23328, 'rationsfieldelaborate', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23328, 001 /* NAME_STRING */, 'Elaborate Field Rations')
-     , (23328, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (23328, 015 /* SHORT_DESC_STRING */, 'An elaborate mix of reconstituted meat, nuts, and fruit. It''s very filling, and almost tasty.')
-     , (23328, 020 /* PLURAL_NAME_STRING */, 'Elaborate Field Rations');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23328, 001 /* SETUP_DID */, 33554817)
-     , (23328, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23328, 008 /* ICON_DID */, 100674004)
-     , (23328, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23328', 'rationsfieldelaborate', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23328, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (23328, 005 /* ENCUMB_VAL_INT */, 125)
-     , (23328, 008 /* MASS_INT */, 230)
-     , (23328, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23328, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (23328, 012 /* STACK_SIZE_INT */, 1)
-     , (23328, 013 /* STACK_UNIT_ENCUMB_INT */, 125)
-     , (23328, 014 /* STACK_UNIT_MASS_INT */, 230)
-     , (23328, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (23328, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (23328, 019 /* VALUE_INT */, 0)
-     , (23328, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (23328, 090 /* BOOST_VALUE_INT */, 100)
-     , (23328, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (23328,   1,         32) /* ItemType - Food */
+     , (23328,   5,        125) /* EncumbranceVal */
+     , (23328,   8,        230) /* Mass */
+     , (23328,   9,          0) /* ValidLocations - None */
+     , (23328,  11,        100) /* MaxStackSize */
+     , (23328,  12,          1) /* StackSize */
+     , (23328,  13,        125) /* StackUnitEncumbrance */
+     , (23328,  14,        230) /* StackUnitMass */
+     , (23328,  15,          0) /* StackUnitValue */
+     , (23328,  16,          8) /* ItemUseable - Contained */
+     , (23328,  19,          0) /* Value */
+     , (23328,  89,          4) /* BoosterEnum - Stamina */
+     , (23328,  90,        100) /* BoostValue */
+     , (23328,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23328, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (23328,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23328,   1, 'Elaborate Field Rations') /* Name */
+     , (23328,  14, 'Use this item to eat it.') /* Use */
+     , (23328,  15, 'An elaborate mix of reconstituted meat, nuts, and fruit. It''s very filling, and almost tasty.') /* ShortDesc */
+     , (23328,  20, 'Elaborate Field Rations') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23328,   1,   33554817) /* Setup */
+     , (23328,   3,  536870932) /* SoundTable */
+     , (23328,   8,  100674004) /* Icon */
+     , (23328,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,30 +1,26 @@
-/* Weenie - Southern Town Bows (4512) */
-DELETE FROM weenie WHERE class_Id = 4512;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4512, 'nantobowyersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4512, 001 /* NAME_STRING */, 'Southern Town Bows')
-     , (4512, 016 /* LONG_DESC_STRING */, 'Southern Town Bows');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4512, 001 /* SETUP_DID */, 33555594)
-     , (4512, 006 /* PALETTE_BASE_DID */, 67111782)
-     , (4512, 007 /* CLOTHINGBASE_DID */, 268435687)
-     , (4512, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4512', 'nantobowyersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4512, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4512, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4512, 008 /* MASS_INT */, 1800)
-     , (4512, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4512, 019 /* VALUE_INT */, 125)
-     , (4512, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (4512,   1,        128) /* ItemType - Misc */
+     , (4512,   5,       9000) /* EncumbranceVal */
+     , (4512,   8,       1800) /* Mass */
+     , (4512,  16,          1) /* ItemUseable - No */
+     , (4512,  19,        125) /* Value */
+     , (4512,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4512, 001 /* STUCK_BOOL */, True)
-     , (4512, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4512, 013 /* ETHEREAL_BOOL */, False)
-     , (4512, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4512,   1, True ) /* Stuck */
+     , (4512,  12, True ) /* ReportCollisions */
+     , (4512,  13, False) /* Ethereal */
+     , (4512,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4512,   1, 'Southern Town Bows') /* Name */
+     , (4512,  16, 'Southern Town Bows') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4512,   1,   33555594) /* Setup */
+     , (4512,   6,   67111782) /* PaletteBase */
+     , (4512,   7,  268435687) /* ClothingBase */
+     , (4512,   8,  100668115) /* Icon */;

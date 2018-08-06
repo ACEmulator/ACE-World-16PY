@@ -1,36 +1,32 @@
-/* Weenie - Fountain (4129) */
-DELETE FROM weenie WHERE class_Id = 4129;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4129, 'fountainofstrength', 26 /* Switch_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4129, 001 /* NAME_STRING */, 'Fountain')
-     , (4129, 022 /* ACTIVATION_FAILURE_STRING */, 'The fountain was used too recently!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4129, 001 /* SETUP_DID */, 33555071)
-     , (4129, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (4129, 008 /* ICON_DID */, 100668104)
-     , (4129, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (4129, 028 /* SPELL_DID */, 1 /* StrengthOther1_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4129', 'fountainofstrength', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4129, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4129, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (4129, 008 /* MASS_INT */, 3000)
-     , (4129, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (4129, 019 /* VALUE_INT */, 200)
-     , (4129, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
-     , (4129, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (4129, 119 /* ACTIVE_INT */, 1);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4129, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (4129, 054 /* USE_RADIUS_FLOAT */, 2.3);
+VALUES (4129,   1,        128) /* ItemType - Misc */
+     , (4129,   5,       6000) /* EncumbranceVal */
+     , (4129,   8,       3000) /* Mass */
+     , (4129,  16,         48) /* ItemUseable - ViewedRemote */
+     , (4129,  19,        200) /* Value */
+     , (4129,  83,       4096) /* ActivationResponse - CastSpell */
+     , (4129,  93,       1048) /* PhysicsState */
+     , (4129, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4129, 001 /* STUCK_BOOL */, True)
-     , (4129, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4129, 013 /* ETHEREAL_BOOL */, False);
+VALUES (4129,   1, True ) /* Stuck */
+     , (4129,  12, True ) /* ReportCollisions */
+     , (4129,  13, False) /* Ethereal */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4129,  11,     300) /* ResetInterval */
+     , (4129,  54,     2.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4129,   1, 'Fountain') /* Name */
+     , (4129,  22, 'The fountain was used too recently!') /* ActivationFailure */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4129,   1,   33555071) /* Setup */
+     , (4129,   3,  536870932) /* SoundTable */
+     , (4129,   8,  100668104) /* Icon */
+     , (4129,  22,  872415275) /* PhysicsEffectTable */
+     , (4129,  28,          1) /* Spell - Strength Other I */;

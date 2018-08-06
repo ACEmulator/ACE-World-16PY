@@ -1,34 +1,30 @@
-/* Weenie - Trade Note (200,000) (20629) */
-DELETE FROM weenie WHERE class_Id = 20629;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20629, 'tradenote200000', 51 /* Stackable_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20629, 001 /* NAME_STRING */, 'Trade Note (200,000)')
-     , (20629, 020 /* PLURAL_NAME_STRING */, 'Trade Notes (200,000)');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20629, 001 /* SETUP_DID */, 33554773)
-     , (20629, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20629, 008 /* ICON_DID */, 100673376)
-     , (20629, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20629', 'tradenote200000', 51) /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20629, 001 /* ITEM_TYPE_INT */, 262144 /* TYPE_PROMISSORY_NOTE */)
-     , (20629, 005 /* ENCUMB_VAL_INT */, 5)
-     , (20629, 008 /* MASS_INT */, 5)
-     , (20629, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20629, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (20629, 012 /* STACK_SIZE_INT */, 1)
-     , (20629, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (20629, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (20629, 015 /* STACK_UNIT_VALUE_INT */, 200000)
-     , (20629, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (20629, 019 /* VALUE_INT */, 200000)
-     , (20629, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (20629, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (20629,   1,     262144) /* ItemType - PromissoryNote */
+     , (20629,   5,          5) /* EncumbranceVal */
+     , (20629,   8,          5) /* Mass */
+     , (20629,   9,          0) /* ValidLocations - None */
+     , (20629,  11,        100) /* MaxStackSize */
+     , (20629,  12,          1) /* StackSize */
+     , (20629,  13,          5) /* StackUnitEncumbrance */
+     , (20629,  14,          5) /* StackUnitMass */
+     , (20629,  15,     200000) /* StackUnitValue */
+     , (20629,  16,          1) /* ItemUseable - No */
+     , (20629,  19,     200000) /* Value */
+     , (20629,  33,          1) /* Bonded - Bonded */
+     , (20629,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20629, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20629,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20629,   1, 'Trade Note (200,000)') /* Name */
+     , (20629,  20, 'Trade Notes (200,000)') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20629,   1,   33554773) /* Setup */
+     , (20629,   3,  536870932) /* SoundTable */
+     , (20629,   8,  100673376) /* Icon */
+     , (20629,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,49 +1,45 @@
-/* Weenie - Nariyid Sleeves (27232) */
-DELETE FROM weenie WHERE class_Id = 27232;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27232, 'sleevesnariyid', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27232, 001 /* NAME_STRING */, 'Nariyid Sleeves');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27232, 001 /* SETUP_DID */, 33554655)
-     , (27232, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27232, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (27232, 007 /* CLOTHINGBASE_DID */, 268436809)
-     , (27232, 008 /* ICON_DID */, 100676271)
-     , (27232, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27232, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (27232, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27232', 'sleevesnariyid', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27232, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (27232, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (27232, 004 /* CLOTHING_PRIORITY_INT */, 12288 /* OuterwearUpperArms, OuterwearLowerArms */)
-     , (27232, 005 /* ENCUMB_VAL_INT */, 1400)
-     , (27232, 008 /* MASS_INT */, 700)
-     , (27232, 009 /* LOCATIONS_INT */, 6144 /* UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (27232, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27232, 019 /* VALUE_INT */, 1247)
-     , (27232, 027 /* ARMOR_TYPE_INT */, 32)
-     , (27232, 028 /* ARMOR_LEVEL_INT */, 110)
-     , (27232, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27232, 169 /* TSYS_MUTATION_DATA_INT */, 118096132);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27232, 012 /* SHADE_FLOAT */, 0.66)
-     , (27232, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (27232, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (27232, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (27232, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (27232, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (27232, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (27232, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
-     , (27232, 110 /* BULK_MOD_FLOAT */, 0.9)
-     , (27232, 111 /* SIZE_MOD_FLOAT */, 1.2);
+VALUES (27232,   1,          2) /* ItemType - Armor */
+     , (27232,   3,         20) /* PaletteTemplate - Silver */
+     , (27232,   4,      12288) /* ClothingPriority */
+     , (27232,   5,       1400) /* EncumbranceVal */
+     , (27232,   8,        700) /* Mass */
+     , (27232,   9,       6144) /* ValidLocations */
+     , (27232,  16,          1) /* ItemUseable - No */
+     , (27232,  19,       1247) /* Value */
+     , (27232,  27,         32) /* ArmorType */
+     , (27232,  28,        110) /* ArmorLevel */
+     , (27232,  93,       1044) /* PhysicsState */
+     , (27232, 169,  118096132) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27232, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27232, 100 /* DYABLE_BOOL */, True);
+VALUES (27232,  22, True ) /* Inscribable */
+     , (27232, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27232,  12,    0.66) /* Shade */
+     , (27232,  13,     1.3) /* ArmorModVsSlash */
+     , (27232,  14,       1) /* ArmorModVsPierce */
+     , (27232,  15,       1) /* ArmorModVsBludgeon */
+     , (27232,  16,     0.4) /* ArmorModVsCold */
+     , (27232,  17,     0.4) /* ArmorModVsFire */
+     , (27232,  18,     0.6) /* ArmorModVsAcid */
+     , (27232,  19,     0.4) /* ArmorModVsElectric */
+     , (27232, 110,     0.9) /* BulkMod */
+     , (27232, 111,     1.2) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27232,   1, 'Nariyid Sleeves') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27232,   1,   33554655) /* Setup */
+     , (27232,   3,  536870932) /* SoundTable */
+     , (27232,   6,   67108990) /* PaletteBase */
+     , (27232,   7,  268436809) /* ClothingBase */
+     , (27232,   8,  100676271) /* Icon */
+     , (27232,  22,  872415275) /* PhysicsEffectTable */
+     , (27232,  36,  234881042) /* MutateFilter */
+     , (27232,  46,  939524146) /* TsysMutationFilter */;

@@ -1,34 +1,30 @@
-/* Weenie - Mosswart Thanking Stone (27529) */
-DELETE FROM weenie WHERE class_Id = 27529;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27529, 'mosswartstonethankshookablelo', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27529, 001 /* NAME_STRING */, 'Mosswart Thanking Stone')
-     , (27529, 016 /* LONG_DESC_STRING */, 'A small stone carved with the stylized face of a smiling Mosswart. These are given by Mosswarts as a gesture of thanks.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27529, 001 /* SETUP_DID */, 33558698)
-     , (27529, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27529, 008 /* ICON_DID */, 100676432)
-     , (27529, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27529', 'mosswartstonethankshookablelo', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27529, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (27529, 005 /* ENCUMB_VAL_INT */, 75)
-     , (27529, 008 /* MASS_INT */, 1)
-     , (27529, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27529, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27529, 019 /* VALUE_INT */, 5)
-     , (27529, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27529, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27529, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27529, 039 /* DEFAULT_SCALE_FLOAT */, 0.75);
+VALUES (27529,   1,        128) /* ItemType - Misc */
+     , (27529,   5,         75) /* EncumbranceVal */
+     , (27529,   8,          1) /* Mass */
+     , (27529,   9,          0) /* ValidLocations - None */
+     , (27529,  16,          1) /* ItemUseable - No */
+     , (27529,  19,          5) /* Value */
+     , (27529,  93,       1044) /* PhysicsState */
+     , (27529, 150,        103) /* HookPlacement - Hook */
+     , (27529, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27529, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27529, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27529,  22, True ) /* Inscribable */
+     , (27529,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27529,  39,    0.75) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27529,   1, 'Mosswart Thanking Stone') /* Name */
+     , (27529,  16, 'A small stone carved with the stylized face of a smiling Mosswart. These are given by Mosswarts as a gesture of thanks.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27529,   1,   33558698) /* Setup */
+     , (27529,   3,  536870932) /* SoundTable */
+     , (27529,   8,  100676432) /* Icon */
+     , (27529,  22,  872415275) /* PhysicsEffectTable */;

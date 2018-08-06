@@ -1,45 +1,43 @@
-/* Weenie - Caerlin Dormitory Conveyance (24011) */
-DELETE FROM weenie WHERE class_Id = 24011;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24011, 'trapportal-knorrdormcaerlin', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24011, 001 /* NAME_STRING */, 'Caerlin Dormitory Conveyance');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24011, 001 /* SETUP_DID */, 33558268)
-     , (24011, 003 /* SOUND_TABLE_DID */, 536871008)
-     , (24011, 008 /* ICON_DID */, 100674152);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24011', 'trapportal-knorrdormcaerlin', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24011, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (24011, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24011, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24011, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
-     , (24011, 093 /* PHYSICS_STATE_INT */, 2060 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, LIGHTING_ON_PS */)
-     , (24011, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (24011, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24011, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (24011,   1,      65536) /* ItemType - Portal */
+     , (24011,   9,          0) /* ValidLocations - None */
+     , (24011,  16,          1) /* ItemUseable - No */
+     , (24011,  83,       4096) /* ActivationResponse - CastSpell */
+     , (24011,  93,       2060) /* PhysicsState */
+     , (24011, 111,         49) /* PortalBitmask */
+     , (24011, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24011, 001 /* STUCK_BOOL */, True)
-     , (24011, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (24011, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (24011, 013 /* ETHEREAL_BOOL */, True)
-     , (24011, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (24011, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (24011, 024 /* UI_HIDDEN_BOOL */, False)
-     , (24011, 089 /* PORTAL_IGNORES_PK_ATTACK_TIMER_BOOL */, True);
+VALUES (24011,   1, True ) /* Stuck */
+     , (24011,  11, False) /* IgnoreCollisions */
+     , (24011,  12, True ) /* ReportCollisions */
+     , (24011,  13, True ) /* Ethereal */
+     , (24011,  14, False) /* GravityStatus */
+     , (24011,  15, True ) /* LightsStatus */
+     , (24011,  24, False) /* UiHidden */
+     , (24011,  89, True ) /* PortalIgnoresPkAttackTimer */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24011,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24011,   1, 'Caerlin Dormitory Conveyance') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24011,   1,   33558268) /* Setup */
+     , (24011,   3,  536871008) /* SoundTable */
+     , (24011,   8,  100674152) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24011, 2, 1682178372, 90, -300, -23.995, 1, 0, 0, 0) /* DESTINATION_POSITION */;
+VALUES (24011, 2, 1682178372, 90, -300, -23.995, 1, 0, 0, 0) /* Destination */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24011, 1, 7 /* Use_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (24011,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24011, 7 /* Use_EmoteCategory */, 0, 0, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, '"This area has been deemed uninhabitable by Arikas, Warden of Knorr. The presence of life forms catalogued as Olthoi is too numerous to allow conveyance to continue, you will be returned to the Seat of Knorr.  "', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+SET @parent_id = LAST_INSERT_ID();
 
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '"This area has been deemed uninhabitable by Arikas, Warden of Knorr. The presence of life forms catalogued as Olthoi is too numerous to allow conveyance to continue, you will be returned to the Seat of Knorr.  "', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

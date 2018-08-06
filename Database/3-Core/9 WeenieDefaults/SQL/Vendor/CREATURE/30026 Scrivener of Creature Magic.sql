@@ -1,262 +1,302 @@
-/* Weenie - Scrivener of Creature Magic (30026) */
-DELETE FROM weenie WHERE class_Id = 30026;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30026, 'viascrivenercreatureouter', 12 /* Vendor_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30026, 001 /* NAME_STRING */, 'Scrivener of Creature Magic')
-     , (30026, 003 /* SEX_STRING */, 'Female')
-     , (30026, 004 /* HERITAGE_GROUP_STRING */, 'Gharu''ndim')
-     , (30026, 005 /* TEMPLATE_STRING */, 'Master Archmage')
-     , (30026, 024 /* TOWN_NAME_STRING */, 'Fort Tethana');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30026, 001 /* SETUP_DID */, 33554510)
-     , (30026, 002 /* MOTION_TABLE_DID */, 150994945)
-     , (30026, 003 /* SOUND_TABLE_DID */, 536870914)
-     , (30026, 004 /* COMBAT_TABLE_DID */, 805306368)
-     , (30026, 008 /* ICON_DID */, 100667446);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30026', 'viascrivenercreatureouter', 12) /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30026, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30026, 002 /* CREATURE_TYPE_INT */, 31 /* Human_CreatureType */)
-     , (30026, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (30026, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (30026, 008 /* MASS_INT */, 120)
-     , (30026, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (30026, 025 /* LEVEL_INT */, 14)
-     , (30026, 027 /* ARMOR_TYPE_INT */, 0)
-     , (30026, 074 /* MERCHANDISE_ITEM_TYPES_INT */, 270464 /* TYPE_MISC, TYPE_WRITABLE, TYPE_PROMISSORY_NOTE */)
-     , (30026, 075 /* MERCHANDISE_MIN_VALUE_INT */, 0)
-     , (30026, 076 /* MERCHANDISE_MAX_VALUE_INT */, 100000)
-     , (30026, 093 /* PHYSICS_STATE_INT */, 2098200 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS */)
-     , (30026, 126 /* VENDOR_HAPPY_MEAN_INT */, 10000)
-     , (30026, 127 /* VENDOR_HAPPY_VARIANCE_INT */, 4000)
-     , (30026, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
-     , (30026, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
-     , (30026, 146 /* XP_OVERRIDE_INT */, 614);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30026, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
-     , (30026, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
-     , (30026, 003 /* HEALTH_RATE_FLOAT */, 0.16)
-     , (30026, 004 /* STAMINA_RATE_FLOAT */, 5)
-     , (30026, 005 /* MANA_RATE_FLOAT */, 1)
-     , (30026, 011 /* RESET_INTERVAL_FLOAT */, 300)
-     , (30026, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.9)
-     , (30026, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (30026, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.1)
-     , (30026, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (30026, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (30026, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (30026, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (30026, 037 /* BUY_PRICE_FLOAT */, 0.5)
-     , (30026, 038 /* SELL_PRICE_FLOAT */, 50)
-     , (30026, 054 /* USE_RADIUS_FLOAT */, 3)
-     , (30026, 064 /* RESIST_SLASH_FLOAT */, 1)
-     , (30026, 065 /* RESIST_PIERCE_FLOAT */, 1)
-     , (30026, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
-     , (30026, 067 /* RESIST_FIRE_FLOAT */, 1)
-     , (30026, 068 /* RESIST_COLD_FLOAT */, 1)
-     , (30026, 069 /* RESIST_ACID_FLOAT */, 1)
-     , (30026, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
-     , (30026, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
-     , (30026, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
-     , (30026, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
-     , (30026, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
-     , (30026, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
-     , (30026, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
-     , (30026, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
+VALUES (30026,   1,         16) /* ItemType - Creature */
+     , (30026,   2,         31) /* CreatureType - Human */
+     , (30026,   6,         -1) /* ItemsCapacity */
+     , (30026,   7,         -1) /* ContainersCapacity */
+     , (30026,   8,        120) /* Mass */
+     , (30026,  16,         32) /* ItemUseable - Remote */
+     , (30026,  25,         14) /* Level */
+     , (30026,  27,          0) /* ArmorType */
+     , (30026,  74,     270464) /* MerchandiseItemTypes */
+     , (30026,  75,          0) /* MerchandiseMinValue */
+     , (30026,  76,     100000) /* MerchandiseMaxValue */
+     , (30026,  93,    2098200) /* PhysicsState */
+     , (30026, 126,      10000) /* VendorHappyMean */
+     , (30026, 127,       4000) /* VendorHappyVariance */
+     , (30026, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (30026, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (30026, 146,        614) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30026, 001 /* STUCK_BOOL */, True)
-     , (30026, 006 /* AI_USES_MANA_BOOL */, False)
-     , (30026, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (30026, 013 /* ETHEREAL_BOOL */, False)
-     , (30026, 019 /* ATTACKABLE_BOOL */, False)
-     , (30026, 039 /* DEAL_MAGICAL_ITEMS_BOOL */, True)
-     , (30026, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True)
-     , (30026, 050 /* NEVER_FAIL_CASTING_BOOL */, True)
-     , (30026, 051 /* VENDOR_SERVICE_BOOL */, True)
-     , (30026, 052 /* AI_IMMOBILE_BOOL */, True);
+VALUES (30026,   1, True ) /* Stuck */
+     , (30026,   6, False) /* AiUsesMana */
+     , (30026,  12, True ) /* ReportCollisions */
+     , (30026,  13, False) /* Ethereal */
+     , (30026,  19, False) /* Attackable */
+     , (30026,  39, True ) /* DealMagicalItems */
+     , (30026,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (30026,  50, True ) /* NeverFailCasting */
+     , (30026,  51, True ) /* VendorService */
+     , (30026,  52, True ) /* AiImmobile */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30026,   1,       5) /* HeartbeatInterval */
+     , (30026,   2,       0) /* HeartbeatTimestamp */
+     , (30026,   3,    0.16) /* HealthRate */
+     , (30026,   4,       5) /* StaminaRate */
+     , (30026,   5,       1) /* ManaRate */
+     , (30026,  11,     300) /* ResetInterval */
+     , (30026,  13,     0.9) /* ArmorModVsSlash */
+     , (30026,  14,       1) /* ArmorModVsPierce */
+     , (30026,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30026,  16,     0.4) /* ArmorModVsCold */
+     , (30026,  17,     0.4) /* ArmorModVsFire */
+     , (30026,  18,       1) /* ArmorModVsAcid */
+     , (30026,  19,     0.6) /* ArmorModVsElectric */
+     , (30026,  37,     0.5) /* BuyPrice */
+     , (30026,  38,      50) /* SellPrice */
+     , (30026,  54,       3) /* UseRadius */
+     , (30026,  64,       1) /* ResistSlash */
+     , (30026,  65,       1) /* ResistPierce */
+     , (30026,  66,       1) /* ResistBludgeon */
+     , (30026,  67,       1) /* ResistFire */
+     , (30026,  68,       1) /* ResistCold */
+     , (30026,  69,       1) /* ResistAcid */
+     , (30026,  70,       1) /* ResistElectric */
+     , (30026,  71,       1) /* ResistHealthBoost */
+     , (30026,  72,       1) /* ResistStaminaDrain */
+     , (30026,  73,       1) /* ResistStaminaBoost */
+     , (30026,  74,       1) /* ResistManaDrain */
+     , (30026,  75,       1) /* ResistManaBoost */
+     , (30026, 104,      10) /* ObviousRadarRange */
+     , (30026, 125,       1) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30026,   1, 'Scrivener of Creature Magic') /* Name */
+     , (30026,   3, 'Female') /* Sex */
+     , (30026,   4, 'Gharu''ndim') /* HeritageGroup */
+     , (30026,   5, 'Master Archmage') /* Template */
+     , (30026,  24, 'Fort Tethana') /* TownName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30026,   1,   33554510) /* Setup */
+     , (30026,   2,  150994945) /* MotionTable */
+     , (30026,   3,  536870914) /* SoundTable */
+     , (30026,   4,  805306368) /* CombatTable */
+     , (30026,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (30026, 1, 90, 0, 0) /* STRENGTH_ATTRIBUTE */
-     , (30026, 2, 80, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (30026, 3, 90, 0, 0) /* QUICKNESS_ATTRIBUTE */
-     , (30026, 4, 75, 0, 0) /* COORDINATION_ATTRIBUTE */
-     , (30026, 5, 90, 0, 0) /* FOCUS_ATTRIBUTE */
-     , (30026, 6, 85, 0, 0) /* SELF_ATTRIBUTE */;
+VALUES (30026,   1,  90, 0, 0) /* Strength */
+     , (30026,   2,  80, 0, 0) /* Endurance */
+     , (30026,   3,  90, 0, 0) /* Quickness */
+     , (30026,   4,  75, 0, 0) /* Coordination */
+     , (30026,   5,  90, 0, 0) /* Focus */
+     , (30026,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30026, 1, 110, 0, 0, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (30026, 3, 100, 0, 0, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (30026, 5, 130, 0, 0, 215) /* MAX_MANA_ATTRIBUTE_2ND */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30026, 2, 124, 0, 9, 0.5, False) /* Create Jerkin for Wield_DestinationType */
-     , (30026, 2, 127, 0, 5, 0.67, False) /* Create Pants for Wield_DestinationType */
-     , (30026, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
-     , (30026, 2, 10696, 0, 1, 0.5, False) /* Create Apron for Wield_DestinationType */
-     , (30026, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment for Shop_DestinationType */
-     , (30026, 4, 28943, -1, 0, 0, False) /* Create Scroll of Arcanum Enlightenment IV for Shop_DestinationType */
-     , (30026, 4, 28936, -1, 0, 0, False) /* Create Scroll of Arcanum Salvaging IV for Shop_DestinationType */
-     , (30026, 4, 2636, -1, 0, 0, False) /* Create Scroll of Bafflement Other IV for Shop_DestinationType */
-     , (30026, 4, 2641, -1, 0, 0, False) /* Create Scroll of Clumsiness Other IV for Shop_DestinationType */
-     , (30026, 4, 2646, -1, 0, 0, False) /* Create Scroll of Coordination Other IV for Shop_DestinationType */
-     , (30026, 4, 2651, -1, 0, 0, False) /* Create Scroll of Coordination Self IV for Shop_DestinationType */
-     , (30026, 4, 2656, -1, 0, 0, False) /* Create Scroll of Endurance Other IV for Shop_DestinationType */
-     , (30026, 4, 2661, -1, 0, 0, False) /* Create Scroll of Endurance Self IV for Shop_DestinationType */
-     , (30026, 4, 2671, -1, 0, 0, False) /* Create Scroll of Feeblemind Other IV for Shop_DestinationType */
-     , (30026, 4, 2676, -1, 0, 0, False) /* Create Scroll of Focus Other IV for Shop_DestinationType */
-     , (30026, 4, 2679, -1, 0, 0, False) /* Create Scroll of Focus Self IV for Shop_DestinationType */
-     , (30026, 4, 2684, -1, 0, 0, False) /* Create Scroll of Frailty Other IV for Shop_DestinationType */
-     , (30026, 4, 2714, -1, 0, 0, False) /* Create Scroll of Quickness Other IV for Shop_DestinationType */
-     , (30026, 4, 2719, -1, 0, 0, False) /* Create Scroll of Quickness Self IV for Shop_DestinationType */
-     , (30026, 4, 2734, -1, 0, 0, False) /* Create Scroll of Slowness Other IV for Shop_DestinationType */
-     , (30026, 4, 2739, -1, 0, 0, False) /* Create Scroll of Strength Other IV for Shop_DestinationType */
-     , (30026, 4, 2744, -1, 0, 0, False) /* Create Scroll of Self Strength IV for Shop_DestinationType */
-     , (30026, 4, 2749, -1, 0, 0, False) /* Create Scroll of Weakness Other IV for Shop_DestinationType */
-     , (30026, 4, 2754, -1, 0, 0, False) /* Create Scroll of WillPower Other IV for Shop_DestinationType */
-     , (30026, 4, 2759, -1, 0, 0, False) /* Create Scroll of WillPower Self IV for Shop_DestinationType */
-     , (30026, 4, 5983, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other IV for Shop_DestinationType */
-     , (30026, 4, 5989, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 5995, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3130, -1, 0, 0, False) /* Create Scroll of Arcane Benightedness IV for Shop_DestinationType */
-     , (30026, 4, 3135, -1, 0, 0, False) /* Create Scroll of Arcane Enlightenment IV for Shop_DestinationType */
-     , (30026, 4, 3140, -1, 0, 0, False) /* Create Scroll of Arcane Enlightenment Self IV for Shop_DestinationType */
-     , (30026, 4, 3145, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Expertise Other IV for Shop_DestinationType */
-     , (30026, 4, 3150, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Expertise Self IV for Shop_DestinationType */
-     , (30026, 4, 3155, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Ignorance IV for Shop_DestinationType */
-     , (30026, 4, 3160, -1, 0, 0, False) /* Create Scroll of Axe Ineptitude Other IV for Shop_DestinationType */
-     , (30026, 4, 3165, -1, 0, 0, False) /* Create Scroll of Axe Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3170, -1, 0, 0, False) /* Create Scroll of Axe Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3175, -1, 0, 0, False) /* Create Scroll of Bow Ineptitude Other IV for Shop_DestinationType */
-     , (30026, 4, 3180, -1, 0, 0, False) /* Create Scroll of Bow Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3185, -1, 0, 0, False) /* Create Scroll of Bow Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 5947, -1, 0, 0, False) /* Create Scroll of Cooking Ineptitude Other IV for Shop_DestinationType */
-     , (30026, 4, 5953, -1, 0, 0, False) /* Create Scroll of Cooking Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 5959, -1, 0, 0, False) /* Create Scroll of Cooking Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3190, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Ineptitude IV for Shop_DestinationType */
-     , (30026, 4, 3195, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3200, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3205, -1, 0, 0, False) /* Create Scroll of Crossbow Ineptitude Other IV for Shop_DestinationType */
-     , (30026, 4, 3210, -1, 0, 0, False) /* Create Scroll of Crossbow Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3215, -1, 0, 0, False) /* Create Scroll of Crossbow Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3220, -1, 0, 0, False) /* Create Scroll of Dagger Ineptitude Other IV for Shop_DestinationType */
-     , (30026, 4, 3225, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3230, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3235, -1, 0, 0, False) /* Create Scroll of Deception Ineptitude IV for Shop_DestinationType */
-     , (30026, 4, 3240, -1, 0, 0, False) /* Create Scroll of Deception Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3245, -1, 0, 0, False) /* Create Scroll of Deception Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3250, -1, 0, 0, False) /* Create Scroll of Defenselessness IV for Shop_DestinationType */
-     , (30026, 4, 3255, -1, 0, 0, False) /* Create Scroll of Faithlessness IV for Shop_DestinationType */
-     , (30026, 4, 3260, -1, 0, 0, False) /* Create Scroll of Fealty Other IV for Shop_DestinationType */
-     , (30026, 4, 3265, -1, 0, 0, False) /* Create Scroll of Fealty Self IV for Shop_DestinationType */
-     , (30026, 4, 5965, -1, 0, 0, False) /* Create Scroll of Fletching Ineptitude Other IV for Shop_DestinationType */
-     , (30026, 4, 5971, -1, 0, 0, False) /* Create Scroll of Fletching Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 5977, -1, 0, 0, False) /* Create Scroll of Fletching Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3270, -1, 0, 0, False) /* Create Scroll of Healing Ineptitude IV for Shop_DestinationType */
-     , (30026, 4, 3275, -1, 0, 0, False) /* Create Scroll of Healing Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3280, -1, 0, 0, False) /* Create Scroll of Healing Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3285, -1, 0, 0, False) /* Create Scroll of Impregnability Other IV for Shop_DestinationType */
-     , (30026, 4, 3290, -1, 0, 0, False) /* Create Scroll of Impregnability Self IV for Shop_DestinationType */
-     , (30026, 4, 3295, -1, 0, 0, False) /* Create Scroll of Invulnerability Other IV for Shop_DestinationType */
-     , (30026, 4, 3300, -1, 0, 0, False) /* Create Scroll of Invulnerability Self IV for Shop_DestinationType */
-     , (30026, 4, 3305, -1, 0, 0, False) /* Create Scroll of Item Enchantment Ineptitude IV for Shop_DestinationType */
-     , (30026, 4, 3310, -1, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3315, -1, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3320, -1, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Other IV for Shop_DestinationType */
-     , (30026, 4, 3325, -1, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Self IV for Shop_DestinationType */
-     , (30026, 4, 3330, -1, 0, 0, False) /* Create Scroll of Item Tinkering Ignorance IV for Shop_DestinationType */
-     , (30026, 4, 9627, -1, 0, 0, False) /* Create Scroll of Jumping Ineptitude IV for Shop_DestinationType */
-     , (30026, 4, 3335, -1, 0, 0, False) /* Create Scroll of Jumping Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3340, -1, 0, 0, False) /* Create Scroll of Jumping Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3345, -1, 0, 0, False) /* Create Scroll of Leaden Feet IV for Shop_DestinationType */
-     , (30026, 4, 3350, -1, 0, 0, False) /* Create Scroll of Leadership Ineptitude IV for Shop_DestinationType */
-     , (30026, 4, 3355, -1, 0, 0, False) /* Create Scroll of Leadership Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3360, -1, 0, 0, False) /* Create Scroll of Leadership Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3365, -1, 0, 0, False) /* Create Scroll of Life Magic Ineptitude IV for Shop_DestinationType */
-     , (30026, 4, 3370, -1, 0, 0, False) /* Create Scroll of Life Magic Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3375, -1, 0, 0, False) /* Create Scroll of Life Magic Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3380, -1, 0, 0, False) /* Create Scroll of Lockpick Ineptitude IV for Shop_DestinationType */
-     , (30026, 4, 3385, -1, 0, 0, False) /* Create Scroll of Lockpick Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3390, -1, 0, 0, False) /* Create Scroll of Lockpick Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3395, -1, 0, 0, False) /* Create Scroll of Mace Ineptitude Other IV for Shop_DestinationType */
-     , (30026, 4, 3400, -1, 0, 0, False) /* Create Scroll of Mace Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3405, -1, 0, 0, False) /* Create Scroll of Mace Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3410, -1, 0, 0, False) /* Create Scroll of Magic Item Tinkering Expertise Other IV for Shop_DestinationType */
-     , (30026, 4, 3415, -1, 0, 0, False) /* Create Scroll of Magic Item Tinkering Expertise Self IV for Shop_DestinationType */
-     , (30026, 4, 3420, -1, 0, 0, False) /* Create Scroll of Magic Item Tinkering Ignorance IV for Shop_DestinationType */
-     , (30026, 4, 3425, -1, 0, 0, False) /* Create Scroll of Magic Yield Other IV for Shop_DestinationType */
-     , (30026, 4, 3430, -1, 0, 0, False) /* Create Scroll of Mana Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3435, -1, 0, 0, False) /* Create Scroll of Mana Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 9611, -1, 0, 0, False) /* Create Scroll of Mana Ineptitude Other IV for Shop_DestinationType */
-     , (30026, 4, 3440, -1, 0, 0, False) /* Create Scroll of Monster Attunement Other IV for Shop_DestinationType */
-     , (30026, 4, 5545, -1, 0, 0, False) /* Create Scroll of Monster Attunement Self IV for Shop_DestinationType */
-     , (30026, 4, 3445, -1, 0, 0, False) /* Create Scroll of Monster Unfamiliarity IV for Shop_DestinationType */
-     , (30026, 4, 3450, -1, 0, 0, False) /* Create Scroll of Person Attunement Other IV for Shop_DestinationType */
-     , (30026, 4, 3455, -1, 0, 0, False) /* Create Scroll of Person Attunement Self IV for Shop_DestinationType */
-     , (30026, 4, 3460, -1, 0, 0, False) /* Create Scroll of Person Unfamiliarity IV for Shop_DestinationType */
-     , (30026, 4, 3465, -1, 0, 0, False) /* Create Scroll of Resist Magic Other IV for Shop_DestinationType */
-     , (30026, 4, 3470, -1, 0, 0, False) /* Create Scroll of Resist Magic Self IV for Shop_DestinationType */
-     , (30026, 4, 3475, -1, 0, 0, False) /* Create Scroll of Spear Ineptitude Other IV for Shop_DestinationType */
-     , (30026, 4, 3480, -1, 0, 0, False) /* Create Scroll of Spear Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3485, -1, 0, 0, False) /* Create Scroll of Spear Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3490, -1, 0, 0, False) /* Create Scroll of Sprint Other IV for Shop_DestinationType */
-     , (30026, 4, 3495, -1, 0, 0, False) /* Create Scroll of Sprint Self IV for Shop_DestinationType */
-     , (30026, 4, 3500, -1, 0, 0, False) /* Create Scroll of Staff Ineptitude Other IV for Shop_DestinationType */
-     , (30026, 4, 3505, -1, 0, 0, False) /* Create Scroll of Staff Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3510, -1, 0, 0, False) /* Create Scroll of Staff Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3515, -1, 0, 0, False) /* Create Scroll of Sword Ineptitude Other IV for Shop_DestinationType */
-     , (30026, 4, 3520, -1, 0, 0, False) /* Create Scroll of Sword Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3525, -1, 0, 0, False) /* Create Scroll of Sword Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3530, -1, 0, 0, False) /* Create Scroll of Thrown Weapons Ineptitude IV for Shop_DestinationType */
-     , (30026, 4, 3535, -1, 0, 0, False) /* Create Scroll of Thrown Weapon Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3540, -1, 0, 0, False) /* Create Scroll of Thrown Weapon Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3545, -1, 0, 0, False) /* Create Scroll of Unarmed Combat Ineptitude IV for Shop_DestinationType */
-     , (30026, 4, 3550, -1, 0, 0, False) /* Create Scroll of Unarmed Combat Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3555, -1, 0, 0, False) /* Create Scroll of Unarmed Combat Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3560, -1, 0, 0, False) /* Create Scroll of Vulnerability IV for Shop_DestinationType */
-     , (30026, 4, 3565, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude IV for Shop_DestinationType */
-     , (30026, 4, 3570, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Other IV for Shop_DestinationType */
-     , (30026, 4, 3575, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Self IV for Shop_DestinationType */
-     , (30026, 4, 3580, -1, 0, 0, False) /* Create Scroll of Weapon Tinkering Expertise Other IV for Shop_DestinationType */
-     , (30026, 4, 3585, -1, 0, 0, False) /* Create Scroll of Weapon Tinkering Expertise Self IV for Shop_DestinationType */
-     , (30026, 4, 3590, -1, 0, 0, False) /* Create Scroll of Weapon Tinkering Ignorance IV for Shop_DestinationType */;
-
-INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (30026, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
-     , (30026, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
-     , (30026, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
-     , (30026, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
-     , (30026, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
-     , (30026, 5, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
-     , (30026, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (30026, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
-     , (30026, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
+VALUES (30026,   1,   110, 0, 0, 150) /* MaxHealth */
+     , (30026,   3,   100, 0, 0, 180) /* MaxStamina */
+     , (30026,   5,   130, 0, 0, 215) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30026, 33, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 100, 0, 2210.95336026334) /* LIFE_MAGIC_SKILL */;
+VALUES (30026, 33, 0, 3, 0, 100, 0, 2210.95336026334) /* LifeMagic           Specialized */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30026, 0.8, 2 /* Vendor_EmoteCategory */, 0, NULL, NULL, NULL, NULL, 1 /* Open_VendorTypeEmote */, NULL, NULL)
-     , (30026, 0.8, 2 /* Vendor_EmoteCategory */, 1, NULL, NULL, NULL, NULL, 2 /* Close_VendorTypeEmote */, NULL, NULL)
-     , (30026, 0.8, 2 /* Vendor_EmoteCategory */, 2, NULL, NULL, NULL, NULL, 3 /* Sell_VendorTypeEmote */, NULL, NULL)
-     , (30026, 0.8, 2 /* Vendor_EmoteCategory */, 3, NULL, NULL, NULL, NULL, 4 /* Buy_VendorTypeEmote */, NULL, NULL)
-     , (30026, 0.125, 2 /* Vendor_EmoteCategory */, 4, NULL, NULL, NULL, NULL, 5 /* Heartbeat_VendorTypeEmote */, NULL, NULL)
-     , (30026, 0.25, 2 /* Vendor_EmoteCategory */, 5, NULL, NULL, NULL, NULL, 5 /* Heartbeat_VendorTypeEmote */, NULL, NULL)
-     , (30026, 0.375, 2 /* Vendor_EmoteCategory */, 6, NULL, NULL, NULL, NULL, 5 /* Heartbeat_VendorTypeEmote */, NULL, NULL)
-     , (30026, 0.5, 2 /* Vendor_EmoteCategory */, 7, NULL, NULL, NULL, NULL, 5 /* Heartbeat_VendorTypeEmote */, NULL, NULL);
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (30026,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (30026,  1,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (30026,  2,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (30026,  3,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (30026,  4,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (30026,  5,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (30026,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (30026,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (30026,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30026, 2 /* Vendor_EmoteCategory */, 0, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'Isn''t it wonderful what Asheron and the Arcanum were able to accomplish for us?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (30026, 2 /* Vendor_EmoteCategory */, 1, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'Good luck in your travels, friend.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (30026, 2 /* Vendor_EmoteCategory */, 2, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'Thank you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (30026, 2 /* Vendor_EmoteCategory */, 3, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'No more components, or that dreaded research!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (30026, 2 /* Vendor_EmoteCategory */, 4, 0, 5 /* Motion_EmoteType */, 0, 1, 318767239 /* Motion_Wave */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (30026, 2 /* Vendor_EmoteCategory */, 5, 0, 5 /* Motion_EmoteType */, 0, 1, 318767229 /* Motion_BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (30026, 2 /* Vendor_EmoteCategory */, 6, 0, 5 /* Motion_EmoteType */, 0, 1, 318767238 /* Motion_Shrug */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (30026, 2 /* Vendor_EmoteCategory */, 7, 0, 5 /* Motion_EmoteType */, 0, 1, 318767235 /* Motion_Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (30026,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 1 /* Open */, NULL, NULL);
 
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Isn''t it wonderful what Asheron and the Arcanum were able to accomplish for us?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (30026,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 2 /* Close */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Good luck in your travels, friend.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (30026,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 3 /* Sell */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thank you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (30026,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 4 /* Buy */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'No more components, or that dreaded research!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (30026,  2 /* Vendor */,  0.125, NULL, NULL, NULL, NULL, 5 /* Heartbeat */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767239 /* Wave */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (30026,  2 /* Vendor */,   0.25, NULL, NULL, NULL, NULL, 5 /* Heartbeat */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767229 /* BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (30026,  2 /* Vendor */,  0.375, NULL, NULL, NULL, NULL, 5 /* Heartbeat */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767238 /* Shrug */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (30026,  2 /* Vendor */,    0.5, NULL, NULL, NULL, NULL, 5 /* Heartbeat */, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30026, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots for Wield */
+     , (30026, 2,   124,  0, 9, 0.5, False) /* Create Jerkin for Wield */
+     , (30026, 2,   127,  0, 5, 0.67, False) /* Create Pants for Wield */
+     , (30026, 4,  2636, -1, 0, 0, False) /* Create Scroll of Bafflement Other IV for Shop */
+     , (30026, 4,  2641, -1, 0, 0, False) /* Create Scroll of Clumsiness Other IV for Shop */
+     , (30026, 4,  2646, -1, 0, 0, False) /* Create Scroll of Coordination Other IV for Shop */
+     , (30026, 4,  2651, -1, 0, 0, False) /* Create Scroll of Coordination Self IV for Shop */
+     , (30026, 4,  2656, -1, 0, 0, False) /* Create Scroll of Endurance Other IV for Shop */
+     , (30026, 4,  2661, -1, 0, 0, False) /* Create Scroll of Endurance Self IV for Shop */
+     , (30026, 4,  2671, -1, 0, 0, False) /* Create Scroll of Feeblemind Other IV for Shop */
+     , (30026, 4,  2676, -1, 0, 0, False) /* Create Scroll of Focus Other IV for Shop */
+     , (30026, 4,  2679, -1, 0, 0, False) /* Create Scroll of Focus Self IV for Shop */
+     , (30026, 4,  2684, -1, 0, 0, False) /* Create Scroll of Frailty Other IV for Shop */
+     , (30026, 4,  2714, -1, 0, 0, False) /* Create Scroll of Quickness Other IV for Shop */
+     , (30026, 4,  2719, -1, 0, 0, False) /* Create Scroll of Quickness Self IV for Shop */
+     , (30026, 4,  2734, -1, 0, 0, False) /* Create Scroll of Slowness Other IV for Shop */
+     , (30026, 4,  2739, -1, 0, 0, False) /* Create Scroll of Strength Other IV for Shop */
+     , (30026, 4,  2744, -1, 0, 0, False) /* Create Scroll of Self Strength IV for Shop */
+     , (30026, 4,  2749, -1, 0, 0, False) /* Create Scroll of Weakness Other IV for Shop */
+     , (30026, 4,  2754, -1, 0, 0, False) /* Create Scroll of WillPower Other IV for Shop */
+     , (30026, 4,  2759, -1, 0, 0, False) /* Create Scroll of WillPower Self IV for Shop */
+     , (30026, 4,  3130, -1, 0, 0, False) /* Create Scroll of Arcane Benightedness IV for Shop */
+     , (30026, 4,  3135, -1, 0, 0, False) /* Create Scroll of Arcane Enlightenment IV for Shop */
+     , (30026, 4,  3140, -1, 0, 0, False) /* Create Scroll of Arcane Enlightenment Self IV for Shop */
+     , (30026, 4,  3145, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Expertise Other IV for Shop */
+     , (30026, 4,  3150, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Expertise Self IV for Shop */
+     , (30026, 4,  3155, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Ignorance IV for Shop */
+     , (30026, 4,  3160, -1, 0, 0, False) /* Create Scroll of Axe Ineptitude Other IV for Shop */
+     , (30026, 4,  3165, -1, 0, 0, False) /* Create Scroll of Axe Mastery Other IV for Shop */
+     , (30026, 4,  3170, -1, 0, 0, False) /* Create Scroll of Axe Mastery Self IV for Shop */
+     , (30026, 4,  3175, -1, 0, 0, False) /* Create Scroll of Bow Ineptitude Other IV for Shop */
+     , (30026, 4,  3180, -1, 0, 0, False) /* Create Scroll of Bow Mastery Other IV for Shop */
+     , (30026, 4,  3185, -1, 0, 0, False) /* Create Scroll of Bow Mastery Self IV for Shop */
+     , (30026, 4,  3190, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Ineptitude IV for Shop */
+     , (30026, 4,  3195, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Other IV for Shop */
+     , (30026, 4,  3200, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Self IV for Shop */
+     , (30026, 4,  3205, -1, 0, 0, False) /* Create Scroll of Crossbow Ineptitude Other IV for Shop */
+     , (30026, 4,  3210, -1, 0, 0, False) /* Create Scroll of Crossbow Mastery Other IV for Shop */
+     , (30026, 4,  3215, -1, 0, 0, False) /* Create Scroll of Crossbow Mastery Self IV for Shop */
+     , (30026, 4,  3220, -1, 0, 0, False) /* Create Scroll of Dagger Ineptitude Other IV for Shop */
+     , (30026, 4,  3225, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Other IV for Shop */
+     , (30026, 4,  3230, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Self IV for Shop */
+     , (30026, 4,  3235, -1, 0, 0, False) /* Create Scroll of Deception Ineptitude IV for Shop */
+     , (30026, 4,  3240, -1, 0, 0, False) /* Create Scroll of Deception Mastery Other IV for Shop */
+     , (30026, 4,  3245, -1, 0, 0, False) /* Create Scroll of Deception Mastery Self IV for Shop */
+     , (30026, 4,  3250, -1, 0, 0, False) /* Create Scroll of Defenselessness IV for Shop */
+     , (30026, 4,  3255, -1, 0, 0, False) /* Create Scroll of Faithlessness IV for Shop */
+     , (30026, 4,  3260, -1, 0, 0, False) /* Create Scroll of Fealty Other IV for Shop */
+     , (30026, 4,  3265, -1, 0, 0, False) /* Create Scroll of Fealty Self IV for Shop */
+     , (30026, 4,  3270, -1, 0, 0, False) /* Create Scroll of Healing Ineptitude IV for Shop */
+     , (30026, 4,  3275, -1, 0, 0, False) /* Create Scroll of Healing Mastery Other IV for Shop */
+     , (30026, 4,  3280, -1, 0, 0, False) /* Create Scroll of Healing Mastery Self IV for Shop */
+     , (30026, 4,  3285, -1, 0, 0, False) /* Create Scroll of Impregnability Other IV for Shop */
+     , (30026, 4,  3290, -1, 0, 0, False) /* Create Scroll of Impregnability Self IV for Shop */
+     , (30026, 4,  3295, -1, 0, 0, False) /* Create Scroll of Invulnerability Other IV for Shop */
+     , (30026, 4,  3300, -1, 0, 0, False) /* Create Scroll of Invulnerability Self IV for Shop */
+     , (30026, 4,  3305, -1, 0, 0, False) /* Create Scroll of Item Enchantment Ineptitude IV for Shop */
+     , (30026, 4,  3310, -1, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Other IV for Shop */
+     , (30026, 4,  3315, -1, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Self IV for Shop */
+     , (30026, 4,  3320, -1, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Other IV for Shop */
+     , (30026, 4,  3325, -1, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Self IV for Shop */
+     , (30026, 4,  3330, -1, 0, 0, False) /* Create Scroll of Item Tinkering Ignorance IV for Shop */
+     , (30026, 4,  3335, -1, 0, 0, False) /* Create Scroll of Jumping Mastery Other IV for Shop */
+     , (30026, 4,  3340, -1, 0, 0, False) /* Create Scroll of Jumping Mastery Self IV for Shop */
+     , (30026, 4,  3345, -1, 0, 0, False) /* Create Scroll of Leaden Feet IV for Shop */
+     , (30026, 4,  3350, -1, 0, 0, False) /* Create Scroll of Leadership Ineptitude IV for Shop */
+     , (30026, 4,  3355, -1, 0, 0, False) /* Create Scroll of Leadership Mastery Other IV for Shop */
+     , (30026, 4,  3360, -1, 0, 0, False) /* Create Scroll of Leadership Mastery Self IV for Shop */
+     , (30026, 4,  3365, -1, 0, 0, False) /* Create Scroll of Life Magic Ineptitude IV for Shop */
+     , (30026, 4,  3370, -1, 0, 0, False) /* Create Scroll of Life Magic Mastery Other IV for Shop */
+     , (30026, 4,  3375, -1, 0, 0, False) /* Create Scroll of Life Magic Mastery Self IV for Shop */
+     , (30026, 4,  3380, -1, 0, 0, False) /* Create Scroll of Lockpick Ineptitude IV for Shop */
+     , (30026, 4,  3385, -1, 0, 0, False) /* Create Scroll of Lockpick Mastery Other IV for Shop */
+     , (30026, 4,  3390, -1, 0, 0, False) /* Create Scroll of Lockpick Mastery Self IV for Shop */
+     , (30026, 4,  3395, -1, 0, 0, False) /* Create Scroll of Mace Ineptitude Other IV for Shop */
+     , (30026, 4,  3400, -1, 0, 0, False) /* Create Scroll of Mace Mastery Other IV for Shop */
+     , (30026, 4,  3405, -1, 0, 0, False) /* Create Scroll of Mace Mastery Self IV for Shop */
+     , (30026, 4,  3410, -1, 0, 0, False) /* Create Scroll of Magic Item Tinkering Expertise Other IV for Shop */
+     , (30026, 4,  3415, -1, 0, 0, False) /* Create Scroll of Magic Item Tinkering Expertise Self IV for Shop */
+     , (30026, 4,  3420, -1, 0, 0, False) /* Create Scroll of Magic Item Tinkering Ignorance IV for Shop */
+     , (30026, 4,  3425, -1, 0, 0, False) /* Create Scroll of Magic Yield Other IV for Shop */
+     , (30026, 4,  3430, -1, 0, 0, False) /* Create Scroll of Mana Mastery Other IV for Shop */
+     , (30026, 4,  3435, -1, 0, 0, False) /* Create Scroll of Mana Mastery Self IV for Shop */
+     , (30026, 4,  3440, -1, 0, 0, False) /* Create Scroll of Monster Attunement Other IV for Shop */
+     , (30026, 4,  3445, -1, 0, 0, False) /* Create Scroll of Monster Unfamiliarity IV for Shop */
+     , (30026, 4,  3450, -1, 0, 0, False) /* Create Scroll of Person Attunement Other IV for Shop */
+     , (30026, 4,  3455, -1, 0, 0, False) /* Create Scroll of Person Attunement Self IV for Shop */
+     , (30026, 4,  3460, -1, 0, 0, False) /* Create Scroll of Person Unfamiliarity IV for Shop */
+     , (30026, 4,  3465, -1, 0, 0, False) /* Create Scroll of Resist Magic Other IV for Shop */
+     , (30026, 4,  3470, -1, 0, 0, False) /* Create Scroll of Resist Magic Self IV for Shop */
+     , (30026, 4,  3475, -1, 0, 0, False) /* Create Scroll of Spear Ineptitude Other IV for Shop */
+     , (30026, 4,  3480, -1, 0, 0, False) /* Create Scroll of Spear Mastery Other IV for Shop */
+     , (30026, 4,  3485, -1, 0, 0, False) /* Create Scroll of Spear Mastery Self IV for Shop */
+     , (30026, 4,  3490, -1, 0, 0, False) /* Create Scroll of Sprint Other IV for Shop */
+     , (30026, 4,  3495, -1, 0, 0, False) /* Create Scroll of Sprint Self IV for Shop */
+     , (30026, 4,  3500, -1, 0, 0, False) /* Create Scroll of Staff Ineptitude Other IV for Shop */
+     , (30026, 4,  3505, -1, 0, 0, False) /* Create Scroll of Staff Mastery Other IV for Shop */
+     , (30026, 4,  3510, -1, 0, 0, False) /* Create Scroll of Staff Mastery Self IV for Shop */
+     , (30026, 4,  3515, -1, 0, 0, False) /* Create Scroll of Sword Ineptitude Other IV for Shop */
+     , (30026, 4,  3520, -1, 0, 0, False) /* Create Scroll of Sword Mastery Other IV for Shop */
+     , (30026, 4,  3525, -1, 0, 0, False) /* Create Scroll of Sword Mastery Self IV for Shop */
+     , (30026, 4,  3530, -1, 0, 0, False) /* Create Scroll of Thrown Weapons Ineptitude IV for Shop */
+     , (30026, 4,  3535, -1, 0, 0, False) /* Create Scroll of Thrown Weapon Mastery Other IV for Shop */
+     , (30026, 4,  3540, -1, 0, 0, False) /* Create Scroll of Thrown Weapon Mastery Self IV for Shop */
+     , (30026, 4,  3545, -1, 0, 0, False) /* Create Scroll of Unarmed Combat Ineptitude IV for Shop */
+     , (30026, 4,  3550, -1, 0, 0, False) /* Create Scroll of Unarmed Combat Mastery Other IV for Shop */
+     , (30026, 4,  3555, -1, 0, 0, False) /* Create Scroll of Unarmed Combat Mastery Self IV for Shop */
+     , (30026, 4,  3560, -1, 0, 0, False) /* Create Scroll of Vulnerability IV for Shop */
+     , (30026, 4,  3565, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude IV for Shop */
+     , (30026, 4,  3570, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Other IV for Shop */
+     , (30026, 4,  3575, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Self IV for Shop */
+     , (30026, 4,  3580, -1, 0, 0, False) /* Create Scroll of Weapon Tinkering Expertise Other IV for Shop */
+     , (30026, 4,  3585, -1, 0, 0, False) /* Create Scroll of Weapon Tinkering Expertise Self IV for Shop */
+     , (30026, 4,  3590, -1, 0, 0, False) /* Create Scroll of Weapon Tinkering Ignorance IV for Shop */
+     , (30026, 4,  5545, -1, 0, 0, False) /* Create Scroll of Monster Attunement Self IV for Shop */
+     , (30026, 4,  5947, -1, 0, 0, False) /* Create Scroll of Cooking Ineptitude Other IV for Shop */
+     , (30026, 4,  5953, -1, 0, 0, False) /* Create Scroll of Cooking Mastery Other IV for Shop */
+     , (30026, 4,  5959, -1, 0, 0, False) /* Create Scroll of Cooking Mastery Self IV for Shop */
+     , (30026, 4,  5965, -1, 0, 0, False) /* Create Scroll of Fletching Ineptitude Other IV for Shop */
+     , (30026, 4,  5971, -1, 0, 0, False) /* Create Scroll of Fletching Mastery Other IV for Shop */
+     , (30026, 4,  5977, -1, 0, 0, False) /* Create Scroll of Fletching Mastery Self IV for Shop */
+     , (30026, 4,  5983, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other IV for Shop */
+     , (30026, 4,  5989, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other IV for Shop */
+     , (30026, 4,  5995, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self IV for Shop */
+     , (30026, 4,  9611, -1, 0, 0, False) /* Create Scroll of Mana Ineptitude Other IV for Shop */
+     , (30026, 4,  9627, -1, 0, 0, False) /* Create Scroll of Jumping Ineptitude IV for Shop */
+     , (30026, 2, 10696,  0, 1, 0.5, False) /* Create Apron for Wield */
+     , (30026, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment for Shop */
+     , (30026, 4, 28936, -1, 0, 0, False) /* Create Scroll of Arcanum Salvaging IV for Shop */
+     , (30026, 4, 28943, -1, 0, 0, False) /* Create Scroll of Arcanum Enlightenment IV for Shop */;

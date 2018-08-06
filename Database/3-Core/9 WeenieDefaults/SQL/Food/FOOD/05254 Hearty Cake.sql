@@ -1,37 +1,33 @@
-/* Weenie - Hearty Cake (5254) */
-DELETE FROM weenie WHERE class_Id = 5254;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5254, 'heartycake', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5254, 001 /* NAME_STRING */, 'Hearty Cake')
-     , (5254, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5254, 020 /* PLURAL_NAME_STRING */, 'Hearty Cakes ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5254, 001 /* SETUP_DID */, 33555193)
-     , (5254, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5254, 008 /* ICON_DID */, 100667457)
-     , (5254, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5254', 'heartycake', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5254, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5254, 005 /* ENCUMB_VAL_INT */, 25)
-     , (5254, 008 /* MASS_INT */, 25)
-     , (5254, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5254, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5254, 012 /* STACK_SIZE_INT */, 1)
-     , (5254, 013 /* STACK_UNIT_ENCUMB_INT */, 25)
-     , (5254, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (5254, 015 /* STACK_UNIT_VALUE_INT */, 77)
-     , (5254, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5254, 018 /* UI_EFFECTS_INT */, 16 /* UI_EFFECT_BOOST_STAMINA */)
-     , (5254, 019 /* VALUE_INT */, 77)
-     , (5254, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (5254, 090 /* BOOST_VALUE_INT */, 35)
-     , (5254, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5254,   1,         32) /* ItemType - Food */
+     , (5254,   5,         25) /* EncumbranceVal */
+     , (5254,   8,         25) /* Mass */
+     , (5254,   9,          0) /* ValidLocations - None */
+     , (5254,  11,        100) /* MaxStackSize */
+     , (5254,  12,          1) /* StackSize */
+     , (5254,  13,         25) /* StackUnitEncumbrance */
+     , (5254,  14,         25) /* StackUnitMass */
+     , (5254,  15,         77) /* StackUnitValue */
+     , (5254,  16,          8) /* ItemUseable - Contained */
+     , (5254,  18,         16) /* UiEffects - BoostStamina */
+     , (5254,  19,         77) /* Value */
+     , (5254,  89,          4) /* BoosterEnum - Stamina */
+     , (5254,  90,         35) /* BoostValue */
+     , (5254,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5254, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5254,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5254,   1, 'Hearty Cake') /* Name */
+     , (5254,  14, 'Use this item to eat it.') /* Use */
+     , (5254,  20, 'Hearty Cakes ') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5254,   1,   33555193) /* Setup */
+     , (5254,   3,  536870932) /* SoundTable */
+     , (5254,   8,  100667457) /* Icon */
+     , (5254,  22,  872415275) /* PhysicsEffectTable */;

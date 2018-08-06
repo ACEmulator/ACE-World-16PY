@@ -1,51 +1,47 @@
-/* Weenie - Unkindled Thaumaturgic Plate Leggings (9096) */
-DELETE FROM weenie WHERE class_Id = 9096;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9096, 'leggingsunkindledthau', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9096, 001 /* NAME_STRING */, 'Unkindled Thaumaturgic Plate Leggings')
-     , (9096, 015 /* SHORT_DESC_STRING */, 'A pair of leggings. You cannot wear them.')
-     , (9096, 016 /* LONG_DESC_STRING */, 'A pair of thaumaturgic plate leggings. A Kindling Stone must be applied to them before they may be worn.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9096, 001 /* SETUP_DID */, 33554856)
-     , (9096, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9096, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (9096, 007 /* CLOTHINGBASE_DID */, 268436115)
-     , (9096, 008 /* ICON_DID */, 100671365)
-     , (9096, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9096', 'leggingsunkindledthau', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9096, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (9096, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (9096, 004 /* CLOTHING_PRIORITY_INT */, 0 /* 0 */)
-     , (9096, 005 /* ENCUMB_VAL_INT */, 75)
-     , (9096, 008 /* MASS_INT */, 200)
-     , (9096, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9096, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (9096, 019 /* VALUE_INT */, 25)
-     , (9096, 027 /* ARMOR_TYPE_INT */, 32)
-     , (9096, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (9096, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9096, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (9096, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9096, 012 /* SHADE_FLOAT */, 0.5)
-     , (9096, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0)
-     , (9096, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0)
-     , (9096, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0)
-     , (9096, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0)
-     , (9096, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0)
-     , (9096, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0)
-     , (9096, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
-     , (9096, 110 /* BULK_MOD_FLOAT */, 1)
-     , (9096, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (9096,   1,          2) /* ItemType - Armor */
+     , (9096,   3,         20) /* PaletteTemplate - Silver */
+     , (9096,   4,          0) /* ClothingPriority */
+     , (9096,   5,         75) /* EncumbranceVal */
+     , (9096,   8,        200) /* Mass */
+     , (9096,   9,          0) /* ValidLocations - None */
+     , (9096,  16,          1) /* ItemUseable - No */
+     , (9096,  19,         25) /* Value */
+     , (9096,  27,         32) /* ArmorType */
+     , (9096,  28,          0) /* ArmorLevel */
+     , (9096,  33,          1) /* Bonded - Bonded */
+     , (9096,  93,       1044) /* PhysicsState */
+     , (9096, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9096, 022 /* INSCRIBABLE_BOOL */, True)
-     , (9096, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (9096, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (9096,  22, True ) /* Inscribable */
+     , (9096,  23, True ) /* DestroyOnSell */
+     , (9096,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9096,  12,     0.5) /* Shade */
+     , (9096,  13,       0) /* ArmorModVsSlash */
+     , (9096,  14,       0) /* ArmorModVsPierce */
+     , (9096,  15,       0) /* ArmorModVsBludgeon */
+     , (9096,  16,       0) /* ArmorModVsCold */
+     , (9096,  17,       0) /* ArmorModVsFire */
+     , (9096,  18,       0) /* ArmorModVsAcid */
+     , (9096,  19,       0) /* ArmorModVsElectric */
+     , (9096, 110,       1) /* BulkMod */
+     , (9096, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9096,   1, 'Unkindled Thaumaturgic Plate Leggings') /* Name */
+     , (9096,  15, 'A pair of leggings. You cannot wear them.') /* ShortDesc */
+     , (9096,  16, 'A pair of thaumaturgic plate leggings. A Kindling Stone must be applied to them before they may be worn.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9096,   1,   33554856) /* Setup */
+     , (9096,   3,  536870932) /* SoundTable */
+     , (9096,   6,   67108990) /* PaletteBase */
+     , (9096,   7,  268436115) /* ClothingBase */
+     , (9096,   8,  100671365) /* Icon */
+     , (9096,  22,  872415275) /* PhysicsEffectTable */;

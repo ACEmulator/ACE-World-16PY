@@ -1,42 +1,38 @@
-/* Weenie - Woven Tassel of Sound Mind (25958) */
-DELETE FROM weenie WHERE class_Id = 25958;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25958, 'tasselmagic', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25958, 001 /* NAME_STRING */, 'Woven Tassel of Sound Mind')
-     , (25958, 016 /* LONG_DESC_STRING */, 'A tassel pulled from the Shadow''s Garb of the Zharalim traitor Rheth Al'' Thok. Arcane powers cause the fringes of the tassel to glow with an unknown power.')
-     , (25958, 033 /* QUEST_STRING */, 'PickedUpTasselMagic');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25958, 001 /* SETUP_DID */, 33554784)
-     , (25958, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25958, 008 /* ICON_DID */, 100675675)
-     , (25958, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25958', 'tasselmagic', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25958, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (25958, 005 /* ENCUMB_VAL_INT */, 500)
-     , (25958, 008 /* MASS_INT */, 10)
-     , (25958, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25958, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (25958, 012 /* STACK_SIZE_INT */, 1)
-     , (25958, 013 /* STACK_UNIT_ENCUMB_INT */, 500)
-     , (25958, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (25958, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (25958, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (25958, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (25958, 019 /* VALUE_INT */, 0)
-     , (25958, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (25958, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (25958, 094 /* TARGET_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (25958, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25958, 039 /* DEFAULT_SCALE_FLOAT */, 0.75);
+VALUES (25958,   1,       2048) /* ItemType - Gem */
+     , (25958,   5,        500) /* EncumbranceVal */
+     , (25958,   8,         10) /* Mass */
+     , (25958,   9,          0) /* ValidLocations - None */
+     , (25958,  11,          1) /* MaxStackSize */
+     , (25958,  12,          1) /* StackSize */
+     , (25958,  13,        500) /* StackUnitEncumbrance */
+     , (25958,  14,         10) /* StackUnitMass */
+     , (25958,  15,          0) /* StackUnitValue */
+     , (25958,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (25958,  18,          1) /* UiEffects - Magical */
+     , (25958,  19,          0) /* Value */
+     , (25958,  33,          1) /* Bonded - Bonded */
+     , (25958,  93,       1044) /* PhysicsState */
+     , (25958,  94,          2) /* TargetType - Armor */
+     , (25958, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25958, 022 /* INSCRIBABLE_BOOL */, True)
-     , (25958, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (25958,  22, True ) /* Inscribable */
+     , (25958,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25958,  39,    0.75) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25958,   1, 'Woven Tassel of Sound Mind') /* Name */
+     , (25958,  16, 'A tassel pulled from the Shadow''s Garb of the Zharalim traitor Rheth Al'' Thok. Arcane powers cause the fringes of the tassel to glow with an unknown power.') /* LongDesc */
+     , (25958,  33, 'PickedUpTasselMagic') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25958,   1,   33554784) /* Setup */
+     , (25958,   3,  536870932) /* SoundTable */
+     , (25958,   8,  100675675) /* Icon */
+     , (25958,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,51 +1,47 @@
-/* Weenie - Mi Krau-Li's Sarcophagus (7779) */
-DELETE FROM weenie WHERE class_Id = 7779;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7779, 'coffinkrauli', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7779, 001 /* NAME_STRING */, 'Mi Krau-Li''s Sarcophagus')
-     , (7779, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7779, 001 /* SETUP_DID */, 33554638)
-     , (7779, 002 /* MOTION_TABLE_DID */, 150994980)
-     , (7779, 003 /* SOUND_TABLE_DID */, 536870949)
-     , (7779, 008 /* ICON_DID */, 100668103)
-     , (7779, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7779', 'coffinkrauli', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7779, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (7779, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (7779, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (7779, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (7779, 008 /* MASS_INT */, 3000)
-     , (7779, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (7779, 019 /* VALUE_INT */, 200)
-     , (7779, 038 /* RESIST_LOCKPICK_INT */, 50)
-     , (7779, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
-     , (7779, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
-     , (7779, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7779, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (7779, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7779, 011 /* RESET_INTERVAL_FLOAT */, 60)
-     , (7779, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
-     , (7779, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (7779, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (7779,   1,        512) /* ItemType - Container */
+     , (7779,   5,       6000) /* EncumbranceVal */
+     , (7779,   6,         -1) /* ItemsCapacity */
+     , (7779,   7,         -1) /* ContainersCapacity */
+     , (7779,   8,       3000) /* Mass */
+     , (7779,  16,         48) /* ItemUseable - ViewedRemote */
+     , (7779,  19,        200) /* Value */
+     , (7779,  38,         50) /* ResistLockpick */
+     , (7779,  81,          1) /* MaxGeneratedObjects */
+     , (7779,  82,          1) /* InitGeneratedObjects */
+     , (7779,  93,       1048) /* PhysicsState */
+     , (7779,  96,        500) /* EncumbranceCapacity */
+     , (7779, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7779, 001 /* STUCK_BOOL */, True)
-     , (7779, 002 /* OPEN_BOOL */, False)
-     , (7779, 003 /* LOCKED_BOOL */, False)
-     , (7779, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (7779, 013 /* ETHEREAL_BOOL */, False)
-     , (7779, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (7779, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (7779, 035 /* DEFAULT_LOCKED_BOOL */, False);
+VALUES (7779,   1, True ) /* Stuck */
+     , (7779,   2, False) /* Open */
+     , (7779,   3, False) /* Locked */
+     , (7779,  12, True ) /* ReportCollisions */
+     , (7779,  13, False) /* Ethereal */
+     , (7779,  33, False) /* ResetMessagePending */
+     , (7779,  34, False) /* DefaultOpen */
+     , (7779,  35, False) /* DefaultLocked */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7779,  11,      60) /* ResetInterval */
+     , (7779,  41,      60) /* RegenerationInterval */
+     , (7779,  43,       1) /* GeneratorRadius */
+     , (7779,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7779,   1, 'Mi Krau-Li''s Sarcophagus') /* Name */
+     , (7779,  14, 'Use this item to open it and see its contents.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7779,   1,   33554638) /* Setup */
+     , (7779,   2,  150994980) /* MotionTable */
+     , (7779,   3,  536870949) /* SoundTable */
+     , (7779,   8,  100668103) /* Icon */
+     , (7779,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7779, 1, 7776, 800, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Note from Mi Krau-Li (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */;
-
+VALUES (7779, 1, 7776, 800, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

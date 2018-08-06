@@ -1,39 +1,36 @@
-/* Weenie - Wedding Handbook (14931) */
-DELETE FROM weenie WHERE class_Id = 14931;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14931, 'bookwedding', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14931, 001 /* NAME_STRING */, 'Wedding Handbook')
-     , (14931, 015 /* SHORT_DESC_STRING */, 'The Wedding handbook.')
-     , (14931, 016 /* LONG_DESC_STRING */, 'The Wedding handbook.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14931, 001 /* SETUP_DID */, 33554771)
-     , (14931, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14931, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (14931, 007 /* CLOTHINGBASE_DID */, 268436355)
-     , (14931, 008 /* ICON_DID */, 100672708)
-     , (14931, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14931', 'bookwedding', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14931, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (14931, 005 /* ENCUMB_VAL_INT */, 10)
-     , (14931, 008 /* MASS_INT */, 5)
-     , (14931, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (14931, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (14931, 019 /* VALUE_INT */, 10)
-     , (14931, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14931, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (14931,   1,       8192) /* ItemType - Writable */
+     , (14931,   5,         10) /* EncumbranceVal */
+     , (14931,   8,          5) /* Mass */
+     , (14931,   9,          0) /* ValidLocations - None */
+     , (14931,  16,          8) /* ItemUseable - Contained */
+     , (14931,  19,         10) /* Value */
+     , (14931,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14931, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14931,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14931,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14931,   1, 'Wedding Handbook') /* Name */
+     , (14931,  15, 'The Wedding handbook.') /* ShortDesc */
+     , (14931,  16, 'The Wedding handbook.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14931,   1,   33554771) /* Setup */
+     , (14931,   3,  536870932) /* SoundTable */
+     , (14931,   6,   67111092) /* PaletteBase */
+     , (14931,   7,  268436355) /* ClothingBase */
+     , (14931,   8,  100672708) /* Icon */
+     , (14931,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (14931, 7, 1000) /* Book Data */;
+VALUES (14931, 7, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (14931, 0, 4294967295, ' High Sentinel Echac', 'prewritten', False, '
@@ -58,4 +55,3 @@ If you are planning a wedding larger then 35, the Queen has prepared a special W
      , (14931, 6, 4294967295, '', 'prewritten', False, 'PREPARATIONS
 Wedding Planners are available throughout the land.  There, you will be able to find everything you need to be able to have a wedding you will never forget.
 ');
-

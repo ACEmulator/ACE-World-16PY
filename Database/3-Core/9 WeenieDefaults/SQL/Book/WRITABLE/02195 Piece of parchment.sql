@@ -1,38 +1,34 @@
-/* Weenie - Piece of parchment (2195) */
-DELETE FROM weenie WHERE class_Id = 2195;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2195, 'hintgreenmireb', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2195, 001 /* NAME_STRING */, 'Piece of parchment');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2195, 001 /* SETUP_DID */, 33554773)
-     , (2195, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (2195, 008 /* ICON_DID */, 100668176)
-     , (2195, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('2195', 'hintgreenmireb', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2195, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (2195, 005 /* ENCUMB_VAL_INT */, 25)
-     , (2195, 008 /* MASS_INT */, 5)
-     , (2195, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (2195, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (2195, 019 /* VALUE_INT */, 3)
-     , (2195, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2195, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (2195,   1,       8192) /* ItemType - Writable */
+     , (2195,   5,         25) /* EncumbranceVal */
+     , (2195,   8,          5) /* Mass */
+     , (2195,   9,          0) /* ValidLocations - None */
+     , (2195,  16,          8) /* ItemUseable - Contained */
+     , (2195,  19,          3) /* Value */
+     , (2195,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2195, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (2195,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2195,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2195,   1, 'Piece of parchment') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2195,   1,   33554773) /* Setup */
+     , (2195,   3,  536870932) /* SoundTable */
+     , (2195,   8,  100668176) /* Icon */
+     , (2195,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (2195, 1, 1000) /* Book Data */;
+VALUES (2195, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (2195, 0, 4294967295, '', 'prewritten', False, 'May our warrior rest in peace here in the Green Mire, in this dungeon where he bravely fought and died.  May the Dragon protect him, the Unicorn bless him, and the Firebird lead him to the highest heaven!
  
 ');
-

@@ -1,28 +1,24 @@
-/* Weenie - Yanshi: 3 miles (936) */
-DELETE FROM weenie WHERE class_Id = 936;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (936, 'yanshi3milessign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (936, 001 /* NAME_STRING */, 'Yanshi: 3 miles')
-     , (936, 016 /* LONG_DESC_STRING */, 'Hamlet of Yanshi : 3 miles.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (936, 001 /* SETUP_DID */, 33555986)
-     , (936, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('936', 'yanshi3milessign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (936, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (936, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (936, 008 /* MASS_INT */, 1800)
-     , (936, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (936, 019 /* VALUE_INT */, 125)
-     , (936, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (936,   1,        128) /* ItemType - Misc */
+     , (936,   5,       9000) /* EncumbranceVal */
+     , (936,   8,       1800) /* Mass */
+     , (936,  16,          1) /* ItemUseable - No */
+     , (936,  19,        125) /* Value */
+     , (936,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (936, 001 /* STUCK_BOOL */, True)
-     , (936, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (936, 013 /* ETHEREAL_BOOL */, False)
-     , (936, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (936,   1, True ) /* Stuck */
+     , (936,  12, True ) /* ReportCollisions */
+     , (936,  13, False) /* Ethereal */
+     , (936,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (936,   1, 'Yanshi: 3 miles') /* Name */
+     , (936,  16, 'Hamlet of Yanshi : 3 miles.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (936,   1,   33555986) /* Setup */
+     , (936,   8,  100668115) /* Icon */;

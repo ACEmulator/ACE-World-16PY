@@ -1,45 +1,41 @@
-/* Weenie - Yifan Dress (8372) */
-DELETE FROM weenie WHERE class_Id = 8372;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8372, 'dresssho', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8372, 001 /* NAME_STRING */, 'Yifan Dress');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8372, 001 /* SETUP_DID */, 33554854)
-     , (8372, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8372, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (8372, 007 /* CLOTHINGBASE_DID */, 268436077)
-     , (8372, 008 /* ICON_DID */, 100670349)
-     , (8372, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8372, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8372', 'dresssho', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8372, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
-     , (8372, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (8372, 004 /* CLOTHING_PRIORITY_INT */, 81664 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */)
-     , (8372, 005 /* ENCUMB_VAL_INT */, 200)
-     , (8372, 008 /* MASS_INT */, 150)
-     , (8372, 009 /* LOCATIONS_INT */, 32512 /* FOOT_WEAR_LOC, ARMOR_LOC */)
-     , (8372, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8372, 019 /* VALUE_INT */, 1500)
-     , (8372, 027 /* ARMOR_TYPE_INT */, 1)
-     , (8372, 028 /* ARMOR_LEVEL_INT */, 0)
-     , (8372, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8372, 012 /* SHADE_FLOAT */, 0.5)
-     , (8372, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (8372, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.7)
-     , (8372, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.4)
-     , (8372, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
-     , (8372, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
-     , (8372, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.3)
-     , (8372, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4);
+VALUES (8372,   1,          4) /* ItemType - Clothing */
+     , (8372,   3,          2) /* PaletteTemplate - Blue */
+     , (8372,   4,      81664) /* ClothingPriority */
+     , (8372,   5,        200) /* EncumbranceVal */
+     , (8372,   8,        150) /* Mass */
+     , (8372,   9,      32512) /* ValidLocations - Armor */
+     , (8372,  16,          1) /* ItemUseable - No */
+     , (8372,  19,       1500) /* Value */
+     , (8372,  27,          1) /* ArmorType */
+     , (8372,  28,          0) /* ArmorLevel */
+     , (8372,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8372, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8372, 100 /* DYABLE_BOOL */, True);
+VALUES (8372,  22, True ) /* Inscribable */
+     , (8372, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8372,  12,     0.5) /* Shade */
+     , (8372,  13,       1) /* ArmorModVsSlash */
+     , (8372,  14,     0.7) /* ArmorModVsPierce */
+     , (8372,  15,     0.4) /* ArmorModVsBludgeon */
+     , (8372,  16,     0.2) /* ArmorModVsCold */
+     , (8372,  17,     0.2) /* ArmorModVsFire */
+     , (8372,  18,     0.3) /* ArmorModVsAcid */
+     , (8372,  19,     0.4) /* ArmorModVsElectric */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8372,   1, 'Yifan Dress') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8372,   1,   33554854) /* Setup */
+     , (8372,   3,  536870932) /* SoundTable */
+     , (8372,   6,   67108990) /* PaletteBase */
+     , (8372,   7,  268436077) /* ClothingBase */
+     , (8372,   8,  100670349) /* Icon */
+     , (8372,  22,  872415275) /* PhysicsEffectTable */
+     , (8372,  36,  234881046) /* MutateFilter */;

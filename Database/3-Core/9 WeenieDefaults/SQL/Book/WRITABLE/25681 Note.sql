@@ -1,36 +1,33 @@
-/* Weenie - Note (25681) */
-DELETE FROM weenie WHERE class_Id = 25681;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25681, 'notepamphlettwitch', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25681, 001 /* NAME_STRING */, 'Note')
-     , (25681, 016 /* LONG_DESC_STRING */, 'A pamphlet that appears to be made of day lily petals.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25681, 001 /* SETUP_DID */, 33554773)
-     , (25681, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (25681, 008 /* ICON_DID */, 100675475)
-     , (25681, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('25681', 'notepamphlettwitch', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25681, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (25681, 005 /* ENCUMB_VAL_INT */, 25)
-     , (25681, 008 /* MASS_INT */, 5)
-     , (25681, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (25681, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (25681, 019 /* VALUE_INT */, 0)
-     , (25681, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25681, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (25681,   1,       8192) /* ItemType - Writable */
+     , (25681,   5,         25) /* EncumbranceVal */
+     , (25681,   8,          5) /* Mass */
+     , (25681,   9,          0) /* ValidLocations - None */
+     , (25681,  16,          8) /* ItemUseable - Contained */
+     , (25681,  19,          0) /* Value */
+     , (25681,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25681, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (25681,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (25681,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (25681,   1, 'Note') /* Name */
+     , (25681,  16, 'A pamphlet that appears to be made of day lily petals.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (25681,   1,   33554773) /* Setup */
+     , (25681,   3,  536870932) /* SoundTable */
+     , (25681,   8,  100675475) /* Icon */
+     , (25681,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (25681, 2, 1000) /* Book Data */;
+VALUES (25681, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (25681, 0, 4294967295, 'Voice of the Raven Hand', 'prewritten', False, 'The Order of the Raven Hand is happy to announce that our doors are open. Our efforts have been a long time in the works, but after years of labor, the fruits of our efforts have become ripe. 
@@ -46,4 +43,3 @@ So join us, won''t you? All you need to do is crush the gem attached to this let
 With regards,
 The Voice of the Raven Hand
 ');
-

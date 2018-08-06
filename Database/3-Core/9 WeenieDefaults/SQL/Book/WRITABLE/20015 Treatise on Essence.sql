@@ -1,38 +1,35 @@
-/* Weenie - Treatise on Essence (20015) */
-DELETE FROM weenie WHERE class_Id = 20015;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20015, 'tomeessenceasheron', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20015, 001 /* NAME_STRING */, 'Treatise on Essence')
-     , (20015, 007 /* INSCRIPTION_STRING */, 'Fathomless Chasm: 37S 63.5E')
-     , (20015, 008 /* SCRIBE_NAME_STRING */, 'Ciandra')
-     , (20015, 015 /* SHORT_DESC_STRING */, 'A book penned by Asheron.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20015, 001 /* SETUP_DID */, 33554771)
-     , (20015, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (20015, 008 /* ICON_DID */, 100668117)
-     , (20015, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20015', 'tomeessenceasheron', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20015, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20015, 005 /* ENCUMB_VAL_INT */, 160)
-     , (20015, 008 /* MASS_INT */, 200)
-     , (20015, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20015, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20015, 019 /* VALUE_INT */, 0)
-     , (20015, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20015, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (20015,   1,       8192) /* ItemType - Writable */
+     , (20015,   5,        160) /* EncumbranceVal */
+     , (20015,   8,        200) /* Mass */
+     , (20015,   9,          0) /* ValidLocations - None */
+     , (20015,  16,          8) /* ItemUseable - Contained */
+     , (20015,  19,          0) /* Value */
+     , (20015,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20015, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (20015,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20015,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20015,   1, 'Treatise on Essence') /* Name */
+     , (20015,   7, 'Fathomless Chasm: 37S 63.5E') /* Inscription */
+     , (20015,   8, 'Ciandra') /* ScribeName */
+     , (20015,  15, 'A book penned by Asheron.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20015,   1,   33554771) /* Setup */
+     , (20015,   3,  536870932) /* SoundTable */
+     , (20015,   8,  100668117) /* Icon */
+     , (20015,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (20015, 13, 1000) /* Book Data */;
+VALUES (20015, 13, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (20015, 0, 4294967295, 'Asheron', 'prewritten', False, 'I have for too long now, sat removed from you, turning a blind eye to the horrors that you have been subjected to so recently. 
@@ -104,4 +101,3 @@ My first such contact with the Arcanum yielded an unexpected find that I have di
 I have dispatched diggers to a place near the Sho village Sawato. There they will construct a place of safe passage to the essence font. You can then collect the essence and return to your Arcanum for furhter assistance. I have taught them all I know.
 
 ');
-

@@ -1,45 +1,41 @@
-/* Weenie - Shadow Cloud (8107) */
-DELETE FROM weenie WHERE class_Id = 8107;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8107, 'shadowcloudsmall', 13 /* HotSpot_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8107, 001 /* NAME_STRING */, 'Shadow Cloud')
-     , (8107, 017 /* ACTIVATION_TALK_STRING */, 'The black mist boils %i points of flesh from your bones!');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8107, 001 /* SETUP_DID */, 33556025)
-     , (8107, 003 /* SOUND_TABLE_DID */, 536871007)
-     , (8107, 008 /* ICON_DID */, 100667465);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8107', 'shadowcloudsmall', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8107, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (8107, 005 /* ENCUMB_VAL_INT */, 1)
-     , (8107, 008 /* MASS_INT */, 1)
-     , (8107, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8107, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8107, 019 /* VALUE_INT */, 1)
-     , (8107, 044 /* DAMAGE_INT */, 10)
-     , (8107, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (8107, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
-     , (8107, 119 /* ACTIVE_INT */, 0);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8107, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (8107, 039 /* DEFAULT_SCALE_FLOAT */, 1.75)
-     , (8107, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 3)
-     , (8107, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0.25);
+VALUES (8107,   1,        128) /* ItemType - Misc */
+     , (8107,   5,          1) /* EncumbranceVal */
+     , (8107,   8,          1) /* Mass */
+     , (8107,   9,          0) /* ValidLocations - None */
+     , (8107,  16,          1) /* ItemUseable - No */
+     , (8107,  19,          1) /* Value */
+     , (8107,  44,         10) /* Damage */
+     , (8107,  45,         32) /* DamageType - Acid */
+     , (8107,  93,         12) /* PhysicsState */
+     , (8107, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8107, 001 /* STUCK_BOOL */, True)
-     , (8107, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (8107, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (8107, 013 /* ETHEREAL_BOOL */, True)
-     , (8107, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (8107, 018 /* VISIBILITY_BOOL */, True)
-     , (8107, 024 /* UI_HIDDEN_BOOL */, True)
-     , (8107, 055 /* IS_HOT_BOOL */, True)
-     , (8107, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
-     , (8107, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True);
+VALUES (8107,   1, True ) /* Stuck */
+     , (8107,  11, False) /* IgnoreCollisions */
+     , (8107,  12, True ) /* ReportCollisions */
+     , (8107,  13, True ) /* Ethereal */
+     , (8107,  14, False) /* GravityStatus */
+     , (8107,  18, True ) /* Visibility */
+     , (8107,  24, True ) /* UiHidden */
+     , (8107,  55, True ) /* IsHot */
+     , (8107,  65, True ) /* IgnoreMagicResist */
+     , (8107,  66, True ) /* IgnoreMagicArmor */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8107,  22,     0.5) /* DamageVariance */
+     , (8107,  39,    1.75) /* DefaultScale */
+     , (8107, 105,       3) /* HotspotCycleTime */
+     , (8107, 106,    0.25) /* HotspotCycleTimeVariance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8107,   1, 'Shadow Cloud') /* Name */
+     , (8107,  17, 'The black mist boils %i points of flesh from your bones!') /* ActivationTalk */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8107,   1,   33556025) /* Setup */
+     , (8107,   3,  536871007) /* SoundTable */
+     , (8107,   8,  100667465) /* Icon */;

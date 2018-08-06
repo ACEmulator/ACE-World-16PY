@@ -1,32 +1,28 @@
-/* Weenie - Brood Matron Nymph Tarsus (24922) */
-DELETE FROM weenie WHERE class_Id = 24922;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24922, 'broodmatrontarsuslow', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24922, 001 /* NAME_STRING */, 'Brood Matron Nymph Tarsus')
-     , (24922, 015 /* SHORT_DESC_STRING */, 'The tarsus of a dead Olthoi Brood Matron Nymph.')
-     , (24922, 033 /* QUEST_STRING */, 'PickedUpBroodMatronTarsus');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24922, 001 /* SETUP_DID */, 33556593)
-     , (24922, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24922, 008 /* ICON_DID */, 100674518)
-     , (24922, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24922', 'broodmatrontarsuslow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24922, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24922, 005 /* ENCUMB_VAL_INT */, 50)
-     , (24922, 008 /* MASS_INT */, 50)
-     , (24922, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24922, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24922, 019 /* VALUE_INT */, 0)
-     , (24922, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (24922, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24922, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (24922,   1,        128) /* ItemType - Misc */
+     , (24922,   5,         50) /* EncumbranceVal */
+     , (24922,   8,         50) /* Mass */
+     , (24922,   9,          0) /* ValidLocations - None */
+     , (24922,  16,          1) /* ItemUseable - No */
+     , (24922,  19,          0) /* Value */
+     , (24922,  33,          1) /* Bonded - Bonded */
+     , (24922,  93,       1044) /* PhysicsState */
+     , (24922, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24922, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24922, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24922,  22, True ) /* Inscribable */
+     , (24922,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24922,   1, 'Brood Matron Nymph Tarsus') /* Name */
+     , (24922,  15, 'The tarsus of a dead Olthoi Brood Matron Nymph.') /* ShortDesc */
+     , (24922,  33, 'PickedUpBroodMatronTarsus') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24922,   1,   33556593) /* Setup */
+     , (24922,   3,  536870932) /* SoundTable */
+     , (24922,   8,  100674518) /* Icon */
+     , (24922,  22,  872415275) /* PhysicsEffectTable */;

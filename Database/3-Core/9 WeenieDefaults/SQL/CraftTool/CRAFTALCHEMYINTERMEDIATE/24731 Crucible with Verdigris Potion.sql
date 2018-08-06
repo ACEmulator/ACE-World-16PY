@@ -1,39 +1,35 @@
-/* Weenie - Crucible with Verdigris Potion (24731) */
-DELETE FROM weenie WHERE class_Id = 24731;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24731, 'cruciblebludgeon', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24731, 001 /* NAME_STRING */, 'Crucible with Verdigris Potion')
-     , (24731, 014 /* USE_STRING */, 'This item is used in alchemy.')
-     , (24731, 016 /* LONG_DESC_STRING */, 'A Verdigris Potion has been added to this crucible.')
-     , (24731, 020 /* PLURAL_NAME_STRING */, 'Crucibles with Verdigris Potion');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24731, 001 /* SETUP_DID */, 33555966)
-     , (24731, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24731, 008 /* ICON_DID */, 100674465)
-     , (24731, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24731', 'cruciblebludgeon', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24731, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
-     , (24731, 005 /* ENCUMB_VAL_INT */, 50)
-     , (24731, 008 /* MASS_INT */, 25)
-     , (24731, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24731, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (24731, 012 /* STACK_SIZE_INT */, 1)
-     , (24731, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (24731, 014 /* STACK_UNIT_MASS_INT */, 25)
-     , (24731, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (24731, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (24731, 019 /* VALUE_INT */, 500)
-     , (24731, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24731, 094 /* TARGET_TYPE_INT */, 4201088 /* TYPE_LOCKABLE_MAGIC_TARGET, TYPE_GEM, TYPE_SPELL_COMPONENTS, TYPE_CRAFT_COOKING_BASE */)
-     , (24731, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (24731, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (24731,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (24731,   5,         50) /* EncumbranceVal */
+     , (24731,   8,         25) /* Mass */
+     , (24731,   9,          0) /* ValidLocations - None */
+     , (24731,  11,          1) /* MaxStackSize */
+     , (24731,  12,          1) /* StackSize */
+     , (24731,  13,         50) /* StackUnitEncumbrance */
+     , (24731,  14,         25) /* StackUnitMass */
+     , (24731,  15,        500) /* StackUnitValue */
+     , (24731,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (24731,  19,        500) /* Value */
+     , (24731,  93,       1044) /* PhysicsState */
+     , (24731,  94,    4201088) /* TargetType */
+     , (24731, 150,        103) /* HookPlacement - Hook */
+     , (24731, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24731, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24731, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24731,  22, True ) /* Inscribable */
+     , (24731,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24731,   1, 'Crucible with Verdigris Potion') /* Name */
+     , (24731,  14, 'This item is used in alchemy.') /* Use */
+     , (24731,  16, 'A Verdigris Potion has been added to this crucible.') /* LongDesc */
+     , (24731,  20, 'Crucibles with Verdigris Potion') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24731,   1,   33555966) /* Setup */
+     , (24731,   3,  536870932) /* SoundTable */
+     , (24731,   8,  100674465) /* Icon */
+     , (24731,  22,  872415275) /* PhysicsEffectTable */;

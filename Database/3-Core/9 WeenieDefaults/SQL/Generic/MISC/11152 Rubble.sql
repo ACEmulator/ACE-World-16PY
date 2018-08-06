@@ -1,32 +1,28 @@
-/* Weenie - Rubble (11152) */
-DELETE FROM weenie WHERE class_Id = 11152;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11152, 'menhirrubbleb-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11152, 001 /* NAME_STRING */, 'Rubble')
-     , (11152, 015 /* SHORT_DESC_STRING */, 'A large, heavy piece of rubble.')
-     , (11152, 016 /* LONG_DESC_STRING */, 'A large, heavy piece of rubble, broken off from the menhir in the southwest of Marae Lassel.')
-     , (11152, 033 /* QUEST_STRING */, 'MenhirRubbleBPickUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11152, 001 /* SETUP_DID */, 33556735)
-     , (11152, 008 /* ICON_DID */, 100670227);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11152', 'menhirrubbleb-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11152, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11152, 005 /* ENCUMB_VAL_INT */, 7625)
-     , (11152, 008 /* MASS_INT */, 7625)
-     , (11152, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11152, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11152, 019 /* VALUE_INT */, 50)
-     , (11152, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11152, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11152, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (11152, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (11152,   1,        128) /* ItemType - Misc */
+     , (11152,   5,       7625) /* EncumbranceVal */
+     , (11152,   8,       7625) /* Mass */
+     , (11152,   9,          0) /* ValidLocations - None */
+     , (11152,  16,          1) /* ItemUseable - No */
+     , (11152,  19,         50) /* Value */
+     , (11152,  33,          1) /* Bonded - Bonded */
+     , (11152,  93,       1044) /* PhysicsState */
+     , (11152, 150,        103) /* HookPlacement - Hook */
+     , (11152, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11152, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11152, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11152,  22, True ) /* Inscribable */
+     , (11152,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11152,   1, 'Rubble') /* Name */
+     , (11152,  15, 'A large, heavy piece of rubble.') /* ShortDesc */
+     , (11152,  16, 'A large, heavy piece of rubble, broken off from the menhir in the southwest of Marae Lassel.') /* LongDesc */
+     , (11152,  33, 'MenhirRubbleBPickUp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11152,   1,   33556735) /* Setup */
+     , (11152,   8,  100670227) /* Icon */;

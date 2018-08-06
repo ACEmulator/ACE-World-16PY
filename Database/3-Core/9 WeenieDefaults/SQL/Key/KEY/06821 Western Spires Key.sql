@@ -1,37 +1,33 @@
-/* Weenie - Western Spires Key (6821) */
-DELETE FROM weenie WHERE class_Id = 6821;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6821, 'keyspirewestcomplete', 22 /* Key_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6821, 001 /* NAME_STRING */, 'Western Spires Key')
-     , (6821, 013 /* KEY_CODE_STRING */, 'spirewestcomplete')
-     , (6821, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
-     , (6821, 015 /* SHORT_DESC_STRING */, 'A skeletal key assembled from three fragments found in the western town shadow spires.')
-     , (6821, 016 /* LONG_DESC_STRING */, 'A skeletal key assembled from three fragments found in the western town shadow spires.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6821, 001 /* SETUP_DID */, 33554784)
-     , (6821, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6821, 008 /* ICON_DID */, 100670622)
-     , (6821, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6821', 'keyspirewestcomplete', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6821, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
-     , (6821, 005 /* ENCUMB_VAL_INT */, 50)
-     , (6821, 008 /* MASS_INT */, 20)
-     , (6821, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
-     , (6821, 019 /* VALUE_INT */, 50)
-     , (6821, 091 /* MAX_STRUCTURE_INT */, 1)
-     , (6821, 092 /* STRUCTURE_INT */, 1)
-     , (6821, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6821, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */)
-     , (6821, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6821, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (6821,   1,      16384) /* ItemType - Key */
+     , (6821,   5,         50) /* EncumbranceVal */
+     , (6821,   8,         20) /* Mass */
+     , (6821,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
+     , (6821,  19,         50) /* Value */
+     , (6821,  91,          1) /* MaxStructure */
+     , (6821,  92,          1) /* Structure */
+     , (6821,  93,       1044) /* PhysicsState */
+     , (6821,  94,        640) /* TargetType - LockableMagicTarget */
+     , (6821, 150,        103) /* HookPlacement - Hook */
+     , (6821, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6821, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6821, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6821, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6821,  22, True ) /* Inscribable */
+     , (6821,  23, True ) /* DestroyOnSell */
+     , (6821,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6821,   1, 'Western Spires Key') /* Name */
+     , (6821,  13, 'spirewestcomplete') /* KeyCode */
+     , (6821,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
+     , (6821,  15, 'A skeletal key assembled from three fragments found in the western town shadow spires.') /* ShortDesc */
+     , (6821,  16, 'A skeletal key assembled from three fragments found in the western town shadow spires.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6821,   1,   33554784) /* Setup */
+     , (6821,   3,  536870932) /* SoundTable */
+     , (6821,   8,  100670622) /* Icon */
+     , (6821,  22,  872415275) /* PhysicsEffectTable */;

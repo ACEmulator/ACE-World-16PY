@@ -1,42 +1,38 @@
-/* Weenie - Dagger Glyph (6324) */
-DELETE FROM weenie WHERE class_Id = 6324;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6324, 'glyphdagger', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6324, 001 /* NAME_STRING */, 'Dagger Glyph')
-     , (6324, 014 /* USE_STRING */, 'Use this on a Pyreal Ingot.')
-     , (6324, 015 /* SHORT_DESC_STRING */, 'A glyph with the image of a dagger emblazoned upon it.')
-     , (6324, 016 /* LONG_DESC_STRING */, 'A glyph with the image of a dagger emblazoned upon it.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6324, 001 /* SETUP_DID */, 33556438)
-     , (6324, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6324, 008 /* ICON_DID */, 100670478)
-     , (6324, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6324', 'glyphdagger', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6324, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (6324, 005 /* ENCUMB_VAL_INT */, 10)
-     , (6324, 008 /* MASS_INT */, 10)
-     , (6324, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6324, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (6324, 012 /* STACK_SIZE_INT */, 1)
-     , (6324, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (6324, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (6324, 015 /* STACK_UNIT_VALUE_INT */, 5000)
-     , (6324, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (6324, 019 /* VALUE_INT */, 5000)
-     , (6324, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6324, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (6324, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6324, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6324, 039 /* DEFAULT_SCALE_FLOAT */, 0.2);
+VALUES (6324,   1,        128) /* ItemType - Misc */
+     , (6324,   5,         10) /* EncumbranceVal */
+     , (6324,   8,         10) /* Mass */
+     , (6324,   9,          0) /* ValidLocations - None */
+     , (6324,  11,          1) /* MaxStackSize */
+     , (6324,  12,          1) /* StackSize */
+     , (6324,  13,         10) /* StackUnitEncumbrance */
+     , (6324,  14,         10) /* StackUnitMass */
+     , (6324,  15,       5000) /* StackUnitValue */
+     , (6324,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (6324,  19,       5000) /* Value */
+     , (6324,  93,       1044) /* PhysicsState */
+     , (6324,  94,        128) /* TargetType - Misc */
+     , (6324, 150,        103) /* HookPlacement - Hook */
+     , (6324, 151,         11) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6324, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6324, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (6324,  22, True ) /* Inscribable */
+     , (6324,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6324,  39,     0.2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6324,   1, 'Dagger Glyph') /* Name */
+     , (6324,  14, 'Use this on a Pyreal Ingot.') /* Use */
+     , (6324,  15, 'A glyph with the image of a dagger emblazoned upon it.') /* ShortDesc */
+     , (6324,  16, 'A glyph with the image of a dagger emblazoned upon it.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6324,   1,   33556438) /* Setup */
+     , (6324,   3,  536870932) /* SoundTable */
+     , (6324,   8,  100670478) /* Icon */
+     , (6324,  22,  872415275) /* PhysicsEffectTable */;

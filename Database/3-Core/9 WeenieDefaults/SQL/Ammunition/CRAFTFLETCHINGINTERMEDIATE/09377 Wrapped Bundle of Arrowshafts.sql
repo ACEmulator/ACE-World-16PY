@@ -1,33 +1,29 @@
-/* Weenie - Wrapped Bundle of Arrowshafts (9377) */
-DELETE FROM weenie WHERE class_Id = 9377;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9377, 'wrappedarrowshaft', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9377, 001 /* NAME_STRING */, 'Wrapped Bundle of Arrowshafts')
-     , (9377, 020 /* PLURAL_NAME_STRING */, 'Wrapped Bundles of Arrowshafts');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9377, 001 /* SETUP_DID */, 33557031)
-     , (9377, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9377, 008 /* ICON_DID */, 100671591)
-     , (9377, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9377', 'wrappedarrowshaft', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9377, 001 /* ITEM_TYPE_INT */, 134217728 /* TYPE_CRAFT_FLETCHING_INTERMEDIATE */)
-     , (9377, 005 /* ENCUMB_VAL_INT */, 10)
-     , (9377, 008 /* MASS_INT */, 5)
-     , (9377, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9377, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (9377, 012 /* STACK_SIZE_INT */, 1)
-     , (9377, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (9377, 014 /* STACK_UNIT_MASS_INT */, 5)
-     , (9377, 015 /* STACK_UNIT_VALUE_INT */, 250)
-     , (9377, 019 /* VALUE_INT */, 250)
-     , (9377, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (9377, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (9377,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
+     , (9377,   5,         10) /* EncumbranceVal */
+     , (9377,   8,          5) /* Mass */
+     , (9377,   9,          0) /* ValidLocations - None */
+     , (9377,  11,        100) /* MaxStackSize */
+     , (9377,  12,          1) /* StackSize */
+     , (9377,  13,         10) /* StackUnitEncumbrance */
+     , (9377,  14,          5) /* StackUnitMass */
+     , (9377,  15,        250) /* StackUnitValue */
+     , (9377,  19,        250) /* Value */
+     , (9377,  33,          1) /* Bonded - Bonded */
+     , (9377,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9377, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (9377,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9377,   1, 'Wrapped Bundle of Arrowshafts') /* Name */
+     , (9377,  20, 'Wrapped Bundles of Arrowshafts') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9377,   1,   33557031) /* Setup */
+     , (9377,   3,  536870932) /* SoundTable */
+     , (9377,   8,  100671591) /* Icon */
+     , (9377,  22,  872415275) /* PhysicsEffectTable */;

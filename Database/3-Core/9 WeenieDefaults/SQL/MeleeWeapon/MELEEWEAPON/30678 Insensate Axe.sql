@@ -1,61 +1,57 @@
-/* Weenie - Insensate Axe (30678) */
-DELETE FROM weenie WHERE class_Id = 30678;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30678, 'axeinsensate', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30678, 001 /* NAME_STRING */, 'Insensate Axe')
-     , (30678, 016 /* LONG_DESC_STRING */, 'This axe appears to be made from the withered flesh of some sort of creature.')
-     , (30678, 033 /* QUEST_STRING */, 'WitheredAtollAxe0105');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30678, 001 /* SETUP_DID */, 33559215)
-     , (30678, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30678, 008 /* ICON_DID */, 100677400)
-     , (30678, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30678, 030 /* PHYSICS_SCRIPT_DID */, 87 /* PS_BreatheLightning */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30678', 'axeinsensate', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30678, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (30678, 005 /* ENCUMB_VAL_INT */, 800)
-     , (30678, 008 /* MASS_INT */, 320)
-     , (30678, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (30678, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30678, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
-     , (30678, 019 /* VALUE_INT */, 6000)
-     , (30678, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (30678, 044 /* DAMAGE_INT */, 45)
-     , (30678, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (30678, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30678, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (30678, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (30678, 049 /* WEAPON_TIME_INT */, 60)
-     , (30678, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (30678, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30678, 106 /* ITEM_SPELLCRAFT_INT */, 300)
-     , (30678, 107 /* ITEM_CUR_MANA_INT */, 3000)
-     , (30678, 108 /* ITEM_MAX_MANA_INT */, 3000)
-     , (30678, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (30678, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30678, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (30678, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (30678, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (30678, 160 /* WIELD_DIFFICULTY_INT */, 370);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30678, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (30678, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (30678, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (30678, 029 /* WEAPON_DEFENSE_FLOAT */, 1.13)
-     , (30678, 062 /* WEAPON_OFFENSE_FLOAT */, 1.08)
-     , (30678, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 7);
+VALUES (30678,   1,          1) /* ItemType - MeleeWeapon */
+     , (30678,   5,        800) /* EncumbranceVal */
+     , (30678,   8,        320) /* Mass */
+     , (30678,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30678,  16,          1) /* ItemUseable - No */
+     , (30678,  18,         32) /* UiEffects - Fire */
+     , (30678,  19,       6000) /* Value */
+     , (30678,  33,          1) /* Bonded - Bonded */
+     , (30678,  44,         45) /* Damage */
+     , (30678,  45,         16) /* DamageType - Fire */
+     , (30678,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (30678,  47,          4) /* AttackType - Slash */
+     , (30678,  48,          1) /* WeaponSkill - Axe */
+     , (30678,  49,         60) /* WeaponTime */
+     , (30678,  51,          1) /* CombatUse - Melee */
+     , (30678,  93,       1044) /* PhysicsState */
+     , (30678, 106,        300) /* ItemSpellcraft */
+     , (30678, 107,       3000) /* ItemCurMana */
+     , (30678, 108,       3000) /* ItemMaxMana */
+     , (30678, 114,          1) /* Attuned - Attuned */
+     , (30678, 150,        103) /* HookPlacement - Hook */
+     , (30678, 151,          2) /* HookType - Wall */
+     , (30678, 158,          2) /* WieldRequirements - RawSkill */
+     , (30678, 159,          1) /* WieldSkilltype - Axe */
+     , (30678, 160,        370) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30678, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30678, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (30678, 099 /* IVORYABLE_BOOL */, True);
+VALUES (30678,  22, True ) /* Inscribable */
+     , (30678,  23, True ) /* DestroyOnSell */
+     , (30678,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30678,   5,   -0.05) /* ManaRate */
+     , (30678,  21,    0.75) /* WeaponLength */
+     , (30678,  22,     0.5) /* DamageVariance */
+     , (30678,  29,    1.13) /* WeaponDefense */
+     , (30678,  62,    1.08) /* WeaponOffense */
+     , (30678, 136,       7) /* CriticalMultiplier */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30678,   1, 'Insensate Axe') /* Name */
+     , (30678,  16, 'This axe appears to be made from the withered flesh of some sort of creature.') /* LongDesc */
+     , (30678,  33, 'WitheredAtollAxe0105') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30678,   1,   33559215) /* Setup */
+     , (30678,   3,  536870932) /* SoundTable */
+     , (30678,   8,  100677400) /* Icon */
+     , (30678,  22,  872415275) /* PhysicsEffectTable */
+     , (30678,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30678, 1616, 2) /* BloodDrinker6_SpellID */;
-
+VALUES (30678,  1616,      2)  /* Aura of Blood Drinker Self VI */;

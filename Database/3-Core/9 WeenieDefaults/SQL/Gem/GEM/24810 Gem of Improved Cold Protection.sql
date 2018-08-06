@@ -1,47 +1,43 @@
-/* Weenie - Gem of Improved Cold Protection (24810) */
-DELETE FROM weenie WHERE class_Id = 24810;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24810, 'gemcoldpro5', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24810, 001 /* NAME_STRING */, 'Gem of Improved Cold Protection')
-     , (24810, 015 /* SHORT_DESC_STRING */, 'A gem that will cast Cold Protection V on anyone who uses it. The gem will be destroyed in the process.')
-     , (24810, 020 /* PLURAL_NAME_STRING */, 'Gems of Improved Cold Protection');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24810, 001 /* SETUP_DID */, 33554809)
-     , (24810, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24810, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (24810, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (24810, 008 /* ICON_DID */, 100674453)
-     , (24810, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (24810, 028 /* SPELL_DID */, 1040 /* ColdProtectionOther5_SpellID */)
-     , (24810, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24810', 'gemcoldpro5', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24810, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (24810, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (24810, 005 /* ENCUMB_VAL_INT */, 5)
-     , (24810, 008 /* MASS_INT */, 10)
-     , (24810, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24810, 011 /* MAX_STACK_SIZE_INT */, 25)
-     , (24810, 012 /* STACK_SIZE_INT */, 1)
-     , (24810, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (24810, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (24810, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (24810, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (24810, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (24810, 019 /* VALUE_INT */, 0)
-     , (24810, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24810, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (24810, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (24810, 107 /* ITEM_CUR_MANA_INT */, 100)
-     , (24810, 108 /* ITEM_MAX_MANA_INT */, 200)
-     , (24810, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (24810, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
+VALUES (24810,   1,       2048) /* ItemType - Gem */
+     , (24810,   3,         14) /* PaletteTemplate - Red */
+     , (24810,   5,          5) /* EncumbranceVal */
+     , (24810,   8,         10) /* Mass */
+     , (24810,   9,          0) /* ValidLocations - None */
+     , (24810,  11,         25) /* MaxStackSize */
+     , (24810,  12,          1) /* StackSize */
+     , (24810,  13,          5) /* StackUnitEncumbrance */
+     , (24810,  14,         10) /* StackUnitMass */
+     , (24810,  15,          0) /* StackUnitValue */
+     , (24810,  16,          8) /* ItemUseable - Contained */
+     , (24810,  18,          1) /* UiEffects - Magical */
+     , (24810,  19,          0) /* Value */
+     , (24810,  93,       1044) /* PhysicsState */
+     , (24810,  94,         16) /* TargetType - Creature */
+     , (24810, 106,        210) /* ItemSpellcraft */
+     , (24810, 107,        100) /* ItemCurMana */
+     , (24810, 108,        200) /* ItemMaxMana */
+     , (24810, 109,          0) /* ItemDifficulty */
+     , (24810, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24810, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (24810, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (24810,  23, True ) /* DestroyOnSell */
+     , (24810,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24810,   1, 'Gem of Improved Cold Protection') /* Name */
+     , (24810,  15, 'A gem that will cast Cold Protection V on anyone who uses it. The gem will be destroyed in the process.') /* ShortDesc */
+     , (24810,  20, 'Gems of Improved Cold Protection') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24810,   1,   33554809) /* Setup */
+     , (24810,   3,  536870932) /* SoundTable */
+     , (24810,   6,   67111919) /* PaletteBase */
+     , (24810,   7,  268435723) /* ClothingBase */
+     , (24810,   8,  100674453) /* Icon */
+     , (24810,  22,  872415275) /* PhysicsEffectTable */
+     , (24810,  28,       1040) /* Spell - Cold Protection Other V */
+     , (24810,  36,  234881046) /* MutateFilter */;

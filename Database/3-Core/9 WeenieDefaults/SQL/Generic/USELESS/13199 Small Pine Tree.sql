@@ -1,30 +1,26 @@
-/* Weenie - Small Pine Tree (13199) */
-DELETE FROM weenie WHERE class_Id = 13199;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13199, 'decorationpinetree', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13199, 001 /* NAME_STRING */, 'Small Pine Tree')
-     , (13199, 015 /* SHORT_DESC_STRING */, 'You can use this item on floor and yard hooks.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13199, 001 /* SETUP_DID */, 33557449)
-     , (13199, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (13199, 008 /* ICON_DID */, 100672463)
-     , (13199, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('13199', 'decorationpinetree', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13199, 001 /* ITEM_TYPE_INT */, 1024 /* TYPE_USELESS */)
-     , (13199, 005 /* ENCUMB_VAL_INT */, 500)
-     , (13199, 008 /* MASS_INT */, 250)
-     , (13199, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (13199, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (13199, 019 /* VALUE_INT */, 1000)
-     , (13199, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (13199, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (13199, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (13199,   1,       1024) /* ItemType - Useless */
+     , (13199,   5,        500) /* EncumbranceVal */
+     , (13199,   8,        250) /* Mass */
+     , (13199,   9,          0) /* ValidLocations - None */
+     , (13199,  16,          1) /* ItemUseable - No */
+     , (13199,  19,       1000) /* Value */
+     , (13199,  93,       1044) /* PhysicsState */
+     , (13199, 150,        103) /* HookPlacement - Hook */
+     , (13199, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13199, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (13199,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (13199,   1, 'Small Pine Tree') /* Name */
+     , (13199,  15, 'You can use this item on floor and yard hooks.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (13199,   1,   33557449) /* Setup */
+     , (13199,   3,  536870932) /* SoundTable */
+     , (13199,   8,  100672463) /* Icon */
+     , (13199,  22,  872415275) /* PhysicsEffectTable */;

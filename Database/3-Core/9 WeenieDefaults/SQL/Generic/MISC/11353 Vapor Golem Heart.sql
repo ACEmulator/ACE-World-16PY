@@ -1,34 +1,30 @@
-/* Weenie - Vapor Golem Heart (11353) */
-DELETE FROM weenie WHERE class_Id = 11353;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11353, 'golemheartvapor-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11353, 001 /* NAME_STRING */, 'Vapor Golem Heart');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11353, 001 /* SETUP_DID */, 33554817)
-     , (11353, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11353, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (11353, 007 /* CLOTHINGBASE_DID */, 268435832)
-     , (11353, 008 /* ICON_DID */, 100671841)
-     , (11353, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11353', 'golemheartvapor-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11353, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11353, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (11353, 005 /* ENCUMB_VAL_INT */, 100)
-     , (11353, 008 /* MASS_INT */, 100)
-     , (11353, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11353, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11353, 019 /* VALUE_INT */, 200)
-     , (11353, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11353, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
+VALUES (11353,   1,        128) /* ItemType - Misc */
+     , (11353,   3,         39) /* PaletteTemplate - Black */
+     , (11353,   5,        100) /* EncumbranceVal */
+     , (11353,   8,        100) /* Mass */
+     , (11353,   9,          0) /* ValidLocations - None */
+     , (11353,  16,          1) /* ItemUseable - No */
+     , (11353,  19,        200) /* Value */
+     , (11353,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11353, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11353, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11353,  22, True ) /* Inscribable */
+     , (11353,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11353,  39,     0.4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11353,   1, 'Vapor Golem Heart') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11353,   1,   33554817) /* Setup */
+     , (11353,   3,  536870932) /* SoundTable */
+     , (11353,   6,   67111919) /* PaletteBase */
+     , (11353,   7,  268435832) /* ClothingBase */
+     , (11353,   8,  100671841) /* Icon */
+     , (11353,  22,  872415275) /* PhysicsEffectTable */;

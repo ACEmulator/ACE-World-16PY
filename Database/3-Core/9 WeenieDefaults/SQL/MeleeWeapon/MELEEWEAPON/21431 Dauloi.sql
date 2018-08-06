@@ -1,65 +1,61 @@
-/* Weenie - Dauloi (21431) */
-DELETE FROM weenie WHERE class_Id = 21431;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21431, 'macegaerlan', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21431, 001 /* NAME_STRING */, 'Dauloi')
-     , (21431, 015 /* SHORT_DESC_STRING */, 'A morningstar constructed from obsidian and cerulean colored stone.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21431, 001 /* SETUP_DID */, 33557962)
-     , (21431, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (21431, 008 /* ICON_DID */, 100673489)
-     , (21431, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (21431, 037 /* ITEM_SKILL_LIMIT_DID */, 5);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('21431', 'macegaerlan', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21431, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (21431, 005 /* ENCUMB_VAL_INT */, 850)
-     , (21431, 008 /* MASS_INT */, 850)
-     , (21431, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (21431, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (21431, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (21431, 019 /* VALUE_INT */, 4000)
-     , (21431, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (21431, 044 /* DAMAGE_INT */, 24)
-     , (21431, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (21431, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (21431, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (21431, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (21431, 049 /* WEAPON_TIME_INT */, 40)
-     , (21431, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (21431, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (21431, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (21431, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (21431, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (21431, 109 /* ITEM_DIFFICULTY_INT */, 125)
-     , (21431, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 325)
-     , (21431, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (21431, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (21431, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (21431, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (21431, 160 /* WIELD_DIFFICULTY_INT */, 30)
-     , (21431, 166 /* SLAYER_CREATURE_TYPE_INT */, 1 /* Olthoi_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21431, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (21431, 021 /* WEAPON_LENGTH_FLOAT */, 0.62)
-     , (21431, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.4)
-     , (21431, 029 /* WEAPON_DEFENSE_FLOAT */, 1.12)
-     , (21431, 062 /* WEAPON_OFFENSE_FLOAT */, 1.12)
-     , (21431, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 2);
+VALUES (21431,   1,          1) /* ItemType - MeleeWeapon */
+     , (21431,   5,        850) /* EncumbranceVal */
+     , (21431,   8,        850) /* Mass */
+     , (21431,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (21431,  16,          1) /* ItemUseable - No */
+     , (21431,  18,          1) /* UiEffects - Magical */
+     , (21431,  19,       4000) /* Value */
+     , (21431,  36,       9999) /* ResistMagic */
+     , (21431,  44,         24) /* Damage */
+     , (21431,  45,          4) /* DamageType - Bludgeon */
+     , (21431,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (21431,  47,          4) /* AttackType - Slash */
+     , (21431,  48,          5) /* WeaponSkill - Mace */
+     , (21431,  49,         40) /* WeaponTime */
+     , (21431,  51,          1) /* CombatUse - Melee */
+     , (21431,  93,       1044) /* PhysicsState */
+     , (21431, 106,        250) /* ItemSpellcraft */
+     , (21431, 107,       1000) /* ItemCurMana */
+     , (21431, 108,       1000) /* ItemMaxMana */
+     , (21431, 109,        125) /* ItemDifficulty */
+     , (21431, 115,        325) /* ItemSkillLevelLimit */
+     , (21431, 150,        103) /* HookPlacement - Hook */
+     , (21431, 151,          2) /* HookType - Wall */
+     , (21431, 158,          7) /* WieldRequirements - Level */
+     , (21431, 159,          1) /* WieldSkilltype - Axe */
+     , (21431, 160,         30) /* WieldDifficulty */
+     , (21431, 166,          1) /* SlayerCreatureType - Olthoi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21431, 022 /* INSCRIBABLE_BOOL */, True)
-     , (21431, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (21431,  22, True ) /* Inscribable */
+     , (21431,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21431,   5,   -0.05) /* ManaRate */
+     , (21431,  21,    0.62) /* WeaponLength */
+     , (21431,  22,     0.4) /* DamageVariance */
+     , (21431,  29,    1.12) /* WeaponDefense */
+     , (21431,  62,    1.12) /* WeaponOffense */
+     , (21431, 138,       2) /* SlayerDamageBonus */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21431,   1, 'Dauloi') /* Name */
+     , (21431,  15, 'A morningstar constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21431,   1,   33557962) /* Setup */
+     , (21431,   3,  536870932) /* SoundTable */
+     , (21431,   8,  100673489) /* Icon */
+     , (21431,  22,  872415275) /* PhysicsEffectTable */
+     , (21431,  37,          5) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21431, 1604, 2) /* Defender5_SpellID */
-     , (21431, 1591, 2) /* HeartSeeker5_SpellID */
-     , (21431, 1615, 2) /* BloodDrinker5_SpellID */
-     , (21431, 344, 2) /* MaceMasteryOther5_SpellID */
-     , (21431, 1624, 2) /* SwiftKiller3_SpellID */;
-
+VALUES (21431,   344,      2)  /* Light Weapon Mastery Other V */
+     , (21431,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (21431,  1604,      2)  /* Aura of Defender Self V */
+     , (21431,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (21431,  1624,      2)  /* Aura of Swift Killer Self III */;

@@ -1,67 +1,63 @@
-/* Weenie - Good Flaming Isparian Axe (19766) */
-DELETE FROM weenie WHERE class_Id = 19766;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19766, 'axeispariangoodsmolderingminor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19766, 001 /* NAME_STRING */, 'Good Flaming Isparian Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19766, 001 /* SETUP_DID */, 33556307)
-     , (19766, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19766, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19766, 007 /* CLOTHINGBASE_DID */, 268436377)
-     , (19766, 008 /* ICON_DID */, 100672891)
-     , (19766, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (19766, 037 /* ITEM_SKILL_LIMIT_DID */, 1);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19766', 'axeispariangoodsmolderingminor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19766, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (19766, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (19766, 005 /* ENCUMB_VAL_INT */, 750)
-     , (19766, 008 /* MASS_INT */, 850)
-     , (19766, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (19766, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19766, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (19766, 019 /* VALUE_INT */, 4000)
-     , (19766, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19766, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (19766, 044 /* DAMAGE_INT */, 28)
-     , (19766, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
-     , (19766, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (19766, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (19766, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (19766, 049 /* WEAPON_TIME_INT */, 55)
-     , (19766, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (19766, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19766, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (19766, 107 /* ITEM_CUR_MANA_INT */, 400)
-     , (19766, 108 /* ITEM_MAX_MANA_INT */, 400)
-     , (19766, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 250)
-     , (19766, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (19766, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (19766, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (19766, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (19766, 160 /* WIELD_DIFFICULTY_INT */, 30);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19766, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (19766, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (19766, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (19766, 029 /* WEAPON_DEFENSE_FLOAT */, 1.06)
-     , (19766, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (19766, 062 /* WEAPON_OFFENSE_FLOAT */, 1.06);
+VALUES (19766,   1,          1) /* ItemType - MeleeWeapon */
+     , (19766,   3,         14) /* PaletteTemplate - Red */
+     , (19766,   5,        750) /* EncumbranceVal */
+     , (19766,   8,        850) /* Mass */
+     , (19766,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (19766,  16,          1) /* ItemUseable - No */
+     , (19766,  18,          1) /* UiEffects - Magical */
+     , (19766,  19,       4000) /* Value */
+     , (19766,  33,          1) /* Bonded - Bonded */
+     , (19766,  36,       9999) /* ResistMagic */
+     , (19766,  44,         28) /* Damage */
+     , (19766,  45,         16) /* DamageType - Fire */
+     , (19766,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (19766,  47,          4) /* AttackType - Slash */
+     , (19766,  48,          1) /* WeaponSkill - Axe */
+     , (19766,  49,         55) /* WeaponTime */
+     , (19766,  51,          1) /* CombatUse - Melee */
+     , (19766,  93,       1044) /* PhysicsState */
+     , (19766, 106,        100) /* ItemSpellcraft */
+     , (19766, 107,        400) /* ItemCurMana */
+     , (19766, 108,        400) /* ItemMaxMana */
+     , (19766, 115,        250) /* ItemSkillLevelLimit */
+     , (19766, 150,        103) /* HookPlacement - Hook */
+     , (19766, 151,          2) /* HookType - Wall */
+     , (19766, 158,          7) /* WieldRequirements - Level */
+     , (19766, 159,          1) /* WieldSkilltype - Axe */
+     , (19766, 160,         30) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19766, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19766, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19766, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19766,  22, True ) /* Inscribable */
+     , (19766,  23, True ) /* DestroyOnSell */
+     , (19766,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19766,   5,  -0.033) /* ManaRate */
+     , (19766,  21,    0.75) /* WeaponLength */
+     , (19766,  22,     0.5) /* DamageVariance */
+     , (19766,  29,    1.06) /* WeaponDefense */
+     , (19766,  39,       1) /* DefaultScale */
+     , (19766,  62,    1.06) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19766,   1, 'Good Flaming Isparian Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19766,   1,   33556307) /* Setup */
+     , (19766,   3,  536870932) /* SoundTable */
+     , (19766,   6,   67111919) /* PaletteBase */
+     , (19766,   7,  268436377) /* ClothingBase */
+     , (19766,   8,  100672891) /* Icon */
+     , (19766,  22,  872415275) /* PhysicsEffectTable */
+     , (19766,  37,          1) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19766, 1590, 2) /* HeartSeeker4_SpellID */
-     , (19766, 1614, 2) /* BloodDrinker4_SpellID */
-     , (19766, 1092, 2) /* FireProtectionSelf4_SpellID */
-     , (19766, 1329, 2) /* StrengthSelf3_SpellID */
-     , (19766, 2675, 2) /* FeebleAxeAptitude_SpellID */;
-
+VALUES (19766,  1092,      2)  /* Fire Protection Self IV */
+     , (19766,  1329,      2)  /* Strength Self III */
+     , (19766,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (19766,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (19766,  2675,      2)  /* Feeble Light Weapon Aptitude */;

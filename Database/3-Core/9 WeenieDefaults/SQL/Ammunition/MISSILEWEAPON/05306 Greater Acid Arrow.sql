@@ -1,51 +1,47 @@
-/* Weenie - Greater Acid Arrow (5306) */
-DELETE FROM weenie WHERE class_Id = 5306;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5306, 'arrowgreateracid', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5306, 001 /* NAME_STRING */, 'Greater Acid Arrow');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5306, 001 /* SETUP_DID */, 33555787)
-     , (5306, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5306, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (5306, 007 /* CLOTHINGBASE_DID */, 268436303)
-     , (5306, 008 /* ICON_DID */, 100670186)
-     , (5306, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5306', 'arrowgreateracid', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5306, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (5306, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (5306, 005 /* ENCUMB_VAL_INT */, 10)
-     , (5306, 008 /* MASS_INT */, 2)
-     , (5306, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
-     , (5306, 011 /* MAX_STACK_SIZE_INT */, 250)
-     , (5306, 012 /* STACK_SIZE_INT */, 1)
-     , (5306, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (5306, 014 /* STACK_UNIT_MASS_INT */, 2)
-     , (5306, 015 /* STACK_UNIT_VALUE_INT */, 11)
-     , (5306, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (5306, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (5306, 019 /* VALUE_INT */, 11)
-     , (5306, 044 /* DAMAGE_INT */, 14)
-     , (5306, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (5306, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
-     , (5306, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
-     , (5306, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (5306, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (5306, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5306, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (5306, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (5306, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (5306, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (5306, 078 /* FRICTION_FLOAT */, 1)
-     , (5306, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (5306,   1,        256) /* ItemType - MissileWeapon */
+     , (5306,   3,          8) /* PaletteTemplate - Green */
+     , (5306,   5,         10) /* EncumbranceVal */
+     , (5306,   8,          2) /* Mass */
+     , (5306,   9,    8388608) /* ValidLocations - MissileAmmo */
+     , (5306,  11,        250) /* MaxStackSize */
+     , (5306,  12,          1) /* StackSize */
+     , (5306,  13,         10) /* StackUnitEncumbrance */
+     , (5306,  14,          2) /* StackUnitMass */
+     , (5306,  15,         11) /* StackUnitValue */
+     , (5306,  16,          1) /* ItemUseable - No */
+     , (5306,  18,        256) /* UiEffects - Acid */
+     , (5306,  19,         11) /* Value */
+     , (5306,  44,         14) /* Damage */
+     , (5306,  45,         32) /* DamageType - Acid */
+     , (5306,  50,          1) /* AmmoType - Arrow */
+     , (5306,  51,          3) /* CombatUse - Ammo */
+     , (5306,  93,     132116) /* PhysicsState */
+     , (5306, 150,        103) /* HookPlacement - Hook */
+     , (5306, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5306, 017 /* INELASTIC_BOOL */, True)
-     , (5306, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5306,  17, True ) /* Inelastic */
+     , (5306,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5306,  22,    0.25) /* DamageVariance */
+     , (5306,  29,       1) /* WeaponDefense */
+     , (5306,  39,     1.1) /* DefaultScale */
+     , (5306,  62,       1) /* WeaponOffense */
+     , (5306,  78,       1) /* Friction */
+     , (5306,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5306,   1, 'Greater Acid Arrow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5306,   1,   33555787) /* Setup */
+     , (5306,   3,  536870932) /* SoundTable */
+     , (5306,   6,   67111919) /* PaletteBase */
+     , (5306,   7,  268436303) /* ClothingBase */
+     , (5306,   8,  100670186) /* Icon */
+     , (5306,  22,  872415275) /* PhysicsEffectTable */;

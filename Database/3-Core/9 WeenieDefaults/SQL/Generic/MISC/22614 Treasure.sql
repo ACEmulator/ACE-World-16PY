@@ -1,34 +1,30 @@
-/* Weenie - Treasure (22614) */
-DELETE FROM weenie WHERE class_Id = 22614;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22614, 'phatlewt', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22614, 001 /* NAME_STRING */, 'Treasure')
-     , (22614, 015 /* SHORT_DESC_STRING */, 'A pile of gleaming treasure. You''re rich! You''re wealthy! You''re independent! You''re comfortably well off!')
-     , (22614, 033 /* QUEST_STRING */, 'PickedUpPhatLewt');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22614, 001 /* SETUP_DID */, 33558212)
-     , (22614, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (22614, 008 /* ICON_DID */, 100674084)
-     , (22614, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22614', 'phatlewt', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22614, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22614, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (22614, 008 /* MASS_INT */, 4500)
-     , (22614, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22614, 019 /* VALUE_INT */, 200000)
-     , (22614, 092 /* STRUCTURE_INT */, 100)
-     , (22614, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22614, 105 /* ITEM_WORKMANSHIP_INT */, 10)
-     , (22614, 131 /* MATERIAL_TYPE_INT */, 60 /* Gold_MaterialType */)
-     , (22614, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22614, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
+VALUES (22614,   1,        128) /* ItemType - Misc */
+     , (22614,   5,       9000) /* EncumbranceVal */
+     , (22614,   8,       4500) /* Mass */
+     , (22614,  16,          1) /* ItemUseable - No */
+     , (22614,  19,     200000) /* Value */
+     , (22614,  92,        100) /* Structure */
+     , (22614,  93,       1044) /* PhysicsState */
+     , (22614, 105,         10) /* ItemWorkmanship */
+     , (22614, 131,         60) /* MaterialType - Gold */
+     , (22614, 150,        103) /* HookPlacement - Hook */
+     , (22614, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22614, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22614, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (22614,  22, True ) /* Inscribable */
+     , (22614,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22614,   1, 'Treasure') /* Name */
+     , (22614,  15, 'A pile of gleaming treasure. You''re rich! You''re wealthy! You''re independent! You''re comfortably well off!') /* ShortDesc */
+     , (22614,  33, 'PickedUpPhatLewt') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22614,   1,   33558212) /* Setup */
+     , (22614,   3,  536870932) /* SoundTable */
+     , (22614,   8,  100674084) /* Icon */
+     , (22614,  22,  872415275) /* PhysicsEffectTable */;

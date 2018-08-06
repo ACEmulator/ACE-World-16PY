@@ -1,32 +1,28 @@
-/* Weenie - Scroll of Elysa's Sight (20416) */
-DELETE FROM weenie WHERE class_Id = 20416;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20416, 'scrollheartseeker7', 34 /* Scroll_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20416, 001 /* NAME_STRING */, 'Scroll of Elysa''s Sight')
-     , (20416, 015 /* SHORT_DESC_STRING */, 'When learned, this spell increases a weapon''s Attack Skill modifier by 17.0 percentage points.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20416, 001 /* SETUP_DID */, 33554826)
-     , (20416, 008 /* ICON_DID */, 100676660)
-     , (20416, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (20416, 028 /* SPELL_DID */, 2106 /* Heartseeker7_SpellID */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('20416', 'scrollheartseeker7', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20416, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (20416, 005 /* ENCUMB_VAL_INT */, 30)
-     , (20416, 008 /* MASS_INT */, 90)
-     , (20416, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (20416, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (20416, 019 /* VALUE_INT */, 2000)
-     , (20416, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20416, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
+VALUES (20416,   1,       8192) /* ItemType - Writable */
+     , (20416,   5,         30) /* EncumbranceVal */
+     , (20416,   8,         90) /* Mass */
+     , (20416,   9,          0) /* ValidLocations - None */
+     , (20416,  16,          8) /* ItemUseable - Contained */
+     , (20416,  19,       2000) /* Value */
+     , (20416,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20416, 022 /* INSCRIBABLE_BOOL */, True)
-     , (20416, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (20416,  22, True ) /* Inscribable */
+     , (20416,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20416,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20416,   1, 'Scroll of Elysa''s Sight') /* Name */
+     , (20416,  15, 'When learned, this spell increases a weapon''s Attack Skill modifier by 17.0 percentage points.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20416,   1,   33554826) /* Setup */
+     , (20416,   8,  100676660) /* Icon */
+     , (20416,  22,  872415275) /* PhysicsEffectTable */
+     , (20416,  28,       2106) /* Spell - Aura of Elysa's Sight */;

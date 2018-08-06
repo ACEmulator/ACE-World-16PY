@@ -1,28 +1,24 @@
-/* Weenie - Lord Cambarth Villas (14717) */
-DELETE FROM weenie WHERE class_Id = 14717;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14717, 'lordcambarthvillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14717, 001 /* NAME_STRING */, 'Lord Cambarth Villas')
-     , (14717, 016 /* LONG_DESC_STRING */, 'Welcome to Lord Cambarth Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14717, 001 /* SETUP_DID */, 33557463)
-     , (14717, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14717', 'lordcambarthvillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14717, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (14717, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (14717, 008 /* MASS_INT */, 1800)
-     , (14717, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14717, 019 /* VALUE_INT */, 125)
-     , (14717, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (14717,   1,        128) /* ItemType - Misc */
+     , (14717,   5,       9000) /* EncumbranceVal */
+     , (14717,   8,       1800) /* Mass */
+     , (14717,  16,          1) /* ItemUseable - No */
+     , (14717,  19,        125) /* Value */
+     , (14717,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14717, 001 /* STUCK_BOOL */, True)
-     , (14717, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14717, 013 /* ETHEREAL_BOOL */, False)
-     , (14717, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (14717,   1, True ) /* Stuck */
+     , (14717,  12, True ) /* ReportCollisions */
+     , (14717,  13, False) /* Ethereal */
+     , (14717,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14717,   1, 'Lord Cambarth Villas') /* Name */
+     , (14717,  16, 'Welcome to Lord Cambarth Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14717,   1,   33557463) /* Setup */
+     , (14717,   8,  100668115) /* Icon */;

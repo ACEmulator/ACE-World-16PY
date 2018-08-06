@@ -1,7 +1,6 @@
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (50564, 23176, 0, 5) /* newbiealuplainsgen */
-     , (50564, 23176, 2, 6) /* newbiealuplainsgen */
-     , (50564, 23176, 5, 2) /* newbiealuplainsgen */
-     , (50564, 23176, 6, 3) /* newbiealuplainsgen */
-     , (50564, 23176, 7, 6) /* newbiealuplainsgen */;
-
+VALUES (50564, 23176, 0, 5) /* Aluvian Newbie Plains Mix Generator */
+     , (50564, 23176, 2, 6) /* Aluvian Newbie Plains Mix Generator */
+     , (50564, 23176, 5, 2) /* Aluvian Newbie Plains Mix Generator */
+     , (50564, 23176, 6, 3) /* Aluvian Newbie Plains Mix Generator */
+     , (50564, 23176, 7, 6) /* Aluvian Newbie Plains Mix Generator */;

@@ -1,66 +1,62 @@
-/* Weenie - Fenmalain Crystal Bow (28331) */
-DELETE FROM weenie WHERE class_Id = 28331;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28331, 'bowcrystalfennew', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28331, 001 /* NAME_STRING */, 'Fenmalain Crystal Bow')
-     , (28331, 015 /* SHORT_DESC_STRING */, 'A bow imbued with the essence of the Fenmalain Crystal. Uses crystal-tipped arrows.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28331, 001 /* SETUP_DID */, 33554729)
-     , (28331, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28331, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (28331, 007 /* CLOTHINGBASE_DID */, 268436042)
-     , (28331, 008 /* ICON_DID */, 100670998)
-     , (28331, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28331', 'bowcrystalfennew', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28331, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (28331, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (28331, 005 /* ENCUMB_VAL_INT */, 450)
-     , (28331, 008 /* MASS_INT */, 140)
-     , (28331, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (28331, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28331, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (28331, 019 /* VALUE_INT */, 1000)
-     , (28331, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (28331, 044 /* DAMAGE_INT */, 0)
-     , (28331, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
-     , (28331, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
-     , (28331, 049 /* WEAPON_TIME_INT */, 60)
-     , (28331, 050 /* AMMO_TYPE_INT */, 8 /* AMMO_BOLT_CHORIZITE */)
-     , (28331, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (28331, 052 /* PARENT_LOCATION_INT */, 2)
-     , (28331, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (28331, 060 /* WEAPON_RANGE_INT */, 180)
-     , (28331, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28331, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (28331, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (28331, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (28331, 109 /* ITEM_DIFFICULTY_INT */, 10)
-     , (28331, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (28331, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28331, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (28331, 012 /* SHADE_FLOAT */, 0.9)
-     , (28331, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (28331, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
-     , (28331, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (28331, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (28331, 063 /* DAMAGE_MOD_FLOAT */, 2)
-     , (28331, 076 /* TRANSLUCENCY_FLOAT */, 0.5)
-     , (28331, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.15);
+VALUES (28331,   1,        256) /* ItemType - MissileWeapon */
+     , (28331,   3,         13) /* PaletteTemplate - Purple */
+     , (28331,   5,        450) /* EncumbranceVal */
+     , (28331,   8,        140) /* Mass */
+     , (28331,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (28331,  16,          1) /* ItemUseable - No */
+     , (28331,  18,          1) /* UiEffects - Magical */
+     , (28331,  19,       1000) /* Value */
+     , (28331,  36,       9999) /* ResistMagic */
+     , (28331,  44,          0) /* Damage */
+     , (28331,  46,         16) /* DefaultCombatStyle - Bow */
+     , (28331,  48,          2) /* WeaponSkill - Bow */
+     , (28331,  49,         60) /* WeaponTime */
+     , (28331,  50,          8) /* AmmoType - ArrowAtlatlChorizite */
+     , (28331,  51,          2) /* CombatUse - Missle */
+     , (28331,  52,          2) /* ParentLocation */
+     , (28331,  53,          3) /* PlacementPosition */
+     , (28331,  60,        180) /* WeaponRange */
+     , (28331,  93,       1044) /* PhysicsState */
+     , (28331, 106,        200) /* ItemSpellcraft */
+     , (28331, 107,        500) /* ItemCurMana */
+     , (28331, 108,        500) /* ItemMaxMana */
+     , (28331, 109,         10) /* ItemDifficulty */
+     , (28331, 150,        103) /* HookPlacement - Hook */
+     , (28331, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28331, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28331, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (28331,  22, True ) /* Inscribable */
+     , (28331,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28331,   5,   -0.05) /* ManaRate */
+     , (28331,  12,     0.9) /* Shade */
+     , (28331,  26,    27.3) /* MaximumVelocity */
+     , (28331,  29,    1.08) /* WeaponDefense */
+     , (28331,  39,     1.1) /* DefaultScale */
+     , (28331,  62,       1) /* WeaponOffense */
+     , (28331,  63,       2) /* DamageMod */
+     , (28331,  76,     0.5) /* Translucency */
+     , (28331, 147,    0.15) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28331,   1, 'Fenmalain Crystal Bow') /* Name */
+     , (28331,  15, 'A bow imbued with the essence of the Fenmalain Crystal. Uses crystal-tipped arrows.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28331,   1,   33554729) /* Setup */
+     , (28331,   3,  536870932) /* SoundTable */
+     , (28331,   6,   67111919) /* PaletteBase */
+     , (28331,   7,  268436042) /* ClothingBase */
+     , (28331,   8,  100670998) /* Icon */
+     , (28331,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28331, 1602, 2) /* Defender3_SpellID */
-     , (28331, 1613, 2) /* BloodDrinker3_SpellID */
-     , (28331, 463, 2) /* BowMasteryOther3_SpellID */
-     , (28331, 1624, 2) /* SwiftKiller3_SpellID */;
-
+VALUES (28331,   463,      2)  /* Missile Weapon Mastery Other III */
+     , (28331,  1602,      2)  /* Aura of Defender Self III */
+     , (28331,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (28331,  1624,      2)  /* Aura of Swift Killer Self III */;

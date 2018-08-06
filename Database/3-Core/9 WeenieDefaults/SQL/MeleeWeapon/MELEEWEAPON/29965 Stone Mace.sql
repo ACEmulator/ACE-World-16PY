@@ -1,52 +1,48 @@
-/* Weenie - Stone Mace (29965) */
-DELETE FROM weenie WHERE class_Id = 29965;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29965, 'maceknightextreme', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29965, 001 /* NAME_STRING */, 'Stone Mace');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29965, 001 /* SETUP_DID */, 33558587)
-     , (29965, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29965, 008 /* ICON_DID */, 100675764)
-     , (29965, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29965', 'maceknightextreme', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29965, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (29965, 005 /* ENCUMB_VAL_INT */, 5200)
-     , (29965, 008 /* MASS_INT */, 2080)
-     , (29965, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (29965, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29965, 019 /* VALUE_INT */, 500)
-     , (29965, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
-     , (29965, 044 /* DAMAGE_INT */, 58)
-     , (29965, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (29965, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (29965, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (29965, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
-     , (29965, 049 /* WEAPON_TIME_INT */, 40)
-     , (29965, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (29965, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29965, 106 /* ITEM_SPELLCRAFT_INT */, 250)
-     , (29965, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (29965, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (29965, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (29965, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29965, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29965, 021 /* WEAPON_LENGTH_FLOAT */, 1.24)
-     , (29965, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (29965, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (29965, 039 /* DEFAULT_SCALE_FLOAT */, 2)
-     , (29965, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (29965,   1,          1) /* ItemType - MeleeWeapon */
+     , (29965,   5,       5200) /* EncumbranceVal */
+     , (29965,   8,       2080) /* Mass */
+     , (29965,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (29965,  16,          1) /* ItemUseable - No */
+     , (29965,  19,        500) /* Value */
+     , (29965,  37,       9999) /* ResistItemAppraisal */
+     , (29965,  44,         58) /* Damage */
+     , (29965,  45,          4) /* DamageType - Bludgeon */
+     , (29965,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (29965,  47,          4) /* AttackType - Slash */
+     , (29965,  48,          5) /* WeaponSkill - Mace */
+     , (29965,  49,         40) /* WeaponTime */
+     , (29965,  51,          1) /* CombatUse - Melee */
+     , (29965,  93,       1044) /* PhysicsState */
+     , (29965, 106,        250) /* ItemSpellcraft */
+     , (29965, 107,        500) /* ItemCurMana */
+     , (29965, 108,        500) /* ItemMaxMana */
+     , (29965, 109,          0) /* ItemDifficulty */
+     , (29965, 150,        103) /* HookPlacement - Hook */
+     , (29965, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29965, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29965,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29965,  21,    1.24) /* WeaponLength */
+     , (29965,  22,     0.5) /* DamageVariance */
+     , (29965,  29,       1) /* WeaponDefense */
+     , (29965,  39,       2) /* DefaultScale */
+     , (29965,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29965,   1, 'Stone Mace') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29965,   1,   33558587) /* Setup */
+     , (29965,   3,  536870932) /* SoundTable */
+     , (29965,   8,  100675764) /* Icon */
+     , (29965,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29965, 1616, 2) /* BloodDrinker6_SpellID */
-     , (29965, 1627, 2) /* SwiftKiller6_SpellID */;
-
+VALUES (29965,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (29965,  1627,      2)  /* Aura of Swift Killer Self VI */;

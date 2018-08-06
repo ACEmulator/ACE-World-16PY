@@ -1,34 +1,30 @@
-/* Weenie - Bandit Castle Prison (1306) */
-DELETE FROM weenie WHERE class_Id = 1306;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1306, 'portalbanditcastleprison', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1306, 001 /* NAME_STRING */, 'Bandit Castle Prison');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1306, 001 /* SETUP_DID */, 33554867)
-     , (1306, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (1306, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1306', 'portalbanditcastleprison', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1306, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (1306, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (1306, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (1306, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (1306, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1306, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (1306,   1,      65536) /* ItemType - Portal */
+     , (1306,  16,         32) /* ItemUseable - Remote */
+     , (1306,  93,       3084) /* PhysicsState */
+     , (1306, 111,          1) /* PortalBitmask - Unrestricted */
+     , (1306, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1306, 001 /* STUCK_BOOL */, True)
-     , (1306, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (1306, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1306, 013 /* ETHEREAL_BOOL */, True)
-     , (1306, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (1306,   1, True ) /* Stuck */
+     , (1306,  11, False) /* IgnoreCollisions */
+     , (1306,  12, True ) /* ReportCollisions */
+     , (1306,  13, True ) /* Ethereal */
+     , (1306,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1306,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1306,   1, 'Bandit Castle Prison') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1306,   1,   33554867) /* Setup */
+     , (1306,   2,  150994947) /* MotionTable */
+     , (1306,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1306, 2, 31588913, 71.894, -20, 24.005, -0.7277848, 0, 0, -0.6858056) /* DESTINATION_POSITION */;
-
+VALUES (1306, 2, 31588913, 71.894, -20, 24.005, -0.7277848, 0, 0, -0.6858056) /* Destination */;

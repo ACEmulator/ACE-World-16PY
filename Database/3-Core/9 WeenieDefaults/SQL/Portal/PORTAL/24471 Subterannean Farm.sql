@@ -1,35 +1,31 @@
-/* Weenie - Subterannean Farm (24471) */
-DELETE FROM weenie WHERE class_Id = 24471;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24471, 'portalmartinesfarm', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24471, 001 /* NAME_STRING */, 'Subterannean Farm');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24471, 001 /* SETUP_DID */, 33555923)
-     , (24471, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (24471, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24471', 'portalmartinesfarm', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24471, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (24471, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (24471, 086 /* MIN_LEVEL_INT */, 20)
-     , (24471, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (24471, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
-     , (24471, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24471, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (24471,   1,      65536) /* ItemType - Portal */
+     , (24471,  16,         32) /* ItemUseable - Remote */
+     , (24471,  86,         20) /* MinLevel */
+     , (24471,  93,       3084) /* PhysicsState */
+     , (24471, 111,         49) /* PortalBitmask */
+     , (24471, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24471, 001 /* STUCK_BOOL */, True)
-     , (24471, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (24471, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (24471, 013 /* ETHEREAL_BOOL */, True)
-     , (24471, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (24471,   1, True ) /* Stuck */
+     , (24471,  11, False) /* IgnoreCollisions */
+     , (24471,  12, True ) /* ReportCollisions */
+     , (24471,  13, True ) /* Ethereal */
+     , (24471,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (24471,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24471,   1, 'Subterannean Farm') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24471,   1,   33555923) /* Setup */
+     , (24471,   2,  150994947) /* MotionTable */
+     , (24471,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24471, 2, 1665466891, 217.088, -89.2411, 0.005, 1, 0, 0, 0) /* DESTINATION_POSITION */;
-
+VALUES (24471, 2, 1665466891, 217.088, -89.2411, 0.005, 1, 0, 0, 0) /* Destination */;

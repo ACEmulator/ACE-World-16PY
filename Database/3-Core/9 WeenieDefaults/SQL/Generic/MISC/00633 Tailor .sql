@@ -1,30 +1,26 @@
-/* Weenie - Tailor  (633) */
-DELETE FROM weenie WHERE class_Id = 633;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (633, 'tailorsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (633, 001 /* NAME_STRING */, 'Tailor ')
-     , (633, 016 /* LONG_DESC_STRING */, 'Tailor');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (633, 001 /* SETUP_DID */, 33555088)
-     , (633, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (633, 007 /* CLOTHINGBASE_DID */, 268435668)
-     , (633, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('633', 'tailorsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (633, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (633, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (633, 008 /* MASS_INT */, 1800)
-     , (633, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (633, 019 /* VALUE_INT */, 125)
-     , (633, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (633,   1,        128) /* ItemType - Misc */
+     , (633,   5,       9000) /* EncumbranceVal */
+     , (633,   8,       1800) /* Mass */
+     , (633,  16,          1) /* ItemUseable - No */
+     , (633,  19,        125) /* Value */
+     , (633,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (633, 001 /* STUCK_BOOL */, True)
-     , (633, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (633, 013 /* ETHEREAL_BOOL */, False)
-     , (633, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (633,   1, True ) /* Stuck */
+     , (633,  12, True ) /* ReportCollisions */
+     , (633,  13, False) /* Ethereal */
+     , (633,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (633,   1, 'Tailor ') /* Name */
+     , (633,  16, 'Tailor') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (633,   1,   33555088) /* Setup */
+     , (633,   6,   67111092) /* PaletteBase */
+     , (633,   7,  268435668) /* ClothingBase */
+     , (633,   8,  100668115) /* Icon */;

@@ -1,31 +1,27 @@
-/* Weenie - The Skeleton's Mug (4670) */
-DELETE FROM weenie WHERE class_Id = 4670;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4670, 'khayyabantavernsign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4670, 001 /* NAME_STRING */, 'The Skeleton''s Mug')
-     , (4670, 016 /* LONG_DESC_STRING */, 'The Skeleton''s Mug');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4670, 001 /* SETUP_DID */, 33555909)
-     , (4670, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (4670, 007 /* CLOTHINGBASE_DID */, 268435825)
-     , (4670, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('4670', 'khayyabantavernsign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4670, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (4670, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (4670, 008 /* MASS_INT */, 1800)
-     , (4670, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (4670, 019 /* VALUE_INT */, 125)
-     , (4670, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (4670,   1,        128) /* ItemType - Misc */
+     , (4670,   5,       9000) /* EncumbranceVal */
+     , (4670,   8,       1800) /* Mass */
+     , (4670,  16,          1) /* ItemUseable - No */
+     , (4670,  19,        125) /* Value */
+     , (4670,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4670, 001 /* STUCK_BOOL */, True)
-     , (4670, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (4670, 013 /* ETHEREAL_BOOL */, False)
-     , (4670, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (4670, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (4670,   1, True ) /* Stuck */
+     , (4670,  12, True ) /* ReportCollisions */
+     , (4670,  13, False) /* Ethereal */
+     , (4670,  14, False) /* GravityStatus */
+     , (4670,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4670,   1, 'The Skeleton''s Mug') /* Name */
+     , (4670,  16, 'The Skeleton''s Mug') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4670,   1,   33555909) /* Setup */
+     , (4670,   6,   67111860) /* PaletteBase */
+     , (4670,   7,  268435825) /* ClothingBase */
+     , (4670,   8,  100668115) /* Icon */;

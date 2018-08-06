@@ -1,51 +1,47 @@
-/* Weenie - Greater Lightning Atlatl Dart (15292) */
-DELETE FROM weenie WHERE class_Id = 15292;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15292, 'atlatldartgreaterelectric', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15292, 001 /* NAME_STRING */, 'Greater Lightning Atlatl Dart');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15292, 001 /* SETUP_DID */, 33557598)
-     , (15292, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15292, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (15292, 007 /* CLOTHINGBASE_DID */, 268436305)
-     , (15292, 008 /* ICON_DID */, 100672595)
-     , (15292, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15292', 'atlatldartgreaterelectric', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15292, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (15292, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (15292, 005 /* ENCUMB_VAL_INT */, 10)
-     , (15292, 008 /* MASS_INT */, 2)
-     , (15292, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
-     , (15292, 011 /* MAX_STACK_SIZE_INT */, 250)
-     , (15292, 012 /* STACK_SIZE_INT */, 1)
-     , (15292, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (15292, 014 /* STACK_UNIT_MASS_INT */, 2)
-     , (15292, 015 /* STACK_UNIT_VALUE_INT */, 11)
-     , (15292, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15292, 018 /* UI_EFFECTS_INT */, 64 /* UI_EFFECT_LIGHTNING */)
-     , (15292, 019 /* VALUE_INT */, 11)
-     , (15292, 044 /* DAMAGE_INT */, 19)
-     , (15292, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (15292, 050 /* AMMO_TYPE_INT */, 4 /* AMMO_ARROW_CRYSTAL */)
-     , (15292, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
-     , (15292, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (15292, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (15292, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15292, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
-     , (15292, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (15292, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (15292, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (15292, 078 /* FRICTION_FLOAT */, 1)
-     , (15292, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (15292,   1,        256) /* ItemType - MissileWeapon */
+     , (15292,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (15292,   5,         10) /* EncumbranceVal */
+     , (15292,   8,          2) /* Mass */
+     , (15292,   9,    8388608) /* ValidLocations - MissileAmmo */
+     , (15292,  11,        250) /* MaxStackSize */
+     , (15292,  12,          1) /* StackSize */
+     , (15292,  13,         10) /* StackUnitEncumbrance */
+     , (15292,  14,          2) /* StackUnitMass */
+     , (15292,  15,         11) /* StackUnitValue */
+     , (15292,  16,          1) /* ItemUseable - No */
+     , (15292,  18,         64) /* UiEffects - Lightning */
+     , (15292,  19,         11) /* Value */
+     , (15292,  44,         19) /* Damage */
+     , (15292,  45,         64) /* DamageType - Electric */
+     , (15292,  50,          4) /* AmmoType - ArrowCrystal */
+     , (15292,  51,          3) /* CombatUse - Ammo */
+     , (15292,  93,     132116) /* PhysicsState */
+     , (15292, 150,        103) /* HookPlacement - Hook */
+     , (15292, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15292, 017 /* INELASTIC_BOOL */, True)
-     , (15292, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (15292,  17, True ) /* Inelastic */
+     , (15292,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15292,  22,    0.25) /* DamageVariance */
+     , (15292,  29,       1) /* WeaponDefense */
+     , (15292,  39,     1.1) /* DefaultScale */
+     , (15292,  62,       1) /* WeaponOffense */
+     , (15292,  78,       1) /* Friction */
+     , (15292,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15292,   1, 'Greater Lightning Atlatl Dart') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15292,   1,   33557598) /* Setup */
+     , (15292,   3,  536870932) /* SoundTable */
+     , (15292,   6,   67111919) /* PaletteBase */
+     , (15292,   7,  268436305) /* ClothingBase */
+     , (15292,   8,  100672595) /* Icon */
+     , (15292,  22,  872415275) /* PhysicsEffectTable */;

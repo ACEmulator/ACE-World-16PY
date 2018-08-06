@@ -1,37 +1,33 @@
-/* Weenie - Hearty Healing Chicken Noodle (5273) */
-DELETE FROM weenie WHERE class_Id = 5273;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5273, 'heartyhealingchickennoodle', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5273, 001 /* NAME_STRING */, 'Hearty Healing Chicken Noodle')
-     , (5273, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5273, 020 /* PLURAL_NAME_STRING */, 'Bowls of Hearty Healing Chicken Noodle ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5273, 001 /* SETUP_DID */, 33554668)
-     , (5273, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5273, 008 /* ICON_DID */, 100669966)
-     , (5273, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5273', 'heartyhealingchickennoodle', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5273, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5273, 005 /* ENCUMB_VAL_INT */, 50)
-     , (5273, 008 /* MASS_INT */, 50)
-     , (5273, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5273, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5273, 012 /* STACK_SIZE_INT */, 1)
-     , (5273, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (5273, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (5273, 015 /* STACK_UNIT_VALUE_INT */, 130)
-     , (5273, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5273, 018 /* UI_EFFECTS_INT */, 4 /* UI_EFFECT_BOOST_HEALTH */)
-     , (5273, 019 /* VALUE_INT */, 130)
-     , (5273, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
-     , (5273, 090 /* BOOST_VALUE_INT */, 45)
-     , (5273, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5273,   1,         32) /* ItemType - Food */
+     , (5273,   5,         50) /* EncumbranceVal */
+     , (5273,   8,         50) /* Mass */
+     , (5273,   9,          0) /* ValidLocations - None */
+     , (5273,  11,        100) /* MaxStackSize */
+     , (5273,  12,          1) /* StackSize */
+     , (5273,  13,         50) /* StackUnitEncumbrance */
+     , (5273,  14,         50) /* StackUnitMass */
+     , (5273,  15,        130) /* StackUnitValue */
+     , (5273,  16,          8) /* ItemUseable - Contained */
+     , (5273,  18,          4) /* UiEffects - BoostHealth */
+     , (5273,  19,        130) /* Value */
+     , (5273,  89,          2) /* BoosterEnum - Health */
+     , (5273,  90,         45) /* BoostValue */
+     , (5273,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5273, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (5273,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5273,   1, 'Hearty Healing Chicken Noodle') /* Name */
+     , (5273,  14, 'Use this item to eat it.') /* Use */
+     , (5273,  20, 'Bowls of Hearty Healing Chicken Noodle ') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5273,   1,   33554668) /* Setup */
+     , (5273,   3,  536870932) /* SoundTable */
+     , (5273,   8,  100669966) /* Icon */
+     , (5273,  22,  872415275) /* PhysicsEffectTable */;

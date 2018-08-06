@@ -1,51 +1,47 @@
-/* Weenie - Glittering Bracelet of Acid Protection (27577) */
-DELETE FROM weenie WHERE class_Id = 27577;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27577, 'braceletbehdo2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27577, 001 /* NAME_STRING */, 'Glittering Bracelet of Acid Protection')
-     , (27577, 015 /* SHORT_DESC_STRING */, 'A bracelet of piercing protection, given by Behdo Yii for completing the Worker quest.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27577, 001 /* SETUP_DID */, 33554683)
-     , (27577, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27577, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27577, 007 /* CLOTHINGBASE_DID */, 268435738)
-     , (27577, 008 /* ICON_DID */, 100668622)
-     , (27577, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27577, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27577', 'braceletbehdo2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27577, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (27577, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (27577, 005 /* ENCUMB_VAL_INT */, 60)
-     , (27577, 008 /* MASS_INT */, 60)
-     , (27577, 009 /* LOCATIONS_INT */, 196608 /* WRIST_WEAR_LOC */)
-     , (27577, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27577, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27577, 019 /* VALUE_INT */, 0)
-     , (27577, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (27577, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27577, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (27577, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (27577, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (27577, 109 /* ITEM_DIFFICULTY_INT */, 125)
-     , (27577, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (27577, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27577, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27577, 005 /* MANA_RATE_FLOAT */, -0.04)
-     , (27577, 039 /* DEFAULT_SCALE_FLOAT */, 0.67);
+VALUES (27577,   1,          8) /* ItemType - Jewelry */
+     , (27577,   3,         21) /* PaletteTemplate - Gold */
+     , (27577,   5,         60) /* EncumbranceVal */
+     , (27577,   8,         60) /* Mass */
+     , (27577,   9,     196608) /* ValidLocations - WristWear */
+     , (27577,  16,          1) /* ItemUseable - No */
+     , (27577,  18,          1) /* UiEffects - Magical */
+     , (27577,  19,          0) /* Value */
+     , (27577,  33,          1) /* Bonded - Bonded */
+     , (27577,  93,       1044) /* PhysicsState */
+     , (27577, 106,        150) /* ItemSpellcraft */
+     , (27577, 107,        600) /* ItemCurMana */
+     , (27577, 108,        600) /* ItemMaxMana */
+     , (27577, 109,        125) /* ItemDifficulty */
+     , (27577, 114,          1) /* Attuned - Attuned */
+     , (27577, 150,        103) /* HookPlacement - Hook */
+     , (27577, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27577, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27577, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (27577, 099 /* IVORYABLE_BOOL */, True);
+VALUES (27577,  22, True ) /* Inscribable */
+     , (27577,  23, True ) /* DestroyOnSell */
+     , (27577,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27577,   5,   -0.04) /* ManaRate */
+     , (27577,  39,    0.67) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27577,   1, 'Glittering Bracelet of Acid Protection') /* Name */
+     , (27577,  15, 'A bracelet of piercing protection, given by Behdo Yii for completing the Worker quest.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27577,   1,   33554683) /* Setup */
+     , (27577,   3,  536870932) /* SoundTable */
+     , (27577,   6,   67111919) /* PaletteBase */
+     , (27577,   7,  268435738) /* ClothingBase */
+     , (27577,   8,  100668622) /* Icon */
+     , (27577,  22,  872415275) /* PhysicsEffectTable */
+     , (27577,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27577, 512, 2) /* AcidProtectionOther4_SpellID */
-     , (27577, 241, 2) /* InvulnerabilityOther3_SpellID */;
-
+VALUES (27577,   241,      2)  /* Invulnerability Other III */
+     , (27577,   512,      2)  /* Acid Protection Other IV */;

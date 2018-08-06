@@ -1,52 +1,48 @@
-/* Weenie - Template for boots.  Covers feet and lower legs. (30529) */
-DELETE FROM weenie WHERE class_Id = 30529;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30529, 'bootsraregelidite', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30529, 001 /* NAME_STRING */, 'Template for boots.  Covers feet and lower legs.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30529, 001 /* SETUP_DID */, 33556683)
-     , (30529, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30529, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (30529, 007 /* CLOTHINGBASE_DID */, 268436710)
-     , (30529, 008 /* ICON_DID */, 100667310)
-     , (30529, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (30529, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (30529, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('30529', 'bootsraregelidite', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30529, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (30529, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (30529, 004 /* CLOTHING_PRIORITY_INT */, 65536 /* Feet */)
-     , (30529, 005 /* ENCUMB_VAL_INT */, 420)
-     , (30529, 008 /* MASS_INT */, 140)
-     , (30529, 009 /* LOCATIONS_INT */, 384 /* LOWER_LEG_WEAR_LOC, FOOT_WEAR_LOC */)
-     , (30529, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (30529, 019 /* VALUE_INT */, 70)
-     , (30529, 027 /* ARMOR_TYPE_INT */, 2)
-     , (30529, 028 /* ARMOR_LEVEL_INT */, 20)
-     , (30529, 044 /* DAMAGE_INT */, 1)
-     , (30529, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
-     , (30529, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30529, 169 /* TSYS_MUTATION_DATA_INT */, 185271566);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30529, 012 /* SHADE_FLOAT */, 0.1)
-     , (30529, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (30529, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (30529, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (30529, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (30529, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.5)
-     , (30529, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.3)
-     , (30529, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (30529, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
-     , (30529, 110 /* BULK_MOD_FLOAT */, 1.67)
-     , (30529, 111 /* SIZE_MOD_FLOAT */, 2);
+VALUES (30529,   1,          2) /* ItemType - Armor */
+     , (30529,   3,          4) /* PaletteTemplate - Brown */
+     , (30529,   4,      65536) /* ClothingPriority - Feet */
+     , (30529,   5,        420) /* EncumbranceVal */
+     , (30529,   8,        140) /* Mass */
+     , (30529,   9,        384) /* ValidLocations */
+     , (30529,  16,          1) /* ItemUseable - No */
+     , (30529,  19,         70) /* Value */
+     , (30529,  27,          2) /* ArmorType */
+     , (30529,  28,         20) /* ArmorLevel */
+     , (30529,  44,          1) /* Damage */
+     , (30529,  45,          4) /* DamageType - Bludgeon */
+     , (30529,  93,       1044) /* PhysicsState */
+     , (30529, 169,  185271566) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30529, 022 /* INSCRIBABLE_BOOL */, True)
-     , (30529, 100 /* DYABLE_BOOL */, True);
+VALUES (30529,  22, True ) /* Inscribable */
+     , (30529, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30529,  12,     0.1) /* Shade */
+     , (30529,  13,       1) /* ArmorModVsSlash */
+     , (30529,  14,     0.8) /* ArmorModVsPierce */
+     , (30529,  15,       1) /* ArmorModVsBludgeon */
+     , (30529,  16,     0.5) /* ArmorModVsCold */
+     , (30529,  17,     0.5) /* ArmorModVsFire */
+     , (30529,  18,     0.3) /* ArmorModVsAcid */
+     , (30529,  19,     0.6) /* ArmorModVsElectric */
+     , (30529,  22,    0.75) /* DamageVariance */
+     , (30529, 110,    1.67) /* BulkMod */
+     , (30529, 111,       2) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30529,   1, 'Template for boots.  Covers feet and lower legs.') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30529,   1,   33556683) /* Setup */
+     , (30529,   3,  536870932) /* SoundTable */
+     , (30529,   6,   67108990) /* PaletteBase */
+     , (30529,   7,  268436710) /* ClothingBase */
+     , (30529,   8,  100667310) /* Icon */
+     , (30529,  22,  872415275) /* PhysicsEffectTable */
+     , (30529,  36,  234881042) /* MutateFilter */
+     , (30529,  46,  939524146) /* TsysMutationFilter */;

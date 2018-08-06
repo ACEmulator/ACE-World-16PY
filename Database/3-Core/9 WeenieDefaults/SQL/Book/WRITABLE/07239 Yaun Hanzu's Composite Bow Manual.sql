@@ -1,38 +1,35 @@
-/* Weenie - Yaun Hanzu's Composite Bow Manual (7239) */
-DELETE FROM weenie WHERE class_Id = 7239;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7239, 'bookcompositebows', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7239, 001 /* NAME_STRING */, 'Yaun Hanzu''s Composite Bow Manual')
-     , (7239, 015 /* SHORT_DESC_STRING */, 'A book.')
-     , (7239, 016 /* LONG_DESC_STRING */, 'A book written by Yuan Hanzu regarding composite bows. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7239, 001 /* SETUP_DID */, 33554771)
-     , (7239, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (7239, 008 /* ICON_DID */, 100668117)
-     , (7239, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7239', 'bookcompositebows', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7239, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (7239, 005 /* ENCUMB_VAL_INT */, 160)
-     , (7239, 008 /* MASS_INT */, 230)
-     , (7239, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (7239, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (7239, 019 /* VALUE_INT */, 0)
-     , (7239, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7239, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (7239, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (7239,   1,       8192) /* ItemType - Writable */
+     , (7239,   5,        160) /* EncumbranceVal */
+     , (7239,   8,        230) /* Mass */
+     , (7239,   9,          0) /* ValidLocations - None */
+     , (7239,  16,          8) /* ItemUseable - Contained */
+     , (7239,  19,          0) /* Value */
+     , (7239,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7239, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (7239,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7239,  39,    1.22) /* DefaultScale */
+     , (7239,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7239,   1, 'Yaun Hanzu''s Composite Bow Manual') /* Name */
+     , (7239,  15, 'A book.') /* ShortDesc */
+     , (7239,  16, 'A book written by Yuan Hanzu regarding composite bows. ') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7239,   1,   33554771) /* Setup */
+     , (7239,   3,  536870932) /* SoundTable */
+     , (7239,   8,  100668117) /* Icon */
+     , (7239,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (7239, 6, 1000) /* Book Data */;
+VALUES (7239, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (7239, 0, 4294967295, '', 'prewritten', False, 'Yuan Hanzu
@@ -53,4 +50,3 @@ For too long in Dereth, archers have had to settle for inferior wooden bows. Mak
 ')
      , (7239, 5, 4294967295, '', 'prewritten', False, 'Obviously one has to attach the stave to the stock before one strings up the crossbow. Barnar also says that the bone handle aids in his aiming, but is certainly not integral to a functional crossbow. Hopefully this knowledge will help you to make your own composite bow. It gives one a rare sense of accomplishment to wield a bow assembled with one''s own hands, a bow that descends from an ancient and venerable Isparian art. Happy hunting!
 ');
-

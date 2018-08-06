@@ -1,48 +1,44 @@
-/* Weenie - Amuli Leggings (8878) */
-DELETE FROM weenie WHERE class_Id = 8878;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8878, 'leggingsamullianbestmansteele', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8878, 001 /* NAME_STRING */, 'Amuli Leggings');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8878, 001 /* SETUP_DID */, 33554856)
-     , (8878, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8878, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (8878, 007 /* CLOTHINGBASE_DID */, 268435872)
-     , (8878, 008 /* ICON_DID */, 100670443)
-     , (8878, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8878', 'leggingsamullianbestmansteele', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8878, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (8878, 003 /* PALETTE_TEMPLATE_INT */, 9 /* GREY_PALETTE_TEMPLATE */)
-     , (8878, 004 /* CLOTHING_PRIORITY_INT */, 2816 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */)
-     , (8878, 005 /* ENCUMB_VAL_INT */, 3188)
-     , (8878, 008 /* MASS_INT */, 1275)
-     , (8878, 009 /* LOCATIONS_INT */, 25600 /* ABDOMEN_ARMOR_LOC, UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
-     , (8878, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8878, 019 /* VALUE_INT */, 3040)
-     , (8878, 027 /* ARMOR_TYPE_INT */, 2)
-     , (8878, 028 /* ARMOR_LEVEL_INT */, 90)
-     , (8878, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8878, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8878, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8878, 012 /* SHADE_FLOAT */, 0.5)
-     , (8878, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (8878, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
-     , (8878, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (8878, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
-     , (8878, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.5)
-     , (8878, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.3)
-     , (8878, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (8878, 110 /* BULK_MOD_FLOAT */, 1)
-     , (8878, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (8878,   1,          2) /* ItemType - Armor */
+     , (8878,   3,          9) /* PaletteTemplate - Grey */
+     , (8878,   4,       2816) /* ClothingPriority */
+     , (8878,   5,       3188) /* EncumbranceVal */
+     , (8878,   8,       1275) /* Mass */
+     , (8878,   9,      25600) /* ValidLocations */
+     , (8878,  16,          1) /* ItemUseable - No */
+     , (8878,  19,       3040) /* Value */
+     , (8878,  27,          2) /* ArmorType */
+     , (8878,  28,         90) /* ArmorLevel */
+     , (8878,  33,          1) /* Bonded - Bonded */
+     , (8878,  93,       1044) /* PhysicsState */
+     , (8878, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8878, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8878, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8878,  22, True ) /* Inscribable */
+     , (8878,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8878,  12,     0.5) /* Shade */
+     , (8878,  13,       1) /* ArmorModVsSlash */
+     , (8878,  14,     0.8) /* ArmorModVsPierce */
+     , (8878,  15,       1) /* ArmorModVsBludgeon */
+     , (8878,  16,     0.5) /* ArmorModVsCold */
+     , (8878,  17,     0.5) /* ArmorModVsFire */
+     , (8878,  18,     0.3) /* ArmorModVsAcid */
+     , (8878,  19,     0.6) /* ArmorModVsElectric */
+     , (8878, 110,       1) /* BulkMod */
+     , (8878, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8878,   1, 'Amuli Leggings') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8878,   1,   33554856) /* Setup */
+     , (8878,   3,  536870932) /* SoundTable */
+     , (8878,   6,   67108990) /* PaletteBase */
+     , (8878,   7,  268435872) /* ClothingBase */
+     , (8878,   8,  100670443) /* Icon */
+     , (8878,  22,  872415275) /* PhysicsEffectTable */;

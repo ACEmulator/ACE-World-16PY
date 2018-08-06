@@ -1,62 +1,58 @@
-/* Weenie - Regal Stilleto (29927) */
-DELETE FROM weenie WHERE class_Id = 29927;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29927, 'dirkregal', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29927, 001 /* NAME_STRING */, 'Regal Stilleto');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29927, 001 /* SETUP_DID */, 33559049)
-     , (29927, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (29927, 008 /* ICON_DID */, 100676978)
-     , (29927, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('29927', 'dirkregal', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29927, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (29927, 005 /* ENCUMB_VAL_INT */, 85)
-     , (29927, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (29927, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (29927, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (29927, 019 /* VALUE_INT */, 6000)
-     , (29927, 044 /* DAMAGE_INT */, 10)
-     , (29927, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (29927, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (29927, 047 /* ATTACK_TYPE_INT */, 166 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, DoubleThrust_AttackType */)
-     , (29927, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (29927, 049 /* WEAPON_TIME_INT */, 10)
-     , (29927, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (29927, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (29927, 106 /* ITEM_SPELLCRAFT_INT */, 275)
-     , (29927, 107 /* ITEM_CUR_MANA_INT */, 800)
-     , (29927, 108 /* ITEM_MAX_MANA_INT */, 800)
-     , (29927, 109 /* ITEM_DIFFICULTY_INT */, 150)
-     , (29927, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (29927, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (29927, 158 /* WIELD_REQUIREMENTS_INT */, 1 /* WIELD_REQUIRES_SKILL_WieldRequirement */)
-     , (29927, 159 /* WIELD_SKILLTYPE_INT */, 4 /* DAGGER_SKILL */)
-     , (29927, 160 /* WIELD_DIFFICULTY_INT */, 325)
-     , (29927, 166 /* SLAYER_CREATURE_TYPE_INT */, 75 /* Burun_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29927, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (29927, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (29927, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.4)
-     , (29927, 029 /* WEAPON_DEFENSE_FLOAT */, 1.1)
-     , (29927, 062 /* WEAPON_OFFENSE_FLOAT */, 1.1)
-     , (29927, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (29927, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 1.75)
-     , (29927, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.3);
+VALUES (29927,   1,          1) /* ItemType - MeleeWeapon */
+     , (29927,   5,         85) /* EncumbranceVal */
+     , (29927,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (29927,  16,          1) /* ItemUseable - No */
+     , (29927,  18,          1) /* UiEffects - Magical */
+     , (29927,  19,       6000) /* Value */
+     , (29927,  44,         10) /* Damage */
+     , (29927,  45,          3) /* DamageType */
+     , (29927,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (29927,  47,        166) /* AttackType */
+     , (29927,  48,          4) /* WeaponSkill - Dagger */
+     , (29927,  49,         10) /* WeaponTime */
+     , (29927,  51,          1) /* CombatUse - Melee */
+     , (29927,  93,       1044) /* PhysicsState */
+     , (29927, 106,        275) /* ItemSpellcraft */
+     , (29927, 107,        800) /* ItemCurMana */
+     , (29927, 108,        800) /* ItemMaxMana */
+     , (29927, 109,        150) /* ItemDifficulty */
+     , (29927, 150,        103) /* HookPlacement - Hook */
+     , (29927, 151,          2) /* HookType - Wall */
+     , (29927, 158,          1) /* WieldRequirements - Skill */
+     , (29927, 159,          4) /* WieldSkilltype - Dagger */
+     , (29927, 160,        325) /* WieldDifficulty */
+     , (29927, 166,         75) /* SlayerCreatureType - Burun */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29927, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (29927,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29927,   5, -0.0333) /* ManaRate */
+     , (29927,  21,     0.4) /* WeaponLength */
+     , (29927,  22,     0.4) /* DamageVariance */
+     , (29927,  29,     1.1) /* WeaponDefense */
+     , (29927,  62,     1.1) /* WeaponOffense */
+     , (29927, 136,     2.5) /* CriticalMultiplier */
+     , (29927, 138,    1.75) /* SlayerDamageBonus */
+     , (29927, 147,     0.3) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (29927,   1, 'Regal Stilleto') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (29927,   1,   33559049) /* Setup */
+     , (29927,   3,  536870932) /* SoundTable */
+     , (29927,   8,  100676978) /* Icon */
+     , (29927,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29927, 1604, 2) /* Defender5_SpellID */
-     , (29927, 1359, 2) /* EnduranceOther5_SpellID */
-     , (29927, 1616, 2) /* BloodDrinker6_SpellID */
-     , (29927, 243, 2) /* InvulnerabilityOther5_SpellID */
-     , (29927, 1625, 2) /* SwiftKiller4_SpellID */
-     , (29927, 1591, 2) /* HeartSeeker5_SpellID */;
-
+VALUES (29927,   243,      2)  /* Invulnerability Other V */
+     , (29927,  1359,      2)  /* Endurance Other V */
+     , (29927,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (29927,  1604,      2)  /* Aura of Defender Self V */
+     , (29927,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (29927,  1625,      2)  /* Aura of Swift Killer Self IV */;

@@ -1,51 +1,47 @@
-/* Weenie - A Ring of Acid Protection (10858) */
-DELETE FROM weenie WHERE class_Id = 10858;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10858, 'ringbehdoacid-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10858, 001 /* NAME_STRING */, 'A Ring of Acid Protection')
-     , (10858, 015 /* SHORT_DESC_STRING */, 'A ring of acid protection, given by Behdo Yii for completing the Gardener quest.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10858, 001 /* SETUP_DID */, 33554691)
-     , (10858, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (10858, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (10858, 007 /* CLOTHINGBASE_DID */, 268435753)
-     , (10858, 008 /* ICON_DID */, 100668662)
-     , (10858, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (10858, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('10858', 'ringbehdoacid-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10858, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (10858, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
-     , (10858, 005 /* ENCUMB_VAL_INT */, 10)
-     , (10858, 008 /* MASS_INT */, 10)
-     , (10858, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
-     , (10858, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (10858, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (10858, 019 /* VALUE_INT */, 0)
-     , (10858, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (10858, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (10858, 106 /* ITEM_SPELLCRAFT_INT */, 150)
-     , (10858, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (10858, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (10858, 109 /* ITEM_DIFFICULTY_INT */, 75)
-     , (10858, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (10858, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (10858, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10858, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (10858, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
+VALUES (10858,   1,          8) /* ItemType - Jewelry */
+     , (10858,   3,         21) /* PaletteTemplate - Gold */
+     , (10858,   5,         10) /* EncumbranceVal */
+     , (10858,   8,         10) /* Mass */
+     , (10858,   9,     786432) /* ValidLocations - FingerWear */
+     , (10858,  16,          1) /* ItemUseable - No */
+     , (10858,  18,          1) /* UiEffects - Magical */
+     , (10858,  19,          0) /* Value */
+     , (10858,  33,          1) /* Bonded - Bonded */
+     , (10858,  93,       1044) /* PhysicsState */
+     , (10858, 106,        150) /* ItemSpellcraft */
+     , (10858, 107,        600) /* ItemCurMana */
+     , (10858, 108,        600) /* ItemMaxMana */
+     , (10858, 109,         75) /* ItemDifficulty */
+     , (10858, 114,          1) /* Attuned - Attuned */
+     , (10858, 150,        103) /* HookPlacement - Hook */
+     , (10858, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10858, 022 /* INSCRIBABLE_BOOL */, True)
-     , (10858, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (10858, 099 /* IVORYABLE_BOOL */, True);
+VALUES (10858,  22, True ) /* Inscribable */
+     , (10858,  23, True ) /* DestroyOnSell */
+     , (10858,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10858,   5,  -0.033) /* ManaRate */
+     , (10858,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10858,   1, 'A Ring of Acid Protection') /* Name */
+     , (10858,  15, 'A ring of acid protection, given by Behdo Yii for completing the Gardener quest.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10858,   1,   33554691) /* Setup */
+     , (10858,   3,  536870932) /* SoundTable */
+     , (10858,   6,   67111919) /* PaletteBase */
+     , (10858,   7,  268435753) /* ClothingBase */
+     , (10858,   8,  100668662) /* Icon */
+     , (10858,  22,  872415275) /* PhysicsEffectTable */
+     , (10858,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10858, 511, 2) /* AcidProtectionOther3_SpellID */
-     , (10858, 240, 2) /* InvulnerabilityOther2_SpellID */;
-
+VALUES (10858,   240,      2)  /* Invulnerability Other II */
+     , (10858,   511,      2)  /* Acid Protection Other III */;

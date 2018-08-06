@@ -1,30 +1,26 @@
-/* Weenie - Central Tusker Forest (22714) */
-DELETE FROM weenie WHERE class_Id = 22714;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22714, 'signcentralaphus', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22714, 001 /* NAME_STRING */, 'Central Tusker Forest')
-     , (22714, 016 /* LONG_DESC_STRING */, 'Central Tusker Forest, the tougher ones live there. -Brighteyes, the Tailor. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22714, 001 /* SETUP_DID */, 33558115)
-     , (22714, 006 /* PALETTE_BASE_DID */, 67114046)
-     , (22714, 007 /* CLOTHINGBASE_DID */, 268436510)
-     , (22714, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22714', 'signcentralaphus', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22714, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22714, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (22714, 008 /* MASS_INT */, 1800)
-     , (22714, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22714, 019 /* VALUE_INT */, 125)
-     , (22714, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (22714,   1,        128) /* ItemType - Misc */
+     , (22714,   5,       9000) /* EncumbranceVal */
+     , (22714,   8,       1800) /* Mass */
+     , (22714,  16,          1) /* ItemUseable - No */
+     , (22714,  19,        125) /* Value */
+     , (22714,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22714, 001 /* STUCK_BOOL */, True)
-     , (22714, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (22714, 013 /* ETHEREAL_BOOL */, False)
-     , (22714, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (22714,   1, True ) /* Stuck */
+     , (22714,  12, True ) /* ReportCollisions */
+     , (22714,  13, False) /* Ethereal */
+     , (22714,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22714,   1, 'Central Tusker Forest') /* Name */
+     , (22714,  16, 'Central Tusker Forest, the tougher ones live there. -Brighteyes, the Tailor. ') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22714,   1,   33558115) /* Setup */
+     , (22714,   6,   67114046) /* PaletteBase */
+     , (22714,   7,  268436510) /* ClothingBase */
+     , (22714,   8,  100668115) /* Icon */;

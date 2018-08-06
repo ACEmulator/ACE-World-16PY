@@ -1,44 +1,40 @@
-/* Weenie - Pulsating Wisp Heart (8666) */
-DELETE FROM weenie WHERE class_Id = 8666;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8666, 'wispheart', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8666, 001 /* NAME_STRING */, 'Pulsating Wisp Heart')
-     , (8666, 015 /* SHORT_DESC_STRING */, 'A Pulsating Wisp heart.')
-     , (8666, 016 /* LONG_DESC_STRING */, 'A pulsating wisp heart that seems to contain a large amount of stolen energy.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8666, 001 /* SETUP_DID */, 33556932)
-     , (8666, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8666, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8666, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (8666, 008 /* ICON_DID */, 100671244)
-     , (8666, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8666, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8666', 'wispheart', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8666, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8666, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (8666, 005 /* ENCUMB_VAL_INT */, 50)
-     , (8666, 008 /* MASS_INT */, 10)
-     , (8666, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8666, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (8666, 012 /* STACK_SIZE_INT */, 1)
-     , (8666, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
-     , (8666, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (8666, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (8666, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8666, 019 /* VALUE_INT */, 0)
-     , (8666, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8666, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
+VALUES (8666,   1,       2048) /* ItemType - Gem */
+     , (8666,   3,          2) /* PaletteTemplate - Blue */
+     , (8666,   5,         50) /* EncumbranceVal */
+     , (8666,   8,         10) /* Mass */
+     , (8666,   9,          0) /* ValidLocations - None */
+     , (8666,  11,          1) /* MaxStackSize */
+     , (8666,  12,          1) /* StackSize */
+     , (8666,  13,         50) /* StackUnitEncumbrance */
+     , (8666,  14,         10) /* StackUnitMass */
+     , (8666,  15,          0) /* StackUnitValue */
+     , (8666,  16,          1) /* ItemUseable - No */
+     , (8666,  19,          0) /* Value */
+     , (8666,  93,       3092) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8666, 014 /* GRAVITY_STATUS_BOOL */, True)
-     , (8666, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (8666, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8666, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8666,  14, True ) /* GravityStatus */
+     , (8666,  15, True ) /* LightsStatus */
+     , (8666,  22, True ) /* Inscribable */
+     , (8666,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8666,  39,     0.8) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8666,   1, 'Pulsating Wisp Heart') /* Name */
+     , (8666,  15, 'A Pulsating Wisp heart.') /* ShortDesc */
+     , (8666,  16, 'A pulsating wisp heart that seems to contain a large amount of stolen energy.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8666,   1,   33556932) /* Setup */
+     , (8666,   3,  536870932) /* SoundTable */
+     , (8666,   6,   67111919) /* PaletteBase */
+     , (8666,   7,  268435723) /* ClothingBase */
+     , (8666,   8,  100671244) /* Icon */
+     , (8666,  22,  872415275) /* PhysicsEffectTable */
+     , (8666,  36,  234881046) /* MutateFilter */;

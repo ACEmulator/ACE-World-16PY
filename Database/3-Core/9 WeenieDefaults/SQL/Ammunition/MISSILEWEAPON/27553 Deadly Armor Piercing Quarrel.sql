@@ -1,52 +1,48 @@
-/* Weenie - Deadly Armor Piercing Quarrel (27553) */
-DELETE FROM weenie WHERE class_Id = 27553;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27553, 'boltdeadlyarmorpiercingtest3', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27553, 001 /* NAME_STRING */, 'Deadly Armor Piercing Quarrel');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27553, 001 /* SETUP_DID */, 33554730)
-     , (27553, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27553, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27553, 007 /* CLOTHINGBASE_DID */, 268436306)
-     , (27553, 008 /* ICON_DID */, 100672649)
-     , (27553, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27553', 'boltdeadlyarmorpiercingtest3', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27553, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (27553, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (27553, 005 /* ENCUMB_VAL_INT */, 10)
-     , (27553, 008 /* MASS_INT */, 2)
-     , (27553, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
-     , (27553, 011 /* MAX_STACK_SIZE_INT */, 250)
-     , (27553, 012 /* STACK_SIZE_INT */, 1)
-     , (27553, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (27553, 014 /* STACK_UNIT_MASS_INT */, 2)
-     , (27553, 015 /* STACK_UNIT_VALUE_INT */, 9)
-     , (27553, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27553, 019 /* VALUE_INT */, 9)
-     , (27553, 044 /* DAMAGE_INT */, 32)
-     , (27553, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
-     , (27553, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (27553, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
-     , (27553, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (27553, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27553, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27553, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (27553, 159 /* WIELD_SKILLTYPE_INT */, 3 /* CROSSBOW_SKILL */)
-     , (27553, 160 /* WIELD_DIFFICULTY_INT */, 230);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27553, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.18)
-     , (27553, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (27553, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (27553, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (27553, 078 /* FRICTION_FLOAT */, 1)
-     , (27553, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (27553,   1,        256) /* ItemType - MissileWeapon */
+     , (27553,   3,         61) /* PaletteTemplate - White */
+     , (27553,   5,         10) /* EncumbranceVal */
+     , (27553,   8,          2) /* Mass */
+     , (27553,   9,    8388608) /* ValidLocations - MissileAmmo */
+     , (27553,  11,        250) /* MaxStackSize */
+     , (27553,  12,          1) /* StackSize */
+     , (27553,  13,         10) /* StackUnitEncumbrance */
+     , (27553,  14,          2) /* StackUnitMass */
+     , (27553,  15,          9) /* StackUnitValue */
+     , (27553,  16,          1) /* ItemUseable - No */
+     , (27553,  19,          9) /* Value */
+     , (27553,  44,         32) /* Damage */
+     , (27553,  45,          2) /* DamageType - Pierce */
+     , (27553,  50,          2) /* AmmoType - Bolt */
+     , (27553,  51,          3) /* CombatUse - Ammo */
+     , (27553,  93,     132116) /* PhysicsState */
+     , (27553, 150,        103) /* HookPlacement - Hook */
+     , (27553, 151,          2) /* HookType - Wall */
+     , (27553, 158,          2) /* WieldRequirements - RawSkill */
+     , (27553, 159,          3) /* WieldSkilltype - Crossbow */
+     , (27553, 160,        230) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27553, 017 /* INELASTIC_BOOL */, True);
+VALUES (27553,  17, True ) /* Inelastic */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27553,  22,    0.18) /* DamageVariance */
+     , (27553,  29,       1) /* WeaponDefense */
+     , (27553,  39,     1.1) /* DefaultScale */
+     , (27553,  62,       1) /* WeaponOffense */
+     , (27553,  78,       1) /* Friction */
+     , (27553,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27553,   1, 'Deadly Armor Piercing Quarrel') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27553,   1,   33554730) /* Setup */
+     , (27553,   3,  536870932) /* SoundTable */
+     , (27553,   6,   67111919) /* PaletteBase */
+     , (27553,   7,  268436306) /* ClothingBase */
+     , (27553,   8,  100672649) /* Icon */
+     , (27553,  22,  872415275) /* PhysicsEffectTable */;

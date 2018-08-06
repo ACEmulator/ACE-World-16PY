@@ -1,36 +1,32 @@
-/* Weenie - Stave of Palenqual (11250) */
-DELETE FROM weenie WHERE class_Id = 11250;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11250, 'staffmagic34xmenhir-xp', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11250, 001 /* NAME_STRING */, 'Stave of Palenqual')
-     , (11250, 015 /* SHORT_DESC_STRING */, 'The Stave of Palenqual.')
-     , (11250, 016 /* LONG_DESC_STRING */, 'The Stave of Palenqual, an Aun Tumerok relic. This magic caster was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes must be added to this weapon in order to use it. The Siraluun and Storm Totems have already been added; there is space for one more.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11250, 001 /* SETUP_DID */, 33557232)
-     , (11250, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11250, 008 /* ICON_DID */, 100671868)
-     , (11250, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11250', 'staffmagic34xmenhir-xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11250, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11250, 005 /* ENCUMB_VAL_INT */, 200)
-     , (11250, 008 /* MASS_INT */, 200)
-     , (11250, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11250, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (11250, 019 /* VALUE_INT */, 0)
-     , (11250, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (11250, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11250, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11250, 039 /* DEFAULT_SCALE_FLOAT */, 0.95);
+VALUES (11250,   1,        128) /* ItemType - Misc */
+     , (11250,   5,        200) /* EncumbranceVal */
+     , (11250,   8,        200) /* Mass */
+     , (11250,   9,          0) /* ValidLocations - None */
+     , (11250,  16,          1) /* ItemUseable - No */
+     , (11250,  19,          0) /* Value */
+     , (11250,  33,          1) /* Bonded - Bonded */
+     , (11250,  93,       1044) /* PhysicsState */
+     , (11250, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11250, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11250, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (11250, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (11250,  22, True ) /* Inscribable */
+     , (11250,  23, True ) /* DestroyOnSell */
+     , (11250,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11250,  39,    0.95) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11250,   1, 'Stave of Palenqual') /* Name */
+     , (11250,  15, 'The Stave of Palenqual.') /* ShortDesc */
+     , (11250,  16, 'The Stave of Palenqual, an Aun Tumerok relic. This magic caster was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes must be added to this weapon in order to use it. The Siraluun and Storm Totems have already been added; there is space for one more.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11250,   1,   33557232) /* Setup */
+     , (11250,   3,  536870932) /* SoundTable */
+     , (11250,   8,  100671868) /* Icon */
+     , (11250,  22,  872415275) /* PhysicsEffectTable */;

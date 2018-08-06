@@ -1,66 +1,62 @@
-/* Weenie - Singularity Katar (27831) */
-DELETE FROM weenie WHERE class_Id = 27831;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27831, 'katarsingularitynew', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27831, 001 /* NAME_STRING */, 'Singularity Katar')
-     , (27831, 015 /* SHORT_DESC_STRING */, 'A katar imbued with Singularity energy.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27831, 001 /* SETUP_DID */, 33557323)
-     , (27831, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27831, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27831, 007 /* CLOTHINGBASE_DID */, 268436241)
-     , (27831, 008 /* ICON_DID */, 100672602)
-     , (27831, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27831, 036 /* MUTATE_FILTER_DID */, 234881044);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27831', 'katarsingularitynew', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27831, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (27831, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (27831, 005 /* ENCUMB_VAL_INT */, 135)
-     , (27831, 008 /* MASS_INT */, 90)
-     , (27831, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (27831, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27831, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27831, 019 /* VALUE_INT */, 0)
-     , (27831, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
-     , (27831, 044 /* DAMAGE_INT */, 15)
-     , (27831, 045 /* DAMAGE_TYPE_INT */, 3 /* SLASH_DAMAGE_TYPE, PIERCE_DAMAGE_TYPE */)
-     , (27831, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1 /* Unarmed_CombatStyle */)
-     , (27831, 047 /* ATTACK_TYPE_INT */, 1 /* Punch_AttackType */)
-     , (27831, 048 /* WEAPON_SKILL_INT */, 13 /* UNARMED_COMBAT_SKILL */)
-     , (27831, 049 /* WEAPON_TIME_INT */, 20)
-     , (27831, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (27831, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27831, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (27831, 107 /* ITEM_CUR_MANA_INT */, 700)
-     , (27831, 108 /* ITEM_MAX_MANA_INT */, 700)
-     , (27831, 109 /* ITEM_DIFFICULTY_INT */, 200)
-     , (27831, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (27831, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (27831, 159 /* WIELD_SKILLTYPE_INT */, 13 /* UNARMED_COMBAT_SKILL */)
-     , (27831, 160 /* WIELD_DIFFICULTY_INT */, 250)
-     , (27831, 166 /* SLAYER_CREATURE_TYPE_INT */, 19 /* Virindi_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27831, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (27831, 021 /* WEAPON_LENGTH_FLOAT */, 0.52)
-     , (27831, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.55)
-     , (27831, 029 /* WEAPON_DEFENSE_FLOAT */, 1.07)
-     , (27831, 062 /* WEAPON_OFFENSE_FLOAT */, 1.07)
-     , (27831, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (27831, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 1.8)
-     , (27831, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.25);
+VALUES (27831,   1,          1) /* ItemType - MeleeWeapon */
+     , (27831,   3,          2) /* PaletteTemplate - Blue */
+     , (27831,   5,        135) /* EncumbranceVal */
+     , (27831,   8,         90) /* Mass */
+     , (27831,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (27831,  16,          1) /* ItemUseable - No */
+     , (27831,  18,          1) /* UiEffects - Magical */
+     , (27831,  19,          0) /* Value */
+     , (27831,  33,         -2) /* Bonded - Destroy */
+     , (27831,  44,         15) /* Damage */
+     , (27831,  45,          3) /* DamageType */
+     , (27831,  46,          1) /* DefaultCombatStyle - Unarmed */
+     , (27831,  47,          1) /* AttackType - Punch */
+     , (27831,  48,         13) /* WeaponSkill - UnarmedCombat */
+     , (27831,  49,         20) /* WeaponTime */
+     , (27831,  51,          1) /* CombatUse - Melee */
+     , (27831,  93,       1044) /* PhysicsState */
+     , (27831, 106,        200) /* ItemSpellcraft */
+     , (27831, 107,        700) /* ItemCurMana */
+     , (27831, 108,        700) /* ItemMaxMana */
+     , (27831, 109,        200) /* ItemDifficulty */
+     , (27831, 114,          1) /* Attuned - Attuned */
+     , (27831, 158,          2) /* WieldRequirements - RawSkill */
+     , (27831, 159,         13) /* WieldSkilltype - UnarmedCombat */
+     , (27831, 160,        250) /* WieldDifficulty */
+     , (27831, 166,         19) /* SlayerCreatureType - Virindi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27831, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27831, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27831,  22, True ) /* Inscribable */
+     , (27831,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27831,   5,  -0.033) /* ManaRate */
+     , (27831,  21,    0.52) /* WeaponLength */
+     , (27831,  22,    0.55) /* DamageVariance */
+     , (27831,  29,    1.07) /* WeaponDefense */
+     , (27831,  62,    1.07) /* WeaponOffense */
+     , (27831, 136,     2.5) /* CriticalMultiplier */
+     , (27831, 138,     1.8) /* SlayerDamageBonus */
+     , (27831, 147,    0.25) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27831,   1, 'Singularity Katar') /* Name */
+     , (27831,  15, 'A katar imbued with Singularity energy.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27831,   1,   33557323) /* Setup */
+     , (27831,   3,  536870932) /* SoundTable */
+     , (27831,   6,   67111919) /* PaletteBase */
+     , (27831,   7,  268436241) /* ClothingBase */
+     , (27831,   8,  100672602) /* Icon */
+     , (27831,  22,  872415275) /* PhysicsEffectTable */
+     , (27831,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27831, 1337, 2) /* StrengthOther6_SpellID */
-     , (27831, 1592, 2) /* HeartSeeker6_SpellID */
-     , (27831, 1616, 2) /* BloodDrinker6_SpellID */;
-
+VALUES (27831,  1337,      2)  /* Strength Other VI */
+     , (27831,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (27831,  1616,      2)  /* Aura of Blood Drinker Self VI */;

@@ -1,30 +1,26 @@
-/* Weenie - Head of the Olthoi Queen (23208) */
-DELETE FROM weenie WHERE class_Id = 23208;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23208, 'plaquesmall', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23208, 001 /* NAME_STRING */, 'Head of the Olthoi Queen')
-     , (23208, 015 /* SHORT_DESC_STRING */, 'The head of the Olthoi Queen.')
-     , (23208, 016 /* LONG_DESC_STRING */, 'The head of the Olthoi Queen.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23208, 001 /* SETUP_DID */, 33557148)
-     , (23208, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23208, 008 /* ICON_DID */, 100671782);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23208', 'plaquesmall', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23208, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (23208, 005 /* ENCUMB_VAL_INT */, 2100)
-     , (23208, 008 /* MASS_INT */, 200)
-     , (23208, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23208, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23208, 019 /* VALUE_INT */, 0)
-     , (23208, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23208, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23208, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (23208,   1,        128) /* ItemType - Misc */
+     , (23208,   5,       2100) /* EncumbranceVal */
+     , (23208,   8,        200) /* Mass */
+     , (23208,   9,          0) /* ValidLocations - None */
+     , (23208,  16,          1) /* ItemUseable - No */
+     , (23208,  19,          0) /* Value */
+     , (23208,  93,       1044) /* PhysicsState */
+     , (23208, 150,        103) /* HookPlacement - Hook */
+     , (23208, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23208, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (23208,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23208,   1, 'Head of the Olthoi Queen') /* Name */
+     , (23208,  15, 'The head of the Olthoi Queen.') /* ShortDesc */
+     , (23208,  16, 'The head of the Olthoi Queen.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23208,   1,   33557148) /* Setup */
+     , (23208,   3,  536870932) /* SoundTable */
+     , (23208,   8,  100671782) /* Icon */;

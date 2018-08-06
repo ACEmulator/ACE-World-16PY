@@ -1,54 +1,50 @@
-/* Weenie - Deadly Frost Quarrel (15446) */
-DELETE FROM weenie WHERE class_Id = 15446;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15446, 'boltdeadlyfrost', 5 /* Ammunition_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15446, 001 /* NAME_STRING */, 'Deadly Frost Quarrel');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15446, 001 /* SETUP_DID */, 33555694)
-     , (15446, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (15446, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (15446, 007 /* CLOTHINGBASE_DID */, 268436306)
-     , (15446, 008 /* ICON_DID */, 100672655)
-     , (15446, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('15446', 'boltdeadlyfrost', 5) /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15446, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (15446, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (15446, 005 /* ENCUMB_VAL_INT */, 10)
-     , (15446, 008 /* MASS_INT */, 2)
-     , (15446, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
-     , (15446, 011 /* MAX_STACK_SIZE_INT */, 250)
-     , (15446, 012 /* STACK_SIZE_INT */, 1)
-     , (15446, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (15446, 014 /* STACK_UNIT_MASS_INT */, 2)
-     , (15446, 015 /* STACK_UNIT_VALUE_INT */, 11)
-     , (15446, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (15446, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
-     , (15446, 019 /* VALUE_INT */, 11)
-     , (15446, 044 /* DAMAGE_INT */, 28)
-     , (15446, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (15446, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (15446, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
-     , (15446, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
-     , (15446, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (15446, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (15446, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (15446, 159 /* WIELD_SKILLTYPE_INT */, 3 /* CROSSBOW_SKILL */)
-     , (15446, 160 /* WIELD_DIFFICULTY_INT */, 230);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15446, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.28)
-     , (15446, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (15446, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
-     , (15446, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (15446, 078 /* FRICTION_FLOAT */, 1)
-     , (15446, 079 /* ELASTICITY_FLOAT */, 0);
+VALUES (15446,   1,        256) /* ItemType - MissileWeapon */
+     , (15446,   3,          2) /* PaletteTemplate - Blue */
+     , (15446,   5,         10) /* EncumbranceVal */
+     , (15446,   8,          2) /* Mass */
+     , (15446,   9,    8388608) /* ValidLocations - MissileAmmo */
+     , (15446,  11,        250) /* MaxStackSize */
+     , (15446,  12,          1) /* StackSize */
+     , (15446,  13,         10) /* StackUnitEncumbrance */
+     , (15446,  14,          2) /* StackUnitMass */
+     , (15446,  15,         11) /* StackUnitValue */
+     , (15446,  16,          1) /* ItemUseable - No */
+     , (15446,  18,        128) /* UiEffects - Frost */
+     , (15446,  19,         11) /* Value */
+     , (15446,  44,         28) /* Damage */
+     , (15446,  45,          8) /* DamageType - Cold */
+     , (15446,  50,          2) /* AmmoType - Bolt */
+     , (15446,  51,          3) /* CombatUse - Ammo */
+     , (15446,  93,     132116) /* PhysicsState */
+     , (15446, 150,        103) /* HookPlacement - Hook */
+     , (15446, 151,          2) /* HookType - Wall */
+     , (15446, 158,          2) /* WieldRequirements - RawSkill */
+     , (15446, 159,          3) /* WieldSkilltype - Crossbow */
+     , (15446, 160,        230) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15446, 017 /* INELASTIC_BOOL */, True)
-     , (15446, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (15446,  17, True ) /* Inelastic */
+     , (15446,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15446,  22,    0.28) /* DamageVariance */
+     , (15446,  29,       1) /* WeaponDefense */
+     , (15446,  39,     1.1) /* DefaultScale */
+     , (15446,  62,       1) /* WeaponOffense */
+     , (15446,  78,       1) /* Friction */
+     , (15446,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15446,   1, 'Deadly Frost Quarrel') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15446,   1,   33555694) /* Setup */
+     , (15446,   3,  536870932) /* SoundTable */
+     , (15446,   6,   67111919) /* PaletteBase */
+     , (15446,   7,  268436306) /* ClothingBase */
+     , (15446,   8,  100672655) /* Icon */
+     , (15446,  22,  872415275) /* PhysicsEffectTable */;

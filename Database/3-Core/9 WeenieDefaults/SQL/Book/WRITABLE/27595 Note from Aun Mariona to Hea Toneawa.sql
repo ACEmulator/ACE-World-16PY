@@ -1,38 +1,35 @@
-/* Weenie - Note from Aun Mariona to Hea Toneawa (27595) */
-DELETE FROM weenie WHERE class_Id = 27595;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27595, 'notemariona', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27595, 001 /* NAME_STRING */, 'Note from Aun Mariona to Hea Toneawa')
-     , (27595, 015 /* SHORT_DESC_STRING */, 'A crumpled and dirt-smeared note from Aun Mariona to Hea Toneawa. Clawed footprints in the earth around it suggest that its first reader may have trampled upon it in an unbridled dance of rage.')
-     , (27595, 033 /* QUEST_STRING */, 'NoteMarionaPickUp');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27595, 001 /* SETUP_DID */, 33554773)
-     , (27595, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27595, 008 /* ICON_DID */, 100672433)
-     , (27595, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27595', 'notemariona', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27595, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (27595, 005 /* ENCUMB_VAL_INT */, 25)
-     , (27595, 008 /* MASS_INT */, 5)
-     , (27595, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (27595, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (27595, 019 /* VALUE_INT */, 0)
-     , (27595, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27595, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27595, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (27595,   1,       8192) /* ItemType - Writable */
+     , (27595,   5,         25) /* EncumbranceVal */
+     , (27595,   8,          5) /* Mass */
+     , (27595,   9,          0) /* ValidLocations - None */
+     , (27595,  16,          8) /* ItemUseable - Contained */
+     , (27595,  19,          0) /* Value */
+     , (27595,  93,       1044) /* PhysicsState */
+     , (27595, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27595, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (27595,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27595,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27595,   1, 'Note from Aun Mariona to Hea Toneawa') /* Name */
+     , (27595,  15, 'A crumpled and dirt-smeared note from Aun Mariona to Hea Toneawa. Clawed footprints in the earth around it suggest that its first reader may have trampled upon it in an unbridled dance of rage.') /* ShortDesc */
+     , (27595,  33, 'NoteMarionaPickUp') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27595,   1,   33554773) /* Setup */
+     , (27595,   3,  536870932) /* SoundTable */
+     , (27595,   8,  100672433) /* Icon */
+     , (27595,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (27595, 1, 1000) /* Book Data */;
+VALUES (27595, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (27595, 0, 4294967295, 'Hea Toneawa', 'prewritten', False, '
@@ -42,4 +39,3 @@ I must beg you to take the upmost care -- I fear Bernawa suspects we have declar
 
 Mariona
 ');
-

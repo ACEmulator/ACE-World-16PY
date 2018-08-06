@@ -1,33 +1,29 @@
-/* Weenie - Poplar Talisman (749) */
-DELETE FROM weenie WHERE class_Id = 749;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (749, 'poplartalisman', 32 /* SpellComponent_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (749, 001 /* NAME_STRING */, 'Poplar Talisman');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (749, 001 /* SETUP_DID */, 33555207)
-     , (749, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (749, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (749, 007 /* CLOTHINGBASE_DID */, 268435722)
-     , (749, 008 /* ICON_DID */, 100669708)
-     , (749, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (749, 029 /* SPELL_COMPONENT_DID */, 49);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('749', 'poplartalisman', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (749, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
-     , (749, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (749, 005 /* ENCUMB_VAL_INT */, 4)
-     , (749, 008 /* MASS_INT */, 100)
-     , (749, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (749, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (749, 012 /* STACK_SIZE_INT */, 1)
-     , (749, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
-     , (749, 014 /* STACK_UNIT_MASS_INT */, 100)
-     , (749, 015 /* STACK_UNIT_VALUE_INT */, 5)
-     , (749, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (749, 019 /* VALUE_INT */, 5)
-     , (749, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (749,   1,       4096) /* ItemType - SpellComponents */
+     , (749,   3,          8) /* PaletteTemplate - Green */
+     , (749,   5,          4) /* EncumbranceVal */
+     , (749,   8,        100) /* Mass */
+     , (749,   9,          0) /* ValidLocations - None */
+     , (749,  11,        100) /* MaxStackSize */
+     , (749,  12,          1) /* StackSize */
+     , (749,  13,          4) /* StackUnitEncumbrance */
+     , (749,  14,        100) /* StackUnitMass */
+     , (749,  15,          5) /* StackUnitValue */
+     , (749,  16,          1) /* ItemUseable - No */
+     , (749,  19,          5) /* Value */
+     , (749,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (749,   1, 'Poplar Talisman') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (749,   1,   33555207) /* Setup */
+     , (749,   3,  536870932) /* SoundTable */
+     , (749,   6,   67111919) /* PaletteBase */
+     , (749,   7,  268435722) /* ClothingBase */
+     , (749,   8,  100669708) /* Icon */
+     , (749,  22,  872415275) /* PhysicsEffectTable */
+     , (749,  29,         49) /* SpellComponent */;

@@ -1,64 +1,60 @@
-/* Weenie - Peerless Stinging Atlan Spear (6260) */
-DELETE FROM weenie WHERE class_Id = 6260;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6260, 'spearbeststingingmajor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6260, 001 /* NAME_STRING */, 'Peerless Stinging Atlan Spear');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6260, 001 /* SETUP_DID */, 33556367)
-     , (6260, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6260, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6260, 007 /* CLOTHINGBASE_DID */, 268435946)
-     , (6260, 008 /* ICON_DID */, 100670554)
-     , (6260, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6260, 037 /* ITEM_SKILL_LIMIT_DID */, 9);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6260', 'spearbeststingingmajor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6260, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6260, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (6260, 005 /* ENCUMB_VAL_INT */, 700)
-     , (6260, 008 /* MASS_INT */, 600)
-     , (6260, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6260, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6260, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6260, 019 /* VALUE_INT */, 5000)
-     , (6260, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6260, 044 /* DAMAGE_INT */, 17)
-     , (6260, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (6260, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6260, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
-     , (6260, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
-     , (6260, 049 /* WEAPON_TIME_INT */, 20)
-     , (6260, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6260, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6260, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (6260, 107 /* ITEM_CUR_MANA_INT */, 750)
-     , (6260, 108 /* ITEM_MAX_MANA_INT */, 750)
-     , (6260, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 225)
-     , (6260, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6260, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6260, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (6260, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
-     , (6260, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
-     , (6260, 029 /* WEAPON_DEFENSE_FLOAT */, 1.07)
-     , (6260, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6260, 062 /* WEAPON_OFFENSE_FLOAT */, 1.07);
+VALUES (6260,   1,          1) /* ItemType - MeleeWeapon */
+     , (6260,   3,          8) /* PaletteTemplate - Green */
+     , (6260,   5,        700) /* EncumbranceVal */
+     , (6260,   8,        600) /* Mass */
+     , (6260,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6260,  16,          1) /* ItemUseable - No */
+     , (6260,  18,          1) /* UiEffects - Magical */
+     , (6260,  19,       5000) /* Value */
+     , (6260,  33,          1) /* Bonded - Bonded */
+     , (6260,  44,         17) /* Damage */
+     , (6260,  45,         32) /* DamageType - Acid */
+     , (6260,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6260,  47,          2) /* AttackType - Thrust */
+     , (6260,  48,          9) /* WeaponSkill - Spear */
+     , (6260,  49,         20) /* WeaponTime */
+     , (6260,  51,          1) /* CombatUse - Melee */
+     , (6260,  93,       1044) /* PhysicsState */
+     , (6260, 106,        200) /* ItemSpellcraft */
+     , (6260, 107,        750) /* ItemCurMana */
+     , (6260, 108,        750) /* ItemMaxMana */
+     , (6260, 115,        225) /* ItemSkillLevelLimit */
+     , (6260, 150,        103) /* HookPlacement - Hook */
+     , (6260, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6260, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6260, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6260, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6260,  22, True ) /* Inscribable */
+     , (6260,  23, True ) /* DestroyOnSell */
+     , (6260,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6260,   5,  -0.033) /* ManaRate */
+     , (6260,  21,     1.5) /* WeaponLength */
+     , (6260,  22,     0.6) /* DamageVariance */
+     , (6260,  29,    1.07) /* WeaponDefense */
+     , (6260,  39,       1) /* DefaultScale */
+     , (6260,  62,    1.07) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6260,   1, 'Peerless Stinging Atlan Spear') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6260,   1,   33556367) /* Setup */
+     , (6260,   3,  536870932) /* SoundTable */
+     , (6260,   6,   67111919) /* PaletteBase */
+     , (6260,   7,  268435946) /* ClothingBase */
+     , (6260,   8,  100670554) /* Icon */
+     , (6260,  22,  872415275) /* PhysicsEffectTable */
+     , (6260,  37,          9) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6260, 1603, 2) /* Defender4_SpellID */
-     , (6260, 518, 2) /* AcidProtectionSelf4_SpellID */
-     , (6260, 1590, 2) /* HeartSeeker4_SpellID */
-     , (6260, 1614, 2) /* BloodDrinker4_SpellID */
-     , (6260, 1376, 2) /* CoordinationSelf4_SpellID */
-     , (6260, 1625, 2) /* SwiftKiller4_SpellID */;
-
+VALUES (6260,   518,      2)  /* Acid Protection Self IV */
+     , (6260,  1376,      2)  /* Coordination Self IV */
+     , (6260,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (6260,  1603,      2)  /* Aura of Defender Self IV */
+     , (6260,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (6260,  1625,      2)  /* Aura of Swift Killer Self IV */;

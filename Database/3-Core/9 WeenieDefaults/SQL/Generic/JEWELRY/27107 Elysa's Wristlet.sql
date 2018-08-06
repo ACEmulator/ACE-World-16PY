@@ -1,46 +1,42 @@
-/* Weenie - Elysa's Wristlet (27107) */
-DELETE FROM weenie WHERE class_Id = 27107;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27107, 'braceletelysawristlet1', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27107, 001 /* NAME_STRING */, 'Elysa''s Wristlet')
-     , (27107, 016 /* LONG_DESC_STRING */, 'This wristlet was a gift for returning important information from the invaders from another world.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27107, 001 /* SETUP_DID */, 33554683)
-     , (27107, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27107, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27107, 007 /* CLOTHINGBASE_DID */, 268436286)
-     , (27107, 008 /* ICON_DID */, 100675928)
-     , (27107, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27107, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27107', 'braceletelysawristlet1', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27107, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
-     , (27107, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (27107, 005 /* ENCUMB_VAL_INT */, 15)
-     , (27107, 008 /* MASS_INT */, 15)
-     , (27107, 009 /* LOCATIONS_INT */, 196608 /* WRIST_WEAR_LOC */)
-     , (27107, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27107, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27107, 019 /* VALUE_INT */, 700)
-     , (27107, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27107, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (27107, 107 /* ITEM_CUR_MANA_INT */, 600)
-     , (27107, 108 /* ITEM_MAX_MANA_INT */, 600)
-     , (27107, 109 /* ITEM_DIFFICULTY_INT */, 50)
-     , (27107, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27107, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27107, 005 /* MANA_RATE_FLOAT */, -0.033333);
+VALUES (27107,   1,          8) /* ItemType - Jewelry */
+     , (27107,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (27107,   5,         15) /* EncumbranceVal */
+     , (27107,   8,         15) /* Mass */
+     , (27107,   9,     196608) /* ValidLocations - WristWear */
+     , (27107,  16,          1) /* ItemUseable - No */
+     , (27107,  18,          1) /* UiEffects - Magical */
+     , (27107,  19,        700) /* Value */
+     , (27107,  93,       1044) /* PhysicsState */
+     , (27107, 106,        100) /* ItemSpellcraft */
+     , (27107, 107,        600) /* ItemCurMana */
+     , (27107, 108,        600) /* ItemMaxMana */
+     , (27107, 109,         50) /* ItemDifficulty */
+     , (27107, 150,        103) /* HookPlacement - Hook */
+     , (27107, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27107, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27107, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (27107,  22, True ) /* Inscribable */
+     , (27107,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27107,   5, -0.033333) /* ManaRate */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27107,   1, 'Elysa''s Wristlet') /* Name */
+     , (27107,  16, 'This wristlet was a gift for returning important information from the invaders from another world.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27107,   1,   33554683) /* Setup */
+     , (27107,   3,  536870932) /* SoundTable */
+     , (27107,   6,   67111919) /* PaletteBase */
+     , (27107,   7,  268436286) /* ClothingBase */
+     , (27107,   8,  100675928) /* Icon */
+     , (27107,  22,  872415275) /* PhysicsEffectTable */
+     , (27107,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27107, 1314, 2) /* ArmorOther3_SpellID */;
-
+VALUES (27107,  1314,      2)  /* Armor Other III */;

@@ -1,40 +1,36 @@
-/* Weenie - Minalim Plant (8646) */
-DELETE FROM weenie WHERE class_Id = 8646;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8646, 'plantwintergreen', 51 /* Stackable_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8646, 001 /* NAME_STRING */, 'Minalim Plant')
-     , (8646, 015 /* SHORT_DESC_STRING */, 'A winter green minalim plant.')
-     , (8646, 016 /* LONG_DESC_STRING */, 'A winter green minalim plant. ')
-     , (8646, 020 /* PLURAL_NAME_STRING */, 'Minalim Plants');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8646, 001 /* SETUP_DID */, 33556750)
-     , (8646, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8646, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8646, 007 /* CLOTHINGBASE_DID */, 268436033)
-     , (8646, 008 /* ICON_DID */, 100670767)
-     , (8646, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8646', 'plantwintergreen', 51) /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8646, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
-     , (8646, 003 /* PALETTE_TEMPLATE_INT */, 89 /* DYEWINTERGREEN_PALETTE_TEMPLATE */)
-     , (8646, 005 /* ENCUMB_VAL_INT */, 5)
-     , (8646, 008 /* MASS_INT */, 50)
-     , (8646, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8646, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (8646, 012 /* STACK_SIZE_INT */, 1)
-     , (8646, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
-     , (8646, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (8646, 015 /* STACK_UNIT_VALUE_INT */, 10)
-     , (8646, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8646, 019 /* VALUE_INT */, 10)
-     , (8646, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8646, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8646, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
+VALUES (8646,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (8646,   3,         89) /* PaletteTemplate - DyeWinterGreen */
+     , (8646,   5,          5) /* EncumbranceVal */
+     , (8646,   8,         50) /* Mass */
+     , (8646,   9,          0) /* ValidLocations - None */
+     , (8646,  11,        100) /* MaxStackSize */
+     , (8646,  12,          1) /* StackSize */
+     , (8646,  13,          5) /* StackUnitEncumbrance */
+     , (8646,  14,         50) /* StackUnitMass */
+     , (8646,  15,         10) /* StackUnitValue */
+     , (8646,  16,          1) /* ItemUseable - No */
+     , (8646,  19,         10) /* Value */
+     , (8646,  93,       1044) /* PhysicsState */
+     , (8646, 150,        103) /* HookPlacement - Hook */
+     , (8646, 151,          9) /* HookType */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8646, 039 /* DEFAULT_SCALE_FLOAT */, 1.2);
+VALUES (8646,  39,     1.2) /* DefaultScale */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8646,   1, 'Minalim Plant') /* Name */
+     , (8646,  15, 'A winter green minalim plant.') /* ShortDesc */
+     , (8646,  16, 'A winter green minalim plant. ') /* LongDesc */
+     , (8646,  20, 'Minalim Plants') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8646,   1,   33556750) /* Setup */
+     , (8646,   3,  536870932) /* SoundTable */
+     , (8646,   6,   67111919) /* PaletteBase */
+     , (8646,   7,  268436033) /* ClothingBase */
+     , (8646,   8,  100670767) /* Icon */
+     , (8646,  22,  872415275) /* PhysicsEffectTable */;

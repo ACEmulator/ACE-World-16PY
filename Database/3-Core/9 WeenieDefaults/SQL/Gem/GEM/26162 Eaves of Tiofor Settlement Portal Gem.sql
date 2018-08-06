@@ -1,48 +1,44 @@
-/* Weenie - Eaves of Tiofor Settlement Portal Gem (26162) */
-DELETE FROM weenie WHERE class_Id = 26162;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26162, 'gemportaleavesoftioforsettlement', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26162, 001 /* NAME_STRING */, 'Eaves of Tiofor Settlement Portal Gem')
-     , (26162, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26162, 001 /* SETUP_DID */, 33556769)
-     , (26162, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (26162, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (26162, 007 /* CLOTHINGBASE_DID */, 268435723)
-     , (26162, 008 /* ICON_DID */, 100675760)
-     , (26162, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (26162, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
-     , (26162, 031 /* LINKED_PORTAL_ONE_DID */, 12494 /* Eaves of Tiofor Settlement Portal */);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('26162', 'gemportaleavesoftioforsettlement', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26162, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (26162, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
-     , (26162, 005 /* ENCUMB_VAL_INT */, 10)
-     , (26162, 008 /* MASS_INT */, 10)
-     , (26162, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (26162, 011 /* MAX_STACK_SIZE_INT */, 20)
-     , (26162, 012 /* STACK_SIZE_INT */, 1)
-     , (26162, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (26162, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (26162, 015 /* STACK_UNIT_VALUE_INT */, 500)
-     , (26162, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (26162, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (26162, 019 /* VALUE_INT */, 500)
-     , (26162, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (26162, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (26162, 106 /* ITEM_SPELLCRAFT_INT */, 210)
-     , (26162, 107 /* ITEM_CUR_MANA_INT */, 50)
-     , (26162, 108 /* ITEM_MAX_MANA_INT */, 50)
-     , (26162, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (26162, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
-     , (26162, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (26162, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
+VALUES (26162,   1,       2048) /* ItemType - Gem */
+     , (26162,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (26162,   5,         10) /* EncumbranceVal */
+     , (26162,   8,         10) /* Mass */
+     , (26162,   9,          0) /* ValidLocations - None */
+     , (26162,  11,         20) /* MaxStackSize */
+     , (26162,  12,          1) /* StackSize */
+     , (26162,  13,         10) /* StackUnitEncumbrance */
+     , (26162,  14,         10) /* StackUnitMass */
+     , (26162,  15,        500) /* StackUnitValue */
+     , (26162,  16,          8) /* ItemUseable - Contained */
+     , (26162,  18,          1) /* UiEffects - Magical */
+     , (26162,  19,        500) /* Value */
+     , (26162,  93,       3092) /* PhysicsState */
+     , (26162,  94,         16) /* TargetType - Creature */
+     , (26162, 106,        210) /* ItemSpellcraft */
+     , (26162, 107,         50) /* ItemCurMana */
+     , (26162, 108,         50) /* ItemMaxMana */
+     , (26162, 109,          0) /* ItemDifficulty */
+     , (26162, 110,          0) /* ItemAllegianceRankLimit */
+     , (26162, 150,        103) /* HookPlacement - Hook */
+     , (26162, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26162, 015 /* LIGHTS_STATUS_BOOL */, True)
-     , (26162, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (26162,  15, True ) /* LightsStatus */
+     , (26162,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26162,   1, 'Eaves of Tiofor Settlement Portal Gem') /* Name */
+     , (26162,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26162,   1,   33556769) /* Setup */
+     , (26162,   3,  536870932) /* SoundTable */
+     , (26162,   6,   67111919) /* PaletteBase */
+     , (26162,   7,  268435723) /* ClothingBase */
+     , (26162,   8,  100675760) /* Icon */
+     , (26162,  22,  872415275) /* PhysicsEffectTable */
+     , (26162,  28,        157) /* Spell - Summon Primary Portal I */
+     , (26162,  31,      12494) /* LinkedPortalOne - Eaves of Tiofor Settlement Portal */;

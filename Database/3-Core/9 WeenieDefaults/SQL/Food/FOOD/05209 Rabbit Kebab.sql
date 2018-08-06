@@ -1,33 +1,29 @@
-/* Weenie - Rabbit Kebab (5209) */
-DELETE FROM weenie WHERE class_Id = 5209;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5209, 'rabbitkebab', 18 /* Food_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5209, 001 /* NAME_STRING */, 'Rabbit Kebab')
-     , (5209, 014 /* USE_STRING */, 'Use this item to eat it.')
-     , (5209, 020 /* PLURAL_NAME_STRING */, 'Rabbit Kebabs');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5209, 001 /* SETUP_DID */, 33555981)
-     , (5209, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (5209, 008 /* ICON_DID */, 100670251)
-     , (5209, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5209', 'rabbitkebab', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5209, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
-     , (5209, 005 /* ENCUMB_VAL_INT */, 75)
-     , (5209, 008 /* MASS_INT */, 50)
-     , (5209, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (5209, 011 /* MAX_STACK_SIZE_INT */, 100)
-     , (5209, 012 /* STACK_SIZE_INT */, 1)
-     , (5209, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
-     , (5209, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (5209, 015 /* STACK_UNIT_VALUE_INT */, 20)
-     , (5209, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (5209, 019 /* VALUE_INT */, 20)
-     , (5209, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
-     , (5209, 090 /* BOOST_VALUE_INT */, 12)
-     , (5209, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (5209,   1,         32) /* ItemType - Food */
+     , (5209,   5,         75) /* EncumbranceVal */
+     , (5209,   8,         50) /* Mass */
+     , (5209,   9,          0) /* ValidLocations - None */
+     , (5209,  11,        100) /* MaxStackSize */
+     , (5209,  12,          1) /* StackSize */
+     , (5209,  13,         75) /* StackUnitEncumbrance */
+     , (5209,  14,         50) /* StackUnitMass */
+     , (5209,  15,         20) /* StackUnitValue */
+     , (5209,  16,          8) /* ItemUseable - Contained */
+     , (5209,  19,         20) /* Value */
+     , (5209,  89,          4) /* BoosterEnum - Stamina */
+     , (5209,  90,         12) /* BoostValue */
+     , (5209,  93,       1044) /* PhysicsState */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5209,   1, 'Rabbit Kebab') /* Name */
+     , (5209,  14, 'Use this item to eat it.') /* Use */
+     , (5209,  20, 'Rabbit Kebabs') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5209,   1,   33555981) /* Setup */
+     , (5209,   3,  536870932) /* SoundTable */
+     , (5209,   8,  100670251) /* Icon */
+     , (5209,  22,  872415275) /* PhysicsEffectTable */;

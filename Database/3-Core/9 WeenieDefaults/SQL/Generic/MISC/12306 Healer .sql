@@ -1,28 +1,24 @@
-/* Weenie - Healer  (12306) */
-DELETE FROM weenie WHERE class_Id = 12306;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12306, 'furnituresigngha', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12306, 001 /* NAME_STRING */, 'Healer ')
-     , (12306, 016 /* LONG_DESC_STRING */, 'Healer');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12306, 001 /* SETUP_DID */, 33557390)
-     , (12306, 008 /* ICON_DID */, 100672342);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('12306', 'furnituresigngha', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12306, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (12306, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (12306, 008 /* MASS_INT */, 1800)
-     , (12306, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (12306, 019 /* VALUE_INT */, 125)
-     , (12306, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (12306,   1,        128) /* ItemType - Misc */
+     , (12306,   5,       9000) /* EncumbranceVal */
+     , (12306,   8,       1800) /* Mass */
+     , (12306,  16,          1) /* ItemUseable - No */
+     , (12306,  19,        125) /* Value */
+     , (12306,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12306, 001 /* STUCK_BOOL */, True)
-     , (12306, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (12306, 013 /* ETHEREAL_BOOL */, False)
-     , (12306, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (12306,   1, True ) /* Stuck */
+     , (12306,  12, True ) /* ReportCollisions */
+     , (12306,  13, False) /* Ethereal */
+     , (12306,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12306,   1, 'Healer ') /* Name */
+     , (12306,  16, 'Healer') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12306,   1,   33557390) /* Setup */
+     , (12306,   8,  100672342) /* Icon */;

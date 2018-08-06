@@ -1,28 +1,24 @@
-/* Weenie - Far Claw Villas (13157) */
-DELETE FROM weenie WHERE class_Id = 13157;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13157, 'farclawvillassign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13157, 001 /* NAME_STRING */, 'Far Claw Villas')
-     , (13157, 016 /* LONG_DESC_STRING */, 'Welcome to Far Claw Villas');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13157, 001 /* SETUP_DID */, 33557463)
-     , (13157, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('13157', 'farclawvillassign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13157, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (13157, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (13157, 008 /* MASS_INT */, 1800)
-     , (13157, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (13157, 019 /* VALUE_INT */, 125)
-     , (13157, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
+VALUES (13157,   1,        128) /* ItemType - Misc */
+     , (13157,   5,       9000) /* EncumbranceVal */
+     , (13157,   8,       1800) /* Mass */
+     , (13157,  16,          1) /* ItemUseable - No */
+     , (13157,  19,        125) /* Value */
+     , (13157,  93,       1048) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13157, 001 /* STUCK_BOOL */, True)
-     , (13157, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (13157, 013 /* ETHEREAL_BOOL */, False)
-     , (13157, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (13157,   1, True ) /* Stuck */
+     , (13157,  12, True ) /* ReportCollisions */
+     , (13157,  13, False) /* Ethereal */
+     , (13157,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (13157,   1, 'Far Claw Villas') /* Name */
+     , (13157,  16, 'Welcome to Far Claw Villas') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (13157,   1,   33557463) /* Setup */
+     , (13157,   8,  100668115) /* Icon */;

@@ -1,39 +1,36 @@
-/* Weenie - Bael'Zharon Script Book (6424) */
-DELETE FROM weenie WHERE class_Id = 6424;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6424, 'scriptevilmaze', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6424, 001 /* NAME_STRING */, 'Bael''Zharon Script Book');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6424, 001 /* SETUP_DID */, 33554771)
-     , (6424, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6424, 008 /* ICON_DID */, 100668117)
-     , (6424, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6424', 'scriptevilmaze', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6424, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (6424, 005 /* ENCUMB_VAL_INT */, 80)
-     , (6424, 008 /* MASS_INT */, 230)
-     , (6424, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (6424, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (6424, 019 /* VALUE_INT */, 300)
-     , (6424, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6424, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6424, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6424, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
-     , (6424, 054 /* USE_RADIUS_FLOAT */, 0.3);
+VALUES (6424,   1,       8192) /* ItemType - Writable */
+     , (6424,   5,         80) /* EncumbranceVal */
+     , (6424,   8,        230) /* Mass */
+     , (6424,   9,          0) /* ValidLocations - None */
+     , (6424,  16,          8) /* ItemUseable - Contained */
+     , (6424,  19,        300) /* Value */
+     , (6424,  33,          1) /* Bonded - Bonded */
+     , (6424,  93,       1044) /* PhysicsState */
+     , (6424, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6424, 022 /* INSCRIBABLE_BOOL */, False)
-     , (6424, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (6424,  22, False) /* Inscribable */
+     , (6424,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6424,  39,    1.22) /* DefaultScale */
+     , (6424,  54,     0.3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6424,   1, 'Bael''Zharon Script Book') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6424,   1,   33554771) /* Setup */
+     , (6424,   3,  536870932) /* SoundTable */
+     , (6424,   8,  100668117) /* Icon */
+     , (6424,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (6424, 2, 1000) /* Book Data */;
+VALUES (6424, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (6424, 0, 4294967295, 'Foster!', 'prewritten', False, '
@@ -63,4 +60,3 @@ has failed the test. Upon such failures are your destruction built!
 
 has passed the test. Quake in fear, as another dark master walks amongst you!
 ');
-

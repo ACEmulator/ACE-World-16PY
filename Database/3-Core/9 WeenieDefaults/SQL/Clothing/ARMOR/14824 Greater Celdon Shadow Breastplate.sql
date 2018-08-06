@@ -1,51 +1,47 @@
-/* Weenie - Greater Celdon Shadow Breastplate (14824) */
-DELETE FROM weenie WHERE class_Id = 14824;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14824, 'breastplateceldonshadowgreater1', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14824, 001 /* NAME_STRING */, 'Greater Celdon Shadow Breastplate');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14824, 001 /* SETUP_DID */, 33554642)
-     , (14824, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (14824, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (14824, 007 /* CLOTHINGBASE_DID */, 268435848)
-     , (14824, 008 /* ICON_DID */, 100670403)
-     , (14824, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14824', 'breastplateceldonshadowgreater1', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14824, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (14824, 003 /* PALETTE_TEMPLATE_INT */, 29 /* DARKREDMETAL_PALETTE_TEMPLATE */)
-     , (14824, 004 /* CLOTHING_PRIORITY_INT */, 1024 /* OuterwearChest */)
-     , (14824, 005 /* ENCUMB_VAL_INT */, 3100)
-     , (14824, 008 /* MASS_INT */, 1200)
-     , (14824, 009 /* LOCATIONS_INT */, 512 /* CHEST_ARMOR_LOC */)
-     , (14824, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (14824, 019 /* VALUE_INT */, 2680)
-     , (14824, 027 /* ARMOR_TYPE_INT */, 32)
-     , (14824, 028 /* ARMOR_LEVEL_INT */, 210)
-     , (14824, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (14824, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14824, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (14824, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (14824, 160 /* WIELD_DIFFICULTY_INT */, 30);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14824, 012 /* SHADE_FLOAT */, 0.6)
-     , (14824, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (14824, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (14824, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (14824, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
-     , (14824, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
-     , (14824, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
-     , (14824, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.5)
-     , (14824, 110 /* BULK_MOD_FLOAT */, 1)
-     , (14824, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (14824,   1,          2) /* ItemType - Armor */
+     , (14824,   3,         29) /* PaletteTemplate - DarkRedMetal */
+     , (14824,   4,       1024) /* ClothingPriority - OuterwearChest */
+     , (14824,   5,       3100) /* EncumbranceVal */
+     , (14824,   8,       1200) /* Mass */
+     , (14824,   9,        512) /* ValidLocations - ChestArmor */
+     , (14824,  16,          1) /* ItemUseable - No */
+     , (14824,  19,       2680) /* Value */
+     , (14824,  27,         32) /* ArmorType */
+     , (14824,  28,        210) /* ArmorLevel */
+     , (14824,  33,          1) /* Bonded - Bonded */
+     , (14824,  93,       1044) /* PhysicsState */
+     , (14824, 158,          7) /* WieldRequirements - Level */
+     , (14824, 159,          1) /* WieldSkilltype - Axe */
+     , (14824, 160,         30) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14824, 022 /* INSCRIBABLE_BOOL */, True)
-     , (14824, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (14824, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (14824,  22, True ) /* Inscribable */
+     , (14824,  23, True ) /* DestroyOnSell */
+     , (14824,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14824,  12,     0.6) /* Shade */
+     , (14824,  13,     1.3) /* ArmorModVsSlash */
+     , (14824,  14,       1) /* ArmorModVsPierce */
+     , (14824,  15,       1) /* ArmorModVsBludgeon */
+     , (14824,  16,     0.8) /* ArmorModVsCold */
+     , (14824,  17,     0.8) /* ArmorModVsFire */
+     , (14824,  18,     0.8) /* ArmorModVsAcid */
+     , (14824,  19,     0.5) /* ArmorModVsElectric */
+     , (14824, 110,       1) /* BulkMod */
+     , (14824, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14824,   1, 'Greater Celdon Shadow Breastplate') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14824,   1,   33554642) /* Setup */
+     , (14824,   3,  536870932) /* SoundTable */
+     , (14824,   6,   67108990) /* PaletteBase */
+     , (14824,   7,  268435848) /* ClothingBase */
+     , (14824,   8,  100670403) /* Icon */
+     , (14824,  22,  872415275) /* PhysicsEffectTable */;

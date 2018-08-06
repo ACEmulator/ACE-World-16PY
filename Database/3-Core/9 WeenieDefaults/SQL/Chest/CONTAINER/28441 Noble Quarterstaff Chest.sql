@@ -1,56 +1,52 @@
-/* Weenie - Noble Quarterstaff Chest (28441) */
-DELETE FROM weenie WHERE class_Id = 28441;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28441, 'chestmorgluukstaff', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28441, 001 /* NAME_STRING */, 'Noble Quarterstaff Chest')
-     , (28441, 012 /* LOCK_CODE_STRING */, 'KeyMorgluukReward')
-     , (28441, 014 /* USE_STRING */, 'Use this item to open it and see its contents.')
-     , (28441, 016 /* LONG_DESC_STRING */, 'A treasure chest crafted to hold many valuables, to be used when one is deserving of grand rewards.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28441, 001 /* SETUP_DID */, 33558857)
-     , (28441, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (28441, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (28441, 008 /* ICON_DID */, 100676961)
-     , (28441, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28441', 'chestmorgluukstaff', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28441, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (28441, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (28441, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (28441, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (28441, 008 /* MASS_INT */, 3000)
-     , (28441, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (28441, 019 /* VALUE_INT */, 0)
-     , (28441, 037 /* RESIST_ITEM_APPRAISAL_INT */, 200)
-     , (28441, 038 /* RESIST_LOCKPICK_INT */, 9999)
-     , (28441, 081 /* MAX_GENERATED_OBJECTS_INT */, 2)
-     , (28441, 082 /* INIT_GENERATED_OBJECTS_INT */, 2)
-     , (28441, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (28441, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28441, 096 /* ENCUMB_CAPACITY_INT */, 500)
-     , (28441, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28441, 011 /* RESET_INTERVAL_FLOAT */, 30)
-     , (28441, 041 /* REGENERATION_INTERVAL_FLOAT */, 30)
-     , (28441, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
-     , (28441, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (28441,   1,        512) /* ItemType - Container */
+     , (28441,   5,       9000) /* EncumbranceVal */
+     , (28441,   6,         -1) /* ItemsCapacity */
+     , (28441,   7,         -1) /* ContainersCapacity */
+     , (28441,   8,       3000) /* Mass */
+     , (28441,  16,         48) /* ItemUseable - ViewedRemote */
+     , (28441,  19,          0) /* Value */
+     , (28441,  37,        200) /* ResistItemAppraisal */
+     , (28441,  38,       9999) /* ResistLockpick */
+     , (28441,  81,          2) /* MaxGeneratedObjects */
+     , (28441,  82,          2) /* InitGeneratedObjects */
+     , (28441,  83,          2) /* ActivationResponse - Use */
+     , (28441,  93,       1048) /* PhysicsState */
+     , (28441,  96,        500) /* EncumbranceCapacity */
+     , (28441, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28441, 001 /* STUCK_BOOL */, True)
-     , (28441, 002 /* OPEN_BOOL */, False)
-     , (28441, 003 /* LOCKED_BOOL */, True)
-     , (28441, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (28441, 013 /* ETHEREAL_BOOL */, False)
-     , (28441, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (28441, 034 /* DEFAULT_OPEN_BOOL */, False)
-     , (28441, 035 /* DEFAULT_LOCKED_BOOL */, True);
+VALUES (28441,   1, True ) /* Stuck */
+     , (28441,   2, False) /* Open */
+     , (28441,   3, True ) /* Locked */
+     , (28441,  12, True ) /* ReportCollisions */
+     , (28441,  13, False) /* Ethereal */
+     , (28441,  33, False) /* ResetMessagePending */
+     , (28441,  34, False) /* DefaultOpen */
+     , (28441,  35, True ) /* DefaultLocked */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28441,  11,      30) /* ResetInterval */
+     , (28441,  41,      30) /* RegenerationInterval */
+     , (28441,  43,       1) /* GeneratorRadius */
+     , (28441,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28441,   1, 'Noble Quarterstaff Chest') /* Name */
+     , (28441,  12, 'KeyMorgluukReward') /* LockCode */
+     , (28441,  14, 'Use this item to open it and see its contents.') /* Use */
+     , (28441,  16, 'A treasure chest crafted to hold many valuables, to be used when one is deserving of grand rewards.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28441,   1,   33558857) /* Setup */
+     , (28441,   2,  150994948) /* MotionTable */
+     , (28441,   3,  536870945) /* SoundTable */
+     , (28441,   8,  100676961) /* Icon */
+     , (28441,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28441, -1, 341, 10, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate RANDOM TREASURE from Loot Tier 5 (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */
-     , (28441, -1, 28497, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Noble Quarterstaff (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */;
-
+VALUES (28441, -1, 341, 10, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
+     , (28441, -1, 28497, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

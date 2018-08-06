@@ -1,37 +1,33 @@
-/* Weenie - Seedsow Festival Stone Portal (5451) */
-DELETE FROM weenie WHERE class_Id = 5451;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5451, 'portalseedsow', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5451, 001 /* NAME_STRING */, 'Seedsow Festival Stone Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5451, 001 /* SETUP_DID */, 33554867)
-     , (5451, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (5451, 006 /* PALETTE_BASE_DID */, 67109370)
-     , (5451, 007 /* CLOTHINGBASE_DID */, 268435652)
-     , (5451, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('5451', 'portalseedsow', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5451, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (5451, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (5451, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (5451, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (5451, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (5451, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5451, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (5451,   1,      65536) /* ItemType - Portal */
+     , (5451,   3,          8) /* PaletteTemplate - Green */
+     , (5451,  16,         32) /* ItemUseable - Remote */
+     , (5451,  93,       3084) /* PhysicsState */
+     , (5451, 111,          1) /* PortalBitmask - Unrestricted */
+     , (5451, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5451, 001 /* STUCK_BOOL */, True)
-     , (5451, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (5451, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (5451, 013 /* ETHEREAL_BOOL */, True)
-     , (5451, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (5451,   1, True ) /* Stuck */
+     , (5451,  11, False) /* IgnoreCollisions */
+     , (5451,  12, True ) /* ReportCollisions */
+     , (5451,  13, True ) /* Ethereal */
+     , (5451,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5451,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5451,   1, 'Seedsow Festival Stone Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5451,   1,   33554867) /* Setup */
+     , (5451,   2,  150994947) /* MotionTable */
+     , (5451,   6,   67109370) /* PaletteBase */
+     , (5451,   7,  268435652) /* ClothingBase */
+     , (5451,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5451, 2, 3112173610, 134.2, 24.5, 64, -0.9969174, 0, 0, -0.07845904) /* DESTINATION_POSITION */;
-
+VALUES (5451, 2, 3112173610, 134.2, 24.5, 64, -0.9969174, 0, 0, -0.07845904) /* Destination */;

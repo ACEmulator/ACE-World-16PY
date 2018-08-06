@@ -1,61 +1,57 @@
-/* Weenie - Dusky Winged Coat (28147) */
-DELETE FROM weenie WHERE class_Id = 28147;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28147, 'coatgromniewinged', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28147, 001 /* NAME_STRING */, 'Dusky Winged Coat')
-     , (28147, 016 /* LONG_DESC_STRING */, 'A winged coat crafted from the hide of an adolescent ash gromnie.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28147, 001 /* SETUP_DID */, 33554854)
-     , (28147, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (28147, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (28147, 007 /* CLOTHINGBASE_DID */, 268436850)
-     , (28147, 008 /* ICON_DID */, 100670435)
-     , (28147, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('28147', 'coatgromniewinged', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28147, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (28147, 003 /* PALETTE_TEMPLATE_INT */, 9 /* GREY_PALETTE_TEMPLATE */)
-     , (28147, 004 /* CLOTHING_PRIORITY_INT */, 13312 /* OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */)
-     , (28147, 005 /* ENCUMB_VAL_INT */, 900)
-     , (28147, 008 /* MASS_INT */, 1000)
-     , (28147, 009 /* LOCATIONS_INT */, 6656 /* CHEST_ARMOR_LOC, UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (28147, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (28147, 019 /* VALUE_INT */, 8000)
-     , (28147, 027 /* ARMOR_TYPE_INT */, 8)
-     , (28147, 028 /* ARMOR_LEVEL_INT */, 290)
-     , (28147, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28147, 106 /* ITEM_SPELLCRAFT_INT */, 400)
-     , (28147, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (28147, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (28147, 109 /* ITEM_DIFFICULTY_INT */, 200)
-     , (28147, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (28147, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (28147, 160 /* WIELD_DIFFICULTY_INT */, 85);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28147, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (28147, 012 /* SHADE_FLOAT */, 0.66)
-     , (28147, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (28147, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 2)
-     , (28147, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (28147, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
-     , (28147, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
-     , (28147, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (28147, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 2)
-     , (28147, 110 /* BULK_MOD_FLOAT */, 1.1)
-     , (28147, 111 /* SIZE_MOD_FLOAT */, 1.5);
+VALUES (28147,   1,          2) /* ItemType - Armor */
+     , (28147,   3,          9) /* PaletteTemplate - Grey */
+     , (28147,   4,      13312) /* ClothingPriority */
+     , (28147,   5,        900) /* EncumbranceVal */
+     , (28147,   8,       1000) /* Mass */
+     , (28147,   9,       6656) /* ValidLocations */
+     , (28147,  16,          1) /* ItemUseable - No */
+     , (28147,  19,       8000) /* Value */
+     , (28147,  27,          8) /* ArmorType */
+     , (28147,  28,        290) /* ArmorLevel */
+     , (28147,  93,       1044) /* PhysicsState */
+     , (28147, 106,        400) /* ItemSpellcraft */
+     , (28147, 107,       1000) /* ItemCurMana */
+     , (28147, 108,       1000) /* ItemMaxMana */
+     , (28147, 109,        200) /* ItemDifficulty */
+     , (28147, 158,          7) /* WieldRequirements - Level */
+     , (28147, 159,          1) /* WieldSkilltype - Axe */
+     , (28147, 160,         85) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28147, 022 /* INSCRIBABLE_BOOL */, True)
-     , (28147, 100 /* DYABLE_BOOL */, True);
+VALUES (28147,  22, True ) /* Inscribable */
+     , (28147, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28147,   5,  -0.033) /* ManaRate */
+     , (28147,  12,    0.66) /* Shade */
+     , (28147,  13,       1) /* ArmorModVsSlash */
+     , (28147,  14,       2) /* ArmorModVsPierce */
+     , (28147,  15,       1) /* ArmorModVsBludgeon */
+     , (28147,  16,       1) /* ArmorModVsCold */
+     , (28147,  17,       1) /* ArmorModVsFire */
+     , (28147,  18,       1) /* ArmorModVsAcid */
+     , (28147,  19,       2) /* ArmorModVsElectric */
+     , (28147, 110,     1.1) /* BulkMod */
+     , (28147, 111,     1.5) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28147,   1, 'Dusky Winged Coat') /* Name */
+     , (28147,  16, 'A winged coat crafted from the hide of an adolescent ash gromnie.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28147,   1,   33554854) /* Setup */
+     , (28147,   3,  536870932) /* SoundTable */
+     , (28147,   6,   67108990) /* PaletteBase */
+     , (28147,   7,  268436850) /* ClothingBase */
+     , (28147,   8,  100670435) /* Icon */
+     , (28147,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28147, 1486, 2) /* Impenetrability6_SpellID */
-     , (28147, 2579, 2) /* CANTRIPCOORDINATION1_SpellID */
-     , (28147, 2548, 2) /* CANTRIPHEALINGPROWESS1_SpellID */
-     , (28147, 2622, 2) /* CANTRIPSTORMWARD1_SpellID */;
-
+VALUES (28147,  1486,      2)  /* Impenetrability VI */
+     , (28147,  2548,      2)  /* Minor Healing Prowess */
+     , (28147,  2579,      2)  /* Minor Coordination */
+     , (28147,  2622,      2)  /* Minor Storm Ward */;

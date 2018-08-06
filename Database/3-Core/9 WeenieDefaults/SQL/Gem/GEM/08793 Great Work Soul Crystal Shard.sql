@@ -1,45 +1,41 @@
-/* Weenie - Great Work Soul Crystal Shard (8793) */
-DELETE FROM weenie WHERE class_Id = 8793;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8793, 'shardsoulcrystalgreatwork', 38 /* Gem_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8793, 001 /* NAME_STRING */, 'Great Work Soul Crystal Shard')
-     , (8793, 015 /* SHORT_DESC_STRING */, 'A remnant of the Great Work Soul Crystal. (Bring it to one of the Chosen of Asheron)')
-     , (8793, 016 /* LONG_DESC_STRING */, 'A remnant of the Great Work Soul Crystal. (Bring it to one of the Chosen of Asheron)')
-     , (8793, 033 /* QUEST_STRING */, 'ShardSoulCrystal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8793, 001 /* SETUP_DID */, 33556406)
-     , (8793, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8793, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (8793, 007 /* CLOTHINGBASE_DID */, 268435994)
-     , (8793, 008 /* ICON_DID */, 100671233)
-     , (8793, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (8793, 036 /* MUTATE_FILTER_DID */, 234881046);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8793', 'shardsoulcrystalgreatwork', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8793, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
-     , (8793, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
-     , (8793, 005 /* ENCUMB_VAL_INT */, 10)
-     , (8793, 008 /* MASS_INT */, 1)
-     , (8793, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8793, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (8793, 012 /* STACK_SIZE_INT */, 1)
-     , (8793, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
-     , (8793, 014 /* STACK_UNIT_MASS_INT */, 1)
-     , (8793, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (8793, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (8793, 019 /* VALUE_INT */, 0)
-     , (8793, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (8793, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (8793, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8793, 039 /* DEFAULT_SCALE_FLOAT */, 1.2);
+VALUES (8793,   1,       2048) /* ItemType - Gem */
+     , (8793,   3,         83) /* PaletteTemplate - Amber */
+     , (8793,   5,         10) /* EncumbranceVal */
+     , (8793,   8,          1) /* Mass */
+     , (8793,   9,          0) /* ValidLocations - None */
+     , (8793,  11,          1) /* MaxStackSize */
+     , (8793,  12,          1) /* StackSize */
+     , (8793,  13,         10) /* StackUnitEncumbrance */
+     , (8793,  14,          1) /* StackUnitMass */
+     , (8793,  15,          0) /* StackUnitValue */
+     , (8793,  16,          1) /* ItemUseable - No */
+     , (8793,  19,          0) /* Value */
+     , (8793,  33,          1) /* Bonded - Bonded */
+     , (8793,  93,       1044) /* PhysicsState */
+     , (8793, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8793, 022 /* INSCRIBABLE_BOOL */, True)
-     , (8793, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (8793,  22, True ) /* Inscribable */
+     , (8793,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8793,  39,     1.2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8793,   1, 'Great Work Soul Crystal Shard') /* Name */
+     , (8793,  15, 'A remnant of the Great Work Soul Crystal. (Bring it to one of the Chosen of Asheron)') /* ShortDesc */
+     , (8793,  16, 'A remnant of the Great Work Soul Crystal. (Bring it to one of the Chosen of Asheron)') /* LongDesc */
+     , (8793,  33, 'ShardSoulCrystal') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8793,   1,   33556406) /* Setup */
+     , (8793,   3,  536870932) /* SoundTable */
+     , (8793,   6,   67111919) /* PaletteBase */
+     , (8793,   7,  268435994) /* ClothingBase */
+     , (8793,   8,  100671233) /* Icon */
+     , (8793,  22,  872415275) /* PhysicsEffectTable */
+     , (8793,  36,  234881046) /* MutateFilter */;

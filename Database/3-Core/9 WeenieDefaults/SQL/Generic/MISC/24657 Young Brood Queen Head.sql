@@ -1,32 +1,28 @@
-/* Weenie - Young Brood Queen Head (24657) */
-DELETE FROM weenie WHERE class_Id = 24657;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24657, 'broodqueenheadmid', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24657, 001 /* NAME_STRING */, 'Young Brood Queen Head')
-     , (24657, 015 /* SHORT_DESC_STRING */, 'The head of a departed young Olthoi Brood Queen.')
-     , (24657, 033 /* QUEST_STRING */, 'PickedUpBroodQueenHead');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24657, 001 /* SETUP_DID */, 33556593)
-     , (24657, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (24657, 008 /* ICON_DID */, 100674520)
-     , (24657, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('24657', 'broodqueenheadmid', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24657, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (24657, 005 /* ENCUMB_VAL_INT */, 50)
-     , (24657, 008 /* MASS_INT */, 50)
-     , (24657, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (24657, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (24657, 019 /* VALUE_INT */, 0)
-     , (24657, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (24657, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (24657, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (24657,   1,        128) /* ItemType - Misc */
+     , (24657,   5,         50) /* EncumbranceVal */
+     , (24657,   8,         50) /* Mass */
+     , (24657,   9,          0) /* ValidLocations - None */
+     , (24657,  16,          1) /* ItemUseable - No */
+     , (24657,  19,          0) /* Value */
+     , (24657,  33,          1) /* Bonded - Bonded */
+     , (24657,  93,       1044) /* PhysicsState */
+     , (24657, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24657, 022 /* INSCRIBABLE_BOOL */, True)
-     , (24657, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (24657,  22, True ) /* Inscribable */
+     , (24657,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (24657,   1, 'Young Brood Queen Head') /* Name */
+     , (24657,  15, 'The head of a departed young Olthoi Brood Queen.') /* ShortDesc */
+     , (24657,  33, 'PickedUpBroodQueenHead') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (24657,   1,   33556593) /* Setup */
+     , (24657,   3,  536870932) /* SoundTable */
+     , (24657,   8,  100674520) /* Icon */
+     , (24657,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,64 +1,60 @@
-/* Weenie - Peerless Sparking Atlan Sword (6297) */
-DELETE FROM weenie WHERE class_Id = 6297;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6297, 'swordbestsparkingminor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6297, 001 /* NAME_STRING */, 'Peerless Sparking Atlan Sword');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6297, 001 /* SETUP_DID */, 33556348)
-     , (6297, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6297, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6297, 007 /* CLOTHINGBASE_DID */, 268435927)
-     , (6297, 008 /* ICON_DID */, 100670571)
-     , (6297, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (6297, 037 /* ITEM_SKILL_LIMIT_DID */, 11);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6297', 'swordbestsparkingminor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6297, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6297, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
-     , (6297, 005 /* ENCUMB_VAL_INT */, 450)
-     , (6297, 008 /* MASS_INT */, 500)
-     , (6297, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6297, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6297, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (6297, 019 /* VALUE_INT */, 5000)
-     , (6297, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6297, 044 /* DAMAGE_INT */, 20)
-     , (6297, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (6297, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6297, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (6297, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (6297, 049 /* WEAPON_TIME_INT */, 35)
-     , (6297, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6297, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6297, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (6297, 107 /* ITEM_CUR_MANA_INT */, 500)
-     , (6297, 108 /* ITEM_MAX_MANA_INT */, 500)
-     , (6297, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200)
-     , (6297, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6297, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6297, 005 /* MANA_RATE_FLOAT */, -0.025)
-     , (6297, 021 /* WEAPON_LENGTH_FLOAT */, 1)
-     , (6297, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (6297, 029 /* WEAPON_DEFENSE_FLOAT */, 1.07)
-     , (6297, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6297, 062 /* WEAPON_OFFENSE_FLOAT */, 1.07);
+VALUES (6297,   1,          1) /* ItemType - MeleeWeapon */
+     , (6297,   3,         13) /* PaletteTemplate - Purple */
+     , (6297,   5,        450) /* EncumbranceVal */
+     , (6297,   8,        500) /* Mass */
+     , (6297,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6297,  16,          1) /* ItemUseable - No */
+     , (6297,  18,          1) /* UiEffects - Magical */
+     , (6297,  19,       5000) /* Value */
+     , (6297,  33,          1) /* Bonded - Bonded */
+     , (6297,  44,         20) /* Damage */
+     , (6297,  45,         64) /* DamageType - Electric */
+     , (6297,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6297,  47,          6) /* AttackType */
+     , (6297,  48,         11) /* WeaponSkill - Sword */
+     , (6297,  49,         35) /* WeaponTime */
+     , (6297,  51,          1) /* CombatUse - Melee */
+     , (6297,  93,       1044) /* PhysicsState */
+     , (6297, 106,        100) /* ItemSpellcraft */
+     , (6297, 107,        500) /* ItemCurMana */
+     , (6297, 108,        500) /* ItemMaxMana */
+     , (6297, 115,        200) /* ItemSkillLevelLimit */
+     , (6297, 150,        103) /* HookPlacement - Hook */
+     , (6297, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6297, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6297, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6297, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6297,  22, True ) /* Inscribable */
+     , (6297,  23, True ) /* DestroyOnSell */
+     , (6297,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6297,   5,  -0.025) /* ManaRate */
+     , (6297,  21,       1) /* WeaponLength */
+     , (6297,  22,     0.5) /* DamageVariance */
+     , (6297,  29,    1.07) /* WeaponDefense */
+     , (6297,  39,       1) /* DefaultScale */
+     , (6297,  62,    1.07) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6297,   1, 'Peerless Sparking Atlan Sword') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6297,   1,   33556348) /* Setup */
+     , (6297,   3,  536870932) /* SoundTable */
+     , (6297,   6,   67111919) /* PaletteBase */
+     , (6297,   7,  268435927) /* ClothingBase */
+     , (6297,   8,  100670571) /* Icon */
+     , (6297,  22,  872415275) /* PhysicsEffectTable */
+     , (6297,  37,         11) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6297, 1351, 2) /* EnduranceSelf3_SpellID */
-     , (6297, 1602, 2) /* Defender3_SpellID */
-     , (6297, 1589, 2) /* HeartSeeker3_SpellID */
-     , (6297, 1613, 2) /* BloodDrinker3_SpellID */
-     , (6297, 1624, 2) /* SwiftKiller3_SpellID */
-     , (6297, 1068, 2) /* LightningProtectionSelf3_SpellID */;
-
+VALUES (6297,  1068,      2)  /* Lightning Protection Self III */
+     , (6297,  1351,      2)  /* Endurance Self III */
+     , (6297,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (6297,  1602,      2)  /* Aura of Defender Self III */
+     , (6297,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6297,  1624,      2)  /* Aura of Swift Killer Self III */;

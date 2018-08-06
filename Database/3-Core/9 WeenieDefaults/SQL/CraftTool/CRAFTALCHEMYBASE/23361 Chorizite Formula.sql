@@ -1,42 +1,38 @@
-/* Weenie - Chorizite Formula (23361) */
-DELETE FROM weenie WHERE class_Id = 23361;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23361, 'choriziteformula', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23361, 001 /* NAME_STRING */, 'Chorizite Formula')
-     , (23361, 014 /* USE_STRING */, 'Use this formula on a reinforced shield to transfer the properties of the formula to the shield.')
-     , (23361, 016 /* LONG_DESC_STRING */, 'A small bottle of distilled Chorizite formula.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23361, 001 /* SETUP_DID */, 33555965)
-     , (23361, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23361, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (23361, 007 /* CLOTHINGBASE_DID */, 268435814)
-     , (23361, 008 /* ICON_DID */, 100670737)
-     , (23361, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23361', 'choriziteformula', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23361, 001 /* ITEM_TYPE_INT */, 8388608 /* TYPE_CRAFT_ALCHEMY_BASE */)
-     , (23361, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (23361, 005 /* ENCUMB_VAL_INT */, 75)
-     , (23361, 008 /* MASS_INT */, 50)
-     , (23361, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (23361, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (23361, 012 /* STACK_SIZE_INT */, 1)
-     , (23361, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
-     , (23361, 014 /* STACK_UNIT_MASS_INT */, 50)
-     , (23361, 015 /* STACK_UNIT_VALUE_INT */, 50)
-     , (23361, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (23361, 019 /* VALUE_INT */, 50)
-     , (23361, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23361, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23361, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (23361, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
+VALUES (23361,   1,    8388608) /* ItemType - CraftAlchemyBase */
+     , (23361,   3,         39) /* PaletteTemplate - Black */
+     , (23361,   5,         75) /* EncumbranceVal */
+     , (23361,   8,         50) /* Mass */
+     , (23361,   9,          0) /* ValidLocations - None */
+     , (23361,  11,          1) /* MaxStackSize */
+     , (23361,  12,          1) /* StackSize */
+     , (23361,  13,         75) /* StackUnitEncumbrance */
+     , (23361,  14,         50) /* StackUnitMass */
+     , (23361,  15,         50) /* StackUnitValue */
+     , (23361,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (23361,  19,         50) /* Value */
+     , (23361,  33,          1) /* Bonded - Bonded */
+     , (23361,  93,       1044) /* PhysicsState */
+     , (23361,  94,        128) /* TargetType - Misc */
+     , (23361, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23361, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23361, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (23361, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (23361,  22, True ) /* Inscribable */
+     , (23361,  23, True ) /* DestroyOnSell */
+     , (23361,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23361,   1, 'Chorizite Formula') /* Name */
+     , (23361,  14, 'Use this formula on a reinforced shield to transfer the properties of the formula to the shield.') /* Use */
+     , (23361,  16, 'A small bottle of distilled Chorizite formula.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23361,   1,   33555965) /* Setup */
+     , (23361,   3,  536870932) /* SoundTable */
+     , (23361,   6,   67111919) /* PaletteBase */
+     , (23361,   7,  268435814) /* ClothingBase */
+     , (23361,   8,  100670737) /* Icon */
+     , (23361,  22,  872415275) /* PhysicsEffectTable */;

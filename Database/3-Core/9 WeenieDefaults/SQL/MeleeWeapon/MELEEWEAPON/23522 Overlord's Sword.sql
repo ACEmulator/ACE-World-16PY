@@ -1,63 +1,59 @@
-/* Weenie - Overlord's Sword (23522) */
-DELETE FROM weenie WHERE class_Id = 23522;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23522, 'swordoverlordnew', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23522, 001 /* NAME_STRING */, 'Overlord''s Sword')
-     , (23522, 033 /* QUEST_STRING */, 'PickedUpOverlordSword');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23522, 001 /* SETUP_DID */, 33558185)
-     , (23522, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (23522, 006 /* PALETTE_BASE_DID */, 67111092)
-     , (23522, 008 /* ICON_DID */, 100674032)
-     , (23522, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23522', 'swordoverlordnew', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23522, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (23522, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
-     , (23522, 005 /* ENCUMB_VAL_INT */, 650)
-     , (23522, 008 /* MASS_INT */, 420)
-     , (23522, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (23522, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (23522, 019 /* VALUE_INT */, 1550)
-     , (23522, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (23522, 044 /* DAMAGE_INT */, 70)
-     , (23522, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
-     , (23522, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (23522, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (23522, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
-     , (23522, 049 /* WEAPON_TIME_INT */, 50)
-     , (23522, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (23522, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (23522, 106 /* ITEM_SPELLCRAFT_INT */, 260)
-     , (23522, 107 /* ITEM_CUR_MANA_INT */, 2000)
-     , (23522, 108 /* ITEM_MAX_MANA_INT */, 2000)
-     , (23522, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (23522, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23522, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (23522, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (23522, 159 /* WIELD_SKILLTYPE_INT */, 11 /* SWORD_SKILL */)
-     , (23522, 160 /* WIELD_DIFFICULTY_INT */, 325);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23522, 005 /* MANA_RATE_FLOAT */, -0.05)
-     , (23522, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
-     , (23522, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (23522, 029 /* WEAPON_DEFENSE_FLOAT */, 1.15)
-     , (23522, 039 /* DEFAULT_SCALE_FLOAT */, 1.3)
-     , (23522, 062 /* WEAPON_OFFENSE_FLOAT */, 1.15);
+VALUES (23522,   1,          1) /* ItemType - MeleeWeapon */
+     , (23522,   3,         61) /* PaletteTemplate - White */
+     , (23522,   5,        650) /* EncumbranceVal */
+     , (23522,   8,        420) /* Mass */
+     , (23522,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (23522,  16,          1) /* ItemUseable - No */
+     , (23522,  19,       1550) /* Value */
+     , (23522,  33,          1) /* Bonded - Bonded */
+     , (23522,  44,         70) /* Damage */
+     , (23522,  45,         64) /* DamageType - Electric */
+     , (23522,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (23522,  47,          6) /* AttackType */
+     , (23522,  48,         11) /* WeaponSkill - Sword */
+     , (23522,  49,         50) /* WeaponTime */
+     , (23522,  51,          1) /* CombatUse - Melee */
+     , (23522,  93,       1044) /* PhysicsState */
+     , (23522, 106,        260) /* ItemSpellcraft */
+     , (23522, 107,       2000) /* ItemCurMana */
+     , (23522, 108,       2000) /* ItemMaxMana */
+     , (23522, 114,          1) /* Attuned - Attuned */
+     , (23522, 150,        103) /* HookPlacement - Hook */
+     , (23522, 151,          2) /* HookType - Wall */
+     , (23522, 158,          2) /* WieldRequirements - RawSkill */
+     , (23522, 159,         11) /* WieldSkilltype - Sword */
+     , (23522, 160,        325) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23522, 022 /* INSCRIBABLE_BOOL */, True)
-     , (23522, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (23522, 099 /* IVORYABLE_BOOL */, True);
+VALUES (23522,  22, True ) /* Inscribable */
+     , (23522,  23, True ) /* DestroyOnSell */
+     , (23522,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23522,   5,   -0.05) /* ManaRate */
+     , (23522,  21,    0.95) /* WeaponLength */
+     , (23522,  22,     0.5) /* DamageVariance */
+     , (23522,  29,    1.15) /* WeaponDefense */
+     , (23522,  39,     1.3) /* DefaultScale */
+     , (23522,  62,    1.15) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23522,   1, 'Overlord''s Sword') /* Name */
+     , (23522,  33, 'PickedUpOverlordSword') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23522,   1,   33558185) /* Setup */
+     , (23522,   3,  536870932) /* SoundTable */
+     , (23522,   6,   67111092) /* PaletteBase */
+     , (23522,   8,  100674032) /* Icon */
+     , (23522,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23522, 1605, 2) /* Defender6_SpellID */
-     , (23522, 1592, 2) /* HeartSeeker6_SpellID */
-     , (23522, 1616, 2) /* BloodDrinker6_SpellID */
-     , (23522, 417, 2) /* SwordMasteryOther6_SpellID */;
-
+VALUES (23522,   417,      2)  /* Heavy Weapon Mastery Other VI */
+     , (23522,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (23522,  1605,      2)  /* Aura of Defender Self VI */
+     , (23522,  1616,      2)  /* Aura of Blood Drinker Self VI */;

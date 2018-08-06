@@ -1,50 +1,46 @@
-/* Weenie - Acid Jo (3806) */
-DELETE FROM weenie WHERE class_Id = 3806;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3806, 'joacid', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3806, 001 /* NAME_STRING */, 'Acid Jo');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3806, 001 /* SETUP_DID */, 33555770)
-     , (3806, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (3806, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (3806, 007 /* CLOTHINGBASE_DID */, 268435795)
-     , (3806, 008 /* ICON_DID */, 100667602)
-     , (3806, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (3806, 036 /* MUTATE_FILTER_DID */, 234881053)
-     , (3806, 046 /* TSYS_MUTATION_FILTER_DID */, 939524110);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('3806', 'joacid', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3806, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (3806, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
-     , (3806, 005 /* ENCUMB_VAL_INT */, 400)
-     , (3806, 008 /* MASS_INT */, 80)
-     , (3806, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (3806, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (3806, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
-     , (3806, 019 /* VALUE_INT */, 250)
-     , (3806, 044 /* DAMAGE_INT */, 7)
-     , (3806, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
-     , (3806, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (3806, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (3806, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
-     , (3806, 049 /* WEAPON_TIME_INT */, 25)
-     , (3806, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (3806, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (3806, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (3806, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (3806, 169 /* TSYS_MUTATION_DATA_INT */, 101189388);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3806, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
-     , (3806, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (3806, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
-     , (3806, 039 /* DEFAULT_SCALE_FLOAT */, 0.67)
-     , (3806, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
+VALUES (3806,   1,          1) /* ItemType - MeleeWeapon */
+     , (3806,   3,          4) /* PaletteTemplate - Brown */
+     , (3806,   5,        400) /* EncumbranceVal */
+     , (3806,   8,         80) /* Mass */
+     , (3806,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3806,  16,          1) /* ItemUseable - No */
+     , (3806,  18,        256) /* UiEffects - Acid */
+     , (3806,  19,        250) /* Value */
+     , (3806,  44,          7) /* Damage */
+     , (3806,  45,         32) /* DamageType - Acid */
+     , (3806,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (3806,  47,          6) /* AttackType */
+     , (3806,  48,         10) /* WeaponSkill - Staff */
+     , (3806,  49,         25) /* WeaponTime */
+     , (3806,  51,          1) /* CombatUse - Melee */
+     , (3806,  93,       1044) /* PhysicsState */
+     , (3806, 150,        103) /* HookPlacement - Hook */
+     , (3806, 151,          2) /* HookType - Wall */
+     , (3806, 169,  101189388) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3806, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (3806,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3806,  21,    1.33) /* WeaponLength */
+     , (3806,  22,     0.5) /* DamageVariance */
+     , (3806,  29,       1) /* WeaponDefense */
+     , (3806,  39,    0.67) /* DefaultScale */
+     , (3806,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3806,   1, 'Acid Jo') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3806,   1,   33555770) /* Setup */
+     , (3806,   3,  536870932) /* SoundTable */
+     , (3806,   6,   67111919) /* PaletteBase */
+     , (3806,   7,  268435795) /* ClothingBase */
+     , (3806,   8,  100667602) /* Icon */
+     , (3806,  22,  872415275) /* PhysicsEffectTable */
+     , (3806,  36,  234881053) /* MutateFilter */
+     , (3806,  46,  939524110) /* TsysMutationFilter */;

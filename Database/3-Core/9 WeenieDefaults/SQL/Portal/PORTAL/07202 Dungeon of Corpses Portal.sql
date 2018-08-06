@@ -1,35 +1,31 @@
-/* Weenie - Dungeon of Corpses Portal (7202) */
-DELETE FROM weenie WHERE class_Id = 7202;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7202, 'portalcorpses', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7202, 001 /* NAME_STRING */, 'Dungeon of Corpses Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7202, 001 /* SETUP_DID */, 33555923)
-     , (7202, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (7202, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('7202', 'portalcorpses', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7202, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (7202, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (7202, 086 /* MIN_LEVEL_INT */, 25)
-     , (7202, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (7202, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (7202, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7202, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (7202,   1,      65536) /* ItemType - Portal */
+     , (7202,  16,         32) /* ItemUseable - Remote */
+     , (7202,  86,         25) /* MinLevel */
+     , (7202,  93,       3084) /* PhysicsState */
+     , (7202, 111,          1) /* PortalBitmask - Unrestricted */
+     , (7202, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7202, 001 /* STUCK_BOOL */, True)
-     , (7202, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (7202, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (7202, 013 /* ETHEREAL_BOOL */, True)
-     , (7202, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (7202,   1, True ) /* Stuck */
+     , (7202,  11, False) /* IgnoreCollisions */
+     , (7202,  12, True ) /* ReportCollisions */
+     , (7202,  13, True ) /* Ethereal */
+     , (7202,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (7202,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7202,   1, 'Dungeon of Corpses Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7202,   1,   33555923) /* Setup */
+     , (7202,   2,  150994947) /* MotionTable */
+     , (7202,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7202, 2, 17367392, 30, -20, 0, -4.371139E-08, 0, 0, -1) /* DESTINATION_POSITION */;
-
+VALUES (7202, 2, 17367392, 30, -20, 0, -4.371139E-08, 0, 0, -1) /* Destination */;

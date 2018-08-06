@@ -1,51 +1,47 @@
-/* Weenie - Nariyid Helm (27230) */
-DELETE FROM weenie WHERE class_Id = 27230;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27230, 'helmnariyid', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27230, 001 /* NAME_STRING */, 'Nariyid Helm');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27230, 001 /* SETUP_DID */, 33555248)
-     , (27230, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27230, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (27230, 007 /* CLOTHINGBASE_DID */, 268436813)
-     , (27230, 008 /* ICON_DID */, 100676214)
-     , (27230, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (27230, 036 /* MUTATE_FILTER_DID */, 234881042)
-     , (27230, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27230', 'helmnariyid', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27230, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (27230, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
-     , (27230, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
-     , (27230, 005 /* ENCUMB_VAL_INT */, 533)
-     , (27230, 008 /* MASS_INT */, 200)
-     , (27230, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
-     , (27230, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27230, 019 /* VALUE_INT */, 653)
-     , (27230, 027 /* ARMOR_TYPE_INT */, 32)
-     , (27230, 028 /* ARMOR_LEVEL_INT */, 100)
-     , (27230, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27230, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27230, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27230, 169 /* TSYS_MUTATION_DATA_INT */, 168429060);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27230, 012 /* SHADE_FLOAT */, 0.33)
-     , (27230, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
-     , (27230, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (27230, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (27230, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (27230, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (27230, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (27230, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
-     , (27230, 110 /* BULK_MOD_FLOAT */, 1)
-     , (27230, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (27230,   1,          2) /* ItemType - Armor */
+     , (27230,   3,         20) /* PaletteTemplate - Silver */
+     , (27230,   4,      16384) /* ClothingPriority - Head */
+     , (27230,   5,        533) /* EncumbranceVal */
+     , (27230,   8,        200) /* Mass */
+     , (27230,   9,          1) /* ValidLocations - HeadWear */
+     , (27230,  16,          1) /* ItemUseable - No */
+     , (27230,  19,        653) /* Value */
+     , (27230,  27,         32) /* ArmorType */
+     , (27230,  28,        100) /* ArmorLevel */
+     , (27230,  93,       1044) /* PhysicsState */
+     , (27230, 150,        103) /* HookPlacement - Hook */
+     , (27230, 151,          2) /* HookType - Wall */
+     , (27230, 169,  168429060) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27230, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27230, 100 /* DYABLE_BOOL */, True);
+VALUES (27230,  22, True ) /* Inscribable */
+     , (27230, 100, True ) /* Dyable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27230,  12,    0.33) /* Shade */
+     , (27230,  13,     1.3) /* ArmorModVsSlash */
+     , (27230,  14,       1) /* ArmorModVsPierce */
+     , (27230,  15,       1) /* ArmorModVsBludgeon */
+     , (27230,  16,     0.4) /* ArmorModVsCold */
+     , (27230,  17,     0.4) /* ArmorModVsFire */
+     , (27230,  18,     0.6) /* ArmorModVsAcid */
+     , (27230,  19,     0.4) /* ArmorModVsElectric */
+     , (27230, 110,       1) /* BulkMod */
+     , (27230, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27230,   1, 'Nariyid Helm') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27230,   1,   33555248) /* Setup */
+     , (27230,   3,  536870932) /* SoundTable */
+     , (27230,   6,   67108990) /* PaletteBase */
+     , (27230,   7,  268436813) /* ClothingBase */
+     , (27230,   8,  100676214) /* Icon */
+     , (27230,  22,  872415275) /* PhysicsEffectTable */
+     , (27230,  36,  234881042) /* MutateFilter */
+     , (27230,  46,  939524146) /* TsysMutationFilter */;

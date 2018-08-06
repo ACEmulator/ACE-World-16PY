@@ -1,72 +1,68 @@
-/* Weenie - Ultimate Singularity Crossbow (27824) */
-DELETE FROM weenie WHERE class_Id = 27824;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27824, 'crossbowsingularitymaraenew', 3 /* MissileLauncher_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27824, 001 /* NAME_STRING */, 'Ultimate Singularity Crossbow')
-     , (27824, 015 /* SHORT_DESC_STRING */, 'A crossbow imbued with Singularity energy.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27824, 001 /* SETUP_DID */, 33557313)
-     , (27824, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (27824, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (27824, 007 /* CLOTHINGBASE_DID */, 268436239)
-     , (27824, 008 /* ICON_DID */, 100672049)
-     , (27824, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('27824', 'crossbowsingularitymaraenew', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27824, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
-     , (27824, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
-     , (27824, 005 /* ENCUMB_VAL_INT */, 1920)
-     , (27824, 008 /* MASS_INT */, 640)
-     , (27824, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
-     , (27824, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (27824, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (27824, 019 /* VALUE_INT */, 0)
-     , (27824, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (27824, 044 /* DAMAGE_INT */, 12)
-     , (27824, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
-     , (27824, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
-     , (27824, 049 /* WEAPON_TIME_INT */, 100)
-     , (27824, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
-     , (27824, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
-     , (27824, 052 /* PARENT_LOCATION_INT */, 2)
-     , (27824, 053 /* PLACEMENT_POSITION_INT */, 3)
-     , (27824, 060 /* WEAPON_RANGE_INT */, 192)
-     , (27824, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (27824, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (27824, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (27824, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (27824, 109 /* ITEM_DIFFICULTY_INT */, 200)
-     , (27824, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (27824, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (27824, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27824, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
-     , (27824, 159 /* WIELD_SKILLTYPE_INT */, 3 /* CROSSBOW_SKILL */)
-     , (27824, 160 /* WIELD_DIFFICULTY_INT */, 290)
-     , (27824, 166 /* SLAYER_CREATURE_TYPE_INT */, 19 /* Virindi_CreatureType */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27824, 005 /* MANA_RATE_FLOAT */, -0.033)
-     , (27824, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
-     , (27824, 029 /* WEAPON_DEFENSE_FLOAT */, 1.1)
-     , (27824, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
-     , (27824, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
-     , (27824, 063 /* DAMAGE_MOD_FLOAT */, 2.55)
-     , (27824, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
-     , (27824, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 1.8)
-     , (27824, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.25);
+VALUES (27824,   1,        256) /* ItemType - MissileWeapon */
+     , (27824,   3,          8) /* PaletteTemplate - Green */
+     , (27824,   5,       1920) /* EncumbranceVal */
+     , (27824,   8,        640) /* Mass */
+     , (27824,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (27824,  16,          1) /* ItemUseable - No */
+     , (27824,  18,          1) /* UiEffects - Magical */
+     , (27824,  19,          0) /* Value */
+     , (27824,  33,          1) /* Bonded - Bonded */
+     , (27824,  44,         12) /* Damage */
+     , (27824,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (27824,  48,          3) /* WeaponSkill - Crossbow */
+     , (27824,  49,        100) /* WeaponTime */
+     , (27824,  50,          2) /* AmmoType - Bolt */
+     , (27824,  51,          2) /* CombatUse - Missle */
+     , (27824,  52,          2) /* ParentLocation */
+     , (27824,  53,          3) /* PlacementPosition */
+     , (27824,  60,        192) /* WeaponRange */
+     , (27824,  93,       1044) /* PhysicsState */
+     , (27824, 106,        200) /* ItemSpellcraft */
+     , (27824, 107,       1000) /* ItemCurMana */
+     , (27824, 108,       1000) /* ItemMaxMana */
+     , (27824, 109,        200) /* ItemDifficulty */
+     , (27824, 114,          1) /* Attuned - Attuned */
+     , (27824, 150,        103) /* HookPlacement - Hook */
+     , (27824, 151,          2) /* HookType - Wall */
+     , (27824, 158,          2) /* WieldRequirements - RawSkill */
+     , (27824, 159,          3) /* WieldSkilltype - Crossbow */
+     , (27824, 160,        290) /* WieldDifficulty */
+     , (27824, 166,         19) /* SlayerCreatureType - Virindi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27824, 022 /* INSCRIBABLE_BOOL */, True)
-     , (27824, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (27824, 099 /* IVORYABLE_BOOL */, True);
+VALUES (27824,  22, True ) /* Inscribable */
+     , (27824,  23, True ) /* DestroyOnSell */
+     , (27824,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27824,   5,  -0.033) /* ManaRate */
+     , (27824,  26,    27.3) /* MaximumVelocity */
+     , (27824,  29,     1.1) /* WeaponDefense */
+     , (27824,  39,    1.25) /* DefaultScale */
+     , (27824,  62,       1) /* WeaponOffense */
+     , (27824,  63,    2.55) /* DamageMod */
+     , (27824, 136,     2.5) /* CriticalMultiplier */
+     , (27824, 138,     1.8) /* SlayerDamageBonus */
+     , (27824, 147,    0.25) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27824,   1, 'Ultimate Singularity Crossbow') /* Name */
+     , (27824,  15, 'A crossbow imbued with Singularity energy.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27824,   1,   33557313) /* Setup */
+     , (27824,   3,  536870932) /* SoundTable */
+     , (27824,   6,   67111919) /* PaletteBase */
+     , (27824,   7,  268436239) /* ClothingBase */
+     , (27824,   8,  100672049) /* Icon */
+     , (27824,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27824, 1605, 2) /* Defender6_SpellID */
-     , (27824, 1616, 2) /* BloodDrinker6_SpellID */
-     , (27824, 2579, 2) /* CANTRIPCOORDINATION1_SpellID */
-     , (27824, 1384, 2) /* CoordinationOther6_SpellID */;
-
+VALUES (27824,  1384,      2)  /* Coordination Other VI */
+     , (27824,  1605,      2)  /* Aura of Defender Self VI */
+     , (27824,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (27824,  2579,      2)  /* Minor Coordination */;

@@ -1,44 +1,40 @@
-/* Weenie - Perfect Banner Haft (11838) */
-DELETE FROM weenie WHERE class_Id = 11838;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11838, 'haftreinforcedbannerhigh', 44 /* CraftTool_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11838, 001 /* NAME_STRING */, 'Perfect Banner Haft')
-     , (11838, 014 /* USE_STRING */, 'Use this on a Gromnie or Mask Banner.')
-     , (11838, 015 /* SHORT_DESC_STRING */, 'A Perfect Banner Haft.')
-     , (11838, 016 /* LONG_DESC_STRING */, 'A perfect banner haft with a worn handle.  If joined with either a Gromnie or Mask banner, it will raise it''s value substantially.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11838, 001 /* SETUP_DID */, 33557242)
-     , (11838, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11838, 006 /* PALETTE_BASE_DID */, 67113338)
-     , (11838, 007 /* CLOTHINGBASE_DID */, 268436212)
-     , (11838, 008 /* ICON_DID */, 100671948)
-     , (11838, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11838', 'haftreinforcedbannerhigh', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11838, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11838, 005 /* ENCUMB_VAL_INT */, 100)
-     , (11838, 008 /* MASS_INT */, 10)
-     , (11838, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11838, 011 /* MAX_STACK_SIZE_INT */, 1)
-     , (11838, 012 /* STACK_SIZE_INT */, 1)
-     , (11838, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
-     , (11838, 014 /* STACK_UNIT_MASS_INT */, 10)
-     , (11838, 015 /* STACK_UNIT_VALUE_INT */, 0)
-     , (11838, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
-     , (11838, 019 /* VALUE_INT */, 0)
-     , (11838, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (11838, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (11838, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (11838, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11838, 039 /* DEFAULT_SCALE_FLOAT */, 1);
+VALUES (11838,   1,        128) /* ItemType - Misc */
+     , (11838,   5,        100) /* EncumbranceVal */
+     , (11838,   8,         10) /* Mass */
+     , (11838,   9,          0) /* ValidLocations - None */
+     , (11838,  11,          1) /* MaxStackSize */
+     , (11838,  12,          1) /* StackSize */
+     , (11838,  13,        100) /* StackUnitEncumbrance */
+     , (11838,  14,         10) /* StackUnitMass */
+     , (11838,  15,          0) /* StackUnitValue */
+     , (11838,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (11838,  19,          0) /* Value */
+     , (11838,  93,       1044) /* PhysicsState */
+     , (11838,  94,        128) /* TargetType - Misc */
+     , (11838, 150,        103) /* HookPlacement - Hook */
+     , (11838, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11838, 022 /* INSCRIBABLE_BOOL */, True)
-     , (11838, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11838,  22, True ) /* Inscribable */
+     , (11838,  23, True ) /* DestroyOnSell */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11838,  39,       1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11838,   1, 'Perfect Banner Haft') /* Name */
+     , (11838,  14, 'Use this on a Gromnie or Mask Banner.') /* Use */
+     , (11838,  15, 'A Perfect Banner Haft.') /* ShortDesc */
+     , (11838,  16, 'A perfect banner haft with a worn handle.  If joined with either a Gromnie or Mask banner, it will raise it''s value substantially.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11838,   1,   33557242) /* Setup */
+     , (11838,   3,  536870932) /* SoundTable */
+     , (11838,   6,   67113338) /* PaletteBase */
+     , (11838,   7,  268436212) /* ClothingBase */
+     , (11838,   8,  100671948) /* Icon */
+     , (11838,  22,  872415275) /* PhysicsEffectTable */;

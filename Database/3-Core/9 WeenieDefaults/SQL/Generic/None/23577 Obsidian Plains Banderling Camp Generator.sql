@@ -1,0 +1,29 @@
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('23577', 'obsidianplainsbanderlingcampgen', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (23577,  81,          6) /* MaxGeneratedObjects */
+     , (23577,  82,          4) /* InitGeneratedObjects */
+     , (23577,  93,       1044) /* PhysicsState */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (23577,   1, True ) /* Stuck */
+     , (23577,  11, True ) /* IgnoreCollisions */
+     , (23577,  18, True ) /* Visibility */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23577,  41,      60) /* RegenerationInterval */
+     , (23577,  43,       5) /* GeneratorRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23577,   1, 'Obsidian Plains Banderling Camp Generator') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23577,   1,   33555051) /* Setup */
+     , (23577,   8,  100667494) /* Icon */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (23577, 0.25, 23479, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 0, 0.8191521, 0, 0, -0.5735765)
+     , (23577, 0.5, 23478, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 0, 0.9659258, 0, 0, -0.258819)
+     , (23577, 0.75, 24274, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 0, 0.9961947, 0, 0, -0.08715574)
+     , (23577, 1, 24276, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);

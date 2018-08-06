@@ -1,49 +1,45 @@
-/* Weenie - Peerless Atlan Axe (6144) */
-DELETE FROM weenie WHERE class_Id = 6144;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6144, 'axebestnostone', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6144, 001 /* NAME_STRING */, 'Peerless Atlan Axe');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6144, 001 /* SETUP_DID */, 33556256)
-     , (6144, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (6144, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (6144, 007 /* CLOTHINGBASE_DID */, 268435875)
-     , (6144, 008 /* ICON_DID */, 100670509)
-     , (6144, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6144', 'axebestnostone', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6144, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (6144, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
-     , (6144, 005 /* ENCUMB_VAL_INT */, 800)
-     , (6144, 008 /* MASS_INT */, 700)
-     , (6144, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (6144, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (6144, 019 /* VALUE_INT */, 5000)
-     , (6144, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (6144, 044 /* DAMAGE_INT */, 19)
-     , (6144, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
-     , (6144, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (6144, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
-     , (6144, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
-     , (6144, 049 /* WEAPON_TIME_INT */, 55)
-     , (6144, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (6144, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (6144, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (6144, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6144, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
-     , (6144, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (6144, 029 /* WEAPON_DEFENSE_FLOAT */, 1.07)
-     , (6144, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (6144, 062 /* WEAPON_OFFENSE_FLOAT */, 1.07);
+VALUES (6144,   1,          1) /* ItemType - MeleeWeapon */
+     , (6144,   3,         39) /* PaletteTemplate - Black */
+     , (6144,   5,        800) /* EncumbranceVal */
+     , (6144,   8,        700) /* Mass */
+     , (6144,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6144,  16,          1) /* ItemUseable - No */
+     , (6144,  19,       5000) /* Value */
+     , (6144,  33,          1) /* Bonded - Bonded */
+     , (6144,  44,         19) /* Damage */
+     , (6144,  45,          1) /* DamageType - Slash */
+     , (6144,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6144,  47,          4) /* AttackType - Slash */
+     , (6144,  48,          1) /* WeaponSkill - Axe */
+     , (6144,  49,         55) /* WeaponTime */
+     , (6144,  51,          1) /* CombatUse - Melee */
+     , (6144,  93,       1044) /* PhysicsState */
+     , (6144, 150,        103) /* HookPlacement - Hook */
+     , (6144, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6144, 022 /* INSCRIBABLE_BOOL */, True)
-     , (6144, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (6144, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (6144,  22, True ) /* Inscribable */
+     , (6144,  23, True ) /* DestroyOnSell */
+     , (6144,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6144,  21,    0.75) /* WeaponLength */
+     , (6144,  22,     0.5) /* DamageVariance */
+     , (6144,  29,    1.07) /* WeaponDefense */
+     , (6144,  39,       1) /* DefaultScale */
+     , (6144,  62,    1.07) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6144,   1, 'Peerless Atlan Axe') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6144,   1,   33556256) /* Setup */
+     , (6144,   3,  536870932) /* SoundTable */
+     , (6144,   6,   67111919) /* PaletteBase */
+     , (6144,   7,  268435875) /* ClothingBase */
+     , (6144,   8,  100670509) /* Icon */
+     , (6144,  22,  872415275) /* PhysicsEffectTable */;

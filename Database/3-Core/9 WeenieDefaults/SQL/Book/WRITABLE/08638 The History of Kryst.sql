@@ -1,35 +1,32 @@
-/* Weenie - The History of Kryst (8638) */
-DELETE FROM weenie WHERE class_Id = 8638;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8638, 'krysthistory', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8638, 001 /* NAME_STRING */, 'The History of Kryst');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8638, 001 /* SETUP_DID */, 33554771)
-     , (8638, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (8638, 008 /* ICON_DID */, 100668117)
-     , (8638, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('8638', 'krysthistory', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8638, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (8638, 005 /* ENCUMB_VAL_INT */, 460)
-     , (8638, 008 /* MASS_INT */, 230)
-     , (8638, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (8638, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (8638, 019 /* VALUE_INT */, 50)
-     , (8638, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8638, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (8638,   1,       8192) /* ItemType - Writable */
+     , (8638,   5,        460) /* EncumbranceVal */
+     , (8638,   8,        230) /* Mass */
+     , (8638,   9,          0) /* ValidLocations - None */
+     , (8638,  16,          8) /* ItemUseable - Contained */
+     , (8638,  19,         50) /* Value */
+     , (8638,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8638, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (8638,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8638,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8638,   1, 'The History of Kryst') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8638,   1,   33554771) /* Setup */
+     , (8638,   3,  536870932) /* SoundTable */
+     , (8638,   8,  100668117) /* Icon */
+     , (8638,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8638, 11, 1000) /* Book Data */;
+VALUES (8638, 11, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8638, 0, 4294967295, 'Natalie the Scribe', 'prewritten', False, '
@@ -73,4 +70,3 @@ Now, other Isparians have come, revealing that the Olthoi no longer plague our k
 
 Scribe Natalie, Elder of Kryst
 ');
-

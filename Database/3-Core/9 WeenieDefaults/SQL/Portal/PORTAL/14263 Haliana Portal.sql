@@ -1,34 +1,30 @@
-/* Weenie - Haliana Portal (14263) */
-DELETE FROM weenie WHERE class_Id = 14263;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14263, 'portalhaliana', 7 /* Portal_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14263, 001 /* NAME_STRING */, 'Haliana Portal');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14263, 001 /* SETUP_DID */, 33554867)
-     , (14263, 002 /* MOTION_TABLE_DID */, 150994947)
-     , (14263, 008 /* ICON_DID */, 100667499);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('14263', 'portalhaliana', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14263, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
-     , (14263, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (14263, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
-     , (14263, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
-     , (14263, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14263, 054 /* USE_RADIUS_FLOAT */, -0.1);
+VALUES (14263,   1,      65536) /* ItemType - Portal */
+     , (14263,  16,         32) /* ItemUseable - Remote */
+     , (14263,  93,       3084) /* PhysicsState */
+     , (14263, 111,          1) /* PortalBitmask - Unrestricted */
+     , (14263, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14263, 001 /* STUCK_BOOL */, True)
-     , (14263, 011 /* IGNORE_COLLISIONS_BOOL */, False)
-     , (14263, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (14263, 013 /* ETHEREAL_BOOL */, True)
-     , (14263, 015 /* LIGHTS_STATUS_BOOL */, True);
+VALUES (14263,   1, True ) /* Stuck */
+     , (14263,  11, False) /* IgnoreCollisions */
+     , (14263,  12, True ) /* ReportCollisions */
+     , (14263,  13, True ) /* Ethereal */
+     , (14263,  15, True ) /* LightsStatus */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14263,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14263,   1, 'Haliana Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14263,   1,   33554867) /* Setup */
+     , (14263,   2,  150994947) /* MotionTable */
+     , (14263,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14263, 2, 3420061743, 128.48, 154.773, 4.712, 0.9913226, 0, 0, -0.1314519) /* DESTINATION_POSITION */;
-
+VALUES (14263, 2, 3420061743, 128.48, 154.773, 4.712, 0.9913226, 0, 0, -0.1314519) /* Destination */;

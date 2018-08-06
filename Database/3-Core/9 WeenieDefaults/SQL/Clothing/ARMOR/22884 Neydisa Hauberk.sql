@@ -1,57 +1,53 @@
-/* Weenie - Neydisa Hauberk (22884) */
-DELETE FROM weenie WHERE class_Id = 22884;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22884, 'hauberkneydisanew', 2 /* Clothing_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22884, 001 /* NAME_STRING */, 'Neydisa Hauberk');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22884, 001 /* SETUP_DID */, 33554644)
-     , (22884, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (22884, 007 /* CLOTHINGBASE_DID */, 268435462)
-     , (22884, 008 /* ICON_DID */, 100667335)
-     , (22884, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22884', 'hauberkneydisanew', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22884, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
-     , (22884, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
-     , (22884, 004 /* CLOTHING_PRIORITY_INT */, 15360 /* OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */)
-     , (22884, 005 /* ENCUMB_VAL_INT */, 1050)
-     , (22884, 009 /* LOCATIONS_INT */, 7680 /* CHEST_ARMOR_LOC, ABDOMEN_ARMOR_LOC, UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
-     , (22884, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22884, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (22884, 019 /* VALUE_INT */, 2450)
-     , (22884, 027 /* ARMOR_TYPE_INT */, 16)
-     , (22884, 028 /* ARMOR_LEVEL_INT */, 160)
-     , (22884, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22884, 106 /* ITEM_SPELLCRAFT_INT */, 200)
-     , (22884, 107 /* ITEM_CUR_MANA_INT */, 1000)
-     , (22884, 108 /* ITEM_MAX_MANA_INT */, 1000)
-     , (22884, 109 /* ITEM_DIFFICULTY_INT */, 0)
-     , (22884, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22884, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (22884, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (22884, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (22884, 160 /* WIELD_DIFFICULTY_INT */, 40);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22884, 005 /* MANA_RATE_FLOAT */, -0.0333)
-     , (22884, 012 /* SHADE_FLOAT */, 0.1)
-     , (22884, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
-     , (22884, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (22884, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
-     , (22884, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
-     , (22884, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
-     , (22884, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
-     , (22884, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (22884, 110 /* BULK_MOD_FLOAT */, 1)
-     , (22884, 111 /* SIZE_MOD_FLOAT */, 1);
+VALUES (22884,   1,          2) /* ItemType - Armor */
+     , (22884,   3,         14) /* PaletteTemplate - Red */
+     , (22884,   4,      15360) /* ClothingPriority */
+     , (22884,   5,       1050) /* EncumbranceVal */
+     , (22884,   9,       7680) /* ValidLocations */
+     , (22884,  16,          1) /* ItemUseable - No */
+     , (22884,  18,          1) /* UiEffects - Magical */
+     , (22884,  19,       2450) /* Value */
+     , (22884,  27,         16) /* ArmorType */
+     , (22884,  28,        160) /* ArmorLevel */
+     , (22884,  93,       1044) /* PhysicsState */
+     , (22884, 106,        200) /* ItemSpellcraft */
+     , (22884, 107,       1000) /* ItemCurMana */
+     , (22884, 108,       1000) /* ItemMaxMana */
+     , (22884, 109,          0) /* ItemDifficulty */
+     , (22884, 150,        103) /* HookPlacement - Hook */
+     , (22884, 151,          2) /* HookType - Wall */
+     , (22884, 158,          7) /* WieldRequirements - Level */
+     , (22884, 159,          1) /* WieldSkilltype - Axe */
+     , (22884, 160,         40) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22884, 022 /* INSCRIBABLE_BOOL */, True);
+VALUES (22884,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22884,   5, -0.0333) /* ManaRate */
+     , (22884,  12,     0.1) /* Shade */
+     , (22884,  13,       1) /* ArmorModVsSlash */
+     , (22884,  14,       1) /* ArmorModVsPierce */
+     , (22884,  15,       1) /* ArmorModVsBludgeon */
+     , (22884,  16,     0.6) /* ArmorModVsCold */
+     , (22884,  17,     0.6) /* ArmorModVsFire */
+     , (22884,  18,     0.6) /* ArmorModVsAcid */
+     , (22884,  19,     0.6) /* ArmorModVsElectric */
+     , (22884, 110,       1) /* BulkMod */
+     , (22884, 111,       1) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22884,   1, 'Neydisa Hauberk') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22884,   1,   33554644) /* Setup */
+     , (22884,   6,   67108990) /* PaletteBase */
+     , (22884,   7,  268435462) /* ClothingBase */
+     , (22884,   8,  100667335) /* Icon */
+     , (22884,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22884, 1401, 2) /* QuicknessSelf5_SpellID */;
-
+VALUES (22884,  1401,      2)  /* Quickness Self V */;

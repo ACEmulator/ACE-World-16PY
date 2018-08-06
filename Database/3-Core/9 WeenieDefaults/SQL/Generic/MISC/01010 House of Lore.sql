@@ -1,31 +1,27 @@
-/* Weenie - House of Lore (1010) */
-DELETE FROM weenie WHERE class_Id = 1010;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1010, 'zaikhalhealersign', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1010, 001 /* NAME_STRING */, 'House of Lore')
-     , (1010, 016 /* LONG_DESC_STRING */, 'House of Lore');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1010, 001 /* SETUP_DID */, 33555909)
-     , (1010, 006 /* PALETTE_BASE_DID */, 67111860)
-     , (1010, 007 /* CLOTHINGBASE_DID */, 268435822)
-     , (1010, 008 /* ICON_DID */, 100668115);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('1010', 'zaikhalhealersign', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1010, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (1010, 005 /* ENCUMB_VAL_INT */, 9000)
-     , (1010, 008 /* MASS_INT */, 1800)
-     , (1010, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (1010, 019 /* VALUE_INT */, 125)
-     , (1010, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
+VALUES (1010,   1,        128) /* ItemType - Misc */
+     , (1010,   5,       9000) /* EncumbranceVal */
+     , (1010,   8,       1800) /* Mass */
+     , (1010,  16,          1) /* ItemUseable - No */
+     , (1010,  19,        125) /* Value */
+     , (1010,  93,         24) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1010, 001 /* STUCK_BOOL */, True)
-     , (1010, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (1010, 013 /* ETHEREAL_BOOL */, False)
-     , (1010, 014 /* GRAVITY_STATUS_BOOL */, False)
-     , (1010, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (1010,   1, True ) /* Stuck */
+     , (1010,  12, True ) /* ReportCollisions */
+     , (1010,  13, False) /* Ethereal */
+     , (1010,  14, False) /* GravityStatus */
+     , (1010,  22, False) /* Inscribable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1010,   1, 'House of Lore') /* Name */
+     , (1010,  16, 'House of Lore') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1010,   1,   33555909) /* Setup */
+     , (1010,   6,   67111860) /* PaletteBase */
+     , (1010,   7,  268435822) /* ClothingBase */
+     , (1010,   8,  100668115) /* Icon */;

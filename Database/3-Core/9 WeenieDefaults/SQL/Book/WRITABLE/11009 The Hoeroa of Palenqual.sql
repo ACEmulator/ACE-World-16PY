@@ -1,38 +1,35 @@
-/* Weenie - The Hoeroa of Palenqual (11009) */
-DELETE FROM weenie WHERE class_Id = 11009;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11009, 'instructionsstaffmelee-xp', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11009, 001 /* NAME_STRING */, 'The Hoeroa of Palenqual')
-     , (11009, 015 /* SHORT_DESC_STRING */, 'Instructions for building the Hoeroa of Palenqual.')
-     , (11009, 016 /* LONG_DESC_STRING */, 'Instructions for building the Hoeroa of Palenqual.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11009, 001 /* SETUP_DID */, 33554773)
-     , (11009, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (11009, 008 /* ICON_DID */, 100668176)
-     , (11009, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('11009', 'instructionsstaffmelee-xp', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11009, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (11009, 005 /* ENCUMB_VAL_INT */, 5)
-     , (11009, 008 /* MASS_INT */, 5)
-     , (11009, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (11009, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (11009, 019 /* VALUE_INT */, 5)
-     , (11009, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11009, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (11009,   1,       8192) /* ItemType - Writable */
+     , (11009,   5,          5) /* EncumbranceVal */
+     , (11009,   8,          5) /* Mass */
+     , (11009,   9,          0) /* ValidLocations - None */
+     , (11009,  16,          8) /* ItemUseable - Contained */
+     , (11009,  19,          5) /* Value */
+     , (11009,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11009, 022 /* INSCRIBABLE_BOOL */, False)
-     , (11009, 023 /* DESTROY_ON_SELL_BOOL */, True);
+VALUES (11009,  22, False) /* Inscribable */
+     , (11009,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11009,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11009,   1, 'The Hoeroa of Palenqual') /* Name */
+     , (11009,  15, 'Instructions for building the Hoeroa of Palenqual.') /* ShortDesc */
+     , (11009,  16, 'Instructions for building the Hoeroa of Palenqual.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11009,   1,   33554773) /* Setup */
+     , (11009,   3,  536870932) /* SoundTable */
+     , (11009,   8,  100668176) /* Icon */
+     , (11009,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (11009, 6, 1000) /* Book Data */;
+VALUES (11009, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (11009, 0, 4294967295, 'Aun Hareltah', 'prewritten', False, '
@@ -66,4 +63,3 @@ The Totem of the Storms that crash over this great snow-capped mountains of this
 The Totem of Tonk, the newest comer to this isle, evinces knowledge of self, and mastery of one''s chosen path. In the case of the Hoeroa, it grants Staff Mastery VI.
 
 ');
-

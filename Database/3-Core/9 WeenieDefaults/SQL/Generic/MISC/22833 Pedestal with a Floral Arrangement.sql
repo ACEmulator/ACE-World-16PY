@@ -1,30 +1,26 @@
-/* Weenie - Pedestal with a Floral Arrangement (22833) */
-DELETE FROM weenie WHERE class_Id = 22833;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22833, 'pedestalvasesnowflower2', 1 /* Generic_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22833, 001 /* NAME_STRING */, 'Pedestal with a Floral Arrangement')
-     , (22833, 014 /* USE_STRING */, 'This item is floor-hookable.')
-     , (22833, 015 /* SHORT_DESC_STRING */, 'An ornamental pedestal adorned with a crystal vase with a pair of snowflowers. ');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22833, 001 /* SETUP_DID */, 33558161)
-     , (22833, 008 /* ICON_DID */, 100673922);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('22833', 'pedestalvasesnowflower2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22833, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
-     , (22833, 005 /* ENCUMB_VAL_INT */, 70)
-     , (22833, 008 /* MASS_INT */, 70)
-     , (22833, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (22833, 019 /* VALUE_INT */, 10000)
-     , (22833, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (22833, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22833, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
+VALUES (22833,   1,        128) /* ItemType - Misc */
+     , (22833,   5,         70) /* EncumbranceVal */
+     , (22833,   8,         70) /* Mass */
+     , (22833,  16,          1) /* ItemUseable - No */
+     , (22833,  19,      10000) /* Value */
+     , (22833,  93,       1044) /* PhysicsState */
+     , (22833, 150,        103) /* HookPlacement - Hook */
+     , (22833, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22833, 013 /* ETHEREAL_BOOL */, True)
-     , (22833, 022 /* INSCRIBABLE_BOOL */, True)
-     , (22833, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (22833,  13, True ) /* Ethereal */
+     , (22833,  22, True ) /* Inscribable */
+     , (22833,  69, False) /* IsSellable */;
 
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22833,   1, 'Pedestal with a Floral Arrangement') /* Name */
+     , (22833,  14, 'This item is floor-hookable.') /* Use */
+     , (22833,  15, 'An ornamental pedestal adorned with a crystal vase with a pair of snowflowers. ') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22833,   1,   33558161) /* Setup */
+     , (22833,   8,  100673922) /* Icon */;

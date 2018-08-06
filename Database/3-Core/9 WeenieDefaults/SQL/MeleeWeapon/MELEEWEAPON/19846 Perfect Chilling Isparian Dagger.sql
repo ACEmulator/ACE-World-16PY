@@ -1,67 +1,63 @@
-/* Weenie - Perfect Chilling Isparian Dagger (19846) */
-DELETE FROM weenie WHERE class_Id = 19846;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19846, 'daggerisparianperfectshiveringminor', 6 /* MeleeWeapon_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19846, 001 /* NAME_STRING */, 'Perfect Chilling Isparian Dagger');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19846, 001 /* SETUP_DID */, 33557740)
-     , (19846, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (19846, 006 /* PALETTE_BASE_DID */, 67111919)
-     , (19846, 007 /* CLOTHINGBASE_DID */, 268436378)
-     , (19846, 008 /* ICON_DID */, 100673029)
-     , (19846, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
-     , (19846, 037 /* ITEM_SKILL_LIMIT_DID */, 4);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('19846', 'daggerisparianperfectshiveringminor', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19846, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
-     , (19846, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
-     , (19846, 005 /* ENCUMB_VAL_INT */, 120)
-     , (19846, 008 /* MASS_INT */, 100)
-     , (19846, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
-     , (19846, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
-     , (19846, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
-     , (19846, 019 /* VALUE_INT */, 8000)
-     , (19846, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
-     , (19846, 036 /* RESIST_MAGIC_INT */, 9999)
-     , (19846, 044 /* DAMAGE_INT */, 15)
-     , (19846, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
-     , (19846, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (19846, 047 /* ATTACK_TYPE_INT */, 6 /* Thrust_AttackType, Slash_AttackType */)
-     , (19846, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
-     , (19846, 049 /* WEAPON_TIME_INT */, 12)
-     , (19846, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
-     , (19846, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (19846, 106 /* ITEM_SPELLCRAFT_INT */, 100)
-     , (19846, 107 /* ITEM_CUR_MANA_INT */, 1200)
-     , (19846, 108 /* ITEM_MAX_MANA_INT */, 1200)
-     , (19846, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 325)
-     , (19846, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (19846, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (19846, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
-     , (19846, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
-     , (19846, 160 /* WIELD_DIFFICULTY_INT */, 50);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19846, 005 /* MANA_RATE_FLOAT */, -0.1)
-     , (19846, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
-     , (19846, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
-     , (19846, 029 /* WEAPON_DEFENSE_FLOAT */, 1.1)
-     , (19846, 039 /* DEFAULT_SCALE_FLOAT */, 1)
-     , (19846, 062 /* WEAPON_OFFENSE_FLOAT */, 1.1);
+VALUES (19846,   1,          1) /* ItemType - MeleeWeapon */
+     , (19846,   3,          2) /* PaletteTemplate - Blue */
+     , (19846,   5,        120) /* EncumbranceVal */
+     , (19846,   8,        100) /* Mass */
+     , (19846,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (19846,  16,          1) /* ItemUseable - No */
+     , (19846,  18,          1) /* UiEffects - Magical */
+     , (19846,  19,       8000) /* Value */
+     , (19846,  33,          1) /* Bonded - Bonded */
+     , (19846,  36,       9999) /* ResistMagic */
+     , (19846,  44,         15) /* Damage */
+     , (19846,  45,          8) /* DamageType - Cold */
+     , (19846,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (19846,  47,          6) /* AttackType */
+     , (19846,  48,          4) /* WeaponSkill - Dagger */
+     , (19846,  49,         12) /* WeaponTime */
+     , (19846,  51,          1) /* CombatUse - Melee */
+     , (19846,  93,       1044) /* PhysicsState */
+     , (19846, 106,        100) /* ItemSpellcraft */
+     , (19846, 107,       1200) /* ItemCurMana */
+     , (19846, 108,       1200) /* ItemMaxMana */
+     , (19846, 115,        325) /* ItemSkillLevelLimit */
+     , (19846, 150,        103) /* HookPlacement - Hook */
+     , (19846, 151,          2) /* HookType - Wall */
+     , (19846, 158,          7) /* WieldRequirements - Level */
+     , (19846, 159,          1) /* WieldSkilltype - Axe */
+     , (19846, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19846, 022 /* INSCRIBABLE_BOOL */, True)
-     , (19846, 023 /* DESTROY_ON_SELL_BOOL */, True)
-     , (19846, 069 /* IS_SELLABLE_BOOL */, False);
+VALUES (19846,  22, True ) /* Inscribable */
+     , (19846,  23, True ) /* DestroyOnSell */
+     , (19846,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19846,   5,    -0.1) /* ManaRate */
+     , (19846,  21,     0.4) /* WeaponLength */
+     , (19846,  22,     0.5) /* DamageVariance */
+     , (19846,  29,     1.1) /* WeaponDefense */
+     , (19846,  39,       1) /* DefaultScale */
+     , (19846,  62,     1.1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19846,   1, 'Perfect Chilling Isparian Dagger') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19846,   1,   33557740) /* Setup */
+     , (19846,   3,  536870932) /* SoundTable */
+     , (19846,   6,   67111919) /* PaletteBase */
+     , (19846,   7,  268436378) /* ClothingBase */
+     , (19846,   8,  100673029) /* Icon */
+     , (19846,  22,  872415275) /* PhysicsEffectTable */
+     , (19846,  37,          4) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19846, 2689, 2) /* ModerateDaggerAptitude_SpellID */
-     , (19846, 1033, 2) /* ColdProtectionSelf4_SpellID */
-     , (19846, 1592, 2) /* HeartSeeker6_SpellID */
-     , (19846, 1616, 2) /* BloodDrinker6_SpellID */
-     , (19846, 1375, 2) /* CoordinationSelf3_SpellID */;
-
+VALUES (19846,  1033,      2)  /* Cold Protection Self IV */
+     , (19846,  1375,      2)  /* Coordination Self III */
+     , (19846,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (19846,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (19846,  2689,      2)  /* Moderate Finesse Weapon Aptitude */;

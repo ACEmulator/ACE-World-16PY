@@ -1,38 +1,35 @@
-/* Weenie - Handbook of the Bestowers' Guild (9595) */
-DELETE FROM weenie WHERE class_Id = 9595;
-
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9595, 'bookbestower', 8 /* Book_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9595, 001 /* NAME_STRING */, 'Handbook of the Bestowers'' Guild')
-     , (9595, 014 /* USE_STRING */, 'Use this item to read it.')
-     , (9595, 015 /* SHORT_DESC_STRING */, 'The handbook of the Bestowers'' Guild.')
-     , (9595, 016 /* LONG_DESC_STRING */, 'The handbook of the Bestowers'' Guild.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9595, 001 /* SETUP_DID */, 33554773)
-     , (9595, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (9595, 008 /* ICON_DID */, 100668176)
-     , (9595, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('9595', 'bookbestower', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9595, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
-     , (9595, 005 /* ENCUMB_VAL_INT */, 5)
-     , (9595, 008 /* MASS_INT */, 5)
-     , (9595, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
-     , (9595, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
-     , (9595, 019 /* VALUE_INT */, 5)
-     , (9595, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9595, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
+VALUES (9595,   1,       8192) /* ItemType - Writable */
+     , (9595,   5,          5) /* EncumbranceVal */
+     , (9595,   8,          5) /* Mass */
+     , (9595,   9,          0) /* ValidLocations - None */
+     , (9595,  16,          8) /* ItemUseable - Contained */
+     , (9595,  19,          5) /* Value */
+     , (9595,  93,       1044) /* PhysicsState */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9595, 022 /* INSCRIBABLE_BOOL */, False);
+VALUES (9595,  22, False) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9595,  39,    1.22) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9595,   1, 'Handbook of the Bestowers'' Guild') /* Name */
+     , (9595,  14, 'Use this item to read it.') /* Use */
+     , (9595,  15, 'The handbook of the Bestowers'' Guild.') /* ShortDesc */
+     , (9595,  16, 'The handbook of the Bestowers'' Guild.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9595,   1,   33554773) /* Setup */
+     , (9595,   3,  536870932) /* SoundTable */
+     , (9595,   8,  100668176) /* Icon */
+     , (9595,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (9595, 5, 1000) /* Book Data */;
+VALUES (9595, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (9595, 0, 4294967295, '', 'prewritten', False, '-----------------------------------------------------------
@@ -91,4 +88,3 @@ If you are sufficiently advanced with the skill in question, you should have no 
 ')
      , (9595, 4, 4294967295, '', 'prewritten', False, 'A person can only hold one title at a time, and a person can only be bestowed a title once.  So be careful before you decide which title you pursue!
 ');
-
