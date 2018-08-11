@@ -15,7 +15,7 @@ VALUES (25678,   1,        128) /* ItemType - Misc */
      , (25678,  19,          0) /* Value */
      , (25678,  33,          1) /* Bonded - Bonded */
      , (25678,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25678,  94,         32) /* TargetType - Shreth */
+     , (25678,  94,         32) /* TargetType - Food */
      , (25678, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -15,7 +15,7 @@ VALUES (28871,   1,        128) /* ItemType - Misc */
      , (28871,  19,          0) /* Value */
      , (28871,  33,          0) /* Bonded - Normal */
      , (28871,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28871,  94,        128) /* TargetType - 128 */
+     , (28871,  94,        128) /* TargetType - Misc */
      , (28871, 114,          0) /* Attuned - Normal */
      , (28871, 150,        103) /* HookPlacement - Hook */
      , (28871, 151,          1) /* HookType - Floor */;

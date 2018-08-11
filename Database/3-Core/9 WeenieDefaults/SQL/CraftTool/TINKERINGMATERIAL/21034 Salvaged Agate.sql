@@ -17,7 +17,7 @@ VALUES (21034,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21034,  33,          1) /* Bonded - Bonded */
      , (21034,  91,        100) /* MaxStructure */
      , (21034,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21034,  94,          8) /* TargetType - Tusker */
+     , (21034,  94,          8) /* TargetType - Jewelry */
      , (21034, 131,         10) /* MaterialType - Agate */
      , (21034, 150,        103) /* HookPlacement - Hook */
      , (21034, 151,          9) /* HookType - Floor, Yard */;

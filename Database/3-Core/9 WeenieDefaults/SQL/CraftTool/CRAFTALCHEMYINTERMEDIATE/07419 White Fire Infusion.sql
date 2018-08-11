@@ -16,7 +16,7 @@ VALUES (7419,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (7419,  19,       1500) /* Value */
      , (7419,  33,          1) /* Bonded - Bonded */
      , (7419,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7419,  94,          1) /* TargetType - Olthoi */
+     , (7419,  94,          1) /* TargetType - MeleeWeapon */
      , (7419, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

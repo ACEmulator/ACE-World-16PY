@@ -9,7 +9,7 @@ VALUES (2435,   1,     524288) /* ItemType - ManaStone */
      , (2435,  16,     655368) /* ItemUseable - SourceContainedTargetSelfOrContained */
      , (2435,  19,       1000) /* Value */
      , (2435,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2435,  94,      35103) /* TargetType - 35103 */
+     , (2435,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
      , (2435, 150,        103) /* HookPlacement - Hook */
      , (2435, 151,          2) /* HookType - Wall */;
 

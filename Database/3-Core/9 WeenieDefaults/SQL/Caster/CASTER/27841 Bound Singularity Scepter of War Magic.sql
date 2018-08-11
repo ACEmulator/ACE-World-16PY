@@ -13,7 +13,7 @@ VALUES (27841,   1,      32768) /* ItemType - Caster */
      , (27841,  33,          1) /* Bonded - Bonded */
      , (27841,  46,        512) /* DefaultCombatStyle - Magic */
      , (27841,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27841,  94,         16) /* TargetType - Reedshark */
+     , (27841,  94,         16) /* TargetType - Creature */
      , (27841, 106,        200) /* ItemSpellcraft */
      , (27841, 107,       1000) /* ItemCurMana */
      , (27841, 108,       1000) /* ItemMaxMana */

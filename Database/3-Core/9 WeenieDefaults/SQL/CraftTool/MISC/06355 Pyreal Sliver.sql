@@ -15,7 +15,7 @@ VALUES (6355,   1,        128) /* ItemType - Misc */
      , (6355,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6355,  19,         50) /* Value */
      , (6355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6355,  94,        128) /* TargetType - 128 */
+     , (6355,  94,        128) /* TargetType - Misc */
      , (6355, 150,        103) /* HookPlacement - Hook */
      , (6355, 151,          2) /* HookType - Wall */;
 

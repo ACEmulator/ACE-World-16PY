@@ -16,7 +16,7 @@ VALUES (14919,   1,       2048) /* ItemType - Gem */
      , (14919,  19,          0) /* Value */
      , (14919,  33,          1) /* Bonded - Bonded */
      , (14919,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14919,  94,         16) /* TargetType - Reedshark */
+     , (14919,  94,         16) /* TargetType - Creature */
      , (14919, 106,         90) /* ItemSpellcraft */
      , (14919, 107,         50) /* ItemCurMana */
      , (14919, 108,         50) /* ItemMaxMana */

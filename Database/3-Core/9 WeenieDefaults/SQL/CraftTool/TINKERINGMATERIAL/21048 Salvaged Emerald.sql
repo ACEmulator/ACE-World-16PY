@@ -17,7 +17,7 @@ VALUES (21048,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21048,  33,          1) /* Bonded - Bonded */
      , (21048,  91,        100) /* MaxStructure */
      , (21048,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21048,  94,      33025) /* TargetType - 33025 */
+     , (21048,  94,      33025) /* TargetType - WeaponOrCaster */
      , (21048, 131,         21) /* MaterialType - Emerald */
      , (21048, 150,        103) /* HookPlacement - Hook */
      , (21048, 151,          9) /* HookType - Floor, Yard */;

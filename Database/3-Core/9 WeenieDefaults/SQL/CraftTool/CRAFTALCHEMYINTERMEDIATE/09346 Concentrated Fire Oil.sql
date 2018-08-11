@@ -16,7 +16,7 @@ VALUES (9346,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (9346,  19,        750) /* Value */
      , (9346,  33,          1) /* Bonded - Bonded */
      , (9346,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9346,  94,  134218784) /* TargetType - 134218784 */
+     , (9346,  94,  134218784) /* TargetType - Food, Useless, CraftFletchingIntermediate */
      , (9346, 150,        103) /* HookPlacement - Hook */
      , (9346, 151,         11) /* HookType - Floor, Wall, Yard */;
 

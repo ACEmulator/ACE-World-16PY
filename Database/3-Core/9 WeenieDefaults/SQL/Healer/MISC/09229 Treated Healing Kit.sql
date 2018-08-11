@@ -13,7 +13,7 @@ VALUES (9229,   1,        128) /* ItemType - Misc */
      , (9229,  91,         50) /* MaxStructure */
      , (9229,  92,         50) /* Structure */
      , (9229,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9229,  94,         16) /* TargetType - Reedshark */;
+     , (9229,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9229,  22, True ) /* Inscribable */;

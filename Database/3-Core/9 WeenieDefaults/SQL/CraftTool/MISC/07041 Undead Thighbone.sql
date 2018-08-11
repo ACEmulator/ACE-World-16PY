@@ -14,7 +14,7 @@ VALUES (7041,   1,        128) /* ItemType - Misc */
      , (7041,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7041,  19,          0) /* Value */
      , (7041,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7041,  94,        128) /* TargetType - 128 */
+     , (7041,  94,        128) /* TargetType - Misc */
      , (7041, 150,        103) /* HookPlacement - Hook */
      , (7041, 151,          9) /* HookType - Floor, Yard */;
 

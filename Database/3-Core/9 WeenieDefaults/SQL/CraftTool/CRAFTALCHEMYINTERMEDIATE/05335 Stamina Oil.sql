@@ -15,7 +15,7 @@ VALUES (5335,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5335,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5335,  19,         10) /* Value */
      , (5335,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5335,  94,    3013615) /* TargetType - 3013615 */;
+     , (5335,  94,    3013615) /* TargetType - Item */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5335,  69, False) /* IsSellable */;

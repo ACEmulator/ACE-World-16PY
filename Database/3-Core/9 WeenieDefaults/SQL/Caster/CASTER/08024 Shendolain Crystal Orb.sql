@@ -12,7 +12,7 @@ VALUES (8024,   1,      32768) /* ItemType - Caster */
      , (8024,  19,       4000) /* Value */
      , (8024,  46,        512) /* DefaultCombatStyle - Magic */
      , (8024,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (8024,  94,         16) /* TargetType - Reedshark */
+     , (8024,  94,         16) /* TargetType - Creature */
      , (8024, 106,        250) /* ItemSpellcraft */
      , (8024, 107,        300) /* ItemCurMana */
      , (8024, 108,       2000) /* ItemMaxMana */

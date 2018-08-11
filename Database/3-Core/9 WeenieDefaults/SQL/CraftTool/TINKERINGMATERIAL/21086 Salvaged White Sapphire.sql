@@ -17,7 +17,7 @@ VALUES (21086,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21086,  33,          1) /* Bonded - Bonded */
      , (21086,  91,        100) /* MaxStructure */
      , (21086,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21086,  94,      33025) /* TargetType - 33025 */
+     , (21086,  94,      33025) /* TargetType - WeaponOrCaster */
      , (21086, 131,         47) /* MaterialType - WhiteSapphire */
      , (21086, 150,        103) /* HookPlacement - Hook */
      , (21086, 151,          9) /* HookType - Floor, Yard */;

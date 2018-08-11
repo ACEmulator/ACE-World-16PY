@@ -15,7 +15,7 @@ VALUES (4913,   1,       2048) /* ItemType - Gem */
      , (4913,  16,          8) /* ItemUseable - Contained */
      , (4913,  19,          0) /* Value */
      , (4913,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4913,  94,         16) /* TargetType - Reedshark */
+     , (4913,  94,         16) /* TargetType - Creature */
      , (4913, 106,         90) /* ItemSpellcraft */
      , (4913, 107,         50) /* ItemCurMana */
      , (4913, 108,         50) /* ItemMaxMana */

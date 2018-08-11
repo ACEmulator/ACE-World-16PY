@@ -12,7 +12,7 @@ VALUES (8746,   1,      32768) /* ItemType - Caster */
      , (8746,  19,          1) /* Value */
      , (8746,  46,        512) /* DefaultCombatStyle - Magic */
      , (8746,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8746,  94,         16) /* TargetType - Reedshark */
+     , (8746,  94,         16) /* TargetType - Creature */
      , (8746, 106,        150) /* ItemSpellcraft */
      , (8746, 107,        600) /* ItemCurMana */
      , (8746, 108,        600) /* ItemMaxMana */

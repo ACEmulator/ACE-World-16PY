@@ -15,7 +15,7 @@ VALUES (8652,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8652,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8652,  19,        100) /* Value */
      , (8652,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8652,  94,        134) /* TargetType - 134 */
+     , (8652,  94,        134) /* TargetType - Vestements, Misc */
      , (8652, 150,        103) /* HookPlacement - Hook */
      , (8652, 151,          9) /* HookType - Floor, Yard */;
 

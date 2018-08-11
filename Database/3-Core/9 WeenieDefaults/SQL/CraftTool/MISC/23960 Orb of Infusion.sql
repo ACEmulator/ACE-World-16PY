@@ -16,7 +16,7 @@ VALUES (23960,   1,        128) /* ItemType - Misc */
      , (23960,  19,          0) /* Value */
      , (23960,  33,          1) /* Bonded - Bonded */
      , (23960,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23960,  94,        130) /* TargetType - 130 */
+     , (23960,  94,        130) /* TargetType - Armor, Misc */
      , (23960, 114,          1) /* Attuned - Attuned */
      , (23960, 150,        103) /* HookPlacement - Hook */
      , (23960, 151,          2) /* HookType - Wall */;

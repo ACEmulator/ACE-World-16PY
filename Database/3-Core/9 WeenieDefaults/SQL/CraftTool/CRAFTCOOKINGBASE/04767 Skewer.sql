@@ -14,7 +14,7 @@ VALUES (4767,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4767,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4767,  19,          2) /* Value */
      , (4767,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4767,  94,    4194336) /* TargetType - 4194336 */
+     , (4767,  94,    4194336) /* TargetType - Food, CraftCookingBase */
      , (4767, 150,        103) /* HookPlacement - Hook */
      , (4767, 151,          2) /* HookType - Wall */;
 

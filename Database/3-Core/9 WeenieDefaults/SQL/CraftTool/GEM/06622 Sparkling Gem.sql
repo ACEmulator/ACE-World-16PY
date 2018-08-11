@@ -15,7 +15,7 @@ VALUES (6622,   1,       2048) /* ItemType - Gem */
      , (6622,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6622,  19,          0) /* Value */
      , (6622,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6622,  94,       2048) /* TargetType - 2048 */
+     , (6622,  94,       2048) /* TargetType - Gem */
      , (6622, 150,        103) /* HookPlacement - Hook */
      , (6622, 151,          2) /* HookType - Wall */;
 

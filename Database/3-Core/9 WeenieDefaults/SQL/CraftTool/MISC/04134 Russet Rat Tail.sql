@@ -15,7 +15,7 @@ VALUES (4134,   1,        128) /* ItemType - Misc */
      , (4134,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4134,  19,          2) /* Value */
      , (4134,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4134,  94,    4194304) /* TargetType - 4194304 */;
+     , (4134,  94,    4194304) /* TargetType - CraftCookingBase */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4134,  22, True ) /* Inscribable */

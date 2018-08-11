@@ -17,7 +17,7 @@ VALUES (21039,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21039,  33,          1) /* Bonded - Bonded */
      , (21039,  91,        100) /* MaxStructure */
      , (21039,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21039,  94,      33025) /* TargetType - 33025 */
+     , (21039,  94,      33025) /* TargetType - WeaponOrCaster */
      , (21039, 131,         15) /* MaterialType - BlackGarnet */
      , (21039, 150,        103) /* HookPlacement - Hook */
      , (21039, 151,          9) /* HookType - Floor, Yard */;

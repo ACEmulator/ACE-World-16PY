@@ -15,7 +15,7 @@ VALUES (9359,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (9359,  19,        250) /* Value */
      , (9359,  33,          1) /* Bonded - Bonded */
      , (9359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9359,  94,  134217728) /* TargetType - 134217728 */;
+     , (9359,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9359,  23, True ) /* DestroyOnSell */;

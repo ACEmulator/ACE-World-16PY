@@ -16,7 +16,7 @@ VALUES (25817,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (25817,  19,          0) /* Value */
      , (25817,  33,          1) /* Bonded - Bonded */
      , (25817,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25817,  94,        134) /* TargetType - 134 */
+     , (25817,  94,        134) /* TargetType - Vestements, Misc */
      , (25817, 150,        103) /* HookPlacement - Hook */
      , (25817, 151,          9) /* HookType - Floor, Yard */;
 

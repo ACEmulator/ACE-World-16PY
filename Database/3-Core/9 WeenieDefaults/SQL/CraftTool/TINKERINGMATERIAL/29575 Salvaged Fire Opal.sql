@@ -18,7 +18,7 @@ VALUES (29575,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (29575,  91,        100) /* MaxStructure */
      , (29575,  92,        100) /* Structure */
      , (29575,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29575,  94,      33025) /* TargetType - 33025 */
+     , (29575,  94,      33025) /* TargetType - WeaponOrCaster */
      , (29575, 105,        100) /* ItemWorkmanship */
      , (29575, 131,         22) /* MaterialType - FireOpal */
      , (29575, 150,        103) /* HookPlacement - Hook */

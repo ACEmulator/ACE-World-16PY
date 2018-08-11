@@ -14,7 +14,7 @@ VALUES (14796,   1,    4194304) /* ItemType - CraftCookingBase */
      , (14796,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14796,  19,          4) /* Value */
      , (14796,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14796,  94,    4194336) /* TargetType - 4194336 */;
+     , (14796,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14796,  69, False) /* IsSellable */;

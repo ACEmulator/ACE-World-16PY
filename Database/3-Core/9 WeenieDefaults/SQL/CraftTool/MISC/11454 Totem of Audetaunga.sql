@@ -15,7 +15,7 @@ VALUES (11454,   1,        128) /* ItemType - Misc */
      , (11454,  19,          0) /* Value */
      , (11454,  33,          0) /* Bonded - Normal */
      , (11454,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11454,  94,        128) /* TargetType - 128 */
+     , (11454,  94,        128) /* TargetType - Misc */
      , (11454, 114,          0) /* Attuned - Normal */
      , (11454, 150,        103) /* HookPlacement - Hook */
      , (11454, 151,         11) /* HookType - Floor, Wall, Yard */;

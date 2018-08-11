@@ -13,7 +13,7 @@ VALUES (30928,   5,         50) /* EncumbranceVal */
      , (30928,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (30928,  19,          0) /* Value */
      , (30928,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30928,  94,       8192) /* TargetType - 8192 */;
+     , (30928,  94,       8192) /* TargetType - Writable */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30928,  22, True ) /* Inscribable */;

@@ -14,7 +14,7 @@ VALUES (24683,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (24683,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (24683,  19,         20) /* Value */
      , (24683,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24683,  94,   75497472) /* TargetType - 75497472 */
+     , (24683,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */
      , (24683, 150,        103) /* HookPlacement - Hook */
      , (24683, 151,         11) /* HookType - Floor, Wall, Yard */;
 

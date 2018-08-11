@@ -15,7 +15,7 @@ VALUES (30809,   1,       2048) /* ItemType - Gem */
      , (30809,  19,       5000) /* Value */
      , (30809,  33,          0) /* Bonded - Normal */
      , (30809,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (30809,  94,         16) /* TargetType - Reedshark */
+     , (30809,  94,         16) /* TargetType - Creature */
      , (30809, 106,        210) /* ItemSpellcraft */
      , (30809, 107,         50) /* ItemCurMana */
      , (30809, 108,         50) /* ItemMaxMana */

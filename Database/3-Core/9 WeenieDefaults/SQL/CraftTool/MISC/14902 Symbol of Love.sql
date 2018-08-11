@@ -15,7 +15,7 @@ VALUES (14902,   1,        128) /* ItemType - Misc */
      , (14902,  19,          1) /* Value */
      , (14902,  33,          1) /* Bonded - Bonded */
      , (14902,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14902,  94,        128) /* TargetType - 128 */
+     , (14902,  94,        128) /* TargetType - Misc */
      , (14902, 150,        103) /* HookPlacement - Hook */
      , (14902, 151,          2) /* HookType - Wall */;
 

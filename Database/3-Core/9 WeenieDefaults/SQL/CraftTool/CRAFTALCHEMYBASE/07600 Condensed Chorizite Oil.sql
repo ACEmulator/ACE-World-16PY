@@ -16,7 +16,7 @@ VALUES (7600,   1,    8388608) /* ItemType - CraftAlchemyBase */
      , (7600,  19,          0) /* Value */
      , (7600,  33,          1) /* Bonded - Bonded */
      , (7600,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7600,  94,   75497472) /* TargetType - 75497472 */
+     , (7600,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */
      , (7600, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

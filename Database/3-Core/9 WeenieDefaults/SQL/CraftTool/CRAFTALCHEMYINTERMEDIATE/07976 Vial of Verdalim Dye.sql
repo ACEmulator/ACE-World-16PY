@@ -15,7 +15,7 @@ VALUES (7976,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (7976,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7976,  19,         10) /* Value */
      , (7976,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7976,  94,    4194304) /* TargetType - 4194304 */
+     , (7976,  94,    4194304) /* TargetType - CraftCookingBase */
      , (7976, 150,        103) /* HookPlacement - Hook */
      , (7976, 151,          9) /* HookType - Floor, Yard */;
 

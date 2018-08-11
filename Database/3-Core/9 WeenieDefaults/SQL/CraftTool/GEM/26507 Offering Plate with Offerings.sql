@@ -16,7 +16,7 @@ VALUES (26507,   1,       2048) /* ItemType - Gem */
      , (26507,  19,          0) /* Value */
      , (26507,  33,          1) /* Bonded - Bonded */
      , (26507,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (26507,  94,       2048) /* TargetType - 2048 */
+     , (26507,  94,       2048) /* TargetType - Gem */
      , (26507, 114,          1) /* Attuned - Attuned */
      , (26507, 150,        103) /* HookPlacement - Hook */
      , (26507, 151,          2) /* HookType - Wall */;

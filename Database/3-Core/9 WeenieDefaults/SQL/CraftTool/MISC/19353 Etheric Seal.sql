@@ -13,7 +13,7 @@ VALUES (19353,   1,        128) /* ItemType - Misc */
      , (19353,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (19353,  19,          0) /* Value */
      , (19353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (19353,  94,        128) /* TargetType - 128 */;
+     , (19353,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19353,  22, True ) /* Inscribable */

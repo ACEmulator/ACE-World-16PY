@@ -18,7 +18,7 @@ VALUES (29573,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (29573,  91,        100) /* MaxStructure */
      , (29573,  92,        100) /* Structure */
      , (29573,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29573,  94,      33025) /* TargetType - 33025 */
+     , (29573,  94,      33025) /* TargetType - WeaponOrCaster */
      , (29573, 105,        100) /* ItemWorkmanship */
      , (29573, 131,         16) /* MaterialType - BlackOpal */
      , (29573, 150,        103) /* HookPlacement - Hook */

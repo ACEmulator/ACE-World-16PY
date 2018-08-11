@@ -16,7 +16,7 @@ VALUES (20023,   1,        128) /* ItemType - Misc */
      , (20023,  19,      15000) /* Value */
      , (20023,  33,          0) /* Bonded - Normal */
      , (20023,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20023,  94,      33153) /* TargetType - 33153 */
+     , (20023,  94,      33153) /* TargetType - Misc, WeaponOrCaster */
      , (20023, 114,          0) /* Attuned - Normal */
      , (20023, 150,        103) /* HookPlacement - Hook */
      , (20023, 151,          2) /* HookType - Wall */;

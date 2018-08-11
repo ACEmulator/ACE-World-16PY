@@ -15,7 +15,7 @@ VALUES (8716,   1,       2048) /* ItemType - Gem */
      , (8716,  19,          1) /* Value */
      , (8716,  33,          1) /* Bonded - Bonded */
      , (8716,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8716,  94,       8192) /* TargetType - 8192 */
+     , (8716,  94,       8192) /* TargetType - Writable */
      , (8716, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

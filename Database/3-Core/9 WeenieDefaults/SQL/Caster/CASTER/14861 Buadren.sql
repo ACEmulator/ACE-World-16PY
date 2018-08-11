@@ -12,7 +12,7 @@ VALUES (14861,   1,      32768) /* ItemType - Caster */
      , (14861,  33,          1) /* Bonded - Bonded */
      , (14861,  46,        512) /* DefaultCombatStyle - Magic */
      , (14861,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14861,  94,         16) /* TargetType - Reedshark */
+     , (14861,  94,         16) /* TargetType - Creature */
      , (14861, 150,        103) /* HookPlacement - Hook */
      , (14861, 151,          3) /* HookType - Floor, Wall */;
 

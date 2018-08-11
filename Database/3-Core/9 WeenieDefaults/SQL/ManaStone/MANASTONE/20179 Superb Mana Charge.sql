@@ -10,7 +10,7 @@ VALUES (20179,   1,     524288) /* ItemType - ManaStone */
      , (20179,  18,          1) /* UiEffects - Magical */
      , (20179,  19,      12000) /* Value */
      , (20179,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20179,  94,      35103) /* TargetType - 35103 */
+     , (20179,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
      , (20179, 107,       2000) /* ItemCurMana */
      , (20179, 108,       2000) /* ItemMaxMana */
      , (20179, 150,        103) /* HookPlacement - Hook */

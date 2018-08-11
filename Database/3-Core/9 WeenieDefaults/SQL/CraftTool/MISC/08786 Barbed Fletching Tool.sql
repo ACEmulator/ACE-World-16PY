@@ -15,7 +15,7 @@ VALUES (8786,   1,        128) /* ItemType - Misc */
      , (8786,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8786,  19,       2000) /* Value */
      , (8786,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8786,  94,  134218752) /* TargetType - 134218752 */
+     , (8786,  94,  134218752) /* TargetType - Useless, CraftFletchingIntermediate */
      , (8786, 150,        104) /* HookPlacement - XXXUnknown68 */
      , (8786, 151,          2) /* HookType - Wall */;
 

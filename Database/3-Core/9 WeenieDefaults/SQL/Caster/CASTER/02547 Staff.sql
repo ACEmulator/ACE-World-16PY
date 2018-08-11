@@ -11,7 +11,7 @@ VALUES (2547,   1,      32768) /* ItemType - Caster */
      , (2547,  19,        200) /* Value */
      , (2547,  46,        512) /* DefaultCombatStyle - Magic */
      , (2547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2547,  94,         16) /* TargetType - Reedshark */
+     , (2547,  94,         16) /* TargetType - Creature */
      , (2547, 150,        103) /* HookPlacement - Hook */
      , (2547, 151,          2) /* HookType - Wall */
      , (2547, 169,   84281347) /* TsysMutationData */;

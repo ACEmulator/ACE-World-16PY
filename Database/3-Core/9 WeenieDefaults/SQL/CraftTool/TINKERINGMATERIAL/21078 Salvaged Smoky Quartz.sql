@@ -17,7 +17,7 @@ VALUES (21078,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21078,  33,          1) /* Bonded - Bonded */
      , (21078,  91,        100) /* MaxStructure */
      , (21078,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21078,  94,          8) /* TargetType - Tusker */
+     , (21078,  94,          8) /* TargetType - Jewelry */
      , (21078, 131,         40) /* MaterialType - SmokeyQuartz */
      , (21078, 150,        103) /* HookPlacement - Hook */
      , (21078, 151,          9) /* HookType - Floor, Yard */;

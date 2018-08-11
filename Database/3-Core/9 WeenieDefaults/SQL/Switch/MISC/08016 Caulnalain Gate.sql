@@ -8,7 +8,7 @@ VALUES (8016,   1,        128) /* ItemType - Misc */
      , (8016,  16,         48) /* ItemUseable - ViewedRemote */
      , (8016,  19,        200) /* Value */
      , (8016,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (8016,  94,        128) /* TargetType - 128 */;
+     , (8016,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8016,   1, True ) /* Stuck */

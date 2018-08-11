@@ -18,7 +18,7 @@ VALUES (29581,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (29581,  91,        100) /* MaxStructure */
      , (29581,  92,        100) /* Structure */
      , (29581,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29581,  94,          2) /* TargetType - Banderling */
+     , (29581,  94,          2) /* TargetType - Armor */
      , (29581, 105,        100) /* ItemWorkmanship */
      , (29581, 131,         64) /* MaterialType - Steel */
      , (29581, 150,        103) /* HookPlacement - Hook */

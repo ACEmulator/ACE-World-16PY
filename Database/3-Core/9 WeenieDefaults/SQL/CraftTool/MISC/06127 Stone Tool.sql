@@ -14,7 +14,7 @@ VALUES (6127,   1,        128) /* ItemType - Misc */
      , (6127,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6127,  19,       5000) /* Value */
      , (6127,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6127,  94,          3) /* TargetType - Drudge */;
+     , (6127,  94,          3) /* TargetType - MeleeWeapon, Armor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6127,  22, True ) /* Inscribable */

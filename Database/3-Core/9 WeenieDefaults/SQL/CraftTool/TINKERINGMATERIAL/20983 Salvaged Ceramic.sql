@@ -17,7 +17,7 @@ VALUES (20983,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (20983,  33,          1) /* Bonded - Bonded */
      , (20983,  91,        100) /* MaxStructure */
      , (20983,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20983,  94,          2) /* TargetType - Banderling */
+     , (20983,  94,          2) /* TargetType - Armor */
      , (20983, 131,          1) /* MaterialType - Ceramic */
      , (20983, 150,        103) /* HookPlacement - Hook */
      , (20983, 151,          9) /* HookType - Floor, Yard */;

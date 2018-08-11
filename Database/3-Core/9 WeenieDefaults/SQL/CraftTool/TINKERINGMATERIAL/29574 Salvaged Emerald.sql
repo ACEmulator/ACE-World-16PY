@@ -18,7 +18,7 @@ VALUES (29574,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (29574,  91,        100) /* MaxStructure */
      , (29574,  92,        100) /* Structure */
      , (29574,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29574,  94,      33025) /* TargetType - 33025 */
+     , (29574,  94,      33025) /* TargetType - WeaponOrCaster */
      , (29574, 105,        100) /* ItemWorkmanship */
      , (29574, 131,         21) /* MaterialType - Emerald */
      , (29574, 150,        103) /* HookPlacement - Hook */

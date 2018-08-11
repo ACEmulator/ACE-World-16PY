@@ -16,7 +16,7 @@ VALUES (23361,   1,    8388608) /* ItemType - CraftAlchemyBase */
      , (23361,  19,         50) /* Value */
      , (23361,  33,          1) /* Bonded - Bonded */
      , (23361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23361,  94,        128) /* TargetType - 128 */
+     , (23361,  94,        128) /* TargetType - Misc */
      , (23361, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

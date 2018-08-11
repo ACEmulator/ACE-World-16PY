@@ -15,7 +15,7 @@ VALUES (5802,   1,         32) /* ItemType - Food */
      , (5802,  18,          2) /* UiEffects - Poisoned */
      , (5802,  19,        125) /* Value */
      , (5802,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5802,  94,         16) /* TargetType - Reedshark */
+     , (5802,  94,         16) /* TargetType - Creature */
      , (5802, 106,         50) /* ItemSpellcraft */
      , (5802, 107,         50) /* ItemCurMana */
      , (5802, 108,         50) /* ItemMaxMana */

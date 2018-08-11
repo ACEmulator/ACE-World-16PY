@@ -18,7 +18,7 @@ VALUES (29579,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (29579,  91,        100) /* MaxStructure */
      , (29579,  92,        100) /* Structure */
      , (29579,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29579,  94,        256) /* TargetType - 256 */
+     , (29579,  94,        256) /* TargetType - MissileWeapon */
      , (29579, 105,        100) /* ItemWorkmanship */
      , (29579, 131,         74) /* MaterialType - Mahogany */
      , (29579, 150,        103) /* HookPlacement - Hook */

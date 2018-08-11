@@ -12,7 +12,7 @@ VALUES (9155,   1,      32768) /* ItemType - Caster */
      , (9155,  19,          1) /* Value */
      , (9155,  46,        512) /* DefaultCombatStyle - Magic */
      , (9155,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9155,  94,         16) /* TargetType - Reedshark */
+     , (9155,  94,         16) /* TargetType - Creature */
      , (9155, 106,        150) /* ItemSpellcraft */
      , (9155, 107,        600) /* ItemCurMana */
      , (9155, 108,        600) /* ItemMaxMana */

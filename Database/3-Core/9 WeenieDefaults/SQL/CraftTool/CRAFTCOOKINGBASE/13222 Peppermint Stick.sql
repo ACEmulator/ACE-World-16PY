@@ -14,7 +14,7 @@ VALUES (13222,   1,    4194304) /* ItemType - CraftCookingBase */
      , (13222,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (13222,  19,         14) /* Value */
      , (13222,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (13222,  94,    4194464) /* TargetType - 4194464 */
+     , (13222,  94,    4194464) /* TargetType - Food, Misc, CraftCookingBase */
      , (13222, 150,        103) /* HookPlacement - Hook */
      , (13222, 151,          9) /* HookType - Floor, Yard */;
 

@@ -17,7 +17,7 @@ VALUES (20991,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (20991,  33,          1) /* Bonded - Bonded */
      , (20991,  91,        100) /* MaxStructure */
      , (20991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20991,  94,          2) /* TargetType - Banderling */
+     , (20991,  94,          2) /* TargetType - Armor */
      , (20991, 131,         55) /* MaterialType - ReedSharkHide */
      , (20991, 150,        103) /* HookPlacement - Hook */
      , (20991, 151,          9) /* HookType - Floor, Yard */;

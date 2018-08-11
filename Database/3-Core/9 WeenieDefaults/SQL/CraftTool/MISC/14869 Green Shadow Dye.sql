@@ -16,7 +16,7 @@ VALUES (14869,   1,        128) /* ItemType - Misc */
      , (14869,  19,      10000) /* Value */
      , (14869,  33,          1) /* Bonded - Bonded */
      , (14869,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14869,  94,          3) /* TargetType - Drudge */
+     , (14869,  94,          3) /* TargetType - MeleeWeapon, Armor */
      , (14869, 150,        103) /* HookPlacement - Hook */
      , (14869, 151,          9) /* HookType - Floor, Yard */;
 

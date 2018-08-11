@@ -17,7 +17,7 @@ VALUES (21070,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21070,  33,          1) /* Bonded - Bonded */
      , (21070,  91,        100) /* MaxStructure */
      , (21070,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21070,  94,          8) /* TargetType - Tusker */
+     , (21070,  94,          8) /* TargetType - Jewelry */
      , (21070, 131,         36) /* MaterialType - RedJade */
      , (21070, 150,        103) /* HookPlacement - Hook */
      , (21070, 151,          9) /* HookType - Floor, Yard */;

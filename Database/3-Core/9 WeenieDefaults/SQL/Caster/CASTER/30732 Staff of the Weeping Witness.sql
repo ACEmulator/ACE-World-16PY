@@ -12,7 +12,7 @@ VALUES (30732,   1,      32768) /* ItemType - Caster */
      , (30732,  19,       4301) /* Value */
      , (30732,  46,        512) /* DefaultCombatStyle - Magic */
      , (30732,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30732,  94,         16) /* TargetType - Reedshark */
+     , (30732,  94,         16) /* TargetType - Creature */
      , (30732, 106,        467) /* ItemSpellcraft */
      , (30732, 107,        367) /* ItemCurMana */
      , (30732, 108,        367) /* ItemMaxMana */

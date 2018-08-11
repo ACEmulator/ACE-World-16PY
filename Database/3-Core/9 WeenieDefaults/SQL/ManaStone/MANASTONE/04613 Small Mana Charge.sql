@@ -10,7 +10,7 @@ VALUES (4613,   1,     524288) /* ItemType - ManaStone */
      , (4613,  18,          1) /* UiEffects - Magical */
      , (4613,  19,        650) /* Value */
      , (4613,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4613,  94,      35103) /* TargetType - 35103 */
+     , (4613,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
      , (4613, 107,        175) /* ItemCurMana */
      , (4613, 108,        175) /* ItemMaxMana */
      , (4613, 150,        103) /* HookPlacement - Hook */

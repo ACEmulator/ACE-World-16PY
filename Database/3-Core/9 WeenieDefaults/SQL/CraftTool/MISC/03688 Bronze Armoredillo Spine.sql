@@ -15,7 +15,7 @@ VALUES (3688,   1,        128) /* ItemType - Misc */
      , (3688,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (3688,  19,         50) /* Value */
      , (3688,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3688,  94,          1) /* TargetType - Olthoi */;
+     , (3688,  94,          1) /* TargetType - MeleeWeapon */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3688,  22, True ) /* Inscribable */

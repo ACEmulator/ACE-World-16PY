@@ -16,7 +16,7 @@ VALUES (19483,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (19483,  19,          0) /* Value */
      , (19483,  33,          0) /* Bonded - Normal */
      , (19483,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (19483,  94,       2176) /* TargetType - 2176 */
+     , (19483,  94,       2176) /* TargetType - Misc, Gem */
      , (19483, 114,          0) /* Attuned - Normal */
      , (19483, 150,        103) /* HookPlacement - Hook */
      , (19483, 151,         11) /* HookType - Floor, Wall, Yard */;

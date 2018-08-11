@@ -15,7 +15,7 @@ VALUES (29553,   1,       2048) /* ItemType - Gem */
      , (29553,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29553,  19,          0) /* Value */
      , (29553,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29553,  94,       2049) /* TargetType - 2049 */
+     , (29553,  94,       2049) /* TargetType - MeleeWeapon, Gem */
      , (29553, 150,        103) /* HookPlacement - Hook */
      , (29553, 151,          2) /* HookType - Wall */;
 

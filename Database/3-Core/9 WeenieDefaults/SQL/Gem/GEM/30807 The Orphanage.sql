@@ -15,7 +15,7 @@ VALUES (30807,   1,       2048) /* ItemType - Gem */
      , (30807,  16,          8) /* ItemUseable - Contained */
      , (30807,  19,       5000) /* Value */
      , (30807,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (30807,  94,         16) /* TargetType - Reedshark */
+     , (30807,  94,         16) /* TargetType - Creature */
      , (30807, 106,        210) /* ItemSpellcraft */
      , (30807, 107,         50) /* ItemCurMana */
      , (30807, 108,         50) /* ItemMaxMana */

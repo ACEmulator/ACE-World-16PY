@@ -11,7 +11,7 @@ VALUES (9293,   1,      16384) /* ItemType - Key */
      , (9293,  91,          1) /* MaxStructure */
      , (9293,  92,          1) /* Structure */
      , (9293,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9293,  94,        640) /* TargetType - 640 */
+     , (9293,  94,        640) /* TargetType - LockableMagicTarget */
      , (9293, 150,        103) /* HookPlacement - Hook */
      , (9293, 151,          2) /* HookType - Wall */;
 

@@ -15,7 +15,7 @@ VALUES (4750,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (4750,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4750,  19,         20) /* Value */
      , (4750,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4750,  94,  134217760) /* TargetType - 134217760 */
+     , (4750,  94,  134217760) /* TargetType - Food, CraftFletchingIntermediate */
      , (4750, 150,        103) /* HookPlacement - Hook */
      , (4750, 151,         11) /* HookType - Floor, Wall, Yard */;
 

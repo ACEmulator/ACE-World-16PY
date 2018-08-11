@@ -14,7 +14,7 @@ VALUES (7045,   1,        128) /* ItemType - Misc */
      , (7045,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7045,  19,          0) /* Value */
      , (7045,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7045,  94,        128) /* TargetType - 128 */
+     , (7045,  94,        128) /* TargetType - Misc */
      , (7045, 150,        103) /* HookPlacement - Hook */
      , (7045, 151,          2) /* HookType - Wall */;
 

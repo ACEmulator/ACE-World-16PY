@@ -17,7 +17,7 @@ VALUES (21040,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21040,  33,          1) /* Bonded - Bonded */
      , (21040,  91,        100) /* MaxStructure */
      , (21040,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21040,  94,      33025) /* TargetType - 33025 */
+     , (21040,  94,      33025) /* TargetType - WeaponOrCaster */
      , (21040, 131,         16) /* MaterialType - BlackOpal */
      , (21040, 150,        103) /* HookPlacement - Hook */
      , (21040, 151,          9) /* HookType - Floor, Yard */;

@@ -13,7 +13,7 @@ VALUES (13208,   1,        128) /* ItemType - Misc */
      , (13208,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (13208,  19,         41) /* Value */
      , (13208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (13208,  94,         32) /* TargetType - Shreth */
+     , (13208,  94,         32) /* TargetType - Food */
      , (13208, 150,        103) /* HookPlacement - Hook */
      , (13208, 151,          9) /* HookType - Floor, Yard */;
 

@@ -14,7 +14,7 @@ VALUES (14528,   1,       2048) /* ItemType - Gem */
      , (14528,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14528,  19,          0) /* Value */
      , (14528,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14528,  94,       2048) /* TargetType - 2048 */
+     , (14528,  94,       2048) /* TargetType - Gem */
      , (14528, 150,        105) /* HookPlacement - XXXUnknown69 */
      , (14528, 151,          4) /* HookType - Ceiling */;
 

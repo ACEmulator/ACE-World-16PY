@@ -17,7 +17,7 @@ VALUES (21058,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21058,  33,          1) /* Bonded - Bonded */
      , (21058,  91,        100) /* MaxStructure */
      , (21058,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21058,  94,          8) /* TargetType - Tusker */
+     , (21058,  94,          8) /* TargetType - Jewelry */
      , (21058, 131,         29) /* MaterialType - LavenderJade */
      , (21058, 150,        103) /* HookPlacement - Hook */
      , (21058, 151,          9) /* HookType - Floor, Yard */;
