@@ -15,7 +15,7 @@ VALUES (8899,   1,        128) /* ItemType - Misc */
      , (8899,  19,         10) /* Value */
      , (8899,  33,          1) /* Bonded - Bonded */
      , (8899,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8899,  94,          1) /* TargetType - Olthoi */
+     , (8899,  94,          1) /* TargetType - MeleeWeapon */
      , (8899, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

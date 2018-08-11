@@ -16,7 +16,7 @@ VALUES (12261,   1,        128) /* ItemType - Misc */
      , (12261,  19,          0) /* Value */
      , (12261,  33,          1) /* Bonded - Bonded */
      , (12261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12261,  94,        128) /* TargetType - 128 */
+     , (12261,  94,        128) /* TargetType - Misc */
      , (12261, 150,        103) /* HookPlacement - Hook */
      , (12261, 151,          2) /* HookType - Wall */;
 

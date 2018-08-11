@@ -16,7 +16,7 @@ VALUES (9191,   1,       2048) /* ItemType - Gem */
      , (9191,  18,          1) /* UiEffects - Magical */
      , (9191,  19,        100) /* Value */
      , (9191,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9191,  94,         16) /* TargetType - Reedshark */
+     , (9191,  94,         16) /* TargetType - Creature */
      , (9191, 106,        210) /* ItemSpellcraft */
      , (9191, 107,         50) /* ItemCurMana */
      , (9191, 108,        150) /* ItemMaxMana */

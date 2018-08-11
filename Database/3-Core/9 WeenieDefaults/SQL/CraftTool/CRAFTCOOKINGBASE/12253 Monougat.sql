@@ -14,7 +14,7 @@ VALUES (12253,   1,    4194304) /* ItemType - CraftCookingBase */
      , (12253,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (12253,  19,          4) /* Value */
      , (12253,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12253,  94,    4194336) /* TargetType - 4194336 */;
+     , (12253,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12253,   1, 'Monougat') /* Name */

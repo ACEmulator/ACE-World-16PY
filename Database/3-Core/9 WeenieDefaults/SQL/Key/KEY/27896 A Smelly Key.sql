@@ -10,7 +10,7 @@ VALUES (27896,   1,      16384) /* ItemType - Key */
      , (27896,  91,          1) /* MaxStructure */
      , (27896,  92,          1) /* Structure */
      , (27896,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27896,  94,        640) /* TargetType - 640 */;
+     , (27896,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27896,  22, True ) /* Inscribable */

@@ -15,7 +15,7 @@ VALUES (9295,   1,        128) /* ItemType - Misc */
      , (9295,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9295,  19,      10000) /* Value */
      , (9295,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9295,  94,        128) /* TargetType - 128 */
+     , (9295,  94,        128) /* TargetType - Misc */
      , (9295, 150,        103) /* HookPlacement - Hook */
      , (9295, 151,          2) /* HookType - Wall */;
 

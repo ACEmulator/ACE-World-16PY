@@ -18,7 +18,7 @@ VALUES (30260,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30260,  91,        100) /* MaxStructure */
      , (30260,  92,        100) /* Structure */
      , (30260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30260,  94,      33025) /* TargetType - 33025 */
+     , (30260,  94,      33025) /* TargetType - WeaponOrCaster */
      , (30260, 105,        100) /* ItemWorkmanship */
      , (30260, 131,         47) /* MaterialType - WhiteSapphire */
      , (30260, 150,        103) /* HookPlacement - Hook */

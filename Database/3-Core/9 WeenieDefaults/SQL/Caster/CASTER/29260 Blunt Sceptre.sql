@@ -13,7 +13,7 @@ VALUES (29260,   1,      32768) /* ItemType - Caster */
      , (29260,  45,          4) /* DamageType - Bludgeon */
      , (29260,  46,        512) /* DefaultCombatStyle - Magic */
      , (29260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29260,  94,         16) /* TargetType - Reedshark */
+     , (29260,  94,         16) /* TargetType - Creature */
      , (29260, 150,        103) /* HookPlacement - Hook */
      , (29260, 151,          2) /* HookType - Wall */
      , (29260, 158,          2) /* WieldRequirements - RawSkill */

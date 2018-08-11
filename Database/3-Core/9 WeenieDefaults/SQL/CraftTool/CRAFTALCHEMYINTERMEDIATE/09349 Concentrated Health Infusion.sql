@@ -16,7 +16,7 @@ VALUES (9349,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (9349,  19,        500) /* Value */
      , (9349,  33,          1) /* Bonded - Bonded */
      , (9349,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9349,  94,   75498496) /* TargetType - 75498496 */
+     , (9349,  94,   75498496) /* TargetType - Useless, CraftAlchemyBase, CraftAlchemyIntermediate */
      , (9349, 150,        103) /* HookPlacement - Hook */
      , (9349, 151,         11) /* HookType - Floor, Wall, Yard */;
 

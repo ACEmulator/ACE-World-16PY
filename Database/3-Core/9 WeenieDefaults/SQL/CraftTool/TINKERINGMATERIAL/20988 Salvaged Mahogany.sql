@@ -17,7 +17,7 @@ VALUES (20988,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (20988,  33,          1) /* Bonded - Bonded */
      , (20988,  91,        100) /* MaxStructure */
      , (20988,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20988,  94,        256) /* TargetType - 256 */
+     , (20988,  94,        256) /* TargetType - MissileWeapon */
      , (20988, 131,         74) /* MaterialType - Mahogany */
      , (20988, 150,        103) /* HookPlacement - Hook */
      , (20988, 151,          9) /* HookType - Floor, Yard */;

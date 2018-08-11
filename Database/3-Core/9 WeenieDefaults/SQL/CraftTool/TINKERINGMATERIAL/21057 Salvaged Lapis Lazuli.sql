@@ -17,7 +17,7 @@ VALUES (21057,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21057,  33,          1) /* Bonded - Bonded */
      , (21057,  91,        100) /* MaxStructure */
      , (21057,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21057,  94,          8) /* TargetType - Tusker */
+     , (21057,  94,          8) /* TargetType - Jewelry */
      , (21057, 131,         28) /* MaterialType - LapisLazuli */
      , (21057, 150,        103) /* HookPlacement - Hook */
      , (21057, 151,          9) /* HookType - Floor, Yard */;

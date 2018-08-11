@@ -18,7 +18,7 @@ VALUES (29577,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (29577,  91,        100) /* MaxStructure */
      , (29577,  92,        100) /* Structure */
      , (29577,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29577,  94,      33025) /* TargetType - 33025 */
+     , (29577,  94,      33025) /* TargetType - WeaponOrCaster */
      , (29577, 105,        100) /* ItemWorkmanship */
      , (29577, 131,         26) /* MaterialType - ImperialTopaz */
      , (29577, 150,        103) /* HookPlacement - Hook */

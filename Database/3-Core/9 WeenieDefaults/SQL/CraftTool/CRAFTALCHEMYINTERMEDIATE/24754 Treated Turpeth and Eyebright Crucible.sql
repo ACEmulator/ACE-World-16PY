@@ -15,7 +15,7 @@ VALUES (24754,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (24754,  18,          1) /* UiEffects - Magical */
      , (24754,  19,        500) /* Value */
      , (24754,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24754,  94,    4201088) /* TargetType - 4201088 */
+     , (24754,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */
      , (24754, 150,        103) /* HookPlacement - Hook */
      , (24754, 151,          9) /* HookType - Floor, Yard */;
 

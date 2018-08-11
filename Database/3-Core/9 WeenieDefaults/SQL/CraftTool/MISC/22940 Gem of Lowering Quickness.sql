@@ -15,7 +15,7 @@ VALUES (22940,   1,        128) /* ItemType - Misc */
      , (22940,  19,          0) /* Value */
      , (22940,  33,          1) /* Bonded - Bonded */
      , (22940,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22940,  94,        128) /* TargetType - 128 */
+     , (22940,  94,        128) /* TargetType - Misc */
      , (22940, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

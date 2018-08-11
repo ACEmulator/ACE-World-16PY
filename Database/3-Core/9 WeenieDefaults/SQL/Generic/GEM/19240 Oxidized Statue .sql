@@ -10,7 +10,7 @@ VALUES (19240,   1,       2048) /* ItemType - Gem */
      , (19240,  16,          1) /* ItemUseable - No */
      , (19240,  19,      10000) /* Value */
      , (19240,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (19240,  94,         16) /* TargetType - Reedshark */
+     , (19240,  94,         16) /* TargetType - Creature */
      , (19240, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

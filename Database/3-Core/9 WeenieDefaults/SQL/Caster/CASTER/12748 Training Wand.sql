@@ -11,7 +11,7 @@ VALUES (12748,   1,      32768) /* ItemType - Caster */
      , (12748,  19,         25) /* Value */
      , (12748,  46,        512) /* DefaultCombatStyle - Magic */
      , (12748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12748,  94,         16) /* TargetType - Reedshark */
+     , (12748,  94,         16) /* TargetType - Creature */
      , (12748, 150,        103) /* HookPlacement - Hook */
      , (12748, 151,          2) /* HookType - Wall */;
 

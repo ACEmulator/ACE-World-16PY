@@ -17,7 +17,7 @@ VALUES (21044,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21044,  33,          1) /* Bonded - Bonded */
      , (21044,  91,        100) /* MaxStructure */
      , (21044,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21044,  94,          8) /* TargetType - Tusker */
+     , (21044,  94,          8) /* TargetType - Jewelry */
      , (21044, 131,         19) /* MaterialType - Citrine */
      , (21044, 150,        103) /* HookPlacement - Hook */
      , (21044, 151,          9) /* HookType - Floor, Yard */;

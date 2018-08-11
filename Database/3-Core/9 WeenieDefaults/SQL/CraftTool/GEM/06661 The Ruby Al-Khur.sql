@@ -16,7 +16,7 @@ VALUES (6661,   1,       2048) /* ItemType - Gem */
      , (6661,  19,       3400) /* Value */
      , (6661,  33,          1) /* Bonded - Bonded */
      , (6661,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6661,  94,          1) /* TargetType - Olthoi */
+     , (6661,  94,          1) /* TargetType - MeleeWeapon */
      , (6661, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

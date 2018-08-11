@@ -12,7 +12,7 @@ VALUES (11304,   1,      32768) /* ItemType - Caster */
      , (11304,  33,          1) /* Bonded - Bonded */
      , (11304,  46,        512) /* DefaultCombatStyle - Magic */
      , (11304,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11304,  94,         16) /* TargetType - Reedshark */
+     , (11304,  94,         16) /* TargetType - Creature */
      , (11304, 106,        250) /* ItemSpellcraft */
      , (11304, 107,       8544) /* ItemCurMana */
      , (11304, 108,       8544) /* ItemMaxMana */

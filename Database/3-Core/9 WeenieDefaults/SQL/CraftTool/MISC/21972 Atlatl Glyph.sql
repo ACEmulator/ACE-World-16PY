@@ -14,7 +14,7 @@ VALUES (21972,   1,        128) /* ItemType - Misc */
      , (21972,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (21972,  19,       5000) /* Value */
      , (21972,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21972,  94,        128) /* TargetType - 128 */
+     , (21972,  94,        128) /* TargetType - Misc */
      , (21972, 150,        103) /* HookPlacement - Hook */
      , (21972, 151,         11) /* HookType - Floor, Wall, Yard */;
 

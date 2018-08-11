@@ -17,7 +17,7 @@ VALUES (21066,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21066,  33,          1) /* Bonded - Bonded */
      , (21066,  91,        100) /* MaxStructure */
      , (21066,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21066,  94,          2) /* TargetType - Banderling */
+     , (21066,  94,          2) /* TargetType - Armor */
      , (21066, 131,         34) /* MaterialType - Peridot */
      , (21066, 150,        103) /* HookPlacement - Hook */
      , (21066, 151,          9) /* HookType - Floor, Yard */;

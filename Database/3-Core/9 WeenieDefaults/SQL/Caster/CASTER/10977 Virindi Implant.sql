@@ -11,7 +11,7 @@ VALUES (10977,   1,      32768) /* ItemType - Caster */
      , (10977,  19,      11450) /* Value */
      , (10977,  46,        512) /* DefaultCombatStyle - Magic */
      , (10977,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (10977,  94,         16) /* TargetType - Reedshark */
+     , (10977,  94,         16) /* TargetType - Creature */
      , (10977, 106,        270) /* ItemSpellcraft */
      , (10977, 107,        600) /* ItemCurMana */
      , (10977, 108,        600) /* ItemMaxMana */

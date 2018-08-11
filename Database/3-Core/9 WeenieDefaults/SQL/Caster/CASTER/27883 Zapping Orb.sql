@@ -13,7 +13,7 @@ VALUES (27883,   1,      32768) /* ItemType - Caster */
      , (27883,  45,         64) /* DamageType - Electric */
      , (27883,  46,        512) /* DefaultCombatStyle - Magic */
      , (27883,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27883,  94,         16) /* TargetType - Reedshark */
+     , (27883,  94,         16) /* TargetType - Creature */
      , (27883, 150,        103) /* HookPlacement - Hook */
      , (27883, 151,          2) /* HookType - Wall */
      , (27883, 169,   67242245) /* TsysMutationData */;

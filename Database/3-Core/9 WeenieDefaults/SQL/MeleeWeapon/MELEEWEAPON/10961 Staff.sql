@@ -18,7 +18,7 @@ VALUES (10961,   1,          1) /* ItemType - MeleeWeapon */
      , (10961,  49,         60) /* WeaponTime */
      , (10961,  51,          1) /* CombatUse - Melee */
      , (10961,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (10961,  94,         16) /* TargetType - Reedshark */;
+     , (10961,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10961,  22, True ) /* Inscribable */;

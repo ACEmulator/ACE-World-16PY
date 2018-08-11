@@ -14,7 +14,7 @@ VALUES (15719,   1,        128) /* ItemType - Misc */
      , (15719,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15719,  19,      10000) /* Value */
      , (15719,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15719,  94,        128) /* TargetType - 128 */
+     , (15719,  94,        128) /* TargetType - Misc */
      , (15719, 150,        103) /* HookPlacement - Hook */
      , (15719, 151,          1) /* HookType - Floor */;
 

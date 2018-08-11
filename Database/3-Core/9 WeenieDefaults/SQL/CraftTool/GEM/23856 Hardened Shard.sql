@@ -15,7 +15,7 @@ VALUES (23856,   1,       2048) /* ItemType - Gem */
      , (23856,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (23856,  19,          0) /* Value */
      , (23856,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23856,  94,          2) /* TargetType - Banderling */
+     , (23856,  94,          2) /* TargetType - Armor */
      , (23856, 150,        103) /* HookPlacement - Hook */
      , (23856, 151,          2) /* HookType - Wall */;
 

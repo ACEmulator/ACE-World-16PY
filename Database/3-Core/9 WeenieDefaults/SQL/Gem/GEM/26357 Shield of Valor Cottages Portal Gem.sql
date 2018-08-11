@@ -16,7 +16,7 @@ VALUES (26357,   1,       2048) /* ItemType - Gem */
      , (26357,  18,          1) /* UiEffects - Magical */
      , (26357,  19,        500) /* Value */
      , (26357,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (26357,  94,         16) /* TargetType - Reedshark */
+     , (26357,  94,         16) /* TargetType - Creature */
      , (26357, 106,        210) /* ItemSpellcraft */
      , (26357, 107,         50) /* ItemCurMana */
      , (26357, 108,         50) /* ItemMaxMana */

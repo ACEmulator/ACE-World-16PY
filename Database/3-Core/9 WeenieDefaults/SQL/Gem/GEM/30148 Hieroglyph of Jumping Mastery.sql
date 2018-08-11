@@ -16,7 +16,7 @@ VALUES (30148,   1,       2048) /* ItemType - Gem */
      , (30148,  18,          1) /* UiEffects - Magical */
      , (30148,  19,          0) /* Value */
      , (30148,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30148,  94,         16) /* TargetType - Reedshark */
+     , (30148,  94,         16) /* TargetType - Creature */
      , (30148, 150,        103) /* HookPlacement - Hook */
      , (30148, 151,         11) /* HookType - Floor, Wall, Yard */;
 

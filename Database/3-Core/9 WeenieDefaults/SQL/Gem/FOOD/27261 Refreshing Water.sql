@@ -14,7 +14,7 @@ VALUES (27261,   1,         32) /* ItemType - Food */
      , (27261,  18,          1) /* UiEffects - Magical */
      , (27261,  19,       1000) /* Value */
      , (27261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27261,  94,         16) /* TargetType - Reedshark */
+     , (27261,  94,         16) /* TargetType - Creature */
      , (27261, 106,        150) /* ItemSpellcraft */
      , (27261, 107,         50) /* ItemCurMana */
      , (27261, 108,         50) /* ItemMaxMana */

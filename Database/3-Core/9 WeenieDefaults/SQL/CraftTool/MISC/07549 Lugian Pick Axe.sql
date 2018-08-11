@@ -14,7 +14,7 @@ VALUES (7549,   1,        128) /* ItemType - Misc */
      , (7549,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (7549,  19,       1500) /* Value */
      , (7549,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7549,  94,        128) /* TargetType - 128 */
+     , (7549,  94,        128) /* TargetType - Misc */
      , (7549, 150,        104) /* HookPlacement - XXXUnknown68 */
      , (7549, 151,          2) /* HookType - Wall */;
 

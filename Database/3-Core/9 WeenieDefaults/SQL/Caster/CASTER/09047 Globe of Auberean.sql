@@ -12,7 +12,7 @@ VALUES (9047,   1,      32768) /* ItemType - Caster */
      , (9047,  19,         10) /* Value */
      , (9047,  46,        512) /* DefaultCombatStyle - Magic */
      , (9047,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9047,  94,         16) /* TargetType - Reedshark */
+     , (9047,  94,         16) /* TargetType - Creature */
      , (9047, 150,        103) /* HookPlacement - Hook */
      , (9047, 151,          1) /* HookType - Floor */;
 

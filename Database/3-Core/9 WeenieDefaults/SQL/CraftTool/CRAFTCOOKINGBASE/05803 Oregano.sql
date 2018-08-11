@@ -15,7 +15,7 @@ VALUES (5803,   1,    4194304) /* ItemType - CraftCookingBase */
      , (5803,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5803,  19,         10) /* Value */
      , (5803,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5803,  94,    4194336) /* TargetType - 4194336 */;
+     , (5803,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5803,   1, 'Oregano') /* Name */

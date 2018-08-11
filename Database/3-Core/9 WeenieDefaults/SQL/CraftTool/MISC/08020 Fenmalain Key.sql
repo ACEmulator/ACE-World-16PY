@@ -14,7 +14,7 @@ VALUES (8020,   1,        128) /* ItemType - Misc */
      , (8020,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (8020,  19,          0) /* Value */
      , (8020,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8020,  94,        128) /* TargetType - 128 */
+     , (8020,  94,        128) /* TargetType - Misc */
      , (8020, 150,        103) /* HookPlacement - Hook */
      , (8020, 151,          2) /* HookType - Wall */;
 

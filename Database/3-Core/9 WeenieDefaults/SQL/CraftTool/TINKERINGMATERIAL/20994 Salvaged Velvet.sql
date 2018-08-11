@@ -17,7 +17,7 @@ VALUES (20994,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (20994,  33,          1) /* Bonded - Bonded */
      , (20994,  91,        100) /* MaxStructure */
      , (20994,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20994,  94,        257) /* TargetType - 257 */
+     , (20994,  94,        257) /* TargetType - Weapon */
      , (20994, 131,          7) /* MaterialType - Velvet */
      , (20994, 150,        103) /* HookPlacement - Hook */
      , (20994, 151,          9) /* HookType - Floor, Yard */;

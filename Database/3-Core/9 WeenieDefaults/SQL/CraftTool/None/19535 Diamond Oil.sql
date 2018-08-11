@@ -14,7 +14,7 @@ VALUES (19535,   3,         82) /* PaletteTemplate - PinkPurple */
      , (19535,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (19535,  19,         10) /* Value */
      , (19535,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (19535,  94,   75497472) /* TargetType - 75497472 */;
+     , (19535,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19535,  22, True ) /* Inscribable */;

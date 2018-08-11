@@ -14,7 +14,7 @@ VALUES (8777,   1,        128) /* ItemType - Misc */
      , (8777,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8777,  19,          0) /* Value */
      , (8777,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8777,  94,        128) /* TargetType - 128 */
+     , (8777,  94,        128) /* TargetType - Misc */
      , (8777, 150,        103) /* HookPlacement - Hook */
      , (8777, 151,         11) /* HookType - Floor, Wall, Yard */;
 

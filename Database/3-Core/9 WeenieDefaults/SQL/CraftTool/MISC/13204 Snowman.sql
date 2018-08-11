@@ -13,7 +13,7 @@ VALUES (13204,   1,        128) /* ItemType - Misc */
      , (13204,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (13204,  19,         44) /* Value */
      , (13204,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (13204,  94,    4194564) /* TargetType - 4194564 */
+     , (13204,  94,    4194564) /* TargetType - Clothing, MissileWeapon, CraftCookingBase */
      , (13204, 150,        103) /* HookPlacement - Hook */
      , (13204, 151,          9) /* HookType - Floor, Yard */;
 

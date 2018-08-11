@@ -14,7 +14,7 @@ VALUES (4761,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4761,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4761,  19,          3) /* Value */
      , (4761,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4761,  94,    4194336) /* TargetType - 4194336 */;
+     , (4761,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4761,   1, 'Flour') /* Name */

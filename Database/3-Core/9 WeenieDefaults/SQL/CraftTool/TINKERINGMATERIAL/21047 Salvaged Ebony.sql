@@ -17,7 +17,7 @@ VALUES (21047,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21047,  33,          1) /* Bonded - Bonded */
      , (21047,  91,        100) /* MaxStructure */
      , (21047,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21047,  94,      35215) /* TargetType - 35215 */
+     , (21047,  94,      35215) /* TargetType - Jewelry, Misc, Gem, RedirectableItemEnchantmentTarget */
      , (21047, 131,         73) /* MaterialType - Ebony */
      , (21047, 150,        103) /* HookPlacement - Hook */
      , (21047, 151,          9) /* HookType - Floor, Yard */;

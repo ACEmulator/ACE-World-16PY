@@ -14,7 +14,7 @@ VALUES (14897,   1,    4194304) /* ItemType - CraftCookingBase */
      , (14897,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14897,  19,         25) /* Value */
      , (14897,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14897,  94,    4194592) /* TargetType - 4194592 */
+     , (14897,  94,    4194592) /* TargetType - Food, MissileWeapon, CraftCookingBase */
      , (14897, 150,        103) /* HookPlacement - Hook */
      , (14897, 151,         11) /* HookType - Floor, Wall, Yard */;
 

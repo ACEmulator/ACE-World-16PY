@@ -9,7 +9,7 @@ VALUES (8553,   1,        128) /* ItemType - Misc */
      , (8553,  19,        200) /* Value */
      , (8553,  83,         16) /* ActivationResponse - Talk */
      , (8553,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (8553,  94,        128) /* TargetType - 128 */
+     , (8553,  94,        128) /* TargetType - Misc */
      , (8553, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

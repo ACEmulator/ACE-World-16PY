@@ -14,7 +14,7 @@ VALUES (9318,   1,        128) /* ItemType - Misc */
      , (9318,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9318,  19,          0) /* Value */
      , (9318,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9318,  94,        128) /* TargetType - 128 */
+     , (9318,  94,        128) /* TargetType - Misc */
      , (9318, 150,        103) /* HookPlacement - Hook */
      , (9318, 151,          2) /* HookType - Wall */;
 

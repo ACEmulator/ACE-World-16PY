@@ -15,7 +15,7 @@ VALUES (151,   1,    4194304) /* ItemType - CraftCookingBase */
      , (151,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (151,  19,          1) /* Value */
      , (151,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (151,  94,    4194304) /* TargetType - 4194304 */
+     , (151,  94,    4194304) /* TargetType - CraftCookingBase */
      , (151, 150,        103) /* HookPlacement - Hook */
      , (151, 151,          1) /* HookType - Floor */;
 

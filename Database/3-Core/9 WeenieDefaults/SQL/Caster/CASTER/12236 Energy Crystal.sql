@@ -12,7 +12,7 @@ VALUES (12236,   1,      32768) /* ItemType - Caster */
      , (12236,  33,          1) /* Bonded - Bonded */
      , (12236,  46,        512) /* DefaultCombatStyle - Magic */
      , (12236,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (12236,  94,         16) /* TargetType - Reedshark */
+     , (12236,  94,         16) /* TargetType - Creature */
      , (12236, 106,        170) /* ItemSpellcraft */
      , (12236, 107,       1000) /* ItemCurMana */
      , (12236, 108,       1200) /* ItemMaxMana */

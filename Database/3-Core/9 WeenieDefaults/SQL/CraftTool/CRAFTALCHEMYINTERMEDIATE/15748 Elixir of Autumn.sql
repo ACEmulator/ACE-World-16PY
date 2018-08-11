@@ -15,7 +15,7 @@ VALUES (15748,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (15748,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15748,  19,         10) /* Value */
      , (15748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15748,  94,        136) /* TargetType - 136 */
+     , (15748,  94,        136) /* TargetType - Jewelry, Misc */
      , (15748, 150,        103) /* HookPlacement - Hook */
      , (15748, 151,         11) /* HookType - Floor, Wall, Yard */;
 

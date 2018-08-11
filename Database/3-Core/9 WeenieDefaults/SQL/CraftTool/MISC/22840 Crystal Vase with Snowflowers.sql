@@ -14,7 +14,7 @@ VALUES (22840,   1,        128) /* ItemType - Misc */
      , (22840,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22840,  19,      10000) /* Value */
      , (22840,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22840,  94,        128) /* TargetType - 128 */
+     , (22840,  94,        128) /* TargetType - Misc */
      , (22840, 150,        103) /* HookPlacement - Hook */
      , (22840, 151,          1) /* HookType - Floor */;
 

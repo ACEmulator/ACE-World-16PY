@@ -17,7 +17,7 @@ VALUES (9042,   1,       2048) /* ItemType - Gem */
      , (9042,  19,         10) /* Value */
      , (9042,  33,          1) /* Bonded - Bonded */
      , (9042,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (9042,  94,         16) /* TargetType - Reedshark */
+     , (9042,  94,         16) /* TargetType - Creature */
      , (9042, 106,        210) /* ItemSpellcraft */
      , (9042, 107,        250) /* ItemCurMana */
      , (9042, 108,        250) /* ItemMaxMana */

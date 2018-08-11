@@ -14,7 +14,7 @@ VALUES (20170,   1,      32768) /* ItemType - Caster */
      , (20170,  36,       9999) /* ResistMagic */
      , (20170,  46,        512) /* DefaultCombatStyle - Magic */
      , (20170,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20170,  94,         16) /* TargetType - Reedshark */
+     , (20170,  94,         16) /* TargetType - Creature */
      , (20170, 106,        300) /* ItemSpellcraft */
      , (20170, 107,        600) /* ItemCurMana */
      , (20170, 108,        600) /* ItemMaxMana */

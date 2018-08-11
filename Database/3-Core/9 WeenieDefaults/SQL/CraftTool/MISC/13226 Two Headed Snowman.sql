@@ -13,7 +13,7 @@ VALUES (13226,   1,        128) /* ItemType - Misc */
      , (13226,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (13226,  19,         45) /* Value */
      , (13226,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (13226,  94,          4) /* TargetType - Mosswart */
+     , (13226,  94,          4) /* TargetType - Clothing */
      , (13226, 150,        103) /* HookPlacement - Hook */
      , (13226, 151,          9) /* HookType - Floor, Yard */;
 

@@ -13,7 +13,7 @@ VALUES (13206,   1,        128) /* ItemType - Misc */
      , (13206,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (13206,  19,         28) /* Value */
      , (13206,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (13206,  94,        256) /* TargetType - 256 */
+     , (13206,  94,        256) /* TargetType - MissileWeapon */
      , (13206, 150,        103) /* HookPlacement - Hook */
      , (13206, 151,          9) /* HookType - Floor, Yard */;
 

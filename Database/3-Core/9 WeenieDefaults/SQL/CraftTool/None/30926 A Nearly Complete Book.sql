@@ -14,7 +14,7 @@ VALUES (30926,   5,         90) /* EncumbranceVal */
      , (30926,  19,          0) /* Value */
      , (30926,  33,          1) /* Bonded - Bonded */
      , (30926,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30926,  94,       8192) /* TargetType - 8192 */
+     , (30926,  94,       8192) /* TargetType - Writable */
      , (30926, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

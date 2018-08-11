@@ -14,7 +14,7 @@ VALUES (24727,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (24727,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (24727,  19,        500) /* Value */
      , (24727,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24727,  94,    4196992) /* TargetType - 4196992 */
+     , (24727,  94,    4196992) /* TargetType - LockableMagicTarget, Gem, CraftCookingBase */
      , (24727, 150,        103) /* HookPlacement - Hook */
      , (24727, 151,          9) /* HookType - Floor, Yard */;
 

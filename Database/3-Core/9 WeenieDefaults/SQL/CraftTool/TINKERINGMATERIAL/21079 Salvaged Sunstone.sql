@@ -17,7 +17,7 @@ VALUES (21079,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21079,  33,          1) /* Bonded - Bonded */
      , (21079,  91,        100) /* MaxStructure */
      , (21079,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21079,  94,        257) /* TargetType - 257 */
+     , (21079,  94,        257) /* TargetType - Weapon */
      , (21079, 131,         41) /* MaterialType - Sunstone */
      , (21079, 150,        103) /* HookPlacement - Hook */
      , (21079, 151,          9) /* HookType - Floor, Yard */;

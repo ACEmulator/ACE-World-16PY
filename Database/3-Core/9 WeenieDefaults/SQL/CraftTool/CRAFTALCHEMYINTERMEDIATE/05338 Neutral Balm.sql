@@ -14,7 +14,7 @@ VALUES (5338,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5338,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5338,  19,        140) /* Value */
      , (5338,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5338,  94,   75497472) /* TargetType - 75497472 */
+     , (5338,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */
      , (5338, 150,        103) /* HookPlacement - Hook */
      , (5338, 151,         11) /* HookType - Floor, Wall, Yard */;
 

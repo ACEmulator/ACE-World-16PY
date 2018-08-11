@@ -18,7 +18,7 @@ VALUES (29582,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (29582,  91,        100) /* MaxStructure */
      , (29582,  92,        100) /* Structure */
      , (29582,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29582,  94,        257) /* TargetType - 257 */
+     , (29582,  94,        257) /* TargetType - Weapon */
      , (29582, 105,        100) /* ItemWorkmanship */
      , (29582, 131,         41) /* MaterialType - Sunstone */
      , (29582, 150,        103) /* HookPlacement - Hook */

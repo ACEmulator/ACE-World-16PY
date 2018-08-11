@@ -10,7 +10,7 @@ VALUES (23888,   1,      16384) /* ItemType - Key */
      , (23888,  91,          1) /* MaxStructure */
      , (23888,  92,          1) /* Structure */
      , (23888,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23888,  94,        640) /* TargetType - 640 */
+     , (23888,  94,        640) /* TargetType - LockableMagicTarget */
      , (23888, 150,        104) /* HookPlacement - XXXUnknown68 */
      , (23888, 151,          2) /* HookType - Wall */;
 

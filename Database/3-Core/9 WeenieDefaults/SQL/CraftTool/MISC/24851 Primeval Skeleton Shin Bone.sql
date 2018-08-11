@@ -14,7 +14,7 @@ VALUES (24851,   1,        128) /* ItemType - Misc */
      , (24851,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (24851,  19,          0) /* Value */
      , (24851,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24851,  94,        128) /* TargetType - 128 */
+     , (24851,  94,        128) /* TargetType - Misc */
      , (24851, 150,        103) /* HookPlacement - Hook */
      , (24851, 151,          2) /* HookType - Wall */;
 
